@@ -8,7 +8,7 @@ weight: 13
 url: /de/net/slide-comments-manipulation/add-slide-comments/
 ---
 
-In der Welt des Präsentationsmanagements kann die Möglichkeit, Kommentare zu Folien hinzuzufügen, bahnbrechend sein. Kommentare verbessern nicht nur die Zusammenarbeit, sondern helfen auch beim Verständnis und der Überarbeitung von Folieninhalten. Mit Aspose.Slides für .NET, einer leistungsstarken und vielseitigen Bibliothek, können Sie mühelos Kommentare in Ihre Präsentationsfolien einfügen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens von Kommentaren zu einer Folie mit Aspose.Slides für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling in der Welt der .NET-Entwicklung sind, dieses Tutorial bietet Ihnen alle Einblicke, die Sie benötigen.
+In der Welt des Präsentationsmanagements kann die Möglichkeit, Kommentare zu Folien hinzuzufügen, bahnbrechend sein. Kommentare verbessern nicht nur die Zusammenarbeit, sondern helfen auch beim Verständnis und der Überarbeitung von Folieninhalten. Mit Aspose.Slides für .NET, einer leistungsstarken und vielseitigen Bibliothek, können Sie mühelos Kommentare in Ihre Präsentationsfolien einbauen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens von Kommentaren zu einer Folie mit Aspose.Slides für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling in der Welt der .NET-Entwicklung sind, dieses Tutorial bietet Ihnen alle Einblicke, die Sie benötigen.
 
 ## Voraussetzungen
 

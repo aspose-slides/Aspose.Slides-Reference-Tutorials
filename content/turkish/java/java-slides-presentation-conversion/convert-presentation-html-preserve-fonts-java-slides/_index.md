@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Calibri ve Arial gibi varsayılan sunum yazı tiplerini hariç tutun
+    // Calibri ve Arial gibi varsayılan sunum yazı tiplerini hariç tutun
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ Bu kod parçacığında:
 
 -  Giriş PowerPoint sunumunu kullanarak yüklüyoruz`Presentation`.
 
-- Bir yazı tipi listesi tanımlarız (`fontNameExcludeList`) HTML'ye yerleştirilmesinin dışında tutmak istediğimiz. Bu, dosya boyutunu küçültmek amacıyla Calibri ve Arial gibi yaygın yazı tiplerini hariç tutmak için kullanışlıdır.
+- Bir yazı tipi listesi tanımlarız (`fontNameExcludeList`HTML'ye yerleştirilmesinin dışında tutmak istediğimiz. Bu, dosya boyutunu küçültmek amacıyla Calibri ve Arial gibi yaygın yazı tiplerini hariç tutmak için kullanışlıdır.
 
 -  Bir örneğini oluşturuyoruz`EmbedAllFontsHtmlController` ve yazı tipi hariç tutma listesini ona iletin.
 
@@ -98,7 +98,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunu orijinal 
 
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
-Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Burada](https://downloads.aspose.com/slides/java/) En son sürümü almak için.
+ Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret etmek[Burada](https://downloads.aspose.com/slides/java/) En son sürümü almak için.
 
 ### Hariç tutulan yazı tiplerinin listesini özelleştirebilir miyim?
 

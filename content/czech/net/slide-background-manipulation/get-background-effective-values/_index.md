@@ -41,7 +41,7 @@ using Aspose.Slides;
 using Aspose.Slides.Effects;
 ```
 
-Nyní, když jsme nastavili naše prostředí, přejděme k extrahování efektivních hodnot pozadí snímku.
+Nyní, když jsme nastavili naše prostředí, přejděme k extrakci efektivních hodnot pozadí snímku.
 
 ## Krok 2: Vytvořte prezentační třídu
 

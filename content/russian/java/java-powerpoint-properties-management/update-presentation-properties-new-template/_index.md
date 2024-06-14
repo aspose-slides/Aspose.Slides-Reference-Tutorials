@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1: Определите основной метод
 Создайте основной метод, в котором вы инициируете процесс обновления свойств презентации с помощью нового шаблона. Этот метод служит точкой входа для вашего Java-приложения.

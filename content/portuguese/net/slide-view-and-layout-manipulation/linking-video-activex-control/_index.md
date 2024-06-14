@@ -79,4 +79,4 @@ O tamanho do vídeo vinculado pode afetar o tamanho geral e o desempenho da sua 
 ### Conclusão:
 Seguindo as etapas descritas neste guia, você pode vincular facilmente um vídeo via controle ActiveX em uma apresentação usando Aspose.Slides for .NET. Este recurso permite criar apresentações envolventes e interativas que incorporam conteúdo multimídia perfeitamente.
 
- Para mais detalhes e opções avançadas, você pode consultar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+ Para obter mais detalhes e opções avançadas, você pode consultar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).

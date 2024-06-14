@@ -22,7 +22,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/change-ole-object-dat
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

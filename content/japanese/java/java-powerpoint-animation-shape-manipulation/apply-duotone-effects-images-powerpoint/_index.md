@@ -19,7 +19,7 @@ PowerPoint プレゼンテーションに視覚効果を追加すると、プレ
 まず、Java プログラムに必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -41,7 +41,7 @@ try {
     IPPImage backgroundImage = presentation.getImages().addImage(imageBytes);
 ```
 ## ステップ4: 画像をスライドの背景として設定する
-次に、画像を最初のスライドの背景として設定します。これには、背景の種類と塗りつぶしの形式を構成することが含まれます。
+次に、最初のスライドの背景として画像を設定します。これには、背景の種類と塗りつぶしの形式を構成することが含まれます。
 ```java
     presentation.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
     presentation.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);

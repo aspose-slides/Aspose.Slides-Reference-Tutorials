@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Percorso alla presentazione dell'origine
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Percorso e nome della cartella per il salvataggio dei dati di markdown
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Crea opzioni di creazione Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Imposta il parametro per il rendering di tutti gli elementi (gli elementi raggruppati verranno renderizzati insieme).

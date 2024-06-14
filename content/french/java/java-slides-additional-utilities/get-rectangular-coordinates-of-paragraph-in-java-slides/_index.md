@@ -14,7 +14,7 @@ Dans ce didacticiel, nous montrerons comment récupérer les coordonnées rectan
 
 ## Conditions préalables
 
-Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée et configurée dans votre environnement de développement Java. Vous pouvez le télécharger depuis[ici](https://downloads.aspose.com/slides/java).
+ Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée et configurée dans votre environnement de développement Java. Vous pouvez le télécharger depuis[ici](https://downloads.aspose.com/slides/java).
 
 ## Étape 1 : Importez les bibliothèques nécessaires
 
@@ -107,7 +107,7 @@ Oui, Aspose.Slides pour Java est bien adapté au traitement par lots de fichiers
 
 ### Où puis-je trouver plus d’exemples et de documentation ?
 
- Vous pouvez trouver plus d’exemples de code et une documentation détaillée pour Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/)site web. De plus, vous pouvez explorer le[Forums Aspose.Slides](https://forum.aspose.com/c/slides) pour le soutien et les discussions de la communauté.
+ Vous pouvez trouver plus d’exemples de code et une documentation détaillée pour Aspose.Slides pour Java sur le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/) site web. De plus, vous pouvez explorer le[Forums Aspose.Slides](https://forum.aspose.com/c/slides) pour le soutien et les discussions de la communauté.
 
 ### Ai-je besoin d’une licence pour utiliser Aspose.Slides pour Java ?
 

@@ -1,6 +1,6 @@
 ---
-title: Διαχείριση Ιδιοτήτων Java PowerPoint
-linktitle: Διαχείριση Ιδιοτήτων Java PowerPoint
+title: Διαχείριση ιδιοτήτων Java PowerPoint
+linktitle: Διαχείριση ιδιοτήτων Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε πώς να διαχειριστείτε τις ιδιότητες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αποκτήστε πρόσβαση, τροποποιήστε και ενημερώστε τις ιδιότητες χωρίς κόπο με τα περιεκτικά μας σεμινάρια.
 type: docs

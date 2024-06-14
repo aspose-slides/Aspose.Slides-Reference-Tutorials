@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Instelling van de indeling van secundaire rasterlijnen voor de Categorie-as
+// Instelling van de indeling van secundaire rasterlijnen voor de Categorie-as
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Kleur van het plotgebied instellen
+//Kleur van het plotgebied instellen
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides voor .NET is een krachtige bibliotheek waarmee .NET-ontwikkelaars 
 
 ### 3. Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
 
-Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET krijgen van[hier](https://releases.aspose.com/).
+ Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET krijgen van[hier](https://releases.aspose.com/).
 
 ### 4. Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Slides voor .NET?
 

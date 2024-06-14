@@ -67,6 +67,6 @@ Het optimaliseren van weergaveopties in Aspose.Slides voor .NET biedt een kracht
 ### Vraag: Zijn er meer lay-outopties beschikbaar voor dia's?
 A: Ja, bekijk de Aspose.Slides-documentatie voor een uitgebreide lijst met lay-outopties.
 ### Vraag: Kan ik aangepaste lettertypen gebruiken die niet op mijn systeem zijn geïnstalleerd?
- A: Ja, geef het lettertypebestandspad op met behulp van de`AddFonts` methode in de`FontsLoader` klas.
+ A: Ja, geef het pad naar het lettertypebestand op met behulp van de`AddFonts` methode in de`FontsLoader` klas.
 ### Vraag: Waar kan ik hulp zoeken of contact maken met de gemeenschap?
-A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor steun en betrokkenheid van de gemeenschap.
+ A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor steun en betrokkenheid van de gemeenschap.

@@ -11,7 +11,7 @@ url: /zh/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 在动态的演示设计世界中，加入椭圆等形状可以增添一丝创造力和专业性。Aspose.Slides for .NET 提供了一种强大的解决方案，用于以编程方式操作演示文件。本教程将指导您使用 Aspose.Slides for .NET 在演示幻灯片中创建简单的椭圆形。
 ## 先决条件
 在深入学习本教程之前，请确保您已满足以下先决条件：
--  Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET 库。您可以从[发布页面](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：确保您已安装 Aspose.Slides for .NET 库。您可以从[发布页面](https://releases.aspose.com/slides/net/).
 - 开发环境：在您的机器上设置 .NET 开发环境。
 ## 导入命名空间
 在您的 .NET 项目中，首先导入必要的命名空间：

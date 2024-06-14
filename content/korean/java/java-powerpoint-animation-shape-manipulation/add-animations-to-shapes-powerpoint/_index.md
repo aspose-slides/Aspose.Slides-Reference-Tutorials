@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 ---
 ## 소개
 매력적인 프레젠테이션을 만들려면 도형과 텍스트에 애니메이션을 추가해야 하는 경우가 많습니다. 애니메이션을 사용하면 슬라이드를 더욱 역동적이고 매력적으로 만들어 청중의 관심을 유지할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 도형에 애니메이션을 추가하는 과정을 안내합니다. 이 기사를 마치면 전문적인 애니메이션을 쉽게 만들 수 있게 될 것입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 필요한 모든 것이 갖추어져 있는지 확인하십시오.
 1.  Aspose.Slides for Java 라이브러리: Aspose.Slides for Java 라이브러리가 설치되어 있어야 합니다. 당신은 할 수 있습니다[여기에서 다운로드하십시오](https://releases.aspose.com/slides/java/).
 2. JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요.
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 시작하려면 Aspose.Slides 및 기타 필수 Java 클래스에 필요한 패키지를 가져와야 합니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -101,10 +101,10 @@ if (pres != null) pres.dispose();
 ### Java용 Aspose.Slides란 무엇입니까?
 Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 조작할 수 있는 강력한 API입니다.
 ### Aspose.Slides를 무료로 사용할 수 있나요?
- Aspose.Slides를 무료로 사용해 볼 수 있습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/). 계속 사용하려면 유료 라이센스가 필요합니다.
+ Aspose.Slides를 무료로 사용해 볼 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/). 계속 사용하려면 유료 라이센스가 필요합니다.
 ### Aspose.Slides와 호환되는 Java 버전은 무엇입니까?
 Aspose.Slides는 Java SE 6 이상을 지원합니다.
 ### 여러 도형에 다양한 애니메이션을 어떻게 추가하나요?
 각 모양에 대해 단계를 반복하고 필요에 따라 다양한 효과를 지정하여 여러 모양에 다양한 애니메이션을 추가할 수 있습니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
- 확인해 보세요[선적 서류 비치](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11) 더 많은 예제와 도움말을 보려면
+ 확인해 보세요[선적 서류 비치](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11)더 많은 예제와 도움말을 보려면

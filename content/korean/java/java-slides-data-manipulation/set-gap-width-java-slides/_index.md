@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-gap-width-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 차트의 간격 너비를 설정하는 과정을 안내합니다. 간격 너비는 차트의 열이나 막대 사이의 간격을 결정하여 차트의 시각적 모양을 제어할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides for Java 라이브러리가 설치되어 있는지 확인하세요. Aspose 웹사이트에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // 두 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Nadat u de extra dia's hebt ingevoegd, moet u de gewijzigde presentatie opslaan.
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Vervangen`"path_to_modified_presentation.pptx"` met het gewenste pad en de bestandsnaam voor de gewijzigde presentatie.
+ Vervangen`"path_to_modified_presentation.pptx"`met het gewenste pad en de bestandsnaam voor de gewijzigde presentatie.
 
 ## Conclusie
 
@@ -98,7 +98,7 @@ U kunt de inhoud van de nieuwe dia's aanpassen door toegang te krijgen tot hun v
 
 ### Wat moet ik doen als ik dia's aan het begin van de presentatie wil invoegen?
 
- Als u dia's aan het begin van de presentatie wilt invoegen, stelt u de`insertionIndex` naar`0`.
+Als u dia's aan het begin van de presentatie wilt invoegen, stelt u de`insertionIndex` naar`0`.
 
 ### Is het mogelijk om de lay-out van de ingevoegde dia's te wijzigen?
 

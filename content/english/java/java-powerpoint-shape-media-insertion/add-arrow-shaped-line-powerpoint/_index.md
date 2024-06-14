@@ -19,7 +19,7 @@ Before we begin, ensure you have the following prerequisites:
 To get started, import the necessary packages in your Java class:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

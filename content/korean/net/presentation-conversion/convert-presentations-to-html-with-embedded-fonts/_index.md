@@ -14,7 +14,7 @@ url: /ko/net/presentation-conversion/convert-presentations-to-html-with-embedded
 
 튜토리얼을 시작하기 전에 Aspose.Slides for .NET에 대해 간략하게 소개하겠습니다. 이는 개발자가 .NET 응용 프로그램에서 PowerPoint 프레젠테이션 작업을 할 수 있게 해주는 강력한 라이브러리입니다. Aspose.Slides를 사용하면 프로그래밍 방식으로 PowerPoint 파일을 생성, 수정 및 변환할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 갖추어져 있는지 확인하세요.
 

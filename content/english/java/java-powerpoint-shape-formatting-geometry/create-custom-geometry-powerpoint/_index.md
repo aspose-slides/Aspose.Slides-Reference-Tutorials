@@ -20,7 +20,7 @@ Before we get started, ensure you have the following:
 Before diving into the coding part, let's import the necessary packages.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;

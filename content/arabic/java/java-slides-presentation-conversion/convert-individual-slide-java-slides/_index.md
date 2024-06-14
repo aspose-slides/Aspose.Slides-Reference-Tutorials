@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### كيف أتعامل مع التنسيق الإضافي للأشكال والنص داخل الشرائح؟
 
-يمكنك تمديد`CustomFormattingController` فئة للتعامل مع التنسيق الخاص بالشكل من خلال تنفيذ`writeShapeStart` و`writeShapeEnd` الأساليب وتطبيق منطق التنسيق المخصص داخلها.
+ يمكنك تمديد`CustomFormattingController` فئة للتعامل مع التنسيق الخاص بالشكل من خلال تنفيذ`writeShapeStart` و`writeShapeEnd` الأساليب وتطبيق منطق التنسيق المخصص داخلها.

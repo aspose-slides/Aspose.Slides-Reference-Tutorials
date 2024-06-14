@@ -20,13 +20,13 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều
 Trước khi đi sâu vào phần mã hóa, hãy nhập các gói cần thiết.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Bước 1: Thiết lập dự án
-Để bắt đầu, hãy thiết lập dự án Java của bạn và đưa thư viện Aspose.Slides for Java vào phần phụ thuộc của dự án của bạn. Nếu bạn đang sử dụng Maven, hãy thêm phần phụ thuộc sau vào`pom.xml`:
+ Để bắt đầu, hãy thiết lập dự án Java của bạn và đưa thư viện Aspose.Slides for Java vào phần phụ thuộc của dự án của bạn. Nếu bạn đang sử dụng Maven, hãy thêm phần phụ thuộc sau vào`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

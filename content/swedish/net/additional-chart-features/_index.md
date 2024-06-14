@@ -26,7 +26,7 @@ Aspose.Slides för .NET erbjuder en mängd ytterligare diagramfunktioner som gö
 ## Ytterligare diagramfunktioner Handledningar
 ### [Ytterligare diagramfunktioner i Aspose.Slides](./additional-chart-features/)
 Utforska avancerade diagramfunktioner i Aspose.Slides för .NET. Förbättra presentationer med interaktivitet och dynamiska bilder.
-### [Få diagramdataintervall](./chart-get-range/)
+### [Hämta diagramdataintervall](./chart-get-range/)
 Lär dig hur du extraherar diagramdata effektivt med Aspose.Slides för .NET. Steg-för-steg guide med kodexempel och vanliga frågor.
 ### [Återställ arbetsbok från diagram](./chart-recover-workbook/)
 Lär dig hur du återställer en arbetsbok från ett diagram med Aspose.Slides för .NET. Extrahera diagramdata och skapa Excel-arbetsböcker programmatiskt.

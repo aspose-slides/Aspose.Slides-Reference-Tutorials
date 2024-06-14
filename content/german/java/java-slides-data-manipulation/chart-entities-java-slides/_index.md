@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Festlegen des Formats für Nebengitterlinien für die Kategorieachse
+// Festlegen des Formats für Nebengitterlinien für die Kategorieachse
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Festlegen des Formats für Nebengitterlinien für die Kategorieachse
+	// Festlegen des Formats für Nebengitterlinien für die Kategorieachse
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// Legen Sie fest, ob Diagrammlegenden ohne überlappende Diagramme angezeigt werden sollen.
 	chart.getLegend().setOverlay(true);
 	// Aufzeichnen der ersten Reihe auf der sekundären Werteachse
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Farbschema für die Rückwand festlegen
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Festlegen der Farbe des Plotbereichs
+	//Festlegen der Farbe des Plotbereichs
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Präsentation speichern

@@ -88,7 +88,7 @@ En este tutorial, ha aprendido cómo utilizar Aspose.Slides para .NET para crear
 
  Al aplicar transiciones como "Círculo" y "Peine", puedes darle vida a tus diapositivas y hacer que tus presentaciones sean más atractivas. No olvides explorar el[documentación](https://reference.aspose.com/slides/net/) para obtener más detalles y características de Aspose.Slides para .NET.
 
-¿Tiene alguna pregunta o necesita más ayuda? Consulte el foro de la comunidad Aspose.Slides[aquí](https://forum.aspose.com/).
+ ¿Tiene alguna pregunta o necesita más ayuda? Consulte el foro de la comunidad Aspose.Slides[aquí](https://forum.aspose.com/).
 
 ## Preguntas frecuentes
 

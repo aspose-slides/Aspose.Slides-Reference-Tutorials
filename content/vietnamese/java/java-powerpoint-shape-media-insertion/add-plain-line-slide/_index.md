@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Bước 1: Thiết lập môi trường
@@ -61,4 +61,4 @@ Tuyệt đối! Aspose.Slides cung cấp nhiều loại hình dạng, bao gồm 
 ### Tôi có thể thêm văn bản vào slide cùng với hình dạng đường thẳng không?
 Có, bạn có thể thêm văn bản, hình ảnh và nội dung khác vào trang trình bày bằng API Aspose.Slides.
 ### Có bản dùng thử miễn phí cho Aspose.Slides không?
-Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides từ[đây](https://releases.aspose.com/).
+ Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides từ[đây](https://releases.aspose.com/).

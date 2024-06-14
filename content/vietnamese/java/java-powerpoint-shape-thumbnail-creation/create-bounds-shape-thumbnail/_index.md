@@ -19,7 +19,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

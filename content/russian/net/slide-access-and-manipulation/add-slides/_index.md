@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 После вставки дополнительных слайдов следует сохранить измененную презентацию.
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Заменять`"path_to_modified_presentation.pptx"` с желаемым путем и именем файла для измененной презентации.
+ Заменять`"path_to_modified_presentation.pptx"`с желаемым путем и именем файла для измененной презентации.
 
 ## Заключение
 
@@ -98,7 +98,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### Что делать, если я хочу вставить слайды в начало презентации?
 
- Чтобы вставить слайды в начало презентации, установите`insertionIndex` к`0`.
+Чтобы вставить слайды в начало презентации, установите`insertionIndex` к`0`.
 
 ### Можно ли изменить макет вставленных слайдов?
 

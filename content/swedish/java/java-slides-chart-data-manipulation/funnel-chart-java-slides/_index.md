@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/funnel-chart-java-slides/
 
 ## Introduktion till att skapa ett trattdiagram i Aspose.Slides för Java
 
-I den här handledningen kommer vi att guida dig genom processen att skapa ett trattdiagram i en PowerPoint-presentation med Aspose.Slides för Java. Trattdiagram är användbara för att visualisera data som successivt avsmalnar eller "kanaler" genom olika stadier eller kategorier. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig uppnå detta.
+den här handledningen kommer vi att guida dig genom processen att skapa ett trattdiagram i en PowerPoint-presentation med Aspose.Slides för Java. Trattdiagram är användbara för att visualisera data som successivt avsmalnar eller "kanaler" genom olika stadier eller kategorier. Vi kommer att tillhandahålla steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig uppnå detta.
 
 ## Förutsättningar
 
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Lägg till ett trattdiagram till den första bilden vid koordinater (50, 50) med dimensioner (500, 400).
+    //Lägg till ett trattdiagram till den första bilden vid koordinater (50, 50) med dimensioner (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Du kan justera positionen och storleken på trattdiagrammet genom att ändra koo
 
 ### Kan jag exportera diagrammet till olika format, som PDF eller bild?
 
- Ja, Aspose.Slides för Java låter dig exportera presentationen med trattdiagrammet till olika format, inklusive PDF, bildformat och mer. Du kan använda`SaveFormat` alternativ för att ange önskat utdataformat när presentationen sparas.
+Ja, Aspose.Slides för Java låter dig exportera presentationen med trattdiagrammet till olika format, inklusive PDF, bildformat och mer. Du kan använda`SaveFormat` alternativ för att ange önskat utdataformat när presentationen sparas.

@@ -14,7 +14,7 @@ V tomto tutoriálu prozkoumáme, jak spravovat vlastnosti a vytvářet grafy na 
 
 ## Předpoklady
 
- Než začneme, ujistěte se, že máte v projektu nainstalovanou a nastavenou knihovnu Aspose.Slides pro Javu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
+Než začneme, ujistěte se, že máte v projektu nainstalovanou a nastavenou knihovnu Aspose.Slides pro Javu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/slides/java/).
 
 ## Přidání grafu na snímek
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Vezměte druhou řadu grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -175,13 +175,13 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jsme se ponořili do světa správy vlastností a vytváření grafů na snímcích Java pomocí Aspose.Slides. Aspose.Slides je robustní Java API, které umožňuje vývojářům efektivně pracovat s prezentacemi v PowerPointu. Popsali jsme základní kroky a poskytli příklady zdrojového kódu, které vás provedou celým procesem.
+tomto tutoriálu jsme se ponořili do světa správy vlastností a vytváření grafů na snímcích Java pomocí Aspose.Slides. Aspose.Slides je robustní Java API, které umožňuje vývojářům efektivně pracovat s prezentacemi v PowerPointu. Popsali jsme základní kroky a poskytli příklady zdrojového kódu, které vás provedou celým procesem.
 
 ## FAQ
 
 ### Jak mohu změnit typ grafu?
 
- Typ grafu můžete změnit úpravou`ChartType`parametr při přidávání grafu. Dostupné typy grafů najdete v dokumentaci Aspose.Slides.
+ Typ grafu můžete změnit úpravou`ChartType` parametr při přidávání grafu. Dostupné typy grafů najdete v dokumentaci Aspose.Slides.
 
 ### Mohu přizpůsobit barvy grafu?
 

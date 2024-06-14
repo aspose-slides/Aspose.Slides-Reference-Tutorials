@@ -14,7 +14,7 @@ W świecie programowania .NET Aspose.Slides jest potężną i wszechstronną bib
 
 Zanim przejdziemy do procesu licencjonowania, powinieneś spełnić następujące wymagania wstępne:
 
-1.  Aspose.Slides dla .NET: Upewnij się, że zainstalowałeś Aspose.Slides dla .NET w swoim środowisku programistycznym. Bibliotekę można pobrać ze strony[link do pobrania](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides dla .NET: Upewnij się, że zainstalowałeś Aspose.Slides dla .NET w swoim środowisku programistycznym. Bibliotekę można pobrać ze strony[link do pobrania](https://releases.aspose.com/slides/net/).
 
 2.  Plik licencji: Zdobądź ważny plik licencji Aspose.Slides, zwykle o nazwie „Aspose.Slides.lic”. Licencje można uzyskać od firmy[Strona Aspose](https://purchase.aspose.com/buy) lub poproś o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
 
@@ -54,11 +54,11 @@ license.SetLicense("Aspose.Slides.lic");
 
 ## Weryfikacja licencji
 
-Po ustaleniu ścieżki pliku licencji należy koniecznie upewnić się, że licencja jest ważna i aktywna. Ten etap sprawdzania poprawności gwarantuje, że będziesz mógł nadal korzystać z Aspose.Slides bez żadnych ograniczeń prawnych.
+Po ustawieniu ścieżki pliku licencji należy koniecznie upewnić się, że licencja jest ważna i aktywna. Ten etap sprawdzania poprawności gwarantuje, że będziesz mógł nadal korzystać z Aspose.Slides bez żadnych ograniczeń prawnych.
 
 ### Krok 4: Weryfikacja licencji
 
-Aby sprawdzić, czy Twoja licencja jest ważna, użyj przycisku`IsLicensed` metoda. Zwraca wartość logiczną wskazującą, czy Twoja licencja jest aktywna.
+ Aby sprawdzić, czy Twoja licencja jest ważna, użyj przycisku`IsLicensed` metoda. Zwraca wartość logiczną wskazującą, czy Twoja licencja jest aktywna.
 
 ```csharp
 if (license.IsLicensed())

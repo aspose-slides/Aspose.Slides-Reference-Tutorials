@@ -38,7 +38,7 @@ Padroneggiando queste tecniche, puoi migliorare significativamente la tua effici
 ### [Clona diapositiva nella posizione specificata in PowerPoint](./clone-slide-specified-position-powerpoint/)
 Clona le diapositive di PowerPoint nelle posizioni specificate senza sforzo con Aspose.Slides per Java. Guida dettagliata passo passo per principianti ed esperti.
 ### [Clona diapositiva alla fine di un'altra presentazione](./clone-slide-end-another-presentation-powerpoint/)
-Scopri come clonare una diapositiva alla fine di un'altra presentazione utilizzando Aspose.Slides per Java in questo tutorial completo passo dopo passo.
+Scopri come clonare una diapositiva alla fine di un'altra presentazione utilizzando Aspose.Slides per Java in questo tutorial completo passo passo.
 ### [Clona diapositiva alla fine di un'altra presentazione in una posizione specifica](./clone-slide-end-another-specific-position-powerpoint/)
 Scopri come clonare le diapositive in Java Guida passo passo all'utilizzo di Aspose.Slides per Java per clonare diapositive da una presentazione PowerPoint a un'altra.
 ### [Clona diapositiva nella sezione specificata in PowerPoint](./clone-slide-specified-section-powerpoint/)

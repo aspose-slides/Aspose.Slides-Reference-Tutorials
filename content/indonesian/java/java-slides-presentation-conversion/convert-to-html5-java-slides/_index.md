@@ -74,7 +74,7 @@ try {
 // Jalur ke direktori dokumen
 String dataDir = "Your Document Directory";
 // Jalur ke file keluaran
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Ekspor presentasi yang berisi transisi slide, animasi, dan animasi bentuk ke HTML5

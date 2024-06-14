@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## 2. lépés: Hozzon létre egy prezentációs objektumot
- Példányosítsa a`Presentation`osztályt a PPTX fájl reprezentálására. Ez lesz a PowerPoint bemutató alapja.
+ Példányosítsa a`Presentation` osztályt a PPTX fájl reprezentálására. Ez lesz a PowerPoint bemutató alapja.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Nyissa meg a prezentáció első diáját, mivel ez lesz a vászon, ahol hozzáa
 ISlide sld = pres.Slides[0];
 ```
 ## 4. lépés: Téglalap alakzat hozzáadása
- Használja a`Shapes` A dia tulajdonsága egy téglalap típusú automatikus alakzat hozzáadásához. Adja meg a téglalap helyzetét és méreteit.
+ Használja a`Shapes` dia tulajdonsága egy téglalap típusú automatikus alakzat hozzáadásához. Adja meg a téglalap helyzetét és méreteit.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

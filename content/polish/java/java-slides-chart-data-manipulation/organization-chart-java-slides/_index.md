@@ -22,7 +22,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 ## Krok 1: Skonfiguruj swój projekt Java
 
 1. Utwórz nowy projekt Java w preferowanym środowisku IDE.
-2.  Dodaj bibliotekę Aspose.Slides for Java do swojego projektu. Bibliotekę można pobrać ze strony[Strona Aspose](https://products.aspose.com/slides/java) uwzględnij to jako zależność.
+2.  Dodaj bibliotekę Aspose.Slides for Java do swojego projektu. Bibliotekę można pobrać ze strony[Strona Aspose](https://products.aspose.com/slides/java) i uwzględnij to jako zależność.
 
 ## Krok 2: Zaimportuj wymagane biblioteki
 W swojej klasie Java zaimportuj niezbędne biblioteki do pracy z Aspose.Slides:
@@ -84,7 +84,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się tworzyć schemat organizacyjny w aplikacji Java Slides przy użyciu interfejsu API Aspose.Slides for Java. Możesz dostosować wygląd i zawartość schematu organizacyjnego zgodnie ze swoimi konkretnymi wymaganiami. Aspose.Slides zapewnia szeroką gamę funkcji do pracy z prezentacjami programu PowerPoint, co czyni go potężnym narzędziem do zarządzania i tworzenia treści wizualnych.
+tym samouczku nauczyłeś się tworzyć schemat organizacyjny w aplikacji Java Slides przy użyciu interfejsu API Aspose.Slides for Java. Możesz dostosować wygląd i zawartość schematu organizacyjnego zgodnie ze swoimi konkretnymi wymaganiami. Aspose.Slides zapewnia szeroką gamę funkcji do pracy z prezentacjami programu PowerPoint, co czyni go potężnym narzędziem do zarządzania i tworzenia treści wizualnych.
 
 ## Często zadawane pytania
 

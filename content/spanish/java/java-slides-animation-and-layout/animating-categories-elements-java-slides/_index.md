@@ -55,7 +55,7 @@ for (int i = 0; i < chart.getChartData().getCategories().size(); i++) {
 }
 ```
 
-Animamos los elementos de las categorías dentro del gráfico. Este código agrega un efecto de desvanecimiento a todo el gráfico y luego agrega un efecto de "Aparecer" a cada elemento dentro de cada categoría. Ajuste el tipo y subtipo del efecto según sea necesario.
+Animamos los elementos de las categorías dentro del gráfico. Este código agrega un efecto de desvanecimiento a todo el gráfico y luego agrega un efecto de "Aparecer" a cada elemento dentro de cada categoría. Ajuste el tipo y subtipo de efecto según sea necesario.
 
 ## Paso 5: guarde la presentación
 

@@ -57,7 +57,7 @@ try {
 När skrivskyddet har tagits bort (om det finns) kan du spara den ändrade presentationen till en ny fil.
 
 ```java
-// Sparar presentation
+// Sparar presentationen
 presentation.save(dataDir + "File_Without_WriteProtection_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -74,7 +74,7 @@ try
 	if (presentation.getProtectionManager().isWriteProtected())
 		// Ta bort skrivskydd
 		presentation.getProtectionManager().removeWriteProtection();
-	// Sparar presentation
+	// Sparar presentationen
 	presentation.save(dataDir + "File_Without_WriteProtection_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -85,7 +85,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur du tar bort skrivskydd från PowerPoint-presentationer med Java och Aspose.Slides for Java-biblioteket. Det här kan vara användbart i situationer där du behöver göra ändringar i en skyddad presentation programmässigt.
+I den här handledningen har vi lärt oss hur du tar bort skrivskydd från PowerPoint-presentationer med Java och Aspose.Slides for Java-biblioteket. Detta kan vara användbart i situationer där du behöver göra ändringar i en skyddad presentation programmässigt.
 
 ## FAQ's
 

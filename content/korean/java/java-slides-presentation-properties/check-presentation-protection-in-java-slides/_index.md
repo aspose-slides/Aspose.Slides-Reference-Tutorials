@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/check-presentation-protection-in-java-slid
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 프레젠테이션 보호를 확인하는 방법을 살펴보겠습니다. 우리는 쓰기 보호 확인과 프레젠테이션에 대한 공개 보호 확인이라는 두 가지 시나리오를 다룰 것입니다. 각 시나리오에 대한 단계별 코드 예제를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설정되어 있는지 확인하세요. Aspose 웹사이트에서 다운로드하여 프로젝트의 종속성에 추가할 수 있습니다.
 
@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //소스 프레젠테이션 경로
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // IPpresentationInfo 인터페이스를 통해 쓰기 방지 비밀번호를 확인하세요.
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

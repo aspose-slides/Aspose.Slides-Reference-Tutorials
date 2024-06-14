@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Votre code pour créer une présentation va ici.
+    // Votre code pour créer une présentation va ici.
 }
 ```
 ## Étape 2 : Ajouter une forme animée

@@ -55,7 +55,7 @@ pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
 ```
 Jetzt enthält Ihre Präsentation einen nahtlos integrierten Videorahmen!
 ## Abschluss
-Das Einfügen von Videoframes in Präsentationsfolien mit Aspose.Slides für .NET ist ein unkomplizierter Vorgang, der Ihren Inhalten eine dynamische Note verleiht. Verbessern Sie Ihre Präsentationen durch die Nutzung multimedialer Elemente, fesseln Sie Ihr Publikum und bieten Sie ein unvergessliches Erlebnis.
+Das Einfügen von Videoframes in Präsentationsfolien mit Aspose.Slides für .NET ist ein unkomplizierter Vorgang, der Ihren Inhalten eine dynamische Note verleiht. Verbessern Sie Ihre Präsentationen, indem Sie Multimedia-Elemente nutzen, Ihr Publikum fesseln und ein unvergessliches Erlebnis bieten.
 ## FAQs
 ### F1: Kann ich einer einzelnen Folie mehrere Video-Frames hinzufügen?
 Ja, Sie können einer einzelnen Folie mehrere Videobilder hinzufügen, indem Sie den im Lernprogramm beschriebenen Vorgang für jedes Videobild wiederholen.

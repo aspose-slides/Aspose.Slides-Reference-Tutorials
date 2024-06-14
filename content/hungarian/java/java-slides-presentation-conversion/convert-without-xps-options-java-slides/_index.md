@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Convert_XPS.pptx");
 ```
 
- Győződjön meg róla, hogy kicserélte`"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
+ Győződjön meg róla, hogy cseréli`"Convert_XPS.pptx"` a PowerPoint-fájl tényleges nevével.
 
 ## 3. lépés: Mentés XPS-ként XPS-beállítások nélkül
 
@@ -92,4 +92,4 @@ finally
 
 ### Hogyan kezelhetem a kivételeket az átalakítási folyamat során?
 
- Kivételkezelést alkalmazhat az átalakítási folyamat során esetlegesen előforduló hibák kecses kezelésére. Ahogy a kódban látható, a`try` és`finally` blokkot használják az erőforrások megfelelő selejtezésének biztosítására, még akkor is, ha kivétel történik.
+ A kivételkezelést megvalósíthatja az átalakítási folyamat során esetlegesen előforduló hibák kecses kezelése érdekében. Ahogy a kódban látható, a`try` és`finally` blokkot használják az erőforrások megfelelő selejtezésének biztosítására, még akkor is, ha kivétel történik.

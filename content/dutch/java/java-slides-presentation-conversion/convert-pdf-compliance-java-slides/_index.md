@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Volledige broncode voor conversie naar PDF-compatibiliteit in Java-dia's
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Het gebruik van PDF/A-2a-compliance is essentieel als u elektronische documenten
 
 ## Kan ik het PDF-complianceniveau wijzigen in iets anders dan PDF/A-2a?
 
- Ja, Aspose.Slides voor Java biedt flexibiliteit bij het kiezen van het PDF-complianceniveau. In de verstrekte code kunt u het nalevingsniveau wijzigen door de`pdfOptions.setCompliance()` lijn. U kunt andere nalevingsniveaus kiezen, zoals PDF/A-1a, PDF/A-1b, PDF/A-3a, enz., afhankelijk van uw specifieke vereisten.
+ Ja, Aspose.Slides voor Java biedt flexibiliteit bij het kiezen van het PDF-complianceniveau. In de verstrekte code kunt u het nalevingsniveau wijzigen door de`pdfOptions.setCompliance()`lijn. U kunt andere nalevingsniveaus kiezen, zoals PDF/A-1a, PDF/A-1b, PDF/A-3a, enz., afhankelijk van uw specifieke vereisten.
 
 ## Wat zijn de verschillen tussen PDF/A-2a en andere complianceniveaus?
 
@@ -113,4 +113,4 @@ Ja, u heeft doorgaans een geldige licentie nodig voor Aspose.Slides voor Java om
 
 ## Waar kan ik meer informatie vinden over Aspose.Slides voor Java- en PDF-compliance?
 
- Voor meer gedetailleerde informatie over Aspose.Slides voor Java en de functies ervan, inclusief instellingen voor PDF-compatibiliteit, kunt u de documentatie op de website raadplegen.[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/)Bovendien kunt u codevoorbeelden en tutorials verkennen om uw kennis van de bibliotheek verder te vergroten.
+ Voor meer gedetailleerde informatie over Aspose.Slides voor Java en de functies ervan, inclusief instellingen voor PDF-compatibiliteit, kunt u de documentatie op de website raadplegen.[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/). Bovendien kunt u codevoorbeelden en tutorials verkennen om uw kennis van de bibliotheek verder te vergroten.

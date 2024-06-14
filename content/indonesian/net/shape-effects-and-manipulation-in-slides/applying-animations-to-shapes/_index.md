@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Kode Anda untuk membuat presentasi ada di sini.
+    // Kode Anda untuk membuat presentasi ada di sini.
 }
 ```
 ## Langkah 2: Tambahkan Bentuk Animasi

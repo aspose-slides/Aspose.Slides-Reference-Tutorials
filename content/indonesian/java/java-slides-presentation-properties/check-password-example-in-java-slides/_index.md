@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //Jalur untuk presentasi sumber
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // Periksa Kata Sandi melalui Antarmuka IPpresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

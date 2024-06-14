@@ -14,12 +14,12 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 -  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides for Java Library: Töltse le a legújabb verziót innen[Aspose.Slides a Java kiadásokhoz](https://releases.aspose.com/slides/java/).
 - Integrált fejlesztői környezet (IDE): bármilyen Java IDE, például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
-- A Java alapvető ismerete: Bár ez az oktatóanyag kezdők számára készült, a Java alapvető ismerete hasznos lesz.
+- Java alapvető ismerete: Bár ez az oktatóanyag kezdők számára készült, a Java alapvető ismerete hasznos lesz.
 ## Csomagok importálása
 A kezdéshez importálnia kell az Aspose.Slides szükséges csomagjait. A következőképpen teheti meg:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Ebben a részben az alakzatok elrejtésének folyamatát a PowerPointban könnyen követhető lépésekre bontjuk. Minden lépéshez tartozik egy címsor és egy részletes magyarázat.
 ## 1. lépés: Állítsa be projektjét
@@ -74,7 +74,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan rejthet el alakzatokat egy PowerPoint
 ### Mi az Aspose.Slides for Java?
 Az Aspose.Slides for Java egy hatékony API a PowerPoint fájlok programozott kezeléséhez. Lehetővé teszi a fejlesztőknek prezentációk létrehozását, módosítását és kezelését Microsoft PowerPoint nélkül.
 ### Hogyan rejthetek el egy alakzatot a PowerPointban Java használatával?
- Egy alakzatot a beállításával elrejthet`setHidden` tulajdonát`true`Ez magában foglalja az alakzat azonosítását annak alternatív szövege alapján, és a dián lévő alakzatok áthurkolását.
+ Egy alakzatot a beállításával elrejthet`setHidden` tulajdonát`true`. Ez magában foglalja az alakzat azonosítását annak alternatív szövege alapján, és a dián lévő alakzatok áthurkolását.
 ### Használhatom az Aspose.Slides for Java programot más programozási nyelvekkel?
 Az Aspose.Slides különféle programozási nyelvekhez érhető el, beleértve a .NET-t, a Python-t és a C-t++. Ez az útmutató azonban kifejezetten a Java-ra vonatkozik.
 ### Létezik ingyenes próbaverzió az Aspose.Slides számára?

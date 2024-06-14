@@ -19,7 +19,7 @@ Voordat we ingaan op de stapsgewijze handleiding, zijn er een aantal vereisten w
 Allereerst moet u de benodigde pakketten importeren uit Aspose.Slides. Hiermee krijgt u toegang tot alle functionaliteiten die nodig zijn voor het maken en manipuleren van PowerPoint-presentaties.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Laten we het proces van het toevoegen van segmenten aan geometrische vormen opsplitsen in gedetailleerde stappen om duidelijkheid en begrijpelijkheid te garanderen.
 ## Stap 1: Maak een nieuwe presentatie
@@ -75,6 +75,6 @@ Nee, Aspose.Slides voor Java is speciaal ontworpen voor gebruik met Java. Aspose
 ### Is Aspose.Slides voor Java gratis?
  Aspose.Slides voor Java is een betaalde bibliotheek, maar u kunt een[gratis proefperiode](https://releases.aspose.com/) om de eigenschappen ervan te testen.
 ### Welke soorten vormen kan ik aan een presentatie toevoegen met Aspose.Slides?
-U kunt verschillende vormen toevoegen, waaronder rechthoeken, ellipsen, lijnen en aangepaste geometrische vormen.
+kunt verschillende vormen toevoegen, waaronder rechthoeken, ellipsen, lijnen en aangepaste geometrische vormen.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen van de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) waar je vragen kunt stellen en hulp kunt krijgen van de community en ontwikkelaars.

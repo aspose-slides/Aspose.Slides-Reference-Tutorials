@@ -73,7 +73,7 @@ pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
 ## よくある質問
 ### 1 つの図形に複数のアニメーションを適用できますか?
 はい、Aspose.Slides を使用すると、単一の図形に複数のアニメーション効果を追加できるため、複雑なアニメーションを柔軟に作成できます。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 Aspose.Slides はさまざまな PowerPoint バージョンとの互換性を保証し、プレゼンテーションがさまざまなプラットフォーム間でシームレスに動作することを保証します。
 ### Aspose.Slides に関する追加のリソースとサポートはどこで見つかりますか?
 探索する[ドキュメンテーション](https://reference.aspose.com/slides/net/)そして、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).

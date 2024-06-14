@@ -21,12 +21,12 @@ url: /hi/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: डेटा निर्देशिका सेट करें
 मुख्य कार्यक्षमता में जाने से पहले, अपनी प्रस्तुति फ़ाइल तक पहुंचने के लिए डेटा निर्देशिका सेट करें:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## चरण 2: लोड विकल्प बनाएँ
 प्रेजेंटेशन फ़ाइल तक कैसे पहुँचा जाएगा, इसे कॉन्फ़िगर करने के लिए लोड विकल्पों को इंस्टेंटिएट करें। इस उदाहरण में, हम एक्सेस पासवर्ड को शून्य पर सेट कर रहे हैं और केवल दस्तावेज़ गुणों को लोड करने में सक्षम कर रहे हैं:

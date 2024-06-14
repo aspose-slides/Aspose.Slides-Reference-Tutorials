@@ -11,7 +11,7 @@ url: /it/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 In questo tutorial esploreremo come connettere le forme utilizzando i siti di connessione in PowerPoint utilizzando Aspose.Slides per Java. Questa potente libreria ci consente di manipolare a livello di codice le presentazioni di PowerPoint, rendendo attività come il collegamento di forme semplici ed efficienti.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
-1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricarlo e installarlo da[sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. Puoi scaricarlo e installarlo da[sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 2.  Aspose.Slides per Java: scarica e installa Aspose.Slides per Java dal file[pagina di download](https://releases.aspose.com/slides/java/).
 3. Ambiente di sviluppo integrato (IDE): scegli un IDE per lo sviluppo Java, come IntelliJ IDEA, Eclipse o NetBeans.
 
@@ -19,7 +19,7 @@ Prima di iniziare, assicurati di avere quanto segue:
 Per iniziare, importa i pacchetti necessari nel tuo progetto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: accesso alla raccolta di forme
 Accedi alla raccolta di forme per la diapositiva selezionata:

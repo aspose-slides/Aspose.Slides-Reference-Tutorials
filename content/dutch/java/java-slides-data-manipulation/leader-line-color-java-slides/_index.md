@@ -1,6 +1,6 @@
 ---
-title: Kleur van de aanhaallijn in Java-dia's
-linktitle: Kleur van de aanhaallijn in Java-dia's
+title: Kleur van de leiderlijn in Java-dia's
+linktitle: Kleur van de leiderlijn in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de kleuren van aanhaallijnen in PowerPoint-diagrammen kunt wijzigen met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncodevoorbeelden.
 type: docs
@@ -20,7 +20,7 @@ Zorg ervoor dat u over het volgende beschikt voordat u begint:
 
 ## Stap 1: Laad de presentatie
 
-Eerst moet u de PowerPoint-presentatie laden die het diagram bevat dat u wilt wijzigen. Vervangen`presentationName` met het pad naar uw PowerPoint-bestand.
+ Eerst moet u de PowerPoint-presentatie laden die het diagram bevat dat u wilt wijzigen. Vervangen`presentationName` met het pad naar uw PowerPoint-bestand.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Vervolgens hebben we toegang tot de diagram- en gegevenslabels in de presentatie
 // Haal het diagram uit de eerste dia
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Haal de reeks van het diagram op
+//Haal de reeks van het diagram op
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Ontvang labels van de eerste serie
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Sla ten slotte de presentatie met de gewijzigde aanhaallijnkleuren op in een nieuw bestand.
 
 ```java
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Volledige broncode voor de kleur van de aanhaallijn in Java-dia's
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Haal het diagram uit de eerste dia
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Haal de reeks van het diagram op
+            //Haal de reeks van het diagram op
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Download lebels uit de eerste serie
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ Om andere diagrameigenschappen te openen en te wijzigen, kunt u de verschillende
 
 ### Heb ik een licentie nodig om Aspose.Slides voor Java in een commercieel project te gebruiken?
 
-Ja, u heeft over het algemeen een geldige licentie nodig om Aspose.Slides voor Java in een commercieel project te gebruiken. Aspose biedt verschillende licentieopties, waaronder een gratis evaluatielicentie voor test- en proefdoeleinden. Voor productiegebruik dient u echter over de juiste commerciële licentie te beschikken. Bezoek de[Aspose aankooppagina](https://purchase.aspose.com/) voor licentiegegevens.
+ Ja, u heeft over het algemeen een geldige licentie nodig om Aspose.Slides voor Java in een commercieel project te gebruiken. Aspose biedt verschillende licentieopties, waaronder een gratis evaluatielicentie voor test- en proefdoeleinden. Voor productiegebruik dient u echter over de juiste commerciële licentie te beschikken. Bezoek de[Aspose aankooppagina](https://purchase.aspose.com/) voor licentiegegevens.
 
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Slides voor Java?
 

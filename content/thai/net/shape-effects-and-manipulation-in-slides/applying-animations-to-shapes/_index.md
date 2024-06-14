@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //รหัสของคุณสำหรับการสร้างงานนำเสนออยู่ที่นี่
+    // รหัสของคุณสำหรับการสร้างงานนำเสนออยู่ที่นี่
 }
 ```
 ## ขั้นตอนที่ 2: เพิ่มรูปร่างเคลื่อนไหว

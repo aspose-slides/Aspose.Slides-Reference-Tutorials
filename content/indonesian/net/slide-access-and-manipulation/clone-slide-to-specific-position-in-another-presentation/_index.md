@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Setelah menyalin dan menempatkan slide, kita perlu menyimpan presentasi tujuan yang dimodifikasi.
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

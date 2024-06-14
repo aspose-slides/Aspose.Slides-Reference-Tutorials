@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //รหัสของคุณสำหรับการแก้ไขพื้นหลังสไลด์จะอยู่ที่นี่
     // เราจะสำรวจเรื่องนี้ในขั้นตอนถัดไป
     
-    // บันทึกงานนำเสนอที่แก้ไข
+    //บันทึกงานนำเสนอที่แก้ไข
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## ขั้นตอนที่ 6: บันทึกงานนำเสนอที่แก้ไข
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

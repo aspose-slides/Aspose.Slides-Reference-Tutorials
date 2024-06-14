@@ -23,7 +23,7 @@ Pelajari cara membuat dan menyesuaikan bagan menakjubkan menggunakan Aspose.Slid
 Sempurnakan presentasi menggunakan Aspose.Slides untuk .NET: Tambahkan slide tata letak dengan mulus untuk konten yang menarik secara visual.
 ### [Bandingkan Slide dalam Presentasi](./check-slides-comparison/)
 Pelajari cara membandingkan slide dalam presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber untuk perbandingan yang akurat.
-### [Dapatkan Contoh Placeholder Dasar](./get-base-placeholder-example/)
+### [Dapatkan Contoh Placeholder Basis](./get-base-placeholder-example/)
 Pelajari cara menggunakan Aspose.Slides untuk .NET untuk membuat presentasi PowerPoint dinamis dengan placeholder dasar.
 ### [Kelola Header dan Footer di Slide](./header-footer-manager/)
 Pelajari cara mengelola header dan footer di slide menggunakan Aspose.Slides untuk .NET. Sesuaikan presentasi Anda dengan mudah dan presisi.

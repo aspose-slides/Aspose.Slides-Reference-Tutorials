@@ -78,7 +78,7 @@ Las limitaciones de tamaño de archivo pueden variar según su licencia. Es reco
 
 ### 4. ¿Hay soporte técnico disponible para Aspose.Slides para .NET?
 
- Sí, puede obtener soporte técnico y asistencia de la comunidad Aspose visitando el[asponer foros](https://forum.aspose.com/).
+ Sí, puede obtener soporte técnico y asistencia de la comunidad Aspose visitando el[Asponer foros](https://forum.aspose.com/).
 
 ### 5. ¿Puedo obtener una licencia temporal de Aspose.Slides para .NET?
 

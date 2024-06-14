@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서는 사용자 정의가 핵심입니다. Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하기 위한 강력한 솔루션을 제공합니다. 일반적인 요구 사항 중 하나는 슬라이드 내에서 특정 도형을 숨기는 기능입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 모양을 숨기는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: .NET에 대해 선호하는 개발 환경을 설정합니다.

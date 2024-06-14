@@ -112,7 +112,7 @@ Animowanie elementów kategorii na wykresie może poprawić atrakcyjność wizua
 ### 1. Jak mogę pobrać Aspose.Slides dla .NET?
  Możesz pobrać Aspose.Slides dla .NET z[ten link](https://releases.aspose.com/slides/net/).
 
-### 2. Czy potrzebuję doświadczenia w kodowaniu, aby używać Aspose.Slides dla .NET?
+### 2. Czy potrzebuję doświadczenia w kodowaniu, aby korzystać z Aspose.Slides dla .NET?
 Chociaż doświadczenie w kodowaniu jest pomocne, Aspose.Slides dla .NET zapewnia obszerną dokumentację i przykłady, które mogą pomóc użytkownikom na wszystkich poziomach umiejętności.
 
 ### 3. Czy mogę używać Aspose.Slides for .NET z dowolną wersją programu PowerPoint?

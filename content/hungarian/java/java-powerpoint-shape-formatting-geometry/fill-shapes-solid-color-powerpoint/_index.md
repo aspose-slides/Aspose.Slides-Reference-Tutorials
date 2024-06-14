@@ -20,7 +20,7 @@ Mielőtt belemerülnénk a kódba, meg kell felelnie néhány előfeltételnek:
 Az Aspose.Slides for Java használatának megkezdéséhez importálnia kell a szükséges csomagokat. A következőképpen teheti meg:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1. lépés: Állítsa be projektjét
@@ -56,16 +56,16 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## 5. lépés: Állítsa a Kitöltés típusát Szilárd értékre
  Az alakzat egyszínű kitöltéséhez állítsa a kitöltés típusát értékre`Solid`.
 ```java
-//Állítsa a kitöltés típusát Solid értékre
+// Állítsa a kitöltés típusát Solid értékre
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## 6. lépés: Válassza ki és alkalmazza a színt
 Válasszon színt az alakzathoz. Itt sárgát használunk, de bármilyen színt választhat.
 ```java
-// Állítsa be a téglalap színét
+//Állítsa be a téglalap színét
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Végül mentse a módosított prezentációt egy fájlba.
 ```java
 // Írja ki a PPTX fájlt a lemezre
@@ -84,4 +84,4 @@ Igen, az Aspose.Slides for Java lehetővé teszi a meglévő PowerPoint-prezent�
 ### Létezik ingyenes próbaverzió az Aspose.Slides for Java számára?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[Aspose honlapja](https://releases.aspose.com/).
 ### Hol találok további dokumentációt és támogatást?
- A részletes dokumentáció elérhető a[Aspose honlapja](https://reference.aspose.com/slides/java/) , és kérhet támogatást a[Aspose fórumok](https://forum.aspose.com/c/slides/11).
+ A részletes dokumentáció elérhető a[Aspose honlapja](https://reference.aspose.com/slides/java/) és kérhet támogatást a[Aspose fórumok](https://forum.aspose.com/c/slides/11).

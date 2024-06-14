@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-layout-mode-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트의 레이아웃 모드를 설정하는 방법을 알아봅니다. 레이아웃 모드는 슬라이드 내 차트의 위치와 크기를 결정합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

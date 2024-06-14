@@ -108,7 +108,7 @@ Pomyślnie animowałeś elementy kategorii na slajdzie Java przy użyciu Aspose.
 
 ### Jak mogę dostosować efekty animacji?
 
- Możesz dostosować efekty animacji, zmieniając`EffectType` I`EffectSubtype` parametrów podczas dodawania efektów do elementów wykresu. Więcej szczegółów na temat dostępnych efektów animacji można znaleźć w dokumentacji Aspose.Slides for Java.
+ Możesz dostosować efekty animacji, zmieniając`EffectType` I`EffectSubtype` parametry podczas dodawania efektów do elementów wykresu. Więcej szczegółów na temat dostępnych efektów animacji można znaleźć w dokumentacji Aspose.Slides for Java.
 
 ### Czy mogę zastosować te animacje do innych typów wykresów?
 

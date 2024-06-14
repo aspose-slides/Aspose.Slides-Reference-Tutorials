@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
     // Akses slide pertama
     ISlide sld = pres.Slides[0];
     
-    // Lanjutkan ke langkah selanjutnya...
+    // Lanjutkan ke langkah berikutnya...
 }
 ```
 ## Langkah 2: Muat Objek OLE (File Excel) ke Streaming
@@ -83,4 +83,4 @@ J: Ya, Aspose.Slides mendukung format file PowerPoint terbaru, termasuk PPTX.
 ### T: Bisakah saya mengkustomisasi tampilan Bingkai Objek OLE yang tertanam?
 J: Tentu saja, Anda dapat menyesuaikan ukuran, posisi, dan properti lain dari OLE Object Frame sesuai preferensi Anda.
 ### T: Di mana saya bisa mencari bantuan jika saya menemui kendala selama penerapan?
-J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.
+ J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.

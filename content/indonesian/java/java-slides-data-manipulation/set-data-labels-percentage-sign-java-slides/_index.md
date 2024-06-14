@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Untuk menampilkan persentase, kita perlu mengonfigurasi format angka untuk sumbu vertikal grafik.
 
 ```java
-//Setel NumberFormatLinkedToSource ke salah
+// Setel NumberFormatLinkedToSource ke salah
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Tambahkan bagan PercentsStackedColumn pada slide
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Setel NumberFormatLinkedToSource ke salah
+// Setel NumberFormatLinkedToSource ke salah
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat presentasi men
 
 ### Bisakah saya menyesuaikan ukuran font label data?
 
- Ya, Anda dapat menyesuaikan ukuran font label data dengan mengatur`setFontHeight` properti seperti yang ditunjukkan dalam kode.
+Ya, Anda dapat menyesuaikan ukuran font label data dengan mengatur`setFontHeight` properti seperti yang ditunjukkan dalam kode.
 
 ### Bagaimana cara menambahkan lebih banyak seri ke grafik?
 

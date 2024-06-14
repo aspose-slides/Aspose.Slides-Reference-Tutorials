@@ -99,7 +99,7 @@ Ebben az útmutatóban megvizsgáltuk, hogyan érhetjük el a diákat egyedi azo
 
 ### Milyen típusú diaazonosítókat támogat az Aspose.Slides?
 
-Az Aspose.Slides támogatja mind a diaindexeket, mind a diaazonosítókat azonosítóként. Bármelyik módszert is használhatja a prezentáció egyes diákjainak eléréséhez.
+Az Aspose.Slides támogatja mind a diaindexeket, mind a diaazonosítókat azonosítóként. Bármelyik módszert használhatja a prezentáció egyes diákjainak eléréséhez.
 
 ### Módosíthatom a prezentáció egyéb aspektusait ezzel a könyvtárral?
 

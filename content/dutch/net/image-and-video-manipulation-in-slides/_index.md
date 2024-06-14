@@ -21,7 +21,7 @@ Stel je een presentatie voor waarin afbeeldingen en video's naadloos met elkaar 
 In deze zelfstudie verdiepen we ons in de fijne kneepjes van beeld- en videomanipulatie met behulp van Aspose.Slides voor .NET. Hier is een voorproefje van wat u kunt verwachten:
 
 - Beeldintegratie: Ontdek hoe u afbeeldingen naadloos in dia's kunt insluiten, ze kunt positioneren en vergroten of verkleinen, en hoe u verschillende stijlen en effecten kunt toepassen om ze te laten opvallen.
-- Video insluiten: leer de kunst van het integreren van video's in dia's, het beheren van afspeelopties en het maken van interactieve multimediapresentaties.
+- Video-insluiting: leer de kunst van het integreren van video's in dia's, het beheren van afspeelopties en het maken van interactieve multimediapresentaties.
 - Extractie van afbeeldingen en video's: Ontdek technieken om afbeeldingen en video's uit bestaande dia's te extraheren, waardoor hergebruik en maatwerk mogelijk wordt.
 - Animatie en overgang: Duik in de wereld van animaties en overgangen en zie hoe afbeeldingen en video's kunnen worden gebruikt om boeiende visuele sequenties te creëren.
 

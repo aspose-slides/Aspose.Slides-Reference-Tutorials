@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //स्रोत प्रस्तुति के लिए पथ
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // IPresentationInfo इंटरफ़ेस के माध्यम से लेखन सुरक्षा पासवर्ड की जाँच करें
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

@@ -21,7 +21,7 @@ W tym samouczku omówimy, jak skonfigurować pokaz slajdów prezentacji za pomoc
 Najpierw musimy utworzyć nową prezentację programu PowerPoint. Oto jak możesz to zrobić w Javie:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -87,10 +87,10 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 
 Upewnij się, że podałeś żądaną ścieżkę pliku wyjściowego.
 
-## Kompletny kod źródłowy konfiguracji pokazu slajdów prezentacji w aplikacji Java Slides
+## Kompletny kod źródłowy do konfiguracji pokazu slajdów prezentacji w slajdach Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Pobiera ustawienia pokazu slajdów
@@ -119,7 +119,7 @@ try {
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak skonfigurować pokaz slajdów prezentacji w Javie przy użyciu Aspose.Slides dla Java. Możesz dostosować różne ustawienia pokazu slajdów, w tym czas, kolor pióra i zakres slajdów, aby tworzyć interaktywne i wciągające prezentacje.
+W tym samouczku nauczyliśmy się, jak skonfigurować pokaz slajdów prezentacji w Javie przy użyciu Aspose.Slides for Java. Możesz dostosować różne ustawienia pokazu slajdów, w tym czas, kolor pióra i zakres slajdów, aby tworzyć interaktywne i wciągające prezentacje.
 
 ## Często zadawane pytania
 

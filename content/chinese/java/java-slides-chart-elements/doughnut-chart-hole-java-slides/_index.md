@@ -48,7 +48,7 @@ try {
     //将演示文稿保存到磁盘
     presentation.save(dataDir + "DoughnutHoleSize_out.pptx", SaveFormat.Pptx);
 } finally {
-    //处置演示对象
+    //处置展示对象
     if (presentation != null) presentation.dispose();
 }
 ```

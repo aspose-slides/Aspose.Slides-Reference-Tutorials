@@ -78,13 +78,13 @@ finally
 
 ## Wniosek
 
-tym samouczku omówiliśmy podstawowe kroki konwersji widoków slajdów z notatkami w Java Slides przy użyciu Aspose.Slides. Wykonując poniższe kroki i dostosowując kod do swoich konkretnych potrzeb, możesz efektywnie manipulować i programowo konwertować prezentacje programu PowerPoint w aplikacjach Java.
+W tym samouczku omówiliśmy podstawowe kroki konwersji widoków slajdów z notatkami w Java Slides przy użyciu Aspose.Slides. Wykonując poniższe kroki i dostosowując kod do swoich konkretnych potrzeb, możesz efektywnie manipulować i programowo konwertować prezentacje programu PowerPoint w aplikacjach Java.
 
 ## Często zadawane pytania
 
 ### Jak dostosować format wyjściowy podczas konwertowania prezentacji?
 
- Można dostosować format wyjściowy, zmieniając plik`SaveFormat` wyliczenie w kodzie. Na przykład, aby zapisać prezentację w formacie PDF, użyj`SaveFormat.Pdf`.
+ Można dostosować format wyjściowy, zmieniając plik`SaveFormat`wyliczenie w kodzie. Na przykład, aby zapisać prezentację w formacie PDF, użyj`SaveFormat.Pdf`.
 
 ### Czy muszę kupić licencję na Aspose.Slides dla Java?
 
@@ -100,4 +100,4 @@ Aspose.Slides został zaprojektowany do pracy z różnymi formatami programu Pow
 
 ### Gdzie mogę znaleźć więcej przykładów kodu i samouczków dla Aspose.Slides dla Java?
 
- W witrynie można znaleźć mnóstwo przykładów kodu i samouczków[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/). Zapoznaj się z dokumentacją, aby dowiedzieć się więcej o możliwościach tej potężnej biblioteki.
+ W witrynie można znaleźć mnóstwo przykładów kodu i samouczków[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/)Zapoznaj się z dokumentacją, aby dowiedzieć się więcej o możliwościach tej potężnej biblioteki.

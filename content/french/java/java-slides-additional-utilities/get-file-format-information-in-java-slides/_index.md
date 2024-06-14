@@ -96,7 +96,7 @@ Dans ce didacticiel, nous avons appris comment obtenir des informations sur le f
 
 ### Comment obtenir la bibliothèque Aspose.Slides pour Java ?
 
- Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir du site Web Aspose à l'adresse[ce lien](https://releases.aspose.com/slides/java/)Choisissez la version appropriée pour votre projet.
+ Vous pouvez télécharger la bibliothèque Aspose.Slides pour Java à partir du site Web Aspose à l'adresse[ce lien](https://releases.aspose.com/slides/java/). Choisissez la version appropriée pour votre projet.
 
 ### Puis-je utiliser ce code avec d’autres bibliothèques de présentation Java ?
 
@@ -104,7 +104,7 @@ Ce code est spécifique à Aspose.Slides pour Java. Bien que d'autres bibliothè
 
 ### Que faire si je rencontre un format « Inconnu » ?
 
-Si le code renvoie « Le format de la présentation est inconnu », cela signifie que le format du fichier de présentation n'est pas reconnu ou pris en charge par Aspose.Slides pour Java. Assurez-vous que vous utilisez un format compatible.
+Si le code renvoie « Le format de la présentation est inconnu », cela signifie que le format du fichier de présentation n'est pas reconnu ou pris en charge par Aspose.Slides for Java. Assurez-vous que vous utilisez un format compatible.
 
 ### Aspose.Slides pour Java est-il une bibliothèque gratuite ?
 

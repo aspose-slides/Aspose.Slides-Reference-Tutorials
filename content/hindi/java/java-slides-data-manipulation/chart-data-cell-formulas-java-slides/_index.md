@@ -21,7 +21,7 @@ url: /hi/java/data-manipulation/chart-data-cell-formulas-java-slides/
 सबसे पहले, आइए एक नया पावरपॉइंट प्रेजेंटेशन बनाएं और उसमें एक चार्ट जोड़ें।
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## जावा स्लाइड्स में चार्ट डेटा सेल फ़ार्मुलों के लिए पूर्ण स्रोत कोड
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

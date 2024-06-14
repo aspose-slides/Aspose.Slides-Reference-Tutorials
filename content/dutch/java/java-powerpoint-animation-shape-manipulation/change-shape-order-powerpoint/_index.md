@@ -19,7 +19,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 Om aan de slag te gaan, moet u de benodigde pakketten importeren uit de Aspose.Slides-bibliotheek. Met deze import kunt u met presentaties, dia's en vormen werken.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In deze handleiding zullen we het proces van het veranderen van de vormvolgorde in verschillende stappen opsplitsen voor een beter begrip en een eenvoudiger implementatie.
 ## Stap 1: Laad de presentatie

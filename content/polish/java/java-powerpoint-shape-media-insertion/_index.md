@@ -18,7 +18,7 @@ Kształty i linie to podstawowe elementy, które mogą ulepszyć strukturę i wy
 
 -  Linie w kształcie strzałek: Linie strzałek mogą kierować uwagę i podkreślać ważne punkty prezentacji. Dowiedz się, jak je dodać za pomocą[Dodaj linię w kształcie strzałki w programie PowerPoint](./add-arrow-shaped-line-powerpoint/).
 - Zwykłe linie: czasami wystarczy prosta linia, aby poprawić układ slajdu. Postępuj zgodnie z samouczkiem[Dodaj prostą linię do slajdu](./add-plain-line-slide/) aby dowiedzieć się, jak to zrobić programowo.
--  Ramki obrazów o względnej wysokości: Aby zachować proporcje podczas skalowania obrazów, bardzo przydatne może być dodanie ramek o względnej wysokości. Wymeldować się[Dodaj ramkę obrazu o względnej wysokości w programie PowerPoint](./add-relative-scale-height-picture-frame-powerpoint/) szczegółowe instrukcje.
+-  Ramki obrazów o względnej wysokości: Aby zachować proporcje podczas skalowania obrazów, bardzo przydatne może być dodanie ramek obrazów o względnej wysokości. Wymeldować się[Dodaj ramkę obrazu o względnej wysokości w programie PowerPoint](./add-relative-scale-height-picture-frame-powerpoint/) szczegółowe instrukcje.
 
 ## Zawiera elementy multimedialne
 
@@ -40,14 +40,14 @@ Dowiedz się, jak dodawać linie w kształcie strzałek do prezentacji programu 
 ### [Dodaj linię w kształcie strzałki do slajdu](./add-arrow-shaped-line-slide/)
 Dowiedz się, jak dodawać linie w kształcie strzałek do slajdów programu PowerPoint za pomocą Aspose.Slides dla Java. Dostosuj style, kolory i pozycje bez wysiłku.
 ### [Dodaj ramkę audio w programie PowerPoint](./add-audio-frame-powerpoint/)
-Dowiedz się, jak dodawać ramki audio do prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki wciągającym elementom audio bez wysiłku.
+Dowiedz się, jak dodawać ramki audio do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki wciągającym elementom audio bez wysiłku.
 ### [Dodaj ramkę obiektu OLE w programie PowerPoint](./add-ole-object-frame-powerpoint/)
 Dowiedz się, jak bezproblemowo integrować ramki obiektów OLE z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java
 ### [Dodaj prostą linię do slajdu](./add-plain-line-slide/)
 Dowiedz się, jak programowo dodać prostą linię do slajdu programu PowerPoint przy użyciu Aspose.Slides dla Java. Zwiększ swoją produktywność dzięki temu przewodnikowi krok po kroku.
 ### [Dodaj ramkę obrazu o względnej wysokości w programie PowerPoint](./add-relative-scale-height-picture-frame-powerpoint/)
 Dowiedz się, jak dodawać ramki obrazów o względnej wysokości w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java, poprawiając zawartość wizualną.
-### [Dodaj przesunięcie rozciągnięcia dla wypełnienia obrazem w programie PowerPoint](./add-stretch-offset-image-fill-powerpoint/)
+### [Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint](./add-stretch-offset-image-fill-powerpoint/)
 Dowiedz się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. W zestawie tutorial krok po kroku.
 ### [Dodaj klatkę wideo w programie PowerPoint](./add-video-frame-powerpoint/)
 Dowiedz się, jak bezproblemowo integrować zawartość wideo z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java. Twoje slajdy z elementami multimedialnymi, które zaangażują odbiorców.

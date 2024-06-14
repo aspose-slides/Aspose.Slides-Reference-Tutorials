@@ -84,7 +84,7 @@ Deze code drukt de bijgewerkte tellingen in uw presentatie af, waaruit blijkt da
 ## Volledige broncode voor het verwijderen van ongebruikte lay-outmaster in Java-dia's
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

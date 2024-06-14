@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. Adım: Ortamı Ayarlayın
@@ -61,4 +61,4 @@ Kesinlikle! Aspose.Slides dikdörtgenler, daireler, oklar ve daha fazlasını i�
 ### Slayta çizgi şekliyle birlikte metin ekleyebilir miyim?
 Evet, Aspose.Slides API'sini kullanarak slayta metin, resim ve diğer içerikleri ekleyebilirsiniz.
 ### Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
-Evet, Aspose.Slides'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+ Evet, Aspose.Slides'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).

@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 프레젠테이션 슬라이드 쇼를 설정하는 방법을 살펴보겠습니다. PowerPoint 프레젠테이션을 만들고 다양한 슬라이드 쇼 설정을 구성하는 과정을 단계별로 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 추가되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/slides/java/).
 
@@ -21,7 +21,7 @@ url: /ko/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 먼저 새로운 PowerPoint 프레젠테이션을 만들어야 합니다. Java에서 이를 수행하는 방법은 다음과 같습니다.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Java 슬라이드에서 프리젠테이션 슬라이드 쇼 설정을 위한 전체 소스 코드
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// 슬라이드쇼 설정을 가져옵니다.

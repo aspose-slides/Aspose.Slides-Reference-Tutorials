@@ -34,7 +34,7 @@ import java.io.IOException;
 首先，加载要转换为动画的 PowerPoint 演示文稿。替换`"SimpleAnimations.pptx"`演示文稿文件的路径：
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 演示播放过程中，每一帧都会以 PNG 图像形式保存在指定的输出目录中。您可以根据需要自定义输出路径：
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Java 幻灯片中转换为动画的完整源代码
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

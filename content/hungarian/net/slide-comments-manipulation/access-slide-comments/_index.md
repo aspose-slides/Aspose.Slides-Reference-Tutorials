@@ -36,7 +36,7 @@ using Aspose.Slides.Comment;
 using System;
 ```
 
-Most, hogy lefedtük az előfeltételeket és importáltuk a szükséges névtereket, vessünk egy pillantást a diakommentárokhoz való hozzáférés lépésenkénti folyamatába az Aspose.Slides for .NET használatával.
+Most, hogy teljesítettük az előfeltételeket, és importáltuk a szükséges névtereket, vessünk egy pillantást a diakommentárokhoz való hozzáférés lépésenkénti folyamatába az Aspose.Slides for .NET használatával.
 
 ## 2. lépés: Állítsa be a dokumentumkönyvtárat
 
@@ -53,7 +53,7 @@ Most hozzuk létre a`Presentation` osztály, amely lehetővé teszi a PowerPoint
 ```csharp
 using (Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx"))
 {
-    // A kódod ide fog kerülni.
+    // A kódod ide kerül.
 }
 ```
 
@@ -66,7 +66,7 @@ foreach (var commentAuthor in presentation.CommentAuthors)
 {
     var author = (CommentAuthor)commentAuthor;
     
-    // A kódod ide fog kerülni.
+    // A kódod ide kerül.
 }
 ```
 

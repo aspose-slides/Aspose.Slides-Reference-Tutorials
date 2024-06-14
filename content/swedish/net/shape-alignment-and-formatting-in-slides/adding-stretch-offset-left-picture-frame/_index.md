@@ -58,7 +58,7 @@ Ange bilden för att fylla formen:
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## Steg 8: Specificera Stretch Offsets
+## Steg 8: Ange Stretch Offsets
 Definiera bildförskjutningarna från motsvarande kanter på formens begränsningsram:
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
@@ -73,7 +73,7 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Grattis! Du har framgångsrikt lagt till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET.
 ## Slutsats
-den här handledningen utforskade vi processen att manipulera bildramar i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden har du fått insikter i att arbeta med bilder, former och förskjutningar.
+I den här handledningen utforskade vi processen att manipulera bildramar i PowerPoint-presentationer med Aspose.Slides för .NET. Genom att följa den steg-för-steg-guiden har du fått insikter i att arbeta med bilder, former och förskjutningar.
 ## Vanliga frågor
 ### F: Kan jag använda sträckförskjutningar på andra former förutom rektanglar?
 S: Även om den här handledningen fokuserar på rektanglar, kan sträckförskjutningar tillämpas på olika former som stöds av Aspose.Slides.

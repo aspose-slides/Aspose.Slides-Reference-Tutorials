@@ -19,7 +19,7 @@ Before we dive into the tutorial, there are a few things you'll need:
 To get started, you need to import the necessary packages for working with Aspose.Slides and Java AWT (Abstract Window Toolkit):
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;

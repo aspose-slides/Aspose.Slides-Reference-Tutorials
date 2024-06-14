@@ -48,9 +48,9 @@ Jetzt konfigurieren Sie die HTML-Konvertierungsoptionen. In diesem Beispiel bett
 
 ```java
 Html5Options options = new Html5Options();
-//Erzwingen Sie, dass Bilder im HTML5-Dokument nicht gespeichert werden
+// Erzwingen Sie, dass Bilder im HTML5-Dokument nicht gespeichert werden
 options.setEmbedImages(true); // Auf „True“ setzen, um Bilder einzubetten
-// Legen Sie den Pfad für externe Bilder fest (falls erforderlich).
+//Legen Sie den Pfad für externe Bilder fest (falls erforderlich).
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Pfad zur Quellpräsentation
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Pfad zum HTML-Dokument
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Erzwingen Sie, dass Bilder im HTML5-Dokument nicht gespeichert werden
+	// Erzwingen Sie, dass Bilder im HTML5-Dokument nicht gespeichert werden
 	options.setEmbedImages(false);
 	// Pfad für externe Bilder festlegen
 	options.setOutputPath(outFilePath);

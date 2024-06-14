@@ -8,7 +8,7 @@ weight: 16
 url: /zh-hant/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
 ## 介紹
-在動態的簡報世界中，控制投影片的順序和組織對於有效溝通至關重要。 Aspose.Slides for .NET 提供了一個強大的解決方案來操作簡報中的投影片編號，讓您能夠靈活地無縫自訂內容。
+在動態的簡報世界中，控制投影片的順序和組織對於有效溝通至關重要。 Aspose.Slides for .NET 提供了一個強大的解決方案來操縱簡報中的投影片編號，讓您能夠靈活地無縫自訂內容。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
 -  Aspose.Slides for .NET：確保您已安裝 Aspose.Slides 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/net/).

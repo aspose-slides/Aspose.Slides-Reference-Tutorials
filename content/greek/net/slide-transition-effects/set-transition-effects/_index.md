@@ -77,7 +77,7 @@ presentation.Slides[0].SlideShowTransition.Type = TransitionType.Cut;
 ((OptionalBlackTransition)presentation.Slides[0].SlideShowTransition.Value).FromBlack = true;
 ```
 
-### Βήμα 5: Αποθηκεύστε την παρουσίαση
+### Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση με τα πρόσφατα ρυθμισμένα εφέ μετάβασης σε μια επιθυμητή τοποθεσία.
 

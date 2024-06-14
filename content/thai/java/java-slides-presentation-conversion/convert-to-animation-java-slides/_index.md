@@ -34,7 +34,7 @@ import java.io.IOException;
  ในการเริ่มต้น ให้โหลดงานนำเสนอ PowerPoint ที่คุณต้องการแปลงเป็นภาพเคลื่อนไหว แทนที่`"SimpleAnimations.pptx"` ด้วยเส้นทางไปยังไฟล์การนำเสนอของคุณ:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 ขณะที่เล่นการนำเสนอ แต่ละเฟรมจะถูกบันทึกเป็นรูปภาพ PNG ในไดเร็กทอรีเอาต์พุตที่ระบุ คุณสามารถปรับแต่งเส้นทางเอาต์พุตได้ตามต้องการ:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## กรอกซอร์สโค้ดสำหรับการแปลงเป็นแอนิเมชั่นใน Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

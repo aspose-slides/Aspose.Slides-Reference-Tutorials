@@ -19,13 +19,13 @@ Innanzitutto, importa i pacchetti necessari per utilizzare la funzionalità Aspo
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Passaggio 1: impostare la directory dei dati
 ```java
 // Il percorso della directory dei documenti.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Crea directory se non è già presente.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 In questo passaggio, definiamo il percorso della directory in cui verrà salvata la presentazione di PowerPoint. Se la directory non esiste, verrà creata.
 ## Passaggio 2: creare un'istanza dell'oggetto di presentazione
 ```java
-//Crea un'istanza di un oggetto Presentazione che rappresenta un file PPT
+// Crea un'istanza di un oggetto Presentazione che rappresenta un file PPT
 Presentation presentation = new Presentation();
 ```
- Qui creiamo una nuova istanza di`Presentation` classe, che rappresenta una presentazione di PowerPoint.
+Qui creiamo una nuova istanza di`Presentation` classe, che rappresenta una presentazione di PowerPoint.
 ## Passaggio 3: eseguire operazioni sulla presentazione (facoltativo)
 ```java
 //...lavora un po' qui...

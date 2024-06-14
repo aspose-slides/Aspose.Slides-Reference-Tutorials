@@ -21,7 +21,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไฟล์การนำเสนอ
 เริ่มต้นด้วยการระบุเส้นทางไปยังไฟล์การนำเสนอต้นฉบับของคุณ:

@@ -22,7 +22,7 @@ Aspose.Slides for Java の世界に飛び込んで、同じプレゼンテーシ
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## ステップ1: プロジェクトを設定する

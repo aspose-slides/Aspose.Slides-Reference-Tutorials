@@ -10,7 +10,7 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-anot
 ## 介紹
 您是否曾經遇到過需要合併多個 PowerPoint 簡報中的投影片的情況？這可能會很麻煩，對吧？好吧，不再是了！ Aspose.Slides for Java 是一個功能強大的函式庫，讓操作 PowerPoint 簡報變得輕而易舉。在本教程中，我們將引導您完成使用 Aspose.Slides for Java 從一個簡報複製投影片並將其新增至另一個簡報結尾的過程。相信我，讀完本指南後，您將像專業人士一樣處理簡報！
 ## 先決條件
-在我們深入討論細節之前，您需要準備好以下幾件事：
+在我們深入討論細節之前，您需要先做以下幾件事：
 1.  Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。如果沒有，您可以從以下位置下載[這裡](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. Aspose.Slides for Java：您需要下載並設定Aspose.Slides for Java。您可以從以下位置取得該庫[下載頁面](https://releases.aspose.com/slides/java/).
 3. 整合開發環境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 將使您在編寫和運行 Java 程式碼時變得更加輕鬆。
@@ -21,7 +21,7 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-anot
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 現在，讓我們將從一個簡報複製幻燈片並將其添加到另一個簡報的過程分解為簡單易懂的步驟。
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
 首先，我們需要載入要從中複製投影片的來源簡報。這是使用以下方法完成的`Presentation`Aspose.Slides 提供的類別。
 ```java
 //文檔目錄的路徑。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 //實例化Presentation類別來載入來源示範文件
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```
@@ -69,7 +69,7 @@ finally {
 ```
 這可確保正確清理所有資源，防止任何記憶體洩漏。
 ## 結論
-現在你就得到它了！透過執行這些步驟，您已成功從一個簡報中複製一張投影片，並使用 Aspose.Slides for Java 將其新增至另一個簡報的結尾。這個功能強大的庫使您可以輕鬆處理 PowerPoint 演示文稿，讓您能夠專注於創建引人入勝的內容，而不是與軟體限製作鬥爭。
+現在你就擁有了！透過執行這些步驟，您已成功從一個簡報中複製一張投影片，並使用 Aspose.Slides for Java 將其新增至另一個簡報的結尾。這個功能強大的庫使您可以輕鬆處理 PowerPoint 演示文稿，讓您能夠專注於創建引人入勝的內容，而不是與軟體限製作鬥爭。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個函式庫，可讓開發人員以程式設計方式建立、修改和操作 PowerPoint 簡報。

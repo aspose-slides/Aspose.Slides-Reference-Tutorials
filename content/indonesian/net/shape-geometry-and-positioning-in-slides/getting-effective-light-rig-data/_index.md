@@ -40,7 +40,7 @@ Gunakan kode berikut untuk memuat file presentasi:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Kode Anda untuk mengambil data rig ringan yang efektif ada di sini
+    //Kode Anda untuk mengambil data rig ringan yang efektif ada di sini
 }
 ```
 ## Langkah 4: Ambil Data Light Rig yang Efektif

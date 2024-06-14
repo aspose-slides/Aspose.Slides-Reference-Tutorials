@@ -10,7 +10,7 @@ url: /pl/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 
 ## Wprowadzenie do ustawiania znaku procentowego etykiet danych w Aspose.Slides dla Java
 
-W tym przewodniku przeprowadzimy Cię przez proces ustawiania etykiet danych ze znakiem procentu za pomocą Aspose.Slides dla Java. Stworzymy prezentację PowerPoint ze skumulowanym wykresem kolumnowym i skonfigurujemy etykiety danych tak, aby wyświetlały wartości procentowe.
+tym przewodniku przeprowadzimy Cię przez proces ustawiania etykiet danych ze znakiem procentu za pomocą Aspose.Slides dla Java. Stworzymy prezentację PowerPoint ze skumulowanym wykresem kolumnowym i skonfigurujemy etykiety danych tak, aby wyświetlały wartości procentowe.
 
 ## Warunki wstępne
 
@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Aby wyświetlić wartości procentowe, musimy skonfigurować format liczb dla osi pionowej wykresu.
 
 ```java
-//Ustaw NumberFormatLinkedToSource na false
+// Ustaw NumberFormatLinkedToSource na false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Dodaj wykres PercentsStackedColumn na slajdzie
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Ustaw NumberFormatLinkedToSource na false
+// Ustaw NumberFormatLinkedToSource na false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Postępując zgodnie z tym przewodnikiem, nauczyłeś się tworzyć atrakcyjne p
 
 ### Czy mogę dostosować rozmiar czcionki etykiet danych?
 
- Tak, możesz dostosować rozmiar czcionki etykiet danych, ustawiając opcję`setFontHeight` właściwość, jak pokazano w kodzie.
+Tak, możesz dostosować rozmiar czcionki etykiet danych, ustawiając opcję`setFontHeight` właściwość, jak pokazano w kodzie.
 
 ### Jak dodać więcej serii do wykresu?
 

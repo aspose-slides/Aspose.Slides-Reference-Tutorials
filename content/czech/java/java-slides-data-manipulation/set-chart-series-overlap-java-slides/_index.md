@@ -10,7 +10,7 @@ url: /cs/java/data-manipulation/set-chart-series-overlap-java-slides/
 
 ## Úvod k nastavení překrývání řad grafů v Java Slides
 
-V tomto komplexním průvodci se ponoříme do fascinujícího světa manipulace s překrytím řad grafů v Java Slides pomocí výkonného Aspose.Slides for Java API. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný tutoriál vás vybaví znalostmi a zdrojovým kódem, které potřebujete k zvládnutí tohoto základního úkolu.
+tomto komplexním průvodci se ponoříme do fascinujícího světa manipulace s překrytím řad grafů v Java Slides pomocí výkonného Aspose.Slides for Java API. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný tutoriál vás vybaví znalostmi a zdrojovým kódem, které potřebujete k zvládnutí tohoto základního úkolu.
 
 ## Předpoklady
 

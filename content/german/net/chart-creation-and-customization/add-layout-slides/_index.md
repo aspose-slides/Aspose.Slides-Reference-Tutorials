@@ -68,11 +68,11 @@ Wie im obigen Code gezeigt, versuchen wir, eine Layoutfolie vom Typ „Titel und
 p.Slides.InsertEmptySlide(0, layoutSlide);
 ```
 
-In diesem Beispiel fügen wir die leere Folie an Position 0 ein, Sie können jedoch bei Bedarf eine andere Position angeben.
+In diesem Beispiel fügen wir die leere Folie an Position 0 ein, Sie können aber bei Bedarf eine andere Position angeben.
 
 ## Schritt 4: Speichern Sie die Präsentation
 
- Zum Schluss ist es an der Zeit, Ihre aktualisierte Präsentation zu speichern. Sie können dazu das`Save`Methode, um die Präsentation im gewünschten Format zu speichern. Hier ist der Code:
+ Zum Schluss ist es an der Zeit, Ihre aktualisierte Präsentation zu speichern. Sie können dazu den`Save`Methode, um die Präsentation im gewünschten Format zu speichern. Hier ist der Code:
 
 ```csharp
 p.Save(FileName, SaveFormat.Pptx);

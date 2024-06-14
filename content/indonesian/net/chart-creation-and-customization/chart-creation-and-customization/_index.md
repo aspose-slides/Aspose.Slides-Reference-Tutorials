@@ -52,7 +52,7 @@ using (Presentation p = new Presentation(FileName))
 
 Pada langkah ini, kita membuat presentasi baru, mencari slide tata letak yang sesuai, dan menambahkan slide kosong menggunakan Aspose.Slides.
 
-## Langkah 2: Dapatkan Contoh Placeholder Basis
+## Langkah 2: Dapatkan Contoh Placeholder Dasar
 
 ```csharp
 string presentationName = Path.Combine("Your Document Directory", "placeholder.pptx");

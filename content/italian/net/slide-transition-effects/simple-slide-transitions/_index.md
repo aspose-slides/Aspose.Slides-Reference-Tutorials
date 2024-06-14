@@ -88,7 +88,7 @@ In questo tutorial hai imparato come utilizzare Aspose.Slides per .NET per crear
 
  Applicando transizioni come "Cerchio" e "Pettine", puoi dare vita alle tue diapositive e rendere le tue presentazioni più coinvolgenti. Non dimenticare di esplorare il[documentazione](https://reference.aspose.com/slides/net/) per maggiori dettagli e funzionalità di Aspose.Slides per .NET.
 
-Hai domande o hai bisogno di ulteriore assistenza? Dai un'occhiata al forum della community di Aspose.Slides[Qui](https://forum.aspose.com/).
+ Hai domande o hai bisogno di ulteriore assistenza? Dai un'occhiata al forum della community di Aspose.Slides[Qui](https://forum.aspose.com/).
 
 ## Domande frequenti
 

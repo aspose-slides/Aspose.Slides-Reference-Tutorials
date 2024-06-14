@@ -11,7 +11,7 @@ url: /id/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 Membuat slide presentasi yang menarik dan dinamis adalah aspek kunci dari komunikasi yang efektif. Aspose.Slides for .NET menyediakan seperangkat alat canggih untuk menyempurnakan presentasi Anda, termasuk kemampuan untuk menerapkan efek rotasi 3D pada bentuk. Dalam tutorial ini, kita akan memandu proses penerapan efek rotasi 3D pada bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/slides/net/).
+- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET, seperti Visual Studio, untuk menulis dan menjalankan kode Anda.
 ## Impor Namespace
 Dalam proyek .NET Anda, impor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.Slides. Sertakan namespace berikut di awal kode Anda:

@@ -8,7 +8,7 @@ weight: 16
 url: /de/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-presentation-powerpoint/
 ---
 ## Einführung
-Möchten Sie Ihre Fähigkeiten zur Präsentationsbearbeitung mit Java verbessern? Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Sie mühelos PowerPoint-Präsentationen erstellen, ändern und bearbeiten können. In dieser umfassenden Anleitung zeigen wir Ihnen, wie Sie mit Aspose.Slides für Java eine Folie an das Ende derselben Präsentation klonen. Am Ende dieses Tutorials wissen Sie genau, wie Sie diese Funktion in Ihren eigenen Projekten verwenden können. Lassen Sie uns loslegen!
+Möchten Sie Ihre Fähigkeiten zur Präsentationsbearbeitung mit Java verbessern? Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Sie mühelos PowerPoint-Präsentationen erstellen, ändern und bearbeiten können. In dieser umfassenden Anleitung zeigen wir Ihnen, wie Sie mit Aspose.Slides für Java eine Folie an das Ende derselben Präsentation klonen. Am Ende dieses Tutorials wissen Sie genau, wie Sie diese Funktion in Ihren eigenen Projekten verwenden können. Lassen Sie uns eintauchen!
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 1.  Java Development Kit (JDK) ist auf Ihrem Rechner installiert. Sie können es von der[Java-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -21,7 +21,7 @@ Zunächst müssen Sie die erforderlichen Pakete von Aspose.Slides für Java in I
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Richten Sie Ihr Projekt ein
 Richten Sie zunächst Ihr Java-Projekt in Ihrer bevorzugten IDE ein und schließen Sie die Aspose.Slides-Bibliothek in die Abhängigkeiten Ihres Projekts ein.
@@ -41,7 +41,7 @@ Jetzt ist es an der Zeit, die Folie zu klonen. In diesem Beispiel klonen wir die
 ISlideCollection slds = pres.getSlides();
 slds.addClone(pres.getSlides().get_Item(0));
 ```
-## Schritt 5: Speichern Sie die geänderte Präsentation
+## Schritt 5: Speichern der geänderten Präsentation
 Speichern Sie die geänderte Präsentation nach dem Klonen der Folie auf der Festplatte. Dadurch wird eine neue Datei mit der geklonten Folie am Ende erstellt.
 ```java
 pres.save(dataDir + "Aspose_CloneWithinSamePresentationToEnd_out.pptx", SaveFormat.Pptx);

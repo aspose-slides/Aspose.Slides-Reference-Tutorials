@@ -11,7 +11,7 @@ url: /it/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Creare presentazioni PowerPoint visivamente accattivanti è fondamentale per affascinare il tuo pubblico. Uno dei modi efficaci per migliorare le tue diapositive è riempire le forme con sfumature. Questo tutorial ti guiderà attraverso il processo di utilizzo di Aspose.Slides per Java per riempire forme con sfumature in PowerPoint. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, troverai questa guida utile e facile da seguire. Immergiamoci nel mondo dei gradienti e vediamo come possono trasformare le tue presentazioni.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
--  Java Development Kit (JDK): assicurati di avere JDK installato. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): assicurati di avere JDK installato. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides per Java: scarica l'ultima versione da[Qui](https://releases.aspose.com/slides/java/).
 - Ambiente di sviluppo integrato (IDE): un IDE come IntelliJ IDEA o Eclipse renderà la tua esperienza di codifica più fluida.
 - Conoscenza di base di Java: la familiarità con la programmazione Java è essenziale.
@@ -19,7 +19,7 @@ Prima di iniziare, assicurati di avere quanto segue:
 Per iniziare con Aspose.Slides, è necessario importare i pacchetti necessari. Assicurati di aver aggiunto Aspose.Slides per Java alle dipendenze del tuo progetto.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

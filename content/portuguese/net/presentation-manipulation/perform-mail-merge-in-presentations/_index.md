@@ -144,7 +144,7 @@ Sim, Aspose.Slides for .NET oferece suporte a várias fontes de dados, incluindo
  Certamente! Você tem controle total sobre a aparência dos marcadores, conforme demonstrado no`FillStaffList` método.
 ### 3. Que tipos de gráficos posso criar usando Aspose.Slides for .NET?
 Aspose.Slides for .NET oferece suporte a uma ampla variedade de gráficos, incluindo gráficos de linhas conforme mostrado em nosso exemplo, gráficos de barras, gráficos de pizza e muito mais.
-### 4. Como obtenho suporte ou procuro assistência com Aspose.Slides for .NET?
+### 4. Como obtenho suporte ou assistência com Aspose.Slides for .NET?
  Para suporte e assistência, você pode visitar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Posso experimentar o Aspose.Slides for .NET antes de comprar?
  Certamente! Você pode aproveitar uma avaliação gratuita do Aspose.Slides for .NET em[aqui](https://releases.aspose.com/).

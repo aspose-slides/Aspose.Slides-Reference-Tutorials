@@ -22,7 +22,7 @@ PowerPoint プレゼンテーションの OLE オブジェクト データを変
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

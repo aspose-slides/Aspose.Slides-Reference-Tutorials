@@ -21,7 +21,7 @@ url: /th/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ขั้นแรก มาสร้างงานนำเสนอ PowerPoint ใหม่และเพิ่มแผนภูมิลงไป
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## กรอกซอร์สโค้ดสำหรับสูตรเซลล์ข้อมูลแผนภูมิใน Java Slides
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

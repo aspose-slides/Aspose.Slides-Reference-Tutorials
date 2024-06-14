@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Đảm bảo thay thế`"Your Document Directory"`với đường dẫn nơi bạn muốn lưu trữ các tệp trình bày của mình.
+ Đảm bảo thay thế`"Your Document Directory"` với đường dẫn nơi bạn muốn lưu trữ các tệp trình bày của mình.
 ## Bước 2: Tải bài thuyết trình
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

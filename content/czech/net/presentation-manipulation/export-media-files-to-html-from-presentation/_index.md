@@ -74,7 +74,7 @@ Gratulujeme! Úspěšně jste exportovali mediální soubory do HTML z prezentac
 ### Q2: Mohu dále upravit výstup HTML?
 A2: Ano, můžete upravit výstup HTML úpravou možností HTML v kódu.
 
-### Q3: Podporuje Aspose.Slides pro .NET další formáty exportu?
+### Q3: Podporuje Aspose.Slides pro .NET další exportní formáty?
 Odpověď 3: Ano, Aspose.Slides for .NET podporuje různé exportní formáty, včetně PDF, obrázkových formátů a dalších.
 
 ### Q4: Kde mohu získat podporu pro Aspose.Slides pro .NET?

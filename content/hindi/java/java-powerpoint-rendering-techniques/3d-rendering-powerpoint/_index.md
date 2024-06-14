@@ -17,7 +17,7 @@ url: /hi/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## चरण 4: प्रस्तुति सहेजें
 3D सेटिंग्स कॉन्फ़िगर करने के बाद, प्रस्तुति सहेजें:
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);

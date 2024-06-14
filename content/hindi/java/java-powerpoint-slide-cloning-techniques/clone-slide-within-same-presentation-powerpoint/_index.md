@@ -22,11 +22,11 @@ url: /hi/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## चरण 1: अपना प्रोजेक्ट सेट करें
- अपने IDE में अपना Java प्रोजेक्ट सेट अप करके शुरू करें। एक नया प्रोजेक्ट बनाएँ और अपनी प्रोजेक्ट निर्भरताओं में Aspose.Slides for Java लाइब्रेरी जोड़ें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
+अपने IDE में अपना Java प्रोजेक्ट सेट अप करके शुरू करें। एक नया प्रोजेक्ट बनाएँ और अपनी प्रोजेक्ट निर्भरताओं में Aspose.Slides for Java लाइब्रेरी जोड़ें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 ## चरण 2: डेटा निर्देशिका निर्धारित करें
 अपनी दस्तावेज़ निर्देशिका का पथ निर्धारित करें जहाँ आपकी प्रस्तुति फ़ाइल स्थित है। इससे Aspose.Slides को फ़ाइलों को सही ढंग से ढूँढने और सहेजने में मदद मिलेगी।
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides for Java, जावा अनुप्रयोगों में
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड कर सकता हूँ?
  आप Java के लिए Aspose.Slides का नवीनतम संस्करण यहाँ से डाउनलोड कर सकते हैं[डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/).
 ### क्या Aspose.Slides for Java के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
-हां, आप यहां जाकर Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
+ हां, आप यहां जाकर Aspose.Slides for Java का निःशुल्क परीक्षण प्राप्त कर सकते हैं[निःशुल्क परीक्षण पृष्ठ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java के लिए दस्तावेज़ कहां पा सकता हूं?
- Aspose.Slides for Java का दस्तावेज़ यहाँ उपलब्ध है[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java का दस्तावेज़ यहाँ उपलब्ध है[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides कैसे खरीद सकता हूँ?
  आप यहाँ जाकर Java के लिए Aspose.Slides खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).

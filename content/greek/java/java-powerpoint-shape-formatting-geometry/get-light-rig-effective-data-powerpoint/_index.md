@@ -20,7 +20,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρύθμιση του καταλόγου έργου
 Ξεκινήστε ρυθμίζοντας τον κατάλογο του έργου σας. Δημιουργήστε ένα φάκελο όπου θα αποθηκεύετε τα αρχεία Java και την παρουσίαση του PowerPoint (`Presentation1.pptx`).

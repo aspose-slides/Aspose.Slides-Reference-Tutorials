@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Festlegen des Formats für Nebengitterlinien für die Kategorieachse
+// Festlegen des Formats für Nebengitterlinien für die Kategorieachse
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Festlegen der Farbe des Plotbereichs
+//Festlegen der Farbe des Plotbereichs
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der .NET-Entwic
 
 ### 3. Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
 
-Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET erhalten von[Hier](https://releases.aspose.com/).
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET erhalten von[Hier](https://releases.aspose.com/).
 
 ### 4. Wie kann ich eine temporäre Lizenz für Aspose.Slides für .NET erhalten?
 

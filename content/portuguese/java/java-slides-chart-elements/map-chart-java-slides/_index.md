@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Código-fonte completo para mapa gráfico em slides Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//criar gráfico vazio

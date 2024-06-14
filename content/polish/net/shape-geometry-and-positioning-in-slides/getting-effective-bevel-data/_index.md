@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Pamiętaj o wymianie`"Your Document Directory"`ze ścieżką, w której chcesz przechowywać pliki prezentacji.
+ Pamiętaj o wymianie`"Your Document Directory"` ze ścieżką, w której chcesz przechowywać pliki prezentacji.
 ## Krok 2: Załaduj prezentację
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -55,7 +55,7 @@ Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
 Na koniec drukujemy dane skosu górnej powierzchni kształtu, w tym jego typ, szerokość i wysokość.
-I masz to! Pomyślnie pobrałeś i wyświetliłeś efektywne dane dotyczące fazy dla kształtu w swojej prezentacji za pomocą Aspose.Slides dla .NET.
+masz to! Pomyślnie pobrałeś i wyświetliłeś efektywne dane dotyczące fazy dla kształtu w swojej prezentacji za pomocą Aspose.Slides dla .NET.
 ## Wniosek
 W tym samouczku omówiliśmy podstawy pobierania efektywnych danych skosu z kształtów na slajdach prezentacji przy użyciu Aspose.Slides dla .NET. Uzbrojeni w tę wiedzę, możesz teraz wzbogacić swoje prezentacje o dostosowane efekty trójwymiarowe.
 ## Często Zadawane Pytania

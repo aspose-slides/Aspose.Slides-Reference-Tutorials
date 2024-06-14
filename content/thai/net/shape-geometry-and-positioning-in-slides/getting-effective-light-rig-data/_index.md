@@ -35,12 +35,12 @@ bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-## ขั้นตอนที่ 3: โหลดงานนำเสนอ
+## ขั้นตอนที่ 3: โหลดการนำเสนอ
 ใช้รหัสต่อไปนี้เพื่อโหลดไฟล์การนำเสนอ:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // รหัสของคุณสำหรับการดึงข้อมูลแท่นขุดเจาะแสงที่มีประสิทธิภาพอยู่ที่นี่
+    //รหัสของคุณสำหรับการดึงข้อมูลแท่นขุดเจาะแสงที่มีประสิทธิภาพอยู่ที่นี่
 }
 ```
 ## ขั้นตอนที่ 4: ดึงข้อมูล Light Rig ที่มีประสิทธิภาพ

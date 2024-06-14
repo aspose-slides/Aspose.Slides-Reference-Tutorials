@@ -11,7 +11,7 @@ url: /es/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Crear presentaciones visualmente atractivas es crucial para captar y mantener la atención de su audiencia. Agregar efectos de bisel a las formas puede mejorar la estética general de sus diapositivas, haciendo que su presentación se destaque. En este tutorial, lo guiaremos a través del proceso de aplicar efectos de bisel a formas en PowerPoint usando Aspose.Slides para Java. Si eres un desarrollador que busca automatizar la creación de presentaciones o simplemente alguien a quien le encanta experimentar con el diseño, esta guía lo tiene cubierto.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
--  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Biblioteca Aspose.Slides para Java: descargue la biblioteca desde[Aspose.Slides para Java](https://releases.aspose.com/slides/java/).
 - IDE (entorno de desarrollo integrado): utilice cualquier IDE de su elección, como IntelliJ IDEA, Eclipse o NetBeans.
 -  Licencia Aspose: Para utilizar Aspose.Slides sin limitaciones, obtenga una licencia de[Asponer compra](https://purchase.aspose.com/buy) o conseguir un[licencia temporal](https://purchase.aspose.com/temporary-license/) Para evaluar.
@@ -19,7 +19,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 Primero, necesita importar los paquetes necesarios para trabajar con Aspose.Slides en su proyecto Java. Así es como puedes hacerlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Paso 1: configura tu proyecto

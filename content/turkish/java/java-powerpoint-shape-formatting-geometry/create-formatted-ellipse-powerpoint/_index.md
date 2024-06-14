@@ -19,7 +19,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 Aspose.Slides'ı kullanmaya başlamak için gerekli paketleri içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -83,15 +83,15 @@ finally {
 }
 ```
 ## Çözüm
-Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda başarıyla biçimlendirilmiş bir elips oluşturdunuz. Bu eğitici projenizi oluşturma, elips ekleme, biçimlendirme uygulama ve sununuzu kaydetme konusunda size yol gösterdi. Bu becerilerle artık PowerPoint slaytlarınızı programlı olarak geliştirebilir, sunumlarınızı daha dinamik ve görsel olarak çekici hale getirebilirsiniz.
+Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda başarıyla biçimlendirilmiş bir elips oluşturdunuz. Bu eğitim, projenizi oluşturma, elips ekleme, biçimlendirme uygulama ve sununuzu kaydetme konusunda size yol gösterdi. Bu becerilerle artık PowerPoint slaytlarınızı programlı olarak geliştirebilir, sunumlarınızı daha dinamik ve görsel olarak çekici hale getirebilirsiniz.
 ## SSS'ler
 ### Aspose.Slides for Java nedir?
 Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve yönetmesine olanak tanıyan güçlü bir kitaplıktır.
 ### Aspose.Slides for Java'yı herhangi bir IDE ile kullanabilir miyim?
 Evet, Aspose.Slides for Java'yı IntelliJ IDEA, Eclipse veya NetBeans gibi herhangi bir Java IDE ile kullanabilirsiniz.
 ### Aspose.Slides için lisansa ihtiyacım var mı?
- Evet, Aspose.Slides ticari bir üründür ve tam işlevsellik için lisansa ihtiyacınız vardır. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Slides ticari bir üründür ve tam işlevsellik için lisansa ihtiyacınız vardır. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java ile ilgili daha fazla belgeyi nerede bulabilirim?
-Aspose.Slides for Java'da ayrıntılı belgeler bulabilirsiniz[dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+ Aspose.Slides for Java'da ayrıntılı belgeler bulabilirsiniz[dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides için destek mevcut mu?
  Evet, Aspose kendi aracılığıyla destek sunuyor[forum](https://forum.aspose.com/c/slides/11).

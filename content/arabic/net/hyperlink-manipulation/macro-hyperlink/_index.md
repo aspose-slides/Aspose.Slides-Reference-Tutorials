@@ -93,7 +93,7 @@ Console.WriteLine("Shape action type is {0}", shape.HyperlinkClick.ActionType);
 ## الأسئلة الشائعة (الأسئلة المتداولة)
 
 ### هل يمكنني استخدام Aspose.Slides لـ .NET مع لغات البرمجة الأخرى؟
-تم تصميم Aspose.Slides بشكل أساسي لـ .NET، لكن Aspose يقدم مكتبات مماثلة للغات البرمجة الأخرى، مثل Java.
+تم تصميم Aspose.Slides بشكل أساسي لـ .NET، لكن Aspose يقدم مكتبات مماثلة للغات برمجة أخرى، مثل Java.
 
 ### هل يعتبر Aspose.Slides for .NET مكتبة مجانية؟
 Aspose.Slides for .NET هي مكتبة تجارية تتوفر بها نسخة تجريبية مجانية. يمكنك تنزيله من[هنا](https://releases.aspose.com/).

@@ -103,7 +103,7 @@ Pasta grafiği için çeşitli dilim renklerini etkinleştirin:
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-## Adım 9: Sunuyu Kaydedin
+## Adım 9: Sunuyu Kaydetme
 
 Son olarak sunuyu bir PowerPoint dosyasına kaydedin:
 
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Yeni seriler ekleniyor
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//Şimdi seri verileri dolduruluyor
+	// Şimdi seri verileri dolduruluyor
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

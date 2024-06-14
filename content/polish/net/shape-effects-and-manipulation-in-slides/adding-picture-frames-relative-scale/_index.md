@@ -8,7 +8,7 @@ weight: 17
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
 ## Wstęp
-Aspose.Slides dla .NET to potężna biblioteka, która pozwala programistom bez wysiłku tworzyć, manipulować i konwertować prezentacje PowerPoint w aplikacjach .NET. W tym samouczku zagłębimy się w proces dodawania ramek obrazów o względnej wysokości w skali za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności budowania prezentacji.
+Aspose.Slides dla .NET to potężna biblioteka, która pozwala programistom na łatwe tworzenie, manipulowanie i konwertowanie prezentacji PowerPoint w aplikacjach .NET. W tym samouczku zagłębimy się w proces dodawania ramek obrazów o względnej wysokości w skali za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności budowania prezentacji.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 - Podstawowa znajomość języka programowania C#.

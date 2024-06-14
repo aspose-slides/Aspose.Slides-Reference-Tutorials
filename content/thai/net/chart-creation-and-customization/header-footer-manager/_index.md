@@ -53,7 +53,7 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 
 ### ขั้นตอนที่ 3: เข้าถึงตัวจัดการส่วนหัวและส่วนท้าย
 
-Aspose.Slides สำหรับ .NET มอบวิธีที่สะดวกในการจัดการส่วนหัวและส่วนท้าย เราเข้าถึงตัวจัดการส่วนหัวและส่วนท้ายของสไลด์แรกในการนำเสนอของคุณ
+Aspose.Slides สำหรับ .NET มอบวิธีที่สะดวกในการจัดการส่วนหัวและส่วนท้าย เราเข้าถึงตัวจัดการส่วนหัวและส่วนท้ายสำหรับสไลด์แรกในการนำเสนอของคุณ
 
 ```csharp
 IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;

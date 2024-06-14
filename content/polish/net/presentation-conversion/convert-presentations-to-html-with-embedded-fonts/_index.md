@@ -93,7 +93,7 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 
 ## Wniosek
 
-Gratulacje! Pomyślnie przekonwertowałeś swoją prezentację do formatu HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Gwarantuje to prawidłowe wyświetlanie czcionek podczas udostępniania prezentacji online.
+Gratulacje! Pomyślnie przekonwertowałeś swoją prezentację na HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Gwarantuje to prawidłowe wyświetlanie czcionek podczas udostępniania prezentacji online.
 
 Teraz możesz łatwo i pewnie udostępniać pięknie sformatowane prezentacje, wiedząc, że odbiorcy zobaczą je dokładnie tak, jak zamierzałeś.
 

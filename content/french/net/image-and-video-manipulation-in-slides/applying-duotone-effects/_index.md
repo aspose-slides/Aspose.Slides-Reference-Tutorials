@@ -12,7 +12,7 @@ Créer des diapositives de présentation visuellement époustouflantes est essen
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 1.  Aspose.Slides pour la bibliothèque .NET : téléchargez et installez la bibliothèque Aspose.Slides à partir de[ici](https://releases.aspose.com/slides/net/).
-2. Fichier multimédia : préparez un fichier multimédia (par exemple, "aspose-logo.jpg") que vous souhaitez utiliser pour l'effet bicolore.
+2. Fichier multimédia : préparez un fichier multimédia (par exemple, "aspose-logo.jpg") que vous souhaitez utiliser pour l'effet bichromie.
 ## Importer des espaces de noms
 Dans votre projet .NET, importez les espaces de noms nécessaires :
 ```csharp

@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //Kaynak sunumunun yolu
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // IPresentationInfo Arayüzü aracılığıyla Şifreyi Kontrol Edin
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/normal-charts-java-slides/
 
 ## Wprowadzenie do normalnych wykresów w slajdach Java
 
-W tym samouczku omówimy proces tworzenia normalnych wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Użyjemy instrukcji krok po kroku wraz z kodem źródłowym, aby zademonstrować, jak utworzyć grupowany wykres kolumnowy w prezentacji PowerPoint.
+tym samouczku omówimy proces tworzenia normalnych wykresów w Java Slides przy użyciu Aspose.Slides for Java API. Użyjemy instrukcji krok po kroku wraz z kodem źródłowym, aby zademonstrować, jak utworzyć grupowany wykres kolumnowy w prezentacji PowerPoint.
 
 ## Warunki wstępne
 
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Weź pierwszą serię wykresów
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Teraz wypełniam dane serii
+// Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Weź drugą serię wykresów
 series = chart.getChartData().getSeries().get_Item(1);
-//Teraz wypełniam dane serii
+// Teraz wypełniam dane serii
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Ustawianie koloru wypełnienia serii
+// Ustawianie koloru wypełnienia serii
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Pierwsza etykieta wyświetli nazwę kategorii
@@ -217,13 +217,13 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # Wniosek
 
-tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, jak utworzyć grupowany wykres kolumnowy w prezentacji programu PowerPoint.
+W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides przy użyciu Aspose.Slides for Java API. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, jak utworzyć grupowany wykres kolumnowy w prezentacji programu PowerPoint.
 
 ## Często zadawane pytania
 
 ### Jak mogę zmienić typ wykresu?
 
- Aby zmienić typ wykresu, zmodyfikuj plik`ChartType` parametr podczas dodawania wykresu za pomocą`sld.getShapes().addChart()`. Możesz wybierać spośród różnych typów wykresów dostępnych w Aspose.Slides.
+ Aby zmienić typ wykresu, zmodyfikuj plik`ChartType`parametr podczas dodawania wykresu za pomocą`sld.getShapes().addChart()`. Możesz wybierać spośród różnych typów wykresów dostępnych w Aspose.Slides.
 
 ### Czy mogę zmienić kolory serii wykresów?
 
@@ -239,4 +239,4 @@ tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides prz
 
 ### Jak zapisać wykres w innym formacie pliku?
 
- Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()`metodę do żądanego formatu (np. PDF, PNG, JPEG).
+ Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()` metodę do żądanego formatu (np. PDF, PNG, JPEG).

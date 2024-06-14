@@ -64,8 +64,8 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java スライドのリーダー ライン カラーの完全なソース コード
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             //最初のスライドからグラフを取得します
@@ -115,4 +115,4 @@ Aspose.Slides for Java のテクニカル サポートを受けるには、Aspos
 
 ### Aspose.Slides for Java を他の Java ライブラリやフレームワークと一緒に使用できますか?
 
-はい、プロジェクトの必要に応じて、Aspose.Slides for Java を他の Java ライブラリやフレームワークと統合できます。Aspose.Slides はさまざまな PowerPoint 機能を操作するための API を提供するため、他のツールやテクノロジと組み合わせて強力なアプリケーションを作成できます。
+はい、プロジェクトの必要に応じて、Aspose.Slides for Java を他の Java ライブラリやフレームワークと統合できます。Aspose.Slides は、さまざまな PowerPoint 機能を操作するための API を提供するため、他のツールやテクノロジと組み合わせて強力なアプリケーションを作成できます。

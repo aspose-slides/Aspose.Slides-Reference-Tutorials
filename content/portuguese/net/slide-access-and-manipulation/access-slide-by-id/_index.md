@@ -51,7 +51,7 @@ using (var presentation = new Presentation(presentationPath))
 
 Cada slide de uma apresentação possui um identificador exclusivo que pode ser usado para acessá-lo. O identificador pode estar na forma de um índice ou ID de slide. Vamos explorar como usar os dois métodos:
 
-## Acessando por índice
+## Acessando por Índice
 
 Para acessar um slide pelo seu índice:
 

@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/apply-duotone-ef
 首先，您需要在 Java 程式中匯入必要的套件。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

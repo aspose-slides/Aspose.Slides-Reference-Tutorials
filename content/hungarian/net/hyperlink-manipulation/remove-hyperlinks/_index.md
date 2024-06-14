@@ -38,7 +38,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Hyperlink.pptx");
 ```
 
- A fenti kódban cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával és`"Hyperlink.pptx"` a PowerPoint bemutatófájl nevével.
+ A fenti kódban cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával és`"Hyperlink.pptx"` a PowerPoint bemutató fájl nevével.
 
 ## 3. lépés: Távolítsa el a hiperhivatkozásokat
 

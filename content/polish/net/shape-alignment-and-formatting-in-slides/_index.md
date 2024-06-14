@@ -14,7 +14,7 @@ Witamy w świecie samouczków Aspose.Slides poświęconych wyrównywaniu i forma
 
 ## Dlaczego wyrównanie i formatowanie kształtu ma znaczenie
 
-dziedzinie prezentacji wyrównanie i formatowanie kształtów odgrywa kluczową rolę w skutecznym przekazywaniu informacji. Precyzyjne wyrównanie zapewnia spójność wizualną elementów slajdu, co zwiększa czytelność i zrozumienie. Z kolei odpowiednie formatowanie pozwala dostosować wygląd kształtów, podkreślając kluczowe punkty i zachowując spójną tożsamość marki. Niezależnie od tego, czy rozmieszczasz elementy na pojedynczym slajdzie, czy utrzymujesz jednolity wygląd całej prezentacji, wyrównywanie kształtów i formatowanie to podstawowe umiejętności każdego programisty.
+dziedzinie prezentacji wyrównanie i formatowanie kształtów odgrywa kluczową rolę w skutecznym przekazywaniu informacji. Precyzyjne wyrównanie zapewnia spójność wizualną elementów slajdu, co zwiększa czytelność i zrozumienie. Z kolei odpowiednie formatowanie pozwala dostosować wygląd kształtów, podkreślając kluczowe punkty i zachowując spójną tożsamość marki. Niezależnie od tego, czy rozmieszczasz elementy na pojedynczym slajdzie, czy utrzymujesz jednolity wygląd całej prezentacji, wyrównywanie i formatowanie kształtów to podstawowe umiejętności każdego programisty.
 
 ## Czego się nauczysz
 
@@ -43,4 +43,4 @@ Dowiedz się, jak tworzyć urzekające slajdy prezentacji z naszkicowanymi kszta
 ### [Dodawanie przesunięcia rozciągania w lewo dla ramki obrazu w Aspose.Slides](./adding-stretch-offset-left-picture-frame/)
 Dowiedz się, jak dodać przesunięcie rozciągnięcia w lewo dla ramki obrazu w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym przykładem kodu źródłowego.
 ### [Zastępowanie tytułu obrazu ramki obiektu OLE na slajdach prezentacji](./substituting-picture-title-ole-object-frame/)
-Dowiedz się, jak zastępować tytuły obrazów ramek obiektów OLE na slajdach prezentacji przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym.
+Dowiedz się, jak zastąpić tytuły obrazów ramek obiektów OLE na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym.

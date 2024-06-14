@@ -14,7 +14,7 @@ W tym samouczku pokażemy, jak pobrać prostokątne współrzędne akapitu w pre
 
 ## Warunki wstępne
 
-Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim środowisku programistycznym Java. Można go pobrać z[Tutaj](https://downloads.aspose.com/slides/java).
+ Zanim zaczniemy, upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Aspose.Slides for Java w swoim środowisku programistycznym Java. Można go pobrać z[Tutaj](https://downloads.aspose.com/slides/java).
 
 ## Krok 1: Zaimportuj niezbędne biblioteki
 
@@ -80,7 +80,7 @@ Ten fragment kodu pobiera współrzędne prostokątne (X, Y, szerokość i wysok
 
 ## Wniosek
 
-W tym samouczku nauczyłeś się używać Aspose.Slides for Java do pobierania współrzędnych prostokątnych akapitu w prezentacji programu PowerPoint. Może to być przydatne, gdy trzeba programowo analizować położenie i wymiary tekstu na slajdach lub manipulować nim.
+tym samouczku nauczyłeś się używać Aspose.Slides for Java do pobierania współrzędnych prostokątnych akapitu w prezentacji programu PowerPoint. Może to być przydatne, gdy trzeba programowo analizować położenie i wymiary tekstu na slajdach lub manipulować nim.
 
 ## Często zadawane pytania
 
@@ -107,7 +107,7 @@ Tak, Aspose.Slides for Java doskonale nadaje się do przetwarzania wsadowego pli
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 
- Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides for Java można znaleźć na stronie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/)strona internetowa. Dodatkowo możesz eksplorować[Fora Aspose.Slides](https://forum.aspose.com/c/slides) za wsparcie społeczności i dyskusje.
+ Więcej przykładów kodu i szczegółową dokumentację Aspose.Slides for Java można znaleźć na stronie[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) strona internetowa. Dodatkowo możesz eksplorować[Fora Aspose.Slides](https://forum.aspose.com/c/slides) za wsparcie społeczności i dyskusje.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Slides dla Java?
 

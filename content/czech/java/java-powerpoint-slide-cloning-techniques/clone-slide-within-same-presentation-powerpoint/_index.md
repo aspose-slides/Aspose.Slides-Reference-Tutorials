@@ -22,11 +22,11 @@ Nejprve importujme potřebné balíčky pro práci s Aspose.Slides for Java.
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## Krok 1: Nastavte svůj projekt
- Začněte nastavením projektu Java ve vašem IDE. Vytvořte nový projekt a přidejte knihovnu Aspose.Slides for Java do závislostí projektu. Knihovnu si můžete stáhnout z[Aspose.Slides for Java download page](https://releases.aspose.com/slides/java/).
+Začněte nastavením projektu Java ve vašem IDE. Vytvořte nový projekt a přidejte knihovnu Aspose.Slides for Java do závislostí projektu. Knihovnu si můžete stáhnout z[Aspose.Slides for Java download page](https://releases.aspose.com/slides/java/).
 ## Krok 2: Definujte datový adresář
 Definujte cestu k adresáři dokumentů, kde je umístěn soubor prezentace. To pomůže Aspose.Slides najít a uložit soubory správně.
 ```java
@@ -53,7 +53,7 @@ Nakonec se ujistěte, že jste objekt prezentace zlikvidovali, abyste uvolnili z
 ```java
 if (pres != null) pres.dispose();
 ```
-A to je vše! Úspěšně jste naklonovali snímek v rámci stejné prezentace pomocí Aspose.Slides for Java.
+to je vše! Úspěšně jste naklonovali snímek v rámci stejné prezentace pomocí Aspose.Slides for Java.
 ## Závěr
 Klonování snímků v rámci stejné prezentace pomocí Aspose.Slides for Java je jednoduchý proces. Podle tohoto podrobného průvodce můžete snadno duplikovat snímky a upravovat prezentace tak, aby vyhovovaly vašim potřebám. Ať už vytváříte šablony, automatizujete generování snímků nebo upravujete stávající prezentace, Aspose.Slides poskytuje výkonnou sadu nástrojů pro efektivní práci.
 ## FAQ
@@ -62,8 +62,8 @@ Aspose.Slides for Java je výkonné API pro práci s PowerPoint prezentacemi v J
 ### Jak si mohu stáhnout Aspose.Slides pro Java?
  Nejnovější verzi Aspose.Slides pro Javu si můžete stáhnout z webu[stránka ke stažení](https://releases.aspose.com/slides/java/).
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro Java?
-Ano, můžete získat přístup k bezplatné zkušební verzi Aspose.Slides pro Java návštěvou[zkušební stránka zdarma](https://releases.aspose.com/).
+ Ano, můžete získat přístup k bezplatné zkušební verzi Aspose.Slides pro Java návštěvou[zkušební stránka zdarma](https://releases.aspose.com/).
 ### Kde najdu dokumentaci k Aspose.Slides for Java?
- Dokumentace k Aspose.Slides for Java je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
+Dokumentace k Aspose.Slides for Java je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
 ### Jak si mohu zakoupit Aspose.Slides pro Java?
  Aspose.Slides pro Java si můžete zakoupit na stránce[nákupní stránku](https://purchase.aspose.com/buy).

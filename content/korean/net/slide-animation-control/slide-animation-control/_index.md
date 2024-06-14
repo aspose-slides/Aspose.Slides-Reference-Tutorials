@@ -9,7 +9,7 @@ url: /ko/net/slide-animation-control/slide-animation-control/
 ---
 ## 소개
 시선을 사로잡는 슬라이드 애니메이션으로 프레젠테이션을 개선하면 청중에 대한 전반적인 영향을 크게 높일 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드 애니메이션을 제어하는 방법을 살펴보겠습니다. Aspose.Slides는 .NET 환경에서 PowerPoint 프레젠테이션을 원활하게 조작할 수 있는 강력한 라이브러리입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/slides/net/).
 2.  문서 디렉터리: 프레젠테이션 파일을 저장할 디렉터리를 만듭니다. 업데이트`dataDir` 문서 디렉터리 경로가 포함된 코드 조각의 변수입니다.

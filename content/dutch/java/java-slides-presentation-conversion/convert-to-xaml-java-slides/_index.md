@@ -96,7 +96,7 @@ In deze stap stellen we de aangepaste uitvoerbesparing in, voeren we de conversi
 
 ```java
 	// Pad naar bronpresentatie
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Creëer conversieopties
@@ -109,7 +109,7 @@ In deze stap stellen we de aangepaste uitvoerbesparing in, voeren we de conversi
 		pres.save(xamlOptions);
 		// Sla XAML-bestanden op in een uitvoermap
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

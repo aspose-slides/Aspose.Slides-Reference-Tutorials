@@ -22,7 +22,7 @@ First, let's import the necessary packages in your Java project.
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

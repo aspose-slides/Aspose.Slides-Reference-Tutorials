@@ -83,7 +83,7 @@ That's it! You've created a map chart in a PowerPoint presentation using Aspose.
 ## Complete Source Code For Map Chart in Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//create empty chart

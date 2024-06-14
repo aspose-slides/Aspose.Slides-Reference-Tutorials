@@ -20,7 +20,7 @@ diaanimációk a statikus prezentációkat dinamikus vizuális élménnyé alak�
 - Animáció tulajdonságainak módosítása: Fedezze fel az animációs effektusok tulajdonságainak módosítására szolgáló technikákat, beleértve az időzítést, az időtartamot és a sorrendet.
 - Animációs triggerek alkalmazása: Ismerje meg, hogyan lehet olyan triggereket alkalmazni, amelyek adott események alapján animációt indítanak el, dinamikus áramlást létrehozva.
 - Több animáció koordinálása: Ismerje meg a több animáció szinkronizálásának és összehangolásának művészetét a zökkenőmentes vizuális történetmesélés érdekében.
-- Animáció lejátszásának és szüneteltetésének vezérlése: Fedezze fel az animációk lejátszásának vezérlésére szolgáló módszereket, amelyek lehetővé teszik a prezentáció ütemének szabályozását.
+- Animáció lejátszása és szüneteltetése: Fedezze fel az animációk lejátszásának vezérlésére szolgáló módszereket, amelyek lehetővé teszik a prezentáció ütemének szabályozását.
 - Diaátmenetek animálása: Bővítse tudását diaátmenet-animációk bevonásával a gördülékeny és vonzó prezentációs folyamat érdekében.
 
 ## Vágjon bele animációs utazásába:

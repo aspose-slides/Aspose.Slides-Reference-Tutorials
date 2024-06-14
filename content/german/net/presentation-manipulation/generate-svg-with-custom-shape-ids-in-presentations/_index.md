@@ -18,7 +18,7 @@ Bevor wir uns in den Code vertiefen, stellen Sie sicher, dass die folgenden Vora
 
 2. Beispielpräsentation: Sie benötigen eine Präsentationsdatei (z. B. „presentation.pptx“) mit Formen, die Sie in SVG exportieren möchten.
 
-3. Ausgabeverzeichnis: Definieren Sie das Verzeichnis, in dem Sie Ihre SVG-Datei speichern möchten (z. B. „Ihr Ausgabeverzeichnis“).
+3. Ausgabeverzeichnis: Definieren Sie das Verzeichnis, in dem Sie Ihre SVG-Datei speichern möchten (z. B. „Ihr Ausgabeverzeichnis“).
 
 Lassen Sie uns nun den Code Schritt für Schritt aufschlüsseln.
 
@@ -58,7 +58,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 
 ### Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich SVG-Dateien mit benutzerdefinierten Shape-IDs mithilfe von Aspose.Slides für .NET erstellt. Mit dieser leistungsstarken Funktion können Sie Ihre SVG-Ausgabe an Ihre spezifischen Anforderungen anpassen.
+Und da haben Sie es! Sie haben erfolgreich SVG-Dateien mit benutzerdefinierten Shape-IDs mithilfe von Aspose.Slides für .NET generiert. Mit dieser leistungsstarken Funktion können Sie Ihre SVG-Ausgabe an Ihre spezifischen Anforderungen anpassen.
 
 ### FAQs
 

@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Steg 1: Ställ in miljön
@@ -61,4 +61,4 @@ Absolut! Aspose.Slides erbjuder ett brett utbud av formtyper, inklusive rektangl
 ### Kan jag lägga till text på bilden tillsammans med linjeformen?
 Ja, du kan lägga till text, bilder och annat innehåll till bilden med Aspose.Slides API.
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?
-Ja, du kan ladda ner en gratis testversion av Aspose.Slides från[här](https://releases.aspose.com/).
+ Ja, du kan ladda ner en gratis testversion av Aspose.Slides från[här](https://releases.aspose.com/).

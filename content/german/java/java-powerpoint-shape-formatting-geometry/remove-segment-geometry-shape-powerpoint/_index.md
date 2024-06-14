@@ -12,14 +12,14 @@ Möchten Sie Formen in Ihren PowerPoint-Präsentationen mit Java bearbeiten? Dan
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 1.  Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist. Sie können es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides für Java: Laden Sie die Aspose.Slides für Java-Bibliothek herunter von[Hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java: Laden Sie die Aspose.Slides für Java-Bibliothek herunter von[Hier](https://releases.aspose.com/slides/java/).
 3. Integrierte Entwicklungsumgebung (IDE): Verwenden Sie zum Schreiben und Ausführen Ihres Java-Codes eine IDE wie IntelliJ IDEA oder Eclipse.
 4. Grundkenntnisse in Java: Grundlegende Kenntnisse der Java-Programmierung helfen Ihnen, diesem Tutorial zu folgen.
 ## Pakete importieren
 Zu Beginn müssen wir die erforderlichen Pakete aus der Aspose.Slides-Bibliothek importieren. So geht's:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Lassen Sie uns den Vorgang des Entfernens eines Segments aus einer geometrischen Form in einer PowerPoint-Folie in mehrere Schritte aufteilen.
 ## Schritt 1: Erstellen Sie eine neue Präsentation
@@ -42,7 +42,7 @@ Nun entfernen wir ein bestimmtes Segment aus dem Geometriepfad. In diesem Beispi
 ```java
 path.removeAt(2);
 ```
-## Schritt 5: Neuen Geometriepfad festlegen
+## Schritt 5: Den neuen Geometriepfad festlegen
 Nachdem Sie das Segment entfernt haben, setzen Sie den geänderten Geometriepfad wieder auf die Form.
 ```java
 shape.setGeometryPath(path);
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Schritt 6: Speichern Sie die Präsentation
 Speichern Sie abschließend die geänderte Präsentation in einer Datei.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Schritt 7: Ressourcen bereinigen

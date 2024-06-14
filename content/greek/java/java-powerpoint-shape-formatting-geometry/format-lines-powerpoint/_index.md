@@ -18,7 +18,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 Αρχικά, ας εισάγουμε τα απαραίτητα πακέτα που απαιτούνται για την εργασία με το Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -65,7 +65,7 @@ Cuplikan kode ini menambahkan slide duplikat ke akhir presentasi.
 Setelah menambahkan slide duplikat, kita perlu menyimpan presentasi yang dimodifikasi. Begini caranya:
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

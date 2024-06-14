@@ -19,7 +19,7 @@ Innan du dyker in i handledningen, se till att du har följande:
 Först måste du importera de nödvändiga paketen i ditt Java-program. Så här gör du:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

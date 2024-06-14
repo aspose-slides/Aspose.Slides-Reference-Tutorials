@@ -16,7 +16,7 @@ Java 開発の世界では、プレゼンテーション スライドの操作�
 
 コードに進む前に、次の前提条件が満たされていることを確認してください。
 
-1. Aspose.Slides for Java ライブラリ: Aspose.Slides for Java ライブラリがインストールされている必要があります。ダウンロードはここから行えます。[ここ](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides for Java ライブラリ: Aspose.Slides for Java ライブラリがインストールされている必要があります。ダウンロードはここから行えます。[ここ](https://releases.aspose.com/slides/java/).
 
 2. Java 開発環境: システムに Java 開発環境が設定されていることを確認します。
 

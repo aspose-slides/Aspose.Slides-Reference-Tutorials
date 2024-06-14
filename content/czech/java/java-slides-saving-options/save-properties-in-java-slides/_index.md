@@ -45,7 +45,7 @@ Můžete nastavit různé vlastnosti dokumentu, jako je název, autor, klíčov�
 // Nastavte název prezentace
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Nastavte autora prezentace
+//Nastavte autora prezentace
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Nastavte klíčová slova pro prezentaci
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-//Vytvořte instanci objektu Presentation, který představuje soubor PPT
+// Vytvořte instanci objektu Presentation, který představuje soubor PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ tomto kurzu jste se naučili, jak uložit vlastnosti dokumentu v prezentaci Powe
 // Nastavte název prezentace
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Nastavte autora prezentace
+//Nastavte autora prezentace
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Nastavte klíčová slova pro prezentaci

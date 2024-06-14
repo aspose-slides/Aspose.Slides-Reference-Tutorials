@@ -21,7 +21,7 @@ url: /el/java/chart-creation/radar-chart-creating-java-slides/
 Ας ξεκινήσουμε ρυθμίζοντας μια νέα παρουσίαση PowerPoint και προσθέτοντας μια διαφάνεια σε αυτήν.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -126,7 +126,7 @@ txtVal.getFillFormat().setFillType(FillType.Solid);
 txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 txtVal.setLatinFont(new FontData("Calibri"));
 
-// Ρύθμιση τιμής μορφής αριθμού άξονα
+// Ορισμός μορφής αριθμού άξονα τιμής
 ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
 
@@ -150,7 +150,7 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Ολοκληρωμένος πηγαίος κώδικας για δημιουργία γραφήματος ραντάρ σε διαφάνειες Java
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Προσθήκη νέας σειράς
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Τώρα συμπληρώνονται δεδομένα σειράς
+	// Τώρα συμπληρώνονται δεδομένα σειράς
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Σετ χρώμα σειράς
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Τώρα συμπληρώνεται μια άλλη σειρά δεδομένων
+	//Τώρα συμπληρώνεται μια άλλη σειρά δεδομένων
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -222,7 +222,7 @@ try
 	txtVal.getFillFormat().setFillType(FillType.Solid);
 	txtVal.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.DimGray));
 	txtVal.setLatinFont(new FontData("Calibri"));
-	// Ρύθμιση τιμής μορφής αριθμού άξονα
+	// Ορισμός μορφής αριθμού άξονα τιμής
 	ichart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	ichart.getAxes().getVerticalAxis().setNumberFormat("\"$\"#,##0.00");
 	// Ρύθμιση τιμής κύριας μονάδας γραφήματος
@@ -267,4 +267,4 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 
 ### Πώς μπορώ να αποθηκεύσω το γράφημα σε διαφορετική μορφή αρχείου;
 
- Μπορείτε να αλλάξετε τη μορφή εξόδου τροποποιώντας την επέκταση αρχείου στο`outPath` μεταβλητή και χρησιμοποιώντας την κατάλληλη`SaveFormat` . Για παράδειγμα, για αποθήκευση ως PDF, χρησιμοποιήστε`SaveFormat.Pdf`.
+Μπορείτε να αλλάξετε τη μορφή εξόδου τροποποιώντας την επέκταση αρχείου στο`outPath` μεταβλητή και χρησιμοποιώντας την κατάλληλη`SaveFormat` . Για παράδειγμα, για αποθήκευση ως PDF, χρησιμοποιήστε`SaveFormat.Pdf`.

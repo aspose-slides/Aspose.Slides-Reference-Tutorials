@@ -141,7 +141,7 @@ Aspose.Slides poskytuje robustní funkce ochrany PDF heslem. Je však důležit�
 
 ### Mohu tento proces automatizovat pro více prezentací?
 
-Ano, proces převodu více prezentací do PDF chráněných heslem můžete zautomatizovat tím, že budete procházet soubory prezentace a na každý z nich použijete konverzní kód.
+Ano, proces převodu více prezentací do PDF chráněných heslem můžete zautomatizovat tím, že budete procházet soubory prezentace a aplikovat konverzní kód na každý z nich.
 
 ### Je Aspose.Slides for Java vhodný pro komerční použití?
 

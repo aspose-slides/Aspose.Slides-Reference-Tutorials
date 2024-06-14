@@ -12,14 +12,14 @@ Bu derste Aspose.Slides for Java kullanarak bir slayda ok şeklinde bir çizgini
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-- Aspose.Slides for Java kütüphanesini indirip Java projenize kurun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java kütüphanesini indirip Java projenize kurun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 - Java programlama dili hakkında temel bilgiler.
 
 ## Paketleri İçe Aktar
 Öncelikle gerekli paketleri Java sınıfınıza aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir slayda ok şeklinde çizgi ek
 ### Ok çizgisinin rengini özelleştirebilir miyim?
  Evet, kullanarak herhangi bir rengi belirleyebilirsiniz.`setColor` ile yöntem`SolidFillColor`.
 ### Ok çizgisinin konumunu ve boyutunu nasıl değiştirebilirim?
-Aktarılan parametreleri ayarlayın`addAutoShape` konumu ve boyutları değiştirme yöntemi.
+ Aktarılan parametreleri ayarlayın`addAutoShape` konumu ve boyutları değiştirme yöntemi.
 ### Aspose.Slides PowerPoint'in tüm sürümleriyle uyumlu mu?
 Aspose.Slides çeşitli PowerPoint formatlarını destekleyerek farklı sürümler arasında uyumluluk sağlar.
 ### Ok çizgisine metin ekleyebilir miyim?

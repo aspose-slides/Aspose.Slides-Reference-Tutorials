@@ -11,9 +11,9 @@ url: /nl/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 In de dynamische wereld van presentaties kan het toevoegen van visuele aantrekkingskracht aan uw dia's de impact van uw boodschap aanzienlijk vergroten. Aspose.Slides voor .NET biedt een krachtige toolkit om uw presentatiedia's programmatisch te manipuleren en te verfraaien. Een van die intrigerende functies is de mogelijkheid om schuine effecten op vormen toe te passen, waardoor diepte en dimensie aan uw beelden wordt toegevoegd.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek Aspose.Slides is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Zet uw .NET-ontwikkelomgeving op en zorg voor een basiskennis van C#.
-- Documentmap: maak een map voor uw documenten waarin de gegenereerde presentatiebestanden worden opgeslagen.
+- Documentmap: Maak een map voor uw documenten waarin de gegenereerde presentatiebestanden worden opgeslagen.
 ## Naamruimten importeren
 Neem in uw C#-code de benodigde naamruimten op om toegang te krijgen tot de Aspose.Slides-functionaliteiten.
 ```csharp

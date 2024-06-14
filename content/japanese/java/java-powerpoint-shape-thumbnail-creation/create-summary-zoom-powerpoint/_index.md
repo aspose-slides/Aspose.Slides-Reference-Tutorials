@@ -13,14 +13,14 @@ Aspose.Slides for Java を使用して PowerPoint でサマリー ズームを�
 ## 前提条件
 コードに進む前に、開始するために必要なものがすべて揃っていることを確認しましょう。
 1.  Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java: ライブラリを以下からダウンロードしてください。[Aspose リリース ページ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: ライブラリを以下からダウンロードしてください。[Aspose リリース ページ](https://releases.aspose.com/slides/java/).
 3. 統合開発環境 (IDE): よりシームレスな開発エクスペリエンスを実現するには、IntelliJ IDEA、Eclipse、NetBeans などの IDE を使用します。
 4. Java の基礎知識: Java プログラミングの概念を理解しておくと、このガイドの手順を理解して実装するのに役立ちます。
 ## パッケージのインポート
 始める前に、必要なパッケージをインポートする必要があります。プロジェクトの依存関係に Aspose.Slides for Java が含まれていることを確認してください。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ステップ1: プロジェクトを設定する
@@ -86,7 +86,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().ad
 1. 出力パスを定義する: プレゼンテーションを保存するパスを指定します。
 2. プレゼンテーションを保存する:`save`ファイルを PPTX 形式で保存する方法。
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### プレゼンテーションオブジェクトを破棄する

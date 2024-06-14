@@ -65,7 +65,7 @@ Aspose.Slides for .NET 簡化了以程式設計方式操作簡報投影片的任
 ### Q：在商業項目中使用 Aspose.Slides 是否有任何許可注意事項？
 答：是的，您可以在[Aspose.Slides 購買頁面](https://purchase.aspose.com/buy).
 ### Q：Aspose.Slides for .NET 是否有免費試用版？
-答：是的，您可以透過以下方式探索這些功能：[免費試用](https://releases.aspose.com/)可在 Aspose.Slides 網站上取得。
+答：是的，您可以透過以下方式探索這些功能：[免費試用](https://releases.aspose.com/)可在 Aspose.Slides 網站上找到。
 ### Q：在哪裡可以找到與 Aspose.Slides for .NET 相關的支援或提問？
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)獲得支持並與社區互動。
 ### Q：如何取得 Aspose.Slides for .NET 的臨時授權？

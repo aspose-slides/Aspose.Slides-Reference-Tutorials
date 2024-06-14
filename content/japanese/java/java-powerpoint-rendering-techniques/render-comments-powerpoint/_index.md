@@ -18,7 +18,7 @@ url: /ja/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 まず、Java コードに必要なパッケージをインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

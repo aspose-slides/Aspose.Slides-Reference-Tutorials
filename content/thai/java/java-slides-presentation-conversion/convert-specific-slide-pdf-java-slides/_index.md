@@ -16,7 +16,7 @@ url: /th/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 ก่อนที่เราจะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
-1. Aspose.Slides สำหรับไลบรารี Java: คุณจะต้องติดตั้ง Aspose.Slides สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides สำหรับไลบรารี Java: คุณจะต้องติดตั้ง Aspose.Slides สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 
 2. สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ
 

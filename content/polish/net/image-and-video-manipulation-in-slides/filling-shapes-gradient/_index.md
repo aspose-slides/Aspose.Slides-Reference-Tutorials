@@ -16,7 +16,7 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 -  Aspose.Slides dla biblioteki .NET. Pobierz to[Tutaj](https://releases.aspose.com/slides/net/).
 - Katalog projektu do porządkowania plików.
 ## Importuj przestrzenie nazw
-W projekcie C# uwzględnij wymagane przestrzenie nazw dla Aspose.Slides:
+W swoim projekcie C# uwzględnij wymagane przestrzenie nazw dla Aspose.Slides:
 ```csharp
 using System.IO;
 using Aspose.Slides;
@@ -70,6 +70,6 @@ Odp.: Oczywiście! Aspose.Slides dla .NET obsługuje wypełnianie gradientem ró
 ### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Slides dla .NET?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### P: Jak mogę uzyskać wsparcie dla Aspose.Slides dla .NET?
-O: Poproś o pomoc i nawiąż kontakt ze społecznością na stronie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ O: Poproś o pomoc i nawiąż kontakt ze społecznością na stronie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### P: Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
  Odpowiedź: Oczywiście, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

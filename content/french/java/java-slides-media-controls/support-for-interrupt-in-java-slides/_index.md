@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Code source complet pour la prise en charge de l'interruption dans les diapositives Java
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {
@@ -124,7 +124,7 @@ La gestion des interruptions dans Java Slides fait référence à la capacité d
 
 ### La gestion des interruptions peut-elle être utilisée avec n’importe quelle opération dans Aspose.Slides pour Java ?
 
-Oui, la gestion des interruptions peut être appliquée à diverses opérations dans Aspose.Slides pour Java. Vous pouvez interrompre des tâches telles que le chargement de présentations, l'enregistrement de présentations et d'autres opérations fastidieuses pour garantir un contrôle fluide sur votre application.
+Oui, la gestion des interruptions peut être appliquée à diverses opérations dans Aspose.Slides pour Java. Vous pouvez interrompre des tâches telles que le chargement de présentations, l'enregistrement de présentations et d'autres opérations fastidieuses pour garantir un contrôle fluide de votre application.
 
 ### Existe-t-il des scénarios spécifiques dans lesquels la gestion des interruptions est particulièrement utile ?
 

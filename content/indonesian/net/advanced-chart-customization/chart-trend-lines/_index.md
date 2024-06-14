@@ -14,7 +14,7 @@ Dalam dunia visualisasi dan presentasi data, menggabungkan bagan dapat menjadi c
 
 Sebelum kita mulai bekerja dengan Aspose.Slides untuk .NET, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
 
-1.  Aspose.Slides for .NET: Untuk mengakses perpustakaan dan menggunakannya, Anda harus menginstal Aspose.Slides for .NET. Anda bisa mendapatkan perpustakaan dari[Unduh Halaman](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Untuk mengakses perpustakaan dan menggunakannya, Anda harus menginstal Aspose.Slides for .NET. Anda bisa mendapatkan perpustakaan dari[Unduh Halaman](https://releases.aspose.com/slides/net/).
 
 2. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan, sebaiknya menggunakan lingkungan pengembangan terintegrasi .NET seperti Visual Studio.
 

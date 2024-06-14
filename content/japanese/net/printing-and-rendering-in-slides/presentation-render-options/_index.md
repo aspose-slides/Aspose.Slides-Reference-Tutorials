@@ -69,4 +69,4 @@ A: はい。レイアウト オプションの包括的なリストについて�
 ### Q: システムにインストールされていないカスタムフォントを使用できますか?
  A: はい、フォントファイルのパスを`AddFonts`方法`FontsLoader`クラス。
 ### Q: どこでサポートを求めたり、コミュニティとつながったりできますか?
-A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)サポートとコミュニティの関与のため。
+ A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)サポートとコミュニティの関与のため。

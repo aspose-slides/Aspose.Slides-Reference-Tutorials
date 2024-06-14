@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Passaggio 3: personalizza gli sfondi delle diapositive
 Migliora l'impatto visivo delle tue diapositive personalizzandone gli sfondi. In questo esempio, impostiamo uno sfondo ciano uniforme per la seconda diapositiva.
 ```csharp
-//Crea uno sfondo per la seconda diapositiva
+// Crea uno sfondo per la seconda diapositiva
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

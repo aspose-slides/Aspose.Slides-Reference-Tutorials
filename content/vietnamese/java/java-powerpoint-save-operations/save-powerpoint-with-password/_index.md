@@ -19,7 +19,7 @@ Trước tiên, bạn cần nhập các gói cần thiết vào tệp Java của
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Bước 1: Thiết lập môi trường

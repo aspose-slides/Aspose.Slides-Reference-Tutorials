@@ -20,7 +20,7 @@ Primero, configuremos nuestro proyecto e importemos los paquetes necesarios. Cre
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Paso 1: configurar el directorio del proyecto
 Comience configurando el directorio de su proyecto. Cree una carpeta donde almacenará sus archivos Java y la presentación de PowerPoint (`Presentation1.pptx`).

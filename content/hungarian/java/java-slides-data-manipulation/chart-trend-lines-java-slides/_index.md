@@ -181,12 +181,12 @@ Igen, több trendvonalat is hozzáadhat egyetlen diagramsorozathoz. Egyszerűen 
 
 ### Hogyan távolíthatok el trendvonalat az Aspose.Slides for Java diagramjából?
 
- Ha el szeretne távolítani egy trendvonalat a diagramról, használhatja a`removeAt(int index)` módszerrel, megadva az eltávolítani kívánt trendvonal indexét.
+ Trendvonal eltávolításához a diagramból használhatja a`removeAt(int index)` módszerrel, megadva az eltávolítani kívánt trendvonal indexét.
 
 ### Testreszabható a trendvonal egyenlet megjelenítése?
 
  Igen, testreszabhatja a trendvonal-egyenlet megjelenítését a`setDisplayEquation(boolean)` módszerrel, ahogy a példában is látható.
 
-### Hogyan férhetek hozzá további erőforrásokhoz és példákhoz az Aspose.Slides for Java számára?
+### Hogyan férhetek hozzá további forrásokhoz és példákhoz az Aspose.Slides for Java számára?
 
  Az Aspose.Slides for Java további forrásaihoz, dokumentációihoz és példáihoz férhet hozzá a webhelyen[Aspose honlapja](https://reference.aspose.com/slides/java/).

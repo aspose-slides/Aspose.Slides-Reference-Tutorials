@@ -20,7 +20,7 @@ Nel tuo progetto Java, importa le classi Aspose.Slides necessarie:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: impostare l'ambiente
 Definisci il percorso della directory contenente il tuo file PowerPoint:
@@ -32,7 +32,7 @@ String dataDir = "path_to_your_directory/";
 ```java
 Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx");
 ```
-## Passaggio 3: accedi alle proprietà del documento
+## Passaggio 3: accedere alle proprietà del documento
  Accedi al`IDocumentProperties` oggetto associato alla presentazione:
 ```java
 IDocumentProperties documentProperties = presentation.getDocumentProperties();

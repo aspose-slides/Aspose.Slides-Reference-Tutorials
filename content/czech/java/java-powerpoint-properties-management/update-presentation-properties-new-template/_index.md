@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Definujte hlavní metodu
 Vytvořte hlavní metodu, kde zahájíte proces aktualizace vlastností prezentace pomocí nové šablony. Tato metoda slouží jako vstupní bod pro vaši aplikaci Java.

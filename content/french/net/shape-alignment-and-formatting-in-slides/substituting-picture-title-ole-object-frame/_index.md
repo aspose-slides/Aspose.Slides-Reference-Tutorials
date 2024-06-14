@@ -71,7 +71,7 @@ oof.SubstitutePictureTitle = "Caption example";
 ```
 Définissez la légende souhaitée pour l'icône OLE.
 ## Conclusion
-L'incorporation d'objets OLE dans vos diapositives de présentation à l'aide d'Aspose.Slides for .NET est un processus simple. Ce didacticiel vous a guidé à travers les étapes essentielles, de la configuration du répertoire de documents à l'ajout et à la personnalisation des objets OLE. Expérimentez avec différents types de fichiers et légendes pour améliorer l'attrait visuel de vos présentations.
+L'incorporation d'objets OLE dans vos diapositives de présentation à l'aide d'Aspose.Slides for .NET est un processus simple. Ce didacticiel vous a guidé à travers les étapes essentielles, depuis la configuration du répertoire de documents jusqu'à l'ajout et la personnalisation des objets OLE. Expérimentez avec différents types de fichiers et légendes pour améliorer l'attrait visuel de vos présentations.
 ## FAQ
 ### Puis-je intégrer d’autres types de fichiers en tant qu’objets OLE à l’aide d’Aspose.Slides ?
 Oui, Aspose.Slides prend en charge l'intégration de différents types de fichiers, tels que des feuilles de calcul Excel, des documents Word, etc.

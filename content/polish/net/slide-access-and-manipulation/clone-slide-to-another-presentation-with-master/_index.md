@@ -26,7 +26,7 @@ Podzielmy teraz proces na kilka etapów:
 
 ## Krok 1: Importuj przestrzenie nazw
 
-Najpierw musisz zaimportować niezbędne przestrzenie nazw, aby móc pracować z Aspose.Slides. W kodzie zazwyczaj będziesz uwzględniać następujące przestrzenie nazw:
+Najpierw musisz zaimportować niezbędne przestrzenie nazw do pracy z Aspose.Slides. W kodzie zazwyczaj będziesz uwzględniać następujące przestrzenie nazw:
 
 ```csharp
 using Aspose.Slides;

@@ -10,7 +10,7 @@ url: /zh-hant/java/presentation-conversion/convert-to-animation-java-slides/
 
 # 使用 Aspose.Slides for Java 在 Java 投影片中轉換為動畫的簡介
 
-Aspose.Slides for Java 是一個功能強大的 API，可讓您以程式設計方式處理 PowerPoint 簡報。在本逐步指南中，我們將探討如何使用 Java 和 Aspose.Slides for Java 將靜態 PowerPoint 簡報轉換為動畫簡報。在本教程結束時，您將能夠創建吸引觀眾的動態簡報。
+Aspose.Slides for Java 是一個功能強大的 API，可讓您以程式設計方式處理 PowerPoint 簡報。在本逐步指南中，我們將探索如何使用 Java 和 Aspose.Slides for Java 將靜態 PowerPoint 簡報轉換為動畫簡報。在本教程結束時，您將能夠創建吸引觀眾的動態簡報。
 
 ## 先決條件
 
@@ -34,7 +34,7 @@ import java.io.IOException;
 首先，載入要轉換為動畫的 PowerPoint 簡報。代替`"SimpleAnimations.pptx"`以及簡報文件的路徑：
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 播放簡報時，每一幀都會作為 PNG 影像保存在指定的輸出目錄中。您可以根據需要自訂輸出路徑：
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## 在 Java 投影片中轉換為動畫的完整原始碼
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

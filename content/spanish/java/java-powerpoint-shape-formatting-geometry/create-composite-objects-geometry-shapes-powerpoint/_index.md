@@ -13,18 +13,18 @@ url: /es/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 Antes de pasar al código, hay algunas cosas que necesitarás:
 - Kit de desarrollo de Java (JDK): asegúrese de tener JDK 1.8 o superior instalado en su máquina.
 - Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA o Eclipse le hará la vida más fácil.
--  Aspose.Slides para Java: puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/) o utilice Maven para incluirlo en su proyecto.
+-  Aspose.Slides para Java: puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/) o use Maven para incluirlo en su proyecto.
 - Conocimientos básicos de Java: este tutorial asume que tienes un conocimiento fundamental de Java.
 ## Importar paquetes
 Lo primero es lo primero, importemos los paquetes necesarios para comenzar con Aspose.Slides para Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Crear objetos compuestos puede parecer complejo, pero si lo divides en pasos manejables, descubrirás que es más fácil de lo que crees. Crearemos una presentación de PowerPoint, agregaremos una forma y luego definiremos y aplicaremos múltiples trazados geométricos para formar una forma compuesta.
 ## Paso 1: configura tu proyecto
-Antes de escribir cualquier código, configure su proyecto Java. Cree un nuevo proyecto en su IDE e incluya Aspose.Slides para Java. Puede agregar la biblioteca usando Maven o descargar el archivo JAR desde[Página de descarga de Aspose.Slides](https://releases.aspose.com/slides/java/).
+ Antes de escribir cualquier código, configure su proyecto Java. Cree un nuevo proyecto en su IDE e incluya Aspose.Slides para Java. Puede agregar la biblioteca usando Maven o descargar el archivo JAR desde[Página de descarga de Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### Agregar Aspose.Slides a su proyecto usando Maven
  Si está utilizando Maven, agregue la siguiente dependencia a su`pom.xml` archivo:
 ```xml
@@ -35,10 +35,10 @@ Antes de escribir cualquier código, configure su proyecto Java. Cree un nuevo p
 </dependency>
 ```
 ## Paso 2: Inicialice la presentación
- Ahora, creemos una nueva presentación de PowerPoint. Empezaremos inicializando el`Presentation` clase.
+Ahora, creemos una nueva presentación de PowerPoint. Empezaremos inicializando el`Presentation` clase.
 ```java
 // Nombre del archivo de salida
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Paso 3: crea una nueva forma
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Paso 7: guarde la presentación
 Finalmente, guarde su presentación en un archivo.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Paso 8: Limpiar recursos

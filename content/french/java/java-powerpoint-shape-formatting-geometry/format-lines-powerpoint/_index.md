@@ -18,7 +18,7 @@ Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivan
 Tout d’abord, importons les packages nécessaires pour travailler avec Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -70,7 +70,7 @@ Enfin, enregistrez la présentation dans le répertoire spécifié. Cette étape
 pres.save(dataDir + "FormattedRectangle_out.pptx", SaveFormat.Pptx);
 ```
 ## Étape 7 : éliminer la présentation
-Après avoir enregistré la présentation, il est recommandé de s'en débarrasser pour libérer des ressources.
+Après avoir enregistré la présentation, il est recommandé de la supprimer pour libérer des ressources.
 ```java
 if (pres != null) pres.dispose();
 ```

@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Mã nguồn hoàn chỉnh để tuân thủ chuyển đổi sang PDF trong Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Việc sử dụng tuân thủ PDF/A-2a là điều cần thiết khi bạn cầ
 
 ## Tôi có thể thay đổi mức độ tuân thủ PDF thành một thứ khác ngoài PDF/A-2a không?
 
- Có, Aspose.Slides for Java mang đến sự linh hoạt trong việc chọn mức độ tuân thủ PDF. Trong mã được cung cấp, bạn có thể thay đổi mức độ tuân thủ bằng cách sửa đổi`pdfOptions.setCompliance()` đường kẻ. Bạn có thể chọn các mức độ tuân thủ khác như PDF/A-1a, PDF/A-1b, PDF/A-3a, v.v. tùy theo yêu cầu cụ thể của bạn.
+ Có, Aspose.Slides for Java mang đến sự linh hoạt trong việc chọn mức độ tuân thủ PDF. Trong mã được cung cấp, bạn có thể thay đổi mức độ tuân thủ bằng cách sửa đổi`pdfOptions.setCompliance()`đường kẻ. Bạn có thể chọn các mức độ tuân thủ khác như PDF/A-1a, PDF/A-1b, PDF/A-3a, v.v. tùy theo yêu cầu cụ thể của bạn.
 
 ## Sự khác biệt giữa PDF/A-2a và các mức độ tuân thủ khác là gì?
 
@@ -113,4 +113,4 @@ Có, bạn thường cần có giấy phép hợp lệ để Aspose.Slides for J
 
 ## Tôi có thể tìm thêm thông tin về việc tuân thủ Aspose.Slides cho Java và PDF ở đâu?
 
- Để biết thêm thông tin chi tiết về Aspose.Slides cho Java và các tính năng của nó, bao gồm cài đặt tuân thủ PDF, bạn có thể tham khảo tài liệu trên[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/)Ngoài ra, bạn có thể khám phá các ví dụ và hướng dẫn về mã để nâng cao hơn nữa kiến thức của mình về thư viện.
+ Để biết thêm thông tin chi tiết về Aspose.Slides cho Java và các tính năng của nó, bao gồm cài đặt tuân thủ PDF, bạn có thể tham khảo tài liệu trên[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/). Ngoài ra, bạn có thể khám phá các ví dụ và hướng dẫn về mã để nâng cao hơn nữa kiến thức của mình về thư viện.

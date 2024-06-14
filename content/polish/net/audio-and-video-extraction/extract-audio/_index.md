@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/audio-and-video-extraction/extract-audio/
 ---
 
-W świecie prezentacji dodanie dźwięku do slajdów może zwiększyć ogólny efekt i zaangażowanie. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi do pracy z prezentacjami, a w tym samouczku odkryjemy, jak wyodrębnić dźwięk ze slajdu w przewodniku krok po kroku. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować ten proces, czy po prostu chcesz zrozumieć, jak to się robi, ten samouczek przeprowadzi Cię przez ten proces.
+świecie prezentacji dodanie dźwięku do slajdów może zwiększyć ogólny efekt i zaangażowanie. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi do pracy z prezentacjami, a w tym samouczku odkryjemy, jak wyodrębnić dźwięk ze slajdu w przewodniku krok po kroku. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować ten proces, czy po prostu chcesz zrozumieć, jak to się robi, ten samouczek przeprowadzi Cię przez ten proces.
 
 ## Warunki wstępne
 

@@ -35,9 +35,9 @@ Att organisera former i grupper eller skapa miniatyrer för SmartArt kan förbä
 -  SmartArt-miniatyrer för underordnade anteckningar: Att skapa miniatyrer för underordnade SmartArt-anteckningar kan förenkla förståelsen och navigeringen av komplexa diagram. Kolla in vår steg-för-steg handledning[Skapa SmartArt-miniatyr för underordnad anteckning](./create-smartart-child-note-thumbnail/) för detaljerade instruktioner.
 
 Genom att använda dessa handledningar kan du förbättra dina PowerPoint-presentationer avsevärt, vilket gör dem mer engagerande och visuellt tilltalande. Aspose.Slides för Java tillhandahåller de verktyg du behöver för att enkelt lägga till dessa avancerade funktioner, vilket förbättrar både funktionaliteten och estetiken hos dina bilder. Dyk in i varje handledning och höj dina presentationsfärdigheter idag!
-## Självstudier för skapande av Java PowerPoint-form och miniatyrbilder
+## Självstudier för skapande av Java PowerPoint-former och miniatyrer
 ### [Skapa miniatyrbild av gränser](./create-bounds-shape-thumbnail/)
-Lär dig hur du skapar formminiatyrer med gränser med Aspose.Slides för Java. Denna steg-för-steg handledning guidar dig genom processen.
+Lär dig hur du skapar miniatyrbilder med gränser med Aspose.Slides för Java. Denna steg-för-steg handledning guidar dig genom processen.
 ### [Skapa gruppform i PowerPoint](./create-group-shape-powerpoint/)
 Lär dig hur du skapar gruppformer i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra organisation och visuell tilltal utan ansträngning.
 ### [Skapa skalningsfaktorminiatyr](./create-scaling-factor-thumbnail/)

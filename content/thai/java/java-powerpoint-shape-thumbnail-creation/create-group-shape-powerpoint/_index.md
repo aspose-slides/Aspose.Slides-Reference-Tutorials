@@ -12,17 +12,17 @@ url: /th/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerp
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าข้อกำหนดเบื้องต้นต่อไปนี้:
 1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว
-2.  Aspose.Slides สำหรับไลบรารี Java: ดาวน์โหลดและรวม Aspose.Slides สำหรับไลบรารี Java ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides สำหรับไลบรารี Java: ดาวน์โหลดและรวม Aspose.Slides สำหรับไลบรารี Java ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): เลือก Java IDE ตามที่คุณต้องการ เช่น IntelliJ IDEA หรือ Eclipse
 
 ## แพ็คเกจนำเข้า
 ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับการใช้ Aspose.Slides สำหรับฟังก์ชัน Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อมของคุณ
- ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไดเรกทอรีสำหรับโครงการของคุณซึ่งคุณสามารถสร้างและบันทึกงานนำเสนอ PowerPoint ได้ แทนที่`"Your Document Directory"`พร้อมเส้นทางไปยังไดเร็กทอรีที่คุณต้องการ
+ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าไดเรกทอรีสำหรับโครงการของคุณซึ่งคุณสามารถสร้างและบันทึกงานนำเสนอ PowerPoint ได้ แทนที่`"Your Document Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีที่คุณต้องการ
 ```java
 String dataDir = "Your Document Directory";
 ```

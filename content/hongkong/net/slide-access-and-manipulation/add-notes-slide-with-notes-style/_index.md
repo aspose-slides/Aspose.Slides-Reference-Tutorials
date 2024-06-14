@@ -89,7 +89,7 @@ presentation.Save(dataDir + "StylishNotesPresentation.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-透過時尚的筆記格式增強 PowerPoint 簡報可以顯著提高其視覺吸引力和有效性。透過 Aspose.Slides for .NET，過程變得簡單且易於訪問，讓您可以輕鬆創建具有專業外觀的簡報。
+透過時尚的筆記格式增強 PowerPoint 簡報可以顯著提高其視覺吸引力和有效性。透過 Aspose.Slides for .NET，流程變得簡單且易於訪問，讓您可以輕鬆建立具有專業外觀的簡報。
 
 將這種技術融入您的簡報中，您將能夠以自己的方式交付有影響力的內容。
 

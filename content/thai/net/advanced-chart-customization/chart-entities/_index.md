@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
+// การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// การตั้งค่าสีพื้นที่พล็อต
+//การตั้งค่าสีพื้นที่พล็อต
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides สำหรับ .NET เป็นไลบรารีที่
 
 ### 3. Aspose.Slides สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
 
-ใช่ คุณสามารถทดลองใช้ Aspose.Slides สำหรับ .NET ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ ใช่ คุณสามารถทดลองใช้ Aspose.Slides สำหรับ .NET ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 
 ### 4. ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ .NET ได้อย่างไร
 

@@ -14,11 +14,11 @@ Ebben az oktatóanyagban bemutatjuk, hogyan lehet lekérni egy bekezdés téglal
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java fejlesztői környezetben. Letöltheti innen[itt](https://downloads.aspose.com/slides/java).
+ Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java fejlesztői környezetben. Letöltheti innen[itt](https://downloads.aspose.com/slides/java).
 
 ## 1. lépés: Importálja a szükséges könyvtárakat
 
-A kezdéshez importálja a szükséges könyvtárakat az Aspose.Slides alkalmazáshoz a Java projektben:
+kezdéshez importálja a szükséges könyvtárakat az Aspose.Slides alkalmazáshoz a Java projektben:
 
 ```java
 import com.aspose.slides.*;
@@ -37,7 +37,7 @@ String presentationPath = "YourPresentation.pptx";
 Presentation presentation = new Presentation(presentationPath);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"YourPresentation.pptx"` a PowerPoint-fájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"YourPresentation.pptx"` a PowerPoint-fájl tényleges elérési útjával.
 
 ## 3. lépés: A bekezdés koordinátáinak lekérése
 
@@ -107,7 +107,7 @@ Igen, az Aspose.Slides for Java kiválóan alkalmas PowerPoint fájlok kötegelt
 
 ### Hol találok további példákat és dokumentációt?
 
- További kódpéldákat és részletes dokumentációt találhat az Aspose.Slides for Java-hoz a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/)weboldal. Ezenkívül felfedezheti a[Aspose.Slides fórumok](https://forum.aspose.com/c/slides) közösségi támogatásra és beszélgetésekre.
+ További kódpéldákat és részletes dokumentációt találhat az Aspose.Slides for Java-hoz a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal. Ezenkívül felfedezheti a[Aspose.Slides fórumok](https://forum.aspose.com/c/slides) közösségi támogatásra és beszélgetésekre.
 
 ### Szükségem van licencre az Aspose.Slides for Java használatához?
 

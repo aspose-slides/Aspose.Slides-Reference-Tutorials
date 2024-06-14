@@ -58,7 +58,7 @@ Erfahren Sie, wie Sie PDF-Konformität erreichen, indem Sie mit Aspose.Slides f�
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen nahtlos in PDF mit ausgeblendeten Folien konvertieren.
 ### [Präsentation in XAML-Format exportieren](./export-presentation-to-xaml-format/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen in das XAML-Format exportieren. Erstellen Sie mühelos interaktive Inhalte!
-### [Präsentation ins SWF-Format konvertieren](./convert-presentation-to-swf-format/)
+### [Präsentation in SWF-Format konvertieren](./convert-presentation-to-swf-format/)
 Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET in das SWF-Format konvertieren. Erstellen Sie mühelos dynamische Inhalte!
 ### [Konvertieren Sie die Präsentation mit Fortschrittsaktualisierung in PDF](./convert-presentation-to-pdf-with-progress-update/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen mit Fortschrittsaktualisierungen in PDF konvertieren. Schritt-für-Schritt-Anleitung mit Quellcode.

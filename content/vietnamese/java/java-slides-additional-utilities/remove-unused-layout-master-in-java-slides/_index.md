@@ -84,7 +84,7 @@ Mã này sẽ in số lượng cập nhật trong bản trình bày của bạn,
 ## Mã nguồn hoàn chỉnh để loại bỏ Layout Master không được sử dụng trong Java Slides
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

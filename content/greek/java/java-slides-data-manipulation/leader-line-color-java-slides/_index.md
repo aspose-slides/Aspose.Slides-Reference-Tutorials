@@ -20,7 +20,7 @@ url: /el/java/data-manipulation/leader-line-color-java-slides/
 
 ## Βήμα 1: Φορτώστε την παρουσίαση
 
-Αρχικά, πρέπει να φορτώσετε την παρουσίαση του PowerPoint που περιέχει το γράφημα που θέλετε να τροποποιήσετε. Αντικαθιστώ`presentationName` με τη διαδρομή προς το αρχείο PowerPoint.
+ Αρχικά, πρέπει να φορτώσετε την παρουσίαση του PowerPoint που περιέχει το γράφημα που θέλετε να τροποποιήσετε. Αντικαθιστώ`presentationName` με τη διαδρομή προς το αρχείο PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // Λάβετε το γράφημα από την πρώτη διαφάνεια
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Λάβετε σειρές του διαγράμματος
+//Λάβετε σειρές του διαγράμματος
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Λάβετε ετικέτες της πρώτης σειράς
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Τέλος, αποθηκεύστε την παρουσίαση με τα τροποποιημένα χρώματα γραμμής οδηγού σε ένα νέο αρχείο.
 
 ```java
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Ολοκληρώστε τον πηγαίο κώδικα για το χρώμα γραμμής Leader σε διαφάνειες Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Λάβετε το γράφημα από την πρώτη διαφάνεια
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Λάβετε σειρές του διαγράμματος
+            //Λάβετε σειρές του διαγράμματος
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Αποκτήστε lebels της πρώτης σειράς
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### Χρειάζομαι άδεια χρήσης για να χρησιμοποιήσω το Aspose.Slides για Java σε ένα εμπορικό έργο;
 
-Ναι, γενικά χρειάζεστε μια έγκυρη άδεια χρήσης για να χρησιμοποιήσετε το Aspose.Slides για Java σε ένα εμπορικό έργο. Η Aspose προσφέρει διάφορες επιλογές αδειοδότησης, συμπεριλαμβανομένης μιας δωρεάν άδειας αξιολόγησης για σκοπούς δοκιμών και δοκιμών. Ωστόσο, για χρήση στην παραγωγή, θα πρέπει να αποκτήσετε την κατάλληλη εμπορική άδεια. Επισκέψου το[Aspose Purchase Page](https://purchase.aspose.com/) για λεπτομέρειες αδειοδότησης.
+ Ναι, γενικά χρειάζεστε μια έγκυρη άδεια χρήσης για να χρησιμοποιήσετε το Aspose.Slides για Java σε ένα εμπορικό έργο. Η Aspose προσφέρει διάφορες επιλογές αδειοδότησης, συμπεριλαμβανομένης μιας δωρεάν άδειας αξιολόγησης για σκοπούς δοκιμών και δοκιμών. Ωστόσο, για χρήση στην παραγωγή, θα πρέπει να αποκτήσετε την κατάλληλη εμπορική άδεια. Επισκέψου το[Aspose Purchase Page](https://purchase.aspose.com/) για λεπτομέρειες αδειοδότησης.
 
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Slides για Java;
 

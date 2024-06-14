@@ -65,7 +65,7 @@ Dit codefragment voegt de gedupliceerde dia toe aan het einde van de presentatie
 Nadat we de gedupliceerde dia hebben toegevoegd, moeten we de gewijzigde presentatie opslaan. Hier is hoe:
 
 ```csharp
-// Sla de gewijzigde presentatie op
+//Sla de gewijzigde presentatie op
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

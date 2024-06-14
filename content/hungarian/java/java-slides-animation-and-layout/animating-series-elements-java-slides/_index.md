@@ -55,7 +55,7 @@ for (int seriesIndex = 0; seriesIndex < chart.getChartData().getSeries().size();
 }
 ```
 
-A fenti kódban először animáljuk a teljes diagramot "Fade" effektussal. Ezután végigpörgetjük a diagramon belüli sorozatokat és pontokat, és minden elemre "Megjelenés" effektust alkalmazunk. Szükség szerint testreszabhatja az animáció típusát és a triggert.
+A fenti kódban először animáljuk a teljes diagramot "Fade" effektussal. Ezután végigpörgetjük a sorozatot és a diagramon belüli pontokat, és minden elemre "Megjelenés" effektust alkalmazunk. Szükség szerint testreszabhatja az animáció típusát és a triggert.
 
 ## 4. lépés: Mentse el a bemutatót
 
@@ -92,7 +92,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// Írja ki a bemutató fájlt lemezre
+	// Írja a bemutató fájlt lemezre
 	presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally

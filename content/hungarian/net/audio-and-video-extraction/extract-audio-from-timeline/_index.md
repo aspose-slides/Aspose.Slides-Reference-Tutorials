@@ -8,7 +8,7 @@ weight: 13
 url: /hu/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
 
-multimédiás prezentációk világában a hang hatékony eszköz lehet az üzenet hatékony közvetítésére. Az Aspose.Slides for .NET zökkenőmentes megoldást kínál a PowerPoint prezentációk hangjának kinyerésére. Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan vonhat ki hangot egy PowerPoint-prezentációból az Aspose.Slides for .NET segítségével.
+A multimédiás prezentációk világában a hang hatékony eszköz lehet az üzenet hatékony közvetítésére. Az Aspose.Slides for .NET zökkenőmentes megoldást kínál a PowerPoint prezentációk hangjának kinyerésére. Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan vonhat ki hangot egy PowerPoint-prezentációból az Aspose.Slides for .NET segítségével.
 
 ## Előfeltételek
 
@@ -24,7 +24,7 @@ Most, hogy minden a helyén van, folytassuk a lépésről lépésre szóló útm
 
 ## 1. lépés: Névterek importálása
 
-kezdéshez importálnia kell az Aspose.Slides használatához és a fájlműveletek kezeléséhez szükséges névtereket. Adja hozzá a következő kódot a C# projekthez:
+A kezdéshez importálnia kell az Aspose.Slides használatához és a fájlműveletek kezeléséhez szükséges névtereket. Adja hozzá a következő kódot a C# projekthez:
 
 ```csharp
 using Aspose.Slides;
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Ebben a lépésben betöltjük a PowerPoint bemutatót a megadott fájlból. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
+Ebben a lépésben betöltjük a PowerPoint bemutatót a megadott fájlból. Mindenképpen cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
 
 ### 2.2. lépés: Nyissa meg a Dia és az idővonalat
 

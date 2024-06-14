@@ -14,7 +14,7 @@ A .NET-fejlesztés világában az Aspose.Slides egy hatékony és sokoldalú kö
 
 Mielőtt belemerülnénk az engedélyezési folyamatba, a következő előfeltételeknek kell teljesülniük:
 
-1.  Aspose.Slides for .NET: Győződjön meg arról, hogy telepítette az Aspose.Slides for .NET-et a fejlesztői környezetében. A könyvtár letölthető a[letöltési link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Győződjön meg arról, hogy telepítette az Aspose.Slides for .NET-et a fejlesztői környezetében. A könyvtár letölthető a[letöltési link](https://releases.aspose.com/slides/net/).
 
 2.  Licencfájl: Szerezzen be egy érvényes Aspose.Slides licencfájlt, melynek neve általában „Aspose.Slides.lic”. Az engedélyeket a[Aspose honlapja](https://purchase.aspose.com/buy) vagy kérjen a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékelési célokra.
 
@@ -34,7 +34,7 @@ Ha ezt a névteret importálja, akkor elkezdheti kihasználni az Aspose.Slides e
 
 ## Licenc inicializálása
 
-A következő lépés az Aspose.Slides licenc inicializálása a megszerzett licencfájl használatával. Ez a lépés kulcsfontosságú ahhoz, hogy megbizonyosodjon arról, hogy rendelkezik törvényes joggal a könyvtár használatához az alkalmazásban.
+következő lépés az Aspose.Slides licenc inicializálása a megszerzett licencfájl használatával. Ez a lépés kulcsfontosságú ahhoz, hogy megbizonyosodjon arról, hogy rendelkezik törvényes joggal a könyvtár használatához az alkalmazásban.
 
 ### 2. lépés: Példányosítsa a licencosztályt
 
@@ -58,7 +58,7 @@ A licencfájl elérési útjának beállítása után elengedhetetlen, hogy a li
 
 ### 4. lépés: A licenc érvényesítése
 
- jogosítvány érvényességének ellenőrzéséhez használja a`IsLicensed` módszer. Logikai értéket ad vissza, jelezve, hogy a licenc aktív-e.
+ A jogosítvány érvényességének ellenőrzéséhez használja a`IsLicensed` módszer. Logikai értéket ad vissza, jelezve, hogy a licenc aktív-e.
 
 ```csharp
 if (license.IsLicensed())
@@ -79,7 +79,7 @@ Ebben a lépésenkénti útmutatóban az Aspose.Slides .NET-hez való licencelé
 ## Gyakran Ismételt Kérdések
 
 ### Mi az Aspose.Slides for .NET?
-Az Aspose.Slides for .NET egy hatékony könyvtár a .NET-alkalmazásokban található Microsoft PowerPoint fájlokkal való munkavégzéshez. Lehetővé teszi PowerPoint prezentációk programozott létrehozását, módosítását és kezelését.
+Az Aspose.Slides for .NET egy hatékony könyvtár a .NET-alkalmazásokban található Microsoft PowerPoint fájlokkal való munkavégzéshez. Lehetővé teszi PowerPoint-prezentációk programozott létrehozását, módosítását és kezelését.
 
 ### Hogyan szerezhetek licencet az Aspose.Slides for .NET számára?
  Az Aspose.Slides for .NET licencét az Aspose webhelyén szerezheti be.[vásárlási oldal](https://purchase.aspose.com/buy).

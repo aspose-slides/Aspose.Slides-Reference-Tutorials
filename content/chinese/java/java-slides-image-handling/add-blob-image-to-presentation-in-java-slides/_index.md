@@ -90,7 +90,7 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
                 IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
                 pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
                 //保存演示文稿。尽管输出演示文稿将
-                //很大，在 pres 对象的整个生命周期中，内存消耗会很低
+                //很大，在 pres 对象的整个生命周期中内存消耗会很低
                 pres.save(dataDir + "presentationWithLargeImage.pptx", SaveFormat.Pptx);
             }
             finally
@@ -120,11 +120,11 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 
 ### 我可以在单个演示文稿中添加多个 Blob 图像吗？
 
-是的，您可以将多张 Blob 图像添加到单个演示文稿中。只需对要包含的每张图像重复本教程中概述的步骤即可。
+是的，您可以将多张 Blob 图像添加到单个演示文稿中。只需对要添加的每张图像重复本教程中概述的步骤即可。
 
 ### 演示文稿的推荐图像格式是什么？
 
-建议使用常见的图像格式（例如 JPEG 或 PNG）进行演示。Aspose.Slides for Java 支持各种图像格式，确保与大多数演示软件兼容。
+建议使用 JPEG 或 PNG 等常见图像格式进行演示。Aspose.Slides for Java 支持各种图像格式，确保与大多数演示软件兼容。
 
 ### 如何自定义添加的Blob图像的位置和大小？
 

@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-external-workbook-update-chart-data-java-sli
 
 이 종합 가이드에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드의 업데이트된 차트 데이터로 외부 통합 문서를 설정하는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있으므로 외부 소스에서 차트 데이터를 업데이트하는 등의 작업을 쉽게 자동화할 수 있습니다. 이 튜토리얼이 끝나면 단계별 지침과 함께 제공되는 Java 코드를 통해 이 작업을 수행하는 방법을 명확하게 이해하게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

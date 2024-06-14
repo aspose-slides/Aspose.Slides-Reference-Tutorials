@@ -20,13 +20,13 @@ Než začneme, ujistěte se, že máte následující:
 Než se ponoříme do kódovací části, naimportujme potřebné balíčky.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Krok 1: Nastavení projektu
-Chcete-li začít, nastavte svůj projekt Java a zahrňte knihovnu Aspose.Slides for Java do závislostí vašeho projektu. Pokud používáte Maven, přidejte do své závislosti následující závislost`pom.xml`:
+ Chcete-li začít, nastavte svůj projekt Java a zahrňte knihovnu Aspose.Slides for Java do závislostí vašeho projektu. Pokud používáte Maven, přidejte do své závislosti následující závislost`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -97,7 +97,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 Vytváření vlastních geometrií v PowerPointu pomocí Aspose.Slides pro Java je přímočaré a dodává vašim prezentacím hodně vizuálního zájmu. Pomocí několika řádků kódu můžete generovat složité tvary, jako jsou hvězdy, a vkládat je do snímků. Tento průvodce popisuje proces krok za krokem, od nastavení projektu až po uložení finální prezentace.
 ## FAQ
 ### Co je Aspose.Slides for Java?
-Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům v jazyce Java vytvářet, upravovat a spravovat prezentace PowerPoint programově.
+Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům Java vytvářet, upravovat a spravovat prezentace v PowerPointu programově.
 ### Mohu vytvořit jiné tvary kromě hvězd?
 Ano, můžete vytvářet různé vlastní tvary definováním jejich geometrických drah.
 ### Je Aspose.Slides for Java zdarma?

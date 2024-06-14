@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-properties-management/update-presentation-properti
 ---
 ## 소개
 Java 개발 영역에서 Aspose.Slides는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하기 위한 강력한 도구입니다. 개발자는 Java 라이브러리를 사용하여 프레젠테이션 생성, 수정, 변환과 같은 작업을 자동화할 수 있으므로 기업과 개인 모두에게 귀중한 자산이 됩니다. 그러나 Aspose.Slides의 잠재력을 최대한 활용하려면 해당 기능과 이를 Java 프로젝트에 효과적으로 통합하는 방법에 대한 확실한 이해가 필요합니다. 이 튜토리얼에서는 새 템플릿을 사용하여 프리젠테이션 속성을 업데이트하는 방법을 단계별로 자세히 살펴보고 각 개념을 철저하게 파악하도록 하겠습니다.
-## 전제조건
+## 전제 조건
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 기본 메서드 정의
 새 템플릿으로 프레젠테이션 속성을 업데이트하는 프로세스를 시작하는 기본 메서드를 만듭니다. 이 메소드는 Java 애플리케이션의 진입점 역할을 합니다.

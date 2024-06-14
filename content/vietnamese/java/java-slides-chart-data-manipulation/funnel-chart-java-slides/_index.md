@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Thêm Biểu đồ kênh vào trang trình bày đầu tiên tại tọa độ (50, 50) với kích thước (500, 400).
+    //Thêm Biểu đồ kênh vào trang trình bày đầu tiên tại tọa độ (50, 50) với kích thước (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Bạn có thể điều chỉnh vị trí và kích thước của Biểu đồ 
 
 ### Tôi có thể xuất biểu đồ sang các định dạng khác nhau như PDF hoặc hình ảnh không?
 
- Có, Aspose.Slides cho Java cho phép bạn xuất bản trình bày có Biểu đồ kênh sang nhiều định dạng khác nhau, bao gồm PDF, định dạng hình ảnh, v.v. Bạn có thể dùng`SaveFormat` các tùy chọn để chỉ định định dạng đầu ra mong muốn khi lưu bản trình bày.
+Có, Aspose.Slides cho Java cho phép bạn xuất bản trình bày có Biểu đồ kênh sang nhiều định dạng khác nhau, bao gồm PDF, định dạng hình ảnh, v.v. Bạn có thể dùng`SaveFormat` các tùy chọn để chỉ định định dạng đầu ra mong muốn khi lưu bản trình bày.

@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-whole-presentation-html-media-file
 
 오늘날과 같은 디지털 시대에는 프레젠테이션을 HTML을 포함한 다양한 형식으로 변환하는 것이 일반적인 요구 사항입니다. Java 개발자는 종종 이러한 과제에 직면하게 됩니다. 다행히 Aspose.Slides for Java API를 사용하면 이 작업을 효율적으로 수행할 수 있습니다. 이 단계별 가이드에서는 Java 슬라이드를 사용하여 미디어 파일을 보존하면서 전체 프레젠테이션을 HTML로 변환하는 방법을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 코딩 측면을 살펴보기 전에 모든 것이 올바르게 설정되었는지 확인하겠습니다.
 

@@ -16,7 +16,7 @@ Než se pustíme do procesu extrakce, ujistěte se, že máte splněny následuj
 
 ### 1. Aspose.Slides pro knihovnu .NET
 
- Ve vývojovém prostředí musíte mít nainstalovanou knihovnu Aspose.Slides for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z webových stránek na adrese[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/).
+Ve vývojovém prostředí musíte mít nainstalovanou knihovnu Aspose.Slides for .NET. Pokud jste tak ještě neučinili, můžete si jej stáhnout z webových stránek na adrese[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/).
 
 ### 2. PowerPointová prezentace se zvukovými hypertextovými odkazy
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Krok 2: Načtěte prezentaci PowerPoint
 
- Načtěte prezentaci PowerPoint (PPTX), která obsahuje hypertextový odkaz na zvuk, pomocí Aspose.Slides. Nahradit`"HyperlinkSound.pptx"` se skutečným názvem souboru vaší prezentace.
+ Načtěte prezentaci PowerPoint (PPTX), která obsahuje hypertextový odkaz na zvuk, pomocí Aspose.Slides. Nahradit`"HyperlinkSound.pptx"`se skutečným názvem souboru vaší prezentace.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Pokud má hypertextový odkaz přidružený zvuk, můžeme jej extrahovat jako bajtové pole a uložit jako mediální soubor.
 
 ```csharp
-//Extrahuje zvuk hypertextového odkazu v bajtovém poli
+// Extrahuje zvuk hypertextového odkazu v bajtovém poli
 byte[] audioData = link.Sound.BinaryData;
 
 // Zadejte cestu, kam chcete extrahovaný zvuk uložit
@@ -101,7 +101,7 @@ Ano, Aspose.Slides for .NET podporuje formáty PPTX i PPT pro extrahování zvuk
  Ano, můžete získat pomoc a sdílet své zkušenosti s Aspose.Slides v[Komunitní fórum Aspose.Slides](https://forum.aspose.com/).
 
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Slides pro krátkodobý projekt?
- Ano, můžete získat dočasnou licenci pro Aspose.Slides pro .NET, abyste splnili potřeby vašich krátkodobých projektů na návštěvě[tento odkaz](https://purchase.aspose.com/temporary-license/).
+Ano, můžete získat dočasnou licenci pro Aspose.Slides pro .NET, abyste splnili potřeby vašich krátkodobých projektů na návštěvě[tento odkaz](https://purchase.aspose.com/temporary-license/).
 
 ### Jsou pro extrakci podporovány jiné zvukové formáty kromě MPG?
 Aspose.Slides for .NET umožňuje extrahovat zvuk v různých formátech, neomezuje se pouze na MPG. Po extrakci jej můžete převést do preferovaného formátu.

@@ -71,6 +71,6 @@ Lär dig hur du hämtar effektiv kameradata från PowerPoint-bilder med Aspose.S
 ### [Få Light Rig Effektiv data i PowerPoint](./get-light-rig-effective-data-powerpoint/)
 Lär dig hur du hämtar effektiv data från PowerPoint-presentationer med Aspose.Slides för Java i den här detaljerade steg-för-steg-guiden.
 ### [Få Shape Bevel-effektiva data i PowerPoint](./get-shape-bevel-effective-data-powerpoint/)
-Lär dig hur du hämtar effektiva data med formfasning i PowerPoint med Aspose.Slides för Java. Förbättra dina presentationer med fantastiska visuella effekter.
+Lär dig hur du hämtar effektiv data avfasad form i PowerPoint med Aspose.Slides för Java. Förbättra dina presentationer med fantastiska visuella effekter.
 ### [Dölj former i PowerPoint](./hide-shapes-powerpoint/)
 Lär dig hur du döljer former i PowerPoint med Aspose.Slides för Java med vår detaljerade steg-för-steg-guide. Perfekt för Java-utvecklare på alla nivåer.

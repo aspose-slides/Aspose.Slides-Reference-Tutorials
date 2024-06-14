@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Langkah 2: Buat Objek Presentasi
- Buat instance`Presentation`kelas untuk mewakili file PPTX. Ini akan menjadi dasar untuk presentasi PowerPoint Anda.
+ Buat instance`Presentation` kelas untuk mewakili file PPTX. Ini akan menjadi dasar untuk presentasi PowerPoint Anda.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Akses slide pertama dalam presentasi Anda, karena ini akan menjadi kanvas tempat
 ISlide sld = pres.Slides[0];
 ```
 ## Langkah 4: Tambahkan Bentuk Persegi Panjang
- Menggunakan`Shapes` properti slide untuk menambahkan bentuk otomatis tipe persegi panjang. Tentukan posisi dan dimensi persegi panjang.
+ Menggunakan`Shapes`properti slide untuk menambahkan bentuk otomatis tipe persegi panjang. Tentukan posisi dan dimensi persegi panjang.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

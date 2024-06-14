@@ -35,14 +35,14 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Zorg ervoor dat u deze vervangt`"Your Document Directory"`met het pad waar u uw presentatiebestanden wilt opslaan.
+ Zorg ervoor dat u deze vervangt`"Your Document Directory"` met het pad waar u uw presentatiebestanden wilt opslaan.
 ## Stap 2: Laad de presentatie
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
 ```
 Hier initialiseren we een nieuw exemplaar van de klasse Presentation en laden we ons bestaande presentatiebestand met de naam 'Presentation1.pptx'.
-## Stap 3: Verkrijg effectieve afschuiningsgegevens
+## Stap 3: Verkrijg effectieve schuine gegevens
 ```csharp
 IThreeDFormatEffectiveData threeDEffectiveData = pres.Slides[0].Shapes[0].ThreeDFormat.GetEffective();
 ```

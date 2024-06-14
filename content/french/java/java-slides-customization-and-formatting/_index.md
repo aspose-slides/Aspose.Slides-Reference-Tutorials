@@ -12,11 +12,11 @@ url: /fr/java/customization-and-formatting/
 
 ## Pourquoi Aspose.Slides pour Java ?
 
-Aspose.Slides pour Java est une bibliothèque robuste et polyvalente qui permet aux développeurs Java de créer, modifier et formater facilement des présentations. Que vous travailliez sur des présentations professionnelles, des diapositives éducatives ou tout autre type de contenu visuel, Aspose.Slides fournit les outils dont vous avez besoin pour que vos présentations se démarquent.
+Aspose.Slides pour Java est une bibliothèque robuste et polyvalente qui permet aux développeurs Java de créer, modifier et formater facilement des présentations. Que vous travailliez sur des présentations professionnelles, des diapositives pédagogiques ou tout autre type de contenu visuel, Aspose.Slides fournit les outils dont vous avez besoin pour que vos présentations se démarquent.
 
 ## Tutoriels étape par étape
 
-Nos didacticiels couvrent un large éventail de sujets liés à la personnalisation et au formatage des diapositives Java. Des tâches de base comme l'ajout et la disposition des diapositives aux techniques plus avancées comme l'application d'animations et de transitions, nous avons ce qu'il vous faut. Chaque didacticiel est conçu pour être convivial pour les débutants tout en fournissant des informations aux développeurs expérimentés.
+Nos didacticiels couvrent un large éventail de sujets liés à la personnalisation et au formatage des diapositives Java. Des tâches de base telles que l'ajout et la disposition des diapositives aux techniques plus avancées telles que l'application d'animations et de transitions, nous avons ce qu'il vous faut. Chaque didacticiel est conçu pour être convivial pour les débutants tout en fournissant des informations aux développeurs expérimentés.
 
 ## Élevez vos compétences de présentation
 
@@ -40,7 +40,7 @@ Améliorez les propriétés de police du graphique dans les diapositives Java av
 ### [Propriétés de police pour la légende individuelle dans les diapositives Java](./font-properties-individual-legend-java-slides/)
 Améliorez les présentations PowerPoint avec des styles de police, des tailles et des couleurs personnalisés pour les légendes individuelles dans Java Slides à l'aide d'Aspose.Slides pour Java.
 ### [Masquer les informations du graphique dans les diapositives Java](./hide-information-chart-java-slides/)
-Découvrez comment masquer les éléments du graphique dans Java Slides avec Aspose.Slides pour Java. Personnalisez les présentations pour plus de clarté et d'esthétique avec des conseils étape par étape et le code source.
+Découvrez comment masquer les éléments du graphique dans Java Slides avec Aspose.Slides pour Java. Personnalisez les présentations pour plus de clarté et d’esthétique grâce à des conseils étape par étape et au code source.
 ### [Définir les options personnalisées de la légende dans les diapositives Java](./set-legend-custom-options-java-slides/)
 Découvrez comment définir des options de légende personnalisées dans Java Slides à l'aide d'Aspose.Slides pour Java. Personnalisez la position et la taille de la légende dans vos graphiques PowerPoint.
 ### [Définition des propriétés de police dans les diapositives Java](./setting-font-properties-java-slides/)

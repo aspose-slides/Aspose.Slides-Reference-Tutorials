@@ -21,7 +21,7 @@ Na początek zaimportujmy niezbędne pakiety. Pakiety te są niezbędne do łado
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Podzielmy teraz proces klonowania slajdu z jednej prezentacji i dodawania go do innej na proste, zrozumiałe etapy.
@@ -29,7 +29,7 @@ Podzielmy teraz proces klonowania slajdu z jednej prezentacji i dodawania go do 
  Na początek musimy załadować prezentację źródłową, z której chcemy sklonować slajd. Odbywa się to za pomocą`Presentation` klasa dostarczona przez Aspose.Slides.
 ```java
 // Ścieżka do katalogu dokumentów.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Utwórz klasę prezentacji, aby załadować źródłowy plik prezentacji
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

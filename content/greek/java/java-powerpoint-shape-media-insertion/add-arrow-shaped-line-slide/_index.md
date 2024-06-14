@@ -12,14 +12,14 @@ url: /el/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 - Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
-- Η βιβλιοθήκη Aspose.Slides for Java έγινε λήψη και ρύθμιση στο έργο σας Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
+-  Η βιβλιοθήκη Aspose.Slides for Java έγινε λήψη και ρύθμιση στο έργο σας Java. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/slides/java/).
 - Βασικές γνώσεις γλώσσας προγραμματισμού Java.
 
 ## Εισαγωγή πακέτων
 Πρώτα, εισαγάγετε τα απαραίτητα πακέτα στην τάξη Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -55,7 +55,7 @@ shp.getLineFormat().setEndArrowheadLength(LineArrowheadLength.Long);
 shp.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shp.getLineFormat().getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Maroon));
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση στο δίσκο.
 ```java
 pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
@@ -67,7 +67,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### Μπορώ να προσαρμόσω το χρώμα της γραμμής βέλους;
  Ναι, μπορείτε να καθορίσετε οποιοδήποτε χρώμα χρησιμοποιώντας το`setColor` μέθοδος με`SolidFillColor`.
 ### Πώς μπορώ να αλλάξω τη θέση και το μέγεθος της γραμμής βέλους;
-Προσαρμόστε τις παραμέτρους που μεταβιβάστηκαν στο`addAutoShape` μέθοδος αλλαγής θέσης και διαστάσεων.
+ Προσαρμόστε τις παραμέτρους που μεταβιβάστηκαν στο`addAutoShape` μέθοδος αλλαγής θέσης και διαστάσεων.
 ### Είναι το Aspose.Slides συμβατό με όλες τις εκδόσεις του PowerPoint;
 Το Aspose.Slides υποστηρίζει διάφορες μορφές PowerPoint, διασφαλίζοντας τη συμβατότητα σε διαφορετικές εκδόσεις.
 ### Μπορώ να προσθέσω κείμενο στη γραμμή βέλους;

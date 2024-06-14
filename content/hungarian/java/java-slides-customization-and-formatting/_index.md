@@ -46,6 +46,6 @@ Ismerje meg, hogyan állíthat be egyéni jelmagyarázat-beállításokat a Java
 ### [Betűtípus-tulajdonságok beállítása a Java Slides-ben](./setting-font-properties-java-slides/)
 Ismerje meg, hogyan állíthat be betűtípus-tulajdonságokat Java diákban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató kódpéldákat és GYIK-ket tartalmaz.
 ### [Pozíciótengely beállítása a Java Slides-ben](./setting-position-axis-java-slides/)
-Javítsa ki diagramjait az Aspose.Slides for Java segítségével. Tanulja meg, hogyan állíthatja be a pozíciótengelyt a Java diákon, hogyan készíthet lenyűgöző prezentációkat, és hogyan testreszabhatja könnyedén a diagramelrendezéseket.
-### [Az elforgatási szög beállítása a Java Slides-ben](./setting-rotation-angle-java-slides/)
+Javítsa ki diagramjait az Aspose.Slides for Java segítségével. Tanulja meg, hogyan állíthatja be a pozíciótengelyt Java diákon, hogyan készíthet lenyűgöző prezentációkat, és hogyan testreszabhatja könnyedén a diagramelrendezéseket.
+### [Forgatási szög beállítása Java Slides-ben](./setting-rotation-angle-java-slides/)
 Optimalizálja Java diákjait az Aspose.Slides for Java segítségével. Ismerje meg a szövegelemek elforgatási szögeinek beállítását. Lépésről lépésre útmutató forráskóddal.

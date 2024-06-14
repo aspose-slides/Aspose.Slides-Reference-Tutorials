@@ -179,4 +179,4 @@ Sì, puoi aggiungere tutti i punti dati necessari al grafico a ciambella. Estend
 
 ### Come posso regolare la posizione e la dimensione del grafico ad anello sulla diapositiva?
 
-Puoi cambiare la posizione e la dimensione del grafico ad anello modificando i parametri nel file`addChart` metodo. I quattro numeri in questo metodo corrispondono rispettivamente alle coordinate X e Y dell'angolo in alto a sinistra del grafico e alla sua larghezza e altezza.
+ Puoi cambiare la posizione e la dimensione del grafico ad anello modificando i parametri nel file`addChart` metodo. I quattro numeri in questo metodo corrispondono rispettivamente alle coordinate X e Y dell'angolo in alto a sinistra del grafico e alla sua larghezza e altezza.

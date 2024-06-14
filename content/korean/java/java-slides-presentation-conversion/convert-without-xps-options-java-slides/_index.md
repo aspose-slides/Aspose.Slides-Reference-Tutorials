@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-without-xps-options-java-slides/
 
 이 튜토리얼에서는 XPS 옵션을 지정하지 않고 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 XPS(XML Paper Spec) 문서로 변환하는 과정을 안내합니다. 우리는 이 작업을 달성하기 위한 단계별 지침과 Java 소스 코드를 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

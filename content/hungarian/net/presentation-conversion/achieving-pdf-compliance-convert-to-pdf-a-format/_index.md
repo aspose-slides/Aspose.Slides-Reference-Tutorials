@@ -59,7 +59,7 @@ using (Presentation presentation = new Presentation(presentationName))
 
 ### 3. lépés: Konfigurálja a PDF-beállításokat
 
- A PDF-megfelelőség eléréséhez meg kell adnia a PDF-beállításokat. A PDF/A megfelelőség érdekében ezt használjuk`PdfCompliance.PdfA2a`. Konfigurálja a PDF-beállításokat az alábbiak szerint:
+ A PDF-megfelelőség eléréséhez meg kell adnia a PDF-beállításokat. A PDF/A megfelelőség érdekében ezt használjuk`PdfCompliance.PdfA2a`. Állítsa be a PDF-beállításokat az alábbiak szerint:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };
@@ -69,13 +69,13 @@ PdfOptions pdfOptions = new PdfOptions() { Compliance = PdfCompliance.PdfA2a };
 
 ### 4. lépés: Hajtsa végre az átalakítást
 
-Most, hogy betöltötte a prezentációt, és beállította a PDF-beállításokat, készen áll a PDF/A formátumba konvertálásra:
+Most, hogy betöltötte a prezentációt és beállította a PDF-beállításokat, készen áll a PDF/A formátumba konvertálásra:
 
 ```csharp
 presentation.Save(dataDir, SaveFormat.Pdf, pdfOptions);
 ```
 
- Ez a kódsor PDF-fájlként menti a prezentációt a megadott megfelelőséggel. Ügyeljen arra, hogy cserélje ki`dataDir` a tényleges dokumentumkönyvtár elérési útjával.
+ Ez a kódsor PDF-fájlként menti a prezentációt a megadott megfelelőséggel. Mindenképpen cserélje ki`dataDir` a tényleges dokumentumkönyvtár elérési útjával.
 
 ## Következtetés
 

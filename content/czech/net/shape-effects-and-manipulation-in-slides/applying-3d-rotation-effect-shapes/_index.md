@@ -11,7 +11,7 @@ url: /cs/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 Vytváření poutavých a dynamických prezentačních snímků je klíčovým aspektem efektivní komunikace. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů pro vylepšení vašich prezentací, včetně možnosti aplikovat na tvary efekty 3D rotace. V tomto tutoriálu projdeme procesem aplikace efektu 3D rotace na tvary v prezentačních snímcích pomocí Aspose.Slides for .NET.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides pro .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides pro .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
 - Vývojové prostředí: Nastavte vývojové prostředí .NET, jako je Visual Studio, pro psaní a spouštění kódu.
 ## Importovat jmenné prostory
 Ve svém projektu .NET importujte potřebné obory názvů, abyste mohli využít funkce Aspose.Slides. Na začátek kódu uveďte následující jmenné prostory:

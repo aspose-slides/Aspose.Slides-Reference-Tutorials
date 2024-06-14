@@ -22,11 +22,11 @@ Bu önkoşulları yerine getirdikten sonra slaytları klonlamaya hazırsınız!
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## 1. Adım: Projenizi Kurun
- IDE'nizde Java projenizi kurarak başlayın. Yeni bir proje oluşturun ve Aspose.Slides for Java kütüphanesini proje bağımlılıklarınıza ekleyin. Kütüphaneyi adresinden indirebilirsiniz.[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/slides/java/).
+IDE'nizde Java projenizi kurarak başlayın. Yeni bir proje oluşturun ve Aspose.Slides for Java kütüphanesini proje bağımlılıklarınıza ekleyin. Kütüphaneyi adresinden indirebilirsiniz.[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/slides/java/).
 ## Adım 2: Veri Dizinini Tanımlayın
 Sunum dosyanızın bulunduğu belgeler dizininizin yolunu tanımlayın. Bu, Aspose.Slides'ın dosyaları doğru şekilde bulup kaydetmesine yardımcı olacaktır.
 ```java
@@ -62,8 +62,8 @@ Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumlarıyla çalışm
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
  Aspose.Slides for Java'nın en son sürümünü şuradan indirebilirsiniz:[indirme sayfası](https://releases.aspose.com/slides/java/).
 ### Aspose.Slides for Java'nın ücretsiz deneme sürümü mevcut mu?
-Evet, adresini ziyaret ederek Aspose.Slides for Java'nın ücretsiz deneme sürümüne erişebilirsiniz.[ücretsiz deneme sayfası](https://releases.aspose.com/).
+ Evet, adresini ziyaret ederek Aspose.Slides for Java'nın ücretsiz deneme sürümüne erişebilirsiniz.[ücretsiz deneme sayfası](https://releases.aspose.com/).
 ### Aspose.Slides for Java belgelerini nerede bulabilirim?
- Aspose.Slides for Java dokümantasyonu şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Java dokümantasyonu şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java'yı nasıl satın alabilirim?
  Aspose.Slides for Java'yı ziyaret ederek satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).

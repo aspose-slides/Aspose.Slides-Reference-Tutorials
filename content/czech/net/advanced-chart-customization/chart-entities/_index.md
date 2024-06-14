@@ -12,7 +12,7 @@ V dnešním světě založeném na datech je efektivní vizualizace dat klíčem
 
 ## Předpoklady
 
-Než se pustíme do vytváření krásných grafů pomocí Aspose.Slides pro .NET, musíte se ujistit, že máte splněny následující předpoklady:
+Než se vrhneme na vytváření krásných grafů pomocí Aspose.Slides pro .NET, musíte se ujistit, že máte splněny následující předpoklady:
 
 1.  Aspose.Slides for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Slides for .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/slides/net/).
 
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Nastavení formátu vedlejších čar mřížky pro osu kategorie
+// Nastavení formátu vedlejších čar mřížky pro osu kategorie
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Nastavení barvy oblasti plotru
+//Nastavení barvy oblasti plotru
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům .N
 
 ### 3. Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro .NET?
 
-Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET od[tady](https://releases.aspose.com/).
+ Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET od[tady](https://releases.aspose.com/).
 
 ### 4. Jak mohu získat dočasnou licenci pro Aspose.Slides pro .NET?
 

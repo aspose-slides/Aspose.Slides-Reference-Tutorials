@@ -19,7 +19,7 @@ Before diving into the tutorial, ensure you have the following:
 First, you'll need to import the necessary packages in your Java program. Here's how you do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

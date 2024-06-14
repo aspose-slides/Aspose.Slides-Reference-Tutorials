@@ -69,7 +69,7 @@ Neste tutorial, exploramos o processo de conversão de formas de apresentação 
  Sim, você pode converter várias formas em SVG em um loop iterando pelas formas e aplicando o`WriteAsSvg` método para cada forma.
 
 ### Q2: Há alguma limitação para a conversão SVG com Aspose.Slides for .NET?
-biblioteca fornece suporte abrangente para conversão SVG, mas lembre-se de que animações e transições complexas podem não ser totalmente preservadas na saída SVG.
+biblioteca oferece suporte abrangente para conversão SVG, mas lembre-se de que animações e transições complexas podem não ser totalmente preservadas na saída SVG.
 
 ### P3: Como posso personalizar a aparência da saída SVG?
 Você pode personalizar a aparência da saída SVG modificando o objeto SVGOptions, como definir cores, fontes e outros atributos de estilo.

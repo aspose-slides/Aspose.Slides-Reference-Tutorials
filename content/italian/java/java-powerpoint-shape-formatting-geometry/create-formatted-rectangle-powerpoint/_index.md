@@ -19,7 +19,7 @@ Prima di immergerci nel codice, esaminiamo i prerequisiti. Avrai bisogno di quan
 Per iniziare, dovrai importare i pacchetti necessari dalla libreria Aspose.Slides. Ecco come puoi farlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -59,7 +59,7 @@ shp.getFillFormat().getSolidFillColor().setColor(new Color(PresetColor.Chocolate
 ```
 Questo codice imposta il tipo di riempimento su solido e il colore di riempimento su cioccolato.
 ## Formatta il bordo del rettangolo
-Successivamente formatteremo il bordo del rettangolo.
+Successivamente, formatteremo il bordo del rettangolo.
 ```java
 shp.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shp.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Questa riga di codice salva la presentazione come file PPTX nella directory specificata.
 ## Passaggio 7: ripulire le risorse
- È buona norma smaltire il`Presentation`oggetto per liberare risorse.
+ È buona norma smaltire il`Presentation` oggetto per liberare risorse.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Sì, puoi utilizzare Aspose.Slides per Java con qualsiasi IDE compatibile con Ja
 ### Come posso ottenere una prova gratuita di Aspose.Slides per Java?
  È possibile scaricare una prova gratuita di Aspose.Slides per Java da[Qui](https://releases.aspose.com/).
 ###  È necessario smaltire il`Presentation` object?
- Sì, smaltire il`Presentation`L'oggetto aiuta a liberare risorse ed evitare perdite di memoria.
+ Sì, smaltire il`Presentation` L'oggetto aiuta a liberare risorse ed evitare perdite di memoria.
 ### Dove posso trovare la documentazione per Aspose.Slides per Java?
  La documentazione è disponibile[Qui](https://reference.aspose.com/slides/java/).

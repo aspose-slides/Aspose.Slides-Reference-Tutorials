@@ -23,7 +23,7 @@ Sebelum kita mendalami penerapannya, pastikan Anda memiliki prasyarat berikut:
 ## Langkah 1: Buat Presentasi
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Kami menghapus semua data yang ada dari bagan untuk mempersiapkannya bagi data b
 ## Langkah 4: Muat Buku Kerja Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Kami memuat buku kerja Excel yang berisi data yang ingin kami gunakan untuk bagan. Mengganti`"book1.xlsx"` dengan jalur ke file Excel Anda.
@@ -92,14 +92,14 @@ Terakhir, kami menyimpan presentasi dengan data bagan yang diperbarui ke jalur k
 ## Kode Sumber Lengkap Untuk Kumpulan Data Bagan Dari Buku Kerja di Slide Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

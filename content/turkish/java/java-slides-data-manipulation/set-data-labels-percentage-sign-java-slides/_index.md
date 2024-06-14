@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Yüzdeleri görüntülemek için grafiğin dikey eksenine ilişkin sayı biçimini yapılandırmamız gerekir.
 
 ```java
-//NumberFormatLinkedToSource'u false olarak ayarlayın
+// NumberFormatLinkedToSource'u false olarak ayarlayın
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Slayta YüzdelerYığın Sütun grafiği ekleme
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//NumberFormatLinkedToSource'u false olarak ayarlayın
+// NumberFormatLinkedToSource'u false olarak ayarlayın
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Bu kılavuzu takip ederek, iş raporlarında, eğitim materyallerinde ve daha fa
 
 ### Veri etiketlerinin yazı tipi boyutunu özelleştirebilir miyim?
 
- Evet, veri etiketlerinin yazı tipi boyutunu ayarlayarak özelleştirebilirsiniz.`setFontHeight` özellik kodda gösterildiği gibidir.
+Evet, veri etiketlerinin yazı tipi boyutunu ayarlayarak özelleştirebilirsiniz.`setFontHeight` özellik kodda gösterildiği gibidir.
 
 ### Grafiğe nasıl daha fazla seri ekleyebilirim?
 

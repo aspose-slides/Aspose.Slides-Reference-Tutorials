@@ -74,6 +74,6 @@ Sí, Aspose.Slides admite varios marcos .NET, lo que garantiza la compatibilidad
 ### ¿Dónde puedo encontrar más tutoriales y ejemplos?
  Explora la documentación de Aspose.Slides[aquí](https://reference.aspose.com/slides/net/) para tutoriales y ejemplos completos.
 ### ¿Hay una prueba gratuita disponible?
- Sí, puedes descargar una versión de prueba gratuita de Aspose.Slides[aquí](https://releases.aspose.com/).
+Sí, puedes descargar una versión de prueba gratuita de Aspose.Slides[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte si tengo problemas?
  Visita el foro de Aspose.Slides[aquí](https://forum.aspose.com/c/slides/11) para el apoyo y asistencia de la comunidad.

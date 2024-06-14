@@ -1,6 +1,6 @@
 ---
 title: प्रस्तुतियों को बेहतर बनाएँ - Aspose.Slides के साथ आयताकार आकृतियों को प्रारूपित करें
-linktitle: Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड में आयत आकार को प्रारूपित करना
+linktitle: Aspose.Slides का उपयोग करके प्रस्तुति स्लाइड में आयत आकार को फ़ॉर्मेट करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में आयताकार आकृतियों को प्रारूपित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी स्लाइड्स को बेहतर बनाएँ।
 type: docs
@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## चरण 2: एक प्रेजेंटेशन ऑब्जेक्ट बनाएँ
- उदाहरण प्रस्तुत करें`Presentation`PPTX फ़ाइल को दर्शाने के लिए क्लास का उपयोग करें। यह आपके पावरपॉइंट प्रेजेंटेशन का आधार होगा।
+ उदाहरण प्रस्तुत करें`Presentation` PPTX फ़ाइल को दर्शाने के लिए क्लास का उपयोग करें। यह आपके पावरपॉइंट प्रेजेंटेशन का आधार होगा।
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## चरण 4: एक आयताकार आकार जोड़ें
- उपयोग`Shapes` स्लाइड की प्रॉपर्टी का उपयोग करके आयत प्रकार का एक स्वचालित आकार जोड़ें। आयत की स्थिति और आयाम निर्दिष्ट करें।
+ उपयोग`Shapes`स्लाइड की प्रॉपर्टी का उपयोग करके आयत प्रकार का एक स्वचालित आकार जोड़ें। आयत की स्थिति और आयाम निर्दिष्ट करें।
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Din kod för bildbakgrundsändring kommer hit.
     // Vi kommer att utforska detta i nästa steg.
     
-    // Spara den ändrade presentationen
+    //Spara den ändrade presentationen
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ I det här steget anpassar vi bakgrunden för den första bilden. Du kan ändra 
 ## Steg 6: Spara den ändrade presentationen
 
 ```csharp
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

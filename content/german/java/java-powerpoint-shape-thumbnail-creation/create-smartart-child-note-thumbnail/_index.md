@@ -12,7 +12,7 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides in Java Miniaturbilde
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 1. Auf Ihrem System ist Java Development Kit (JDK) installiert.
-2. Aspose.Slides für Java-Bibliothek heruntergeladen und in Ihrem Projekt konfiguriert. Sie können die Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java-Bibliothek heruntergeladen und in Ihrem Projekt konfiguriert. Sie können die Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/java/).
 
 ## Pakete importieren
 Stellen Sie sicher, dass Sie die erforderlichen Pakete in Ihre Java-Klasse importieren:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -58,7 +58,7 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 Wiederholen Sie diese Schritte nach Bedarf für jeden SmartArt-Knoten in Ihrer Präsentation.
 
 ## Abschluss
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides in Java Miniaturbilder von SmartArt-Unternotizen erstellt. Mit diesem Wissen können Sie Ihre PowerPoint-Präsentationen programmgesteuert verbessern und ganz einfach optisch ansprechende Elemente hinzufügen.
+In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides in Java Miniaturbilder für SmartArt-Unternotizen erstellt. Mit diesem Wissen können Sie Ihre PowerPoint-Präsentationen programmgesteuert verbessern und mit Leichtigkeit optisch ansprechende Elemente hinzufügen.
 ## Häufig gestellte Fragen
 ### Kann ich Aspose.Slides verwenden, um vorhandene PowerPoint-Dateien zu bearbeiten?
 Ja, mit Aspose.Slides können Sie vorhandene PowerPoint-Dateien ändern, einschließlich des Hinzufügens, Entfernens oder Bearbeitens von Folien und deren Inhalten.

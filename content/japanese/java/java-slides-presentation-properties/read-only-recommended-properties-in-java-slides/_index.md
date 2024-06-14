@@ -1,6 +1,6 @@
 ---
-title: Java スライドの読み取り専用の推奨プロパティ
-linktitle: Java スライドの読み取り専用の推奨プロパティ
+title: Java スライドの読み取り専用推奨プロパティ
+linktitle: Java スライドの読み取り専用推奨プロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで読み取り専用の推奨プロパティを有効にする方法を学びます。プレゼンテーションのセキュリティを強化するには、ソース コードの例を含むステップ バイ ステップ ガイドに従ってください。
 type: docs
@@ -21,7 +21,7 @@ url: /ja/java/presentation-properties/read-only-recommended-properties-in-java-s
 まず、Aspose.Slides for Java を使用して新しい PowerPoint プレゼンテーションを作成します。既にプレゼンテーションがある場合は、この手順をスキップできます。
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ finally
 ## Java スライドの読み取り専用推奨プロパティの完全なソース コード
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

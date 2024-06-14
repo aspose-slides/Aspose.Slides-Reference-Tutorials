@@ -23,7 +23,7 @@ Uygulamaya geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin o
 ## 1. Adım: Bir Sunu Oluşturun
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Excel çalışma kitabındaki yeni verilere hazırlamak için grafikteki mevcut 
 ## Adım 4: Excel Çalışma Kitabını Yükleyin
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Grafik için kullanmak istediğimiz verileri içeren Excel çalışma kitabını yüklüyoruz. Yer değiştirmek`"book1.xlsx"` Excel dosyanızın yolu ile birlikte.
@@ -92,14 +92,14 @@ Son olarak, güncellenmiş grafik verilerinin bulunduğu sunumu belirtilen çık
 ## Java Slaytlarındaki Çalışma Kitabından Grafik Verilerini Ayarlamak İçin Tam Kaynak Kodu
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

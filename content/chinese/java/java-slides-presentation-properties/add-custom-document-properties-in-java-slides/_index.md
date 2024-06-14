@@ -103,7 +103,7 @@ presentation.save(dataDir + "CustomDocumentProperties_out.pptx", SaveFormat.Pptx
 
 ## 结论
 
-您已经了解了如何使用 Aspose.Slides 在 Java 中向 PowerPoint 演示文稿添加自定义文档属性。自定义属性对于存储与演示文稿相关的其他信息非常有用。您可以扩展此知识以根据特定用例的需要包含更多自定义属性。
+您已经学习了如何使用 Aspose.Slides 在 Java 中向 PowerPoint 演示文稿添加自定义文档属性。自定义属性对于存储与演示文稿相关的其他信息非常有用。您可以扩展此知识以根据特定用例的需要包含更多自定义属性。
 
 ## 常见问题解答
 

@@ -10,7 +10,7 @@ url: /de/net/shape-geometry-and-positioning-in-slides/
 
 ## Einführung
 
-Willkommen in der immersiven Welt der Aspose.Slides-Tutorials, in denen Sie die Kunst der Formgeometrie und -positionierung in Folien mithilfe der leistungsstarken Aspose.Slides-API für .NET meistern. In diesem umfassenden Handbuch vertiefen wir uns in die Feinheiten der programmgesteuerten Verwaltung von Formen, der Steuerung ihrer Abmessungen und der Erzielung einer präzisen Ausrichtung in Ihren Präsentationen.
+Willkommen in der immersiven Welt der Aspose.Slides-Tutorials, in denen Sie die Kunst der Formgeometrie und -positionierung in Folien mithilfe der leistungsstarken Aspose.Slides-API für .NET meistern. In diesem umfassenden Leitfaden vertiefen wir uns in die Feinheiten der programmgesteuerten Verwaltung von Formen, der Steuerung ihrer Abmessungen und der Erzielung einer präzisen Ausrichtung in Ihren Präsentationen.
 
 ### Entfesseln Sie die Kraft der Formgeometrie
 

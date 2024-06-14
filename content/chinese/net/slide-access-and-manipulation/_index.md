@@ -19,7 +19,7 @@ url: /zh/net/slide-access-and-manipulation/
 ### [按顺序索引访问幻灯片](./access-slide-by-index/)
 了解如何使用 Aspose.Slides for .NET 通过顺序索引访问幻灯片。按照带有源代码的分步指南轻松导航和操作 PowerPoint 演示文稿。
 ### [检索演示文稿中的所有幻灯片](./access-all-slides/)
-了解如何使用 Aspose.Slides for .NET 检索 PowerPoint 演示文稿中的所有幻灯片。按照包含完整源代码的分步指南，以编程方式高效处理演示文稿。探索幻灯片属性、安装、自定义等。
+了解如何使用 Aspose.Slides for .NET 检索 PowerPoint 演示文稿中的所有幻灯片。按照此分步指南和完整源代码以编程方式高效处理演示文稿。探索幻灯片属性、安装、自定义等。
 ### [添加具有时尚注释格式的注释幻灯片](./add-notes-slide-with-notes-style/)
 了解如何使用 Aspose.Slides for .NET 通过时尚的注释格式增强您的 PowerPoint 演示文稿。本分步指南涵盖添加注释幻灯片、应用有吸引力的格式等。
 ### [在演示文稿中插入附加幻灯片](./add-slides/)
@@ -32,7 +32,7 @@ url: /zh/net/slide-access-and-manipulation/
 了解如何使用 Aspose.Slides for .NET 将幻灯片复制到不同演示文稿中的精确位置。本分步指南提供了无缝 PowerPoint 操作的源代码和说明。
 ### [将幻灯片复制到演示文稿中的指定部分](./clone-slide-into-specified-section/)
 了解如何使用 Aspose.Slides for .NET 复制幻灯片并将其放置在 PowerPoint 演示文稿中的指定部分内。本分步指南提供源代码示例并涵盖幻灯片操作、部分创建等。
-### [将幻灯片复制到包含母版幻灯片的新演示文稿](./clone-slide-to-another-presentation-with-master/)
+### [使用母版幻灯片将幻灯片复制到新演示文稿](./clone-slide-to-another-presentation-with-master/)
 了解如何使用 Aspose.Slides for .NET 将幻灯片复制到新的 PowerPoint 演示文稿，同时保留主幻灯片。本全面的分步指南包括源代码示例，并涵盖加载演示文稿、复制幻灯片、保留动画等。
 ### [在同一演示文稿中克隆幻灯片](./clone-slide-within-same-presentation/)
 了解如何使用 Aspose.Slides for .NET 在同一个 PowerPoint 演示文稿中克隆幻灯片。按照本分步指南和完整的源代码示例来有效地操作您的演示文稿。

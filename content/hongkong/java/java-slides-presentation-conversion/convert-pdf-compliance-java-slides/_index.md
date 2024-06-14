@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Java 投影片中轉換為 PDF 合規性的完整原始碼
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();

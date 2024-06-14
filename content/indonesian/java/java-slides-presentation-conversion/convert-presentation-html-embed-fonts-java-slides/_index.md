@@ -17,7 +17,7 @@ Di era digital saat ini, mengubah presentasi ke HTML menjadi hal penting untuk b
 Sebelum kita mendalami kode dan proses konversi, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) diinstal pada sistem Anda.
-- Aspose.Slides untuk Java API, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides untuk Java API, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/slides/java/).
 -  File presentasi (misalnya,`presentation.pptx`) yang ingin Anda konversi ke HTML.
 
 ## Langkah 1: Menyiapkan Lingkungan Java
@@ -26,7 +26,7 @@ Pastikan Anda telah menginstal Java dan Aspose.Slides for Java API dengan benar 
 
 ## Langkah 2: Memuat File Presentasi
 
- Dalam kode Java Anda, Anda perlu memuat file presentasi yang ingin Anda konversi. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
+Dalam kode Java Anda, Anda perlu memuat file presentasi yang ingin Anda konversi. Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Anda dapat memeriksa kode sumber file HTML dan mencari referensi font. Semua fon
 
 ### Bisakah saya menyesuaikan keluaran HTML lebih lanjut, seperti gaya dan tata letak?
 
- Ya, Anda dapat menyesuaikan keluaran HTML dengan memodifikasi`HtmlOptions`dan template HTML yang digunakan untuk pemformatan. Aspose.Slides untuk Java memberikan fleksibilitas dalam hal ini.
+ Ya, Anda dapat menyesuaikan keluaran HTML dengan memodifikasi`HtmlOptions` dan template HTML yang digunakan untuk pemformatan. Aspose.Slides untuk Java memberikan fleksibilitas dalam hal ini.
 
 ### Apakah ada batasan saat menyematkan font dalam HTML?
 

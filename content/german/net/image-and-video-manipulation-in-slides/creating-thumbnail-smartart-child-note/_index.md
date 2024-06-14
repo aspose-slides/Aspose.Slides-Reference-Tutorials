@@ -59,6 +59,6 @@ A: Auf jeden Fall! Aspose.Slides bietet eine Vielzahl von SmartArt-Layouts, soda
 ### F: Ist eine temporäre Lizenz zu Testzwecken verfügbar?
  A: Ja, Sie können eine temporäre Lizenz erhalten von[Hier](https://purchase.aspose.com/temporary-license/) zum Testen und Auswerten.
 ### F: Wo kann ich Hilfe suchen oder mich mit der Aspose.Slides-Community verbinden?
-A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community zu interagieren, Fragen zu stellen und Lösungen zu finden.
+ A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community zu interagieren, Fragen zu stellen und Lösungen zu finden.
 ### F: Kann ich Aspose.Slides für .NET kaufen?
  A: Natürlich! Entdecken Sie die Kaufoptionen[Hier](https://purchase.aspose.com/buy) um das volle Potenzial von Aspose.Slides in Ihren Projekten auszuschöpfen.

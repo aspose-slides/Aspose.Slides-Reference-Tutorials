@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpo
 首先，您需要匯入 Aspose.Slides 所需的套件。您可以這樣做：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 在本節中，我們將把在 PowerPoint 中隱藏形狀的過程分解為易於遵循的步驟。每個步驟都包含標題和詳細說明。
 ## 第 1 步：設定您的項目

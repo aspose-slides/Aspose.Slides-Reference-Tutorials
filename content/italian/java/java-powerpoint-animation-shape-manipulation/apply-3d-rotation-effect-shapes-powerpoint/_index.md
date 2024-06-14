@@ -19,7 +19,7 @@ Prima di iniziare, assicurati di avere a disposizione quanto segue:
 Innanzitutto, importiamo i pacchetti necessari nel tuo progetto Java. Queste importazioni ti aiuteranno a gestire presentazioni e forme con Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: imposta il tuo progetto
 Prima di immergerti nel codice, configura l'ambiente del tuo progetto. Assicurati di aver aggiunto Aspose.Slides per Java alle dipendenze del tuo progetto.
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Questo codice salva la presentazione con il nome file specificato nel formato desiderato.
 ## Conclusione
-Congratulazioni! Hai applicato con successo effetti di rotazione 3D alle forme in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi creare presentazioni visivamente accattivanti e dinamiche. Per ulteriori personalizzazioni e funzionalità più avanzate, fare riferimento a[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/).
+ Congratulazioni! Hai applicato con successo effetti di rotazione 3D alle forme in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Seguendo questi passaggi, puoi creare presentazioni visivamente accattivanti e dinamiche. Per ulteriori personalizzazioni e funzionalità più avanzate, fare riferimento a[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/).
 ## Domande frequenti
 ### Cos'è Aspose.Slides per Java?
 Aspose.Slides per Java è una potente API per creare, modificare e manipolare presentazioni PowerPoint a livello di codice.

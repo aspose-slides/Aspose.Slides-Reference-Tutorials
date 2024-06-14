@@ -21,7 +21,7 @@ Kendinizi birden fazla PowerPoint sunumundaki slaytları birleştirmeniz gereken
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Şimdi bir sunudaki slaydı kopyalayıp diğerine ekleme sürecini basit, sindirilebilir adımlara ayıralım.
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  Başlamak için, slaytını kopyalamak istediğimiz kaynak sunumunu yüklememiz gerekiyor. Bu, kullanılarak yapılır.`Presentation` Aspose.Slides tarafından sağlanan sınıf.
 ```java
 // Belgeler dizininin yolu.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Kaynak sunum dosyasını yüklemek için Sunum sınıfını başlatın
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

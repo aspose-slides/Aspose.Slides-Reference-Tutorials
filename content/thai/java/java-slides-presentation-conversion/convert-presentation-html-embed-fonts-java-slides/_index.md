@@ -17,7 +17,7 @@ url: /th/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 ก่อนที่เราจะเจาะลึกโค้ดและกระบวนการแปลง ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-- Aspose.Slides สำหรับ Java API ซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides สำหรับ Java API ซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/slides/java/).
 -  ไฟล์การนำเสนอ (เช่น`presentation.pptx`) ที่คุณต้องการแปลงเป็น HTML
 
 ## ขั้นตอนที่ 1: การตั้งค่าสภาพแวดล้อม Java
@@ -26,7 +26,7 @@ url: /th/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## ขั้นตอนที่ 2: กำลังโหลดไฟล์การนำเสนอ
 
- ในโค้ด Java ของคุณ คุณต้องโหลดไฟล์งานนำเสนอที่คุณต้องการแปลง แทนที่`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์การนำเสนอของคุณ
+ในโค้ด Java ของคุณ คุณต้องโหลดไฟล์งานนำเสนอที่คุณต้องการแปลง แทนที่`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์การนำเสนอของคุณ
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ finally
 
 ### ฉันสามารถปรับแต่งเอาต์พุต HTML เพิ่มเติม เช่น สไตล์และการจัดวางได้หรือไม่
 
- ใช่ คุณสามารถปรับแต่งเอาต์พุต HTML ได้โดยการแก้ไข`HtmlOptions`และเทมเพลต HTML ที่ใช้ในการจัดรูปแบบ Aspose.Slides สำหรับ Java ให้ความยืดหยุ่นในเรื่องนี้
+ ใช่ คุณสามารถปรับแต่งเอาต์พุต HTML ได้โดยการแก้ไข`HtmlOptions` และเทมเพลต HTML ที่ใช้ในการจัดรูปแบบ Aspose.Slides สำหรับ Java ให้ความยืดหยุ่นในเรื่องนี้
 
 ### มีข้อจำกัดในการฝังแบบอักษรใน HTML หรือไม่?
 

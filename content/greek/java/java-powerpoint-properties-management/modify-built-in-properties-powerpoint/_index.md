@@ -20,7 +20,7 @@ url: /el/java/java-powerpoint-properties-management/modify-built-in-properties-p
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρυθμίστε το Περιβάλλον
 Καθορίστε τη διαδρομή προς τον κατάλογο που περιέχει το αρχείο PowerPoint:
@@ -46,7 +46,7 @@ documentProperties.setSubject("Aspose Subject");
 documentProperties.setComments("Aspose Description");
 documentProperties.setManager("Aspose Manager");
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση σε ένα αρχείο:
 ```java
 presentation.save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);

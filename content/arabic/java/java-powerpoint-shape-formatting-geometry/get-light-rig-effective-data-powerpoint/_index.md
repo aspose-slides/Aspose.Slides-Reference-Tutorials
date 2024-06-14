@@ -20,7 +20,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد دليل المشروع
 ابدأ بإعداد دليل مشروعك. قم بإنشاء مجلد حيث سيتم تخزين ملفات Java وعرض PowerPoint التقديمي (`Presentation1.pptx`).

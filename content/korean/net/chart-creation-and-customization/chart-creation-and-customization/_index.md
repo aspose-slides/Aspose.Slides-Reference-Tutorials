@@ -12,7 +12,7 @@ url: /ko/net/chart-creation-and-customization/chart-creation-and-customization/
 
 데이터 표현의 세계에서 시각적 자료는 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. PowerPoint 프레젠테이션은 이러한 목적으로 널리 사용되며 Aspose.Slides for .NET은 프로그래밍 방식으로 슬라이드를 생성하고 사용자 정의할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 차트를 만들고 사용자 정의하는 방법을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 차트를 만들고 사용자 지정하는 방법을 알아보기 전에 다음과 같은 전제 조건이 필요합니다.
 

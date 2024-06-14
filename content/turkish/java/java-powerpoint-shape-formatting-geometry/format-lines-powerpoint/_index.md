@@ -18,7 +18,7 @@ Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Öncelikle Aspose.Slides ile çalışmak için gerekli olan paketleri import edelim.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

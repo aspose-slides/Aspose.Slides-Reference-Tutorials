@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Шаг 1: Настройте среду
@@ -61,4 +61,4 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### Могу ли я добавить текст на слайд вместе с формой линии?
 Да, вы можете добавлять на слайд текст, изображения и другой контент с помощью API Aspose.Slides.
 ### Доступна ли бесплатная пробная версия Aspose.Slides?
-Да, вы можете загрузить бесплатную пробную версию Aspose.Slides с сайта[здесь](https://releases.aspose.com/).
+ Да, вы можете загрузить бесплатную пробную версию Aspose.Slides с сайта[здесь](https://releases.aspose.com/).

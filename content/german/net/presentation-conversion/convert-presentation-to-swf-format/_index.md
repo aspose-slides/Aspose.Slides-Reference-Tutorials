@@ -1,6 +1,6 @@
 ---
-title: Präsentation ins SWF-Format konvertieren
-linktitle: Präsentation ins SWF-Format konvertieren
+title: Präsentation in SWF-Format konvertieren
+linktitle: Präsentation in SWF-Format konvertieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET in das SWF-Format konvertieren. Erstellen Sie mühelos dynamische Inhalte!
 type: docs

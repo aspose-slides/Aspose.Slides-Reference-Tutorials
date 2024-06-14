@@ -21,13 +21,13 @@ Nejprve naimportujme potřebné balíčky. Otevřete své Java IDE a nastavte sv
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte datový adresář
 Budete potřebovat adresář pro ukládání souborů PowerPoint. Zde načtete zdrojový soubor a uložíte klonovanou prezentaci.
 ```java
 // Cesta k adresáři dokumentů.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Krok 2: Načtěte zdrojovou prezentaci
 Dále načteme zdrojovou prezentaci obsahující snímek, který chcete naklonovat. Tento krok je zásadní, protože slouží jako základ pro vaši operaci klonování.

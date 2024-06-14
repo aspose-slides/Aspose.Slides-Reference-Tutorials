@@ -123,7 +123,7 @@ pres.Save(dataDir + "SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 
 ### 2. マスター スライドだけでなく、特定のスライドの背景を変更するにはどうすればよいですか?
 
-個々のスライドの背景を変更するには、`Background`特定の特性`ISlide`カスタマイズしたい。
+個々のスライドの背景を変更するには、`Background`特定の`ISlide`カスタマイズしたい。
 
 ### 3. Aspose.Slides for .NET には定義済みの背景テンプレートはありますか?
 

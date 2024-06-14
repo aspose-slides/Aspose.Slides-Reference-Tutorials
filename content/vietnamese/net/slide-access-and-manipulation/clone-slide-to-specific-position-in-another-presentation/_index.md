@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Sau khi sao chép và đặt slide, chúng ta cần lưu bản trình bày đích đã sửa đổi.
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

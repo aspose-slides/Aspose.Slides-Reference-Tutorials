@@ -78,7 +78,7 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 1. Bangun proyek Anda untuk memastikan tidak ada kesalahan.
 2. Jalankan aplikasi.
-3. Kode ini akan memuat presentasi asli, mengkloning slide yang ditentukan, mengubah judul slide yang dikloning, dan menyimpan presentasi yang dimodifikasi.
+3. Kode ini akan memuat presentasi asli, mengkloning slide tertentu, mengubah judul slide yang dikloning, dan menyimpan presentasi yang dimodifikasi.
 
 ## Kesimpulan
 

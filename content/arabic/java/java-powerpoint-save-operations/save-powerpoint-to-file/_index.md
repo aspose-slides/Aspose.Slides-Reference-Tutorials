@@ -19,13 +19,13 @@ url: /ar/java/java-powerpoint-save-operations/save-powerpoint-to-file/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## الخطوة 1: إعداد دليل البيانات
 ```java
 // المسار إلى دليل المستندات.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 في هذه الخطوة، نحدد المسار إلى الدليل الذي سيتم حفظ عرض PowerPoint التقديمي فيه. إذا كان الدليل غير موجود، فسيتم إنشاؤه.
 ## الخطوة 2: إنشاء كائن العرض التقديمي
 ```java
-//إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
+// إنشاء مثيل لكائن العرض التقديمي الذي يمثل ملف PPT
 Presentation presentation = new Presentation();
 ```
- هنا نقوم بإنشاء نسخة جديدة من`Presentation` فئة، والتي تمثل عرض تقديمي ل PowerPoint.
+هنا نقوم بإنشاء نسخة جديدة من`Presentation` فئة، والتي تمثل عرض تقديمي ل PowerPoint.
 ## الخطوة 3: تنفيذ العمليات على العرض التقديمي (اختياري)
 ```java
 //..قم ببعض الأعمال هنا...

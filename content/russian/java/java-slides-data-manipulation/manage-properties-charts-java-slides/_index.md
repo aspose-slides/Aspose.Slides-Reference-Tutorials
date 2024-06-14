@@ -14,7 +14,7 @@ url: /ru/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## Предварительные условия
 
- Прежде чем мы начнем, убедитесь, что в вашем проекте установлена и настроена библиотека Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+Прежде чем мы начнем, убедитесь, что в вашем проекте установлена и настроена библиотека Aspose.Slides для Java. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
 
 ## Добавление диаграммы на слайд
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Возьмите вторую серию диаграмм
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Теперь заполняем данные серии
+// Теперь заполняем данные серии
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### Как изменить тип диаграммы?
 
- Вы можете изменить тип диаграммы, изменив`ChartType`параметр при добавлении диаграммы. Обратитесь к документации Aspose.Slides для получения информации о доступных типах диаграмм.
+ Вы можете изменить тип диаграммы, изменив`ChartType` параметр при добавлении диаграммы. Обратитесь к документации Aspose.Slides для получения информации о доступных типах диаграмм.
 
 ### Могу ли я настроить цвета диаграммы?
 

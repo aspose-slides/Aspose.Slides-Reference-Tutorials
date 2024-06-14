@@ -21,12 +21,12 @@ En este paso, importaremos los paquetes necesarios para iniciar nuestro viaje As
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Paso 1: configurar el directorio de datos
 Antes de sumergirse en la funcionalidad principal, configure el directorio de datos para acceder a su archivo de presentación:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Paso 2: crear opciones de carga
 Cree una instancia de las opciones de carga para configurar cómo se accederá al archivo de presentación. En este ejemplo, configuramos la contraseña de acceso como nula y permitimos cargar solo las propiedades del documento:

@@ -12,7 +12,7 @@ Dans le monde actuel axé sur les données, une visualisation efficace des donn�
 
 ## Conditions préalables
 
-Avant de nous lancer dans la création de superbes graphiques avec Aspose.Slides pour .NET, vous devez vous assurer que vous disposez des conditions préalables suivantes :
+Avant de nous lancer dans la création de superbes graphiques avec Aspose.Slides pour .NET, vous devez vous assurer que les conditions préalables suivantes sont en place :
 
 1.  Aspose.Slides pour .NET : assurez-vous que la bibliothèque Aspose.Slides pour .NET est installée. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/slides/net/).
 
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Définition du format des lignes de quadrillage mineures pour l'axe des catégories
+// Définition du format des lignes de quadrillage mineures pour l'axe des catégories
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Définition de la couleur de la zone de tracé
+//Définition de la couleur de la zone de tracé
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développe
 
 ### 3. Existe-t-il un essai gratuit disponible pour Aspose.Slides pour .NET ?
 
-Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/).
+ Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/).
 
 ### 4. Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
 

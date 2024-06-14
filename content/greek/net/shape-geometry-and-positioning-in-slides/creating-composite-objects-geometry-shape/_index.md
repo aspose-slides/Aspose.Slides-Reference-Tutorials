@@ -64,7 +64,7 @@ geometryPath1.CloseFigure();
 shape.SetGeometryPaths(new GeometryPath[] { geometryPath0, geometryPath1 });
 ```
 Τώρα, ορίζουμε τη γεωμετρία του σχήματος ως σύνθεση των δύο γεωμετρικών μονοπατιών που ορίστηκαν προηγουμένως.
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 ```csharp
 // Αποθηκεύστε την παρουσίαση
 pres.Save(resultPath, SaveFormat.Pptx);

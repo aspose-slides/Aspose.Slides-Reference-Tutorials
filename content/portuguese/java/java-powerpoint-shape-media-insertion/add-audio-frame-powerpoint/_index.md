@@ -18,7 +18,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos em vigor:
 Importe os pacotes necessários para o seu projeto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -69,7 +69,7 @@ Incorporar elementos de áudio em suas apresentações do PowerPoint pode aument
 Sim, Aspose.Slides for Java suporta vários formatos de áudio, incluindo WAV, MP3 e muito mais.
 ### É possível ajustar o tempo de reprodução do áudio nos slides?
 Absolutamente. Você pode sincronizar a reprodução de áudio com transições de slides específicas usando Aspose.Slides for Java.
-### O Aspose.Slides for Java oferece suporte para compatibilidade entre plataformas?
+### Aspose.Slides for Java oferece suporte para compatibilidade entre plataformas?
 Sim, você pode criar apresentações em PowerPoint com quadros de áudio incorporados que sejam compatíveis com diferentes plataformas.
 ### Posso personalizar a aparência do reprodutor de áudio na apresentação?
 Aspose.Slides for Java oferece amplas opções de personalização, permitindo que você personalize a aparência do reprodutor de áudio de acordo com suas preferências.

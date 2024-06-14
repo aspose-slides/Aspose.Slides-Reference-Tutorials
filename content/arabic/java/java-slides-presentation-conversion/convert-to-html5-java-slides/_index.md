@@ -74,7 +74,7 @@ try {
 // المسار إلى دليل المستندات
 String dataDir = "Your Document Directory";
 // المسار إلى ملف الإخراج
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// قم بتصدير عرض تقديمي يحتوي على انتقالات الشرائح والرسوم المتحركة والأشكال المتحركة إلى HTML5

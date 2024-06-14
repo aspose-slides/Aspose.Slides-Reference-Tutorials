@@ -19,7 +19,7 @@ Avant de vous lancer dans la partie codage, assurez-vous d’avoir les prérequi
 Pour commencer, vous devez importer les packages Aspose.Slides nécessaires dans votre projet Java. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Décomposons le processus de clonage d'une diapositive vers une autre présentation avec sa diapositive principale en étapes détaillées.
 ## Étape 1 : Charger la présentation source
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Étape 4 : cloner la diapositive principale dans la présentation de destination
 Clonez le modèle de diapositive de la présentation source vers la collection de modèles dans la présentation de destination.
 ```java
-//Clonez le modèle de diapositive souhaité de la présentation source vers la collection de modèles dans la présentation de destination.
+// Clonez le modèle de diapositive souhaité de la présentation source vers la collection de modèles dans la présentation de destination.
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

@@ -19,7 +19,7 @@ Before diving into the tutorial, ensure you have the following prerequisites set
 To begin, import the necessary packages for using Aspose.Slides for Java functionalities:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Set Up Your Environment
 Ensure that you have a directory set up for your project where you can create and save PowerPoint presentations. Replace `"Your Document Directory"` with the path to your desired directory.

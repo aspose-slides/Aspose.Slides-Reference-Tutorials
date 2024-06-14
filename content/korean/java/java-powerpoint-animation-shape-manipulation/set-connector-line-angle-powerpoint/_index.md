@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 연결선 각도를 설정하는 방법을 살펴보겠습니다. 연결선은 슬라이드의 도형 간의 관계와 흐름을 설명하는 데 필수적입니다. 각도를 조정하면 프레젠테이션에서 메시지를 명확하고 효과적으로 전달할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. PowerPoint 기능에 액세스하려면 Aspose.Slides 라이브러리를 포함해야 합니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프레젠테이션 개체 초기화
 PowerPoint 파일을 로드하려면 프레젠테이션 개체를 초기화하는 것부터 시작하세요.

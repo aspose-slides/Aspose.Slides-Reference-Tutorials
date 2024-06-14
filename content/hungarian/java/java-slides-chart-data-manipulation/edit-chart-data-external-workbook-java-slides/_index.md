@@ -46,7 +46,7 @@ chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCe
 
 ## 4. lépés: Mentse el a bemutatót
 
-diagramadatok szükséges módosításainak elvégzése után mentse a módosított prezentációt egy új fájlba. Megadhatja a kimeneti fájl elérési útját és formátumát igényei szerint.
+A diagramadatok szükséges módosításainak elvégzése után mentse a módosított prezentációt egy új fájlba. Megadhatja a kimeneti fájl elérési útját és formátumát igényei szerint.
 
 ```java
 pres.save("output.pptx", SaveFormat.Pptx);
@@ -75,7 +75,7 @@ Sikeresen szerkesztette a diagramadatokat egy külső munkafüzetben a PowerPoin
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -84,13 +84,13 @@ Sikeresen szerkesztette a diagramadatokat egy külső munkafüzetben a PowerPoin
 ```
 ## Következtetés
 
-Ebben az átfogó útmutatóban megvizsgáltuk, hogyan lehet szerkeszteni a diagramadatokat külső munkafüzetekben a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A lépésenkénti utasítások és a forráskód-példák követésével megszerzett ismereteket és készségeket a diagramadatok egyszerű, programozott módosításához.
+Ebben az átfogó útmutatóban megvizsgáltuk, hogyan lehet szerkeszteni a diagramadatokat külső munkafüzetekben a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A lépésenkénti utasítások és a forráskód-példák követésével olyan ismeretekre és készségekre tett szert, amelyek segítségével könnyedén, programozottan módosíthatja a diagramadatokat.
 
 ## GYIK
 
 ### Hogyan adhatok meg másik diagramot vagy diát?
 
- Egy másik diagram vagy dia eléréséhez módosítsa a megfelelő indexet a`getSlides().get_Item()` és`getShapes().get_Item()` mód. Ne feledje, hogy az indexelés 0-tól kezdődik.
+ Egy másik diagram vagy dia eléréséhez módosítsa a megfelelő indexet a`getSlides().get_Item()` és`getShapes().get_Item()`mód. Ne feledje, hogy az indexelés 0-tól kezdődik.
 
 ### Szerkeszthetek adatokat több diagramon ugyanazon a prezentáción belül?
 

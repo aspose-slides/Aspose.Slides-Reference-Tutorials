@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Ρύθμιση καταλόγου εγγράφων
 Καθορίστε τη διαδρομή προς τον κατάλογο εγγράφων όπου βρίσκεται η παρουσίαση του PowerPoint:

@@ -36,14 +36,14 @@ chart.setDataTable(true);
 
 ## Krok 3: Dostosuj właściwości czcionki
 
-Teraz dostosujmy właściwości czcionki tabeli danych wykresu. Ustawimy czcionkę na pogrubioną i dopasujemy jej wysokość (rozmiar).
+Teraz dostosujmy właściwości czcionki tabeli danych wykresu. Ustawimy czcionkę na pogrubioną i dostosujemy jej wysokość (rozmiar).
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontBold(NullableBool.True);
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
-- `setFontBold(NullableBool.True)`: Ta linia ustawia czcionkę na pogrubioną.
+- `setFontBold(NullableBool.True)`: Ta linia ustawia czcionkę jako pogrubioną.
 - `setFontHeight(20)`: Ta linia ustawia wysokość czcionki na 20 punktów. W razie potrzeby możesz dostosować tę wartość.
 
 ## Krok 4: Zapisz prezentację
@@ -89,7 +89,7 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontColor(Color.
 
 ### Czy mogę zmienić czcionkę innego tekstu na slajdach?
 
-Tak, możesz zmienić czcionkę innych elementów tekstowych na slajdach, takich jak tytuły i etykiety. Użyj odpowiednich obiektów i metod, aby uzyskać dostęp i dostosować właściwości czcionki dla określonych elementów tekstowych.
+Tak, możesz zmienić czcionkę innych elementów tekstowych na slajdach, takich jak tytuły i etykiety. Użyj odpowiednich obiektów i metod, aby uzyskać dostęp do właściwości czcionki i dostosować je do określonych elementów tekstowych.
 
 ### Jak ustawić styl czcionki kursywy?
 

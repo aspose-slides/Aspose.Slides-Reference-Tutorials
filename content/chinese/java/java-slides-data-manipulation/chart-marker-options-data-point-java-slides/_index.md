@@ -73,7 +73,7 @@ point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);
 
 //对其他数据点重复上述操作
-//...
+// ...
 
 //更改图表系列标记大小
 series.getMarker().setSize(15);
@@ -111,7 +111,7 @@ BufferedImage img2 = ImageIO.read(new File(dataDir + "Tulips.jpg"));
 IPPImage imgx2 = pres.getImages().addImage(img2);
 //采取第一个图表系列
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//在那里添加新观点（1：3）。
+//在那里添加新点（1：3）。
 IChartDataPoint point = series.getDataPoints().addDataPointForLineSeries(fact.getCell(defaultWorksheetIndex, 1, 1, (double) 4.5));
 point.getMarker().getFormat().getFill().setFillType(FillType.Picture);
 point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setImage(imgx1);

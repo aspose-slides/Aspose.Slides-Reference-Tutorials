@@ -130,7 +130,7 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 Aspose.Slides for .NET を使用すると、さまざまなカスタマイズ オプションを使用して魅力的なグラフ プレゼンテーションを作成できます。このチュートリアルでは、データ ポイントのグラフ マーカー オプションを使用してデータの視覚的表現を強化することに焦点を当てました。Aspose.Slides for .NET を使用すると、プレゼンテーションを次のレベルに引き上げ、より魅力的で情報に富んだものにすることができます。
 
- Aspose.Slides for .NETに関するご質問やサポートが必要な場合は、[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/net/)または、[Aspose コミュニティ](https://forum.aspose.com/)サポートのための。
+Aspose.Slides for .NETに関するご質問やサポートが必要な場合は、[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/net/)または、[Aspose コミュニティ](https://forum.aspose.com/)サポートのための。
 
 ## よくある質問（FAQ）
 

@@ -10,7 +10,7 @@ url: /tr/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Pasta Grafiği Oluşturmaya Giriş
 
-Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumunda Pasta Grafiğinin nasıl oluşturulacağını göstereceğiz. Başlamanıza yardımcı olmak için size adım adım talimatlar ve Java kaynak kodu sağlayacağız. Bu kılavuz, Aspose.Slides for Java ile geliştirme ortamınızı zaten kurduğunuzu varsaymaktadır.
+Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumunda Pasta Grafiğinin nasıl oluşturulacağını göstereceğiz. Başlamanıza yardımcı olmak için size adım adım talimatlar ve Java kaynak kodu sağlayacağız. Bu kılavuz, Aspose.Slides for Java ile geliştirme ortamınızı zaten kurduğunuzu varsayar.
 
 ## Önkoşullar
 
@@ -49,7 +49,7 @@ Sununun ilk slaydını Pasta Grafiğini eklemek istediğiniz yere alın.
 ## Adım 4: Pasta Grafiği Ekleme
 
 ```java
-//Varsayılan verileri içeren pasta grafiği ekleme
+// Varsayılan verileri içeren pasta grafiği ekleme
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Pasta Grafiği için bir başlık belirleyin. Başlığı gerektiği gibi özell
 ## Adım 6: Grafik Verilerini Özelleştirin
 
 ```java
-// Değerleri gösterecek ilk seriyi ayarlayın
+//Değerleri gösterecek ilk seriyi ayarlayın
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Grafik veri sayfasının indeksini ayarlama
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Yeni seriler ekleniyor
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Şimdi seri verileri dolduruluyor
+// Şimdi seri verileri dolduruluyor
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

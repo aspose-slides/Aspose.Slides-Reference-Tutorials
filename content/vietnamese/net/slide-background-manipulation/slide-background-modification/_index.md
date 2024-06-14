@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Mã của bạn để sửa đổi nền trang chiếu sẽ có ở đây.
     // Chúng ta sẽ khám phá điều này trong các bước tiếp theo.
     
-    // Lưu bản trình bày đã sửa đổi
+    //Lưu bản trình bày đã sửa đổi
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## Bước 6: Lưu bản trình bày đã sửa đổi
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

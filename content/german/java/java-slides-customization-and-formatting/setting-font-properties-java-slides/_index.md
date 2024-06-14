@@ -44,11 +44,11 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
 - `setFontBold(NullableBool.True)`: Diese Zeile stellt die Schriftart fett ein.
-- `setFontHeight(20)`: Diese Zeile setzt die Schrifthöhe auf 20 Punkt. Sie können diesen Wert nach Bedarf anpassen.
+- `setFontHeight(20)`: Diese Zeile setzt die Schrifthöhe auf 20 Punkte. Sie können diesen Wert nach Bedarf anpassen.
 
 ## Schritt 4: Speichern Sie die Präsentation
 
-Speichern Sie die geänderte Präsentation abschließend in einer neuen Datei. Sie können das Ausgabeformat angeben. In diesem Fall speichern wir sie als PPTX-Datei.
+Speichern Sie die geänderte Präsentation abschließend in einer neuen Datei. Sie können das Ausgabeformat angeben; in diesem Fall speichern wir sie als PPTX-Datei.
 
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);

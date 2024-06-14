@@ -53,7 +53,7 @@ shp.FillFormat.GradientFormat.GradientDirection = GradientDirection.FromCorner2;
 shp.FillFormat.GradientFormat.GradientStops.Add((float)1.0, PresetColor.Purple);
 shp.FillFormat.GradientFormat.GradientStops.Add((float)0, PresetColor.Red);
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την παρουσίασή σας με το σχήμα που προστέθηκε πρόσφατα με ντεγκραντέ:
 ```csharp
 pres.Save(dataDir + "EllipseShpGrad_out.pptx", SaveFormat.Pptx);
@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides για .NET;
  Α: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για .NET;
-Α: Ζητήστε βοήθεια και συνεργαστείτε με την κοινότητα στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Α: Ζητήστε βοήθεια και συνεργαστείτε με την κοινότητα στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Ε: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
  Α: Σίγουρα, μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).

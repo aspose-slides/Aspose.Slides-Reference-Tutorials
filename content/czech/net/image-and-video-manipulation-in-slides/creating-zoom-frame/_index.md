@@ -8,7 +8,7 @@ weight: 17
 url: /cs/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
 ## Úvod
-V oblasti prezentací jsou podmanivé snímky klíčem k zanechání trvalého dojmu. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů a v tomto průvodci vás provedeme procesem začlenění poutavých zoom snímků do snímků vaší prezentace.
+V oblasti prezentací jsou podmanivé snímky klíčem k zanechání trvalého dojmu. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů a v této příručce vás provedeme procesem začlenění poutavých rámečků přiblížení do snímků vaší prezentace.
 ## Předpoklady
 Než se vydáte na tuto cestu, ujistěte se, že máte připraveno následující:
 -  Aspose.Slides for .NET Library: Stáhněte a nainstalujte knihovnu z[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/).
@@ -46,13 +46,13 @@ using (Presentation pres = new Presentation())
 ## Krok 3: Přizpůsobte pozadí snímků
 Vylepšete vizuální přitažlivost svých snímků přizpůsobením jejich pozadí. V tomto příkladu jsme pro druhý snímek nastavili plné azurové pozadí.
 ```csharp
-//Vytvořte pozadí pro druhý snímek
+// Vytvořte pozadí pro druhý snímek
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
 // ... (Pokračujte v přizpůsobení pozadí pro další snímky)
 ```
-## Krok 4: Přidejte textová pole do snímků
+## Krok 4: Přidejte do snímků textová pole
 Zahrňte textová pole pro přenos informací na snímcích. Zde přidáme na druhý snímek obdélníkové textové pole.
 ```csharp
 // Vytvořte textové pole pro druhý snímek

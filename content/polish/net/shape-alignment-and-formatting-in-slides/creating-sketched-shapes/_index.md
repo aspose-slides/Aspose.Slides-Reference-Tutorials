@@ -65,7 +65,7 @@ Otóż to! Pomyślnie utworzyłeś prezentację z naszkicowanymi kształtami prz
 Dodawanie naszkicowanych kształtów do slajdów prezentacji może zwiększyć atrakcyjność wizualną i zaangażować odbiorców. Dzięki Aspose.Slides dla .NET proces staje się prosty, co pozwala uwolnić kreatywność bez wysiłku.
 ## Często zadawane pytania
 ### 1. Czy mogę dostosować szkicowany efekt?
-Tak, Aspose.Slides dla .NET zapewnia różne opcje dostosowywania efektów szkicowanych. Patrz[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje.
+ Tak, Aspose.Slides dla .NET zapewnia różne opcje dostosowywania efektów szkicowanych. Patrz[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje.
 ### 2. Czy dostępny jest bezpłatny okres próbny?
  Z pewnością! Możesz skorzystać z bezpłatnej wersji próbnej Aspose.Slides dla .NET[Tutaj](https://releases.aspose.com/).
 ### 3. Gdzie mogę uzyskać wsparcie?

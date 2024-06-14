@@ -14,7 +14,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelhetünk tulajdonságokat é
 
 ## Előfeltételek
 
- Mielőtt elkezdené, győződjön meg arról, hogy a Java Aspose.Slides könyvtára telepítve van és be van állítva a projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
+Mielőtt elkezdené, győződjön meg arról, hogy a Java Aspose.Slides könyvtára telepítve van és be van állítva a projektben. Letöltheti innen[itt](https://releases.aspose.com/slides/java/).
 
 ## Diagram hozzáadása a diához
 
@@ -131,7 +131,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 Ez az! Sikeresen létrehozott egy 3D halmozott oszlopdiagramot egyéni tulajdonságokkal a Java Aspose.Slides segítségével.
 
-## Teljes forráskód a Java Slides tulajdonságait tartalmazó diagramok kezeléséhez
+## A Java Slides tulajdonságai diagramjainak teljes forráskódja
 
 ```java
 // A dokumentumok könyvtárának elérési útja.
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Vegyük a második diagramsorozatot
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Most a sorozatadatok feltöltése
+// Most a sorozatadatok feltöltése
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -175,13 +175,13 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyültünk a tulajdonságok kezelésének és a Java diákon lévő diagramok létrehozásának világában. Az Aspose.Slides egy robusztus Java API, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Leírtuk az alapvető lépéseket, és forráskód-példákat mutattunk be, amelyek végigvezetik Önt a folyamaton.
+Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyültünk a tulajdonságok kezelésének és a Java diákon lévő diagramok létrehozásának világában. Az Aspose.Slides egy robusztus Java API, amely képessé teszi a fejlesztőket arra, hogy hatékonyan dolgozzanak PowerPoint prezentációkkal. Leírtuk az alapvető lépéseket, és forráskód-példákat mutattunk be, amelyek végigvezetik Önt a folyamaton.
 
 ## GYIK
 
 ### Hogyan tudom megváltoztatni a diagram típusát?
 
- A diagram típusát módosíthatja a`ChartType`paramétert a diagram hozzáadásakor. Az elérhető diagramtípusokat az Aspose.Slides dokumentációjában találja.
+ A diagram típusát módosíthatja a`ChartType` paramétert a diagram hozzáadásakor. Az elérhető diagramtípusokat az Aspose.Slides dokumentációjában találja.
 
 ### Testreszabhatom a diagram színeit?
 

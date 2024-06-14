@@ -18,7 +18,7 @@ url: /ar/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ابدأ باستيراد الحزم الضرورية في كود Java الخاص بك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

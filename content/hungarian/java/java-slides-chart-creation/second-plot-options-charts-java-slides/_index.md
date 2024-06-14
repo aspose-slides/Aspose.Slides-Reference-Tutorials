@@ -84,7 +84,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második nyomtatás
 
 ### Hogyan módosíthatom a második kör méretét egy kördiagramon?
 
- A kördiagram második körének méretének módosításához használja a`setSecondPieSize` módszert a fenti kódpéldában látható módon. Módosítsa az értéket a méret százalékos megadásához.
+ kördiagram második körének méretének módosításához használja a`setSecondPieSize` módszert a fenti kódpéldában látható módon. Módosítsa az értéket a méret százalékos megadásához.
 
 ###  Mit csinál`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második nyomtatás
 
 ### Hogyan állíthatom be a felosztás pozícióját egy kördiagramon?
 
-Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.
+ Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.

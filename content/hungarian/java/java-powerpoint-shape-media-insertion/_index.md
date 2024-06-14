@@ -17,7 +17,7 @@ A dinamikus és lebilincselő PowerPoint-prezentációk létrehozásához gyakra
 A formák és a vonalak alapvető elemek, amelyek javíthatják a diák szerkezetét és kialakítását. Az Aspose.Slides for Java megkönnyíti ezen elemek hozzáadását és testreszabását.
 
 -  Nyíl alakú vonalak: A nyílvonalak irányíthatják a figyelmet, és kiemelhetik a prezentáció fontos pontjait. Ismerje meg, hogyan adhatja hozzá őket a következővel[Nyíl alakú vonal hozzáadása a PowerPointban](./add-arrow-shaped-line-powerpoint/).
-- Egyszerű vonalak: Néha csak egy egyszerű vonalra van szükség a dia elrendezésének javításához. Kövesse az oktatóanyagot[Add hozzá a sima vonalat a diához](./add-plain-line-slide/) hogy megtanulja, hogyan kell ezt programozottan megtenni.
+- Sima vonalak: Néha egy egyszerű vonal elegendő a dia elrendezésének javításához. Kövesse az oktatóanyagot[Add hozzá a sima vonalat a diához](./add-plain-line-slide/) hogy megtanulja, hogyan kell ezt programozottan megtenni.
 -  Relatív méretarányú képkeretek: A képméretarányok fenntartásához a képek méretezésekor a relatív méretarányú képkeretek hozzáadása nagyon hasznos lehet. Nézze meg[Relatív méretarányú képkeret hozzáadása a PowerPointban](./add-relative-scale-height-picture-frame-powerpoint/) részletes utasításokért.
 
 ## Multimédiás elemeket tartalmaz
@@ -33,7 +33,7 @@ Azok számára, akik bonyolultabb elemeket, például OLE-objektumokat szeretné
 
 -  OLE objektumkeretek: Az OLE (Object Linking and Embedding) objektumok lehetővé teszik más alkalmazásokból származó tartalom beágyazását a diákba. Ez különösen hasznos az Excelből vagy más szoftverből származó adatok integrálásakor. Ismerje meg, hogyan adhat hozzá OLE objektumokat a következővel[OLE objektumkeret hozzáadása a PowerPointban](./add-ole-object-frame-powerpoint/).
 
-Ezen oktatóanyagok követésével kifinomult formákkal és multimédiás elemekkel emelheti PowerPoint-prezentációit. Az Aspose.Slides for Java biztosítja azokat az eszközöket, amelyekre szüksége van ahhoz, hogy diákjait ne csak informatív, hanem vizuálisan vonzó és interaktív legyen. Merüljön el az egyes oktatóanyagokban, hogy javítsa készségeit, és könnyedén készítsen kiemelkedő prezentációkat.
+Ezeket az oktatóanyagokat követve kifinomult formákkal és multimédiás elemekkel emelheti PowerPoint-prezentációit. Az Aspose.Slides for Java biztosítja azokat az eszközöket, amelyekre szüksége van ahhoz, hogy diákjait ne csak informatív, hanem vizuálisan vonzó és interaktív legyen. Merüljön el az egyes oktatóanyagokban, hogy javítsa készségeit, és könnyedén készítsen kiemelkedő prezentációkat.
 ## Java PowerPoint alakzat- és médiabeillesztési oktatóanyagok
 ### [Nyíl alakú vonal hozzáadása a PowerPointban](./add-arrow-shaped-line-powerpoint/)
 Ismerje meg, hogyan adhat nyíl alakú vonalakat PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.

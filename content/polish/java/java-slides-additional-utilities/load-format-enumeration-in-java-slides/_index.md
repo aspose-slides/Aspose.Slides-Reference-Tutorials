@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Wniosek
 
- W tym samouczku nauczyliśmy się, jak załadować prezentację PowerPoint w Javie za pomocą Aspose.Slides i sprawdzić jej format za pomocą`LoadFormat`wyliczenie. Może to być przydatne, gdy trzeba inaczej obsługiwać prezentacje w różnych formatach w aplikacji Java.
+ W tym samouczku nauczyliśmy się, jak załadować prezentację PowerPoint w Javie za pomocą Aspose.Slides i sprawdzić jej format za pomocą`LoadFormat` wyliczenie. Może to być przydatne, gdy trzeba inaczej obsługiwać prezentacje w różnych formatach w aplikacji Java.
 
 ## Często zadawane pytania
 
 ### Jak mogę pobrać Aspose.Slides dla Java?
 
- Możesz pobrać bibliotekę Aspose.Slides for Java ze strony internetowej Aspose, odwiedzając ją[ten link](https://releases.aspose.com/slides/java/).
+Możesz pobrać bibliotekę Aspose.Slides for Java ze strony internetowej Aspose, odwiedzając ją[ten link](https://releases.aspose.com/slides/java/).
 
 ### Jaki jest cel sprawdzania formatu prezentacji?
 

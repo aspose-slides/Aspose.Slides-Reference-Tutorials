@@ -38,7 +38,7 @@ String dataDir = "Your Document Directory";
 
 ## الخطوة 3: قم بتحميل العرض التقديمي
 
- إنشاء مثيل لـ`Presentation` فئة وقم بتحميل ملف عرض PowerPoint التقديمي الذي تريد تحويله. في التعليمات البرمجية المتوفرة، نقوم بتحميل عرض تقديمي باسم "Convert_XPS_Options.pptx."
+ إنشاء مثيل لـ`Presentation` فئة وقم بتحميل ملف عرض PowerPoint التقديمي الذي تريد تحويله. في التعليمات البرمجية المتوفرة، نقوم بتحميل عرض تقديمي باسم "Convert_XPS_Options.pptx".
 
 ```java
 Presentation pres = new Presentation(dataDir + "Convert_XPS_Options.pptx");
@@ -101,7 +101,7 @@ finally
 
 ### كيف يمكنني تنزيل Aspose.Slides لجافا؟
 
-يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. يزور[هنا](https://releases.aspose.com/slides/java/) للوصول إلى رابط التحميل.
+ يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. يزور[هنا](https://releases.aspose.com/slides/java/) للوصول إلى رابط التحميل.
 
 ### هل هناك أي متطلبات ترخيص لاستخدام Aspose.Slides لـ Java؟
 

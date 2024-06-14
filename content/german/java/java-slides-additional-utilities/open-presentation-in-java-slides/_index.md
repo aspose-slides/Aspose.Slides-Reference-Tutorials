@@ -10,7 +10,7 @@ url: /de/java/additional-utilities/open-presentation-in-java-slides/
 
 ## Einführung zum Öffnen einer Präsentation in Aspose.Slides für Java
 
-In diesem Tutorial erfahren Sie, wie Sie eine PowerPoint-Präsentation mithilfe der Bibliothek Aspose.Slides für Java öffnen. Aspose.Slides ist eine leistungsstarke Java-API für die Arbeit mit Microsoft PowerPoint-Dateien. Wir führen Sie Schritt für Schritt durch den Prozess und stellen Ihnen Beispiele für Java-Quellcode zur Verfügung.
+In diesem Tutorial lernen wir, wie man eine PowerPoint-Präsentation mit der Bibliothek Aspose.Slides für Java öffnet. Aspose.Slides ist eine leistungsstarke Java-API für die Arbeit mit Microsoft PowerPoint-Dateien. Wir gehen den Prozess Schritt für Schritt durch und stellen Ihnen Beispiele für Java-Quellcode zur Verfügung.
 
 ## Voraussetzungen
 

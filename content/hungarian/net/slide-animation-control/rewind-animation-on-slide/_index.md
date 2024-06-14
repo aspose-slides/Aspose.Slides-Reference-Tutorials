@@ -44,7 +44,7 @@ Az első dia effektussorozatának lekérése.
 ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 ```
 ## 4. lépés: Módosítsa az effektus időzítését
-Hozzáférés a fő sorozat első effektusához, és módosíthatja az időzítést a visszatekerés engedélyezéséhez.
+Hozzáférés a fő sorozat első hatásához, és módosíthatja az időzítést a visszatekerés engedélyezéséhez.
 ```csharp
 IEffect effect = effectsSequence[0];
 Console.WriteLine("\nEffect Timing/Rewind in source presentation is {0}", effect.Timing.Rewind);

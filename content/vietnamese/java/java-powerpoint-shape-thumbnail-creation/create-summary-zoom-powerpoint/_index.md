@@ -9,18 +9,18 @@ url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ---
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tạo Tóm tắt Thu phóng trong PowerPoint bằng Aspose.Slides cho Java. Nếu bạn đang muốn thêm yếu tố động và tương tác vào bản trình bày của mình thì Thu phóng Tóm tắt là một tính năng tuyệt vời. Nó cho phép bạn tạo một slide duy nhất có thể phóng to các phần khác nhau của bản trình bày, mang lại trải nghiệm hấp dẫn và dễ điều hướng hơn cho khán giả của bạn.
-Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn toàn bộ quá trình, từ thiết lập môi trường phát triển đến tạo và tùy chỉnh khung Thu phóng tóm tắt. Cho dù bạn là nhà phát triển Java dày dạn kinh nghiệm hay mới bắt đầu, bạn sẽ thấy hướng dẫn này dễ làm theo và chứa đựng nhiều thông tin chi tiết có giá trị.
+Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn toàn bộ quá trình, từ thiết lập môi trường phát triển đến tạo và tùy chỉnh khung Thu phóng Tóm tắt. Cho dù bạn là nhà phát triển Java dày dạn kinh nghiệm hay mới bắt đầu, bạn sẽ thấy hướng dẫn này dễ làm theo và chứa đựng nhiều thông tin chi tiết có giá trị.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ bạn cần để bắt đầu:
 1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides cho Java: Tải xuống thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides cho Java: Tải xuống thư viện từ[Trang phát hành Aspose](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như IntelliJ IDEA, Eclipse hoặc NetBeans để có trải nghiệm phát triển liền mạch hơn.
 4. Kiến thức cơ bản về Java: Làm quen với các khái niệm lập trình Java sẽ giúp bạn hiểu và thực hiện các bước trong hướng dẫn này.
 ## Gói nhập khẩu
 Trước khi chúng ta bắt đầu, bạn cần nhập các gói cần thiết. Đảm bảo rằng bạn đã đưa Aspose.Slides cho Java vào phần phụ thuộc dự án của mình.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Bước 1: Thiết lập dự án của bạn
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Bây giờ, chúng ta sẽ tạo khung Thu phóng Tóm tắt trên slide đầu tiên. Khung này sẽ đóng vai trò là thành phần tương tác cho phép người dùng phóng to các phần khác nhau.
 
 1. Xác định vị trí Trang chiếu Đầu tiên: Truy xuất trang chiếu đầu tiên nơi bạn sẽ thêm khung Thu phóng Tóm tắt.
-2. Thêm Khung thu phóng tóm tắt: Sử dụng`addSummaryZoomFrame` phương pháp thêm khung.
+2.  Thêm Khung thu phóng tóm tắt: Sử dụng`addSummaryZoomFrame` phương pháp thêm khung.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ Cuối cùng, lưu bản trình bày vào vị trí mong muốn của bạn. Bư
 1. Xác định đường dẫn đầu ra: Chỉ định đường dẫn nơi bản trình bày sẽ được lưu.
 2.  Lưu bài thuyết trình: Sử dụng`save` phương pháp lưu tệp ở định dạng PPTX.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Vứt bỏ đối tượng trình bày
@@ -95,14 +95,14 @@ Vứt bỏ đối tượng trình bày để giải phóng mọi tài nguyên m�
 if (pres != null) pres.dispose();
 ```
 ## Phần kết luận
- Chúc mừng! Bạn đã tạo thành công Thu phóng tóm tắt trong PowerPoint bằng Aspose.Slides cho Java. Tính năng này nâng cao bài thuyết trình của bạn bằng cách làm cho chúng tương tác và hấp dẫn hơn. Bằng cách làm theo hướng dẫn này, giờ đây bạn có kỹ năng triển khai tính năng này trong các dự án của riêng mình. Hãy nhớ khám phá[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) để biết thêm các tính năng nâng cao và tùy chọn tùy chỉnh.
+ Chúc mừng! Bạn đã tạo thành công Thu phóng tóm tắt trong PowerPoint bằng Aspose.Slides cho Java. Tính năng này nâng cao bài thuyết trình của bạn bằng cách làm cho chúng tương tác và hấp dẫn hơn. Bằng cách làm theo hướng dẫn này, giờ đây bạn có kỹ năng triển khai tính năng này trong các dự án của riêng mình. Hãy nhớ khám phá[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/)để biết thêm các tính năng nâng cao và tùy chọn tùy chỉnh.
 ## Câu hỏi thường gặp
 ### Aspose.Slides cho Java là gì?
 Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và thao tác các bản trình bày PowerPoint theo chương trình bằng Java.
 ### Tôi có thể sử dụng Aspose.Slides for Java để tạo các loại nội dung khác trong PowerPoint không?
 Có, Aspose.Slides cho Java hỗ trợ nhiều tính năng, bao gồm tạo trang trình bày, thêm hình dạng, biểu đồ, bảng, v.v.
 ### Có bản dùng thử miễn phí cho Aspose.Slides cho Java không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides cho Java từ[trang mạng](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides cho Java từ[trang mạng](https://releases.aspose.com/).
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides cho Java?
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm ví dụ và hỗ trợ cho Aspose.Slides cho Java ở đâu?

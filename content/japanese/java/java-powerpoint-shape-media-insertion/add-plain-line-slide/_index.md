@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ステップ1: 環境を設定する
@@ -54,11 +54,11 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ## よくある質問
 ### 線の形状のプロパティをカスタマイズできますか?
 はい、Aspose.Slides API を使用して、線の色、幅、スタイルなどのさまざまなプロパティをカスタマイズできます。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 はい、Aspose.Slides は PPT、PPTX などさまざまな PowerPoint 形式をサポートしており、異なるバージョン間での互換性が確保されています。
 ### Aspose.Slides は、線以外の図形の追加をサポートしていますか?
 もちろんです! Aspose.Slides では、長方形、円、矢印など、さまざまな図形タイプが提供されています。
 ### 線の形状とともにスライドにテキストを追加できますか?
 はい、Aspose.Slides API を使用して、スライドにテキスト、画像、その他のコンテンツを追加できます。
 ### Aspose.Slides の無料試用版はありますか?
-はい、Aspose.Slidesの無料トライアルは以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+はい、Aspose.Slidesの無料トライアルをこちらからダウンロードできます。[ここ](https://releases.aspose.com/).

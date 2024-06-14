@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 स्लाइड को कॉपी करने और रखने के बाद, हमें संशोधित गंतव्य प्रस्तुति को सहेजना होगा।
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

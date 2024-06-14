@@ -68,7 +68,7 @@ Ez a kód biztosítja, hogy a sorozat kitöltési színe automatikus legyen.
 
 ## 6. lépés: A prezentáció mentése
 
-prezentáció mentéséhez használja a következő kódot:
+A prezentáció mentéséhez használja a következő kódot:
 
 ```java
 // Írja a bemutató fájlt lemezre

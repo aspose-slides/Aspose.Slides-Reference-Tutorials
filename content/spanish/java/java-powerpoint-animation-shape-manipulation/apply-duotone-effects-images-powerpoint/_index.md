@@ -19,7 +19,7 @@ Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 Primero, deberá importar los paquetes necesarios en su programa Java. Así es como lo haces:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

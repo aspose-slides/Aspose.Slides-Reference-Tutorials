@@ -57,7 +57,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 Ano, v souboru můžete zadat více čísel stránek`ProcessPages` pole pro import obsahu z různých stránek PDF.
 
 ### Existují nějaká omezení pro import obsahu PDF?
-Zatímco Aspose.Slides poskytuje výkonné řešení, formátování importovaného obsahu se může lišit v závislosti na složitosti PDF. Mohou být nutné určité úpravy.
+Zatímco Aspose.Slides poskytuje výkonné řešení, formátování importovaného obsahu se může lišit v závislosti na složitosti PDF. Mohou být nutné některé úpravy.
 
 ### Mohu importovat jiné typy obsahu pomocí Aspose.Slides?
 Aspose.Slides se primárně zaměřuje na funkce související s prezentací. Pro import jiných typů obsahu možná budete muset prozkoumat další knihovny Aspose.

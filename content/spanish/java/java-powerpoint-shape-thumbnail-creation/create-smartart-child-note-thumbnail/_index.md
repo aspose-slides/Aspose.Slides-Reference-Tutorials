@@ -12,7 +12,7 @@ En este tutorial, exploraremos cómo crear miniaturas de notas secundarias Smart
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener lo siguiente:
 1. Kit de desarrollo de Java (JDK) instalado en su sistema.
-2. Biblioteca Aspose.Slides para Java descargada y configurada en su proyecto. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
+2.  Biblioteca Aspose.Slides para Java descargada y configurada en su proyecto. Puedes descargar la biblioteca desde[aquí](https://releases.aspose.com/slides/java/).
 
 ## Importar paquetes
 Asegúrese de importar los paquetes necesarios en su clase Java:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -65,7 +65,7 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
 ```
 Bây giờ bạn đã điều khiển thành công hoạt ảnh slide bằng Aspose.Slides cho .NET!
 ## Phần kết luận
-Tạo hiệu ứng trang chiếu trong bản trình bày của bạn sẽ tạo thêm nét sinh động, làm cho nội dung của bạn hấp dẫn hơn. Với Aspose.Slides cho .NET, quy trình này trở nên đơn giản, cho phép bạn dễ dàng tạo các bản trình bày hấp dẫn về mặt hình ảnh.
+Tạo hiệu ứng trang chiếu trong bản trình bày của bạn sẽ tạo thêm nét sinh động, làm cho nội dung của bạn hấp dẫn hơn. Với Aspose.Slides dành cho .NET, quy trình này trở nên đơn giản, cho phép bạn dễ dàng tạo các bản trình bày hấp dẫn về mặt hình ảnh.
 ## Câu hỏi thường gặp
 ### Tôi có thể tùy chỉnh thêm các hiệu ứng chuyển tiếp không?
  Có, Aspose.Slides cung cấp nhiều loại chuyển tiếp và các thuộc tính bổ sung để tùy chỉnh. Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/) để biết chi tiết.

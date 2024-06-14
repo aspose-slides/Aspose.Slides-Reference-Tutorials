@@ -18,7 +18,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 首先，您需要将必要的包导入到 Java 项目中。这些包提供了使用 Aspose.Slides for Java 处理 PowerPoint 演示文稿所需的功能。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：加载演示文稿
 首先，您需要加载包含要克隆的形状的 PowerPoint 演示文稿。使用`Presentation`类来加载源演示文稿。

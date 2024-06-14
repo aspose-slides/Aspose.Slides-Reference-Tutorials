@@ -34,7 +34,7 @@ url: /ru/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // Путь к документу PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // Путь к документу PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Включить отображение управления мультимедиа в режиме слайд-шоу.

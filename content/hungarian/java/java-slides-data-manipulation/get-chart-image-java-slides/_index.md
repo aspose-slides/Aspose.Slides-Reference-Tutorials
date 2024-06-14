@@ -1,6 +1,6 @@
 ---
-title: Töltse le a diagramot a Java Slides alkalmazásban
-linktitle: Töltse le a diagramot a Java Slides alkalmazásban
+title: Töltse le a diagram képét a Java Slides alkalmazásban
+linktitle: Töltse le a diagram képét a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan szerezhet be diagramképeket a Java Slides programban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató forráskódot és tippeket ad a zökkenőmentes integrációhoz.
 type: docs
@@ -83,7 +83,7 @@ Igen, testreszabhatja a diagram megjelenését, adatait és egyéb tulajdonsága
 
 ### Milyen egyéb funkciókat kínál az Aspose.Slides for Java?
 
-Az Aspose.Slides for Java funkciók széles skáláját kínálja a PowerPoint-prezentációkkal való munkavégzéshez, beleértve a diakészítést, a szövegszerkesztést, az alakzatszerkesztést és még sok mást. Részletes információkért tekintse meg a dokumentációt.
+Az Aspose.Slides for Java funkciók széles skáláját kínálja a PowerPoint prezentációkkal való munkavégzéshez, beleértve a diakészítést, a szövegkezelést, az alakzatok szerkesztését és még sok mást. Részletes információkért tekintse meg a dokumentációt.
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi használatra?
 

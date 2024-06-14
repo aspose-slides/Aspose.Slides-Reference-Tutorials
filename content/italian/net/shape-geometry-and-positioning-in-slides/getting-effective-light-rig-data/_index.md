@@ -40,7 +40,7 @@ Utilizzare il codice seguente per caricare un file di presentazione:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Il tuo codice per recuperare dati efficaci sull'impianto di illuminazione va qui
+    //Il tuo codice per recuperare dati efficaci sull'impianto di illuminazione va qui
 }
 ```
 ## Passaggio 4: recuperare i dati effettivi dell'impianto di illuminazione

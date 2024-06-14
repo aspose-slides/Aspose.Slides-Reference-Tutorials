@@ -13,18 +13,18 @@ In diesem Tutorial beschäftigen wir uns mit der Erstellung von Abschnittszooms 
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert und eingerichtet sind:
 1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können die neueste Version von herunterladen und installieren[Hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides für Java: Laden Sie die Bibliothek Aspose.Slides für Java herunter und richten Sie sie ein. Die Dokumentation finden Sie[Hier](https://reference.aspose.com/slides/java/)und laden Sie die Bibliothek herunter von[dieser Link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java: Laden Sie die Bibliothek Aspose.Slides für Java herunter und richten Sie sie ein. Die Dokumentation finden Sie[Hier](https://reference.aspose.com/slides/java/) und laden Sie die Bibliothek herunter von[dieser Link](https://releases.aspose.com/slides/java/).
 ## Pakete importieren
 Importieren Sie zunächst die erforderlichen Pakete, die für die Arbeit mit Aspose.Slides für Java erforderlich sind:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Schritt 1: Ausgabedatei einrichten
 Definieren Sie den Pfad für die Ausgabepräsentationsdatei:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Schritt 2: Präsentationsobjekt initialisieren
  Erstellen Sie eine neue Instanz des`Presentation` Klasse:

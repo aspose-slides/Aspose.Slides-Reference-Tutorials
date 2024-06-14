@@ -45,7 +45,7 @@ Non aspettare oltre; inizia oggi il tuo viaggio verso l'eccellenza nella present
 Scopri come impostare ClsId della directory principale in Aspose.Slides per presentazioni Java. Personalizza il comportamento del collegamento ipertestuale con CLSID.
 ### [Controlli multimediali della presentazione in Diapositive Java](./slide-show-media-controls-in-java-slides/)
 Scopri come abilitare e utilizzare i controlli multimediali nelle diapositive Java con Aspose.Slides per Java. Migliora le tue presentazioni con i controlli multimediali.
-### [Supporto per Interrupt in Java Slides](./support-for-interrupt-in-java-slides/)
+### [Supporto per Interrupt nelle diapositive Java](./support-for-interrupt-in-java-slides/)
 Gestione delle interruzioni di Master Java Slides con Aspose.Slides per Java. Questa guida dettagliata fornisce istruzioni dettagliate ed esempi di codice per una gestione fluida degli interrupt.
 ### [Aggiorna le proprietà della presentazione nelle diapositive Java](./update-presentation-properties-in-java-slides/)
 Scopri come aggiornare le proprietà della presentazione nelle diapositive Java utilizzando Aspose.Slides per Java. Personalizza autore, titolo e altro per presentazioni di grande impatto.

@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/normal-charts-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 일반 차트를 만드는 과정을 안내합니다. PowerPoint 프레젠테이션에서 묶은 세로 막대형 차트를 만드는 방법을 보여주기 위해 소스 코드와 함께 단계별 지침을 사용합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//계열의 채우기 색상 설정
+// 계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//계열의 채우기 색상 설정
+// 계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // 첫 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//계열의 채우기 색상 설정
+// 계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // 두 번째 차트 시리즈 가져오기
 series = chart.getChartData().getSeries().get_Item(1);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//계열의 채우기 색상 설정
+// 계열의 채우기 색상 설정
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // 첫 번째 라벨은 카테고리 이름을 표시합니다.
@@ -223,7 +223,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### 차트 유형을 어떻게 변경할 수 있나요?
 
- 차트 유형을 변경하려면`ChartType` 다음을 사용하여 차트를 추가할 때 매개변수`sld.getShapes().addChart()`. Aspose.Slides에서 사용할 수 있는 다양한 차트 유형 중에서 선택할 수 있습니다.
+ 차트 유형을 변경하려면`ChartType`다음을 사용하여 차트를 추가할 때 매개변수`sld.getShapes().addChart()`. Aspose.Slides에서 사용할 수 있는 다양한 차트 유형 중에서 선택할 수 있습니다.
 
 ### 차트 시리즈의 색상을 변경할 수 있나요?
 
@@ -239,4 +239,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### 차트를 다른 파일 형식으로 저장하려면 어떻게 해야 합니까?
 
- 차트를 다른 파일 형식으로 저장하려면`SaveFormat` 매개변수`pres.save()`방법을 원하는 형식(예: PDF, PNG, JPEG)으로 변경합니다.
+ 차트를 다른 파일 형식으로 저장하려면`SaveFormat` 매개변수`pres.save()` 방법을 원하는 형식(예: PDF, PNG, JPEG)으로 변경합니다.

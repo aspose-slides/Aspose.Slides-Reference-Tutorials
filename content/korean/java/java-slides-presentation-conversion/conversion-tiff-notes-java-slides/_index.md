@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/conversion-tiff-notes-java-slides/
 
 Java Slides로 작업 중이고 메모가 포함된 TIFF 형식으로 프레젠테이션을 변환해야 한다면 잘 찾아오셨습니다. 이 단계별 가이드는 Aspose.Slides for Java를 사용하는 과정을 안내합니다. 이 기사를 마치면 이 작업을 원활하게 수행하는 데 필요한 지식과 소스 코드를 갖추게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 변환 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

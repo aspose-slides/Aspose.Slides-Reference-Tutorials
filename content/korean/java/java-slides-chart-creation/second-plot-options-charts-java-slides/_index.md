@@ -12,7 +12,7 @@ url: /ko/java/chart-creation/second-plot-options-charts-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트에 두 번째 플롯 옵션을 추가하는 방법을 살펴보겠습니다. 두 번째 플롯 옵션을 사용하면 특히 원형 차트와 같은 시나리오에서 차트의 모양과 동작을 사용자 지정할 수 있습니다. 이를 달성하기 위한 단계별 지침과 소스 코드 예제를 제공합니다. 
 
-## 전제조건
+## 전제 조건
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java가 설치 및 설정되어 있는지 확인하세요.
 
 ## 1단계: 프레젠테이션 만들기
@@ -84,7 +84,7 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ### 원형 원형 차트에서 두 번째 원형의 크기를 어떻게 변경할 수 있나요?
 
- 원형 원형 차트에서 두 번째 원형의 크기를 변경하려면`setSecondPieSize` 위의 코드 예제에 표시된 대로 메서드를 사용합니다. 크기를 백분율로 지정하려면 값을 조정하세요.
+원형 원형 차트에서 두 번째 원형의 크기를 변경하려면`setSecondPieSize` 위의 코드 예제에 표시된 대로 메서드를 사용합니다. 크기를 백분율로 지정하려면 값을 조정하세요.
 
 ###  무엇을`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 
 ### 원형 원형 차트에서 분할 위치를 어떻게 설정합니까?
 
-다음을 사용하여 원형 원형 차트에서 분할 위치를 설정할 수 있습니다.`setPieSplitPosition` 방법. 값을 조정하여 원하는 위치를 지정하세요.
+ 다음을 사용하여 원형 원형 차트에서 분할 위치를 설정할 수 있습니다.`setPieSplitPosition` 방법. 값을 조정하여 원하는 위치를 지정하세요.

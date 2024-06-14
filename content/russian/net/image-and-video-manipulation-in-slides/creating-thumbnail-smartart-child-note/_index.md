@@ -59,6 +59,6 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ### Вопрос: Доступна ли временная лицензия для целей тестирования?
  О: Да, вы можете получить временную лицензию от[здесь](https://purchase.aspose.com/temporary-license/) для тестирования и оценки.
 ### Вопрос: Где я могу обратиться за помощью или связаться с сообществом Aspose.Slides?
-А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) взаимодействовать с сообществом, задавать вопросы и находить решения.
+ А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) взаимодействовать с сообществом, задавать вопросы и находить решения.
 ### Вопрос: Могу ли я приобрести Aspose.Slides для .NET?
  А: Конечно! Изучите варианты покупки[здесь](https://purchase.aspose.com/buy) чтобы раскрыть весь потенциал Aspose.Slides в ваших проектах.

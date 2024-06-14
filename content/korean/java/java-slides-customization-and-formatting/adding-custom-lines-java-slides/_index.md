@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/adding-custom-lines-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드에 사용자 정의 라인을 추가하는 방법을 배웁니다. 사용자 지정 선을 사용하면 슬라이드의 시각적 표현을 향상하고 특정 콘텐츠를 강조할 수 있습니다. 이를 달성하기 위한 소스 코드와 함께 단계별 지침을 제공할 것입니다. 시작하자!
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Java용 Aspose.Slides 라이브러리가 설정되어 있는지 확인하세요. 다음 웹사이트에서 라이브러리를 다운로드할 수 있습니다.[Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 

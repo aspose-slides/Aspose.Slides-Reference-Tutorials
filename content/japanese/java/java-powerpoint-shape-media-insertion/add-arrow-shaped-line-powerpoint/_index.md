@@ -19,7 +19,7 @@ PowerPoint プレゼンテーションに矢印の線を追加すると、視覚
 まず、Java クラスに必要なパッケージをインポートします。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

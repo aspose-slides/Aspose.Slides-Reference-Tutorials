@@ -59,6 +59,6 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 ### प्रश्न: क्या परीक्षण प्रयोजनों के लिए अस्थायी लाइसेंस उपलब्ध है?
  उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं।[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन के लिए।
 ### प्रश्न: मैं सहायता कहां प्राप्त कर सकता हूं या Aspose.Slides समुदाय से कहां जुड़ सकता हूं?
-उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय के साथ जुड़ना, प्रश्न पूछना और समाधान ढूंढना।
+ उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय के साथ जुड़ना, प्रश्न पूछना और समाधान ढूंढना।
 ### प्रश्न: क्या मैं .NET के लिए Aspose.Slides खरीद सकता हूँ?
  उत्तर: ज़रूर! खरीद के विकल्प तलाशें[यहाँ](https://purchase.aspose.com/buy) अपनी परियोजनाओं में Aspose.Slides की पूरी क्षमता को अनलॉक करने के लिए।

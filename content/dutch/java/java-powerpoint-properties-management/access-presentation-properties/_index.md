@@ -21,12 +21,12 @@ In deze stap importeren we de benodigde pakketten om onze Aspose.Slides-reis een
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel de gegevensdirectory in
 Voordat u in de kernfunctionaliteit duikt, stelt u de gegevensmap in op toegang tot uw presentatiebestand:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Stap 2: Maak laadopties aan
 Instantieer laadopties om te configureren hoe het presentatiebestand wordt geopend. In dit voorbeeld stellen we het toegangswachtwoord in op nul en schakelen we het laden van alleen documenteigenschappen in:

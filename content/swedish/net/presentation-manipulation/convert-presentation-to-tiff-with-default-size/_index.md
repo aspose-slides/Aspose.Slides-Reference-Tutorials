@@ -63,7 +63,7 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 
 ## Slutsats
 
-I den här handledningen gick vi igenom processen att konvertera en presentation till TIFF-format samtidigt som den behöll dess standardstorlek med Aspose.Slides för .NET. Vi täckte in att ladda presentationen, utföra konverteringen och spara den resulterande TIFF-bilden. Aspose.Slides förenklar komplexa uppgifter som dessa och ger utvecklare möjlighet att arbeta effektivt med PowerPoint-filer programmatiskt.
+I den här handledningen gick vi igenom processen att konvertera en presentation till TIFF-format samtidigt som den behöll standardstorleken med Aspose.Slides för .NET. Vi täckte in att ladda presentationen, utföra konverteringen och spara den resulterande TIFF-bilden. Aspose.Slides förenklar komplexa uppgifter som dessa och ger utvecklare möjlighet att arbeta effektivt med PowerPoint-filer programmatiskt.
 
 ## FAQ's
 

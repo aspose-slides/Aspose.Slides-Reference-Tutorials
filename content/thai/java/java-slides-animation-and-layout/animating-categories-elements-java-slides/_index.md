@@ -43,7 +43,7 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 เราได้รับการอ้างอิงถึงวัตถุแผนภูมิในสไลด์แรกของการนำเสนอ ปรับดัชนีสไลด์ (`get_Item(0)`) และดัชนีรูปร่าง (`get_Item(0)`) ตามความจำเป็นเพื่อเข้าถึงแผนภูมิเฉพาะของคุณ
 
-## ขั้นตอนที่ 4: ทำให้องค์ประกอบของหมวดหมู่เคลื่อนไหว
+## ขั้นตอนที่ 4: ทำให้องค์ประกอบหมวดหมู่เคลื่อนไหว
 
 ```java
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);

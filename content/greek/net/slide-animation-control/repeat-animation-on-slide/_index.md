@@ -47,7 +47,7 @@ IEffect effect = effectsSequence[0];
 ```csharp
 effect.Timing.RepeatUntilEndSlide = true;
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση για να οπτικοποιήσετε τις αλλαγές.
 ```csharp
 pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);

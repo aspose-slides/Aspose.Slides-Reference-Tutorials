@@ -20,7 +20,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có các điều kiện 
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập thư mục dự án
 Bắt đầu bằng cách thiết lập thư mục dự án của bạn. Tạo một thư mục nơi bạn sẽ lưu trữ các tệp Java và bản trình bày PowerPoint (`Presentation1.pptx`).

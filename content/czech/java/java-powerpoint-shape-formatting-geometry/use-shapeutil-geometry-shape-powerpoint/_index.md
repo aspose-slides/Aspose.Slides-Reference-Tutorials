@@ -8,7 +8,7 @@ weight: 23
 url: /cs/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## Úvod
- Vytváření vizuálně přitažlivých prezentací PowerPoint často vyžaduje více než jen použití standardních tvarů a textu. Představte si, že můžete přidat přizpůsobené tvary a textové cesty přímo do vašich snímků, čímž zvýšíte vizuální dopad vaší prezentace. Pomocí Aspose.Slides pro Java toho můžete dosáhnout snadno. Tento tutoriál vás provede procesem používání`ShapeUtil`třídy k vytváření geometrických tvarů v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vám pomůže využít sílu Aspose.Slides pro Java k vytvoření úžasného obsahu přizpůsobeného na míru.
+Vytváření vizuálně přitažlivých prezentací PowerPoint často vyžaduje více než jen použití standardních tvarů a textu. Představte si, že můžete přidat přizpůsobené tvary a textové cesty přímo do vašich snímků, čímž zvýšíte vizuální dopad vaší prezentace. Pomocí Aspose.Slides for Java toho můžete dosáhnout snadno. Tento tutoriál vás provede procesem používání`ShapeUtil` třídy k vytváření geometrických tvarů v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vám pomůže využít sílu Aspose.Slides pro Java k vytvoření úžasného obsahu přizpůsobeného na míru.
 ## Předpoklady
 Než se ponoříme do tutoriálu, je několik věcí, které budete potřebovat:
 1. Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK 8 nebo vyšší.
@@ -19,7 +19,7 @@ Než se ponoříme do tutoriálu, je několik věcí, které budete potřebovat:
 Chcete-li začít, musíte importovat potřebné balíčky pro práci s Aspose.Slides a Java AWT (Abstract Window Toolkit):
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -70,7 +70,7 @@ Aspose.Slides for Java je výkonné API pro práci s PowerPoint soubory v Javě.
 ### Jak nainstaluji Aspose.Slides for Java?
  Nejnovější verzi si můžete stáhnout z[stránka ke stažení](https://releases.aspose.com/slides/java/) a přidejte soubory JAR do svého projektu.
 ### Mohu používat Aspose.Slides zdarma?
- Aspose.Slides nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[tady](https://releases.aspose.com/). Pro plnou funkčnost je potřeba zakoupit licenci.
+Aspose.Slides nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[tady](https://releases.aspose.com/)Pro plnou funkčnost je potřeba zakoupit licenci.
 ### Jaké je použití třídy ShapeUtil?
  The`ShapeUtil` class v Aspose.Slides poskytuje obslužné metody pro práci s tvary, jako je převod grafických cest na geometrické cesty.
 ### Kde mohu získat podporu pro Aspose.Slides?

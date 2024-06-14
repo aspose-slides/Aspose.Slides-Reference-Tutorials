@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Código fuente completo para compatibilidad con interrupciones en diapositivas de Java
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

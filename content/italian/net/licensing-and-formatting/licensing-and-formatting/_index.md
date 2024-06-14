@@ -14,7 +14,7 @@ Nel mondo dello sviluppo .NET, Aspose.Slides è una libreria potente e versatile
 
 Prima di approfondire il processo di licenza, è necessario disporre dei seguenti prerequisiti:
 
-1.  Aspose.Slides per .NET: assicurati di aver installato Aspose.Slides per .NET nel tuo ambiente di sviluppo. È possibile scaricare la libreria da[Link per scaricare](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides per .NET: assicurati di aver installato Aspose.Slides per .NET nel tuo ambiente di sviluppo. È possibile scaricare la libreria da[Link per scaricare](https://releases.aspose.com/slides/net/).
 
 2.  File di licenza: acquisire un file di licenza Aspose.Slides valido, in genere denominato "Aspose.Slides.lic". È possibile ottenere licenze da[Sito web Aspose](https://purchase.aspose.com/buy) oppure richiedi un[licenza temporanea](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
 
@@ -58,7 +58,7 @@ Dopo aver impostato il percorso del file di licenza, è essenziale assicurarsi c
 
 ### Passaggio 4: convalida della licenza
 
-Per verificare se la tua licenza è valida, utilizza il file`IsLicensed` metodo. Restituisce un valore booleano che indica se la tua licenza è attiva.
+ Per verificare se la tua licenza è valida, utilizza il file`IsLicensed` metodo. Restituisce un valore booleano che indica se la tua licenza è attiva.
 
 ```csharp
 if (license.IsLicensed())

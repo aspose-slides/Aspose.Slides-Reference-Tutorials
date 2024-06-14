@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/font-size-legend-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드 범례의 글꼴 크기를 사용자 정의하는 방법을 배웁니다. 우리는 이 작업을 달성하기 위한 단계별 지침과 소스 코드를 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- 이 코드에서는 차트를 만들고 범례 텍스트의 글꼴 크기를 20포인트로 설정합니다. 당신은 조정할 수 있습니다`setFontHeight`값을 사용하여 글꼴 크기를 변경합니다.
+ 이 코드에서는 차트를 만들고 범례 텍스트의 글꼴 크기를 20포인트로 설정합니다. 당신은 조정할 수 있습니다`setFontHeight` 값을 사용하여 글꼴 크기를 변경합니다.
 
 ### 차트 범례의 다른 속성을 사용자 지정할 수 있나요?
 
@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### Aspose.Slides에 대한 추가 정보와 문서는 어디서 찾을 수 있나요?
 
-Aspose 설명서 웹사이트에서 Java용 Aspose.Slides에 대한 포괄적인 설명서 및 API 참조를 찾을 수 있습니다. 방문하다[여기](https://reference.aspose.com/slides/java/) 도서관 이용에 대한 자세한 내용은
+ Aspose 설명서 웹사이트에서 Java용 Aspose.Slides에 대한 포괄적인 설명서 및 API 참조를 찾을 수 있습니다. 방문하다[여기](https://reference.aspose.com/slides/java/) 도서관 이용에 대한 자세한 내용은

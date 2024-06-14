@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Ολοκληρώστε τον πηγαίο κώδικα για υποστήριξη για διακοπή σε διαφάνειες Java
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

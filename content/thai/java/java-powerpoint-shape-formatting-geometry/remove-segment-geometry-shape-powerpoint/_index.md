@@ -12,14 +12,14 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides สำหรับ Java: ดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides สำหรับ Java: ดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 3. สภาพแวดล้อมการพัฒนาแบบรวม (IDE): ใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse สำหรับการเขียนและรันโค้ด Java ของคุณ
 4. ความรู้พื้นฐานของ Java: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java จะช่วยให้คุณปฏิบัติตามบทช่วยสอนนี้
 ## แพ็คเกจนำเข้า
 ในการเริ่มต้น เราต้องนำเข้าแพ็คเกจที่จำเป็นจากไลบรารี Aspose.Slides นี่คือวิธีการ:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 เรามาแจกแจงขั้นตอนการลบส่วนออกจากรูปทรงเรขาคณิตในสไลด์ PowerPoint ออกเป็นหลายขั้นตอน
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอใหม่
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## ขั้นตอนที่ 6: บันทึกการนำเสนอ
 สุดท้าย ให้บันทึกงานนำเสนอที่แก้ไขแล้วลงในไฟล์
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## ขั้นตอนที่ 7: ทำความสะอาดทรัพยากร

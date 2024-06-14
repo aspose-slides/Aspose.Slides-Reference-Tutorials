@@ -76,7 +76,7 @@ Srdce výukového programu je v řádku, který duplikuje snímek:
 presentation.Slides.AddClone(presentation.Slides[0], section2);
 ```
 
-Zde naklonujeme první snímek (index 0) a umístíme duplikát do „Sekce 2“.
+Zde naklonujeme první snímek (index 0) a duplikát umístíme do „Sekce 2“.
 
 ### Krok 5: Uložte prezentaci
 

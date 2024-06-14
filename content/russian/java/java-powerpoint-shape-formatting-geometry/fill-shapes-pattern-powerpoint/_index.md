@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 Сначала давайте импортируем необходимые пакеты, необходимые для нашего примера.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -74,7 +74,7 @@ shape.getFillFormat().getPatternFormat().getForeColor().setColor(Color.YELLOW);
 ```java
 pres.save(dataDir + "RectShpPatt_out.pptx", SaveFormat.Pptx);
 ```
-При этом презентация сохраняется в указанном каталоге с именем файла «RectShpPatt_out.pptx».
+При этом презентация будет сохранена в указанном каталоге с именем файла «RectShpPatt_out.pptx».
 ## Шаг 10: Очистите ресурсы
 Хорошей практикой является удаление объекта представления, чтобы освободить ресурсы.
 ```java

@@ -2,7 +2,7 @@
 title: تحريك عناصر الفئات في شرائح جافا
 linktitle: تحريك عناصر الفئات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: قم بتحسين عروض Java التقديمية الخاصة بك باستخدام Aspose.Slides لـ Java. تعرف على كيفية تحريك عناصر الفئة في شرائح PowerPoint خطوة بخطوة.
+description: قم بتحسين عروض Java التقديمية باستخدام Aspose.Slides لـ Java. تعرف على كيفية تحريك عناصر الفئة في شرائح PowerPoint خطوة بخطوة.
 type: docs
 weight: 10
 url: /ar/java/animation-and-layout/animating-categories-elements-java-slides/

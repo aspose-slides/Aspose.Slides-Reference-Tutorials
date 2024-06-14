@@ -25,7 +25,7 @@ using System.IO;
 ## 1. lépés: Állítsa be projektjét
 Kezdje egy új .NET-projekt létrehozásával, és adjon hozzá egy hivatkozást az Aspose.Slides könyvtárhoz.
 ## 2. lépés: Inicializálja a bemutatót
-kódban inicializáljon egy új prezentációs objektumot:
+A kódban inicializáljon egy új prezentációs objektumot:
 ```csharp
 string dataDir = "Your Document Directory";
 string outPptxFile = Path.Combine(dataDir, "sandbox_3d.pptx");
@@ -74,6 +74,6 @@ Teljesen! Az Aspose.Slides kiterjedt lehetőségeket kínál a 3D-s tulajdonság
 ### Hol találok további oktatóanyagokat és példákat?
  Fedezze fel az Aspose.Slides dokumentációját[itt](https://reference.aspose.com/slides/net/) átfogó oktatóanyagokért és példákért.
 ### Van ingyenes próbaverzió?
- Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást, ha problémákba ütközöm?
  Látogassa meg az Aspose.Slides fórumot[itt](https://forum.aspose.com/c/slides/11) közösségi támogatásért és segítségért.

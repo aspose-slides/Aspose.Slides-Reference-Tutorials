@@ -21,7 +21,7 @@ Trước tiên, hãy nhập các gói cần thiết. Các gói này rất cần 
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Bây giờ, hãy chia nhỏ quy trình sao chép một slide từ một bản trình bày và thêm nó vào một bản trình bày khác thành các bước đơn giản, dễ hiểu.
@@ -29,7 +29,7 @@ Bây giờ, hãy chia nhỏ quy trình sao chép một slide từ một bản tr
  Để bắt đầu, chúng ta cần tải bản trình bày nguồn mà chúng ta muốn sao chép một slide. Việc này được thực hiện bằng cách sử dụng`Presentation` lớp được cung cấp bởi Aspose.Slides.
 ```java
 // Đường dẫn đến thư mục tài liệu.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Khởi tạo lớp Trình bày để tải tệp trình bày nguồn
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

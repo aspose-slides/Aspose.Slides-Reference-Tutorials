@@ -24,7 +24,7 @@ Hình dạng và đường nét là những yếu tố cơ bản có thể nâng
 
 Việc thêm các yếu tố đa phương tiện như âm thanh và video có thể làm cho bài thuyết trình của bạn hấp dẫn và tương tác hơn. Aspose.Slides for Java cung cấp các phương pháp mạnh mẽ để tích hợp liền mạch các phần tử này.
 
--  Khung âm thanh: Việc thêm âm thanh vào trang chiếu của bạn có thể cung cấp nhạc nền, tường thuật hoặc hiệu ứng âm thanh. hướng dẫn[Thêm Khung âm thanh trong PowerPoint](./add-audio-frame-powerpoint/) hướng dẫn bạn thực hiện quá trình này.
+-  Khung âm thanh: Việc thêm âm thanh vào trang chiếu của bạn có thể cung cấp nhạc nền, tường thuật hoặc hiệu ứng âm thanh. Hướng dẫn[Thêm Khung âm thanh trong PowerPoint](./add-audio-frame-powerpoint/) hướng dẫn bạn thực hiện quá trình này.
 - Khung video: Việc tích hợp nội dung video có thể nâng cao đáng kể tác động của bản trình bày của bạn. Tìm hiểu cách thêm video từ tệp của bạn bằng[Thêm khung video trong PowerPoint](./add-video-frame-powerpoint/) và từ các nguồn web có[Thêm khung hình video từ nguồn web trong PowerPoint](./add-video-frame-web-source-powerpoint/).
 
 ## Thao tác hình dạng và phương tiện nâng cao

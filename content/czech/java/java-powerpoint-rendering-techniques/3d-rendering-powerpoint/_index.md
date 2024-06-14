@@ -2,7 +2,7 @@
 title: 3D vykreslování v PowerPointu
 linktitle: 3D vykreslování v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Naučte se vytvářet úžasné 3D vykreslování v PowerPointu pomocí Aspose.Slides for Java. Pozvedněte své prezentace.
+description: Naučte se vytvářet úžasné 3D rendery v PowerPointu pomocí Aspose.Slides for Java. Pozvedněte své prezentace.
 type: docs
 weight: 11
 url: /cs/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
@@ -17,7 +17,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte následující
 Chcete-li začít, importujte potřebné balíčky do svého projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## Krok 4: Uložte prezentaci
 Po konfiguraci nastavení 3D uložte prezentaci:
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);

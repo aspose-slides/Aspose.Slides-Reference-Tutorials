@@ -84,7 +84,7 @@ Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'daki grafiklere ikin
 
 ### Pie of Pie grafiğindeki ikinci pastanın boyutunu nasıl değiştirebilirim?
 
- Pasta Pastası grafiğindeki ikinci pastanın boyutunu değiştirmek için`setSecondPieSize` Yukarıdaki kod örneğinde gösterildiği gibi yöntem. Boyutu yüzde cinsinden belirtmek için değeri ayarlayın.
+Pasta Pastası grafiğindeki ikinci pastanın boyutunu değiştirmek için`setSecondPieSize` Yukarıdaki kod örneğinde gösterildiği gibi yöntem. Boyutu yüzde cinsinden belirtmek için değeri ayarlayın.
 
 ###  Nedir`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'daki grafiklere ikin
 
 ### Pie of Pie grafiğinde bölünmenin konumunu nasıl ayarlarım?
 
-Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.
+ Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.

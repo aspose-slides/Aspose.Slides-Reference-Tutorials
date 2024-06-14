@@ -26,7 +26,7 @@ Zanim zaczniesz, upewnij się, że masz następujące elementy:
 import com.aspose.slides.*;
 ```
 
-## Krok 2: Podaj ścieżkę do katalogu dokumentów:
+## Krok 2: Określ ścieżkę do katalogu dokumentów:
 
 ```java
 String dataDir = "Your Document Directory";

@@ -20,13 +20,13 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Kodlama kısmına geçmeden önce gerekli paketleri import edelim.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Adım 1: Projeyi Kurma
-Başlamak için Java projenizi kurun ve Aspose.Slides for Java kütüphanesini projenizin bağımlılıklarına ekleyin. Maven kullanıyorsanız aşağıdaki bağımlılığı ekleyin:`pom.xml`:
+ Başlamak için Java projenizi kurun ve Aspose.Slides for Java kütüphanesini projenizin bağımlılıklarına ekleyin. Maven kullanıyorsanız aşağıdaki bağımlılığı ekleyin.`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

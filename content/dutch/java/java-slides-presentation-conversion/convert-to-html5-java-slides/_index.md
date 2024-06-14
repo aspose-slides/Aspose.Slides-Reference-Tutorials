@@ -74,7 +74,7 @@ try {
 // Het pad naar de documentenmap
 String dataDir = "Your Document Directory";
 // Het pad naar het uitvoerbestand
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Exporteer een presentatie met dia-overgangen, animaties en vormanimaties naar HTML5

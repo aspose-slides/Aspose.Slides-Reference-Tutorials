@@ -50,7 +50,7 @@ Aprenda como definir alvos de animação para formatos de slides de apresentaç�
 ### [Aplicando efeito de rotação 3D em formas em slides de apresentação com Aspose.Slides](./applying-3d-rotation-effect-shapes/)
 Aprenda como aplicar efeitos de rotação 3D cativantes a slides de apresentação usando Aspose.Slides for .NET. Guia passo a passo com código-fonte para um impacto visual impressionante.
 ### [Aplicando efeitos de chanfro a formas em slides de apresentação usando Aspose.Slides](./applying-bevel-effects-shapes/)
-Aplique efeitos de chanfro cativantes aos slides da apresentação usando a API Aspose.Slides. Aumente o apelo visual com guia passo a passo e código-fonte. Aprenda como implementar efeitos de bisel em apresentações dinâmicas.
+Aplique efeitos de chanfro cativantes aos slides da apresentação usando a API Aspose.Slides. Aumente o apelo visual com guia passo a passo e código-fonte. Aprenda como implementar efeitos de bisel para apresentações dinâmicas.
 ### [Alterando dados de objetos OLE em slides de apresentação com Aspose.Slides](./changing-ole-object-data/)
 Aprenda como alterar com eficiência dados de objetos OLE em slides de apresentação usando a API Aspose.Slides. Este guia passo a passo fornece exemplos de código e insights essenciais.
 ### [Alterando a ordem das formas nos slides da apresentação usando Aspose.Slides](./changing-order-shapes/)

@@ -169,4 +169,4 @@ Sie haben erfolgreich einzelne Folien einer PowerPoint-Präsentation mit Aspose.
 
 ### Wie gehe ich mit zusätzlicher Formatierung für Formen und Text in Folien um?
 
-Sie können die`CustomFormattingController` Klasse zur Handhabung formspezifischer Formatierungen durch Implementierung der`writeShapeStart` Und`writeShapeEnd` Methoden und Anwenden einer benutzerdefinierten Formatierungslogik darin.
+ Sie können die`CustomFormattingController` Klasse zur Handhabung formspezifischer Formatierungen durch Implementierung der`writeShapeStart` Und`writeShapeEnd` Methoden und Anwenden einer benutzerdefinierten Formatierungslogik darin.

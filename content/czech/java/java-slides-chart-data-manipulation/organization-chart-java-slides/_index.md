@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/organization-chart-java-slides/
 
 ## Úvod do vytváření organizačního diagramu v Java Slides pomocí Aspose.Slides
 
-V tomto tutoriálu si ukážeme, jak vytvořit organizační schéma v Java Slides pomocí Aspose.Slides for Java API. Organizační schéma je vizuální reprezentace hierarchické struktury organizace, která se obvykle používá k ilustraci vztahů a hierarchie mezi zaměstnanci nebo odděleními.
+V tomto tutoriálu si ukážeme, jak vytvořit organizační schéma v Java Slides pomocí Aspose.Slides for Java API. Organizační schéma je vizuální reprezentace hierarchické struktury organizace, obvykle se používá k ilustraci vztahů a hierarchie mezi zaměstnanci nebo odděleními.
 
 ## Předpoklady
 
@@ -22,7 +22,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 ## Krok 1: Nastavte svůj projekt Java
 
 1. Vytvořte nový Java projekt ve vámi preferovaném IDE.
-2.  Přidejte do projektu knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[Aspose webové stránky](https://products.aspose.com/slides/java) zahrnout ji jako závislost.
+2.  Přidejte do projektu knihovnu Aspose.Slides for Java. Knihovnu si můžete stáhnout z[Aspose webové stránky](https://products.aspose.com/slides/java) a zahrnout ji jako závislost.
 
 ## Krok 2: Importujte požadované knihovny
 Ve své třídě Java naimportujte potřebné knihovny pro práci s Aspose.Slides:
@@ -84,7 +84,7 @@ finally
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak vytvořit organizační schéma v Java Slides pomocí Aspose.Slides for Java API. Vzhled a obsah organizačního diagramu si můžete přizpůsobit podle svých specifických požadavků. Aspose.Slides poskytuje širokou škálu funkcí pro práci s PowerPoint prezentacemi, díky čemuž je výkonným nástrojem pro správu a vytváření vizuálního obsahu.
+tomto tutoriálu jste se naučili, jak vytvořit organizační schéma v Java Slides pomocí Aspose.Slides for Java API. Vzhled a obsah organizačního diagramu si můžete přizpůsobit podle svých specifických požadavků. Aspose.Slides poskytuje širokou škálu funkcí pro práci s PowerPoint prezentacemi, díky čemuž je výkonným nástrojem pro správu a vytváření vizuálního obsahu.
 
 ## FAQ
 

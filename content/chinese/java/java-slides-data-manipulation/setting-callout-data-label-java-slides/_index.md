@@ -54,7 +54,7 @@ while (categoryIndex < 15) {
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
         //在此处添加数据点
-        //...
+        // ...
         i++;
     }
     categoryIndex++;

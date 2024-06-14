@@ -35,7 +35,7 @@ import java.io.File;
 
 ## 2. lépés: Töltse be a PowerPoint-prezentációt
 
- Ezután töltse be a HTML-be konvertálni kívánt PowerPoint-prezentációt. Ügyeljen arra, hogy cserélje ki`presentationName` a prezentációs fájl tényleges elérési útjával.
+ Ezután töltse be a HTML-be konvertálni kívánt PowerPoint-prezentációt. Mindenképpen cserélje ki`presentationName` a prezentációs fájl tényleges elérési útjával.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -48,9 +48,9 @@ Most konfigurálja a HTML-konverziós beállításokat. Ebben a példában képe
 
 ```java
 Html5Options options = new Html5Options();
-// képek HTML5 dokumentumba történő mentésének kényszerítése
+// A képek HTML5 dokumentumba történő mentésének kényszerítése
 options.setEmbedImages(true); // Állítsa igazra a képek beágyazásához
-// Állítsa be a külső képek elérési útját (ha szükséges)
+//Állítsa be a külső képek elérési útját (ha szükséges)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Útvonal a forrás bemutatásához
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // HTML dokumentum elérési útja
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	// képek HTML5 dokumentumba történő mentésének kényszerítése
+	// A képek HTML5 dokumentumba történő mentésének kényszerítése
 	options.setEmbedImages(false);
 	// Állítsa be a külső képek elérési útját
 	options.setOutputPath(outFilePath);
@@ -110,7 +110,7 @@ try {
 
 ## Következtetés
 
-Ebben az átfogó útmutatóban megtanultuk, hogyan alakíthat át PowerPoint-prezentációt HTML-dokumentummá, miközben képeket ágyaz be az Aspose.Slides for Java használatával. A lépésenkénti utasítások követésével zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba, és javíthatja dokumentumkonverziós folyamatait.
+Ebben az átfogó útmutatóban megtanultuk, hogyan konvertálhat PowerPoint-prezentációt HTML-dokumentummá, miközben képeket ágyaz be az Aspose.Slides for Java használatával. A lépésenkénti utasítások követésével zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba, és javíthatja dokumentumkonverziós folyamatait.
 
 ## GYIK
 

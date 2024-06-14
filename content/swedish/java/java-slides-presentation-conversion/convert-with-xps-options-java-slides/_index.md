@@ -101,7 +101,7 @@ Grattis! Du har framgångsrikt lärt dig hur du konverterar PowerPoint-presentat
 
 ### Hur kan jag ladda ner Aspose.Slides för Java?
 
-Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[här](https://releases.aspose.com/slides/java/) för att komma åt nedladdningslänken.
+ Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[här](https://releases.aspose.com/slides/java/) för att komma åt nedladdningslänken.
 
 ### Finns det några licenskrav för att använda Aspose.Slides för Java?
 

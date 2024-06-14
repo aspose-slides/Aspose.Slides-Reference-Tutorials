@@ -21,7 +21,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد ملف العرض التقديمي
 ابدأ بتحديد المسار إلى ملف العرض التقديمي المصدر:

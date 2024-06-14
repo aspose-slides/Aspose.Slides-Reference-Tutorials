@@ -36,7 +36,7 @@ using Aspose.Slides.Comment;
 using System;
 ```
 
-Nu när vi har täckt förutsättningarna och importerat de nödvändiga namnrymden, låt oss dyka in i steg-för-steg-processen för att komma åt bildkommentarer med Aspose.Slides för .NET.
+Nu när vi har täckt förutsättningarna och importerat de nödvändiga namnrymden, låt oss dyka in i processen steg-för-steg för att komma åt bildkommentarer med Aspose.Slides för .NET.
 
 ## Steg 2: Ställ in dokumentkatalogen
 

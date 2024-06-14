@@ -8,7 +8,7 @@ weight: 12
 url: /hu/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
 ## Bevezetés
-A prezentációk hangelemekkel történő javítása jelentősen növelheti hatásukat és elkötelezettségüket. Az Aspose.Slides for Java segítségével a hangkeretek PowerPoint prezentációkba való integrálása zökkenőmentes folyamat lesz. Ez az oktatóanyag lépésről lépésre végigvezeti Önt az Aspose.Slides for Java segítségével hangkockák hozzáadásának folyamatán.
+A prezentációk hangelemekkel történő javítása jelentősen növelheti hatásukat és elköteleződésüket. Az Aspose.Slides for Java segítségével a hangkeretek PowerPoint-prezentációkba való integrálása zökkenőmentes folyamattá válik. Ez az oktatóanyag lépésről lépésre végigvezeti Önt az Aspose.Slides for Java segítségével hangkockák hozzáadásának folyamatán.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren.
@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 Importálja a szükséges csomagokat a Java projektbe:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -62,7 +62,7 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Következtetés
-Hangelemek beépítése PowerPoint prezentációiba fokozhatja azok hatékonyságát, és magával ragadhatja a közönséget. Az Aspose.Slides for Java segítségével a hangkockák hozzáadásának folyamata könnyed lesz, így könnyedén hozhat létre dinamikus és lebilincselő prezentációkat.
+Hangelemek beépítése PowerPoint prezentációiba fokozhatja azok hatékonyságát, és magával ragadhatja a közönséget. Az Aspose.Slides for Java segítségével a hangkockák hozzáadásának folyamata zökkenőmentessé válik, így könnyedén hozhat létre dinamikus és lebilincselő prezentációkat.
 
 ## GYIK
 ### Hozzáadhatok különböző formátumú hangfájlokat a prezentációmhoz?

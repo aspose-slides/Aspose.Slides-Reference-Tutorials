@@ -21,7 +21,7 @@ using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
 ## 第 1 步：設定您的文件目錄
-確保您有一個指定的文檔目錄。如果不存在，則建立一個：
+確保您有一個指定的文檔目錄。如果不存在，請建立一個：
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = System.IO.Directory.Exists(dataDir);

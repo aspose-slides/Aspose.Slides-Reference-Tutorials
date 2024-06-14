@@ -10,7 +10,7 @@ url: /ar/java/data-manipulation/set-gap-width-java-slides/
 
 ## مقدمة لإعداد عرض الفجوة في Aspose.Slides لـ Java
 
-في هذا البرنامج التعليمي، سنرشدك خلال عملية تعيين Gap Width لمخطط في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides لـ Java. يحدد Gap Width التباعد بين الأعمدة أو الأشرطة في المخطط، مما يسمح لك بالتحكم في المظهر المرئي للمخطط.
+في هذا البرنامج التعليمي، سنرشدك خلال عملية تعيين Gap Width للمخطط في عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ Java. يحدد Gap Width التباعد بين الأعمدة أو الأشرطة في المخطط، مما يسمح لك بالتحكم في المظهر المرئي للمخطط.
 
 ## المتطلبات الأساسية
 
@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // خذ سلسلة الرسم البياني الثانية
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//الآن ملء بيانات السلسلة
+// الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 بمجرد استنساخ الشريحة وإدراجها في الموضع المطلوب، ستحتاج إلى حفظ العرض التقديمي الوجهة المعدل. استخدم الكود التالي لحفظ العرض التقديمي:
 
 ```csharp
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // أدخل الشريحة المستنسخة في الموضع المحدد
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // احفظ العرض التقديمي المعدل
+            //احفظ العرض التقديمي المعدل
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

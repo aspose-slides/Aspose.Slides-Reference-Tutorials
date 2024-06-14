@@ -138,7 +138,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak vytvořit vícekategoriální graf na snímcích Java pomocí rozhraní Aspose.Slides for Java API. Prošli jsme krok za krokem průvodce se zdrojovým kódem, abychom vytvořili seskupený sloupcový graf s více kategoriemi a řadami.
+V tomto tutoriálu jsme se naučili, jak vytvořit vícekategoriální graf na snímcích Java pomocí rozhraní Aspose.Slides for Java API. Prošli jsme krok za krokem průvodce se zdrojovým kódem, abychom vytvořili seskupený sloupcový graf s více kategoriemi a řadami.
 
 ## FAQ
 

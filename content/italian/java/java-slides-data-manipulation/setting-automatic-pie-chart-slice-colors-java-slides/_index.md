@@ -33,7 +33,7 @@ import com.aspose.slides.charts.IChartDataWorkbook;
 
 ## Passaggio 2: crea una presentazione PowerPoint
 
- Istanziare il`Presentation` classe per creare una nuova presentazione di PowerPoint:
+ Istanziare il`Presentation` classe per creare una nuova presentazione PowerPoint:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Aggiunta di nuove serie
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//Ora popolano i dati delle serie
+	// Ora popolano i dati delle serie
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

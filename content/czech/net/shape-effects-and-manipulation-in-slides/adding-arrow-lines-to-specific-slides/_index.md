@@ -71,7 +71,7 @@ Na závěr, Aspose.Slides for .NET umožňuje vývojářům posunout jejich prez
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Slides?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Kde najdu podporu pro Aspose.Slides?
-A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+ A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
 ### Otázka: Jak získám dočasnou licenci pro Aspose.Slides?
  Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu zakoupit Aspose.Slides pro .NET?

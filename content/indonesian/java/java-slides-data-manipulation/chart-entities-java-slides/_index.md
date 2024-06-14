@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Mengatur format garis kisi kecil untuk sumbu Kategori
+// Mengatur format garis kisi kecil untuk sumbu Kategori
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Mengatur format garis kisi kecil untuk sumbu Kategori
+	// Mengatur format garis kisi kecil untuk sumbu Kategori
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// Tetapkan tampilkan legenda bagan tanpa bagan yang tumpang tindih
 	chart.getLegend().setOverlay(true);
 	// Merencanakan seri pertama pada sumbu nilai sekunder
-	//Bagan.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = benar;
+	// Bagan.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = benar;
 	// Mengatur bagan kembali warna dinding
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Mengatur warna area Plot
+	//Mengatur warna area Plot
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Simpan Presentasi

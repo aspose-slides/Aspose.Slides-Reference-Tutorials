@@ -36,9 +36,9 @@ Leer hoe u uw presentatiedia's kunt verbeteren door OLE-objectframes naadloos te
 ### [Gewone lijnen toevoegen aan presentatiedia's met Aspose.Slides](./adding-plain-lines/)
 Leer hoe u uw presentatiedia's kunt verbeteren door gewone lijnen toe te voegen met Aspose.Slides voor .NET. Volg deze uitgebreide handleiding met stapsgewijze instructies en broncodevoorbeelden.
 ### [Afbeeldingsframes met relatieve schaalhoogte toevoegen in Aspose.Slides](./adding-picture-frames-relative-scale/)
-Leer hoe u uw presentaties kunt verbeteren door afbeeldingsframes met relatieve schaalhoogte toe te voegen met behulp van Aspose.Slides voor .NET. Creëer moeiteloos visueel aantrekkelijke dia's.
+Leer hoe u uw presentaties kunt verbeteren door afbeeldingsframes met relatieve schaalhoogte toe te voegen met behulp van Aspose.Slides voor .NET. Maak moeiteloos visueel aantrekkelijke dia's.
 ### [Rekverschuiving toevoegen voor afbeeldingsinvulpresentatiedia's met Aspose.Slides](./adding-stretch-offset-image-fill/)
-Leer hoe u uw presentatiedia's kunt verbeteren met Aspose.Slides voor .NET. In deze stapsgewijze handleiding wordt uitgelegd hoe u rekverschuiving kunt toevoegen voor de opvulling van afbeeldingen, hoe u dynamische beelden kunt creëren en hoe u het ontwerp kunt optimaliseren.
+Leer hoe u uw presentatiedia's kunt verbeteren met Aspose.Slides voor .NET. In deze stapsgewijze handleiding wordt uitgelegd hoe u rekverschuiving kunt toevoegen voor de opvulling van afbeeldingen, hoe u dynamische beelden kunt maken en hoe u het ontwerp kunt optimaliseren.
 ### [Videoframes toevoegen aan presentatiedia's met Aspose.Slides](./adding-video-frames/)
 Leer hoe u uw presentaties kunt verbeteren door videoframes toe te voegen met Aspose.Slides voor .NET. Creëer naadloos boeiende en interactieve inhoud.
 ### [Videoframes van webbron toevoegen aan presentatiedia's met Aspose.Slides](./adding-video-frames-from-web-source/)

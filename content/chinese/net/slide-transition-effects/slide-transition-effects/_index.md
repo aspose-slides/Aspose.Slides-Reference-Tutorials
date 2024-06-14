@@ -2,7 +2,7 @@
 title: Aspose.Slides 中的幻灯片过渡效果
 linktitle: Aspose.Slides 中的幻灯片过渡效果
 second_title: Aspose.Slides .NET PowerPoint 处理 API
-description: 使用 Aspose.Slides for .NET 的迷人幻灯片过渡效果增强您的 PowerPoint 演示文稿。使用动态动画吸引观众！
+description: 使用 Aspose.Slides for .NET 的迷人幻灯片过渡效果增强您的 PowerPoint 演示文稿。通过动态动画吸引观众！
 type: docs
 weight: 10
 url: /zh/net/slide-transition-effects/slide-transition-effects/

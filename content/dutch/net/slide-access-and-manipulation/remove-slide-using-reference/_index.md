@@ -81,7 +81,7 @@ pres.Save(dataDir + "modified_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes geleerd hoe u een dia uit een PowerPoint-presentatie kunt verwijderen met Aspose.Slides voor .NET. Dit kan met name handig zijn als u uw presentaties programmatisch moet aanpassen.
+Gefeliciteerd! U hebt met succes geleerd hoe u een dia uit een PowerPoint-presentatie verwijdert met Aspose.Slides voor .NET. Dit kan met name handig zijn als u uw presentaties programmatisch moet aanpassen.
 
  Voor meer informatie en documentatie verwijzen wij u naar[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
 

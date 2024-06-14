@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/clear-specific-chart-series-data-points-ja
 
 ## Introduktion till Rensa specifika diagramseriedatapunktersdata i Java Slides
 
-I den här självstudien går vi igenom processen att rensa specifika datapunkter från en diagramserie i en PowerPoint-presentation med Aspose.Slides för Java. Detta kan vara användbart när du vill ta bort vissa datapunkter från ett diagram för att uppdatera eller ändra din datavisualisering.
+den här självstudien går vi igenom processen att rensa specifika datapunkter från en diagramserie i en PowerPoint-presentation med Aspose.Slides för Java. Detta kan vara användbart när du vill ta bort vissa datapunkter från ett diagram för att uppdatera eller ändra din datavisualisering.
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Denna kod går igenom varje datapunkt i den första serien (index 0) och ställer in både X- och Y-värden på`null`, effektivt rensa datapunkterna.
+ Denna kod går igenom varje datapunkt i den första serien (index 0) och ställer in både X- och Y-värden på`null`effektivt rensa datapunkterna.
 
 ## Steg 4: Ta bort rensade datapunkter
 
@@ -116,7 +116,7 @@ Ja, du kan rensa datapunkter baserat på ett villkor genom att lägga till villk
 
 ### Hur kan jag lägga till nya datapunkter i en diagramserie med Aspose.Slides för Java?
 
-För att lägga till nya datapunkter till en diagramserie kan du använda`addDataPoint` seriens metod. Skapa helt enkelt nya datapunkter och lägg till dem i serien med den här metoden.
+ För att lägga till nya datapunkter till en diagramserie kan du använda`addDataPoint` seriens metod. Skapa helt enkelt nya datapunkter och lägg till dem i serien med den här metoden.
 
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 

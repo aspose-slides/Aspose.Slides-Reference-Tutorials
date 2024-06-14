@@ -19,7 +19,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 Chcete-li začít, musíte do svého projektu Java importovat potřebné balíčky. Tyto importy poskytnou přístup k funkcím Aspose.Slides požadovaným pro tento výukový program.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Chceme, aby naše snímky byly vizuálně odlišné přidáním barev pozadí.
 ### Nastavení pozadí pro druhý snímek
 ```java
-    //Vytvořte pozadí pro druhý snímek
+    // Vytvořte pozadí pro druhý snímek
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

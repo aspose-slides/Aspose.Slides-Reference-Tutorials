@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides で効果的なライト リグ データをマスターする
-linktitle: プレゼンテーションスライドで効果的な照明リグデータを取得する
+linktitle: プレゼンテーションスライドで効果的なライトリグデータを取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーション スライドを強化しましょう。効果的なライト リグ データを段階的に取得する方法を学びます。今すぐビジュアル ストーリーテリングを向上させましょう。
 type: docs

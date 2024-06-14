@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ if (pres != null) pres.dispose();
 
 ### Πώς μπορώ να καθορίσω ένα διαφορετικό γράφημα ή διαφάνεια;
 
- Για πρόσβαση σε διαφορετικό γράφημα ή διαφάνεια, τροποποιήστε το κατάλληλο ευρετήριο στο`getSlides().get_Item()` και`getShapes().get_Item()` μεθόδους. Θυμηθείτε ότι η ευρετηρίαση ξεκινά από το 0.
+ Για πρόσβαση σε διαφορετικό γράφημα ή διαφάνεια, τροποποιήστε το κατάλληλο ευρετήριο στο`getSlides().get_Item()` και`getShapes().get_Item()`μεθόδους. Θυμηθείτε ότι η ευρετηρίαση ξεκινά από το 0.
 
 ### Μπορώ να επεξεργαστώ δεδομένα σε πολλά γραφήματα στην ίδια παρουσίαση;
 

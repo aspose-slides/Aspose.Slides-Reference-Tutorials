@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/add-animations-t
 首先，您需要匯入 Aspose.Slides 和其他所需 Java 類別所需的套件。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;

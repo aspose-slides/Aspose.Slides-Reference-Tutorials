@@ -114,7 +114,7 @@ Install-Package Aspose.Slides
 
 ### Kan ik de conformiteit van mijn presentatie vóór de conversie valideren?
 
-Ja, met Aspose.Slides kunt u vóór de conversie controleren of uw presentatie voldoet aan de PDF/A- en PDF/UA-standaarden. Dit zorgt ervoor dat uw outputdocumenten aan de gewenste normen voldoen.
+Ja, met Aspose.Slides kunt u vóór de conversie valideren of uw presentatie voldoet aan de PDF/A- en PDF/UA-standaarden. Dit zorgt ervoor dat uw outputdocumenten aan de gewenste normen voldoen.
 
 ### Zijn de broncodevoorbeelden compatibel met elk .NET-framework?
 
@@ -126,4 +126,4 @@ Om de toegankelijkheid van PDF/UA-documenten te garanderen, kunt u de functies v
 
 ### Is PDF/UA-compatibiliteit noodzakelijk voor alle documenten?
 
-Conformiteit met PDF/UA is vooral belangrijk voor documenten die bedoeld zijn om toegankelijk te zijn voor gebruikers met een beperking. De noodzaak van PDF/UA-compliance hangt echter af van de specifieke eisen van uw doelgroep.
+Conformiteit met PDF/UA is vooral belangrijk voor documenten die bedoeld zijn om toegankelijk te zijn voor gebruikers met een handicap. De noodzaak van PDF/UA-compliance hangt echter af van de specifieke eisen van uw doelgroep.

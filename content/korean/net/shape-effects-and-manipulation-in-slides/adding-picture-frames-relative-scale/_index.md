@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-rela
 ---
 ## 소개
 Aspose.Slides for .NET은 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 손쉽게 생성, 조작 및 변환할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 상대 배율 높이를 가진 사진 프레임을 추가하는 과정을 살펴보겠습니다. 프레젠테이션 작성 기술을 향상하려면 이 단계별 가이드를 따르세요.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 지식.
 - Visual Studio 또는 기타 기본 C# 개발 환경이 설치되어 있습니다.

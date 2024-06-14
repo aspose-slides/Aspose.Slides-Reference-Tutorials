@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Setelah Anda menambahkan efek animasi ke bagan Anda, simpan presentasi yang dimodifikasi ke disk.
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ if (pres != null) pres.dispose();
 
 ### ฉันจะระบุแผนภูมิหรือสไลด์อื่นได้อย่างไร
 
- หากต้องการเข้าถึงแผนภูมิหรือสไลด์อื่น ให้แก้ไขดัชนีที่เหมาะสมใน`getSlides().get_Item()` และ`getShapes().get_Item()` วิธีการ โปรดจำไว้ว่าการจัดทำดัชนีเริ่มต้นจาก 0
+ หากต้องการเข้าถึงแผนภูมิหรือสไลด์อื่น ให้แก้ไขดัชนีที่เหมาะสมใน`getSlides().get_Item()` และ`getShapes().get_Item()`วิธีการ โปรดจำไว้ว่าการจัดทำดัชนีเริ่มต้นจาก 0
 
 ### ฉันสามารถแก้ไขข้อมูลในหลายแผนภูมิภายในงานนำเสนอเดียวกันได้หรือไม่
 

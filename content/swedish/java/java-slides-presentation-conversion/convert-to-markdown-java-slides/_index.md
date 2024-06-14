@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Presentation av väg till källa
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Sökväg och mappnamn för att spara markdown-data
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Skapa alternativ för att skapa Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Ställ in parameter för att rendera alla objekt (objekt som är grupperade kommer att renderas tillsammans).
@@ -123,11 +123,11 @@ Du kan anpassa Markdown-utgången genom att justera exportalternativen. Du kan t
 
 ### Finns det några begränsningar för denna konverteringsprocess?
 
-Medan Aspose.Slides för Java ger robusta konverteringsmöjligheter, kan komplexa presentationer med invecklad formatering kräva ytterligare justeringar efter konvertering.
+Medan Aspose.Slides för Java tillhandahåller robusta konverteringsmöjligheter, kan komplexa presentationer med invecklad formatering kräva ytterligare justeringar efter konvertering.
 
 ### Kan jag konvertera Markdown tillbaka till ett presentationsformat?
 
-Nej, den här processen är enkelriktad. Det konverterar presentationer till Markdown för att skapa webbinnehåll.
+Nej, denna process är enkelriktad. Det konverterar presentationer till Markdown för att skapa webbinnehåll.
 
 ### Är Aspose.Slides för Java lämplig för storskaliga konverteringar?
 

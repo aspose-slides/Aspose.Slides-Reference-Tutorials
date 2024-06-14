@@ -75,7 +75,7 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 
 ### 1. Aspose.Slides for .NET を他のドキュメント形式で使用できますか?
 
-はい、Aspose.Slides for .NET は、PowerPoint プレゼンテーションだけでなく、さまざまなドキュメント形式をサポートしています。Word ドキュメント、Excel スプレッドシートなどを扱うことができます。
+はい、Aspose.Slides for .NET は、PowerPoint プレゼンテーションだけでなく、さまざまなドキュメント形式をサポートしています。Word ドキュメント、Excel スプレッドシートなどを操作できます。
 
 ### 2. 利用できるライセンス オプションはありますか?
 

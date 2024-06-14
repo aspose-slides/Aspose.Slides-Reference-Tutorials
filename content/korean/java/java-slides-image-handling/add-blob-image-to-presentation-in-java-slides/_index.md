@@ -12,7 +12,7 @@ url: /ko/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 
 이 종합 가이드에서는 Java 슬라이드를 사용하여 프레젠테이션에 Blob 이미지를 추가하는 방법을 살펴보겠습니다. Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하기 위한 강력한 기능을 제공합니다. 이 튜토리얼을 마치면 Blob 이미지를 프레젠테이션에 통합하는 방법을 명확하게 이해하게 될 것입니다. 뛰어들어보자!
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

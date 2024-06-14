@@ -73,7 +73,7 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 ```
 Gratulacje! Pomyślnie dodałeś przesunięcie rozciągania w lewo dla ramki obrazu przy użyciu Aspose.Slides dla .NET.
 ## Wniosek
-tym samouczku omówiliśmy proces manipulowania ramkami obrazów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, uzyskałeś wgląd w pracę z obrazami, kształtami i przesunięciami.
+W tym samouczku omówiliśmy proces manipulowania ramkami obrazów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, uzyskałeś wgląd w pracę z obrazami, kształtami i przesunięciami.
 ## Często Zadawane Pytania
 ### P: Czy mogę zastosować przesunięcia rozciągania do innych kształtów oprócz prostokątów?
 Odp.: Chociaż ten samouczek koncentruje się na prostokątach, przesunięcia rozciągania można zastosować do różnych kształtów obsługiwanych przez Aspose.Slides.

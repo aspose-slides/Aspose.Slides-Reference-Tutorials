@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 A kezdéshez importálja a szükséges csomagokat a Java projektbe. Győződjön meg róla, hogy tartalmazza az Aspose.Slides könyvtárat a PowerPoint funkciók eléréséhez.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Inicializálja a bemutató objektumot
 Kezdje egy bemutató objektum inicializálásával a PowerPoint fájl betöltéséhez.

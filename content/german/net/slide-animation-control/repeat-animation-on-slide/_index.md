@@ -54,7 +54,7 @@ pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Expor
 ```
 Wiederholen Sie diese Schritte für zusätzliche Effekte oder passen Sie sie entsprechend Ihren Präsentationsanforderungen an.
 ## Abschluss
-Mit Aspose.Slides für .NET war es noch nie so einfach, dynamische Animationen in Ihre PowerPoint-Präsentationen einzubinden. Diese Schritt-für-Schritt-Anleitung vermittelt Ihnen das Wissen, wie Sie Animationsarten steuern können, damit Ihre Folien bei Ihrem Publikum einen bleibenden Eindruck hinterlassen.
+Mit Aspose.Slides für .NET war es noch nie so einfach, dynamische Animationen in Ihre PowerPoint-Präsentationen einzubinden. Diese Schritt-für-Schritt-Anleitung vermittelt Ihnen das Wissen, wie Sie Animationsarten steuern und sicherstellen, dass Ihre Folien bei Ihrem Publikum einen bleibenden Eindruck hinterlassen.
 ## Häufig gestellte Fragen
 ### Kann ich diese Animationen auf bestimmte Objekte innerhalb einer Folie anwenden?
 Ja, Sie können bestimmte Objekte anvisieren, indem Sie innerhalb der Sequenz auf ihre einzelnen Effekte zugreifen.

@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //เส้นทางสำหรับการนำเสนอแหล่งที่มา
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // ตรวจสอบรหัสผ่านการป้องกันการเขียนผ่านอินเทอร์เฟซ IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

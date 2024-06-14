@@ -21,7 +21,7 @@ Först till kvarn, låt oss importera de nödvändiga paketen. Dessa paket är v
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Låt oss nu dela upp processen att klona en bild från en presentation och lägga till den till en annan i enkla, lättsmälta steg.
@@ -29,7 +29,7 @@ Låt oss nu dela upp processen att klona en bild från en presentation och lägg
  Till att börja med måste vi ladda källpresentationen från vilken vi vill klona en bild. Detta görs med hjälp av`Presentation` klass som tillhandahålls av Aspose.Slides.
 ```java
 // Sökvägen till dokumentkatalogen.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instantiera presentationsklassen för att ladda källpresentationsfilen
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

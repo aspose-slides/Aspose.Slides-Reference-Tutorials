@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -46,7 +46,7 @@ IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(
 ```java
 videoFrame.setPlayMode(VideoPlayModePreset.Auto);
 ```
-## Шаг 4. Загрузите миниатюру
+## Шаг 4. Загрузите миниатюру
 Чтобы повысить визуальную привлекательность, мы загрузим миниатюру видео. Этот шаг включает получение миниатюры изображения из веб-источника:
 ```java
 String thumbnailUri = "https://www.youtube.com/watch?v=VIDEO_ID";

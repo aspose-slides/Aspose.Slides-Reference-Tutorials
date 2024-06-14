@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-imag
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 시각적 요소는 청중의 관심을 사로잡는 데 중추적인 역할을 합니다. .NET용 Aspose.Slides는 강력한 기능 세트를 제공하여 개발자가 PowerPoint 프레젠테이션을 향상시킬 수 있도록 지원합니다. 이러한 기능 중 하나는 이미지 채우기를 위한 스트레치 오프셋을 추가하여 창의적이고 시각적으로 매력적인 슬라이드를 만드는 기능입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 2. 개발 환경: 작동하는 .NET 개발 환경이 설정되어 있는지 확인하세요.
@@ -68,6 +68,6 @@ Aspose.Slides for .NET을 사용하면 PowerPoint 프레젠테이션을 그 어�
 ### .NET용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 합니까?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.
 ### .NET용 Aspose.Slides에 대한 전체 문서는 어디에서 찾을 수 있나요?
- 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 정보를 보려면.
+ 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
 ### .NET용 Aspose.Slides를 구입할 수 있나요?
  네, 해당 제품을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).

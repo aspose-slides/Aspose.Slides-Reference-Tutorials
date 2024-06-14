@@ -11,7 +11,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Создание визуально привлекательных презентаций имеет решающее значение для привлечения и удержания внимания вашей аудитории. Добавление эффектов скоса к фигурам может улучшить общую эстетику ваших слайдов, делая вашу презентацию заметной. В этом уроке мы познакомим вас с процессом применения эффектов скоса к фигурам в PowerPoint с помощью Aspose.Slides для Java. Являетесь ли вы разработчиком, желающим автоматизировать создание презентаций, или просто любителем дизайна, это руководство поможет вам.
 ## Предварительные условия
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
--  Комплект разработки Java (JDK): убедитесь, что у вас установлен JDK. Вы можете скачать его с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Комплект разработки Java (JDK): убедитесь, что у вас установлен JDK. Вы можете скачать его с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides для библиотеки Java: загрузите библиотеку с сайта[Aspose.Слайды для Java](https://releases.aspose.com/slides/java/).
 - IDE (интегрированная среда разработки). Используйте любую IDE по вашему выбору, например IntelliJ IDEA, Eclipse или NetBeans.
 -  Лицензия Aspose. Чтобы использовать Aspose.Slides без ограничений, получите лицензию на сайте Aspose.Slides.[Aspose покупка](https://purchase.aspose.com/buy) или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Сначала вам необходимо импортировать необходимые пакеты для работы с Aspose.Slides в ваш Java-проект. Вот как вы можете это сделать:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Шаг 1. Настройте свой проект

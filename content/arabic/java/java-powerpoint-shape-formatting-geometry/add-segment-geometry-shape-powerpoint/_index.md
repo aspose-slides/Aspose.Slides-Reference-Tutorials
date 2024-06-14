@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 أول الأشياء أولاً، تحتاج إلى استيراد الحزم الضرورية من Aspose.Slides. سيسمح لك هذا بالوصول إلى جميع الوظائف المطلوبة لإنشاء عروض PowerPoint التقديمية ومعالجتها.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 دعونا نقسم عملية إضافة الأجزاء إلى الأشكال الهندسية إلى خطوات تفصيلية لضمان الوضوح وسهولة الفهم.
 ## الخطوة 1: إنشاء عرض تقديمي جديد

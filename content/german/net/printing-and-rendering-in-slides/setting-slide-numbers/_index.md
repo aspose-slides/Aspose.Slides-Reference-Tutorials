@@ -8,7 +8,7 @@ weight: 16
 url: /de/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
 ## Einführung
-In der dynamischen Welt der Präsentationen ist die Kontrolle der Reihenfolge und Anordnung der Folien für eine effektive Kommunikation von entscheidender Bedeutung. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zum Bearbeiten der Foliennummern in Ihren Präsentationen und gibt Ihnen die Flexibilität, Ihren Inhalt nahtlos anzupassen.
+In der dynamischen Welt der Präsentationen ist die Kontrolle der Reihenfolge und Anordnung der Folien für eine effektive Kommunikation von entscheidender Bedeutung. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zur Manipulation der Foliennummern in Ihren Präsentationen und gibt Ihnen die Flexibilität, Ihren Inhalt nahtlos anzupassen.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 -  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/net/).

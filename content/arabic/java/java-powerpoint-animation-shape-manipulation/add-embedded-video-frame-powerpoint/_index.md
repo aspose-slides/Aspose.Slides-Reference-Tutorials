@@ -16,10 +16,10 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 3. بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse للحصول على تجربة تطوير أفضل.
 4. ملف الفيديو: لديك ملف فيديو تريد تضمينه في عرض PowerPoint التقديمي الخاص بك.
 ## حزم الاستيراد
-أولاً، ستحتاج إلى استيراد الحزم اللازمة للعمل مع Aspose.Slides. ستساعدك هذه الواردات في إدارة الشرائح ومقاطع الفيديو وملفات العروض التقديمية.
+أولاً، ستحتاج إلى استيراد الحزم اللازمة للعمل مع Aspose.Slides. ستساعدك عمليات الاستيراد هذه على إدارة الشرائح ومقاطع الفيديو وملفات العروض التقديمية.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

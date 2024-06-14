@@ -74,7 +74,7 @@ try {
 // A dokumentumok könyvtárának elérési útja
 String dataDir = "Your Document Directory";
 // A kimeneti fájl elérési útja
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Diaátmeneteket, animációkat és alakzat-animációkat tartalmazó prezentáció exportálása HTML5-be
@@ -90,7 +90,7 @@ try {
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat PowerPoint prezentációt HTML5 formátumba az Aspose.Slides for Java segítségével. Áttekintettük a könyvtár importálásának, a prezentáció betöltésének, a konverziós beállítások konfigurálásának és az átalakításnak a lépéseit. Az Aspose.Slides hatékony funkciókat kínál a PowerPoint-prezentációkkal programozottan történő munkavégzéshez, így értékes eszközzé teszi a fejlesztők számára, akik Java nyelvű prezentációkkal dolgoznak.
+Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat PowerPoint prezentációt HTML5 formátumba az Aspose.Slides for Java segítségével. Áttekintettük a könyvtár importálásának, a prezentáció betöltésének, a konverziós beállítások konfigurálásának és az átalakításnak a lépéseit. Az Aspose.Slides hatékony funkciókat kínál a PowerPoint-prezentációk programozott használatához, így értékes eszköz a Java prezentációkkal dolgozó fejlesztők számára.
 
 ## GYIK
 

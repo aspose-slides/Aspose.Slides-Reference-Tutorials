@@ -12,14 +12,14 @@ Apakah Anda ingin memanipulasi bentuk dalam presentasi PowerPoint Anda menggunak
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Unduh pustaka Aspose.Slides for Java dari[Di Sini](https://releases.aspose.com/slides/java/).
-3. Lingkungan Pengembangan Terintegrasi (IDE): Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Java Anda.
+2.  Aspose.Slides for Java: Unduh pustaka Aspose.Slides for Java dari[Di Sini](https://releases.aspose.com/slides/java/).
+3. Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Java Anda.
 4. Pengetahuan Dasar Java: Pemahaman dasar pemrograman Java akan membantu Anda mengikuti tutorial ini.
 ## Paket Impor
 Untuk memulai, kita perlu mengimpor paket yang diperlukan dari perpustakaan Aspose.Slides. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Mari kita uraikan proses menghilangkan segmen dari bentuk geometri di slide PowerPoint menjadi beberapa langkah.
 ## Langkah 1: Buat Presentasi Baru
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Langkah 6: Simpan Presentasi
 Terakhir, simpan presentasi yang dimodifikasi ke file.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Langkah 7: Bersihkan Sumber Daya

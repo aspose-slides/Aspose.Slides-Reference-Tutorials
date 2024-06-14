@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation(dataDir + "Convert_HTML.pptx
 
 ## 5. एक उत्तरदायी HTML नियंत्रक बनाना
 
- इसके बाद, एक बनाएं`ResponsiveHtmlController` ऑब्जेक्ट। यह नियंत्रक आपको HTML आउटपुट को प्रभावी ढंग से प्रारूपित करने में मदद करेगा।
+ इसके बाद, एक बनाएं`ResponsiveHtmlController` यह नियंत्रक आपको HTML आउटपुट को प्रभावी ढंग से प्रारूपित करने में मदद करेगा।
 
 ## 6. HTML विकल्प कॉन्फ़िगर करना
 

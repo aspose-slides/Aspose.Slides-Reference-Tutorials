@@ -21,7 +21,7 @@ In deze zelfstudie onderzoeken we hoe u met grafiekgegevenscelformules kunt werk
 Laten we eerst een nieuwe PowerPoint-presentatie maken en er een diagram aan toevoegen.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Volledige broncode voor diagramgegevenscelformules in Java-dia's
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

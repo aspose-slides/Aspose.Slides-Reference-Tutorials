@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/font-properties-individual-legend-jav
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드의 개별 범례에 대한 글꼴 속성을 설정하는 방법을 살펴보겠습니다. 글꼴 속성을 사용자 정의하면 PowerPoint 프레젠테이션에서 범례를 시각적으로 더욱 매력적이고 유익하게 만들 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides for Java 라이브러리가 프로젝트에 통합되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
 

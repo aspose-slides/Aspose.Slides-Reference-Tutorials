@@ -21,7 +21,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpo
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Шаг 1. Создайте каталог проекта.
@@ -58,7 +58,7 @@ public static IShape findShape(ISlide slide, String alttext) {
     return null;
 }
 ```
-## Шаг 6: Выполните логику поиска формы
+## Шаг 6. Выполните логику поиска формы
 Вызовите созданный вами метод, чтобы найти фигуру, и выведите ее имя, если оно найдено.
 ```java
 IShape shape = findShape(slide, altText);
@@ -72,7 +72,7 @@ if (shape != null) {
 if (p != null) p.dispose();
 ```
 ## Заключение
-И вот оно! Теперь вы узнали, как найти фигуру на слайде PowerPoint с помощью Aspose.Slides для Java. Выполнив эти шаги, вы сможете автоматизировать утомительную задачу поиска фигур в презентациях, сэкономив время и усилия.
+И вот оно! Теперь вы узнали, как найти фигуру на слайде PowerPoint с помощью Aspose.Slides для Java. Выполнив эти шаги, вы сможете автоматизировать утомительную задачу поиска фигур в презентациях, сэкономив время и силы.
 ## Часто задаваемые вопросы
 ### Что такое Aspose.Slides для Java?
 Aspose.Slides for Java — это мощная библиотека, которая позволяет разработчикам программно создавать, изменять и манипулировать презентациями PowerPoint.

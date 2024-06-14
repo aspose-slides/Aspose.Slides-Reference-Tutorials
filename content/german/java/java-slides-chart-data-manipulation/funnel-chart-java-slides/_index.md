@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Fügen Sie der ersten Folie bei den Koordinaten (50, 50) mit den Dimensionen (500, 400) ein Trichterdiagramm hinzu.
+    //Fügen Sie der ersten Folie bei den Koordinaten (50, 50) mit den Dimensionen (500, 400) ein Trichterdiagramm hinzu.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ Das ist es! Sie haben erfolgreich ein Trichterdiagramm mit Aspose.Slides für Ja
 ```
 ## Abschluss
 
-In dieser Schritt-für-Schritt-Anleitung haben wir gezeigt, wie Sie mit Aspose.Slides für Java ein Trichterdiagramm in einer PowerPoint-Präsentation erstellen. Trichterdiagramme sind ein wertvolles Werkzeug zur Visualisierung von Daten, die einem fortschreitenden oder sich verengenden Muster folgen, wodurch sich Informationen einfach und effektiv vermitteln lassen. 
+In dieser Schritt-für-Schritt-Anleitung haben wir gezeigt, wie man mit Aspose.Slides für Java ein Trichterdiagramm in einer PowerPoint-Präsentation erstellt. Trichterdiagramme sind ein wertvolles Werkzeug zur Visualisierung von Daten, die einem fortschreitenden oder sich verengenden Muster folgen, wodurch es einfach ist, Informationen effektiv zu vermitteln. 
 
 ## Häufig gestellte Fragen
 
@@ -136,4 +136,4 @@ Sie können die Position und Größe des Trichterdiagramms anpassen, indem Sie d
 
 ### Kann ich das Diagramm in andere Formate wie PDF oder Bild exportieren?
 
- Ja, Aspose.Slides für Java ermöglicht es Ihnen, die Präsentation mit dem Trichterdiagramm in verschiedene Formate zu exportieren, darunter PDF, Bildformate und mehr. Sie können das`SaveFormat` Optionen zum Angeben des gewünschten Ausgabeformats beim Speichern der Präsentation.
+Ja, Aspose.Slides für Java ermöglicht es Ihnen, die Präsentation mit dem Trichterdiagramm in verschiedene Formate zu exportieren, darunter PDF, Bildformate und mehr. Sie können das`SaveFormat` Optionen zum Angeben des gewünschten Ausgabeformats beim Speichern der Präsentation.

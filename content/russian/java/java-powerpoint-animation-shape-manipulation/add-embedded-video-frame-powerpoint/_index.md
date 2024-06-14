@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 Сначала вам необходимо импортировать необходимые пакеты для работы с Aspose.Slides. Этот импорт поможет вам управлять слайдами, видео и файлами презентаций.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -68,7 +68,7 @@ vf.setEmbeddedVideo(vid);
 vf.setPlayMode(VideoPlayModePreset.Auto);
 vf.setVolume(AudioVolumeMode.Loud);
 ```
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 Сохраните презентацию со встроенным видео в указанную вами директорию.
 ```java
 // Запишите файл PPTX на диск.

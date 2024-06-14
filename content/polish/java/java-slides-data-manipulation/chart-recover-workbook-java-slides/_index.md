@@ -96,7 +96,7 @@ tym przewodniku omówiliśmy proces odzyskiwania skoroszytu z wykresu w Java Sli
 
 ### Czy mogę odzyskać dane ze skoroszytu z dowolnego wykresu w prezentacji programu PowerPoint?
 
-Tak, możesz odzyskać dane ze skoroszytu z dowolnego wykresu w prezentacji programu PowerPoint, jeśli masz bibliotekę Aspose.Slides for Java, a wykres jest dostępny w prezentacji. Dostarczony fragment kodu pokazuje, jak to osiągnąć.
+Tak, możesz odzyskać dane skoroszytu z dowolnego wykresu w prezentacji programu PowerPoint, jeśli masz bibliotekę Aspose.Slides for Java, a wykres jest dostępny w prezentacji. Dostarczony fragment kodu pokazuje, jak to osiągnąć.
 
 ### Czy są jakieś dodatkowe opcje pracy z danymi wykresów przy użyciu Aspose.Slides for Java?
 

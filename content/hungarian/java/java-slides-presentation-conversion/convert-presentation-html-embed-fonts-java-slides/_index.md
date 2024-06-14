@@ -10,14 +10,14 @@ url: /hu/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Bevezetés a prezentáció konvertálásába HTML-be az összes betűtípus beágyazásával a Java Slides-be
 
-A mai digitális korban a prezentációk HTML-be konvertálása elengedhetetlenné vált az információk zökkenőmentes megosztásához a különböző platformokon. A Java Slides használatakor kulcsfontosságú annak biztosítása, hogy a prezentációban használt összes betűtípus be legyen ágyazva a konzisztens formázás érdekében. Ebben a lépésenkénti útmutatóban végigvezetjük a prezentáció HTML formátumba konvertálásának folyamatán, miközben az összes betűtípust beágyazza az Aspose.Slides for Java használatával. Kezdjük el!
+mai digitális korban a prezentációk HTML-be konvertálása elengedhetetlenné vált az információk zökkenőmentes megosztásához a különböző platformokon. A Java Slides használatakor kulcsfontosságú annak biztosítása, hogy a prezentációban használt összes betűtípus be legyen ágyazva a konzisztens formázás érdekében. Ebben a lépésenkénti útmutatóban végigvezetjük a prezentáció HTML formátumba konvertálásának folyamatán, miközben az összes betűtípust beágyazza az Aspose.Slides for Java használatával. Kezdjük el!
 
 ## Előfeltételek
 
 Mielőtt belemerülnénk a kódba és az átalakítási folyamatba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java Development Kit (JDK) telepítve a rendszerére.
-- Aspose.Slides for Java API, amelyről letölthető[itt](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API, amelyről letölthető[itt](https://releases.aspose.com/slides/java/).
 -  Egy prezentációs fájl (pl.`presentation.pptx`), amelyet HTML-be szeretne konvertálni.
 
 ## 1. lépés: A Java környezet beállítása
@@ -26,7 +26,7 @@ Győződjön meg arról, hogy a Java és az Aspose.Slides for Java API megfelel�
 
 ## 2. lépés: A prezentációs fájl betöltése
 
- A Java kódban be kell töltenie a konvertálni kívánt prezentációs fájlt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
+ Java kódban be kell töltenie a konvertálni kívánt prezentációs fájlt. Cserélje ki`"Your Document Directory"` a prezentációs fájl tényleges elérési útjával.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -85,7 +85,7 @@ finally
 
 ## Következtetés
 
-A prezentációk HTML formátumba konvertálása beágyazott betűtípusokkal kulcsfontosságú a konzisztens formázás fenntartásához a különböző platformokon. Az Aspose.Slides for Java segítségével ez a folyamat egyszerűvé és hatékonysá válik. Mostantól megoszthatja prezentációit HTML formátumban anélkül, hogy aggódnia kellene a hiányzó betűtípusok miatt.
+prezentációk HTML formátumba konvertálása beágyazott betűtípusokkal kulcsfontosságú a konzisztens formázás fenntartásához a különböző platformokon. Az Aspose.Slides for Java segítségével ez a folyamat egyszerűvé és hatékonysá válik. Mostantól megoszthatja prezentációit HTML formátumban anélkül, hogy aggódnia kellene a hiányzó betűtípusok miatt.
 
 ## GYIK
 
@@ -95,7 +95,7 @@ Megnézheti a HTML-fájl forráskódját, és megkeresheti a betűtípus-hivatko
 
 ### Testreszabhatom a HTML-kimenetet, például a stílust és az elrendezést?
 
- Igen, testreszabhatja a HTML-kimenetet a`HtmlOptions`és a formázáshoz használt HTML sablon. Az Aspose.Slides for Java rugalmasságot biztosít ebben a tekintetben.
+ Igen, testreszabhatja a HTML-kimenetet a`HtmlOptions` és a formázáshoz használt HTML-sablon. Az Aspose.Slides for Java rugalmasságot biztosít ebben a tekintetben.
 
 ### Vannak korlátozások a betűtípusok HTML-be ágyazásakor?
 

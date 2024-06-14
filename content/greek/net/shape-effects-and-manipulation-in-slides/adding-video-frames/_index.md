@@ -48,7 +48,7 @@ vf.PlayMode = VideoPlayModePreset.Auto;
 vf.Volume = AudioVolumeMode.Loud;
 ```
 Μη διστάσετε να προσαρμόσετε αυτές τις ρυθμίσεις με βάση τις απαιτήσεις παρουσίασής σας.
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Αποθηκεύστε την τροποποιημένη παρουσίαση στο δίσκο:
 ```csharp
 pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);

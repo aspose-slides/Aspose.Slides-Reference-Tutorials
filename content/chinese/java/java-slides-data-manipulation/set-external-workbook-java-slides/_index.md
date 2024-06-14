@@ -10,7 +10,7 @@ url: /zh/java/data-manipulation/set-external-workbook-java-slides/
 
 ## Java 幻灯片中设置外部工作簿的简介
 
-在本教程中，我们将探讨如何使用 Aspose.Slides 在 Java Slides 中设置外部工作簿。您将学习如何创建带有引用外部 Excel 工作簿数据的图表的 PowerPoint 演示文稿。在本指南结束时，您将清楚地了解如何将外部数据集成到 Java Slides 演示文稿中。
+在本教程中，我们将探索如何使用 Aspose.Slides 在 Java Slides 中设置外部工作簿。您将学习如何创建带有引用外部 Excel 工作簿数据的图表的 PowerPoint 演示文稿。在本指南结束时，您将清楚地了解如何将外部数据集成到 Java Slides 演示文稿中。
 
 ## 先决条件
 
@@ -46,7 +46,7 @@ chartData.setExternalWorkbook(dataDir + "externalWorkbook.xlsx");
 
 要访问外部工作簿，我们使用`setExternalWorkbook`方法并提供包含数据的 Excel 工作簿的路径。
 
-## 步骤 4：绑定图表数据
+## 步骤4：绑定图表数据
 
 ```java
 chartData.getSeries().add(chartData.getChartDataWorkbook().getCell(0, "B1"), ChartType.Pie);

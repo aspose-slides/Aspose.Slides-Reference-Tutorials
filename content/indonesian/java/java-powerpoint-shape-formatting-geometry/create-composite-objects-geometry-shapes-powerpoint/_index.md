@@ -19,12 +19,12 @@ Sebelum kita beralih ke kode, ada beberapa hal yang Anda perlukan:
 Hal pertama yang pertama, mari impor paket yang diperlukan untuk memulai Aspose.Slides untuk Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Membuat objek gabungan mungkin terdengar rumit, namun dengan memecahnya menjadi langkah-langkah yang dapat dikelola, Anda akan mendapati bahwa hal itu lebih mudah dari yang Anda kira. Kita akan membuat presentasi PowerPoint, menambahkan bentuk, lalu menentukan dan menerapkan beberapa jalur geometri untuk membentuk bentuk gabungan.
 ## Langkah 1: Siapkan Proyek Anda
-Sebelum Anda menulis kode apa pun, siapkan proyek Java Anda. Buat proyek baru di IDE Anda dan sertakan Aspose.Slides untuk Java. Anda dapat menambahkan perpustakaan menggunakan Maven atau mengunduh file JAR dari[Halaman unduh Aspose.Slide](https://releases.aspose.com/slides/java/).
+ Sebelum Anda menulis kode apa pun, siapkan proyek Java Anda. Buat proyek baru di IDE Anda dan sertakan Aspose.Slides untuk Java. Anda dapat menambahkan perpustakaan menggunakan Maven atau mengunduh file JAR dari[Halaman unduh Aspose.Slide](https://releases.aspose.com/slides/java/).
 ### Menambahkan Aspose.Slide ke Proyek Anda Menggunakan Maven
  Jika Anda menggunakan Maven, tambahkan ketergantungan berikut ke file Anda`pom.xml` mengajukan:
 ```xml
@@ -35,10 +35,10 @@ Sebelum Anda menulis kode apa pun, siapkan proyek Java Anda. Buat proyek baru di
 </dependency>
 ```
 ## Langkah 2: Inisialisasi Presentasi
- Sekarang, mari buat presentasi PowerPoint baru. Kita akan mulai dengan menginisialisasi`Presentation` kelas.
+Sekarang, mari buat presentasi PowerPoint baru. Kita akan mulai dengan menginisialisasi`Presentation` kelas.
 ```java
 // Nama file keluaran
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Langkah 3: Buat Bentuk Baru
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Langkah 7: Simpan Presentasi
 Terakhir, simpan presentasi Anda ke sebuah file.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Langkah 8: Bersihkan Sumber Daya

@@ -55,7 +55,7 @@ using (Presentation presentation = new Presentation(presentationName))
 }
 ```
 
- इस कोड स्निपेट में, प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और`"YourPresentation.pptx"` अपने पावरपॉइंट प्रेजेंटेशन के नाम के साथ.
+ इस कोड स्निपेट में, प्रतिस्थापित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ और`"YourPresentation.pptx"` अपने पावरपॉइंट प्रेजेंटेशन के नाम के साथ।
 
 ### चरण 3: PDF विकल्प कॉन्फ़िगर करें
 

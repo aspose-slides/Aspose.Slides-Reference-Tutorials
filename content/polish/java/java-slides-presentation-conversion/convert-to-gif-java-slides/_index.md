@@ -71,7 +71,7 @@ to wszystko! Pomyślnie przekonwertowałeś prezentację programu PowerPoint na 
 // Ścieżka do katalogu dokumentów
 String dataDir = "Your Document Directory";
 // Ścieżka do pliku wyjściowego
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Utwórz instancję obiektu Prezentacja reprezentującego plik prezentacji
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

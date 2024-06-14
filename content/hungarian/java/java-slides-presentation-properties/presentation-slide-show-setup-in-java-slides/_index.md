@@ -21,7 +21,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be bemutató diavetí
 Először is létre kell hoznunk egy új PowerPoint bemutatót. Java-ban a következőképpen teheti meg:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Teljes forráskód a bemutató diavetítés beállításához a Java Slides-ben
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Lekéri a diavetítés beállításait
@@ -133,7 +133,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan állíthat be bemutató diavetíté
 
 ### Hogyan adhatok hozzá adott diákat a diavetítéshez?
 
- Ha konkrét diákat szeretne bevonni a diavetítésbe, hozzon létre a`SlidesRange` objektumot, és állítsa be a dia kezdő és záró számát a gombbal`setStart` és`setEnd` mód. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a segítségével`slideShow.setSlides(slidesRange)`.
+ Ha konkrét diákat szeretne bevonni a diavetítésbe, hozzon létre a`SlidesRange` objektumot, és állítsa be a dia kezdő és záró számát a segítségével`setStart` és`setEnd` mód. Ezután rendelje hozzá ezt a tartományt a diavetítés beállításaihoz a segítségével`slideShow.setSlides(slidesRange)`.
 
 ### Hozzáadhatok több diát a prezentációhoz?
 

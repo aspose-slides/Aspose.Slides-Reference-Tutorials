@@ -89,7 +89,7 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 
  نعم، التراخيص المؤقتة متاحة لراحتك. العثور على مزيد من المعلومات[هنا](https://purchase.aspose.com/temporary-license/).
 
-### 5. أين يمكنني طلب الدعم إذا واجهت مشاكل؟
+### 5. أين يمكنني طلب الدعم إذا واجهت مشكلات؟
 
  بالنسبة لأية استفسارات فنية أو متعلقة بالاستخدام، يمكنك زيارة منتدى مجتمع Aspose للحصول على الدعم[هنا](https://forum.aspose.com/).
 

@@ -20,7 +20,7 @@ Sebelum kita mendalami kodenya, ada beberapa prasyarat yang perlu Anda miliki:
 Untuk mulai menggunakan Aspose.Slides untuk Java, Anda perlu mengimpor paket yang diperlukan. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Langkah 1: Siapkan Proyek Anda
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Langkah 5: Atur Tipe Isian menjadi Padat
  Untuk mengisi bentuk dengan warna solid, atur tipe isian menjadi`Solid`.
 ```java
-//Atur jenis isian ke Solid
+// Atur jenis isian ke Solid
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Langkah 6: Pilih dan Terapkan Warna
 Pilih warna untuk bentuknya. Di sini, kami menggunakan warna kuning, tetapi Anda dapat memilih warna apa pun yang Anda suka.
 ```java
-// Atur warna persegi panjang
+//Atur warna persegi panjang
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Langkah 7: Simpan Presentasi
@@ -73,7 +73,7 @@ presentation.save(dataDir + "RectShpSolid_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Kesimpulan
-Dan itu dia! Anda telah berhasil mengisi bentuk dengan warna solid dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Perpustakaan ini menawarkan serangkaian fitur canggih yang dapat membantu Anda mengotomatiskan dan menyesuaikan presentasi Anda dengan mudah. Baik Anda membuat laporan, membuat materi pendidikan, atau mendesain slide bisnis, Aspose.Slides untuk Java dapat menjadi alat yang sangat berharga.
+Dan itu dia! Anda telah berhasil mengisi bentuk dengan warna solid dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Perpustakaan ini menawarkan serangkaian fitur canggih yang dapat membantu Anda mengotomatisasi dan menyesuaikan presentasi Anda dengan mudah. Baik Anda membuat laporan, membuat materi pendidikan, atau mendesain slide bisnis, Aspose.Slides untuk Java dapat menjadi alat yang sangat berharga.
 ## FAQ
 ### Apa itu Aspose.Slide untuk Java?
 Aspose.Slides for Java adalah perpustakaan yang kuat untuk bekerja dengan presentasi PowerPoint di Java. Ini memungkinkan Anda membuat, memodifikasi, dan mengonversi presentasi secara terprogram.
@@ -84,4 +84,4 @@ Ya, Aspose.Slides untuk Java memungkinkan Anda membuka, mengedit, dan menyimpan 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides untuk Java?
  Ya, Anda dapat mengunduh uji coba gratis dari[Asumsikan situs web](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan dukungan?
- Dokumentasi terperinci tersedia di[Asumsikan situs web](https://reference.aspose.com/slides/java/) , dan Anda dapat mencari dukungan di[Asumsikan forum](https://forum.aspose.com/c/slides/11).
+ Dokumentasi terperinci tersedia di[Asumsikan situs web](https://reference.aspose.com/slides/java/) dan Anda dapat mencari dukungan di[Asumsikan forum](https://forum.aspose.com/c/slides/11).

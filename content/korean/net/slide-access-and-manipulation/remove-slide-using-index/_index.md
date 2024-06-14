@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/remove-slide-using-index/
 
 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 작업 중이고 프로그래밍 방식으로 슬라이드를 제거해야 하는 경우 Aspose.Slides for .NET은 강력한 솔루션을 제공합니다. 이 가이드에서는 Aspose.Slides for .NET을 사용하여 순차 색인별로 슬라이드를 삭제하는 과정을 안내합니다. 명확한 설명을 보장하고 소스 코드 예제를 제공하면서 환경 설정부터 필요한 코드 작성까지 모든 것을 다룹니다.
 
-## 전제조건
+## 전제 조건
 
 단계별 가이드를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation(presentationPath))
 }
 ```
 
-## 순차 색인별로 슬라이드 지우기
+## 순차적 인덱스로 슬라이드 지우기
 
 이제 순차적 인덱스를 기준으로 슬라이드를 지우는 코드를 작성해 보겠습니다.
 
@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 원하는 슬라이드를 삭제한 후에는 수정된 프레젠테이션을 저장해야 합니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

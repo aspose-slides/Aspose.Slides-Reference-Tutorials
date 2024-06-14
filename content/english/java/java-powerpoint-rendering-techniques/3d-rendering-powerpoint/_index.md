@@ -17,7 +17,7 @@ Before we dive into the tutorial, ensure you have the following:
 To begin, import the necessary packages into your Java project:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.File;
@@ -49,8 +49,8 @@ shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
 ## Step 4: Save the Presentation
 After configuring the 3D settings, save the presentation:
 ```java
-String outPptxFile = RunExamples.getOutPath() + "sandbox_3d.pptx";
-String outPngFile = RunExamples.getOutPath() + "sample_3d.png";
+String outPptxFile = "Your Output Directory" + "sandbox_3d.pptx";
+String outPngFile = "Your Output Directory" + "sample_3d.png";
 try {
     ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(2, 2), "PNG", new File(outPngFile));
     pres.save(outPptxFile, SaveFormat.Pptx);

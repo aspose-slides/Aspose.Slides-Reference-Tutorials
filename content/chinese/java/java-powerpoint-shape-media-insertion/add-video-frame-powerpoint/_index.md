@@ -2,7 +2,7 @@
 title: 在 PowerPoint 中添加视频帧
 linktitle: 在 PowerPoint 中添加视频帧
 second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 了解如何使用 Aspose.Slides for Java 将视频内容无缝集成到 PowerPoint 演示文稿中。您的幻灯片带有多媒体元素，可以吸引观众。
+description: 了解如何使用 Aspose.Slides for Java 将视频内容无缝集成到 PowerPoint 演示文稿中。您的幻灯片包含多媒体元素，以吸引观众。
 type: docs
 weight: 17
 url: /zh/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
@@ -17,7 +17,7 @@ url: /zh/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 首先，您需要导入必要的包才能在 Java 代码中使用 Aspose.Slides 功能。 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 步骤 1：设置文档目录

@@ -19,7 +19,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những đi�
 Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Truy cập Bộ sưu tập Hình dạng
 Truy cập bộ sưu tập hình dạng cho slide đã chọn:

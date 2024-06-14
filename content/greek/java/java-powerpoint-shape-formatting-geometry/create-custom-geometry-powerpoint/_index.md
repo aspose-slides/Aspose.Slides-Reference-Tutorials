@@ -20,13 +20,13 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-p
 Πριν βουτήξουμε στο κομμάτι κωδικοποίησης, ας εισάγουμε τα απαραίτητα πακέτα.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Βήμα 1: Ρύθμιση του έργου
-Για να ξεκινήσετε, ρυθμίστε το έργο Java και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides for Java στις εξαρτήσεις του έργου σας. Εάν χρησιμοποιείτε το Maven, προσθέστε την ακόλουθη εξάρτησή σας`pom.xml`:
+ Για να ξεκινήσετε, ρυθμίστε το έργο Java και συμπεριλάβετε τη βιβλιοθήκη Aspose.Slides for Java στις εξαρτήσεις του έργου σας. Εάν χρησιμοποιείτε το Maven, προσθέστε την ακόλουθη εξάρτησή σας`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -84,7 +84,7 @@ GeometryShape shape = (GeometryShape)pres.getSlides().get_Item(0).
 // Ορίστε νέα γεωμετρική διαδρομή στο σχήμα
 shape.setGeometryPath(starPath);
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Τέλος, αποθηκεύστε την παρουσίαση σε ένα αρχείο.
 ```java
 // Όνομα αρχείου εξόδου

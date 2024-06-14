@@ -45,7 +45,7 @@ IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.White;
 ```
-## Stap 6: Pas opmaak toe op de regel
+## Stap 6: Pas opmaak toe op de lijn
 ```csharp
 shp.LineFormat.Style = LineStyle.ThickThin;
 shp.LineFormat.Width = 7;

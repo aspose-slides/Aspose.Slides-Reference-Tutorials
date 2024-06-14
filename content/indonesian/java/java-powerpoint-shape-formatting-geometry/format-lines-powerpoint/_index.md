@@ -18,7 +18,7 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki hal berikut:
 Pertama, mari impor paket yang diperlukan untuk bekerja dengan Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

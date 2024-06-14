@@ -34,7 +34,7 @@ Zacznijmy od stworzenia nowej prezentacji. Oto jak możesz to zrobić w Java Sli
 
 ```java
 // Ścieżka do dokumentu PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Ten kod zapisuje prezentację z włączoną kontrolą multimediów.
 
 ```java
 // Ścieżka do dokumentu PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Włącz wyświetlanie sterowania multimediami w trybie pokazu slajdów.
@@ -107,4 +107,4 @@ W tym samouczku omówiliśmy, jak włączyć i wykorzystać elementy sterujące 
 
 ### Czy istnieje sposób dodawania napisów lub podpisów do filmów w aplikacji Java Slides?
 
-Tak, możesz dodawać napisy lub podpisy do filmów wideo w Prezentacjach Java, dodając ramki tekstowe lub kształty do slajdu zawierającego wideo. Następnie możesz zsynchronizować tekst z odtwarzanym wideo, korzystając z ustawień synchronizacji.
+Tak, możesz dodawać napisy lub podpisy do filmów w Prezentacjach Java, dodając ramki tekstowe lub kształty do slajdu zawierającego wideo. Następnie możesz zsynchronizować tekst z odtwarzanym wideo, korzystając z ustawień synchronizacji.

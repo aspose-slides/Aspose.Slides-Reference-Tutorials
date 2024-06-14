@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //الكود الخاص بك لحفظ الصورة موجود هنا
+    // الكود الخاص بك لحفظ الصورة موجود هنا
 }
 ```
 ## الخطوة 3: احفظ الصورة على القرص
@@ -52,6 +52,6 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 ### س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides من خلال زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
 ### س4: أين يمكنني العثور على دعم إضافي لـ Aspose.Slides؟
-لأية استفسارات أو مساعدة، لا تتردد في زيارة منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
+ لأية استفسارات أو مساعدة، لا تتردد في زيارة منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
 ### س5: هل يمكنني شراء Aspose.Slides لـ .NET؟
  بالتأكيد! لشراء Aspose.Slides لـ .NET، يرجى زيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).

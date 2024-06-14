@@ -2,7 +2,7 @@
 title: Tölcsérdiagram a Java Slides-ben
 linktitle: Tölcsérdiagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Fedezze fel az Aspose.Slides for Java alkalmazást lépésről lépésre bemutató oktatóanyagokkal. Lenyűgöző tölcsérdiagramok és még sok más létrehozása.
+description: Fedezze fel az Aspose.Slides for Java alkalmazást lépésről lépésre bemutató oktatóanyagokkal. Lenyűgöző tölcsérdiagramok létrehozása és még sok más.
 type: docs
 weight: 14
 url: /hu/java/chart-elements/funnel-chart-java-slides/
@@ -10,7 +10,7 @@ url: /hu/java/chart-elements/funnel-chart-java-slides/
 
 ## A Java Slides tölcsérdiagramjának bemutatása
 
-Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre tölcsérdiagramot az Aspose.Slides for Java használatával. A tölcsérdiagramok hasznosak egy szekvenciális folyamat vizualizálására, amelyek fokozatosan szűkülnek, mint például az értékesítési konverziók vagy az ügyfélszerzés.
+Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre tölcsérdiagramot az Aspose.Slides for Java használatával. A tölcsérdiagramok hasznosak egy szekvenciális folyamat vizualizálására, amelynek szakaszai fokozatosan szűkülnek, mint például az értékesítési konverziók vagy az ügyfélszerzés.
 
 ## Előfeltételek
 
@@ -25,7 +25,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a projektkönyvtár tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a projektkönyvtár tényleges elérési útjával.
 
 ## 2. lépés: Hozza létre a csatornadiagramot
 
@@ -38,7 +38,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-fenti kódban egy tölcsérdiagramot adunk az első diához koordinátákon (50, 50), amelynek szélessége 500 és magassága 400 pixel.
+A fenti kódban egy tölcsérdiagramot adunk az első diához koordinátákon (50, 50), amelynek szélessége 500 és magassága 400 pixel.
 
 ## 3. lépés: A diagramadatok meghatározása
 
@@ -84,7 +84,7 @@ Végül elmentjük a prezentációt a tölcsérdiagrammal egy PowerPoint fájlba
 }
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a kívánt mentési hellyel.
+ Mindenképpen cserélje ki`"Your Document Directory"` a kívánt mentési hellyel.
 
 ## A Java Slides tölcséres diagramjának teljes forráskódja
 

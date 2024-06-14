@@ -9,7 +9,7 @@ url: /vi/net/notes-slide-manipulation/
 ---
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn Aspose.Slides toàn diện về Thao tác với slide ghi chú dành cho nhà phát triển .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của ghi chú diễn giả và cách bạn có thể thao tác chúng theo chương trình bằng thư viện Aspose.Slides. Ghi chú của diễn giả đóng vai trò then chốt trong bài thuyết trình, cung cấp những hiểu biết có giá trị cho người trình bày và nâng cao tác động tổng thể của nội dung. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách thêm, chỉnh sửa và quản lý hiệu quả ghi chú của diễn giả trong bản trình bày PowerPoint của mình.
+Chào mừng bạn đến với hướng dẫn Aspose.Slides toàn diện về Thao tác với slide ghi chú dành cho nhà phát triển .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của ghi chú của diễn giả và cách bạn có thể thao tác chúng theo chương trình bằng thư viện Aspose.Slides. Ghi chú của diễn giả đóng vai trò then chốt trong bài thuyết trình, cung cấp những hiểu biết có giá trị cho người trình bày và nâng cao tác động tổng thể của nội dung. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách thêm, chỉnh sửa và quản lý hiệu quả ghi chú của diễn giả trong bản trình bày PowerPoint của mình.
 
 ## Tầm quan trọng của ghi chú của diễn giả
 

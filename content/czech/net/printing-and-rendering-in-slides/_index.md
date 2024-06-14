@@ -2,7 +2,7 @@
 title: Tisk a vykreslování v diapozitivech
 linktitle: Tisk a vykreslování v diapozitivech
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Vylepšete své dovednosti v tisku a vykreslování snímků pomocí výukových programů Aspose.Slides pro .NET. Naučte se krok za krokem techniky pro vysoce kvalitní výstup. Ponořte se do manipulace s diapozitivy hned teď!
+description: Vylepšete své dovednosti v tisku a vykreslování snímků pomocí výukových programů Aspose.Slides pro .NET. Naučte se krok za krokem techniky pro vysoce kvalitní výstup. Ponořte se do manipulace se snímky hned!
 type: docs
 weight: 10
 url: /cs/net/printing-and-rendering-in-slides/
@@ -28,7 +28,7 @@ Naučte se, jak zobrazit náhled tiskového výstupu prezentací PowerPoint pomo
 ### [Vykreslování komentářů snímků v Aspose.Slides](./rendering-slide-comments/)
 Naučte se vykreslovat komentáře snímků v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu pro programový přístup, přizpůsobení a zobrazování komentářů.
 ### [Vykreslování 3D efektů v prezentačních snímcích pomocí Aspose.Slides](./rendering-3d-effects/)
-Naučte se, jak přidat podmanivé 3D efekty do snímků prezentace pomocí Aspose.Slides for .NET. Náš podrobný průvodce pokrývá vše od nastavení prostředí až po aplikaci animací a export konečného výsledku.
+Naučte se, jak přidat podmanivé 3D efekty do snímků prezentace pomocí Aspose.Slides for .NET. Náš podrobný průvodce pokrývá vše od nastavení prostředí po použití animací a export konečného výsledku.
 ### [Vykreslování emodži a speciálních znaků v Aspose.Slides](./rendering-emoji-special-characters/)
 Naučte se přidávat emotikony a speciální znaky do snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady kódu a tipy pro bezproblémové vykreslování těchto prvků.
 ### [Prozkoumání možností vykreslení snímků prezentace v Aspose.Slides](./presentation-render-options/)

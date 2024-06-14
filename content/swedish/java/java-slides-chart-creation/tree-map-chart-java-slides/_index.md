@@ -133,7 +133,7 @@ finally
 
 ## Slutsats
 
-den här handledningen har du lärt dig hur du skapar ett trädkartadiagram i en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Trädkartadiagram är ett värdefullt verktyg för att visualisera hierarkisk data, vilket gör dina presentationer mer informativa och engagerande.
+I den här handledningen har du lärt dig hur du skapar ett trädkarta i en PowerPoint-presentation med Aspose.Slides för Java-biblioteket. Trädkartadiagram är ett värdefullt verktyg för att visualisera hierarkisk data, vilket gör dina presentationer mer informativa och engagerande.
 
 ## FAQ's
 
@@ -143,7 +143,7 @@ den här handledningen har du lärt dig hur du skapar ett trädkartadiagram i en
 
 ### Hur kan jag anpassa utseendet på trädkartan?
 
- Du kan anpassa utseendet på trädkartan genom att ändra olika egenskaper för`chart` och`series` objekt, som färger, etiketter och layouter.
+ Du kan anpassa utseendet på trädkartan genom att ändra olika egenskaper för`chart` och`series`objekt, som färger, etiketter och layouter.
 
 ### Kan jag skapa flera trädkartor i en enda presentation?
 

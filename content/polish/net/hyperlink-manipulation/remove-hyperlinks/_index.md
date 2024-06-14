@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/hyperlink-manipulation/remove-hyperlinks/
 ---
 
-W świecie profesjonalnych prezentacji bardzo ważne jest, aby slajdy wyglądały schludnie i schludnie. Jednym z powszechnych elementów, który często zaśmieca slajdy, są hiperłącza. Niezależnie od tego, czy w prezentacji masz hiperłącza do witryn internetowych, dokumentów lub innych slajdów, możesz je usunąć, aby uzyskać czystszy i bardziej skoncentrowany wygląd. Dzięki Aspose.Slides dla .NET możesz łatwo wykonać to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces usuwania hiperłączy ze slajdów za pomocą Aspose.Slides dla .NET.
+W świecie profesjonalnych prezentacji bardzo ważne jest, aby slajdy wyglądały schludnie i schludnie. Jednym z powszechnych elementów, który często zaśmieca slajdy, są hiperłącza. Niezależnie od tego, czy w prezentacji masz hiperłącza do witryn internetowych, dokumentów lub innych slajdów, możesz je usunąć, aby uzyskać czystszy i bardziej skupiony wygląd. Dzięki Aspose.Slides dla .NET możesz łatwo wykonać to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces usuwania hiperłączy ze slajdów za pomocą Aspose.Slides dla .NET.
 
 ## Warunki wstępne
 

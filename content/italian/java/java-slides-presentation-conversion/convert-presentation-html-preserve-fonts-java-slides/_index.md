@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Escludi i caratteri di presentazione predefiniti come Calibri e Arial
+    // Escludi i caratteri di presentazione predefiniti come Calibri e Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ In questo frammento di codice:
 
 -  Carichiamo la presentazione PowerPoint di input utilizzando`Presentation`.
 
-- Definiamo un elenco di caratteri (`fontNameExcludeList`) che vogliamo escludere dall'incorporamento nell'HTML. Ciò è utile per escludere caratteri comuni come Calibri e Arial per ridurre le dimensioni del file.
+- Definiamo un elenco di caratteri (`fontNameExcludeList`che vogliamo escludere dall'incorporamento nell'HTML. Ciò è utile per escludere caratteri comuni come Calibri e Arial per ridurre le dimensioni del file.
 
 -  Creiamo un'istanza di`EmbedAllFontsHtmlController` e passargli l'elenco di esclusione dei caratteri.
 
@@ -98,7 +98,7 @@ In questo tutorial hai imparato come convertire una presentazione PowerPoint in 
 
 ### Come posso scaricare Aspose.Slides per Java?
 
-È possibile scaricare Aspose.Slides per Java dal sito Web Aspose. Visita[Qui](https://downloads.aspose.com/slides/java/) per ottenere la versione più recente.
+ È possibile scaricare Aspose.Slides per Java dal sito Web Aspose. Visita[Qui](https://downloads.aspose.com/slides/java/) per ottenere la versione più recente.
 
 ### Posso personalizzare l'elenco dei caratteri esclusi?
 

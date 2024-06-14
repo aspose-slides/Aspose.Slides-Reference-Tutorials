@@ -38,7 +38,7 @@ Untuk bekerja dengan node tertentu di SmartArt, dapatkan referensinya menggunaka
 ```csharp
 ISmartArtNode node = smart.Nodes[1];
 ```
-## Langkah 4: Dapatkan Gambar Kecil
+## Langkah 4: Dapatkan Gambar Mini
 Ambil gambar mini Catatan Anak dalam node SmartArt.
 ```csharp
 Bitmap bmp = node.Shapes[0].GetThumbnail();
@@ -59,6 +59,6 @@ J: Tentu saja! Aspose.Slides menawarkan beragam tata letak SmartArt, memungkinka
 ### T: Apakah lisensi sementara tersedia untuk tujuan pengujian?
  J: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### T: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas Aspose.Slides?
-J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
+ J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
 ### T: Bisakah saya membeli Aspose.Slides untuk .NET?
  J: Tentu saja! Jelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuh Aspose.Slides dalam proyek Anda.

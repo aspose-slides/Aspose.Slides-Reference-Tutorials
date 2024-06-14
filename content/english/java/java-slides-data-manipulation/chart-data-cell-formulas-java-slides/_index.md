@@ -21,7 +21,7 @@ Before you begin, make sure you have the Aspose.Slides for Java library installe
 First, let's create a new PowerPoint presentation and add a chart to it.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Complete Source Code For Chart Data Cell Formulas in Java Slides
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

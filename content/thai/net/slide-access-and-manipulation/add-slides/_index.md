@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 หลังจากแทรกสไลด์เพิ่มเติม คุณควรบันทึกงานนำเสนอที่แก้ไข
 
 ```csharp
-// บันทึกงานนำเสนอที่แก้ไข
+//บันทึกงานนำเสนอที่แก้ไข
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- แทนที่`"path_to_modified_presentation.pptx"` พร้อมเส้นทางและชื่อไฟล์ที่ต้องการสำหรับการนำเสนอที่แก้ไข
+ แทนที่`"path_to_modified_presentation.pptx"`พร้อมเส้นทางและชื่อไฟล์ที่ต้องการสำหรับการนำเสนอที่แก้ไข
 
 ## บทสรุป
 
@@ -98,7 +98,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### จะทำอย่างไรถ้าฉันต้องการแทรกสไลด์ที่จุดเริ่มต้นของการนำเสนอ?
 
- หากต้องการแทรกสไลด์ที่จุดเริ่มต้นของการนำเสนอ ให้ตั้งค่า`insertionIndex` ถึง`0`.
+หากต้องการแทรกสไลด์ที่จุดเริ่มต้นของการนำเสนอ ให้ตั้งค่า`insertionIndex` ถึง`0`.
 
 ### เป็นไปได้หรือไม่ที่จะแก้ไขเค้าโครงของสไลด์ที่แทรกเข้าไป?
 

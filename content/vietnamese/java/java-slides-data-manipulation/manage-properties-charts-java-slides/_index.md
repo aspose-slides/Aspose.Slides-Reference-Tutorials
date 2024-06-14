@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các thu�
 
 ## Điều kiện tiên quyết
 
- Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn đã cài đặt và thiết lập thư viện Aspose.Slides cho Java trong dự án của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
+Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn đã cài đặt và thiết lập thư viện Aspose.Slides cho Java trong dự án của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
 
 ## Thêm biểu đồ vào slide
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Lấy loạt biểu đồ thứ hai
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Hiện đang điền dữ liệu chuỗi
+// Hiện đang điền dữ liệu chuỗi
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ Trong hướng dẫn này, chúng ta đã đi sâu vào thế giới quản lý 
 
 ### Làm cách nào để thay đổi loại biểu đồ?
 
- Bạn có thể thay đổi loại biểu đồ bằng cách sửa đổi`ChartType`tham số khi thêm biểu đồ. Tham khảo tài liệu Aspose.Slides để biết các loại biểu đồ có sẵn.
+ Bạn có thể thay đổi loại biểu đồ bằng cách sửa đổi`ChartType` tham số khi thêm biểu đồ. Tham khảo tài liệu Aspose.Slides để biết các loại biểu đồ có sẵn.
 
 ### Tôi có thể tùy chỉnh màu biểu đồ không?
 

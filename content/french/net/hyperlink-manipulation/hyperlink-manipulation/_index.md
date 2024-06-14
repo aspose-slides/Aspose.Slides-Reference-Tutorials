@@ -93,7 +93,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 Et c'est tout! Vous avez réussi à supprimer les liens hypertexte d’une diapositive à l’aide d’Aspose.Slides pour .NET.
 
-En conclusion, Aspose.Slides pour .NET offre un moyen efficace de manipuler les hyperliens dans vos présentations, vous permettant de créer des diapositives interactives et attrayantes. Que vous souhaitiez ajouter des hyperliens vers des ressources externes ou les supprimer, Aspose.Slides simplifie le processus et améliore vos capacités de création de présentations.
+En conclusion, Aspose.Slides for .NET offre un moyen efficace de manipuler les hyperliens dans vos présentations, vous permettant de créer des diapositives interactives et attrayantes. Que vous souhaitiez ajouter des hyperliens vers des ressources externes ou les supprimer, Aspose.Slides simplifie le processus et améliore vos capacités de création de présentations.
 
  Merci de nous avoir rejoint dans ce didacticiel sur la manipulation des liens hypertexte dans Aspose.Slides pour .NET. Si vous avez des questions ou avez besoin d'aide supplémentaire, n'hésitez pas à explorer le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) ou contactez la communauté Aspose sur le[forum d'entraide](https://forum.aspose.com/).
 

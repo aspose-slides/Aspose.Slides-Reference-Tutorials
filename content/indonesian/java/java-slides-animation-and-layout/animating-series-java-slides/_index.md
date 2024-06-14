@@ -112,7 +112,7 @@ Anda telah berhasil menganimasikan serial dalam bagan PowerPoint menggunakan Asp
 
 ### Bagaimana cara mengontrol urutan animasi serial?
 
- Untuk mengontrol urutan animasi rangkaian, gunakan`EffectTriggerType.AfterPrevious`parameter saat menambahkan efek. Ini akan membuat setiap seri animasi dimulai setelah yang sebelumnya selesai.
+ Untuk mengontrol urutan animasi rangkaian, gunakan`EffectTriggerType.AfterPrevious` parameter saat menambahkan efek. Ini akan membuat setiap seri animasi dimulai setelah yang sebelumnya selesai.
 
 ### Bisakah saya menerapkan animasi berbeda pada setiap seri?
 

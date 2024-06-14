@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. lépés: A környezet beállítása
@@ -61,4 +61,4 @@ Teljesen! Az Aspose.Slides a formatípusok széles skáláját kínálja, beleé
 ### Hozzáadhatok szöveget a diához a vonal alakzatával együtt?
 Igen, az Aspose.Slides API segítségével szöveget, képeket és egyéb tartalmat is hozzáadhat a diához.
 ### Létezik ingyenes próbaverzió az Aspose.Slides számára?
-Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+ Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).

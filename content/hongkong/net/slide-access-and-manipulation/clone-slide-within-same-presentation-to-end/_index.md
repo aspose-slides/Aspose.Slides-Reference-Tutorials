@@ -2,7 +2,7 @@
 title: 將投影片複製到現有簡報的末尾
 linktitle: 將投影片複製到現有簡報的末尾
 second_title: Aspose.Slides .NET PowerPoint 處理 API
-description: 了解如何使用 Aspose.Slides for .NET 複製投影片並將其新增至現有 PowerPoint 簡報的結尾。本逐步指南提供了原始程式碼範例，涵蓋設定、投影片複製、修改等內容。
+description: 了解如何使用 Aspose.Slides for .NET 複製投影片並將其新增至現有 PowerPoint 簡報的結尾。本逐步指南提供原始碼範例，涵蓋設定、投影片複製、修改等內容。
 type: docs
 weight: 22
 url: /zh-hant/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/

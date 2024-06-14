@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Adicione um gráfico de funil ao primeiro slide nas coordenadas (50, 50) com dimensões (500, 400).
+    //Adicione um gráfico de funil ao primeiro slide nas coordenadas (50, 50) com dimensões (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Você pode ajustar a posição e o tamanho do gráfico de funil modificando as c
 
 ### Posso exportar o gráfico para diferentes formatos, como PDF ou imagem?
 
- Sim, Aspose.Slides for Java permite exportar a apresentação com o Funnel Chart para vários formatos, incluindo PDF, formatos de imagem e muito mais. Você pode usar o`SaveFormat` opções para especificar o formato de saída desejado ao salvar a apresentação.
+Sim, Aspose.Slides for Java permite exportar a apresentação com o Funnel Chart para vários formatos, incluindo PDF, formatos de imagem e muito mais. Você pode usar o`SaveFormat` opções para especificar o formato de saída desejado ao salvar a apresentação.

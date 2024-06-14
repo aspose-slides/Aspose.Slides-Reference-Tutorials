@@ -23,7 +23,7 @@ Bevor wir mit der Implementierung beginnen, stellen Sie sicher, dass Sie die fol
 ## Schritt 1: Erstellen Sie eine Präsentation
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Wir löschen alle vorhandenen Daten aus dem Diagramm, um es für neue Daten aus 
 ## Schritt 4: Excel-Arbeitsmappe laden
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Wir laden die Excel-Arbeitsmappe, die die Daten enthält, die wir für das Diagramm verwenden möchten. Ersetzen Sie`"book1.xlsx"` durch den Pfad zu Ihrer Excel-Datei.
@@ -92,14 +92,14 @@ Abschließend speichern wir die Präsentation mit den aktualisierten Diagrammdat
 ## Vollständiger Quellcode zum Festlegen von Diagrammdaten aus einer Arbeitsmappe in Java-Folien
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

@@ -1,6 +1,6 @@
 ---
-title: Java Slides Saving Options
-linktitle: Java Slides Saving Options
+title: Java Slides mentési beállítások
+linktitle: Java Slides mentési beállítások
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg a Java Slides mentési beállításait az Aspose.Slides for Java segítségével. Fedezze fel az átfogó oktatóanyagokat és útmutatókat a dia hatékony kezeléséhez és testreszabásához.
 type: docs

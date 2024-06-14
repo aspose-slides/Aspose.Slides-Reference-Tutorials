@@ -20,7 +20,7 @@ Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Bereiten Sie Ihr Datenverzeichnis vor
  Erstellen Sie ein Verzeichnis, in dem Sie Ihre PowerPoint-Datei und andere Ressourcen speichern können. Nennen wir es`dataDir`.

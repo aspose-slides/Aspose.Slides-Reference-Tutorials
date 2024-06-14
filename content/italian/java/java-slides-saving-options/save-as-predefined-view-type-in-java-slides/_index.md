@@ -51,7 +51,7 @@ Successivamente, imposteremo il tipo di visualizzazione per la nostra presentazi
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- Nel codice sopra, usiamo il file`setLastView` metodo del`ViewProperties` classe su cui impostare il tipo di visualizzazione`SlideMasterView`. Puoi scegliere altri tipi di visualizzazione in base alle esigenze.
+ Nel codice sopra, usiamo il file`setLastView` metodo del`ViewProperties` classe su cui impostare il tipo di visualizzazione`SlideMasterView`. Puoi scegliere altri tipi di visualizzazione secondo necessità.
 
 ## Passaggio 3: salvataggio della presentazione
 

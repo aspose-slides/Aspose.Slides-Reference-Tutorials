@@ -17,7 +17,7 @@ Etkili iletişim için görsel olarak çekici ve düzenli PowerPoint sunumları 
 
 -  Sınır Şekli Küçük Resimleri: Sınırlı küçük resimler oluşturmak, şekillerin boyutlarının ve yerleşiminin yönetilmesine yardımcı olur. Bunu nasıl yapacağınızı öğrenin[Sınır Şekli Küçük Resmi Oluşturma](./create-bounds-shape-thumbnail/) öğretici.
 - Ölçeklendirme Faktörü Küçük Resimleri: Küçük resimler için ölçeklendirme faktörünü ayarlamak, şekillerinizin daha ayrıntılı veya daha geniş bir görünümünü sağlayabilir. içindeki adımları izleyin[Ölçeklendirme Faktörü Küçük Resmi Oluştur](./create-scaling-factor-thumbnail/) bu tekniğe hakim olmak.
--  PowerPoint'te Şekil Küçük Resimleri: Doğrudan PowerPoint slaytlarınızda şekil küçük resimleri oluşturmak görsel sunumu geliştirir. Rehberimiz[PowerPoint'te Şekil Küçük Resmi Oluşturma](./create-shape-thumbnail-powerpoint/) süreç boyunca size yol gösterecek.
+-  PowerPoint'te Şekil Küçük Resimleri: Doğrudan PowerPoint slaytlarınızda şekil küçük resimleri oluşturmak görsel sunumu geliştirir. Rehberimiz[PowerPoint'te Şekil Küçük Resmi Oluşturma](./create-shape-thumbnail-powerpoint/) süreç boyunca size yol gösterecektir.
 
 ## Sunum Gezinmesini Geliştirme
 

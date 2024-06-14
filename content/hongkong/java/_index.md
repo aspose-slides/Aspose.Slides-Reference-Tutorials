@@ -64,8 +64,8 @@ is_root: true
 ### [Java 投影片儲存選項](./saving-options/)
 了解有關 Aspose.Slides for Java 的 Java 投影片儲存選項。探索全面的教程和指南，以實現高效的幻燈片管理和自訂。
 
-### [Java PowerPoint 儲存操作](./java-powerpoint-save-operations/)
-了解如何使用 Aspose.Slides for Java 儲存 PowerPoint 簡報。有關保存到文件、流和添加密碼保護的教程。
+### [Java PowerPoint 保存操作](./java-powerpoint-save-operations/)
+了解如何使用 Aspose.Slides for Java 儲存 PowerPoint 簡報。有關儲存到檔案、串流以及添加密碼保護的教學。
 ### [Java PowerPoint 屬性管理](./java-powerpoint-properties-management/)
 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 屬性。透過我們全面的教程輕鬆存取、修改和更新屬性。
 ### [Java PowerPoint 渲染技術](./java-powerpoint-rendering-techniques/)
@@ -80,3 +80,27 @@ is_root: true
 探索 Java PowerPoint 形狀格式化和幾何教學。學習使用 Aspose.Slides for Java 填滿形狀、尋找形狀以及建立自訂幾何圖形。
 ### [Java PowerPoint 投影片複製技術](./java-powerpoint-slide-cloning-techniques/)
 使用 Aspose.Slides for Java 在 PowerPoint 中掌握投影片複製。了解在同一簡報中或跨簡報無縫複製投影片。
+### [Java PowerPoint 文字方塊操作](./java-powerpoint-text-box-manipulation/)
+探索使用 Aspose.Slides 操作 Java PowerPoint 文字方塊的綜合教學。使用我們的指南逐步增強您的簡報。
+### [Java PowerPoint 字型管理](./java-powerpoint-font-management/)
+了解使用 Aspose.Slides for Java 的 Java PowerPoint 字型管理教學。學習嵌入、壓縮和客製化技術以增強演示效果。
+### [Java PowerPoint 動畫和效果](./java-powerpoint-animation-effects/)
+透過我們全面的教學掌握 Java PowerPoint 動畫和效果。學習使用 Aspose.Slides for Java 添加動畫、外部和內部陰影。
+### [Java PowerPoint 文字對齊和格式設置](./java-powerpoint-text-alignment-formatting/)
+了解 Java PowerPoint 文字對齊和格式設定教學。學習使用 Aspose.Slides for Java 對齊、格式化、匯出和突出顯示文字。 
+### [Java PowerPoint 文字反白顯示和回退規則](./java-powerpoint-text-highlighting-fallback-rules/)
+使用 Aspose.Slides 掌握 Java PowerPoint 中的文字突出顯示和字體後備規則。按照我們的教程無縫地增強和自動化您的簡報。
+### [Java PowerPoint 文字與段落管理](./java-powerpoint-text-paragraph-management/)
+使用 Aspose.Slides 掌握 Java PowerPoint 文字和段落管理。學習匯入 HTML 文字、管理行間距、建立項目符號以及對齊段落。
+### [Java PowerPoint 字型管理與文字替換](./java-powerpoint-font-management-text-replacement/)
+使用 Aspose.Slides 掌握 Java PowerPoint 字型管理和文字取代。了解載入自訂字體、管理嵌入字體以及無縫替換文字。
+### [Java PowerPoint 高階段落和字型屬性](./java-powerpoint-advanced-paragraph-font-properties/)
+使用 Aspose.Slides 掌握 Java PowerPoint 中的高階段落和字體屬性。了解自訂字體、新增圖片項目符號以及使用後備字體。
+### [Java PowerPoint 文字和字體定制](./java-powerpoint-text-font-customization/)
+探索使用 Aspose.Slides 自訂 Java PowerPoint 文字和字體的教學課程。了解旋轉、字體替換等以增強您的簡報。
+### [Java PowerPoint 表格操作](./java-powerpoint-table-manipulation/)
+使用 Aspose.Slides 掌握 Java PowerPoint 表格操作。透過我們詳細的逐步教程，學習添加圖像、分割單元格、建立表格等。
+### [Java PowerPoint 表格格式與更新](./java-powerpoint-table-formatting-updates/)
+使用 Aspose.Slides 透過表格格式和更新增強 Java PowerPoint 簡報。學習新增邊框、設定列和行中文字的格式以及更新表格。
+### [Java PowerPoint SmartArt 操作](./java-powerpoint-smartart-manipulation/)
+了解如何透過 GroupDocs.Slides for Java 教程有效地操作 Java PowerPoint SmartArt。造訪子節點、新增節點、更改佈局等等！

@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // प्रस्तुति का शीर्षक निर्धारित करें
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// प्रस्तुति का लेखक निर्धारित करें
+//प्रस्तुति का लेखक निर्धारित करें
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // प्रस्तुति के लिए कीवर्ड सेट करें
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
 String dataDir = "Your Document Directory";
-//एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करें जो एक PPT फ़ाइल का प्रतिनिधित्व करता है
+// एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करें जो एक PPT फ़ाइल का प्रतिनिधित्व करता है
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // प्रस्तुति का शीर्षक निर्धारित करें
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// प्रस्तुति का लेखक निर्धारित करें
+//प्रस्तुति का लेखक निर्धारित करें
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // प्रस्तुति के लिए कीवर्ड सेट करें

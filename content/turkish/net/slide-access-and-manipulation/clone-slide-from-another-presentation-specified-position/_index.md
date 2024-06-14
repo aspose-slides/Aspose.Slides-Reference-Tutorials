@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Slayt klonlanıp istenilen konuma yerleştirildiğinde, değiştirilen hedef sunumu kaydetmeniz gerekir. Sunuyu kaydetmek için aşağıdaki kodu kullanın:
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Klonlanmış slaytı belirtilen konuma yerleştirin
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Değiştirilen sunuyu kaydet
+            //Değiştirilen sunuyu kaydet
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

@@ -49,7 +49,7 @@ Na koniec zapisz zmodyfikowaną prezentację z nowym numerem slajdu.
 ```csharp
 presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
 ```
-W razie potrzeby powtórz te kroki, aby dostosować numery slajdów do wymagań prezentacji.
+razie potrzeby powtórz te kroki, aby dostosować numery slajdów do wymagań prezentacji.
 ## Wniosek
 Aspose.Slides dla .NET umożliwia przejęcie kontroli nad przebiegiem prezentacji poprzez łatwe ustawianie numerów slajdów. Ulepsz swoje prezentacje dzięki płynnemu i dynamicznemu interfejsowi użytkownika, korzystając z tej potężnej biblioteki.
 ## Często zadawane pytania

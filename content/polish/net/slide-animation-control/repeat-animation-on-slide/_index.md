@@ -8,7 +8,7 @@ weight: 12
 url: /pl/net/slide-animation-control/repeat-animation-on-slide/
 ---
 ## Wstęp
-W dynamicznym świecie prezentacji umiejętność kontrolowania animacji odgrywa kluczową rolę w angażowaniu i przyciąganiu uwagi publiczności. Aspose.Slides dla .NET umożliwia programistom przejęcie kontroli nad typami animacji na slajdach, umożliwiając bardziej interaktywną i atrakcyjną wizualnie prezentację. W tym samouczku odkryjemy krok po kroku, jak kontrolować typy animacji na slajdzie za pomocą Aspose.Slides dla .NET.
+W dynamicznym świecie prezentacji umiejętność kontrolowania animacji odgrywa kluczową rolę w angażowaniu i przyciąganiu uwagi publiczności. Aspose.Slides dla .NET umożliwia programistom przejmowanie kontroli nad typami animacji na slajdach, umożliwiając bardziej interaktywną i atrakcyjną wizualnie prezentację. W tym samouczku odkryjemy krok po kroku, jak kontrolować typy animacji na slajdzie za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 1.  Biblioteka Aspose.Slides dla .NET: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/slides/net/).

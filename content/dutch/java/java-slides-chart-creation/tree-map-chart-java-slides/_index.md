@@ -143,7 +143,7 @@ In deze zelfstudie hebt u geleerd hoe u een boomkaartdiagram maakt in een PowerP
 
 ### Hoe kan ik het uiterlijk van het boomkaartdiagram aanpassen?
 
- U kunt het uiterlijk van het structuurkaartdiagram aanpassen door verschillende eigenschappen van het`chart` En`series` objecten, zoals kleuren, labels en lay-outs.
+ U kunt het uiterlijk van het structuurkaartdiagram aanpassen door verschillende eigenschappen van het`chart` En`series`objecten, zoals kleuren, labels en lay-outs.
 
 ### Kan ik meerdere boomkaartdiagrammen in één presentatie maken?
 

@@ -74,7 +74,7 @@ try {
 // Belgeler dizininin yolu
 String dataDir = "Your Document Directory";
 // Çıktı dosyasının yolu
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Slayt geçişleri, animasyonlar ve şekil animasyonları içeren bir sunuyu HTML5'e aktarma

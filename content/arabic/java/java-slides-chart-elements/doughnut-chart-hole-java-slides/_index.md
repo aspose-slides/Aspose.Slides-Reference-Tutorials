@@ -42,7 +42,7 @@ try {
     // أنشئ مخططًا دائريًا على الشريحة الأولى
     IChart chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.Doughnut, 50, 50, 400, 400);
     
-    // تعيين حجم الثقب في المخطط الدائري (بالنسبة المئوية)
+    // تعيين حجم الثقب في المخطط الدائري المجوف (بالنسبة المئوية)
     chart.getChartData().getSeriesGroups().get_Item(0).setDoughnutHoleSize((byte) 90);
     
     // احفظ العرض التقديمي على القرص

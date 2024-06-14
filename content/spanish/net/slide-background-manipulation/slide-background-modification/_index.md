@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Su código para modificar el fondo de la diapositiva irá aquí.
     // Exploraremos esto en los próximos pasos.
     
-    // Guardar la presentación modificada
+    //Guardar la presentación modificada
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ En este paso, personalizamos el fondo de la primera diapositiva. Puedes modifica
 ## Paso 6: guarde la presentación modificada
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

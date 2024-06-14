@@ -1,6 +1,6 @@
 ---
-title: Szerezzen be kamera hatékony adatokat a PowerPointban
-linktitle: Szerezzen be kamera hatékony adatokat a PowerPointban
+title: Szerezzen be a kamera hatékony adatait a PowerPointban
+linktitle: Szerezzen be a kamera hatékony adatait a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan lehet hatékony kameraadatokat lekérni a PowerPoint diákról az Aspose.Slides for Java segítségével.
 type: docs
@@ -12,15 +12,15 @@ Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fej
 ## Előfeltételek
 Mielőtt elkezdenénk, meg kell felelnie néhány előfeltételnek:
 1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK 8 vagy újabb verziója van telepítve a gépére.
-2. Aspose.Slides for Java Library: Töltse le a legújabb verziót a[weboldal](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Töltse le a legújabb verziót a[weboldal](https://releases.aspose.com/slides/java/).
 3. Integrált fejlesztői környezet (IDE): Használjon olyan IDE-t, mint az IntelliJ IDEA vagy az Eclipse a simább kódolási élmény érdekében.
-4.  Minta PowerPoint fájl: rendelkezzen PowerPoint fájllal (pl.`Presentation1.pptx`) készen áll a kód tesztelésére.
+4.  Minta PowerPoint fájl: rendelkezzen PowerPoint fájllal (pl.`Presentation1.pptx`készen áll a kód tesztelésére.
 ## Csomagok importálása
 Először is importáljuk az Aspose.Slides for Java programhoz szükséges csomagokat. Ezek az importálások lehetővé teszik számunkra a prezentációk kezelését és a tulajdonságaik elérését.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be a projektet
 ### Java projekt létrehozása

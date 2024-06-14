@@ -29,7 +29,7 @@ Zanim zagłębimy się w kod, upewnij się, że masz następującą konfiguracj�
 using Aspose.Slides;
 ```
 
-## Konwersja PPT na PPTX
+## Konwersja PPT do PPTX
 
 Teraz, gdy mamy już skonfigurowany projekt, napiszmy kod konwertujący plik PPT na PPTX.
 
@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//Utwórz instancję obiektu prezentacji reprezentującego plik PPT
+// Utwórz instancję obiektu prezentacji reprezentującego plik PPT
 Presentation pres = new Presentation(srcFileName);
 
 //Zapisywanie prezentacji w formacie PPTX

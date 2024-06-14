@@ -21,7 +21,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpo
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Βήμα 1: Δημιουργήστε τον Κατάλογο Έργου

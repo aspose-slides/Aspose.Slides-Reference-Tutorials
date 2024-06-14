@@ -18,7 +18,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Di proyek Java Anda, impor paket yang diperlukan:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

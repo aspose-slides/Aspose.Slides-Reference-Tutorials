@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-//Instancier un objet Présentation qui représente un fichier PPT
+// Instancier un objet Présentation qui représente un fichier PPT
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-//Instancier un objet Présentation qui représente un fichier PPT
+// Instancier un objet Présentation qui représente un fichier PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -102,7 +102,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer une
 
 ### Comment supprimer la protection en écriture d’une présentation ?
 
- Pour supprimer la protection en écriture d'une présentation, vous pouvez utiliser l'outil`removeWriteProtection()` méthode fournie par Aspose.Slides pour Java. Voici un exemple :
+ Pour supprimer la protection en écriture d'une présentation, vous pouvez utiliser l'option`removeWriteProtection()` méthode fournie par Aspose.Slides pour Java. Voici un exemple :
 
 ```java
 // Supprimer la protection en écriture

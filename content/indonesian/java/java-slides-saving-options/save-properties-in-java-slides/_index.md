@@ -45,7 +45,7 @@ Anda dapat mengatur berbagai properti dokumen seperti judul, penulis, kata kunci
 // Tetapkan judul presentasi
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Tetapkan penulis presentasi
+//Tetapkan penulis presentasi
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Tetapkan kata kunci untuk presentasi
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Jalur ke direktori dokumen.
 String dataDir = "Your Document Directory";
-//Buat instance objek Presentasi yang mewakili file PPT
+// Buat instance objek Presentasi yang mewakili file PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Dalam tutorial ini, Anda telah mempelajari cara menyimpan properti dokumen dalam
 // Tetapkan judul presentasi
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Tetapkan penulis presentasi
+//Tetapkan penulis presentasi
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Tetapkan kata kunci untuk presentasi

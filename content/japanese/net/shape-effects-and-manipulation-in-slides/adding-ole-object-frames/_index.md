@@ -8,7 +8,7 @@ weight: 15
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 ## 導入
-このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドに OLE (オブジェクトのリンクと埋め込み) オブジェクト フレームを追加するプロセスを詳しく説明します。Aspose.Slides は、開発者がプログラムで PowerPoint ファイルを操作できるようにする強力なライブラリです。このステップ バイ ステップ ガイドに従って、OLE オブジェクトをプレゼンテーション スライドにシームレスに埋め込み、動的でインタラクティブなコンテンツで PowerPoint ファイルを強化します。
+このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドに OLE (オブジェクトのリンクと埋め込み) オブジェクト フレームを追加するプロセスを詳しく説明します。Aspose.Slides は、開発者が PowerPoint ファイルをプログラムで操作できるようにする強力なライブラリです。このステップ バイ ステップ ガイドに従って、プレゼンテーション スライドに OLE オブジェクトをシームレスに埋め込み、動的でインタラクティブなコンテンツで PowerPoint ファイルを強化します。
 ## 前提条件
 始める前に、次の前提条件が満たされていることを確認してください。
 1.  Aspose.Slides for .NET ライブラリ: Aspose.Slides ライブラリがインストールされていることを確認してください。[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
@@ -83,4 +83,4 @@ A: はい、Aspose.Slides は PPTX を含む最新の PowerPoint ファイル形
 ### Q: 埋め込まれた OLE オブジェクト フレームの外観をカスタマイズできますか?
 A: もちろんです。OLE オブジェクト フレームのサイズ、位置、その他のプロパティは、好みに応じて調整できます。
 ### Q: 実装中に問題が発生した場合、どこに支援を求めることができますか?
-A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとガイダンスのため。
+ A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとガイダンスのため。

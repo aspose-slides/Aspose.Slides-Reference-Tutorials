@@ -12,14 +12,14 @@ Cherchez-vous à manipuler des formes dans vos présentations PowerPoint à l’
 ## Conditions préalables
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 1.  Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides pour Java : téléchargez la bibliothèque Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides pour Java : téléchargez la bibliothèque Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/slides/java/).
 3. Environnement de développement intégré (IDE) : utilisez un IDE comme IntelliJ IDEA ou Eclipse pour écrire et exécuter votre code Java.
 4. Connaissance de base de Java : Une compréhension de base de la programmation Java vous aidera à suivre ce didacticiel.
 ## Importer des packages
 Pour commencer, nous devons importer les packages nécessaires depuis la bibliothèque Aspose.Slides. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Décomposons le processus de suppression d'un segment d'une forme géométrique dans une diapositive PowerPoint en plusieurs étapes.
 ## Étape 1 : Créer une nouvelle présentation
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Étape 6 : Enregistrez la présentation
 Enfin, enregistrez la présentation modifiée dans un fichier.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Étape 7 : Nettoyer les ressources

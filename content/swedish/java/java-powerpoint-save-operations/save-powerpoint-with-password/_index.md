@@ -19,7 +19,7 @@ Först måste du importera de nödvändiga paketen i din Java-fil:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Steg 1: Ställ in miljön

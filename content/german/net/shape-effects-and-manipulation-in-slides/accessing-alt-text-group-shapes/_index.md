@@ -66,7 +66,7 @@ foreach (IShape shape in groupShape.Shapes)
 
 ## Ändern von Alternativtext
 
- Um den Alternativtext einer Form zu ändern, weisen Sie einfach seiner`AlternativeText` Eigentum:
+ Um den Alternativtext einer Form zu ändern, weisen Sie einfach der Form einen neuen Wert zu.`AlternativeText` Eigentum:
 
 ```csharp
 shape.AlternativeText = "New alt text";

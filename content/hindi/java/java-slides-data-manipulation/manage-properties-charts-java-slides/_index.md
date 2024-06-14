@@ -14,7 +14,7 @@ url: /hi/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## आवश्यक शर्तें
 
- शुरू करने से पहले, सुनिश्चित करें कि आपके पास जावा के लिए Aspose.Slides लाइब्रेरी स्थापित है और आपके प्रोजेक्ट में सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास जावा के लिए Aspose.Slides लाइब्रेरी स्थापित है और आपके प्रोजेक्ट में सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
 
 ## स्लाइड में चार्ट जोड़ना
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // दूसरा चार्ट श्रृंखला लें
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- आप चार्ट प्रकार को संशोधित करके बदल सकते हैं`ChartType`चार्ट जोड़ते समय पैरामीटर। उपलब्ध चार्ट प्रकारों के लिए Aspose.Slides दस्तावेज़ देखें।
+ आप चार्ट प्रकार को संशोधित करके बदल सकते हैं`ChartType` चार्ट जोड़ते समय पैरामीटर। उपलब्ध चार्ट प्रकारों के लिए Aspose.Slides दस्तावेज़ देखें।
 
 ### क्या मैं चार्ट के रंगों को अनुकूलित कर सकता हूँ?
 

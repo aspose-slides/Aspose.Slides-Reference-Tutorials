@@ -8,7 +8,7 @@ weight: 13
 url: /sv/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
-Att skapa anpassade miniatyrbilder av dina PowerPoint-presentationer kan vara en värdefull tillgång, oavsett om du bygger en interaktiv applikation, förbättrar användarupplevelsen eller optimerar innehåll för olika plattformar. I den här handledningen guidar vi dig genom processen att skapa anpassade miniatyrbilder från PowerPoint-presentationer med hjälp av Aspose.Slides för .NET-biblioteket. Detta kraftfulla bibliotek låter dig manipulera, konvertera och förbättra PowerPoint-filer programmatiskt i .NET-applikationer.
+Att skapa anpassade miniatyrbilder av dina PowerPoint-presentationer kan vara en värdefull tillgång, oavsett om du bygger en interaktiv applikation, förbättrar användarupplevelsen eller optimerar innehåll för olika plattformar. I den här handledningen kommer vi att guida dig genom processen att skapa anpassade miniatyrbilder från PowerPoint-presentationer med hjälp av Aspose.Slides för .NET-biblioteket. Detta kraftfulla bibliotek låter dig manipulera, konvertera och förbättra PowerPoint-filer programmatiskt i .NET-applikationer.
 
 ## Förutsättningar
 
@@ -48,7 +48,7 @@ string srcFileName = FilePath + "User Defined Thumbnail.pptx";
 // Instantiera en presentationsklass som representerar presentationsfilen
 using (Presentation pres = new Presentation(srcFileName))
 {
-    // Din kod för generering av miniatyrer kommer hit
+    // Din kod för att generera miniatyrer kommer hit
 }
 ```
 

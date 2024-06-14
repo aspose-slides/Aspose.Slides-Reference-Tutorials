@@ -11,7 +11,7 @@ url: /tr/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 İlgi çekici ve dinamik sunum slaytları oluşturmak, etkili iletişimin önemli bir yönüdür. Aspose.Slides for .NET, şekillere 3D döndürme efektleri uygulama yeteneği de dahil olmak üzere sunumlarınızı geliştirmek için güçlü bir araç seti sağlar. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarındaki şekillere 3D döndürme efekti uygulama sürecini anlatacağız.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
--  Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/slides/net/).
 - Geliştirme Ortamı: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir .NET geliştirme ortamı kurun.
 ## Ad Alanlarını İçe Aktar
 Aspose.Slides'ın işlevselliğinden yararlanmak için .NET projenize gerekli ad alanlarını içe aktarın. Kodunuzun başına aşağıdaki ad alanlarını ekleyin:

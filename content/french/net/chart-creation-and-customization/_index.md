@@ -26,4 +26,4 @@ Découvrez comment comparer des diapositives dans des présentations à l'aide d
 ### [Obtenir un exemple d'espace réservé de base](./get-base-placeholder-example/)
 Découvrez comment utiliser Aspose.Slides pour .NET pour créer des présentations PowerPoint dynamiques avec des espaces réservés de base.
 ### [Gérer l'en-tête et le pied de page dans les diapositives](./header-footer-manager/)
-Découvrez comment gérer les en-têtes et les pieds de page des diapositives à l'aide d'Aspose.Slides pour .NET. Personnalisez vos présentations avec facilité et précision.
+Découvrez comment gérer les en-têtes et les pieds de page dans les diapositives à l'aide d'Aspose.Slides pour .NET. Personnalisez vos présentations avec facilité et précision.

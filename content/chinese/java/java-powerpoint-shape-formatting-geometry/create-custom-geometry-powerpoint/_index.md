@@ -20,7 +20,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-p
 在深入编码部分之前，让我们先导入必要的包。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;

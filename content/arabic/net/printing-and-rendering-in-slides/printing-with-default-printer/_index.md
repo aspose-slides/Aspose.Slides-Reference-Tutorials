@@ -50,4 +50,4 @@ presentation.Print();
 ### هل التراخيص المؤقتة متاحة لأغراض الاختبار؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
 ### كيف يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.Slides؟
- قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11)لطرح الأسئلة ومشاركة الأفكار والتواصل مع زملائك المطورين.
+ قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لطرح الأسئلة ومشاركة الأفكار والتواصل مع زملائك المطورين.

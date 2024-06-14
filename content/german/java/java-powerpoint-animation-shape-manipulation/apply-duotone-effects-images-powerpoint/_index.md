@@ -19,7 +19,7 @@ Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie über Folg
 Zuerst müssen Sie die erforderlichen Pakete in Ihr Java-Programm importieren. So geht's:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -48,7 +48,7 @@ Legen Sie nun das Bild als Hintergrund für die erste Folie fest. Dazu konfiguri
     presentation.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(backgroundImage);
 ```
 ## Schritt 5: Fügen Sie den Duotone-Effekt hinzu
-Fügen Sie dem Hintergrundbild einen Duotone-Effekt hinzu. In diesem Schritt wird ein Duotone-Objekt erstellt und seine Eigenschaften festgelegt.
+Fügen Sie dem Hintergrundbild einen Duotone-Effekt hinzu. In diesem Schritt wird ein Duotone-Objekt erstellt und dessen Eigenschaften festgelegt.
 ```java
     IDuotone duotone = presentation.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().getImageTransform().addDuotoneEffect();
 ```

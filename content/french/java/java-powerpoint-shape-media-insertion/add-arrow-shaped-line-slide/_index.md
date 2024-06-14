@@ -12,19 +12,19 @@ Dans ce didacticiel, nous allons explorer comment ajouter une ligne en forme de 
 ## Conditions préalables
 Avant de commencer, assurez-vous de disposer des prérequis suivants :
 - Kit de développement Java (JDK) installé sur votre système.
-- Bibliothèque Aspose.Slides pour Java téléchargée et configurée dans votre projet Java. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
+-  Bibliothèque Aspose.Slides pour Java téléchargée et configurée dans votre projet Java. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 - Connaissance de base du langage de programmation Java.
 
 ## Importer des packages
 Tout d’abord, importez les packages nécessaires dans votre classe Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
 ## Étape 1 : configurer l'environnement
-Assurez-vous d’avoir configuré les répertoires nécessaires. Si le répertoire n'existe pas, créez-le.
+Assurez-vous d'avoir configuré les répertoires nécessaires. Si le répertoire n'existe pas, créez-le.
 ```java
 String dataDir = "Your Document Directory";
 boolean isExists = new File(dataDir).exists();
@@ -67,7 +67,7 @@ Dans ce didacticiel, nous avons appris à ajouter une ligne en forme de flèche 
 ### Puis-je personnaliser la couleur de la ligne de flèche ?
  Oui, vous pouvez spécifier n'importe quelle couleur en utilisant le`setColor` méthode avec`SolidFillColor`.
 ### Comment puis-je modifier la position et la taille de la ligne de flèche ?
-Ajustez les paramètres transmis au`addAutoShape` méthode pour modifier la position et les dimensions.
+ Ajustez les paramètres transmis au`addAutoShape` méthode pour modifier la position et les dimensions.
 ### Aspose.Slides est-il compatible avec toutes les versions de PowerPoint ?
 Aspose.Slides prend en charge différents formats PowerPoint, garantissant la compatibilité entre les différentes versions.
 ### Puis-je ajouter du texte à la ligne fléchée ?

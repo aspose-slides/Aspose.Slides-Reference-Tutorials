@@ -74,7 +74,7 @@ try {
 //ドキュメントディレクトリへのパス
 String dataDir = "Your Document Directory";
 //出力ファイルへのパス
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	//スライドのトランジション、アニメーション、図形アニメーションを含むプレゼンテーションを HTML5 にエクスポートします。

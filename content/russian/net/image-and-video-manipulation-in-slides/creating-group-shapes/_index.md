@@ -75,7 +75,7 @@ groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
 groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
 ```
 
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 
 Сохраните измененную презентацию в указанном вами каталоге:
 

@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
 ## Bevezetés
-A dinamikus prezentációk terén az Aspose.Slides for .NET kiemelkedik hatékony eszközként, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk programozott kezelését és fejlesztését. Az egyik érdekes funkció a SmartArt gyermekjegyzetekhez való bélyegképek létrehozásának képessége, amely egy réteg vizuális vonzerőt ad a prezentációkhoz. Ez a részletes útmutató végigvezeti a SmartArt Child Notes miniatűrök létrehozásának folyamatán az Aspose.Slides for .NET használatával.
+dinamikus prezentációk terén az Aspose.Slides for .NET kiemelkedik hatékony eszközként, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk programozott kezelését és fejlesztését. Az egyik érdekes funkció a SmartArt gyermekjegyzetekhez való bélyegképek létrehozásának képessége, amely egy réteg vizuális vonzerőt ad a prezentációkhoz. Ez a részletes útmutató végigvezeti a SmartArt Child Notes miniatűrök létrehozásának folyamatán az Aspose.Slides for .NET használatával.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 -  Aspose.Slides .NET-hez: Győződjön meg arról, hogy az Aspose.Slides könyvtár integrálva van a .NET-projektbe. Ha nem, töltse le a[kiadások oldala](https://releases.aspose.com/slides/net/).
@@ -59,6 +59,6 @@ V: Abszolút! Az Aspose.Slides számos SmartArt-elrendezést kínál, lehetővé
 ### K: Rendelkezésre áll ideiglenes licenc tesztelési célokra?
  V: Igen, ideiglenes engedélyt szerezhet a következőtől[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
 ### K: Hol kérhetek segítséget vagy csatlakozhatok az Aspose.Slides közösséghez?
-V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) kapcsolatba lépni a közösséggel, kérdéseket feltenni és megoldásokat találni.
+ V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) kapcsolatba lépni a közösséggel, kérdéseket feltenni és megoldásokat találni.
 ### K: Megvásárolhatom az Aspose.Slides-t .NET-hez?
  V: Természetesen! Fedezze fel a vásárlási lehetőségeket[itt](https://purchase.aspose.com/buy) hogy az Aspose.Slidesben rejlő teljes potenciált kiaknázza projektjeiben.

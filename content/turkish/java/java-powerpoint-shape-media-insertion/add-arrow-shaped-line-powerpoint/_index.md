@@ -19,7 +19,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 Başlamak için gerekli paketleri Java sınıfınıza aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Evet, bu eğitimde özetlenen işlemi her satır için tekrarlayarak tek bir sla
 ### Aspose.Slides for Java, PowerPoint'in en son sürümleriyle uyumlu mu?
 Aspose.Slides for Java, PowerPoint'in çeşitli sürümleriyle uyumluluğu destekleyerek sunumlarınızla kusursuz entegrasyon sağlar.
 ### Ok şeklindeki çizginin rengini özelleştirebilir miyim?
- Evet, ok şeklindeki çizginin rengini ayarlayarak özelleştirebilirsiniz.`SolidFillColor` koddaki özellik.
+Evet, ok şeklindeki çizginin rengini ayarlayarak özelleştirebilirsiniz.`SolidFillColor` koddaki özellik.
 ### Aspose.Slides for Java çizgilerin yanı sıra diğer şekilleri de destekliyor mu?
 Evet, Aspose.Slides for Java, PowerPoint slaytlarına dikdörtgenler, daireler ve çokgenler dahil olmak üzere çeşitli şekiller eklemek için kapsamlı destek sağlar.
 ### Aspose.Slides for Java için daha fazla kaynağı ve desteği nerede bulabilirim?

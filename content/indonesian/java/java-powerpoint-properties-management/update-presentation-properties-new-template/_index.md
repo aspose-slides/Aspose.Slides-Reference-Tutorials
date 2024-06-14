@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Tentukan Metode Utama
 Buat metode utama di mana Anda akan memulai proses memperbarui properti presentasi dengan templat baru. Metode ini berfungsi sebagai titik masuk untuk aplikasi Java Anda.

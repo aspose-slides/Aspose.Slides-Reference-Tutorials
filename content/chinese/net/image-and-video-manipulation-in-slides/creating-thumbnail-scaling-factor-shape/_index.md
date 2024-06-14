@@ -8,7 +8,7 @@ weight: 12
 url: /zh/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
 ## 介绍
-欢迎阅读我们关于在 Aspose.Slides for .NET 中创建带形状边界的缩略图的综合指南。Aspose.Slides 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝处理 PowerPoint 演示文稿。在本教程中，我们将深入研究使用 Aspose.Slides 在演示文稿中生成带形状特定边界的缩略图的过程。
+欢迎阅读我们关于在 Aspose.Slides for .NET 中创建带形状边界的缩略图的综合指南。Aspose.Slides 是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝处理 PowerPoint 演示文稿。在本教程中，我们将深入研究使用 Aspose.Slides 为演示文稿中的形状生成具有特定边界的缩略图的过程。
 ## 先决条件
 在开始之前，请确保您已满足以下先决条件：
 -  Aspose.Slides for .NET：确保已安装 Aspose.Slides 库。您可以从以下网址下载[这里](https://releases.aspose.com/slides/net/).

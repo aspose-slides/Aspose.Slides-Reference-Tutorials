@@ -12,13 +12,13 @@ Menambahkan Bingkai Objek OLE (Object Linking and Embedding) dalam presentasi Po
 ### Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda.
-2. Aspose.Slides for Java: Unduh dan instal Aspose.Slides for Java dari situs web[Di Sini](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Unduh dan instal Aspose.Slides for Java dari situs web[Di Sini](https://releases.aspose.com/slides/java/).
 3. Pemahaman Dasar Pemrograman Java: Biasakan diri Anda dengan konsep dan sintaksis pemrograman Java.
 ## Paket Impor
 Pertama, Anda perlu mengimpor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.Slides untuk Java. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Pastikan proyek Anda dikonfigurasi dengan benar dan pustaka Aspose.Slides disert
 Buat objek Presentasi untuk mewakili file PowerPoint yang sedang Anda kerjakan:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Kelas Presentasi Instantiate yang mewakili PPTX
 Presentation pres = new Presentation();
 ```

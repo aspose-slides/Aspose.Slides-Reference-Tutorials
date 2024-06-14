@@ -53,7 +53,7 @@ geometryPath.LineTo(100, 50, 4);
 ```csharp
 shape.SetGeometryPath(geometryPath);
 ```
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 Сохраните измененную презентацию в нужном месте.
 ```csharp
 pres.Save(resultPath, SaveFormat.Pptx);

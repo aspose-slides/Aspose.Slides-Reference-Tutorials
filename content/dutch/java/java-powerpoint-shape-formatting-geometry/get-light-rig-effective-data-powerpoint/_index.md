@@ -20,7 +20,7 @@ Laten we eerst ons project opzetten en de benodigde pakketten importeren. Maak e
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel de projectdirectory in
 Begin met het instellen van uw projectmap. Maak een map waarin u uw Java-bestanden en de PowerPoint-presentatie opslaat (`Presentation1.pptx`).

@@ -128,10 +128,10 @@ Ya, Aspose.Slides untuk .NET mendukung format PowerPoint terbaru, termasuk PPTX.
 Ya, Anda dapat memodifikasi kode untuk beralih melalui beberapa slide dan mengekstrak multimedia dari masing-masing slide.
 
 ### Apakah ada opsi lisensi untuk Aspose.Slides untuk .NET?
- Aspose menawarkan berbagai opsi lisensi, termasuk uji coba gratis dan lisensi sementara. Anda dapat menjelajahi opsi ini di situs mereka[situs web](https://purchase.aspose.com/buy).
+Aspose menawarkan berbagai opsi lisensi, termasuk uji coba gratis dan lisensi sementara. Anda dapat menjelajahi opsi ini di situs mereka[situs web](https://purchase.aspose.com/buy).
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
  Untuk dukungan teknis dan diskusi komunitas, Anda dapat mengunjungi Aspose.Slides[forum](https://forum.aspose.com/).
 
 ### Tugas lain apa yang dapat saya lakukan dengan Aspose.Slides untuk .NET?
-Aspose.Slides for .NET menyediakan berbagai fitur, termasuk membuat, memodifikasi, dan mengonversi presentasi PowerPoint. Anda dapat menjelajahi dokumentasi untuk lebih jelasnya:[Aspose.Slide untuk Dokumentasi .NET](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET menyediakan berbagai fitur, termasuk membuat, memodifikasi, dan mengonversi presentasi PowerPoint. Anda dapat menjelajahi dokumentasi untuk lebih jelasnya:[Aspose.Slide untuk Dokumentasi .NET](https://reference.aspose.com/slides/net/).

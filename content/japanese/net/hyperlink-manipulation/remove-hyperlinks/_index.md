@@ -76,7 +76,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for .NET は最新の PowerPoint ファイル形式と互換性がありますか?
 はい、Aspose.Slides for .NET は、PPTX を含む最新の PowerPoint ファイル形式をサポートしています。
 
-### 複数のプレゼンテーションに対してこのプロセスを一括で自動化できますか?
+### 複数のプレゼンテーションを一括してこのプロセスを自動化できますか?
 はい、その通りです。Aspose.Slides for .NET を使用すると、複数のプレゼンテーションにわたるタスクを自動化できるため、バッチ処理に適しています。
 
 ### Aspose.Slides for .NET が PowerPoint プレゼンテーション向けに提供するその他の機能はありますか?

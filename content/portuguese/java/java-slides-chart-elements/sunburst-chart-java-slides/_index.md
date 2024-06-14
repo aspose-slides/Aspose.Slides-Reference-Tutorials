@@ -121,7 +121,7 @@ try
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
-	//ramo 2
+	//filial 2
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");

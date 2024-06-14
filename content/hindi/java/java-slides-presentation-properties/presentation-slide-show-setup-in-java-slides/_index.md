@@ -21,7 +21,7 @@ url: /hi/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 सबसे पहले, हमें एक नया पावरपॉइंट प्रेजेंटेशन बनाना होगा। जावा में आप इसे इस तरह बना सकते हैं:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## जावा स्लाइड्स में प्रेजेंटेशन स्लाइड शो सेटअप के लिए पूरा सोर्स कोड
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// स्लाइड शो सेटिंग्स प्राप्त करता है
@@ -133,11 +133,11 @@ try {
 
 ### मैं स्लाइड शो में विशिष्ट स्लाइड कैसे जोड़ूं?
 
- स्लाइड शो में विशिष्ट स्लाइड्स शामिल करने के लिए, एक बनाएं`SlidesRange` ऑब्जेक्ट और प्रारंभ और अंत स्लाइड संख्या सेट करें`setStart` और`setEnd` विधियाँ। फिर, इस श्रेणी को स्लाइड शो सेटिंग्स में असाइन करें`slideShow.setSlides(slidesRange)`.
+ स्लाइड शो में विशिष्ट स्लाइड्स शामिल करने के लिए, एक बनाएं`SlidesRange` ऑब्जेक्ट और प्रारंभ और अंत स्लाइड संख्या का उपयोग कर सेट करें`setStart` और`setEnd` विधियाँ। फिर, इस श्रेणी को स्लाइड शो सेटिंग्स में असाइन करें`slideShow.setSlides(slidesRange)`.
 
 ### क्या मैं प्रस्तुति में और स्लाइडें जोड़ सकता हूँ?
 
- हां, आप अपनी प्रस्तुति में अतिरिक्त स्लाइड जोड़ सकते हैं।`pres.getSlides().addClone()` मौजूदा स्लाइड्स को क्लोन करने या आवश्यकतानुसार नई स्लाइड्स बनाने की विधि। अपनी आवश्यकताओं के अनुसार इन स्लाइड्स की सामग्री को अनुकूलित करना सुनिश्चित करें।
+ हां, आप अपनी प्रस्तुति में अतिरिक्त स्लाइड जोड़ सकते हैं।`pres.getSlides().addClone()` मौजूदा स्लाइड्स को क्लोन करने या आवश्यकतानुसार नई स्लाइड्स बनाने की विधि। अपनी आवश्यकताओं के अनुसार इन स्लाइड्स की सामग्री को कस्टमाइज़ करना सुनिश्चित करें।
 
 ### मैं कॉन्फ़िगर की गई प्रस्तुति को फ़ाइल में कैसे सहेजूँ?
 

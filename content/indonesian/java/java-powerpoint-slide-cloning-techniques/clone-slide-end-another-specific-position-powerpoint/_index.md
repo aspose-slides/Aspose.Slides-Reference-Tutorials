@@ -22,7 +22,7 @@ Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari Aspose.Slides. In
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Sekarang, mari kita bagi prosesnya menjadi langkah-langkah sederhana.
@@ -72,6 +72,6 @@ Aspose.Slides untuk Java menawarkan uji coba gratis. Untuk fitur lengkap, Anda p
 ### Bisakah saya mengkloning slide antar presentasi dengan format berbeda?
 Ya, Aspose.Slides untuk Java mendukung kloning slide antara presentasi dengan format berbeda (misalnya, PPTX ke PPT).
 ### Bagaimana cara menangani presentasi besar secara efisien?
-Untuk presentasi besar, pastikan manajemen memori efisien dengan membuang presentasi dengan benar dan mempertimbangkan penggunaan fitur canggih Aspose untuk menangani file besar.
+Untuk presentasi besar, pastikan manajemen memori yang efisien dengan membuang presentasi dengan benar dan mempertimbangkan penggunaan fitur canggih Aspose untuk menangani file besar.
 ### Bisakah saya menyesuaikan slide yang dikloning?
 Sangat. Setelah kloning, Anda dapat memanipulasi slide menggunakan Aspose.Slides untuk API ekstensif Java agar sesuai dengan kebutuhan Anda.

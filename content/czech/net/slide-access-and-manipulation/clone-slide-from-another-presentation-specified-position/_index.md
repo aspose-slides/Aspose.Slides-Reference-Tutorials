@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Jakmile je snímek naklonován a vložen na požadované místo, musíte uložit upravenou cílovou prezentaci. K uložení prezentace použijte následující kód:
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Vložte klonované sklíčko na určené místo
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Uložte upravenou prezentaci
+            //Uložte upravenou prezentaci
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

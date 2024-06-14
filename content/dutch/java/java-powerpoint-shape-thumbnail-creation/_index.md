@@ -31,14 +31,14 @@ Interactieve elementen zoals zoomeffecten kunnen de navigatie en betrokkenheid v
 
 Het organiseren van vormen in groepen of het maken van miniaturen voor SmartArt kan de visuele aantrekkingskracht en structuur van uw dia's verbeteren.
 
--  Vormen groeperen: Het groeperen van vormen helpt bij het beheren van meerdere vormen als één geheel, waardoor het gemakkelijker wordt om ze op te maken en te positioneren. Leer hoe u groepsvormen kunt maken met onze[Maak een groepsvorm in PowerPoint](./create-group-shape-powerpoint/) gids.
+-  Vormen groeperen: Het groeperen van vormen helpt bij het beheren van meerdere vormen als een enkele eenheid, waardoor het gemakkelijker wordt om ze op te maken en te positioneren. Leer hoe u groepsvormen kunt maken met onze[Maak groepsvorm in PowerPoint](./create-group-shape-powerpoint/) gids.
 -  SmartArt-miniaturen voor onderliggende notities: Het maken van miniaturen voor onderliggende SmartArt-notities kan het begrip en de navigatie van complexe diagrammen vereenvoudigen. Bekijk onze stap-voor-stap handleiding[Maak een SmartArt-miniatuur van onderliggende notities](./create-smartart-child-note-thumbnail/) voor gedetailleerde instructies.
 
 Door gebruik te maken van deze tutorials kunt u uw PowerPoint-presentaties aanzienlijk verbeteren, waardoor ze aantrekkelijker en visueel aantrekkelijker worden. Aspose.Slides voor Java biedt de tools die u nodig hebt om deze geavanceerde functies eenvoudig toe te voegen, waardoor zowel de functionaliteit als de esthetiek van uw dia's worden verbeterd. Duik in elke tutorial en verbeter vandaag nog uw presentatievaardigheden!
 ## Zelfstudies voor het maken van Java PowerPoint-vormen en miniaturen
 ### [Maak een grensvormminiatuur](./create-bounds-shape-thumbnail/)
 Leer hoe u vormminiaturen met grenzen kunt maken met Aspose.Slides voor Java. Deze stapsgewijze zelfstudie begeleidt u door het proces.
-### [Maak een groepsvorm in PowerPoint](./create-group-shape-powerpoint/)
+### [Maak groepsvorm in PowerPoint](./create-group-shape-powerpoint/)
 Leer hoe u groepsvormen kunt maken in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter moeiteloos de organisatie en visuele aantrekkingskracht.
 ### [Schaalfactorminiatuur maken](./create-scaling-factor-thumbnail/)
 Leer hoe u schaalfactorminiaturen kunt maken in Java met behulp van Aspose.Slides voor Java. Eenvoudig te volgen handleiding met stapsgewijze instructies.

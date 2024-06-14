@@ -9,7 +9,7 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만들려면 모양을 정확하게 정렬해야 하는 경우가 많습니다. .NET용 Aspose.Slides는 이를 쉽게 달성할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 모양을 정렬하는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: .NET 라이브러리용 Aspose.Slides가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 컴퓨터에 .NET 개발 환경을 설정합니다.
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Aspose.Slides for .NET을 활용하여 모양을 정확하게 정렬함으로써 프레젠테이션 슬라이드의 시각적 매력을 쉽게 향상시킬 수 있습니다. 이 단계별 가이드는 정렬 프로세스를 간소화하고 전문적인 프레젠테이션을 만드는 데 필요한 지식을 제공합니다.
 ## 자주 묻는 질문
 ### .NET용 Aspose.Slides를 사용하여 기존 프레젠테이션의 모양을 정렬할 수 있나요?
- 예, 다음을 사용하여 기존 프리젠테이션을 로드할 수 있습니다.`Presentation.Load`그런 다음 모양 정렬을 진행합니다.
+ 예, 다음을 사용하여 기존 프리젠테이션을 로드할 수 있습니다.`Presentation.Load` 그런 다음 모양 정렬을 진행합니다.
 ### Aspose.Slides에서 사용할 수 있는 다른 정렬 옵션이 있습니까?
 Aspose.Slides는 AlignTop, AlignRight, AlignBottom, AlignLeft 등을 포함한 다양한 정렬 옵션을 제공합니다.
 ### 슬라이드의 분포를 기준으로 도형을 정렬할 수 있나요?

@@ -66,7 +66,7 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 ### Czy Aspose.Slides jest kompatybilny z .NET Core?
 Tak, Aspose.Slides obsługuje .NET Core, zapewniając elastyczność w Twoim środowisku programistycznym.
 ### Czy mogę ukryć kształty na podstawie warunków innych niż tekst alternatywny?
-Absolutnie! Możesz dostosować logikę ukrywania w oparciu o różne atrybuty, takie jak typ kształtu, kolor lub położenie.
+Absolutnie! Możesz dostosować logikę ukrywania w oparciu o różne atrybuty, takie jak typ kształtu, kolor lub pozycja.
 ### Gdzie mogę znaleźć dodatkową dokumentację Aspose.Slides?
  Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/)szczegółowe informacje i przykłady.
 ### Czy dostępne są tymczasowe licencje dla Aspose.Slides?

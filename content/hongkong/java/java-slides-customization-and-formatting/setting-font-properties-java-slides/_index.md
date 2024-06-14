@@ -44,7 +44,7 @@ chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
 - `setFontBold(NullableBool.True)`：此行將字體設定為粗體。
-- `setFontHeight(20)`：此行將字體高度設定為 20 磅。您可以根據需要調整該值。
+- `setFontHeight(20)`：此行將字體高度設定為 20 點。您可以根據需要調整該值。
 
 ## 第 4 步：儲存簡報
 

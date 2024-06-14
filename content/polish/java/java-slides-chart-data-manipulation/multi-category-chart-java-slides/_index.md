@@ -138,7 +138,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się tworzyć wykresy z wieloma kategoriami na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, aby utworzyć grupowany wykres kolumnowy z wieloma kategoriami i seriami.
+W tym samouczku nauczyliśmy się tworzyć wykresy z wieloma kategoriami na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Przeszliśmy przez przewodnik krok po kroku z kodem źródłowym, aby utworzyć grupowany wykres kolumnowy z wieloma kategoriami i seriami.
 
 ## Często zadawane pytania
 

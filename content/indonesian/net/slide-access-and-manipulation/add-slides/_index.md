@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Setelah memasukkan slide tambahan, Anda harus menyimpan presentasi yang dimodifikasi.
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Mengganti`"path_to_modified_presentation.pptx"` dengan jalur dan nama file yang diinginkan untuk presentasi yang dimodifikasi.
+ Mengganti`"path_to_modified_presentation.pptx"`dengan jalur dan nama file yang diinginkan untuk presentasi yang dimodifikasi.
 
 ## Kesimpulan
 
@@ -98,7 +98,7 @@ Anda dapat menyesuaikan konten slide baru dengan mengakses bentuk dan propertiny
 
 ### Bagaimana jika saya ingin menyisipkan slide di awal presentasi?
 
- Untuk menyisipkan slide di awal presentasi, atur`insertionIndex` ke`0`.
+Untuk menyisipkan slide di awal presentasi, atur`insertionIndex` ke`0`.
 
 ### Apakah mungkin untuk mengubah tata letak slide yang disisipkan?
 

@@ -16,7 +16,7 @@ Dalam dunia pengembangan Java, bekerja dengan slide presentasi adalah tugas yang
 
 Sebelum kita mendalami kodenya, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Slides untuk Perpustakaan Java: Anda harus menginstal perpustakaan Aspose.Slides untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides untuk Perpustakaan Java: Anda harus menginstal perpustakaan Aspose.Slides untuk Java. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
 
 2. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
 
@@ -52,7 +52,7 @@ Dalam kode ini:
 
 -  Kami membuat`Presentation` objek yang mewakili file presentasi.
 
-- Kami menentukan serangkaian posisi slide yang ingin Anda konversi. Dalam contoh ini, kami mengonversi slide di posisi 1 dan 3. Anda dapat menyesuaikan larik ini untuk memilih slide spesifik yang Anda perlukan.
+- Kami menentukan serangkaian posisi slide yang ingin Anda konversi. Dalam contoh ini, kami mengonversi slide di posisi 1 dan 3. Anda dapat menyesuaikan larik ini untuk memilih slide tertentu yang Anda perlukan.
 
 - Terakhir, kami menyimpan slide yang dipilih sebagai file PDF (`RequiredSelectedSlides_out.pdf`).
 

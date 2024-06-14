@@ -2,7 +2,7 @@
 title: تصدير الأشكال إلى تنسيق SVG من العرض التقديمي
 linktitle: تصدير الأشكال إلى تنسيق SVG من العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تصدير الأشكال من عرض PowerPoint التقديمي إلى تنسيق SVG باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر متضمن. استخراج الأشكال بكفاءة لمختلف التطبيقات.
+description: تعرف على كيفية تصدير الأشكال من عرض PowerPoint التقديمي إلى تنسيق SVG باستخدام Aspose.Slides لـ .NET. تم تضمين دليل خطوة بخطوة مع كود المصدر. استخراج الأشكال بكفاءة لمختلف التطبيقات.
 type: docs
 weight: 16
 url: /ar/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/

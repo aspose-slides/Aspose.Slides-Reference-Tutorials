@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Verbeter moeiteloos de visuele aantrekkingskracht van uw presentatiedia's door gebruik te maken van Aspose.Slides voor .NET om vormen nauwkeurig uit te lijnen. Met deze stapsgewijze handleiding beschikt u over de kennis om het uitlijningsproces te stroomlijnen en professioneel ogende presentaties te maken.
 ## Veelgestelde vragen
 ### Kan ik vormen in een bestaande presentatie uitlijnen met Aspose.Slides voor .NET?
- Ja, u kunt een bestaande presentatie laden met`Presentation.Load`en ga vervolgens verder met het uitlijnen van vormen.
+ Ja, u kunt een bestaande presentatie laden met`Presentation.Load` en ga vervolgens verder met het uitlijnen van vormen.
 ### Zijn er andere uitlijningsopties beschikbaar in Aspose.Slides?
 Aspose.Slides biedt verschillende uitlijningsopties, waaronder AlignTop, AlignRight, AlignBottom, AlignLeft en meer.
 ### Kan ik vormen uitlijnen op basis van hun verdeling in een dia?

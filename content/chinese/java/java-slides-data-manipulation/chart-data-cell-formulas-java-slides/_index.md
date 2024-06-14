@@ -21,7 +21,7 @@ url: /zh/java/data-manipulation/chart-data-cell-formulas-java-slides/
 首先，让我们创建一个新的 PowerPoint 演示文稿并向其中添加图表。
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -32,7 +32,7 @@ try
     IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
     
     //继续数据单元操作
-    //...
+    // ...
     
     //保存演示文稿
     presentation.save(outpptxFile, SaveFormat.Pptx);
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Java 幻灯片中图表数据单元格公式的完整源代码
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

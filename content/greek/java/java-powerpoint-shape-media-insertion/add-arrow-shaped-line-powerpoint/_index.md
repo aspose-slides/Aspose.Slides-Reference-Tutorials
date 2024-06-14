@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerp
 Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα στην τάξη Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### Είναι το Aspose.Slides για Java συμβατό με τις πιο πρόσφατες εκδόσεις του PowerPoint;
 Το Aspose.Slides για Java υποστηρίζει συμβατότητα με διάφορες εκδόσεις του PowerPoint, διασφαλίζοντας απρόσκοπτη ενσωμάτωση με τις παρουσιάσεις σας.
 ### Μπορώ να προσαρμόσω το χρώμα της γραμμής σε σχήμα βέλους;
- Ναι, μπορείτε να προσαρμόσετε το χρώμα της γραμμής σε σχήμα βέλους προσαρμόζοντας το`SolidFillColor` ιδιοκτησία στον κωδικό.
+Ναι, μπορείτε να προσαρμόσετε το χρώμα της γραμμής σε σχήμα βέλους προσαρμόζοντας το`SolidFillColor` ιδιοκτησία στον κωδικό.
 ### Το Aspose.Slides για Java υποστηρίζει άλλα σχήματα εκτός από γραμμές;
 Ναι, το Aspose.Slides για Java παρέχει εκτενή υποστήριξη για την προσθήκη διαφόρων σχημάτων, συμπεριλαμβανομένων ορθογωνίων, κύκλων και πολυγώνων, σε διαφάνειες του PowerPoint.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides για Java;

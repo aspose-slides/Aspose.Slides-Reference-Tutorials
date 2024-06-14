@@ -12,17 +12,17 @@ Dalam presentasi modern, menggabungkan elemen yang menarik secara visual dan ter
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.
-2.  Aspose.Slides for Java Library: Unduh dan sertakan perpustakaan Aspose.Slides for Java dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Unduh dan sertakan perpustakaan Aspose.Slides for Java dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
 3. Lingkungan Pengembangan Terpadu (IDE): Pilih IDE Java pilihan Anda, seperti IntelliJ IDEA atau Eclipse.
 
 ## Paket Impor
 Untuk memulai, impor paket yang diperlukan untuk menggunakan fungsi Aspose.Slides untuk Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Siapkan Lingkungan Anda
- Pastikan Anda telah menyiapkan direktori untuk proyek tempat Anda dapat membuat dan menyimpan presentasi PowerPoint. Mengganti`"Your Document Directory"`dengan jalur ke direktori yang Anda inginkan.
+ Pastikan Anda telah menyiapkan direktori untuk proyek tempat Anda dapat membuat dan menyimpan presentasi PowerPoint. Mengganti`"Your Document Directory"` dengan jalur ke direktori yang Anda inginkan.
 ```java
 String dataDir = "Your Document Directory";
 ```

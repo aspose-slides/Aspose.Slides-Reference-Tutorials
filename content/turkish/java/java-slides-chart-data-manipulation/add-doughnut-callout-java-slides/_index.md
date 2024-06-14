@@ -179,4 +179,4 @@ Evet, Donut grafiğine gerektiği kadar veri noktası ekleyebilirsiniz. Kategori
 
 ### Slayttaki Halka grafiğinin konumunu ve boyutunu nasıl ayarlayabilirim?
 
-Aşağıdaki parametreleri değiştirerek Halka grafiğinin konumunu ve boyutunu değiştirebilirsiniz.`addChart` yöntem. Bu yöntemdeki dört sayı, sırasıyla grafiğin sol üst köşesinin X ve Y koordinatlarına ve genişliğine ve yüksekliğine karşılık gelir.
+ Aşağıdaki parametreleri değiştirerek Halka grafiğinin konumunu ve boyutunu değiştirebilirsiniz.`addChart` yöntem. Bu yöntemdeki dört sayı, sırasıyla grafiğin sol üst köşesinin X ve Y koordinatlarına ve genişliğine ve yüksekliğine karşılık gelir.

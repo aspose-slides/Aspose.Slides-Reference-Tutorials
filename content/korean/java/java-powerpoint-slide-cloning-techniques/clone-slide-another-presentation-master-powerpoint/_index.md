@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-prese
 ---
 ## 소개
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 조작할 수 있는 강력한 라이브러리입니다. 이 문서에서는 Aspose.Slides for Java를 사용하여 마스터 슬라이드를 유지하면서 한 프레젠테이션에서 다른 프레젠테이션으로 슬라이드를 복제하는 방법에 대한 포괄적인 단계별 자습서를 제공합니다.
-## 전제조건
+## 전제 조건
 코딩 부분을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides for Java 라이브러리: 다음 사이트에서 Aspose.Slides for Java를 다운로드하고 설치하세요.[Aspose 릴리스 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
 시작하려면 필요한 Aspose.Slides 패키지를 Java 프로젝트로 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 마스터 슬라이드가 포함된 다른 프레젠테이션에 슬라이드를 복제하는 과정을 세부 단계로 나누어 보겠습니다.
 ## 1단계: 소스 프레젠테이션 로드
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## 4단계: 마스터 슬라이드를 대상 프레젠테이션에 복제
 원본 프레젠테이션의 마스터 슬라이드를 대상 프레젠테이션의 마스터 컬렉션으로 복제합니다.
 ```java
-//원본 프레젠테이션의 원하는 마스터 슬라이드를 대상 프레젠테이션의 마스터 컬렉션에 복제합니다.
+// 원본 프레젠테이션의 원하는 마스터 슬라이드를 대상 프레젠테이션의 마스터 컬렉션에 복제합니다.
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

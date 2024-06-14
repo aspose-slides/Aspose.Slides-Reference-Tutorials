@@ -19,7 +19,7 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
 ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจ Aspose.Slides ที่จำเป็นลงในโปรเจ็กต์ Java ของคุณ นี่คือวิธีการ:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 เรามาแจกแจงขั้นตอนการโคลนสไลด์ไปยังงานนำเสนออื่นที่มีสไลด์หลักเป็นขั้นตอนโดยละเอียด
 ## ขั้นตอนที่ 1: โหลดการนำเสนอต้นฉบับ
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## ขั้นตอนที่ 4: โคลนสไลด์ต้นแบบไปยังการนำเสนอปลายทาง
 โคลนสไลด์ต้นแบบจากการนำเสนอต้นฉบับไปยังคอลเลกชันของต้นแบบในการนำเสนอปลายทาง
 ```java
-//โคลนสไลด์ต้นแบบที่ต้องการจากการนำเสนอต้นฉบับไปยังคอลเลกชันของต้นแบบในการนำเสนอปลายทาง
+// โคลนสไลด์ต้นแบบที่ต้องการจากการนำเสนอต้นฉบับไปยังคอลเลกชันของต้นแบบในการนำเสนอปลายทาง
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

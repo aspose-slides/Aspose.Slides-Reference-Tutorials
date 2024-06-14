@@ -12,13 +12,13 @@ url: /el/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpo
 ### Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 1. Περιβάλλον ανάπτυξης Java: Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java Development Kit (JDK) στο σύστημά σας.
-2. Aspose.Slides για Java: Κατεβάστε και εγκαταστήστε το Aspose.Slides για Java από τον ιστότοπο[εδώ](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides για Java: Κατεβάστε και εγκαταστήστε το Aspose.Slides για Java από τον ιστότοπο[εδώ](https://releases.aspose.com/slides/java/).
 3. Βασική κατανόηση του προγραμματισμού Java: Εξοικειωθείτε με τις έννοιες και τη σύνταξη προγραμματισμού Java.
 ## Εισαγωγή πακέτων
 Αρχικά, πρέπει να εισαγάγετε τα απαραίτητα πακέτα για να αξιοποιήσετε τις λειτουργίες του Aspose.Slides για Java. Δείτε πώς μπορείτε να το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 Δημιουργήστε ένα αντικείμενο παρουσίασης για να αντιπροσωπεύσετε το αρχείο PowerPoint με το οποίο εργάζεστε:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Κλάση Instantiate Presentation που αντιπροσωπεύει το PPTX
 Presentation pres = new Presentation();
 ```

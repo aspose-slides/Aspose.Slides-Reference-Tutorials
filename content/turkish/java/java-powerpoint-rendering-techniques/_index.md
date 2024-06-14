@@ -14,7 +14,7 @@ PowerPoint sunumları çeşitli profesyonel ve eğitim ortamlarının temelini o
 
 ## PowerPoint'te Yorumları İşleme
 
- PowerPoint'teki yorumlar değerli bağlam ve geri bildirim sağlayarak işbirliğini daha etkili hale getirebilir. Aspose.Slides for Java'yı kullanarak bu yorumları işleyebilir ve görünümlerini özelleştirerek görünür ve anlaşılır olmalarını sağlayabilirsiniz. öğretici[PowerPoint'te Yorumları İşleme](./render-comments-powerpoint/) Yorumların görüntü önizlemelerini verimli bir şekilde oluşturma adımlarında size yol gösterir. Bu özellik özellikle sunumları gözden geçirmek ve ekiplerle paylaşmak için kullanışlıdır.
+ PowerPoint'teki yorumlar değerli bağlam ve geri bildirim sağlayarak işbirliğini daha etkili hale getirebilir. Aspose.Slides for Java'yı kullanarak bu yorumları işleyebilir ve görünümlerini özelleştirerek görünür ve anlaşılır olmalarını sağlayabilirsiniz. öğretici[PowerPoint'te Yorumları İşleme](./render-comments-powerpoint/) Yorumların görsel önizlemelerini verimli bir şekilde oluşturma adımlarında size yol gösterir. Bu özellik özellikle sunumları gözden geçirmek ve ekiplerle paylaşmak için kullanışlıdır.
 
 ## PowerPoint'te 3D Oluşturma
 

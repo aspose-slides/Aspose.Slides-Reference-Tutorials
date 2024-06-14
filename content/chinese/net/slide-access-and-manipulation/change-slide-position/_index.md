@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation(dataDir + "ChangePosition.pptx"))
 
 ### 步骤 3：移动幻灯片
 
-确定演示文稿中您想要更改其位置的幻灯片。
+确定演示文稿中您想要更改位置的幻灯片。
 
 ```csharp
 ISlide sld = pres.Slides[0];

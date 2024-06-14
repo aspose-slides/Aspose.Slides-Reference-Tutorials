@@ -2,7 +2,7 @@
 title: Gráfico de embudo en diapositivas de Java
 linktitle: Gráfico de embudo en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
-description: Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos eficaz.
+description: Aprenda a crear gráficos de embudo en presentaciones de PowerPoint con Aspose.Slides para Java. Guía paso a paso con código fuente para una visualización de datos efectiva.
 type: docs
 weight: 18
 url: /es/java/chart-data-manipulation/funnel-chart-java-slides/
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Agregue un gráfico de embudo a la primera diapositiva en las coordenadas (50, 50) con dimensiones (500, 400).
+    //Agregue un gráfico de embudo a la primera diapositiva en las coordenadas (50, 50) con dimensiones (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Puede ajustar la posición y el tamaño del gráfico de embudo modificando las c
 
 ### ¿Puedo exportar el gráfico a diferentes formatos, como PDF o imagen?
 
- Sí, Aspose.Slides para Java le permite exportar la presentación con Funnel Chart a varios formatos, incluidos PDF, formatos de imagen y más. Puedes usar el`SaveFormat` opciones para especificar el formato de salida deseado al guardar la presentación.
+Sí, Aspose.Slides para Java le permite exportar la presentación con Funnel Chart a varios formatos, incluidos PDF, formatos de imagen y más. Puedes usar el`SaveFormat` opciones para especificar el formato de salida deseado al guardar la presentación.

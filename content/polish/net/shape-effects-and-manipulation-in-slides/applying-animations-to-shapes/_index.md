@@ -8,7 +8,7 @@ weight: 21
 url: /pl/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
 ## Wstęp
-W świecie dynamicznych prezentacji dodanie animacji do kształtów może znacznie poprawić atrakcyjność wizualną i zaangażowanie slajdów. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi umożliwiający bezproblemowe osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces stosowania animacji do kształtów za pomocą Aspose.Slides, co pozwoli Ci tworzyć urzekające prezentacje, które pozostawiają niezatarte wrażenie.
+świecie dynamicznych prezentacji dodanie animacji do kształtów może znacznie poprawić atrakcyjność wizualną i zaangażowanie slajdów. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi umożliwiający bezproblemowe osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces stosowania animacji do kształtów za pomocą Aspose.Slides, co pozwoli Ci tworzyć urzekające prezentacje, które pozostawiają niezatarte wrażenie.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że masz następujące elementy:
 1.  Aspose.Slides dla .NET: Upewnij się, że biblioteka jest zainstalowana i gotowa do użycia. Możesz go pobrać[Tutaj](https://releases.aspose.com/slides/net/).
@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Twój kod do tworzenia prezentacji znajduje się tutaj.
+    // Twój kod do tworzenia prezentacji znajduje się tutaj.
 }
 ```
 ## Krok 2: Dodaj animowany kształt

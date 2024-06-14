@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/load-format-enumeration-in-java-slides/
 
  이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 PowerPoint 프레젠테이션의 형식을 결정하는 방법을 살펴보겠습니다. 특히 프레젠테이션을 로드하고 형식을 확인하는 데 중점을 둘 것입니다.`LoadFormat` 열거. 이렇게 하면 프레젠테이션이 PowerPoint 95와 같은 이전 형식인지 최신 형식인지 식별하는 데 도움이 됩니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java/) 설치 지침을 따르십시오.
 
@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## 결론
 
- 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java로 PowerPoint 프레젠테이션을 로드하고 형식을 확인하는 방법을 배웠습니다.`LoadFormat`열거. 이는 Java 애플리케이션에서 다양한 형식의 프레젠테이션을 다르게 처리해야 할 때 유용할 수 있습니다.
+ 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java로 PowerPoint 프레젠테이션을 로드하고 형식을 확인하는 방법을 배웠습니다.`LoadFormat` 열거. 이는 Java 애플리케이션에서 다양한 형식의 프레젠테이션을 다르게 처리해야 할 때 유용할 수 있습니다.
 
 ## FAQ
 
 ### Java용 Aspose.Slides를 어떻게 다운로드할 수 있나요?
 
- Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/).
+Aspose 웹사이트에서 Java 라이브러리용 Aspose.Slides를 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/slides/java/).
 
 ### 프레젠테이션 형식을 확인하는 목적은 무엇입니까?
 

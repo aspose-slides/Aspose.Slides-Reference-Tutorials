@@ -28,7 +28,7 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET die Druckausgabe von PowerPoin
 ### [Rendern von Folienkommentaren in Aspose.Slides](./rendering-slide-comments/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folienkommentare in PowerPoint-Präsentationen rendern. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele für den programmgesteuerten Zugriff auf, die Anpassung und Anzeige von Kommentaren.
 ### [Rendern von 3D-Effekten in Präsentationsfolien mit Aspose.Slides](./rendering-3d-effects/)
-Erfahren Sie, wie Sie mit Aspose.Slides für .NET Ihren Präsentationsfolien faszinierende 3D-Effekte hinzufügen. Unsere Schritt-für-Schritt-Anleitung deckt alles ab, vom Einrichten Ihrer Umgebung über das Anwenden von Animationen bis hin zum Exportieren des Endergebnisses.
+Erfahren Sie, wie Sie mit Aspose.Slides für .NET faszinierende 3D-Effekte zu Ihren Präsentationsfolien hinzufügen. Unsere Schritt-für-Schritt-Anleitung deckt alles ab, vom Einrichten Ihrer Umgebung über das Anwenden von Animationen bis hin zum Exportieren des Endergebnisses.
 ### [Rendern von Emojis und Sonderzeichen in Aspose.Slides](./rendering-emoji-special-characters/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Emojis und Sonderzeichen zu PowerPoint-Folien hinzufügen. Diese Schritt-für-Schritt-Anleitung enthält Codebeispiele und Tipps zum nahtlosen Rendern dieser Elemente.
 ### [Renderoptionen für Präsentationsfolien in Aspose.Slides erkunden](./presentation-render-options/)

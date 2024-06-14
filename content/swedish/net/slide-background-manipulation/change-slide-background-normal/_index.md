@@ -18,7 +18,7 @@ Innan vi dyker in i handledningen måste du se till att du har följande föruts
 
 2. Utvecklingsmiljö: Du bör ha en utvecklingsmiljö inrättad med Visual Studio eller något annat .NET-utvecklingsverktyg.
 
-Nu när du har förutsättningarna redo, låt oss fortsätta med att ändra bakgrunden på en bild i din presentation.
+Nu när du har förutsättningarna klara, låt oss fortsätta med att ändra bakgrunden på en bild i din presentation.
 
 ## Importera namnområden
 

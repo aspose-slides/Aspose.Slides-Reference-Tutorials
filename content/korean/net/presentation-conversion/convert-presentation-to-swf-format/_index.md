@@ -20,7 +20,7 @@ url: /ko/net/presentation-conversion/convert-presentation-to-swf-format/
 
 ## 1단계: 환경 설정
 
-시작하려면 프로젝트용 디렉터리를 만드세요. 이를 "프로젝트 디렉터리"라고 부르겠습니다. 이 디렉터리 안에 다음 소스 코드를 배치해야 합니다.
+시작하려면 프로젝트용 디렉터리를 만드세요. 이를 "프로젝트 디렉토리"라고 부르겠습니다. 이 디렉터리 안에 다음 소스 코드를 배치해야 합니다.
 
 ```csharp
 string dataDir = "Your Document Directory";

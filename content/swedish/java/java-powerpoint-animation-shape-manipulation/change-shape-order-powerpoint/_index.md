@@ -19,9 +19,9 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 För att komma igång måste du importera de nödvändiga paketen från Aspose.Slides-biblioteket. Dessa importer gör att du kan arbeta med presentationer, bilder och former.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-I den här guiden kommer vi att dela upp processen att ändra formordningen i flera steg för bättre förståelse och enklare implementering.
+den här guiden kommer vi att dela upp processen att ändra formordningen i flera steg för bättre förståelse och enklare implementering.
 ## Steg 1: Ladda presentationen
  Först måste du ladda PowerPoint-presentationsfilen du vill arbeta med. Detta steg innebär att initiera`Presentation` klass med sökvägen till din PowerPoint-fil.
 ```java

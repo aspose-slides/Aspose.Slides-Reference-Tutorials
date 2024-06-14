@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Neste código, criamos um gráfico e definimos o tamanho da fonte do texto da legenda em 20 pontos. Você pode ajustar o`setFontHeight`valor para alterar o tamanho da fonte.
+ Neste código, criamos um gráfico e definimos o tamanho da fonte do texto da legenda em 20 pontos. Você pode ajustar o`setFontHeight` valor para alterar o tamanho da fonte.
 
 ### Posso personalizar outras propriedades da legenda em um gráfico?
 
@@ -134,4 +134,4 @@ Aqui, desativamos a escala automática do eixo e especificamos os valores mínim
 
 ### Onde posso encontrar mais informações e documentação sobre Aspose.Slides?
 
-Você pode encontrar documentação abrangente e referências de API para Aspose.Slides for Java no site de documentação do Aspose. Visita[aqui](https://reference.aspose.com/slides/java/) para obter informações detalhadas sobre como usar a biblioteca.
+ Você pode encontrar documentação abrangente e referências de API para Aspose.Slides for Java no site de documentação do Aspose. Visita[aqui](https://reference.aspose.com/slides/java/) para obter informações detalhadas sobre como usar a biblioteca.

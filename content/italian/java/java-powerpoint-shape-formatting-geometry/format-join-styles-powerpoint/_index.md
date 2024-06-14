@@ -12,14 +12,14 @@ Creare presentazioni PowerPoint visivamente accattivanti può essere un compito 
 ## Prerequisiti
 Prima di iniziare, è necessario disporre di alcuni prerequisiti:
 1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer. Puoi scaricarlo da[Il sito web di Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides per Java Library: devi scaricare e includere Aspose.Slides per Java nel tuo progetto. Puoi ottenerlo da[Qui](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides per Java Library: devi scaricare e includere Aspose.Slides per Java nel tuo progetto. Puoi ottenerlo da[Qui](https://releases.aspose.com/slides/java/).
 3. Ambiente di sviluppo integrato (IDE): utilizza un IDE come IntelliJ IDEA, Eclipse o NetBeans per scrivere ed eseguire il codice Java.
 4. Conoscenza di base di Java: una comprensione fondamentale della programmazione Java ti aiuterà a seguire il tutorial.
 ## Importa pacchetti
 Innanzitutto, devi importare i pacchetti necessari per Aspose.Slides. Questo è essenziale per accedere alle classi e ai metodi richiesti per le nostre manipolazioni di presentazione.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 In questo passaggio definiamo un percorso di directory e controlliamo se esiste. In caso contrario, creiamo la directory. Questo è un modo semplice ma efficace per mantenere i tuoi file organizzati.
 ## Passaggio 2: inizializzare la presentazione
- Successivamente, istanziamo il file`Presentation`class, che rappresenta il nostro file PowerPoint. Questa è la base su cui costruiremo le nostre diapositive e le nostre forme.
+ Successivamente, istanziamo il file`Presentation` class, che rappresenta il nostro file PowerPoint. Questa è la base su cui costruiremo le nostre diapositive e le nostre forme.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -100,7 +100,7 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 ```
 Questo comando scrive la presentazione in un file PPTX, che puoi aprire con Microsoft PowerPoint o qualsiasi altro software compatibile.
 ## Conclusione
-il gioco è fatto! Hai appena creato una diapositiva PowerPoint con tre rettangoli, ciascuno dei quali mostra uno stile di unione di linee diverso utilizzando Aspose.Slides per Java. Questo tutorial non solo ti aiuta a comprendere le basi di Aspose.Slides, ma mostra anche come migliorare le tue presentazioni con stili unici. Buona presentazione!
+E il gioco è fatto! Hai appena creato una diapositiva PowerPoint con tre rettangoli, ciascuno dei quali mostra uno stile di unione di linee diverso utilizzando Aspose.Slides per Java. Questo tutorial non solo ti aiuta a comprendere le basi di Aspose.Slides, ma mostra anche come migliorare le tue presentazioni con stili unici. Buona presentazione!
 ## Domande frequenti
 ### Cos'è Aspose.Slides per Java?
 Aspose.Slides per Java è una potente API per creare, manipolare e gestire presentazioni PowerPoint a livello di codice.

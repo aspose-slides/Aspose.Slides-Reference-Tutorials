@@ -21,13 +21,13 @@ url: /ru/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте каталог данных
 Вам понадобится каталог для хранения файлов PowerPoint. Здесь вы загрузите исходный файл и сохраните клонированную презентацию.
 ```java
 // Путь к каталогу документов.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Шаг 2. Загрузите исходную презентацию
 Далее мы загрузим исходную презентацию, содержащую слайд, который вы хотите клонировать. Этот шаг имеет решающее значение, поскольку он служит основой для операции клонирования.

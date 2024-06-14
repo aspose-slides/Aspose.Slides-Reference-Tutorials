@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 首先，您需要在 Java 代码中导入必要的包以利用 Aspose.Slides 的功能。在 Java 文件的开头包含以下导入语句：
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

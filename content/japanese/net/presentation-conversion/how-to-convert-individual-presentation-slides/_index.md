@@ -65,7 +65,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 }
 ```
 
-このループは、プレゼンテーション内のすべてのスライドを反復処理します。
+このループはプレゼンテーション内のすべてのスライドを反復処理します。
 
 ## HTMLとして保存
 コードの最後の部分では、各スライドを個別の HTML ファイルとして保存します。
@@ -74,7 +74,7 @@ for (int i = 0; i < presentation.Slides.Count; i++)
 presentation.Save(dataDir + "Individual Slide" + (i + 1) + "_out.html", new[] { i + 1 }, SaveFormat.Html, htmlOptions);
 ```
 
-ここで、コードは各スライドを、スライド番号に基づいた一意の名前を持つ HTML ファイルとして保存します。
+ここで、コードは各スライドを、スライド番号に基づいて一意の名前を持つ HTML ファイルとして保存します。
 
 ## ステップ 5: カスタム書式設定 (オプション)
  HTML出力にカスタムフォーマットを適用したい場合は、`CustomFormattingController`クラス。このセクションでは、個々のスライドの書式設定を制御できます。

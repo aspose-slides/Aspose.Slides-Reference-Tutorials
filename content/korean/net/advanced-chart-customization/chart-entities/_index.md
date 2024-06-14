@@ -10,7 +10,7 @@ url: /ko/net/advanced-chart-customization/chart-entities/
 
 오늘날의 데이터 중심 세계에서 효과적인 데이터 시각화는 청중에게 정보를 전달하는 데 핵심입니다. Aspose.Slides for .NET은 눈길을 끄는 차트를 포함하여 멋진 프레젠테이션과 슬라이드를 만들 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 아름다운 차트를 만드는 과정을 안내합니다. 차트 엔터티와 서식을 이해하고 구현하는 데 도움이 되도록 각 예를 여러 단계로 나누어 보겠습니다. 자, 시작해 봅시다!
 
-## 전제조건
+## 전제 조건
 
 .NET용 Aspose.Slides를 사용하여 아름다운 차트를 만들기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//범주 축에 대한 보조 그리드선 형식 설정
+// 범주 축에 대한 보조 그리드선 형식 설정
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// 플롯 영역 색상 설정
+//플롯 영역 색상 설정
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET은 .NET 개발자가 Microsoft PowerPoint 프레젠테이
 
 ### 3. Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
 
-예, 다음에서 .NET용 Aspose.Slides의 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+ 예, 다음에서 .NET용 Aspose.Slides의 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### 4. Aspose.Slides for .NET에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 

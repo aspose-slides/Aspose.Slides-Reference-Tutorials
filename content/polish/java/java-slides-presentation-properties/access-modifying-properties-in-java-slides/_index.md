@@ -31,7 +31,7 @@ Aby pracować z prezentacją programu PowerPoint, należy najpierw załadować j
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-//Utwórz instancję klasy Prezentacja reprezentującej PPTX
+// Utwórz instancję klasy Prezentacja reprezentującej PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 
@@ -77,7 +77,7 @@ presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 String dataDir = "Your Document Directory";
 // Utwórz instancję klasy Prezentacja reprezentującej PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
-// Utwórz odwołanie do obiektu DocumentProperties powiązanego z prezentacją
+// Utwórz odniesienie do obiektu DocumentProperties powiązanego z prezentacją
 IDocumentProperties documentProperties = presentation.getDocumentProperties();
 // Dostęp i modyfikowanie właściwości niestandardowych
 for (int i = 0; i < documentProperties.getCountOfCustomProperties(); i++)
@@ -94,13 +94,13 @@ presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym artykule omówiliśmy, jak uzyskać dostęp do właściwości Java Slides i je modyfikować za pomocą Aspose.Slides dla Java. Zaczęliśmy od wprowadzenia biblioteki, skonfigurowania środowiska programistycznego, załadowania prezentacji, uzyskania dostępu do właściwości dokumentu, modyfikacji niestandardowych właściwości i na koniec zapisania zmodyfikowanej prezentacji. Dzięki tej wiedzy możesz teraz ulepszyć swoje aplikacje Java dzięki mocy Aspose.Slides.
+W tym artykule omówiliśmy, jak uzyskać dostęp do właściwości Java Slides i je modyfikować za pomocą Aspose.Slides for Java. Zaczęliśmy od wprowadzenia biblioteki, skonfigurowania środowiska programistycznego, załadowania prezentacji, uzyskania dostępu do właściwości dokumentu, modyfikacji niestandardowych właściwości i na koniec zapisania zmodyfikowanej prezentacji. Dzięki tej wiedzy możesz teraz ulepszyć swoje aplikacje Java dzięki mocy Aspose.Slides.
 
 ## Często zadawane pytania
 
 ### Jak mogę zainstalować Aspose.Slides dla Java?
 
- Aby zainstalować Aspose.Slides dla Java, pobierz bibliotekę z[Tutaj](https://releases.aspose.com/slides/java/) i dodaj go do ścieżki klas projektu Java.
+ Aby zainstalować Aspose.Slides dla Java, pobierz bibliotekę z[Tutaj](https://releases.aspose.com/slides/java/) i dodaj go do ścieżki klas swojego projektu Java.
 
 ### Czy mogę używać Aspose.Slides dla Java za darmo?
 

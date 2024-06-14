@@ -2,7 +2,7 @@
 title: إزالة الحماية ضد الكتابة في شرائح جافا
 linktitle: إزالة الحماية ضد الكتابة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إزالة الحماية ضد الكتابة في العروض التقديمية لـ Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر متضمن.
+description: تعرف على كيفية إزالة الحماية ضد الكتابة في العروض التقديمية لـ Java Slides باستخدام Aspose.Slides لـ Java. تم تضمين دليل خطوة بخطوة مع كود المصدر.
 type: docs
 weight: 10
 url: /ar/java/document-protection/remove-write-protection-in-java-slides/

@@ -20,7 +20,7 @@ Importieren Sie in Ihr Java-Projekt die erforderlichen Aspose.Slides-Klassen:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Einrichten der Umgebung
 Geben Sie den Pfad zum Verzeichnis an, das Ihre PowerPoint-Datei enthält:
@@ -60,7 +60,7 @@ Ja, Sie können verschiedene andere Eigenschaften wie Kategorie, Schlüsselwört
 ### Ist Aspose.Slides mit allen Versionen von PowerPoint kompatibel?
 Aspose.Slides unterstützt verschiedene PowerPoint-Formate, darunter PPT, PPTX, PPS und andere, und gewährleistet so die Kompatibilität zwischen verschiedenen Versionen.
 ### Kann ich diesen Vorgang für mehrere Präsentationen automatisieren?
-Auf jeden Fall! Sie können Skripts oder Anwendungen erstellen, um Eigenschaftsänderungen für mehrere Präsentationen zu automatisieren und so Ihren Arbeitsablauf zu optimieren.
+Auf jeden Fall! Sie können Skripte oder Anwendungen erstellen, um Eigenschaftsänderungen für mehrere Präsentationen zu automatisieren und so Ihren Arbeitsablauf zu optimieren.
 ### Gibt es Einschränkungen beim Ändern von Dokumenteigenschaften?
 Während Aspose.Slides umfangreiche Funktionen bereitstellt, können bei einigen erweiterten Funktionen je nach PowerPoint-Format und -Version Einschränkungen auftreten.
 ### Gibt es technischen Support für Aspose.Slides?

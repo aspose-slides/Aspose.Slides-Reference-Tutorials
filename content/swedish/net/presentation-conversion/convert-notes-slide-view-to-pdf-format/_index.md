@@ -67,7 +67,7 @@ Ja, Aspose.Slides för .NET är tillgängligt för både personligt och kommersi
 
 ### F2: Hur kan jag få support för eventuella problem eller frågor jag har?
 
- Du kan hitta support på[Aspose.Slides för .NET-webbplats](https://forum.aspose.com/slides/net/).
+ Du kan hitta support på[Aspose.Slides för .NET webbplats](https://forum.aspose.com/slides/net/).
 
 ### F3: Kan jag anpassa layouten för PDF-utdata?
 

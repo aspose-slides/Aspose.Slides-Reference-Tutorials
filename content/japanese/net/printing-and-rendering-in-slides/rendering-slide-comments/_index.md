@@ -85,4 +85,4 @@ A: もちろんです! チュートリアルには、コメント領域の色、
 ### Q: Aspose.Slides の一時ライセンスを取得するにはどうすればよいですか?
  A: 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides に関するヘルプやサポートはどこで受けられますか?
-A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティサポートのため。
+ A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティサポートのため。

@@ -21,7 +21,7 @@ Pertama, Anda perlu mengimpor paket Aspose.Slides yang diperlukan ke proyek Java
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Langkah 1: Buat Direktori Proyek

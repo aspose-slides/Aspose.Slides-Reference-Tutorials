@@ -21,7 +21,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengaktifkan properti Read-Only D
 Kita akan mulai dengan membuat presentasi PowerPoint baru menggunakan Aspose.Slides for Java. Jika Anda sudah memiliki presentasi, Anda dapat melewati langkah ini.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Terakhir, kami menyimpan presentasi dengan properti Read-Only Direkomendasikan d
 ## Kode Sumber Lengkap Untuk Properti Rekomendasi Read-Only di Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

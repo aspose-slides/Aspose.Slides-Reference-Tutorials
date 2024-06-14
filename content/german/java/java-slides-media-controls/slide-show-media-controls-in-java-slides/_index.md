@@ -34,7 +34,7 @@ Beginnen wir mit der Erstellung einer neuen Präsentation. So können Sie dies i
 
 ```java
 // Pfad zum PPTX-Dokument
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Diese Codezeile weist Java Slides an, während der Diashow Mediensteuerelemente 
 
 ## Schritt 4: Medien zu Folien hinzufügen
 
-Fügen wir nun Medien zu unseren Folien hinzu. Mithilfe der umfangreichen Funktionen von Java Slides können Sie den Folien Audio- oder Videodateien hinzufügen.
+Fügen wir nun Medien zu unseren Folien hinzu. Mithilfe der umfangreichen Funktionen von Java Slides können Sie Folien Audio- oder Videodateien hinzufügen.
 
 Anpassen der Medienwiedergabe
 Sie können die Medienwiedergabe weiter anpassen, beispielsweise durch Einstellen von Start- und Endzeit, Lautstärke und mehr, um ein maßgeschneidertes Multimedia-Erlebnis für Ihr Publikum zu schaffen.
@@ -71,7 +71,7 @@ Dieser Code speichert Ihre Präsentation mit aktivierten Mediensteuerelementen.
 
 ```java
 // Pfad zum PPTX-Dokument
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Aktivieren Sie die Mediensteuerungsanzeige im Diashow-Modus.

@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Schritt 3: Folienhintergründe anpassen
 Verbessern Sie die visuelle Attraktivität Ihrer Folien, indem Sie deren Hintergründe anpassen. In diesem Beispiel legen wir für die zweite Folie einen einfarbigen Cyan-Hintergrund fest.
 ```csharp
-//Erstellen Sie einen Hintergrund für die zweite Folie
+// Erstellen Sie einen Hintergrund für die zweite Folie
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

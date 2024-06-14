@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Pada langkah ini, kami akan menyesuaikan titik data tertentu. Di sini, kami mengubah warna titik data dan mengonfigurasi pengaturan label.
 
 ```java
-//Sesuaikan titik data 0
+// Sesuaikan titik data 0
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ Untuk mengubah warna titik data lainnya, Anda dapat mengikuti pendekatan serupa 
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
-Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Slides untuk Java di[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) situs web.
+ Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Slides untuk Java di[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) situs web.

@@ -21,13 +21,13 @@ Laten we eerst de benodigde pakketten importeren. Open uw Java IDE en stel uw pr
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel de gegevensdirectory in
-U hebt een map nodig waarin u uw PowerPoint-bestanden kunt opslaan. Hier laadt u uw bronbestand en slaat u de gekloonde presentatie op.
+hebt een map nodig waarin u uw PowerPoint-bestanden kunt opslaan. Hier laadt u uw bronbestand en slaat u de gekloonde presentatie op.
 ```java
 // Het pad naar de documentenmap.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Stap 2: Laad de bronpresentatie
 Vervolgens laden we de bronpresentatie die de dia bevat die u wilt klonen. Deze stap is cruciaal omdat deze als basis dient voor uw kloonoperatie.

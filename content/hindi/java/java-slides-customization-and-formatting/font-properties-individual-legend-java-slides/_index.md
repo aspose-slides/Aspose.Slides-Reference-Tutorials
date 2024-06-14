@@ -2,7 +2,7 @@
 title: जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण
 linktitle: जावा स्लाइड्स में व्यक्तिगत लेजेंड के लिए फ़ॉन्ट गुण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में व्यक्तिगत लेजेंड के लिए कस्टम फ़ॉन्ट शैलियों, आकारों और रंगों के साथ पावरपॉइंट प्रस्तुतियों को बेहतर बनाएँ।
+description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में व्यक्तिगत लेजेंड के लिए कस्टम फ़ॉन्ट शैलियों, आकारों और रंगों के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ।
 type: docs
 weight: 12
 url: /hi/java/customization-and-formatting/font-properties-individual-legend-java-slides/

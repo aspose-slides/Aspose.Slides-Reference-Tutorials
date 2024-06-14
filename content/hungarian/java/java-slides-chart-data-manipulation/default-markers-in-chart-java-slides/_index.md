@@ -1,6 +1,6 @@
 ---
-title: Alapértelmezett jelölők a diagramban a Java Slides-ben
-linktitle: Alapértelmezett jelölők a diagramban a Java Slides-ben
+title: Alapértelmezett jelölők a diagramon a Java Slides-ben
+linktitle: Alapértelmezett jelölők a diagramon a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre Java-diákat alapértelmezett jelölőkkel a diagramokon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 type: docs
@@ -38,7 +38,7 @@ chart.getChartData().getCategories().clear();
 
 ## 3. lépés: Töltse fel a diagramadatokat
 
-A diagramot mintaadatokkal töltjük fel. Ebben a példában két sorozatot hozunk létre adatpontokkal és kategóriákkal.
+diagramot mintaadatokkal töltjük fel. Ebben a példában két sorozatot hozunk létre adatpontokkal és kategóriákkal.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -133,7 +133,7 @@ Ebben az átfogó oktatóanyagban megtanulta, hogyan hozhat létre Java-diákat 
 
 ### Hogyan változtathatom meg a jelölő szimbólumokat?
 
- A jelölőszimbólumokat testreszabhatja az egyes adatpontokhoz tartozó jelölőstílusok beállításával. Használat`IDataPoint.setMarkerStyle()` a jelölő szimbólum megváltoztatásához.
+ jelölőszimbólumokat testreszabhatja az egyes adatpontokhoz tartozó jelölőstílusok beállításával. Használat`IDataPoint.setMarkerStyle()` a jelölő szimbólum megváltoztatásához.
 
 ### Hogyan állíthatom be a diagram színeit?
 

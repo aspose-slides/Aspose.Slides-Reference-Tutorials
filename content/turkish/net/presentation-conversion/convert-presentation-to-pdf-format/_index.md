@@ -49,7 +49,7 @@ using FileStream outputPdf = new FileStream("output.pdf", FileMode.Create);
 presentation.Save(outputPdf, SaveFormat.Pdf);
 ```
 
-## Gelişmiş Seçenekler (İsteğe bağlı)
+## Gelişmiş Seçenekler (İsteğe Bağlı)
 
 ### PDF Seçeneklerini Ayarlama
 

@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## الخطوة 1: إعداد البيئة

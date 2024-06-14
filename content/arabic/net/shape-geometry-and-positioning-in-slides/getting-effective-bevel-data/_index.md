@@ -35,13 +35,13 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- تأكد من الاستبدال`"Your Document Directory"`بالمسار الذي تريد تخزين ملفات العرض التقديمي فيه.
+ تأكد من الاستبدال`"Your Document Directory"` بالمسار الذي تريد تخزين ملفات العرض التقديمي فيه.
 ## الخطوة 2: قم بتحميل العرض التقديمي
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
 ```
-هنا، نقوم بتهيئة مثيل جديد لفئة العرض التقديمي وتحميل ملف العرض التقديمي الموجود لدينا والمسمى "Presentation1.pptx."
+هنا، نقوم بتهيئة مثيل جديد لفئة العرض التقديمي وتحميل ملف العرض التقديمي الموجود لدينا والمسمى "Presentation1.pptx".
 ## الخطوة 3: الحصول على بيانات شطبة فعالة
 ```csharp
 IThreeDFormatEffectiveData threeDEffectiveData = pres.Slides[0].Shapes[0].ThreeDFormat.GetEffective();

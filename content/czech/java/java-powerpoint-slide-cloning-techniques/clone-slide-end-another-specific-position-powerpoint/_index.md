@@ -22,7 +22,7 @@ Chcete-li začít, musíte importovat potřebné balíčky z Aspose.Slides. To v
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Nyní si celý proces rozdělíme do jednoduchých kroků.

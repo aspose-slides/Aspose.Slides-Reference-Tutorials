@@ -12,14 +12,14 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm đường hình
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-- Thư viện Aspose.Slides for Java được tải xuống và thiết lập trong dự án Java của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
+-  Thư viện Aspose.Slides for Java được tải xuống và thiết lập trong dự án Java của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
 - Kiến thức cơ bản về ngôn ngữ lập trình Java.
 
 ## Gói nhập khẩu
 Đầu tiên, nhập các gói cần thiết vào lớp Java của bạn:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm đường hình mũi
 ### Tôi có thể tùy chỉnh màu của đường mũi tên không?
  Có, bạn có thể chỉ định bất kỳ màu nào bằng cách sử dụng`setColor` phương pháp với`SolidFillColor`.
 ### Làm cách nào để thay đổi vị trí và kích thước của đường mũi tên?
-Điều chỉnh các thông số truyền vào`addAutoShape` phương pháp thay đổi vị trí và kích thước.
+ Điều chỉnh các thông số truyền vào`addAutoShape` phương pháp thay đổi vị trí và kích thước.
 ### Aspose.Slides có tương thích với tất cả các phiên bản PowerPoint không?
 Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác nhau, đảm bảo khả năng tương thích trên các phiên bản khác nhau.
 ### Tôi có thể thêm văn bản vào dòng mũi tên không?

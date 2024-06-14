@@ -51,7 +51,7 @@ Dále nastavíme typ zobrazení pro naši prezentaci. Typy zobrazení definují,
 presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 ```
 
- Ve výše uvedeném kódu používáme`setLastView` metoda`ViewProperties` třídy, na kterou chcete nastavit typ zobrazení`SlideMasterView`. Podle potřeby můžete zvolit jiné typy zobrazení.
+ Ve výše uvedeném kódu používáme`setLastView` metoda`ViewProperties` třída pro nastavení typu zobrazení`SlideMasterView`. Podle potřeby můžete zvolit jiné typy zobrazení.
 
 ## Krok 3: Uložení prezentace
 

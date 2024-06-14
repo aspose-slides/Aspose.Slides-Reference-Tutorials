@@ -22,7 +22,7 @@ url: /zh-hant/java/image-handling/add-image-from-svg-object-from-external-resour
 
 ## 設定項目
 
-確保您的 Java 開發環境已設定並準備好用於此專案。您可以使用您首選的 Java 整合開發環境 (IDE)。
+確保您的 Java 開發環境已設定並準備好用於該專案。您可以使用您首選的 Java 整合開發環境 (IDE)。
 
 ## 第 1 步：將 Aspose.Slides 加入您的專案中
 

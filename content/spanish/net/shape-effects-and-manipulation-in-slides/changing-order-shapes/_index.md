@@ -67,6 +67,6 @@ R: Sí, Aspose.Slides para .NET es compatible con entornos Windows y Linux.
 ### P: ¿Hay una prueba gratuita disponible para Aspose.Slides para .NET?
  R: Sí, puedes explorar las funciones con el[prueba gratis](https://releases.aspose.com/) disponible en el sitio web de Aspose.Slides.
 ### P: ¿Dónde puedo encontrar soporte o hacer preguntas relacionadas con Aspose.Slides para .NET?
-R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener apoyo e interactuar con la comunidad.
+ R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener apoyo e interactuar con la comunidad.
 ### P: ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
  R: Puedes adquirir un[licencia temporal](https://purchase.aspose.com/temporary-license/) para fines de evaluación.

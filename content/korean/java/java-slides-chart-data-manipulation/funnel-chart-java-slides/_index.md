@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/funnel-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 깔때기형 차트를 만드는 과정을 안내합니다. 깔때기형 차트는 다양한 단계나 범주를 통해 점진적으로 범위를 좁히거나 "깔때기형"으로 만드는 데이터를 시각화하는 데 유용합니다. 이를 달성하는 데 도움이 되는 소스 코드와 함께 단계별 지침을 제공할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // 차원(500, 400)이 있는 좌표(50, 50)의 첫 번째 슬라이드에 깔때기형 차트를 추가합니다.
+    //차원(500, 400)이 있는 좌표(50, 50)의 첫 번째 슬라이드에 깔때기형 차트를 추가합니다.
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -126,7 +126,7 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 색상, 레이블, 스타일 등 다양한 차트 속성을 수정하여 깔때기형 차트의 모양을 사용자 정의할 수 있습니다. 차트 사용자 정의 옵션에 대한 자세한 내용은 Aspose.Slides 설명서를 참조하세요.
 
-### 깔때기형 차트에 더 많은 데이터 요소나 범주를 추가할 수 있나요?
+### 깔때기형 차트에 더 많은 데이터 요소나 범주를 추가할 수 있습니까?
 
 예, 3단계에서 제공된 코드를 확장하여 깔때기형 차트에 추가 데이터 포인트와 카테고리를 추가할 수 있습니다. 필요에 따라 카테고리 라벨과 데이터 포인트를 더 추가하기만 하면 됩니다.
 
@@ -136,4 +136,4 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### 차트를 PDF나 이미지 등 다른 형식으로 내보낼 수 있나요?
 
- 예, Aspose.Slides for Java를 사용하면 깔때기형 차트가 포함된 프레젠테이션을 PDF, 이미지 형식 등을 포함한 다양한 형식으로 내보낼 수 있습니다. 당신은 사용할 수 있습니다`SaveFormat` 프레젠테이션을 저장할 때 원하는 출력 형식을 지정하는 옵션입니다.
+예, Aspose.Slides for Java를 사용하면 깔때기형 차트가 포함된 프레젠테이션을 PDF, 이미지 형식 등을 포함한 다양한 형식으로 내보낼 수 있습니다. 당신은 사용할 수 있습니다`SaveFormat` 프레젠테이션을 저장할 때 원하는 출력 형식을 지정하는 옵션입니다.

@@ -21,7 +21,7 @@ tomto tutoriálu prozkoumáme, jak povolit vlastnosti doporučené pouze pro čt
 Začneme vytvořením nové powerpointové prezentace pomocí Aspose.Slides for Java. Pokud již prezentaci máte, můžete tento krok přeskočit.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Nakonec prezentaci uložíme se zapnutou vlastností Read-Only Recommended.
 ## Kompletní zdrojový kód pro vlastnosti doporučené pouze pro čtení v Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

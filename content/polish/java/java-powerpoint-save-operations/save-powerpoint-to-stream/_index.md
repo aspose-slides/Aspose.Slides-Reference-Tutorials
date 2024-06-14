@@ -8,7 +8,7 @@ weight: 11
 url: /pl/java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ---
 ## Wstęp
-W dziedzinie programowania w języku Java obsługa prezentacji PowerPoint jest niezbędnym zadaniem, niezależnie od tego, czy chodzi o generowanie raportów, dostarczanie prezentacji, czy tworzenie dynamicznej zawartości. Aspose.Slides dla Java zapewnia solidny zestaw narzędzi i funkcjonalności do płynnej pracy z plikami PowerPoint. W tym samouczku zajmiemy się jednym podstawowym aspektem: zapisywaniem prezentacji programu PowerPoint w strumieniu. Przeprowadzimy Cię przez każdy krok, zapewniając jasne zrozumienie procesu, a także zapewnimy niezbędne wymagania wstępne i zaimportujemy pakiety, aby rozpocząć.
+W dziedzinie programowania w języku Java obsługa prezentacji PowerPoint jest niezbędnym zadaniem, niezależnie od tego, czy chodzi o generowanie raportów, dostarczanie prezentacji, czy tworzenie dynamicznej zawartości. Aspose.Slides dla Java zapewnia solidny zestaw narzędzi i funkcjonalności do płynnej pracy z plikami programu PowerPoint. W tym samouczku zajmiemy się jednym podstawowym aspektem: zapisywaniem prezentacji programu PowerPoint w strumieniu. Przeprowadzimy Cię przez każdy krok, zapewniając jasne zrozumienie procesu, a także zapewnimy niezbędne wymagania wstępne i zaimportujemy pakiety, aby rozpocząć.
 ## Warunki wstępne
 Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
 1. Zestaw Java Development Kit (JDK): Aspose.Slides for Java wymaga zestawu Java SE Development Kit (JDK) 8 lub nowszego. Upewnij się, że masz go zainstalowanego w swoim systemie.
@@ -21,7 +21,7 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

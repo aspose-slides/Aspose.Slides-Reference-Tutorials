@@ -25,7 +25,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Öncelikle yeni bir PowerPoint sunumu oluşturalım ve ona bir slayt ekleyelim. Bu örnekte tek slaytla çalışacağız.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java Slaytlarındaki Formülleri Hesaplamak İçin Tam Kaynak Kodu
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

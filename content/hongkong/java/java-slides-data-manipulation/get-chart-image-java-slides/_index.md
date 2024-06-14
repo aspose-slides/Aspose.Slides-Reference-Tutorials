@@ -83,7 +83,7 @@ finally
 
 ### Aspose.Slides for Java 還提供哪些其他功能？
 
-Aspose.Slides for Java 提供了廣泛的用於 PowerPoint 簡報的功能，包括投影片建立、文字操作、形狀編輯等等。您可以瀏覽文件以獲取詳細資訊。
+Aspose.Slides for Java 提供了廣泛的處理 PowerPoint 簡報的功能，包括投影片建立、文字操作、形狀編輯等等。您可以瀏覽文件以獲取詳細資訊。
 
 ### Aspose.Slides for Java適合商業用途嗎？
 

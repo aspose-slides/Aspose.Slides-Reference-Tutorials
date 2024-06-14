@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Se till att byta ut`"Your Document Directory"`med sökvägen där du vill lagra dina presentationsfiler.
+ Se till att byta ut`"Your Document Directory"` med sökvägen där du vill lagra dina presentationsfiler.
 ## Steg 2: Ladda presentationen
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

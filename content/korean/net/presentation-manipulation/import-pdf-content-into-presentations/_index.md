@@ -13,7 +13,7 @@ url: /ko/net/presentation-manipulation/import-pdf-content-into-presentations/
 
 ## .NET용 Aspose.Slides를 사용하여 PDF 콘텐츠를 프레젠테이션으로 가져오는 방법
 
-### 전제조건
+### 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Visual Studio 또는 .NET IDE가 설치됨
 -  .NET 라이브러리용 Aspose.Slides(다운로드:[여기](https://releases.aspose.com/slides/net/))

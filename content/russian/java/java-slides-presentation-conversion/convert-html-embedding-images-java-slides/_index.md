@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//Принудительно не сохранять изображения в документе HTML5
+// Принудительно не сохранять изображения в документе HTML5
 options.setEmbedImages(true); // Установите значение true, чтобы вставлять изображения.
-// Задайте путь для внешних изображений (при необходимости)
+//Задайте путь для внешних изображений (при необходимости)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Путь к исходной презентации
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Путь к HTML-документу
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Принудительно не сохранять изображения в документе HTML5
+	// Принудительно не сохранять изображения в документе HTML5
 	options.setEmbedImages(false);
 	// Установить путь для внешних изображений
 	options.setOutputPath(outFilePath);

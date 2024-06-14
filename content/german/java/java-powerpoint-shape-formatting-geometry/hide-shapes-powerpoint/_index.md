@@ -19,7 +19,7 @@ Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Vora
 Um zu beginnen, müssen Sie die erforderlichen Pakete für Aspose.Slides importieren. So können Sie das tun:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In diesem Abschnitt unterteilen wir den Vorgang zum Ausblenden von Formen in PowerPoint in leicht verständliche Schritte. Jeder Schritt enthält eine Überschrift und eine ausführliche Erklärung.
 ## Schritt 1: Richten Sie Ihr Projekt ein

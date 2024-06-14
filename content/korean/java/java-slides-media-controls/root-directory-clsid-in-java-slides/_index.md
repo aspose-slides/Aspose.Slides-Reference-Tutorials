@@ -12,7 +12,7 @@ url: /ko/java/media-controls/root-directory-clsid-in-java-slides/
 
 Aspose.Slides for Java에서는 프레젠테이션의 하이퍼링크가 활성화될 때 루트 디렉터리로 사용할 애플리케이션을 지정하는 데 사용되는 CLSID(클래스 식별자)인 루트 디렉터리 ClsId를 설정할 수 있습니다. 이 가이드에서는 이 작업을 단계별로 수행하는 방법을 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -69,7 +69,7 @@ if (pres != null) {
 
 ```java
 // 출력 파일 이름
-String resultPath = RunExamples.getOutPath() + "pres.ppt";
+String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();

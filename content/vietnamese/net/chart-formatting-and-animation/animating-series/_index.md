@@ -41,7 +41,7 @@ using Aspose.Slides;
 Trong bước này, hãy tải bản trình bày PowerPoint (PPTX) hiện có chứa biểu đồ mà bạn muốn tạo hiệu ứng.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu
+// Đường dẫn tới thư mục tài liệu
 string dataDir = "Your Document Directory";
 
 // Khởi tạo lớp Trình bày đại diện cho một tệp trình bày
@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Khi bạn đã thêm hiệu ứng hoạt hình vào biểu đồ của mình, hãy lưu bản trình bày đã sửa đổi vào đĩa.
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

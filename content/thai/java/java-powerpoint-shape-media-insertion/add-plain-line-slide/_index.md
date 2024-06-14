@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อม
@@ -61,4 +61,4 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### ฉันสามารถเพิ่มข้อความลงในสไลด์พร้อมกับรูปร่างเส้นได้หรือไม่
 ได้ คุณสามารถเพิ่มข้อความ รูปภาพ และเนื้อหาอื่นๆ ลงในสไลด์ได้โดยใช้ Aspose.Slides API
 ### มีการทดลองใช้ฟรีสำหรับ Aspose.Slides หรือไม่
-ใช่ คุณสามารถดาวน์โหลด Aspose.Slides รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ ใช่ คุณสามารถดาวน์โหลด Aspose.Slides รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).

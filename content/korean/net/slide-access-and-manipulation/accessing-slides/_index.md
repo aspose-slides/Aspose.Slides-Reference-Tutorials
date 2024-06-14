@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/accessing-slides/
 
 Aspose.Slides for .NET은 개발자가 .NET 프레임워크를 사용하여 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 조작할 수 있도록 하는 포괄적인 라이브러리입니다. 이 라이브러리를 사용하면 새 슬라이드 만들기, 콘텐츠 추가, 서식 수정, 프레젠테이션을 다른 형식으로 내보내기 등의 작업을 자동화할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 프레젠테이션을 변경한 후 수정 사항을 저장하고 싶을 것입니다. 수정된 프레젠테이션을 저장하는 방법은 다음과 같습니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

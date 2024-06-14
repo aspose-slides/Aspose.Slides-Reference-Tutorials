@@ -20,7 +20,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Chuẩn bị thư mục dữ liệu của bạn
  Tạo một thư mục để lưu trữ tệp PowerPoint của bạn và các tài nguyên khác. Hãy đặt tên cho nó`dataDir`.

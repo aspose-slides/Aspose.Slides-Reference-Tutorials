@@ -15,14 +15,14 @@ Innan vi dyker in i koden, låt oss se till att du har allt du behöver för att
 2.  Aspose.Slides för Java: Ladda ner den senaste versionen från[Aspose.Slides nedladdningssida](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Du kan använda vilken Java IDE som helst som IntelliJ IDEA, Eclipse eller NetBeans.
 4.  Aspose.Cells för Java: Detta krävs för att modifiera inbäddade data i OLE-objektet. Ladda ner den från[Aspose.Cells nedladdningssida](https://releases.aspose.com/cells/java/).
-5. Presentationsfil: Ha en PowerPoint-fil redo med ett inbäddat OLE-objekt. För den här handledningen, låt oss namnge den`ChangeOLEObjectData.pptx`.
+5.  Presentationsfil: Ha en PowerPoint-fil redo med ett inbäddat OLE-objekt. För den här handledningen, låt oss namnge den`ChangeOLEObjectData.pptx`.
 ## Importera paket
 Låt oss först importera de nödvändiga paketen i ditt Java-projekt.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

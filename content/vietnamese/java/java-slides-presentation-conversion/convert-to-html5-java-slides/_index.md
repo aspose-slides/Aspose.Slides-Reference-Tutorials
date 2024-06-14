@@ -71,10 +71,10 @@ try {
 ## Mã nguồn hoàn chỉnh để chuyển đổi sang HTML5 trong Java Slides
 
 ```java
-// Đường dẫn đến thư mục tài liệu
+// Đường dẫn tới thư mục tài liệu
 String dataDir = "Your Document Directory";
 // Đường dẫn đến tập tin đầu ra
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	// Xuất bản trình bày chứa các chuyển tiếp trang chiếu, hình động và hình động sang HTML5

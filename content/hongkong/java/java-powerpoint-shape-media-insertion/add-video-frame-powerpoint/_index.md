@@ -17,7 +17,7 @@ url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpo
 首先，您需要匯入必要的套件才能在 Java 程式碼中使用 Aspose.Slides 功能。 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 第 1 步：設定文檔目錄

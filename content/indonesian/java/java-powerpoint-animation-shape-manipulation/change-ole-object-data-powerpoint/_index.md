@@ -15,14 +15,14 @@ Sebelum kita mendalami kodenya, pastikan Anda memiliki semua yang Anda perlukan 
 2.  Aspose.Slides untuk Java: Unduh versi terbaru dari[Halaman unduh Aspose.Slide](https://releases.aspose.com/slides/java/).
 3. Lingkungan Pengembangan Terintegrasi (IDE): Anda dapat menggunakan IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 4.  Aspose.Cells untuk Java: Ini diperlukan untuk mengubah data yang tertanam dalam objek OLE. Unduh dari[Halaman unduh Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. File Presentasi: Siapkan file PowerPoint dengan objek OLE yang tertanam. Untuk tutorial ini, sebut saja`ChangeOLEObjectData.pptx`.
+5.  File Presentasi: Siapkan file PowerPoint dengan objek OLE yang tertanam. Untuk tutorial ini, sebut saja`ChangeOLEObjectData.pptx`.
 ## Paket Impor
 Pertama, mari impor paket yang diperlukan ke proyek Java Anda.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

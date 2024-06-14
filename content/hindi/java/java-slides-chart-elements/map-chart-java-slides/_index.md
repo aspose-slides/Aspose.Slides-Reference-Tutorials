@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## जावा स्लाइड्स में मानचित्र चार्ट के लिए पूर्ण स्रोत कोड
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//खाली चार्ट बनाएं

@@ -197,7 +197,7 @@ Deze code configureert de weergave van hoofdrasterlijnen op de categorie-as.
 Net als bij de waarde-as kunt u de secundaire rasterlijnen voor de categorie-as aanpassen.
 
 ```csharp
-//Instelling van de indeling van secundaire rasterlijnen voor de Categorie-as
+// Instelling van de indeling van secundaire rasterlijnen voor de Categorie-as
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -244,7 +244,7 @@ In deze stap kunt u een titel voor de categorie-as instellen.
 
 ## Stap 15: Aanvullende aanpassingen
 
-U kunt verdere aanpassingen onderzoeken, zoals legenda's, de achterwand van de kaart, de vloer en de kleuren van het plotgebied. Met deze aanpassingen kunt u de visuele aantrekkingskracht van uw diagram verbeteren.
+U kunt verdere aanpassingen onderzoeken, zoals legenda's, de achterwand van de kaart, de vloer en de kleuren van het plotgebied. Met deze aanpassingen kunt u de visuele aantrekkingskracht van uw diagram vergroten.
 
 ```csharp
 // Aanvullende aanpassingen (optioneel)
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Kleur van het plotgebied instellen
+//Kleur van het plotgebied instellen
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

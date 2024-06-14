@@ -78,6 +78,6 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 ### 在哪里可以找到更多 Aspose.Slides 的教程和示例？
 探索 Aspose.Slides 文档[这里](https://reference.aspose.com/slides/net/)提供丰富的教程和示例。
 ### Aspose.Slides 有免费试用版吗？
-是的，您可以获得免费试用版[这里](https://releases.aspose.com/).
+是的，你可以获得免费试用版[这里](https://releases.aspose.com/).
 ### 如何获得与 Aspose.Slides 相关的查询支持？
 访问 Aspose.Slides 支持论坛[这里](https://forum.aspose.com/c/slides/11)寻求帮助。

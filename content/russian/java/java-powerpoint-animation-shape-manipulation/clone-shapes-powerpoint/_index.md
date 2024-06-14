@@ -1,6 +1,6 @@
 ---
-title: Клонировать фигуры в PowerPoint
-linktitle: Клонировать фигуры в PowerPoint
+title: Клонирование фигур в PowerPoint
+linktitle: Клонирование фигур в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как клонировать фигуры в презентациях PowerPoint с помощью Aspose.Slides для Java. Оптимизируйте свой рабочий процесс с помощью этого простого руководства.
 type: docs
@@ -12,13 +12,13 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 1.  Java Development Kit (JDK): убедитесь, что в вашей системе установлен Java Development Kit. Вы можете загрузить и установить последнюю версию с сайта[Веб-сайт](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Библиотека Aspose.Slides для Java: Загрузите и включите библиотеку Aspose.Slides для Java в свой проект Java. Вы можете найти ссылку для скачивания[здесь](https://releases.aspose.com/slides/java/).
+2. Библиотека Aspose.Slides для Java: Загрузите и включите библиотеку Aspose.Slides для Java в свой проект Java. Вы можете найти ссылку для скачивания[здесь](https://releases.aspose.com/slides/java/).
 
 ## Импортировать пакеты
 Для начала вам необходимо импортировать необходимые пакеты в ваш Java-проект. Эти пакеты предоставляют функциональные возможности, необходимые для работы с презентациями PowerPoint с использованием Aspose.Slides для Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Загрузите презентацию
  Сначала вам нужно загрузить презентацию PowerPoint, содержащую фигуры, которые вы хотите клонировать. Использовать`Presentation` класс для загрузки исходной презентации.

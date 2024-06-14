@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
+// Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
 options.setEmbedImages(true); // Ρυθμίστε στο true για ενσωμάτωση εικόνων
-// Ορίστε τη διαδρομή για εξωτερικές εικόνες (αν χρειάζεται)
+//Ορίστε τη διαδρομή για εξωτερικές εικόνες (αν χρειάζεται)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Παρουσίαση διαδρομής προς την πηγή
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Διαδρομή προς το έγγραφο HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
+	// Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
 	options.setEmbedImages(false);
 	// Ορισμός διαδρομής για εξωτερικές εικόνες
 	options.setOutputPath(outFilePath);

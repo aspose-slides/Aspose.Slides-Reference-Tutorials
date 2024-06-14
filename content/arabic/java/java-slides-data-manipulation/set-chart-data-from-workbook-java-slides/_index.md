@@ -23,7 +23,7 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بال
 ## الخطوة 1: إنشاء عرض تقديمي
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## الخطوة 4: تحميل مصنف Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  نقوم بتحميل مصنف Excel الذي يحتوي على البيانات التي نريد استخدامها للمخطط. يستبدل`"book1.xlsx"` مع المسار إلى ملف Excel الخاص بك.
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## كود المصدر الكامل لتعيين بيانات المخطط من المصنف في شرائح Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

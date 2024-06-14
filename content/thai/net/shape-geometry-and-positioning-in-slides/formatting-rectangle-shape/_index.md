@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## ขั้นตอนที่ 2: สร้างวัตถุการนำเสนอ
- ยกตัวอย่าง`Presentation`คลาสเพื่อแสดงไฟล์ PPTX นี่จะเป็นรากฐานสำหรับการนำเสนอ PowerPoint ของคุณ
+ ยกตัวอย่าง`Presentation` คลาสเพื่อแสดงไฟล์ PPTX นี่จะเป็นรากฐานสำหรับการนำเสนอ PowerPoint ของคุณ
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## ขั้นตอนที่ 4: เพิ่มรูปร่างสี่เหลี่ยมผืนผ้า
- ใช้`Shapes` คุณสมบัติของสไลด์เพื่อเพิ่มรูปร่างอัตโนมัติประเภทสี่เหลี่ยมผืนผ้า ระบุตำแหน่งและขนาดของรูปสี่เหลี่ยมผืนผ้า
+ ใช้`Shapes`คุณสมบัติของสไลด์เพื่อเพิ่มรูปร่างอัตโนมัติประเภทสี่เหลี่ยมผืนผ้า ระบุตำแหน่งและขนาดของรูปสี่เหลี่ยมผืนผ้า
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

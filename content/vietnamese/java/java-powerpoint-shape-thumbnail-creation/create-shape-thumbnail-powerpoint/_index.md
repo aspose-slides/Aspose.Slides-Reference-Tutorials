@@ -19,7 +19,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 Trước tiên, bạn cần nhập các gói cần thiết trong mã Java của mình để sử dụng các chức năng của Aspose.Slides. Bao gồm các câu lệnh nhập sau vào đầu tệp Java của bạn:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Có, bạn có thể sửa đổi mã để nhắm mục tiêu hình dạng trê
 ### Aspose.Slides có hỗ trợ các định dạng hình ảnh khác để lưu hình thu nhỏ không?
 Có, ngoài PNG, Aspose.Slides hỗ trợ lưu hình thu nhỏ ở nhiều định dạng hình ảnh khác nhau như JPEG, GIF và BMP.
 ### Aspose.Slides có phù hợp cho mục đích thương mại không?
-Có, Aspose.Slides cung cấp giấy phép thương mại cho các doanh nghiệp và tổ chức. Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy).
+ Có, Aspose.Slides cung cấp giấy phép thương mại cho các doanh nghiệp và tổ chức. Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể dùng thử Aspose.Slides trước khi mua không?
  Tuyệt đối! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides từ[đây](https://releases.aspose.com/) để đánh giá các tính năng và khả năng của nó.
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides ở đâu?

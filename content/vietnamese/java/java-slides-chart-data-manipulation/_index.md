@@ -23,7 +23,7 @@ Aspose.Slides cho Java cho phép bạn tạo hình ảnh tương tác truyền t
 
 ## Tích hợp liền mạch
 
-Việc tích hợp Aspose.Slides cho Java vào các ứng dụng Java của bạn rất liền mạch. Với một vài dòng mã, bạn có thể nhập dữ liệu, tạo biểu đồ và tùy chỉnh chúng để phù hợp với thương hiệu và phong cách của bạn. Các phương pháp trực quan của API giúp các nhà phát triển ở mọi cấp độ dễ dàng tận dụng sức mạnh của nó.
+Việc tích hợp Aspose.Slides cho Java vào các ứng dụng Java của bạn rất liền mạch. Với một vài dòng mã, bạn có thể nhập dữ liệu, tạo biểu đồ và tùy chỉnh chúng để phù hợp với thương hiệu và phong cách của mình. Các phương pháp trực quan của API giúp các nhà phát triển ở mọi cấp độ dễ dàng tận dụng sức mạnh của nó.
 
 ## Hướng dẫn thao tác dữ liệu biểu đồ trang trình bày Java
 ### [Thêm màu vào điểm dữ liệu trong trang trình bày Java](./add-color-data-points-java-slides/)

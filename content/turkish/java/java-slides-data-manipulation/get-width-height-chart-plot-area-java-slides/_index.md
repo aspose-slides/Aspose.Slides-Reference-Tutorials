@@ -14,7 +14,7 @@ Grafikler, PowerPoint sunumlarındaki verileri görselleştirmenin güçlü bir 
 
 ## Önkoşullar
 
- Koda dalmadan önce Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+ Kodun ayrıntılarına girmeden önce, Java projenizde Aspose.Slides for Java kütüphanesinin kurulu olduğundan ve kurulduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
 
 ## 1. Adım: Ortamı Ayarlama
 

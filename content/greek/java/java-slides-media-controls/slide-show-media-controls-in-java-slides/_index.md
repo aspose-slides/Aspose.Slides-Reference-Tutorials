@@ -34,7 +34,7 @@ url: /el/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // Διαδρομή προς το έγγραφο PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // Διαδρομή προς το έγγραφο PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Ενεργοποιήστε την οθόνη ελέγχου πολυμέσων σε λειτουργία παρουσίασης.

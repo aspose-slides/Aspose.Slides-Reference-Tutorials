@@ -2,7 +2,7 @@
 title: Alkalmazza a Duuotone-effektusokat a PowerPoint képekre
 linktitle: Alkalmazza a Duuotone-effektusokat a PowerPoint képekre
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: A lépésenkénti útmutatónkból megtudhatja, hogyan alkalmazhat Duuotone-effektusokat a PowerPointban lévő képekre az Aspose.Slides for Java segítségével. Javítsa prezentációit.
+description: Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan alkalmazhat Duuotone-effektusokat a PowerPointban lévő képekre az Aspose.Slides for Java segítségével. Javítsa prezentációit.
 type: docs
 weight: 20
 url: /hu/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-images-powerpoint/
@@ -12,14 +12,14 @@ Ha vizuális effektusokat ad hozzá PowerPoint-prezentációihoz, jelentősen n�
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle JDK webhely](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: Letöltheti a könyvtárat a[Aspose.Slides letöltési oldal](https://releases.aspose.com/slides/java/).
-3. Integrált fejlesztőkörnyezet (IDE): Olyan IDE, mint az IntelliJ IDEA vagy az Eclipse a Java kód írásához és végrehajtásához.
+2.  Aspose.Slides for Java Library: A könyvtárat letöltheti a[Aspose.Slides letöltési oldal](https://releases.aspose.com/slides/java/).
+3. Integrált fejlesztői környezet (IDE): Olyan IDE, mint az IntelliJ IDEA vagy az Eclipse a Java-kód írásához és végrehajtásához.
 4.  Képfájl: Képfájl (pl.`aspose-logo.jpg`) a Duuotone-effektus alkalmazásához.
 ## Csomagok importálása
 Először is importálnia kell a szükséges csomagokat a Java programba. Íme, hogyan kell csinálni:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

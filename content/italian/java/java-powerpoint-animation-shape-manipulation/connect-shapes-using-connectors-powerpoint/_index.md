@@ -1,6 +1,6 @@
 ---
-title: Connetti forme utilizzando i connettori in PowerPoint
-linktitle: Connetti forme utilizzando i connettori in PowerPoint
+title: Connetti forme utilizzando connettori in PowerPoint
+linktitle: Connetti forme utilizzando connettori in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come collegare le forme utilizzando i connettori nelle presentazioni di PowerPoint con Aspose.Slides per Java. Tutorial passo passo per principianti.
 type: docs
@@ -20,7 +20,7 @@ Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
 Innanzitutto, importa i pacchetti necessari per lavorare con Aspose.Slides nel tuo progetto Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: istanziare la lezione di presentazione
  Istanziare il`Presentation`class, che rappresenta il file PPTX su cui stai lavorando.

@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Jalur menuju presentasi sumber
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Nama jalur dan folder untuk menyimpan data penurunan harga
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Buat opsi pembuatan penurunan harga
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Tetapkan parameter untuk merender semua item (item yang dikelompokkan akan dirender bersama).

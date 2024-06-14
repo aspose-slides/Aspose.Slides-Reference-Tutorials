@@ -11,7 +11,7 @@ url: /it/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 Creare diapositive di presentazione visivamente accattivanti è un aspetto cruciale di una comunicazione efficace. Aspose.Slides per .NET consente agli sviluppatori di manipolare le diapositive a livello di codice, offrendo un'ampia gamma di funzionalità. In questo tutorial, approfondiremo il processo di modifica dell'ordine delle forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
 Prima di intraprendere questo viaggio, assicurati di disporre dei seguenti prerequisiti:
--  Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides integrata nel tuo progetto .NET. In caso contrario, puoi scaricarlo da[pagina delle uscite](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides per .NET: assicurati di avere la libreria Aspose.Slides integrata nel tuo progetto .NET. In caso contrario, puoi scaricarlo da[pagina dei comunicati](https://releases.aspose.com/slides/net/).
 - Ambiente di sviluppo: configura un ambiente di sviluppo funzionante con Visual Studio o qualsiasi altro strumento di sviluppo .NET.
 - Comprensione di base di C#: familiarizza con le basi del linguaggio di programmazione C#.
 ## Importa spazi dei nomi
@@ -67,6 +67,6 @@ R: Sì, Aspose.Slides per .NET è compatibile con ambienti Windows e Linux.
 ### D: È disponibile una prova gratuita per Aspose.Slides per .NET?
  R: Sì, puoi esplorare le funzionalità con[prova gratuita](https://releases.aspose.com/) disponibile sul sito Web Aspose.Slides.
 ### D: Dove posso trovare supporto o porre domande relative ad Aspose.Slides per .NET?
-R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per ottenere supporto e interagire con la comunità.
+ R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per ottenere supporto e interagire con la comunità.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Slides per .NET?
  R: Puoi acquisire a[licenza temporanea](https://purchase.aspose.com/temporary-license/) a fini di valutazione.

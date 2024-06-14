@@ -17,7 +17,7 @@ En la era digital actual, convertir presentaciones a HTML se ha vuelto esencial 
 Antes de profundizar en el código y el proceso de conversión, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Kit de desarrollo de Java (JDK) instalado en su sistema.
-- Aspose.Slides para Java API, que puede descargar desde[aquí](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides para Java API, que puede descargar desde[aquí](https://releases.aspose.com/slides/java/).
 -  Un archivo de presentación (por ejemplo,`presentation.pptx`) que desea convertir a HTML.
 
 ## Paso 1: configurar el entorno Java
@@ -26,7 +26,7 @@ Asegúrese de tener Java y Aspose.Slides para Java API correctamente instalados 
 
 ## Paso 2: cargar el archivo de presentación
 
- En su código Java, debe cargar el archivo de presentación que desea convertir. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación.
+En su código Java, debe cargar el archivo de presentación que desea convertir. Reemplazar`"Your Document Directory"` con la ruta real a su archivo de presentación.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Puede inspeccionar el código fuente del archivo HTML y buscar referencias de fu
 
 ### ¿Puedo personalizar aún más la salida HTML, como el estilo y el diseño?
 
- Sí, puede personalizar la salida HTML modificando el`HtmlOptions` la plantilla HTML utilizada para formatear. Aspose.Slides para Java proporciona flexibilidad a este respecto.
+ Sí, puede personalizar la salida HTML modificando el`HtmlOptions` y la plantilla HTML utilizada para formatear. Aspose.Slides para Java proporciona flexibilidad a este respecto.
 
 ### ¿Existe alguna limitación al incrustar fuentes en HTML?
 

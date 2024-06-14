@@ -10,11 +10,11 @@ url: /ko/net/advanced-chart-customization/chart-trend-lines/
 
 데이터 시각화 및 프레젠테이션 분야에서 차트를 통합하는 것은 정보를 효과적으로 전달하는 강력한 방법이 될 수 있습니다. Aspose.Slides for .NET은 차트에 추세선을 추가하는 기능을 포함하여 차트 작업을 위한 풍부한 기능의 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 차트에 추세선을 추가하는 과정을 단계별로 살펴보겠습니다. 
 
-## 전제조건
+## 전제 조건
 
 .NET용 Aspose.Slides 작업을 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 
-1.  Aspose.Slides for .NET: 라이브러리에 접근하여 사용하려면 Aspose.Slides for .NET이 설치되어 있어야 합니다. 도서관에서 도서관을 구할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: 라이브러리에 접근하여 사용하려면 Aspose.Slides for .NET이 설치되어 있어야 합니다. 도서관에서 도서관을 구할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/net/).
 
 2. 개발 환경: 가급적이면 Visual Studio와 같은 .NET 통합 개발 환경을 사용하여 개발 환경을 설정해야 합니다.
 

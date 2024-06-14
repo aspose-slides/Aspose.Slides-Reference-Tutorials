@@ -25,7 +25,7 @@ Tout au long de ce didacticiel, nous approfondirons les subtilités de la manipu
 - Extraction d'images et de vidéos : explorez les techniques permettant d'extraire des images et des vidéos de diapositives existantes, permettant ainsi la réutilisation et la personnalisation.
 - Animation et transition : plongez dans le monde des animations et des transitions et découvrez comment les images et les vidéos peuvent être utilisées pour créer des séquences visuelles captivantes.
 
-À la fin de ce didacticiel, vous disposerez de bases solides pour utiliser Aspose.Slides pour manipuler des images et des vidéos dans vos présentations, augmentant ainsi l'attrait visuel et le facteur d'engagement de votre contenu. Que vous soyez un développeur souhaitant améliorer les présentations professionnelles ou un éducateur recherchant des moyens innovants de transmettre des concepts, ce didacticiel est votre passerelle pour libérer le potentiel du multimédia dans les diapositives.
+À la fin de ce didacticiel, vous disposerez de bases solides pour utiliser Aspose.Slides pour manipuler des images et des vidéos dans vos présentations, augmentant ainsi l'attrait visuel et le facteur d'engagement de votre contenu. Que vous soyez un développeur souhaitant améliorer les présentations professionnelles ou un enseignant recherchant des moyens innovants de transmettre des concepts, ce didacticiel est votre passerelle pour libérer le potentiel du multimédia dans les diapositives.
 
 
 ## Manipulation d'images et de vidéos dans les didacticiels Slides

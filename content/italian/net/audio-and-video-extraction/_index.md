@@ -10,7 +10,7 @@ url: /it/net/audio-and-video-extraction/
 
 ## Introduzione:
 
-Benvenuti nel tutorial Aspose.Slides sull'estrazione audio e video nelle applicazioni .NET. Questo tutorial ti guiderà attraverso il processo di estrazione a livello di codice di contenuti audio e video dalle presentazioni di PowerPoint utilizzando la potente libreria Aspose.Slides. Che tu sia uno sviluppatore esperto o nuovo su Aspose.Slides, questo tutorial ti fornirà le conoscenze e gli strumenti per lavorare in modo efficiente con gli elementi multimediali all'interno delle presentazioni.
+Benvenuti nel tutorial Aspose.Slides sull'estrazione audio e video nelle applicazioni .NET. Questo tutorial ti guiderà attraverso il processo di estrazione a livello di codice di contenuti audio e video dalle presentazioni di PowerPoint utilizzando la potente libreria Aspose.Slides. Che tu sia uno sviluppatore esperto o nuovo su Aspose.Slides, questo tutorial ti fornirà le conoscenze e gli strumenti per lavorare in modo efficiente con elementi multimediali all'interno delle presentazioni.
 
 ## Estrazione di contenuti audio e video:
 

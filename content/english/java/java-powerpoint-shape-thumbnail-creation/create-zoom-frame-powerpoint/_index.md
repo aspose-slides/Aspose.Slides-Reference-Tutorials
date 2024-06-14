@@ -19,7 +19,7 @@ Before diving into the tutorial, ensure you have the following:
 To start with, you need to import the necessary packages in your Java project. These imports will provide access to the Aspose.Slides functionalities required for this tutorial.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;

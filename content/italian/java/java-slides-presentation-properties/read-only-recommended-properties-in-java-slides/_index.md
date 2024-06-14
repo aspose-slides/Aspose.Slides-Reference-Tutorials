@@ -21,7 +21,7 @@ In questo tutorial, esploreremo come abilitare le proprietà consigliate di sola
 Inizieremo creando una nuova presentazione di PowerPoint utilizzando Aspose.Slides per Java. Se hai già una presentazione, puoi saltare questo passaggio.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Infine, salviamo la presentazione con la proprietà Consigliata di sola lettura 
 ## Codice sorgente completo per le proprietà consigliate di sola lettura nelle diapositive Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

@@ -11,7 +11,7 @@ url: /nl/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 In de dynamische wereld van presentaties is maatwerk essentieel. Aspose.Slides voor .NET biedt een krachtige oplossing voor het programmatisch manipuleren van PowerPoint-presentaties. Een veel voorkomende vereiste is de mogelijkheid om specifieke vormen binnen een dia te verbergen. Deze tutorial leidt u door het proces van het verbergen van vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.Slides voor .NET: Zorg ervoor dat de Aspose.Slides-bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides voor .NET: Zorg ervoor dat de bibliotheek Aspose.Slides is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/slides/net/).
 - Ontwikkelomgeving: Stel uw favoriete ontwikkelomgeving voor .NET in.
 - Basiskennis van C#: Maak uzelf vertrouwd met C#, aangezien de gegeven codevoorbeelden in deze taal zijn.
 ## Naamruimten importeren

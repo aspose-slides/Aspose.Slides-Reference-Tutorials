@@ -2,7 +2,7 @@
 title: Klonuj slajd na końcu innej prezentacji w określonej pozycji
 linktitle: Klonuj slajd na końcu innej prezentacji w określonej pozycji
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Dowiedz się, jak klonować slajdy w Javie Przewodnik krok po kroku dotyczący używania Aspose.Slides dla Java do klonowania slajdów z jednej prezentacji programu PowerPoint do drugiej.
+description: Dowiedz się, jak klonować slajdy w Javie Przewodnik krok po kroku dotyczący używania Aspose.Slides for Java do klonowania slajdów z jednej prezentacji programu PowerPoint do drugiej.
 type: docs
 weight: 12
 url: /pl/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-specific-position-powerpoint/
@@ -22,7 +22,7 @@ Aby rozpocząć, musisz zaimportować niezbędne pakiety z Aspose.Slides. Umożl
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Teraz podzielmy proces na proste kroki.

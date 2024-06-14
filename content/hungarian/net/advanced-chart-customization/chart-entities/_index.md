@@ -56,7 +56,7 @@ Presentation pres = new Presentation();
 Nyissuk meg a prezentáció első diáját, ahol elhelyezzük diagramunkat.
 
 ```csharp
-// Hozzáférés az első diához
+// Az első dia elérése
 ISlide slide = pres.Slides[0];
 ```
 
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
+// Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// A telekterület színének beállítása
+// telekterület színének beállítása
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a .NE
 
 ### 3. Elérhető ingyenes próbaverzió az Aspose.Slides for .NET számára?
 
-Igen, letöltheti az Aspose.Slides for .NET ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+ Igen, letöltheti az Aspose.Slides for .NET ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 
 ### 4. Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET számára?
 

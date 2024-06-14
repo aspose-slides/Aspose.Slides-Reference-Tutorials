@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Paso 2: agregue una diapositiva y cree el gráfico de dispersión
 
- A continuación, agregue una diapositiva y cree el gráfico de dispersión en ella. Usaremos el`ScatterWithSmoothLines` tipo de gráfico en este ejemplo.
+ A continuación, agregue una diapositiva y cree el gráfico de dispersión en ella. Usaremos el`ScatterWithSmoothLines`tipo de gráfico en este ejemplo.
 
 ```java
 // Obtenga la primera diapositiva
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Creando el gráfico predeterminado
+//Creando el gráfico predeterminado
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Obtener el índice predeterminado de la hoja de cálculo de datos del gráfico
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ En este tutorial, lo guiamos a través del proceso de creación de un gráfico d
 
 ### ¿Cómo puedo cambiar el tipo de gráfico?
 
- Para cambiar el tipo de gráfico, utilice el`setType`método en la serie de gráficos y proporcione el tipo de gráfico deseado. Por ejemplo,`series.setType(ChartType.Line)` cambiaría la serie a un gráfico de líneas.
+ Para cambiar el tipo de gráfico, utilice el`setType` método en la serie de gráficos y proporcione el tipo de gráfico deseado. Por ejemplo,`series.setType(ChartType.Line)` cambiaría la serie a un gráfico de líneas.
 
 ### ¿Cómo personalizo el tamaño y el estilo del marcador?
 

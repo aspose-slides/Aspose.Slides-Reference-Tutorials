@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 Αρχικά, θα χρειαστεί να εισαγάγετε τα απαραίτητα πακέτα για να εργαστείτε με το Aspose.Slides. Αυτές οι εισαγωγές θα σας βοηθήσουν να διαχειριστείτε διαφάνειες, βίντεο και αρχεία παρουσιάσεων.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -86,7 +86,7 @@ if (pres != null) pres.dispose();
 ### Μπορώ να ενσωματώσω πολλά βίντεο σε μία μόνο διαφάνεια;
 Ναι, μπορείτε να ενσωματώσετε πολλά βίντεο σε μία διαφάνεια προσθέτοντας πολλά καρέ βίντεο.
 ### Πώς μπορώ να ελέγξω την αναπαραγωγή του βίντεο;
- Μπορείτε να ελέγξετε την αναπαραγωγή χρησιμοποιώντας το`setPlayMode` και`setVolume` μεθόδους των`IVideoFrame` τάξη.
+ Μπορείτε να ελέγξετε την αναπαραγωγή χρησιμοποιώντας το`setPlayMode` και`setVolume` μεθόδους του`IVideoFrame` τάξη.
 ### Ποιες μορφές βίντεο υποστηρίζονται από το Aspose.Slides;
 Το Aspose.Slides υποστηρίζει διάφορες μορφές βίντεο, όπως MP4, AVI και WMV.
 ### Χρειάζομαι άδεια χρήσης για να χρησιμοποιήσω το Aspose.Slides;

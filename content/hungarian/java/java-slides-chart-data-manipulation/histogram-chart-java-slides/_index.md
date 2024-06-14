@@ -8,7 +8,7 @@ weight: 19
 url: /hu/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
 
-## hisztogram diagram bemutatása Java Slides-ben az Aspose.Slides használatával
+## A hisztogram diagram bemutatása Java Slides-ben az Aspose.Slides használatával
 
 Ebben az oktatóanyagban végigvezetjük a hisztogram diagram létrehozásának folyamatán egy PowerPoint-prezentációban az Aspose.Slides for Java API használatával. A hisztogram diagram az adatok folyamatos intervallumon belüli eloszlását ábrázolja.
 
@@ -33,7 +33,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a PowerPoint-dokumentum tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a PowerPoint-dokumentum tényleges elérési útjával.
 
 ## 4. lépés: Hozzon létre egy hisztogram diagramot
 
@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Ebben a kódban először töröljük a diagramból a meglévő kategóriákat és sorozatokat. Ezután adatpontokat adunk a sorozathoz a`getDataPoints().addDataPointForHistogramSeries` módszer. Végül beállítjuk a vízszintes tengely összesítési típusát Automatikusra, és mentjük a prezentációt.
+ Ebben a kódban először töröljük a diagramból a meglévő kategóriákat és sorozatokat. Ezután adatpontokat adunk a sorozathoz a`getDataPoints().addDataPointForHistogramSeries` módszer. Végül beállítjuk a vízszintes tengely összesítési típusát Automatikusra, és mentjük a prezentációt.
 
 ## A Java Slides hisztogram diagramjának teljes forráskódja
 

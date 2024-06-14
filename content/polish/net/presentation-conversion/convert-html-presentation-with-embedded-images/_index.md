@@ -67,7 +67,7 @@ Następnie skonfiguruj opcje konwersji HTML. Możesz określić różne ustawien
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Wymuś nie zapisywanie obrazów w dokumencie HTML5
+    // Wymuś nie zapisywanie obrazów w dokumencie HTML5
     EmbedImages = false,
     // Ustaw ścieżkę dla obrazów zewnętrznych
     OutputPath = outPath

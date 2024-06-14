@@ -74,6 +74,6 @@ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn mở rộng để tùy
 ### Tôi có thể tìm thêm hướng dẫn và ví dụ ở đâu?
  Khám phá tài liệu Aspose.Slides[đây](https://reference.aspose.com/slides/net/) để có hướng dẫn và ví dụ toàn diện.
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp sự cố?
  Truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và giúp đỡ.

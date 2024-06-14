@@ -86,7 +86,7 @@ Att lägga till en gradientbakgrund till dina bilder kan avsevärt förbättra d
 ## Vanliga frågor (FAQs)
 
 ### Är Aspose.Slides för .NET kompatibelt med de senaste .NET Framework-versionerna?
-Ja, Aspose.Slides för .NET är kompatibel med de senaste .NET Framework-versionerna.
+Ja, Aspose.Slides för .NET är kompatibelt med de senaste .NET Framework-versionerna.
 
 ### Kan jag använda olika gradientstilar på flera bilder i en presentation?
 Absolut! Du kan anpassa gradientbakgrunden för varje bild i din presentation.

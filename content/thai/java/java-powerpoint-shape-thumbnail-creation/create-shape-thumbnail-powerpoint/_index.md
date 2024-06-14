@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นในโค้ด Java ของคุณเพื่อใช้ฟังก์ชันการทำงานของ Aspose.Slides รวมคำสั่งการนำเข้าต่อไปนี้ไว้ที่จุดเริ่มต้นของไฟล์ Java ของคุณ:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 ### Aspose.Slides รองรับรูปแบบรูปภาพอื่นสำหรับการบันทึกภาพขนาดย่อหรือไม่
 ใช่ นอกจาก PNG แล้ว Aspose.Slides ยังรองรับการบันทึกภาพย่อในรูปแบบรูปภาพต่างๆ เช่น JPEG, GIF และ BMP
 ### Aspose.Slides เหมาะสำหรับใช้ในเชิงพาณิชย์หรือไม่
-ใช่ Aspose.Slides เสนอใบอนุญาตเชิงพาณิชย์สำหรับธุรกิจและองค์กร คุณสามารถซื้อใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+ ใช่ Aspose.Slides เสนอใบอนุญาตเชิงพาณิชย์สำหรับธุรกิจและองค์กร คุณสามารถซื้อใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy).
 ### ฉันสามารถลองใช้ Aspose.Slides ก่อนซื้อได้หรือไม่
  อย่างแน่นอน! คุณสามารถดาวน์โหลด Aspose.Slides เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/) เพื่อประเมินคุณสมบัติและความสามารถของมัน
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides ได้ที่ไหน

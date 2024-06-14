@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Az alapértelmezett prezentációs betűtípusok, például a Calibri és az Arial kizárása
+    // Az alapértelmezett prezentációs betűtípusok, például a Calibri és az Arial kizárása
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -98,7 +98,7 @@ Ebből az oktatóanyagból megtanulta, hogyan alakíthat át PowerPoint-prezent�
 
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
 
-Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Látogatás[itt](https://downloads.aspose.com/slides/java/) hogy megszerezze a legújabb verziót.
+ Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Látogatás[itt](https://downloads.aspose.com/slides/java/) hogy megszerezze a legújabb verziót.
 
 ### Testreszabhatom a kizárt betűtípusok listáját?
 

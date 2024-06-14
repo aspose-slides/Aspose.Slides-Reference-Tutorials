@@ -2,7 +2,7 @@
 title: A Bevel Effects elsajátítása az Aspose.Slides-ben – lépésről lépésre bemutató
 linktitle: Ferde effektusok alkalmazása a bemutatódiák alakzataira az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Javítsa bemutató diákjait az Aspose.Slides for .NET segítségével! Ebben a lépésről-lépésre szóló útmutatóban tanulja meg a lenyűgöző ferde hatások alkalmazását.
+description: Javítsa bemutató diákjait az Aspose.Slides for .NET segítségével! Ebben a lépésről lépésre szóló útmutatóban tanulja meg a lenyűgöző ferde hatások alkalmazását.
 type: docs
 weight: 24
 url: /hu/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/

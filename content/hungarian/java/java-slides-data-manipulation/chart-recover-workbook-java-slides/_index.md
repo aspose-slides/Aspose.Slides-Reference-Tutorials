@@ -62,7 +62,7 @@ finally
 }
 ```
 
-## A Chart Recover Workbook teljes forráskódja a Java Slides-ben
+## A diagram-helyreállítási munkafüzet teljes forráskódja a Java Slides-ben
 
 ```java
 // A dokumentumok könyvtárának elérési útja.

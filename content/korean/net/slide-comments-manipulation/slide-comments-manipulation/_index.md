@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // 댓글 위치 변경
 comment.Position = new Point(100, 100);
 
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // 댓글 삭제
 slide.Comments.Remove(comment);
 
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

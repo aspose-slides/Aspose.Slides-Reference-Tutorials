@@ -55,7 +55,7 @@ try {
 
 ## Krok 4: Uruchom kod
 
- Uruchom kod Java w swoim IDE lub edytorze tekstu, aby utworzyć wykres pierścieniowy z określonym rozmiarem otworu. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać prezentację.
+ Uruchom kod Java w swoim IDE lub edytorze tekstu, aby utworzyć wykres pierścieniowy z określonym rozmiarem dziury. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać prezentację.
 
 ## Kompletny kod źródłowy dziury w wykresie pierścieniowym w slajdach Java
 

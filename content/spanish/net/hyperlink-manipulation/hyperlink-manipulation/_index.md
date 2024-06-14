@@ -8,7 +8,7 @@ weight: 10
 url: /es/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
-Los hipervínculos son elementos esenciales en las presentaciones, ya que proporcionan una forma conveniente de navegar entre diapositivas o acceder a recursos externos. Aspose.Slides para .NET ofrece potentes funciones para agregar y eliminar hipervínculos en las diapositivas de su presentación. En este tutorial, lo guiaremos a través del proceso de manipulación de hipervínculos utilizando Aspose.Slides para .NET. Cubriremos cómo agregar hipervínculos a una diapositiva y eliminar hipervínculos de una diapositiva. Entonces, ¡sumergámonos!
+Los hipervínculos son elementos esenciales en las presentaciones, ya que proporcionan una forma conveniente de navegar entre diapositivas o acceder a recursos externos. Aspose.Slides para .NET ofrece potentes funciones para agregar y eliminar hipervínculos en las diapositivas de su presentación. En este tutorial, lo guiaremos a través del proceso de manipulación de hipervínculos usando Aspose.Slides para .NET. Cubriremos cómo agregar hipervínculos a una diapositiva y eliminar hipervínculos de una diapositiva. Entonces, ¡sumergámonos!
 
 ## Requisitos previos
 
@@ -91,7 +91,7 @@ Después de eliminar los hipervínculos, guarde la presentación:
 presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 ```
 
-¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva utilizando Aspose.Slides para .NET.
+¡Y eso es! Ha eliminado con éxito los hipervínculos de una diapositiva usando Aspose.Slides para .NET.
 
 En conclusión, Aspose.Slides para .NET proporciona una manera eficiente de manipular hipervínculos en sus presentaciones, permitiéndole crear diapositivas interactivas y atractivas. Ya sea que desee agregar hipervínculos a recursos externos o eliminarlos, Aspose.Slides simplifica el proceso y mejora sus capacidades de creación de presentaciones.
 

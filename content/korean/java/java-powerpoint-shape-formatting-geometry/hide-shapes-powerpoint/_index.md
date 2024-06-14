@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
 ## 소개
 Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양을 숨기는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 프로그래밍 방식으로 PowerPoint 프레젠테이션에서 특정 모양을 숨겨야 했던 적이 있다면 잘 찾아오셨습니다. 이 가이드는 간단한 대화 스타일로 각 단계를 안내합니다. 노련한 개발자이든 이제 막 Java를 시작하는 개발자이든 상관없이 저희가 도와드리겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Java 라이브러리용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[Java 릴리스용 Aspose.Slides](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양을 숨기는 방�
 시작하려면 Aspose.Slides에 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 이 섹션에서는 PowerPoint에서 도형을 숨기는 과정을 따라하기 쉬운 단계로 나누어 보겠습니다. 각 단계에는 제목과 자세한 설명이 포함되어 있습니다.
 ## 1단계: 프로젝트 설정
@@ -74,7 +74,7 @@ pres.save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);
 ### Java용 Aspose.Slides란 무엇입니까?
 Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 파일을 조작하기 위한 강력한 API입니다. 이를 통해 개발자는 Microsoft PowerPoint 없이도 프레젠테이션을 생성, 수정 및 관리할 수 있습니다.
 ### Java를 사용하여 PowerPoint에서 도형을 숨기려면 어떻게 하나요?
- 설정하여 도형을 숨길 수 있습니다.`setHidden` 재산`true`여기에는 대체 텍스트로 모양을 식별하고 슬라이드의 모양을 반복하는 작업이 포함됩니다.
+ 설정하여 도형을 숨길 수 있습니다.`setHidden` 재산`true`. 여기에는 대체 텍스트로 모양을 식별하고 슬라이드의 모양을 반복하는 작업이 포함됩니다.
 ### 다른 프로그래밍 언어와 함께 Java용 Aspose.Slides를 사용할 수 있나요?
 Aspose.Slides는 .NET, Python, C를 포함한 다양한 프로그래밍 언어에서 사용할 수 있습니다.++. 그러나 이 가이드에서는 특히 Java를 다룹니다.
 ### Aspose.Slides에 대한 무료 평가판이 있습니까?

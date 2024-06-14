@@ -22,7 +22,7 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-anot
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 現在，讓我們將該過程分解為簡單的步驟。
@@ -41,7 +41,7 @@ Presentation srcPres = new Presentation(dataDir + "SourcePresentation.pptx");
 ```java
 Presentation destPres = new Presentation();
 ```
-## 第 4 步：克隆幻燈片
+## 第 4 步：複製幻燈片
 若要將所需的投影片從來源簡報複製到目標簡報中的指定位置，請依照下列步驟操作：
 1. **Access the Slide Collection:**檢索目標簡報中的幻燈片集合。
 2. **Clone the Slide:**將複製的投影片插入目標簡報中的所需位置。
@@ -72,6 +72,6 @@ Aspose.Slides for Java 提供免費試用版。要獲得完整功能，您需要
 ### 我可以在不同格式的簡報之間複製投影片嗎？
 是的，Aspose.Slides for Java 支援在不同格式的簡報之間複製投影片（例如，PPTX 到 PPT）。
 ### 如何有效處理大型演示？
-對於大型簡報，請透過正確處理簡報並考慮使用 Aspose 的高級功能來處理大型文件，確保高效的記憶體管理。
+對於大型簡報，請透過正確處理簡報並考慮使用 Aspose 的高級功能處理大型檔案來確保高效的記憶體管理。
 ### 我可以自訂複製的幻燈片嗎？
 絕對地。複製後，您可以使用 Aspose.Slides for Java 的擴充 API 來操作投影片以滿足您的需求。

@@ -16,7 +16,7 @@ Başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun kurulu olması gerekir.
 
-2. Aspose.Slides for .NET: Aspose.Slides for .NET'i şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides for .NET: Aspose.Slides for .NET'i şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/slides/net/).
 
 3. Temel C# Anlayışı: Temel C# programlama bilgisine sahip olmalısınız.
 

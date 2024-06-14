@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Değiştirildiğinden emin olun`"Your Document Directory"`sunum dosyalarınızı depolamak istediğiniz yolu belirtin.
+ Değiştirildiğinden emin olun`"Your Document Directory"` sunum dosyalarınızı depolamak istediğiniz yolu belirtin.
 ## 2. Adım: Sunuyu Yükleyin
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

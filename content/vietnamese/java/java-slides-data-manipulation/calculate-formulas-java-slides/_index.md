@@ -25,7 +25,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 Trước tiên, hãy tạo một bản trình bày PowerPoint mới và thêm một slide vào đó. Chúng ta sẽ làm việc với một slide duy nhất trong ví dụ này.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Mã nguồn hoàn chỉnh để tính toán các công thức trong Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

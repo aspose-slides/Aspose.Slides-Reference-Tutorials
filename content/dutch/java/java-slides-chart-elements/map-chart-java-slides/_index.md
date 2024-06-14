@@ -83,7 +83,7 @@ Dat is het! U hebt een kaartdiagram gemaakt in een PowerPoint-presentatie met As
 ## Volledige broncode voor kaartgrafiek in Java-dia's
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//maak een leeg diagram

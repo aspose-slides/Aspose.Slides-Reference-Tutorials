@@ -12,7 +12,7 @@ url: /ko/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-ja
 
 이 포괄적인 가이드에서는 Aspose.Slides for Java API를 사용하여 SVG 이미지 개체를 Java 슬라이드의 모양 그룹으로 변환하는 방법을 살펴보겠습니다. 이 강력한 라이브러리를 통해 개발자는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있으므로 이미지 처리를 포함한 다양한 작업에 유용한 도구가 됩니다.
 
-## 전제조건
+## 전제 조건
 
 코드 및 단계별 지침을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

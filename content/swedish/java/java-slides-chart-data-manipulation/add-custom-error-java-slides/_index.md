@@ -81,7 +81,7 @@ for (int i = 0; i < points.size(); i++)
 Slutligen sparar du presentationen med de anpassade felfälten.
 
 ```java
-// Sparar presentation
+// Sparar presentationen
 presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -120,7 +120,7 @@ try
 		points.get_Item(i).getErrorBarsCustomValues().getYMinus().setAsLiteralDouble(i + 1);
 		points.get_Item(i).getErrorBarsCustomValues().getYPlus().setAsLiteralDouble(i + 1);
 	}
-	// Sparar presentation
+	// Sparar presentationen
 	presentation.save(dataDir + "ErrorBarsCustomValues_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -131,7 +131,7 @@ finally
 
 ## Slutsats
 
-den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar till diagram med Aspose.Slides för Java. Felstaplar ger värdefulla insikter om datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
+I den här omfattande handledningen har du lärt dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till anpassade felstaplar till diagram med Aspose.Slides för Java. Felstaplar ger värdefulla insikter om datavariabilitet och osäkerhet, vilket gör dina diagram mer informativa och visuellt tilltalande.
 
 ## FAQ's
 
@@ -149,4 +149,4 @@ Du kan gå igenom datapunkterna och ställa in anpassade felstapelvärden för v
 
 ### Är det möjligt att dölja felstaplar för specifika datapunkter?
 
-Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.
+ Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.

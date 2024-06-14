@@ -18,7 +18,7 @@ Before we begin, ensure that you have the following prerequisites in place:
 Firstly, you need to import the necessary packages to leverage the functionalities of Aspose.Slides for Java. Here's how you can do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Ensure that your project is configured properly and the Aspose.Slides library is
 Create a Presentation object to represent the PowerPoint file you're working with:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instantiate Presentation class that represents the PPTX
 Presentation pres = new Presentation();
 ```

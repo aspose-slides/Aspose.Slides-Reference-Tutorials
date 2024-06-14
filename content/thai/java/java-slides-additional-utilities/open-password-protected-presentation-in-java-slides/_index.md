@@ -16,9 +16,9 @@ url: /th/java/additional-utilities/open-password-protected-presentation-in-java-
 
 ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
-1. Aspose.Slides สำหรับไลบรารี Java: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้ง Aspose.Slides สำหรับไลบรารี Java แล้ว คุณสามารถรับได้จาก[เว็บไซต์กำหนด](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides สำหรับไลบรารี Java: ตรวจสอบให้แน่ใจว่าคุณได้ดาวน์โหลดและติดตั้ง Aspose.Slides สำหรับไลบรารี Java แล้ว คุณสามารถรับได้จาก[เว็บไซต์กำหนด](https://products.aspose.com/slides/java/).
 
-2.  สภาพแวดล้อมการพัฒนา Java: ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ หากคุณยังไม่ได้ตั้งค่า คุณสามารถดาวน์โหลด Java ได้จากไฟล์[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. สภาพแวดล้อมการพัฒนา Java: ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ หากคุณยังไม่ได้ตั้งค่า คุณสามารถดาวน์โหลด Java ได้จากไฟล์[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## ขั้นตอนที่ 1: นำเข้าไลบรารี Aspose.Slides
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // แทนที่ "pass" ด้วยรห
 
 ## ขั้นตอนที่ 3: เปิดการนำเสนอ
 
- ตอนนี้ คุณจะเปิดงานนำเสนอที่มีการป้องกันด้วยรหัสผ่านโดยใช้`Presentation`ตัวสร้างคลาสซึ่งรับเส้นทางไฟล์และตัวเลือกการโหลดเป็นพารามิเตอร์
+ ตอนนี้ คุณจะเปิดงานนำเสนอที่มีการป้องกันด้วยรหัสผ่านโดยใช้`Presentation` ตัวสร้างคลาสซึ่งรับเส้นทางไฟล์และตัวเลือกการโหลดเป็นพารามิเตอร์
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

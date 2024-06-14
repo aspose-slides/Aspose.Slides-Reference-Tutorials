@@ -65,7 +65,7 @@ try {
 }
 ```
 
- den här koden rensar vi först alla befintliga kategorier och serier från diagrammet. Sedan lägger vi till datapunkter till serien med hjälp av`getDataPoints().addDataPointForHistogramSeries` metod. Slutligen ställer vi in den horisontella axelaggregationstypen till Automatisk och sparar presentationen.
+ I den här koden rensar vi först alla befintliga kategorier och serier från diagrammet. Sedan lägger vi till datapunkter till serien med hjälp av`getDataPoints().addDataPointForHistogramSeries` metod. Slutligen ställer vi in den horisontella axelaggregationstypen till Automatisk och sparar presentationen.
 
 ## Komplett källkod för histogramdiagram i Java Slides
 
@@ -97,7 +97,7 @@ finally
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur man skapar ett histogramdiagram i en PowerPoint-presentation med Aspose.Slides för Java API. Histogramdiagram är värdefulla verktyg för att visualisera distributionen av data över ett kontinuerligt intervall, och de kan vara ett kraftfullt tillägg till dina presentationer, särskilt när det handlar om statistiskt eller analytiskt innehåll.
+den här handledningen har vi utforskat hur man skapar ett histogramdiagram i en PowerPoint-presentation med Aspose.Slides för Java API. Histogramdiagram är värdefulla verktyg för att visualisera distributionen av data över ett kontinuerligt intervall, och de kan vara ett kraftfullt tillägg till dina presentationer, särskilt när det handlar om statistiskt eller analytiskt innehåll.
 
 ## FAQ's
 

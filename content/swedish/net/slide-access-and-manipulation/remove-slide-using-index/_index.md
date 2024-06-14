@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 När du har raderat de önskade bilderna måste du spara den ändrade presentationen:
 
 ```csharp
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

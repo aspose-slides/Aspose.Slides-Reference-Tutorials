@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 เช่นเดียวกับแกนค่า คุณสามารถปรับแต่งเส้นตารางรองสำหรับแกนประเภทได้
 
 ```csharp
-//การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
+// การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// การตั้งค่าสีพื้นที่พล็อต
+//การตั้งค่าสีพื้นที่พล็อต
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

@@ -1,6 +1,6 @@
 ---
-title: Maak een groepsvorm in PowerPoint
-linktitle: Maak een groepsvorm in PowerPoint
+title: Maak groepsvorm in PowerPoint
+linktitle: Maak groepsvorm in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u groepsvormen kunt maken in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter moeiteloos de organisatie en visuele aantrekkingskracht.
 type: docs
@@ -12,17 +12,17 @@ In moderne presentaties is het opnemen van visueel aantrekkelijke en goed gestru
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
-2.  Aspose.Slides voor Java-bibliotheek: Download de Aspose.Slides voor Java-bibliotheek en neem deze op in uw project. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides voor Java-bibliotheek: Download de Aspose.Slides voor Java-bibliotheek en neem deze op in uw project. Je kunt het downloaden van[hier](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Kies een Java IDE van uw voorkeur, zoals IntelliJ IDEA of Eclipse.
 
 ## Pakketten importeren
 Importeer om te beginnen de benodigde pakketten voor het gebruik van Aspose.Slides voor Java-functionaliteiten:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel uw omgeving in
- Zorg ervoor dat u een map hebt ingesteld voor uw project waarin u PowerPoint-presentaties kunt maken en opslaan. Vervangen`"Your Document Directory"`met het pad naar de gewenste map.
+ Zorg ervoor dat u een map hebt ingesteld voor uw project waarin u PowerPoint-presentaties kunt maken en opslaan. Vervangen`"Your Document Directory"` met het pad naar de gewenste map.
 ```java
 String dataDir = "Your Document Directory";
 ```

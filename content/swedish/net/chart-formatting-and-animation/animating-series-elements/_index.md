@@ -22,7 +22,7 @@ Nu när du har de nödvändiga förutsättningarna, låt oss börja med att anim
 
 ## Importera namnområden
 
-Innan du börjar koda måste du importera de nödvändiga namnområdena för att fungera med Aspose.Slides för .NET. Dessa namnutrymmen ger tillgång till de nödvändiga klasserna och metoderna för att skapa animationer.
+Innan du börjar koda måste du importera de nödvändiga namnrymden för att fungera med Aspose.Slides för .NET. Dessa namnutrymmen ger tillgång till de nödvändiga klasserna och metoderna för att skapa animationer.
 
 ```csharp
 ﻿using Aspose.Slides.Charts;
@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 Grattis! Du har framgångsrikt lärt dig hur man animerar serieelement i ett diagram med Aspose.Slides för .NET. Med denna kunskap kan du skapa dynamiska och engagerande PowerPoint-presentationer som fängslar din publik.
 
- Aspose.Slides för .NET är ett kraftfullt verktyg för att arbeta med PowerPoint-filer programmatiskt, och det öppnar upp en värld av möjligheter för att skapa professionella presentationer. Utforska gärna[dokumentation](https://reference.aspose.com/slides/net/) för mer avancerade funktioner och anpassningsalternativ.
+ Aspose.Slides för .NET är ett kraftfullt verktyg för att arbeta med PowerPoint-filer programmatiskt, och det öppnar upp en värld av möjligheter för att skapa professionella presentationer. Utforska gärna[dokumentation](https://reference.aspose.com/slides/net/)för mer avancerade funktioner och anpassningsalternativ.
 
 ## Vanliga frågor
 

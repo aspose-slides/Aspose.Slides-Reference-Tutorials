@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/setting-font-properties-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드의 텍스트에 대한 글꼴 속성을 설정하는 방법을 살펴보겠습니다. 굵기, 글꼴 크기 등의 글꼴 속성을 사용자 정의하여 슬라이드 모양을 향상시킬 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 추가되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

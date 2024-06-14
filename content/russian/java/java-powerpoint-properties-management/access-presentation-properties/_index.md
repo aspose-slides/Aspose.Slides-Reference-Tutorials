@@ -21,12 +21,12 @@ url: /ru/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Установите каталог данных
 Прежде чем погрузиться в основные функции, установите каталог данных для доступа к файлу презентации:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Шаг 2. Создайте параметры загрузки
 Создайте экземпляр параметров загрузки, чтобы настроить способ доступа к файлу презентации. В этом примере мы устанавливаем для пароля доступа значение null и разрешаем загрузку только свойств документа:

@@ -19,7 +19,7 @@ Először importálnia kell a szükséges csomagokat a Java fájlba:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. lépés: A környezet beállítása

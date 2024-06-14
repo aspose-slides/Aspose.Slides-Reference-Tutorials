@@ -43,7 +43,7 @@ Naučte se, jak převést jednotlivé PowerPoint snímky do HTML krok za krokem 
 Naučte se převádět prezentace do HTML pomocí vložených písem pomocí Aspose.Slides for Java. Tento podrobný průvodce zajišťuje konzistentní formátování pro bezproblémové sdílení.
 ### [Převod prezentace do HTML se zachováním původních písem v Java Slides](./convert-presentation-html-preserve-fonts-java-slides/)
 Převeďte PowerPointové prezentace do HTML při zachování původních písem pomocí Aspose.Slides for Java.
-### [Převést zobrazení snímku poznámek v aplikaci Java Slides](./convert-notes-slide-view-java-slides/)
+### [Převést zobrazení snímku Notes v aplikaci Java Slides](./convert-notes-slide-view-java-slides/)
 Přečtěte si, jak převést zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce s příklady kódu pro efektivní manipulaci s PowerPointem.
 ### [Převeďte zobrazení snímku poznámek do formátu PDF v aplikaci Java Slides](./convert-notes-slide-view-pdf-java-slides/)
 Naučte se převádět PowerPointové prezentace s poznámkami do PDF pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem.

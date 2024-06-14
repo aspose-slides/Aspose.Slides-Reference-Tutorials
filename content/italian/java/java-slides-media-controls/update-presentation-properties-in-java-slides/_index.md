@@ -14,7 +14,7 @@ Nell'era digitale di oggi, le presentazioni svolgono un ruolo cruciale nel trasm
 
 ## Prerequisiti
 
-Prima di approfondire il codice e la guida passo passo, assicurati di avere i seguenti prerequisiti:
+Prima di approfondire il codice e la guida passo passo, assicurati di disporre dei seguenti prerequisiti:
 
 - Ambiente di sviluppo Java: dovresti avere Java installato sul tuo sistema.
 

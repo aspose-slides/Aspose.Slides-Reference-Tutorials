@@ -19,7 +19,7 @@ Innan vi dyker in i steg-för-steg-guiden finns det några förutsättningar du 
 Först och främst måste du importera de nödvändiga paketen från Aspose.Slides. Detta ger dig tillgång till alla funktioner som krävs för att skapa och manipulera PowerPoint-presentationer.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Låt oss dela upp processen att lägga till segment till geometriska former i detaljerade steg för att säkerställa klarhet och lätt att förstå.
 ## Steg 1: Skapa en ny presentation

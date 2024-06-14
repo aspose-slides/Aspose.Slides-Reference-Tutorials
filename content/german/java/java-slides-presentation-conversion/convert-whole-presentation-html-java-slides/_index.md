@@ -98,7 +98,7 @@ finally
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben mithilfe von Aspose.Slides für Java API erfolgreich eine ganze Präsentation in HTML in Java Slides konvertiert. Dies kann unglaublich nützlich sein, wenn Sie Ihre Präsentationen online zugänglich machen oder in Webanwendungen integrieren möchten.
+Herzlichen Glückwunsch! Sie haben mithilfe der Aspose.Slides für Java API erfolgreich eine ganze Präsentation in HTML in Java Slides konvertiert. Dies kann unglaublich nützlich sein, wenn Sie Ihre Präsentationen online zugänglich machen oder in Webanwendungen integrieren möchten.
 
 ## Häufig gestellte Fragen
 

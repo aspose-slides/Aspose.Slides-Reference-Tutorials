@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Schritt 1: Einrichten der Umgebung
@@ -61,4 +61,4 @@ Auf jeden Fall! Aspose.Slides bietet eine große Auswahl an Formtypen, darunter 
 ### Kann ich der Folie zusätzlich zur Linienform Text hinzufügen?
 Ja, Sie können der Folie mit der Aspose.Slides-API Text, Bilder und andere Inhalte hinzufügen.
 ### Gibt es eine kostenlose Testversion für Aspose.Slides?
-Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/).
+ Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/).

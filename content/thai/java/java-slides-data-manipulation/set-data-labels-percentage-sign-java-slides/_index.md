@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 ในการแสดงเปอร์เซ็นต์ เราจำเป็นต้องกำหนดรูปแบบตัวเลขสำหรับแกนตั้งของแผนภูมิ
 
 ```java
-//ตั้งค่า NumberFormatLinkedToSource เป็นเท็จ
+// ตั้งค่า NumberFormatLinkedToSource เป็นเท็จ
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // เพิ่มแผนภูมิ PercentsStackedColumn บนสไลด์
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//ตั้งค่า NumberFormatLinkedToSource เป็นเท็จ
+// ตั้งค่า NumberFormatLinkedToSource เป็นเท็จ
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### ฉันสามารถกำหนดขนาดตัวอักษรของป้ายข้อมูลได้หรือไม่
 
- ได้ คุณสามารถปรับแต่งขนาดตัวอักษรของป้ายกำกับข้อมูลได้โดยตั้งค่า`setFontHeight` คุณสมบัติตามที่แสดงในรหัส
+ได้ คุณสามารถปรับแต่งขนาดตัวอักษรของป้ายกำกับข้อมูลได้โดยการตั้งค่า`setFontHeight` คุณสมบัติตามที่แสดงในรหัส
 
 ### ฉันจะเพิ่มซีรี่ส์ลงในแผนภูมิได้อย่างไร
 

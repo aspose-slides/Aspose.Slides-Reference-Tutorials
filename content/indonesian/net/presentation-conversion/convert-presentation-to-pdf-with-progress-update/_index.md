@@ -71,7 +71,7 @@ Selamat! Anda telah berhasil membuat tutorial langkah demi langkah untuk mengonv
 
 ## FAQ
 
-### T: Bisakah saya mengonversi presentasi ke format lain menggunakan Aspose.Slides untuk .NET?
+### T: Dapatkah saya mengonversi presentasi ke format lain menggunakan Aspose.Slides untuk .NET?
 J: Ya, Aspose.Slides untuk .NET mendukung berbagai format output, termasuk PDF, PPTX, dan banyak lagi.
 
 ### T: Apakah Aspose.Slides for .NET kompatibel dengan kerangka .NET terbaru?

@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Путь к исходной презентации
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Путь и имя папки для сохранения данных уценки
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Создать варианты создания Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Установите параметр для рендеринга всех элементов (сгруппированные элементы будут отображаться вместе).

@@ -51,7 +51,7 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 
 ### Aspose.Slides for Java をダウンロードするにはどうすればいいですか?
 
- Aspose.Slides for Javaライブラリは、AsposeのWebサイトからダウンロードできます。[このリンク](https://releases.aspose.com/slides/java/).
+Aspose.Slides for Javaライブラリは、AsposeのWebサイトからダウンロードできます。[このリンク](https://releases.aspose.com/slides/java/).
 
 ### プレゼンテーション形式を確認する目的は何ですか?
 

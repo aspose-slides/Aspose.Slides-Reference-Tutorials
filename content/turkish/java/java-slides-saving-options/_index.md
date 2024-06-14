@@ -17,7 +17,7 @@ Kaydetme seçeneklerinin ayrıntılarına dalmadan önce Aspose.Slides for Java'
 
 ## Slaytları Kaydetmek Artık Daha Kolay
 
-Aspose.Slides for Java'nın temel işlevlerinden biri, sunumları çeşitli formatlarda kaydetme yeteneğidir. Slaytlarınızı PDF, resim veya diğer formatlarda dışa aktarmanız gerekiyorsa Aspose.Slides süreci basitleştirir.
+Aspose.Slides for Java'nın temel işlevlerinden biri, sunumları çeşitli formatlarda kaydetme yeteneğidir. Slaytlarınızı PDF, resim veya diğer formatlarda dışa aktarmanız gerekip gerekmediğini Aspose.Slides süreci basitleştirir.
 
 ### PDF olarak kaydetme
 

@@ -2,7 +2,7 @@
 title: Szegmens eltávolítása a geometriai alakzatból a PowerPointban
 linktitle: Szegmens eltávolítása a geometriai alakzatból a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan távolíthat el szegmenseket a geometriai alakzatokból a PowerPointban az Aspose.Slides for Java segítségével.
+description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan távolíthat el szegmenseket a PowerPoint geometriai alakzataiból az Aspose.Slides for Java segítségével.
 type: docs
 weight: 22
 url: /hu/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
@@ -12,14 +12,14 @@ Alakzatokat szeretne manipulálni PowerPoint-prezentációiban Java használatá
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Töltse le az Aspose.Slides for Java könyvtárat innen[itt](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Töltse le az Aspose.Slides for Java könyvtárat innen[itt](https://releases.aspose.com/slides/java/).
 3. Integrált fejlesztői környezet (IDE): Használjon olyan IDE-t, mint az IntelliJ IDEA vagy az Eclipse a Java-kód írásához és futtatásához.
 4. Alapvető Java ismeretek: A Java programozás alapvető ismerete segít követni ezt az oktatóanyagot.
 ## Csomagok importálása
 A kezdéshez importálnunk kell a szükséges csomagokat az Aspose.Slides könyvtárból. Íme, hogyan kell csinálni:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bontsuk le több lépésre a szegmens eltávolítását egy geometriai alakzatból egy PowerPoint dián.
 ## 1. lépés: Hozzon létre egy új prezentációt
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## 6. lépés: Mentse el a bemutatót
 Végül mentse a módosított prezentációt egy fájlba.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 7. lépés: Tisztítsa meg az erőforrásokat

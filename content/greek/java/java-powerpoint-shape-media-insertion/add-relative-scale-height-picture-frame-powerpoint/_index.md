@@ -18,7 +18,7 @@ url: /el/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

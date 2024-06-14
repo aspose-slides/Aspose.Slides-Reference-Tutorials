@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 using System.IO;
 ```
 ## الخطوة 1: تحميل العرض التقديمي وتحديد خيارات العرض
-ابدأ بتحميل العرض التقديمي الخاص بك وتحديد خيارات العرض. في المثال المذكور، نستخدم ملف PowerPoint المسمى "RenderingOptions.pptx".
+ابدأ بتحميل العرض التقديمي الخاص بك وتحديد خيارات العرض. في المثال المذكور، نستخدم ملف PowerPoint المسمى "RenderingOptions.pptx."
 ```csharp
 string dataDir = "Your Document Directory";
 string presPath = Path.Combine(dataDir, "RenderingOptions.pptx");
@@ -69,4 +69,4 @@ pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(Run
 ### س: هل يمكنني استخدام خطوط مخصصة غير مثبتة على نظامي؟
  ج: نعم، حدد مسار ملف الخط باستخدام ملف`AddFonts` الطريقة في`FontsLoader` فصل.
 ### س: أين يمكنني طلب المساعدة أو التواصل مع المجتمع؟
-ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للدعم والمشاركة المجتمعية.
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للدعم والمشاركة المجتمعية.

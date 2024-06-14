@@ -19,7 +19,7 @@ Before we begin, ensure you have the following prerequisites:
 To start using Aspose.Slides, you need to import the necessary packages. Here’s how you can do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

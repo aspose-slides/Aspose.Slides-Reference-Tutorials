@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 고유한 모양과 기하학적 구조를 추가하면 콘텐츠를 더욱 매력적이고 시각적으로 매력적으로 만들어 줄 수 있습니다. .NET용 Aspose.Slides는 모양 내에서 사용자 정의 기하학을 생성할 수 있는 강력한 솔루션을 제공하므로 기존 디자인에서 벗어날 수 있습니다. 이 튜토리얼은 .NET용 Aspose.Slides를 사용하여 GeometryShape에서 사용자 정의 지오메트리를 생성하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본적인 이해.
 - 개발 환경에 설치된 .NET 라이브러리용 Aspose.Slides.
@@ -87,7 +87,7 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
 ### 1. Aspose.Slides for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
 예, Aspose.Slides는 다양한 프로그래밍 언어를 지원하지만 이 튜토리얼은 C#에 중점을 둡니다.
 ### 2. .NET용 Aspose.Slides에 대한 문서는 어디서 찾을 수 있나요?
- 방문하다[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 정보를 보려면.
+ 방문하다[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
 ### 3. Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
  예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 기능을 경험해 보세요.
 ### 4. .NET용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?

@@ -48,7 +48,7 @@ pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
 pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;
 pres.Slides[1].SlideShowTransition.AdvanceAfterTime = 5000;
 ```
-## Βήμα 4: Εφαρμογή μετάβασης τύπου ζουμ
+## Βήμα 4: Εφαρμόστε τη μετάβαση τύπου ζουμ
 Εφαρμόστε μια μετάβαση τύπου ζουμ στην τρίτη διαφάνεια:
 ```csharp
 pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
@@ -58,7 +58,7 @@ pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
 pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
 pres.Slides[2].SlideShowTransition.AdvanceAfterTime = 7000;
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Γράψτε την τροποποιημένη παρουσίαση πίσω στο δίσκο:
 ```csharp
 pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);

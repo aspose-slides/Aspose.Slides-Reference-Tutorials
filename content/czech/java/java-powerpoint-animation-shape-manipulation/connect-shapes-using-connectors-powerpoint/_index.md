@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 Nejprve importujte potřebné balíčky pro práci s Aspose.Slides ve vašem projektu Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Okamžitá prezentace
  Vytvořte instanci`Presentation`class, která představuje soubor PPTX, na kterém pracujete.
@@ -43,7 +43,7 @@ IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
 IAutoShape rectangle = shapes.addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
 ```
 ## Krok 4: Přidejte konektor
-Přidejte tvar spojnice do kolekce tvarů snímku.
+Přidejte tvar spojnice do kolekce obrazců snímku.
 ```java
 IConnector connector = shapes.addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
 ```
@@ -54,7 +54,7 @@ connector.setStartShapeConnectedTo(ellipse);
 connector.setEndShapeConnectedTo(rectangle);
 ```
 ## Krok 6: Přesměrujte konektor
-Přesměrování volání pro nastavení automatické nejkratší cesty mezi tvary.
+Přesměrování hovoru pro nastavení automatické nejkratší cesty mezi tvary.
 ```java
 connector.reroute();
 ```

@@ -20,7 +20,7 @@ Innanzitutto, importa i pacchetti necessari richiesti per lavorare con Aspose.Sl
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

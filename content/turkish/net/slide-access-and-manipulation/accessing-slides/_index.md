@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Sunuda değişiklik yaptıktan sonra değişiklikleri kaydetmek isteyeceksiniz. Değiştirilen sunuyu şu şekilde kaydedebilirsiniz:
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

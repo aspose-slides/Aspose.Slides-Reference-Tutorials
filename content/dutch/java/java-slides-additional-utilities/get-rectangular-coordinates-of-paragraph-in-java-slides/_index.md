@@ -14,7 +14,7 @@ In deze zelfstudie laten we zien hoe u de rechthoekige coördinaten van een alin
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-ontwikkelomgeving. Je kunt het downloaden van[hier](https://downloads.aspose.com/slides/java).
+ Voordat we beginnen, moet u ervoor zorgen dat de Aspose.Slides voor Java-bibliotheek is geïnstalleerd en ingesteld in uw Java-ontwikkelomgeving. Je kunt het downloaden van[hier](https://downloads.aspose.com/slides/java).
 
 ## Stap 1: Importeer de benodigde bibliotheken
 
@@ -107,7 +107,7 @@ Ja, Aspose.Slides voor Java is zeer geschikt voor batchverwerking van PowerPoint
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
 
- Meer codevoorbeelden en gedetailleerde documentatie voor Aspose.Slides voor Java vindt u op de website[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/)website. Daarnaast kunt u de[Aspose.Slides-forums](https://forum.aspose.com/c/slides) voor gemeenschapsondersteuning en discussies.
+ Meer codevoorbeelden en gedetailleerde documentatie voor Aspose.Slides voor Java vindt u op de website[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/) website. Daarnaast kunt u de[Aspose.Slides-forums](https://forum.aspose.com/c/slides) voor gemeenschapsondersteuning en discussies.
 
 ### Heb ik een licentie nodig om Aspose.Slides voor Java te gebruiken?
 

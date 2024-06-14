@@ -14,7 +14,7 @@ I den här handledningen kommer vi att visa hur man hämtar de rektangulära koo
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har Aspose.Slides for Java-biblioteket installerat och konfigurerat i din Java-utvecklingsmiljö. Du kan ladda ner den från[här](https://downloads.aspose.com/slides/java).
+ Innan vi börjar, se till att du har Aspose.Slides for Java-biblioteket installerat och konfigurerat i din Java-utvecklingsmiljö. Du kan ladda ner den från[här](https://downloads.aspose.com/slides/java).
 
 ## Steg 1: Importera de nödvändiga biblioteken
 
@@ -80,7 +80,7 @@ Det här kodavsnittet hämtar de rektangulära koordinaterna (X, Y, bredd och h�
 
 ## Slutsats
 
-I den här handledningen lärde du dig hur du använder Aspose.Slides för Java för att hämta de rektangulära koordinaterna för ett stycke i en PowerPoint-presentation. Detta kan vara användbart när du behöver programmera analysera eller manipulera textens position och dimensioner i dina bilder.
+den här handledningen lärde du dig hur du använder Aspose.Slides för Java för att hämta de rektangulära koordinaterna för ett stycke i en PowerPoint-presentation. Detta kan vara användbart när du behöver programmera analysera eller manipulera textens position och dimensioner i dina bilder.
 
 ## FAQ's
 
@@ -107,7 +107,7 @@ Ja, Aspose.Slides för Java är väl lämpad för batchbearbetning av PowerPoint
 
 ### Var kan jag hitta fler exempel och dokumentation?
 
- Du kan hitta fler kodexempel och detaljerad dokumentation för Aspose.Slides för Java på[Aspose.Slides dokumentation](https://reference.aspose.com/slides/java/)hemsida. Dessutom kan du utforska[Aspose.Slides forum](https://forum.aspose.com/c/slides) för samhällsstöd och diskussioner.
+ Du kan hitta fler kodexempel och detaljerad dokumentation för Aspose.Slides för Java på[Aspose.Slides dokumentation](https://reference.aspose.com/slides/java/) hemsida. Dessutom kan du utforska[Aspose.Slides forum](https://forum.aspose.com/c/slides) för samhällsstöd och diskussioner.
 
 ### Behöver jag en licens för att använda Aspose.Slides för Java?
 

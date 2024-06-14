@@ -19,13 +19,13 @@ Primeiro, importe os pacotes necessários para usar a funcionalidade Aspose.Slid
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Etapa 1: configurar o diretório de dados
 ```java
 // O caminho para o diretório de documentos.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Crie um diretório se ainda não estiver presente.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Nesta etapa definimos o caminho para o diretório onde será salva a apresentação do PowerPoint. Se o diretório não existir, ele será criado.
 ## Etapa 2: instanciar objeto de apresentação
 ```java
-//Instancie um objeto Presentation que representa um arquivo PPT
+// Instancie um objeto Presentation que representa um arquivo PPT
 Presentation presentation = new Presentation();
 ```
- Aqui, criamos uma nova instância do`Presentation` class, que representa uma apresentação em PowerPoint.
+Aqui, criamos uma nova instância do`Presentation` class, que representa uma apresentação em PowerPoint.
 ## Etapa 3: realizar operações na apresentação (opcional)
 ```java
 //...faça algum trabalho aqui...

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects
 ---
 ## 소개
 PowerPoint 프레젠테이션에 시각 효과를 추가하면 프레젠테이션의 매력과 효과가 크게 향상될 수 있습니다. 이러한 강력한 효과 중 하나는 이미지에 두 가지 대조 색상을 적용하여 현대적이고 전문적인 느낌을 주는 이중톤 효과입니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 이미지에 이중톤 효과를 적용하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 JDK 웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2.  Aspose.Slides for Java 라이브러리: 다음에서 라이브러리를 다운로드할 수 있습니다.[Aspose.Slides 다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ PowerPoint 프레젠테이션에 시각 효과를 추가하면 프레젠테이�
 먼저 Java 프로그램에 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

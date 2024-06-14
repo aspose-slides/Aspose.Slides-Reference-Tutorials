@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Hauptmethode definieren
 Erstellen Sie eine Hauptmethode, mit der Sie den Prozess zum Aktualisieren der Präsentationseigenschaften mit einer neuen Vorlage starten. Diese Methode dient als Einstiegspunkt für Ihre Java-Anwendung.

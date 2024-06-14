@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Kaynak sunumuna giden yol
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// İşaretleme verilerini kaydetmek için yol ve klasör adı
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Markdown oluşturma seçenekleri oluşturun
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Tüm öğelerin oluşturulması için parametreyi ayarlayın (gruplandırılmış öğeler birlikte görüntülenecektir).

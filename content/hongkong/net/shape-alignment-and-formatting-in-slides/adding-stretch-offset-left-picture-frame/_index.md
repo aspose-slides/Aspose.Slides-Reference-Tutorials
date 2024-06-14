@@ -58,8 +58,8 @@ aShape.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
 ```csharp
 aShape.FillFormat.PictureFillFormat.Picture.Image = imgEx;
 ```
-## 步驟 8：指定拉伸偏移
-定義影像相對於形狀邊界框的相應邊緣的偏移：
+## 第 8 步：指定拉伸偏移
+定義影像相對於形狀邊界框對應邊緣的偏移：
 ```csharp
 aShape.FillFormat.PictureFillFormat.StretchOffsetLeft = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;

@@ -2,7 +2,7 @@
 title: Pozíciótengely beállítása a Java Slides-ben
 linktitle: Pozíciótengely beállítása a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Javítsa ki diagramjait az Aspose.Slides for Java segítségével. Tanulja meg, hogyan állíthatja be a pozíciótengelyt a Java diákon, hogyan készíthet lenyűgöző prezentációkat, és hogyan testreszabhatja könnyedén a diagramelrendezéseket.
+description: Javítsa ki diagramjait az Aspose.Slides for Java segítségével. Tanulja meg, hogyan állíthatja be a pozíciótengelyt Java diákon, hogyan készíthet lenyűgöző prezentációkat, és hogyan testreszabhatja könnyedén a diagramelrendezéseket.
 type: docs
 weight: 16
 url: /hu/java/customization-and-formatting/setting-position-axis-java-slides/
@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megtanuljuk, hogyan állíthatja be a pozíciótengelyt
 
  Mielőtt elkezdené, győződjön meg arról, hogy az Aspose.Slides for Java könyvtár telepítve van és be van állítva a Java projektben. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/slides/java/).
 
-## 1. lépés: Prezentáció készítése
+## 1. lépés: Prezentáció létrehozása
 
 Először is hozzunk létre egy új bemutatót, amellyel dolgozni:
 
@@ -25,7 +25,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation();
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 
 ## 2. lépés: Diagram hozzáadása
 

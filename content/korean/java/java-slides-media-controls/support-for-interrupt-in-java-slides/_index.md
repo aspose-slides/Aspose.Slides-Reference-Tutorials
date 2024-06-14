@@ -11,7 +11,7 @@ url: /ko/java/media-controls/support-for-interrupt-in-java-slides/
 
 Aspose.Slides for Java는 Java 애플리케이션에서 PowerPoint 프레젠테이션을 생성, 조작 및 작업하기 위한 강력한 라이브러리입니다. 이 포괄적인 가이드에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드에서 인터럽트 지원을 활용하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 튜토리얼은 자세한 설명과 코드 예제를 통해 프로세스를 안내합니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Java 슬라이드의 인터럽트 지원을 위한 완전한 소스 코드
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

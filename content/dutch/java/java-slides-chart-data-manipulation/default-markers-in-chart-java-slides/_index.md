@@ -10,7 +10,7 @@ url: /nl/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 
 ## Inleiding tot standaardmarkeringen in diagrammen in Java-dia's
 
-In deze zelfstudie onderzoeken we hoe u een diagram met standaardmarkeringen kunt maken met Aspose.Slides voor Java. Standaardmarkeringen zijn symbolen of vormen die aan gegevenspunten in een diagram worden toegevoegd om deze te markeren. We maken een lijndiagram met markeringen om gegevens te visualiseren.
+In deze zelfstudie onderzoeken we hoe u een diagram met standaardmarkeringen kunt maken met behulp van Aspose.Slides voor Java. Standaardmarkeringen zijn symbolen of vormen die aan gegevenspunten in een diagram worden toegevoegd om deze te markeren. We maken een lijndiagram met markeringen om gegevens te visualiseren.
 
 ## Vereisten
 
@@ -133,12 +133,12 @@ In deze uitgebreide zelfstudie hebt u geleerd hoe u Java-dia's kunt maken met st
 
 ### Hoe kan ik de markeringssymbolen wijzigen?
 
- U kunt de markeringssymbolen aanpassen door de markeringsstijl voor elk gegevenspunt in te stellen. Gebruik`IDataPoint.setMarkerStyle()` om het markeringssymbool te wijzigen.
+ kunt de markeringssymbolen aanpassen door de markeringsstijl voor elk gegevenspunt in te stellen. Gebruik`IDataPoint.setMarkerStyle()` om het markeringssymbool te wijzigen.
 
 ### Hoe pas ik de kleuren van het diagram aan?
 
  Om de kleuren van het diagram te wijzigen, kunt u de`IChartSeriesFormat` En`IShapeFillFormat` interfaces om vul- en lijneigenschappen in te stellen.
 
-### Kan ik labels aan de datapunten toevoegen?
+### Kan ik labels aan de gegevenspunten toevoegen?
 
  Ja, u kunt labels aan gegevenspunten toevoegen met behulp van de`IDataPoint.getLabel()` methode en pas deze indien nodig aan.

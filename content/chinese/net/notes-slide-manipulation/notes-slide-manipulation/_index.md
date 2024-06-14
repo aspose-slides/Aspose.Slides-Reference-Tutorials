@@ -20,7 +20,7 @@ url: /zh/net/notes-slide-manipulation/notes-slide-manipulation/
 
 - 开发环境：您应该有一个带有 Visual Studio 或任何其他 .NET 开发工具的工作开发环境。
 
-现在，让我们一步一步开始每个任务。
+现在，让我们逐步开始每个任务。
 
 ## 任务 1：管理备注幻灯片中的页眉和页脚
 

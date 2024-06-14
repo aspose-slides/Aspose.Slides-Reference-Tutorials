@@ -16,7 +16,7 @@ Aspose.Slides para Java es una potente API que permite a los desarrolladores tra
 
 Antes de profundizar en el código, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Entorno de desarrollo de Java: asegúrese de tener Java JDK (kit de desarrollo de Java) instalado en su sistema.
+1. Entorno de desarrollo de Java: asegúrese de tener Java JDK (Java Development Kit) instalado en su sistema.
 
 2.  Aspose.Slides para Java: descargue e instale Aspose.Slides para Java desde[sitio web](https://releases.aspose.com/slides/java/).
 

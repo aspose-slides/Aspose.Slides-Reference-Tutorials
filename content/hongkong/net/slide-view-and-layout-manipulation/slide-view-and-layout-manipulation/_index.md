@@ -23,7 +23,7 @@ Aspose.Slides for .NET 是一個功能豐富的函式庫，使 .NET 開發人員
    您可以從以下位置下載 Aspose.Slides for .NET 套件：[下載連結](https://releases.aspose.com/slides/net/)。下載後，使用您喜歡的套件管理器安裝它。
 
 2. ### 建立一個新的.NET專案：
-   開啟 Visual Studio IDE 並建立新的 .NET 項目，您將在其中使用 Aspose.Slides。
+   開啟 Visual Studio IDE 並建立一個新的 .NET 項目，您將在其中使用 Aspose.Slides。
 
 3. ### 新增對 Aspose.Slides 的引用：
    在您的專案中，新增對 Aspose.Slides 庫的引用。您可以透過右鍵單擊“解決方案資源管理器”中的“引用”部分並選擇“新增引用”來完成此操作。然後，瀏覽並選擇 Aspose.Slides DLL。
@@ -94,7 +94,7 @@ Aspose.Slides 使您能夠自訂投影片內容，例如文字、形狀、圖像
 //存取投影片的形狀
 IShapeCollection shapes = slide.Shapes;
 
-//新增文字框
+//在投影片中新增文字框
 ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 ```
 

@@ -2,7 +2,7 @@
 title: जावा स्लाइड्स में वर्कबुक से चार्ट डेटा सेट करें
 linktitle: जावा स्लाइड्स में वर्कबुक से चार्ट डेटा सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides का उपयोग करके जावा स्लाइड्स में Excel वर्कबुक से चार्ट डेटा सेट करना सीखें। गतिशील प्रस्तुतियों के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+description: Aspose.Slides का उपयोग करके जावा स्लाइड्स में एक्सेल वर्कबुक से चार्ट डेटा सेट करना सीखें। गतिशील प्रस्तुतियों के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
 type: docs
 weight: 15
 url: /hi/java/data-manipulation/set-chart-data-from-workbook-java-slides/
@@ -23,7 +23,7 @@ Aspose.Slides for Java एक शक्तिशाली लाइब्रे�
 ## चरण 1: एक प्रस्तुति बनाएं
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## चरण 4: एक्सेल वर्कबुक लोड करें
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  हम एक्सेल वर्कबुक को लोड करते हैं जिसमें वह डेटा होता है जिसे हम चार्ट के लिए उपयोग करना चाहते हैं।`"book1.xlsx"` अपनी एक्सेल फ़ाइल के पथ के साथ.
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## जावा स्लाइड्स में वर्कबुक से चार्ट डेटा सेट करने के लिए पूरा स्रोत कोड
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

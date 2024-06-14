@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## الخطوة 1: إعداد البيئة
@@ -61,4 +61,4 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### هل يمكنني إضافة نص إلى الشريحة مع شكل الخط؟
 نعم، يمكنك إضافة نص وصور ومحتويات أخرى إلى الشريحة باستخدام Aspose.Slides API.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟
-نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/).
+ نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/).

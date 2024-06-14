@@ -82,7 +82,7 @@ Gefeliciteerd! U hebt geleerd hoe u een externe werkmap kunt instellen met bijge
 
 ### Hoe kan ik de externe werkmapgegevens voor het diagram bijwerken?
 
-Om de externe werkmapgegevens voor het diagram bij te werken, hoeft u alleen maar de gegevens in de externe werkmap op de opgegeven URL te wijzigen. De volgende keer dat u de presentatie opent, haalt Aspose.Slides voor Java de bijgewerkte gegevens uit de externe werkmap op en werkt het diagram dienovereenkomstig bij.
+Om de externe werkmapgegevens voor het diagram bij te werken, hoeft u alleen maar de gegevens in de externe werkmap op de opgegeven URL te wijzigen. De volgende keer dat u de presentatie opent, haalt Aspose.Slides voor Java de bijgewerkte gegevens op uit de externe werkmap en werkt het diagram dienovereenkomstig bij.
 
 ### Kan ik een lokaal bestand als externe werkmap gebruiken?
 

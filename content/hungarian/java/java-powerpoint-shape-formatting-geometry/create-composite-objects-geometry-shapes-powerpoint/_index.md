@@ -19,12 +19,12 @@ Mielőtt belevágnánk a kódba, néhány dologra lesz szüksége:
 Először is importáljuk a szükséges csomagokat az Aspose.Slides for Java használatának megkezdéséhez.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Kompozit objektumok létrehozása bonyolultnak tűnhet, de ha kezelhető lépésekre bontja, könnyebb lesz, mint gondolná. Létrehozunk egy PowerPoint-prezentációt, hozzáadunk egy alakzatot, majd több geometriai útvonalat határozunk meg és alkalmazunk összetett alakzat létrehozásához.
 ## 1. lépés: Állítsa be projektjét
-Mielőtt bármilyen kódot írna, állítsa be a Java projektet. Hozzon létre egy új projektet az IDE-ben, és foglalja bele az Aspose.Slides for Java programot. Hozzáadhatja a könyvtárat a Maven segítségével, vagy letöltheti a JAR fájlt a[Aspose.Slides letöltési oldal](https://releases.aspose.com/slides/java/).
+ Mielőtt bármilyen kódot írna, állítsa be a Java projektet. Hozzon létre egy új projektet az IDE-ben, és foglalja bele az Aspose.Slides for Java programot. Hozzáadhatja a könyvtárat a Maven segítségével, vagy letöltheti a JAR fájlt a[Aspose.Slides letöltési oldal](https://releases.aspose.com/slides/java/).
 ### Az Aspose.Slides hozzáadása projektjéhez a Maven segítségével
  Ha Maven-t használ, adja hozzá a következő függőséget`pom.xml` fájl:
 ```xml
@@ -35,10 +35,10 @@ Mielőtt bármilyen kódot írna, állítsa be a Java projektet. Hozzon létre e
 </dependency>
 ```
 ## 2. lépés: Inicializálja a prezentációt
- Most pedig hozzunk létre egy új PowerPoint-prezentációt. Kezdjük az inicializálással`Presentation` osztály.
+Most pedig hozzunk létre egy új PowerPoint-prezentációt. Kezdjük az inicializálással`Presentation` osztály.
 ```java
 // Kimeneti fájl név
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## 3. lépés: Hozzon létre egy új alakzatot
@@ -71,10 +71,10 @@ Kombinálja a két geometriai útvonalat, és állítsa be őket az alakzatba.
 ```java
 shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Végül mentse a prezentációt egy fájlba.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 8. lépés: Tisztítsa meg az erőforrásokat
@@ -83,7 +83,7 @@ Győződjön meg arról, hogy a prezentáció által használt összes erőforr�
 if (pres != null) pres.dispose();
 ```
 ## Következtetés
-És megvan! Sikeresen létrehozott egy összetett alakzatot az Aspose.Slides for Java használatával. Ha a folyamatot egyszerű lépésekre bontja, könnyedén létrehozhat bonyolult formákat és javíthatja prezentációit. Folytassa a kísérletezést a különböző geometriai útvonalakkal, hogy egyedi terveket hozzon létre.
+És megvan! Sikeresen létrehozott egy összetett alakzatot az Aspose.Slides for Java használatával. Azáltal, hogy a folyamatot egyszerű lépésekre bontja, könnyedén létrehozhat bonyolult formákat és javíthatja prezentációit. Folytassa a kísérletezést a különböző geometriai útvonalakkal, hogy egyedi terveket hozzon létre.
 ## GYIK
 ### Mi az Aspose.Slides for Java?
 Az Aspose.Slides for Java egy hatékony könyvtár PowerPoint prezentációk létrehozásához, manipulálásához és konvertálásához Java nyelven.

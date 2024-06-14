@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: ドキュメントディレクトリを設定する
 PowerPoint プレゼンテーションが保存されているドキュメント ディレクトリへのパスを定義します。
@@ -52,7 +52,7 @@ System.out.println("Height: " + threeDEffectiveData.getBevelTop().getHeight());
 はい、スライド内の図形を反復処理し、必要に応じてベベル効果を適用できます。
 ### Aspose.Slides はベベル以外の 3D 効果もサポートしていますか?
 はい、Aspose.Slides は、PowerPoint プレゼンテーションの図形に適用できる幅広い 3D 効果を提供します。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 Aspose.Slides は、さまざまなバージョンの PowerPoint との互換性を確保し、さまざまな環境間でシームレスに作業できるようにします。
 ### ベベル効果のプロパティをさらにカスタマイズできますか?
 もちろん、ベベル効果のプロパティを完全に制御し、要件に応じてカスタマイズできます。

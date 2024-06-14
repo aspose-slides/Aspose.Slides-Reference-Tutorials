@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Ändern Sie die Position des Kommentars
 comment.Position = new Point(100, 100);
 
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Löschen des Kommentars
 slide.Comments.Remove(comment);
 
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

@@ -12,17 +12,17 @@ Modern sunumlarda görsel olarak çekici ve iyi yapılandırılmış öğelerin 
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
 1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2.  Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java kütüphanesini indirin ve projenize ekleyin. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java kütüphanesini indirin ve projenize ekleyin. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/java/).
 3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz bir Java IDE'sini seçin.
 
 ## Paketleri İçe Aktar
 Başlamak için Aspose.Slides for Java işlevlerini kullanmak için gerekli paketleri içe aktarın:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Ortamınızı Kurun
- Projeniz için PowerPoint sunumları oluşturup kaydedebileceğiniz bir dizin oluşturduğunuzdan emin olun. Yer değiştirmek`"Your Document Directory"`İstediğiniz dizinin yolu ile birlikte.
+ Projeniz için PowerPoint sunumları oluşturup kaydedebileceğiniz bir dizin oluşturduğunuzdan emin olun. Yer değiştirmek`"Your Document Directory"` İstediğiniz dizinin yolu ile birlikte.
 ```java
 String dataDir = "Your Document Directory";
 ```

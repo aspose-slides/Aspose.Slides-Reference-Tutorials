@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 ในการเริ่มต้น คุณต้องนำเข้าแพ็คเกจที่จำเป็นจากไลบรารี Aspose.Slides การนำเข้าเหล่านี้จะช่วยให้คุณสามารถทำงานกับงานนำเสนอ สไลด์ และรูปร่างได้
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ในคู่มือนี้ เราจะแจกแจงกระบวนการเปลี่ยนลำดับรูปร่างออกเป็นหลายขั้นตอนเพื่อความเข้าใจที่ดีขึ้นและง่ายต่อการนำไปใช้
 ## ขั้นตอนที่ 1: โหลดงานนำเสนอ

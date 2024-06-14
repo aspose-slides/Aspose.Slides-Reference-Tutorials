@@ -20,7 +20,7 @@ url: /ar/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
-## الخطوة 1: إنشاء فئة العرض التقديمي
+## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
 
  إنشاء مثيل لـ`Presentation` فئة وحدد الدليل حيث يتم تخزين المستندات الخاصة بك:
 

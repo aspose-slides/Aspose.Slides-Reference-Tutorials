@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-
 ---
 ## 소개
 PowerPoint 프레젠테이션을 사용해 본 적이 있다면 도형을 추가하고 색상을 사용자 지정하는 것이 슬라이드를 시각적으로 매력적이고 유익하게 만드는 데 중요한 요소라는 것을 알고 계실 것입니다. Aspose.Slides for Java를 사용하면 이 프로세스가 매우 쉬워집니다. PowerPoint 프레젠테이션 작성을 자동화하려는 개발자이거나 슬라이드에 색상을 추가하는 데 관심이 있는 사람이라면 이 튜토리얼은 Java용 Aspose.Slides를 사용하여 도형을 단색으로 채우는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 다음과 같은 몇 가지 전제 조건을 충족해야 합니다.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하십시오. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Java용 Aspose.Slides: 다음에서 Aspose.Slides for Java 라이브러리를 다운로드하세요.[Aspose 웹사이트](https://releases.aspose.com/slides/java/).
@@ -20,7 +20,7 @@ PowerPoint 프레젠테이션을 사용해 본 적이 있다면 도형을 추가
 Aspose.Slides for Java를 사용하려면 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1단계: 프로젝트 설정
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## 5단계: 채우기 유형을 단색으로 설정
  도형을 단색으로 채우려면 채우기 유형을 다음으로 설정하세요.`Solid`.
 ```java
-//채우기 유형을 솔리드로 설정
+// 채우기 유형을 솔리드로 설정
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## 6단계: 색상 선택 및 적용
 모양의 색상을 선택합니다. 여기서는 노란색을 사용했지만 원하는 색상을 선택할 수 있습니다.
 ```java
-// 직사각형의 색상을 설정합니다.
+//직사각형의 색상을 설정합니다.
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## 7단계: 프레젠테이션 저장
@@ -84,4 +84,4 @@ Aspose.Slides for Java는 Java로 된 PowerPoint 프레젠테이션 작업을 �
 ### Aspose.Slides for Java에 대한 무료 평가판이 있습니까?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
 ### 추가 문서와 지원은 어디서 찾을 수 있나요?
- 자세한 문서는 다음에서 확인할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/) , 다음에서 지원을 요청할 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/slides/11).
+ 자세한 문서는 다음에서 확인할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/) 다음에서 지원을 요청할 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/slides/11).

@@ -40,7 +40,7 @@ Szúrjon be egy ellipszis alakzatot a prezentáció első diájába:
 ISlide sld = pres.Slides[0];
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 75, 150);
 ```
-## 3. lépés: Alkalmazza a gradiens formázást
+## 3. lépés: Alkalmazza a színátmenet formázását
 Adja meg, hogy az alakzatot színátmenettel kell kitölteni, és határozza meg a színátmenet jellemzőit:
 ```csharp
 shp.FillFormat.FillType = FillType.Gradient;
@@ -70,6 +70,6 @@ V: Természetesen! Az Aspose.Slides for .NET támogatja a színátmenetes kitöl
 ### K: Elérhető ingyenes próbaverzió az Aspose.Slides for .NET számára?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez?
-V: Kérjen segítséget, és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+ V: Kérjen segítséget, és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Slides for .NET számára?
  V: Természetesen kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

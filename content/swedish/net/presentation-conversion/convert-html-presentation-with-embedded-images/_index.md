@@ -67,7 +67,7 @@ Konfigurera sedan HTML-konverteringsalternativen. Du kan ange olika inställning
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Tvinga spara inte bilder i HTML5-dokument
+    // Tvinga spara inte bilder i HTML5-dokument
     EmbedImages = false,
     // Ställ in sökvägen för externa bilder
     OutputPath = outPath

@@ -38,7 +38,7 @@ Tải bản trình bày PowerPoint bằng thư viện Aspose.Slides:
 ```csharp
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
 ```
-## Bước 4: Tạo Bitmap để hiển thị
+## Bước 4: Tạo Bitmap để kết xuất
 Tạo một đối tượng bitmap với kích thước mong muốn:
 ```csharp
 Bitmap bmp = new Bitmap(740, 960);
@@ -85,4 +85,4 @@ Trả lời: Có, Aspose.Slides được cập nhật thường xuyên để h�
 ### Câu hỏi: Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides?
  A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp và hỗ trợ cho Aspose.Slides ở đâu?
-Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để hỗ trợ cộng đồng.
+ Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để hỗ trợ cộng đồng.

@@ -34,7 +34,7 @@ Vamos começar criando uma nova apresentação. Veja como você pode fazer isso 
 
 ```java
 // Caminho para o documento PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Este código salva sua apresentação com os controles de mídia habilitados.
 
 ```java
 // Caminho para o documento PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Еative a exibição do controle de mídia no modo de apresentação de slides.

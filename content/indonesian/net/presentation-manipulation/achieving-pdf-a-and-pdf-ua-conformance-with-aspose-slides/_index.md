@@ -10,13 +10,13 @@ url: /id/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-wi
 
 ## Perkenalan
 
-Dalam dunia dokumen digital, memastikan kompatibilitas dan aksesibilitas merupakan hal yang sangat penting. PDF/A dan PDF/UA adalah dua standar yang mengatasi permasalahan ini. PDF/A berfokus pada pengarsipan, sedangkan PDF/UA menekankan aksesibilitas bagi pengguna penyandang disabilitas. Aspose.Slides untuk .NET menawarkan cara efisien untuk mencapai kesesuaian PDF/A dan PDF/UA, membuat presentasi Anda dapat digunakan secara universal.
+Dalam dunia dokumen digital, memastikan kompatibilitas dan aksesibilitas adalah hal yang sangat penting. PDF/A dan PDF/UA adalah dua standar yang mengatasi masalah ini. PDF/A berfokus pada pengarsipan, sedangkan PDF/UA menekankan aksesibilitas bagi pengguna penyandang disabilitas. Aspose.Slides untuk .NET menawarkan cara efisien untuk mencapai kesesuaian PDF/A dan PDF/UA, membuat presentasi Anda dapat digunakan secara universal.
 
 ## Memahami PDF/A dan PDF/UA
 
 PDF/A adalah versi standar ISO dari Portable Document Format (PDF) yang dikhususkan untuk pelestarian digital. Hal ini memastikan bahwa isi dokumen tetap utuh sepanjang waktu, sehingga ideal untuk tujuan pengarsipan.
 
-PDF/UA, di sisi lain, adalah singkatan dari "PDF/Aksesibilitas Universal". Ini adalah standar ISO untuk membuat PDF yang dapat diakses secara universal yang dapat dibaca dan dinavigasi oleh penyandang disabilitas menggunakan teknologi pendukung.
+PDF/UA, di sisi lain, adalah singkatan dari "PDF/Aksesibilitas Universal". Ini adalah standar ISO untuk membuat PDF yang dapat diakses secara universal yang dapat dibaca dan dinavigasi oleh penyandang disabilitas menggunakan teknologi bantu.
 
 ## Memulai dengan Aspose.Slide
 

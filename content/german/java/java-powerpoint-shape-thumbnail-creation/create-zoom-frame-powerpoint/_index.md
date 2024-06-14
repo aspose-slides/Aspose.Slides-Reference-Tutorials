@@ -19,7 +19,7 @@ Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie über Folg
 Zunächst müssen Sie die erforderlichen Pakete in Ihr Java-Projekt importieren. Diese Importe ermöglichen den Zugriff auf die für dieses Tutorial erforderlichen Aspose.Slides-Funktionen.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Wir möchten unsere Folien durch das Hinzufügen von Hintergrundfarben optisch hervorheben.
 ### Festlegen des Hintergrunds für die zweite Folie
 ```java
-    //Erstellen Sie einen Hintergrund für die zweite Folie
+    // Erstellen Sie einen Hintergrund für die zweite Folie
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

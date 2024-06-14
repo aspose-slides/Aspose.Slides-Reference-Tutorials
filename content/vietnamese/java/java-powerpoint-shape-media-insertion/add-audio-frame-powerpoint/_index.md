@@ -18,7 +18,7 @@ Trước khi bắt đầu, hãy đảm bảo rằng bạn có sẵn các điều
 Nhập các gói cần thiết vào dự án Java của bạn:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

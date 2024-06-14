@@ -44,7 +44,7 @@ Először is inicializálnunk kell egy új bemutatót.
 ```csharp
 using (Presentation presentation = new Presentation())
 {
-    // A kódod ide fog kerülni.
+    // A kódod ide kerül.
 }
 ```
 

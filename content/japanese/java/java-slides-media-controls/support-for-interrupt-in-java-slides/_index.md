@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Java スライドでの割り込みサポートの完全なソースコード
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

@@ -53,7 +53,7 @@ trendLineExp.setDisplayEquation(false);
 trendLineExp.setDisplayRSquaredValue(false);
 ```
 
-## Шаг 3: Добавление линии линейного тренда
+## Шаг 3: Добавление линейной линии тренда
 
 Далее мы добавим линейную линию тренда в нашу серию диаграмм:
 

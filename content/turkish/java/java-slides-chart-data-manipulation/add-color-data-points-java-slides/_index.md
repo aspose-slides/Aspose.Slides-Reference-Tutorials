@@ -21,7 +21,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 ## 1. Adım: Yeni Bir Sunu Oluşturun
 
-Öncelikle Aspose.Slides for Java'yı kullanarak yeni bir sunum oluşturacağız. Bu sunum grafiğimiz için kapsayıcı görevi görecek.
+Öncelikle Aspose.Slides for Java'yı kullanarak yeni bir sunum oluşturacağız. Bu sunum grafiğimiz için kapsayıcı görevi görecektir.
 
 ```java
 Presentation pres = new Presentation();
@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 Bu adımda belirli veri noktalarını özelleştireceğiz. Burada veri noktalarının rengini değiştiriyoruz ve etiket ayarlarını yapıyoruz.
 
 ```java
-//Veri noktası 0'ı özelleştirin
+// Veri noktası 0'ı özelleştirin
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -116,4 +116,4 @@ Diğer veri noktalarının rengini değiştirmek için 4. Adımda gösterilene b
 
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
 
-Aspose.Slides for Java kullanımına ilişkin daha fazla örnek ve ayrıntılı belgeyi şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi.
+ Aspose.Slides for Java kullanımına ilişkin daha fazla örnek ve ayrıntılı belgeyi şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi.

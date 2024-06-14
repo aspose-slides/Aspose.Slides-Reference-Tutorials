@@ -45,7 +45,7 @@ Sie können verschiedene Dokumenteigenschaften wie Titel, Autor, Schlüsselwört
 // Legen Sie den Titel der Präsentation fest
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Legen Sie den Autor der Präsentation fest
+//Legen Sie den Autor der Präsentation fest
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Schlagworte für die Präsentation festlegen
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Der Pfad zum Dokumentverzeichnis.
 String dataDir = "Your Document Directory";
-//Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
+// Instanziieren Sie ein Präsentationsobjekt, das eine PPT-Datei darstellt
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ In diesem Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für Java Dokume
 // Legen Sie den Titel der Präsentation fest
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Legen Sie den Autor der Präsentation fest
+//Legen Sie den Autor der Präsentation fest
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Schlagworte für die Präsentation festlegen

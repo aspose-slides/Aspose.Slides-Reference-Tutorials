@@ -19,7 +19,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai, impor paket yang diperlukan di kelas Java Anda:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Ya, Anda dapat menambahkan beberapa garis berbentuk panah ke satu slide dengan m
 ### Apakah Aspose.Slides untuk Java kompatibel dengan PowerPoint versi terbaru?
 Aspose.Slides untuk Java mendukung kompatibilitas dengan berbagai versi PowerPoint, memastikan integrasi yang lancar dengan presentasi Anda.
 ### Bisakah saya menyesuaikan warna garis berbentuk panah?
- Ya, Anda dapat menyesuaikan warna garis berbentuk panah dengan menyesuaikannya`SolidFillColor` properti dalam kode.
+Ya, Anda dapat menyesuaikan warna garis berbentuk panah dengan menyesuaikannya`SolidFillColor` properti dalam kode.
 ### Apakah Aspose.Slides untuk Java mendukung bentuk lain selain garis?
 Ya, Aspose.Slides untuk Java menyediakan dukungan ekstensif untuk menambahkan berbagai bentuk, termasuk persegi panjang, lingkaran, dan poligon, ke slide PowerPoint.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides untuk Java?

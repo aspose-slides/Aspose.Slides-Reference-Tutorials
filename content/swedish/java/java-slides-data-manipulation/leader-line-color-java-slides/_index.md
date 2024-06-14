@@ -2,7 +2,7 @@
 title: Leader Line Color i Java Slides
 linktitle: Leader Line Color i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg guide med exempel på källkod.
+description: Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg-guide med exempel på källkod.
 type: docs
 weight: 12
 url: /sv/java/data-manipulation/leader-line-color-java-slides/
@@ -20,7 +20,7 @@ Innan du börjar, se till att du har följande:
 
 ## Steg 1: Ladda presentationen
 
-Först måste du ladda PowerPoint-presentationen som innehåller diagrammet du vill ändra. Byta ut`presentationName` med sökvägen till din PowerPoint-fil.
+ Först måste du ladda PowerPoint-presentationen som innehåller diagrammet du vill ändra. Byta ut`presentationName` med sökvägen till din PowerPoint-fil.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -28,7 +28,7 @@ String outPath = "output/path/output.pptx";
 Presentation pres = new Presentation(presentationName);
 ```
 
-## Steg 2: Öppna diagrammet och dataetiketter
+## Steg 2: Öppna diagrammet och dataetiketterna
 
 Därefter kommer vi åt diagrammet och dataetiketterna i presentationen. I det här exemplet antar vi att diagrammet finns på den första bilden.
 
@@ -36,7 +36,7 @@ Därefter kommer vi åt diagrammet och dataetiketterna i presentationen. I det h
 // Hämta diagrammet från den första bilden
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Få serier av diagrammet
+//Få serier av diagrammet
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Få etiketter för den första serien
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Spara slutligen presentationen med de modifierade ledarlinjefärgerna till en ny fil.
 
 ```java
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Komplett källkod för Leader Line Color i Java Slides
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Hämta diagrammet från den första bilden
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Få serier av diagrammet
+            //Få serier av diagrammet
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Få lebels av den första serien
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Slutsats
 
-den här handledningen har vi lärt oss hur man ändrar ledarlinjens färg i ett PowerPoint-diagram med Aspose.Slides för Java. Du kan anpassa färgen och andra formateringsalternativ för att möta dina specifika behov. Detta kan vara särskilt användbart när du vill markera vissa datapunkter i dina diagram för bättre visualisering.
+I den här handledningen har vi lärt oss hur man ändrar ledarlinjens färg i ett PowerPoint-diagram med Aspose.Slides för Java. Du kan anpassa färgen och andra formateringsalternativ för att möta dina specifika behov. Detta kan vara särskilt användbart när du vill markera vissa datapunkter i dina diagram för bättre visualisering.
 
 ## FAQ's
 
@@ -107,7 +107,7 @@ För att komma åt och ändra andra diagramegenskaper kan du utforska de olika k
 
 ### Behöver jag en licens för att använda Aspose.Slides för Java i ett kommersiellt projekt?
 
-Ja, du behöver i allmänhet en giltig licens för att använda Aspose.Slides för Java i ett kommersiellt projekt. Aspose erbjuder olika licensalternativ, inklusive en gratis utvärderingslicens för test- och teständamål. För produktionsanvändning bör du dock skaffa lämplig kommersiell licens. Besök[Aspose köpsida](https://purchase.aspose.com/) för licensinformation.
+ Ja, du behöver i allmänhet en giltig licens för att använda Aspose.Slides för Java i ett kommersiellt projekt. Aspose erbjuder olika licensalternativ, inklusive en gratis utvärderingslicens för test- och teständamål. För produktionsanvändning bör du dock skaffa lämplig kommersiell licens. Besök[Aspose köpsida](https://purchase.aspose.com/) för licensinformation.
 
 ### Hur kan jag få teknisk support för Aspose.Slides för Java?
 

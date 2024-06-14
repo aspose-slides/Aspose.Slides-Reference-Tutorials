@@ -1,6 +1,6 @@
 ---
-title: Java Slides licensiering och initiering
-linktitle: Java Slides licensiering och initiering
+title: Java Slides-licensiering och initiering
+linktitle: Java Slides-licensiering och initiering
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Upptäck hur du effektivt licensierar och initierar Aspose.Slides för Java i våra omfattande handledningar. Kom igång med Java Slides nu!
 type: docs
@@ -26,7 +26,7 @@ Med din licens på plats är det dags att initiera Aspose.Slides för Java och b
 
 1.  Ladda ner och installation: Börja med att ladda ner Aspose.Slides for Java-biblioteket från[nedladdningssida](https://releases.aspose.com/slides/net/). Följ installationsinstruktionerna för att ställa in biblioteket i din Java-miljö.
 
-2. Importera bibliotek: I din Java-kod, importera de nödvändiga Aspose.Slides-biblioteken för att komma åt funktionerna och klasserna som krävs för att skapa bilder.
+2. Importera bibliotek: Importera de nödvändiga Aspose.Slides-biblioteken i din Java-kod för att komma åt de funktioner och klasser som krävs för att skapa bild.
 
 3. Skapa en presentation: Initiera ett presentationsobjekt som fungerar som arbetsytan för dina bilder. Du kan välja mellan olika presentationsformat, inklusive PPT och PPTX.
 

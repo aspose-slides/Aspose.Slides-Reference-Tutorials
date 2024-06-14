@@ -13,18 +13,18 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo phần phó
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã cài đặt và thiết lập các điều kiện tiên quyết sau trên hệ thống của mình:
 1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản mới nhất từ[đây](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java: Tải xuống và thiết lập thư viện Aspose.Slides cho Java. Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/slides/java/)và tải xuống thư viện từ[liên kết này](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java: Tải xuống và thiết lập thư viện Aspose.Slides cho Java. Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/slides/java/) và tải xuống thư viện từ[liên kết này](https://releases.aspose.com/slides/java/).
 ## Gói nhập khẩu
 Đầu tiên, nhập các gói cần thiết để làm việc với Aspose.Slides cho Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Bước 1: Thiết lập tệp đầu ra
 Xác định đường dẫn cho tệp trình bày đầu ra:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Bước 2: Khởi tạo đối tượng trình bày
  Tạo một phiên bản mới của`Presentation` lớp học:

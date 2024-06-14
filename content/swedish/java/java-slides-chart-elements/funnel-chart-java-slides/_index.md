@@ -38,7 +38,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-koden ovan lägger vi till ett trattdiagram till den första bilden vid koordinater (50, 50) med en bredd på 500 och en höjd på 400 pixlar.
+I koden ovan lägger vi till ett trattdiagram till den första bilden vid koordinater (50, 50) med en bredd på 500 och en höjd på 400 pixlar.
 
 ## Steg 3: Definiera diagramdata
 

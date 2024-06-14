@@ -105,7 +105,7 @@ finally
 
 ### 我可以透過程式方式取消隱藏 Aspose.Slides for Java 中的隱藏投影片嗎？
 
-是的，您可以透過設定在 Aspose.Slides for Java 中以程式設計方式取消隱藏隱藏的幻燈片`Hidden`的財產`Slide`上課到`false`。這是一個例子：
+是的，您可以透過設定在 Aspose.Slides for Java 中以程式方式取消隱藏隱藏的幻燈片`Hidden`的財產`Slide`上課到`false`。這是一個例子：
 
 ```java
 Slide slide = presentation.getSlides().get_Item(slideIndex); //將slideIndex 替換為隱藏投影片的索引

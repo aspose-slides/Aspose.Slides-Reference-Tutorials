@@ -21,12 +21,12 @@ url: /zh/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置数据目录
 在深入了解核心功能之前，请设置数据目录以访问您的演示文件：
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## 步骤 2：创建加载选项
 实例化加载选项以配置如何访问演示文件。在此示例中，我们将访问密码设置为 null，并启用仅加载文档属性：
@@ -61,6 +61,6 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
 ### Aspose.Slides 有免费试用版吗？
 是的，您可以通过免费试用来探索 Aspose.Slides 的功能[网站](https://releases.aspose.com/).
 ### 我可以在哪里寻求与 Aspose.Slides 相关的帮助或支持？
-如有任何疑问或需要帮助，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)，专家和社区随时准备提供帮助。
+如有任何疑问或需要帮助，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)，这里的专家和社区随时准备提供帮助。
 ### 我可以获得 Aspose.Slides 的临时许可证吗？
 是的，临时许可证可用于评估或测试目的。您可以从[购买页面](https://purchase.aspose.com/temporary-license/).

@@ -2,7 +2,7 @@
 title: Αντιγράψτε τη διαφάνεια σε ακριβή τοποθεσία σε διαφορετική παρουσίαση
 linktitle: Αντιγράψτε τη διαφάνεια σε ακριβή τοποθεσία σε διαφορετική παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Μάθετε πώς να αντιγράφετε διαφάνειες σε ακριβείς τοποθεσίες σε διαφορετικές παρουσιάσεις χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει τον πηγαίο κώδικα και οδηγίες για απρόσκοπτη επεξεργασία του PowerPoint.
+description: Μάθετε πώς να αντιγράφετε διαφάνειες σε ακριβείς τοποθεσίες σε διαφορετικές παρουσιάσεις χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει τον πηγαίο κώδικα και οδηγίες για απρόσκοπτη διαχείριση του PowerPoint.
 type: docs
 weight: 18
 url: /el/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Αφού αντιγράψουμε και τοποθετήσουμε τη διαφάνεια, πρέπει να αποθηκεύσουμε την τροποποιημένη παρουσίαση προορισμού.
 
 ```csharp
-// Αποθηκεύστε την τροποποιημένη παρουσίαση
+//Αποθηκεύστε την τροποποιημένη παρουσίαση
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

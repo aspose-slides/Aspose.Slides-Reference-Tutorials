@@ -19,7 +19,7 @@ Eerst moet u de benodigde pakketten in uw Java-project importeren. Voeg de volge
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel het presentatieobject in
 Begin met het instellen van het Presentatie-object om de PowerPoint-presentatie weer te geven waarmee u wilt werken. Hier ziet u hoe u het kunt doen:

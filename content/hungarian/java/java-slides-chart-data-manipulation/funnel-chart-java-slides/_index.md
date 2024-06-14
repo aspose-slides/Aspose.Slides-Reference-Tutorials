@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Adjon hozzá egy tölcsérdiagramot az első diához koordinátákon (50, 50), méretekkel (500, 400).
+    //Adjon hozzá egy tölcsérdiagramot az első diához koordinátákon (50, 50), méretekkel (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -118,7 +118,7 @@ Ez az! Sikeresen létrehozott egy csatornadiagramot az Aspose.Slides for Java se
 ```
 ## Következtetés
 
-Ebben a lépésről lépésre bemutatott útmutatóban bemutattuk, hogyan hozhat létre tölcsérdiagramot egy PowerPoint-prezentációban az Aspose.Slides for Java használatával. A tölcsérdiagramok értékes eszközt jelentenek az előrehaladási vagy szűkülési mintát követő adatok megjelenítéséhez, megkönnyítve az információk hatékony továbbítását. 
+Ebben a lépésről lépésre bemutatott útmutatóban bemutattuk, hogyan hozhat létre tölcsérdiagramot egy PowerPoint-prezentációban az Aspose.Slides for Java használatával. A tölcsérdiagramok értékes eszközt jelentenek a haladási vagy szűkülési mintát követő adatok megjelenítéséhez, megkönnyítve az információk hatékony továbbítását. 
 
 ## GYIK
 
@@ -128,7 +128,7 @@ A csatornadiagram megjelenését testreszabhatja a diagram különféle tulajdon
 
 ### Hozzáadhatok további adatpontokat vagy kategóriákat a csatornadiagramhoz?
 
-Igen, a 3. lépésben megadott kód kiterjesztésével további adatpontokat és kategóriákat is hozzáadhat a csatornadiagramhoz. Szükség szerint egyszerűen adjon hozzá további kategóriacímkéket és adatpontokat.
+Igen, a 3. lépésben megadott kód kiterjesztésével további adatpontokat és kategóriákat adhat a csatornadiagramhoz. Egyszerűen adjon hozzá további kategóriacímkéket és adatpontokat szükség szerint.
 
 ### Hogyan változtathatom meg a tölcsérdiagram helyzetét és méretét a dián?
 
@@ -136,4 +136,4 @@ A tölcsérdiagram helyzetét és méretét módosíthatja a megadott koordinát
 
 ### Exportálhatom a diagramot különböző formátumokba, például PDF-be vagy képbe?
 
- Igen, az Aspose.Slides for Java lehetővé teszi a prezentáció tölcsérdiagrammal történő exportálását különféle formátumokba, beleértve a PDF-et, képformátumokat stb. Használhatja a`SaveFormat` opciók a kívánt kimeneti formátum megadásához a prezentáció mentésekor.
+Igen, az Aspose.Slides for Java lehetővé teszi a prezentáció tölcsérdiagrammal történő exportálását különféle formátumokba, beleértve a PDF-et, képformátumokat stb. Használhatja a`SaveFormat` opciók a kívánt kimeneti formátum megadásához a prezentáció mentésekor.

@@ -2,7 +2,7 @@
 title: Přístup k vlastnostem prezentace
 linktitle: Přístup k vlastnostem prezentace
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Odemkněte sílu Aspose.Slides pro Java. Osvojte si správu prezentací pomocí tohoto návodu. Bez námahy přistupujte k vlastnostem prezentace, upravujte je a vylepšujte.
+description: Odemkněte sílu Aspose.Slides for Java. Osvojte si správu prezentací pomocí tohoto návodu. Bez námahy přistupujte k vlastnostem prezentace, upravujte je a vylepšujte.
 type: docs
 weight: 11
 url: /cs/java/java-powerpoint-properties-management/access-presentation-properties/
@@ -21,12 +21,12 @@ V tomto kroku naimportujeme potřebné balíčky, abychom nastartovali naši ces
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte Data Directory
 Než se ponoříte do základní funkce, nastavte datový adresář pro přístup k souboru prezentace:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Krok 2: Vytvořte možnosti načítání
 Možnosti okamžitého načtení pro konfiguraci způsobu přístupu k souboru prezentace. V tomto příkladu nastavujeme přístupové heslo na hodnotu null a umožňujeme načítání pouze vlastností dokumentu:

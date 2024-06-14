@@ -54,7 +54,7 @@ while (categoryIndex < 15) {
     int i = 0;
     while (i < chart.getChartData().getSeries().size()) {
         //ここにデータポイントを追加
-        //...
+        // ...
         i++;
     }
     categoryIndex++;
@@ -71,7 +71,7 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    //データ ポイントの書式設定 (塗りつぶし、線など) をカスタマイズします。
+    //データ ポイントの書式設定 (塗りつぶし、線など) をカスタマイズする
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();

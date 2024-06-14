@@ -143,7 +143,7 @@ Bu eğitimde Aspose.Slides for Java kütüphanesini kullanarak PowerPoint sunumu
 
 ### Ağaç Haritası grafiğinin görünümünü nasıl özelleştirebilirim?
 
- Ağaç Haritası grafiğinin çeşitli özelliklerini değiştirerek görünümünü özelleştirebilirsiniz.`chart` Ve`series` renkler, etiketler ve düzenler gibi nesneler.
+ Ağaç Haritası grafiğinin çeşitli özelliklerini değiştirerek görünümünü özelleştirebilirsiniz.`chart` Ve`series`renkler, etiketler ve düzenler gibi nesneler.
 
 ### Tek bir sunumda birden fazla Ağaç Haritası grafiği oluşturabilir miyim?
 

@@ -109,7 +109,7 @@ Det är allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Sl
             chart.getChartData().getCategories().add(fact.getCell(0, 4, 0, "C4"));
             series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
-            //Ta den andra diagramserien
+            //Ta andra diagramserien
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
             //Fyller nu på seriedata
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
@@ -127,13 +127,13 @@ Det är allt! Du har skapat ett linjediagram med standardmarkörer med Aspose.Sl
 ```
 ## Slutsats
 
-den här omfattande handledningen har du lärt dig hur du skapar Java Slides med standardmarkörer i diagram med Aspose.Slides för Java. Vi täckte hela processen, från att sätta upp en presentation till att anpassa diagrammets utseende och spara resultatet.
+I den här omfattande handledningen har du lärt dig hur du skapar Java Slides med standardmarkörer i diagram med Aspose.Slides för Java. Vi täckte hela processen, från att sätta upp en presentation till att anpassa diagrammets utseende och spara resultatet.
 
 ## FAQ's
 
 ### Hur kan jag ändra markörsymbolerna?
 
- Du kan anpassa markörsymbolerna genom att ställa in markörstilen för varje datapunkt. Använda sig av`IDataPoint.setMarkerStyle()` för att ändra markörsymbolen.
+Du kan anpassa markörsymbolerna genom att ställa in markörstilen för varje datapunkt. Använda sig av`IDataPoint.setMarkerStyle()` för att ändra markörsymbolen.
 
 ### Hur justerar jag diagrammets färger?
 

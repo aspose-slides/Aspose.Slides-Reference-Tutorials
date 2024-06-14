@@ -14,7 +14,7 @@ In de wereld van datavisualisatie en -presentatie kan het opnemen van grafieken 
 
 Voordat we met Aspose.Slides voor .NET gaan werken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
-1.  Aspose.Slides voor .NET: Om toegang te krijgen tot de bibliotheek en deze te gebruiken, moet Aspose.Slides voor .NET geïnstalleerd zijn. U kunt de bibliotheek verkrijgen bij de[downloadpagina](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides voor .NET: Om toegang te krijgen tot de bibliotheek en deze te gebruiken, moet Aspose.Slides voor .NET geïnstalleerd zijn. U kunt de bibliotheek verkrijgen bij de[downloadpagina](https://releases.aspose.com/slides/net/).
 
 2. Ontwikkelomgeving: U moet een ontwikkelomgeving hebben opgezet, bij voorkeur met behulp van een .NET geïntegreerde ontwikkelomgeving zoals Visual Studio.
 
@@ -91,7 +91,7 @@ tredLineLog.AddTextFrameForOverriding("New log trend line");
 ### Een voortschrijdend gemiddelde trendlijn toevoegen
 
 ```csharp
-// Trendlijn voor voortschrijdend gemiddelde toegevoegd voor diagramreeks 2
+// Trendlijn voor voortschrijdend gemiddelde toegevoegd voor diagramserie 2
 ITrendline tredLineMovAvg = chart.ChartData.Series[1].TrendLines.Add(TrendlineType.MovingAverage);
 tredLineMovAvg.Period = 3;
 tredLineMovAvg.TrendlineName = "New TrendLine Name";
@@ -100,7 +100,7 @@ tredLineMovAvg.TrendlineName = "New TrendLine Name";
 ### Een polynomiale trendlijn toevoegen
 
 ```csharp
-// Polynomiale trendlijn toegevoegd voor diagramserie 3
+// Polynomiale trendlijn toegevoegd voor diagramreeks 3
 ITrendline tredLinePol = chart.ChartData.Series[2].TrendLines.Add(TrendlineType.Polynomial);
 tredLinePol.Forward = 1;
 tredLinePol.Order = 3;

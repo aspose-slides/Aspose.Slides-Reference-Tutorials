@@ -19,7 +19,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. Adım: Ortamı Ayarlayın

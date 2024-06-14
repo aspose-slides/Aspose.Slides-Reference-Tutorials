@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 ในการเริ่มต้น คุณจะต้องนำเข้าแพ็คเกจที่จำเป็นสำหรับ Aspose.Slides และคลาส Java ที่จำเป็นอื่นๆ
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides รองรับ Java SE 6 ขึ้นไป
 ### ฉันจะเพิ่มภาพเคลื่อนไหวต่างๆ ให้กับรูปร่างต่างๆ ได้อย่างไร
 คุณสามารถเพิ่มภาพเคลื่อนไหวที่แตกต่างกันให้กับรูปร่างต่างๆ ได้โดยทำซ้ำขั้นตอนสำหรับแต่ละรูปร่าง และระบุเอฟเฟกต์ที่แตกต่างกันตามต้องการ
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
- ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/slides/java/) และ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/slides/11) สำหรับตัวอย่างและความช่วยเหลือเพิ่มเติม
+ ตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/slides/java/) และ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/slides/11)สำหรับตัวอย่างและความช่วยเหลือเพิ่มเติม

@@ -16,7 +16,7 @@ In der Welt der Java-Entwicklung ist die Arbeit mit Präsentationsfolien eine g�
 
 Bevor wir uns in den Code vertiefen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.Slides für Java-Bibliothek: Sie müssen die Aspose.Slides für Java-Bibliothek installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides für Java-Bibliothek: Sie müssen die Aspose.Slides für Java-Bibliothek installiert haben. Sie können sie hier herunterladen:[Hier](https://releases.aspose.com/slides/java/).
 
 2. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
 

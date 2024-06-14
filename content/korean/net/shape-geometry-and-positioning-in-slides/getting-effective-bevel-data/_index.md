@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-da
 ---
 ## 소개
 비교할 수 없이 쉽게 멋진 프레젠테이션을 만들 수 있는 관문인 Aspose.Slides for .NET의 매혹적인 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프리젠테이션 슬라이드의 모양에 대한 효과적인 경사 데이터를 얻는 복잡한 과정을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 이 흥미진진한 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 2. 개발 환경: Visual Studio 또는 선호하는 .NET 개발 도구를 사용하여 적합한 개발 환경을 설정합니다.
@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- 반드시 교체하세요`"Your Document Directory"`프레젠테이션 파일을 저장하려는 경로를 사용하세요.
+ 반드시 교체하세요`"Your Document Directory"` 프레젠테이션 파일을 저장하려는 경로를 사용하세요.
 ## 2단계: 프레젠테이션 로드
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -54,7 +54,7 @@ Console.WriteLine("Type: " + threeDEffectiveData.BevelTop.BevelType);
 Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
-마지막으로 유형, 너비, 높이를 포함하여 모양의 윗면에 대한 베벨 데이터를 인쇄합니다.
+마지막으로 유형, 너비 및 높이를 포함하여 모양의 윗면에 대한 베벨 데이터를 인쇄합니다.
 그리고 거기에 있습니다! Aspose.Slides for .NET을 사용하여 프레젠테이션의 모양에 대한 효과적인 경사 데이터를 성공적으로 검색하고 표시했습니다.
 ## 결론
 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양에서 효과적인 경사 데이터를 가져오는 기본 사항을 살펴보았습니다. 이러한 지식을 바탕으로 이제 맞춤형 3차원 효과로 프레젠테이션을 향상시킬 수 있습니다.

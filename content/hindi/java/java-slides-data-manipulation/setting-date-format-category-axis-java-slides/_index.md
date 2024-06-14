@@ -10,7 +10,7 @@ url: /hi/java/data-manipulation/setting-date-format-category-axis-java-slides/
 
 ## जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करने का परिचय
 
-इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप कैसे सेट करें। Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों को बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
+इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप कैसे सेट करें। Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो आपको प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियाँ बनाने, हेरफेर करने और प्रबंधित करने की अनुमति देती है।
 
 ## आवश्यक शर्तें
 
@@ -105,7 +105,7 @@ pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{

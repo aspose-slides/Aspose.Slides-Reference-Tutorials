@@ -10,21 +10,21 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 섹션 확대/축소를 만드는 방법을 살펴보겠습니다. 섹션 확대/축소는 프레젠테이션의 다양한 섹션을 원활하게 탐색할 수 있는 강력한 기능으로, 구성과 전반적인 사용자 경험을 모두 향상시킵니다. 복잡한 프레젠테이션을 쉽게 소화할 수 있는 섹션으로 나누면 효과적으로 메시지를 전달하고 청중의 관심을 끌 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 시스템에 다음 필수 구성 요소가 설치 및 설정되어 있는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 다음에서 최신 버전을 다운로드하여 설치할 수 있습니다.[여기](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Aspose.Slides for Java 라이브러리를 다운로드하고 설정하세요. 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/java/)그리고 다음에서 라이브러리를 다운로드하세요.[이 링크](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Aspose.Slides for Java 라이브러리를 다운로드하고 설정하세요. 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/java/) 그리고 다음에서 라이브러리를 다운로드하세요.[이 링크](https://releases.aspose.com/slides/java/).
 ## 패키지 가져오기
 먼저 Aspose.Slides for Java 작업에 필요한 필수 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1단계: 출력 파일 설정
 출력 프레젠테이션 파일의 경로를 정의합니다.
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## 2단계: 프레젠테이션 개체 초기화
  새 인스턴스를 생성합니다.`Presentation` 수업:
@@ -60,7 +60,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ```
 
 ## 결론
-결론적으로 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 섹션 확대/축소를 만드는 방법을 보여주었습니다. 단계별 가이드를 따르면 프레젠테이션의 구성과 탐색 기능을 향상시켜 청중에게 더욱 매력적인 경험을 제공할 수 있습니다.
+결론적으로 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 섹션 확대/축소를 만드는 방법을 보여주었습니다. 단계별 가이드를 따르면 프레젠테이션의 구성과 탐색 기능을 향상시켜 청중에게 더욱 매력적인 경험을 선사할 수 있습니다.
 ## FAQ
 ### 섹션 확대/축소 프레임의 모양을 사용자 정의할 수 있나요?
 예, 필요에 따라 크기, 위치 및 기타 속성을 조정하여 단면 확대/축소 프레임의 모양을 사용자 정의할 수 있습니다.

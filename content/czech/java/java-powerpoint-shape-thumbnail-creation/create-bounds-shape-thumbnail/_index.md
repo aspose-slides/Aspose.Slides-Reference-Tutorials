@@ -8,7 +8,7 @@ weight: 10
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
 ## Úvod
-Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům v jazyce Java vytvářet, manipulovat a převádět PowerPointové prezentace programově. V tomto tutoriálu se naučíme, jak vytvořit miniaturu tvaru s ohraničením pomocí Aspose.Slides pro Java.
+Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům Java vytvářet, manipulovat a převádět PowerPointové prezentace programově. V tomto tutoriálu se naučíme, jak vytvořit miniaturu tvaru s ohraničením pomocí Aspose.Slides pro Java.
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující:
 1. Java Development Kit (JDK) nainstalovaný ve vašem systému.
@@ -19,7 +19,7 @@ Ujistěte se, že do kódu Java importujete potřebné balíčky:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

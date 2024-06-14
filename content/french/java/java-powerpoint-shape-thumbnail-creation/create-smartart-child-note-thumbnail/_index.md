@@ -12,7 +12,7 @@ Dans ce didacticiel, nous allons explorer comment créer des vignettes de notes 
 ## Conditions préalables
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 1. Kit de développement Java (JDK) installé sur votre système.
-2. Bibliothèque Aspose.Slides pour Java téléchargée et configurée dans votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
+2.  Bibliothèque Aspose.Slides pour Java téléchargée et configurée dans votre projet. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
 
 ## Importer des packages
 Assurez-vous d'importer les packages nécessaires dans votre classe Java :
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

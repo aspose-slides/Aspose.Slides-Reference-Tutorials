@@ -130,4 +130,4 @@ Ja, Sie können das Erscheinungsbild der invertierten Datenpunkte anpassen. Aspo
 
 ### Wo kann ich auf die Aspose.Slides-Dokumentation für Java zugreifen?
 
- Sie können auf die Dokumentation für Aspose.Slides für Java unter zugreifen.[Hier](https://reference.aspose.com/slides/java/).
+Sie können auf die Dokumentation für Aspose.Slides für Java unter zugreifen.[Hier](https://reference.aspose.com/slides/java/).

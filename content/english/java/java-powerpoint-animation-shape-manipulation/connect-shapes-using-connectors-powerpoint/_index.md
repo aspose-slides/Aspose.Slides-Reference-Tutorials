@@ -20,7 +20,7 @@ Before we begin, ensure you have the following prerequisites:
 First, import the necessary packages for working with Aspose.Slides in your Java project.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Instantiate Presentation Class
 Instantiate the `Presentation` class, which represents the PPTX file you're working on.

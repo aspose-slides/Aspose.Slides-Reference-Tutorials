@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbna
 首先，您需要在 Java 程式碼中匯入必要的套件才能使用 Aspose.Slides 的功能。在 Java 檔案的開頭包含以下導入語句：
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -59,4 +59,4 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 ### 我可以在購買前試用 Aspose.Slides 嗎？
 絕對地！您可以從以下位置下載 Aspose.Slides 的免費試用版：[這裡](https://releases.aspose.com/)評估其特性和功能。
 ### 在哪裡可以找到對 Aspose.Slides 的支援？
-如果您對 Aspose.Slides 有任何疑問或需要協助，您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)為了支持。
+如果您對 Aspose.Slides 有任何疑問或需要協助，可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)為了支持。

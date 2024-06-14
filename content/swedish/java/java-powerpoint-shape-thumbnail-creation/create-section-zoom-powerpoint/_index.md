@@ -9,22 +9,22 @@ url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 ---
 
 ## Introduktion
-I den här handledningen kommer vi att fördjupa oss i att skapa avsnittszoomningar i PowerPoint-presentationer med Aspose.Slides för Java. Sektionszoomningar är en kraftfull funktion som gör att du sömlöst kan navigera genom olika delar av din presentation, vilket förbättrar både organisationen och den övergripande användarupplevelsen. Genom att bryta ner komplexa presentationer i lättsmälta avsnitt kan du effektivt förmedla ditt budskap och engagera din publik.
+den här handledningen kommer vi att fördjupa oss i att skapa avsnittszoomningar i PowerPoint-presentationer med Aspose.Slides för Java. Sektionszoomningar är en kraftfull funktion som gör att du sömlöst kan navigera genom olika delar av din presentation, vilket förbättrar både organisationen och den övergripande användarupplevelsen. Genom att bryta ner komplexa presentationer i lättsmälta avsnitt kan du effektivt förmedla ditt budskap och engagera din publik.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar installerade och konfigurerade på ditt system:
 1.  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner och installera den senaste versionen från[här](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides för Java: Ladda ner och ställ in Aspose.Slides för Java-biblioteket. Du hittar dokumentationen[här](https://reference.aspose.com/slides/java/)och ladda ner biblioteket från[den här länken](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides för Java: Ladda ner och ställ in Aspose.Slides för Java-biblioteket. Du hittar dokumentationen[här](https://reference.aspose.com/slides/java/) och ladda ner biblioteket från[den här länken](https://releases.aspose.com/slides/java/).
 ## Importera paket
 Importera först de nödvändiga paketen som krävs för att arbeta med Aspose.Slides för Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Steg 1: Output File Setup
 Definiera sökvägen för utdatapresentationsfilen:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Steg 2: Initiera presentationsobjekt
  Skapa en ny instans av`Presentation` klass:

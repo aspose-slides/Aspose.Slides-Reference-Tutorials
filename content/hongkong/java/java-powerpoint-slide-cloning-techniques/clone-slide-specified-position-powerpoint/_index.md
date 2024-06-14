@@ -21,13 +21,13 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-specifie
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定資料目錄
 您需要一個目錄來儲存 PowerPoint 檔案。您將在此處載入原始檔案並保存克隆的簡報。
 ```java
 //文檔目錄的路徑。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## 第 2 步：載入來源簡報
 接下來，我們將載入包含要複製的投影片的來源簡報。此步驟至關重要，因為它是克隆操作的基礎。
@@ -43,7 +43,7 @@ try {
 Presentation destPres = new Presentation();
 try {
 ```
-## 第 4 步：克隆幻燈片
+## 第 4 步：複製幻燈片
 這就是奇蹟發生的地方。我們將從來源簡報中複製所需的投影片，並將其插入到目標簡報中的指定位置。
 ```java
 //將所需的幻燈片從來源簡報複製到目標簡報中幻燈片集合的末尾

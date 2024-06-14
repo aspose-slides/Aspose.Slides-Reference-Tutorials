@@ -60,7 +60,7 @@ Prima di aggiungere commenti, è necessario definire gli autori di questi commen
 ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
 IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 
-// Aggiungi risposta per commento1
+// Aggiungi risposta al commento1
 ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
 IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply1.ParentComment = comment1;
@@ -73,7 +73,7 @@ In questo passaggio creiamo due autori di commenti e aggiungiamo il commento ini
 Per creare una struttura gerarchica di commenti, puoi aggiungere più risposte ai commenti esistenti. Qui aggiungiamo una seconda risposta a "commento1".
 
 ```csharp
-// Aggiungi risposta per commento1
+// Aggiungi risposta al commento1
 IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
 reply2.ParentComment = comment1;
 ```

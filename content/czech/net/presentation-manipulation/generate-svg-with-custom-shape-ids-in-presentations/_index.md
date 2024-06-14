@@ -72,7 +72,7 @@ A tady to máte! Úspěšně jste vygenerovali soubory SVG s uživatelskými ID 
    Aspose.Slides for .NET je speciálně navržen pro aplikace .NET. Aspose však poskytuje knihovny i pro jiné platformy a jazyky.
 
 4. ### Existují nějaká omezení pro generování SVG pomocí Aspose.Slides pro .NET?
-   Přestože Aspose.Slides for .NET nabízí výkonné možnosti generování SVG, je nezbytné porozumět dokumentaci knihovny, abyste maximalizovali její potenciál.
+   Zatímco Aspose.Slides for .NET nabízí výkonné možnosti generování SVG, je nezbytné porozumět dokumentaci knihovny, abyste maximalizovali její potenciál.
 
 5. ### Kde najdu další zdroje a podporu pro Aspose.Slides pro .NET?
     Další dokumentaci naleznete na adrese[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).

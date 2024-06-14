@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 ---
 ## 소개
 여러 PowerPoint 프레젠테이션의 슬라이드를 병합해야 하는 상황에 처한 적이 있습니까? 꽤 번거로운 일이겠죠? 글쎄, 더 이상은 아니야! Aspose.Slides for Java는 PowerPoint 프레젠테이션을 쉽게 조작할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 한 프레젠테이션에서 슬라이드를 복제하고 이를 다른 프레젠테이션의 끝에 추가하는 과정을 안내합니다. 저를 믿으십시오. 이 가이드가 끝나면 당신은 전문가처럼 프레젠테이션을 처리하게 될 것입니다!
-## 전제조건
+## 전제 조건
 핵심적인 내용을 살펴보기 전에 준비해야 할 몇 가지 사항이 있습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[여기](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2.  Aspose.Slides for Java: Aspose.Slides for Java를 다운로드하고 설정해야 합니다. 도서관에서 도서관을 구할 수 있습니다.[다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -21,7 +21,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 이제 한 프레젠테이션에서 슬라이드를 복제하여 다른 프레젠테이션에 추가하는 과정을 간단하고 이해하기 쉬운 단계로 나누어 보겠습니다.
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  시작하려면 슬라이드를 복제하려는 소스 프레젠테이션을 로드해야 합니다. 이 작업은 다음을 사용하여 수행됩니다.`Presentation` Aspose.Slides에서 제공하는 클래스입니다.
 ```java
 // 문서 디렉터리의 경로입니다.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // 프레젠테이션 클래스를 인스턴스화하여 소스 프레젠테이션 파일을 로드합니다.
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

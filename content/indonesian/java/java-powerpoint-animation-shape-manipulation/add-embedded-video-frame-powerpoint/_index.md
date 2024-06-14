@@ -19,7 +19,7 @@ Sebelum mendalami kode, pastikan Anda memiliki prasyarat berikut:
 Pertama, Anda harus mengimpor paket yang diperlukan untuk bekerja dengan Aspose.Slides. Impor ini akan membantu Anda mengelola slide, video, dan file presentasi.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

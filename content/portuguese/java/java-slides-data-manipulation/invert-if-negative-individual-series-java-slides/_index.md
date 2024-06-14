@@ -33,7 +33,7 @@ import com.aspose.slides.*;
 
 ## Etapa 2: crie uma apresentação
 
- Agora, vamos criar uma nova apresentação do PowerPoint usando Aspose.Slides. Você pode definir o diretório onde deseja salvar a apresentação usando o`dataDir` variável.
+ Agora, vamos criar uma nova apresentação em PowerPoint usando Aspose.Slides. Você pode definir o diretório onde deseja salvar a apresentação usando o`dataDir` variável.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -114,7 +114,7 @@ Neste tutorial, aprendemos como usar o recurso "Inverter se negativo" para séri
 
 ### Qual é o propósito do recurso "Inverter se negativo" no Aspose.Slides for Java?
 
-recurso "Inverter se negativo" em Aspose.Slides for Java permite distinguir visualmente pontos de dados negativos em gráficos. Ajuda a tornar suas apresentações mais informativas e envolventes, destacando pontos de dados específicos.
+O recurso "Inverter se negativo" em Aspose.Slides for Java permite distinguir visualmente pontos de dados negativos em gráficos. Ajuda a tornar suas apresentações mais informativas e envolventes, destacando pontos de dados específicos.
 
 ### Como posso incluir a biblioteca Aspose.Slides no meu projeto Java?
 
@@ -130,4 +130,4 @@ Sim, você pode personalizar a aparência dos pontos de dados invertidos. Aspose
 
 ### Onde posso acessar a documentação do Aspose.Slides para Java?
 
- Você pode acessar a documentação do Aspose.Slides for Java em[aqui](https://reference.aspose.com/slides/java/).
+Você pode acessar a documentação do Aspose.Slides for Java em[aqui](https://reference.aspose.com/slides/java/).

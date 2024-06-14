@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Βήμα 3: Διαμόρφωση επιλογών PDF
 
- Διαμορφώστε τις επιλογές PDF για να συμπεριλάβετε κρυφές διαφάνειες στην έξοδο PDF. Μπορείτε να το κάνετε αυτό ρυθμίζοντας το`setShowHiddenSlides` ιδιοκτησία του`PdfOptions` τάξη σε`true`.
+Διαμορφώστε τις επιλογές PDF για να συμπεριλάβετε κρυφές διαφάνειες στην έξοδο PDF. Μπορείτε να το κάνετε αυτό ρυθμίζοντας το`setShowHiddenSlides` ιδιοκτησία του`PdfOptions` τάξη σε`true`.
 
 ```java
 // Δημιουργήστε την κλάση PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Πώς μπορώ να κατεβάσω το Aspose.Slides για Java;
 
-Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επισκέψου το[Σελίδα λήψης Aspose.Slides για Java](https://releases.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.
+ Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επισκέψου το[Σελίδα λήψης Aspose.Slides για Java](https://releases.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.

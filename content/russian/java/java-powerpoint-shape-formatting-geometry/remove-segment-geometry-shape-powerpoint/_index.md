@@ -12,14 +12,14 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 1.  Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его с сайта[веб-сайт Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides для Java: загрузите библиотеку Aspose.Slides для Java с сайта[здесь](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides для Java: загрузите библиотеку Aspose.Slides для Java с сайта[здесь](https://releases.aspose.com/slides/java/).
 3. Интегрированная среда разработки (IDE). Используйте IDE, например IntelliJ IDEA или Eclipse, для написания и запуска кода Java.
 4. Базовые знания Java. Базовое понимание программирования на Java поможет вам следовать этому руководству.
 ## Импортировать пакеты
 Для начала нам необходимо импортировать необходимые пакеты из библиотеки Aspose.Slides. Вот как это сделать:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Давайте разобьем процесс удаления сегмента из геометрической фигуры на слайде PowerPoint на несколько этапов.
 ## Шаг 1. Создайте новую презентацию
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Шаг 6. Сохраните презентацию
 Наконец, сохраните измененную презентацию в файл.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Шаг 7: Очистите ресурсы

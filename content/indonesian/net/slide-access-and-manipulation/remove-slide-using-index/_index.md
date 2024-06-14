@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Setelah Anda menghapus slide yang diinginkan, Anda perlu menyimpan presentasi yang dimodifikasi:
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

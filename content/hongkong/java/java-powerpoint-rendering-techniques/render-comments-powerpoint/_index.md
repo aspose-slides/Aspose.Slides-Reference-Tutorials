@@ -18,7 +18,7 @@ url: /zh-hant/java/java-powerpoint-rendering-techniques/render-comments-powerpoi
 首先在 Java 程式碼中導入必要的套件：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

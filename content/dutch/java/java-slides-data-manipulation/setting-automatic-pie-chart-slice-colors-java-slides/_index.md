@@ -129,7 +129,7 @@ try
 	chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 	chart.getChartTitle().setHeight(20);
 	chart.setTitle(true);
-	// Stel de eerste reeks in op Waarden weergeven
+	// Stel de eerste reeks in op Waarden tonen
 	chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 	// De index van het kaartgegevensblad instellen
 	int defaultWorksheetIndex = 0;
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// Nieuwe serie toevoegen
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//Vult nu seriegegevens in
+	// Vult nu seriegegevens in
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

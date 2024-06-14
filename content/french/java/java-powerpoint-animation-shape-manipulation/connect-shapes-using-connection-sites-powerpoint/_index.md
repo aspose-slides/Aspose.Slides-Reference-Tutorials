@@ -19,7 +19,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Pour commencer, importez les packages nécessaires dans votre projet Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : Accéder à la collection de formes
 Accédez à la collection de formes pour la diapositive sélectionnée :

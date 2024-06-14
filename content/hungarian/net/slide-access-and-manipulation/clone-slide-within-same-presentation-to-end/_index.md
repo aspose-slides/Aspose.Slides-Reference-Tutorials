@@ -65,7 +65,7 @@ Ez a kódrészlet hozzáadja a duplikált diát a bemutató végéhez.
 A duplikált dia hozzáadása után el kell mentenünk a módosított prezentációt. Itt van, hogyan:
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -73,7 +73,7 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 
 ## Következtetés
 
-Ebben az útmutatóban megvizsgáltuk, hogyan lehet egy diát megkettőzni és hozzáadni egy meglévő PowerPoint-prezentáció végéhez az Aspose.Slides for .NET segítségével. Ez a hatékony könyvtár leegyszerűsíti a prezentációkkal való programozott munkafolyamatot, és a funkciók széles skáláját kínálja a különféle feladatokhoz.
+Ebben az útmutatóban megvizsgáltuk, hogyan másolhat le egy diát, és hogyan adhatja hozzá egy meglévő PowerPoint-prezentáció végéhez az Aspose.Slides for .NET használatával. Ez a hatékony könyvtár leegyszerűsíti a prezentációkkal való programozott munkafolyamatot, és a funkciók széles skáláját kínálja a különféle feladatokhoz.
 
 ## GYIK
 

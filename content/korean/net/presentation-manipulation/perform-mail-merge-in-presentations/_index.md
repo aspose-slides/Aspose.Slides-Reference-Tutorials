@@ -9,7 +9,7 @@ url: /ko/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 ## 소개
 .NET 개발 세계에서는 동적이고 개인화된 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. 이 프로세스를 단순화하는 강력한 도구 중 하나는 .NET용 Aspose.Slides입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 메일 병합을 수행하는 흥미로운 영역을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 - .NET 라이브러리용 Aspose.Slides: .NET 라이브러리용 Aspose.Slides가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 - 문서 템플릿: 메일 병합의 기반이 될 프레젠테이션 템플릿(예: PresentationTemplate.pptx)을 준비합니다.

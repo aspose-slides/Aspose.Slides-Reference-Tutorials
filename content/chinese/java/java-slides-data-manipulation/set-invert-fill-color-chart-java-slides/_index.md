@@ -124,7 +124,7 @@ if (pres != null) pres.dispose();
 
 ## 结论
 
-在本教程中，我们向您展示了如何使用 Aspose.Slides for Java 设置 Java Slides 中图表的反转填充颜色。此功能允许您使用特定颜色突出显示图表中的负值，从而使您的数据更具视觉信息量。
+在本教程中，我们向您展示了如何使用 Aspose.Slides for Java 设置 Java Slides 中图表的反转填充颜色。此功能允许您使用特定颜色突出显示图表中的负值，从而使您的数据更具视觉吸引力。
 
 ## 常见问题解答
 

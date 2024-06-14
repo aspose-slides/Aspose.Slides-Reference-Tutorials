@@ -82,7 +82,7 @@ finally
 
 ## Abschluss
 
-In diesem Tutorial haben wir uns mit der Arbeit mit Diagrammen in PowerPoint-Präsentationen mithilfe von Aspose.Slides für Java beschäftigt. Wir haben die wesentlichen Schritte behandelt, um das Diagrammlayout zu validieren, seine Position und Größe abzurufen und die geänderte Präsentation zu speichern. Hier ist eine kurze Zusammenfassung:
+In diesem Tutorial haben wir uns mit der Arbeit mit Diagrammen in PowerPoint-Präsentationen mithilfe von Aspose.Slides für Java beschäftigt. Wir haben die wesentlichen Schritte behandelt, um das Diagrammlayout zu validieren, seine Position und Größe abzurufen und die geänderte Präsentation zu speichern. Hier eine kurze Zusammenfassung:
 
 ## Häufig gestellte Fragen
 

@@ -2,7 +2,7 @@
 title: Upravte úhly spojnice v PowerPointu pomocí Aspose.Slides
 linktitle: Úprava úhlů spojnic v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Naučte se, jak upravit úhly spojnic ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace s přesností a lehkostí.
+description: Naučte se, jak upravit úhly spojnice ve snímcích aplikace PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace s přesností a lehkostí.
 type: docs
 weight: 28
 url: /cs/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/

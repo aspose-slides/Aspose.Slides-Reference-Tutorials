@@ -69,4 +69,4 @@ J: Ya, jelajahi dokumentasi Aspose.Slides untuk daftar opsi tata letak yang leng
 ### T: Dapatkah saya menggunakan font khusus yang tidak diinstal pada sistem saya?
  A: Ya, tentukan jalur file font menggunakan`AddFonts` metode di`FontsLoader` kelas.
 ### T: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas?
-J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan keterlibatan komunitas.
+ J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan keterlibatan komunitas.

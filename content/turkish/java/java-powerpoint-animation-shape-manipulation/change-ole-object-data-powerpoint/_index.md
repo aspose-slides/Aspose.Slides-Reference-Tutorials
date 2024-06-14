@@ -15,14 +15,14 @@ Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğun
 2.  Aspose.Slides for Java: En son sürümü şuradan indirin:[Aspose.Slides indirme sayfası](https://releases.aspose.com/slides/java/).
 3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya NetBeans gibi herhangi bir Java IDE'yi kullanabilirsiniz.
 4.  Aspose.Cells for Java: Bu, OLE nesnesi içindeki gömülü verileri değiştirmek için gereklidir. Şuradan indirin:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/java/).
-5. Sunum Dosyası: Gömülü OLE nesnesini içeren bir PowerPoint dosyasını hazır bulundurun. Bu eğitime bir ad verelim`ChangeOLEObjectData.pptx`.
+5.  Sunum Dosyası: Gömülü OLE nesnesini içeren bir PowerPoint dosyasını hazır bulundurun. Bu eğitime bir ad verelim`ChangeOLEObjectData.pptx`.
 ## Paketleri İçe Aktar
 Öncelikle Java projenize gerekli paketleri import edelim.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
@@ -35,7 +35,7 @@ Başlamak için OLE nesnesini içeren PowerPoint sunumunu yüklemeniz gerekir.
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ChangeOLEObjectData.pptx");
 ```
-## Adım 2: OLE Nesnesini İçeren Slayda Erişim
+## Adım 2: OLE Nesnesini İçeren Slayta Erişim
 Daha sonra OLE nesnesinin gömülü olduğu slaydı alın.
 ```java
 ISlide slide = pres.getSlides().get_Item(0);

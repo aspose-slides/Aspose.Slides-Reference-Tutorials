@@ -12,7 +12,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo hình thu nhỏ
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2. Thư viện Aspose.Slides cho Java được tải xuống và định cấu hình trong dự án của bạn. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/slides/java/).
+2.  Thư viện Aspose.Slides cho Java được tải xuống và định cấu hình trong dự án của bạn. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/slides/java/).
 
 ## Gói nhập khẩu
 Đảm bảo nhập các gói cần thiết trong lớp Java của bạn:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

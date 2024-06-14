@@ -15,7 +15,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 - Visual Studio installerat på din dator.
 - Aspose.Slides för .NET-bibliotek laddas ner och refereras till i ditt projekt.
 ## Importera namnområden
-I din C#-kod, se till att importera de nödvändiga namnrymden för att komma åt Aspose.Slides-funktionerna. Lägg till följande rader i din kod:
+din C#-kod, se till att importera de nödvändiga namnrymden för att komma åt Aspose.Slides-funktionerna. Lägg till följande rader i din kod:
 ```csharp
 using System.IO;
 using Aspose.Slides;

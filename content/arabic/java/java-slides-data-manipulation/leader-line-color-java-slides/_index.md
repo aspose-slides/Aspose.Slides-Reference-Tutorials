@@ -20,7 +20,7 @@ url: /ar/java/data-manipulation/leader-line-color-java-slides/
 
 ## الخطوة 1: قم بتحميل العرض التقديمي
 
-أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد تعديله. يستبدل`presentationName` مع المسار إلى ملف PowerPoint الخاص بك.
+ أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد تعديله. يستبدل`presentationName` مع المسار إلى ملف PowerPoint الخاص بك.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // احصل على المخطط من الشريحة الأولى
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// الحصول على سلسلة من الرسم البياني
+//الحصول على سلسلة من الرسم البياني
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // الحصول على تسميات السلسلة الأولى
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 وأخيرًا، احفظ العرض التقديمي بألوان الخط الرئيسي المعدلة في ملف جديد.
 
 ```java
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## أكمل كود المصدر للون خط القائد في شرائح جافا
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // احصل على المخطط من الشريحة الأولى
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // الحصول على سلسلة من الرسم البياني
+            //الحصول على سلسلة من الرسم البياني
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // الحصول على lebels من السلسلة الأولى
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Slides for Java في مشروع تجاري؟
 
-نعم، تحتاج بشكل عام إلى ترخيص صالح لاستخدام Aspose.Slides for Java في مشروع تجاري. يقدم Aspose خيارات ترخيص متنوعة، بما في ذلك ترخيص التقييم المجاني لأغراض الاختبار والتجربة. ومع ذلك، لاستخدام الإنتاج، يجب عليك الحصول على الترخيص التجاري المناسب. قم بزيارة[Aspose صفحة الشراء](https://purchase.aspose.com/) للحصول على تفاصيل الترخيص.
+ نعم، تحتاج بشكل عام إلى ترخيص صالح لاستخدام Aspose.Slides for Java في مشروع تجاري. يقدم Aspose خيارات ترخيص متنوعة، بما في ذلك ترخيص التقييم المجاني لأغراض الاختبار والتجربة. ومع ذلك، لاستخدام الإنتاج، يجب عليك الحصول على الترخيص التجاري المناسب. قم بزيارة[Aspose صفحة الشراء](https://purchase.aspose.com/) للحصول على تفاصيل الترخيص.
 
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Slides لـ Java؟
 

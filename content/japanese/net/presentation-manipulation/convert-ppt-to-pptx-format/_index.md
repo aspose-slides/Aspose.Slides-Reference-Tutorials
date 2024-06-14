@@ -65,7 +65,7 @@ pres.Save(outPath, SaveFormat.Pptx);
 ## よくある質問
 
 ### 1. Aspose.Slides for .NET とは何ですか?
-Aspose.Slides for .NET は、開発者がプログラムによって PowerPoint プレゼンテーションを作成、操作、変換できるようにする .NET ライブラリです。
+Aspose.Slides for .NET は、開発者がプログラムで PowerPoint プレゼンテーションを作成、操作、変換できるようにする .NET ライブラリです。
 
 ### 2. Aspose.Slides for .NET を使用して他の形式を PPTX に変換できますか?
 はい、Aspose.Slides for .NET は、PPT、PPTX、ODP など、さまざまな形式をサポートしています。

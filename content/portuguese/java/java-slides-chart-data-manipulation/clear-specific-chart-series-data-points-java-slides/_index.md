@@ -46,9 +46,9 @@ for (IChartDataPoint dataPoint : chart.getChartData().getSeries().get_Item(0).ge
 }
 ```
 
-Este código percorre cada ponto de dados na primeira série (índice 0) e define os valores X e Y como`null`, limpando efetivamente os pontos de dados.
+ Este código percorre cada ponto de dados na primeira série (índice 0) e define os valores X e Y como`null`limpando efetivamente os pontos de dados.
 
-## Etapa 4: remover pontos de dados limpos
+## Etapa 4: remover pontos de dados apagados
 
 Para garantir que os pontos de dados apagados sejam removidos da série, limparemos toda a série.
 
@@ -116,7 +116,7 @@ Sim, você pode limpar pontos de dados com base em uma condição adicionando l�
 
 ### Como posso adicionar novos pontos de dados a uma série de gráficos usando Aspose.Slides for Java?
 
-Para adicionar novos pontos de dados a uma série de gráficos, você pode usar o`addDataPoint` método da série. Basta criar novos pontos de dados e adicioná-los à série usando este método.
+ Para adicionar novos pontos de dados a uma série de gráficos, você pode usar o`addDataPoint` método da série. Basta criar novos pontos de dados e adicioná-los à série usando este método.
 
 ### Onde posso encontrar mais informações sobre Aspose.Slides para Java?
 

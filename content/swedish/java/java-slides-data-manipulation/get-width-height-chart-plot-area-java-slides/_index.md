@@ -65,7 +65,7 @@ pres.save(dataDir + "Chart_out.pptx", SaveFormat.Pptx);
 
  Se till att byta ut`"Chart_out.pptx"` med önskat utdatafilnamn.
 
-## Komplett källkod för att få bredd och höjd från diagramområdet i Java Slides
+## Komplett källkod för att få bredd och höjd från sjökortsområdet i Java Slides
 
 ```java
 // Sökvägen till dokumentkatalogen.

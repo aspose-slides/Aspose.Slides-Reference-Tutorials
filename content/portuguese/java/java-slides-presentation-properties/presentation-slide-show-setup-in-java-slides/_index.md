@@ -21,7 +21,7 @@ Neste tutorial, exploraremos como configurar uma apresentação de slides usando
 Primeiro, precisamos criar uma nova apresentação em PowerPoint. Veja como você pode fazer isso em Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Certifique-se de fornecer o caminho do arquivo de saída desejado.
 ## Código-fonte completo para configuração de apresentação de slides em slides Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Obtém as configurações do SlideShow

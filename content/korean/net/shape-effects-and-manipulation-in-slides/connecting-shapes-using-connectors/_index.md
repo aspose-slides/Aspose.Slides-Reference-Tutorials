@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-co
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 연결선을 사용하여 셰이프를 연결하는 기능은 슬라이드에 정교함을 더해줍니다. .NET용 Aspose.Slides는 개발자가 이를 원활하게 달성할 수 있도록 지원합니다. 이 튜토리얼에서는 프로세스를 안내하고 각 단계를 세분화하여 명확한 이해를 보장합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 - C# 및 .NET 프레임워크에 대한 기본 지식
 -  .NET용 Aspose.Slides가 설치되었습니다. 그렇지 않은 경우 다운로드하십시오.[여기](https://releases.aspose.com/slides/net/).

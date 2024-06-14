@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Une fois que vous avez effacé les slides souhaités, vous devez enregistrer la présentation modifiée :
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

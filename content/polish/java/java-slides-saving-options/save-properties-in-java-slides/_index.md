@@ -45,7 +45,7 @@ Można ustawić różne właściwości dokumentu, takie jak tytuł, autor, słow
 // Ustaw tytuł prezentacji
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ustaw autora prezentacji
+//Ustaw autora prezentacji
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ustaw słowa kluczowe dla prezentacji
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Ścieżka do katalogu dokumentów.
 String dataDir = "Your Document Directory";
-//Utwórz instancję obiektu prezentacji reprezentującego plik PPT
+// Utwórz instancję obiektu prezentacji reprezentującego plik PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ tym samouczku nauczyłeś się, jak zapisywać właściwości dokumentu w prezen
 // Ustaw tytuł prezentacji
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Ustaw autora prezentacji
+//Ustaw autora prezentacji
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Ustaw słowa kluczowe dla prezentacji

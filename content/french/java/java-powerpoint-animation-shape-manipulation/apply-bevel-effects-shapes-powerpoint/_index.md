@@ -11,7 +11,7 @@ url: /fr/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Créer des présentations visuellement attrayantes est crucial pour capter et maintenir l'attention de votre public. L'ajout d'effets de biseau aux formes peut améliorer l'esthétique globale de vos diapositives et faire ressortir votre présentation. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'effets de biseau aux formes dans PowerPoint à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur cherchant à automatiser la création de présentations ou simplement quelqu'un qui aime bricoler le design, ce guide est là pour vous.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
--  Kit de développement Java (JDK) : assurez-vous que JDK est installé. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Kit de développement Java (JDK) : assurez-vous que JDK est installé. Vous pouvez le télécharger depuis le[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides pour la bibliothèque Java : téléchargez la bibliothèque à partir de[Aspose.Slides pour Java](https://releases.aspose.com/slides/java/).
 - IDE (Integrated Development Environment) : utilisez n'importe quel IDE de votre choix, tel que IntelliJ IDEA, Eclipse ou NetBeans.
 -  Licence Aspose : pour utiliser Aspose.Slides sans limitations, obtenez une licence auprès de[Asposez l'achat](https://purchase.aspose.com/buy) ou obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluation.
@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 Tout d’abord, vous devez importer les packages nécessaires pour travailler avec Aspose.Slides dans votre projet Java. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Étape 1 : Configurez votre projet

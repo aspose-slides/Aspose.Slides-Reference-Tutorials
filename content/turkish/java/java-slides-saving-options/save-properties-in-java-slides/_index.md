@@ -45,7 +45,7 @@ Başlık, yazar, anahtar kelimeler ve daha fazlası gibi çeşitli belge özelli
 // Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Sununun yazarını ayarlama
+//Sununun yazarını ayarlama
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Sunum için anahtar kelimeler belirleyin
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Belgeler dizininin yolu.
 String dataDir = "Your Document Directory";
-//Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
+// Bir PPT dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumunda belge ö
 // Sunumun başlığını ayarlayın
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Sununun yazarını ayarlama
+//Sununun yazarını ayarlama
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Sunum için anahtar kelimeler belirleyin

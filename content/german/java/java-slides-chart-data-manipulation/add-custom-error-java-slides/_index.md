@@ -149,4 +149,4 @@ Sie können die Datenpunkte durchlaufen und für jeden Punkt benutzerdefinierte 
 
 ### Ist es möglich, Fehlerbalken für bestimmte Datenpunkte auszublenden?
 
-Ja, Sie können die Sichtbarkeit von Fehlerbalken für einzelne Datenpunkte steuern, indem Sie die`setVisible` Eigentum der`IErrorBarsFormat` Objekt.
+ Ja, Sie können die Sichtbarkeit von Fehlerbalken für einzelne Datenpunkte steuern, indem Sie die`setVisible` Eigentum der`IErrorBarsFormat` Objekt.

@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Po wstawieniu dodatkowych slajdów należy zapisać zmodyfikowaną prezentację.
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Zastępować`"path_to_modified_presentation.pptx"` z żądaną ścieżką i nazwą pliku zmodyfikowanej prezentacji.
+ Zastępować`"path_to_modified_presentation.pptx"` żądaną ścieżką i nazwą pliku zmodyfikowanej prezentacji.
 
 ## Wniosek
 
@@ -98,7 +98,7 @@ Możesz dostosować zawartość nowych slajdów, uzyskując dostęp do ich kszta
 
 ### Co jeśli chcę wstawić slajdy na początku prezentacji?
 
- Aby wstawić slajdy na początku prezentacji, ustaw opcję`insertionIndex` Do`0`.
+Aby wstawić slajdy na początku prezentacji, ustaw opcję`insertionIndex` Do`0`.
 
 ### Czy można modyfikować układ wstawianych slajdów?
 

@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- في هذا الكود، نقوم بإنشاء مخطط ونضبط حجم خط نص وسيلة الإيضاح على 20 نقطة. يمكنك ضبط`setFontHeight`قيمة لتغيير حجم الخط.
+ في هذا الكود، نقوم بإنشاء مخطط ونضبط حجم خط نص وسيلة الإيضاح على 20 نقطة. يمكنك ضبط`setFontHeight` القيمة لتغيير حجم الخط.
 
 ### هل يمكنني تخصيص خصائص أخرى لوسيلة الإيضاح في مخطط؟
 
@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### أين يمكنني العثور على مزيد من المعلومات والوثائق الخاصة بـ Aspose.Slides؟
 
-يمكنك العثور على وثائق شاملة ومراجع واجهة برمجة التطبيقات لـ Aspose.Slides for Java على موقع وثائق Aspose. يزور[هنا](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة حول استخدام المكتبة.
+ يمكنك العثور على وثائق شاملة ومراجع واجهة برمجة التطبيقات لـ Aspose.Slides for Java على موقع وثائق Aspose. يزور[هنا](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة حول استخدام المكتبة.

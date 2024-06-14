@@ -12,7 +12,7 @@ W tym samouczku omówimy, jak tworzyć miniatury notatek podrzędnych SmartArt w
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1. Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-2. Biblioteka Aspose.Slides for Java pobrana i skonfigurowana w Twoim projekcie. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+2.  Biblioteka Aspose.Slides for Java pobrana i skonfigurowana w Twoim projekcie. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Importuj pakiety
 Pamiętaj, aby zaimportować niezbędne pakiety do swojej klasy Java:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -130,4 +130,4 @@ finally
 
 ### أين يمكنني الوصول إلى وثائق Aspose.Slides الخاصة بـ Java؟
 
- يمكنك الوصول إلى وثائق Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).
+يمكنك الوصول إلى وثائق Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).

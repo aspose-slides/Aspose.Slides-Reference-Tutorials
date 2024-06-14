@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
 ## 소개
 청중의 참여를 유지하려면 대화형 기능으로 프레젠테이션 슬라이드를 향상시키는 것이 중요합니다. 이를 달성하는 한 가지 강력한 방법은 섹션 확대/축소를 통합하여 프레젠테이션의 여러 섹션 사이를 원활하게 이동할 수 있도록 하는 것입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 섹션 확대/축소를 만드는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 선호하는 .NET 개발 환경을 설정합니다.
@@ -67,6 +67,6 @@ pres.Save(resultPath, SaveFormat.Pptx);
 ### 단면 확대/축소 프레임의 모양을 사용자 정의할 수 있나요?
 전적으로! 단면 확대/축소 프레임의 치수, 위치 지정 및 스타일을 완벽하게 제어할 수 있습니다.
 ### Aspose.Slides에 사용할 수 있는 평가판이 있습니까?
-예, 다음을 사용하여 Aspose.Slides의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
+ 예, 다음을 사용하여 Aspose.Slides의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 받을 수 있나요?
  지원이나 문의사항이 있는 경우 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).

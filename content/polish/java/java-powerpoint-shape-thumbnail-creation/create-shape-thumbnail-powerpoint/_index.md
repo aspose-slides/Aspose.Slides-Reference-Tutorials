@@ -8,7 +8,7 @@ weight: 14
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
 ## Wstęp
-W tym samouczku zajmiemy się tworzeniem miniatur kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami PowerPoint, umożliwiając automatyzację różnych zadań, w tym generowanie miniatur kształtów.
+tym samouczku zajmiemy się tworzeniem miniatur kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami PowerPoint, umożliwiając automatyzację różnych zadań, w tym generowanie miniatur kształtów.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w języku Java.
@@ -19,7 +19,7 @@ Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 Po pierwsze, musisz zaimportować niezbędne pakiety do swojego kodu Java, aby móc korzystać z funkcjonalności Aspose.Slides. Dołącz następujące instrukcje importu na początku pliku Java:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Tak, możesz zmodyfikować kod, aby kierować kształty na dowolnym slajdzie, od
 ### Czy Aspose.Slides obsługuje inne formaty obrazów do zapisywania miniatur?
 Tak, oprócz PNG, Aspose.Slides obsługuje zapisywanie miniatur w różnych formatach obrazów, takich jak JPEG, GIF i BMP.
 ### Czy Aspose.Slides nadaje się do użytku komercyjnego?
-Tak, Aspose.Slides oferuje licencje komercyjne dla firm i organizacji. Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
+ Tak, Aspose.Slides oferuje licencje komercyjne dla firm i organizacji. Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
 ### Czy mogę wypróbować Aspose.Slides przed zakupem?
  Absolutnie! Możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/) ocenić jego cechy i możliwości.
 ### Gdzie mogę znaleźć wsparcie dla Aspose.Slides?

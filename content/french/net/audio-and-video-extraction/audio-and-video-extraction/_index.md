@@ -128,10 +128,10 @@ Oui, Aspose.Slides for .NET prend en charge les derniers formats PowerPoint, y c
 Oui, vous pouvez modifier le code pour parcourir plusieurs diapositives et extraire du contenu multimédia de chacune d'elles.
 
 ### Existe-t-il des options de licence pour Aspose.Slides pour .NET ?
- Aspose propose diverses options de licence, notamment des essais gratuits et des licences temporaires. Vous pouvez explorer ces options sur leur[site web](https://purchase.aspose.com/buy).
+Aspose propose diverses options de licence, notamment des essais gratuits et des licences temporaires. Vous pouvez explorer ces options sur leur[site web](https://purchase.aspose.com/buy).
 
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
  Pour le support technique et les discussions de la communauté, vous pouvez visiter Aspose.Slides[forum](https://forum.aspose.com/).
 
 ### Quelles autres tâches puis-je effectuer avec Aspose.Slides pour .NET ?
-Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, la modification et la conversion de présentations PowerPoint. Vous pouvez explorer la documentation pour plus de détails :[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/).
+ Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, la modification et la conversion de présentations PowerPoint. Vous pouvez explorer la documentation pour plus de détails :[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/).

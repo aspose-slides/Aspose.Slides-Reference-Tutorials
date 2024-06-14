@@ -19,7 +19,7 @@ Avant de plonger dans le guide étape par étape, vous devez remplir quelques co
 Tout d’abord, vous devez importer les packages nécessaires depuis Aspose.Slides. Cela vous permettra d'accéder à toutes les fonctionnalités nécessaires à la création et à la manipulation de présentations PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Décomposons le processus d'ajout de segments aux formes géométriques en étapes détaillées pour garantir la clarté et la facilité de compréhension.
 ## Étape 1 : Créer une nouvelle présentation
@@ -33,7 +33,7 @@ try {
 }
 ```
  Créer une nouvelle présentation est aussi simple que d'instancier le`Presentation` classe. Cela initialise un nouveau fichier PowerPoint en mémoire que vous pouvez manipuler.
-## Étape 2 : Ajouter une forme géométrique
+## Étape 2 : ajouter une forme géométrique
 Ensuite, nous ajouterons une nouvelle forme à la première diapositive de la présentation. Pour cet exemple, nous ajouterons un rectangle.
 ```java
 GeometryShape shape = (GeometryShape)pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);

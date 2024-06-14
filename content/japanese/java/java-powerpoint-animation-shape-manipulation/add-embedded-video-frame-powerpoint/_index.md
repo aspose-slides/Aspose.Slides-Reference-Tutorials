@@ -19,7 +19,7 @@ PowerPoint プレゼンテーションにビデオを追加すると、プレゼ
 まず、Aspose.Slides を操作するために必要なパッケージをインポートする必要があります。これらのインポートは、スライド、ビデオ、プレゼンテーション ファイルの管理に役立ちます。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

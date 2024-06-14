@@ -1,6 +1,6 @@
 ---
-title: Créer de nouvelles présentations par programmation
-linktitle: Créer de nouvelles présentations par programmation
+title: Créer de nouvelles présentations par programme
+linktitle: Créer de nouvelles présentations par programme
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment créer des présentations par programmation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour une automatisation efficace.
 type: docs

@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Şekilleri tam olarak hizalamak için Aspose.Slides for .NET'ten yararlanarak sunum slaytlarınızın görsel çekiciliğini zahmetsizce geliştirin. Bu adım adım kılavuz, sizi hizalama sürecini kolaylaştıracak ve profesyonel görünümlü sunumlar oluşturacak bilgilerle donattı.
 ## SSS
 ### Aspose.Slides for .NET'i kullanarak mevcut bir sunumdaki şekilleri hizalayabilir miyim?
- Evet, mevcut bir sunumu kullanarak yükleyebilirsiniz.`Presentation.Load`ve ardından şekilleri hizalamaya devam edin.
+ Evet, mevcut bir sunumu kullanarak yükleyebilirsiniz.`Presentation.Load` ve ardından şekilleri hizalamaya devam edin.
 ### Aspose.Slides'ta başka hizalama seçenekleri mevcut mu?
 Aspose.Slides, AlignTop, AlignRight, AlignBottom, AlignLeft ve daha fazlası dahil olmak üzere çeşitli hizalama seçenekleri sunar.
 ### Şekilleri bir slayttaki dağılımlarına göre hizalayabilir miyim?

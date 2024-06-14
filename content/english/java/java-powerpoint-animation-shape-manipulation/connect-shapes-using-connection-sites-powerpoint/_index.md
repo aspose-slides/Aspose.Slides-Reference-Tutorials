@@ -19,7 +19,7 @@ Before we begin, ensure you have the following:
 To get started, import the necessary packages into your Java project:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Accessing Shapes Collection
 Access the shapes collection for the selected slide:

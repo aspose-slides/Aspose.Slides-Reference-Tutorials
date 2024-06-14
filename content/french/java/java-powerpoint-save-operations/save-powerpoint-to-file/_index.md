@@ -19,13 +19,13 @@ Tout d’abord, importez les packages nécessaires pour utiliser la fonctionnali
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Étape 1 : configurer le répertoire de données
 ```java
 // Le chemin d'accès au répertoire des documents.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Créez un répertoire s'il n'est pas déjà présent.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Dans cette étape, nous définissons le chemin d'accès au répertoire où la présentation PowerPoint sera enregistrée. Si le répertoire n'existe pas, il sera créé.
 ## Étape 2 : Instancier un objet de présentation
 ```java
-//Instancier un objet Présentation qui représente un fichier PPT
+// Instancier un objet Présentation qui représente un fichier PPT
 Presentation presentation = new Presentation();
 ```
- Ici, nous créons une nouvelle instance du`Presentation` classe, qui représente une présentation PowerPoint.
+Ici, nous créons une nouvelle instance du`Presentation` classe, qui représente une présentation PowerPoint.
 ## Étape 3 : effectuer des opérations sur la présentation (facultatif)
 ```java
 //...faites du travail ici...

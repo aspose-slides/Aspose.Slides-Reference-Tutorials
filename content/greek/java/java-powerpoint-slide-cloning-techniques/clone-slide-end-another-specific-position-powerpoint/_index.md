@@ -22,7 +22,7 @@ url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-s
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Τώρα, ας αναλύσουμε τη διαδικασία σε απλά βήματα.
@@ -49,7 +49,7 @@ Presentation destPres = new Presentation();
 ISlideCollection slds = destPres.getSlides();
 slds.insertClone(1, srcPres.getSlides().get_Item(1));
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση προορισμού
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση Προορισμού
 Μετά την κλωνοποίηση της διαφάνειας, αποθηκεύστε την παρουσίαση προορισμού στο δίσκο.
 ```java
 destPres.save(dataDir + "DestinationPresentation.pptx", SaveFormat.Pptx);

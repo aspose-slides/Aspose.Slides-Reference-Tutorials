@@ -77,6 +77,6 @@ Sí, puedes vincular vídeos de varios formatos siempre que esté disponible el 
 El tamaño del vídeo vinculado puede afectar el tamaño general y el rendimiento de su presentación. Se recomienda optimizar sus videos para la reproducción web antes de vincularlos a la presentación.
 
 ### Conclusión:
-Si sigue los pasos descritos en esta guía, puede vincular fácilmente un video a través del control ActiveX en una presentación usando Aspose.Slides para .NET. Esta función le permite crear presentaciones atractivas e interactivas que incorporan contenido multimedia a la perfección.
+Si sigue los pasos descritos en esta guía, puede vincular fácilmente un vídeo a través del control ActiveX en una presentación utilizando Aspose.Slides para .NET. Esta función le permite crear presentaciones atractivas e interactivas que incorporan contenido multimedia a la perfección.
 
  Para obtener más detalles y opciones avanzadas, puede consultar el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).

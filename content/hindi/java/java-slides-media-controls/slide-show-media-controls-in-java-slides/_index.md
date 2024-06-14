@@ -34,7 +34,7 @@ url: /hi/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // PPTX दस्तावेज़ का पथ
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // PPTX दस्तावेज़ का पथ
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// स्लाइड शो मोड में मीडिया नियंत्रण प्रदर्शन सक्षम करें।

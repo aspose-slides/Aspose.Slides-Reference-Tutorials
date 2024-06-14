@@ -20,7 +20,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 Öncelikle Aspose.Slides ile çalışmak için gerekli paketleri Java projenize aktarın.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Sunum Sınıfını Başlatın
  Örnekleyin`Presentation`üzerinde çalıştığınız PPTX dosyasını temsil eden sınıf.

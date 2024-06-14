@@ -141,7 +141,7 @@ Mit Aspose.Slides für Java können Sie Ihre Präsentationen verbessern, indem S
 
 ### Kann ich Bilder als benutzerdefinierte Markierungen verwenden?
 
- Ja, Sie können Bilder als benutzerdefinierte Markierungen für Datenpunkte verwenden. Stellen Sie den Fülltyp auf`FillType.Picture`und geben Sie das Bild an, das Sie verwenden möchten.
+ Ja, Sie können Bilder als benutzerdefinierte Markierungen für Datenpunkte verwenden. Stellen Sie den Fülltyp auf`FillType.Picture` und geben Sie das Bild an, das Sie verwenden möchten.
 
 ### Ist Aspose.Slides für Java zum Erstellen dynamischer Diagramme geeignet?
 

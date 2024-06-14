@@ -12,14 +12,14 @@ url: /zh/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ## 先决条件
 开始之前，请确保您满足以下先决条件：
 1. Java 开发工具包 (JDK)：确保您的系统上已安装 JDK。
-2. Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载页面](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载页面](https://releases.aspose.com/slides/java/).
 
 ## 导入包
 首先，您需要在 Java 文件中导入必要的包：
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 步骤 1：设置环境

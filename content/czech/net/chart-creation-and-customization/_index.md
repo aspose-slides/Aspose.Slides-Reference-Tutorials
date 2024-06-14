@@ -14,13 +14,13 @@ Vítejte ve výukovém programu Aspose.Slides věnovaném umění vytváření a
 
 V tomto tutoriálu prozkoumáme různé aspekty manipulace s grafy pomocí Aspose.Slides. Od základů vytváření grafů až po pokročilé možnosti přizpůsobení se dozvíte, jak vytvářet různé typy grafů, přidávat datové řady, přizpůsobovat prvky grafu a další. S našimi podrobnými pokyny a podrobnými příklady kódu budete vybaveni k bezproblémové integraci úžasných grafů do vašich prezentací, sestav a aplikací.
 
-Jste připraveni transformovat svá data do působivých vizuálních příběhů? Pojďme se ponořit do světa vytváření a přizpůsobení grafů pomocí Aspose.Slides!
+Jste připraveni transformovat svá data do působivých vizuálních příběhů? Pojďme se ponořit do světa tvorby a přizpůsobení grafů pomocí Aspose.Slides!
 
 ## Výukové programy pro vytváření a přizpůsobení grafů
 ### [Vytvoření a přizpůsobení grafu v Aspose.Slides](./chart-creation-and-customization/)
 Naučte se vytvářet a přizpůsobovat úžasné grafy pomocí Aspose.Slides pro .NET. Podrobný průvodce s příklady kódu.
 ### [Přidejte do prezentace snímky rozvržení](./add-layout-slides/)
-Vylepšení prezentací pomocí Aspose.Slides for .NET: Bezproblémově přidejte snímky rozvržení pro vizuálně působivý obsah.
+Vylepšení prezentací pomocí Aspose.Slides pro .NET: Přidávejte snímky rozvržení hladce pro vizuálně působivý obsah.
 ### [Porovnejte snímky v rámci prezentace](./check-slides-comparison/)
 Naučte se porovnávat snímky v prezentacích pomocí Aspose.Slides for .NET. Podrobný průvodce se zdrojovým kódem pro přesné srovnání.
 ### [Získat příklad základního zástupného symbolu](./get-base-placeholder-example/)

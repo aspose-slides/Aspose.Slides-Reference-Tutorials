@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-w
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 멀티미디어 요소를 통합하면 참여도를 크게 높이고 영향력 있는 메시지를 전달할 수 있습니다. 이를 달성하는 한 가지 강력한 방법은 프레젠테이션 슬라이드에 비디오 프레임을 삽입하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 이를 원활하게 수행하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있도록 하는 강력한 라이브러리로, 슬라이드 생성, 편집 및 향상을 위한 광범위한 기능을 제공합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 2. 샘플 비디오 파일: 프레젠테이션에 포함할 비디오 파일을 준비합니다. 제공된 예를 "Wildlife.mp4"라는 비디오와 함께 사용할 수 있습니다.

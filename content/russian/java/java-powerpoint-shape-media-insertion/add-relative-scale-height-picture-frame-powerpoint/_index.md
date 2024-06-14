@@ -18,7 +18,7 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pi
 Для начала импортируйте необходимые пакеты в ваш Java-проект:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -31,7 +31,7 @@ import java.io.IOException;
 ```java
 Presentation presentation = new Presentation();
 ```
-## Шаг 3. Загрузите изображение, которое нужно добавить.
+## Шаг 3. Загрузите изображение, которое нужно добавить.
 Загрузите изображение, которое хотите добавить в презентацию:
 ```java
 BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));

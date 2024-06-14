@@ -14,7 +14,7 @@ Trong thế giới trực quan hóa và trình bày dữ liệu, việc kết h�
 
 Trước khi chúng tôi bắt đầu làm việc với Aspose.Slides cho .NET, bạn cần đảm bảo có sẵn các điều kiện tiên quyết sau:
 
-1.  Aspose.Slides for .NET: Để truy cập và sử dụng thư viện, bạn phải cài đặt Aspose.Slides for .NET. Bạn có thể lấy thư viện từ[trang tải xuống](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Để truy cập và sử dụng thư viện, bạn phải cài đặt Aspose.Slides for .NET. Bạn có thể lấy thư viện từ[trang tải xuống](https://releases.aspose.com/slides/net/).
 
 2. Môi trường phát triển: Bạn nên thiết lập môi trường phát triển, tốt nhất là sử dụng môi trường phát triển tích hợp .NET như Visual Studio.
 

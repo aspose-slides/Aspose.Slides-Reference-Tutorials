@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Dalam kode ini, kita membuat bagan dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikannya`setFontHeight`nilai untuk mengubah ukuran font.
+ Dalam kode ini, kita membuat bagan dan mengatur ukuran font teks legenda menjadi 20 poin. Anda dapat menyesuaikannya`setFontHeight` nilai untuk mengubah ukuran font.
 
 ### Bisakah saya mengkustomisasi properti legenda lainnya dalam bagan?
 
@@ -134,4 +134,4 @@ Di sini, kami menonaktifkan penskalaan sumbu otomatis dan menentukan nilai minim
 
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.Slides?
 
-Anda dapat menemukan dokumentasi komprehensif dan referensi API untuk Aspose.Slides untuk Java di situs web dokumentasi Aspose. Mengunjungi[Di Sini](https://reference.aspose.com/slides/java/) untuk informasi rinci tentang penggunaan perpustakaan.
+ Anda dapat menemukan dokumentasi komprehensif dan referensi API untuk Aspose.Slides untuk Java di situs web dokumentasi Aspose. Mengunjungi[Di Sini](https://reference.aspose.com/slides/java/) untuk informasi rinci tentang penggunaan perpustakaan.

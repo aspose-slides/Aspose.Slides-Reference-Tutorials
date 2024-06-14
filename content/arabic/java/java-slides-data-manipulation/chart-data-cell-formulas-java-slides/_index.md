@@ -21,7 +21,7 @@ url: /ar/java/data-manipulation/chart-data-cell-formulas-java-slides/
 أولاً، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint ونضيف إليه مخططًا.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## كود المصدر الكامل لصيغ خلايا بيانات الرسم البياني في شرائح جافا
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

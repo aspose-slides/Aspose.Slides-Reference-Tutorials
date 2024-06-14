@@ -1,6 +1,6 @@
 ---
-title: Dodaj przesunięcie rozciągnięcia dla wypełnienia obrazem w programie PowerPoint
-linktitle: Dodaj przesunięcie rozciągnięcia dla wypełnienia obrazem w programie PowerPoint
+title: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
+linktitle: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. W zestawie tutorial krok po kroku.
 type: docs
@@ -17,7 +17,7 @@ Zanim zaczniesz, upewnij się, że masz następujące elementy:
 Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

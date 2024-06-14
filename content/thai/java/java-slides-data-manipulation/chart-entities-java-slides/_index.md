@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
+// การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
+	// การตั้งค่ารูปแบบเส้นตารางรองสำหรับแกนประเภท
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// ตั้งค่าคำอธิบายแผนภูมิการแสดงโดยไม่ทับซ้อนกัน
 	chart.getLegend().setOverlay(true);
 	// การพล็อตอนุกรมแรกบนแกนค่าทุติยภูมิ
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = จริง;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = จริง;
 	// การตั้งค่าแผนภูมิสีผนังด้านหลัง
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// การตั้งค่าสีพื้นที่พล็อต
+	//การตั้งค่าสีพื้นที่พล็อต
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// บันทึกการนำเสนอ

@@ -1,6 +1,6 @@
 ---
-title: Lägg till anpassade felstaplar till diagrammet
-linktitle: Lägg till anpassade felstaplar till diagrammet
+title: Lägg till anpassade felfält i diagrammet
+linktitle: Lägg till anpassade felfält i diagrammet
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar fantastiska presentationer med Aspose.Slides för .NET genom att lägga till anpassade felstaplar i dina diagram. Lyft ditt datavisualiseringsspel idag!
 type: docs
@@ -58,7 +58,7 @@ using (Presentation presentation = new Presentation())
     // Din kod för att lägga till ett diagram och anpassade felstaplar kommer hit.
     // Vi delar upp detta i efterföljande steg.
     
-    // Sparar presentation
+    // Sparar presentationen
     presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -96,7 +96,7 @@ errBarX.HasEndCap = true;
 Slutligen, spara din presentation med de anpassade felstaplarna som läggs till i ditt diagram.
 
 ```csharp
-// Sparar presentation
+// Sparar presentationen
 presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 ```
 

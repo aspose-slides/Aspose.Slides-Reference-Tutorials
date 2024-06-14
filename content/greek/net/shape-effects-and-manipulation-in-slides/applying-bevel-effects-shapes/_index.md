@@ -57,7 +57,7 @@ shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.ThreePt;
 shape.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
 ```
 Καθορίστε τις τρισδιάστατες ιδιότητες, συμπεριλαμβανομένου του τύπου λοξοτομής, του ύψους, του πλάτους, του τύπου κάμερας, του τύπου φωτός και της κατεύθυνσης.
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 ```csharp
 pres.Save(dataDir + "Bevel_out.pptx", SaveFormat.Pptx);
 ```

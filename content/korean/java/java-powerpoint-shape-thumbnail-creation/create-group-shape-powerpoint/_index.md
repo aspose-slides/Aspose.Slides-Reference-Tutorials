@@ -9,20 +9,20 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerp
 ---
 ## 소개
 현대 프레젠테이션에서는 시각적으로 매력적이고 잘 구성된 요소를 통합하는 것이 정보를 효과적으로 전달하는 데 중요합니다. PowerPoint의 그룹 도형을 사용하면 여러 도형을 단일 단위로 구성하여 더 쉽게 조작하고 서식을 지정할 수 있습니다. Aspose.Slides for Java는 프로그래밍 방식으로 그룹 모양을 생성하고 조작할 수 있는 강력한 기능을 제공하여 프레젠테이션 디자인에 대한 유연성과 제어 기능을 제공합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
-2.  Aspose.Slides for Java 라이브러리: 프로젝트에 Aspose.Slides for Java 라이브러리를 다운로드하고 포함하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java 라이브러리: 프로젝트에 Aspose.Slides for Java 라이브러리를 다운로드하고 포함하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse 등 원하는 Java IDE를 선택하세요.
 
 ## 패키지 가져오기
 시작하려면 Aspose.Slides for Java 기능을 사용하는 데 필요한 패키지를 가져옵니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 환경 설정
- PowerPoint 프레젠테이션을 만들고 저장할 수 있는 프로젝트 디렉터리가 설정되어 있는지 확인하세요. 바꾸다`"Your Document Directory"`원하는 디렉토리의 경로로.
+ PowerPoint 프레젠테이션을 만들고 저장할 수 있는 프로젝트 디렉터리가 설정되어 있는지 확인하세요. 바꾸다`"Your Document Directory"` 원하는 디렉토리의 경로로.
 ```java
 String dataDir = "Your Document Directory";
 ```

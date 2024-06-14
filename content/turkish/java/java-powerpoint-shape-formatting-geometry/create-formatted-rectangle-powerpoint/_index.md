@@ -16,10 +16,10 @@ Koda dalmadan önce önkoşulları ele alalım. Aşağıdakilere ihtiyacınız o
 3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi bir IDE, kodlama deneyiminizi daha sorunsuz hale getirecektir.
 4. Temel Java Bilgisi: Java programlamaya aşina olmak bu eğitimi takip etmenize yardımcı olacaktır.
 ## Paketleri İçe Aktar
-Başlamak için gerekli paketleri Aspose.Slides kütüphanesinden içe aktarmanız gerekecek. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Başlamak için gerekli paketleri Aspose.Slides kütüphanesinden içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Bu kod satırı, sunuyu belirttiğiniz dizine PPTX dosyası olarak kaydeder.
 ## Adım 7: Kaynakları Temizleyin
- imha etmek iyi bir uygulamadır.`Presentation`Kaynakların serbest bırakılmasına karşı çıkıyoruz.
+ imha etmek iyi bir uygulamadır.`Presentation` Kaynakların serbest bırakılmasına karşı çıkıyoruz.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Evet, Aspose.Slides for Java'yı IntelliJ IDEA, Eclipse veya NetBeans gibi Java 
 ### Aspose.Slides for Java'nın ücretsiz deneme sürümünü nasıl edinebilirim?
  Aspose.Slides for Java'nın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ###  elden çıkarmak gerekli mi`Presentation` object?
- Evet, elden çıkarma`Presentation`nesne, kaynakların serbest bırakılmasına ve bellek sızıntılarının önlenmesine yardımcı olur.
+ Evet, elden çıkarma`Presentation` nesne, kaynakların serbest bırakılmasına ve bellek sızıntılarının önlenmesine yardımcı olur.
 ### Aspose.Slides for Java belgelerini nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/java/).

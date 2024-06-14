@@ -23,7 +23,7 @@ Trước khi chúng ta đi sâu vào triển khai, hãy đảm bảo bạn có c
 ## Bước 1: Tạo bản trình bày
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Chúng tôi xóa mọi dữ liệu hiện có khỏi biểu đồ để chuẩn 
 ## Bước 4: Tải sổ làm việc Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Chúng tôi tải sổ làm việc Excel chứa dữ liệu chúng tôi muốn sử dụng cho biểu đồ. Thay thế`"book1.xlsx"` với đường dẫn đến tệp Excel của bạn.
@@ -92,14 +92,14 @@ Cuối cùng, chúng tôi lưu bản trình bày có dữ liệu biểu đồ đ
 ## Mã nguồn hoàn chỉnh cho dữ liệu biểu đồ tập hợp từ sổ làm việc trong các trang trình bày Java
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}
@@ -133,7 +133,7 @@ Có, bạn có thể sử dụng dữ liệu từ bất kỳ tệp Excel nào b�
 
 ### Tôi có thể tạo những loại biểu đồ nào khác bằng Aspose.Slides cho Java?
 
-Aspose.Slides for Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường, biểu đồ phân tán, v.v. Bạn có thể chọn loại biểu đồ phù hợp nhất với nhu cầu trình bày dữ liệu của mình.
+Aspose.Slides cho Java hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường, biểu đồ phân tán, v.v. Bạn có thể chọn loại biểu đồ phù hợp nhất với nhu cầu trình bày dữ liệu của mình.
 
 ### Có thể cập nhật dữ liệu biểu đồ một cách linh hoạt trong bản trình bày đang chạy không?
 

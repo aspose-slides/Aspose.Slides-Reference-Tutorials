@@ -143,7 +143,7 @@ Trong hướng dẫn này, bạn đã học cách tạo biểu đồ Bản đồ
 
 ### Làm cách nào tôi có thể tùy chỉnh giao diện của biểu đồ Bản đồ cây?
 
- Bạn có thể tùy chỉnh giao diện của biểu đồ Bản đồ cây bằng cách sửa đổi các thuộc tính khác nhau của`chart` Và`series` các đối tượng, chẳng hạn như màu sắc, nhãn và bố cục.
+ Bạn có thể tùy chỉnh giao diện của biểu đồ Bản đồ cây bằng cách sửa đổi các thuộc tính khác nhau của`chart` Và`series`các đối tượng, chẳng hạn như màu sắc, nhãn và bố cục.
 
 ### Tôi có thể tạo nhiều biểu đồ Bản đồ cây trong một bản trình bày không?
 

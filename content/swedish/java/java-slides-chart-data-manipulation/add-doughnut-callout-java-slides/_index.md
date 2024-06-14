@@ -165,7 +165,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här handledningen har vi täckt processen att lägga till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du har lärt dig hur du skapar ett Donut-diagram, anpassar dess utseende och lägger till datapunkter. Förbättra gärna dina presentationer ytterligare med detta kraftfulla bibliotek och utforska fler kartalternativ.
+I den här handledningen har vi täckt processen att lägga till en Donut Callout till en Java-bild med Aspose.Slides för Java. Du har lärt dig hur du skapar ett Donut-diagram, anpassar dess utseende och lägger till datapunkter. Förbättra gärna dina presentationer ytterligare med detta kraftfulla bibliotek och utforska fler kartalternativ.
 
 ## FAQ's
 
@@ -179,4 +179,4 @@ Ja, du kan lägga till så många datapunkter som behövs i Donut-diagrammet. F�
 
 ### Hur kan jag justera positionen och storleken på Donut-diagrammet på bilden?
 
-Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.
+ Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.

@@ -23,7 +23,7 @@ Aspose.Slides for Java は、開発者が PowerPoint プレゼンテーション
 ## ステップ1: プレゼンテーションを作成する
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Excel ブックからの新しいデータに対応するために、グラフ�
 ## ステップ4: Excelワークブックを読み込む
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
 グラフに使用するデータを含むExcelブックを読み込みます。`"book1.xlsx"` Excel ファイルへのパスを入力します。
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## Java スライドでワークブックからグラフ データを設定する完全なソース コード
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}
@@ -129,15 +129,15 @@ try {
 
 ### 別の Excel ファイルのデータを使用してグラフを作成できますか?
 
-はい、コードでワークブックを読み込むときに正しいファイル パスを指定することにより、任意の Excel ファイルのデータを使用できます。
+はい、コードでワークブックを読み込むときに正しいファイル パスを指定することで、任意の Excel ファイルのデータを使用できます。
 
-### Aspose.Slides for Java で作成できる他の種類のグラフは何ですか?
+### Aspose.Slides for Java では他にどのような種類のグラフを作成できますか?
 
 Aspose.Slides for Java は、棒グラフ、折れ線グラフ、散布図など、さまざまなグラフの種類をサポートしています。データ表現のニーズに最適なグラフの種類を選択できます。
 
 ### 実行中のプレゼンテーションでグラフデータを動的に更新することは可能ですか?
 
-はい、基になるブックを変更してグラフ データを更新することで、プレゼンテーション内のグラフ データを動的に更新できます。
+はい、基になるブックを変更してグラフデータを更新することで、プレゼンテーション内のグラフデータを動的に更新できます。
 
 ### Aspose.Slides for Java の操作に関するその他の例やリソースはどこで見つかりますか?
 

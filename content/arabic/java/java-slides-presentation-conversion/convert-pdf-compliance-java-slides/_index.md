@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## أكمل كود المصدر للتوافق مع التحويل إلى PDF في شرائح Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ PDF/A-2a هو مستوى التوافق لملفات PDF. وهي تحدد مجم
 
 ## هل يمكنني تغيير مستوى توافق PDF إلى شيء آخر غير PDF/A-2a؟
 
- نعم، يوفر Aspose.Slides for Java المرونة في اختيار مستوى توافق PDF. في التعليمات البرمجية المتوفرة، يمكنك تغيير مستوى الامتثال عن طريق تعديل`pdfOptions.setCompliance()` خط. يمكنك اختيار مستويات توافق أخرى مثل PDF/A-1a، وPDF/A-1b، وPDF/A-3a، وما إلى ذلك، وفقًا لمتطلباتك المحددة.
+ نعم، يوفر Aspose.Slides for Java المرونة في اختيار مستوى توافق PDF. في التعليمات البرمجية المتوفرة، يمكنك تغيير مستوى الامتثال عن طريق تعديل`pdfOptions.setCompliance()`خط. يمكنك اختيار مستويات توافق أخرى مثل PDF/A-1a، وPDF/A-1b، وPDF/A-3a، وما إلى ذلك، وفقًا لمتطلباتك المحددة.
 
 ## ما هي الاختلافات بين PDF/A-2a ومستويات الامتثال الأخرى؟
 
@@ -113,4 +113,4 @@ PDF/A-2a هو مستوى التوافق لملفات PDF. وهي تحدد مجم
 
 ## أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides للتوافق مع Java وPDF؟
 
- للحصول على معلومات أكثر تفصيلاً حول Aspose.Slides for Java وميزاته، بما في ذلك إعدادات التوافق مع PDF، يمكنك الرجوع إلى الوثائق الموجودة على[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/)بالإضافة إلى ذلك، يمكنك استكشاف أمثلة التعليمات البرمجية والبرامج التعليمية لتعزيز معرفتك بالمكتبة.
+ للحصول على معلومات أكثر تفصيلاً حول Aspose.Slides for Java وميزاته، بما في ذلك إعدادات التوافق مع PDF، يمكنك الرجوع إلى الوثائق الموجودة على[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/). بالإضافة إلى ذلك، يمكنك استكشاف أمثلة التعليمات البرمجية والبرامج التعليمية لتعزيز معرفتك بالمكتبة.

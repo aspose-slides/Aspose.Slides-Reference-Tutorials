@@ -80,7 +80,7 @@ Vâng, bạn có thể. Chỉ cần mở bản trình bày nguồn và bản tr�
 
 ### Có thể sao chép hình dạng trên các kích thước slide khác nhau không?
 
-Thật vậy, bạn có thể sao chép hình dạng giữa các slide với các kích thước khác nhau. Aspose.Slides sẽ tự động điều chỉnh kích thước của hình dạng nhân bản để phù hợp với slide mục tiêu.
+Thật vậy, bạn có thể sao chép hình dạng giữa các slide với các kích thước khác nhau. Aspose.Slides sẽ tự động điều chỉnh kích thước của hình dạng nhân bản để vừa với slide mục tiêu.
 
 ### Tôi có thể sao chép hình dạng bằng hình ảnh động không?
 

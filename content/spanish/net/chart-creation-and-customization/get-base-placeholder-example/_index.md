@@ -2,7 +2,7 @@
 title: Obtener ejemplo de marcador de posición base
 linktitle: Obtener ejemplo de marcador de posición base
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
-description: Explore Aspose.Slides para .NET, una potente biblioteca para trabajar con presentaciones de PowerPoint en C#. Aprenda a crear diapositivas dinámicas sin esfuerzo.
+description: Explore Aspose.Slides para .NET, una poderosa biblioteca para trabajar con presentaciones de PowerPoint en C#. Aprenda a crear diapositivas dinámicas sin esfuerzo.
 type: docs
 weight: 13
 url: /es/net/chart-creation-and-customization/get-base-placeholder-example/

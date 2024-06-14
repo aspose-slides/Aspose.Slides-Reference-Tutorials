@@ -65,9 +65,9 @@ Dat is het! U hebt met succes een presentatie met geschetste vormen gemaakt met 
 Het toevoegen van geschetste vormen aan uw presentatiedia's kan de visuele aantrekkingskracht vergroten en uw publiek betrekken. Met Aspose.Slides voor .NET wordt het proces eenvoudig, zodat u uw creativiteit moeiteloos de vrije loop kunt laten.
 ## Veelgestelde vragen
 ### 1. Kan ik het geschetste effect aanpassen?
-Ja, Aspose.Slides voor .NET biedt verschillende aanpassingsopties voor geschetste effecten. Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
+ Ja, Aspose.Slides voor .NET biedt verschillende aanpassingsopties voor geschetste effecten. Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
 ### 2. Is er een gratis proefperiode beschikbaar?
- Zeker! U kunt een gratis proefversie van Aspose.Slides voor .NET uitproberen[hier](https://releases.aspose.com/).
+ Zeker! U kunt een gratis proefversie van Aspose.Slides voor .NET verkennen[hier](https://releases.aspose.com/).
 ### 3. Waar kan ik ondersteuning krijgen?
  Voor hulp of vragen kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### 4. Hoe kan ik Aspose.Slides voor .NET kopen?

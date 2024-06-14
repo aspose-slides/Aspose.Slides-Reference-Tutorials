@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 이 가이드에서는 Aspose.Slides for Java를 사용하여 외부 통합 문서에서 차트 데이터를 편집하는 방법을 보여줍니다. 프로그래밍 방식으로 PowerPoint 프레젠테이션 내의 차트 데이터를 수정하는 방법을 알아봅니다. 프로젝트에 Java용 Aspose.Slides 라이브러리가 설치 및 구성되어 있는지 확인하세요.
 
-## 전제조건
+## 전제 조건
 
 - Java용 Aspose.Slides
 - 자바 개발 환경
@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ if (pres != null) pres.dispose();
 
 ### 다른 차트나 슬라이드를 지정하려면 어떻게 해야 합니까?
 
- 다른 차트나 슬라이드에 액세스하려면`getSlides().get_Item()` 그리고`getShapes().get_Item()` 행동 양식. 인덱싱은 0부터 시작한다는 점을 기억하세요.
+ 다른 차트나 슬라이드에 액세스하려면`getSlides().get_Item()` 그리고`getShapes().get_Item()`행동 양식. 인덱싱은 0부터 시작한다는 점을 기억하세요.
 
 ### 동일한 프레젠테이션 내에서 여러 차트의 데이터를 편집할 수 있나요?
 

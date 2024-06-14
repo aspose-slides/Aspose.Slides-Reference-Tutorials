@@ -61,7 +61,7 @@ Parabéns! Você visualizou com sucesso a saída impressa de uma apresentação 
 ## Conclusão
 Neste tutorial, cobrimos as etapas essenciais para integrar e utilizar Aspose.Slides for .NET em seus projetos. Esta poderosa biblioteca abre um mundo de possibilidades para trabalhar programaticamente com apresentações do PowerPoint. Experimente, explore e aprimore seus aplicativos com a flexibilidade que Aspose.Slides oferece.
 ## perguntas frequentes
-### Aspose.Slides é compatível com as versões mais recentes do PowerPoint?
+### O Aspose.Slides é compatível com as versões mais recentes do PowerPoint?
 Sim, Aspose.Slides suporta os formatos PowerPoint mais recentes, garantindo compatibilidade com as versões mais recentes.
 ### Posso usar Aspose.Slides em aplicativos Windows e Web?
 Absolutamente! Aspose.Slides é versátil e pode ser integrado perfeitamente em aplicativos Windows e baseados na Web.

@@ -34,7 +34,7 @@ Yeni bir sunum oluşturarak başlayalım. Java Slaytlarında bunu nasıl yapabil
 
 ```java
 // PPTX belgesinin yolu
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ Bu kod, sunumunuzu medya kontrolleri etkinken kaydeder.
 
 ```java
 // PPTX belgesinin yolu
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Slayt gösterisi modunda medya kontrol ekranını etkinleştirin.

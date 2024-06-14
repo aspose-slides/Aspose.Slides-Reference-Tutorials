@@ -11,7 +11,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 การสร้างงานนำเสนอ PowerPoint ที่ดึงดูดสายตาถือเป็นสิ่งสำคัญในการดึงดูดผู้ชมของคุณ หนึ่งในวิธีที่มีประสิทธิภาพในการปรับปรุงสไลด์ของคุณคือการเติมรูปร่างด้วยการไล่ระดับสี บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการใช้ Aspose.Slides สำหรับ Java เพื่อเติมรูปร่างด้วยการไล่ระดับสีใน PowerPoint ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คุณจะพบว่าคู่มือนี้มีประโยชน์และง่ายต่อการปฏิบัติตาม มาดำดิ่งสู่โลกแห่งการไล่ระดับสีและดูว่าพวกเขาจะเปลี่ยนการนำเสนอของคุณได้อย่างไร
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
--  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides สำหรับ Java: ดาวน์โหลดเวอร์ชันล่าสุดจาก[ที่นี่](https://releases.aspose.com/slides/java/).
 - สภาพแวดล้อมการพัฒนาแบบรวม (IDE): IDE เช่น IntelliJ IDEA หรือ Eclipse จะทำให้ประสบการณ์การเขียนโค้ดของคุณราบรื่นยิ่งขึ้น
 - ความรู้พื้นฐานของ Java: ความคุ้นเคยกับการเขียนโปรแกรม Java เป็นสิ่งสำคัญ
@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 ในการเริ่มต้นด้วย Aspose.Slides คุณจะต้องนำเข้าแพ็คเกจที่จำเป็น ตรวจสอบให้แน่ใจว่าคุณได้เพิ่ม Aspose.Slides สำหรับ Java ลงในการขึ้นต่อกันของโปรเจ็กต์ของคุณ
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

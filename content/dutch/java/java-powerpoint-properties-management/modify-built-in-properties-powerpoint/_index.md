@@ -20,7 +20,7 @@ Importeer in uw Java-project de benodigde Aspose.Slides-klassen:
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel de omgeving in
 Definieer het pad naar de map met uw PowerPoint-bestand:

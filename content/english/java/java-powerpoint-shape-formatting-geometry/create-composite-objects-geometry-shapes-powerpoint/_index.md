@@ -19,7 +19,7 @@ Before we jump into the code, there are a few things you'll need:
 First things first, let's import the necessary packages to get started with Aspose.Slides for Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Creating composite objects might sound complex, but by breaking it down into manageable steps, you'll find it's easier than you think. We'll create a PowerPoint presentation, add a shape, and then define and apply multiple geometry paths to form a composite shape.
@@ -38,7 +38,7 @@ If you're using Maven, add the following dependency to your `pom.xml` file:
 Now, let's create a new PowerPoint presentation. We'll start by initializing the `Presentation` class.
 ```java
 // Output file name
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Step 3: Create a New Shape
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Step 7: Save the Presentation
 Finally, save your presentation to a file.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Step 8: Clean Up Resources

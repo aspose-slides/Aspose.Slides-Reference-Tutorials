@@ -1,6 +1,6 @@
 ---
 title: كيفية إزالة الملاحظات من شريحة معينة باستخدام Aspose.Slides .NET
-linktitle: إزالة الملاحظات من شريحة محددة
+linktitle: إزالة الملاحظات من شريحة معينة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إزالة الملاحظات من شريحة معينة في PowerPoint باستخدام Aspose.Slides لـ .NET. تبسيط العروض التقديمية الخاصة بك دون عناء.
 type: docs
@@ -69,7 +69,7 @@ presentation.Save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 ## الأسئلة المتداولة (الأسئلة الشائعة)
 
 ### ما هو Aspose.Slides لـ .NET؟
-Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات PowerPoint برمجياً. يسمح لك بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها في تطبيقات .NET.
+Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات PowerPoint برمجيًا. يسمح لك بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها في تطبيقات .NET.
 
 ### هل يمكنني إزالة الملاحظات من شرائح متعددة مرة واحدة باستخدام Aspose.Slides لـ .NET؟
 نعم، يمكنك التنقل بين الشرائح وإزالة الملاحظات من شرائح متعددة باستخدام مقتطفات تعليمات برمجية مماثلة.

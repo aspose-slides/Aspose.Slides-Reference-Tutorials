@@ -84,7 +84,7 @@ Ez a kód kinyomtatja a frissített számokat a prezentációban, jelezve, hogy 
 ## Teljes forráskód a Java Slides nem használt Layout Master eltávolításához
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

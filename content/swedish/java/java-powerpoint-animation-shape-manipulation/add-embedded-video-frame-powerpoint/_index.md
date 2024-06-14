@@ -19,7 +19,7 @@ Innan du dyker in i koden, se till att du har följande förutsättningar på pl
 Först måste du importera de nödvändiga paketen för att arbeta med Aspose.Slides. Dessa importer hjälper dig att hantera bilder, videor och presentationsfiler.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -92,4 +92,4 @@ Aspose.Slides stöder olika videoformat inklusive MP4, AVI och WMV.
 ### Behöver jag en licens för att använda Aspose.Slides?
 Ja, du behöver en giltig licens för att använda Aspose.Slides. Du kan få en tillfällig licens för utvärdering.
 ### Kan jag anpassa storleken och placeringen av videoramen?
-Ja, du kan anpassa storlek och position genom att ställa in lämpliga parametrar när du lägger till videoramen.
+Ja, du kan anpassa storleken och positionen genom att ställa in lämpliga parametrar när du lägger till videoramen.

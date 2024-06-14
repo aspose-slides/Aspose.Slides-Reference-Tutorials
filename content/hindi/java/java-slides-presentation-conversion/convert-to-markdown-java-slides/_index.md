@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // स्रोत तक पथ प्रस्तुति
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// मार्कडाउन डेटा को सहेजने के लिए पथ और फ़ोल्डर का नाम
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// मार्कडाउन निर्माण विकल्प बनाएँ
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// सभी आइटम रेंडर करने के लिए पैरामीटर सेट करें (समूहीकृत आइटम एक साथ रेंडर किए जाएंगे)।

@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## 1. lépés: Állítsa be projektjét
 Hozzon létre egy új C# projektet a kívánt fejlesztői környezetben. Győződjön meg arról, hogy az Aspose.Slides könyvtárra hivatkozik a projektben.
 ## 2. lépés: Inicializálja a bemutatót
- Példányosítson egy bemutató osztályt a PowerPoint-fájl megjelenítéséhez. Adja meg a prezentációs fájl elérési útját a`dataDir` változó.
+Példányosítson egy bemutató osztályt a PowerPoint-fájl megjelenítéséhez. Adja meg a prezentációs fájl elérési útját a`dataDir` változó.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -40,7 +40,7 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail())
 }
 ```
 ## 4. lépés: Mentse el a képet
-Mentse el a generált miniatűr képet lemezre. Kiválaszthatja, hogy milyen formátumban szeretné menteni a képet. Ebben a példában PNG formátumban mentjük el.
+Mentse el a generált bélyegképet lemezre. Kiválaszthatja, hogy milyen formátumban szeretné menteni a képet. Ebben a példában PNG formátumban mentjük el.
 ```csharp
 bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ```
@@ -56,4 +56,4 @@ V: Hibakezelési mechanizmusokat implementálhat try-catch blokkokkal a kivétel
 ### K: Vannak-e korlátozások a bélyegképeket tartalmazó alakzatok méretére vagy típusára vonatkozóan?
 V: Az Aspose.Slides rugalmasságot biztosít különféle alakzatokhoz, például szövegdobozokhoz, képekhez és egyebekhez való bélyegképek létrehozásához.
 ### K: Testreszabhatom a generált miniatűrök méretét és felbontását?
-V: Igen, beállíthatja a paramétereket a hívásakor`GetThumbnail` módszer a méret és a felbontás szabályozására.
+ V: Igen, beállíthatja a paramétereket a hívásakor`GetThumbnail` módszer a méret és a felbontás szabályozására.

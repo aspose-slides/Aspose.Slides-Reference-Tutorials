@@ -75,7 +75,7 @@ point.getMarker().getFormat().getFill().getPictureFillFormat().getPicture().setI
 // Opakujte pro další datové body
 // ...
 
-// Změna velikosti značky řady grafu
+// Změna velikosti značky řady grafů
 series.getMarker().setSize(15);
 ```
 
@@ -141,7 +141,7 @@ S Aspose.Slides for Java můžete pozvednout své prezentace přizpůsobením zn
 
 ### Mohu použít obrázky jako vlastní značky?
 
- Ano, můžete použít obrázky jako vlastní značky pro datové body. Nastavte typ výplně na`FillType.Picture` poskytněte obrázek, který chcete použít.
+ Ano, můžete použít obrázky jako vlastní značky pro datové body. Nastavte typ výplně na`FillType.Picture` a poskytněte obrázek, který chcete použít.
 
 ### Je Aspose.Slides for Java vhodný pro vytváření dynamických grafů?
 

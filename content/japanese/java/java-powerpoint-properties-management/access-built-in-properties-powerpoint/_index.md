@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プレゼンテーションオブジェクトを設定する
 まず、操作する PowerPoint プレゼンテーションを表すプレゼンテーション オブジェクトを設定します。手順は次のとおりです。
@@ -93,7 +93,7 @@ System.out.println("Title : " + documentProperties.getTitle());
 ## よくある質問
 ### Aspose.Slides for Java を使用してこれらの組み込みプロパティを変更できますか?
 はい、Aspose.Slides を使用してこれらのプロパティを変更できます。IDocumentProperties インターフェイスによって提供される適切な setter メソッドを使用するだけです。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 Aspose.Slides は幅広いバージョンの PowerPoint をサポートしており、さまざまなプラットフォーム間での互換性が確保されています。
 ### カスタムプロパティも取得できますか?
 はい、組み込みプロパティの他に、Aspose.Slides for Java を使用してカスタム プロパティを取得および変更することもできます。

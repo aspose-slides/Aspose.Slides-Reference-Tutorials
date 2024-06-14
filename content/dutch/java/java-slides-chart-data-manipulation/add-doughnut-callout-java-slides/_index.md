@@ -179,4 +179,4 @@ Ja, u kunt zoveel gegevenspunten aan het ringdiagram toevoegen als nodig is. Ver
 
 ### Hoe kan ik de positie en grootte van het ringdiagram op de dia aanpassen?
 
- kunt de positie en grootte van het ringdiagram wijzigen door de parameters in het`addChart` methode. De vier getallen in die methode komen overeen met respectievelijk de X- en Y-coördinaten van de linkerbovenhoek van het diagram en de breedte en hoogte ervan.
+ U kunt de positie en grootte van het ringdiagram wijzigen door de parameters in het`addChart` methode. De vier getallen in die methode komen overeen met respectievelijk de X- en Y-coördinaten van de linkerbovenhoek van het diagram en de breedte en hoogte ervan.

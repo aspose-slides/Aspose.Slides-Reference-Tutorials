@@ -8,7 +8,7 @@ weight: 21
 url: /de/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
 ## Einführung
-Das Erstellen visuell fesselnder Präsentationsfolien ist wichtig, um die Aufmerksamkeit Ihres Publikums zu gewinnen und zu erhalten. In diesem Tutorial führen wir Sie durch den Prozess der Verbesserung Ihrer Folien, indem Sie mithilfe von Aspose.Slides für .NET eine Ellipsenform mit einem Farbverlauf füllen.
+Das Erstellen visuell fesselnder Präsentationsfolien ist wichtig, um die Aufmerksamkeit Ihres Publikums zu gewinnen und zu erhalten. In diesem Tutorial führen wir Sie durch den Prozess der Verbesserung Ihrer Folien, indem wir mithilfe von Aspose.Slides für .NET eine Ellipsenform mit einem Farbverlauf füllen.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 - Grundkenntnisse der Programmiersprache C#.
@@ -70,6 +70,6 @@ A: Natürlich! Aspose.Slides für .NET unterstützt Farbverlaufsfüllungen für 
 ### F: Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
  A: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### F: Wie kann ich Support für Aspose.Slides für .NET erhalten?
-A: Suchen Sie Hilfe und engagieren Sie sich in der Community auf der[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
+ A: Suchen Sie Hilfe und engagieren Sie sich in der Community auf der[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### F: Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
  A: Natürlich können Sie eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).

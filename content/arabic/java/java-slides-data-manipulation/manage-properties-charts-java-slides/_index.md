@@ -14,7 +14,7 @@ url: /ar/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## المتطلبات الأساسية
 
- قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides الخاصة بـ Java وإعدادها في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides الخاصة بـ Java وإعدادها في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 
 ## إضافة مخطط إلى شريحة
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // خذ سلسلة الرسم البياني الثانية
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//الآن ملء بيانات السلسلة
+// الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني تغيير نوع الرسم البياني؟
 
- يمكنك تغيير نوع المخطط عن طريق تعديل`ChartType`المعلمة عند إضافة الرسم البياني. راجع وثائق Aspose.Slides للتعرف على أنواع المخططات المتوفرة.
+ يمكنك تغيير نوع المخطط عن طريق تعديل`ChartType` المعلمة عند إضافة الرسم البياني. راجع وثائق Aspose.Slides للتعرف على أنواع المخططات المتوفرة.
 
 ### هل يمكنني تخصيص ألوان الرسم البياني؟
 

@@ -2,7 +2,7 @@
 title: Alakzatbélyegkép létrehozása a PowerPointban
 linktitle: Alakzatbélyegkép létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Ismerje meg, hogyan hozhat létre alakzat bélyegképeket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. Lépésről lépésre bemutatott útmutató.
+description: Ismerje meg, hogyan hozhat létre alakzat bélyegképeket PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre bemutatott útmutató.
 type: docs
 weight: 14
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 Először is importálnia kell a szükséges csomagokat a Java-kódba az Aspose.Slides funkcióinak használatához. Illessze be a következő importálási utasításokat a Java fájl elejére:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -53,9 +53,9 @@ Mentse el a generált miniatűr képet a lemezre PNG formátumban a megadott fá
 ### Létrehozhatok bélyegképeket a prezentáció bármely diáján lévő alakzatokhoz?
 Igen, módosíthatja a kódot, hogy megcélozza az alakzatokat bármely dián, ha ennek megfelelően módosítja a diaindexet.
 ### Támogat az Aspose.Slides más képformátumokat a bélyegképek mentéséhez?
-Igen, a PNG mellett az Aspose.Slides támogatja a bélyegképek mentését különféle képformátumokban, például JPEG, GIF és BMP.
+Igen, a PNG mellett az Aspose.Slides támogatja a bélyegképek különféle képformátumokba, például JPEG, GIF és BMP mentését.
 ### Az Aspose.Slides alkalmas kereskedelmi használatra?
-Igen, az Aspose.Slides kereskedelmi licenceket kínál vállalkozások és szervezetek számára. Engedélyt vásárolhat innen[itt](https://purchase.aspose.com/buy).
+ Igen, az Aspose.Slides kereskedelmi licenceket kínál vállalkozások és szervezetek számára. Engedélyt vásárolhat innen[itt](https://purchase.aspose.com/buy).
 ### Kipróbálhatom az Aspose.Slides-t vásárlás előtt?
  Teljesen! Letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) hogy értékelje jellemzőit és képességeit.
 ### Hol találok támogatást az Aspose.Slides számára?

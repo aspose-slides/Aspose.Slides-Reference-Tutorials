@@ -11,7 +11,7 @@ url: /vi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Tạo các bài thuyết trình PowerPoint hấp dẫn trực quan là rất quan trọng để thu hút khán giả của bạn. Một trong những cách hiệu quả để cải thiện trang trình bày của bạn là tô màu các hình dạng có độ dốc. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng Aspose.Slides cho Java để tô màu các hình dạng có độ dốc trong PowerPoint. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, bạn sẽ thấy hướng dẫn này hữu ích và dễ làm theo. Hãy cùng đi sâu vào thế giới của gradient và xem chúng có thể biến đổi bài thuyết trình của bạn như thế nào.
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
--  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides cho Java: Tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/slides/java/).
 - Môi trường phát triển tích hợp (IDE): Một IDE như IntelliJ IDEA hoặc Eclipse sẽ giúp trải nghiệm mã hóa của bạn mượt mà hơn.
 - Kiến thức cơ bản về Java: Cần phải làm quen với lập trình Java.
@@ -19,7 +19,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những đi�
 Để bắt đầu với Aspose.Slides, bạn cần nhập các gói cần thiết. Đảm bảo bạn đã thêm Aspose.Slides cho Java vào phần phụ thuộc của dự án.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

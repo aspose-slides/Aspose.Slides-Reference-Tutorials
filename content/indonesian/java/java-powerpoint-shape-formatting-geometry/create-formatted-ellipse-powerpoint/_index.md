@@ -13,13 +13,13 @@ Selamat datang di tutorial komprehensif tentang membuat elips yang diformat di P
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 1. Java Development Kit (JDK): Pastikan Anda menginstal JDK 1.6 atau lebih tinggi.
 2.  Aspose.Slides untuk Java: Unduh versi terbaru dari[Aspose.Slide untuk Java](https://releases.aspose.com/slides/java/).
-3. Lingkungan Pengembangan Terintegrasi (IDE): Gunakan IDE seperti IntelliJ IDEA atau Eclipse.
+3. Lingkungan Pengembangan Terpadu (IDE): Gunakan IDE seperti IntelliJ IDEA atau Eclipse.
 4. Pengetahuan Dasar Java: Diperlukan keakraban dengan pemrograman Java.
 ## Paket Impor
 Untuk mulai menggunakan Aspose.Slides, Anda perlu mengimpor paket yang diperlukan. Inilah cara Anda melakukannya:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengemban
 ### Bisakah saya menggunakan Aspose.Slides untuk Java dengan IDE apa pun?
 Ya, Anda dapat menggunakan Aspose.Slides untuk Java dengan IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 ### Apakah saya memerlukan lisensi untuk Aspose.Slides?
- Ya, Aspose.Slides adalah produk komersial, dan Anda memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Aspose.Slides adalah produk komersial, dan Anda memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Slides untuk Java?
-Anda dapat menemukan dokumentasi terperinci di Aspose.Slides untuk Java[halaman dokumentasi](https://reference.aspose.com/slides/java/).
+ Anda dapat menemukan dokumentasi terperinci di Aspose.Slides untuk Java[halaman dokumentasi](https://reference.aspose.com/slides/java/).
 ### Apakah ada dukungan yang tersedia untuk Aspose.Slides?
  Ya, Aspose menawarkan dukungan melalui mereka[forum](https://forum.aspose.com/c/slides/11).

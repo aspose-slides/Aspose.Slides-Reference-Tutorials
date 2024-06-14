@@ -19,7 +19,7 @@ Zuerst müssen Sie die erforderlichen Pakete in Ihr Java-Projekt importieren. F�
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Einrichten des Präsentationsobjekts
 Richten Sie zunächst das Präsentationsobjekt so ein, dass es die PowerPoint-Präsentation darstellt, mit der Sie arbeiten möchten. So können Sie es tun:
@@ -30,7 +30,7 @@ String dataDir = "path_to_your_presentation_directory/";
 Presentation pres = new Presentation(dataDir + "your_presentation_file.pptx");
 ```
 ## Schritt 2: Zugriff auf die Dokumenteigenschaften
-Nachdem Sie das Präsentationsobjekt eingerichtet haben, können Sie mithilfe der Schnittstelle IDocumentProperties auf die integrierten Eigenschaften der Präsentation zugreifen. So können Sie verschiedene Eigenschaften abrufen:
+Nachdem Sie das Präsentationsobjekt eingerichtet haben, können Sie über die Schnittstelle IDocumentProperties auf die integrierten Eigenschaften der Präsentation zugreifen. So können Sie verschiedene Eigenschaften abrufen:
 ### Kategorie
 ```java
 System.out.println("Category : " + documentProperties.getCategory());

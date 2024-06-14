@@ -1,8 +1,8 @@
 ---
-title: Java PowerPoint 保存操作
-linktitle: Java PowerPoint 保存操作
+title: Java PowerPoint 儲存操作
+linktitle: Java PowerPoint 儲存操作
 second_title: Aspose.Slides Java PowerPoint 處理 API
-description: 了解如何使用 Aspose.Slides for Java 儲存 PowerPoint 簡報。有關保存到文件、流以及添加密碼保護的教程。
+description: 了解如何使用 Aspose.Slides for Java 儲存 PowerPoint 簡報。有關儲存到檔案、串流以及添加密碼保護的教學。
 type: docs
 weight: 20
 url: /zh-hant/java/java-powerpoint-save-operations/
@@ -18,7 +18,7 @@ url: /zh-hant/java/java-powerpoint-save-operations/
 
 ## 將 PowerPoint 儲存到串流
 
-在某些情況下，您可能需要將 PowerPoint 簡報直接儲存到串流而不是檔案中。這對於直接文件存取可能不可行的 Web 應用程式和其他動態環境特別有用。教學[將 PowerPoint 儲存到串流](./save-powerpoint-to-stream/)提供如何使用 Aspose.Slides for Java 將簡報儲存到串流的逐步指南。這種方法允許與其他系統無縫集成，並增強 Java 應用程式的靈活性。
+在某些情況下，您可能需要將 PowerPoint 簡報直接儲存到串流而不是檔案中。這對於直接文件存取可能不可行的 Web 應用程式和其他動態環境特別有用。教學[將 PowerPoint 儲存到串流](./save-powerpoint-to-stream/)提供如何使用 Aspose.Slides for Java 將簡報儲存到串流的逐步指南。這種方法可以與其他系統無縫集成，並增強 Java 應用程式的靈活性。
 
 ## 使用密碼保存 PowerPoint
 

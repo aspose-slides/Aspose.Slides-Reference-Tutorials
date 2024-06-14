@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 まず、例に必要なパッケージをインポートしましょう。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -64,7 +64,7 @@ Aspose.Slides はさまざまなパターン スタイルを提供します。�
 shape.getFillFormat().getPatternFormat().setPatternStyle(PatternStyle.Trellis);
 ```
 ## ステップ8: パターンの色を設定する
-パターンの色をカスタマイズできます。背景色をライトグレー、前景色を黄色に設定してみましょう。
+パターンの色をカスタマイズできます。背景色をライトグレーに、前景色を黄色に設定してみましょう。
 ```java
 shape.getFillFormat().getPatternFormat().getBackColor().setColor(Color.LIGHT_GRAY);
 shape.getFillFormat().getPatternFormat().getForeColor().setColor(Color.YELLOW);

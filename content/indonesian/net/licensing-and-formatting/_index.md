@@ -20,7 +20,7 @@ Lisensi yang tepat sangat penting ketika mengintegrasikan Aspose.Slides ke dalam
 
 Pemformatan memainkan peran penting dalam menciptakan presentasi yang menarik dan profesional. Tutorial kami akan memberdayakan Anda untuk memanfaatkan kemampuan pemformatan Aspose.Slides secara maksimal. Dari menyelaraskan teks dan menyesuaikan tata letak hingga menerapkan gaya dan mengoptimalkan elemen visual, Anda akan mempelajari cara mengubah presentasi Anda menjadi aset visual yang menakjubkan dan berdampak.
 
-Baik Anda ingin menyederhanakan prosedur perizinan atau meningkatkan estetika visual presentasi Anda, tutorial ini akan memberi Anda wawasan dan keterampilan untuk mencapai tujuan Anda. Mari kita mulai perjalanan ini untuk meningkatkan kemahiran Aspose.Slides Anda dan membuat presentasi yang meninggalkan kesan mendalam.
+Baik Anda ingin menyederhanakan prosedur perizinan atau meningkatkan estetika visual presentasi Anda, tutorial ini akan memberi Anda wawasan dan keterampilan untuk mencapai tujuan Anda. Mari kita mulai perjalanan ini untuk meningkatkan kemahiran Aspose.Slide Anda dan membuat presentasi yang meninggalkan kesan mendalam.
 
 ## Tutorial Perizinan dan Pemformatan
 ### [Lisensi di Aspose.Slide](./licensing-and-formatting/)

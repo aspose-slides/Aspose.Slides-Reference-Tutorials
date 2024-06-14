@@ -12,13 +12,13 @@ In questo tutorial esploreremo come clonare forme nelle presentazioni di PowerPo
 ## Prerequisiti
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 1.  Java Development Kit (JDK): assicurati di avere Java Development Kit installato sul tuo sistema. È possibile scaricare e installare la versione più recente da[sito web](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Libreria Aspose.Slides per Java: scarica e includi la libreria Aspose.Slides per Java nel tuo progetto Java. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/slides/java/).
+2. Libreria Aspose.Slides per Java: scarica e includi la libreria Aspose.Slides per Java nel tuo progetto Java. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/slides/java/).
 
 ## Importa pacchetti
 Per iniziare, dovrai importare i pacchetti necessari nel tuo progetto Java. Questi pacchetti forniscono le funzionalità necessarie per lavorare con presentazioni PowerPoint utilizzando Aspose.Slides per Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: caricare la presentazione
  Per prima cosa devi caricare la presentazione PowerPoint contenente le forme che desideri clonare. Usa il`Presentation` class per caricare la presentazione di origine.

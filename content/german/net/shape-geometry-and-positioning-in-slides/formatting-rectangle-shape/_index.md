@@ -1,5 +1,5 @@
 ---
-title: Verbessern Sie Präsentationen - Formatieren Sie rechteckige Formen mit Aspose.Slides
+title: Präsentationen verbessern - Rechteckige Formen mit Aspose.Slides formatieren
 linktitle: Formatieren der rechteckigen Form in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET rechteckige Formen in PowerPoint-Präsentationen formatieren. Werten Sie Ihre Folien mit dynamischen visuellen Elementen auf.
@@ -8,7 +8,7 @@ weight: 12
 url: /de/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
 ## Einführung
-Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die die Arbeit mit PowerPoint-Präsentationen in der .NET-Umgebung erleichtert. Wenn Sie Ihre Präsentationen durch dynamisches Formatieren von Rechteckformen verbessern möchten, ist dieses Tutorial genau das Richtige für Sie. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Formatierung einer Rechteckform in einer Präsentation mit Aspose.Slides für .NET.
+Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die die Arbeit mit PowerPoint-Präsentationen in der .NET-Umgebung erleichtert. Wenn Sie Ihre Präsentationen durch dynamisches Formatieren von Rechteckformen verbessern möchten, ist dieses Tutorial genau das Richtige für Sie. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Formatierens einer Rechteckform in einer Präsentation mit Aspose.Slides für .NET.
 ## Voraussetzungen
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Eine Entwicklungsumgebung mit installiertem Aspose.Slides für .NET.
@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Schritt 2: Erstellen Sie ein Präsentationsobjekt
- Instanziieren Sie den`Presentation`Klasse zur Darstellung der PPTX-Datei. Dies bildet die Grundlage für Ihre PowerPoint-Präsentation.
+ Instanziieren Sie den`Presentation` Klasse zur Darstellung der PPTX-Datei. Dies bildet die Grundlage für Ihre PowerPoint-Präsentation.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Greifen Sie auf die erste Folie Ihrer Präsentation zu, da dies die Leinwand ist
 ISlide sld = pres.Slides[0];
 ```
 ## Schritt 4: Fügen Sie eine rechteckige Form hinzu
- Verwenden Sie die`Shapes` Eigenschaft der Folie, um eine automatische Form vom Typ Rechteck hinzuzufügen. Geben Sie die Position und Abmessungen des Rechtecks an.
+ Verwenden Sie die`Shapes`Eigenschaft der Folie, um eine automatische Form vom Typ Rechteck hinzuzufügen. Geben Sie die Position und Abmessungen des Rechtecks an.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

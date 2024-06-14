@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- ให้แน่ใจว่าจะเปลี่ยน`"Your Document Directory"`ด้วยเส้นทางที่คุณต้องการจัดเก็บไฟล์งานนำเสนอของคุณ
+ ให้แน่ใจว่าจะเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางที่คุณต้องการจัดเก็บไฟล์งานนำเสนอของคุณ
 ## ขั้นตอนที่ 2: โหลดงานนำเสนอ
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

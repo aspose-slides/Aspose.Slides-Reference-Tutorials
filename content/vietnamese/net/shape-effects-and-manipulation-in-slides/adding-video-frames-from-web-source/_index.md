@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn nhúng khung video với Aspose.Slides cho .NET
-linktitle: Thêm khung hình video từ nguồn web trong các slide thuyết trình bằng Aspose.Slides
+linktitle: Thêm khung hình video từ nguồn web trong các slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách nhúng liền mạch các khung hình video vào trang chiếu PowerPoint bằng Aspose.Slides for .NET. Cải thiện bài thuyết trình với đa phương tiện một cách dễ dàng.
 type: docs

@@ -14,7 +14,7 @@ url: /th/java/data-manipulation/manage-properties-charts-java-slides/
 
 ## ข้อกำหนดเบื้องต้น
 
- ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
+ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งและตั้งค่าไลบรารี Aspose.Slides สำหรับ Java ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/).
 
 ## การเพิ่มแผนภูมิลงในสไลด์
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // ใช้แผนภูมิชุดที่สอง
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//กำลังเติมข้อมูลซีรีส์
+// กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
 
- คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยการแก้ไข`ChartType`พารามิเตอร์เมื่อเพิ่มแผนภูมิ โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับประเภทแผนภูมิที่มี
+ คุณสามารถเปลี่ยนประเภทแผนภูมิได้โดยการแก้ไข`ChartType` พารามิเตอร์เมื่อเพิ่มแผนภูมิ โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับประเภทแผนภูมิที่มี
 
 ### ฉันสามารถปรับแต่งสีแผนภูมิได้หรือไม่
 

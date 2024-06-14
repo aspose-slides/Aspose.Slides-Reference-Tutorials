@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation(presPath))
 }
 ```
 ## Шаг 2. Настройте макет заметок
-Настройте расположение заметок на слайдах. В этом примере мы установили для позиции примечаний значение «BottomTruncated».
+Настройте расположение заметок на слайдах. В этом примере мы устанавливаем для позиции примечаний значение «BottomTruncated».
 ```csharp
 NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
 notesOptions.NotesPosition = NotesPositions.BottomTruncated;
@@ -69,4 +69,4 @@ pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(Run
 ### Вопрос: Могу ли я использовать пользовательские шрифты, не установленные в моей системе?
  О: Да, укажите путь к файлу шрифта с помощью`AddFonts` метод в`FontsLoader` сорт.
 ### Вопрос: Где я могу обратиться за помощью или связаться с сообществом?
-А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и участие сообщества.
+ А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и участие сообщества.

@@ -20,7 +20,7 @@ First, let's import the necessary packages to work with Aspose.Slides for Java. 
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Setup Your Project
 ### Creating a Java Project

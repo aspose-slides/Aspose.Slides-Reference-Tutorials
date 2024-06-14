@@ -31,7 +31,7 @@ url: /el/java/presentation-properties/access-modifying-properties-in-java-slides
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 String dataDir = "Your Document Directory";
-//Δημιουργήστε την κλάση Presentation που αντιπροσωπεύει το PPTX
+// Δημιουργήστε την κλάση Presentation που αντιπροσωπεύει το PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

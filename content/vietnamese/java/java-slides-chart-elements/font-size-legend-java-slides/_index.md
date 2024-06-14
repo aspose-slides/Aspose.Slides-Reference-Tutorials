@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Trong mã này, chúng tôi tạo một biểu đồ và đặt kích thước phông chữ của văn bản chú giải thành 20 điểm. Bạn có thể điều chỉnh`setFontHeight`giá trị để thay đổi kích thước phông chữ.
+ Trong mã này, chúng tôi tạo một biểu đồ và đặt kích thước phông chữ của văn bản chú giải thành 20 điểm. Bạn có thể điều chỉnh`setFontHeight` giá trị để thay đổi kích thước phông chữ.
 
 ### Tôi có thể tùy chỉnh các thuộc tính khác của chú giải trong biểu đồ không?
 
@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.Slides ở đâu?
 
-Bạn có thể tìm thấy tài liệu toàn diện và tài liệu tham khảo API cho Aspose.Slides for Java trên trang web tài liệu Aspose. Thăm nom[đây](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết về việc sử dụng thư viện.
+ Bạn có thể tìm thấy tài liệu toàn diện và tài liệu tham khảo API cho Aspose.Slides for Java trên trang web tài liệu Aspose. Thăm nom[đây](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết về việc sử dụng thư viện.

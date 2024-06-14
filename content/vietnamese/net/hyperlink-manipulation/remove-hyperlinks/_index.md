@@ -70,7 +70,7 @@ Nếu bạn thấy hướng dẫn này hữu ích, bạn có thể khám phá th
 
 ## Câu hỏi thường gặp (FAQ)
 
-### Tôi có thể xóa siêu liên kết một cách có chọn lọc khỏi các trang chiếu cụ thể trong bản trình bày của mình không?
+### Tôi có thể xóa các siêu liên kết một cách có chọn lọc khỏi các trang chiếu cụ thể trong bản trình bày của mình không?
 Vâng, bạn có thể. Aspose.Slides for .NET cung cấp các phương pháp để nhắm mục tiêu các trang chiếu hoặc hình dạng cụ thể và xóa siêu liên kết khỏi chúng.
 
 ### Aspose.Slides for .NET có tương thích với các định dạng tệp PowerPoint mới nhất không?

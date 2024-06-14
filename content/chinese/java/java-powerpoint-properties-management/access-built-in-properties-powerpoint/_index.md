@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置演示对象
 首先设置 Presentation 对象来表示您要处理的 PowerPoint 演示文稿。操作方法如下：

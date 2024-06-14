@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Ολοκληρώστε τον πηγαίο κώδικα για το γράφημα χαρτών σε διαφάνειες Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//δημιουργήστε κενό γράφημα

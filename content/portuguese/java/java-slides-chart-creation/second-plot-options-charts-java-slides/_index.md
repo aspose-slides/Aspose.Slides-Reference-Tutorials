@@ -26,7 +26,7 @@ Presentation presentation = new Presentation();
 ```
 
 ## Etapa 2: adicionar um gráfico a um slide
-A seguir, adicionaremos um gráfico a um slide. Neste exemplo, criaremos um gráfico de pizza:
+seguir, adicionaremos um gráfico a um slide. Neste exemplo, criaremos um gráfico de pizza:
 
 ```java
 // Adicionar gráfico no slide
@@ -84,7 +84,7 @@ Neste tutorial, aprendemos como adicionar segundas opções de plotagem a gráfi
 
 ### Como posso alterar o tamanho da segunda pizza em um gráfico de pizza?
 
- Para alterar o tamanho da segunda pizza em um gráfico de pizza, use o botão`setSecondPieSize` método conforme mostrado no exemplo de código acima. Ajuste o valor para especificar o tamanho em porcentagem.
+Para alterar o tamanho da segunda pizza em um gráfico de pizza, use o botão`setSecondPieSize` método conforme mostrado no exemplo de código acima. Ajuste o valor para especificar o tamanho em porcentagem.
 
 ###  O que`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ Neste tutorial, aprendemos como adicionar segundas opções de plotagem a gráfi
 
 ### Como defino a posição da divisão em um gráfico de pizza?
 
-Você pode definir a posição da divisão em um gráfico de pizza usando o botão`setPieSplitPosition` método. Ajuste o valor para especificar a posição desejada.
+ Você pode definir a posição da divisão em um gráfico de pizza usando o botão`setPieSplitPosition` método. Ajuste o valor para especificar a posição desejada.

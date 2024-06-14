@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 
 Aspose.Slides for .NET은 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있게 해주는 강력한 라이브러리입니다. 이 가이드에서는 Aspose.Slides를 사용하여 동일한 프레젠테이션 내에서 슬라이드를 복제하는 방법에 중점을 둘 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

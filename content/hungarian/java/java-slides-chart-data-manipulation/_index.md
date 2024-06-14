@@ -29,7 +29,7 @@ Az Aspose.Slides for Java integrálása a Java-alkalmazásokba zökkenőmentes. 
 ### [Adjon színt a Java Slides adatpontjaihoz](./add-color-data-points-java-slides/)
 Ismerje meg, hogyan adhat színt a Java diák adatpontjaihoz az Aspose.Slides for Java segítségével.
 ### [Egyéni hiba hozzáadása a Java Slides-hez](./add-custom-error-java-slides/)
-Ismerje meg, hogyan adhat egyéni hibasávokat a Java Slides PowerPoint diagramjaihoz az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
+Ismerje meg, hogyan adhat egyéni hibasávokat a PowerPoint diagramokhoz a Java Slides programban az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal az adatok pontos megjelenítéséhez.
 ### [Donut Callout hozzáadása a Java Slides-hez](./add-doughnut-callout-java-slides/)
 Ismerje meg, hogyan adhat hozzá fánkfeliratokat a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a továbbfejlesztett prezentációkhoz.
 ### [Hibasávok hozzáadása a Java Slides-hez](./add-error-bars-java-slides/)
@@ -38,7 +38,7 @@ Ismerje meg, hogyan adhat hozzá hibasávokat a PowerPoint diagramokhoz Java nye
 Ismerje meg, hogyan hozhat létre dinamikus diagramokat automatikus sorozatszínnel PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozatmentesen javíthatja az adatok megjelenítését.
 ### [Adott diagramsorozat adatpontok adatainak törlése a Java diákban](./clear-specific-chart-series-data-points-java-slides/)
 Ismerje meg, hogyan törölhet adott adatpontokat egy diagramsorozatból a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a hatékony adatvizualizációs kezeléshez.
-### [Alapértelmezett jelölők a diagramban a Java Slides-ben](./default-markers-in-chart-java-slides/)
+### [Alapértelmezett jelölők a diagramon a Java Slides-ben](./default-markers-in-chart-java-slides/)
 Ismerje meg, hogyan hozhat létre Java-diákat alapértelmezett jelölőkkel a diagramokon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 ### [Diagramadatok szerkesztése a Java Slides külső munkafüzetében](./edit-chart-data-external-workbook-java-slides/)
 Ismerje meg, hogyan szerkesztheti a diagramadatokat egy külső munkafüzetben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.

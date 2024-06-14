@@ -40,7 +40,7 @@ K načtení souboru prezentace použijte následující kód:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Váš kód pro načítání efektivních dat osvětlovacích zařízení je zde
+    //Váš kód pro načítání efektivních dat osvětlovacích zařízení je zde
 }
 ```
 ## Krok 4: Získejte data efektivního světelného zařízení

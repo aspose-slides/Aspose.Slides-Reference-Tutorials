@@ -14,7 +14,7 @@ I den här handledningen kommer vi att utforska hur man hanterar egenskaper och 
 
 ## Förutsättningar
 
- Innan vi börjar, se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
+Innan vi börjar, se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/slides/java/).
 
 ## Lägga till ett diagram till en bild
 
@@ -158,9 +158,9 @@ chart.getRotation3D().setRightAngleAxes(true);
 chart.getRotation3D().setRotationX((byte) 40);
 chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
-// Ta den andra diagramserien
+// Ta andra diagramserien
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Fyller nu på seriedata
+// Fyller nu på seriedata
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -175,13 +175,13 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-I den här handledningen grävde vi in i världen av att hantera egenskaper och skapa diagram i Java-bilder med Aspose.Slides. Aspose.Slides är ett robust Java API som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer effektivt. Vi täckte de väsentliga stegen och gav källkodsexempel för att guida dig genom processen.
+den här handledningen grävde vi in i världen av att hantera egenskaper och skapa diagram i Java-bilder med Aspose.Slides. Aspose.Slides är ett robust Java API som gör det möjligt för utvecklare att arbeta med PowerPoint-presentationer effektivt. Vi täckte de väsentliga stegen och gav källkodsexempel för att guida dig genom processen.
 
 ## FAQ's
 
 ### Hur kan jag ändra diagramtypen?
 
- Du kan ändra diagramtypen genom att ändra`ChartType`parameter när du lägger till diagrammet. Se Aspose.Slides-dokumentationen för tillgängliga diagramtyper.
+ Du kan ändra diagramtypen genom att ändra`ChartType` parameter när du lägger till diagrammet. Se Aspose.Slides-dokumentationen för tillgängliga diagramtyper.
 
 ### Kan jag anpassa diagramfärgerna?
 

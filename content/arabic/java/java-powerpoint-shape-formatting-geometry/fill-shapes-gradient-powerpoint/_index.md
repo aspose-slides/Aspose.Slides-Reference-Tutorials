@@ -11,7 +11,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 يعد إنشاء عروض PowerPoint التقديمية الجذابة بصريًا أمرًا بالغ الأهمية لجذب جمهورك. إحدى الطرق الفعالة لتحسين شرائحك هي ملء الأشكال بالتدرجات اللونية. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.Slides لـ Java لملء الأشكال بالتدرجات اللونية في PowerPoint. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستجد هذا الدليل مفيدًا وسهل المتابعة. دعنا نتعمق في عالم التدرجات ونرى كيف يمكنها تحويل عروضك التقديمية.
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
--  Java Development Kit (JDK): تأكد من تثبيت JDK. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): تأكد من تثبيت JDK. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides لـ Java: قم بتنزيل أحدث إصدار من[هنا](https://releases.aspose.com/slides/java/).
 - بيئة التطوير المتكاملة (IDE): بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse ستجعل تجربة البرمجة الخاصة بك أكثر سلاسة.
 - المعرفة الأساسية بجافا: الإلمام ببرمجة جافا أمر ضروري.
@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 للبدء مع Aspose.Slides، تحتاج إلى استيراد الحزم الضرورية. تأكد من إضافة Aspose.Slides for Java إلى تبعيات مشروعك.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

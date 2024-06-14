@@ -12,7 +12,7 @@ url: /ko/java/animation-and-layout/animating-categories-elements-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드의 카테고리 요소에 애니메이션을 적용하는 과정을 안내합니다. 이 단계별 가이드에서는 이 애니메이션 효과를 얻는 데 도움이 되는 소스 코드와 설명을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

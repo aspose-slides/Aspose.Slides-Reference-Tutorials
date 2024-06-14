@@ -8,21 +8,21 @@ weight: 14
 url: /nl/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
 ## Invoering
-Het wijzigen van OLE-objectgegevens in PowerPoint-presentaties kan een cruciale taak zijn wanneer u ingesloten inhoud moet bijwerken zonder elke dia handmatig te bewerken. Deze uitgebreide gids leidt u door het proces met Aspose.Slides voor Java, een krachtige bibliotheek die is ontworpen voor het verwerken van PowerPoint-presentaties. Of u nu een doorgewinterde ontwikkelaar bent of net begint, u zult deze tutorial nuttig en gemakkelijk te volgen vinden.
+Het wijzigen van OLE-objectgegevens in PowerPoint-presentaties kan een cruciale taak zijn wanneer u ingesloten inhoud moet bijwerken zonder elke dia handmatig te bewerken. Deze uitgebreide gids leidt u door het proces met Aspose.Slides voor Java, een krachtige bibliotheek ontworpen voor het verwerken van PowerPoint-presentaties. Of u nu een doorgewinterde ontwikkelaar bent of net begint, u zult deze tutorial nuttig en gemakkelijk te volgen vinden.
 ## Vereisten
 Voordat we in de code duiken, zorgen we ervoor dat u alles heeft wat u nodig heeft om aan de slag te gaan.
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden van[Oracle-site](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides voor Java: Download de nieuwste versie van de[Aspose.Slides downloadpagina](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): U kunt elke Java IDE gebruiken, zoals IntelliJ IDEA, Eclipse of NetBeans.
 4.  Aspose.Cells voor Java: Dit is vereist om de ingebedde gegevens in het OLE-object te wijzigen. Download het van[Aspose.Cells downloadpagina](https://releases.aspose.com/cells/java/).
-5. Presentatiebestand: Zorg ervoor dat u een PowerPoint-bestand bij de hand heeft met een ingesloten OLE-object. Laten we deze tutorial een naam geven`ChangeOLEObjectData.pptx`.
+5.  Presentatiebestand: Zorg ervoor dat u een PowerPoint-bestand bij de hand heeft met een ingesloten OLE-object. Laten we deze tutorial een naam geven`ChangeOLEObjectData.pptx`.
 ## Pakketten importeren
 Laten we eerst de benodigde pakketten in uw Java-project importeren.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

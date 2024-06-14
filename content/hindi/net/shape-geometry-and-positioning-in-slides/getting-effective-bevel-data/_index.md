@@ -8,7 +8,7 @@ weight: 20
 url: /hi/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
 ## परिचय
-Aspose.Slides for .NET की आकर्षक दुनिया में आपका स्वागत है, जो बेजोड़ आसानी से शानदार प्रेजेंटेशन बनाने का आपका प्रवेश द्वार है। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड में आकृतियों के लिए प्रभावी बेवल डेटा प्राप्त करने की पेचीदगियों पर चर्चा करेंगे।
+Aspose.Slides for .NET की आकर्षक दुनिया में आपका स्वागत है, यह आपके लिए अद्वितीय आसानी से शानदार प्रेजेंटेशन बनाने का प्रवेश द्वार है। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड में आकृतियों के लिए प्रभावी बेवल डेटा प्राप्त करने की पेचीदगियों पर चर्चा करेंगे।
 ## आवश्यक शर्तें
 इससे पहले कि हम इस रोमांचक यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 1.  Aspose.Slides for .NET लाइब्रेरी: लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- प्रतिस्थापन सुनिश्चित करें`"Your Document Directory"`उस पथ के साथ जहां आप अपनी प्रस्तुति फ़ाइलें संग्रहीत करना चाहते हैं.
+ प्रतिस्थापन सुनिश्चित करें`"Your Document Directory"` उस पथ के साथ जहां आप अपनी प्रस्तुति फ़ाइलें संग्रहीत करना चाहते हैं.
 ## चरण 2: प्रस्तुति लोड करें
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

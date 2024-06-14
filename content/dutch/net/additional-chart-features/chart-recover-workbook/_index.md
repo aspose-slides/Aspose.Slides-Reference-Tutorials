@@ -63,7 +63,7 @@ using (Presentation pres = new Presentation(pptxFile, lo))
 }
 ```
 
-In deze stap laadt u de PowerPoint-presentatie vanuit het opgegeven bestand en schakelt u werkmapherstel in vanuit de diagramcache. De`LoadOptions` Hiervoor wordt een object gebruikt.
+In deze stap laadt u de PowerPoint-presentatie vanuit het opgegeven bestand en schakelt u werkmapherstel in vanuit de diagramcache. De`LoadOptions` Hiervoor wordt een voorwerp gebruikt.
 
 ## Stap 3: Toegang tot en werken met de diagramgegevens
 

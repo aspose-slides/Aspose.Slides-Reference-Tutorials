@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第1步：定義Main方法
 建立一個 main 方法，您將在其中啟動使用新範本更新簡報屬性的過程。此方法可作為 Java 應用程式的入口點。

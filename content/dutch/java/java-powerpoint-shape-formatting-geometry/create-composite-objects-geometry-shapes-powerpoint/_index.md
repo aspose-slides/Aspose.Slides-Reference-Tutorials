@@ -19,12 +19,12 @@ Voordat we ingaan op de code, zijn er een paar dingen die je nodig hebt:
 Laten we eerst de benodigde pakketten importeren om aan de slag te gaan met Aspose.Slides voor Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Het maken van samengestelde objecten klinkt misschien ingewikkeld, maar door het in beheersbare stappen op te delen, zult u merken dat het eenvoudiger is dan u denkt. We maken een PowerPoint-presentatie, voegen een vorm toe en definiëren en passen vervolgens meerdere geometrische paden toe om een samengestelde vorm te vormen.
 ## Stap 1: Stel uw project in
-Voordat u code schrijft, moet u uw Java-project instellen. Maak een nieuw project in uw IDE en voeg Aspose.Slides voor Java toe. U kunt de bibliotheek toevoegen met Maven of het JAR-bestand downloaden van de[Aspose.Slides downloadpagina](https://releases.aspose.com/slides/java/).
+ Voordat u code schrijft, moet u uw Java-project instellen. Maak een nieuw project in uw IDE en voeg Aspose.Slides voor Java toe. U kunt de bibliotheek toevoegen met Maven of het JAR-bestand downloaden van de[Aspose.Slides downloadpagina](https://releases.aspose.com/slides/java/).
 ### Aspose.Slides aan uw project toevoegen met Maven
  Als u Maven gebruikt, voegt u de volgende afhankelijkheid toe aan uw`pom.xml` bestand:
 ```xml
@@ -35,10 +35,10 @@ Voordat u code schrijft, moet u uw Java-project instellen. Maak een nieuw projec
 </dependency>
 ```
 ## Stap 2: Initialiseer de presentatie
- Laten we nu een nieuwe PowerPoint-presentatie maken. We beginnen met het initialiseren van de`Presentation` klas.
+Laten we nu een nieuwe PowerPoint-presentatie maken. We beginnen met het initialiseren van de`Presentation` klas.
 ```java
 // Naam van uitvoerbestand
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## Stap 3: Maak een nieuwe vorm
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Stap 7: Sla de presentatie op
 Sla ten slotte uw presentatie op in een bestand.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Stap 8: Bronnen opruimen

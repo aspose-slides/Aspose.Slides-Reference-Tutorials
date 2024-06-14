@@ -22,7 +22,7 @@ url: /th/net/presentation-manipulation/export-media-files-to-html-from-presentat
 
 ## 3. กำลังโหลดการนำเสนอ
 
-ในการเริ่มต้น คุณจะต้องโหลดงานนำเสนอ PowerPoint ที่คุณต้องการแปลงเป็น HTML คุณจะต้องระบุไดเร็กทอรีเอาต์พุตที่จะบันทึกไฟล์ HTML ด้วย นี่คือโค้ดสำหรับโหลดงานนำเสนอ:
+ในการเริ่มต้น คุณจะต้องโหลดงานนำเสนอ PowerPoint ที่คุณต้องการแปลงเป็น HTML คุณจะต้องระบุไดเร็กทอรีเอาต์พุตที่จะบันทึกไฟล์ HTML ด้วย นี่คือรหัสสำหรับการโหลดงานนำเสนอ:
 
 ```csharp
 string dataDir = "Your Document Directory";

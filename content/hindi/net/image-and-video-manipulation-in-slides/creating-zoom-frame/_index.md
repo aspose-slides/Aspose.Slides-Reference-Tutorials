@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## चरण 3: स्लाइड पृष्ठभूमि अनुकूलित करें
 अपनी स्लाइड्स की पृष्ठभूमि को अनुकूलित करके उनकी दृश्य अपील को बढ़ाएँ। इस उदाहरण में, हमने दूसरी स्लाइड के लिए एक ठोस सियान पृष्ठभूमि सेट की है।
 ```csharp
-//दूसरी स्लाइड के लिए पृष्ठभूमि बनाएँ
+// दूसरी स्लाइड के लिए पृष्ठभूमि बनाएँ
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

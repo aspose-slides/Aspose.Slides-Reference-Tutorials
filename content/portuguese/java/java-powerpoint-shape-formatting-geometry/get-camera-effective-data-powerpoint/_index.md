@@ -12,15 +12,15 @@ Aspose.Slides for Java é uma biblioteca poderosa que permite aos desenvolvedore
 ## Pré-requisitos
 Antes de começarmos, existem alguns pré-requisitos que você precisa ter em vigor:
 1. Java Development Kit (JDK): Certifique-se de ter o JDK 8 ou superior instalado em sua máquina.
-2. Biblioteca Aspose.Slides para Java: Baixe a versão mais recente do[local na rede Internet](https://releases.aspose.com/slides/java/).
+2.  Biblioteca Aspose.Slides para Java: Baixe a versão mais recente do[local na rede Internet](https://releases.aspose.com/slides/java/).
 3. Ambiente de Desenvolvimento Integrado (IDE): Use um IDE como IntelliJ IDEA ou Eclipse para uma experiência de codificação mais tranquila.
-4.  Exemplo de arquivo PowerPoint: tenha um arquivo PowerPoint (por exemplo,`Presentation1.pptx`) pronto para testar o código.
+4.  Exemplo de arquivo PowerPoint: tenha um arquivo PowerPoint (por exemplo,`Presentation1.pptx`pronto para testar o código.
 ## Importar pacotes
 Primeiro, vamos importar os pacotes necessários para trabalhar com Aspose.Slides for Java. Essas importações nos permitirão gerenciar apresentações e acessar suas propriedades.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Etapa 1: configure seu projeto
 ### Criando um projeto Java
@@ -58,7 +58,7 @@ System.out.println("Zoom: " + threeDEffectiveData.getCamera().getZoom());
 if (pres != null) pres.dispose();
 ```
 ## Conclusão
-aí está! Seguindo essas etapas, você recuperou com êxito os dados efetivos da câmera de um slide do PowerPoint usando Aspose.Slides para Java. Esta poderosa biblioteca oferece amplos recursos para gerenciamento de apresentações, e este exemplo é apenas o começo. Explore mais para automatizar e aprimorar suas tarefas de processamento do PowerPoint.
+E aí está! Seguindo essas etapas, você recuperou com êxito os dados efetivos da câmera de um slide do PowerPoint usando Aspose.Slides para Java. Esta poderosa biblioteca oferece amplos recursos para gerenciamento de apresentações, e este exemplo é apenas o começo. Explore mais para automatizar e aprimorar suas tarefas de processamento do PowerPoint.
 ## Perguntas frequentes
 ### Posso usar Aspose.Slides for Java com outras linguagens de programação?
 Aspose.Slides está disponível para várias linguagens de programação, incluindo .NET, mas este guia se concentra na versão Java.

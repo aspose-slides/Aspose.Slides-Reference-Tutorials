@@ -10,7 +10,7 @@ url: /ko/net/chart-creation-and-customization/get-base-placeholder-example/
 
 .NET 개발 세계에서는 역동적이고 매력적인 PowerPoint 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. Aspose.Slides for .NET은 개발자가 PowerPoint 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 시작하는 과정을 안내하고 각 예를 여러 단계로 나누어 설명합니다. 이 튜토리얼을 마치면 .NET용 Aspose.Slides의 기능을 활용하여 멋진 프레젠테이션을 만들 수 있는 준비를 갖추게 될 것입니다. 뛰어들어보자!
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -18,7 +18,7 @@ url: /ko/net/chart-creation-and-customization/get-base-placeholder-example/
 
 2.  Aspose.Slides for .NET Library: 웹사이트에서 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
 
-3. 문서 디렉터리: 프리젠테이션 파일을 저장할 디렉터리가 있습니다.
+3. 문서 디렉토리: 프리젠테이션 파일을 저장할 디렉토리가 있습니다.
 
 ## 네임스페이스 가져오기
 

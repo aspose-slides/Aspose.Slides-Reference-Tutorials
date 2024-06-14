@@ -16,7 +16,7 @@ Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーション
 
 始める前に、次の前提条件を満たしていることを確認してください。
 
-- マシンに Visual Studio がインストールされている
+- お使いのマシンに Visual Studio がインストールされている
 - C# および .NET フレームワークの基礎知識
 - Aspose.Slides for .NETライブラリ（ダウンロードはこちら）[ここ](https://releases.aspose.com/slides/net/)
 
@@ -83,7 +83,7 @@ Aspose.Slides for .NET を使用して、スライドを別のプレゼンテー
 
 もちろんです! Aspose.Slides for .NET には、PowerPoint プレゼンテーションをプログラムで作成、編集、操作するための幅広い機能が備わっています。
 
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 
 はい、Aspose.Slides はさまざまなバージョンの PowerPoint と互換性のあるプレゼンテーションを生成するため、シームレスな互換性が保証されます。
 

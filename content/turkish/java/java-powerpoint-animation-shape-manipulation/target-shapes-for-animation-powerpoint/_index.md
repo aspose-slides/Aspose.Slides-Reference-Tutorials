@@ -21,7 +21,7 @@ Başlamak için gerekli paketleri Java projenize aktarın:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Sunum Dosyasını Ayarlayın
 Kaynak sunum dosyanızın yolunu belirterek başlayın:

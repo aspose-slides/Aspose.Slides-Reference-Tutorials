@@ -2,7 +2,7 @@
 title: 在 Java 幻灯片中转换为 SWF
 linktitle: 在 Java 幻灯片中转换为 SWF
 second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 SWF 格式。按照我们的分步指南和源代码进行无缝转换。
+description: 使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 SWF 格式。按照带有源代码的分步指南进行无缝转换。
 type: docs
 weight: 35
 url: /zh/java/presentation-conversion/convert-to-swf-java-slides/

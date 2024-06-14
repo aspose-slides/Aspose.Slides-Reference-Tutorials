@@ -21,7 +21,7 @@ Innanzitutto, devi importare i pacchetti necessari da Aspose.Slides per Java nel
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: imposta il tuo progetto
 Per iniziare, configura il tuo progetto Java nel tuo IDE preferito e includi la libreria Aspose.Slides nelle dipendenze del tuo progetto.

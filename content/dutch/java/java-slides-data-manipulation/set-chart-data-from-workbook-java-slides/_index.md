@@ -23,7 +23,7 @@ Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgend
 ## Stap 1: Maak een presentatie
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ We verwijderen alle bestaande gegevens uit het diagram om deze voor te bereiden 
 ## Stap 4: Excel-werkmap laden
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  We laden de Excel-werkmap die de gegevens bevat die we voor het diagram willen gebruiken. Vervangen`"book1.xlsx"` met het pad naar uw Excel-bestand.
@@ -79,7 +79,7 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getParentSeriesGroup().setColorVaried(true);
 ```
 
-kunt verschillende eigenschappen van de diagramreeks aanpassen aan uw vereisten. In dit voorbeeld schakelen we gevarieerde kleuren in voor de diagramreeksen.
+U kunt verschillende eigenschappen van de diagramreeks aanpassen aan uw vereisten. In dit voorbeeld schakelen we gevarieerde kleuren in voor de diagramreeksen.
 
 ## Stap 8: Sla de presentatie op
 
@@ -92,14 +92,14 @@ Ten slotte slaan we de presentatie met de bijgewerkte grafiekgegevens op in het 
 ## Volledige broncode voor ingestelde grafiekgegevens uit de werkmap in Java-dia's
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

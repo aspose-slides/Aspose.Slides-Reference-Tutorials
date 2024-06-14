@@ -12,13 +12,13 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 ## आवश्यक शर्तें
 आरंभ करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 1.  जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट स्थापित है। आप नवीनतम संस्करण को डाउनलोड करके इंस्टॉल कर सकते हैं।[वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java लाइब्रेरी: अपने Java प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और शामिल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java लाइब्रेरी: अपने Java प्रोजेक्ट में Aspose.Slides for Java लाइब्रेरी डाउनलोड करें और शामिल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
 
 ## पैकेज आयात करें
 आरंभ करने के लिए, आपको अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करने होंगे। ये पैकेज Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों के साथ काम करने के लिए आवश्यक कार्यक्षमताएँ प्रदान करते हैं।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: प्रस्तुति लोड करें
  सबसे पहले, आपको उन आकृतियों वाली पावरपॉइंट प्रस्तुति को लोड करना होगा जिन्हें आप क्लोन करना चाहते हैं।`Presentation` स्रोत प्रस्तुति को लोड करने के लिए क्लास का उपयोग करें।

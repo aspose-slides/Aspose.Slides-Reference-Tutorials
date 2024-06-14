@@ -53,7 +53,7 @@ TiffOptions opts = new TiffOptions();
 // Ställa in komprimeringstyp
 opts.setCompressionType(TiffCompressionTypes.Default);
 
-// Ställa in bild DPI
+// Ställa in bild-DPI
 opts.setDpiX(200);
 opts.setDpiY(100);
 
@@ -98,7 +98,7 @@ try
 	// RLE
 	// Djupet beror på komprimeringstypen och kan inte ställas in manuellt.
 	// Upplösningsenhet är alltid lika med "2" (punkter per tum)
-	// Ställa in bild DPI
+	// Ställa in bild-DPI
 	opts.setDpiX(200);
 	opts.setDpiY(100);
 	// Ställ in bildstorlek

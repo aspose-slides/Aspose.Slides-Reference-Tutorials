@@ -12,13 +12,13 @@ Att lägga till en OLE (Object Linking and Embedding)-objektram i PowerPoint-pre
 ### Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 1. Java Development Environment: Se till att du har Java Development Kit (JDK) installerat på ditt system.
-2. Aspose.Slides för Java: Ladda ner och installera Aspose.Slides för Java från webbplatsen[här](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides för Java: Ladda ner och installera Aspose.Slides för Java från webbplatsen[här](https://releases.aspose.com/slides/java/).
 3. Grundläggande förståelse för Java-programmering: Bekanta dig med Java-programmeringskoncept och -syntax.
 ## Importera paket
 För det första måste du importera de nödvändiga paketen för att utnyttja funktionerna i Aspose.Slides för Java. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Se till att ditt projekt är korrekt konfigurerat och att Aspose.Slides-bibliote
 Skapa ett presentationsobjekt för att representera PowerPoint-filen du arbetar med:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instantiate Presentation-klass som representerar PPTX
 Presentation pres = new Presentation();
 ```

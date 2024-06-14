@@ -60,7 +60,7 @@ if (series.get_Item(0).getOverlap() == 0)
 presentation.save(dataDir + "SetChartSeriesOverlap_out.pptx", SaveFormat.Pptx);
 ```
 
-## أكمل كود المصدر لتعيين تداخل سلسلة المخططات في شرائح Java
+## كود المصدر الكامل لتعيين تداخل سلسلة المخططات في شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.

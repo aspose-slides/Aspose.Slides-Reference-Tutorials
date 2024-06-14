@@ -60,7 +60,7 @@ chartData.getCategories().add(chartData.getChartDataWorkbook().getCell(0, "A4"))
 
 Συνδέουμε το γράφημα με δεδομένα από το εξωτερικό βιβλίο εργασίας καθορίζοντας τις αναφορές κελιών για σειρές και κατηγορίες.
 
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 ```java
 pres.save(dataDir + "Presentation_with_externalWorkbook.pptx", SaveFormat.Pptx);

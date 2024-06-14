@@ -74,6 +74,6 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ### أين يمكنني العثور على المزيد من الدروس والأمثلة؟
  استكشف وثائق Aspose.Slides[هنا](https://reference.aspose.com/slides/net/) للحصول على دروس وأمثلة شاملة.
 ### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides[هنا](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم إذا واجهت مشاكل؟
  قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لدعم المجتمع ومساعدته.

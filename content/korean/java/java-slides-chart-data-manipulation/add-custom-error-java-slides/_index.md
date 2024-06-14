@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/add-custom-error-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 차트에 사용자 정의 오류 막대를 추가하는 방법을 배웁니다. 오차 막대는 차트에서 데이터 포인트의 변동성 또는 불확실성을 표시하는 데 유용합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -149,4 +149,4 @@ finally
 
 ### 특정 데이터 포인트에 대한 오류 막대를 숨길 수 있습니까?
 
-예.`setVisible` 의 재산`IErrorBarsFormat` 물체.
+ 예.`setVisible` 의 재산`IErrorBarsFormat` 물체.

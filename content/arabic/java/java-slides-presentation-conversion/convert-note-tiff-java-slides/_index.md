@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## الخطوة 2: إعداد خيارات العرض التقديمي وTIFF
 
-حدد المسار إلى ملف العرض التقديمي الخاص بك (`ConvertWithNoteToTiff.pptx` ) وإنشاء`Presentation` هدف. ثم قم بتكوين`TiffOptions` للتحويل.
+حدد المسار إلى ملف العرض التقديمي الخاص بك (`ConvertWithNoteToTiff.pptx` ) وإنشاء`Presentation` هدف. ثم قم بتكوين`TiffOptions`للتحويل.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -98,7 +98,7 @@ finally
 
 ### هل يمكنني تحويل عروض PowerPoint التقديمية إلى تنسيقات أخرى أيضًا؟
 
-نعم، يدعم Aspose.Slides for Java نطاقًا واسعًا من تنسيقات الإخراج، بما في ذلك تنسيقات PDF وHTML وتنسيقات الصور مثل TIFF وPNG.
+نعم، يدعم Aspose.Slides for Java مجموعة واسعة من تنسيقات الإخراج، بما في ذلك تنسيقات PDF وHTML وتنسيقات الصور مثل TIFF وPNG.
 
 ### ماذا لو لم يكن عرض PowerPoint التقديمي الخاص بي يحتوي على ملاحظات؟
 

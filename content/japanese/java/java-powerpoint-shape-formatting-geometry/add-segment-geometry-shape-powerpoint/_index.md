@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 まず最初に、Aspose.Slides から必要なパッケージをインポートする必要があります。これにより、PowerPoint プレゼンテーションの作成と操作に必要なすべての機能にアクセスできるようになります。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 明確さと理解しやすさを確保するために、ジオメトリ シェイプにセグメントを追加するプロセスを詳細な手順に分解してみましょう。
 ## ステップ1: 新しいプレゼンテーションを作成する

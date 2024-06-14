@@ -14,7 +14,7 @@ Dalam dunia pengembangan .NET, Aspose.Slides adalah perpustakaan yang kuat dan s
 
 Sebelum kita mempelajari proses perizinan, Anda harus memiliki prasyarat berikut:
 
-1.  Aspose.Slides for .NET: Pastikan Anda telah menginstal Aspose.Slides for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[tautan unduhan](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Pastikan Anda telah menginstal Aspose.Slides for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[tautan unduhan](https://releases.aspose.com/slides/net/).
 
 2.  File Lisensi: Dapatkan file lisensi Aspose.Slides yang valid, biasanya bernama "Aspose.Slides.lic." Anda dapat memperoleh lisensi dari[Asumsikan situs web](https://purchase.aspose.com/buy) atau meminta a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
 
@@ -58,7 +58,7 @@ Setelah mengatur jalur file lisensi, penting untuk memastikan bahwa lisensi Anda
 
 ### Langkah 4: Validasi Lisensi
 
-Untuk memeriksa apakah lisensi Anda valid, gunakan`IsLicensed` metode. Ini mengembalikan nilai boolean yang menunjukkan apakah lisensi Anda aktif.
+ Untuk memeriksa apakah lisensi Anda valid, gunakan`IsLicensed` metode. Ini mengembalikan nilai boolean yang menunjukkan apakah lisensi Anda aktif.
 
 ```csharp
 if (license.IsLicensed())

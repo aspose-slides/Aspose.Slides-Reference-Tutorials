@@ -16,7 +16,7 @@ url: /zh-hant/java/presentation-conversion/convert-html-embedding-images-java-sl
 
 在我們開始之前，請確保您具備以下條件：
 
-1. Aspose.Slides for Java 程式庫已安裝。您可以從以下位置下載：[這裡](https://downloads.aspose.com/slides/java).
+1.  Aspose.Slides for Java 程式庫已安裝。您可以從以下位置下載：[這裡](https://downloads.aspose.com/slides/java).
 
 2. 若要轉換為 HTML 的 PowerPoint 簡報檔案（PPTX 格式）。
 
@@ -87,9 +87,9 @@ if (pres != null) {
 
 ```java
 //源演示的路徑
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 //HTML 文件的路徑
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
@@ -110,7 +110,7 @@ try {
 
 ## 結論
 
-在這份綜合指南中，我們學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML 文件，同時嵌入圖片。透過遵循逐步說明，您可以將此功能無縫整合到您的 Java 應用程式中並增強您的文件轉換流程。
+在本綜合指南中，我們學習如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML 文件，同時嵌入圖片。透過遵循逐步說明，您可以將此功能無縫整合到您的 Java 應用程式中並增強您的文件轉換流程。
 
 ## 常見問題解答
 

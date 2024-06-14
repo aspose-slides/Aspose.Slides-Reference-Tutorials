@@ -18,7 +18,7 @@ url: /el/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 Εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

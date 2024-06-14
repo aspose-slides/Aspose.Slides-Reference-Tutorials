@@ -21,7 +21,7 @@ Bevor wir mit der Implementierung beginnen, stellen Sie sicher, dass die folgend
 
 ## 1. Einführung in Aspose.Slides für .NET
 
-Aspose.Slides für .NET ist eine funktionsreiche Bibliothek, mit der Entwickler PowerPoint-Präsentationen erstellen, ändern und bearbeiten können, ohne Microsoft Office zu benötigen. Sie bietet eine breite Palette an Funktionen, darunter Folienklonen, Textbearbeitung, Formatierung und mehr.
+Aspose.Slides für .NET ist eine funktionsreiche Bibliothek, mit der Entwickler PowerPoint-Präsentationen erstellen, ändern und bearbeiten können, ohne Microsoft Office zu benötigen. Es bietet eine breite Palette an Funktionen, darunter Folienklonen, Textbearbeitung, Formatierung und mehr.
 
 ## 2. Laden der Quell- und Zielpräsentationen
 
@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Nachdem die Folie geklont und an der gewünschten Stelle eingefügt wurde, müssen Sie die geänderte Zielpräsentation speichern. Verwenden Sie den folgenden Code, um die Präsentation zu speichern:
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Fügen Sie die geklonte Folie an der angegebenen Position ein
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Speichern der geänderten Präsentation
+            //Speichern der geänderten Präsentation
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

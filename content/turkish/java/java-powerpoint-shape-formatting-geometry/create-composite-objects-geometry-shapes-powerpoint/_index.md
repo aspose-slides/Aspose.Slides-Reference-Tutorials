@@ -19,12 +19,12 @@ Koda geçmeden önce ihtiyacınız olacak birkaç şey var:
 Öncelikle Aspose.Slides for Java'yı kullanmaya başlamak için gerekli paketleri içe aktaralım.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Bileşik nesneler oluşturmak karmaşık görünebilir, ancak bunu yönetilebilir adımlara böldüğünüzde düşündüğünüzden daha kolay olduğunu göreceksiniz. Bir PowerPoint sunusu oluşturacağız, bir şekil ekleyeceğiz ve ardından bileşik bir şekil oluşturmak için birden fazla geometri yolu tanımlayıp uygulayacağız.
 ## 1. Adım: Projenizi Kurun
-Herhangi bir kod yazmadan önce Java projenizi ayarlayın. IDE'nizde yeni bir proje oluşturun ve Aspose.Slides for Java'yı ekleyin. Kütüphaneyi Maven kullanarak ekleyebilir veya JAR dosyasını şuradan indirebilirsiniz:[Aspose.Slides indirme sayfası](https://releases.aspose.com/slides/java/).
+ Herhangi bir kod yazmadan önce Java projenizi ayarlayın. IDE'nizde yeni bir proje oluşturun ve Aspose.Slides for Java'yı ekleyin. Kütüphaneyi Maven kullanarak ekleyebilir veya JAR dosyasını şuradan indirebilirsiniz:[Aspose.Slides indirme sayfası](https://releases.aspose.com/slides/java/).
 ### Maven Kullanarak Projenize Aspose.Slides Ekleme
  Maven kullanıyorsanız aşağıdaki bağımlılığı ekleyin:`pom.xml` dosya:
 ```xml
@@ -35,10 +35,10 @@ Herhangi bir kod yazmadan önce Java projenizi ayarlayın. IDE'nizde yeni bir pr
 </dependency>
 ```
 ## Adım 2: Sunumu Başlatın
- Şimdi yeni bir PowerPoint sunumu oluşturalım. Başlatarak başlayacağız`Presentation` sınıf.
+Şimdi yeni bir PowerPoint sunumu oluşturalım. Başlatarak başlayacağız`Presentation` sınıf.
 ```java
 // Çıkış dosyası adı
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## 3. Adım: Yeni Bir Şekil Oluşturun
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## Adım 7: Sunuyu Kaydet
 Son olarak sununuzu bir dosyaya kaydedin.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Adım 8: Kaynakları Temizleyin

@@ -84,12 +84,12 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java zweite
 
 ### Wie kann ich die Größe des zweiten Kreises in einem Kreis-aus-Kreis-Diagramm ändern?
 
- Um die Größe des zweiten Kreises in einem Kreis-aus-Kreis-Diagramm zu ändern, verwenden Sie die`setSecondPieSize` Methode wie im obigen Codebeispiel gezeigt. Passen Sie den Wert an, um die Größe in Prozent anzugeben.
+Um die Größe des zweiten Kreises in einem Kreis-aus-Kreis-Diagramm zu ändern, verwenden Sie die`setSecondPieSize` Methode wie im obigen Codebeispiel gezeigt. Passen Sie den Wert an, um die Größe in Prozent anzugeben.
 
 ###  Was macht`PieSplitBy` control in a Pie of Pie chart?
 
  Der`PieSplitBy` Eigenschaft steuert, wie das Kreisdiagramm aufgeteilt wird. Sie können es auf entweder`PieSplitType.ByPercentage` oder`PieSplitType.ByValue` um das Diagramm prozentual bzw. nach einem bestimmten Wert aufzuteilen.
 
-### Wie lege ich die Position der Teilung in einem Kreis-auf-Kreis-Diagramm fest?
+### Wie lege ich die Position der Teilung in einem Kreis-von-Kreis-Diagramm fest?
 
-Sie können die Position der Teilung in einem Kreisdiagramm mit dem`setPieSplitPosition` Methode. Passen Sie den Wert an, um die gewünschte Position anzugeben.
+ Sie können die Position der Teilung in einem Kreisdiagramm mit dem`setPieSplitPosition` Methode. Passen Sie den Wert an, um die gewünschte Position anzugeben.

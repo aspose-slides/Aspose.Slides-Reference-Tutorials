@@ -58,7 +58,7 @@ presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
 Nu när vi har skapat vår presentation och ställt in vytypen är det dags att spara presentationen. Vi sparar det i PPTX-format. Här är koden:
 
 ```java
-// Sparar presentation
+// Sparar presentationen
 presentation.save(dataDir + "SetViewType_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -75,7 +75,7 @@ try
 {
 	// Ställa in vytyp
 	presentation.getViewProperties().setLastView(ViewType.SlideMasterView);
-	// Sparar presentation
+	// Sparar presentationen
 	presentation.save(dataDir + "SetViewType_out.pptx", SaveFormat.Pptx);
 }
 finally

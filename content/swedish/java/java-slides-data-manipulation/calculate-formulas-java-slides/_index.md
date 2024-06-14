@@ -25,7 +25,7 @@ Innan du börjar, se till att du har följande:
 Låt oss först skapa en ny PowerPoint-presentation och lägga till en bild till den. Vi kommer att arbeta med en enda bild i detta exempel.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Komplett källkod för att beräkna formler i Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

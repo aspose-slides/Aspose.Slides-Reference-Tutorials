@@ -169,4 +169,4 @@ Vous avez réussi à convertir des diapositives individuelles d'une présentatio
 
 ### Comment gérer une mise en forme supplémentaire pour les formes et le texte dans les diapositives ?
 
-Vous pouvez prolonger le`CustomFormattingController` classe pour gérer le formatage spécifique à la forme en implémentant la`writeShapeStart` et`writeShapeEnd` méthodes et en leur appliquant une logique de formatage personnalisée.
+ Vous pouvez prolonger le`CustomFormattingController` classe pour gérer le formatage spécifique à la forme en implémentant la`writeShapeStart` et`writeShapeEnd` méthodes et en leur appliquant une logique de formatage personnalisée.

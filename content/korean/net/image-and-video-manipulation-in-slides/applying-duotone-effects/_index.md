@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
 ## 소개
 시각적으로 멋진 프레젠테이션 슬라이드를 만드는 것은 청중의 관심을 끄는 데 필수적입니다. 슬라이드를 향상시키는 효과적인 방법 중 하나는 이중톤 효과를 적용하는 것입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 이중톤 효과를 적용하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Slides: 다음에서 Aspose.Slides 라이브러리를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/net/).
 2. 미디어 파일: 듀오톤 효과에 사용할 미디어 파일(예: "aspose-logo.jpg")을 준비합니다.

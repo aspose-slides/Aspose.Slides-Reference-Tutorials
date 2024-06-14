@@ -67,10 +67,10 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
 ## 5. Сохранение измененной презентации
 
-После того как слайд будет клонирован и вставлен в нужное место, вам необходимо сохранить измененную целевую презентацию. Используйте следующий код, чтобы сохранить презентацию:
+После того как слайд клонирован и вставлен в нужное место, вам необходимо сохранить измененную целевую презентацию. Используйте следующий код, чтобы сохранить презентацию:
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Вставьте клонированный слайд в указанную позицию.
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Сохраните измененную презентацию
+            //Сохраните измененную презентацию
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

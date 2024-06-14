@@ -20,7 +20,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-c
 要開始使用 Aspose.Slides for Java，您需要匯入必要的套件。您可以這樣做：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 第 1 步：設定您的項目
@@ -73,7 +73,7 @@ presentation.save(dataDir + "RectShpSolid_out.pptx", SaveFormat.Pptx);
 ```
 
 ## 結論
-現在你就得到它了！您已使用 Aspose.Slides for Java 在 PowerPoint 簡報中成功地用純色填滿了形狀。該庫提供了一組強大的功能，可幫助您輕鬆自動化和自訂簡報。無論您是產生報告、創建教育材料還是設計商業幻燈片，Aspose.Slides for Java 都是一個非常寶貴的工具。
+現在你就擁有了！您已使用 Aspose.Slides for Java 在 PowerPoint 簡報中成功地用純色填滿了形狀。該庫提供了一組強大的功能，可幫助您輕鬆自動化和自訂簡報。無論您是產生報告、創建教育材料還是設計商業幻燈片，Aspose.Slides for Java 都是一個非常寶貴的工具。
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的函式庫，用於在 Java 中處理 PowerPoint 簡報。它允許您以程式設計方式建立、修改和轉換簡報。

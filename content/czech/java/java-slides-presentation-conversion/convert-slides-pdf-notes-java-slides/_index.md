@@ -115,7 +115,7 @@ Chcete-li nainstalovat Aspose.Slides for Java, postupujte takto:
 
 ### Existují nějaké licenční požadavky pro používání Aspose.Slides pro Java?
 
-Ano, Aspose.Slides for Java je komerční knihovna a možná budete muset získat licenci, abyste ji mohli používat v produkci. Navštivte web Aspose pro podrobnosti o licencích.
+Ano, Aspose.Slides for Java je komerční knihovna a možná budete muset získat licenci, abyste ji mohli používat v produkci. Podrobnosti o licencích najdete na webu Aspose.
 
 ### Mohu převést více snímků najednou?
 

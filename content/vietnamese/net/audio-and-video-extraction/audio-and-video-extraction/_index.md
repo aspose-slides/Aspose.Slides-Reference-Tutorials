@@ -128,10 +128,10 @@ Có, Aspose.Slides for .NET hỗ trợ các định dạng PowerPoint mới nh�
 Có, bạn có thể sửa đổi mã để lặp qua nhiều trang trình bày và trích xuất đa phương tiện từ mỗi trang trình bày.
 
 ### Có bất kỳ tùy chọn cấp phép nào cho Aspose.Slides cho .NET không?
- Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm bản dùng thử miễn phí và giấy phép tạm thời. Bạn có thể khám phá các tùy chọn này trên[trang mạng](https://purchase.aspose.com/buy).
+Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm bản dùng thử miễn phí và giấy phép tạm thời. Bạn có thể khám phá các tùy chọn này trên[trang mạng](https://purchase.aspose.com/buy).
 
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho .NET?
  Để được hỗ trợ kỹ thuật và thảo luận cộng đồng, bạn có thể truy cập Aspose.Slides[diễn đàn](https://forum.aspose.com/).
 
 ### Tôi có thể thực hiện những tác vụ nào khác với Aspose.Slides cho .NET?
-Aspose.Slides for .NET cung cấp nhiều tính năng, bao gồm tạo, sửa đổi và chuyển đổi bản trình bày PowerPoint. Bạn có thể khám phá tài liệu để biết thêm chi tiết:[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET cung cấp nhiều tính năng, bao gồm tạo, sửa đổi và chuyển đổi bản trình bày PowerPoint. Bạn có thể khám phá tài liệu để biết thêm chi tiết:[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/).

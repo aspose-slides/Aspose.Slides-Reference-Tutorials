@@ -90,7 +90,7 @@ IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.S
 subReply.ParentComment = reply2;
 ```
 
-Этот шаг подчеркивает универсальность Aspose.Slides for .NET при управлении иерархией комментариев.
+Этот шаг подчеркивает универсальность Aspose.Slides для .NET при управлении иерархией комментариев.
 
 ## Шаг 5. Дополнительные комментарии и ответы
 

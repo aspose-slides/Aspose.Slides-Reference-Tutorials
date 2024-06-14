@@ -22,7 +22,7 @@ Mielőtt belemerülnénk a diagram entitások világába, győződjön meg arró
 
 Most kezdjük el a diagramok létrehozását és testreszabását az Aspose.Slides for Java használatával.
 
-## 1. lépés: Prezentáció készítése
+## 1. lépés: Prezentáció létrehozása
 
 Az első lépés egy új prezentáció létrehozása, amelyhez hozzá kell adni a diagramot. Íme egy kódrészlet a prezentáció létrehozásához:
 
@@ -36,7 +36,7 @@ Presentation pres = new Presentation();
 Ha elkészült a prezentációval, ideje hozzáadni egy diagramot. Ebben a példában egy egyszerű vonaldiagramot adunk hozzá jelölőkkel. A következőképpen teheti meg:
 
 ```java
-// Hozzáférés az első diához
+// Az első dia elérése
 ISlide slide = pres.getSlides().get_Item(0);
 
 // A minta diagram hozzáadása
@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
+// Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -123,7 +123,7 @@ chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth
 
 ## 8. lépés: Legendák hozzáadása
 
-A legendák segítenek elmagyarázni a diagram adatsorait. Tegyük testre a legendákat:
+legendák segítenek elmagyarázni a diagram adatsorait. Tegyük testre a legendákat:
 
 ```java
 // Jelmagyarázatok szövegtulajdonságainak beállítása
@@ -159,7 +159,7 @@ if (!IsExists)
 Presentation pres = new Presentation();
 try
 {
-	// Hozzáférés az első diához
+	// Az első dia elérése
 	ISlide slide = pres.getSlides().get_Item(0);
 	// A minta diagram hozzáadása
 	IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 50, 50, 500, 400);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
+	// Kisebb rácsvonalak formátumának beállítása a kategória tengelyhez
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -245,7 +245,7 @@ try
 	catTitle.getPortionFormat().setFontItalic(NullableBool.True);
 	// Kategória tengelyének címkepozíciójának beállítása
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
-	// A kategória tengelyének elforgatási szögének beállítása
+	// Kategória tengely címkével ellátott elforgatási szög beállítása
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
 	// Jelmagyarázatok szövegtulajdonságainak beállítása
 	IChartPortionFormat txtleg = chart.getLegend().getTextFormat().getPortionFormat();
@@ -257,14 +257,14 @@ try
 	// Állítsa be a diagram jelmagyarázatait átfedő diagram nélkül
 	chart.getLegend().setOverlay(true);
 	// Az első sorozat ábrázolása a másodlagos értéktengelyen
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = igaz;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = igaz;
 	// Beállítási táblázat hátsó fal színe
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// A telekterület színének beállítása
+	// telekterület színének beállítása
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Prezentáció mentése

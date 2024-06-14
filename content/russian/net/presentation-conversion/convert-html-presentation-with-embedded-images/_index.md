@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Принудительно не сохранять изображения в документе HTML5
+    // Принудительно не сохранять изображения в документе HTML5
     EmbedImages = false,
     // Задайте путь для внешних изображений
     OutputPath = outPath

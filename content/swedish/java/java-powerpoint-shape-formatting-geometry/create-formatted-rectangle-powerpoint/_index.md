@@ -19,7 +19,7 @@ Innan vi dyker in i koden, låt oss täcka förutsättningarna. Du behöver föl
 För att komma igång måste du importera de nödvändiga paketen från Aspose.Slides-biblioteket. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Den här koden kontrollerar om katalogen finns och skapar den om den inte gör det. Det är en bra praxis att hålla dina projektfiler organiserade.
 ## Steg 2: Instantiera presentationsklassen
- Därefter kommer du att instansiera`Presentation` klass, som representerar din PowerPoint-fil.
+ Därefter ska du instansiera`Presentation` klass, som representerar din PowerPoint-fil.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -65,15 +65,15 @@ shp.getLineFormat().getFillFormat().setFillType(FillType.Solid);
 shp.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 shp.getLineFormat().setWidth(5);
 ```
-Den här koden ställer in kantfärgen till svart och kantbredden till 5.
+Denna kod ställer in kantfärgen till svart och kantbredden till 5.
 ## Steg 6: Spara presentationen
 Slutligen, låt oss spara presentationen i din projektkatalog.
 ```java
 pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Denna kodrad sparar presentationen som en PPTX-fil i din angivna katalog.
-## Steg 7: Rensa resurser
- Det är bra att göra sig av med`Presentation`invända för att frigöra resurser.
+## Steg 7: Rensa upp resurser
+ Det är bra att göra sig av med`Presentation` invända för att frigöra resurser.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Ja, du kan använda Aspose.Slides för Java med valfri Java-kompatibel IDE som I
 ### Hur kan jag få en gratis provversion av Aspose.Slides för Java?
  Du kan ladda ner en gratis testversion av Aspose.Slides för Java från[här](https://releases.aspose.com/).
 ###  Är det nödvändigt att kassera`Presentation` object?
- Ja, kassera`Presentation`objektet hjälper till att frigöra resurser och undvika minnesläckor.
+ Ja, kassera`Presentation` objektet hjälper till att frigöra resurser och undvika minnesläckor.
 ### Var kan jag hitta dokumentationen för Aspose.Slides för Java?
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/slides/java/).

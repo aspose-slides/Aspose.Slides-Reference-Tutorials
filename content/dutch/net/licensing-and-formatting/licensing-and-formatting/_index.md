@@ -14,7 +14,7 @@ In de wereld van .NET-ontwikkeling is Aspose.Slides een krachtige en veelzijdige
 
 Voordat we ons verdiepen in het licentieproces, moet u aan de volgende vereisten voldoen:
 
-1.  Aspose.Slides voor .NET: Zorg ervoor dat u Aspose.Slides voor .NET in uw ontwikkelomgeving hebt geïnstalleerd. U kunt de bibliotheek downloaden via de[download link](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides voor .NET: Zorg ervoor dat u Aspose.Slides voor .NET in uw ontwikkelomgeving hebt geïnstalleerd. U kunt de bibliotheek downloaden via de[download link](https://releases.aspose.com/slides/net/).
 
 2.  Licentiebestand: Verkrijg een geldig Aspose.Slides-licentiebestand, meestal genaamd "Aspose.Slides.lic." Licenties kunt u verkrijgen bij de[Aspose-website](https://purchase.aspose.com/buy) of vraag een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
 
@@ -58,7 +58,7 @@ Nadat u het licentiebestandspad hebt ingesteld, is het essentieel om ervoor te z
 
 ### Stap 4: Licentievalidatie
 
-Om te controleren of uw licentie geldig is, gebruikt u de`IsLicensed` methode. Het retourneert een Booleaanse waarde die aangeeft of uw licentie actief is.
+ Om te controleren of uw licentie geldig is, gebruikt u de`IsLicensed` methode. Het retourneert een Booleaanse waarde die aangeeft of uw licentie actief is.
 
 ```csharp
 if (license.IsLicensed())

@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 Για να ξεκινήσετε, εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java. Βεβαιωθείτε ότι έχετε συμπεριλάβει τη βιβλιοθήκη Aspose.Slides για πρόσβαση στις λειτουργίες του PowerPoint.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Αρχικοποίηση αντικειμένου παρουσίασης
 Ξεκινήστε αρχικοποιώντας ένα αντικείμενο Παρουσίασης για να φορτώσετε το αρχείο PowerPoint.

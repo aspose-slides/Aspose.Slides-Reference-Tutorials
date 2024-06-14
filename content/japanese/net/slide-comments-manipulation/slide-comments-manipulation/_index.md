@@ -19,7 +19,7 @@ url: /ja/net/slide-comments-manipulation/slide-comments-manipulation/
 スライド コメント操作の詳細に入る前に、環境を設定し、必要なリソースが揃っていることを確認しましょう。
 
 1. ### Aspose.Slides をダウンロードしてインストールします。 
-	まずAspose.Slidesライブラリをダウンロードしてインストールします。最新バージョンは[ここ](https://releases.aspose.com/slides/net/).
+	まず、Aspose.Slidesライブラリをダウンロードしてインストールします。最新バージョンは[ここ](https://releases.aspose.com/slides/net/).
 
 2. ### APIドキュメント: 
 	利用可能なAspose.Slides APIドキュメントをよく理解してください[ここ](https://reference.aspose.com/slides/net/)このドキュメントは、スライド コメントの操作に関連するさまざまなメソッド、クラス、プロパティを理解するための貴重なリソースとして役立ちます。
@@ -113,7 +113,7 @@ presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 
 ### コメントを別のファイルにエクスポートできますか?
 
-はい、コメントを別のテキスト ファイルまたはその他の任意の形式でエクスポートできます。コメントを反復処理し、その内容を抽出してファイルに保存します。
+はい、コメントを別のテキスト ファイルまたはその他の任意の形式でエクスポートできます。コメントを反復処理して内容を抽出し、ファイルに保存します。
 
 ### Aspose.Slides はコメントへの返信の追加をサポートしていますか?
 

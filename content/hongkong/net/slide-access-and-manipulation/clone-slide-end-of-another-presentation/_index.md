@@ -16,7 +16,7 @@ Aspose.Slides for .NET 是一個函式庫，使 .NET 開發人員能夠以程式
 
 在我們開始之前，請確保您具備以下先決條件：
 
-- 已安裝 Visual Studio。
+- 安裝了 Visual Studio。
 - C# 和 .NET 的基礎知識。
 -  Aspose.Slides for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/slides/net/).
 

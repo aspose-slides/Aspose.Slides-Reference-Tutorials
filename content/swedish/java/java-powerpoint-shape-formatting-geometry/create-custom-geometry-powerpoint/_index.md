@@ -20,13 +20,13 @@ Innan vi börjar, se till att du har följande:
 Innan vi dyker in i kodningsdelen, låt oss importera de nödvändiga paketen.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## Steg 1: Konfigurera projektet
-För att börja, ställ in ditt Java-projekt och inkludera Aspose.Slides for Java-biblioteket i ditt projekts beroenden. Om du använder Maven, lägg till följande beroende till din`pom.xml`:
+ För att börja, ställ in ditt Java-projekt och inkludera Aspose.Slides for Java-biblioteket i ditt projekts beroenden. Om du använder Maven, lägg till följande beroende till din`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -81,7 +81,7 @@ GeometryPath starPath = createStarGeometry(R, r);
 // Skapa ny form
 GeometryShape shape = (GeometryShape)pres.getSlides().get_Item(0).
         getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, R * 2, R * 2);
-// Ställ in ny geometrisk väg till formen
+// Ange en ny geometrisk väg till formen
 shape.setGeometryPath(starPath);
 ```
 ## Steg 5: Spara presentationen

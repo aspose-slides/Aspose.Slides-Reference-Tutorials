@@ -21,7 +21,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với cá
 Trước tiên, hãy tạo một bản trình bày PowerPoint mới và thêm biểu đồ vào đó.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Mã nguồn hoàn chỉnh cho các công thức ô dữ liệu biểu đồ trong các trang trình bày Java
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

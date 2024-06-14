@@ -124,4 +124,4 @@ Evet, Aspose.Slides for Java, Java uygulamalarında sunumla ilgili görevlerin y
 
 ### Dönüştürülen HTML sunumuna nasıl erişebilirim?
 
- Dönüştürmeyi tamamladıktan sonra, belirtilen dosyayı bularak HTML sunumuna erişebilirsiniz.`htmlDocumentFileName` değişken.
+ Dönüşümü tamamladıktan sonra, belirtilen dosyayı bularak HTML sunumuna erişebilirsiniz.`htmlDocumentFileName` değişken.

@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Következtetés
 
- Ebben az oktatóanyagban megtanultuk, hogyan tölthet be PowerPoint prezentációt Java nyelven az Aspose.Slides segítségével, és hogyan ellenőrizheti a formátumát a`LoadFormat`felsorolás. Ez akkor lehet hasznos, ha a különböző formátumú prezentációkat eltérő módon kell kezelnie a Java alkalmazásban.
+ Ebben az oktatóanyagban megtanultuk, hogyan tölthet be PowerPoint prezentációt Java nyelven az Aspose.Slides segítségével, és hogyan ellenőrizheti a formátumát a`LoadFormat` felsorolás. Ez akkor lehet hasznos, ha a különböző formátumú prezentációkat eltérő módon kell kezelnie a Java alkalmazásban.
 
 ## GYIK
 
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
 
- Az Aspose.Slides for Java könyvtárat az Aspose webhelyéről töltheti le, ha felkeresi[ez a link](https://releases.aspose.com/slides/java/).
+Az Aspose.Slides for Java könyvtárat az Aspose webhelyéről töltheti le, ha felkeresi[ez a link](https://releases.aspose.com/slides/java/).
 
 ### Mi a célja a prezentáció formátumának ellenőrzésének?
 
@@ -63,7 +63,7 @@ Igen, az Aspose.Slides for Java integrálható más Java könyvtárakkal és ker
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
 
-Az Aspose.Slides for Java termékhez támogatást kaphat, ha felkeresi az Aspose támogatási fórumait, vagy felveszi a kapcsolatot ügyfélszolgálati csapatával a webhelyükön található csatornákon keresztül. Közösségi és fizetett támogatási lehetőségeket is kínálnak.
+Az Aspose.Slides for Java termékhez támogatást kaphat, ha ellátogat az Aspose támogatási fórumaira, vagy felveszi a kapcsolatot a támogatási csapattal a webhelyükön található csatornákon keresztül. Közösségi és fizetett támogatási lehetőségeket is kínálnak.
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi projektekhez?
 

@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Después de copiar y colocar la diapositiva, debemos guardar la presentación de destino modificada.
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

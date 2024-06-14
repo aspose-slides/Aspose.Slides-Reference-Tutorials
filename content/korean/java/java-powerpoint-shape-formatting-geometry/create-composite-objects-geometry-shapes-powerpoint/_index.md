@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 ---
 ## 소개
 안녕하세요! Java를 사용하여 PowerPoint 프레젠테이션에서 멋지고 복잡한 모양을 만들고 싶었던 적이 있습니까? 글쎄, 당신은 바로 이곳에 있습니다. 이 튜토리얼에서는 강력한 Aspose.Slides for Java 라이브러리에 대해 자세히 알아보고 기하학적 형태로 복합 객체를 생성합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 인상적인 결과를 즉시 달성하는 데 도움이 될 것입니다. 시작할 준비가 되셨나요? 뛰어들어보자!
-## 전제조건
+## 전제 조건
 코드를 시작하기 전에 필요한 몇 가지 사항이 있습니다.
 - JDK(Java Development Kit): 컴퓨터에 JDK 1.8 이상이 설치되어 있는지 확인하십시오.
 - 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse와 같은 IDE는 여러분의 삶을 더 쉽게 만들어줄 것입니다.
@@ -19,12 +19,12 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-composite-objects
 먼저 Aspose.Slides for Java를 시작하는 데 필요한 패키지를 가져오겠습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 복합 개체를 만드는 것은 복잡해 보일 수 있지만 관리 가능한 단계로 나누어 보면 생각보다 쉽다는 것을 알게 될 것입니다. PowerPoint 프리젠테이션을 만들고 모양을 추가한 다음 여러 지오메트리 경로를 정의 및 적용하여 복합 모양을 만듭니다.
 ## 1단계: 프로젝트 설정
-코드를 작성하기 전에 Java 프로젝트를 설정하십시오. IDE에서 새 프로젝트를 만들고 Aspose.Slides for Java를 포함하세요. Maven을 사용하여 라이브러리를 추가하거나 다음에서 JAR 파일을 다운로드할 수 있습니다.[Aspose.Slides 다운로드 페이지](https://releases.aspose.com/slides/java/).
+ 코드를 작성하기 전에 Java 프로젝트를 설정하십시오. IDE에서 새 프로젝트를 만들고 Aspose.Slides for Java를 포함하세요. Maven을 사용하여 라이브러리를 추가하거나 다음에서 JAR 파일을 다운로드할 수 있습니다.[Aspose.Slides 다운로드 페이지](https://releases.aspose.com/slides/java/).
 ### Maven을 사용하여 프로젝트에 Aspose.Slides 추가하기
  Maven을 사용하는 경우 다음 종속성을 추가하십시오.`pom.xml` 파일:
 ```xml
@@ -35,10 +35,10 @@ import com.aspose.slides.examples.RunExamples;
 </dependency>
 ```
 ## 2단계: 프레젠테이션 초기화
- 이제 새로운 PowerPoint 프레젠테이션을 만들어 보겠습니다. 초기화부터 시작하겠습니다.`Presentation` 수업.
+이제 새로운 PowerPoint 프레젠테이션을 만들어 보겠습니다. 초기화부터 시작하겠습니다.`Presentation` 수업.
 ```java
 // 출력 파일 이름
-String resultPath = RunExamples.getOutPath() +  "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## 3단계: 새 모양 만들기
@@ -74,7 +74,7 @@ shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ## 7단계: 프레젠테이션 저장
 마지막으로 프레젠테이션을 파일에 저장합니다.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeCompositeObjects.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 8단계: 리소스 정리

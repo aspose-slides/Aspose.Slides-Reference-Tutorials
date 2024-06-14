@@ -21,7 +21,7 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java eine Präse
 Zuerst müssen wir eine neue PowerPoint-Präsentation erstellen. So geht das in Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Stellen Sie sicher, dass Sie den gewünschten Ausgabedateipfad angeben.
 ## Vollständiger Quellcode für die Einrichtung einer Präsentations-Diashow in Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Ruft die Diashow-Einstellungen ab

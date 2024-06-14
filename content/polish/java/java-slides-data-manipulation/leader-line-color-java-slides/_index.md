@@ -20,7 +20,7 @@ Zanim zaczniesz, upewnij się, że masz następujące elementy:
 
 ## Krok 1: Załaduj prezentację
 
-Najpierw musisz załadować prezentację programu PowerPoint zawierającą wykres, który chcesz zmodyfikować. Zastępować`presentationName` ze ścieżką do pliku programu PowerPoint.
+ Najpierw musisz załadować prezentację programu PowerPoint zawierającą wykres, który chcesz zmodyfikować. Zastępować`presentationName` ze ścieżką do pliku programu PowerPoint.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Następnie uzyskamy dostęp do wykresów i etykiet danych w prezentacji. W tym p
 // Pobierz wykres z pierwszego slajdu
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// Pobierz serię wykresu
+//Pobierz serię wykresu
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // Zdobądź etykiety pierwszej serii
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 Na koniec zapisz prezentację ze zmodyfikowanymi kolorami linii odniesienia do nowego pliku.
 
 ```java
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Kompletny kod źródłowy koloru linii odniesienia w slajdach Java
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // Pobierz wykres z pierwszego slajdu
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // Pobierz serię wykresu
+            //Pobierz serię wykresu
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // Zdobądź lebele z pierwszej serii
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -85,7 +85,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak zmienić kolor linii odniesienia na wykresie programu PowerPoint za pomocą Aspose.Slides dla Java. Możesz dostosować kolor i inne opcje formatowania, aby spełnić swoje specyficzne potrzeby. Może to być szczególnie przydatne, gdy chcesz wyróżnić określone punkty danych na wykresach w celu lepszej wizualizacji.
+W tym samouczku nauczyliśmy się, jak zmienić kolor linii odniesienia na wykresie programu PowerPoint za pomocą Aspose.Slides dla Java. Możesz dostosować kolor i inne opcje formatowania, aby spełnić swoje specyficzne potrzeby. Może to być szczególnie przydatne, gdy chcesz wyróżnić określone punkty danych na wykresach w celu lepszej wizualizacji.
 
 ## Często zadawane pytania
 
@@ -107,7 +107,7 @@ Aby uzyskać dostęp do innych właściwości wykresu i je modyfikować, możesz
 
 ### Czy potrzebuję licencji, aby używać Aspose.Slides for Java w projekcie komercyjnym?
 
-Tak, zazwyczaj potrzebujesz ważnej licencji, aby używać Aspose.Slides for Java w projekcie komercyjnym. Aspose oferuje różne opcje licencjonowania, w tym bezpłatną licencję ewaluacyjną do celów testowych i próbnych. Jednak do użytku produkcyjnego należy uzyskać odpowiednią licencję komercyjną. Odwiedzić[Strona zakupu Aspose](https://purchase.aspose.com/) w celu uzyskania szczegółów licencji.
+ Tak, zazwyczaj potrzebujesz ważnej licencji, aby używać Aspose.Slides for Java w projekcie komercyjnym. Aspose oferuje różne opcje licencjonowania, w tym bezpłatną licencję ewaluacyjną do celów testowych i próbnych. Jednak do użytku produkcyjnego należy uzyskać odpowiednią licencję komercyjną. Odwiedzić[Strona zakupu Aspose](https://purchase.aspose.com/) w celu uzyskania szczegółów licencji.
 
 ### Jak mogę uzyskać pomoc techniczną dla Aspose.Slides dla Java?
 

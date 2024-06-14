@@ -48,9 +48,9 @@ Nu gaat u de HTML-conversieopties configureren. In dit voorbeeld zullen we afbee
 
 ```java
 Html5Options options = new Html5Options();
-//Forceer afbeeldingen niet opslaan in HTML5-document
+// Forceer afbeeldingen niet opslaan in HTML5-document
 options.setEmbedImages(true); // Stel deze in op true om afbeeldingen in te sluiten
-// Stel het pad voor externe afbeeldingen in (indien nodig)
+//Stel het pad voor externe afbeeldingen in (indien nodig)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Pad naar bronpresentatie
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Pad naar HTML-document
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Forceer afbeeldingen niet opslaan in HTML5-document
+	// Forceer afbeeldingen niet opslaan in HTML5-document
 	options.setEmbedImages(false);
 	// Stel het pad in voor externe afbeeldingen
 	options.setOutputPath(outFilePath);

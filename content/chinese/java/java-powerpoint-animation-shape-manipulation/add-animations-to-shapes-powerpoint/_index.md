@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 首先，您需要导入 Aspose.Slides 和其他所需的 Java 类所需的包。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -92,7 +92,7 @@ motionBhv.getPath().add(MotionCommandPathType.End, null, MotionPathPointsType.Au
 ```java
 //将演示文稿另存为 PPTX 文件
 pres.save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
-//处置演示对象
+//处置展示对象
 if (pres != null) pres.dispose();
 ```
 ## 结论

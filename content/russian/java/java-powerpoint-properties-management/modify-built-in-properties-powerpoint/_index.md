@@ -20,7 +20,7 @@ Aspose.Slides для Java позволяет разработчикам прог
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1: Настройте среду
 Определите путь к каталогу, содержащему файл PowerPoint:

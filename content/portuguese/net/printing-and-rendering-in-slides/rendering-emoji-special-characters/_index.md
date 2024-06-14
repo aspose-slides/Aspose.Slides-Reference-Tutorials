@@ -11,7 +11,7 @@ url: /pt/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 No mundo dinâmico das apresentações, transmitir emoções e personagens especiais pode adicionar um toque de criatividade e exclusividade. Aspose.Slides for .NET capacita os desenvolvedores a renderizar emojis e caracteres especiais em suas apresentações, desbloqueando uma nova dimensão de expressão. Neste tutorial, exploraremos como fazer isso com orientação passo a passo usando Aspose.Slides.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter o seguinte:
-- Aspose.Slides for .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/slides/net/).
 - Ambiente de desenvolvimento: tenha um ambiente de desenvolvimento .NET funcional configurado em sua máquina.
 - Apresentação de entrada: prepare um arquivo PowerPoint (`input.pptx`) contendo o conteúdo que você deseja enriquecer com emojis.
 - Diretório de documentos: Estabeleça um diretório para seus documentos e substitua “Seu diretório de documentos” no código pelo caminho real.

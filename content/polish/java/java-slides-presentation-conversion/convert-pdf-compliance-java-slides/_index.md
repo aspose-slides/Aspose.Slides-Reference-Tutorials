@@ -10,7 +10,7 @@ url: /pl/java/presentation-conversion/convert-pdf-compliance-java-slides/
 
 ## Wprowadzenie do konwersji na zgodność z formatem PDF w slajdach Java
 
-tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodnie ze zgodnością przy użyciu Aspose.Slides dla Java. W szczególności ustawimy zgodność plików PDF na PDF/A-2a. Ten poziom zgodności zapewnia, że powstały plik PDF spełnia określone standardy długoterminowej archiwizacji i dostępności.
+W tym samouczku przyjrzymy się, jak przekonwertować prezentację programu PowerPoint na plik PDF zgodnie z przepisami przy użyciu Aspose.Slides dla Java. W szczególności ustawimy zgodność plików PDF na PDF/A-2a. Ten poziom zgodności zapewnia, że powstały plik PDF spełnia określone standardy długoterminowej archiwizacji i dostępności.
 
 ## Warunki wstępne
 
@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Kompletny kod źródłowy umożliwiający konwersję do formatu PDF w slajdach Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ Korzystanie ze zgodności z formatem PDF/A-2a jest niezbędne, gdy zachodzi potr
 
 ## Czy mogę zmienić poziom zgodności PDF na inny niż PDF/A-2a?
 
- Tak, Aspose.Slides for Java zapewnia elastyczność w wyborze poziomu zgodności z PDF. W dostarczonym kodzie możesz zmienić poziom zgodności, modyfikując plik`pdfOptions.setCompliance()` linia. Możesz wybrać inne poziomy zgodności, takie jak PDF/A-1a, PDF/A-1b, PDF/A-3a itp., w zależności od konkretnych wymagań.
+ Tak, Aspose.Slides for Java zapewnia elastyczność w wyborze poziomu zgodności z PDF. W dostarczonym kodzie możesz zmienić poziom zgodności, modyfikując plik`pdfOptions.setCompliance()`linia. Możesz wybrać inne poziomy zgodności, takie jak PDF/A-1a, PDF/A-1b, PDF/A-3a itp., w zależności od konkretnych wymagań.
 
 ## Jakie są różnice pomiędzy PDF/A-2a a innymi poziomami zgodności?
 
@@ -113,4 +113,4 @@ Tak, zazwyczaj potrzebujesz ważnej licencji na Aspose.Slides for Java, aby móc
 
 ## Gdzie mogę znaleźć więcej informacji na temat zgodności Aspose.Slides dla Java i PDF?
 
- Bardziej szczegółowe informacje na temat Aspose.Slides for Java i jego funkcji, w tym ustawień zgodności z formatem PDF, można znaleźć w dokumentacji na stronie[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/)Ponadto możesz przeglądać przykłady kodu i samouczki, aby jeszcze bardziej poszerzyć swoją wiedzę o bibliotece.
+ Bardziej szczegółowe informacje na temat Aspose.Slides for Java i jego funkcji, w tym ustawień zgodności z formatem PDF, można znaleźć w dokumentacji na stronie[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/). Ponadto możesz przeglądać przykłady kodu i samouczki, aby jeszcze bardziej poszerzyć swoją wiedzę o bibliotece.

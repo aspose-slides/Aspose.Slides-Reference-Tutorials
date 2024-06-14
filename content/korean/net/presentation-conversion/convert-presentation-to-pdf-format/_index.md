@@ -12,7 +12,7 @@ url: /ko/net/presentation-conversion/convert-presentation-to-pdf-format/
 
 Aspose.Slides for .NET은 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션 작업을 할 수 있게 해주는 강력한 라이브러리입니다. 프레젠테이션을 PDF와 같은 다양한 형식으로 변환하는 기능을 포함하여 광범위한 기능을 제공합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

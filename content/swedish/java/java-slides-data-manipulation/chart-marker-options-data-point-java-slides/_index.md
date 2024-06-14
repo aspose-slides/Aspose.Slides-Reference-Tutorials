@@ -87,7 +87,7 @@ När du har anpassat dina diagrammarkörer sparar du presentationen för att se 
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
 ```
 
-## Komplett källkod för alternativ för diagrammarkör på datapunkt i Java Slides
+## Komplett källkod för diagrammarköralternativ på datapunkt i Java Slides
 
 ```java
 String dataDir = "Your Document Directory";
@@ -141,7 +141,7 @@ Med Aspose.Slides för Java kan du lyfta dina presentationer genom att anpassa d
 
 ### Kan jag använda bilder som anpassade markörer?
 
- Ja, du kan använda bilder som anpassade markörer för datapunkter. Ställ in fyllningstypen till`FillType.Picture`och ange den bild du vill använda.
+ Ja, du kan använda bilder som anpassade markörer för datapunkter. Ställ in fyllningstypen till`FillType.Picture` och ange den bild du vill använda.
 
 ### Är Aspose.Slides för Java lämplig för att skapa dynamiska diagram?
 

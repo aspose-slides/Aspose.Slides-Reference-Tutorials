@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 ¡Felicidades! Ha aprendido con éxito cómo animar elementos de series en un gráfico usando Aspose.Slides para .NET. Con este conocimiento, puedes crear presentaciones de PowerPoint dinámicas y atractivas que cautiven a tu audiencia.
 
- Aspose.Slides para .NET es una poderosa herramienta para trabajar con archivos de PowerPoint mediante programación y abre un mundo de posibilidades para crear presentaciones profesionales. Siéntete libre de explorar el[documentación](https://reference.aspose.com/slides/net/) para funciones más avanzadas y opciones de personalización.
+ Aspose.Slides para .NET es una poderosa herramienta para trabajar con archivos de PowerPoint mediante programación y abre un mundo de posibilidades para crear presentaciones profesionales. Siéntete libre de explorar el[documentación](https://reference.aspose.com/slides/net/)para funciones más avanzadas y opciones de personalización.
 
 ## Preguntas frecuentes
 

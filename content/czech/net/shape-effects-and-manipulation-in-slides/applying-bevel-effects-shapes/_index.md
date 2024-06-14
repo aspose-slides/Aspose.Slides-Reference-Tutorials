@@ -35,7 +35,7 @@ Presentation pres = new Presentation();
 ISlide slide = pres.Slides[0];
 ```
 Inicializujte instanci prezentace a přidejte snímek, se kterým můžete pracovat.
-## Krok 3: Přidejte tvar do snímku
+## Krok 3: Přidejte na snímek tvar
 ```csharp
 IAutoShape shape = slide.Shapes.AddAutoShape(ShapeType.Ellipse, 30, 30, 100, 100);
 shape.FillFormat.FillType = FillType.Solid;

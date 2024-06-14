@@ -20,7 +20,7 @@ Aspose.Slides สำหรับ Java ช่วยให้นักพัฒน
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อม
 กำหนดเส้นทางไปยังไดเร็กทอรีที่มีไฟล์ PowerPoint ของคุณ:

@@ -19,7 +19,7 @@ Kodlama kısmına dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan 
 Başlamak için gerekli Aspose.Slides paketlerini Java projenize aktarmanız gerekir. İşte bunu nasıl yapacağınız:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bir slaydı ana slaydıyla birlikte başka bir sunuya kopyalama işlemini ayrıntılı adımlara ayıralım.
 ## 1. Adım: Kaynak Sunumunu Yükleyin
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Adım 4: Ana Slaydı Hedef Sunuma Kopyalayın
 Ana slaydı kaynak sunumdan hedef sunumdaki ana slaytlar koleksiyonuna kopyalayın.
 ```java
-//İstediğiniz ana slaydı kaynak sunumundan Hedef sunumundaki ana slaytlar koleksiyonuna kopyalayın
+// İstediğiniz ana slaydı kaynak sunumundan Hedef sunumundaki ana slaytlar koleksiyonuna kopyalayın
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

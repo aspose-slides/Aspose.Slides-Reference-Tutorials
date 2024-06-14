@@ -20,7 +20,7 @@ Importeer eerst de benodigde pakketten in uw Java-project:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Bereid uw gegevensdirectory voor
  Maak een map om uw PowerPoint-bestand en andere bronnen op te slaan. Laten we het een naam geven`dataDir`.
@@ -47,7 +47,7 @@ Ja, naast PDF kun je emoji's weergeven in verschillende formaten die worden onde
 ### Zijn er beperkingen op de soorten emoji's die kunnen worden weergegeven?
 Aspose.Slides voor Java ondersteunt het weergeven van een breed scala aan emoji's, inclusief standaard Unicode-emoji's en aangepaste emoji's.
 ### Kan ik de grootte en positie van de weergegeven emoji's aanpassen?
-Ja, je kunt de grootte, positie en andere eigenschappen van de weergegeven emoji's programmatisch aanpassen met behulp van de Aspose.Slides voor Java API.
+Ja, u kunt de grootte, positie en andere eigenschappen van de weergegeven emoji's programmatisch aanpassen met behulp van de Aspose.Slides voor Java API.
 ### Ondersteunt Aspose.Slides voor Java het weergeven van emoji's in alle versies van PowerPoint?
 Ja, Aspose.Slides voor Java is compatibel met alle versies van PowerPoint, waardoor een naadloze weergave van emoji's op verschillende platforms wordt gegarandeerd.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?

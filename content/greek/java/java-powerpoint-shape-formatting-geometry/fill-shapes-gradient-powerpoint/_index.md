@@ -11,7 +11,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων PowerPoint είναι ζωτικής σημασίας για να γοητεύσετε το κοινό σας. Ένας από τους αποτελεσματικούς τρόπους για να βελτιώσετε τις διαφάνειές σας είναι να γεμίσετε σχήματα με διαβαθμίσεις. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία χρήσης του Aspose.Slides για Java για τη συμπλήρωση σχημάτων με διαβαθμίσεις στο PowerPoint. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, θα βρείτε αυτόν τον οδηγό χρήσιμο και εύκολο να ακολουθήσετε. Ας βουτήξουμε στον κόσμο των διαβαθμίσεων και ας δούμε πώς μπορούν να μεταμορφώσουν τις παρουσιάσεις σας.
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
--  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides για Java: Κάντε λήψη της πιο πρόσφατης έκδοσης από[εδώ](https://releases.aspose.com/slides/java/).
 - Ενσωματωμένο περιβάλλον ανάπτυξης (IDE): Ένα IDE όπως το IntelliJ IDEA ή το Eclipse θα κάνει την εμπειρία κωδικοποίησης πιο ομαλή.
 - Βασικές γνώσεις Java: Η εξοικείωση με τον προγραμματισμό Java είναι απαραίτητη.
@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Για να ξεκινήσετε με το Aspose.Slides, πρέπει να εισαγάγετε τα απαραίτητα πακέτα. Βεβαιωθείτε ότι έχετε προσθέσει Aspose.Slides για Java στις εξαρτήσεις του έργου σας.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

@@ -21,7 +21,7 @@ Dalam tutorial ini, kita akan mempelajari cara bekerja dengan rumus sel data bag
 Pertama, mari buat presentasi PowerPoint baru dan tambahkan bagan ke dalamnya.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Kode Sumber Lengkap Untuk Rumus Sel Data Bagan di Slide Java
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

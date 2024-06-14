@@ -21,12 +21,12 @@ Trong bước này, chúng tôi sẽ nhập các gói cần thiết để bắt 
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Đặt thư mục dữ liệu
 Trước khi đi sâu vào chức năng cốt lõi, hãy đặt thư mục dữ liệu để truy cập tệp bản trình bày của bạn:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Bước 2: Tạo tùy chọn tải
 Khởi tạo các tùy chọn tải để định cấu hình cách truy cập tệp bản trình bày. Trong ví dụ này, chúng tôi đang đặt mật khẩu truy cập thành null và chỉ cho phép tải các thuộc tính tài liệu:

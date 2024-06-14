@@ -12,13 +12,13 @@ L'ajout d'un cadre d'objet OLE (Object Linking and Embedding) dans les présenta
 ### Conditions préalables
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 1. Environnement de développement Java : assurez-vous que le kit de développement Java (JDK) est installé sur votre système.
-2. Aspose.Slides pour Java : téléchargez et installez Aspose.Slides pour Java à partir du site Web.[ici](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides pour Java : téléchargez et installez Aspose.Slides pour Java à partir du site Web.[ici](https://releases.aspose.com/slides/java/).
 3. Compréhension de base de la programmation Java : Familiarisez-vous avec les concepts et la syntaxe de la programmation Java.
 ## Importer des packages
 Tout d'abord, vous devez importer les packages nécessaires pour exploiter les fonctionnalités d'Aspose.Slides pour Java. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Assurez-vous que votre projet est correctement configuré et que la bibliothèqu
 Créez un objet Présentation pour représenter le fichier PowerPoint avec lequel vous travaillez :
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Instancier la classe de présentation qui représente le PPTX
 Presentation pres = new Presentation();
 ```

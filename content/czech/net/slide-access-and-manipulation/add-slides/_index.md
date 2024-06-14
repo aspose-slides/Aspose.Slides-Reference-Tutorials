@@ -10,7 +10,7 @@ url: /cs/net/slide-access-and-manipulation/add-slides/
 
 ## Úvod do vkládání dalších snímků do prezentace
 
-Pokud chcete vylepšit své prezentace PowerPoint přidáním dalších snímků programově pomocí síly .NET, Aspose.Slides for .NET poskytuje efektivní řešení. V tomto podrobném průvodci vás provedeme procesem vkládání dalších snímků do prezentace pomocí Aspose.Slides for .NET. Najdete zde komplexní příklady kódu a vysvětlení, které vám pomohou toho dosáhnout.
+Pokud chcete vylepšit své prezentace v PowerPointu přidáním dalších snímků programově pomocí síly .NET, Aspose.Slides for .NET poskytuje efektivní řešení. V tomto podrobném průvodci vás provedeme procesem vkládání dalších snímků do prezentace pomocí Aspose.Slides for .NET. Najdete zde komplexní příklady kódu a vysvětlení, které vám pomohou toho dosáhnout.
 
 ## Předpoklady
 
@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Po vložení dalších snímků byste měli upravenou prezentaci uložit.
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Nahradit`"path_to_modified_presentation.pptx"` s požadovanou cestou a názvem souboru pro upravenou prezentaci.
+ Nahradit`"path_to_modified_presentation.pptx"` požadovanou cestou a názvem souboru pro upravenou prezentaci.
 
 ## Závěr
 
@@ -98,7 +98,7 @@ Obsah nových snímků můžete přizpůsobit přístupem k jejich tvarům a vla
 
 ### Co když chci vložit snímky na začátek prezentace?
 
- Chcete-li vložit snímky na začátek prezentace, nastavte`insertionIndex` na`0`.
+Chcete-li vložit snímky na začátek prezentace, nastavte`insertionIndex` na`0`.
 
 ### Je možné upravit rozložení vložených snímků?
 

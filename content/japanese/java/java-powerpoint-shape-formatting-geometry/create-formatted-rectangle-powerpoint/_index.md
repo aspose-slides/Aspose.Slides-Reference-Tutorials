@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 まず、Aspose.Slides ライブラリから必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

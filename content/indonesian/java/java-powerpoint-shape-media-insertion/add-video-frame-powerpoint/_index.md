@@ -17,7 +17,7 @@ Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 Pertama, Anda perlu mengimpor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.Slides dalam kode Java Anda. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Langkah 1: Siapkan Direktori Dokumen

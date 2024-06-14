@@ -83,7 +83,7 @@ Questo è tutto! Hai creato un grafico a mappa in una presentazione di PowerPoin
 ## Codice sorgente completo per il grafico della mappa nelle diapositive Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//creare un grafico vuoto

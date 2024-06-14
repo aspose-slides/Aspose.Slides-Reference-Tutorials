@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Votre code pour la modification de l’arrière-plan des diapositives ira ici.
     // Nous explorerons cela dans les prochaines étapes.
     
-    // Enregistrez la présentation modifiée
+    //Enregistrez la présentation modifiée
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ Dans cette étape, nous personnalisons l'arrière-plan de la première diapositi
 ## Étape 6 : Enregistrez la présentation modifiée
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

@@ -12,18 +12,18 @@ Wilt u het creatieproces van uw PowerPoint-presentaties stroomlijnen? Stel je vo
 ## Vereisten
 Voordat we in de tutorial duiken, laten we eerst de vereisten bespreken. Als u ervoor zorgt dat alles op orde is, wordt het proces soepeler en efficiënter.
 ### Java-ontwikkelomgeving
- Zorg er eerst voor dat u een Java-ontwikkelomgeving hebt ingesteld. U moet JDK (Java Development Kit) op uw computer hebben geïnstalleerd. Je kunt het downloaden van[De website van Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Zorg er eerst voor dat u een Java-ontwikkelomgeving hebt ingesteld. U moet JDK (Java Development Kit) op uw computer hebben geïnstalleerd. Je kunt het downloaden van[De website van Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides voor Java-bibliotheek
  Download vervolgens de Aspose.Slides voor Java-bibliotheek. U kunt deze verkrijgen bij de[Aspose.Slides downloadpagina](https://releases.aspose.com/slides/java/). Deze bibliotheek biedt alle benodigde hulpmiddelen om PowerPoint-presentaties programmatisch te manipuleren.
 ### Ontwikkeling IDE
 Het gebruik van een Integrated Development Environment (IDE) zoals IntelliJ IDEA, Eclipse of NetBeans zal uw ontwikkelingsproces eenvoudiger maken. Zorg ervoor dat uw IDE is geconfigureerd om met Java te werken.
 ### Aspose-licentie
- Voor volledige functionaliteit wilt u misschien een licentie voor Aspose.Slides aanschaffen. Je kunt er een kopen[hier](https://purchase.aspose.com/buy) . Als alternatief kunt u een aanvraag indienen voor een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/)om de functies uit te proberen voordat u zich vastlegt.
+ Voor volledige functionaliteit wilt u misschien een licentie voor Aspose.Slides aanschaffen. Je kunt er een kopen[hier](https://purchase.aspose.com/buy) . Als alternatief kunt u een aanvraag indienen voor een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om de functies uit te proberen voordat u zich vastlegt.
 ## Pakketten importeren
 Voordat u de code schrijft, moet u de benodigde pakketten uit Aspose.Slides importeren. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Laten we het proces nu opsplitsen in beheersbare stappen. Volg elke stap zorgvuldig om het gewenste resultaat te bereiken.
 ## Stap 1: Stel de gegevensdirectory in
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Stap 5: Kloon de dia naar de opgegeven sectie
-Het kernonderdeel van deze zelfstudie is het klonen van de dia in een opgegeven sectie. Gebruik de`addClone` methode om de eerste dia naar de tweede sectie te klonen.
+ Het kernonderdeel van deze zelfstudie is het klonen van de dia in een opgegeven sectie. Gebruik de`addClone` methode om de eerste dia naar de tweede sectie te klonen.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```
@@ -58,7 +58,7 @@ Sla ten slotte de presentatie op in de opgegeven map in het gewenste formaat.
 presentation.save(dataDir + "CloneSlideIntoSpecifiedSection.pptx", SaveFormat.Pptx);
 ```
 ## Stap 7: Gooi het presentatieobject weg
- Om grondstoffen vrij te maken, moet u altijd de`Presentation` voorwerp na gebruik.
+ Om middelen vrij te maken, moet u altijd de`Presentation` voorwerp na gebruik.
 ```java
 if (presentation != null) presentation.dispose();
 ```

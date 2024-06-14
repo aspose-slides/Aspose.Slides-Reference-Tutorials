@@ -8,17 +8,17 @@ weight: 16
 url: /fr/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
 ## Introduction
-Dans ce didacticiel, nous verrons comment cloner des formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Le clonage de formes vous permet de dupliquer des formes existantes dans une présentation, ce qui peut être particulièrement utile pour créer des mises en page cohérentes ou répéter des éléments sur des diapositives.
+Dans ce didacticiel, nous verrons comment cloner des formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Le clonage de formes vous permet de dupliquer des formes existantes dans une présentation, ce qui peut être particulièrement utile pour créer des mises en page cohérentes ou répéter des éléments sur plusieurs diapositives.
 ## Conditions préalables
 Avant de commencer, assurez-vous d'avoir les prérequis suivants :
 1.  Kit de développement Java (JDK) : assurez-vous que le kit de développement Java est installé sur votre système. Vous pouvez télécharger et installer la dernière version à partir du[site web](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Bibliothèque Aspose.Slides pour Java : téléchargez et incluez la bibliothèque Aspose.Slides pour Java dans votre projet Java. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/slides/java/).
+2. Bibliothèque Aspose.Slides pour Java : téléchargez et incluez la bibliothèque Aspose.Slides pour Java dans votre projet Java. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/slides/java/).
 
 ## Importer des packages
 Pour commencer, vous devrez importer les packages nécessaires dans votre projet Java. Ces packages fournissent les fonctionnalités requises pour travailler avec des présentations PowerPoint à l'aide d'Aspose.Slides pour Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : Charger la présentation
  Tout d'abord, vous devez charger la présentation PowerPoint contenant les formes que vous souhaitez cloner. Utilisez le`Presentation` classe pour charger la présentation source.

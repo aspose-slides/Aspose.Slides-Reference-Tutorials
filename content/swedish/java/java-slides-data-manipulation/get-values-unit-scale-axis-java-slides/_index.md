@@ -88,7 +88,7 @@ try
 	double minValue = chart.getAxes().getVerticalAxis().getActualMinValue();
 	double majorUnit = chart.getAxes().getHorizontalAxis().getActualMajorUnit();
 	double minorUnit = chart.getAxes().getHorizontalAxis().getActualMinorUnit();
-	// Sparar presentation
+	// Sparar presentationen
 	pres.save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 }
 finally

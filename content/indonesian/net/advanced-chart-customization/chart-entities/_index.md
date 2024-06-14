@@ -1,5 +1,5 @@
 ---
-title: Membuat Bagan Indah dengan Aspose.Slides untuk .NET
+title: Membuat Bagan Cantik dengan Aspose.Slides untuk .NET
 linktitle: Entitas Bagan dan Pemformatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat bagan menakjubkan dengan Aspose.Slides untuk .NET. Tingkatkan permainan visualisasi data Anda dengan panduan langkah demi langkah kami.
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Mengatur format garis kisi kecil untuk sumbu Kategori
+// Mengatur format garis kisi kecil untuk sumbu Kategori
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Mengatur warna area Plot
+//Mengatur warna area Plot
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan pengembang 
 
 ### 3. Apakah tersedia uji coba gratis untuk Aspose.Slides untuk .NET?
 
-Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk .NET dari[Di Sini](https://releases.aspose.com/).
+ Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk .NET dari[Di Sini](https://releases.aspose.com/).
 
 ### 4. Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
 

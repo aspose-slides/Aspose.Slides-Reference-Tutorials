@@ -8,7 +8,7 @@ weight: 29
 url: /sv/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
 ## Introduktion
-I den dynamiska presentationsvärlden ger möjligheten att koppla samman former med hjälp av kopplingar ett lager av sofistikering till dina bilder. Aspose.Slides för .NET ger utvecklare möjlighet att uppnå detta sömlöst. Denna handledning guidar dig genom processen och delar upp varje steg för att säkerställa en tydlig förståelse.
+I den dynamiska presentationsvärlden ger möjligheten att koppla samman former med hjälp av kopplingar ett lager av sofistikering till dina bilder. Aspose.Slides för .NET ger utvecklare möjlighet att uppnå detta sömlöst. Den här handledningen guidar dig genom processen och delar upp varje steg för att säkerställa en tydlig förståelse.
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande:
 - Grundläggande kunskaper i C# och .NET framework.

@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```
@@ -75,11 +75,11 @@ fs.write(data, 0, data.length);
 最後に、抽出したファイルデータを指定されたディレクトリに保存します。
 
 ## 結論
-このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーション内の OLE オブジェクトから埋め込みファイル データを抽出する方法を学習しました。提供されている手順に従うことで、この機能を Java アプリケーションにシームレスに統合し、ドキュメント管理機能を強化できます。
+このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーション内の OLE オブジェクトから埋め込まれたファイル データを抽出する方法を学習しました。提供されている手順に従うことで、この機能を Java アプリケーションにシームレスに統合し、ドキュメント管理機能を強化できます。
 ## よくある質問
 ### Aspose.Slides はあらゆる種類の埋め込みオブジェクトからデータを抽出できますか?
 Aspose.Slides は、OLE オブジェクト、グラフなど、さまざまな埋め込みオブジェクトからデータを抽出するための広範なサポートを提供します。
-### Aspose.Slides は PowerPoint のさまざまなバージョンと互換性がありますか?
+### Aspose.Slides はさまざまなバージョンの PowerPoint と互換性がありますか?
 はい、Aspose.Slides はさまざまなバージョンの PowerPoint プレゼンテーションとの互換性を確保し、埋め込まれたデータのシームレスな抽出を保証します。
 ### Aspose.Slides を商用利用する場合、ライセンスは必要ですか?
 はい、Aspose.Slidesを商用利用するには有効なライセンスが必要です。ライセンスはAsposeから取得できます。[Webサイト](https://purchase.aspose.com/temporary-license/).

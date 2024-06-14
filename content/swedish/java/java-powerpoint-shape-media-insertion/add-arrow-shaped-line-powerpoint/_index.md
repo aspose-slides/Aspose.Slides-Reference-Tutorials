@@ -19,7 +19,7 @@ Innan vi börjar, se till att du har följande förutsättningar:
 För att komma igång, importera nödvändiga paket i din Java-klass:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,11 +68,11 @@ Ja, du kan lägga till flera pilformade linjer till en enda bild genom att uppre
 ### Är Aspose.Slides för Java kompatibel med de senaste versionerna av PowerPoint?
 Aspose.Slides för Java stöder kompatibilitet med olika versioner av PowerPoint, vilket säkerställer sömlös integration med dina presentationer.
 ### Kan jag anpassa färgen på den pilformade linjen?
- Ja, du kan anpassa färgen på den pilformade linjen genom att justera`SolidFillColor` egendom i koden.
+Ja, du kan anpassa färgen på den pilformade linjen genom att justera`SolidFillColor` egendom i koden.
 ### Stöder Aspose.Slides för Java andra former än linjer?
 Ja, Aspose.Slides för Java ger omfattande stöd för att lägga till olika former, inklusive rektanglar, cirklar och polygoner, till PowerPoint-bilder.
 ### Var kan jag hitta fler resurser och support för Aspose.Slides för Java?
 Du kan utforska dokumentationen, ladda ner biblioteket och få tillgång till supportforum via följande länkar:
  Dokumentation:[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/)
- Ladda ner:[Aspose.Slides för Java Ladda ner](https://releases.aspose.com/slides/java/)
+ Ladda ner:[Ladda ner Aspose.Slides för Java](https://releases.aspose.com/slides/java/)
  Stöd:[Aspose.Slides för Java Support Forum](https://forum.aspose.com/c/slides/11)

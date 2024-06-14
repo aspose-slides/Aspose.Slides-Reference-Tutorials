@@ -19,7 +19,7 @@ Before diving into the coding part, ensure you have the following prerequisites:
 To get started, you need to import the necessary Aspose.Slides packages into your Java project. Here’s how you do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Let's break down the process of cloning a slide to another presentation with its master slide into detailed steps.
 ## Step 1: Load the Source Presentation

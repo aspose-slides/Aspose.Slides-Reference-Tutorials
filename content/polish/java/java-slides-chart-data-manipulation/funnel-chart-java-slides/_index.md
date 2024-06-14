@@ -10,7 +10,7 @@ url: /pl/java/chart-data-manipulation/funnel-chart-java-slides/
 
 ## Wprowadzenie do tworzenia wykresu lejkowego w Aspose.Slides dla Java
 
-W tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu lejkowego w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Wykresy lejkowe są przydatne do wizualizacji danych, które stopniowo zawężają się lub „przechodzą” przez różne etapy lub kategorie. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci to osiągnąć.
+tym samouczku przeprowadzimy Cię przez proces tworzenia wykresu lejkowego w prezentacji PowerPoint przy użyciu Aspose.Slides dla Java. Wykresy lejkowe są przydatne do wizualizacji danych, które stopniowo zawężają się lub „przechodzą” przez różne etapy lub kategorie. Dostarczymy instrukcje krok po kroku wraz z kodem źródłowym, które pomogą Ci to osiągnąć.
 
 ## Warunki wstępne
 
@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // Dodaj wykres lejkowy do pierwszego slajdu o współrzędnych (50, 50) i wymiarach (500, 400).
+    //Dodaj wykres lejkowy do pierwszego slajdu o współrzędnych (50, 50) i wymiarach (500, 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ Możesz dostosować położenie i rozmiar wykresu lejkowego, modyfikując wspó�
 
 ### Czy mogę wyeksportować wykres do różnych formatów, takich jak PDF lub obraz?
 
- Tak, Aspose.Slides for Java umożliwia eksport prezentacji z wykresem lejkowym do różnych formatów, w tym PDF, formatów obrazów i innych. Możesz skorzystać z`SaveFormat` opcje umożliwiające określenie żądanego formatu wyjściowego podczas zapisywania prezentacji.
+Tak, Aspose.Slides for Java umożliwia eksport prezentacji z wykresem lejkowym do różnych formatów, w tym PDF, formatów obrazów i innych. Możesz skorzystać z`SaveFormat` opcje umożliwiające określenie żądanego formatu wyjściowego podczas zapisywania prezentacji.

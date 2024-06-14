@@ -78,7 +78,7 @@ chart.getChartData().getCategories().add(wb.getCell(0, "C8", "Leaf8"));
 
 ## Stap 6: Voeg gegevens toe aan het diagram
 
-Voeg gegevenspunten toe aan de Sunburst-diagramserie.
+Voeg gegevenspunten toe aan de Sunburst-diagramreeks.
 
 ```java
 IChartSeries series = chart.getChartData().getSeries().add(ChartType.Sunburst);

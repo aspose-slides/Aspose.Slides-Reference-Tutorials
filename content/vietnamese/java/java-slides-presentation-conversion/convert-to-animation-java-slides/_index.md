@@ -34,7 +34,7 @@ import java.io.IOException;
  Để bắt đầu, hãy tải bản trình bày PowerPoint mà bạn muốn chuyển đổi thành hình động. Thay thế`"SimpleAnimations.pptx"` với đường dẫn đến tệp trình bày của bạn:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Khi bản trình bày được phát, mỗi khung hình sẽ được lưu dưới dạng hình ảnh PNG trong thư mục đầu ra được chỉ định. Bạn có thể tùy chỉnh đường dẫn đầu ra nếu cần:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Mã nguồn hoàn chỉnh để chuyển đổi sang hoạt ảnh trong Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

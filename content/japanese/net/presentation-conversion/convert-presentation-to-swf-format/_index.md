@@ -8,7 +8,7 @@ weight: 28
 url: /ja/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
 
-今日のデジタル時代では、マルチメディア プレゼンテーションは強力なコミュニケーション手段です。プレゼンテーションを SWF (Shockwave Flash) 形式に変換するなど、より動的な方法で共有したい場合もあります。このガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションを SWF 形式に変換するプロセスについて説明します。
+今日のデジタル時代では、マルチメディア プレゼンテーションは強力なコミュニケーション手段です。プレゼンテーションを SWF (Shockwave Flash) 形式に変換するなど、より動的な方法で共有したい場合があります。このガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションを SWF 形式に変換するプロセスについて説明します。
 
 ## 必要なもの
 

@@ -21,7 +21,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Projenizi Kurun
 Başlamak için Java projenizi tercih ettiğiniz IDE'de kurun ve Aspose.Slides kütüphanesini projenizin bağımlılıklarına ekleyin.

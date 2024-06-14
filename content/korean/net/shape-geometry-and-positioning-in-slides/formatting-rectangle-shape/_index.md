@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape
 ---
 ## 소개
 Aspose.Slides for .NET은 .NET 환경에서 PowerPoint 프레젠테이션 작업을 용이하게 해주는 강력한 라이브러리입니다. 직사각형 모양의 서식을 동적으로 지정하여 프레젠테이션을 향상시키고 싶다면 이 튜토리얼이 적합합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 직사각형 모양의 서식을 지정하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - .NET용 Aspose.Slides가 설치된 개발 환경입니다.
 - C# 프로그래밍 언어에 대한 기본 지식.
@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## 2단계: 프리젠테이션 개체 만들기
- 인스턴스화`Presentation`PPTX 파일을 나타내는 클래스입니다. 이는 PowerPoint 프레젠테이션의 기초가 됩니다.
+ 인스턴스화`Presentation` PPTX 파일을 나타내는 클래스입니다. 이는 PowerPoint 프레젠테이션의 기초가 됩니다.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 ISlide sld = pres.Slides[0];
 ```
 ## 4단계: 직사각형 모양 추가
- 사용`Shapes` 슬라이드의 속성을 사용하여 직사각형 형태의 자동 모양을 추가할 수 있습니다. 직사각형의 위치와 치수를 지정합니다.
+ 사용`Shapes`슬라이드의 속성을 사용하여 직사각형 형태의 자동 모양을 추가할 수 있습니다. 직사각형의 위치와 치수를 지정합니다.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

@@ -98,7 +98,7 @@ Licencjonowanie licznikowe jest opcjonalne, ale może pomóc w śledzeniu wykorz
 
 ### Czy mogę używać licencji odmierzanych z innymi produktami Aspose?
 
-Tak, licencje odmierzone są dostępne dla różnych produktów Aspose, w tym Aspose.Slides dla Java.
+Tak, dostępne jest licencjonowanie odmierzone dla różnych produktów Aspose, w tym Aspose.Slides dla Java.
 
 ### Co się stanie, jeśli przekroczę limit licznika?
 

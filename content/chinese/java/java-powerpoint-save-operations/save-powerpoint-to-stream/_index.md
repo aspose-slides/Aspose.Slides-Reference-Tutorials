@@ -12,7 +12,7 @@ url: /zh/java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ## 先决条件
 在深入学习本教程之前，请确保您已具备以下条件：
 1. Java 开发工具包 (JDK)：Aspose.Slides for Java 需要 Java SE 开发工具包 (JDK) 8 或更高版本。请确保您的系统上已安装该工具包。
-2. Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[网站](https://releases.aspose.com/slides/java/). 按照提供的安装说明进行操作。
+2.  Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[网站](https://releases.aspose.com/slides/java/). 按照提供的安装说明进行操作。
 
 ## 导入包
 为了在您的项目中使用 Aspose.Slides for Java 的功能，请导入必要的包：
@@ -21,7 +21,7 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

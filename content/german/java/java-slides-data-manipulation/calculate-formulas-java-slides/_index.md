@@ -1,6 +1,6 @@
 ---
-title: Formeln in Java-Folien berechnen
-linktitle: Formeln in Java-Folien berechnen
+title: Formeln in Java berechnen - Folien
+linktitle: Formeln in Java berechnen - Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Formeln in Java Slides berechnen. Schritt-für-Schritt-Anleitung mit Quellcode für dynamische PowerPoint-Präsentationen.
 type: docs
@@ -25,7 +25,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und ihr eine Folie hinzufügen. In diesem Beispiel arbeiten wir mit einer einzelnen Folie.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Vollständiger Quellcode zum Berechnen von Formeln in Java-Folien
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

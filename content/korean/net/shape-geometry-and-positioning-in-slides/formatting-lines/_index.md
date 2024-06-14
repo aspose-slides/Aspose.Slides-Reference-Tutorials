@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
 ## 소개
 효과적인 의사소통을 위해서는 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 프레젠테이션 요소를 프로그래밍 방식으로 조작하고 형식을 지정하는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 선 서식을 지정하는 방법에 중점을 둘 것입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[Aspose.Slides .NET 문서](https://reference.aspose.com/slides/net/).
 - 개발 환경: Visual Studio 또는 기타 호환 가능한 IDE를 사용하여 .NET 개발 환경을 설정합니다.
@@ -72,6 +72,6 @@ pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
 ### Q3: 추가 지원을 찾거나 질문을 할 수 있는 곳은 어디입니까?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 지원 및 지역 사회 지원을 위해.
 ### Q4: Aspose.Slides의 임시 라이선스를 어떻게 얻나요?
- 임시면허를 받을 수 있습니다.[Aspose.Slides 임시 라이선스](https://purchase.aspose.com/temporary-license/).
+ 임시면허를 받을 수 있습니다.[Aspose.Slides 임시 라이센스](https://purchase.aspose.com/temporary-license/).
 ### Q5: .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  에서 제품을 구매하실 수 있습니다.[Aspose.Slides 구매](https://purchase.aspose.com/buy).

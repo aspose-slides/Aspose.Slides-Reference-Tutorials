@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Création du graphique par défaut
+//Création du graphique par défaut
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Enfin, nous enregistrons la présentation avec les nouveaux paramètres du graph
 
 Aspose.Slides pour .NET vous permet de créer de superbes présentations graphiques avec diverses options de personnalisation. Dans ce didacticiel, nous nous sommes concentrés sur l'utilisation des options de marqueurs de graphique sur les points de données pour améliorer la représentation visuelle de vos données. Avec Aspose.Slides pour .NET, vous pouvez faire passer vos présentations au niveau supérieur, les rendant plus attrayantes et informatives.
 
- Si vous avez des questions ou avez besoin d'aide avec Aspose.Slides pour .NET, n'hésitez pas à visiter le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) ou contactez le[Aspose la communauté](https://forum.aspose.com/) pour le soutien.
+Si vous avez des questions ou avez besoin d'aide avec Aspose.Slides pour .NET, n'hésitez pas à visiter le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) ou contactez le[Aspose la communauté](https://forum.aspose.com/) pour le soutien.
 
 ## Foire aux questions (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides pour .NET vous permet de créer de superbes présentations graphiq
 Oui, vous pouvez utiliser des images personnalisées comme marqueurs pour les points de données dans Aspose.Slides for .NET, comme démontré dans ce didacticiel.
 
 ### Comment puis-je modifier le type de graphique dans Aspose.Slides pour .NET ?
-Vous pouvez modifier le type de graphique en spécifiant un autre`ChartType` lors de la création du graphique, tel que « Barre », « Secteur » ou « Zone ».
+ Vous pouvez modifier le type de graphique en spécifiant un autre`ChartType` lors de la création du graphique, tel que « Barre », « Secteur » ou « Zone ».
 
 ### Aspose.Slides pour .NET est-il compatible avec les dernières versions de PowerPoint ?
 Aspose.Slides for .NET est conçu pour fonctionner avec différents formats PowerPoint et est régulièrement mis à jour pour maintenir la compatibilité avec les dernières versions de PowerPoint.

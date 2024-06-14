@@ -46,7 +46,7 @@ System.out.println("Is presentation write protected by password = " + isWritePro
 
  Ersetzen`"path_to_presentation.pptx"` mit dem tatsächlichen Pfad zu Ihrer Präsentationsdatei und`"password_here"` mit dem Schreibschutzpasswort.
 
-## Schritt 2: Öffnungsschutz prüfen
+## Schritt 2: Öffnen-Schutz prüfen
 
  Um zu prüfen, ob eine Präsentation durch ein Passwort zum Öffnen geschützt ist, können Sie den`IPresentationInfo` Schnittstelle. Hier ist der Code dazu:
 
@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //Pfad zur Quellendarstellung
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // Überprüfen des Schreibschutzkennworts über die IPresentationInfo-Schnittstelle
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

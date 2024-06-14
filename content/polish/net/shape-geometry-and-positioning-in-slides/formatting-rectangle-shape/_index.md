@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Krok 2: Utwórz obiekt prezentacji
- Utwórz instancję`Presentation`klasa reprezentująca plik PPTX. Będzie to podstawa Twojej prezentacji w programie PowerPoint.
+ Utwórz instancję`Presentation` klasa reprezentująca plik PPTX. Będzie to podstawa Twojej prezentacji w programie PowerPoint.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Uzyskaj dostęp do pierwszego slajdu w prezentacji, ponieważ będzie to płótn
 ISlide sld = pres.Slides[0];
 ```
 ## Krok 4: Dodaj kształt prostokąta
- Użyj`Shapes` właściwość slajdu, aby dodać automatyczny kształt typu prostokąta. Określ położenie i wymiary prostokąta.
+ Użyj`Shapes`właściwość slajdu, aby dodać automatyczny kształt typu prostokąta. Określ położenie i wymiary prostokąta.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
@@ -64,7 +64,7 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Gratulacje! Pomyślnie sformatowałeś kształt prostokąta w prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Wniosek
-tym samouczku omówiliśmy podstawy pracy z kształtami prostokątnymi w Aspose.Slides dla .NET. Nauczyłeś się, jak skonfigurować projekt, utworzyć prezentację, dodać kształt prostokąta i zastosować formatowanie, aby poprawić jego atrakcyjność wizualną. Kontynuując eksplorację Aspose.Slides, odkryjesz jeszcze więcej sposobów na ulepszenie prezentacji PowerPoint.
+W tym samouczku omówiliśmy podstawy pracy z kształtami prostokątnymi w Aspose.Slides dla .NET. Nauczyłeś się, jak skonfigurować projekt, utworzyć prezentację, dodać kształt prostokąta i zastosować formatowanie, aby poprawić jego atrakcyjność wizualną. Kontynuując eksplorację Aspose.Slides, odkryjesz jeszcze więcej sposobów na ulepszenie prezentacji PowerPoint.
 ## Często zadawane pytania
 ### P1: Czy mogę używać Aspose.Slides dla .NET z innymi językami .NET?
 Tak, Aspose.Slides obsługuje inne języki .NET, takie jak VB.NET i F#, oprócz C#.

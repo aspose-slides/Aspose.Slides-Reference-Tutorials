@@ -12,14 +12,14 @@ Membuat presentasi PowerPoint yang menarik secara visual bisa menjadi tugas yang
 ## Prasyarat
 Sebelum kita mulai, ada beberapa prasyarat yang perlu Anda miliki:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di mesin Anda. Anda dapat mengunduhnya dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Library: Anda perlu mengunduh dan menyertakan Aspose.Slides for Java dalam proyek Anda. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Anda perlu mengunduh dan menyertakan Aspose.Slides for Java dalam proyek Anda. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/slides/java/).
 3. Lingkungan Pengembangan Terintegrasi (IDE): Gunakan IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans untuk menulis dan mengeksekusi kode Java Anda.
 4. Pengetahuan Dasar tentang Java: Pemahaman dasar tentang pemrograman Java akan membantu Anda mengikuti tutorialnya.
 ## Paket Impor
 Pertama, Anda perlu mengimpor paket yang diperlukan untuk Aspose.Slides. Ini penting untuk mengakses kelas dan metode yang diperlukan untuk manipulasi presentasi kita.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Pada langkah ini, kami menentukan jalur direktori dan memeriksa apakah jalur tersebut ada. Jika tidak, kami membuat direktori. Ini adalah cara sederhana namun efektif untuk menjaga file Anda tetap teratur.
 ## Langkah 2: Inisialisasi Presentasi
- Selanjutnya, kita membuat instance`Presentation`kelas, yang mewakili file PowerPoint kita. Ini adalah fondasi dimana kita akan membangun slide dan bentuk kita.
+ Selanjutnya, kita membuat instance`Presentation` kelas, yang mewakili file PowerPoint kita. Ini adalah fondasi dimana kita akan membangun slide dan bentuk kita.
 ```java
 Presentation pres = new Presentation();
 ```

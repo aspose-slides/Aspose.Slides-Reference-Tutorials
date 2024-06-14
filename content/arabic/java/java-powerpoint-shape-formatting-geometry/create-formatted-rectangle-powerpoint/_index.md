@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 للبدء، ستحتاج إلى استيراد الحزم الضرورية من مكتبة Aspose.Slides. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -40,7 +40,7 @@ Presentation pres = new Presentation();
 ```
 يقوم سطر التعليمات البرمجية هذا بإنشاء عرض تقديمي جديد وفارغ يمكنك البدء في إضافة المحتوى إليه.
 ## الخطوة 3: إضافة شريحة إلى العرض التقديمي
-الآن، دعنا نضيف شريحة إلى العرض التقديمي الخاص بك. افتراضيًا، يحتوي العرض التقديمي الجديد على شريحة واحدة، لذلك سنتعامل معها.
+الآن، دعونا نضيف شريحة إلى العرض التقديمي الخاص بك. افتراضيًا، يحتوي العرض التقديمي الجديد على شريحة واحدة، لذلك سنتعامل معها.
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 يحفظ سطر التعليمات البرمجية هذا العرض التقديمي كملف PPTX في الدليل المحدد لديك.
 ## الخطوة 7: تنظيف الموارد
- إنها ممارسة جيدة للتخلص من`Presentation`كائن لتحرير الموارد.
+ إنها ممارسة جيدة للتخلص من`Presentation` كائن لتحرير الموارد.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Aspose.Slides for Java هي مكتبة تسمح للمطورين بإنشاء ع
 ### كيف يمكنني الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ Java؟
  يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/).
 ###  هل من الضروري التخلص من`Presentation` object?
- نعم التخلص من`Presentation`يساعد الكائن على تحرير الموارد وتجنب تسرب الذاكرة.
+ نعم التخلص من`Presentation` يساعد الكائن على تحرير الموارد وتجنب تسرب الذاكرة.
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ Java؟
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).

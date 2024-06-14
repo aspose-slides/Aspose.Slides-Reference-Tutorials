@@ -197,7 +197,7 @@ Dieser Code konfiguriert die Darstellung der Hauptrasterlinien auf der Kategorie
 Ähnlich wie bei der Werteachse können Sie die Nebenrasterlinien für die Kategorieachse anpassen.
 
 ```csharp
-//Festlegen des Formats für Nebengitterlinien für die Kategorieachse
+// Festlegen des Formats für Nebengitterlinien für die Kategorieachse
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Festlegen der Farbe des Plotbereichs
+//Festlegen der Farbe des Plotbereichs
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Sunum oluşturmaya yönelik kodunuz buraya gelecek.
+    // Sunum oluşturmaya yönelik kodunuz buraya gelecek.
 }
 ```
 ## Adım 2: Animasyonlu Şekil Ekleme

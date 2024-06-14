@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
+    // Αναγκαστική μη αποθήκευση εικόνων σε έγγραφο HTML5
     EmbedImages = false,
     // Ορίστε τη διαδρομή για εξωτερικές εικόνες
     OutputPath = outPath

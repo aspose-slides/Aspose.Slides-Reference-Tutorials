@@ -21,12 +21,12 @@ url: /ar/java/java-powerpoint-properties-management/access-presentation-properti
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بتعيين دليل البيانات
 قبل الغوص في الوظائف الأساسية، قم بتعيين دليل البيانات للوصول إلى ملف العرض التقديمي الخاص بك:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## الخطوة 2: إنشاء خيارات التحميل
 إنشاء خيارات التحميل لتكوين كيفية الوصول إلى ملف العرض التقديمي. في هذا المثال، نقوم بتعيين كلمة مرور الوصول إلى null وتمكين تحميل خصائص المستند فقط:

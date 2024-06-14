@@ -69,7 +69,7 @@ In questo tutorial, abbiamo trattato i passaggi per rimuovere le note da una dia
 ## Domande frequenti (FAQ)
 
 ### Cos'è Aspose.Slides per .NET?
-Aspose.Slides per .NET è una potente libreria per lavorare con i file PowerPoint a livello di codice. Ti consente di creare, modificare e manipolare presentazioni PowerPoint nelle applicazioni .NET.
+Aspose.Slides per .NET è una potente libreria per lavorare con i file PowerPoint a livello di programmazione. Ti consente di creare, modificare e manipolare presentazioni PowerPoint nelle applicazioni .NET.
 
 ### Posso rimuovere note da più diapositive contemporaneamente utilizzando Aspose.Slides per .NET?
 Sì, puoi scorrere le diapositive e rimuovere note da più diapositive utilizzando snippet di codice simili.

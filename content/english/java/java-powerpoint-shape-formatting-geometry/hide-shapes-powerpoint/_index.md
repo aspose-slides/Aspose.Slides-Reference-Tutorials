@@ -19,7 +19,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 To get started, you'll need to import the necessary packages for Aspose.Slides. Here's how you can do it:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In this section, we'll break down the process of hiding shapes in PowerPoint into easy-to-follow steps. Each step includes a heading and a detailed explanation.
 ## Step 1: Set Up Your Project

@@ -14,7 +14,7 @@ url: /ko/net/presentation-manipulation/formatting-svgs-in-presentations/
 
 오늘날과 같은 디지털 시대에 프레젠테이션은 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. SVG(Scalable Vector Graphics) 모양을 통합하면 프레젠테이션을 더욱 매력적이고 시각적으로 멋지게 만들 수 있습니다. .NET용 Aspose.Slides를 사용하면 특정 디자인 요구 사항에 맞게 SVG 모양의 형식을 쉽게 지정할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

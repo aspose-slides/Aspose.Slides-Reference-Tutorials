@@ -71,7 +71,7 @@ Ve bu kadar! Java ve Aspose.Slides for Java kullanarak bir PowerPoint sunumunu b
 // Belgeler dizininin yolu
 String dataDir = "Your Document Directory";
 // Çıktı dosyasının yolu
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Bir sunum dosyasını temsil eden bir Sunum nesnesinin örneğini oluşturun
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

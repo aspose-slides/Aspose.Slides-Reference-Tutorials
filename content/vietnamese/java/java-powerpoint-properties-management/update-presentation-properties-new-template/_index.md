@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Xác định phương thức chính
 Tạo một phương thức chính trong đó bạn sẽ bắt đầu quá trình cập nhật các thuộc tính bản trình bày bằng một mẫu mới. Phương thức này đóng vai trò là điểm vào cho ứng dụng Java của bạn.

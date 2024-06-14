@@ -10,7 +10,7 @@ url: /zh/net/chart-creation-and-customization/header-footer-manager/
 
 # 在 Aspose.Slides for .NET 中创建动态页眉和页脚
 
-在动态演示领域，Aspose.Slides for .NET 是您值得信赖的盟友。这个功能强大的库允许您制作具有交互性的引人注目的 PowerPoint 演示文稿。一个关键功能是能够添加动态页眉和页脚，这可以为您的幻灯片注入活力。在本分步指南中，我们将探讨如何利用 Aspose.Slides for .NET 将这些动态元素添加到您的演示文稿中。那么，让我们开始吧！
+在动态演示领域，Aspose.Slides for .NET 是您值得信赖的盟友。这个功能强大的库允许您制作具有一定互动性的引人注目的 PowerPoint 演示文稿。一个关键功能是能够添加动态页眉和页脚，这可以为您的幻灯片注入活力。在本分步指南中，我们将探讨如何利用 Aspose.Slides for .NET 将这些动态元素添加到您的演示文稿中。那么，让我们开始吧！
 
 ## 先决条件
 
@@ -47,7 +47,7 @@ string dataDir = "Your Document Directory";
 using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"))
 {
     //您的页眉和页脚管理代码将放在这里。
-    //...
+    // ...
 }
 ```
 

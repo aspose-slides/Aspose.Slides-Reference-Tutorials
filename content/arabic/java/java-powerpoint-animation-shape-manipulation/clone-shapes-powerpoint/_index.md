@@ -12,13 +12,13 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 1.  Java Development Kit (JDK): تأكد من تثبيت Java Development Kit على نظامك. يمكنك تنزيل وتثبيت أحدث إصدار من[موقع إلكتروني](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: قم بتنزيل مكتبة Aspose.Slides for Java وتضمينها في مشروع Java الخاص بك. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: قم بتنزيل مكتبة Aspose.Slides for Java وتضمينها في مشروع Java الخاص بك. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/slides/java/).
 
 ## حزم الاستيراد
 للبدء، ستحتاج إلى استيراد الحزم الضرورية إلى مشروع Java الخاص بك. توفر هذه الحزم الوظائف المطلوبة للعمل مع عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بتحميل العرض التقديمي
  أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على الأشكال التي تريد استنساخها. استخدم ال`Presentation` فئة لتحميل العرض التقديمي المصدر.

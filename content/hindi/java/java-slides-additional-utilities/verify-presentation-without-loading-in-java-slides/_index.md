@@ -2,7 +2,7 @@
 title: जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें
 linktitle: जावा स्लाइड्स में लोड किए बिना प्रेजेंटेशन सत्यापित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में लोड किए बिना प्रेजेंटेशन को सत्यापित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ कुशलतापूर्वक फ़ाइल अखंडता सुनिश्चित करें।
+description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में लोड किए बिना प्रेजेंटेशन को सत्यापित करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ फ़ाइल अखंडता को कुशलतापूर्वक सुनिश्चित करें।
 type: docs
 weight: 18
 url: /hi/java/additional-utilities/verify-presentation-without-loading-in-java-slides/

@@ -76,6 +76,6 @@ Aspose.Slides for .NET は、変換プロセスを正確に制御し、高品質
 プロジェクトでAspose.Slides for .NETを使用するには、Asposeからライセンスを取得する必要があります。ライセンスの詳細については、[ここ](https://purchase.aspose.com/buy).
 
 ### Q5. Aspose.Slides for .NET のサポートはどこで受けられますか?
-何か問題や質問がある場合は、[Aspose.Slides フォーラム](https://forum.aspose.com/).
+問題が発生した場合や質問がある場合は、[Aspose.Slides フォーラム](https://forum.aspose.com/).
 
 これらの手順に従うと、Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを HTML に簡単に変換できます。プレゼンテーションをオンラインでより多くのユーザーと共有しましょう。

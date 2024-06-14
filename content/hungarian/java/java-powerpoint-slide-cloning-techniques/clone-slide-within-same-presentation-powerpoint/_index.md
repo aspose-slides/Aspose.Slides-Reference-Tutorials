@@ -8,7 +8,7 @@ weight: 15
 url: /hu/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
 ## Bevezetés
-Készen állsz, hogy belemerülj az Aspose.Slides for Java világába, és megtanuld, hogyan klónozhatsz diákat ugyanazon a prezentáción belül? Ez az oktatóanyag végigvezeti Önt mindenen, amit tudnia kell, az előfeltételektől a végső megvalósításig. Kezdjük el!
+Készen áll arra, hogy belemerüljön az Aspose.Slides for Java világába, és megtanulja, hogyan klónozhat diákat ugyanazon a prezentáción belül? Ez az oktatóanyag végigvezeti Önt mindenen, amit tudnia kell, az előfeltételektől a végső megvalósításig. Kezdjük el!
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 -  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti a[Oracle webhely](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -22,11 +22,11 @@ Először is importáljuk az Aspose.Slides for Java programhoz szükséges csoma
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 ## 1. lépés: Állítsa be projektjét
- Kezdje a Java projekt beállításával az IDE-ben. Hozzon létre egy új projektet, és adja hozzá az Aspose.Slides for Java könyvtárat a projektfüggőségekhez. A könyvtár letölthető a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/).
+Kezdje a Java projekt beállításával az IDE-ben. Hozzon létre egy új projektet, és adja hozzá az Aspose.Slides for Java könyvtárat a projektfüggőségekhez. A könyvtár letölthető a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/).
 ## 2. lépés: Határozza meg az adatkönyvtárat
 Határozza meg a dokumentumkönyvtár elérési útját, ahol a prezentációs fájl található. Ez segít az Aspose.Slides-nek a fájlok helyes megtalálásában és mentésében.
 ```java
@@ -62,8 +62,8 @@ Az Aspose.Slides for Java egy hatékony API a PowerPoint prezentációk használ
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
  Letöltheti az Aspose.Slides for Java legújabb verzióját a webhelyről[letöltési oldal](https://releases.aspose.com/slides/java/).
 ### Létezik ingyenes próbaverzió az Aspose.Slides for Java számára?
-Igen, elérheti az Aspose.Slides for Java ingyenes próbaverzióját, ha felkeresi a[ingyenes próbaoldal](https://releases.aspose.com/).
+ Igen, elérheti az Aspose.Slides for Java ingyenes próbaverzióját, ha felkeresi a[ingyenes próbaoldal](https://releases.aspose.com/).
 ### Hol találom az Aspose.Slides for Java dokumentációját?
- Az Aspose.Slides for Java dokumentációja itt érhető el[Aspose honlapja](https://reference.aspose.com/slides/java/).
+Az Aspose.Slides for Java dokumentációja itt érhető el[Aspose honlapja](https://reference.aspose.com/slides/java/).
 ### Hogyan vásárolhatom meg az Aspose.Slides for Java programot?
  Az Aspose.Slides for Java megvásárlásához látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy).

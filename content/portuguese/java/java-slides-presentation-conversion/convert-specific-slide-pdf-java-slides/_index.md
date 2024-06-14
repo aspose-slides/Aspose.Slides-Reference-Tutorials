@@ -16,7 +16,7 @@ No mundo do desenvolvimento Java, trabalhar com slides de apresentação é uma 
 
 Antes de mergulharmos no código, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-1. Biblioteca Aspose.Slides para Java: Você precisará ter a biblioteca Aspose.Slides para Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
+1.  Biblioteca Aspose.Slides para Java: Você precisará ter a biblioteca Aspose.Slides para Java instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/slides/java/).
 
 2. Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java configurado em seu sistema.
 

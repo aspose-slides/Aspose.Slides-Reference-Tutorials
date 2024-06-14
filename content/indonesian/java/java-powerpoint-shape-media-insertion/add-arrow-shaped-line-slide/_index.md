@@ -12,14 +12,14 @@ Dalam tutorial ini, kita akan mempelajari cara menambahkan garis berbentuk panah
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 - Java Development Kit (JDK) diinstal pada sistem Anda.
-- Aspose.Slides untuk perpustakaan Java diunduh dan disiapkan di proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides untuk perpustakaan Java diunduh dan disiapkan di proyek Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/slides/java/).
 - Pengetahuan dasar bahasa pemrograman Java.
 
 ## Paket Impor
 Pertama, impor paket yang diperlukan ke kelas Java Anda:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ Dalam tutorial ini, kita mempelajari cara menambahkan garis berbentuk panah ke s
 ### Bisakah saya menyesuaikan warna garis panah?
  Ya, Anda dapat menentukan warna apa pun menggunakan`setColor` metode dengan`SolidFillColor`.
 ### Bagaimana cara mengubah posisi dan ukuran garis panah?
-Sesuaikan parameter yang diteruskan ke`addAutoShape` metode untuk mengubah posisi dan dimensi.
+ Sesuaikan parameter yang diteruskan ke`addAutoShape` metode untuk mengubah posisi dan dimensi.
 ### Apakah Aspose.Slides kompatibel dengan semua versi PowerPoint?
 Aspose.Slides mendukung berbagai format PowerPoint, memastikan kompatibilitas di berbagai versi.
 ### Bisakah saya menambahkan teks ke garis panah?

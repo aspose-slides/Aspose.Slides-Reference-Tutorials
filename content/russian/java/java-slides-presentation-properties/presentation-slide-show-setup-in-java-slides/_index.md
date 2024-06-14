@@ -21,7 +21,7 @@ url: /ru/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 Сначала нам нужно создать новую презентацию PowerPoint. Вот как это можно сделать на Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Полный исходный код для настройки слайд-шоу презентации в слайдах Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Получает настройки слайд-шоу

@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Krok 3: Dostosuj tła slajdów
 Popraw atrakcyjność wizualną swoich slajdów, dostosowując ich tła. W tym przykładzie dla drugiego slajdu ustawiliśmy jednolite, cyjanowe tło.
 ```csharp
-//Utwórz tło dla drugiego slajdu
+// Utwórz tło dla drugiego slajdu
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;
@@ -84,7 +84,7 @@ Tak, możesz dostosować różne aspekty, takie jak szerokość linii, kolor wyp
 ### P: Czy dostępna jest wersja próbna Aspose.Slides dla .NET?
  Tak, możesz uzyskać dostęp do wersji próbnej[Tutaj](https://releases.aspose.com/).
 ### P: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
- Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie i dyskusje.
+ Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie i dyskusję.
 ### P: Jak mogę uzyskać tymczasową licencję na Aspose.Slides dla .NET?
  Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę kupić pełną wersję Aspose.Slides dla .NET?

@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Das Bitmap-Objekt enthält jetzt das Miniaturbild mit angegebenen Grenzen.
 }
 ```
- In diesem Schritt wird ein Miniaturbild einer Form mit festgelegten Grenzen erstellt.`ShapeThumbnailBounds.Appearance`wird verwendet, um die Erscheinungsgrenzen zu definieren. Passen Sie die Parameter (1, 1) entsprechend Ihren Anforderungen an.
+ In diesem Schritt wird ein Miniaturbild einer Form mit festgelegten Grenzen erstellt.`ShapeThumbnailBounds.Appearance` wird verwendet, um die Erscheinungsgrenzen zu definieren. Passen Sie die Parameter (1, 1) entsprechend Ihren Anforderungen an.
 ## Schritt 3: Speichern Sie das Image auf der Festplatte
 ```csharp
-// Speichern Sie das Bild im PNG-Format auf der Festplatte
+//Speichern Sie das Bild im PNG-Format auf der Festplatte
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 In diesem letzten Schritt wird das generierte Miniaturbild im PNG-Format auf der Festplatte gespeichert. Sie können den Dateinamen und das Format nach Ihren Wünschen anpassen.
@@ -53,9 +53,9 @@ Aspose.Slides für .NET vereinfacht die Arbeit mit PowerPoint-Präsentationen un
 ### Ist Aspose.Slides mit dem neuesten .NET-Framework kompatibel?
 Ja, Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten Versionen des .NET Frameworks sicherzustellen.
 ### Kann ich Aspose.Slides für kommerzielle Projekte verwenden?
-Absolut! Aspose.Slides bietet Lizenzoptionen sowohl für den individuellen als auch für den kommerziellen Gebrauch. Besuchen Sie[Hier](https://purchase.aspose.com/buy) um Lizenzdetails zu erkunden.
+ Absolut! Aspose.Slides bietet Lizenzoptionen sowohl für den individuellen als auch für den kommerziellen Gebrauch. Besuchen Sie[Hier](https://purchase.aspose.com/buy) um Lizenzdetails zu erkunden.
 ### Gibt es eine kostenlose Testversion für Aspose.Slides?
- Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/) um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.
+ Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/)um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.
 ### Wie kann ich Support für Aspose.Slides erhalten?
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community in Kontakt zu treten und Hilfe von erfahrenen Entwicklern zu suchen.
 ### Kann ich eine temporäre Lizenz für Aspose.Slides erhalten?

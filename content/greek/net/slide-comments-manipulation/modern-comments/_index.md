@@ -69,7 +69,7 @@ ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
 IModernComment modernComment = newAuthor.Comments.AddModernComment("This is a modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 ```
 
-### Βήμα 5: Αποθηκεύστε την παρουσίαση
+### Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση με το προστιθέμενο σύγχρονο σχόλιο στην τοποθεσία που επιθυμείτε.
 

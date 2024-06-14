@@ -2,7 +2,7 @@
 title: Konvertálja az adott diát PDF formátumba
 linktitle: Konvertálja az adott diát PDF formátumba
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan konvertálhat adott PowerPoint diákat PDF formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
+description: Ismerje meg, hogyan konvertálhat adott PowerPoint diákat PDF formátumba az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
 type: docs
 weight: 19
 url: /hu/net/presentation-conversion/convert-specific-slide-to-pdf-format/

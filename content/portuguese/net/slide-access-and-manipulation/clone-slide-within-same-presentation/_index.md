@@ -74,7 +74,7 @@ Após fazer as alterações necessárias, você pode salvar a apresentação:
 presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ```
 
-## Executando o Código
+## Executando o código
 
 1. Construa seu projeto para garantir que não haja erros.
 2. Execute o aplicativo.

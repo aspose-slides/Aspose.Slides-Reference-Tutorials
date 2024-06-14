@@ -12,7 +12,7 @@ Bu eğitimde Aspose.Slides kullanarak Java'da SmartArt alt not küçük resimler
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2. Aspose.Slides for Java kütüphanesi indirildi ve projenizde yapılandırıldı. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java kütüphanesi indirildi ve projenizde yapılandırıldı. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
 
 ## Paketleri İçe Aktar
 Gerekli paketleri Java sınıfınıza aktardığınızdan emin olun:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -60,7 +60,7 @@ Sunumunuzda gerektiği gibi her SmartArt düğümü için bu adımları tekrarla
 ## Çözüm
 Bu eğitimde Aspose.Slides'ı kullanarak Java'da SmartArt alt not küçük resimlerinin nasıl oluşturulacağını öğrendik. Bu bilgiyle PowerPoint sunumlarınızı programlı olarak geliştirebilir ve görsel olarak çekici öğeleri kolaylıkla ekleyebilirsiniz.
 ## SSS'ler
-### Aspose.Slides'ı mevcut PowerPoint dosyalarını düzenlemek için kullanabilir miyim?
+### Mevcut PowerPoint dosyalarını değiştirmek için Aspose.Slides'ı kullanabilir miyim?
 Evet, Aspose.Slides, slaytları ve içeriklerini eklemek, kaldırmak veya düzenlemek de dahil olmak üzere mevcut PowerPoint dosyalarını değiştirmenize olanak tanır.
 ### Aspose.Slides slaytların farklı dosya formatlarına aktarılmasını destekliyor mu?
 Kesinlikle! Aspose.Slides, slaytların PDF, görseller ve HTML gibi çeşitli formatlara aktarılmasını destekler.

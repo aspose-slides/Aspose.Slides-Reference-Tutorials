@@ -1,6 +1,6 @@
 ---
-title: Klona Slide to End i samma presentation
-linktitle: Klona Slide to End i samma presentation
+title: Klona bild till slut i samma presentation
+linktitle: Klona bild till slut i samma presentation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du klona en bild till slutet av en presentation med Aspose.Slides för Java med denna steg-för-steg-guide. Perfekt för Java-utvecklare.
 type: docs
@@ -21,7 +21,7 @@ Först måste du importera de nödvändiga paketen från Aspose.Slides för Java
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Konfigurera ditt projekt
 För att börja, ställ in ditt Java-projekt i din föredragna IDE och inkludera Aspose.Slides-biblioteket i ditt projekts beroenden.

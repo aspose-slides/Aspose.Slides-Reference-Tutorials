@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Füllfarbe für Serien festlegen
+// Füllfarbe für Serien festlegen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Füllfarbe für Serien festlegen
+// Füllfarbe für Serien festlegen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Erste Chartserie erstellen
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Jetzt werden Seriendaten gefüllt
+// Jetzt werden Seriendaten gefüllt
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Füllfarbe für Serien festlegen
+// Füllfarbe für Serien festlegen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Nehmen Sie die zweite Diagrammreihe
 series = chart.getChartData().getSeries().get_Item(1);
-//Jetzt werden Seriendaten gefüllt
+// Jetzt werden Seriendaten gefüllt
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Füllfarbe für Serien festlegen
+// Füllfarbe für Serien festlegen
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Das erste Etikett zeigt den Kategorienamen
@@ -223,7 +223,7 @@ In diesem Tutorial haben wir gelernt, wie man mit der Aspose.Slides für Java-AP
 
 ### Wie kann ich den Diagrammtyp ändern?
 
- Um den Diagrammtyp zu ändern, ändern Sie die`ChartType` Parameter beim Hinzufügen des Diagramms mit`sld.getShapes().addChart()`. Sie können aus verschiedenen Diagrammtypen wählen, die in Aspose.Slides verfügbar sind.
+ Um den Diagrammtyp zu ändern, ändern Sie die`ChartType`Parameter beim Hinzufügen des Diagramms mit`sld.getShapes().addChart()`. Sie können aus verschiedenen Diagrammtypen wählen, die in Aspose.Slides verfügbar sind.
 
 ### Kann ich die Farben der Diagrammreihen ändern?
 
@@ -239,4 +239,4 @@ In diesem Tutorial haben wir gelernt, wie man mit der Aspose.Slides für Java-AP
 
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
- Um das Diagramm in einem anderen Dateiformat zu speichern, ändern Sie das`SaveFormat` Parameter im`pres.save()`Methode in das gewünschte Format (z. B. PDF, PNG, JPEG).
+ Um das Diagramm in einem anderen Dateiformat zu speichern, ändern Sie das`SaveFormat` Parameter im`pres.save()` Methode in das gewünschte Format (z. B. PDF, PNG, JPEG).

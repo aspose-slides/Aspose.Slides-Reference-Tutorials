@@ -43,7 +43,7 @@ String dataDir = "Your Document Directory";
 
 ## 3. lépés: Inicializálja a prezentációt
 
- Töltse be a HTML-be konvertálni kívánt prezentációt. Ügyeljen arra, hogy cserélje ki`"presentationWith.pptx"` a prezentáció fájlnevével.
+ Töltse be a HTML-be konvertálni kívánt prezentációt. Mindenképpen cserélje ki`"presentationWith.pptx"` a prezentáció fájlnevével.
 
 ```java
 Presentation pres = new Presentation("presentationWith.pptx");
@@ -51,7 +51,7 @@ Presentation pres = new Presentation("presentationWith.pptx");
 
 ## 4. lépés: Hozza létre a HTML-vezérlőt
 
- Létrehozunk a`VideoPlayerHtmlController` kezelni az átalakítási folyamatot. Cserélje ki az URL-t a kívánt webcímre.
+ Létrehozunk a`VideoPlayerHtmlController` az átalakítási folyamat kezelésére. Cserélje ki az URL-t a kívánt webcímre.
 
 ```java
 VideoPlayerHtmlController controller = new VideoPlayerHtmlController(

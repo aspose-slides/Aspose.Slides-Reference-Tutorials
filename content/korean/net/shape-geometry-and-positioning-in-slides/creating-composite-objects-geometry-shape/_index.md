@@ -9,7 +9,7 @@ url: /ko/net/shape-geometry-and-positioning-in-slides/creating-composite-objects
 ---
 ## 소개
 Aspose.Slides for .NET의 강력한 기능을 활용하여 기하학적 모양으로 복합 개체를 만들어 프레젠테이션을 향상하세요. 이 튜토리얼은 Aspose.Slides를 사용하여 복잡한 기하학적 구조로 시각적으로 매력적인 슬라이드를 생성하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 이해.
 -  .NET 라이브러리용 Aspose.Slides를 설치했습니다. 다음에서 다운로드할 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/).

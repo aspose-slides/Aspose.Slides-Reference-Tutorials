@@ -17,7 +17,7 @@ url: /ru/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 Прежде чем мы углубимся в код и процесс преобразования, убедитесь, что у вас есть следующие предварительные условия:
 
 - В вашей системе установлен Java Development Kit (JDK).
-- API Aspose.Slides для Java, который можно загрузить с сайта[здесь](https://releases.aspose.com/slides/java/).
+-  API Aspose.Slides для Java, который можно загрузить с сайта[здесь](https://releases.aspose.com/slides/java/).
 -  Файл презентации (например,`presentation.pptx`), который вы хотите преобразовать в HTML.
 
 ## Шаг 1. Настройка среды Java
@@ -26,7 +26,7 @@ url: /ru/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Шаг 2. Загрузка файла презентации
 
- В ваш Java-код вам необходимо загрузить файл презентации, который вы хотите преобразовать. Заменять`"Your Document Directory"` с фактическим путем к файлу вашей презентации.
+В ваш Java-код вам необходимо загрузить файл презентации, который вы хотите преобразовать. Заменять`"Your Document Directory"` с фактическим путем к файлу вашей презентации.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ finally
 
 ### Могу ли я дополнительно настроить вывод HTML, например стиль и макет?
 
- Да, вы можете настроить вывод HTML, изменив`HtmlOptions`и шаблон HTML, используемый для форматирования. Aspose.Slides для Java обеспечивает гибкость в этом отношении.
+ Да, вы можете настроить вывод HTML, изменив`HtmlOptions` и шаблон HTML, используемый для форматирования. Aspose.Slides для Java обеспечивает гибкость в этом отношении.
 
 ### Существуют ли какие-либо ограничения при встраивании шрифтов в HTML?
 

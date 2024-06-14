@@ -17,7 +17,7 @@ Zorg ervoor dat u over het volgende beschikt voordat u begint:
 Importeer om te beginnen de benodigde pakketten in uw Java-project:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

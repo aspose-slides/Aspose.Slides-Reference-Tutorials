@@ -20,7 +20,7 @@ url: /ar/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بإعداد دليل البيانات الخاص بك
  قم بإنشاء دليل لتخزين ملف PowerPoint والموارد الأخرى. دعونا نسميها`dataDir`.
@@ -46,7 +46,7 @@ pres.save(dataDir + "output.pdf", SaveFormat.Pdf);
 نعم، إلى جانب PDF، يمكنك عرض الرموز التعبيرية بتنسيقات مختلفة يدعمها Aspose.Slides، مثل PPTX وPNG وJPEG والمزيد.
 ### هل هناك أي قيود على أنواع الرموز التعبيرية التي يمكن تقديمها؟
 يدعم Aspose.Slides for Java عرض مجموعة واسعة من الرموز التعبيرية، بما في ذلك الرموز التعبيرية Unicode القياسية والرموز التعبيرية المخصصة.
-### هل يمكنني تخصيص حجم وموضع الرموز التعبيرية المعروضة؟
+### هل يمكنني تخصيص حجم وموضع الرموز التعبيرية المقدمة؟
 نعم، يمكنك تخصيص الحجم والموضع والخصائص الأخرى للرموز التعبيرية المعروضة برمجيًا باستخدام Aspose.Slides for Java API.
 ### هل يدعم Aspose.Slides for Java عرض الرموز التعبيرية في كافة إصدارات PowerPoint؟
 نعم، Aspose.Slides for Java متوافق مع جميع إصدارات PowerPoint، مما يضمن العرض السلس للرموز التعبيرية عبر منصات مختلفة.

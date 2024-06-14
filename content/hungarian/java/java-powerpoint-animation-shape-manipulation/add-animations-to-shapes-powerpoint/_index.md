@@ -16,10 +16,10 @@ Mielőtt belevágnánk az oktatóanyagba, győződjünk meg arról, hogy mindenn
 3. Integrált fejlesztői környezet (IDE): Használjon bármilyen Java IDE-t, például IntelliJ IDEA, Eclipse vagy NetBeans.
 4. Alapvető Java ismeretek: Ez az oktatóanyag feltételezi, hogy rendelkezik a Java programozás alapvető ismereteivel.
 ## Csomagok importálása
-kezdéshez importálnia kell a szükséges csomagokat az Aspose.Slides és más szükséges Java osztályokhoz.
+A kezdéshez importálnia kell a szükséges csomagokat az Aspose.Slides és más szükséges Java osztályokhoz.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -79,7 +79,7 @@ Adjon hozzá egyéni felhasználói útvonal-animációt az alakzathoz.
 IEffect fxUserPath = seqInter.addEffect(ashp, EffectType.PathUser, EffectSubtype.None, EffectTriggerType.OnClick);
 // Hozzon létre mozgási effektust
 IMotionEffect motionBhv = ((IMotionEffect) fxUserPath.getBehaviors().get_Item(0));
-// Határozza meg az útvonalpontokat
+// Határozza meg az útpontokat
 Point2D.Float[] pts = (Point2D.Float[]) Array.newInstance(Point2D.Float.class, 1);
 pts[0] = new Point2D.Float(0.076f, 0.59f);
 motionBhv.getPath().add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, true);
@@ -107,4 +107,4 @@ Az Aspose.Slides támogatja a Java SE 6 és újabb verzióit.
 ### Hogyan adhatok hozzá különböző animációkat több alakzathoz?
 Különböző animációkat adhat hozzá több alakzathoz, ha megismétli az egyes alakzatokhoz tartozó lépéseket, és szükség szerint különböző effektusokat ad meg.
 ### Hol találok további példákat és dokumentációt?
- Nézze meg a[dokumentáció](https://reference.aspose.com/slides/java/) és[támogatói fórum](https://forum.aspose.com/c/slides/11) további példákért és segítségért.
+ Nézze meg a[dokumentáció](https://reference.aspose.com/slides/java/) és[támogatói fórum](https://forum.aspose.com/c/slides/11)további példákért és segítségért.

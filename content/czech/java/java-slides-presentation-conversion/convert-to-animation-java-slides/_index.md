@@ -34,7 +34,7 @@ import java.io.IOException;
  Chcete-li začít, načtěte prezentaci PowerPoint, kterou chcete převést na animaci. Nahradit`"SimpleAnimations.pptx"` s cestou k souboru prezentace:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 Při přehrávání prezentace se každý snímek uloží jako obrázek PNG do určeného výstupního adresáře. Výstupní cestu můžete upravit podle potřeby:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Kompletní zdrojový kód pro převod na animaci v Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {
@@ -121,7 +121,7 @@ Ano, animace PowerPoint můžete převést do různých formátů, včetně vide
 
 ### Existují nějaká omezení při převodu prezentací na animace?
 
-Přestože Aspose.Slides for Java nabízí výkonné animační možnosti, je nezbytné mít na paměti, že složité animace nemusí být plně podporovány. Je dobré své animace důkladně otestovat, abyste se ujistili, že fungují podle očekávání.
+Přestože Aspose.Slides for Java nabízí výkonné animační možnosti, je nutné mít na paměti, že složité animace nemusí být plně podporovány. Je dobré své animace důkladně otestovat, abyste se ujistili, že fungují podle očekávání.
 
 ### Mohu přizpůsobit formát souboru exportovaných snímků?
 

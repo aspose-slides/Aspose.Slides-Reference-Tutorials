@@ -2,7 +2,7 @@
 title: Skapa miniatyrbild av gränser
 linktitle: Skapa miniatyrbild av gränser
 second_title: Aspose.Slides Java PowerPoint Processing API
-description: Lär dig hur du skapar formminiatyrer med gränser med Aspose.Slides för Java. Denna steg-för-steg handledning guidar dig genom processen.
+description: Lär dig hur du skapar miniatyrbilder med gränser med Aspose.Slides för Java. Denna steg-för-steg handledning guidar dig genom processen.
 type: docs
 weight: 10
 url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
@@ -19,7 +19,7 @@ Se till att du importerar de nödvändiga paketen i din Java-kod:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

@@ -71,7 +71,7 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 Sie können die Größe und Position des ActiveX-Kontrollrahmens über die Parameter des`AddOleObjectFrame` Methode. Die vier numerischen Argumente stellen die X- und Y-Koordinaten der oberen linken Ecke bzw. die Breite und Höhe des Rahmens dar.
 
 ### Kann ich mit diesem Ansatz Videos unterschiedlicher Formate verknüpfen?
-Ja, Sie können Videos verschiedener Formate verknüpfen, solange das entsprechende ActiveX-Steuerelement für dieses Format verfügbar ist. Beispielsweise ist das in diesem Handbuch verwendete ShockwaveFlash ActiveX-Steuerelement für Flash-Videos (SWF) geeignet. Für andere Formate müssen Sie möglicherweise andere ProgIDs verwenden.
+Ja, Sie können Videos verschiedener Formate verknüpfen, solange das entsprechende ActiveX-Steuerelement für dieses Format verfügbar ist. Beispielsweise ist das in diesem Handbuch verwendete ShockwaveFlash-ActiveX-Steuerelement für Flash-Videos (SWF) geeignet. Für andere Formate müssen Sie möglicherweise andere ProgIDs verwenden.
 
 ### Gibt es eine Größenbeschränkung für das verlinkte Video?
 Die Größe des verknüpften Videos kann sich auf die Gesamtgröße und Leistung Ihrer Präsentation auswirken. Es wird empfohlen, Ihre Videos für die Webwiedergabe zu optimieren, bevor Sie sie mit der Präsentation verknüpfen.

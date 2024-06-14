@@ -40,7 +40,7 @@ Sử dụng đoạn mã sau để tải tệp bản trình bày:
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Mã của bạn để truy xuất dữ liệu giàn đèn hiệu quả có ở đây
+    //Mã của bạn để truy xuất dữ liệu giàn đèn hiệu quả có ở đây
 }
 ```
 ## Bước 4: Truy xuất dữ liệu giàn khoan ánh sáng hiệu quả

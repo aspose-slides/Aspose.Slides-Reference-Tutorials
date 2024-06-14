@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
 Primero, importemos los paquetes necesarios en su proyecto Java. Estas importaciones te ayudarán a manejar presentaciones y formas con Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Paso 1: configura tu proyecto
 Antes de profundizar en el código, configure el entorno de su proyecto. Asegúrese de haber agregado Aspose.Slides para Java a las dependencias de su proyecto.
@@ -36,7 +36,7 @@ Presentation pres = new Presentation();
 ```
 Este fragmento de código inicializa un nuevo objeto de presentación donde agregaremos nuestras formas.
 ## Paso 3: agrega una forma de rectángulo
-continuación, agreguemos una forma de rectángulo a la primera diapositiva.
+A continuación, agreguemos una forma de rectángulo a la primera diapositiva.
 ```java
 IShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
 ```
@@ -72,7 +72,7 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Este código guarda su presentación con el nombre de archivo especificado en el formato deseado.
 ## Conclusión
-¡Felicidades! Ha aplicado con éxito efectos de rotación 3D a formas en una presentación de PowerPoint usando Aspose.Slides para Java. Si sigue estos pasos, podrá crear presentaciones dinámicas y visualmente atractivas. Para una mayor personalización y funciones más avanzadas, consulte la[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/).
+ ¡Felicidades! Ha aplicado con éxito efectos de rotación 3D a formas en una presentación de PowerPoint usando Aspose.Slides para Java. Si sigue estos pasos, podrá crear presentaciones dinámicas y visualmente atractivas. Para una mayor personalización y funciones más avanzadas, consulte la[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/).
 ## Preguntas frecuentes
 ### ¿Qué es Aspose.Slides para Java?
 Aspose.Slides para Java es una potente API para crear, modificar y manipular presentaciones de PowerPoint mediante programación.

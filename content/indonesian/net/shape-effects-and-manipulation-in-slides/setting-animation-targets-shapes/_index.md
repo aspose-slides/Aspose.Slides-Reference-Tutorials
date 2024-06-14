@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //Kode Anda untuk tindakan selanjutnya ada di sini
+    // Kode Anda untuk tindakan selanjutnya ada di sini
 }
 ```
 ## Langkah 2: Ulangi Melalui Slide dan Efek Animasi

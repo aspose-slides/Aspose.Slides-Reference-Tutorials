@@ -17,7 +17,7 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fil
 Для начала импортируйте необходимые пакеты в ваш Java-проект:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -33,7 +33,7 @@ String dataDir = "Your Document Directory";
 ```java
 Presentation pres = new Presentation();
 ```
-## Шаг 3. Добавьте изображение на слайд
+## Шаг 3. Добавьте изображение на слайд
 Получите первый слайд и добавьте к нему изображение:
 ```java
 ISlide sld = pres.getSlides().get_Item(0);

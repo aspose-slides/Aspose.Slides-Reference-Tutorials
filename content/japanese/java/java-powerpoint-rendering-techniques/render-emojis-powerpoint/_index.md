@@ -20,7 +20,7 @@ url: /ja/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: データディレクトリを準備する
 PowerPointファイルやその他のリソースを保存するディレクトリを作成します。名前を付けましょう`dataDir`.

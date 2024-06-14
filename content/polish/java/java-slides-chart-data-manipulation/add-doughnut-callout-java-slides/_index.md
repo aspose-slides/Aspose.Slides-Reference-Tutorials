@@ -165,7 +165,7 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-tym samouczku omówiliśmy proces dodawania objaśnienia Donut do slajdu Java za pomocą Aspose.Slides dla Java. Wiesz już, jak utworzyć wykres pierścieniowy, dostosować jego wygląd i dodać punkty danych. Możesz dalej ulepszać swoje prezentacje dzięki tej potężnej bibliotece i odkrywać więcej opcji wykresów.
+W tym samouczku omówiliśmy proces dodawania objaśnienia Donut do slajdu Java za pomocą Aspose.Slides dla Java. Wiesz już, jak utworzyć wykres pierścieniowy, dostosować jego wygląd i dodać punkty danych. Możesz dalej ulepszać swoje prezentacje dzięki tej potężnej bibliotece i odkrywać więcej opcji wykresów.
 
 ## Często zadawane pytania
 
@@ -179,4 +179,4 @@ Tak, możesz dodać dowolną liczbę punktów danych do wykresu pierścieniowego
 
 ### Jak dostosować położenie i rozmiar wykresu pierścieniowego na slajdzie?
 
-Możesz zmienić położenie i rozmiar wykresu pierścieniowego, modyfikując parametry w pliku`addChart` metoda. Cztery liczby w tej metodzie odpowiadają współrzędnym X i Y lewego górnego rogu wykresu oraz odpowiednio jego szerokości i wysokości.
+ Możesz zmienić położenie i rozmiar wykresu pierścieniowego, modyfikując parametry w pliku`addChart` metoda. Cztery liczby w tej metodzie odpowiadają współrzędnym X i Y lewego górnego rogu wykresu oraz odpowiednio jego szerokości i wysokości.

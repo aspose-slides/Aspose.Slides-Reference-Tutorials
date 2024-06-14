@@ -12,14 +12,14 @@ Stai cercando di manipolare le forme nelle tue presentazioni PowerPoint utilizza
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
 1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo sistema. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides per Java: scarica la libreria Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides per Java: scarica la libreria Aspose.Slides per Java da[Qui](https://releases.aspose.com/slides/java/).
 3. Ambiente di sviluppo integrato (IDE): utilizza un IDE come IntelliJ IDEA o Eclipse per scrivere ed eseguire il codice Java.
 4. Conoscenza di base di Java: una conoscenza di base della programmazione Java ti aiuterà a seguire questo tutorial.
 ## Importa pacchetti
 Per iniziare, dobbiamo importare i pacchetti necessari dalla libreria Aspose.Slides. Ecco come farlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Analizziamo il processo di rimozione di un segmento da una forma geometrica in una diapositiva di PowerPoint in più passaggi.
 ## Passaggio 1: crea una nuova presentazione
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Passaggio 6: salva la presentazione
 Infine, salva la presentazione modificata in un file.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Passaggio 7: ripulire le risorse
@@ -59,7 +59,7 @@ Assicurati sempre di pulire le risorse per evitare perdite di memoria.
 if (pres != null) pres.dispose();
 ```
 ## Conclusione
-E il gioco è fatto! Con Aspose.Slides per Java, manipolare le forme nelle presentazioni PowerPoint è semplice ed efficiente. Seguendo i passaggi descritti in questo tutorial, puoi rimuovere facilmente i segmenti dalle forme geometriche, ottenendo un maggiore controllo sul design e sulla funzionalità delle tue diapositive. Buona programmazione!
+il gioco è fatto! Con Aspose.Slides per Java, manipolare le forme nelle presentazioni PowerPoint è semplice ed efficiente. Seguendo i passaggi descritti in questo tutorial, puoi rimuovere facilmente segmenti dalle forme geometriche, ottenendo un maggiore controllo sul design e sulla funzionalità delle tue diapositive. Buona programmazione!
 ## Domande frequenti
 ### Cos'è Aspose.Slides per Java?
 Aspose.Slides per Java è una potente API per creare, modificare e gestire presentazioni PowerPoint a livello di codice.

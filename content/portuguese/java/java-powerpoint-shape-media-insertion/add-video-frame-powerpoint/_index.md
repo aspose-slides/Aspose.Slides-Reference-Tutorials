@@ -17,7 +17,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos em vigor:
 Primeiro, você precisa importar os pacotes necessários para utilizar as funcionalidades do Aspose.Slides em seu código Java. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Etapa 1: configurar o diretório de documentos

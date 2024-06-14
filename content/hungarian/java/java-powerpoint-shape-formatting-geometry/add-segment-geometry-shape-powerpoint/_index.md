@@ -19,7 +19,7 @@ Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, meg kell 
 Először is importálnia kell a szükséges csomagokat az Aspose.Slides-ből. Ez lehetővé teszi a PowerPoint-prezentációk létrehozásához és kezeléséhez szükséges összes funkció elérését.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bontsuk le a szegmensek geometriai alakzatokhoz való hozzáadásának folyamatát részletes lépésekre az egyértelműség és a könnyebb érthetőség érdekében.
 ## 1. lépés: Hozzon létre egy új prezentációt
@@ -66,7 +66,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ```
 Adja meg az elérési utat, ahová a prezentációt menteni szeretné, és a formátumot (ebben az esetben PPTX).
 ## Következtetés
-Szegmensek hozzáadása a PowerPoint-prezentációk geometriai alakzataihoz az Aspose.Slides for Java segítségével egy egyszerű folyamat, amely jelentősen javíthatja diákjainak látványát. Az ebben az oktatóanyagban ismertetett lépések követésével személyre szabott alakzatokat hozhat létre, és programozottan bonyolult részleteket adhat prezentációihoz. Akár automatizálja a prezentációk létrehozását, akár csak kísérletezik a kóddal, az Aspose.Slides for Java biztosítja a szükséges eszközöket a munka hatékony elvégzéséhez.
+Szegmensek hozzáadása a PowerPoint-prezentációk geometriai alakzataihoz az Aspose.Slides for Java segítségével egy egyszerű folyamat, amely jelentősen javíthatja diákjainak látványát. Az oktatóanyagban ismertetett lépések követésével személyre szabott alakzatokat hozhat létre, és bonyolult részleteket adhat hozzá prezentációihoz programozottan. Akár automatizálja a prezentációk létrehozását, akár csak kísérletezik a kóddal, az Aspose.Slides for Java biztosítja a szükséges eszközöket a munka hatékony elvégzéséhez.
 ## GYIK
 ### Mi az Aspose.Slides for Java?
 Az Aspose.Slides for Java egy hatékony API PowerPoint-prezentációk programozott létrehozásához, módosításához és manipulálásához.

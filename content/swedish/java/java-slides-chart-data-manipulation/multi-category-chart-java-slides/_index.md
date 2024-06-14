@@ -10,10 +10,10 @@ url: /sv/java/chart-data-manipulation/multi-category-chart-java-slides/
 
 ## Introduktion till flerkategoridiagram i Java Slides med Aspose.Slides
 
-I den här handledningen kommer vi att lära oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides for Java API. Den här guiden kommer att ge steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig att skapa ett klustrat kolumndiagram med flera kategorier och serier.
+I den här handledningen kommer vi att lära oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides for Java API. Den här guiden ger steg-för-steg-instruktioner tillsammans med källkod för att hjälpa dig att skapa ett klustrade kolumndiagram med flera kategorier och serier.
 
 ## Förutsättningar
-Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket installerat och konfigurerat i din Java-utvecklingsmiljö.
+Innan vi börjar, se till att du har Aspose.Slides for Java-biblioteket installerat och konfigurerat i din Java-utvecklingsmiljö.
 
 ## Steg 1: Konfigurera miljön
 Importera först de nödvändiga klasserna och skapa ett nytt presentationsobjekt för att arbeta med bilder.
@@ -138,7 +138,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## Slutsats
 
-den här handledningen har vi lärt oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides för Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram med flera kategorier och serier.
+I den här handledningen har vi lärt oss hur man skapar ett flerkategoridiagram i Java-bilder med Aspose.Slides för Java API. Vi gick igenom en steg-för-steg-guide med källkod för att skapa ett klustrat kolumndiagram med flera kategorier och serier.
 
 ## FAQ's
 

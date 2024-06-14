@@ -19,7 +19,7 @@ Before we begin, there are a few prerequisites you need to have in place:
 First, you need to import the necessary packages for Aspose.Slides. This is essential to access the classes and methods required for our presentation manipulations.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

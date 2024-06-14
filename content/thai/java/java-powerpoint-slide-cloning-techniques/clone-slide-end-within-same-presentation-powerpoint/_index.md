@@ -21,7 +21,7 @@ url: /th/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-sa
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
 ในการเริ่มต้น ให้ตั้งค่าโปรเจ็กต์ Java ของคุณใน IDE ที่คุณต้องการ และรวมไลบรารี Aspose.Slides ในการขึ้นต่อกันของโปรเจ็กต์ของคุณ
@@ -30,7 +30,7 @@ import com.aspose.slides.examples.RunExamples;
 ```java
 String dataDir = "path/to/your/directory/";
 ```
-## ขั้นตอนที่ 3: โหลดงานนำเสนอ
+## ขั้นตอนที่ 3: โหลดการนำเสนอ
  ถัดไป ยกตัวอย่าง`Presentation` คลาสเพื่อโหลดไฟล์การนำเสนอที่คุณมีอยู่ ซึ่งจะทำให้คุณสามารถจัดการสไลด์ภายในงานนำเสนอได้
 ```java
 Presentation pres = new Presentation(dataDir + "CloneWithinSamePresentationToEnd.pptx");

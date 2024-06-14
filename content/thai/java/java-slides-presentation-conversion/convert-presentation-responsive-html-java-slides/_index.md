@@ -35,7 +35,7 @@ import com.aspose.slides.ResponsiveHtmlController;
 import com.aspose.slides.SaveFormat;
 ```
 
-## ขั้นตอนที่ 3: โหลดงานนำเสนอ
+## ขั้นตอนที่ 3: โหลดการนำเสนอ
 
  ตอนนี้ มาโหลดงานนำเสนอที่คุณต้องการแปลงกัน แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไฟล์การนำเสนอของคุณ:
 

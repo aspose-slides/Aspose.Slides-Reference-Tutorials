@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Nach dem Einfügen der weiteren Folien sollten Sie die geänderte Präsentation speichern.
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Ersetzen`"path_to_modified_presentation.pptx"` mit dem gewünschten Pfad und Dateinamen für die geänderte Präsentation.
+ Ersetzen`"path_to_modified_presentation.pptx"`mit dem gewünschten Pfad und Dateinamen für die geänderte Präsentation.
 
 ## Abschluss
 
@@ -98,7 +98,7 @@ Sie können den Inhalt der neuen Folien anpassen, indem Sie über die API von As
 
 ### Was ist, wenn ich am Anfang der Präsentation Folien einfügen möchte?
 
- Um Folien am Anfang der Präsentation einzufügen, setzen Sie die`insertionIndex` Zu`0`.
+Um Folien am Anfang der Präsentation einzufügen, setzen Sie die`insertionIndex` Zu`0`.
 
 ### Ist es möglich, das Layout der eingefügten Folien zu ändern?
 

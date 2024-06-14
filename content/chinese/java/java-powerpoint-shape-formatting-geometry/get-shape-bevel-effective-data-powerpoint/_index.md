@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置文档目录
 定义 PowerPoint 演示文稿所在的文档目录的路径：

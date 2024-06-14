@@ -19,7 +19,7 @@ Bevor wir in die Schritt-für-Schritt-Anleitung eintauchen, müssen einige Vorau
 Zunächst müssen Sie die erforderlichen Pakete aus Aspose.Slides importieren. Dadurch erhalten Sie Zugriff auf alle Funktionen, die zum Erstellen und Bearbeiten von PowerPoint-Präsentationen erforderlich sind.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Lassen Sie uns den Vorgang des Hinzufügens von Segmenten zu geometrischen Formen in detaillierte Schritte aufschlüsseln, um Klarheit und einfaches Verständnis zu gewährleisten.
 ## Schritt 1: Erstellen Sie eine neue Präsentation

@@ -133,7 +133,7 @@ In diesem umfassenden Tutorial haben Sie gelernt, wie Sie mit Aspose.Slides für
 
 ### Wie kann ich die Markierungssymbole ändern?
 
- Sie können die Markierungssymbole anpassen, indem Sie den Markierungsstil für jeden Datenpunkt festlegen. Verwenden Sie`IDataPoint.setMarkerStyle()` , um das Markierungssymbol zu ändern.
+Sie können die Markierungssymbole anpassen, indem Sie den Markierungsstil für jeden Datenpunkt festlegen. Verwenden Sie`IDataPoint.setMarkerStyle()` , um das Markierungssymbol zu ändern.
 
 ### Wie passe ich die Farben des Diagramms an?
 

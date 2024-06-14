@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Đặt định dạng đường lưới nhỏ cho trục Danh mục
+// Đặt định dạng đường lưới nhỏ cho trục Danh mục
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Đặt định dạng đường lưới nhỏ cho trục Danh mục
+	// Đặt định dạng đường lưới nhỏ cho trục Danh mục
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// Đặt chú thích biểu đồ hiển thị mà không có biểu đồ chồng chéo
 	chart.getLegend().setOverlay(true);
 	// Vẽ chuỗi đầu tiên trên trục giá trị thứ cấp
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Bảng thiết lập màu tường sau
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Cài đặt màu vùng Lô
+	//Cài đặt màu vùng Lô
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Lưu bản trình bày

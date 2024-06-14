@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
 ## 소개
 프레젠테이션 영역에서 시선을 사로잡는 슬라이드는 지속적인 인상을 남기는 데 핵심입니다. .NET용 Aspose.Slides는 강력한 도구 세트를 제공하며, 이 가이드에서는 매력적인 확대/축소 프레임을 프레젠테이션 슬라이드에 통합하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 이 여정을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/).
 - 개발 환경: 선호하는 .NET 개발 환경을 설정합니다.
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## 3단계: 슬라이드 배경 사용자 정의
 배경을 사용자 정의하여 슬라이드의 시각적 매력을 향상시키세요. 이 예에서는 두 번째 슬라이드에 단색 청록색 배경을 설정했습니다.
 ```csharp
-//두 번째 슬라이드의 배경 만들기
+// 두 번째 슬라이드의 배경 만들기
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

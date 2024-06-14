@@ -70,7 +70,7 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak nastavit rozsah dat pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Toto API zjednodušuje proces práce s prezentacemi a umožňuje vývojářům efektivně automatizovat úkoly.
+tomto tutoriálu jsme se naučili, jak nastavit rozsah dat pro graf v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Toto API zjednodušuje proces práce s prezentacemi a umožňuje vývojářům efektivně automatizovat úkoly.
 
 ## FAQ
 

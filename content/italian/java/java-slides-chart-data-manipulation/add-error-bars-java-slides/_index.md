@@ -14,7 +14,7 @@ In questo tutorial, dimostreremo come aggiungere barre di errore a un grafico in
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. È possibile scaricare la libreria da[Sito web Aspose](https://downloads.aspose.com/slides/java).
+Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto Java. È possibile scaricare la libreria da[Sito web Aspose](https://downloads.aspose.com/slides/java).
 
 ## Passaggio 1: crea una presentazione vuota
 
@@ -62,7 +62,7 @@ In questo passaggio aggiungiamo le barre di errore al grafico e ne impostiamo il
 - `setValue` imposta il valore per le barre di errore.
 - `setType` definisce il tipo di barre di errore (ad esempio, Più o Meno).
 -  Impostiamo la larghezza delle linee della barra di errore utilizzando`getFormat().getLine().setWidth(2)`.
-- `setEndCap` specifica se includere le estremità finali nelle barre di errore.
+- `setEndCap`specifica se includere le estremità finali nelle barre di errore.
 
 ## Passaggio 4: salva la presentazione
 
@@ -123,7 +123,7 @@ Sì, puoi aggiungere barre di errore a vari tipi di grafici supportati da Aspose
 
 ### Come posso regolare la posizione e la dimensione del grafico sulla diapositiva?
 
-Puoi controllare la posizione e le dimensioni del grafico regolando i parametri nel file`addChart` metodo, come mostrato nel passaggio 2.
+ Puoi controllare la posizione e le dimensioni del grafico regolando i parametri nel file`addChart` metodo, come mostrato nel passaggio 2.
 
 ### Dove posso trovare ulteriori informazioni su Aspose.Slides per Java?
 

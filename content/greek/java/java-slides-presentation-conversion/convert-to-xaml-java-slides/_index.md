@@ -96,7 +96,7 @@ try {
 
 ```java
 	// Παρουσίαση διαδρομής προς την πηγή
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Δημιουργήστε επιλογές μετατροπής
@@ -109,7 +109,7 @@ try {
 		pres.save(xamlOptions);
 		// Αποθηκεύστε τα αρχεία XAML σε έναν κατάλογο εξόδου
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

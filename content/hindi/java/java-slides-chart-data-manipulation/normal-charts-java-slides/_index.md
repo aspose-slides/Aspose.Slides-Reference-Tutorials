@@ -46,7 +46,7 @@ ISlide sld = pres.getSlides().get_Item(0);
 
 ## चरण 3: चार्ट जोड़ना
 
-हम स्लाइड में एक क्लस्टर्ड कॉलम चार्ट जोड़ेंगे और उसका शीर्षक सेट करेंगे।
+हम स्लाइड में एक क्लस्टर कॉलम चार्ट जोड़ेंगे और उसका शीर्षक सेट करेंगे।
 
 ```java
 // डिफ़ॉल्ट डेटा के साथ चार्ट जोड़ें
@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//श्रृंखला के लिए भरण रंग सेट करना
+// श्रृंखला के लिए भरण रंग सेट करना
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//श्रृंखला के लिए भरण रंग सेट करना
+// श्रृंखला के लिए भरण रंग सेट करना
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // पहली चार्ट श्रृंखला लें
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//श्रृंखला के लिए भरण रंग सेट करना
+// श्रृंखला के लिए भरण रंग सेट करना
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // दूसरा चार्ट श्रृंखला लें
 series = chart.getChartData().getSeries().get_Item(1);
-//अब श्रृंखला डेटा भरा जा रहा है
+// अब श्रृंखला डेटा भरा जा रहा है
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//श्रृंखला के लिए भरण रंग सेट करना
+// श्रृंखला के लिए भरण रंग सेट करना
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // पहला लेबल श्रेणी का नाम दिखाया जाएगा
@@ -223,7 +223,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट का प्रकार कैसे बदल सकता हूँ?
 
- चार्ट प्रकार बदलने के लिए, संशोधित करें`ChartType` चार्ट जोड़ते समय पैरामीटर का उपयोग करें`sld.getShapes().addChart()`आप Aspose.Slides में उपलब्ध विभिन्न चार्ट प्रकारों में से चुन सकते हैं।
+ चार्ट प्रकार बदलने के लिए, संशोधित करें`ChartType`चार्ट जोड़ते समय पैरामीटर का उपयोग करें`sld.getShapes().addChart()`आप Aspose.Slides में उपलब्ध विभिन्न चार्ट प्रकारों में से चुन सकते हैं।
 
 ### क्या मैं चार्ट श्रृंखला का रंग बदल सकता हूँ?
 
@@ -239,4 +239,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
- चार्ट को किसी भिन्न फ़ाइल प्रारूप में सहेजने के लिए, बदलें`SaveFormat` पैरामीटर में`pres.save()`विधि को वांछित प्रारूप में परिवर्तित करें (जैसे, पीडीएफ, पीएनजी, जेपीईजी)।
+ चार्ट को किसी भिन्न फ़ाइल प्रारूप में सहेजने के लिए, बदलें`SaveFormat` पैरामीटर में`pres.save()` विधि को वांछित प्रारूप में परिवर्तित करें (जैसे, पीडीएफ, पीएनजी, जेपीईजी)।

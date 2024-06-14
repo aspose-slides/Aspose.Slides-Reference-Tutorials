@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Dalam kode ini, pertama-tama kita menghapus semua kategori dan rangkaian yang ada dari bagan. Kemudian, kita menambahkan titik data ke rangkaian tersebut menggunakan`getDataPoints().addDataPointForHistogramSeries` metode. Terakhir, kami mengatur jenis agregasi sumbu horizontal ke Otomatis dan menyimpan presentasi.
+ Dalam kode ini, pertama-tama kita menghapus semua kategori dan rangkaian yang ada dari bagan. Kemudian, kita menambahkan titik data ke rangkaian tersebut menggunakan`getDataPoints().addDataPointForHistogramSeries` metode. Terakhir, kami mengatur jenis agregasi sumbu horizontal ke Otomatis dan menyimpan presentasi.
 
 ## Kode Sumber Lengkap Untuk Bagan Histogram di Slide Java
 

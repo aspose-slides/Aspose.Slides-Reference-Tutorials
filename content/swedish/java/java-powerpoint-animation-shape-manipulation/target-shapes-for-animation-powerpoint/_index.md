@@ -21,7 +21,7 @@ För att komma igång, importera nödvändiga paket i ditt Java-projekt:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Konfigurera presentationsfilen
 Börja med att ange sökvägen till din källpresentationsfil:

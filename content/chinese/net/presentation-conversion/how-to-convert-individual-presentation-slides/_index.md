@@ -10,7 +10,7 @@ url: /zh/net/presentation-conversion/how-to-convert-individual-presentation-slid
 
 ## Aspose.Slides for .NET 介绍
 
-Aspose.Slides for .NET 是一个功能丰富的库，可让开发人员以编程方式处理 PowerPoint 演示文稿。它提供了一组广泛的类和方法，允许您创建、操作和转换各种格式的演示文稿文件。
+Aspose.Slides for .NET 是一个功能丰富的库，可让开发人员以编程方式处理 PowerPoint 演示文稿。它提供了一套广泛的类和方法，允许您创建、操作和转换各种格式的演示文稿文件。
 
 ## 先决条件
 在开始之前，请确保您已满足以下先决条件：
@@ -110,7 +110,7 @@ public class CustomFormattingController : IHtmlFormattingController
 
 ## 错误处理
 
-错误处理对于确保您的应用程序妥善处理异常非常重要。您可以使用 try-catch 块来处理转换过程中可能发生的潜在异常。
+错误处理对于确保应用程序妥善处理异常非常重要。您可以使用 try-catch 块来处理转换过程中可能发生的潜在异常。
 
 ## 附加功能
 

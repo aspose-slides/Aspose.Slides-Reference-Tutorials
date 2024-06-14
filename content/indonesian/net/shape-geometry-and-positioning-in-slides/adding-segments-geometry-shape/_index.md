@@ -8,7 +8,7 @@ weight: 13
 url: /id/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
 ## Perkenalan
-Dalam dunia pengembangan .NET, membuat presentasi yang menarik secara visual merupakan kebutuhan umum. Aspose.Slides for .NET adalah perpustakaan canggih yang memfasilitasi integrasi kemampuan pembuatan presentasi yang kuat ke dalam aplikasi .NET Anda. Tutorial ini berfokus pada aspek spesifik desain presentasi – menambahkan segmen ke bentuk geometri.
+Dalam dunia pengembangan .NET, membuat presentasi yang menarik secara visual merupakan kebutuhan umum. Aspose.Slides for .NET adalah pustaka canggih yang memfasilitasi integrasi kemampuan pembuatan presentasi yang kuat ke dalam aplikasi .NET Anda. Tutorial ini berfokus pada aspek spesifik desain presentasi – menambahkan segmen ke bentuk geometri.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan dasar bahasa pemrograman C#.

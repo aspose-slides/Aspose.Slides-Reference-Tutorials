@@ -55,5 +55,5 @@ Aspose.Slides for Java を使用して Java スライドでパスワードを検
 Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びます。このステップバイステップ ガイドでは、書き込み保護とオープン保護のチェックのコード例を示します。
 ### [Java スライドでのプレゼンテーション スライド ショーの設定](./presentation-slide-show-setup-in-java-slides/)
 Aspose.Slides を使用して Java スライド ショーを最適化します。カスタマイズされた設定で魅力的なプレゼンテーションを作成します。ステップ バイ ステップ ガイドと FAQ をご覧ください。
-### [Java スライドの読み取り専用の推奨プロパティ](./read-only-recommended-properties-in-java-slides/)
+### [Java スライドの読み取り専用推奨プロパティ](./read-only-recommended-properties-in-java-slides/)
 Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで読み取り専用の推奨プロパティを有効にする方法を学びます。プレゼンテーションのセキュリティを強化するには、ソース コードの例を含むステップ バイ ステップ ガイドに従ってください。

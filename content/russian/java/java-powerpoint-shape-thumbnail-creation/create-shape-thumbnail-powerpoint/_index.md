@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 Во-первых, вам необходимо импортировать необходимые пакеты в ваш Java-код, чтобы использовать функциональные возможности Aspose.Slides. Включите следующие операторы импорта в начало вашего Java-файла:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 ### Поддерживает ли Aspose.Slides другие форматы изображений для сохранения миниатюр?
 Да, помимо PNG, Aspose.Slides поддерживает сохранение миниатюр в различных форматах изображений, таких как JPEG, GIF и BMP.
 ### Подходит ли Aspose.Slides для коммерческого использования?
-Да, Aspose.Slides предлагает коммерческие лицензии для предприятий и организаций. Вы можете приобрести лицензию у[здесь](https://purchase.aspose.com/buy).
+ Да, Aspose.Slides предлагает коммерческие лицензии для предприятий и организаций. Вы можете приобрести лицензию у[здесь](https://purchase.aspose.com/buy).
 ### Могу ли я попробовать Aspose.Slides перед покупкой?
  Абсолютно! Вы можете скачать бесплатную пробную версию Aspose.Slides с сайта[здесь](https://releases.aspose.com/) оценить его особенности и возможности.
 ### Где я могу найти поддержку Aspose.Slides?

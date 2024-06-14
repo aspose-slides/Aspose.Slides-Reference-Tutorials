@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Membuat bagan default
+//Membuat bagan default
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Terakhir, kami menyimpan presentasi dengan pengaturan grafik baru.
 
 Aspose.Slides untuk .NET memberdayakan Anda untuk membuat presentasi grafik yang menakjubkan dengan berbagai opsi penyesuaian. Dalam tutorial ini, kami berfokus pada penggunaan opsi penanda bagan pada titik data untuk menyempurnakan representasi visual data Anda. Dengan Aspose.Slides untuk .NET, Anda dapat membawa presentasi Anda ke tingkat berikutnya, menjadikannya lebih menarik dan informatif.
 
- Jika Anda memiliki pertanyaan atau memerlukan bantuan dengan Aspose.Slides untuk .NET, silakan kunjungi[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/net/) atau menghubungi[Asumsikan komunitas](https://forum.aspose.com/) untuk dukungan.
+Jika Anda memiliki pertanyaan atau memerlukan bantuan dengan Aspose.Slides untuk .NET, silakan kunjungi[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/net/) atau menghubungi[Asumsikan komunitas](https://forum.aspose.com/) untuk dukungan.
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides untuk .NET memberdayakan Anda untuk membuat presentasi grafik yang
 Ya, Anda dapat menggunakan gambar khusus sebagai penanda titik data di Aspose.Slides untuk .NET, seperti yang ditunjukkan dalam tutorial ini.
 
 ### Bagaimana cara mengubah tipe bagan di Aspose.Slides untuk .NET?
-Anda dapat mengubah jenis bagan dengan menentukan jenis bagan lain`ChartType` saat membuat bagan, seperti "Batang", "Pai", atau "Area".
+ Anda dapat mengubah jenis bagan dengan menentukan jenis bagan lain`ChartType` saat membuat bagan, seperti "Batang", "Pai", atau "Area".
 
 ### Apakah Aspose.Slides for .NET kompatibel dengan PowerPoint versi terbaru?
 Aspose.Slides untuk .NET dirancang untuk bekerja dengan berbagai format PowerPoint dan diperbarui secara berkala untuk menjaga kompatibilitas dengan versi PowerPoint terbaru.

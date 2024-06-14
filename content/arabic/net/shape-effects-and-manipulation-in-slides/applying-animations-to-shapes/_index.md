@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //الكود الخاص بك لإنشاء عرض تقديمي موجود هنا.
+    // الكود الخاص بك لإنشاء عرض تقديمي موجود هنا.
 }
 ```
 ## الخطوة 2: إضافة شكل متحرك

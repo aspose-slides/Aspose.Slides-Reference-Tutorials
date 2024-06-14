@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Erstellen des Standarddiagramms
+//Erstellen des Standarddiagramms
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -128,9 +128,9 @@ Abschließend speichern wir die Präsentation mit den neuen Diagrammeinstellunge
 
 ## Abschluss
 
-Aspose.Slides für .NET ermöglicht Ihnen die Erstellung beeindruckender Diagrammpräsentationen mit verschiedenen Anpassungsoptionen. In diesem Tutorial haben wir uns auf die Verwendung von Diagrammmarkierungsoptionen für Datenpunkte konzentriert, um die visuelle Darstellung Ihrer Daten zu verbessern. Mit Aspose.Slides für .NET können Sie Ihre Präsentationen auf die nächste Ebene bringen und sie ansprechender und informativer gestalten.
+Mit Aspose.Slides für .NET können Sie beeindruckende Diagrammpräsentationen mit verschiedenen Anpassungsoptionen erstellen. In diesem Tutorial haben wir uns auf die Verwendung von Diagrammmarkierungsoptionen für Datenpunkte konzentriert, um die visuelle Darstellung Ihrer Daten zu verbessern. Mit Aspose.Slides für .NET können Sie Ihre Präsentationen auf die nächste Ebene bringen und sie ansprechender und informativer gestalten.
 
- Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen Sie bitte die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) oder wenden Sie sich an die[Aspose-Gemeinschaft](https://forum.aspose.com/) zur Unterstützung.
+Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides für .NET benötigen, besuchen Sie bitte die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) oder wenden Sie sich an die[Aspose-Gemeinschaft](https://forum.aspose.com/) zur Unterstützung.
 
 ## Häufig gestellte Fragen (FAQs)
 
@@ -138,7 +138,7 @@ Aspose.Slides für .NET ermöglicht Ihnen die Erstellung beeindruckender Diagram
 Ja, Sie können benutzerdefinierte Bilder als Markierungen für Datenpunkte in Aspose.Slides für .NET verwenden, wie in diesem Tutorial gezeigt.
 
 ### Wie kann ich den Diagrammtyp in Aspose.Slides für .NET ändern?
-Sie können den Diagrammtyp ändern, indem Sie einen anderen`ChartType` beim Erstellen des Diagramms, beispielsweise „Balken-“, „Kreis-“ oder „Flächendiagramm“.
+ Sie können den Diagrammtyp ändern, indem Sie einen anderen`ChartType` beim Erstellen des Diagramms, beispielsweise „Balken-“, „Kreis-“ oder „Flächendiagramm“.
 
 ### Ist Aspose.Slides für .NET mit den neuesten Versionen von PowerPoint kompatibel?
 Aspose.Slides für .NET ist für die Arbeit mit verschiedenen PowerPoint-Formaten konzipiert und wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten PowerPoint-Versionen aufrechtzuerhalten.

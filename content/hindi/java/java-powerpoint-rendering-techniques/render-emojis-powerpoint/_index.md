@@ -20,7 +20,7 @@ url: /hi/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: अपनी डेटा निर्देशिका तैयार करें
  अपनी पावरपॉइंट फ़ाइल और अन्य संसाधनों को संग्रहीत करने के लिए एक निर्देशिका बनाएँ। चलिए इसका नाम रखते हैं`dataDir`.

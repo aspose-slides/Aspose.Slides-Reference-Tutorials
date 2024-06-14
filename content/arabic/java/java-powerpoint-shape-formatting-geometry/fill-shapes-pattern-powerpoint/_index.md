@@ -8,7 +8,7 @@ weight: 11
 url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
 ## مقدمة
-يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا ضروريًا لجذب جمهورك. إحدى الطرق لتحسين شرائح PowerPoint الخاصة بك هي ملء الأشكال بالأنماط. في هذا البرنامج التعليمي، سنتعرف على خطوات ملء الأشكال بالأنماط باستخدام Aspose.Slides for Java. تم تصميم هذا الدليل للمطورين الذين يرغبون في الاستفادة من الميزات القوية لـ Aspose.Slides لإنشاء عروض تقديمية مذهلة برمجيًا.
+يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا ضروريًا لجذب جمهورك. إحدى الطرق لتحسين شرائح PowerPoint الخاصة بك هي ملء الأشكال بالأنماط. في هذا البرنامج التعليمي، سنتعرف على خطوات ملء الأشكال بالأنماط باستخدام Aspose.Slides for Java. تم تصميم هذا الدليل للمطورين الذين يرغبون في الاستفادة من الميزات القوية في Aspose.Slides لإنشاء عروض تقديمية مذهلة برمجيًا.
 ## المتطلبات الأساسية
 قبل الغوص في الكود، تأكد من أن لديك المتطلبات الأساسية التالية:
 - تم تثبيت Java Development Kit (JDK) على جهازك.
@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 أولاً، لنستورد الحزم الضرورية المطلوبة لمثالنا.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

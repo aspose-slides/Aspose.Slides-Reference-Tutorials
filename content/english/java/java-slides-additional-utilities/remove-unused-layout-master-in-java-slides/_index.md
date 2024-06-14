@@ -84,7 +84,7 @@ This code will print the updated counts in your presentation, showing that the u
 ## Complete Source Code For Remove Unused Layout Master in Java Slides
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

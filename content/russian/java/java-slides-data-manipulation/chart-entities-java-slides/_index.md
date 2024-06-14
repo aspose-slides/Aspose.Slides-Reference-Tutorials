@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Настройка формата второстепенных линий сетки для оси категорий
+// Настройка формата второстепенных линий сетки для оси категорий
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Настройка формата второстепенных линий сетки для оси категорий
+	// Настройка формата второстепенных линий сетки для оси категорий
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -243,7 +243,7 @@ try
 	catTitle.getPortionFormat().setFontHeight(20);
 	catTitle.getPortionFormat().setFontBold(NullableBool.True);
 	catTitle.getPortionFormat().setFontItalic(NullableBool.True);
-	// Настройка положения метки оси категорий
+	// Настройка положения метки оси категории
 	chart.getAxes().getHorizontalAxis().setTickLabelPosition(TickLabelPositionType.Low);
 	// Настройка угла поворота метки оси категории
 	chart.getAxes().getHorizontalAxis().setTickLabelRotationAngle(45);
@@ -257,14 +257,14 @@ try
 	// Установите легенды диаграммы без перекрытия диаграммы
 	chart.getLegend().setOverlay(true);
 	// Построение первой серии на вторичной оси значений
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Настройка цвета задней стенки диаграммы
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Настройка цвета области графика
+	//Настройка цвета области графика
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Сохранить презентацию

@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## Полный исходный код для удаления неиспользуемого мастера макета в слайдах Java
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

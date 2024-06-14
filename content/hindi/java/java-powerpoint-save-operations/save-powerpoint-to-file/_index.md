@@ -2,7 +2,7 @@
 title: पावरपॉइंट को फ़ाइल में सहेजें
 linktitle: पावरपॉइंट को फ़ाइल में सहेजें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
-description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से फ़ाइलों में सहेजना सीखें। PowerPoint में कुशल हेरफेर के लिए हमारी मार्गदर्शिका का पालन करें।
+description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से फ़ाइलों में सहेजना सीखें। कुशल PowerPoint हेरफेर के लिए हमारी मार्गदर्शिका का पालन करें।
 type: docs
 weight: 10
 url: /hi/java/java-powerpoint-save-operations/save-powerpoint-to-file/
@@ -19,13 +19,13 @@ url: /hi/java/java-powerpoint-save-operations/save-powerpoint-to-file/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## चरण 1: डेटा निर्देशिका सेट करें
 ```java
 // दस्तावेज़ निर्देशिका का पथ.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // यदि निर्देशिका पहले से मौजूद नहीं है तो उसे बनाएं।
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 इस चरण में, हम उस निर्देशिका का पथ परिभाषित करते हैं जहाँ PowerPoint प्रस्तुति सहेजी जाएगी। यदि निर्देशिका मौजूद नहीं है, तो उसे बनाया जाएगा।
 ## चरण 2: प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंशिएट करें
 ```java
-//एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करें जो एक PPT फ़ाइल का प्रतिनिधित्व करता है
+// एक प्रेजेंटेशन ऑब्जेक्ट को इंस्टैंसिएट करें जो एक PPT फ़ाइल का प्रतिनिधित्व करता है
 Presentation presentation = new Presentation();
 ```
- यहाँ, हम एक नया उदाहरण बनाते हैं`Presentation` क्लास, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
+यहाँ, हम एक नया उदाहरण बनाते हैं`Presentation` क्लास, जो एक पावरपॉइंट प्रस्तुति का प्रतिनिधित्व करता है।
 ## चरण 3: प्रस्तुति पर कार्य निष्पादित करें (वैकल्पिक)
 ```java
 //...यहाँ कुछ काम करो...

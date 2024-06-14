@@ -133,7 +133,7 @@ In questo tutorial completo, hai imparato come creare diapositive Java con indic
 
 ### Come posso cambiare i simboli dei marcatori?
 
- È possibile personalizzare i simboli dei marcatori impostando lo stile del marcatore per ciascun punto dati. Utilizzo`IDataPoint.setMarkerStyle()` per modificare il simbolo del marcatore.
+È possibile personalizzare i simboli dei marcatori impostando lo stile del marcatore per ciascun punto dati. Utilizzo`IDataPoint.setMarkerStyle()` per modificare il simbolo del marcatore.
 
 ### Come posso regolare i colori del grafico?
 

@@ -20,7 +20,7 @@ PowerPoint でカスタムの図形やジオメトリを作成すると、プレ
 コーディング部分に進む前に、必要なパッケージをインポートしましょう。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;

@@ -50,7 +50,7 @@ presentation.Print(printerSettings, "Please set your printer name here");
 Aspose.Slides for .NET を使用してプログラムでプレゼンテーション スライドを印刷するのは簡単なプロセスです。次の手順に従うことで、この機能を .NET アプリケーションにシームレスに統合できます。
 ## よくある質問
 ### Q: Aspose.Slides を使用して、プレゼンテーション全体ではなく特定のスライドを印刷できますか?
-A: はい、特定のスライドを選択的に印刷するようにコードを変更することで実現できます。
+A: はい、特定のスライドを選択的に印刷するようにコードを変更することで、それを実現できます。
 ### Q: Aspose.Slides を使用するにはライセンス要件がありますか?
  A: はい、適切なライセンスを持っていることを確認してください。一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides に関する追加サポートや質問はどこで受けられますか?

@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những �
 Để bắt đầu, bạn cần nhập các gói cần thiết vào dự án Java của mình. Những lần nhập này sẽ cung cấp quyền truy cập vào các chức năng Aspose.Slides cần thiết cho hướng dẫn này.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Chúng tôi muốn làm cho các trang chiếu của mình trở nên khác biệt về mặt hình ảnh bằng cách thêm màu nền.
 ### Đặt nền cho slide thứ hai
 ```java
-    //Tạo nền cho slide thứ hai
+    // Tạo nền cho slide thứ hai
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

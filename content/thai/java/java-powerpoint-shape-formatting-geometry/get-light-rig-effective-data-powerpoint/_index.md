@@ -20,7 +20,7 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีโครงการ
 เริ่มต้นด้วยการตั้งค่าไดเรกทอรีโครงการของคุณ สร้างโฟลเดอร์ที่คุณจะจัดเก็บไฟล์ Java และงานนำเสนอ PowerPoint (`Presentation1.pptx`-

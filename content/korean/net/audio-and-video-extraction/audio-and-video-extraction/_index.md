@@ -14,7 +14,7 @@ url: /ko/net/audio-and-video-extraction/audio-and-video-extraction/
 
 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 오디오 및 비디오를 추출하는 방법을 살펴보겠습니다. Aspose.Slides는 .NET 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업하여 멀티미디어 추출과 같은 작업에 그 어느 때보다 쉽게 액세스할 수 있도록 하는 강력한 라이브러리입니다.
 
-## 전제조건
+## 전제 조건
 
 PowerPoint 슬라이드에서 오디오 및 비디오를 추출하는 방법에 대해 자세히 알아보기 전에 다음과 같은 몇 가지 전제 조건을 충족해야 합니다.
 
@@ -128,10 +128,10 @@ Aspose.Slides for .NET을 사용한 효과적인 멀티미디어 추출은 올�
 예, 코드를 수정하여 여러 슬라이드를 반복하고 각 슬라이드에서 멀티미디어를 추출할 수 있습니다.
 
 ### .NET용 Aspose.Slides에 대한 라이선스 옵션이 있습니까?
- Aspose는 무료 평가판 및 임시 라이센스를 포함한 다양한 라이센스 옵션을 제공합니다. 해당 옵션을 탐색할 수 있습니다.[웹사이트](https://purchase.aspose.com/buy).
+Aspose는 무료 평가판 및 임시 라이센스를 포함한 다양한 라이센스 옵션을 제공합니다. 해당 옵션을 탐색할 수 있습니다.[웹사이트](https://purchase.aspose.com/buy).
 
 ### .NET용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 합니까?
  기술 지원 및 커뮤니티 토론을 보려면 Aspose.Slides를 방문하세요.[법정](https://forum.aspose.com/).
 
 ### Aspose.Slides for .NET으로 수행할 수 있는 다른 작업은 무엇입니까?
-Aspose.Slides for .NET은 PowerPoint 프레젠테이션 생성, 수정 및 변환을 포함한 광범위한 기능을 제공합니다. 자세한 내용은 설명서를 살펴보세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET은 PowerPoint 프레젠테이션 생성, 수정 및 변환을 포함한 광범위한 기능을 제공합니다. 자세한 내용은 설명서를 살펴보세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).

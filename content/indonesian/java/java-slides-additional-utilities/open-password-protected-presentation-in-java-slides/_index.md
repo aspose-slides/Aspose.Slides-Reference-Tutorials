@@ -16,9 +16,9 @@ Dalam tutorial ini, Anda akan mempelajari cara membuka presentasi yang dilindung
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Slides for Java Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Slides for Java. Anda dapat memperolehnya dari[Asumsikan situs web](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides for Java Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Slides for Java. Anda dapat memperolehnya dari[Asumsikan situs web](https://products.aspose.com/slides/java/).
 
-2.  Lingkungan Pengembangan Java: Siapkan lingkungan pengembangan Java di sistem Anda jika Anda belum melakukannya. Anda dapat mengunduh Java dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Lingkungan Pengembangan Java: Siapkan lingkungan pengembangan Java di sistem Anda jika Anda belum melakukannya. Anda dapat mengunduh Java dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## Langkah 1: Impor Perpustakaan Aspose.Slides
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Ganti "pass" dengan kata sandi presentasi An
 
 ## Langkah 3: Buka Presentasi
 
- Sekarang, Anda akan membuka presentasi yang dilindungi kata sandi menggunakan`Presentation`konstruktor kelas, yang mengambil jalur file dan memuat opsi sebagai parameter.
+ Sekarang, Anda akan membuka presentasi yang dilindungi kata sandi menggunakan`Presentation` konstruktor kelas, yang mengambil jalur file dan memuat opsi sebagai parameter.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

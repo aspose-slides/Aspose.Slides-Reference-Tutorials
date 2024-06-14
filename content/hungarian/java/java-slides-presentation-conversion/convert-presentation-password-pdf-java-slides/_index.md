@@ -88,7 +88,7 @@ try
 	PdfOptions pdfOptions = new PdfOptions();
 	// PDF jelszó beállítása
 	pdfOptions.setPassword("password");
-	// Mentse el a prezentációt jelszóval védett PDF-be
+	// Mentse el a prezentációt jelszóval védett PDF-fájlba
 	presentation.save(dataDir + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfOptions);
 }
 finally
@@ -112,7 +112,7 @@ PdfLoadOptions loadOptions = new PdfLoadOptions();
 loadOptions.setPassword("password"); // Adja meg a PDF létrehozása során használt jelszót
 Presentation presentation = new Presentation("PasswordProtectedPDF_out.pdf", loadOptions);
 
-// Most már szükség szerint dolgozhat a prezentációval
+// Mostantól szükség szerint dolgozhat a prezentációval
 ```
 
 ### Módosíthatom egy meglévő, jelszóval védett PDF jelszavát az Aspose.Slides segítségével?

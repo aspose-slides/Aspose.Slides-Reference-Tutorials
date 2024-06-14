@@ -17,7 +17,7 @@ Antes de começar, certifique-se de ter o seguinte:
 Para começar, importe os pacotes necessários em seu projeto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -56,7 +56,7 @@ Parabéns! Você aprendeu com sucesso como adicionar um deslocamento de estirame
 ## Perguntas frequentes
 ### Posso usar este método para adicionar imagens a slides específicos de uma apresentação?
 Sim, você pode especificar o índice do slide ao recuperar o objeto slide para direcionar um slide específico.
-### Aspose.Slides for Java oferece suporte a outros formatos de imagem além de JPEG?
+### O Aspose.Slides for Java oferece suporte a outros formatos de imagem além de JPEG?
 Sim, Aspose.Slides for Java suporta vários formatos de imagem, incluindo PNG, GIF e BMP, entre outros.
 ### Existe um limite para o tamanho das imagens que posso adicionar usando este método?
 Aspose.Slides for Java pode lidar com imagens de vários tamanhos, mas é recomendado para otimizar imagens para melhor desempenho em apresentações.

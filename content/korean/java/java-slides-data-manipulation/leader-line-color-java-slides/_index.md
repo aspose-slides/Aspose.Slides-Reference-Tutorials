@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/leader-line-color-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 차트의 지시선 색상을 변경하는 방법을 살펴보겠습니다. 지시선은 차트에서 데이터 레이블을 해당 데이터 요소에 연결하는 데 사용됩니다. 우리는 이 작업을 수행하기 위해 Java 코드를 사용할 것입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -20,7 +20,7 @@ url: /ko/java/data-manipulation/leader-line-color-java-slides/
 
 ## 1단계: 프레젠테이션 로드
 
-먼저 수정하려는 차트가 포함된 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`presentationName` PowerPoint 파일의 경로를 사용하세요.
+ 먼저 수정하려는 차트가 포함된 PowerPoint 프레젠테이션을 로드해야 합니다. 바꾸다`presentationName` PowerPoint 파일의 경로를 사용하세요.
 
 ```java
 String presentationName = "path/to/your/presentation.pptx";
@@ -36,7 +36,7 @@ Presentation pres = new Presentation(presentationName);
 // 첫 번째 슬라이드에서 차트 가져오기
 IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
 
-// 일련의 차트 가져오기
+//일련의 차트 가져오기
 IChartSeriesCollection series = chart.getChartData().getSeries();
 
 // 첫 번째 시리즈의 라벨 가져오기
@@ -57,20 +57,20 @@ labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setC
 마지막으로 수정된 지시선 색상이 포함된 프레젠테이션을 새 파일에 저장합니다.
 
 ```java
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 pres.save(outPath, SaveFormat.Pptx);
 ```
 
 ## Java 슬라이드의 지시선 색상에 대한 완전한 소스 코드
 
 ```java
-        String presentationName = RunExamples.getDataDir_Charts() + "LeaderLinesColor.pptx";
-        String outPath = RunExamples.getOutPath() + "LeaderLinesColor-out.pptx";
+        String presentationName = "Your Document Directory";
+        String outPath = "Your Output Directory" + "LeaderLinesColor-out.pptx";
         Presentation pres = new Presentation(presentationName);
         try {
             // 첫 번째 슬라이드에서 차트 가져오기
             IChart chart = (IChart)pres.getSlides().get_Item(0).getShapes().get_Item(0);
-            // 일련의 차트 가져오기
+            //일련의 차트 가져오기
             IChartSeriesCollection series = chart.getChartData().getSeries();
             // 첫 번째 시리즈의 레벨을 얻으세요
             IDataLabelCollection labels = series.get_Item(0).getLabels();
@@ -107,7 +107,7 @@ pres.save(outPath, SaveFormat.Pptx);
 
 ### 상용 프로젝트에서 Aspose.Slides for Java를 사용하려면 라이선스가 필요합니까?
 
-예, 일반적으로 상업용 프로젝트에서 Aspose.Slides for Java를 사용하려면 유효한 라이선스가 필요합니다. Aspose는 테스트 및 평가판 목적을 위한 무료 평가판 라이센스를 포함하여 다양한 라이센스 옵션을 제공합니다. 그러나 프로덕션 용도로 사용하려면 적절한 상용 라이센스를 얻어야 합니다. 방문하다[구매 페이지 제안](https://purchase.aspose.com/) 라이선스 세부정보를 확인하세요.
+ 예, 일반적으로 상업용 프로젝트에서 Aspose.Slides for Java를 사용하려면 유효한 라이선스가 필요합니다. Aspose는 테스트 및 평가판 목적을 위한 무료 평가판 라이센스를 포함하여 다양한 라이센스 옵션을 제공합니다. 그러나 프로덕션 용도로 사용하려면 적절한 상용 라이센스를 얻어야 합니다. 방문하다[구매 페이지 제안](https://purchase.aspose.com/) 라이선스 세부정보를 확인하세요.
 
 ### Aspose.Slides for Java에 대한 기술 지원은 어떻게 받을 수 있나요?
 

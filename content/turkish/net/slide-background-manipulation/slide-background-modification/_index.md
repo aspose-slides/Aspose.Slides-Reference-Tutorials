@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Slayt arka planını değiştirme kodunuz buraya gelecek.
     // Bunu sonraki adımlarda inceleyeceğiz.
     
-    // Değiştirilen sunuyu kaydet
+    //Değiştirilen sunuyu kaydet
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ Bu adımda ilk slaydın arka planını özelleştiriyoruz. Arka plan rengini de�
 ## Adım 6: Değiştirilen Sunumu Kaydetme
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

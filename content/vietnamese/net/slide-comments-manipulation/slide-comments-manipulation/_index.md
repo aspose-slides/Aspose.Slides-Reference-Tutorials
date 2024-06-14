@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Thay đổi vị trí của bình luận
 comment.Position = new Point(100, 100);
 
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Xóa bình luận
 slide.Comments.Remove(comment);
 
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

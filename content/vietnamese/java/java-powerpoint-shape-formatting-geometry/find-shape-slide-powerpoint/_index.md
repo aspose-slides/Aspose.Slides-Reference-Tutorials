@@ -21,7 +21,7 @@ Trước tiên, bạn cần nhập các gói Aspose.Slides cần thiết vào d�
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Bước 1: Tạo thư mục dự án

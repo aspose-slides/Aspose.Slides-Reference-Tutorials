@@ -43,7 +43,7 @@ ISlide sld = pres.Slides[0];
 sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```
 Αυτός ο κωδικός προσθέτει ένα ορθογώνιο σχήμα στις συντεταγμένες (50, 150) με πλάτος 150 και ύψος 50.
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 ```csharp
 pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 ```

@@ -65,7 +65,7 @@ C'est ça! Vous avez créé avec succès une présentation avec des formes esqui
 L'ajout de formes esquissées à vos diapositives de présentation peut améliorer l'attrait visuel et engager votre public. Avec Aspose.Slides pour .NET, le processus devient simple, vous permettant de libérer votre créativité sans effort.
 ## FAQ
 ### 1. Puis-je personnaliser l’effet esquissé ?
-Oui, Aspose.Slides pour .NET propose diverses options de personnalisation pour les effets d'esquisse. Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées.
+ Oui, Aspose.Slides pour .NET propose diverses options de personnalisation pour les effets d'esquisse. Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées.
 ### 2. Existe-t-il un essai gratuit disponible ?
  Certainement! Vous pouvez explorer un essai gratuit d'Aspose.Slides pour .NET[ici](https://releases.aspose.com/).
 ### 3. Où puis-je obtenir de l'aide ?

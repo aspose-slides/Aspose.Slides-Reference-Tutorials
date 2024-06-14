@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có mọi th�
 Để bắt đầu, bạn cần nhập các gói cần thiết cho Aspose.Slides và các lớp Java bắt buộc khác.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides hỗ trợ Java SE 6 trở lên.
 ### Làm cách nào để thêm các hoạt ảnh khác nhau vào nhiều hình dạng?
 Bạn có thể thêm các hình động khác nhau vào nhiều hình dạng bằng cách lặp lại các bước cho từng hình dạng và chỉ định các hiệu ứng khác nhau nếu cần.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Kiểm tra[tài liệu](https://reference.aspose.com/slides/java/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11) để biết thêm ví dụ và trợ giúp.
+ Kiểm tra[tài liệu](https://reference.aspose.com/slides/java/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11)để biết thêm ví dụ và trợ giúp.

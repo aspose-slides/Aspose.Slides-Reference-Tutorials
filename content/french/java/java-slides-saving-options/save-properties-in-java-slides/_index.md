@@ -45,7 +45,7 @@ Vous pouvez définir diverses propriétés du document telles que le titre, l'au
 // Définir le titre de la présentation
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Définir l'auteur de la présentation
+//Définir l'auteur de la présentation
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Définir des mots-clés pour la présentation
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Le chemin d'accès au répertoire des documents.
 String dataDir = "Your Document Directory";
-//Instancier un objet Présentation qui représente un fichier PPT
+// Instancier un objet Présentation qui représente un fichier PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Dans ce didacticiel, vous avez appris à enregistrer les propriétés d'un docum
 // Définir le titre de la présentation
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Définir l'auteur de la présentation
+//Définir l'auteur de la présentation
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Définir des mots-clés pour la présentation

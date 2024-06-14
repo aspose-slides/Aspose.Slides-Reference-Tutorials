@@ -1,6 +1,6 @@
 ---
-title: Java PowerPoint Slide Cloning Tekniker
-linktitle: Java PowerPoint Slide Cloning Tekniker
+title: Java PowerPoint Slide Kloning Tekniker
+linktitle: Java PowerPoint Slide Kloning Tekniker
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master bildkloning i PowerPoint med Aspose.Slides för Java. Lär dig att klona bilder i samma presentation eller över presentationer sömlöst.
 type: docs
@@ -16,7 +16,7 @@ Att klona bilder i PowerPoint-presentationer kan spara massor av tid och effekti
 Att klona bilder i samma presentation är en vanlig uppgift, särskilt när du behöver replikera en specifik bild flera gånger. Aspose.Slides för Java förenklar denna process avsevärt.
 
 -  Klona bild i samma presentation: Lär dig hur du klona bilder i samma presentation utan ansträngning. Vår guide[Klona bild i samma presentation](./clone-slide-within-same-presentation-powerpoint/) ger en detaljerad, steg-för-steg metod.
--  Klona bild till slut i samma presentation: Vill du klona en bild till slutet av din presentation? Denna handledning[Klona Slide to End i samma presentation](./clone-slide-end-within-same-presentation-powerpoint/)visar exakt hur du gör det, vilket säkerställer ett sömlöst tillägg till ditt bildspel.
+-  Klona bild till slut i samma presentation: Vill du klona en bild till slutet av din presentation? Denna handledning[Klona bild till slut i samma presentation](./clone-slide-end-within-same-presentation-powerpoint/)visar exakt hur du gör det, vilket säkerställer ett sömlöst tillägg till ditt bildspel.
 
 ## Kloning av diabilder över olika presentationer
 
@@ -47,5 +47,5 @@ Klona enkelt bilder till specifika sektioner i PowerPoint med Aspose.Slides för
 Lär dig hur du klona bilder mellan presentationer i Java med Aspose.Slides. Steg-för-steg handledning om underhåll av masterbilder.
 ### [Klona bild i samma presentation](./clone-slide-within-same-presentation-powerpoint/)
 Klona bilder i samma presentation med Aspose.Slides för Java med vår guide. Perfekt för utvecklare som vill effektivisera PowerPoint-manipulationer.
-### [Klona Slide to End i samma presentation](./clone-slide-end-within-same-presentation-powerpoint/)
+### [Klona bild till slut i samma presentation](./clone-slide-end-within-same-presentation-powerpoint/)
 Lär dig hur du klona en bild till slutet av en presentation med Aspose.Slides för Java med denna steg-för-steg-guide. Perfekt för Java-utvecklare.

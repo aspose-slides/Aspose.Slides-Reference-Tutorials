@@ -11,7 +11,7 @@ url: /id/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 Dalam dunia desain presentasi yang dinamis, menggabungkan bentuk seperti elips dapat menambah sentuhan kreativitas dan profesionalisme. Aspose.Slides untuk .NET menawarkan solusi ampuh untuk memanipulasi file presentasi secara terprogram. Tutorial ini akan memandu Anda melalui proses pembuatan bentuk elips sederhana di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
+- Aspose.Slides untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Slides untuk .NET. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/slides/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET di mesin Anda.
 ## Impor Namespace
 Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Kode ini menginisialisasi presentasi baru dan memilih slide pertama untuk manipulasi lebih lanjut.
 ## Langkah 2: Tambahkan Bentuk Elips
-Sekarang, mari tambahkan bentuk elips ke slide menggunakan`AddAutoShape` metode:
+ Sekarang, mari tambahkan bentuk elips ke slide menggunakan`AddAutoShape` metode:
 ```csharp
 // Tambahkan bentuk otomatis tipe elips
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

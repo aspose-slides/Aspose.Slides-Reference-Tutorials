@@ -82,7 +82,7 @@ System.Diagnostics.Process.Start(resultPath);
 उत्तर: बिल्कुल! ट्यूटोरियल में टिप्पणी क्षेत्र का रंग, चौड़ाई और स्थिति अनुकूलित करने के विकल्प शामिल हैं।
 ### प्रश्न: मैं .NET के लिए Aspose.Slides पर अधिक दस्तावेज़ कहां पा सकता हूं?
  उत्तर: दस्तावेज़ देखें[यहाँ](https://reference.aspose.com/slides/net/).
-### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
+### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
  उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं Aspose.Slides के लिए सहायता और समर्थन कहां से प्राप्त कर सकता हूं?
-उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
+ उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.

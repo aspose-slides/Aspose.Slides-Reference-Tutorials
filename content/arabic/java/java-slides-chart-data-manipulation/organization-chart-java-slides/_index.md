@@ -22,7 +22,7 @@ url: /ar/java/chart-data-manipulation/organization-chart-java-slides/
 ## الخطوة 1: قم بإعداد مشروع Java الخاص بك
 
 1. قم بإنشاء مشروع Java جديد في IDE المفضل لديك.
-2.  أضف مكتبة Aspose.Slides for Java إلى مشروعك. يمكنك تحميل المكتبة من[موقع أسبوز](https://products.aspose.com/slides/java)وإدراجه باعتباره تبعية.
+2.  أضف مكتبة Aspose.Slides for Java إلى مشروعك. يمكنك تحميل المكتبة من[موقع أسبوز](https://products.aspose.com/slides/java) وإدراجه باعتباره تبعية.
 
 ## الخطوة 2: استيراد المكتبات المطلوبة
 في صف Java الخاص بك، قم باستيراد المكتبات اللازمة للعمل مع Aspose.Slides:

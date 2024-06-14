@@ -50,7 +50,7 @@ double dir = 0.0;
 shape = (Shape)slide.Shapes[i];
 if (shape is AutoShape)
 {
-    // التعليمات البرمجية للتعامل مع الأشكال التلقائية
+    // كود التعامل مع الأشكال التلقائية
 }
 else if (shape is Connector)
 {

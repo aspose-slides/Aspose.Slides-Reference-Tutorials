@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // Πάρτε την πρώτη σειρά γραφημάτων
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Πάρτε τη δεύτερη σειρά γραφημάτων
 series = chart.getChartData().getSeries().get_Item(1);
-//Τώρα συμπληρώνονται δεδομένα σειράς
+// Τώρα συμπληρώνονται δεδομένα σειράς
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Πάρτε την πρώτη σειρά γραφημάτων
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//Τώρα συμπληρώνονται δεδομένα σειράς
+	// Τώρα συμπληρώνονται δεδομένα σειράς
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Πάρτε τη δεύτερη σειρά γραφημάτων
 	series = chart.getChartData().getSeries().get_Item(1);
-	//Τώρα συμπληρώνονται δεδομένα σειράς
+	// Τώρα συμπληρώνονται δεδομένα σειράς
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//Ρύθμιση χρώματος γεμίσματος για σειρά
+	// Ρύθμιση χρώματος γεμίσματος για τη σειρά
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Αποθήκευση παρουσίασης με γράφημα
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### Πώς μπορώ να προσθέσω επιπλέον σειρές ή κατηγορίες στο γράφημα;
 
-Για να προσθέσετε επιπλέον σειρές ή κατηγορίες στο γράφημα, χρησιμοποιήστε το`getSeries()` και`getCategories()` μεθόδους του διαγράμματος`ChartData` αντικείμενο. Μπορείτε να προσθέσετε νέες σειρές και κατηγορίες καθορίζοντας τα δεδομένα και τις ετικέτες τους.
+ Για να προσθέσετε επιπλέον σειρές ή κατηγορίες στο γράφημα, χρησιμοποιήστε το`getSeries()` και`getCategories()` μεθόδους του διαγράμματος`ChartData` αντικείμενο. Μπορείτε να προσθέσετε νέες σειρές και κατηγορίες καθορίζοντας τα δεδομένα και τις ετικέτες τους.
 
 ### Είναι δυνατή η περαιτέρω μορφοποίηση του γραφήματος και των ετικετών;
 

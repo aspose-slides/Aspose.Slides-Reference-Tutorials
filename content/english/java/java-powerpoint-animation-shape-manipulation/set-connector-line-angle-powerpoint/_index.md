@@ -19,7 +19,7 @@ Before we begin, ensure you have the following:
 To get started, import the necessary packages into your Java project. Ensure you include the Aspose.Slides library for accessing PowerPoint functionalities.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Initialize Presentation Object
 Begin by initializing a Presentation object to load your PowerPoint file.

@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // ตั้งชื่อหัวข้อการนำเสนอ
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// กำหนดผู้เขียนการนำเสนอ
+//กำหนดผู้เขียนการนำเสนอ
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // กำหนดคำสำคัญสำหรับการนำเสนอ
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 String dataDir = "Your Document Directory";
-//สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
+// สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // ตั้งชื่อหัวข้อการนำเสนอ
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// กำหนดผู้เขียนการนำเสนอ
+//กำหนดผู้เขียนการนำเสนอ
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // กำหนดคำสำคัญสำหรับการนำเสนอ

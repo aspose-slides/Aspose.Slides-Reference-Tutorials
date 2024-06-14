@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation(outPptxPath))
 
 ## Conclusione
 
-Congratulazioni! Hai convertito con successo un file in formato FODP in altri formati di presentazione utilizzando Aspose.Slides per .NET. Questa libreria versatile apre un mondo di possibilità per lavorare con le presentazioni a livello di programmazione.
+Congratulazioni! Hai convertito con successo un file in formato FODP in altri formati di presentazione utilizzando Aspose.Slides per .NET. Questa libreria versatile apre un mondo di possibilità per lavorare con le presentazioni a livello di codice.
 
  Se riscontri problemi o hai domande, non esitare a chiedere aiuto su[Forum Aspose.Slides](https://forum.aspose.com/). La community e il team di supporto sono lì per aiutarti.
 
@@ -70,7 +70,7 @@ Congratulazioni! Hai convertito con successo un file in formato FODP in altri fo
 
 ### 2. Posso provare Aspose.Slides per .NET prima dell'acquisto?
 
- Sì, puoi scaricare una versione di prova gratuita da[pagina delle uscite](https://releases.aspose.com/). La prova ti consente di valutare le funzionalità della libreria prima di effettuare un acquisto.
+ Sì, puoi scaricare una versione di prova gratuita da[pagina dei comunicati](https://releases.aspose.com/). La prova ti consente di valutare le funzionalità della libreria prima di effettuare un acquisto.
 
 ### 3. Come posso ottenere una licenza temporanea per Aspose.Slides per .NET?
 

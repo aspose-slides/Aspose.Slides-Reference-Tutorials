@@ -21,7 +21,7 @@ In deze zelfstudie onderzoeken we hoe u alleen-lezen aanbevolen eigenschappen vo
 We beginnen met het maken van een nieuwe PowerPoint-presentatie met Aspose.Slides voor Java. Als u al een presentatie heeft, kunt u deze stap overslaan.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Ten slotte slaan we de presentatie op met de eigenschap Alleen-lezen aanbevolen 
 ## Volledige broncode voor alleen-lezen aanbevolen eigenschappen in Java-dia's
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

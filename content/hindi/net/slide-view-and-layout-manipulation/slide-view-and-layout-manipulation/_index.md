@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 एक बार जब आप सभी आवश्यक परिवर्तन कर लें, तो संशोधित प्रस्तुति को सहेजें:
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

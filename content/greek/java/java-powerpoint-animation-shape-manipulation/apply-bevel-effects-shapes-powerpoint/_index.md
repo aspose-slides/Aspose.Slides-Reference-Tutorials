@@ -11,7 +11,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι ζωτικής σημασίας για να τραβήξετε και να διατηρήσετε την προσοχή του κοινού σας. Η προσθήκη εφέ λοξότμησης σε σχήματα μπορεί να βελτιώσει τη συνολική αισθητική των διαφανειών σας, κάνοντας την παρουσίασή σας να ξεχωρίζει. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής φαλτσών εφέ σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Είτε είστε προγραμματιστής που θέλει να αυτοματοποιήσει τη δημιουργία παρουσιάσεων είτε απλώς κάποιος που του αρέσει να ασχολείται με το σχεδιασμό, αυτός ο οδηγός σας καλύπτει.
 ## Προαπαιτούμενα
 Πριν ξεκινήσετε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
--  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK. Μπορείτε να το κατεβάσετε από το[Ιστοσελίδα Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides για Java Library: Λήψη της βιβλιοθήκης από[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE (Integrated Development Environment): Χρησιμοποιήστε οποιοδήποτε IDE της επιλογής σας, όπως IntelliJ IDEA, Eclipse ή NetBeans.
 -  Άδεια χρήσης Aspose: Για να χρησιμοποιήσετε το Aspose.Slides χωρίς περιορισμούς, αποκτήστε άδεια από[Aspose Αγορά](https://purchase.aspose.com/buy) ή πάρτε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για αξιολόγηση.
@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Αρχικά, πρέπει να εισαγάγετε τα απαραίτητα πακέτα για την εργασία με το Aspose.Slides στο έργο σας Java. Δείτε πώς μπορείτε να το κάνετε:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Βήμα 1: Ρύθμιση του έργου σας

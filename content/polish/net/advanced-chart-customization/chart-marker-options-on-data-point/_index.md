@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Tworzenie domyślnego wykresu
+//Tworzenie domyślnego wykresu
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Na koniec zapisujemy prezentację z nowymi ustawieniami wykresu.
 
 Aspose.Slides dla .NET umożliwia tworzenie wspaniałych prezentacji wykresów z różnymi opcjami dostosowywania. W tym samouczku skupiliśmy się na użyciu opcji znaczników wykresu na punktach danych w celu ulepszenia wizualnej reprezentacji danych. Dzięki Aspose.Slides dla .NET możesz przenieść swoje prezentacje na wyższy poziom, czyniąc je bardziej wciągającymi i pouczającymi.
 
- Jeśli masz jakieś pytania lub potrzebujesz pomocy z Aspose.Slides dla .NET, zapraszamy do odwiedzenia strony[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) lub skontaktuj się z[społeczność Aspose](https://forum.aspose.com/) dla wsparcia.
+Jeśli masz jakieś pytania lub potrzebujesz pomocy z Aspose.Slides dla .NET, zapraszamy do odwiedzenia strony[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) lub skontaktuj się z[społeczność Aspose](https://forum.aspose.com/) dla wsparcia.
 
 ## Często zadawane pytania (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides dla .NET umożliwia tworzenie wspaniałych prezentacji wykresów z
 Tak, możesz używać niestandardowych obrazów jako znaczników punktów danych w Aspose.Slides dla .NET, jak pokazano w tym samouczku.
 
 ### Jak mogę zmienić typ wykresu w Aspose.Slides dla .NET?
-Typ wykresu można zmienić, określając inny`ChartType` podczas tworzenia wykresu, np. „Słupkowy”, „Kołowy” lub „Obszar”.
+ Typ wykresu można zmienić, określając inny`ChartType` podczas tworzenia wykresu, np. „Słupkowy”, „Kołowy” lub „Obszar”.
 
 ### Czy Aspose.Slides for .NET jest kompatybilny z najnowszymi wersjami programu PowerPoint?
 Aspose.Slides dla .NET jest zaprojektowany do pracy z różnymi formatami programu PowerPoint i jest regularnie aktualizowany, aby zachować kompatybilność z najnowszymi wersjami programu PowerPoint.

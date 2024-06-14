@@ -59,7 +59,7 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
 
 ## 7. Következtetés
 
-Ebben az oktatóanyagban lépésről lépésre végigvezettük a PowerPoint-prezentációk HTML-formátumba konvertálásának folyamatán az Aspose.Slides for .NET segítségével. Ez a hatékony API leegyszerűsíti a feladatot, és megkönnyíti a prezentációk online megosztását.
+Ebben az oktatóanyagban lépésről lépésre végigvezettük a PowerPoint-prezentációk HTML-formátumba való konvertálásának folyamatán az Aspose.Slides for .NET használatával. Ez a hatékony API leegyszerűsíti a feladatot, és megkönnyíti a prezentációk online megosztását.
 
 ## 8. Gyakran Ismételt Kérdések (GYIK)
 

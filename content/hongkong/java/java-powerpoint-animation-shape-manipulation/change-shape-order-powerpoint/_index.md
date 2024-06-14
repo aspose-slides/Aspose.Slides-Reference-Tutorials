@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/change-shape-ord
 首先，您需要從 Aspose.Slides 庫匯入必要的套件。這些匯入將允許您處理簡報、投影片和形狀。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 在本指南中，我們將把更改形狀順序的過程分解為幾個步驟，以便更好地理解和易於實施。
 ## 第 1 步：載入簡報
@@ -51,7 +51,7 @@ shp3 = slide.getShapes().addAutoShape(ShapeType.Triangle, 200, 365, 400, 150);
 slide.getShapes().reorder(2, shp3);
 ```
 ## 步驟5：儲存修改後的簡報
-對形狀重新排序後，將修改後的簡報儲存到新文件中。這可確保您的原始文件保持不變。
+對形狀重新排序後，將修改後的簡報儲存到新檔案中。這可確保您的原始文件保持不變。
 ```java
 presentation1.save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
 ```

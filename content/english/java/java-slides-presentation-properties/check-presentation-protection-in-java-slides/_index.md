@@ -67,8 +67,8 @@ Replace `"path_to_presentation.ppt"` with the actual path to your presentation f
 
 ```java
 //Path for source presentation
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // Check the Write Protection Password via IPresentationInfo Interface
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

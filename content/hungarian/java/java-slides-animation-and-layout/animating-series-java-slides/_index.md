@@ -57,7 +57,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-A fenti kódban egy fade-in effektust használunk a teljes diagramra, majd egy ciklus segítségével egymás után adunk hozzá egy "Megjelenés" effektust az egyes sorozatokhoz.
+A fenti kódban egy fade-in effektust használunk a teljes diagramra, majd egy ciklus segítségével egymás után adunk hozzá egy "Appear" effektust az egyes sorozatokhoz.
 
 ## 4. lépés: Mentse el a bemutatót
 
@@ -112,7 +112,7 @@ Sikeresen animált sorozatot PowerPoint diagramon az Aspose.Slides for Java seg�
 
 ### Hogyan szabályozhatom a sorozatanimációk sorrendjét?
 
- A sorozatanimációk sorrendjének szabályozásához használja a`EffectTriggerType.AfterPrevious`paramétert az effektusok hozzáadásakor. Ezzel minden sorozatanimáció az előző befejezése után indul el.
+ A sorozatanimációk sorrendjének szabályozásához használja a`EffectTriggerType.AfterPrevious` paramétert az effektusok hozzáadásakor. Ezzel minden sorozatanimáció az előző befejezése után indul el.
 
 ### Alkalmazhatok különböző animációkat az egyes sorozatokhoz?
 

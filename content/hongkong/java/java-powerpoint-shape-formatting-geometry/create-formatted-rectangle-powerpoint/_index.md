@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-formatted-re
 首先，您需要從 Aspose.Slides 庫匯入必要的套件。您可以這樣做：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

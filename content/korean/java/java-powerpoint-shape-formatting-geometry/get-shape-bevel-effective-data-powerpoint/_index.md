@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ---
 ## 소개
 현대 비즈니스 프레젠테이션에서 시각적 매력은 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. PowerPoint 프레젠테이션에서 도형의 시각적 효과를 향상시킬 수 있는 요소 중 하나는 경사 효과입니다. Aspose.Slides for Java는 베벨 효과를 포함하여 도형의 다양한 속성에 액세스하고 조작할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 형상 베벨 유효 데이터를 검색하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. Java 프로그래밍 언어에 대한 기본 이해.
 2. 시스템에 JDK(Java Development Kit)를 설치했습니다.
@@ -19,7 +19,7 @@ Java 프로젝트에 필요한 패키지를 가져오는 것부터 시작하세�
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 문서 디렉터리 설정
 PowerPoint 프레젠테이션이 있는 문서 디렉터리의 경로를 정의합니다.

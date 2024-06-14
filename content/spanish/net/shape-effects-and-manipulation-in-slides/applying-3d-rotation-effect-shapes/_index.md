@@ -11,7 +11,7 @@ url: /es/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effec
 Crear diapositivas de presentación atractivas y dinámicas es un aspecto clave de una comunicación eficaz. Aspose.Slides para .NET proporciona un poderoso conjunto de herramientas para mejorar sus presentaciones, incluida la capacidad de aplicar efectos de rotación 3D a formas. En este tutorial, recorreremos el proceso de aplicar un efecto de rotación 3D a formas en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
--  Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/slides/net/).
+- Aspose.Slides para .NET: asegúrese de tener instalada la biblioteca Aspose.Slides para .NET. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/slides/net/).
 - Entorno de desarrollo: configure un entorno de desarrollo .NET, como Visual Studio, para escribir y ejecutar su código.
 ## Importar espacios de nombres
 En su proyecto .NET, importe los espacios de nombres necesarios para aprovechar la funcionalidad de Aspose.Slides. Incluya los siguientes espacios de nombres al principio de su código:

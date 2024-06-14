@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 मान अक्ष के समान, आप श्रेणी अक्ष के लिए लघु ग्रिड लाइनों को अनुकूलित कर सकते हैं।
 
 ```csharp
-//श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
+// श्रेणी अक्ष के लिए लघु ग्रिड रेखा प्रारूप सेट करना
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// प्लॉट क्षेत्र का रंग सेट करना
+//प्लॉट क्षेत्र का रंग सेट करना
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

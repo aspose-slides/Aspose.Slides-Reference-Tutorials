@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/add-animations-to-sha
 للبدء، ستحتاج إلى استيراد الحزم اللازمة لـ Aspose.Slides وفئات Java الأخرى المطلوبة.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -107,4 +107,4 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 ### كيف يمكنني إضافة رسوم متحركة مختلفة إلى أشكال متعددة؟
 يمكنك إضافة رسوم متحركة مختلفة إلى أشكال متعددة عن طريق تكرار الخطوات لكل شكل وتحديد تأثيرات مختلفة حسب الحاجة.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
- تفحص ال[توثيق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11) لمزيد من الأمثلة والمساعدة.
+ تفحص ال[توثيق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11)لمزيد من الأمثلة والمساعدة.

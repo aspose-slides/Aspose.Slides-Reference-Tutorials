@@ -26,7 +26,7 @@ Presentation presentation = new Presentation();
 ```
 
 ## Paso 2: agregar un gráfico a una diapositiva
-A continuación, agregaremos un gráfico a una diapositiva. En este ejemplo, crearemos un gráfico circular:
+continuación, agregaremos un gráfico a una diapositiva. En este ejemplo, crearemos un gráfico circular:
 
 ```java
 // Agregar gráfico en la diapositiva
@@ -84,7 +84,7 @@ En este tutorial, aprendimos cómo agregar segundas opciones de trazado a gráfi
 
 ### ¿Cómo puedo cambiar el tamaño del segundo pastel en un gráfico circular?
 
- Para cambiar el tamaño del segundo gráfico circular en un gráfico circular, utilice el`setSecondPieSize` método como se muestra en el ejemplo de código anterior. Ajuste el valor para especificar el tamaño en porcentaje.
+Para cambiar el tamaño del segundo gráfico circular en un gráfico circular, utilice el`setSecondPieSize` método como se muestra en el ejemplo de código anterior. Ajuste el valor para especificar el tamaño en porcentaje.
 
 ###  Que hace`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ En este tutorial, aprendimos cómo agregar segundas opciones de trazado a gráfi
 
 ### ¿Cómo configuro la posición de la división en un gráfico circular?
 
-Puede establecer la posición de la división en un gráfico circular utilizando el`setPieSplitPosition` método. Ajuste el valor para especificar la posición deseada.
+ Puede establecer la posición de la división en un gráfico circular utilizando el`setPieSplitPosition` método. Ajuste el valor para especificar la posición deseada.

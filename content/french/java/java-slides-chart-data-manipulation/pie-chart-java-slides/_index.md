@@ -49,7 +49,7 @@ Obtenez la première diapositive de la présentation dans laquelle vous souhaite
 ## Étape 4 : Ajouter un graphique à secteurs
 
 ```java
-//Ajouter un diagramme circulaire avec les données par défaut
+// Ajouter un diagramme circulaire avec les données par défaut
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Définissez un titre pour le graphique à secteurs. Vous pouvez personnaliser le
 ## Étape 6 : Personnaliser les données du graphique
 
 ```java
-// Définir la première série pour afficher les valeurs
+//Définir la première série pour afficher les valeurs
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Définition de l'index de la feuille de données du graphique
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Ajout d'une nouvelle série
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

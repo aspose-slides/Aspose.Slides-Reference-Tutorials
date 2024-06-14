@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Introduktion till redigering av diagramdata i extern arbetsbok i Java Slides
 
-den här guiden kommer vi att visa hur man redigerar diagramdata i en extern arbetsbok med Aspose.Slides för Java. Du lär dig hur du ändrar diagramdata i en PowerPoint-presentation programmatiskt. Se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt.
+I den här guiden kommer vi att visa hur man redigerar diagramdata i en extern arbetsbok med Aspose.Slides för Java. Du lär dig hur du ändrar diagramdata i en PowerPoint-presentation programmatiskt. Se till att du har Aspose.Slides-biblioteket för Java installerat och konfigurerat i ditt projekt.
 
 ## Förutsättningar
 
@@ -35,7 +35,7 @@ När presentationen har laddats måste vi komma åt diagrammet i presentationen.
 IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 ```
 
-## Steg 3: Ändra diagramdata
+## Steg 3: Ändra sjökortsdata
 
 Låt oss nu ändra diagramdata. Vi kommer att fokusera på att ändra en specifik datapunkt i diagrammet. I det här exemplet ställer vi in värdet för den första datapunkten i den första serien till 100. Du kan justera detta värde efter behov.
 
@@ -75,7 +75,7 @@ Nu har du framgångsrikt redigerat diagramdata i en extern arbetsbok i din Power
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -84,13 +84,13 @@ Nu har du framgångsrikt redigerat diagramdata i en extern arbetsbok i din Power
 ```
 ## Slutsats
 
-den här omfattande guiden har vi utforskat hur man redigerar diagramdata i externa arbetsböcker i PowerPoint-presentationer med Aspose.Slides för Java. Genom att följa steg-för-steg-instruktionerna och källkodsexemplen har du fått kunskap och färdigheter för att programmässigt ändra diagramdata med lätthet.
+I den här omfattande guiden har vi utforskat hur man redigerar diagramdata i externa arbetsböcker i PowerPoint-presentationer med Aspose.Slides för Java. Genom att följa steg-för-steg-instruktionerna och källkodsexemplen har du fått kunskap och färdigheter för att programmässigt ändra diagramdata med lätthet.
 
 ## FAQ's
 
 ### Hur anger jag ett annat diagram eller en annan bild?
 
- För att komma åt ett annat diagram eller diabild, ändra lämpligt index i`getSlides().get_Item()` och`getShapes().get_Item()` metoder. Kom ihåg att indexering börjar från 0.
+ För att komma åt ett annat diagram eller diabild, ändra lämpligt index i`getSlides().get_Item()` och`getShapes().get_Item()`metoder. Kom ihåg att indexering börjar från 0.
 
 ### Kan jag redigera data i flera diagram inom samma presentation?
 

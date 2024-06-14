@@ -12,14 +12,14 @@ Görsel olarak çekici PowerPoint sunumları oluşturmak, özellikle her ayrınt
 ## Önkoşullar
 Başlamadan önce, yerine getirmeniz gereken birkaç önkoşul vardır:
 1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java'yı indirip projenize dahil etmeniz gerekiyor. Şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Kütüphanesi: Aspose.Slides for Java'yı indirip projenize dahil etmeniz gerekiyor. Şu adresten alabilirsiniz:[Burada](https://releases.aspose.com/slides/java/).
 3. Entegre Geliştirme Ortamı (IDE): Java kodunuzu yazmak ve yürütmek için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE kullanın.
 4. Temel Java Bilgisi: Java programlamaya ilişkin temel bir anlayış, öğreticiyi takip etmenize yardımcı olacaktır.
 ## Paketleri İçe Aktar
 Öncelikle Aspose.Slides için gerekli paketleri içe aktarmanız gerekiyor. Sunum manipülasyonlarımız için gereken sınıflara ve yöntemlere erişmek için bu gereklidir.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Bu adımda bir dizin yolu tanımlayıp var olup olmadığını kontrol ediyoruz. Eğer yoksa dizini oluşturuyoruz. Bu, dosyalarınızı düzenli tutmanın basit ama etkili bir yoludur.
 ## Adım 2: Sunumu Başlatın
- Daha sonra, örneği başlatıyoruz`Presentation`PowerPoint dosyamızı temsil eden sınıf. Bu, slaytlarımızı ve şekillerimizi üzerine inşa edeceğimiz temeldir.
+ Daha sonra, örneği başlatıyoruz`Presentation` PowerPoint dosyamızı temsil eden sınıf. Bu, slaytlarımızı ve şekillerimizi üzerine inşa edeceğimiz temeldir.
 ```java
 Presentation pres = new Presentation();
 ```

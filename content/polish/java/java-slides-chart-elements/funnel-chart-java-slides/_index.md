@@ -38,7 +38,7 @@ try {
     chart.getChartData().getSeries().clear();
 ```
 
-powyższym kodzie do pierwszego slajdu dodajemy wykres lejkowy o współrzędnych (50, 50) o szerokości 500 i wysokości 400 pikseli.
+W powyższym kodzie do pierwszego slajdu dodajemy wykres lejkowy o współrzędnych (50, 50) o szerokości 500 i wysokości 400 pikseli.
 
 ## Krok 3: Zdefiniuj dane wykresu
 

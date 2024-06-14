@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 Để bắt đầu, bạn cần nhập các gói cần thiết từ thư viện Aspose.Slides. Việc nhập này sẽ cho phép bạn làm việc với bản trình bày, trang trình bày và hình dạng.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Trong hướng dẫn này, chúng tôi sẽ chia nhỏ quá trình thay đổi thứ tự hình dạng thành nhiều bước để hiểu rõ hơn và dễ thực hiện.
 ## Bước 1: Tải bài thuyết trình

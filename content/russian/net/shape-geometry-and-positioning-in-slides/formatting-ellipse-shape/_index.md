@@ -61,7 +61,7 @@ shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
 shp.LineFormat.Width = 5;
 ```
 Примените форматирование к форме эллипса, задав цвет заливки и свойства линии.
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 ```csharp
 pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
 ```

@@ -44,7 +44,7 @@ using (Presentation presentation = new Presentation(dataDir + "Individual-Slide.
  Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a tényleges könyvtár elérési útjával, ahol a bemutató fájl található.
 
 ## HTML-konverziós beállítások
-kód ezen része a HTML-konverziós lehetőségeket tárgyalja. Megtanulja, hogyan szabhatja testre ezeket a beállításokat az Ön igényei szerint.
+A kód ezen része a HTML-konverziós lehetőségeket tárgyalja. Megtanulja, hogyan szabhatja testre ezeket a beállításokat az Ön igényei szerint.
 
 ```csharp
 HtmlOptions htmlOptions = new HtmlOptions();

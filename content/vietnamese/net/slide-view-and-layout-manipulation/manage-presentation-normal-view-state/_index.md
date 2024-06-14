@@ -117,7 +117,7 @@ Có, Aspose.Slides cho phép bạn thêm hình động vào từng thành phần
 
 ### Tôi có thể tìm tài liệu toàn diện về Aspose.Slides cho .NET ở đâu?
 
-Bạn có thể truy cập tài liệu toàn diện về Aspose.Slides for .NET tại[Tham chiếu API](https://reference.aspose.com/slides/net/) trang.
+Bạn có thể truy cập tài liệu toàn diện về Aspose.Slides for .NET tại[Tham khảo API](https://reference.aspose.com/slides/net/) trang.
 
 ## Phần kết luận
 Trong hướng dẫn này, chúng tôi đã khám phá cách quản lý bản trình bày ở trạng thái xem thông thường bằng Aspose.Slides cho .NET. Với các tính năng mạnh mẽ của nó, bạn có thể tạo, sửa đổi và nâng cao bản trình bày theo chương trình, đảm bảo nội dung của bạn thu hút khán giả một cách hiệu quả. Cho dù bạn là người thuyết trình chuyên nghiệp hay nhà phát triển làm việc trên các ứng dụng liên quan đến bản trình bày, Aspose.Slides for .NET là cửa ngõ để bạn quản lý bản trình bày liền mạch.

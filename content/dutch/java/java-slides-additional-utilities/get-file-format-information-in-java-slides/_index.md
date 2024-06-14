@@ -96,7 +96,7 @@ In deze zelfstudie hebben we geleerd hoe u informatie over de bestandsindeling k
 
 ### Hoe verkrijg ik de Aspose.Slides voor Java-bibliotheek?
 
- U kunt de Aspose.Slides voor Java-bibliotheek downloaden van de Aspose-website op[deze link](https://releases.aspose.com/slides/java/)Kies de juiste versie voor uw project.
+ U kunt de Aspose.Slides voor Java-bibliotheek downloaden van de Aspose-website op[deze link](https://releases.aspose.com/slides/java/). Kies de juiste versie voor uw project.
 
 ### Kan ik deze code gebruiken met andere Java-presentatiebibliotheken?
 
@@ -112,4 +112,4 @@ Aspose.Slides voor Java is een commerciële bibliotheek, maar biedt een gratis p
 
 ### Hoe kan ik contact opnemen met Aspose-ondersteuning voor hulp?
 
-kunt via hun website contact opnemen met Aspose-ondersteuning. Ze bieden speciale ondersteuningskanalen om u te helpen met eventuele vragen of problemen die u tegenkomt tijdens het gebruik van hun producten.
+U kunt via hun website contact opnemen met Aspose-ondersteuning. Ze bieden speciale ondersteuningskanalen om u te helpen met eventuele vragen of problemen die u tegenkomt tijdens het gebruik van hun producten.

@@ -9,7 +9,7 @@ url: /ko/net/slide-animation-control/rewind-animation-on-slide/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 매력적인 애니메이션을 통합하면 참여도를 크게 높일 수 있습니다. .NET용 Aspose.Slides는 프레젠테이션에 생기를 불어넣는 강력한 도구 세트를 제공합니다. 흥미로운 기능 중 하나는 슬라이드에서 애니메이션을 되감는 기능입니다. 이 포괄적인 가이드에서는 .NET용 Aspose.Slides를 사용하여 애니메이션 되감기의 잠재력을 최대한 활용할 수 있도록 프로세스를 단계별로 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 -  .NET용 Aspose.Slides: 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 - .NET 개발 환경: 작동하는 .NET 개발 환경이 설정되어 있는지 확인하세요.
@@ -56,7 +56,7 @@ effect.Timing.Rewind = true;
 presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
 ## 6단계: 대상 프리젠테이션에서 되감기 효과 확인
-수정된 프레젠테이션을 로드하고 되감기 효과가 적용되었는지 확인하세요.
+수정된 프레젠테이션을 로드하고 되감기 효과가 적용되었는지 확인합니다.
 ```csharp
 using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
 {

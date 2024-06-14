@@ -101,7 +101,7 @@ Gratulujeme! Úspěšně jste se naučili, jak převést PowerPointové prezenta
 
 ### Jak si mohu stáhnout Aspose.Slides pro Java?
 
-Aspose.Slides for Java si můžete stáhnout z webu Aspose. Návštěva[tady](https://releases.aspose.com/slides/java/) pro přístup k odkazu ke stažení.
+ Aspose.Slides for Java si můžete stáhnout z webu Aspose. Návštěva[tady](https://releases.aspose.com/slides/java/) pro přístup k odkazu ke stažení.
 
 ### Existují nějaké licenční požadavky pro používání Aspose.Slides pro Java?
 

@@ -36,7 +36,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 try
 {
-    // أضف مخططًا قمعيًا إلى الشريحة الأولى عند الإحداثيات (50، 50) والأبعاد (500، 400).
+    //أضف مخططًا قمعيًا إلى الشريحة الأولى عند الإحداثيات (50، 50) والأبعاد (500، 400).
     IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Funnel, 50, 50, 500, 400);
     chart.getChartData().getCategories().clear();
     chart.getChartData().getSeries().clear();
@@ -136,4 +136,4 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 
 ### هل يمكنني تصدير المخطط إلى تنسيقات مختلفة، مثل PDF أو صورة؟
 
- نعم، يتيح لك Aspose.Slides for Java تصدير العرض التقديمي باستخدام Funnel Chart إلى تنسيقات مختلفة، بما في ذلك PDF وتنسيقات الصور والمزيد. يمكنك استخدام ال`SaveFormat` خيارات لتحديد تنسيق الإخراج المطلوب عند حفظ العرض التقديمي.
+نعم، يتيح لك Aspose.Slides for Java تصدير العرض التقديمي باستخدام Funnel Chart إلى تنسيقات مختلفة، بما في ذلك PDF وتنسيقات الصور والمزيد. يمكنك استخدام ال`SaveFormat` خيارات لتحديد تنسيق الإخراج المطلوب عند حفظ العرض التقديمي.

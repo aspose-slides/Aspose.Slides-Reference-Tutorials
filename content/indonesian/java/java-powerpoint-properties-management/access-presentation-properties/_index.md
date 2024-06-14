@@ -21,12 +21,12 @@ Pada langkah ini, kita akan mengimpor paket yang diperlukan untuk memulai perjal
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Atur Direktori Data
 Sebelum menyelami fungsionalitas inti, atur direktori data untuk mengakses file presentasi Anda:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## Langkah 2: Buat Opsi Muat
 Buat instance opsi pemuatan untuk mengonfigurasi cara file presentasi akan diakses. Dalam contoh ini, kami menyetel kata sandi akses ke null dan mengaktifkan hanya memuat properti dokumen:

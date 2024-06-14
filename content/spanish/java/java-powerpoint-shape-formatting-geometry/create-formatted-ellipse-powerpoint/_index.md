@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 Para comenzar a usar Aspose.Slides, necesita importar los paquetes necesarios. Así es como puedes hacerlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrollad
 ### ¿Puedo usar Aspose.Slides para Java con cualquier IDE?
 Sí, puede utilizar Aspose.Slides para Java con cualquier IDE de Java como IntelliJ IDEA, Eclipse o NetBeans.
 ### ¿Necesito una licencia para Aspose.Slides?
- Sí, Aspose.Slides es un producto comercial y necesita una licencia para su funcionalidad completa. Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Sí, Aspose.Slides es un producto comercial y necesita una licencia para su funcionalidad completa. Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Slides para Java?
-Puede encontrar documentación detallada en Aspose.Slides para Java[página de documentación](https://reference.aspose.com/slides/java/).
+ Puede encontrar documentación detallada en Aspose.Slides para Java[página de documentación](https://reference.aspose.com/slides/java/).
 ### ¿Hay soporte disponible para Aspose.Slides?
  Sí, Aspose ofrece soporte a través de su[foro](https://forum.aspose.com/c/slides/11).

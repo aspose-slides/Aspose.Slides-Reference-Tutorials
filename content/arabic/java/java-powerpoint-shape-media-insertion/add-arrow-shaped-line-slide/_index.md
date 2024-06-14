@@ -12,14 +12,14 @@ url: /ar/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 - تم تثبيت Java Development Kit (JDK) على نظامك.
-- تم تنزيل Aspose.Slides لمكتبة Java وإعدادها في مشروع Java الخاص بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+-  تم تنزيل Aspose.Slides لمكتبة Java وإعدادها في مشروع Java الخاص بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
 - المعرفة الأساسية بلغة البرمجة جافا.
 
 ## حزم الاستيراد
 أولاً، قم باستيراد الحزم الضرورية إلى فئة Java الخاصة بك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -67,7 +67,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### هل يمكنني تخصيص لون خط السهم؟
  نعم، يمكنك تحديد أي لون باستخدام`setColor` طريقة مع`SolidFillColor`.
 ### كيف يمكنني تغيير موضع وحجم خط السهم؟
-ضبط المعلمات التي تم تمريرها إلى`addAutoShape` طريقة لتغيير الموقف والأبعاد.
+ ضبط المعلمات التي تم تمريرها إلى`addAutoShape` طريقة لتغيير الموقف والأبعاد.
 ### هل Aspose.Slides متوافق مع كافة إصدارات PowerPoint؟
 يدعم Aspose.Slides تنسيقات PowerPoint المختلفة، مما يضمن التوافق عبر الإصدارات المختلفة.
 ### هل يمكنني إضافة نص إلى خط السهم؟

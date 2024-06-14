@@ -9,9 +9,9 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 ---
 ## 소개
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만드는 것은 청중을 사로잡는 데 매우 중요합니다. 슬라이드를 향상시키는 효과적인 방법 중 하나는 그라디언트로 모양을 채우는 것입니다. 이 튜토리얼은 PowerPoint에서 그라데이션으로 도형을 채우기 위해 Java용 Aspose.Slides를 사용하는 과정을 안내합니다. 숙련된 개발자이거나 이제 막 시작하는 개발자라면 이 가이드가 유용하고 따라하기 쉽다는 것을 알게 될 것입니다. 그라디언트의 세계에 대해 알아보고 그라디언트가 프레젠테이션을 어떻게 변화시킬 수 있는지 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
--  JDK(Java Development Kit): JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
+- JDK(Java Development Kit): JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Java용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
 - 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse와 같은 IDE는 코딩 경험을 더욱 원활하게 만들어줍니다.
 - Java 기본 지식: Java 프로그래밍에 대한 지식이 필수적입니다.
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Aspose.Slides를 시작하려면 필요한 패키지를 가져와야 합니다. 프로젝트의 종속성에 Aspose.Slides for Java를 추가했는지 확인하세요.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

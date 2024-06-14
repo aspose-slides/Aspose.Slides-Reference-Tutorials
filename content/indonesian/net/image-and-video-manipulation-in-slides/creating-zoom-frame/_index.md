@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Langkah 3: Sesuaikan Latar Belakang Slide
 Tingkatkan daya tarik visual slide Anda dengan menyesuaikan latar belakangnya. Dalam contoh ini, kami menetapkan latar belakang cyan solid untuk slide kedua.
 ```csharp
-//Buat latar belakang untuk slide kedua
+// Buat latar belakang untuk slide kedua
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

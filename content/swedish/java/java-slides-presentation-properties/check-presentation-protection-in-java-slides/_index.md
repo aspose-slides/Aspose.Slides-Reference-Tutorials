@@ -14,7 +14,7 @@ I den här handledningen kommer vi att utforska hur du kontrollerar presentation
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket inställt i ditt Java-projekt. Du kan ladda ner det från Asposes webbplats och lägga till det i ditt projekts beroenden.
+Innan vi börjar, se till att du har Aspose.Slides för Java-biblioteket inställt i ditt Java-projekt. Du kan ladda ner den från Asposes webbplats och lägga till den i ditt projekts beroenden.
 
 ### Maven beroende
 
@@ -67,8 +67,8 @@ if (presentationInfo.isPasswordProtected()) {
 
 ```java
 //Sökväg för källpresentation
-String pptxFile = RunExamples.getDataDir_PresentationProperties() + "modify_pass2.pptx";
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptxFile = "Your Document Directory";
+String pptFile = "Your Document Directory";
 // Kontrollera lösenordet för skrivskydd via IPresentationInfo Interface
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptxFile);
 boolean isWriteProtectedByPassword = presentationInfo.isWriteProtected() == NullableBool.True && presentationInfo.checkWriteProtection("pass2");

@@ -31,7 +31,7 @@ För att arbeta med en PowerPoint-presentation måste du först ladda den i din 
 ```java
 // Sökvägen till dokumentkatalogen.
 String dataDir = "Your Document Directory";
-//Instantiera presentationsklassen som representerar PPTX
+// Instantiera presentationsklassen som representerar PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## الخطوة 3: تخصيص خلفيات الشرائح
 قم بتعزيز المظهر المرئي لشرائحك من خلال تخصيص خلفياتها. في هذا المثال، قمنا بتعيين خلفية سماوية صلبة للشريحة الثانية.
 ```csharp
-//قم بإنشاء خلفية للشريحة الثانية
+// قم بإنشاء خلفية للشريحة الثانية
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

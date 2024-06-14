@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Passo 3: Configurar Opções de PDF
 
- Configure as opções de PDF para incluir slides ocultos na saída do PDF. Você pode fazer isso configurando o`setShowHiddenSlides` propriedade do`PdfOptions` aula para`true`.
+Configure as opções de PDF para incluir slides ocultos na saída do PDF. Você pode fazer isso configurando o`setShowHiddenSlides` propriedade do`PdfOptions` aula para`true`.
 
 ```java
 // Instancie a classe PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Como faço o download do Aspose.Slides para Java?
 
-Você pode baixar Aspose.Slides para Java no site da Aspose. Visite a[Página de download do Aspose.Slides para Java](https://releases.aspose.com/slides/java/) para obter a versão mais recente.
+ Você pode baixar Aspose.Slides para Java no site da Aspose. Visite a[Página de download do Aspose.Slides para Java](https://releases.aspose.com/slides/java/) para obter a versão mais recente.

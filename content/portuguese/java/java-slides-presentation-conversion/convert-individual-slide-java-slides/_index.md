@@ -23,7 +23,7 @@ Antes de começarmos, certifique-se de ter o seguinte:
 ## Etapa 1: configurar o projeto
 
 1. Crie um projeto Java em seu ambiente de desenvolvimento preferido.
-2. Adicione a biblioteca Aspose.Slides para Java ao seu projeto.
+2. Adicione a biblioteca Aspose.Slides for Java ao seu projeto.
 
 ## Etapa 2: importe as classes necessárias
 
@@ -169,4 +169,4 @@ Você converteu com sucesso slides individuais de uma apresentação do PowerPoi
 
 ### Como lidar com a formatação adicional de formas e texto nos slides?
 
-Você pode estender o`CustomFormattingController` classe para lidar com a formatação específica da forma, implementando o`writeShapeStart` e`writeShapeEnd` métodos e aplicando lógica de formatação personalizada dentro deles.
+ Você pode estender o`CustomFormattingController` classe para lidar com a formatação específica da forma, implementando o`writeShapeStart` e`writeShapeEnd` métodos e aplicando lógica de formatação personalizada dentro deles.

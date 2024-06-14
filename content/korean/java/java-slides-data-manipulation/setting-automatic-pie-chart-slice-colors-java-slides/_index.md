@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-sl
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 원형 차트를 만들고 차트의 자동 조각 색상을 설정하는 방법을 살펴보겠습니다. 소스코드와 함께 단계별 안내를 제공해드리겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다:[Java용 Aspose.Slides 다운로드](https://releases.aspose.com/slides/java/).
 
@@ -144,7 +144,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 	// 새로운 시리즈 추가
 	IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-	//이제 계열 데이터를 채우는 중입니다.
+	// 이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

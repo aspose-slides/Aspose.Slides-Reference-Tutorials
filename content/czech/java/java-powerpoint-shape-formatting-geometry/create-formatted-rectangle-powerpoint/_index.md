@@ -19,7 +19,7 @@ Než se ponoříme do kódu, pokryjeme předpoklady. Budete potřebovat následu
 Chcete-li začít, budete muset importovat potřebné balíčky z knihovny Aspose.Slides. Můžete to udělat takto:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -39,7 +39,7 @@ Tento kód zkontroluje, zda adresář existuje, a pokud ne, vytvoří jej. Je do
 Presentation pres = new Presentation();
 ```
 Tento řádek kódu vytvoří novou prázdnou prezentaci, do které můžete začít přidávat obsah.
-## Krok 3: Přidejte snímek do prezentace
+## Krok 3: Přidejte do prezentace snímek
 Nyní do vaší prezentace přidáme snímek. Ve výchozím nastavení obsahuje nová prezentace jeden snímek, takže s tím budeme pracovat.
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Tento řádek kódu uloží prezentaci jako soubor PPTX do zadaného adresáře.
 ## Krok 7: Vyčistěte zdroje
- Dobrou praxí je zlikvidovat`Presentation`protestovat proti uvolnění zdrojů.
+ Dobrou praxí je zlikvidovat`Presentation` protestovat proti uvolnění zdrojů.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Ano, Aspose.Slides pro Javu můžete použít s jakýmkoli Java kompatibilním I
 ### Jak mohu získat bezplatnou zkušební verzi Aspose.Slides for Java?
  Můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides for Java z[tady](https://releases.aspose.com/).
 ###  Je nutné likvidovat`Presentation` object?
- Ano, likvidace`Presentation`objekt pomáhá uvolnit zdroje a vyhnout se únikům paměti.
+ Ano, likvidace`Presentation` objekt pomáhá uvolnit zdroje a vyhnout se únikům paměti.
 ### Kde najdu dokumentaci k Aspose.Slides for Java?
  Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/java/).

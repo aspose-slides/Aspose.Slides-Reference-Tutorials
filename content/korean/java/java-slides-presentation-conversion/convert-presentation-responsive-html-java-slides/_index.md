@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-presentation-responsive-html-java-
 
 프레젠테이션 세계에서 프레젠테이션을 반응형 HTML 형식으로 변환하는 능력은 매우 중요한 기술입니다. Java Slides를 사용하면 이 작업을 달성할 수 있을 뿐만 아니라 효율적으로 수행할 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for Java 라이브러리를 사용하여 프레젠테이션을 반응형 HTML로 변환하는 방법을 살펴보겠습니다. 바로 뛰어 들어 봅시다!
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

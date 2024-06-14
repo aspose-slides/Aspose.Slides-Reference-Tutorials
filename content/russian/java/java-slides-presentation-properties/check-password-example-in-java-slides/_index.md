@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //Путь для презентации исходного кода
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // Проверьте пароль через интерфейс IPresentationInfo
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");
@@ -76,7 +76,7 @@ Presentation presentation = new Presentation();
 presentation.protect("your_password");
 ```
 
-### Что произойдет, если я введу неверный пароль при открытии защищенной презентации?
+### Что произойдет, если я введу неправильный пароль при открытии защищенной презентации?
 
 Если вы введете неправильный пароль при открытии защищенной презентации, вы не сможете получить доступ к содержимому презентации. Для просмотра или редактирования презентации важно ввести правильный пароль.
 

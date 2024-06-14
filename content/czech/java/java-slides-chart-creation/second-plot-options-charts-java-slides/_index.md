@@ -10,7 +10,7 @@ url: /cs/java/chart-creation/second-plot-options-charts-java-slides/
 
 ## Úvod do možností druhého vykreslování pro grafy v Java Slides
 
-tomto tutoriálu prozkoumáme, jak přidat druhé možnosti vykreslování do grafů pomocí Aspose.Slides pro Java. Druhé možnosti vykreslování umožňují přizpůsobit vzhled a chování grafů, zejména ve scénářích, jako jsou výsečové grafy. Poskytneme vám podrobné pokyny a příklady zdrojového kódu, jak toho dosáhnout. 
+V tomto tutoriálu prozkoumáme, jak přidat druhé možnosti vykreslování do grafů pomocí Aspose.Slides pro Java. Druhé možnosti vykreslování umožňují přizpůsobit vzhled a chování grafů, zejména ve scénářích, jako jsou výsečové grafy. Poskytneme vám podrobné pokyny a příklady zdrojového kódu, jak toho dosáhnout. 
 
 ## Předpoklady
 Než začneme, ujistěte se, že máte Aspose.Slides for Java nainstalovaný a nastavený ve vašem projektu Java.
@@ -84,7 +84,7 @@ V tomto tutoriálu jsme se naučili, jak přidat druhé možnosti vykreslování
 
 ### Jak mohu změnit velikost druhého koláče v koláčovém grafu?
 
- Chcete-li změnit velikost druhého výsečového grafu, použijte`setSecondPieSize` metoda, jak je znázorněno v příkladu kódu výše. Upravte hodnotu pro určení velikosti v procentech.
+Chcete-li změnit velikost druhého výsečového grafu, použijte`setSecondPieSize` metoda, jak je znázorněno v příkladu kódu výše. Upravte hodnotu pro určení velikosti v procentech.
 
 ###  Co dělá`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ V tomto tutoriálu jsme se naučili, jak přidat druhé možnosti vykreslování
 
 ### Jak nastavím polohu rozdělení v koláčovém grafu?
 
-Polohu rozdělení v koláčovém grafu můžete nastavit pomocí`setPieSplitPosition` metoda. Upravte hodnotu pro určení požadované polohy.
+ Polohu rozdělení v koláčovém grafu můžete nastavit pomocí`setPieSplitPosition` metoda. Upravte hodnotu pro určení požadované polohy.

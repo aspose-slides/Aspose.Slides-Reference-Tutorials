@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //CalibriやArialなどのデフォルトのプレゼンテーションフォントを除外する
+    // CalibriやArialなどのデフォルトのプレゼンテーションフォントを除外する
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 - 入力されたPowerPointプレゼンテーションを読み込むには、`Presentation`.
 
-- フォントのリストを定義します（`fontNameExcludeList`) を HTML への埋め込みから除外します。これは、Calibri や Arial などの一般的なフォントを除外してファイル サイズを縮小する場合に便利です。
+- フォントのリストを定義します（`fontNameExcludeList`を HTML への埋め込みから除外します。これは、Calibri や Arial などの一般的なフォントを除外してファイル サイズを縮小する場合に便利です。
 
 - インスタンスを作成します`EmbedAllFontsHtmlController`フォント除外リストを渡します。
 
@@ -98,7 +98,7 @@ finally
 
 ### Aspose.Slides for Java をダウンロードするにはどうすればいいですか?
 
-Aspose.Slides for JavaはAsposeのWebサイトからダウンロードできます。[ここ](https://downloads.aspose.com/slides/java/)最新バージョンを入手してください。
+ Aspose.Slides for JavaはAsposeのWebサイトからダウンロードできます。[ここ](https://downloads.aspose.com/slides/java/)最新バージョンを入手してください。
 
 ### 除外フォントのリストをカスタマイズできますか?
 

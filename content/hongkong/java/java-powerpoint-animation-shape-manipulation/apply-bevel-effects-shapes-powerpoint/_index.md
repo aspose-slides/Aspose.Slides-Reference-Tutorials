@@ -11,7 +11,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effe
 創建具有視覺吸引力的演示對於吸引和保持觀眾的注意力至關重要。在形狀中添加斜角效果可以增強投影片的整體美感，讓您的簡報脫穎而出。在本教學中，我們將引導您完成使用 Aspose.Slides for Java 將斜角效果套用至 PowerPoint 中的形狀的過程。無論您是希望自動建立簡報的開發人員，還是只是喜歡修改設計的人，本指南都能滿足您的需求。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
--  Java 開發工具包 (JDK)：確保已安裝 JDK。您可以從[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java 開發工具包 (JDK)：確保已安裝 JDK。您可以從[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
 - 用於 Java 的 Aspose.Slides Library：從以下位置下載該程式庫[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE（整合開發環境）：使用您選擇的任何 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
 -  Aspose 許可證：若要無限制地使用 Aspose.Slides，請從以下位置取得許可證[提出購買](https://purchase.aspose.com/buy)或得到一個[臨時執照](https://purchase.aspose.com/temporary-license/)進行評估。
@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effe
 首先，您需要匯入在 Java 專案中使用 Aspose.Slides 所需的套件。您可以這樣做：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 第 1 步：設定您的項目

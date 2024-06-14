@@ -12,17 +12,17 @@ Trong các bài thuyết trình hiện đại, việc kết hợp các yếu t�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2.  Thư viện Aspose.Slides cho Java: Tải xuống và đưa thư viện Aspose.Slides cho Java vào dự án của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
+2. Thư viện Aspose.Slides cho Java: Tải xuống và đưa thư viện Aspose.Slides cho Java vào dự án của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Chọn một IDE Java theo sở thích của bạn, chẳng hạn như IntelliJ IDEA hoặc Eclipse.
 
 ## Gói nhập khẩu
 Để bắt đầu, hãy nhập các gói cần thiết để sử dụng Aspose.Slides cho các chức năng Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập môi trường của bạn
- Đảm bảo rằng bạn đã thiết lập một thư mục cho dự án của mình, nơi bạn có thể tạo và lưu bản trình bày PowerPoint. Thay thế`"Your Document Directory"`với đường dẫn đến thư mục bạn muốn.
+ Đảm bảo rằng bạn đã thiết lập một thư mục cho dự án của mình, nơi bạn có thể tạo và lưu bản trình bày PowerPoint. Thay thế`"Your Document Directory"` với đường dẫn đến thư mục bạn muốn.
 ```java
 String dataDir = "Your Document Directory";
 ```

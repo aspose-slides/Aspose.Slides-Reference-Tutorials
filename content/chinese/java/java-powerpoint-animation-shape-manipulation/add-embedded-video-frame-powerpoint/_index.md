@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-fr
 首先，您需要导入使用 Aspose.Slides 所需的软件包。这些导入将帮助您管理幻灯片、视频和演示文稿文件。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -77,7 +77,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ## 步骤 8：清理资源
 最后，处置表示对象以释放资源。
 ```java
-//处置演示对象
+//处置展示对象
 if (pres != null) pres.dispose();
 ```
 ## 结论

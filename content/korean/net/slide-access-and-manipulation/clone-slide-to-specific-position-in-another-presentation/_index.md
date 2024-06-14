@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-a
 
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있는 강력한 라이브러리입니다. 슬라이드, 도형, 텍스트, 이미지, 애니메이션 등을 생성, 편집 및 조작하는 등 다양한 기능을 제공합니다. 이 가이드에서는 한 프레젠테이션의 슬라이드를 다른 프레젠테이션의 특정 위치로 복사하는 방법을 중점적으로 설명합니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 슬라이드를 복사하여 배치한 후 수정된 대상 프레젠테이션을 저장해야 합니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

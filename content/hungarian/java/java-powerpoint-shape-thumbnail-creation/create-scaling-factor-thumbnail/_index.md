@@ -1,6 +1,6 @@
 ---
-title: Scaling Factor miniatűr létrehozása
-linktitle: Scaling Factor miniatűr létrehozása
+title: Létrehozza a méretezési tényező bélyegképét
+linktitle: Létrehozza a méretezési tényező bélyegképét
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre méretezési tényező bélyegképeket Java nyelven az Aspose.Slides for Java használatával. Könnyen követhető útmutató lépésről lépésre.
 type: docs
@@ -20,7 +20,7 @@ Először is importálja az Aspose.Slides használatához szükséges csomagokat
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -39,7 +39,7 @@ Hozzon létre egy példányt a Prezentáció osztályból a PowerPoint bemutató
 ```java
 Presentation p = new Presentation(dataDir + "HelloWorld.pptx");
 ```
- Győződjön meg a cseréről`"HelloWorld.pptx"` a PowerPoint bemutatófájl nevével.
+ Győződjön meg a cseréről`"HelloWorld.pptx"` a PowerPoint bemutató fájl nevével.
 ## 3. lépés: Hozzon létre teljes léptékű képet
 Készítsen teljes méretű képet a kívánt diáról a prezentációból.
 ```java

@@ -9,18 +9,18 @@ url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 ---
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het maken van een samenvattingszoom in PowerPoint met behulp van Aspose.Slides voor Java. Als u een dynamisch en interactief element aan uw presentaties wilt toevoegen, is Summary Zoom een fantastische functie. Hiermee kunt u één enkele dia maken die kan inzoomen op verschillende delen van uw presentatie, waardoor uw publiek een boeiendere en navigeerbare ervaring krijgt.
-In deze stapsgewijze handleiding begeleiden we u door het hele proces, van het opzetten van uw ontwikkelomgeving tot het maken en aanpassen van een Samenvattingszoomframe. Of u nu een doorgewinterde Java-ontwikkelaar bent of net begint, u zult merken dat deze handleiding eenvoudig te volgen is en boordevol waardevolle inzichten zit.
+In deze stapsgewijze handleiding begeleiden we u door het hele proces, van het opzetten van uw ontwikkelomgeving tot het maken en aanpassen van een Samenvattingszoomframe. Of u nu een doorgewinterde Java-ontwikkelaar bent of net begint, deze handleiding is gemakkelijk te volgen en staat boordevol waardevolle inzichten.
 ## Vereisten
 Voordat we in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt om aan de slag te gaan:
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw computer is geïnstalleerd. Je kunt het downloaden van de[Oracle-website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides voor Java: download de bibliotheek van de[Aspose-releasespagina](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java: download de bibliotheek van de[Aspose-releasespagina](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Gebruik een IDE zoals IntelliJ IDEA, Eclipse of NetBeans voor een meer naadloze ontwikkelingservaring.
 4. Basiskennis van Java: Bekendheid met Java-programmeerconcepten zal u helpen de stappen in deze handleiding te begrijpen en te implementeren.
 ## Pakketten importeren
 Voordat we beginnen, moet u de benodigde pakketten importeren. Zorg ervoor dat u Aspose.Slides voor Java hebt opgenomen in uw projectafhankelijkheden.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Stap 1: Stel uw project in
@@ -76,7 +76,7 @@ pres.getSections().addSection("Section 4", slide);
 Nu gaan we een samenvattingszoomframe maken op de eerste dia. Dit frame fungeert als interactief element waarmee gebruikers in verschillende secties kunnen inzoomen.
 
 1. Zoek de eerste dia: haal de eerste dia op waaraan u het samenvattingszoomkader wilt toevoegen.
-2. Voeg het samenvattingszoomkader toe: gebruik de`addSummaryZoomFrame` methode om het frame toe te voegen.
+2.  Voeg het samenvattingszoomkader toe: gebruik de`addSummaryZoomFrame` methode om het frame toe te voegen.
 ```java
 ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().addSummaryZoomFrame(150, 50, 300, 200);
 ```
@@ -86,7 +86,7 @@ Sla ten slotte de presentatie op de gewenste locatie op. Deze stap zorgt ervoor 
 1. Definieer het uitvoerpad: Geef het pad op waar de presentatie wordt opgeslagen.
 2.  Sla de presentatie op: gebruik de`save` methode om het bestand in PPTX-indeling op te slaan.
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### Gooi het presentatieobject weg
@@ -95,14 +95,14 @@ Gooi het presentatieobject weg om alle bronnen die het gebruikt vrij te geven:
 if (pres != null) pres.dispose();
 ```
 ## Conclusie
- Gefeliciteerd! U hebt met succes een samenvattingszoom in PowerPoint gemaakt met Aspose.Slides voor Java. Deze functie verbetert uw presentaties door ze interactiever en boeiender te maken. Door deze handleiding te volgen beschikt u nu over de vaardigheden om deze functie in uw eigen projecten te implementeren. Vergeet niet om de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor meer geavanceerde functies en aanpassingsmogelijkheden.
+ Gefeliciteerd! U hebt met succes een samenvattingszoom in PowerPoint gemaakt met Aspose.Slides voor Java. Deze functie verbetert uw presentaties door ze interactiever en boeiender te maken. Door deze handleiding te volgen beschikt u nu over de vaardigheden om deze functie in uw eigen projecten te implementeren. Vergeet niet om de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/)voor meer geavanceerde functies en aanpassingsmogelijkheden.
 ## Veelgestelde vragen
 ### Wat is Aspose.Slides voor Java?
 Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, wijzigen en manipuleren met behulp van Java.
 ### Kan ik Aspose.Slides voor Java gebruiken om andere soorten inhoud in PowerPoint te maken?
 Ja, Aspose.Slides voor Java ondersteunt een breed scala aan functies, waaronder het maken van dia's, het toevoegen van vormen, grafieken, tabellen en nog veel meer.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides voor Java?
- Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de[website](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de[website](https://releases.aspose.com/).
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.Slides voor Java?
  Een tijdelijke licentie kunt u verkrijgen bij de[Aspose aankooppagina](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik meer voorbeelden en ondersteuning vinden voor Aspose.Slides voor Java?

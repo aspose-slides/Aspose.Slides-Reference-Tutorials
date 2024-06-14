@@ -55,7 +55,7 @@ string dataDir = "Your Document Directory";
 
 ## Krok 3: Utwórz instancję klasy prezentacji
 
- W tym kroku utworzysz instancję`Presentation` class reprezentująca plik prezentacji.
+ W tym kroku utworzysz instancję pliku`Presentation` class reprezentująca plik prezentacji.
 
 ```csharp
 using (Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx"))

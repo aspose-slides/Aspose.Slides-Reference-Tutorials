@@ -8,7 +8,7 @@ weight: 18
 url: /pl/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
 ## Wstęp
-W tym samouczku dowiemy się, jak dodać klatkę wideo ze źródła internetowego, takiego jak YouTube, do prezentacji programu PowerPoint za pomocą Aspose.Slides for Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie ulepszyć swoje prezentacje poprzez dodanie angażujących elementów multimedialnych.
+tym samouczku dowiemy się, jak dodać klatkę wideo ze źródła internetowego, takiego jak YouTube, do prezentacji programu PowerPoint za pomocą Aspose.Slides for Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie ulepszyć swoje prezentacje poprzez dodanie angażujących elementów multimedialnych.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w języku Java.
@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -72,7 +72,7 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Zastąp „TWÓJ_KATALOG” katalogiem, w którym chcesz zapisać prezentację.
 
 ## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się, jak dodać klatkę wideo ze źródła internetowego w programie PowerPoint przy użyciu Aspose.Slides dla Java. Włączenie elementów multimedialnych, takich jak filmy, może znacznie zwiększyć wpływ i zaangażowanie prezentacji.
+Gratulacje! Pomyślnie nauczyłeś się dodawać klatkę wideo ze źródła internetowego w programie PowerPoint przy użyciu Aspose.Slides dla Java. Włączenie elementów multimedialnych, takich jak filmy, może znacznie zwiększyć wpływ i zaangażowanie prezentacji.
 ## Często zadawane pytania
 ### Czy mogę dodawać filmy z innych źródeł niż YouTube?
 Tak, możesz dodawać filmy z różnych źródeł internetowych, pod warunkiem, że zawierają one link, który można umieścić na stronie.

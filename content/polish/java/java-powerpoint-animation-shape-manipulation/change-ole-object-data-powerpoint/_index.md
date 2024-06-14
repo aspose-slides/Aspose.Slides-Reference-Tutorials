@@ -8,21 +8,21 @@ weight: 14
 url: /pl/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
 ## Wstęp
-Zmiana danych obiektu OLE w prezentacjach programu PowerPoint może być kluczowym zadaniem, gdy zachodzi potrzeba aktualizacji osadzonej zawartości bez konieczności ręcznego edytowania każdego slajdu. Ten obszerny przewodnik przeprowadzi Cię przez proces korzystania z Aspose.Slides dla Java, potężnej biblioteki przeznaczonej do obsługi prezentacji PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek będzie pomocny i łatwy do zrozumienia.
+Zmiana danych obiektu OLE w prezentacjach programu PowerPoint może być kluczowym zadaniem, gdy zachodzi potrzeba aktualizacji osadzonej zawartości bez ręcznej edycji każdego slajdu. Ten obszerny przewodnik przeprowadzi Cię przez proces korzystania z Aspose.Slides dla Java, potężnej biblioteki przeznaczonej do obsługi prezentacji PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek będzie pomocny i łatwy do zrozumienia.
 ## Warunki wstępne
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć.
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Można go pobrać z[stronie Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides dla Java: Pobierz najnowszą wersję z[Strona pobierania Aspose.Slides](https://releases.aspose.com/slides/java/).
 3. Zintegrowane środowisko programistyczne (IDE): Można używać dowolnego środowiska Java IDE, takiego jak IntelliJ IDEA, Eclipse lub NetBeans.
 4.  Aspose.Cells for Java: Jest to wymagane do modyfikowania danych osadzonych w obiekcie OLE. Pobierz go z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Plik prezentacji: Przygotuj plik programu PowerPoint z osadzonym obiektem OLE. Na potrzeby tego samouczka nazwijmy to`ChangeOLEObjectData.pptx`.
+5.  Plik prezentacji: Przygotuj plik programu PowerPoint z osadzonym obiektem OLE. Na potrzeby tego samouczka nazwijmy to`ChangeOLEObjectData.pptx`.
 ## Importuj pakiety
 Najpierw zaimportujmy niezbędne pakiety do Twojego projektu Java.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

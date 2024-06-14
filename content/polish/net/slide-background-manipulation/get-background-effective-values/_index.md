@@ -84,7 +84,7 @@ Otóż to! Pomyślnie uzyskałeś efektywne wartości tła slajdu przy użyciu A
 
 ## Wniosek
 
-Aspose.Slides dla .NET zapewnia solidną platformę do programowej pracy z prezentacjami programu PowerPoint. W tym samouczku nauczyliśmy się wyodrębniać efektywne wartości tła slajdu, co może być przydatne przy dostosowywaniu prezentacji i tworzeniu atrakcyjnych wizualnie slajdów.
+Aspose.Slides dla .NET zapewnia solidną platformę do programowej pracy z prezentacjami programu PowerPoint. W tym samouczku nauczyliśmy się, jak wyodrębnić efektywne wartości tła slajdu, co może być przydatne przy dostosowywaniu prezentacji i tworzeniu atrakcyjnych wizualnie slajdów.
 
  Jeśli masz jakieś pytania lub stoisz przed wyzwaniami,[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) I[Forum Aspose.Slides](https://forum.aspose.com/) to doskonałe źródła pomocy i wskazówek.
 

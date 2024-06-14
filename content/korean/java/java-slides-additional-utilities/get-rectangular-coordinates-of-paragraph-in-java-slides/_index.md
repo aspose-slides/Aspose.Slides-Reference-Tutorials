@@ -12,9 +12,9 @@ url: /ko/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-j
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 PowerPoint 프레젠테이션 내 단락의 직사각형 좌표를 검색하는 방법을 보여줍니다. 아래 단계를 수행하면 슬라이드 내 단락의 위치와 크기를 프로그래밍 방식으로 얻을 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
-시작하기 전에 Java 개발 환경에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://downloads.aspose.com/slides/java).
+ 시작하기 전에 Java 개발 환경에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://downloads.aspose.com/slides/java).
 
 ## 1단계: 필요한 라이브러리 가져오기
 
@@ -107,7 +107,7 @@ Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드 내의 단락에 
 
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
 
- Aspose.Slides for Java에 대한 더 많은 코드 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/)웹사이트. 또한 다음을 탐색할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides) 커뮤니티 지원 및 토론을 위해.
+ Aspose.Slides for Java에 대한 더 많은 코드 예제와 자세한 문서는 다음 사이트에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트. 또한 다음을 탐색할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides) 커뮤니티 지원 및 토론을 위해.
 
 ### Aspose.Slides for Java를 사용하려면 라이선스가 필요합니까?
 

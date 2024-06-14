@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- Dans ce code, nous créons un graphique et définissons la taille de police du texte de la légende sur 20 points. Vous pouvez ajuster le`setFontHeight`valeur pour modifier la taille de la police.
+ Dans ce code, nous créons un graphique et définissons la taille de police du texte de la légende sur 20 points. Vous pouvez ajuster le`setFontHeight` valeur pour modifier la taille de la police.
 
 ### Puis-je personnaliser d’autres propriétés de la légende dans un graphique ?
 
@@ -134,4 +134,4 @@ Ici, nous désactivons la mise à l'échelle automatique de l'axe et spécifions
 
 ### Où puis-je trouver plus d’informations et de documentation sur Aspose.Slides ?
 
-Vous pouvez trouver une documentation complète et des références API pour Aspose.Slides pour Java sur le site Web de documentation Aspose. Visite[ici](https://reference.aspose.com/slides/java/) pour des informations détaillées sur l’utilisation de la bibliothèque.
+ Vous pouvez trouver une documentation complète et des références API pour Aspose.Slides pour Java sur le site Web de documentation Aspose. Visite[ici](https://reference.aspose.com/slides/java/) pour des informations détaillées sur l’utilisation de la bibliothèque.

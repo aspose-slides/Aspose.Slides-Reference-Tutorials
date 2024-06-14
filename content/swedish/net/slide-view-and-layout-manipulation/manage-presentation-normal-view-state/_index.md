@@ -13,7 +13,7 @@ Oavsett om du skapar en dynamisk säljpresentation, en pedagogisk föreläsning 
    
 ## Ställa in utvecklingsmiljön
 
-Innan du dyker in i krångligheterna med att hantera presentationer med Aspose.Slides för .NET, måste du ställa in din utvecklingsmiljö. Här är vad du behöver göra:
+Innan du dyker in i krångligheterna med att hantera presentationer med Aspose.Slides för .NET, måste du konfigurera din utvecklingsmiljö. Här är vad du behöver göra:
 
 1.  Ladda ner Aspose.Slides för .NET: Besök[nedladdningssida](https://releases.aspose.com/slides/net/)för att få den senaste versionen av Aspose.Slides för .NET.
 
@@ -113,7 +113,7 @@ Ja, du kan anpassa bildlayouter med Aspose.Slides för att skapa unika mönster 
 
 ### Är det möjligt att lägga till animationer till enskilda element på en bild?
 
-Ja, Aspose.Slides låter dig lägga till animationer till enskilda element på en bild, vilket förstärker din presentations visuella tilltalande.
+Ja, Aspose.Slides låter dig lägga till animationer till individuella element på en bild, vilket förstärker din presentations visuella tilltalande.
 
 ### Var kan jag hitta omfattande dokumentation för Aspose.Slides för .NET?
 

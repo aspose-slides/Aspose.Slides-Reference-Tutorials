@@ -19,7 +19,7 @@ Mielőtt belemerülnénk a kódba, fedjük le az előfeltételeket. A következ�
 A kezdéshez importálnia kell a szükséges csomagokat az Aspose.Slides könyvtárból. A következőképpen teheti meg:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 Ez a kódsor PPTX fájlként menti a prezentációt a megadott könyvtárba.
 ## 7. lépés: Tisztítsa meg az erőforrásokat
- Jó gyakorlat a megsemmisítés`Presentation`tiltakozik az erőforrások felszabadítása érdekében.
+ Jó gyakorlat a megsemmisítés`Presentation` tiltakozik az erőforrások felszabadítása érdekében.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Igen, az Aspose.Slides for Java bármely Java-kompatibilis IDE-vel használható
 ### Hogyan szerezhetem be az Aspose.Slides for Java ingyenes próbaverzióját?
  Letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 ###  Szükséges-e ártalmatlanítani a`Presentation` object?
- Igen, az ártalmatlanítás`Presentation`Az objektum segít felszabadítani az erőforrásokat és elkerülni a memóriaszivárgást.
+ Igen, az ártalmatlanítás`Presentation` Az objektum segít felszabadítani az erőforrásokat és elkerülni a memóriaszivárgást.
 ### Hol találom az Aspose.Slides for Java dokumentációját?
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).

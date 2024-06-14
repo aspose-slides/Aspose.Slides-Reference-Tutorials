@@ -14,7 +14,7 @@ url: /ko/net/presentation-conversion/convert-presentation-to-pdf-with-progress-u
 
 이 튜토리얼에서는 Aspose.Slides for .NET을 활용하여 PowerPoint 프레젠테이션을 PDF 문서로 변환합니다. 또한 전환 상태에 대한 정보를 지속적으로 제공하기 위해 진행률 업데이트 기능을 구현할 예정입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

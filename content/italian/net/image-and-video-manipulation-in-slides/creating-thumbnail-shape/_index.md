@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## Passaggio 1: imposta il tuo progetto
 Crea un nuovo progetto C# nel tuo ambiente di sviluppo preferito. Assicurati che nel tuo progetto venga fatto riferimento alla libreria Aspose.Slides.
 ## Passaggio 2: inizializza la presentazione
- Creare un'istanza di una classe Presentation per rappresentare il file PowerPoint. Fornisci il percorso del file di presentazione nel file`dataDir` variabile.
+Creare un'istanza di una classe Presentation per rappresentare il file PowerPoint. Fornisci il percorso del file di presentazione nel file`dataDir` variabile.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ R: È possibile implementare meccanismi di gestione degli errori utilizzando i b
 ### D: Esistono limitazioni sulle dimensioni o sul tipo di forme che possono avere miniature?
 R: Aspose.Slides offre flessibilità per la creazione di miniature per varie forme, incluse caselle di testo, immagini e altro.
 ### D: Posso personalizzare la dimensione e la risoluzione delle miniature generate?
-R: Sì, puoi regolare i parametri quando chiami il file`GetThumbnail` metodo per controllare le dimensioni e la risoluzione.
+ R: Sì, puoi regolare i parametri quando chiami il file`GetThumbnail` metodo per controllare le dimensioni e la risoluzione.

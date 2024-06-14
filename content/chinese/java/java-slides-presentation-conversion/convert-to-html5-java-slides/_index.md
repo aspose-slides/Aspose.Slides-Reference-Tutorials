@@ -61,7 +61,7 @@ try {
     //将演示文稿保存为 HTML5
     pres.save(outFilePath, SaveFormat.Html5, options);
 } finally {
-    //处置演示对象
+    //处置展示对象
     if (pres != null) {
         pres.dispose();
     }
@@ -74,7 +74,7 @@ try {
 //文档目录的路径
 String dataDir = "Your Document Directory";
 //输出文件的路径
-String outFilePath = RunExamples.getOutPath() + "Demo.html";
+String outFilePath = "Your Output Directory" + "Demo.html";
 Presentation pres = new Presentation(dataDir + "Demo.pptx");
 try {
 	//将包含幻灯片过渡、动画和形状动画的演示文稿导出为 HTML5

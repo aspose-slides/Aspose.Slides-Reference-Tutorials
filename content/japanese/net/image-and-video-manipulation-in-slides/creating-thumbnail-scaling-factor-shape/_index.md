@@ -52,6 +52,6 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 ### Q3: Aspose.Slides の一時ライセンスを取得するにはどうすればよいですか?
  Aspose.Slidesの一時ライセンスを取得するには、次のサイトにアクセスしてください。[このリンク](https://purchase.aspose.com/temporary-license/).
 ### Q4: Aspose.Slides の追加サポートはどこで入手できますか?
-ご質問やサポートが必要な場合は、Aspose.Slides サポート フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/slides/11).
+ご質問やサポートが必要な場合は、Aspose.Slides サポートフォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/slides/11).
 ### Q5: Aspose.Slides for .NET を購入できますか?
 もちろんです！Aspose.Slides for .NETを購入するには、購入ページにアクセスしてください。[ここ](https://purchase.aspose.com/buy).

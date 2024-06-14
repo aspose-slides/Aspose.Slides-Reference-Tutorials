@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //forrás bemutatásának elérési útja
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // Ellenőrizze a jelszót az IPresentationInfo interfészen keresztül
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

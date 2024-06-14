@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: การเข้าถึงคอลเลกชันรูปร่าง
 เข้าถึงคอลเลกชันรูปร่างสำหรับสไลด์ที่เลือก:

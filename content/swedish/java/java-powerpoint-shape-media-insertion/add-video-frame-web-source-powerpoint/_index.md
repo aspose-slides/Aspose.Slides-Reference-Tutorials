@@ -8,7 +8,7 @@ weight: 18
 url: /sv/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
 ## Introduktion
-I den här handledningen kommer vi att lära oss hur du lägger till en videoram från en webbkälla, som YouTube, till en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa dessa steg-för-steg-instruktioner kommer du att kunna förbättra dina presentationer genom att inkludera engagerande multimediaelement.
+den här handledningen kommer vi att lära oss hur du lägger till en videoram från en webbkälla, som YouTube, till en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa dessa steg-för-steg-instruktioner kommer du att kunna förbättra dina presentationer genom att inkludera engagerande multimediaelement.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar:
 - Grundläggande kunskaper i Java-programmering.
@@ -23,7 +23,7 @@ import com.aspose.slides.IVideoFrame;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.VideoPlayModePreset;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

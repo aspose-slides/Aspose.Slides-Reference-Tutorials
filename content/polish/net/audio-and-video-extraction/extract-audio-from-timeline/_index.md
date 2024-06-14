@@ -8,7 +8,7 @@ weight: 13
 url: /pl/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
 
-świecie prezentacji multimedialnych dźwięk może być potężnym narzędziem do skutecznego przekazywania wiadomości. Aspose.Slides dla .NET oferuje płynne rozwiązanie do wydobywania dźwięku z prezentacji PowerPoint. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić dźwięk z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET.
+W świecie prezentacji multimedialnych dźwięk może być potężnym narzędziem do skutecznego przekazywania wiadomości. Aspose.Slides dla .NET oferuje płynne rozwiązanie do wydobywania dźwięku z prezentacji PowerPoint. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić dźwięk z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET.
 
 ## Warunki wstępne
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- W tym kroku ładujemy prezentację PowerPoint z określonego pliku. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
+ tym kroku ładujemy prezentację PowerPoint z określonego pliku. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do pliku prezentacji.
 
 ### Krok 2.2: Uzyskaj dostęp do slajdu i osi czasu
 

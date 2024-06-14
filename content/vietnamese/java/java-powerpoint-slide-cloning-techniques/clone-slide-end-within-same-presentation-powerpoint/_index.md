@@ -21,7 +21,7 @@ Trước tiên, bạn cần nhập các gói cần thiết từ Aspose.Slides fo
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập dự án của bạn
 Để bắt đầu, hãy thiết lập dự án Java của bạn trong IDE ưa thích của bạn và đưa thư viện Aspose.Slides vào phần phụ thuộc của dự án.

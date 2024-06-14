@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 Importez les packages nécessaires dans votre projet Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -31,7 +31,7 @@ boolean isExists = new File(dataDir).exists();
 if (!isExists)
     new File(dataDir).mkdirs();
 ```
-## Étape 2 : Instancier la classe de présentation
+## Étape 2 : Instancier un cours de présentation
  Instancier le`Presentation` classe pour représenter la présentation PowerPoint.
 ```java
 Presentation pres = new Presentation();

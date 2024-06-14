@@ -10,7 +10,7 @@ url: /pl/java/java-powerpoint-properties-management/
 
 ## Wstęp
 
-Zarządzanie właściwościami programu PowerPoint ma kluczowe znaczenie dla tworzenia profesjonalnych i dobrze zorganizowanych prezentacji. Dzięki GroupDocs.Slides dla Java możesz usprawnić ten proces, zapewniając, że Twoje prezentacje będą zarówno wydajne, jak i dopracowane. W tym artykule omówiono kilka niezbędnych samouczków, które poprowadzą Cię przez proces uzyskiwania dostępu, modyfikowania i aktualizowania właściwości prezentacji za pomocą tego potężnego narzędzia.
+Zarządzanie właściwościami programu PowerPoint ma kluczowe znaczenie dla tworzenia profesjonalnych i dobrze zorganizowanych prezentacji. Dzięki GroupDocs.Slides dla Java możesz usprawnić ten proces, zapewniając, że Twoje prezentacje będą zarówno wydajne, jak i dopracowane. W tym artykule omówiono kilka podstawowych samouczków, które poprowadzą Cię przez proces uzyskiwania dostępu, modyfikowania i aktualizowania właściwości prezentacji za pomocą tego potężnego narzędzia.
 
 ## Uzyskaj dostęp do wbudowanych właściwości w programie PowerPoint
 
@@ -18,7 +18,7 @@ Zrozumienie wbudowanych właściwości prezentacji programu PowerPoint może zna
 
 ## Uzyskaj dostęp do właściwości prezentacji
 
- Aby głębiej zagłębić się w zarządzanie prezentacjami, niezbędny jest dostęp do ogólnych właściwości prezentacji. Dzięki Aspose.Slides dla Java możesz łatwo pobierać właściwości i manipulować nimi, aby usprawnić przepływ pracy. Poradnik[Uzyskaj dostęp do właściwości prezentacji](./access-presentation-properties/) jest idealny do opanowania sztuki zarządzania prezentacjami. W tym przewodniku dowiesz się, jak uzyskać dostęp do właściwości prezentacji, modyfikować je i ulepszać, dzięki czemu Twoje projekty w języku Java będą wydajniejsze, a prezentacje bardziej dynamiczne.
+ Aby głębiej zagłębić się w zarządzanie prezentacjami, niezbędny jest dostęp do ogólnych właściwości prezentacji. Dzięki Aspose.Slides dla Java możesz łatwo pobierać właściwości i manipulować nimi, aby usprawnić przepływ pracy. Poradnik[Uzyskaj dostęp do właściwości prezentacji](./access-presentation-properties/) jest idealny do opanowania sztuki zarządzania prezentacjami. W tym przewodniku dowiesz się, jak uzyskać dostęp do właściwości prezentacji, modyfikować je i ulepszać, dzięki czemu projekty w języku Java będą wydajniejsze, a prezentacje bardziej dynamiczne.
 
 ## Modyfikuj wbudowane właściwości w programie PowerPoint
 

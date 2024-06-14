@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // เส้นทางสู่การนำเสนอแหล่งที่มา
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// เส้นทางและชื่อโฟลเดอร์สำหรับบันทึกข้อมูลมาร์กดาวน์
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// สร้างตัวเลือกการสร้าง Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// ตั้งค่าพารามิเตอร์สำหรับแสดงรายการทั้งหมด (รายการที่จัดกลุ่มจะถูกแสดงผลพร้อมกัน)

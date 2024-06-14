@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 형식화된 직사각형을 만드는 과정을 안내합니다. 우리는 각 단계를 세분화하여 귀하가 이를 따라가고 자신의 프로젝트에서 구현할 수 있도록 할 것입니다.
-## 전제조건
+## 전제 조건
 코드를 살펴보기 전에 전제 조건을 살펴보겠습니다. 다음이 필요합니다.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2. Aspose.Slides for Java 라이브러리: 프로젝트에 Aspose.Slides for Java 라이브러리를 다운로드하고 포함하세요.
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectang
 시작하려면 Aspose.Slides 라이브러리에서 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -73,7 +73,7 @@ pres.save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 ```
 이 코드 줄은 프레젠테이션을 지정된 디렉터리에 PPTX 파일로 저장합니다.
 ## 7단계: 리소스 정리
- 폐기하는 것이 좋은 습관입니다.`Presentation`리소스를 확보하는 개체입니다.
+ 폐기하는 것이 좋은 습관입니다.`Presentation` 리소스를 확보하는 개체입니다.
 ```java
 if (pres != null) pres.dispose();
 ```
@@ -88,6 +88,6 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
 ### Aspose.Slides for Java의 무료 평가판을 어떻게 받을 수 있나요?
  Aspose.Slides for Java의 무료 평가판을 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ###  폐기해야 하는가?`Presentation` object?
- 응, 처분해`Presentation`개체는 리소스를 확보하고 메모리 누수를 방지하는 데 도움이 됩니다.
+ 응, 처분해`Presentation` 개체는 리소스를 확보하고 메모리 누수를 방지하는 데 도움이 됩니다.
 ### Java용 Aspose.Slides에 대한 설명서는 어디에서 찾을 수 있나요?
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/slides/java/).

@@ -21,7 +21,7 @@ Dans ce didacticiel, nous allons explorer comment configurer un diaporama de pr�
 Tout d’abord, nous devons créer une nouvelle présentation PowerPoint. Voici comment procéder en Java :
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ Assurez-vous de fournir le chemin du fichier de sortie souhaité.
 ## Code source complet pour la configuration du diaporama de présentation dans les diapositives Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Obtient les paramètres du diaporama

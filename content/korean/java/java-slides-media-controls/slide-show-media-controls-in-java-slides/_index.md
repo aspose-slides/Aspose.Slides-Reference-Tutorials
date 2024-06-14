@@ -12,7 +12,7 @@ url: /ko/java/media-controls/slide-show-media-controls-in-java-slides/
 
 역동적이고 매력적인 프레젠테이션 영역에서 멀티미디어 요소는 청중의 관심을 사로잡는 데 중추적인 역할을 합니다. Java Slides는 Aspose.Slides for Java의 도움으로 개발자가 미디어 컨트롤을 원활하게 통합하는 매력적인 슬라이드 쇼를 만들 수 있도록 지원합니다. 교육 모듈, 판매 홍보 또는 교육 프리젠테이션을 디자인할 때 슬라이드쇼 중 미디어를 제어하는 기능은 판도를 바꾸는 기능입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -34,7 +34,7 @@ url: /ko/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // PPTX 문서 경로
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // PPTX 문서 경로
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// 슬라이드쇼 모드에서 미디어 제어 디스플레이를 활성화합니다.

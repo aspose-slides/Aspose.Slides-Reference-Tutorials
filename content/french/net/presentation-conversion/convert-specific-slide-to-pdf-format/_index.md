@@ -24,7 +24,7 @@ Avant de plonger dans le code, vous aurez besoin de la configuration suivante :
 - Une présentation PowerPoint (format PPTX) que vous souhaitez convertir.
 - Un répertoire de destination dans lequel vous souhaitez enregistrer le PDF converti.
 
-## Étape 1 : Configurer votre projet
+## Étape 1 : Configuration de votre projet
 
 Pour commencer, créez un nouveau projet C# dans Visual Studio ou dans votre environnement de développement préféré. Assurez-vous d'avoir installé la bibliothèque Aspose.Slides pour .NET et de l'avoir ajoutée comme référence à votre projet.
 

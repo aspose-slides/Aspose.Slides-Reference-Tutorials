@@ -16,7 +16,7 @@ url: /th/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 
 ### 1. Aspose.Slides สำหรับ .NET Library
 
- คุณต้องติดตั้งไลบรารี Aspose.Slides สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ หากยังไม่มีสามารถ Download ได้จากเว็บไซต์ที่[Aspose.Slides สำหรับเอกสาร .NET](https://reference.aspose.com/slides/net/).
+คุณต้องติดตั้งไลบรารี Aspose.Slides สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ หากยังไม่มีสามารถ Download ได้จากเว็บไซต์ที่[Aspose.Slides สำหรับเอกสาร .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. การนำเสนอ PowerPoint พร้อมไฮเปอร์ลิงก์เสียง
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## ขั้นตอนที่ 2: โหลดงานนำเสนอ PowerPoint
 
- โหลดงานนำเสนอ PowerPoint (PPTX) ที่มีไฮเปอร์ลิงก์เสียงโดยใช้ Aspose.Slides แทนที่`"HyperlinkSound.pptx"` พร้อมชื่อไฟล์จริงของงานนำเสนอของคุณ
+ โหลดงานนำเสนอ PowerPoint (PPTX) ที่มีไฮเปอร์ลิงก์เสียงโดยใช้ Aspose.Slides แทนที่`"HyperlinkSound.pptx"`พร้อมชื่อไฟล์จริงของงานนำเสนอของคุณ
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 หากไฮเปอร์ลิงก์มีเสียงที่เกี่ยวข้องกัน เราสามารถแยกมันเป็นอาร์เรย์ไบต์และบันทึกเป็นไฟล์มีเดียได้
 
 ```csharp
-//แยกเสียงไฮเปอร์ลิงก์ในอาร์เรย์ไบต์
+// แยกเสียงไฮเปอร์ลิงก์ในอาร์เรย์ไบต์
 byte[] audioData = link.Sound.BinaryData;
 
 // ระบุเส้นทางที่คุณต้องการบันทึกเสียงที่แยกออกมา
@@ -101,7 +101,7 @@ Aspose.Slides สำหรับ .NET มอบโซลูชันที่ม
  ใช่ คุณสามารถรับความช่วยเหลือและแบ่งปันประสบการณ์ของคุณกับ Aspose.Slides ได้ใน[ฟอรั่มชุมชน Aspose.Slides](https://forum.aspose.com/).
 
 ### ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับโครงการระยะสั้นได้หรือไม่
- ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ .NET เพื่อตอบสนองความต้องการโครงการระยะสั้นของคุณได้โดยไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ .NET เพื่อตอบสนองความต้องการโครงการระยะสั้นของคุณได้โดยไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
 
 ### มีรูปแบบเสียงอื่นๆ ที่รองรับการแยกไฟล์ นอกเหนือจาก MPG หรือไม่
 Aspose.Slides สำหรับ .NET ช่วยให้คุณสามารถแยกเสียงในรูปแบบต่างๆ ไม่จำกัดเฉพาะ MPG คุณสามารถแปลงเป็นรูปแบบที่คุณต้องการได้หลังจากการแตกไฟล์

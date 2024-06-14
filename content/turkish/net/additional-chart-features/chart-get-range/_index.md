@@ -69,7 +69,7 @@ string result = chart.ChartData.GetRange();
 Console.WriteLine("GetRange result: {0}", result);
 ```
 
-Ve bu kadar! Aspose.Slides for .NET kullanarak grafik veri aralığını PowerPoint sununuzdan başarıyla aldınız.
+Ve bu kadar! Aspose.Slides for .NET'i kullanarak grafik veri aralığını PowerPoint sununuzdan başarıyla aldınız.
 
 ## Çözüm
 

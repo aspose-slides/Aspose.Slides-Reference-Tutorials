@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Une fois la diapositive clonée et insérée à la position souhaitée, vous devez enregistrer la présentation de destination modifiée. Utilisez le code suivant pour enregistrer la présentation :
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Insérez la diapositive clonée à la position spécifiée
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Enregistrez la présentation modifiée
+            //Enregistrez la présentation modifiée
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }
@@ -114,7 +114,7 @@ namespace SlideCloningDemo
 
 ## Conclusion
 
-Dans ce guide, nous avons exploré comment cloner une diapositive d'une présentation différente vers une position spécifiée à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus de travail avec les présentations PowerPoint par programmation, vous permettant de manipuler et de personnaliser efficacement vos diapositives.
+Dans ce guide, nous avons expliqué comment cloner une diapositive d'une présentation différente vers une position spécifiée à l'aide d'Aspose.Slides pour .NET. Cette puissante bibliothèque simplifie le processus de travail avec les présentations PowerPoint par programmation, vous permettant de manipuler et de personnaliser efficacement vos diapositives.
 
 ## FAQ
 

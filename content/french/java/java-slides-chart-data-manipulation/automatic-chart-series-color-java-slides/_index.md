@@ -70,14 +70,14 @@ Nous remplirons les données de série pour les séries 1 et 2.
 ```java
 // Prendre la première série de graphiques
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Prendre la deuxième série de graphiques
 series = chart.getChartData().getSeries().get_Item(1);
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Prendre la première série de graphiques
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//Remplir maintenant les données de série
+	// Remplir maintenant les données de série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Prendre la deuxième série de graphiques
 	series = chart.getChartData().getSeries().get_Item(1);
-	//Remplir maintenant les données de série
+	// Remplir maintenant les données de série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//Définition de la couleur de remplissage pour les séries
+	// Définition de la couleur de remplissage pour les séries
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Enregistrer la présentation avec le graphique
@@ -181,7 +181,7 @@ Ce code permettra à la bibliothèque de choisir automatiquement les couleurs po
 
 ### Comment puis-je ajouter des séries ou des catégories supplémentaires au graphique ?
 
-Pour ajouter des séries ou des catégories supplémentaires au graphique, utilisez le`getSeries()` et`getCategories()` méthodes du graphique`ChartData` objet. Vous pouvez ajouter de nouvelles séries et catégories en spécifiant leurs données et étiquettes.
+ Pour ajouter des séries ou des catégories supplémentaires au graphique, utilisez le`getSeries()` et`getCategories()` méthodes du graphique`ChartData` objet. Vous pouvez ajouter de nouvelles séries et catégories en spécifiant leurs données et étiquettes.
 
 ### Est-il possible de formater davantage le graphique et les étiquettes ?
 

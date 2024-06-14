@@ -54,7 +54,7 @@ Použijte podmanivé efekty zkosení na snímky prezentace pomocí Aspose.Slides
 ### [Změna dat objektu OLE v prezentačních snímcích pomocí Aspose.Slides](./changing-ole-object-data/)
 Naučte se, jak efektivně měnit data objektu OLE na snímcích prezentace pomocí Aspose.Slides API. Tento podrobný průvodce poskytuje příklady kódu a základní informace.
 ### [Změna pořadí tvarů v prezentačních snímcích pomocí Aspose.Slides](./changing-order-shapes/)
-Naučte se přeskupovat a manipulovat s tvary ve snímcích prezentace pomocí Aspose.Slides pro .NET. Vylepšete své prezentace pomocí tohoto komplexního průvodce.
+Naučte se přeskupovat tvary a manipulovat s nimi ve snímcích prezentace pomocí Aspose.Slides for .NET. Vylepšete své prezentace pomocí tohoto komplexního průvodce.
 ### [Klonování tvarů v prezentačních snímcích pomocí Aspose.Slides](./cloning-shapes/)
 Naučte se efektivně klonovat tvary ve snímcích prezentace pomocí Aspose.Slides API. Snadno vytvářejte dynamické prezentace. Prozkoumejte podrobného průvodce, často kladené dotazy a další.
 ### [Úprava úhlů spojnic v prezentačních snímcích pomocí Aspose.Slides](./adjusting-connector-line-angles/)

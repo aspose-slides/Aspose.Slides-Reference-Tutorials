@@ -16,7 +16,7 @@ Trong thế giới phát triển Java, làm việc với các slide thuyết tr�
 
 Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1. Aspose.Slides cho Thư viện Java: Bạn sẽ cần cài đặt thư viện Aspose.Slides cho Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
+1.  Aspose.Slides cho Thư viện Java: Bạn sẽ cần cài đặt thư viện Aspose.Slides cho Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/slides/java/).
 
 2. Môi trường phát triển Java: Đảm bảo bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
 

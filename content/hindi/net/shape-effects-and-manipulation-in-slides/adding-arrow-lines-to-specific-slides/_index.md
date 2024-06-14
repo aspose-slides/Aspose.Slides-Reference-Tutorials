@@ -71,8 +71,8 @@ using (Presentation pres = new Presentation())
 ### प्रश्न: क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  उत्तर: हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं Aspose.Slides के लिए समर्थन कहां पा सकता हूं?
-उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
-### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
+ उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
+### प्रश्न: मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
  उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं .NET के लिए Aspose.Slides कहां से खरीद सकता हूं?
  उत्तर: आप Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).

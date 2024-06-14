@@ -10,14 +10,14 @@ url: /sv/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Introduktion till konvertering av presentation till HTML med Bädda in alla teckensnitt i Java Slides
 
-I dagens digitala tidsålder har konvertering av presentationer till HTML blivit avgörande för att dela information sömlöst mellan olika plattformar. När du arbetar med Java Slides är det avgörande att se till att alla teckensnitt som används i din presentation är inbäddade för att bibehålla konsekvent formatering. I den här steg-för-steg-guiden går vi igenom processen att konvertera en presentation till HTML samtidigt som du bäddar in alla typsnitt med Aspose.Slides för Java. Låt oss börja!
+dagens digitala tidsålder har konvertering av presentationer till HTML blivit avgörande för att dela information sömlöst mellan olika plattformar. När du arbetar med Java Slides är det avgörande att se till att alla teckensnitt som används i din presentation är inbäddade för att bibehålla konsekvent formatering. I den här steg-för-steg-guiden går vi igenom processen att konvertera en presentation till HTML samtidigt som du bäddar in alla typsnitt med Aspose.Slides för Java. Låt oss börja!
 
 ## Förutsättningar
 
 Innan vi dyker in i koden och konverteringsprocessen, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat på ditt system.
-- Aspose.Slides för Java API, som du kan ladda ner från[här](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides för Java API, som du kan ladda ner från[här](https://releases.aspose.com/slides/java/).
 -  En presentationsfil (t.ex.`presentation.pptx`) som du vill konvertera till HTML.
 
 ## Steg 1: Konfigurera Java-miljön
@@ -26,7 +26,7 @@ Se till att du har Java och Aspose.Slides för Java API korrekt installerat på 
 
 ## Steg 2: Laddar presentationsfilen
 
- I din Java-kod måste du ladda presentationsfilen du vill konvertera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
+ din Java-kod måste du ladda presentationsfilen du vill konvertera. Byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Du kan inspektera HTML-filens källkod och leta efter teckensnittsreferenser. Al
 
 ### Kan jag anpassa HTML-utdata ytterligare, till exempel stil och layout?
 
- Ja, du kan anpassa HTML-utdata genom att ändra`HtmlOptions`och HTML-mallen som används för formatering. Aspose.Slides för Java ger flexibilitet i detta avseende.
+ Ja, du kan anpassa HTML-utdata genom att ändra`HtmlOptions` och HTML-mallen som används för formatering. Aspose.Slides för Java ger flexibilitet i detta avseende.
 
 ### Finns det några begränsningar när du bäddar in teckensnitt i HTML?
 

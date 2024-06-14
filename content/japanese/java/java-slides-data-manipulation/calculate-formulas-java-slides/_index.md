@@ -25,7 +25,7 @@ url: /ja/java/data-manipulation/calculate-formulas-java-slides/
 まず、新しい PowerPoint プレゼンテーションを作成し、スライドを追加してみましょう。この例では、1 つのスライドを操作します。
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Java スライドで数式を計算するための完全なソース コード
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

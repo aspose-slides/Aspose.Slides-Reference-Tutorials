@@ -101,7 +101,7 @@ Chúc mừng! Bạn đã học thành công cách chuyển đổi bản trình b
 
 ### Làm cách nào tôi có thể tải xuống Aspose.Slides cho Java?
 
-Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Thăm nom[đây](https://releases.aspose.com/slides/java/) để truy cập vào liên kết tải xuống.
+ Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Thăm nom[đây](https://releases.aspose.com/slides/java/) để truy cập vào liên kết tải xuống.
 
 ### Có bất kỳ yêu cầu cấp phép nào để sử dụng Aspose.Slides cho Java không?
 

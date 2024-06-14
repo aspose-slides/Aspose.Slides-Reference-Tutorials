@@ -8,7 +8,7 @@ weight: 13
 url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
 ## 導入
-PowerPoint プレゼンテーションを扱ったことがある人なら、図形を追加して色をカスタマイズすることが、スライドを視覚的に魅力的で情報豊かにする上で重要な要素であることをご存知でしょう。Aspose.Slides for Java を使用すると、このプロセスが簡単になります。PowerPoint プレゼンテーションの作成を自動化したい開発者でも、スライドに色彩を添えたい人でも、このチュートリアルでは、Aspose.Slides for Java を使用して図形を単色で塗りつぶすプロセスについて説明します。
+PowerPoint プレゼンテーションを扱ったことがある人なら、図形を追加して色をカスタマイズすることが、スライドを視覚的に魅力的で情報豊かにする上で重要な要素であることをご存知でしょう。Aspose.Slides for Java を使用すると、このプロセスが簡単になります。PowerPoint プレゼンテーションの作成を自動化したい開発者でも、スライドに色彩を加えることに関心がある人でも、このチュートリアルでは、Aspose.Slides for Java を使用して図形を単色で塗りつぶすプロセスについて説明します。
 ## 前提条件
 コードに進む前に、いくつかの前提条件を満たす必要があります。
 1.  Java開発キット（JDK）：システムにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -20,7 +20,7 @@ PowerPoint プレゼンテーションを扱ったことがある人なら、図
 Aspose.Slides for Java の使用を開始するには、必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## ステップ1: プロジェクトを設定する
@@ -84,4 +84,4 @@ Aspose.Slides for Java は、Java で PowerPoint プレゼンテーションを�
 ### Aspose.Slides for Java の無料試用版はありますか?
 はい、無料トライアルは以下からダウンロードできます。[Aspose ウェブサイト](https://releases.aspose.com/).
 ### 詳細なドキュメントやサポートはどこで入手できますか?
-詳細なドキュメントは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/) 、サポートを求めることができます[Aspose フォーラム](https://forum.aspose.com/c/slides/11).
+詳細なドキュメントは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/)、サポートを求めることができます[Aspose フォーラム](https://forum.aspose.com/c/slides/11).

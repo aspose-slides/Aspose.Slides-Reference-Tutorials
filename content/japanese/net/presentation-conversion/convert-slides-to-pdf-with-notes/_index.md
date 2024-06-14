@@ -97,4 +97,4 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 
 はい、一時ライセンスは以下からご購入いただけます。[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
-結論として、Aspose.Slides for .NET を使用すると、メモをそのままにして PowerPoint スライドを PDF 形式に簡単に変換できます。これは、重要なコンテキストが失われないようにしながら、同僚やクライアントとプレゼンテーションを共有する必要のある専門家にとって貴重なツールです。
+結論として、Aspose.Slides for .NET を使用すると、メモをそのままにして PowerPoint スライドを PDF 形式に簡単に変換できます。これは、重要なコンテキストが失われないようにしながら、同僚やクライアントとプレゼンテーションを共有する必要のあるプロフェッショナルにとって貴重なツールです。

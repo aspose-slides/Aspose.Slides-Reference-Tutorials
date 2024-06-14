@@ -14,7 +14,7 @@ Vítejte ve světě dynamických prezentací! V tomto tutoriálu se ponoříme d
 
 ### Proč záleží na přechodových efektech snímku:
 
-Efekty přechodu snímků jsou více než jen pastvou pro oči – hrají klíčovou roli při efektivním přenosu informací. Přidáním jemných nebo dramatických animací mezi snímky můžete vést pozornost publika, zdůraznit klíčové body a udržet dynamické tempo v průběhu prezentace. S Aspose.Slides máte možnost implementovat širokou škálu přechodových efektů, od jednoduchých vyblednutí až po složité 3D animace.
+Efekty přechodu snímků jsou více než jen pastvou pro oči – hrají klíčovou roli při efektivním přenosu informací. Přidáním jemných nebo dramatických animací mezi snímky můžete nasměrovat pozornost publika, zdůraznit klíčové body a udržet dynamické tempo během celé prezentace. S Aspose.Slides máte možnost implementovat širokou škálu přechodových efektů, od jednoduchých vyblednutí až po složité 3D animace.
 
 ### Co se naučíte:
 
@@ -24,7 +24,7 @@ této sérii výukových programů demystifikujeme přechodové efekty snímků 
 - Použití přechodů: Naučte se, jak aplikovat přechody na jednotlivé snímky a nastavit jejich trvání a časování.
 - Vlastní animace: Ponořte se do světa vlastních animací, kde můžete definovat jedinečné sekvence animací pro konkrétní prvky snímků.
 - Interaktivní prvky: Zjistěte, jak přidat spouštěče a akce k vytvoření interaktivních prezentací, které reagují na interakce uživatelů.
-- Pokročilé techniky: Ponořte se do pokročilých technik, jako je kombinace více přechodových efektů a programové řízení přechodů.
+- Pokročilé techniky: Ponořte se do pokročilých technik, jako je kombinování více přechodových efektů a programové řízení přechodů.
 
 Jste připraveni pozvednout své prezentace na další úroveň? Vydejme se na tuto cestu k zvládnutí přechodových efektů snímků pomocí Aspose.Slides for .NET.
 

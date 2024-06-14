@@ -21,7 +21,7 @@ url: /zh/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 
 现在我们已经有了大纲，让我们从分步指南开始。
 
-## 步骤 1：Java 版 Aspose.Slides 简介
+## 第 1 步：Aspose.Slides for Java 简介
 
 Aspose.Slides for Java 是一个 Java API，允许开发人员处理 PowerPoint 演示文稿。它提供广泛的功能，包括创建、编辑和操作幻灯片、图表、形状等。
 

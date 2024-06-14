@@ -89,7 +89,7 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 
 ### प्रश्न 3: मैं .NET के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
 
- समर्थन और सहायता के लिए, आप Aspose.Slides for .NET फ़ोरम पर जा सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
+ समर्थन और सहायता के लिए, आप Aspose.Slides for .NET फोरम पर जा सकते हैं[https://forum.aspose.com/](https://forum.aspose.com/).
 
 ### प्रश्न 4: क्या मैं प्रस्तुतियों को अन्य प्रारूपों में भी परिवर्तित कर सकता हूँ?
 

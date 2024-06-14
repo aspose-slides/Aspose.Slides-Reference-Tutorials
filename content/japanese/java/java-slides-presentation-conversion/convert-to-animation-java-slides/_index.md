@@ -34,7 +34,7 @@ import java.io.IOException;
 まず、アニメーションに変換したいPowerPointプレゼンテーションを読み込みます。`"SimpleAnimations.pptx"`プレゼンテーションファイルへのパス:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 プレゼンテーションが再生されると、各フレームは指定された出力ディレクトリに PNG 画像として保存されます。必要に応じて出力パスをカスタマイズできます。
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Java スライドでアニメーションに変換するための完全なソース コード
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

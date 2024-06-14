@@ -7,7 +7,7 @@ url: /sv/net/
 description: Upptäck en värld av presentationsmanipulation, konvertering och PowerPoint-bearbetning med Aspose.Slides för .NET tutorials. Lär dig att skapa, konvertera och förbättra presentationer för effektfulla resultat.
 is_root: true
 ---
-Välkommen till den omfattande samlingen av Aspose.Slides för .NET-tutorials, där du kommer att upptäcka konsten att manipulera presentationer, konvertera och bearbeta PowerPoint. Dessa handledningar fungerar som din guide för att bemästra funktionerna i Aspose.Slides, vilket gör att du kan navigera sömlöst genom olika aspekter av presentationsskapande, anpassning och transformation. Oavsett om du vill automatisera PowerPoint-uppgifter, konvertera presentationer till olika format eller förbättra diabilder med multimedia, ger dessa handledningar steg-för-steg-instruktioner för att ge din utvecklingsresa.
+Välkommen till den omfattande samlingen av Aspose.Slides för .NET-tutorials, där du kommer att upptäcka konsten att manipulera presentationer, konvertera och bearbeta PowerPoint. Dessa handledningar fungerar som din guide för att bemästra funktionerna i Aspose.Slides, vilket gör att du kan navigera sömlöst genom olika aspekter av presentationsskapande, anpassning och transformation. Oavsett om du vill automatisera PowerPoint-uppgifter, konvertera presentationer till olika format eller förbättra diabilder med multimedia, ger dessa tutorials steg-för-steg-instruktioner för att förstärka din utvecklingsresa.
 
 ## Presentationskonvertering: Transformera diabilder med lätthet
 Dyk in i en värld av presentationskonvertering med Aspose.Slides för .NET. Lär dig hur du enkelt konverterar PowerPoint-presentationer till en mängd olika format, som PDF, bilder och mer. Dessa handledningar ger insikter om hur du bibehåller integriteten hos ditt innehåll samtidigt som det anpassas till olika utdataformat, så att du kan distribuera och dela dina presentationer effektivt över olika plattformar.
@@ -24,7 +24,7 @@ Lås upp potentialen för presentationsmanipulation med Aspose.Slides för .NET 
 Utforska omfattande handledningar om bildåtkomst och manipulering med Aspose.Slides för .NET. Lär dig att skapa, ändra och förbättra presentationer programmatiskt. 
 ### [Slide Bakgrundsmanipulation](./slide-background-manipulation/)
 Förbättra din bilddesign med Aspose.Slides! Lär dig hur du manipulerar bildbakgrunder i denna omfattande handledning. Steg-för-steg-instruktioner och kodexempel tillhandahålls.
-### [Bildkommentarer Manipulation](./slide-comments-manipulation/)
+### [Slide Kommentarer Manipulering](./slide-comments-manipulation/)
 Förbättra dina färdigheter i bildhantering med Aspose.Slides-handledningar om manipulering av bildkommentarer. Lär dig att lägga till, redigera och hantera kommentarer programmatiskt i PowerPoint-presentationer med .NET.
 ### [Hyperlänksmanipulation](./hyperlink-manipulation/)
 Förbättra dina .NET-applikationer med omfattande hyperlänksmanipulation med Aspose.Slides. Lär dig hur du hanterar hyperlänkar, skapar interaktiva presentationer och ökar användarens engagemang utan ansträngning.

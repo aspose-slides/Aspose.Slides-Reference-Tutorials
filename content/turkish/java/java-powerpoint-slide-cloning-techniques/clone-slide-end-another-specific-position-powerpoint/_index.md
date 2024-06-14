@@ -22,7 +22,7 @@ Başlamak için gerekli paketleri Aspose.Slides'tan içe aktarmanız gerekiyor. 
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Şimdi süreci basit adımlara ayıralım.

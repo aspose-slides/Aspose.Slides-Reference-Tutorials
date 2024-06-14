@@ -21,13 +21,13 @@ Először is importáljuk a szükséges csomagokat. Nyissa meg a Java IDE-jét, 
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be az adatkönyvtárat
 Szüksége lesz egy könyvtárra a PowerPoint-fájlok tárolására. Itt töltheti be a forrásfájlt, és mentheti a klónozott prezentációt.
 ```java
 // A dokumentumok könyvtárának elérési útja.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## 2. lépés: Töltse be a forrásbemutatót
 Ezután betöltjük azt a forrásbemutatót, amely a klónozni kívánt diát tartalmazza. Ez a lépés kulcsfontosságú, mivel ez szolgál a klónozási művelet alapjául.
@@ -52,7 +52,7 @@ ISlideCollection slideCollection = destPres.getSlides();
 slideCollection.insertClone(1, sourcePresentation.getSlides().get_Item(1));
 ```
 ## 5. lépés: Mentse el a célállomás prezentációját
-dia sikeres klónozása után az utolsó lépés a célprezentáció lemezre mentése. Ez a lépés biztosítja, hogy a klónozott dia új fájlban maradjon meg.
+A dia sikeres klónozása után az utolsó lépés a célprezentáció lemezre mentése. Ez a lépés biztosítja, hogy a klónozott dia új fájlban maradjon meg.
 ```java
 // Írja a célprezentációt lemezre
 destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", SaveFormat.Pptx);
@@ -61,7 +61,7 @@ destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", 
 }
 ```
 ## 6. lépés: Dobja el a prezentációkat
-A prezentációk megfelelő megsemmisítése elengedhetetlen az erőforrások felszabadításához és a memóriaszivárgások elkerüléséhez. Ezt a gyakorlatot jó szokás fejleszteni.
+prezentációk megfelelő megsemmisítése elengedhetetlen az erőforrások felszabadításához és a memóriaszivárgások elkerüléséhez. Ezt a gyakorlatot jó szokás fejleszteni.
 ```java
 } finally {
     if (sourcePresentation != null) sourcePresentation.dispose();

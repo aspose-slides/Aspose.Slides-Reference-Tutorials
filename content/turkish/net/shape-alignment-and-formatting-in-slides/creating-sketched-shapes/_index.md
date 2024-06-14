@@ -65,7 +65,7 @@ Bu kadar! Aspose.Slides for .NET'i kullanarak taslak şekillerden oluşan bir su
 Sunum slaytlarınıza eskiz şekilleri eklemek görsel çekiciliği artırabilir ve izleyicilerinizin ilgisini çekebilir. Aspose.Slides for .NET ile süreç basitleşir ve yaratıcılığınızı zahmetsizce ortaya çıkarmanıza olanak tanır.
 ## SSS
 ### 1. Taslak efektini özelleştirebilir miyim?
-Evet, Aspose.Slides for .NET, taslak efektler için çeşitli özelleştirme seçenekleri sunar. Bakın[dokümantasyon](https://reference.aspose.com/slides/net/) detaylı bilgi için.
+ Evet, Aspose.Slides for .NET, taslak efektler için çeşitli özelleştirme seçenekleri sunar. Bakın[dokümantasyon](https://reference.aspose.com/slides/net/) detaylı bilgi için.
 ### 2. Ücretsiz deneme mevcut mu?
  Kesinlikle! Aspose.Slides for .NET'in ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### 3. Nereden destek alabilirim?

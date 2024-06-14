@@ -21,7 +21,7 @@ url: /zh-hant/net/slide-access-and-manipulation/
 ### [檢索簡報中的所有投影片](./access-all-slides/)
 了解如何使用 Aspose.Slides for .NET 擷取 PowerPoint 簡報中的所有投影片。請按照此逐步指南以及完整的原始程式碼，以程式設計方式有效率地處理簡報。探索幻燈片屬性、安裝、自訂等。
 ### [新增具有時尚註釋格式的註釋投影片](./add-notes-slide-with-notes-style/)
-了解如何使用 Aspose.Slides for .NET 透過時尚的筆記格式增強 PowerPoint 簡報。本逐步指南涵蓋新增註釋投影片、應用程式有吸引力的格式等內容。
+了解如何使用 Aspose.Slides for .NET 透過時尚的筆記格式增強 PowerPoint 簡報。本逐步指南涵蓋添加註釋幻燈片、應用有吸引力的格式等等。
 ### [將附加投影片插入簡報](./add-slides/)
 了解如何使用 Aspose.Slides for .NET 將其他投影片插入 PowerPoint 簡報中。本逐步指南提供了原始程式碼範例和詳細說明，可協助您無縫增強簡報。包括可自訂的內容、插入提示和常見問題。
 ### [將投影片從不同的簡報複製到指定位置](./clone-slide-from-another-presentation-specified-position/)
@@ -37,7 +37,7 @@ url: /zh-hant/net/slide-access-and-manipulation/
 ### [在同一簡報中克隆投影片](./clone-slide-within-same-presentation/)
 了解如何使用 Aspose.Slides for .NET 在相同 PowerPoint 簡報中複製投影片。遵循此逐步指南以及完整的原始程式碼範例，可以有效地操作您的簡報。
 ### [將投影片複製到現有簡報的末尾](./clone-slide-within-same-presentation-to-end/)
-了解如何使用 Aspose.Slides for .NET 複製投影片並將其新增至現有 PowerPoint 簡報的結尾。本逐步指南提供了原始程式碼範例，涵蓋設定、投影片複製、修改等內容。
+了解如何使用 Aspose.Slides for .NET 複製投影片並將其新增至現有 PowerPoint 簡報的結尾。本逐步指南提供原始碼範例，涵蓋設定、投影片複製、修改等內容。
 ### [調整簡報中的投影片位置](./change-slide-position/)
 了解如何使用 Aspose.Slides for .NET 調整簡報中的投影片位置。按照我們帶有原始程式碼範例的逐步指南，有效地重新排列簡報中的幻燈片。
 ### [依序索引擦除投影片](./remove-slide-using-index/)

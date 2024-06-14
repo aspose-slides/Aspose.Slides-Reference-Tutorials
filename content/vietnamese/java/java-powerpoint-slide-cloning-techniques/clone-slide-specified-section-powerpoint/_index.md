@@ -12,18 +12,18 @@ Bạn đang tìm cách hợp lý hóa quá trình tạo bản trình bày PowerP
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đề cập đến các điều kiện tiên quyết. Đảm bảo bạn có mọi thứ đúng chỗ sẽ giúp quá trình diễn ra suôn sẻ và hiệu quả hơn.
 ### Môi trường phát triển Java
- Trước tiên, hãy đảm bảo bạn đã thiết lập môi trường phát triển Java. Bạn sẽ cần cài đặt JDK (Bộ công cụ phát triển Java) trên máy của mình. Bạn có thể tải nó xuống từ[trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Trước tiên, hãy đảm bảo bạn đã thiết lập môi trường phát triển Java. Bạn sẽ cần cài đặt JDK (Bộ công cụ phát triển Java) trên máy của mình. Bạn có thể tải nó xuống từ[trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides cho Thư viện Java
  Tiếp theo, tải xuống thư viện Aspose.Slides cho Java. Bạn có thể lấy nó từ[Trang tải xuống Aspose.Slides](https://releases.aspose.com/slides/java/). Thư viện này sẽ cung cấp tất cả các công cụ cần thiết để thao tác các bài thuyết trình PowerPoint theo chương trình.
 ### IDE phát triển
 Sử dụng Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA, Eclipse hoặc NetBeans sẽ giúp quá trình phát triển của bạn trở nên đơn giản hơn. Đảm bảo IDE của bạn được cấu hình để hoạt động với Java.
 ### Giấy phép cấp phép
- Để có đầy đủ chức năng, bạn có thể muốn có giấy phép cho Aspose.Slides. Bạn có thể mua một cái[đây](https://purchase.aspose.com/buy) . Ngoài ra, bạn có thể nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)để thử các tính năng trước khi cam kết.
+ Để có đầy đủ chức năng, bạn có thể muốn có giấy phép cho Aspose.Slides. Bạn có thể mua một cái[đây](https://purchase.aspose.com/buy) . Ngoài ra, bạn có thể nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử các tính năng trước khi cam kết.
 ## Gói nhập khẩu
 Trước khi viết mã, bạn cần nhập các gói cần thiết từ Aspose.Slides. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bây giờ, hãy chia quy trình thành các bước có thể quản lý được. Thực hiện cẩn thận từng bước để đạt được kết quả mong muốn.
 ## Bước 1: Thiết lập thư mục dữ liệu
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Bước 5: Sao chép slide vào phần được chỉ định
-Phần cốt lõi của hướng dẫn này là sao chép slide vào một phần được chỉ định. Sử dụng`addClone` phương pháp sao chép slide đầu tiên vào phần thứ hai.
+ Phần cốt lõi của hướng dẫn này là sao chép slide vào một phần được chỉ định. Sử dụng`addClone` phương pháp sao chép slide đầu tiên vào phần thứ hai.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

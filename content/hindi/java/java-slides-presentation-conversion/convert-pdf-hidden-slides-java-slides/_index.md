@@ -1,6 +1,6 @@
 ---
-title: जावा स्लाइड्स में छिपी स्लाइड्स के साथ पीडीएफ में कनवर्ट करें
-linktitle: जावा स्लाइड्स में छिपी स्लाइड्स के साथ पीडीएफ में कनवर्ट करें
+title: जावा स्लाइड्स में छिपी हुई स्लाइड्स को पीडीएफ में बदलें
+linktitle: जावा स्लाइड्स में छिपी हुई स्लाइड्स को पीडीएफ में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके छिपी हुई स्लाइड्स के साथ PowerPoint प्रस्तुतियों को PDF में कैसे परिवर्तित किया जाए। सहज PDF निर्माण के लिए स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
 type: docs
@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## चरण 3: PDF विकल्प कॉन्फ़िगर करें
 
- पीडीएफ आउटपुट में छिपी स्लाइड्स को शामिल करने के लिए पीडीएफ विकल्पों को कॉन्फ़िगर करें। आप इसे सेट करके कर सकते हैं`setShowHiddenSlides` की संपत्ति`PdfOptions` कक्षा से`true`.
+पीडीएफ आउटपुट में छिपी स्लाइड्स को शामिल करने के लिए पीडीएफ विकल्पों को कॉन्फ़िगर करें। आप इसे सेट करके कर सकते हैं`setShowHiddenSlides` की संपत्ति`PdfOptions` कक्षा से`true`.
 
 ```java
 // PdfOptions वर्ग को तत्कालित करें
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड करूं?
 
-आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) नवीनतम संस्करण प्राप्त करने के लिए.
+ आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/slides/java/) नवीनतम संस्करण प्राप्त करने के लिए.

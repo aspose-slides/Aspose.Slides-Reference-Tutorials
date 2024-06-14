@@ -105,7 +105,7 @@ den här steg-för-steg-guiden har du lärt dig hur du kopierar en bild till en 
 ## Vanliga frågor
 
 ### Vad är Aspose.Slides för .NET?
-Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för .NET-utvecklare att skapa, ändra och manipulera PowerPoint-presentationer programmatiskt.
+Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för .NET-utvecklare att skapa, modifiera och manipulera PowerPoint-presentationer programmatiskt.
 
 ### Var kan jag hitta dokumentationen för Aspose.Slides för .NET?
  Du kan komma åt dokumentationen på[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).

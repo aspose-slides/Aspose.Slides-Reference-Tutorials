@@ -88,7 +88,7 @@ pres.Save(dataDir + "YourModifiedPresentation.pptx", SaveFormat.Pptx);
 
  من خلال تطبيق انتقالات مثل "دائرة" و"مشط"، يمكنك إضفاء الحيوية على شرائحك وجعل عروضك التقديمية أكثر جاذبية. لا تنسى استكشاف[توثيق](https://reference.aspose.com/slides/net/) لمزيد من التفاصيل والميزات الخاصة بـ Aspose.Slides لـ .NET.
 
-هل لديك أي أسئلة أو تحتاج إلى مزيد من المساعدة؟ قم بزيارة منتدى مجتمع Aspose.Slides[هنا](https://forum.aspose.com/).
+ هل لديك أي أسئلة أو تحتاج إلى مزيد من المساعدة؟ قم بزيارة منتدى مجتمع Aspose.Slides[هنا](https://forum.aspose.com/).
 
 ## الأسئلة الشائعة
 

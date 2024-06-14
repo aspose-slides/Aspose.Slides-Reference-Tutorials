@@ -12,7 +12,7 @@ url: /el/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-co
 ## Προαπαιτούμενα
 Πριν βουτήξουμε στο σεμινάριο, βεβαιωθείτε ότι έχετε τα εξής:
 - Βασικές γνώσεις C# και .NET Framework.
--  Εγκαταστάθηκαν Aspose.Slides για .NET. Εάν όχι, κατεβάστε το[εδώ](https://releases.aspose.com/slides/net/).
+-  Εγκαταστάθηκαν Aspose.Slides για .NET. Αν όχι, κατεβάστε το[εδώ](https://releases.aspose.com/slides/net/).
 - Δημιουργήθηκε ένα αναπτυξιακό περιβάλλον.
 ## Εισαγωγή χώρων ονομάτων
 Στον κώδικα C#, ξεκινήστε εισάγοντας τους απαραίτητους χώρους ονομάτων:

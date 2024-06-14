@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //प्रस्तुतिकरण बनाने के लिए आपका कोड यहां है।
+    // प्रस्तुतिकरण बनाने के लिए आपका कोड यहां है।
 }
 ```
 ## चरण 2: एनिमेटेड आकार जोड़ें

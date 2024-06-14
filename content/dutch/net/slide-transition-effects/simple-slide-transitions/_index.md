@@ -88,12 +88,12 @@ In deze zelfstudie hebt u geleerd hoe u Aspose.Slides voor .NET kunt gebruiken o
 
  Door overgangen zoals 'Cirkel' en 'Kam' toe te passen, kunt u uw dia's tot leven brengen en uw presentaties aantrekkelijker maken. Vergeet niet om de[documentatie](https://reference.aspose.com/slides/net/) voor meer details en functies van Aspose.Slides voor .NET.
 
-Heeft u vragen of heeft u verdere hulp nodig? Bekijk het Aspose.Slides-communityforum[hier](https://forum.aspose.com/).
+ Heeft u vragen of heeft u verdere hulp nodig? Bekijk het Aspose.Slides-communityforum[hier](https://forum.aspose.com/).
 
 ## Veelgestelde vragen
 
 ### 1. Hoe kan ik verschillende overgangen toepassen op meerdere dia's in een presentatie?
-Om verschillende overgangen toe te passen, volgt u de stappen in deze zelfstudie voor elke dia die u wilt wijzigen, waarbij u indien nodig het overgangstype wijzigt.
+Als u verschillende overgangen wilt toepassen, volgt u de stappen in deze zelfstudie voor elke dia die u wilt wijzigen, waarbij u indien nodig het overgangstype wijzigt.
 
 ### 2. Kan ik de duur en snelheid van dia-overgangen aanpassen?
 Ja, Aspose.Slides voor .NET biedt opties om de overgangssnelheid en -duur aan te passen. Raadpleeg de documentatie voor meer informatie.

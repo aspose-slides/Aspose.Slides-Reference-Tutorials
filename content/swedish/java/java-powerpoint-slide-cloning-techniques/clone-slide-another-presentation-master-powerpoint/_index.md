@@ -19,7 +19,7 @@ Innan du dyker in i kodningsdelen, se till att du har följande förutsättninga
 För att komma igång måste du importera de nödvändiga Aspose.Slides-paketen till ditt Java-projekt. Så här gör du:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Låt oss dela upp processen att klona en bild till en annan presentation med dess huvudbild i detaljerade steg.
 ## Steg 1: Ladda källpresentationen
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Steg 4: Klona huvudsliden till destinationspresentationen
 Klona huvudbilden från källpresentationen till samlingen av mallar i målpresentationen.
 ```java
-//Klona den önskade huvudbilden från källpresentationen till samlingen av mallar i målpresentationen
+// Klona den önskade huvudbilden från källpresentationen till samlingen av mallar i målpresentationen
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

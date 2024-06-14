@@ -13,18 +13,18 @@ Dalam tutorial ini, kita akan mempelajari cara membuat pembesaran bagian dalam p
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda telah menginstal dan menyiapkan prasyarat berikut di sistem Anda:
 1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[Di Sini](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Unduh dan atur perpustakaan Aspose.Slides for Java. Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/slides/java/)dan unduh perpustakaan dari[Link ini](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Unduh dan atur perpustakaan Aspose.Slides for Java. Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/slides/java/) dan unduh perpustakaan dari[Link ini](https://releases.aspose.com/slides/java/).
 ## Paket Impor
 Pertama, impor paket yang diperlukan untuk bekerja dengan Aspose.Slides untuk Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Langkah 1: Pengaturan File Keluaran
 Tentukan jalur untuk file presentasi keluaran:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Langkah 2: Inisialisasi Objek Presentasi
  Buat instance baru dari`Presentation` kelas:

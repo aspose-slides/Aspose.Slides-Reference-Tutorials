@@ -65,7 +65,7 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 Việc thêm các hình dạng phác thảo vào các trang trình bày của bạn có thể nâng cao sức hấp dẫn trực quan và thu hút khán giả của bạn. Với Aspose.Slides cho .NET, quá trình này trở nên đơn giản, cho phép bạn thỏa sức sáng tạo một cách dễ dàng.
 ## Câu hỏi thường gặp
 ### 1. Tôi có thể tùy chỉnh hiệu ứng phác thảo không?
-Có, Aspose.Slides for .NET cung cấp nhiều tùy chọn tùy chỉnh khác nhau cho các hiệu ứng phác thảo. Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết.
+ Có, Aspose.Slides for .NET cung cấp nhiều tùy chọn tùy chỉnh khác nhau cho các hiệu ứng phác thảo. Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết.
 ### 2. Có bản dùng thử miễn phí không?
  Chắc chắn! Bạn có thể khám phá bản dùng thử miễn phí Aspose.Slides cho .NET[đây](https://releases.aspose.com/).
 ### 3. Tôi có thể nhận hỗ trợ ở đâu?

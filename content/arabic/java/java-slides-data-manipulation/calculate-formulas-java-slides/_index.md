@@ -25,7 +25,7 @@ url: /ar/java/data-manipulation/calculate-formulas-java-slides/
 أولاً، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint وإضافة شريحة إليه. سنعمل مع شريحة واحدة في هذا المثال.
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 ```
 
@@ -76,7 +76,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## كود المصدر الكامل لحساب الصيغ في شرائح جافا
 
 ```java
-String resultPath = RunExamples.getOutPath() + "CalculateFormulas_out.pptx";
+String resultPath = "Your Output Directory" + "CalculateFormulas_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	IChart s_chart = presentation.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 10, 10, 600, 300);

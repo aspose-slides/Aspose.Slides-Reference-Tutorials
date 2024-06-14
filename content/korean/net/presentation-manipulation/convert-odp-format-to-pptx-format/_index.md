@@ -18,7 +18,7 @@ url: /ko/net/presentation-manipulation/convert-odp-format-to-pptx-format/
 
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 API입니다. 다양한 파일 형식을 광범위하게 지원하므로 문서 변환 작업에 탁월한 선택입니다.
 
-## 전제조건
+## 전제 조건
 
 이 튜토리얼을 진행하려면 다음 전제 조건이 갖추어져 있는지 확인하십시오.
 

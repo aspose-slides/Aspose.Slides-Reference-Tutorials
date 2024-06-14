@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Καθορίστε την κύρια μέθοδο
 Δημιουργήστε μια κύρια μέθοδο όπου θα ξεκινήσετε τη διαδικασία ενημέρωσης των ιδιοτήτων παρουσίασης με ένα νέο πρότυπο. Αυτή η μέθοδος χρησιμεύει ως το σημείο εισόδου για την εφαρμογή Java.

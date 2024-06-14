@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-//สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
+// สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-//สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
+// สร้างอินสแตนซ์วัตถุการนำเสนอที่แสดงถึงไฟล์ PPT
 Presentation presentation = new Presentation();
 try
 {

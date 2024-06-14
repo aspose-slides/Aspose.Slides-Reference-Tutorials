@@ -8,7 +8,7 @@ weight: 13
 url: /pl/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
 ## Wstęp
-Ulepszanie slajdów prezentacji za pomocą funkcji interaktywnych ma kluczowe znaczenie dla utrzymania zaangażowania odbiorców. Skutecznym sposobem na osiągnięcie tego jest włączenie powiększenia sekcji, co pozwala na płynne poruszanie się pomiędzy różnymi sekcjami prezentacji. W tym samouczku omówimy, jak tworzyć powiększenia sekcji na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
+Ulepszanie slajdów prezentacji za pomocą funkcji interaktywnych ma kluczowe znaczenie dla utrzymania zaangażowania odbiorców. Jednym ze skutecznych sposobów osiągnięcia tego celu jest włączenie powiększeń sekcji, umożliwiających płynne poruszanie się między różnymi sekcjami prezentacji. W tym samouczku omówimy, jak tworzyć powiększenia sekcji na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 -  Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/net/).
@@ -50,7 +50,7 @@ Teraz utwórz obiekt SessionZoomFrame na swoim slajdzie. Ta ramka określi obsza
 ISectionZoomFrame sectionZoomFrame = pres.Slides[0].Shapes.AddSectionZoomFrame(20, 20, 300, 200, pres.Sections[1]);
 ```
 ## Krok 6: Dostosuj ramkę powiększenia przekroju
-Dostosuj wymiary i położenie SekcjiZoomFrame zgodnie ze swoimi preferencjami.
+Dostosuj wymiary i położenie FrameZoomFrame zgodnie ze swoimi preferencjami.
 ## Krok 7: Zapisz swoją prezentację
 Zapisz prezentację w formacie PPTX, aby zachować funkcję powiększania sekcji.
 ```csharp
@@ -67,6 +67,6 @@ Tak, Aspose.Slides bezproblemowo integruje się z Visual Studio dla programowani
 ### Czy mogę dostosować wygląd ramki powiększenia sekcji?
 Absolutnie! Masz pełną kontrolę nad wymiarami, położeniem i stylem ramki powiększenia sekcji.
 ### Czy dostępna jest wersja próbna Aspose.Slides?
-Tak, możesz poznać funkcje Aspose.Slides za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
+ Tak, możesz poznać funkcje Aspose.Slides za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Slides?
  Aby uzyskać pomoc lub zadać pytania, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).

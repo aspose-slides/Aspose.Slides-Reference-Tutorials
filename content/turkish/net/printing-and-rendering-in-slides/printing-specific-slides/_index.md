@@ -10,7 +10,7 @@ url: /tr/net/printing-and-rendering-in-slides/printing-specific-slides/
 ## giriiş
 .NET geliştirme dünyasında Aspose.Slides, sunum dosyalarıyla çalışmak için güçlü bir araç olarak öne çıkıyor. Sunum slaytlarını programlı olarak yazdırmaya ihtiyaç duyduysanız doğru yerdesiniz. Bu eğitimde Aspose.Slides for .NET kullanarak bunu nasıl başaracağımızı inceleyeceğiz.
 ## Önkoşullar
-Adımlara geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
+Adımlara dalmadan önce aşağıdakilerin mevcut olduğundan emin olun:
 1.  Aspose.Slides Kütüphanesi: .NET için Aspose.Slides kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/slides/net/).
 2. Yazıcı Yapılandırması: Yazıcınızın doğru şekilde yapılandırıldığından ve .NET ortamınızdan erişilebilir olduğundan emin olun.
 3. Tümleşik Geliştirme Ortamı (IDE): Visual Studio gibi bir .NET geliştirme ortamı kurun.

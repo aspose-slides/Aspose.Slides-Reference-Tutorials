@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/funnel-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 깔때기형 차트를 만드는 방법을 보여줍니다. 깔때기형 차트는 판매 전환, 고객 확보 등 점진적으로 범위를 좁혀가는 단계를 사용하여 순차적 프로세스를 시각화하는 데 유용합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Aspose.Slides 라이브러리가 Java 프로젝트에 추가되었는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

@@ -13,18 +13,18 @@ In deze zelfstudie gaan we dieper in op het maken van sectiezooms in PowerPoint-
 ## Vereisten
 Voordat we beginnen, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd en ingesteld:
 1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden en installeren vanaf[hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides voor Java: Download en configureer de Aspose.Slides voor Java-bibliotheek. U kunt de documentatie vinden[hier](https://reference.aspose.com/slides/java/)en download de bibliotheek van[deze link](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java: Download en configureer de Aspose.Slides voor Java-bibliotheek. U kunt de documentatie vinden[hier](https://reference.aspose.com/slides/java/) en download de bibliotheek van[deze link](https://releases.aspose.com/slides/java/).
 ## Pakketten importeren
 Importeer eerst de benodigde pakketten die nodig zijn om met Aspose.Slides voor Java te werken:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Stap 1: Installatie van uitvoerbestanden
 Definieer het pad voor het uitvoerpresentatiebestand:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Stap 2: Initialiseer het presentatieobject
  Maak een nieuw exemplaar van de`Presentation` klas:

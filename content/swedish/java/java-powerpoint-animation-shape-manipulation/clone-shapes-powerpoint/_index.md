@@ -12,13 +12,13 @@ I den här handledningen kommer vi att utforska hur man klona former i PowerPoin
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar:
 1.  Java Development Kit (JDK): Se till att du har Java Development Kit installerat på ditt system. Du kan ladda ner och installera den senaste versionen från[hemsida](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java Library: Ladda ner och inkludera Aspose.Slides for Java-biblioteket i ditt Java-projekt. Du hittar nedladdningslänken[här](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Java Library: Ladda ner och inkludera Aspose.Slides for Java-biblioteket i ditt Java-projekt. Du hittar nedladdningslänken[här](https://releases.aspose.com/slides/java/).
 
 ## Importera paket
 För att börja måste du importera de nödvändiga paketen till ditt Java-projekt. Dessa paket tillhandahåller de funktioner som krävs för att arbeta med PowerPoint-presentationer med Aspose.Slides för Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Steg 1: Ladda presentationen
  Först måste du ladda PowerPoint-presentationen som innehåller de former du vill klona. Använd`Presentation` klass för att ladda källpresentationen.

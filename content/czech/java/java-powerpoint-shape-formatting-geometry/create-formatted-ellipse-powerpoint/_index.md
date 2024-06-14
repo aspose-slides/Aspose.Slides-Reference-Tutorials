@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 Chcete-li začít používat Aspose.Slides, musíte importovat potřebné balíčky. Můžete to udělat takto:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -90,8 +90,8 @@ Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pr
 ### Mohu použít Aspose.Slides pro Javu s jakýmkoli IDE?
 Ano, Aspose.Slides pro Javu můžete použít s jakýmkoli Java IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans.
 ### Potřebuji licenci pro Aspose.Slides?
- Ano, Aspose.Slides je komerční produkt a pro plnou funkčnost potřebujete licenci. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+Ano, Aspose.Slides je komerční produkt a pro plnou funkčnost potřebujete licenci. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu další dokumentaci k Aspose.Slides for Java?
-Podrobnou dokumentaci najdete na Aspose.Slides for Java[dokumentační stránku](https://reference.aspose.com/slides/java/).
+ Podrobnou dokumentaci najdete na Aspose.Slides for Java[dokumentační stránku](https://reference.aspose.com/slides/java/).
 ### Je k dispozici podpora pro Aspose.Slides?
  Ano, Aspose nabízí podporu prostřednictvím jejich[Fórum](https://forum.aspose.com/c/slides/11).

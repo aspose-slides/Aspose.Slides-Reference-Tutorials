@@ -18,7 +18,7 @@ Antes de mergulharmos no tutorial, vamos apresentar brevemente o Aspose.Slides p
 
 Para acompanhar este tutorial, você precisará do seguinte:
 
-1. Aspose.Slides for .NET: Certifique-se de ter a biblioteca Aspose.Slides for .NET instalada e pronta para usar em seu projeto .NET.
+1. Aspose.Slides for .NET: Certifique-se de ter a biblioteca Aspose.Slides for .NET instalada e pronta para uso em seu projeto .NET.
 
 2. Apresentação de origem: tenha uma apresentação do PowerPoint (PPTX) que deseja exportar para o formato XAML. Certifique-se de saber o caminho para esta apresentação.
 

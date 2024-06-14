@@ -9,7 +9,7 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-sha
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드에 시각적 매력을 더하면 메시지의 영향력이 크게 향상될 수 있습니다. Aspose.Slides for .NET은 프레젠테이션 슬라이드를 프로그래밍 방식으로 조작하고 아름답게 만드는 강력한 툴킷을 제공합니다. 이러한 흥미로운 기능 중 하나는 모양에 경사 효과를 적용하여 시각적 개체에 깊이와 차원을 추가하는 기능입니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/slides/net/).
 - 개발 환경: .NET 개발 환경을 설정하고 C#에 대한 기본적인 이해가 있어야 합니다.

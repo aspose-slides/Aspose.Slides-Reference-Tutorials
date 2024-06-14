@@ -61,11 +61,11 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 A dia másolása és elhelyezése után el kell mentenünk a módosított célprezentációt.
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 
-## Az Alkalmazás futtatása
+## Az alkalmazás futtatása
 
 Az Aspose.Slides for .NET segítségével készítse el és futtassa az alkalmazást, hogy egy másik prezentációban egy diát egy pontos helyre másoljon.
 

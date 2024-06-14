@@ -8,7 +8,7 @@ weight: 11
 url: /vi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
 ## Giới thiệu
-Trong thế giới của những bài thuyết trình sinh động, hình ảnh động đóng một vai trò quan trọng trong việc thu hút khán giả và truyền tải thông tin một cách hiệu quả. Aspose.Slides dành cho Java trao quyền cho các nhà phát triển tạo các bản trình bày PowerPoint hấp dẫn với các hoạt ảnh phức tạp được điều chỉnh theo các hình dạng cụ thể. Hướng dẫn này sẽ hướng dẫn bạn quy trình nhắm mục tiêu các hình dạng cho hoạt ảnh bằng Aspose.Slides cho Java, đảm bảo rằng bản trình bày của bạn nổi bật với các chuyển tiếp linh hoạt và hoạt ảnh chính xác.
+Trong thế giới của những bài thuyết trình sinh động, hình ảnh động đóng một vai trò quan trọng trong việc thu hút khán giả và truyền tải thông tin một cách hiệu quả. Aspose.Slides dành cho Java trao quyền cho các nhà phát triển tạo các bản trình bày PowerPoint hấp dẫn với các hình ảnh động phức tạp được điều chỉnh theo các hình dạng cụ thể. Hướng dẫn này sẽ hướng dẫn bạn quy trình nhắm mục tiêu các hình dạng cho hoạt ảnh bằng Aspose.Slides cho Java, đảm bảo rằng bản trình bày của bạn nổi bật với các chuyển tiếp linh hoạt và hoạt ảnh chính xác.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có các điều kiện tiên quyết sau:
 1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
@@ -21,7 +21,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có c�
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập tệp trình bày
 Bắt đầu bằng cách chỉ định đường dẫn đến tệp trình bày nguồn của bạn:

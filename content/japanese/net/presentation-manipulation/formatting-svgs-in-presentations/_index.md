@@ -99,7 +99,7 @@ class MySvgShapeFormattingController : ISvgShapeAndTextFormattingController
 
 ## よくある質問
 
-### SVG フォーマットとは何ですか? また、プレゼンテーションでなぜ重要ですか?
+### SVG フォーマットとは何ですか? また、プレゼンテーションにおいてなぜ重要ですか?
 SVG フォーマットは、プレゼンテーションで使用されるスケーラブル ベクター グラフィックスのスタイルとデザインを指します。これは、スライドの視覚的な魅力とエンゲージメントを高めるため、非常に重要です。
 
 ### Aspose.Slides for .NET を他のプログラミング言語で使用できますか?

@@ -45,7 +45,7 @@ comment.Text = "This slide requires additional content.";
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 
-## Edição e formatação de comentários de slides
+## Editando e formatando comentários de slides
 
 Aspose.Slides permite não apenas adicionar comentários, mas também modificá-los e formatá-los conforme necessário. Isso permite que você forneça anotações claras e concisas. Vamos explorar como editar e formatar comentários de slides:
 
@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Alterar a posição do comentário
 comment.Position = new Point(100, 100);
 
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Exclua o comentário
 slide.Comments.Remove(comment);
 
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

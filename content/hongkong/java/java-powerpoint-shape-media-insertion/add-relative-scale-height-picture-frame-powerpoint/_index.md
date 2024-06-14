@@ -18,7 +18,7 @@ url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-relative-scale-heig
 首先，在您的 Java 專案中匯入必要的套件：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

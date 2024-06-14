@@ -66,7 +66,7 @@ aShape.FillFormat.PictureFillFormat.StretchOffsetRight = 25;
 aShape.FillFormat.PictureFillFormat.StretchOffsetTop = -20;
 aShape.FillFormat.PictureFillFormat.StretchOffsetBottom = -10;
 ```
-## Adım 9: Sunuyu Kaydedin
+## Adım 9: Sunuyu Kaydetme
 PPTX dosyasını diske yazın:
 ```csharp
 pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx);

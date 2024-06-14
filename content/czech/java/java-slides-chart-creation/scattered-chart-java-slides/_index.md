@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Krok 2: Přidejte snímek a vytvořte bodový graf
 
- Dále přidejte snímek a vytvořte na něm bodový graf. Použijeme`ScatterWithSmoothLines` typ grafu v tomto příkladu.
+ Dále přidejte snímek a vytvořte na něm bodový graf. Použijeme`ScatterWithSmoothLines`typ grafu v tomto příkladu.
 
 ```java
 // Získejte první snímek
@@ -100,7 +100,7 @@ Nakonec uložte prezentaci s bodovým grafem do souboru PPTX.
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-je to! Úspěšně jste vytvořili bodový graf pomocí Aspose.Slides for Java. Nyní můžete tento příklad dále přizpůsobit tak, aby vyhovoval vašim specifickým požadavkům na data a design.
+A je to! Úspěšně jste vytvořili bodový graf pomocí Aspose.Slides for Java. Nyní můžete tento příklad dále přizpůsobit tak, aby vyhovoval vašim specifickým požadavkům na data a design.
 
 ## Kompletní zdrojový kód pro Scattered Chart v Java Slides
 ```java
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Vytvoření výchozího grafu
+//Vytvoření výchozího grafu
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Získání výchozího indexu listu dat grafu
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ V tomto tutoriálu jsme vás provedli procesem vytváření bodového grafu pomo
 
 ### Jak mohu změnit typ grafu?
 
- Chcete-li změnit typ grafu, použijte`setType`metodu na sérii grafu a zadejte požadovaný typ grafu. Například,`series.setType(ChartType.Line)` změní řadu na spojnicový graf.
+ Chcete-li změnit typ grafu, použijte`setType` metodu na sérii grafu a zadejte požadovaný typ grafu. Například,`series.setType(ChartType.Line)` změní řadu na spojnicový graf.
 
 ### Jak přizpůsobím velikost a styl značky?
 

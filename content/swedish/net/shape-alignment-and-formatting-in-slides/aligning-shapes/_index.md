@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Steg 2: Justera former i en bild
- Lägg till former på bilden och rikta in dem med hjälp av`SlideUtil.AlignShapes` metod:
+ Lägg till former på bilden och justera dem med hjälp av`SlideUtil.AlignShapes` metod:
 ```csharp
 slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 100, 100);
 slide.Shapes.AddAutoShape(ShapeType.Rectangle, 200, 200, 100, 100);
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Förbättra utan ansträngning den visuella dragningskraften hos dina presentationsbilder genom att utnyttja Aspose.Slides för .NET för att justera former. Denna steg-för-steg-guide har utrustat dig med kunskapen för att effektivisera anpassningsprocessen och skapa professionella presentationer.
 ## Vanliga frågor
 ### Kan jag justera former i en befintlig presentation med Aspose.Slides för .NET?
- Ja, du kan ladda en befintlig presentation med`Presentation.Load`och fortsätt sedan med att justera former.
+ Ja, du kan ladda en befintlig presentation med`Presentation.Load` och fortsätt sedan med att justera former.
 ### Finns det andra justeringsalternativ tillgängliga i Aspose.Slides?
 Aspose.Slides erbjuder olika justeringsalternativ, inklusive AlignTop, AlignRight, AlignBottom, AlignLeft och mer.
 ### Kan jag justera former baserat på deras fördelning i en bild?

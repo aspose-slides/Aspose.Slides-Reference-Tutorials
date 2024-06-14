@@ -21,7 +21,7 @@ To get started, import the necessary packages in your Java project:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Step 1: Set up the Presentation File
 Begin by specifying the path to your source presentation file:

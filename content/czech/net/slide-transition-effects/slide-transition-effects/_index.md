@@ -63,7 +63,7 @@ using (Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx
 
 Nyní aplikujme požadované efekty přechodu snímků na jednotlivé snímky v prezentaci. V tomto příkladu použijeme přechodové efekty Kruh a Hřeben na první dva snímky.
 
-### 2.1 Použijte kruhové a hřebenové přechody
+### 2.1 Použití kruhových a hřebenových přechodů
 
 ```csharp
 // Použít přechod typu kruh na snímek 1
@@ -108,7 +108,7 @@ tomto tutoriálu jsme prozkoumali, jak pomocí Aspose.Slides for .NET vylepšit 
    Efekty přechodu snímků jsou animace, ke kterým dochází při přesunu z jednoho snímku na jiný v prezentaci PowerPoint. Přidávají vizuální zajímavost a mohou vaši prezentaci učinit poutavější.
 
 ### Mohu upravit dobu trvání přechodových efektů snímků v Aspose.Slides?
-   Ano, dobu trvání přechodových efektů snímku můžete v Aspose.Slides přizpůsobit nastavením vlastnosti „AdvanceAfterTime“ pro každý přechod snímku.
+   Ano, dobu trvání přechodových efektů snímku v Aspose.Slides můžete přizpůsobit nastavením vlastnosti „AdvanceAfterTime“ pro každý přechod snímku.
 
 ### Jsou v Aspose.Slides pro .NET k dispozici další typy přechodů snímků?
    Ano, Aspose.Slides for .NET nabízí různé typy efektů přechodu mezi snímky, včetně vyblednutí, posunutí a dalších. Tyto možnosti můžete prozkoumat v dokumentaci.

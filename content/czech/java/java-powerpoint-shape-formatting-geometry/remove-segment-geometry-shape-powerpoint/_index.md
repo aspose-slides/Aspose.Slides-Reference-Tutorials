@@ -12,14 +12,14 @@ Chcete manipulovat s tvary v prezentacích PowerPoint pomocí Javy? Jste na spr�
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující:
 1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java: Stáhněte si knihovnu Aspose.Slides pro Java z[tady](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Stáhněte si knihovnu Aspose.Slides pro Java z[tady](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Pro psaní a spouštění kódu Java použijte IDE, jako je IntelliJ IDEA nebo Eclipse.
 4. Základní znalost Javy: Základní znalost programování v Javě vám pomůže pokračovat v tomto tutoriálu.
 ## Importujte balíčky
 Pro začátek musíme naimportovat potřebné balíčky z knihovny Aspose.Slides. Postup je následující:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Rozdělme proces odebrání segmentu z geometrického tvaru na snímku aplikace PowerPoint do několika kroků.
 ## Krok 1: Vytvořte novou prezentaci
@@ -27,7 +27,7 @@ Nejprve musíme vytvořit nový objekt prezentace. Tento objekt bude sloužit ja
 ```java
 Presentation pres = new Presentation();
 ```
-## Krok 2: Přidejte do snímku geometrický tvar
+## Krok 2: Přidejte geometrický tvar do snímku
 Dále přidejte na snímek tvar geometrie. Pro tento příklad použijeme tvar srdce.
 ```java
 GeometryShape shape = (GeometryShape) pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Heart, 100, 100, 300, 300);
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Krok 6: Uložte prezentaci
 Nakonec upravenou prezentaci uložte do souboru.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Krok 7: Vyčistěte zdroje
@@ -59,7 +59,7 @@ Vždy zajistěte vyčištění prostředků, abyste zabránili úniku paměti.
 if (pres != null) pres.dispose();
 ```
 ## Závěr
-A tady to máte! S Aspose.Slides pro Java je manipulace s tvary v prezentacích PowerPoint přímočará a efektivní. Podle kroků uvedených v tomto kurzu můžete snadno odstranit segmenty z geometrických tvarů, což vám poskytne větší kontrolu nad návrhem a funkčností vašich snímků. Šťastné kódování!
+tady to máte! S Aspose.Slides pro Java je manipulace s tvary v prezentacích PowerPoint přímočará a efektivní. Podle kroků uvedených v tomto kurzu můžete snadno odstranit segmenty z geometrických tvarů, což vám poskytne větší kontrolu nad návrhem a funkčností vašich snímků. Šťastné kódování!
 ## FAQ
 ### Co je Aspose.Slides for Java?
 Aspose.Slides for Java je výkonné API pro vytváření, úpravy a správu prezentací v PowerPointu programově.

@@ -21,7 +21,7 @@ import com.aspose.slides.IAutoShape;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -64,4 +64,4 @@ Absoluut! Met Aspose.Slides voor Java kunt u dia-indelingen manipuleren, thema's
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u kunt een gratis proefversie downloaden van de[website](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides voor Java?
- Voor technische hulp en gemeenschapsondersteuning gaat u naar de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
+ Voor technische assistentie en gemeenschapsondersteuning gaat u naar de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).

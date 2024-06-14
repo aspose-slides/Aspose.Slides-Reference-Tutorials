@@ -65,8 +65,8 @@ presentation.save(outPath, SaveFormat.Pdf, pdfOptions);
 ## Código fuente completo para convertir a PDF en diapositivas Java
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "ConvertToPDF.pptx";
-String outPath = RunExamples.getOutPath() + "ConvertToPDF-Comp.pdf";
+String presentationName = "Your Document Directory";
+String outPath = "Your Output Directory" + "ConvertToPDF-Comp.pdf";
 Presentation presentation = new Presentation(presentationName);
 try {
 	PdfOptions pdfOptions = new PdfOptions();
@@ -93,7 +93,7 @@ El uso del cumplimiento de PDF/A-2a es esencial cuando necesita archivar documen
 
 ## ¿Puedo cambiar el nivel de cumplimiento de PDF a otro que no sea PDF/A-2a?
 
- Sí, Aspose.Slides para Java brinda flexibilidad para elegir el nivel de cumplimiento de PDF. En el código proporcionado, puede cambiar el nivel de cumplimiento modificando el`pdfOptions.setCompliance()` línea. Puede elegir otros niveles de cumplimiento, como PDF/A-1a, PDF/A-1b, PDF/A-3a, etc., según sus requisitos específicos.
+ Sí, Aspose.Slides para Java brinda flexibilidad para elegir el nivel de cumplimiento de PDF. En el código proporcionado, puede cambiar el nivel de cumplimiento modificando el`pdfOptions.setCompliance()`línea. Puede elegir otros niveles de cumplimiento, como PDF/A-1a, PDF/A-1b, PDF/A-3a, etc., según sus requisitos específicos.
 
 ## ¿Cuáles son las diferencias entre PDF/A-2a y otros niveles de cumplimiento?
 
@@ -113,4 +113,4 @@ Sí, normalmente necesita una licencia válida de Aspose.Slides para Java para u
 
 ## ¿Dónde puedo encontrar más información sobre Aspose.Slides para Java y la compatibilidad con PDF?
 
- Para obtener información más detallada sobre Aspose.Slides para Java y sus características, incluida la configuración de cumplimiento de PDF, puede consultar la documentación en el[Aspose.Slides para referencia de la API de Java](https://reference.aspose.com/slides/java/)Además, puede explorar ejemplos de código y tutoriales para mejorar aún más su conocimiento de la biblioteca.
+ Para obtener información más detallada sobre Aspose.Slides para Java y sus características, incluida la configuración de cumplimiento de PDF, puede consultar la documentación en el[Aspose.Slides para referencia de la API de Java](https://reference.aspose.com/slides/java/). Además, puede explorar ejemplos de código y tutoriales para mejorar aún más su conocimiento de la biblioteca.

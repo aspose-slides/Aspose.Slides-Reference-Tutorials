@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 Başlamak için Aspose.Slides için gerekli paketleri içe aktarmanız gerekecek. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Bu bölümde PowerPoint'te şekilleri gizleme işlemini takip edilmesi kolay adımlara ayıracağız. Her adım bir başlık ve ayrıntılı bir açıklama içerir.
 ## 1. Adım: Projenizi Kurun
@@ -74,9 +74,9 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki şekille
 ### Aspose.Slides for Java nedir?
 Aspose.Slides for Java, PowerPoint dosyalarını programlı olarak değiştirmek için güçlü bir API'dir. Geliştiricilerin Microsoft PowerPoint'e ihtiyaç duymadan sunum oluşturmasına, değiştirmesine ve yönetmesine olanak tanır.
 ### Java kullanarak PowerPoint'te bir şekli nasıl gizlerim?
- Bir şekli ayarlayarak gizleyebilirsiniz.`setHidden` mülkiyet`true`Bu, şeklin alternatif metniyle tanımlanmasını ve bir slayttaki şekiller arasında döngü yapılmasını içerir.
+ Bir şekli ayarlayarak gizleyebilirsiniz.`setHidden` mülkiyet`true`. Bu, şeklin alternatif metniyle tanımlanmasını ve bir slayttaki şekiller arasında döngü yapılmasını içerir.
 ### Aspose.Slides for Java'yı diğer programlama dilleriyle birlikte kullanabilir miyim?
-Aspose.Slides; .NET, Python ve C dahil olmak üzere çeşitli programlama dilleri için mevcuttur++. Ancak bu kılavuz özellikle Java'yı kapsamaktadır.
+Aspose.Slides; .NET, Python ve C dahil olmak üzere çeşitli programlama dilleri için mevcuttur++. Ancak bu kılavuz özellikle Java'yı kapsar.
 ### Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides için nereden destek alabilirim?

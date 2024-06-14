@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## ขั้นตอนที่ 4: เพิ่มแผนภูมิวงกลม
 
 ```java
-//เพิ่มแผนภูมิวงกลมด้วยข้อมูลเริ่มต้น
+// เพิ่มแผนภูมิวงกลมด้วยข้อมูลเริ่มต้น
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## ขั้นตอนที่ 6: ปรับแต่งข้อมูลแผนภูมิ
 
 ```java
-// ตั้งค่าชุดแรกเพื่อแสดงค่า
+//ตั้งค่าชุดแรกเพื่อแสดงค่า
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // การตั้งค่าดัชนีของแผ่นข้อมูลแผนภูมิ
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // กำลังเพิ่มซีรีส์ใหม่
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//กำลังเติมข้อมูลซีรีส์
+// กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

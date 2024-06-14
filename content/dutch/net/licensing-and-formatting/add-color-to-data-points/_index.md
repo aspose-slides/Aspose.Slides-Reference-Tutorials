@@ -16,7 +16,7 @@ Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 1. Visual Studio: Visual Studio moet op uw computer zijn geïnstalleerd.
 
-2. Aspose.Slides voor .NET: Download en installeer Aspose.Slides voor .NET vanaf de[download link](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides voor .NET: Download en installeer Aspose.Slides voor .NET vanaf de[download link](https://releases.aspose.com/slides/net/).
 
 3. Een basiskennis van C#: U moet een basiskennis hebben van programmeren in C#.
 

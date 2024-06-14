@@ -20,9 +20,9 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 أولاً، قم باستيراد الحزم اللازمة للعمل مع Aspose.Slides في مشروع Java الخاص بك.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
-## الخطوة 1: إنشاء فئة العرض التقديمي
+## الخطوة 1: إنشاء مثيل لفئة العرض التقديمي
  إنشاء مثيل`Presentation`class الذي يمثل ملف PPTX الذي تعمل عليه.
 ```java
 // المسار إلى دليل المستندات.

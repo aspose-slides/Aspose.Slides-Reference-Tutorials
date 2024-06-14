@@ -68,7 +68,7 @@ seq = slide3.Timeline.MainSequence;
 foreach (IEffect effect in seq)
     effect.AfterAnimationType = AfterAnimationType.HideAfterAnimation;
 ```
-Clone o primeiro slide mais uma vez, definindo o efeito de pós-animação para “Ocultar após animação”.
+Clone o primeiro slide mais uma vez, definindo o efeito pós-animação para “Ocultar após animação”.
 ## Etapa 7: salve a apresentação modificada
 ```csharp
 pres.Save(outPath, SaveFormat.Pptx);

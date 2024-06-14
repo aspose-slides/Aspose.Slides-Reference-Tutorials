@@ -2,7 +2,7 @@
 title: Tisk prezentací s výchozí tiskárnou v Aspose.Slides
 linktitle: Tisk prezentací s výchozí tiskárnou v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Odemkněte bezproblémový tisk v PowerPointu v .NET pomocí Aspose.Slides. Pro snadnou integraci postupujte podle našeho podrobného průvodce. Vylepšete funkčnost své aplikace nyní!
+description: Odemkněte bezproblémový tisk v PowerPointu v .NET pomocí Aspose.Slides. Pro snadnou integraci postupujte podle našeho podrobného průvodce. Zvyšte funkčnost své aplikace nyní!
 type: docs
 weight: 10
 url: /cs/net/printing-and-rendering-in-slides/printing-with-default-printer/
@@ -50,4 +50,4 @@ Aspose.Slides je samozřejmě pravidelně aktualizován, aby byla zajištěna ko
 ### Jsou dočasné licence dostupné pro testovací účely?
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 ### Jak mohu vyhledat pomoc nebo se spojit s komunitou Aspose.Slides?
- Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11)klást otázky, sdílet postřehy a spojit se s ostatními vývojáři.
+ Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) klást otázky, sdílet postřehy a spojit se s ostatními vývojáři.

@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте каталог документов.
 Определите путь к каталогу документов, в котором находится презентация PowerPoint:

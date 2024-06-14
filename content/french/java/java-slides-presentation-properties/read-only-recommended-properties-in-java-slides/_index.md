@@ -21,7 +21,7 @@ Dans ce didacticiel, nous allons explorer comment activer les propriétés recom
 Nous allons commencer par créer une nouvelle présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Si vous avez déjà une présentation, vous pouvez ignorer cette étape.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Enfin, nous enregistrons la présentation avec la propriété Lecture seule reco
 ## Code source complet pour les propriétés recommandées en lecture seule dans les diapositives Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

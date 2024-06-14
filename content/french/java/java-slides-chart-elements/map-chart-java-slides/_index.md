@@ -49,7 +49,7 @@ series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B3", 1));
 series.getDataPoints().addDataPointForMapSeries(wb.getCell(0, "B4", 10));
 ```
 
-## Étape 5 : Ajouter des catégories
+## Étape 5 : ajouter des catégories
 
 Nous devons ajouter des catégories à la carte, représentant différentes régions géographiques.
 
@@ -83,7 +83,7 @@ C'est ça! Vous avez créé un graphique cartographique dans une présentation P
 ## Code source complet pour le graphique cartographique dans les diapositives Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//créer un graphique vide

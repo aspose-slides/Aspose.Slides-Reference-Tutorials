@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Para exibir porcentagens, precisamos configurar o formato numérico do eixo vertical do gráfico.
 
 ```java
-//Defina NumberFormatLinkedToSource como falso
+// Defina NumberFormatLinkedToSource como falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -103,7 +103,7 @@ Finalmente, salvamos a apresentação em um arquivo PowerPoint.
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-É isso! Você criou com êxito uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando Aspose.Slides para Java.
+É isso! Você criou com sucesso uma apresentação do PowerPoint com um gráfico de colunas empilhadas e configurou rótulos de dados para exibir porcentagens usando Aspose.Slides para Java.
 
 ## Código-fonte completo para definir sinal de porcentagem de rótulos de dados em slides Java
 
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Adicionar gráfico PercentsStackedColumn em um slide
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Defina NumberFormatLinkedToSource como falso
+// Defina NumberFormatLinkedToSource como falso
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Seguindo este guia, você aprendeu como criar apresentações envolventes com r�
 
 ### Posso personalizar o tamanho da fonte dos rótulos de dados?
 
- Sim, você pode personalizar o tamanho da fonte dos rótulos de dados definindo o`setFontHeight` propriedade conforme demonstrado no código.
+Sim, você pode personalizar o tamanho da fonte dos rótulos de dados definindo o`setFontHeight` propriedade conforme demonstrado no código.
 
 ### Como posso adicionar mais séries ao gráfico?
 

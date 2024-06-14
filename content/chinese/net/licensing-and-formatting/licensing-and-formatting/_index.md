@@ -14,7 +14,7 @@ url: /zh/net/licensing-and-formatting/licensing-and-formatting/
 
 在我们深入研究许可流程之前，您应该满足以下先决条件：
 
-1.  Aspose.Slides for .NET：确保您已在开发环境中安装了 Aspose.Slides for .NET。您可以从[下载链接](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET：确保您已在开发环境中安装了 Aspose.Slides for .NET。您可以从[下载链接](https://releases.aspose.com/slides/net/).
 
 2. 许可证文件：获取有效的 Aspose.Slides 许可证文件，通常名为“Aspose.Slides.lic”。您可以从[Aspose 网站](https://purchase.aspose.com/buy)或请求[临时执照](https://purchase.aspose.com/temporary-license/)用于评估目的。
 

@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 string resultPath = Path.Combine(dataDir, "GeometryShapeCompositeObjects.pptx");
 ```
-V tomto kroku inicializujeme prostředí nastavením adresáře a cesty k výsledku pro naši prezentaci.
+tomto kroku inicializujeme prostředí nastavením adresáře a cesty k výsledku pro naši prezentaci.
 ## Krok 2: Vytvořte prezentaci a geometrický tvar
 ```csharp
 using (Presentation pres = new Presentation())

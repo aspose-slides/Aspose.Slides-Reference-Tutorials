@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Για να εμφανίσουμε ποσοστά, πρέπει να διαμορφώσουμε τη μορφή αριθμών για τον κατακόρυφο άξονα του γραφήματος.
 
 ```java
-//Ορίστε το NumberFormatLinkedToSource σε false
+// Ορίστε το NumberFormatLinkedToSource σε false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Προσθήκη γραφήματος PercentsStackedColumn σε μια διαφάνεια
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Ορίστε το NumberFormatLinkedToSource σε false
+// Ορίστε το NumberFormatLinkedToSource σε false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ### Μπορώ να προσαρμόσω το μέγεθος γραμματοσειράς των ετικετών δεδομένων;
 
- Ναι, μπορείτε να προσαρμόσετε το μέγεθος γραμματοσειράς των ετικετών δεδομένων ορίζοντας το`setFontHeight` ιδιοκτησία όπως φαίνεται στον κώδικα.
+Ναι, μπορείτε να προσαρμόσετε το μέγεθος γραμματοσειράς των ετικετών δεδομένων ορίζοντας το`setFontHeight` ιδιοκτησία όπως φαίνεται στον κώδικα.
 
 ### Πώς μπορώ να προσθέσω περισσότερες σειρές στο γράφημα;
 

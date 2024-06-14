@@ -130,4 +130,4 @@ Aspose.Slides ライブラリを Java プロジェクトに含めるには、ラ
 
 ### Aspose.Slides for Java のドキュメントにはどこでアクセスできますか?
 
- Aspose.Slides for Javaのドキュメントは以下からアクセスできます。[ここ](https://reference.aspose.com/slides/java/).
+Aspose.Slides for Javaのドキュメントは以下からアクセスできます。[ここ](https://reference.aspose.com/slides/java/).

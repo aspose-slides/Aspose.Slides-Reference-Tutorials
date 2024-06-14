@@ -12,14 +12,14 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 1.  Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Javaライブラリ:最新バージョンをダウンロード[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/slides/java/).
+2. Aspose.Slides for Javaライブラリ:最新バージョンをダウンロード[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/slides/java/).
 3. 統合開発環境 (IDE): コーディングには IntelliJ IDEA や Eclipse などの IDE を使用します。
 4. プレゼンテーション ファイル: 操作する PowerPoint ファイルを用意します。
 ## パッケージのインポート
 開始するには、Aspose.Slides ライブラリから必要なパッケージをインポートする必要があります。これらのインポートにより、プレゼンテーション、スライド、および図形を操作できるようになります。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 このガイドでは、理解を深め、実装を容易にするために、シェイプの順序を変更するプロセスをいくつかのステップに分割します。
 ## ステップ1: プレゼンテーションを読み込む

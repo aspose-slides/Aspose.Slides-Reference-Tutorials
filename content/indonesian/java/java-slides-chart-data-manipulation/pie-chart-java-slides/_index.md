@@ -49,7 +49,7 @@ Dapatkan slide pertama presentasi di mana Anda ingin menambahkan Diagram Lingkar
 ## Langkah 4: Tambahkan Diagram Lingkaran
 
 ```java
-//Tambahkan diagram lingkaran dengan data default
+// Tambahkan diagram lingkaran dengan data default
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Tetapkan judul untuk Diagram Lingkaran. Anda dapat menyesuaikan judul sesuai keb
 ## Langkah 6: Sesuaikan Data Bagan
 
 ```java
-// Atur rangkaian pertama untuk menampilkan nilai
+//Atur rangkaian pertama untuk menampilkan nilai
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Mengatur indeks lembar data grafik
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Menambahkan seri baru
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Sekarang mengisi data seri
+// Sekarang mengisi data seri
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

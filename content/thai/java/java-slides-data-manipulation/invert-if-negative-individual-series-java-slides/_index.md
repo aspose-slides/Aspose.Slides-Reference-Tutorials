@@ -130,4 +130,4 @@ finally
 
 ### ฉันจะเข้าถึงเอกสาร Aspose.Slides สำหรับ Java ได้ที่ไหน
 
- คุณสามารถเข้าถึงเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/).
+คุณสามารถเข้าถึงเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/).

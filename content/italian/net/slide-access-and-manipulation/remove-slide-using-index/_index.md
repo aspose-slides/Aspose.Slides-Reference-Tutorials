@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Una volta cancellate le diapositive desiderate, è necessario salvare la presentazione modificata:
 
 ```csharp
-// Salva la presentazione modificata
+//Salva la presentazione modificata
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

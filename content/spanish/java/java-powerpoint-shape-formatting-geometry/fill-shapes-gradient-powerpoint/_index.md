@@ -11,7 +11,7 @@ url: /es/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Crear presentaciones de PowerPoint visualmente atractivas es crucial para cautivar a su audiencia. Una de las formas efectivas de mejorar tus diapositivas es rellenar formas con degradados. Este tutorial lo guiará a través del proceso de uso de Aspose.Slides para Java para rellenar formas con degradados en PowerPoint. Si es un desarrollador experimentado o recién está comenzando, esta guía le resultará útil y fácil de seguir. Sumerjámonos en el mundo de los degradados y veamos cómo pueden transformar sus presentaciones.
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener lo siguiente:
--  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado. Puedes descargarlo desde el[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides para Java: descargue la última versión desde[aquí](https://releases.aspose.com/slides/java/).
 - Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA o Eclipse hará que su experiencia de codificación sea más fluida.
 - Conocimientos básicos de Java: la familiaridad con la programación Java es esencial.
@@ -19,7 +19,7 @@ Antes de comenzar, asegúrese de tener lo siguiente:
 Para comenzar con Aspose.Slides, necesita importar los paquetes necesarios. Asegúrese de haber agregado Aspose.Slides para Java a las dependencias de su proyecto.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

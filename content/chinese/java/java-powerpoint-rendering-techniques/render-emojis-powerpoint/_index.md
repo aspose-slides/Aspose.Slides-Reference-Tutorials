@@ -12,7 +12,7 @@ url: /zh/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ## 先决条件
 在开始之前，请确保您满足以下先决条件：
 1. Java 开发工具包 (JDK)：确保您的系统上已安装 JDK。
-2. Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载链接](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载链接](https://releases.aspose.com/slides/java/).
 3. 开发环境：设置您喜欢的 Java 开发环境。
 
 ## 导入包
@@ -20,7 +20,7 @@ url: /zh/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：准备数据目录
 创建一个目录来存储您的 PowerPoint 文件和其他资源。我们将其命名为`dataDir`.

@@ -68,5 +68,5 @@ Tối ưu hóa các tùy chọn kết xuất trong Aspose.Slides cho .NET cung c
 Trả lời: Có, hãy khám phá tài liệu Aspose.Slides để biết danh sách đầy đủ các tùy chọn bố cục.
 ### Hỏi: Tôi có thể sử dụng phông chữ tùy chỉnh chưa được cài đặt trên hệ thống của mình không?
  A: Có, chỉ định đường dẫn tệp phông chữ bằng cách sử dụng`AddFonts` phương pháp trong`FontsLoader` lớp học.
-### Hỏi: Tôi có thể tìm kiếm sự giúp đỡ hoặc kết nối với cộng đồng ở đâu?
-Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ và tham gia cộng đồng.
+### Hỏi: Tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng ở đâu?
+ Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ và tham gia cộng đồng.

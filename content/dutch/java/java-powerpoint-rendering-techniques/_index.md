@@ -14,7 +14,7 @@ PowerPoint-presentaties zijn een belangrijk onderdeel in verschillende professio
 
 ## Geef opmerkingen weer in PowerPoint
 
- Opmerkingen in PowerPoint kunnen waardevolle context en feedback bieden, waardoor de samenwerking effectiever wordt. Met Aspose.Slides voor Java kunt u deze opmerkingen weergeven en hun uiterlijk aanpassen, zodat ze zichtbaar en gemakkelijk te begrijpen zijn. De tutorial[Geef opmerkingen weer in PowerPoint](./render-comments-powerpoint/) begeleidt u bij de stappen om efficiënt voorbeeldafbeeldingen van opmerkingen te genereren. Deze functie is met name handig voor het beoordelen en delen van presentaties met teams.
+ Opmerkingen in PowerPoint kunnen waardevolle context en feedback bieden, waardoor de samenwerking effectiever wordt. Met Aspose.Slides voor Java kunt u deze opmerkingen weergeven en hun uiterlijk aanpassen, zodat ze zichtbaar en gemakkelijk te begrijpen zijn. De tutorial[Geef opmerkingen weer in PowerPoint](./render-comments-powerpoint/) begeleidt u bij de stappen voor het efficiënt genereren van afbeeldingsvoorbeelden van opmerkingen. Deze functie is met name handig voor het beoordelen en delen van presentaties met teams.
 
 ## 3D-weergave in PowerPoint
 

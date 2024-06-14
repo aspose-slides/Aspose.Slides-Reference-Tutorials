@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
 ## Wstęp
-Tworzenie atrakcyjnych wizualnie slajdów prezentacyjnych często wymaga precyzyjnego dopasowania kształtów. Aspose.Slides dla .NET zapewnia potężne rozwiązanie umożliwiające łatwe osiągnięcie tego celu. W tym samouczku przyjrzymy się, jak wyrównywać kształty na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
+Tworzenie atrakcyjnych wizualnie slajdów prezentacyjnych często wymaga precyzyjnego dopasowania kształtów. Aspose.Slides dla .NET zapewnia potężne rozwiązanie umożliwiające łatwe osiągnięcie tego celu. W tym samouczku omówimy, jak wyrównywać kształty na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 -  Biblioteka Aspose.Slides dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Slides dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/slides/net/).
@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Bez wysiłku zwiększ atrakcyjność wizualną slajdów prezentacji, wykorzystując Aspose.Slides dla .NET do precyzyjnego wyrównywania kształtów. Ten przewodnik krok po kroku zapewnił Ci wiedzę niezbędną do usprawnienia procesu wyrównywania i tworzenia profesjonalnie wyglądających prezentacji.
 ## Często zadawane pytania
 ### Czy mogę wyrównywać kształty w istniejącej prezentacji za pomocą Aspose.Slides dla .NET?
- Tak, możesz załadować istniejącą prezentację za pomocą`Presentation.Load` następnie przystąp do wyrównywania kształtów.
+ Tak, możesz załadować istniejącą prezentację za pomocą`Presentation.Load` a następnie przystąp do wyrównywania kształtów.
 ### Czy w Aspose.Slides dostępne są inne opcje wyrównywania?
 Aspose.Slides oferuje różne opcje wyrównywania, w tym AlignTop, AlignRight, AlignBottom, AlignLeft i inne.
 ### Czy mogę wyrównywać kształty na podstawie ich rozmieszczenia na slajdzie?

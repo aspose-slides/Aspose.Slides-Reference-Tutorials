@@ -18,7 +18,7 @@ url: /ja/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoi
 まず、必要なパッケージを Java プロジェクトにインポートする必要があります。これらのパッケージは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを操作するために必要な機能を提供します。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: プレゼンテーションを読み込む
 まず、複製したい図形を含むPowerPointプレゼンテーションを読み込む必要があります。`Presentation`ソースプレゼンテーションをロードするクラス。

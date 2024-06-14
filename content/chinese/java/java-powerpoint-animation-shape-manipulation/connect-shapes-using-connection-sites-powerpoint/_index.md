@@ -12,14 +12,14 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 ## 先决条件
 在开始之前，请确保您已准备好以下物品：
 1.  Java 开发工具包 (JDK)：确保您的系统上已安装 Java。您可以从[网站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-2. Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载页面](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：从以下网站下载并安装 Aspose.Slides for Java[下载页面](https://releases.aspose.com/slides/java/).
 3. 集成开发环境 (IDE)：选择一个用于 Java 开发的 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
 
 ## 导入包
 首先，将必要的包导入到你的 Java 项目中：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：访问 Shapes 集合
 访问所选幻灯片的形状集合：

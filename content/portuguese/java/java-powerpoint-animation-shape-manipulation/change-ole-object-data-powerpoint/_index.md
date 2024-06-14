@@ -13,16 +13,16 @@ Alterar dados de objetos OLE em apresentações do PowerPoint pode ser uma taref
 Antes de nos aprofundarmos no código, vamos garantir que você tenha tudo o que precisa para começar.
 1.  Java Development Kit (JDK): Certifique-se de ter o JDK instalado em seu sistema. Você pode baixá-lo em[Site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides para Java: Baixe a versão mais recente do[Página de download do Aspose.Slides](https://releases.aspose.com/slides/java/).
-3. Ambiente de Desenvolvimento Integrado (IDE): Você pode usar qualquer IDE Java, como IntelliJ IDEA, Eclipse ou NetBeans.
+3. Ambiente de desenvolvimento integrado (IDE): você pode usar qualquer IDE Java, como IntelliJ IDEA, Eclipse ou NetBeans.
 4.  Aspose.Cells for Java: Isso é necessário para modificar os dados incorporados no objeto OLE. Baixe em[Página de download do Aspose.Cells](https://releases.aspose.com/cells/java/).
-5. Arquivo de apresentação: tenha um arquivo PowerPoint pronto com um objeto OLE incorporado. Para este tutorial, vamos nomeá-lo`ChangeOLEObjectData.pptx`.
+5.  Arquivo de apresentação: tenha um arquivo PowerPoint pronto com um objeto OLE incorporado. Para este tutorial, vamos nomeá-lo`ChangeOLEObjectData.pptx`.
 ## Importar pacotes
 Primeiro, vamos importar os pacotes necessários para o seu projeto Java.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```

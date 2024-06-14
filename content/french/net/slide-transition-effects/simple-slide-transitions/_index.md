@@ -40,7 +40,7 @@ Une fois les prérequis nécessaires en place, passons au cœur de ce didacticie
 
 Nous montrerons comment appliquer deux types de transitions – « Cercle » et « Peigne » – à des diapositives individuelles de votre présentation. Ces transitions peuvent ajouter une touche dynamique à vos diapositives.
 
-### Étape 2 : Instancier la classe de présentation
+### Étape 2 : Instancier un cours de présentation
 
 Avant d'appliquer des transitions de diapositives, vous devez charger votre présentation à l'aide de la classe Présentation.
 
@@ -64,7 +64,7 @@ pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
 
 Cet extrait de code applique la transition de type "Cercle" à la première diapositive (index 0) de votre présentation.
 
-#### Étape 5 : Appliquer la transition du type de peigne
+#### Étape 5 : Appliquer la transition de type de peigne
 
 ```csharp
 pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
@@ -88,7 +88,7 @@ Dans ce didacticiel, vous avez appris à utiliser Aspose.Slides pour .NET pour c
 
  En appliquant des transitions telles que « Cercle » et « Peigne », vous pouvez donner vie à vos diapositives et rendre vos présentations plus attrayantes. N'oubliez pas d'explorer le[Documentation](https://reference.aspose.com/slides/net/) pour plus de détails et de fonctionnalités d’Aspose.Slides pour .NET.
 
-Vous avez des questions ou besoin d'aide supplémentaire ? Consultez le forum de la communauté Aspose.Slides[ici](https://forum.aspose.com/).
+ Vous avez des questions ou besoin d'aide supplémentaire ? Consultez le forum de la communauté Aspose.Slides[ici](https://forum.aspose.com/).
 
 ## FAQ
 

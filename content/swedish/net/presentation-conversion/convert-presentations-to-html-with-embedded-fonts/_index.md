@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation(dataDir + "presentation.pptx"))
 }
 ```
 
-## Steg 3: Uteslut standardteckensnitt för presentationer
+## Steg 3: Exkludera standardteckensnitt för presentationer
 
 I det här steget kan du ange alla standardpresentationsfonter som du vill utesluta från inbäddning. Detta kan hjälpa till att optimera storleken på den resulterande HTML-filen.
 

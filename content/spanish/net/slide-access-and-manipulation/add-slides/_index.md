@@ -44,7 +44,7 @@ using Presentation presentation = new Presentation("path_to_existing_presentatio
 
  Reemplazar`"path_to_existing_presentation.pptx"` con la ruta real a su archivo de presentación existente.
 
-## Paso 4: crear nuevas diapositivas
+## Paso 4: crea nuevas diapositivas
 
 A continuación, creemos nuevas diapositivas que desea insertar en la presentación. Puede personalizar el contenido y el diseño de estas diapositivas según sus requisitos.
 
@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Después de insertar las diapositivas adicionales, debes guardar la presentación modificada.
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Reemplazar`"path_to_modified_presentation.pptx"` con la ruta y el nombre de archivo deseados para la presentación modificada.
+ Reemplazar`"path_to_modified_presentation.pptx"`con la ruta y el nombre de archivo deseados para la presentación modificada.
 
 ## Conclusión
 
@@ -98,7 +98,7 @@ Puede personalizar el contenido de las nuevas diapositivas accediendo a sus form
 
 ### ¿Qué pasa si quiero insertar diapositivas al comienzo de la presentación?
 
- Para insertar diapositivas al comienzo de la presentación, configure el`insertionIndex` a`0`.
+Para insertar diapositivas al comienzo de la presentación, configure el`insertionIndex` a`0`.
 
 ### ¿Es posible modificar el diseño de las diapositivas insertadas?
 

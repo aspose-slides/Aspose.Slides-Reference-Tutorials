@@ -74,6 +74,6 @@ Kesinlikle! Aspose.Slides, özel tasarım gereksinimlerinizi karşılamak üzere
 ### Daha fazla öğreticiyi ve örneği nerede bulabilirim?
  Aspose.Slides belgelerini inceleyin[Burada](https://reference.aspose.com/slides/net/) Kapsamlı eğitimler ve örnekler için.
 ### Ücretsiz deneme mevcut mu?
- Evet, Aspose.Slides'ın ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Slides'ın ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Sorunla karşılaşırsam nasıl destek alabilirim?
  Aspose.Slides forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11) Toplumsal destek ve yardım için.

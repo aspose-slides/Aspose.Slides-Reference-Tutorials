@@ -75,7 +75,7 @@ Artık Aspose.Slides for Java'yı kullanarak PowerPoint sunumunuzdaki harici ça
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ Bu kapsamlı kılavuzda, Aspose.Slides for Java kullanarak PowerPoint sunumları
 
 ### Farklı bir grafiği veya slaytı nasıl belirlerim?
 
- Farklı bir grafiğe veya slayda erişmek için uygun dizini değiştirin.`getSlides().get_Item()` Ve`getShapes().get_Item()` yöntemler. İndekslemenin 0'dan başladığını unutmayın.
+ Farklı bir grafiğe veya slayda erişmek için uygun dizini değiştirin.`getSlides().get_Item()` Ve`getShapes().get_Item()`yöntemler. İndekslemenin 0'dan başladığını unutmayın.
 
 ### Aynı sunumda birden fazla grafikteki verileri düzenleyebilir miyim?
 

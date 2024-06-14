@@ -36,7 +36,7 @@ Presentation pres = new Presentation(dataDir + "testc.pptx");
 ISlide slide = pres.getSlides().get_Item(0);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a PowerPoint bemutatófájl tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` a PowerPoint bemutatófájl tényleges elérési útjával.
 
 ## 3. lépés: Hozzon létre egy fánkdiagramot
 
@@ -97,7 +97,7 @@ Végül ne felejtse el menteni a prezentációt a Donut Callout hozzáadása ut�
 pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ```
 
- Ügyeljen arra, hogy cserélje ki`"chart.pptx"` a kívánt fájlnévvel.
+ Mindenképpen cserélje ki`"chart.pptx"` a kívánt fájlnévvel.
 
 Gratulálunk! Sikeresen hozzáadott egy Donut Calloutot egy Java diához az Aspose.Slides for Java segítségével. Most már futtathatja a Java-alkalmazást a PowerPoint prezentáció létrehozásához a Donut diagrammal és a kiemeléssel.
 
@@ -179,4 +179,4 @@ Igen, annyi adatpontot adhat hozzá a Donut diagramhoz, amennyi szükséges. Egy
 
 ### Hogyan állíthatom be a fánk diagram helyzetét és méretét a dián?
 
-Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.
+ Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.

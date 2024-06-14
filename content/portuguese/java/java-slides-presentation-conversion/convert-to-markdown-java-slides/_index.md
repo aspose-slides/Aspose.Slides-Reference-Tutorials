@@ -68,7 +68,7 @@ mdOptions.setBasePath(outPath);
 
 Você pode ajustar essas opções de acordo com suas necessidades.
 
-## Etapa 4: converter apresentação em Markdown
+## Etapa 4: converter a apresentação em Markdown
 
 Agora, vamos converter a apresentação carregada para o formato Markdown e salvá-la.
 
@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Caminho para apresentação de origem
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Caminho e nome da pasta para salvar dados de remarcação
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Criar opções de criação de Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Defina o parâmetro para renderizar todos os itens (os itens agrupados serão renderizados juntos).
@@ -113,7 +113,7 @@ try {
 
 ## Conclusão
 
-conversão de apresentações para o formato Markdown abre novas possibilidades para compartilhar seu conteúdo online. Com Aspose.Slides for Java, esse processo se torna direto e eficiente. Seguindo as etapas descritas neste guia, você pode converter facilmente suas apresentações e aprimorar seu fluxo de trabalho de criação de conteúdo da web.
+conversão de apresentações para o formato Markdown abre novas possibilidades para compartilhar seu conteúdo online. Com Aspose.Slides for Java, esse processo se torna simples e eficiente. Seguindo as etapas descritas neste guia, você pode converter facilmente suas apresentações e aprimorar seu fluxo de trabalho de criação de conteúdo da web.
 
 ## Perguntas frequentes
 

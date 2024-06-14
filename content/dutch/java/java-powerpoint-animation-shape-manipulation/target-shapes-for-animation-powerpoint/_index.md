@@ -8,7 +8,7 @@ weight: 11
 url: /nl/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
 ## Invoering
-In de wereld van dynamische presentaties spelen animaties een cruciale rol bij het betrekken van het publiek en het effectief overbrengen van informatie. Aspose.Slides voor Java stelt ontwikkelaars in staat boeiende PowerPoint-presentaties te maken met ingewikkelde animaties die zijn afgestemd op specifieke vormen. Deze tutorial leidt u door het proces van het targeten van vormen voor animatie met behulp van Aspose.Slides voor Java, zodat uw presentaties opvallen met vloeiende overgangen en nauwkeurige animaties.
+In de wereld van dynamische presentaties spelen animaties een cruciale rol bij het betrekken van het publiek en het effectief overbrengen van informatie. Aspose.Slides voor Java stelt ontwikkelaars in staat boeiende PowerPoint-presentaties te maken met ingewikkelde animaties die zijn afgestemd op specifieke vormen. Deze tutorial leidt u door het proces van het targeten van vormen voor animatie met Aspose.Slides voor Java, zodat uw presentaties opvallen met vloeiende overgangen en nauwkeurige animaties.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
@@ -21,7 +21,7 @@ Importeer om te beginnen de benodigde pakketten in uw Java-project:
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Stel het presentatiebestand in
 Begin met het opgeven van het pad naar uw bronpresentatiebestand:

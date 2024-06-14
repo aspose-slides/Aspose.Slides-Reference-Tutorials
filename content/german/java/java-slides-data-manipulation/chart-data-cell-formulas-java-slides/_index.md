@@ -21,7 +21,7 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java mit Diagram
 Lassen Sie uns zunächst eine neue PowerPoint-Präsentation erstellen und ihr ein Diagramm hinzufügen.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Vollständiger Quellcode für Diagrammdatenzellenformeln in Java-Folien
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

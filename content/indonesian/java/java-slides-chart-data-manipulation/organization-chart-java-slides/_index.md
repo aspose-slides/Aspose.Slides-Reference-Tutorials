@@ -22,7 +22,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 ## Langkah 1: Siapkan Proyek Java Anda
 
 1. Buat proyek Java baru di IDE pilihan Anda.
-2.  Tambahkan perpustakaan Aspose.Slides untuk Java ke proyek Anda. Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://products.aspose.com/slides/java)dan memasukkannya sebagai ketergantungan.
+2.  Tambahkan perpustakaan Aspose.Slides untuk Java ke proyek Anda. Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://products.aspose.com/slides/java) dan memasukkannya sebagai ketergantungan.
 
 ## Langkah 2: Impor Perpustakaan yang Diperlukan
 Di kelas Java Anda, impor perpustakaan yang diperlukan untuk bekerja dengan Aspose.Slides:

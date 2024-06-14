@@ -83,7 +83,7 @@ Itu dia! Anda telah membuat bagan peta dalam presentasi PowerPoint menggunakan A
 ## Kode Sumber Lengkap Untuk Bagan Peta di Slide Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//membuat grafik kosong

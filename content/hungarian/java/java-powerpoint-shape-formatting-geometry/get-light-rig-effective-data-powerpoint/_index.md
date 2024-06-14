@@ -1,6 +1,6 @@
 ---
-title: Get Light Rig hatékony adatok a PowerPointban
-linktitle: Get Light Rig hatékony adatok a PowerPointban
+title: Get Light Rig hatékony adatokat a PowerPointban
+linktitle: Get Light Rig hatékony adatokat a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, hogyan lehet lekérni a Light rig hatékony adatokat a PowerPoint-prezentációkból az Aspose.Slides for Java segítségével.
 type: docs
@@ -8,7 +8,7 @@ weight: 25
 url: /hu/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
 ## Bevezetés
-Szeretné automatizálni PowerPoint prezentációs feladatait Java használatával? Ne keressen tovább! Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft PowerPoint telepítése nélkül hozzanak létre, kezeljenek és konvertáljanak PowerPoint fájlokat. Ebben az átfogó útmutatóban végigvezetjük az Aspose.Slides for Java segítségével, hogy hatékony adatokat kapjon a PowerPoint prezentációból. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ez az oktatóanyag segít az Aspose.Slides-ben rejlő lehetőségek teljes kihasználásában projektjei során.
+Szeretné automatizálni PowerPoint prezentációs feladatait Java használatával? Ne keressen tovább! Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy a Microsoft PowerPoint telepítése nélkül hozzanak létre, kezeljenek és konvertáljanak PowerPoint fájlokat. Ebben az átfogó útmutatóban végigvezetjük az Aspose.Slides for Java segítségével, hogy hatékony adatokat kapjon a PowerPoint prezentációból. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ez az oktatóanyag segít az Aspose.Slides teljes potenciáljának kiaknázásában projektjei során.
 ## Előfeltételek
 Mielőtt belemerülne a kódba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK 8 vagy újabb verziója van telepítve a rendszerére.
@@ -20,7 +20,7 @@ Először állítsuk be projektünket és importáljuk a szükséges csomagokat.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be a projektkönyvtárat
 Kezdje a projektkönyvtár beállításával. Hozzon létre egy mappát, ahol a Java fájlokat és a PowerPoint bemutatót tárolja (`Presentation1.pptx`).

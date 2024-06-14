@@ -22,7 +22,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 ## 1. lépés: Állítsa be Java projektjét
 
 1. Hozzon létre egy új Java-projektet a kívánt IDE-ben.
-2.  Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez. A könyvtár letölthető a[Aspose honlapja](https://products.aspose.com/slides/java)és szerepeltesse függőségként.
+2.  Adja hozzá az Aspose.Slides for Java könyvtárat a projekthez. A könyvtár letölthető a[Aspose honlapja](https://products.aspose.com/slides/java) és függőségként szerepeltesse.
 
 ## 2. lépés: Importálja a szükséges könyvtárakat
 Java osztályában importálja a szükséges könyvtárakat az Aspose.Slides használatához:
@@ -98,7 +98,7 @@ Igen, további alakzatokat, szöveget és csatlakozókat is hozzáadhat a szerve
 
 ### Hogyan exportálhatom a szervezeti diagramot más formátumokba, például PDF- vagy képformátumba?
 
- A szervezeti diagramot tartalmazó prezentációt az Aspose.Slides segítségével különféle formátumokba exportálhatja. Például PDF formátumba exportálásához használja a`SaveFormat.Pdf` opciót a prezentáció mentésekor. Hasonlóképpen exportálhat képformátumokba, például PNG vagy JPEG.
+ A szervezeti diagramot tartalmazó prezentációt az Aspose.Slides segítségével különféle formátumokba exportálhatja. Például PDF-be való exportáláshoz használja a`SaveFormat.Pdf` opciót a prezentáció mentésekor. Hasonlóképpen exportálhat képformátumokba, például PNG vagy JPEG.
 
 ### Lehetséges összetett, többszintű szervezeti struktúrák létrehozása?
 

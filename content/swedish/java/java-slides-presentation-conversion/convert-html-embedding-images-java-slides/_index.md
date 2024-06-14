@@ -48,9 +48,9 @@ Nu ska du konfigurera HTML-konverteringsalternativen. I det här exemplet kommer
 
 ```java
 Html5Options options = new Html5Options();
-//Tvinga spara inte bilder i HTML5-dokument
+// Tvinga spara inte bilder i HTML5-dokument
 options.setEmbedImages(true); // Ställ in på sann för att bädda in bilder
-// Ställ in sökvägen för externa bilder (om det behövs)
+//Ställ in sökvägen för externa bilder (om det behövs)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Presentation av väg till källa
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Sökväg till HTML-dokument
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Tvinga spara inte bilder i HTML5-dokument
+	// Tvinga spara inte bilder i HTML5-dokument
 	options.setEmbedImages(false);
 	// Ange sökväg för externa bilder
 	options.setOutputPath(outFilePath);
@@ -110,7 +110,7 @@ try {
 
 ## Slutsats
 
-den här omfattande guiden har vi lärt oss hur du konverterar en PowerPoint-presentation till ett HTML-dokument samtidigt som du bäddar in bilder med Aspose.Slides för Java. Genom att följa steg-för-steg-instruktionerna kan du sömlöst integrera denna funktion i dina Java-applikationer och förbättra dina dokumentkonverteringsprocesser.
+I den här omfattande guiden har vi lärt oss hur du konverterar en PowerPoint-presentation till ett HTML-dokument samtidigt som du bäddar in bilder med Aspose.Slides för Java. Genom att följa steg-för-steg-instruktionerna kan du sömlöst integrera denna funktion i dina Java-applikationer och förbättra dina dokumentkonverteringsprocesser.
 
 ## FAQ's
 

@@ -12,7 +12,7 @@ url: /ko/net/slide-access-and-manipulation/add-slides/
 
 .NET의 강력한 기능을 사용하여 프로그래밍 방식으로 추가 슬라이드를 추가하여 PowerPoint 프레젠테이션을 향상시키려는 경우 Aspose.Slides for .NET이 효율적인 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에 추가 슬라이드를 삽입하는 과정을 안내합니다. 이를 원활하게 수행하는 데 도움이 되는 포괄적인 코드 예제와 설명을 찾을 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 추가 슬라이드를 삽입한 후 수정된 프레젠테이션을 저장해야 합니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- 바꾸다`"path_to_modified_presentation.pptx"` 수정된 프리젠테이션에 대해 원하는 경로와 파일 이름을 사용합니다.
+ 바꾸다`"path_to_modified_presentation.pptx"`수정된 프리젠테이션에 대해 원하는 경로와 파일 이름을 사용합니다.
 
 ## 결론
 
@@ -98,7 +98,7 @@ Aspose.Slides' API를 사용하여 모양과 속성에 액세스하여 새 슬�
 
 ### 프레젠테이션 시작 부분에 슬라이드를 삽입하려면 어떻게 해야 하나요?
 
- 프레젠테이션 시작 부분에 슬라이드를 삽입하려면`insertionIndex` 에게`0`.
+프레젠테이션 시작 부분에 슬라이드를 삽입하려면`insertionIndex` 에게`0`.
 
 ### 삽입된 슬라이드의 레이아웃을 수정할 수 있나요?
 

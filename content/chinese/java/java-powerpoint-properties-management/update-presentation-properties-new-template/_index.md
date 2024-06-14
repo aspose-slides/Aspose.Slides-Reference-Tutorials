@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：定义主要方法
 创建一个主方法，您将在其中启动使用新模板更新演示属性的过程。此方法可作为 Java 应用程序的入口点。

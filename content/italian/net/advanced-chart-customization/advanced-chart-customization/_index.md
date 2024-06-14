@@ -197,7 +197,7 @@ Questo codice configura l'aspetto delle principali linee della griglia sull'asse
 Analogamente all'asse dei valori, puoi personalizzare le linee della griglia minori per l'asse delle categorie.
 
 ```csharp
-//Impostazione del formato delle linee della griglia secondarie per l'asse delle categorie
+// Impostazione del formato delle linee della griglia secondarie per l'asse delle categorie
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Impostazione del colore dell'area del tracciato
+//Impostazione del colore dell'area del tracciato
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

@@ -23,7 +23,7 @@ Innan vi dyker in i implementeringen, se till att du har följande förutsättni
 ## Steg 1: Skapa en presentation
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ Vi rensar alla befintliga data från diagrammet för att förbereda det för nya
 ## Steg 4: Ladda Excel-arbetsbok
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  Vi laddar Excel-arbetsboken som innehåller de data vi vill använda för diagrammet. Byta ut`"book1.xlsx"` med sökvägen till din Excel-fil.
@@ -62,7 +62,7 @@ mem.flush();
 chart.getChartData().writeWorkbookStream(mem.toByteArray());
 ```
 
-Vi konverterar Excel-arbetsboksdata till en ström och skriver den till diagramdata.
+Vi konverterar Excel-arbetsboksdata till en ström och skriver dem till diagramdata.
 
 ## Steg 6: Ställ in diagramdataintervall
 
@@ -92,14 +92,14 @@ Slutligen sparar vi presentationen med uppdaterade diagramdata till den angivna 
 ## Komplett källkod för uppsättning diagramdata från arbetsbok i Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}
@@ -119,7 +119,7 @@ try {
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man ställer in diagramdata från en Excel-arbetsbok i Java Slides med hjälp av biblioteket Aspose.Slides for Java. Genom att följa den steg-för-steg-guide och använda de medföljande källkodsexemplen kan du enkelt integrera dynamiska diagramdata i dina PowerPoint-presentationer.
+den här handledningen har vi lärt oss hur man ställer in diagramdata från en Excel-arbetsbok i Java Slides med hjälp av biblioteket Aspose.Slides for Java. Genom att följa den steg-för-steg-guide och använda de medföljande källkodsexemplen kan du enkelt integrera dynamiska diagramdata i dina PowerPoint-presentationer.
 
 ## FAQ's
 

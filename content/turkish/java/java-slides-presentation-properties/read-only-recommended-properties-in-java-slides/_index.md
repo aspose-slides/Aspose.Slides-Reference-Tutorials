@@ -21,7 +21,7 @@ Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumları için Salt 
 Aspose.Slides for Java'yı kullanarak yeni bir PowerPoint sunumu oluşturarak başlayacağız. Zaten bir sunumunuz varsa bu adımı atlayabilirsiniz.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Son olarak sunumu Salt Okunur Önerilen özelliği etkin olarak kaydediyoruz.
 ## Java Slaytlarında Salt Okunur Önerilen Özellikler İçin Tam Kaynak Kodu
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

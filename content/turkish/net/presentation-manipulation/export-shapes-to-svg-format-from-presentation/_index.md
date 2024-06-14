@@ -12,7 +12,7 @@ Günümüzün dijital dünyasında sunumlar, bilginin etkili bir şekilde aktar�
 
 ## 1. Giriş
 
-Sunumlar genellikle çizelgeler, diyagramlar ve resimler gibi önemli görsel unsurları içerir. Bu öğelerin SVG formatına aktarılması, web tabanlı uygulamalar, yazdırma veya vektör grafik yazılımında daha fazla düzenleme yapılması açısından değerli olabilir. Aspose.Slides for .NET, bunun gibi görevleri otomatikleştirmenize olanak tanıyan güçlü bir kütüphanedir.
+Sunumlar genellikle çizelgeler, diyagramlar ve resimler gibi önemli görsel unsurları içerir. Bu öğelerin SVG formatına aktarılması, web tabanlı uygulamalar, yazdırma veya vektör grafik yazılımında daha fazla düzenleme için değerli olabilir. Aspose.Slides for .NET, bunun gibi görevleri otomatikleştirmenize olanak tanıyan güçlü bir kütüphanedir.
 
 ## 2. Önkoşullar
 

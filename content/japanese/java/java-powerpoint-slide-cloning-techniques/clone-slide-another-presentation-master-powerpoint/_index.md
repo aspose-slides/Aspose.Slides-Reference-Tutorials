@@ -19,7 +19,7 @@ Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼ
 まず、必要な Aspose.Slides パッケージを Java プロジェクトにインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 マスター スライドを含む別のプレゼンテーションにスライドを複製するプロセスを詳細な手順に分解してみましょう。
 ## ステップ1: ソースプレゼンテーションを読み込む

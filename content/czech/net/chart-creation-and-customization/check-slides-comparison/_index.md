@@ -120,7 +120,7 @@ Chcete-li optimalizovat svůj pracovní postup a zajistit spolehlivé výsledky:
 
 ## Závěr
 
-Porovnání snímků v rámci prezentací je cennou funkcí nabízenou Aspose.Slides pro .NET. Tato schopnost umožňuje vývojářům provádět přesné hodnocení změn a aktualizací v prezentacích. Podle kroků uvedených v této příručce můžete efektivně využít knihovnu Aspose.Slides k porovnávání snímků, zvýraznění rozdílů a vytváření přehledných zpráv.
+Porovnání snímků v rámci prezentací je cennou funkcí nabízenou Aspose.Slides pro .NET. Tato schopnost umožňuje vývojářům provádět přesné hodnocení změn a aktualizací v prezentacích. Podle kroků uvedených v této příručce můžete efektivně využít knihovnu Aspose.Slides k porovnání snímků, zvýrazňování rozdílů a vytváření přehledných zpráv.
 
 ## FAQ
 

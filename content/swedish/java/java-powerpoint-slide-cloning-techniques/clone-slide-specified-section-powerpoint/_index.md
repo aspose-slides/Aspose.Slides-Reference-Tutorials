@@ -12,18 +12,18 @@ Vill du effektivisera processen för att skapa PowerPoint-presentationer? Föres
 ## Förutsättningar
 Innan vi dyker in i handledningen, låt oss täcka förutsättningarna. Att se till att du har allt på plats kommer att göra processen smidigare och mer effektiv.
 ### Java utvecklingsmiljö
- Se först till att du har en Java-utvecklingsmiljö inställd. Du behöver JDK (Java Development Kit) installerat på din maskin. Du kan ladda ner den från[Oracles hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
+Se först till att du har en Java-utvecklingsmiljö inställd. Du behöver JDK (Java Development Kit) installerat på din maskin. Du kan ladda ner den från[Oracles hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides för Java Library
  Ladda sedan ned Aspose.Slides för Java-biblioteket. Du kan få det från[Aspose.Slides nedladdningssida](https://releases.aspose.com/slides/java/). Detta bibliotek kommer att tillhandahålla alla nödvändiga verktyg för att manipulera PowerPoint-presentationer programmatiskt.
 ### Utveckling IDE
 Att använda en integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA, Eclipse eller NetBeans kommer att göra din utvecklingsprocess enklare. Se till att din IDE är konfigurerad för att fungera med Java.
 ### Aspose-licens
- För full funktionalitet kanske du vill skaffa en licens för Aspose.Slides. Du kan köpa en[här](https://purchase.aspose.com/buy) . Alternativt kan du ansöka om en[tillfällig licens](https://purchase.aspose.com/temporary-license/)att prova funktionerna innan du bestämmer dig.
+ För full funktionalitet kanske du vill skaffa en licens för Aspose.Slides. Du kan köpa en[här](https://purchase.aspose.com/buy) . Alternativt kan du ansöka om en[tillfällig licens](https://purchase.aspose.com/temporary-license/) att prova funktionerna innan du bestämmer dig.
 ## Importera paket
 Innan du skriver koden måste du importera nödvändiga paket från Aspose.Slides. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Låt oss nu dela upp processen i hanterbara steg. Följ varje steg noggrant för att uppnå önskat resultat.
 ## Steg 1: Konfigurera datakatalogen
@@ -42,13 +42,13 @@ För att göra bilden visuellt distinkt, lägg till en form till den. Här lägg
 presentation.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
 ```
 ## Steg 4: Lägg till avsnitt i presentationen
-Lägg nu till avsnitt i presentationen. Avsnitt hjälper till att organisera bilderna i logiska grupper.
+Lägg nu till avsnitt i presentationen. Avsnitt hjälper till att organisera bilder i logiska grupper.
 ```java
 presentation.getSections().addSection("Section 1", presentation.getSlides().get_Item(0));
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Steg 5: Klona bilden till den angivna sektionen
-Kärnan i denna handledning är att klona bilden till en specificerad sektion. Använd`addClone` metod för att klona den första bilden till den andra sektionen.
+ Kärnan i denna handledning är att klona bilden till en specificerad sektion. Använd`addClone` metod för att klona den första bilden till den andra sektionen.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

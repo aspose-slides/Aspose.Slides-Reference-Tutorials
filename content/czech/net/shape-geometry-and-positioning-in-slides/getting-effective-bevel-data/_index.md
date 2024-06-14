@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Zajistěte výměnu`"Your Document Directory"` cestou, kam chcete uložit soubory prezentace.
+ Zajistěte výměnu`"Your Document Directory"` s cestou, kam chcete uložit soubory prezentace.
 ## Krok 2: Načtěte prezentaci
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -55,7 +55,7 @@ Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
 Nakonec vytiskneme data úkosu pro horní plochu tvaru včetně jeho typu, šířky a výšky.
-A tady to máte! Úspěšně jste načetli a zobrazili efektivní data zkosení pro tvar ve vaší prezentaci pomocí Aspose.Slides pro .NET.
+tady to máte! Úspěšně jste načetli a zobrazili efektivní data zkosení pro tvar ve vaší prezentaci pomocí Aspose.Slides pro .NET.
 ## Závěr
 V tomto tutoriálu jsme prozkoumali základy získávání efektivních dat zkosení z tvarů na snímcích prezentace pomocí Aspose.Slides for .NET. Vyzbrojeni těmito znalostmi nyní můžete vylepšit své prezentace pomocí přizpůsobených trojrozměrných efektů.
 ## Často kladené otázky

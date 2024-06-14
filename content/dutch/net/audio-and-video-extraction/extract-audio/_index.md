@@ -12,7 +12,7 @@ In de wereld van presentaties kan het toevoegen van audio aan uw dia's de algehe
 
 ## Vereisten
 
-Voordat we ingaan op het proces van het extraheren van audio uit een dia met Aspose.Slides voor .NET, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+Voordat we ingaan op het proces van het extraheren van audio uit een dia met Aspose.Slides voor .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 ### 1. Aspose.Slides voor .NET-bibliotheek
  U moet de Aspose.Slides voor .NET-bibliotheek geïnstalleerd hebben. Als u dat nog niet heeft gedaan, kunt u deze downloaden van[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
@@ -80,7 +80,7 @@ Ja, u kunt audio uit elke dia in een presentatie extraheren door de gewenste dia
 Aspose.Slides voor .NET ondersteunt verschillende audioformaten, waaronder MP3 en WAV. De geëxtraheerde audio heeft de indeling die oorspronkelijk aan de dia was toegevoegd.
 
 ### 3. Hoe kan ik dit proces automatiseren voor meerdere presentaties?
-kunt een script of toepassing maken die meerdere presentatiebestanden doorloopt en er audio uit haalt met behulp van de meegeleverde code.
+U kunt een script of toepassing maken die meerdere presentatiebestanden doorloopt en er audio uit haalt met behulp van de meegeleverde code.
 
 ### 4. Is Aspose.Slides voor .NET geschikt voor andere presentatiegerelateerde taken?
 Ja, Aspose.Slides voor .NET biedt een breed scala aan functies voor het werken met presentaties, zoals het maken, wijzigen en converteren van PowerPoint-bestanden. U kunt de documentatie raadplegen voor meer details.

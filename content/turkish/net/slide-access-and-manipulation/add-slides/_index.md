@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Ek slaytları ekledikten sonra değiştirilen sunumu kaydetmelisiniz.
 
 ```csharp
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Yer değiştirmek`"path_to_modified_presentation.pptx"` değiştirilmiş sunum için istenen yol ve dosya adı ile.
+ Yer değiştirmek`"path_to_modified_presentation.pptx"`değiştirilmiş sunum için istenen yol ve dosya adı ile.
 
 ## Çözüm
 
@@ -98,9 +98,9 @@ Aspose.Slides'ın API'sini kullanarak şekillerine ve özelliklerine erişerek y
 
 ### Sunumun başına slayt eklemek istersem ne olur?
 
- Sunumun başlangıcına slayt eklemek için`insertionIndex` ile`0`.
+Sunumun başlangıcına slayt eklemek için`insertionIndex` ile`0`.
 
-### Eklenen slaytların düzenini değiştirmek mümkün müdür?
+### Eklenen slaytların düzenini değiştirmek mümkün mü?
 
 Kesinlikle. Aspose.Slides'ın kapsamlı özelliklerini kullanarak eklenen slaytların düzenini, tasarımını ve formatını değiştirebilirsiniz.
 

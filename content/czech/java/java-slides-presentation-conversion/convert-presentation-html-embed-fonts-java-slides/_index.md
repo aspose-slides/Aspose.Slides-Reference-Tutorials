@@ -10,14 +10,14 @@ url: /cs/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Úvod do převodu prezentace do HTML s vložením všech písem do Java Slides
 
-V dnešní digitální době se převod prezentací do HTML stal nezbytným pro bezproblémové sdílení informací napříč různými platformami. Při práci s Java Slides je důležité zajistit, aby všechna písma použitá ve vaší prezentaci byla vložena, aby bylo zachováno konzistentní formátování. V tomto podrobném průvodci vás provedeme procesem převodu prezentace do HTML při vkládání všech písem pomocí Aspose.Slides for Java. Začněme!
+dnešní digitální době se převod prezentací do HTML stal nezbytným pro bezproblémové sdílení informací napříč různými platformami. Při práci s Java Slides je důležité zajistit, aby všechna písma použitá ve vaší prezentaci byla vložena, aby bylo zachováno konzistentní formátování. V tomto podrobném průvodci vás provedeme procesem převodu prezentace do HTML při vkládání všech písem pomocí Aspose.Slides for Java. Začněme!
 
 ## Předpoklady
 
 Než se ponoříme do kódu a procesu převodu, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný ve vašem systému.
-- Aspose.Slides for Java API, které si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API, které si můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
 -  Soubor prezentace (např.`presentation.pptx`), který chcete převést do HTML.
 
 ## Krok 1: Nastavení prostředí Java
@@ -26,7 +26,7 @@ Ujistěte se, že máte v systému správně nainstalované Java a Aspose.Slides
 
 ## Krok 2: Načtení souboru prezentace
 
- V kódu Java musíte načíst soubor prezentace, který chcete převést. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace.
+ kódu Java musíte načíst soubor prezentace, který chcete převést. Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vaší prezentace.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ Můžete si prohlédnout zdrojový kód souboru HTML a vyhledat odkazy na písma
 
 ### Mohu dále upravit výstup HTML, jako je styl a rozvržení?
 
- Ano, výstup HTML můžete upravit úpravou souboru`HtmlOptions` šablonu HTML používanou pro formátování. Aspose.Slides for Java poskytuje flexibilitu v tomto ohledu.
+ Ano, výstup HTML můžete upravit úpravou souboru`HtmlOptions` a šablonu HTML používanou pro formátování. Aspose.Slides for Java poskytuje flexibilitu v tomto ohledu.
 
 ### Existují nějaká omezení při vkládání písem do HTML?
 

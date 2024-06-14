@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation())
 ```csharp
 FileStream fstr = new FileStream(dataDir + "sampleaudio.wav", FileMode.Open, FileAccess.Read);
 ```
-## 3. lépés: Adjon hozzá hangkeretet
+## 3. lépés: Adjon hozzá audio keretet
 ```csharp
 IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
 ```
@@ -62,4 +62,4 @@ Igen, az Aspose.Slides rugalmasságot biztosít a lejátszási beállítások, p
 ### Hol találok támogatást az Aspose.Slides for .NET számára?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítséget kérni és kapcsolatba lépni a közösséggel.
 ### Hogyan vásárolhatom meg az Aspose.Slides-t .NET-hez?
- A könyvtárat megvásárolhatja a[Aspose üzlet](https://purchase.aspose.com/buy).
+ A könyvtárat megvásárolhatja a[Aspose bolt](https://purchase.aspose.com/buy).

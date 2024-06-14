@@ -16,7 +16,7 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
 1. Visual Studio: V počítači musíte mít nainstalované Visual Studio.
 
-2. Aspose.Slides for .NET: Stáhněte si a nainstalujte Aspose.Slides for .NET z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
+2.  Aspose.Slides for .NET: Stáhněte si a nainstalujte Aspose.Slides for .NET z[odkaz ke stažení](https://releases.aspose.com/slides/net/).
 
 3. Základní porozumění C#: Měli byste mít základní znalosti programování C#.
 
@@ -114,4 +114,4 @@ Přidání barvy k datovým bodům v grafu je účinný způsob, jak učinit va�
     Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 
 ### Jak získám podporu pro Aspose.Slides pro .NET?
-    Pro podporu a diskuse navštivte[Fórum Aspose.Slides](https://forum.aspose.com/).
+    Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/).

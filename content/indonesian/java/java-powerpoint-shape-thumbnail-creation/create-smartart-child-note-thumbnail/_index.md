@@ -8,11 +8,11 @@ weight: 15
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
 ## Perkenalan
-Dalam tutorial ini, kita akan mempelajari cara membuat thumbnail catatan anak SmartArt di Java menggunakan Aspose.Slides. Aspose.Slides adalah Java API canggih yang memungkinkan pengembang bekerja dengan presentasi PowerPoint secara terprogram, memungkinkan mereka membuat, memodifikasi, dan memanipulasi slide dengan mudah.
+Dalam tutorial ini, kita akan menjelajahi cara membuat thumbnail catatan anak SmartArt di Java menggunakan Aspose.Slides. Aspose.Slides adalah Java API canggih yang memungkinkan pengembang bekerja dengan presentasi PowerPoint secara terprogram, memungkinkan mereka membuat, memodifikasi, dan memanipulasi slide dengan mudah.
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2. Aspose.Slides untuk perpustakaan Java diunduh dan dikonfigurasi di proyek Anda. Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides untuk perpustakaan Java diunduh dan dikonfigurasi di proyek Anda. Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
 
 ## Paket Impor
 Pastikan untuk mengimpor paket yang diperlukan di kelas Java Anda:
@@ -21,7 +21,7 @@ import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SmartArtLayoutType;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

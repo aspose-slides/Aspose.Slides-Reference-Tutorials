@@ -31,7 +31,7 @@ Trước khi có thể bắt đầu sử dụng Aspose.Slides cho Java, bạn c�
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-//Khởi tạo lớp Trình bày đại diện cho PPTX
+// Khởi tạo lớp Trình bày đại diện cho PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

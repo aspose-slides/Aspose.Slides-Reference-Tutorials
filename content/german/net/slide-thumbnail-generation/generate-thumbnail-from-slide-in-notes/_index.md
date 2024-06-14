@@ -78,7 +78,7 @@ float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
 
 ## Schritt 6: Erstellen Sie ein Miniaturbild
 
-Erstellen Sie nun eine Miniaturansicht des Bilds in Originalgröße unter Verwendung der berechneten Skalierungsfaktoren:
+Erstellen Sie nun eine Miniaturansicht des Bilds in voller Größe unter Verwendung der berechneten Skalierungsfaktoren:
 
 ```csharp
 Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);

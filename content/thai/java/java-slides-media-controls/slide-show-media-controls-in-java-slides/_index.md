@@ -34,7 +34,7 @@ url: /th/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // เส้นทางไปยังเอกสาร PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // เส้นทางไปยังเอกสาร PPTX
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// เปิดใช้งานการแสดงผลการควบคุมสื่อในโหมดสไลด์โชว์
@@ -95,7 +95,7 @@ try {
 
 ### ฉันสามารถควบคุมระดับเสียงในงานนำเสนอของฉันได้หรือไม่
 
- ได้ คุณสามารถควบคุมระดับเสียงในงานนำเสนอของคุณได้โดยการตั้งค่า`Volume` คุณสมบัติสำหรับกรอบเสียง คุณสามารถปรับระดับเสียงให้เป็นระดับที่คุณต้องการได้
+ ได้ คุณสามารถควบคุมระดับเสียงในงานนำเสนอของคุณได้โดยตั้งค่า`Volume` คุณสมบัติสำหรับกรอบเสียง คุณสามารถปรับระดับเสียงให้เป็นระดับที่คุณต้องการได้
 
 ### เป็นไปได้ไหมที่จะวนซ้ำวิดีโออย่างต่อเนื่องระหว่างการแสดงภาพสไลด์?
 

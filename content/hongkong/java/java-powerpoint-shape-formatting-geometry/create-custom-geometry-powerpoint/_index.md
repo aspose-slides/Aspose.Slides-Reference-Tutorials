@@ -8,7 +8,7 @@ weight: 21
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
 ## 介紹
-在 PowerPoint 中建立自訂形狀和幾何圖形可以顯著增強簡報的視覺吸引力。 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 PowerPoint 檔案。在本教學中，我們將探索如何使用 Aspose.Slides for Java 在 PowerPoint 投影片中建立自訂幾何圖形，特別是星形。讓我們深入了解一下吧！
+在 PowerPoint 中建立自訂形狀和幾何圖形可以顯著增強簡報的視覺吸引力。 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 PowerPoint 檔案。在本教學中，我們將探索如何使用 Aspose.Slides for Java 在 PowerPoint 投影片中建立自訂幾何圖形，特別是星形。讓我們深入了解吧！
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。
@@ -20,13 +20,13 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-custom-geome
 在深入編碼部分之前，讓我們先導入必要的套件。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 ```
 ## 第 1 步：設定項目
-首先，設定您的 Java 專案並將 Aspose.Slides for Java 程式庫包含在專案的依賴項中。如果您使用 Maven，請將以下依賴項新增至您的`pom.xml`：
+首先，設定您的 Java 專案並將 Aspose.Slides for Java 程式庫包含在專案的依賴項中。如果您使用 Maven，請將以下依賴項新增至您的`pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>

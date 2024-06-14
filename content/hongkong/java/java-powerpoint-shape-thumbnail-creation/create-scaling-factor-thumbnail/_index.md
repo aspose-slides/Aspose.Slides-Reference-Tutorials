@@ -20,7 +20,7 @@ url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-scaling-facto
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

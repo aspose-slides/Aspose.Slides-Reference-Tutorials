@@ -19,13 +19,13 @@ Nejprve importujte potřebné balíčky, abyste mohli používat funkci Aspose.S
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Nastavte Data Directory
 ```java
 // Cesta k adresáři dokumentů.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Vytvořte adresář, pokud ještě není přítomen.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 V tomto kroku definujeme cestu k adresáři, kam bude PowerPointová prezentace uložena. Pokud adresář neexistuje, bude vytvořen.
 ## Krok 2: Instanciujte objekt prezentace
 ```java
-//Vytvořte instanci objektu Presentation, který představuje soubor PPT
+// Vytvořte instanci objektu Presentation, který představuje soubor PPT
 Presentation presentation = new Presentation();
 ```
- Zde vytvoříme novou instanci`Presentation` třídy, která představuje powerpointovou prezentaci.
+Zde vytvoříme novou instanci`Presentation` třídy, která představuje powerpointovou prezentaci.
 ## Krok 3: Proveďte operace s prezentací (volitelné)
 ```java
 //...udělej tu práci...

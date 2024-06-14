@@ -41,9 +41,9 @@ PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.Password = "password";
 ```
 
-## Krok 4: Uložit jako PDF chráněné heslem
+## Krok 4: Uložit jako PDF chráněný heslem
 
- Nyní jste připraveni uložit prezentaci jako soubor PDF chráněný heslem. Nahradit`"Your Output Directory"` s cestou, kam chcete uložit PDF a`"PasswordProtectedPDF_out.pdf"` s požadovaným názvem výstupního souboru.
+ Nyní jste připraveni uložit svou prezentaci jako soubor PDF chráněný heslem. Nahradit`"Your Output Directory"` s cestou, kam chcete uložit PDF a`"PasswordProtectedPDF_out.pdf"` s požadovaným názvem výstupního souboru.
 
 ```csharp
 string outPath = "Your Output Directory";

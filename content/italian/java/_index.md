@@ -80,3 +80,27 @@ Scopri come animare e manipolare forme in PowerPoint utilizzando Aspose.Slides p
 Scopri i tutorial sulla formattazione delle forme e sulla geometria di Java PowerPoint. Impara a riempire forme, trovare forme e creare geometrie personalizzate con Aspose.Slides per Java.
 ### [Tecniche di clonazione di diapositive Java PowerPoint](./java-powerpoint-slide-cloning-techniques/)
 Masterizza la clonazione delle diapositive in PowerPoint utilizzando Aspose.Slides per Java. Impara a clonare le diapositive all'interno della stessa presentazione o tra presentazioni senza problemi.
+### [Manipolazione della casella di testo di Java PowerPoint](./java-powerpoint-text-box-manipulation/)
+Esplora tutorial completi per la manipolazione delle caselle di testo Java PowerPoint con Aspose.Slides. Migliora le tue presentazioni passo dopo passo con le nostre guide.
+### [Gestione dei caratteri Java PowerPoint](./java-powerpoint-font-management/)
+Scopri i tutorial sulla gestione dei caratteri Java PowerPoint utilizzando Aspose.Slides per Java. Impara le tecniche di incorporamento, compressione e personalizzazione per migliorare le presentazioni.
+### [Animazione ed effetti Java PowerPoint](./java-powerpoint-animation-effects/)
+Padroneggia le animazioni e gli effetti di Java PowerPoint con i nostri tutorial completi. Impara ad aggiungere animazioni, ombre esterne e interne utilizzando Aspose.Slides per Java.
+### [Allineamento e formattazione del testo Java PowerPoint](./java-powerpoint-text-alignment-formatting/)
+Scopri i tutorial sull'allineamento e la formattazione del testo di Java PowerPoint. Impara ad allineare, formattare, esportare ed evidenziare il testo utilizzando Aspose.Slides per Java. 
+### [Evidenziazione del testo Java PowerPoint e regole di fallback](./java-powerpoint-text-highlighting-fallback-rules/)
+Padroneggia l'evidenziazione del testo e le regole di fallback dei caratteri in Java PowerPoint con Aspose.Slides. Segui i nostri tutorial per migliorare e automatizzare le tue presentazioni senza problemi.
+### [Gestione di testi e paragrafi in Java PowerPoint](./java-powerpoint-text-paragraph-management/)
+Padroneggia la gestione di testi e paragrafi Java PowerPoint con Aspose.Slides. Impara a importare testo HTML, gestire l'interlinea, creare punti elenco e allineare i paragrafi.
+### [Gestione dei caratteri Java PowerPoint e sostituzione del testo](./java-powerpoint-font-management-text-replacement/)
+Padroneggia la gestione dei caratteri Java PowerPoint e la sostituzione del testo con Aspose.Slides. Impara a caricare caratteri personalizzati, gestire caratteri incorporati e sostituire il testo senza problemi.
+### [Proprietà avanzate di paragrafo e carattere di Java PowerPoint](./java-powerpoint-advanced-paragraph-font-properties/)
+Padroneggia le proprietà avanzate di paragrafi e caratteri in Java PowerPoint utilizzando Aspose.Slides. Impara a personalizzare i caratteri, aggiungi elenchi puntati e utilizza i caratteri di riserva.
+### [Personalizzazione di testo e caratteri Java PowerPoint](./java-powerpoint-text-font-customization/)
+Esplora tutorial sulla personalizzazione del testo e dei caratteri Java PowerPoint con Aspose.Slides. Impara la rotazione, la sostituzione dei caratteri e altro ancora per migliorare le tue presentazioni.
+### [Manipolazione di tabelle Java PowerPoint](./java-powerpoint-table-manipulation/)
+Padroneggia la manipolazione delle tabelle Java PowerPoint con Aspose.Slides. Impara ad aggiungere immagini, dividere celle, creare tabelle e altro ancora attraverso i nostri tutorial dettagliati passo dopo passo.
+### [Formattazione e aggiornamenti della tabella Java PowerPoint](./java-powerpoint-table-formatting-updates/)
+Migliora le presentazioni Java PowerPoint con la formattazione delle tabelle e gli aggiornamenti utilizzando Aspose.Slides. Impara ad aggiungere bordi, formattare il testo in colonne e righe e aggiornare le tabelle.
+### [Manipolazione SmartArt di Java PowerPoint](./java-powerpoint-smartart-manipulation/)
+Scopri come manipolare Java PowerPoint SmartArt in modo efficace con i tutorial di GroupDocs.Slides per Java. Accedi ai nodi secondari, aggiungi nodi, modifica layout e altro ancora!

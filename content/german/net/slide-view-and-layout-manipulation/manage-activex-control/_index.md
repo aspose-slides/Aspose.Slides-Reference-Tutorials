@@ -2,7 +2,7 @@
 title: Verwalten von ActiveX-Steuerelementen in PowerPoint
 linktitle: Verwalten von ActiveX-Steuerelementen in PowerPoint
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
-description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügen, Bearbeiten, Anpassen, Ereignisbehandlung und mehr.
+description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügung, Bearbeitung, Anpassung, Ereignisbehandlung und mehr.
 type: docs
 weight: 13
 url: /de/net/slide-view-and-layout-manipulation/manage-activex-control/
@@ -13,7 +13,7 @@ ActiveX-Steuerelemente sind leistungsstarke Elemente, die die Funktionalität un
 
 Um mit der Einbindung von ActiveX-Steuerelementen in Ihre PowerPoint-Präsentationen zu beginnen, führen Sie die folgenden Schritte aus:
 
-1.  Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Weitere Informationen finden Sie unter[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/) Anleitungen zum Arbeiten mit Präsentationen.
+1.  Erstellen Sie eine neue PowerPoint-Präsentation: Erstellen Sie zunächst eine neue PowerPoint-Präsentation mit Aspose.Slides für .NET. Weitere Informationen finden Sie im[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/) Anleitungen zum Arbeiten mit Präsentationen.
 
 2. Folie hinzufügen: Verwenden Sie die Bibliothek, um Ihrer Präsentation eine neue Folie hinzuzufügen. Dies ist die Folie, auf der Sie das ActiveX-Steuerelement einfügen möchten.
 

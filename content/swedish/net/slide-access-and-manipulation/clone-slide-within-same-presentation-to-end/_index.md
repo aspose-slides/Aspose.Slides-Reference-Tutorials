@@ -49,7 +49,7 @@ ISlide duplicatedSlide = presentation.Slides.InsertClone(1, sourceSlide);
 
 I det här exemplet duplicerar vi den första bilden och infogar den duplicerade bilden vid index 1 (position 2).
 
-## Steg 4: Lägg till duplicerad bild till slutet
+## Steg 4: Lägga till duplicerad bild till slutet
 
 Nu när vi har en duplicerad bild, låt oss lägga till den i slutet av presentationen. Du kan använda följande kod:
 
@@ -65,7 +65,7 @@ Detta kodavsnitt lägger till den dubblerade bilden i slutet av presentationen.
 Efter att ha lagt till den duplicerade bilden måste vi spara den ändrade presentationen. Här är hur:
 
 ```csharp
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

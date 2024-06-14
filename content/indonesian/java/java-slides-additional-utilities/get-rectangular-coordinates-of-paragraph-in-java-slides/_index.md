@@ -14,7 +14,7 @@ Dalam tutorial ini, kami akan mendemonstrasikan cara mengambil koordinat persegi
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda telah menginstal dan mengatur pustaka Aspose.Slides for Java di lingkungan pengembangan Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://downloads.aspose.com/slides/java).
+ Sebelum kita mulai, pastikan Anda telah menginstal dan mengatur pustaka Aspose.Slides for Java di lingkungan pengembangan Java Anda. Anda dapat mengunduhnya dari[Di Sini](https://downloads.aspose.com/slides/java).
 
 ## Langkah 1: Impor Perpustakaan yang Diperlukan
 
@@ -107,7 +107,7 @@ Ya, Aspose.Slides untuk Java sangat cocok untuk pemrosesan batch file PowerPoint
 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
- Anda dapat menemukan lebih banyak contoh kode dan dokumentasi terperinci untuk Aspose.Slides untuk Java di[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/)situs web. Selain itu, Anda dapat menjelajahi[Forum Aspose.Slide](https://forum.aspose.com/c/slides) untuk dukungan dan diskusi komunitas.
+ Anda dapat menemukan lebih banyak contoh kode dan dokumentasi terperinci untuk Aspose.Slides untuk Java di[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) situs web. Selain itu, Anda dapat menjelajahi[Forum Aspose.Slide](https://forum.aspose.com/c/slides) untuk dukungan dan diskusi komunitas.
 
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Slides untuk Java?
 

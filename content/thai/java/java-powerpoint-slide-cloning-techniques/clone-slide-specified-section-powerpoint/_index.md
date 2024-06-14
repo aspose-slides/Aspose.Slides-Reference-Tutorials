@@ -12,18 +12,18 @@ url: /th/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sec
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเจาะลึกบทช่วยสอน เรามาพูดถึงข้อกำหนดเบื้องต้นกันก่อน การตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างเรียบร้อยจะทำให้กระบวนการราบรื่นและมีประสิทธิภาพมากขึ้น
 ### สภาพแวดล้อมการพัฒนาจาวา
- ขั้นแรก ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java แล้ว คุณจะต้องติดตั้ง JDK (Java Development Kit) บนเครื่องของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
+ขั้นแรก ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java แล้ว คุณจะต้องติดตั้ง JDK (Java Development Kit) บนเครื่องของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides สำหรับไลบรารี Java
  จากนั้น ดาวน์โหลดไลบรารี Aspose.Slides สำหรับ Java คุณสามารถรับได้จาก[หน้าดาวน์โหลด Aspose.Slides](https://releases.aspose.com/slides/java/)- ไลบรารีนี้จะจัดเตรียมเครื่องมือที่จำเป็นทั้งหมดเพื่อจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม
 ### การพัฒนา IDE
 การใช้ Integrated Development Environment (IDE) เช่น IntelliJ IDEA, Eclipse หรือ NetBeans จะทำให้กระบวนการพัฒนาของคุณตรงไปตรงมามากขึ้น ตรวจสอบให้แน่ใจว่า IDE ของคุณได้รับการกำหนดค่าให้ทำงานกับ Java ได้
 ### กำหนดใบอนุญาต
- หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณอาจต้องการได้รับใบอนุญาตสำหรับ Aspose.Slides คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy) - หรือคุณสามารถสมัครเพื่อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)เพื่อลองใช้ฟีเจอร์ต่างๆ ก่อนตัดสินใจ
+ หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณอาจต้องการได้รับใบอนุญาตสำหรับ Aspose.Slides คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy) - หรือคุณสามารถสมัครเพื่อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อลองใช้ฟีเจอร์ต่างๆ ก่อนตัดสินใจ
 ## แพ็คเกจนำเข้า
 ก่อนที่จะเขียนโค้ด คุณต้องนำเข้าแพ็คเกจที่จำเป็นจาก Aspose.Slides ต่อไปนี้คือวิธีที่คุณสามารถทำได้:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ตอนนี้ เรามาแบ่งกระบวนการออกเป็นขั้นตอนที่สามารถจัดการได้ ปฏิบัติตามแต่ละขั้นตอนอย่างระมัดระวังเพื่อให้ได้ผลลัพธ์ที่ต้องการ
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีข้อมูล
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## ขั้นตอนที่ 5: โคลนสไลด์ลงในส่วนที่ระบุ
-ส่วนหลักของบทช่วยสอนนี้คือการคัดลอกสไลด์ไปยังส่วนที่ระบุ ใช้`addClone` วิธีการโคลนสไลด์แรกไปไว้ในส่วนที่สอง
+ ส่วนหลักของบทช่วยสอนนี้คือการคัดลอกสไลด์ไปยังส่วนที่ระบุ ใช้`addClone` วิธีการโคลนสไลด์แรกไปไว้ในส่วนที่สอง
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

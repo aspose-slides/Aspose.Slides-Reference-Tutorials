@@ -14,7 +14,7 @@ url: /zh/net/advanced-chart-customization/chart-trend-lines/
 
 在开始使用 Aspose.Slides for .NET 之前，您需要确保已满足以下先决条件：
 
-1.  Aspose.Slides for .NET：要访问并使用该库，您必须安装 Aspose.Slides for .NET。您可以从[下载页面](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET：要访问并使用该库，您必须安装 Aspose.Slides for .NET。您可以从[下载页面](https://releases.aspose.com/slides/net/).
 
 2. 开发环境：您应该建立一个开发环境，最好使用像 Visual Studio 这样的 .NET 集成开发环境。
 

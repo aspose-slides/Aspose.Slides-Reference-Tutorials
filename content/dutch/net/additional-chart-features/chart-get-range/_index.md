@@ -73,7 +73,7 @@ En dat is het! U hebt met succes het diagramgegevensbereik uit uw PowerPoint-pre
 
 ## Conclusie
 
-In deze zelfstudie hebben we het proces besproken waarmee u het diagramgegevensbereik uit een PowerPoint-presentatie kunt halen met behulp van Aspose.Slides voor .NET. Als u aan de juiste voorwaarden voldoet en de stapsgewijze handleiding volgt, kunt u eenvoudig de gegevens die u nodig hebt programmatisch uit uw presentaties halen.
+In deze zelfstudie hebben we het proces besproken waarmee u het diagramgegevensbereik uit een PowerPoint-presentatie kunt halen met behulp van Aspose.Slides voor .NET. Als u aan de juiste voorwaarden voldoet en de stapsgewijze handleiding volgt, kunt u eenvoudig de gegevens die u nodig heeft programmatisch uit uw presentaties halen.
 
 Als u vragen heeft of verdere hulp nodig heeft, kunt u de Aspose.Slides voor .NET bezoeken[documentatie](https://reference.aspose.com/slides/net/) of neem contact op met de Aspose-gemeenschap op hun[Helpforum](https://forum.aspose.com/).
 

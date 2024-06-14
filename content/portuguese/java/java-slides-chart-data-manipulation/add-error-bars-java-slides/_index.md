@@ -14,7 +14,7 @@ Neste tutorial, demonstraremos como adicionar barras de erro a um gráfico em um
 
 ## Pré-requisitos
 
- Antes de começar, certifique-se de ter a biblioteca Aspose.Slides for Java instalada e configurada em seu projeto Java. Você pode baixar a biblioteca do[Aspor site](https://downloads.aspose.com/slides/java).
+Antes de começar, certifique-se de ter a biblioteca Aspose.Slides for Java instalada e configurada em seu projeto Java. Você pode baixar a biblioteca do[Aspor site](https://downloads.aspose.com/slides/java).
 
 ## Etapa 1: crie uma apresentação vazia
 
@@ -62,7 +62,7 @@ Nesta etapa, adicionamos barras de erro ao gráfico e definimos seu formato. Voc
 - `setValue` define o valor das barras de erro.
 - `setType` define o tipo de barras de erro (por exemplo, Mais ou Menos).
 -  Definimos a largura das linhas da barra de erro usando`getFormat().getLine().setWidth(2)`.
-- `setEndCap` especifica se devem ser incluídos limites nas barras de erro.
+- `setEndCap`especifica se devem ser incluídos limites nas barras de erro.
 
 ## Etapa 4: salve a apresentação
 
@@ -123,7 +123,7 @@ Sim, você pode adicionar barras de erro a vários tipos de gráficos suportados
 
 ### Como posso ajustar a posição e o tamanho do gráfico no slide?
 
-Você pode controlar a posição e as dimensões do gráfico ajustando os parâmetros na caixa`addChart` método, conforme mostrado na Etapa 2.
+ Você pode controlar a posição e as dimensões do gráfico ajustando os parâmetros na caixa`addChart` método, conforme mostrado na Etapa 2.
 
 ### Onde posso encontrar mais informações sobre Aspose.Slides para Java?
 

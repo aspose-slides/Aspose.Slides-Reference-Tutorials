@@ -10,7 +10,7 @@ url: /it/java/chart-elements/existing-chart-java-slides/
 
 ## Introduzione al grafico esistente nelle diapositive Java utilizzando Aspose.Slides per Java
 
-In questo tutorial, dimostreremo come modificare un grafico esistente in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Esamineremo i passaggi per modificare i dati del grafico, i nomi delle categorie, i nomi delle serie e aggiungere una nuova serie al grafico. Assicurati di avere Aspose.Slides per Java configurato nel tuo progetto.
+In questo tutorial, dimostreremo come modificare un grafico esistente in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Seguiremo i passaggi per modificare i dati del grafico, i nomi delle categorie, i nomi delle serie e aggiungere una nuova serie al grafico. Assicurati di avere Aspose.Slides per Java impostato nel tuo progetto.
 
 ## Prerequisiti
 
@@ -151,7 +151,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Prendi la terza serie di grafici
 series = chart.getChartData().getSeries().get_Item(2);
-//Ora popolano i dati delle serie
+// Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

@@ -2,7 +2,7 @@
 title: Definir sobreposição de séries de gráficos em slides Java
 linktitle: Definir sobreposição de séries de gráficos em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
-description: série de gráficos mestres se sobrepõe em Java Slides com Aspose.Slides for Java. Aprenda passo a passo como personalizar gráficos gráficos para apresentações impressionantes.
+description: A série de gráficos mestres se sobrepõe em Java Slides com Aspose.Slides for Java. Aprenda passo a passo como personalizar gráficos gráficos para apresentações impressionantes.
 type: docs
 weight: 16
 url: /pt/java/data-manipulation/set-chart-series-overlap-java-slides/

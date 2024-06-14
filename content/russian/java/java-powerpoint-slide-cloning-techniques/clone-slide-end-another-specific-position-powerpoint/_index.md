@@ -22,7 +22,7 @@ url: /ru/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-s
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Теперь давайте разобьем процесс на простые шаги.

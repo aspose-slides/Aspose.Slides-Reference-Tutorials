@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อม
@@ -65,5 +65,5 @@ Aspose.Slides รองรับรูปแบบ PowerPoint ที่หลา
 ใช่ Aspose.Slides ช่วยให้คุณสามารถตั้งรหัสผ่านแยกต่างหากสำหรับการแก้ไขและการดูสิทธิ์
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
  ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก Aspose[เว็บไซต์](https://releases.aspose.com/).
-### ฉันจะรับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Slides ได้อย่างไร
+### ฉันจะรับการสนับสนุนทางเทคนิคสำหรับ Aspose.Slides ได้อย่างไร
 คุณสามารถเยี่ยมชมฟอรัม Aspose.Slides เพื่อขอความช่วยเหลือทางเทคนิคจากชุมชนและเจ้าหน้าที่สนับสนุน Aspose

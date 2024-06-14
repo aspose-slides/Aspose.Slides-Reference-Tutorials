@@ -33,7 +33,7 @@ using System.IO;
 
 ## Schritt 2: Audio aus der Timeline extrahieren
 
-Lassen Sie uns nun das von Ihnen angegebene Beispiel in mehrere Schritte aufteilen:
+Lassen Sie uns nun das von Ihnen angegebene Beispiel in mehrere Schritte aufschlüsseln:
 
 ### Schritt 2.1: Laden Sie die Präsentation
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- In diesem Schritt laden wir die PowerPoint-Präsentation aus der angegebenen Datei. Achten Sie darauf,`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
+In diesem Schritt laden wir die PowerPoint-Präsentation aus der angegebenen Datei. Achten Sie darauf,`"Your Document Directory"` durch den tatsächlichen Pfad zu Ihrer Präsentationsdatei.
 
 ### Schritt 2.2: Zugriff auf Folie und Zeitleiste
 

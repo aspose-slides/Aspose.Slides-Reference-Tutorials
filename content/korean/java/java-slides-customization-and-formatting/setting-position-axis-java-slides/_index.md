@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/setting-position-axis-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트에서 위치 축을 설정하는 방법을 알아봅니다. 차트의 모양과 레이아웃을 사용자 정의하려는 경우 축 위치를 지정하는 것이 유용할 수 있습니다. 군집형 세로 막대형 차트를 생성하고 카테고리 간 가로축 위치를 조정해 보겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 

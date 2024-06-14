@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//Mengatur warna isian untuk seri
+// Mengatur warna isian untuk seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//Mengatur warna isian untuk seri
+// Mengatur warna isian untuk seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Ambil seri grafik pertama
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Sekarang mengisi data seri
+// Sekarang mengisi data seri
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//Mengatur warna isian untuk seri
+// Mengatur warna isian untuk seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // Ambil seri grafik kedua
 series = chart.getChartData().getSeries().get_Item(1);
-//Sekarang mengisi data seri
+// Sekarang mengisi data seri
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//Mengatur warna isian untuk seri
+// Mengatur warna isian untuk seri
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // Label pertama akan menampilkan nama Kategori
@@ -223,7 +223,7 @@ Dalam tutorial ini, kita telah mempelajari cara membuat grafik normal di Java Sl
 
 ### Bagaimana cara mengubah jenis grafik?
 
- Untuk mengubah tipe bagan, ubah`ChartType` parameter saat menambahkan grafik menggunakan`sld.getShapes().addChart()`. Anda dapat memilih dari berbagai jenis bagan yang tersedia di Aspose.Slides.
+ Untuk mengubah tipe bagan, ubah`ChartType`parameter saat menambahkan grafik menggunakan`sld.getShapes().addChart()`. Anda dapat memilih dari berbagai jenis bagan yang tersedia di Aspose.Slides.
 
 ### Bisakah saya mengubah warna rangkaian bagan?
 
@@ -239,4 +239,4 @@ Dalam tutorial ini, kita telah mempelajari cara membuat grafik normal di Java Sl
 
 ### Bagaimana cara menyimpan grafik ke format file lain?
 
- Untuk menyimpan bagan ke format file lain, ubah`SaveFormat` parameter di`pres.save()`metode ke format yang diinginkan (misalnya, PDF, PNG, JPEG).
+ Untuk menyimpan bagan ke format file lain, ubah`SaveFormat` parameter di`pres.save()` metode ke format yang diinginkan (misalnya, PDF, PNG, JPEG).

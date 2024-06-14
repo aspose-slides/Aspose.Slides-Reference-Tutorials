@@ -61,7 +61,7 @@ string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx");
 ```
 
-### Steg 3: Välj övergångseffekt
+### Steg 3: Välj övergångseffekten
 
 Du kan ställa in önskad övergångseffekt. I det här exemplet kommer vi att använda övergångseffekten "Cut".
 
@@ -85,7 +85,7 @@ Spara slutligen presentationen med de nyinställda övergångseffekterna till en
 presentation.Save(dataDir + "SetTransitionEffects_out.pptx", SaveFormat.Pptx);
 ```
 
-När dessa steg är slutförda kommer din bild nu att ha den övergångseffekt du angav.
+När dessa steg är slutförda kommer din bild nu att ha den övergångseffekt som du angav.
 
 ## Slutsats
 

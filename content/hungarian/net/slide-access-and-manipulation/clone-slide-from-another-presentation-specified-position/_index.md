@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 A dia klónozása és a kívánt pozícióba történő beszúrása után el kell mentenie a módosított célprezentációt. A bemutató mentéséhez használja a következő kódot:
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Helyezze be a klónozott tárgylemezt a megadott helyre
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Mentse el a módosított bemutatót
+            //Mentse el a módosított bemutatót
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

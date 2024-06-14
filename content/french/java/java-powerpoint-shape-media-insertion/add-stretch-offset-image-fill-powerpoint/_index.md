@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Pour commencer, importez les packages nécessaires dans votre projet Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -58,7 +58,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment ajouter un déc
 Oui, vous pouvez spécifier l'index de la diapositive lors de la récupération de l'objet diapositive pour cibler une diapositive spécifique.
 ### Aspose.Slides pour Java prend-il en charge d'autres formats d'image que JPEG ?
 Oui, Aspose.Slides pour Java prend en charge divers formats d'image, notamment PNG, GIF et BMP.
-### a-t-il une limite à la taille des images que je peux ajouter en utilisant cette méthode ?
+### Y a-t-il une limite à la taille des images que je peux ajouter en utilisant cette méthode ?
 Aspose.Slides pour Java peut gérer des images de différentes tailles, mais il est recommandé d'optimiser les images pour de meilleures performances dans les présentations.
 ### Puis-je appliquer des effets ou des transformations supplémentaires aux images après les avoir ajoutées aux diapositives ?
 Oui, vous pouvez appliquer un large éventail d'effets et de transformations aux images à l'aide de l'API étendue d'Aspose.Slides pour Java.

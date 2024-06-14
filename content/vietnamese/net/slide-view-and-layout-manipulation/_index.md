@@ -22,7 +22,7 @@ Bố cục đóng vai trò then chốt trong việc tổ chức nội dung của
 
 ## Hướng dẫn thao tác với chế độ xem slide và bố cục
 ### [Chế độ xem slide và thao tác bố cục trong Aspose.Slides](./slide-view-and-layout-manipulation/)
-Tìm hiểu cách thao tác các chế độ xem và bố cục trang chiếu trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+Tìm hiểu cách thao tác với chế độ xem và bố cục trang chiếu trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
 ### [Quản lý bản trình bày ở trạng thái xem bình thường](./manage-presentation-normal-view-state/)
 Tìm hiểu cách quản lý bản trình bày ở trạng thái xem bình thường bằng Aspose.Slides cho .NET. Tạo, sửa đổi và nâng cao bản trình bày theo chương trình với hướng dẫn từng bước và mã nguồn hoàn chỉnh.
 ### [Liên kết video qua ActiveX Control](./linking-video-activex-control/)

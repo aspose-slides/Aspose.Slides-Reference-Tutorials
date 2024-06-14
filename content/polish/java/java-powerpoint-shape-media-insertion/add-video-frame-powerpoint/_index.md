@@ -8,7 +8,7 @@ weight: 17
 url: /pl/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
 ## Wstęp
-tym samouczku przeprowadzimy Cię przez proces dodawania klatki wideo do prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie z łatwością bezproblemowo zintegrować treści wideo ze swoimi prezentacjami.
+W tym samouczku przeprowadzimy Cię przez proces dodawania klatki wideo do prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie z łatwością bezproblemowo zintegrować treści wideo ze swoimi prezentacjami.
 ## Warunki wstępne
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 - Zestaw Java Development Kit (JDK) zainstalowany w systemie
@@ -17,7 +17,7 @@ Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstęp
 Najpierw musisz zaimportować niezbędne pakiety, aby móc korzystać z funkcjonalności Aspose.Slides w swoim kodzie Java. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Skonfiguruj katalog dokumentów

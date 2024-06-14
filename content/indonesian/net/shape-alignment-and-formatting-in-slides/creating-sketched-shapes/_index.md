@@ -39,7 +39,7 @@ string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
 string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
 using (Presentation pres = new Presentation())
 {
-    // Lanjutkan ke langkah selanjutnya...
+    // Lanjutkan ke langkah berikutnya...
 }
 ```
 ## Langkah 3: Tambahkan Bentuk Sketsa
@@ -50,7 +50,7 @@ shape.FillFormat.FillType = FillType.NoFill;
 // Ubah bentuk menjadi sketsa gaya tangan bebas
 shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-## Langkah 4: Hasilkan Gambar Mini
+## Langkah 4: Hasilkan Gambar Kecil
 Buat thumbnail slide untuk memvisualisasikan bentuk sketsa. Simpan thumbnail sebagai file PNG.
 ```csharp
 pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
@@ -65,7 +65,7 @@ Itu dia! Anda telah berhasil membuat presentasi dengan bentuk sketsa menggunakan
 Menambahkan bentuk sketsa ke slide presentasi Anda dapat meningkatkan daya tarik visual dan melibatkan audiens Anda. Dengan Aspose.Slides untuk .NET, prosesnya menjadi mudah, memungkinkan Anda melepaskan kreativitas Anda dengan mudah.
 ## FAQ
 ### 1. Bisakah saya menyesuaikan efek sketsa?
-Ya, Aspose.Slides untuk .NET menyediakan berbagai opsi penyesuaian untuk efek sketsa. Mengacu kepada[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi rinci.
+ Ya, Aspose.Slides untuk .NET menyediakan berbagai opsi penyesuaian untuk efek sketsa. Mengacu kepada[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi rinci.
 ### 2. Apakah tersedia uji coba gratis?
  Tentu! Anda dapat menjelajahi uji coba gratis Aspose.Slides untuk .NET[Di Sini](https://releases.aspose.com/).
 ### 3. Dimana saya bisa mendapatkan dukungan?

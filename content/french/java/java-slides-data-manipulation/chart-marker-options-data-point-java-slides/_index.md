@@ -81,7 +81,7 @@ series.getMarker().setSize(15);
 
 ## Étape 6 : Sauvegarde de la présentation
 
-Une fois que vous avez personnalisé vos marqueurs de graphique, enregistrez la présentation pour voir les changements en action.
+Une fois que vous avez personnalisé vos marqueurs de graphique, enregistrez la présentation pour voir les modifications en action.
 
 ```java
 pres.save(dataDir + "CustomizedChart.pptx", SaveFormat.Pptx);
@@ -141,7 +141,7 @@ Avec Aspose.Slides pour Java, vous pouvez améliorer vos présentations en perso
 
 ### Puis-je utiliser des images comme marqueurs personnalisés ?
 
- Oui, vous pouvez utiliser des images comme marqueurs personnalisés pour les points de données. Définissez le type de remplissage sur`FillType.Picture`et fournissez l’image que vous souhaitez utiliser.
+ Oui, vous pouvez utiliser des images comme marqueurs personnalisés pour les points de données. Définissez le type de remplissage sur`FillType.Picture` et fournissez l’image que vous souhaitez utiliser.
 
 ### Aspose.Slides for Java est-il adapté à la création de graphiques dynamiques ?
 

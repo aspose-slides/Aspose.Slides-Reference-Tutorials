@@ -2,7 +2,7 @@
 title: Получить пример базового заполнителя
 linktitle: Получить пример базового заполнителя
 second_title: Aspose.Slides .NET API обработки PowerPoint
-description: Изучите Aspose.Slides для .NET — мощную библиотеку для работы с презентациями PowerPoint на C#. Научитесь создавать динамические слайды без особых усилий.
+description: Изучите Aspose.Slides для .NET, мощную библиотеку для работы с презентациями PowerPoint на C#. Научитесь создавать динамические слайды без особых усилий.
 type: docs
 weight: 13
 url: /ru/net/chart-creation-and-customization/get-base-placeholder-example/

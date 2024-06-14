@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 首先，您需要在 Java 项目中导入必要的包。这些导入将提供对本教程所需的 Aspose.Slides 功能的访问。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;

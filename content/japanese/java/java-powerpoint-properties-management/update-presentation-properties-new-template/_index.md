@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: メインメソッドを定義する
 新しいテンプレートを使用してプレゼンテーション プロパティを更新するプロセスを開始するメイン メソッドを作成します。このメソッドは、Java アプリケーションのエントリ ポイントとして機能します。

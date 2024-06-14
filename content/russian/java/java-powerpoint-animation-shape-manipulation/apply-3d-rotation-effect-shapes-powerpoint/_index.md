@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-eff
 Сначала давайте импортируем необходимые пакеты в ваш Java-проект. Этот импорт поможет вам обрабатывать презентации и фигуры с помощью Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте свой проект
 Прежде чем погрузиться в код, настройте среду проекта. Убедитесь, что вы добавили Aspose.Slides for Java в зависимости вашего проекта.
@@ -34,8 +34,8 @@ String dataDir = "Your Document Directory";
 // Создайте экземпляр класса Presentation
 Presentation pres = new Presentation();
 ```
-Этот фрагмент кода инициализирует новый объект презентации, куда мы будем добавлять фигуры.
-## Шаг 3. Добавьте прямоугольную форму
+Этот фрагмент кода инициализирует новый объект презентации, куда мы добавим наши фигуры.
+## Шаг 3: Добавьте прямоугольную форму
 Далее давайте добавим к первому слайду прямоугольную форму.
 ```java
 IShape autoShape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 200, 200);
@@ -65,14 +65,14 @@ autoShape.getThreeDFormat().getCamera().setCameraType(CameraPresetType.Isometric
 autoShape.getThreeDFormat().getLightRig().setLightType(LightRigPresetType.Balanced);
 ```
 Подобно прямоугольнику, мы устанавливаем 3D-свойства для формы линии.
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 После добавления и настройки фигур сохраните презентацию.
 ```java
 pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
 ```
 Этот код сохраняет презентацию с указанным именем файла в нужном формате.
 ## Заключение
-Поздравляем! Вы успешно применили эффекты трехмерного вращения к фигурам в презентации PowerPoint с помощью Aspose.Slides для Java. Следуя этим шагам, вы сможете создавать визуально привлекательные и динамичные презентации. Для дальнейшей настройки и дополнительных функций см.[Документация Aspose.Slides](https://reference.aspose.com/slides/java/).
+ Поздравляем! Вы успешно применили эффекты трехмерного вращения к фигурам в презентации PowerPoint с помощью Aspose.Slides для Java. Следуя этим шагам, вы сможете создавать визуально привлекательные и динамичные презентации. Для дальнейшей настройки и дополнительных функций см.[Документация Aspose.Slides](https://reference.aspose.com/slides/java/).
 ## Часто задаваемые вопросы
 ### Что такое Aspose.Slides для Java?
 Aspose.Slides для Java — это мощный API для программного создания, изменения и управления презентациями PowerPoint.

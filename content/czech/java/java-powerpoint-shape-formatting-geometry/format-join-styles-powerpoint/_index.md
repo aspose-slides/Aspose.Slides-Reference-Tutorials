@@ -12,14 +12,14 @@ Vytváření vizuálně přitažlivých prezentací v PowerPointu může být n�
 ## Předpoklady
 Než začneme, je potřeba splnit několik předpokladů:
 1.  Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Library: Musíte si stáhnout a zahrnout Aspose.Slides for Java do svého projektu. Můžete to získat od[tady](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Musíte si stáhnout a zahrnout Aspose.Slides for Java do svého projektu. Můžete to získat od[tady](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Použijte IDE jako IntelliJ IDEA, Eclipse nebo NetBeans k zápisu a spouštění kódu Java.
 4. Základní znalost Javy: Základní znalost programování v Javě vám pomůže postupovat spolu s výukovým programem.
 ## Importujte balíčky
 Nejprve musíte naimportovat potřebné balíčky pro Aspose.Slides. To je nezbytné pro přístup ke třídám a metodám požadovaným pro naše prezentační manipulace.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -32,9 +32,9 @@ boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
 ```
-V tomto kroku definujeme cestu k adresáři a zkontrolujeme, zda existuje. Pokud ne, vytvoříme adresář. Jedná se o jednoduchý, ale účinný způsob, jak mít soubory uspořádané.
+V tomto kroku definujeme cestu k adresáři a zkontrolujeme, zda existuje. Pokud ne, vytvoříme adresář. Jedná se o jednoduchý, ale účinný způsob, jak mít soubory pořádané.
 ## Krok 2: Inicializujte prezentaci
- Dále vytvoříme instanci`Presentation`třídy, která představuje náš soubor PowerPoint. To je základ, na kterém budeme stavět naše diapozitivy a tvary.
+ Dále vytvoříme instanci`Presentation` třídy, která představuje náš soubor PowerPoint. To je základ, na kterém budeme stavět naše diapozitivy a tvary.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -100,7 +100,7 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 ```
 Tento příkaz zapíše prezentaci do souboru PPTX, který můžete otevřít pomocí aplikace Microsoft PowerPoint nebo jiného kompatibilního softwaru.
 ## Závěr
-tady to máte! Právě jste vytvořili snímek aplikace PowerPoint se třemi obdélníky, z nichž každý představuje jiný styl spojení čar pomocí Aspose.Slides for Java. Tento výukový program vám nejen pomůže porozumět základům Aspose.Slides, ale také vám ukáže, jak vylepšit vaše prezentace jedinečnými styly. Šťastnou prezentaci!
+A tady to máte! Právě jste vytvořili snímek aplikace PowerPoint se třemi obdélníky, z nichž každý představuje jiný styl spojení čar pomocí Aspose.Slides for Java. Tento výukový program vám nejen pomůže porozumět základům Aspose.Slides, ale také vám ukáže, jak vylepšit vaše prezentace jedinečnými styly. Šťastnou prezentaci!
 ## FAQ
 ### Co je Aspose.Slides for Java?
 Aspose.Slides for Java je výkonné API pro vytváření, manipulaci a správu prezentací v PowerPointu programově.

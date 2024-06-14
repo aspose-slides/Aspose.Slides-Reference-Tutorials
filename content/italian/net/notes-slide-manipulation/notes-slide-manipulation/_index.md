@@ -1,6 +1,6 @@
 ---
-title: Note Manipolazione delle diapositive utilizzando Aspose.Slides
-linktitle: Note Manipolazione delle diapositive utilizzando Aspose.Slides
+title: Manipolazione delle diapositive di Notes utilizzando Aspose.Slides
+linktitle: Manipolazione delle diapositive di Notes utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come gestire intestazione e piè di pagina nelle diapositive di PowerPoint con Aspose.Slides per .NET. Rimuovi le note e personalizza le tue presentazioni senza sforzo.
 type: docs

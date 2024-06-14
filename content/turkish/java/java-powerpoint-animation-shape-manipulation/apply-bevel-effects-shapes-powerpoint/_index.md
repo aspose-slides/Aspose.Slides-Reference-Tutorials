@@ -11,7 +11,7 @@ url: /tr/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-s
 Görsel olarak çekici sunumlar oluşturmak, hedef kitlenizin dikkatini çekmek ve sürdürmek için çok önemlidir. Şekillere eğim efektleri eklemek, slaytlarınızın genel estetiğini geliştirerek sunumunuzun öne çıkmasını sağlayabilir. Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint'teki şekillere eğim efektleri uygulama sürecinde size yol göstereceğiz. İster sunum oluşturma işlemini otomatikleştirmek isteyen bir geliştirici olun, ister yalnızca tasarımla uğraşmayı seven biri olun, bu kılavuz size gereken her şeyi yapacaktır.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
--  Java Geliştirme Kiti (JDK): JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Geliştirme Kiti (JDK): JDK'nın kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Java için Aspose.Slides Library: Kütüphaneyi şu adresten indirin:[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
 - IDE (Entegre Geliştirme Ortamı): IntelliJ IDEA, Eclipse veya NetBeans gibi seçtiğiniz herhangi bir IDE'yi kullanın.
 -  Aspose Lisansı: Aspose.Slides'ı sınırlama olmaksızın kullanmak için adresinden lisans alın.[Satın Almayı Düşün](https://purchase.aspose.com/buy) veya bir tane al[geçici lisans](https://purchase.aspose.com/temporary-license/) Evrim için.
@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden e
 Öncelikle Java projenizde Aspose.Slides ile çalışmak için gerekli paketleri içe aktarmanız gerekiyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 1. Adım: Projenizi Kurun
@@ -47,7 +47,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 ## Adım 4: Slayda Şekil Ekleme
 Şimdi slayta bir şekil ekleyin. Bu örnekte bir elips ekleyeceğiz.
 ```java
-// Slayda şekil ekleme
+// Slayta şekil ekleme
 IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Ellipse, 30, 30, 100, 100);
 shape.getFillFormat().setFillType(FillType.Solid);
 shape.getFillFormat().getSolidFillColor().setColor(Color.GREEN);

@@ -8,7 +8,7 @@ weight: 21
 url: /vi/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
 ## Giới thiệu
-Việc tạo các slide thuyết trình hấp dẫn về mặt hình ảnh là điều cần thiết để thu hút và duy trì sự chú ý của khán giả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình cải thiện các trang trình bày của bạn bằng cách tô màu hình elip bằng dải màu bằng cách sử dụng Aspose.Slides for .NET.
+Việc tạo các slide thuyết trình hấp dẫn về mặt hình ảnh là điều cần thiết để thu hút và duy trì sự chú ý của khán giả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình cải thiện các trang trình bày của bạn bằng cách tô màu hình elip bằng dải màu bằng cách sử dụng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 - Kiến thức cơ bản về ngôn ngữ lập trình C#.
@@ -70,6 +70,6 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 ### Câu hỏi: Có bản dùng thử miễn phí dành cho Aspose.Slides cho .NET không?
  Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho .NET?
-Đáp: Tìm kiếm sự trợ giúp và tham gia với cộng đồng trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ Đáp: Tìm kiếm sự trợ giúp và tham gia với cộng đồng trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Câu hỏi: Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho .NET không?
  A: Chắc chắn là bạn có thể xin được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

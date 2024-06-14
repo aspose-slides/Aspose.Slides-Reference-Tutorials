@@ -71,7 +71,7 @@ En conclusión, Aspose.Slides para .NET permite a los desarrolladores llevar sus
 ### P: ¿Hay una prueba gratuita disponible para Aspose.Slides?
  R: Sí, puedes acceder a la prueba gratuita.[aquí](https://releases.aspose.com/).
 ### P: ¿Dónde puedo encontrar soporte para Aspose.Slides?
-R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
+ R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
 ### P: ¿Cómo obtengo una licencia temporal para Aspose.Slides?
  R: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo comprar Aspose.Slides para .NET?

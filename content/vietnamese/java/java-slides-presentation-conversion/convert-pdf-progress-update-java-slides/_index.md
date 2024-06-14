@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## Bước 2: Tạo một lớp Java
 
-Tạo một lớp Java nơi bạn sẽ thực hiện chuyển đổi PowerPoint sang PDF. Hãy đặt tên cho nó`PowerPointToPdfConverter`.
+ Tạo một lớp Java nơi bạn sẽ thực hiện chuyển đổi PowerPoint sang PDF. Hãy đặt tên cho nó`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## Bước 5: Biên dịch và chạy
 
- Biên dịch lớp Java của bạn và chạy`PowerPointToPdfConverter` lớp học. Nó sẽ chuyển đổi bản trình bày PowerPoint thành tệp PDF đồng thời cung cấp các cập nhật tiến độ trong bảng điều khiển.
+Biên dịch lớp Java của bạn và chạy`PowerPointToPdfConverter` lớp học. Nó sẽ chuyển đổi bản trình bày PowerPoint thành tệp PDF đồng thời cung cấp các cập nhật tiến độ trong bảng điều khiển.
 
 ## Mã nguồn hoàn chỉnh để chuyển đổi sang PDF với cập nhật tiến trình trong Java Slides
 
@@ -117,4 +117,4 @@ Có, Aspose.Slides for Java cung cấp chức năng mở rộng để làm việ
 
 ### Làm cách nào tôi có thể tùy chỉnh các tùy chọn chuyển đổi PDF?
 
- Bạn có thể tùy chỉnh các tùy chọn chuyển đổi PDF bằng cách sửa đổi`PdfOptions` đối tượng trước khi gọi`presentation.save`phương pháp. Điều này bao gồm các thuộc tính cài đặt như kích thước trang, chất lượng, v.v.
+ Bạn có thể tùy chỉnh các tùy chọn chuyển đổi PDF bằng cách sửa đổi`PdfOptions` đối tượng trước khi gọi`presentation.save` phương pháp. Điều này bao gồm các thuộc tính cài đặt như kích thước trang, chất lượng, v.v.

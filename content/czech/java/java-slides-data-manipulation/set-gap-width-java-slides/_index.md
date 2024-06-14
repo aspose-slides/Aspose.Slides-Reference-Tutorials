@@ -128,7 +128,7 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // Vezměte druhou řadu grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -143,7 +143,7 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 
 ## Závěr
 
-V tomto tutoriálu jste se naučili, jak nastavit šířku mezery pro graf v prezentaci PowerPoint pomocí Aspose.Slides for Java. Úprava šířky mezery vám umožňuje řídit mezery mezi sloupci nebo pruhy v grafu, což zlepšuje vizuální reprezentaci vašich dat.
+V tomto tutoriálu jste se naučili, jak nastavit šířku mezery pro graf v prezentaci PowerPoint pomocí Aspose.Slides for Java. Úpravou šířky mezery můžete ovládat mezery mezi sloupci nebo pruhy v grafu a zlepšit tak vizuální reprezentaci vašich dat.
 
 ## FAQ
 

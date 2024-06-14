@@ -84,6 +84,6 @@ url: /zh/java/presentation-conversion/
 ### [使用 Java Slides 中的 XPS 选项进行转换](./convert-with-xps-options-java-slides/)
 了解如何使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿转换为 XPS 格式。自定义选项以实现无缝转换过程。
 ### [在 Java 幻灯片中转换为 SWF](./convert-to-swf-java-slides/)
-使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 SWF 格式。按照我们的分步指南和源代码进行无缝转换。
-### [在 Java Slides 中通过进度更新转换为 PDF](./convert-pdf-progress-update-java-slides/)
-使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF，并进行进度更新。分步指南，包含源代码和进度跟踪，实现无缝转换。
+使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 SWF 格式。按照带有源代码的分步指南进行无缝转换。
+### [在 Java Slides 中使用进度更新转换为 PDF](./convert-pdf-progress-update-java-slides/)
+使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF 并进行进度更新。分步指南包含源代码和进度跟踪，可实现无缝转换。

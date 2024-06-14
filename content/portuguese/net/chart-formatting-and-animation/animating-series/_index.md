@@ -38,7 +38,7 @@ using Aspose.Slides;
 
 ## Etapa 2: carregar a apresentação existente
 
-Nesta etapa, carregue sua apresentação PowerPoint existente (PPTX) que contém o gráfico que você deseja animar.
+Nesta etapa, carregue sua apresentação existente do PowerPoint (PPTX) que contém o gráfico que você deseja animar.
 
 ```csharp
 // Caminho para o diretório do documento
@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Depois de adicionar os efeitos de animação ao gráfico, salve a apresentação modificada no disco.
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

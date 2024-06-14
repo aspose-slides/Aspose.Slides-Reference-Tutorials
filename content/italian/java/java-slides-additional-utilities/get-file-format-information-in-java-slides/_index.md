@@ -96,7 +96,7 @@ In questo tutorial, abbiamo imparato come ottenere informazioni sul formato del 
 
 ### Come posso ottenere la libreria Aspose.Slides per Java?
 
- È possibile scaricare la libreria Aspose.Slides per Java dal sito Web Aspose all'indirizzo[questo link](https://releases.aspose.com/slides/java/)Scegli la versione appropriata per il tuo progetto.
+ È possibile scaricare la libreria Aspose.Slides per Java dal sito Web Aspose all'indirizzo[questo link](https://releases.aspose.com/slides/java/). Scegli la versione appropriata per il tuo progetto.
 
 ### Posso utilizzare questo codice con altre librerie di presentazione Java?
 

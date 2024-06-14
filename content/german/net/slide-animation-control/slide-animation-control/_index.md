@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation(dataDir + "BetterSlideTransitions.pp
 }
 ```
 ## Schritt 2: Kreistyp-Übergang anwenden
-Wenden Sie auf die erste Folie einen kreisförmigen Übergang an:
+Wenden Sie auf der ersten Folie einen kreisförmigen Übergang an:
 ```csharp
 pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
 ```

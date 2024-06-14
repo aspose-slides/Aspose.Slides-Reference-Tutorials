@@ -133,7 +133,7 @@ En este completo tutorial, ha aprendido cómo crear diapositivas Java con marcad
 
 ### ¿Cómo puedo cambiar los símbolos del marcador?
 
- Puede personalizar los símbolos del marcador configurando el estilo del marcador para cada punto de datos. Usar`IDataPoint.setMarkerStyle()` para cambiar el símbolo del marcador.
+Puede personalizar los símbolos del marcador configurando el estilo del marcador para cada punto de datos. Usar`IDataPoint.setMarkerStyle()` para cambiar el símbolo del marcador.
 
 ### ¿Cómo ajusto los colores del gráfico?
 

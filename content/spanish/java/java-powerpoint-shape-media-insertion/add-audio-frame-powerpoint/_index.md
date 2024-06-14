@@ -18,7 +18,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 Importe los paquetes necesarios a su proyecto Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

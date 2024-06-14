@@ -8,7 +8,7 @@ weight: 12
 url: /pl/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
 
-świecie prezentacji multimedialnych dźwięk odgrywa kluczową rolę we wzmacnianiu ogólnego wrażenia slajdów. Czy kiedykolwiek natknąłeś się na prezentację programu PowerPoint zawierającą hiperłącza audio i zastanawiałeś się, jak wyodrębnić dźwięk do innych zastosowań? Dzięki Aspose.Slides dla .NET możesz bez wysiłku osiągnąć to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces wyodrębniania dźwięku z hiperłącza w prezentacji programu PowerPoint.
+W świecie prezentacji multimedialnych dźwięk odgrywa kluczową rolę we wzmacnianiu ogólnego wrażenia slajdów. Czy kiedykolwiek natknąłeś się na prezentację programu PowerPoint zawierającą hiperłącza audio i zastanawiałeś się, jak wyodrębnić dźwięk do innych zastosowań? Dzięki Aspose.Slides dla .NET możesz bez wysiłku osiągnąć to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces wyodrębniania dźwięku z hiperłącza w prezentacji programu PowerPoint.
 
 ## Warunki wstępne
 
@@ -16,7 +16,7 @@ Zanim zagłębimy się w proces ekstrakcji, upewnij się, że spełnione są nas
 
 ### 1. Aspose.Slides dla biblioteki .NET
 
- Musisz mieć zainstalowaną bibliotekę Aspose.Slides for .NET w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony internetowej pod adresem[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+Musisz mieć zainstalowaną bibliotekę Aspose.Slides for .NET w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go ze strony internetowej pod adresem[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. Prezentacja programu PowerPoint z hiperłączami audio
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Krok 2: Załaduj prezentację programu PowerPoint
 
- Załaduj prezentację programu PowerPoint (PPTX) zawierającą hiperłącze audio za pomocą Aspose.Slides. Zastępować`"HyperlinkSound.pptx"` z rzeczywistą nazwą pliku prezentacji.
+ Załaduj prezentację programu PowerPoint (PPTX) zawierającą hiperłącze audio za pomocą Aspose.Slides. Zastępować`"HyperlinkSound.pptx"` rzeczywistą nazwą pliku prezentacji.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Jeśli hiperłącze ma powiązany dźwięk, możemy wyodrębnić go jako tablicę bajtów i zapisać jako plik multimedialny.
 
 ```csharp
-//Wyodrębnia dźwięk hiperłącza w tablicy bajtów
+// Wyodrębnia dźwięk hiperłącza w tablicy bajtów
 byte[] audioData = link.Sound.BinaryData;
 
 // Określ ścieżkę, w której chcesz zapisać wyodrębniony dźwięk
@@ -101,7 +101,7 @@ Tak, Aspose.Slides dla .NET obsługuje formaty PPTX i PPT do wyodrębniania dźw
  Tak, możesz uzyskać pomoc i podzielić się swoimi doświadczeniami z Aspose.Slides w[Forum społeczności Aspose.Slides](https://forum.aspose.com/).
 
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides na projekt krótkoterminowy?
- Tak, możesz uzyskać tymczasową licencję na Aspose.Slides dla .NET, aby spełnić Twoje krótkoterminowe potrzeby projektowe, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję na Aspose.Slides dla .NET, aby spełnić Twoje krótkoterminowe potrzeby projektowe, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Czy oprócz MPG obsługiwane są inne formaty audio do ekstrakcji?
 Aspose.Slides dla .NET umożliwia wyodrębnianie dźwięku w różnych formatach, nie ograniczając się do MPG. Po wyodrębnieniu możesz przekonwertować go na preferowany format.

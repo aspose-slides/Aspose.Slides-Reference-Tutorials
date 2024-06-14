@@ -14,7 +14,7 @@ Dans ce didacticiel, nous explorerons comment gérer les propriétés et créer 
 
 ## Conditions préalables
 
- Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée et configurée dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
+Avant de commencer, assurez-vous que la bibliothèque Aspose.Slides pour Java est installée et configurée dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 
 ## Ajout d'un graphique à une diapositive
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Prendre la deuxième série de graphiques
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Remplir maintenant les données de série
+// Remplir maintenant les données de série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ Dans ce didacticiel, nous avons plongé dans le monde de la gestion des proprié
 
 ### Comment puis-je changer le type de graphique ?
 
- Vous pouvez changer le type de graphique en modifiant le`ChartType`paramètre lors de l’ajout du graphique. Reportez-vous à la documentation Aspose.Slides pour connaître les types de graphiques disponibles.
+ Vous pouvez changer le type de graphique en modifiant le`ChartType` paramètre lors de l’ajout du graphique. Reportez-vous à la documentation Aspose.Slides pour connaître les types de graphiques disponibles.
 
 ### Puis-je personnaliser les couleurs du graphique ?
 
@@ -195,6 +195,6 @@ Oui, vous pouvez personnaliser les couleurs du graphique en définissant les pro
 
  Pour définir un angle de rotation différent pour les axes X et Y, utilisez`chart.getRotation3D().setRotationX()` et`chart.getRotation3D().setRotationY()` avec les valeurs d'angle souhaitées.
 
-### Quelles autres propriétés 3D puis-je personnaliser ?
+### Quelles autres propriétés 3D puis-je personnaliser ?
 
 Vous pouvez explorer d'autres propriétés 3D du graphique, telles que la profondeur, la perspective et l'éclairage, en vous référant à la documentation Aspose.Slides.

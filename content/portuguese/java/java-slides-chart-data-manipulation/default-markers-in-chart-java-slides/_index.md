@@ -133,7 +133,7 @@ Neste tutorial abrangente, você aprendeu como criar slides Java com marcadores 
 
 ### Como posso alterar os símbolos dos marcadores?
 
- Você pode personalizar os símbolos do marcador definindo o estilo do marcador para cada ponto de dados. Usar`IDataPoint.setMarkerStyle()` para alterar o símbolo do marcador.
+Você pode personalizar os símbolos do marcador definindo o estilo do marcador para cada ponto de dados. Usar`IDataPoint.setMarkerStyle()` para alterar o símbolo do marcador.
 
 ### Como ajusto as cores do gráfico?
 

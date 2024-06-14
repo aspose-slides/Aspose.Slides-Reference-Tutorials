@@ -9,13 +9,13 @@ url: /ko/net/shape-effects-and-manipulation-in-slides/applying-animations-to-sha
 ---
 ## 소개
 동적 프레젠테이션 세계에서 도형에 애니메이션을 추가하면 슬라이드의 시각적 매력과 참여도가 크게 향상될 수 있습니다. .NET용 Aspose.Slides는 이를 원활하게 수행할 수 있는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 도형에 애니메이션을 적용하는 과정을 안내하여 지속적인 인상을 남기는 매력적인 프레젠테이션을 만들 수 있습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 준비되어 있는지 확인하세요.
 1.  .NET용 Aspose.Slides: 라이브러리가 설치되어 있고 사용할 준비가 되었는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 2. 개발 환경: 필요한 구성으로 원하는 개발 환경을 설정합니다.
 3. 문서 디렉터리: 프레젠테이션 파일을 저장할 디렉터리를 만듭니다.
 ## 네임스페이스 가져오기
-.NET 애플리케이션에서 필수 네임스페이스를 가져오는 것부터 시작하세요.
+.NET 애플리케이션에서 필수 네임스페이스를 가져오는 것부터 시작합니다.
 ```csharp
 using System.IO;
 using Aspose.Slides;
@@ -24,7 +24,7 @@ using Aspose.Slides.Animation;
 using System.Drawing;
 ```
 ## 1단계: 프레젠테이션 만들기
- 다음을 사용하여 새 프리젠테이션을 작성하여 시작하십시오.`Presentation` 수업:
+ 다음을 사용하여 새 프레젠테이션을 만드는 것부터 시작하세요.`Presentation` 수업:
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //프레젠테이션을 만들기 위한 코드가 여기에 있습니다.
+    // 프레젠테이션을 만들기 위한 코드가 여기에 있습니다.
 }
 ```
 ## 2단계: 애니메이션 모양 추가

@@ -19,7 +19,7 @@ Koda dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 Öncelikle örneğimiz için gerekli olan paketleri import edelim.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -69,7 +69,7 @@ Desenimizin renklerini özelleştirebiliriz. Arka plan rengini açık gri, ön p
 shape.getFillFormat().getPatternFormat().getBackColor().setColor(Color.LIGHT_GRAY);
 shape.getFillFormat().getPatternFormat().getForeColor().setColor(Color.YELLOW);
 ```
-## Adım 9: Sunuyu Kaydedin
+## Adım 9: Sunuyu Kaydetme
 Şeklimizi istediğimiz desenle oluşturduktan sonra sunumu bir dosyaya kaydetmemiz gerekiyor.
 ```java
 pres.save(dataDir + "RectShpPatt_out.pptx", SaveFormat.Pptx);

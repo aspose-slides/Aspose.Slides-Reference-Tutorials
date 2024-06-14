@@ -65,7 +65,7 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
 ```
 ¡Ahora ha controlado con éxito las animaciones de diapositivas utilizando Aspose.Slides para .NET!
 ## Conclusión
-Animar diapositivas en tus presentaciones agrega un toque dinámico, haciendo que tu contenido sea más atractivo. Con Aspose.Slides para .NET, el proceso se vuelve sencillo y le permite crear presentaciones visualmente atractivas sin esfuerzo.
+Animar diapositivas en tus presentaciones agrega un toque dinámico, haciendo que tu contenido sea más atractivo. Con Aspose.Slides para .NET, el proceso se vuelve sencillo, permitiéndole crear presentaciones visualmente atractivas sin esfuerzo.
 ## Preguntas frecuentes
 ### ¿Puedo personalizar aún más los efectos de transición?
  Sí, Aspose.Slides proporciona una amplia gama de tipos de transición y propiedades adicionales para personalización. Referirse a[documentación](https://reference.aspose.com/slides/net/) para detalles.

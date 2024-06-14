@@ -12,14 +12,14 @@ Bạn đang muốn thao tác các hình dạng trong bản trình bày PowerPoin
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình. Bạn có thể tải nó xuống từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides cho Java: Tải xuống thư viện Aspose.Slides cho Java từ[đây](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides cho Java: Tải xuống thư viện Aspose.Slides cho Java từ[đây](https://releases.aspose.com/slides/java/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như IntelliJ IDEA hoặc Eclipse để viết và chạy mã Java của bạn.
 4. Kiến thức cơ bản về Java: Hiểu biết cơ bản về lập trình Java sẽ giúp bạn làm theo hướng dẫn này.
 ## Gói nhập khẩu
 Để bắt đầu, chúng ta cần nhập các gói cần thiết từ thư viện Aspose.Slides. Đây là cách bạn làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Hãy chia nhỏ quy trình xóa một đoạn khỏi hình dạng hình học trong trang chiếu PowerPoint thành nhiều bước.
 ## Bước 1: Tạo bản trình bày mới
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## Bước 6: Lưu bài thuyết trình
 Cuối cùng, lưu bản trình bày đã sửa đổi vào một tệp.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## Bước 7: Dọn dẹp tài nguyên

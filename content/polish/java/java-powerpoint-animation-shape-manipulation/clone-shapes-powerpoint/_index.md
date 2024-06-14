@@ -12,13 +12,13 @@ W tym samouczku omówimy, jak klonować kształty w prezentacjach programu Power
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit. Możesz pobrać i zainstalować najnowszą wersję ze strony[strona internetowa](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Biblioteka Aspose.Slides for Java: Pobierz i dołącz bibliotekę Aspose.Slides for Java do swojego projektu Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/slides/java/).
+2. Biblioteka Aspose.Slides for Java: Pobierz i dołącz bibliotekę Aspose.Slides for Java do swojego projektu Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/slides/java/).
 
 ## Importuj pakiety
 Aby rozpocząć, musisz zaimportować niezbędne pakiety do swojego projektu Java. Pakiety te zapewniają funkcjonalności wymagane do pracy z prezentacjami programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Załaduj prezentację
  Najpierw musisz załadować prezentację programu PowerPoint zawierającą kształty, które chcesz sklonować. Użyj`Presentation` class, aby załadować prezentację źródłową.

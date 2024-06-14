@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/set-legend-custom-options-java-slides
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 차트의 범례 속성을 사용자 정의하는 방법을 보여줍니다. 프레젠테이션 요구 사항에 맞게 범례의 위치, 크기 및 기타 속성을 수정할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

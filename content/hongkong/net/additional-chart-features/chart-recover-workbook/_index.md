@@ -8,7 +8,7 @@ weight: 12
 url: /zh-hant/net/additional-chart-features/chart-recover-workbook/
 ---
 
-如果您希望在 .NET 中使用 PowerPoint 簡報，Aspose.Slides for .NET 是一個功能強大的程式庫，可以幫助您實現目標。在本教程中，我們將指導您完成使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的圖表恢復工作簿的過程。當您需要從簡報中的圖表中提取資料時，此強大的功能非常有用。我們將把該過程分解為易於遵循的步驟，確保您清楚地了解如何完成此任務。
+如果您希望在 .NET 中使用 PowerPoint 簡報，Aspose.Slides for .NET 是一個功能強大的程式庫，可以協助您實現目標。在本教程中，我們將指導您完成使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的圖表恢復工作簿的過程。當您需要從簡報中的圖表中提取資料時，此強大的功能非常有用。我們將把該過程分解為易於遵循的步驟，確保您清楚地了解如何完成此任務。
 
 ## 先決條件
 

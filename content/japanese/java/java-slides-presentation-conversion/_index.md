@@ -73,7 +73,7 @@ Aspose.Slides for Java を使用して、PowerPoint プレゼンテーション�
 Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを XAML に変換する方法を学びます。シームレスな統合のために、ステップバイステップのガイドに従ってください。
 ### [Java スライドでプレゼンテーション全体を HTML に変換する](./convert-whole-presentation-html-java-slides/)
 Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを HTML に変換する方法を学びます。コード例付きのステップバイステップ ガイド。
-### [Java スライドでメディア ファイルを使用してプレゼンテーション全体を HTML に変換する](./convert-whole-presentation-html-media-files-java-slides/)
+### [Java スライドでメディア ファイルを含むプレゼンテーション全体を HTML に変換する](./convert-whole-presentation-html-media-files-java-slides/)
 Java Slides を使用して、プレゼンテーションをメディア ファイル付きの HTML に変換する方法を学びます。Aspose.Slides for Java API のステップ バイ ステップ ガイドに従ってください。
 ### [Java スライドでカスタム サイズに変換する](./convert-custom-size-java-slides/)
 Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションをカスタム サイズの TIFF 画像に変換する方法を学びます。開発者向けのコード例を含むステップ バイ ステップ ガイド。

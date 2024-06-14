@@ -19,7 +19,7 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Dostęp do kolekcji kształtów
 Uzyskaj dostęp do kolekcji kształtów dla wybranego slajdu:

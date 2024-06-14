@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
+// บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
 options.setEmbedImages(true); // ตั้งค่าเป็นจริงเพื่อฝังรูปภาพ
-// กำหนดเส้นทางสำหรับภาพภายนอก (หากจำเป็น)
+//กำหนดเส้นทางสำหรับภาพภายนอก (หากจำเป็น)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // เส้นทางสู่การนำเสนอแหล่งที่มา
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // เส้นทางไปยังเอกสาร HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
+	// บังคับไม่บันทึกรูปภาพในเอกสาร HTML5
 	options.setEmbedImages(false);
 	// กำหนดเส้นทางสำหรับภาพภายนอก
 	options.setOutputPath(outFilePath);

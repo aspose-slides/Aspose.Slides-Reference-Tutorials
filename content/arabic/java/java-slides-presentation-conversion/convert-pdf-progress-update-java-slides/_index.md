@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## الخطوة 2: إنشاء فئة جافا
 
-قم بإنشاء فئة Java حيث ستقوم بإجراء تحويل PowerPoint إلى PDF. دعونا نسميها`PowerPointToPdfConverter`.
+ قم بإنشاء فئة Java حيث ستقوم بإجراء تحويل PowerPoint إلى PDF. دعونا نسميها`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## الخطوة 5: تجميع وتشغيل
 
- قم بتجميع فئة Java الخاصة بك وتشغيل ملف`PowerPointToPdfConverter` فصل. سيقوم بتحويل عرض PowerPoint التقديمي إلى ملف PDF مع توفير تحديثات التقدم في وحدة التحكم.
+قم بتجميع فئة Java الخاصة بك وتشغيل ملف`PowerPointToPdfConverter` فصل. سيقوم بتحويل عرض PowerPoint التقديمي إلى ملف PDF مع توفير تحديثات التقدم في وحدة التحكم.
 
 ## أكمل كود المصدر للتحويل إلى PDF مع تحديث التقدم في شرائح Java
 
@@ -117,4 +117,4 @@ class ExportProgressHandler implements IProgressCallback
 
 ### كيف يمكنني تخصيص خيارات تحويل PDF؟
 
- يمكنك تخصيص خيارات تحويل PDF عن طريق تعديل ملف`PdfOptions` كائن قبل استدعاء`presentation.save`طريقة. يتضمن ذلك تعيين خصائص مثل حجم الصفحة والجودة والمزيد.
+ يمكنك تخصيص خيارات تحويل PDF عن طريق تعديل ملف`PdfOptions` كائن قبل استدعاء`presentation.save` طريقة. يتضمن ذلك تعيين خصائص مثل حجم الصفحة والجودة والمزيد.

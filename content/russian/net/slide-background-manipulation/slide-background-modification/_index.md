@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Здесь будет находиться ваш код для изменения фона слайда.
     // Мы рассмотрим это на следующих шагах.
     
-    // Сохраните измененную презентацию
+    //Сохраните измененную презентацию
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## Шаг 6. Сохраните измененную презентацию
 
 ```csharp
-// Сохраните измененную презентацию
+//Сохраните измененную презентацию
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

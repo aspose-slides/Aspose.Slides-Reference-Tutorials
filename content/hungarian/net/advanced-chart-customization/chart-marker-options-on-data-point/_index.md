@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Az alapértelmezett diagram létrehozása
+//Az alapértelmezett diagram létrehozása
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Végül elmentjük a prezentációt az új diagrambeállításokkal.
 
 Az Aspose.Slides for .NET lehetővé teszi, hogy lenyűgöző diagramprezentációkat készítsen különféle testreszabási lehetőségekkel. Ebben az oktatóanyagban arra összpontosítottunk, hogy az adatpontokon diagramjelölő-beállításokat használjunk, hogy javítsuk az adatok vizuális megjelenítését. A .NET-hez készült Aspose.Slides segítségével prezentációit a következő szintre emelheti, így vonzóbbá és informatívabbá teheti azokat.
 
- Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.Slides for .NET-hez kapcsolódóan, keresse fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) vagy nyúljon a[Aspose közösség](https://forum.aspose.com/) támogatásért.
+Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.Slides for .NET-hez kapcsolódóan, keresse fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) vagy nyúljon a[Aspose közösség](https://forum.aspose.com/) támogatásért.
 
 ## Gyakran Ismételt Kérdések (GYIK)
 
@@ -138,7 +138,7 @@ Az Aspose.Slides for .NET lehetővé teszi, hogy lenyűgöző diagramprezentáci
 Igen, az Aspose.Slides for .NET alkalmazásban egyéni képeket használhat adatpontok jelölőiként, amint az ebben az oktatóanyagban látható.
 
 ### Hogyan módosíthatom a diagram típusát az Aspose.Slides for .NET-ben?
- diagram típusát egy másik megadásával módosíthatja`ChartType` a diagram létrehozásakor, például „Sáv”, „Korta” vagy „Terület”.
+ A diagram típusát egy másik megadásával módosíthatja`ChartType` a diagram létrehozásakor, például „Sáv”, „Korta” vagy „Terület”.
 
 ### Az Aspose.Slides for .NET kompatibilis a PowerPoint legújabb verzióival?
 Az Aspose.Slides for .NET úgy lett kialakítva, hogy különböző PowerPoint-formátumokkal működjön, és rendszeresen frissítik a legújabb PowerPoint-verziókkal való kompatibilitás fenntartása érdekében.

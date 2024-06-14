@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//فرض عدم حفظ الصور في مستند HTML5
+// فرض عدم حفظ الصور في مستند HTML5
 options.setEmbedImages(true); // اضبط على صحيح لتضمين الصور
-// تعيين المسار للصور الخارجية (إذا لزم الأمر)
+//تعيين المسار للصور الخارجية (إذا لزم الأمر)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // المسار إلى العرض التقديمي المصدر
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // المسار إلى مستند HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//فرض عدم حفظ الصور في مستند HTML5
+	// فرض عدم حفظ الصور في مستند HTML5
 	options.setEmbedImages(false);
 	// تحديد المسار للصور الخارجية
 	options.setOutputPath(outFilePath);

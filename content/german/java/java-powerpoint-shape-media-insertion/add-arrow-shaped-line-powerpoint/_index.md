@@ -19,7 +19,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 Importieren Sie zunächst die erforderlichen Pakete in Ihre Java-Klasse:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Ja, Sie können einer einzelnen Folie mehrere pfeilförmige Linien hinzufügen, 
 ### Ist Aspose.Slides für Java mit den neuesten Versionen von PowerPoint kompatibel?
 Aspose.Slides für Java unterstützt die Kompatibilität mit verschiedenen Versionen von PowerPoint und gewährleistet so eine nahtlose Integration in Ihre Präsentationen.
 ### Kann ich die Farbe der pfeilförmigen Linie anpassen?
- Ja, Sie können die Farbe der pfeilförmigen Linie anpassen, indem Sie die`SolidFillColor` -Eigenschaft im Code.
+Ja, Sie können die Farbe der pfeilförmigen Linie anpassen, indem Sie die`SolidFillColor` -Eigenschaft im Code.
 ### Unterstützt Aspose.Slides für Java außer Linien auch andere Formen?
 Ja, Aspose.Slides für Java bietet umfassende Unterstützung für das Hinzufügen verschiedener Formen, darunter Rechtecke, Kreise und Polygone, zu PowerPoint-Folien.
 ### Wo finde ich weitere Ressourcen und Support für Aspose.Slides für Java?

@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
+// ضبط تنسيق خطوط الشبكة الثانوية لمحور الفئة
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// تحديد لون منطقة الأرض
+//تحديد لون منطقة الأرض
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET هي مكتبة قوية تسمح لمطوري .NET بإ�
 
 ### 3. هل تتوفر نسخة تجريبية مجانية من Aspose.Slides لـ .NET؟
 
-نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/).
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/).
 
 ### 4. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 

@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Une fois que vous avez ajouté les effets d'animation à votre graphique, enregistrez la présentation modifiée sur le disque.
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

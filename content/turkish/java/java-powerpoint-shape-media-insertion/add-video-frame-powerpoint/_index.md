@@ -17,7 +17,7 @@ Başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun
 Öncelikle Java kodunuzdaki Aspose.Slides işlevlerini kullanabilmek için gerekli paketleri içe aktarmanız gerekir. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. Adım: Belge Dizinini Ayarlayın
@@ -57,6 +57,6 @@ Evet, Aspose.Slides for Java, JDK sürüm 6 ve üzeri ile uyumludur.
 ### Video çerçevesinin boyutunu ve konumunu nasıl ayarlayabilirim?
  Parametreleri değiştirerek video çerçevesinin boyutlarını ve koordinatlarını özelleştirebilirsiniz.`addVideoFrame` yöntem.
 ### Videonun oynatma ayarlarını kontrol edebilir miyim?
-Evet, video karesinin oynatma modunu ve ses seviyesini tercihlerinize göre ayarlayabilirsiniz.
+Evet, video karesinin oynatma modunu ve ses düzeyini tercihlerinize göre ayarlayabilirsiniz.
 ### Aspose.Slides için daha fazla desteği ve kaynağı nerede bulabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım, dokümantasyon ve topluluk desteği için.

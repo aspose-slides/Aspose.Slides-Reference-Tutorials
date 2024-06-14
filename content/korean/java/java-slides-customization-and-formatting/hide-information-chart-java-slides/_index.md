@@ -50,7 +50,7 @@ chart.getAxes().getVerticalAxis().setVisible(false);
 
 ## 6단계: 카테고리 축 숨기기
 
-범주 축(가로 축)을 숨기려면 다음 코드를 사용합니다.
+범주 축(가로 축)을 숨기려면 다음 코드를 사용하세요.
 
 ```java
 chart.getAxes().getHorizontalAxis().setVisible(false);
@@ -107,7 +107,7 @@ pres.save(dataDir + "HideInformationFromChart.pptx", SaveFormat.Pptx);
 
 그게 다야! Aspose.Slides for Java를 사용하여 Java 슬라이드의 차트에서 다양한 요소를 성공적으로 숨겼습니다. 특정 요구 사항에 따라 필요에 따라 차트와 프리젠테이션을 추가로 사용자 정의할 수 있습니다.
 
-## Java 슬라이드의 차트에서 정보 숨기기를 위한 전체 소스 코드
+## Java 슬라이드의 차트에서 정보 숨기기를 위한 완전한 소스 코드
 
 ```java
 // 문서 디렉터리의 경로입니다.

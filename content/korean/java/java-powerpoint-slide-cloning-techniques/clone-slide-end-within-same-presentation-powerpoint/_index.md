@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-sa
 ---
 ## 소개
 Java를 사용하여 프레젠테이션 조작 기술을 향상시키고 싶으십니까? Aspose.Slides for Java는 PowerPoint 프레젠테이션을 손쉽게 생성, 수정 및 조작할 수 있는 강력한 라이브러리입니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용하여 동일한 프레젠테이션의 끝 부분에 슬라이드를 복제하는 방법을 안내합니다. 이 튜토리얼이 끝나면 자신의 프로젝트에서 이 기능을 사용하는 방법을 확실히 이해할 수 있을 것입니다. 뛰어들어보자!
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1.  컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다. 다음에서 다운로드할 수 있습니다.[자바 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides for Java 라이브러리. 다음에서 다운로드할 수 있습니다.[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -21,7 +21,7 @@ Java를 사용하여 프레젠테이션 조작 기술을 향상시키고 싶으�
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프로젝트 설정
 시작하려면 선호하는 IDE에서 Java 프로젝트를 설정하고 프로젝트 종속성에 Aspose.Slides 라이브러리를 포함하세요.

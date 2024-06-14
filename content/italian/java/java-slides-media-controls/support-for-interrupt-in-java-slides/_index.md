@@ -1,6 +1,6 @@
 ---
-title: Supporto per Interrupt in Java Slides
-linktitle: Supporto per Interrupt in Java Slides
+title: Supporto per Interrupt nelle diapositive Java
+linktitle: Supporto per Interrupt nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Gestione delle interruzioni di Master Java Slides con Aspose.Slides per Java. Questa guida dettagliata fornisce istruzioni dettagliate ed esempi di codice per una gestione fluida degli interrupt.
 type: docs
@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Codice sorgente completo per il supporto dell'interruzione nelle diapositive Java
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

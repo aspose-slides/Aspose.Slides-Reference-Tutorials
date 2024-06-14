@@ -41,7 +41,7 @@ Ismerje meg, hogyan alakíthat át prezentációkat reszponzív HTML-vé az Aspo
 ### [Diák konvertálása PDF-be a jegyzetekkel](./convert-slides-to-pdf-with-notes/)
 Az Aspose.Slides for .NET segítségével könnyedén konvertálhat prezentációs diákat az előadói jegyzetekkel PDF-formátumba. A tartalom és a kontextus zökkenőmentes megőrzése.
 ### [Konvertálja az adott diát PDF formátumba](./convert-specific-slide-to-pdf-format/)
-Ismerje meg, hogyan konvertálhat adott PowerPoint diákat PDF formátumba az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan konvertálhat adott PowerPoint diákat PDF formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [Prezentáció konvertálása GIF-animációvá](./convert-presentation-to-gif-animation/)
 Hozzon létre lenyűgöző prezentációkat GIF-animációkkal az Aspose.Slides for .NET segítségével. Alakítsa át a statikus diákat dinamikus vizuális élményekké.
 ### [Konvertálja a bemutató diákat GIF formátumba](./convert-presentation-slides-to-gif-format/)
@@ -49,13 +49,13 @@ Ebből a lépésenkénti útmutatóból megtudhatja, hogyan használja az Aspose
 ### [Prezentáció konvertálása HTML5 formátumba](./convert-presentation-to-html5-format/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat HTML5 formátumba az Aspose.Slides for .NET segítségével. Könnyű és hatékony átalakítás webes megosztáshoz.
 ### [Konvertálja a prezentációt Markdown formátumba](./convert-presentation-to-markdown-format/)
-Ismerje meg, hogyan konvertálhat könnyedén prezentációkat Markdown formátumba az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan konvertálhat könnyedén prezentációkat Markdown formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [Prezentáció konvertálása PDF formátumba](./convert-presentation-to-pdf-format/)
 Ismerje meg, hogyan konvertálhat prezentációkat PDF formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal. Hatékony és eredményes átalakítás.
 ### [PDF-kompatibilitás elérése – Konvertálás PDF/A formátumba](./achieving-pdf-compliance-convert-to-pdf-a-format/)
-Ismerje meg, hogyan érheti el a PDF-megfelelőséget az Aspose.Slides for .NET segítségével PDF/A formátumba való konvertálásával. Biztosítsa a dokumentumok hosszú élettartamát és hozzáférhetőségét.
+Ismerje meg, hogyan érheti el a PDF-megfelelőséget az Aspose.Slides for .NET segítségével PDF/A formátumba konvertálásával. Biztosítsa a dokumentumok hosszú élettartamát és hozzáférhetőségét.
 ### [Konvertálja a bemutatót PDF-be rejtett diákkal](./convert-presentation-to-pdf-with-hidden-slides/)
-Tanulja meg, hogyan használhatja az Aspose.Slides for .NET alkalmazást, amellyel zökkenőmentesen konvertálhat prezentációkat PDF formátumba rejtett diákkal.
+Ismerje meg, hogyan használhatja az Aspose.Slides for .NET-et a prezentációk zökkenőmentes PDF-formátumba konvertálásához rejtett diákkal.
 ### [Prezentáció exportálása XAML formátumba](./export-presentation-to-xaml-format/)
 Ismerje meg, hogyan exportálhat prezentációkat XAML formátumba az Aspose.Slides for .NET segítségével. Hozzon létre interaktív tartalmat könnyedén!
 ### [A prezentáció konvertálása SWF formátumba](./convert-presentation-to-swf-format/)

@@ -29,7 +29,7 @@ import com.aspose.slides.*;
 
 ## Langkah 2: Buat Kelas Java
 
-Buat kelas Java tempat Anda akan melakukan konversi PowerPoint ke PDF. Sebut saja`PowerPointToPdfConverter`.
+ Buat kelas Java tempat Anda akan melakukan konversi PowerPoint ke PDF. Sebut saja`PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -68,7 +68,7 @@ class ExportProgressHandler implements IProgressCallback {
 
 ## Langkah 5: Kompilasi dan Jalankan
 
- Kompilasi kelas Java Anda dan jalankan`PowerPointToPdfConverter` kelas. Ini akan mengkonversi presentasi PowerPoint ke file PDF sambil memberikan pembaruan kemajuan di konsol.
+Kompilasi kelas Java Anda dan jalankan`PowerPointToPdfConverter` kelas. Ini akan mengkonversi presentasi PowerPoint ke file PDF sambil memberikan pembaruan kemajuan di konsol.
 
 ## Kode Sumber Lengkap Untuk Konversi ke PDF dengan Pembaruan Kemajuan di Slide Java
 
@@ -99,7 +99,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ## Kesimpulan
 
-Dalam panduan langkah demi langkah ini, kita mempelajari cara mengonversi presentasi PowerPoint (PPTX) menjadi file PDF di Java menggunakan Aspose.Slides untuk Java. Selain itu, kami menerapkan pembaruan kemajuan selama proses konversi untuk melacak status operasi.
+Dalam panduan langkah demi langkah ini, kita mempelajari cara mengonversi presentasi PowerPoint (PPTX) ke file PDF di Java menggunakan Aspose.Slides untuk Java. Selain itu, kami menerapkan pembaruan kemajuan selama proses konversi untuk melacak status operasi.
 
 ## FAQ
 
@@ -117,4 +117,4 @@ Ya, Aspose.Slides for Java menyediakan fungsionalitas ekstensif untuk bekerja de
 
 ### Bagaimana cara menyesuaikan opsi konversi PDF?
 
- Anda dapat menyesuaikan opsi konversi PDF dengan memodifikasi`PdfOptions` objek sebelum memanggil`presentation.save`metode. Ini termasuk mengatur properti seperti ukuran halaman, kualitas, dan lainnya.
+ Anda dapat menyesuaikan opsi konversi PDF dengan memodifikasi`PdfOptions` objek sebelum memanggil`presentation.save` metode. Ini termasuk mengatur properti seperti ukuran halaman, kualitas, dan lainnya.

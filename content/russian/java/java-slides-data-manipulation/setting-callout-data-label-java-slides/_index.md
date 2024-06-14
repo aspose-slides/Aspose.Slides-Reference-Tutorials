@@ -63,7 +63,7 @@ while (categoryIndex < 15) {
 
 ## Шаг 3. Настройте метки данных
 
-Теперь мы настроим метки данных, включая настройку выносок для последней серии.
+Теперь настроим метки данных, в том числе настроим выноски для последней серии.
 
 ```java
 int i = 0;
@@ -202,4 +202,4 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-Это некоторые распространенные параметры настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.
+Это некоторые распространенные варианты настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.

@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Sem bude umístěn váš kód pro úpravu pozadí snímku.
     // To prozkoumáme v dalších krocích.
     
-    // Uložte upravenou prezentaci
+    //Uložte upravenou prezentaci
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ V tomto kroku přizpůsobíme pozadí prvního snímku. Můžete jej upravit pod
 ## Krok 6: Uložte upravenou prezentaci
 
 ```csharp
-// Uložte upravenou prezentaci
+//Uložte upravenou prezentaci
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

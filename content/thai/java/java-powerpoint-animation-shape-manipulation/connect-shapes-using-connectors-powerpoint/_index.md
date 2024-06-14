@@ -20,7 +20,7 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 ขั้นแรก นำเข้าแพ็คเกจที่จำเป็นสำหรับการทำงานกับ Aspose.Slides ในโปรเจ็กต์ Java ของคุณ
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: สร้างอินสแตนซ์ของชั้นเรียนการนำเสนอ
  ยกตัวอย่าง`Presentation`คลาสซึ่งแสดงถึงไฟล์ PPTX ที่คุณกำลังทำงานอยู่
@@ -35,7 +35,7 @@ Presentation input = new Presentation();
 IShapeCollection shapes = input.getSlides().get_Item(0).getShapes();
 ```
 ## ขั้นตอนที่ 3: เพิ่มรูปร่าง
-เพิ่มรูปร่างที่ต้องการลงในสไลด์ ในตัวอย่างนี้ เราจะเพิ่มวงรีและสี่เหลี่ยมผืนผ้า
+เพิ่มรูปร่างที่ต้องการลงในสไลด์ ในตัวอย่างนี้ เราจะเพิ่มวงรีและสี่เหลี่ยม
 ```java
 // เพิ่มวงรีรูปร่างอัตโนมัติ
 IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);

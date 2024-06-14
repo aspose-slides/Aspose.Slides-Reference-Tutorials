@@ -62,7 +62,7 @@ ILayoutSlide layoutSlide =
 
 ## 第 3 步：插入空白幻燈片
 
-現在您已經選擇了版面配置投影片，您可以將具有該版面的空白投影片新增至簡報中。這是使用以下方法實現的`InsertEmptySlide`方法。這是此步驟的程式碼：
+現在您已經選擇了版面配置投影片，您可以將具有該版面的空白投影片新增至簡報中。這是透過使用`InsertEmptySlide`方法。這是此步驟的程式碼：
 
 ```csharp
 p.Slides.InsertEmptySlide(0, layoutSlide);

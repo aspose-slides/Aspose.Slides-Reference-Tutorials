@@ -8,7 +8,7 @@ weight: 21
 url: /sv/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
 ## Introduktion
-I en värld av dynamiska presentationer, kan lägga till animationer till former avsevärt förbättra det visuella tilltalandet och engagemanget hos dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull verktygslåda för att uppnå detta sömlöst. I den här handledningen guidar vi dig genom processen att applicera animationer på former med Aspose.Slides, så att du kan skapa fängslande presentationer som lämnar ett bestående intryck.
+en värld av dynamiska presentationer, kan lägga till animationer till former avsevärt förbättra det visuella tilltalandet och engagemanget hos dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull verktygslåda för att uppnå detta sömlöst. I den här självstudien guidar vi dig genom processen att applicera animationer på former med Aspose.Slides, så att du kan skapa fängslande presentationer som lämnar ett bestående intryck.
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande på plats:
 1.  Aspose.Slides för .NET: Se till att du har biblioteket installerat och klart att använda. Du kan ladda ner den[här](https://releases.aspose.com/slides/net/).
@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Din kod för att skapa en presentation finns här.
+    // Din kod för att skapa en presentation går här.
 }
 ```
 ## Steg 2: Lägg till animerad form
@@ -64,7 +64,7 @@ motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto,
 pts[0] = new PointF(-0.076f, -0.59f);
 motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
 motionBhv.Path.Add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
-// Spara presentationen som PPTX på disk
+// Spara presentationen som PPTX till disk
 pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
 ```
 Detta kompletterar steg-för-steg-guiden för att applicera animationer på former med Aspose.Slides för .NET.

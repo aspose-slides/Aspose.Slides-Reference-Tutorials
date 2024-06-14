@@ -16,7 +16,7 @@ För att framgångsrikt animera serier i ett diagram med Aspose.Slides för .NET
 
 ### 1. Aspose.Slides för .NET Library
 
- Se till att du har Aspose.Slides för .NET-biblioteket installerat. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET-webbplats](https://releases.aspose.com/slides/net/).
+ Se till att du har Aspose.Slides för .NET-biblioteket installerat. Om du inte redan har gjort det kan du ladda ner det från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/slides/net/).
 
 ### 2. Befintlig presentation med ett diagram
 
@@ -51,7 +51,7 @@ using (Presentation presentation = new Presentation(dataDir + "ExistingChart.ppt
 }
 ```
 
-## Steg 3: Få referens till diagramobjektet
+## Steg 3: Hämta referens till diagramobjektet
 
 För att arbeta med diagrammet i din presentation måste du få en referens till diagramobjektet:
 
@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 När du har lagt till animeringseffekterna i diagrammet sparar du den ändrade presentationen på disken.
 
 ```csharp
-// Spara den ändrade presentationen
+//Spara den ändrade presentationen
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ Aspose.Slides för .NET stöder olika PowerPoint-versioner, inklusive PowerPoint
 Ja, du kan skräddarsy animationseffekterna för varje diagramserie för att skapa unika och engagerande presentationer.
 
 ### Finns det en testversion tillgänglig för Aspose.Slides för .NET?
- Ja, du kan prova biblioteket med en gratis provperiod från[Aspose.Slides för .NET-webbplats](https://releases.aspose.com/).
+ Ja, du kan prova biblioteket med en gratis provperiod från[Aspose.Slides för .NET webbplats](https://releases.aspose.com/).
 
 ### Var kan jag köpa en licens för Aspose.Slides för .NET?
  Du kan skaffa en licens för Aspose.Slides för .NET från köpsidan[här](https://purchase.aspose.com/buy).

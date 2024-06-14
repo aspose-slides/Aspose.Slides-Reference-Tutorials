@@ -109,7 +109,7 @@ chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
 
 此代碼調整值軸上次網格線的外觀。
 
-## 步驟 7：定義值軸編號格式
+## 第 7 步：定義值軸編號格式
 
 自訂值軸的數字格式。
 

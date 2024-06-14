@@ -2,7 +2,7 @@
 title: Aspose.Slides .NET के साथ स्लाइड से हाइपरलिंक कैसे हटाएँ?
 linktitle: स्लाइड से हाइपरलिंक हटाएँ
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
-description: जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से हाइपरलिंक कैसे निकालें। स्वच्छ और पेशेवर प्रस्तुतियाँ बनाएँ।
+description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से हाइपरलिंक्स को हटाने का तरीका जानें। स्वच्छ और पेशेवर प्रस्तुतियाँ बनाएँ।
 type: docs
 weight: 11
 url: /hi/net/hyperlink-manipulation/remove-hyperlinks/
@@ -64,7 +64,7 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ## निष्कर्ष
 
-इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से हाइपरलिंक्स हटाने की प्रक्रिया को देखा है। बस कुछ सरल चरणों के साथ, आप यह सुनिश्चित कर सकते हैं कि आपकी स्लाइड्स पेशेवर और अव्यवस्था-मुक्त दिखें। Aspose.Slides for .NET PowerPoint प्रस्तुतियों के साथ काम करने के कार्य को सरल बनाता है, आपको कुशल और सटीक प्रबंधन के लिए आवश्यक उपकरण प्रदान करता है।
+इस ट्यूटोरियल में, हमने Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों से हाइपरलिंक्स हटाने की प्रक्रिया को देखा है। बस कुछ सरल चरणों के साथ, आप यह सुनिश्चित कर सकते हैं कि आपकी स्लाइड्स पेशेवर और अव्यवस्था मुक्त दिखें। Aspose.Slides for .NET PowerPoint प्रस्तुतियों के साथ काम करने के कार्य को सरल बनाता है, आपको कुशल और सटीक प्रबंधन के लिए आवश्यक उपकरण प्रदान करता है।
 
 यदि आपको यह मार्गदर्शिका उपयोगी लगी, तो आप दस्तावेज़ में .NET के लिए Aspose.Slides की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं[यहाँ](https://reference.aspose.com/slides/net/) . आप लाइब्रेरी को यहां से भी डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/slides/net/) और लाइसेंस खरीदें[यहाँ](https://purchase.aspose.com/buy) अगर आपने पहले से ऐसा नहीं किया है। जो लोग इसे पहले आज़माना चाहते हैं, उनके लिए एक निःशुल्क परीक्षण उपलब्ध है[यहाँ](https://releases.aspose.com/) , और अस्थायी लाइसेंस प्राप्त किए जा सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 

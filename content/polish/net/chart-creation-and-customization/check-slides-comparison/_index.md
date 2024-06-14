@@ -103,7 +103,7 @@ W przypadku prezentacji z animacjami i treściami multimedialnymi:
    Podczas procesu porównywania rozważ specjalne podejście do animowanych slajdów i elementów multimedialnych.
 
 2. Zapewnienie dokładności w złożonych scenariuszach:
-   Aby zapewnić dokładność, przetestuj swoje podejście porównawcze w prezentacjach o złożonej strukturze.
+   Przetestuj swoje podejście porównawcze w prezentacjach o złożonych strukturach, aby zapewnić dokładność.
 
 ## Najlepsze praktyki dotyczące porównywania prezentacji
 

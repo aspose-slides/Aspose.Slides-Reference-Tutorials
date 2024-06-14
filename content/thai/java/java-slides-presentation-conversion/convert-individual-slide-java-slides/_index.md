@@ -169,4 +169,4 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ### ฉันจะจัดการการจัดรูปแบบเพิ่มเติมสำหรับรูปร่างและข้อความภายในสไลด์ได้อย่างไร
 
-คุณสามารถขยาย`CustomFormattingController` คลาสเพื่อจัดการการจัดรูปแบบเฉพาะรูปร่างโดยการนำ`writeShapeStart` และ`writeShapeEnd` วิธีการและการใช้ตรรกะการจัดรูปแบบที่กำหนดเองภายในนั้น
+ คุณสามารถขยาย`CustomFormattingController` คลาสเพื่อจัดการการจัดรูปแบบเฉพาะรูปร่างโดยการนำ`writeShapeStart` และ`writeShapeEnd` วิธีการและการใช้ตรรกะการจัดรูปแบบที่กำหนดเองภายในนั้น

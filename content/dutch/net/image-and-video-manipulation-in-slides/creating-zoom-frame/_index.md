@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Stap 3: Pas dia-achtergronden aan
 Verbeter de visuele aantrekkingskracht van uw dia's door de achtergrond ervan aan te passen. In dit voorbeeld stellen we een effen cyaan achtergrond in voor de tweede dia.
 ```csharp
-//Maak een achtergrond voor de tweede dia
+// Maak een achtergrond voor de tweede dia
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

@@ -22,7 +22,7 @@ import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
 import com.aspose.slides.ShapeType;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Βήμα 1: Ρυθμίστε το Περιβάλλον
@@ -42,7 +42,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 ```java
 slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
 ```
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 Τέλος, αποθηκεύστε την παρουσίαση στο δίσκο.
 ```java
 pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
@@ -61,4 +61,4 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ### Μπορώ να προσθέσω κείμενο στη διαφάνεια μαζί με το σχήμα γραμμής;
 Ναι, μπορείτε να προσθέσετε κείμενο, εικόνες και άλλο περιεχόμενο στη διαφάνεια χρησιμοποιώντας το Aspose.Slides API.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides;
-Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides από[εδώ](https://releases.aspose.com/).
+ Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides από[εδώ](https://releases.aspose.com/).

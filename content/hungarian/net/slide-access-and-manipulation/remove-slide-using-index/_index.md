@@ -56,7 +56,7 @@ presentation.Slides.RemoveAt(slideIndexToRemove);
 Miután törölte a kívánt diákat, el kell mentenie a módosított prezentációt:
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 string outputPath = "path_to_output.pptx";
 presentation.Save(outputPath, SaveFormat.Pptx);
 ```

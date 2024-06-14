@@ -105,7 +105,7 @@ Bu kadar! Aspose.Slides for Java'yı kullanarak PowerPoint grafiğindeki kategor
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{

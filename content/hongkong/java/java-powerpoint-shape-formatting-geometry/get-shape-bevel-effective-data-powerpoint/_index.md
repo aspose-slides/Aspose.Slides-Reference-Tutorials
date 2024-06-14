@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-eff
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：設定文檔目錄
 定義 PowerPoint 簡報所在文件目錄的路徑：

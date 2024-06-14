@@ -19,7 +19,7 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari perpustakaan Aspose.Slides. Impor ini memungkinkan Anda bekerja dengan presentasi, slide, dan bentuk.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Dalam panduan ini, kami akan menguraikan proses mengubah urutan bentuk menjadi beberapa langkah untuk pemahaman yang lebih baik dan kemudahan penerapan.
 ## Langkah 1: Muat Presentasi

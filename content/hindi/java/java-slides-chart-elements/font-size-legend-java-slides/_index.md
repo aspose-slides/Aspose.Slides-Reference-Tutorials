@@ -107,7 +107,7 @@ IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Clust
 chart.getLegend().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
- इस कोड में, हम एक चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं`setFontHeight`फ़ॉन्ट आकार बदलने के लिए मान.
+ इस कोड में, हम एक चार्ट बनाते हैं और लेजेंड टेक्स्ट का फ़ॉन्ट आकार 20 पॉइंट पर सेट करते हैं। आप इसे समायोजित कर सकते हैं`setFontHeight` फ़ॉन्ट आकार बदलने के लिए मान.
 
 ### क्या मैं चार्ट में लेजेंड के अन्य गुणों को अनुकूलित कर सकता हूँ?
 
@@ -134,4 +134,4 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 
 ### मैं Aspose.Slides के लिए अधिक जानकारी और दस्तावेज़ कहां पा सकता हूं?
 
-आप Aspose.Slides for Java के लिए Aspose डॉक्यूमेंटेशन वेबसाइट पर विस्तृत डॉक्यूमेंटेशन और API संदर्भ पा सकते हैं।[यहाँ](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.
+ आप Aspose.Slides for Java के लिए Aspose डॉक्यूमेंटेशन वेबसाइट पर विस्तृत डॉक्यूमेंटेशन और API संदर्भ पा सकते हैं।[यहाँ](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.

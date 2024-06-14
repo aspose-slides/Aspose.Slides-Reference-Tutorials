@@ -84,7 +84,7 @@ Migliorare le tue presentazioni PowerPoint con effetti di transizione dinamici p
 
 ### 1. Cos'è Aspose.Slides per .NET?
 
-Aspose.Slides per .NET è una potente libreria per lavorare con presentazioni PowerPoint nelle applicazioni .NET. Fornisce un'ampia gamma di funzionalità per creare, modificare e manipolare presentazioni.
+Aspose.Slides per .NET è una potente libreria per lavorare con presentazioni PowerPoint in applicazioni .NET. Fornisce un'ampia gamma di funzionalità per creare, modificare e manipolare presentazioni.
 
 ### 2. Posso provare Aspose.Slides per .NET prima di acquistarlo?
 

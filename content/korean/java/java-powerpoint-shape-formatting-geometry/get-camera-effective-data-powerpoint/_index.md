@@ -9,18 +9,18 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-dat
 ---
 ## 소개
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 관리할 수 있는 강력한 라이브러리입니다. 보고서 생성을 자동화하든, 맞춤형 슬라이드를 생성하든, 단순히 프레젠테이션 데이터로 작업하든 Aspose.Slides는 귀하의 요구 사항을 충족하는 포괄적인 기능 세트를 제공합니다. 이 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에서 카메라 유효 데이터를 검색하는 방법을 살펴보겠습니다. 각 단계를 안내하여 프로세스를 명확하게 이해할 수 있도록 도와드립니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 준비해야 할 몇 가지 전제 조건이 있습니다.
 1. JDK(Java Development Kit): 컴퓨터에 JDK 8 이상이 설치되어 있는지 확인하세요.
-2. Java 라이브러리용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[웹사이트](https://releases.aspose.com/slides/java/).
+2.  Java 라이브러리용 Aspose.Slides: 다음에서 최신 버전을 다운로드하세요.[웹사이트](https://releases.aspose.com/slides/java/).
 3. 통합 개발 환경(IDE): 보다 원활한 코딩 환경을 위해 IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하세요.
-4.  샘플 PowerPoint 파일: PowerPoint 파일이 있습니다(예:`Presentation1.pptx`) 코드를 테스트할 준비가 되었습니다.
+4.  샘플 PowerPoint 파일: PowerPoint 파일이 있습니다(예:`Presentation1.pptx`코드를 테스트할 준비가 되었습니다.
 ## 패키지 가져오기
 먼저 Aspose.Slides for Java를 사용하는 데 필요한 패키지를 가져옵니다. 이러한 가져오기를 통해 프레젠테이션을 관리하고 해당 속성에 액세스할 수 있습니다.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1단계: 프로젝트 설정
 ### 자바 프로젝트 생성

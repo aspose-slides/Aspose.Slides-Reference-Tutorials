@@ -10,7 +10,7 @@ url: /ko/net/slide-comments-manipulation/add-parent-comments/
 
 대화형 기능으로 PowerPoint 프레젠테이션을 향상시키고 싶으십니까? .NET용 Aspose.Slides를 사용하면 댓글과 답변을 통합하여 청중에게 역동적이고 매력적인 경험을 선사할 수 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드에 상위 댓글을 추가하는 방법을 보여줍니다. 이 흥미로운 기능을 자세히 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

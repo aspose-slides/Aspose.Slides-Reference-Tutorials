@@ -12,14 +12,14 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 - В вашей системе установлен Java Development Kit (JDK).
-- Библиотека Aspose.Slides for Java загружена и настроена в вашем Java-проекте. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+-  Библиотека Aspose.Slides for Java загружена и настроена в вашем Java-проекте. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
 - Базовые знания языка программирования Java.
 
 ## Импортировать пакеты
 Сначала импортируйте необходимые пакеты в ваш класс Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -37,7 +37,7 @@ if (!isExists)
 Presentation pres = new Presentation();
 ```
 ## Шаг 3. Получите слайд и добавьте автофигуру
-Получите первый слайд и добавьте к нему автофигуру текстовой строки.
+Получите первый слайд и добавьте к нему автофигуру текстовой линии.
 ```java
 ISlide sld = pres.getSlides().get_Item(0);
 IAutoShape shp = sld.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
@@ -67,7 +67,7 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ### Могу ли я настроить цвет линии стрелки?
  Да, вы можете указать любой цвет, используя`setColor` метод с`SolidFillColor`.
 ### Как изменить положение и размер линии стрелки?
-Отрегулируйте параметры, передаваемые в`addAutoShape` метод изменения положения и размеров.
+ Отрегулируйте параметры, передаваемые в`addAutoShape` метод изменения положения и размеров.
 ### Совместим ли Aspose.Slides со всеми версиями PowerPoint?
 Aspose.Slides поддерживает различные форматы PowerPoint, обеспечивая совместимость разных версий.
 ### Могу ли я добавить текст к линии стрелки?

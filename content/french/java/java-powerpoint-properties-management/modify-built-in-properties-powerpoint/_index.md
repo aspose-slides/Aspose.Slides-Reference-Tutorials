@@ -20,7 +20,7 @@ Dans votre projet Java, importez les classes Aspose.Slides nécessaires :
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : configurer l'environnement
 Définissez le chemin d'accès au répertoire contenant votre fichier PowerPoint :

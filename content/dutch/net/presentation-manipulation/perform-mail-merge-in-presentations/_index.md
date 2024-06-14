@@ -143,7 +143,7 @@ Ja, Aspose.Slides voor .NET ondersteunt verschillende gegevensbronnen, waaronder
 ### 2. Kan ik de weergave van opsommingstekens in de gegenereerde presentatie aanpassen?
  Zeker! U heeft volledige controle over de weergave van opsommingstekens, zoals gedemonstreerd in de`FillStaffList` methode.
 ### 3. Welke soorten diagrammen kan ik maken met Aspose.Slides voor .NET?
-Aspose.Slides voor .NET ondersteunt een breed scala aan diagrammen, waaronder lijndiagrammen zoals weergegeven in ons voorbeeld, staafdiagrammen, cirkeldiagrammen en meer.
+Aspose.Slides voor .NET ondersteunt een breed scala aan grafieken, waaronder lijndiagrammen zoals weergegeven in ons voorbeeld, staafdiagrammen, cirkeldiagrammen en meer.
 ### 4. Hoe krijg ik ondersteuning of hulp bij Aspose.Slides voor .NET?
  Voor ondersteuning en hulp kunt u terecht bij de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### 5. Kan ik Aspose.Slides voor .NET uitproberen voordat ik een aankoop doe?

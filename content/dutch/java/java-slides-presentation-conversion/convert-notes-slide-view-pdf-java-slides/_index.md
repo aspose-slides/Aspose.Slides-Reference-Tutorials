@@ -40,10 +40,10 @@ INotesCommentsLayoutingOptions options = pdfOptions.getNotesCommentsLayouting();
 options.setNotesPosition(NotesPositions.BottomFull);
 ```
 
-U kunt andere PDF-opties aanpassen aan uw wensen.
+U kunt andere PDF-opties aanpassen aan uw vereisten.
 
 ## Stap 4: Sla de presentatie op als PDF met notities
-Laten we ten slotte de presentatie opslaan als PDF-bestand, inclusief de aantekeningen. U kunt de naam van het uitvoerbestand opgeven (bijv.`"Pdf_Notes_out.pdf"`) en kies het formaat (`SaveFormat.Pdf`). Hier is de code om dat te doen:
+ Laten we ten slotte de presentatie opslaan als PDF-bestand, inclusief de aantekeningen. U kunt de naam van het uitvoerbestand opgeven (bijv.`"Pdf_Notes_out.pdf"`) en kies het formaat (`SaveFormat.Pdf`). Hier is de code om dat te doen:
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Kan ik de PDF-export verder aanpassen?
 
-Ja, u kunt de PDF-export aanpassen door verschillende opties in het bestand aan te passen`PdfOptions` voorwerp. U kunt bijvoorbeeld de kwaliteit, compressie en andere parameters instellen op basis van uw behoeften.
+ Ja, u kunt de PDF-export aanpassen door verschillende opties in het bestand aan te passen`PdfOptions` voorwerp. U kunt bijvoorbeeld de kwaliteit, compressie en andere parameters instellen op basis van uw behoeften.
 
 ### Hoe kan ik Aspose.Slides voor Java verkrijgen?
 

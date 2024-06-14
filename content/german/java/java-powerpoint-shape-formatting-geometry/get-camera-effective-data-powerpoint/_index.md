@@ -12,15 +12,15 @@ Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Entwickler 
 ## Voraussetzungen
 Bevor wir beginnen, müssen einige Voraussetzungen erfüllt sein:
 1. Java Development Kit (JDK): Stellen Sie sicher, dass JDK 8 oder höher auf Ihrem Computer installiert ist.
-2. Aspose.Slides für Java-Bibliothek: Laden Sie die neueste Version von der[Webseite](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides für Java-Bibliothek: Laden Sie die neueste Version von der[Webseite](https://releases.aspose.com/slides/java/).
 3. Integrierte Entwicklungsumgebung (IDE): Verwenden Sie eine IDE wie IntelliJ IDEA oder Eclipse für ein reibungsloseres Codierungserlebnis.
-4.  Beispiel einer PowerPoint-Datei: Sie haben eine PowerPoint-Datei (z. B.`Presentation1.pptx`) bereit, den Code zu testen.
+4.  Beispiel einer PowerPoint-Datei: Sie haben eine PowerPoint-Datei (z. B.`Presentation1.pptx`bereit, den Code zu testen.
 ## Pakete importieren
 Importieren wir zunächst die erforderlichen Pakete, um mit Aspose.Slides für Java zu arbeiten. Diese Importe ermöglichen es uns, Präsentationen zu verwalten und auf ihre Eigenschaften zuzugreifen.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Schritt 1: Richten Sie Ihr Projekt ein
 ### Erstellen eines Java-Projekts

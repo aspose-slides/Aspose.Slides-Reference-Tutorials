@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Sau khi chèn thêm slide, bạn nên lưu lại bài thuyết trình đã sửa đổi.
 
 ```csharp
-// Lưu bản trình bày đã sửa đổi
+//Lưu bản trình bày đã sửa đổi
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Thay thế`"path_to_modified_presentation.pptx"` với đường dẫn và tên tệp mong muốn cho bản trình bày đã sửa đổi.
+ Thay thế`"path_to_modified_presentation.pptx"`với đường dẫn và tên tệp mong muốn cho bản trình bày đã sửa đổi.
 
 ## Phần kết luận
 
@@ -98,7 +98,7 @@ Bạn có thể tùy chỉnh nội dung của các trang trình bày mới bằn
 
 ### Muốn chèn slide vào đầu bài thuyết trình thì làm thế nào?
 
- Để chèn slide vào đầu bài thuyết trình, hãy đặt`insertionIndex` ĐẾN`0`.
+Để chèn slide vào đầu bài thuyết trình, hãy đặt`insertionIndex` ĐẾN`0`.
 
 ### Có thể sửa đổi bố cục của các slide được chèn không?
 

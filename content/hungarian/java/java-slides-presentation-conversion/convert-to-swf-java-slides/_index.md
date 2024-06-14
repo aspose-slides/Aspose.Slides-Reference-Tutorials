@@ -1,6 +1,6 @@
 ---
-title: Konvertálja SWF-re a Java Slides alkalmazásban
-linktitle: Konvertálja SWF-re a Java Slides alkalmazásban
+title: Konvertálja SWF formátumba a Java Slides alkalmazásban
+linktitle: Konvertálja SWF formátumba a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Konvertálja a PowerPoint prezentációkat SWF formátumba Java nyelven az Aspose.Slides segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a zökkenőmentes átalakítás érdekében.
 type: docs
@@ -60,7 +60,7 @@ Ez a kódsor SWF-fájlként menti a prezentációt a megadott beállításokkal.
 
 ## 5. lépés: A Viewer felvétele (opcionális)
 
- Ha a megjelenítőt bele akarja foglalni az SWF-fájlba, módosíthatja a`viewerIncluded` opciót`true` és mentse újra a prezentációt.
+ Ha a megjelenítőt bele kívánja foglalni az SWF-fájlba, módosíthatja a`viewerIncluded` opciót`true` és mentse újra a prezentációt.
 
 ```java
 swfOptions.setViewerIncluded(true);
@@ -111,7 +111,7 @@ Sikeresen konvertált egy PowerPoint prezentációt SWF formátumba az Aspose.Sl
 
 ### Beilleszthetek megjegyzéseket és megjegyzéseket az SWF-fájlba?
 
- Igen, megjegyzéseket és megjegyzéseket helyezhet el az SWF-fájlban, ha konfigurálja a`SwfOptions` Eszerint. Használja a`setViewerIncluded` módszer annak ellenőrzésére, hogy megjegyzések és megjegyzések szerepeljenek-e.
+ Igen, megjegyzéseket és megjegyzéseket is elhelyezhet az SWF-fájlban, ha konfigurálja a`SwfOptions` Eszerint. Használja a`setViewerIncluded` módszer annak ellenőrzésére, hogy a megjegyzések és megjegyzések szerepeljenek-e.
 
 ### Mi az alapértelmezett jegyzetpozíció az SWF-fájlban?
 

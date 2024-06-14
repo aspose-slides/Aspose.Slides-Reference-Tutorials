@@ -36,7 +36,7 @@ Med Aspose.Slides för Java lär du dig hur du:
 ### [Lägga till anpassade linjer i Java Slides](./adding-custom-lines-java-slides/)
 Förbättra dina Java-bilder med anpassade linjer. Steg-för-steg-guide med Aspose.Slides för Java. Lär dig att lägga till och anpassa rader i presentationer för effektfulla bilder.
 ### [Teckensnittsegenskaper för diagram i Java Slides](./font-properties-for-chart-java-slides/)
-Förbättra diagramteckensnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
+Förbättra diagramtypsnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
 ### [Teckensnittsegenskaper för individuella förklaringar i Java Slides](./font-properties-individual-legend-java-slides/)
 Förbättra PowerPoint-presentationer med anpassade teckensnittsstilar, storlekar och färger för enskilda legender i Java Slides med Aspose.Slides för Java.
 ### [Dölj information från diagram i Java Slides](./hide-information-chart-java-slides/)

@@ -14,7 +14,7 @@ No mundo do desenvolvimento .NET, Aspose.Slides é uma biblioteca poderosa e ver
 
 Antes de nos aprofundarmos no processo de licenciamento, você deve ter os seguintes pré-requisitos em vigor:
 
-1.  Aspose.Slides for .NET: Certifique-se de ter instalado o Aspose.Slides for .NET em seu ambiente de desenvolvimento. Você pode baixar a biblioteca do[Link para Download](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: Certifique-se de ter instalado o Aspose.Slides for .NET em seu ambiente de desenvolvimento. Você pode baixar a biblioteca do[Link para Download](https://releases.aspose.com/slides/net/).
 
 2.  Arquivo de licença: adquira um arquivo de licença Aspose.Slides válido, normalmente denominado "Aspose.Slides.lic". Você pode obter licenças do[Aspor site](https://purchase.aspose.com/buy) ou solicite um[licença temporária](https://purchase.aspose.com/temporary-license/) para fins de avaliação.
 
@@ -34,7 +34,7 @@ Com esse namespace importado, você pode começar a utilizar o poder do Aspose.S
 
 ## Inicialização da licença
 
-A próxima etapa envolve inicializar a licença Aspose.Slides usando o arquivo de licença adquirido. Esta etapa é crucial para garantir que você tenha o direito legal de usar a biblioteca em seu aplicativo.
+próxima etapa envolve inicializar a licença Aspose.Slides usando o arquivo de licença adquirido. Esta etapa é crucial para garantir que você tenha o direito legal de usar a biblioteca em seu aplicativo.
 
 ### Etapa 2: instanciar a classe de licença
 
@@ -58,7 +58,7 @@ Depois de definir o caminho do arquivo de licença, é essencial garantir que su
 
 ### Etapa 4: Validação da Licença
 
-Para verificar se sua licença é válida, use o`IsLicensed` método. Ele retorna um valor booleano que indica se sua licença está ativa.
+ Para verificar se sua licença é válida, use o`IsLicensed` método. Ele retorna um valor booleano que indica se sua licença está ativa.
 
 ```csharp
 if (license.IsLicensed())

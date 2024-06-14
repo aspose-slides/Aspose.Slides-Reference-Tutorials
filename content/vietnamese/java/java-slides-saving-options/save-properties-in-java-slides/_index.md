@@ -45,7 +45,7 @@ Bạn có thể đặt các thuộc tính tài liệu khác nhau như tiêu đ�
 // Đặt tiêu đề cho bài thuyết trình
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Đặt tác giả của bài thuyết trình
+//Đặt tác giả của bài thuyết trình
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Đặt từ khóa cho bài thuyết trình
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // Đường dẫn đến thư mục tài liệu.
 String dataDir = "Your Document Directory";
-//Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
+// Khởi tạo đối tượng Trình bày đại diện cho tệp PPT
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ Trong hướng dẫn này, bạn đã học cách lưu các thuộc tính tài l
 // Đặt tiêu đề cho bài thuyết trình
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// Đặt tác giả của bài thuyết trình
+//Đặt tác giả của bài thuyết trình
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // Đặt từ khóa cho bài thuyết trình

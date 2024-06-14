@@ -43,7 +43,7 @@ using (Presentation presentation = new Presentation(dataDir + "ExistingChart.ppt
     var chart = shapes[0] as IChart;
 ```
 
-In deze stap laden we de bestaande PowerPoint-presentatie met het diagram dat u wilt animeren. Vervolgens hebben we toegang tot het kaartobject op de eerste dia.
+In deze stap laden we de bestaande PowerPoint-presentatie met het diagram dat u wilt animeren. Vervolgens hebben we toegang tot het diagramobject op de eerste dia.
 
 ## Stap 2: Animeer de elementen van categorieën
 
@@ -54,7 +54,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 
 Deze stap voegt een animatie-effect "Vervagen" toe aan het hele diagram, waardoor het na de vorige animatie verschijnt.
 
-Vervolgens voegen we animatie toe aan individuele elementen binnen elke categorie van het diagram. Dit is waar de echte magie gebeurt.
+Vervolgens voegen we animatie toe aan individuele elementen binnen elke categorie van het diagram. Dit is waar de echte magie plaatsvindt.
 
 ## Stap 3: Animeer individuele elementen
 

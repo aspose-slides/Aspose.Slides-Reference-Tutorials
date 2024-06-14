@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```

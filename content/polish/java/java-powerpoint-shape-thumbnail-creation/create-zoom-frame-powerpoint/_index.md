@@ -19,7 +19,7 @@ Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące el
 Na początek musisz zaimportować niezbędne pakiety do swojego projektu Java. Importy te zapewnią dostęp do funkcjonalności Aspose.Slides wymaganych w tym samouczku.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Chcemy, aby nasze slajdy wyróżniały się wizualnie poprzez dodanie kolorów tła.
 ### Ustawianie tła dla drugiego slajdu
 ```java
-    //Utwórz tło dla drugiego slajdu
+    // Utwórz tło dla drugiego slajdu
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

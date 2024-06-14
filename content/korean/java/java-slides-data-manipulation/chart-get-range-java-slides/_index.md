@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/chart-get-range-java-slides/
 
 이 단계별 가이드에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 차트 범위를 얻는 방법을 살펴보겠습니다. 자세한 소스 코드 예제를 통해 프로세스를 안내해 드리겠습니다. Java Slides 프레젠테이션에서 차트 범위에 액세스하려면 다음 방법을 따르십시오.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -85,7 +85,7 @@ finally
 
 ### Java용 Aspose.Slides를 무료로 사용할 수 있나요?
 
-Aspose.Slides for Java는 상용 라이브러리이지만 무료 평가판을 통해 해당 기능을 탐색할 수 있습니다. 그러나 프로덕션 용도로 사용하려면 라이센스를 구매해야 합니다.
+Aspose.Slides for Java는 상용 라이브러리이지만 무료 평가판을 통해 해당 기능을 탐색할 수 있습니다. 그러나 프로덕션 용도로 사용하려면 라이센스를 구입해야 합니다.
 
 ### Aspose.Slides for Java에서 지원하는 다른 차트 유형이 있습니까?
 

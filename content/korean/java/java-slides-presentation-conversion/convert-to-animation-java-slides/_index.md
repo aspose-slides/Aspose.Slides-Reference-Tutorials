@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-animation-java-slides/
 
 Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 이 단계별 가이드에서는 Java 및 Aspose.Slides for Java를 사용하여 정적 PowerPoint 프레젠테이션을 애니메이션 프레젠테이션으로 변환하는 방법을 살펴보겠습니다. 이 튜토리얼이 끝나면 청중의 관심을 끄는 역동적인 프레젠테이션을 만들 수 있게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -34,7 +34,7 @@ import java.io.IOException;
  시작하려면 애니메이션으로 변환하려는 PowerPoint 프레젠테이션을 로드합니다. 바꾸다`"SimpleAnimations.pptx"` 프리젠테이션 파일 경로:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 프레젠테이션이 재생되면 각 프레임은 지정된 출력 디렉터리에 PNG 이미지로 저장됩니다. 필요에 따라 출력 경로를 사용자 정의할 수 있습니다.
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Java 슬라이드에서 애니메이션으로 변환하기 위한 전체 소스 코드
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

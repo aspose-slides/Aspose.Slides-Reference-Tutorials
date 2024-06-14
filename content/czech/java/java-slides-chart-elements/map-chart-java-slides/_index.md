@@ -83,7 +83,7 @@ A je to! Vytvořili jste mapový graf v prezentaci PowerPoint pomocí Aspose.Sli
 ## Kompletní zdrojový kód pro mapový graf v Java Slides
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//vytvořit prázdný graf

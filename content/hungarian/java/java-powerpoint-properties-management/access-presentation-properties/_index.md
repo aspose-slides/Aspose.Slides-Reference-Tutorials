@@ -21,12 +21,12 @@ Ebben a lépésben importáljuk a szükséges csomagokat az Aspose.Slides út el
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.LoadOptions;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be az adatkönyvtárat
 Mielőtt belevágna az alapvető funkciókba, állítsa be az adatkönyvtárat a prezentációs fájl eléréséhez:
 ```java
-String dataDir = RunExamples.getDataDir_PresentationProperties();
+String dataDir = "Your Document Directory";
 ```
 ## 2. lépés: Hozzon létre betöltési beállításokat
 Példányos betöltési beállítások a prezentációs fájl elérésének konfigurálásához. Ebben a példában a hozzáférési jelszót nullára állítjuk, és csak a dokumentum tulajdonságainak betöltését engedélyezzük:

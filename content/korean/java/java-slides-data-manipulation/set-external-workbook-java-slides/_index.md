@@ -12,7 +12,7 @@ url: /ko/java/data-manipulation/set-external-workbook-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java 슬라이드에서 외부 통합 문서를 설정하는 방법을 살펴보겠습니다. 외부 Excel 통합 문서의 데이터를 참조하는 차트를 사용하여 PowerPoint 프레젠테이션을 만드는 방법을 배웁니다. 이 가이드를 마치면 외부 데이터를 Java 슬라이드 프레젠테이션에 통합하는 방법을 명확하게 이해하게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

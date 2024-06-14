@@ -82,7 +82,7 @@ reply2.ParentComment = comment1;
 
 ## 步骤 4：添加嵌套回复
 
-评论也可以嵌套回复。为了演示这一点，我们添加了对“评论 1 的回复 2”的回复，从而创建了一个子回复。
+评论也可以嵌套回复。为了演示这一点，我们添加了对“评论 1 的回复 2”的回复，从而创建了子回复。
 
 ```csharp
 //添加回复以回复
@@ -104,7 +104,7 @@ IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slid
 reply3.ParentComment = comment3;
 ```
 
-此步骤演示如何为演示文稿创建引人入胜且具有交互性的内容。
+此步骤演示如何为您的演示文稿创建引人入胜且具有交互性的内容。
 
 ## 步骤 6：显示层次结构
 
@@ -136,7 +136,7 @@ comment1.Remove();
 pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 ```
 
-此步骤对于管理和更新您的演示内容很有用。
+此步骤对于管理和更新您的演示文稿内容很有用。
 
 通过这些步骤，您可以使用 Aspose.Slides for .NET 创建带有交互式评论和回复的演示文稿。无论您是想吸引观众还是与团队成员合作，此功能都提供了广泛的可能性。
 

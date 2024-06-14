@@ -12,15 +12,15 @@ Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pr
 ## Předpoklady
 Než začneme, je třeba splnit několik předpokladů:
 1. Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK 8 nebo vyšší.
-2. Aspose.Slides for Java Library: Stáhněte si nejnovější verzi z[webová stránka](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Stáhněte si nejnovější verzi z[webová stránka](https://releases.aspose.com/slides/java/).
 3. Integrované vývojové prostředí (IDE): Použijte IDE, jako je IntelliJ IDEA nebo Eclipse pro hladší zážitek z kódování.
-4.  Ukázkový soubor PowerPoint: Mějte soubor PowerPoint (např.`Presentation1.pptx`) připraven k testování kódu.
+4.  Ukázkový soubor PowerPoint: Mějte soubor PowerPoint (např.`Presentation1.pptx`připraven k testování kódu.
 ## Importujte balíčky
 Nejprve importujme potřebné balíčky pro práci s Aspose.Slides for Java. Tyto importy nám umožní spravovat prezentace a přistupovat k jejich vlastnostem.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Nastavte svůj projekt
 ### Vytvoření projektu Java
@@ -58,7 +58,7 @@ System.out.println("Zoom: " + threeDEffectiveData.getCamera().getZoom());
 if (pres != null) pres.dispose();
 ```
 ## Závěr
-tady to máte! Pomocí těchto kroků jste úspěšně načetli efektivní data kamery ze snímku aplikace PowerPoint pomocí Aspose.Slides for Java. Tato výkonná knihovna poskytuje rozsáhlé možnosti pro správu prezentací a tento příklad je jen začátek. Prozkoumejte dále, abyste automatizovali a vylepšili své úlohy zpracování aplikace PowerPoint.
+A tady to máte! Pomocí těchto kroků jste úspěšně načetli efektivní data kamery ze snímku aplikace PowerPoint pomocí Aspose.Slides for Java. Tato výkonná knihovna poskytuje rozsáhlé možnosti pro správu prezentací a tento příklad je jen začátek. Prozkoumejte dále, abyste automatizovali a vylepšili své úlohy zpracování aplikace PowerPoint.
 ## FAQ
 ### Mohu používat Aspose.Slides pro Javu s jinými programovacími jazyky?
 Aspose.Slides je k dispozici pro více programovacích jazyků včetně .NET, ale tato příručka se zaměřuje na verzi Java.

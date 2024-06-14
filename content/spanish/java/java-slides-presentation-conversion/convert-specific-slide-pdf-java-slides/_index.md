@@ -10,13 +10,13 @@ url: /es/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 
 ## Introducción a la conversión de diapositivas específicas a PDF en diapositivas Java
 
-En el mundo del desarrollo de Java, trabajar con diapositivas de presentación es una tarea común. Ya sea que esté creando una herramienta de generación de informes o un sistema de gestión de presentaciones, la capacidad de convertir diapositivas específicas a formato PDF puede ser una característica valiosa. En esta guía paso a paso, exploraremos cómo lograr esto usando Aspose.Slides para Java.
+En el mundo del desarrollo de Java, trabajar con diapositivas de presentaciones es una tarea común. Ya sea que esté creando una herramienta de generación de informes o un sistema de gestión de presentaciones, la capacidad de convertir diapositivas específicas a formato PDF puede ser una característica valiosa. En esta guía paso a paso, exploraremos cómo lograr esto usando Aspose.Slides para Java.
 
 ## Requisitos previos
 
 Antes de profundizar en el código, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Biblioteca Aspose.Slides para Java: necesitará tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
+1.  Biblioteca Aspose.Slides para Java: necesitará tener instalada la biblioteca Aspose.Slides para Java. Puedes descargarlo desde[aquí](https://releases.aspose.com/slides/java/).
 
 2. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java configurado en su sistema.
 

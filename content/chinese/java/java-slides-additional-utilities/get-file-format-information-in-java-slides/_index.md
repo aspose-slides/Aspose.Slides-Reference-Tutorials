@@ -96,7 +96,7 @@ switch (info.getLoadFormat())
 
 ### 如何获取 Aspose.Slides for Java 库？
 
-您可以从 Aspose 网站下载 Aspose.Slides for Java 库，网址为：[此链接](https://releases.aspose.com/slides/java/)为你的项目选择合适的版本。
+您可以从 Aspose 网站下载 Aspose.Slides for Java 库，网址为：[此链接](https://releases.aspose.com/slides/java/). 为你的项目选择合适的版本。
 
 ### 我可以将此代码与其他 Java 演示库一起使用吗？
 

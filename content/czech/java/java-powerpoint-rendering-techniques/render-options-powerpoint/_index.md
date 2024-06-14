@@ -21,7 +21,7 @@ import com.aspose.slides.IRenderingOptions;
 import com.aspose.slides.NotesPositions;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.RenderingOptions;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
@@ -63,7 +63,7 @@ if (pres != null) pres.dispose();
 ```
 
 ## Závěr
-V tomto tutoriálu jsme se zabývali tím, jak manipulovat s možnostmi vykreslování v prezentacích PowerPoint pomocí Aspose.Slides for Java. Pomocí těchto kroků můžete přizpůsobit proces vykreslování podle svých specifických požadavků a vylepšit tak vizuální vzhled snímků.
+V tomto tutoriálu jsme se zabývali tím, jak manipulovat s možnostmi vykreslování v prezentacích PowerPoint pomocí Aspose.Slides for Java. Pomocí těchto kroků můžete přizpůsobit proces vykreslování podle svých specifických požadavků a vylepšit tak vizuální vzhled svých snímků.
 ## FAQ
 ### Mohu vykreslit snímky do jiných formátů obrázků kromě PNG?
 Ano, Aspose.Slides podporuje vykreslování snímků do různých obrazových formátů, jako jsou JPEG, BMP, GIF a TIFF.

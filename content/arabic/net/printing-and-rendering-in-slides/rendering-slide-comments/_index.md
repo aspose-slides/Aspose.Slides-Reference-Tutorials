@@ -85,4 +85,4 @@ System.Diagnostics.Process.Start(resultPath);
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني طلب المساعدة والدعم بشأن Aspose.Slides؟
-ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع.
+ ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع.

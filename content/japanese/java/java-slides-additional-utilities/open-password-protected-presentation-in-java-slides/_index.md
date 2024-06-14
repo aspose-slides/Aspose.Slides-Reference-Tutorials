@@ -16,9 +16,9 @@ url: /ja/java/additional-utilities/open-password-protected-presentation-in-java-
 
 始める前に、次の前提条件が満たされていることを確認してください。
 
-1. Aspose.Slides for Javaライブラリ: Aspose.Slides for Javaライブラリをダウンロードしてインストールしたことを確認してください。[Aspose ウェブサイト](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides for Javaライブラリ: Aspose.Slides for Javaライブラリをダウンロードしてインストールしたことを確認してください。[Aspose ウェブサイト](https://products.aspose.com/slides/java/).
 
-2.  Java開発環境:まだインストールしていない場合は、システムにJava開発環境をインストールしてください。Javaは、[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Java開発環境:まだインストールしていない場合は、システムにJava開発環境をインストールしてください。Javaは、[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## ステップ1: Aspose.Slidesライブラリをインポートする
 

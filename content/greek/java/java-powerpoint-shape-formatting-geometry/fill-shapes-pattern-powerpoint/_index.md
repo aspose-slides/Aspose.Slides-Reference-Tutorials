@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powe
 Αρχικά, ας εισάγουμε τα απαραίτητα πακέτα που απαιτούνται για το παράδειγμά μας.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

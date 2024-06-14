@@ -43,7 +43,7 @@ options.setNotesPosition(NotesPositions.BottomFull);
 Vous pouvez personnaliser d'autres options PDF en fonction de vos besoins.
 
 ## Étape 4 : Enregistrez la présentation au format PDF avec des notes
-Enfin, enregistrons la présentation sous forme de fichier PDF, y compris les notes. Vous pouvez spécifier le nom du fichier de sortie (par exemple,`"Pdf_Notes_out.pdf"`) et choisissez le format (`SaveFormat.Pdf`). Voici le code pour faire cela :
+ Enfin, enregistrons la présentation sous forme de fichier PDF, y compris les notes. Vous pouvez spécifier le nom du fichier de sortie (par exemple,`"Pdf_Notes_out.pdf"`) et choisissez le format (`SaveFormat.Pdf`). Voici le code pour faire cela :
 
 ```java
 presentation.save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
@@ -79,11 +79,11 @@ finally
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons exploré comment convertir des présentations PowerPoint avec des vues de diapositives de notes en PDF à l'aide de la bibliothèque Aspose.Slides pour Java. Nous avons suivi un guide étape par étape avec le code source pour réaliser cette conversion. Voici les principaux points à retenir :
+Dans ce didacticiel, nous avons exploré comment convertir des présentations PowerPoint avec des vues de diapositives de notes en fichiers PDF à l'aide de la bibliothèque Aspose.Slides pour Java. Nous avons suivi un guide étape par étape avec le code source pour réaliser cette conversion. Voici les principaux points à retenir :
 
 ## FAQ
 
-### Comment modifier la position des notes dans le PDF ?
+### Comment modifier la position des notes dans le PDF ?
 
  Vous pouvez changer la position des notes dans le PDF en modifiant le`setNotesPosition` argument de méthode. Par exemple, vous pouvez le définir sur`NotesPositions.RightFull` pour positionner les notes sur le côté droit des diapositives.
 
@@ -93,7 +93,7 @@ options.setNotesPosition(NotesPositions.RightFull);
 
 ### Puis-je personnaliser davantage l’exportation PDF ?
 
-Oui, vous pouvez personnaliser l'exportation PDF en ajustant diverses options dans le`PdfOptions` objet. Par exemple, vous pouvez définir la qualité, la compression et d'autres paramètres en fonction de vos besoins.
+ Oui, vous pouvez personnaliser l'exportation PDF en ajustant diverses options dans le`PdfOptions` objet. Par exemple, vous pouvez définir la qualité, la compression et d'autres paramètres en fonction de vos besoins.
 
 ### Comment puis-je obtenir Aspose.Slides pour Java ?
 

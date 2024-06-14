@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //कैलिब्री और एरियल जैसे डिफ़ॉल्ट प्रेजेंटेशन फ़ॉन्ट को बाहर रखें
+    // कैलिब्री और एरियल जैसे डिफ़ॉल्ट प्रेजेंटेशन फ़ॉन्ट को बाहर रखें
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 -  हम इनपुट पावरपॉइंट प्रेजेंटेशन को लोड करते हैं`Presentation`.
 
-- हम फ़ॉन्ट्स की एक सूची परिभाषित करते हैं (`fontNameExcludeList`) जिन्हें हम HTML में एम्बेड करने से बाहर रखना चाहते हैं। यह फ़ाइल आकार को कम करने के लिए कैलिब्री और एरियल जैसे सामान्य फ़ॉन्ट को बाहर रखने के लिए उपयोगी है।
+- हम फ़ॉन्ट्स की एक सूची परिभाषित करते हैं (`fontNameExcludeList`जिन्हें हम HTML में एम्बेड करने से बाहर रखना चाहते हैं। यह फ़ाइल आकार को कम करने के लिए कैलिब्री और एरियल जैसे सामान्य फ़ॉन्ट को बाहर रखने के लिए उपयोगी है।
 
 -  हम इसका एक उदाहरण बनाते हैं`EmbedAllFontsHtmlController` और फ़ॉन्ट बहिष्करण सूची को इसमें पास करें.
 
@@ -98,7 +98,7 @@ finally
 
 ### मैं Java के लिए Aspose.Slides कैसे डाउनलोड करूं?
 
-आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[यहाँ](https://downloads.aspose.com/slides/java/) नवीनतम संस्करण प्राप्त करने के लिए.
+ आप Aspose.Slides for Java को Aspose वेबसाइट से डाउनलोड कर सकते हैं।[यहाँ](https://downloads.aspose.com/slides/java/) नवीनतम संस्करण प्राप्त करने के लिए.
 
 ### क्या मैं बहिष्कृत फ़ॉन्ट्स की सूची को अनुकूलित कर सकता हूँ?
 

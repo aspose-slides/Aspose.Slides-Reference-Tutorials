@@ -9,17 +9,17 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-
 ---
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션의 모양을 조작하려고 하시나요? 당신은 올바른 장소에 왔습니다! Aspose.Slides for Java는 프레젠테이션에서 슬라이드를 쉽게 생성, 수정 및 관리할 수 있는 강력한 API입니다. 이 튜토리얼에서는 PowerPoint의 기하학 모양에서 세그먼트를 제거하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 이 작업을 마스터하기 위한 단계별 접근 방식을 제공합니다. 다이빙할 준비가 되셨나요? 시작하자!
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Java용 Aspose.Slides: 다음 위치에서 Java용 Aspose.Slides 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
+2.  Java용 Aspose.Slides: 다음 위치에서 Java용 Aspose.Slides 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
 3. 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하여 Java 코드를 작성하고 실행합니다.
 4. Java의 기본 지식: Java 프로그래밍에 대한 기본 지식은 이 튜토리얼을 따라가는 데 도움이 됩니다.
 ## 패키지 가져오기
 시작하려면 Aspose.Slides 라이브러리에서 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 PowerPoint 슬라이드의 기하학적 모양에서 세그먼트를 제거하는 과정을 여러 단계로 나누어 보겠습니다.
 ## 1단계: 새 프레젠테이션 만들기
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## 6단계: 프레젠테이션 저장
 마지막으로 수정된 프레젠테이션을 파일에 저장합니다.
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 7단계: 리소스 정리

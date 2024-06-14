@@ -10,7 +10,7 @@ url: /de/java/presentation-properties/check-password-example-in-java-slides/
 
 ## Einführung in das Überprüfen von Passwörtern – Beispiel in Java-Folien
 
-In diesem Artikel erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Kennwort in Java Slides überprüfen. Wir gehen die Schritte durch, die zum Überprüfen eines Kennworts für eine Präsentationsdatei erforderlich sind. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieser Leitfaden vermittelt Ihnen ein klares Verständnis dafür, wie Sie die Kennwortüberprüfung in Ihren Java Slides-Projekten implementieren.
+In diesem Artikel erfahren Sie, wie Sie mithilfe der Aspose.Slides für Java-API ein Passwort in Java Slides überprüfen. Wir gehen die Schritte durch, die zum Überprüfen eines Passworts für eine Präsentationsdatei erforderlich sind. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieser Leitfaden vermittelt Ihnen ein klares Verständnis dafür, wie Sie die Passwortüberprüfung in Ihren Java Slides-Projekten implementieren.
 
 ## Voraussetzungen
 
@@ -52,7 +52,7 @@ System.out.println("Is the password correct? " + isPasswordCorrect);
 
 ```java
 //Pfad zur Quellendarstellung
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // Überprüfen Sie das Passwort über die IPresentationInfo-Schnittstelle
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

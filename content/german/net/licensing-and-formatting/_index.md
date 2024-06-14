@@ -10,7 +10,7 @@ url: /de/net/licensing-and-formatting/
 
 ## Einführung
 
-Willkommen bei den Tutorials zu Lizenzierung und Formatierung von Aspose.Slides. In dieser Reihe werden wir uns mit den entscheidenden Aspekten der Lizenzverwaltung und Formatierungsoptimierung mithilfe der leistungsstarken Aspose.Slides-API für .NET befassen. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling bei Aspose.Slides sind, diese Tutorials sind darauf zugeschnitten, Sie mit dem Wissen und den Fähigkeiten auszustatten, die Sie benötigen, um effektiv mit Lizenzen zu arbeiten und visuell ansprechende Präsentationen zu erstellen.
+Willkommen bei den Tutorials zu Lizenzierung und Formatierung von Aspose.Slides. In dieser Reihe befassen wir uns mit den entscheidenden Aspekten der Lizenzverwaltung und Formatierungsoptimierung mithilfe der leistungsstarken Aspose.Slides-API für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling bei Aspose.Slides sind, diese Tutorials sind darauf zugeschnitten, Sie mit dem Wissen und den Fähigkeiten auszustatten, die Sie benötigen, um effektiv mit Lizenzen zu arbeiten und visuell ansprechende Präsentationen zu erstellen.
 
 ### Lizenzierungsherausforderungen meistern
 

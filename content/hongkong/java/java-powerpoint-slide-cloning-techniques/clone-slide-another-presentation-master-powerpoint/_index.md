@@ -19,7 +19,7 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 首先，您需要將必要的 Aspose.Slides 套件匯入到您的 Java 專案中。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 讓我們將用主幻燈片將幻燈片複製到另一個簡報的過程分解為詳細步驟。
 ## 第 1 步：載入來源簡報

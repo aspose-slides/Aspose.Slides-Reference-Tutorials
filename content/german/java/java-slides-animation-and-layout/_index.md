@@ -21,7 +21,7 @@ Animationen verleihen Ihren Präsentationen eine dynamische Note und machen sie 
 
 1. Erste Schritte: Beginnen Sie mit den Grundlagen der Animation. Erfahren Sie, wie Sie einzelnen Objekten oder ganzen Folien Animationen hinzufügen und verwalten.
 
-2. Fortgeschrittene Techniken: Tauchen Sie tiefer in die Welt der Animationseffekte ein. Erkunden Sie Eingangs-, Hervorhebungs- und Ausgangsanimationen, um professionell aussehende Präsentationen zu erstellen.
+2. Fortgeschrittene Techniken: Tauchen Sie tiefer in die Welt der Animationseffekte ein. Erkunden Sie Eingangs-, Hervorhebungs- und Ausgangsanimationen, um professionell wirkende Präsentationen zu erstellen.
 
 3. Timing und Sequenzierung: Perfektionieren Sie Ihre Animationen, indem Sie Timing und Sequenzierung steuern. Stellen Sie sicher, dass Ihr Inhalt nahtlos fließt.
 

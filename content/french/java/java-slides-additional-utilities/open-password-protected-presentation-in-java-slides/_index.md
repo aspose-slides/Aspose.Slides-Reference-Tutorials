@@ -16,9 +16,9 @@ Dans ce didacticiel, vous apprendrez à ouvrir une présentation protégée par 
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Bibliothèque Aspose.Slides pour Java : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Slides pour Java. Vous pouvez l'obtenir auprès du[Site Aspose](https://products.aspose.com/slides/java/).
+1.  Bibliothèque Aspose.Slides pour Java : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Slides pour Java. Vous pouvez l'obtenir auprès du[Site Aspose](https://products.aspose.com/slides/java/).
 
-2.  Environnement de développement Java : configurez un environnement de développement Java sur votre système si ce n'est pas déjà fait. Vous pouvez télécharger Java à partir du[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Environnement de développement Java : configurez un environnement de développement Java sur votre système si ce n'est pas déjà fait. Vous pouvez télécharger Java à partir du[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## Étape 1 : Importer la bibliothèque Aspose.Slides
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // Remplacez "pass" par votre mot de passe de p
 
 ## Étape 3 : ouvrez la présentation
 
- Maintenant, vous allez ouvrir la présentation protégée par mot de passe en utilisant le`Presentation`constructeur de classe, qui prend le chemin du fichier et les options de chargement comme paramètres.
+ Maintenant, vous allez ouvrir la présentation protégée par mot de passe en utilisant le`Presentation` constructeur de classe, qui prend le chemin du fichier et les options de chargement comme paramètres.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

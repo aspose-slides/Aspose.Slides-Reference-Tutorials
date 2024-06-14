@@ -21,7 +21,7 @@ Primeiramente, vamos importar os pacotes necessários. Esses pacotes são essenc
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Agora, vamos dividir o processo de clonagem de um slide de uma apresentação e adicioná-lo a outra em etapas simples e fáceis de entender.
@@ -29,7 +29,7 @@ Agora, vamos dividir o processo de clonagem de um slide de uma apresentação e 
  Para começar, precisamos carregar a apresentação de origem da qual queremos clonar um slide. Isto é feito usando o`Presentation` classe fornecida por Aspose.Slides.
 ```java
 // O caminho para o diretório de documentos.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instancie a classe Presentation para carregar o arquivo de apresentação de origem
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

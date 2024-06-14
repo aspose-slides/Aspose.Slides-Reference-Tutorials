@@ -23,7 +23,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 ## Einrichten des Projekts
 
 1. Öffnen Sie Visual Studio und erstellen Sie eine neue C#-Konsolenanwendung.
-2. Installieren Sie die Aspose.Slides-Bibliothek für .NET mithilfe des NuGet Package Manager.
+2. Installieren Sie die Aspose.Slides-Bibliothek für .NET mithilfe des NuGet-Paket-Managers.
 
 ## Laden von Präsentationsdateien
 
@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Nach dem Kopieren und Platzieren der Folie müssen wir die geänderte Zielpräsentation speichern.
 
 ```csharp
-// Speichern der geänderten Präsentation
+//Speichern der geänderten Präsentation
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

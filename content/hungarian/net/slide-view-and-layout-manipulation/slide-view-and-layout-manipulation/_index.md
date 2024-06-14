@@ -2,7 +2,7 @@
 title: Dianézet és elrendezés-manipuláció az Aspose.Slides-ben
 linktitle: Dianézet és elrendezés-manipuláció az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan kezelheti a dianézeteket és az elrendezéseket a PowerPointban az Aspose.Slides for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
+description: Ismerje meg, hogyan kezelheti a dianézeteket és az elrendezéseket a PowerPointban az Aspose.Slides for .NET használatával. Útmutató lépésről lépésre kódpéldákkal.
 type: docs
 weight: 10
 url: /hu/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
@@ -26,7 +26,7 @@ Az Aspose.Slides for .NET használatának megkezdéséhez kövesse az alábbi l�
    Nyissa meg a Visual Studio IDE-jét, és hozzon létre egy új .NET-projektet, amelyben az Aspose.Slides-szel fog dolgozni.
 
 3. ### Hivatkozás hozzáadása az Aspose.Slides-hez:
-   A projektben adjon hozzá hivatkozást az Aspose.Slides könyvtárra. Ezt úgy teheti meg, hogy jobb gombbal kattintson a Referenciák részre a Solution Explorerben, és válassza a "Hivatkozás hozzáadása" lehetőséget. Ezután tallózzon és válassza ki az Aspose.Slides DLL-t.
+   A projektben adjon hozzá hivatkozást az Aspose.Slides könyvtárra. Ezt úgy teheti meg, hogy jobb gombbal kattint a Referenciák részre a Solution Explorerben, és kiválasztja a „Referencia hozzáadása” lehetőséget. Ezután tallózzon és válassza ki az Aspose.Slides DLL-t.
 
 ## Prezentáció betöltése
 
@@ -103,7 +103,7 @@ ITextFrame textFrame = shapes.AddTextFrame("Hello, Aspose.Slides!");
 Miután elvégezte az összes szükséges módosítást, mentse a módosított prezentációt:
 
 ```csharp
-// Mentse el a módosított bemutatót
+//Mentse el a módosított bemutatót
 presentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

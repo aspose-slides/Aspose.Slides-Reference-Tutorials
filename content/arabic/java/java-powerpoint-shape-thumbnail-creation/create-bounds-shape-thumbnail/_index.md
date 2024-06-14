@@ -19,7 +19,7 @@ Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بإ�
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

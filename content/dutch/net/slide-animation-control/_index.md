@@ -1,6 +1,6 @@
 ---
-title: Dia-animatiebediening
-linktitle: Dia-animatiebediening
+title: Dia-animatiebesturing
+linktitle: Dia-animatiebesturing
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met dynamische animaties met Aspose.Slides voor .NET. Leer stap voor stap hoe u dia-animaties bedient in deze uitgebreide tutorial.
 type: docs

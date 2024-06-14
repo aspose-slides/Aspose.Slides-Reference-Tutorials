@@ -19,13 +19,13 @@ Najpierw zaimportuj niezbędne pakiety, aby móc korzystać z funkcjonalności A
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Krok 1: Skonfiguruj katalog danych
 ```java
 // Ścieżka do katalogu dokumentów.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Utwórz katalog, jeśli jeszcze nie istnieje.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 W tym kroku definiujemy ścieżkę do katalogu, w którym zostanie zapisana prezentacja PowerPoint. Jeśli katalog nie istnieje, zostanie utworzony.
 ## Krok 2: Utwórz instancję obiektu prezentacji
 ```java
-//Utwórz instancję obiektu prezentacji reprezentującego plik PPT
+// Utwórz instancję obiektu prezentacji reprezentującego plik PPT
 Presentation presentation = new Presentation();
 ```
- Tutaj tworzymy nową instancję pliku`Presentation` klasa, która reprezentuje prezentację programu PowerPoint.
+Tutaj tworzymy nową instancję pliku`Presentation` klasa, która reprezentuje prezentację programu PowerPoint.
 ## Krok 3: Wykonaj operacje na prezentacji (opcjonalnie)
 ```java
 //...popracuj tutaj...

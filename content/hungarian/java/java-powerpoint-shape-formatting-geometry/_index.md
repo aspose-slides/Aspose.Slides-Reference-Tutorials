@@ -16,8 +16,8 @@ A tetszetős PowerPoint-prezentációk létrehozása gyakran precíz alakformáz
 A bemutatók vizuálisan tetszetőssé tételének egyik kulcsfontosságú szempontja a különböző kitöltési stílusok használata az alakzatokhoz. Akár színátmenetekkel, mintákkal, képekkel vagy egyszínű színekkel szeretné kitölteni az alakzatokat, az Aspose.Slides for Java átfogó megoldásokat kínál. 
 
 -  Színátmenetes kitöltés: A színátmenetes kitöltéssel kifinomult megjelenést kölcsönözhet az alakzatoknak. Az oktatóanyag[Alakzatok kitöltése színátmenettel a PowerPointban](./fill-shapes-gradient-powerpoint/)lépésről lépésre végigvezeti a folyamaton.
--  Mintakitöltés: A minták textúrát adhatnak az alakzatokhoz, fokozva azok vizuális érdeklődését. Az oktatóanyagból megtudhatja, hogyan alkalmazhat mintákat[Alakzatok kitöltése mintával a PowerPointban](./fill-shapes-pattern-powerpoint/).
--  Képkitöltés: A dinamikusabb és vonzóbb prezentáció érdekében nagyszerű lehetőség az alakzatok képekkel való kitöltése. Az oktatóanyag[Alakzatok kitöltése képpel a PowerPointban](./fill-shapes-picture-powerpoint/) megmutatja, hogyan kell ezt könnyedén megtenni.
+-  Mintakitöltés: A minták textúrát adhatnak az alakzatokhoz, fokozva azok vizuális érdeklődését. Az oktatóanyag segítségével megtudhatja, hogyan alkalmazhat mintákat[Alakzatok kitöltése mintával a PowerPointban](./fill-shapes-pattern-powerpoint/).
+-  Képkitöltés: A dinamikusabb és vonzóbb prezentáció érdekében nagyszerű lehetőség az alakzatok képekkel való kitöltése. Az oktatóanyag[Töltse ki az alakzatokat képpel a PowerPointban](./fill-shapes-picture-powerpoint/) megmutatja, hogyan kell ezt könnyedén megtenni.
 -  Egyszínű kitöltés: Néha az egyszerűség kulcsfontosságú, és az egyszínű kitöltés nagyon hatékony lehet. Kövesse a lépéseket[Töltse ki az alakzatokat egyszínű színnel a PowerPointban](./fill-shapes-solid-color-powerpoint/) elsajátítani ezt a technikát.
 
 ## Alakzat azonosítás és formázás
@@ -42,7 +42,7 @@ Az oktatóanyagok felfedezésével elsajátíthatja az alakformázást és a geo
 Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan tölthet ki alakzatokat színátmenettel a PowerPointban az Aspose.Slides for Java segítségével.
 ### [Alakzatok kitöltése mintával a PowerPointban](./fill-shapes-pattern-powerpoint/)
 Tanuljon meg alakzatokat mintákkal kitölteni a PowerPointban az Aspose.Slides for Java segítségével. Kövesse egyszerű, lépésenkénti útmutatónkat, hogy vizuálisan javítsa prezentációit.
-### [Alakzatok kitöltése képpel a PowerPointban](./fill-shapes-picture-powerpoint/)
+### [Töltse ki az alakzatokat képpel a PowerPointban](./fill-shapes-picture-powerpoint/)
 Ismerje meg, hogyan tölthet ki alakzatokat képekkel a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.
 ### [Töltse ki az alakzatokat egyszínű színnel a PowerPointban](./fill-shapes-solid-color-powerpoint/)
 Ismerje meg, hogyan tölthet ki alakzatokat egyszínű színekkel a PowerPointban az Aspose.Slides for Java segítségével. Lépésről lépésre szóló útmutató fejlesztőknek.
@@ -53,7 +53,7 @@ Ismerje meg, hogyan javíthatja PowerPoint-prezentációit az Aspose.Slides for 
 ### [Vonalak formázása a PowerPointban](./format-lines-powerpoint/)
 Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan formázhat vonalakat a PowerPointban az Aspose.Slides for Java használatával. Tökéletesítse prezentációit egyéni vonalstílusokkal.
 ### [Formázott ellipszis létrehozása a PowerPointban](./create-formatted-ellipse-powerpoint/)
-Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan hozhat létre formázott ellipszist a PowerPointban az Aspose.Slides for Java segítségével.
+részletes, lépésenkénti útmutatónkból megtudhatja, hogyan hozhat létre formázott ellipszist a PowerPointban az Aspose.Slides for Java segítségével.
 ### [Hozzon létre formázott téglalapot a PowerPointban](./create-formatted-rectangle-powerpoint/)
 Ebből a lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre és formázhat téglalapot a PowerPointban az Aspose.Slides for Java segítségével.
 ### [Szegmens hozzáadása a geometriai alakzathoz a PowerPointban](./add-segment-geometry-shape-powerpoint/)
@@ -63,12 +63,12 @@ Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan hozhat létre összetett o
 ### [Hozzon létre egyéni geometriát a PowerPointban](./create-custom-geometry-powerpoint/)
 Ismerje meg, hogyan hozhat létre egyéni geometriai alakzatokat a PowerPointban az Aspose.Slides for Java használatával. Ez az útmutató segít a prezentációk egyedi formákkal történő tökéletesítésében.
 ### [Szegmens eltávolítása a geometriai alakzatból a PowerPointban](./remove-segment-geometry-shape-powerpoint/)
-Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan távolíthat el szegmenseket a geometriai alakzatokból a PowerPointban az Aspose.Slides for Java segítségével.
+Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan távolíthat el szegmenseket a PowerPoint geometriai alakzataiból az Aspose.Slides for Java segítségével.
 ### [A ShapeUtil használata a geometriai alakzathoz a PowerPointban](./use-shapeutil-geometry-shape-powerpoint/)
 Hozzon létre egyéni alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Kövesse ezt a lépésenkénti útmutatót prezentációinak javításához.
-### [Szerezzen be kamera hatékony adatokat a PowerPointban](./get-camera-effective-data-powerpoint/)
+### [Szerezzen be a kamera hatékony adatait a PowerPointban](./get-camera-effective-data-powerpoint/)
 Ebből a lépésenkénti útmutatóból megtudhatja, hogyan lehet hatékony kameraadatokat lekérni a PowerPoint diákról az Aspose.Slides for Java segítségével.
-### [Get Light Rig hatékony adatok a PowerPointban](./get-light-rig-effective-data-powerpoint/)
+### [Get Light Rig hatékony adatokat a PowerPointban](./get-light-rig-effective-data-powerpoint/)
 Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, hogyan lehet lekérni a Light rig hatékony adatokat a PowerPoint-prezentációkból az Aspose.Slides for Java segítségével.
 ### [Szerezzen be Shape Bevel hatékony adatokat a PowerPointban](./get-shape-bevel-effective-data-powerpoint/)
 Tanulja meg, hogyan lehet lekérni a ferde alakzat hatékony adatait a PowerPointban az Aspose.Slides for Java segítségével. Fokozza bemutatóit lenyűgöző vizuális effektusokkal.

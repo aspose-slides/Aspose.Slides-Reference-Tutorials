@@ -78,7 +78,7 @@ try
 	{
 		ISlide slide = presentation.getSlides().get_Item(0);
 		auxPresentation.getSlides().insertClone(0, slide);
-		//設定投影片類型和尺寸
+		//設定投影片類型和大小
 		//auxPresentation.getSlideSize().setSize(presentation.getSlideSize().getSize().getWidth(),presentation.getSlideSize().getSize().getHeight(),SlideSizeScaleType.EnsureFit);
 		auxPresentation.getSlideSize().setSize(612F, 792F, SlideSizeScaleType.EnsureFit);
 		PdfOptions pdfOptions = new PdfOptions();

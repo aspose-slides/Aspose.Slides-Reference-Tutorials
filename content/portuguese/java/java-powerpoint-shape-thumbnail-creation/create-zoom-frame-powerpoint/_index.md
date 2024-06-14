@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, certifique-se de ter o seguinte:
 Para começar, você precisa importar os pacotes necessários em seu projeto Java. Essas importações fornecerão acesso às funcionalidades do Aspose.Slides necessárias para este tutorial.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Queremos tornar nossos slides visualmente distintos adicionando cores de fundo.
 ### Definir plano de fundo para o segundo slide
 ```java
-    //Crie um plano de fundo para o segundo slide
+    // Crie um plano de fundo para o segundo slide
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);
@@ -101,7 +101,7 @@ Finalmente, salvamos nossa apresentação no caminho especificado.
 }
 ```
 ## Conclusão
-criação de quadros de zoom no PowerPoint usando Aspose.Slides for Java pode melhorar significativamente a interatividade e o envolvimento de suas apresentações. Seguindo as etapas descritas neste tutorial, você pode adicionar facilmente visualizações de slides e imagens personalizadas como quadros de zoom, personalizando-os para se adequarem ao tema da sua apresentação. Boa apresentação!
+A criação de quadros de zoom no PowerPoint usando Aspose.Slides for Java pode melhorar significativamente a interatividade e o envolvimento de suas apresentações. Seguindo as etapas descritas neste tutorial, você pode adicionar facilmente visualizações de slides e imagens personalizadas como quadros de zoom, personalizando-os para se adequarem ao tema da sua apresentação. Boa apresentação!
 ## Perguntas frequentes
 ### O que é Aspose.Slides para Java?
 Aspose.Slides for Java é uma API poderosa para criar e manipular apresentações do PowerPoint de forma programática.

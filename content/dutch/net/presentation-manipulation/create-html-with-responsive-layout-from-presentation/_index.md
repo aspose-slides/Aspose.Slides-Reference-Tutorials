@@ -12,7 +12,7 @@ In het huidige digitale tijdperk is het creëren van responsieve webinhoud een c
 
 
 ## 1. Inleiding
-In het tijdperk van multimediarijke presentaties is het van essentieel belang dat u deze kunt omzetten in responsieve HTML, zodat u ze online kunt delen. Aspose.Slides voor .NET is een krachtig hulpmiddel waarmee ontwikkelaars dit proces kunnen automatiseren, waardoor tijd wordt bespaard en een naadloze gebruikerservaring op alle apparaten wordt gegarandeerd.
+In het tijdperk van multimediarijke presentaties is het van essentieel belang dat u deze kunt omzetten in responsieve HTML, zodat u deze online kunt delen. Aspose.Slides voor .NET is een krachtige tool waarmee ontwikkelaars dit proces kunnen automatiseren, waardoor tijd wordt bespaard en een naadloze gebruikerservaring op alle apparaten wordt gegarandeerd.
 
 ## 2. Vereisten
 Voordat we ingaan op de tutorial, moet je aan de volgende vereisten voldoen:

@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 비디오 프레임을 추가하는 과정을 안내합니다. 이러한 단계별 지침을 따르면 비디오 콘텐츠를 프레젠테이션에 원활하게 통합할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - 시스템에 설치된 JDK(Java Development Kit)
 - Java 프로젝트에 다운로드 및 설정된 Java 라이브러리용 Aspose.Slides
@@ -17,7 +17,7 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 먼저 Java 코드에서 Aspose.Slides 기능을 활용하려면 필요한 패키지를 가져와야 합니다. 
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1단계: 문서 디렉토리 설정

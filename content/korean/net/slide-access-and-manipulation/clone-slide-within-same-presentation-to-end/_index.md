@@ -65,7 +65,7 @@ presentation.Slides.AddClone(duplicatedSlide);
 복제된 슬라이드를 추가한 후 수정된 프레젠테이션을 저장해야 합니다. 방법은 다음과 같습니다.
 
 ```csharp
-// 수정된 프레젠테이션 저장
+//수정된 프레젠테이션 저장
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

@@ -20,7 +20,7 @@ Než se ponoříme do kódu, je třeba splnit několik předpokladů:
 Chcete-li začít používat Aspose.Slides pro Java, musíte importovat potřebné balíčky. Můžete to udělat takto:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Krok 1: Nastavte svůj projekt
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Krok 5: Nastavte Typ výplně na Plná
  Chcete-li vyplnit tvar plnou barvou, nastavte typ výplně na`Solid`.
 ```java
-//Nastavte typ výplně na Plná
+// Nastavte typ výplně na Plná
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Krok 6: Vyberte a použijte barvu
 Vyberte barvu tvaru. Zde používáme žlutou, ale můžete si vybrat libovolnou barvu.
 ```java
-// Nastavte barvu obdélníku
+//Nastavte barvu obdélníku
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Krok 7: Uložte prezentaci
@@ -84,4 +84,4 @@ Ano, Aspose.Slides for Java vám umožňuje otevírat, upravovat a ukládat exis
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides pro Java?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[Aspose webové stránky](https://releases.aspose.com/).
 ### Kde najdu další dokumentaci a podporu?
- Podrobná dokumentace je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/) a můžete hledat podporu na[Aspose fóra](https://forum.aspose.com/c/slides/11).
+ Podrobná dokumentace je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/) můžete hledat podporu na[Aspose fóra](https://forum.aspose.com/c/slides/11).

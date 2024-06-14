@@ -65,7 +65,7 @@ V tomto kroku vytvoříme na prvním snímku prezentace tvar krabicového grafu.
     series.setShowOutlierPoints(true);
 ```
 
-Zde pro graf vytvoříme řadu BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, střední čára, střední značky, vnitřní body a odlehlé body.
+Zde pro graf vytvoříme sérii BoxAndWhisker a nakonfigurujeme různé možnosti, jako je kvartilová metoda, střední čára, střední značky, vnitřní body a odlehlé body.
 
 ## Krok 5: Přidejte datové body
 

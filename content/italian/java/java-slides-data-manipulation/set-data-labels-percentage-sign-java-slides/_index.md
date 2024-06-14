@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Per visualizzare le percentuali, dobbiamo configurare il formato numerico per l'asse verticale del grafico.
 
 ```java
-//Imposta NumberFormatLinkedToSource su false
+// Imposta NumberFormatLinkedToSource su false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Aggiungi il grafico PercentsStackedColumn a una diapositiva
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Imposta NumberFormatLinkedToSource su false
+// Imposta NumberFormatLinkedToSource su false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Seguendo questa guida, hai imparato come creare presentazioni accattivanti con e
 
 ### Posso personalizzare la dimensione del carattere delle etichette dati?
 
- Sì, puoi personalizzare la dimensione del carattere delle etichette dati impostando il file`setFontHeight` proprietà come dimostrato nel codice.
+Sì, puoi personalizzare la dimensione del carattere delle etichette dati impostando il file`setFontHeight` proprietà come dimostrato nel codice.
 
 ### Come posso aggiungere più serie al grafico?
 

@@ -12,7 +12,7 @@ url: /ko/java/saving-options/save-properties-in-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 속성을 저장하는 과정을 안내합니다. 문서 속성을 설정하고, 문서 속성에 대한 암호화를 비활성화하고, 프레젠테이션을 보호하기 위한 암호를 설정하고, 파일에 저장하는 방법을 배우게 됩니다. 단계별 지침과 소스 코드 예제를 제공합니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 통합된 Java용 Aspose.Slides 라이브러리가 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다.[여기](https://downloads.aspose.com/slides/java).
 
@@ -45,7 +45,7 @@ Presentation presentation = new Presentation();
 // 프레젠테이션 제목 설정
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// 프레젠테이션 작성자 설정
+//프레젠테이션 작성자 설정
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // 프레젠테이션의 키워드 설정
@@ -87,7 +87,7 @@ presentation.save(dataDir + "Password_Protected_Presentation_out.pptx", SaveForm
 ```java
 // 문서 디렉터리의 경로입니다.
 String dataDir = "Your Document Directory";
-//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 try
 {
@@ -119,7 +119,7 @@ finally
 // 프레젠테이션 제목 설정
 presentation.getDocumentProperties().setTitle("My Presentation");
 
-// 프레젠테이션 작성자 설정
+//프레젠테이션 작성자 설정
 presentation.getDocumentProperties().setAuthor("John Doe");
 
 // 프레젠테이션의 키워드 설정

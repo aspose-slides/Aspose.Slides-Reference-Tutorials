@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 ---
 ## 소개
 매력적인 PowerPoint 프레젠테이션을 만드는 것은 예술이며 때로는 아주 작은 추가 사항이 큰 차이를 만들 수 있습니다. 이러한 기능 중 하나는 특정 슬라이드나 이미지를 확대하여 역동적이고 대화형 프레젠테이션을 만들 수 있는 줌 프레임(Zoom Frame)입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint에서 확대/축소 프레임을 만드는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
 -  Aspose.Slides for Java 라이브러리. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 시작하려면 Java 프로젝트에 필요한 패키지를 가져와야 합니다. 이러한 가져오기는 이 튜토리얼에 필요한 Aspose.Slides 기능에 대한 액세스를 제공합니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 배경색을 추가하여 슬라이드를 시각적으로 구별되게 만들고 싶습니다.
 ### 두 번째 슬라이드의 배경 설정
 ```java
-    //두 번째 슬라이드의 배경 만들기
+    // 두 번째 슬라이드의 배경 만들기
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);
@@ -69,7 +69,7 @@ try {
 ```
 ### 사용자 정의 이미지로 확대/축소 프레임 추가
 ```java
-    // 사용자 정의 이미지로 ZoomFrame 객체 추가
+    // 사용자 정의 이미지로 ZoomFrame 개체 추가
     byte[] imageBytes = Files.readAllBytes(Paths.get(imagePath));
     IPPImage image = pres.getImages().addImage(imageBytes);
     IZoomFrame zoomFrame2 = pres.getSlides().get_Item(0).getShapes().addZoomFrame(200, 250, 250, 100, slide3, image);

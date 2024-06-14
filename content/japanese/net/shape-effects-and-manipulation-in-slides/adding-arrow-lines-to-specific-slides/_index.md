@@ -8,7 +8,7 @@ weight: 13
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
 ## 導入
-視覚的に魅力的なプレゼンテーションを作成するには、多くの場合、テキストと画像以上のものが必要です。Aspose.Slides for .NET は、プレゼンテーションを動的に強化したい開発者に強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides を使用して特定のスライドに矢印の線を追加するプロセスを詳しく調べ、魅力的で情報豊富なプレゼンテーションを作成するための新しい可能性を広げます。
+視覚的に魅力的なプレゼンテーションを作成するには、多くの場合、テキストと画像以上のものが必要です。Aspose.Slides for .NET は、プレゼンテーションを動的に強化したい開発者に強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides を使用して特定のスライドに矢印の線を追加するプロセスを詳しく解説し、魅力的で情報豊富なプレゼンテーションを作成するための新しい可能性を切り開きます。
 ## 前提条件
 チュートリアルに進む前に、次の前提条件が満たされていることを確認してください。
 1. 環境設定:
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
 ### Q: Aspose.Slides の無料試用版はありますか?
  A: はい、無料トライアルをご利用いただけます[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Slides のサポートはどこで受けられますか?
-A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
+ A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
 ### Q: Aspose.Slides の一時ライセンスを取得するにはどうすればよいですか?
  A: 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides for .NET はどこで購入できますか?

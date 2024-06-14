@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 Après avoir apporté des modifications à la présentation, vous souhaiterez enregistrer les modifications. Voici comment enregistrer la présentation modifiée :
 
 ```csharp
-// Enregistrez la présentation modifiée
+//Enregistrez la présentation modifiée
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

@@ -69,4 +69,4 @@ R: Sí, explore la documentación de Aspose.Slides para obtener una lista comple
 ### P: ¿Puedo utilizar fuentes personalizadas que no estén instaladas en mi sistema?
  R: Sí, especifique la ruta del archivo de fuente usando el`AddFonts` método en el`FontsLoader` clase.
 ### P: ¿Dónde puedo buscar ayuda o conectarme con la comunidad?
-R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y participación comunitaria.
+ R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y participación comunitaria.

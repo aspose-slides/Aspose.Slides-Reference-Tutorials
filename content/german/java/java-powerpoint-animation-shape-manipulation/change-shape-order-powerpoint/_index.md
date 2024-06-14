@@ -19,7 +19,7 @@ Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden 
 Um zu beginnen, müssen Sie die erforderlichen Pakete aus der Aspose.Slides-Bibliothek importieren. Diese Importe ermöglichen Ihnen die Arbeit mit Präsentationen, Folien und Formen.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In dieser Anleitung unterteilen wir den Vorgang zum Ändern der Formreihenfolge zum besseren Verständnis und zur einfacheren Umsetzung in mehrere Schritte.
 ## Schritt 1: Laden Sie die Präsentation
@@ -50,7 +50,7 @@ shp3 = slide.getShapes().addAutoShape(ShapeType.Triangle, 200, 365, 400, 150);
 ```java
 slide.getShapes().reorder(2, shp3);
 ```
-## Schritt 5: Speichern Sie die geänderte Präsentation
+## Schritt 5: Speichern der geänderten Präsentation
 Nachdem Sie die Formen neu angeordnet haben, speichern Sie die geänderte Präsentation in einer neuen Datei. Dadurch wird sichergestellt, dass Ihre Originaldatei unverändert bleibt.
 ```java
 presentation1.save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);

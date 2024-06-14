@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## 2. lépés: Állítsa be a Prezentáció és a TIFF beállításokat
 
-Határozza meg a prezentációs fájl elérési útját (`ConvertWithNoteToTiff.pptx` ) és hozzon létre a`Presentation` tárgy. Ezután konfigurálja a`TiffOptions` az átalakításhoz.
+Határozza meg a prezentációs fájl elérési útját (`ConvertWithNoteToTiff.pptx` ) és hozzon létre a`Presentation` tárgy. Ezután konfigurálja a`TiffOptions`az átalakításhoz.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -106,7 +106,7 @@ Ha a prezentációhoz nincsenek jegyzetek, a konvertálási folyamat továbbra i
 
 ### Az Aspose.Slides for Java alkalmas kereskedelmi projektekhez?
 
-Igen, az Aspose.Slides for Java egy robusztus és megbízható könyvtár, amelyet sok vállalkozás használ dokumentumfeldolgozásra és -kezelésre Java-alkalmazásaiban.
+Igen, az Aspose.Slides for Java egy robusztus és megbízható könyvtár, amelyet sok vállalkozás használ Java-alkalmazásaikban dokumentumok feldolgozására és manipulálására.
 
 ### Vannak-e licencelési szempontok az Aspose.Slides for Java használatához a projektemben?
 

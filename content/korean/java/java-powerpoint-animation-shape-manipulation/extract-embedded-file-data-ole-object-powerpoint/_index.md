@@ -10,7 +10,7 @@ url: /ko/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file
 
 ## 소개
 Java 프로그래밍 영역에서 PowerPoint 프레젠테이션 내의 OLE(Object Linking and Embedding) 개체에서 포함된 파일 데이터를 추출하는 작업은 특히 문서 관리 또는 데이터 추출 응용 프로그램에서 자주 발생하는 작업입니다. Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 OLE 개체에서 포함된 파일 데이터를 추출하는 방법을 살펴보겠습니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - Java 프로그래밍에 대한 기본 지식.
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
@@ -23,7 +23,7 @@ import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.OleObjectFrame;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 ```

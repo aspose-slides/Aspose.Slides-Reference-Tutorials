@@ -12,13 +12,13 @@ Přidání rámce objektů OLE (propojování a vkládání objektů) do prezent
 ### Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 1. Vývojové prostředí Java: Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
-2. Aspose.Slides for Java: Stáhněte si a nainstalujte Aspose.Slides for Java z webové stránky[tady](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Stáhněte si a nainstalujte Aspose.Slides for Java z webové stránky[tady](https://releases.aspose.com/slides/java/).
 3. Základní porozumění programování v Javě: Seznamte se s koncepty a syntaxí programování v Javě.
 ## Importujte balíčky
 Nejprve musíte importovat potřebné balíčky, abyste mohli využít funkce Aspose.Slides pro Java. Můžete to udělat takto:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Ujistěte se, že je váš projekt správně nakonfigurován a knihovna Aspose.S
 Vytvořte objekt prezentace, který bude reprezentovat soubor PowerPoint, se kterým pracujete:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Třída okamžité prezentace, která představuje PPTX
 Presentation pres = new Presentation();
 ```

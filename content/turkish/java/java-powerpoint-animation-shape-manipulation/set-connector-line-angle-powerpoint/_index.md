@@ -19,7 +19,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 Başlamak için gerekli paketleri Java projenize aktarın. PowerPoint işlevlerine erişmek için Aspose.Slides kitaplığını eklediğinizden emin olun.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Sunum Nesnesini Başlatın
 PowerPoint dosyanızı yüklemek için bir Sunum nesnesini başlatarak başlayın.

@@ -20,7 +20,7 @@ url: /ar/java/java-powerpoint-properties-management/modify-built-in-properties-p
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد البيئة
 حدد المسار إلى الدليل الذي يحتوي على ملف PowerPoint الخاص بك:

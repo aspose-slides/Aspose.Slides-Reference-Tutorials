@@ -69,4 +69,4 @@ Odpověď: Ano, prozkoumejte dokumentaci Aspose.Slides, kde najdete úplný sezn
 ### Otázka: Mohu použít vlastní písma, která nejsou nainstalována v mém systému?
  Odpověď: Ano, zadejte cestu k souboru písem pomocí`AddFonts` metoda v`FontsLoader` třída.
 ### Otázka: Kde mohu vyhledat pomoc nebo se spojit s komunitou?
-A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a zapojení komunity.
+ A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a zapojení komunity.

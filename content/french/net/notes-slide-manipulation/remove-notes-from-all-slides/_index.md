@@ -43,7 +43,7 @@ Presentation presentation = new Presentation(dataDir + "YourPresentation.pptx");
 
  Dans cette étape, vous devez charger votre présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Remplacer`"Your Document Directory"` et`"YourPresentation.pptx"` avec les chemins et noms de fichiers appropriés.
 
-## Étape 2 : suppression de notes
+## Étape 2 : Supprimer des notes
 
 Maintenant, parcourons chaque diapositive de la présentation et supprimons les notes :
 

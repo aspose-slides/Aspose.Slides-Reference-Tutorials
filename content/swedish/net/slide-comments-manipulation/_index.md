@@ -1,6 +1,6 @@
 ---
-title: Bildkommentarer Manipulation
-linktitle: Bildkommentarer Manipulation
+title: Slide Kommentarer Manipulering
+linktitle: Slide Kommentarer Manipulering
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina färdigheter i bildhantering med Aspose.Slides-handledningar om manipulering av bildkommentarer. Lär dig att lägga till, redigera och hantera kommentarer programmatiskt i PowerPoint-presentationer med .NET.
 type: docs

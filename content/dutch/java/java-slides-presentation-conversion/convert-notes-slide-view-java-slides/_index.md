@@ -84,7 +84,7 @@ In deze zelfstudie hebben we de essentiële stappen besproken voor het converter
 
 ### Hoe kan ik het uitvoerformaat aanpassen bij het converteren van een presentatie?
 
- U kunt het uitvoerformaat aanpassen door het`SaveFormat` opsomming in de code. Om de presentatie bijvoorbeeld als PDF op te slaan, gebruikt u`SaveFormat.Pdf`.
+ U kunt het uitvoerformaat aanpassen door het`SaveFormat`opsomming in de code. Om de presentatie bijvoorbeeld als PDF op te slaan, gebruikt u`SaveFormat.Pdf`.
 
 ### Moet ik een licentie kopen voor Aspose.Slides voor Java?
 
@@ -100,4 +100,4 @@ Aspose.Slides is ontworpen om te werken met verschillende PowerPoint-formaten, i
 
 ### Waar kan ik meer codevoorbeelden en tutorials vinden voor Aspose.Slides voor Java?
 
- U kunt een schat aan codevoorbeelden en tutorials vinden in de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/). Bekijk de documentatie voor meer informatie over de mogelijkheden van deze krachtige bibliotheek.
+ U kunt een schat aan codevoorbeelden en tutorials vinden in de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/)Bekijk de documentatie voor meer informatie over de mogelijkheden van deze krachtige bibliotheek.

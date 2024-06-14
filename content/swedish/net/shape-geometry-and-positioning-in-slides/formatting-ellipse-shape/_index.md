@@ -52,7 +52,7 @@ ISlide sld = pres.Slides[0];
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);
 ```
 Infoga en ellips AutoShape på bilden och ange dess position och dimensioner.
-## Steg 6: Formatera Ellipse Shape
+## Steg 6: Formatera Ellips Shape
 ```csharp
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.Chocolate;

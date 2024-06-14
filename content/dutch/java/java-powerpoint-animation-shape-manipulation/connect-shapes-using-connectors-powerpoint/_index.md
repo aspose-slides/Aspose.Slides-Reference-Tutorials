@@ -20,7 +20,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 Importeer eerst de benodigde pakketten voor het werken met Aspose.Slides in uw Java-project.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Stap 1: Presenteer de presentatieklas
  Instantieer de`Presentation`class, die het PPTX-bestand vertegenwoordigt waaraan u werkt.
@@ -47,7 +47,7 @@ Voeg een verbindingsvorm toe aan de verzameling diavormen.
 ```java
 IConnector connector = shapes.addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
 ```
-## Stap 5: Vormen verbinden met connectoren
+## Stap 5: Shapes verbinden met connectoren
 Verbind de vormen met de connector.
 ```java
 connector.setStartShapeConnectedTo(ellipse);

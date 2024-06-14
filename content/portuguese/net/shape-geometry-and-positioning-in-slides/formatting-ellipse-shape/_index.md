@@ -23,7 +23,7 @@ using Aspose.Slides;
 using Aspose.Slides.Export;
 using System.Drawing;
 ```
-Agora, vamos dividir o exemplo em várias etapas para obter um guia abrangente sobre como formatar formas de elipse no PowerPoint usando Aspose.Slides for .NET.
+Agora, vamos dividir o exemplo em várias etapas para obter um guia abrangente sobre a formatação de formas de elipse no PowerPoint usando Aspose.Slides for .NET.
 ## Etapa 1: configure seu projeto
  Crie um novo projeto C# no Visual Studio e adicione uma referência à biblioteca Aspose.Slides. Se você ainda não baixou, você pode encontrar o link para download[aqui](https://releases.aspose.com/slides/net/).
 ## Etapa 2: Defina seu diretório de documentos
@@ -71,7 +71,7 @@ Siga estas etapas meticulosamente e você terá uma forma de elipse lindamente f
 A incorporação de formas visualmente atraentes, como elipses, pode melhorar significativamente o apelo estético de suas apresentações em PowerPoint. Aspose.Slides for .NET torna esse processo perfeito, permitindo criar slides com aparência profissional sem esforço.
 
 ## Perguntas frequentes
-### Aspose.Slides é compatível com as versões mais recentes do PowerPoint?
+### O Aspose.Slides é compatível com as versões mais recentes do PowerPoint?
 Aspose.Slides garante compatibilidade com várias versões do PowerPoint, incluindo as mais recentes. Consulte o[documentação](https://reference.aspose.com/slides/net/) para detalhes específicos.
 ### Posso baixar uma avaliação gratuita do Aspose.Slides for .NET?
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).

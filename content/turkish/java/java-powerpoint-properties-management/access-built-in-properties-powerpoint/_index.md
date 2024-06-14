@@ -2,7 +2,7 @@
 title: PowerPoint'te Yerleşik Özelliklere Erişin
 linktitle: PowerPoint'te Yerleşik Özelliklere Erişin
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak PowerPoint'teki yerleşik özelliklere nasıl erişeceğinizi öğrenin. Bu eğitim, yazarı, oluşturulma tarihini ve daha fazlasını alma konusunda size yol gösterir.
+description: Aspose.Slides for Java'yı kullanarak PowerPoint'teki yerleşik özelliklere nasıl erişeceğinizi öğrenin. Bu eğitim, yazarın, oluşturulma tarihinin ve daha fazlasının alınması konusunda size yol gösterir.
 type: docs
 weight: 10
 url: /tr/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
@@ -19,7 +19,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Adım 1: Sunum Nesnesini Ayarlayın
 Çalışmak istediğiniz PowerPoint sunumunu temsil edecek şekilde Sunum nesnesini ayarlayarak başlayın. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:

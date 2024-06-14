@@ -9,16 +9,16 @@ url: /ko/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpo
 ---
 ## 소개
 PowerPoint 프레젠테이션에 OLE(개체 연결 및 포함) 개체 프레임을 추가하면 슬라이드의 시각적 매력과 기능을 크게 향상시킬 수 있습니다. Aspose.Slides for Java를 사용하면 이 프로세스가 간소화되고 효율적이 됩니다. 이 튜토리얼에서는 OLE 개체 프레임을 PowerPoint 프레젠테이션에 원활하게 통합하는 데 필요한 단계를 안내합니다.
-### 전제조건
+### 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1. Java 개발 환경: 시스템에 JDK(Java Development Kit)가 설치되어 있는지 확인하십시오.
-2. Aspose.Slides for Java: 웹사이트에서 Aspose.Slides for Java를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: 웹사이트에서 Aspose.Slides for Java를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/slides/java/).
 3. Java 프로그래밍의 기본 이해: Java 프로그래밍 개념과 구문을 숙지합니다.
 ## 패키지 가져오기
 먼저 Aspose.Slides for Java의 기능을 활용하려면 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 작업 중인 PowerPoint 파일을 나타내는 프레젠테이션 개체를 만듭니다.
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // PPTX를 나타내는 프레젠테이션 클래스 인스턴스화
 Presentation pres = new Presentation();
 ```

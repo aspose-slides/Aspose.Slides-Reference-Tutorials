@@ -134,7 +134,7 @@ Začlenění ovládacích prvků ActiveX do vašich prezentací v PowerPointu m�
 
 ### Mohu programově manipulovat s ovládacími prvky ActiveX?
 
- Ano, ovládací prvky ActiveX můžete ovládat programově pomocí Aspose.Slides for .NET. Získáním reference na`IOleObjectFrame` představující ovládací prvek, můžete vyvolat metody a nastavit vlastnosti pro dynamickou interakci s ovládacím prvkem.
+ Ano, můžete manipulovat s ovládacími prvky ActiveX programově pomocí Aspose.Slides pro .NET. Získáním reference na`IOleObjectFrame` představující ovládací prvek, můžete vyvolat metody a nastavit vlastnosti pro dynamickou interakci s ovládacím prvkem.
 
 ### Jak zvládám události
 

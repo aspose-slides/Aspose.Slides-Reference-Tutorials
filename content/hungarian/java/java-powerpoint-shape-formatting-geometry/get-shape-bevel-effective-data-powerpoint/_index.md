@@ -19,7 +19,7 @@ Kezdje azzal, hogy importálja a szükséges csomagokat a Java projektbe:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
 Határozza meg a dokumentumkönyvtár elérési útját, ahol a PowerPoint bemutató található:

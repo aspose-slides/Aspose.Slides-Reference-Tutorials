@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/get-position-coordinates-of-portion-in-java-s
 
 이 포괄적인 가이드에서는 Aspose.Slides for Java API를 사용하여 Java 슬라이드 내 일부의 위치 좌표를 검색하는 방법을 살펴보겠습니다. 슬라이드의 텍스트 부분에 액세스 및 조작하고 해당 X 및 Y 좌표를 추출하는 방법을 알아봅니다. 이 단계별 튜토리얼에는 이 작업을 마스터하는 데 도움이 되는 소스 코드 예제와 귀중한 통찰력이 포함되어 있습니다.
 
-## 전제조건
+## 전제 조건
 
 구현을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

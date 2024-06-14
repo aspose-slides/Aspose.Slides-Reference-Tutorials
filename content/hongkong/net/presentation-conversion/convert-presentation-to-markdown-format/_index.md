@@ -73,7 +73,7 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 
 ## 七、結論
 
-在本教學中，我們學習如何使用 Aspose.Slides for .NET 將簡報轉換為 Markdown 格式。 Markdown 格式提供了一種靈活且高效的方式來呈現您的內容，此轉換流程可以幫助您的簡報吸引更廣泛的受眾。
+在本教學中，我們學習如何使用 Aspose.Slides for .NET 將簡報轉換為 Markdown 格式。 Markdown 格式提供了一種靈活且高效的方式來展示您的內容，而此轉換流程可以幫助您透過簡報吸引更廣泛的受眾。
 
 現在，您擁有將簡報轉換為 Markdown 格式的知識和工具，使它們更加通用且易於存取。嘗試不同的 Markdown 功能以進一步增強轉換後的簡報。
 

@@ -10,7 +10,7 @@ url: /sv/java/chart-data-manipulation/pie-chart-java-slides/
 
 ## Introduktion till att skapa ett cirkeldiagram i Java Slides med Aspose.Slides
 
-I den här handledningen kommer vi att visa hur man skapar ett cirkeldiagram i en PowerPoint-presentation med Aspose.Slides för Java. Vi kommer att förse dig med steg-för-steg-instruktioner och Java-källkod för att hjälpa dig komma igång. Den här guiden förutsätter att du redan har ställt in din utvecklingsmiljö med Aspose.Slides för Java.
+den här handledningen kommer vi att visa hur man skapar ett cirkeldiagram i en PowerPoint-presentation med Aspose.Slides för Java. Vi kommer att förse dig med steg-för-steg-instruktioner och Java-källkod för att hjälpa dig komma igång. Den här guiden förutsätter att du redan har ställt in din utvecklingsmiljö med Aspose.Slides för Java.
 
 ## Förutsättningar
 
@@ -49,7 +49,7 @@ Hämta den första bilden av presentationen där du vill lägga till cirkeldiagr
 ## Steg 4: Lägg till ett cirkeldiagram
 
 ```java
-//Lägg till ett cirkeldiagram med standarddata
+// Lägg till ett cirkeldiagram med standarddata
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Ange en titel för cirkeldiagrammet. Du kan anpassa titeln efter behov.
 ## Steg 6: Anpassa diagramdata
 
 ```java
-// Ställ in den första serien för att visa värden
+//Ställ in den första serien för att visa värden
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Ställa in index för diagramdatabladet
@@ -88,7 +88,7 @@ chart.getChartData().getCategories().add(workbook.getCell(0, 1, 0, "First Qtr"))
 chart.getChartData().getCategories().add(workbook.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(workbook.getCell(0, 3, 0, "3rd Qtr"));
 
-// Lägger till ny serie
+// Lägger till nya serier
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(0, 0, 1, "Series 1"), chart.getType());
 
 // Fyller på seriedata
@@ -102,7 +102,7 @@ Anpassa diagramdata genom att lägga till kategorier och serier och ställa in d
 ## Steg 7: Anpassa cirkeldiagramsektorer
 
 ```java
-// Ställ in sektorfärger
+// Ställ in sektorsfärger
 chart.getChartData().getSeriesGroups().get_Item(0).setColorVaried(true);
 
 // Anpassa utseendet på varje sektor
@@ -189,9 +189,9 @@ chart.getChartData().getCategories().clear();
 chart.getChartData().getCategories().add(fact.getCell(0, 1, 0, "First Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
-// Lägger till ny serie
+// Lägger till nya serier
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Fyller nu på seriedata
+// Fyller nu på seriedata
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

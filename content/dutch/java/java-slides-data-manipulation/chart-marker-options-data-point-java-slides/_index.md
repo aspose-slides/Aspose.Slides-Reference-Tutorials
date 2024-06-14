@@ -141,7 +141,7 @@ Met Aspose.Slides voor Java kunt u uw presentaties naar een hoger niveau tillen 
 
 ### Kan ik afbeeldingen gebruiken als aangepaste markeringen?
 
- Ja, u kunt afbeeldingen gebruiken als aangepaste markeringen voor gegevenspunten. Stel het vultype in op`FillType.Picture`en geef de afbeelding op die u wilt gebruiken.
+ Ja, u kunt afbeeldingen gebruiken als aangepaste markeringen voor gegevenspunten. Stel het vultype in op`FillType.Picture` en geef de afbeelding op die u wilt gebruiken.
 
 ### Is Aspose.Slides voor Java geschikt voor het maken van dynamische grafieken?
 

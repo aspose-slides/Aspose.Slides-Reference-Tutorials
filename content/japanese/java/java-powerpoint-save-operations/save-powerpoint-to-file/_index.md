@@ -19,13 +19,13 @@ PowerPoint プレゼンテーションは、情報を視覚的に伝えるため
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## ステップ1: データディレクトリを設定する
 ```java
 //ドキュメント ディレクトリへのパス。
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 //ディレクトリがまだ存在しない場合は作成します。
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)

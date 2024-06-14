@@ -69,4 +69,4 @@ A: Ja, sehen Sie sich die Aspose.Slides-Dokumentation an, um eine umfassende Lis
 ### F: Kann ich benutzerdefinierte Schriftarten verwenden, die nicht auf meinem System installiert sind?
  A: Ja, geben Sie den Pfad der Schriftartdatei mit dem`AddFonts` Methode in der`FontsLoader` Klasse.
 ### F: Wo kann ich Hilfe suchen oder Kontakt zur Community aufnehmen?
-A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Unterstützung und Engagement in der Community.
+ A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Unterstützung und Engagement in der Community.

@@ -8,18 +8,18 @@ weight: 19
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
 ## 介紹
-在本教學中，我們將探索如何使用 Aspose.Slides for Java 在 PowerPoint 中使用連線網站連線形狀。這個強大的程式庫使我們能夠以程式設計方式操作 PowerPoint 簡報，從而使連接形狀等任務無縫且有效率。
+在本教學中，我們將探索如何使用 Aspose.Slides for Java 在 PowerPoint 中使用連線網站連線形狀。這個功能強大的函式庫使我們能夠以程式設計方式操作 PowerPoint 簡報，從而使連接形狀等任務無縫且有效率。
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從以下位置下載並安裝它[網站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
-2. Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[下載頁面](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：從下列位置下載並安裝 Aspose.Slides for Java：[下載頁面](https://releases.aspose.com/slides/java/).
 3. 整合開發環境 (IDE)：選擇用於 Java 開發的 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
 
 ## 導入包
 首先，將必要的套件匯入到您的 Java 專案中：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第 1 步：存取形狀集合
 存取所選投影片的形狀集合：

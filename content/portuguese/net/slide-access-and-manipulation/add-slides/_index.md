@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 Após inserir os slides adicionais, você deverá salvar a apresentação modificada.
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- Substituir`"path_to_modified_presentation.pptx"` com o caminho e nome de arquivo desejados para a apresentação modificada.
+ Substituir`"path_to_modified_presentation.pptx"`com o caminho e nome de arquivo desejados para a apresentação modificada.
 
 ## Conclusão
 
@@ -96,9 +96,9 @@ Você pode personalizar o conteúdo dos novos slides acessando suas formas e pro
 
  Sim você pode. Em vez de criar novos slides do zero, você pode clonar slides de outra apresentação e inseri-los na apresentação atual usando o botão`InsertClone` método.
 
-### se eu quiser inserir slides no início da apresentação?
+### E se eu quiser inserir slides no início da apresentação?
 
- Para inserir slides no início da apresentação, defina o`insertionIndex` para`0`.
+Para inserir slides no início da apresentação, defina o`insertionIndex` para`0`.
 
 ### É possível modificar o layout dos slides inseridos?
 

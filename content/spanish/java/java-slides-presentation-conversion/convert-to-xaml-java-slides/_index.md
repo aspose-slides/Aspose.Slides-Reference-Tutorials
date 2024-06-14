@@ -96,7 +96,7 @@ En este paso, configuramos el protector de salida personalizado, realizamos la c
 
 ```java
 	// Ruta a la presentación fuente
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Crear opciones de conversión
@@ -109,7 +109,7 @@ En este paso, configuramos el protector de salida personalizado, realizamos la c
 		pres.save(xamlOptions);
 		// Guarde archivos XAML en un directorio de salida
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

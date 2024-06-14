@@ -74,7 +74,7 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 
 Ha egyszerre több alakzatot szeretne klónozni, hozzon létre egy hurkot, amely végigfut a forrásalakzatokon, és klónokat ad hozzá a céldiához.
 
-### Lehet-e alakzatokat klónozni a különböző prezentációk között?
+### Klónozhatok alakzatokat a különböző prezentációk között?
 
 Igen tudsz. Egyszerűen nyissa meg a forrásbemutatót és a célprezentációt az Aspose.Slides segítségével, majd kövesse az ebben az útmutatóban felvázolt klónozási folyamatot.
 

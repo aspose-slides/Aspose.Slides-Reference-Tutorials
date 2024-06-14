@@ -45,13 +45,13 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ```
 ## Çözüm
 
- Bu eğitimde, Aspose.Slides'ı kullanarak Java'da bir PowerPoint sunumunun nasıl yükleneceğini ve biçimini kontrol etmeyi öğrendik.`LoadFormat`numaralandırma. Bu, Java uygulamanızda farklı biçimlerdeki sunumları farklı şekilde işlemeniz gerektiğinde yararlı olabilir.
+ Bu eğitimde, Aspose.Slides'ı kullanarak Java'da bir PowerPoint sunumunun nasıl yükleneceğini ve biçimini kontrol etmeyi öğrendik.`LoadFormat` numaralandırma. Bu, Java uygulamanızda farklı biçimlerdeki sunumları farklı şekilde işlemeniz gerektiğinde yararlı olabilir.
 
 ## SSS'ler
 
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
- Aspose.Slides for Java kütüphanesini Aspose web sitesinden şu adresi ziyaret ederek indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/java/).
+Aspose.Slides for Java kütüphanesini Aspose web sitesinden şu adresi ziyaret ederek indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/slides/java/).
 
 ### Sunum formatını kontrol etmenin amacı nedir?
 

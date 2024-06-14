@@ -75,7 +75,7 @@ Határozza meg a keretet a teljes csoport alakzathoz:
 groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
 ```
 
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 
 Mentse el a módosított bemutatót a megadott könyvtárba:
 

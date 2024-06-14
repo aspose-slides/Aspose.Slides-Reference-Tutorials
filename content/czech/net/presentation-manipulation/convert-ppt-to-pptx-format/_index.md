@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//Vytvořte instanci objektu Presentation, který představuje soubor PPT
+// Vytvořte instanci objektu Presentation, který představuje soubor PPT
 Presentation pres = new Presentation(srcFileName);
 
 //Uložení prezentace ve formátu PPTX
@@ -67,7 +67,7 @@ Gratulujeme! Úspěšně jste převedli prezentaci PowerPoint z formátu PPT do 
 ### 1. Co je Aspose.Slides pro .NET?
 Aspose.Slides for .NET je knihovna .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově.
 
-### 2. Mohu převést jiné formáty na PPTX pomocí Aspose.Slides for .NET?
+### 2. Mohu pomocí Aspose.Slides for .NET převést jiné formáty na PPTX?
 Ano, Aspose.Slides for .NET podporuje různé formáty, včetně PPT, PPTX, ODP a dalších.
 
 ### 3. Je Aspose.Slides for .NET zdarma k použití?

@@ -1,8 +1,8 @@
 ---
-title: 在 Java Slides 中通过进度更新转换为 PDF
-linktitle: 在 Java Slides 中通过进度更新转换为 PDF
+title: 在 Java Slides 中使用进度更新转换为 PDF
+linktitle: 在 Java Slides 中使用进度更新转换为 PDF
 second_title: Aspose.Slides Java PowerPoint 处理 API
-description: 使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF，并进行进度更新。分步指南，包含源代码和进度跟踪，实现无缝转换。
+description: 使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF 并进行进度更新。分步指南包含源代码和进度跟踪，可实现无缝转换。
 type: docs
 weight: 36
 url: /zh/java/presentation-conversion/convert-pdf-progress-update-java-slides/
@@ -109,7 +109,7 @@ class ExportProgressHandler implements IProgressCallback
 
 ### 的目的是什么`IProgressCallback`?
 
-`IProgressCallback`是 Aspose.Slides for Java 提供的一个接口，用于在导出操作期间实现进度报告。它允许您跟踪将演示文稿转换为 PDF 等任务的进度。
+`IProgressCallback`是 Aspose.Slides for Java 提供的接口，用于在导出操作期间实现进度报告。它允许您跟踪将演示文稿转换为 PDF 等任务的进度。
 
 ### 我可以使用 Aspose.Slides for Java 进行其他 PowerPoint 操作吗？
 

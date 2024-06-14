@@ -9,22 +9,22 @@ url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 ---
 
 ## Úvod
-V tomto tutoriálu se ponoříme do vytváření přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Přiblížení sekcí je výkonná funkce, která vám umožňuje plynule procházet různými sekcemi prezentace, což zlepšuje organizaci i celkový uživatelský dojem. Rozdělením složitých prezentací do snadno stravitelných sekcí můžete efektivně předat své sdělení a zaujmout své publikum.
+tomto tutoriálu se ponoříme do vytváření přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Přiblížení sekcí je výkonná funkce, která vám umožňuje plynule procházet různými sekcemi vaší prezentace, což zlepšuje organizaci i celkový uživatelský dojem. Rozdělením složitých prezentací do snadno stravitelných sekcí můžete efektivně předat své sdělení a zaujmout své publikum.
 ## Předpoklady
 Než začneme, ujistěte se, že máte na svém systému nainstalované a nastavené následující předpoklady:
 1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi si můžete stáhnout a nainstalovat z[tady](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: Stáhněte si a nastavte knihovnu Aspose.Slides for Java. Dokumentaci najdete[tady](https://reference.aspose.com/slides/java/) stáhněte si knihovnu z[tento odkaz](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Stáhněte si a nastavte knihovnu Aspose.Slides for Java. Dokumentaci najdete[tady](https://reference.aspose.com/slides/java/) a stáhněte si knihovnu z[tento odkaz](https://releases.aspose.com/slides/java/).
 ## Importujte balíčky
 Nejprve importujte potřebné balíčky potřebné pro práci s Aspose.Slides for Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Krok 1: Nastavení výstupního souboru
 Definujte cestu pro výstupní soubor prezentace:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## Krok 2: Inicializujte objekt prezentace
  Vytvořte novou instanci souboru`Presentation` třída:
@@ -60,7 +60,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 ```
 
 ## Závěr
-Na závěr tento tutoriál ukázal, jak vytvořit přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Dodržováním tohoto podrobného průvodce můžete zlepšit organizaci a navigaci svých prezentací, což povede k poutavějšímu zážitku pro vaše publikum.
+Na závěr tento tutoriál ukázal, jak vytvořit přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Dodržováním tohoto podrobného průvodce můžete zlepšit organizaci a navigaci ve svých prezentacích, což povede k poutavějšímu zážitku pro vaše publikum.
 ## FAQ
 ### Mohu upravit vzhled rámečků pro přiblížení sekce?
 Ano, vzhled rámečků přiblížení sekcí si můžete přizpůsobit úpravou jejich velikosti, polohy a dalších vlastností podle potřeby.

@@ -12,12 +12,12 @@ url: /ko/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 오늘날 디지털 시대에 프레젠테이션을 HTML로 변환하는 것은 다양한 플랫폼에서 정보를 원활하게 공유하는 데 필수적입니다. Java Slides로 작업할 때 프레젠테이션에 사용된 모든 글꼴이 포함되어 일관된 형식을 유지하는지 확인하는 것이 중요합니다. 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 모든 글꼴을 포함하면서 프레젠테이션을 HTML로 변환하는 과정을 안내합니다. 시작하자!
 
-## 전제조건
+## 전제 조건
 
 코드 및 변환 프로세스를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
-- Aspose.Slides for Java API는 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API는 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 -  프리젠테이션 파일(예:`presentation.pptx`) HTML로 변환하려는 항목입니다.
 
 ## 1단계: Java 환경 설정
@@ -26,7 +26,7 @@ url: /ko/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## 2단계: 프리젠테이션 파일 로드
 
- Java 코드에서 변환하려는 프리젠테이션 파일을 로드해야 합니다. 바꾸다`"Your Document Directory"` 프레젠테이션 파일의 실제 경로를 사용하세요.
+Java 코드에서 변환하려는 프리젠테이션 파일을 로드해야 합니다. 바꾸다`"Your Document Directory"` 프레젠테이션 파일의 실제 경로를 사용하세요.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -89,13 +89,13 @@ finally
 
 ## 자주 묻는 질문
 
-### HTML 출력에 모든 글꼴이 포함되어 있는지 어떻게 확인할 수 있나요?
+### HTML 출력에 모든 글꼴이 포함되어 있는지 어떻게 확인할 수 있습니까?
 
 HTML 파일의 소스 코드를 검사하고 글꼴 참조를 찾을 수 있습니다. 프레젠테이션에 사용된 모든 글꼴은 HTML 파일에서 참조되어야 합니다.
 
 ### 스타일 및 레이아웃과 같은 HTML 출력을 추가로 사용자 정의할 수 있습니까?
 
- 예, 다음을 수정하여 HTML 출력을 사용자 정의할 수 있습니다.`HtmlOptions`서식 지정에 사용되는 HTML 템플릿입니다. Aspose.Slides for Java는 이와 관련하여 유연성을 제공합니다.
+ 예, 다음을 수정하여 HTML 출력을 사용자 정의할 수 있습니다.`HtmlOptions` 서식 지정에 사용되는 HTML 템플릿입니다. Aspose.Slides for Java는 이와 관련하여 유연성을 제공합니다.
 
 ### HTML에 글꼴을 포함할 때 제한 사항이 있나요?
 

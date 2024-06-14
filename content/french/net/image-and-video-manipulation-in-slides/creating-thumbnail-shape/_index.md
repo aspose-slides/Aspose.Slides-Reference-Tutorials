@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## Étape 1 : Configurez votre projet
 Créez un nouveau projet C# dans votre environnement de développement préféré. Assurez-vous que la bibliothèque Aspose.Slides est référencée dans votre projet.
 ## Étape 2 : initialiser la présentation
- Instanciez une classe Présentation pour représenter le fichier PowerPoint. Fournissez le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
+Instanciez une classe Présentation pour représenter le fichier PowerPoint. Fournissez le chemin d'accès à votre fichier de présentation dans le`dataDir` variable.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ R : Vous pouvez implémenter des mécanismes de gestion des erreurs à l’aide
 ### Q : Existe-t-il des limites quant à la taille ou au type de formes pouvant comporter des miniatures ?
 R : Aspose.Slides offre la flexibilité nécessaire pour créer des vignettes pour diverses formes, notamment des zones de texte, des images, etc.
 ### Q : Puis-je personnaliser la taille et la résolution des vignettes générées ?
- : Oui, vous pouvez ajuster les paramètres lors de l'appel du`GetThumbnail` méthode pour contrôler la taille et la résolution.
+ R : Oui, vous pouvez ajuster les paramètres lors de l'appel du`GetThumbnail` méthode pour contrôler la taille et la résolution.

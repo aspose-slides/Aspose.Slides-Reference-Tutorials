@@ -92,7 +92,7 @@ Ja, Aspose.Slides voor Java is geschikt voor zowel persoonlijk als commercieel g
 
 ### Hoe krijg ik toegang tot specifieke dia's en vormen binnen een presentatie?
 
-U kunt toegang krijgen tot specifieke dia's en vormen binnen een presentatie met behulp van de Aspose.Slides voor Java API. Het codefragment in deze zelfstudie laat zien hoe u toegang krijgt tot de eerste dia en de eerste vorm (diagram) op die dia.
+kunt toegang krijgen tot specifieke dia's en vormen binnen een presentatie met behulp van de Aspose.Slides voor Java API. Het codefragment in deze zelfstudie laat zien hoe u toegang krijgt tot de eerste dia en de eerste vorm (diagram) op die dia.
 
 ### Waar kan ik meer documentatie en voorbeelden vinden voor Aspose.Slides voor Java?
 

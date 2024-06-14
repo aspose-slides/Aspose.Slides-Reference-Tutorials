@@ -87,7 +87,7 @@ tokenSource.interrupt();
 ## Kode Sumber Lengkap Untuk Dukungan Interupsi di Slide Java
 
 ```java
-final String[] dataDir = {RunExamples.getDataDir_PresentationProperties()};
+final String[] dataDir = {"Your Document Directory";
 final InterruptionTokenSource tokenSource = new InterruptionTokenSource();
 Runnable interruption = new Runnable()
 {

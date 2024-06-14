@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 비밀번호로 PowerPoint 프레젠테이션을 저장하는 과정을 안내합니다. 프레젠테이션에 암호를 추가하면 보안이 강화되어 승인된 개인만 콘텐츠에 액세스할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2.  Java용 Aspose.Slides: 다음 사이트에서 Java용 Aspose.Slides를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1단계: 환경 설정

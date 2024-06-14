@@ -84,7 +84,7 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ## 刪除 Java 投影片中未使用的版面大師的完整原始碼
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

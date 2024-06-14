@@ -19,7 +19,7 @@ Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 Para empezar, necesita importar los paquetes necesarios en su proyecto Java. Estas importaciones proporcionarán acceso a las funcionalidades de Aspose.Slides necesarias para este tutorial.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Queremos que nuestras diapositivas sean visualmente distintas agregando colores de fondo.
 ### Configuración del fondo para la segunda diapositiva
 ```java
-    //Crea un fondo para la segunda diapositiva.
+    // Crea un fondo para la segunda diapositiva.
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

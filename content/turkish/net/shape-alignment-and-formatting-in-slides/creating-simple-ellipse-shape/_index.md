@@ -11,7 +11,7 @@ url: /tr/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 Sunum tasarımının dinamik dünyasında, elips gibi şekillerin bir araya getirilmesi, yaratıcılık ve profesyonellik dokunuşu katabilir. Aspose.Slides for .NET, sunum dosyalarını programlı olarak değiştirmek için güçlü bir çözüm sunar. Bu eğitim, Aspose.Slides for .NET'i kullanarak sunum slaytlarında basit bir elips şekli oluşturma sürecinde size rehberlik edecektir.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
--  Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesini yüklediğinizden emin olun. adresinden indirebilirsiniz.[sürümler sayfası](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET: Aspose.Slides for .NET kütüphanesini yüklediğinizden emin olun. adresinden indirebilirsiniz.[sürümler sayfası](https://releases.aspose.com/slides/net/).
 - Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamı kurun.
 ## Ad Alanlarını İçe Aktar
 .NET projenizde gerekli ad alanlarını içe aktararak başlayın:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Bu kod yeni bir sunumu başlatır ve daha fazla değişiklik için ilk slaydı seçer.
 ## Adım 2: Elips Şekli Ekleyin
-Şimdi slayta elips şeklini kullanarak ekleyelim.`AddAutoShape` yöntem:
+ Şimdi slayta elips şeklini kullanarak ekleyelim.`AddAutoShape` yöntem:
 ```csharp
 // Elips tipinin otomatik şeklini ekleyin
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

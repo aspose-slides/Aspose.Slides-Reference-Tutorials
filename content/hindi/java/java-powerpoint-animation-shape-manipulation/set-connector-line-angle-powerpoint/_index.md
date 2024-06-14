@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/set-connector-line-an
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। सुनिश्चित करें कि आपने PowerPoint कार्यक्षमताओं तक पहुँचने के लिए Aspose.Slides लाइब्रेरी शामिल की है।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: प्रेजेंटेशन ऑब्जेक्ट को आरंभ करें
 अपनी पावरपॉइंट फ़ाइल को लोड करने के लिए प्रेजेंटेशन ऑब्जेक्ट को आरंभीकृत करके आरंभ करें।
@@ -34,7 +34,7 @@ Slide slide = (Slide) pres.getSlides().get_Item(0);
 Shape shape;
 ```
 ## चरण 3: आकृतियों के माध्यम से पुनरावृति करें
-कनेक्टर लाइनों और उनके गुणों को पहचानने के लिए स्लाइड पर प्रत्येक आकृति को पुनरावृत्त करें।
+कनेक्टर लाइनों और उनके गुणों को पहचानने के लिए स्लाइड पर प्रत्येक आकृति को दोहराएं।
 ```java
 for (int i = 0; i < slide.getShapes().size(); i++) {
     double dir = 0.0;

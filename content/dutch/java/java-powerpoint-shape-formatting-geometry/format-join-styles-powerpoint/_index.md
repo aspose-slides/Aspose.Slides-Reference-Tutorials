@@ -12,14 +12,14 @@ Het maken van visueel aantrekkelijke PowerPoint-presentaties kan een hele klus z
 ## Vereisten
 Voordat we beginnen, zijn er een aantal vereisten waaraan u moet voldoen:
 1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw computer is geïnstalleerd. Je kunt het downloaden van[De website van Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides voor Java-bibliotheek: u moet Aspose.Slides voor Java downloaden en in uw project opnemen. Je kunt het krijgen van[hier](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides voor Java-bibliotheek: u moet Aspose.Slides voor Java downloaden en in uw project opnemen. Je kunt het krijgen van[hier](https://releases.aspose.com/slides/java/).
 3. Integrated Development Environment (IDE): Gebruik een IDE zoals IntelliJ IDEA, Eclipse of NetBeans om uw Java-code te schrijven en uit te voeren.
 4. Basiskennis van Java: Een fundamenteel begrip van Java-programmeren zal u helpen de tutorial te volgen.
 ## Pakketten importeren
 Eerst moet u de benodigde pakketten voor Aspose.Slides importeren. Dit is essentieel om toegang te krijgen tot de klassen en methoden die nodig zijn voor onze presentatiemanipulaties.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 In deze stap definiëren we een directorypad en controleren we of dit bestaat. Als dit niet het geval is, maken we de map aan. Dit is een eenvoudige maar effectieve manier om uw bestanden georganiseerd te houden.
 ## Stap 2: Initialiseer de presentatie
- Vervolgens instantiëren we de`Presentation`klasse, die ons PowerPoint-bestand vertegenwoordigt. Dit is de basis waarop we onze dia's en vormen zullen bouwen.
+ Vervolgens instantiëren we de`Presentation` klasse, die ons PowerPoint-bestand vertegenwoordigt. Dit is de basis waarop we onze dia's en vormen zullen bouwen.
 ```java
 Presentation pres = new Presentation();
 ```

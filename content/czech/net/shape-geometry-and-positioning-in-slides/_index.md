@@ -30,7 +30,7 @@ Tyto výukové programy jsou navrženy tak, aby vyhovovaly všem úrovním doved
 ### [Formátování řádků v prezentačních snímcích pomocí Aspose.Slides](./formatting-lines/)
 Prozkoumejte, jak vylepšit své prezentace pomocí přesné geometrie tvarů a umístění pomocí Aspose.Slides pro .NET. Naučte se krok za krokem s příklady kódu.
 ### [Formátování tvaru elipsy v prezentačních snímcích pomocí Aspose.Slides](./formatting-ellipse-shape/)
-Naučte se formátovat tvary elipsy ve snímcích pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady kódu a odpovědi na časté otázky.
+Naučte se formátovat tvary elipsy ve snímcích pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady kódu a odpovědi na časté dotazy.
 ### [Formátování tvaru obdélníku v prezentačních snímcích pomocí Aspose.Slides](./formatting-rectangle-shape/)
 Osvojte si umění formátování obdélníkových tvarů v prezentacích pomocí Aspose.Slides pro .NET. Naučte se krok za krokem vytvářet vizuálně přitažlivé snímky s bohatými barvami, textem a interaktivitou.
 ### [Přidání segmentů do geometrického tvaru v prezentaci pomocí Aspose.Slides](./adding-segments-geometry-shape/)

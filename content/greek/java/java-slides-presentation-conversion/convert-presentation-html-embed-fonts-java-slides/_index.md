@@ -17,7 +17,7 @@ url: /el/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 Πριν ασχοληθούμε με τον κώδικα και τη διαδικασία μετατροπής, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
 - Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
-- Aspose.Slides for Java API, από το οποίο μπορείτε να κατεβάσετε[εδώ](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API, από το οποίο μπορείτε να κατεβάσετε[εδώ](https://releases.aspose.com/slides/java/).
 -  Ένα αρχείο παρουσίασης (π.χ.`presentation.pptx`) που θέλετε να μετατρέψετε σε HTML.
 
 ## Βήμα 1: Ρύθμιση του περιβάλλοντος Java
@@ -26,7 +26,7 @@ url: /el/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## Βήμα 2: Φόρτωση του αρχείου παρουσίασης
 
- Στον κώδικα Java σας, πρέπει να φορτώσετε το αρχείο παρουσίασης που θέλετε να μετατρέψετε. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς το αρχείο παρουσίασής σας.
+Στον κώδικα Java σας, πρέπει να φορτώσετε το αρχείο παρουσίασης που θέλετε να μετατρέψετε. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς το αρχείο παρουσίασής σας.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ finally
 
 ### Μπορώ να προσαρμόσω περαιτέρω την έξοδο HTML, όπως το στυλ και τη διάταξη;
 
- Ναι, μπορείτε να προσαρμόσετε την έξοδο HTML τροποποιώντας το`HtmlOptions`και το πρότυπο HTML που χρησιμοποιείται για τη μορφοποίηση. Το Aspose.Slides για Java παρέχει ευελιξία από αυτή την άποψη.
+ Ναι, μπορείτε να προσαρμόσετε την έξοδο HTML τροποποιώντας το`HtmlOptions` και το πρότυπο HTML που χρησιμοποιείται για τη μορφοποίηση. Το Aspose.Slides για Java παρέχει ευελιξία από αυτή την άποψη.
 
 ### Υπάρχουν περιορισμοί κατά την ενσωμάτωση γραμματοσειρών σε HTML;
 

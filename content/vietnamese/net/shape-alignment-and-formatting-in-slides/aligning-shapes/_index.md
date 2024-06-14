@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Dễ dàng nâng cao sự hấp dẫn trực quan của các trang trình bày của bạn bằng cách tận dụng Aspose.Slides cho .NET để căn chỉnh chính xác các hình dạng. Hướng dẫn từng bước này đã trang bị cho bạn kiến thức để hợp lý hóa quy trình căn chỉnh và tạo các bản trình bày trông chuyên nghiệp.
 ## Câu hỏi thường gặp
 ### Tôi có thể căn chỉnh các hình dạng trong bản trình bày hiện có bằng Aspose.Slides cho .NET không?
- Có, bạn có thể tải bản trình bày hiện có bằng cách sử dụng`Presentation.Load`rồi tiến hành căn chỉnh các hình dạng.
+ Có, bạn có thể tải bản trình bày hiện có bằng cách sử dụng`Presentation.Load` rồi tiến hành căn chỉnh các hình dạng.
 ### Có các tùy chọn căn chỉnh khác có sẵn trong Aspose.Slides không?
 Aspose.Slides cung cấp nhiều tùy chọn căn chỉnh khác nhau, bao gồm AlignTop, AlignRight, AlignBottom, AlignLeft, v.v.
 ### Tôi có thể căn chỉnh các hình dạng dựa trên sự phân bố của chúng trong một slide không?

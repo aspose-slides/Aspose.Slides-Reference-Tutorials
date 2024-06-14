@@ -128,10 +128,10 @@ Ja, Aspose.Slides voor .NET ondersteunt de nieuwste PowerPoint-formaten, inclusi
 Ja, u kunt de code aanpassen om meerdere dia's te doorlopen en multimedia uit elk daarvan te extraheren.
 
 ### Zijn er licentieopties voor Aspose.Slides voor .NET?
- Aspose biedt verschillende licentieopties, waaronder gratis proefversies en tijdelijke licenties. U kunt deze opties verkennen op hun[website](https://purchase.aspose.com/buy).
+Aspose biedt verschillende licentieopties, waaronder gratis proefversies en tijdelijke licenties. U kunt deze opties verkennen op hun[website](https://purchase.aspose.com/buy).
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
  Voor technische ondersteuning en communitydiscussies kunt u de Aspose.Slides bezoeken[forum](https://forum.aspose.com/).
 
 ### Welke andere taken kan ik uitvoeren met Aspose.Slides voor .NET?
-Aspose.Slides voor .NET biedt een breed scala aan functies, waaronder het maken, wijzigen en converteren van PowerPoint-presentaties. U kunt de documentatie raadplegen voor meer details:[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
+ Aspose.Slides voor .NET biedt een breed scala aan functies, waaronder het maken, wijzigen en converteren van PowerPoint-presentaties. U kunt de documentatie raadplegen voor meer details:[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).

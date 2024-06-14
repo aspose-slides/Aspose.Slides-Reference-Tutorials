@@ -33,7 +33,7 @@ if (!isExists)
 string presentationFileName = Path.Combine(dataDir, "AnimationShapesExample.pptx");
 using (Presentation pres = new Presentation(presentationFileName))
 {
-    //Zde je váš kód pro další akce
+    // Zde je váš kód pro další akce
 }
 ```
 ## Krok 2: Iterujte snímky a efekty animace

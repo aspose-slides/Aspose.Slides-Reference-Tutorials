@@ -32,7 +32,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 using (Presentation pres = new Presentation())
 {
-    //Mã của bạn để tạo bản trình bày sẽ có ở đây.
+    // Mã của bạn để tạo bản trình bày sẽ có ở đây.
 }
 ```
 ## Bước 2: Thêm hình dạng hoạt hình

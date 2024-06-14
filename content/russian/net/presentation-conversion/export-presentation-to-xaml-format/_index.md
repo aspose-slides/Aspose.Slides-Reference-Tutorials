@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation(presentationFileName))
     NewXamlSaver newXamlSaver = new NewXamlSaver();
     xamlOptions.OutputSaver = newXamlSaver;
 
-    // Преобразование слайдов
+    // Конвертировать слайды
     pres.Save(xamlOptions);
 
     // Сохраните файлы XAML в выходной каталог.

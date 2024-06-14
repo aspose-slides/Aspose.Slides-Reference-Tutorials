@@ -11,7 +11,7 @@ url: /de/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 In der dynamischen Welt der Präsentationen sticht Aspose.Slides für .NET als leistungsstarkes Tool hervor, das Ihre Folienerstellung verbessert. Eine der bemerkenswerten Funktionen, die es bietet, ist die Möglichkeit, einen Summary Zoom zu erstellen, eine visuell ansprechende Möglichkeit, eine Foliensammlung zu präsentieren. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Summary Zoom in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-- Aspose.Slides für .NET: Stellen Sie sicher, dass die Bibliothek in Ihrer .NET-Umgebung installiert ist. Wenn nicht, können Sie sie von der[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides für .NET: Stellen Sie sicher, dass die Bibliothek in Ihrer .NET-Umgebung installiert ist. Wenn nicht, können Sie sie von der[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
 - Entwicklungsumgebung: Richten Sie Ihre .NET-Entwicklungsumgebung ein, einschließlich Visual Studio oder einer anderen bevorzugten IDE.
 - Grundkenntnisse in C#: Dieses Tutorial setzt voraus, dass Sie über Grundkenntnisse der C#-Programmierung verfügen.
 ## Namespaces importieren
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Schritt 2: Folien und Abschnitte hinzufügen
- In diesem Schritt werden einzelne Folien erstellt und in Abschnitte innerhalb der Präsentation eingeteilt.`AddEmptySlide`Methode fügt eine neue Folie hinzu, und die`Sections.AddSection` Die Methode legt Abschnitte zur besseren Organisation fest.
+ In diesem Schritt werden einzelne Folien erstellt und in Abschnitte innerhalb der Präsentation eingeteilt.`AddEmptySlide` Methode fügt eine neue Folie hinzu, und die`Sections.AddSection` Die Methode legt Abschnitte zur besseren Organisation fest.
 ```csharp
 ISlide slide = pres.Slides.AddEmptySlide(pres.Slides[0].LayoutSlide);
 // Code zum Stylen der Folie kommt hier rein
@@ -78,4 +78,4 @@ Auf jeden Fall! Sie können Hyperlinks in Ihre Folien einfügen und diese funkti
 ### Gibt es Beschränkungen hinsichtlich der Anzahl der Abschnitte einer Präsentation?
 Ab der neuesten Version gibt es keine strengen Beschränkungen hinsichtlich der Anzahl der Abschnitte, die Sie einer Präsentation hinzufügen können.
 ### Gibt es eine Testversion für Aspose.Slides?
- Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[kostenlose Testversion](https://releases.aspose.com/).
+Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[kostenlose Testversion](https://releases.aspose.com/).

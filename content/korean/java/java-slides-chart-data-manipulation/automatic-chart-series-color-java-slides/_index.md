@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 차트가 포함된 PowerPoint 프레젠테이션을 만들고 차트 시리즈의 자동 채우기 색상을 설정하는 방법을 살펴보겠습니다. 자동 채우기 색상을 사용하면 차트를 시각적으로 더욱 매력적으로 만들고 라이브러리에서 색상을 선택하도록 하여 시간을 절약할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 프로젝트에 Aspose.Slides for Java 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // 첫 번째 차트 시리즈 가져오기
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // 두 번째 차트 시리즈 가져오기
 series = chart.getChartData().getSeries().get_Item(1);
-//이제 계열 데이터를 채우는 중입니다.
+// 이제 계열 데이터를 채우는 중입니다.
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// 첫 번째 차트 시리즈 가져오기
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//이제 계열 데이터를 채우는 중입니다.
+	// 이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// 두 번째 차트 시리즈 가져오기
 	series = chart.getChartData().getSeries().get_Item(1);
-	//이제 계열 데이터를 채우는 중입니다.
+	// 이제 계열 데이터를 채우는 중입니다.
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//계열의 채우기 색상 설정
+	// 계열의 채우기 색상 설정
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// 차트와 함께 프레젠테이션 저장
@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### 차트에 계열이나 범주를 추가하려면 어떻게 해야 합니까?
 
-차트에 계열이나 범주를 추가하려면`getSeries()` 그리고`getCategories()` 차트의 메소드`ChartData` 물체. 데이터와 레이블을 지정하여 새 계열과 범주를 추가할 수 있습니다.
+ 차트에 계열이나 범주를 추가하려면`getSeries()` 그리고`getCategories()` 차트의 메소드`ChartData` 물체. 데이터와 레이블을 지정하여 새 계열과 범주를 추가할 수 있습니다.
 
 ### 차트와 라벨의 형식을 추가로 지정할 수 있나요?
 

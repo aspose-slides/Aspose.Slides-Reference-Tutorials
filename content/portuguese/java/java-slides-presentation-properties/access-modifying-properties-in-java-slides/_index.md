@@ -31,7 +31,7 @@ Para trabalhar com uma apresentação do PowerPoint, primeiro você precisa carr
 ```java
 // O caminho para o diretório de documentos.
 String dataDir = "Your Document Directory";
-//Instancie a classe Presentation que representa o PPTX
+// Instancie a classe Presentation que representa o PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 
@@ -106,7 +106,7 @@ Neste artigo, exploramos como acessar e modificar propriedades em Java Slides us
 
 Aspose.Slides for Java é uma biblioteca comercial, mas você pode explorar seus recursos com uma versão de teste gratuita. Para usá-lo em produção, você precisará obter uma licença.
 
-### O que são propriedades personalizadas em uma apresentação do PowerPoint?
+### que são propriedades personalizadas em uma apresentação do PowerPoint?
 
 Propriedades personalizadas são metadados definidos pelo usuário associados a uma apresentação do PowerPoint. Eles permitem armazenar informações adicionais relevantes para sua aplicação.
 

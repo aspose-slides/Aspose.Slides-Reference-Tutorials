@@ -105,7 +105,7 @@ pres.save(dataDir + "test.pptx", SaveFormat.Pptx);
 		chart.getAxes().getHorizontalAxis().setCategoryAxisType(CategoryAxisType.Date);
 		chart.getAxes().getHorizontalAxis().setNumberFormatLinkedToSource(false);
 		chart.getAxes().getHorizontalAxis().setNumberFormat("yyyy");
-		pres.save(RunExamples.getOutPath() + "test.pptx", SaveFormat.Pptx);
+		pres.save("Your Output Directory" + "test.pptx", SaveFormat.Pptx);
 	}
 	finally
 	{
@@ -124,7 +124,7 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 
 ＃＃結論
 
-您已使用 Aspose.Slides for Java 成功自訂了 Java Slides 圖表中類別軸的日期格式。這允許您在圖表上以所需的格式呈現日期值。請隨意根據您的具體要求探索進一步的客製化選項。
+您已使用 Aspose.Slides for Java 成功自訂了 Java Slides 圖表中類別軸的日期格式。這允許您在圖表上以所需的格式顯示日期值。請隨意根據您的具體要求探索進一步的客製化選項。
 
 ## 常見問題解答
 

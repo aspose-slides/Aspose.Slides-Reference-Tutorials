@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 ---
 ## 소개
 매력적이고 역동적인 프레젠테이션을 만드는 것은 어려울 수 있으며, 특히 사용자 정의 모양과 디자인을 추가하려는 경우 더욱 그렇습니다. 이것이 바로 Java용 Aspose.Slides가 유용한 곳입니다. 이 강력한 API를 사용하면 프로그래밍 방식으로 PowerPoint 파일을 조작할 수 있으므로 복잡한 기하학적 모양과 세그먼트를 쉽게 추가할 수 있는 유연성을 얻을 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기하학적 모양에 세그먼트를 추가하는 방법을 안내합니다. 프레젠테이션 작성을 자동화하려는 개발자이거나 코딩을 좋아하는 사람이라면 이 가이드가 포괄적인 리소스가 될 것입니다.
-## 전제조건
+## 전제 조건
 단계별 가이드를 시작하기 전에 준비해야 할 몇 가지 전제 조건이 있습니다.
 1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides for Java: Aspose.Slides for Java 라이브러리를 다운로드해야 합니다. 에서 받으실 수 있습니다.[웹사이트](https://releases.aspose.com/slides/java/).
@@ -19,7 +19,7 @@ url: /ko/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 먼저 Aspose.Slides에서 필요한 패키지를 가져와야 합니다. 이를 통해 PowerPoint 프레젠테이션을 만들고 조작하는 데 필요한 모든 기능에 액세스할 수 있습니다.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 명확성과 이해의 용이성을 보장하기 위해 기하학적 형태에 세그먼트를 추가하는 과정을 세부 단계로 나누어 보겠습니다.
 ## 1단계: 새 프레젠테이션 만들기

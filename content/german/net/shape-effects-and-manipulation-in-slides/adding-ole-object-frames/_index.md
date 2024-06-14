@@ -83,4 +83,4 @@ A: Ja, Aspose.Slides unterstützt die neuesten PowerPoint-Dateiformate, einschli
 ### F: Kann ich das Erscheinungsbild des eingebetteten OLE-Objektrahmens anpassen?
 A: Auf jeden Fall. Sie können die Größe, Position und andere Eigenschaften des OLE-Objektrahmens nach Ihren Wünschen anpassen.
 ### F: Wo kann ich Unterstützung suchen, wenn ich während der Implementierung auf Herausforderungen stoße?
-A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung und Anleitung der Community.
+ A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung und Anleitung der Community.

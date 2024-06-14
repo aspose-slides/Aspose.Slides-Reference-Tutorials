@@ -12,13 +12,13 @@ L'aggiunta di una cornice oggetto OLE (collegamento e incorporamento di oggetti)
 ### Prerequisiti
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 1. Ambiente di sviluppo Java: assicurati di avere Java Development Kit (JDK) installato sul tuo sistema.
-2. Aspose.Slides per Java: scaricare e installare Aspose.Slides per Java dal sito Web[Qui](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides per Java: scaricare e installare Aspose.Slides per Java dal sito Web[Qui](https://releases.aspose.com/slides/java/).
 3. Comprensione di base della programmazione Java: familiarizza con i concetti e la sintassi della programmazione Java.
 ## Importa pacchetti
 Innanzitutto, devi importare i pacchetti necessari per sfruttare le funzionalità di Aspose.Slides per Java. Ecco come puoi farlo:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ Assicurati che il tuo progetto sia configurato correttamente e che la libreria A
 Crea un oggetto Presentazione per rappresentare il file PowerPoint con cui stai lavorando:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Crea un'istanza della classe Presentation che rappresenta il PPTX
 Presentation pres = new Presentation();
 ```

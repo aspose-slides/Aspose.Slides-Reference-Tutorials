@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-animation-shape-manipulation/change-shape-order-po
 आरंभ करने के लिए, आपको Aspose.Slides लाइब्रेरी से आवश्यक पैकेज आयात करने होंगे। ये आयात आपको प्रस्तुतियों, स्लाइडों और आकृतियों के साथ काम करने की अनुमति देंगे।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 इस गाइड में, हम बेहतर समझ और कार्यान्वयन में आसानी के लिए आकार क्रम बदलने की प्रक्रिया को कई चरणों में विभाजित करेंगे।
 ## चरण 1: प्रस्तुति लोड करें
@@ -70,6 +70,6 @@ Aspose.Slides for Java एक जावा एपीआई है, जो मा
 ### क्या Aspose.Slides for Java सभी PowerPoint प्रारूपों के साथ संगत है?
 हां, Aspose.Slides for Java PPT, PPTX और अन्य PowerPoint प्रारूपों का समर्थन करता है।
 ### मैं Java के लिए Aspose.Slides का निःशुल्क परीक्षण कैसे प्राप्त कर सकता हूँ?
- आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/).
+ आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java पर अधिक दस्तावेज़ कहां पा सकता हूं?
  आप विस्तृत दस्तावेज यहाँ पा सकते हैं[Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).

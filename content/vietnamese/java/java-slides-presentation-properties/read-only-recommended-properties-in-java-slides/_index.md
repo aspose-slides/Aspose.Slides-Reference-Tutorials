@@ -21,7 +21,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách bật các thuộc t�
 Chúng ta sẽ bắt đầu bằng cách tạo một bản trình bày PowerPoint mới bằng Aspose.Slides cho Java. Nếu bạn đã có bản trình bày, bạn có thể bỏ qua bước này.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Cuối cùng, chúng tôi lưu bản trình bày với thuộc tính Đề xuấ
 ## Mã nguồn hoàn chỉnh cho các thuộc tính được đề xuất chỉ đọc trong các trang trình bày Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

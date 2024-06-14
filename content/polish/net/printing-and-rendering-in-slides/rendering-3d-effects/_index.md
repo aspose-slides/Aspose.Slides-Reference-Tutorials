@@ -25,7 +25,7 @@ using System.IO;
 ## Krok 1: Skonfiguruj swój projekt
 Rozpocznij od utworzenia nowego projektu .NET i dodaj odwołanie do biblioteki Aspose.Slides.
 ## Krok 2: Zainicjuj prezentację
-swoim kodzie zainicjuj nowy obiekt prezentacji:
+W swoim kodzie zainicjuj nowy obiekt prezentacji:
 ```csharp
 string dataDir = "Your Document Directory";
 string outPptxFile = Path.Combine(dataDir, "sandbox_3d.pptx");
@@ -74,6 +74,6 @@ Absolutnie! Aspose.Slides zapewnia szerokie możliwości dostosowywania właści
 ### Gdzie mogę znaleźć więcej tutoriali i przykładów?
  Zapoznaj się z dokumentacją Aspose.Slides[Tutaj](https://reference.aspose.com/slides/net/) obszerne tutoriale i przykłady.
 ### Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc, jeśli napotkam problemy?
  Odwiedź forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11) za wsparcie i pomoc społeczną.

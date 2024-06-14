@@ -50,7 +50,7 @@ ResponsiveHtmlController controller = new ResponsiveHtmlController();
 HtmlOptions htmlOptions = new HtmlOptions { HtmlFormatter = HtmlFormatter.CreateCustomFormatter(controller) };
 ```
 
-## 7. Enregistrer la présentation au format HTML
+## 7. Enregistrement de la présentation au format HTML
 
 Il est maintenant temps d'enregistrer la présentation au format HTML réactif. Spécifiez le chemin de sortie comme indiqué ci-dessous :
 

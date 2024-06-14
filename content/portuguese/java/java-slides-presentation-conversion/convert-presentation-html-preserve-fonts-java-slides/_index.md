@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Exclua fontes de apresentação padrão como Calibri e Arial
+    // Exclua fontes de apresentação padrão como Calibri e Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ Neste trecho de código:
 
 -  Carregamos a apresentação de entrada do PowerPoint usando`Presentation`.
 
-- Definimos uma lista de fontes (`fontNameExcludeList`) que queremos excluir da incorporação no HTML. Isso é útil para excluir fontes comuns como Calibri e Arial para reduzir o tamanho do arquivo.
+- Definimos uma lista de fontes (`fontNameExcludeList`que queremos excluir da incorporação no HTML. Isso é útil para excluir fontes comuns como Calibri e Arial para reduzir o tamanho do arquivo.
 
 -  Criamos uma instância de`EmbedAllFontsHtmlController` e passe a lista de exclusão de fontes para ele.
 
@@ -98,7 +98,7 @@ Neste tutorial, você aprendeu como converter uma apresentação do PowerPoint e
 
 ### Como faço o download do Aspose.Slides para Java?
 
-Você pode baixar Aspose.Slides para Java no site da Aspose. Visita[aqui](https://downloads.aspose.com/slides/java/) para obter a versão mais recente.
+ Você pode baixar Aspose.Slides para Java no site da Aspose. Visita[aqui](https://downloads.aspose.com/slides/java/) para obter a versão mais recente.
 
 ### Posso personalizar a lista de fontes excluídas?
 

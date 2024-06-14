@@ -13,18 +13,18 @@ url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-power
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من تثبيت المتطلبات الأساسية التالية وإعدادها على نظامك:
 1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث إصدار من[هنا](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.Slides for Java: قم بتنزيل وإعداد مكتبة Aspose.Slides for Java. يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/slides/java/)وتحميل المكتبة من[هذا الرابط](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: قم بتنزيل وإعداد مكتبة Aspose.Slides for Java. يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/slides/java/) وتحميل المكتبة من[هذا الرابط](https://releases.aspose.com/slides/java/).
 ## حزم الاستيراد
 أولاً، قم باستيراد الحزم اللازمة للعمل مع Aspose.Slides لـ Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## الخطوة 1: إعداد ملف الإخراج
 تحديد المسار لملف العرض التقديمي الناتج:
 ```java
-String resultPath = RunExamples.getOutPath()  + "SectionZoomPresentation.pptx";
+String resultPath = "Your Output Directory"  + "SectionZoomPresentation.pptx";
 ```
 ## الخطوة 2: تهيئة كائن العرض التقديمي
  إنشاء مثيل جديد لـ`Presentation` فصل:

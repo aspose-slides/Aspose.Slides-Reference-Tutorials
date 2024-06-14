@@ -9,7 +9,7 @@ url: /ko/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
 ## 소개
 디지털 서명은 디지털 문서의 신뢰성과 무결성을 보장하는 데 중요한 역할을 합니다. .NET용 Aspose.Slides는 디지털 서명에 대한 강력한 지원을 제공하므로 PowerPoint 프레젠테이션에 안전하게 서명할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 프레젠테이션에 디지털 서명을 추가하는 과정을 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 -  .NET용 Aspose.Slides: Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/net/).
 - 디지털 인증서: 프레젠테이션 서명을 위한 비밀번호와 함께 디지털 인증서 파일(PFX)을 얻습니다. 이를 생성하거나 신뢰할 수 있는 인증 기관에서 얻을 수 있습니다.

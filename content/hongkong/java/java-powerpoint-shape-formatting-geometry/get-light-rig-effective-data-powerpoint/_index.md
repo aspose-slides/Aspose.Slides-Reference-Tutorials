@@ -8,7 +8,7 @@ weight: 25
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
 ## 介紹
-您是否希望使用 Java 自動執行 PowerPoint 簡報任務？別再猶豫了！ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員建立、操作和轉換 PowerPoint 文件，而無需安裝 Microsoft PowerPoint。在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for Java 從 PowerPoint 簡報中取得輕裝備有效資料的步驟。無論您是經驗豐富的 Java 開發人員還是剛起步，本教學都將幫助您在專案中充分發揮 Aspose.Slides 的潛力。
+您是否希望使用 Java 自動執行 PowerPoint 簡報任務？別再猶豫了！ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員建立、操作和轉換 PowerPoint 文件，而無需安裝 Microsoft PowerPoint。在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for Java 從 PowerPoint 簡報中取得輕裝備有效資料的步驟。無論您是經驗豐富的 Java 開發人員還是新手，本教學都將幫助您在專案中充分發揮 Aspose.Slides 的潛力。
 ## 先決條件
 在深入研究程式碼之前，請確保您符合以下先決條件：
 1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK 8 或更高版本。
@@ -20,7 +20,7 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effec
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 第1步：設定項目目錄
 首先設定您的項目目錄。建立一個資料夾，用於儲存 Java 文件和 PowerPoint 簡報 (`Presentation1.pptx`）。

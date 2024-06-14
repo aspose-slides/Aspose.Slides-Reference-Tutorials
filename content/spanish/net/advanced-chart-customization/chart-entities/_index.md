@@ -8,7 +8,7 @@ weight: 13
 url: /es/net/advanced-chart-customization/chart-entities/
 ---
 
-En el mundo actual impulsado por los datos, la visualización eficaz de los datos es clave para transmitir información a su audiencia. Aspose.Slides para .NET es una poderosa biblioteca que le permite crear presentaciones y diapositivas impresionantes, incluidos gráficos llamativos. En este tutorial, lo guiaremos a través del proceso de creación de hermosos gráficos usando Aspose.Slides para .NET. Dividiremos cada ejemplo en varios pasos para ayudarlo a comprender e implementar las entidades y el formato del gráfico. ¡Entonces empecemos!
+En el mundo actual impulsado por los datos, la visualización eficaz de los datos es clave para transmitir información a su audiencia. Aspose.Slides para .NET es una poderosa biblioteca que le permite crear presentaciones y diapositivas impresionantes, incluidos gráficos llamativos. En este tutorial, lo guiaremos a través del proceso de creación de hermosos gráficos usando Aspose.Slides para .NET. Dividiremos cada ejemplo en varios pasos para ayudarle a comprender e implementar las entidades y el formato del gráfico. ¡Entonces empecemos!
 
 ## Requisitos previos
 
@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Configuración del formato de líneas de cuadrícula menores para el eje de categorías
+// Configuración del formato de líneas de cuadrícula menores para el eje de categorías
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Configuración del color del área de trazado
+//Configuración del color del área de trazado
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrollad
 
 ### 3. ¿Existe una prueba gratuita disponible de Aspose.Slides para .NET?
 
-Sí, puede obtener una prueba gratuita de Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/).
+ Sí, puede obtener una prueba gratuita de Aspose.Slides para .NET desde[aquí](https://releases.aspose.com/).
 
 ### 4. ¿Cómo puedo obtener una licencia temporal de Aspose.Slides para .NET?
 

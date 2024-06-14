@@ -63,7 +63,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ## Conclusione
 
-In questa guida, abbiamo imparato come accedere alle diapositive tramite il loro indice sequenziale utilizzando Aspose.Slides per .NET. Abbiamo trattato il caricamento di una presentazione PowerPoint, l'accesso alle diapositive e ti abbiamo fornito il codice sorgente necessario per eseguire questa attività. Aspose.Slides per .NET semplifica il processo di lavoro con le presentazioni PowerPoint a livello di codice, offrendo agli sviluppatori la flessibilità di automatizzare varie attività.
+In questa guida, abbiamo imparato come accedere alle diapositive tramite il loro indice sequenziale utilizzando Aspose.Slides per .NET. Abbiamo trattato il caricamento di una presentazione PowerPoint, l'accesso alle diapositive e ti abbiamo fornito il codice sorgente necessario per eseguire questa attività. Aspose.Slides per .NET semplifica il processo di lavoro con le presentazioni di PowerPoint a livello di codice, offrendo agli sviluppatori la flessibilità di automatizzare varie attività.
 
 ## Domande frequenti
 

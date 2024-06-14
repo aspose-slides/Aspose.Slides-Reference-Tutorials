@@ -8,13 +8,13 @@ weight: 12
 url: /pl/net/advanced-chart-customization/chart-trend-lines/
 ---
 
-świecie wizualizacji i prezentacji danych wykresy mogą być skutecznym sposobem skutecznego przekazywania informacji. Aspose.Slides dla .NET zapewnia bogaty w funkcje zestaw narzędzi do pracy z wykresami, w tym możliwość dodawania linii trendu do wykresów. W tym samouczku zajmiemy się procesem dodawania linii trendu do wykresu krok po kroku za pomocą Aspose.Slides dla .NET. 
+W świecie wizualizacji i prezentacji danych wykresy mogą być skutecznym sposobem skutecznego przekazywania informacji. Aspose.Slides dla .NET zapewnia bogaty w funkcje zestaw narzędzi do pracy z wykresami, w tym możliwość dodawania linii trendu do wykresów. W tym samouczku zajmiemy się procesem dodawania linii trendu do wykresu krok po kroku za pomocą Aspose.Slides dla .NET. 
 
 ## Warunki wstępne
 
 Zanim zaczniemy pracować z Aspose.Slides dla .NET, musisz upewnić się, że masz następujące wymagania wstępne:
 
-1.  Aspose.Slides dla .NET: Aby uzyskać dostęp do biblioteki i z niej korzystać, musisz mieć zainstalowany Aspose.Slides dla .NET. Bibliotekę można pobrać ze strony[strona pobierania](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides dla .NET: Aby uzyskać dostęp do biblioteki i z niej korzystać, musisz mieć zainstalowany Aspose.Slides dla .NET. Bibliotekę można pobrać ze strony[strona pobierania](https://releases.aspose.com/slides/net/).
 
 2. Środowisko programistyczne: Należy mieć skonfigurowane środowisko programistyczne, najlepiej przy użyciu zintegrowanego środowiska programistycznego .NET, takiego jak Visual Studio.
 
@@ -60,7 +60,7 @@ IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 20, 20,
 
 ## Krok 3: Dodaj linie trendu do wykresu
 
-Teraz do serii wykresów dodajemy różne typy linii trendu.
+Teraz do serii wykresów dodajemy różne rodzaje linii trendu.
 
 ### Dodawanie wykładniczej linii trendu
 

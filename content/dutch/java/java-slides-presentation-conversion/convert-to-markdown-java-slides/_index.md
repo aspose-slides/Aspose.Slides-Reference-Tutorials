@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // Pad naar bronpresentatie
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// Pad- en mapnaam voor het opslaan van prijsverlagingsgegevens
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// Maak opties voor het maken van Markdowns
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// Stel een parameter in om alle items weer te geven (items die gegroepeerd zijn, worden samen weergegeven).

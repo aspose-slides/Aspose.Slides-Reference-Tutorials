@@ -14,7 +14,7 @@ url: /ar/net/licensing-and-formatting/licensing-and-formatting/
 
 قبل أن نخوض في عملية الترخيص، يجب أن تتوفر لديك المتطلبات الأساسية التالية:
 
-1.  Aspose.Slides for .NET: تأكد من أنك قمت بتثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من[رابط التحميل](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: تأكد من أنك قمت بتثبيت Aspose.Slides for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من[رابط التحميل](https://releases.aspose.com/slides/net/).
 
 2.  ملف الترخيص: احصل على ملف ترخيص Aspose.Slides صالح، يُسمى عادةً "Aspose.Slides.lic." يمكنك الحصول على تراخيص من[موقع أسبوز](https://purchase.aspose.com/buy) أو طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
 
@@ -58,7 +58,7 @@ license.SetLicense("Aspose.Slides.lic");
 
 ### الخطوة 4: التحقق من الترخيص
 
-للتحقق مما إذا كان ترخيصك صالحًا، استخدم`IsLicensed` طريقة. تقوم بإرجاع قيمة منطقية تشير إلى ما إذا كان ترخيصك نشطًا أم لا.
+ للتحقق مما إذا كان ترخيصك صالحًا، استخدم`IsLicensed` طريقة. تقوم بإرجاع قيمة منطقية تشير إلى ما إذا كان ترخيصك نشطًا أم لا.
 
 ```csharp
 if (license.IsLicensed())

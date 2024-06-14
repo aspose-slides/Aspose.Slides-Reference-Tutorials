@@ -143,7 +143,7 @@ Dalam tutorial ini, Anda telah mempelajari cara membuat bagan Peta Pohon dalam p
 
 ### Bagaimana cara menyesuaikan tampilan bagan Peta Pohon?
 
- Anda dapat menyesuaikan tampilan bagan Peta Pohon dengan memodifikasi berbagai properti`chart` Dan`series` objek, seperti warna, label, dan tata letak.
+ Anda dapat menyesuaikan tampilan bagan Peta Pohon dengan memodifikasi berbagai properti`chart` Dan`series`objek, seperti warna, label, dan tata letak.
 
 ### Bisakah saya membuat beberapa diagram Peta Pohon dalam satu presentasi?
 

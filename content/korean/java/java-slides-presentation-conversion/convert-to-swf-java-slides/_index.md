@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-swf-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션(PPTX)을 SWF(Shockwave Flash) 형식으로 변환하는 방법을 배웁니다. Aspose.Slides는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

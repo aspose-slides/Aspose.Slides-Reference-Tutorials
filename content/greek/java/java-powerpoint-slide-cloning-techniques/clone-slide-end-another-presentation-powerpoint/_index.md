@@ -21,7 +21,7 @@ url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-p
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Τώρα, ας αναλύσουμε τη διαδικασία της κλωνοποίησης μιας διαφάνειας από μια παρουσίαση και της προσθήκης της σε μια άλλη σε απλά, εύπεπτα βήματα.
@@ -29,7 +29,7 @@ import com.aspose.slides.examples.RunExamples;
  Για να ξεκινήσουμε, πρέπει να φορτώσουμε την παρουσίαση πηγής από την οποία θέλουμε να κλωνοποιήσουμε μια διαφάνεια. Αυτό γίνεται χρησιμοποιώντας το`Presentation` τάξη που παρέχεται από το Aspose.Slides.
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Δημιουργήστε την κλάση Instantation Presentation για να φορτώσετε το αρχείο παρουσίασης πηγής
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

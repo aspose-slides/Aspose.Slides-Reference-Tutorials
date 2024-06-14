@@ -21,7 +21,7 @@ Először is importálnia kell a szükséges Aspose.Slides csomagokat a Java pro
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## 1. lépés: Hozza létre a projektkönyvtárat

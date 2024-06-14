@@ -10,7 +10,7 @@ url: /pl/java/additional-utilities/get-position-coordinates-of-portion-in-java-s
 
 ## Wprowadzenie do uzyskiwania współrzędnych pozycji części w slajdach Java
 
-W tym obszernym przewodniku zbadamy, jak pobrać współrzędne pozycji części slajdów Java za pomocą interfejsu API Aspose.Slides for Java. Dowiesz się, jak uzyskać dostęp do fragmentów tekstu na slajdzie i manipulować nimi, a także wyodrębnić ich współrzędne X i Y. Ten samouczek krok po kroku zawiera przykłady kodu źródłowego i cenne informacje, które pomogą Ci opanować to zadanie.
+W tym obszernym przewodniku przyjrzymy się, jak pobrać współrzędne pozycji części slajdów Java za pomocą interfejsu API Aspose.Slides for Java. Dowiesz się, jak uzyskać dostęp do fragmentów tekstu na slajdzie i manipulować nimi, a także wyodrębnić ich współrzędne X i Y. Ten samouczek krok po kroku zawiera przykłady kodu źródłowego i cenne informacje, które pomogą Ci opanować to zadanie.
 
 ## Warunki wstępne
 
@@ -97,7 +97,7 @@ finally
 
 ## Wniosek
 
-W tym samouczku omówiliśmy sposób uzyskiwania współrzędnych pozycji fragmentów tekstu na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Wiedza ta może być szczególnie przydatna, gdy potrzebna jest precyzyjna kontrola nad rozmieszczeniem elementów tekstowych w prezentacjach PowerPoint.
+tym samouczku omówiliśmy sposób uzyskiwania współrzędnych pozycji fragmentów tekstu na slajdach Java przy użyciu interfejsu API Aspose.Slides for Java. Wiedza ta może być szczególnie przydatna, gdy potrzebna jest precyzyjna kontrola nad rozmieszczeniem elementów tekstowych w prezentacjach PowerPoint.
 
 ## Często zadawane pytania
 

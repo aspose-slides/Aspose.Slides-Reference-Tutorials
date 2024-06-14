@@ -16,9 +16,9 @@ url: /ar/java/additional-utilities/open-password-protected-presentation-in-java-
 
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.Slides for Java Library: تأكد من أنك قمت بتنزيل وتثبيت Aspose.Slides for Java Library. يمكنك الحصول عليه من[موقع أسبوز](https://products.aspose.com/slides/java/).
+1.  Aspose.Slides for Java Library: تأكد من أنك قمت بتنزيل وتثبيت Aspose.Slides for Java Library. يمكنك الحصول عليه من[موقع أسبوز](https://products.aspose.com/slides/java/).
 
-2.  بيئة تطوير Java: قم بإعداد بيئة تطوير Java على نظامك إذا لم تقم بذلك بالفعل. يمكنك تحميل جافا من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. بيئة تطوير Java: قم بإعداد بيئة تطوير Java على نظامك إذا لم تقم بذلك بالفعل. يمكنك تحميل جافا من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ## الخطوة 1: استيراد مكتبة Aspose.Slides
 
@@ -43,7 +43,7 @@ loadOptions.setPassword("pass"); // استبدل "pass" بكلمة مرور ال
 
 ## الخطوة 3: افتح العرض التقديمي
 
- الآن، ستفتح العرض التقديمي المحمي بكلمة مرور باستخدام الملف`Presentation`منشئ الفئة، الذي يأخذ مسار الملف وخيارات التحميل كمعلمات.
+ الآن، ستفتح العرض التقديمي المحمي بكلمة مرور باستخدام الملف`Presentation` منشئ الفئة، الذي يأخذ مسار الملف وخيارات التحميل كمعلمات.
 
 ```java
 Presentation pres = new Presentation(dataDir + "OpenPasswordPresentation.pptx", loadOptions);

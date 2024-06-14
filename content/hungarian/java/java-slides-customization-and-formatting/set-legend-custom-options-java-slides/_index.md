@@ -116,7 +116,7 @@ finally
 ```
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet testreszabni egy diagram jelmagyarázat tulajdonságait egy PowerPoint-prezentációban az Aspose.Slides for Java segítségével. Módosíthatja a jelmagyarázat helyzetét, méretét és egyéb attribútumait, hogy tetszetős és informatív prezentációkat készítsen.
+Ebben az oktatóanyagban megtanultuk, hogyan lehet testreszabni egy diagram jelmagyarázat tulajdonságait egy PowerPoint-prezentációban az Aspose.Slides for Java segítségével. Módosíthatja a jelmagyarázat helyzetét, méretét és egyéb attribútumait, hogy tetszetős és informatív bemutatókat hozzon létre.
 
 ## GYIK
 

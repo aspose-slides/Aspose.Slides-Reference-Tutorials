@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation(dataDir + "BetterSlideTransitions.pp
     // Koden för bildanimationer går här
 }
 ```
-## Steg 2: Tillämpa Circle Type Transition
+## Steg 2: Använd Circle Type Transition
 Tillämpa en cirkeltypsövergång på den första bilden:
 ```csharp
 pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;

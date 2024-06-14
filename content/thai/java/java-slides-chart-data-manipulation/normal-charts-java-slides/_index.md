@@ -99,7 +99,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-//การตั้งค่าสีเติมสำหรับซีรี่ส์
+// การตั้งค่าสีเติมสำหรับซีรี่ส์
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
@@ -111,7 +111,7 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-//การตั้งค่าสีเติมสำหรับซีรี่ส์
+// การตั้งค่าสีเติมสำหรับซีรี่ส์
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
@@ -186,20 +186,20 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 // ใช้แผนภูมิชุดแรก
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//กำลังเติมข้อมูลซีรีส์
+// กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-//การตั้งค่าสีเติมสำหรับซีรี่ส์
+// การตั้งค่าสีเติมสำหรับซีรี่ส์
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // ใช้แผนภูมิชุดที่สอง
 series = chart.getChartData().getSeries().get_Item(1);
-//กำลังเติมข้อมูลซีรีส์
+// กำลังเติมข้อมูลซีรีส์
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-//การตั้งค่าสีเติมสำหรับซีรี่ส์
+// การตั้งค่าสีเติมสำหรับซีรี่ส์
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 // ป้ายกำกับแรกจะแสดงชื่อหมวดหมู่
@@ -223,7 +223,7 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิได้อย่างไร?
 
- หากต้องการเปลี่ยนประเภทแผนภูมิ ให้แก้ไข`ChartType` พารามิเตอร์เมื่อเพิ่มแผนภูมิโดยใช้`sld.getShapes().addChart()`- คุณสามารถเลือกจากแผนภูมิประเภทต่างๆ ที่มีอยู่ใน Aspose.Slides
+ หากต้องการเปลี่ยนประเภทแผนภูมิ ให้แก้ไข`ChartType`พารามิเตอร์เมื่อเพิ่มแผนภูมิโดยใช้`sld.getShapes().addChart()`- คุณสามารถเลือกจากแผนภูมิประเภทต่างๆ ที่มีอยู่ใน Aspose.Slides
 
 ### ฉันสามารถเปลี่ยนสีของชุดแผนภูมิได้หรือไม่
 
@@ -239,4 +239,4 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ### ฉันจะบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่นได้อย่างไร
 
- หากต้องการบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่น ให้เปลี่ยน`SaveFormat` พารามิเตอร์ใน`pres.save()`วิธีการในรูปแบบที่ต้องการ (เช่น PDF, PNG, JPEG)
+ หากต้องการบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่น ให้เปลี่ยน`SaveFormat` พารามิเตอร์ใน`pres.save()` วิธีการในรูปแบบที่ต้องการ (เช่น PDF, PNG, JPEG)

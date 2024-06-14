@@ -17,7 +17,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -41,7 +41,7 @@ BufferedImage img = ImageIO.read(new File(dataDir + "aspose-logo.jpg"));
 IPPImage imgx = pres.getImages().addImage(img);
 ```
 ## Schritt 4: Bilderrahmen hinzufügen
-Erstellen Sie einen Bilderrahmen mit den Abmessungen, die dem Bild entsprechen:
+Erstellen Sie einen Bilderrahmen mit den dem Bild entsprechenden Abmessungen:
 ```java
 sld.getShapes().addPictureFrame(ShapeType.Rectangle, 50, 150, imgx.getWidth(), imgx.getHeight(), imgx);
 ```

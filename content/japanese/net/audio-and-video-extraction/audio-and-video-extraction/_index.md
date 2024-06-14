@@ -128,10 +128,10 @@ Aspose.Slides for .NET を使用した効果的なマルチメディア抽出に
 はい、コードを変更して複数のスライドを反復処理し、各スライドからマルチメディアを抽出することができます。
 
 ### Aspose.Slides for .NET にはライセンス オプションがありますか?
- Asposeは、無料トライアルや一時ライセンスなど、さまざまなライセンスオプションを提供しています。これらのオプションについては、[Webサイト](https://purchase.aspose.com/buy).
+Asposeは、無料トライアルや一時ライセンスなど、さまざまなライセンスオプションを提供しています。これらのオプションについては、[Webサイト](https://purchase.aspose.com/buy).
 
 ### Aspose.Slides for .NET のサポートを受けるにはどうすればよいですか?
 技術サポートやコミュニティディスカッションについては、Aspose.Slidesをご覧ください。[フォーラム](https://forum.aspose.com/).
 
 ### Aspose.Slides for .NET で他にどのようなタスクを実行できますか?
-Aspose.Slides for .NET は、PowerPoint プレゼンテーションの作成、変更、変換など、幅広い機能を提供します。詳細については、ドキュメントを参照してください。[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
+ Aspose.Slides for .NET は、PowerPoint プレゼンテーションの作成、変更、変換など、幅広い機能を提供します。詳細については、ドキュメントを参照してください。[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).

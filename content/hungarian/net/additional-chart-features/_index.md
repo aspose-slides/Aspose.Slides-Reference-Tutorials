@@ -18,7 +18,7 @@ Az Aspose.Slides for .NET számos további diagramszolgáltatást kínál, amely
 
 - Dinamikus adatkötés: Tanulja meg, hogyan lehet diagramokat dinamikus adatforrásokhoz kötni, így biztosítva, hogy diagramjai zökkenőmentesen tükrözzék a valós idejű információkat.
 - Interaktív elemek: Merüljön el az interaktivitásban azáltal, hogy interaktív elemeket ad hozzá diagramjaihoz, például eszköztippeket és adatcímkéket, ezzel fokozva a felhasználói elkötelezettséget.
-- Egyéni stílus: Fedezze fel a diagramstílusok, színek, betűtípusok és egyéb vizuális attribútumok testreszabásának technikáit, hogy azok megfeleljenek a prezentáció esztétikájának.
+- Egyéni stílus: Fedezze fel a diagramstílusok, színek, betűtípusok és egyéb vizuális attribútumok testreszabásának technikáit a prezentáció esztétikájához.
 - Trendvonalak és hibasávok: Ismerje meg, hogyan építhet be trendvonalakat és hibasávokat diagramjaiba, mélyebb betekintést nyújtva az adatok trendjébe és változékonyságába.
 - Több tengely: Fedezze fel a több tengely rugalmasságát diagramokban, lehetővé téve különböző adatsorok megjelenítését változó léptékekkel egyetlen diagramon.
 - Diagramsablonok: Ismerje meg, hogyan hozhat létre és alkalmazhat diagramsablonokat, és egyszerűsítheti a diagramok szabványosítási folyamatát a prezentációk között.

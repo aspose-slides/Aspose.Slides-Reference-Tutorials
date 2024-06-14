@@ -19,7 +19,7 @@ Bắt đầu bằng cách nhập các gói cần thiết trong dự án Java c�
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Bước 1: Thiết lập thư mục tài liệu
 Xác định đường dẫn đến thư mục tài liệu của bạn nơi chứa bản trình bày PowerPoint:

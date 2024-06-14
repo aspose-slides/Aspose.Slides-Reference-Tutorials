@@ -19,7 +19,7 @@ url: /th/java/java-powerpoint-properties-management/access-built-in-properties-p
 ```java
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ขั้นตอนที่ 1: ตั้งค่าวัตถุการนำเสนอ
 เริ่มต้นด้วยการตั้งค่าวัตถุการนำเสนอเพื่อแสดงงานนำเสนอ PowerPoint ที่คุณต้องการใช้งาน ต่อไปนี้คือวิธีที่คุณสามารถทำได้:

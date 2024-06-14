@@ -52,7 +52,7 @@ Replace `"your_password"` with the actual password you want to verify.
 
 ```java
 //Path for source presentation
-String pptFile = RunExamples.getDataDir_PresentationProperties() + "open_pass1.ppt";
+String pptFile = "Your Document Directory";
 // Check the Password via IPresentationInfo Interface
 IPresentationInfo presentationInfo = PresentationFactory.getInstance().getPresentationInfo(pptFile);
 boolean isPasswordCorrect = presentationInfo.checkPassword("my_password");

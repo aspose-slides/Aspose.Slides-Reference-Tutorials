@@ -70,14 +70,14 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 
 ```java
 // Возьмите первую серию диаграмм
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Теперь заполняем данные серии
+// Теперь заполняем данные серии
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Возьмите вторую серию диаграмм
 series = chart.getChartData().getSeries().get_Item(1);
-//Теперь заполняем данные серии
+// Теперь заполняем данные серии
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Возьмите первую серию диаграмм
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//Теперь заполняем данные серии
+	// Теперь заполняем данные серии
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Возьмите вторую серию диаграмм
 	series = chart.getChartData().getSeries().get_Item(1);
-	//Теперь заполняем данные серии
+	// Теперь заполняем данные серии
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//Установка цвета заливки для серии
+	// Установка цвета заливки для серии
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Сохранить презентацию с диаграммой
@@ -181,11 +181,11 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### Как добавить на диаграмму дополнительные серии или категории?
 
-Чтобы добавить на диаграмму дополнительные серии или категории, используйте кнопку`getSeries()` и`getCategories()` методы построения диаграммы`ChartData` объект. Вы можете добавлять новые серии и категории, указав их данные и метки.
+ Чтобы добавить на диаграмму дополнительные серии или категории, используйте кнопку`getSeries()` и`getCategories()` методы построения диаграммы`ChartData` объект. Вы можете добавлять новые серии и категории, указав их данные и метки.
 
 ### Возможно ли дальнейшее форматирование диаграммы и меток?
 
-Да, вы можете дополнительно форматировать диаграмму, ряды и метки по мере необходимости. Aspose.Slides для Java предоставляет широкие возможности форматирования диаграмм, включая шрифты, цвета, стили и многое другое. Вы можете изучить документацию для получения более подробной информации о параметрах форматирования.
+Да, вы можете дополнительно отформатировать диаграмму, ряды и метки по мере необходимости. Aspose.Slides для Java предоставляет широкие возможности форматирования диаграмм, включая шрифты, цвета, стили и многое другое. Вы можете изучить документацию для получения более подробной информации о параметрах форматирования.
 
 ### Где я могу найти дополнительную информацию о работе с Aspose.Slides для Java?
 

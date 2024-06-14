@@ -21,7 +21,7 @@ Először is importáljuk a szükséges csomagokat. Ezek a csomagok elengedhetet
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Most pedig bontsuk le egyszerű, áttekinthető lépésekre a dia klónozásának folyamatát az egyik prezentációból, majd hozzáadjuk a másikhoz.
@@ -29,7 +29,7 @@ Most pedig bontsuk le egyszerű, áttekinthető lépésekre a dia klónozásána
  Kezdésként be kell töltenünk azt a forrásprezentációt, amelyből diát szeretnénk klónozni. Ez a`Presentation` osztály által biztosított Aspose.Slides.
 ```java
 // A dokumentumok könyvtárának elérési útja.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Példányosítsa a bemutató osztályt a forrás prezentációs fájl betöltéséhez
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

@@ -27,7 +27,7 @@ string dataDir = "Your Document Directory";
 using (Presentation pres = new Presentation())
 {
     ISlide sld = pres.Slides[0];
-    // Zde je váš kód pro vytváření snímků
+    // Zde je váš kód pro vytvoření snímku
 }
 ```
 ## Krok 2: Načtěte zvukový soubor
@@ -61,5 +61,5 @@ Ano, Aspose.Slides poskytuje flexibilitu při konfiguraci nastavení přehrává
  Ano, funkce Aspose.Slides pro .NET můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde najdu podporu pro Aspose.Slides pro .NET?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) vyhledat pomoc a zapojit se do komunity.
-### Jak koupím Aspose.Slides pro .NET?
+### Jak si koupím Aspose.Slides pro .NET?
  Knihovnu si můžete zakoupit od[Aspose obchod](https://purchase.aspose.com/buy).

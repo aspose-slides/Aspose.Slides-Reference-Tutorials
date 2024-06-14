@@ -14,11 +14,11 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Přidejte animace do obrazců v PowerPointu
 
- Animace mohou učinit vaše prezentace poutavější a dynamičtější. Pomocí GroupDocs.Slides for Java můžete snadno přidávat animace do tvarů, což vašim snímkům dodává extra šmrnc. Výukový program krok za krokem[Přidejte animace do obrazců v PowerPointu](./add-animations-to-shapes-powerpoint/) vás provede celým procesem a zajistí, že můžete bez námahy vytvářet podmanivé prezentace.
+Animace mohou učinit vaše prezentace poutavější a dynamičtější. Pomocí GroupDocs.Slides for Java můžete snadno přidávat animace do tvarů, což vašim snímkům dodává extra šmrnc. Výukový program krok za krokem[Přidejte animace do obrazců v PowerPointu](./add-animations-to-shapes-powerpoint/) vás provede celým procesem a zajistí, že můžete bez námahy vytvářet podmanivé prezentace.
 
 ## Cílové tvary pro animaci v PowerPointu
 
- Zaměření animací na konkrétní tvary může pomoci zvýraznit klíčové body a udržet pozornost publika. Tutoriál[Cílové tvary pro animaci v PowerPointu](./target-shapes-for-animation-powerpoint/)je ideální pro učení, jak přesně určit, které tvary chcete animovat. Díky tomu budou vaše prezentace nejen informativní, ale i vizuálně působivé.
+ Zaměření animací na konkrétní tvary může pomoci zvýraznit klíčové body a udržet pozornost publika. Tutoriál[Cílové tvary pro animaci v PowerPointu](./target-shapes-for-animation-powerpoint/) je ideální pro učení, jak přesně určit, které tvary chcete animovat. Díky tomu budou vaše prezentace nejen informativní, ale i vizuálně působivé.
 
 ## Aplikujte efekt 3D rotace na tvary v PowerPointu
 
@@ -26,7 +26,7 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Aplikujte efekty zkosení na tvary v PowerPointu
 
- Efekty zkosení mohou vašim tvarům dodat hloubku a rozměr, aby vynikly. Ať už usilujete o jemné vylepšení nebo odvážné prohlášení, efekty zkosení jsou skvělou volbou. Naučte se je používat v tutoriálu[Aplikujte efekty zkosení na tvary v PowerPointu](./apply-bevel-effects-shapes-powerpoint/).
+Efekty zkosení mohou vašim tvarům dodat hloubku a rozměr, aby vynikly. Ať už usilujete o jemné vylepšení nebo odvážné prohlášení, efekty zkosení jsou skvělou volbou. Naučte se je používat v tutoriálu[Aplikujte efekty zkosení na tvary v PowerPointu](./apply-bevel-effects-shapes-powerpoint/).
 
 ## Změňte data objektu OLE v aplikaci PowerPoint
 
@@ -38,7 +38,7 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Klonovat tvary v PowerPointu
 
- Klonování tvarů může zefektivnit váš pracovní postup, zejména při vytváření opakujících se prvků. Tento tutoriál[Klonovat tvary v PowerPointu](./clone-shapes-powerpoint/) vás provede celým procesem a usnadní duplikování tvarů a zachování konzistence během prezentace.
+ Klonování tvarů může zefektivnit váš pracovní postup, zejména při vytváření opakujících se prvků. Tento tutoriál[Klonovat tvary v PowerPointu](./clone-shapes-powerpoint/)vás provede celým procesem a usnadní duplikování tvarů a zachování konzistence během prezentace.
 
 ## Nastavte úhel spojnice v PowerPointu
 
@@ -46,7 +46,7 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Spojte tvary pomocí konektorů v PowerPointu
 
- Pro vytváření vývojových diagramů a diagramů je nezbytné spojování tvarů pomocí spojek. Tutoriál[Spojte tvary pomocí konektorů v PowerPointu](./connect-shapes-using-connectors-powerpoint/)pokrývá základy a pomáhá začátečníkům hladce spojovat tvary.
+ Pro vytváření vývojových diagramů a diagramů je nezbytné spojování tvarů pomocí spojek. Tutoriál[Spojte tvary pomocí konektorů v PowerPointu](./connect-shapes-using-connectors-powerpoint/) pokrývá základy a pomáhá začátečníkům hladce spojovat tvary.
 
 ## Propojte tvary pomocí Webů připojení v PowerPointu
 
@@ -54,7 +54,7 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Použít duální efekty na obrázky v PowerPointu
 
- Dvoutónové efekty mohou vašim snímkům dodat stylový a moderní vzhled. Tento tutoriál[Použít duální efekty na obrázky v PowerPointu](./apply-duotone-effects-images-powerpoint/) vysvětluje, jak tyto efekty použít k vylepšení vizuálů prezentace.
+ Dvoutónové efekty mohou vašim snímkům dodat stylový a moderní vzhled. Tento tutoriál[Použít duální efekty na obrázky v PowerPointu](./apply-duotone-effects-images-powerpoint/)vysvětluje, jak tyto efekty použít k vylepšení vizuálů prezentace.
 
 ## Přidejte rámeček Embedded Video Frame v PowerPointu
 
@@ -62,7 +62,7 @@ PowerPointové prezentace mohou změnit hru pro jakýkoli projekt, ať už se je
 
 ## Extrahujte data vloženého souboru z objektu OLE v aplikaci PowerPoint
 
- Správa dat vložených souborů může být zásadní pro udržení aktuálních a relevantních prezentací. Tutoriál[Extrahujte data vloženého souboru z objektu OLE v aplikaci PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)popisuje, jak tato data efektivně extrahovat a zajistit, aby vaše prezentace byly vždy aktuální.
+ Správa dat vložených souborů může být zásadní pro udržení aktuálních a relevantních prezentací. Tutoriál[Extrahujte data vloženého souboru z objektu OLE v aplikaci PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/) popisuje, jak tato data efektivně extrahovat a zajistit, aby vaše prezentace byly vždy aktuální.
 ## Výukové programy animace Java PowerPoint a manipulace s tvary
 ### [Přidejte animace do obrazců v PowerPointu](./add-animations-to-shapes-powerpoint/)
 Naučte se přidávat animace do tvarů v PowerPointu pomocí Aspose.Slides pro Java v tomto podrobném výukovém programu. Ideální pro vytváření poutavých prezentací.
@@ -75,7 +75,7 @@ Naučte se, jak aplikovat efekty zkosení na tvary v PowerPointu pomocí Aspose.
 ### [Změňte data objektu OLE v aplikaci PowerPoint](./change-ole-object-data-powerpoint/)
 Naučte se, jak změnit data objektu OLE v PowerPointu pomocí Aspose.Slides for Java. Průvodce krok za krokem pro efektivní a snadné aktualizace.
 ### [Změňte pořadí tvarů v PowerPointu](./change-shape-order-powerpoint/)
-tomto podrobném návodu se dozvíte, jak změnit pořadí tvarů v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentační dovednosti bez námahy.
+V tomto podrobném návodu se dozvíte, jak změnit pořadí tvarů v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentační dovednosti bez námahy.
 ### [Klonovat tvary v PowerPointu](./clone-shapes-powerpoint/)
 Naučte se klonovat tvary v prezentacích PowerPoint pomocí Aspose.Slides for Java. Zjednodušte svůj pracovní postup pomocí tohoto snadno sledovatelného výukového programu.
 ### [Nastavte úhel spojnice v PowerPointu](./set-connector-line-angle-powerpoint/)

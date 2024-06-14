@@ -20,7 +20,7 @@ Nejprve naimportujte potřebné balíčky do svého projektu Java:
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Připravte svůj datový adresář
  Vytvořte adresář pro uložení souboru PowerPoint a dalších zdrojů. Pojďme si to pojmenovat`dataDir`.

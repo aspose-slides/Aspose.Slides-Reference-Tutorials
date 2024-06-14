@@ -21,7 +21,7 @@ Tout d’abord, importons les packages nécessaires. Ces packages sont essentiel
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 
 Maintenant, décomposons le processus de clonage d'une diapositive d'une présentation et de son ajout à une autre en étapes simples et compréhensibles.
@@ -29,7 +29,7 @@ Maintenant, décomposons le processus de clonage d'une diapositive d'une présen
  Pour commencer, nous devons charger la présentation source à partir de laquelle nous voulons cloner une diapositive. Cela se fait en utilisant le`Presentation` classe fournie par Aspose.Slides.
 ```java
 // Le chemin d'accès au répertoire des documents.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 // Instancier la classe Présentation pour charger le fichier de présentation source
 Presentation srcPres = new Presentation(dataDir + "CloneAtEndOfAnother.pptx");
 ```

@@ -2,7 +2,7 @@
 title: Java Slaytlarında Açıklama Özel Seçeneklerini Ayarlama
 linktitle: Java Slaytlarında Açıklama Özel Seçeneklerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
-description: Aspose.Slides for Java'yı kullanarak Java Slides'ta özel açıklama seçeneklerini nasıl ayarlayacağınızı öğrenin. PowerPoint grafiklerinizde açıklama konumunu ve boyutunu özelleştirin.
+description: Aspose.Slides for Java'yı kullanarak Java Slides'ta özel gösterge seçeneklerini nasıl ayarlayacağınızı öğrenin. PowerPoint grafiklerinizde açıklama konumunu ve boyutunu özelleştirin.
 type: docs
 weight: 14
 url: /tr/java/customization-and-formatting/set-legend-custom-options-java-slides/

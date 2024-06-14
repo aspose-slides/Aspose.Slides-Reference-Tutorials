@@ -21,7 +21,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách thiết lập trình 
 Đầu tiên, chúng ta cần tạo một bản trình bày PowerPoint mới. Đây là cách bạn có thể làm điều đó trong Java:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## Mã nguồn hoàn chỉnh để thiết lập trình chiếu bản trình bày trong Java Slides
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Nhận cài đặt SlideShow

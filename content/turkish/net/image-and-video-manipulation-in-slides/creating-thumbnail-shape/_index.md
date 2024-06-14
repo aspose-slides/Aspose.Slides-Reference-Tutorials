@@ -23,7 +23,7 @@ using Aspose.Slides;
 ## 1. Adım: Projenizi Kurun
 Tercih ettiğiniz geliştirme ortamında yeni bir C# projesi oluşturun. Projenizde Aspose.Slides kütüphanesine başvurulduğundan emin olun.
 ## Adım 2: Sunumu Başlatın
- PowerPoint dosyasını temsil edecek bir Sunum sınıfı oluşturun. Sunum dosyanızın yolunu şu şekilde belirtin:`dataDir` değişken.
+PowerPoint dosyasını temsil edecek bir Sunum sınıfı oluşturun. Sunum dosyanızın yolunu şu şekilde belirtin:`dataDir` değişken.
 ```csharp
 string dataDir = "Your Documents Directory";
 using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx"))
@@ -56,4 +56,4 @@ C: İstisnaları yönetmek için try-catch bloklarını kullanarak hata işleme 
 ### S: Küçük resimlerin bulunabileceği şekillerin boyutu veya türü konusunda herhangi bir sınırlama var mı?
 C: Aspose.Slides, metin kutuları, resimler ve daha fazlası dahil olmak üzere çeşitli şekiller için küçük resimler oluşturma konusunda esneklik sağlar.
 ### S: Oluşturulan küçük resimlerin boyutunu ve çözünürlüğünü özelleştirebilir miyim?
-C: Evet, çağrı yaparken parametreleri ayarlayabilirsiniz.`GetThumbnail` boyutu ve çözünürlüğü kontrol etme yöntemi.
+ C: Evet, çağrı yaparken parametreleri ayarlayabilirsiniz.`GetThumbnail` boyutu ve çözünürlüğü kontrol etme yöntemi.

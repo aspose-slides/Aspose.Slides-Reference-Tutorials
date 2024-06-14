@@ -8,7 +8,7 @@ weight: 13
 url: /sv/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
 
-en värld av multimediapresentationer kan ljud vara ett kraftfullt verktyg för att förmedla ditt budskap effektivt. Aspose.Slides för .NET erbjuder en sömlös lösning för att extrahera ljud från PowerPoint-presentationer. I den här steg-för-steg-guiden kommer vi att visa dig hur du extraherar ljud från en PowerPoint-presentation med Aspose.Slides för .NET.
+I en värld av multimediapresentationer kan ljud vara ett kraftfullt verktyg för att förmedla ditt budskap effektivt. Aspose.Slides för .NET erbjuder en sömlös lösning för att extrahera ljud från PowerPoint-presentationer. I den här steg-för-steg-guiden kommer vi att visa dig hur du extraherar ljud från en PowerPoint-presentation med Aspose.Slides för .NET.
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- I det här steget laddar vi PowerPoint-presentationen från den angivna filen. Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
+ det här steget laddar vi PowerPoint-presentationen från den angivna filen. Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din presentationsfil.
 
 ### Steg 2.2: Gå till bilden och tidslinjen
 

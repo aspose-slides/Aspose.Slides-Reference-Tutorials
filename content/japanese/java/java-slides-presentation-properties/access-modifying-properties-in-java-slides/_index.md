@@ -22,7 +22,7 @@ Java 開発の世界では、PowerPoint プレゼンテーションの操作は�
 
 ## ステップ1: Java開発環境の設定
 
-Aspose.Slides for Java の使用を開始する前に、Java 開発環境を設定する必要があります。システムに JDK がインストールされ、構成されていることを確認してください。さらに、Aspose.Slides ライブラリをダウンロードし、プロジェクトのクラスパスに追加します。
+Aspose.Slides for Java の使用を開始する前に、Java 開発環境を設定する必要があります。システムに JDK がインストールされ、構成されていることを確認してください。さらに、Aspose.Slides ライブラリをダウンロードして、プロジェクトのクラスパスに追加してください。
 
 ## ステップ2: PowerPointプレゼンテーションの読み込み
 
@@ -31,7 +31,7 @@ PowerPoint プレゼンテーションを操作するには、まずそれを Ja
 ```java
 //ドキュメント ディレクトリへのパス。
 String dataDir = "Your Document Directory";
-//PPTXを表すプレゼンテーションクラスをインスタンス化する
+// PPTXを表すプレゼンテーションクラスをインスタンス化する
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 
@@ -94,7 +94,7 @@ presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 
 ## 結論
 
-この記事では、Aspose.Slides for Java を使用して Java スライドのプロパティにアクセスし、変更する方法について説明しました。まず、ライブラリの紹介、開発環境の設定、プレゼンテーションの読み込み、ドキュメント プロパティへのアクセス、カスタム プロパティの変更、最後に変更したプレゼンテーションの保存を行いました。この知識があれば、Aspose.Slides のパワーを活用して Java アプリケーションを強化できます。
+この記事では、Aspose.Slides for Java を使用して Java スライドのプロパティにアクセスし、変更する方法について説明しました。ライブラリの紹介、開発環境の設定、プレゼンテーションの読み込み、ドキュメント プロパティへのアクセス、カスタム プロパティの変更、そして最後に変更したプレゼンテーションの保存について説明しました。この知識があれば、Aspose.Slides のパワーを活用して Java アプリケーションを強化できます。
 
 ## よくある質問
 

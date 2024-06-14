@@ -40,7 +40,7 @@ ISlide sld = pres.Slides[0];
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
 ```
-## 5. lépés: Állítsa be a Téglalap kitöltési színét
+## 5. lépés: Állítsa be a téglalap kitöltési színét
 ```csharp
 shp.FillFormat.FillType = FillType.Solid;
 shp.FillFormat.SolidFillColor.Color = Color.White;

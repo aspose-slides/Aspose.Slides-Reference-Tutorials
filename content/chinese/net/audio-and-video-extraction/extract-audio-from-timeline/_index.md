@@ -107,6 +107,6 @@ Aspose.Slides for .NET 旨在与各种 PowerPoint 版本兼容，包括最新版
 
 是的，一旦从 PowerPoint 演示文稿中提取音频，Aspose.Slides 就会提供广泛的音频处理和编辑功能。
 
-### 5. 在哪里可以找到有关 Aspose.Slides for .NET 的综合文档？
+### 5. 在哪里可以找到 Aspose.Slides for .NET 的综合文档？
 
 您可以找到 Aspose.Slides for .NET 的详细文档和示例[这里](https://reference.aspose.com/slides/net/).

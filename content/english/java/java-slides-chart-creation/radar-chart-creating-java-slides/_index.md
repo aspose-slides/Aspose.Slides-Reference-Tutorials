@@ -21,7 +21,7 @@ Before we begin, ensure that you have the Aspose.Slides for Java library integra
 Let's start by setting up a new PowerPoint presentation and adding a slide to it.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ That's it! You've successfully created a radar chart in a PowerPoint presentatio
 ## Complete Source Code For Radar Chart Creating in Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {

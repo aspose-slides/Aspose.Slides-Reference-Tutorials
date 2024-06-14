@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 Po skopiowaniu i umieszczeniu slajdu należy zapisać zmodyfikowaną prezentację docelową.
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

@@ -12,15 +12,15 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
 ## المتطلبات الأساسية
 قبل أن نبدأ، هناك بعض المتطلبات الأساسية التي يجب أن تتوفر لديك:
 1. Java Development Kit (JDK): تأكد من تثبيت JDK 8 أو أعلى على جهازك.
-2. Aspose.Slides لمكتبة Java: قم بتنزيل أحدث إصدار من[موقع إلكتروني](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides لمكتبة Java: قم بتنزيل أحدث إصدار من[موقع إلكتروني](https://releases.aspose.com/slides/java/).
 3. بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse للحصول على تجربة برمجة أكثر سلاسة.
-4.  نموذج ملف PowerPoint: احصل على ملف PowerPoint (على سبيل المثال،`Presentation1.pptx`) جاهز لاختبار الكود.
+4.  نموذج ملف PowerPoint: احصل على ملف PowerPoint (على سبيل المثال،`Presentation1.pptx`جاهز لاختبار الكود.
 ## حزم الاستيراد
 أولاً، لنستورد الحزم اللازمة للعمل مع Aspose.Slides لـ Java. ستسمح لنا هذه الواردات بإدارة العروض التقديمية والوصول إلى خصائصها.
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: قم بإعداد مشروعك
 ### إنشاء مشروع جافا

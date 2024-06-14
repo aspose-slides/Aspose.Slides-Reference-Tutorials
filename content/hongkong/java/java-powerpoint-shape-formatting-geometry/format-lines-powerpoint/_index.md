@@ -18,7 +18,7 @@ PowerPoint 簡報是專業和教育環境中的主要內容。在幻燈片中有
 首先，讓我們導入使用 Aspose.Slides 所需的必要套件。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

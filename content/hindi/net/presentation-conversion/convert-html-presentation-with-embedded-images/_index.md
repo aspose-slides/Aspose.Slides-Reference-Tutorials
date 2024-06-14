@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
+    // HTML5 दस्तावेज़ में छवियों को बलपूर्वक न सहेजें
     EmbedImages = false,
     // बाह्य छवियों के लिए पथ सेट करें
     OutputPath = outPath

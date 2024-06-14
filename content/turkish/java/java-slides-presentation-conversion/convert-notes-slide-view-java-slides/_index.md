@@ -84,7 +84,7 @@ Bu eğitimde Aspose.Slides'ı kullanarak Java Slaytlar'daki not slayt görünüm
 
 ### Bir sunumu dönüştürürken çıktı formatını nasıl özelleştirebilirim?
 
- Çıkış formatını değiştirerek özelleştirebilirsiniz.`SaveFormat` koddaki numaralandırma. Örneğin sunuyu PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
+ Çıkış formatını değiştirerek özelleştirebilirsiniz.`SaveFormat`koddaki numaralandırma. Örneğin sunuyu PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
 
 ### Aspose.Slides for Java için lisans satın almam gerekiyor mu?
 
@@ -100,4 +100,4 @@ Aspose.Slides, en son sürümler de dahil olmak üzere çeşitli PowerPoint form
 
 ### Aspose.Slides for Java için daha fazla kod örneğini ve öğreticiyi nerede bulabilirim?
 
- Çok sayıda kod örneği ve öğreticiyi burada bulabilirsiniz.[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/). Bu güçlü kitaplığın yetenekleri hakkında daha fazla bilgi edinmek için belgeleri inceleyin.
+ Çok sayıda kod örneği ve öğreticiyi burada bulabilirsiniz.[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/)Bu güçlü kitaplığın yetenekleri hakkında daha fazla bilgi edinmek için belgeleri inceleyin.

@@ -11,7 +11,7 @@ url: /zh-hant/net/shape-alignment-and-formatting-in-slides/creating-simple-ellip
 在演示設計的動態世界中，結合橢圓形等形狀可以增添創造力和專業。 Aspose.Slides for .NET 提供了一個強大的解決方案，以程式設計方式操作簡報檔案。本教學將引導您完成使用 Aspose.Slides for .NET 在簡報投影片中建立簡單橢圓形狀的過程。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
--  Aspose.Slides for .NET：確保您已安裝 Aspose.Slides for .NET 程式庫。您可以從[發布頁面](https://releases.aspose.com/slides/net/).
+- Aspose.Slides for .NET：確保您已安裝 Aspose.Slides for .NET 程式庫。您可以從[發布頁面](https://releases.aspose.com/slides/net/).
 - 開發環境：在您的電腦上設定 .NET 開發環境。
 ## 導入命名空間
 在您的 .NET 專案中，首先匯入必要的命名空間：

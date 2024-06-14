@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Trong mã này, trước tiên chúng tôi xóa mọi danh mục và chuỗi hiện có khỏi biểu đồ. Sau đó, chúng tôi thêm các điểm dữ liệu vào chuỗi bằng cách sử dụng`getDataPoints().addDataPointForHistogramSeries` phương pháp. Cuối cùng, chúng tôi đặt loại tổng hợp trục ngang thành Tự động và lưu bản trình bày.
+ Trong mã này, trước tiên chúng tôi xóa mọi danh mục và chuỗi hiện có khỏi biểu đồ. Sau đó, chúng tôi thêm các điểm dữ liệu vào chuỗi bằng cách sử dụng`getDataPoints().addDataPointForHistogramSeries` phương pháp. Cuối cùng, chúng tôi đặt loại tổng hợp trục ngang thành Tự động và lưu bản trình bày.
 
 ## Mã nguồn hoàn chỉnh cho biểu đồ biểu đồ trong Java Slides
 

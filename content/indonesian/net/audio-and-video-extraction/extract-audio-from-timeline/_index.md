@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Pada langkah ini, kita memuat presentasi PowerPoint dari file yang ditentukan. Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
+Pada langkah ini, kita memuat presentasi PowerPoint dari file yang ditentukan. Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file presentasi Anda.
 
 ### Langkah 2.2: Akses Slide dan Timeline
 
@@ -72,7 +72,7 @@ byte[] audio = effectsSequence[0].Sound.BinaryData;
 
 Kode ini mengekstrak audio sebagai array byte. Dalam contoh ini, kami berasumsi bahwa audio yang ingin Anda ekstrak terletak di posisi pertama (indeks 0) dalam urutan efek. Anda dapat mengubah indeks jika audio berada pada posisi berbeda.
 
-### Langkah 2.5: Simpan Audio yang Diekstraksi
+### Langkah 2.5: Simpan Audio yang Diekstrak
 
 ```csharp
 string outMediaPath = Path.Combine(RunExamples.OutPath, "MediaTimeline.mpg");
@@ -103,7 +103,7 @@ Aspose.Slides untuk .NET memungkinkan Anda menyimpan audio yang diekstraksi dala
 
 Aspose.Slides untuk .NET dirancang agar kompatibel dengan berbagai versi PowerPoint, termasuk yang terbaru.
 
-### 4. Bisakah saya memanipulasi dan mengedit audio yang diekstraksi menggunakan Aspose.Slides?
+### 4. Bisakah saya memanipulasi dan mengedit audio yang diekstrak menggunakan Aspose.Slides?
 
 Ya, Aspose.Slides menyediakan fitur ekstensif untuk manipulasi dan pengeditan audio setelah diekstraksi dari presentasi PowerPoint.
 

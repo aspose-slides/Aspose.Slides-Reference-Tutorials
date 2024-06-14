@@ -19,7 +19,7 @@ Gerekli paketleri Java projenize aktararak başlayın:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 1. Adım: Belge Dizinini Ayarlayın
 PowerPoint sunumunun bulunduğu belge dizininizin yolunu tanımlayın:
@@ -49,7 +49,7 @@ System.out.println("Height: " + threeDEffectiveData.getBevelTop().getHeight());
 Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint'te şekil eğimi etkili verilerinin nasıl alınacağını gösterdik. Bu adımları izleyerek sunumlarınızın görsel çekiciliğini artırmak için şekillerin çeşitli özelliklerine kolayca erişebilir ve bunları değiştirebilirsiniz.
 ## SSS'ler
 ### Birden fazla şekle aynı anda eğim efektleri uygulayabilir miyim?
-Evet, bir slayttaki şekilleri yineleyebilir ve gerektiğinde eğim efektleri uygulayabilirsiniz.
+Evet, bir slayttaki şekilleri yineleyebilir ve gerektiği gibi eğim efektleri uygulayabilirsiniz.
 ### Aspose.Slides eğim dışında diğer 3D efektleri de destekliyor mu?
 Evet, Aspose.Slides, PowerPoint sunumlarındaki şekillere uygulayabileceğiniz çok çeşitli 3D efektler sunar.
 ### Aspose.Slides PowerPoint'in farklı sürümleriyle uyumlu mu?

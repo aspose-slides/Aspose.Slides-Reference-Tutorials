@@ -21,7 +21,7 @@ In deze zelfstudie onderzoeken we hoe u een presentatiediavoorstelling kunt opze
 Eerst moeten we een nieuwe PowerPoint-presentatie maken. Zo kunt u het in Java doen:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -53,7 +53,7 @@ penColor.setColor(Color.GREEN);
 
 ### Dia's toevoegen
 
-Laten we enkele dia's aan onze presentatie toevoegen. We klonen een bestaande dia om het simpel te houden.
+Laten we enkele dia's aan onze presentatie toevoegen. We klonen een bestaande dia om het eenvoudig te houden.
 
 ```java
 pres.getSlides().addClone(pres.getSlides().get_Item(0));
@@ -90,7 +90,7 @@ Zorg ervoor dat u het gewenste uitvoerbestandspad opgeeft.
 ## Volledige broncode voor de installatie van presentatiediavoorstellingen in Java-dia's
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// Haalt SlideShow-instellingen op

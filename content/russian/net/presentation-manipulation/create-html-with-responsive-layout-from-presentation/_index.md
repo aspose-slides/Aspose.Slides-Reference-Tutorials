@@ -56,7 +56,7 @@ presentation.Save(dataDir + "SomePresentation-out.html", SaveFormat.Html, saveOp
 
 ## 6. Часто задаваемые вопросы
 
-### Часто задаваемые вопросы 1: Можно ли бесплатно использовать Aspose.Slides для .NET?
+### Часто задаваемые вопросы 1: Бесплатно ли использовать Aspose.Slides для .NET?
  Aspose.Slides for .NET — это коммерческий продукт, но вы можете попробовать бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 
 ### Часто задаваемые вопросы 2: Как я могу получить поддержку Aspose.Slides для .NET?

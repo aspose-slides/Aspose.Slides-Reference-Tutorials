@@ -10,7 +10,7 @@ url: /cs/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 
 ## Úvod do automatických barev řady grafů v Aspose.Slides pro Javu
 
-V tomto tutoriálu prozkoumáme, jak vytvořit prezentaci v PowerPointu s grafem pomocí Aspose.Slides pro Java a nastavit automatické barvy výplně pro řady grafů. Automatické barvy výplně mohou učinit vaše grafy vizuálně přitažlivějšími a ušetřit vám čas tím, že necháte knihovnu, aby barvy vybrala za vás.
+tomto tutoriálu prozkoumáme, jak vytvořit prezentaci v PowerPointu s grafem pomocí Aspose.Slides pro Java a nastavit automatické barvy výplně pro řady grafů. Automatické barvy výplně mohou učinit vaše grafy vizuálně přitažlivějšími a ušetřit vám čas tím, že necháte knihovnu, aby barvy vybrala za vás.
 
 ## Předpoklady
 
@@ -70,14 +70,14 @@ Vyplníme data série pro sérii 1 i sérii 2.
 ```java
 // Vezměte první sérii grafů
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
 // Vezměte druhou řadu grafů
 series = chart.getChartData().getSeries().get_Item(1);
-//Nyní se vyplňují data série
+// Nyní se vyplňují data série
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
@@ -134,7 +134,7 @@ try
 	chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
 	// Vezměte první sérii grafů
 	IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-	//Nyní se vyplňují data série
+	// Nyní se vyplňují data série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -142,11 +142,11 @@ try
 	series.getFormat().getFill().setFillType(FillType.NotDefined);
 	// Vezměte druhou řadu grafů
 	series = chart.getChartData().getSeries().get_Item(1);
-	//Nyní se vyplňují data série
+	// Nyní se vyplňují data série
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 	series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-	//Nastavení barvy výplně pro sérii
+	// Nastavení barvy výplně pro sérii
 	series.getFormat().getFill().setFillType(FillType.Solid);
 	series.getFormat().getFill().getSolidFillColor().setColor(Color.GRAY);
 	// Uložit prezentaci s grafem
@@ -181,7 +181,7 @@ Tento kód umožní knihovně automaticky vybrat barvy pro řadu grafů.
 
 ### Jak mohu do grafu přidat další série nebo kategorie?
 
-Chcete-li do grafu přidat další série nebo kategorie, použijte`getSeries()` a`getCategories()` metody grafu`ChartData` objekt. Můžete přidat nové série a kategorie zadáním jejich dat a štítků.
+ Chcete-li do grafu přidat další série nebo kategorie, použijte`getSeries()` a`getCategories()` metody grafu`ChartData` objekt. Můžete přidat nové série a kategorie zadáním jejich dat a štítků.
 
 ### Je možné dále formátovat graf a štítky?
 

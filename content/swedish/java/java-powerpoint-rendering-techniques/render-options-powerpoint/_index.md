@@ -21,7 +21,7 @@ import com.aspose.slides.IRenderingOptions;
 import com.aspose.slides.NotesPositions;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.RenderingOptions;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;

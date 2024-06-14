@@ -2,7 +2,7 @@
 title: Verbeter presentaties - Maak rechthoekige vormen op met Aspose.Slides
 linktitle: Rechthoekige vorm in presentatiedia's opmaken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
-description: Leer rechthoekige vormen opmaken in PowerPoint-presentaties met Aspose.Slides voor .NET. Verbeter uw dia's met dynamische visuele elementen.
+description: Leer hoe u rechthoekige vormen kunt opmaken in PowerPoint-presentaties met Aspose.Slides voor .NET. Verbeter uw dia's met dynamische visuele elementen.
 type: docs
 weight: 12
 url: /nl/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
@@ -23,7 +23,7 @@ using Aspose.Slides;
 using System.Drawing;
 ```
 ## Stap 1: Stel uw documentenmap in
- Begin met het instellen van de map waarin u uw PowerPoint-presentatiebestand wilt opslaan. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw directory.
+ Begin met het instellen van de map waarin u uw PowerPoint-presentatiebestand wilt opslaan. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw map.
 ```csharp
 string dataDir = "Your Document Directory";
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -31,7 +31,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 ## Stap 2: Maak een presentatieobject
- Instantieer de`Presentation`klasse om het PPTX-bestand weer te geven. Dit vormt de basis voor uw PowerPoint-presentatie.
+ Instantieer de`Presentation` klasse om het PPTX-bestand weer te geven. Dit vormt de basis voor uw PowerPoint-presentatie.
 ```csharp
 using (Presentation pres = new Presentation())
 {
@@ -44,7 +44,7 @@ Ga naar de eerste dia in uw presentatie, aangezien dit het canvas is waarop u de
 ISlide sld = pres.Slides[0];
 ```
 ## Stap 4: Voeg een rechthoekige vorm toe
- Gebruik de`Shapes` eigenschap van de dia om een automatische vorm van het rechthoekige type toe te voegen. Geef de positie en afmetingen van de rechthoek op.
+ Gebruik de`Shapes`eigenschap van de dia om een automatische vorm van het rechthoekige type toe te voegen. Geef de positie en afmetingen van de rechthoek op.
 ```csharp
 IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 50);
 ```

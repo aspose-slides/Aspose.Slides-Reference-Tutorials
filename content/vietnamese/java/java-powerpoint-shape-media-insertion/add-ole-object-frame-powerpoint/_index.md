@@ -12,13 +12,13 @@ Việc thêm Khung đối tượng OLE (Liên kết và nhúng đối tượng) 
 ### Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
 1. Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của mình.
-2. Aspose.Slides for Java: Tải xuống và cài đặt Aspose.Slides cho Java từ trang web[đây](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: Tải xuống và cài đặt Aspose.Slides cho Java từ trang web[đây](https://releases.aspose.com/slides/java/).
 3. Hiểu biết cơ bản về lập trình Java: Làm quen với các khái niệm và cú pháp lập trình Java.
 ## Gói nhập khẩu
 Trước tiên, bạn cần nhập các gói cần thiết để tận dụng các chức năng của Aspose.Slides cho Java. Đây là cách bạn có thể làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 Tạo một đối tượng Trình bày để thể hiện tệp PowerPoint bạn đang làm việc:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Khởi tạo lớp Trình bày đại diện cho PPTX
 Presentation pres = new Presentation();
 ```

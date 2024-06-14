@@ -19,7 +19,7 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có sẵn các điều k
 Trước tiên, bạn sẽ cần nhập các gói cần thiết để hoạt động với Aspose.Slides. Việc nhập này sẽ giúp bạn quản lý các trang trình bày, video và tệp trình bày.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

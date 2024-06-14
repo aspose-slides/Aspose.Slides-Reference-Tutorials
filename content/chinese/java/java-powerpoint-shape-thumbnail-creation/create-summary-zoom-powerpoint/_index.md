@@ -20,7 +20,7 @@ url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-power
 开始之前，您需要导入必要的软件包。确保您已将 Aspose.Slides for Java 包含在项目依赖项中。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## 步骤 1：设置你的项目
@@ -86,7 +86,7 @@ ISummaryZoomFrame summaryZoomFrame = pres.getSlides().get_Item(0).getShapes().ad
 1. 定义输出路径：指定演示文稿的保存路径。
 2. 保存演示文稿：使用`save`方法将文件保存为PPTX格式。
 ```java
-String resultPath = RunExamples.getOutPath() + "SummaryZoomPresentation.pptx";
+String resultPath = "Your Output Directory" + "SummaryZoomPresentation.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ### 释放表示对象

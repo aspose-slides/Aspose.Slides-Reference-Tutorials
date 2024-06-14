@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Yorumun konumunu değiştirme
 comment.Position = new Point(100, 100);
 
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Yorumu sil
 slide.Comments.Remove(comment);
 
-// Değiştirilen sunuyu kaydet
+//Değiştirilen sunuyu kaydet
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 

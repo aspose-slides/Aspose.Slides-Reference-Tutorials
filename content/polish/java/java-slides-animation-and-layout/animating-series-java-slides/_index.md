@@ -2,7 +2,7 @@
 title: Seria animowana w slajdach Java
 linktitle: Seria animowana w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
-description: Zoptymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
+description: Optymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
 type: docs
 weight: 11
 url: /pl/java/animation-and-layout/animating-series-java-slides/
@@ -112,7 +112,7 @@ Udało Ci się animować seriale na wykresie programu PowerPoint przy użyciu As
 
 ### Jak kontrolować kolejność animacji seriali?
 
- Aby kontrolować kolejność animacji serii, użyj opcji`EffectTriggerType.AfterPrevious`parametr podczas dodawania efektów. Spowoduje to, że każda animacja serii rozpocznie się po zakończeniu poprzedniej.
+ Aby kontrolować kolejność animacji serii, użyj opcji`EffectTriggerType.AfterPrevious` parametr podczas dodawania efektów. Spowoduje to, że każda animacja serii rozpocznie się po zakończeniu poprzedniej.
 
 ### Czy mogę zastosować różne animacje do każdej serii?
 

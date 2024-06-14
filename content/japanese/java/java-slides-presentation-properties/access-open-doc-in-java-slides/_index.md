@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "AccessOpenDoc.odp");
 ```
 
-上記のコードでは、`"Your Document Directory"` ODP ファイルへの実際のパスを入力します。
+上記のコードでは、`"Your Document Directory"`ODP ファイルへの実際のパスを入力します。
 
 ## ステップ2: ODPをPPTXに変換する
 

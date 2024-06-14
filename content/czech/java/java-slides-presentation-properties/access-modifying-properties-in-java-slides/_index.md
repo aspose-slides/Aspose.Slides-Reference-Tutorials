@@ -31,7 +31,7 @@ Chcete-li pracovat s prezentací v PowerPointu, musíte ji nejprve načíst do a
 ```java
 // Cesta k adresáři dokumentů.
 String dataDir = "Your Document Directory";
-//Vytvořte instanci třídy Presentation, která představuje PPTX
+// Vytvořte instanci třídy Presentation, která představuje PPTX
 Presentation presentation = new Presentation(dataDir + "AccessModifyingProperties.pptx");
 ```
 

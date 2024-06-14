@@ -130,4 +130,4 @@ Có, bạn có thể tùy chỉnh giao diện của các điểm dữ liệu đ�
 
 ### Tôi có thể truy cập tài liệu Aspose.Slides cho Java ở đâu?
 
- Bạn có thể truy cập tài liệu về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
+Bạn có thể truy cập tài liệu về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).

@@ -81,7 +81,7 @@ slide.Timeline.MainSequence.AddEffect(chart, EffectType.Fade, EffectSubtype.None
 Po dodaniu efektów animacji do wykresu zapisz zmodyfikowaną prezentację na dysku.
 
 ```csharp
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 ```
 

@@ -58,7 +58,7 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
 
 ### 結論
 
-現在你就得到它了！您已使用 Aspose.Slides for .NET 成功產生了具有自訂形狀 ID 的 SVG 檔案。這項強大的功能可讓您自訂 SVG 輸出以滿足您的特定需求。
+現在你就擁有了！您已使用 Aspose.Slides for .NET 成功產生了具有自訂形狀 ID 的 SVG 檔案。這項強大的功能可讓您自訂 SVG 輸出以滿足您的特定需求。
 
 ### 常見問題解答
 

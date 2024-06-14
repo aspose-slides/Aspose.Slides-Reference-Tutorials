@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
 ### Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides;
  Α: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να βρω υποστήριξη για το Aspose.Slides;
-Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
+ Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Α: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αγοράσω Aspose.Slides για .NET;

@@ -67,7 +67,7 @@ Selanjutnya, konfigurasikan opsi konversi HTML. Anda dapat menentukan berbagai p
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //Paksa jangan simpan gambar dalam dokumen HTML5
+    // Paksa jangan simpan gambar dalam dokumen HTML5
     EmbedImages = false,
     // Tetapkan jalur untuk gambar eksternal
     OutputPath = outPath

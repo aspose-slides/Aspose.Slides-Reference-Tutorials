@@ -112,7 +112,7 @@ Du har framgångsrikt animerat serier i ett PowerPoint-diagram med Aspose.Slides
 
 ### Hur kontrollerar jag ordningen på serieanimationer?
 
- För att styra ordningen på serieanimationer, använd`EffectTriggerType.AfterPrevious`parameter när du lägger till effekterna. Detta gör att varje serieanimering startar efter att den föregående är klar.
+ För att styra ordningen på serieanimationer, använd`EffectTriggerType.AfterPrevious` parameter när du lägger till effekterna. Detta gör att varje serieanimering startar efter att den föregående är klar.
 
 ### Kan jag använda olika animationer för varje serie?
 

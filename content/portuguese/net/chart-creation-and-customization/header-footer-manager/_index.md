@@ -83,7 +83,7 @@ if (!headerFooterManager.IsSlideNumberVisible)
 
 ### Etapa 6: definir visibilidade de data e hora
 
- Para determinar se o espaço reservado de data e hora está visível, use o método`IsDateTimeVisible`propriedade. Se não estiver visível, você pode torná-lo visível usando o`SetDateTimeVisibility` método.
+ Para determinar se o espaço reservado de data e hora está visível, use o comando`IsDateTimeVisible`propriedade. Se não estiver visível, você pode torná-lo visível usando o`SetDateTimeVisibility` método.
 
 ```csharp
 if (!headerFooterManager.IsDateTimeVisible)

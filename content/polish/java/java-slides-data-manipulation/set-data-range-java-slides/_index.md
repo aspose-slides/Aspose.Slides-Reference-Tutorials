@@ -70,7 +70,7 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak ustawić zakres danych dla wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. To API upraszcza proces pracy z prezentacjami i pozwala programistom wydajnie automatyzować zadania.
+tym samouczku nauczyliśmy się, jak ustawić zakres danych dla wykresu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. To API upraszcza proces pracy z prezentacjami i pozwala programistom wydajnie automatyzować zadania.
 
 ## Często zadawane pytania
 

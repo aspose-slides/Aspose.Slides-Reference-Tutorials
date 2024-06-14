@@ -88,7 +88,7 @@ Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Slides untuk 
 
  Dengan menerapkan transisi seperti "Lingkaran" dan "Sisir", Anda dapat menghidupkan slide dan membuat presentasi Anda lebih menarik. Jangan lupa untuk menjelajahinya[dokumentasi](https://reference.aspose.com/slides/net/) untuk detail lebih lanjut dan fitur Aspose.Slides untuk .NET.
 
-Ada pertanyaan atau butuh bantuan lebih lanjut? Kunjungi forum komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/).
+ Ada pertanyaan atau butuh bantuan lebih lanjut? Kunjungi forum komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/).
 
 ## FAQ
 

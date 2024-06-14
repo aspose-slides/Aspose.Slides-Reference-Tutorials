@@ -14,7 +14,7 @@ Dans le monde de la visualisation et de la présentation des données, l'incorpo
 
 Avant de commencer à travailler avec Aspose.Slides pour .NET, vous devez vous assurer que les conditions préalables suivantes sont remplies :
 
-1.  Aspose.Slides pour .NET : pour accéder à la bibliothèque et l'utiliser, vous devez avoir installé Aspose.Slides pour .NET. Vous pouvez obtenir la bibliothèque auprès du[page de téléchargement](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides pour .NET : pour accéder à la bibliothèque et l'utiliser, vous devez avoir installé Aspose.Slides pour .NET. Vous pouvez obtenir la bibliothèque auprès du[page de téléchargement](https://releases.aspose.com/slides/net/).
 
 2. Environnement de développement : vous devez disposer d'un environnement de développement, de préférence en utilisant un environnement de développement intégré .NET comme Visual Studio.
 

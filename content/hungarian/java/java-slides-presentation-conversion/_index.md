@@ -62,17 +62,17 @@ Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat GIF-képekké Java
 ### [Konvertálás HTML5-re a Java Slides alkalmazásban](./convert-to-html5-java-slides/)
 Konvertálja a PowerPoint prezentációkat HTML5 formátumba Java nyelven az Aspose.Slides segítségével. Ismerje meg az átalakítási folyamat automatizálását lépésenkénti kódpéldákkal.
 ### [Konvertálás Markdown-ra a Java Slides-ben](./convert-to-markdown-java-slides/)
-Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót, hogy könnyedén átalakítsa diákjait.
+Konvertálja a PowerPoint prezentációkat Markdown formátumba az Aspose.Slides for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót, hogy könnyedén átalakítsa diákjait.
 ### [Konvertálja PDF-be a Java Slides alkalmazásban](./convert-to-pdf-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat PDF formátumba Java nyelven az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal és a GYIK-kal a zökkenőmentes PowerPoint-PDF konvertálás érdekében.
 ### [Konvertálás PDF-kompatibilitásra a Java Slides alkalmazásban](./convert-pdf-compliance-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat PDF-formátumba PDF/A-2a megfelelőséggel az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a zökkenőmentes archiválás és hozzáférhetőség érdekében.
 ### [Konvertálás PDF-be a Java Slides rejtett diákjaival](./convert-pdf-hidden-slides-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat PDF-formátumba rejtett diákkal az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a zökkenőmentes PDF generáláshoz.
-### [Konvertálja XAML-re a Java Slides alkalmazásban](./convert-to-xaml-java-slides/)
+### [Konvertálja XAML-re a Java Slides-ben](./convert-to-xaml-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat XAML-re Java nyelven az Aspose.Slides segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [A teljes prezentáció konvertálása HTML-be a Java Slides-ben](./convert-whole-presentation-html-java-slides/)
-Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat HTML formátumba Java nyelven az Aspose.Slides segítségével. Útmutató lépésről lépésre kódpéldákkal.
+Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat HTML formátumba Java nyelven az Aspose.Slides segítségével. Lépésről lépésre útmutató kódpéldákkal.
 ### [A teljes prezentáció konvertálása HTML-be a Java Slides-ben található médiafájlok segítségével](./convert-whole-presentation-html-media-files-java-slides/)
 Ismerje meg, hogyan konvertálhat prezentációkat HTML-be médiafájlokkal a Java Slides segítségével. Kövesse lépésenkénti útmutatónkat az Aspose.Slides for Java API-val.
 ### [Konvertálása egyéni mérettel a Java Slides alkalmazásban](./convert-custom-size-java-slides/)
@@ -83,7 +83,7 @@ Az Aspose.Slides segítségével könnyedén konvertálhat PowerPoint prezentác
 Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat XPS formátumba az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 ### [Konvertálás a Java Slides XPS-beállításaival](./convert-with-xps-options-java-slides/)
 Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat XPS formátumba Java nyelven az Aspose.Slides segítségével. A beállítások testreszabása a zökkenőmentes átalakítási folyamat érdekében.
-### [Konvertálja SWF-re a Java Slides alkalmazásban](./convert-to-swf-java-slides/)
+### [Konvertálja SWF formátumba a Java Slides alkalmazásban](./convert-to-swf-java-slides/)
 Konvertálja a PowerPoint prezentációkat SWF formátumba Java nyelven az Aspose.Slides segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a zökkenőmentes átalakítás érdekében.
 ### [Konvertálja PDF-be a Java Slides folyamatfrissítésével](./convert-pdf-progress-update-java-slides/)
 A PowerPoint konvertálása PDF-be a Java Progress Updates segítségével az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal és folyamatkövetéssel a zökkenőmentes átalakítás érdekében.

@@ -69,7 +69,7 @@ if (pres != null) {
 
 ```java
 // Nazwa pliku wyjściowego
-String resultPath = RunExamples.getOutPath() + "pres.ppt";
+String resultPath = "Your Output Directory" + "pres.ppt";
 Presentation pres = new Presentation();
 try {
 	PptOptions pptOptions = new PptOptions();
@@ -102,7 +102,7 @@ Jeśli nie ustawisz identyfikatora katalogu głównego ClsId, domyślne zachowan
 
 ### Czy mogę zmienić identyfikator ClsId katalogu głównego dla poszczególnych hiperłączy?
 
-Nie, identyfikator ClsId katalogu głównego jest zwykle ustawiany na poziomie prezentacji i ma zastosowanie do wszystkich hiperłączy w prezentacji. Jeśli chcesz określić różne zastosowania dla poszczególnych hiperłączy, może zaistnieć potrzeba osobnej obsługi tych hiperłączy w kodzie.
+Nie, identyfikator ClsId katalogu głównego jest zwykle ustawiany na poziomie prezentacji i ma zastosowanie do wszystkich hiperłączy w prezentacji. Jeśli chcesz określić różne zastosowania dla poszczególnych hiperłączy, może być konieczne osobne obsłużenie tych hiperłączy w kodzie.
 
 ### Czy są jakieś ograniczenia dotyczące identyfikatorów CLSID, których mogę używać?
 

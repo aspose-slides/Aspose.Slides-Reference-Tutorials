@@ -67,7 +67,7 @@ Validering av masterdiagramlayout i PowerPoint med Aspose.Slides för Java. Lär
 ### [Invertera om negativt för individuella serier i Java-bilder](./invert-if-negative-individual-series-java-slides/)
 Lär dig hur du använder funktionen Invert If Negative i Aspose.Slides för Java för att förbättra diagramgrafikerna i PowerPoint-presentationer.
 ### [Leader Line Color i Java Slides](./leader-line-color-java-slides/)
-Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg guide med exempel på källkod.
+Lär dig hur du ändrar ledarlinjefärger i PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg-guide med exempel på källkod.
 ### [Hantera egenskapsdiagram i Java Slides](./manage-properties-charts-java-slides/)
 Lär dig att skapa fantastiska diagram och hantera egenskaper i Java-bilder med Aspose.Slides. Steg-för-steg-guide med källkod för kraftfulla presentationer.
 ### [Ställ in automatisk seriefyllningsfärg i Java Slides](./set-automatic-series-fill-color-java-slides/)

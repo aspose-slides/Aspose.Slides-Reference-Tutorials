@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Migliora facilmente l'attrattiva visiva delle diapositive della tua presentazione sfruttando Aspose.Slides per .NET per allineare con precisione le forme. Questa guida passo passo ti ha fornito le conoscenze per semplificare il processo di allineamento e creare presentazioni dall'aspetto professionale.
 ## Domande frequenti
 ### Posso allineare le forme in una presentazione esistente utilizzando Aspose.Slides per .NET?
- Sì, puoi caricare una presentazione esistente utilizzando`Presentation.Load` poi procedere con l'allineamento delle forme.
+ Sì, puoi caricare una presentazione esistente utilizzando`Presentation.Load` e poi procedere con l'allineamento delle forme.
 ### Ci sono altre opzioni di allineamento disponibili in Aspose.Slides?
 Aspose.Slides offre varie opzioni di allineamento, tra cui AlignTop, AlignRight, AlignBottom, AlignLeft e altro.
 ### Posso allineare le forme in base alla loro distribuzione in una diapositiva?

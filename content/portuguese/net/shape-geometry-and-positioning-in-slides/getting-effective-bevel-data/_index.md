@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Certifique-se de substituir`"Your Document Directory"`com o caminho onde você deseja armazenar seus arquivos de apresentação.
+ Certifique-se de substituir`"Your Document Directory"` com o caminho onde você deseja armazenar seus arquivos de apresentação.
 ## Etapa 2: carregar a apresentação
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
@@ -54,8 +54,8 @@ Console.WriteLine("Type: " + threeDEffectiveData.BevelTop.BevelType);
 Console.WriteLine("Width: " + threeDEffectiveData.BevelTop.Width);
 Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 ```
-Finalmente, imprimimos os dados do chanfro para a face superior da forma, incluindo seu tipo, largura e altura.
-E aí está! Você recuperou e exibiu com sucesso dados de chanfro efetivos para uma forma em sua apresentação usando Aspose.Slides for .NET.
+Por fim, imprimimos os dados de chanfro da face superior da forma, incluindo tipo, largura e altura.
+aí está! Você recuperou e exibiu com sucesso dados de chanfro efetivos para uma forma em sua apresentação usando Aspose.Slides for .NET.
 ## Conclusão
 Neste tutorial, exploramos os fundamentos da busca de dados de chanfro efetivos de formas em slides de apresentação usando Aspose.Slides for .NET. Armado com esse conhecimento, agora você pode aprimorar suas apresentações com efeitos tridimensionais personalizados.
 ## perguntas frequentes

@@ -112,7 +112,7 @@ Aspose.Slides for Java'yı kullanarak bir PowerPoint grafiğindeki serileri baş
 
 ### Seri animasyonların sırasını nasıl kontrol ederim?
 
- Seri animasyonların sırasını kontrol etmek için`EffectTriggerType.AfterPrevious`Efektleri eklerken parametre. Bu, her serinin animasyonunun bir öncekinin bitiminden sonra başlamasını sağlayacaktır.
+ Seri animasyonların sırasını kontrol etmek için`EffectTriggerType.AfterPrevious` Efektleri eklerken parametre. Bu, her serinin animasyonunun bir öncekinin bitiminden sonra başlamasını sağlayacaktır.
 
 ### Her seriye farklı animasyonlar uygulayabilir miyim?
 

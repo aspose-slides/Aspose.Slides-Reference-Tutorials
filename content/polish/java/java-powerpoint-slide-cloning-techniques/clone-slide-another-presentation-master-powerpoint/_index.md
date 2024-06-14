@@ -19,7 +19,7 @@ Zanim zagłębisz się w kodowanie, upewnij się, że spełniasz następujące w
 Aby rozpocząć, musisz zaimportować niezbędne pakiety Aspose.Slides do swojego projektu Java. Oto jak to zrobić:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Podzielmy proces klonowania slajdu do innej prezentacji wraz ze slajdem wzorcowym na szczegółowe etapy.
 ## Krok 1: Załaduj prezentację źródłową
@@ -46,7 +46,7 @@ IMasterSlide sourceMaster = sourceSlide.getLayoutSlide().getMasterSlide();
 ## Krok 4: Sklonuj slajd wzorcowy do prezentacji docelowej
 Sklonuj slajd wzorcowy z prezentacji źródłowej do kolekcji wzorców w prezentacji docelowej.
 ```java
-//Sklonuj żądany slajd wzorcowy z prezentacji źródłowej do kolekcji wzorców w prezentacji Destination
+// Sklonuj żądany slajd wzorcowy z prezentacji źródłowej do kolekcji wzorców w prezentacji Destination
 IMasterSlideCollection masters = destPres.getMasters();
 IMasterSlide destMaster = masters.addClone(sourceMaster);
 ```

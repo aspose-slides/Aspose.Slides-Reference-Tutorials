@@ -12,18 +12,18 @@ PowerPoint sunumu oluşturma sürecinizi kolaylaştırmak mı istiyorsunuz? Slay
 ## Önkoşullar
 Eğiticiye dalmadan önce önkoşulları ele alalım. Her şeyin yerli yerinde olduğundan emin olmak süreci daha sorunsuz ve verimli hale getirecektir.
 ### Java Geliştirme Ortamı
- Öncelikle bir Java geliştirme ortamı kurduğunuzdan emin olun. Makinenizde JDK'nın (Java Development Kit) kurulu olması gerekir. Şuradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
+Öncelikle bir Java geliştirme ortamı kurduğunuzdan emin olun. Makinenizde JDK'nın (Java Development Kit) kurulu olması gerekir. Şuradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides for Java Kütüphanesi
  Daha sonra Aspose.Slides for Java kütüphanesini indirin. Şu adresten alabilirsiniz:[Aspose.Slides indirme sayfası](https://releases.aspose.com/slides/java/). Bu kütüphane, PowerPoint sunumlarını programlı olarak yönetmek için gerekli tüm araçları sağlayacaktır.
 ### Geliştirme IDE'si
 IntelliJ IDEA, Eclipse veya NetBeans gibi bir Entegre Geliştirme Ortamı (IDE) kullanmak, geliştirme sürecinizi daha basit hale getirecektir. IDE'nizin Java ile çalışacak şekilde yapılandırıldığından emin olun.
 ### Lisansı Devralın
- Tam işlevsellik için Aspose.Slides lisansı almak isteyebilirsiniz. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) . Alternatif olarak, bir başvuruda bulunabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/)taahhütte bulunmadan önce özellikleri denemek için.
+ Tam işlevsellik için Aspose.Slides lisansı almak isteyebilirsiniz. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) . Alternatif olarak, bir başvuruda bulunabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) taahhütte bulunmadan önce özellikleri denemek için.
 ## Paketleri İçe Aktar
 Kodu yazmadan önce gerekli paketleri Aspose.Slides'tan içe aktarmanız gerekiyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Şimdi süreci yönetilebilir adımlara ayıralım. İstenilen sonuca ulaşmak için her adımı dikkatlice izleyin.
 ## 1. Adım: Veri Dizinini Ayarlayın
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Adım 5: Slaydı Belirtilen Bölüme Klonlayın
-Bu eğitimin temel kısmı, slaydın belirli bir bölüme klonlanmasıdır. Kullan`addClone` ilk slaytı ikinci bölüme kopyalama yöntemi.
+ Bu eğitimin temel kısmı, slaydın belirli bir bölüme klonlanmasıdır. Kullan`addClone` ilk slaytı ikinci bölüme kopyalama yöntemi.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

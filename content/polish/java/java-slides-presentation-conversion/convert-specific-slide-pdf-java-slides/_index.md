@@ -16,7 +16,7 @@ W świecie programowania w języku Java praca ze slajdami prezentacji jest częs
 
 Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Biblioteka Aspose.Slides for Java: Musisz mieć zainstalowaną bibliotekę Aspose.Slides for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
+1.  Biblioteka Aspose.Slides for Java: Musisz mieć zainstalowaną bibliotekę Aspose.Slides for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/slides/java/).
 
 2. Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
 
@@ -52,7 +52,7 @@ W tym kodzie:
 
 -  Tworzymy`Presentation` obiekt reprezentujący plik prezentacji.
 
-- Definiujemy tablicę pozycji slajdów, które chcesz przekonwertować. W tym przykładzie konwertujemy slajdy w pozycjach 1 i 3. Możesz dostosować tę tablicę, aby wybrać określone slajdy, których potrzebujesz.
+- Definiujemy tablicę pozycji slajdów, które chcesz przekonwertować. W tym przykładzie konwertujemy slajdy na pozycjach 1 i 3. Możesz dostosować tę tablicę, aby wybrać określone slajdy, których potrzebujesz.
 
 - Na koniec zapisujemy wybrane slajdy jako plik PDF (`RequiredSelectedSlides_out.pdf`).
 

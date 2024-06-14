@@ -32,7 +32,7 @@ Los elementos interactivos, como los efectos de zoom, pueden mejorar significati
 Organizar formas en grupos o crear miniaturas para SmartArt puede mejorar el atractivo visual y la estructura de sus diapositivas.
 
 -  Agrupar formas: agrupar formas ayuda a administrar múltiples formas como una sola unidad, lo que facilita su formato y ubicación. Aprenda a crear formas grupales con nuestro[Crear forma de grupo en PowerPoint](./create-group-shape-powerpoint/) guía.
--  Miniaturas de notas secundarias SmartArt: la creación de miniaturas para notas secundarias SmartArt puede simplificar la comprensión y la navegación de diagramas complejos. Mira nuestro tutorial paso a paso[Crear miniatura de nota secundaria SmartArt](./create-smartart-child-note-thumbnail/) para obtener instrucciones detalladas.
+-  Miniaturas de notas secundarias SmartArt: la creación de miniaturas para notas secundarias SmartArt puede simplificar la comprensión y navegación de diagramas complejos. Mira nuestro tutorial paso a paso[Crear miniatura de nota secundaria SmartArt](./create-smartart-child-note-thumbnail/) para obtener instrucciones detalladas.
 
 Al aprovechar estos tutoriales, puede mejorar significativamente sus presentaciones de PowerPoint, haciéndolas más atractivas y visualmente atractivas. Aspose.Slides para Java proporciona las herramientas que necesita para agregar estas funciones avanzadas con facilidad, mejorando tanto la funcionalidad como la estética de sus diapositivas. ¡Sumérgete en cada tutorial y mejora tus habilidades de presentación hoy!
 ## Tutoriales de creación de miniaturas y formas de PowerPoint en Java

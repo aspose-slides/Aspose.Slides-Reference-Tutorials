@@ -24,9 +24,9 @@ Kết xuất là nghệ thuật chuyển đổi các slide của bạn thành n�
 ### [In bản trình bày bằng máy in mặc định trong Aspose.Slides](./printing-with-default-printer/)
 Tìm hiểu cách in bản trình bày PowerPoint theo chương trình bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này với mã nguồn hoàn chỉnh để dễ dàng in bản trình bày sang máy in mặc định.
 ### [Xem trước bản in của bản trình bày trong Aspose.Slides](./presentation-print-preview/)
-Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
+Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
 ### [Hiển thị nhận xét slide trong Aspose.Slides](./rendering-slide-comments/)
-Tìm hiểu cách hiển thị nhận xét về trang trình bày trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập, tùy chỉnh và hiển thị nhận xét theo chương trình.
+Tìm hiểu cách hiển thị nhận xét về trang trình bày trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn để truy cập, tùy chỉnh và hiển thị nhận xét theo chương trình.
 ### [Hiển thị hiệu ứng 3D trong slide thuyết trình với Aspose.Slides](./rendering-3d-effects/)
 Tìm hiểu cách thêm hiệu ứng 3D quyến rũ vào trang trình bày của bạn bằng Aspose.Slides for .NET. Hướng dẫn từng bước của chúng tôi bao gồm mọi thứ từ thiết lập môi trường của bạn đến áp dụng hoạt ảnh và xuất kết quả cuối cùng.
 ### [Hiển thị biểu tượng cảm xúc và ký tự đặc biệt trong Aspose.Slides](./rendering-emoji-special-characters/)

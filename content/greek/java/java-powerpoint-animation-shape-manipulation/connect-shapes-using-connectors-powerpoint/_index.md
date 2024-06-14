@@ -1,6 +1,6 @@
 ---
-title: Συνδέστε τα σχήματα χρησιμοποιώντας συνδέσμους στο PowerPoint
-linktitle: Συνδέστε τα σχήματα χρησιμοποιώντας συνδέσμους στο PowerPoint
+title: Συνδέστε σχήματα χρησιμοποιώντας συνδέσμους στο PowerPoint
+linktitle: Συνδέστε σχήματα χρησιμοποιώντας συνδέσμους στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να συνδέετε σχήματα χρησιμοποιώντας συνδέσμους σε παρουσιάσεις PowerPoint με το Aspose.Slides για Java. Βήμα προς βήμα μάθημα για αρχάριους.
 type: docs
@@ -20,7 +20,7 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 Αρχικά, εισαγάγετε τα απαραίτητα πακέτα για την εργασία με το Aspose.Slides στο έργο σας Java.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Βήμα 1: Τάξη Instantiate Presentation
  Στιγμιότυπο το`Presentation`κλάση, η οποία αντιπροσωπεύει το αρχείο PPTX στο οποίο εργάζεστε.
@@ -39,7 +39,7 @@ IShapeCollection shapes = input.getSlides().get_Item(0).getShapes();
 ```java
 // Προσθέστε αυτόματο σχήμα Ellipse
 IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
-// Προσθέστε αυτόματο σχήμα ορθογώνιου
+// Προσθέστε αυτόματο σχήμα Ορθογώνιο
 IAutoShape rectangle = shapes.addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
 ```
 ## Βήμα 4: Προσθήκη εφαρμογής σύνδεσης

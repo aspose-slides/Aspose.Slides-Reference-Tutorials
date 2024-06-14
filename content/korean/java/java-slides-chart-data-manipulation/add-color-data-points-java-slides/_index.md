@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/add-color-data-points-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드의 데이터 포인트에 색상을 추가하는 방법을 보여줍니다. 이 단계별 가이드에는 이 작업을 수행하는 데 도움이 되는 소스 코드 예제가 포함되어 있습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -50,7 +50,7 @@ IChartDataPointCollection dataPoints = chart.getChartData().getSeries().get_Item
 이 단계에서는 특정 데이터 포인트를 맞춤설정합니다. 여기서는 데이터 포인트의 색상을 변경하고 레이블 설정을 구성합니다.
 
 ```java
-//데이터 포인트 0 사용자 정의
+// 데이터 포인트 0 사용자 정의
 IDataLabel branch1Label = dataPoints.get_Item(0).getDataPointLevels().get_Item(2).getLabel();
 branch1Label.getDataLabelFormat().setShowCategoryName(false);
 branch1Label.getDataLabelFormat().setShowSeriesName(true);
@@ -65,7 +65,7 @@ steam4Format.getFill().getSolidFillColor().setColor(com.aspose.cells.Color.fromA
 
 ## 5단계: 프레젠테이션 저장
 
-마지막으로 사용자 정의된 차트로 프레젠테이션을 저장하세요.
+마지막으로 사용자 정의된 차트로 프레젠테이션을 저장합니다.
 
 ```java
 pres.save("Your Output Directory/AddColorToDataPoints.pptx", SaveFormat.Pptx);
@@ -116,4 +116,4 @@ finally
 
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
 
-Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트.
+ Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트.

@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Loại trừ các phông chữ trình bày mặc định như Calibri và Arial
+    // Loại trừ các phông chữ trình bày mặc định như Calibri và Arial
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ Trong đoạn mã này:
 
 -  Chúng tôi tải bản trình bày PowerPoint đầu vào bằng cách sử dụng`Presentation`.
 
-- Chúng tôi xác định một danh sách các phông chữ (`fontNameExcludeList`) mà chúng tôi muốn loại trừ khỏi việc nhúng vào HTML. Điều này hữu ích trong việc loại trừ các phông chữ phổ biến như Calibri và Arial để giảm kích thước tệp.
+- Chúng tôi xác định một danh sách các phông chữ (`fontNameExcludeList`mà chúng tôi muốn loại trừ khỏi việc nhúng vào HTML. Điều này hữu ích trong việc loại trừ các phông chữ phổ biến như Calibri và Arial để giảm kích thước tệp.
 
 -  Chúng tôi tạo một thể hiện của`EmbedAllFontsHtmlController` và chuyển danh sách loại trừ phông chữ cho nó.
 
@@ -98,7 +98,7 @@ Trong hướng dẫn này, bạn đã học cách chuyển đổi bản trình b
 
 ### Làm cách nào để tải xuống Aspose.Slides cho Java?
 
-Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Thăm nom[đây](https://downloads.aspose.com/slides/java/) để có được phiên bản mới nhất.
+ Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Thăm nom[đây](https://downloads.aspose.com/slides/java/) để có được phiên bản mới nhất.
 
 ### Tôi có thể tùy chỉnh danh sách các phông chữ bị loại trừ không?
 

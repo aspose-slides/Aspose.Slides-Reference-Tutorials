@@ -10,7 +10,7 @@ url: /it/java/chart-data-manipulation/edit-chart-data-external-workbook-java-sli
 
 ## Introduzione alla modifica dei dati del grafico nella cartella di lavoro esterna nelle diapositive Java
 
-In questa guida, dimostreremo come modificare i dati del grafico in una cartella di lavoro esterna utilizzando Aspose.Slides per Java. Imparerai come modificare i dati del grafico all'interno di una presentazione di PowerPoint a livello di programmazione. Assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto.
+In questa guida, dimostreremo come modificare i dati del grafico in una cartella di lavoro esterna utilizzando Aspose.Slides per Java. Imparerai come modificare i dati del grafico all'interno di una presentazione di PowerPoint a livello di codice. Assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto.
 
 ## Prerequisiti
 
@@ -75,7 +75,7 @@ Ora hai modificato con successo i dati del grafico in una cartella di lavoro est
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ In questa guida completa, abbiamo esplorato come modificare i dati del grafico i
 
 ### Come faccio a specificare un grafico o una diapositiva diversa?
 
- Per accedere a un grafico o una diapositiva diversa, modificare l'indice appropriato nel file`getSlides().get_Item()` E`getShapes().get_Item()` metodi. Ricorda che l'indicizzazione inizia da 0.
+ Per accedere a un grafico o una diapositiva diversa, modificare l'indice appropriato nel file`getSlides().get_Item()` E`getShapes().get_Item()`metodi. Ricorda che l'indicizzazione inizia da 0.
 
 ### Posso modificare i dati in più grafici all'interno della stessa presentazione?
 

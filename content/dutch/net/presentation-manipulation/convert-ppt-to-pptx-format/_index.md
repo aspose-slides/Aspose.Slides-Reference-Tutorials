@@ -14,7 +14,7 @@ Als u ooit PowerPoint-bestanden van het oudere PPT-formaat naar het nieuwere PPT
 
 Voordat we in de code duiken, moet je ervoor zorgen dat je het volgende hebt ingesteld:
 
-- Visual Studio: Zorg ervoor dat Visual Studio is geïnstalleerd en klaar is voor .NET-ontwikkeling.
+- Visual Studio: Zorg ervoor dat Visual Studio is geïnstalleerd en gereed is voor .NET-ontwikkeling.
 -  Aspose.Slides voor .NET: Download en installeer de Aspose.Slides voor .NET-bibliotheek van[hier](https://releases.aspose.com/slides/net/).
 
 ## Het project opzetten
@@ -40,7 +40,7 @@ string outPath = "Your Output Directory";
 string srcFileName = dataDir + "Conversion PPT to PPTX.ppt";
 string destFileName = dataDir + "Conversion PPT to PPTX.pptx";
 
-//Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
+// Instantieer een presentatieobject dat een PPT-bestand vertegenwoordigt
 Presentation pres = new Presentation(srcFileName);
 
 //De presentatie opslaan in PPTX-formaat

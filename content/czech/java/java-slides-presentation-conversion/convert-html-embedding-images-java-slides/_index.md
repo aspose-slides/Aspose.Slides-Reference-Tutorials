@@ -48,9 +48,9 @@ Nyní nakonfigurujete možnosti převodu HTML. V tomto příkladu vložíme obr�
 
 ```java
 Html5Options options = new Html5Options();
-//Vynutit neukládání obrázků v dokumentu HTML5
+// Vynutit neukládání obrázků v dokumentu HTML5
 options.setEmbedImages(true); // Chcete-li vkládat obrázky, nastavte na hodnotu true
-// Nastavte cestu pro externí obrázky (v případě potřeby)
+//Nastavte cestu pro externí obrázky (v případě potřeby)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -75,7 +75,7 @@ pres.save(options.getOutputPath() + "output.html", SaveFormat.Html5, options);
 
 ## Krok 6: Vyčistěte zdroje
 
-Nezapomeňte zlikvidovat objekt Presentation, abyste uvolnili všechny přidělené zdroje.
+Nezapomeňte zlikvidovat objekt Prezentace, abyste uvolnili všechny přidělené zdroje.
 
 ```java
 if (pres != null) {
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Cesta ke zdrojové prezentaci
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Cesta k HTML dokumentu
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Vynutit neukládání obrázků v dokumentu HTML5
+	// Vynutit neukládání obrázků v dokumentu HTML5
 	options.setEmbedImages(false);
 	// Nastavit cestu pro externí obrázky
 	options.setOutputPath(outFilePath);
@@ -110,7 +110,7 @@ try {
 
 ## Závěr
 
-tomto komplexním průvodci jsme se naučili, jak převést prezentaci v PowerPointu na dokument HTML při vkládání obrázků pomocí Aspose.Slides for Java. Dodržováním pokynů krok za krokem můžete tuto funkci bez problémů integrovat do svých aplikací Java a zlepšit procesy převodu dokumentů.
+V tomto komplexním průvodci jsme se naučili, jak převést prezentaci v PowerPointu na dokument HTML při vkládání obrázků pomocí Aspose.Slides for Java. Dodržováním pokynů krok za krokem můžete tuto funkci bez problémů integrovat do svých aplikací Java a zlepšit procesy převodu dokumentů.
 
 ## FAQ
 

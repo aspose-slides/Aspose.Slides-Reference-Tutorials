@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## Bước 3: Định cấu hình tùy chọn PDF
 
- Định cấu hình các tùy chọn PDF để bao gồm các trang chiếu ẩn trong đầu ra PDF. Bạn có thể làm điều này bằng cách thiết lập`setShowHiddenSlides` tài sản của`PdfOptions` lớp học để`true`.
+Định cấu hình các tùy chọn PDF để bao gồm các trang chiếu ẩn trong đầu ra PDF. Bạn có thể làm điều này bằng cách thiết lập`setShowHiddenSlides` tài sản của`PdfOptions` lớp học để`true`.
 
 ```java
 // Khởi tạo lớp PdfOptions
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Làm cách nào để tải xuống Aspose.Slides cho Java?
 
-Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Tham quan[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/) để có được phiên bản mới nhất.
+ Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Tham quan[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/) để có được phiên bản mới nhất.

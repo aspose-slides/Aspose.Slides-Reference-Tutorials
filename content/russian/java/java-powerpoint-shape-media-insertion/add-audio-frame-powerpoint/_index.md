@@ -18,7 +18,7 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 Импортируйте необходимые пакеты в ваш Java-проект:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -66,7 +66,7 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 
 ## Часто задаваемые вопросы
 ### Могу ли я добавить в презентацию аудиофайлы разных форматов?
-Да, Aspose.Slides для Java поддерживает различные аудиоформаты, включая WAV, MP3 и другие.
+Да, Aspose.Slides for Java поддерживает различные аудиоформаты, включая WAV, MP3 и другие.
 ### Можно ли настроить время воспроизведения звука в слайдах?
 Абсолютно. Вы можете синхронизировать воспроизведение звука с определенными переходами слайдов, используя Aspose.Slides для Java.
 ### Обеспечивает ли Aspose.Slides для Java поддержку кроссплатформенной совместимости?

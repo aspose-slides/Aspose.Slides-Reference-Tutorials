@@ -40,7 +40,7 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## 3. lépés: Konfigurálja a PDF-beállításokat
 
- Konfigurálja a PDF-beállításokat, hogy a rejtett diák a PDF-kimenetben szerepeljen. Ezt úgy teheti meg, hogy beállítja a`setShowHiddenSlides` tulajdona a`PdfOptions` osztályba`true`.
+Konfigurálja a PDF-beállításokat, hogy a rejtett diák a PDF-kimenetben szerepeljen. Ezt úgy teheti meg, hogy beállítja a`setShowHiddenSlides` tulajdona a`PdfOptions` osztályba`true`.
 
 ```java
 // Példányosítsa a PdfOptions osztályt
@@ -114,4 +114,4 @@ slide.setHidden(false);
 
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
 
-Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Meglátogatni a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/) hogy megszerezze a legújabb verziót.
+ Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Meglátogatni a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/) hogy megszerezze a legújabb verziót.

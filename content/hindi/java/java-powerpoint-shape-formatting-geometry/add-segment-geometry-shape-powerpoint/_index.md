@@ -19,7 +19,7 @@ url: /hi/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-sha
 सबसे पहले, आपको Aspose.Slides से आवश्यक पैकेज आयात करने की आवश्यकता है। यह आपको PowerPoint प्रस्तुतियों को बनाने और उनमें हेरफेर करने के लिए आवश्यक सभी कार्यक्षमताओं तक पहुँचने की अनुमति देगा।
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 स्पष्टता और समझने में आसानी सुनिश्चित करने के लिए आइए ज्यामिति आकृतियों में खंडों को जोड़ने की प्रक्रिया को विस्तृत चरणों में विभाजित करें।
 ## चरण 1: एक नई प्रस्तुति बनाएँ

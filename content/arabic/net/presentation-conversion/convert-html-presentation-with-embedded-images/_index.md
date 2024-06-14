@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation(presentationName))
 ```csharp
 Html5Options options = new Html5Options()
 {
-    //فرض عدم حفظ الصور في مستند HTML5
+    // فرض عدم حفظ الصور في مستند HTML5
     EmbedImages = false,
     // ضبط المسار للصور الخارجية
     OutputPath = outPath

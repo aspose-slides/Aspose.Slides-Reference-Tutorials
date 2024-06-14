@@ -114,7 +114,7 @@ chart.Axes.VerticalAxis.MinorGridLinesFormat.Line.Width = 3;
 Προσαρμόστε τη μορφή αριθμών για τον άξονα τιμών.
 
 ```csharp
-// Ρύθμιση τιμής μορφής αριθμού άξονα
+// Ορισμός μορφής αριθμού άξονα τιμής
 chart.Axes.VerticalAxis.IsNumberFormatLinkedToSource = false;
 chart.Axes.VerticalAxis.DisplayUnit = DisplayUnitType.Thousands;
 chart.Axes.VerticalAxis.NumberFormat = "0.0%";
@@ -197,7 +197,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 Παρόμοια με τον άξονα τιμών, μπορείτε να προσαρμόσετε τις δευτερεύουσες γραμμές πλέγματος για τον άξονα της κατηγορίας.
 
 ```csharp
-//Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
+// Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -272,7 +272,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Ρύθμιση χρώματος περιοχής γραφήματος
+//Ρύθμιση χρώματος περιοχής γραφήματος
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 

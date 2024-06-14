@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/extracting-embedded-file-dat
 ---
 ## 소개
 .NET용 Aspose.Slides의 세계를 탐구하고 있다면 PowerPoint 처리 기능을 향상시킬 수 있는 올바른 길을 가고 있는 것입니다. 이 종합 가이드에서는 Aspose.Slides를 사용하여 OLE 개체에서 포함된 파일 데이터를 추출하는 과정을 안내합니다. 숙련된 개발자이든 Aspose.Slides를 처음 사용하는 사람이든 이 튜토리얼은 이 강력한 .NET 라이브러리의 잠재력을 최대한 활용하기 위한 명확하고 자세한 로드맵을 제공합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: 개발 환경에 Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/net/).
 - 개발 환경: Visual Studio 등 원하는 IDE를 사용하여 .NET 개발 환경을 설정합니다.

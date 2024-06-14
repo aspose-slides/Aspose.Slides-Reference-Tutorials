@@ -16,7 +16,7 @@ Prima di immergerci nel processo di estrazione, assicurati di disporre dei segue
 
 ### 1. Aspose.Slides per la libreria .NET
 
- È necessario che la libreria Aspose.Slides per .NET sia installata nel tuo ambiente di sviluppo. Se non lo hai già fatto, puoi scaricarlo dal sito web all'indirizzo[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+È necessario che la libreria Aspose.Slides per .NET sia installata nel tuo ambiente di sviluppo. Se non lo hai già fatto, puoi scaricarlo dal sito web all'indirizzo[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
 
 ### 2. Presentazione PowerPoint con collegamenti ipertestuali audio
 
@@ -44,7 +44,7 @@ string dataDir = "Your Document Directory";
 
 ## Passaggio 2: carica la presentazione di PowerPoint
 
- Caricare la presentazione di PowerPoint (PPTX) che contiene il collegamento ipertestuale audio utilizzando Aspose.Slides. Sostituire`"HyperlinkSound.pptx"` con il nome file effettivo della presentazione.
+ Caricare la presentazione di PowerPoint (PPTX) che contiene il collegamento ipertestuale audio utilizzando Aspose.Slides. Sostituire`"HyperlinkSound.pptx"`con il nome file effettivo della presentazione.
 
 ```csharp
 string pptxFile = Path.Combine(dataDir, "HyperlinkSound.pptx");
@@ -73,7 +73,7 @@ if (link.Sound != null)
 Se il collegamento ipertestuale ha un suono associato, possiamo estrarlo come array di byte e salvarlo come file multimediale.
 
 ```csharp
-//Estrae l'audio del collegamento ipertestuale nell'array di byte
+// Estrae l'audio del collegamento ipertestuale nell'array di byte
 byte[] audioData = link.Sound.BinaryData;
 
 // Specifica il percorso in cui desideri salvare l'audio estratto
@@ -101,7 +101,7 @@ Sì, Aspose.Slides per .NET supporta sia i formati PPTX che PPT per l'estrazione
  Sì, puoi ottenere assistenza e condividere le tue esperienze con Aspose.Slides nel[Forum della comunità Aspose.Slides](https://forum.aspose.com/).
 
 ### Posso acquistare una licenza temporanea per Aspose.Slides per un progetto a breve termine?
- Sì, puoi ottenere una licenza temporanea per Aspose.Slides per .NET per soddisfare le esigenze dei tuoi progetti a breve termine visitando[questo link](https://purchase.aspose.com/temporary-license/).
+Sì, puoi ottenere una licenza temporanea per Aspose.Slides per .NET per soddisfare le esigenze dei tuoi progetti a breve termine visitando[questo link](https://purchase.aspose.com/temporary-license/).
 
 ### Sono supportati altri formati audio per l'estrazione, oltre a MPG?
 Aspose.Slides per .NET ti consente di estrarre l'audio in vari formati, non limitato a MPG. Puoi convertirlo nel formato che preferisci dopo l'estrazione.

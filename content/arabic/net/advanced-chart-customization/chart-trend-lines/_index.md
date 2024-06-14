@@ -14,7 +14,7 @@ url: /ar/net/advanced-chart-customization/chart-trend-lines/
 
 قبل أن نبدأ العمل مع Aspose.Slides for .NET، ستحتاج إلى التأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Slides for .NET: للوصول إلى المكتبة واستخدامها، يجب أن يكون Aspose.Slides for .NET مثبتًا لديك. يمكنك الحصول على المكتبة من[صفحة التحميل](https://releases.aspose.com/slides/net/).
+1. Aspose.Slides for .NET: للوصول إلى المكتبة واستخدامها، يجب أن يكون Aspose.Slides for .NET مثبتًا لديك. يمكنك الحصول على المكتبة من[صفحة التحميل](https://releases.aspose.com/slides/net/).
 
 2. بيئة التطوير: يجب أن يكون لديك بيئة تطوير معدة، ويفضل استخدام بيئة تطوير متكاملة .NET مثل Visual Studio.
 

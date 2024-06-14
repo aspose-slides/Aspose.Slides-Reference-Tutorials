@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Etapa 3: personalizar planos de fundo de slides
 Melhore o apelo visual dos seus slides personalizando seus planos de fundo. Neste exemplo, definimos um fundo ciano sólido para o segundo slide.
 ```csharp
-//Crie um plano de fundo para o segundo slide
+// Crie um plano de fundo para o segundo slide
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

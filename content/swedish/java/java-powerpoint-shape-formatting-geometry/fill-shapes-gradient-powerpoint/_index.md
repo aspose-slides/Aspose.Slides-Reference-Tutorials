@@ -11,7 +11,7 @@ url: /sv/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-pow
 Att skapa visuellt tilltalande PowerPoint-presentationer är avgörande för att fängsla din publik. Ett av de effektiva sätten att förbättra dina bilder är att fylla former med övertoningar. Denna handledning guidar dig genom processen att använda Aspose.Slides för Java för att fylla former med övertoningar i PowerPoint. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer du att tycka att den här guiden är användbar och lätt att följa. Låt oss dyka in i en värld av gradienter och se hur de kan förvandla dina presentationer.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande:
--  Java Development Kit (JDK): Se till att du har JDK installerat. Du kan ladda ner den från[Oracle hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Se till att du har JDK installerat. Du kan ladda ner den från[Oracle hemsida](https://www.oracle.com/java/technologies/javase-downloads.html).
 -  Aspose.Slides för Java: Ladda ner den senaste versionen från[här](https://releases.aspose.com/slides/java/).
 - Integrated Development Environment (IDE): En IDE som IntelliJ IDEA eller Eclipse kommer att göra din kodningsupplevelse smidigare.
 - Grundläggande kunskaper i Java: Förtrogenhet med Java-programmering är viktigt.
@@ -19,7 +19,7 @@ Innan vi börjar, se till att du har följande:
 För att börja med Aspose.Slides måste du importera de nödvändiga paketen. Se till att du har lagt till Aspose.Slides för Java till ditt projekts beroenden.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

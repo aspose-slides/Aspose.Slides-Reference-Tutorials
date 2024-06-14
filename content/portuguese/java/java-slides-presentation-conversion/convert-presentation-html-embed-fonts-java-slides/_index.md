@@ -17,7 +17,7 @@ Na era digital de hoje, a conversão de apresentações para HTML tornou-se esse
 Antes de nos aprofundarmos no código e no processo de conversão, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Java Development Kit (JDK) instalado em seu sistema.
-- Aspose.Slides para Java API, que você pode baixar em[aqui](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides para Java API, que você pode baixar em[aqui](https://releases.aspose.com/slides/java/).
 -  Um arquivo de apresentação (por exemplo,`presentation.pptx`) que você deseja converter para HTML.
 
 ## Etapa 1: Configurando o Ambiente Java
@@ -26,7 +26,7 @@ Certifique-se de ter Java e Aspose.Slides for Java API devidamente instalados em
 
 ## Etapa 2: Carregando o arquivo de apresentação
 
- No seu código Java, você precisa carregar o arquivo de apresentação que deseja converter. Substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação.
+No seu código Java, você precisa carregar o arquivo de apresentação que deseja converter. Substituir`"Your Document Directory"` com o caminho real para o seu arquivo de apresentação.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -59,7 +59,7 @@ Agora que incorporamos todas as fontes, é hora de converter a apresentação pa
 
 ## Etapa 5: salvando o arquivo HTML
 
-etapa final é salvar o arquivo HTML com fontes incorporadas. O arquivo HTML será salvo no diretório especificado, garantindo que todas as fontes sejam incluídas.
+A etapa final é salvar o arquivo HTML com fontes incorporadas. O arquivo HTML será salvo no diretório especificado, garantindo que todas as fontes sejam incluídas.
 
 É isso! Você converteu com sucesso uma apresentação em HTML ao incorporar todas as fontes usando Aspose.Slides para Java.
 
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -85,7 +85,7 @@ finally
 
 ## Conclusão
 
-A conversão de apresentações para HTML com fontes incorporadas é crucial para manter uma formatação consistente em diferentes plataformas. Com Aspose.Slides for Java, esse processo se torna simples e eficiente. Agora você pode compartilhar suas apresentações em formato HTML sem se preocupar com a falta de fontes.
+conversão de apresentações para HTML com fontes incorporadas é crucial para manter uma formatação consistente em diferentes plataformas. Com Aspose.Slides for Java, esse processo se torna simples e eficiente. Agora você pode compartilhar suas apresentações em formato HTML sem se preocupar com a falta de fontes.
 
 ## Perguntas frequentes
 
@@ -95,7 +95,7 @@ Você pode inspecionar o código-fonte do arquivo HTML e procurar referências d
 
 ### Posso personalizar ainda mais a saída HTML, como estilo e layout?
 
- Sim, você pode personalizar a saída HTML modificando o`HtmlOptions` o modelo HTML usado para formatação. Aspose.Slides for Java oferece flexibilidade nesse sentido.
+ Sim, você pode personalizar a saída HTML modificando o`HtmlOptions` e o modelo HTML usado para formatação. Aspose.Slides for Java oferece flexibilidade nesse sentido.
 
 ### Há alguma limitação ao incorporar fontes em HTML?
 

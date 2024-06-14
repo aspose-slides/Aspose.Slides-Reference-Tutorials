@@ -19,13 +19,13 @@ url: /el/java/java-powerpoint-save-operations/save-powerpoint-to-file/
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 ```
 ## Βήμα 1: Ρυθμίστε τον Κατάλογο δεδομένων
 ```java
 // Η διαδρομή προς τον κατάλογο εγγράφων.
-String dataDir = RunExamples.getDataDir_PresentationSaving();
+String dataDir = "Your Document Directory";
 // Δημιουργήστε κατάλογο εάν δεν υπάρχει ήδη.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
@@ -34,10 +34,10 @@ if (!IsExists)
 Σε αυτό το βήμα, ορίζουμε τη διαδρομή προς τον κατάλογο όπου θα αποθηκευτεί η παρουσίαση του PowerPoint. Εάν ο κατάλογος δεν υπάρχει, θα δημιουργηθεί.
 ## Βήμα 2: Δημιουργία αντικειμένου παρουσίασης
 ```java
-//Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
+// Δημιουργήστε ένα αντικείμενο παρουσίασης που αντιπροσωπεύει ένα αρχείο PPT
 Presentation presentation = new Presentation();
 ```
- Εδώ, δημιουργούμε μια νέα παρουσία του`Presentation` τάξη, η οποία αντιπροσωπεύει μια παρουσίαση PowerPoint.
+Εδώ, δημιουργούμε μια νέα παρουσία του`Presentation` τάξη, η οποία αντιπροσωπεύει μια παρουσίαση PowerPoint.
 ## Βήμα 3: Εκτέλεση λειτουργιών στην παρουσίαση (Προαιρετικό)
 ```java
 //κάνε λίγη δουλειά εδώ...

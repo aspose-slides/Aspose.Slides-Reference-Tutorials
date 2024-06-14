@@ -75,7 +75,7 @@ Agora você editou com sucesso os dados do gráfico em uma pasta de trabalho ext
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ Neste guia abrangente, exploramos como editar dados de gráficos em pastas de tr
 
 ### Como especifico um gráfico ou slide diferente?
 
- Para acessar um gráfico ou slide diferente, modifique o índice apropriado na`getSlides().get_Item()` e`getShapes().get_Item()` métodos. Lembre-se de que a indexação começa em 0.
+ Para acessar um gráfico ou slide diferente, modifique o índice apropriado na`getSlides().get_Item()` e`getShapes().get_Item()`métodos. Lembre-se de que a indexação começa em 0.
 
 ### Posso editar dados em vários gráficos na mesma apresentação?
 

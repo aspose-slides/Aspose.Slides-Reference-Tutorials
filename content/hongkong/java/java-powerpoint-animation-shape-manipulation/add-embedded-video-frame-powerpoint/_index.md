@@ -19,7 +19,7 @@ url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/add-embedded-vid
 首先，您需要匯入必要的套件才能使用 Aspose.Slides。這些匯入將幫助您管理投影片、影片和簡報檔案。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -88,7 +88,7 @@ if (pres != null) pres.dispose();
 ### 如何控制影片的播放？
 您可以使用控製播放`setPlayMode`和`setVolume`的方法`IVideoFrame`班級。
 ### Aspose.Slides 支援哪些影片格式？
-Aspose.Slides 支援多種視訊格式，包括 MP4、AVI 和 WMV。
+Aspose.Slides 支援各種視訊格式，包括 MP4、AVI 和 WMV。
 ### 我需要許可證才能使用 Aspose.Slides 嗎？
 是的，您需要有效的許可證才能使用 Aspose.Slides。您可以獲得臨時評估許可證。
 ### 我可以自訂視訊畫面的大小和位置嗎？

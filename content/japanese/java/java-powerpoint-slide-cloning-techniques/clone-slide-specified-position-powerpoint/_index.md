@@ -21,13 +21,13 @@ PowerPoint のスキルを磨く準備はできていますか? 経験豊富な�
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## ステップ1: データディレクトリを設定する
 PowerPoint ファイルを保存するためのディレクトリが必要です。ここでソース ファイルを読み込み、複製されたプレゼンテーションを保存します。
 ```java
 //ドキュメント ディレクトリへのパス。
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## ステップ2: ソースプレゼンテーションを読み込む
 次に、複製するスライドを含むソース プレゼンテーションを読み込みます。この手順は、複製操作のベースとなるため、非常に重要です。

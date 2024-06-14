@@ -70,6 +70,6 @@ EEN: Zeker! Aspose.Slides voor .NET ondersteunt verloopvulling voor verschillend
 ### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Slides voor .NET?
  A: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 ### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
-A: Zoek hulp en ga in gesprek met de gemeenschap[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
+ A: Zoek hulp en ga in gesprek met de gemeenschap[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### Vraag: Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
  A: Zeker, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).

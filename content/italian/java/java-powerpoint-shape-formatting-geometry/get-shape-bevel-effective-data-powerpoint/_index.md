@@ -19,7 +19,7 @@ Inizia importando i pacchetti necessari nel tuo progetto Java:
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: configura la directory dei documenti
 Definisci il percorso della directory dei documenti in cui si trova la presentazione di PowerPoint:

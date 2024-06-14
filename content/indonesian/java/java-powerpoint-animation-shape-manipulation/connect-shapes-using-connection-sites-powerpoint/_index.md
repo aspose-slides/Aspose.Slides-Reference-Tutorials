@@ -19,7 +19,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Untuk memulai, impor paket yang diperlukan ke proyek Java Anda:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Langkah 1: Mengakses Koleksi Bentuk
 Akses koleksi bentuk untuk slide yang dipilih:

@@ -21,13 +21,13 @@ Na początek zaimportujmy niezbędne pakiety. Otwórz swoje środowisko Java IDE
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Krok 1: Skonfiguruj katalog danych
 Będziesz potrzebować katalogu do przechowywania plików programu PowerPoint. Tutaj załadujesz plik źródłowy i zapiszesz sklonowaną prezentację.
 ```java
 // Ścieżka do katalogu dokumentów.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Krok 2: Załaduj prezentację źródłową
 Następnie załadujemy prezentację źródłową zawierającą slajd, który chcesz sklonować. Ten krok jest kluczowy, ponieważ stanowi podstawę operacji klonowania.

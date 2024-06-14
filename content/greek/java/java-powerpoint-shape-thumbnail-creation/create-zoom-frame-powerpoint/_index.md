@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpo
 Αρχικά, πρέπει να εισαγάγετε τα απαραίτητα πακέτα στο έργο σας Java. Αυτές οι εισαγωγές θα παρέχουν πρόσβαση στις λειτουργίες Aspose.Slides που απαιτούνται για αυτό το σεμινάριο.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,7 +42,7 @@ try {
 Θέλουμε να κάνουμε τις διαφάνειές μας οπτικά διακριτές προσθέτοντας χρώματα φόντου.
 ### Ρύθμιση φόντου για τη δεύτερη διαφάνεια
 ```java
-    //Δημιουργήστε ένα φόντο για τη δεύτερη διαφάνεια
+    // Δημιουργήστε ένα φόντο για τη δεύτερη διαφάνεια
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);

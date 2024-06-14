@@ -84,7 +84,7 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tùy chọn biểu �
 
 ### Làm cách nào tôi có thể thay đổi kích thước của chiếc bánh thứ hai trong biểu đồ Pie of Pie?
 
- Để thay đổi kích thước của hình tròn thứ hai trong biểu đồ Pie of Pie, hãy sử dụng`setSecondPieSize` phương thức như trong ví dụ mã ở trên. Điều chỉnh giá trị để chỉ định kích thước theo tỷ lệ phần trăm.
+Để thay đổi kích thước của hình tròn thứ hai trong biểu đồ Pie of Pie, hãy sử dụng`setSecondPieSize` phương thức như trong ví dụ mã ở trên. Điều chỉnh giá trị để chỉ định kích thước theo tỷ lệ phần trăm.
 
 ###  làm gì`PieSplitBy` control in a Pie of Pie chart?
 
@@ -92,4 +92,4 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tùy chọn biểu �
 
 ### Làm cách nào để đặt vị trí phần tách trong biểu đồ Pie of Pie?
 
-Bạn có thể đặt vị trí của phần phân chia trong biểu đồ Pie of Pie bằng cách sử dụng`setPieSplitPosition` phương pháp. Điều chỉnh giá trị để xác định vị trí mong muốn.
+ Bạn có thể đặt vị trí của phần phân chia trong biểu đồ Pie of Pie bằng cách sử dụng`setPieSplitPosition` phương pháp. Điều chỉnh giá trị để xác định vị trí mong muốn.

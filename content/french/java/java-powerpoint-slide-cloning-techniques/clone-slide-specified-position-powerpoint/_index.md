@@ -21,13 +21,13 @@ Tout d’abord, importons les packages nécessaires. Ouvrez votre IDE Java et co
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : configurer le répertoire de données
 Vous aurez besoin d'un répertoire pour stocker vos fichiers PowerPoint. C'est ici que vous chargerez votre fichier source et enregistrerez la présentation clonée.
 ```java
 // Le chemin d'accès au répertoire des documents.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Étape 2 : Charger la présentation source
 Ensuite, nous chargerons la présentation source contenant la diapositive que vous souhaitez cloner. Cette étape est cruciale car elle sert de base à votre opération de clonage.

@@ -23,7 +23,7 @@ A dia háttere döntő szerepet játszik a prezentáció általános esztétiká
 - Átlátszóság és átlátszatlanság: Merüljön el az átlátszóság és az átlátszatlanság beállításában a modern és elegáns kialakítás érdekében.
 - Dinamikus hátterek: Ismerje meg, hogyan módosíthatja programozottan a dia hátterét a felhasználói interakciók vagy adatok alapján.
 
-Ennek az oktatóanyagnak a végére birtokában lesz a dia hátterének hatékony kezeléséhez szükséges szakértelemnek, így a hétköznapi prezentációkat lebilincselő vizuális élményekké alakíthatja. Kezdjük a diatervezési képességek fejlesztésének útját az Aspose.Slides segítségével!
+Ennek az oktatóanyagnak a végére birtokában lesz a diák hátterének hatékony kezeléséhez szükséges szakértelemnek, így a hétköznapi prezentációkat lebilincselő vizuális élményekké alakíthatja. Kezdjük a diatervezési képességek fejlesztésének útját az Aspose.Slides segítségével!
 
 ## Dia háttér-manipulációs oktatóanyagok
 ### [Dia háttér módosítása az Aspose.Slides-ben](./slide-background-modification/)

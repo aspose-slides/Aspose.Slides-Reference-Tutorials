@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 string resultPath = Path.Combine(dataDir, "OutPresBitmap_Comments.png");
 ```
-## ขั้นตอนที่ 3: โหลดงานนำเสนอ
+## ขั้นตอนที่ 3: โหลดการนำเสนอ
 โหลดงานนำเสนอ PowerPoint โดยใช้ไลบรารี Aspose.Slides:
 ```csharp
 Presentation pres = new Presentation(dataDir + "presentation.pptx");
@@ -85,4 +85,4 @@ System.Diagnostics.Process.Start(resultPath);
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะขอความช่วยเหลือและสนับสนุน Aspose.Slides ได้ที่ไหน
-ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) เพื่อสนับสนุนชุมชน
+ ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) เพื่อสนับสนุนชุมชน

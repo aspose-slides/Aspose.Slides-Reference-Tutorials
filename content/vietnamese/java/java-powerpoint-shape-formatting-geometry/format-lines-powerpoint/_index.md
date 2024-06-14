@@ -18,7 +18,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những �
 Trước tiên, hãy nhập các gói cần thiết để hoạt động với Aspose.Slides.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

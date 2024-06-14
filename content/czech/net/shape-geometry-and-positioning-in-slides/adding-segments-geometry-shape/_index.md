@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 ## Krok 3: Přidejte geometrický tvar
-Vytvořte geometrický tvar v prezentaci. Přidejme například na první snímek obdélník.
+Vytvořte geometrický tvar v rámci prezentace. Přidejme například na první snímek obdélník.
 ```csharp
 GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```

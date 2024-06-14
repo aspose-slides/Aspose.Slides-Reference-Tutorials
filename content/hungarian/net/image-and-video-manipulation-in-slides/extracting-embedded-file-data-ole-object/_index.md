@@ -68,7 +68,7 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 }
 ```
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta, hogyan bonthat ki beágyazott fájladatokat egy OLE objektumból az Aspose.Slides for .NET alkalmazásban. Ez a készség felbecsülhetetlen az összetett prezentációk egyszerű kezeléséhez. Ahogy folytatja az Aspose.Slides képességeinek felfedezését, még több módot fedezhet fel a PowerPoint-feldolgozási feladatok javítására.
+Gratulálunk! Sikeresen megtanulta, hogyan bonthat ki beágyazott fájladatokat egy OLE objektumból az Aspose.Slides for .NET alkalmazásban. Ez a készség felbecsülhetetlen az összetett prezentációk egyszerű kezeléséhez. Ahogy folytatja az Aspose.Slides képességeinek felfedezését, még több módot fedezhet fel a PowerPoint feldolgozási feladatok javítására.
 
 ## Gyakran Ismételt Kérdések
 ### Az Aspose.Slides kompatibilis a legújabb .NET keretrendszerrel?

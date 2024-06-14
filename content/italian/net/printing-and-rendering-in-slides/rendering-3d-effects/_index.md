@@ -74,6 +74,6 @@ Assolutamente! Aspose.Slides offre ampie opzioni per personalizzare le propriet�
 ### Dove posso trovare altri tutorial ed esempi?
  Esplora la documentazione di Aspose.Slides[Qui](https://reference.aspose.com/slides/net/) per tutorial ed esempi completi.
 ### È disponibile una prova gratuita?
- Sì, puoi scaricare una versione di prova gratuita di Aspose.Slides[Qui](https://releases.aspose.com/).
+Sì, puoi scaricare una versione di prova gratuita di Aspose.Slides[Qui](https://releases.aspose.com/).
 ### Come posso ottenere supporto se riscontro problemi?
  Visita il forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11) per il sostegno e l'assistenza della comunità.

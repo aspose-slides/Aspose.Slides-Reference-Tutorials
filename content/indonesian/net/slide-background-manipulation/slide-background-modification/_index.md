@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //Kode Anda untuk modifikasi latar belakang slide akan ditempatkan di sini.
     // Kami akan menjelajahinya di langkah selanjutnya.
     
-    // Simpan presentasi yang dimodifikasi
+    //Simpan presentasi yang dimodifikasi
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ Pada langkah ini, kami menyesuaikan latar belakang slide pertama. Anda dapat mem
 ## Langkah 6: Simpan Presentasi yang Dimodifikasi
 
 ```csharp
-// Simpan presentasi yang dimodifikasi
+//Simpan presentasi yang dimodifikasi
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

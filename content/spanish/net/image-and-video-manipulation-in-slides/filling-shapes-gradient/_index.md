@@ -70,6 +70,6 @@ R: ¡Ciertamente! Aspose.Slides para .NET admite el relleno de degradado para va
 ### P: ¿Hay una prueba gratuita disponible para Aspose.Slides para .NET?
  R: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
 ### P: ¿Cómo puedo obtener soporte para Aspose.Slides para .NET?
-R: Busque ayuda e interactúe con la comunidad en el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+ R: Busque ayuda e interactúe con la comunidad en el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### P: ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
  R: Ciertamente, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).

@@ -50,4 +50,4 @@ Természetesen az Aspose.Slides rendszeresen frissül, hogy biztosítsa a kompat
 ### Vannak ideiglenes licencek tesztelési célokra?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) teszteléshez és értékeléshez.
 ### Hogyan kérhetek segítséget, vagy hogyan léphetek kapcsolatba az Aspose.Slides közösséggel?
- Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11)kérdéseket feltenni, betekintést megosztani, és kapcsolatba lépni más fejlesztőkkel.
+ Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) kérdéseket feltenni, betekintést megosztani, és kapcsolatba lépni más fejlesztőkkel.

@@ -40,7 +40,7 @@ if (!isExists)
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))
 {
-    // Ο κώδικάς σας για την ανάκτηση αποτελεσματικών δεδομένων ελαφριάς εξέδρας βρίσκεται εδώ
+    //Ο κώδικάς σας για την ανάκτηση αποτελεσματικών δεδομένων ελαφριάς εξέδρας βρίσκεται εδώ
 }
 ```
 ## Βήμα 4: Ανάκτηση αποτελεσματικών δεδομένων Light Rig
@@ -61,6 +61,6 @@ Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Slides για .NET;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/net/).
 ### Πώς μπορώ να λάβω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.Slides για .NET;
- Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/slides/11).
+ Επισκεφθείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/slides/11).
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).

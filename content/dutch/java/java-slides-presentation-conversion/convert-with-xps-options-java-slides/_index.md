@@ -101,7 +101,7 @@ Gefeliciteerd! U hebt met succes geleerd hoe u PowerPoint-presentaties in Java n
 
 ### Hoe kan ik Aspose.Slides voor Java downloaden?
 
- kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek[hier](https://releases.aspose.com/slides/java/) om toegang te krijgen tot de downloadlink.
+ U kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek[hier](https://releases.aspose.com/slides/java/) om toegang te krijgen tot de downloadlink.
 
 ### Zijn er licentievereisten voor het gebruik van Aspose.Slides voor Java?
 

@@ -79,7 +79,7 @@ IPPImage imgx = pres.Images.AddImage(img);
 pres.Slides[0].Background.FillFormat.PictureFillFormat.Picture.Image = imgx;
 ```
 
-## Βήμα 5: Αποθηκεύστε την παρουσίαση
+## Βήμα 5: Αποθηκεύστε την Παρουσίαση
 
 Τέλος, αποθηκεύστε την παρουσίαση με τη νέα εικόνα φόντου.
 

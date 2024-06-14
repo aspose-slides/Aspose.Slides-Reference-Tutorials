@@ -21,7 +21,7 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Radar Grafiği oluşturm
 Yeni bir PowerPoint sunusu hazırlayıp ona bir slayt ekleyerek başlayalım.
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -150,7 +150,7 @@ Bu kadar! Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda başarılı
 ## Java Slaytlarında Radar Grafiği Oluşturmak İçin Tam Kaynak Kodu
 
 ```java
-String outPath = RunExamples.getOutPath() + File.separator + "RadarChart_Out.pptx";
+String outPath = "Your Output Directory" + File.separator + "RadarChart_Out.pptx";
 Presentation pres = new Presentation();
 try
 {
@@ -177,7 +177,7 @@ try
 	// Yeni seriler ekleniyor
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), ichart.getType());
 	ichart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), ichart.getType());
-	//Şimdi seri verileri dolduruluyor
+	// Şimdi seri verileri dolduruluyor
 	IChartSeries series = ichart.getChartData().getSeries().get_Item(0);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 2.7));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 2.4));
@@ -188,7 +188,7 @@ try
 	// Seri rengini ayarla
 	series.getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
-	// Şimdi başka bir seri verisi dolduruluyor
+	//Şimdi başka bir seri verisi dolduruluyor
 	series = ichart.getChartData().getSeries().get_Item(1);
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 2.5));
 	series.getDataPoints().addDataPointForRadarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 2.4));
@@ -261,10 +261,10 @@ Evet, eklemek istediğiniz her ek seri için "3. Adım" ve "4. Adım"daki adıml
 series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 ```
 
-### Eksen etiketlerini ve formatını nasıl değiştirebilirim?
+### Eksen etiketlerini ve biçimlendirmesini nasıl değiştirebilirim?
 
 Yazı tipi boyutu ve rengi de dahil olmak üzere eksen etiketlerini ve biçimlendirmeyi özelleştirmek için "5. Adım"a bakın.
 
 ### Grafiği farklı bir dosya biçiminde nasıl kaydederim?
 
- Dosya uzantısını değiştirerek çıktı biçimini değiştirebilirsiniz.`outPath` değişken ve uygun olanı kullanarak`SaveFormat` . Örneğin, PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
+Dosya uzantısını değiştirerek çıktı biçimini değiştirebilirsiniz.`outPath` değişken ve uygun olanı kullanarak`SaveFormat` . Örneğin, PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.

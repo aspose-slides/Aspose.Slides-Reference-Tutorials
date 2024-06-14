@@ -38,7 +38,7 @@ Presentation pres = new Presentation();
 
 ## Adım 2: Slayt Ekleyin ve Dağılım Grafiği Oluşturun
 
- Daha sonra bir slayt ekleyin ve üzerinde dağılım grafiğini oluşturun. biz kullanacağız`ScatterWithSmoothLines` Bu örnekte grafik türü.
+ Daha sonra bir slayt ekleyin ve üzerinde dağılım grafiğini oluşturun. biz kullanacağız`ScatterWithSmoothLines`Bu örnekte grafik türü.
 
 ```java
 // İlk slaydı alın
@@ -112,7 +112,7 @@ if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-// Varsayılan grafiği oluşturma
+//Varsayılan grafiği oluşturma
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 // Varsayılan grafik verileri çalışma sayfası dizinini alma
 int defaultWorksheetIndex = 0;
@@ -158,7 +158,7 @@ Bu eğitimde size Aspose.Slides for Java'yı kullanarak Dağılım Grafiği olu�
 
 ### Grafik türünü nasıl değiştirebilirim?
 
- Grafik türünü değiştirmek için`setType`Grafik serisindeki yöntemi seçin ve istenen grafik türünü sağlayın. Örneğin,`series.setType(ChartType.Line)` seriyi çizgi grafiğine dönüştürür.
+ Grafik türünü değiştirmek için`setType` Grafik serisindeki yöntemi seçin ve istenen grafik türünü sağlayın. Örneğin,`series.setType(ChartType.Line)` seriyi çizgi grafiğine dönüştürür.
 
 ### İşaretçi boyutunu ve stilini nasıl özelleştiririm?
 

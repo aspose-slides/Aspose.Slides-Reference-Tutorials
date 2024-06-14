@@ -48,9 +48,9 @@ Bây giờ, bạn sẽ định cấu hình các tùy chọn chuyển đổi HTML
 
 ```java
 Html5Options options = new Html5Options();
-//Buộc không lưu hình ảnh trong tài liệu HTML5
+// Buộc không lưu hình ảnh trong tài liệu HTML5
 options.setEmbedImages(true); // Đặt thành true để nhúng hình ảnh
-// Đặt đường dẫn cho hình ảnh bên ngoài (nếu cần)
+//Đặt đường dẫn cho hình ảnh bên ngoài (nếu cần)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // Đường dẫn đến bản trình bày nguồn
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // Đường dẫn đến tài liệu HTML
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//Buộc không lưu hình ảnh trong tài liệu HTML5
+	// Buộc không lưu hình ảnh trong tài liệu HTML5
 	options.setEmbedImages(false);
 	// Đặt đường dẫn cho hình ảnh bên ngoài
 	options.setOutputPath(outFilePath);

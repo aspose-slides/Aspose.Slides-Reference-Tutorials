@@ -23,7 +23,7 @@ Aspose.Slides for Java เป็นไลบรารีอันทรงพล
 ## ขั้นตอนที่ 1: สร้างงานนำเสนอ
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -48,7 +48,7 @@ chart.getChartData().getChartDataWorkbook().clear(0);
 ## ขั้นตอนที่ 4: โหลดสมุดงาน Excel
 
 ```java
-Workbook workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+Workbook workbook = new Workbook("Your Document Directory";
 ```
 
  เราโหลดเวิร์กบุ๊ก Excel ที่มีข้อมูลที่เราต้องการใช้สำหรับแผนภูมิ แทนที่`"book1.xlsx"` พร้อมเส้นทางไปยังไฟล์ Excel ของคุณ
@@ -92,14 +92,14 @@ pres.save(outPath, SaveFormat.Pptx);
 ## กรอกซอร์สโค้ดสำหรับตั้งค่าข้อมูลแผนภูมิจากสมุดงานใน Java Slides
 
 ```java
-String outPath = RunExamples.getOutPath() + "response2.pptx";
+String outPath = "Your Output Directory" + "response2.pptx";
 Presentation pres = new Presentation();
 try {
 	IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.Pie, 50, 50, 500, 400);
 	chart.getChartData().getChartDataWorkbook().clear(0);
 	Workbook workbook = null;
 	try {
-		workbook = new Workbook(RunExamples.getDataDir_Charts() + "book1.xlsx");
+		workbook = new Workbook("Your Document Directory";
 	} catch (Exception ex) {
 		System.out.println(ex);
 	}

@@ -19,7 +19,7 @@ Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 Aby rozpocząć, zaimportuj niezbędne pakiety do swojej klasy Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -68,7 +68,7 @@ Tak, możesz dodać wiele linii w kształcie strzałek do jednego slajdu, powtar
 ### Czy Aspose.Slides for Java jest kompatybilny z najnowszymi wersjami programu PowerPoint?
 Aspose.Slides for Java obsługuje kompatybilność z różnymi wersjami programu PowerPoint, zapewniając bezproblemową integrację z prezentacjami.
 ### Czy mogę dostosować kolor linii w kształcie strzałki?
- Tak, możesz dostosować kolor linii w kształcie strzałki, dostosowując`SolidFillColor` właściwość w kodzie.
+Tak, możesz dostosować kolor linii w kształcie strzałki, dostosowując`SolidFillColor` właściwość w kodzie.
 ### Czy Aspose.Slides for Java obsługuje inne kształty oprócz linii?
 Tak, Aspose.Slides for Java zapewnia szeroką obsługę dodawania różnych kształtów, w tym prostokątów, okręgów i wielokątów, do slajdów programu PowerPoint.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides dla Java?

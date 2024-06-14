@@ -70,7 +70,7 @@ dataPoint.getFormat().getFill().setFillType(FillType.Solid);
 dataPoint.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 
 Наконец, сохраните презентацию с картой-диаграммой.
 
@@ -83,7 +83,7 @@ presentation.save(resultPath, SaveFormat.Pptx);
 ## Полный исходный код диаграммы карты в слайдах Java
 
 ```java
-String resultPath = RunExamples.getOutPath() +  "MapChart_out.pptx";
+String resultPath = "Your Output Directory" +  "MapChart_out.pptx";
 Presentation presentation = new Presentation();
 try {
 	//создать пустую диаграмму

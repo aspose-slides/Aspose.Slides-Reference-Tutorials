@@ -100,7 +100,7 @@ Oui, Aspose.Slides est spécialement conçu pour les applications .NET. Si vous 
 
 ### Puis-je cloner des diapositives entre différentes présentations ?
 
-Oui, vous pouvez cloner des diapositives entre différentes présentations en utilisant des techniques similaires. Assurez-vous simplement de charger les présentations source et de destination en conséquence.
+Oui, vous pouvez cloner des diapositives entre différentes présentations en utilisant des techniques similaires. Assurez-vous simplement de charger les présentations source et destination en conséquence.
 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
 

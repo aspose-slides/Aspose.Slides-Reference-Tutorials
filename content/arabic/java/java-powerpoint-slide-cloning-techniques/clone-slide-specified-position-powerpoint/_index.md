@@ -21,13 +21,13 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد دليل البيانات
 ستحتاج إلى دليل لتخزين ملفات PowerPoint الخاصة بك. هذا هو المكان الذي ستقوم فيه بتحميل الملف المصدر الخاص بك وحفظ العرض التقديمي المستنسخ.
 ```java
 // المسار إلى دليل المستندات.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## الخطوة 2: قم بتحميل العرض التقديمي المصدر
 بعد ذلك، سنقوم بتحميل العرض التقديمي المصدر الذي يحتوي على الشريحة التي تريد استنساخها. تعتبر هذه الخطوة حاسمة لأنها بمثابة الأساس لعملية الاستنساخ الخاصة بك.

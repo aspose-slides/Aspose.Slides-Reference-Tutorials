@@ -8,7 +8,7 @@ weight: 23
 url: /hu/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
 ## Bevezetés
- A tetszetős PowerPoint-prezentációk létrehozásához gyakran többre van szükség, mint szabványos formák és szövegek használatára. Képzelje el, hogy testreszabott alakzatokat és szöveges útvonalakat adhat hozzá közvetlenül a diákhoz, így fokozva a bemutató vizuális hatását. Az Aspose.Slides for Java használatával ezt könnyedén elérheti. Ez az oktatóanyag végigvezeti Önt a`ShapeUtil`osztályban geometriai alakzatok létrehozásához PowerPoint prezentációkban. Akár tapasztalt fejlesztő, akár csak most kezdi a tevékenységet, ez a lépésről lépésre bemutatott útmutató segít Önnek kihasználni az Aspose.Slides for Java erejét lenyűgöző, egyedi formájú tartalom létrehozásához.
+ tetszetős PowerPoint-prezentációk létrehozásához gyakran többre van szükség, mint szabványos formák és szövegek használatára. Képzelje el, hogy testreszabott alakzatokat és szöveges útvonalakat adhat hozzá közvetlenül a diákhoz, így fokozva a bemutató vizuális hatását. Az Aspose.Slides for Java használatával ezt könnyedén elérheti. Ez az oktatóanyag végigvezeti Önt a`ShapeUtil` osztályban geometriai alakzatok létrehozásához PowerPoint prezentációkban. Akár tapasztalt fejlesztő, akár csak most kezdi a tevékenységet, ez a lépésről lépésre bemutatott útmutató segít Önnek kihasználni az Aspose.Slides for Java erejét lenyűgöző, egyedi formájú tartalom létrehozásához.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, van néhány dolog, amire szüksége lesz:
 1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK 8 vagy újabb verziója van telepítve a gépére.
@@ -16,10 +16,10 @@ Mielőtt belevágnánk az oktatóanyagba, van néhány dolog, amire szüksége l
 3. Fejlesztési környezet: Használjon bármilyen Java IDE-t, például IntelliJ IDEA, Eclipse vagy NetBeans.
 4.  Ideiglenes licenc: Szerezzen be egy ingyenes ideiglenes licencet innen[Aspose ideiglenes licenc oldala](https://purchase.aspose.com/temporary-license/) az Aspose.Slides for Java teljes funkcionalitásának feloldásához.
 ## Csomagok importálása
-A kezdéshez importálnia kell az Aspose.Slides és a Java AWT (Abstract Window Toolkit) használatához szükséges csomagokat:
+kezdéshez importálnia kell az Aspose.Slides és a Java AWT (Abstract Window Toolkit) használatához szükséges csomagokat:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.awt.Shape;
 import java.awt.font.GlyphVector;
@@ -55,7 +55,7 @@ Kombinálja az eredeti geometriai útvonalat az új szövegalapú geometriai út
 ```java
 shape.setGeometryPaths(new IGeometryPath[]{originalPath, textPath});
 ```
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Végül mentse a módosított prezentációt egy fájlba. Ez egy PowerPoint-fájlt ad ki az egyéni alakzatokkal.
 ```java
 String resultPath = "GeometryShapeUsingShapeUtil.pptx";
@@ -70,7 +70,7 @@ Az Aspose.Slides for Java egy hatékony API a PowerPoint fájlokkal való munkav
 ### Hogyan telepíthetem az Aspose.Slides for Java programot?
  A legújabb verziót letöltheti a[letöltési oldal](https://releases.aspose.com/slides/java/) és adja hozzá a JAR fájlokat a projekthez.
 ### Használhatom ingyenesen az Aspose.Slides-t?
- Az Aspose.Slides ingyenes próbaverziót kínál, amelyet letölthet innen[itt](https://releases.aspose.com/). A teljes funkcionalitás érdekében licencet kell vásárolnia.
+Az Aspose.Slides ingyenes próbaverziót kínál, amelyet letölthet innen[itt](https://releases.aspose.com/)A teljes funkcionalitás érdekében licencet kell vásárolnia.
 ### Mire használható a ShapeUtil osztály?
  A`ShapeUtil` osztály az Aspose.Slides-ben olyan segédmetódusokat biztosít az alakzatokkal való munkavégzéshez, mint például a grafikus útvonalak geometriai útvonalakká alakításához.
 ### Hol kaphatok támogatást az Aspose.Slides-hez?

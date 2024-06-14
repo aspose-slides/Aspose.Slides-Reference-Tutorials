@@ -84,12 +84,12 @@ Dans ce didacticiel, nous avons appris à ajouter des options de deuxième trac�
 
 ### Comment puis-je modifier la taille du deuxième secteur dans un graphique à secteurs ?
 
- Pour modifier la taille du deuxième secteur d'un graphique à secteurs, utilisez l'option`setSecondPieSize` méthode comme indiqué dans l’exemple de code ci-dessus. Ajustez la valeur pour spécifier la taille en pourcentage.
+Pour modifier la taille du deuxième secteur d'un graphique à secteurs, utilisez l'option`setSecondPieSize` méthode comme indiqué dans l’exemple de code ci-dessus. Ajustez la valeur pour spécifier la taille en pourcentage.
 
 ###  Qu'est-ce que`PieSplitBy` control in a Pie of Pie chart?
 
- Le`PieSplitBy` La propriété contrôle la façon dont le graphique à secteurs est divisé. Vous pouvez le définir soit`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` pour diviser le graphique par pourcentage ou par une valeur spécifique, respectivement.
+ Le`PieSplitBy` La propriété contrôle la façon dont le diagramme circulaire est divisé. Vous pouvez le définir soit`PieSplitType.ByPercentage` ou`PieSplitType.ByValue` pour diviser le graphique par pourcentage ou par une valeur spécifique, respectivement.
 
 ### Comment définir la position de la division dans un graphique à secteurs ?
 
-Vous pouvez définir la position de la division dans un graphique à secteurs à l'aide de l'option`setPieSplitPosition` méthode. Ajustez la valeur pour spécifier la position souhaitée.
+ Vous pouvez définir la position de la division dans un graphique à secteurs à l'aide de l'option`setPieSplitPosition` méthode. Ajustez la valeur pour spécifier la position souhaitée.

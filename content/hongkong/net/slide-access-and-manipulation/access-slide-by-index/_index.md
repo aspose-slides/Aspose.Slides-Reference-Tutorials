@@ -81,7 +81,7 @@ ISlide slide = presentation.Slides[slideIndex];
 
 ### Aspose.Slides for .NET 還提供哪些其他功能？
 
-Aspose.Slides for .NET 提供了廣泛的功能，包括從頭開始建立簡報、操作投影片、新增形狀和圖像、應用程式格式設定等等。您可以參考[文件](https://reference.aspose.com/slides/net/)以獲得全面的資訊。
+Aspose.Slides for .NET 提供了廣泛的功能，包括從頭開始建立簡報、操作投影片、新增形狀和圖像、應用程式格式等等。您可以參考[文件](https://reference.aspose.com/slides/net/)以獲得全面的資訊。
 
 ### 我如何了解有關使用 Aspose.Slides 進行 PowerPoint 自動化的更多資訊？
 

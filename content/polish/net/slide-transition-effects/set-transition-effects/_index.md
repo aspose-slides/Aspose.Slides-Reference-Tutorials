@@ -79,7 +79,7 @@ Opcjonalnie możesz dodatkowo dostosować przejście. W tym przykładzie ustawia
 
 ### Krok 5: Zapisz prezentację
 
-Na koniec zapisz prezentację z nowo ustawionymi efektami przejścia w wybranym miejscu.
+Na koniec zapisz prezentację z nowo ustawionymi efektami przejścia w żądanym miejscu.
 
 ```csharp
 presentation.Save(dataDir + "SetTransitionEffects_out.pptx", SaveFormat.Pptx);

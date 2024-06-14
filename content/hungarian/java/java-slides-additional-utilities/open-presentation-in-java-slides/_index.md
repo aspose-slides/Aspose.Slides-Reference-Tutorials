@@ -103,7 +103,7 @@ Igen, használhatja az Aspose.Slides for Java-t kereskedelmi projektjeiben, de e
 
 ### Az Aspose.Slides for Java kompatibilis a különböző Java verziókkal?
 
-Az Aspose.Slides for Java számos Java-verzióval működik együtt. Ügyeljen arra, hogy ellenőrizze a dokumentációban található kompatibilitási információkat az Aspose.Slides Java-környezetének megfelelő verziójának kiválasztásához.
+Az Aspose.Slides for Java számos Java-verzióval működik együtt. Győződjön meg arról, hogy ellenőrizze a dokumentációban található kompatibilitási információkat az Aspose.Slides Java-környezetének megfelelő verziójának kiválasztásához.
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
 

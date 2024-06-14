@@ -19,7 +19,7 @@ Innan vi börjar, se till att du har följande förutsättningar:
 För att börja använda Aspose.Slides måste du importera de nödvändiga paketen. Så här kan du göra det:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -55,7 +55,7 @@ IShape shp = sld.getShapes().addAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);
 ```
  Här,`50, 150, 150, 50` är ellipsens koordinater och storlek (x-position, y-position, bredd, höjd).
 ## Steg 5: Använd formatering på Ellipsen
-Använd nu lite formatering på ellipsen. Vi ställer in en enfärgad fyllningsfärg och en linjefärg.
+Applicera nu lite formatering på ellipsen. Vi ställer in en enfärgad fyllningsfärg och en linjefärg.
 ### Ställ in fyllningsfärg
 ```java
 // Använd lite formatering på ellipsform
@@ -90,8 +90,8 @@ Aspose.Slides för Java är ett kraftfullt bibliotek som låter utvecklare skapa
 ### Kan jag använda Aspose.Slides för Java med vilken IDE som helst?
 Ja, du kan använda Aspose.Slides för Java med vilken Java IDE som helst som IntelliJ IDEA, Eclipse eller NetBeans.
 ### Behöver jag en licens för Aspose.Slides?
- Ja, Aspose.Slides är en kommersiell produkt och du behöver en licens för full funktionalitet. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+Ja, Aspose.Slides är en kommersiell produkt och du behöver en licens för full funktionalitet. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta mer dokumentation om Aspose.Slides för Java?
-Du kan hitta detaljerad dokumentation på Aspose.Slides för Java[dokumentationssida](https://reference.aspose.com/slides/java/).
+ Du kan hitta detaljerad dokumentation på Aspose.Slides för Java[dokumentationssida](https://reference.aspose.com/slides/java/).
 ### Finns det stöd tillgängligt för Aspose.Slides?
  Ja, Aspose erbjuder support genom deras[forum](https://forum.aspose.com/c/slides/11).

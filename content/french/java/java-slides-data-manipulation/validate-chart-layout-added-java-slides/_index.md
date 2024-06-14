@@ -10,7 +10,7 @@ url: /fr/java/data-manipulation/validate-chart-layout-added-java-slides/
 
 ## Introduction à la validation de la disposition des graphiques dans Aspose.Slides pour Java
 
-Dans ce didacticiel, nous explorerons comment valider la disposition du graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programmation, ce qui facilite la manipulation et la validation de divers éléments, notamment des graphiques.
+Dans ce didacticiel, nous explorerons comment valider la disposition du graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Cette bibliothèque vous permet de travailler avec des présentations PowerPoint par programmation, ce qui facilite la manipulation et la validation de divers éléments, y compris les graphiques.
 
 ## Étape 1 : initialisation de la présentation
 
@@ -32,7 +32,7 @@ Chart chart = (Chart) pres.getSlides().get_Item(0).getShapes().addChart(ChartTyp
 
 ## Étape 3 : validation de la mise en page du graphique
 
- Maintenant, nous allons valider la présentation du graphique à l'aide du`validateChartLayout()` méthode. Cela garantit que le graphique est correctement disposé dans la diapositive.
+ Maintenant, nous allons valider la disposition du graphique à l'aide du`validateChartLayout()` méthode. Cela garantit que le graphique est correctement disposé dans la diapositive.
 
 ```java
 chart.validateChartLayout();

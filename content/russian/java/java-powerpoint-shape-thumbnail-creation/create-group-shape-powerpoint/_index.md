@@ -12,17 +12,17 @@ url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerp
 ## Предварительные условия
 Прежде чем приступить к изучению руководства, убедитесь, что у вас настроены следующие предварительные условия:
 1. Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK.
-2.  Библиотека Aspose.Slides для Java: Загрузите и включите библиотеку Aspose.Slides для Java в свой проект. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
+2. Библиотека Aspose.Slides для Java: Загрузите и включите библиотеку Aspose.Slides для Java в свой проект. Вы можете скачать его с[здесь](https://releases.aspose.com/slides/java/).
 3. Интегрированная среда разработки (IDE): выберите предпочитаемую Java IDE, например IntelliJ IDEA или Eclipse.
 
 ## Импортировать пакеты
 Для начала импортируйте необходимые пакеты для использования функций Aspose.Slides for Java:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте среду
- Убедитесь, что для вашего проекта настроен каталог, в котором вы можете создавать и сохранять презентации PowerPoint. Заменять`"Your Document Directory"`с путем к желаемому каталогу.
+ Убедитесь, что для вашего проекта настроен каталог, в котором вы можете создавать и сохранять презентации PowerPoint. Заменять`"Your Document Directory"` с путем к желаемому каталогу.
 ```java
 String dataDir = "Your Document Directory";
 ```
@@ -55,7 +55,7 @@ groupShape.getShapes().addAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
 ```java
 groupShape.setFrame(new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0));
 ```
-## Шаг 7. Сохраните презентацию
+## Шаг 7: Сохраните презентацию
 Сохраните презентацию PowerPoint в указанном каталоге.
 ```java
 pres.save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);

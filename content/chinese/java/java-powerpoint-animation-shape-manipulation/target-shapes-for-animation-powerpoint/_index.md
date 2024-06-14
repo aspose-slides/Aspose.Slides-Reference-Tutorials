@@ -21,7 +21,7 @@ url: /zh/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-ani
 import com.aspose.slides.IEffect;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## 步骤 1：设置演示文件
 首先指定源演示文稿文件的路径：

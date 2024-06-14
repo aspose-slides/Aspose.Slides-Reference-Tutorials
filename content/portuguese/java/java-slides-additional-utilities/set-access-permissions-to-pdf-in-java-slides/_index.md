@@ -91,7 +91,7 @@ Neste tutorial, cobrimos o processo de configuração de permissões de acesso a
 
 ### Posso definir permissões diferentes para usuários diferentes?
 
- Sim, você pode definir diferentes permissões de acesso para diferentes usuários personalizando o`PdfOptions` de acordo. Isso permite controlar quem pode realizar ações específicas no documento PDF.
+ Sim, você pode definir diferentes permissões de acesso para diferentes usuários personalizando o`PdfOptions` de acordo. Isso permite controlar quem pode executar ações específicas no documento PDF.
 
 ### Existe uma maneira de remover as permissões de acesso de um documento PDF?
 

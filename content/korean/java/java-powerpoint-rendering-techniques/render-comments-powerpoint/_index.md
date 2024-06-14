@@ -9,7 +9,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 주석을 렌더링하는 과정을 안내합니다. 주석 렌더링은 주석이 포함된 프리젠테이션의 이미지 미리 보기 생성과 같은 다양한 목적에 유용할 수 있습니다.
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 사항이 있는지 확인하세요.
 1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
 2.  Aspose.Slides for Java: 다음에서 Aspose.Slides for Java 라이브러리를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/slides/java/).
@@ -18,7 +18,7 @@ url: /ko/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 Java 코드에 필요한 패키지를 가져오는 것부터 시작하세요.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;

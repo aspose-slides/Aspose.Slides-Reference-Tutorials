@@ -12,7 +12,7 @@ url: /ko/net/presentation-conversion/how-to-convert-individual-presentation-slid
 
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있도록 하는 기능이 풍부한 라이브러리입니다. 다양한 형식의 프리젠테이션 파일을 생성, 조작 및 변환할 수 있는 광범위한 클래스 및 메서드 세트를 제공합니다.
 
-## 전제조건
+## 전제 조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 -  .NET용 Aspose.Slides: 개발 환경에 .NET용 Aspose.Slides가 설치 및 구성되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/slides/net/).

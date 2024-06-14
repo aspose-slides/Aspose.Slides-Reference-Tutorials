@@ -65,7 +65,7 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 Agregar formas esbozadas a las diapositivas de tu presentación puede mejorar el atractivo visual y atraer a tu audiencia. Con Aspose.Slides para .NET, el proceso se vuelve sencillo y le permite dar rienda suelta a su creatividad sin esfuerzo.
 ## Preguntas frecuentes
 ### 1. ¿Puedo personalizar el efecto del boceto?
-Sí, Aspose.Slides para .NET ofrece varias opciones de personalización para efectos de boceto. Referirse a[documentación](https://reference.aspose.com/slides/net/) para obtener información detallada.
+ Sí, Aspose.Slides para .NET ofrece varias opciones de personalización para efectos de boceto. Referirse a[documentación](https://reference.aspose.com/slides/net/) para obtener información detallada.
 ### 2. ¿Hay una prueba gratuita disponible?
  ¡Ciertamente! Puede explorar una prueba gratuita de Aspose.Slides para .NET[aquí](https://releases.aspose.com/).
 ### 3. ¿Dónde puedo obtener ayuda?

@@ -42,7 +42,7 @@ Aspose.Slides for Java'yı kullanarak, Java Slides'daki ayrı açıklamalar içi
 ### [Java Slaytlarındaki Grafikteki Bilgileri Gizle](./hide-information-chart-java-slides/)
 Aspose.Slides for Java ile Java Slides'ta grafik öğelerini nasıl gizleyeceğinizi öğrenin. Adım adım rehberlik ve kaynak koduyla sunumlarınızı netlik ve estetik açısından özelleştirin.
 ### [Java Slaytlarında Açıklama Özel Seçeneklerini Ayarlama](./set-legend-custom-options-java-slides/)
-Aspose.Slides for Java'yı kullanarak Java Slides'ta özel açıklama seçeneklerini nasıl ayarlayacağınızı öğrenin. PowerPoint grafiklerinizde açıklama konumunu ve boyutunu özelleştirin.
+Aspose.Slides for Java'yı kullanarak Java Slides'ta özel gösterge seçeneklerini nasıl ayarlayacağınızı öğrenin. PowerPoint grafiklerinizde açıklama konumunu ve boyutunu özelleştirin.
 ### [Java Slaytlarında Yazı Tipi Özelliklerini Ayarlama](./setting-font-properties-java-slides/)
 Aspose.Slides for Java'yı kullanarak Java slaytlarında yazı tipi özelliklerini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuz, kod örneklerini ve SSS'leri içerir.
 ### [Java Slaytlarında Konum Eksenini Ayarlama](./setting-position-axis-java-slides/)

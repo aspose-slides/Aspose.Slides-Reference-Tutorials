@@ -21,7 +21,7 @@ url: /ar/java/presentation-properties/presentation-slide-show-setup-in-java-slid
 أولاً، نحتاج إلى إنشاء عرض تقديمي جديد لبرنامج PowerPoint. إليك كيفية القيام بذلك في جافا:
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -90,7 +90,7 @@ pres.save(outPptxPath, SaveFormat.Pptx);
 ## أكمل كود المصدر لإعداد عرض شرائح العرض التقديمي في شرائح Java
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "PresentationSlideShowSetup.pptx";
+String outPptxPath = "Your Output Directory" + "PresentationSlideShowSetup.pptx";
 Presentation pres = new Presentation();
 try {
 	// يحصل على إعدادات عرض الشرائح

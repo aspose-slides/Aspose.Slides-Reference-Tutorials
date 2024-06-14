@@ -10,7 +10,7 @@ url: /ko/net/slide-background-manipulation/set-image-as-background/
 
 프레젠테이션 디자인 및 자동화 분야에서 Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 쉽게 조작할 수 있게 해주는 강력하고 다재다능한 도구입니다. 맞춤형 보고서를 작성하든, 멋진 프레젠테이션을 작성하든, 슬라이드 생성을 자동화하든 Aspose.Slides for .NET은 귀중한 자산입니다. 이 단계별 가이드에서는 이 놀라운 라이브러리를 사용하여 이미지를 슬라이드 배경으로 설정하는 방법을 보여 드리겠습니다.
 
-## 전제조건
+## 전제 조건
 
 단계별 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

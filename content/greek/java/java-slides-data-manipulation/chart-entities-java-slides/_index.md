@@ -77,7 +77,7 @@ chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3
 Έχετε τον έλεγχο της μορφής αριθμών, των μέγιστων και ελάχιστων τιμών του άξονα τιμών. Δείτε πώς μπορείτε να το προσαρμόσετε:
 
 ```java
-// Ρύθμιση τιμής μορφής αριθμού άξονα
+// Ορισμός μορφής αριθμού άξονα τιμής
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
@@ -115,7 +115,7 @@ chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillF
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
 
-//Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
+// Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -182,7 +182,7 @@ try
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
 	chart.getAxes().getVerticalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
-	// Ρύθμιση τιμής μορφής αριθμού άξονα
+	// Ορισμός μορφής αριθμού άξονα τιμής
 	chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 	chart.getAxes().getVerticalAxis().setDisplayUnit(DisplayUnitType.Thousands);
 	chart.getAxes().getVerticalAxis().setNumberFormat("0.0%");
@@ -221,7 +221,7 @@ try
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
 	chart.getAxes().getHorizontalAxis().getMajorGridLinesFormat().getLine().setWidth(5);
-	//Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
+	// Ρύθμιση της μορφής γραμμών δευτερεύοντος πλέγματος για τον άξονα κατηγορίας
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 	chart.getAxes().getHorizontalAxis().getMinorGridLinesFormat().getLine().setWidth(3);
@@ -257,14 +257,14 @@ try
 	// Ορίστε θρύλους εμφάνισης γραφημάτων χωρίς επικαλυπτόμενο γράφημα
 	chart.getLegend().setOverlay(true);
 	// Σχεδίαση πρώτης σειράς σε άξονα δευτερεύουσας τιμής
-	//Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
+	// Chart.getChartData().getSeries().get_Item(0).PlotOnSecondAxis = true;
 	// Ρύθμιση χρώματος πίσω τοίχου γραφήματος
 	chart.getBackWall().setThickness(1);
 	chart.getBackWall().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getBackWall().getFormat().getFill().getSolidFillColor().setColor(Color.ORANGE);
 	chart.getFloor().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getFloor().getFormat().getFill().getSolidFillColor().getColor();
-	// Ρύθμιση χρώματος περιοχής γραφήματος
+	//Ρύθμιση χρώματος περιοχής γραφήματος
 	chart.getPlotArea().getFormat().getFill().setFillType(FillType.Solid);
 	chart.getPlotArea().getFormat().getFill().getSolidFillColor().setColor(new Color(PresetColor.LightCyan));
 	// Αποθήκευση παρουσίασης

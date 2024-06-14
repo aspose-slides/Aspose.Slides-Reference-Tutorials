@@ -49,7 +49,7 @@ Obtenha o primeiro slide da apresentação onde deseja adicionar o gráfico de p
 ## Etapa 4: adicionar um gráfico de pizza
 
 ```java
-//Adicione um gráfico de pizza com dados padrão
+// Adicione um gráfico de pizza com dados padrão
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ Defina um título para o gráfico de pizza. Você pode personalizar o título co
 ## Etapa 6: personalizar os dados do gráfico
 
 ```java
-// Defina a primeira série para mostrar valores
+//Defina a primeira série para mostrar valores
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // Configurando o índice da planilha de dados do gráfico
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // Adicionando nova série
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//Agora preenchendo dados de série
+// Agora preenchendo dados de série
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

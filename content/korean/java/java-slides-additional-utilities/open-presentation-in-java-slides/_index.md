@@ -12,7 +12,7 @@ url: /ko/java/additional-utilities/open-presentation-in-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java 라이브러리를 사용하여 PowerPoint 프레젠테이션을 여는 방법을 알아봅니다. Aspose.Slides는 Microsoft PowerPoint 파일 작업을 위한 강력한 Java API입니다. 프로세스를 단계별로 살펴보고 Java 소스 코드 예제를 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 설정되어 있는지 확인하세요. 웹사이트에서 라이브러리를 다운로드하고 설치 지침을 따를 수 있습니다.
 

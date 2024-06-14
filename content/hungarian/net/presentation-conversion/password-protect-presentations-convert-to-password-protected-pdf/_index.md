@@ -43,7 +43,7 @@ pdfOptions.Password = "password";
 
 ## 4. lépés: Mentés jelszóval védett PDF-ként
 
- Most készen áll arra, hogy prezentációját jelszóval védett PDF-fájlként mentse. Cserélje ki`"Your Output Directory"` azzal az elérési úttal, ahová menteni szeretné a PDF-et és`"PasswordProtectedPDF_out.pdf"` a kívánt kimeneti fájlnévvel.
+ Most már készen áll arra, hogy prezentációját jelszóval védett PDF-fájlként mentse. Cserélje ki`"Your Output Directory"` azzal az elérési úttal, ahová a PDF-et menteni szeretné, és`"PasswordProtectedPDF_out.pdf"` a kívánt kimeneti fájlnévvel.
 
 ```csharp
 string outPath = "Your Output Directory";

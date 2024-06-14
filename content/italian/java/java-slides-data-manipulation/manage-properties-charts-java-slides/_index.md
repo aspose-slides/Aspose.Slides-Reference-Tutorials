@@ -14,7 +14,7 @@ In questo tutorial esploreremo come gestire le proprietà e creare grafici nelle
 
 ## Prerequisiti
 
- Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
+Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo progetto. Puoi scaricarlo da[Qui](https://releases.aspose.com/slides/java/).
 
 ## Aggiunta di un grafico a una diapositiva
 
@@ -160,7 +160,7 @@ chart.getRotation3D().setRotationY(270);
 chart.getRotation3D().setDepthPercents(150);
 // Prendi la seconda serie di grafici
 IChartSeries series = chart.getChartData().getSeries().get_Item(1);
-//Ora popolano i dati delle serie
+// Ora popolano i dati delle serie
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
@@ -181,7 +181,7 @@ In questo tutorial, abbiamo approfondito il mondo della gestione delle propriet�
 
 ### Come posso cambiare il tipo di grafico?
 
- È possibile modificare il tipo di grafico modificando il file`ChartType`parametro quando si aggiunge il grafico. Fare riferimento alla documentazione di Aspose.Slides per i tipi di grafici disponibili.
+ È possibile modificare il tipo di grafico modificando il file`ChartType` parametro quando si aggiunge il grafico. Fare riferimento alla documentazione di Aspose.Slides per i tipi di grafici disponibili.
 
 ### Posso personalizzare i colori del grafico?
 

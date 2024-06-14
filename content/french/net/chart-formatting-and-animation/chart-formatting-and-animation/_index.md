@@ -84,7 +84,7 @@ using (Presentation presentation = new Presentation("Your Document Directory\\Ex
 }
 ```
 
-### Étape 2 : Ajouter une animation à la série
+### Étape 2 : ajouter une animation à la série
 
 Maintenant, ajoutons une animation à la série de graphiques. Nous utilisons également ici un effet de fondu.
 

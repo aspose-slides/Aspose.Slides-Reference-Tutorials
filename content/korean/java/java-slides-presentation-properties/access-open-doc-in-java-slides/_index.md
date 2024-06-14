@@ -12,7 +12,7 @@ url: /ko/java/presentation-properties/access-open-doc-in-java-slides/
 
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 API입니다. 이 단계별 가이드에서는 Aspose.Slides를 사용하여 Java에서 ODP(Open Document Presentation) 파일에 액세스하고 조작하는 방법을 살펴보겠습니다. ODP 파일을 열고 PPTX 형식으로 저장하는 과정을 살펴보겠습니다. 이 튜토리얼을 마치면 Java 애플리케이션에서 이러한 작업을 원활하게 수행하는 방법을 알게 될 것입니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

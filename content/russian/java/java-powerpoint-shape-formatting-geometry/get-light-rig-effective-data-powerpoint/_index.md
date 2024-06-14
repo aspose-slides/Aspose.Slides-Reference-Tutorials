@@ -20,7 +20,7 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Настройте каталог проекта
 Начните с настройки каталога вашего проекта. Создайте папку, в которой вы будете хранить файлы Java и презентацию PowerPoint (`Presentation1.pptx`).

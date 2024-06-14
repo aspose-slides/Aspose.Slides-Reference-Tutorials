@@ -8,7 +8,7 @@ weight: 13
 url: /fr/java/chart-creation/tree-map-chart-java-slides/
 ---
 
-## Introduction au graphique arborescent dans les diapositives Java
+## Introduction au graphique arborescent dans Java Slides
 
 Dans ce didacticiel, nous montrerons comment créer un graphique Tree Map dans une présentation PowerPoint à l'aide de la bibliothèque Aspose.Slides pour Java. Les graphiques Tree Map sont un moyen efficace de visualiser des données hiérarchiques.
 
@@ -143,7 +143,7 @@ Dans ce didacticiel, vous avez appris à créer un graphique Tree Map dans une p
 
 ### Comment puis-je personnaliser l’apparence du graphique Tree Map ?
 
- Vous pouvez personnaliser l'apparence du graphique Tree Map en modifiant diverses propriétés du`chart` et`series` objets, tels que les couleurs, les étiquettes et les mises en page.
+ Vous pouvez personnaliser l'apparence du graphique Tree Map en modifiant diverses propriétés du`chart` et`series`objets, tels que les couleurs, les étiquettes et les mises en page.
 
 ### Puis-je créer plusieurs graphiques Tree Map dans une seule présentation ?
 

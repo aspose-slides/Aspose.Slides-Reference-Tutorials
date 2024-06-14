@@ -137,7 +137,7 @@ presentation.save("NewPasswordProtectedPDF.pdf", SaveFormat.Pdf, newPdfOptions);
 
 ### 使用 Aspose.Slides 对 PDF 进行密码保护有什么限制吗？
 
-Aspose.Slides 提供强大的 PDF 密码保护功能。但是，需要注意的是，受密码保护的 PDF 的安全性取决于密码本身的强度。选择一个强大的、独特的密码来增强安全性。
+Aspose.Slides 提供强大的 PDF 密码保护功能。但是，需要注意的是，受密码保护的 PDF 的安全性取决于密码本身的强度。选择一个强大而独特的密码来增强安全性。
 
 ### 我可以自动执行这个过程以进行多个演示吗？
 

@@ -9,7 +9,7 @@ url: /ko/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
 ## 소개
 역동적인 프레젠테이션 세계에서 멀티미디어 요소를 통합하면 참여도가 크게 향상될 수 있습니다. .NET용 Aspose.Slides는 내장된 비디오 프레임을 프레젠테이션 슬라이드에 통합하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 원활한 경험을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Slides: 다음에서 라이브러리를 다운로드하고 설치하세요.[릴리스 페이지](https://releases.aspose.com/slides/net/).
 - 미디어 콘텐츠: 프레젠테이션에 포함하려는 비디오 파일(예: "Wildlife.mp4")이 있습니다.

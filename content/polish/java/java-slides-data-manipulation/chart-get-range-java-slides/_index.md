@@ -75,7 +75,7 @@ finally
 
 ## Wniosek
 
-tym przewodniku dowiedzieliśmy się, jak uzyskać zakres wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Omówiliśmy konfigurowanie środowiska, tworzenie prezentacji, dodawanie wykresu i uzyskiwanie zakresu. Możesz teraz wykorzystać tę wiedzę w swoich projektach Java Slides, aby efektywnie uzyskać dostęp do zakresów wykresów.
+W tym przewodniku dowiedzieliśmy się, jak uzyskać zakres wykresu w aplikacji Java Slides za pomocą interfejsu API Aspose.Slides for Java. Omówiliśmy konfigurowanie środowiska, tworzenie prezentacji, dodawanie wykresu i uzyskiwanie zakresu. Możesz teraz wykorzystać tę wiedzę w swoich projektach Java Slides, aby efektywnie uzyskać dostęp do zakresów wykresów.
 
 ## Często zadawane pytania
 

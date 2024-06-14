@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Calibri 및 Arial과 같은 기본 프레젠테이션 글꼴 제외
+    // Calibri 및 Arial과 같은 기본 프레젠테이션 글꼴 제외
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ try {
 
 -  다음을 사용하여 입력 PowerPoint 프레젠테이션을 로드합니다.`Presentation`.
 
-- 우리는 글꼴 목록을 정의합니다(`fontNameExcludeList`) HTML에 삽입하지 않으려는 항목입니다. 이는 Calibri 및 Arial과 같은 일반적인 글꼴을 제외하여 파일 크기를 줄이는 데 유용합니다.
+- 우리는 글꼴 목록을 정의합니다(`fontNameExcludeList`HTML에 삽입하지 않으려는 항목입니다. 이는 Calibri 및 Arial과 같은 일반적인 글꼴을 제외하여 파일 크기를 줄이는 데 유용합니다.
 
 -  우리는`EmbedAllFontsHtmlController` 글꼴 제외 목록을 전달합니다.
 
@@ -98,7 +98,7 @@ finally
 
 ### Java용 Aspose.Slides를 어떻게 다운로드하나요?
 
-Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[여기](https://downloads.aspose.com/slides/java/) 최신 버전을 얻으려면.
+ Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다. 방문하다[여기](https://downloads.aspose.com/slides/java/) 최신 버전을 얻으려면.
 
 ### 제외된 글꼴 목록을 사용자 정의할 수 있나요?
 

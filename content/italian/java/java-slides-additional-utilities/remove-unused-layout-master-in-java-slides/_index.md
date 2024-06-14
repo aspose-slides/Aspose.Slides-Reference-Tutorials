@@ -84,7 +84,7 @@ Questo codice stamperà i conteggi aggiornati nella presentazione, mostrando che
 ## Codice sorgente completo per rimuovere il layout master inutilizzato nelle diapositive Java
 
 ```java
-        String pptxFileName = RunExamples.getDataDir_Slides_Presentations_LowCode() + "MultipleMaster.pptx";
+        String pptxFileName = "Your Document Directory";
         Presentation pres = new Presentation(pptxFileName);
         try {
             System.out.println("Master slides number in source presentation = " + pres.getMasters().size());

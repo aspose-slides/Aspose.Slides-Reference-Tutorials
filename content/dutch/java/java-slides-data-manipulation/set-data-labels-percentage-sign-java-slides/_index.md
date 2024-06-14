@@ -44,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 2
 Om percentages weer te geven, moeten we de getalnotatie voor de verticale as van het diagram configureren.
 
 ```java
-//Stel NumberFormatLinkedToSource in op false
+// Stel NumberFormatLinkedToSource in op false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
@@ -116,7 +116,7 @@ Presentation presentation = new Presentation();
 ISlide slide = presentation.getSlides().get_Item(0);
 // Voeg PercentsStackedColumn-diagram toe aan een dia
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-//Stel NumberFormatLinkedToSource in op false
+// Stel NumberFormatLinkedToSource in op false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
@@ -171,7 +171,7 @@ Door deze handleiding te volgen, heeft u geleerd hoe u boeiende presentaties kun
 
 ### Kan ik de lettergrootte van de gegevenslabels aanpassen?
 
- Ja, u kunt de lettergrootte van gegevenslabels aanpassen door de`setFontHeight` eigenschap zoals gedemonstreerd in de code.
+Ja, u kunt de lettergrootte van gegevenslabels aanpassen door de`setFontHeight` eigenschap zoals gedemonstreerd in de code.
 
 ### Hoe kan ik meer series aan het diagram toevoegen?
 

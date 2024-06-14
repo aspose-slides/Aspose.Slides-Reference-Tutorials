@@ -127,13 +127,13 @@ A je to! Pomocí Aspose.Slides for Java jste vytvořili spojnicový graf s vých
 ```
 ## Závěr
 
-tomto obsáhlém tutoriálu jste se naučili, jak vytvořit snímky Java s výchozími značkami v grafech pomocí Aspose.Slides for Java. Pokryli jsme celý proces, od nastavení prezentace až po přizpůsobení vzhledu grafu a uložení výsledku.
+V tomto obsáhlém tutoriálu jste se naučili, jak vytvořit snímky Java s výchozími značkami v grafech pomocí Aspose.Slides for Java. Pokryli jsme celý proces, od nastavení prezentace až po přizpůsobení vzhledu grafu a uložení výsledku.
 
 ## FAQ
 
 ### Jak mohu změnit symboly značek?
 
- Symboly značek můžete přizpůsobit nastavením stylu značek pro každý datový bod. Použití`IDataPoint.setMarkerStyle()` pro změnu symbolu značky.
+Symboly značek můžete přizpůsobit nastavením stylu značek pro každý datový bod. Použití`IDataPoint.setMarkerStyle()` pro změnu symbolu značky.
 
 ### Jak upravím barvy grafu?
 

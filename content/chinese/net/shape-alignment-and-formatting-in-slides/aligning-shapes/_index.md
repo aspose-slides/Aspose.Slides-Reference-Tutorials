@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
     //创建一些形状
-    //...
+    // ...
 }
 ```
 ## 步骤 2：对齐幻灯片中的形状

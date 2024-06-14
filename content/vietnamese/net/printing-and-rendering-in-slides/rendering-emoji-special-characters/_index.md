@@ -11,7 +11,7 @@ url: /vi/net/printing-and-rendering-in-slides/rendering-emoji-special-characters
 Trong thế giới năng động của các bài thuyết trình, việc truyền tải cảm xúc và các ký tự đặc biệt có thể tạo thêm nét sáng tạo và độc đáo. Aspose.Slides for .NET trao quyền cho các nhà phát triển hiển thị liền mạch các biểu tượng cảm xúc và ký tự đặc biệt trong bản trình bày của họ, mở ra một chiều hướng biểu đạt mới. Trong hướng dẫn này, chúng ta sẽ khám phá cách đạt được điều này với hướng dẫn từng bước bằng cách sử dụng Aspose.Slides.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
-- Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/slides/net/).
+-  Aspose.Slides for .NET: Đảm bảo rằng bạn đã cài đặt thư viện. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/slides/net/).
 - Môi trường phát triển: Cài đặt môi trường phát triển .NET đang hoạt động trên máy của bạn.
 - Trình bày đầu vào: Chuẩn bị một file PowerPoint (`input.pptx`) chứa nội dung bạn muốn làm phong phú bằng biểu tượng cảm xúc.
 - Thư mục Tài liệu: Thiết lập thư mục cho tài liệu của bạn và thay thế "Thư mục Tài liệu của Bạn" trong mã bằng đường dẫn thực tế.

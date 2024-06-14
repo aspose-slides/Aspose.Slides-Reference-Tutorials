@@ -86,7 +86,7 @@ Aspose.Slides för .NET förenklar processen med att generera miniatyrbilder i d
 
 Oavsett om du bygger ett presentationshanteringssystem eller förbättrar dina affärspresentationer, ger Aspose.Slides för .NET dig möjlighet att arbeta med PowerPoint-dokument effektivt. Prova det och förbättra din applikations kapacitet.
 
- Om du har några frågor eller behöver ytterligare hjälp kan du alltid vända dig till[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till Aspose-communityt på deras[supportforum](https://forum.aspose.com/).
+ Om du har några frågor eller behöver ytterligare hjälp kan du alltid vända dig till[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) eller nå ut till Aspose-gemenskapen på deras[supportforum](https://forum.aspose.com/).
 
 ---
 

@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation())
     //स्लाइड पृष्ठभूमि संशोधन के लिए आपका कोड यहां जाएगा।
     // हम अगले चरणों में इसका पता लगाएंगे।
     
-    // संशोधित प्रस्तुति सहेजें
+    //संशोधित प्रस्तुति सहेजें
     pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -90,7 +90,7 @@ pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ## चरण 6: संशोधित प्रस्तुति को सहेजें
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ```
 

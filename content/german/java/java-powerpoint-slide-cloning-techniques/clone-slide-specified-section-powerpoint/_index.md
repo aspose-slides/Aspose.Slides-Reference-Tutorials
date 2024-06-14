@@ -12,18 +12,18 @@ Möchten Sie Ihren Erstellungsprozess für PowerPoint-Präsentationen optimieren
 ## Voraussetzungen
 Bevor wir uns in das Tutorial vertiefen, wollen wir die Voraussetzungen klären. Wenn Sie sicherstellen, dass alles vorhanden ist, läuft der Prozess reibungsloser und effizienter.
 ### Java-Entwicklungsumgebung
- Stellen Sie zunächst sicher, dass Sie eine Java-Entwicklungsumgebung eingerichtet haben. Sie müssen JDK (Java Development Kit) auf Ihrem Computer installiert haben. Sie können es hier herunterladen:[Website von Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+Stellen Sie zunächst sicher, dass Sie eine Java-Entwicklungsumgebung eingerichtet haben. Sie müssen JDK (Java Development Kit) auf Ihrem Computer installiert haben. Sie können es hier herunterladen:[Website von Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### Aspose.Slides für die Java-Bibliothek
  Laden Sie als nächstes die Bibliothek Aspose.Slides für Java herunter. Sie erhalten sie von der[Aspose.Slides-Downloadseite](https://releases.aspose.com/slides/java/). Diese Bibliothek bietet alle notwendigen Tools, um PowerPoint-Präsentationen programmgesteuert zu bearbeiten.
 ### Entwicklungs-IDE
 Die Verwendung einer integrierten Entwicklungsumgebung (IDE) wie IntelliJ IDEA, Eclipse oder NetBeans vereinfacht Ihren Entwicklungsprozess. Stellen Sie sicher, dass Ihre IDE für die Arbeit mit Java konfiguriert ist.
 ### Aspose Lizenz
- Für die volle Funktionalität benötigen Sie möglicherweise eine Lizenz für Aspose.Slides. Sie können eine erwerben[Hier](https://purchase.aspose.com/buy) Alternativ können Sie sich bewerben für ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/)um die Funktionen auszuprobieren, bevor Sie sich festlegen.
+ Für die volle Funktionalität benötigen Sie möglicherweise eine Lizenz für Aspose.Slides. Sie können eine erwerben[Hier](https://purchase.aspose.com/buy) Alternativ können Sie sich bewerben für ein[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) um die Funktionen auszuprobieren, bevor Sie sich festlegen.
 ## Pakete importieren
 Bevor Sie den Code schreiben, müssen Sie die erforderlichen Pakete aus Aspose.Slides importieren. So können Sie das tun:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Lassen Sie uns nun den Prozess in überschaubare Schritte unterteilen. Befolgen Sie jeden Schritt sorgfältig, um das gewünschte Ergebnis zu erzielen.
 ## Schritt 1: Einrichten des Datenverzeichnisses
@@ -48,7 +48,7 @@ presentation.getSections().addSection("Section 1", presentation.getSlides().get_
 ISection section2 = presentation.getSections().appendEmptySection("Section 2");
 ```
 ## Schritt 5: Folie in den angegebenen Bereich klonen
-Der Kern dieses Tutorials besteht darin, die Folie in einen bestimmten Abschnitt zu klonen. Verwenden Sie die`addClone` Methode zum Klonen der ersten Folie in den zweiten Abschnitt.
+ Der Kern dieses Tutorials besteht darin, die Folie in einen bestimmten Abschnitt zu klonen. Verwenden Sie die`addClone` Methode zum Klonen der ersten Folie in den zweiten Abschnitt.
 ```java
 presentation.getSlides().addClone(presentation.getSlides().get_Item(0), section2);
 ```

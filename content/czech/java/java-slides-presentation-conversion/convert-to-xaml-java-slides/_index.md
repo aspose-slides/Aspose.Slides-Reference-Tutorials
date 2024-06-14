@@ -96,7 +96,7 @@ V tomto kroku nastavíme vlastní spořič výstupu, provedeme převod a uloží
 
 ```java
 	// Cesta ke zdrojové prezentaci
-	String presentationFileName = RunExamples.getDataDir_Conversion() + "XamlEtalon.pptx";
+	String presentationFileName = "Your Document Directory";
 	Presentation pres = new Presentation(presentationFileName);
 	try {
 		// Vytvořte možnosti převodu
@@ -109,7 +109,7 @@ V tomto kroku nastavíme vlastní spořič výstupu, provedeme převod a uloží
 		pres.save(xamlOptions);
 		// Uložte soubory XAML do výstupního adresáře
 		for (Map.Entry<String, String> pair : newXamlSaver.getResults().entrySet()) {
-			FileWriter writer = new FileWriter(RunExamples.getOutPath() + pair.getKey(), true);
+			FileWriter writer = new FileWriter("Your Output Directory" + pair.getKey(), true);
 			writer.append(pair.getValue());
 			writer.close();
 		}

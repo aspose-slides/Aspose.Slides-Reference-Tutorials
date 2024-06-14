@@ -101,7 +101,7 @@ slides.RemoveAt(slideIndex);
 प्रेजेंटेशन में बदलाव करने के बाद, आप संशोधनों को सहेजना चाहेंगे। संशोधित प्रेजेंटेशन को सहेजने का तरीका इस प्रकार है:
 
 ```csharp
-// संशोधित प्रस्तुति सहेजें
+//संशोधित प्रस्तुति सहेजें
 presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ```
 

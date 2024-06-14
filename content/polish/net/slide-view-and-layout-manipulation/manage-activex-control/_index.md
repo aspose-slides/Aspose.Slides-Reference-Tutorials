@@ -13,7 +13,7 @@ Kontrolki ActiveX to potężne elementy, które mogą zwiększyć funkcjonalnoś
 
 Aby rozpocząć dołączanie kontrolek ActiveX do prezentacji programu PowerPoint, wykonaj następujące kroki:
 
-1.  Utwórz nową prezentację programu PowerPoint: Najpierw utwórz nową prezentację programu PowerPoint za pomocą Aspose.Slides dla .NET. Możesz odwołać się do[Aspose.Slides dla .NET API odniesienia](https://reference.aspose.com/slides/net/) aby uzyskać wskazówki dotyczące pracy z prezentacjami.
+1.  Utwórz nową prezentację programu PowerPoint: Najpierw utwórz nową prezentację programu PowerPoint za pomocą Aspose.Slides dla .NET. Możesz zapoznać się z[Aspose.Slides dla .NET API odniesienia](https://reference.aspose.com/slides/net/) aby uzyskać wskazówki dotyczące pracy z prezentacjami.
 
 2. Dodaj slajd: Użyj biblioteki, aby dodać nowy slajd do swojej prezentacji. Będzie to slajd, w którym chcesz wstawić formant ActiveX.
 

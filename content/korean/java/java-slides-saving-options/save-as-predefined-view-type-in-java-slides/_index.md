@@ -1,6 +1,6 @@
 ---
-title: Java 슬라이드에 미리 정의된 보기 유형으로 저장
-linktitle: Java 슬라이드에 미리 정의된 보기 유형으로 저장
+title: Java 슬라이드에 사전 정의된 보기 유형으로 저장
+linktitle: Java 슬라이드에 사전 정의된 보기 유형으로 저장
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides에서 사전 정의된 보기 유형을 설정하는 방법을 알아보세요. 코드 예제와 FAQ가 포함된 단계별 가이드입니다.
 type: docs
@@ -12,7 +12,7 @@ url: /ko/java/saving-options/save-as-predefined-view-type-in-java-slides/
 
 이 단계별 가이드에서는 Aspose.Slides for Java를 사용하여 미리 정의된 보기 유형으로 프레젠테이션을 저장하는 방법을 살펴보겠습니다. 이 작업을 성공적으로 수행하는 데 필요한 코드와 설명을 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

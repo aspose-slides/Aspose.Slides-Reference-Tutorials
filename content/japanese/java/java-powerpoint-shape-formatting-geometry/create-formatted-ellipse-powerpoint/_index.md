@@ -19,7 +19,7 @@ Aspose.Slides for Java を使用して PowerPoint でフォーマットされた
 Aspose.Slides の使用を開始するには、必要なパッケージをインポートする必要があります。手順は次のとおりです。
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -94,4 +94,4 @@ Aspose.Slides for Java は、開発者がプログラムによって PowerPoint 
 ### Aspose.Slides for Java に関する詳細なドキュメントはどこで入手できますか?
 詳細なドキュメントはAspose.Slides for Javaでご覧いただけます。[ドキュメントページ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides のサポートはありますか?
-はい、Asposeはサポートを提供しています[フォーラム](https://forum.aspose.com/c/slides/11).
+はい、Asposeはサポートを提供しています。[フォーラム](https://forum.aspose.com/c/slides/11).

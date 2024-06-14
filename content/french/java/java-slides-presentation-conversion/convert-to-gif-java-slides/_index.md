@@ -71,7 +71,7 @@ Et c'est tout! Vous avez converti avec succès une présentation PowerPoint en G
 // Le chemin d'accès au répertoire des documents
 String dataDir = "Your Document Directory";
 // Le chemin d'accès au fichier de sortie
-String outPath = RunExamples.getOutPath() + "ConvertToGif.gif";
+String outPath = "Your Output Directory" + "ConvertToGif.gif";
 // Instancier un objet Présentation qui représente un fichier de présentation
 Presentation presentation = new Presentation(dataDir + "ConvertToGif.pptx");
 try {

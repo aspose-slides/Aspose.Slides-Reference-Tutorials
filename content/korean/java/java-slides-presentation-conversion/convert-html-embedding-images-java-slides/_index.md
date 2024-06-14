@@ -48,9 +48,9 @@ Presentation pres = new Presentation(presentationName);
 
 ```java
 Html5Options options = new Html5Options();
-//HTML5 문서에 이미지를 강제로 저장하지 않음
+// HTML5 문서에 이미지를 강제로 저장하지 않음
 options.setEmbedImages(true); // 이미지를 삽입하려면 true로 설정하세요.
-// 외부 이미지 경로 설정(필요한 경우)
+//외부 이미지 경로 설정(필요한 경우)
 options.setOutputPath("path/to/output/directory/");
 ```
 
@@ -87,13 +87,13 @@ if (pres != null) {
 
 ```java
 // 소스 프레젠테이션 경로
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 // HTML 문서의 경로
-String outFilePath = RunExamples.getOutPath() + "HTMLConvertion" + File.separator;
+String outFilePath = "Your Output Directory" + "HTMLConvertion" + File.separator;
 Presentation pres = new Presentation(presentationName);
 try {
 	Html5Options options = new Html5Options();
-	//HTML5 문서에 이미지를 강제로 저장하지 않음
+	// HTML5 문서에 이미지를 강제로 저장하지 않음
 	options.setEmbedImages(false);
 	// 외부 이미지 경로 설정
 	options.setOutputPath(outFilePath);

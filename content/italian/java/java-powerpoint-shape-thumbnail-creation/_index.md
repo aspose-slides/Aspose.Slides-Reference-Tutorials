@@ -27,7 +27,7 @@ Elementi interattivi come gli effetti di zoom possono migliorare significativame
 - Zoom di riepilogo: uno zoom di riepilogo fornisce una panoramica delle diverse sezioni, consentendo una navigazione rapida tra di esse. La nostra guida dettagliata[Crea zoom di riepilogo in PowerPoint](./create-summary-zoom-powerpoint/) ti mostra come configurarlo senza sforzo.
 -  Cornici di zoom: l'aggiunta di cornici di zoom può rendere le tue presentazioni più interattive e coinvolgenti. Segui il nostro tutorial[Crea cornice di zoom in PowerPoint](./create-zoom-frame-powerpoint/) per aggiungere questi elementi in modo efficace.
 
-## Raggruppa forme e miniature SmartArt
+## Forme di gruppo e miniature SmartArt
 
 L'organizzazione delle forme in gruppi o la creazione di miniature per SmartArt può migliorare l'attrattiva visiva e la struttura delle diapositive.
 

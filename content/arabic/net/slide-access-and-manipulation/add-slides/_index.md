@@ -76,11 +76,11 @@ presentation.Slides.InsertClone(insertionIndex + 1, slide2);
 بعد إدراج الشرائح الإضافية، يجب عليك حفظ العرض التقديمي المعدل.
 
 ```csharp
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
- يستبدل`"path_to_modified_presentation.pptx"` بالمسار واسم الملف المطلوبين للعرض التقديمي المعدل.
+ يستبدل`"path_to_modified_presentation.pptx"`بالمسار واسم الملف المطلوبين للعرض التقديمي المعدل.
 
 ## خاتمة
 
@@ -98,7 +98,7 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 
 ### ماذا لو كنت أرغب في إدراج شرائح في بداية العرض التقديمي؟
 
- لإدراج شرائح في بداية العرض التقديمي، قم بتعيين`insertionIndex` ل`0`.
+لإدراج شرائح في بداية العرض التقديمي، قم بتعيين`insertionIndex` ل`0`.
 
 ### هل من الممكن تعديل تخطيط الشرائح المدرجة؟
 

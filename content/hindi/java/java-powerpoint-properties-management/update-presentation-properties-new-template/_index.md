@@ -22,7 +22,7 @@ import com.aspose.slides.DocumentProperties;
 import com.aspose.slides.IDocumentProperties;
 import com.aspose.slides.IPresentationInfo;
 import com.aspose.slides.PresentationFactory;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## चरण 1: मुख्य विधि परिभाषित करें
 एक मुख्य विधि बनाएँ जहाँ आप एक नए टेम्पलेट के साथ प्रस्तुति गुणों को अपडेट करने की प्रक्रिया शुरू करेंगे। यह विधि आपके जावा एप्लिकेशन के लिए प्रवेश बिंदु के रूप में कार्य करती है।
@@ -32,7 +32,7 @@ public static void main(String[] args) {
 }
 ```
 ## चरण 2: टेम्पलेट गुण परिभाषित करें
-मुख्य विधि के भीतर, उस टेम्पलेट के गुण परिभाषित करें जिसे आप अपनी प्रस्तुतियों पर लागू करना चाहते हैं। इन गुणों में लेखक, शीर्षक, श्रेणी, कीवर्ड, कंपनी, टिप्पणियाँ, सामग्री प्रकार और विषय शामिल हैं।
+मुख्य विधि के अंतर्गत, उस टेम्पलेट के गुण परिभाषित करें जिसे आप अपनी प्रस्तुतियों पर लागू करना चाहते हैं। इन गुणों में लेखक, शीर्षक, श्रेणी, कीवर्ड, कंपनी, टिप्पणियाँ, सामग्री प्रकार और विषय शामिल हैं।
 ```java
 DocumentProperties template = new DocumentProperties();
 template.setAuthor("Template Author");

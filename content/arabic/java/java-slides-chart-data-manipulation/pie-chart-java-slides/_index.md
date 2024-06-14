@@ -49,7 +49,7 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ## الخطوة 4: إضافة مخطط دائري
 
 ```java
-//أضف مخططًا دائريًا يحتوي على البيانات الافتراضية
+// أضف مخططًا دائريًا يحتوي على البيانات الافتراضية
 IChart chart = slide.getShapes().addChart(ChartType.Pie, 100, 100, 400, 400);
 ```
 
@@ -70,7 +70,7 @@ chart.setTitle(true);
 ## الخطوة 6: تخصيص بيانات الرسم البياني
 
 ```java
-// قم بتعيين السلسلة الأولى لإظهار القيم
+//قم بتعيين السلسلة الأولى لإظهار القيم
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
 // ضبط فهرس ورقة بيانات الرسم البياني
@@ -191,7 +191,7 @@ chart.getChartData().getCategories().add(fact.getCell(0, 2, 0, "2nd Qtr"));
 chart.getChartData().getCategories().add(fact.getCell(0, 3, 0, "3rd Qtr"));
 // إضافة سلسلة جديدة
 IChartSeries series = chart.getChartData().getSeries().add(fact.getCell(0, 0, 1, "Series 1"), chart.getType());
-//الآن ملء بيانات السلسلة
+// الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForPieSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));

@@ -34,7 +34,7 @@ import java.io.IOException;
  Börja med att ladda PowerPoint-presentationen som du vill konvertera till en animation. Byta ut`"SimpleAnimations.pptx"` med sökvägen till din presentationsfil:
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 ```
 
@@ -49,7 +49,7 @@ animationsGenerator.run(pres.getSlides());
 
 ## Steg 4: Skapa en spelare för att rendera animationerna
 
-För att rendera animationerna måste vi skapa en spelare. Vi kommer också att ställa in frame tick-händelsen för att spara varje bildruta som en PNG-bild:
+För att rendera animationerna måste vi skapa en spelare. Vi ställer också in rammarkeringshändelsen för att spara varje bildruta som en PNG-bild:
 
 ```java
 PresentationPlayer player = new PresentationPlayer(animationsGenerator, 33);
@@ -69,14 +69,14 @@ player.setFrameTick(new PresentationPlayer.FrameTick() {
 När presentationen spelas upp kommer varje bildruta att sparas som en PNG-bild i den angivna utdatakatalogen. Du kan anpassa utdatavägen efter behov:
 
 ```java
-final String outPath = RunExamples.getOutPath();
+final String outPath = "Your Output Directory";
 ```
 
 ## Komplett källkod för konvertering till animering i Java Slides
 
 ```java
-String presentationName = RunExamples.getDataDir_Conversion() + "SimpleAnimations.pptx";
-final String outPath = RunExamples.getOutPath();
+String presentationName = "Your Document Directory";
+final String outPath = "Your Output Directory";
 final int FPS = 30;
 Presentation pres = new Presentation(presentationName);
 try {

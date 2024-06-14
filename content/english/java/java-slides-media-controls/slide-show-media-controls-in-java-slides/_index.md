@@ -34,7 +34,7 @@ Let's start by creating a new presentation. Here's how you can do it in Java Sli
 
 ```java
 // Path to PPTX document
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ This code saves your presentation with media controls enabled.
 
 ```java
 // Path to PPTX document
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	// Еnable media control display in slideshow mode.

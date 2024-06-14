@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
     point.X = 1;
     point.Y = 1;
 
-    // Diák megjegyzésének hozzáadása egy szerzőhöz a dián
+    // Diára vonatkozó megjegyzés hozzáadása egy szerzőhöz a dián
     author.Comments.AddComment("Hello Zeeshan, this is a slide comment", pres.Slides[0], point, DateTime.Now);
     
     // Mentse el a bemutatót
@@ -77,7 +77,7 @@ Ezekkel a lépésekkel sikeresen hozzáadott egy megjegyzést egy diához az Asp
 
 ## Következtetés
 
-A diákhoz megjegyzések hozzáadása értékes funkció azok számára, akik prezentációkkal dolgoznak, akár együttműködési projektek, akár oktatási célból. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az ebben az útmutatóban ismertetett lépések követésével kihasználhatja az Aspose.Slides for .NET erejét a prezentációk tökéletesítésére.
+A diákhoz való megjegyzések hozzáadása értékes szolgáltatás azok számára, akik prezentációkkal dolgoznak, legyen szó akár együttműködési projektekről, akár oktatási célokról. Az Aspose.Slides for .NET leegyszerűsíti ezt a folyamatot, lehetővé téve a megjegyzések egyszerű létrehozását, szerkesztését és kezelését. Az ebben az útmutatóban ismertetett lépések követésével kihasználhatja az Aspose.Slides for .NET erejét a prezentációk tökéletesítésére.
 
  Ha bármilyen problémája van, vagy kérdése van, ne habozzon kérni segítséget a[Aspose.Slides fórum](https://forum.aspose.com/).
 

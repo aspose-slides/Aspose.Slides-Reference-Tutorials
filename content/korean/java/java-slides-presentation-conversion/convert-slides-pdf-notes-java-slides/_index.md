@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 
 디지털 프리젠테이션 세계에서 슬라이드를 메모와 함께 PDF로 변환하는 기능은 중요한 기능입니다. Java 개발자는 프로그래밍 방식으로 PowerPoint 프레젠테이션 작업을 위한 강력한 도구 세트를 제공하는 Aspose.Slides for Java 라이브러리를 사용하여 이를 달성할 수 있습니다. 이 단계별 가이드에서는 Java 및 Aspose.Slides for Java를 사용하여 메모가 포함된 슬라이드를 PDF로 변환하는 방법을 살펴보겠습니다.
 
-## 전제조건
+## 전제 조건
 
 코드를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

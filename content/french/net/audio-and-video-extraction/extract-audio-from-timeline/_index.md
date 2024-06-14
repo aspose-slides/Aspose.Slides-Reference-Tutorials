@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFile))
 }
 ```
 
- Dans cette étape, nous chargeons la présentation PowerPoint à partir du fichier spécifié. Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation.
+Dans cette étape, nous chargeons la présentation PowerPoint à partir du fichier spécifié. Assurez-vous de remplacer`"Your Document Directory"` avec le chemin réel vers votre fichier de présentation.
 
 ### Étape 2.2 : Accédez à la diapositive et à la chronologie
 

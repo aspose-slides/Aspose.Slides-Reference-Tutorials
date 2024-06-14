@@ -70,7 +70,7 @@ destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 Depois que o slide for clonado e inserido na posição desejada, você precisará salvar a apresentação de destino modificada. Use o seguinte código para salvar a apresentação:
 
 ```csharp
-// Salve a apresentação modificada
+//Salve a apresentação modificada
 destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ```
 
@@ -105,7 +105,7 @@ namespace SlideCloningDemo
             // Insira o slide clonado na posição especificada
             destPresentation.Slides.InsertClone(desiredPosition, clonedSlide);
 
-            // Salve a apresentação modificada
+            //Salve a apresentação modificada
             destPresentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
         }
     }

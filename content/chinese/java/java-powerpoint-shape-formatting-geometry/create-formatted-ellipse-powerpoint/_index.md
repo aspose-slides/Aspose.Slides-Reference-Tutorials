@@ -19,7 +19,7 @@ url: /zh/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse
 要开始使用 Aspose.Slides，您需要导入必要的包。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```

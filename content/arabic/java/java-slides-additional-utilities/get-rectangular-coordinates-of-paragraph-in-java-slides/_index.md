@@ -14,7 +14,7 @@ url: /ar/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-j
 
 ## المتطلبات الأساسية
 
-قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وإعدادها في بيئة تطوير Java لديك. يمكنك تنزيله من[هنا](https://downloads.aspose.com/slides/java).
+ قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وإعدادها في بيئة تطوير Java لديك. يمكنك تنزيله من[هنا](https://downloads.aspose.com/slides/java).
 
 ## الخطوة 1: استيراد المكتبات الضرورية
 
@@ -107,7 +107,7 @@ finally
 
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
 
- يمكنك العثور على المزيد من أمثلة التعليمات البرمجية والوثائق التفصيلية لـ Aspose.Slides for Java على الموقع[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/)موقع إلكتروني. بالإضافة إلى ذلك، يمكنك استكشاف[منتديات Aspose.Slides](https://forum.aspose.com/c/slides) لدعم المجتمع والمناقشات.
+ يمكنك العثور على المزيد من أمثلة التعليمات البرمجية والوثائق التفصيلية لـ Aspose.Slides for Java على الموقع[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) موقع إلكتروني. بالإضافة إلى ذلك، يمكنك استكشاف[منتديات Aspose.Slides](https://forum.aspose.com/c/slides) لدعم المجتمع والمناقشات.
 
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Slides لـ Java؟
 

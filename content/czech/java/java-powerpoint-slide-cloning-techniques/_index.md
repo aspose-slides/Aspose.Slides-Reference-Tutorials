@@ -16,7 +16,7 @@ Klonování snímků v prezentacích PowerPoint vám může ušetřit spoustu č
 Klonování snímků v rámci stejné prezentace je běžný úkol, zvláště když potřebujete určitý snímek replikovat vícekrát. Aspose.Slides for Java tento proces výrazně zjednodušuje.
 
 -  Klonovat snímek v rámci stejné prezentace: Naučte se, jak bez námahy klonovat snímky v rámci stejné prezentace. Náš průvodce[Klonovat snímek v rámci stejné prezentace](./clone-slide-within-same-presentation-powerpoint/) poskytuje podrobný přístup krok za krokem.
--  Klonovat snímek do konce v rámci stejné prezentace: Chcete naklonovat snímek na konec prezentace? Tento tutoriál[Klonovat snímek do konce v rámci stejné prezentace](./clone-slide-end-within-same-presentation-powerpoint/)vám přesně ukáže, jak to udělat, a zajistí bezproblémové doplnění vaší prezentace.
+-  Klonovat snímek do konce v rámci stejné prezentace: Chcete naklonovat snímek na konec prezentace? Tento tutoriál[Klonovat posunutím do konce v rámci stejné prezentace](./clone-slide-end-within-same-presentation-powerpoint/)vám přesně ukáže, jak to udělat, a zajistí bezproblémové doplnění vaší prezentace.
 
 ## Klonování snímků napříč různými prezentacemi
 
@@ -47,5 +47,5 @@ Bez námahy klonujte snímky do konkrétních sekcí v PowerPointu pomocí Aspos
 Naučte se klonovat snímky mezi prezentacemi v Javě pomocí Aspose.Slides. Výukový program krok za krokem o údržbě hlavních snímků.
 ### [Klonovat snímek v rámci stejné prezentace](./clone-slide-within-same-presentation-powerpoint/)
 Klonujte snímky v rámci stejné prezentace pomocí Aspose.Slides for Java s naším průvodcem. Ideální pro vývojáře, kteří chtějí zjednodušit manipulaci s PowerPointem.
-### [Klonovat snímek do konce v rámci stejné prezentace](./clone-slide-end-within-same-presentation-powerpoint/)
+### [Klonovat posunutím do konce v rámci stejné prezentace](./clone-slide-end-within-same-presentation-powerpoint/)
 Naučte se, jak klonovat snímek na konec prezentace pomocí Aspose.Slides for Java, pomocí tohoto podrobného průvodce. Ideální pro vývojáře v Javě.

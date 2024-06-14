@@ -75,7 +75,7 @@ if (pres != null) pres.dispose();
             IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
             ChartData chartData = (ChartData) chart.getChartData();
             chartData.getSeries().get_Item(0).getDataPoints().get_Item(0).getValue().getAsCell().setValue(100);
-            pres.save(RunExamples.getOutPath() + "presentation_out.pptx", SaveFormat.Pptx);
+            pres.save("Your Output Directory" + "presentation_out.pptx", SaveFormat.Pptx);
         }
         finally
         {
@@ -90,7 +90,7 @@ if (pres != null) pres.dispose();
 
 ### كيف يمكنني تحديد مخطط أو شريحة مختلفة؟
 
- للوصول إلى مخطط أو شريحة مختلفة، قم بتعديل الفهرس المناسب في`getSlides().get_Item()` و`getShapes().get_Item()` طُرق. تذكر أن الفهرسة تبدأ من 0.
+ للوصول إلى مخطط أو شريحة مختلفة، قم بتعديل الفهرس المناسب في`getSlides().get_Item()` و`getShapes().get_Item()`طُرق. تذكر أن الفهرسة تبدأ من 0.
 
 ### هل يمكنني تحرير البيانات في مخططات متعددة داخل نفس العرض التقديمي؟
 

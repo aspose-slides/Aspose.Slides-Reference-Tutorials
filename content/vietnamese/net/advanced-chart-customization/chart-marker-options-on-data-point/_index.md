@@ -40,7 +40,7 @@ Presentation pres = new Presentation(dataDir + "Test.pptx");
 
 ISlide slide = pres.Slides[0];
 
-// Tạo biểu đồ mặc định
+//Tạo biểu đồ mặc định
 IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
 ```
 
@@ -130,7 +130,7 @@ Cuối cùng, chúng ta lưu bài thuyết trình với cài đặt biểu đồ
 
 Aspose.Slides for .NET cho phép bạn tạo các bản trình bày biểu đồ tuyệt đẹp với nhiều tùy chọn tùy chỉnh khác nhau. Trong hướng dẫn này, chúng tôi tập trung vào việc sử dụng các tùy chọn đánh dấu biểu đồ trên các điểm dữ liệu để nâng cao khả năng trình bày trực quan cho dữ liệu của bạn. Với Aspose.Slides cho .NET, bạn có thể đưa bản trình bày của mình lên một tầm cao mới, khiến chúng hấp dẫn và giàu thông tin hơn.
 
- Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ với Aspose.Slides cho .NET, vui lòng truy cập[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) hoặc tiếp cận với[Cộng đồng đề xuất](https://forum.aspose.com/) để hỗ trợ.
+Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ với Aspose.Slides cho .NET, vui lòng truy cập[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) hoặc tiếp cận với[Cộng đồng đề xuất](https://forum.aspose.com/) để hỗ trợ.
 
 ## Câu hỏi thường gặp (FAQ)
 
@@ -138,7 +138,7 @@ Aspose.Slides for .NET cho phép bạn tạo các bản trình bày biểu đồ
 Có, bạn có thể sử dụng hình ảnh tùy chỉnh làm điểm đánh dấu cho điểm dữ liệu trong Aspose.Slides cho .NET, như được minh họa trong hướng dẫn này.
 
 ### Làm cách nào để thay đổi loại biểu đồ trong Aspose.Slides cho .NET?
-Bạn có thể thay đổi loại biểu đồ bằng cách chỉ định một loại biểu đồ khác`ChartType` khi tạo biểu đồ, chẳng hạn như "Thanh", "Hình tròn" hoặc "Khu vực".
+ Bạn có thể thay đổi loại biểu đồ bằng cách chỉ định một loại biểu đồ khác`ChartType` khi tạo biểu đồ, chẳng hạn như "Thanh", "Hình tròn" hoặc "Khu vực".
 
 ### Aspose.Slides for .NET có tương thích với các phiên bản PowerPoint mới nhất không?
 Aspose.Slides for .NET được thiết kế để hoạt động với nhiều định dạng PowerPoint khác nhau và được cập nhật thường xuyên để duy trì khả năng tương thích với các phiên bản PowerPoint mới nhất.

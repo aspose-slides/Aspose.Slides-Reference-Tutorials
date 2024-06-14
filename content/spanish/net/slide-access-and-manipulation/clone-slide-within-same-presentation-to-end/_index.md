@@ -65,7 +65,7 @@ Este fragmento de código agrega la diapositiva duplicada al final de la present
 Después de agregar la diapositiva duplicada, debemos guardar la presentación modificada. Así es cómo:
 
 ```csharp
-// Guardar la presentación modificada
+//Guardar la presentación modificada
 presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ```
 

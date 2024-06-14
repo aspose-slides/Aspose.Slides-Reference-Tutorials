@@ -79,4 +79,4 @@ presentation.Save(outPath + "ConvertPresentationToResponsiveHTML_out.html", Save
 ### P5. ¿Dónde puedo encontrar soporte adicional o hacer preguntas?
  Puede unirse al foro de la comunidad Aspose para obtener soporte y debates.[aquí](https://forum.aspose.com/).
 
-Ahora que tiene el conocimiento para convertir presentaciones a HTML responsivo, continúe y haga que su contenido sea accesible para una audiencia más amplia. ¡Feliz codificación!
+Ahora que tienes el conocimiento para convertir presentaciones a HTML responsivo, continúa y haz que tu contenido sea accesible para una audiencia más amplia. ¡Feliz codificación!

@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation())
     // Hier vindt u uw code voor het maken van dia's
 }
 ```
-## Stap 2: Laad het audiobestand
+## Stap 2: Audiobestand laden
 ```csharp
 FileStream fstr = new FileStream(dataDir + "sampleaudio.wav", FileMode.Open, FileAccess.Read);
 ```

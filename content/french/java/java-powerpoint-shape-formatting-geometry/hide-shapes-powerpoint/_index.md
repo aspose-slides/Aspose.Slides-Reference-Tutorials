@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 Pour commencer, vous devrez importer les packages nécessaires pour Aspose.Slides. Voici comment procéder :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 Dans cette section, nous décomposerons le processus de masquage des formes dans PowerPoint en étapes faciles à suivre. Chaque étape comprend un titre et une explication détaillée.
 ## Étape 1 : Configurez votre projet
@@ -74,7 +74,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment masquer des for
 ### Qu’est-ce qu’Aspose.Slides pour Java ?
 Aspose.Slides pour Java est une API puissante permettant de manipuler des fichiers PowerPoint par programme. Il permet aux développeurs de créer, modifier et gérer des présentations sans avoir besoin de Microsoft PowerPoint.
 ### Comment masquer une forme dans PowerPoint à l’aide de Java ?
- Vous pouvez masquer une forme en définissant son`setHidden` propriété à`true`Cela implique d'identifier la forme par son texte alternatif et de parcourir les formes sur une diapositive.
+ Vous pouvez masquer une forme en définissant son`setHidden` propriété à`true`. Cela implique d'identifier la forme par son texte alternatif et de parcourir les formes sur une diapositive.
 ### Puis-je utiliser Aspose.Slides pour Java avec d’autres langages de programmation ?
 Aspose.Slides est disponible pour divers langages de programmation, notamment .NET, Python et C++. Cependant, ce guide couvre spécifiquement Java.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Slides ?

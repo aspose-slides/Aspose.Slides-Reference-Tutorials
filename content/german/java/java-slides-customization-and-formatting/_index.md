@@ -22,7 +22,7 @@ Unsere Tutorials decken ein breites Themenspektrum im Zusammenhang mit der Anpas
 
 Mit Aspose.Slides für Java lernen Sie Folgendes:
 
-1. Dynamische Folien erstellen: Entdecken Sie, wie Sie mit Java-Code dynamisch Folien generieren und so Ihre Präsentationen an sich ändernde Daten anpassen.
+1. Dynamische Folien erstellen: Entdecken Sie, wie Sie mit Java-Code dynamisch Folien generieren und so Ihre Präsentationen an sich ändernde Daten anpassen können.
 
 2. Wenden Sie atemberaubende Formatierungen an: Erlernen Sie die Kunst, Folien mit benutzerdefinierten Schriftarten, Farben und Hintergründen zu formatieren, um optisch ansprechende Präsentationen zu erstellen.
 

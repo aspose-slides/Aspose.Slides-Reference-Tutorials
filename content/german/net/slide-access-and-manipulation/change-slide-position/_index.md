@@ -78,7 +78,7 @@ In diesem Schritt verschieben wir den Schieber in die zweite Position (Index 2).
 
 ### Schritt 5: Speichern Sie die Präsentation
 
-Speichern Sie die geänderte Präsentation im angegebenen Verzeichnis.
+Speichern Sie die geänderte Präsentation in Ihrem angegebenen Verzeichnis.
 
 ```csharp
 pres.Save(dataDir + "Aspose_out.pptx", SaveFormat.Pptx);

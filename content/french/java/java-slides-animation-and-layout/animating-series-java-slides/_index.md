@@ -112,7 +112,7 @@ Vous avez animé avec succès une série dans un graphique PowerPoint à l'aide 
 
 ### Comment contrôler l’ordre des animations des séries ?
 
- Pour contrôler l'ordre des animations de séries, utilisez le`EffectTriggerType.AfterPrevious`paramètre lors de l’ajout des effets. Cela fera démarrer chaque animation de série après la fin de la précédente.
+ Pour contrôler l'ordre des animations de séries, utilisez le`EffectTriggerType.AfterPrevious` paramètre lors de l’ajout des effets. Cela fera démarrer chaque animation de série après la fin de la précédente.
 
 ### Puis-je appliquer des animations différentes à chaque série ?
 

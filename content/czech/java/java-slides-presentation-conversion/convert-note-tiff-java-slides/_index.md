@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Krok 2: Nastavte možnosti prezentace a TIFF
 
-Definujte cestu k souboru prezentace (`ConvertWithNoteToTiff.pptx` ) a vytvořte a`Presentation` objekt. Poté nakonfigurujte`TiffOptions` pro konverzi.
+Definujte cestu k souboru prezentace (`ConvertWithNoteToTiff.pptx` ) a vytvořte a`Presentation` objekt. Poté nakonfigurujte`TiffOptions`pro konverzi.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -61,7 +61,7 @@ try {
 
 ## Krok 4: Vyčistěte zdroje
 
- V`finally` blok, ujistěte se, že zlikvidujete`Presentation` objekt k uvolnění všech přidělených zdrojů.
+ V`finally` blok, ujistěte se, že je zlikvidujete`Presentation` objekt k uvolnění všech přidělených zdrojů.
 
 A je to! Úspěšně jste převedli PowerPointovou prezentaci s poznámkami řečníka do formátu TIFF pomocí Aspose.Slides for Java.
 
@@ -88,7 +88,7 @@ finally
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili převést powerpointovou prezentaci s poznámkami na TIFF v Javě pomocí knihovny Aspose.Slides for Java. To může být cenný nástroj pro vývojáře, kteří potřebují automatizovat převody dokumentů a udržovat důležité poznámky ve svých prezentacích.
+V tomto tutoriálu jsme se naučili převést powerpointovou prezentaci s poznámkami na TIFF v Javě pomocí knihovny Aspose.Slides for Java. To může být cenný nástroj pro vývojáře, kteří potřebují automatizovat převody dokumentů a udržovat důležité poznámky ve svých prezentacích.
 
 ## Nejčastější dotazy
 

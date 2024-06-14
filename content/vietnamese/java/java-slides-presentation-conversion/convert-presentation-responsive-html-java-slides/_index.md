@@ -21,7 +21,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có sẵn các đ
 
 ## Bước 1: Thiết lập dự án của bạn
 
-Đầu tiên, tạo một dự án Java mới trong môi trường phát triển tích hợp (IDE) ưa thích của bạn. Đảm bảo đưa thư viện Aspose.Slides for Java vào đường dẫn lớp của dự án của bạn.
+Đầu tiên, tạo một dự án Java mới trong môi trường phát triển tích hợp (IDE) ưa thích của bạn. Đảm bảo bao gồm thư viện Aspose.Slides cho Java trong đường dẫn lớp của dự án của bạn.
 
 ## Bước 2: Nhập các gói cần thiết
 

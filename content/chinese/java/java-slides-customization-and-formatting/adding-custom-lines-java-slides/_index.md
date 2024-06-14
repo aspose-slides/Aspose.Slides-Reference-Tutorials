@@ -81,7 +81,7 @@ finally
 
 ## 结论
 
-恭喜！您已成功使用 Aspose.Slides for Java 向您的 Java 幻灯片添加自定义线条。您可以进一步自定义线条的属性以实现所需的视觉效果。
+恭喜！您已成功使用 Aspose.Slides for Java 向 Java 幻灯片添加自定义线条。您可以进一步自定义线条的属性以实现所需的视觉效果。
 
 ## 常见问题解答
 
@@ -96,7 +96,7 @@ shape.getLineFormat().getFillFormat().getSolidFillColor().setColor(Color.YOUR_CO
 
 ### 我可以向其他形状添加自定义线条吗？
 
-是的，您可以向各种形状添加自定义线条，而不仅仅是图表。只需创建一个`IAutoShape`并根据您的需要进行定制。
+是的，您可以将自定义线条添加到各种形状，而不仅仅是图表。只需创建一个`IAutoShape`并根据您的需要进行定制。
 
 ### 我怎样才能改变线条粗细？
 

@@ -67,6 +67,6 @@ Ano, Aspose.Slides se hladce integruje s vývojem Visual Studio pro .NET.
 ### Mohu upravit vzhled rámečku přiblížení sekce?
 Absolutně! Máte plnou kontrolu nad rozměry, umístěním a stylem rámečku přiblížení řezu.
 ### Je k dispozici zkušební verze pro Aspose.Slides?
-Ano, funkce Aspose.Slides můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/).
+ Ano, funkce Aspose.Slides můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro dotazy související s Aspose.Slides?
  V případě jakékoli podpory nebo dotazů navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).

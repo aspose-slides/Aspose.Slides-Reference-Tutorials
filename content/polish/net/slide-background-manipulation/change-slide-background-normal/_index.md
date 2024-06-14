@@ -58,7 +58,7 @@ pres.Slides[0].Background.FillFormat.FillType = FillType.Solid;
 pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
 ```
 
- W tym kodzie uzyskujemy dostęp do pierwszego slajdu za pomocą`pres.Slides[0]` a następnie ustaw jego tło na niebieskie. Istnieje możliwość zmiany koloru na dowolny inny, poprzez wymianę`Color.Blue` z żądanym kolorem.
+ W tym kodzie uzyskujemy dostęp do pierwszego slajdu za pomocą`pres.Slides[0]` a następnie ustaw jego tło na niebieskie. Istnieje możliwość zmiany koloru na dowolny inny wybrany kolor poprzez wymianę`Color.Blue` z żądanym kolorem.
 
 ## Krok 3: Zapisz prezentację
 

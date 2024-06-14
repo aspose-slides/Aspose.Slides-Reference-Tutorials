@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation())
 ## Paso 3: personaliza los fondos de las diapositivas
 Mejore el atractivo visual de sus diapositivas personalizando sus fondos. En este ejemplo, configuramos un fondo cian sólido para la segunda diapositiva.
 ```csharp
-//Crea un fondo para la segunda diapositiva.
+// Crea un fondo para la segunda diapositiva.
 slide2.Background.Type = BackgroundType.OwnBackground;
 slide2.Background.FillFormat.FillType = FillType.Solid;
 slide2.Background.FillFormat.SolidFillColor.Color = Color.Cyan;

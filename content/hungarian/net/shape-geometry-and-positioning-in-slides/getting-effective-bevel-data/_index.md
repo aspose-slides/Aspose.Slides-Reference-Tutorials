@@ -8,7 +8,7 @@ weight: 20
 url: /hu/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
 ## Bevezetés
-Üdvözöljük az Aspose.Slides for .NET lenyűgöző világában, amely átjáró a lenyűgöző prezentációk páratlan egyszerű elkészítéséhez. Ebben az oktatóanyagban az Aspose.Slides for .NET segítségével történő hatékony levágási adatok beszerzésének bonyolultságába fogunk bele a prezentációs diák alakzataihoz.
+Üdvözöljük az Aspose.Slides for .NET lenyűgöző világában, amely átjáró a lenyűgöző prezentációk páratlan egyszerű elkészítéséhez. Ebben az oktatóanyagban az Aspose.Slides for .NET segítségével való hatékony levágási adatok beszerzésének bonyolultságába fogunk bele a prezentációs diák alakzataihoz.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az izgalmas utazásnak, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
 1.  Aspose.Slides for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
@@ -35,7 +35,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Győződjön meg a cseréről`"Your Document Directory"`azzal az elérési úttal, ahol a prezentációs fájlokat tárolni szeretné.
+ Győződjön meg a cseréről`"Your Document Directory"` azzal az elérési úttal, ahol a prezentációs fájlokat tárolni szeretné.
 ## 2. lépés: Töltse be a prezentációt
 ```csharp
 using (Presentation pres = new Presentation(dataDir + "Presentation1.pptx"))

@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx")
 ```csharp
 using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbnailBounds.Shape, 1, 1))
 {
-    //รหัสของคุณสำหรับการบันทึกภาพอยู่ที่นี่
+    // รหัสของคุณสำหรับการบันทึกภาพอยู่ที่นี่
 }
 ```
 ## ขั้นตอนที่ 3: บันทึกรูปภาพลงดิสก์
@@ -52,6 +52,6 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 ### คำถามที่ 3: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  คุณสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้โดยไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
 ### คำถามที่ 4: ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.Slides ได้ที่ไหน
-หากมีข้อสงสัยหรือความช่วยเหลือ โปรดไปที่ฟอรัมสนับสนุน Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11).
+ หากมีข้อสงสัยหรือความช่วยเหลือ โปรดไปที่ฟอรัมสนับสนุน Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11).
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.Slides สำหรับ .NET ได้หรือไม่
  แน่นอน! หากต้องการซื้อ Aspose.Slides สำหรับ .NET โปรดไปที่หน้าการซื้อ[ที่นี่](https://purchase.aspose.com/buy).

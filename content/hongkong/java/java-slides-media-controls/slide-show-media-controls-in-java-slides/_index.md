@@ -34,7 +34,7 @@ url: /zh-hant/java/media-controls/slide-show-media-controls-in-java-slides/
 
 ```java
 // PPTX 文件的路徑
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -71,7 +71,7 @@ pres.save(outFilePath, SaveFormat.Pptx);
 
 ```java
 // PPTX 文件的路徑
-String outFilePath = RunExamples.getOutPath() + "SlideShowMediaControl.pptx";
+String outFilePath = "Your Output Directory" + "SlideShowMediaControl.pptx";
 Presentation pres = new Presentation();
 try {
 	//啟用投影片模式下的媒體控制顯示。

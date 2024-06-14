@@ -19,7 +19,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 A kezdéshez importálja a szükséges csomagokat a Java osztályba:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -56,7 +56,7 @@ shp.getLineFormat().getFillFormat().getSolidFillColor().setColor(new Color(Prese
 ```
 ## 4. lépés: Mentse a bemutatót
 ```java
-// Írja a PPTX-et a lemezre
+// Írd a PPTX-et a lemezre
 pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 ```
 
@@ -68,7 +68,7 @@ Igen, több nyíl alakú vonalat is hozzáadhat egyetlen diához, ha minden sorr
 ### Az Aspose.Slides for Java kompatibilis a PowerPoint legújabb verzióival?
 Az Aspose.Slides for Java támogatja a PowerPoint különféle verzióival való kompatibilitást, biztosítva a zökkenőmentes integrációt a prezentációkkal.
 ### Testreszabhatom a nyíl alakú vonal színét?
- Igen, testreszabhatja a nyíl alakú vonal színét a`SolidFillColor` tulajdonság a kódban.
+Igen, testreszabhatja a nyíl alakú vonal színét a`SolidFillColor` tulajdonság a kódban.
 ### Az Aspose.Slides for Java támogatja a vonalak mellett más alakzatokat is?
 Igen, az Aspose.Slides for Java kiterjedt támogatást nyújt különféle alakzatok, köztük téglalapok, körök és sokszögek PowerPoint diákhoz való hozzáadásához.
 ### Hol találok további forrásokat és támogatást az Aspose.Slides for Java számára?

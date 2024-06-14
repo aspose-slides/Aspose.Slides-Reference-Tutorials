@@ -16,7 +16,7 @@ url: /ru/java/presentation-conversion/convert-note-tiff-java-slides/
 
 Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
 
-1.  Библиотека Aspose.Slides для Java: у вас должна быть установлена библиотека Aspose.Slides для Java. Вы можете скачать его с сайта[здесь](https://downloads.aspose.com/slides/java).
+1.  Библиотека Aspose.Slides for Java: у вас должна быть установлена библиотека Aspose.Slides for Java. Вы можете скачать его с сайта[здесь](https://downloads.aspose.com/slides/java).
 
 2. Среда разработки Java: убедитесь, что в вашей системе настроена среда разработки Java.
 
@@ -36,7 +36,7 @@ import com.aspose.slides.TiffOptions;
 
 ## Шаг 2. Настройте параметры презентации и TIFF
 
-Определите путь к файлу презентации (`ConvertWithNoteToTiff.pptx` ) и создайте`Presentation` объект. Затем настройте`TiffOptions` для конверсии.
+Определите путь к файлу презентации (`ConvertWithNoteToTiff.pptx` ) и создайте`Presentation` объект. Затем настройте`TiffOptions`для конверсии.
 
 ```java
 String dataDir = "Your Document Directory";

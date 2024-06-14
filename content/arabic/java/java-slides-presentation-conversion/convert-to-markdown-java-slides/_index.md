@@ -91,11 +91,11 @@ if (pres != null) pres.dispose();
 
 ```java
 // المسار إلى العرض التقديمي المصدر
-String presentationName = RunExamples.getDataDir_Conversion() + "PresentationDemo.pptx";
+String presentationName = "Your Document Directory";
 Presentation pres = new Presentation(presentationName);
 try {
 	// اسم المسار والمجلد لحفظ بيانات تخفيض السعر
-	String outPath = RunExamples.getOutPath();
+	String outPath = "Your Output Directory";
 	// إنشاء خيارات إنشاء Markdown
 	MarkdownSaveOptions mdOptions = new MarkdownSaveOptions();
 	// قم بتعيين المعلمة لعرض جميع العناصر (سيتم عرض العناصر المجمعة معًا).

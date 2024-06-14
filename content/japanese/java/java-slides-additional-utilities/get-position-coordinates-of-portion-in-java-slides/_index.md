@@ -44,7 +44,7 @@ String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "Shapes.pptx");
 ```
 
-## ステップ3: テキスト部分と座標にアクセスする
+## ステップ3: テキスト部分と座標へのアクセス
 
 ここで、スライド内のテキスト部分にアクセスし、その X 座標と Y 座標を取得します。これを実現するには、段落と部分を反復処理します。コード スニペットは次のとおりです。
 

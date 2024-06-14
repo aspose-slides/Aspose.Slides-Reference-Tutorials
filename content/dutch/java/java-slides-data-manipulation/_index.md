@@ -24,7 +24,7 @@ Ontdek hoe u nieuwe dia's kunt maken, inhoud kunt toevoegen en deze kunt opmaken
 
 ## 3. Gegevensmanipulatie
 
-Een van de kernaspecten van onze tutorials is gegevensmanipulatie. U beheerst de kunst van het dynamisch bijwerken van dia-inhoud op basis van uw gegevensbronnen. Dit kan ongelooflijk handig zijn voor het genereren van rapporten, grafieken en aangepaste presentaties.
+Een van de kernaspecten van onze tutorials is datamanipulatie. U beheerst de kunst van het dynamisch bijwerken van dia-inhoud op basis van uw gegevensbronnen. Dit kan ongelooflijk handig zijn voor het genereren van rapporten, grafieken en aangepaste presentaties.
 
 ## Waarom Aspose.Slides voor Java?
 
@@ -66,9 +66,9 @@ Leer hoe u de dimensies van het diagramplotgebied kunt ophalen in Java Slides me
 Validatie van de hoofdgrafiekindeling in PowerPoint met Aspose.Slides voor Java. Leer diagrammen programmatisch te manipuleren voor verbluffende presentaties.
 ### [Omkeren indien negatief voor individuele reeksen in Java-dia's](./invert-if-negative-individual-series-java-slides/)
 Leer hoe u de functie Omkeren als negatief in Aspose.Slides voor Java kunt gebruiken om diagrambeelden in PowerPoint-presentaties te verbeteren.
-### [Kleur van de aanhaallijn in Java-dia's](./leader-line-color-java-slides/)
+### [Kleur van de leiderlijn in Java-dia's](./leader-line-color-java-slides/)
 Leer hoe u de kleuren van aanhaallijnen in PowerPoint-diagrammen kunt wijzigen met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncodevoorbeelden.
-### [Beheer eigenschappengrafieken in Java-dia's](./manage-properties-charts-java-slides/)
+### [Beheer eigenschappendiagrammen in Java-dia's](./manage-properties-charts-java-slides/)
 Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
 ### [Stel de automatische reeksvulkleur in Java-dia's in](./set-automatic-series-fill-color-java-slides/)
 Leer hoe u de automatische opvulkleur van reeksen in Java Slides instelt met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties.

@@ -161,7 +161,7 @@ chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.FillType = FillTy
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Green;
 chart.Axes.HorizontalAxis.MajorGridLinesFormat.Line.Width = 5;
 
-//Đặt định dạng đường lưới nhỏ cho trục Danh mục
+// Đặt định dạng đường lưới nhỏ cho trục Danh mục
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.FillType = FillType.Solid;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.FillFormat.SolidFillColor.Color = Color.Yellow;
 chart.Axes.HorizontalAxis.MinorGridLinesFormat.Line.Width = 3;
@@ -220,7 +220,7 @@ chart.BackWall.Format.Fill.SolidFillColor.Color = Color.Orange;
 chart.Floor.Format.Fill.FillType = FillType.Solid;
 chart.Floor.Format.Fill.SolidFillColor.Color = Color.Red;
 
-// Cài đặt màu vùng Lô
+//Cài đặt màu vùng Lô
 chart.PlotArea.Format.Fill.FillType = FillType.Solid;
 chart.PlotArea.Format.Fill.SolidFillColor.Color = Color.LightCyan;
 ```
@@ -252,7 +252,7 @@ Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà ph�
 
 ### 3. Có bản dùng thử miễn phí Aspose.Slides cho .NET không?
 
-Có, bạn có thể dùng thử miễn phí Aspose.Slides cho .NET từ[đây](https://releases.aspose.com/).
+ Có, bạn có thể dùng thử miễn phí Aspose.Slides cho .NET từ[đây](https://releases.aspose.com/).
 
 ### 4. Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides cho .NET?
 

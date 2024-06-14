@@ -21,7 +21,7 @@ In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java schreibgesc
 Wir beginnen mit der Erstellung einer neuen PowerPoint-Präsentation mit Aspose.Slides für Java. Wenn Sie bereits eine Präsentation haben, können Sie diesen Schritt überspringen.
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 ```
 
@@ -52,7 +52,7 @@ Abschließend speichern wir die Präsentation mit aktivierter Eigenschaft „Sch
 ## Vollständiger Quellcode für schreibgeschützte empfohlene Eigenschaften in Java-Folien
 
 ```java
-String outPptxPath = RunExamples.getOutPath() + "ReadOnlyRecommended.pptx";
+String outPptxPath = "Your Output Directory" + "ReadOnlyRecommended.pptx";
 Presentation pres = new Presentation();
 try
 {

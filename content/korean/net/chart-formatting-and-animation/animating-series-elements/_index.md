@@ -10,7 +10,7 @@ url: /ko/net/chart-formatting-and-animation/animating-series-elements/
 
 눈길을 끄는 차트와 애니메이션으로 PowerPoint 프레젠테이션을 향상시키고 싶으십니까? .NET용 Aspose.Slides는 이를 달성하는 데 도움이 될 수 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 차트의 시리즈 요소에 애니메이션을 적용하는 방법을 보여줍니다. 이 강력한 라이브러리를 사용하면 PowerPoint 프레젠테이션을 프로그래밍 방식으로 생성, 조작 및 사용자 정의하여 슬라이드와 해당 콘텐츠를 완벽하게 제어할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
 .NET용 Aspose.Slides를 사용하여 차트 애니메이션의 세계를 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -80,7 +80,7 @@ for (int i = 0; i < chart.Series.Count; i++)
 
 축하해요! .NET용 Aspose.Slides를 사용하여 차트의 시리즈 요소에 애니메이션을 적용하는 방법을 성공적으로 배웠습니다. 이러한 지식을 바탕으로 청중을 사로잡는 역동적이고 매력적인 PowerPoint 프레젠테이션을 만들 수 있습니다.
 
- Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있는 강력한 도구이며 전문적인 프레젠테이션을 만들 수 있는 가능성의 세계를 열어줍니다. 자유롭게 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 고급 기능과 사용자 정의 옵션을 확인하세요.
+ Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있는 강력한 도구이며 전문적인 프레젠테이션을 만들 수 있는 가능성의 세계를 열어줍니다. 자유롭게 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/slides/net/)고급 기능과 사용자 정의 옵션을 확인하세요.
 
 ## 자주 묻는 질문
 

@@ -61,7 +61,7 @@ destinationPresentation.Slides.InsertClone(1, copiedSlide);
 بعد نسخ الشريحة ووضعها، نحتاج إلى حفظ العرض التقديمي الوجهة المعدل.
 
 ```csharp
-// احفظ العرض التقديمي المعدل
+//احفظ العرض التقديمي المعدل
 destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ```
 

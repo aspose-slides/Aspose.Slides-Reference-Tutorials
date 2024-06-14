@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/slide-animation-control/control-after-animation-type/
 ---
 ## Wstęp
-Wzbogacanie prezentacji dynamicznymi animacjami jest kluczowym aspektem angażowania odbiorców. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do kontrolowania efektów animacji końcowej na slajdach. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Slides dla .NET do manipulowania typem animacji końcowej na slajdach. Postępując zgodnie z tym przewodnikiem krok po kroku, będziesz w stanie tworzyć bardziej interaktywne i atrakcyjne wizualnie prezentacje.
+Wzbogacanie prezentacji dynamicznymi animacjami jest kluczowym aspektem angażowania odbiorców. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do kontrolowania efektów animacji na slajdach. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Slides dla .NET do manipulowania typem animacji końcowej na slajdach. Postępując zgodnie z tym przewodnikiem krok po kroku, będziesz w stanie tworzyć bardziej interaktywne i atrakcyjne wizualnie prezentacje.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że masz następujące elementy:
 - Podstawowa znajomość programowania w C# i .NET.

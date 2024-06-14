@@ -9,7 +9,7 @@ url: /ko/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
 ## 소개
 .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 스케치된 모양을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 프레젠테이션에 창의성을 더하고 싶다면 스케치된 모양이 독특하고 손으로 그린 미학을 제공합니다. 이 튜토리얼에서는 원활한 경험을 보장하기 위해 프로세스를 간단한 단계로 나누어 프로세스를 안내합니다.
-## 전제조건
+## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Slides: .NET용 Aspose.Slides 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/slides/net/).
 - 개발 환경: 선호하는 IDE로 .NET 개발 환경을 설정합니다.
@@ -65,7 +65,7 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 프레젠테이션 슬라이드에 스케치된 모양을 추가하면 시각적 매력을 향상하고 청중의 관심을 끌 수 있습니다. .NET용 Aspose.Slides를 사용하면 프로세스가 간단해져서 창의력을 쉽게 발휘할 수 있습니다.
 ## 자주 묻는 질문
 ### 1. 스케치 효과를 사용자 정의할 수 있나요?
-예, .NET용 Aspose.Slides는 스케치 효과에 대한 다양한 사용자 정의 옵션을 제공합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 정보를 보려면.
+ 예, .NET용 Aspose.Slides는 스케치 효과에 대한 다양한 사용자 정의 옵션을 제공합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
 ### 2. 무료 평가판이 있나요?
  틀림없이! .NET용 Aspose.Slides의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 3. 어디서 지원을 받을 수 있나요?
@@ -73,4 +73,4 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 ### 4. .NET용 Aspose.Slides를 어떻게 구매할 수 있나요?
  .NET용 Aspose.Slides를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
 ### 5. 임시 라이센스를 제공합니까?
- 예, 임시 라이선스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ 예, 임시 라이센스를 사용할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).

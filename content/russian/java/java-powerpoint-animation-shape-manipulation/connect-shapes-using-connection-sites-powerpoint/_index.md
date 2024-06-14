@@ -19,7 +19,7 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-
 Для начала импортируйте необходимые пакеты в свой Java-проект:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Шаг 1. Доступ к коллекции фигур
 Доступ к коллекции фигур для выбранного слайда:

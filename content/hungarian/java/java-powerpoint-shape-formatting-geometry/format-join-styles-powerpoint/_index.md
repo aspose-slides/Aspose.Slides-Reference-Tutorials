@@ -8,18 +8,18 @@ weight: 15
 url: /hu/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
 ## Bevezetés
-A látványos PowerPoint-prezentációk készítése ijesztő feladat lehet, különösen akkor, ha azt szeretné, hogy minden részlet tökéletes legyen. Itt jön jól az Aspose.Slides for Java. Ez egy hatékony API, amely lehetővé teszi prezentációk programozott létrehozását, kezelését és kezelését. Az egyik használható funkció a különböző vonalillesztési stílusok beállítása az alakzatokhoz, ami jelentősen javíthatja a diák esztétikáját. Ebben az oktatóanyagban azt mutatjuk be, hogyan használhatja az Aspose.Slides for Java-t az alakzatok összekapcsolási stílusainak beállítására a PowerPoint-prezentációkban. 
+látványos PowerPoint-prezentációk készítése ijesztő feladat lehet, különösen akkor, ha azt szeretné, hogy minden részlet tökéletes legyen. Itt jön jól az Aspose.Slides for Java. Ez egy hatékony API, amely lehetővé teszi prezentációk programozott létrehozását, kezelését és kezelését. Az egyik használható funkció a különböző vonalillesztési stílusok beállítása az alakzatokhoz, ami jelentősen javíthatja a diák esztétikáját. Ebben az oktatóanyagban azt mutatjuk be, hogyan használhatja az Aspose.Slides for Java-t az alakzatok összekapcsolási stílusainak beállítására a PowerPoint-prezentációkban. 
 ## Előfeltételek
 Mielőtt elkezdené, meg kell felelnie néhány előfeltételnek:
 1.  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépen. Letöltheti innen[Az Oracle webhelye](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Slides for Java Library: Le kell töltenie az Aspose.Slides for Java programot, és bele kell foglalnia a projektbe. től lehet kapni[itt](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java Library: Le kell töltenie az Aspose.Slides for Java programot, és bele kell foglalnia a projektbe. től lehet kapni[itt](https://releases.aspose.com/slides/java/).
 3. Integrált fejlesztői környezet (IDE): Használjon olyan IDE-t, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans a Java kód írásához és végrehajtásához.
 4. Alapvető Java ismerete: A Java programozás alapvető ismerete segít az oktatóanyag követésében.
 ## Csomagok importálása
 Először is importálnia kell az Aspose.Slides-hez szükséges csomagokat. Ez elengedhetetlen ahhoz, hogy elérjük a prezentációs manipulációinkhoz szükséges osztályokat és metódusokat.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.File;
 ```
@@ -34,7 +34,7 @@ if (!IsExists)
 ```
 Ebben a lépésben meghatározunk egy könyvtár elérési utat, és ellenőrizzük, hogy létezik-e. Ha nem, akkor létrehozzuk a könyvtárat. Ez egy egyszerű, de hatékony módszer a fájlok rendszerezésére.
 ## 2. lépés: Inicializálja a prezentációt
- Ezután példányosítjuk a`Presentation`osztály, amely a PowerPoint fájlunkat képviseli. Ez az az alap, amelyre diáinkat és formáinkat építjük.
+ Ezután példányosítjuk a`Presentation` osztály, amely a PowerPoint fájlunkat képviseli. Ez az az alap, amelyre diáinkat és formáinkat építjük.
 ```java
 Presentation pres = new Presentation();
 ```
@@ -93,7 +93,7 @@ Annak érdekében, hogy egyértelművé tegyük az egyes alakzatok jelentését,
 ((IAutoShape) shp3).getTextFrame().setText("This is Round Join Style");
 ```
 A szöveg hozzáadása segít a különböző stílusok azonosításában, amikor bemutatja vagy megosztja a diát.
-## 7. lépés: Mentse el a prezentációt
+## 7. lépés: Mentse el a bemutatót
 Végül elmentjük a prezentációnkat a megadott könyvtárba.
 ```java
 pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);

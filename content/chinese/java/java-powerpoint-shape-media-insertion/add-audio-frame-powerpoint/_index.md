@@ -18,7 +18,7 @@ url: /zh/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 将必要的包导入到你的 Java 项目中：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

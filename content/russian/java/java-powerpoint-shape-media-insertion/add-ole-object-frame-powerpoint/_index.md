@@ -12,13 +12,13 @@ url: /ru/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpo
 ### Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующие предварительные условия:
 1. Среда разработки Java: убедитесь, что в вашей системе установлен Java Development Kit (JDK).
-2. Aspose.Slides для Java: загрузите и установите Aspose.Slides для Java с веб-сайта.[здесь](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides для Java: загрузите и установите Aspose.Slides для Java с веб-сайта.[здесь](https://releases.aspose.com/slides/java/).
 3. Базовое понимание программирования на Java: ознакомьтесь с концепциями и синтаксисом программирования на Java.
 ## Импортировать пакеты
 Во-первых, вам необходимо импортировать необходимые пакеты, чтобы использовать функциональные возможности Aspose.Slides для Java. Вот как вы можете это сделать:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 Создайте объект Presentation, который будет представлять файл PowerPoint, с которым вы работаете:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // Создать экземпляр класса Presentation, представляющего PPTX.
 Presentation pres = new Presentation();
 ```
@@ -67,7 +67,7 @@ pres.save(outPath + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ```
 
 ## Заключение
-Поздравляем! Вы успешно научились добавлять фрейм объекта OLE в презентации PowerPoint с помощью Aspose.Slides для Java. Эта мощная функция позволяет встраивать различные типы объектов, повышая интерактивность и визуальную привлекательность ваших слайдов.
+Поздравляем! Вы успешно научились добавлять рамку объекта OLE в презентации PowerPoint с помощью Aspose.Slides для Java. Эта мощная функция позволяет встраивать различные типы объектов, повышая интерактивность и визуальную привлекательность ваших слайдов.
 
 ## Часто задаваемые вопросы
 ### Могу ли я вставлять объекты, отличные от файлов Excel, с помощью Aspose.Slides для Java?

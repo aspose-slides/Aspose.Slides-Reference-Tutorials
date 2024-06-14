@@ -14,7 +14,7 @@ In questo tutorial, dimostreremo come recuperare le coordinate rettangolari di u
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo ambiente di sviluppo Java. Puoi scaricarlo da[Qui](https://downloads.aspose.com/slides/java).
+ Prima di iniziare, assicurati di avere la libreria Aspose.Slides per Java installata e configurata nel tuo ambiente di sviluppo Java. Puoi scaricarlo da[Qui](https://downloads.aspose.com/slides/java).
 
 ## Passaggio 1: importa le librerie necessarie
 
@@ -107,7 +107,7 @@ Sì, Aspose.Slides per Java è adatto per l'elaborazione batch di file PowerPoin
 
 ### Dove posso trovare altri esempi e documentazione?
 
- Puoi trovare altri esempi di codice e documentazione dettagliata per Aspose.Slides per Java su[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/)sito web. Inoltre, puoi esplorare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides) per il supporto e le discussioni della comunità.
+ Puoi trovare altri esempi di codice e documentazione dettagliata per Aspose.Slides per Java su[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/) sito web. Inoltre, puoi esplorare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides) per il supporto e le discussioni della comunità.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Slides per Java?
 

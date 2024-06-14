@@ -19,7 +19,7 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effectiv
 ```java
 import com.aspose.slides.IThreeDFormatEffectiveData;
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## الخطوة 1: إعداد دليل المستندات
 حدد المسار إلى دليل المستند الخاص بك حيث يوجد عرض PowerPoint التقديمي:

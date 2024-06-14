@@ -12,7 +12,7 @@ url: /ko/java/chart-elements/sunburst-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 PowerPoint 프레젠테이션에서 Sunburst 차트를 만드는 방법을 배웁니다. 선버스트 차트는 계층적 데이터를 나타내는 데 사용되는 방사형 차트입니다. 소스 코드와 함께 단계별 지침을 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java 프로젝트에 Aspose.Slides for Java 라이브러리가 설치 및 구성되어 있는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
 
@@ -159,9 +159,9 @@ finally
 
 ### 차트에 데이터 포인트를 더 추가할 수 있나요?
 
- 예, 다음을 사용하여 차트에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForSunburstSeries()` 포함하려는 각 데이터 포인트에 대한 방법입니다.
+ 예, 다음을 사용하여 차트에 더 많은 데이터 포인트를 추가할 수 있습니다.`series.getDataPoints().addDataPointForSunburstSeries()` 포함하려는 각 데이터 포인트에 대한 메서드입니다.
 
-### Sunburst 차트에 도구 설명을 어떻게 추가할 수 있나요?
+### Sunburst 차트에 도구 설명을 추가하려면 어떻게 해야 합니까?
 
 선버스트 차트에 도구 설명을 추가하려면 차트 세그먼트 위로 마우스를 가져갈 때 값이나 설명과 같은 추가 정보를 표시하도록 데이터 레이블 형식을 설정할 수 있습니다.
 

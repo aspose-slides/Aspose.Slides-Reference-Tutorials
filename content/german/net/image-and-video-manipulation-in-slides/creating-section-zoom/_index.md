@@ -67,6 +67,6 @@ Ja, Aspose.Slides lässt sich nahtlos in Visual Studio für die .NET-Entwicklung
 ### Kann ich das Erscheinungsbild des Abschnitts-Zoomrahmens anpassen?
 Auf jeden Fall! Sie haben die volle Kontrolle über die Abmessungen, die Positionierung und das Design des Abschnittszoomrahmens.
 ### Gibt es eine Testversion für Aspose.Slides?
-Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[Kostenlose Testphase](https://releases.aspose.com/).
+ Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[Kostenlose Testphase](https://releases.aspose.com/).
 ### Wo erhalte ich Unterstützung bei Fragen zu Aspose.Slides?
  Für Support oder Fragen besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).

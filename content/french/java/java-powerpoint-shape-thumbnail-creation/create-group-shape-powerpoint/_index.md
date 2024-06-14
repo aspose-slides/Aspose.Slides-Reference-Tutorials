@@ -12,21 +12,21 @@ Dans les présentations modernes, l’incorporation d’éléments visuellement 
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous d'avoir configuré les conditions préalables suivantes :
 1. Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre système.
-2.  Bibliothèque Aspose.Slides pour Java : téléchargez et incluez la bibliothèque Aspose.Slides pour Java dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
+2. Bibliothèque Aspose.Slides pour Java : téléchargez et incluez la bibliothèque Aspose.Slides pour Java dans votre projet. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/slides/java/).
 3. Environnement de développement intégré (IDE) : choisissez un IDE Java de votre préférence, tel qu'IntelliJ IDEA ou Eclipse.
 
 ## Importer des packages
 Pour commencer, importez les packages nécessaires à l'utilisation des fonctionnalités d'Aspose.Slides pour Java :
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Étape 1 : Configurez votre environnement
- Assurez-vous de disposer d'un répertoire configuré pour votre projet dans lequel vous pouvez créer et enregistrer des présentations PowerPoint. Remplacer`"Your Document Directory"`avec le chemin d'accès au répertoire souhaité.
+ Assurez-vous de disposer d'un répertoire configuré pour votre projet dans lequel vous pouvez créer et enregistrer des présentations PowerPoint. Remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire souhaité.
 ```java
 String dataDir = "Your Document Directory";
 ```
-## Étape 2 : Instancier la classe de présentation
+## Étape 2 : Instancier un cours de présentation
  Créez une instance du`Presentation` classe pour initialiser une nouvelle présentation PowerPoint.
 ```java
 Presentation pres = new Presentation();

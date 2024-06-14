@@ -10,7 +10,7 @@ url: /vi/java/image-handling/add-image-from-svg-object-in-java-slides/
 
 ## Giới thiệu về Thêm hình ảnh từ đối tượng SVG trong Java Slides
 
-Trong thời đại kỹ thuật số ngày nay, bài thuyết trình đóng một vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Việc thêm hình ảnh vào bản trình bày của bạn có thể nâng cao sức hấp dẫn trực quan và khiến chúng hấp dẫn hơn. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thêm hình ảnh từ đối tượng SVG (Đồ họa vectơ có thể mở rộng) vào Java Slides bằng Aspose.Slides for Java. Cho dù bạn đang tạo nội dung giáo dục, bài thuyết trình kinh doanh hay bất kỳ nội dung nào khác, hướng dẫn này sẽ giúp bạn nắm vững nghệ thuật kết hợp hình ảnh SVG vào bản trình bày Java Slides của mình.
+Trong thời đại kỹ thuật số ngày nay, bài thuyết trình đóng một vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Việc thêm hình ảnh vào bản trình bày của bạn có thể nâng cao sức hấp dẫn trực quan và khiến chúng hấp dẫn hơn. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thêm hình ảnh từ đối tượng SVG (Đồ họa vectơ có thể mở rộng) vào Java Slides bằng Aspose.Slides cho Java. Cho dù bạn đang tạo nội dung giáo dục, bài thuyết trình kinh doanh hay bất kỳ nội dung nào khác, hướng dẫn này sẽ giúp bạn nắm vững nghệ thuật kết hợp hình ảnh SVG vào bản trình bày Java Slides của mình.
 
 ## Điều kiện tiên quyết
 

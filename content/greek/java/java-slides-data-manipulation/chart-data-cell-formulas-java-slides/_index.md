@@ -21,7 +21,7 @@ url: /el/java/data-manipulation/chart-data-cell-formulas-java-slides/
 Αρχικά, ας δημιουργήσουμε μια νέα παρουσίαση PowerPoint και ας προσθέσουμε ένα γράφημα σε αυτήν.
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.separator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.separator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {
@@ -86,7 +86,7 @@ presentation.save(outpptxFile, SaveFormat.Pptx);
 ## Πλήρης πηγαίος κώδικας για τύπους κυψελών δεδομένων γραφήματος σε διαφάνειες Java
 
 ```java
-String outpptxFile = RunExamples.getOutPath() + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
+String outpptxFile = "Your Output Directory" + File.pathSeparator + "ChartDataCell_Formulas_out.pptx";
 Presentation presentation = new Presentation();
 try
 {

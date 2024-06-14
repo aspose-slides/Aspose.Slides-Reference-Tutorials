@@ -120,4 +120,4 @@ Aspose.Slides 支持多种编程语言，包括 C#、VB.NET 等。
 您可以在以下位置访问 Aspose.Slides for .NET 的综合文档[API 参考](https://reference.aspose.com/slides/net/)页。
 
 ## 结论
-在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 管理正常视图状态下的演示文稿。借助其强大的功能，您可以以编程方式创建、修改和增强演示文稿，确保您的内容有效吸引观众。无论您是专业演示者还是从事演示相关应用程序的开发人员，Aspose.Slides for .NET 都是您实现无缝演示文稿管理的门户。
+在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 管理正常视图状态下的演示文稿。借助其强大的功能，您可以以编程方式创建、修改和增强演示文稿，确保您的内容有效地吸引观众。无论您是专业演示者还是从事演示相关应用程序的开发人员，Aspose.Slides for .NET 都是您实现无缝演示文稿管理的门户。

@@ -19,7 +19,7 @@ url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-po
 まず、Aspose.Slides の機能を利用するには、Java コードに必要なパッケージをインポートする必要があります。Java ファイルの先頭に次のインポート ステートメントを含めます。
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -29,7 +29,7 @@ import java.io.IOException;
 ```java
 String dataDir = "Your Document Directory";
 ```
-交換する`"Your Document Directory"`PowerPoint ファイルを含むディレクトリへのパスを入力します。
+交換する`"Your Document Directory"` PowerPoint ファイルを含むディレクトリへのパスを入力します。
 ## ステップ2: プレゼンテーションオブジェクトのインスタンス化
 ```java
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");

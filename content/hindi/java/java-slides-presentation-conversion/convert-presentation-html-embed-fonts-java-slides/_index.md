@@ -17,7 +17,7 @@ url: /hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 इससे पहले कि हम कोड और रूपांतरण प्रक्रिया में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
 - आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- Aspose.Slides for Java API, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
+-  Aspose.Slides for Java API, जिसे आप यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
 -  एक प्रस्तुति फ़ाइल (जैसे,`presentation.pptx`) जिसे आप HTML में बदलना चाहते हैं.
 
 ## चरण 1: जावा वातावरण की स्थापना
@@ -26,7 +26,7 @@ url: /hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java
 
 ## चरण 2: प्रेजेंटेशन फ़ाइल लोड करना
 
- अपने जावा कोड में, आपको उस प्रेजेंटेशन फ़ाइल को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
+अपने जावा कोड में, आपको उस प्रेजेंटेशन फ़ाइल को लोड करना होगा जिसे आप कनवर्ट करना चाहते हैं।`"Your Document Directory"` अपनी प्रस्तुति फ़ाइल के वास्तविक पथ के साथ.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -45,7 +45,7 @@ try
     LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
     HtmlOptions htmlOptionsEmbed = new HtmlOptions();
     htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-    pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+    pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -75,7 +75,7 @@ try
 	LinkAllFontsHtmlController linkcont = new LinkAllFontsHtmlController(fontNameExcludeList, "C:\\Windows\\Fonts\\");
 	HtmlOptions htmlOptionsEmbed = new HtmlOptions();
 	htmlOptionsEmbed.setHtmlFormatter(HtmlFormatter.createCustomFormatter(linkcont));
-	pres.save(RunExamples.getOutPath() + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
+	pres.save("Your Output Directory" + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 }
 finally
 {
@@ -95,7 +95,7 @@ finally
 
 ### क्या मैं HTML आउटपुट को और अधिक अनुकूलित कर सकता हूँ, जैसे स्टाइलिंग और लेआउट?
 
- हां, आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं`HtmlOptions`और फ़ॉर्मेटिंग के लिए इस्तेमाल किया गया HTML टेम्प्लेट। Java के लिए Aspose.Slides इस संबंध में लचीलापन प्रदान करता है।
+ हां, आप HTML आउटपुट को संशोधित करके अनुकूलित कर सकते हैं`HtmlOptions` और फ़ॉर्मेटिंग के लिए इस्तेमाल किया गया HTML टेम्प्लेट। Java के लिए Aspose.Slides इस संबंध में लचीलापन प्रदान करता है।
 
 ### HTML में फ़ॉन्ट एम्बेड करते समय क्या कोई सीमाएं हैं?
 

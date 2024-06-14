@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
- Ez a kódrészlet inicializálja a szükséges könyvtárakat és fájl útvonalakat, megnyit egy PowerPoint prezentációt, és SVG fájllá alakítja, miközben formázást alkalmaz a`MySvgShapeFormattingController`.
+ Ez a kódrészlet inicializálja a szükséges könyvtárakat és fájl útvonalakat, megnyit egy PowerPoint prezentációt, és SVG-fájllá alakítja, miközben formázást alkalmaz a`MySvgShapeFormattingController`.
 
 ## Az SVG Shape Formatting Controller megértése
 

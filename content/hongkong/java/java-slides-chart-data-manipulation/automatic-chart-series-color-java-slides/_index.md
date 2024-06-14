@@ -181,7 +181,7 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 
 ### 如何為圖表新增其他系列或類別？
 
-若要為圖表新增其他系列或類別，請使用`getSeries()`和`getCategories()`圖表的方法`ChartData`目的。您可以透過指定資料和標籤來新增新的系列和類別。
+若要為圖表新增其他系列或類別，請使用`getSeries()`和`getCategories()`圖表的方法`ChartData`目的。您可以透過指定資料和標籤來新增系列和類別。
 
 ### 是否可以進一步格式化圖表和標籤？
 

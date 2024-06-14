@@ -12,14 +12,14 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/remove-segment-geom
 ## 先決條件
 在我們開始之前，請確保您具備以下條件：
 1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。您可以從[甲骨文網站](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Slides for Java：從下列位置下載 Aspose.Slides for Java 函式庫[這裡](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java：從下列位置下載 Aspose.Slides for Java 函式庫[這裡](https://releases.aspose.com/slides/java/).
 3. 整合開發環境 (IDE)：使用 IntelliJ IDEA 或 Eclipse 等 IDE 來編寫和執行 Java 程式碼。
 4. Java 基礎知識：對 Java 程式設計的基本了解將幫助您學習本教學。
 ## 導入包
 首先，我們需要從 Aspose.Slides 庫匯入必要的套件。操作方法如下：
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 讓我們將從 PowerPoint 投影片中的幾何圖形中刪除線段的過程分解為多個步驟。
 ## 第 1 步：建立新簡報
@@ -50,7 +50,7 @@ shape.setGeometryPath(path);
 ## 第 6 步：儲存簡報
 最後，將修改後的簡報儲存到文件中。
 ```java
-String resultPath = RunExamples.getOutPath() + "GeometryShapeRemoveSegment.pptx";
+String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## 第 7 步：清理資源
@@ -59,7 +59,7 @@ pres.save(resultPath, SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 ## 結論
-現在你就得到它了！透過 Aspose.Slides for Java，在 PowerPoint 簡報中操作造型既簡單又有效率。透過遵循本教學中概述的步驟，您可以輕鬆地從幾何形狀中刪除線段，從而更好地控制投影片的設計和功能。快樂編碼！
+現在你就擁有了！透過 Aspose.Slides for Java，在 PowerPoint 簡報中操作造型既簡單又有效率。透過遵循本教學中概述的步驟，您可以輕鬆地從幾何形狀中刪除線段，從而更好地控制投影片的設計和功能。快樂編碼！
 ## 常見問題解答
 ### 什麼是 Java 版 Aspose.Slides？
 Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方式建立、修改和管理 PowerPoint 簡報。

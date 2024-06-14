@@ -12,7 +12,7 @@ url: /ko/java/presentation-conversion/convert-to-pdf-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java 라이브러리를 사용하여 PowerPoint 프레젠테이션을 Java의 PDF 문서로 변환하는 과정을 안내합니다. Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업하기 위한 강력한 API입니다. 이 작업을 수행하는 데 필요한 Java 소스 코드와 함께 단계별 가이드를 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

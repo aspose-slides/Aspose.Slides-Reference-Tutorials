@@ -130,4 +130,4 @@ Ja, du kan anpassa utseendet på de inverterade datapunkterna. Aspose.Slides fö
 
 ### Var kan jag komma åt Aspose.Slides för Java-dokumentationen?
 
- Du kan komma åt dokumentationen för Aspose.Slides för Java på[här](https://reference.aspose.com/slides/java/).
+Du kan komma åt dokumentationen för Aspose.Slides för Java på[här](https://reference.aspose.com/slides/java/).

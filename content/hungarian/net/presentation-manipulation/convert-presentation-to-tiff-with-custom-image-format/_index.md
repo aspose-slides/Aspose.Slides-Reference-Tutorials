@@ -2,7 +2,7 @@
 title: Konvertálja a prezentációt TIFF formátumba egyéni képformátummal
 linktitle: Konvertálja a prezentációt TIFF formátumba egyéni képformátummal
 second_title: Aspose.Slides .NET PowerPoint Processing API
-description: Ismerje meg, hogyan konvertálhat prezentációkat TIFF-formátumba egyéni képbeállításokkal az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
+description: Ismerje meg, hogyan konvertálhat prezentációkat TIFF-formátumba egyéni képbeállításokkal az Aspose.Slides for .NET segítségével. Útmutató lépésről lépésre kódpéldákkal.
 type: docs
 weight: 26
 url: /hu/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/

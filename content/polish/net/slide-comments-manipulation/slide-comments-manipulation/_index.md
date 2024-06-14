@@ -68,7 +68,7 @@ comment.Author = "John Doe";
 // Zmień położenie komentarza
 comment.Position = new Point(100, 100);
 
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("formatted.pptx", SaveFormat.Pptx);
 ```
 
@@ -89,7 +89,7 @@ IComment comment = slide.Comments[0];
 // Usuń komentarz
 slide.Comments.Remove(comment);
 
-// Zapisz zmodyfikowaną prezentację
+//Zapisz zmodyfikowaną prezentację
 presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ```
 
@@ -121,4 +121,4 @@ Tak, możesz wyeksportować komentarze do osobnego pliku tekstowego lub dowolneg
 
 ## Wniosek
 
-Manipulowanie komentarzami do slajdów za pomocą Aspose.Slides umożliwia przejęcie kontroli nad adnotacjami w prezentacji. Od dodawania i edytowania komentarzy po ich formatowanie i usuwanie, Aspose.Slides zapewnia kompleksowy zestaw narzędzi do optymalizacji przepływu pracy podczas prezentacji. Automatyzując te zadania, możesz usprawnić współpracę i zwiększyć przejrzystość swoich prezentacji. Eksplorując możliwości Aspose.Slides, odkryjesz nowe sposoby na uczynienie prezentacji efektownymi i wciągającymi.
+Manipulowanie komentarzami do slajdów za pomocą Aspose.Slides umożliwia przejęcie kontroli nad adnotacjami w prezentacji. Od dodawania i edytowania komentarzy po ich formatowanie i usuwanie, Aspose.Slides zapewnia kompleksowy zestaw narzędzi do optymalizacji przepływu prezentacji. Automatyzując te zadania, możesz usprawnić współpracę i zwiększyć przejrzystość swoich prezentacji. Eksplorując możliwości Aspose.Slides, odkryjesz nowe sposoby na uczynienie prezentacji efektownymi i wciągającymi.

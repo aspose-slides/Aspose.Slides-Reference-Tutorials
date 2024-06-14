@@ -19,7 +19,7 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumb
 ```java
 import com.aspose.slides.Presentation;
 import com.aspose.slides.ShapeThumbnailBounds;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;

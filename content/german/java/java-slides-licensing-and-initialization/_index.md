@@ -34,7 +34,7 @@ Wenn Ihre Lizenz vorhanden ist, ist es an der Zeit, Aspose.Slides für Java zu i
 
 5. Speichern Ihrer Arbeit: Sobald Sie Ihre Präsentation erstellt haben, speichern Sie sie in Ihrem bevorzugten Format. Aspose.Slides für Java unterstützt eine Vielzahl von Formaten und gewährleistet so die Kompatibilität mit verschiedenen Anwendungen.
 
-Zusammenfassend lässt sich sagen, dass die Lizenzierung und Initialisierung von Aspose.Slides für Java die grundlegenden Schritte sind, um Ihre Reise zur Erstellung visuell beeindruckender Präsentationen zu beginnen. Mit der richtigen Lizenz und der richtigen Initialisierung verfügen Sie über die Tools, die Sie benötigen, um Ihr Publikum zu fesseln und Ihre Botschaft effektiv zu vermitteln. Worauf also warten? Beginnen Sie noch heute mit Java Slides und entfesseln Sie die Leistungsfähigkeit von Aspose.Slides für Java!
+Zusammenfassend lässt sich sagen, dass die Lizenzierung und Initialisierung von Aspose.Slides für Java die grundlegenden Schritte sind, um mit der Erstellung visuell beeindruckender Präsentationen zu beginnen. Mit der richtigen Lizenz und der richtigen Initialisierung verfügen Sie über die Tools, die Sie benötigen, um Ihr Publikum zu fesseln und Ihre Botschaft effektiv zu vermitteln. Worauf also warten? Beginnen Sie noch heute mit Java Slides und entfesseln Sie die Leistungsfähigkeit von Aspose.Slides für Java!
 ## Java Slides-Lizenzierungs- und Initialisierungs-Tutorials
 ### [Maßgeschneiderte Lizenzierung in Java-Folien](./metered-licensing-java-slides/)
 Optimieren Sie Ihre Aspose.Slides für die Java-Nutzung mit Metered Licensing. Erfahren Sie, wie Sie es einrichten und Ihren API-Verbrauch überwachen.

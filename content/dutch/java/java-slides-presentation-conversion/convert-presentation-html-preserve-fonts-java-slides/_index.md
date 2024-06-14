@@ -15,7 +15,7 @@ In deze zelfstudie onderzoeken we hoe u een PowerPoint-presentatie (PPTX) naar H
 ## Stap 1: Het project opzetten
 Voordat we in de code duiken, moeten we ervoor zorgen dat u over de benodigde instellingen beschikt:
 
-1. Aspose.Slides voor Java downloaden: als u dat nog niet heeft gedaan, downloadt u de Aspose.Slides voor Java-bibliotheek en neemt u deze op in uw project.
+1. Aspose.Slides voor Java downloaden: Als u dat nog niet heeft gedaan, downloadt u de Aspose.Slides voor Java-bibliotheek en neemt u deze op in uw project.
 
 2. Maak een Java-project: stel een Java-project in uw favoriete IDE in en zorg ervoor dat u een "lib"-map hebt waarin u het JAR-bestand Aspose.Slides kunt plaatsen.
 
@@ -41,7 +41,7 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation("input.pptx");
 
 try {
-    //Sluit standaardpresentatielettertypen zoals Calibri en Arial uit
+    // Sluit standaardpresentatielettertypen zoals Calibri en Arial uit
     String[] fontNameExcludeList = {"Calibri", "Arial"};
     EmbedAllFontsHtmlController embedFontsController = new EmbedAllFontsHtmlController(fontNameExcludeList);
     
@@ -61,7 +61,7 @@ In dit codefragment:
 
 -  We laden de ingevoerde PowerPoint-presentatie met behulp van`Presentation`.
 
-- We definiëren een lijst met lettertypen (`fontNameExcludeList`) die we willen uitsluiten van insluiten in de HTML. Dit is handig voor het uitsluiten van veelgebruikte lettertypen zoals Calibri en Arial om de bestandsgrootte te verkleinen.
+- We definiëren een lijst met lettertypen (`fontNameExcludeList`die we willen uitsluiten van insluiten in de HTML. Dit is handig voor het uitsluiten van veelgebruikte lettertypen zoals Calibri en Arial om de bestandsgrootte te verkleinen.
 
 -  We maken een exemplaar van`EmbedAllFontsHtmlController` en geef de lijst met lettertype-uitsluitingen eraan door.
 
@@ -98,7 +98,7 @@ In deze zelfstudie hebt u geleerd hoe u een PowerPoint-presentatie naar HTML kun
 
 ### Hoe download ik Aspose.Slides voor Java?
 
- kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek[hier](https://downloads.aspose.com/slides/java/) om de nieuwste versie te krijgen.
+ U kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek[hier](https://downloads.aspose.com/slides/java/) om de nieuwste versie te krijgen.
 
 ### Kan ik de lijst met uitgesloten lettertypen aanpassen?
 

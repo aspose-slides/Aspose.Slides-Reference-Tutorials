@@ -11,7 +11,7 @@ url: /de/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-sh
 In der dynamischen Welt des Präsentationsdesigns kann die Einbindung von Formen wie Ellipsen einen Hauch von Kreativität und Professionalität verleihen. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zur programmgesteuerten Bearbeitung von Präsentationsdateien. Dieses Tutorial führt Sie durch den Prozess der Erstellung einer einfachen Ellipsenform in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
 Bevor Sie mit dem Lernprogramm beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET installiert haben. Sie können sie von der[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
+- Aspose.Slides für .NET: Stellen Sie sicher, dass Sie die Aspose.Slides-Bibliothek für .NET installiert haben. Sie können sie von der[Veröffentlichungsseite](https://releases.aspose.com/slides/net/).
 - Entwicklungsumgebung: Richten Sie auf Ihrem Computer eine .NET-Entwicklungsumgebung ein.
 ## Namespaces importieren
 Importieren Sie in Ihrem .NET-Projekt zunächst die erforderlichen Namespaces:
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 ```
 Dieser Code initialisiert eine neue Präsentation und wählt die erste Folie zur weiteren Bearbeitung aus.
 ## Schritt 2: Ellipsenform hinzufügen
-Fügen wir nun der Folie eine Ellipsenform hinzu, indem wir`AddAutoShape` Methode:
+ Fügen wir nun der Folie eine Ellipsenform hinzu, indem wir`AddAutoShape` Methode:
 ```csharp
 // AutoForm vom Typ Ellipse hinzufügen
 sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);

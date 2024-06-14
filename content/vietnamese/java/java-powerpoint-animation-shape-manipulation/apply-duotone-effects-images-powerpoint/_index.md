@@ -19,7 +19,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những �
 Trước tiên, bạn cần nhập các gói cần thiết vào chương trình Java của mình. Đây là cách bạn làm điều đó:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

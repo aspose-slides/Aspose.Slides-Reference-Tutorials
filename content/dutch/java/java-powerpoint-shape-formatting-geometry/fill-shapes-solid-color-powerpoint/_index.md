@@ -20,7 +20,7 @@ Voordat we in de code duiken, zijn er een paar vereisten die je moet hebben:
 Om Aspose.Slides voor Java te gaan gebruiken, moet u de benodigde pakketten importeren. Hier ziet u hoe u het kunt doen:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 ```
 ## Stap 1: Stel uw project in
@@ -56,13 +56,13 @@ IShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 50, 150, 75, 
 ## Stap 5: Stel het vultype in op Effen
  Als u de vorm met een effen kleur wilt vullen, stelt u het vultype in op`Solid`.
 ```java
-//Stel het vultype in op Effen
+// Stel het vultype in op Effen
 shape.getFillFormat().setFillType(FillType.Solid);
 ```
 ## Stap 6: Kies en pas de kleur toe
 Kies een kleur voor de vorm. Hier gebruiken we geel, maar je kunt elke gewenste kleur selecteren.
 ```java
-// Stel de kleur van de rechthoek in
+//Stel de kleur van de rechthoek in
 shape.getFillFormat().getSolidFillColor().setColor(Color.YELLOW);
 ```
 ## Stap 7: Sla de presentatie op
@@ -84,4 +84,4 @@ Ja, met Aspose.Slides voor Java kunt u bestaande PowerPoint-presentaties openen,
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u kunt een gratis proefversie downloaden van de[Aspose-website](https://releases.aspose.com/).
 ### Waar kan ik meer documentatie en ondersteuning vinden?
- Gedetailleerde documentatie is beschikbaar op de[Aspose-website](https://reference.aspose.com/slides/java/) , en u kunt ondersteuning zoeken op de[Stel forums voor](https://forum.aspose.com/c/slides/11).
+ Gedetailleerde documentatie is beschikbaar op de[Aspose-website](https://reference.aspose.com/slides/java/) en u kunt ondersteuning zoeken op de[Stel forums voor](https://forum.aspose.com/c/slides/11).

@@ -39,10 +39,10 @@ using (Bitmap bitmap = presentation.Slides[0].Shapes[0].GetThumbnail(ShapeThumbn
     // Bitmapový objekt nyní obsahuje miniaturu se zadanými hranicemi.
 }
 ```
- Tento krok zahrnuje vytvoření miniatury tvaru se zadanými hranicemi. Tady,`ShapeThumbnailBounds.Appearance`se používá k definování hranic vzhledu. Upravte parametry (1, 1) podle svých požadavků.
+ Tento krok zahrnuje vytvoření miniatury tvaru se zadanými hranicemi. Tady,`ShapeThumbnailBounds.Appearance` se používá k definování hranic vzhledu. Upravte parametry (1, 1) podle svých požadavků.
 ## Krok 3: Uložte obrázek na disk
 ```csharp
-// Uložte obrázek na disk ve formátu PNG
+//Uložte obrázek na disk ve formátu PNG
 bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
 ```
 V tomto posledním kroku se vygenerovaná miniatura uloží na disk ve formátu PNG. Název a formát souboru si můžete přizpůsobit podle svých preferencí.
@@ -53,9 +53,9 @@ Aspose.Slides for .NET zjednodušuje proces práce s prezentacemi v PowerPointu 
 ### Je Aspose.Slides kompatibilní s nejnovějším rámcem .NET?
 Ano, Aspose.Slides je pravidelně aktualizován, aby byla zajištěna kompatibilita s nejnovějšími verzemi .NET frameworku.
 ### Mohu použít Aspose.Slides pro komerční projekty?
-Absolutně! Aspose.Slides nabízí možnosti licencování pro individuální i komerční použití. Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat podrobnosti o licencích.
+ Absolutně! Aspose.Slides nabízí možnosti licencování pro individuální i komerční použití. Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat podrobnosti o licencích.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) k prozkoumání funkcí před nákupem.
+ Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) prozkoumání funkcí před nákupem.
 ### Jak mohu získat podporu pro Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) spojit se s komunitou a vyhledat pomoc od zkušených vývojářů.
 ### Mohu získat dočasnou licenci pro Aspose.Slides?

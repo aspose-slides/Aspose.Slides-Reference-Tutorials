@@ -19,7 +19,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started, you need to import the necessary packages from the Aspose.Slides library. These imports will allow you to work with presentations, slides, and shapes.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 In this guide, we will break down the process of changing the shape order into several steps for better understanding and ease of implementation.
 ## Step 1: Load the Presentation

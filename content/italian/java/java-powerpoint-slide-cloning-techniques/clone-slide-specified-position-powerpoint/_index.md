@@ -10,7 +10,7 @@ url: /it/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-pos
 ## introduzione
 Sei pronto a migliorare il tuo gioco PowerPoint? Che tu sia uno sviluppatore esperto o un principiante che cerca di automatizzare la manipolazione delle diapositive, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo di clonazione delle diapositive in una posizione specifica in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Allacciate le cinture e tuffiamoci insieme in questo viaggio!
 ## Prerequisiti
-Prima di entrare nel nocciolo della questione, assicuriamoci di avere tutto ciò di cui hai bisogno:
+Prima di passare al nocciolo della questione, assicuriamoci di avere tutto ciò di cui hai bisogno:
 1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer. Puoi scaricarlo da[Sito web dell'Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2.  Aspose.Slides per Java: scarica la libreria da[Qui](https://releases.aspose.com/slides/java/).
 3. Ambiente di sviluppo integrato (IDE): utilizza un IDE come IntelliJ IDEA, Eclipse o NetBeans per un'esperienza di codifica migliorata.
@@ -21,13 +21,13 @@ Per prima cosa importiamo i pacchetti necessari. Apri il tuo IDE Java e configur
 import com.aspose.slides.ISlideCollection;
 import com.aspose.slides.Presentation;
 import com.aspose.slides.SaveFormat;
-import com.aspose.slides.examples.RunExamples;
+
 ```
 ## Passaggio 1: impostare la directory dei dati
 Avrai bisogno di una directory per archiviare i tuoi file PowerPoint. Qui è dove caricherai il tuo file sorgente e salverai la presentazione clonata.
 ```java
 // Il percorso della directory dei documenti.
-String dataDir = RunExamples.getDataDir_Slides_Presentations_CRUD();
+String dataDir = "Your Document Directory";
 ```
 ## Passaggio 2: caricare la presentazione sorgente
 Successivamente, caricheremo la presentazione sorgente che contiene la diapositiva che desideri clonare. Questo passaggio è fondamentale poiché funge da base per l'operazione di clonazione.

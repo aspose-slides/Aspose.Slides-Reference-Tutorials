@@ -25,7 +25,7 @@ In diesem Tutorial werden wir uns mit den Feinheiten der Bild- und Videobearbeit
 - Bild- und Videoextraktion: Entdecken Sie Techniken zum Extrahieren von Bildern und Videos aus vorhandenen Folien, um eine Wiederverwendung und Anpassung zu ermöglichen.
 - Animation und Übergang: Tauchen Sie ein in die Welt der Animationen und Übergänge und sehen Sie, wie Sie mit Bildern und Videos fesselnde visuelle Sequenzen erstellen können.
 
-Am Ende dieses Tutorials verfügen Sie über solide Grundlagenkenntnisse in der Verwendung von Aspose.Slides zur Bearbeitung von Bildern und Videos in Ihren Präsentationen, wodurch Sie die visuelle Attraktivität und den Engagement-Faktor Ihrer Inhalte steigern. Egal, ob Sie Entwickler sind, der Geschäftspräsentationen verbessern möchte, oder Pädagoge, der nach innovativen Möglichkeiten zur Vermittlung von Konzepten sucht – dieses Tutorial ist Ihr Tor zur Erschließung des Potenzials von Multimedia in Folien.
+Am Ende dieses Tutorials verfügen Sie über solide Grundlagen in der Verwendung von Aspose.Slides zur Bearbeitung von Bildern und Videos in Ihren Präsentationen, wodurch Sie die visuelle Attraktivität und den Engagement-Faktor Ihrer Inhalte steigern. Egal, ob Sie Entwickler sind, der Geschäftspräsentationen verbessern möchte, oder Pädagoge, der nach innovativen Möglichkeiten zur Vermittlung von Konzepten sucht, dieses Tutorial ist Ihr Tor zur Erschließung des Potenzials von Multimedia in Folien.
 
 
 ## Bild- und Videobearbeitung in Folien-Tutorials

@@ -10,7 +10,7 @@ url: /ko/net/slide-background-manipulation/change-slide-background-normal/
 
 프레젠테이션 디자인의 세계에서는 눈길을 사로잡고 매력적인 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 배경을 변경하는 방법을 보여줍니다. 이를 통해 프레젠테이션의 시각적 매력을 향상하고 더욱 인상적으로 만들 수 있습니다. 
 
-## 전제조건
+## 전제 조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인해야 합니다.
 

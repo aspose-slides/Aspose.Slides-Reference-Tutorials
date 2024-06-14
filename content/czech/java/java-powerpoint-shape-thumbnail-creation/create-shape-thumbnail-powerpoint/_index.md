@@ -8,7 +8,7 @@ weight: 14
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
 ## Úvod
-V tomto tutoriálu se ponoříme do vytváření miniatur tvarů v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově, což umožňuje automatizaci různých úkolů, včetně generování miniatur tvarů.
+tomto tutoriálu se ponoříme do vytváření miniatur tvarů v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově, což umožňuje automatizaci různých úkolů, včetně generování miniatur tvarů.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující předpoklady:
 - Základní znalost programování v Javě.
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 Nejprve musíte do kódu Java importovat potřebné balíčky, abyste mohli využívat funkce Aspose.Slides. Na začátek souboru Java vložte následující příkazy pro import:
 ```java
 import com.aspose.slides.Presentation;
-import com.aspose.slides.examples.RunExamples;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -55,7 +55,7 @@ Ano, kód můžete upravit tak, aby cílil na obrazce na libovolném snímku, a 
 ### Podporuje Aspose.Slides jiné formáty obrázků pro ukládání náhledů?
 Ano, kromě PNG podporuje Aspose.Slides ukládání miniatur v různých formátech obrázků, jako jsou JPEG, GIF a BMP.
 ### Je Aspose.Slides vhodný pro komerční použití?
-Ano, Aspose.Slides nabízí komerční licence pro firmy a organizace. Licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy).
+ Ano, Aspose.Slides nabízí komerční licence pro firmy a organizace. Licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy).
 ### Mohu vyzkoušet Aspose.Slides před nákupem?
  Absolutně! Můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a možnosti.
 ### Kde najdu podporu pro Aspose.Slides?

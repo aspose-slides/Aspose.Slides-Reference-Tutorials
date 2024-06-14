@@ -73,7 +73,7 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 Bez námahy vylepšete vizuální přitažlivost svých prezentačních snímků využitím Aspose.Slides pro .NET k přesnému zarovnání tvarů. Tento podrobný průvodce vás vybavil znalostmi pro zefektivnění procesu zarovnání a vytvoření profesionálně vypadajících prezentací.
 ## Nejčastější dotazy
 ### Mohu zarovnat tvary ve stávající prezentaci pomocí Aspose.Slides pro .NET?
- Ano, existující prezentaci můžete načíst pomocí`Presentation.Load` poté pokračujte se zarovnáváním tvarů.
+ Ano, existující prezentaci můžete načíst pomocí`Presentation.Load` a poté pokračujte se zarovnáváním tvarů.
 ### Jsou v Aspose.Slides k dispozici další možnosti zarovnání?
 Aspose.Slides nabízí různé možnosti zarovnání, včetně AlignTop, AlignRight, AlignBottom, AlignLeft a dalších.
 ### Mohu zarovnat tvary na základě jejich rozložení na snímku?

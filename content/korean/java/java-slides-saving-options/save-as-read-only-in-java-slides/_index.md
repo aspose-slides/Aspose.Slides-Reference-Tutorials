@@ -12,7 +12,7 @@ url: /ko/java/saving-options/save-as-read-only-in-java-slides/
 
 오늘날의 디지털 시대에는 문서의 보안과 무결성을 보장하는 것이 무엇보다 중요합니다. Java로 PowerPoint 프레젠테이션을 작업하는 경우 무단 수정을 방지하기 위해 읽기 전용으로 저장해야 할 수도 있습니다. 이 포괄적인 가이드에서는 강력한 Aspose.Slides for Java API를 사용하여 이를 달성하는 방법을 살펴보겠습니다. 프레젠테이션을 효과적으로 보호하는 데 도움이 되는 단계별 지침과 소스 코드 예제를 제공하겠습니다.
 
-## 전제조건
+## 전제 조건
 
 구현 세부 사항을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -37,7 +37,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
-//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 ```
 
@@ -78,7 +78,7 @@ String dataDir = "Your Document Directory";
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-//PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
+// PPT 파일을 나타내는 Presentation 개체를 인스턴스화합니다.
 Presentation presentation = new Presentation();
 try
 {

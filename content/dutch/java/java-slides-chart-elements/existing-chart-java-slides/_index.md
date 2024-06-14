@@ -57,7 +57,7 @@ fact.getCell(defaultWorksheetIndex, 2, 0, "Modified Category 2");
 ## Stap 4: Update de eerste kaartserie
 
 ```java
-// Neem de eerste kaartenreeks
+// Neem de eerste kaartenserie
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
 // Serienaam bijwerken
@@ -90,7 +90,7 @@ series.getDataPoints().get_Item(2).getValue().setData(99);
 // Een nieuwe serie toevoegen
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 
-// Neem de derde kaartenserie
+// Neem de derde kaartenreeks
 series = chart.getChartData().getSeries().get_Item(2);
 
 // Reeksgegevens invullen
@@ -140,18 +140,18 @@ fact.getCell(defaultWorksheetIndex, 0, 1, "New_Series1");// Serienaam wijzigen
 series.getDataPoints().get_Item(0).getValue().setData(90);
 series.getDataPoints().get_Item(1).getValue().setData(123);
 series.getDataPoints().get_Item(2).getValue().setData(44);
-// Neem de tweede kaartenserie
+// Neem de tweede kaartenreeks
 series = chart.getChartData().getSeries().get_Item(1);
 // Seriegegevens worden nu bijgewerkt
 fact.getCell(defaultWorksheetIndex, 0, 2, "New_Series2");// Serienaam wijzigen
 series.getDataPoints().get_Item(0).getValue().setData(23);
 series.getDataPoints().get_Item(1).getValue().setData(67);
 series.getDataPoints().get_Item(2).getValue().setData(99);
-// Nu een nieuwe serie toevoegen
+// Nu wordt er een nieuwe serie toegevoegd
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 3, "Series 3"), chart.getType());
 // Neem de derde kaartserie
 series = chart.getChartData().getSeries().get_Item(2);
-//Vult nu seriegegevens in
+// Vult nu seriegegevens in
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 3, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 3, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 3, 30));

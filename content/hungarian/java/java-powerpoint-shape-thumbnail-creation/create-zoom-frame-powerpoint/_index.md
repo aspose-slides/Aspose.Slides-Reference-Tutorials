@@ -19,7 +19,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik
 Először is importálnia kell a szükséges csomagokat a Java projektbe. Ezek az importálások hozzáférést biztosítanak az oktatóanyaghoz szükséges Aspose.Slides funkciókhoz.
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -40,9 +40,9 @@ try {
 ```
 ## 2. lépés: A dia háttereinek testreszabása
 Diáinkat vizuálisan szeretnénk megkülönböztetni háttérszínek hozzáadásával.
-### Háttér beállítása a második diához
+### Háttér beállítása a második diahoz
 ```java
-    //Hozzon létre hátteret a második diához
+    // Hozzon létre hátteret a második diához
     slide2.getBackground().setType(BackgroundType.OwnBackground);
     slide2.getBackground().getFillFormat().setFillType(FillType.Solid);
     slide2.getBackground().getFillFormat().getSolidFillColor().setColor(Color.CYAN);
@@ -61,7 +61,7 @@ Diáinkat vizuálisan szeretnénk megkülönböztetni háttérszínek hozzáadá
     autoshape.getTextFrame().setText("Third Slide");
 ```
 ## 3. lépés: Nagyítási keretek hozzáadása
-Most adjuk hozzá a zoom kereteket a bemutatóhoz. Hozzáadunk egy nagyítási keretet dia-előnézettel, egy másikat pedig egyéni képpel.
+Most adjuk hozzá a zoom kereteket a bemutatóhoz. Hozzáadunk egy nagyítási keretet dia előnézetével, egy másikat pedig egyéni képpel.
 ### Nagyítási keret hozzáadása a dia előnézetével
 ```java
     // ZoomFrame objektumok hozzáadása dia-előnézettel

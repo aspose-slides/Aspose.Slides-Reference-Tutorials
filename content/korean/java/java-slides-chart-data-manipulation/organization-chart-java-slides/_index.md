@@ -12,7 +12,7 @@ url: /ko/java/chart-data-manipulation/organization-chart-java-slides/
 
 이 튜토리얼에서는 Aspose.Slides for Java API를 사용하여 Java Slides에서 조직도를 만드는 방법을 보여줍니다. 조직도는 조직의 계층 구조를 시각적으로 표현한 것으로, 일반적으로 직원이나 부서 간의 관계와 계층을 설명하는 데 사용됩니다.
 
-## 전제조건
+## 전제 조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -22,7 +22,7 @@ url: /ko/java/chart-data-manipulation/organization-chart-java-slides/
 ## 1단계: Java 프로젝트 설정
 
 1. 원하는 IDE에서 새 Java 프로젝트를 만듭니다.
-2.  프로젝트에 Aspose.Slides for Java 라이브러리를 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java)그리고 이를 종속성으로 포함시킵니다.
+2.  프로젝트에 Aspose.Slides for Java 라이브러리를 추가하세요. 라이브러리는 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://products.aspose.com/slides/java) 그리고 이를 종속성으로 포함시킵니다.
 
 ## 2단계: 필수 라이브러리 가져오기
 Java 클래스에서 Aspose.Slides 작업에 필요한 라이브러리를 가져옵니다.

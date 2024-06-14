@@ -63,10 +63,10 @@ Att optimera renderingsalternativen i Aspose.Slides för .NET ger ett kraftfullt
 ### F: Kan jag anpassa placeringen av anteckningar i alla bilder?
  S: Ja, genom att justera`NotesPosition` egendom i`NotesCommentsLayoutingOptions`.
 ### F: Hur ändrar jag standardteckensnittet för hela presentationen?
- S: Ställ in`DefaultRegularFont` egenskap i renderingsalternativen till önskat typsnitt.
+ A: Ställ in`DefaultRegularFont` egenskap i renderingsalternativen till önskat typsnitt.
 ### F: Finns det fler layoutalternativ för bilder?
 S: Ja, utforska Aspose.Slides-dokumentationen för en omfattande lista med layoutalternativ.
 ### F: Kan jag använda anpassade typsnitt som inte är installerade på mitt system?
  S: Ja, ange sökvägen för teckensnittsfilen med hjälp av`AddFonts` metod i`FontsLoader` klass.
 ### F: Var kan jag söka hjälp eller få kontakt med samhället?
-A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för stöd och samhällsengagemang.
+ A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för stöd och samhällsengagemang.

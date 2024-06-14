@@ -12,13 +12,13 @@ url: /ar/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpo
 ### المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 1. بيئة تطوير Java: تأكد من تثبيت Java Development Kit (JDK) على نظامك.
-2. Aspose.Slides for Java: قم بتنزيل Aspose.Slides for Java وتثبيته من موقع الويب[هنا](https://releases.aspose.com/slides/java/).
+2.  Aspose.Slides for Java: قم بتنزيل Aspose.Slides for Java وتثبيته من موقع الويب[هنا](https://releases.aspose.com/slides/java/).
 3. الفهم الأساسي لبرمجة Java: تعرف على مفاهيم برمجة Java وبناء الجملة.
 ## حزم الاستيراد
 أولاً، تحتاج إلى استيراد الحزم اللازمة للاستفادة من وظائف Aspose.Slides لـ Java. وإليك كيف يمكنك القيام بذلك:
 ```java
 import com.aspose.slides.*;
-import com.aspose.slides.examples.RunExamples;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ import java.io.IOException;
 قم بإنشاء كائن عرض تقديمي لتمثيل ملف PowerPoint الذي تعمل به:
 ```java
 String dataDir = "Your Document Directory";
-String outPath = RunExamples.getOutPath();
+String outPath = "Your Output Directory";
 // إنشاء فئة العرض التقديمي التي تمثل PPTX
 Presentation pres = new Presentation();
 ```

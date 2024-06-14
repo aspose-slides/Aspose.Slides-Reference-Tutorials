@@ -12,7 +12,7 @@ url: /ko/java/customization-and-formatting/font-properties-for-chart-java-slides
 
 이 가이드는 Aspose.Slides를 사용하여 Java 슬라이드에서 차트의 글꼴 속성을 설정하는 과정을 안내합니다. 프레젠테이션의 시각적 매력을 향상시키기 위해 차트 텍스트의 글꼴 크기와 모양을 사용자 정의할 수 있습니다.
 
-## 전제조건
+## 전제 조건
 
  시작하기 전에 Java API용 Aspose.Slides가 프로젝트에 통합되어 있는지 확인하세요. 아직 다운로드하지 않으셨다면, 다음 사이트에서 다운로드하실 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
 

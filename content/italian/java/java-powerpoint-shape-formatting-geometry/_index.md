@@ -36,7 +36,7 @@ Per coloro che desiderano spingersi oltre i confini della manipolazione delle fo
 -  Oggetti compositi: la combinazione di forme per formare oggetti complessi può migliorare l'attrattiva visiva della tua presentazione. Impara questa tecnica con[Crea oggetti compositi in forme geometriche](./create-composite-objects-geometry-shapes-powerpoint/).
 -  Manipolazione dei segmenti: l'aggiunta o la rimozione di segmenti dalle forme consente un controllo preciso sul loro aspetto. Tutorial come[Aggiungi segmento alla forma geometrica in PowerPoint](./add-segment-geometry-shape-powerpoint/) E[Rimuovi segmento dalla forma geometrica in PowerPoint](./remove-segment-geometry-shape-powerpoint/) fornire passaggi dettagliati per queste attività.
 
-Esplorando questi tutorial, puoi padroneggiare la formattazione e la geometria delle forme in PowerPoint utilizzando Aspose.Slides per Java. Che tu stia riempiendo forme con motivi vivaci, individuando forme per modifiche rapide o realizzando disegni geometrici personalizzati, queste guide ti forniscono le competenze per creare presentazioni professionali e coinvolgenti. Immergiti in ogni tutorial e inizia a trasformare le tue diapositive PowerPoint oggi stesso.
+Esplorando questi tutorial, puoi padroneggiare la formattazione e la geometria delle forme in PowerPoint utilizzando Aspose.Slides per Java. Che tu stia riempiendo forme con motivi vivaci, individuando forme per modifiche rapide o realizzando disegni geometrici personalizzati, queste guide ti forniscono le competenze necessarie per creare presentazioni professionali e coinvolgenti. Immergiti in ogni tutorial e inizia a trasformare le tue diapositive PowerPoint oggi stesso.
 ## Esercitazioni sulla formattazione e geometria delle forme Java PowerPoint
 ### [Riempi le forme con gradiente in PowerPoint](./fill-shapes-gradient-powerpoint/)
 Scopri come riempire le forme con sfumatura in PowerPoint utilizzando Aspose.Slides per Java con questa guida dettagliata passo passo.
@@ -69,7 +69,7 @@ Crea forme personalizzate in PowerPoint con Aspose.Slides per Java. Segui questa
 ### [Ottieni i dati effettivi della fotocamera in PowerPoint](./get-camera-effective-data-powerpoint/)
 Scopri come recuperare dati efficaci della fotocamera dalle diapositive di PowerPoint utilizzando Aspose.Slides per Java con questa guida passo passo.
 ### [Ottieni dati efficaci sull'impianto di illuminazione in PowerPoint](./get-light-rig-effective-data-powerpoint/)
-Scopri come recuperare dati efficaci sull'impianto di illuminazione dalle presentazioni di PowerPoint utilizzando Aspose.Slides per Java in questa guida dettagliata passo passo.
+Scopri come recuperare dati efficaci sull'impianto di illuminazione dalle presentazioni di PowerPoint utilizzando Aspose.Slides per Java in questa guida dettagliata passo dopo passo.
 ### [Ottieni dati effettivi sulla smussatura della forma in PowerPoint](./get-shape-bevel-effective-data-powerpoint/)
 Scopri come recuperare dati efficaci sulla smussatura della forma in PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con straordinari effetti visivi.
 ### [Nascondi forme in PowerPoint](./hide-shapes-powerpoint/)
