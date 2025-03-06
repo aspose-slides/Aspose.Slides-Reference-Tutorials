@@ -3,10 +3,14 @@ title: Přidání vlastních čar v Java Slides
 linktitle: Přidání vlastních čar v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete své snímky Java pomocí vlastních čar. Průvodce krok za krokem pomocí Aspose.Slides pro Java. Naučte se přidávat a přizpůsobovat čáry v prezentacích pro působivé vizuály.
-type: docs
 weight: 10
 url: /cs/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do přidávání vlastních čar v Java Slides
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Nastavte tloušťku čáry na 2 body
 ### Je možné na snímek přidat více řádků?
 
 Ano, na snímek můžete přidat více řádků opakováním kroků uvedených v tomto návodu. Každý řádek může být přizpůsoben nezávisle.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

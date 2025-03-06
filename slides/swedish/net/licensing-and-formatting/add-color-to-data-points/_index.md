@@ -3,10 +3,14 @@ title: Diagramfärgning med Aspose.Slides för .NET
 linktitle: Lägg till färg till datapunkter i diagram
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till färg till datapunkter i ett diagram med Aspose.Slides för .NET. Förbättra dina presentationer visuellt och engagera din publik effektivt.
-type: docs
 weight: 12
 url: /sv/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 I den här steg-för-steg-guiden går vi igenom processen att lägga till färg på datapunkter i ett diagram med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek för att arbeta med PowerPoint-presentationer i .NET-applikationer. Att lägga till färg på datapunkter i ett diagram kan göra dina presentationer mer visuellt tilltalande och lättare att förstå.
 
@@ -115,3 +119,9 @@ Att lägga till färg på datapunkter i ett diagram är ett kraftfullt sätt att
 
 ### Hur får jag support för Aspose.Slides för .NET?
     För support och diskussioner, besök[Aspose.Slides forum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

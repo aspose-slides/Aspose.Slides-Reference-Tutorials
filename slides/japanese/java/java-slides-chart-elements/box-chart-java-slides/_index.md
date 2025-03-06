@@ -3,10 +3,14 @@ title: Java スライドのボックス チャート
 linktitle: Java スライドのボックス チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java プレゼンテーションでボックス チャートを作成する方法を学びます。効果的なデータ視覚化のためのステップ バイ ステップ ガイドとソース コードが含まれています。
-type: docs
 weight: 10
 url: /ja/java/chart-elements/box-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java のボックス チャートの概要
 
@@ -148,3 +152,9 @@ finally
 ### QuartileMethodType.Exclusive とはどういう意味ですか?
 
 の`QuartileMethodType.Exclusive`この設定では、排他的方法を使用して四分位数の計算を実行するように指定します。データと要件に応じて、さまざまな四分位数の計算方法を選択できます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

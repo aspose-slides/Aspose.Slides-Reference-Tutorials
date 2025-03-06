@@ -3,10 +3,14 @@ title: Skapa miniatyrbild med skalningsfaktor för form i Aspose.Slides
 linktitle: Skapa miniatyrbild med skalningsfaktor för form i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig att skapa PowerPoint-miniatyrbilder med specifika gränser med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 12
 url: /sv/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Välkommen till vår omfattande guide för att skapa miniatyrer med gränser för former i Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta sömlöst med PowerPoint-presentationer i sina .NET-applikationer. I den här handledningen kommer vi att fördjupa oss i processen att skapa miniatyrer med specifika gränser för former i en presentation med Aspose.Slides.
 ## Förutsättningar
@@ -55,3 +59,9 @@ Ja, Aspose.Slides är kompatibel med olika .NET-ramverk, vilket ger flexibilitet
  För eventuella frågor eller hjälp, besök gärna Aspose.Slides supportforum[här](https://forum.aspose.com/c/slides/11).
 ### F5: Kan jag köpa Aspose.Slides för .NET?
  Säkert! För att köpa Aspose.Slides för .NET, besök köpsidan[här](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

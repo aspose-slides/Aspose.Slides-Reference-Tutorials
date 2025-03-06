@@ -3,10 +3,14 @@ title: 在 Java Slides 中从工作簿设置图表数据
 linktitle: 在 Java Slides 中从工作簿设置图表数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java Slides 中从 Excel 工作簿设置图表数据。带有动态演示代码示例的分步指南。
-type: docs
 weight: 15
 url: /zh/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 幻灯片中从工作簿设置图表数据的简介
 
@@ -142,3 +146,9 @@ Aspose.Slides for Java 支持多种图表类型，包括条形图、折线图、
 ### 在哪里可以找到更多使用 Aspose.Slides for Java 的示例和资源？
 
 您可以在[Aspose 网站](https://www.aspose.com/)。此外，Aspose.Slides for Java 文档提供了有关使用该库的全面指导。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

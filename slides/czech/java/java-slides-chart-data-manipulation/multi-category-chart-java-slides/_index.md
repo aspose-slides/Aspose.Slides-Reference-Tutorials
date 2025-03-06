@@ -3,10 +3,14 @@ title: Multi-Category Chart v Java Slides
 linktitle: Multi-Category Chart v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte vícekategorní grafy v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce se zdrojovým kódem pro působivou vizualizaci dat v prezentacích.
-type: docs
 weight: 20
 url: /cs/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Multi-Category Chart v Java Slides s Aspose.Slides
 
@@ -157,3 +161,9 @@ Ano, do grafu můžete přidat další řady podobným postupem jako v kroku 5.
 ### Jak mohu přidat název do grafu?
 
  Do grafu můžete přidat název pomocí`ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

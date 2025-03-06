@@ -3,10 +3,14 @@ title: Aspose.Slides agregar videos incrustados en presentaciones .NET
 linktitle: Aspose.Slides agregar videos incrustados en presentaciones .NET
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones con videos incrustados usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 19
 url: /es/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el dinámico mundo de las presentaciones, la integración de elementos multimedia puede mejorar significativamente la participación. Aspose.Slides para .NET proporciona una potente solución para incorporar fotogramas de vídeo incrustados en las diapositivas de su presentación. Este tutorial lo guiará a través del proceso, desglosando cada paso para garantizar una experiencia perfecta.
 ## Requisitos previos
@@ -75,3 +79,9 @@ Aspose.Slides admite una variedad de formatos de video, incluidos MP4, AVI y WMV
 La cantidad de videos incrustados generalmente está limitada por la capacidad de su software de presentación.
 ### ¿Cómo puedo buscar más ayuda o compartir mi experiencia?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

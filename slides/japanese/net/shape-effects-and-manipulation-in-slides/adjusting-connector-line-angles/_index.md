@@ -3,10 +3,14 @@ title: Aspose.Slides を使用して PowerPoint のコネクタ ラインの角�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドのコネクタ ラインの角度を調整する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint スライドのコネクタ ラインの角度を調整する方法を学びます。プレゼンテーションを正確かつ簡単に強化します。
-type: docs
 weight: 28
 url: /ja/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 視覚的に魅力的なプレゼンテーション スライドを作成するには、コネクタ ラインを正確に調整する必要があります。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドのコネクタ ラインの角度を調整する方法について説明します。Aspose.Slides は、開発者が PowerPoint ファイルをプログラムで操作できるようにする強力なライブラリであり、プレゼンテーションの作成、変更、操作のための広範な機能を提供します。
 ## 前提条件
@@ -87,3 +91,9 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides のサポート フォーラムはありますか?
 はい、サポートフォーラムにアクセスできます[ここ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

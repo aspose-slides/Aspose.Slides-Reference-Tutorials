@@ -3,10 +3,14 @@ title: Adicionar caixa de texto no slide programaticamente com Java
 linktitle: Adicionar caixa de texto no slide programaticamente com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar programaticamente uma caixa de texto a slides do PowerPoint usando Aspose.Slides para Java. Melhore sua produtividade com este guia passo a passo.
-type: docs
 weight: 24
 url: /pt/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Criar e manipular apresentações do PowerPoint de maneira programática pode agilizar muitos fluxos de trabalho, desde a geração de relatórios até a automatização de apresentações. Aspose.Slides for Java fornece uma API poderosa que permite aos desenvolvedores realizar essas tarefas com eficiência. Neste tutorial, orientaremos você na adição de uma caixa de texto a um slide usando Aspose.Slides para Java. Ao final deste tutorial, você terá uma compreensão clara de como integrar essa funcionalidade em seus aplicativos Java.
 ## Pré-requisitos
@@ -67,3 +71,9 @@ Com certeza, ele foi projetado para lidar com tarefas complexas com eficiência.
  Você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) de Aspose.
 ### O Aspose.Slides oferece suporte à conversão de apresentações para outros formatos?
 Sim, suporta vários formatos, incluindo PDF e imagens.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

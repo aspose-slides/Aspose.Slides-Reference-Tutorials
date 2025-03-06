@@ -3,10 +3,14 @@ title: PowerPoint에서 그림으로 도형 채우기
 linktitle: PowerPoint에서 그림으로 도형 채우기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 그림으로 도형을 채우는 방법을 알아보세요. 쉽게 시각적 매력을 향상시키세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 PowerPoint 프레젠테이션에는 매력을 강화하고 정보를 효과적으로 전달하기 위해 이미지로 채워진 모양과 같은 시각적 요소가 필요한 경우가 많습니다. Aspose.Slides for Java는 이 작업을 원활하게 수행할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 그림으로 도형을 채우는 방법을 단계별로 알아봅니다.
 ## 전제 조건
@@ -80,3 +84,9 @@ Aspose.Slides for Java는 PowerPoint 97 이상과 호환되는 프레젠테이�
 Aspose.Slides for Java는 JPEG, PNG, GIF, BMP, TIFF 등 다양한 이미지 형식을 지원합니다.
 ### 채워진 모양에 효과를 적용할 수 있나요?
 예, Aspose.Slides for Java는 그림자, 반사, 3D 회전 등 다양한 효과를 채워진 모양에 적용할 수 있는 포괄적인 API를 제공합니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

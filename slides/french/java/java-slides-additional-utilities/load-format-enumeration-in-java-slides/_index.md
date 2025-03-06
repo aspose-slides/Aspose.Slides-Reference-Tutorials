@@ -3,10 +3,14 @@ title: Charger l'énumération du format dans les diapositives Java
 linktitle: Charger l'énumération du format dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment vérifier le format des présentations PowerPoint en Java à l'aide d'Aspose.Slides. Suivez notre guide étape par étape avec des exemples de code source pour une détection efficace du format.
-type: docs
 weight: 14
 url: /fr/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction au chargement du format de présentation dans les diapositives Java
 
@@ -68,3 +72,10 @@ Vous pouvez obtenir de l'aide pour Aspose.Slides pour Java en visitant les forum
 ### Aspose.Slides pour Java est-il adapté aux projets commerciaux ?
 
 Oui, Aspose.Slides for Java convient aux projets commerciaux. Il fournit un ensemble robuste de fonctionnalités pour travailler avec des présentations PowerPoint dans des applications Java et est largement utilisé dans les environnements commerciaux et d'entreprise.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

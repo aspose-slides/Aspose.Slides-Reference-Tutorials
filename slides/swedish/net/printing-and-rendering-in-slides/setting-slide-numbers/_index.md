@@ -3,10 +3,14 @@ title: Ställa in bildnummer för presentationer med Aspose.Slides
 linktitle: Ställa in bildnummer för presentationer med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska den sömlösa världen av bildhantering med Aspose.Slides för .NET. Lär dig hur du enkelt ställer in bildnummer, vilket förbättrar din presentationsupplevelse.
-type: docs
 weight: 16
 url: /sv/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I den dynamiska presentationsvärlden är kontroll av sekvensen och organisationen av bilder avgörande för effektiv kommunikation. Aspose.Slides för .NET tillhandahåller en kraftfull lösning för att manipulera bildnummer i dina presentationer, vilket ger dig flexibiliteten att anpassa ditt innehåll sömlöst.
 ## Förutsättningar
@@ -63,3 +67,9 @@ Absolut! Aspose.Slides erbjuder omfattande alternativ för att anpassa utseendet
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för community-baserad support eller utforska premiumsupportalternativ.
 ### Kan jag prova Aspose.Slides innan jag köper?
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

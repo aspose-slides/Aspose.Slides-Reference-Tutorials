@@ -3,10 +3,14 @@ title: Odebrat řádek nebo sloupec v tabulce PowerPoint pomocí Java
 linktitle: Odebrat řádek nebo sloupec v tabulce PowerPoint pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak odstranit řádky nebo sloupce z tabulek aplikace PowerPoint pomocí Java s Aspose.Slides for Java. Jednoduchý průvodce krok za krokem pro vývojáře.
-type: docs
 weight: 18
 url: /cs/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak odstranit řádek nebo sloupec z tabulky aplikace PowerPoint pomocí Javy s pomocí Aspose.Slides. Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a převádět PowerPointové prezentace. Tento výukový program se konkrétně zaměřuje na proces úpravy tabulek v rámci snímků aplikace PowerPoint a ukazuje krok za krokem, jak z tabulky odstranit konkrétní řádky nebo sloupce.
 ## Předpoklady
@@ -74,3 +78,9 @@ Aspose.Slides poskytuje komplexní podporu pro vytváření, úpravy a převod p
 Ano, Aspose.Slides je široce používán v podnikových prostředích pro automatizaci úloh aplikace PowerPoint díky svým robustním funkcím a výkonu.
 ### Mohu vyzkoušet Aspose.Slides před nákupem?
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

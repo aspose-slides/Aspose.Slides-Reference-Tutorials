@@ -3,10 +3,14 @@ title: الترخيص المقنن في شرائح جافا
 linktitle: الترخيص المقنن في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين Aspose.Slides لاستخدام Java من خلال الترخيص المقنن. تعرف على كيفية إعداده ومراقبة استهلاك واجهة برمجة التطبيقات لديك.
-type: docs
 weight: 10
 url: /ar/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى الترخيص المقنن في Aspose.Slides لـ Java
 
@@ -107,3 +111,10 @@ catch (Exception ex)
 ### هل أحتاج إلى اتصال بالإنترنت للحصول على الترخيص المقنن؟
 
 نعم، يلزم الاتصال بالإنترنت لتعيين الترخيص المقنن والتحقق من صحته.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

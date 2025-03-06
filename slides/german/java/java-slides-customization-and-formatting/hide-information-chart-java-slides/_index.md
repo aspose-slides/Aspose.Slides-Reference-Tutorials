@@ -3,10 +3,14 @@ title: Informationen aus Diagrammen in Java-Folien ausblenden
 linktitle: Informationen aus Diagrammen in Java-Folien ausblenden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammelemente in Java-Folien ausblenden. Passen Sie Präsentationen mit Schritt-für-Schritt-Anleitung und Quellcode für mehr Übersichtlichkeit und Ästhetik an.
-type: docs
 weight: 13
 url: /de/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung zum Ausblenden von Informationen aus Diagrammen in Java-Folien
 
@@ -172,3 +176,9 @@ Ja, Sie können den Diagrammtyp dynamisch ändern, indem Sie ein neues Diagramm 
 ### Wie kann ich den Titel und die Achsenbeschriftungen des Diagramms programmgesteuert ändern?
 
 Sie können den Titel und die Beschriftungen des Diagramms und der Achsen festlegen, indem Sie auf die jeweiligen Eigenschaften zugreifen und den gewünschten Text und die gewünschte Formatierung festlegen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

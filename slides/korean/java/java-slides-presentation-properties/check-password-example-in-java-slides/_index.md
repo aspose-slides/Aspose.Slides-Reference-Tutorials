@@ -3,10 +3,14 @@ title: Java 슬라이드에서 비밀번호 예 확인
 linktitle: Java 슬라이드에서 비밀번호 예 확인
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides에서 비밀번호를 확인하는 방법을 알아보세요. 단계별 지침을 통해 프레젠테이션 보안을 강화하세요.
-type: docs
 weight: 14
 url: /ko/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드의 비밀번호 확인 예 소개
 
@@ -99,3 +103,9 @@ presentationInfo.removePassword("current_password");
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
 
  Aspose 웹사이트에서 Java용 Aspose.Slides에 대한 포괄적인 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

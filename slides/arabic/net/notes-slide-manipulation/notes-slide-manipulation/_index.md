@@ -3,10 +3,14 @@ title: ملاحظات معالجة الشرائح باستخدام Aspose.Slides
 linktitle: ملاحظات معالجة الشرائح باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إدارة الرأس والتذييل في شرائح PowerPoint باستخدام Aspose.Slides for .NET. قم بإزالة الملاحظات وتخصيص العروض التقديمية الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية جذابة مهارة أساسية. Aspose.Slides for .NET هي أداة قوية تسمح لك بمعالجة شرائح العرض التقديمي وتخصيصها بسهولة. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال بعض المهام الأساسية باستخدام Aspose.Slides for .NET. سنغطي كيفية إدارة الرأس والتذييل في شرائح الملاحظات، وإزالة الملاحظات في شرائح معينة، وإزالة الملاحظات من جميع الشرائح.
 
@@ -165,3 +169,10 @@ presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx
 ### هل يمكنني التعامل مع جوانب أخرى من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET؟
 
 نعم، يقدم Aspose.Slides for .NET مجموعة واسعة من الميزات لمعالجة عروض PowerPoint التقديمية، بما في ذلك الشرائح والأشكال والنص والمزيد. استكشف الوثائق للحصول على التفاصيل.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

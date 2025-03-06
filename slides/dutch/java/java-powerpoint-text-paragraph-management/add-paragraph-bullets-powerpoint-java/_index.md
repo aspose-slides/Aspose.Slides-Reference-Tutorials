@@ -3,10 +3,14 @@ title: Voeg alinea-opsommingstekens toe in PowerPoint met behulp van Java
 linktitle: Voeg alinea-opsommingstekens toe in PowerPoint met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u alinea-opsommingstekens kunt toevoegen aan PowerPoint-dia's met behulp van Aspose.Slides voor Java. Deze tutorial begeleidt u stap voor stap met codevoorbeelden.
-type: docs
 weight: 15
 url: /nl/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het toevoegen van alineaopsommingstekens verbetert de leesbaarheid en structuur van PowerPoint-presentaties. Aspose.Slides voor Java biedt robuuste tools om presentaties programmatisch te manipuleren, inclusief de mogelijkheid om tekst op te maken met verschillende opsommingstekens. In deze zelfstudie leert u hoe u opsommingstekens in PowerPoint-dia's kunt integreren met behulp van Java-code, waarbij gebruik wordt gemaakt van Aspose.Slides.
 ## Vereisten
@@ -89,3 +93,9 @@ Ja, u kunt programmatisch unieke opsommingstekenstijlen op verschillende dia's t
 Ja, Aspose.Slides ondersteunt Java 11 en hogere versies.
 ### Waar kan ik meer voorbeelden en documentatie vinden?
  Bezoek[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor uitgebreide handleidingen en voorbeelden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

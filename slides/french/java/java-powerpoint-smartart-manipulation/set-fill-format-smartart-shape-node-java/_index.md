@@ -3,10 +3,14 @@ title: Définir le format de remplissage pour le nœud de forme SmartArt en Java
 linktitle: Définir le format de remplissage pour le nœud de forme SmartArt en Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir le format de remplissage pour les nœuds de forme SmartArt en Java à l'aide d'Aspose.Slides. Améliorez vos présentations avec des couleurs vives et des visuels captivants.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le paysage dynamique de la création de contenu numérique, Aspose.Slides pour Java se distingue comme un outil puissant pour créer des présentations visuellement époustouflantes avec facilité et efficacité. Que vous soyez un développeur chevronné ou débutant, maîtriser l'art de manipuler les formes dans les diapositives est crucial pour créer des présentations captivantes qui laissent une impression durable sur votre public.
 ## Conditions préalables
@@ -65,3 +69,9 @@ Vous pouvez trouver de nombreuses ressources d'assistance, notamment des forums 
 Absolument! Aspose.Slides pour Java offre une large gamme d'options de personnalisation pour adapter l'apparence des formes SmartArt en fonction de vos préférences.
 ### Aspose.Slides pour Java convient-il aussi bien aux développeurs débutants qu’expérimentés ?
 Oui, Aspose.Slides pour Java s'adresse aux développeurs de tous niveaux, offrant des API intuitives et une documentation complète pour faciliter l'intégration et l'utilisation.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

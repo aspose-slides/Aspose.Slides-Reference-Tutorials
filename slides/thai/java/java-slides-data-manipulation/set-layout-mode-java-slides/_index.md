@@ -3,10 +3,14 @@ title: ตั้งค่าโหมดเค้าโครงใน Java Slid
 linktitle: ตั้งค่าโหมดเค้าโครงใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีตั้งค่าโหมดเค้าโครงสำหรับสไลด์ Java โดยใช้ Aspose.Slides ปรับแต่งตำแหน่งและขนาดของแผนภูมิในคำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
-type: docs
 weight: 23
 url: /th/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## รู้เบื้องต้นเกี่ยวกับการตั้งค่าโหมดเค้าโครงใน Java Slides
 
@@ -95,3 +99,9 @@ finally
 ### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ใน[เอกสารประกอบ](https://reference.aspose.com/slides/java/)- ประกอบด้วยการอ้างอิง API โดยละเอียดและตัวอย่างเพื่อช่วยให้คุณทำงานกับสไลด์และแผนภูมิใน Java ได้อย่างมีประสิทธิภาพ
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

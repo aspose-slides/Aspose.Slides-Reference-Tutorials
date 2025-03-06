@@ -3,10 +3,14 @@ title: Kaartdiagram in Java-dia's
 linktitle: Kaartdiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak verbluffende kaartgrafieken in PowerPoint-presentaties met Aspose.Slides voor Java. Stapsgewijze handleiding en broncode voor Java-ontwikkelaars.
-type: docs
 weight: 15
 url: /nl/java/chart-elements/map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot kaartgrafiek in Java-dia's met behulp van Aspose.Slides voor Java
 
@@ -131,3 +135,9 @@ In deze zelfstudie hebben we het proces doorlopen van het maken van een kaartdia
 ### Hoe integreer ik Aspose.Slides voor Java in mijn project?
 
  Download de bibliotheek van[hier](https://releases.aspose.com/slides/java/) en voeg het toe aan het klassenpad van uw project.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

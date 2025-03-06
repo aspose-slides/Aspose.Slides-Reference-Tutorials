@@ -3,10 +3,14 @@ title: Uložit jako pouze pro čtení v Java Slides
 linktitle: Uložit jako pouze pro čtení v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak uložit PowerPointové prezentace jako pouze pro čtení v Javě pomocí Aspose.Slides. Chraňte svůj obsah pomocí podrobných pokynů a příkladů kódu.
-type: docs
 weight: 11
 url: /cs/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Save as Read-Only in Java Slides using Aspose.Slides for Java
 
@@ -127,3 +131,9 @@ Pokud zapomenete heslo ochrany proti zápisu, neexistuje žádný vestavěný zp
 ### Mohu po nastavení změnit heslo pouze pro čtení?
 
  Ano, heslo pouze pro čtení můžete po jeho nastavení změnit. Použijte`setReadProtection(String newPassword)` metodou s novým heslem k aktualizaci hesla ochrany pouze pro čtení.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

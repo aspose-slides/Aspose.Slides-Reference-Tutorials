@@ -3,10 +3,14 @@ title: Criação e personalização de gráficos em Aspose.Slides
 linktitle: Criação e personalização de gráficos em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como criar e personalizar gráficos no PowerPoint usando Aspose.Slides for .NET. Guia passo a passo para criar apresentações dinâmicas.
-type: docs
 weight: 10
 url: /pt/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução
 
@@ -110,3 +114,9 @@ Sim, você pode criar vários tipos de gráficos, incluindo gráficos de barras,
 
 ### Posso comprar uma licença temporária do Aspose.Slides for .NET?
 Sim, você pode obter uma licença temporária no site Aspose[aqui](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

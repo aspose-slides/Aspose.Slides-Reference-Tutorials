@@ -3,10 +3,14 @@ title: Java PowerPoint'te Dış Gölge Efektlerini Uygulayın
 linktitle: Java PowerPoint'te Dış Gölge Efektlerini Uygulayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Ayrıntılı, adım adım kılavuzumuzla Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında dış gölge efektlerini nasıl kolayca uygulayacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 İlgi çekici sunumlar oluşturmak genellikle slaytlarınızın görsel çekiciliğini artırmak için çeşitli efektler eklemeyi gerektirir. Bu tür efektlerden biri, öğelerinizin öne çıkmasını ve içeriğinize derinlik katmasını sağlayan dış gölgedir. Bu eğitimde Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki şekillere dış gölge efektleri uygulama sürecini anlatacağız.
 ## Önkoşullar
@@ -114,3 +118,9 @@ Evet, Aspose.Slides for Java'yı IntelliJ IDEA, Eclipse veya NetBeans gibi herha
  Geçici lisansı şu adresten alabilirsiniz:[Web sitesi](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides için daha fazla örnek ve belgeyi nerede bulabilirim?
  Daha fazla örnek ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

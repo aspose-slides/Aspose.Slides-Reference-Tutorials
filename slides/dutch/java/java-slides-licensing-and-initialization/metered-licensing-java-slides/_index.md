@@ -3,10 +3,14 @@ title: Gemeten licenties in Java-dia's
 linktitle: Gemeten licenties in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw Aspose.Slides voor Java-gebruik met gemeten licenties. Leer hoe u dit instelt en uw API-verbruik bewaakt.
-type: docs
 weight: 10
 url: /nl/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot gemeten licenties in Aspose.Slides voor Java
 
@@ -107,3 +111,10 @@ Als u uw gemeten limiet overschrijdt, moet u mogelijk uw licentie upgraden of co
 ### Heb ik een internetverbinding nodig voor gemeten licenties?
 
 Ja, er is een internetverbinding vereist om gemeten licenties in te stellen en te valideren.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

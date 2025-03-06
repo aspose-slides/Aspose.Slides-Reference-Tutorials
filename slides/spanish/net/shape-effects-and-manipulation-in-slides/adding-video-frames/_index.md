@@ -3,10 +3,14 @@ title: Tutorial para agregar marcos de video con Aspose.Slides para .NET
 linktitle: Agregar marcos de video a diapositivas de presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Revitalice presentaciones con fotogramas de vídeo dinámicos utilizando Aspose.Slides para .NET. Siga nuestra guía para una integración perfecta y crear contenido atractivo.
-type: docs
 weight: 19
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el panorama dinámico de las presentaciones, la incorporación de elementos multimedia puede aumentar el impacto y el compromiso generales. Agregar fotogramas de video a sus diapositivas puede cambiar las reglas del juego, ya que capta la atención de su audiencia de una manera que el contenido estático no puede hacerlo. Aspose.Slides para .NET proporciona una solución sólida para integrar perfectamente fotogramas de vídeo en las diapositivas de su presentación.
 ## Requisitos previos
@@ -67,3 +71,9 @@ Aspose.Slides para .NET admite varios formatos de video, incluidos AVI, WMV y MP
  Sí, puede explorar las capacidades de Aspose.Slides para .NET descargando la versión de prueba.[aquí](https://releases.aspose.com/).
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.Slides para .NET?
  Para cualquier consulta o ayuda, visite el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

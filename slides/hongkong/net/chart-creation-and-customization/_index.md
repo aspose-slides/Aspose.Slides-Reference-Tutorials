@@ -3,10 +3,14 @@ title: 圖表創建和定制
 linktitle: 圖表創建和定制
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides 增強 .NET 應用程式的示範功能。深入了解我們的圖表建立和自訂教程，探索逐步指南和程式碼範例。
-type: docs
 weight: 14
 url: /zh-hant/net/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介紹：
 
@@ -27,3 +31,9 @@ url: /zh-hant/net/chart-creation-and-customization/
 了解如何使用 Aspose.Slides for .NET 建立具有基本佔位符的動態 PowerPoint 簡報。
 ### [管理幻燈片中的頁首和頁腳](./header-footer-manager/)
 了解如何使用 Aspose.Slides for .NET 管理投影片中的頁首和頁尾。輕鬆、精確地自訂您的簡報。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

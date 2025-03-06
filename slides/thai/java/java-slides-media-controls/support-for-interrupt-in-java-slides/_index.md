@@ -3,10 +3,14 @@ title: รองรับการขัดจังหวะใน Java Slides
 linktitle: รองรับการขัดจังหวะใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: การจัดการการหยุดชะงักของ Master Java Slides ด้วย Aspose.Slides สำหรับ Java คู่มือโดยละเอียดนี้จะให้คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดเพื่อการจัดการการขัดจังหวะที่ราบรื่น
-type: docs
 weight: 12
 url: /th/java/media-controls/support-for-interrupt-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 # ข้อมูลเบื้องต้นเกี่ยวกับการสนับสนุนการขัดจังหวะใน Java Slides ด้วย Aspose.Slides สำหรับ Java
 
 Aspose.Slides สำหรับ Java เป็นไลบรารีที่มีประสิทธิภาพสำหรับการสร้าง จัดการ และทำงานกับงานนำเสนอ PowerPoint ในแอปพลิเคชัน Java ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจวิธีใช้การสนับสนุนสำหรับการขัดจังหวะใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการพร้อมคำอธิบายโดยละเอียดและตัวอย่างโค้ด
@@ -133,3 +137,9 @@ tokenSource.interrupt();
 ### ฉันจะเข้าถึงทรัพยากรและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
 คุณสามารถค้นหาเอกสารประกอบ บทช่วยสอน และตัวอย่างที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ใน[เว็บไซต์กำหนด](https://reference.aspose.com/slides/java/)- นอกจากนี้คุณยังสามารถติดต่อทีมสนับสนุน Aspose เพื่อขอความช่วยเหลือเกี่ยวกับกรณีการใช้งานเฉพาะของคุณได้
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

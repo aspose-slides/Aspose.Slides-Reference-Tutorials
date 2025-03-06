@@ -3,10 +3,14 @@ title: Manajemen Komentar Modern menggunakan Aspose.Slides
 linktitle: Manajemen Komentar Modern
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengelola komentar modern dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Berkolaborasi dengan mudah!
-type: docs
 weight: 14
 url: /id/net/slide-comments-manipulation/modern-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan presentasi PowerPoint secara terprogram. Salah satu fitur yang ditawarkannya adalah manajemen komentar modern, yang memungkinkan Anda menambahkan, memodifikasi, dan berinteraksi dengan komentar di presentasi Anda dengan lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pengelolaan komentar modern menggunakan Aspose.Slides untuk .NET.
 
@@ -109,3 +113,9 @@ Anda dapat memperbarui atau menghapus komentar modern secara terprogram dengan m
 ### 5. Dapatkah saya mencoba Aspose.Slides untuk .NET sebelum membelinya?
 
  Tentu! Anda dapat mengakses versi uji coba gratis Aspose.Slides untuk .NET dari[tautan uji coba gratis](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

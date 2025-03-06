@@ -3,10 +3,14 @@ title: Creating Thumbnail with Bounds for Shape in Aspose.Slides
 linktitle: Creating Thumbnail with Bounds for Shape in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Unlock the power of Aspose.Slides for .NET! Learn to create shape thumbnails effortlessly with bounds using our step-by-step guide.
-type: docs
 weight: 10
 url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 If you're a .NET developer seeking a robust solution for creating thumbnail images with bounds for shapes in PowerPoint presentations, Aspose.Slides for .NET is your go-to tool. This powerful library provides seamless integration, allowing you to efficiently manipulate and extract valuable information from PowerPoint files. In this tutorial, we'll walk through the process of creating a thumbnail with bounds for a shape using Aspose.Slides.
 ## Prerequisites
@@ -60,3 +64,10 @@ Yes, you can access a free trial [here](https://releases.aspose.com/) to explore
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to connect with the community and seek assistance from experienced developers.
 ### Can I obtain a temporary license for Aspose.Slides?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for short-term project needs.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

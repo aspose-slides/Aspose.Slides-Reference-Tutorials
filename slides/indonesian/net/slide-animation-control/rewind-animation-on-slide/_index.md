@@ -3,10 +3,14 @@ title: Menguasai Animasi Rewind dalam Presentasi dengan Aspose.Slides
 linktitle: Putar Ulang Animasi pada Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara memundurkan animasi pada slide PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap.
-type: docs
 weight: 13
 url: /id/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menggabungkan animasi yang menawan dapat meningkatkan keterlibatan secara signifikan. Aspose.Slides for .NET menyediakan seperangkat alat canggih untuk menghidupkan presentasi Anda. Salah satu fitur yang menarik adalah kemampuan untuk memundurkan animasi pada slide. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah, memungkinkan Anda memanfaatkan potensi penuh animasi mundur menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -80,3 +84,9 @@ Ya, Anda dapat menyesuaikan kode untuk menerapkan animasi mundur secara selektif
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mencari bantuan dan terlibat dengan masyarakat.
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

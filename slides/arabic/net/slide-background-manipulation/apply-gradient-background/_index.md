@@ -3,10 +3,14 @@ title: تطبيق خلفية متدرجة على الشريحة
 linktitle: تطبيق خلفية متدرجة على الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تطبيق خلفيات متدرجة مذهلة على شرائح PowerPoint الخاصة بك باستخدام Aspose.Slides for .NET. رفع مستوى العروض التقديمية الخاصة بك!
-type: docs
 weight: 12
 url: /ar/net/slide-background-manipulation/apply-gradient-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم تصميم العروض التقديمية، يعد إنشاء شرائح مذهلة بصريًا أمرًا ضروريًا لجذب جمهورك. إحدى الطرق لتحقيق ذلك هي تطبيق خلفية متدرجة على شرائحك. يجعل Aspose.Slides for .NET هذه المهمة سلسة، مما يسمح لك بإنشاء عروض تقديمية احترافية. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية تطبيق خلفية متدرجة على شريحة باستخدام Aspose.Slides for .NET.
 
@@ -99,3 +103,10 @@ pres.Save(dataDir + "ContentBG_Grad_out.pptx", SaveFormat.Pptx);
 
 ### ما هي الميزات الأخرى التي يقدمها Aspose.Slides for .NET لتصميم العروض التقديمية؟
 يوفر Aspose.Slides for .NET مجموعة واسعة من الميزات، بما في ذلك إنشاء الشرائح وتحريرها ومعالجتها وإدارة المخططات والجداول والتصدير إلى تنسيقات مختلفة.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

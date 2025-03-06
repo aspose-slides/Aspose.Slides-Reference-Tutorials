@@ -3,10 +3,14 @@ title: الرسم البياني الدائري في شرائح جافا
 linktitle: الرسم البياني الدائري في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات دائرية مذهلة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لمطوري Java.
-type: docs
 weight: 23
 url: /ar/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لإنشاء مخطط دائري في شرائح Java باستخدام Aspose.Slides
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### كيف يمكنني العثور على مزيد من المعلومات والأمثلة للعمل مع Aspose.Slides لـ Java؟
 
  لمزيد من المعلومات والوثائق التفصيلية والأمثلة الإضافية، يمكنك زيارة الموقع[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/). فهو يوفر موارد شاملة لمساعدتك في استخدام المكتبة بشكل فعال.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

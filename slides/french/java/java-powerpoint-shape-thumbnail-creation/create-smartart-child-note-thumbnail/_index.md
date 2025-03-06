@@ -3,10 +3,14 @@ title: Créer une vignette de note enfant SmartArt
 linktitle: Créer une vignette de note enfant SmartArt
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des vignettes de notes enfants SmartArt en Java avec Aspose.Slides, améliorant ainsi vos présentations PowerPoint sans effort.
-type: docs
 weight: 15
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment créer des vignettes de notes enfants SmartArt en Java à l'aide d'Aspose.Slides. Aspose.Slides est une puissante API Java qui permet aux développeurs de travailler avec des présentations PowerPoint par programme, leur permettant ainsi de créer, modifier et manipuler facilement des diapositives.
 ## Conditions préalables
@@ -70,3 +74,9 @@ Oui, Aspose.Slides est conçu pour gérer les tâches d'automatisation PowerPoin
 Certainement! Aspose.Slides fournit une prise en charge complète pour la création et la manipulation de diagrammes SmartArt de complexité variable.
 ### Aspose.Slides offre-t-il un support technique aux développeurs ?
  Oui, Aspose.Slides fournit un support technique dédié aux développeurs via leur[forum](https://forum.aspose.com/c/slides/11) et d'autres chaînes.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

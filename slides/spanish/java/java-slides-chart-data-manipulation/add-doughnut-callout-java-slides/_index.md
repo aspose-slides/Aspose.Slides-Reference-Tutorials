@@ -3,10 +3,14 @@ title: Agregar texto de donut en diapositivas de Java
 linktitle: Agregar texto de donut en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar notas de donut en diapositivas de Java usando Aspose.Slides para Java. Guía paso a paso con código fuente para presentaciones mejoradas.
-type: docs
 weight: 12
 url: /es/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a agregar una leyenda de donut en diapositivas de Java usando Aspose.Slides para Java
 
@@ -180,3 +184,9 @@ Sí, puede agregar tantos puntos de datos como necesite al gráfico de anillos. 
 ### ¿Cómo puedo ajustar la posición y el tamaño del gráfico de anillos en la diapositiva?
 
  Puede cambiar la posición y el tamaño del gráfico de anillos modificando los parámetros en el`addChart` método. Los cuatro números de ese método corresponden a las coordenadas X e Y de la esquina superior izquierda del gráfico y su ancho y alto, respectivamente.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

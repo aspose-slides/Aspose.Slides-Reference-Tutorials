@@ -3,10 +3,14 @@ title: PowerPoint에서 요약 확대/축소 만들기
 linktitle: PowerPoint에서 요약 확대/축소 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 요약 확대/축소를 만드는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 Aspose.Slides for Java를 사용하여 PowerPoint에서 요약 확대/축소를 만드는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 프레젠테이션에 동적인 대화형 요소를 추가하려는 경우 요약 확대/축소가 환상적인 기능입니다. 프레젠테이션의 다양한 섹션을 확대할 수 있는 단일 슬라이드를 만들어 청중에게 더욱 매력적이고 탐색 가능한 경험을 제공할 수 있습니다.
 이 단계별 가이드에서는 개발 환경 설정부터 요약 확대/축소 프레임 생성 및 사용자 정의까지 전체 프로세스를 안내합니다. 노련한 Java 개발자이든 이제 막 시작하는 개발자이든 관계없이 이 가이드는 쉽게 따라할 수 있고 귀중한 통찰력으로 가득 차 있다는 것을 알게 될 것입니다.
@@ -107,3 +111,9 @@ Aspose.Slides for Java는 개발자가 Java를 사용하여 프로그래밍 방�
  임시면허를 취득할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Slides에 대한 추가 예제와 지원은 어디서 찾을 수 있나요?
  더 많은 사례를 찾아보고 지원을 요청할 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Κινούμενη σειρά γραφημάτων με Aspose.Slides γ�
 linktitle: Σειρά κινουμένων σχεδίων στο γράφημα
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε κινούμενες σειρές γραφημάτων με το Aspose.Slides για .NET. Προσελκύστε το κοινό σας με δυναμικές παρουσιάσεις. Ξεκινήστε τώρα!
-type: docs
 weight: 12
 url: /el/net/chart-formatting-and-animation/animating-series/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Ψάχνετε να προσθέσετε λίγο pizzazz στις παρουσιάσεις σας με κινούμενα charts; Το Aspose.Slides για .NET είναι εδώ για να ζωντανέψει τα γραφήματα σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας δείξουμε πώς να κάνετε κινούμενες σειρές σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για .NET. Πριν όμως βουτήξουμε στη δράση, ας καλύψουμε τα προαπαιτούμενα.
 
@@ -109,3 +113,9 @@ presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 
 ### Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.Slides για .NET;
  Μπορείτε να αποκτήσετε άδεια χρήσης για το Aspose.Slides για .NET από τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

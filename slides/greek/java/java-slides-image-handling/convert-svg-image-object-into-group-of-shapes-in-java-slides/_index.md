@@ -3,10 +3,14 @@ title: Μετατροπή αντικειμένου εικόνας SVG σε ομ�
 linktitle: Μετατροπή αντικειμένου εικόνας SVG σε ομάδα σχημάτων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε εικόνες SVG σε μια ομάδα σχημάτων σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
-type: docs
 weight: 13
 url: /el/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη μετατροπή αντικειμένου εικόνας SVG σε ομάδα σχημάτων σε διαφάνειες Java
 
@@ -129,3 +133,9 @@ finally
 ### Μπορώ να προσαρμόσω την εμφάνιση των σχημάτων που έχουν μετατραπεί;
 
 Σίγουρα! Μπορείτε να προσαρμόσετε την εμφάνιση, το μέγεθος και τη θέση των σχημάτων που έχουν μετατραπεί σύμφωνα με τις απαιτήσεις σας. Το Aspose.Slides παρέχει εκτεταμένα API για χειρισμό σχήματος.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Ajouter une image Blob à la présentation dans les diapositives Java
 linktitle: Ajouter une image Blob à la présentation dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter facilement des images Blob aux présentations Java Slides. Suivez notre guide étape par étape avec des exemples de code utilisant Aspose.Slides pour Java.
-type: docs
 weight: 10
 url: /fr/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à l'ajout d'une image Blob à une présentation dans des diapositives Java
 
@@ -133,3 +137,9 @@ Il est conseillé d'utiliser des formats d'image courants comme JPEG ou PNG pour
 ### Aspose.Slides est-il adapté aux tâches avancées d’automatisation PowerPoint ?
 
 Absolument! Aspose.Slides offre des fonctionnalités avancées pour l'automatisation de PowerPoint, notamment la création, la modification et l'extraction de données de diapositives. C'est un outil puissant pour rationaliser vos tâches liées à PowerPoint.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

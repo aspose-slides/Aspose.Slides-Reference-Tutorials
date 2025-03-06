@@ -3,10 +3,14 @@ title: Java 슬라이드에 사용자 정의 오류 추가
 linktitle: Java 슬라이드에 사용자 정의 오류 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드의 PowerPoint 차트에 사용자 정의 오류 막대를 추가하는 방법을 알아보세요. 정확한 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에 사용자 정의 오류 막대 추가 소개
 
@@ -150,3 +154,9 @@ finally
 ### 특정 데이터 포인트에 대한 오류 막대를 숨길 수 있습니까?
 
  예.`setVisible` 의 재산`IErrorBarsFormat` 물체.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

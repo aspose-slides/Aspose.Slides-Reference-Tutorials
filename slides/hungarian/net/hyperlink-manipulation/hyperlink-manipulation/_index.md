@@ -3,10 +3,14 @@ title: Hiperhivatkozás-manipuláció az Aspose.Slides-ben
 linktitle: Hiperhivatkozás-manipuláció az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá és távolíthat el hiperhivatkozásokat az Aspose.Slides for .NET alkalmazásban. Egyszerűen javíthatja bemutatóit interaktív hivatkozásokkal.
-type: docs
 weight: 10
 url: /hu/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 hiperhivatkozások elengedhetetlen elemei a prezentációknak, mivel kényelmes módot biztosítanak a diák közötti navigálásra vagy a külső források elérésére. Az Aspose.Slides for .NET hatékony funkciókat kínál hiperhivatkozások hozzáadásához és eltávolításához a bemutató diákjaiban. Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for .NET segítségével történő hiperhivatkozás-manipuláció folyamatán. Kitérünk a hiperhivatkozások diához való hozzáadására és a hiperhivatkozások eltávolítására a diáról. Szóval, merüljünk bele!
 
@@ -121,3 +125,9 @@ Teljesen. Az Aspose.Slides különféle PowerPoint formátumokat támogat, bele�
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Ha ideiglenes licencre van szüksége az Aspose.Slides számára, szerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

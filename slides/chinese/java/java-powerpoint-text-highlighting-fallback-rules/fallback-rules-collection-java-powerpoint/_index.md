@@ -3,10 +3,14 @@ title: Java PowerPoint 中的后备规则集合
 linktitle: Java PowerPoint 中的后备规则集合
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 演示文稿中的字体回退规则。轻松增强跨设备兼容性。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，我们将深入研究如何使用 Aspose.Slides for Java 管理字体回退规则。字体回退对于确保您的演示文稿在不同环境中正确显示至关重要，尤其是在特定字体不可用时。我们将指导您逐步导入必要的软件包、设置环境并实施回退规则。
 ## 先决条件
@@ -73,3 +77,9 @@ try {
 有详细文档可供查阅[这里](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides for Java 的支持？
 如需支持，请访问 Aspose.Slides 论坛[这里](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

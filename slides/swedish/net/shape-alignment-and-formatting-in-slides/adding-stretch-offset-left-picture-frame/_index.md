@@ -3,10 +3,14 @@ title: Lägga till Stretch Offset till vänster i PowerPoint med Aspose.Slide
 linktitle: Lägga till Stretch Offset till vänster för bildram i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar PowerPoint-presentationer med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för att lägga till stretch offset till vänster för bildramar.
-type: docs
 weight: 14
 url: /sv/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Aspose.Slides för .NET är ett kraftfullt bibliotek som ger utvecklare möjlighet att manipulera PowerPoint-presentationer med lätthet. I den här handledningen kommer vi att utforska processen att lägga till en sträckförskjutning till vänster för en bildram med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden för att förbättra dina färdigheter i att arbeta med bilder och former i PowerPoint-presentationer.
 ## Förutsättningar
@@ -85,3 +89,9 @@ S: Aspose.Slides uppdateras regelbundet för att säkerställa kompatibilitet me
  S: Utforska[Aspose.Slides dokumentation](https://reference.aspose.com/slides/net/) för omfattande exempel och vägledning.
 ### F: Kan jag tillämpa flera sträckförskjutningar på en enda form?
 S: Ja, du kan kombinera flera sträckförskjutningar för att uppnå komplexa och anpassade visuella effekter.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

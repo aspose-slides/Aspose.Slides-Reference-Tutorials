@@ -3,10 +3,14 @@ title: Создать рамку масштабирования в PowerPoint
 linktitle: Создать рамку масштабирования в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать привлекательные рамки масштабирования в PowerPoint с помощью Aspose.Slides для Java. Следуйте нашему руководству, чтобы добавить интерактивные элементы в свои презентации.
-type: docs
 weight: 17
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Создание увлекательных презентаций PowerPoint — это искусство, и иногда малейшие дополнения могут иметь огромное значение. Одной из таких функций является рамка масштабирования, которая позволяет увеличивать отдельные слайды или изображения, создавая динамичную и интерактивную презентацию. В этом уроке мы познакомим вас с процессом создания рамки масштабирования в PowerPoint с использованием Aspose.Slides для Java.
 ## Предварительные условия
@@ -113,3 +117,9 @@ Aspose.Slides for Java — это мощный API для программног
 Абсолютно! Вы можете добавлять собственные изображения в Zoom Frames, прочитав файлы изображений и добавив их в презентацию.
 ### Где я могу найти больше примеров и документации?
  Подробную документацию и примеры можно найти на странице[Страница документации Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

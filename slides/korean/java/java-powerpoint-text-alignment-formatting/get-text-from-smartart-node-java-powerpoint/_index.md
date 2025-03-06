@@ -3,10 +3,14 @@ title: Java PowerPoint의 SmartArt 노드에서 텍스트 가져오기
 linktitle: Java PowerPoint의 SmartArt 노드에서 텍스트 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 SmartArt 노드에서 텍스트를 추출하는 방법을 알아보세요. 개발자를 위한 쉽고 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 SmartArt 노드에서 텍스트를 추출하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 Java 라이브러리입니다. SmartArt 노드에서 텍스트를 추출하면 데이터 추출, 콘텐츠 분석 등과 같은 다양한 응용 프로그램에 유용할 수 있습니다. 이 가이드를 마치면 Java에서 Aspose.Slides를 사용하여 SmartArt 노드에서 텍스트를 효율적으로 검색하는 방법을 명확하게 이해하게 될 것입니다.
 ## 전제 조건
@@ -66,3 +70,9 @@ Aspose.Slides for Java는 개발자가 Java를 사용하여 프로그래밍 방�
  예, Aspose.Slides for Java의 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  기술 지원 및 커뮤니티 지원을 받으려면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

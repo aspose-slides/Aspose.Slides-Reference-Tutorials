@@ -3,10 +3,14 @@ title: 注释幻灯片操作
 linktitle: 注释幻灯片操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 精确增强您的演示文稿！探索有关 .NET 中注释幻灯片操作的 Aspose.Slides 教程。学习以编程方式添加、编辑和管理演讲者注释。
-type: docs
 weight: 16
 url: /zh/net/notes-slide-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 
 欢迎阅读 Aspose.Slides 为 .NET 开发人员提供的关于 Notes Slide Manipulation 的综合教程。在本教程中，我们将深入探讨演讲者备注的迷人世界，以及如何使用 Aspose.Slides 库以编程方式操作它们。演讲者备注在演示文稿中起着关键作用，为演示者提供宝贵的见解并增强内容的整体影响力。在本教程结束时，您将对如何在 PowerPoint 演示文稿中有效地添加、编辑和管理演讲者备注有一个扎实的理解。
@@ -39,3 +43,9 @@ url: /zh/net/notes-slide-manipulation/
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的特定幻灯片中删除注释。按照我们的分步指南和完整的源代码以编程方式无缝操作幻灯片。
 ### [从所有幻灯片中删除注释](./remove-notes-from-all-slides/)
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的所有幻灯片中删除注释。按照本分步指南和完整的源代码示例轻松实现您的目标。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

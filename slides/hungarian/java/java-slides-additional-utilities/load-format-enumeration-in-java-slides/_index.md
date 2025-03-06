@@ -3,10 +3,14 @@ title: Formátum felsorolás betöltése a Java Slides-be
 linktitle: Formátum felsorolás betöltése a Java Slides-be
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan ellenőrizheti a PowerPoint-prezentációk formátumát Java nyelven az Aspose.Slides segítségével. Kövesse lépésenkénti útmutatónkat forráskód-példákkal a hatékony formátumészlelés érdekében.
-type: docs
 weight: 14
 url: /hu/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a prezentációs formátum betöltéséhez Java Slides-ben
 
@@ -68,3 +72,10 @@ Az Aspose.Slides for Java termékhez támogatást kaphat, ha ellátogat az Aspos
 ### Az Aspose.Slides for Java alkalmas kereskedelmi projektekhez?
 
 Igen, az Aspose.Slides for Java alkalmas kereskedelmi projektekhez. Robusztus funkciókészletet biztosít a PowerPoint prezentációkkal való munkavégzéshez Java alkalmazásokban, és széles körben használják kereskedelmi és vállalati környezetben egyaránt.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

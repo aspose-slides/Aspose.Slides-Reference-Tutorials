@@ -3,10 +3,14 @@ title: Dodaj segment do kształtu geometrii w programie PowerPoint
 linktitle: Dodaj segment do kształtu geometrii w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać segmenty do kształtów geometrycznych w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java, korzystając ze szczegółowego przewodnika krok po kroku.
-type: docs
 weight: 19
 url: /pl/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Tworzenie angażujących i dynamicznych prezentacji może być wyzwaniem, zwłaszcza gdy chcesz dodać niestandardowe kształty i projekty. W tym miejscu przydaje się Aspose.Slides dla Java. Ten potężny interfejs API umożliwia programowe manipulowanie plikami programu PowerPoint, zapewniając elastyczność łatwego dodawania złożonych kształtów geometrycznych i segmentów. W tym samouczku przeprowadzimy Cię przez proces dodawania segmentów do kształtów geometrycznych w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować tworzenie prezentacji, czy po prostu osobą, która uwielbia zagłębiać się w kodowanie, ten przewodnik będzie Twoim kompleksowym źródłem informacji.
 ## Warunki wstępne
@@ -78,3 +82,9 @@ Nie, Aspose.Slides for Java jest specjalnie zaprojektowany do użytku z Javą. J
 Można dodawać różne kształty, w tym prostokąty, elipsy, linie i niestandardowe kształty geometrii.
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie od[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) gdzie możesz zadawać pytania i uzyskać pomoc od społeczności i programistów.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

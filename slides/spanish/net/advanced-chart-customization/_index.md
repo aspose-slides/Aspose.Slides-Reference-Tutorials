@@ -3,10 +3,14 @@ title: Personalización avanzada de gráficos
 linktitle: Personalización avanzada de gráficos
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones con personalización avanzada de gráficos usando Aspose.Slides para .NET. Aprenda a crear gráficos visualmente impresionantes y adaptarlos a sus necesidades exactas.
-type: docs
 weight: 23
 url: /es/net/advanced-chart-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción
 
@@ -33,3 +37,9 @@ Aprenda cómo mejorar sus visualizaciones de datos usando Aspose.Slides para .NE
 Aprenda a crear líneas de tendencia de gráficos utilizando Aspose.Slides para .NET. Mejore las visualizaciones de datos con orientación paso a paso y ejemplos de código.
 ### [Entidades y formato del gráfico](./chart-entities/)
 Aprenda a crear y dar formato a gráficos dinámicos en PowerPoint usando Aspose.Slides para .NET. Guía paso a paso con código fuente.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تحويل العرض التقديمي إلى تنسيق PDF
 linktitle: تحويل العرض التقديمي إلى تنسيق PDF
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى PDF باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر. تحويل فعال وفعال.
-type: docs
 weight: 24
 url: /ar/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -107,3 +111,9 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 ### هل هناك نسخة تجريبية متاحة؟
 
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[هنا](https://products.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

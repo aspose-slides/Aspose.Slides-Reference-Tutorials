@@ -3,10 +3,14 @@ title: البحث عن الشكل في الشريحة
 linktitle: البحث عن الشكل في الشريحة
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: يمكنك العثور بسهولة على الأشكال في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة للحصول على تجربة برمجة سلسة.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 هل سئمت من غربلة شرائح PowerPoint للعثور على أشكال محددة؟ تخيل أنك قادر على أتمتة هذه العملية دون عناء باستخدام بضعة أسطر من التعليمات البرمجية. مرحبًا بك في دليلنا التفصيلي حول استخدام Aspose.Slides لـ Java لتحديد الأشكال في ملفات العرض التقديمي. في هذا البرنامج التعليمي، سنقوم بتفصيل الخطوات المطلوبة للعثور على الأشكال في شريحة باستخدام Aspose.Slides لـ Java، بدءًا من إعداد البيئة الخاصة بك وحتى تشغيل التعليمات البرمجية.
 ## المتطلبات الأساسية
@@ -84,3 +88,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[صفحة Aspose التجريبية المجانية](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك العثور على الدعم على[منتدى العروض التقديمية](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

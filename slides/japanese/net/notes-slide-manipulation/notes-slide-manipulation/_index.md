@@ -3,10 +3,14 @@ title: Aspose.Slides を使用したノートスライドの操作
 linktitle: Aspose.Slides を使用したノートスライドの操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドのヘッダーとフッターを管理する方法を学びます。メモを削除し、プレゼンテーションを簡単にカスタマイズします。
-type: docs
 weight: 10
 url: /ja/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 今日のデジタル時代では、魅力的なプレゼンテーションを作成することは必須のスキルです。Aspose.Slides for .NET は、プレゼンテーション スライドを簡単に操作およびカスタマイズできる強力なツールです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用したいくつかの重要なタスクについて説明します。ノート スライドのヘッダーとフッターを管理する方法、特定のスライドのノートを削除する方法、すべてのスライドからノートを削除する方法について説明します。
 
@@ -165,3 +169,10 @@ Aspose.Slides for .NET を使用すると、PowerPoint プレゼンテーショ�
 ### Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションの他の側面を操作できますか?
 
 はい、Aspose.Slides for .NET は、スライド、図形、テキストなど、PowerPoint プレゼンテーションを操作するための幅広い機能を提供します。詳細については、ドキュメントを参照してください。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

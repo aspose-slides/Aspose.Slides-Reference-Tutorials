@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint でフォント フォルダーを取得�
 linktitle: Java を使用して PowerPoint でフォント フォルダーを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して PowerPoint プレゼンテーションのフォント フォルダーを抽出し、プレゼンテーションのデザイン機能を強化する方法を学習します。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Java を使用して PowerPoint プレゼンテーションのフォント フォルダーを取得するプロセスを詳しく説明します。フォントは、プレゼンテーションの見た目の魅力と読みやすさにおいて重要な役割を果たします。Aspose.Slides for Java を活用することで、PowerPoint プレゼンテーション内のさまざまなフォント関連の操作に不可欠なフォント ディレクトリに効率的にアクセスできます。
 ## 前提条件
@@ -46,3 +50,9 @@ Java を使用して PowerPoint プレゼンテーションのフォント フ�
  Aspose.Slidesフォーラムをご覧ください[ここ](https://forum.aspose.com/c/slides/11)コミュニティまたは Aspose サポート チームからサポートを受けることができます。
 ### Aspose.Slides for Java はどこで購入できますか?
  Aspose.Slides for Javaはウェブサイトから購入できます。[ここ](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

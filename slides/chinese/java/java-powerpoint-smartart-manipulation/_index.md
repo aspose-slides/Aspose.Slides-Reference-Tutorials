@@ -3,10 +3,14 @@ title: Java PowerPoint SmartArt 操作
 linktitle: Java PowerPoint SmartArt 操作
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 GroupDocs.Slides for Java 教程有效地操作 Java PowerPoint SmartArt。访问子节点、添加节点、更改布局等等！
-type: docs
 weight: 32
 url: /zh/java/java-powerpoint-smartart-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介绍
 
@@ -71,3 +75,9 @@ url: /zh/java/java-powerpoint-smartart-manipulation/
 了解如何使用 Aspose.Slides for Java 高效且以编程方式从 PowerPoint 演示文稿中的 SmartArt 中删除节点。
 ### [删除 SmartArt 中特定位置的节点](./remove-node-specific-position-smartart-java/)
 了解如何使用 Aspose.Slides for Java 删除 SmartArt 中特定位置的节点。轻松增强演示文稿自定义。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

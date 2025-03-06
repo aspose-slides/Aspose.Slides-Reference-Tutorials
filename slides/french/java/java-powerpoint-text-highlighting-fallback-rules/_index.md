@@ -3,10 +3,14 @@ title: Règles de mise en surbrillance et de secours du texte Java PowerPoint
 linktitle: Règles de mise en surbrillance et de secours du texte Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez la surbrillance du texte et les règles de remplacement des polices dans Java PowerPoint avec Aspose.Slides. Suivez nos tutoriels pour améliorer et automatiser vos présentations en toute transparence.
-type: docs
 weight: 25
 url: /fr/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction
 
@@ -26,3 +30,9 @@ En suivant ces didacticiels, vous serez bien équipé pour améliorer vos prése
 Découvrez comment surligner du texte dans PowerPoint à l'aide d'Aspose.Slides pour Java. Automatisez et améliorez les présentations sans effort avec notre guide détaillé.
 ### [Collection de règles de secours en Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Découvrez comment gérer les règles de remplacement des polices dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez la compatibilité entre les appareils sans effort.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

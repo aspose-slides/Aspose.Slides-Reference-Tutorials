@@ -3,10 +3,14 @@ title: PowerPoint에 오디오 프레임 추가
 linktitle: PowerPoint에 오디오 프레임 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 오디오 프레임을 추가하는 방법을 알아보세요. 매력적인 오디오 요소를 사용하여 손쉽게 프레젠테이션의 수준을 높이세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 오디오 요소를 사용하여 프레젠테이션을 향상하면 영향력과 참여도를 크게 높일 수 있습니다. Aspose.Slides for Java를 사용하면 오디오 프레임을 PowerPoint 프레젠테이션에 통합하는 과정이 원활해집니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 프레젠테이션에 오디오 프레임을 추가하는 단계별 프로세스를 안내합니다.
 ## 전제 조건
@@ -75,3 +79,9 @@ PowerPoint 프레젠테이션에 오디오 요소를 통합하면 효과가 향�
 Aspose.Slides for Java는 광범위한 사용자 정의 옵션을 제공하므로 오디오 플레이어의 모양을 원하는 대로 조정할 수 있습니다.
 ### Aspose.Slides for Java에 사용할 수 있는 평가판이 있습니까?
  예, 다음 사이트에서 Aspose.Slides for Java의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

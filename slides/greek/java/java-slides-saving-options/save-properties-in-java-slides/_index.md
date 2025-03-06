@@ -3,10 +3,14 @@ title: Αποθήκευση ιδιοτήτων σε διαφάνειες Java
 linktitle: Αποθήκευση ιδιοτήτων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε τις παρουσιάσεις σας στο PowerPoint με το Aspose.Slides για Java. Μάθετε να ορίζετε ιδιότητες, να απενεργοποιείτε την κρυπτογράφηση, να προσθέτετε προστασία με κωδικό πρόσβασης και να αποθηκεύετε αβίαστα.
-type: docs
 weight: 12
 url: /el/java/saving-options/save-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στην αποθήκευση ιδιοτήτων σε διαφάνειες Java
 
@@ -170,3 +174,9 @@ finally {
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για Java και τις δυνατότητές του;
 
  Μπορείτε να εξερευνήσετε την τεκμηρίωση Aspose.Slides for Java στο[εδώ](https://docs.aspose.com/slides/java/) για λεπτομερείς πληροφορίες, σεμινάρια και παραδείγματα σχετικά με τη χρήση της βιβλιοθήκης.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

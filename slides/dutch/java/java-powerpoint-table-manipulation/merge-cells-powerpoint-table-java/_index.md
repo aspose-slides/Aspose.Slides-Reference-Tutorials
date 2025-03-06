@@ -3,10 +3,14 @@ title: Cellen in PowerPoint-tabel samenvoegen met Java
 linktitle: Cellen in PowerPoint-tabel samenvoegen met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u cellen in PowerPoint-tabellen samenvoegt met Aspose.Slides voor Java. Verbeter uw presentatie-indeling met deze stapsgewijze handleiding.
-type: docs
 weight: 17
 url: /nl/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie leert u hoe u cellen binnen een PowerPoint-tabel effectief kunt samenvoegen met Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren. Door cellen in een tabel samen te voegen, kunt u de lay-out en structuur van uw presentatiedia's aanpassen, waardoor de duidelijkheid en visuele aantrekkingskracht worden vergroot.
 ## Vereisten
@@ -92,3 +96,9 @@ Aspose.Slides voor Java is een Java-API voor het programmatisch maken, manipuler
  U kunt de documentatie vinden[hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen van het Aspose.Slides-communityforum[hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java スライドで定義済みのビュー タイプとして保存
 linktitle: Java スライドで定義済みのビュー タイプとして保存
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドで定義済みのビュー タイプを設定する方法を学びます。コード例と FAQ を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 10
 url: /ja/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドで定義済みビュー タイプとして保存する方法の概要
 
@@ -109,3 +113,9 @@ Aspose.Slides for Javaは、PPTX、PDF、TIFF、HTMLなど、さまざまな出�
 ### Aspose.Slides for Java の詳細情報とドキュメントはどこで入手できますか?
 
  Aspose.Slides for Java に関する包括的なドキュメントとリファレンスについては、次のドキュメント Web サイトをご覧ください。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

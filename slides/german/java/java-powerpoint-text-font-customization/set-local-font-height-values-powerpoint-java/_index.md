@@ -3,10 +3,14 @@ title: Festlegen lokaler Schrifthöhenwerte in PowerPoint mithilfe von Java
 linktitle: Festlegen lokaler Schrifthöhenwerte in PowerPoint mithilfe von Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides mithilfe von Java die Schrifthöhe in PowerPoint-Präsentationen anpassen. Verbessern Sie mühelos die Textformatierung in Ihren Folien.
-type: docs
 weight: 17
 url: /de/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java die Schrifthöhe auf verschiedenen Ebenen in PowerPoint-Präsentationen ändern können. Die Kontrolle der Schriftgrößen ist entscheidend für die Erstellung optisch ansprechender und strukturierter Präsentationen. Wir werden Schritt-für-Schritt-Beispiele durchgehen, um zu veranschaulichen, wie Sie die Schrifthöhe für verschiedene Textelemente festlegen.
 ## Voraussetzungen
@@ -65,3 +69,9 @@ Aspose.Slides für Java ist eine leistungsstarke API zur programmgesteuerten Bea
  Für Unterstützung besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### Wo kann ich eine Lizenz für Aspose.Slides für Java erwerben?
  Sie können eine Lizenz erwerben[Hier](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: سلسلة الرسوم المتحركة في شرائح جافا
 linktitle: سلسلة الرسوم المتحركة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروضك التقديمية باستخدام الرسوم المتحركة المتسلسلة في Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر لإنشاء رسوم متحركة جذابة لـ PowerPoint.
-type: docs
 weight: 11
 url: /ar/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لسلسلة الرسوم المتحركة في Aspose.Slides لجافا
 
@@ -125,3 +129,9 @@ finally
 ### كيف يمكنني تخصيص مدة الرسوم المتحركة والتأخير؟
 
 يمكنك تخصيص مدة الرسوم المتحركة والتأخير عن طريق تعيين خصائص تأثيرات الرسوم المتحركة. تحقق من وثائق Aspose.Slides for Java للحصول على تفاصيل حول خيارات التخصيص المتاحة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

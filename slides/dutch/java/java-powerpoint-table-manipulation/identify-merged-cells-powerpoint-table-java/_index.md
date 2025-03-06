@@ -3,10 +3,14 @@ title: Identificeer samengevoegde cellen in PowerPoint-tabel met behulp van Java
 linktitle: Identificeer samengevoegde cellen in PowerPoint-tabel met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u samengevoegde cellen in PowerPoint-tabellen programmatisch kunt identificeren met Aspose.Slides voor Java. Ideaal voor Java-ontwikkelaars.
-type: docs
 weight: 15
 url: /nl/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Op het gebied van Java-ontwikkeling kan het programmatisch manipuleren van PowerPoint-presentaties een cruciale taak zijn, vooral als het gaat om complexe datatabellen. Aspose.Slides voor Java biedt een krachtige toolkit waarmee ontwikkelaars verschillende aspecten van PowerPoint-presentaties naadloos kunnen beheren. Een veel voorkomende uitdaging waarmee ontwikkelaars worden geconfronteerd, is het identificeren van samengevoegde cellen in tabellen die zijn ingebed in presentaties. Deze tutorial is bedoeld om u te begeleiden bij het identificeren van samengevoegde cellen met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -67,3 +71,9 @@ Aspose.Slides voor Java is een krachtige bibliotheek voor het programmatisch man
  De documentatie is te vinden[hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
 Bezoek het Aspose.Slides-forum voor ondersteuning[hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

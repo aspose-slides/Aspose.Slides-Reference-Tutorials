@@ -3,10 +3,14 @@ title: 슬라이드의 머리글 및 바닥글 관리
 linktitle: 슬라이드의 머리글 및 바닥글 관리
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션에 동적 머리글과 바닥글을 추가하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # .NET용 Aspose.Slides에서 동적 머리글 및 바닥글 만들기
 
@@ -131,3 +135,9 @@ A2: 예, .NET용 Aspose.Slides 무료 평가판을 탐색할 수 있습니다.[�
 
 ### Q5: Aspose.Slides for .NET에 대한 커뮤니티나 지원 포럼이 있습니까?
  A5: 예, Aspose.Slides for .NET 지원 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

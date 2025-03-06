@@ -3,10 +3,14 @@ title: Aspose.Slides 部分缩放 - 提升您的演示文稿
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建部分放大功能
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 创建具有部分缩放功能的引人入胜的演示幻灯片。使用交互式功能提升您的演示质量。
-type: docs
 weight: 13
 url: /zh/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 使用交互式功能增强演示文稿幻灯片对于吸引观众至关重要。实现此目的的一种有效方法是加入部分缩放，这样您就可以在演示文稿的不同部分之间无缝导航。在本教程中，我们将探索如何使用 Aspose.Slides for .NET 在演示文稿幻灯片中创建部分缩放。
 ## 先决条件
@@ -70,3 +74,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
 是的，您可以使用以下方式探索 Aspose.Slides 的功能[免费试用](https://releases.aspose.com/).
 ### 在哪里可以获得与 Aspose.Slides 相关的查询支持？
 如需任何支持或疑问，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

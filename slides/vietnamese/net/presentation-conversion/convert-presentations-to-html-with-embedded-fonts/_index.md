@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày sang HTML bằng phông chữ nhúng
 linktitle: Chuyển đổi bản trình bày sang HTML bằng phông chữ nhúng
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Chuyển đổi bản trình bày PowerPoint sang HTML bằng phông chữ được nhúng bằng Aspose.Slides for .NET. Duy trì tính nguyên bản một cách liền mạch.
-type: docs
 weight: 13
 url: /vi/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thời đại kỹ thuật số ngày nay, việc chia sẻ bài thuyết trình và tài liệu trực tuyến đã trở thành một thói quen phổ biến. Tuy nhiên, một thách thức thường nảy sinh là đảm bảo phông chữ của bạn được hiển thị chính xác khi chuyển đổi bản trình bày sang HTML. Hướng dẫn từng bước này sẽ hướng dẫn bạn trong quá trình sử dụng Aspose.Slides for .NET để chuyển đổi bản trình bày sang HTML bằng phông chữ được nhúng, đảm bảo rằng tài liệu của bạn trông giống như bạn dự định.
 
@@ -120,3 +124,10 @@ Có, Aspose.Slides for .NET hỗ trợ nhiều định dạng đầu ra, bao g�
 ### 5. Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides cho .NET ở đâu?
 
  Bạn có thể truy cập vô số tài nguyên, bao gồm cả tài liệu, trên[Aspose.Slides cho tài liệu tham khảo API .NET](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

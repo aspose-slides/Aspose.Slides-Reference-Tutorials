@@ -3,10 +3,14 @@ title: 幻灯片中的图像和视频处理
 linktitle: 幻灯片中的图像和视频处理
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 用迷人的图像和视频增强您的幻灯片演示。逐步了解如何在幻灯片中处理图像和视频以获得具有视觉吸引力的内容。
-type: docs
 weight: 12
 url: /zh/net/image-and-video-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides 中的图像和视频处理简介
 
@@ -53,3 +57,9 @@ url: /zh/net/image-and-video-manipulation-in-slides/
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的 OLE 对象中提取嵌入文件数据。按照带有源代码的分步指南无缝检索和处理嵌入数据。
 ### [使用 Aspose.Slides 在演示幻灯片中用渐变填充形状](./filling-shapes-gradient/)
 了解如何使用 Aspose.Slides for .NET 通过迷人的渐变效果增强您的演示幻灯片。按照包含完整源代码的分步指南，使用渐变填充形状，从线性到径向，增加深度和尺寸。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

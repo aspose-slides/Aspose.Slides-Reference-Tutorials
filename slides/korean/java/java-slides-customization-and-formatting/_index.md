@@ -3,10 +3,14 @@ title: Java 슬라이드 사용자 정의 및 서식 지정
 linktitle: Java 슬라이드 사용자 정의 및 서식 지정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java 슬라이드를 사용자 정의하고 형식화하는 데 있어 Aspose.Slides for Java의 강력한 기능을 알아보세요. 튜토리얼에서 단계별로 알아보세요. 프리젠테이션 기술을 향상해보세요.
-type: docs
 weight: 12
 url: /ko/java/customization-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
  이 기사에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드 사용자 정의 및 서식 지정의 세계를 자세히 살펴보겠습니다. 숙련된 개발자이든 이제 막 Java 프리젠테이션을 시작하는 사람이든, 우리의 튜토리얼 목록은 Aspose.Slides의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.|
 
@@ -49,3 +53,9 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드에서 글꼴 속성을 
 Java용 Aspose.Slides를 사용하여 차트를 향상하세요. Java 슬라이드에서 위치 축을 설정하고, 멋진 프레젠테이션을 만들고, 차트 레이아웃을 쉽게 사용자 정의하는 방법을 알아보세요.
 ### [Java 슬라이드에서 회전 각도 설정](./setting-rotation-angle-java-slides/)
 Aspose.Slides for Java로 Java 슬라이드를 최적화하세요. 텍스트 요소의 회전 각도를 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

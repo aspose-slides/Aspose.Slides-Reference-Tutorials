@@ -3,10 +3,14 @@ title: Aspose.Slides - Συνδέστε τα σχήματα απρόσκοπτα
 linktitle: Σύνδεση σχημάτων με χρήση συνδέσμων στην παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε τη δύναμη του Aspose.Slides για .NET, συνδέοντας σχήματα χωρίς κόπο στις παρουσιάσεις σας. Ανυψώστε τις διαφάνειές σας με δυναμικές υποδοχές.
-type: docs
 weight: 29
 url: /el/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η δυνατότητα σύνδεσης σχημάτων χρησιμοποιώντας συνδέσμους προσθέτει ένα επίπεδο πολυπλοκότητας στις διαφάνειές σας. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να το επιτύχουν απρόσκοπτα. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία, αναλύοντας κάθε βήμα για να εξασφαλίσετε μια σαφή κατανόηση.
 ## Προαπαιτούμενα
@@ -77,3 +81,9 @@ input.Save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.P
 Εξερευνήστε την τεκμηρίωση Aspose.Slides για μεθόδους προσαρμογής της εμφάνισης της εφαρμογής σύνδεσης, όπως το στυλ γραμμής και το χρώμα.
 ### Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.Slides;
  Ναι, μπορείτε να βρείτε βοήθεια και να μοιραστείτε τις εμπειρίες σας στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java スライドの組織図
 linktitle: Java スライドの組織図
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides のステップバイステップのチュートリアルで、Java Slides で魅力的な組織図を作成する方法を学びます。組織構造を簡単にカスタマイズして視覚化します。
-type: docs
 weight: 22
 url: /ja/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides を使用して Java スライドで組織図を作成する方法の紹介
 
@@ -103,3 +107,9 @@ finally
 ### 複数レベルにわたる複雑な組織構造を作成することは可能ですか?
 
 はい、Aspose.Slides では、組織図内に図形を追加して配置することで、複数のレベルを持つ複雑な組織構造を作成できます。図形間の階層関係を定義して、必要な構造を表すことができます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

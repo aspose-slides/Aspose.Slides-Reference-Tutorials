@@ -3,10 +3,14 @@ title: تلوين الرسم البياني باستخدام Aspose.Slides لـ 
 linktitle: أضف اللون إلى نقاط البيانات في المخطط
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة لون إلى نقاط البيانات في مخطط باستخدام Aspose.Slides لـ .NET. قم بتحسين عروضك التقديمية بصريًا وإشراك جمهورك بشكل فعال.
-type: docs
 weight: 12
 url: /ar/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية إضافة اللون إلى نقاط البيانات في المخطط باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية في تطبيقات .NET. يمكن أن تؤدي إضافة لون إلى نقاط البيانات في المخطط إلى جعل عروضك التقديمية أكثر جاذبية من الناحية المرئية وأسهل للفهم.
 
@@ -115,3 +119,9 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
     للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

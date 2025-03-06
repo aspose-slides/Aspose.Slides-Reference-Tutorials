@@ -3,10 +3,14 @@ title: Konvertera presentation till HTML med att bevara originalteckensnitt i Ja
 linktitle: Konvertera presentation till HTML med att bevara originalteckensnitt i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Konvertera PowerPoint-presentationer till HTML samtidigt som de ursprungliga typsnitten bevaras med Aspose.Slides för Java.
-type: docs
 weight: 14
 url: /sv/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att konvertera presentation till HTML med att bevara originalteckensnitt i Java Slides
 
@@ -111,3 +115,9 @@ Detta kodexempel är designat för PPTX-filer. Om du behöver konvertera äldre 
 ### Hur kan jag anpassa HTML-utdata ytterligare?
 
  Du kan utforska`HtmlOptions` klass för att anpassa olika aspekter av HTML-utdata, såsom bildstorlek, bildkvalitet och mer.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

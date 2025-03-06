@@ -3,10 +3,14 @@ title: Java 슬라이드의 자동 차트 시리즈 색상
 linktitle: Java 슬라이드의 자동 차트 시리즈 색상
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 자동 시리즈 색상으로 동적 차트를 만드는 방법을 알아보세요. 손쉽게 데이터 시각화를 향상하세요.
-type: docs
 weight: 14
 url: /ko/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java의 자동 차트 시리즈 색상 소개
 
@@ -190,3 +194,9 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### Aspose.Slides for Java 작업에 대한 자세한 정보는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 자세한 내용과 자세한 문서를 보려면 참조 문서를 방문하세요.[여기](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

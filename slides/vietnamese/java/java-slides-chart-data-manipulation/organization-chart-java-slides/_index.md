@@ -3,10 +3,14 @@ title: Sơ đồ tổ chức trong Java Slides
 linktitle: Sơ đồ tổ chức trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo biểu đồ tổ chức tuyệt đẹp trong Java Slides với hướng dẫn từng bước về Aspose.Slides. Tùy chỉnh và trực quan hóa cơ cấu tổ chức của bạn một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Tạo sơ đồ tổ chức trong Java Slides bằng Aspose.Slides
 
@@ -103,3 +107,9 @@ Có, bạn có thể thêm hình dạng, văn bản và đường kết nối b�
 ### Có thể tạo ra các cơ cấu tổ chức phức tạp với nhiều cấp độ không?
 
 Có, Aspose.Slides cho phép bạn tạo các cấu trúc tổ chức phức tạp với nhiều cấp độ bằng cách thêm và sắp xếp các hình dạng trong sơ đồ tổ chức. Bạn có thể xác định mối quan hệ phân cấp giữa các hình dạng để thể hiện cấu trúc mong muốn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

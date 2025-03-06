@@ -3,10 +3,14 @@ title: เพิ่มโหนดผู้ช่วยให้กับ SmartA
 linktitle: เพิ่มโหนดผู้ช่วยให้กับ SmartArt ใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มโหนดผู้ช่วยให้กับ SmartArt ในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides พัฒนาทักษะการแก้ไข PowerPoint ของคุณ
-type: docs
 weight: 17
 url: /th/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มโหนดผู้ช่วยให้กับ SmartArt ในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides
 ## ข้อกำหนดเบื้องต้น
@@ -70,3 +74,9 @@ Aspose.Slides รองรับ PowerPoint เวอร์ชันตั้ง
 ใช่ คุณสามารถปรับแต่งลักษณะที่ปรากฏได้โดยใช้คุณสมบัติและวิธีการต่างๆ ที่ได้รับจาก Aspose.Slides
 ### มีการจำกัดจำนวนโหนดใน SmartArt หรือไม่?
 SmartArt ใน PowerPoint รองรับโหนดจำนวนมาก แต่ขอแนะนำให้รักษาให้เหมาะสมเพื่อให้สามารถอ่านได้ดีขึ้น
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

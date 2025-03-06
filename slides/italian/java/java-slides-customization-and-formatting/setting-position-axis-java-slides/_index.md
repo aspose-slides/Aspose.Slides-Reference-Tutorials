@@ -3,10 +3,14 @@ title: Impostazione dell'asse di posizione nelle diapositive Java
 linktitle: Impostazione dell'asse di posizione nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora i tuoi grafici con Aspose.Slides per Java. Scopri come impostare l'asse di posizione nelle diapositive Java, creare presentazioni straordinarie e personalizzare facilmente i layout dei grafici.
-type: docs
 weight: 16
 url: /it/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'impostazione dell'asse di posizione in Aspose.Slides per Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Per questo tutorial è tutto. Hai imparato come impostare l'asse di posizione in un grafico utilizzando Aspose.Slides per Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

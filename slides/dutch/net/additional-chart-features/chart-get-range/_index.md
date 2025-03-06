@@ -3,10 +3,14 @@ title: Hoe u het bereik van grafiekgegevens kunt ophalen in Aspose.Slides voor .
 linktitle: Bereik diagramgegevens ophalen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u het bereik van diagramgegevens uit PowerPoint-presentaties kunt extraheren met Aspose.Slides voor .NET. Een stapsgewijze handleiding voor ontwikkelaars.
-type: docs
 weight: 11
 url: /nl/net/additional-chart-features/chart-get-range/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Wilt u het gegevensbereik uit een diagram in uw PowerPoint-presentatie extraheren met Aspose.Slides voor .NET? U bent hier aan het juiste adres. In deze stapsgewijze handleiding begeleiden we u bij het verkrijgen van het diagramgegevensbereik uit uw presentatie. Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u programmatisch met PowerPoint-documenten kunt werken, en het verkrijgen van het diagramgegevensbereik is slechts een van de vele taken die u hiermee kunt uitvoeren.
 
@@ -93,3 +97,9 @@ Ja, u kunt in een PowerPoint-presentatie met dia's, vormen, tekst, afbeeldingen 
 
 ### Welke ondersteuningsopties zijn beschikbaar voor Aspose.Slides voor .NET-gebruikers?
  U kunt ondersteuning en hulp krijgen van de Aspose-gemeenschap op hun[Helpforum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

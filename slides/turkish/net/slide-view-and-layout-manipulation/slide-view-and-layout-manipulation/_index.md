@@ -3,10 +3,14 @@ title: Aspose.Slides'ta Slayt Görünümü ve Düzen Düzenleme
 linktitle: Aspose.Slides'ta Slayt Görünümü ve Düzen Düzenleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint'te slayt görünümlerini ve düzenlerini nasıl değiştireceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Yazılım geliştirme dünyasında, PowerPoint sunumlarını programlı olarak oluşturmak ve değiştirmek ortak bir gereksinimdir. Aspose.Slides for .NET, geliştiricilerin PowerPoint dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir araç seti sağlar. Sunularla çalışmanın önemli yönlerinden biri slayt görünümü ve düzenin değiştirilmesidir. Bu kılavuzda, slayt görünümlerini ve düzenlerini yönetmek için Aspose.Slides for .NET'i kullanma sürecini adım adım talimatlar ve kod örnekleri sunarak ele alacağız.
 
@@ -132,3 +136,10 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Çözüm
 
 Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışma sürecini basitleştirir. Bu kılavuzda slayt görünümü ve düzen düzenlemenin temel adımlarını inceledik. Aspose.Slides, sunumların yüklenmesinden slayt içeriğinin özelleştirilmesine kadar geliştiricilerin zahmetsizce dinamik ve ilgi çekici sunumlar oluşturması için güçlü bir araç seti sağlar.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Dapatkan Lebar dan Tinggi dari Area Plot Bagan di Slide Java
 linktitle: Dapatkan Lebar dan Tinggi dari Area Plot Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengambil dimensi area plot bagan di Java Slides menggunakan Aspose.Slides untuk Java. Tingkatkan keterampilan otomatisasi PowerPoint Anda.
-type: docs
 weight: 21
 url: /id/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Perkenalan
 
@@ -109,3 +113,10 @@ Ya, Aspose.Slides for Java adalah perpustakaan canggih untuk mengotomatisasi tug
 ### Bagaimana saya bisa mempelajari lebih lanjut tentang Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi dan contoh ekstensif di halaman dokumentasi Aspose.Slides untuk Java[Di Sini](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

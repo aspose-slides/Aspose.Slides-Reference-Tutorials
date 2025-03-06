@@ -3,10 +3,14 @@ title: Chart Marker Options on Data Point a Java Slides-ben
 linktitle: Chart Marker Options on Data Point a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Java diákjait az egyéni diagramjelölő opciókkal. Ismerje meg az adatpontok vizuális javítását az Aspose.Slides for Java segítségével. Fedezze fel a lépésről lépésre szóló útmutatót és a GYIK-et.
-type: docs
 weight: 14
 url: /hu/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a Chart Marker Options on Data Point a Java Slides
 
@@ -154,3 +158,9 @@ Igen, az Aspose.Slides for Java segítségével testreszabhatja a diagram külö
 ### Hol érhetem el az Aspose.Slides for Java dokumentációját és letöltéseit?
 
  A dokumentációt megtalálod a címen[itt](https://reference.aspose.com/slides/java/) és töltse le a könyvtárat a címről[itt](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

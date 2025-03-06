@@ -3,10 +3,14 @@ title: Formatear líneas de presentación con Aspose.Slides .NET Tutorial
 linktitle: Formato de líneas en diapositivas de presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore las diapositivas de su presentación con Aspose.Slides para .NET. Sigue nuestra guía paso a paso para formatear líneas sin esfuerzo. ¡Descarga la prueba gratuita ahora!
-type: docs
 weight: 10
 url: /es/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 Crear diapositivas de presentación visualmente atractivas es esencial para una comunicación eficaz. Aspose.Slides para .NET proporciona una poderosa solución para manipular y formatear elementos de presentación mediante programación. En este tutorial, nos centraremos en dar formato a líneas en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -75,3 +79,9 @@ Sí, Aspose.Slides admite varios lenguajes de programación, incluidos Java y Py
  Puede obtener una licencia temporal de[Licencia temporal de Aspose.Slides](https://purchase.aspose.com/temporary-license/).
 ### P5: ¿Dónde puedo comprar Aspose.Slides para .NET?
  Puedes comprar el producto desde[Compra de Aspose.Slides](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Configuración de colores automáticos de sectores de gráficos circulare
 linktitle: Configuración de colores automáticos de sectores de gráficos circulares en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear gráficos circulares dinámicos con colores de corte automáticos en presentaciones de PowerPoint en Java utilizando Aspose.Slides para Java. Guía paso a paso con código fuente.
-type: docs
 weight: 24
 url: /es/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a la configuración de colores automáticos de sectores de gráficos circulares en diapositivas de Java
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Puede ajustar el tamaño de fuente, la negrita y el estilo de cursiva según sea necesario.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

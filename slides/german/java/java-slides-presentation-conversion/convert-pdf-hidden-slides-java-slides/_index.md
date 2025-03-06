@@ -3,10 +3,14 @@ title: Mit ausgeblendeten Folien in Java Slides in PDF konvertieren
 linktitle: Mit ausgeblendeten Folien in Java Slides in PDF konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in PDF mit versteckten Folien konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcode zur nahtlosen PDF-Erstellung.
-type: docs
 weight: 27
 url: /de/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung zum Konvertieren einer PowerPoint-Präsentation in PDF mit ausgeblendeten Folien mithilfe von Aspose.Slides für Java
 
@@ -115,3 +119,9 @@ slide.setHidden(false);
 ### Wie lade ich Aspose.Slides für Java herunter?
 
  Sie können Aspose.Slides für Java von der Aspose-Website herunterladen. Besuchen Sie die[Aspose.Slides für Java-Downloadseite](https://releases.aspose.com/slides/java/) um die neueste Version zu erhalten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

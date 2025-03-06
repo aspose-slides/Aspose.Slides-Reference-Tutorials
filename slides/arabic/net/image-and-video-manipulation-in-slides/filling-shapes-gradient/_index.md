@@ -3,10 +3,14 @@ title: قم بإنشاء تدرجات مذهلة في برنامج PowerPoint ب
 linktitle: تعبئة الأشكال بالتدرج في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعرف على عملية ملء الأشكال بالتدرجات خطوة بخطوة. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 21
 url: /ar/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء شرائح العرض التقديمي الجذابة بصريًا أمرًا ضروريًا لجذب انتباه جمهورك والحفاظ عليه. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحسين الشرائح الخاصة بك عن طريق ملء شكل بيضاوي بتدرج باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -73,3 +77,9 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
  ج: اطلب المساعدة والتفاعل مع المجتمع بشأن[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
  ج: بالتأكيد يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

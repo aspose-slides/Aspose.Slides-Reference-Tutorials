@@ -3,10 +3,14 @@ title: Cómo utilizar Aspose.Slides .NET para recuperar un libro de trabajo del 
 linktitle: Recuperar libro de trabajo del gráfico
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo recuperar un libro de un gráfico en presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para extraer datos de manera eficiente.
-type: docs
 weight: 12
 url: /es/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Si busca trabajar con presentaciones de PowerPoint en .NET, Aspose.Slides para .NET es una biblioteca poderosa que puede ayudarlo a lograr sus objetivos. En este tutorial, lo guiaremos a través del proceso de recuperación de un libro de trabajo a partir de un gráfico en una presentación de PowerPoint usando Aspose.Slides para .NET. Esta poderosa característica puede resultar útil cuando necesita extraer datos de gráficos dentro de sus presentaciones. Dividiremos el proceso en pasos fáciles de seguir, asegurándonos de que tenga una comprensión clara de cómo realizar esta tarea.
 
@@ -101,3 +105,9 @@ Aspose.Slides para .NET es una potente biblioteca .NET para trabajar con archivo
 ### 5. ¿Cuál es la longitud máxima del título para la optimización SEO?
 
 Para la optimización SEO, se recomienda mantener el título por debajo de 60 caracteres para garantizar que se muestre correctamente en los resultados de los motores de búsqueda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: In bản trình bày bằng máy in mặc định trong Aspose.Slides
 linktitle: In bản trình bày bằng máy in mặc định trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Mở khóa tính năng in PowerPoint liền mạch trong .NET bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp dễ dàng. Nâng cao chức năng ứng dụng của bạn ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong lĩnh vực phát triển .NET, Aspose.Slides nổi bật như một công cụ mạnh mẽ để tạo, thao tác và hiển thị bản trình bày PowerPoint. Trong số các tính năng của nó, khả năng in bản trình bày trực tiếp tới máy in mặc định là một chức năng tiện dụng mà các nhà phát triển thường tìm kiếm. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, giúp bạn có thể truy cập được ngay cả khi bạn là người mới làm quen với Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -51,3 +55,9 @@ Hoàn toàn có thể, Aspose.Slides được cập nhật thường xuyên đ�
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Làm cách nào tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng Aspose.Slides?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để đặt câu hỏi, chia sẻ thông tin chi tiết và kết nối với các nhà phát triển đồng nghiệp.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

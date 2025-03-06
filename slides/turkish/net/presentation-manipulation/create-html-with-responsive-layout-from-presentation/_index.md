@@ -3,10 +3,14 @@ title: Sunumdan Duyarlı Düzen ile HTML Oluşturun
 linktitle: Sunumdan Duyarlı Düzen ile HTML Oluşturun
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları duyarlı HTML'ye nasıl dönüştüreceğinizi öğrenin. Zahmetsizce etkileşimli, cihaz dostu içerik oluşturun.
-type: docs
 weight: 17
 url: /tr/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Günümüzün dijital çağında duyarlı web içeriği oluşturmak, web geliştiricileri ve tasarımcıları için çok önemli bir beceridir. Neyse ki Aspose.Slides for .NET gibi araçlar, sunumlardan duyarlı mizanpajlarla HTML oluşturmayı kolaylaştırıyor. Bu adım adım eğitimde, sağlanan kaynak kodunu kullanarak bunu başarma sürecinde size rehberlik edeceğiz.
 
@@ -72,3 +76,9 @@ Destekle ilgili sorularınız için şu adresi ziyaret edin:[Aspose.Slides forum
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 
 Artık sunumlardan duyarlı HTML oluşturmaya yönelik kapsamlı bir kılavuza sahip olduğunuza göre, web içeriğinizin erişilebilirliğini ve çekiciliğini artırma yolundasınız demektir. Mutlu kodlama!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

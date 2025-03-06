@@ -3,10 +3,14 @@ title: Définir un numéro de puces personnalisé dans Java PowerPoint
 linktitle: Définir un numéro de puces personnalisé dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des numéros de puces personnalisés dans Java PowerPoint avec Aspose.Slides, améliorant ainsi la clarté et la structure de la présentation par programmation.
-type: docs
 weight: 15
 url: /fr/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, la création de présentations dynamiques est cruciale pour communiquer efficacement des idées et des données. Aspose.Slides pour Java fournit une boîte à outils puissante pour manipuler les présentations PowerPoint par programme, offrant des fonctionnalités étendues pour améliorer votre processus de création de présentations. Cet article explique comment définir des numéros de puces personnalisés dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Que vous soyez un développeur chevronné ou un nouveau venu, ce didacticiel vous guidera étape par étape tout au long du processus, vous garantissant ainsi d'exploiter efficacement cette fonctionnalité.
 ## Conditions préalables
@@ -82,3 +86,9 @@ Aspose.Slides prend en charge les formats PowerPoint de 97 à 2003 jusqu'aux der
  Oui, vous pouvez télécharger un essai gratuit à partir de[ici](https://releases.aspose.com/).
 ### Où puis-je acheter Aspose.Slides ?
  Vous pouvez acheter Aspose.Slides auprès de[ici](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

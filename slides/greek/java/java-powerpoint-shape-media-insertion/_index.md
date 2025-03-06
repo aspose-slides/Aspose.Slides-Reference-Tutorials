@@ -3,10 +3,14 @@ title: Java PowerPoint Shape and Media Insert
 linktitle: Java PowerPoint Shape and Media Insert
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να εισάγετε σχήματα και μέσα σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Τα σεμινάρια περιλαμβάνουν την προσθήκη γραμμών, ήχου, αντικειμένων OLE και βίντεο.
-type: docs
 weight: 23
 url: /el/java/java-powerpoint-shape-media-insertion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή
 
@@ -53,3 +57,9 @@ url: /el/java/java-powerpoint-shape-media-insertion/
 Μάθετε πώς να ενσωματώνετε απρόσκοπτα περιεχόμενο βίντεο σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οι διαφάνειές σας με στοιχεία πολυμέσων για να προσελκύσουν το κοινό σας.
 ### [Προσθήκη Video Frame από Web Source στο PowerPoint](./add-video-frame-web-source-powerpoint/)
 Μάθετε πώς να βελτιώσετε τις παρουσιάσεις σας στο PowerPoint προσθέτοντας καρέ βίντεο από πηγές Ιστού χρησιμοποιώντας το Aspose.Slides για Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

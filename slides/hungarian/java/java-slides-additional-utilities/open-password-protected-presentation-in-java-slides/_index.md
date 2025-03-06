@@ -3,10 +3,14 @@ title: Nyissa meg a Jelszóval védett bemutatót a Java Slides alkalmazásban
 linktitle: Nyissa meg a Jelszóval védett bemutatót a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Jelszóval védett prezentációk feloldása Java nyelven. Ismerje meg, hogyan nyithat meg és érhet el jelszóval védett PowerPoint-diákat az Aspose.Slides for Java használatával. Lépésről lépésre kóddal.
-type: docs
 weight: 15
 url: /hu/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a jelszóval védett prezentáció megnyitásához a Java Slides-ben
 
@@ -113,3 +117,9 @@ Az Aspose.Slides lehetőséget biztosít a prezentáció jelszavának beállít�
 ### Hol találok további példákat és dokumentációt az Aspose.Slides for Java-hoz?
 
  Átfogó dokumentációt és további példákat találhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) és a[Aspose.Slides fórum](https://forum.aspose.com/c/slides).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

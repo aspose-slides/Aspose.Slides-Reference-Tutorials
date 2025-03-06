@@ -3,10 +3,14 @@ title: Verspreid diagram in Java-dia's
 linktitle: Verspreid diagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u spreidingsdiagrammen maakt in Java met behulp van Aspose.Slides. Stap-voor-stap handleiding met Java-broncode voor datavisualisatie in presentaties.
-type: docs
 weight: 11
 url: /nl/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het spreidingsdiagram in Aspose.Slides voor Java
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Voel je vrij om meer aanpassingsopties te verkennen in de Aspose.Slides voor Java-documentatie.
 
  Vergeet niet te vervangen`"Your Document Directory"` met het daadwerkelijke pad waar u de presentatie wilt opslaan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

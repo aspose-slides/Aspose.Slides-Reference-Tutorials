@@ -3,10 +3,14 @@ title: Kustomisasi Teks dan Font Java PowerPoint
 linktitle: Kustomisasi Teks dan Font Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Jelajahi tutorial tentang kustomisasi teks dan font Java PowerPoint dengan Aspose.Slides. Pelajari rotasi, penggantian font, dan lainnya untuk menyempurnakan presentasi Anda.
-type: docs
 weight: 29
 url: /id/java/java-powerpoint-text-font-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 
 Buka potensi penuh presentasi PowerPoint Anda dengan Tutorial Kustomisasi Teks dan Font Java PowerPoint kami menggunakan Aspose.Slides. Baik Anda seorang pemula atau pengguna tingkat lanjut, panduan terperinci kami akan membantu Anda menyempurnakan presentasi Anda dengan mudah.
@@ -102,3 +106,9 @@ Pelajari cara menambahkan kotak teks ke slide PowerPoint secara terprogram mengg
 Pelajari cara mengintegrasikan font khusus ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan daya tarik visual dengan mudah.
 ### [Buat WordArt di PowerPoint menggunakan Java](./create-wordart-powerpoint-java/)
 Pelajari cara membuat WordArt yang menawan dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides. Tutorial langkah demi langkah untuk pengembang.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

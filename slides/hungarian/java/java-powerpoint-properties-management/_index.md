@@ -3,10 +3,14 @@ title: Java PowerPoint tulajdonságkezelés
 linktitle: Java PowerPoint tulajdonságkezelés
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel, hogyan kezelheti a PowerPoint tulajdonságait az Aspose.Slides for Java segítségével. Átfogó oktatóanyagaink segítségével könnyedén elérheti, módosíthatja és frissítheti a tulajdonságokat.
-type: docs
 weight: 21
 url: /hu/java/java-powerpoint-properties-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés
 
@@ -38,3 +42,9 @@ Fedezze fel az Aspose.Slides for Java erejét. Sajátítsa el a prezentációkez
 Ismerje meg, hogyan módosíthatja a PowerPoint-prezentációk beépített tulajdonságait az Aspose.Slides for Java segítségével. Fejlessze prezentációit programozottan.
 ### [Frissítse a prezentáció tulajdonságait új sablonnal](./update-presentation-properties-new-template/)
 Ismerje meg, hogyan frissítheti a prezentáció tulajdonságait az Aspose.Slides for Java használatával. Javítsa Java-projektjeit zökkenőmentes metaadat-módosítással.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

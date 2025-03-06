@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ ghi chú con SmartArt
 linktitle: Tạo hình thu nhỏ ghi chú con SmartArt
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình thu nhỏ ghi chú con SmartArt trong Java bằng Aspose.Slides, cải thiện bản trình bày PowerPoint của bạn một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo hình thu nhỏ ghi chú con SmartArt trong Java bằng Aspose.Slides. Aspose.Slides là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các bản trình bày PowerPoint theo chương trình, cho phép họ tạo, sửa đổi và thao tác các trang chiếu một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -70,3 +74,9 @@ Có, Aspose.Slides được thiết kế để xử lý các tác vụ tự đ�
 Chắc chắn! Aspose.Slides cung cấp hỗ trợ toàn diện để tạo và thao tác các sơ đồ SmartArt có độ phức tạp khác nhau.
 ### Aspose.Slides có cung cấp hỗ trợ kỹ thuật cho nhà phát triển không?
  Có, Aspose.Slides cung cấp hỗ trợ kỹ thuật chuyên dụng cho các nhà phát triển thông qua[diễn đàn](https://forum.aspose.com/c/slides/11) và các kênh khác.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

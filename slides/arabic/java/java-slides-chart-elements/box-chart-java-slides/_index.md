@@ -3,10 +3,14 @@ title: مخطط مربع في شرائح جافا
 linktitle: مخطط مربع في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات مربعة في عروض Java التقديمية باستخدام Aspose.Slides. تم تضمين دليل خطوة بخطوة وكود المصدر لتصور البيانات بشكل فعال.
-type: docs
 weight: 10
 url: /ar/java/chart-elements/box-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى المخطط الصندوقي في Aspose.Slides لـ Java
 
@@ -148,3 +152,9 @@ finally
 ### ماذا يعني QuartileMethodType.Exclusive؟
 
  ال`QuartileMethodType.Exclusive` يحدد الإعداد أنه يجب إجراء الحسابات الربعية باستخدام الطريقة الحصرية. يمكنك اختيار طرق حساب ربعية مختلفة وفقًا لبياناتك ومتطلباتك.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

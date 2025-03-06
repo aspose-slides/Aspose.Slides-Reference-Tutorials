@@ -3,10 +3,14 @@ title: Создать миниатюру из слайда в заметках
 linktitle: Создать миниатюру из слайда в заметках
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать миниатюры слайдов в разделе заметок вашей презентации с помощью Aspose.Slides для .NET. Улучшите свой визуальный контент!
-type: docs
 weight: 12
 url: /ru/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 В мире современных презентаций визуальный контент имеет решающее значение. Создание привлекательных слайдов имеет важное значение для эффективного общения. Один из способов улучшить ваши презентации — создавать миниатюры слайдов, особенно если вы хотите подчеркнуть определенные детали или поделиться обзором. Aspose.Slides for .NET — мощный инструмент, который поможет вам легко добиться этого. В этом пошаговом руководстве мы покажем вам процесс создания миниатюр из слайдов в разделе заметок презентации с помощью Aspose.Slides для .NET.
 
@@ -114,3 +118,9 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### Где я могу получить поддержку или дополнительную помощь по Aspose.Slides для .NET?
  Вы можете найти помощь и пообщаться с сообществом Aspose на сайте[Форум поддержки Aspose](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

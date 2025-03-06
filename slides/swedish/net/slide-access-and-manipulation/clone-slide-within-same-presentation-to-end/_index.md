@@ -3,10 +3,14 @@ title: Duplicera bild till slutet av befintlig presentation
 linktitle: Duplicera bild till slutet av befintlig presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du duplicerar och lägger till en bild i slutet av en befintlig PowerPoint-presentation med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger exempel på källkod och täcker inställning, duplicering av bildbilder, modifiering och mer.
-type: docs
 weight: 22
 url: /sv/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -96,3 +100,9 @@ Ja, Aspose.Slides stöder olika PowerPoint-format, inklusive PPT, PPTX, PPS och 
 ### Kan jag ändra bildinnehåll med Aspose.Slides?
 
 Absolut! Aspose.Slides låter dig inte bara duplicera bilder utan också manipulera deras innehåll, såsom text, bilder, former och animationer, programmatiskt.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

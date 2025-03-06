@@ -3,10 +3,14 @@ title: हाइपरलिंक हेरफेर
 linktitle: हाइपरलिंक हेरफेर
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides का उपयोग करके व्यापक हाइपरलिंक हेरफेर के साथ अपने .NET अनुप्रयोगों को बेहतर बनाएँ। हाइपरलिंक प्रबंधित करना, इंटरैक्टिव प्रस्तुतियाँ बनाना और उपयोगकर्ता सहभागिता को सहजता से बढ़ाना सीखें।
-type: docs
 weight: 13
 url: /hi/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## परिचय:
 
@@ -27,3 +31,9 @@ Aspose.Slides for .NET का उपयोग करके PowerPoint में 
 Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में हाइपरलिंक्स को प्रभावी ढंग से प्रबंधित करना सीखें। कार्यों को स्वचालित करें, इंटरैक्टिव मेनू बनाएँ और उपयोगकर्ता सहभागिता बढ़ाएँ।
 ### [परिवर्तनीय हाइपरलिंक निर्माण](./mutable-hyperlink/)
 .NET के लिए Aspose.Slides का उपयोग करके परिवर्तनशील हाइपरलिंक बनाना सीखें। गतिशील प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

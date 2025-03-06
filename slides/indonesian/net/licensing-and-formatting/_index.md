@@ -3,10 +3,14 @@ title: Lisensi dan Pemformatan
 linktitle: Lisensi dan Pemformatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan pemahaman Anda tentang pelisensian dan pemformatan Aspose.Slides melalui tutorial komprehensif. Pelajari cara mengelola lisensi secara efisien dan mencapai pemformatan sempurna untuk presentasi Anda.
-type: docs
 weight: 21
 url: /id/net/licensing-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Perkenalan
 
@@ -31,3 +35,9 @@ Pelajari cara menggunakan Lisensi Terukur secara efisien dengan Aspose.Slides un
 Pelajari cara menyempurnakan visual bagan dengan Aspose.Slides untuk .NET. Tambahkan warna dinamis ke titik data untuk presentasi yang lebih berdampak.
 ### [Tambahkan Bilah Kesalahan Khusus ke Bagan](./add-custom-error/)
 Pelajari cara menambahkan bilah kesalahan khusus ke bagan menggunakan Aspose.Slides untuk .NET. Buat, gaya, dan sesuaikan bilah kesalahan untuk visualisasi data yang akurat.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

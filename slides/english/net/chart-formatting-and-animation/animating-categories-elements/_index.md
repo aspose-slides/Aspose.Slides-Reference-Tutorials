@@ -3,10 +3,14 @@ title: Powerful Chart Animations with Aspose.Slides for .NET
 linktitle: Animating Categories Elements in Chart
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to animate chart elements in PowerPoint with Aspose.Slides for .NET. Step-by-step guide for stunning presentations.
-type: docs
 weight: 11
 url: /net/chart-formatting-and-animation/animating-categories-elements/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In the world of presentations, animations can make your content come to life, especially when dealing with charts. Aspose.Slides for .NET offers an array of powerful features that allow you to create stunning animations for your charts. In this step-by-step guide, we will walk you through the process of animating category elements in a chart using Aspose.Slides for .NET.
 
@@ -124,3 +128,10 @@ You can obtain a temporary license for Aspose.Slides for .NET [here](https://pur
 ### 5. Is there a community forum for Aspose.Slides for .NET support?
 Yes, you can find a supportive community forum for Aspose.Slides for .NET [here](https://forum.aspose.com/).
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: إدارة تباعد الأسطر في Java PowerPoint
 linktitle: إدارة تباعد الأسطر في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إدارة تباعد الأسطر في عروض Java PowerPoint التقديمية دون عناء باستخدام Aspose.Slides for Java. تعزيز الشرائح الخاصة بك.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في برمجة Java، تعد إدارة تباعد الأسطر داخل عروض PowerPoint التقديمية أمرًا بالغ الأهمية لإنشاء شرائح جذابة بصريًا تنقل المعلومات بشكل فعال. سواء كنت تقوم بضبط المسافة بين الفقرات أو التحكم في التباعد قبل كل فقرة وبعدها، فإن Aspose.Slides for Java يوفر أدوات شاملة لتحقيق هذه المهام بسلاسة.
 ## المتطلبات الأساسية
@@ -62,3 +66,9 @@ presentation.save(dataDir + "LineSpacing_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Slides؟
  للحصول على المساعدة الفنية، قم بزيارة Aspose.Slides[منتدى الدعم](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

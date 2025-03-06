@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Grafik için Yazı Tipi Özellikleri
 linktitle: Java Slaytlarındaki Grafik için Yazı Tipi Özellikleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'taki Grafik Yazı Tipi Özelliklerini geliştirin. Etkili sunumlar için yazı tipi boyutunu, stilini ve rengini özelleştirin.
-type: docs
 weight: 11
 url: /tr/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarındaki Grafik için Yazı Tipi Özelliklerine Giriş
 
@@ -102,3 +106,9 @@ Bu eğitimde, Aspose.Slides for Java kullanarak Java Slides'ta bir grafiğin yaz
 ### Belirli grafik öğeleri için yazı tipi özelliklerini nasıl özelleştiririm?
 
 Eksen etiketleri veya açıklama metni gibi belirli grafik öğelerinin yazı tipi özelliklerini özelleştirmek için bu öğelere erişebilir ve yukarıda gösterilene benzer yöntemleri kullanarak yazı tipi özelliklerini ayarlayabilirsiniz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

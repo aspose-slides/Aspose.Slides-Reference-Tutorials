@@ -3,10 +3,14 @@ title: Zmień kolejność kształtów w programie PowerPoint
 linktitle: Zmień kolejność kształtów w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Z tego samouczka krok po kroku dowiesz się, jak zmienić kolejność kształtów w programie PowerPoint przy użyciu Aspose.Slides dla języka Java. Zwiększ swoje umiejętności prezentacji bez wysiłku.
-type: docs
 weight: 15
 url: /pl/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie i dobrze zorganizowanych prezentacji może być trudnym zadaniem. Jednak dzięki odpowiednim narzędziom i technikom możesz znacznie ułatwić to zadanie. Aspose.Slides dla Java to potężna biblioteka, która pomaga programowo manipulować prezentacjami programu PowerPoint i zarządzać nimi. W tym samouczku przeprowadzimy Cię przez kolejne etapy zmiany kolejności kształtów na slajdzie programu PowerPoint przy użyciu programu Aspose.Slides dla języka Java.
 ## Warunki wstępne
@@ -73,3 +77,9 @@ Tak, Aspose.Slides for Java obsługuje PPT, PPTX i inne formaty PowerPoint.
  Możesz pobrać bezpłatną wersję próbną ze strony[Strona pobierania Aspose.Slides dla Java](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Slides dla Java?
  Szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Slides for Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

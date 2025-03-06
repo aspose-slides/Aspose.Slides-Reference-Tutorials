@@ -3,10 +3,14 @@ title: Dia klónozása ugyanazon a bemutatón belül
 linktitle: Dia klónozása ugyanazon a bemutatón belül
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan klónozhat diákat ugyanazon a PowerPoint-prezentáción belül az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót teljes forráskód-példákkal a bemutatók hatékony kezeléséhez.
-type: docs
 weight: 21
 url: /hu/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
@@ -105,3 +109,9 @@ Igen, hasonló technikákkal klónozhat diákat a különböző prezentációk k
 ### Hol találhatok további információt az Aspose.Slides for .NET-ről?
 
  Részletesebb dokumentációért és példákért látogassa meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

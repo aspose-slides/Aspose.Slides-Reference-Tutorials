@@ -3,10 +3,14 @@ title: Vormeffecten en manipulatie in dia's
 linktitle: Vormeffecten en manipulatie in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter de visuele aantrekkingskracht van uw presentatie met Aspose.Slides-tutorials over vormeffecten en manipulatie. Leer hoe u verbluffende dia's maakt met vormeffecten, animaties en meer.
-type: docs
 weight: 11
 url: /nl/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering
 
@@ -63,3 +67,9 @@ Leer hoe u uw presentatiedia's kunt verbeteren door de hoeken van verbindingslij
 Verbeter uw presentatievaardigheid door te leren hoe u vormen verbindt met behulp van verbindingslijnen in presentatiedia's met Aspose.Slides. Verbeter vandaag nog uw visuele verhalen!
 ### [Shape verbinden met behulp van Connection Site in presentatiedia's met Aspose.Slides](./connecting-shape-using-connection-site/)
 Verbeter uw presentatievaardigheden door te leren hoe u vormen kunt verbinden met behulp van verbindingssites in presentatiedia's met Aspose.Slides. Volg onze gedetailleerde gids en codevoorbeelden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

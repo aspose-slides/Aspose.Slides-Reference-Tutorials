@@ -3,10 +3,14 @@ title: Konversikan Presentasi ke HTML dengan Font Tersemat
 linktitle: Konversikan Presentasi ke HTML dengan Font Tersemat
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Konversikan presentasi PowerPoint ke HTML dengan font tersemat menggunakan Aspose.Slides untuk .NET. Pertahankan orisinalitas dengan mulus.
-type: docs
 weight: 13
 url: /id/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Di era digital saat ini, berbagi presentasi dan dokumen secara online telah menjadi praktik umum. Namun, salah satu tantangan yang sering muncul adalah memastikan font Anda ditampilkan dengan benar saat mengonversi presentasi ke HTML. Tutorial langkah demi langkah ini akan memandu Anda melalui proses penggunaan Aspose.Slides untuk .NET untuk mengonversi presentasi ke HTML dengan font tersemat, memastikan dokumen Anda terlihat sesuai keinginan Anda.
 
@@ -120,3 +124,10 @@ Ya, Aspose.Slides untuk .NET mendukung berbagai format output, termasuk PDF, gam
 ### 5. Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Slides untuk .NET?
 
  Anda dapat mengakses banyak sumber daya, termasuk dokumentasi, di[Aspose.Slides untuk Referensi .NET API](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

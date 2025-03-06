@@ -3,10 +3,14 @@ title: Aspose.Slides .NET でズーム レベルを簡単に調整
 linktitle: Aspose.Slides でプレゼンテーション スライドのズーム レベルを調整する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーション スライドのズーム レベルを簡単に調整する方法を学びます。正確な制御により PowerPoint エクスペリエンスを強化します。
-type: docs
 weight: 17
 url: /ja/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 プレゼンテーションの動的な世界では、ズーム レベルの制御は、視聴者に魅力的で視覚的に魅力的なエクスペリエンスを提供するために重要です。Aspose.Slides for .NET は、プレゼンテーション スライドをプログラムで操作するための強力なツールセットを提供します。このチュートリアルでは、.NET 環境で Aspose.Slides を使用してプレゼンテーション スライドのズーム レベルを調整する方法について説明します。
 ## 前提条件
@@ -60,3 +64,9 @@ In this tutorial, we explored the step-by-step process of adjusting the zoom lev
 ご質問や問題がある場合は、Aspose.Slides フォーラムをご覧ください。[ここ](https://forum.aspose.com/c/slides/11)コミュニティとサポートを求める。
 ### 5. Aspose.Slides for .NET を購入するにはどうすればよいですか?
  Aspose.Slides for .NETを購入するには、[ここ](https://purchase.aspose.com/buy)ライセンスオプションを検討します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: استنساخ الأشكال في PowerPoint
 linktitle: استنساخ الأشكال في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استنساخ الأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتبسيط سير عملك من خلال هذا البرنامج التعليمي سهل المتابعة.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية استنساخ الأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. يتيح لك استنساخ الأشكال تكرار الأشكال الموجودة داخل العرض التقديمي، وهو ما يمكن أن يكون مفيدًا بشكل خاص لإنشاء تخطيطات متسقة أو عناصر متكررة عبر الشرائح.
 ## المتطلبات الأساسية
@@ -57,3 +61,9 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 نعم، يمكنك استنساخ الشرائح والنصوص والصور والعناصر الأخرى داخل عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[موقع إلكتروني](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

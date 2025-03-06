@@ -3,10 +3,14 @@ title: Klonuj slajd w tej samej prezentacji
 linktitle: Klonuj slajd w tej samej prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak klonować slajdy w tej samej prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnymi przykładami kodu źródłowego, aby efektywnie manipulować prezentacjami.
-type: docs
 weight: 21
 url: /pl/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -105,3 +109,9 @@ Tak, możesz klonować slajdy pomiędzy różnymi prezentacjami, stosując podob
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Slides dla .NET?
 
  Bardziej szczegółową dokumentację i przykłady można znaleźć na stronie[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: PowerPoint'te Şekilleri Desenle Doldurun
 linktitle: PowerPoint'te Şekilleri Desenle Doldurun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri desenlerle doldurmayı öğrenin. Sunumlarınızı görsel olarak geliştirmek için kolay, adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Hedef kitlenizin ilgisini çekmek için görsel olarak çekici sunumlar oluşturmak çok önemlidir. PowerPoint slaytlarınızı geliştirmenin bir yolu şekilleri desenlerle doldurmaktır. Bu eğitimde Aspose.Slides for Java'yı kullanarak şekilleri desenlerle doldurma adımlarını inceleyeceğiz. Bu kılavuz, Aspose.Slides'ın güçlü özelliklerinden yararlanarak programlı olarak çarpıcı sunumlar oluşturmak isteyen geliştiriciler için özel olarak hazırlanmıştır.
 ## Önkoşullar
@@ -94,3 +98,9 @@ Aspose.Slides for Java, geliştiricilerin Java uygulamalarında PowerPoint sunum
 Evet, Aspose.Slides for Java, mevcut PowerPoint sunumlarını açmanıza, düzenlemenize ve kaydetmenize olanak tanır.
 ### Aspose.Slides for Java için nereden destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

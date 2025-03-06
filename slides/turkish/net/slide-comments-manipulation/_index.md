@@ -3,10 +3,14 @@ title: Slayt Yorumlarının Değiştirilmesi
 linktitle: Slayt Yorumlarının Değiştirilmesi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides slayt yorumlarını düzenleme eğitimleriyle slayt işleme becerilerinizi geliştirin. .NET kullanarak PowerPoint sunumlarında programlı olarak yorum eklemeyi, düzenlemeyi ve yönetmeyi öğrenin.
-type: docs
 weight: 12
 url: /tr/net/slide-comments-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## giriiş
 
@@ -27,3 +31,9 @@ Aspose.Slides for .NET'i kullanarak ana yorumlar ekleyerek sunumlarınızı etki
 Aspose.Slides API ile sunumlarınıza derinlik ve etkileşim katın. .NET'i kullanarak yorumları slaytlarınıza nasıl kolayca entegre edebileceğinizi öğrenin. Etkileşimi artırın ve hedef kitlenizi büyüleyin.
 ### [Modern Yorum Yönetimi](./modern-comments/)
 Aspose.Slides'ı kullanarak modern yorum yönetimiyle işbirliği ve geri bildirim süreçlerini geliştirin. Sunumlarınızda iletişimi nasıl kolaylaştıracağınızı ve verimliliği en üst düzeye nasıl çıkaracağınızı öğrenin.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: أضف تعليقات الوالدين إلى الشريحة باستخد
 linktitle: إضافة تعليقات الوالدين إلى الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة التعليقات والردود التفاعلية إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. تعزيز المشاركة والتعاون.
-type: docs
 weight: 12
 url: /ar/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 هل تتطلع إلى تحسين عروض PowerPoint التقديمية الخاصة بك بميزات تفاعلية؟ يسمح لك Aspose.Slides for .NET بدمج التعليقات والردود، وإنشاء تجربة ديناميكية وجذابة لجمهورك. في هذا البرنامج التعليمي خطوة بخطوة، سنوضح لك كيفية إضافة تعليقات الوالدين إلى الشرائح باستخدام Aspose.Slides for .NET. دعنا نتعمق ونستكشف هذه الميزة المثيرة.
 
@@ -160,3 +164,9 @@ pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 
 ### هل هناك أي خيارات ترخيص متاحة لـ Aspose.Slides for .NET؟
  نعم، يمكنك استكشاف خيارات الترخيص، بما في ذلك التراخيص المؤقتة، على موقع Aspose[هنا](https://purchase.aspose.com/buy) أو جرب النسخة التجريبية المجانية[هنا](https://releases.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

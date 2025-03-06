@@ -3,10 +3,14 @@ title: Orijinal Yazı Tiplerini Koruma - Sunumu HTML'ye Dönüştürme
 linktitle: Orijinal Yazı Tiplerini Koruma - Sunumu HTML'ye Dönüştürme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları HTML'ye dönüştürürken orijinal yazı tiplerini nasıl koruyacağınızı öğrenin. Yazı tipi tutarlılığını ve görsel etkiyi zahmetsizce sağlayın.
-type: docs
 weight: 14
 url: /tr/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Bu kapsamlı kılavuzda, Aspose.Slides for .NET kullanarak bir sunumu HTML'ye dönüştürürken orijinal yazı tiplerini koruma sürecinde size yol göstereceğiz. Size gerekli C# kaynak kodunu sağlayacağız ve her adımı ayrıntılı olarak açıklayacağız. Bu eğitimin sonunda, dönüştürülmüş HTML belgenizdeki yazı tiplerinin orijinal sunuma sadık kalmasını sağlayabileceksiniz.
 
@@ -98,3 +102,10 @@ Aspose.Slides for .NET öncelikle PowerPoint sunumlarına odaklanır. Diğer dos
 ### S5: Ek kaynaklara ve desteğe nereden erişebilirim?
 
  Aspose web sitesinde daha fazla belge, eğitim ve destek bulabilirsiniz. Ziyaret etmek[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/) detaylı bilgi için.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

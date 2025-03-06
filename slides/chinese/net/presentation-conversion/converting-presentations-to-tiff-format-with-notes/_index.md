@@ -3,10 +3,14 @@ title: 使用 Notes 将演示文稿转换为 TIFF 格式
 linktitle: 使用 Notes 将演示文稿转换为 TIFF 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为带有演讲者注释的 TIFF 格式。高质量、高效的转换。
-type: docs
 weight: 10
 url: /zh/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在数字演示文稿领域，将其转换为不同格式的能力非常有用。其中一种格式是 TIFF，即标记图像文件格式。TIFF 文件以其高质量图像和与各种应用程序的兼容性而闻名。在本分步教程中，我们将向您展示如何使用 Aspose.Slides for .NET API 将演示文稿转换为 TIFF 格式，并附带注释。
 
@@ -78,3 +82,9 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
  是的，Aspose.Slides for .NET 支持各种输出格式，包括 PDF、图像等。查看文档了解详情。
 
 现在您已经掌握了使用 Aspose.Slides for .NET 将演示文稿转换为带有注释的 TIFF 格式的知识，请继续在您的项目中探索这个强大的 API 的可能性。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

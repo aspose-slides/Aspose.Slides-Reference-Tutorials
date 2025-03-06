@@ -3,10 +3,14 @@ title: Java スライドでレーダーチャートを作成する
 linktitle: Java スライドでレーダーチャートを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java API を使用して、Java PowerPoint プレゼンテーションでレーダー チャートを作成する方法を学習します。
-type: docs
 weight: 10
 url: /ja/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでレーダーチャートを作成する方法の紹介
 
@@ -268,3 +272,9 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### チャートを別のファイル形式で保存するにはどうすればよいですか?
 
 出力形式を変更するには、ファイル拡張子を変更します。`outPath`変数と適切な`SaveFormat`たとえば、PDFとして保存するには、`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

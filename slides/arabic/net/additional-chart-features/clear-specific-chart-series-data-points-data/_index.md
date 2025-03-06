@@ -3,10 +3,14 @@ title: مسح نقاط بيانات سلسلة المخططات المحددة �
 linktitle: مسح نقاط بيانات سلسلة المخططات المحددة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية مسح نقاط بيانات محددة لسلسلة مخططات في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET هي مكتبة قوية تسمح لك بالعمل مع عروض PowerPoint التقديمية برمجياً. في هذا البرنامج التعليمي، سنرشدك خلال عملية مسح نقاط بيانات سلسلة مخططات محددة في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET. بحلول نهاية هذا البرنامج التعليمي، ستكون قادرًا على التعامل مع نقاط بيانات المخطط بسهولة.
 
@@ -95,3 +99,9 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 ### هل يوجد مجتمع أو مجتمع مطور لـ Aspose.Slides for .NET؟
 نعم، يمكنك الانضمام إلى مجتمع Aspose في منتداهم لإجراء المناقشات والأسئلة ومشاركة تجاربك.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

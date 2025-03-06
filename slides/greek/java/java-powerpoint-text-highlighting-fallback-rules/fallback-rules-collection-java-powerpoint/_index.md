@@ -3,10 +3,14 @@ title: Συλλογή εναλλακτικών κανόνων σε Java PowerPoi
 linktitle: Συλλογή εναλλακτικών κανόνων σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να διαχειρίζεστε κανόνες εναλλακτικής γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη συμβατότητα μεταξύ συσκευών χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον τρόπο διαχείρισης εναλλακτικών κανόνων γραμματοσειράς χρησιμοποιώντας το Aspose.Slides για Java. Οι εναλλακτικές γραμματοσειρές είναι ζωτικής σημασίας για τη διασφάλιση της σωστής εμφάνισης των παρουσιάσεών σας σε διαφορετικά περιβάλλοντα, ειδικά όταν συγκεκριμένες γραμματοσειρές δεν είναι διαθέσιμες. Θα σας καθοδηγήσουμε στην εισαγωγή των απαραίτητων πακέτων, στη ρύθμιση του περιβάλλοντος και στην εφαρμογή εναλλακτικών κανόνων βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -73,3 +77,9 @@ try {
  Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
 Για υποστήριξη, επισκεφθείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

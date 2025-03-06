@@ -3,10 +3,14 @@ title: Gráfico de histograma em slides Java
 linktitle: Gráfico de histograma em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar gráficos de histograma em apresentações do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com código-fonte para visualização de dados.
-type: docs
 weight: 19
 url: /pt/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução ao gráfico de histograma em slides Java usando Aspose.Slides
 
@@ -112,3 +116,9 @@ Um gráfico de histograma é usado para visualizar a distribuição de dados em 
 ### Posso personalizar a aparência do gráfico de histograma?
 
 Sim, você pode personalizar a aparência do gráfico, incluindo cores, rótulos e eixos, usando a API Aspose.Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

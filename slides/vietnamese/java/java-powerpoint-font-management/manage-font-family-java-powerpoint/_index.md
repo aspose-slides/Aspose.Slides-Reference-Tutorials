@@ -3,10 +3,14 @@ title: Quản lý họ phông chữ trong Java PowerPoint
 linktitle: Quản lý họ phông chữ trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách quản lý họ phông chữ trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Tùy chỉnh kiểu phông chữ, màu sắc và hơn thế nữa một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý họ phông chữ trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Phông chữ đóng một vai trò quan trọng trong sự hấp dẫn trực quan và khả năng đọc các trang trình bày của bạn, vì vậy điều cần thiết là phải biết cách sử dụng chúng một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -66,3 +70,9 @@ Có, Aspose.Slides cho phép bạn nhúng phông chữ tùy chỉnh vào bản t
 Có, Aspose.Slides cung cấp API để tạo, sửa đổi và thao tác với bản trình bày PowerPoint hoàn toàn thông qua mã.
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
 Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides cho Java từ[đây](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

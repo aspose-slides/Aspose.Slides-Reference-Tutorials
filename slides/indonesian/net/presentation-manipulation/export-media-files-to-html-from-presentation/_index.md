@@ -3,10 +3,14 @@ title: Ekspor File Media ke HTML dari Presentasi
 linktitle: Ekspor File Media ke HTML dari Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Optimalkan berbagi presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari cara mengekspor file media ke HTML dari presentasi Anda dalam panduan langkah demi langkah ini.
-type: docs
 weight: 15
 url: /id/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor file media ke HTML dari presentasi menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah API canggih yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Di akhir panduan ini, Anda akan dapat mengubah presentasi Anda ke format HTML dengan mudah. Jadi, mari kita mulai!
 
@@ -84,3 +88,9 @@ A3: Ya, Aspose.Slides untuk .NET mendukung berbagai format ekspor, termasuk PDF,
  A5: Anda dapat membeli lisensi dari[Link ini](https://purchase.aspose.com/buy).
 
 Sekarang setelah Anda menyelesaikan tutorial ini, Anda memiliki keterampilan untuk mengekspor file media ke HTML dari presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Nikmati berbagi presentasi kaya multimedia Anda secara online!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

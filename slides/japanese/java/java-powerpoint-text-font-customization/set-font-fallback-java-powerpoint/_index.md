@@ -3,10 +3,14 @@ title: Java PowerPoint でフォント フォールバックを設定する
 linktitle: Java PowerPoint でフォント フォールバックを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java PowerPoint でフォント フォールバックを設定し、一貫したテキスト表示を確保する方法を学習します。
-type: docs
 weight: 16
 url: /ja/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して Java PowerPoint プレゼンテーションでフォント フォールバックを設定する複雑な手順について詳しく説明します。フォント フォールバックは、必要なフォントが利用できない場合でも、プレゼンテーション内のテキストがさまざまなデバイスやオペレーティング システムで正しく表示されるようにするために重要です。
 ## 前提条件
@@ -53,3 +57,9 @@ Aspose.Slides for Java を使用して Java PowerPoint プレゼンテーショ�
 はい、Aspose製品の一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java のサポートはどこで見つかりますか?
  Aspose.Slides for Javaに関するサポートについては、[Aspose フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: プレゼンテーションでカスタム シェイプ ID を使用し�
 linktitle: プレゼンテーションでカスタム シェイプ ID を使用して SVG を生成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、カスタム SVG シェイプと ID で魅力的なプレゼンテーションを生成します。ソース コードの例を使用して、インタラクティブなスライドを段階的に作成する方法を学びます。プレゼンテーションの視覚的な魅力とユーザー インタラクションを強化します。
-type: docs
 weight: 19
 url: /ja/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET のパワーを活用して、カスタム シェイプ ID を持つ SVG ファイルを生成したいとお考えですか? まさにうってつけです! このステップ バイ ステップのチュートリアルでは、次のソース コード スニペットを使用してプロセスをガイドします。最後には、プレゼンテーションでカスタム シェイプ ID を持つ SVG ファイルを作成する準備が整います。
 
@@ -78,3 +82,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
    追加のドキュメントについては、[Aspose.Slides for .NET API リファレンス](https://reference.aspose.com/slides/net/).
 
 さあ、Aspose.Slides for .NET で SVG 生成の無限の可能性を探求してみましょう。楽しいコーディングを！
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

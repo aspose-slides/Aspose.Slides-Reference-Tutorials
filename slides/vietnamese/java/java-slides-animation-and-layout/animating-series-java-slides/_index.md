@@ -3,10 +3,14 @@ title: Chuỗi hoạt hình trong Java Slides
 linktitle: Chuỗi hoạt hình trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa bản trình bày của bạn với hàng loạt hoạt ảnh trong Aspose.Slides for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi cùng với các ví dụ về mã nguồn để tạo hoạt ảnh PowerPoint hấp dẫn.
-type: docs
 weight: 11
 url: /vi/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chuỗi hoạt hình trong Aspose.Slides cho Java
 
@@ -125,3 +129,9 @@ Bạn có thể mở rộng vòng lặp ở Bước 3 để thêm hoạt ảnh c
 ### Làm cách nào tôi có thể tùy chỉnh thời lượng và độ trễ của hoạt ảnh?
 
 Bạn có thể tùy chỉnh thời lượng và độ trễ hoạt ảnh bằng cách đặt thuộc tính trên hiệu ứng hoạt ảnh. Kiểm tra tài liệu Aspose.Slides for Java để biết chi tiết về các tùy chọn tùy chỉnh có sẵn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

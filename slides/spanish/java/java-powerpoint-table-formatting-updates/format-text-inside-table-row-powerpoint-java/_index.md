@@ -3,10 +3,14 @@ title: Dar formato al texto dentro de la fila de la tabla en PowerPoint con Java
 linktitle: Dar formato al texto dentro de la fila de la tabla en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a dar formato al texto dentro de las filas de una tabla en PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con nuestra guía paso a paso.
-type: docs
 weight: 12
 url: /es/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 Cuando se trabaja con presentaciones, crear diapositivas visualmente atractivas es esencial para mantener a la audiencia interesada. Dar formato al texto dentro de las filas de la tabla puede mejorar significativamente la legibilidad y la estética de sus diapositivas. En este tutorial, exploraremos cómo dar formato al texto dentro de una fila de una tabla en PowerPoint usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -85,3 +89,9 @@ Aspose.Slides está disponible para varias plataformas, incluidas .NET y C++. Si
  Sí, puede comprar una licencia en el[pagina de compra](https://purchase.aspose.com/buy).
 ### ¿Qué formatos de archivo admite Aspose.Slides para Java?
 Aspose.Slides para Java admite una variedad de formatos, incluidos PPT, PPTX, ODP y más.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

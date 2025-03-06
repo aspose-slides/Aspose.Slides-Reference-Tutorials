@@ -3,10 +3,14 @@ title: Προσθήκη τμήματος στο σχήμα γεωμετρίας 
 linktitle: Προσθήκη τμήματος στο σχήμα γεωμετρίας στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε τμήματα σε σχήματα γεωμετρίας σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον λεπτομερή, βήμα προς βήμα οδηγό.
-type: docs
 weight: 19
 url: /el/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Η δημιουργία ελκυστικών και δυναμικών παρουσιάσεων μπορεί να είναι μια πρόκληση, ειδικά όταν θέλετε να προσθέσετε προσαρμοσμένα σχήματα και σχέδια. Εκεί είναι χρήσιμο το Aspose.Slides για Java. Αυτό το ισχυρό API σάς επιτρέπει να χειρίζεστε αρχεία PowerPoint μέσω προγραμματισμού, δίνοντάς σας την ευελιξία να προσθέτετε πολύπλοκα γεωμετρικά σχήματα και τμήματα με ευκολία. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στον τρόπο προσθήκης τμημάτων σε σχήματα γεωμετρίας σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Είτε είστε προγραμματιστής που θέλει να αυτοματοποιήσει τη δημιουργία παρουσιάσεων είτε απλά κάποιος που του αρέσει να ασχολείται με την κωδικοποίηση, αυτός ο οδηγός θα είναι ο ολοκληρωμένος πόρος σας.
 ## Προαπαιτούμενα
@@ -78,3 +82,9 @@ pres.save(resultPath, SaveFormat.Pptx);
 Μπορείτε να προσθέσετε διάφορα σχήματα, όπως ορθογώνια, ελλείψεις, γραμμές και προσαρμοσμένα σχήματα γεωμετρίας.
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) όπου μπορείτε να κάνετε ερωτήσεις και να λάβετε βοήθεια από την κοινότητα και τους προγραμματιστές.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

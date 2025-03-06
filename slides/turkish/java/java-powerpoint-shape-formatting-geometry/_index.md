@@ -3,10 +3,14 @@ title: Java PowerPoint Şekil Biçimlendirme ve Geometri
 linktitle: Java PowerPoint Şekil Biçimlendirme ve Geometri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java PowerPoint şekil biçimlendirme ve geometri eğitimlerini keşfedin. Aspose.Slides for Java ile şekilleri doldurmayı, şekilleri bulmayı ve özel geometri oluşturmayı öğrenin.
-type: docs
 weight: 26
 url: /tr/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 
 Görsel olarak çekici PowerPoint sunumları oluşturmak genellikle hassas şekil biçimlendirmesi ve geometrik manipülasyon gerektirir. Aspose.Slides for Java ile geliştiriciler sunumlarını bir sonraki seviyeye taşıyabilir. Bu makalede, slaytlarınızın öne çıkmasını sağlayacak şekilde şekilleri doldurma, şekilleri bulma ve özel geometri oluşturmayla ilgili temel eğitimler ele alınmaktadır.
@@ -74,3 +78,9 @@ Bu ayrıntılı, adım adım kılavuzda Aspose.Slides for Java kullanarak hafif 
 Aspose.Slides for Java'yı kullanarak PowerPoint'te şekil eğimi etkili verilerini nasıl alacağınızı öğrenin. Sunumlarınızı çarpıcı görsel efektlerle geliştirin.
 ### [PowerPoint'te Şekilleri Gizle](./hide-shapes-powerpoint/)
 Ayrıntılı adım adım kılavuzumuzla Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri nasıl gizleyeceğinizi öğrenin. Her seviyedeki Java geliştiricileri için mükemmeldir.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint 表格操作
 linktitle: Java PowerPoint 表格操作
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 掌握 Java PowerPoint 表格操作。透過我們詳細的逐步教學學習新增圖像、分割單元格、建立表格等。
-type: docs
 weight: 30
 url: /zh-hant/java/java-powerpoint-table-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 
 掌握 PowerPoint 簡報中的表格操作可以顯著提高投影片的效果和視覺吸引力。 Aspose.Slides for Java 提供了一組強大的功能來以程式設計方式操作表格。無論您是向表格單元格添加圖像、分割或合併單元格，還是從頭開始建立表格，這些教學課程都將引導您逐步完成每個過程。讓我們深入研究 Java PowerPoint 表格操作的世界！
@@ -60,3 +64,9 @@ url: /zh-hant/java/java-powerpoint-table-manipulation/
 了解如何使用 Aspose.Slides for Java 設定 PowerPoint 表格內文字的格式。為開發人員提供包含程式碼範例的逐步指南。
 ### [使用 Java 在 PowerPoint 中建立標準表格](./create-standard-tables-powerpoint-java/)
 了解如何使用 Aspose.Slides 在 PowerPoint 中使用 Java 建立標準表格。請遵循我們詳細的逐步指南，以獲得無縫體驗。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

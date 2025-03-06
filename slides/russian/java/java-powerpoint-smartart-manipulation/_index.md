@@ -3,10 +3,14 @@ title: Манипулирование SmartArt в Java PowerPoint
 linktitle: Манипулирование SmartArt в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как эффективно манипулировать Java PowerPoint SmartArt с помощью учебных пособий GroupDocs.Slides для Java. Доступ к дочерним узлам, добавление узлов, изменение макетов и многое другое!
-type: docs
 weight: 32
 url: /ru/java/java-powerpoint-smartart-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение
 
@@ -71,3 +75,9 @@ url: /ru/java/java-powerpoint-smartart-manipulation/
 Узнайте, как эффективно и программно удалять узлы из SmartArt в презентациях PowerPoint с помощью Aspose.Slides для Java.
 ### [Удалить узел в определенной позиции в SmartArt](./remove-node-specific-position-smartart-java/)
 Узнайте, как удалить узел в определенной позиции в SmartArt с помощью Aspose.Slides для Java. Усовершенствуйте настройку презентации без особых усилий.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

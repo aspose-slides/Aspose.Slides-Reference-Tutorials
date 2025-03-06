@@ -3,10 +3,14 @@ title: Tạo dấu đầu dòng đa cấp trong Java PowerPoint
 linktitle: Tạo dấu đầu dòng đa cấp trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo dấu đầu dòng nhiều cấp độ trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã và Câu hỏi thường gặp.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo dấu đầu dòng nhiều cấp độ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Thêm dấu đầu dòng là yêu cầu chung để tạo nội dung có tổ chức và hấp dẫn về mặt hình ảnh trong bản trình bày. Chúng ta sẽ thực hiện quy trình này theo từng bước, đảm bảo rằng đến cuối hướng dẫn này, bạn sẽ được trang bị để cải thiện bài thuyết trình của mình bằng các dấu đầu dòng có cấu trúc ở nhiều cấp độ.
 ## Điều kiện tiên quyết
@@ -109,3 +113,9 @@ Aspose.Slides tạo bản trình bày tương thích với Microsoft PowerPoint 
 Có, Aspose.Slides cung cấp API để tự động hóa việc tạo, sửa đổi và thao tác với bản trình bày PowerPoint.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được hỗ trợ từ cộng đồng Aspose.Slides và các chuyên gia tại[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

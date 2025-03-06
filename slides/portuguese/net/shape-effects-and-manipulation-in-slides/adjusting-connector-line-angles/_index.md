@@ -3,10 +3,14 @@ title: Ajuste os ângulos das linhas do conector no PowerPoint com Aspose.Slides
 linktitle: Ajustando ângulos de linha de conector em slides de apresentação usando Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como ajustar os ângulos das linhas do conector em slides do PowerPoint usando Aspose.Slides for .NET. Aprimore suas apresentações com precisão e facilidade.
-type: docs
 weight: 28
 url: /pt/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 criação de slides de apresentação visualmente atraentes geralmente envolve ajustes precisos nas linhas de conexão. Neste tutorial, exploraremos como ajustar os ângulos das linhas do conector em slides de apresentação usando Aspose.Slides for .NET. Aspose.Slides é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do PowerPoint de forma programática, fornecendo amplos recursos para criar, modificar e manipular apresentações.
 ## Pré-requisitos
@@ -87,3 +91,9 @@ Sim, o Aspose.Slides pode ser usado em aplicativos Windows e web.
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Existe um fórum de suporte para Aspose.Slides?
  Sim, você pode visitar o fórum de suporte[aqui](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

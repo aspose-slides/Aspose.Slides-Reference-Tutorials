@@ -3,10 +3,14 @@ title: Justera bildens position i presentationen med Aspose.Slides
 linktitle: Justera bildens position i presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du justerar bildpositioner i PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra dina presentationsfärdigheter!
-type: docs
 weight: 23
 url: /sv/net/slide-access-and-manipulation/change-slide-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Funderar du på att omorganisera dina presentationsbilder och undrar hur du justerar deras positioner med Aspose.Slides för .NET? Den här steg-för-steg-guiden leder dig genom processen och säkerställer att du förstår varje steg tydligt. Innan vi dyker in i handledningen, låt oss gå igenom förutsättningarna och importera namnutrymmen du behöver för att komma igång.
 
@@ -111,3 +115,9 @@ Ja, Aspose.Slides för .NET tillhandahåller ett brett utbud av funktioner för 
 ### 5. Kan jag prova Aspose.Slides för .NET innan jag köper det?
 
  Ja, du kan utforska en gratis testversion av Aspose.Slides för .NET på[Aspose.Slides för .NET gratis provversion](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

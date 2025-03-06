@@ -3,10 +3,14 @@ title: Vyplňte tvary obrázkem v PowerPointu
 linktitle: Vyplňte tvary obrázkem v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vyplnit tvary obrázky v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete vizuální přitažlivost bez námahy.
-type: docs
 weight: 12
 url: /cs/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 PowerPointové prezentace často vyžadují vizuální prvky, jako jsou tvary vyplněné obrázky, aby se zvýšila jejich přitažlivost a efektivně předávaly informace. Aspose.Slides for Java poskytuje výkonnou sadu nástrojů pro bezproblémové splnění tohoto úkolu. V tomto tutoriálu se naučíme, jak vyplnit tvary obrázky pomocí Aspose.Slides pro Java krok za krokem.
 ## Předpoklady
@@ -80,3 +84,9 @@ Velikost obrázku v rámci tvaru můžete změnit tak, že upravíte rozměry tv
 Aspose.Slides for Java podporuje širokou škálu obrazových formátů, včetně JPEG, PNG, GIF, BMP a TIFF, mezi ostatními.
 ### Mohu použít efekty na vyplněné tvary?
 Ano, Aspose.Slides for Java poskytuje komplexní rozhraní API pro aplikaci různých efektů, jako jsou stíny, odrazy a 3D rotace, na vyplněné tvary.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

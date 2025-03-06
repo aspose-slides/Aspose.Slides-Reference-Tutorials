@@ -3,10 +3,14 @@ title: Java Slaytlarında Parola Korumalı Sunumu Açma
 linktitle: Java Slaytlarında Parola Korumalı Sunumu Açma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java'da Parola Korumalı Sunumların Kilidini Açma. Aspose.Slides for Java Kullanarak Parola Korumalı PowerPoint Slaytlarını Nasıl Açacağınızı ve Erişeceğinizi Öğrenin. Kodlu Adım Adım Kılavuz.
-type: docs
 weight: 15
 url: /tr/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Açık Parola Korumalı Sunuma Giriş
 
@@ -113,3 +117,9 @@ Aspose.Slides, bir sunum için parola ayarlama ve değiştirme olanağı sağlar
 ### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
 
  Kapsamlı belgeleri ve ek örnekleri şurada bulabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) ve üzerinde[Aspose.Slides forumu](https://forum.aspose.com/c/slides).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

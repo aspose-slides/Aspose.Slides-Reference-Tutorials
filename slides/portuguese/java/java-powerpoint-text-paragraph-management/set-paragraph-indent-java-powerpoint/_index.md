@@ -3,10 +3,14 @@ title: Definir recuo de parágrafo em Java PowerPoint
 linktitle: Definir recuo de parágrafo em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir recuos de parágrafo em slides do PowerPoint de forma programática usando Aspose.Slides para Java. Melhore a formatação da sua apresentação sem esforço.
-type: docs
 weight: 16
 url: /pt/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, você aprenderá como manipular apresentações do PowerPoint programaticamente usando Aspose.Slides para Java. Especificamente, nos concentraremos na definição de recuos de parágrafo nos slides. Aspose.Slides for Java fornece um poderoso conjunto de APIs que permite aos desenvolvedores criar, modificar, converter e gerenciar apresentações do PowerPoint sem depender do Microsoft Office Automation.
 ## Pré-requisitos
@@ -85,3 +89,9 @@ Aspose.Slides for Java é uma biblioteca poderosa para trabalhar programaticamen
  Sim, você pode obter um teste gratuito em[aqui](https://releases.aspose.com/).
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode obter suporte no fórum da comunidade[aqui](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

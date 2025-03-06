@@ -3,10 +3,14 @@ title: Προσαρμόστε τις γωνίες γραμμής σύνδεση�
 linktitle: Προσαρμογή των γωνιών γραμμής σύνδεσης σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσαρμόζετε τις γωνίες γραμμής σύνδεσης στις διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας με ακρίβεια και ευκολία.
-type: docs
 weight: 28
 url: /el/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών διαφανειών παρουσίασης συχνά περιλαμβάνει ακριβείς προσαρμογές στις γραμμές σύνδεσης. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσαρμόσετε τις γωνίες γραμμής σύνδεσης σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία PowerPoint μέσω προγραμματισμού, παρέχοντας εκτεταμένες δυνατότητες δημιουργίας, τροποποίησης και χειρισμού παρουσιάσεων.
 ## Προαπαιτούμενα
@@ -87,3 +91,9 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχει κάποιο φόρουμ υποστήριξης για το Aspose.Slides;
  Ναι, μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

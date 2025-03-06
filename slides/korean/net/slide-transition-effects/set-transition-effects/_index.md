@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides에서 슬라이드에 전환 효과를 설정하는
 linktitle: 슬라이드에 전환 효과 설정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET에서 슬라이드에 전환 효과를 설정하여 시각적으로 멋진 프레젠테이션을 만드는 방법을 알아보세요. 원활한 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/slide-transition-effects/set-transition-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 역동적이고 매력적인 프레젠테이션의 세계에서는 시각적 전환이 중추적인 역할을 합니다. .NET용 Aspose.Slides는 놀라운 전환 효과가 포함된 프레젠테이션을 만들 수 있는 강력하고 다양한 플랫폼을 제공합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드에 전환 효과를 설정하여 프레젠테이션을 매혹적인 걸작으로 바꾸는 방법을 살펴보겠습니다.
 
@@ -116,3 +120,9 @@ Aspose.Slides for .NET은 다양한 버전의 PowerPoint와의 호환성을 제�
 ### 5. Aspose.Slides for .NET에 대한 무료 평가판이 있습니까?
 
  예, 다음에서 무료 평가판을 다운로드하여 .NET용 Aspose.Slides를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

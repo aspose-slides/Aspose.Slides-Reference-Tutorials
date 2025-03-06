@@ -3,10 +3,14 @@ title: Java PowerPoint Animation และการจัดการรูป�
 linktitle: Java PowerPoint Animation และการจัดการรูปร่าง
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีทำให้เคลื่อนไหวและจัดการรูปร่างใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนที่ครอบคลุมสำหรับการนำเสนอแบบไดนามิก
-type: docs
 weight: 25
 url: /th/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## การแนะนำ
 
@@ -90,3 +94,9 @@ url: /th/java/java-powerpoint-animation-shape-manipulation/
 เรียนรู้วิธีฝังเฟรมวิดีโอใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงการนำเสนอของคุณได้อย่างง่ายดาย
 ### [แยกข้อมูลไฟล์ที่ฝังตัวจากวัตถุ OLE ใน PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 เรียนรู้วิธีแยกข้อมูลไฟล์ที่ฝังตัวออกจากงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ซึ่งช่วยเพิ่มความสามารถในการจัดการเอกสาร
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

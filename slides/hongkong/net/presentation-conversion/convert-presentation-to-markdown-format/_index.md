@@ -3,10 +3,14 @@ title: 將簡報轉換為 Markdown 格式
 linktitle: 將簡報轉換為 Markdown 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 輕鬆將簡報轉換為 Markdown。帶有程式碼範例的分步指南。
-type: docs
 weight: 23
 url: /zh-hant/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在當今的數位時代，將簡報轉換為各種格式的需求變得越來越重要。無論您是學生、商業專業人士還是內容創作者，能夠將 PowerPoint 簡報轉換為 Markdown 格式都是一項寶貴的技能。 Markdown 是一種輕量級標記語言，廣泛用於格式化文字文件和 Web 內容。在本逐步教學中，我們將引導您完成使用 Aspose.Slides for .NET 將簡報轉換為 Markdown 格式的流程。
 
@@ -98,3 +102,10 @@ Aspose.Slides for .NET 提供免費試用版，但有關完整功能和許可信
 ### 問題 5：在哪裡可以取得 Aspose.Slides for .NET 的臨時授權？
 
 您可以在以下位置取得 Aspose.Slides for .NET 的臨時授權：[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

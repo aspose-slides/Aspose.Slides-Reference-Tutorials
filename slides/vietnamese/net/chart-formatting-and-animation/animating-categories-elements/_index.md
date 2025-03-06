@@ -3,10 +3,14 @@ title: Hoạt ảnh biểu đồ mạnh mẽ với Aspose.Slides cho .NET
 linktitle: Hoạt hình các thành phần danh mục trong biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hiệu ứng động cho các thành phần biểu đồ trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước để có bài thuyết trình ấn tượng.
-type: docs
 weight: 11
 url: /vi/net/chart-formatting-and-animation/animating-categories-elements/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thế giới thuyết trình, hình ảnh động có thể làm cho nội dung của bạn trở nên sống động, đặc biệt khi xử lý biểu đồ. Aspose.Slides for .NET cung cấp một loạt các tính năng mạnh mẽ cho phép bạn tạo hoạt ảnh tuyệt đẹp cho biểu đồ của mình. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hiệu ứng cho các thành phần danh mục trong biểu đồ bằng Aspose.Slides cho .NET.
 
@@ -123,3 +127,10 @@ Aspose.Slides for .NET được thiết kế để hoạt động với nhiều 
 
 ### 5. Có diễn đàn cộng đồng nào hỗ trợ Aspose.Slides cho .NET không?
  Có, bạn có thể tìm thấy diễn đàn cộng đồng hỗ trợ cho Aspose.Slides for .NET[đây](https://forum.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

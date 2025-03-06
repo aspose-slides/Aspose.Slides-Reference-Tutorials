@@ -3,10 +3,14 @@ title: Indeks Titik Data Bagan di Slide Java
 linktitle: Indeks Titik Data Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memanipulasi indeks titik data bagan di Java Slides menggunakan Aspose.Slides untuk Java. Ekstrak dan kerjakan data dari bagan PowerPoint dengan mudah.
-type: docs
 weight: 12
 url: /id/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Indeks Titik Data Bagan di Slide Java
 
@@ -98,3 +102,9 @@ Anda dapat mengekspor presentasi PowerPoint dengan bagan ke format berbeda, sepe
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan contoh dan dokumentasi komprehensif untuk Aspose.Slides untuk Java di situs web dokumentasi Aspose[Di Sini](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

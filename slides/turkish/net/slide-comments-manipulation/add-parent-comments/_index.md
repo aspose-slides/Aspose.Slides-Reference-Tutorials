@@ -3,10 +3,14 @@ title: Aspose.Slides'ı kullanarak Slayta Ana Yorumları Ekleme
 linktitle: Slayta Ebeveyn Yorumları Ekle
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarınıza nasıl etkileşimli yorum ve yanıt ekleyeceğinizi öğrenin. Katılımı ve işbirliğini geliştirin.
-type: docs
 weight: 12
 url: /tr/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 PowerPoint sunumlarınızı etkileşimli özelliklerle geliştirmek mi istiyorsunuz? Aspose.Slides for .NET, yorumları ve yanıtları birleştirerek hedef kitleniz için dinamik ve ilgi çekici bir deneyim oluşturmanıza olanak tanır. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak slaytlara üst yorumların nasıl ekleneceğini göstereceğiz. Gelin bu heyecan verici özelliği derinlemesine inceleyelim ve keşfedelim.
 
@@ -160,3 +164,9 @@ Aspose.Slides for .NET, çok çeşitli PowerPoint sürümleriyle çalışacak ş
 
 ### Aspose.Slides for .NET için herhangi bir lisanslama seçeneği mevcut mu?
  Evet, geçici lisanslar da dahil olmak üzere lisanslama seçeneklerini Aspose web sitesinde keşfedebilirsiniz[Burada](https://purchase.aspose.com/buy) veya ücretsiz denemeyi deneyin[Burada](https://releases.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

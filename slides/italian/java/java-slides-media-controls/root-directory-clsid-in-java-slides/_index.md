@@ -3,10 +3,14 @@ title: ClsId della directory principale nelle diapositive Java
 linktitle: ClsId della directory principale nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare ClsId della directory principale in Aspose.Slides per presentazioni Java. Personalizza il comportamento del collegamento ipertestuale con CLSID.
-type: docs
 weight: 10
 url: /it/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'impostazione del ClsId della directory principale in Aspose.Slides per Java
 
@@ -107,3 +111,9 @@ No, il ClsId della directory principale viene generalmente impostato a livello d
 ### Esistono limitazioni sui CLSID che posso utilizzare?
 
 I CLSID che è possibile utilizzare sono generalmente determinati dalle applicazioni installate nel sistema. È necessario utilizzare CLSID che corrispondano ad applicazioni valide in grado di gestire i collegamenti ipertestuali. Tieni presente che l'utilizzo di un CLSID non valido può provocare un comportamento imprevisto.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

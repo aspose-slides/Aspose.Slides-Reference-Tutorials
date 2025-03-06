@@ -3,10 +3,14 @@ title: Slaytlarda Şekil Hizalama ve Formatlama
 linktitle: Slaytlarda Şekil Hizalama ve Formatlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: .NET uygulamalarında şekil hizalama ve formatlamayla ilgili kapsamlı Aspose.Slides eğitimlerini keşfedin. Slayt sunumlarınızı hassas bir şekilde geliştirerek şekilleri zahmetsizce hizalamayı ve biçimlendirmeyi öğrenin.
-type: docs
 weight: 14
 url: /tr/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## giriiş
 
@@ -44,3 +48,9 @@ Aspose.Slides for .NET'i kullanarak taslak şekillerle büyüleyici sunum slaytl
 Aspose.Slides for .NET'i kullanarak PowerPoint'te bir resim çerçevesi için sola uzatma ofseti eklemeyi öğrenin. Tam kaynak kodu örneğiyle adım adım kılavuz.
 ### [Sunum Slaytlarında OLE Nesne Çerçevesinin Resim Başlığını Değiştirme](./substituting-picture-title-ole-object-frame/)
 Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki OLE nesne çerçevelerinin resim başlıklarını nasıl değiştireceğinizi öğrenin. Tam kaynak kodunu içeren adım adım kılavuz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

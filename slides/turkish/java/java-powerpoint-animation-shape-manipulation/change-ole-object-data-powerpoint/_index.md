@@ -3,10 +3,14 @@ title: PowerPoint'te OLE Nesne Verilerini Değiştirme
 linktitle: PowerPoint'te OLE Nesne Verilerini Değiştirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te OLE nesne verilerini nasıl değiştireceğinizi öğrenin. Verimli ve kolay güncellemeler için adım adım kılavuz.
-type: docs
 weight: 14
 url: /tr/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 PowerPoint sunumlarında OLE nesne verilerini değiştirmek, her slaytı manuel olarak düzenlemeden gömülü içeriği güncellemeniz gerektiğinde çok önemli bir görev olabilir. Bu kapsamlı kılavuz, PowerPoint sunumlarını yönetmek için tasarlanmış güçlü bir kütüphane olan Aspose.Slides for Java'yı kullanarak süreç boyunca size yol gösterecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu öğreticiyi yararlı ve takip etmesi kolay bulacaksınız.
 ## Önkoşullar
@@ -100,3 +104,9 @@ Evet, eğer OLE nesnesi bir Excel elektronik tablosuysa, onu değiştirmek için
  Evet, alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Slides'ın özelliklerini test etmek için.
 ### Aspose.Slides belgelerini nerede bulabilirim?
  Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

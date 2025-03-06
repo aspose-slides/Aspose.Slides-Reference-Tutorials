@@ -3,10 +3,14 @@ title: Membuat Thumbnail dengan Faktor Penskalaan untuk Bentuk di Aspose.Slide
 linktitle: Membuat Thumbnail dengan Faktor Penskalaan untuk Bentuk di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini PowerPoint dengan batas tertentu menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang cara membuat gambar mini dengan batasan bentuk di Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang bekerja secara lancar dengan presentasi PowerPoint di aplikasi .NET mereka. Dalam tutorial ini, kita akan mempelajari proses pembuatan gambar mini dengan batasan khusus untuk bentuk dalam presentasi menggunakan Aspose.Slides.
 ## Prasyarat
@@ -55,3 +59,9 @@ Ya, Aspose.Slides kompatibel dengan berbagai kerangka .NET, memberikan fleksibil
  Untuk pertanyaan atau bantuan apa pun, silakan kunjungi forum dukungan Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
 ### Q5: Bisakah saya membeli Aspose.Slides untuk .NET?
  Tentu! Untuk membeli Aspose.Slides untuk .NET, silakan kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

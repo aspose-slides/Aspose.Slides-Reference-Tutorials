@@ -3,10 +3,14 @@ title: Assistenzknoten zu SmartArt in Java PowerPoint hinzufügen
 linktitle: Assistenzknoten zu SmartArt in Java PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides einen Assistentenknoten zu SmartArt in Java PowerPoint-Präsentationen hinzufügen. Verbessern Sie Ihre PowerPoint-Bearbeitungsfähigkeiten.
-type: docs
 weight: 17
 url: /de/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens eines Assistentenknotens zu SmartArt in Java PowerPoint-Präsentationen mithilfe von Aspose.Slides.
 ## Voraussetzungen
@@ -70,3 +74,9 @@ Aspose.Slides unterstützt PowerPoint-Versionen von 97-2003 bis zur neuesten Ver
 Ja, Sie können das Erscheinungsbild mithilfe verschiedener von Aspose.Slides bereitgestellter Eigenschaften und Methoden anpassen.
 ### Gibt es eine Begrenzung für die Anzahl der Knoten in einem SmartArt?
 SmartArt in PowerPoint unterstützt eine große Anzahl von Knoten, es wird jedoch empfohlen, diese zur besseren Lesbarkeit überschaubar zu halten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

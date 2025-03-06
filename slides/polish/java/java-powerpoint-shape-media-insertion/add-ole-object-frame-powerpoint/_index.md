@@ -3,10 +3,14 @@ title: Dodaj ramkę obiektu OLE w programie PowerPoint
 linktitle: Dodaj ramkę obiektu OLE w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bezproblemowo integrować ramki obiektów OLE z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Dodanie ramki obiektu OLE (łączenie i osadzanie obiektów) do prezentacji programu PowerPoint może znacząco poprawić atrakcyjność wizualną i funkcjonalność slajdów. Dzięki Aspose.Slides dla Java proces ten staje się usprawniony i wydajny. W tym samouczku przeprowadzimy Cię przez kroki wymagane do bezproblemowej integracji ramek obiektów OLE z prezentacjami programu PowerPoint.
 ### Warunki wstępne
@@ -80,3 +84,9 @@ Absolutnie! Aspose.Slides oferuje rozbudowane opcje dostosowywania wyglądu i za
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla Java?
  Możesz szukać wsparcia i pomocy na forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

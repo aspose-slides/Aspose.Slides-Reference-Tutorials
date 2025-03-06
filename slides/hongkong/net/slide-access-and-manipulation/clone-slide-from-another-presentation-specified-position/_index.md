@@ -3,10 +3,14 @@ title: 將投影片從不同的簡報複製到指定位置
 linktitle: 將投影片從不同的簡報複製到指定位置
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將投影片從不同的簡報複製到指定位置。包含完整原始碼的逐步指南，涵蓋幻燈片克隆、位置指定和簡報保存。
-type: docs
 weight: 16
 url: /zh-hant/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 從不同簡報到指定位置複製投影片簡介
 
@@ -137,3 +141,9 @@ namespace SlideCloningDemo
 ### 在哪裡可以找到有關 Aspose.Slides for .NET 的更多資訊？
 
 您可以參考[文件](https://reference.aspose.com/slides/net/)有關 Aspose.Slides for .NET 的詳細資訊、範例和 API 參考。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

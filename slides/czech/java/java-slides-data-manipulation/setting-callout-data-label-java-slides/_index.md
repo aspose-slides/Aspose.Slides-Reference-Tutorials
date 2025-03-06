@@ -3,10 +3,14 @@ title: Nastavení popisku pro štítek dat v Java Slides
 linktitle: Nastavení popisku pro štítek dat v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak nastavit popisky pro datové štítky v Aspose.Slides pro Java. Průvodce krok za krokem se zdrojovým kódem.
-type: docs
 weight: 25
 url: /cs/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do nastavení popisku pro štítek dat v Aspose.Slides pro Javu
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Toto jsou některé běžné možnosti přizpůsobení štítků dat a popisků v Aspose.Slides pro Java. Vzhled můžete dále přizpůsobit svým konkrétním potřebám.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

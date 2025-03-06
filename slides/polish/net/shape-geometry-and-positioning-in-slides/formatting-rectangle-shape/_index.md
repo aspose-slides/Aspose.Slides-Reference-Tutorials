@@ -3,10 +3,14 @@ title: Ulepsz prezentacje - sformatuj kształty prostokątów za pomocą Aspose.
 linktitle: Formatowanie kształtu prostokąta na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak formatować kształty prostokątów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Podnieś poziom swoich slajdów dzięki dynamicznym elementom wizualnym.
-type: docs
 weight: 12
 url: /pl/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Aspose.Slides dla .NET to potężna biblioteka ułatwiająca pracę z prezentacjami programu PowerPoint w środowisku .NET. Jeśli chcesz ulepszyć swoje prezentacje poprzez dynamiczne formatowanie prostokątów, ten samouczek jest dla Ciebie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces formatowania kształtu prostokąta w prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -76,3 +80,9 @@ Tak, Aspose.Slides obsługuje inne języki .NET, takie jak VB.NET i F#, oprócz 
  Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### P5: Gdzie mogę kupić Aspose.Slides dla .NET?
  Możesz kupić Aspose.Slides dla .NET[Tutaj](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

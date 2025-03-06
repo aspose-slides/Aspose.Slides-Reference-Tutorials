@@ -3,10 +3,14 @@ title: Cómo configurar un clic en un hipervínculo macro en Aspose.Slides para 
 linktitle: Gestión de hipervínculos mediante macros
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a configurar hipervínculos macro en sus presentaciones con Aspose.Slides para .NET. Mejore la interactividad y atraiga a su audiencia.
-type: docs
 weight: 13
 url: /es/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 En el mundo del desarrollo de software moderno, la creación de presentaciones dinámicas e interactivas es un aspecto clave. Aspose.Slides para .NET es una poderosa biblioteca que le permite trabajar con presentaciones sin problemas. Ya sea que esté creando una presentación comercial o una presentación de diapositivas educativa, la capacidad de configurar clics en hipervínculos macro puede mejorar enormemente la experiencia del usuario. En esta guía paso a paso, lo guiaremos a través del proceso de configuración de un clic en un hipervínculo macro usando Aspose.Slides para .NET. 
 
@@ -106,3 +110,9 @@ Sí, puedes personalizar la apariencia de la autoforma ajustando sus propiedades
 
 ### ¿Dónde puedo obtener ayuda o soporte para Aspose.Slides para .NET?
  Si tiene problemas o preguntas, puede buscar ayuda en el foro de soporte de Aspose[aquí](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

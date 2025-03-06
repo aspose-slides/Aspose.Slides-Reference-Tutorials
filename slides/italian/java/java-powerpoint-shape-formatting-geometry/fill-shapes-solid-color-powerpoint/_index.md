@@ -3,10 +3,14 @@ title: Riempi le forme con tinta unita in PowerPoint
 linktitle: Riempi le forme con tinta unita in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come riempire le forme con colori a tinta unita in PowerPoint utilizzando Aspose.Slides per Java. Una guida passo passo per gli sviluppatori.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Se hai mai lavorato con presentazioni PowerPoint, sai che l'aggiunta di forme e la personalizzazione dei colori può essere un aspetto cruciale per rendere le tue diapositive visivamente accattivanti e informative. Con Aspose.Slides per Java, questo processo diventa un gioco da ragazzi. Che tu sia uno sviluppatore che desidera automatizzare la creazione di presentazioni PowerPoint o qualcuno interessato ad aggiungere un tocco di colore alle tue diapositive, questo tutorial ti guiderà attraverso il processo di riempimento delle forme con colori solidi utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -85,3 +89,9 @@ Sì, Aspose.Slides per Java ti consente di aprire, modificare e salvare presenta
  Sì, puoi scaricare una versione di prova gratuita da[Sito web Aspose](https://releases.aspose.com/).
 ### Dove posso trovare ulteriore documentazione e supporto?
  La documentazione dettagliata è disponibile su[Sito web Aspose](https://reference.aspose.com/slides/java/) puoi cercare supporto su[Aspose forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

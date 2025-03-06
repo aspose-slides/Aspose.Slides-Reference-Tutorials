@@ -3,10 +3,14 @@ title: Extraire les données de fichiers incorporés à partir d'un objet OLE da
 linktitle: Extraire les données de fichiers incorporés à partir d'un objet OLE dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment extraire des données de fichiers incorporés à partir de présentations PowerPoint à l'aide d'Aspose.Slides pour Java, améliorant ainsi les capacités de gestion de documents.
-type: docs
 weight: 22
 url: /fr/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction
 Dans le domaine de la programmation Java, l'extraction de données de fichiers incorporés à partir d'objets OLE (Object Linking and Embedding) dans des présentations PowerPoint est une tâche qui se pose souvent, en particulier dans les applications de gestion de documents ou d'extraction de données. Aspose.Slides pour Java offre une solution robuste pour gérer les présentations PowerPoint par programmation. Dans ce didacticiel, nous verrons comment extraire les données de fichiers incorporés à partir d'objets OLE à l'aide d'Aspose.Slides pour Java.
@@ -87,3 +91,9 @@ Oui, Aspose.Slides garantit la compatibilité avec les présentations PowerPoint
 Absolument, Aspose.Slides fournit des API complètes pour automatiser des tâches telles que l'extraction de données de fichiers intégrés, permettant un traitement efficace et rationalisé des documents.
 ### Où puis-je trouver une assistance ou un support supplémentaire pour Aspose.Slides ?
  Pour toute question, assistance technique ou support communautaire, vous pouvez visiter le forum Aspose.Slides ou vous référer à la documentation[Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

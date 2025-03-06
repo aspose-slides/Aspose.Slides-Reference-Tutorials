@@ -3,10 +3,14 @@ title: Đặt thuộc tính phông chữ văn bản trong PowerPoint bằng Java
 linktitle: Đặt thuộc tính phông chữ văn bản trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt thuộc tính phông chữ văn bản trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước, dễ dàng dành cho nhà phát triển Java.#Tìm hiểu cách thao tác các thuộc tính phông chữ văn bản PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này dành cho nhà phát triển Java.
-type: docs
 weight: 18
 url: /vi/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách sử dụng Aspose.Slides cho Java để đặt các thuộc tính phông chữ văn bản khác nhau trong bản trình bày PowerPoint theo chương trình. Chúng tôi sẽ đề cập đến việc cài đặt loại phông chữ, kiểu (đậm, in nghiêng), gạch chân, kích thước và màu sắc cho văn bản trong trang trình bày.
 ## Điều kiện tiên quyết
@@ -85,3 +89,9 @@ Có, bạn có thể sử dụng Aspose.Slides để làm việc với các mẫ
 Có, Aspose.Slides cho phép xuất bản trình bày sang nhiều định dạng khác nhau, bao gồm cả PDF.
 ### Tôi có thể tìm thêm trợ giúp và hỗ trợ cho Aspose.Slides ở đâu?
  Thăm nom[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và hướng dẫn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

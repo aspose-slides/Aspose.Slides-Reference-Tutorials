@@ -3,10 +3,14 @@ title: Hướng dẫn nhúng đối tượng OLE với Aspose.Slides cho .NET
 linktitle: Thay thế tiêu đề ảnh của khung đối tượng OLE trong slide thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện các trang trình bày của bạn bằng các đối tượng OLE động bằng cách sử dụng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 15
 url: /vi/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Việc tạo các slide thuyết trình sinh động và hấp dẫn thường liên quan đến việc kết hợp nhiều yếu tố đa phương tiện khác nhau. Trong hướng dẫn này, chúng ta sẽ khám phá cách thay thế tiêu đề ảnh của Khung đối tượng OLE (Liên kết và nhúng đối tượng) trong các trang trình bày bằng cách sử dụng thư viện Aspose.Slides cho .NET mạnh mẽ. Aspose.Slides đơn giản hóa quá trình xử lý các đối tượng OLE, cung cấp cho các nhà phát triển các công cụ để cải thiện bản trình bày của họ một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -83,3 +87,9 @@ Kể từ phiên bản mới nhất, Aspose.Slides tập trung vào việc nhún
 Chắc chắn. Bạn có toàn quyền kiểm soát theo chương trình đối với các đối tượng OLE, cho phép bạn sửa đổi các thuộc tính và hình thức của chúng nếu cần.
 ### Có bất kỳ hạn chế nào đối với kích thước của các đối tượng OLE được nhúng không?
 Mặc dù có những hạn chế về kích thước nhưng nhìn chung chúng rất hào phóng. Bạn nên thử nghiệm với trường hợp sử dụng cụ thể của mình để đảm bảo hiệu suất tối ưu.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

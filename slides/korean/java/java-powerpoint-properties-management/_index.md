@@ -3,10 +3,14 @@ title: Java PowerPoint 속성 관리
 linktitle: Java PowerPoint 속성 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 속성을 관리하는 방법을 알아보세요. 포괄적인 튜토리얼을 통해 속성에 쉽게 액세스하고, 수정하고, 업데이트할 수 있습니다.
-type: docs
 weight: 21
 url: /ko/java/java-powerpoint-properties-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 소개
 
@@ -38,3 +42,9 @@ Java용 Aspose.Slides의 강력한 기능을 활용해 보세요. 이 튜토리�
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기본 제공 속성을 수정하는 방법을 알아보세요. 프로그래밍 방식으로 프레젠테이션을 향상하세요.
 ### [새 템플릿으로 프리젠테이션 속성 업데이트](./update-presentation-properties-new-template/)
 Aspose.Slides for Java를 사용하여 프레젠테이션 속성을 업데이트하는 방법을 알아보세요. 원활한 메타데이터 수정으로 Java 프로젝트를 향상하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: PowerPoint의 렌더링 옵션
 linktitle: PowerPoint의 렌더링 옵션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 렌더링 옵션을 조작하는 방법을 알아보세요. 최적의 시각적 효과를 위해 슬라이드를 사용자 정의하세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 활용하여 PowerPoint 프레젠테이션의 렌더링 옵션을 조작하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -75,3 +79,9 @@ if (pres != null) pres.dispose();
 틀림없이! Aspose.Slides를 사용하면 슬라이드를 렌더링하기 전에 슬라이드에 대한 사용자 정의 배경을 설정할 수 있습니다.
 ### 슬라이드를 PDF 문서로 직접 렌더링하는 방법이 있습니까?
 예, Aspose.Slides는 PowerPoint 프레젠테이션을 높은 충실도의 PDF 파일로 직접 변환하는 기능을 제공합니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Dodawanie ramek obiektów OLE do prezentacji za pomocą Aspose.Slides
 linktitle: Dodawanie ramek obiektów OLE do prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wzbogacić prezentacje programu PowerPoint o dynamiczną zawartość! Postępuj zgodnie z naszym przewodnikiem krok po kroku, korzystając z Aspose.Slides dla .NET. Zwiększ zaangażowanie już teraz!
-type: docs
 weight: 15
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 tym samouczku zagłębimy się w proces dodawania ramek obiektów OLE (łączenie i osadzanie obiektów) do slajdów prezentacji za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami programu PowerPoint. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo osadzać obiekty OLE w slajdach prezentacji, wzbogacając pliki programu PowerPoint o dynamiczną i interaktywną zawartość.
 ## Warunki wstępne
@@ -84,3 +88,9 @@ Odp.: Tak, Aspose.Slides obsługuje najnowsze formaty plików PowerPoint, w tym 
 O: Oczywiście możesz dostosować rozmiar, położenie i inne właściwości ramki obiektu OLE zgodnie ze swoimi preferencjami.
 ### P: Gdzie mogę szukać pomocy, jeśli napotkam wyzwania podczas wdrażania?
  O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

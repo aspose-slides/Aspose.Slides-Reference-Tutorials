@@ -3,10 +3,14 @@ title: Kopírovat snímek do nové prezentace s hlavním snímkem
 linktitle: Kopírovat snímek do nové prezentace s hlavním snímkem
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se kopírovat snímky s hlavními snímky pomocí Aspose.Slides for .NET. Zlepšete své prezentační dovednosti pomocí tohoto podrobného průvodce.
-type: docs
 weight: 20
 url: /cs/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Ve světě designu a správy prezentací je efektivita klíčová. Jako autor obsahu jsem tu, abych vás provedl procesem kopírování snímku do nové prezentace s hlavním snímkem pomocí Aspose.Slides for .NET. Ať už jste ostřílený vývojář nebo nováček v této oblasti, tento podrobný tutoriál vám pomůže tuto základní dovednost zvládnout. Pojďme se rovnou ponořit.
 
@@ -118,3 +122,9 @@ Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům .N
 
 ### Kde mohu získat podporu komunity a diskutovat o Aspose.Slides pro .NET?
  Můžete se připojit ke komunitě Aspose a hledat podporu na[Aspose.Slides for .NET Support Forum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

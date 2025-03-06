@@ -3,10 +3,14 @@ title: Establecer la primera fila como encabezado en la tabla de PowerPoint con 
 linktitle: Establecer la primera fila como encabezado en la tabla de PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo configurar la primera fila como encabezado en tablas de PowerPoint usando Aspose.Slides para Java. Mejore la claridad y organización de la presentación sin esfuerzo.
-type: docs
 weight: 19
 url: /es/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En este tutorial, profundizaremos en cómo manipular tablas de PowerPoint usando Aspose.Slides para Java, una poderosa biblioteca que permite la integración y modificación perfecta de presentaciones. Específicamente, nos centraremos en configurar la primera fila de una tabla como encabezado, mejorando el atractivo visual y la organización de sus diapositivas.
 ## Requisitos previos
@@ -76,3 +80,9 @@ Aspose.Slides para Java es una biblioteca sólida para trabajar con archivos de 
  La documentación detallada está disponible.[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cómo puedo obtener soporte para Aspose.Slides para Java?
  Puedes obtener apoyo de la comunidad[aquí](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

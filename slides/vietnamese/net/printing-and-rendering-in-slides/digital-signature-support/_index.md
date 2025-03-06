@@ -3,10 +3,14 @@ title: Thêm chữ ký số vào PowerPoint bằng Aspose.Slides
 linktitle: Hỗ trợ chữ ký số trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Ký các bản trình bày PowerPoint một cách an toàn với Aspose.Slides for .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi. Tải xuống ngay để dùng thử miễn phí
-type: docs
 weight: 19
 url: /vi/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Chữ ký số đóng vai trò quan trọng trong việc đảm bảo tính xác thực và toàn vẹn của tài liệu kỹ thuật số. Aspose.Slides for .NET cung cấp hỗ trợ mạnh mẽ cho chữ ký điện tử, cho phép bạn ký các bản trình bày PowerPoint của mình một cách an toàn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm chữ ký điện tử vào bản trình bày của bạn bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Aspose.Slides cung cấp các phương pháp xác minh chữ ký số theo chư�
  Tài liệu có sẵn[đây](https://reference.aspose.com/slides/net/).
 ### Cần hỗ trợ hoặc có thêm câu hỏi?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

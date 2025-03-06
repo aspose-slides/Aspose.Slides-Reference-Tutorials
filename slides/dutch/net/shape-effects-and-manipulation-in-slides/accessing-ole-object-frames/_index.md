@@ -3,10 +3,14 @@ title: Toegang tot OLE-objectframes in presentatiedia's met Aspose.Slides
 linktitle: Toegang tot OLE-objectframes in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u OLE-objectframes in presentatiedia's kunt openen en manipuleren met behulp van Aspose.Slides voor .NET. Verbeter uw mogelijkheden voor diaverwerking met stapsgewijze begeleiding en praktische codevoorbeelden.
-type: docs
 weight: 11
 url: /nl/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering
 
@@ -99,3 +103,9 @@ Ja, u kunt interacties en gedrag van OLE-objecten binnen uw presentatiedia's beh
 In de wereld van presentaties kan de mogelijkheid om de kracht van OLE-objectframes te benutten uw inhoud naar nieuwe hoogten van interactiviteit en betrokkenheid tillen. Aspose.Slides voor .NET vereenvoudigt het proces van toegang tot en manipuleren van OLE-objectframes, waardoor u naadloos inhoud uit andere toepassingen kunt integreren en uw presentaties kunt verrijken. Door de stapsgewijze handleiding te volgen en de gegeven codevoorbeelden te gebruiken, ontgrendelt u een wereld aan mogelijkheden voor dynamische en boeiende dia's.
 
 Ontgrendel het potentieel van OLE-objectframes met Aspose.Slides en transformeer uw presentaties in interactieve ervaringen die de aandacht van uw publiek trekken.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

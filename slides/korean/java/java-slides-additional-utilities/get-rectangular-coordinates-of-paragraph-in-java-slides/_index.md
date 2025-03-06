@@ -3,10 +3,14 @@ title: Java 슬라이드에서 단락의 직사각형 좌표 얻기
 linktitle: Java 슬라이드에서 단락의 직사각형 좌표 얻기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 단락 좌표를 검색하는 방법을 알아보세요. 정확한 위치 지정을 위해 소스 코드가 포함된 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java에서 단락의 직사각형 좌표 검색 소개
 
@@ -112,3 +116,9 @@ Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드 내의 단락에 
 ### Aspose.Slides for Java를 사용하려면 라이선스가 필요합니까?
 
 예, 프로덕션 환경에서 Aspose.Slides for Java를 사용하려면 일반적으로 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다. 그러나 테스트 및 평가 목적으로 평가판을 제공할 수 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

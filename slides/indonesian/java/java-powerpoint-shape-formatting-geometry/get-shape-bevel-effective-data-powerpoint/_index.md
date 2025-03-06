@@ -3,10 +3,14 @@ title: Dapatkan Data Efektif Bentuk Bevel di PowerPoint
 linktitle: Dapatkan Data Efektif Bentuk Bevel di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengambil data bentuk bevel yang efektif di PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan presentasi Anda dengan efek visual yang menakjubkan.
-type: docs
 weight: 26
 url: /id/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam presentasi bisnis modern, daya tarik visual memainkan peran penting dalam menyampaikan informasi secara efektif. Salah satu elemen yang dapat meningkatkan dampak visual bentuk dalam presentasi PowerPoint adalah efek bevel. Aspose.Slides untuk Java menyediakan alat canggih untuk mengakses dan memanipulasi berbagai properti bentuk, termasuk efek kemiringannya. Dalam tutorial ini, kami akan memandu Anda melalui proses pengambilan data efektif bevel bentuk menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -58,3 +62,9 @@ Aspose.Slides memastikan kompatibilitas dengan berbagai versi PowerPoint, memung
 Tentu saja, Anda memiliki kendali penuh atas properti efek bevel dan dapat menyesuaikannya sesuai kebutuhan Anda.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides?
  Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk pertanyaan, dukungan, atau sumber daya tambahan apa pun.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

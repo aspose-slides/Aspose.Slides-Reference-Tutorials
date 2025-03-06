@@ -3,10 +3,14 @@ title: Создание и настройка диаграмм
 linktitle: Создание и настройка диаграмм
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Расширьте возможности презентации вашего .NET-приложения с помощью Aspose.Slides. Погрузитесь в наше руководство по созданию и настройке диаграмм, изучите пошаговые руководства и примеры кода.
-type: docs
 weight: 14
 url: /ru/net/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение:
 
@@ -27,3 +31,9 @@ url: /ru/net/chart-creation-and-customization/
 Узнайте, как использовать Aspose.Slides для .NET для создания динамических презентаций PowerPoint с базовыми заполнителями.
 ### [Управление верхним и нижним колонтитулом в слайдах](./header-footer-manager/)
 Узнайте, как управлять верхними и нижними колонтитулами слайдов с помощью Aspose.Slides для .NET. Настраивайте свои презентации легко и точно.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

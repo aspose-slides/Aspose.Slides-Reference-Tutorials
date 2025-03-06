@@ -3,10 +3,14 @@ title: Impression de présentations avec l'imprimante par défaut dans Aspose.Sl
 linktitle: Impression de présentations avec l'imprimante par défaut dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Débloquez une impression PowerPoint transparente dans .NET avec Aspose.Slides. Suivez notre guide étape par étape pour une intégration facile. Élevez les fonctionnalités de votre application maintenant !
-type: docs
 weight: 10
 url: /fr/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le domaine du développement .NET, Aspose.Slides se distingue comme un outil puissant pour créer, manipuler et rendre des présentations PowerPoint. Parmi sa gamme de fonctionnalités, la possibilité d'imprimer des présentations directement sur l'imprimante par défaut est une fonctionnalité pratique que recherchent souvent les développeurs. Ce didacticiel vous guidera étape par étape tout au long du processus, le rendant accessible même si vous êtes relativement nouveau sur Aspose.Slides.
 ## Conditions préalables
@@ -51,3 +55,9 @@ Absolument, Aspose.Slides est régulièrement mis à jour pour garantir la compa
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 ### Comment puis-je demander de l'aide ou me connecter à la communauté Aspose.Slides ?
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour poser des questions, partager des informations et communiquer avec d'autres développeurs.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

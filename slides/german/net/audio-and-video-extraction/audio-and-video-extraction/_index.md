@@ -3,10 +3,14 @@ title: Audio- und Videoextraktion mit Aspose.Slides für .NET meistern
 linktitle: Audio- und Videoextraktion aus Folien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Audio und Video aus PowerPoint-Folien extrahieren. Mühelose Multimedia-Extraktion.
-type: docs
 weight: 10
 url: /de/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung
 
@@ -135,3 +139,10 @@ Aspose bietet verschiedene Lizenzierungsoptionen, darunter kostenlose Testversio
 
 ### Welche anderen Aufgaben kann ich mit Aspose.Slides für .NET ausführen?
  Aspose.Slides für .NET bietet eine breite Palette an Funktionen, darunter das Erstellen, Ändern und Konvertieren von PowerPoint-Präsentationen. Weitere Einzelheiten finden Sie in der Dokumentation:[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

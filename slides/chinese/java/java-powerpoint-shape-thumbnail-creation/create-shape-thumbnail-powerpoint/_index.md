@@ -3,10 +3,14 @@ title: 在 PowerPoint 中创建形状缩略图
 linktitle: 在 PowerPoint 中创建形状缩略图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中生成形状缩略图。提供分步指南。
-type: docs
 weight: 14
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，我们将深入研究如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建形状缩略图。Aspose.Slides 是一个功能强大的库，使开发人员能够以编程方式处理 PowerPoint 文件，从而实现各种任务的自动化，包括生成形状缩略图。
 ## 先决条件
@@ -60,3 +64,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 当然可以！您可以从以下网址下载 Aspose.Slides 的免费试用版[这里](https://releases.aspose.com/)评估其特性和能力。
 ### 在哪里可以找到对 Aspose.Slides 的支持？
 如果您有任何疑问或需要有关 Aspose.Slides 的帮助，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)为了支持。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

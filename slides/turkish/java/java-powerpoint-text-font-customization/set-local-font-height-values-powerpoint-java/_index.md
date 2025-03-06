@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint'te Yerel Yazı Tipi Yüksekliği Değerlerini 
 linktitle: Java kullanarak PowerPoint'te Yerel Yazı Tipi Yüksekliği Değerlerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint sunumlarında yazı tipi yüksekliklerini nasıl ayarlayacağınızı öğrenin. Slaytlarınızdaki metin biçimlendirmesini zahmetsizce geliştirin.
-type: docs
 weight: 17
 url: /tr/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarında yazı tipi yüksekliklerini çeşitli düzeylerde nasıl değiştireceğinizi öğreneceksiniz. Yazı tipi boyutlarını kontrol etmek, görsel olarak çekici ve yapılandırılmış sunumlar oluşturmak için çok önemlidir. Farklı metin öğeleri için yazı tipi yüksekliklerinin nasıl ayarlanacağını göstermek için adım adım örnekler üzerinden ilerleyeceğiz.
 ## Önkoşullar
@@ -65,3 +69,9 @@ Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak düzenlemek i
  Destek için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java lisansını nereden satın alabilirim?
  Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

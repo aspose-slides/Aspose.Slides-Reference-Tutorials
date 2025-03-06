@@ -3,10 +3,14 @@ title: Şekilleri Sunumdan SVG Formatına Aktarma
 linktitle: Şekilleri Sunumdan SVG Formatına Aktarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak şekilleri bir PowerPoint sunumundan SVG formatına nasıl aktaracağınızı öğrenin. Kaynak kodu içeren adım adım kılavuz. Çeşitli uygulamalar için şekilleri verimli bir şekilde çıkarın.
-type: docs
 weight: 16
 url: /tr/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Günümüzün dijital dünyasında sunumlar, bilginin etkili bir şekilde aktarılmasında çok önemli bir rol oynamaktadır. Ancak bazen sunumlarımızdan belirli şekilleri çeşitli amaçlarla farklı formatlara aktarmamız gerekir. Böyle bir format, ölçeklenebilirliği ve uyarlanabilirliği ile bilinen SVG'dir (Ölçeklenebilir Vektör Grafikleri). Bu eğitimde, Aspose.Slides for .NET kullanarak bir sunumdan şekilleri SVG formatına aktarma sürecinde size rehberlik edeceğiz.
 
@@ -83,3 +87,9 @@ Evet, Aspose.Slides for .NET, ücretsiz deneme sürümü bulunan ticari bir küt
 Artık şekilleri SVG formatına nasıl aktaracağınızı öğrendiğinize göre sunumlarınızı geliştirebilir ve onları farklı amaçlar için daha çok yönlü hale getirebilirsiniz. Mutlu kodlama!
 
  Daha fazla ayrıntı ve gelişmiş özellikler için bkz.[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

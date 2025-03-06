@@ -3,10 +3,14 @@ title: Java Slaytlarına HTML Gömme Görüntülerini Dönüştürme
 linktitle: Java Slaytlarına HTML Gömme Görüntülerini Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Gömülü Görüntülerle PowerPoint'i HTML'ye dönüştürün. Aspose.Slides for Java'yı kullanan adım adım kılavuz. Java'da sunum dönüşümlerini zahmetsizce otomatikleştirmeyi öğrenin.
-type: docs
 weight: 11
 url: /tr/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarına HTML Gömme Görüntülerini Dönüştürmeye Giriş
 
@@ -125,3 +129,10 @@ Evet, Aspose.Slides tarafından oluşturulan HTML ve CSS dosyalarını değişti
 ### Dönüştürme sırasındaki hataları nasıl ele alabilirim?
 
 Dönüştürme işlemi sırasında oluşabilecek istisnaları ele almak için dönüştürme kodunu bir try-catch bloğuna sarabilirsiniz.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

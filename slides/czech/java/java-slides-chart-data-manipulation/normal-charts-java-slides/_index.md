@@ -3,10 +3,14 @@ title: Normální grafy v Java Slides
 linktitle: Normální grafy v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte normální grafy v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce a zdrojový kód pro vytváření, přizpůsobení a ukládání grafů v prezentacích PowerPoint.
-type: docs
 weight: 21
 url: /cs/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do normálních grafů v Java Slides
 
@@ -240,3 +244,9 @@ V tomto tutoriálu jsme se naučili, jak vytvořit normální grafy v Java Slide
 ### Jak uložím graf do jiného formátu souboru?
 
  Chcete-li uložit graf do jiného formátu souboru, změňte`SaveFormat` parametr v`pres.save()` metodou do požadovaného formátu (např. PDF, PNG, JPEG).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

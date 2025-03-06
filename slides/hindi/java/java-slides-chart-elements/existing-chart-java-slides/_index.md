@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में मौजूदा चा
 linktitle: जावा स्लाइड्स में मौजूदा चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ अपने PowerPoint प्रेजेंटेशन को बेहतर बनाएँ। मौजूदा चार्ट को प्रोग्रामेटिक रूप से संशोधित करना सीखें। चार्ट अनुकूलन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में मौजूदा चार्ट का परिचय
 
@@ -184,3 +188,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### क्या चार्ट से किसी श्रृंखला को हटाने का कोई तरीका है?
 
  हां, आप इसका उपयोग करके चार्ट से किसी श्रृंखला को हटा सकते हैं`chart.getChartData().getSeries().removeAt(index)` विधि, जहां`index`वह श्रृंखला का सूचकांक है जिसे आप हटाना चाहते हैं.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

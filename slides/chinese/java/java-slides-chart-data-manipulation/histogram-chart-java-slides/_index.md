@@ -3,10 +3,14 @@ title: Java 幻灯片中的直方图
 linktitle: Java 幻灯片中的直方图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建直方图。带有数据可视化源代码的分步指南。
-type: docs
 weight: 19
 url: /zh/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中制作直方图的简介
 
@@ -112,3 +116,9 @@ finally
 ### 我可以自定义直方图的外观吗？
 
 是的，您可以使用 Aspose.Slides API 自定义图表的外观，包括其颜色、标签和轴。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

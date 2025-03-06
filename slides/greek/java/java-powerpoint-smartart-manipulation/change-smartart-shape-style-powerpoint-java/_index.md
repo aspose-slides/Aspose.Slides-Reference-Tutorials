@@ -3,10 +3,14 @@ title: Αλλάξτε το στυλ σχήματος SmartArt στο PowerPoint 
 linktitle: Αλλάξτε το στυλ σχήματος SmartArt στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αλλάζετε στυλ SmartArt σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides για Java. Ενισχύστε τις παρουσιάσεις σας.
-type: docs
 weight: 23
 url: /el/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης Java, η δημιουργία ισχυρών παρουσιάσεων είναι συχνά μια απαίτηση. Είτε πρόκειται για επαγγελματικές παρουσιάσεις, είτε για εκπαιδευτικούς σκοπούς ή απλώς για κοινή χρήση πληροφοριών, οι παρουσιάσεις PowerPoint είναι ένα κοινό μέσο. Ωστόσο, μερικές φορές τα προεπιλεγμένα στυλ και μορφές που παρέχονται από το PowerPoint ενδέχεται να μην ανταποκρίνονται πλήρως στις ανάγκες μας. Εδώ παίζει το Aspose.Slides για Java.
 Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να εργάζονται με παρουσιάσεις PowerPoint μέσω προγραμματισμού. Παρέχει ένα ευρύ φάσμα χαρακτηριστικών, συμπεριλαμβανομένης της δυνατότητας χειρισμού σχημάτων, στυλ, κινούμενων εικόνων και πολλά άλλα. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια συγκεκριμένη εργασία: αλλαγή του στυλ σχήματος SmartArt σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java.
@@ -69,3 +73,9 @@ presentation.save(dataDir + "ChangeSmartArtStyle_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια χρήσης για το Aspose.Slides για Java από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Slides για Java;
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση για το Aspose.Slides για Java[εδώ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

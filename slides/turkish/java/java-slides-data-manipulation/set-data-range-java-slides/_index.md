@@ -3,10 +3,14 @@ title: Java Slaytlarında Veri Aralığını Ayarlama
 linktitle: Java Slaytlarında Veri Aralığını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java slaytlarındaki veri aralıklarını zahmetsizce nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuzla dinamik ve veri odaklı sunumlar oluşturun.
-type: docs
 weight: 18
 url: /tr/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Veri Aralığını Ayarlamaya Giriş
 
@@ -97,3 +101,9 @@ Aspose.Slides for Java API'sini kullanarak bir sunumdaki belirli slaytlara ve ş
 ### Aspose.Slides for Java için daha fazla belge ve örneği nerede bulabilirim?
 
  Aspose dokümantasyon web sitesinde Aspose.Slides for Java ile ilgili kapsamlı dokümantasyon ve örnekler bulabilirsiniz:[Java API Referansları için Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

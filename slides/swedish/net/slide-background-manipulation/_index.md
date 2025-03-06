@@ -3,10 +3,14 @@ title: Slide Bakgrundsmanipulation med Aspose.Slides
 linktitle: Slide Bakgrundsmanipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra din bilddesign med Aspose.Slides! Lär dig hur du manipulerar bildbakgrunder i denna omfattande handledning. Steg-för-steg-instruktioner och kodexempel tillhandahålls.
-type: docs
 weight: 11
 url: /sv/net/slide-background-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion
 
@@ -37,3 +41,9 @@ Lär dig hur du ställer in en bild som bildbakgrund med Aspose.Slides för .NET
 Lär dig hur du bemästrar att ställa in bildbakgrunder med Aspose.Slides i denna steg-för-steg-guide. Lyft dina presentationer till nästa nivå med engagerande bilder.
 ### [Ändra normal bildbakgrund](./change-slide-background-normal/)
 Lär dig hur du ändrar den normala bildbakgrunden för att fängsla din publik. Följ den här omfattande guiden med Aspose.Slides för .NET, komplett med steg-för-steg-instruktioner och kodexempel.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

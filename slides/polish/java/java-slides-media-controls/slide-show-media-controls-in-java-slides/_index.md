@@ -3,10 +3,14 @@ title: Sterowanie multimediami pokazu slajdów w slajdach Java
 linktitle: Sterowanie multimediami pokazu slajdów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak włączyć i używać elementów sterujących multimediami w slajdach Java za pomocą Aspose.Slides dla Java. Ulepsz swoje prezentacje za pomocą elementów sterujących multimediami.
-type: docs
 weight: 11
 url: /pl/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do elementów sterujących multimediami pokazu slajdów w aplikacji Java Slides
 
@@ -108,3 +112,9 @@ W tym samouczku omówiliśmy, jak włączyć i wykorzystać elementy sterujące 
 ### Czy istnieje sposób dodawania napisów lub podpisów do filmów w aplikacji Java Slides?
 
 Tak, możesz dodawać napisy lub podpisy do filmów w Prezentacjach Java, dodając ramki tekstowe lub kształty do slajdu zawierającego wideo. Następnie możesz zsynchronizować tekst z odtwarzanym wideo, korzystając z ustawień synchronizacji.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

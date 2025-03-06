@@ -3,10 +3,14 @@ title: PowerPoint'te Web Kaynağından Video Çerçevesi Ekleme
 linktitle: PowerPoint'te Web Kaynağından Video Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak web kaynaklarından video kareleri ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrenin.
-type: docs
 weight: 18
 url: /tr/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak YouTube gibi bir web kaynağından PowerPoint sunumuna nasıl video karesi ekleneceğini öğreneceğiz. Bu adım adım talimatları izleyerek, ilgi çekici multimedya öğelerini dahil ederek sunumlarınızı geliştirebileceksiniz.
 ## Önkoşullar
@@ -84,3 +88,9 @@ Kesinlikle! Aspose.Slides, video karelerinin görünümünü ve davranışını 
 Aspose.Slides, çok çeşitli PowerPoint sürümlerini destekleyerek farklı platformlar arasında uyumluluk sağlar.
 ### Aspose.Slides için daha fazla kaynağı ve desteği nerede bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım, dokümantasyon ve topluluk desteği için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

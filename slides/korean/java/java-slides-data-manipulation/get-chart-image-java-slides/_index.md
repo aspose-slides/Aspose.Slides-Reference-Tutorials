@@ -3,10 +3,14 @@ title: Java 슬라이드에서 차트 이미지 가져오기
 linktitle: Java 슬라이드에서 차트 이미지 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 이미지를 얻는 방법을 알아보세요. 이 단계별 가이드에서는 원활한 통합을 위한 소스 코드와 팁을 제공합니다.
-type: docs
 weight: 19
 url: /ko/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 차트 이미지 가져오기 소개
 
@@ -92,3 +96,9 @@ Aspose.Slides for Java는 슬라이드 생성, 텍스트 조작, 모양 편집 �
 ### 차트 이미지를 다른 형식으로 저장할 수 있나요?
 
  틀림없이! 에서 적절한 파일 확장자를 지정하여 차트 이미지를 JPEG, GIF 등 다양한 형식으로 저장할 수 있습니다.`ImageIO.write` 방법.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

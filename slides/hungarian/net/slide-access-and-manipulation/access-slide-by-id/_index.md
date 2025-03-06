@@ -3,10 +3,14 @@ title: A dia elérése egyedi azonosítóval
 linktitle: A dia elérése egyedi azonosítóval
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan érheti el a PowerPoint diákat egyedi azonosítók segítségével az Aspose.Slides for .NET segítségével. Ez a részletes útmutató bemutatja a prezentációk betöltését, a diák index vagy azonosító alapján történő elérését, a tartalom módosítását és a módosítások mentését.
-type: docs
 weight: 11
 url: /hu/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
@@ -112,3 +116,9 @@ Teljesen. Akár egy egyszerű, néhány diát tartalmazó prezentáción dolgozi
 ### Hol találok részletesebb dokumentációt és forrásokat?
 
  Az Aspose.Slides for .NET webhelyen átfogó dokumentációt, kódmintákat, oktatóanyagokat és egyebeket találhat[dokumentáció](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

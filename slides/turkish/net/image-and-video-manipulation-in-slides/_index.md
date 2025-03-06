@@ -3,10 +3,14 @@ title: Slaytlarda Görüntü ve Video İşleme
 linktitle: Slaytlarda Görüntü ve Video İşleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak slayt sunumlarınızı büyüleyici görseller ve videolarla geliştirin. Görsel olarak ilgi çekici içerik için slaytlardaki görselleri ve videoları nasıl değiştireceğinizi adım adım öğrenin.
-type: docs
 weight: 12
 url: /tr/net/image-and-video-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides'ta Görüntü ve Video İşleme'ye Giriş
 
@@ -53,3 +57,9 @@ Aspose.Slides for .NET'i kullanarak gömülü video çerçeveleri ekleyerek sunu
 Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki OLE nesnelerinden gömülü dosya verilerini nasıl çıkaracağınızı öğrenin. Gömülü verileri sorunsuz bir şekilde almak ve işlemek için kaynak kodunun yer aldığı bu adım adım kılavuzu izleyin.
 ### [Aspose.Slides Kullanarak Sunum Slaytlarında Şekilleri Gradyanla Doldurma](./filling-shapes-gradient/)
 Aspose.Slides for .NET'i kullanarak sunum slaytlarınızı büyüleyici degradelerle nasıl geliştireceğinizi öğrenin. Şekilleri doğrusaldan radyal'e kadar degradelerle doldurmak, derinlik ve boyut eklemek için kaynak kodunun tamamını içeren bu adım adım kılavuzu izleyin.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

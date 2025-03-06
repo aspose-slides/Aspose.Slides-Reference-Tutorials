@@ -3,10 +3,14 @@ title: Mengatur Properti Font di Slide Java
 linktitle: Mengatur Properti Font di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur properti font di slide Java menggunakan Aspose.Slides for Java. Panduan langkah demi langkah ini mencakup contoh kode dan FAQ.
-type: docs
 weight: 15
 url: /id/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Pengaturan Properti Font di Slide Java
 
@@ -137,3 +141,9 @@ for (ISlide slide : pres.getSlides()) {
     // Akses dan sesuaikan properti font elemen teks di sini
 }
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

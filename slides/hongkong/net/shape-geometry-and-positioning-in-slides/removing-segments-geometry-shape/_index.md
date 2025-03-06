@@ -3,10 +3,14 @@ title: 刪除形狀段 - Aspose.Slides .NET Tutorial
 linktitle: 從簡報投影片中的幾何形狀中刪除線段
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides API for .NET 從簡報投影片中的幾何圖形中刪除片段。帶有原始程式碼的分步指南。
-type: docs
 weight: 16
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 創建具有視覺吸引力的簡報通常涉及操縱形狀和元素以實現所需的設計。透過 Aspose.Slides for .NET，開發人員可以輕鬆控制形狀的幾何形狀，從而刪除特定的片段。在本教學中，我們將引導您完成使用 Aspose.Slides for .NET 從簡報投影片中的幾何形狀中刪除片段的過程。
 ## 先決條件
@@ -68,3 +72,9 @@ shape.SetGeometryPath(path);
 不可以，儲存後變更不可撤銷。考慮在修改之前保存備份。
 ### 我可以在哪裡尋求額外的支持或協助？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區支持和討論。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

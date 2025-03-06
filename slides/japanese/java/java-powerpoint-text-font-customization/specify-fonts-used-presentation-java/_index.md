@@ -3,10 +3,14 @@ title: Java でプレゼンテーションで使用するフォントを指定�
 linktitle: Java でプレゼンテーションで使用するフォントを指定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでカスタム フォントを指定する方法を学びます。ユニークなタイポグラフィでスライドを簡単に強化できます。
-type: docs
 weight: 22
 url: /ja/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 今日のデジタル時代では、視覚的に魅力的なプレゼンテーションを作成することは、ビジネスでも学術分野でも効果的なコミュニケーションに不可欠です。Aspose.Slides for Java は、Java 開発者が PowerPoint プレゼンテーションを動的に生成および操作するための堅牢なプラットフォームを提供します。このチュートリアルでは、Aspose.Slides for Java を使用してプレゼンテーションで使用するフォントを指定する手順を説明します。最後には、カスタム フォントを PowerPoint プロジェクトにシームレスに統合し、視覚的な魅力を高め、ブランドの一貫性を確保するための知識が身に付きます。
 ## 前提条件
@@ -71,3 +75,9 @@ try {
 Aspose.Slides ではカスタム フォントの数に厳密な制限はありませんが、パフォーマンスへの影響を考慮してください。
 ### アプリケーションにフォントを埋め込まずに、実行時に動的にフォントを読み込むことはできますか?
 はい、このチュートリアルで説明されているように、外部ソースまたはメモリからフォントを読み込むことができます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

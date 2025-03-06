@@ -3,10 +3,14 @@ title: Merender Komentar Slide di Aspose.Slides
 linktitle: Merender Komentar Slide di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi cara merender komentar slide di Aspose.Slides untuk .NET dengan tutorial langkah demi langkah kami. Sesuaikan tampilan komentar dan tingkatkan otomatisasi PowerPoint Anda.
-type: docs
 weight: 12
 url: /id/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang merender komentar slide menggunakan Aspose.Slides untuk .NET! Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang bekerja secara lancar dengan presentasi PowerPoint di aplikasi .NET mereka. Dalam panduan ini, kami akan fokus pada tugas tertentu - menampilkan komentar slide - dan memandu Anda melalui prosesnya langkah demi langkah.
 ## Prasyarat
@@ -86,3 +90,9 @@ J: Tentu saja! Tutorial ini mencakup opsi untuk menyesuaikan warna, lebar, dan p
  A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat mencari bantuan dan dukungan untuk Aspose.Slides?
  J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan masyarakat.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

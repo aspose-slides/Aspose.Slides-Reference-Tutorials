@@ -3,10 +3,14 @@ title: Προβολή διαφανειών και χειρισμός διάτα�
 linktitle: Προβολή διαφανειών και χειρισμός διάταξης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιστοποιήστε τις προβολές και τις διατάξεις διαφανειών με το Aspose.Slides Slide View and Layout Manipulation Tutorials. Βελτιώστε την επίδραση της παρουσίασης και την οπτική αριστεία χρησιμοποιώντας ισχυρά εργαλεία .NET.
-type: docs
 weight: 20
 url: /el/net/slide-view-and-layout-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή
 
@@ -29,3 +33,9 @@ url: /el/net/slide-view-and-layout-manipulation/
 Μάθετε πώς να συνδέετε βίντεο με διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα περιλαμβάνει τον πηγαίο κώδικα και συμβουλές για τη δημιουργία διαδραστικών και ελκυστικών παρουσιάσεων με συνδεδεμένα βίντεο.
 ### [Διαχείριση ActiveX Control στην παρουσίαση](./manage-activex-control/)
 Μάθετε πώς να βελτιώνετε τις παρουσιάσεις PowerPoint με στοιχεία ελέγχου ActiveX χρησιμοποιώντας το Aspose.Slides για .NET. Ο βήμα προς βήμα οδηγός μας καλύπτει την εισαγωγή, τη χειραγώγηση, την προσαρμογή, τον χειρισμό συμβάντων και πολλά άλλα.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

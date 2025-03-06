@@ -3,10 +3,14 @@ title: Java 슬라이드에서 비밀번호로 보호된 프레젠테이션 열�
 linktitle: Java 슬라이드에서 비밀번호로 보호된 프레젠테이션 열기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java에서 비밀번호로 보호된 프레젠테이션을 잠금 해제합니다. Aspose.Slides for Java를 사용하여 비밀번호로 보호된 PowerPoint 슬라이드를 열고 액세스하는 방법을 알아보세요. 코드가 포함된 단계별 가이드.
-type: docs
 weight: 15
 url: /ko/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 비밀번호로 보호된 프레젠테이션 열기 소개
 
@@ -113,3 +117,9 @@ Aspose.Slides는 프레젠테이션의 비밀번호를 설정하고 변경하는
 ### Aspose.Slides for Java에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
 
  다음에서 포괄적인 문서와 추가 예제를 찾을 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 그리고 에[Aspose.Slides 포럼](https://forum.aspose.com/c/slides).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

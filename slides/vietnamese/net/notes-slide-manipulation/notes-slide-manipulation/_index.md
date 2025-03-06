@@ -3,10 +3,14 @@ title: Lưu ý Thao tác với slide bằng Aspose.Slides
 linktitle: Lưu ý Thao tác với slide bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách quản lý đầu trang và chân trang trong các trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Xóa ghi chú và tùy chỉnh bài thuyết trình của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra những bài thuyết trình hấp dẫn là một kỹ năng cần thiết. Aspose.Slides for .NET là một công cụ mạnh mẽ cho phép bạn thao tác và tùy chỉnh các slide thuyết trình của mình một cách dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn một số tác vụ cần thiết bằng cách sử dụng Aspose.Slides cho .NET. Chúng tôi sẽ đề cập đến cách quản lý đầu trang và chân trang trong các trang chiếu ghi chú, xóa ghi chú ở các trang chiếu cụ thể và xóa ghi chú khỏi tất cả các trang chiếu.
 
@@ -165,3 +169,10 @@ Aspose.Slides for .NET trao quyền cho bạn toàn quyền kiểm soát các b�
 ### Tôi có thể thao tác các khía cạnh khác của bản trình bày PowerPoint bằng Aspose.Slides cho .NET không?
 
 Có, Aspose.Slides for .NET cung cấp nhiều tính năng để thao tác với bản trình bày PowerPoint, bao gồm các trang trình bày, hình dạng, văn bản, v.v. Khám phá tài liệu để biết chi tiết.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

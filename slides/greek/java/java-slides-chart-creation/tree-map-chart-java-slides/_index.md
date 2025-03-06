@@ -3,10 +3,14 @@ title: Γράφημα δενδρικού χάρτη σε Java Slides
 linktitle: Γράφημα δενδρικού χάρτη σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε γραφήματα δέντρων χαρτών σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για την απεικόνιση ιεραρχικών δεδομένων.
-type: docs
 weight: 13
 url: /el/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στο γράφημα δενδρικού χάρτη σε διαφάνειες Java
 
@@ -152,3 +156,9 @@ finally
 ### Πώς μπορώ να αποθηκεύσω την παρουσίαση με το γράφημα του Χάρτη δέντρου;
 
  Χρησιμοποιήστε το`pres.save()` μέθοδος αποθήκευσης της παρουσίασης με το γράφημα του Δενδρικού Χάρτη στην επιθυμητή μορφή (π.χ. PPTX).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

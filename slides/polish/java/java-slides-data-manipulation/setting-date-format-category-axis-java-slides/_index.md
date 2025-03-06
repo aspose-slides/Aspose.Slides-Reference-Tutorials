@@ -3,10 +3,14 @@ title: Ustawianie formatu daty dla osi kategorii w slajdach Java
 linktitle: Ustawianie formatu daty dla osi kategorii w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić format daty dla osi kategorii na wykresie programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 26
 url: /pl/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do ustawiania formatu daty dla osi kategorii w slajdach Java
 
@@ -139,3 +143,9 @@ Tak, możesz ustawić różne formaty dat dla osi kategorii na różnych wykresa
 ### Jak dodać więcej punktów danych do wykresu?
 
  Aby dodać więcej punktów danych do wykresu, użyj opcji`getDataPoints().addDataPointForLineSeries`metodę na serii danych i podaj wartości danych.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

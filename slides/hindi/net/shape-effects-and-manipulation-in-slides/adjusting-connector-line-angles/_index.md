@@ -3,10 +3,14 @@ title: Aspose.Slides के साथ PowerPoint में कनेक्टर
 linktitle: Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में कनेक्टर लाइन कोण समायोजित करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में कनेक्टर लाइन कोण को समायोजित करना सीखें। सटीकता और आसानी से अपनी प्रस्तुतियों को बेहतर बनाएँ।
-type: docs
 weight: 28
 url: /hi/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 दृश्य रूप से आकर्षक प्रस्तुतिकरण स्लाइड बनाने में अक्सर कनेक्टर लाइनों में सटीक समायोजन शामिल होता है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतिकरण स्लाइड में कनेक्टर लाइन कोणों को समायोजित करने का तरीका जानेंगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को PowerPoint फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है, जो प्रस्तुतिकरण बनाने, संशोधित करने और हेरफेर करने के लिए व्यापक क्षमताएँ प्रदान करती है।
 ## आवश्यक शर्तें
@@ -87,3 +91,9 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या Aspose.Slides के लिए कोई सहायता मंच है?
  हां, आप सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

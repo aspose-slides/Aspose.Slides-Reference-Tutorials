@@ -3,10 +3,14 @@ title: Μετατροπή διαφανειών σε PDF με Σημειώσει�
 linktitle: Μετατροπή διαφανειών σε PDF με Σημειώσεις σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε διαφάνειες PowerPoint σε PDF με σημειώσεις σε Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα για προγραμματιστές Java. Βελτιώστε την κοινή χρήση της παρουσίασής σας.
-type: docs
 weight: 19
 url: /el/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη Μετατροπή διαφανειών σε PDF με Σημειώσεις σε Java
 
@@ -124,3 +128,9 @@ finally
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση για το Aspose.Slides για Java στον ιστότοπο:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

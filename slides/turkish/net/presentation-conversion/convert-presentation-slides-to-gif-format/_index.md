@@ -3,10 +3,14 @@ title: Sunum Slaytlarını GIF Formatına Dönüştürün
 linktitle: Sunum Slaytlarını GIF Formatına Dönüştürün
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Bu adım adım kılavuzla PowerPoint slaytlarını dinamik GIF'lere dönüştürmek için Aspose.Slides for .NET'i nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 21
 url: /tr/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -133,3 +137,9 @@ Evet, Aspose.Slides for .NET hem kişisel hem de ticari projelerde kullanılabil
 ### Daha fazla kod örneğini ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for .NET kullanımına ilişkin daha fazla kod örneğini ve ayrıntılı belgeleri şu adreste bulabilirsiniz:[dokümantasyon](https://reference.aspose.com).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Mesclar células na tabela do PowerPoint com Java
 linktitle: Mesclar células na tabela do PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como mesclar células em tabelas do PowerPoint usando Aspose.Slides para Java. Aprimore o layout da sua apresentação com este guia passo a passo.
-type: docs
 weight: 17
 url: /pt/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, você aprenderá como mesclar células de maneira eficaz em uma tabela do PowerPoint usando Aspose.Slides para Java. Aspose.Slides é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter apresentações do PowerPoint de forma programática. Ao mesclar células em uma tabela, você pode personalizar o layout e a estrutura dos slides da sua apresentação, aumentando a clareza e o apelo visual.
 ## Pré-requisitos
@@ -92,3 +96,9 @@ Aspose.Slides for Java é uma API Java para criar, manipular e converter apresen
  Você pode encontrar a documentação[aqui](https://reference.aspose.com/slides/java/).
 ### Como posso obter suporte para Aspose.Slides para Java?
  Você pode obter suporte no fórum da comunidade Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

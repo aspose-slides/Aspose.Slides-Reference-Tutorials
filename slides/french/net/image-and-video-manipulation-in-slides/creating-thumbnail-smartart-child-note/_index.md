@@ -3,10 +3,14 @@ title: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 linktitle: Création d'une vignette pour la note enfant SmartArt dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment créer des vignettes SmartArt Child Note captivantes à l’aide d’Aspose.Slides pour .NET. Élevez vos présentations avec des visuels dynamiques !
-type: docs
 weight: 15
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le domaine des présentations dynamiques, Aspose.Slides pour .NET se distingue comme un outil puissant, offrant aux développeurs la possibilité de manipuler et d'améliorer les présentations PowerPoint par programme. Une fonctionnalité intéressante est la possibilité de générer des vignettes pour SmartArt Child Notes, ajoutant ainsi une couche d'attrait visuel à vos présentations. Ce guide étape par étape vous guidera tout au long du processus de création de vignettes pour SmartArt Child Notes à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -62,3 +66,9 @@ R : Absolument ! Aspose.Slides propose une variété de mises en page SmartArt, 
  R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour interagir avec la communauté, poser des questions et trouver des solutions.
 ### Q : Puis-je acheter Aspose.Slides pour .NET ?
  R : Certainement ! Explorez les options d'achat[ici](https://purchase.aspose.com/buy) pour libérer tout le potentiel d’Aspose.Slides dans vos projets.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

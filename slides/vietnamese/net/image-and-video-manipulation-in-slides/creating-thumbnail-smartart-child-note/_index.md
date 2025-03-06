@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ cho ghi chú con SmartArt trong Aspose.Slides
 linktitle: Tạo hình thu nhỏ cho ghi chú con SmartArt trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình thu nhỏ SmartArt Child Note quyến rũ bằng Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn bằng hình ảnh động!
-type: docs
 weight: 15
 url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong lĩnh vực thuyết trình động, Aspose.Slides for .NET nổi bật như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thao tác và nâng cao các bài thuyết trình PowerPoint theo chương trình. Một tính năng hấp dẫn là khả năng tạo hình thu nhỏ cho SmartArt Child Notes, thêm một lớp hấp dẫn trực quan cho bản trình bày của bạn. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ cho SmartArt Child Notes bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Trả lời: Có, bạn có thể điều chỉnh kích thước và định d�
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
 ### Câu hỏi: Tôi có thể mua Aspose.Slides cho .NET không?
  Đ: Chắc chắn rồi! Khám phá các lựa chọn mua hàng[đây](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của Aspose.Slides trong các dự án của bạn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

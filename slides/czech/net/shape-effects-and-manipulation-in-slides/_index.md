@@ -3,10 +3,14 @@ title: Tvarové efekty a manipulace ve snímcích
 linktitle: Tvarové efekty a manipulace ve snímcích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete vizuální přitažlivost své prezentace pomocí výukových programů Aspose.Slides o efektech tvarů a manipulaci. Naučte se vytvářet úžasné snímky pomocí tvarových efektů, animací a dalších.
-type: docs
 weight: 11
 url: /cs/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 
@@ -63,3 +67,9 @@ Naučte se, jak vylepšit snímky prezentace úpravou úhlů spojnic pomocí Asp
 Vylepšete svou schopnost prezentace tím, že se naučíte spojovat tvary pomocí konektorů na snímcích prezentace s Aspose.Slides. Pozvedněte své vizuální vyprávění ještě dnes!
 ### [Připojení Shape pomocí Connection Site v Presentation Slides s Aspose.Slides](./connecting-shape-using-connection-site/)
 Vylepšete své prezentační dovednosti tím, že se naučíte spojovat tvary pomocí spojovacích webů v prezentačních snímcích s Aspose.Slides. Postupujte podle našeho podrobného průvodce a příkladů kódu.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Schreibgeschützte empfohlene Eigenschaften in Java-Folien
 linktitle: Schreibgeschützte empfohlene Eigenschaften in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java schreibgeschützte empfohlene Eigenschaften in Java PowerPoint-Präsentationen aktivieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen für verbesserte Präsentationssicherheit.
-type: docs
 weight: 17
 url: /de/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Aktivieren schreibgeschützter empfohlener Eigenschaften in Java-Folien
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Denken Sie daran, zu ersetzen`"YourPassword"` mit Ihrem gewünschten Passwort.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

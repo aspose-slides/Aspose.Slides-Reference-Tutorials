@@ -3,10 +3,14 @@ title: تحويل العرض التقديمي إلى تنسيق HTML5
 linktitle: تحويل العرض التقديمي إلى تنسيق HTML5
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى تنسيق HTML5 باستخدام Aspose.Slides لـ .NET. تحويل سهل وفعال لمشاركة الويب.
-type: docs
 weight: 22
 url: /ar/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## تحويل العرض التقديمي إلى تنسيق HTML5 باستخدام Aspose.Slides لـ .NET
 
 في هذا الدليل، سنرشدك خلال عملية تحويل عرض PowerPoint التقديمي (PPT/PPTX) إلى تنسيق HTML5 باستخدام مكتبة Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تسمح لك بمعالجة وتحويل عروض PowerPoint التقديمية بتنسيقات مختلفة.
@@ -81,3 +85,9 @@ namespace PresentationToHTML5Converter
 ### هل هناك نسخة تجريبية متاحة من Aspose.Slides؟
 
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[صفحة التحميل](https://releases.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

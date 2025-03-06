@@ -3,10 +3,14 @@ title: Βρείτε το σχήμα στη διαφάνεια
 linktitle: Βρείτε το σχήμα στη διαφάνεια
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βρείτε εύκολα σχήματα σε διαφάνειες του PowerPoint με το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για μια απρόσκοπτη εμπειρία κωδικοποίησης.
-type: docs
 weight: 14
 url: /el/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Έχετε βαρεθεί να ψάχνετε τις διαφάνειες του PowerPoint για να βρείτε συγκεκριμένα σχήματα; Φανταστείτε να μπορείτε να αυτοματοποιήσετε αυτή τη διαδικασία χωρίς κόπο με λίγες μόνο γραμμές κώδικα. Καλώς ήρθατε στον λεπτομερή οδηγό μας σχετικά με τη χρήση του Aspose.Slides για Java για τον εντοπισμό σχημάτων στα αρχεία παρουσίασής σας. Σε αυτό το σεμινάριο, θα αναλύσουμε τα βήματα που απαιτούνται για την εύρεση σχημάτων σε μια διαφάνεια χρησιμοποιώντας το Aspose.Slides για Java, από τη ρύθμιση του περιβάλλοντός σας έως την εκτέλεση του κώδικα.
 ## Προαπαιτούμενα
@@ -84,3 +88,9 @@ if (p != null) p.dispose();
  Ναι, μπορείτε να λάβετε δωρεάν δοκιμή από[Η δωρεάν δοκιμαστική σελίδα του Aspose](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Μπορείτε να βρείτε υποστήριξη στο[Φόρουμ Aspose Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Hide Shapes in PowerPoint with Aspose.Slides .NET Tutorial
 linktitle: Hiding Shapes in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to hide shapes in PowerPoint slides using Aspose.Slides for .NET. Customize presentations programmatically with this step-by-step guide.
-type: docs
 weight: 21
 url: /net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic world of presentations, customization is key. Aspose.Slides for .NET provides a powerful solution for manipulating PowerPoint presentations programmatically. One common requirement is the ability to hide specific shapes within a slide. This tutorial will guide you through the process of hiding shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -73,3 +77,10 @@ Explore the documentation [here](https://reference.aspose.com/slides/net/) for i
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
 ### How can I get community support for Aspose.Slides?
 Join the Aspose.Slides community on the [forum](https://forum.aspose.com/c/slides/11) for discussions and assistance.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

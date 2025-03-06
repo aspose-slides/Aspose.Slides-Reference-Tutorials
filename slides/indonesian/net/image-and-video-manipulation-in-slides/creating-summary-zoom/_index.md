@@ -3,10 +3,14 @@ title: Aspose.Slides - Menguasai Ringkasan Memperbesar .NET
 linktitle: Membuat Ringkasan Zoom di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari cara membuat Ringkasan Zoom yang menarik dengan mudah. Unduh sekarang untuk pengalaman slide dinamis.
-type: docs
 weight: 16
 url: /id/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, Aspose.Slides untuk .NET menonjol sebagai alat yang ampuh untuk meningkatkan pengalaman pembuatan slide Anda. Salah satu fitur penting yang ditawarkannya adalah kemampuan untuk membuat Zoom Ringkasan, cara yang menarik secara visual untuk menyajikan koleksi slide. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Ringkasan Zoom pada slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -79,3 +83,9 @@ Sangat! Anda dapat menyertakan hyperlink di slide Anda, dan hyperlink tersebut a
 Pada versi terbaru, tidak ada batasan ketat mengenai jumlah bagian yang dapat Anda tambahkan ke presentasi.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides?
 Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan mengunduh[versi percobaan gratis](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

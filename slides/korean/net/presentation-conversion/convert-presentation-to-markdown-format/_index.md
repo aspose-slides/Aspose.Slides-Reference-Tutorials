@@ -3,10 +3,14 @@ title: 프레젠테이션을 마크다운 형식으로 변환
 linktitle: 프레젠테이션을 마크다운 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 Markdown으로 쉽게 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 23
 url: /ko/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 오늘날의 디지털 시대에는 프레젠테이션을 다양한 형식으로 변환하는 필요성이 점점 더 중요해지고 있습니다. 학생이든, 비즈니스 전문가이든, 콘텐츠 제작자이든 PowerPoint 프레젠테이션을 Markdown 형식으로 변환하는 능력은 귀중한 기술이 될 수 있습니다. 마크다운은 텍스트 문서와 웹 콘텐츠의 형식을 지정하는 데 널리 사용되는 경량 마크업 언어입니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션을 Markdown 형식으로 변환하는 과정을 안내합니다.
 
@@ -98,3 +102,10 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 ### Q5: Aspose.Slides for .NET의 임시 라이선스는 어디에서 액세스할 수 있나요?
 
  .NET용 Aspose.Slides에 대한 임시 라이센스를 다음에서 얻을 수 있습니다.[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Υπάρχον γράφημα σε διαφάνειες Java
 linktitle: Υπάρχον γράφημα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας στο PowerPoint με το Aspose.Slides για Java. Μάθετε να τροποποιείτε τα υπάρχοντα γραφήματα μέσω προγραμματισμού. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για προσαρμογή γραφήματος.
-type: docs
 weight: 12
 url: /el/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στο υπάρχον γράφημα σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java
 
@@ -184,3 +188,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### Υπάρχει τρόπος να αφαιρέσετε μια σειρά από το γράφημα;
 
  Ναι, μπορείτε να αφαιρέσετε μια σειρά από το γράφημα χρησιμοποιώντας το`chart.getChartData().getSeries().removeAt(index)` μέθοδος, όπου`index`είναι το ευρετήριο της σειράς που θέλετε να καταργήσετε.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

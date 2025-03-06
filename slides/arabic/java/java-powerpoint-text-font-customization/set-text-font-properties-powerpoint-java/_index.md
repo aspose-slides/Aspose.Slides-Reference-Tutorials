@@ -3,10 +3,14 @@ title: قم بتعيين خصائص خط النص في PowerPoint باستخدا
 linktitle: قم بتعيين خصائص خط النص في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين خصائص خط النص في PowerPoint باستخدام Aspose.Slides لـ Java. دليل سهل خطوة بخطوة لمطوري Java. #تعرف على كيفية التعامل مع خصائص خط نص PowerPoint باستخدام Aspose.Slides لـ Java باستخدام هذا البرنامج التعليمي خطوة بخطوة لمطوري Java.
-type: docs
 weight: 18
 url: /ar/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية استخدام Aspose.Slides لـ Java لتعيين خصائص خطوط النص المتنوعة في عرض PowerPoint التقديمي برمجيًا. سنغطي إعداد نوع الخط والنمط (غامق ومائل) والتسطير والحجم واللون للنص في الشرائح.
 ## المتطلبات الأساسية
@@ -85,3 +89,9 @@ if (presentation != null) {
 نعم، يسمح Aspose.Slides بتصدير العروض التقديمية إلى تنسيقات مختلفة بما في ذلك PDF.
 ### أين يمكنني العثور على مزيد من المساعدة والدعم لـ Aspose.Slides؟
  يزور[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع وتوجيهه.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

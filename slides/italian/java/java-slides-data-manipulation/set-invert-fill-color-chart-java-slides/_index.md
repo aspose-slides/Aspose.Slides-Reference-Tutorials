@@ -3,10 +3,14 @@ title: Imposta Inverti tabella colori di riempimento nelle diapositive Java
 linktitle: Imposta Inverti tabella colori di riempimento nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare i colori di riempimento invertiti per i grafici di diapositive Java utilizzando Aspose.Slides. Migliora le tue visualizzazioni dei grafici con questa guida passo passo e il codice sorgente.
-type: docs
 weight: 22
 url: /it/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'impostazione della tabella dei colori di riempimento invertito nelle diapositive Java
 
@@ -153,3 +157,9 @@ Sì, puoi personalizzare vari aspetti dell'aspetto del grafico, incluse etichett
 ### Posso salvare il grafico in diversi formati?
 
  Sì, puoi salvare il grafico in diversi formati utilizzando Aspose.Slides per Java. Nell'esempio di codice fornito, abbiamo salvato la presentazione come file PPTX. Puoi usarne diversi`SaveFormat` opzioni per salvarlo in altri formati come PDF, PNG o SVG, a seconda delle tue esigenze.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

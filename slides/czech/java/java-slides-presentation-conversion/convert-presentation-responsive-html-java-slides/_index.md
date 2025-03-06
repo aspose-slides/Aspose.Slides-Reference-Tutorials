@@ -3,10 +3,14 @@ title: Převeďte prezentaci na responzivní HTML v Java Slides
 linktitle: Převeďte prezentaci na responzivní HTML v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak snadno převést prezentace na responzivní HTML v Java Slides pomocí Aspose.Slides. Zpřístupněte svůj obsah na jakémkoli zařízení.
-type: docs
 weight: 18
 url: /cs/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do převodu prezentace na responzivní HTML v Java Slides
 
@@ -108,3 +112,9 @@ Absolutně! Aspose.Slides poskytuje výkonné funkce pro dávkové zpracování,
 ### Mohu prezentace převést také do jiných formátů?
 
 Ano, Aspose.Slides podporuje širokou škálu výstupních formátů, včetně PDF, obrázků a dalších. Další možnosti převodu najdete v dokumentaci.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

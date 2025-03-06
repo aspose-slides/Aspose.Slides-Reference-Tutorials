@@ -3,10 +3,14 @@ title: Create Shape Thumbnail in PowerPoint
 linktitle: Create Shape Thumbnail in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to generate shape thumbnails in PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide provided.
-type: docs
 weight: 14
 url: /java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, we'll delve into creating shape thumbnails in PowerPoint presentations using Aspose.Slides for Java. Aspose.Slides is a powerful library that enables developers to work with PowerPoint files programmatically, allowing for the automation of various tasks, including generating shape thumbnails.
 ## Prerequisites
@@ -60,3 +64,10 @@ Yes, Aspose.Slides offers commercial licenses for businesses and organizations. 
 Absolutely! You can download a free trial version of Aspose.Slides from [here](https://releases.aspose.com/) to evaluate its features and capabilities.
 ### Where can I find support for Aspose.Slides?
 If you have any questions or need assistance with Aspose.Slides, you can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for support.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

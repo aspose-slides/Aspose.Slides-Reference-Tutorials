@@ -3,10 +3,14 @@ title: Comparer les diapositives dans la présentation
 linktitle: Comparer les diapositives dans la présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment comparer des diapositives dans des présentations à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour des comparaisons précises.
-type: docs
 weight: 12
 url: /fr/net/chart-creation-and-customization/check-slides-comparison/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la comparaison des diapositives dans une présentation
 
@@ -143,3 +147,9 @@ Vous pouvez exporter des rapports de comparaison vers des formats tels que PDF, 
 ### Existe-t-il des bonnes pratiques pour optimiser les performances de la comparaison des présentations ?
 
 Oui, la mise en œuvre d’algorithmes efficaces et la gestion de l’utilisation de la mémoire sont essentielles pour optimiser les performances de comparaison des présentations.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

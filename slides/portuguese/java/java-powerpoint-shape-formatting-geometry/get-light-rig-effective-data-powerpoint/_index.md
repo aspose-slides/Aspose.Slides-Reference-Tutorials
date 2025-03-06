@@ -3,10 +3,14 @@ title: Obtenha dados eficazes de plataforma leve no PowerPoint
 linktitle: Obtenha dados eficazes de plataforma leve no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como recuperar dados efetivos de equipamentos leves de apresentações em PowerPoint usando Aspose.Slides para Java neste guia passo a passo detalhado.
-type: docs
 weight: 25
 url: /pt/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Você deseja automatizar suas tarefas de apresentação do PowerPoint usando Java? Não procure mais! Aspose.Slides for Java é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter arquivos PowerPoint sem precisar do Microsoft PowerPoint instalado. Neste guia abrangente, orientaremos você nas etapas para obter dados eficazes de equipamento leve de uma apresentação do PowerPoint usando Aspose.Slides para Java. Quer você seja um desenvolvedor Java experiente ou esteja apenas começando, este tutorial o ajudará a aproveitar todo o potencial do Aspose.Slides em seus projetos.
 ## Pré-requisitos
@@ -66,3 +70,9 @@ Sim, você pode usar o Aspose.Slides sem ter o Microsoft PowerPoint instalado.
  A documentação está disponível em[esse link](https://reference.aspose.com/slides/java/).
 ### Como obtenho suporte para Aspose.Slides?
  Você pode obter suporte no fórum de suporte Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

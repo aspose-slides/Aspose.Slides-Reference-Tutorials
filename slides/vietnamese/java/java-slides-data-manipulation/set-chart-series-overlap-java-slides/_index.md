@@ -3,10 +3,14 @@ title: Đặt chồng chéo chuỗi biểu đồ trong các trang trình bày Ja
 linktitle: Đặt chồng chéo chuỗi biểu đồ trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuỗi biểu đồ chính trùng lặp trong Java Slides với Aspose.Slides cho Java. Tìm hiểu từng bước cách tùy chỉnh hình ảnh biểu đồ để có bản trình bày ấn tượng.
-type: docs
 weight: 16
 url: /vi/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Đặt chồng chéo chuỗi biểu đồ trong Java Slides
 
@@ -110,3 +114,9 @@ Tuyệt đối! Aspose.Slides cho Java cung cấp API để tạo bản trình b
 ### Tôi có thể tìm thêm tài nguyên và ví dụ về Aspose.Slides cho Java ở đâu?
 
  Để có tài liệu và ví dụ toàn diện, hãy truy cập trang tham khảo Aspose.Slides for Java:[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/)
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

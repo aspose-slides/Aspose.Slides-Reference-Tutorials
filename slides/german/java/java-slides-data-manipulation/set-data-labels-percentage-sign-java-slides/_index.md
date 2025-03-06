@@ -3,10 +3,14 @@ title: Festlegen des Prozentzeichens für Datenbeschriftungen in Java-Folien
 linktitle: Festlegen des Prozentzeichens für Datenbeschriftungen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Datenbeschriftungen mit Prozentzeichen in PowerPoint-Präsentationen festlegen. Erstellen Sie ansprechende Diagramme mit Schritt-für-Schritt-Anleitung und Quellcode.
-type: docs
 weight: 17
 url: /de/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Festlegen des Prozentzeichens für Datenbeschriftungen in Aspose.Slides für Java
 
@@ -176,3 +180,10 @@ Ja, Sie können die Schriftgröße von Datenbeschriftungen anpassen, indem Sie d
 ### Wie kann ich dem Diagramm weitere Reihen hinzufügen?
 
  Sie können dem Diagramm weitere Reihen hinzufügen, indem Sie das`add` Methode auf der`IChartSeriesCollection` Objekt.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

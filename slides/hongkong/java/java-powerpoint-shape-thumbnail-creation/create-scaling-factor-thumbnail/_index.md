@@ -3,10 +3,14 @@ title: 建立比例因子縮圖
 linktitle: 建立比例因子縮圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 中建立比例因子縮圖。易於遵循的指南，包含逐步說明。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教程中，我們將引導您完成使用 Aspose.Slides for Java 建立縮放因子縮圖的過程。請按照這些逐步說明操作以達到您想要的結果。
 ## 先決條件
@@ -66,3 +70,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
 您可以從以下位置購買 Aspose.Slides for Java[購買頁面](https://purchase.aspose.com/buy).
 ### 使用 Aspose.Slides for Java 是否需要臨時授權？
 是的，您可以從以下機構獲得臨時許可證[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

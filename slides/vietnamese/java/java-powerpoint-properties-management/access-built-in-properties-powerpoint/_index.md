@@ -3,10 +3,14 @@ title: Truy cập các thuộc tính tích hợp trong PowerPoint
 linktitle: Truy cập các thuộc tính tích hợp trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy cập các thuộc tính tích hợp sẵn trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn này hướng dẫn bạn cách truy xuất tác giả, ngày tạo, v.v.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách truy cập các thuộc tính tích hợp sẵn trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các bản trình bày PowerPoint theo chương trình, cho phép thực hiện các tác vụ như đọc và sửa đổi các thuộc tính một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -101,3 +105,9 @@ Có, bên cạnh các thuộc tính tích hợp sẵn, bạn cũng có thể tru
  Có, bạn có thể tìm thấy tài liệu toàn diện và truy cập các diễn đàn hỗ trợ trên[trang web giả định](https://reference.aspose.com/slides/java/).
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

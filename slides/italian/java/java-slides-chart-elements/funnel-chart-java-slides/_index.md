@@ -3,10 +3,14 @@ title: Grafico a imbuto nelle diapositive Java
 linktitle: Grafico a imbuto nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Esplora Aspose.Slides per Java con tutorial passo passo. Crea straordinari grafici a imbuto e altro ancora.
-type: docs
 weight: 14
 url: /it/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione al grafico a imbuto nelle diapositive Java
 
@@ -144,3 +148,9 @@ Sì, puoi aggiungere più categorie e punti dati al grafico a imbuto estendendo 
 ### Dove posso trovare altri esempi e documentazione per Aspose.Slides per Java?
 
  Puoi trovare ulteriori esempi e documentazione dettagliata sull'utilizzo di Aspose.Slides per Java nel file[documentazione](https://docs.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

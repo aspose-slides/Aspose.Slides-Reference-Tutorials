@@ -3,10 +3,14 @@ title: Получить прямоугольные координаты абза
 linktitle: Получить прямоугольные координаты абзаца в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить координаты абзацев в презентациях PowerPoint с помощью Aspose.Slides для Java. Следуйте нашему пошаговому руководству с исходным кодом для точного позиционирования.
-type: docs
 weight: 13
 url: /ru/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в получение прямоугольных координат абзаца в Aspose.Slides для Java
 
@@ -112,3 +116,9 @@ finally
 ### Нужна ли мне лицензия для использования Aspose.Slides для Java?
 
 Да, обычно вам нужна действующая лицензия для использования Aspose.Slides for Java в производственной среде. Вы можете получить лицензию на веб-сайте Aspose. Однако они могут предложить пробную версию для тестирования и оценки.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

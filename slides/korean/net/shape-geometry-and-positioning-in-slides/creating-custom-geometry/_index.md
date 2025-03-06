@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 C#에서 사용자 정의 지오메
 linktitle: Aspose.Slides를 사용하여 기하학 모양에 사용자 정의 기하학 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides에서 사용자 정의 지오메트리를 만드는 방법을 알아보세요. 독특한 모양으로 프레젠테이션을 향상시키세요. C# 개발자를 위한 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 역동적인 프레젠테이션 세계에서 고유한 모양과 기하학적 구조를 추가하면 콘텐츠를 더욱 매력적이고 시각적으로 매력적으로 만들어 줄 수 있습니다. .NET용 Aspose.Slides는 모양 내에서 사용자 정의 기하학을 생성할 수 있는 강력한 솔루션을 제공하므로 기존 디자인에서 벗어날 수 있습니다. 이 튜토리얼은 .NET용 Aspose.Slides를 사용하여 GeometryShape에서 사용자 정의 지오메트리를 생성하는 과정을 안내합니다.
 ## 전제 조건
@@ -94,3 +98,9 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
  도움을 구하고 지역사회에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### 5. .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  .NET용 Aspose.Slides를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

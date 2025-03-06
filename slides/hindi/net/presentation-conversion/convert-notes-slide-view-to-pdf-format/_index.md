@@ -3,10 +3,14 @@ title: नोट्स स्लाइड दृश्य को पीडीए
 linktitle: नोट्स स्लाइड दृश्य को पीडीएफ प्रारूप में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET के साथ PowerPoint में स्पीकर नोट्स को PDF में बदलें। संदर्भ बनाए रखें और लेआउट को आसानी से कस्टमाइज़ करें।
-type: docs
 weight: 15
 url: /hi/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 इस व्यापक गाइड में, हम आपको Aspose.Slides for .NET का उपयोग करके नोट्स स्लाइड व्यू को PDF फ़ॉर्मेट में बदलने की प्रक्रिया से अवगत कराएँगे। आपको इस कार्य को आसानी से पूरा करने के लिए विस्तृत निर्देश और कोड स्निपेट मिलेंगे।
 
@@ -78,3 +82,9 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 आप अतिरिक्त ट्यूटोरियल और उदाहरण देख सकते हैं[.NET API के लिए Aspose.Slides दस्तावेज़](https://reference.aspose.com/slides/net/).
 
 अब जब आपने नोट्स स्लाइड व्यू को सफलतापूर्वक PDF प्रारूप में बदल लिया है, तो आप अपने PowerPoint स्वचालन कार्यों को बढ़ाने के लिए Aspose.Slides for .NET की अधिक सुविधाओं और क्षमताओं का पता लगा सकते हैं। हैप्पी कोडिंग!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

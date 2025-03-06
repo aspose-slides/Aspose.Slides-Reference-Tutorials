@@ -3,10 +3,14 @@ title: Java スライドにカスタム ドキュメント プロパティを追
 linktitle: Java スライドにカスタム ドキュメント プロパティを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java スライドのカスタム ドキュメント プロパティを使用して PowerPoint プレゼンテーションを強化する方法を学びます。Aspose.Slides for Java を使用したコード例を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 13
 url: /ja/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでのカスタム ドキュメント プロパティの追加の概要
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 このコードは、プレゼンテーション内のすべてのカスタム プロパティの名前と値を表示します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

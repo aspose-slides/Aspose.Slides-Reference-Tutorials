@@ -3,10 +3,14 @@ title: Accedi ai commenti delle diapositive utilizzando Aspose.Slides
 linktitle: Accedi ai commenti delle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come accedere ai commenti delle diapositive nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Migliora la collaborazione e il flusso di lavoro senza sforzo.
-type: docs
 weight: 11
 url: /it/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Nel mondo delle presentazioni dinamiche e interattive, la gestione dei commenti all'interno delle diapositive può essere una parte cruciale del processo di collaborazione. Aspose.Slides per .NET fornisce una soluzione robusta e versatile per accedere e manipolare i commenti delle diapositive, migliorando il flusso di lavoro della presentazione. In questa guida passo passo, approfondiremo il processo di accesso ai commenti delle diapositive utilizzando Aspose.Slides per .NET.
 
@@ -112,3 +116,9 @@ Sì, Aspose.Slides per .NET può essere utilizzato in varie applicazioni .NET, i
 
 ### Posso acquistare una licenza per Aspose.Slides per .NET?
  Sì, puoi acquistare una licenza per Aspose.Slides per .NET da[questo link](https://purchase.aspose.com/buy) per sbloccare tutto il potenziale della libreria nei tuoi progetti.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Tambahkan Bilah Kesalahan Khusus ke Bagan
 linktitle: Tambahkan Bilah Kesalahan Khusus ke Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat presentasi menakjubkan dengan Aspose.Slides untuk .NET dengan menambahkan bilah kesalahan khusus ke bagan Anda. Tingkatkan permainan visualisasi data Anda hari ini!
-type: docs
 weight: 13
 url: /id/net/licensing-and-formatting/add-custom-error/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam dunia presentasi yang dinamis, bagan memainkan peran penting dalam menyampaikan data kompleks dengan cara yang dapat dipahami. Aspose.Slides untuk .NET memberdayakan Anda untuk membawa permainan presentasi Anda ke level berikutnya. Dalam panduan langkah demi langkah ini, kami akan mempelajari proses penambahan bilah kesalahan khusus ke bagan Anda menggunakan Aspose.Slides untuk .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru, tutorial ini akan memandu Anda melalui prosesnya dengan lancar.
 
@@ -128,3 +132,9 @@ Jika Anda siap untuk mengesankan audiens Anda dengan presentasi yang memukau, As
 Sekarang, saatnya menggunakan pengetahuan baru Anda dan membuat presentasi menarik yang meninggalkan kesan mendalam.
 
 Ingat, dengan Aspose.Slides untuk .NET, penyesuaian dan inovasi presentasi tidak ada habisnya. Selamat menyajikan!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

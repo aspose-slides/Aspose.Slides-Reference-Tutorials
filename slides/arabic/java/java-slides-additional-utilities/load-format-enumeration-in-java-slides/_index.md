@@ -3,10 +3,14 @@ title: تحميل تعداد التنسيق في شرائح جافا
 linktitle: تحميل تعداد التنسيق في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التحقق من تنسيق عروض PowerPoint التقديمية في Java باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر لاكتشاف التنسيق بشكل فعال.
-type: docs
 weight: 14
 url: /ar/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحميل تنسيق العرض التقديمي في شرائح جافا
 
@@ -68,3 +72,10 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### هل Aspose.Slides for Java مناسب للمشاريع التجارية؟
 
 نعم، Aspose.Slides for Java مناسب للمشاريع التجارية. فهو يوفر مجموعة قوية من الميزات للعمل مع عروض PowerPoint التقديمية في تطبيقات Java ويستخدم على نطاق واسع في كل من البيئات التجارية وبيئات المؤسسات.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

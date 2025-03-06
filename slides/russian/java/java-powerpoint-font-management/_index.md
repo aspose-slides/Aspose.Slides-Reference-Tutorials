@@ -3,10 +3,14 @@ title: Управление шрифтами Java PowerPoint
 linktitle: Управление шрифтами Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Ознакомьтесь с учебными пособиями по управлению шрифтами Java PowerPoint с помощью Aspose.Slides для Java. Изучите методы встраивания, сжатия и настройки для улучшения презентаций.
-type: docs
 weight: 21
 url: /ru/java/java-powerpoint-font-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 
 Раскройте потенциал своих презентаций PowerPoint с помощью наших руководств по управлению шрифтами Java PowerPoint с помощью Aspose.Slides для Java. Наши подробные руководства помогут вам освоить настройку шрифтов и сделать ваши презентации заметными.
@@ -72,3 +76,9 @@ url: /ru/java/java-powerpoint-font-management/
 Научитесь форматировать текстовые фреймы в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Улучшите визуальную привлекательность ваших слайдов без особых усилий.
 ### [Данные эффективного стиля текста в Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Освойте управление стилем текста в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Динамическая настройка форматирования для создания эффективного контента.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

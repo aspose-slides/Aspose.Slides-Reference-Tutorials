@@ -3,10 +3,14 @@ title: الخطوط الافتراضية في PowerPoint مع Aspose.Slides لـ
 linktitle: الخطوط الافتراضية في PowerPoint مع Aspose.Slides لـ Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين الخطوط الافتراضية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. ضمان الاتساق وتعزيز الجاذبية البصرية دون عناء.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء عروض PowerPoint التقديمية باستخدام خطوط مخصصة مطلبًا شائعًا في العديد من المشاريع. يوفر Aspose.Slides for Java حلاً سلسًا لإدارة الخطوط الافتراضية، مما يضمن الاتساق عبر البيئات المختلفة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تعيين الخطوط الافتراضية في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -71,3 +75,9 @@ try {
  نعم، يمكنك استكشاف Aspose.Slides for Java من خلال النسخة التجريبية المجانية المتاحة على[Releases.aspose.com](https://releases.aspose.com/).
 ### أين يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides for Java من[صفحة الشراء](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

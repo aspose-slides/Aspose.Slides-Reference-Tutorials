@@ -3,10 +3,14 @@ title: Aplikujte vnější stín v PowerPointu s Javou
 linktitle: Aplikujte vnější stín v PowerPointu s Javou
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak aplikovat efekt vnějšího stínu v PowerPointu pomocí Java s Aspose.Slides. Vylepšete své prezentace hloubkou a vizuální přitažlivostí.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Vytváření vizuálně atraktivních prezentací PowerPoint často zahrnuje přidávání různých efektů do tvarů a textu. Jedním z takových efektů je vnější stín, který může nechat prvky vyniknout a přidat hloubku snímkům. V tomto tutoriálu se naučíte, jak aplikovat efekt vnějšího stínu na tvar v PowerPointu pomocí Java s Aspose.Slides.
 ## Předpoklady
@@ -121,3 +125,9 @@ Ano, efekty můžete aplikovat nejen na tvary, ale také na jednotlivé textové
 
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
  Můžete odkazovat na[dokumentace](https://reference.aspose.com/slides/java/) pro podrobné reference API a prozkoumejte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

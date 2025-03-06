@@ -3,10 +3,14 @@ title: जावा का उपयोग करके पावरपॉइं
 linktitle: जावा का उपयोग करके पावरपॉइंट में स्मार्टआर्ट आकृति बनाएं
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java का उपयोग करके गतिशील PowerPoint प्रस्तुतियाँ बनाएँ। बेहतर दृश्यों के लिए प्रोग्रामेटिक रूप से SmartArt आकृतियाँ जोड़ना सीखें।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 जावा प्रोग्रामिंग के क्षेत्र में, आकर्षक प्रस्तुतिकरण बनाना एक सामान्य आवश्यकता है। चाहे वह व्यावसायिक पिचों, अकादमिक प्रस्तुतियों या केवल जानकारी साझा करने के लिए हो, प्रोग्रामेटिक रूप से गतिशील पावरपॉइंट स्लाइड बनाने की क्षमता एक गेम-चेंजर हो सकती है। जावा के लिए Aspose.Slides इस प्रक्रिया को सुविधाजनक बनाने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है, जो प्रस्तुतियों को आसानी और दक्षता के साथ हेरफेर करने के लिए सुविधाओं का एक व्यापक सेट प्रदान करता है।
 ## आवश्यक शर्तें
@@ -63,3 +67,9 @@ pres.save(dataDir + "SimpleSmartArt_out.pptx", SaveFormat.Pptx);
 ### क्या मैं खरीदारी करने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
  ज़रूर! आप एक निःशुल्क परीक्षण डाउनलोड करके Aspose.Slides for Java की क्षमताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
 Aspose.Slides के साथ Java का उपयोग करके गतिशील PowerPoint प्रस्तुतियाँ बनाएँ। बेहतर दृश्यों के लिए प्रोग्रामेटिक रूप से SmartArt आकृतियाँ जोड़ना सीखें।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

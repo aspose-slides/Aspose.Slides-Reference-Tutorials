@@ -3,10 +3,14 @@ title: Agregar desplazamiento de estiramiento para relleno de imágenes en prese
 linktitle: Agregar desplazamiento de estiramiento para relleno de imágenes en diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar las presentaciones de PowerPoint con Aspose.Slides para .NET. Siga una guía paso a paso para agregar un desplazamiento de estiramiento para el relleno de la imagen.
-type: docs
 weight: 18
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el dinámico mundo de las presentaciones, los elementos visuales desempeñan un papel fundamental a la hora de captar la atención de la audiencia. Aspose.Slides para .NET permite a los desarrolladores mejorar sus presentaciones de PowerPoint proporcionando un sólido conjunto de funciones. Una de esas características es la capacidad de agregar un desplazamiento de estiramiento para el relleno de la imagen, lo que permite diapositivas creativas y visualmente atractivas.
 ## Requisitos previos
@@ -71,3 +75,9 @@ Sí, Aspose.Slides para .NET es adecuado tanto para aplicaciones web como de esc
  Referirse a[documentación](https://reference.aspose.com/slides/net/) para obtener información detallada.
 ### ¿Puedo comprar Aspose.Slides para .NET?
  Sí, puedes comprar el producto.[aquí](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

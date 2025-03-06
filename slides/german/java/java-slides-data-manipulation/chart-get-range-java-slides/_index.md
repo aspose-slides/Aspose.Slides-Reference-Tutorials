@@ -3,10 +3,14 @@ title: Diagramm Bereich in Java abrufen – Folien
 linktitle: Diagramm Bereich in Java abrufen – Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Diagrammbereiche in Java Slides mithilfe der Aspose.Slides für die Java-API abrufen. Schritt-für-Schritt-Anleitung mit Quellcode für effektiven Diagrammdatenzugriff.
-type: docs
 weight: 16
 url: /de/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in Chart Get Range in Java-Folien
 
@@ -98,3 +102,10 @@ Ja, Sie können das Erscheinungsbild von Diagrammen anpassen, z. B. Farben, Schr
 ### Wo finde ich weitere Ressourcen und Dokumentation für Aspose.Slides für Java?
 
  Ausführliche Dokumentation und Ressourcen zu Aspose.Slides für Java finden Sie auf der Website:[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

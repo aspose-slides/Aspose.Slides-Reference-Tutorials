@@ -3,10 +3,14 @@ title: Java Slaytlarında Bireysel Slaydı Dönüştürme
 linktitle: Java Slaytlarında Bireysel Slaydı Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak ayrı ayrı PowerPoint slaytlarını adım adım kod örnekleriyle HTML'ye nasıl dönüştüreceğinizi öğrenin.
-type: docs
 weight: 12
 url: /tr/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Bireysel Slaytları Dönüştürmeye Giriş
 
@@ -170,3 +174,9 @@ Aspose.Slides for Java'yı kullanarak tek tek slaytları PowerPoint sunumundan H
 ### Slaytlardaki şekiller ve metinler için ek biçimlendirmeyi nasıl hallederim?
 
  Uzatabilirsiniz`CustomFormattingController` sınıfını uygulayarak şekle özgü biçimlendirmeyi işlemek için`writeShapeStart` Ve`writeShapeEnd` yöntemler ve bunların içinde özel biçimlendirme mantığının uygulanması.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

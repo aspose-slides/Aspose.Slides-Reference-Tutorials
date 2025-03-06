@@ -3,10 +3,14 @@ title: 진행률 업데이트를 통해 프레젠테이션을 PDF로 변환
 linktitle: 진행률 업데이트를 통해 프레젠테이션을 PDF로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 진행률 업데이트를 통해 프레젠테이션을 PDF로 변환하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 29
 url: /ko/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 오늘날 디지털 시대에 프레젠테이션을 PDF로 변환하는 것은 특히 비즈니스 및 교육 부문에서 일반적인 요구 사항입니다. .NET용 Aspose.Slides는 이 작업을 쉽게 수행할 수 있는 강력한 솔루션을 제공합니다. 이 단계별 튜토리얼에서는 변환 진행 상황을 추적하면서 프레젠테이션을 PDF로 변환하는 과정을 안내합니다.
 
@@ -85,3 +89,9 @@ A: 코드 내에서 오류 처리 메커니즘을 구현하여 모든 변환 오
 
 ### Q: .NET용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  A: 다음에서 지원 및 커뮤니티 토론을 찾을 수 있습니다.[https://forum.aspose.com/](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

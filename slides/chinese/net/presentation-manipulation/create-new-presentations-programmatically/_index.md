@@ -3,10 +3,14 @@ title: 通过编程创建新的演示文稿
 linktitle: 通过编程创建新的演示文稿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 以编程方式创建演示文稿。带有源代码的分步指南，可实现高效自动化。
-type: docs
 weight: 10
 url: /zh/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 如果您希望在 .NET 中以编程方式创建演示文稿，Aspose.Slides for .NET 是一款功能强大的工具，可帮助您高效完成此任务。本分步教程将指导您使用提供的源代码完成创建新演示文稿的过程。
 
@@ -87,3 +91,9 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### 我可以在购买之前试用 Aspose.Slides for .NET 吗？
    是的，您可以下载 Aspose.Slides for .NET 的免费试用版[这里](https://releases.aspose.com/)。试用版有限制，因此请务必检查它是否满足您的要求。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

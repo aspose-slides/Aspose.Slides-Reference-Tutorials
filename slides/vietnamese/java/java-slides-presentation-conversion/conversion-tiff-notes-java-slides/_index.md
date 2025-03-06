@@ -3,10 +3,14 @@ title: Chuyển đổi sang TIFF bằng Ghi chú trong Java Slides
 linktitle: Chuyển đổi sang TIFF bằng Ghi chú trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi Java Slides sang định dạng TIFF với các ghi chú được nhúng bằng Aspose.Slides cho Java. Hướng dẫn từng bước và mã nguồn được bao gồm.
-type: docs
 weight: 10
 url: /vi/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chuyển đổi sang TIFF với Ghi chú trong Java Slides
 
@@ -88,3 +92,9 @@ Có, Aspose.Slides for Java yêu cầu giấy phép hợp lệ để sử dụng
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể khám phá các ví dụ về tài liệu và mã toàn diện trên trang Tham khảo API Aspose.Slides cho Java[đây](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

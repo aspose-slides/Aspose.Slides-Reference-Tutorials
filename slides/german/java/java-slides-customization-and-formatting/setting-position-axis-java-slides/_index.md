@@ -3,10 +3,14 @@ title: Festlegen der Positionsachse in Java-Folien
 linktitle: Festlegen der Positionsachse in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Diagramme mit Aspose.Slides für Java. Erfahren Sie, wie Sie die Positionsachse in Java-Folien festlegen, beeindruckende Präsentationen erstellen und Diagrammlayouts mühelos anpassen.
-type: docs
 weight: 16
 url: /de/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Einstellen der Positionsachse in Aspose.Slides für Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Das war's für dieses Tutorial. Sie haben gelernt, wie Sie die Positionsachse in einem Diagramm mit Aspose.Slides für Java festlegen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

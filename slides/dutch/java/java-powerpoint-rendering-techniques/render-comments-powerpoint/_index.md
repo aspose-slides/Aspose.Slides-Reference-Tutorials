@@ -3,10 +3,14 @@ title: Geef opmerkingen weer in PowerPoint
 linktitle: Geef opmerkingen weer in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u opmerkingen in PowerPoint-presentaties kunt weergeven met Aspose.Slides voor Java. Pas het uiterlijk aan en genereer efficiënt afbeeldingsvoorbeelden.
-type: docs
 weight: 10
 url: /nl/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het weergeven van opmerkingen in PowerPoint-presentaties met Aspose.Slides voor Java. Het weergeven van opmerkingen kan voor verschillende doeleinden nuttig zijn, zoals het genereren van voorbeeldafbeeldingen van presentaties waarin opmerkingen zijn opgenomen.
 ## Vereisten
@@ -72,3 +76,9 @@ Ja, naast PNG kunt u commentaar geven op andere afbeeldingsformaten die worden o
 Ja, met Aspose.Slides kunt u opmerkingen bij afbeeldingen weergeven zonder de PowerPoint-toepassing te openen.
 ### Is er een manier om opmerkingen rechtstreeks in een PDF-document weer te geven?
 Ja, Aspose.Slides biedt functionaliteit om opmerkingen rechtstreeks in PDF-documenten weer te geven, waardoor een naadloze integratie in uw documentworkflow mogelijk is.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

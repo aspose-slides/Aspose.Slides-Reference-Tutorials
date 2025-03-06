@@ -3,10 +3,14 @@ title: PowerPoint Zaman Çizelgesinden Sesi Çıkarın
 linktitle: Zaman Çizelgesinden Sesi Çıkar
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarından nasıl ses çıkaracağınızı öğrenin. Multimedya içeriğinizi kolaylıkla geliştirin.
-type: docs
 weight: 13
 url: /tr/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Multimedya sunumları dünyasında ses, mesajınızı etkili bir şekilde iletmek için güçlü bir araç olabilir. Aspose.Slides for .NET, PowerPoint sunumlarından ses çıkarmak için kusursuz bir çözüm sunar. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir PowerPoint sunumundan nasıl ses çıkaracağınızı göstereceğiz.
 
@@ -110,3 +114,9 @@ Evet, Aspose.Slides, PowerPoint sunumundan çıkarıldıktan sonra ses işleme v
 ### 5. Aspose.Slides for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
  Aspose.Slides for .NET için ayrıntılı belgeler ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

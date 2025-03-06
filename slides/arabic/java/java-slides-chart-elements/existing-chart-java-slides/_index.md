@@ -3,10 +3,14 @@ title: الرسم البياني الموجود في شرائح جافا
 linktitle: الرسم البياني الموجود في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية الخاصة بك باستخدام Aspose.Slides لـ Java. تعلم كيفية تعديل المخططات الموجودة برمجياً. دليل خطوة بخطوة مع الكود المصدري لتخصيص المخطط.
-type: docs
 weight: 12
 url: /ar/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى المخطط الموجود في شرائح Java باستخدام Aspose.Slides لـ Java
 
@@ -184,3 +188,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### هل هناك طريقة لإزالة سلسلة من الرسم البياني؟
 
  نعم، يمكنك إزالة سلسلة من المخطط باستخدام`chart.getChartData().getSeries().removeAt(index)` الطريقة، حيث`index`هو فهرس السلسلة التي تريد إزالتها.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

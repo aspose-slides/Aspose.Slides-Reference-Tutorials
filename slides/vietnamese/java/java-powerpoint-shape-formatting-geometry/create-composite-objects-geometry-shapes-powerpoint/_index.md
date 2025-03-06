@@ -3,10 +3,14 @@ title: Tạo các đối tượng tổng hợp theo hình dạng hình học
 linktitle: Tạo các đối tượng tổng hợp theo hình dạng hình học
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo các đối tượng tổng hợp trong các hình dạng hình học bằng Aspose.Slides cho Java với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển Java.
-type: docs
 weight: 20
 url: /vi/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Này! Bạn đã bao giờ muốn tạo các hình dạng đẹp mắt và phức tạp trong bản trình bày PowerPoint của mình bằng Java chưa? Vâng, bạn đang ở đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thư viện Aspose.Slides for Java mạnh mẽ để tạo các đối tượng tổng hợp ở dạng hình học. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn đạt được kết quả ấn tượng ngay lập tức. Sẵn sàng để bắt đầu? Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -95,3 +99,9 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ để tạo, thao tác 
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ ở đâu?
  Kiểm tra[tài liệu](https://reference.aspose.com/slides/java/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

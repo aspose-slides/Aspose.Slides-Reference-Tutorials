@@ -3,10 +3,14 @@ title: Sửa đổi thuộc tính tích hợp trong PowerPoint
 linktitle: Sửa đổi thuộc tính tích hợp trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách sửa đổi các thuộc tính tích hợp trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn theo chương trình.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Aspose.Slides dành cho Java trao quyền cho các nhà phát triển thao tác các bản trình bày PowerPoint theo chương trình. Một tính năng thiết yếu là sửa đổi các thuộc tính tích hợp, chẳng hạn như tác giả, tiêu đề, chủ đề, nhận xét và người quản lý. Hướng dẫn này hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -65,3 +69,9 @@ Tuyệt đối! Bạn có thể tạo tập lệnh hoặc ứng dụng để t�
 Mặc dù Aspose.Slides cung cấp chức năng mở rộng nhưng một số tính năng nâng cao có thể có những hạn chế tùy thuộc vào định dạng và phiên bản PowerPoint.
 ### Aspose.Slides có hỗ trợ kỹ thuật không?
  Có, bạn có thể tìm kiếm sự trợ giúp và tham gia thảo luận về[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

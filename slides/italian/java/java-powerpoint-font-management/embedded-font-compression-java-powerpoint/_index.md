@@ -3,10 +3,14 @@ title: Compressione dei caratteri incorporata in Java PowerPoint
 linktitle: Compressione dei caratteri incorporata in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come comprimere i caratteri incorporati nelle presentazioni Java PowerPoint utilizzando Aspose.Slides. Ottimizza le dimensioni dei file senza sforzo.
-type: docs
 weight: 12
 url: /it/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nel panorama dinamico delle presentazioni digitali, la capacità di ottimizzare le dimensioni dei file senza compromettere la qualità è fondamentale. Aspose.Slides per Java offre una potente soluzione per migliorare l'efficienza delle presentazioni PowerPoint consentendo la compressione dei caratteri incorporati. Questo tutorial ti guiderà attraverso il processo di sfruttamento di questa funzionalità per ridurre le dimensioni dei file in modo efficace, garantendo una distribuzione più fluida e prestazioni migliorate delle tue presentazioni.
 ## Prerequisiti
@@ -64,3 +68,9 @@ Sì, Aspose.Slides offre funzionalità di crittografia e protezione tramite pass
  Certamente! Puoi chiedere supporto alla community Aspose.Slides attraverso l'apposita sezione[Forum](https://forum.aspose.com/c/slides/11) oppure prendere in considerazione l'acquisizione di una licenza temporanea per l'assistenza prioritaria.
 ### Come posso acquistare una versione con licenza di Aspose.Slides per Java?
 È possibile acquistare una versione con licenza di Aspose.Slides per Java dal sito Web utilizzando il file fornito[Link per l'acquisto](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

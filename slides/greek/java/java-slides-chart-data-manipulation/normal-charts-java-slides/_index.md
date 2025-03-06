@@ -3,10 +3,14 @@ title: Κανονικά γραφήματα σε διαφάνειες Java
 linktitle: Κανονικά γραφήματα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε κανονικά γραφήματα σε διαφάνειες Java με το Aspose.Slides για Java. Οδηγός βήμα προς βήμα και πηγαίος κώδικας για τη δημιουργία, την προσαρμογή και την αποθήκευση γραφημάτων σε παρουσιάσεις PowerPoint.
-type: docs
 weight: 21
 url: /el/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στα κανονικά γραφήματα σε διαφάνειες Java
 
@@ -240,3 +244,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### Πώς μπορώ να αποθηκεύσω το γράφημα σε διαφορετική μορφή αρχείου;
 
  Για να αποθηκεύσετε το γράφημα σε διαφορετική μορφή αρχείου, αλλάξτε το`SaveFormat` παράμετρος στο`pres.save()` μέθοδο στην επιθυμητή μορφή (π.χ. PDF, PNG, JPEG).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

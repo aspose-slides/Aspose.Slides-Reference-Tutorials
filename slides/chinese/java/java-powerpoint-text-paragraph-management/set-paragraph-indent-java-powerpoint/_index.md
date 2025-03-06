@@ -3,10 +3,14 @@ title: 在 Java PowerPoint 中设置段落缩进
 linktitle: 在 Java PowerPoint 中设置段落缩进
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 以编程方式设置 PowerPoint 幻灯片中的段落缩进。轻松增强您的演示文稿格式。
-type: docs
 weight: 16
 url: /zh/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides for Java 以编程方式操作 PowerPoint 演示文稿。具体来说，我们将重点介绍如何在幻灯片中设置段落缩进。Aspose.Slides for Java 提供了一组强大的 API，允许开发人员创建、修改、转换和管理 PowerPoint 演示文稿，而无需依赖 Microsoft Office Automation。
 ## 先决条件
@@ -85,3 +89,9 @@ Aspose.Slides for Java 是一个功能强大的库，可以以编程方式处理
 是的，你可以从[这里](https://releases.aspose.com/).
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 您可以从社区论坛获得支持[这里](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

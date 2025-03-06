@@ -3,10 +3,14 @@ title: Toegang tot het onderliggende knooppunt op een specifieke positie in Smar
 linktitle: Toegang tot het onderliggende knooppunt op een specifieke positie in SmartArt
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer SmartArt in Aspose.Slides voor Java manipuleren met deze gedetailleerde handleiding. Inclusief stapsgewijze instructies, voorbeelden en best practices.
-type: docs
 weight: 11
 url: /nl/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Wilt u uw presentaties naar een hoger niveau tillen met geavanceerde SmartArt-afbeeldingen? Zoek niet verder! Aspose.Slides voor Java biedt een krachtig pakket voor het maken, manipuleren en beheren van presentatiedia's, inclusief de mogelijkheid om met SmartArt-objecten te werken. In deze uitgebreide zelfstudie begeleiden we u bij het openen en manipuleren van een onderliggend knooppunt op een specifieke positie binnen een SmartArt-afbeelding, met behulp van de Aspose.Slides voor Java-bibliotheek.
 
@@ -98,3 +102,9 @@ Gefeliciteerd! U hebt met succes een onderliggend knooppunt binnen een SmartArt-
  U kunt ondersteuning krijgen van de[Aspose-communityforum](https://forum.aspose.com/c/slides/11) of raadpleeg het uitgebreide[documentatie](https://reference.aspose.com/slides/java/).
 ### Kan ik een volledige licentie kopen voor Aspose.Slides voor Java?
  Ja, u kunt een volledige licentie aanschaffen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

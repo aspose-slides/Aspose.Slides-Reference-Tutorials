@@ -3,10 +3,14 @@ title: Creating Thumbnail with Scaling Factor for Shape in Aspose.Slides
 linktitle: Creating Thumbnail with Scaling Factor for Shape in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to create PowerPoint thumbnail images with specific bounds using Aspose.Slides for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 12
 url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Welcome to our comprehensive guide on creating thumbnails with bounds for shapes in Aspose.Slides for .NET. Aspose.Slides is a powerful library that enables developers to work seamlessly with PowerPoint presentations in their .NET applications. In this tutorial, we'll delve into the process of generating thumbnails with specific bounds for shapes within a presentation using Aspose.Slides.
 ## Prerequisites
@@ -55,3 +59,10 @@ You can acquire a temporary license for Aspose.Slides by visiting [this link](ht
 For any queries or assistance, feel free to visit the Aspose.Slides support forum [here](https://forum.aspose.com/c/slides/11).
 ### Q5: Can I purchase Aspose.Slides for .NET?
 Certainly! To purchase Aspose.Slides for .NET, please visit the purchase page [here](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

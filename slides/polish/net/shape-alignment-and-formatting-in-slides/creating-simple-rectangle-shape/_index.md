@@ -3,10 +3,14 @@ title: Tworzenie kształtów prostokątnych za pomocą Aspose.Slides dla platfor
 linktitle: Tworzenie prostego kształtu prostokąta na slajdach prezentacji przy użyciu Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Poznaj świat dynamicznych prezentacji PowerPoint dzięki Aspose.Slides dla .NET. Dzięki temu przewodnikowi krok po kroku dowiesz się, jak tworzyć atrakcyjne prostokątne kształty na slajdach.
-type: docs
 weight: 12
 url: /pl/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Jeśli chcesz ulepszyć swoje aplikacje .NET za pomocą dynamicznych i atrakcyjnych wizualnie prezentacji PowerPoint, Aspose.Slides dla .NET jest rozwiązaniem dla Ciebie. W tym samouczku przeprowadzimy Cię przez proces tworzenia prostego kształtu prostokąta na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -61,3 +65,9 @@ Tak, Aspose.Slides dla .NET jest niezależny od platformy i może być używany 
  Tak, możesz kupić licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla .NET?
  Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

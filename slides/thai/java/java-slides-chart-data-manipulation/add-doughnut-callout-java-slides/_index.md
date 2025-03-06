@@ -3,10 +3,14 @@ title: เพิ่มคำบรรยายภาพโดนัทใน Jav
 linktitle: เพิ่มคำบรรยายภาพโดนัทใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มคำบรรยายภาพโดนัทใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการนำเสนอที่ได้รับการปรับปรุง
-type: docs
 weight: 12
 url: /th/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการเพิ่มคำบรรยายภาพโดนัทใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
 
@@ -180,3 +184,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### ฉันจะปรับตำแหน่งและขนาดของแผนภูมิโดนัทบนสไลด์ได้อย่างไร
 
  คุณสามารถเปลี่ยนตำแหน่งและขนาดของแผนภูมิโดนัทได้โดยการแก้ไขพารามิเตอร์ใน`addChart` วิธี. ตัวเลขสี่ตัวในวิธีนั้นสอดคล้องกับพิกัด X และ Y ของมุมซ้ายบนของแผนภูมิ รวมถึงความกว้างและความสูง ตามลำดับ
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint szövegkiemelési és tartalékszabályok
 linktitle: Java PowerPoint szövegkiemelési és tartalékszabályok
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Sajátítsa el a szövegkiemelést és a betűkészlet-visszaállítási szabályokat a Java PowerPointban az Aspose.Slides segítségével. Kövesse oktatóanyagainkat, hogy zökkenőmentesen javítsa és automatizálja prezentációit.
-type: docs
 weight: 25
 url: /hu/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés
 
@@ -26,3 +30,9 @@ Ha követi ezeket az oktatóanyagokat, akkor jól felkészült lesz arra, hogy a
 Ismerje meg, hogyan lehet szöveget kiemelni a PowerPointban az Aspose.Slides for Java segítségével. Részletes útmutatónkkal könnyedén automatizálhatja és javíthatja a prezentációkat.
 ### [Tartalékszabályok gyűjteménye a Java PowerPointban](./fallback-rules-collection-java-powerpoint/)
 Ismerje meg, hogyan kezelheti a tartalék betűtípus-szabályokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozatmentesen fokozza a kompatibilitást az eszközök között.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

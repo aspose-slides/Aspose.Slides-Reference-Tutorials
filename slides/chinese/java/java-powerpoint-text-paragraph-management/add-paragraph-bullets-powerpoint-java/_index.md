@@ -3,10 +3,14 @@ title: 使用 Java 在 PowerPoint 中添加段落项目符号
 linktitle: 使用 Java 在 PowerPoint 中添加段落项目符号
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 幻灯片中添加段落项目符号。本教程将通过代码示例逐步指导您完成操作。
-type: docs
 weight: 15
 url: /zh/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 添加段落项目符号可增强 PowerPoint 演示文稿的可读性和结构。Aspose.Slides for Java 提供了强大的工具来以编程方式操作演示文稿，包括使用各种项目符号样式格式化文本的功能。在本教程中，您将学习如何利用 Aspose.Slides 使用 Java 代码将项目符号集成到 PowerPoint 幻灯片中。
 ## 先决条件
@@ -89,3 +93,9 @@ if (pres != null) {
 是的，Aspose.Slides 支持 Java 11 及更高版本。
 ### 在哪里可以找到更多示例和文档？
 访问[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)以获得全面的指南和示例。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: PowerPoint で書式設定された楕円を作成する
 linktitle: PowerPoint で書式設定された楕円を作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: 詳細なステップバイステップ ガイドを使用して、Aspose.Slides for Java を使用して PowerPoint で書式設定された楕円を作成する方法を学習します。
-type: docs
 weight: 17
 url: /ja/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Aspose.Slides for Java を使用して PowerPoint でフォーマットされた楕円を作成するための包括的なチュートリアルへようこそ。Aspose.Slides は、開発者がプログラムで PowerPoint ファイルを操作できるようにする強力なライブラリです。スライド生成を自動化する場合でも、カスタム シェイプを使用してプレゼンテーションを強化する場合でも、このガイドではすべての手順を順を追って説明し、完璧にフォーマットされた楕円をスライドに簡単に追加できるようにします。早速、これを実現する方法を見てみましょう。
 ## 前提条件
@@ -95,3 +99,9 @@ Aspose.Slides for Java は、開発者がプログラムによって PowerPoint 
 詳細なドキュメントはAspose.Slides for Javaでご覧いただけます。[ドキュメントページ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides のサポートはありますか?
 はい、Asposeはサポートを提供しています。[フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

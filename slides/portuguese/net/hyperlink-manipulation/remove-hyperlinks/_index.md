@@ -3,10 +3,14 @@ title: Como remover hiperlinks de slides com Aspose.Slides .NET
 linktitle: Remover hiperlinks do slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como remover hiperlinks de slides do PowerPoint usando Aspose.Slides for .NET. Crie apresentações limpas e profissionais.
-type: docs
 weight: 11
 url: /pt/net/hyperlink-manipulation/remove-hyperlinks/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 No mundo das apresentações profissionais, é essencial garantir que seus slides estejam limpos e organizados. Um elemento comum que muitas vezes atrapalha os slides são os hiperlinks. Esteja você lidando com hiperlinks para sites, documentos ou outros slides da sua apresentação, convém removê-los para obter uma aparência mais limpa e focada. Com Aspose.Slides for .NET, você pode realizar essa tarefa facilmente. Neste guia passo a passo, orientaremos você no processo de remoção de hiperlinks de slides usando Aspose.Slides for .NET.
 
@@ -84,3 +88,9 @@ Sim, Aspose.Slides for .NET oferece uma ampla gama de recursos, incluindo criaç
 
 ### O suporte técnico está disponível para Aspose.Slides for .NET?
  Sim, você pode procurar suporte técnico e interagir com a comunidade Aspose no site.[Aspor fórum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Встраивайте шрифты в HTML с помощью Aspose.Slid
 linktitle: Встраивайте шрифты в HTML с помощью Aspose.Slides для Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как встраивать шрифты в HTML с помощью Aspose.Slides для Java, чтобы обеспечить единообразие типографики на разных платформах и устройствах.
-type: docs
 weight: 13
 url: /ru/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Aspose.Slides for Java — мощный инструмент для разработчиков Java, желающих программно управлять презентациями PowerPoint. В этом уроке мы углубимся в процесс встраивания шрифтов в HTML с помощью Aspose.Slides для Java. Встраивая шрифты, вы гарантируете, что ваши презентации сохранят свой предполагаемый вид на разных платформах и устройствах, даже если необходимые шрифты не установлены локально.
 ## Предварительные условия
@@ -58,3 +62,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  Вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества или свяжитесь со службой поддержки Aspose для получения профессиональной помощи.
 ### Могу ли я приобрести временную лицензию на Aspose.Slides для Java?
 Да, вы можете приобрести временную лицензию у[страница покупки](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

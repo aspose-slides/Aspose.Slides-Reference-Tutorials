@@ -3,10 +3,14 @@ title: تنسيق خطوط العرض التقديمي باستخدام البر
 linktitle: تنسيق الخطوط في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين شرائح العرض التقديمي الخاص بك باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة لتنسيق الخطوط بسهولة. قم بتنزيل النسخة التجريبية المجانية الآن!
-type: docs
 weight: 10
 url: /ar/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء شرائح عرض تقديمي جذابة بصريًا أمرًا ضروريًا للتواصل الفعال. يوفر Aspose.Slides for .NET حلاً قويًا لمعالجة عناصر العرض التقديمي وتنسيقها برمجيًا. في هذا البرنامج التعليمي، سوف نركز على تنسيق الخطوط في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
  يمكنك الحصول على ترخيص مؤقت من[Aspose.Slides الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
 ### س5: أين يمكنني شراء Aspose.Slides لـ .NET؟
  يمكنك شراء المنتج من[Aspose.Slides الشراء](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

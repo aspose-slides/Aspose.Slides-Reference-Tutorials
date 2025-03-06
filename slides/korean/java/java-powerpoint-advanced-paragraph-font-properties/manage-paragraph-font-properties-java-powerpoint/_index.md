@@ -3,10 +3,14 @@ title: Java PowerPoint에서 단락 글꼴 속성 관리
 linktitle: Java PowerPoint에서 단락 글꼴 속성 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 따라하기 쉬운 단계별 가이드를 통해 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 단락 글꼴 속성을 관리하고 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만드는 것은 효과적인 의사소통에 매우 중요합니다. 사업 제안서를 준비하든 학교 프로젝트를 준비하든 올바른 글꼴 속성을 사용하면 슬라이드를 더욱 매력적으로 만들 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 단락 글꼴 속성을 관리하는 방법을 안내합니다. 다이빙할 준비가 되셨나요? 시작하자!
 ## 전제 조건
@@ -113,3 +117,9 @@ if (presentation != null) presentation.dispose();
 예, Java용 Aspose.Slides는 텍스트에 대한 그라데이션 채우기를 지원합니다.
 ### 변경 사항을 취소하고 싶으면 어떻게 하나요?
 변경하기 전에 원본 프레젠테이션을 다시 로드하거나 백업을 보관하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

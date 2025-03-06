@@ -3,10 +3,14 @@ title: PowerPoint で概要ズームを作成する
 linktitle: PowerPoint で概要ズームを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この包括的なステップバイステップのチュートリアルで、Aspose.Slides for Java を使用して PowerPoint でサマリー ズームを作成する方法を学習します。
-type: docs
 weight: 16
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Aspose.Slides for Java を使用して PowerPoint でサマリー ズームを作成するための包括的なチュートリアルへようこそ。プレゼンテーションに動的でインタラクティブな要素を追加したい場合、サマリー ズームは素晴らしい機能です。この機能を使用すると、プレゼンテーションのさまざまなセクションにズームできる単一のスライドを作成でき、視聴者にとってより魅力的で操作しやすいエクスペリエンスを提供できます。
 このステップバイステップ ガイドでは、開発環境の設定からサマリー ズーム フレームの作成とカスタマイズまで、プロセス全体を順を追って説明します。経験豊富な Java 開発者でも、初心者でも、このガイドはわかりやすく、貴重な情報が満載です。
@@ -107,3 +111,9 @@ Aspose.Slides for Java は、開発者が Java を使用してプログラム的
 臨時免許証は、[Aspose 購入ページ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java のその他の例やサポートはどこで見つかりますか?
 より多くの例やサポートについては、[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

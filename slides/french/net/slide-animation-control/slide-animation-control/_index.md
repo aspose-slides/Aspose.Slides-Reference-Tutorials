@@ -3,10 +3,14 @@ title: Maîtrisez les animations de diapositives avec Aspose.Slides pour .NET
 linktitle: Contrôle d'animation de diapositives dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec Aspose.Slides pour .NET ! Apprenez à contrôler les animations des diapositives sans effort. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 10
 url: /fr/net/slide-animation-control/slide-animation-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Améliorer vos présentations avec des animations de diapositives captivantes peut augmenter considérablement l'impact global sur votre public. Dans ce didacticiel, nous explorerons comment contrôler les animations de diapositives à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante qui permet une manipulation transparente des présentations PowerPoint dans un environnement .NET.
 ## Conditions préalables
@@ -77,3 +81,9 @@ L'animation de diapositives dans vos présentations ajoute une touche dynamique,
  Vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter Aspose.Slides pour .NET ?
  Acheter la bibliothèque[ici](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

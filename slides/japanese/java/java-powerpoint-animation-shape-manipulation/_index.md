@@ -3,10 +3,14 @@ title: Java PowerPoint アニメーションと図形操作
 linktitle: Java PowerPoint アニメーションと図形操作
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint で図形をアニメーション化および操作する方法を学びます。動的なプレゼンテーションのための包括的なチュートリアル。
-type: docs
 weight: 25
 url: /ja/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 導入
 
@@ -90,3 +94,9 @@ Aspose.Slides for Java を使用して PowerPoint の画像にデュオトーン
 このステップバイステップのチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint にビデオ フレームを埋め込む方法を説明します。プレゼンテーションを簡単に強化できます。
 ### [PowerPoint の OLE オブジェクトから埋め込まれたファイル データを抽出する](./extract-embedded-file-data-ole-object-powerpoint/)
 Aspose.Slides for Java を使用して PowerPoint プレゼンテーションから埋め込みファイル データを抽出し、ドキュメント管理機能を強化する方法を学習します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

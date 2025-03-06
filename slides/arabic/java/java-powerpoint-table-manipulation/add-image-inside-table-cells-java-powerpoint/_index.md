@@ -3,10 +3,14 @@ title: إضافة صورة داخل خلايا الجدول في Java PowerPoint
 linktitle: إضافة صورة داخل خلايا الجدول في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة صور داخل خلايا الجدول في عروض Java PowerPoint التقديمية باستخدام هذا الدليل المفصل خطوة بخطوة باستخدام Aspose.Slides for Java.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين عروض Java PowerPoint التقديمية الخاصة بك عن طريق تضمين الصور داخل خلايا الجدول، فقد وصلت إلى المكان الصحيح! اليوم، سنتعمق في دليل تفصيلي خطوة بخطوة باستخدام Aspose.Slides لـ Java. سيرشدك هذا البرنامج التعليمي خلال العملية بأكملها، مما يضمن أنه حتى المبتدئ يمكنه المتابعة وتحقيق نتائج مذهلة.
 ## المتطلبات الأساسية
@@ -104,3 +108,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/java/) للحصول على معلومات وأمثلة أكثر تفصيلا.
 ### كيف يمكنني شراء Aspose.Slides لجافا؟
  يمكنك شرائه من[موقع أسبوز](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

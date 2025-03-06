@@ -3,10 +3,14 @@ title: Verwalten von Aufzählungszeichen für Absatzbilder in Java PowerPoint
 linktitle: Verwalten von Aufzählungszeichen für Absatzbilder in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Bildaufzählungszeichen zu PowerPoint-Folien hinzufügen. Folgen Sie dieser detaillierten Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 11
 url: /de/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Das Erstellen ansprechender und optisch ansprechender Präsentationen ist eine entscheidende Fähigkeit in der modernen Geschäftswelt. Java-Entwickler können Aspose.Slides nutzen, um ihre Präsentationen mit benutzerdefinierten Bildaufzählungszeichen in PowerPoint-Folien zu verbessern. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie Ihren Präsentationen problemlos Bildaufzählungszeichen hinzufügen können.
 ## Voraussetzungen
@@ -104,3 +108,9 @@ Ja, Sie können für die Bildaufzählungszeichen jedes beliebige Bild verwenden,
 Ja, Sie können einer einzelnen AutoForm mehrere Absätze mit unterschiedlichen Aufzählungszeichenstilen hinzufügen, indem Sie jeden Absatz einzeln erstellen und konfigurieren.
 ### Wo finde ich weitere Beispiele und Unterstützung?
  Weitere Beispiele finden Sie im[Dokumentation](https://reference.aspose.com/slides/java/) und erhalten Sie Unterstützung von der Aspose-Community auf der[Foren](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

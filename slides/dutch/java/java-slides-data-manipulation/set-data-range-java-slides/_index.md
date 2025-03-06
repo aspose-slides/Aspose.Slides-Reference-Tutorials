@@ -3,10 +3,14 @@ title: Stel het gegevensbereik in Java-dia's in
 linktitle: Stel het gegevensbereik in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u moeiteloos gegevensbereiken in Java-dia's kunt instellen met Aspose.Slides voor Java. Creëer dynamische en datagestuurde presentaties met deze stapsgewijze handleiding.
-type: docs
 weight: 18
 url: /nl/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het instellen van gegevensbereik in Java-dia's
 
@@ -97,3 +101,9 @@ kunt toegang krijgen tot specifieke dia's en vormen binnen een presentatie met b
 ### Waar kan ik meer documentatie en voorbeelden vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie en voorbeelden voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose:[Aspose.Slides voor Java API-referenties](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

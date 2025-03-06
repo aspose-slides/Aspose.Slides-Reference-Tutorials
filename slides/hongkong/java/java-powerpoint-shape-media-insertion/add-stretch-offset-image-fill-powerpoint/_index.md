@@ -3,10 +3,14 @@ title: 在 PowerPoint 中加入影像填充的拉伸偏移
 linktitle: 在 PowerPoint 中加入影像填充的拉伸偏移
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中新增影像填充的拉伸偏移。包括逐步教程。
-type: docs
 weight: 16
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教學中，您將學習如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中新增影像填入的拉伸偏移。此功能可讓您操作幻燈片中的影像，從而更好地控制它們的外觀。
 ## 先決條件
@@ -64,3 +68,9 @@ Aspose.Slides for Java 可以處理各種尺寸的圖像，但建議優化圖像
 是的，您可以使用 Aspose.Slides for Java 的廣泛 API 對影像套用各種效果和轉換。
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和支援？
 您可以訪問[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)取得詳細指南並探索[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區支持。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

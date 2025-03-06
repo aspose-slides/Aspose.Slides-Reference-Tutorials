@@ -3,10 +3,14 @@ title: 比較簡報中的投影片
 linktitle: 比較簡報中的投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 比較簡報中的投影片。具有原始程式碼的逐步指南，可進行準確比較。
-type: docs
 weight: 12
 url: /zh-hant/net/chart-creation-and-customization/check-slides-comparison/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 比較簡報中的投影片簡介
 
@@ -143,3 +147,9 @@ url: /zh-hant/net/chart-creation-and-customization/check-slides-comparison/
 ### 是否有優化演示比較性能的最佳實踐？
 
 是的，實施高效的演算法和管理記憶體使用是優化演示比較效能的關鍵。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

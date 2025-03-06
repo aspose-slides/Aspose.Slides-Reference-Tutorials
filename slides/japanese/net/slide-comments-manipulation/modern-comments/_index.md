@@ -3,10 +3,14 @@ title: Aspose.Slides を使用した最新のコメント管理
 linktitle: 最新のコメント管理
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションで最新のコメントを管理する方法を学びます。簡単に共同作業できます。
-type: docs
 weight: 14
 url: /ja/net/slide-comments-manipulation/modern-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーションをプログラムで操作できるようにする強力なライブラリです。提供される機能の 1 つは最新のコメント管理で、プレゼンテーション内のコメントをシームレスに追加、変更、操作できます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して最新のコメントを管理するプロセスについて説明します。
 
@@ -109,3 +113,9 @@ PowerPoint プレゼンテーションの最新のコメントを使用すると
 ### 5. 購入前に Aspose.Slides for .NET を試すことはできますか?
 
 もちろんです！Aspose.Slides for .NETの無料試用版は、[無料トライアルリンク](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

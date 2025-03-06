@@ -3,10 +3,14 @@ title: 在 Aspose.Slides .NET 中的資料點上使用圖表標記選項
 linktitle: 數據點上的圖表標記選項
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 增強 PowerPoint 圖表。使用影像自訂資料點標記。創建引人入勝的簡報。
-type: docs
 weight: 11
 url: /zh-hant/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在處理演示和資料視覺化時，Aspose.Slides for .NET 提供了廣泛的強大功能來建立、自訂和操作圖表。在本教學中，我們將探討如何在資料點上使用圖表標記選項來增強圖表示範。本逐步指南將引導您完成整個過程，從先決條件和匯入命名空間開始，到將每個範例分解為多個步驟。
 
@@ -148,3 +152,9 @@ Aspose.Slides for .NET 設計用於處理各種 PowerPoint 格式，並定期更
 
 ### 是否有 Aspose.Slides for .NET 的試用版？
 是的，您可以透過下載免費試用版來嘗試 Aspose.Slides for .NET[這裡](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

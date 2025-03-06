@@ -3,10 +3,14 @@ title: Använd ShapeUtil för Geometry Shape i PowerPoint
 linktitle: Använd ShapeUtil för Geometry Shape i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa anpassade former i PowerPoint med Aspose.Slides för Java. Följ den här steg-för-steg-guiden för att förbättra dina presentationer.
-type: docs
 weight: 23
 url: /sv/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Att skapa visuellt tilltalande PowerPoint-presentationer kräver ofta mer än att bara använda standardformer och text. Föreställ dig att du kan lägga till anpassade former och textvägar direkt i dina bilder, vilket förstärker den visuella effekten av din presentation. Med Aspose.Slides för Java kan du enkelt uppnå detta. Denna handledning guidar dig genom processen att använda`ShapeUtil` klass för att skapa geometriska former i PowerPoint-presentationer. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper den här steg-för-steg-guiden dig att utnyttja kraften i Aspose.Slides för Java för att skapa fantastiskt, anpassat format.
 ## Förutsättningar
@@ -75,3 +79,9 @@ Aspose.Slides erbjuder en gratis testversion som du kan ladda ner från[här](ht
  De`ShapeUtil` klass i Aspose.Slides tillhandahåller verktygsmetoder för att arbeta med former, som att konvertera grafiska banor till geometriska banor.
 ### Var kan jag få support för Aspose.Slides?
  Du kan få stöd från[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

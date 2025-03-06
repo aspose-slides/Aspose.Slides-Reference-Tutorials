@@ -3,10 +3,14 @@ title: SmartArt 子ノートのサムネイルを作成する
 linktitle: SmartArt 子ノートのサムネイルを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java で SmartArt 子ノートのサムネイルを作成し、PowerPoint プレゼンテーションを簡単に強化する方法を学びます。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides を使用して Java で SmartArt 子ノートのサムネイルを作成する方法について説明します。Aspose.Slides は、開発者が PowerPoint プレゼンテーションをプログラムで操作して、スライドを簡単に作成、変更、操作できるようにする強力な Java API です。
 ## 前提条件
@@ -70,3 +74,9 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 もちろんです! Aspose.Slides は、さまざまな複雑さの SmartArt 図の作成と操作を包括的にサポートします。
 ### Aspose.Slides は開発者向けの技術サポートを提供していますか?
 はい、Aspose.Slidesは、開発者向けに専用の技術サポートを提供しています。[フォーラム](https://forum.aspose.com/c/slides/11)およびその他のチャンネル。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

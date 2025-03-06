@@ -3,10 +3,14 @@ title: Zaawansowane właściwości akapitów i czcionek w programie Java PowerPo
 linktitle: Zaawansowane właściwości akapitów i czcionek w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Opanuj zaawansowane właściwości akapitów i czcionek w programie Java PowerPoint przy użyciu Aspose.Slides. Dowiedz się, jak dostosowywać czcionki, dodawać punktory obrazkowe i używać czcionek zastępczych.
-type: docs
 weight: 28
 url: /pl/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 
 Tworzenie dopracowanych prezentacji programu PowerPoint wymaga dopracowania różnych elementów, od formatowania akapitów po zarządzanie czcionkami. Aspose.Slides dla Java zapewnia solidne narzędzia do skutecznego zarządzania tymi zaawansowanymi właściwościami. W tym artykule omówimy samouczki, które pomogą Ci dostosować właściwości czcionki akapitowej, dodać punktory obrazkowe i używać czcionek zastępczych. Przyjrzyjmy się tym zaawansowanym technikom, dzięki którym Twoje prezentacje będą się wyróżniać!
@@ -35,3 +39,9 @@ Dowiedz się, jak dodawać niestandardowe punktory obrazkowe do slajdów program
 Dowiedz się, jak uzyskać prostokąt części w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając ze szczegółowego samouczka krok po kroku. Idealny dla programistów Java.
 ### [Renderuj z czcionką zastępczą w programie Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Dowiedz się, jak renderować tekst przy użyciu czcionek zastępczych w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową implementację.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

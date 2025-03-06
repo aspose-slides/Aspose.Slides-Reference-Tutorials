@@ -3,10 +3,14 @@ title: Nyújtási eltolás hozzáadása a képkitöltéshez a PowerPointban
 linktitle: Nyújtási eltolás hozzáadása a képkitöltéshez a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá nyúlási eltolást a képkitöltéshez PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével. Lépésről lépésre bemutató oktatóanyag.
-type: docs
 weight: 16
 url: /hu/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan használhatja az Aspose.Slides for Java alkalmazást a PowerPoint-prezentációk képkitöltésének nyúlási eltüntetéséhez. Ezzel a funkcióval manipulálhatja a képeket a diákon belül, így jobban szabályozhatja megjelenésüket.
 ## Előfeltételek
@@ -64,3 +68,9 @@ Az Aspose.Slides for Java különféle méretű képeket képes kezelni, de ajá
 Igen, az Aspose.Slides for Java kiterjedt API-jával effektusok és átalakítások széles skáláját alkalmazhatja a képeken.
 ### Hol találok további forrásokat és támogatást az Aspose.Slides for Java számára?
  Meglátogathatja a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) részletes útmutatókért és fedezze fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

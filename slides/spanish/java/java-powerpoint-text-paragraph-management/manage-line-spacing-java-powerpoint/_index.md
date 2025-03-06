@@ -3,10 +3,14 @@ title: Administrar el interlineado en Java PowerPoint
 linktitle: Administrar el interlineado en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a administrar el interlineado en presentaciones de PowerPoint en Java sin esfuerzo con Aspose.Slides para Java. Mejora tus diapositivas.
-type: docs
 weight: 12
 url: /es/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En la programación Java, administrar el interlineado en las presentaciones de PowerPoint es crucial para crear diapositivas visualmente atractivas que transmitan información de manera efectiva. Ya sea que esté ajustando el espacio entre párrafos o controlando el espacio antes y después de cada párrafo, Aspose.Slides para Java proporciona herramientas integrales para realizar estas tareas sin problemas.
 ## Requisitos previos
@@ -62,3 +66,9 @@ Puedes explorar documentación detallada.[aquí](https://reference.aspose.com/sl
  Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte técnico para Aspose.Slides?
  Para obtener asistencia técnica, visite Aspose.Slides[Foro de soporte](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

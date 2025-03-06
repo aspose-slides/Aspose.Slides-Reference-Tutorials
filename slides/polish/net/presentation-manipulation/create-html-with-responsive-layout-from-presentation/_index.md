@@ -3,10 +3,14 @@ title: Utwórz HTML z układem responsywnym z prezentacji
 linktitle: Utwórz HTML z układem responsywnym z prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak konwertować prezentacje do responsywnego kodu HTML za pomocą Aspose.Slides dla .NET. Twórz interaktywne treści przyjazne dla urządzeń bez wysiłku.
-type: docs
 weight: 17
 url: /pl/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 dzisiejszej erze cyfrowej tworzenie responsywnych treści internetowych jest kluczową umiejętnością dla twórców i projektantów stron internetowych. Na szczęście narzędzia takie jak Aspose.Slides dla .NET ułatwiają generowanie kodu HTML z responsywnymi układami z prezentacji. W tym samouczku krok po kroku przeprowadzimy Cię przez proces osiągnięcia tego przy użyciu dostarczonego kodu źródłowego.
 
@@ -72,3 +76,9 @@ Tworzenie kodu HTML z responsywnymi układami z prezentacji programu PowerPoint 
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 
 Teraz, gdy masz już kompleksowy przewodnik na temat tworzenia responsywnego kodu HTML na podstawie prezentacji, jesteś na dobrej drodze do zwiększenia dostępności i atrakcyjności treści internetowych. Miłego kodowania!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

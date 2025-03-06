@@ -3,10 +3,14 @@ title: إنشاء صورة مصغرة ذات حدود للشكل في Aspose.Sli
 linktitle: إنشاء صورة مصغرة ذات حدود للشكل في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أطلق العنان لقوة Aspose.Slides لـ .NET! تعلم كيفية إنشاء صور مصغرة للأشكال بسهولة وبحدود باستخدام دليلنا خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 إذا كنت أحد مطوري برامج .NET وتبحث عن حل قوي لإنشاء صور مصغرة ذات حدود للأشكال في عروض PowerPoint التقديمية، فإن Aspose.Slides for .NET هو أداة الانتقال الخاصة بك. توفر هذه المكتبة القوية تكاملًا سلسًا، مما يسمح لك بمعالجة المعلومات القيمة واستخراجها بكفاءة من ملفات PowerPoint. في هذا البرنامج التعليمي، سنتعرف على عملية إنشاء صورة مصغرة ذات حدود للشكل باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -60,3 +64,9 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطلب المساعدة من المطورين ذوي الخبرة.
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لاحتياجات المشروع على المدى القصير.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

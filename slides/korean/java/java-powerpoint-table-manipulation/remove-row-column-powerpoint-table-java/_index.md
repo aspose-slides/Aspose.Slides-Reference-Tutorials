@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint 테이블에서 행 또는 열 제거
 linktitle: Java를 사용하여 PowerPoint 테이블에서 행 또는 열 제거
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java와 함께 Java를 사용하여 PowerPoint 테이블에서 행이나 열을 제거하는 방법을 알아보세요. 개발자를 위한 쉬운 단계별 가이드입니다.
-type: docs
 weight: 18
 url: /ko/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides의 도움으로 Java를 사용하여 PowerPoint 테이블에서 행이나 열을 제거하는 방법을 살펴보겠습니다. Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 이 튜토리얼은 특히 PowerPoint 슬라이드 내에서 테이블을 수정하는 프로세스에 중점을 두고 테이블에서 특정 행이나 열을 제거하는 방법을 단계별로 보여줍니다.
 ## 전제 조건
@@ -74,3 +78,9 @@ Aspose.Slides는 슬라이드 생성, 텍스트 서식 지정 등을 포함하�
 예, Aspose.Slides는 강력한 기능과 성능으로 인해 PowerPoint 작업을 자동화하기 위해 기업 환경에서 널리 사용됩니다.
 ### 구매하기 전에 Aspose.Slides를 사용해 볼 수 있나요?
  예, 다음에서 Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

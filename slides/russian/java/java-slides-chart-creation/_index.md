@@ -3,10 +3,14 @@ title: Создание диаграммы слайдов Java
 linktitle: Создание диаграммы слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать динамические слайды Java с диаграммами с помощью Aspose.Slides для Java. Наши подробные руководства шаг за шагом проведут вас через этот процесс.
-type: docs
 weight: 16
 url: /ru/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Готовы ли вы раскрыть возможности динамических диаграмм на слайдах Java? С помощью Aspose.Slides для Java вы можете легко создавать увлекательные диаграммы. Это подробное руководство проведет вас через основные этапы: от установки до совершенствования схемы.
 
@@ -35,3 +39,9 @@ url: /ru/java/chart-creation/
 Узнайте, как настраивать диаграммы в Java Slides с помощью Aspose.Slides для Java. Изучите варианты второго сюжета и улучшите свои презентации.
 ### [Древовидная диаграмма в слайдах Java](./tree-map-chart-java-slides/)
 Создайте древовидные диаграммы в слайдах Java, используя Aspose.Slides для Java. Пошаговое руководство с исходным кодом для визуализации иерархических данных.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

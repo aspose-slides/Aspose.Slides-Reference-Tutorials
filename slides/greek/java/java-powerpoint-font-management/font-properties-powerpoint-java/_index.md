@@ -3,10 +3,14 @@ title: Ιδιότητες γραμματοσειράς στο PowerPoint με Ja
 linktitle: Ιδιότητες γραμματοσειράς στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να χειρίζεστε τις ιδιότητες γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides για Java. Προσαρμόστε τις γραμματοσειρές εύκολα με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε τον τρόπο χειρισμού των ιδιοτήτων γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java, ειδικά με το Aspose.Slides για Java. Θα σας καθοδηγήσουμε σε κάθε βήμα, από την εισαγωγή των απαραίτητων πακέτων μέχρι την αποθήκευση της τροποποιημένης παρουσίασής σας. Ας βουτήξουμε!
 ## Προαπαιτούμενα
@@ -81,3 +85,9 @@ pres.save(dataDir + "WelcomeFont_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να βρω περισσότερη υποστήριξη και πόρους για το Aspose.Slides για Java;
  Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11) για υποστήριξη και τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: So erhalten Sie den Diagrammdatenbereich in Aspose.Slides für .NET
 linktitle: Diagrammdatenbereich abrufen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Diagrammdatenbereiche aus PowerPoint-Präsentationen extrahieren. Eine Schritt-für-Schritt-Anleitung für Entwickler.
-type: docs
 weight: 11
 url: /de/net/additional-chart-features/chart-get-range/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Möchten Sie den Datenbereich aus einem Diagramm in Ihrer PowerPoint-Präsentation mit Aspose.Slides für .NET extrahieren? Dann sind Sie hier richtig. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess zum Abrufen des Diagrammdatenbereichs aus Ihrer Präsentation. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie programmgesteuert mit PowerPoint-Dokumenten arbeiten können. Das Abrufen des Diagrammdatenbereichs ist nur eine der vielen Aufgaben, die Sie damit erledigen können.
 
@@ -93,3 +97,9 @@ Ja, Sie können innerhalb einer PowerPoint-Präsentation mit Folien, Formen, Tex
 
 ### Welche Supportoptionen stehen für Aspose.Slides für .NET-Benutzer zur Verfügung?
  Sie können Unterstützung und Hilfe von der Aspose-Community erhalten auf deren[Hilfeforum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

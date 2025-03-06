@@ -3,10 +3,14 @@ title: Управление элементом управления ActiveX в P
 linktitle: Управление элементом управления ActiveX в PowerPoint
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как улучшить презентации PowerPoint с помощью элементов управления ActiveX с помощью Aspose.Slides для .NET. Наше пошаговое руководство охватывает вставку, манипулирование, настройку, обработку событий и многое другое.
-type: docs
 weight: 13
 url: /ru/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 Элементы управления ActiveX — это мощные элементы, которые могут улучшить функциональность и интерактивность ваших презентаций PowerPoint. Эти элементы управления позволяют встраивать и манипулировать такими объектами, как мультимедийные проигрыватели, формы ввода данных и т. д., непосредственно в слайдах. В этой статье мы рассмотрим, как управлять элементами управления ActiveX в PowerPoint с помощью Aspose.Slides для .NET, универсальной библиотеки, которая обеспечивает плавную интеграцию и манипулирование файлами PowerPoint в ваших приложениях .NET.
 
 ## Добавление элементов управления ActiveX в слайды PowerPoint
@@ -149,3 +153,9 @@ Aspose.Slides для .NET упрощает процесс работы с эле
 ### Могу ли я удалить элемент управления ActiveX со слайда?
 
  Да, вы можете удалить элемент ActiveX со слайда, используя команду`Remove` метод`Shapes` коллекция. Передайте ссылку на`IOleObjectFrame` представление элемента управления в качестве аргумента`Remove` метод, и элемент управления будет удален со слайда.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

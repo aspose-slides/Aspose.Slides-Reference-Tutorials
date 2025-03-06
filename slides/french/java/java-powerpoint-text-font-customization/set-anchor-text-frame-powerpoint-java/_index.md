@@ -3,10 +3,14 @@ title: Définir l'ancre du cadre de texte dans PowerPoint avec Java
 linktitle: Définir l'ancre du cadre de texte dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des ancres de bloc de texte dans PowerPoint à l'aide de Java avec Aspose.Slides. Améliorez vos présentations.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à définir l'ancre d'un cadre de texte dans des présentations PowerPoint à l'aide de Java à l'aide d'Aspose.Slides. L'ancrage des blocs de texte vous permet de contrôler avec précision la position et le comportement du texte dans une forme, garantissant ainsi que vos diapositives sont visuellement attrayantes et structurées efficacement.
 ## Conditions préalables
@@ -71,3 +75,9 @@ Aspose.Slides for Java est une bibliothèque puissante qui permet aux développe
  Oui, vous pouvez télécharger un essai gratuit[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez visiter le forum d'assistance[ici](https://forum.aspose.com/c/slides/11) pour toute question ou assistance.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

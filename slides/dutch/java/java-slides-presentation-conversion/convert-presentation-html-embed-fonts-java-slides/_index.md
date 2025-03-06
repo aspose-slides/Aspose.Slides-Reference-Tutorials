@@ -3,10 +3,14 @@ title: Presentatie naar HTML converteren met insluiting van alle lettertypen in 
 linktitle: Presentatie naar HTML converteren met insluiting van alle lettertypen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u presentaties naar HTML met ingesloten lettertypen converteert met Aspose.Slides voor Java. Deze stapsgewijze handleiding zorgt voor een consistente opmaak voor naadloos delen.
-type: docs
 weight: 13
 url: /nl/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het converteren van een presentatie naar HTML met het insluiten van alle lettertypen in Java-dia's
 
@@ -108,3 +112,9 @@ Ja, deze methode werkt voor presentaties met complexe inhoud, inclusief afbeeldi
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Slides voor Java?
 
  U kunt toegang krijgen tot uitgebreide documentatie en bronnen voor Aspose.Slides voor Java op[Aspose.Slides voor Java API-referenties](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Круговая диаграмма в слайдах Java
 linktitle: Круговая диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать потрясающие круговые диаграммы в презентациях PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом для разработчиков Java.
-type: docs
 weight: 23
 url: /ru/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в создание круговой диаграммы в слайдах Java с использованием Aspose.Slides
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### Как я могу найти дополнительную информацию и примеры для работы с Aspose.Slides для Java?
 
  Для получения дополнительной информации, подробной документации и дополнительных примеров вы можете посетить[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/). Он предоставляет исчерпывающие ресурсы, которые помогут вам эффективно использовать библиотеку.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

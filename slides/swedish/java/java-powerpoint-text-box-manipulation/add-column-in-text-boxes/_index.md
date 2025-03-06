@@ -3,10 +3,14 @@ title: Lägg till kolumn i textrutor med Aspose.Slides för Java
 linktitle: Lägg till kolumn i textrutor med Aspose.Slides för Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till kolumner i textrutor i PowerPoint med Aspose.Slides för Java. Förbättra dina presentationer med denna steg-för-steg-guide.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 den här handledningen kommer vi att utforska hur man förbättrar textrutor genom att lägga till kolumner med Aspose.Slides för Java. Aspose.Slides är ett kraftfullt Java-bibliotek som låter utvecklare skapa, manipulera och konvertera PowerPoint-presentationer programmatiskt utan att behöva Microsoft Office. Att lägga till kolumner i textrutor kan avsevärt förbättra läsbarheten och organiseringen av innehåll i bilder, vilket gör dina presentationer mer engagerande och professionella.
 ## Förutsättningar
@@ -82,3 +86,9 @@ Ja, Aspose.Slides stöder Java 11 och högre versioner.
 Nej, Aspose.Slides kräver inte att Microsoft Office är installerat på maskinen.
 ### Var kan jag hitta mer dokumentation om Aspose.Slides för Java?
  Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

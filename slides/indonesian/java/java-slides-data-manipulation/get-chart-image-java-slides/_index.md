@@ -3,10 +3,14 @@ title: Dapatkan Gambar Bagan di Slide Java
 linktitle: Dapatkan Gambar Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mendapatkan gambar bagan di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah ini memberikan kode sumber dan tips untuk integrasi yang lancar.
-type: docs
 weight: 19
 url: /id/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mendapatkan Gambar Bagan di Slide Java
 
@@ -92,3 +96,9 @@ Ya, Aspose.Slides untuk Java dapat digunakan untuk tujuan komersial. Ini memberi
 ### Bisakah saya menyimpan gambar grafik dalam format lain?
 
  Tentu! Anda dapat menyimpan gambar grafik dalam berbagai format, seperti JPEG atau GIF, dengan menentukan ekstensi file yang sesuai di`ImageIO.write` metode.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

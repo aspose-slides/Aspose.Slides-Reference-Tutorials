@@ -3,10 +3,14 @@ title: Kunci Rasio Aspek di PowerPoint menggunakan Java
 linktitle: Kunci Rasio Aspek di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengunci rasio aspek dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides. Sempurna untuk pengembang Java yang menginginkan kontrol presisi atas desain slide.
-type: docs
 weight: 16
 url: /id/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam bidang pengembangan Java, memanipulasi presentasi PowerPoint secara terprogram dapat menyederhanakan alur kerja dan meningkatkan produktivitas secara signifikan. Aspose.Slides untuk Java menawarkan perangkat yang tangguh bagi pengembang Java untuk mengotomatiskan tugas-tugas seperti memodifikasi slide, menambahkan konten, dan menerapkan pemformatan langsung dari kode Java. Tutorial ini berfokus pada aspek mendasar manajemen presentasi PowerPoint: mengunci rasio aspek.
 ## Prasyarat
@@ -61,3 +65,9 @@ Ya, Aspose.Slides untuk Java dirancang untuk menangani skenario kompleks dalam a
  Anda dapat mencari dukungan dari komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
 ### Bagaimana saya bisa mencoba Aspose.Slides untuk Java sebelum membeli?
  Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

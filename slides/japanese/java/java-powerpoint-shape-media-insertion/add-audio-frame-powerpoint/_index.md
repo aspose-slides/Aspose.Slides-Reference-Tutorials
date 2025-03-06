@@ -3,10 +3,14 @@ title: PowerPoint にオーディオ フレームを追加する
 linktitle: PowerPoint にオーディオ フレームを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションにオーディオ フレームを追加する方法を学びます。魅力的なオーディオ要素を使用して、プレゼンテーションを簡単にレベルアップできます。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 オーディオ要素を使用してプレゼンテーションを強化すると、プレゼンテーションのインパクトとエンゲージメントが大幅に高まります。Aspose.Slides for Java を使用すると、PowerPoint プレゼンテーションにオーディオ フレームを統合することがシームレスなプロセスになります。このチュートリアルでは、Aspose.Slides for Java を使用してプレゼンテーションにオーディオ フレームを追加する手順を順を追って説明します。
 ## 前提条件
@@ -75,3 +79,9 @@ PowerPoint プレゼンテーションにオーディオ要素を組み込むと
 Aspose.Slides for Java には広範なカスタマイズ オプションが用意されており、オーディオ プレーヤーの外観を好みに合わせてカスタマイズできます。
 ### Aspose.Slides for Java の試用版はありますか?
 はい、Aspose.Slides for Javaの無料トライアルは、[Webサイト](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

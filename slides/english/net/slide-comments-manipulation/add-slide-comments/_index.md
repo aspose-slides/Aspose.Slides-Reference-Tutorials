@@ -3,10 +3,14 @@ title: Add Comments to Slide
 linktitle: Add Comments to Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Add depth and interaction to your presentations with Aspose.Slides API. Learn how to easily integrate comments into your slides using .NET. Enhance engagement and captivate your audience.
-type: docs
 weight: 13
 url: /net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In the world of presentation management, the ability to add comments to slides can be a game-changer. Comments not only enhance collaboration but also aid in the understanding and revision of slide content. With Aspose.Slides for .NET, a powerful and versatile library, you can effortlessly incorporate comments into your presentation slides. In this step-by-step guide, we'll walk you through the process of adding comments to a slide using Aspose.Slides for .NET. Whether you're a seasoned developer or a newcomer to the world of .NET development, this tutorial will provide all the insights you need.
 
@@ -104,3 +108,10 @@ To integrate Aspose.Slides for .NET into your .NET application, you can refer to
 ### 5. Can I try Aspose.Slides for .NET before purchasing it?
 
 Yes, you can explore Aspose.Slides for .NET by using a free trial. Visit the [Aspose.Slides free trial page](https://releases.aspose.com/) to get started.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

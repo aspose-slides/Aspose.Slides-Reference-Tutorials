@@ -3,10 +3,14 @@ title: PowerPoint에서 커넥터 선 각도 설정
 linktitle: PowerPoint에서 커넥터 선 각도 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 연결선 각도를 설정하는 방법을 알아보세요. 슬라이드를 정밀하게 사용자 정의하세요.
-type: docs
 weight: 17
 url: /ko/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 연결선 각도를 설정하는 방법을 살펴보겠습니다. 연결선은 슬라이드의 도형 간의 관계와 흐름을 설명하는 데 필수적입니다. 각도를 조정하면 프레젠테이션에서 메시지를 명확하고 효과적으로 전달할 수 있습니다.
 ## 전제 조건
@@ -80,3 +84,9 @@ Aspose.Slides는 대부분의 PowerPoint 기능을 지원하기 위해 노력하
 틀림없이! Aspose.Slides는 스타일, 두께, 끝점 등 연결선을 사용자 정의하기 위한 광범위한 옵션을 제공하므로 시각적으로 매력적인 프레젠테이션을 만들 수 있습니다.
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 개발 과정에서 발생하는 질문이나 문제에 대한 지원을 받으려면
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: プレゼンテーションをデフォルトサイズで TIFF に変換�
 linktitle: プレゼンテーションをデフォルトサイズで TIFF に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーションをデフォルト サイズの TIFF 画像に簡単に変換する方法を学びます。
-type: docs
 weight: 27
 url: /ja/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 導入
 
@@ -86,3 +90,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### Aspose.Slides for .NET の詳細情報はどこで入手できますか?
 
 包括的なドキュメントと例については、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

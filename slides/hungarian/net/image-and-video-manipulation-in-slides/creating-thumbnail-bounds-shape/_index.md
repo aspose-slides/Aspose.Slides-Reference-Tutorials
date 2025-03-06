@@ -3,10 +3,14 @@ title: Bélyegkép létrehozása alakzathatárokkal az Aspose.Slides programban
 linktitle: Bélyegkép létrehozása alakzathatárokkal az Aspose.Slides programban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fedezze fel az Aspose.Slides erejét .NET-hez! Lépésről lépésre szóló útmutatónk segítségével megtanulhatja, hogyan hozhat létre korlátok nélküli alakzat-bélyegképeket könnyedén.
-type: docs
 weight: 10
 url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ha Ön .NET-fejlesztő, aki robusztus megoldást keres a PowerPoint-prezentációk alakzatainak korlátaival rendelkező bélyegképek létrehozásához, az Aspose.Slides for .NET a legjobb eszköz. Ez a nagy teljesítményű könyvtár zökkenőmentes integrációt biztosít, lehetővé téve az értékes információk hatékony kezelését és kinyerését a PowerPoint-fájlokból. Ebben az oktatóanyagban végigvezetjük az Aspose.Slides segítségével egy alakzat határait tartalmazó indexkép létrehozásának folyamatát.
 ## Előfeltételek
@@ -60,3 +64,9 @@ Igen, az Aspose.Slides rendszeresen frissül, hogy biztosítsa a kompatibilitás
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) kapcsolatba lépni a közösséggel, és segítséget kérni tapasztalt fejlesztőktől.
 ### Kaphatok ideiglenes licencet az Aspose.Slides-hez?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) rövid távú projektszükségletekhez.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

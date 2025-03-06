@@ -3,10 +3,14 @@ title: Přidejte sloupce do textového rámce pomocí Aspose.Slides pro Java
 linktitle: Přidejte sloupce do textového rámce pomocí Aspose.Slides pro Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat sloupce do textových rámečků pomocí Aspose.Slides pro Java, abyste vylepšili své PowerPointové prezentace. Náš průvodce krok za krokem celý proces zjednodušuje.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak manipulovat s textovými rámečky a přidávat sloupce pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům Java vytvářet, manipulovat a převádět PowerPointové prezentace programově. Přidání sloupců do textových rámečků zvyšuje vizuální přitažlivost a organizaci textu v rámci snímků, díky čemuž jsou prezentace poutavější a snadněji čitelné.
 ## Předpoklady
@@ -81,3 +85,9 @@ Ne, Aspose.Slides automaticky nastaví stejnou šířku sloupců v textovém rá
  K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat technickou podporu pro Aspose.Slides pro Java?
  Můžete hledat podporu v komunitě[tady](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alma
 linktitle: Java Slaytlarında Grafik Çizim Alanından Genişlik ve Yükseklik Alma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik çizim alanı boyutlarını nasıl alacağınızı öğrenin. PowerPoint otomasyon becerilerinizi geliştirin.
-type: docs
 weight: 21
 url: /tr/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## giriiş
 
@@ -109,3 +113,10 @@ Evet, Aspose.Slides for Java, Java uygulamalarındaki PowerPoint görevlerini ot
 ### Aspose.Slides for Java hakkında nasıl daha fazla bilgi edinebilirim?
 
  Aspose.Slides for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve örnekler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

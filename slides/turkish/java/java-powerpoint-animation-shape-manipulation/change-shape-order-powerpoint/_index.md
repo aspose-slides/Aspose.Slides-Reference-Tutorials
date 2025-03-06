@@ -3,10 +3,14 @@ title: PowerPoint'te Şekil Sırasını Değiştirme
 linktitle: PowerPoint'te Şekil Sırasını Değiştirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu adım adım eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'te şekil sırasını nasıl değiştireceğinizi öğrenin. Sunum becerilerinizi zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Görsel olarak çekici ve iyi yapılandırılmış sunumlar oluşturmak göz korkutucu bir iş olabilir. Ancak doğru araç ve tekniklerle bunu önemli ölçüde kolaylaştırabilirsiniz. Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak değiştirmenize ve yönetmenize yardımcı olan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint slaytındaki şekil sırasını değiştirme adımlarında size yol göstereceğiz.
 ## Önkoşullar
@@ -73,3 +77,9 @@ Evet, Aspose.Slides for Java PPT, PPTX ve diğer PowerPoint formatlarını deste
  Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/).
 ### Aspose.Slides for Java ile ilgili daha fazla belgeyi nerede bulabilirim?
  Ayrıntılı belgeleri şu adreste bulabilirsiniz:[Aspose.Slides for Java dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

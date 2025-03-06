@@ -3,10 +3,14 @@ title: Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
 linktitle: Mengatur Warna Irisan Diagram Lingkaran Otomatis di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat diagram lingkaran dinamis dengan warna irisan otomatis dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-type: docs
 weight: 24
 url: /id/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Pengaturan Warna Irisan Diagram Lingkaran Otomatis di Slide Java
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Anda dapat menyesuaikan ukuran font, ketebalan, dan gaya miring sesuai kebutuhan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تضمين الخطوط في HTML باستخدام Aspose.Slides لـ Jav
 linktitle: تضمين الخطوط في HTML باستخدام Aspose.Slides لـ Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تضمين الخطوط في HTML باستخدام Aspose.Slides لـ Java لضمان طباعة متسقة عبر الأنظمة الأساسية والأجهزة المختلفة.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 Aspose.Slides for Java هي أداة قوية لمطوري Java الذين يسعون إلى التعامل مع عروض PowerPoint التقديمية برمجياً. في هذا البرنامج التعليمي، سوف نتعمق في عملية تضمين الخطوط في HTML باستخدام Aspose.Slides لـ Java. من خلال تضمين الخطوط، فإنك تتأكد من أن العروض التقديمية الخاصة بك تحافظ على مظهرها المقصود عبر الأنظمة الأساسية والأجهزة المختلفة، حتى إذا لم يتم تثبيت الخطوط المطلوبة محليًا.
 ## المتطلبات الأساسية
@@ -58,3 +62,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على دعم المجتمع أو الاتصال بدعم Aspose للحصول على المساعدة المهنية.
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ Java؟
 نعم، يمكنك الحصول على ترخيص مؤقت من[صفحة الشراء](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

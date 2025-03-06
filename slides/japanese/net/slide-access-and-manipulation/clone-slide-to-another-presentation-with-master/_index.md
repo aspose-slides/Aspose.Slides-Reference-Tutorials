@@ -3,10 +3,14 @@ title: マスタースライドを使用してスライドを新しいプレゼ�
 linktitle: マスタースライドを使用してスライドを新しいプレゼンテーションにコピーする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してマスター スライドを含むスライドをコピーする方法を学びます。このステップ バイ ステップ ガイドでプレゼンテーション スキルを向上させましょう。
-type: docs
 weight: 20
 url: /ja/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 プレゼンテーションの設計と管理の世界では、効率が重要です。コンテンツ ライターとして、Aspose.Slides for .NET を使用して、マスター スライドを含む新しいプレゼンテーションにスライドをコピーするプロセスについて説明します。熟練した開発者でも、この分野の初心者でも、このステップ バイ ステップのチュートリアルは、この重要なスキルを習得するのに役立ちます。さっそく始めましょう。
 
@@ -118,3 +122,9 @@ Aspose.Slides for .NET は、.NET 開発者が PowerPoint プレゼンテーシ�
 
 ### コミュニティ サポートを受け、Aspose.Slides for .NET について話し合える場所はどこですか?
  Asposeコミュニティに参加してサポートを受けるには、[Aspose.Slides for .NET サポート フォーラム](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

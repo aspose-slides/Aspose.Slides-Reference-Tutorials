@@ -3,10 +3,14 @@ title: Отрегулируйте углы соединительной лини
 linktitle: Настройка углов соединительной линии на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как настроить углы соединительных линий в слайдах PowerPoint с помощью Aspose.Slides для .NET. Сделайте свои презентации более точными и простыми.
-type: docs
 weight: 28
 url: /ru/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Создание визуально привлекательных слайдов презентации часто требует точной настройки соединительных линий. В этом уроке мы рассмотрим, как настроить углы соединительных линий на слайдах презентации с помощью Aspose.Slides для .NET. Aspose.Slides — это мощная библиотека, которая позволяет разработчикам программно работать с файлами PowerPoint, предоставляя широкие возможности для создания, изменения и управления презентациями.
 ## Предварительные условия
@@ -87,3 +91,9 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Есть ли форум поддержки Aspose.Slides?
  Да, вы можете посетить форум поддержки[здесь](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

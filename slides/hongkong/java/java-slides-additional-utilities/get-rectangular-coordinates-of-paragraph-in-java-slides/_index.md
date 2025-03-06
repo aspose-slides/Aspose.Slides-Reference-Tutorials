@@ -3,10 +3,14 @@ title: 取得Java幻燈片中段落的直角座標
 linktitle: 取得Java幻燈片中段落的直角座標
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 檢索 PowerPoint 簡報中的段落座標。按照我們的帶有原始程式碼的逐步指南進行準確定位。
-type: docs
 weight: 13
 url: /zh-hant/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Aspose.Slides for Java 中檢索段落的直角座標簡介
 
@@ -112,3 +116,9 @@ finally
 ### 我需要許可證才能使用 Aspose.Slides for Java 嗎？
 
 是的，您通常需要有效的許可證才能在生產環境中使用 Aspose.Slides for Java。您可以從 Aspose 網站取得許可證。但是，他們可能會提供用於測試和評估目的的試用版。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

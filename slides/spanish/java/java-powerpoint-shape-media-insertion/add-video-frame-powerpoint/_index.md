@@ -3,10 +3,14 @@ title: Agregar marco de video en PowerPoint
 linktitle: Agregar marco de video en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo integrar perfectamente contenido de video en presentaciones de PowerPoint usando Aspose.Slides para Java. Tus diapositivas con elementos multimedia para atraer a tu audiencia.
-type: docs
 weight: 17
 url: /es/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de agregar un fotograma de video a una presentación de PowerPoint usando Aspose.Slides para Java. Si sigue estas instrucciones paso a paso, podrá integrar fácilmente contenido de video en sus presentaciones.
 ## Requisitos previos
@@ -60,3 +64,9 @@ Sí, Aspose.Slides para Java es compatible con las versiones 6 y superiores de J
 Sí, puedes configurar el modo de reproducción y el volumen del cuadro de video según tus preferencias.
 ### ¿Dónde puedo encontrar más soporte y recursos para Aspose.Slides?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para asistencia, documentación y apoyo comunitario.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Thay đổi kiểu hình dạng SmartArt trong PowerPoint bằng Java
 linktitle: Thay đổi kiểu hình dạng SmartArt trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thay đổi kiểu SmartArt trong bản trình bày PowerPoint bằng Java với Aspose.Slides cho Java. Tăng cường bài thuyết trình của bạn.
-type: docs
 weight: 23
 url: /vi/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong thế giới phát triển Java, việc tạo ra các bản trình bày mạnh mẽ thường là một yêu cầu bắt buộc. Cho dù đó là mục đích kinh doanh, mục đích giáo dục hay chỉ đơn giản là chia sẻ thông tin, bản trình bày PowerPoint là phương tiện phổ biến. Tuy nhiên, đôi khi các kiểu và định dạng mặc định do PowerPoint cung cấp có thể không đáp ứng đầy đủ nhu cầu của chúng ta. Đây là lúc Aspose.Slides cho Java phát huy tác dụng.
 Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các bản trình bày PowerPoint theo chương trình. Nó cung cấp một loạt các tính năng, bao gồm khả năng thao tác hình dạng, kiểu dáng, hoạt ảnh, v.v. Trong hướng dẫn này, chúng ta sẽ tập trung vào một nhiệm vụ cụ thể: thay đổi kiểu hình dạng SmartArt trong bản trình bày PowerPoint bằng Java.
@@ -69,3 +73,9 @@ Có, Aspose.Slides cho Java có thể được tích hợp liền mạch với c
  Có, bạn có thể mua giấy phép tạm thời cho Aspose.Slides for Java từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm tài liệu chi tiết về Aspose.Slides for Java[đây](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

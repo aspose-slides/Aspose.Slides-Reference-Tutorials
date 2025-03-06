@@ -3,10 +3,14 @@ title: Pembuatan Hyperlink yang Dapat Diubah di Aspose.Slides untuk .NET
 linktitle: Pembuatan Hyperlink yang Dapat Diubah
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan Presentasi PowerPoint Anda dengan Hyperlink yang Dapat Diubah Menggunakan Aspose.Slides untuk .NET. Libatkan Audiens Anda Tidak Seperti Sebelumnya!
-type: docs
 weight: 14
 url: /id/net/hyperlink-manipulation/mutable-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam dunia pengembangan perangkat lunak modern, membuat presentasi dinamis dengan hyperlink interaktif sangat penting untuk melibatkan audiens Anda. Aspose.Slides for .NET adalah alat canggih yang memungkinkan Anda memanipulasi dan menyesuaikan presentasi PowerPoint, termasuk pembuatan hyperlink yang bisa diubah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pembuatan hyperlink yang dapat diubah menggunakan Aspose.Slides untuk .NET. 
 
@@ -96,3 +100,9 @@ Sangat. Aspose.Slides untuk .NET menyediakan opsi luas untuk menyesuaikan tampil
 
 ### 5. Apakah Aspose.Slides for .NET cocok untuk membuat konten e-learning interaktif?
 Ya, Aspose.Slides for .NET adalah alat serbaguna yang dapat digunakan untuk membuat konten e-learning interaktif, termasuk hyperlink, kuis, dan elemen multimedia.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

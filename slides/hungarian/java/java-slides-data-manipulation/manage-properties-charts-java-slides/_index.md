@@ -3,10 +3,14 @@ title: Tulajdonságdiagramok kezelése a Java Slides alkalmazásban
 linktitle: Tulajdonságdiagramok kezelése a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Tanuljon meg lenyűgöző diagramokat készíteni és tulajdonságait kezelni a Java diákon az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hatékony prezentációkhoz.
-type: docs
 weight: 13
 url: /hu/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a Java Slides tulajdonságainak és diagramjainak kezelésébe az Aspose.Slides segítségével
 
@@ -198,3 +202,9 @@ Igen, testreszabhatja a diagram színeit a sorozat adatpontjainak vagy kategóri
 ### Milyen további 3D tulajdonságokat szabhatok testre?
 
 Az Aspose.Slides dokumentációjában megtekintheti a diagram egyéb 3D tulajdonságait, például a mélységet, a perspektívát és a megvilágítást.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

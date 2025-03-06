@@ -3,10 +3,14 @@ title: PowerPoint の図形にアニメーションを追加する
 linktitle: PowerPoint の図形にアニメーションを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint の図形にアニメーションを追加する方法を学びます。魅力的なプレゼンテーションを作成するのに最適です。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 魅力的なプレゼンテーションを作成するには、多くの場合、図形やテキストにアニメーションを追加する必要があります。アニメーションを使用すると、スライドがよりダイナミックで魅力的になり、視聴者の興味を引き続けることができます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの図形にアニメーションを追加する手順を説明します。この記事を読み終える頃には、プロフェッショナルなアニメーションを簡単に作成できるようになります。
 ## 前提条件
@@ -108,3 +112,9 @@ Aspose.Slides は Java SE 6 以降をサポートしています。
 各図形に対して手順を繰り返し、必要に応じて異なる効果を指定することにより、複数の図形に異なるアニメーションを追加できます。
 ### その他の例やドキュメントはどこで見つかりますか?
 チェックしてください[ドキュメンテーション](https://reference.aspose.com/slides/java/)そして[サポートフォーラム](https://forum.aspose.com/c/slides/11)さらなる例とヘルプについては、こちらをご覧ください。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

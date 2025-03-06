@@ -3,10 +3,14 @@ title: 存取簡報屬性
 linktitle: 存取簡報屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 釋放 Aspose.Slides for Java 的強大功能。透過本教學掌握演示管理。輕鬆存取、修改和增強演示屬性。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在 Java 開發領域，無縫管理簡報可能是一項具有挑戰性的工作。然而，隨著 Aspose.Slides for Java 的出現，開發人員可以使用強大的工具包輕鬆應對這種複雜性。本教學將作為您的指路明燈，揭示利用 Aspose.Slides 存取簡報屬性的複雜性。我們將深入研究先決條件，導入包，並將每個範例分解為易於理解的步驟，確保您的掌握之旅保持順利和豐富。
 ## 先決條件
@@ -64,3 +68,9 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
 如有任何疑問或幫助，您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)，專家和社區隨時可以提供幫助。
 ### 我可以獲得 Aspose.Slides 的臨時許可證嗎？
 是的，臨時許可證可用於評估或測試目的。您可以從以下機構獲得臨時許可證[購買頁面](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

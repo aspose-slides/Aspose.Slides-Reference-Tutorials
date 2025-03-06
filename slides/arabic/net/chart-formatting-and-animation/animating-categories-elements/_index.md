@@ -3,10 +3,14 @@ title: رسوم متحركة قوية للمخططات باستخدام Aspose.S
 linktitle: تحريك عناصر الفئات في الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية تحريك عناصر المخطط في PowerPoint باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة للحصول على عروض تقديمية مذهلة.
-type: docs
 weight: 11
 url: /ar/net/chart-formatting-and-animation/animating-categories-elements/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم العروض التقديمية، يمكن للرسوم المتحركة أن تجعل المحتوى الخاص بك ينبض بالحياة، خاصة عند التعامل مع الرسوم البيانية. يقدم Aspose.Slides for .NET مجموعة من الميزات القوية التي تسمح لك بإنشاء رسوم متحركة مذهلة لمخططاتك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تحريك عناصر الفئة في مخطط باستخدام Aspose.Slides for .NET.
 
@@ -123,3 +127,10 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 
 ### 5. هل يوجد منتدى مجتمعي لـ Aspose.Slides لدعم .NET؟
  نعم، يمكنك العثور على منتدى مجتمعي داعم لـ Aspose.Slides for .NET[هنا](https://forum.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

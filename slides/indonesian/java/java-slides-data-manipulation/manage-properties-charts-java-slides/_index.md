@@ -3,10 +3,14 @@ title: Kelola Bagan Properti di Slide Java
 linktitle: Kelola Bagan Properti di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat bagan menakjubkan dan mengelola properti di slide Java dengan Aspose.Slides. Panduan langkah demi langkah dengan kode sumber untuk presentasi yang hebat.
-type: docs
 weight: 13
 url: /id/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mengelola Properti dan Bagan di Java Slides menggunakan Aspose.Slides
 
@@ -198,3 +202,9 @@ Ya, Anda dapat mengkustomisasi warna bagan dengan mengatur properti isian poin a
 ### Properti 3D apa lagi yang dapat saya sesuaikan?
 
 Anda dapat menjelajahi properti 3D bagan lainnya, seperti kedalaman, perspektif, dan pencahayaan, dengan mengacu pada dokumentasi Aspose.Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

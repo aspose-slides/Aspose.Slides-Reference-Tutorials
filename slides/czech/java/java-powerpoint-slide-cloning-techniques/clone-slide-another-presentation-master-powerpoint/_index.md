@@ -3,10 +3,14 @@ title: Klonovat snímek do jiné prezentace s mistrem
 linktitle: Klonovat snímek do jiné prezentace s mistrem
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se klonovat snímky mezi prezentacemi v Javě pomocí Aspose.Slides. Výukový program krok za krokem o údržbě hlavních snímků.
-type: docs
 weight: 14
 url: /cs/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat a manipulovat s prezentacemi PowerPoint. Tento článek poskytuje obsáhlý, podrobný návod, jak klonovat snímek z jedné prezentace do druhé při zachování jeho hlavního snímku pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -83,3 +87,9 @@ Aspose.Slides for Java nabízí bezplatnou zkušební verzi. Pro plnou funkčnos
  Dočasnou licenci můžete získat od[Aspose nákupní stránku](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu další příklady a dokumentaci?  
  Navštivte[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) pro další příklady a podrobné informace.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

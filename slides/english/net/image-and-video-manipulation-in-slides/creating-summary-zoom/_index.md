@@ -3,10 +3,14 @@ title: Aspose.Slides - Mastering Summary Zooms in .NET
 linktitle: Creating Summary Zoom in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Elevate your presentations with Aspose.Slides for .NET! Learn to create engaging Summary Zooms effortlessly. Download now for a dynamic slide experience.
-type: docs
 weight: 16
 url: /net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic world of presentations, Aspose.Slides for .NET stands out as a powerful tool to enhance your slide creation experience. One of the notable features it offers is the ability to create a Summary Zoom, a visually engaging way to present a collection of slides. In this tutorial, we'll guide you through the process of creating a Summary Zoom in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -79,3 +83,10 @@ Absolutely! You can include hyperlinks in your slides, and they will seamlessly 
 As of the latest version, there are no strict limitations on the number of sections you can add to a presentation.
 ### Is there a trial version available for Aspose.Slides?
 Yes, you can explore the features of Aspose.Slides by downloading the [free trial version](https://releases.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: OLE objektumkeretek hozzáadása a prezentációhoz az Aspose.Slides seg�
 linktitle: OLE objektumkeretek hozzáadása a prezentációhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Tanulja meg, hogyan javíthatja a PowerPoint prezentációkat dinamikus tartalommal! Kövesse lépésenkénti útmutatónkat az Aspose.Slides for .NET használatával. Fokozza az elköteleződést most!
-type: docs
 weight: 15
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Slides for .NET segítségével OLE (Object Linking and Embedding) objektumkeretek prezentációs diákhoz való hozzáadásának folyamatát mutatjuk be. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint fájlokkal. Kövesse ezt a lépésenkénti útmutatót az OLE objektumok zökkenőmentes beágyazásához a bemutató diákjaiba, így dinamikus és interaktív tartalommal bővítheti PowerPoint fájljait.
 ## Előfeltételek
@@ -84,3 +88,9 @@ V: Igen, az Aspose.Slides támogatja a legújabb PowerPoint fájlformátumokat, 
 V: Természetesen beállíthatja az OLE objektumkeret méretét, helyzetét és egyéb tulajdonságait saját preferenciái szerint.
 ### K: Hol kérhetek segítséget, ha kihívásokba ütközöm a megvalósítás során?
  V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

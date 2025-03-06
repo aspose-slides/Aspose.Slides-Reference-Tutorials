@@ -3,10 +3,14 @@ title: Verbind vormen met behulp van connectoren in PowerPoint
 linktitle: Verbind vormen met behulp van connectoren in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen verbindt met behulp van verbindingslijnen in PowerPoint-presentaties met Aspose.Slides voor Java. Stap-voor-stap handleiding voor beginners.
-type: docs
 weight: 18
 url: /nl/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u vormen kunt verbinden met behulp van connectoren in PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Volg deze stapsgewijze instructies om vormen efficiënt met elkaar te verbinden en visueel aantrekkelijke dia's te maken.
 ## Vereisten
@@ -82,3 +86,9 @@ Ja, u kunt meerdere vormen verbinden met behulp van complexe connectoren van Asp
 Absoluut, je kunt eenvoudig programmatisch tekst toevoegen aan vormen en connectoren met Aspose.Slides voor Java.
 ### Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Slides voor Java-gebruikers?
  Ja, u kunt nuttige bronnen vinden, vragen stellen en met andere gebruikers in contact komen op het Aspose.Slides-forum[hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 타원 모양 튜토리얼 서식 �
 linktitle: Aspose.Slides를 사용하여 슬라이드에서 타원 모양 서식 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint에서 멋진 타원 모양을 만들어 보세요. 전문적인 프레젠테이션을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 청중을 사로잡으려면 시각적으로 매력적인 모양으로 PowerPoint 프레젠테이션을 향상시키는 것이 중요합니다. 그러한 모양 중 하나는 슬라이드에 우아함과 전문성을 더할 수 있는 타원입니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 PowerPoint에서 타원 모양의 서식을 지정하는 과정을 안내합니다.
 ## 전제 조건
@@ -81,3 +85,9 @@ Aspose.Slides는 최신 버전을 포함한 다양한 PowerPoint 버전과의 �
  지역사회에서 도움을 구하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### .NET용 Aspose.Slides를 직접 구매할 수 있는 옵션이 있나요?
  예, 라이브러리를 직접 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

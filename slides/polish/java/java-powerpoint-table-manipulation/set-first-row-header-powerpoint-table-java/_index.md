@@ -3,10 +3,14 @@ title: Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pom
 linktitle: Ustaw pierwszy wiersz jako nagłówek w tabeli programu PowerPoint za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić pierwszy wiersz jako nagłówek w tabelach programu PowerPoint przy użyciu Aspose.Slides dla Java. Bez wysiłku poprawiaj przejrzystość i organizację prezentacji.
-type: docs
 weight: 19
 url: /pl/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W tym samouczku omówimy, jak manipulować tabelami programu PowerPoint za pomocą Aspose.Slides dla Java, potężnej biblioteki, która umożliwia bezproblemową integrację i modyfikację prezentacji. W szczególności skupimy się na ustawieniu pierwszego wiersza tabeli jako nagłówka, co poprawi atrakcyjność wizualną i organizację slajdów.
 ## Warunki wstępne
@@ -76,3 +80,9 @@ Aspose.Slides dla Java to solidna biblioteka do programowej pracy z plikami prog
  Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie społeczności[Tutaj](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 主簡報轉換和 PowerPoint 處理
 linktitle: 簡報轉換
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過 Aspose.Slides for .NET 教學提升您的技能。逐步學習簡報轉換和 PowerPoint 處理。今天就改變您的工作流程吧！
-type: docs
 weight: 10
 url: /zh-hant/net/presentation-conversion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET 為 PowerPoint 處理的各個方面提供了全面的教學。其中一個教學著重於簡報轉換，引導使用者將簡報無縫轉換為不同的格式。本教程為開發人員提供了高效處理簡報轉換的知識，擴展了他們產生多功能輸出的能力。
 
@@ -62,3 +66,9 @@ Aspose.Slides for .NET 為 PowerPoint 處理的各個方面提供了全面的教
 了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為 SWF 格式。輕鬆建立動態內容！
 ### [將簡報轉換為 PDF 並更新進度](./convert-presentation-to-pdf-with-progress-update/)
 了解如何使用 Aspose.Slides for .NET 將簡報轉換為具有進度更新的 PDF。包含原始碼的分步指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

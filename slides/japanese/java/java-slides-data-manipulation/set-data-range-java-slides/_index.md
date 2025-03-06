@@ -3,10 +3,14 @@ title: Java スライドでデータ範囲を設定する
 linktitle: Java スライドでデータ範囲を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでデータ範囲を簡単に設定する方法を学びます。このステップバイステップ ガイドを使用して、動的でデータ駆動型のプレゼンテーションを作成します。
-type: docs
 weight: 18
 url: /ja/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでデータ範囲を設定する方法の紹介
 
@@ -97,3 +101,9 @@ Aspose.Slides for Java API を使用して、プレゼンテーション内の�
 ### Aspose.Slides for Java の詳細なドキュメントや例はどこで入手できますか?
 
  Aspose.Slides for Java の詳細なドキュメントと例は、Aspose ドキュメント Web サイトで参照できます。[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

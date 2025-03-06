@@ -3,10 +3,14 @@ title: แปลง Notes Slide View เป็น PDF ใน Java Slides
 linktitle: แปลง Notes Slide View เป็น PDF ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงงานนำเสนอ PowerPoint พร้อมบันทึกย่อเป็น PDF โดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราพร้อมซอร์สโค้ด
-type: docs
 weight: 16
 url: /th/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการแปลงมุมมองสไลด์ Notes เป็น PDF ใน Java Slides
 
@@ -106,3 +110,9 @@ options.setNotesPosition(NotesPositions.RightFull);
 ### ฉันจะหาเอกสารและตัวอย่างเพิ่มเติมได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

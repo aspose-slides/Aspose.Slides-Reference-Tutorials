@@ -3,10 +3,14 @@ title: Java PowerPoint에서 위 첨자 및 아래 첨자 텍스트 추가
 linktitle: Java PowerPoint에서 위 첨자 및 아래 첨자 텍스트 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에 위 첨자와 아래 첨자 텍스트를 추가하는 방법을 알아보세요. 슬라이드를 향상시키는 데 적합합니다.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 매력적이고 유익한 PowerPoint 프레젠테이션을 만들려면 위 첨자 및 아래 첨자 텍스트와 같은 서식 지정 기능을 사용해야 하는 경우가 많습니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에 위 첨자와 아래 첨자 텍스트를 통합하는 과정을 안내합니다.
 ## 전제 조건
@@ -89,3 +93,9 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  지원 및 토론을 원하시면 다음 사이트를 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

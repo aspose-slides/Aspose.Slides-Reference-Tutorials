@@ -3,10 +3,14 @@ title: Kloning av former i presentationsbilder med Aspose.Slides
 linktitle: Kloning av former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du effektivt klonar former i presentationsbilder med Aspose.Slides API. Skapa dynamiska presentationer med lätthet. Utforska steg-för-steg-guiden, vanliga frågor och mer.
-type: docs
 weight: 27
 url: /sv/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion
 
@@ -97,3 +101,9 @@ Klonade former behåller sina interaktioner och hyperlänkar från källformen. 
 ## Slutsats
 
 Att låsa upp kraften i att klona former i presentationsbilder med Aspose.Slides öppnar upp en värld av kreativa möjligheter för både innehållsskapare och utvecklare. Den här guiden har lett dig genom processen, från installation till avancerad anpassning, och ger dig de verktyg du behöver för att få dina presentationer att sticka ut. Med Aspose.Slides kan du effektivisera ditt arbetsflöde och förverkliga dina presentationsvisioner utan ansträngning.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

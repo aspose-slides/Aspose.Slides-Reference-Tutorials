@@ -3,10 +3,14 @@ title: Wykres kołowy w slajdach Java
 linktitle: Wykres kołowy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wspaniałe wykresy kołowe w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla programistów Java.
-type: docs
 weight: 23
 url: /pl/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do tworzenia wykresu kołowego w slajdach Java przy użyciu Aspose.Slides
 
@@ -283,3 +287,9 @@ Tak, Aspose.Slides for Java obsługuje różne typy wykresów, w tym wykresy sł
 ### Jak mogę znaleźć więcej informacji i przykładów pracy z Aspose.Slides dla Java?
 
  Więcej informacji, szczegółową dokumentację i dodatkowe przykłady można znaleźć na stronie[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/). Zawiera wszechstronne zasoby ułatwiające efektywne korzystanie z biblioteki.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

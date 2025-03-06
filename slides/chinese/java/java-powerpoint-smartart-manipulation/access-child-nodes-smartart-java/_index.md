@@ -3,10 +3,14 @@ title: 使用 Java 访问 SmartArt 中的子节点
 linktitle: 使用 Java 访问 SmartArt 中的子节点
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本分步指南了解如何使用 Aspose.Slides for Java 访问和操作 SmartArt 中的子节点。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 有没有想过如何以编程方式操作演示文稿中的 SmartArt 图形？Aspose.Slides for Java 是您管理和编辑 PowerPoint 演示文稿的首选库。这个强大的工具允许开发人员访问和操作演示文稿中的各种元素，包括 SmartArt 图形。在本教程中，我们将指导您使用 Java 访问 SmartArt 中的子节点，使您的演示文稿更具动态性和交互性。在本指南结束时，您将掌握轻松遍历和操作 SmartArt 节点的知识。
 ## 先决条件
@@ -81,3 +85,9 @@ if (pres != null) pres.dispose();
 文档可用[这里](https://reference.aspose.com/slides/java/).
 ### 使用 Aspose.Slides for Java 进行开发的最佳 IDE 是什么？
 IntelliJ IDEA 和 Eclipse 是流行的 IDE，可以与 Aspose.Slides for Java 配合良好。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Гистограмма в слайдах Java
 linktitle: Гистограмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать гистограммы в презентациях PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом для визуализации данных.
-type: docs
 weight: 19
 url: /ru/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в гистограмму в слайдах Java с использованием Aspose.Slides
 
@@ -112,3 +116,9 @@ finally
 ### Могу ли я настроить внешний вид гистограммы?
 
 Да, вы можете настроить внешний вид диаграммы, включая ее цвета, метки и оси, с помощью API Aspose.Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

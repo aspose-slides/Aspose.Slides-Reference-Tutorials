@@ -3,10 +3,14 @@ title: Przekształcanie slajdów prezentacji za pomocą Aspose.Slides dla .NET
 linktitle: Zmiana kolejności kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak zmieniać kształt slajdów prezentacji za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zmienić kolejność kształtów i poprawić atrakcyjność wizualną.
-type: docs
 weight: 26
 url: /pl/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie slajdów prezentacji jest kluczowym aspektem skutecznej komunikacji. Aspose.Slides dla .NET umożliwia programistom programowe manipulowanie slajdami, oferując szeroki zakres funkcjonalności. W tym samouczku zagłębimy się w proces zmiany kolejności kształtów na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -70,3 +74,9 @@ Odp.: Tak, Aspose.Slides dla .NET jest kompatybilny zarówno ze środowiskami Wi
  O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby uzyskać wsparcie i nawiązać kontakt ze społecznością.
 ### P: Jak mogę uzyskać tymczasową licencję na Aspose.Slides dla .NET?
  O: Możesz nabyć[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

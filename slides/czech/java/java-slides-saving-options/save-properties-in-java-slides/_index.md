@@ -3,10 +3,14 @@ title: Uložit vlastnosti v Java Slides
 linktitle: Uložit vlastnosti v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své prezentace v PowerPointu pomocí Aspose.Slides pro Java. Naučte se nastavovat vlastnosti, deaktivovat šifrování, přidat ochranu heslem a bez námahy ukládat.
-type: docs
 weight: 12
 url: /cs/java/saving-options/save-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do ukládání vlastností v Java Slides
 
@@ -170,3 +174,9 @@ To pomáhá předcházet únikům paměti ve vaší aplikaci.
 ### Jak se mohu dozvědět více o Aspose.Slides pro Java a jeho funkcích?
 
  Dokumentaci Aspose.Slides for Java si můžete prohlédnout na adrese[tady](https://docs.aspose.com/slides/java/) pro podrobné informace, výukové programy a příklady použití knihovny.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

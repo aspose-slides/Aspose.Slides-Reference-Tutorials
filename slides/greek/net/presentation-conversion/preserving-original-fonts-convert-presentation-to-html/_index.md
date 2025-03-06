@@ -3,10 +3,14 @@ title: Διατήρηση αρχικών γραμματοσειρών - Μετα
 linktitle: Διατήρηση αρχικών γραμματοσειρών - Μετατροπή παρουσίασης σε HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να διατηρείτε τις αρχικές γραμματοσειρές κατά τη μετατροπή των παρουσιάσεων σε HTML χρησιμοποιώντας το Aspose.Slides για .NET. Εξασφαλίστε τη συνοχή της γραμματοσειράς και τον οπτικό αντίκτυπο χωρίς κόπο.
-type: docs
 weight: 14
 url: /el/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Σε αυτόν τον αναλυτικό οδηγό, θα σας καθοδηγήσουμε στη διαδικασία διατήρησης των αρχικών γραμματοσειρών κατά τη μετατροπή μιας παρουσίασης σε HTML χρησιμοποιώντας το Aspose.Slides για .NET. Θα σας παρέχουμε τον απαραίτητο πηγαίο κώδικα C# και θα εξηγήσουμε λεπτομερώς κάθε βήμα. Μέχρι το τέλος αυτού του σεμιναρίου, θα μπορείτε να διασφαλίσετε ότι οι γραμματοσειρές στο έγγραφο HTML που έχετε μετατρέψει θα παραμείνουν πιστές στην αρχική παρουσίαση.
 
@@ -98,3 +102,10 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ### Ε5: Πού μπορώ να έχω πρόσβαση σε πρόσθετους πόρους και υποστήριξη;
 
  Μπορείτε να βρείτε περισσότερη τεκμηρίωση, σεμινάρια και υποστήριξη στον ιστότοπο Aspose. Επίσκεψη[Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/) για αναλυτικές πληροφορίες.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

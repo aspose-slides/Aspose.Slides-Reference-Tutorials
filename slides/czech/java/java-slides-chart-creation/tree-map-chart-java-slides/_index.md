@@ -3,10 +3,14 @@ title: Stromová mapa v Java Slides
 linktitle: Stromová mapa v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte stromové mapy v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci hierarchických dat.
-type: docs
 weight: 13
 url: /cs/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Tree Map Chart v Java Slides
 
@@ -152,3 +156,9 @@ Ano, můžete vytvořit více grafů stromové mapy v jedné prezentaci proveden
 ### Jak uložím prezentaci s mapou stromu?
 
  Použijte`pres.save()` způsob uložení prezentace s grafem Tree Map v požadovaném formátu (např. PPTX).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

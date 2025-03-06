@@ -3,10 +3,14 @@ title: Aggiungi colonna nelle caselle di testo con Aspose.Slides per Java
 linktitle: Aggiungi colonna nelle caselle di testo con Aspose.Slides per Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere colonne alle caselle di testo in PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con questa guida passo passo.
-type: docs
 weight: 10
 url: /it/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 In questo tutorial esploreremo come migliorare le caselle di testo aggiungendo colonne utilizzando Aspose.Slides per Java. Aspose.Slides è una potente libreria Java che consente agli sviluppatori di creare, manipolare e convertire presentazioni PowerPoint a livello di codice senza richiedere Microsoft Office. L'aggiunta di colonne alle caselle di testo può migliorare notevolmente la leggibilità e l'organizzazione dei contenuti all'interno delle diapositive, rendendo le tue presentazioni più coinvolgenti e professionali.
 ## Prerequisiti
@@ -82,3 +86,9 @@ Sì, Aspose.Slides supporta Java 11 e versioni successive.
 No, Aspose.Slides non richiede l'installazione di Microsoft Office sul computer.
 ### Dove posso trovare ulteriore documentazione su Aspose.Slides per Java?
  È disponibile la documentazione dettagliata[Qui](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

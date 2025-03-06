@@ -3,10 +3,14 @@ title: Merge Cells in PowerPoint Table with Java
 linktitle: Merge Cells in PowerPoint Table with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to merge cells in PowerPoint tables using Aspose.Slides for Java. Enhance your presentation layout with this step-by-step guide.
-type: docs
 weight: 17
 url: /java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, you will learn how to effectively merge cells within a PowerPoint table using Aspose.Slides for Java. Aspose.Slides is a powerful library that allows developers to create, manipulate, and convert PowerPoint presentations programmatically. By merging cells in a table, you can customize the layout and structure of your presentation slides, enhancing clarity and visual appeal.
 ## Prerequisites
@@ -92,3 +96,10 @@ Yes, you can get a free trial of Aspose.Slides for Java from [here](https://rele
 You can find the documentation [here](https://reference.aspose.com/slides/java/).
 ### How can I get support for Aspose.Slides for Java?
 You can get support from the Aspose.Slides community forum [here](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

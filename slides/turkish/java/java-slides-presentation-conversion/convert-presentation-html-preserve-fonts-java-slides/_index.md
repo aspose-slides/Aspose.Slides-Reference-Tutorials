@@ -3,10 +3,14 @@ title: Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dön
 linktitle: Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak orijinal yazı tiplerini korurken PowerPoint sunumlarınızı HTML'ye dönüştürün.
-type: docs
 weight: 14
 url: /tr/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Orijinal Yazı Tiplerini Koruyarak Sunumu HTML'ye Dönüştürmeye Giriş
 
@@ -111,3 +115,9 @@ Bu kod örneği PPTX dosyaları için tasarlanmıştır. Eski PPT dosyalarını 
 ### HTML çıktısını nasıl daha da özelleştirebilirim?
 
  Keşfedebilirsiniz`HtmlOptions` HTML çıktısının slayt boyutu, görüntü kalitesi ve daha fazlası gibi çeşitli yönlerini özelleştirmek için sınıf.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

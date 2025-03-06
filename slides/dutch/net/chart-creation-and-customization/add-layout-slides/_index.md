@@ -3,10 +3,14 @@ title: Voeg lay-outdia's toe aan de presentatie
 linktitle: Voeg lay-outdia's toe aan de presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u uw PowerPoint-presentaties kunt verbeteren met Aspose.Slides voor .NET. Voeg lay-outdia's toe voor een professioneel tintje.
-type: docs
 weight: 11
 url: /nl/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In het huidige digitale tijdperk is het maken van een impactvolle presentatie een essentiële vaardigheid. Met een goed gestructureerde en visueel aantrekkelijke presentatie kunt u uw boodschap effectief overbrengen. Aspose.Slides voor .NET is een krachtig hulpmiddel waarmee u in een mum van tijd verbluffende presentaties kunt maken. In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Slides voor .NET kunt gebruiken om lay-outdia's aan uw presentatie toe te voegen. We zullen het proces opsplitsen in eenvoudig te volgen stappen, zodat u de concepten grondig begrijpt. Laten we beginnen!
 
@@ -104,3 +108,9 @@ Aspose.Slides voor .NET is een .NET-bibliotheek waarmee ontwikkelaars programmat
 
 ### Waar kan ik ondersteuning krijgen of hulp zoeken bij Aspose.Slides voor .NET?
  Als u vragen heeft of hulp nodig heeft, kunt u het Aspose.Slides for .NET-forum bezoeken op[Aspose gemeenschapsforum](https://forum.aspose.com/). De community is actief en behulpzaam bij het beantwoorden van vragen van gebruikers.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

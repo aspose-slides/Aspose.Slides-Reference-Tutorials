@@ -3,10 +3,14 @@ title: Embed Fonts in HTML using Aspose.Slides for Java
 linktitle: Embed Fonts in HTML using Aspose.Slides for Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to embed fonts in HTML using Aspose.Slides for Java to ensure consistent typography across different platforms and devices.
-type: docs
 weight: 13
 url: /java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Aspose.Slides for Java is a powerful tool for Java developers seeking to manipulate PowerPoint presentations programmatically. In this tutorial, we'll delve into the process of embedding fonts in HTML using Aspose.Slides for Java. By embedding fonts, you ensure that your presentations maintain their intended appearance across different platforms and devices, even if the required fonts are not installed locally.
 ## Prerequisites
@@ -58,3 +62,10 @@ Yes, you can download a free trial from [here](https://releases.aspose.com/).
 You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support or contact Aspose support for professional assistance.
 ### Can I purchase a temporary license for Aspose.Slides for Java?
 Yes, you can acquire a temporary license from the [purchase page](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

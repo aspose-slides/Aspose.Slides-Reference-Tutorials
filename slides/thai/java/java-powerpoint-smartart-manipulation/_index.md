@@ -3,10 +3,14 @@ title: การจัดการ Java PowerPoint SmartArt
 linktitle: การจัดการ Java PowerPoint SmartArt
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการ Java PowerPoint SmartArt อย่างมีประสิทธิภาพด้วย GroupDocs.Slides สำหรับบทช่วยสอน Java เข้าถึงโหนดลูก เพิ่มโหนด เปลี่ยนเค้าโครง และอื่นๆ อีกมากมาย!
-type: docs
 weight: 32
 url: /th/java/java-powerpoint-smartart-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## การแนะนำ
 
@@ -71,3 +75,9 @@ url: /th/java/java-powerpoint-smartart-manipulation/
 เรียนรู้วิธีลบโหนดออกจาก SmartArt ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java อย่างมีประสิทธิภาพและทางโปรแกรม
 ### [ลบโหนดในตำแหน่งเฉพาะใน SmartArt](./remove-node-specific-position-smartart-java/)
 เรียนรู้วิธีลบโหนดที่ตำแหน่งเฉพาะภายใน SmartArt โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการปรับแต่งการนำเสนอได้อย่างง่ายดาย
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

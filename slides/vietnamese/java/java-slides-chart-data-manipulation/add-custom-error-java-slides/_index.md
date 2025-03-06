@@ -3,10 +3,14 @@ title: Thêm lỗi tùy chỉnh trong Java Slides
 linktitle: Thêm lỗi tùy chỉnh trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm các thanh lỗi tùy chỉnh vào biểu đồ PowerPoint trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn để hiển thị dữ liệu chính xác.
-type: docs
 weight: 11
 url: /vi/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Thêm thanh lỗi tùy chỉnh trong Java Slide bằng Aspose.Slides
 
@@ -150,3 +154,9 @@ Bạn có thể lặp qua các điểm dữ liệu và đặt giá trị thanh l
 ### Có thể ẩn các thanh lỗi cho các điểm dữ liệu cụ thể không?
 
  Có, bạn có thể kiểm soát khả năng hiển thị của các thanh lỗi cho từng điểm dữ liệu bằng cách đặt`setVisible` tài sản của`IErrorBarsFormat` sự vật.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

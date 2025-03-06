@@ -3,10 +3,14 @@ title: Absatzeinzug in Java PowerPoint festlegen
 linktitle: Absatzeinzug in Java PowerPoint festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java programmgesteuert Absatzeinzüge in PowerPoint-Folien festlegen. Verbessern Sie mühelos die Formatierung Ihrer Präsentation.
-type: docs
 weight: 16
 url: /de/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie PowerPoint-Präsentationen programmgesteuert mit Aspose.Slides für Java bearbeiten. Insbesondere konzentrieren wir uns auf das Festlegen von Absatzeinzügen innerhalb von Folien. Aspose.Slides für Java bietet einen leistungsstarken Satz von APIs, mit denen Entwickler PowerPoint-Präsentationen erstellen, ändern, konvertieren und verwalten können, ohne auf Microsoft Office Automation angewiesen zu sein.
 ## Voraussetzungen
@@ -85,3 +89,9 @@ Aspose.Slides für Java ist eine leistungsstarke Bibliothek für die programmges
  Ja, Sie können eine kostenlose Testversion erhalten von[Hier](https://releases.aspose.com/).
 ### Wo erhalte ich Support für Aspose.Slides für Java?
  Sie können Unterstützung im Community-Forum erhalten[Hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

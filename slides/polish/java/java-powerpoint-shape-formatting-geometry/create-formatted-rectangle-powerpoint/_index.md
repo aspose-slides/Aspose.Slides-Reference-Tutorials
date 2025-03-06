@@ -3,10 +3,14 @@ title: Utwórz sformatowany prostokąt w programie PowerPoint
 linktitle: Utwórz sformatowany prostokąt w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak utworzyć i sformatować prostokąt w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 18
 url: /pl/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces tworzenia sformatowanego prostokąta na slajdzie programu PowerPoint przy użyciu Aspose.Slides dla Java. Omówimy każdy krok, abyś mógł go śledzić i wdrożyć we własnych projektach.
 ## Warunki wstępne
@@ -91,3 +95,9 @@ Tak, możesz używać Aspose.Slides for Java z dowolnym IDE zgodnym z Javą, tak
  Tak, utylizacja`Presentation` Obiekt pomaga zwolnić zasoby i uniknąć wycieków pamięci.
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides dla Java?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java スライドの外部リソースから SVG オブジェクトの画
 linktitle: Java スライドの外部リソースから SVG オブジェクトの画像を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、外部リソースからベクター ベースの SVG 画像を Java スライドに追加する方法を学びます。高品質のビジュアルで魅力的なプレゼンテーションを作成します。
-type: docs
 weight: 12
 url: /ja/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドで外部リソースの SVG オブジェクトから画像を追加する方法の紹介
 
@@ -118,3 +122,9 @@ Aspose.Slides for Java はさまざまな SVG 形式をサポートしていま�
 ### スライドに追加された SVG 画像にアニメーションを適用できますか?
 
 はい、Aspose.Slides を使用してスライド内の SVG 画像にアニメーションを適用し、動的なプレゼンテーションを作成できます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

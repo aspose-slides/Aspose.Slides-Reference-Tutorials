@@ -3,10 +3,14 @@ title: مؤشر نقطة بيانات الرسم البياني في شرائح 
 linktitle: مؤشر نقطة بيانات الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع فهارس نقاط بيانات المخطط في Java Slides باستخدام Aspose.Slides لـ Java. قم باستخراج البيانات من مخططات PowerPoint والعمل معها بسهولة.
-type: docs
 weight: 12
 url: /ar/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لمؤشر نقطة بيانات الرسم البياني في شرائح جافا
 
@@ -98,3 +102,9 @@ try {
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على أمثلة ووثائق شاملة لـ Aspose.Slides for Java على موقع وثائق Aspose[هنا](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

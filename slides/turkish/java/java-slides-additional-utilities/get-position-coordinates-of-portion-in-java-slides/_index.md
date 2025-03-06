@@ -3,10 +3,14 @@ title: Java Slaytlarında Bölümün Konum Koordinatlarını Alın
 linktitle: Java Slaytlarında Bölümün Konum Koordinatlarını Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java API'yi kullanarak Java slaytlarındaki metin bölümü koordinatlarını almayı öğrenin. PowerPoint sunumlarında metin yerleştirme üzerinde hassas kontrol sahibi olun.
-type: docs
 weight: 12
 url: /tr/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Bölümün Konum Koordinatlarını Alma Konusuna Giriş
 
@@ -120,3 +124,9 @@ Evet, Aspose.Slides for Java, PPTX, PPT ve daha fazlası dahil olmak üzere çe�
 ### Aspose.Slides for Java ile ilgili nasıl daha fazla destek veya yardım alabilirim?
 
 Aspose web sitesinden ek destek ve kaynaklara erişebilirsiniz. Kullanıcılara forumlar, belgeler ve premium destek seçenekleri sunarlar.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

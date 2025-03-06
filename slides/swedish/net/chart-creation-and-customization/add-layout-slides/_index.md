@@ -3,10 +3,14 @@ title: Lägg till layoutbilder till presentationen
 linktitle: Lägg till layoutbilder till presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar dina PowerPoint-presentationer med Aspose.Slides för .NET. Lägg till layoutbilder för en professionell touch.
-type: docs
 weight: 11
 url: /sv/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 dagens digitala tidsålder är det en viktig färdighet att göra en effektfull presentation. En välstrukturerad och visuellt tilltalande presentation kan förmedla ditt budskap effektivt. Aspose.Slides för .NET är ett kraftfullt verktyg som kan hjälpa dig att skapa fantastiska presentationer på nolltid. I den här steg-för-steg-guiden kommer vi att utforska hur du använder Aspose.Slides för .NET för att lägga till layoutbilder till din presentation. Vi kommer att dela upp processen i steg som är lätta att följa, för att säkerställa att du förstår koncepten grundligt. Låt oss börja!
 
@@ -104,3 +108,9 @@ Aspose.Slides för .NET är ett .NET-bibliotek som gör det möjligt för utveck
 
 ### Var kan jag få support eller söka hjälp med Aspose.Slides för .NET?
  Om du har några frågor eller behöver hjälp kan du besöka Aspose.Slides for .NET-forumet på[Aspose Community Forum](https://forum.aspose.com/). Gemenskapen är aktiv och hjälpsam för att hantera användarfrågor.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

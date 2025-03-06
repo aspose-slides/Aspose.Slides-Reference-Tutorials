@@ -3,10 +3,14 @@ title: Stel de kleurenkaart omkeren in in Java-dia's
 linktitle: Stel de kleurenkaart omkeren in in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de omgekeerde opvulkleuren voor Java Slides-diagrammen kunt instellen met Aspose.Slides. Verbeter uw diagramvisualisaties met deze stapsgewijze handleiding en broncode.
-type: docs
 weight: 22
 url: /nl/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het instellen van de kleurengrafiek Omkeren in Java-dia's
 
@@ -153,3 +157,9 @@ Ja, u kunt verschillende aspecten van de weergave van het diagram aanpassen, inc
 ### Kan ik het diagram in verschillende formaten opslaan?
 
  Ja, u kunt het diagram in verschillende formaten opslaan met Aspose.Slides voor Java. In het meegeleverde codevoorbeeld hebben we de presentatie opgeslagen als een PPTX-bestand. Je kunt verschillende gebruiken`SaveFormat` opties om het op te slaan in andere formaten zoals PDF, PNG of SVG, afhankelijk van uw vereisten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

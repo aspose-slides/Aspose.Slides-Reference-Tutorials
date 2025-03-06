@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में स्वचालित 
 linktitle: जावा स्लाइड्स में स्वचालित चार्ट श्रृंखला रंग
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में स्वचालित श्रृंखला रंग के साथ गतिशील चार्ट बनाना सीखें। अपने डेटा विज़ुअलाइज़ेशन को सहजता से बढ़ाएँ।
-type: docs
 weight: 14
 url: /hi/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java में स्वचालित चार्ट श्रृंखला रंग का परिचय
 
@@ -190,3 +194,9 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### मैं Java के लिए Aspose.Slides के साथ काम करने के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  Aspose.Slides for Java पर अधिक जानकारी और विस्तृत दस्तावेज़ीकरण के लिए, आप संदर्भ दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

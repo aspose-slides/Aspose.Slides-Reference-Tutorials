@@ -3,10 +3,14 @@ title: Chuỗi biểu đồ sinh động với Aspose.Slides cho .NET
 linktitle: Chuỗi hoạt hình trong biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hiệu ứng cho chuỗi biểu đồ bằng Aspose.Slides cho .NET. Thu hút khán giả của bạn bằng các bài thuyết trình sinh động. Bắt đầu ngay bây giờ!
-type: docs
 weight: 12
 url: /vi/net/chart-formatting-and-animation/animating-series/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Bạn đang muốn thêm một số điểm thú vị vào bản trình bày của mình bằng biểu đồ hoạt hình? Aspose.Slides dành cho .NET sẵn sàng giúp biểu đồ của bạn trở nên sống động. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách tạo hiệu ứng chuỗi trong biểu đồ bằng Aspose.Slides cho .NET. Nhưng trước khi chúng ta đi sâu vào hành động, hãy đề cập đến các điều kiện tiên quyết.
 
@@ -109,3 +113,9 @@ Có, bạn có thể điều chỉnh các hiệu ứng hoạt ảnh cho từng c
 
 ### Tôi có thể mua giấy phép Aspose.Slides cho .NET ở đâu?
  Bạn có thể nhận được giấy phép cho Aspose.Slides cho .NET từ trang mua hàng[đây](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

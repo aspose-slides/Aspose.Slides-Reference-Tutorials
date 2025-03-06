@@ -3,10 +3,14 @@ title: Définir la première ligne comme en-tête dans le tableau PowerPoint ave
 linktitle: Définir la première ligne comme en-tête dans le tableau PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir la première ligne comme en-tête dans les tableaux PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez la clarté et l’organisation des présentations sans effort.
-type: docs
 weight: 19
 url: /fr/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment manipuler des tableaux PowerPoint à l'aide d'Aspose.Slides pour Java, une bibliothèque puissante qui permet une intégration et une modification transparentes des présentations. Plus précisément, nous nous concentrerons sur la définition de la première ligne d'un tableau comme en-tête, améliorant ainsi l'attrait visuel et l'organisation de vos diapositives.
 ## Conditions préalables
@@ -76,3 +80,9 @@ Aspose.Slides pour Java est une bibliothèque robuste permettant de travailler a
  Une documentation détaillée est disponible[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
  Vous pouvez obtenir le soutien de la communauté[ici](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

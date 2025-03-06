@@ -3,10 +3,14 @@ title: Java PowerPoint에서 효과적인 글꼴 값 얻기
 linktitle: Java PowerPoint에서 효과적인 글꼴 값 얻기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 효과적인 글꼴 값을 검색하는 방법을 알아보세요. 손쉽게 프레젠테이션 형식을 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 효과적인 글꼴 값을 검색하는 방법을 살펴보겠습니다. 이 기능을 사용하면 슬라이드의 텍스트에 적용된 글꼴 서식에 액세스할 수 있어 다양한 프레젠테이션 조작 작업에 대한 귀중한 통찰력을 얻을 수 있습니다.
 ## 전제 조건
@@ -62,3 +66,9 @@ try-catch 블록과 같은 오류 처리 메커니즘을 구현하여 검색 프
 예, Aspose.Slides를 사용하면 올바른 자격 증명을 제공하는 경우 비밀번호로 보호된 프레젠테이션의 글꼴 값에 액세스할 수 있습니다.
 ### 검색할 수 있는 글꼴 속성에 제한이 있나요?
 Aspose.Slides는 가장 일반적인 서식 측면을 다루는 글꼴 속성 검색을 위한 광범위한 기능을 제공합니다. 그러나 특정 고급 또는 특수 글꼴 기능은 이 방법을 통해 액세스하지 못할 수도 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

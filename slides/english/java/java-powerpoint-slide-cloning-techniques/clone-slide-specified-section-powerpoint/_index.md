@@ -3,10 +3,14 @@ title: Clone Slide into Specified Section in PowerPoint
 linktitle: Clone Slide into Specified Section in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Effortlessly clone slides into specific sections in PowerPoint using Aspose.Slides for Java. Enhance your presentations with this step-by-step guide.
-type: docs
 weight: 13
 url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Are you looking to streamline your PowerPoint presentation creation process? Imagine being able to effortlessly clone slides into specific sections of your presentation. With Aspose.Slides for Java, this becomes a breeze. This tutorial will walk you through the process, step by step, ensuring you can enhance your presentations with ease and precision.
 ## Prerequisites
@@ -76,3 +80,10 @@ You can download a free trial from the [Aspose.Slides free trial page](https://r
 The trial version has some limitations. For full features, consider getting a [temporary license](https://purchase.aspose.com/temporary-license/).
 ### Where can I find more detailed documentation?
 Detailed documentation is available on the [Aspose.Slides documentation page](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

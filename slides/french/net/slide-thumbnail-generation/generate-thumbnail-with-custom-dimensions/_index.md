@@ -3,10 +3,14 @@ title: Générer une vignette dans des diapositives avec des dimensions personna
 linktitle: Générer une vignette avec des dimensions personnalisées
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment générer des images miniatures personnalisées à partir de présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez l’expérience utilisateur et les fonctionnalités.
-type: docs
 weight: 13
 url: /fr/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 La création d'images miniatures personnalisées de vos présentations PowerPoint peut être un atout précieux, que vous créiez une application interactive, amélioriez l'expérience utilisateur ou optimisiez le contenu pour diverses plates-formes. Dans ce didacticiel, nous vous guiderons tout au long du processus de génération d'images miniatures personnalisées à partir de présentations PowerPoint à l'aide de la bibliothèque Aspose.Slides pour .NET. Cette puissante bibliothèque vous permet de manipuler, convertir et améliorer des fichiers PowerPoint par programmation dans des applications .NET.
 
@@ -115,3 +119,9 @@ Bien qu'une certaine connaissance de la programmation .NET soit bénéfique, Asp
 
 ### Un support technique est-il disponible pour Aspose.Slides pour .NET ?
  Oui, vous pouvez accéder au support technique et aux forums communautaires[ici](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

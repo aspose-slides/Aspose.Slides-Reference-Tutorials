@@ -3,10 +3,14 @@ title: Apply Gradient Background to a Slide
 linktitle: Apply Gradient Background to a Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to apply stunning gradient backgrounds to your PowerPoint slides using Aspose.Slides for .NET. Elevate your presentations!
-type: docs
 weight: 12
 url: /net/slide-background-manipulation/apply-gradient-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In the world of presentation design, creating visually stunning slides is essential to captivate your audience. One way to achieve this is by applying a gradient background to your slides. Aspose.Slides for .NET makes this task seamless, allowing you to create professional presentations. In this step-by-step guide, we will walk you through the process of applying a gradient background to a slide using Aspose.Slides for .NET.
 
@@ -100,3 +104,10 @@ Yes, you can download a free trial version from [here](https://releases.aspose.c
 ### What other features does Aspose.Slides for .NET offer for presentation design?
 Aspose.Slides for .NET provides a wide range of features, including slide creation, editing, and manipulation, chart and table management, and exporting to various formats.
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

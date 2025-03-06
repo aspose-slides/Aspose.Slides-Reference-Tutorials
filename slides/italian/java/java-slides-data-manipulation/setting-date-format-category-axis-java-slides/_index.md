@@ -3,10 +3,14 @@ title: Impostazione del formato della data per l'asse delle categorie nelle diap
 linktitle: Impostazione del formato della data per l'asse delle categorie nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare un formato di data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
-type: docs
 weight: 26
 url: /it/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'impostazione del formato della data per l'asse delle categorie nelle diapositive Java
 
@@ -139,3 +143,9 @@ Sì, puoi impostare formati di data diversi per gli assi delle categorie in graf
 ### Come faccio ad aggiungere più punti dati al grafico?
 
  Per aggiungere più punti dati al grafico, utilizzare il file`getDataPoints().addDataPointForLineSeries`metodo sulla serie di dati e fornire i valori dei dati.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

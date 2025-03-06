@@ -3,10 +3,14 @@ title: Légende de la taille de police dans les diapositives Java
 linktitle: Légende de la taille de police dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Améliorez les présentations PowerPoint avec Aspose.Slides pour Java. Découvrez comment personnaliser les tailles de police des légendes et bien plus encore dans notre guide étape par étape.
-type: docs
 weight: 13
 url: /fr/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la légende de la taille de police dans les diapositives Java
 
@@ -135,3 +139,9 @@ Ici, nous désactivons la mise à l'échelle automatique de l'axe et spécifions
 ### Où puis-je trouver plus d’informations et de documentation sur Aspose.Slides ?
 
  Vous pouvez trouver une documentation complète et des références API pour Aspose.Slides pour Java sur le site Web de documentation Aspose. Visite[ici](https://reference.aspose.com/slides/java/) pour des informations détaillées sur l’utilisation de la bibliothèque.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

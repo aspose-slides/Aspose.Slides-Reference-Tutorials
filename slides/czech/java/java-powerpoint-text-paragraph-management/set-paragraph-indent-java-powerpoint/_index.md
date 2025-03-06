@@ -3,10 +3,14 @@ title: Nastavte odsazení odstavce v Java PowerPointu
 linktitle: Nastavte odsazení odstavce v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak programově nastavit odsazení odstavců ve snímcích aplikace PowerPoint pomocí Aspose.Slides for Java. Vylepšete formátování své prezentace bez námahy.
-type: docs
 weight: 16
 url: /cs/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V tomto tutoriálu se naučíte, jak programově manipulovat s prezentacemi PowerPoint pomocí Aspose.Slides for Java. Konkrétně se zaměříme na nastavení odsazení odstavců v rámci snímků. Aspose.Slides for Java poskytuje výkonnou sadu rozhraní API, která umožňují vývojářům vytvářet, upravovat, převádět a spravovat prezentace v PowerPointu, aniž by se spoléhali na Microsoft Office Automation.
 ## Předpoklady
@@ -85,3 +89,9 @@ Aspose.Slides for Java je výkonná knihovna pro programovou práci s prezentace
  Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Podporu můžete získat na komunitním fóru[tady](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

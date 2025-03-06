@@ -3,10 +3,14 @@ title: Erstellen Sie mit Aspose.Slides atemberaubende Farbverläufe in PowerPoin
 linktitle: Füllen von Formen mit Farbverlauf in Präsentationsfolien mithilfe von Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit Aspose.Slides für .NET! Lernen Sie Schritt für Schritt, wie Sie Formen mit Farbverläufen füllen. Laden Sie jetzt Ihre kostenlose Testversion herunter!
-type: docs
 weight: 21
 url: /de/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Das Erstellen visuell fesselnder Präsentationsfolien ist wichtig, um die Aufmerksamkeit Ihres Publikums zu gewinnen und zu erhalten. In diesem Tutorial führen wir Sie durch den Prozess der Verbesserung Ihrer Folien, indem wir mithilfe von Aspose.Slides für .NET eine Ellipsenform mit einem Farbverlauf füllen.
 ## Voraussetzungen
@@ -73,3 +77,9 @@ A: Natürlich! Aspose.Slides für .NET unterstützt Farbverlaufsfüllungen für 
  A: Suchen Sie Hilfe und engagieren Sie sich in der Community auf der[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### F: Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
  A: Natürlich können Sie eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

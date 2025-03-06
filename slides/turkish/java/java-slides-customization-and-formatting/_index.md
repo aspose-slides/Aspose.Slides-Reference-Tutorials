@@ -3,10 +3,14 @@ title: Java Slaytlarını Özelleştirme ve Biçimlendirme
 linktitle: Java Slaytlarını Özelleştirme ve Biçimlendirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java slaytlarını özelleştirme ve biçimlendirme konusunda Aspose.Slides for Java'nın gücünü keşfedin. Eğitimlerimizde adım adım öğrenin. Sunum becerilerinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/java/customization-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
  Bu makalede Aspose.Slides for Java'yı kullanarak Java slaytlarını özelleştirme ve biçimlendirme dünyasını derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister Java sunumlarına yeni başlıyor olun, eğitim listemiz Aspose.Slides'ın tüm potansiyelinden yararlanmanız için rehberiniz olacaktır.|
 
@@ -49,3 +53,9 @@ Aspose.Slides for Java'yı kullanarak Java slaytlarında yazı tipi özellikleri
 Aspose.Slides for Java ile Grafiklerinizi Geliştirin. Java slaytlarında konum eksenini nasıl ayarlayacağınızı, çarpıcı sunumlar oluşturmayı ve grafik düzenlerini kolaylıkla nasıl özelleştireceğinizi öğrenin.
 ### [Java Slaytlarında Döndürme Açısını Ayarlama](./setting-rotation-angle-java-slides/)
 Aspose.Slides for Java ile Java slaytlarınızı optimize edin. Metin öğeleri için dönüş açılarını ayarlamayı öğrenin. Kaynak koduyla adım adım kılavuz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

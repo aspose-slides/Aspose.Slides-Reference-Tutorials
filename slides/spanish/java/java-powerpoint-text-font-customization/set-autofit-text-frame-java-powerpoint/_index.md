@@ -3,10 +3,14 @@ title: Establecer ajuste automático de marco de texto en Java PowerPoint
 linktitle: Establecer ajuste automático de marco de texto en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo configurar el ajuste automático para marcos de texto en Java PowerPoint usando Aspose.Slides para Java. Cree presentaciones dinámicas sin esfuerzo.
-type: docs
 weight: 14
 url: /es/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el desarrollo de aplicaciones Java, crear presentaciones de PowerPoint dinámicas y visualmente atractivas mediante programación es un requisito común. Aspose.Slides para Java proporciona un potente conjunto de API para lograr esto sin esfuerzo. Una característica esencial es configurar el ajuste automático para marcos de texto, asegurando que el texto se ajuste perfectamente dentro de las formas sin ajustes manuales. Este tutorial lo guiará a través del proceso paso a paso, aprovechando Aspose.Slides para Java para automatizar el ajuste de texto en diapositivas de PowerPoint.
 ## Requisitos previos
@@ -86,3 +90,9 @@ Aspose.Slides para Java es una sólida API de Java que permite a los desarrollad
  Puede encontrar documentación detallada para Aspose.Slides para Java[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cómo puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener soporte comunitario y profesional para Aspose.Slides para Java desde[aquí](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

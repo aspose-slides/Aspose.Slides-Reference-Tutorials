@@ -3,10 +3,14 @@ title: Agregar marcos de audio a las diapositivas de la presentación usando Asp
 linktitle: Agregar marcos de audio a las diapositivas de la presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejore las presentaciones con Aspose.Slides para .NET! Aprenda a agregar cuadros de audio sin problemas, atrayendo a su audiencia como nunca antes.
-type: docs
 weight: 14
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el dinámico mundo de las presentaciones, la incorporación de elementos de audio puede mejorar significativamente la experiencia general de su audiencia. Aspose.Slides para .NET permite a los desarrolladores integrar perfectamente fotogramas de audio en las diapositivas de la presentación, añadiendo una nueva capa de participación e interactividad. Esta guía paso a paso lo guiará a través del proceso de agregar marcos de audio a las diapositivas de una presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -63,3 +67,9 @@ Sí, Aspose.Slides brinda flexibilidad para configurar ajustes de reproducción 
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) buscar ayuda y relacionarse con la comunidad.
 ### ¿Cómo compro Aspose.Slides para .NET?
  Puedes adquirir la biblioteca en[tienda aspose](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

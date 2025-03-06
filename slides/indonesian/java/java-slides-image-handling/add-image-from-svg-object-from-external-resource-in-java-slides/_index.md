@@ -3,10 +3,14 @@ title: Tambahkan Gambar dari Objek SVG dari Sumber Daya Eksternal di Java Slides
 linktitle: Tambahkan Gambar dari Objek SVG dari Sumber Daya Eksternal di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan gambar SVG berbasis vektor dari sumber daya eksternal ke slide Java menggunakan Aspose.Slides. Buat presentasi menakjubkan dengan visual berkualitas tinggi.
-type: docs
 weight: 12
 url: /id/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Menambahkan Gambar dari Objek SVG dari Sumber Daya Eksternal di Slide Java
 
@@ -118,3 +122,9 @@ Ya, Aspose.Slides for Java kompatibel dengan versi Java terbaru. Pastikan untuk 
 ### Bisakah saya menerapkan animasi pada gambar SVG yang ditambahkan ke slide?
 
 Ya, Anda dapat menerapkan animasi ke gambar SVG di slide Anda menggunakan Aspose.Slides untuk membuat presentasi dinamis.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Invertiertes Füllfarbendiagramm in Java-Folien festlegen
 linktitle: Invertiertes Füllfarbendiagramm in Java-Folien festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides invertierte Füllfarben für Java Slides-Diagramme festlegen. Verbessern Sie Ihre Diagrammvisualisierungen mit dieser Schritt-für-Schritt-Anleitung und dem Quellcode.
-type: docs
 weight: 22
 url: /de/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung zum Festlegen des invertierten Füllfarbdiagramms in Java-Folien
 
@@ -153,3 +157,9 @@ Ja, Sie können verschiedene Aspekte des Diagrammaussehens anpassen, einschließ
 ### Kann ich das Diagramm in verschiedenen Formaten speichern?
 
  Ja, Sie können das Diagramm mit Aspose.Slides für Java in verschiedenen Formaten speichern. Im bereitgestellten Codebeispiel haben wir die Präsentation als PPTX-Datei gespeichert. Sie können verschiedene`SaveFormat` Optionen zum Speichern in anderen Formaten wie PDF, PNG oder SVG, je nach Ihren Anforderungen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

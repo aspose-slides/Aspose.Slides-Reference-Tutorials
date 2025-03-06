@@ -3,10 +3,14 @@ title: Δημιουργία ορθογώνιων σχημάτων με το Aspo
 linktitle: Δημιουργία απλού σχήματος ορθογωνίου σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε τον κόσμο των δυναμικών παρουσιάσεων PowerPoint με το Aspose.Slides για .NET. Μάθετε πώς να δημιουργείτε ελκυστικά σχήματα ορθογωνίου σε διαφάνειες με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Αν θέλετε να βελτιώσετε τις εφαρμογές σας .NET με δυναμικές και οπτικά ελκυστικές παρουσιάσεις PowerPoint, το Aspose.Slides για .NET είναι η καλύτερη λύση. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός απλού σχήματος ορθογωνίου σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -61,3 +65,9 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να αγοράσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Slides για .NET;
  Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

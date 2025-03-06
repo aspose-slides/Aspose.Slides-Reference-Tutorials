@@ -3,10 +3,14 @@ title: Διαχείριση κουκκίδων εικόνων παραγράφο
 linktitle: Διαχείριση κουκκίδων εικόνων παραγράφου σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε προσαρμοσμένες κουκκίδες εικόνας σε διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε αυτόν τον λεπτομερή, βήμα προς βήμα οδηγό για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Η δημιουργία ελκυστικών και οπτικά ελκυστικών παρουσιάσεων είναι μια κρίσιμη δεξιότητα στον σύγχρονο επιχειρηματικό κόσμο. Οι προγραμματιστές Java μπορούν να αξιοποιήσουν το Aspose.Slides για να βελτιώσουν τις παρουσιάσεις τους με προσαρμοσμένες κουκκίδες εικόνας σε διαφάνειες PowerPoint. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι μπορείτε να προσθέσετε με σιγουριά κουκκίδες εικόνων στις παρουσιάσεις σας.
 ## Προαπαιτούμενα
@@ -104,3 +108,9 @@ presentation.save(dataDir + "ParagraphPictureBulletsPPT_out.ppt", SaveFormat.Ppt
 Ναι, μπορείτε να προσθέσετε πολλές παραγράφους με διαφορετικά στυλ κουκκίδων σε ένα μεμονωμένο AutoShape δημιουργώντας και διαμορφώνοντας κάθε παράγραφο ξεχωριστά.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και υποστήριξη;
  Μπορείτε να βρείτε περισσότερα παραδείγματα στο[τεκμηρίωση](https://reference.aspose.com/slides/java/) και λάβετε υποστήριξη από την κοινότητα Aspose στο[φόρουμ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

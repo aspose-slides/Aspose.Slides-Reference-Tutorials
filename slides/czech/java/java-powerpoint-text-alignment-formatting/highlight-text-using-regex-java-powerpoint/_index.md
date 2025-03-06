@@ -3,10 +3,14 @@ title: Zvýrazněte text pomocí Regex v Java PowerPoint
 linktitle: Zvýrazněte text pomocí Regex v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se zvýraznit text v PowerPointu pomocí vzorů regulárních výrazů pomocí Aspose.Slides pro Java. Vylepšete své prezentace dynamicky.
-type: docs
 weight: 15
 url: /cs/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 oblasti vývoje založeného na Javě pro vytváření a manipulaci s prezentacemi v PowerPointu vyniká Aspose.Slides for Java jako robustní řešení. Tento tutoriál se zaměřuje na využití Aspose.Slides ke zvýraznění textu pomocí regulárních výrazů (regulární výraz) v prezentacích PowerPoint. Na konci této příručky pochopíte, jak implementovat vzory regulárních výrazů pro zvýraznění konkrétního textu na snímcích, čímž se zlepší funkčnost i vizuální srozumitelnost.
 ## Předpoklady
@@ -62,3 +66,9 @@ Ano, Aspose.Slides podporuje různé formáty PowerPointu, což zajišťuje komp
 Rozhodně nabízí rozsáhlé funkce pro manipulaci s textem nad rámec zvýraznění, včetně stylingu písma, zarovnání a dalších.
 ### Mohu si Aspose.Slides for Java před nákupem vyzkoušet?
  Ano, můžete začít s a[zkušební verze zdarma](https://releases.aspose.com/) zhodnotit jeho schopnosti.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

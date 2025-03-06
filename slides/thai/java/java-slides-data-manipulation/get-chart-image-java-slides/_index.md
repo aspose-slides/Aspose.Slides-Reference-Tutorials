@@ -3,10 +3,14 @@ title: รับภาพแผนภูมิใน Java Slides
 linktitle: รับภาพแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีรับภาพแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนนี้ให้ซอร์สโค้ดและเคล็ดลับสำหรับการผสานรวมที่ราบรื่น
-type: docs
 weight: 19
 url: /th/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการรับภาพแผนภูมิใน Java Slides
 
@@ -92,3 +96,9 @@ Aspose.Slides for Java นำเสนอฟีเจอร์ที่หลา
 ### ฉันสามารถบันทึกรูปภาพแผนภูมิในรูปแบบอื่นได้หรือไม่
 
  แน่นอน! คุณสามารถบันทึกภาพแผนภูมิในรูปแบบต่างๆ เช่น JPEG หรือ GIF โดยระบุนามสกุลไฟล์ที่เหมาะสมในรูปแบบ`ImageIO.write` วิธี.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

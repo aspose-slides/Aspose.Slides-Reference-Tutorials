@@ -3,10 +3,14 @@ title: Add Custom Error in Java Slides
 linktitle: Add Custom Error in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add custom error bars to PowerPoint charts in Java Slides using Aspose.Slides. Step-by-step guide with source code for precise data visualization.
-type: docs
 weight: 11
 url: /java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Adding Custom Error Bars in Java Slides using Aspose.Slides
 
@@ -150,3 +154,10 @@ You can loop through the data points and set custom error bar values for each po
 ### Is it possible to hide error bars for specific data points?
 
 Yes, you can control the visibility of error bars for individual data points by setting the `setVisible` property of the `IErrorBarsFormat` object.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

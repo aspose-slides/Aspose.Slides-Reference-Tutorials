@@ -3,10 +3,14 @@ title: Создание пользовательской геометрии на
 linktitle: Создание пользовательской геометрии в геометрической форме с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Научитесь создавать собственную геометрию в Aspose.Slides для .NET. Улучшите свои презентации с помощью уникальных форм. Пошаговое руководство для разработчиков C#.
-type: docs
 weight: 15
 url: /ru/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В динамичном мире презентаций добавление уникальных форм и геометрии может улучшить ваш контент, сделав его более привлекательным и привлекательным. Aspose.Slides для .NET предоставляет мощное решение для создания произвольной геометрии внутри фигур, позволяющее вам освободиться от традиционных проектов. Это руководство проведет вас через процесс создания пользовательской геометрии в GeometryShape с использованием Aspose.Slides для .NET.
 ## Предварительные условия
@@ -94,3 +98,9 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
  Обращайтесь за помощью и общайтесь с сообществом на[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Где я могу приобрести Aspose.Slides для .NET?
  Вы можете купить Aspose.Slides для .NET.[здесь](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

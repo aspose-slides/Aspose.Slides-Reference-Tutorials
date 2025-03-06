@@ -3,10 +3,14 @@ title: Μετατροπή με προσαρμοσμένο μέγεθος σε δ
 linktitle: Μετατροπή με προσαρμοσμένο μέγεθος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε εικόνες TIFF με προσαρμοσμένο μέγεθος χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για προγραμματιστές.
-type: docs
 weight: 31
 url: /el/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη Μετατροπή με προσαρμοσμένο μέγεθος σε διαφάνειες Java
 
@@ -137,3 +141,9 @@ finally
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides for Java;
 
  Για λεπτομερή τεκμηρίωση και πρόσθετες πληροφορίες σχετικά με το Aspose.Slides για Java, επισκεφθείτε την τεκμηρίωση:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

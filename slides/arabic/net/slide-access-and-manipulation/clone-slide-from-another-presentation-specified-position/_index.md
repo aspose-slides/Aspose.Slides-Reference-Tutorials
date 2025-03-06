@@ -3,10 +3,14 @@ title: استنساخ الشريحة من عرض تقديمي مختلف إلى 
 linktitle: استنساخ الشريحة من عرض تقديمي مختلف إلى الموضع المحدد
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استنساخ الشرائح من عروض تقديمية مختلفة إلى موضع محدد باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع كود المصدر الكامل، ويغطي استنساخ الشرائح، ومواصفات الموضع، وحفظ العرض التقديمي.
-type: docs
 weight: 16
 url: /ar/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لاستنساخ الشرائح من عرض تقديمي مختلف إلى موضع محدد
 
@@ -137,3 +141,9 @@ namespace SlideCloningDemo
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
 
  يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات تفصيلية وأمثلة ومراجع API المتعلقة بـ Aspose.Slides for .NET.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

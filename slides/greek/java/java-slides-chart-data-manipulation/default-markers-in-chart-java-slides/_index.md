@@ -3,10 +3,14 @@ title: Προεπιλεγμένοι δείκτες στο γράφημα στι�
 linktitle: Προεπιλεγμένοι δείκτες στο γράφημα στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε διαφάνειες Java με προεπιλεγμένους δείκτες σε γραφήματα χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 16
 url: /el/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στους προεπιλεγμένους δείκτες στο γράφημα στις διαφάνειες Java
 
@@ -142,3 +146,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### Μπορώ να προσθέσω ετικέτες στα σημεία δεδομένων;
 
  Ναι, μπορείτε να προσθέσετε ετικέτες σε σημεία δεδομένων χρησιμοποιώντας το`IDataPoint.getLabel()` μέθοδο και προσαρμόστε τα ανάλογα με τις ανάγκες.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Convert Presentations to Password-Protected PDF
 linktitle: Convert Presentations to Password-Protected PDF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to secure presentations by password-protecting and converting them to PDFs using Aspose.Slides for .NET. Enhance data security now.
-type: docs
 weight: 16
 url: /net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In today's digital age, securing your sensitive presentations is paramount. One effective way to ensure the confidentiality of your PowerPoint presentations is by converting them into password-protected PDFs. With Aspose.Slides for .NET, you can achieve this seamlessly. In this comprehensive guide, we'll walk you through the process of converting presentations to password-protected PDFs using the Aspose.Slides for .NET API. By the end of this tutorial, you'll have the knowledge and tools to safeguard your presentations with ease.
 
@@ -77,3 +81,10 @@ Yes, password-protected PDFs offer a higher level of security as they require a 
 ### Where can I access the Aspose.Slides for .NET API documentation?
 
 You can access the documentation for Aspose.Slides for .NET at [here](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

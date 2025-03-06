@@ -3,10 +3,14 @@ title: Ottieni i dati effettivi della fotocamera in PowerPoint
 linktitle: Ottieni i dati effettivi della fotocamera in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come recuperare dati efficaci della fotocamera dalle diapositive di PowerPoint utilizzando Aspose.Slides per Java con questa guida passo passo.
-type: docs
 weight: 24
 url: /it/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di creare, modificare e gestire presentazioni PowerPoint a livello di codice. Che tu stia automatizzando la generazione di report, creando diapositive personalizzate o semplicemente lavorando con i dati di presentazione, Aspose.Slides fornisce un set completo di funzionalità per soddisfare le tue esigenze. In questa guida, approfondiremo come recuperare i dati effettivi della fotocamera da una diapositiva di PowerPoint utilizzando Aspose.Slides per Java. Ti guideremo attraverso ogni passaggio, assicurandoti di avere una chiara comprensione del processo.
 ## Prerequisiti
@@ -70,3 +74,9 @@ Aspose.Slides è disponibile per più linguaggi di programmazione incluso .NET, 
  Sì, è possibile acquistare licenze commerciali[Qui](https://purchase.aspose.com/buy).
 ### Dove posso trovare la documentazione per Aspose.Slides per Java?
  La documentazione è disponibile[Qui](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

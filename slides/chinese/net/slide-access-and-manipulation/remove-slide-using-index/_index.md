@@ -3,10 +3,14 @@ title: 按顺序索引擦除幻灯片
 linktitle: 按顺序索引擦除幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 逐步删除 PowerPoint 幻灯片。我们的指南提供了清晰的说明和完整的源代码，以帮助您以编程方式按顺序索引删除幻灯片。
-type: docs
 weight: 24
 url: /zh/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 顺序索引擦除幻灯片简介
 
@@ -86,3 +90,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### 如何了解有关 Aspose.Slides for .NET 的更多信息？
 
 您可以在以下位置探索 Aspose.Slides for .NET 的详细文档和 API 参考[文档页面](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

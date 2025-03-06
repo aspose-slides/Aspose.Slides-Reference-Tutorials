@@ -3,10 +3,14 @@ title: Dodawanie niestandardowych linii w slajdach Java
 linktitle: Dodawanie niestandardowych linii w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz swoje slajdy Java za pomocą niestandardowych linii. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Dowiedz się, jak dodawać i dostosowywać linie w prezentacjach, aby uzyskać efektowne efekty wizualne.
-type: docs
 weight: 10
 url: /pl/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do dodawania niestandardowych linii w slajdach Java
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Ustaw grubość linii na 2 punkty
 ### Czy można dodać wiele linii do slajdu?
 
 Tak, możesz dodać wiele linii do slajdu, powtarzając kroki opisane w tym samouczku. Każdą linię można dostosować niezależnie.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

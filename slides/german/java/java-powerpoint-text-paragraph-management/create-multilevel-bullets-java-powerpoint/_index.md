@@ -3,10 +3,14 @@ title: Erstellen Sie mehrstufige Aufzählungszeichen in Java PowerPoint
 linktitle: Erstellen Sie mehrstufige Aufzählungszeichen in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java mehrstufige Aufzählungszeichen in PowerPoint erstellen. Schritt-für-Schritt-Anleitung mit Codebeispielen und FAQs.
-type: docs
 weight: 14
 url: /de/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java mehrstufige Aufzählungszeichen in PowerPoint-Präsentationen erstellen. Das Hinzufügen von Aufzählungszeichen ist eine häufige Voraussetzung für die Erstellung organisierter und optisch ansprechender Inhalte in Präsentationen. Wir gehen den Prozess Schritt für Schritt durch und stellen sicher, dass Sie am Ende dieses Handbuchs in der Lage sind, Ihre Präsentationen mit strukturierten Aufzählungszeichen auf mehreren Ebenen zu verbessern.
 ## Voraussetzungen
@@ -109,3 +113,9 @@ Aspose.Slides generiert Präsentationen, die mit Microsoft PowerPoint 2007 und h
 Ja, Aspose.Slides bietet APIs zur Automatisierung der Erstellung, Änderung und Bearbeitung von PowerPoint-Präsentationen.
 ### Wo erhalte ich Support für Aspose.Slides für Java?
  Sie erhalten Unterstützung von der Aspose.Slides-Community und Experten unter[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

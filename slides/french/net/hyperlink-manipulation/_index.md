@@ -3,10 +3,14 @@ title: Manipulation des liens hypertextes
 linktitle: Manipulation des liens hypertextes
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos applications .NET avec une manipulation complète des liens hypertexte à l'aide d'Aspose.Slides. Apprenez à gérer les hyperliens, à créer des présentations interactives et à stimuler l'engagement des utilisateurs sans effort.
-type: docs
 weight: 13
 url: /fr/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction:
 
@@ -27,3 +31,9 @@ Découvrez comment ajouter des liens hypertexte aux diapositives dans PowerPoint
 Découvrez comment gérer efficacement les hyperliens dans les présentations à l'aide d'Aspose.Slides pour .NET. Automatisez les tâches, créez des menus interactifs et améliorez l'engagement des utilisateurs.
 ### [Création d'un lien hypertexte mutable](./mutable-hyperlink/)
 Apprenez à créer des hyperliens mutables à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour des présentations dynamiques.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

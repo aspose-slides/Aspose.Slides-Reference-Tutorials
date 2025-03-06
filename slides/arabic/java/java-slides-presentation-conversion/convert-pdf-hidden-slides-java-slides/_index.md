@@ -3,10 +3,14 @@ title: التحويل إلى PDF باستخدام الشرائح المخفية 
 linktitle: التحويل إلى PDF باستخدام الشرائح المخفية في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى PDF باستخدام الشرائح المخفية باستخدام Aspose.Slides for Java. اتبع دليلنا خطوة بخطوة مع الكود المصدري لإنشاء ملفات PDF بسلاسة.
-type: docs
 weight: 27
 url: /ar/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحويل عرض PowerPoint التقديمي إلى PDF باستخدام الشرائح المخفية باستخدام Aspose.Slides لـ Java
 
@@ -115,3 +119,9 @@ slide.setHidden(false);
 ### كيف يمكنني تنزيل Aspose.Slides لنظام Java؟
 
  يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. قم بزيارة[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على أحدث إصدار.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

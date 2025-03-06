@@ -3,10 +3,14 @@ title: Converteer de hele presentatie naar HTML in Java-dia's
 linktitle: Converteer de hele presentatie naar HTML in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties in Java naar HTML converteert met Aspose.Slides. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 29
 url: /nl/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het converteren van de hele presentatie naar HTML in Java-dia's
 
@@ -117,3 +121,9 @@ Ja, Aspose.Slides voor Java ondersteunt verschillende uitvoerformaten, waaronder
 ### Kan ik specifieke dia's converteren in plaats van de hele presentatie?
 
 Ja, u kunt specifieke dia's converteren door ze in de code te selecteren voordat u de presentatie opslaat. Dit geeft u controle over welke dia's naar HTML worden geconverteerd.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

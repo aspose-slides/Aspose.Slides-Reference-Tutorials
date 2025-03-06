@@ -3,10 +3,14 @@ title: Ajout d'un décalage d'étirement pour le remplissage d'image dans les pr
 linktitle: Ajout d'un décalage d'étirement pour le remplissage d'image dans les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment améliorer les présentations PowerPoint avec Aspose.Slides pour .NET. Suivez un guide étape par étape pour ajouter un décalage d'étirement pour le remplissage de l'image.
-type: docs
 weight: 18
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le monde dynamique des présentations, les visuels jouent un rôle central pour capter l'attention du public. Aspose.Slides pour .NET permet aux développeurs d'améliorer leurs présentations PowerPoint en fournissant un ensemble robuste de fonctionnalités. L'une de ces fonctionnalités est la possibilité d'ajouter un décalage d'étirement pour le remplissage de l'image, permettant ainsi des diapositives créatives et visuellement attrayantes.
 ## Conditions préalables
@@ -71,3 +75,9 @@ Oui, Aspose.Slides pour .NET convient aux applications de bureau et Web.
  Se référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées.
 ### Puis-je acheter Aspose.Slides pour .NET ?
  Oui, vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

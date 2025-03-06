@@ -3,10 +3,14 @@ title: Festlegen des Verbindungslinienwinkels in PowerPoint
 linktitle: Festlegen des Verbindungslinienwinkels in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Verbindungslinienwinkel in PowerPoint-Präsentationen festlegen. Passen Sie Ihre Folien präzise an.
-type: docs
 weight: 17
 url: /de/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie den Winkel von Verbindungslinien in PowerPoint-Präsentationen mit Aspose.Slides für Java festlegen. Verbindungslinien sind wichtig, um Beziehungen und Flüsse zwischen Formen in Ihren Folien darzustellen. Indem Sie ihre Winkel anpassen, können Sie sicherstellen, dass Ihre Präsentationen Ihre Botschaft klar und effektiv vermitteln.
 ## Voraussetzungen
@@ -80,3 +84,9 @@ Aspose.Slides versucht, die meisten PowerPoint-Funktionen zu unterstützen. Für
 Sicherlich! Aspose.Slides bietet umfangreiche Optionen zum Anpassen von Verbindungslinien, einschließlich Stilen, Dicke und Endpunkten, sodass Sie optisch ansprechende Präsentationen erstellen können.
 ### Wo finde ich Unterstützung für Aspose.Slides-bezogene Fragen?
  Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Unterstützung bei allen Fragen oder Problemen, die während Ihres Entwicklungsprozesses auftreten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

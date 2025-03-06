@@ -3,10 +3,14 @@ title: Java PowerPoint 表格格式與更新
 linktitle: Java PowerPoint 表格格式與更新
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 透過表格格式和更新增強 Java PowerPoint 簡報。學習新增邊框、設定列和行中文字的格式以及更新表格。
-type: docs
 weight: 31
 url: /zh-hant/java/java-powerpoint-table-formatting-updates/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介紹
 
@@ -36,3 +40,9 @@ url: /zh-hant/java/java-powerpoint-table-formatting-updates/
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中設定表格行內文字的格式。透過我們的逐步指南增強您的簡報。
 ### [使用 Java 更新 PowerPoint 中的現有表](./update-existing-table-powerpoint-java/)
 了解如何使用 Java 和 Aspose.Slides 更新 PowerPoint 中的現有表格。包括逐步指南、詳細說明和常見問題。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

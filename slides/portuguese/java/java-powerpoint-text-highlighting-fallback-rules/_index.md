@@ -3,10 +3,14 @@ title: Destaque de texto Java PowerPoint e regras alternativas
 linktitle: Destaque de texto Java PowerPoint e regras alternativas
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Domine o realce de texto e as regras de substituição de fonte em Java PowerPoint com Aspose.Slides. Siga nossos tutoriais para aprimorar e automatizar suas apresentações perfeitamente.
-type: docs
 weight: 25
 url: /pt/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução
 
@@ -26,3 +30,9 @@ Seguindo esses tutoriais, você estará bem equipado para aprimorar suas apresen
 Aprenda como destacar texto no PowerPoint usando Aspose.Slides para Java. Automatize e aprimore apresentações sem esforço com nosso guia detalhado.
 ### [Coleção de regras substitutas em Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Aprenda como gerenciar regras de substituição de fontes em apresentações do PowerPoint usando Aspose.Slides para Java. Melhore a compatibilidade entre dispositivos sem esforço.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

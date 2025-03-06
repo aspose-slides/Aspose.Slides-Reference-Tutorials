@@ -3,10 +3,14 @@ title: Java スライドのチャートトレンドライン
 linktitle: Java スライドのチャートトレンドライン
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドにさまざまなトレンド ラインを追加する方法を学びます。効果的なデータ視覚化のためのコード例を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 15
 url: /ja/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでのチャートトレンドラインの紹介: ステップバイステップガイド
 
@@ -190,3 +194,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for Java のその他のリソースや例にアクセスするにはどうすればよいでしょうか?
 
  Aspose.Slides for Javaの追加のリソース、ドキュメント、およびサンプルは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

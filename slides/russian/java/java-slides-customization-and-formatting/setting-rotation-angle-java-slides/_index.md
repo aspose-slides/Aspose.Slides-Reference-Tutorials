@@ -3,10 +3,14 @@ title: Настройка угла поворота в слайдах Java
 linktitle: Настройка угла поворота в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Оптимизируйте свои слайды Java с помощью Aspose.Slides for Java. Научитесь задавать углы поворота текстовых элементов. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 17
 url: /ru/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в настройку угла поворота в слайдах Java
 
@@ -100,3 +104,9 @@ Aspose.Slides для Java предоставляет различные вари
 ### Можно ли анимировать вращение текста в заголовке оси диаграммы?
 
 Да, вы можете добавлять эффекты анимации к текстовым элементам, включая заголовки осей диаграммы, используя Aspose.Slides для Java. Обратитесь к документации для получения информации о добавлении анимации в ваши презентации.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Target Shapes for Animation in PowerPoint
 linktitle: Target Shapes for Animation in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to animate specific shapes in PowerPoint presentations using Aspose.Slides for Java. Create engaging slides effortlessly.
-type: docs
 weight: 11
 url: /java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the world of dynamic presentations, animations play a crucial role in engaging the audience and conveying information effectively. Aspose.Slides for Java empowers developers to create captivating PowerPoint presentations with intricate animations tailored to specific shapes. This tutorial will guide you through the process of targeting shapes for animation using Aspose.Slides for Java, ensuring that your presentations stand out with fluid transitions and precise animations.
 ## Prerequisites
@@ -62,3 +66,10 @@ You can seek support and assistance from the Aspose.Slides community forum [here
 You can acquire a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase Aspose.Slides for Java?
 You can purchase Aspose.Slides for Java from the website [here](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

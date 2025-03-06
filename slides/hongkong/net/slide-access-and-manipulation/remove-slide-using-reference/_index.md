@@ -3,10 +3,14 @@ title: 透過參考刪除投影片
 linktitle: 透過參考刪除投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET（針對 .NET 開發人員的強大程式庫）刪除 PowerPoint 簡報中的投影片。
-type: docs
 weight: 25
 url: /zh-hant/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 作為一名熟練的 SEO 作家，我在這裡為您提供有關使用 Aspose.Slides for .NET 從 PowerPoint 簡報中刪除投影片的全面指南。在本逐步教程中，我們將把流程分解為可管理的步驟，確保您可以輕鬆遵循。那麼，就讓我們開始吧！
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET 支援各種 PowerPoint 文件格式，包括最新版本
 
 ### 我可以使用 Aspose.Slides for .NET 撤銷對投影片的刪除嗎？
 一旦幻燈片被移除，就無法輕易撤銷。建議在進行此類變更之前保留簡報的備份。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

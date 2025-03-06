@@ -3,10 +3,14 @@ title: Previewing Print Output of Presentations in Aspose.Slides
 linktitle: Previewing Print Output of Presentations in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to preview print output of PowerPoint presentations using Aspose.Slides for .NET. Follow this step-by-step guide with source code to generate and customize print previews.
-type: docs
 weight: 11
 url: /net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Welcome to the world of Aspose.Slides for .NET, a powerful library that empowers developers to seamlessly manipulate and enhance PowerPoint presentations in their .NET applications. Whether you're a seasoned developer or just starting, this comprehensive guide will walk you through the essential steps to leverage the full potential of Aspose.Slides.
 ## Prerequisites
@@ -71,3 +75,10 @@ The documentation is available at [Aspose.Slides .NET Documentation](https://ref
 Visit [Temporary License](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.
 ### Need support or have more questions?
 Visit the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) to get assistance and connect with the community.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 將簡報轉換為預設大小的 TIFF
 linktitle: 將簡報轉換為預設大小的 TIFF
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 輕鬆將簡報轉換為預設尺寸的 TIFF 影像。
-type: docs
 weight: 27
 url: /zh-hant/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介紹
 
@@ -86,3 +90,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### 在哪裡可以找到有關 Aspose.Slides for .NET 的更多資訊？
 
 如需全面的文件和範例，請訪問[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

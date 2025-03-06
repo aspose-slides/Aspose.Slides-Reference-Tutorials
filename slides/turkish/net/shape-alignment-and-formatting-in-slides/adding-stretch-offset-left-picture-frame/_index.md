@@ -3,10 +3,14 @@ title: Aspose.Slide ile PowerPoint'te Sola Uzatma Ofseti Ekleme
 linktitle: Aspose.Slides'ta Resim Çerçevesi için Sola Uzatma Ofseti Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Resim çerçevelerine sola uzatmalı ofset eklemek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını kolaylıkla düzenlemesine olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde Aspose.Slides for .NET kullanarak bir resim çerçevesi için sola uzatma ofseti ekleme işlemini inceleyeceğiz. PowerPoint sunumlarında görseller ve şekillerle çalışma becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
 ## Önkoşullar
@@ -85,3 +89,9 @@ C: Aspose.Slides, en yeni .NET framework sürümleriyle uyumluluğun sağlanmas�
  C: Keşfedin[Aspose.Slides belgeleri](https://reference.aspose.com/slides/net/) Kapsamlı örnekler ve rehberlik için.
 ### S: Tek bir şekle birden fazla uzatma ofseti uygulayabilir miyim?
 C: Evet, karmaşık ve özelleştirilmiş görsel efektler elde etmek için birden fazla uzatma ofsetini birleştirebilirsiniz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

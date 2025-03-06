@@ -3,10 +3,14 @@ title: PowerPoint의 지정된 섹션에 슬라이드 복제
 linktitle: PowerPoint의 지정된 섹션에 슬라이드 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 슬라이드를 PowerPoint의 특정 섹션으로 쉽게 복제할 수 있습니다. 이 단계별 가이드를 통해 프레젠테이션을 향상해 보세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 PowerPoint 프레젠테이션 작성 프로세스를 간소화하고 싶으십니까? 프레젠테이션의 특정 섹션에 슬라이드를 쉽게 복제할 수 있다고 상상해 보십시오. Aspose.Slides for Java를 사용하면 이 작업이 매우 쉬워집니다. 이 튜토리얼에서는 프레젠테이션을 쉽고 정확하게 향상시킬 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -76,3 +80,9 @@ if (presentation != null) presentation.dispose();
  평가판 버전에는 몇 가지 제한 사항이 있습니다. 전체 기능을 이용하려면[임시면허](https://purchase.aspose.com/temporary-license/).
 ### 더 자세한 문서는 어디서 찾을 수 있나요?
  자세한 문서는 다음에서 확인할 수 있습니다.[Aspose.Slides 문서 페이지](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

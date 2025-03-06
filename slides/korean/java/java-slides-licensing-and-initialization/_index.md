@@ -3,10 +3,14 @@ title: Java 슬라이드 라이센스 및 초기화
 linktitle: Java 슬라이드 라이센스 및 초기화
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 포괄적인 튜토리얼에서 Java용 Aspose.Slides를 효과적으로 라이선스하고 초기화하는 방법을 알아보세요. 지금 Java Slides를 시작해보세요!
-type: docs
 weight: 10
 url: /ko/java/licensing-and-initialization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Java Slides의 세계에서는 라이선스 및 초기화가 중요한 첫 번째 단계입니다. Aspose.Slides for Java는 멋진 프레젠테이션과 슬라이드쇼를 만들기 위한 강력한 플랫폼을 제공합니다. 이 기사에서는 매력적인 프레젠테이션을 만드는 데 필요한 모든 도구를 갖추도록 Aspose.Slides for Java의 라이선스를 부여하고 초기화하는 과정을 안내합니다.
 
@@ -38,3 +42,9 @@ Java용 Aspose.Slides 라이선스는 동적 슬라이드 생성 세계로 뛰�
 ## Java 슬라이드 라이센스 및 초기화 튜토리얼
 ### [Java 슬라이드의 종량제 라이선스](./metered-licensing-java-slides/)
 Metered Licensing을 통해 Java 사용에 맞게 Aspose.Slides를 최적화하세요. API 사용을 설정하고 모니터링하는 방법을 알아보세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

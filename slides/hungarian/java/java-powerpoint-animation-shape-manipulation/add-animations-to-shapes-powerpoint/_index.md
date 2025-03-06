@@ -3,10 +3,14 @@ title: Animációk hozzáadása az alakzatokhoz a PowerPointban
 linktitle: Animációk hozzáadása az alakzatokhoz a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes oktatóanyagból megtudhatja, hogyan adhat hozzá animációkat alakzatokhoz a PowerPointban az Aspose.Slides for Java segítségével. Tökéletes vonzó prezentációk készítéséhez.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Lebilincselő prezentációk létrehozásához gyakran szükség van animációk hozzáadására az alakzatokhoz és a szöveghez. Az animációk dinamikusabbá és magával ragadóbbá tehetik diákjait, biztosítva, hogy a közönség továbbra is érdeklődjön. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.Slides for Java segítségével animációk hozzáadásának folyamatán egy PowerPoint-prezentáció alakzataihoz. A cikk végére könnyedén készíthet professzionális animációkat.
 ## Előfeltételek
@@ -108,3 +112,9 @@ Az Aspose.Slides támogatja a Java SE 6 és újabb verzióit.
 Különböző animációkat adhat hozzá több alakzathoz, ha megismétli az egyes alakzatokhoz tartozó lépéseket, és szükség szerint különböző effektusokat ad meg.
 ### Hol találok további példákat és dokumentációt?
  Nézze meg a[dokumentáció](https://reference.aspose.com/slides/java/) és[támogatói fórum](https://forum.aspose.com/c/slides/11)további példákért és segítségért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

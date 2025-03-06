@@ -3,10 +3,14 @@ title: PowerPoint의 도형에 애니메이션 추가
 linktitle: PowerPoint의 도형에 애니메이션 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 상세한 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint의 도형에 애니메이션을 추가하는 방법을 알아보세요. 매력적인 프레젠테이션을 만드는 데 적합합니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 매력적인 프레젠테이션을 만들려면 도형과 텍스트에 애니메이션을 추가해야 하는 경우가 많습니다. 애니메이션을 사용하면 슬라이드를 더욱 역동적이고 매력적으로 만들어 청중의 관심을 유지할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 도형에 애니메이션을 추가하는 과정을 안내합니다. 이 기사를 마치면 전문적인 애니메이션을 쉽게 만들 수 있게 될 것입니다.
 ## 전제 조건
@@ -108,3 +112,9 @@ Aspose.Slides는 Java SE 6 이상을 지원합니다.
 각 모양에 대해 단계를 반복하고 필요에 따라 다양한 효과를 지정하여 여러 모양에 다양한 애니메이션을 추가할 수 있습니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
  확인해 보세요[선적 서류 비치](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11)더 많은 예제와 도움말을 보려면
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

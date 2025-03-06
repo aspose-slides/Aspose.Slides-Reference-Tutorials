@@ -3,10 +3,14 @@ title: Kontrol Animasi Slide
 linktitle: Kontrol Animasi Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan animasi dinamis menggunakan Aspose.Slides untuk .NET. Pelajari cara mengontrol animasi slide langkah demi langkah dalam tutorial komprehensif ini.
-type: docs
 weight: 18
 url: /id/net/slide-animation-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Perkenalan:
 
@@ -36,3 +40,9 @@ Pelajari cara mengontrol tipe animasi di slide PowerPoint menggunakan Aspose.Sli
 Pelajari cara mengulang animasi pada slide menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini menyediakan kode sumber dan instruksi yang jelas untuk menambahkan animasi menawan ke presentasi PowerPoint secara terprogram.
 ### [Putar Ulang Animasi pada Slide](./rewind-animation-on-slide/)
 Pelajari cara memundurkan animasi pada slide PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap untuk menyempurnakan presentasi Anda secara dinamis.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

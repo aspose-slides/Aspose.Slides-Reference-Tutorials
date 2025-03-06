@@ -3,10 +3,14 @@ title: Java 슬라이드에서 애니메이션으로 변환
 linktitle: Java 슬라이드에서 애니메이션으로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Java 애니메이션으로 변환하는 방법을 알아보세요. 역동적인 영상으로 청중의 관심을 사로잡으세요.
-type: docs
 weight: 21
 url: /ko/java/presentation-conversion/convert-to-animation-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # Aspose.Slides for Java를 사용하여 Java 슬라이드에서 애니메이션으로 변환 소개
 
@@ -130,3 +134,10 @@ Aspose.Slides for Java는 강력한 애니메이션 기능을 제공하지만 �
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 광범위한 문서와 리소스는 다음에서 찾을 수 있습니다.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/) 페이지.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

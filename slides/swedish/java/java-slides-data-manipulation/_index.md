@@ -3,10 +3,14 @@ title: Java Slides Data Manipulation
 linktitle: Java Slides Data Manipulation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra dina Java Slides datamanipuleringsfärdigheter med Aspose.Slides för Java tutorials. Lär dig steg för steg hur du skapar, redigerar och transformerar presentationer effektivt.
-type: docs
 weight: 13
 url: /sv/java/data-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Är du redo att bemästra konsten att manipulera Java Slides-data? Kolla inte vidare. I den här omfattande guiden går vi igenom krångligheterna med att använda Aspose.Slides för Java för att skapa, ändra och förbättra dina bildpresentationer. Oavsett om du är en erfaren utvecklare eller precis har börjat din resa in i Java Slides-världen, kommer våra tutorials att förse dig med de kunskaper och färdigheter du behöver.
 
@@ -96,3 +100,9 @@ Lär dig hur du skapar dynamiska cirkeldiagram med automatiska segmentfärger i 
 Lär dig hur du ställer in bildtexter för dataetiketter i Aspose.Slides för Java. Steg-för-steg guide med källkod.
 ### [Ställa in datumformat för kategoriaxel i Java Slides](./setting-date-format-category-axis-java-slides/)
 Lär dig hur du ställer in ett datumformat för kategoriaxeln i ett PowerPoint-diagram med Aspose.Slides för Java. Steg-för-steg guide med källkod.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Dodaj klatkę wideo ze źródła internetowego w programie PowerPoint
 linktitle: Dodaj klatkę wideo ze źródła internetowego w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint, dodając klatki wideo ze źródeł internetowych za pomocą Aspose.Slides dla Java.
-type: docs
 weight: 18
 url: /pl/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 tym samouczku dowiemy się, jak dodać klatkę wideo ze źródła internetowego, takiego jak YouTube, do prezentacji programu PowerPoint za pomocą Aspose.Slides for Java. Postępując zgodnie z tymi szczegółowymi instrukcjami, będziesz w stanie ulepszyć swoje prezentacje poprzez dodanie angażujących elementów multimedialnych.
 ## Warunki wstępne
@@ -84,3 +88,9 @@ Absolutnie! Aspose.Slides zapewnia rozbudowane opcje dostosowywania wyglądu i z
 Aspose.Slides obsługuje szeroką gamę wersji programu PowerPoint, zapewniając kompatybilność na różnych platformach.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides?
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za pomoc, dokumentację i wsparcie społeczności.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

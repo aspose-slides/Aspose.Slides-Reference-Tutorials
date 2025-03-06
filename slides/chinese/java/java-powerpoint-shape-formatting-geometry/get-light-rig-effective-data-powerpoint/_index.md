@@ -3,10 +3,14 @@ title: 在 PowerPoint 中获取灯光设备有效数据
 linktitle: 在 PowerPoint 中获取灯光设备有效数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本详细的分步指南了解如何使用 Aspose.Slides for Java 从 PowerPoint 演示文稿中检索灯光设备有效数据。
-type: docs
 weight: 25
 url: /zh/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 您是否希望使用 Java 自动执行 PowerPoint 演示任务？别再找了！Aspose.Slides for Java 是一个功能强大的库，允许开发人员创建、操作和转换 PowerPoint 文件，而无需安装 Microsoft PowerPoint。在本综合指南中，我们将引导您完成使用 Aspose.Slides for Java 从 PowerPoint 演示文稿中获取灯光设备有效数据的步骤。无论您是经验丰富的 Java 开发人员还是刚刚入门，本教程都将帮助您在项目中充分利用 Aspose.Slides 的潜力。
 ## 先决条件
@@ -66,3 +70,9 @@ Aspose.Slides for Java 是一个功能强大的库，用于使用 Java 创建、
 文档可在以下网址获取[此链接](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides 的支持？
 您可以从 Aspose.Slides 支持论坛获得支持[这里](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

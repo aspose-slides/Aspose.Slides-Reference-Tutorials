@@ -3,10 +3,14 @@ title: Java PowerPoint-tekstmarkering en terugvalregels
 linktitle: Java PowerPoint-tekstmarkering en terugvalregels
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Regels voor het markeren van tekst en het terugvallen van lettertypen in Java PowerPoint met Aspose.Slides. Volg onze tutorials om uw presentaties naadloos te verbeteren en te automatiseren.
-type: docs
 weight: 25
 url: /nl/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering
 
@@ -26,3 +30,9 @@ Door deze tutorials te volgen, bent u goed toegerust om uw Java PowerPoint-prese
 Leer hoe u tekst in PowerPoint kunt markeren met Aspose.Slides voor Java. Automatiseer en verbeter presentaties moeiteloos met onze gedetailleerde gids.
 ### [Verzameling van fallback-regels in Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Leer hoe u de fallback-regels voor lettertypen in PowerPoint-presentaties kunt beheren met behulp van Aspose.Slides voor Java. Verbeter moeiteloos de compatibiliteit tussen apparaten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

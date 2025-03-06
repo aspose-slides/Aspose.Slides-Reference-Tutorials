@@ -3,10 +3,14 @@ title: Τρόπος εξαγωγής βίντεο από διαφάνεια χρ
 linktitle: Εξαγωγή βίντεο από διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να εξάγετε βίντεο από διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα απλοποιεί τη διαδικασία για εσάς.
-type: docs
 weight: 14
 url: /el/net/audio-and-video-extraction/extract-video/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με παρουσιάσεις PowerPoint σε περιβάλλον .NET. Μία από τις χρήσιμες λειτουργίες που παρέχει είναι η δυνατότητα εξαγωγής βίντεο από διαφάνειες. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας δείξουμε πώς να εξαγάγετε ένα βίντεο από μια διαφάνεια του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -110,3 +114,9 @@ using (FileStream stream = new FileStream(dataDir + "NewVideo_out." + type, File
 
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για .NET;
  Μπορείτε να βρείτε υποστήριξη στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Sao chép slide vào phần được chỉ định trong PowerPoint
 linktitle: Sao chép slide vào phần được chỉ định trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Dễ dàng sao chép các slide vào các phần cụ thể trong PowerPoint bằng Aspose.Slides for Java. Cải thiện bản trình bày của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Bạn đang tìm cách hợp lý hóa quá trình tạo bản trình bày PowerPoint của mình? Hãy tưởng tượng bạn có thể dễ dàng sao chép các slide vào các phần cụ thể trong bài thuyết trình của mình. Với Aspose.Slides cho Java, việc này trở nên dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, từng bước một, đảm bảo bạn có thể cải thiện bài thuyết trình của mình một cách dễ dàng và chính xác.
 ## Điều kiện tiên quyết
@@ -76,3 +80,9 @@ Tuyệt đối! Bạn có thể lặp lại qua một bộ sưu tập các trang
  Phiên bản dùng thử có một số hạn chế. Để có đầy đủ các tính năng, hãy cân nhắc việc mua một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
  Tài liệu chi tiết có sẵn trên[Trang tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

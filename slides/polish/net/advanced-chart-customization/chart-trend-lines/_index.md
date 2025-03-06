@@ -3,10 +3,14 @@ title: Odkrywanie linii trendu wykresu w Aspose.Slides dla .NET
 linktitle: Wykres linii trendu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: W tym przewodniku krok po kroku dowiesz się, jak dodawać różne linie trendu do wykresów za pomocą Aspose.Slides dla .NET. Z łatwością zwiększ swoje umiejętności wizualizacji danych!
-type: docs
 weight: 12
 url: /pl/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 W świecie wizualizacji i prezentacji danych wykresy mogą być skutecznym sposobem skutecznego przekazywania informacji. Aspose.Slides dla .NET zapewnia bogaty w funkcje zestaw narzędzi do pracy z wykresami, w tym możliwość dodawania linii trendu do wykresów. W tym samouczku zajmiemy się procesem dodawania linii trendu do wykresu krok po kroku za pomocą Aspose.Slides dla .NET. 
 
@@ -145,3 +149,9 @@ Aspose.Slides dla .NET to wszechstronna biblioteka, która pozwala z łatwości�
 
 ### Czy potrzebuję tymczasowej licencji na Aspose.Slides dla .NET?
  Możesz uzyskać tymczasową licencję na Aspose.Slides dla .NET od[ten link](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

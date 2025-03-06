@@ -3,10 +3,14 @@ title: Java スライドで数式を計算する
 linktitle: Java スライドで数式を計算する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドで数式を計算する方法を学びます。動的な PowerPoint プレゼンテーションのソース コードを含むステップ バイ ステップ ガイド。
-type: docs
 weight: 10
 url: /ja/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides を使用した Java スライドの数式計算の概要
 
@@ -114,3 +118,10 @@ try {
 ### ワークブック内の数式を計算するにはどうすればよいですか?
 
 ワークブック内の数式を計算するには、`calculateFormulas`方法`IChartDataWorkbook` Aspose.Slides で。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

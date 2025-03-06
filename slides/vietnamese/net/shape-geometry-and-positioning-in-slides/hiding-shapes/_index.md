@@ -3,10 +3,14 @@ title: Ẩn hình dạng trong PowerPoint với Hướng dẫn Aspose.Slides .NE
 linktitle: Ẩn hình dạng trong slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách ẩn hình trong trang chiếu PowerPoint bằng Aspose.Slides for .NET. Tùy chỉnh bản trình bày theo chương trình với hướng dẫn từng bước này.
-type: docs
 weight: 21
 url: /vi/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong thế giới thuyết trình năng động, việc tùy chỉnh là chìa khóa. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để thao tác các bản trình bày PowerPoint theo chương trình. Một yêu cầu chung là khả năng ẩn các hình dạng cụ thể trong một slide. Hướng dẫn này sẽ hướng dẫn bạn quy trình ẩn hình dạng trong các slide thuyết trình bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
@@ -73,3 +77,9 @@ Tuyệt đối! Bạn có thể tùy chỉnh logic ẩn dựa trên các thuộc
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/)cho mục đích thử nghiệm.
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ của cộng đồng cho Aspose.Slides?
  Tham gia cộng đồng Aspose.Slides trên[diễn đàn](https://forum.aspose.com/c/slides/11) để thảo luận và hỗ trợ.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

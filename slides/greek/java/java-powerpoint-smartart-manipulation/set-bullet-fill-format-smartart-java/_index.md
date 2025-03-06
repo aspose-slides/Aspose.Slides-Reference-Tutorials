@@ -3,10 +3,14 @@ title: Ορίστε τη μορφή Bullet Fill στο SmartArt χρησιμοπ
 linktitle: Ορίστε τη μορφή Bullet Fill στο SmartArt χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε τη μορφή γεμίσματος κουκκίδων στο SmartArt χρησιμοποιώντας Java με το Aspose.Slides. Βήμα-βήμα οδηγός για αποτελεσματικό χειρισμό παρουσίασης.
-type: docs
 weight: 18
 url: /el/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στη σφαίρα του προγραμματισμού Java, ο αποτελεσματικός χειρισμός των παρουσιάσεων είναι μια κοινή απαίτηση, ειδικά όταν πρόκειται για στοιχεία SmartArt. Το Aspose.Slides για Java αναδεικνύεται ως ένα ισχυρό εργαλείο για τέτοιες εργασίες, προσφέροντας μια σειρά λειτουργιών για το χειρισμό των παρουσιάσεων μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ρύθμισης της μορφής συμπλήρωσης κουκκίδων στο SmartArt χρησιμοποιώντας Java με Aspose.Slides, βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -71,3 +75,9 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.Slides με μια δωρεάν δοκιμή. Απλώς κατεβάστε το από το[δικτυακός τόπος](https://releases.aspose.com/slides/java/) και ξεκινήστε την εξερεύνηση.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Slides για Java;
  Για οποιαδήποτε απορία ή βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides στη διεύθυνση[αυτός ο σύνδεσμος](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

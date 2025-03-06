@@ -3,10 +3,14 @@ title: Lås bildförhållande i PowerPoint med Java
 linktitle: Lås bildförhållande i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du låser bildförhållandet i PowerPoint-presentationer med Java med Aspose.Slides. Perfekt för Java-utvecklare som vill ha exakt kontroll över bilddesignen.
-type: docs
 weight: 16
 url: /sv/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Inom Java-utvecklingsområdet kan manipulering av PowerPoint-presentationer programmatiskt effektivisera arbetsflöden och förbättra produktiviteten avsevärt. Aspose.Slides för Java erbjuder en robust verktygslåda för Java-utvecklare för att automatisera uppgifter som att modifiera bilder, lägga till innehåll och tillämpa formatering direkt från Java-kod. Denna handledning fokuserar på en grundläggande aspekt av PowerPoint-presentationshantering: låsning av bildförhållanden.
 ## Förutsättningar
@@ -61,3 +65,9 @@ Ja, Aspose.Slides för Java är utformad för att effektivt hantera komplexa sce
  Du kan söka stöd från Aspose.Slides-communityt[här](https://forum.aspose.com/c/slides/11).
 ### Hur kan jag prova Aspose.Slides för Java innan jag köper?
  Du kan få en gratis testversion[här](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Animacja i układ slajdów Java
 linktitle: Animacja i układ slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się animacji i układu slajdów w Javie za pomocą Aspose.Slides dla Java. Opanuj interaktywne prezentacje. Zanurz się w dynamicznym tworzeniu treści.
-type: docs
 weight: 14
 url: /pl/java/animation-and-layout/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Czy chcesz tchnąć życie w swoje prezentacje i tworzyć urzekające slajdy w języku Java? Aspose.Slides dla Java to rozwiązanie, do którego warto się udać. W tym obszernym przewodniku dowiemy się, jak opanować animację i układ slajdów w języku Java, aby Twoje prezentacje wyróżniały się na tle innych.
 
@@ -42,3 +46,9 @@ Zoptymalizuj swoje prezentacje Java za pomocą Aspose.Slides for Java. Dowiedz s
 Optymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
 ### [Animowanie elementów serii w slajdach Java](./animating-series-elements-java-slides/)
 Dowiedz się, jak animować elementy serii na slajdach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z tym obszernym przewodnikiem krok po kroku z kodem źródłowym, aby ulepszyć swoje prezentacje.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

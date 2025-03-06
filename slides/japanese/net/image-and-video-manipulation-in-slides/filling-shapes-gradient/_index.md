@@ -3,10 +3,14 @@ title: Aspose.Slides で PowerPoint に魅力的なグラデーションを作�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形をグラデーションで塗りつぶす
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーションを強化しましょう。グラデーションを使用して図形を塗りつぶす手順をステップごとに学習します。今すぐ無料トライアルをダウンロードしてください。
-type: docs
 weight: 21
 url: /ja/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 視覚的に魅力的なプレゼンテーション スライドを作成することは、視聴者の注意を引き付け、維持するために不可欠です。このチュートリアルでは、Aspose.Slides for .NET を使用して楕円形をグラデーションで塗りつぶすことでスライドを強化するプロセスについて説明します。
 ## 前提条件
@@ -73,3 +77,9 @@ A: もちろんです! Aspose.Slides for .NET は、四角形、多角形など�
  A: 支援を求め、コミュニティと関わりましょう[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
 ### Q: Aspose.Slides for .NET の一時ライセンスを購入できますか?
  A: もちろん、臨時免許証を取得することは可能です[ここ](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

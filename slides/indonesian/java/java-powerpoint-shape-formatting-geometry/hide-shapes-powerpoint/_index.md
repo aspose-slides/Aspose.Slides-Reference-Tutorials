@@ -3,10 +3,14 @@ title: Sembunyikan Bentuk di PowerPoint
 linktitle: Sembunyikan Bentuk di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyembunyikan bentuk di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah kami yang terperinci. Sempurna untuk pengembang Java dari semua tingkatan.
-type: docs
 weight: 27
 url: /id/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang menyembunyikan bentuk di PowerPoint menggunakan Aspose.Slides untuk Java! Jika Anda pernah perlu menyembunyikan bentuk tertentu dalam presentasi PowerPoint secara terprogram, Anda berada di tempat yang tepat. Panduan ini akan memandu Anda melalui setiap langkah dengan gaya percakapan yang sederhana. Baik Anda seorang pengembang berpengalaman atau baru mulai menggunakan Java, kami siap membantu Anda.
 ## Prasyarat
@@ -81,3 +85,9 @@ Aspose.Slides tersedia untuk berbagai bahasa pemrograman termasuk .NET, Python, 
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides?
  Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

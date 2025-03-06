@@ -3,10 +3,14 @@ title: Java PowerPoint 高级段落和字体属性
 linktitle: Java PowerPoint 高级段落和字体属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides 掌握 Java PowerPoint 中的高级段落和字体属性。学习自定义字体、添加图片项目符号和使用后备字体。
-type: docs
 weight: 28
 url: /zh/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 
 创建精美的 PowerPoint 演示文稿需要对各种元素进行微调，从段落格式到字体管理。Aspose.Slides for Java 提供了强大的工具来有效地管理这些高级属性。在本文中，我们将探索帮助您自定义段落字体属性、添加图片项目符号和使用后备字体的教程。让我们深入研究这些高级技术，让您的演示文稿脱颖而出！
@@ -35,3 +39,9 @@ url: /zh/java/java-powerpoint-advanced-paragraph-font-properties/
 通过本详细的分步教程学习如何使用 Aspose.Slides for Java 获取 PowerPoint 中的部分矩形。非常适合 Java 开发人员。
 ### [在 Java PowerPoint 中使用后备字体进行渲染](./render-with-fallback-font-java-powerpoint/)
 了解如何使用 Aspose.Slides 在 Java PowerPoint 演示文稿中使用后备字体渲染文本。按照此分步指南进行无缝实施。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

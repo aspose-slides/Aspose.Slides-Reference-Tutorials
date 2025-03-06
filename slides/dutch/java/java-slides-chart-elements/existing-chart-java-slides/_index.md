@@ -3,10 +3,14 @@ title: Bestaand diagram in Java-dia's
 linktitle: Bestaand diagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter uw PowerPoint-presentaties met Aspose.Slides voor Java. Leer hoe u bestaande diagrammen programmatisch kunt wijzigen. Stapsgewijze handleiding met broncode voor het aanpassen van diagrammen.
-type: docs
 weight: 12
 url: /nl/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot bestaande grafieken in Java-dia's met behulp van Aspose.Slides voor Java
 
@@ -184,3 +188,9 @@ In deze uitgebreide zelfstudie hebben we geleerd hoe u een bestaand diagram in e
 ### Is er een manier om een reeks uit het diagram te verwijderen?
 
  Ja, u kunt een reeks uit het diagram verwijderen met behulp van de`chart.getChartData().getSeries().removeAt(index)` methode, waar`index`is de index van de reeks die u wilt verwijderen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

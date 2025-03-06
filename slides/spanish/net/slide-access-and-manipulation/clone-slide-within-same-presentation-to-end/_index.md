@@ -3,10 +3,14 @@ title: Duplicar diapositiva hasta el final de la presentación existente
 linktitle: Duplicar diapositiva hasta el final de la presentación existente
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a duplicar y agregar una diapositiva al final de una presentación de PowerPoint existente usando Aspose.Slides para .NET. Esta guía paso a paso proporciona ejemplos de código fuente y cubre la configuración, duplicación de diapositivas, modificación y más.
-type: docs
 weight: 22
 url: /es/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a Aspose.Slides para .NET
 
@@ -96,3 +100,9 @@ Sí, Aspose.Slides admite varios formatos de PowerPoint, incluidos PPT, PPTX, PP
 ### ¿Puedo modificar el contenido de la diapositiva usando Aspose.Slides?
 
 ¡Absolutamente! Aspose.Slides le permite no sólo duplicar diapositivas sino también manipular su contenido, como texto, imágenes, formas y animaciones, mediante programación.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

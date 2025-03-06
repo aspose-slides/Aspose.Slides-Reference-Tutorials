@@ -3,10 +3,14 @@ title: Установить режим макета в слайдах Java
 linktitle: Установить режим макета в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить режимы макета для слайдов Java с помощью Aspose.Slides. Настройте расположение и размер диаграммы в этом пошаговом руководстве с исходным кодом.
-type: docs
 weight: 23
 url: /ru/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в установку режима макета в слайдах Java
 
@@ -95,3 +99,9 @@ finally
 ### Где я могу найти дополнительную информацию об Aspose.Slides для Java?
 
  Дополнительную информацию об Aspose.Slides для Java можно найти в[документация](https://reference.aspose.com/slides/java/). Он включает подробные ссылки и примеры API, которые помогут вам эффективно работать со слайдами и диаграммами в Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

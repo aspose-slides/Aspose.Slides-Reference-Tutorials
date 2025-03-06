@@ -3,10 +3,14 @@ title: Java 幻灯片中的图表趋势线
 linktitle: Java 幻灯片中的图表趋势线
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 向 Java Slides 添加各种趋势线。带有代码示例的分步指南，可实现有效的数据可视化。
-type: docs
 weight: 15
 url: /zh/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slides 中的图表趋势线简介：分步指南
 
@@ -190,3 +194,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### 如何访问 Aspose.Slides for Java 的更多资源和示例？
 
 您可以在以下位置访问 Aspose.Slides for Java 的其他资源、文档和示例：[Aspose 网站](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

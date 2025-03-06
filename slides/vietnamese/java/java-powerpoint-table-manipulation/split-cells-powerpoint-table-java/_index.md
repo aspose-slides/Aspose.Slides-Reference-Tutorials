@@ -3,10 +3,14 @@ title: Tách ô trong bảng PowerPoint bằng Java
 linktitle: Tách ô trong bảng PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách phân tách, hợp nhất và định dạng các ô trong bảng PowerPoint theo chương trình bằng cách sử dụng Aspose.Slides cho Java. Thiết kế bài thuyết trình chính.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách thao tác với bảng PowerPoint trong Java bằng Aspose.Slides. Bảng là thành phần cơ bản trong bài thuyết trình, thường được sử dụng để tổ chức và trình bày dữ liệu một cách hiệu quả. Aspose.Slides cung cấp khả năng mạnh mẽ để tạo, sửa đổi và nâng cao các bảng theo chương trình, mang lại sự linh hoạt trong thiết kế và bố cục.
 ## Điều kiện tiên quyết
@@ -95,3 +99,9 @@ Thao tác với các bảng PowerPoint theo chương trình bằng Aspose.Slides
  Bạn có thể nhận hỗ trợ từ diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
 ### Tôi có thể lấy giấy phép tạm thời cho Aspose.Slides cho Java không?
  Có, bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

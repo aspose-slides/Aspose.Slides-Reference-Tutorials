@@ -3,10 +3,14 @@ title: PowerPoint で結合スタイルを書式設定する
 linktitle: PowerPoint で結合スタイルを書式設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して図形にさまざまな線結合スタイルを設定し、PowerPoint プレゼンテーションを強化する方法を学びます。ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 視覚的に魅力的な PowerPoint プレゼンテーションを作成するのは、特に細部まで完璧に仕上げたい場合には、大変な作業です。ここで役立つのが Aspose.Slides for Java です。これは、プレゼンテーションをプログラムで作成、操作、管理できる強力な API です。利用できる機能の 1 つは、図形にさまざまな線の結合スタイルを設定することです。これにより、スライドの美観を大幅に向上できます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの図形に結合スタイルを設定する方法について詳しく説明します。 
 ## 前提条件
@@ -112,3 +116,9 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログ�
 線の結合スタイルは、2 本の線が交わる角の形状を指します。一般的なスタイルには、マイター、ベベル、ラウンドなどがあります。
 ### Aspose.Slides for Java に関する詳細なドキュメントはどこで入手できますか?
 詳細なドキュメントは以下をご覧ください[ここ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

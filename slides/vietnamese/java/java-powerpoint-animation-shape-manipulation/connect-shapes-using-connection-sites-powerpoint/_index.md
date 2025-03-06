@@ -3,10 +3,14 @@ title: Kết nối các hình dạng bằng cách sử dụng các trang kết n
 linktitle: Kết nối các hình dạng bằng cách sử dụng các trang kết nối trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách kết nối các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Tự động hóa bài thuyết trình của bạn một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách kết nối các hình dạng bằng các trang kết nối trong PowerPoint bằng Aspose.Slides cho Java. Thư viện mạnh mẽ này cho phép chúng ta thao tác các bản trình bày PowerPoint theo chương trình, thực hiện các tác vụ như kết nối các hình dạng liền mạch và hiệu quả.
 ## Điều kiện tiên quyết
@@ -70,3 +74,9 @@ Có, Aspose.Slides cho Java cung cấp nhiều chức năng để tạo, chỉnh
  Có, giấy phép tạm thời được cung cấp cho mục đích thử nghiệm và đánh giá. Bạn có thể có được một[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua giấy phép Aspose.Slides cho Java ở đâu?
 Bạn có thể mua giấy phép từ trang web Aspose[đây](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

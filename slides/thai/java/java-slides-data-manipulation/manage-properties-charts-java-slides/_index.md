@@ -3,10 +3,14 @@ title: จัดการแผนภูมิคุณสมบัติใน 
 linktitle: จัดการแผนภูมิคุณสมบัติใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิที่น่าทึ่งและจัดการคุณสมบัติในสไลด์ Java ด้วย Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดเพื่อการนำเสนอที่ทรงพลัง
-type: docs
 weight: 13
 url: /th/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการจัดการคุณสมบัติและแผนภูมิใน Java Slides โดยใช้ Aspose.Slides
 
@@ -198,3 +202,9 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### ฉันสามารถปรับแต่งคุณสมบัติ 3D อื่นใดได้อีกบ้าง
 
 คุณสามารถสำรวจคุณสมบัติ 3 มิติอื่นๆ ของแผนภูมิได้ เช่น ความลึก เปอร์สเปคทีฟ และการจัดแสง โดยอ้างอิงจากเอกสารประกอบของ Aspose.Slides
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

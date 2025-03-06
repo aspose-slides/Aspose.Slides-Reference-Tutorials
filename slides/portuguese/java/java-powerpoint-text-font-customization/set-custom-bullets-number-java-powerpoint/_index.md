@@ -3,10 +3,14 @@ title: Definir número de marcadores personalizados em Java PowerPoint
 linktitle: Definir número de marcadores personalizados em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir números de marcadores personalizados em Java PowerPoint com Aspose.Slides, melhorando a clareza e a estrutura da apresentação de forma programática.
-type: docs
 weight: 15
 url: /pt/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Na era digital de hoje, a criação de apresentações dinâmicas é crucial para comunicar ideias e dados de forma eficaz. Aspose.Slides for Java fornece um kit de ferramentas poderoso para manipular apresentações do PowerPoint de forma programática, oferecendo recursos abrangentes para aprimorar seu processo de construção de apresentações. Este artigo se aprofunda na configuração de números de marcadores personalizados em apresentações Java PowerPoint usando Aspose.Slides. Quer você seja um desenvolvedor experiente ou um novato, este tutorial irá guiá-lo passo a passo através do processo, garantindo que você possa aproveitar esse recurso de forma eficiente.
 ## Pré-requisitos
@@ -82,3 +86,9 @@ Aspose.Slides suporta formatos PowerPoint de 97-2003 até as versões mais recen
  Sim, você pode baixar uma avaliação gratuita em[aqui](https://releases.aspose.com/).
 ### Onde posso comprar o Aspose.Slides?
  Você pode comprar Aspose.Slides em[aqui](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

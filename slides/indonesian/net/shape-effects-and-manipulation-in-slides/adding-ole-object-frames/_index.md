@@ -3,10 +3,14 @@ title: Menambahkan Bingkai Objek OLE ke Presentasi dengan Aspose.Slides
 linktitle: Menambahkan Bingkai Objek OLE ke Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan presentasi PowerPoint dengan konten dinamis! Ikuti panduan langkah demi langkah kami menggunakan Aspose.Slides untuk .NET. Tingkatkan keterlibatan sekarang!
-type: docs
 weight: 15
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari proses menambahkan Bingkai Objek OLE (Penautan dan Penyematan Objek) ke Slide Presentasi menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file PowerPoint secara terprogram. Ikuti panduan langkah demi langkah ini untuk menyematkan objek OLE dengan mulus ke dalam slide presentasi Anda, menyempurnakan file PowerPoint Anda dengan konten dinamis dan interaktif.
 ## Prasyarat
@@ -84,3 +88,9 @@ J: Ya, Aspose.Slides mendukung format file PowerPoint terbaru, termasuk PPTX.
 J: Tentu saja, Anda dapat menyesuaikan ukuran, posisi, dan properti lain dari OLE Object Frame sesuai preferensi Anda.
 ### T: Di mana saya bisa mencari bantuan jika saya menemui kendala selama penerapan?
  J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تحويل مع حجم مخصص في شرائح جافا
 linktitle: تحويل مع حجم مخصص في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى صور TIFF بحجم مخصص باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية للمطورين.
-type: docs
 weight: 31
 url: /ar/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة للتحويل بحجم مخصص في شرائح Java
 
@@ -137,3 +141,9 @@ finally
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ Java؟
 
  للحصول على وثائق مفصلة ومعلومات إضافية حول Aspose.Slides for Java، يرجى زيارة الوثائق:[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

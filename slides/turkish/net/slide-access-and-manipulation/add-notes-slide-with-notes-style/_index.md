@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET ile Şık Not Formatı Ekleme
 linktitle: Şık Not Biçimlendirmesiyle Not Slaydı Ekle
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarınıza şık not formatlarını nasıl ekleyeceğinizi öğrenin. Slaytlarınızı semboller ve madde işaretleri ile zenginleştirin.
-type: docs
 weight: 14
 url: /tr/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Sunum dünyasında önemli olan yalnızca sunduğunuz içerik değil, aynı zamanda onu nasıl sunduğunuzdur. Şık not biçimlendirmesi sunumunuzun etkisinde önemli bir fark yaratabilir. Aspose.Slides for .NET ile PowerPoint sunumlarınızı madde işaretleri ve sembollerle şık notlar ekleyerek kolayca geliştirebilirsiniz. Bu adım adım kılavuzda, PowerPoint slaytlarınıza şık not biçimlendirmesi ekleme sürecinde size yol göstereceğiz.
 
@@ -109,3 +113,9 @@ Evet, test ve değerlendirme amacıyla geçici lisansı şu adresten alabilirsin
 
 ### Aspose.Slides for .NET için bir topluluk forumu veya desteği var mı?
  Evet, Aspose.Slides for .NET topluluk forumunda yardım isteyebilir ve tartışmalara katılabilirsiniz.[Burada](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

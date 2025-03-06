@@ -3,10 +3,14 @@ title: जावा का उपयोग करके पावरपॉइं
 linktitle: जावा का उपयोग करके पावरपॉइंट में स्मार्टआर्ट आकार तक पहुंचें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java का उपयोग करके PowerPoint में SmartArt आकृतियों तक पहुँचने और उनमें हेरफेर करने का तरीका जानें। सहज एकीकरण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 14
 url: /hi/java/java-powerpoint-smartart-manipulation/access-smartart-shape-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 क्या आप जावा का उपयोग करके पावरपॉइंट प्रेजेंटेशन में स्मार्टआर्ट आकृतियों में हेरफेर करना चाहते हैं? चाहे आप रिपोर्ट को स्वचालित कर रहे हों, शैक्षिक सामग्री बना रहे हों, या व्यावसायिक प्रस्तुतियाँ तैयार कर रहे हों, स्मार्टआर्ट आकृतियों को प्रोग्रामेटिक रूप से एक्सेस और हेरफेर करना जानना आपका बहुत सारा समय बचा सकता है। यह ट्यूटोरियल आपको जावा के लिए Aspose.Slides का उपयोग करके प्रक्रिया के माध्यम से मार्गदर्शन करेगा। हम प्रत्येक चरण को सरल, समझने में आसान तरीके से विभाजित करेंगे, इसलिए भले ही आप शुरुआती हों, आप अनुसरण करने और पेशेवर परिणाम प्राप्त करने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -84,3 +88,9 @@ finally {
  हां, आप Aspose समुदाय से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
 ### मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?  
  आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

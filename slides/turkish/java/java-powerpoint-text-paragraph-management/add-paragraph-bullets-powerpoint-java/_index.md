@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint'e Paragraf Madde İşaretleri Ekleme
 linktitle: Java kullanarak PowerPoint'e Paragraf Madde İşaretleri Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarına nasıl paragraf madde işaretleri ekleyeceğinizi öğrenin. Bu eğitim, kod örnekleriyle adım adım size yol gösterir.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Paragraf madde işaretleri eklemek PowerPoint sunumlarının okunabilirliğini ve yapısını geliştirir. Aspose.Slides for Java, metni çeşitli madde işareti stilleriyle biçimlendirme yeteneği de dahil olmak üzere, sunumları programlı olarak değiştirmek için güçlü araçlar sağlar. Bu eğitimde, Aspose.Slides'ı kullanarak Java kodunu kullanarak madde işaretlerini PowerPoint slaytlarına nasıl entegre edeceğinizi öğreneceksiniz.
 ## Önkoşullar
@@ -89,3 +93,9 @@ Evet, program aracılığıyla farklı slaytlara benzersiz madde işareti stille
 Evet, Aspose.Slides Java 11 ve üzeri sürümleri destekler.
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
  Ziyaret etmek[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/) Kapsamlı kılavuzlar ve örnekler için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: プレゼンテーションから図形を SVG 形式にエクスポー�
 linktitle: プレゼンテーションから図形を SVG 形式にエクスポートする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションから SVG 形式に図形をエクスポートする方法を学びます。ソース コードを含むステップ バイ ステップ ガイド。さまざまなアプリケーション用に図形を効率的に抽出します。
-type: docs
 weight: 16
 url: /ja/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 今日のデジタル世界では、プレゼンテーションは情報を効果的に伝える上で重要な役割を果たします。しかし、さまざまな目的のために、プレゼンテーションから特定の図形を別の形式にエクスポートしなければならない場合があります。そのような形式の 1 つが、スケーラビリティと適応性で知られる SVG (Scalable Vector Graphics) です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションから図形を SVG 形式にエクスポートする手順を説明します。
 
@@ -83,3 +87,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 図形を SVG 形式にエクスポートする方法を学習したので、プレゼンテーションを強化して、さまざまな目的に合わせてより汎用的にすることができます。コーディングを楽しんでください!
 
 詳細と高度な機能については、[Aspose.Slides for .NET API リファレンス](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Festlegen benutzerdefinierter Legendenoptionen in Java-Folien
 linktitle: Festlegen benutzerdefinierter Legendenoptionen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Legendenoptionen in Java Slides festlegen. Passen Sie die Position und Größe der Legende in Ihren PowerPoint-Diagrammen an.
-type: docs
 weight: 14
 url: /de/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Festlegen benutzerdefinierter Legendenoptionen in Java-Folien
 
@@ -131,3 +135,9 @@ In diesem Tutorial haben wir gelernt, wie man die Legendeneigenschaften eines Di
 ## Kann ich andere Legendenattribute anpassen?
 
 Ja, Sie können verschiedene Attribute der Legende anpassen, z. B. Schriftstil, Rahmen, Hintergrundfarbe und mehr. Detaillierte Informationen zum weiteren Anpassen von Legenden finden Sie in der Aspose.Slides-Dokumentation.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

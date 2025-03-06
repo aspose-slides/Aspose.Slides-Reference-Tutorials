@@ -3,10 +3,14 @@ title: إدارة خطوط جافا باور بوينت
 linktitle: إدارة خطوط جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف البرامج التعليمية لإدارة خطوط Java PowerPoint باستخدام Aspose.Slides لـ Java. تعلم تقنيات التضمين والضغط والتخصيص لتحسين العروض التقديمية.
-type: docs
 weight: 21
 url: /ar/java/java-powerpoint-font-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 
 أطلق العنان لإمكانات عروض PowerPoint التقديمية الخاصة بك من خلال البرامج التعليمية لإدارة خطوط Java PowerPoint باستخدام Aspose.Slides for Java. ستساعدك أدلتنا الشاملة على إتقان تخصيص الخطوط والتأكد من تميز عروضك التقديمية.
@@ -72,3 +76,9 @@ url: /ar/java/java-powerpoint-font-management/
 تعلم كيفية تنسيق إطارات النص في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتعزيز المظهر المرئي لشرائحك دون عناء.
 ### [بيانات نمط النص الفعالة في Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 إتقان معالجة نمط النص في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص التنسيق ديناميكيًا لإنشاء محتوى مؤثر.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Podgląd wydruku prezentacji w Aspose.Slides
 linktitle: Podgląd wydruku prezentacji w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wyświetlić podgląd wydruku prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby wygenerować i dostosować podgląd wydruku.
-type: docs
 weight: 11
 url: /pl/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Witamy w świecie Aspose.Slides dla .NET, potężnej biblioteki, która umożliwia programistom płynne manipulowanie i ulepszanie prezentacji PowerPoint w ich aplikacjach .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten obszerny przewodnik przeprowadzi Cię przez niezbędne kroki, aby wykorzystać pełny potencjał Aspose.Slides.
 ## Warunki wstępne
@@ -71,3 +75,9 @@ Absolutnie! Aspose.Slides jest wszechstronny i można go bezproblemowo zintegrow
  Odwiedzać[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celu uzyskania tymczasowej licencji do celów testowych.
 ### Potrzebujesz wsparcia lub masz więcej pytań?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby uzyskać pomoc i nawiązać kontakt ze społecznością.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

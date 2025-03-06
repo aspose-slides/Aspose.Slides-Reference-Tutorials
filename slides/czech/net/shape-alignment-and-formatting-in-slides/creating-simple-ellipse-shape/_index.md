@@ -3,10 +3,14 @@ title: Vytvořte tvar elipsy snadno pomocí Aspose.Slides .NET
 linktitle: Vytváření jednoduchého tvaru elipsy v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet úžasné elipsové tvary na snímcích prezentace pomocí Aspose.Slides for .NET. Snadné kroky pro dynamický design!
-type: docs
 weight: 11
 url: /cs/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V dynamickém světě prezentačního designu může začlenění tvarů, jako jsou elipsy, přidat nádech kreativity a profesionality. Aspose.Slides for .NET nabízí výkonné řešení pro programovou manipulaci s prezentačními soubory. Tento tutoriál vás provede procesem vytváření jednoduchého tvaru elipsy na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -65,3 +69,9 @@ Ano, Aspose.Slides je pravidelně aktualizován, aby byla zajištěna kompatibil
  Následuj[dočasný licenční odkaz](https://purchase.aspose.com/temporary-license/) požádat o dočasnou licenci pro testovací účely.
 ### Potřebujete pomoc nebo máte konkrétní otázky?
  Navštivte[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11) získat pomoc od komunity a odborníků.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

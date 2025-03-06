@@ -3,10 +3,14 @@ title: Rotatiehoek instellen in Java-dia's
 linktitle: Rotatiehoek instellen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw Java-dia's met Aspose.Slides voor Java. Leer hoe u rotatiehoeken voor tekstelementen instelt. Stap-voor-stap handleiding met broncode.
-type: docs
 weight: 17
 url: /nl/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het instellen van de rotatiehoek in Java-dia's
 
@@ -100,3 +104,9 @@ Aspose.Slides voor Java biedt verschillende opmaakopties voor diagramtitels, inc
 ### Is het mogelijk om de rotatie van tekst in de titel van een diagramas te animeren?
 
 Ja, u kunt animatie-effecten toevoegen aan tekstelementen, inclusief titels van diagramassen, met behulp van Aspose.Slides voor Java. Raadpleeg de documentatie voor informatie over het toevoegen van animaties aan uw presentaties.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

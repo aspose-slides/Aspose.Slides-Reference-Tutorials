@@ -3,10 +3,14 @@ title: Ukryj informacje z wykresu w slajdach Java
 linktitle: Ukryj informacje z wykresu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ukryć elementy wykresu w Java Slides za pomocą Aspose.Slides for Java. Dostosuj prezentacje pod kątem przejrzystości i estetyki, korzystając ze wskazówek krok po kroku i kodu źródłowego.
-type: docs
 weight: 13
 url: /pl/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do ukrywania informacji na wykresie w slajdach Java
 
@@ -172,3 +176,9 @@ Tak, możesz dynamicznie zmieniać typ wykresu, tworząc nowy wykres żądanego 
 ### Jak mogę programowo zmienić tytuł i etykiety osi wykresu?
 
 Możesz ustawić tytuł i etykiety wykresu i osi, uzyskując dostęp do ich odpowiednich właściwości i ustawiając żądany tekst i formatowanie.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

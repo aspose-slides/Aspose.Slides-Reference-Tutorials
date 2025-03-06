@@ -3,10 +3,14 @@ title: Java 슬라이드에 HTML 삽입 이미지 변환
 linktitle: Java 슬라이드에 HTML 삽입 이미지 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 포함된 이미지를 사용하여 PowerPoint를 HTML로 변환합니다. Aspose.Slides for Java를 사용하는 단계별 가이드입니다. Java에서 프레젠테이션 변환을 손쉽게 자동화하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에 HTML 삽입 이미지 변환 소개
 
@@ -125,3 +129,10 @@ try {
 ### 변환 중 오류를 어떻게 처리합니까?
 
 변환 프로세스 중에 발생할 수 있는 예외를 처리하기 위해 try-catch 블록에 변환 코드를 래핑할 수 있습니다.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

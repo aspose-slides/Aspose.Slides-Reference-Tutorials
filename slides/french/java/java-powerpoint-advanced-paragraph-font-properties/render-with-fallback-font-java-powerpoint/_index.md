@@ -3,10 +3,14 @@ title: Rendu avec la police de secours dans Java PowerPoint
 linktitle: Rendu avec la police de secours dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment restituer du texte avec des polices de secours dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Suivez ce guide étape par étape pour une mise en œuvre transparente.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Créer et manipuler des présentations PowerPoint en Java peut s'avérer difficile, mais avec Aspose.Slides, vous pouvez le faire efficacement. Une fonctionnalité cruciale est la possibilité de restituer le texte avec des polices de secours. Cet article fournit un guide détaillé, étape par étape, sur la façon d'implémenter des polices de secours dans vos diapositives PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -88,3 +92,9 @@ Les polices de secours sont des polices alternatives utilisées lorsque la polic
 Oui, vous pouvez ajouter plusieurs règles de secours pour gérer différentes plages et polices Unicode.
 ### Où puis-je obtenir de l’aide pour Aspose.Slides ?
  Vous pouvez bénéficier du soutien du[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

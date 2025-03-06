@@ -3,10 +3,14 @@ title: Add hozzá a sima vonalat a diához
 linktitle: Add hozzá a sima vonalat a diához
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat programozottan sima sort egy PowerPoint diához az Aspose.Slides for Java használatával. Növelje termelékenységét ezzel a lépésenkénti útmutatóval.
-type: docs
 weight: 14
 url: /hu/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak PowerPoint prezentációkkal. Az Aspose.Slides segítségével könnyedén hozhat létre, módosíthat és konvertálhat PowerPoint fájlokat, így időt és erőfeszítést takaríthat meg. Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for Java segítségével egy PowerPoint-prezentáció diájához sima vonal hozzáadásának folyamatán.
 ## Előfeltételek
@@ -62,3 +66,9 @@ Teljesen! Az Aspose.Slides a formatípusok széles skáláját kínálja, beleé
 Igen, az Aspose.Slides API segítségével szöveget, képeket és egyéb tartalmat is hozzáadhat a diához.
 ### Létezik ingyenes próbaverzió az Aspose.Slides számára?
  Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

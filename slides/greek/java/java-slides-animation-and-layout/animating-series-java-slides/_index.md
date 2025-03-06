@@ -3,10 +3,14 @@ title: Κινούμενη σειρά σε διαφάνειες Java
 linktitle: Κινούμενη σειρά σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε τις παρουσιάσεις σας με κινούμενα σχέδια σειρών στο Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας με παραδείγματα πηγαίου κώδικα για να δημιουργήσετε ελκυστικά κινούμενα σχέδια PowerPoint.
-type: docs
 weight: 11
 url: /el/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη σειρά κινούμενων σχεδίων στο Aspose.Slides για Java
 
@@ -125,3 +129,9 @@ finally
 ### Πώς μπορώ να προσαρμόσω τη διάρκεια και την καθυστέρηση της κινούμενης εικόνας;
 
 Μπορείτε να προσαρμόσετε τη διάρκεια και την καθυστέρηση της κίνησης ορίζοντας ιδιότητες στα εφέ κινούμενων εικόνων. Ελέγξτε την τεκμηρίωση Aspose.Slides for Java για λεπτομέρειες σχετικά με τις διαθέσιμες επιλογές προσαρμογής.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

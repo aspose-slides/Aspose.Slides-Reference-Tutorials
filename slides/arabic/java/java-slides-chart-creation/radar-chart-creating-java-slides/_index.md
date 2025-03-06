@@ -3,10 +3,14 @@ title: إنشاء مخطط رادار في شرائح جافا
 linktitle: إنشاء مخطط رادار في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات رادارية في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java API.
-type: docs
 weight: 10
 url: /ar/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لإنشاء مخطط رادار في شرائح جافا
 
@@ -268,3 +272,9 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### كيف يمكنني حفظ المخطط بتنسيق ملف مختلف؟
 
 يمكنك تغيير تنسيق الإخراج عن طريق تعديل امتداد الملف في ملف`outPath` المتغير واستخدام المناسب`SaveFormat` . على سبيل المثال، للحفظ بصيغة PDF، استخدم`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

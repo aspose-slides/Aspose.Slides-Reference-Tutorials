@@ -3,10 +3,14 @@ title: Java Slaytlarında Kullanılmayan Layout Master'ı Kaldırma
 linktitle: Java Slaytlarında Kullanılmayan Layout Master'ı Kaldırma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Kullanılmayan Mizanpaj Master'larını Aspose.Slides ile kaldırın. Adım adım kılavuz ve kod. Sunum verimliliğini artırın.
-type: docs
 weight: 10
 url: /tr/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Kullanılmayan Mizanpaj Yöneticisini Kaldırmaya Giriş
 
@@ -123,3 +127,9 @@ Hayır, kullanılmayan düzen kalıplarını kaldırmak slaytlarınızın biçim
 ### Bu makalede kullanılan kaynak koduna nereden erişebilirim?
 
 Bu makalede kullanılan kaynak kodunu her adımda sağlanan kod parçacıklarında bulabilirsiniz. Sunularınızda kullanılmayan düzen kalıplarının kaldırılmasını sağlamak için kodu kopyalayıp Java projenize yapıştırmanız yeterlidir.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

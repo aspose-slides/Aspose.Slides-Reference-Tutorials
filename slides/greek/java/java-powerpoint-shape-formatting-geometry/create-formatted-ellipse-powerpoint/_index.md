@@ -3,10 +3,14 @@ title: Δημιουργία μορφοποιημένης έλλειψης στο
 linktitle: Δημιουργία μορφοποιημένης έλλειψης στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μια μορφοποιημένη έλλειψη στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό οδηγό βήμα προς βήμα.
-type: docs
 weight: 17
 url: /el/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο για τη δημιουργία μιας μορφοποιημένης έλλειψης στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία PowerPoint μέσω προγραμματισμού. Είτε αυτοματοποιείτε τη δημιουργία διαφανειών είτε βελτιώνετε τις παρουσιάσεις με προσαρμοσμένα σχήματα, αυτός ο οδηγός θα σας καθοδηγήσει σε κάθε βήμα, διασφαλίζοντας ότι μπορείτε να προσθέσετε μια τέλεια μορφοποιημένη έλλειψη στις διαφάνειές σας με ευκολία. Ας βουτήξουμε και ας δούμε πώς μπορούμε να το πετύχουμε αυτό!
 ## Προαπαιτούμενα
@@ -95,3 +99,9 @@ finally {
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση στο Aspose.Slides for Java[σελίδα τεκμηρίωσης](https://reference.aspose.com/slides/java/).
 ### Υπάρχει διαθέσιμη υποστήριξη για το Aspose.Slides;
  Ναι, το Aspose προσφέρει υποστήριξη μέσω του[δικαστήριο](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Zaznacz tekst za pomocą wyrażenia regularnego w programie Java PowerPoi
 linktitle: Zaznacz tekst za pomocą wyrażenia regularnego w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyróżniać tekst w programie PowerPoint przy użyciu wzorców wyrażeń regularnych w Aspose.Slides dla Java. Dynamicznie ulepszaj swoje prezentacje.
-type: docs
 weight: 15
 url: /pl/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 dziedzinie programowania opartego na Javie do tworzenia i manipulowania prezentacjami PowerPoint, Aspose.Slides for Java wyróżnia się jako solidne rozwiązanie. Ten samouczek koncentruje się na wykorzystaniu Aspose.Slides do wyróżniania tekstu za pomocą wyrażeń regularnych (regex) w prezentacjach programu PowerPoint. Pod koniec tego przewodnika nauczysz się, jak implementować wzorce wyrażeń regularnych, aby wyróżniać określony tekst na slajdach, poprawiając zarówno funkcjonalność, jak i przejrzystość wizualną.
 ## Warunki wstępne
@@ -62,3 +66,9 @@ Tak, Aspose.Slides obsługuje różne formaty programu PowerPoint, zapewniając 
 Absolutnie oferuje rozbudowane funkcje manipulacji tekstem poza podświetlaniem, w tym stylizację czcionek, wyrównanie i inne.
 ### Czy mogę wypróbować Aspose.Slides dla Java przed zakupem?
  Tak, możesz zacząć od[bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić jego możliwości.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

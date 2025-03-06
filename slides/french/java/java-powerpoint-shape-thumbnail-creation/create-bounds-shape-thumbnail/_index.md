@@ -3,10 +3,14 @@ title: Créer une vignette de forme de limites
 linktitle: Créer une vignette de forme de limites
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des miniatures de formes avec des limites à l'aide d'Aspose.Slides pour Java. Ce didacticiel étape par étape vous guide tout au long du processus.
-type: docs
 weight: 10
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Aspose.Slides for Java est une bibliothèque puissante qui permet aux développeurs Java de créer, manipuler et convertir des présentations PowerPoint par programme. Dans ce didacticiel, nous allons apprendre à créer une image miniature d'une forme avec des limites à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -57,3 +61,9 @@ Oui, vous pouvez ajuster les propriétés des images miniatures, telles que la t
 Oui, Aspose.Slides pour Java fournit des fonctionnalités étendues pour travailler avec des présentations PowerPoint, notamment la manipulation de diapositives, l'extraction de texte et la génération de graphiques.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides pour Java ?
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

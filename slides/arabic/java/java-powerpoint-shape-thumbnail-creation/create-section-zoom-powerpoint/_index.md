@@ -3,10 +3,14 @@ title: إنشاء قسم التكبير في PowerPoint
 linktitle: إنشاء قسم التكبير في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء تكبير/تصغير للأقسام في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز التنقل والمشاركة دون عناء.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في إنشاء تكبيرات للأقسام في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعد تكبيرات الأقسام ميزة قوية تسمح لك بالتنقل بسلاسة عبر أقسام مختلفة من العرض التقديمي الخاص بك، مما يعزز كلاً من المؤسسة وتجربة المستخدم الشاملة. من خلال تقسيم العروض التقديمية المعقدة إلى أقسام سهلة الفهم، يمكنك نقل رسالتك بشكل فعال وإشراك جمهورك.
@@ -72,3 +76,9 @@ pres.save(resultPath, SaveFormat.Pptx);
 نعم، يمكنك إضافة تكبير/تصغير للأقسام إلى العروض التقديمية الموجودة باستخدام Aspose.Slides لـ Java باتباع الخطوات المماثلة الموضحة في هذا البرنامج التعليمي.
 ### أين يمكنني العثور على دعم أو مساعدة إضافية فيما يتعلق بـ Aspose.Slides لـ Java؟
  للحصول على دعم أو مساعدة إضافية، يمكنك زيارة منتدى Aspose.Slides for Java[هنا](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

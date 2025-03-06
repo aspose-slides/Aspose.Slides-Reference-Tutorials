@@ -3,10 +3,14 @@ title: Définir un classeur externe avec mettre à jour les données du graphiqu
 linktitle: Définir un classeur externe avec mettre à jour les données du graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des classeurs externes et mettre à jour les données du graphique dans Java Slides à l'aide d'Aspose.Slides pour Java. Améliorez vos compétences en automatisation PowerPoint.
-type: docs
 weight: 20
 url: /fr/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la définition d'un classeur externe avec mise à jour des données du graphique dans les diapositives Java
 
@@ -99,3 +103,9 @@ Oui, vous pouvez personnaliser l'apparence du graphique, y compris son titre, se
 ### Où puis-je trouver plus de documentation et de ressources pour Aspose.Slides pour Java ?
 
  Pour une documentation détaillée et des ressources supplémentaires, visitez la documentation Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

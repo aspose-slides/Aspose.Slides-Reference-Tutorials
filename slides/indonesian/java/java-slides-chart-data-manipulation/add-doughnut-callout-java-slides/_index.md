@@ -3,10 +3,14 @@ title: Tambahkan Info Donat di Slide Java
 linktitle: Tambahkan Info Donat di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Belajar Menambahkan Info Donat di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk presentasi yang lebih baik.
-type: docs
 weight: 12
 url: /id/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Menambahkan Info Donat di Slide Java menggunakan Aspose.Slides untuk Java
 
@@ -180,3 +184,9 @@ Ya, Anda dapat menambahkan titik data sebanyak yang diperlukan ke bagan Donat. C
 ### Bagaimana cara menyesuaikan posisi dan ukuran bagan Donat pada slide?
 
  Anda dapat mengubah posisi dan ukuran bagan Donat dengan memodifikasi parameter di`addChart` metode. Keempat angka dalam metode tersebut masing-masing sesuai dengan koordinat X dan Y dari sudut kiri atas grafik serta lebar dan tingginya.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

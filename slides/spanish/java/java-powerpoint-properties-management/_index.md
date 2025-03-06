@@ -3,10 +3,14 @@ title: Gestión de propiedades de PowerPoint de Java
 linktitle: Gestión de propiedades de PowerPoint de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Descubra cómo administrar las propiedades de PowerPoint usando Aspose.Slides para Java. Acceda, modifique y actualice propiedades sin esfuerzo con nuestros completos tutoriales.
-type: docs
 weight: 21
 url: /es/java/java-powerpoint-properties-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción
 
@@ -38,3 +42,9 @@ Desbloquee el poder de Aspose.Slides para Java. Domina la gestión de presentaci
 Aprenda a modificar las propiedades integradas en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones programáticamente.
 ### [Actualizar propiedades de presentación con nueva plantilla](./update-presentation-properties-new-template/)
 Aprenda cómo actualizar las propiedades de la presentación usando Aspose.Slides para Java. Mejore sus proyectos Java con una modificación perfecta de metadatos.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

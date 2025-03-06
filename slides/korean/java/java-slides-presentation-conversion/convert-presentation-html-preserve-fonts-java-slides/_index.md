@@ -3,10 +3,14 @@ title: Java 슬라이드에서 원본 글꼴을 유지하면서 프레젠테이�
 linktitle: Java 슬라이드에서 원본 글꼴을 유지하면서 프레젠테이션을 HTML로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 원본 글꼴을 유지하면서 PowerPoint 프레젠테이션을 HTML로 변환하세요.
-type: docs
 weight: 14
 url: /ko/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 원본 글꼴을 유지하면서 프레젠테이션을 HTML로 변환하는 방법 소개
 
@@ -111,3 +115,9 @@ finally
 ### HTML 출력을 추가로 사용자 정의하려면 어떻게 해야 합니까?
 
  당신은 탐색 할 수 있습니다`HtmlOptions` 슬라이드 크기, 이미지 품질 등과 같은 HTML 출력의 다양한 측면을 사용자 정의하는 클래스입니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Συμπληρώστε σχήματα με συμπαγές χρώμα σ
 linktitle: Συμπληρώστε σχήματα με συμπαγές χρώμα στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να γεμίζετε σχήματα με συμπαγή χρώματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ένας βήμα προς βήμα οδηγός για προγραμματιστές.
-type: docs
 weight: 13
 url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Εάν έχετε εργαστεί ποτέ με παρουσιάσεις PowerPoint, γνωρίζετε ότι η προσθήκη σχημάτων και η προσαρμογή των χρωμάτων τους μπορεί να είναι μια κρίσιμη πτυχή για να κάνετε τις διαφάνειές σας οπτικά ελκυστικές και ενημερωτικές. Με το Aspose.Slides για Java, αυτή η διαδικασία γίνεται παιχνιδάκι. Είτε είστε προγραμματιστής που θέλει να αυτοματοποιήσει τη δημιουργία παρουσιάσεων PowerPoint είτε κάποιος που ενδιαφέρεται να προσθέσει μια πινελιά χρώματος στις διαφάνειές σας, αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία πλήρωσης σχημάτων με συμπαγή χρώματα χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -85,3 +89,9 @@ presentation.save(dataDir + "RectShpSolid_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από το[Aspose website](https://releases.aspose.com/).
 ### Πού μπορώ να βρω περισσότερα έγγραφα και υποστήριξη;
  Λεπτομερής τεκμηρίωση είναι διαθέσιμη στο[Aspose website](https://reference.aspose.com/slides/java/) και μπορείτε να αναζητήσετε υποστήριξη στο[Aspose φόρουμ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

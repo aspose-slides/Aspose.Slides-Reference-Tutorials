@@ -3,10 +3,14 @@ title: Mastering Shape Alignment with Aspose.Slides for .NET
 linktitle: Aligning Shapes in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to align shapes effortlessly in presentation slides using Aspose.Slides for .NET. Enhance visual appeal with precise alignment. Download now!
-type: docs
 weight: 10
 url: /net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Creating visually appealing presentation slides often requires precise alignment of shapes. Aspose.Slides for .NET provides a powerful solution to achieve this with ease. In this tutorial, we'll explore how to align shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -82,3 +86,10 @@ Absolutely! Aspose.Slides provides methods to distribute shapes evenly, both hor
 Aspose.Slides for .NET is primarily designed for Windows applications, but Aspose provides libraries for Java and other platforms as well.
 ### How can I get further assistance or support?
 Visit the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) for community support and discussions.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

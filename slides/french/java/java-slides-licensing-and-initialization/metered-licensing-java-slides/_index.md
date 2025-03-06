@@ -3,10 +3,14 @@ title: Licences limitées dans les diapositives Java
 linktitle: Licences limitées dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Optimisez votre utilisation d'Aspose.Slides pour Java avec les licences mesurées. Découvrez comment le configurer et surveiller votre consommation d'API.
-type: docs
 weight: 10
 url: /fr/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction aux licences limitées dans Aspose.Slides pour Java
 
@@ -107,3 +111,10 @@ Si vous dépassez votre limite mesurée, vous devrez peut-être mettre à niveau
 ### Ai-je besoin d’une connexion Internet pour les licences limitées ?
 
 Oui, une connexion Internet est requise pour définir et valider les licences limitées.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

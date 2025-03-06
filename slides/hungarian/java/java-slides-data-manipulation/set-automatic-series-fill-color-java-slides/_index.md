@@ -3,10 +3,14 @@ title: Állítsa be az automatikus sorozatkitöltés színét a Java diákban
 linktitle: Állítsa be az automatikus sorozatkitöltés színét a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be az automatikus sorozatkitöltés színét a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató kódpéldákkal dinamikus prezentációkhoz.
-type: docs
 weight: 14
 url: /hu/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a sorozatok automatikus kitöltési színének beállításába a Java diákban
 
@@ -126,3 +130,9 @@ Igen, az Aspose.Slides for Java funkciók széles skáláját kínálja, beleér
 ### Hol találok további forrásokat és dokumentációt?
 
  Az Aspose.Slides for Java átfogó dokumentációját a következő címen érheti el[itt](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java 幻灯片保存选项
 linktitle: Java 幻灯片保存选项
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解使用 Aspose.Slides for Java 的 Java Slides 保存选项。探索全面的教程和指南，实现高效的幻灯片管理和自定义。
-type: docs
 weight: 25
 url: /zh/java/saving-options/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 
 在动态演示领域，Java 已成为一种多功能语言，提供大量工具和库来增强幻灯片效果。在管理和自定义幻灯片方面，Aspose.Slides for Java 是一款出色的解决方案。在本文中，我们将深入探讨使用 Aspose.Slides for Java 的 Java 幻灯片保存选项的激动人心的领域。
@@ -46,3 +50,9 @@ Aspose.Slides for Java 支持一系列其他格式，如 PPTX、PPT、ODP 和 HT
 了解如何使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿保存为只读。通过分步说明和代码示例保护您的内容。
 ### [在 Java 幻灯片中保存属性](./save-properties-in-java-slides/)
 使用 Aspose.Slides for Java 优化您的 PowerPoint 演示文稿。学习如何设置属性、禁用加密、添加密码保护以及轻松保存。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

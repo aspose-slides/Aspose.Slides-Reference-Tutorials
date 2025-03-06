@@ -3,10 +3,14 @@ title: Свойства шрифта в PowerPoint с Java
 linktitle: Свойства шрифта в PowerPoint с Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как управлять свойствами шрифта в презентациях PowerPoint с помощью Java с помощью Aspose.Slides для Java. Легко настраивайте шрифты с помощью этого пошагового руководства.
-type: docs
 weight: 11
 url: /ru/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В этом уроке мы рассмотрим, как управлять свойствами шрифта в презентациях PowerPoint с помощью Java, в частности с помощью Aspose.Slides для Java. Мы проведем вас через каждый шаг: от импорта необходимых пакетов до сохранения измененной презентации. Давайте погрузимся!
 ## Предварительные условия
@@ -81,3 +85,9 @@ pres.save(dataDir + "WelcomeFont_out.pptx", SaveFormat.Pptx);
  Да, вы можете скачать бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
 ### Где я могу найти дополнительную поддержку и ресурсы для Aspose.Slides для Java?
  Вы можете посетить форум Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11) для поддержки и документации[здесь](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

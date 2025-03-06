@@ -3,10 +3,14 @@ title: Wykres linii trendu w slajdach Java
 linktitle: Wykres linii trendu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać różne linie trendu do slajdów Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu umożliwiającymi efektywną wizualizację danych.
-type: docs
 weight: 15
 url: /pl/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do linii trendu wykresów w slajdach Java: przewodnik krok po kroku
 
@@ -190,3 +194,9 @@ Tak, możesz dodać wiele linii trendu do jednej serii wykresów. Po prostu zadz
 ### Jak mogę uzyskać dostęp do większej liczby zasobów i przykładów Aspose.Slides dla Java?
 
  Możesz uzyskać dostęp do dodatkowych zasobów, dokumentacji i przykładów Aspose.Slides dla Java na stronie[Strona Aspose](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تعيين مرساة إطار النص في PowerPoint مع Java
 linktitle: تعيين مرساة إطار النص في PowerPoint مع Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين نقاط ارتساء إطار النص في PowerPoint باستخدام Java باستخدام Aspose.Slides. تعزيز العروض التقديمية الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف تتعلم كيفية تعيين مرساة إطار النص في عروض PowerPoint التقديمية باستخدام Java بمساعدة Aspose.Slides. يتيح لك تثبيت إطارات النص التحكم بدقة في موضع النص وسلوكه داخل الشكل، مما يضمن أن تكون شرائحك جذابة بصريًا ومهيكلة بشكل فعال.
 ## المتطلبات الأساسية
@@ -71,3 +75,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بإ�
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك زيارة منتدى الدعم[هنا](https://forum.aspose.com/c/slides/11) لأية استفسارات أو مساعدة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

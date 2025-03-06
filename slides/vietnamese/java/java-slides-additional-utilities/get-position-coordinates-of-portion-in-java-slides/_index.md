@@ -3,10 +3,14 @@ title: Nhận tọa độ vị trí của phần trong trang trình bày Java
 linktitle: Nhận tọa độ vị trí của phần trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất tọa độ phần văn bản trong các trang trình bày Java bằng Aspose.Slides cho API Java. Kiểm soát chính xác vị trí văn bản trong bản trình bày PowerPoint.
-type: docs
 weight: 12
 url: /vi/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Lấy tọa độ vị trí của phần trong Java Slides
 
@@ -120,3 +124,9 @@ Có, Aspose.Slides for Java hỗ trợ nhiều định dạng tệp PowerPoint k
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc trợ giúp thêm với Aspose.Slides cho Java?
 
 Bạn có thể truy cập hỗ trợ và tài nguyên bổ sung trên trang web Aspose. Họ cung cấp diễn đàn, tài liệu và các tùy chọn hỗ trợ cao cấp cho người dùng.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

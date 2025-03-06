@@ -3,10 +3,14 @@ title: Aspose.Slides - Groepsvormen maken in .NET
 linktitle: Groepsvormen maken in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u groepsvormen maakt in PowerPoint met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor visueel aantrekkelijke presentaties.
-type: docs
 weight: 11
 url: /nl/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Als u de visuele aantrekkingskracht van uw presentatiedia's wilt verbeteren en de inhoud efficiënter wilt organiseren, is het opnemen van groepsvormen een krachtige oplossing. Aspose.Slides voor .NET biedt een naadloze manier om groepsvormen in uw PowerPoint-presentaties te maken en te manipuleren. In deze zelfstudie doorlopen we het proces van het maken van groepsvormen met Aspose.Slides, waarbij we het proces opsplitsen in eenvoudig te volgen stappen.
 ## Vereisten
@@ -98,3 +102,10 @@ Bezoek de Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) voor gemeen
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik een volledige licentie voor Aspose.Slides kopen?
  U kunt een licentie kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

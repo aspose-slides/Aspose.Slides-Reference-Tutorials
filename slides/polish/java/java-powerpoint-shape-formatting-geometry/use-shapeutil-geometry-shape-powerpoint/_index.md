@@ -3,10 +3,14 @@ title: Użyj narzędzia ShapeUtil do określenia kształtu geometrii w programie
 linktitle: Użyj narzędzia ShapeUtil do określenia kształtu geometrii w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz niestandardowe kształty w programie PowerPoint za pomocą Aspose.Slides dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby ulepszyć swoje prezentacje.
-type: docs
 weight: 23
 url: /pl/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji programu PowerPoint często wymaga czegoś więcej niż tylko użycia standardowych kształtów i tekstu. Wyobraź sobie, że możesz dodawać niestandardowe kształty i ścieżki tekstowe bezpośrednio do slajdów, zwiększając wizualny efekt prezentacji. Używając Aspose.Slides dla Java, możesz to osiągnąć z łatwością. Ten samouczek przeprowadzi Cię przez proces korzystania z narzędzia`ShapeUtil` zajęcia do tworzenia kształtów geometrycznych w prezentacjach programu PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik krok po kroku pomoże Ci wykorzystać moc Aspose.Slides dla Java do tworzenia oszałamiających treści o niestandardowym kształcie.
 ## Warunki wstępne
@@ -75,3 +79,9 @@ Aspose.Slides oferuje bezpłatną wersję próbną, z której możesz pobrać[Tu
  The`ShapeUtil` class w Aspose.Slides udostępnia metody użytkowe do pracy z kształtami, takie jak konwertowanie ścieżek graficznych na ścieżki geometryczne.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Możesz uzyskać wsparcie od[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

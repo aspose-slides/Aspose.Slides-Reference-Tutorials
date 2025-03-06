@@ -3,10 +3,14 @@ title: Erstellen einer Miniaturansicht mit Skalierungsfaktor für die Form in As
 linktitle: Erstellen einer Miniaturansicht mit Skalierungsfaktor für die Form in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET PowerPoint-Miniaturbilder mit bestimmten Begrenzungen erstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 12
 url: /de/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Willkommen zu unserem umfassenden Leitfaden zum Erstellen von Miniaturansichten mit Begrenzungen für Formen in Aspose.Slides für .NET. Aspose.Slides ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit PowerPoint-Präsentationen in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial werden wir uns eingehend mit dem Prozess des Generierens von Miniaturansichten mit bestimmten Begrenzungen für Formen innerhalb einer Präsentation mithilfe von Aspose.Slides befassen.
 ## Voraussetzungen
@@ -55,3 +59,9 @@ Ja, Aspose.Slides ist mit verschiedenen .NET-Frameworks kompatibel und bietet Fl
  Bei Fragen oder für Hilfe besuchen Sie bitte das Aspose.Slides-Supportforum[Hier](https://forum.aspose.com/c/slides/11).
 ### F5: Kann ich Aspose.Slides für .NET kaufen?
  Natürlich! Um Aspose.Slides für .NET zu kaufen, besuchen Sie bitte die Kaufseite[Hier](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

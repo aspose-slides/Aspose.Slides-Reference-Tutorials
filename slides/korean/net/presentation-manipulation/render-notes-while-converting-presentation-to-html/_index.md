@@ -3,10 +3,14 @@ title: 프레젠테이션을 HTML로 변환하는 동안 노트 렌더링
 linktitle: 프레젠테이션을 HTML로 변환하는 동안 노트 렌더링
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션을 HTML로 변환하는 동안 발표자 노트를 효과적으로 렌더링하는 방법을 알아보세요. 이 단계별 가이드는 노트 보존을 통해 원활한 변환을 달성하는 데 도움이 되는 소스 코드 예제와 통찰력을 제공합니다.
-type: docs
 weight: 28
 url: /ko/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 오늘날 디지털 시대에는 프레젠테이션을 HTML 형식으로 변환하는 것이 일반적인 요구 사항이 되었습니다. 이를 통해 웹에서 프레젠테이션을 쉽게 공유할 수 있으므로 더 많은 청중이 액세스할 수 있습니다. .NET용 Aspose.Slides는 이 프로세스를 단순화하는 강력한 도구입니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션을 HTML로 변환하는 과정을 안내합니다.
 
@@ -79,3 +83,10 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
  문제가 발생하거나 질문이 있는 경우 다음 사이트에서 도움을 요청할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/).
 
 다음 단계를 따르면 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션을 HTML로 쉽게 변환할 수 있습니다. 더 많은 청중과 온라인으로 프레젠테이션을 공유해 보세요!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

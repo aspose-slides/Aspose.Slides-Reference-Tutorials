@@ -3,10 +3,14 @@ title: Достижение соответствия PDF/A и PDF/UA с помо
 linktitle: Достижение соответствия PDF/A и PDF/UA
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Обеспечьте соответствие PDF/A и PDF/UA с помощью Aspose.Slides для .NET. Легко создавайте доступные и сохраняемые презентации.
-type: docs
 weight: 23
 url: /ru/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение
 
@@ -127,3 +131,9 @@ Install-Package Aspose.Slides
 ### Обязательно ли соответствие PDF/UA всем документам?
 
 Соответствие PDF/UA особенно важно для документов, которые предназначены для пользователей с ограниченными возможностями. Однако необходимость соответствия PDF/UA зависит от конкретных требований вашей целевой аудитории.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

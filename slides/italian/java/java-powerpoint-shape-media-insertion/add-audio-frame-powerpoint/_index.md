@@ -3,10 +3,14 @@ title: Aggiungi cornice audio in PowerPoint
 linktitle: Aggiungi cornice audio in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere fotogrammi audio alle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con elementi audio accattivanti senza sforzo.
-type: docs
 weight: 12
 url: /it/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Migliorare le presentazioni con elementi audio può aumentarne significativamente l'impatto e il coinvolgimento. Con Aspose.Slides per Java, l'integrazione di frame audio nelle presentazioni PowerPoint diventa un processo senza interruzioni. Questo tutorial ti guiderà attraverso il processo passo passo di aggiunta di frame audio alle tue presentazioni utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -75,3 +79,9 @@ Sì, puoi creare presentazioni PowerPoint con fotogrammi audio incorporati compa
 Aspose.Slides per Java offre ampie opzioni di personalizzazione, che ti consentono di personalizzare l'aspetto del lettore audio in base alle tue preferenze.
 ### È disponibile una versione di prova per Aspose.Slides per Java?
  Sì, puoi accedere a una prova gratuita di Aspose.Slides per Java dal loro[sito web](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

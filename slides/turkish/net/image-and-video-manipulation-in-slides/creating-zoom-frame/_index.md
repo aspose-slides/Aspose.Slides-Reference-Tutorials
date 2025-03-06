@@ -3,10 +3,14 @@ title: Aspose.Slides Yakınlaştırma Çerçeveleri ile Dinamik Sunumlar Oluştu
 linktitle: Aspose.Slides ile Sunum Slaytlarında Yakınlaştırma Çerçevesi Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak yakınlaştırma çerçeveleriyle büyüleyici sunumlar oluşturmayı öğrenin. İlgi çekici bir slayt deneyimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 17
 url: /tr/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Sunumlar alanında büyüleyici slaytlar, kalıcı bir izlenim bırakmanın anahtarıdır. Aspose.Slides for .NET güçlü bir araç seti sağlar ve bu kılavuzda ilgi çekici yakınlaştırma çerçevelerini sunum slaytlarınıza dahil etme sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -89,3 +93,9 @@ Evet, öğreticide gösterildiği gibi çizgi genişliği, dolgu rengi ve çizgi
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Slides for .NET'in tam sürümünü nereden satın alabilirim?
  Tam sürümünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

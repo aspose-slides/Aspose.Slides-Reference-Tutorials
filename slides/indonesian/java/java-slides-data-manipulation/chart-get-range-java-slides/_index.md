@@ -3,10 +3,14 @@ title: Bagan Dapatkan Rentang di Slide Java
 linktitle: Bagan Dapatkan Rentang di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengambil rentang bagan di Java Slides menggunakan Aspose.Slides for Java API. Panduan langkah demi langkah dengan kode sumber untuk akses data grafik yang efektif.
-type: docs
 weight: 16
 url: /id/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Bagan Dapatkan Rentang di Slide Java
 
@@ -98,3 +102,10 @@ Ya, Anda dapat menyesuaikan tampilan bagan, seperti mengubah warna, font, dan ga
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi dan sumber daya yang komprehensif untuk Aspose.Slides untuk Java di situs:[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

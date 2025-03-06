@@ -3,10 +3,14 @@ title: जावा पावरपॉइंट एनीमेशन और आ
 linktitle: जावा पावरपॉइंट एनीमेशन और आकार हेरफेर
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint में आकृतियों को एनिमेट और हेरफेर करना सीखें। गतिशील प्रस्तुतियों के लिए व्यापक ट्यूटोरियल।
-type: docs
 weight: 25
 url: /hi/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## परिचय
 
@@ -90,3 +94,9 @@ Aspose.Slides for Java का उपयोग करके PowerPoint में 
 इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में वीडियो फ़्रेम एम्बेड करना सीखें। अपनी प्रस्तुतियों को आसानी से बेहतर बनाएँ।
 ### [PowerPoint में OLE ऑब्जेक्ट से एम्बेडेड फ़ाइल डेटा निकालें](./extract-embedded-file-data-ole-object-powerpoint/)
 Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों से एम्बेडेड फ़ाइल डेटा निकालना सीखें, जिससे दस्तावेज़ प्रबंधन क्षमताएं बढ़ें।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

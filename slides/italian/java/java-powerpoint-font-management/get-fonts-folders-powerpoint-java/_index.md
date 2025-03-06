@@ -3,10 +3,14 @@ title: Ottieni cartelle di caratteri in PowerPoint utilizzando Java
 linktitle: Ottieni cartelle di caratteri in PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come estrarre le cartelle dei caratteri nelle presentazioni PowerPoint utilizzando Java con Aspose.Slides, migliorando le capacità di progettazione delle presentazioni.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 In questo tutorial, approfondiremo il processo di acquisizione delle cartelle dei caratteri nelle presentazioni PowerPoint utilizzando Java. I caratteri svolgono un ruolo fondamentale nell'attrattiva visiva e nella leggibilità delle tue presentazioni. Sfruttando Aspose.Slides per Java, possiamo accedere in modo efficiente alle directory dei caratteri, che è essenziale per varie operazioni relative ai caratteri all'interno delle presentazioni di PowerPoint.
 ## Prerequisiti
@@ -46,3 +50,9 @@ Le cartelle dei caratteri facilitano l'accesso alle risorse dei caratteri, conse
  È possibile visitare il forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11) per cercare supporto dalla comunità o dal team di supporto Aspose.
 ### Dove posso acquistare Aspose.Slides per Java?
  È possibile acquistare Aspose.Slides per Java dal sito Web[Qui](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

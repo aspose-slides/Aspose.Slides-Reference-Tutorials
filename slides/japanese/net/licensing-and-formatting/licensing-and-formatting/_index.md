@@ -3,10 +3,14 @@ title: Aspose.Slides のライセンス
 linktitle: Aspose.Slides のライセンス
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET のライセンスを取得し、.NET アプリケーションで PowerPoint 操作のパワーを最大限発揮する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/licensing-and-formatting/licensing-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 .NET 開発の世界では、Aspose.Slides は、Microsoft PowerPoint ファイルをプログラムで操作できる強力で多用途なライブラリです。PowerPoint プレゼンテーションを作成、操作、または変換する必要がある場合でも、Aspose.Slides が対応します。その機能を最大限に活用するには、ライセンスの重要性を理解する必要があります。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET のライセンスを取得し、アプリケーションがシームレスに実行できることを確認する方法について説明します。
 
@@ -92,3 +96,9 @@ Aspose.Slides for .NET は、.NET アプリケーションで Microsoft PowerPoi
 
 ### Aspose.Slides for .NET ユーザーにはどのようなサポートが受けられますか?
  Aspose はコミュニティフォーラムを提供しており、そこでサポートを求めたり、他の Aspose ユーザーと交流したりすることができます。フォーラムには次の URL からアクセスできます。[フォーラム](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Replikovat snímek na konci samostatné prezentace
 linktitle: Replikovat snímek na konci samostatné prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se replikovat snímek z jedné prezentace PowerPoint a přidat jej do jiné pomocí Aspose.Slides for .NET. Tento průvodce krok za krokem poskytuje zdrojový kód a jasné pokyny pro bezproblémovou manipulaci se snímky.
-type: docs
 weight: 17
 url: /cs/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -103,3 +107,9 @@ Absolutně! S obsahem replikovaného snímku můžete manipulovat stejně jako s
 ### Funguje Aspose.Slides pro .NET pouze se snímky?
 
 Ne, Aspose.Slides for .NET poskytuje rozsáhlé možnosti nad rámec snímků. Můžete pracovat s tvary, grafy, animacemi a dokonce extrahovat text a obrázky z prezentací.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

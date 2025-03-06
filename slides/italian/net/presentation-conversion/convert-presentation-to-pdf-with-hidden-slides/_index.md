@@ -3,10 +3,14 @@ title: Converti la presentazione in PDF con diapositive nascoste
 linktitle: Converti la presentazione in PDF con diapositive nascoste
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come utilizzare Aspose.Slides per .NET per convertire facilmente presentazioni in PDF con diapositive nascoste.
-type: docs
 weight: 26
 url: /it/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione ad Aspose.Slides per .NET
 
@@ -95,3 +99,9 @@ Assolutamente, Aspose.Slides per .NET è progettato per gestire presentazioni di
 ### Esiste documentazione per Aspose.Slides per .NET?
 
  Sì, puoi trovare la documentazione e gli esempi di utilizzo di Aspose.Slides per .NET su[Qui](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

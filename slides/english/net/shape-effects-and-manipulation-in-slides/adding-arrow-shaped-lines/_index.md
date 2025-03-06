@@ -3,10 +3,14 @@ title: Adding Arrow Shaped Lines to Presentation Slides using Aspose.Slides
 linktitle: Adding Arrow Shaped Lines to Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with arrow-shaped lines using Aspose.Slides for .NET. Follow our step-by-step guide for a dynamic and engaging slide experience.
-type: docs
 weight: 12
 url: /net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the world of dynamic presentations, the ability to customize and enhance slides is crucial. Aspose.Slides for .NET empowers developers to add visually appealing elements, such as arrow-shaped lines, to presentation slides. This step-by-step guide will walk you through the process of incorporating arrow-shaped lines into your slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -79,3 +83,10 @@ Explore the documentation [here](https://reference.aspose.com/slides/net/) for i
 Yes, you can experience Aspose.Slides with a free trial. Download it [here](https://releases.aspose.com/).
 ### How can I get support for Aspose.Slides?
 Visit the community [forum](https://forum.aspose.com/c/slides/11) for any assistance or queries.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

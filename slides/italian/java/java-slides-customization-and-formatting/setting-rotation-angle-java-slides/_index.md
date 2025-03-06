@@ -3,10 +3,14 @@ title: Impostazione dell'angolo di rotazione nelle diapositive Java
 linktitle: Impostazione dell'angolo di rotazione nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Ottimizza le tue diapositive Java con Aspose.Slides per Java. Impara a impostare gli angoli di rotazione per gli elementi di testo. Guida passo passo con il codice sorgente.
-type: docs
 weight: 17
 url: /it/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'impostazione dell'angolo di rotazione nelle diapositive Java
 
@@ -100,3 +104,9 @@ Aspose.Slides per Java fornisce varie opzioni di formattazione per i titoli dei 
 ### È possibile animare la rotazione del testo nel titolo dell'asse di un grafico?
 
 Sì, puoi aggiungere effetti di animazione agli elementi di testo, inclusi i titoli degli assi del grafico, utilizzando Aspose.Slides per Java. Fare riferimento alla documentazione per informazioni sull'aggiunta di animazioni alle presentazioni.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

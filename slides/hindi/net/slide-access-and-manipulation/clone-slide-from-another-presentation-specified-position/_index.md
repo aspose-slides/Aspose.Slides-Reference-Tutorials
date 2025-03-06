@@ -3,10 +3,14 @@ title: भिन्न प्रस्तुति से स्लाइड क
 linktitle: भिन्न प्रस्तुति से स्लाइड को निर्दिष्ट स्थान पर क्लोन करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके विभिन्न प्रस्तुतियों से स्लाइड को किसी निर्दिष्ट स्थान पर क्लोन करना सीखें। संपूर्ण स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका, जिसमें स्लाइड क्लोनिंग, स्थिति विनिर्देशन और प्रस्तुति सहेजना शामिल है।
-type: docs
 weight: 16
 url: /hi/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## विभिन्न प्रस्तुतियों से निर्दिष्ट स्थान पर स्लाइड क्लोनिंग का परिचय
 
@@ -137,3 +141,9 @@ namespace SlideCloningDemo
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET से संबंधित विस्तृत जानकारी, उदाहरण और API संदर्भ के लिए।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

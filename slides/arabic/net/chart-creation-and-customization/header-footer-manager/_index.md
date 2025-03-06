@@ -3,10 +3,14 @@ title: إدارة الرأس والتذييل في الشرائح
 linktitle: إدارة الرأس والتذييل في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة رؤوس وتذييلات ديناميكية في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET.
-type: docs
 weight: 14
 url: /ar/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # إنشاء رؤوس وتذييلات ديناميكية في Aspose.Slides لـ .NET
 
@@ -131,3 +135,9 @@ presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 
 ### س5: هل يوجد مجتمع أو منتدى دعم لـ Aspose.Slides for .NET؟
  ج5: نعم، يمكنك زيارة منتدى دعم Aspose.Slides for .NET[هنا](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

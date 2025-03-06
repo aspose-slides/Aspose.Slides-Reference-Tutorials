@@ -3,10 +3,14 @@ title: Chart Recover Workbook Java Slides
 linktitle: Chart Recover Workbook Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat helyre munkafüzeteket a Java Slides diagramjaiból az Aspose.Slides segítségével. Útmutató lépésről lépésre a PowerPoint automatizálásához.
-type: docs
 weight: 17
 url: /hu/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a Chart Recover munkafüzetbe Java Slides-ben
 
@@ -109,3 +113,9 @@ Teljesen! Az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint-felada
 ### Hogyan férhetek hozzá az Aspose.Slides for Java további dokumentációjához?
 
  Az Aspose.Slides for Java részletes dokumentációjához és hivatkozásaiért keresse fel a dokumentációs oldalt a címen[itt](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

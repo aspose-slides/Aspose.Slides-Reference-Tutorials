@@ -3,10 +3,14 @@ title: Hozzon létre SVG-t egyéni alakzat-azonosítókkal a prezentációkban
 linktitle: Hozzon létre SVG-t egyéni alakzat-azonosítókkal a prezentációkban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Az Aspose.Slides for .NET segítségével lenyűgöző prezentációkat készíthet egyéni SVG-alakzatokkal és azonosítókkal. Ismerje meg, hogyan hozhat létre interaktív diákat lépésről lépésre a forráskód példáival. Növelje prezentációiban a vizuális vonzerőt és a felhasználói interakciót.
-type: docs
 weight: 19
 url: /hu/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Szeretné kihasználni az Aspose.Slides for .NET erejét egyéni alakazonosítókkal rendelkező SVG-fájlok létrehozásához? Jó helyen jársz! Ebben a lépésenkénti oktatóanyagban végigvezetjük a folyamaton a következő forráskódrészlet használatával. A végére jól felkészült lesz arra, hogy egyéni alakazonosítókkal rendelkező SVG-fájlokat készítsen prezentációiban.
 
@@ -78,3 +82,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
     További dokumentációért keresse fel a[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
 
 Most pedig fedezze fel az SVG-generálás végtelen lehetőségeit az Aspose.Slides for .NET segítségével. Boldog kódolást!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

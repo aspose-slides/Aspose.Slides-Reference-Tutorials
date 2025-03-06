@@ -3,10 +3,14 @@ title: Akses Format Tata Letak di Slide Java
 linktitle: Akses Format Tata Letak di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengakses dan memanipulasi format tata letak di Java Slides dengan Aspose.Slides untuk Java. Sesuaikan gaya bentuk dan garis dengan mudah dalam presentasi PowerPoint.
-type: docs
 weight: 10
 url: /id/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mengakses Format Tata Letak di Slide Java
 
@@ -138,3 +142,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Akses bentuk pertama pada
 ```
 
  Anda kemudian dapat menggunakan`IFillFormat` Dan`ILineFormat` metode seperti yang ditunjukkan pada jawaban sebelumnya untuk mengubah format isian dan garis bentuk.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

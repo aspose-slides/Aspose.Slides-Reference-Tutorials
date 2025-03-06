@@ -3,10 +3,14 @@ title: Adding Stretch Offset for Image Fill in PowerPoint Presentations
 linktitle: Adding Stretch Offset for Image Fill in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance PowerPoint presentations with Aspose.Slides for .NET. Follow a step-by-step guide to add a stretch offset for image fill.
-type: docs
 weight: 18
 url: /net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic world of presentations, visuals play a pivotal role in capturing the audience's attention. Aspose.Slides for .NET empowers developers to enhance their PowerPoint presentations by providing a robust set of features. One such feature is the ability to add a stretch offset for image fill, allowing for creative and visually appealing slides.
 ## Prerequisites
@@ -71,3 +75,10 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 Refer to the [documentation](https://reference.aspose.com/slides/net/) for detailed information.
 ### Can I purchase Aspose.Slides for .NET?
 Yes, you can buy the product [here](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

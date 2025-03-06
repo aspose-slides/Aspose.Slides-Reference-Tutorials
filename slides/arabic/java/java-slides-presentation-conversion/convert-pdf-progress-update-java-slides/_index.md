@@ -3,10 +3,14 @@ title: تحويل إلى PDF مع تحديث التقدم في شرائح جاف
 linktitle: تحويل إلى PDF مع تحديث التقدم في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تحويل PowerPoint إلى PDF مع تحديثات التقدم في Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري وتتبع التقدم من أجل تحويل سلس.
-type: docs
 weight: 36
 url: /ar/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحويل PowerPoint إلى PDF مع تحديثات التقدم في Java باستخدام Aspose.Slides لـ Java
 
@@ -118,3 +122,10 @@ class ExportProgressHandler implements IProgressCallback
 ### كيف يمكنني تخصيص خيارات تحويل PDF؟
 
  يمكنك تخصيص خيارات تحويل PDF عن طريق تعديل ملف`PdfOptions` كائن قبل استدعاء`presentation.save` طريقة. يتضمن ذلك تعيين خصائص مثل حجم الصفحة والجودة والمزيد.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

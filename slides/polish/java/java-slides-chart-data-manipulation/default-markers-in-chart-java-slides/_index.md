@@ -3,10 +3,14 @@ title: Domyślne znaczniki na wykresie w slajdach Java
 linktitle: Domyślne znaczniki na wykresie w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć slajdy Java z domyślnymi znacznikami na wykresach przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 16
 url: /pl/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do domyślnych znaczników na wykresie w slajdach Java
 
@@ -142,3 +146,9 @@ Możesz dostosować symbole znaczników, ustawiając styl znaczników dla każde
 ### Czy mogę dodać etykiety do punktów danych?
 
  Tak, możesz dodawać etykiety do punktów danych za pomocą`IDataPoint.getLabel()` metody i dostosować je według potrzeb.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java를 사용하여 SmartArt에서 차트 레이아웃 유형 구성
 linktitle: Java를 사용하여 SmartArt에서 차트 레이아웃 유형 구성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 SmartArt에서 차트 레이아웃 유형을 정리하여 프레젠테이션 시각적 요소를 쉽게 향상시킵니다.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Java를 사용하고 특히 Aspose.Slides 라이브러리를 활용하여 SmartArt에서 차트 레이아웃 유형을 구성하는 프로세스를 안내합니다. 프레젠테이션의 SmartArt는 데이터의 시각적 매력과 명확성을 크게 향상시켜 데이터 조작을 마스터하는 데 필수적입니다.
 ## 전제 조건
@@ -55,3 +59,9 @@ Java를 사용하여 SmartArt에서 차트 레이아웃 유형의 구성을 마�
 예, Aspose.Slides의 무료 평가판에 액세스하여 구매 결정을 내리기 전에 해당 기능을 살펴볼 수 있습니다.
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
  Aspose.Slides에 관한 도움이나 질문이 있는 경우 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

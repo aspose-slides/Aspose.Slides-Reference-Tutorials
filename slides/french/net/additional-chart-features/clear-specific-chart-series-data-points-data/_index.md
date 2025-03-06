@@ -3,10 +3,14 @@ title: Effacer les points de données d'une série de graphiques spécifiques av
 linktitle: Effacer les points de données d'une série de graphiques spécifiques
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment effacer des points de données spécifiques de séries de graphiques dans des présentations PowerPoint avec Aspose.Slides pour .NET. Guide étape par étape.
-type: docs
 weight: 13
 url: /fr/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de travailler avec des présentations PowerPoint par programme. Dans ce didacticiel, nous vous guiderons tout au long du processus de suppression de points de données spécifiques d'une série de graphiques dans une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. À la fin de ce didacticiel, vous serez en mesure de manipuler facilement les points de données du graphique.
 
@@ -95,3 +99,9 @@ Oui, vous pouvez personnaliser l'apparence des graphiques en modifiant leurs pro
 
 ### Existe-t-il une communauté ou une communauté de développeurs pour Aspose.Slides pour .NET ?
 Oui, vous pouvez rejoindre la communauté Aspose sur leur forum pour discuter, poser des questions et partager vos expériences.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

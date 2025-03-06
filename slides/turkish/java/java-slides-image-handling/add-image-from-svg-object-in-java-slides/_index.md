@@ -3,10 +3,14 @@ title: Java Slaytlarında SVG Nesnesinden Resim Ekleme
 linktitle: Java Slaytlarında SVG Nesnesinden Resim Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile SVG görsellerini Java Slides'a nasıl ekleyeceğinizi öğrenin. Çarpıcı sunumlar için kod içeren adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında SVG Nesnesinden Resim Eklemeye Giriş
 
@@ -120,3 +124,9 @@ Aspose.Slides for Java, çok çeşitli SVG görüntülerini işleyebilir. Ancak 
 ### SVG görüntüsünü slayda ekledikten sonra renk veya stil gibi görünümünü özelleştirebilir miyim?
 
 Evet, Aspose.Slides for Java'nın kapsamlı API'sini kullanarak SVG görüntüsünün görünümünü özelleştirebilirsiniz. Gerektiğinde renkleri değiştirebilir, stiller uygulayabilir ve diğer ayarlamaları yapabilirsiniz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

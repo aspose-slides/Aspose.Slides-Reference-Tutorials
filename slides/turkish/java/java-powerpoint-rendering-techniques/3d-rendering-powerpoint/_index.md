@@ -3,10 +3,14 @@ title: PowerPoint'te 3D Oluşturma
 linktitle: PowerPoint'te 3D Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te çarpıcı 3D görselleştirmeleri nasıl oluşturacağınızı öğrenin. Sunumlarınızı geliştirin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java'yı kullanarak çarpıcı 3D görüntülemeyi PowerPoint sunumlarınıza nasıl dahil edebileceğinizi keşfedeceğiz. Bu adım adım talimatları izleyerek hedef kitlenizi etkileyecek büyüleyici görsel efektler oluşturabileceksiniz.
 ## Önkoşullar
@@ -72,3 +76,9 @@ Kesinlikle! Aspose.Slides, PowerPoint sunumlarına 3D şekiller de dahil olmak �
 Aspose.Slides gelişmiş 3D görüntüleme özellikleri sunarken, özellikle karmaşık sahneler veya büyük sunumlarla çalışırken performans etkilerini dikkate almak önemlidir.
 ### Aspose.Slides için ek kaynakları ve desteği nerede bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım, dokümantasyon ve topluluk desteği için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

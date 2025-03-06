@@ -3,10 +3,14 @@ title: Java PowerPoint 形狀格式與幾何
 linktitle: Java PowerPoint 形狀格式與幾何
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 探索 Java PowerPoint 形狀格式化和幾何教學。學習使用 Aspose.Slides for Java 填滿形狀、尋找形狀以及建立自訂幾何圖形。
-type: docs
 weight: 26
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 
 建立具有視覺吸引力的 PowerPoint 簡報通常需要精確的形狀格式設定和幾何操作。透過 Aspose.Slides for Java，開發人員可以將他們的簡報提升到一個新的水平。本文探討了有關填滿形狀、尋找形狀和建立自訂幾何圖形的基本教程，使您的投影片脫穎而出。
@@ -74,3 +78,9 @@ url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中擷取形狀斜角有效資料。透過令人驚嘆的視覺效果增強您的簡報。
 ### [在 PowerPoint 中隱藏形狀](./hide-shapes-powerpoint/)
 透過我們詳細的逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中隱藏形狀。非常適合各個層級的 Java 開發人員。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

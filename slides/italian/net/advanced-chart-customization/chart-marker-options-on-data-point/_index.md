@@ -3,10 +3,14 @@ title: Utilizzo delle opzioni degli indicatori di grafico sul punto dati in Aspo
 linktitle: Opzioni contrassegno grafico sul punto dati
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come migliorare i tuoi grafici PowerPoint utilizzando Aspose.Slides per .NET. Personalizza gli indicatori di punti dati con immagini. Crea presentazioni accattivanti.
-type: docs
 weight: 11
 url: /it/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Quando si lavora con presentazioni e visualizzazione di dati, Aspose.Slides per .NET offre un'ampia gamma di potenti funzionalità per creare, personalizzare e manipolare grafici. In questo tutorial esploreremo come utilizzare le opzioni degli indicatori del grafico sui punti dati per migliorare le presentazioni dei grafici. Questa guida passo passo ti guiderà attraverso il processo, partendo dai prerequisiti e dall'importazione degli spazi dei nomi, fino alla suddivisione di ogni esempio in più passaggi.
 
@@ -148,3 +152,9 @@ Aspose.Slides per .NET è progettato per funzionare con vari formati di PowerPoi
 
 ### È disponibile una versione di prova di Aspose.Slides per .NET?
  Sì, puoi provare Aspose.Slides per .NET scaricando una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

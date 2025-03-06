@@ -3,10 +3,14 @@ title: Grafiekherstelwerkmap in Java-dia's
 linktitle: Grafiekherstelwerkmap in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u werkmappen kunt herstellen uit diagrammen in Java Slides met Aspose.Slides. Stap-voor-stap handleiding voor PowerPoint-automatisering.
-type: docs
 weight: 17
 url: /nl/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot de Chart Recover-werkmap in Java-dia's
 
@@ -109,3 +113,9 @@ Absoluut! Aspose.Slides voor Java is een krachtige bibliotheek voor het automati
 ### Hoe krijg ik toegang tot verdere documentatie voor Aspose.Slides voor Java?
 
  Bezoek de documentatiepagina op voor gedetailleerde documentatie en referenties over Aspose.Slides voor Java[hier](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Đặt quyền truy cập thành PDF trong Java Slides
 linktitle: Đặt quyền truy cập thành PDF trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách bảo mật tài liệu PDF của bạn với quyền truy cập trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước này đề cập đến việc bảo vệ bằng mật khẩu và hơn thế nữa.
-type: docs
 weight: 17
 url: /vi/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Đặt quyền truy cập thành PDF trong Java Slides
 
@@ -104,3 +108,9 @@ Aspose.Slides for Java cung cấp nhiều tính năng bảo mật khác nhau, ba
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể truy cập tài liệu toàn diện về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/) . Ngoài ra, bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

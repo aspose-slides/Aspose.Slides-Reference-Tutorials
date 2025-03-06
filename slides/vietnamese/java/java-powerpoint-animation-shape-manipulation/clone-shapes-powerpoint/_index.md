@@ -3,10 +3,14 @@ title: Sao chép hình dạng trong PowerPoint
 linktitle: Sao chép hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách sao chép hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hợp lý hóa quy trình làm việc của bạn với hướng dẫn dễ làm theo này.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sao chép các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Nhân bản hình dạng cho phép bạn sao chép các hình dạng hiện có trong bản trình bày, điều này có thể đặc biệt hữu ích để tạo bố cục nhất quán hoặc lặp lại các thành phần trên các trang chiếu.
 ## Điều kiện tiên quyết
@@ -57,3 +61,9 @@ Hoàn toàn có thể, sau khi các hình dạng được sao chép và thêm v�
 Có, bạn có thể sao chép các trang trình bày, văn bản, hình ảnh và các thành phần khác trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides cho Java từ[trang mạng](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

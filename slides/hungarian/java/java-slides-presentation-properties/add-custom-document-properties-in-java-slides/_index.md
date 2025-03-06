@@ -3,10 +3,14 @@ title: Adjon hozzá egyéni dokumentumtulajdonságokat a Java Slides-hez
 linktitle: Adjon hozzá egyéni dokumentumtulajdonságokat a Java Slides-hez
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint prezentációkat egyéni dokumentumtulajdonságokkal a Java Slides alkalmazásban. Lépésről lépésre, kódpéldákkal az Aspose.Slides for Java használatával.
-type: docs
 weight: 13
 url: /hu/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés az egyéni dokumentumtulajdonságok hozzáadásához a Java Slides-ben
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Ez a kód megjeleníti a prezentáció összes egyéni tulajdonságának nevét és értékét.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

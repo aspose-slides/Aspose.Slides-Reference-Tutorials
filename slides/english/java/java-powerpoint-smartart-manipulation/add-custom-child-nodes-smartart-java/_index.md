@@ -3,10 +3,14 @@ title: Add Custom Child Nodes in SmartArt using Java
 linktitle: Add Custom Child Nodes in SmartArt using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add custom child nodes to SmartArt in PowerPoint presentations using Java with Aspose.Slides. Enhance your slides with professional graphics effortlessly.
-type: docs
 weight: 11
 url: /java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 SmartArt is a powerful feature in PowerPoint that allows users to create professional-looking graphics quickly and easily. In this tutorial, we will learn how to add custom child nodes to SmartArt using Java with Aspose.Slides.
 ## Prerequisites
@@ -79,3 +83,10 @@ Absolutely! With Aspose.Slides for Java, you can programmatically customize the 
 Yes, you can find comprehensive documentation and access to community support forums on the Aspose website.
 ### Is there a trial version available for Aspose.Slides for Java?
 Yes, you can download a free trial version of Aspose.Slides for Java from the website to explore its features and capabilities before making a purchase [here](https://releases.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

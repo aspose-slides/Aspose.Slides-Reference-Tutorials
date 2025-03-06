@@ -3,10 +3,14 @@ title: تحرير بيانات المخطط في المصنف الخارجي ف�
 linktitle: تحرير بيانات المخطط في المصنف الخارجي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحرير بيانات المخطط في مصنف خارجي باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 17
 url: /ar/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحرير بيانات المخطط في المصنف الخارجي في شرائح Java
 
@@ -103,3 +107,9 @@ if (pres != null) pres.dispose();
 ### كيف يمكنني أتمتة هذه العملية لعروض تقديمية متعددة؟
 
 يمكنك إنشاء حلقة لمعالجة عروض تقديمية متعددة، وتحميل كل منها، وإجراء التغييرات المطلوبة، وحفظ العروض التقديمية المعدلة واحدًا تلو الآخر.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

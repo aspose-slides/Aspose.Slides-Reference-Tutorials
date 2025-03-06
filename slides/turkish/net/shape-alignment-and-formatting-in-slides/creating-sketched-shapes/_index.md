@@ -3,10 +3,14 @@ title: Aspose.Slides ile Çarpıcı Taslak Şekiller Oluşturun
 linktitle: Aspose.Slides ile Sunum Slaytlarında Taslak Şekiller Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunum slaytlarınıza yaratıcı çizim şekilleri eklemeyi öğrenin. Zahmetsizce görsel çekiciliği artırın!
-type: docs
 weight: 13
 url: /tr/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Aspose.Slides for .NET kullanarak sunum slaytlarında taslak şekiller oluşturmaya ilişkin adım adım kılavuzumuza hoş geldiniz. Sunumlarınıza yaratıcılık dokunuşu katmak istiyorsanız, eskiz şekilleri benzersiz ve elle çizilmiş bir estetik sağlar. Bu eğitimde, sorunsuz bir deneyim sağlamak için süreci basit adımlara bölerek size süreç boyunca yol göstereceğiz.
 ## Önkoşullar
@@ -74,3 +78,9 @@ Sunum slaytlarınıza eskiz şekilleri eklemek görsel çekiciliği artırabilir
  Aspose.Slides for .NET'i satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
 ### 5. Geçici lisanslar sunuyor musunuz?
  Evet, geçici lisanslar mevcut[Burada](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

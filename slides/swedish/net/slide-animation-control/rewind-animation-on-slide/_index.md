@@ -3,10 +3,14 @@ title: Bemästra Rewind-animationer i presentationer med Aspose.Slides
 linktitle: Spola tillbaka animering på bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du spola tillbaka animationer på PowerPoint-bilder med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel.
-type: docs
 weight: 13
 url: /sv/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 den dynamiska presentationsvärlden kan fängslande animationer förbättra engagemanget avsevärt. Aspose.Slides för .NET tillhandahåller en kraftfull verktygsuppsättning för att blåsa liv i dina presentationer. En spännande funktion är möjligheten att spola tillbaka animationer på bilder. I den här omfattande guiden går vi igenom processen steg för steg, så att du kan dra nytta av den fulla potentialen av återspolning av animationer med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -80,3 +84,9 @@ Ja, du kan anpassa koden för att tillämpa spolningsanimering selektivt på spe
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att söka hjälp och engagera sig i samhället.
 ### Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
  Ja, du kan skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

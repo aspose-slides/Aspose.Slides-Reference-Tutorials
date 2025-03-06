@@ -3,10 +3,14 @@ title: Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony
 linktitle: Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete prezentace PowerPoint aktualizovanými metadaty pomocí Aspose.Slides for Java. Naučte se aktualizovat vlastnosti, jako je autor, název a klíčová slova, pomocí šablon v Java Slides.
-type: docs
 weight: 14
 url: /cs/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do aktualizace vlastností prezentace pomocí jiné prezentace jako šablony v Java Slides
 
@@ -122,3 +126,9 @@ Ano, kód můžete přizpůsobit tak, aby aktualizoval konkrétní vlastnosti na
 ### Existuje nějaké omezení typu prezentací, které lze aktualizovat?
 
 Ne, můžete aktualizovat vlastnosti prezentací v různých formátech, včetně PPTX, ODP a PPT.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

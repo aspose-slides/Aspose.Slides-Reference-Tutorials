@@ -3,10 +3,14 @@ title: Konvertera utan XPS-alternativ i Java Slides
 linktitle: Konvertera utan XPS-alternativ i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du konverterar PowerPoint-presentationer till XPS-format med Aspose.Slides för Java. Steg-för-steg guide med källkod.
-type: docs
 weight: 33
 url: /sv/java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inledning Konvertera PowerPoint till XPS utan XPS-alternativ i Aspose.Slides för Java
 
@@ -93,3 +97,9 @@ finally
 ### Hur kan jag hantera undantag under konverteringsprocessen?
 
  Du kan implementera undantagshantering för att på ett elegant sätt hantera eventuella fel som kan uppstå under konverteringsprocessen. Som visas i koden, a`try` och`finally` block används för att säkerställa korrekt resursförfogande även om ett undantag inträffar.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

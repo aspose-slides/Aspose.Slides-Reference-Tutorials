@@ -3,10 +3,14 @@ title: Nastavit štítky dat Procento přihlášení do Java Slides
 linktitle: Nastavit štítky dat Procento přihlášení do Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit štítky dat se znaky procenta v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé grafy s podrobnými pokyny a zdrojovým kódem.
-type: docs
 weight: 17
 url: /cs/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod k nastavení datových štítků Procento přihlášení Aspose.Slides for Java
 
@@ -176,3 +180,10 @@ Ano, velikost písma datových štítků si můžete přizpůsobit nastavením`s
 ### Jak mohu do grafu přidat další série?
 
  Další řady můžete do grafu přidat pomocí`add` metoda na`IChartSeriesCollection` objekt.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

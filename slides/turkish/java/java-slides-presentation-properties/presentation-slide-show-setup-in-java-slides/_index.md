@@ -3,10 +3,14 @@ title: Java Slaytlarında Sunum Slayt Gösterisi Kurulumu
 linktitle: Java Slaytlarında Sunum Slayt Gösterisi Kurulumu
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java Slayt Gösterinizi optimize edin. Özelleştirilmiş ayarlarla ilgi çekici sunumlar oluşturun. Adım adım kılavuzları ve SSS'leri keşfedin.
-type: docs
 weight: 16
 url: /tr/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Sunum Slayt Gösterisi Kurulumuna Giriş
 
@@ -146,3 +150,9 @@ Bu eğitimde Aspose.Slides for Java kullanarak Java'da bir sunum slayt gösteris
 ### Slayt gösterisi ayarlarını nasıl daha da özelleştirebilirim?
 
  Slayt gösterisi deneyimini ihtiyaçlarınıza göre uyarlamak için Aspose.Slides for Java tarafından sağlanan ek slayt gösterisi ayarlarını keşfedebilirsiniz. adresindeki belgelere bakın.[Burada](https://reference.aspose.com/slides/java/) Mevcut seçenekler ve yapılandırmalar hakkında ayrıntılı bilgi için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

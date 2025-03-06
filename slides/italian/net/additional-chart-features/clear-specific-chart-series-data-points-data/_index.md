@@ -3,10 +3,14 @@ title: Cancella punti dati specifici della serie di grafici con Aspose.Slides .N
 linktitle: Cancella punti dati specifici della serie di grafici
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come cancellare punti dati specifici di serie di grafici nelle presentazioni di PowerPoint con Aspose.Slides per .NET. Guida passo passo.
-type: docs
 weight: 13
 url: /it/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides per .NET è una potente libreria che ti consente di lavorare con presentazioni PowerPoint a livello di codice. In questo tutorial, ti guideremo attraverso il processo di cancellazione di punti dati di serie di grafici specifici in una presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Al termine di questo tutorial sarai in grado di manipolare facilmente i punti dati del grafico.
 
@@ -95,3 +99,9 @@ Sì, puoi personalizzare l'aspetto dei grafici modificandone le proprietà, come
 
 ### Esiste una comunità o una comunità di sviluppatori per Aspose.Slides per .NET?
 Sì, puoi unirti alla comunità Aspose sul loro forum per discussioni, domande e condividere le tue esperienze.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

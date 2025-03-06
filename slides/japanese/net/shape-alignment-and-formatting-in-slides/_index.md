@@ -3,10 +3,14 @@ title: スライド内の図形の配置と書式設定
 linktitle: スライド内の図形の配置と書式設定
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: .NET アプリケーションでの図形の配置と書式設定に関する包括的な Aspose.Slides チュートリアルをご覧ください。図形を簡単に配置および書式設定し、スライド プレゼンテーションを正確に強化する方法を学びます。
-type: docs
 weight: 14
 url: /ja/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 導入
 
@@ -44,3 +48,9 @@ Aspose.Slides for .NET を使用して、スケッチされた図形を含む魅
 Aspose.Slides for .NET を使用して、PowerPoint の画像フレームの左側にストレッチ オフセットを追加する方法を学びます。完全なソース コード例を含むステップ バイ ステップ ガイド。
 ### [プレゼンテーション スライドの OLE オブジェクト フレームの画像タイトルの置き換え](./substituting-picture-title-ole-object-frame/)
 Aspose.Slides for .NET を使用して、プレゼンテーション スライド内の OLE オブジェクト フレームの画像タイトルを置き換える方法を学習します。完全なソース コードを含むステップ バイ ステップ ガイド。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

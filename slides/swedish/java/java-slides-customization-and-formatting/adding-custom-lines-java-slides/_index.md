@@ -3,10 +3,14 @@ title: Lägga till anpassade linjer i Java Slides
 linktitle: Lägga till anpassade linjer i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra dina Java-bilder med anpassade linjer. Steg-för-steg-guide med Aspose.Slides för Java. Lär dig att lägga till och anpassa rader i presentationer för effektfulla bilder.
-type: docs
 weight: 10
 url: /sv/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att lägga till anpassade linjer i Java Slides
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Ställ in linjetjockleken till 2 punkter
 ### Är det möjligt att lägga till flera rader till en bild?
 
 Ja, du kan lägga till flera rader till en bild genom att upprepa stegen som nämns i denna handledning. Varje rad kan anpassas oberoende.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

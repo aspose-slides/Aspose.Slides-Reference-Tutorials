@@ -3,10 +3,14 @@ title: Java PowerPoint táblázat formázás és frissítések
 linktitle: Java PowerPoint táblázat formázás és frissítések
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Javítsa a Java PowerPoint prezentációkat táblázatformázással és frissítésekkel az Aspose.Slides segítségével. Ismerje meg a szegélyek hozzáadását, az oszlopok és sorok szövegének formázását, valamint a táblázatok frissítését.
-type: docs
 weight: 31
 url: /hu/java/java-powerpoint-table-formatting-updates/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés
 
@@ -36,3 +40,9 @@ Ebből az oktatóanyagból megtudhatja, hogyan formázhat szöveget a táblázat
 Ismerje meg, hogyan formázhat szöveget a táblázat sorain belül a PowerPointban az Aspose.Slides for Java segítségével. Fokozza bemutatóit lépésről lépésre bemutató útmutatónkkal.
 ### [Frissítse a meglévő táblázatot a PowerPointban Java használatával](./update-existing-table-powerpoint-java/)
 Ismerje meg, hogyan frissítheti a meglévő táblázatokat a PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre, részletes utasítások és GYIK mellékelve.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

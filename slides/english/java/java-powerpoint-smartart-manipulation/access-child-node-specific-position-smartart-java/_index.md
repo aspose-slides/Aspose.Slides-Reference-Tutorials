@@ -3,10 +3,14 @@ title: Access Child Node at Specific Position in SmartArt
 linktitle: Access Child Node at Specific Position in SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to manipulate SmartArt in Aspose.Slides for Java with this detailed guide. Step-by-step instructions, examples, and best practices included.
-type: docs
 weight: 11
 url: /java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Are you looking to take your presentations to the next level with sophisticated SmartArt graphics? Look no further! Aspose.Slides for Java offers a powerful suite for creating, manipulating, and managing presentation slides, including the ability to work with SmartArt objects. In this comprehensive tutorial, we'll walk you through accessing and manipulating a child node at a specific position within a SmartArt graphic, using the Aspose.Slides for Java library.
 
@@ -98,3 +102,10 @@ Aspose.Slides supports various SmartArt layouts such as List, Process, Cycle, Hi
 You can get support from the [Aspose community forum](https://forum.aspose.com/c/slides/11) or refer to the extensive [documentation](https://reference.aspose.com/slides/java/).
 ### Can I buy a full license for Aspose.Slides for Java?
 Yes, you can purchase a full license from the [purchase page](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

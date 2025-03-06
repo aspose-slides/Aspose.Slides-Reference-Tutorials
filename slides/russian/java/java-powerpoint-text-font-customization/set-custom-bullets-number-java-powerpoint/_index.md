@@ -3,10 +3,14 @@ title: Установите собственный номер маркера в 
 linktitle: Установите собственный номер маркера в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как задавать собственные номера маркеров в Java PowerPoint с помощью Aspose.Slides, программно повышая четкость и структуру презентации.
-type: docs
 weight: 15
 url: /ru/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В современную цифровую эпоху создание динамических презентаций имеет решающее значение для эффективной передачи идей и данных. Aspose.Slides для Java предоставляет мощный набор инструментов для программного управления презентациями PowerPoint, предлагая обширные функции для улучшения процесса создания презентаций. В этой статье рассматривается настройка пользовательских номеров маркеров в презентациях Java PowerPoint с использованием Aspose.Slides. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это руководство шаг за шагом проведет вас через весь процесс, гарантируя, что вы сможете эффективно использовать эту возможность.
 ## Предварительные условия
@@ -82,3 +86,9 @@ Aspose.Slides поддерживает форматы PowerPoint от 97-2003 д
  Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
 ### Где я могу купить Aspose.Slides?
  Вы можете приобрести Aspose.Slides на сайте[здесь](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تعيين الصورة كخلفية شريحة باستخدام Aspose.S
 linktitle: تعيين صورة كخلفية الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تعيين خلفيات الصور في PowerPoint باستخدام Aspose.Slides لـ .NET. تعزيز العروض التقديمية الخاصة بك بكل سهولة.
-type: docs
 weight: 13
 url: /ar/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم تصميم العروض التقديمية والأتمتة، تعد Aspose.Slides for .NET أداة قوية ومتعددة الاستخدامات تتيح للمطورين التعامل مع عروض PowerPoint التقديمية بسهولة. سواء كنت تقوم بإنشاء تقارير مخصصة، أو إنشاء عروض تقديمية مذهلة، أو أتمتة إنشاء الشرائح، فإن Aspose.Slides for .NET يعد أحد الأصول القيمة. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية تعيين صورة كخلفية شريحة باستخدام هذه المكتبة الرائعة.
 
@@ -115,3 +119,9 @@ pres.Save(dataDir + "ContentBG_Img_out.pptx", SaveFormat.Pptx);
 ### 5. هل يقدم Aspose.Slides for .NET إصدارًا تجريبيًا؟
 
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ .NET من موقع الويب على[هذا الرابط](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

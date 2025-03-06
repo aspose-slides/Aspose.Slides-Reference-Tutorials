@@ -3,10 +3,14 @@ title: 在同一演示文稿中克隆幻灯片
 linktitle: 在同一演示文稿中克隆幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 在同一个 PowerPoint 演示文稿中克隆幻灯片。按照本分步指南和完整的源代码示例来有效地操作您的演示文稿。
-type: docs
 weight: 21
 url: /zh/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for .NET 简介
 
@@ -105,3 +109,9 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
 有关更详细的文档和示例，您可以访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 調整 PowerPoint 中的連接線角度
 linktitle: 使用 Aspose.Slides 調整簡報投影片中的連接線角度
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 調整 PowerPoint 投影片中的連接線角度。精確、輕鬆地增強您的簡報。
-type: docs
 weight: 28
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 創建具有視覺吸引力的簡報投影片通常需要對連接線進行精確調整。在本教學中，我們將探索如何使用 Aspose.Slides for .NET 調整簡報投影片中的連接線角度。 Aspose.Slides 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 PowerPoint 文件，提供建立、修改和操作簡報的廣泛功能。
 ## 先決條件
@@ -87,3 +91,9 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 有 Aspose.Slides 的支援論壇嗎？
 是的，您可以造訪支援論壇[這裡](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

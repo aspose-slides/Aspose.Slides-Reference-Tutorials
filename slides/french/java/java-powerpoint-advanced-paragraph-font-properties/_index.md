@@ -3,10 +3,14 @@ title: Propriétés avancées des paragraphes et des polices Java PowerPoint
 linktitle: Propriétés avancées des paragraphes et des polices Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez les propriétés avancées des paragraphes et des polices dans Java PowerPoint à l'aide d'Aspose.Slides. Apprenez à personnaliser les polices, à ajouter des puces d'image et à utiliser des polices de secours.
-type: docs
 weight: 28
 url: /fr/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 
 La création de présentations PowerPoint soignées nécessite d'affiner divers éléments, du formatage des paragraphes à la gestion des polices. Aspose.Slides pour Java fournit des outils robustes pour gérer efficacement ces propriétés avancées. Dans cet article, nous explorerons des didacticiels qui vous aideront à personnaliser les propriétés de la police des paragraphes, à ajouter des puces d'image et à utiliser des polices de secours. Plongeons dans ces techniques avancées pour que vos présentations se démarquent !
@@ -35,3 +39,9 @@ Découvrez comment ajouter des puces d'image personnalisées aux diapositives Po
 Découvrez comment obtenir la partie rectangle dans PowerPoint à l'aide d'Aspose.Slides pour Java avec ce didacticiel détaillé étape par étape. Parfait pour les développeurs Java.
 ### [Rendu avec la police de secours dans Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Découvrez comment restituer du texte avec des polices de secours dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Suivez ce guide étape par étape pour une mise en œuvre transparente.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

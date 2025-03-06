@@ -3,10 +3,14 @@ title: 在 PowerPoint 中创建自定义几何图形
 linktitle: 在 PowerPoint 中创建自定义几何图形
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中创建自定义几何形状。本指南将帮助您使用独特的形状增强演示文稿。
-type: docs
 weight: 21
 url: /zh/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在 PowerPoint 中创建自定义形状和几何图形可以显著增强演示文稿的视觉吸引力。Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程方式操作 PowerPoint 文件。在本教程中，我们将探索如何使用 Aspose.Slides for Java 在 PowerPoint 幻灯片中创建自定义几何图形，特别是星形。让我们开始吧！
 ## 先决条件
@@ -106,3 +110,9 @@ Aspose.Slides for Java 提供免费试用。如需长期使用，则需要购买
 除了安装 JDK 并在项目中包含 Aspose.Slides 库之外，不需要任何特殊设置。
 ### 我可以在哪里获得 Aspose.Slides 的支持？
 您可以从[Aspose.Slides 支持论坛](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Boomkaartdiagram in Java-dia's
 linktitle: Boomkaartdiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak boomkaartgrafieken in Java-dia's met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor het visualiseren van hiërarchische gegevens.
-type: docs
 weight: 13
 url: /nl/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het boomkaartdiagram in Java-dia's
 
@@ -152,3 +156,9 @@ Ja, u kunt meerdere boomkaartdiagrammen in één presentatie maken door dezelfde
 ### Hoe sla ik de presentatie op met het boomkaartdiagram?
 
  Gebruik de`pres.save()` methode om de presentatie met het boomkaartdiagram op te slaan in het gewenste formaat (bijvoorbeeld PPTX).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

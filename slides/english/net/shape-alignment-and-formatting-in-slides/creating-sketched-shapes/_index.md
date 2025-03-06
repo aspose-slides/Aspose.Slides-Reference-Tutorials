@@ -3,10 +3,14 @@ title: Create Stunning Sketched Shapes with Aspose.Slides
 linktitle: Creating Sketched Shapes in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add creative sketched shapes to your presentation slides using Aspose.Slides for .NET. Enhance visual appeal effortlessly!
-type: docs
 weight: 13
 url: /net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Welcome to our step-by-step guide on creating sketched shapes in presentation slides using Aspose.Slides for .NET. If you want to add a touch of creativity to your presentations, sketched shapes provide a unique and hand-drawn aesthetic. In this tutorial, we will walk you through the process, breaking it down into simple steps to ensure a smooth experience.
 ## Prerequisites
@@ -74,3 +78,10 @@ For any assistance or queries, visit the [Aspose.Slides forum](https://forum.asp
 To purchase Aspose.Slides for .NET, visit the [purchase page](https://purchase.aspose.com/buy).
 ### 5. Do you offer temporary licenses?
 Yes, temporary licenses are available [here](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

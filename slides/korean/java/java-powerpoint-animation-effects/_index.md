@@ -3,10 +3,14 @@ title: Java PowerPoint 애니메이션 및 효과
 linktitle: Java PowerPoint 애니메이션 및 효과
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 포괄적인 튜토리얼을 통해 Java PowerPoint 애니메이션과 효과를 마스터하세요. Aspose.Slides for Java를 사용하여 애니메이션, 외부 및 내부 그림자를 추가하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/java-powerpoint-animation-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 
 Java PowerPoint 프레젠테이션은 적절한 애니메이션과 효과를 사용하여 역동적이고 시각적으로 훌륭할 수 있습니다. Aspose.Slides for Java를 사용하면 슬라이드를 향상시킬 수 있는 강력한 도구를 사용할 수 있습니다. 초보자이든 고급 사용자이든 당사의 튜토리얼은 PowerPoint 프레젠테이션에 애니메이션과 그림자 효과를 추가하는 기술을 익히는 데 도움이 됩니다. 이 튜토리얼을 자세히 살펴보고 슬라이드를 어떻게 향상시킬 수 있는지 알아보세요!
@@ -35,3 +39,9 @@ Java PowerPoint 프레젠테이션은 적절한 애니메이션과 효과를 사
 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 모양에 내부 그림자 효과를 적용하는 방법을 알아보세요. 이 단계별 가이드를 통해 슬라이드를 향상해 보세요.
 ### [Java를 사용하는 PowerPoint에서 외부 그림자 적용](./apply-outer-shadow-powerpoint-java/)
 Aspose.Slides와 함께 Java를 사용하여 PowerPoint에서 외부 그림자 효과를 적용하는 방법을 알아보세요. 깊이와 시각적 매력을 더해 프레젠테이션을 강화하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

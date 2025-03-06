@@ -3,10 +3,14 @@ title: عرض الرموز التعبيرية والأحرف الخاصة في A
 linktitle: عرض الرموز التعبيرية والأحرف الخاصة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية باستخدام الرموز التعبيرية باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة لإضافة لمسة إبداعية دون عناء.
-type: docs
 weight: 14
 url: /ar/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يمكن أن يضيف نقل المشاعر والشخصيات الخاصة لمسة من الإبداع والتفرد. يعمل Aspose.Slides for .NET على تمكين المطورين من تقديم الرموز التعبيرية والشخصيات الخاصة بسلاسة في عروضهم التقديمية، مما يفتح بُعدًا جديدًا للتعبير. في هذا البرنامج التعليمي، سنستكشف كيفية تحقيق ذلك من خلال إرشادات خطوة بخطوة باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -51,3 +55,9 @@ pres.Save(dataDir + "emoji.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
  انضم إلى مجتمع Aspose.Slides[المنتدى](https://forum.aspose.com/c/slides/11) للمساعدة والمناقشات.
 ### هل يمكنني استخدام Aspose.Slides بدون ترخيص دائم؟
  نعم، احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) للاستخدام على المدى القصير.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

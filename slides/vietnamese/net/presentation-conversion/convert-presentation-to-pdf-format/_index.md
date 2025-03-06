@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày sang định dạng PDF
 linktitle: Chuyển đổi bản trình bày sang định dạng PDF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày sang PDF bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn. Chuyển đổi hiệu quả và hiệu quả.
-type: docs
 weight: 24
 url: /vi/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -107,3 +111,9 @@ Có, Aspose.Slides cung cấp hỗ trợ cho nhiều hoạt ảnh và chuyển t
 ### Có sẵn phiên bản dùng thử không?
 
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides cho .NET từ[đây](https://products.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

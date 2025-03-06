@@ -3,10 +3,14 @@ title: 在 Java 投影片中加入甜甜圈標註
 linktitle: 在 Java 投影片中加入甜甜圈標註
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Aspose.Slides for Java 在 Java 投影片中加入甜甜圈標註。帶有原始程式碼的分步指南，用於增強演示。
-type: docs
 weight: 12
 url: /zh-hant/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides for Java 在 Java 投影片中加入甜甜圈標註的簡介
 
@@ -180,3 +184,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### 如何調整投影片上圓環圖的位置和大小？
 
 您可以透過修改中的參數來改變圓環圖的位置和大小`addChart`方法。此方法中的四個數字分別對應於圖表左上角的 X 和 Y 座標及其寬度和高度。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

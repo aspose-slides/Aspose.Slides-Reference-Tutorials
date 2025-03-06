@@ -3,10 +3,14 @@ title: إزالة الجزء من الشكل الهندسي في PowerPoint
 linktitle: إزالة الجزء من الشكل الهندسي في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إزالة الأجزاء من الأشكال الهندسية في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة.
-type: docs
 weight: 22
 url: /ar/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 هل تتطلع إلى التعامل مع الأشكال في عروض PowerPoint التقديمية باستخدام Java؟ لقد جئت إلى المكان المناسب! Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية تسمح لك بإنشاء الشرائح وتعديلها وإدارتها في عروضك التقديمية دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إزالة جزء من شكل هندسي في PowerPoint. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا الدليل منهجًا خطوة بخطوة لإتقان هذه المهمة. على استعداد للغوص في؟ هيا بنا نبدأ!
 ## المتطلبات الأساسية
@@ -71,3 +75,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  نعم، أنت بحاجة إلى ترخيص للحصول على الوظائف الكاملة. يمكنك شراء واحدة[هنا](https://purchase.aspose.com/buy) أو الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
  الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

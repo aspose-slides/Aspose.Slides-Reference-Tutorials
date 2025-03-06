@@ -3,10 +3,14 @@ title: Mengakses Teks Alternatif dalam Bentuk Grup menggunakan Aspose.Slides
 linktitle: Mengakses Teks Alternatif dalam Bentuk Grup
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses teks alternatif dalam bentuk grup menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 10
 url: /id/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam hal mengelola dan memanipulasi presentasi, Aspose.Slides untuk .NET menawarkan seperangkat alat canggih. Pada artikel ini, kita akan mempelajari aspek spesifik dari API ini - Mengakses Teks Alternatif dalam Bentuk Grup. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.Slides, panduan komprehensif ini akan memandu Anda melalui prosesnya, memberikan petunjuk langkah demi langkah dan contoh kode. Pada akhirnya, Anda akan memiliki pemahaman yang kuat tentang cara bekerja secara efektif dengan teks alternatif dalam bentuk grup menggunakan Aspose.Slides.
 
@@ -118,3 +122,9 @@ Anda dapat menggunakan pembaca layar atau alat pengujian aksesibilitas untuk men
 ### Apakah Aspose.Slides cocok untuk pemula dan pengembang berpengalaman?
 
 Ya, Aspose.Slides dirancang untuk melayani pengembang dari semua tingkat keahlian. Pemula dapat mengikuti panduan langkah demi langkah yang disediakan dalam dokumentasi, sementara pengembang berpengalaman dapat memanfaatkan fitur-fitur canggihnya.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

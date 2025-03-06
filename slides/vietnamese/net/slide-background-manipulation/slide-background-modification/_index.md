@@ -3,10 +3,14 @@ title: Sửa đổi nền slide trong Aspose.Slides
 linktitle: Sửa đổi nền slide trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tùy chỉnh nền trang chiếu bằng Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn với nền hấp dẫn trực quan. Bắt đầu từ hôm nay!
-type: docs
 weight: 10
 url: /vi/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Khi nói đến việc tạo ra các bài thuyết trình hấp dẫn về mặt hình ảnh, hình nền đóng một vai trò quan trọng. Aspose.Slides for .NET cho phép bạn tùy chỉnh nền slide một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách sửa đổi nền trang chiếu bằng Aspose.Slides cho .NET. 
 
@@ -123,3 +127,10 @@ Trong hướng dẫn này, chúng ta đã học cách sửa đổi nền trang c
 ### 5. Tôi có thể tùy chỉnh nền slide cho nhiều slide trong một bài thuyết trình không?
 
 Có, bạn có thể sửa đổi nền trang chiếu cho bất kỳ trang chiếu nào trong bản trình bày bằng Aspose.Slides for .NET. Chỉ cần nhắm mục tiêu đến trang chiếu bạn muốn tùy chỉnh và làm theo các bước tương tự được nêu trong hướng dẫn này.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

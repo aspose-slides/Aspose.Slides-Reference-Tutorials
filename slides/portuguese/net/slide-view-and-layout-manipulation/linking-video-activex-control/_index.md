@@ -3,10 +3,14 @@ title: Vinculando vídeo via controle ActiveX no PowerPoint
 linktitle: Vinculando vídeo via controle ActiveX
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como vincular vídeos a slides do PowerPoint usando Aspose.Slides for .NET. Este guia passo a passo inclui código-fonte e dicas para criar apresentações interativas e envolventes com vídeos vinculados.
-type: docs
 weight: 12
 url: /pt/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 Vinculando um vídeo via controle ActiveX em uma apresentação usando Aspose.Slides for .NET
 
 No Aspose.Slides for .NET, você pode vincular programaticamente um vídeo a um slide de apresentação usando o controle ActiveX. Isso permite criar apresentações interativas onde o conteúdo do vídeo pode ser reproduzido diretamente no slide. Neste guia passo a passo, orientaremos você no processo de vincular um vídeo a um slide de apresentação usando Aspose.Slides for .NET.
@@ -80,3 +84,9 @@ O tamanho do vídeo vinculado pode afetar o tamanho geral e o desempenho da sua 
 Seguindo as etapas descritas neste guia, você pode vincular facilmente um vídeo via controle ActiveX em uma apresentação usando Aspose.Slides for .NET. Este recurso permite criar apresentações envolventes e interativas que incorporam conteúdo multimídia perfeitamente.
 
  Para obter mais detalhes e opções avançadas, você pode consultar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

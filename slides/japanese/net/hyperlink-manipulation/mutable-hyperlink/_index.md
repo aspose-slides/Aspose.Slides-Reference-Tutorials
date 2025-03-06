@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET での変更可能なハイパーリンクの作�
 linktitle: 可変ハイパーリンクの作成
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、変更可能なハイパーリンクで PowerPoint プレゼンテーションを強化します。これまでにないほど視聴者を魅了します。
-type: docs
 weight: 14
 url: /ja/net/hyperlink-manipulation/mutable-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 現代のソフトウェア開発の世界では、インタラクティブなハイパーリンクを使用した動的なプレゼンテーションを作成することが、視聴者の関心を引くために不可欠です。Aspose.Slides for .NET は、変更可能なハイパーリンクの作成など、PowerPoint プレゼンテーションの操作とカスタマイズを可能にする強力なツールです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して変更可能なハイパーリンクを作成する手順を説明します。 
 
@@ -96,3 +100,9 @@ Aspose.Slides for .NET は、2.0、3.5、4.x など、複数のバージョン�
 
 ### 5. Aspose.Slides for .NET はインタラクティブな e ラーニング コンテンツの作成に適していますか?
 はい、Aspose.Slides for .NET は、ハイパーリンク、クイズ、マルチメディア要素などのインタラクティブな e ラーニング コンテンツの作成に使用できる多目的ツールです。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

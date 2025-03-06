@@ -3,10 +3,14 @@ title: Beherrschen von Rückspulanimationen in Präsentationen mit Aspose.Slides
 linktitle: Animation auf Folie zurückspulen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Animationen auf PowerPoint-Folien mit Aspose.Slides für .NET zurückspulen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigen Quellcodebeispielen.
-type: docs
 weight: 13
 url: /de/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In der dynamischen Welt der Präsentationen kann die Einbindung fesselnder Animationen das Engagement erheblich steigern. Aspose.Slides für .NET bietet ein leistungsstarkes Toolset, um Ihren Präsentationen Leben einzuhauchen. Eine interessante Funktion ist die Möglichkeit, Animationen auf Folien zurückzuspulen. In dieser umfassenden Anleitung führen wir Sie Schritt für Schritt durch den Prozess, sodass Sie das volle Potenzial des Zurückspulens von Animationen mit Aspose.Slides für .NET nutzen können.
 ## Voraussetzungen
@@ -80,3 +84,9 @@ Ja, Sie können den Code anpassen, um die Rückspulanimation selektiv auf bestim
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um Hilfe zu suchen und sich in der Community zu engagieren.
 ### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
  Ja, Sie können eine temporäre Lizenz erwerben bei[Hier](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

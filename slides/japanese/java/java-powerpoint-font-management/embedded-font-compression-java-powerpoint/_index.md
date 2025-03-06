@@ -3,10 +3,14 @@ title: Java PowerPoint での埋め込みフォント圧縮
 linktitle: Java PowerPoint での埋め込みフォント圧縮
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint プレゼンテーションに埋め込まれたフォントを圧縮する方法を学びます。ファイル サイズを簡単に最適化します。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 デジタル プレゼンテーションの動的な環境では、品質を犠牲にすることなくファイル サイズを最適化する機能が極めて重要です。Aspose.Slides for Java は、埋め込みフォントの圧縮を有効にすることで PowerPoint プレゼンテーションの効率を高める強力なソリューションを提供します。このチュートリアルでは、この機能を活用してファイル サイズを効果的に削減し、プレゼンテーションの配布をスムーズにし、パフォーマンスを向上させるプロセスについて説明します。
 ## 前提条件
@@ -64,3 +68,9 @@ Java ベースの PowerPoint プレゼンテーションに埋め込みフォン
 もちろんです！専用のサポートセンターを通じてAspose.Slidesコミュニティからサポートを受けることができます。[フォーラム](https://forum.aspose.com/c/slides/11)または、優先的なサポートを受けるために一時ライセンスを取得することを検討してください。
 ### Aspose.Slides for Java のライセンス版を購入するにはどうすればよいですか?
 Aspose.Slides for Javaのライセンス版は、提供されているウェブサイトから購入できます。[購入リンク](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

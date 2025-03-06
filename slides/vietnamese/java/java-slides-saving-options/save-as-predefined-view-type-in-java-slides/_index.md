@@ -3,10 +3,14 @@ title: Lưu dưới dạng Kiểu xem được xác định trước trong Trang
 linktitle: Lưu dưới dạng Kiểu xem được xác định trước trong Trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt các loại chế độ xem được xác định trước trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với các ví dụ về mã và Câu hỏi thường gặp.
-type: docs
 weight: 10
 url: /vi/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Lưu dưới dạng Kiểu xem được xác định trước trong Trang trình bày Java
 
@@ -109,3 +113,9 @@ Có, Aspose.Slides cho Java rất phù hợp cho các tác vụ xử lý hàng l
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Để có tài liệu và tài liệu tham khảo toàn diện liên quan đến Aspose.Slides cho Java, vui lòng truy cập trang web tài liệu:[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Đặt hình ảnh làm nền slide bằng Aspose.Slides
 linktitle: Đặt hình ảnh làm nền slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách đặt hình nền trong PowerPoint bằng Aspose.Slides for .NET. Cải thiện bài thuyết trình của bạn một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thế giới thiết kế bản trình bày và tự động hóa, Aspose.Slides for .NET là một công cụ mạnh mẽ và linh hoạt cho phép các nhà phát triển thao tác với bản trình bày PowerPoint một cách dễ dàng. Cho dù bạn đang xây dựng các báo cáo tùy chỉnh, tạo các bản trình bày ấn tượng hay tự động tạo trang trình bày, Aspose.Slides cho .NET là một tài sản có giá trị. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách đặt hình ảnh làm nền trang chiếu bằng thư viện đáng chú ý này.
 
@@ -115,3 +119,9 @@ Aspose.Slides cho .NET được thiết kế chủ yếu cho môi trường Wind
 ### 5. Aspose.Slides cho .NET có cung cấp phiên bản dùng thử không?
 
  Có, bạn có thể dùng thử miễn phí Aspose.Slides cho .NET từ trang web tại[liên kết này](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

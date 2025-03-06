@@ -3,10 +3,14 @@ title: Ovládání médií pomocí Aspose.Slides pro Java
 linktitle: Ovládací prvky médií Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak implementovat ovládací prvky médií do snímků Java pomocí výukových programů Aspose.Slides for Java. Bezproblémově vylepšete své prezentace zvukem a videem.
-type: docs
 weight: 22
 url: /cs/java/media-controls/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 V dnešní digitální době nejsou prezentace jen o statických snímcích s textem a obrázky. Vyvinuly se v dynamické, interaktivní zážitky, které zaujmou a uchvátí publikum. Pokud jste vývojář v jazyce Java, který chce svým prezentacím přidat nový rozměr, jste na správném místě. V tomto článku prozkoumáme, jak implementovat ovládací prvky médií do snímků Java pomocí výukových programů Aspose.Slides for Java.
 
@@ -51,3 +55,9 @@ Master Java Slides zpracování přerušení pomocí Aspose.Slides for Java. Ten
 Naučte se, jak aktualizovat vlastnosti prezentace na snímcích Java pomocí Aspose.Slides for Java. Přizpůsobte si autora, název a další pro působivé prezentace.
 ### [Aktualizujte vlastnosti prezentace pomocí jiné prezentace jako šablony v Java Slides](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Vylepšete prezentace PowerPoint aktualizovanými metadaty pomocí Aspose.Slides for Java. Naučte se aktualizovat vlastnosti, jako je autor, název a klíčová slova, pomocí šablon v Java Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

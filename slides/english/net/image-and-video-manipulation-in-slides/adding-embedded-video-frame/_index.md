@@ -3,10 +3,14 @@ title: Aspose.Slides - Adding Embedded Videos in .NET Presentations
 linktitle: Aspose.Slides - Adding Embedded Videos in .NET Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with embedded videos using Aspose.Slides for .NET. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 19
 url: /net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic world of presentations, integrating multimedia elements can significantly enhance engagement. Aspose.Slides for .NET provides a powerful solution for incorporating embedded video frames into your presentation slides. This tutorial will guide you through the process, breaking down each step to ensure a seamless experience.
 ## Prerequisites
@@ -75,3 +79,10 @@ Absolutely! Adjust the parameters in `AddVideoFrame(x, y, width, height, video)`
 The number of embedded videos is typically limited by the capacity of your presentation software.
 ### How can I seek further assistance or share my experience?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support and discussions.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

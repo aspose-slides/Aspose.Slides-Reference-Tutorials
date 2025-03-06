@@ -3,10 +3,14 @@ title: PowerPoint で図形の順序を変更する
 linktitle: PowerPoint で図形の順序を変更する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このステップバイステップのチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint の図形の順序を変更する方法を学びます。プレゼンテーション スキルを簡単に向上できます。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 見た目が魅力的で構造がしっかりしたプレゼンテーションを作成するのは、大変な作業です。しかし、適切なツールとテクニックを使用すれば、作業は大幅に簡単になります。Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログラムで操作および管理するのに役立つ強力なライブラリです。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint スライドの図形の順序を変更する手順を説明します。
 ## 前提条件
@@ -73,3 +77,9 @@ Aspose.Slides for Java は、Microsoft PowerPoint を使用せずに PowerPoint 
 無料トライアルは以下からダウンロードできます。[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/).
 ### Aspose.Slides for Java に関する詳細なドキュメントはどこで入手できますか?
 詳細なドキュメントは[Aspose.Slides for Java ドキュメント ページ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

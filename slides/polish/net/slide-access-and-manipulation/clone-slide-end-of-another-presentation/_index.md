@@ -3,10 +3,14 @@ title: Replikuj slajd na końcu oddzielnej prezentacji
 linktitle: Replikuj slajd na końcu oddzielnej prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak replikować slajd z jednej prezentacji programu PowerPoint i dodawać go do innej za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera kod źródłowy i jasne instrukcje dotyczące płynnej manipulacji slajdami.
-type: docs
 weight: 17
 url: /pl/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -103,3 +107,9 @@ Absolutnie! Treścią zreplikowanego slajdu można manipulować tak samo, jak ka
 ### Czy Aspose.Slides dla .NET działa tylko ze slajdami?
 
 Nie, Aspose.Slides dla .NET zapewnia szerokie możliwości wykraczające poza slajdy. Możesz pracować z kształtami, wykresami, animacjami, a nawet wyodrębniać tekst i obrazy z prezentacji.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

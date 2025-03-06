@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint で SmartArt シェイプを作成する
 linktitle: Java を使用して PowerPoint で SmartArt シェイプを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して動的な PowerPoint プレゼンテーションを作成します。ビジュアルを強化するためにプログラムで SmartArt 図形を追加する方法を学習します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Java プログラミングの分野では、視覚的に魅力的なプレゼンテーションを作成することが一般的な要件です。ビジネス プレゼンテーション、学術プレゼンテーション、または単に情報を共有する場合でも、動的な PowerPoint スライドをプログラムで生成する機能は画期的なものです。Aspose.Slides for Java は、このプロセスを容易にする強力なツールとして登場し、プレゼンテーションを簡単かつ効率的に操作するための包括的な機能セットを提供します。
 ## 前提条件
@@ -63,3 +67,9 @@ pres.save(dataDir + "SimpleSmartArt_out.pptx", SaveFormat.Pptx);
 ### 購入する前に Aspose.Slides for Java を試すことはできますか?
 もちろんです！Aspose.Slides for Javaの機能を試すには、無料トライアルをダウンロードしてください。[ここ](https://releases.aspose.com/).
 Aspose.Slides で Java を使用して動的な PowerPoint プレゼンテーションを作成します。ビジュアルを強化するためにプログラムで SmartArt 図形を追加する方法を学習します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

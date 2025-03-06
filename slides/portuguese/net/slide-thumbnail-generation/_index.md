@@ -3,10 +3,14 @@ title: Geração de miniaturas de slides
 linktitle: Geração de miniaturas de slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como gerar miniaturas de slides usando Aspose.Slides for .NET. Tutorial passo a passo com exemplos de código para criar visualizações dinâmicas de slides. Aprimore seus aplicativos de apresentação com esse recurso poderoso.
-type: docs
 weight: 17
 url: /pt/net/slide-thumbnail-generation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução:
 
@@ -37,3 +41,9 @@ Aprenda como gerar imagens em miniatura de slides do PowerPoint usando Aspose.Sl
 Gere miniaturas de slides que incluem notas usando Aspose.Slides for .NET. Aprenda passo a passo como extrair notas, criar miniaturas e aprimorar a manipulação do PowerPoint. 
 ### [Gerar miniatura com dimensões personalizadas](./generate-thumbnail-with-custom-dimensions/)
 Aprenda como gerar miniaturas de tamanho personalizado em slides usando Aspose.Slides for .NET. Guia passo a passo com código-fonte. Aprimore suas apresentações com recursos visuais envolventes. 
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

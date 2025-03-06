@@ -3,10 +3,14 @@ title: PowerPoint Tablosunda Hücreleri Java ile Birleştirme
 linktitle: PowerPoint Tablosunda Hücreleri Java ile Birleştirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint tablolarındaki hücreleri nasıl birleştireceğinizi öğrenin. Bu adım adım kılavuzla sunum düzeninizi geliştirin.
-type: docs
 weight: 17
 url: /tr/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint tablosundaki hücreleri etkili bir şekilde nasıl birleştireceğinizi öğreneceksiniz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Tablodaki hücreleri birleştirerek sunum slaytlarınızın düzenini ve yapısını özelleştirerek netliği ve görsel çekiciliği artırabilirsiniz.
 ## Önkoşullar
@@ -92,3 +96,9 @@ Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak oluşturmak, 
  Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
  Aspose.Slides topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

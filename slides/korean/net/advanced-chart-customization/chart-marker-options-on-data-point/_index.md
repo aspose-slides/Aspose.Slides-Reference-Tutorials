@@ -3,10 +3,14 @@ title: Aspose.Slides .NET의 데이터 포인트에 차트 마커 옵션 사용
 linktitle: 데이터 포인트의 차트 마커 옵션
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 차트를 향상시키는 방법을 알아보세요. 이미지로 데이터 포인트 마커를 사용자 정의하세요. 매력적인 프레젠테이션을 만드세요.
-type: docs
 weight: 11
 url: /ko/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 프레젠테이션 및 데이터 시각화 작업을 할 때 Aspose.Slides for .NET은 차트를 생성, 사용자 정의 및 조작할 수 있는 광범위하고 강력한 기능을 제공합니다. 이 튜토리얼에서는 데이터 포인트의 차트 마커 옵션을 사용하여 차트 프리젠테이션을 향상시키는 방법을 살펴보겠습니다. 이 단계별 가이드에서는 필수 구성 요소부터 네임스페이스 가져오기를 시작하여 각 예제를 여러 단계로 분류하는 프로세스를 안내합니다.
 
@@ -148,3 +152,9 @@ Aspose.Slides for .NET은 다양한 PowerPoint 형식과 작동하도록 설계�
 
 ### .NET용 Aspose.Slides 평가판이 있습니까?
  예, 다음에서 무료 평가판을 다운로드하여 .NET용 Aspose.Slides를 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

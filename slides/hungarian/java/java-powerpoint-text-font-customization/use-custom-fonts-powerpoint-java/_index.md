@@ -3,10 +3,14 @@ title: Egyéni betűtípusok használata a PowerPointban Java-val
 linktitle: Egyéni betűtípusok használata a PowerPointban Java-val
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan integrálhat egyéni betűtípusokat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.
-type: docs
 weight: 25
 url: /hu/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja fel az Aspose.Slides for Java alkalmazást a PowerPoint prezentációk fejlesztésére egyéni betűtípusok integrálásával. Az egyéni betűtípusok jelentősen gazdagíthatják diákjainak vizuális vonzerejét, biztosítva, hogy azok tökéletesen illeszkedjenek a márka- vagy tervezési követelményekhez. Mindenre kiterjedünk, a szükséges csomagok importálásától az egyéni betűtípusok prezentációiba való zökkenőmentes integrálásához szükséges lépések végrehajtásáig.
 ## Előfeltételek
@@ -70,3 +74,9 @@ Győződjön meg arról, hogy rendelkezik a megfelelő licencekkel a prezentáci
 Az Aspose.Slides for Java támogatja az egyéni betűtípusok széles skálájának használatát, és a könyvtár nem szab korlátot.
 ### Beágyazhatok egyéni betűtípusokat közvetlenül a PowerPoint fájlba az Aspose.Slides for Java segítségével?
 Igen, az Aspose.Slides for Java lehetővé teszi egyéni betűtípusok beágyazását a bemutatófájlba a zökkenőmentes terjesztés érdekében.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

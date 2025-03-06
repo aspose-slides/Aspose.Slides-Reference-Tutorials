@@ -3,10 +3,14 @@ title: Formule delle celle dati del grafico nelle diapositive Java
 linktitle: Formule delle celle dati del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare le formule delle celle di dati del grafico nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java. Crea grafici dinamici con formule.
-type: docs
 weight: 11
 url: /it/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione alle formule delle celle dati del grafico in Aspose.Slides per Java
 
@@ -122,3 +126,9 @@ Sì, puoi utilizzare vari tipi di formule, incluse operazioni matematiche, funzi
 ### Come posso cambiare il tipo di grafico?
 
  È possibile modificare il tipo di grafico utilizzando il file`setChartType` metodo sul`IChart` oggetto e specificando quello desiderato`ChartType`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

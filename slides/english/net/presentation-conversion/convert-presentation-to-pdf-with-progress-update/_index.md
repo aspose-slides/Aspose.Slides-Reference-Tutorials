@@ -3,10 +3,14 @@ title: Convert Presentation to PDF with Progress Update
 linktitle: Convert Presentation to PDF with Progress Update
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to convert presentations to PDF with progress updates using Aspose.Slides for .NET. Step-by-step guide with source code included.
-type: docs
 weight: 29
 url: /net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In today's digital age, converting presentations to PDF is a common requirement, especially in the business and educational sectors. Aspose.Slides for .NET provides a powerful solution for accomplishing this task with ease. In this step-by-step tutorial, we will guide you through the process of converting a presentation to PDF while keeping track of the conversion progress.
 
@@ -85,3 +89,10 @@ A: Yes, you can access a free trial at [https://releases.aspose.com/](https://re
 
 ### Q: Where can I get support for Aspose.Slides for .NET?
 A: You can find support and community discussions at [https://forum.aspose.com/](https://forum.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

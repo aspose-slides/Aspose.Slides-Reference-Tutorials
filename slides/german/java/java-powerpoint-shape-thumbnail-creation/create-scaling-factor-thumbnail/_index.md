@@ -3,10 +3,14 @@ title: Skalierungsfaktor-Vorschaubild erstellen
 linktitle: Skalierungsfaktor-Vorschaubild erstellen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Miniaturansichten mit Skalierungsfaktor in Java erstellen. Einfach verständliche Anleitung mit Schritt-für-Schritt-Anweisungen.
-type: docs
 weight: 12
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer Miniaturansicht mit Skalierungsfaktor mithilfe von Aspose.Slides für Java. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um das gewünschte Ergebnis zu erzielen.
 ## Voraussetzungen
@@ -66,3 +70,9 @@ Ja, Aspose.Slides für Java kann mit jeder Java Integrated Development Environme
  Sie können Aspose.Slides für Java erwerben bei der[Kaufseite](https://purchase.aspose.com/buy).
 ### Benötige ich eine temporäre Lizenz, um Aspose.Slides für Java zu verwenden?
  Ja, Sie können eine vorläufige Lizenz erhalten bei der[Seite mit der temporären Lizenz](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

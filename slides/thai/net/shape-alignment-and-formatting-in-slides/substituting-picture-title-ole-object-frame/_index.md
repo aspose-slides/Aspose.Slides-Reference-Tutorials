@@ -3,10 +3,14 @@ title: การฝังคู่มือวัตถุ OLE ด้วย Aspo
 linktitle: การทดแทนชื่อรูปภาพของ OLE Object Frame ในสไลด์การนำเสนอ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีปรับปรุงสไลด์การนำเสนอของคุณด้วยวัตถุ OLE แบบไดนามิกโดยใช้ Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 15
 url: /th/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 การสร้างสไลด์การนำเสนอแบบไดนามิกและน่าสนใจมักเกี่ยวข้องกับการรวมเอาองค์ประกอบมัลติมีเดียต่างๆ เข้าด้วยกัน ในบทช่วยสอนนี้ เราจะสำรวจวิธีการแทนที่ชื่อรูปภาพของ OLE (การเชื่อมโยงวัตถุและการฝัง) กรอบวัตถุในสไลด์การนำเสนอโดยใช้ไลบรารี Aspose.Slides สำหรับ .NET อันทรงพลัง Aspose.Slides ทำให้กระบวนการจัดการวัตถุ OLE ง่ายขึ้น ช่วยให้นักพัฒนามีเครื่องมือในการปรับปรุงการนำเสนอได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -83,3 +87,9 @@ oof.SubstitutePictureTitle = "Caption example";
 แน่นอน. คุณมีการควบคุมออบเจ็กต์ OLE ทางโปรแกรมเต็มรูปแบบ ซึ่งช่วยให้คุณสามารถปรับเปลี่ยนคุณสมบัติและลักษณะที่ปรากฏได้ตามต้องการ
 ### มีข้อจำกัดใดๆ เกี่ยวกับขนาดของวัตถุ OLE ที่ฝังอยู่หรือไม่
 แม้ว่าจะมีข้อจำกัดเรื่องขนาด แต่โดยทั่วไปแล้วพวกเขาก็ใจกว้าง ขอแนะนำให้ทดสอบกับกรณีการใช้งานเฉพาะของคุณเพื่อให้แน่ใจว่ามีประสิทธิภาพสูงสุด
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

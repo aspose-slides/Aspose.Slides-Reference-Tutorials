@@ -3,10 +3,14 @@ title: แผนภูมิแผนที่ต้นไม้ใน Java Slid
 linktitle: แผนภูมิแผนที่ต้นไม้ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิแผนที่ต้นไม้ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการแสดงข้อมูลแบบลำดับชั้น
-type: docs
 weight: 13
 url: /th/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิแผนที่ต้นไม้ใน Java Slides
 
@@ -152,3 +156,9 @@ finally
 ### ฉันจะบันทึกงานนำเสนอด้วยแผนภูมิแผนผังต้นไม้ได้อย่างไร
 
  ใช้`pres.save()` วิธีการบันทึกการนำเสนอด้วยแผนภูมิ Tree Map ในรูปแบบที่ต้องการ (เช่น PPTX)
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

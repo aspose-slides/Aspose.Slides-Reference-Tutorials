@@ -3,10 +3,14 @@ title: 프레젠테이션에서 메일 병합 수행
 linktitle: 프레젠테이션에서 메일 병합 수행
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 이 단계별 가이드에서 .NET용 Aspose.Slides를 사용하여 프레젠테이션에서 메일 병합을 알아보세요. 역동적이고 개인화된 프레젠테이션을 손쉽게 만들어 보세요.
-type: docs
 weight: 21
 url: /ko/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 .NET 개발 세계에서는 동적이고 개인화된 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. 이 프로세스를 단순화하는 강력한 도구 중 하나는 .NET용 Aspose.Slides입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 메일 병합을 수행하는 흥미로운 영역을 살펴보겠습니다.
 ## 전제 조건
@@ -150,3 +154,9 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
  틀림없이! .NET용 Aspose.Slides의 무료 평가판을 다음에서 이용할 수 있습니다.[여기](https://releases.aspose.com/).
 ## 결론
 이 튜토리얼에서는 프레젠테이션에서 메일 병합을 수행할 때 Aspose.Slides for .NET의 흥미로운 기능을 살펴보았습니다. 단계별 가이드를 따르면 역동적이고 개인화된 프레젠테이션을 쉽게 만들 수 있습니다. 원활한 프레젠테이션 생성을 위해 Aspose.Slides를 사용하여 .NET 개발 경험을 향상하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

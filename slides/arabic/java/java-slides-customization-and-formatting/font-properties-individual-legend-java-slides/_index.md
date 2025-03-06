@@ -3,10 +3,14 @@ title: خصائص الخط لوسيلة الإيضاح الفردية في شر�
 linktitle: خصائص الخط لوسيلة الإيضاح الفردية في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية باستخدام أنماط الخطوط والأحجام والألوان المخصصة للأساطير الفردية في Java Slides باستخدام Aspose.Slides for Java.
-type: docs
 weight: 12
 url: /ar/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى خصائص الخط لوسيلة الإيضاح الفردية في شرائح Java
 
@@ -113,3 +117,9 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

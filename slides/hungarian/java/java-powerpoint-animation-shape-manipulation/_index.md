@@ -3,10 +3,14 @@ title: Java PowerPoint animáció és alakmanipuláció
 linktitle: Java PowerPoint animáció és alakmanipuláció
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan animálhat és kezelhet alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Átfogó oktatóanyagok dinamikus prezentációkhoz.
-type: docs
 weight: 25
 url: /hu/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés
 
@@ -90,3 +94,9 @@ Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan alkalmazhat D
 Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan ágyazhat be videokockákat a PowerPointba az Aspose.Slides for Java segítségével. Egyszerűen javíthatja prezentációit.
 ### [A beágyazott fájladatok kibontása az OLE-objektumból a PowerPointban](./extract-embedded-file-data-ole-object-powerpoint/)
 Ismerje meg, hogyan bonthat ki beágyazott fájladatokat PowerPoint-prezentációkból az Aspose.Slides for Java segítségével, amely javítja a dokumentumkezelési képességeket.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

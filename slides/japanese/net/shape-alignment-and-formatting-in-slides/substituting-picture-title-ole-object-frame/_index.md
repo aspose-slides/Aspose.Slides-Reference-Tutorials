@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET を使用した OLE オブジェクトの埋め込
 linktitle: プレゼンテーション スライドの OLE オブジェクト フレームの画像タイトルの置き換え
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、動的な OLE オブジェクトでプレゼンテーション スライドを強化する方法を学びます。シームレスな統合については、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 ダイナミックで魅力的なプレゼンテーション スライドを作成するには、さまざまなマルチメディア要素を組み込む必要があります。このチュートリアルでは、強力な Aspose.Slides for .NET ライブラリを使用して、プレゼンテーション スライドの OLE (オブジェクトのリンクと埋め込み) オブジェクト フレームの画像タイトルを置き換える方法について説明します。Aspose.Slides は、OLE オブジェクトの処理プロセスを簡素化し、開発者にプレゼンテーションを簡単に強化するためのツールを提供します。
 ## 前提条件
@@ -83,3 +87,9 @@ Aspose.Slides for .NET を使用して OLE オブジェクトをプレゼンテ�
 もちろんです。OLE オブジェクトをプログラムで完全に制御できるため、必要に応じてプロパティや外観を変更できます。
 ### 埋め込まれた OLE オブジェクトのサイズに制限はありますか?
 サイズ制限はありますが、一般的には十分な大きさです。最適なパフォーマンスを確保するには、特定のユースケースでテストすることをお勧めします。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

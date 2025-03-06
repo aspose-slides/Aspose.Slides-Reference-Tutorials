@@ -3,10 +3,14 @@ title: Vyplňte tvary plnou barvou v PowerPointu
 linktitle: Vyplňte tvary plnou barvou v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vyplňovat tvary plnými barvami v PowerPointu pomocí Aspose.Slides for Java. Průvodce krok za krokem pro vývojáře.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Pokud jste někdy pracovali s prezentacemi v PowerPointu, víte, že přidávání tvarů a přizpůsobení jejich barev může být zásadním aspektem toho, aby vaše snímky byly vizuálně přitažlivé a informativní. S Aspose.Slides pro Java se tento proces stává hračkou. Ať už jste vývojář, který chce automatizovat vytváření prezentací v PowerPointu, nebo někdo, kdo má zájem přidat na snímky šplouchnutí barev, tento tutoriál vás provede procesem vyplňování tvarů plnými barvami pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -85,3 +89,9 @@ Ano, Aspose.Slides for Java vám umožňuje otevírat, upravovat a ukládat exis
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[Aspose webové stránky](https://releases.aspose.com/).
 ### Kde najdu další dokumentaci a podporu?
  Podrobná dokumentace je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/) můžete hledat podporu na[Aspose fóra](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

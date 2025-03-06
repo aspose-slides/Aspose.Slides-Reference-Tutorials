@@ -3,10 +3,14 @@ title: Sunumu Java Slaytlarında Açma
 linktitle: Sunumu Java Slaytlarında Açma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarını Java'da nasıl açacağınızı öğrenin. Etkili sunum yönetimi için kaynak kodu örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 16
 url: /tr/java/additional-utilities/open-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java'da Sunum Açmaya Giriş
 
@@ -112,3 +116,9 @@ Aspose.Slides for Java'nın kullanımıyla ilgili teknik destek, hata raporları
 ### Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını diğer formatlara dönüştürebilir miyim?
 
 Evet, Aspose.Slides for Java, PowerPoint sunumlarını PDF, görseller, HTML ve daha fazlası gibi çeşitli formatlara dönüştürmenize olanak tanır. Bu dönüşümlerin programlı olarak nasıl gerçekleştirileceğini öğrenmek için kitaplığın belgelerini ve örneklerini inceleyebilirsiniz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

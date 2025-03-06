@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for .NET 创建矩形形状
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建简单的矩形形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 探索动态 PowerPoint 演示文稿的世界。通过本分步指南了解如何在幻灯片中创建引人入胜的矩形形状。
-type: docs
 weight: 12
 url: /zh/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 如果您希望通过动态且具有视觉吸引力的 PowerPoint 演示文稿增强 .NET 应用程序，Aspose.Slides for .NET 就是您的首选解决方案。在本教程中，我们将指导您使用 Aspose.Slides for .NET 在演示文稿幻灯片中创建一个简单的矩形形状。
 ## 先决条件
@@ -61,3 +65,9 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 是的，你可以购买临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Slides for .NET 的文档？
 请参阅文档[这里](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Gerenciar fontes incorporadas em Java PowerPoint
 linktitle: Gerenciar fontes incorporadas em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Gerencie facilmente fontes incorporadas em apresentações Java PowerPoint com Aspose.Slides. Guia passo a passo para otimizar a consistência dos seus slides.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 No mundo em constante evolução das apresentações, o gerenciamento eficiente de fontes pode fazer uma enorme diferença na qualidade e compatibilidade dos seus arquivos PowerPoint. Aspose.Slides for Java oferece uma solução abrangente para gerenciar fontes incorporadas, garantindo que suas apresentações tenham uma aparência perfeita em qualquer dispositivo. Esteja você lidando com apresentações legadas ou criando novas, este guia irá orientá-lo no processo de gerenciamento de fontes incorporadas em suas apresentações Java PowerPoint usando Aspose.Slides. Vamos mergulhar!
 ## Pré-requisitos
@@ -104,3 +108,9 @@ Aspose.Slides for Java é compatível com JDK 8 e versões posteriores.
 O gerenciamento de fontes incorporadas garante que suas apresentações tenham aparência consistente em diferentes dispositivos e plataformas e ajuda a reduzir o tamanho do arquivo removendo fontes desnecessárias.
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode obter suporte do[Fórum de suporte Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

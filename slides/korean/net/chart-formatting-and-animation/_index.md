@@ -3,10 +3,14 @@ title: 차트 서식 및 애니메이션
 linktitle: 차트 서식 및 애니메이션
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 동적 차트로 프레젠테이션을 향상하세요. 차트 서식 및 애니메이션을 단계별로 알아보세요. 오늘 프레젠테이션 기술을 향상해보세요!
-type: docs
 weight: 22
 url: /ko/net/chart-formatting-and-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 소개
 
@@ -35,3 +39,9 @@ Aspose.Slides for .NET을 사용하여 매력적인 차트 서식과 애니메�
 .NET용 Aspose.Slides를 사용하여 차트 시리즈에 애니메이션을 적용하는 방법을 알아보세요. 매력적인 데이터 시각화를 통해 역동적인 프레젠테이션을 만드세요.
 ### [차트의 시리즈 요소에 애니메이션 적용하기](./animating-series-elements/)
 .NET용 Aspose.Slides를 사용하여 차트 시리즈에 애니메이션을 적용하는 방법을 알아보세요. 역동적인 시각적 요소로 매력적인 프레젠테이션을 만드세요. 코드 예제가 포함된 전문가 가이드.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

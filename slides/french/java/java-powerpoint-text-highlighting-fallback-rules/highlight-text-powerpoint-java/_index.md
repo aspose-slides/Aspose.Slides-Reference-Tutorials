@@ -3,10 +3,14 @@ title: Surligner du texte dans PowerPoint avec Java
 linktitle: Surligner du texte dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment surligner du texte dans PowerPoint à l'aide d'Aspose.Slides pour Java. Automatisez et améliorez les présentations sans effort avec notre guide détaillé.
-type: docs
 weight: 10
 url: /fr/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, où la communication visuelle joue un rôle central dans les présentations commerciales et les supports pédagogiques, la capacité de manipuler et d'améliorer les présentations PowerPoint par programmation constitue un avantage significatif. Aspose.Slides for Java offre aux développeurs un ensemble d'outils robustes pour intégrer et manipuler de manière transparente des diapositives PowerPoint à l'aide du langage de programmation Java. Que vous automatisiez la création de présentations, modifiiez celles existantes ou extrayiez des données de diapositives, Aspose.Slides for Java fournit les fonctionnalités nécessaires pour réaliser ces tâches efficacement.
 ## Conditions préalables
@@ -62,3 +66,9 @@ Aspose.Slides for Java est une API Java qui permet aux développeurs de créer, 
 Aspose.Slides pour Java prend en charge l'enregistrement de présentations dans divers formats, notamment PPTX, PPT, PDF, etc.
 ### Aspose.Slides pour Java est-il compatible avec le kit de développement Java SE ?
 Oui, Aspose.Slides pour Java est compatible avec le kit de développement Java SE.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

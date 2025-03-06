@@ -3,10 +3,14 @@ title: Configurando texto explicativo para rótulo de dados em slides Java
 linktitle: Configurando texto explicativo para rótulo de dados em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como configurar chamadas para rótulos de dados em Aspose.Slides para Java. Guia passo a passo com código-fonte.
-type: docs
 weight: 25
 url: /pt/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução à configuração de chamada para rótulo de dados em Aspose.Slides para Java
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Estas são algumas opções comuns de personalização para rótulos de dados e textos explicativos em Aspose.Slides para Java. Você pode adaptar ainda mais a aparência às suas necessidades específicas.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

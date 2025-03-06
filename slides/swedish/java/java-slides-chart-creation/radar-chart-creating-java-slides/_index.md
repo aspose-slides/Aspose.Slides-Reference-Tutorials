@@ -3,10 +3,14 @@ title: Radardiagram skapa i Java Slides
 linktitle: Radardiagram skapa i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar radardiagram i Java PowerPoint-presentationer med Aspose.Slides för Java API.
-type: docs
 weight: 10
 url: /sv/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att skapa ett radardiagram i Java Slides
 
@@ -268,3 +272,9 @@ Se "Steg 5" för att anpassa axeletiketter och formatering, inklusive teckenstor
 ### Hur sparar jag diagrammet i ett annat filformat?
 
 Du kan ändra utdataformatet genom att ändra filtillägget i`outPath` variabel och använder lämplig`SaveFormat` . Till exempel, för att spara som en PDF, använd`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

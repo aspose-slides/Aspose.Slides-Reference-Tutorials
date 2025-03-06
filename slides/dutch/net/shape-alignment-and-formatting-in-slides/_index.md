@@ -3,10 +3,14 @@ title: Vormuitlijning en opmaak in dia's
 linktitle: Vormuitlijning en opmaak in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Ontdek de uitgebreide Aspose.Slides-tutorials over vormuitlijning en opmaak in .NET-toepassingen. Leer moeiteloos vormen uitlijnen en opmaken, zodat u uw diapresentaties met precisie kunt verbeteren.
-type: docs
 weight: 14
 url: /nl/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering
 
@@ -44,3 +48,9 @@ Leer hoe u boeiende presentatiedia's met geschetste vormen maakt met Aspose.Slid
 Leer hoe u rekverschuiving naar links kunt toevoegen voor een afbeeldingsframe in PowerPoint met behulp van Aspose.Slides voor .NET. Stap-voor-stap handleiding met compleet broncodevoorbeeld.
 ### [Vervanging van de afbeeldingstitel van het OLE-objectframe in presentatiedia's](./substituting-picture-title-ole-object-frame/)
 Leer hoe u afbeeldingstitels van OLE-objectframes in presentatiedia's kunt vervangen met Aspose.Slides voor .NET. Stap-voor-stap handleiding met volledige broncode.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Přidání stylového formátování poznámek pomocí Aspose.Slides pro 
 linktitle: Přidejte snímek s poznámkami se stylovým formátováním poznámek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak přidat stylové formátování poznámek do vašich prezentací PowerPoint pomocí Aspose.Slides pro .NET. Vylepšete své snímky pomocí symbolů a odrážek.
-type: docs
 weight: 14
 url: /cs/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Ve světě prezentací to není jen o obsahu, který dodáváte, ale také o tom, jak jej prezentujete. Stylové formátování poznámek může významně ovlivnit dopad vaší prezentace. S Aspose.Slides pro .NET můžete snadno vylepšit své prezentace v PowerPointu přidáním stylových poznámek s odrážkami a symboly. V tomto podrobném průvodci vás provedeme procesem přidávání stylového formátování poznámek do snímků aplikace PowerPoint.
 
@@ -109,3 +113,9 @@ Ano, můžete získat dočasnou licenci pro účely testování a hodnocení od[
 
 ### Je k dispozici komunitní fórum nebo podpora pro Aspose.Slides pro .NET?
  Ano, můžete vyhledat pomoc a zúčastnit se diskuzí na fóru komunity Aspose.Slides for .NET[tady](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

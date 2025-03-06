@@ -3,10 +3,14 @@ title: Ustaw lokalne wartości wysokości czcionki w programie PowerPoint przy u
 linktitle: Ustaw lokalne wartości wysokości czcionki w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dostosować wysokość czcionek w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides. Bez wysiłku ulepszaj formatowanie tekstu na slajdach.
-type: docs
 weight: 17
 url: /pl/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W tym samouczku dowiesz się, jak manipulować wysokościami czcionek na różnych poziomach w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Kontrolowanie rozmiarów czcionek ma kluczowe znaczenie dla tworzenia atrakcyjnych wizualnie i uporządkowanych prezentacji. Przeanalizujemy przykłady krok po kroku ilustrujące sposób ustawiania wysokości czcionek dla różnych elementów tekstowych.
 ## Warunki wstępne
@@ -65,3 +69,9 @@ Aspose.Slides for Java to potężny interfejs API do programowego manipulowania 
  Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Gdzie mogę kupić licencję na Aspose.Slides dla Java?
  Możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

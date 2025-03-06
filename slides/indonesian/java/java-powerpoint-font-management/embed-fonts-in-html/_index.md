@@ -3,10 +3,14 @@ title: Sematkan Font dalam HTML menggunakan Aspose.Slides untuk Java
 linktitle: Sematkan Font dalam HTML menggunakan Aspose.Slides untuk Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyematkan font dalam HTML menggunakan Aspose.Slides untuk Java untuk memastikan tipografi yang konsisten di berbagai platform dan perangkat.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Aspose.Slides untuk Java adalah alat yang ampuh untuk pengembang Java yang ingin memanipulasi presentasi PowerPoint secara terprogram. Dalam tutorial ini, kita akan mempelajari proses menyematkan font dalam HTML menggunakan Aspose.Slides untuk Java. Dengan menyematkan font, Anda memastikan bahwa presentasi Anda mempertahankan tampilan yang diinginkan di berbagai platform dan perangkat, meskipun font yang diperlukan tidak diinstal secara lokal.
 ## Prasyarat
@@ -58,3 +62,9 @@ Ya, Aspose.Slides mendukung penyematan font dalam berbagai format keluaran, term
  Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan komunitas atau hubungi dukungan Aspose untuk bantuan profesional.
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Slides untuk Java?
 Ya, Anda dapat memperoleh lisensi sementara dari[halaman pembelian](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

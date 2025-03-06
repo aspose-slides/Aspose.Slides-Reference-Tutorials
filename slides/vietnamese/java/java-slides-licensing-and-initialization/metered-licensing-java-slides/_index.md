@@ -3,10 +3,14 @@ title: Cấp phép theo định mức trong Java Slides
 linktitle: Cấp phép theo định mức trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức sử dụng API của bạn.
-type: docs
 weight: 10
 url: /vi/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Cấp phép theo đồng hồ đo trong Aspose.Slides cho Java
 
@@ -107,3 +111,10 @@ Nếu vượt quá giới hạn định lượng, bạn có thể cần nâng c�
 ### Tôi có cần kết nối internet để cấp phép đồng hồ đo không?
 
 Có, cần có kết nối Internet để thiết lập và xác thực giấy phép đồng hồ đo.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Enregistrer en tant que type de vue prédéfini dans les diapositives Jav
 linktitle: Enregistrer en tant que type de vue prédéfini dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des types d'affichage prédéfinis dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples de code et des FAQ.
-type: docs
 weight: 10
 url: /fr/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à l'enregistrement en tant que type de vue prédéfini dans les diapositives Java
 
@@ -109,3 +113,9 @@ Oui, Aspose.Slides pour Java est bien adapté aux tâches de traitement par lots
 ### Où puis-je trouver plus d’informations et de documentation sur Aspose.Slides pour Java ?
 
  Pour une documentation complète et des références liées à Aspose.Slides pour Java, veuillez visiter le site Web de documentation :[Aspose.Slides pour Java Documentation](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

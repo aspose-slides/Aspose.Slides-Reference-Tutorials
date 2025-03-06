@@ -3,10 +3,14 @@ title: Java スライドのチャートエンティティ
 linktitle: Java スライドのチャートエンティティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライド チャートを作成し、カスタマイズする方法を学びます。強力なチャート エンティティを使用してプレゼンテーションを強化します。
-type: docs
 weight: 13
 url: /ja/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドのチャートエンティティの紹介
 
@@ -301,3 +305,9 @@ finally
 ### Aspose.Slides for Java は最新の Java バージョンと互換性がありますか?
 
 はい、Aspose.Slides for Java は定期的に更新され、最新の Java バージョンをサポートし、幅広い Java 環境との互換性を提供します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

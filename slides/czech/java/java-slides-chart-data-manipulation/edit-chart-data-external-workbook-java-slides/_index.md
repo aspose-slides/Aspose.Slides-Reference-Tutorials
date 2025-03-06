@@ -3,10 +3,14 @@ title: Upravit data grafu v externím sešitu v Java Slides
 linktitle: Upravit data grafu v externím sešitu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se upravovat data grafu v externím sešitu pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-type: docs
 weight: 17
 url: /cs/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do úprav dat grafu v externím sešitu v Java Slides
 
@@ -103,3 +107,9 @@ Pomocí příslušných tříd a metod Aspose.Cells pro čtení a zápis dat v t
 ### Jak mohu automatizovat tento proces pro více prezentací?
 
 Můžete vytvořit smyčku pro zpracování více prezentací, načíst každou z nich, provést požadované změny a uložit upravené prezentace jednu po druhé.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

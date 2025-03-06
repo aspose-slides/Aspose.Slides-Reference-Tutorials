@@ -3,10 +3,14 @@ title: Création de graphiques de diapositives Java
 linktitle: Création de graphiques de diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des diapositives Java dynamiques avec des graphiques à l'aide d'Aspose.Slides for Java. Nos tutoriels complets vous guident étape par étape tout au long du processus.
-type: docs
 weight: 16
 url: /fr/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Êtes-vous prêt à libérer la puissance des graphiques dynamiques dans vos diapositives Java ? Avec Aspose.Slides pour Java, vous pouvez créer des graphiques captivants sans effort. Ce guide complet vous guidera à travers les étapes essentielles, de l'installation à la perfection des cartes.
 
@@ -35,3 +39,9 @@ Apprenez à créer des graphiques à nuages de points en Java à l'aide d'Aspose
 Découvrez comment personnaliser des graphiques dans Java Slides à l'aide d'Aspose.Slides pour Java. Explorez les options de deuxième intrigue et améliorez vos présentations.
 ### [Graphique de carte arborescente dans les diapositives Java](./tree-map-chart-java-slides/)
 Créez des graphiques arborescents dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour visualiser les données hiérarchiques.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

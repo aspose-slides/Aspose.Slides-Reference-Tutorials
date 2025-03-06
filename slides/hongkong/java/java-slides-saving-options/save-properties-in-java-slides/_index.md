@@ -3,10 +3,14 @@ title: 在 Java 投影片中儲存屬性
 linktitle: 在 Java 投影片中儲存屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 優化您的 PowerPoint 簡報。了解如何設定屬性、停用加密、新增密碼保護以及輕鬆儲存。
-type: docs
 weight: 12
 url: /zh-hant/java/saving-options/save-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中儲存屬性簡介
 
@@ -170,3 +174,9 @@ finally {
 ### 我如何了解有關 Aspose.Slides for Java 及其功能的更多資訊？
 
 您可以瀏覽 Aspose.Slides for Java 文件：[這裡](https://docs.aspose.com/slides/java/)有關使用該庫的詳細資訊、教程和範例。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

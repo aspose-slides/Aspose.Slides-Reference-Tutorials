@@ -3,10 +3,14 @@ title: Rimuovi il nodo nella posizione specifica in SmartArt
 linktitle: Rimuovi il nodo nella posizione specifica in SmartArt
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come rimuovere un nodo in una posizione specifica all'interno di SmartArt utilizzando Aspose.Slides per Java. Migliora la personalizzazione della presentazione senza sforzo.
-type: docs
 weight: 15
 url: /it/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nel regno dello sviluppo Java, Aspose.Slides emerge come un potente strumento per manipolare le presentazioni a livello di codice. Che si tratti di creare, modificare o gestire diapositive, Aspose.Slides per Java fornisce un solido set di funzionalità per semplificare queste attività in modo efficiente. Una di queste operazioni comuni è la rimozione di un nodo in una posizione specifica all'interno di un oggetto SmartArt. Questo tutorial approfondisce il processo passo passo per raggiungere questo obiettivo utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -62,3 +66,9 @@ Con Aspose.Slides per Java, manipolare oggetti SmartArt all'interno delle presen
  Per acquistare Aspose.Slides per Java, visitare la pagina di acquisto[Qui](https://purchase.aspose.com/buy).
 ### Dove posso trovare la documentazione dettagliata per Aspose.Slides per Java?
  È possibile accedere alla documentazione completa[Qui](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

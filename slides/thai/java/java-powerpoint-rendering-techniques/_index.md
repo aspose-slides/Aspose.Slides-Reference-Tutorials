@@ -3,10 +3,14 @@ title: เทคนิคการเรนเดอร์ Java PowerPoint
 linktitle: เทคนิคการเรนเดอร์ Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแสดงความคิดเห็น กราฟิก 3 มิติ อีโมจิ และอื่นๆ ใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนที่ครอบคลุมสำหรับการนำเสนอที่ได้รับการปรับปรุง
-type: docs
 weight: 22
 url: /th/java/java-powerpoint-rendering-techniques/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## การแนะนำ
 
@@ -38,3 +42,9 @@ url: /th/java/java-powerpoint-rendering-techniques/
 เรียนรู้วิธีแสดงอิโมจิในงานนำเสนอ PowerPoint ได้อย่างง่ายดายโดยใช้ Aspose.Slides สำหรับ Java เพิ่มการมีส่วนร่วมด้วยภาพที่แสดงออก
 ### [ตัวเลือกการแสดงผลใน PowerPoint](./render-options-powerpoint/)
 เรียนรู้วิธีจัดการตัวเลือกการเรนเดอร์ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับแต่งสไลด์ของคุณเพื่อให้ภาพดูโดดเด่นที่สุด
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

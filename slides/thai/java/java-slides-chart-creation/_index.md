@@ -3,10 +3,14 @@ title: การสร้างแผนภูมิสไลด์ Java
 linktitle: การสร้างแผนภูมิสไลด์ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างสไลด์ Java แบบไดนามิกด้วยแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนที่ครอบคลุมของเราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
-type: docs
 weight: 16
 url: /th/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 คุณพร้อมที่จะปลดล็อกพลังของแผนภูมิไดนามิกในสไลด์ Java ของคุณแล้วหรือยัง? ด้วย Aspose.Slides สำหรับ Java คุณสามารถสร้างแผนภูมิที่น่าสนใจได้อย่างง่ายดาย คู่มือที่ครอบคลุมนี้จะนำคุณผ่านขั้นตอนที่จำเป็น ตั้งแต่การติดตั้งไปจนถึงการสร้างแผนภูมิให้สมบูรณ์แบบ
 
@@ -35,3 +39,9 @@ url: /th/java/chart-creation/
 เรียนรู้วิธีปรับแต่งแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java สำรวจตัวเลือกพล็อตเรื่องที่สองและปรับปรุงการนำเสนอของคุณ
 ### [แผนภูมิแผนที่ต้นไม้ใน Java Slides](./tree-map-chart-java-slides/)
 สร้างแผนภูมิแผนที่ต้นไม้ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการแสดงข้อมูลแบบลำดับชั้น
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

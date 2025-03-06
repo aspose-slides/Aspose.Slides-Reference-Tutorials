@@ -3,10 +3,14 @@ title: Grafico Recupera cartella di lavoro in diapositive Java
 linktitle: Grafico Recupera cartella di lavoro in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come recuperare cartelle di lavoro dai grafici in Java Slides con Aspose.Slides. Guida passo passo per l'automazione di PowerPoint.
-type: docs
 weight: 17
 url: /it/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione alla cartella di lavoro di recupero grafici nelle diapositive Java
 
@@ -109,3 +113,9 @@ Assolutamente! Aspose.Slides per Java è una potente libreria per automatizzare 
 ### Come posso accedere a ulteriore documentazione per Aspose.Slides per Java?
 
  Per documentazione dettagliata e riferimenti su Aspose.Slides per Java, visitare la pagina della documentazione all'indirizzo[Qui](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

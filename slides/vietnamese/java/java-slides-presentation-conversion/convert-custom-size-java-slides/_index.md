@@ -3,10 +3,14 @@ title: Chuyển đổi với kích thước tùy chỉnh trong Java Slides
 linktitle: Chuyển đổi với kích thước tùy chỉnh trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint thành hình ảnh TIFF với kích thước tùy chỉnh bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã dành cho nhà phát triển.
-type: docs
 weight: 31
 url: /vi/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chuyển đổi với kích thước tùy chỉnh trong Java Slides
 
@@ -137,3 +141,9 @@ Có, bạn có thể điều chỉnh PI bằng cách sử dụng`setDpiX` Và`se
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 
  Để biết tài liệu chi tiết và thông tin bổ sung về Aspose.Slides cho Java, vui lòng truy cập tài liệu:[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

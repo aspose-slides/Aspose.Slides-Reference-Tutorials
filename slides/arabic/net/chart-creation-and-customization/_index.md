@@ -3,10 +3,14 @@ title: إنشاء المخطط وتخصيصه
 linktitle: إنشاء المخطط وتخصيصه
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين إمكانيات العرض التقديمي لتطبيق .NET الخاص بك باستخدام Aspose.Slides. تعمق في برنامجنا التعليمي حول إنشاء المخططات وتخصيصها، واستكشف الأدلة خطوة بخطوة وأمثلة التعليمات البرمجية.
-type: docs
 weight: 14
 url: /ar/net/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة:
 
@@ -27,3 +31,9 @@ url: /ar/net/chart-creation-and-customization/
 تعرف على كيفية استخدام Aspose.Slides لـ .NET لإنشاء عروض PowerPoint تقديمية ديناميكية باستخدام العناصر النائبة الأساسية.
 ### [إدارة الرأس والتذييل في الشرائح](./header-footer-manager/)
 تعرف على كيفية إدارة الرؤوس والتذييلات في الشرائح باستخدام Aspose.Slides لـ .NET. قم بتخصيص العروض التقديمية الخاصة بك بكل سهولة ودقة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

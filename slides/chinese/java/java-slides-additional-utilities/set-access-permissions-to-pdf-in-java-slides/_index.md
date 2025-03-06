@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置 PDF 的访问权限
 linktitle: 在 Java Slides 中设置 PDF 的访问权限
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java Slides 中通过访问权限保护您的 PDF 文档。本分步指南涵盖密码保护等内容。
-type: docs
 weight: 17
 url: /zh/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slides 中设置 PDF 访问权限的简介
 
@@ -104,3 +108,9 @@ Aspose.Slides for Java 提供各种安全功能，包括加密、数字签名和
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以访问以下网址获取 Aspose.slides for Java 的综合文档[这里](https://reference.aspose.com/slides/java/)。此外，您还可以从[这里](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

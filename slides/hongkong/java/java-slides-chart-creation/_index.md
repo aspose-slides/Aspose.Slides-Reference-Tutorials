@@ -3,10 +3,14 @@ title: Java 投影片圖表創建
 linktitle: Java 投影片圖表創建
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 建立帶有圖表的動態 Java 投影片。我們的綜合教學將引導您逐步完成整個過程。
-type: docs
 weight: 16
 url: /zh-hant/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 您準備好在 Java 投影片中釋放動態圖表的威力了嗎？使用 Aspose.Slides for Java，您可以輕鬆創建迷人的圖表。這份綜合指南將引導您完成從安裝到圖表完善的基本步驟。
 
@@ -35,3 +39,9 @@ url: /zh-hant/java/chart-creation/
 了解如何使用 Aspose.Slides for Java 在 Java Slides 中自訂圖表。探索第二個情節選項並增強您的簡報。
 ### [Java 投影片中的樹狀圖](./tree-map-chart-java-slides/)
 使用 Aspose.Slides for Java 在 Java 投影片中建立樹狀圖。包含用於視覺化分層資料的原始程式碼的逐步指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

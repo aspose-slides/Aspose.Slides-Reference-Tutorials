@@ -3,10 +3,14 @@ title: Aplicar efeitos de chanfro em formas no PowerPoint
 linktitle: Aplicar efeitos de chanfro em formas no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como aplicar efeitos de chanfro a formas no PowerPoint usando Aspose.Slides for Java com nosso guia passo a passo. Aprimore suas apresentações.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Criar apresentações visualmente atraentes é crucial para capturar e manter a atenção do público. Adicionar efeitos de chanfro às formas pode melhorar a estética geral dos slides, destacando sua apresentação. Neste tutorial, orientaremos você no processo de aplicação de efeitos de chanfro a formas no PowerPoint usando Aspose.Slides para Java. Quer você seja um desenvolvedor que deseja automatizar a criação de apresentações ou apenas alguém que adora mexer no design, este guia tem o que você precisa.
 ## Pré-requisitos
@@ -92,3 +96,9 @@ Você pode adicionar várias formas, como retângulos, elipses, linhas e formas 
 Sim, Aspose.Slides for Java permite aplicar vários efeitos 3D, incluindo profundidade, iluminação e efeitos de câmera.
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode obter suporte da comunidade Aspose e da equipe de suporte em seus[Fórum de suporte](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

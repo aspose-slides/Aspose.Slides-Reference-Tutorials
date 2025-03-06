@@ -3,10 +3,14 @@ title: Set First Row as Header in PowerPoint Table with Java
 linktitle: Set First Row as Header in PowerPoint Table with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set the first row as header in PowerPoint tables using Aspose.Slides for Java. Improve presentation clarity and organization effortlessly.
-type: docs
 weight: 19
 url: /java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, we will delve into how to manipulate PowerPoint tables using Aspose.Slides for Java, a powerful library that allows seamless integration and modification of presentations. Specifically, we'll focus on setting the first row of a table as a header, enhancing the visual appeal and organization of your slides.
 ## Prerequisites
@@ -76,3 +80,10 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 Detailed documentation is available [here](https://reference.aspose.com/slides/java/).
 ### How can I get support for Aspose.Slides for Java?
 You can get community support [here](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

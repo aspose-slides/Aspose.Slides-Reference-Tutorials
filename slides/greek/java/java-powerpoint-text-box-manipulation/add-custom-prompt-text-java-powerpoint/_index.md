@@ -3,10 +3,14 @@ title: Προσθήκη προσαρμοσμένου κειμένου προτρ
 linktitle: Προσθήκη προσαρμοσμένου κειμένου προτροπής στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε προσαρμοσμένο κείμενο προτροπής στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Βελτιώστε την αλληλεπίδραση των χρηστών χωρίς κόπο με αυτό το σεμινάριο.
-type: docs
 weight: 12
 url: /el/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στη σημερινή ψηφιακή εποχή, η δημιουργία δυναμικών και ελκυστικών παρουσιάσεων είναι ζωτικής σημασίας για την αποτελεσματική επικοινωνία. Το Aspose.Slides for Java δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται τις παρουσιάσεις του PowerPoint μέσω προγραμματισμού, προσφέροντας εκτεταμένες δυνατότητες για την προσαρμογή διαφανειών, σχημάτων, κειμένου και πολλά άλλα. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία προσθήκης προσαρμοσμένου κειμένου προτροπής σε σύμβολα κράτησης θέσης σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -71,3 +75,9 @@ try {
  Μπορείτε να πάρετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για να αξιολογήσετε τα πλήρη χαρακτηριστικά του Aspose.Slides.
 ### Υποστηρίζει το Aspose.Slides για Java την προσθήκη προσαρμοσμένων κινούμενων εικόνων σε διαφάνειες;
 Ναι, το Aspose.Slides παρέχει API για τη διαχείριση κινούμενων εικόνων διαφανειών μέσω προγραμματισμού.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

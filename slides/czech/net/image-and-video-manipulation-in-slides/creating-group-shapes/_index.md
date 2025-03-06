@@ -3,10 +3,14 @@ title: Aspose.Slides - Vytváření skupinových tvarů v .NET
 linktitle: Vytváření skupinových tvarů v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet tvary skupin v PowerPointu pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce pro vizuálně přitažlivé prezentace.
-type: docs
 weight: 11
 url: /cs/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Pokud chcete zvýšit vizuální přitažlivost snímků vaší prezentace a efektivněji organizovat obsah, je začlenění skupinových tvarů výkonným řešením. Aspose.Slides for .NET poskytuje bezproblémový způsob vytváření a manipulace s tvary skupin v prezentacích PowerPoint. V tomto tutoriálu projdeme procesem vytváření skupinových tvarů pomocí Aspose.Slides a rozdělíme jej do snadno pochopitelných kroků.
 ## Předpoklady
@@ -98,3 +102,10 @@ Navštivte Aspose.Slides[Fórum](https://forum.aspose.com/c/slides/11) za podpor
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit plnou licenci pro Aspose.Slides?
  Licenci si můžete zakoupit od[nákupní stránku](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

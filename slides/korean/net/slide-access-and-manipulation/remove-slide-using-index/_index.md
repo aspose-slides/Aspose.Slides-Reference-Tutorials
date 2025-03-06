@@ -3,10 +3,14 @@ title: 순차 색인별로 슬라이드 지우기
 linktitle: 순차 색인별로 슬라이드 지우기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드를 단계별로 지우는 방법을 알아보세요. 우리 가이드는 순차 색인별로 슬라이드를 프로그래밍 방식으로 제거하는 데 도움이 되는 명확한 지침과 완전한 소스 코드를 제공합니다.
-type: docs
 weight: 24
 url: /ko/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 순차 색인별 슬라이드 지우기 소개
 
@@ -86,3 +90,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### .NET용 Aspose.Slides에 대해 자세히 알아보려면 어떻게 해야 합니까?
 
  Aspose.Slides for .NET에 대한 자세한 문서와 API 참조는 다음에서 탐색할 수 있습니다.[문서 페이지](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

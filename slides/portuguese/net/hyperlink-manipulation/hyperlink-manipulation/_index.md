@@ -3,10 +3,14 @@ title: Manipulação de hiperlink em Aspose.Slides
 linktitle: Manipulação de hiperlink em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como adicionar e remover hiperlinks em Aspose.Slides for .NET. Aprimore suas apresentações facilmente com links interativos.
-type: docs
 weight: 10
 url: /pt/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Os hiperlinks são elementos essenciais nas apresentações, pois fornecem uma maneira conveniente de navegar entre os slides ou acessar recursos externos. Aspose.Slides for .NET oferece recursos poderosos para adicionar e remover hiperlinks em slides de apresentação. Neste tutorial, iremos guiá-lo através do processo de manipulação de hiperlinks usando Aspose.Slides for .NET. Abordaremos a adição de hiperlinks a um slide e a remoção de hiperlinks de um slide. Então, vamos mergulhar!
 
@@ -121,3 +125,9 @@ Absolutamente. Aspose.Slides oferece suporte a vários formatos de PowerPoint, i
 
 ### Como posso obter uma licença temporária para Aspose.Slides?
  Se precisar de uma licença temporária para Aspose.Slides, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 掌握 Aspose.Slides for .NET 的形狀連接
 linktitle: 在簡報中使用連接站點連接形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 製作引人入勝的演示文稿，無縫連接形狀。遵循我們的指南，獲得流暢、引人入勝的體驗。
-type: docs
 weight: 30
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在動態的簡報世界中，創建具有互連形狀的視覺吸引力的投影片對於有效溝通至關重要。 Aspose.Slides for .NET 提供了一個強大的解決方案來實現此目的，讓您可以使用連接網站連接形狀。本教學將引導您逐步完成連接形狀的過程，確保您的簡報透過無縫視覺過渡脫穎而出。
 ## 先決條件
@@ -78,3 +82,9 @@ Aspose.Slides 允許您使用單一連接器連接兩個形狀。要連接更多
 是的，您可以下載免費試用版[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡獲得 Aspose.Slides 的支援？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區支持和討論。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

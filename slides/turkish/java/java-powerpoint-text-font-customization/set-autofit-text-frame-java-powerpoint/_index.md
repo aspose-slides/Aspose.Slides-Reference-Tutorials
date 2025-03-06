@@ -3,10 +3,14 @@ title: Java PowerPoint'te Metin Çerçevesinin Otomatik Sığdırılmasını Aya
 linktitle: Java PowerPoint'te Metin Çerçevesinin Otomatik Sığdırılmasını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java PowerPoint'te metin çerçeveleri için otomatik sığdırmayı nasıl ayarlayacağınızı öğrenin. Zahmetsizce dinamik sunumlar oluşturun.
-type: docs
 weight: 14
 url: /tr/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Java uygulaması geliştirmede, programlı olarak dinamik ve görsel olarak çekici PowerPoint sunumları oluşturmak yaygın bir gereksinimdir. Aspose.Slides for Java, bunu zahmetsizce gerçekleştirmek için güçlü bir API seti sağlar. Önemli özelliklerden biri, metin çerçeveleri için otomatik sığdırmayı ayarlamak ve metnin şekiller içinde manuel ayarlamalara gerek kalmadan düzgün bir şekilde ayarlanmasını sağlamaktır. Bu eğitim, PowerPoint slaytlarına metin sığdırmayı otomatikleştirmek için Aspose.Slides for Java'dan yararlanarak süreç boyunca size adım adım rehberlik edecektir.
 ## Önkoşullar
@@ -86,3 +90,9 @@ Aspose.Slides for Java, geliştiricilerin PowerPoint sunumları oluşturmasına,
  Aspose.Slides for Java ile ilgili ayrıntılı belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
  Aspose.Slides for Java için topluluk ve profesyonel desteği şu adresten alabilirsiniz:[Burada](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Hyperlink-Manipulation
 linktitle: Hyperlink-Manipulation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre .NET-Anwendungen mit umfassender Hyperlink-Manipulation mithilfe von Aspose.Slides. Erfahren Sie, wie Sie Hyperlinks verwalten, interaktive Präsentationen erstellen und die Benutzereinbindung mühelos steigern.
-type: docs
 weight: 13
 url: /de/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung:
 
@@ -27,3 +31,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks zu Folien in PowerP
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks in Präsentationen effektiv verwalten. Automatisieren Sie Aufgaben, erstellen Sie interaktive Menüs und verbessern Sie die Benutzereinbindung.
 ### [Erstellung veränderlicher Hyperlinks](./mutable-hyperlink/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET veränderbare Hyperlinks erstellen. Schritt-für-Schritt-Anleitung mit Quellcode für dynamische Präsentationen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

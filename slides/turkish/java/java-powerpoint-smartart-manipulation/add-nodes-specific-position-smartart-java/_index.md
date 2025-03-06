@@ -3,10 +3,14 @@ title: Java kullanarak SmartArt'ta Belirli Konumdaki Düğümleri Ekleme
 linktitle: Java kullanarak SmartArt'ta Belirli Konumdaki Düğümleri Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak SmartArt'ta belirli konumlara nasıl düğüm ekleyeceğinizi keşfedin. Zahmetsizce dinamik sunumlar oluşturun.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides ile Java kullanarak SmartArt'ta belirli konumlara düğüm ekleme sürecinde size rehberlik edeceğiz. SmartArt, PowerPoint'te görsel olarak çekici diyagramlar ve grafikler oluşturmanıza olanak tanıyan bir özelliktir.
 ## Önkoşullar
@@ -70,3 +74,9 @@ Evet, düğümlerin görünümünü, boyutları, renkleri ve stilleri de dahil o
 Evet, Aspose.Slides, .NET ve Python da dahil olmak üzere birçok programlama dili için kütüphaneler sağlar.
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

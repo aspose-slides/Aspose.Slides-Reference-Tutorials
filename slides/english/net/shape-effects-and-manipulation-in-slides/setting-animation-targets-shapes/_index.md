@@ -3,10 +3,14 @@ title: Mastering Animation Targets with Aspose.Slides for .NET
 linktitle: Setting Animation Targets for Presentation Slide Shapes using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to bring your presentations to life with Aspose.Slides for .NET! Set animation targets effortlessly and captivate your audience.
-type: docs
 weight: 22
 url: /net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic world of presentations, adding animations to your slides can be a game-changer. Aspose.Slides for .NET empowers developers to create engaging and visually appealing presentations by allowing precise control over animation targets for slide shapes. In this step-by-step guide, we'll walk you through the process of setting animation targets using Aspose.Slides for .NET. Whether you're a seasoned developer or just starting, this tutorial will help you harness the power of animations in your presentations.
 ## Prerequisites
@@ -62,3 +66,10 @@ No, Aspose.Slides allows you to animate a virtually unlimited number of shapes i
 Yes, Aspose.Slides provides options to customize the duration and timing of each animation.
 ### Where can I find more examples and documentation for Aspose.Slides?
 Explore the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/) for detailed information and examples.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

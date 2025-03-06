@@ -3,10 +3,14 @@ title: Java スライドのヒストグラム チャート
 linktitle: Java スライドのヒストグラム チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでヒストグラム チャートを作成する方法を学びます。データ視覚化のためのソース コードを含むステップ バイ ステップ ガイド。
-type: docs
 weight: 19
 url: /ja/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides を使用した Java スライドのヒストグラム チャートの紹介
 
@@ -112,3 +116,9 @@ finally
 ### ヒストグラム チャートの外観をカスタマイズできますか?
 
 はい、Aspose.Slides API を使用して、色、ラベル、軸などのグラフの外観をカスタマイズできます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

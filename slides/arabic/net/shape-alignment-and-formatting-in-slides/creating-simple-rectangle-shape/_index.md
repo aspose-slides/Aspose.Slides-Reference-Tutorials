@@ -3,10 +3,14 @@ title: إنشاء أشكال مستطيلة باستخدام Aspose.Slides لـ 
 linktitle: إنشاء شكل مستطيل بسيط في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: استكشف عالم عروض PowerPoint التقديمية الديناميكية باستخدام Aspose.Slides for .NET. تعرف على كيفية إنشاء أشكال مستطيلة جذابة في الشرائح باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين تطبيقات .NET الخاصة بك من خلال عروض PowerPoint التقديمية الديناميكية والجذابة بصريًا، فإن Aspose.Slides for .NET هو الحل الأمثل لك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء شكل مستطيل بسيط في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -61,3 +65,9 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك شراء ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ .NET؟
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

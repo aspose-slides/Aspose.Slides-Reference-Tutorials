@@ -3,10 +3,14 @@ title: Buat Tabel Standar di PowerPoint dengan Java
 linktitle: Buat Tabel Standar di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat tabel standar di PowerPoint dengan Java menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah kami yang terperinci untuk pengalaman yang lancar.
-type: docs
 weight: 21
 url: /id/java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik secara visual sering kali melibatkan penambahan berbagai elemen, seperti tabel, untuk mengatur dan menyajikan data dengan jelas. Aspose.Slides untuk Java menyediakan API yang kuat untuk bekerja dengan file PowerPoint secara terprogram. Tutorial ini akan memandu Anda melalui proses pembuatan tabel standar di PowerPoint menggunakan Java, merinci setiap langkah untuk memastikan pengalaman belajar yang lancar dan komprehensif.
 ## Prasyarat
@@ -101,3 +105,9 @@ Ya, Aspose.Slides untuk Java dapat digunakan dengan bahasa JVM lain seperti Kotl
  Anda dapat membeli lisensi dari[Asumsikan halaman Pembelian](https://purchase.aspose.com/buy).
 ### Apakah Aspose.Slides untuk Java mendukung semua format PowerPoint?
 Ya, Aspose.Slides untuk Java mendukung semua format PowerPoint utama termasuk PPT, PPTX, PPS, dan banyak lagi.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

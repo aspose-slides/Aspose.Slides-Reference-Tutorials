@@ -3,10 +3,14 @@ title: 访问 PowerPoint 中的内置属性
 linktitle: 访问 PowerPoint 中的内置属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 访问 PowerPoint 中的内置属性。本教程将指导您检索作者、创建日期等。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 访问 PowerPoint 演示文稿中的内置属性。Aspose.Slides 是一个功能强大的库，允许 Java 开发人员以编程方式处理 PowerPoint 演示文稿，从而无缝地执行读取和修改属性等任务。
 ## 先决条件
@@ -101,3 +105,9 @@ Aspose.Slides 支持广泛的 PowerPoint 版本，确保跨各种平台的兼容
 是的，您可以在以下位置找到全面的文档并访问支持论坛：[Aspose 网站](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java 有试用版吗？
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

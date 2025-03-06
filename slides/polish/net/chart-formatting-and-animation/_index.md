@@ -3,10 +3,14 @@ title: Formatowanie i animacja wykresów
 linktitle: Formatowanie i animacja wykresów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje za pomocą dynamicznych wykresów za pomocą Aspose.Slides dla .NET. Naucz się krok po kroku formatowania wykresów i animacji. Podnieś swoje umiejętności prezentacji już dziś!
-type: docs
 weight: 22
 url: /pl/net/chart-formatting-and-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wstęp
 
@@ -35,3 +39,9 @@ Dowiedz się, jak dodawać atrakcyjne animacje do elementów kategorii wykresów
 Dowiedz się, jak animować serie wykresów za pomocą Aspose.Slides dla .NET. Twórz dynamiczne prezentacje z angażującymi wizualizacjami danych.
 ### [Animowanie elementów serii na wykresie](./animating-series-elements/)
 Naucz się animować serie wykresów za pomocą Aspose.Slides dla .NET. Twórz angażujące prezentacje z dynamicznymi efektami wizualnymi. Przewodnik ekspercki z przykładami kodu.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

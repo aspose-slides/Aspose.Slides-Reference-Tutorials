@@ -3,10 +3,14 @@ title: Đặt dữ liệu biểu đồ từ sổ làm việc trong các trang tr
 linktitle: Đặt dữ liệu biểu đồ từ sổ làm việc trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt dữ liệu biểu đồ từ sổ làm việc Excel trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước với các ví dụ về mã cho bản trình bày động.
-type: docs
 weight: 15
 url: /vi/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Đặt dữ liệu biểu đồ từ sổ làm việc trong Java Slides
 
@@ -142,3 +146,9 @@ Có, bạn có thể cập nhật dữ liệu biểu đồ một cách linh ho�
 ### Tôi có thể tìm thêm ví dụ và tài nguyên để làm việc với Aspose.Slides cho Java ở đâu?
 
  Bạn có thể khám phá các ví dụ và tài nguyên bổ sung trên[trang web giả định](https://www.aspose.com/). Ngoài ra, tài liệu Aspose.Slides for Java cung cấp hướng dẫn toàn diện về cách làm việc với thư viện.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

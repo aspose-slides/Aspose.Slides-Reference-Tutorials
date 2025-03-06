@@ -3,10 +3,14 @@ title: Γράφημα πίτας σε διαφάνειες Java
 linktitle: Γράφημα πίτας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε εκπληκτικά γραφήματα πίτας σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για προγραμματιστές Java.
-type: docs
 weight: 23
 url: /el/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη δημιουργία γραφήματος πίτας σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### Πώς μπορώ να βρω περισσότερες πληροφορίες και παραδείγματα για την εργασία με το Aspose.Slides για Java;
 
  Για περισσότερες πληροφορίες, λεπτομερή τεκμηρίωση και πρόσθετα παραδείγματα, μπορείτε να επισκεφτείτε το[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/). Παρέχει ολοκληρωμένους πόρους για να σας βοηθήσει να χρησιμοποιήσετε τη βιβλιοθήκη αποτελεσματικά.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

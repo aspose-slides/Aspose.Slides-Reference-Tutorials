@@ -3,10 +3,14 @@ title: PowerPoint の組み込みプロパティにアクセスする
 linktitle: PowerPoint の組み込みプロパティにアクセスする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint の組み込みプロパティにアクセスする方法を学びます。このチュートリアルでは、作成者、作成日などを取得する方法について説明します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの組み込みプロパティにアクセスする方法について説明します。Aspose.Slides は、Java 開発者が PowerPoint プレゼンテーションをプログラムで操作し、プロパティの読み取りや変更などのタスクをシームレスに実行できるようにする強力なライブラリです。
 ## 前提条件
@@ -101,3 +105,9 @@ Aspose.Slides は幅広いバージョンの PowerPoint をサポートしてお
 はい、包括的なドキュメントやサポートフォーラムを見つけることができます。[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java の試用版はありますか?
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

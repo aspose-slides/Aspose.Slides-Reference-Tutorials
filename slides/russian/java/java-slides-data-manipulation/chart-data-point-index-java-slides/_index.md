@@ -3,10 +3,14 @@ title: Индекс точек данных диаграммы в слайдах
 linktitle: Индекс точек данных диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как манипулировать индексами точек данных диаграммы в Java Slides с помощью Aspose.Slides для Java. Извлекайте данные из диаграмм PowerPoint и работайте с ними без особых усилий.
-type: docs
 weight: 12
 url: /ru/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в индекс точек данных диаграммы в слайдах Java
 
@@ -98,3 +102,9 @@ try {
 ### Где я могу найти дополнительные примеры и документацию для Aspose.Slides для Java?
 
  Вы можете найти подробные примеры и документацию для Aspose.Slides для Java на веб-сайте документации Aspose.[здесь](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

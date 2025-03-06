@@ -3,10 +3,14 @@ title: Imposta la sovrapposizione delle serie di grafici nelle diapositive Java
 linktitle: Imposta la sovrapposizione delle serie di grafici nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Le serie di grafici principali si sovrappongono in Java Slides con Aspose.Slides per Java. Scopri passo dopo passo come personalizzare le immagini dei grafici per presentazioni straordinarie.
-type: docs
 weight: 16
 url: /it/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione alla sovrapposizione delle serie di grafici nelle diapositive Java
 
@@ -110,3 +114,9 @@ Assolutamente! Aspose.Slides per Java fornisce API per creare presentazioni da z
 ### Dove posso trovare ulteriori risorse ed esempi per Aspose.Slides per Java?
 
  Per documentazione completa ed esempi, visitare la pagina di riferimento Aspose.Slides per Java:[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/)
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

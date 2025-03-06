@@ -3,10 +3,14 @@ title: Java PowerPoint alakzat és médiabeillesztés
 linktitle: Java PowerPoint alakzat és médiabeillesztés
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan illeszthet be alakzatokat és adathordozókat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Az oktatóanyagok sorok, hangok, OLE-objektumok és videók hozzáadását tartalmazzák.
-type: docs
 weight: 23
 url: /hu/java/java-powerpoint-shape-media-insertion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés
 
@@ -53,3 +57,9 @@ Ismerje meg, hogyan adhat hozzá nyúlási eltolást a képkitöltéshez PowerPo
 Ismerje meg, hogyan integrálhat zökkenőmentesen videotartalmat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Diák multimédiás elemekkel, hogy bevonják a közönséget.
 ### [Videokeret hozzáadása a webforrásból a PowerPointban](./add-video-frame-web-source-powerpoint/)
 Ismerje meg, hogyan javíthatja PowerPoint-prezentációit webes forrásokból származó videokockák hozzáadásával az Aspose.Slides for Java segítségével.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

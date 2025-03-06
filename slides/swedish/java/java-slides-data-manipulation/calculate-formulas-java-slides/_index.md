@@ -3,10 +3,14 @@ title: Beräkna formler i Java Slides
 linktitle: Beräkna formler i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du beräknar formler i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide med källkod för dynamiska PowerPoint-presentationer.
-type: docs
 weight: 10
 url: /sv/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att beräkna formler i Java Slides med Aspose.Slides
 
@@ -114,3 +118,10 @@ I den här guiden har vi lärt oss hur man beräknar formler i Java Slides med A
 ### Hur beräknar jag formler i en arbetsbok?
 
  Du kan beräkna formler i en arbetsbok med hjälp av`calculateFormulas` metod av`IChartDataWorkbook` i Aspose.Slides.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

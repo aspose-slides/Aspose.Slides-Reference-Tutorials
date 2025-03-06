@@ -3,10 +3,14 @@ title: Fill Shapes with Pattern in PowerPoint
 linktitle: Fill Shapes with Pattern in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to fill shapes with patterns in PowerPoint using Aspose.Slides for Java. Follow our easy, step-by-step guide to enhance your presentations visually.
-type: docs
 weight: 11
 url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Creating visually appealing presentations is essential for engaging your audience. One way to enhance your PowerPoint slides is by filling shapes with patterns. In this tutorial, we will walk through the steps to fill shapes with patterns using Aspose.Slides for Java. This guide is tailored for developers who want to leverage the powerful features of Aspose.Slides to create stunning presentations programmatically.
 ## Prerequisites
@@ -94,3 +98,10 @@ Yes, you can get a free trial from [here](https://releases.aspose.com/).
 Yes, Aspose.Slides for Java allows you to open, edit, and save existing PowerPoint presentations.
 ### Where can I get support for Aspose.Slides for Java?
 You can get support from the [Aspose.Slides support forum](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

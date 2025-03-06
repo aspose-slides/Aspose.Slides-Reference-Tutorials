@@ -3,10 +3,14 @@ title: Hangkeret hozzáadása a PowerPointban
 linktitle: Hangkeret hozzáadása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hangkereteket PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével. Emelje fel prezentációit lenyűgöző hangelemekkel könnyedén.
-type: docs
 weight: 12
 url: /hu/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 A prezentációk hangelemekkel történő javítása jelentősen növelheti hatásukat és elköteleződésüket. Az Aspose.Slides for Java segítségével a hangkeretek PowerPoint-prezentációkba való integrálása zökkenőmentes folyamattá válik. Ez az oktatóanyag lépésről lépésre végigvezeti Önt az Aspose.Slides for Java segítségével hangkockák hozzáadásának folyamatán.
 ## Előfeltételek
@@ -75,3 +79,9 @@ Igen, létrehozhat PowerPoint-prezentációkat beágyazott hangkeretekkel, amely
 Az Aspose.Slides for Java kiterjedt testreszabási lehetőségeket kínál, amelyek lehetővé teszik az audiolejátszó megjelenésének testreszabását az Ön igényei szerint.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
  Igen, hozzáférhet az Aspose.Slides for Java ingyenes próbaverziójához a tőlük[weboldal](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

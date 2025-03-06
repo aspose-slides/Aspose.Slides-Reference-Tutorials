@@ -3,10 +3,14 @@ title: Konwertuj prezentację do formatu PDF za pomocą ukrytych slajdów
 linktitle: Konwertuj prezentację do formatu PDF za pomocą ukrytych slajdów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak używać Aspose.Slides dla .NET do płynnej konwersji prezentacji do formatu PDF z ukrytymi slajdami.
-type: docs
 weight: 26
 url: /pl/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -95,3 +99,9 @@ Absolutnie Aspose.Slides dla .NET jest przeznaczony do obsługi prezentacji o r�
 ### Czy istnieje dokumentacja Aspose.Slides dla .NET?
 
  Tak, dokumentację i przykłady użycia Aspose.Slides dla .NET można znaleźć pod adresem[Tutaj](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

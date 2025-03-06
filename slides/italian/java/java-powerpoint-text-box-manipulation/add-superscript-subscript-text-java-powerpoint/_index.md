@@ -3,10 +3,14 @@ title: Aggiungi testo in apice e pedice in Java PowerPoint
 linktitle: Aggiungi testo in apice e pedice in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere testo in apice e pedice nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java. Perfetto per migliorare le tue diapositive.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 La creazione di presentazioni PowerPoint accattivanti e informative richiede spesso l'uso di funzionalità di formattazione come il testo in apice e pedice. Questo tutorial ti guiderà attraverso il processo di incorporazione del testo in apice e pedice nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -89,3 +93,9 @@ Aspose.Slides per Java è una solida libreria che consente agli sviluppatori di 
  Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Per supporto e discussioni, visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Comment définir le type de morphing de transition sur une diapositive à
 linktitle: Définir le type de morphing de transition sur la diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment définir le type de morphing de transition sur les diapositives à l’aide d’Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code. Améliorez vos présentations maintenant !
-type: docs
 weight: 12
 url: /fr/net/slide-transition-effects/set-transition-morph-type/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dans le monde des présentations dynamiques, les bonnes transitions peuvent faire toute la différence. Aspose.Slides pour .NET permet aux développeurs de créer de superbes présentations PowerPoint, et l'une de ses fonctionnalités intéressantes est la possibilité de définir des effets de transition. Dans ce guide étape par étape, nous verrons comment définir le type de morphing de transition sur une diapositive à l'aide d'Aspose.Slides pour .NET. Cela ajoute non seulement une touche professionnelle à vos présentations, mais améliore également l'expérience utilisateur globale.
 
@@ -102,3 +106,10 @@ Pour toute question technique ou relative au produit, vous pouvez visiter le[For
 
  Aspose.Slides pour .NET offre une variété d'effets de transition, notamment des fondus, des poussées, des volets, etc. Vous pouvez explorer la documentation sur le[Page de documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/) pour plus de détails sur tous les types de transition disponibles.
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

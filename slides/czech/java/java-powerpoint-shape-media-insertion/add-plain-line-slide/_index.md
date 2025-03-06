@@ -3,10 +3,14 @@ title: Přidat obyčejnou čáru do snímku
 linktitle: Přidat obyčejnou čáru do snímku
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat prostou čáru do snímku aplikace PowerPoint pomocí programu Aspose.Slides for Java. Zvyšte svou produktivitu pomocí tohoto podrobného průvodce.
-type: docs
 weight: 14
 url: /cs/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Aspose.Slides for Java je výkonná knihovna, která vývojářům v jazyce Java umožňuje programově pracovat s prezentacemi v PowerPointu. S Aspose.Slides můžete snadno vytvářet, upravovat a převádět soubory PowerPoint, což vám ušetří čas a námahu. V tomto tutoriálu vás provedeme procesem přidání prosté čáry na snímek v prezentaci PowerPoint pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -62,3 +66,9 @@ Absolutně! Aspose.Slides nabízí širokou škálu typů tvarů, včetně obdé
 Ano, pomocí Aspose.Slides API můžete na snímek přidat text, obrázky a další obsah.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Slides?
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

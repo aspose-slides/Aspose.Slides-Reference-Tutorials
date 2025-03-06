@@ -3,10 +3,14 @@ title: Aspose.Slides .NET ile Resim Çerçevesi Ekleme Eğitimi
 linktitle: Aspose.Slides'ta Göreli Ölçek Yüksekliğine Sahip Resim Çerçeveleri Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'te göreceli ölçek yüksekliğine sahip resim çerçeveleri eklemeyi öğrenin. Kusursuz sunumlar için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 17
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Aspose.Slides for .NET, geliştiricilerin .NET uygulamalarında PowerPoint sunumlarını zahmetsizce oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde Aspose.Slides for .NET'i kullanarak göreceli ölçek yüksekliğine sahip resim çerçeveleri ekleme sürecini ele alacağız. Sunum oluşturma becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
 ## Önkoşullar
@@ -64,3 +68,9 @@ Aspose.Slides öncelikli olarak .NET dillerini destekler ancak farklı platforml
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluktan ve Aspose uzmanlarından yardım istemek.
 ### Aspose.Slides for .NET'i nereden satın alabilirim?
  Aspose.Slides for .NET'i şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

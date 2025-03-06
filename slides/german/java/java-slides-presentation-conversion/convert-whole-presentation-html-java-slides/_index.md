@@ -3,10 +3,14 @@ title: Konvertieren Sie die gesamte Präsentation in HTML in Java Slides
 linktitle: Konvertieren Sie die gesamte Präsentation in HTML in Java Slides
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides PowerPoint-Präsentationen in Java in HTML konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 29
 url: /de/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung zum Konvertieren der gesamten Präsentation in HTML in Java Slides
 
@@ -117,3 +121,9 @@ Ja, Aspose.Slides für Java unterstützt verschiedene Ausgabeformate, darunter P
 ### Kann ich statt der gesamten Präsentation nur bestimmte Folien konvertieren?
 
 Ja, Sie können bestimmte Folien konvertieren, indem Sie sie im Code auswählen, bevor Sie die Präsentation speichern. So haben Sie Kontrolle darüber, welche Folien in HTML konvertiert werden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Добавление смещения растяжения слева в 
 linktitle: Добавление смещения растяжения слева для рамки изображения в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как улучшить презентации PowerPoint с помощью Aspose.Slides для .NET. Следуйте нашему пошаговому руководству, чтобы добавить смещение растяжения влево для рамок для фотографий.
-type: docs
 weight: 14
 url: /ru/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Aspose.Slides for .NET — это мощная библиотека, которая позволяет разработчикам с легкостью манипулировать презентациями PowerPoint. В этом уроке мы рассмотрим процесс добавления смещения растяжения влево для рамки изображения с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству, чтобы улучшить свои навыки работы с изображениями и фигурами в презентациях PowerPoint.
 ## Предварительные условия
@@ -85,3 +89,9 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
  А: Исследуйте[Документация Aspose.Slides](https://reference.aspose.com/slides/net/) для подробных примеров и рекомендаций.
 ### Вопрос: Могу ли я применить несколько смещений растяжения к одной фигуре?
 О: Да, вы можете комбинировать несколько смещений растяжения для достижения сложных и настраиваемых визуальных эффектов.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

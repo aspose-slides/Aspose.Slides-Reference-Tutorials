@@ -3,10 +3,14 @@ title: 透過唯一識別碼存取投影片
 linktitle: 透過唯一識別碼存取投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 透過唯一識別碼存取 PowerPoint 投影片。本逐步指南涵蓋載入簡報、透過索引或 ID 存取投影片、修改內容以及儲存變更。
-type: docs
 weight: 11
 url: /zh-hant/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for .NET 簡介
 
@@ -112,3 +116,9 @@ Aspose.Slides 支援投影片索引和投影片 ID 作為識別碼。您可以�
 ### 在哪裡可以找到更詳細的文件和資源？
 
 您可以在 Aspose.Slides for .NET 中找到全面的文件、程式碼範例、教學課程等。[文件](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

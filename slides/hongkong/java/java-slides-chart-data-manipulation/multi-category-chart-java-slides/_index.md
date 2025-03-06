@@ -3,10 +3,14 @@ title: Java 投影片中的多類別圖表
 linktitle: Java 投影片中的多類別圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 Java 投影片中建立多類別圖表。具有原始程式碼的逐步指南，可在簡報中實現令人印象深刻的資料視覺化。
-type: docs
 weight: 20
 url: /zh-hant/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides 介紹 Java Slides 中的多類別圖表
 
@@ -157,3 +161,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 如何為圖表新增標題？
 
 您可以使用以下命令向圖表新增標題`ch.getChartTitle().getTextFrame().setText("Chart Title");`方法。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

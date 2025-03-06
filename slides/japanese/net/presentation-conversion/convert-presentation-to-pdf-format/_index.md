@@ -3,10 +3,14 @@ title: プレゼンテーションをPDF形式に変換する
 linktitle: プレゼンテーションをPDF形式に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションを PDF に変換する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。効率的で効果的な変換。
-type: docs
 weight: 24
 url: /ja/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for .NET の紹介
 
@@ -107,3 +111,9 @@ Aspose.Slides for .NET を使用すると、プレゼンテーションを PDF �
 ### 試用版はありますか？
 
 はい、Aspose.Slides for .NETの無料試用版をこちらからダウンロードできます。[ここ](https://products.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

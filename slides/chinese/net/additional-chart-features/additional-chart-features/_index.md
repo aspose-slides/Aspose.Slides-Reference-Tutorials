@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for .NET 探索高级图表功能
 linktitle: Aspose.Slides 中的附加图表功能
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解 Aspose.Slides for .NET 中的高级图表功能，以增强您的 PowerPoint 演示文稿。清除数据点、恢复工作簿等等！
-type: docs
 weight: 10
 url: /zh/net/additional-chart-features/additional-chart-features/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在数据可视化和演示设计领域，Aspose.Slides for .NET 是一款功能强大的工具，可用于创建精美的图表并增强您的 PowerPoint 演示文稿。本分步指南将引导您了解 Aspose.Slides for .NET 提供的各种高级图表功能。无论您是开发人员还是演示爱好者，本教程都将帮助您充分利用此库的潜力。
 
@@ -148,3 +152,9 @@ Aspose.Slides for .NET 提供了一个强大的平台，可用于处理 PowerPoi
 ### 如何获得 Aspose.Slides for .NET 的支持或帮助？
 
 如有任何技术问题或需要支持，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/)，在这里您可以找到常见问题的答案并获得社区的帮助。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

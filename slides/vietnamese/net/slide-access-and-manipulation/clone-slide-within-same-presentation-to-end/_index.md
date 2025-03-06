@@ -3,10 +3,14 @@ title: Trang trình bày trùng lặp đến cuối bản trình bày hiện có
 linktitle: Trang trình bày trùng lặp đến cuối bản trình bày hiện có
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sao chép và thêm trang chiếu vào cuối bản trình bày PowerPoint hiện có bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn và bao gồm việc thiết lập, sao chép trang trình bày, sửa đổi, v.v.
-type: docs
 weight: 22
 url: /vi/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -96,3 +100,9 @@ Có, Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác nhau, bao 
 ### Tôi có thể sửa đổi nội dung slide bằng Aspose.Slides không?
 
 Tuyệt đối! Aspose.Slides cho phép bạn không chỉ sao chép các slide mà còn có thể thao tác nội dung của chúng, chẳng hạn như văn bản, hình ảnh, hình dạng và hoạt ảnh theo chương trình.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

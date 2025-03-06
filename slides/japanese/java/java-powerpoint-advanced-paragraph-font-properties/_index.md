@@ -3,10 +3,14 @@ title: Java PowerPoint の高度な段落とフォントのプロパティ
 linktitle: Java PowerPoint の高度な段落とフォントのプロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java PowerPoint の高度な段落とフォントのプロパティを習得します。フォントのカスタマイズ、画像の箇条書きの追加、フォールバック フォントの使用について学習します。
-type: docs
 weight: 28
 url: /ja/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 
 洗練された PowerPoint プレゼンテーションを作成するには、段落の書式設定からフォント管理まで、さまざまな要素を微調整する必要があります。Aspose.Slides for Java は、これらの高度なプロパティを効果的に管理するための強力なツールを提供します。この記事では、段落のフォント プロパティをカスタマイズし、画像の箇条書きを追加し、フォールバック フォントを使用するのに役立つチュートリアルを紹介します。プレゼンテーションを際立たせるためのこれらの高度なテクニックについて詳しく見ていきましょう。
@@ -35,3 +39,9 @@ Aspose.Slides for Java を使用して、PowerPoint スライドにカスタム�
 この詳細なステップバイステップのチュートリアルで、Aspose.Slides for Java を使用して PowerPoint で部分四角形を取得する方法を学びます。Java 開発者に最適です。
 ### [Java PowerPoint でフォールバック フォントを使用してレンダリングする](./render-with-fallback-font-java-powerpoint/)
 Aspose.Slides を使用して、Java PowerPoint プレゼンテーションでフォールバック フォントを使用してテキストをレンダリングする方法を学びます。シームレスな実装を行うには、このステップ バイ ステップ ガイドに従ってください。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

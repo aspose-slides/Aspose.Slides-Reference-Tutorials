@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定資料範圍
 linktitle: 在 Java 投影片中設定資料範圍
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 輕鬆設定 Java 投影片中的資料範圍。使用此逐步指南建立動態和資料驅動的簡報。
-type: docs
 weight: 18
 url: /zh-hant/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中設定資料範圍簡介
 
@@ -97,3 +101,9 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件和範例？
 
 您可以在 Aspose 文件網站上找到有關 Aspose.Slides for Java 的大量文件和範例：[Java API 參考的 Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

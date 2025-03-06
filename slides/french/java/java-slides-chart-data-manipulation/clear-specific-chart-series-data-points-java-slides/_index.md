@@ -3,10 +3,14 @@ title: Effacer les données de points de données de séries de graphiques spéc
 linktitle: Effacer les données de points de données de séries de graphiques spécifiques dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment effacer des points de données spécifiques d'une série de graphiques dans Java Slides avec Aspose.Slides pour Java. Guide étape par étape avec code source pour une gestion efficace de la visualisation des données.
-type: docs
 weight: 15
 url: /fr/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à l'effacement des données de points de données de séries de graphiques spécifiques dans les diapositives Java
 
@@ -121,3 +125,9 @@ Oui, vous pouvez effacer des points de données en fonction d'une condition en a
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
  Vous pouvez trouver une documentation complète et des exemples dans le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

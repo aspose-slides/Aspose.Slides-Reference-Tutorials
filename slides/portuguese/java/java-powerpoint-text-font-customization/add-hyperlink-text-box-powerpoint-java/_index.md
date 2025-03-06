@@ -3,10 +3,14 @@ title: Adicionar hiperlink à caixa de texto no PowerPoint usando Java
 linktitle: Adicionar hiperlink à caixa de texto no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar hiperlinks a caixas de texto do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com exemplos para desenvolvedores Java.
-type: docs
 weight: 23
 url: /pt/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Na era digital de hoje, criar apresentações dinâmicas que envolvam e informem é crucial para uma comunicação eficaz. Os desenvolvedores Java que buscam aprimorar seus aplicativos com recursos interativos geralmente recorrem ao Aspose.Slides for Java, uma biblioteca poderosa que permite a manipulação de apresentações do PowerPoint de forma programática. Este tutorial se aprofunda em um desses recursos: adicionar hiperlinks a caixas de texto em apresentações do PowerPoint usando Java. Ao final deste guia, você terá uma compreensão clara de como implementar essa funcionalidade perfeitamente em seus aplicativos Java.
 ## Pré-requisitos
@@ -76,3 +80,9 @@ Seguindo essas etapas, você aprendeu como adicionar hiperlinks a caixas de text
  Sim, licenças temporárias estão disponíveis para compra[aqui](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides é compatível com outras bibliotecas Java?
 Aspose.Slides integra-se bem com várias bibliotecas Java para manipulação abrangente do PowerPoint.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

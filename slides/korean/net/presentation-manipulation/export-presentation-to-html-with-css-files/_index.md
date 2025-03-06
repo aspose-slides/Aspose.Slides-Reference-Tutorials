@@ -3,10 +3,14 @@ title: CSS 파일을 사용하여 프리젠테이션을 HTML로 내보내기
 linktitle: CSS 파일을 사용하여 프리젠테이션을 HTML로 내보내기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 CSS 파일이 포함된 PowerPoint 프레젠테이션을 HTML로 내보내는 방법을 알아보세요. 원활한 변환을 위한 단계별 가이드입니다. 스타일과 레이아웃을 유지하세요!
-type: docs
 weight: 29
 url: /ko/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 오늘날의 디지털 시대에는 효과적인 커뮤니케이션을 위해 역동적이고 대화형 프레젠테이션을 만드는 것이 필수적입니다. .NET용 Aspose.Slides를 사용하면 개발자가 CSS 파일을 사용하여 프레젠테이션을 HTML로 내보낼 수 있으므로 다양한 플랫폼에서 콘텐츠를 원활하게 공유할 수 있습니다. 이 단계별 튜토리얼에서는 이를 달성하기 위해 Aspose.Slides for .NET을 사용하는 과정을 안내합니다.
 
@@ -73,3 +77,10 @@ Aspose.Slides for .NET은 주로 C#용이지만 Aspose는 Java 및 기타 언어
 .NET용 Aspose.Slides를 사용하면 CSS 파일을 사용하여 PowerPoint 프레젠테이션을 HTML로 쉽게 변환하여 청중에게 원활한 시청 경험을 보장할 수 있습니다.
 
 이제 .NET용 Aspose.Slides를 사용하여 멋진 HTML 프레젠테이션을 만들어 보세요!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

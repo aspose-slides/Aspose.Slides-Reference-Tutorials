@@ -3,10 +3,14 @@ title: الحصول على نص من SmartArt Node في Java PowerPoint
 linktitle: الحصول على نص من SmartArt Node في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استخراج النص من عقد SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دليل سهل خطوة بخطوة للمطورين.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية استخراج النص من عقد SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. Aspose.Slides هي مكتبة Java قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. يمكن أن يكون استخراج النص من عقد SmartArt مفيدًا للعديد من التطبيقات مثل استخراج البيانات وتحليل المحتوى والمزيد. بنهاية هذا الدليل، سيكون لديك فهم واضح لكيفية استرداد النص من عقد SmartArt بكفاءة باستخدام Aspose.Slides في Java.
 ## المتطلبات الأساسية
@@ -66,3 +70,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ Java[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على المساعدة الفنية ودعم المجتمع، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

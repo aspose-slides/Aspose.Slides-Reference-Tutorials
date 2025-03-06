@@ -3,10 +3,14 @@ title: تقديم الرموز التعبيرية في برنامج PowerPoint
 linktitle: تقديم الرموز التعبيرية في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية عرض الرموز التعبيرية في عروض PowerPoint التقديمية بسهولة باستخدام Aspose.Slides لـ Java. تعزيز التفاعل مع الصور التعبيرية.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 أصبحت الرموز التعبيرية جزءًا لا يتجزأ من التواصل، حيث تضيف اللون والعاطفة إلى عروضنا التقديمية. يمكن أن يؤدي دمج الرموز التعبيرية في شرائح PowerPoint الخاصة بك إلى تعزيز المشاركة ونقل الأفكار المعقدة ببساطة. في هذا البرنامج التعليمي، سنرشدك خلال عملية عرض الرموز التعبيرية في PowerPoint باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -52,3 +56,9 @@ pres.save(dataDir + "output.pdf", SaveFormat.Pdf);
 نعم، Aspose.Slides for Java متوافق مع جميع إصدارات PowerPoint، مما يضمن العرض السلس للرموز التعبيرية عبر منصات مختلفة.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[موقع إلكتروني](https://releases.aspose.com/) لاستكشاف مميزاته قبل الشراء.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: ลบโหนดออกจาก SmartArt ใน PowerPoint โดย
 linktitle: ลบโหนดออกจาก SmartArt ใน PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบโหนดออกจาก SmartArt ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java อย่างมีประสิทธิภาพและทางโปรแกรม
-type: docs
 weight: 14
 url: /th/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในยุคดิจิทัลปัจจุบัน การสร้างงานนำเสนอแบบไดนามิกและดึงดูดสายตาถือเป็นสิ่งสำคัญสำหรับธุรกิจ นักการศึกษา และบุคคลทั่วไป งานนำเสนอ PowerPoint ที่มีความสามารถในการถ่ายทอดข้อมูลในลักษณะที่กระชับและน่าดึงดูดยังคงเป็นเนื้อหาหลักในการสื่อสาร อย่างไรก็ตาม บางครั้งเราจำเป็นต้องจัดการเนื้อหาภายในงานนำเสนอเหล่านี้โดยทางโปรแกรมเพื่อให้ตรงตามข้อกำหนดเฉพาะหรือทำงานอัตโนมัติอย่างมีประสิทธิภาพ นี่คือจุดที่ Aspose.Slides สำหรับ Java เข้ามามีบทบาท โดยมอบชุดเครื่องมืออันทรงพลังในการโต้ตอบกับงานนำเสนอ PowerPoint โดยทางโปรแกรม
 ## ข้อกำหนดเบื้องต้น
@@ -64,3 +68,9 @@ Aspose.Slides สำหรับ Java ช่วยลดความยุ่ง
  แน่นอน! คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  สำหรับความช่วยเหลือทางเทคนิคหรือข้อสงสัย คุณสามารถไปที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

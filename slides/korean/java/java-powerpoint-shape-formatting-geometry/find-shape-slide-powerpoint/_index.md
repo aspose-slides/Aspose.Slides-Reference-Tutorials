@@ -3,10 +3,14 @@ title: 슬라이드에서 도형 찾기
 linktitle: 슬라이드에서 도형 찾기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에서 모양을 쉽게 찾을 수 있습니다. 원활한 코딩 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 특정 모양을 찾기 위해 PowerPoint 슬라이드를 뒤지는 데 지치셨나요? 단 몇 줄의 코드만으로 이 프로세스를 쉽게 자동화할 수 있다고 상상해 보십시오. 프레젠테이션 파일에서 모양을 찾기 위해 Java용 Aspose.Slides를 사용하는 방법에 대한 자세한 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 환경 설정부터 코드 실행까지 Aspose.Slides for Java를 사용하여 슬라이드에서 모양을 찾는 데 필요한 단계를 분석합니다.
 ## 전제 조건
@@ -84,3 +88,9 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  예, 다음에서 무료 평가판을 받을 수 있습니다.[Aspose의 무료 평가판 페이지](https://releases.aspose.com/).
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  다음에서 지원을 찾을 수 있습니다.[Aspose 슬라이드 포럼](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

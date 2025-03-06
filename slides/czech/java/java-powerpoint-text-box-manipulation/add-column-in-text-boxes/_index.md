@@ -3,10 +3,14 @@ title: Přidejte sloupec do textových polí pomocí Aspose.Slides pro Java
 linktitle: Přidejte sloupec do textových polí pomocí Aspose.Slides pro Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat sloupce do textových polí v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí tohoto podrobného průvodce.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak vylepšit textová pole přidáním sloupců pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná Java knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově bez nutnosti Microsoft Office. Přidání sloupců do textových polí může výrazně zlepšit čitelnost a organizaci obsahu snímků, díky čemuž budou vaše prezentace poutavější a profesionálnější.
 ## Předpoklady
@@ -82,3 +86,9 @@ Ano, Aspose.Slides podporuje Java 11 a vyšší verze.
 Ne, Aspose.Slides nevyžaduje instalaci sady Microsoft Office na počítači.
 ### Kde najdu další dokumentaci o Aspose.Slides pro Java?
  K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

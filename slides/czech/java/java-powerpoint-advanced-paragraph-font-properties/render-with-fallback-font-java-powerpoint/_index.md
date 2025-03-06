@@ -3,10 +3,14 @@ title: Render s záložním písmem v Java PowerPoint
 linktitle: Render s záložním písmem v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vykreslovat text pomocí záložních písem v prezentacích Java PowerPoint pomocí Aspose.Slides. Pro bezproblémovou implementaci postupujte podle tohoto podrobného průvodce.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Vytváření a manipulace s prezentacemi PowerPoint v Javě může být náročné, ale s Aspose.Slides to můžete udělat efektivně. Jednou z klíčových funkcí je schopnost vykreslovat text pomocí záložních písem. Tento článek poskytuje podrobného podrobného průvodce, jak implementovat záložní písma do snímků aplikace PowerPoint pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -88,3 +92,9 @@ Záložní písma jsou alternativní písma používaná v případě, že zadan
 Ano, můžete přidat více záložních pravidel pro práci s různými rozsahy Unicode a fonty.
 ### Kde mohu získat podporu pro Aspose.Slides?
  Můžete získat podporu od[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

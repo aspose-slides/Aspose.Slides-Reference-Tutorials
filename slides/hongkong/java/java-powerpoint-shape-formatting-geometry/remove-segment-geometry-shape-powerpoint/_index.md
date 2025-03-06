@@ -3,10 +3,14 @@ title: 在 PowerPoint 中從幾何圖形中刪除線段
 linktitle: 在 PowerPoint 中從幾何圖形中刪除線段
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們詳細的逐步指南，了解如何使用 Aspose.Slides for Java 從 PowerPoint 中的幾何形狀中刪除線段。
-type: docs
 weight: 22
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 您是否希望使用 Java 來操作 PowerPoint 簡報中的形狀？您來對地方了！ Aspose.Slides for Java 是一個強大的 API，可讓您輕鬆建立、修改和管理簡報中的投影片。在本教學中，我們將引導您完成從 PowerPoint 中的幾何圖形中刪除線段的過程。無論您是經驗豐富的開發人員還是剛入門，本指南都將為您提供逐步完成此任務的方法。準備好潛入了嗎？讓我們開始吧！
 ## 先決條件
@@ -71,3 +75,9 @@ Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方�
 是的，您需要獲得完整功能的許可證。您可以購買一個[這裡](https://purchase.aspose.com/buy)或獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件？
 提供全面的文檔[這裡](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Conversione della presentazione in HTML preservando i caratteri originali
 linktitle: Conversione della presentazione in HTML preservando i caratteri originali nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Converti presentazioni PowerPoint in HTML preservando i caratteri originali utilizzando Aspose.Slides per Java.
-type: docs
 weight: 14
 url: /it/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione alla conversione della presentazione in HTML con la conservazione dei caratteri originali nelle diapositive Java
 
@@ -111,3 +115,9 @@ Questo esempio di codice è progettato per i file PPTX. Se devi convertire file 
 ### Come posso personalizzare ulteriormente l'output HTML?
 
  Puoi esplorare il`HtmlOptions` classe per personalizzare vari aspetti dell'output HTML, come dimensioni della diapositiva, qualità dell'immagine e altro.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

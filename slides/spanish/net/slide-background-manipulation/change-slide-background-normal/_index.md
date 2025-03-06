@@ -3,10 +3,14 @@ title: Cómo cambiar el fondo de una diapositiva en Aspose.Slides .NET
 linktitle: Cambiar el fondo normal de la diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a cambiar los fondos de las diapositivas usando Aspose.Slides para .NET y cree impresionantes presentaciones de PowerPoint.
-type: docs
 weight: 15
 url: /es/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 En el mundo del diseño de presentaciones, crear diapositivas llamativas y atractivas es esencial. Aspose.Slides para .NET es una poderosa herramienta que le permite manipular presentaciones de PowerPoint mediante programación. En esta guía paso a paso, le mostraremos cómo cambiar el fondo de una diapositiva usando Aspose.Slides para .NET. Esto puede ayudarle a mejorar el atractivo visual de sus presentaciones y hacerlas más impactantes. 
 
@@ -99,3 +103,9 @@ Aspose.Slides para .NET está diseñado para funcionar con una amplia gama de ve
 ### 5. ¿Cómo obtengo una licencia temporal de Aspose.Slides para .NET?
 
  Si necesita una licencia temporal para su proyecto, puede obtener una de[aquí](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

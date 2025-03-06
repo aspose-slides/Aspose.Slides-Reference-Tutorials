@@ -3,10 +3,14 @@ title: Lägga till Stretch Offset för bildfyllning i PowerPoint-presentationer
 linktitle: Lägga till Stretch Offset för bildfyllning i diabilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar PowerPoint-presentationer med Aspose.Slides för .NET. Följ en steg-för-steg-guide för att lägga till en sträckförskjutning för bildfyllning.
-type: docs
 weight: 18
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I presentationens dynamiska värld spelar visuella bilder en avgörande roll för att fånga publikens uppmärksamhet. Aspose.Slides för .NET ger utvecklare möjlighet att förbättra sina PowerPoint-presentationer genom att tillhandahålla en robust uppsättning funktioner. En sådan funktion är möjligheten att lägga till en stretchoffset för bildfyllning, vilket möjliggör kreativa och visuellt tilltalande bilder.
 ## Förutsättningar
@@ -71,3 +75,9 @@ Ja, Aspose.Slides för .NET är lämplig för både skrivbords- och webbapplikat
  Referera till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
 ### Kan jag köpa Aspose.Slides för .NET?
  Ja, du kan köpa produkten[här](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

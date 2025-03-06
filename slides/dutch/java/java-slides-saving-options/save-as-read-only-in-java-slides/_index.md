@@ -3,10 +3,14 @@ title: Opslaan als alleen-lezen in Java-dia's
 linktitle: Opslaan als alleen-lezen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties als alleen-lezen kunt opslaan in Java met behulp van Aspose.Slides. Bescherm uw inhoud met stapsgewijze instructies en codevoorbeelden.
-type: docs
 weight: 11
 url: /nl/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het opslaan als alleen-lezen in Java-dia's met behulp van Aspose.Slides voor Java
 
@@ -127,3 +131,9 @@ Als u het schrijfbeveiligingswachtwoord vergeet, is er geen ingebouwde manier om
 ### Kan ik het alleen-lezen wachtwoord wijzigen nadat ik het heb ingesteld?
 
  Ja, u kunt het alleen-lezen wachtwoord wijzigen nadat u het hebt ingesteld. Gebruik de`setReadProtection(String newPassword)` met het nieuwe wachtwoord om het alleen-lezen beveiligingswachtwoord bij te werken.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Tutorial sull'aggiunta di cornici con Aspose.Slides .NET
 linktitle: Aggiunta di cornici con altezza relativa in scala in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Impara ad aggiungere cornici con altezza di scala relativa in Aspose.Slides per .NET. Segui questa guida passo passo per presentazioni senza interruzioni.
-type: docs
 weight: 17
 url: /it/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire presentazioni PowerPoint nelle loro applicazioni .NET senza sforzo. In questo tutorial, approfondiremo il processo di aggiunta di cornici con altezza in scala relativa utilizzando Aspose.Slides per .NET. Segui questa guida passo passo per migliorare le tue capacità di creazione di presentazioni.
 ## Prerequisiti
@@ -64,3 +68,9 @@ Aspose.Slides supporta principalmente i linguaggi .NET, ma puoi esplorare altri 
  Visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) chiedere assistenza alla comunità e agli esperti di Aspose.
 ### Dove posso acquistare Aspose.Slides per .NET?
  È possibile acquistare Aspose.Slides per .NET da[pagina di acquisto](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

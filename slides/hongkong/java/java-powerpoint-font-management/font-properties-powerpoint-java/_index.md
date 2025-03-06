@@ -3,10 +3,14 @@ title: 使用 Java 的 PowerPoint 中的字型屬性
 linktitle: 使用 Java 的 PowerPoint 中的字型屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides for Java 來操作 PowerPoint 簡報中的字型屬性。透過此逐步指南輕鬆自訂字體。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教學中，我們將探討如何使用 Java（特別是 Aspose.Slides for Java）操作 PowerPoint 簡報中的字型屬性。我們將指導您從匯入必要的套件到儲存修改後的簡報的每個步驟。讓我們深入了解吧！
 ## 先決條件
@@ -81,3 +85,9 @@ pres.save(dataDir + "WelcomeFont_out.pptx", SaveFormat.Pptx);
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多支援和資源？
 您可以造訪Aspose.Slides論壇[這裡](https://forum.aspose.com/c/slides/11)支援和文檔[這裡](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Bild aus SVG-Objekt in Java-Folien hinzufügen
 linktitle: Bild aus SVG-Objekt in Java-Folien hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java SVG-Bilder zu Java-Folien hinzufügen. Schritt-für-Schritt-Anleitung mit Code für beeindruckende Präsentationen.
-type: docs
 weight: 11
 url: /de/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung zum Hinzufügen eines Bilds aus einem SVG-Objekt in Java-Folien
 
@@ -120,3 +124,9 @@ Aspose.Slides für Java kann eine Vielzahl von SVG-Bildern verarbeiten. Sehr gro
 ### Kann ich das Erscheinungsbild des SVG-Bildes, beispielsweise Farben oder Stile, nach dem Hinzufügen zur Folie anpassen?
 
 Ja, Sie können das Erscheinungsbild des SVG-Bildes mithilfe der umfangreichen API von Aspose.Slides für Java anpassen. Sie können Farben ändern, Stile anwenden und nach Bedarf weitere Anpassungen vornehmen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

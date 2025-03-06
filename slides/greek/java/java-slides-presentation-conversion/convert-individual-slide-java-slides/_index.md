@@ -3,10 +3,14 @@ title: Μετατροπή μεμονωμένης διαφάνειας σε δι�
 linktitle: Μετατροπή μεμονωμένης διαφάνειας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε μεμονωμένες διαφάνειες PowerPoint σε HTML βήμα προς βήμα με παραδείγματα κώδικα χρησιμοποιώντας το Aspose.Slides για Java.
-type: docs
 weight: 12
 url: /el/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη μετατροπή μεμονωμένης διαφάνειας σε διαφάνειες Java
 
@@ -170,3 +174,9 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### Πώς μπορώ να χειριστώ πρόσθετη μορφοποίηση για σχήματα και κείμενο εντός διαφανειών;
 
  Μπορείτε να επεκτείνετε το`CustomFormattingController` κλάση για χειρισμό μορφοποίησης συγκεκριμένου σχήματος με την εφαρμογή του`writeShapeStart` και`writeShapeEnd` μεθόδους και την εφαρμογή προσαρμοσμένης λογικής μορφοποίησης εντός αυτών.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

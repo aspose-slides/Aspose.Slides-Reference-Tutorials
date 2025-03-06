@@ -3,10 +3,14 @@ title: Gráfico de linhas de tendência em slides Java
 linktitle: Gráfico de linhas de tendência em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar várias linhas de tendência ao Java Slides usando Aspose.Slides for Java. Guia passo a passo com exemplos de código para visualização de dados eficaz.
-type: docs
 weight: 15
 url: /pt/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução às linhas de tendência do gráfico em slides Java: um guia passo a passo
 
@@ -190,3 +194,9 @@ Sim, você pode adicionar várias linhas de tendência a uma única série de gr
 ### Como posso acessar mais recursos e exemplos para Aspose.Slides for Java?
 
  Você pode acessar recursos adicionais, documentação e exemplos para Aspose.Slides for Java na página[Aspor site](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

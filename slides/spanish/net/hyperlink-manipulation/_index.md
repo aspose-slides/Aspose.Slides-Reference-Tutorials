@@ -3,10 +3,14 @@ title: Manipulación de hipervínculos
 linktitle: Manipulación de hipervínculos
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus aplicaciones .NET con una manipulación integral de hipervínculos utilizando Aspose.Slides. Aprenda a administrar hipervínculos, crear presentaciones interactivas y aumentar la participación de los usuarios sin esfuerzo.
-type: docs
 weight: 13
 url: /es/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción:
 
@@ -27,3 +31,9 @@ Aprenda cómo agregar hipervínculos a diapositivas en PowerPoint usando Aspose.
 Aprenda a administrar eficazmente los hipervínculos en presentaciones utilizando Aspose.Slides para .NET. Automatice tareas, cree menús interactivos y mejore la participación de los usuarios.
 ### [Creación de hipervínculos mutables](./mutable-hyperlink/)
 Aprenda a crear hipervínculos mutables usando Aspose.Slides para .NET. Guía paso a paso con código fuente para presentaciones dinámicas.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

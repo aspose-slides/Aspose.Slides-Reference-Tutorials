@@ -3,10 +3,14 @@ title: Jak usunąć hiperłącza ze slajdów za pomocą Aspose.Slides .NET
 linktitle: Usuń hiperłącza ze slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak usunąć hiperłącza ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Twórz przejrzyste i profesjonalne prezentacje.
-type: docs
 weight: 11
 url: /pl/net/hyperlink-manipulation/remove-hyperlinks/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 W świecie profesjonalnych prezentacji bardzo ważne jest, aby slajdy wyglądały schludnie i schludnie. Jednym z powszechnych elementów, który często zaśmieca slajdy, są hiperłącza. Niezależnie od tego, czy w prezentacji masz hiperłącza do witryn internetowych, dokumentów lub innych slajdów, możesz je usunąć, aby uzyskać czystszy i bardziej skupiony wygląd. Dzięki Aspose.Slides dla .NET możesz łatwo wykonać to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces usuwania hiperłączy ze slajdów za pomocą Aspose.Slides dla .NET.
 
@@ -84,3 +88,9 @@ Tak, Aspose.Slides dla .NET oferuje szeroką gamę funkcji, w tym tworzenie, edy
 
 ### Czy dostępna jest pomoc techniczna dla Aspose.Slides dla .NET?
  Tak, możesz szukać pomocy technicznej i współpracować ze społecznością Aspose na stronie[forum dyskusyjne](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Λάβετε δεδομένα αποτελεσματικής λοξοτο
 linktitle: Λάβετε δεδομένα αποτελεσματικής λοξοτομής σχήματος στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε αποτελεσματικά δεδομένα λοξότμησης σχήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με εντυπωσιακά οπτικά εφέ.
-type: docs
 weight: 26
 url: /el/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στις σύγχρονες επιχειρηματικές παρουσιάσεις, η οπτική απήχηση παίζει καθοριστικό ρόλο στην αποτελεσματική μετάδοση πληροφοριών. Ένα από τα στοιχεία που μπορούν να ενισχύσουν την οπτική επίδραση των σχημάτων στις παρουσιάσεις του PowerPoint είναι το εφέ λοξότμησης. Το Aspose.Slides για Java παρέχει ισχυρά εργαλεία για πρόσβαση και χειρισμό διαφόρων ιδιοτήτων σχημάτων, συμπεριλαμβανομένων των λοξοτομικών εφέ τους. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ανάκτησης αποτελεσματικών δεδομένων λοξότμησης σχήματος χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -58,3 +62,9 @@ System.out.println("Height: " + threeDEffectiveData.getBevelTop().getHeight());
 Οπωσδήποτε, έχετε τον πλήρη έλεγχο των ιδιοτήτων του εφέ λοξοτομής και μπορείτε να τις προσαρμόσετε σύμφωνα με τις απαιτήσεις σας.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides;
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για τυχόν ερωτήσεις, υποστήριξη ή πρόσθετους πόρους.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

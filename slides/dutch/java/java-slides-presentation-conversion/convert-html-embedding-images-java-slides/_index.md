@@ -3,10 +3,14 @@ title: Converteer HTML door afbeeldingen in Java-dia's in te sluiten
 linktitle: Converteer HTML door afbeeldingen in Java-dia's in te sluiten
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Converteer PowerPoint naar HTML met ingesloten afbeeldingen. Stapsgewijze handleiding voor het gebruik van Aspose.Slides voor Java. Leer moeiteloos presentatieconversies in Java te automatiseren.
-type: docs
 weight: 11
 url: /nl/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het converteren van HTML-afbeeldingen in Java-dia's
 
@@ -125,3 +129,10 @@ Ja, u kunt de HTML-sjabloon aanpassen door de HTML- en CSS-bestanden te wijzigen
 ### Hoe ga ik om met fouten tijdens de conversie?
 
 U kunt de conversiecode in een try-catch-blok plaatsen om uitzonderingen af te handelen die tijdens het conversieproces kunnen optreden.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Erstellen Sie Miniaturansichten von PowerPoint-Formen – Aspose.Slides .
 linktitle: Erstellen einer Miniaturansicht für eine Form in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturansichten für Formen in PowerPoint-Präsentationen erstellen. Eine umfassende Schritt-für-Schritt-Anleitung für Entwickler.
-type: docs
 weight: 14
 url: /de/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit PowerPoint-Präsentationen ermöglicht. Eine ihrer bemerkenswerten Funktionen ist die Möglichkeit, Miniaturansichten für Formen innerhalb einer Präsentation zu generieren. Dieses Tutorial führt Sie durch den Prozess der Erstellung von Miniaturansichten für Formen mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -57,3 +61,9 @@ A: Sie können Fehlerbehandlungsmechanismen mithilfe von Try-Catch-Blöcken impl
 A: Aspose.Slides bietet Flexibilität beim Erstellen von Miniaturansichten für verschiedene Formen, einschließlich Textfelder, Bilder und mehr.
 ### F: Kann ich die Größe und Auflösung der generierten Miniaturansichten anpassen?
  A: Ja, Sie können die Parameter beim Aufruf des`GetThumbnail` Methode zur Steuerung der Größe und Auflösung.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

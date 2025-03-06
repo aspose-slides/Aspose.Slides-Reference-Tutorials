@@ -3,10 +3,14 @@ title: Tạo và tùy chỉnh biểu đồ trong Aspose.Slides
 linktitle: Tạo và tùy chỉnh biểu đồ trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước để tạo bài thuyết trình sinh động.
-type: docs
 weight: 10
 url: /vi/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu
 
@@ -110,3 +114,9 @@ Có, bạn có thể tạo nhiều loại biểu đồ khác nhau, bao gồm bi�
 
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho .NET không?
 Có, bạn có thể lấy giấy phép tạm thời từ trang web Aspose[đây](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

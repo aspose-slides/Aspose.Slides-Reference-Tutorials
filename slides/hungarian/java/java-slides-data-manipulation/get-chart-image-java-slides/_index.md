@@ -3,10 +3,14 @@ title: Töltse le a diagram képét a Java Slides alkalmazásban
 linktitle: Töltse le a diagram képét a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan szerezhet be diagramképeket a Java Slides programban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató forráskódot és tippeket ad a zökkenőmentes integrációhoz.
-type: docs
 weight: 19
 url: /hu/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a diagramkép letöltéséhez Java Slides-ben
 
@@ -92,3 +96,9 @@ Igen, az Aspose.Slides for Java felhasználható kereskedelmi célokra. Olyan li
 ### Elmenthetem a diagram képét más formátumban?
 
  Biztosan! A diagram képét különféle formátumokban, például JPEG vagy GIF formátumban mentheti, ha megadja a megfelelő fájlkiterjesztést a`ImageIO.write` módszer.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

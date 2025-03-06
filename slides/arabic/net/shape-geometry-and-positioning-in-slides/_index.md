@@ -3,10 +3,14 @@ title: هندسة الأشكال وتحديد المواقع في الشرائح
 linktitle: هندسة الأشكال وتحديد المواقع في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز مهاراتك في التعامل مع الشرائح من خلال دروس Aspose.Slides حول هندسة الأشكال وتحديد موضعها في الشرائح. تعلم كيفية التحكم برمجياً في الأشكال وأبعادها ومحاذاةها.
-type: docs
 weight: 13
 url: /ar/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -51,3 +55,9 @@ url: /ar/net/shape-geometry-and-positioning-in-slides/
 تعرف على كيفية تحسين شرائح العرض التقديمي باستخدام بيانات مشطوفة فعالة باستخدام Aspose.Slides. دليل شامل يتضمن تعليمات خطوة بخطوة ونموذج التعليمات البرمجية.
 ### [إخفاء الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides](./hiding-shapes/)
 تعرف على كيفية إخفاء الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة يتضمن التعليمات البرمجية المصدر والأسئلة الشائعة وأفضل الممارسات للعروض التقديمية الديناميكية.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

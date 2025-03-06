@@ -3,10 +3,14 @@ title: Festlegen eines Bilds als Folienhintergrund mit Aspose.Slides
 linktitle: Festlegen eines Bilds als Folienhintergrund
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Bildhintergründe in PowerPoint festlegen. Verbessern Sie Ihre Präsentationen mit Leichtigkeit.
-type: docs
 weight: 13
 url: /de/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In der Welt des Präsentationsdesigns und der Automatisierung ist Aspose.Slides für .NET ein leistungsstarkes und vielseitiges Tool, mit dem Entwickler PowerPoint-Präsentationen mühelos bearbeiten können. Egal, ob Sie benutzerdefinierte Berichte erstellen, beeindruckende Präsentationen erstellen oder die Folienerstellung automatisieren, Aspose.Slides für .NET ist eine wertvolle Ressource. In dieser Schritt-für-Schritt-Anleitung zeigen wir Ihnen, wie Sie mithilfe dieser bemerkenswerten Bibliothek ein Bild als Folienhintergrund festlegen.
 
@@ -115,3 +119,9 @@ Aspose.Slides für .NET ist in erster Linie für Windows-Umgebungen konzipiert. 
 ### 5. Bietet Aspose.Slides für .NET eine Testversion an?
 
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET von der Website unter herunterladen.[dieser Link](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

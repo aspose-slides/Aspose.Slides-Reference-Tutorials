@@ -3,10 +3,14 @@ title: Adicionando quadros de objetos OLE à apresentação com Aspose.Slides
 linktitle: Adicionando quadros de objetos OLE à apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como aprimorar apresentações em PowerPoint com conteúdo dinâmico! Siga nosso guia passo a passo usando Aspose.Slides for .NET. Aumente o engajamento agora!
-type: docs
 weight: 15
 url: /pt/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, nos aprofundaremos no processo de adição de quadros de objetos OLE (vinculação e incorporação de objetos) a slides de apresentação usando Aspose.Slides para .NET. Aspose.Slides é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do PowerPoint de forma programática. Siga este guia passo a passo para incorporar perfeitamente objetos OLE em seus slides de apresentação, aprimorando seus arquivos PowerPoint com conteúdo dinâmico e interativo.
 ## Pré-requisitos
@@ -84,3 +88,9 @@ R: Sim, Aspose.Slides suporta os formatos de arquivo PowerPoint mais recentes, i
 R: Com certeza, você pode ajustar o tamanho, a posição e outras propriedades do quadro de objeto OLE de acordo com suas preferências.
 ### P: Onde posso procurar assistência se encontrar desafios durante a implementação?
  R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e orientação da comunidade.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

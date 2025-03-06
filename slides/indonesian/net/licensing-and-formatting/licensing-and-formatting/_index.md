@@ -3,10 +3,14 @@ title: Lisensi di Aspose.Slide
 linktitle: Lisensi di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara melisensikan Aspose.Slides untuk .NET dan manfaatkan kekuatan manipulasi PowerPoint dalam aplikasi .NET Anda.
-type: docs
 weight: 10
 url: /id/net/licensing-and-formatting/licensing-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam dunia pengembangan .NET, Aspose.Slides adalah perpustakaan yang kuat dan serbaguna yang memungkinkan Anda bekerja dengan file Microsoft PowerPoint secara terprogram. Baik Anda perlu membuat, memanipulasi, atau mengonversi presentasi PowerPoint, Aspose.Slides siap membantu Anda. Untuk sepenuhnya memanfaatkan kemampuannya, Anda perlu memahami pentingnya perizinan. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara melisensikan Aspose.Slides untuk .NET dan memastikan bahwa aplikasi Anda siap bekerja dengan lancar.
 
@@ -92,3 +96,9 @@ Aspose.Slides for .NET adalah perpustakaan yang kuat untuk bekerja dengan file M
 
 ### Dukungan seperti apa yang tersedia untuk Aspose.Slides untuk pengguna .NET?
  Aspose menyediakan forum komunitas tempat Anda dapat mencari dukungan dan berinteraksi dengan pengguna Aspose lainnya. Anda dapat mengakses forum di[https://forum.aspose.com/](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

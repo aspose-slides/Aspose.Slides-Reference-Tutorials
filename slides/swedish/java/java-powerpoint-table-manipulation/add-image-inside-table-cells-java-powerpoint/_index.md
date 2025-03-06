@@ -3,10 +3,14 @@ title: Lägg till bild inuti tabellceller i Java PowerPoint
 linktitle: Lägg till bild inuti tabellceller i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till bilder i tabellceller i Java PowerPoint-presentationer med denna detaljerade steg-för-steg-guide med Aspose.Slides för Java.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Om du vill förbättra dina Java PowerPoint-presentationer genom att bädda in bilder i tabellceller, har du hamnat på rätt plats! Idag kommer vi att dyka in i en detaljerad, steg-för-steg-guide med Aspose.Slides för Java. Den här handledningen leder dig genom hela processen och säkerställer att även en nybörjare kan följa med och uppnå fantastiska resultat.
 ## Förutsättningar
@@ -104,3 +108,9 @@ Aspose.Slides stöder olika bildformat inklusive JPEG, PNG, BMP och mer.
  Du kan hänvisa till[dokumentation](https://reference.aspose.com/slides/java/) för mer detaljerad information och exempel.
 ### Hur kan jag köpa Aspose.Slides för Java?
  Du kan köpa den från[Aspose hemsida](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: PowerPoint'te Geometri Şeklinden Segmenti Kaldır
 linktitle: PowerPoint'te Geometri Şeklinden Segmenti Kaldır
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Ayrıntılı adım adım kılavuzumuzla Aspose.Slides for Java'yı kullanarak PowerPoint'teki geometri şekillerinden segmentleri nasıl kaldıracağınızı öğrenin.
-type: docs
 weight: 22
 url: /tr/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Java kullanarak PowerPoint sunumlarınızdaki şekilleri değiştirmek mi istiyorsunuz? Doğru yere geldiniz! Aspose.Slides for Java, sunumlarınızdaki slaytları zahmetsizce oluşturmanıza, değiştirmenize ve yönetmenize olanak tanıyan güçlü bir API'dir. Bu öğreticide, PowerPoint'te bir geometri şeklinden bir parçayı kaldırma sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz size bu görevde ustalaşmanız için adım adım bir yaklaşım sağlayacaktır. Dalmaya hazır mısınız? Başlayalım!
 ## Önkoşullar
@@ -71,3 +75,9 @@ Kesinlikle! Aspose.Slides for Java, işleyebileceğiniz çok çeşitli şekiller
  Evet, tam işlevsellik için bir lisansa ihtiyacınız var. Bir tane satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java ile ilgili daha fazla belgeyi nerede bulabilirim?
  Kapsamlı belgeler mevcut[Burada](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

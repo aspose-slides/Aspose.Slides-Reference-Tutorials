@@ -3,10 +3,14 @@ title: Görsellerde Uzmanlaşma - .NET'te Aspose.Slides ile Segmentler Ekleme
 linktitle: Aspose.Slides ile Sunumda Geometri Şekline Segment Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides ile .NET uygulamalarınızı nasıl geliştireceğinizi öğrenin. Bu eğitim, büyüleyici sunumlar için geometri şekillerine segmentler ekleme konusunda size yol gösterir.
-type: docs
 weight: 13
 url: /tr/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 .NET geliştirme dünyasında görsel olarak çekici sunumlar oluşturmak ortak bir gereksinimdir. Aspose.Slides for .NET, güçlü sunum oluşturma yeteneklerinin .NET uygulamalarınıza kusursuz entegrasyonunu kolaylaştıran güçlü bir kitaplıktır. Bu eğitim, sunum tasarımının belirli bir yönüne, yani geometri şekillerine bölümler eklemeye odaklanmaktadır.
 ## Önkoşullar
@@ -72,3 +76,9 @@ Evet, geçerli bir lisansa ihtiyaç var. Test amacıyla geçici bir lisans alabi
  Keşfedin[dokümantasyon](https://reference.aspose.com/slides/net/) Kapsamlı kılavuzlar ve örnekler için.
 ### Satın almadan önce Aspose.Slides'ı ücretsiz deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

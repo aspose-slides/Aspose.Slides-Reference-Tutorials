@@ -3,10 +3,14 @@ title: แยกเสียงจากไทม์ไลน์ของ PowerP
 linktitle: แยกเสียงจากไทม์ไลน์
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแยกเสียงจากงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ปรับปรุงเนื้อหามัลติมีเดียของคุณได้อย่างง่ายดาย
-type: docs
 weight: 13
 url: /th/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ในโลกของการนำเสนอแบบมัลติมีเดีย เสียงอาจเป็นเครื่องมืออันทรงพลังในการถ่ายทอดข้อความของคุณอย่างมีประสิทธิภาพ Aspose.Slides สำหรับ .NET นำเสนอโซลูชันที่ราบรื่นสำหรับการแยกเสียงจากงานนำเสนอ PowerPoint ในคำแนะนำทีละขั้นตอนนี้ เราจะแสดงวิธีแยกเสียงจากงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET
 
@@ -110,3 +114,9 @@ Aspose.Slides สำหรับ .NET ได้รับการออกแบ
 ### 5. ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ .NET ได้ที่ไหน
 
  คุณสามารถดูเอกสารประกอบโดยละเอียดและตัวอย่างสำหรับ Aspose.Slides สำหรับ .NET[ที่นี่](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

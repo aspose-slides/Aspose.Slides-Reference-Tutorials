@@ -3,10 +3,14 @@ title: In Java-Folien schreibgeschützt speichern
 linktitle: In Java-Folien schreibgeschützt speichern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides in Java schreibgeschützt speichern. Schützen Sie Ihre Inhalte mit Schritt-für-Schritt-Anleitungen und Codebeispielen.
-type: docs
 weight: 11
 url: /de/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das schreibgeschützte Speichern in Java-Folien mit Aspose.Slides für Java
 
@@ -127,3 +131,9 @@ Wenn Sie das Schreibschutzkennwort vergessen, gibt es keine integrierte Möglich
 ### Kann ich das schreibgeschützte Passwort nach dem Festlegen ändern?
 
  Ja, Sie können das schreibgeschützte Passwort nach dem Festlegen ändern. Verwenden Sie dazu die`setReadProtection(String newPassword)` -Methode mit dem neuen Kennwort, um das Kennwort für den schreibgeschützten Schutz zu aktualisieren.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

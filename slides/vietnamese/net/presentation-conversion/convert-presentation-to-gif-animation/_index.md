@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày thành ảnh động GIF
 linktitle: Chuyển đổi bản trình bày thành ảnh động GIF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tạo bản trình bày hấp dẫn bằng ảnh động GIF bằng Aspose.Slides for .NET. Chuyển đổi các slide tĩnh thành trải nghiệm hình ảnh động.
-type: docs
 weight: 20
 url: /vi/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thời đại kỹ thuật số ngày nay, nội dung trực quan đóng một vai trò quan trọng trong giao tiếp. Đôi khi, bạn có thể cần chuyển đổi bản trình bày thành ảnh động GIF để làm cho bản trình bày hấp dẫn hơn và dễ chia sẻ hơn. May mắn thay, với sự trợ giúp của Aspose.Slides dành cho .NET, nhiệm vụ này trở nên đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày thành ảnh động GIF bằng mã nguồn sau.
 
@@ -80,3 +84,9 @@ Có, bạn có thể tùy chỉnh các hiệu ứng chuyển tiếp và các tha
 
 ### Câu hỏi 5: Tôi có thể truy cập mã nguồn của hướng dẫn này ở đâu?
  Bạn có thể tìm thấy mã nguồn và các hướng dẫn khác về Aspose.Slides trong tài liệu[đây](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

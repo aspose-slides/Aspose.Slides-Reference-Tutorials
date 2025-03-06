@@ -3,10 +3,14 @@ title: Создать миниатюру дочерней заметки SmartAr
 linktitle: Создать миниатюру дочерней заметки SmartArt
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать миниатюры дочерних заметок SmartArt на Java с помощью Aspose.Slides, что позволяет легко улучшить ваши презентации PowerPoint.
-type: docs
 weight: 15
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В этом уроке мы рассмотрим, как создавать миниатюры дочерних заметок SmartArt в Java с помощью Aspose.Slides. Aspose.Slides — это мощный Java API, который позволяет разработчикам программно работать с презентациями PowerPoint, позволяя им с легкостью создавать, изменять слайды и манипулировать ими.
 ## Предварительные условия
@@ -70,3 +74,9 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 Конечно! Aspose.Slides обеспечивает комплексную поддержку для создания и управления диаграммами SmartArt различной сложности.
 ### Предлагает ли Aspose.Slides техническую поддержку для разработчиков?
  Да, Aspose.Slides предоставляет разработчикам специальную техническую поддержку через свои[Форум](https://forum.aspose.com/c/slides/11) и другие каналы.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

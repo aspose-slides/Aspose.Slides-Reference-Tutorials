@@ -3,10 +3,14 @@ title: الوصول إلى SmartArt في PowerPoint باستخدام Java
 linktitle: الوصول إلى SmartArt في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الوصول إلى SmartArt ومعالجته في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 مرحبًا يا عشاق جافا! هل وجدت نفسك بحاجة إلى العمل باستخدام SmartArt في عروض PowerPoint التقديمية برمجياً؟ ربما تقوم بأتمتة تقرير، أو ربما تقوم بتطوير تطبيق يقوم بإنشاء شرائح بسرعة. مهما كانت حاجتك، فإن التعامل مع SmartArt قد يبدو وكأنه عمل صعب. لكن لا تخف! اليوم، سنتعمق في كيفية الوصول إلى SmartArt في PowerPoint باستخدام Aspose.Slides لـ Java. سيرشدك هذا الدليل خطوة بخطوة عبر كل ما تحتاج إلى معرفته، بدءًا من إعداد بيئتك ووصولاً إلى اجتياز عقد SmartArt ومعالجتها. لذا، تناول كوبًا من القهوة، ودعنا نبدأ!
 ## المتطلبات الأساسية
@@ -84,3 +88,9 @@ if (pres != null) pres.dispose();
 يدعم Aspose.Slides جميع أنواع تخطيطات SmartArt المتوفرة في PowerPoint، بما في ذلك المخططات التنظيمية والقوائم والدورات والمزيد.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على الدعم، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11)حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع ومطوري Aspose.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

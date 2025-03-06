@@ -3,10 +3,14 @@ title: Identifiera sammanslagna celler i PowerPoint-tabellen med hjälp av Java
 linktitle: Identifiera sammanslagna celler i PowerPoint-tabellen med hjälp av Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du identifierar sammanslagna celler i PowerPoint-tabeller programmatiskt med Aspose.Slides för Java. Perfekt för Java-utvecklare.
-type: docs
 weight: 15
 url: /sv/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Inom Java-utveckling kan det vara en avgörande uppgift att manipulera PowerPoint-presentationer programmatiskt, särskilt när man hanterar komplexa datatabeller. Aspose.Slides för Java tillhandahåller en kraftfull verktygslåda som gör det möjligt för utvecklare att hantera olika aspekter av PowerPoint-presentationer sömlöst. En vanlig utmaning som utvecklare står inför är att identifiera sammanslagna celler i tabeller inbäddade i presentationer. Denna handledning syftar till att guida dig genom processen att identifiera sammanslagna celler med Aspose.Slides för Java.
 ## Förutsättningar
@@ -67,3 +71,9 @@ Aspose.Slides för Java är ett kraftfullt bibliotek för att manipulera PowerPo
  Dokumentationen kan hittas[här](https://reference.aspose.com/slides/java/).
 ### Hur kan jag få support för Aspose.Slides för Java?
 För support, besök Aspose.Slides-forumet[här](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

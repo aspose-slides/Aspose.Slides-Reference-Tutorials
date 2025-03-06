@@ -3,10 +3,14 @@ title: Aspose.Slides - Lägga till inbäddade videor i .NET-presentationer
 linktitle: Aspose.Slides - Lägga till inbäddade videor i .NET-presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationer med inbäddade videor med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 19
 url: /sv/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I presentationens dynamiska värld kan integrering av multimediaelement avsevärt öka engagemanget. Aspose.Slides för .NET ger en kraftfull lösning för att integrera inbäddade videoramar i dina presentationsbilder. Den här handledningen guidar dig genom processen och delar upp varje steg för att säkerställa en sömlös upplevelse.
 ## Förutsättningar
@@ -75,3 +79,9 @@ Aspose.Slides stöder en mängd olika videoformat, inklusive MP4, AVI och WMV.
 Antalet inbäddade videor är vanligtvis begränsat av kapaciteten hos ditt presentationsprogram.
 ### Hur kan jag söka ytterligare hjälp eller dela med mig av mina erfarenheter?
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

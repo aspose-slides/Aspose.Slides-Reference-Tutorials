@@ -3,10 +3,14 @@ title: 마스터 프레젠테이션 변환 및 PowerPoint 처리
 linktitle: 프리젠테이션 전환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET 튜토리얼용 Aspose.Slides를 통해 기술을 향상하세요. 프리젠테이션 변환 및 PowerPoint 처리를 단계별로 알아보세요. 오늘 귀하의 작업 흐름을 변화시키십시오!
-type: docs
 weight: 10
 url: /ko/net/presentation-conversion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 .NET용 Aspose.Slides는 PowerPoint 처리의 다양한 측면에 대한 포괄적인 튜토리얼을 제공합니다. 그러한 튜토리얼 중 하나는 프레젠테이션 변환에 중점을 두고 프레젠테이션을 다양한 형식으로 원활하게 변환하는 과정을 사용자에게 안내합니다. 이 튜토리얼은 개발자에게 프리젠테이션 변환을 효율적이고 효과적으로 처리하고 다양한 출력을 생성할 수 있는 능력을 확장할 수 있는 지식을 제공합니다.
 
@@ -62,3 +66,9 @@ Aspose.Slides for .NET을 사용하여 프레젠테이션을 숨겨진 슬라이
 .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 SWF 형식으로 변환하는 방법을 알아보세요. 다이내믹한 콘텐츠를 손쉽게 만들어보세요!
 ### [진행률 업데이트를 통해 프레젠테이션을 PDF로 변환](./convert-presentation-to-pdf-with-progress-update/)
 Aspose.Slides for .NET을 사용하여 진행률 업데이트를 통해 프레젠테이션을 PDF로 변환하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for Java 在文字框架中新增列
 linktitle: 使用 Aspose.Slides for Java 在文字框架中新增列
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在文字框架中新增欄位以增強您的 PowerPoint 簡報。我們的逐步指南簡化了這個過程。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Slides for Java 操作文字框架以新增列。 Aspose.Slides 是一個功能強大的函式庫，使 Java 開發人員能夠以程式設計方式建立、操作和轉換 PowerPoint 簡報。在文字框架中新增欄可以增強幻燈片中文字的視覺吸引力和組織，使簡報更具吸引力且更易於閱讀。
 ## 先決條件
@@ -81,3 +85,9 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
 提供詳細文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 如何獲得 Aspose.Slides for Java 的技術支援？
 您可以尋求社區的支持[這裡](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Stampa e rendering nelle diapositive
 linktitle: Stampa e rendering nelle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue capacità di stampa e rendering di diapositive con i tutorial Aspose.Slides per .NET. Impara le tecniche passo passo per ottenere risultati di alta qualità. Immergiti subito nella manipolazione delle diapositive!
-type: docs
 weight: 10
 url: /it/net/printing-and-rendering-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione:
 
@@ -41,3 +45,9 @@ Scopri come migliorare le diapositive della tua presentazione con Aspose.Slides 
 Scopri come stampare diapositive specifiche dalle presentazioni PowerPoint utilizzando Aspose.Slides per .NET. La nostra guida passo passo copre l'installazione, la personalizzazione e la gestione delle eccezioni, fornendo un modo semplice per automatizzare le attività di PowerPoint.
 ### [Supporto delle firme digitali in Aspose.Slides](./digital-signature-support/)
 Migliora la sicurezza della presentazione con le firme digitali utilizzando Aspose.Slides per .NET. Impara ad aggiungere e verificare le firme in PowerPoint passo dopo passo.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

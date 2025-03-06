@@ -3,10 +3,14 @@ title: Χειρισμός εικόνας και βίντεο σε διαφάνε
 linktitle: Χειρισμός εικόνας και βίντεο σε διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις διαφανειών σας με μαγευτικές εικόνες και βίντεο χρησιμοποιώντας το Aspose.Slides για .NET. Μάθετε βήμα προς βήμα πώς να χειρίζεστε εικόνες και βίντεο μέσα σε διαφάνειες για οπτικά ελκυστικό περιεχόμενο.
-type: docs
 weight: 12
 url: /el/net/image-and-video-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη χειραγώγηση εικόνας και βίντεο στο Aspose.Slides
 
@@ -53,3 +57,9 @@ url: /el/net/image-and-video-manipulation-in-slides/
 Μάθετε πώς να εξάγετε ενσωματωμένα δεδομένα αρχείων από αντικείμενα OLE σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα με τον πηγαίο κώδικα για απρόσκοπτη ανάκτηση και επεξεργασία ενσωματωμένων δεδομένων.
 ### [Συμπλήρωση σχημάτων με κλίση σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides](./filling-shapes-gradient/)
 Μάθετε πώς να βελτιώσετε τις διαφάνειες παρουσίασής σας με εντυπωσιακές διαβαθμίσεις χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα με τον πλήρη πηγαίο κώδικα για να γεμίσετε σχήματα με διαβαθμίσεις, από γραμμικές έως ακτινικές, προσθέτοντας βάθος και διάσταση.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

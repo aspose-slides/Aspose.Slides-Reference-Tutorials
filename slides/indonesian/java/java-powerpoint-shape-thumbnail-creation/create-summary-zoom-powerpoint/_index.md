@@ -3,10 +3,14 @@ title: Buat Ringkasan Zoom di PowerPoint
 linktitle: Buat Ringkasan Zoom di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Ringkasan Zoom di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 16
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif kami tentang cara membuat Ringkasan Zoom di PowerPoint menggunakan Aspose.Slides untuk Java. Jika Anda ingin menambahkan elemen dinamis dan interaktif ke presentasi Anda, Summary Zoom adalah fitur yang luar biasa. Ini memungkinkan Anda membuat satu slide yang dapat memperbesar berbagai bagian presentasi Anda, menawarkan pengalaman yang lebih menarik dan mudah dinavigasi bagi audiens Anda.
 Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan pengembangan hingga membuat dan menyesuaikan bingkai Zoom Ringkasan. Baik Anda seorang pengembang Java berpengalaman atau baru memulai, Anda akan menemukan panduan ini mudah diikuti dan dikemas dengan wawasan berharga.
@@ -107,3 +111,9 @@ Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides untuk Java dari[situs web
  Anda dapat memperoleh lisensi sementara dari[Asumsikan halaman pembelian](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan lebih banyak contoh dan dukungan untuk Aspose.Slides untuk Java?
  Anda dapat menemukan lebih banyak contoh dan mencari dukungan di[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

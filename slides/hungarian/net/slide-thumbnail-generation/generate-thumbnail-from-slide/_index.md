@@ -3,10 +3,14 @@ title: Hozzon létre dia miniatűröket az Aspose.Slides segítségével .NET-he
 linktitle: Miniatűr létrehozása a diáról
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre PowerPoint diabélyegképeket az Aspose.Slides for .NET segítségével. Egyszerűen javíthatja prezentációit.
-type: docs
 weight: 11
 url: /hu/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 digitális prezentációk világában a tetszetős és informatív diabélyegképek készítése elengedhetetlen része a közönség figyelmének felkeltésének. Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi bélyegképek létrehozását a .NET-alkalmazások diákjaiból. Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan érheti el ezt az Aspose.Slides for .NET segítségével.
 
@@ -106,3 +110,10 @@ Igen, az Aspose különféle licencelési lehetőségeket kínál, beleértve az
 
 ### Hogyan kaphatok támogatást az Aspose.Slides for .NET-hez, ha problémákat tapasztalok vagy kérdéseim vannak?
  Az Aspose közösségi támogatási fórumon segítséget kérhet, és vitákhoz csatlakozhat[itt](https://forum.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Thêm khung đối tượng OLE trong PowerPoint
 linktitle: Thêm khung đối tượng OLE trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tích hợp liền mạch Khung đối tượng OLE vào bản trình bày PowerPoint bằng Aspose.Slides cho Java.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Việc thêm Khung đối tượng OLE (Liên kết và nhúng đối tượng) vào bản trình bày PowerPoint có thể nâng cao đáng kể sự hấp dẫn trực quan và chức năng của các trang chiếu của bạn. Với Aspose.Slides cho Java, quá trình này trở nên hợp lý và hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết để tích hợp liền mạch Khung đối tượng OLE vào bản trình bày PowerPoint của bạn.
 ### Điều kiện tiên quyết
@@ -80,3 +84,9 @@ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn mở rộng để tùy
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm kiếm sự hỗ trợ và trợ giúp từ diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

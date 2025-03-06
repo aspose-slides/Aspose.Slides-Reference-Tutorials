@@ -3,10 +3,14 @@ title: Gráfico disperso em slides Java
 linktitle: Gráfico disperso em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar gráficos de dispersão em Java usando Aspose.Slides. Guia passo a passo com código fonte Java para visualização de dados em apresentações.
-type: docs
 weight: 11
 url: /pt/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução ao gráfico de dispersão em Aspose.Slides para Java
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Sinta-se à vontade para explorar mais opções de personalização na documentação do Aspose.Slides para Java.
 
  Lembre-se de substituir`"Your Document Directory"` com o caminho real onde você deseja salvar a apresentação.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

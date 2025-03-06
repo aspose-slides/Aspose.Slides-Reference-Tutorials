@@ -3,10 +3,14 @@ title: Aggiorna le proprietà della presentazione con il nuovo modello
 linktitle: Aggiorna le proprietà della presentazione con il nuovo modello
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiornare le proprietà della presentazione utilizzando Aspose.Slides per Java. Migliora i tuoi progetti Java con la modifica semplice dei metadati.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nel regno dello sviluppo Java, Aspose.Slides si pone come un potente strumento per manipolare le presentazioni PowerPoint a livello di codice. Con la sua libreria Java, gli sviluppatori possono automatizzare attività come la creazione, la modifica e la conversione di presentazioni, rendendolo una risorsa inestimabile sia per le aziende che per i privati. Tuttavia, sfruttare tutto il potenziale di Aspose.Slides richiede una solida conoscenza delle sue funzionalità e di come integrarle in modo efficace nei tuoi progetti Java. In questo tutorial, approfondiremo l'aggiornamento delle proprietà della presentazione utilizzando un nuovo modello, passo dopo passo, assicurandoci di comprendere a fondo ogni concetto.
 ## Prerequisiti
@@ -75,3 +79,9 @@ In effetti, Aspose.Slides offre funzionalità e affidabilità di livello azienda
 Certamente, Aspose.Slides offre ampie opzioni di personalizzazione per le proprietà di presentazione, consentendoti di adattarle alle tue esigenze specifiche.
 ### Dove posso trovare ulteriore supporto e risorse per Aspose.Slides?
 Puoi esplorare la documentazione di Aspose.Slides, partecipare ai forum della community o contattare il supporto di Aspose per qualsiasi assistenza o richiesta.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

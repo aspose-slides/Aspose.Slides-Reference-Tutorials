@@ -3,10 +3,14 @@ title: Java-Folienanimation und -layout
 linktitle: Java-Folienanimation und -layout
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Lernen Sie Java-Folienanimation und -layout mit Aspose.Slides für Java. Meistern Sie interaktive Präsentationen. Tauchen Sie ein in die dynamische Inhaltserstellung.
-type: docs
 weight: 14
 url: /de/java/animation-and-layout/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Möchten Sie Ihren Präsentationen Leben einhauchen und mit Java fesselnde Folien erstellen? Aspose.Slides für Java ist Ihre Lösung. In diesem umfassenden Leitfaden erfahren Sie, wie Sie die Animation und das Layout von Java-Folien meistern und sicherstellen, dass Ihre Präsentationen sich von den anderen abheben.
 
@@ -42,3 +46,9 @@ Optimieren Sie Ihre Java-Präsentationen mit Aspose.Slides für Java. Erfahren S
 Optimieren Sie Ihre Präsentationen mit Serienanimationen in Aspose.Slides für Java. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen, um ansprechende PowerPoint-Animationen zu erstellen.
 ### [Animieren von Serienelementen in Java-Folien](./animating-series-elements-java-slides/)
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Serienelemente in PowerPoint-Folien animieren. Folgen Sie dieser umfassenden Schritt-für-Schritt-Anleitung mit Quellcode, um Ihre Präsentationen zu verbessern.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

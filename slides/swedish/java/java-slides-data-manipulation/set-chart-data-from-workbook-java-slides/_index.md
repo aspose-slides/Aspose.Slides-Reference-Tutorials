@@ -3,10 +3,14 @@ title: Ställ in diagramdata från arbetsbok i Java Slides
 linktitle: Ställ in diagramdata från arbetsbok i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in diagramdata från en Excel-arbetsbok i Java Slides med Aspose.Slides. Steg-för-steg guide med kodexempel för dynamiska presentationer.
-type: docs
 weight: 15
 url: /sv/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att ställa in diagramdata från arbetsbok i Java Slides
 
@@ -142,3 +146,9 @@ Ja, du kan uppdatera diagramdata dynamiskt i en presentation genom att ändra de
 ### Var kan jag hitta fler exempel och resurser för att arbeta med Aspose.Slides för Java?
 
  Du kan utforska ytterligare exempel och resurser på[Aspose hemsida](https://www.aspose.com/). Dessutom ger Aspose.Slides för Java-dokumentationen omfattande vägledning om hur du arbetar med biblioteket.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

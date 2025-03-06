@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint のテキスト ボックスにハイパ�
 linktitle: Java を使用して PowerPoint のテキスト ボックスにハイパーリンクを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint テキスト ボックスにハイパーリンクを追加する方法を学びます。Java 開発者向けの例を使用したステップバイステップ ガイドです。
-type: docs
 weight: 23
 url: /ja/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 今日のデジタル時代では、効果的なコミュニケーションには、魅力的で情報を伝える動的なプレゼンテーションの作成が不可欠です。インタラクティブな機能でアプリケーションを強化したい Java 開発者は、多くの場合、PowerPoint プレゼンテーションをプログラムで操作できる強力なライブラリである Aspose.Slides for Java を使用します。このチュートリアルでは、Java を使用して PowerPoint プレゼンテーションのテキスト ボックスにハイパーリンクを追加する機能について詳しく説明します。このガイドを読み終える頃には、この機能を Java アプリケーションにシームレスに実装する方法を明確に理解できるようになります。
 ## 前提条件
@@ -76,3 +80,9 @@ Asposeコミュニティからサポートを受けることができます[こ�
 はい、一時ライセンスは購入できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides は他の Java ライブラリと互換性がありますか?
 Aspose.Slides は、さまざまな Java ライブラリと適切に統合され、包括的な PowerPoint 操作を実現します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

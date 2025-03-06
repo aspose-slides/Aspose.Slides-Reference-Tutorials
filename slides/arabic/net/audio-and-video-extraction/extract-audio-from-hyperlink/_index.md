@@ -3,10 +3,14 @@ title: استخرج الصوت من الارتباطات التشعبية لبر
 linktitle: استخراج الصوت من الارتباط التشعبي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: استخرج الصوت من الارتباطات التشعبية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. قم بتحسين مشاريع الوسائط المتعددة الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم عروض الوسائط المتعددة، يلعب الصوت دورًا حيويًا في تعزيز التأثير العام لشرائحك. هل سبق لك أن صادفت عرضًا تقديميًا لبرنامج PowerPoint يحتوي على ارتباطات تشعبية صوتية وتساءلت عن كيفية استخراج الصوت لاستخدامات أخرى؟ باستخدام Aspose.Slides for .NET، يمكنك تحقيق هذه المهمة دون عناء. في هذا الدليل التفصيلي، سنرشدك خلال عملية استخراج الصوت من رابط تشعبي في عرض PowerPoint التقديمي.
 
@@ -105,3 +109,10 @@ File.WriteAllBytes(outMediaPath, audioData);
 
 ### هل هناك تنسيقات صوتية أخرى مدعومة للاستخراج، بخلاف MPG؟
 يسمح لك Aspose.Slides for .NET باستخراج الصوت بتنسيقات مختلفة، لا تقتصر على MPG. يمكنك تحويله إلى التنسيق المفضل لديك بعد الاستخراج.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

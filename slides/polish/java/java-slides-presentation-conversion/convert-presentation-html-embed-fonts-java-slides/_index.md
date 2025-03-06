@@ -3,10 +3,14 @@ title: Konwersja prezentacji do formatu HTML za pomocą osadzania wszystkich czc
 linktitle: Konwersja prezentacji do formatu HTML za pomocą osadzania wszystkich czcionek w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje do formatu HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla Java. Ten przewodnik krok po kroku zapewnia spójne formatowanie i bezproblemowe udostępnianie.
-type: docs
 weight: 13
 url: /pl/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do konwertowania prezentacji do formatu HTML za pomocą osadzania wszystkich czcionek w slajdach Java
 
@@ -108,3 +112,9 @@ Tak, ta metoda sprawdza się w przypadku prezentacji o złożonej treści, obejm
 ### Gdzie mogę znaleźć więcej zasobów i dokumentacji dla Aspose.Slides dla Java?
 
  Dostęp do obszernej dokumentacji i zasobów dotyczących Aspose.Slides for Java można uzyskać pod adresem[Aspose.Slides dla referencji API Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

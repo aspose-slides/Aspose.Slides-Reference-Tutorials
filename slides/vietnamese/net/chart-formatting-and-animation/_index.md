@@ -3,10 +3,14 @@ title: Định dạng và hoạt ảnh biểu đồ
 linktitle: Định dạng và hoạt ảnh biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn bằng biểu đồ động bằng Aspose.Slides for .NET. Tìm hiểu từng bước về định dạng biểu đồ và hoạt ảnh. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
-type: docs
 weight: 22
 url: /vi/net/chart-formatting-and-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu
 
@@ -35,3 +39,9 @@ Tìm hiểu cách thêm hoạt ảnh quyến rũ vào các thành phần danh m�
 Tìm hiểu cách tạo hiệu ứng cho chuỗi biểu đồ bằng Aspose.Slides cho .NET. Tạo bản trình bày năng động với trực quan hóa dữ liệu hấp dẫn.
 ### [Hoạt hình các phần tử chuỗi trong biểu đồ](./animating-series-elements/)
 Tìm hiểu cách tạo hiệu ứng cho chuỗi biểu đồ bằng Aspose.Slides cho .NET. Tạo bài thuyết trình hấp dẫn với hình ảnh động. Hướng dẫn chuyên môn với các ví dụ về mã.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

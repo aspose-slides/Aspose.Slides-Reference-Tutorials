@@ -3,10 +3,14 @@ title: Làm chủ hoạt ảnh tua lại trong bản trình bày với Aspose.Sl
 linktitle: Tua lại hoạt ảnh trên slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tua lại hoạt ảnh trên trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này với các ví dụ về mã nguồn hoàn chỉnh.
-type: docs
 weight: 13
 url: /vi/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc kết hợp các hình ảnh động hấp dẫn có thể nâng cao đáng kể mức độ tương tác. Aspose.Slides for .NET cung cấp một bộ công cụ mạnh mẽ để thổi sức sống vào bài thuyết trình của bạn. Một tính năng hấp dẫn là khả năng tua lại hình ảnh động trên slide. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình, cho phép bạn khai thác toàn bộ tiềm năng của tính năng tua lại hoạt ảnh bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -80,3 +84,9 @@ Có, bạn có thể tùy chỉnh mã để áp dụng hoạt ảnh tua lại c�
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tìm kiếm sự hỗ trợ và tham gia với cộng đồng.
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho .NET không?
  Có, bạn có thể lấy giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

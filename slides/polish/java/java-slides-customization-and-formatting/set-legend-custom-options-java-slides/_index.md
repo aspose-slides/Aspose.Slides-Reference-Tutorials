@@ -3,10 +3,14 @@ title: Ustaw niestandardowe opcje legendy w slajdach Java
 linktitle: Ustaw niestandardowe opcje legendy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić niestandardowe opcje legendy w Java Slides za pomocą Aspose.Slides dla Java. Dostosuj położenie i rozmiar legendy na wykresach programu PowerPoint.
-type: docs
 weight: 14
 url: /pl/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do ustawiania niestandardowych opcji legendy w slajdach Java
 
@@ -131,3 +135,9 @@ W tym samouczku dowiedzieliśmy się, jak dostosować właściwości legendy wyk
 ## Czy mogę dostosować inne atrybuty legendy?
 
 Tak, możesz dostosować różne atrybuty legendy, takie jak styl czcionki, obramowanie, kolor tła i inne. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać szczegółowe informacje na temat dalszego dostosowywania legend.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

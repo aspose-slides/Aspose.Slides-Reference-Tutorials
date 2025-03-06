@@ -3,10 +3,14 @@ title: Chuyển đổi toàn bộ bản trình bày thành HTML trong Java Slide
 linktitle: Chuyển đổi toàn bộ bản trình bày thành HTML trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang HTML trong Java bằng Aspose.Slides. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 29
 url: /vi/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chuyển đổi toàn bộ bản trình bày sang HTML trong Java Slides
 
@@ -117,3 +121,9 @@ Có, Aspose.Slides for Java hỗ trợ nhiều định dạng đầu ra khác nh
 ### Tôi có thể chuyển đổi các slide cụ thể thay vì toàn bộ bản trình bày không?
 
 Có, bạn có thể chuyển đổi các slide cụ thể bằng cách chọn chúng trong mã trước khi lưu bản trình bày. Điều này cho phép bạn kiểm soát những trang trình bày nào sẽ được chuyển đổi sang HTML.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 프레젠테이션에서 반응형 레이아웃을 사용하여 HTML 만�
 linktitle: 프레젠테이션에서 반응형 레이아웃을 사용하여 HTML 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 반응형 HTML로 변환하는 방법을 알아보세요. 장치 친화적인 대화형 콘텐츠를 손쉽게 제작해 보세요.
-type: docs
 weight: 17
 url: /ko/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 오늘날의 디지털 시대에 반응형 웹 콘텐츠를 만드는 것은 웹 개발자와 디자이너에게 중요한 기술입니다. 다행히 .NET용 Aspose.Slides와 같은 도구를 사용하면 프레젠테이션에서 반응형 레이아웃이 포함된 HTML을 더 쉽게 생성할 수 있습니다. 이 단계별 튜토리얼에서는 제공된 소스 코드를 사용하여 이를 달성하는 과정을 안내합니다.
 
@@ -72,3 +76,9 @@ presentation.Save(dataDir + "SomePresentation-out.html", SaveFormat.Html, saveOp
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 
 이제 프레젠테이션에서 반응형 HTML을 만드는 방법에 대한 포괄적인 가이드가 제공되었으므로 웹 콘텐츠의 접근성과 매력을 향상시킬 수 있는 단계에 이르렀습니다. 즐거운 코딩하세요!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

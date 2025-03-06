@@ -3,10 +3,14 @@ title: Ustaw uprawnienia dostępu do formatu PDF w slajdach Java
 linktitle: Ustaw uprawnienia dostępu do formatu PDF w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zabezpieczyć dokumenty PDF uprawnieniami dostępu w Java Slides za pomocą Aspose.Slides. W tym przewodniku krok po kroku opisano ochronę hasłem i nie tylko.
-type: docs
 weight: 17
 url: /pl/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do ustawiania uprawnień dostępu do plików PDF w slajdach Java
 
@@ -104,3 +108,9 @@ Aspose.Slides for Java zapewnia różne funkcje zabezpieczeń, w tym szyfrowanie
 ### Gdzie mogę znaleźć więcej zasobów i dokumentacji dla Aspose.Slides dla Java?
 
  Dostęp do obszernej dokumentacji Aspose.Slides for Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/slides/java/) . Dodatkowo możesz pobrać bibliotekę ze strony[Tutaj](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

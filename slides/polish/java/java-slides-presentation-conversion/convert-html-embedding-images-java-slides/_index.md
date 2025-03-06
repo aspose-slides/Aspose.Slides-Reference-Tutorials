@@ -3,10 +3,14 @@ title: Konwertuj obrazy HTML do osadzania w slajdach Java
 linktitle: Konwertuj obrazy HTML do osadzania w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Konwertuj program PowerPoint na HTML za pomocą osadzonych obrazów. Przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Naucz się bez wysiłku automatyzować konwersję prezentacji w Javie.
-type: docs
 weight: 11
 url: /pl/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do konwersji obrazów HTML osadzanych w slajdach Java
 
@@ -125,3 +129,10 @@ Tak, możesz dostosować szablon HTML, modyfikując pliki HTML i CSS wygenerowan
 ### Jak sobie radzić z błędami podczas konwersji?
 
 Możesz zawinąć kod konwersji w blok try-catch, aby obsłużyć wyjątki, które mogą wystąpić podczas procesu konwersji.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: แสดงความคิดเห็นใน PowerPoint
 linktitle: แสดงความคิดเห็นใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแสดงความคิดเห็นในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับแต่งรูปลักษณ์และสร้างตัวอย่างภาพได้อย่างมีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการแสดงความคิดเห็นในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java การแสดงความเห็นอาจมีประโยชน์สำหรับวัตถุประสงค์ต่างๆ เช่น การสร้างภาพตัวอย่างการนำเสนอพร้อมความคิดเห็นรวมอยู่ด้วย
 ## ข้อกำหนดเบื้องต้น
@@ -72,3 +76,9 @@ try {
 ใช่ เมื่อใช้ Aspose.Slides คุณสามารถแสดงความคิดเห็นกับรูปภาพได้โดยไม่ต้องเปิดแอปพลิเคชัน PowerPoint
 ### มีวิธีแสดงความคิดเห็นโดยตรงไปยังเอกสาร PDF หรือไม่
 ใช่ Aspose.Slides มีฟังก์ชันในการแสดงความคิดเห็นโดยตรงไปยังเอกสาร PDF ช่วยให้สามารถผสานรวมเข้ากับเวิร์กโฟลว์เอกสารของคุณได้อย่างราบรื่น
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: عمليات حفظ جافا باور بوينت
 linktitle: عمليات حفظ جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية حفظ عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. برامج تعليمية حول الحفظ في الملف والدفق وإضافة الحماية بكلمة مرور.
-type: docs
 weight: 20
 url: /ar/java/java-powerpoint-save-operations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -32,3 +36,9 @@ url: /ar/java/java-powerpoint-save-operations/
 تعرف على كيفية حفظ عروض PowerPoint التقديمية في دفق باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [حفظ PowerPoint بكلمة المرور](./save-powerpoint-with-password/)
 تعرف على كيفية إضافة الحماية بكلمة مرور إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تأمين الشرائح الخاصة بك بكل سهولة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

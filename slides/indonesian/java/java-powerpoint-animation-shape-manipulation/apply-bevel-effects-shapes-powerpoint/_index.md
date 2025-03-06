@@ -3,10 +3,14 @@ title: Terapkan Efek Bevel pada Bentuk di PowerPoint
 linktitle: Terapkan Efek Bevel pada Bentuk di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menerapkan efek kemiringan pada bentuk di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah kami. Sempurnakan presentasi Anda.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat presentasi yang menarik secara visual sangat penting untuk menangkap dan mempertahankan perhatian audiens Anda. Menambahkan efek kemiringan pada bentuk dapat meningkatkan estetika keseluruhan slide Anda, sehingga membuat presentasi Anda menonjol. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan efek bevel pada bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Baik Anda seorang pengembang yang ingin mengotomatiskan pembuatan presentasi atau hanya seseorang yang suka mengutak-atik desain, panduan ini siap membantu Anda.
 ## Prasyarat
@@ -92,3 +96,9 @@ Anda dapat menambahkan berbagai bentuk seperti persegi panjang, elips, garis, da
 Ya, Aspose.Slides untuk Java memungkinkan Anda menerapkan berbagai efek 3D, termasuk kedalaman, pencahayaan, dan efek kamera.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari komunitas Aspose dan tim dukungan mereka[forum dukungan](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

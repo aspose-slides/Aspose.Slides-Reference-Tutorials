@@ -3,10 +3,14 @@ title: Grafiekmarkeringsopties gebruiken op gegevenspunten in Aspose.Slides .NET
 linktitle: Grafiekmarkeringsopties op gegevenspunt
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u uw PowerPoint-grafieken kunt verbeteren met Aspose.Slides voor .NET. Pas datapuntmarkeringen aan met afbeeldingen. Maak boeiende presentaties.
-type: docs
 weight: 11
 url: /nl/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Bij het werken met presentaties en gegevensvisualisatie biedt Aspose.Slides voor .NET een breed scala aan krachtige functies voor het maken, aanpassen en manipuleren van diagrammen. In deze zelfstudie onderzoeken we hoe u diagrammarkeringsopties op gegevenspunten kunt gebruiken om uw diagrampresentaties te verbeteren. Deze stapsgewijze handleiding leidt u door het proces, beginnend bij de vereisten en het importeren van naamruimten, tot het opsplitsen van elk voorbeeld in meerdere stappen.
 
@@ -148,3 +152,9 @@ Aspose.Slides voor .NET is ontworpen om met verschillende PowerPoint-formaten te
 
 ### Is er een proefversie van Aspose.Slides voor .NET beschikbaar?
  Ja, u kunt Aspose.Slides voor .NET uitproberen door een gratis proefversie te downloaden van[hier](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

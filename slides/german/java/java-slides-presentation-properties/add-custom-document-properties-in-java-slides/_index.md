@@ -3,10 +3,14 @@ title: Benutzerdefinierte Dokumenteigenschaften in Java-Folien hinzufügen
 linktitle: Benutzerdefinierte Dokumenteigenschaften in Java-Folien hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit benutzerdefinierten Dokumenteigenschaften in Java Slides verbessern. Schritt-für-Schritt-Anleitung mit Codebeispielen unter Verwendung von Aspose.Slides für Java.
-type: docs
 weight: 13
 url: /de/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Hinzufügen benutzerdefinierter Dokumenteigenschaften in Java-Folien
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Dieser Code zeigt die Namen und Werte aller benutzerdefinierten Eigenschaften in der Präsentation an.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

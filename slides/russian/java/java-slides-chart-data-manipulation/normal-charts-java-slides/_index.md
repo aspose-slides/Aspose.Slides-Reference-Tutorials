@@ -3,10 +3,14 @@ title: Обычные диаграммы в слайдах Java
 linktitle: Обычные диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Создавайте обычные диаграммы в слайдах Java с помощью Aspose.Slides для Java. Пошаговое руководство и исходный код для создания, настройки и сохранения диаграмм в презентациях PowerPoint.
-type: docs
 weight: 21
 url: /ru/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в обычные диаграммы в слайдах Java
 
@@ -240,3 +244,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### Как сохранить диаграмму в другом формате файла?
 
  Чтобы сохранить диаграмму в другом формате файла, измените`SaveFormat` параметр в`pres.save()` метод в нужный формат (например, PDF, PNG, JPEG).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

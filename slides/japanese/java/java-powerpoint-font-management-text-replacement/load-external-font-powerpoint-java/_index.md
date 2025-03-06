@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint に外部フォントを読み込む
 linktitle: Java を使用して PowerPoint に外部フォントを読み込む
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションにカスタム フォントを読み込む方法を学びます。独自のタイポグラフィでスライドを強化します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションに外部フォントを読み込む手順を説明します。カスタム フォントを使用すると、プレゼンテーションに独自のタッチを加えることができ、さまざまなプラットフォーム間で一貫したブランド設定やスタイル設定を確保できます。
 ## 前提条件
@@ -63,3 +67,9 @@ Aspose.Slides for Java は現在、TrueType (.ttf) フォントの読み込み�
 フォント ファイルが TrueType (.ttf) 形式であり、適切なサイズ制限内であれば、正常に読み込むことができるはずです。
 ### 外部フォントを読み込むと、異なるバージョンの PowerPoint とのプレゼンテーションの互換性に影響しますか?
 いいえ、フォントが埋め込まれているか外部から読み込まれている限り、プレゼンテーションはさまざまな PowerPoint バージョン間で互換性を維持します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

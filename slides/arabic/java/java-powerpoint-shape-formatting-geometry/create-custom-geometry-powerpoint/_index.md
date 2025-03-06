@@ -3,10 +3,14 @@ title: إنشاء هندسة مخصصة في PowerPoint
 linktitle: إنشاء هندسة مخصصة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء أشكال هندسية مخصصة في PowerPoint باستخدام Aspose.Slides لـ Java. سيساعدك هذا الدليل على تحسين عروضك التقديمية بأشكال فريدة.
-type: docs
 weight: 21
 url: /ar/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يمكن أن يؤدي إنشاء أشكال وأشكال هندسية مخصصة في PowerPoint إلى تحسين المظهر المرئي لعروضك التقديمية بشكل كبير. Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بمعالجة ملفات PowerPoint برمجياً. في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء أشكال هندسية مخصصة، وتحديدًا شكل نجمة، في شريحة PowerPoint باستخدام Aspose.Slides for Java. دعونا الغوص في!
 ## المتطلبات الأساسية
@@ -106,3 +110,9 @@ Aspose.Slides for Java هي مكتبة قوية تمكن مطوري Java من إ
 لا يلزم أي إعداد خاص بخلاف تثبيت JDK وتضمين مكتبة Aspose.Slides في مشروعك.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

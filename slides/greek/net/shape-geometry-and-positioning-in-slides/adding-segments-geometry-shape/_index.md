@@ -3,10 +3,14 @@ title: Mastering Visuals - Προσθήκη τμημάτων με Aspose.Slides 
 linktitle: Προσθήκη τμημάτων σε σχήμα γεωμετρίας σε παρουσίαση με Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώσετε τις εφαρμογές σας .NET με το Aspose.Slides. Αυτό το σεμινάριο σάς καθοδηγεί στην προσθήκη τμημάτων σε σχήματα γεωμετρίας για συναρπαστικές παρουσιάσεις.
-type: docs
 weight: 13
 url: /el/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Στον κόσμο της ανάπτυξης .NET, η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι μια κοινή απαίτηση. Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που διευκολύνει την απρόσκοπτη ενσωμάτωση ισχυρών δυνατοτήτων δημιουργίας παρουσιάσεων στις εφαρμογές σας .NET. Αυτό το σεμινάριο εστιάζει σε μια συγκεκριμένη πτυχή του σχεδιασμού της παρουσίασης - την προσθήκη τμημάτων σε σχήματα γεωμετρίας.
 ## Προαπαιτούμενα
@@ -72,3 +76,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  Εξερευνήστε το[τεκμηρίωση](https://reference.aspose.com/slides/net/) για ολοκληρωμένους οδηγούς και παραδείγματα.
 ### Μπορώ να δοκιμάσω το Aspose.Slides δωρεάν πριν το αγοράσω;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

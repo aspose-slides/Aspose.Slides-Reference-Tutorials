@@ -3,10 +3,14 @@ title: تحويل شريحة معينة إلى تنسيق PDF
 linktitle: تحويل شريحة معينة إلى تنسيق PDF
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل شرائح PowerPoint محددة إلى تنسيق PDF باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 19
 url: /ar/net/presentation-conversion/convert-specific-slide-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 
 إذا كنت تتطلع إلى تحويل شرائح معينة من عرض PowerPoint التقديمي إلى تنسيق PDF باستخدام Aspose.Slides for .NET، فأنت في المكان الصحيح. في هذا البرنامج التعليمي الشامل، سنرشدك خلال العملية خطوة بخطوة، مما يسهل عليك تحقيق هدفك.
@@ -82,3 +86,9 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 للحصول على موارد ووثائق إضافية[Aspose.Slides لمرجع API](https://reference.aspose.com/slides/net/).
 
 الآن بعد أن أتقنت فن تحويل شرائح معينة إلى PDF باستخدام Aspose.Slides for .NET، فأنت جاهز لتبسيط مهام أتمتة PowerPoint. ترميز سعيد!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

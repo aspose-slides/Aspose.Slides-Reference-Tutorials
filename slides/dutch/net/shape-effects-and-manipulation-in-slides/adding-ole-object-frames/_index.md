@@ -3,10 +3,14 @@ title: OLE-objectframes toevoegen aan presentatie met Aspose.Slides
 linktitle: OLE-objectframes toevoegen aan presentatie met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt verbeteren met dynamische inhoud! Volg onze stapsgewijze handleiding met Aspose.Slides voor .NET. Vergroot de betrokkenheid nu!
-type: docs
 weight: 15
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie verdiepen we ons in het proces van het toevoegen van OLE-objectframes (Object Linking and Embedding) aan presentatiedia's met behulp van Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-bestanden kunnen werken. Volg deze stapsgewijze handleiding om OLE-objecten naadloos in uw presentatiedia's in te sluiten, waardoor uw PowerPoint-bestanden worden uitgebreid met dynamische en interactieve inhoud.
 ## Vereisten
@@ -84,3 +88,9 @@ A: Ja, Aspose.Slides ondersteunt de nieuwste PowerPoint-bestandsindelingen, incl
 A: Absoluut, u kunt de grootte, positie en andere eigenschappen van het OLE-objectframe aanpassen aan uw voorkeuren.
 ### Vraag: Waar kan ik hulp zoeken als ik tijdens de implementatie tegen problemen aanloop?
  A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Načíst výčet formátů v Java Slides
 linktitle: Načíst výčet formátů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak zkontrolovat formát prezentací PowerPoint v Javě pomocí Aspose.Slides. Postupujte podle našeho podrobného průvodce s příklady zdrojového kódu pro efektivní detekci formátu.
-type: docs
 weight: 14
 url: /cs/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do načítání formátu prezentace v Java Slides
 
@@ -68,3 +72,10 @@ Podporu pro Aspose.Slides pro Java můžete získat návštěvou fór podpory As
 ### Je Aspose.Slides for Java vhodný pro komerční projekty?
 
 Ano, Aspose.Slides for Java je vhodný pro komerční projekty. Poskytuje robustní sadu funkcí pro práci s PowerPointovými prezentacemi v aplikacích Java a je široce používán v komerčním i podnikovém prostředí.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

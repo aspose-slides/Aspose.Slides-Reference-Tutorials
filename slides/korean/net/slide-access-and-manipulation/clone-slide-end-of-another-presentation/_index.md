@@ -3,10 +3,14 @@ title: 별도의 프레젠테이션이 끝나면 슬라이드 복제
 linktitle: 별도의 프레젠테이션이 끝나면 슬라이드 복제
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 하나의 PowerPoint 프레젠테이션에서 슬라이드를 복제하고 Aspose.Slides for .NET을 사용하여 다른 프레젠테이션에 추가하는 방법을 알아보세요. 이 단계별 가이드는 원활한 슬라이드 조작을 위한 소스 코드와 명확한 지침을 제공합니다.
-type: docs
 weight: 17
 url: /ko/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## .NET용 Aspose.Slides 소개
 
@@ -103,3 +107,9 @@ Aspose.Slides for .NET은 .NET 개발자가 프로그래밍 방식으로 PowerPo
 ### .NET용 Aspose.Slides는 슬라이드에서만 작동합니까?
 
 아니요, Aspose.Slides for .NET은 슬라이드 이상의 광범위한 기능을 제공합니다. 도형, 차트, 애니메이션으로 작업할 수 있으며 프레젠테이션에서 텍스트와 이미지를 추출할 수도 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में मानचित्र 
 linktitle: जावा स्लाइड्स में मानचित्र चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में शानदार मानचित्र चार्ट बनाएँ। Java डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।
-type: docs
 weight: 15
 url: /hi/java/chart-elements/map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## जावा के लिए Aspose.Slides का उपयोग करके जावा स्लाइड्स में मानचित्र चार्ट का परिचय
 
@@ -131,3 +135,9 @@ try {
 ### मैं अपने प्रोजेक्ट में Aspose.Slides for Java को कैसे एकीकृत करूं?
 
  लाइब्रेरी को यहां से डाउनलोड करें[यहाँ](https://releases.aspose.com/slides/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में जोड़ें।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

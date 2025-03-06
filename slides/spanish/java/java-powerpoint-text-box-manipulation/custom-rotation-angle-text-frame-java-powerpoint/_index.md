@@ -3,10 +3,14 @@ title: Ángulo de rotación personalizado para marco de texto en Java PowerPoint
 linktitle: Ángulo de rotación personalizado para marco de texto en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a personalizar los ángulos de rotación de marcos de texto en Java PowerPoint usando Aspose.Slides. Mejore sus presentaciones de forma dinámica.
-type: docs
 weight: 14
 url: /es/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En este tutorial, exploraremos cómo manipular los ángulos de rotación del marco de texto en presentaciones de PowerPoint de Java usando Aspose.Slides. Personalizar los ángulos de rotación es crucial para mejorar el atractivo visual y la claridad del texto en las diapositivas. Ya sea que esté creando gráficos dinámicos o agregando títulos personalizados, la rotación precisa del marco de texto puede mejorar significativamente la estética de la presentación.
 ## Requisitos previos
@@ -64,3 +68,9 @@ Aspose.Slides para Java es una biblioteca sólida que permite a los desarrollado
 Sí, Aspose.Slides está diseñado para manejar los requisitos de nivel empresarial para crear y administrar presentaciones de PowerPoint.
 ### ¿Cómo obtengo soporte para Aspose.Slides para Java?
  Para soporte técnico e interacción con la comunidad, visite el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

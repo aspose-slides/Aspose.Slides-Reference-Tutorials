@@ -3,10 +3,14 @@ title: PowerPoint で図形のサムネイルを作成する
 linktitle: PowerPoint で図形のサムネイルを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで図形のサムネイルを生成する方法を学びます。ステップバイステップのガイドが提供されます。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで図形のサムネイルを作成する方法について詳しく説明します。Aspose.Slides は、開発者がプログラムで PowerPoint ファイルを操作できるようにする強力なライブラリであり、図形のサムネイルの生成など、さまざまなタスクを自動化できます。
 ## 前提条件
@@ -60,3 +64,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 もちろんです！Aspose.Slidesの無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/)その機能と能力を評価するため。
 ### Aspose.Slides のサポートはどこで受けられますか?
  Aspose.Slidesに関してご質問やサポートが必要な場合は、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)サポートのための。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

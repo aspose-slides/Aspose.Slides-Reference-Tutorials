@@ -3,10 +3,14 @@ title: Java スライドに HTML 埋め込み画像を変換する
 linktitle: Java スライドに HTML 埋め込み画像を変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: 埋め込み画像を使用して PowerPoint を HTML に変換します。Aspose.Slides for Java を使用したステップバイステップ ガイド。Java でプレゼンテーション変換を簡単に自動化する方法を学びます。
-type: docs
 weight: 11
 url: /ja/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドに HTML 埋め込み画像を変換する方法の紹介
 
@@ -125,3 +129,10 @@ try {
 ### 変換中にエラーが発生した場合、どうすれば処理できますか?
 
 変換コードを try-catch ブロックでラップして、変換プロセス中に発生する可能性のある例外を処理できます。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

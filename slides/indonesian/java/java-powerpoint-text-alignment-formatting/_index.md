@@ -3,10 +3,14 @@ title: Penyelarasan dan Pemformatan Teks Java PowerPoint
 linktitle: Penyelarasan dan Pemformatan Teks Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Temukan tutorial penyelarasan dan pemformatan teks Java PowerPoint. Pelajari cara menyelaraskan, memformat, mengekspor, dan menyorot teks menggunakan Aspose.Slides untuk Java.
-type: docs
 weight: 23
 url: /id/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 
 Menguasai perataan dan pemformatan teks dalam presentasi Java PowerPoint sangat penting untuk membuat slide yang profesional dan sempurna. Dengan Aspose.Slides untuk Java, Anda dapat mencapai pemformatan dan perataan teks yang lancar dengan mudah. Baik Anda seorang pemula atau pengembang berpengalaman, tutorial kami akan membantu Anda menyempurnakan presentasi Anda. Mari selami tutorialnya dan lihat bagaimana Anda dapat meningkatkan keterampilan PowerPoint Anda!
@@ -45,3 +49,9 @@ Pelajari cara mengganti teks secara efisien dalam presentasi PowerPoint mengguna
 Pelajari cara mengekstrak teks dari node SmartArt dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Panduan langkah demi langkah yang mudah untuk pengembang.
 ### [Sorot Teks menggunakan Regex di Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 Pelajari cara menyorot teks di PowerPoint menggunakan pola regex dengan Aspose.Slides untuk Java. Sempurnakan presentasi Anda secara dinamis.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

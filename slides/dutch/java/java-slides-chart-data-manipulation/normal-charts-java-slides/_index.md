@@ -3,10 +3,14 @@ title: Normale grafieken in Java-dia's
 linktitle: Normale grafieken in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak normale grafieken in Java-dia's met Aspose.Slides voor Java. Stapsgewijze handleiding en broncode voor het maken, aanpassen en opslaan van diagrammen in PowerPoint-presentaties.
-type: docs
 weight: 21
 url: /nl/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot normale diagrammen in Java-dia's
 
@@ -240,3 +244,9 @@ In deze zelfstudie hebben we geleerd hoe u normale diagrammen in Java Slides kun
 ### Hoe sla ik het diagram op in een ander bestandsformaat?
 
  Om het diagram in een ander bestandsformaat op te slaan, wijzigt u de`SaveFormat` parameter in de`pres.save()` methode naar het gewenste formaat (bijvoorbeeld PDF, PNG, JPEG).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

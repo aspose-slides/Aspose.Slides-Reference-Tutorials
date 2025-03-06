@@ -3,10 +3,14 @@ title: Aspose.Slides - Riepilogo mastering Ingrandisce .NET
 linktitle: Creazione di riepilogo Zoom nelle diapositive della presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue presentazioni con Aspose.Slides per .NET! Impara a creare zoom di riepilogo accattivanti senza sforzo. Scaricalo ora per un'esperienza di diapositiva dinamica.
-type: docs
 weight: 16
 url: /it/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nel dinamico mondo delle presentazioni, Aspose.Slides per .NET si distingue come un potente strumento per migliorare la tua esperienza di creazione di diapositive. Una delle caratteristiche degne di nota che offre è la possibilità di creare uno zoom di riepilogo, un modo visivamente accattivante per presentare una raccolta di diapositive. In questo tutorial, ti guideremo attraverso il processo di creazione di uno zoom di riepilogo nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -79,3 +83,9 @@ Assolutamente! Puoi includere collegamenti ipertestuali nelle diapositive e funz
 A partire dall'ultima versione, non ci sono limitazioni rigide sul numero di sezioni che puoi aggiungere a una presentazione.
 ### È disponibile una versione di prova per Aspose.Slides?
 Sì, puoi esplorare le funzionalità di Aspose.Slides scaricando il file[versione di prova gratuita](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

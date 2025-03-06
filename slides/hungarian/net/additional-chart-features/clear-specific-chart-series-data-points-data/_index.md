@@ -3,10 +3,14 @@ title: specifikus diagramsorozat adatpontjainak törlése az Aspose.Slides .NET 
 linktitle: Adott diagramsorozat adatpontjainak törlése
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan törölhet bizonyos diagramsorozat-adatpontokat a PowerPoint-prezentációkban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató.
-type: docs
 weight: 13
 url: /hu/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a PowerPoint prezentációk programozott kezelését. Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for .NET segítségével adott diagramsorozat-adatpontok törlésének folyamatán egy PowerPoint-prezentációban. Az oktatóanyag végére könnyedén kezelheti a diagram adatpontjait.
 
@@ -95,3 +99,9 @@ Igen, testreszabhatja a diagramok megjelenését tulajdonságaik, például szí
 
 ### Létezik közösség vagy fejlesztői közösség az Aspose.Slides for .NET számára?
 Igen, csatlakozhat az Aspose közösséghez a fórumon, ahol megbeszéléseket, kérdéseket tehet fel, és megoszthatja tapasztalatait.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

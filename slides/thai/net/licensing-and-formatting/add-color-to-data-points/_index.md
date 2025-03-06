@@ -3,10 +3,14 @@ title: การปรับสีแผนภูมิด้วย Aspose.Slide
 linktitle: เพิ่มสีให้กับจุดข้อมูลในแผนภูมิ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มสีให้กับจุดข้อมูลในแผนภูมิด้วย Aspose.Slides สำหรับ .NET ปรับปรุงการนำเสนอของคุณด้วยภาพและดึงดูดผู้ชมของคุณอย่างมีประสิทธิภาพ
-type: docs
 weight: 12
 url: /th/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการเพิ่มสีให้กับจุดข้อมูลในแผนภูมิโดยใช้ Aspose.Slides สำหรับ .NET Aspose.Slides เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับงานนำเสนอ PowerPoint ในแอปพลิเคชัน .NET การเพิ่มสีให้กับจุดข้อมูลในแผนภูมิสามารถทำให้งานนำเสนอของคุณดูน่าดึงดูดและเข้าใจได้ง่ายขึ้น
 
@@ -115,3 +119,9 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ .NET ได้อย่างไร
     สำหรับการสนับสนุนและการสนทนาโปรดไปที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

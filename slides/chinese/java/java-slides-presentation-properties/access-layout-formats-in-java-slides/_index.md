@@ -3,10 +3,14 @@ title: 访问 Java Slides 中的布局格式
 linktitle: 访问 Java Slides 中的布局格式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 访问和操作 Java Slides 中的布局格式。轻松自定义 PowerPoint 演示文稿中的形状和线条样式。
-type: docs
 weight: 10
 url: /zh/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slides 中的 Access 布局格式简介
 
@@ -138,3 +142,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); //访问布局幻灯片上�
 ```
 
 然后您可以使用`IFillFormat`和`ILineFormat`使用前面答案中所示的方法来修改形状的填充和线条格式。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Adicionar bordas de células à tabela em Java PowerPoint
 linktitle: Adicionar bordas de células à tabela em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar bordas de células a tabelas em apresentações Java PowerPoint usando Aspose.Slides. Este guia passo a passo facilita o aprimoramento de seus slides.
-type: docs
 weight: 10
 url: /pt/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Ei! Então, você deseja adicionar bordas de células a uma tabela em uma apresentação do PowerPoint usando Java, certo? Bem, você está no lugar certo! Este tutorial irá guiá-lo através do processo passo a passo usando a biblioteca Aspose.Slides para Java. Ao final deste guia, você terá uma boa noção de como manipular tabelas em slides do PowerPoint como um profissional. Vamos mergulhar e fazer com que suas apresentações pareçam elegantes e profissionais!
 ## Pré-requisitos
@@ -96,3 +100,9 @@ Absolutamente! Você pode inserir imagens nas células da tabela usando Aspose.S
 Sim, você pode automatizar o processo percorrendo os slides e aplicando a lógica de criação de tabela a cada slide.
 ### Quais formatos de arquivo o Aspose.Slides suporta?
 Aspose.Slides suporta vários formatos, incluindo PPT, PPTX, PDF e muito mais.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

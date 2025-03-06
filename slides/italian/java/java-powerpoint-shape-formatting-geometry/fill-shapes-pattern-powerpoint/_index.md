@@ -3,10 +3,14 @@ title: Riempi le forme con il motivo in PowerPoint
 linktitle: Riempi le forme con il motivo in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara a riempire le forme con motivi in PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra semplice guida passo passo per migliorare visivamente le tue presentazioni.
-type: docs
 weight: 11
 url: /it/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Creare presentazioni visivamente accattivanti è essenziale per coinvolgere il pubblico. Un modo per migliorare le diapositive di PowerPoint è riempire le forme con motivi. In questo tutorial, esamineremo i passaggi per riempire le forme con motivi utilizzando Aspose.Slides per Java. Questa guida è pensata per gli sviluppatori che desiderano sfruttare le potenti funzionalità di Aspose.Slides per creare presentazioni straordinarie a livello di programmazione.
 ## Prerequisiti
@@ -94,3 +98,9 @@ Aspose.Slides per Java è una potente API che consente agli sviluppatori di crea
 Sì, Aspose.Slides per Java ti consente di aprire, modificare e salvare presentazioni PowerPoint esistenti.
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere supporto da[Forum di supporto di Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

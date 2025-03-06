@@ -3,10 +3,14 @@ title: Maak een SmartArt-miniatuur van onderliggende notities
 linktitle: Maak een SmartArt-miniatuur van onderliggende notities
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u SmartArt-miniaturen van onderliggende notities kunt maken in Java met Aspose.Slides, waarmee u uw PowerPoint-presentaties moeiteloos kunt verbeteren.
-type: docs
 weight: 15
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u SmartArt-miniaturen van onderliggende notities in Java kunt maken met behulp van Aspose.Slides. Aspose.Slides is een krachtige Java API waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken, waardoor ze gemakkelijk dia's kunnen maken, wijzigen en manipuleren.
 ## Vereisten
@@ -70,3 +74,9 @@ Ja, Aspose.Slides is ontworpen om PowerPoint-automatiseringstaken op onderneming
 Zeker! Aspose.Slides biedt uitgebreide ondersteuning voor het maken en manipuleren van SmartArt-diagrammen met verschillende complexiteiten.
 ### Biedt Aspose.Slides technische ondersteuning voor ontwikkelaars?
  Ja, Aspose.Slides biedt toegewijde technische ondersteuning voor ontwikkelaars via hun[forum](https://forum.aspose.com/c/slides/11) en andere kanalen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

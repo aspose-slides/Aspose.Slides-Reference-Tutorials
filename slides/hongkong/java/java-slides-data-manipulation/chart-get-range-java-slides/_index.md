@@ -3,10 +3,14 @@ title: Java 投影片中的圖表取得範圍
 linktitle: Java 投影片中的圖表取得範圍
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java API 檢索 Java Slides 中的圖表範圍。帶有原始程式碼的分步指南，可有效存取圖表資料。
-type: docs
 weight: 16
 url: /zh-hant/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片中圖表取得範圍簡介
 
@@ -98,3 +102,10 @@ Aspose.Slides for Java 是一個商業庫，但您可以透過免費試用來探
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和文件？
 
 您可以在該網站上找到 Aspose.Slides for Java 的全面文件和資源：[Aspose.Slides Java 文檔](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

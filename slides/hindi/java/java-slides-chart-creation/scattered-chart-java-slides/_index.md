@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में बिखरे हुए
 linktitle: जावा स्लाइड्स में बिखरे हुए चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में स्कैटर चार्ट बनाना सीखें। प्रस्तुतियों में डेटा विज़ुअलाइज़ेशन के लिए जावा स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 11
 url: /hi/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java में बिखरे हुए चार्ट का परिचय
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Aspose.Slides for Java दस्तावेज़ में अधिक अनुकूलन विकल्पों का पता लगाने के लिए स्वतंत्र महसूस करें।
 
  प्रतिस्थापित करना याद रखें`"Your Document Directory"` उस वास्तविक पथ के साथ जहाँ आप प्रस्तुति को सहेजना चाहते हैं.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

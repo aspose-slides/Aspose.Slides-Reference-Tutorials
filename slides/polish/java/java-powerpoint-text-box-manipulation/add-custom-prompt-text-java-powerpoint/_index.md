@@ -3,10 +3,14 @@ title: Dodaj niestandardowy tekst podpowiedzi w programie Java PowerPoint
 linktitle: Dodaj niestandardowy tekst podpowiedzi w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodać niestandardowy tekst podpowiedzi w programie Java PowerPoint przy użyciu Aspose.Slides. Dzięki temu samouczkowi możesz bez wysiłku usprawnić interakcję z użytkownikiem.
-type: docs
 weight: 12
 url: /pl/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 dzisiejszej erze cyfrowej tworzenie dynamicznych i angażujących prezentacji ma kluczowe znaczenie dla skutecznej komunikacji. Aspose.Slides for Java umożliwia programistom programowe manipulowanie prezentacjami programu PowerPoint, oferując rozbudowane funkcje dostosowywania slajdów, kształtów, tekstu i nie tylko. Ten samouczek poprowadzi Cię przez proces dodawania niestandardowego tekstu podpowiedzi do elementów zastępczych w prezentacjach Java PowerPoint przy użyciu Aspose.Slides.
 ## Warunki wstępne
@@ -71,3 +75,9 @@ Aspose.Slides obsługuje szeroką gamę wersji programu PowerPoint, zapewniając
  Możesz dostać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić pełne funkcje Aspose.Slides.
 ### Czy Aspose.Slides for Java obsługuje dodawanie niestandardowych animacji do slajdów?
 Tak, Aspose.Slides udostępnia interfejsy API umożliwiające programowe zarządzanie animacjami slajdów.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

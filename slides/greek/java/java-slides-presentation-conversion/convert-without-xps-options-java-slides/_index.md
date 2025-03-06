@@ -3,10 +3,14 @@ title: Μετατροπή χωρίς επιλογές XPS σε διαφάνει�
 linktitle: Μετατροπή χωρίς επιλογές XPS σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε μορφή XPS χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 33
 url: /el/java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή Μετατροπή PowerPoint σε XPS Χωρίς Επιλογές XPS στο Aspose.Slides για Java
 
@@ -93,3 +97,9 @@ finally
 ### Πώς μπορώ να χειριστώ τις εξαιρέσεις κατά τη διαδικασία μετατροπής;
 
  Μπορείτε να εφαρμόσετε τον χειρισμό εξαιρέσεων για να χειριστείτε με χάρη τυχόν σφάλματα που ενδέχεται να προκύψουν κατά τη διαδικασία μετατροπής. Όπως φαίνεται στον κώδικα, α`try` και`finally` μπλοκ χρησιμοποιούνται για τη διασφάλιση της σωστής απόρριψης πόρων, ακόμη και αν παρουσιαστεί εξαίρεση.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

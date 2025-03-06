@@ -3,10 +3,14 @@ title: Konwertuj widok slajdów notatek na format PDF w slajdach Java
 linktitle: Konwertuj widok slajdów notatek na format PDF w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje programu PowerPoint z notatkami do plików PDF przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z kodem źródłowym.
-type: docs
 weight: 16
 url: /pl/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do konwertowania widoku slajdu notatek do formatu PDF w slajdach Java
 
@@ -106,3 +110,9 @@ Tak, Aspose.Slides wymaga ważnej licencji do użytku komercyjnego. Licencję mo
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów?
 
  Obszerną dokumentację i przykłady Aspose.Slides for Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

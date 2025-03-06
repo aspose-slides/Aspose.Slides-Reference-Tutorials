@@ -3,10 +3,14 @@ title: 在 Java 投影片中新增誤差線
 linktitle: 在 Java 投影片中新增誤差線
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中為 PowerPoint 圖表新增誤差線。包含用於自訂誤差線的原始程式碼的逐步指南。
-type: docs
 weight: 13
 url: /zh-hant/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides 在 Java 投影片中新增誤差線的簡介
 
@@ -128,3 +132,9 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資訊？
 
 您可以參考[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)有關使用圖書館的詳細資訊。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Aspose.Slides अनुभाग ज़ूम - अपनी प्रस
 linktitle: Aspose.Slides के साथ प्रेजेंटेशन स्लाइड्स में सेक्शन ज़ूम बनाना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके सेक्शन ज़ूम के साथ आकर्षक प्रेजेंटेशन स्लाइड बनाना सीखें। इंटरैक्टिव सुविधाओं के साथ अपनी प्रेजेंटेशन को बेहतर बनाएँ।
-type: docs
 weight: 13
 url: /hi/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 अपने प्रेजेंटेशन स्लाइड्स को इंटरैक्टिव सुविधाओं के साथ बेहतर बनाना आपके दर्शकों को जोड़े रखने के लिए महत्वपूर्ण है। इसे प्राप्त करने का एक शक्तिशाली तरीका सेक्शन ज़ूम को शामिल करना है, जिससे आप अपनी प्रेजेंटेशन के विभिन्न सेक्शन के बीच सहजता से नेविगेट कर सकते हैं। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड्स में सेक्शन ज़ूम बनाने का तरीका जानेंगे।
 ## आवश्यक शर्तें
@@ -70,3 +74,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  हां, आप Aspose.Slides की सुविधाओं का पता लगाने के लिए इसका उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए समर्थन कहां से प्राप्त कर सकता हूं?
  किसी भी सहायता या प्रश्न के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

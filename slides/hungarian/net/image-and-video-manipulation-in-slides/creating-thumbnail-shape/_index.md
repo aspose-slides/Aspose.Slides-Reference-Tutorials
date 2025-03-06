@@ -3,10 +3,14 @@ title: PowerPoint alakú bélyegképek létrehozása – Aspose.Slides .NET
 linktitle: Miniatűr létrehozása az alakzathoz az Aspose.Slides programban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre bélyegképeket alakzatokhoz PowerPoint-prezentációkban az Aspose.Slides for .NET segítségével. Átfogó, lépésről lépésre szóló útmutató fejlesztőknek.
-type: docs
 weight: 14
 url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely képessé teszi a fejlesztőket arra, hogy zökkenőmentesen dolgozzanak a PowerPoint prezentációkkal. Egyik figyelemre méltó tulajdonsága, hogy képes miniatűröket generálni a prezentáción belüli alakzatokhoz. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET használatával bélyegképek létrehozásának folyamatán.
 ## Előfeltételek
@@ -57,3 +61,9 @@ V: Hibakezelési mechanizmusokat implementálhat try-catch blokkokkal a kivétel
 V: Az Aspose.Slides rugalmasságot biztosít különféle alakzatokhoz, például szövegdobozokhoz, képekhez és egyebekhez való bélyegképek létrehozásához.
 ### K: Testreszabhatom a generált miniatűrök méretét és felbontását?
  V: Igen, beállíthatja a paramétereket a hívásakor`GetThumbnail` módszer a méret és a felbontás szabályozására.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

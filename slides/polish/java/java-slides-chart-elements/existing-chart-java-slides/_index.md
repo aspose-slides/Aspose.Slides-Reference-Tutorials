@@ -3,10 +3,14 @@ title: Istniejący wykres w slajdach Java
 linktitle: Istniejący wykres w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz swoje prezentacje PowerPoint za pomocą Aspose.Slides dla Java. Dowiedz się, jak programowo modyfikować istniejące wykresy. Przewodnik krok po kroku z kodem źródłowym umożliwiającym dostosowanie wykresu.
-type: docs
 weight: 12
 url: /pl/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do istniejącego wykresu w slajdach Java przy użyciu Aspose.Slides dla Java
 
@@ -184,3 +188,9 @@ tym obszernym samouczku nauczyliśmy się, jak modyfikować istniejący wykres w
 ### Czy istnieje sposób na usunięcie serii z wykresu?
 
  Tak, możesz usunąć serię z wykresu za pomocą`chart.getChartData().getSeries().removeAt(index)` metoda, gdzie`index`to indeks serii, którą chcesz usunąć.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

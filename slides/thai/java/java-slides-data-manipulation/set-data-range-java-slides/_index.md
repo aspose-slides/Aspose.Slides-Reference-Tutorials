@@ -3,10 +3,14 @@ title: ตั้งค่าช่วงข้อมูลใน Java Slides
 linktitle: ตั้งค่าช่วงข้อมูลใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีตั้งค่าช่วงข้อมูลในสไลด์ Java ได้อย่างง่ายดายด้วย Aspose.Slides สำหรับ Java สร้างงานนำเสนอแบบไดนามิกและขับเคลื่อนด้วยข้อมูลด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 18
 url: /th/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## รู้เบื้องต้นเกี่ยวกับการตั้งค่าช่วงข้อมูลใน Java Slides
 
@@ -97,3 +101,9 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### ฉันจะหาเอกสารและตัวอย่างเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java บนเว็บไซต์เอกสารประกอบของ Aspose:[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

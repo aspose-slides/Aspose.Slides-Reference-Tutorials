@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में केवल पढ़न
 linktitle: जावा स्लाइड्स में केवल पढ़ने के लिए सहेजें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java में PowerPoint प्रस्तुतियों को केवल पढ़ने के लिए सहेजना सीखें। चरण-दर-चरण निर्देशों और कोड उदाहरणों के साथ अपनी सामग्री को सुरक्षित रखें।
-type: docs
 weight: 11
 url: /hi/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में केवल पढ़ने के लिए सहेजें का परिचय
 
@@ -127,3 +131,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### क्या मैं केवल पढ़ने योग्य पासवर्ड सेट करने के बाद उसे बदल सकता हूँ?
 
  हां, आप इसे सेट करने के बाद केवल पढ़ने के लिए पासवर्ड बदल सकते हैं।`setReadProtection(String newPassword)` केवल पढ़ने के लिए सुरक्षा पासवर्ड को अद्यतन करने के लिए नए पासवर्ड के साथ विधि का उपयोग करें।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

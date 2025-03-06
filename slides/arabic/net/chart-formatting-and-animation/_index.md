@@ -3,10 +3,14 @@ title: تنسيق الرسم البياني والرسوم المتحركة
 linktitle: تنسيق الرسم البياني والرسوم المتحركة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية باستخدام المخططات الديناميكية باستخدام Aspose.Slides لـ .NET. تعلم تنسيق المخطط والرسوم المتحركة خطوة بخطوة. ارفع مهاراتك في العرض التقديمي اليوم!
-type: docs
 weight: 22
 url: /ar/net/chart-formatting-and-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -35,3 +39,9 @@ url: /ar/net/chart-formatting-and-animation/
 تعرف على كيفية تحريك سلسلة المخططات باستخدام Aspose.Slides لـ .NET. قم بإنشاء عروض تقديمية ديناميكية باستخدام تصورات جذابة للبيانات.
 ### [تحريك عناصر السلسلة في الرسم البياني](./animating-series-elements/)
 تعلم كيفية تحريك سلسلة المخططات باستخدام Aspose.Slides لـ .NET. قم بإنشاء عروض تقديمية جذابة باستخدام صور ديناميكية. دليل الخبراء مع أمثلة التعليمات البرمجية.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

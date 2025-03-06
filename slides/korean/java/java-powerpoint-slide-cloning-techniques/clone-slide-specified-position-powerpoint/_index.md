@@ -3,10 +3,14 @@ title: PowerPoint의 지정된 위치에 슬라이드 복제
 linktitle: PowerPoint의 지정된 위치에 슬라이드 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하면 PowerPoint 슬라이드를 지정된 위치에 손쉽게 복제할 수 있습니다. 초보자와 전문가를 위한 자세한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 PowerPoint 게임을 한 단계 더 발전시킬 준비가 되셨나요? 숙련된 개발자이든 슬라이드 조작을 자동화하려는 초보자이든 관계없이 올바른 위치에 오셨습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 지정된 위치에 슬라이드를 복제하는 과정을 안내합니다. 버클을 채우고 함께 이 여행에 뛰어들어 보세요!
 ## 전제 조건
@@ -80,3 +84,9 @@ destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", 
 Aspose.Slides는 강력한 기능, 광범위한 문서 및 탁월한 지원을 제공하므로 PowerPoint 조작에 선호되는 선택입니다.
 ### Aspose.Slides에 대한 추가 튜토리얼은 어디에서 찾을 수 있나요?
  확인해 보세요[선적 서류 비치](https://reference.aspose.com/slides/java/) 포괄적인 튜토리얼과 예제를 보려면
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

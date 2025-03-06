@@ -3,10 +3,14 @@ title: Manipulasi Data Bagan Slide Java
 linktitle: Manipulasi Data Bagan Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buka kekuatan Manipulasi Data Bagan Slide Java dengan Aspose.Slides untuk Java. Ciptakan visual dan wawasan yang menakjubkan dengan mudah.
-type: docs
 weight: 11
 url: /id/java/chart-data-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 Apakah Anda siap untuk membawa presentasi slide berbasis Java Anda ke level berikutnya? Dengan Aspose.Slides untuk Java, Anda dapat dengan mudah memanipulasi data bagan, membuat presentasi visual yang menakjubkan dan berwawasan luas yang memikat audiens Anda. Dalam artikel ini, kita akan menjelajahi bagaimana Aspose.Slides memberdayakan pengembang Java untuk membuat bagan berbasis data menjadi nyata.
 
 ## Memahami Aspose.Slides untuk Java
@@ -54,3 +58,9 @@ Buat Bagan Normal di Slide Java dengan Aspose.Slides untuk Java. Panduan langkah
 Pelajari cara membuat bagan organisasi yang menakjubkan di Java Slides dengan tutorial langkah demi langkah Aspose.Slides. Sesuaikan dan visualisasikan struktur organisasi Anda dengan mudah.
 ### [Diagram Lingkaran di Slide Java](./pie-chart-java-slides/)
 Pelajari cara membuat Diagram Lingkaran yang menakjubkan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk pengembang Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Форматирование строк в PowerPoint
 linktitle: Форматирование строк в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как форматировать строки в PowerPoint с помощью Aspose.Slides для Java, с помощью этого пошагового руководства. Усовершенствуйте свои презентации с помощью настраиваемых стилей линий.
-type: docs
 weight: 16
 url: /ru/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Презентации PowerPoint являются основным продуктом как в профессиональной, так и в образовательной среде. Возможность эффективно форматировать строки на слайдах может сделать ваши презентации безупречными и профессиональными. В этом уроке мы рассмотрим, как использовать Aspose.Slides для Java для форматирования строк в презентации PowerPoint. К концу этого руководства вы сможете с легкостью создавать и форматировать строки на слайдах.
 ## Предварительные условия
@@ -87,3 +91,9 @@ Aspose.Slides для Java — это мощная библиотека, кото
  Да, вы можете получить бесплатную пробную версию на[здесь](https://releases.aspose.com/).
 ### Где я могу найти более подробную документацию?
  Подробная документация доступна на сайте[страница документации](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

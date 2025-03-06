@@ -3,10 +3,14 @@ title: 在 Java 投影片中隱藏圖表中的信息
 linktitle: 在 Java 投影片中隱藏圖表中的信息
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 隱藏 Java Slides 中的圖表元素。透過逐步指導和原始碼自訂簡報，使其清晰且美觀。
-type: docs
 weight: 13
 url: /zh-hant/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中隱藏圖表資訊簡介
 
@@ -172,3 +176,9 @@ finally
 ### 如何以程式設計方式更改圖表的標題和軸標籤？
 
 您可以透過存取圖表和座標區各自的屬性並設定所需的文字和格式來設定圖表和座標區的標題和標籤。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

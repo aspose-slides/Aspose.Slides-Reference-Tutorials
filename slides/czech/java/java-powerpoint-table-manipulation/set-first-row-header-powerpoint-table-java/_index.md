@@ -3,10 +3,14 @@ title: Nastavte první řádek jako záhlaví v tabulce PowerPoint pomocí Java
 linktitle: Nastavte první řádek jako záhlaví v tabulce PowerPoint pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit první řádek jako záhlaví v tabulkách PowerPoint pomocí Aspose.Slides pro Java. Zlepšete přehlednost a organizaci prezentace bez námahy.
-type: docs
 weight: 19
 url: /cs/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V tomto tutoriálu se ponoříme do toho, jak manipulovat s tabulkami aplikace PowerPoint pomocí Aspose.Slides for Java, výkonné knihovny, která umožňuje bezproblémovou integraci a úpravy prezentací. Konkrétně se zaměříme na nastavení prvního řádku tabulky jako záhlaví, čímž se zvýší vizuální přitažlivost a organizace vašich snímků.
 ## Předpoklady
@@ -76,3 +80,9 @@ Aspose.Slides for Java je robustní knihovna pro programovou práci se soubory P
  K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
  Můžete získat podporu komunity[tady](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

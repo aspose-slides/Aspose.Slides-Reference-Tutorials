@@ -3,10 +3,14 @@ title: Compression de polices intégrée dans Java PowerPoint
 linktitle: Compression de polices intégrée dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment compresser les polices intégrées dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Optimisez la taille des fichiers sans effort.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le paysage dynamique des présentations numériques, la capacité à optimiser la taille des fichiers sans compromettre la qualité est primordiale. Aspose.Slides pour Java offre une solution puissante pour améliorer l'efficacité des présentations PowerPoint en permettant la compression des polices intégrées. Ce didacticiel vous guidera tout au long du processus d'exploitation de cette fonctionnalité pour réduire efficacement la taille des fichiers, garantissant ainsi une distribution plus fluide et des performances améliorées de vos présentations.
 ## Conditions préalables
@@ -64,3 +68,9 @@ Oui, Aspose.Slides offre des fonctionnalités de cryptage et de protection par m
  Certainement! Vous pouvez demander l'aide de la communauté Aspose.Slides via le site dédié[forum](https://forum.aspose.com/c/slides/11) ou envisagez d'acquérir une licence temporaire pour une assistance prioritaire.
 ### Comment puis-je acheter une version sous licence d’Aspose.Slides pour Java ?
 Vous pouvez acheter une version sous licence d'Aspose.Slides pour Java sur le site Web en utilisant le[acheter un lien](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

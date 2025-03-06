@@ -3,10 +3,14 @@ title: Ustawianie osi pozycji w slajdach Java
 linktitle: Ustawianie osi pozycji w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz swoje wykresy za pomocą Aspose.Slides dla Java. Dowiedz się, jak ustawić oś pozycji na slajdach Java, tworzyć wspaniałe prezentacje i z łatwością dostosowywać układy wykresów.
-type: docs
 weight: 16
 url: /pl/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do ustawiania osi pozycji w Aspose.Slides dla Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 To wszystko w tym samouczku. Nauczyłeś się, jak ustawić oś pozycji na wykresie za pomocą Aspose.Slides dla Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

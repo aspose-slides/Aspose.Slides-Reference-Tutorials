@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 更改演示文稿中的 OLE 对象数据
 linktitle: 使用 Aspose.Slides 更改演示文稿中的 OLE 对象数据
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索 Aspose.Slides for .NET 的强大功能，轻松更改 OLE 对象数据。使用动态内容增强您的演示文稿。
-type: docs
 weight: 25
 url: /zh/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 创建动态和交互式 PowerPoint 演示文稿是当今数字世界的常见要求。实现此目的的一个强大工具是 Aspose.Slides for .NET，这是一个强大的库，允许开发人员以编程方式操作和增强 PowerPoint 演示文稿。在本教程中，我们将深入研究使用 Aspose.Slides 在演示文稿幻灯片中更改 OLE（对象链接和嵌入）对象数据的过程。
 ## 先决条件
@@ -88,3 +92,9 @@ Aspose.Slides for .NET 是一个功能强大的库，使开发人员能够以编
 是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### 在哪里可以获得 Aspose.Slides for .NET 的支持？
 如需支持和讨论，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Vytváření obdélníkových tvarů pomocí Aspose.Slides pro .NET
 linktitle: Vytvoření jednoduchého obdélníkového tvaru v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte svět dynamických prezentací PowerPoint s Aspose.Slides pro .NET. Naučte se vytvářet poutavé obdélníkové tvary na snímcích pomocí tohoto podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Pokud chcete vylepšit své aplikace .NET pomocí dynamických a vizuálně přitažlivých prezentací PowerPoint, Aspose.Slides for .NET je vaším řešením. V tomto tutoriálu vás provedeme procesem vytváření jednoduchého obdélníkového tvaru na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -61,3 +65,9 @@ Ano, Aspose.Slides for .NET je nezávislý na platformě a lze jej použít v pr
  Ano, můžete si zakoupit dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu dokumentaci k Aspose.Slides pro .NET?
  Viz dokumentace[tady](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

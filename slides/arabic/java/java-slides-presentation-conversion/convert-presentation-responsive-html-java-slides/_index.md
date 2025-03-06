@@ -3,10 +3,14 @@ title: تحويل العرض التقديمي إلى HTML سريع الاستج�
 linktitle: تحويل العرض التقديمي إلى HTML سريع الاستجابة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى HTML سريع الاستجابة في Java Slides دون عناء باستخدام Aspose.Slides. اجعل المحتوى الخاص بك قابلاً للوصول على أي جهاز.
-type: docs
 weight: 18
 url: /ar/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحويل العرض التقديمي إلى HTML سريع الاستجابة في شرائح Java
 
@@ -108,3 +112,9 @@ finally
 ### هل يمكنني تحويل العروض التقديمية إلى تنسيقات أخرى أيضًا؟
 
 نعم، يدعم Aspose.Slides مجموعة واسعة من تنسيقات الإخراج، بما في ذلك PDF والصور والمزيد. يمكنك استكشاف الوثائق للحصول على خيارات تحويل إضافية.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

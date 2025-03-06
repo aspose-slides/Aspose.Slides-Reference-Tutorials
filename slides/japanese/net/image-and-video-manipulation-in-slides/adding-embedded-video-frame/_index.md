@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET プレゼンテーションに埋め込みビデオ�
 linktitle: Aspose.Slides - .NET プレゼンテーションに埋め込みビデオを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、埋め込みビデオでプレゼンテーションを強化します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 19
 url: /ja/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 プレゼンテーションのダイナミックな世界では、マルチメディア要素を統合することでエンゲージメントを大幅に高めることができます。Aspose.Slides for .NET は、プレゼンテーション スライドに埋め込みビデオ フレームを組み込むための強力なソリューションを提供します。このチュートリアルでは、シームレスなエクスペリエンスを実現するために、各ステップを詳しく説明しながら、プロセス全体を説明します。
 ## 前提条件
@@ -75,3 +79,9 @@ Aspose.Slides は、MP4、AVI、WMV など、さまざまなビデオ形式を�
 埋め込まれるビデオの数は、通常、プレゼンテーション ソフトウェアの容量によって制限されます。
 ### さらにサポートを求めたり、経験を共有したりするにはどうすればいいですか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

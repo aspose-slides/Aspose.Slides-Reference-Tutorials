@@ -3,10 +3,14 @@ title: Odwróć wartość ujemną dla poszczególnych serii w slajdach Java
 linktitle: Odwróć wartość ujemną dla poszczególnych serii w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak korzystać z funkcji Odwróć, jeśli jest ujemna w Aspose.Slides dla Java, aby ulepszyć wizualizację wykresów w prezentacjach programu PowerPoint.
-type: docs
 weight: 11
 url: /pl/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do odwracania wartości ujemnych dla poszczególnych serii w slajdach Java
 
@@ -131,3 +135,9 @@ Tak, możesz dostosować wygląd odwróconych punktów danych. Aspose.Slides dla
 ### Gdzie mogę uzyskać dostęp do dokumentacji Aspose.Slides for Java?
 
 Dostęp do dokumentacji Aspose.Slides for Java można uzyskać pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Uložit jako předdefinovaný typ zobrazení v Java Slides
 linktitle: Uložit jako předdefinovaný typ zobrazení v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit předdefinované typy zobrazení v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu a často kladenými dotazy.
-type: docs
 weight: 10
 url: /cs/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Uložit jako předdefinovaný typ zobrazení v Java Slides
 
@@ -109,3 +113,9 @@ Ano, Aspose.Slides for Java se dobře hodí pro úlohy dávkového zpracování.
 ### Kde najdu další informace a dokumentaci k Aspose.Slides for Java?
 
  Pro komplexní dokumentaci a reference související s Aspose.Slides for Java navštivte prosím webovou stránku s dokumentací:[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

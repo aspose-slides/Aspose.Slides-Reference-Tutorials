@@ -3,10 +3,14 @@ title: ตรวจสอบตัวอย่างรหัสผ่านใ�
 linktitle: ตรวจสอบตัวอย่างรหัสผ่านใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีตรวจสอบรหัสผ่านใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java เพิ่มความปลอดภัยในการนำเสนอด้วยคำแนะนำทีละขั้นตอน
-type: docs
 weight: 14
 url: /th/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับตัวอย่างการตรวจสอบรหัสผ่านใน Java Slides
 
@@ -99,3 +103,9 @@ presentationInfo.removePassword("current_password");
 ### ฉันจะหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้บนเว็บไซต์ Aspose[ที่นี่](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

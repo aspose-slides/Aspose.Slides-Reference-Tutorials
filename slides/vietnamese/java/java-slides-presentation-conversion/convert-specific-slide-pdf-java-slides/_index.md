@@ -3,10 +3,14 @@ title: Chuyển đổi slide cụ thể sang PDF trong Java Slides
 linktitle: Chuyển đổi slide cụ thể sang PDF trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi các trang trình bày cụ thể sang PDF trong Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã dành cho nhà phát triển Java.
-type: docs
 weight: 20
 url: /vi/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chuyển đổi Slide cụ thể sang PDF trong Java Slides
 
@@ -107,3 +111,9 @@ Bạn có thể tùy chỉnh giao diện của tệp PDF đã chuyển đổi b�
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy các ví dụ về mã và tài liệu toàn diện trên trang tài liệu Aspose.Slides for Java[đây](https://reference.aspose.com/slides/java/). Khám phá tài liệu để khám phá thêm các tính năng và trường hợp sử dụng.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

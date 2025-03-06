@@ -3,10 +3,14 @@ title: إضافة إطار فيديو في PowerPoint
 linktitle: إضافة إطار فيديو في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية دمج محتوى الفيديو بسلاسة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تحتوي شرائحك على عناصر الوسائط المتعددة لإشراك جمهورك.
-type: docs
 weight: 17
 url: /ar/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة إطار فيديو إلى عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java. باتباع هذه التعليمات خطوة بخطوة، ستتمكن من دمج محتوى الفيديو بسهولة في عروضك التقديمية.
 ## المتطلبات الأساسية
@@ -60,3 +64,9 @@ pres.save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
 نعم، يمكنك ضبط وضع التشغيل وحجم إطار الفيديو وفقًا لتفضيلاتك.
 ### أين يمكنني العثور على مزيد من الدعم والموارد لـ Aspose.Slides؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة والتوثيق ودعم المجتمع.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

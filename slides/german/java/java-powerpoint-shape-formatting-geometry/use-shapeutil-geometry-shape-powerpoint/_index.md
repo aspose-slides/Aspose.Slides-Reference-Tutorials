@@ -3,10 +3,14 @@ title: Verwenden Sie ShapeUtil für geometrische Formen in PowerPoint
 linktitle: Verwenden Sie ShapeUtil für geometrische Formen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erstellen Sie mit Aspose.Slides für Java benutzerdefinierte Formen in PowerPoint. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Präsentationen zu verbessern.
-type: docs
 weight: 23
 url: /de/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Das Erstellen optisch ansprechender PowerPoint-Präsentationen erfordert oft mehr als nur die Verwendung von Standardformen und -text. Stellen Sie sich vor, Sie könnten benutzerdefinierte Formen und Textpfade direkt in Ihre Folien einfügen und so die visuelle Wirkung Ihrer Präsentation verbessern. Mit Aspose.Slides für Java können Sie dies ganz einfach erreichen. Dieses Tutorial führt Sie durch den Prozess der Verwendung von`ShapeUtil` Klasse zum Erstellen geometrischer Formen in PowerPoint-Präsentationen. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Leistungsfähigkeit von Aspose.Slides für Java zu nutzen, um beeindruckende, individuell gestaltete Inhalte zu erstellen.
 ## Voraussetzungen
@@ -75,3 +79,9 @@ Aspose.Slides bietet eine kostenlose Testversion an, die Sie hier herunterladen 
  Der`ShapeUtil` Die Klasse in Aspose.Slides bietet Hilfsmethoden für die Arbeit mit Formen, beispielsweise das Konvertieren grafischer Pfade in geometrische Pfade.
 ### Wo erhalte ich Support für Aspose.Slides?
  Unterstützung erhalten Sie vom[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

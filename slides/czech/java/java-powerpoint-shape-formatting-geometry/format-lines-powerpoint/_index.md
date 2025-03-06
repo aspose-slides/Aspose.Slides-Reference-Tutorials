@@ -3,10 +3,14 @@ title: Formátovat řádky v PowerPointu
 linktitle: Formátovat řádky v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se formátovat čáry v PowerPointu pomocí Aspose.Slides for Java pomocí tohoto podrobného kurzu. Zdokonalte své prezentace pomocí vlastních stylů čar.
-type: docs
 weight: 16
 url: /cs/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 PowerPointové prezentace jsou základem v profesionálním i vzdělávacím prostředí. Díky schopnosti efektivně formátovat čáry na snímcích mohou vaše prezentace vypadat uhlazeně a profesionálně. V tomto tutoriálu prozkoumáme, jak používat Aspose.Slides pro Java k formátování řádků v prezentaci PowerPoint. Na konci této příručky budete schopni snadno vytvářet a formátovat čáry na snímcích.
 ## Předpoklady
@@ -87,3 +91,9 @@ Ano, Aspose.Slides for Java podporuje širokou škálu tvarů a podle potřeby m
  Ano, můžete získat bezplatnou zkušební verzi od[tady](https://releases.aspose.com/).
 ### Kde najdu podrobnější dokumentaci?
  Podrobná dokumentace je k dispozici na[dokumentační stránku](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

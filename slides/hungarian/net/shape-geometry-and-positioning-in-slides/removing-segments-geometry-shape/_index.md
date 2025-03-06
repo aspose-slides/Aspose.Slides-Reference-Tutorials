@@ -3,10 +3,14 @@ title: Alakzatszegmensek eltávolítása – Aspose.Slides .NET oktatóanyag
 linktitle: Szegmensek eltávolítása a geometriai alakzatból a prezentációs diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan távolíthat el szegmenseket a prezentációs diák geometriai alakzataiból az Aspose.Slides API for .NET használatával. Lépésről lépésre útmutató forráskóddal.
-type: docs
 weight: 16
 url: /hu/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 A tetszetős prezentációk létrehozása gyakran magában foglalja a formák és elemek manipulálását a kívánt kialakítás elérése érdekében. Az Aspose.Slides for .NET segítségével a fejlesztők könnyedén szabályozhatják az alakzatok geometriáját, lehetővé téve az egyes szegmensek eltávolítását. Ebben az oktatóanyagban végigvezetjük a szegmensek eltávolításának folyamatán egy geometriai alakzatból a prezentációs diákban az Aspose.Slides for .NET használatával.
 ## Előfeltételek
@@ -68,3 +72,9 @@ Megfelelő hibakezelés végrehajtása try-catch blokkokkal.
 Nem, a változtatások a mentés után visszafordíthatatlanok. A módosítás előtt fontolja meg a biztonsági másolatok mentését.
 ### Hol kérhetek további támogatást vagy segítséget?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

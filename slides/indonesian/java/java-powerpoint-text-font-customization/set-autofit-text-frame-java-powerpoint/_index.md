@@ -3,10 +3,14 @@ title: Atur Autofit Bingkai Teks di Java PowerPoint
 linktitle: Atur Autofit Bingkai Teks di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur penyesuaian otomatis untuk bingkai teks di Java PowerPoint menggunakan Aspose.Slides untuk Java. Buat presentasi dinamis dengan mudah.
-type: docs
 weight: 14
 url: /id/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam pengembangan aplikasi Java, membuat presentasi PowerPoint yang dinamis dan menarik secara visual secara terprogram merupakan persyaratan umum. Aspose.Slides untuk Java menyediakan serangkaian API yang kuat untuk mencapai hal ini dengan mudah. Salah satu fitur penting adalah mengatur penyesuaian otomatis untuk bingkai teks, memastikan teks disesuaikan dengan rapi dalam bentuk tanpa penyesuaian manual. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memanfaatkan Aspose.Slides untuk Java untuk mengotomatiskan penyesuaian teks di slide PowerPoint.
 ## Prasyarat
@@ -86,3 +90,9 @@ Aspose.Slides for Java adalah Java API tangguh yang memungkinkan pengembang memb
  Anda dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk Java[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan komunitas dan profesional untuk Aspose.Slides untuk Java dari[Di Sini](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

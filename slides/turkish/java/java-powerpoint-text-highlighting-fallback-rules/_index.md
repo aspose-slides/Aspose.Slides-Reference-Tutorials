@@ -3,10 +3,14 @@ title: Java PowerPoint Metni Vurgulama ve Geri Dönme Kuralları
 linktitle: Java PowerPoint Metni Vurgulama ve Geri Dönme Kuralları
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java PowerPoint'te metin vurgulama ve yazı tipi geri dönüş kurallarında ustalaşın. Sunumlarınızı sorunsuz bir şekilde geliştirmek ve otomatikleştirmek için eğitimlerimizi takip edin.
-type: docs
 weight: 25
 url: /tr/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## giriiş
 
@@ -26,3 +30,9 @@ Bu eğitimleri takip ederek, Java PowerPoint sunumlarınızı vurgulanan metin v
 Aspose.Slides for Java'yı kullanarak PowerPoint'te metni nasıl vurgulayacağınızı öğrenin. Ayrıntılı kılavuzumuzla sunumları zahmetsizce otomatikleştirin ve geliştirin.
 ### [Java PowerPoint'te Geri Dönme Kuralları Koleksiyonu](./fallback-rules-collection-java-powerpoint/)
 Aspose.Slides for Java kullanarak PowerPoint sunumlarında yazı tipi geri dönüş kurallarını nasıl yöneteceğinizi öğrenin. Cihazlar arasındaki uyumluluğu zahmetsizce geliştirin.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

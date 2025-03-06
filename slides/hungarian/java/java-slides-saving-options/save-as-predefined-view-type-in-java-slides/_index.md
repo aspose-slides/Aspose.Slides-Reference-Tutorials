@@ -3,10 +3,14 @@ title: Mentés előre meghatározott nézettípusként a Java Slides alkalmazás
 linktitle: Mentés előre meghatározott nézettípusként a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be előre meghatározott nézettípusokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-type: docs
 weight: 10
 url: /hu/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés az előre meghatározott nézettípusként történő mentéshez a Java Slides alkalmazásban
 
@@ -109,3 +113,9 @@ Igen, az Aspose.Slides for Java kiválóan alkalmas kötegelt feldolgozási fela
 ### Hol találok további információt és dokumentációt az Aspose.Slides for Java programhoz?
 
  Az Aspose.Slides for Java-hoz kapcsolódó átfogó dokumentációért és hivatkozásokért látogasson el a dokumentációs webhelyre:[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

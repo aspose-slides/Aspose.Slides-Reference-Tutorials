@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 PowerPoint에서 애니메이션 후 효과
 linktitle: 슬라이드에서 애니메이션 유형 후 제어
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 애니메이션 후 효과를 제어하는 방법을 알아보세요. 역동적인 시각적 요소로 프레젠테이션을 향상시키세요.
-type: docs
 weight: 11
 url: /ko/net/slide-animation-control/control-after-animation-type/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 역동적인 애니메이션으로 프레젠테이션을 향상시키는 것은 청중의 관심을 끄는 데 있어 중요한 측면입니다. Aspose.Slides for .NET은 슬라이드의 애니메이션 후 효과를 제어하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 애니메이션 후 유형을 조작하는 과정을 안내합니다. 이 단계별 가이드를 따르면 더욱 대화형이고 시각적으로 매력적인 프레젠테이션을 만들 수 있습니다.
 ## 전제 조건
@@ -87,3 +91,9 @@ pres.Save(outPath, SaveFormat.Pptx);
 Aspose.Slides는 PPTX, PPT, PDF 등을 포함한 다양한 형식을 지원합니다. 전체 목록은 설명서를 확인하세요.
 ### Aspose.Slides와 관련된 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원 및 지역 사회 상호 작용을 위해.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

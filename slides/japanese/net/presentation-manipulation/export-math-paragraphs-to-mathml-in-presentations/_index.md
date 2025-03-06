@@ -3,10 +3,14 @@ title: プレゼンテーションで数式段落を MathML にエクスポー�
 linktitle: プレゼンテーションで数式段落を MathML にエクスポートする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して数式段落を MathML にエクスポートすることで、プレゼンテーションを強化します。正確な数式レンダリングについては、当社のステップ バイ ステップ ガイドに従ってください。Aspose.Slides をダウンロードして、今すぐ魅力的なプレゼンテーションの作成を始めましょう。
-type: docs
 weight: 14
 url: /ja/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 現代のプレゼンテーションの世界では、数学的なコンテンツは複雑なアイデアやデータを伝える上で重要な役割を果たします。Aspose.Slides for .NET を使用している場合は、ラッキーです。このチュートリアルでは、数学的な段落を MathML にエクスポートするプロセスについて説明します。これにより、数学的なコンテンツをプレゼンテーションにシームレスに統合できます。それでは、MathML と Aspose.Slides の世界に飛び込んでみましょう。
 
@@ -73,3 +77,10 @@ using (Presentation pres = new Presentation())
 はい、Aspose.Slides for .NET を使用すると、MathML コンテンツを既存のプレゼンテーションに簡単に統合できます。
 
 Aspose.Slides for .NET を使用して数式段落を MathML にエクスポートする方法を学習したので、数学的なコンテンツを含むダイナミックで魅力的なプレゼンテーションを作成する準備が整いました。プレゼンテーションをお楽しみください!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

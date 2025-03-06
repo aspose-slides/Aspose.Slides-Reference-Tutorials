@@ -3,10 +3,14 @@ title: Definir substituto de fonte em Java PowerPoint
 linktitle: Definir substituto de fonte em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir substitutos de fonte no Java PowerPoint usando Aspose.Slides for Java para garantir a exibição consistente do texto.
-type: docs
 weight: 16
 url: /pt/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, nos aprofundaremos nas complexidades da configuração de substitutos de fonte em apresentações Java PowerPoint usando Aspose.Slides para Java. Os substitutos de fontes são cruciais para garantir que o texto em suas apresentações seja exibido corretamente em diferentes dispositivos e sistemas operacionais, mesmo quando as fontes necessárias não estiverem disponíveis.
 ## Pré-requisitos
@@ -53,3 +57,9 @@ Sim, Aspose.Slides for Java é compatível com IDEs Java populares como IntelliJ
 Sim, licenças temporárias para produtos Aspose podem ser obtidas em[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar suporte para Aspose.Slides for Java?
  Para obter suporte relacionado ao Aspose.Slides for Java, visite o[Aspor fórum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

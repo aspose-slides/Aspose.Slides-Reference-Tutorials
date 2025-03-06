@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET - البرنامج التعليمي لاستخرا
 linktitle: استخراج بيانات الملف المضمنة من كائن OLE في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.Slides لـ .NET من خلال دليلنا خطوة بخطوة حول استخراج بيانات الملف المضمنة من كائنات OLE. رفع قدرات معالجة PowerPoint الخاص بك!
-type: docs
 weight: 20
 url: /ar/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 إذا كنت تتعمق في عالم Aspose.Slides لـ .NET، فأنت على الطريق الصحيح لرفع قدرات معالجة PowerPoint لديك. في هذا الدليل الشامل، سنرشدك خلال عملية استخراج بيانات الملف المضمنة من كائن OLE باستخدام Aspose.Slides. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى Aspose.Slides، سيوفر لك هذا البرنامج التعليمي خريطة طريق واضحة ومفصلة لتسخير الإمكانات الكاملة لمكتبة .NET القوية هذه.
 ## المتطلبات الأساسية
@@ -81,3 +85,9 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
  نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
  تفضل بزيارة منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) للمساعدة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

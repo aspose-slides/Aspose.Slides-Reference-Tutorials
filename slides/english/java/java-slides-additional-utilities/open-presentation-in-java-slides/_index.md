@@ -3,10 +3,14 @@ title: Open Presentation in Java Slides
 linktitle: Open Presentation in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to open PowerPoint presentations in Java using Aspose.Slides for Java. Step-by-step guide with source code examples for efficient presentation handling.
-type: docs
 weight: 16
 url: /java/additional-utilities/open-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Open a Presentation in Aspose.Slides for Java
 
@@ -112,3 +116,10 @@ For technical support, bug reports, and assistance with using Aspose.Slides for 
 ### Can I convert PowerPoint presentations to other formats using Aspose.Slides for Java?
 
 Yes, Aspose.Slides for Java allows you to convert PowerPoint presentations to various formats, such as PDF, images, HTML, and more. You can explore the library's documentation and examples to learn how to perform these conversions programmatically.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

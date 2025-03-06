@@ -3,10 +3,14 @@ title: Java を使用して SmartArt の非表示プロパティを確認する
 linktitle: Java を使用して SmartArt の非表示プロパティを確認する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint で SmartArt の非表示プロパティを確認し、プレゼンテーションの操作を強化する方法を説明します。
-type: docs
 weight: 24
 url: /ja/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Java プログラミングのダイナミックな世界では、PowerPoint プレゼンテーションをプログラムで操作することは貴重なスキルです。Aspose.Slides for Java は、開発者が PowerPoint プレゼンテーションをシームレスに作成、変更、操作できるようにする強力なライブラリです。プレゼンテーション操作の重要なタスクの 1 つは、SmartArt オブジェクトの非表示プロパティを確認することです。このチュートリアルでは、Aspose.Slides for Java を使用して SmartArt の非表示プロパティを確認する手順を説明します。
 ## 前提条件
@@ -76,3 +80,9 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 はい、Aspose.Slides for Java は、PPT、PPTX、POT、POTX、PPS など、幅広い PowerPoint ファイル形式をサポートしています。
 ### Aspose.Slides for Java に関するサポートを受けられるコミュニティやフォーラムはありますか?
 はい、Aspose.Slidesフォーラム（https://forum.aspose.com/c/slides/11) にアクセスして質問したり、アイデアを共有したり、コミュニティからサポートを受けたりすることができます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

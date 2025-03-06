@@ -3,10 +3,14 @@ title: Hasilkan SVG dengan ID Bentuk Kustom di Presentasi
 linktitle: Hasilkan SVG dengan ID Bentuk Kustom di Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Hasilkan presentasi menarik dengan bentuk dan ID SVG khusus menggunakan Aspose.Slides untuk .NET. Pelajari cara membuat slide interaktif langkah demi langkah dengan contoh kode sumber. Tingkatkan daya tarik visual dan interaksi pengguna dalam presentasi Anda.
-type: docs
 weight: 19
 url: /id/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Apakah Anda ingin memanfaatkan kekuatan Aspose.Slides untuk .NET untuk menghasilkan file SVG dengan ID bentuk khusus? Anda berada di tempat yang tepat! Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses menggunakan cuplikan kode sumber berikut. Pada akhirnya, Anda akan diperlengkapi dengan baik untuk membuat file SVG dengan ID bentuk khusus di presentasi Anda.
 
@@ -78,3 +82,10 @@ Dan itu dia! Anda telah berhasil membuat file SVG dengan ID bentuk khusus menggu
     Untuk dokumentasi tambahan, kunjungi[Aspose.Slides untuk Referensi .NET API](https://reference.aspose.com/slides/net/).
 
 Sekarang, lanjutkan dan jelajahi kemungkinan tak terbatas dari pembuatan SVG dengan Aspose.Slides untuk .NET. Selamat membuat kode!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

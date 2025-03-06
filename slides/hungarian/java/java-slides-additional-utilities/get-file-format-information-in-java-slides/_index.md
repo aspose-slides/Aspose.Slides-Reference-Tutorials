@@ -3,10 +3,14 @@ title: Fájlformátuminformációkat szerezhet be a Java Slides alkalmazásban
 linktitle: Fájlformátuminformációkat szerezhet be a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kérheti le a fájlformátum-információkat a Java Slides alkalmazásban az Aspose.Slides for Java API segítségével. Azonosítsa a prezentációs formátumokat kódpéldákkal.
-type: docs
 weight: 11
 url: /hu/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a fájlformátum-információk lekéréséhez a Java Slides-ben
 
@@ -113,3 +117,9 @@ Az Aspose.Slides for Java egy kereskedelmi könyvtár, de ingyenes próbaverzió
 ### Hogyan fordulhatok segítségért az Aspose ügyfélszolgálatához?
 
 Az Aspose ügyfélszolgálatát a webhelyükön keresztül érheti el. Dedikált támogatási csatornákat biztosítanak, amelyek segítenek Önnek a termékeik használata során felmerülő kérdések vagy problémák megoldásában.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

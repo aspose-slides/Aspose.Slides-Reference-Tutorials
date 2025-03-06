@@ -3,10 +3,14 @@ title: Créez de superbes dégradés dans PowerPoint avec Aspose.Slides
 linktitle: Remplissage de formes avec dégradé dans les diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec Aspose.Slides pour .NET ! Apprenez le processus étape par étape pour remplir des formes avec des dégradés. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 21
 url: /fr/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 La création de diapositives de présentation visuellement captivantes est essentielle pour capter et maintenir l'attention de votre public. Dans ce didacticiel, nous vous guiderons tout au long du processus d'amélioration de vos diapositives en remplissant une forme d'ellipse avec un dégradé à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -73,3 +77,9 @@ R : Certainement ! Aspose.Slides pour .NET prend en charge le remplissage en dé
  R : Demandez de l'aide et engagez-vous auprès de la communauté sur le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Q : Puis-je acheter une licence temporaire pour Aspose.Slides pour .NET ?
  R : Bien sûr, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

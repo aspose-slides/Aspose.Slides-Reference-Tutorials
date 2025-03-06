@@ -3,10 +3,14 @@ title: Thêm hình ảnh bên trong ô bảng trong Java PowerPoint
 linktitle: Thêm hình ảnh bên trong ô bảng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm hình ảnh bên trong các ô bảng trong bản trình bày Java PowerPoint với hướng dẫn chi tiết từng bước này bằng cách sử dụng Aspose.Slides cho Java.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Nếu bạn đang tìm cách cải thiện bản trình bày PowerPoint bằng Java của mình bằng cách nhúng hình ảnh vào các ô của bảng thì bạn đã đến đúng nơi! Hôm nay, chúng ta sẽ đi sâu vào hướng dẫn chi tiết từng bước sử dụng Aspose.Slides cho Java. Hướng dẫn này sẽ hướng dẫn bạn toàn bộ quá trình, đảm bảo ngay cả người mới sử dụng cũng có thể làm theo và đạt được kết quả đáng kinh ngạc.
 ## Điều kiện tiên quyết
@@ -104,3 +108,9 @@ Aspose.Slides hỗ trợ nhiều định dạng hình ảnh khác nhau bao gồm
  Bạn có thể tham khảo các[tài liệu](https://reference.aspose.com/slides/java/) để biết thêm thông tin chi tiết và ví dụ.
 ### Làm cách nào tôi có thể mua Aspose.Slides cho Java?
  Bạn có thể mua nó từ[trang web giả định](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

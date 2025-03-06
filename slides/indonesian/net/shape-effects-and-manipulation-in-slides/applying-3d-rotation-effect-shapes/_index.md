@@ -3,10 +3,14 @@ title: Menguasai Rotasi 3D dalam Presentasi dengan Aspose.Slides for .NET
 linktitle: Menerapkan Efek Rotasi 3D pada Bentuk di Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari cara menerapkan efek rotasi 3D pada bentuk dalam tutorial ini. Buat presentasi yang dinamis dan menakjubkan secara visual.
-type: docs
 weight: 23
 url: /id/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat slide presentasi yang menarik dan dinamis adalah aspek kunci dari komunikasi yang efektif. Aspose.Slides for .NET menyediakan seperangkat alat canggih untuk menyempurnakan presentasi Anda, termasuk kemampuan untuk menerapkan efek rotasi 3D pada bentuk. Dalam tutorial ini, kita akan memandu proses penerapan efek rotasi 3D pada bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -60,3 +64,9 @@ Ya, Anda dapat menerapkan efek rotasi 3D ke berbagai bentuk, termasuk kotak teks
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk .NET?
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

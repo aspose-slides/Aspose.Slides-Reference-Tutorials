@@ -3,10 +3,14 @@ title: Állítsa be a felsorolásjel-kitöltés formátumát a SmartArt alkalmaz
 linktitle: Állítsa be a felsorolásjel-kitöltés formátumát a SmartArt alkalmazásban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be felsorolásjel-kitöltési formátumot a SmartArt alkalmazásban Java és Aspose.Slides használatával. Lépésről lépésre útmutató a hatékony prezentációkezeléshez.
-type: docs
 weight: 18
 url: /hu/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Java programozás területén a prezentációk hatékony manipulálása általános követelmény, különösen a SmartArt elemek kezelésekor. Az Aspose.Slides for Java hatékony eszköz az ilyen feladatokhoz, és számos funkciót kínál a prezentációk programozott kezeléséhez. Ebben az oktatóanyagban lépésről lépésre bemutatjuk a felsorolásjelek kitöltési formátumának beállítását a SmartArtban Java és Aspose.Slides használatával.
 ## Előfeltételek
@@ -71,3 +75,9 @@ Az Aspose.Slides valóban lehetővé teszi a SmartArt-alakzatok minden aspektus�
  Igen, az Aspose.Slides szolgáltatásait ingyenes próbaverzióval fedezheti fel. Egyszerűen töltse le a[weboldal](https://releases.aspose.com/slides/java/) és kezdje el felfedezni.
 ### Hol találok támogatást az Aspose.Slides for Java számára?
  Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Slides fórumot a címen[ez a link](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

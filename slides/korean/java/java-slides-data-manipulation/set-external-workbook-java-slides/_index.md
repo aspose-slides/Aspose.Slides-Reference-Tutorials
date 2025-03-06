@@ -3,10 +3,14 @@ title: Java 슬라이드에서 외부 통합 문서 설정
 linktitle: Java 슬라이드에서 외부 통합 문서 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides에서 외부 통합 문서를 설정하는 방법을 알아보세요. Excel 데이터 통합으로 동적 프레젠테이션을 만드세요.
-type: docs
 weight: 19
 url: /ko/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 외부 통합 문서 설정 소개
 
@@ -119,3 +123,9 @@ Aspose.Slides for Java는 최신 Java 버전과의 호환성을 보장하기 위
 ### 동일한 외부 통합 문서를 참조하는 여러 차트를 추가할 수 있나요?
 
 예, 프레젠테이션에 여러 차트를 추가할 수 있으며 모두 동일한 외부 통합 문서를 참조합니다. 생성하려는 각 차트에 대해 이 튜토리얼에 설명된 단계를 반복하기만 하면 됩니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

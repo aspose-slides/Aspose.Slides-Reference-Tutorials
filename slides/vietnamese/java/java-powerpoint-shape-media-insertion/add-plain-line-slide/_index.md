@@ -3,10 +3,14 @@ title: Thêm dòng trơn vào slide
 linktitle: Thêm dòng trơn vào slide
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm một dòng đơn giản vào trang chiếu PowerPoint theo chương trình bằng cách sử dụng Aspose.Slides cho Java. Tăng năng suất của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà phát triển Java làm việc với các bản trình bày PowerPoint theo chương trình. Với Aspose.Slides, bạn có thể tạo, sửa đổi và chuyển đổi các tệp PowerPoint một cách dễ dàng, giúp bạn tiết kiệm thời gian và công sức. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm một dòng đơn giản vào trang chiếu trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Tuyệt đối! Aspose.Slides cung cấp nhiều loại hình dạng, bao gồm 
 Có, bạn có thể thêm văn bản, hình ảnh và nội dung khác vào trang trình bày bằng API Aspose.Slides.
 ### Có bản dùng thử miễn phí cho Aspose.Slides không?
  Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides từ[đây](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

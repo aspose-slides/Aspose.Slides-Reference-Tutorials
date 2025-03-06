@@ -3,10 +3,14 @@ title: خيارات العرض في PowerPoint
 linktitle: خيارات العرض في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع خيارات العرض في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص الشرائح الخاصة بك للحصول على التأثير البصري الأمثل.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من Aspose.Slides لـ Java لمعالجة خيارات العرض في عروض PowerPoint التقديمية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ if (pres != null) pres.dispose();
 بالتأكيد! يتيح لك Aspose.Slides تعيين خلفيات مخصصة للشرائح قبل عرضها.
 ### هل هناك طريقة لتقديم الشرائح مباشرة إلى مستند PDF؟
 نعم، يوفر Aspose.Slides وظيفة لتحويل عروض PowerPoint التقديمية مباشرةً إلى ملفات PDF بدقة عالية.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

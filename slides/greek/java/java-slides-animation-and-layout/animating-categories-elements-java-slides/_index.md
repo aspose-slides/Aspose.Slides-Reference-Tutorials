@@ -3,10 +3,14 @@ title: Κινούμενη κίνηση στοιχείων κατηγοριών �
 linktitle: Κινούμενη κίνηση στοιχείων κατηγοριών σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε τις παρουσιάσεις σας Java με το Aspose.Slides for Java. Μάθετε πώς να κάνετε κίνηση στοιχείων κατηγορίας στις διαφάνειες του PowerPoint βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στην Κινούμενη Στοιχεία Κατηγοριών σε Διαφάνειες Java
 
@@ -117,3 +121,10 @@ finally
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για Java;
 
  Για πλήρη τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε τη διεύθυνση[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Μπορείτε επίσης να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

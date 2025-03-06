@@ -3,10 +3,14 @@ title: Create SmartArt Child Note Thumbnail
 linktitle: Create SmartArt Child Note Thumbnail
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create SmartArt child note thumbnails in Java with Aspose.Slides, enhancing your PowerPoint presentations effortlessly.
-type: docs
 weight: 15
 url: /java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, we'll explore how to create SmartArt child note thumbnails in Java using Aspose.Slides. Aspose.Slides is a powerful Java API that allows developers to work with PowerPoint presentations programmatically, enabling them to create, modify, and manipulate slides with ease.
 ## Prerequisites
@@ -70,3 +74,10 @@ Yes, Aspose.Slides is designed to handle enterprise-level PowerPoint automation 
 Certainly! Aspose.Slides provides comprehensive support for creating and manipulating SmartArt diagrams of varying complexities.
 ### Does Aspose.Slides offer technical support for developers?
 Yes, Aspose.Slides provides dedicated technical support for developers through their [forum](https://forum.aspose.com/c/slides/11) and other channels.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

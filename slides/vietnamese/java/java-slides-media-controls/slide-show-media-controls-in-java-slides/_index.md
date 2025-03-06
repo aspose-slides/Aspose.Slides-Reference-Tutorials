@@ -3,10 +3,14 @@ title: Điều khiển phương tiện trình chiếu trong Java Slides
 linktitle: Điều khiển phương tiện trình chiếu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu Cách bật và sử dụng Điều khiển phương tiện trong Trang trình bày Java với Aspose.Slides cho Java. Cải thiện bản trình bày của bạn bằng điều khiển phương tiện.
-type: docs
 weight: 11
 url: /vi/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Điều khiển phương tiện trình chiếu trong Java Slides
 
@@ -108,3 +112,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách bật và sử dụ
 ### Có cách nào để thêm phụ đề hoặc chú thích vào video trong Java Slides không?
 
 Có, bạn có thể thêm phụ đề hoặc chú thích vào video trong Java Slides bằng cách thêm khung văn bản hoặc hình dạng vào slide chứa video. Sau đó, bạn có thể đồng bộ hóa văn bản với quá trình phát lại video bằng cách sử dụng cài đặt thời gian.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

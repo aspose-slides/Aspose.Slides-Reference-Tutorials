@@ -3,10 +3,14 @@ title: Gérer les puces d'image de paragraphe dans Java PowerPoint
 linktitle: Gérer les puces d'image de paragraphe dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des puces d'image personnalisées aux diapositives PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez ce guide détaillé étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Créer des présentations engageantes et visuellement attrayantes est une compétence cruciale dans le monde des affaires moderne. Les développeurs Java peuvent tirer parti d'Aspose.Slides pour améliorer leurs présentations avec des puces d'images personnalisées dans les diapositives PowerPoint. Ce didacticiel vous guidera étape par étape tout au long du processus, vous garantissant ainsi d'ajouter en toute confiance des puces illustrées à vos présentations.
 ## Conditions préalables
@@ -104,3 +108,9 @@ Oui, vous pouvez utiliser n'importe quelle image pour les puces d'image à condi
 Oui, vous pouvez ajouter plusieurs paragraphes avec différents styles de puces à une seule forme automatique en créant et en configurant chaque paragraphe individuellement.
 ### Où puis-je trouver plus d’exemples et d’assistance ?
  Vous pouvez trouver plus d'exemples dans le[Documentation](https://reference.aspose.com/slides/java/) et bénéficiez du soutien de la communauté Aspose sur le[forums](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

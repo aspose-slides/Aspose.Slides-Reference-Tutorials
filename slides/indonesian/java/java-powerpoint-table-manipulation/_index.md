@@ -3,10 +3,14 @@ title: Manipulasi Tabel Java PowerPoint
 linktitle: Manipulasi Tabel Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Manipulasi tabel Java PowerPoint dengan Aspose.Slides. Pelajari cara menambahkan gambar, memisahkan sel, membuat tabel, dan banyak lagi melalui tutorial langkah demi langkah kami yang mendetail.
-type: docs
 weight: 30
 url: /id/java/java-powerpoint-table-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 
 Menguasai manipulasi tabel dalam presentasi PowerPoint dapat meningkatkan efektivitas dan daya tarik visual slide Anda secara signifikan. Aspose.Slides untuk Java menawarkan serangkaian fitur canggih untuk memanipulasi tabel secara terprogram. Baik Anda menambahkan gambar ke sel tabel, memisahkan atau menggabungkan sel, atau membuat tabel dari awal, tutorial ini akan memandu Anda melalui setiap proses langkah demi langkah. Mari selami dunia manipulasi tabel Java PowerPoint!
@@ -60,3 +64,9 @@ Pelajari cara mengatur baris pertama sebagai header di tabel PowerPoint mengguna
 Pelajari cara memformat teks di dalam tabel PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode untuk pengembang.
 ### [Buat Tabel Standar di PowerPoint dengan Java](./create-standard-tables-powerpoint-java/)
 Pelajari cara membuat tabel standar di PowerPoint dengan Java menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah kami yang terperinci untuk pengalaman yang lancar.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java 投影片中圖表的第二個繪圖選項
 linktitle: Java 投影片中圖表的第二個繪圖選項
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中自訂圖表。探索第二個情節選項並增強您的簡報。
-type: docs
 weight: 12
 url: /zh-hant/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片中圖表的第二個繪圖選項簡介
 
@@ -93,3 +97,9 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### 如何設定圓餅圖中的分割位置？
 
 您可以使用以下指令設定餅圖中的分割位置：`setPieSplitPosition`方法。調整該值以指定所需的位置。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

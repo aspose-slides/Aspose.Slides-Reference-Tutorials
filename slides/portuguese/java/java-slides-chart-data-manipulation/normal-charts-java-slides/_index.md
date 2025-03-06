@@ -3,10 +3,14 @@ title: Gráficos normais em slides Java
 linktitle: Gráficos normais em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Crie gráficos normais em slides Java com Aspose.Slides para Java. Guia passo a passo e código-fonte para criar, personalizar e salvar gráficos em apresentações do PowerPoint.
-type: docs
 weight: 21
 url: /pt/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução aos gráficos normais em slides Java
 
@@ -240,3 +244,9 @@ Neste tutorial, aprendemos como criar gráficos normais em Java Slides usando a 
 ### Como faço para salvar o gráfico em um formato de arquivo diferente?
 
  Para salvar o gráfico em um formato de arquivo diferente, altere o`SaveFormat` parâmetro no`pres.save()` método para o formato desejado (por exemplo, PDF, PNG, JPEG).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

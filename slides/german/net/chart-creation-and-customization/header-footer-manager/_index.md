@@ -3,10 +3,14 @@ title: Kopf- und Fußzeilen in Folien verwalten
 linktitle: Kopf- und Fußzeilen in Folien verwalten
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET dynamische Kopf- und Fußzeilen in PowerPoint-Präsentationen einfügen.
-type: docs
 weight: 14
 url: /de/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # Erstellen dynamischer Kopf- und Fußzeilen in Aspose.Slides für .NET
 
@@ -131,3 +135,9 @@ A2: Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET ausp
 
 ### F5: Gibt es eine Community oder ein Supportforum für Aspose.Slides für .NET?
  A5: Ja, Sie können das Aspose.Slides für .NET-Supportforum besuchen[Hier](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

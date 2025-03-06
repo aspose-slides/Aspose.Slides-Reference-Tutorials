@@ -3,10 +3,14 @@ title: Geser Pembuatan Gambar Mini di Aspose.Slide
 linktitle: Geser Pembuatan Gambar Mini di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Hasilkan thumbnail slide di Aspose.Slides untuk .NET dengan panduan langkah demi langkah dan contoh kode. Sesuaikan tampilan dan simpan thumbnail. Tingkatkan pratinjau presentasi.
-type: docs
 weight: 10
 url: /id/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Jika Anda ingin membuat thumbnail slide di aplikasi .NET menggunakan Aspose.Slides, Anda berada di tempat yang tepat. Membuat gambar mini slide dapat menjadi fitur berharga dalam berbagai skenario, seperti membuat penampil PowerPoint khusus atau membuat pratinjau gambar presentasi. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah. Kami akan membahas prasyarat, mengimpor namespace, dan mengelompokkan setiap contoh menjadi beberapa langkah, sehingga memudahkan Anda menerapkan pembuatan thumbnail slide dengan lancar.
 
@@ -111,3 +115,9 @@ A: Ya, Anda dapat menyesuaikan dimensi dengan mengubah parameter di`GetThumbnail
 J: Ya, Aspose.Slides adalah solusi tangguh untuk aplikasi pribadi dan komersial. Anda dapat menemukan detail lisensi di situs web Aspose.
 
  Untuk bantuan atau pertanyaan lebih lanjut, silakan kunjungi[Forum Dukungan Aspose.Slide](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

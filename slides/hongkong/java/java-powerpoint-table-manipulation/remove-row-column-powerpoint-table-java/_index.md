@@ -3,10 +3,14 @@ title: 使用 Java 刪除 PowerPoint 表格中的行或列
 linktitle: 使用 Java 刪除 PowerPoint 表格中的行或列
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides for Java 從 PowerPoint 表格中刪除行或列。為開發人員提供簡單的逐步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教程中，我們將探索如何在 Aspose.Slides 的幫助下使用 Java 從 PowerPoint 表格中刪除行或列。 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、操作和轉換 PowerPoint 簡報。本教學特別關注在 PowerPoint 投影片中修改表格的過程，逐步示範如何從表格中刪除特定的行或列。
 ## 先決條件
@@ -74,3 +78,9 @@ Aspose.Slides 為建立、修改和轉換 PowerPoint 簡報提供全面支持，
 是的，由於其強大的功能和效能，Aspose.Slides 被廣泛用於在企業環境中自動執行 PowerPoint 任務。
 ### 我可以在購買前試用 Aspose.Slides 嗎？
 是的，您可以從以下位置下載 Aspose.Slides 的免費試用版：[這裡](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

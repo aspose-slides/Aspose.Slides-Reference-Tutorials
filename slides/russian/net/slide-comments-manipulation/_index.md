@@ -3,10 +3,14 @@ title: Манипулирование комментариями к слайда
 linktitle: Манипулирование комментариями к слайдам
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Совершенствуйте свои навыки манипулирования слайдами с помощью руководств Aspose.Slides по манипулированию комментариями к слайдам. Научитесь программно добавлять, редактировать комментарии и управлять ими в презентациях PowerPoint с использованием .NET.
-type: docs
 weight: 12
 url: /ru/net/slide-comments-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение
 
@@ -27,3 +31,9 @@ url: /ru/net/slide-comments-manipulation/
 Добавьте глубины и интерактивности своим презентациям с помощью API Aspose.Slides. Узнайте, как легко интегрировать комментарии в слайды с помощью .NET. Повысьте вовлеченность и увлеките свою аудиторию.
 ### [Современное управление комментариями](./modern-comments/)
 Улучшите процессы сотрудничества и обратной связи с помощью современного управления комментариями с помощью Aspose.Slides. Узнайте, как оптимизировать общение в презентациях и повысить продуктивность.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Απόδοση σημειώσεων κατά τη μετατροπή τη
 linktitle: Απόδοση σημειώσεων κατά τη μετατροπή της παρουσίασης σε HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αποδίδετε αποτελεσματικά σημειώσεις ομιλητή κατά τη μετατροπή μιας παρουσίασης σε HTML χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει παραδείγματα πηγαίου κώδικα και πληροφορίες για να σας βοηθήσει να επιτύχετε απρόσκοπτη μετατροπή με τη διατήρηση των σημειώσεων.
-type: docs
 weight: 28
 url: /el/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Στη σημερινή ψηφιακή εποχή, η μετατροπή παρουσιάσεων σε μορφή HTML έχει γίνει μια κοινή απαίτηση. Σας επιτρέπει να μοιράζεστε εύκολα τις παρουσιάσεις σας στον ιστό, καθιστώντας τις προσβάσιμες σε ένα ευρύτερο κοινό. Το Aspose.Slides για .NET είναι ένα ισχυρό εργαλείο που απλοποιεί αυτήν τη διαδικασία. Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής μιας παρουσίασης σε HTML χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -79,3 +83,10 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
  Εάν αντιμετωπίζετε προβλήματα ή έχετε ερωτήσεις, μπορείτε να ζητήσετε βοήθεια σχετικά με το[Φόρουμ Aspose.Slides](https://forum.aspose.com/).
 
 Ακολουθώντας αυτά τα βήματα, μπορείτε εύκολα να μετατρέψετε τις παρουσιάσεις του PowerPoint σε HTML χρησιμοποιώντας το Aspose.Slides για .NET. Απολαύστε να μοιράζεστε τις παρουσιάσεις σας στο διαδίκτυο με ένα ευρύτερο κοινό!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

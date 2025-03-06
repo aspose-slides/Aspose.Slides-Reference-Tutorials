@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 멋진 스케치 모양 만들기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 스케치된 모양 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 창의적인 스케치 모양을 추가하는 방법을 알아보세요. 손쉽게 시각적 매력을 강화해보세요!
-type: docs
 weight: 13
 url: /ko/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 스케치된 모양을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 프레젠테이션에 창의성을 더하고 싶다면 스케치된 모양이 독특하고 손으로 그린 미학을 제공합니다. 이 튜토리얼에서는 원활한 경험을 보장하기 위해 프로세스를 간단한 단계로 나누어 프로세스를 안내합니다.
 ## 전제 조건
@@ -74,3 +78,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
  .NET용 Aspose.Slides를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
 ### 5. 임시 라이센스를 제공합니까?
  예, 임시 라이센스를 사용할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

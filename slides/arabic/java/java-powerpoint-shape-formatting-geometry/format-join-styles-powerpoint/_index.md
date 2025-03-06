@@ -3,10 +3,14 @@ title: تنسيق أنماط الانضمام في PowerPoint
 linktitle: تنسيق أنماط الانضمام في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية الخاصة بك عن طريق تعيين أنماط مختلفة لربط الأسطر للأشكال باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يمكن أن يكون إنشاء عروض PowerPoint التقديمية الجذابة مهمة شاقة، خاصة عندما تريد أن تكون كل التفاصيل مثالية. هذا هو المكان الذي يكون فيه Aspose.Slides for Java مفيدًا. إنها واجهة برمجة تطبيقات قوية تتيح لك إنشاء العروض التقديمية ومعالجتها وإدارتها برمجيًا. إحدى الميزات التي يمكنك استخدامها هي تعيين أنماط ربط خطوط مختلفة للأشكال، والتي يمكن أن تعزز بشكل كبير جماليات الشرائح الخاصة بك. في هذا البرنامج التعليمي، سوف نتعمق في كيفية استخدام Aspose.Slides for Java لتعيين أنماط الانضمام للأشكال في عروض PowerPoint التقديمية. 
 ## المتطلبات الأساسية
@@ -112,3 +116,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 تشير أنماط ربط الخطوط إلى شكل الزوايا حيث يلتقي الخطان. تشمل الأنماط الشائعة Mitre وBevel وRound.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
  يمكنك العثور على وثائق مفصلة[هنا](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

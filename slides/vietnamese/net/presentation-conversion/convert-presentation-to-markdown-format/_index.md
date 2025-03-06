@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày sang định dạng Markdown
 linktitle: Chuyển đổi bản trình bày sang định dạng Markdown
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách dễ dàng chuyển đổi bản trình bày sang Markdown bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 23
 url: /vi/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thời đại kỹ thuật số ngày nay, nhu cầu chuyển đổi bài thuyết trình sang nhiều định dạng khác nhau ngày càng trở nên quan trọng. Cho dù bạn là sinh viên, chuyên gia kinh doanh hay người sáng tạo nội dung, khả năng chuyển đổi bản trình bày PowerPoint sang định dạng Markdown có thể là một kỹ năng có giá trị. Markdown là ngôn ngữ đánh dấu nhẹ được sử dụng rộng rãi để định dạng tài liệu văn bản và nội dung web. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày sang định dạng Markdown bằng Aspose.Slides cho .NET.
 
@@ -98,3 +102,10 @@ Có, Aspose.Slides for .NET hỗ trợ chuyển đổi sang nhiều định dạ
 ### Câu hỏi 5: Tôi có thể truy cập giấy phép tạm thời cho Aspose.Slides cho .NET ở đâu?
 
  Bạn có thể lấy giấy phép tạm thời cho Aspose.Slides cho .NET tại[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Diagramdatapunktindex i Java Slides
 linktitle: Diagramdatapunktindex i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du manipulerar diagramdatapunktindex i Java Slides med Aspose.Slides för Java. Extrahera och arbeta med data från PowerPoint-diagram utan ansträngning.
-type: docs
 weight: 12
 url: /sv/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till diagramdatapunktindex i Java Slides
 
@@ -98,3 +102,9 @@ Du kan exportera en PowerPoint-presentation med diagram till olika format, till 
 ### Var kan jag hitta fler exempel och dokumentation för Aspose.Slides för Java?
 
  Du kan hitta omfattande exempel och dokumentation för Aspose.Slides för Java på Asposes dokumentationswebbplats[här](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

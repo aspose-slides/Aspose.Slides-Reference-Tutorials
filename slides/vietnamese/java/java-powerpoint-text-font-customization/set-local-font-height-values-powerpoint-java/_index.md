@@ -3,10 +3,14 @@ title: Đặt giá trị chiều cao phông chữ cục bộ trong PowerPoint b�
 linktitle: Đặt giá trị chiều cao phông chữ cục bộ trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách điều chỉnh độ cao phông chữ trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Dễ dàng nâng cao định dạng văn bản trong trang trình bày của bạn.
-type: docs
 weight: 17
 url: /vi/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách điều chỉnh độ cao phông chữ ở nhiều cấp độ khác nhau trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Kiểm soát kích thước phông chữ là rất quan trọng để tạo ra các bài thuyết trình có cấu trúc và hấp dẫn trực quan. Chúng ta sẽ xem qua các ví dụ từng bước để minh họa cách đặt chiều cao phông chữ cho các thành phần văn bản khác nhau.
 ## Điều kiện tiên quyết
@@ -65,3 +69,9 @@ Aspose.Slides cho Java là một API mạnh mẽ để thao tác các bản trì
  Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Tôi có thể mua giấy phép Aspose.Slides cho Java ở đâu?
  Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

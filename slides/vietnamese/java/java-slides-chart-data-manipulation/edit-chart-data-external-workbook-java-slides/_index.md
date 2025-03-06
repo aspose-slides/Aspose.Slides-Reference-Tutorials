@@ -3,10 +3,14 @@ title: Chỉnh sửa dữ liệu biểu đồ trong sổ làm việc bên ngoài
 linktitle: Chỉnh sửa dữ liệu biểu đồ trong sổ làm việc bên ngoài trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chỉnh sửa dữ liệu biểu đồ trong sổ làm việc bên ngoài bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 17
 url: /vi/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Chỉnh sửa dữ liệu biểu đồ trong Sổ làm việc bên ngoài trong Java Slides
 
@@ -103,3 +107,9 @@ Bạn có thể điều chỉnh mã để xử lý các định dạng sổ làm
 ### Làm cách nào tôi có thể tự động hóa quá trình này cho nhiều bài thuyết trình?
 
 Bạn có thể tạo vòng lặp để xử lý nhiều bản trình bày, tải từng bản trình bày, thực hiện các thay đổi mong muốn và lưu từng bản trình bày đã sửa đổi.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

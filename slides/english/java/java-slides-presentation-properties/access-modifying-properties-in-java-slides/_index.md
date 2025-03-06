@@ -3,10 +3,14 @@ title: Access Modifying Properties in Java Slides
 linktitle: Access Modifying Properties in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to access and modify properties in Java Slides using Aspose.Slides for Java. Enhance your presentations with custom properties.
-type: docs
 weight: 11
 url: /java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Access Modifying Properties in Java Slides
 
@@ -117,3 +121,10 @@ You can handle errors by using Java's exception handling mechanisms. Aspose.Slid
 ### Where can I find more documentation and examples?
 
 You can find comprehensive documentation and code examples for Aspose.Slides for Java at [here](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

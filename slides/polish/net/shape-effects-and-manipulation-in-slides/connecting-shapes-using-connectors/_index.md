@@ -3,10 +3,14 @@ title: Aspose.Slides — płynnie łącz kształty w platformie .NET
 linktitle: Łączenie kształtów za pomocą łączników w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Odkryj moc Aspose.Slides dla .NET, bez wysiłku łącząc kształty w swoich prezentacjach. Podnieś poziom swoich slajdów dzięki dynamicznym łącznikom.
-type: docs
 weight: 29
 url: /pl/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W dynamicznym świecie prezentacji możliwość łączenia kształtów za pomocą łączników dodaje slajdom warstwy wyrafinowania. Aspose.Slides dla .NET umożliwia programistom bezproblemowe osiągnięcie tego celu. Ten samouczek poprowadzi Cię przez cały proces, dzieląc każdy krok w celu zapewnienia jasnego zrozumienia.
 ## Warunki wstępne
@@ -77,3 +81,9 @@ Aspose.Slides dla .NET obsługuje łączenie różnych kształtów, w tym kszta�
 Zapoznaj się z dokumentacją Aspose.Slides, aby poznać metody dostosowywania wyglądu złącza, takie jak styl i kolor linii.
 ### Czy istnieje forum społecznościowe dotyczące wsparcia Aspose.Slides?
  Tak, możesz znaleźć pomoc i podzielić się swoimi doświadczeniami w[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

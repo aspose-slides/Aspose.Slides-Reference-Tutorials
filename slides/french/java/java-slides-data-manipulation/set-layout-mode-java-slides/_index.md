@@ -3,10 +3,14 @@ title: Définir le mode de mise en page dans les diapositives Java
 linktitle: Définir le mode de mise en page dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les modes de mise en page pour les diapositives Java à l'aide d'Aspose.Slides. Personnalisez le positionnement et le dimensionnement des graphiques dans ce guide étape par étape avec le code source.
-type: docs
 weight: 23
 url: /fr/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la définition du mode de mise en page dans les diapositives Java
 
@@ -95,3 +99,9 @@ finally
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
  Vous pouvez trouver plus d’informations sur Aspose.Slides pour Java dans le[Documentation](https://reference.aspose.com/slides/java/). Il comprend des références API détaillées et des exemples pour vous aider à travailler efficacement avec des diapositives et des graphiques en Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint에 사용자 정의 프롬프트 텍스트 추가
 linktitle: Java PowerPoint에 사용자 정의 프롬프트 텍스트 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint에 사용자 정의 프롬프트 텍스트를 추가하는 방법을 알아보세요. 이 튜토리얼을 통해 사용자 상호 작용을 손쉽게 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 오늘날의 디지털 시대에는 역동적이고 매력적인 프레젠테이션을 만드는 것이 효과적인 커뮤니케이션에 매우 중요합니다. Aspose.Slides for Java는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있도록 지원하여 슬라이드, 도형, 텍스트 등을 사용자 정의할 수 있는 광범위한 기능을 제공합니다. 이 튜토리얼은 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 자리 표시자에 사용자 정의 프롬프트 텍스트를 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -71,3 +75,9 @@ Aspose.Slides는 다양한 PowerPoint 버전을 지원하여 호환성과 안정
  당신은 얻을 수 있습니다[임시면허](https://purchase.aspose.com/temporary-license/) Aspose.Slides의 전체 기능을 평가합니다.
 ### Java용 Aspose.Slides는 슬라이드에 사용자 정의 애니메이션 추가를 지원합니까?
 예, Aspose.Slides는 프로그래밍 방식으로 슬라이드 애니메이션을 관리하는 API를 제공합니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

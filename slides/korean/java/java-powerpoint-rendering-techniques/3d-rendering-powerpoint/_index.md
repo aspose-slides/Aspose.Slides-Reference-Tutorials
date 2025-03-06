@@ -3,10 +3,14 @@ title: PowerPoint의 3D 렌더링
 linktitle: PowerPoint의 3D 렌더링
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 멋진 3D 렌더링을 만드는 방법을 알아보세요. 프레젠테이션을 한 단계 더 발전시키세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 멋진 3D 렌더링을 PowerPoint 프레젠테이션에 통합하는 방법을 살펴보겠습니다. 이러한 단계별 지침을 따르면 청중에게 깊은 인상을 줄 매혹적인 시각 효과를 만들 수 있습니다.
 ## 전제 조건
@@ -72,3 +76,9 @@ try {
 Aspose.Slides는 고급 3D 렌더링 기능을 제공하지만 특히 복잡한 장면이나 대규모 프레젠테이션을 작업할 때 성능에 미치는 영향을 고려하는 것이 중요합니다.
 ### Aspose.Slides에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원, 문서 및 커뮤니티 지원이 필요합니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

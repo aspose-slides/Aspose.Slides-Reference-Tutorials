@@ -3,10 +3,14 @@ title: Cách lấy phạm vi dữ liệu biểu đồ trong Aspose.Slides cho .N
 linktitle: Nhận phạm vi dữ liệu biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách trích xuất phạm vi dữ liệu biểu đồ từ bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 11
 url: /vi/net/additional-chart-features/chart-get-range/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Bạn đang muốn trích xuất phạm vi dữ liệu từ biểu đồ trong bản trình bày PowerPoint của mình bằng Aspose.Slides cho .NET? Bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình lấy phạm vi dữ liệu biểu đồ từ bản trình bày của bạn. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn làm việc với các tài liệu PowerPoint theo chương trình và việc lấy phạm vi dữ liệu biểu đồ chỉ là một trong nhiều nhiệm vụ mà nó có thể giúp bạn hoàn thành.
 
@@ -93,3 +97,9 @@ Có, bạn có thể làm việc với các trang trình bày, hình dạng, vă
 
 ### Loại tùy chọn hỗ trợ nào có sẵn cho Aspose.Slides cho người dùng .NET?
  Bạn có thể nhận được sự hỗ trợ và trợ giúp từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

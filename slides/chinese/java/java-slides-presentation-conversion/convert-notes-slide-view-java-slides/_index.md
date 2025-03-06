@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中转换笔记幻灯片视图
 linktitle: 在 Java 幻灯片中转换笔记幻灯片视图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中转换笔记幻灯片视图。带有代码示例的分步指南，可实现高效的 PowerPoint 操作。
-type: docs
 weight: 15
 url: /zh/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中转换笔记幻灯片视图的简介
 
@@ -101,3 +105,10 @@ Aspose.Slides 旨在与各种 PowerPoint 格式（包括最新版本）配合使
 ### 在哪里可以找到更多 Aspose.Slides for Java 的代码示例和教程？
 
 您可以在[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)。浏览文档以了解有关这个强大库的功能的更多信息。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

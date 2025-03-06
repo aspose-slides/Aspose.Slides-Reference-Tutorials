@@ -3,10 +3,14 @@ title: Thiết lập trình chiếu bản trình bày trong Java Slides
 linktitle: Thiết lập trình chiếu bản trình bày trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa Trình chiếu Java của bạn với Aspose.Slides. Tạo bài thuyết trình hấp dẫn với cài đặt tùy chỉnh. Khám phá hướng dẫn từng bước và câu hỏi thường gặp.
-type: docs
 weight: 16
 url: /vi/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Thiết lập trình chiếu bản trình bày trong Java Slides
 
@@ -146,3 +150,9 @@ Trong hướng dẫn này, chúng ta đã học cách thiết lập trình chi�
 ### Làm cách nào tôi có thể tùy chỉnh thêm cài đặt trình chiếu?
 
  Bạn có thể khám phá các cài đặt trình chiếu bổ sung do Aspose.Slides for Java cung cấp để điều chỉnh trải nghiệm trình chiếu theo nhu cầu của bạn. Tham khảo tài liệu tại[đây](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết về các tùy chọn và cấu hình có sẵn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

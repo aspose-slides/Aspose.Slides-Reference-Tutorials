@@ -3,10 +3,14 @@ title: Vytváření radarových grafů v Java Slides
 linktitle: Vytváření radarových grafů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet radarové grafy v prezentacích Java PowerPoint pomocí Aspose.Slides for Java API.
-type: docs
 weight: 10
 url: /cs/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do vytváření radarového grafu v Java Slides
 
@@ -268,3 +272,9 @@ Viz "Krok 5" pro přizpůsobení štítků os a formátování, včetně velikos
 ### Jak uložím graf do jiného formátu souboru?
 
 Výstupní formát můžete změnit úpravou přípony souboru v`outPath` proměnné a pomocí příslušného`SaveFormat` . Chcete-li například uložit jako PDF, použijte`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: إتقان تأثيرات الفرز الثنائي في Aspose.Slides ل
 linktitle: تطبيق تأثيرات الفرز الثنائي في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أنشئ شرائح عرض تقديمي جذابة باستخدام Aspose.Slides لـ .NET. تعلم كيفية تطبيق تأثيرات الفرز الثنائي خطوة بخطوة. ارفع مستوى عروضك التقديمية الآن!
-type: docs
 weight: 18
 url: /ar/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء شرائح عرض تقديمي مذهلة بصريًا أمرًا ضروريًا لجذب جمهورك. إحدى الطرق الفعالة لتحسين شرائحك هي تطبيق تأثيرات الفرز الثنائي. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق تأثيرات الفرز الثنائي في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -81,3 +85,9 @@ Console.WriteLine("Duotone effective color2: " + duotoneEffective.Color2);
 قطعاً. استكشف وثائق Aspose.Slides للتعرف على خيارات التخصيص المتقدمة.
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

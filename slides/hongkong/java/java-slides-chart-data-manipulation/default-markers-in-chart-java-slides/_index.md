@@ -3,10 +3,14 @@ title: Java 投影片中圖表中的預設標記
 linktitle: Java 投影片中圖表中的預設標記
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在圖表中建立帶有預設標記的 Java 投影片。帶有原始程式碼的分步指南。
-type: docs
 weight: 16
 url: /zh-hant/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片中圖表中的預設標記簡介
 
@@ -142,3 +146,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### 我可以為數據點添加標籤嗎？
 
 是的，您可以使用以下命令為資料點新增標籤`IDataPoint.getLabel()`方法並根據需要自訂它們。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

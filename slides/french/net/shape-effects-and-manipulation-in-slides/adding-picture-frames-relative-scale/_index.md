@@ -3,10 +3,14 @@ title: Didacticiel sur l’ajout de cadres photo avec Aspose.Slides .NET
 linktitle: Ajout de cadres photo avec une hauteur d'échelle relative dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à ajouter des cadres photo avec une hauteur d’échelle relative dans Aspose.Slides pour .NET. Suivez ce guide étape par étape pour des présentations fluides.
-type: docs
 weight: 17
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir sans effort des présentations PowerPoint dans leurs applications .NET. Dans ce didacticiel, nous allons plonger dans le processus d'ajout de cadres photo avec une hauteur d'échelle relative à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en matière de création de présentations.
 ## Conditions préalables
@@ -64,3 +68,9 @@ Aspose.Slides prend principalement en charge les langages .NET, mais vous pouvez
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour demander l’aide de la communauté et des experts Aspose.
 ### Où puis-je acheter Aspose.Slides pour .NET ?
  Vous pouvez acheter Aspose.Slides pour .NET à partir du[page d'achat](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

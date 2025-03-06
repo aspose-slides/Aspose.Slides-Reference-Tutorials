@@ -3,10 +3,14 @@ title: Java 幻灯片中的动画类别元素
 linktitle: Java 幻灯片中的动画类别元素
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 优化您的 Java 演示文稿。逐步了解如何为 PowerPoint 幻灯片中的类别元素制作动画。
-type: docs
 weight: 10
 url: /zh/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 幻灯片中的动画类别元素简介
 
@@ -117,3 +121,10 @@ finally
 ### 如何了解有关 Aspose.Slides for Java 的更多信息？
 
 如需全面的文档和其他资源，请访问[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/)。您也可以从[这里](https://releases.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

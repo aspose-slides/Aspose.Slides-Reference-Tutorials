@@ -3,10 +3,14 @@ title: تطبيق تأثيرات شطبة على الأشكال في PowerPoint
 linktitle: تطبيق تأثيرات شطبة على الأشكال في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تطبيق التأثيرات المائلة على الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا خطوة بخطوة. تعزيز العروض التقديمية الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا بالغ الأهمية لجذب انتباه جمهورك والحفاظ عليه. يمكن أن تؤدي إضافة تأثيرات مشطوفة إلى الأشكال إلى تحسين الجماليات العامة لشرائحك، مما يجعل عرضك التقديمي مميزًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق التأثيرات المجسمة المائلة على الأشكال في PowerPoint باستخدام Aspose.Slides for Java. سواء كنت مطورًا يتطلع إلى أتمتة عملية إنشاء العروض التقديمية أو مجرد شخص يحب إجراء تعديلات على التصميم، فإن هذا الدليل يوفر لك كل ما تحتاجه.
 ## المتطلبات الأساسية
@@ -92,3 +96,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 نعم، يتيح لك Aspose.Slides for Java تطبيق تأثيرات ثلاثية الأبعاد متنوعة، بما في ذلك تأثيرات العمق والإضاءة والكاميرا.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من مجتمع Aspose وفريق الدعم على موقعهم[منتدى الدعم](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

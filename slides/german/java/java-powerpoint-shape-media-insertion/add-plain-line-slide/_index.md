@@ -3,10 +3,14 @@ title: Einfache Linie zur Folie hinzufügen
 linktitle: Einfache Linie zur Folie hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java programmgesteuert eine einfache Linie zu einer PowerPoint-Folie hinzufügen. Steigern Sie Ihre Produktivität mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 14
 url: /de/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Aspose.Slides für Java ist eine leistungsstarke Bibliothek, die es Java-Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Mit Aspose.Slides können Sie PowerPoint-Dateien ganz einfach erstellen, ändern und konvertieren und so Zeit und Mühe sparen. In diesem Tutorial führen wir Sie durch den Vorgang, mit Aspose.Slides für Java einer Folie in einer PowerPoint-Präsentation eine einfache Linie hinzuzufügen.
 ## Voraussetzungen
@@ -62,3 +66,9 @@ Auf jeden Fall! Aspose.Slides bietet eine große Auswahl an Formtypen, darunter 
 Ja, Sie können der Folie mit der Aspose.Slides-API Text, Bilder und andere Inhalte hinzufügen.
 ### Gibt es eine kostenlose Testversion für Aspose.Slides?
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

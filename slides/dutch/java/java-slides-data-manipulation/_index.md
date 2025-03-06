@@ -3,10 +3,14 @@ title: Gegevensmanipulatie van Java-dia's
 linktitle: Gegevensmanipulatie van Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter uw vaardigheden op het gebied van gegevensmanipulatie in Java Slides met Aspose.Slides voor Java-tutorials. Leer stap voor stap hoe u presentaties efficiënt kunt maken, bewerken en transformeren.
-type: docs
 weight: 13
 url: /nl/java/data-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Ben je er klaar voor om de kunst van het manipuleren van Java Slides-gegevens onder de knie te krijgen? Zoek niet verder. In deze uitgebreide handleiding leiden we u door de fijne kneepjes van het gebruik van Aspose.Slides voor Java om uw diapresentaties te maken, aan te passen en te verbeteren. Of u nu een doorgewinterde ontwikkelaar bent of net begint aan uw reis in de wereld van Java Slides, onze tutorials voorzien u van de kennis en vaardigheden die u nodig heeft.
 
@@ -96,3 +100,9 @@ Leer hoe u dynamische cirkeldiagrammen kunt maken met automatische segmentkleure
 Leer hoe u toelichtingen voor gegevenslabels in Aspose.Slides voor Java instelt. Stap-voor-stap handleiding met broncode.
 ### [Datumnotatie instellen voor categorie-as in Java-dia's](./setting-date-format-category-axis-java-slides/)
 Leer hoe u een datumnotatie instelt voor de categorie-as in een PowerPoint-diagram met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

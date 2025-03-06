@@ -3,10 +3,14 @@ title: Lấy hình ảnh biểu đồ trong Java Slides
 linktitle: Lấy hình ảnh biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lấy hình ảnh biểu đồ trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước này cung cấp mã nguồn và mẹo để tích hợp liền mạch.
-type: docs
 weight: 19
 url: /vi/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Lấy hình ảnh biểu đồ trong Java Slides
 
@@ -92,3 +96,9 @@ Có, Aspose.Slides cho Java có thể được sử dụng cho mục đích thư
 ### Tôi có thể lưu hình ảnh biểu đồ ở định dạng khác không?
 
  Chắc chắn! Bạn có thể lưu hình ảnh biểu đồ ở nhiều định dạng khác nhau, chẳng hạn như JPEG hoặc GIF, bằng cách chỉ định phần mở rộng tệp thích hợp trong phần`ImageIO.write` phương pháp.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET でマクロ ハイパーリンク クリックを
 linktitle: マクロを使用したハイパーリンク管理
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションにマクロ ハイパーリンクを設定する方法を学びます。インタラクティブ性を高め、視聴者を引き付けます。
-type: docs
 weight: 13
 url: /ja/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 現代のソフトウェア開発の世界では、動的でインタラクティブなプレゼンテーションを作成することが重要な側面です。Aspose.Slides for .NET は、プレゼンテーションをシームレスに操作できる強力なライブラリです。ビジネス プレゼンテーションを作成する場合でも、教育用スライドショーを作成する場合でも、マクロ ハイパーリンク クリックを設定する機能により、ユーザー エクスペリエンスが大幅に向上します。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してマクロ ハイパーリンク クリックを設定する手順を説明します。 
 
@@ -106,3 +110,9 @@ Aspose.Slides for .NET ではマクロを使用できますが、プレゼンテ
 
 ### Aspose.Slides for .NET に関するヘルプやサポートはどこで受けられますか?
 問題が発生した場合や質問がある場合は、Aspose サポートフォーラムでサポートを求めることができます。[ここ](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

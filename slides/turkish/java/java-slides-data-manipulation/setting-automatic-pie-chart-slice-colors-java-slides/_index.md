@@ -3,10 +3,14 @@ title: Java Slaytlarında Otomatik Pasta Grafiği Dilim Renklerini Ayarlama
 linktitle: Java Slaytlarında Otomatik Pasta Grafiği Dilim Renklerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında otomatik dilim renkleriyle dinamik pasta grafiklerinin nasıl oluşturulacağını öğrenin. Kaynak koduyla adım adım kılavuz.
-type: docs
 weight: 24
 url: /tr/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Otomatik Pasta Grafiği Dilim Renklerini Ayarlamaya Giriş
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Yazı tipi boyutunu, kalınlığını ve italik stilini gerektiği gibi ayarlayabilirsiniz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

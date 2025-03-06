@@ -3,10 +3,14 @@ title: 從所有投影片中刪除註釋
 linktitle: 從所有投影片中刪除註釋
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 從 PowerPoint 投影片中刪除註解。讓您的簡報更加清晰、更加專業。
-type: docs
 weight: 13
 url: /zh-hant/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 如果您是處理 PowerPoint 簡報的 .NET 開發人員，您可能會遇到需要從簡報中的所有投影片中刪除註解的情況。當您想要清理幻燈片並消除不適合觀眾的任何其他資訊時，這會很有用。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 有效率地完成此任務的流程。
 
@@ -97,3 +101,9 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 ### 5. Aspose.Slides for .NET 支援最新的 PowerPoint 格式嗎？
 
 是的，Aspose.Slides for .NET 支援多種 PowerPoint 格式，包括最新版本。您可以參考文件了解詳細資訊。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

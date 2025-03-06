@@ -3,10 +3,14 @@ title: Ustaw kotwicę ramki tekstowej w programie PowerPoint z Javą
 linktitle: Ustaw kotwicę ramki tekstowej w programie PowerPoint z Javą
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić zakotwiczenia ramek tekstowych w programie PowerPoint przy użyciu języka Java z Aspose.Slides. Ulepsz swoje prezentacje.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 tym samouczku dowiesz się, jak ustawić zakotwiczenie ramki tekstowej w prezentacjach programu PowerPoint przy użyciu języka Java za pomocą Aspose.Slides. Zakotwiczanie ramek tekstowych pozwala precyzyjnie kontrolować położenie i zachowanie tekstu w kształcie, zapewniając atrakcyjność wizualną i efektywną strukturę slajdów.
 ## Warunki wstępne
@@ -71,3 +75,9 @@ Aspose.Slides for Java to potężna biblioteka, która pozwala programistom Java
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz odwiedzić forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/slides/11) w przypadku jakichkolwiek pytań lub pomocy.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

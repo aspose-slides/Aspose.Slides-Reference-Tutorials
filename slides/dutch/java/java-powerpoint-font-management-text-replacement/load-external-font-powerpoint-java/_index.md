@@ -3,10 +3,14 @@ title: Laad een extern lettertype in PowerPoint met Java
 linktitle: Laad een extern lettertype in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste lettertypen in PowerPoint-presentaties kunt laden met Aspose.Slides voor Java. Verbeter uw dia's met unieke typografie.
-type: docs
 weight: 10
 url: /nl/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het laden van een extern lettertype in PowerPoint-presentaties met Aspose.Slides voor Java. Aangepaste lettertypen kunnen een uniek tintje aan uw presentaties toevoegen en zorgen voor consistente branding of stilistische voorkeuren op verschillende platforms.
 ## Vereisten
@@ -63,3 +67,9 @@ Ja, u kunt meerdere externe lettertypen laden door het proces voor elk lettertyp
 Zolang het lettertypebestand de TrueType-indeling (.ttf) heeft en binnen redelijke grenzen ligt, zou u het met succes moeten kunnen laden.
 ### Heeft het laden van externe lettertypen invloed op de compatibiliteit van de presentatie met verschillende PowerPoint-versies?
 Nee, de presentatie blijft compatibel met verschillende PowerPoint-versies zolang de lettertypen zijn ingesloten of extern worden geladen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

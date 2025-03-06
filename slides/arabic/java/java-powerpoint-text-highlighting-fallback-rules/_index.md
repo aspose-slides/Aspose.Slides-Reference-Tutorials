@@ -3,10 +3,14 @@ title: جافا باور بوينت تسليط الضوء على النص وال
 linktitle: جافا باور بوينت تسليط الضوء على النص والقواعد الاحتياطية
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: إتقان تمييز النص وقواعد الخط الاحتياطية في Java PowerPoint باستخدام Aspose.Slides. اتبع برامجنا التعليمية لتحسين عروضك التقديمية وأتمتتها بسلاسة.
-type: docs
 weight: 25
 url: /ar/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -26,3 +30,9 @@ url: /ar/java/java-powerpoint-text-highlighting-fallback-rules/
 تعرف على كيفية تمييز النص في PowerPoint باستخدام Aspose.Slides لـ Java. قم بأتمتة العروض التقديمية وتحسينها بسهولة من خلال دليلنا التفصيلي.
 ### [مجموعة القواعد الاحتياطية في Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 تعرف على كيفية إدارة القواعد الاحتياطية للخطوط في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز التوافق عبر الأجهزة دون عناء.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

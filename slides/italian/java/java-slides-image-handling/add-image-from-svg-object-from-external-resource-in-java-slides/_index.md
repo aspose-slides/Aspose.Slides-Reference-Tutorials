@@ -3,10 +3,14 @@ title: Aggiungi immagine da oggetto SVG da risorsa esterna in diapositive Java
 linktitle: Aggiungi immagine da oggetto SVG da risorsa esterna in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere immagini SVG basate su vettori da risorse esterne alle diapositive Java utilizzando Aspose.Slides. Crea presentazioni straordinarie con immagini di alta qualità.
-type: docs
 weight: 12
 url: /it/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'aggiunta di immagini da oggetti SVG da risorse esterne nelle diapositive Java
 
@@ -118,3 +122,9 @@ Sì, Aspose.Slides per Java è compatibile con le ultime versioni Java. Assicura
 ### Posso applicare animazioni alle immagini SVG aggiunte alle diapositive?
 
 Sì, puoi applicare animazioni alle immagini SVG nelle tue diapositive utilizzando Aspose.Slides per creare presentazioni dinamiche.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

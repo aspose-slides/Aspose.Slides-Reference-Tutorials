@@ -3,10 +3,14 @@ title: Používejte vlastní písma v PowerPointu s Javou
 linktitle: Používejte vlastní písma v PowerPointu s Javou
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se integrovat vlastní písma do prezentací PowerPoint pomocí Aspose.Slides for Java. Vylepšete vizuální přitažlivost bez námahy.
-type: docs
 weight: 25
 url: /cs/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak využít Aspose.Slides pro Java k vylepšení prezentací PowerPoint integrací vlastních písem. Vlastní písma mohou výrazně obohatit vizuální přitažlivost vašich snímků a zajistit, aby dokonale ladily s požadavky vaší značky nebo designu. Pokryjeme vše od importu nezbytných balíčků až po provedení kroků potřebných pro bezproblémovou integraci vlastních písem do vašich prezentací.
 ## Předpoklady
@@ -70,3 +74,9 @@ Ujistěte se, že máte příslušné licence pro distribuci jakýchkoli vlastn�
 Aspose.Slides for Java podporuje použití široké škály vlastních písem a knihovna nemá žádné vlastní omezení.
 ### Mohu vložit vlastní písma přímo do souboru PowerPoint pomocí Aspose.Slides for Java?
 Ano, Aspose.Slides for Java vám umožňuje vložit vlastní písma do samotného souboru prezentace pro bezproblémovou distribuci.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

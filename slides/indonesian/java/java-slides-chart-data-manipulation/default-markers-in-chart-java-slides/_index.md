@@ -3,10 +3,14 @@ title: Penanda Default dalam Bagan di Slide Java
 linktitle: Penanda Default dalam Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Slide Java dengan penanda default di bagan menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-type: docs
 weight: 16
 url: /id/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengenalan Penanda Default pada Bagan di Slide Java
 
@@ -142,3 +146,9 @@ Anda dapat mengkustomisasi simbol penanda dengan mengatur gaya penanda untuk set
 ### Bisakah saya menambahkan label ke titik data?
 
  Ya, Anda dapat menambahkan label ke titik data menggunakan`IDataPoint.getLabel()` metode dan sesuaikan sesuai kebutuhan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

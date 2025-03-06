@@ -3,10 +3,14 @@ title: 修改 PowerPoint 中的内置属性
 linktitle: 修改 PowerPoint 中的内置属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 修改 PowerPoint 演示文稿中的内置属性。通过编程增强您的演示文稿。
-type: docs
 weight: 12
 url: /zh/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 Aspose.Slides for Java 使开发人员能够以编程方式操作 PowerPoint 演示文稿。一项基本功能是修改内置属性，例如作者、标题、主题、评论和经理。本教程将逐步指导您完成该过程。
 ## 先决条件
@@ -65,3 +69,9 @@ Aspose.Slides 支持各种 PowerPoint 格式，包括 PPT、PPTX、PPS 等，确
 虽然 Aspose.Slides 提供了广泛的功能，但某些高级功能可能会受到 PowerPoint 格式和版本的限制。
 ### Aspose.Slides 提供技术支持吗？
 是的，您可以寻求帮助并参与讨论[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

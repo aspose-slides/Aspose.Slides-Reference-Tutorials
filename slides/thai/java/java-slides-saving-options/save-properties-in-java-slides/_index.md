@@ -3,10 +3,14 @@ title: บันทึกคุณสมบัติใน Java Slides
 linktitle: บันทึกคุณสมบัติใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เพิ่มประสิทธิภาพการนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้การตั้งค่าคุณสมบัติ ปิดใช้งานการเข้ารหัส เพิ่มการป้องกันด้วยรหัสผ่าน และบันทึกได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/saving-options/save-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการบันทึกคุณสมบัติใน Java Slides
 
@@ -170,3 +174,9 @@ finally {
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java และฟีเจอร์ต่างๆ ได้อย่างไร
 
  คุณสามารถสำรวจเอกสาร Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://docs.aspose.com/slides/java/) สำหรับข้อมูลโดยละเอียด บทช่วยสอน และตัวอย่างการใช้ห้องสมุด
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Доступ к альтернативному тексту в фигур
 linktitle: Доступ к альтернативному тексту в фигурах группы
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как получить доступ к альтернативному тексту в фигурах группы с помощью Aspose.Slides для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 10
 url: /ru/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Когда дело доходит до управления презентациями и манипулирования ими, Aspose.Slides for .NET предлагает мощный набор инструментов. В этой статье мы углубимся в конкретный аспект этого API — доступ к альтернативному тексту в групповых фигурах. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с Aspose.Slides, это подробное руководство проведет вас через весь процесс, предоставив пошаговые инструкции и примеры кода. К концу вы получите четкое представление о том, как эффективно работать с альтернативным текстом в групповых фигурах с помощью Aspose.Slides.
 
@@ -118,3 +122,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Подходит ли Aspose.Slides как новичкам, так и опытным разработчикам?
 
 Да, Aspose.Slides предназначен для разработчиков всех уровней квалификации. Новички могут следовать пошаговому руководству, представленному в документации, а опытные разработчики могут использовать его расширенные функции.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

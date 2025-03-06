@@ -3,10 +3,14 @@ title: احصل على الموضع الفعلي لتسمية بيانات ال�
 linktitle: احصل على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الحصول على الموضع الفعلي لتسميات بيانات المخطط في Java Slides باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 18
 url: /ar/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة للحصول على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

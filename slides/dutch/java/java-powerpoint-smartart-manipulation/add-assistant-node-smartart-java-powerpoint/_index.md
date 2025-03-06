@@ -3,10 +3,14 @@ title: Voeg Assistant Node toe aan SmartArt in Java PowerPoint
 linktitle: Voeg Assistant Node toe aan SmartArt in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een assistent-knooppunt kunt toevoegen aan SmartArt in Java PowerPoint-presentaties met behulp van Aspose.Slides. Verbeter uw PowerPoint-bewerkingsvaardigheden.
-type: docs
 weight: 17
 url: /nl/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het toevoegen van een assistent-knooppunt aan SmartArt in Java PowerPoint-presentaties met behulp van Aspose.Slides.
 ## Vereisten
@@ -70,3 +74,9 @@ Aspose.Slides ondersteunt PowerPoint-versies van 97-2003 tot de nieuwste versie.
 Ja, u kunt het uiterlijk aanpassen met behulp van verschillende eigenschappen en methoden van Aspose.Slides.
 ### Is er een limiet aan het aantal knooppunten in een SmartArt?
 SmartArt in PowerPoint ondersteunt een groot aantal knooppunten, maar het wordt aanbevolen om het redelijk te houden voor een betere leesbaarheid.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

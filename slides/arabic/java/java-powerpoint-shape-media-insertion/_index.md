@@ -3,10 +3,14 @@ title: شكل جافا باور بوينت وإدراج الوسائط
 linktitle: شكل جافا باور بوينت وإدراج الوسائط
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إدراج الأشكال والوسائط في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تتضمن البرامج التعليمية إضافة خطوط وصوت وكائنات OLE ومقاطع فيديو.
-type: docs
 weight: 23
 url: /ar/java/java-powerpoint-shape-media-insertion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -53,3 +57,9 @@ url: /ar/java/java-powerpoint-shape-media-insertion/
 تعرف على كيفية دمج محتوى الفيديو بسلاسة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تحتوي شرائحك على عناصر الوسائط المتعددة لإشراك جمهورك.
 ### [إضافة إطار فيديو من مصدر ويب في PowerPoint](./add-video-frame-web-source-powerpoint/)
 تعرف على كيفية تحسين عروض PowerPoint التقديمية الخاصة بك عن طريق إضافة إطارات فيديو من مصادر الويب باستخدام Aspose.Slides for Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

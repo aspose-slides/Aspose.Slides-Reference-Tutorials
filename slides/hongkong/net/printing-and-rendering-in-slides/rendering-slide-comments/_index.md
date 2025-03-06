@@ -3,10 +3,14 @@ title: 在 Aspose.Slides 中渲染幻燈片註釋
 linktitle: 在 Aspose.Slides 中渲染幻燈片註釋
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過我們的逐步教學來探索如何在 Aspose.Slides for .NET 中呈現投影片註解。自訂評論外觀並提升 PowerPoint 自動化程度。
-type: docs
 weight: 12
 url: /zh-hant/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Slides for .NET 渲染投影片註解的綜合教學！ Aspose.Slides 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中無縫處理 PowerPoint 簡報。在本指南中，我們將重點放在特定任務 - 呈現幻燈片註釋 - 並逐步引導您完成該過程。
 ## 先決條件
@@ -86,3 +90,9 @@ System.Diagnostics.Process.Start(resultPath);
 答：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：我可以在哪裡尋求 Aspose.Slides 的幫助和支持？
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區支持。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

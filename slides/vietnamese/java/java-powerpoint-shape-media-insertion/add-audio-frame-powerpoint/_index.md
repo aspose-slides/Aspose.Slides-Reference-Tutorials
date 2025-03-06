@@ -3,10 +3,14 @@ title: Thêm Khung âm thanh trong PowerPoint
 linktitle: Thêm Khung âm thanh trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm khung âm thanh vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Nâng cao bản trình bày của bạn với các yếu tố âm thanh hấp dẫn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Cải thiện bản trình bày bằng các yếu tố âm thanh có thể nâng cao đáng kể tác động và mức độ tương tác của chúng. Với Aspose.Slides cho Java, việc tích hợp các khung âm thanh vào bản trình bày PowerPoint trở thành một quá trình liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình từng bước thêm khung âm thanh vào bản trình bày của bạn bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -75,3 +79,9 @@ Có, bạn có thể tạo bản trình bày PowerPoint với các khung âm tha
 Aspose.Slides for Java cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh giao diện của trình phát âm thanh cho phù hợp với sở thích của mình.
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
  Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Slides cho Java từ trang web của họ[trang mạng](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

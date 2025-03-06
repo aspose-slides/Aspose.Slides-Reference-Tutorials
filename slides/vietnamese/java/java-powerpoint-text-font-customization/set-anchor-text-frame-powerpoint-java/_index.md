@@ -3,10 +3,14 @@ title: Đặt neo khung văn bản trong PowerPoint bằng Java
 linktitle: Đặt neo khung văn bản trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt neo khung văn bản trong PowerPoint bằng Java với Aspose.Slides. Nâng cao bài thuyết trình của bạn.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách đặt điểm neo của khung văn bản trong bản trình bày PowerPoint bằng Java với sự trợ giúp của Aspose.Slides. Việc neo các khung văn bản cho phép bạn kiểm soát chính xác vị trí và hành vi của văn bản trong một hình dạng, đảm bảo các trang trình bày của bạn hấp dẫn về mặt hình ảnh và có cấu trúc hiệu quả.
 ## Điều kiện tiên quyết
@@ -71,3 +75,9 @@ Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà ph�
  Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/slides/11) cho bất kỳ thắc mắc hoặc hỗ trợ.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

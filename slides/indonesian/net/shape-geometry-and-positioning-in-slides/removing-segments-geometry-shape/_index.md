@@ -3,10 +3,14 @@ title: Hapus Segmen Bentuk - Tutorial Aspose.Slides .NET
 linktitle: Menghapus Segmen dari Bentuk Geometri di Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides API untuk .NET. Panduan langkah demi langkah dengan kode sumber.
-type: docs
 weight: 16
 url: /id/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat presentasi yang menarik secara visual sering kali melibatkan manipulasi bentuk dan elemen untuk mencapai desain yang diinginkan. Dengan Aspose.Slides untuk .NET, pengembang dapat dengan mudah mengontrol geometri bentuk, memungkinkan penghapusan segmen tertentu. Dalam tutorial ini, kami akan memandu Anda melalui proses menghilangkan segmen dari bentuk geometri di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -68,3 +72,9 @@ Terapkan penanganan kesalahan yang tepat menggunakan blok coba-tangkap.
 Tidak, perubahan tidak dapat diubah setelah disimpan. Pertimbangkan untuk menyimpan cadangan sebelum modifikasi.
 ### Di mana saya dapat mencari dukungan atau bantuan tambahan?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

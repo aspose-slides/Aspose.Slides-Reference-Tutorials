@@ -3,10 +3,14 @@ title: Modern commentaarbeheer met Aspose.Slides
 linktitle: Modern commentaarbeheer
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u moderne opmerkingen in PowerPoint-presentaties kunt beheren met Aspose.Slides voor .NET. Moeiteloos samenwerken!
-type: docs
 weight: 14
 url: /nl/net/slide-comments-manipulation/modern-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. Een van de functies die het biedt is modern commentaarbeheer, waarmee u naadloos commentaar in uw presentaties kunt toevoegen, wijzigen en ermee kunt communiceren. In deze stapsgewijze handleiding leiden we u door het proces van het beheren van moderne opmerkingen met Aspose.Slides voor .NET.
 
@@ -109,3 +113,9 @@ kunt moderne opmerkingen programmatisch bijwerken of verwijderen door de comment
 ### 5. Kan ik Aspose.Slides voor .NET uitproberen voordat ik het aanschaf?
 
  Zeker! U kunt toegang krijgen tot een gratis proefversie van Aspose.Slides voor .NET via de[gratis proeflink](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

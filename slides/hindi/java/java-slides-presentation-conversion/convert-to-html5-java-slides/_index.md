@@ -3,10 +3,14 @@ title: जावा स्लाइड्स को HTML5 में बदले
 linktitle: जावा स्लाइड्स को HTML5 में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML5 में बदलें। चरण-दर-चरण कोड उदाहरणों के साथ रूपांतरण प्रक्रिया को स्वचालित करना सीखें।
-type: docs
 weight: 23
 url: /hi/java/presentation-conversion/convert-to-html5-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुति को HTML5 में परिवर्तित करने का परिचय
 
@@ -105,3 +109,9 @@ try {
 ### क्या Aspose.Slides नवीनतम Java संस्करणों के साथ संगत है?
 
 Aspose.Slides को नवीनतम जावा संस्करणों का समर्थन करने के लिए नियमित रूप से अपडेट किया जाता है, इसलिए सुनिश्चित करें कि आप लाइब्रेरी के संगत संस्करण का उपयोग कर रहे हैं।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

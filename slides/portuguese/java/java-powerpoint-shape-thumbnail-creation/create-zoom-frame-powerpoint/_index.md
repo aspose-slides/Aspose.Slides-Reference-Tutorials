@@ -3,10 +3,14 @@ title: Crie um quadro de zoom no PowerPoint
 linktitle: Crie um quadro de zoom no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar quadros de zoom envolventes no PowerPoint usando Aspose.Slides para Java. Siga nosso guia para adicionar elementos interativos às suas apresentações.
-type: docs
 weight: 17
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Criar apresentações envolventes em PowerPoint é uma arte e, às vezes, os menores acréscimos podem fazer uma enorme diferença. Um desses recursos é o Zoom Frame, que permite ampliar slides ou imagens específicas, criando uma apresentação dinâmica e interativa. Neste tutorial, orientaremos você no processo de criação de um quadro de zoom no PowerPoint usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -113,3 +117,9 @@ Sim, Aspose.Slides permite personalizar várias propriedades de Zoom Frames, com
 Absolutamente! Você pode adicionar imagens personalizadas aos Zoom Frames lendo arquivos de imagem e adicionando-os à apresentação.
 ### Onde posso encontrar mais exemplos e documentação?
  Você pode encontrar documentação abrangente e exemplos no[Página de documentação do Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

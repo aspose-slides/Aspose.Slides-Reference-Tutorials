@@ -3,10 +3,14 @@ title: ربط الفيديو عبر عنصر تحكم ActiveX في PowerPoint
 linktitle: ربط الفيديو عبر تحكم ActiveX
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية ربط مقاطع الفيديو بشرائح PowerPoint باستخدام Aspose.Slides لـ .NET. يتضمن هذا الدليل التفصيلي التعليمات البرمجية المصدرية ونصائح لإنشاء عروض تقديمية تفاعلية وجذابة باستخدام مقاطع الفيديو المرتبطة.
-type: docs
 weight: 12
 url: /ar/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ربط مقطع فيديو عبر عنصر تحكم ActiveX في عرض تقديمي باستخدام Aspose.Slides لـ .NET
 
 في Aspose.Slides for .NET، يمكنك ربط مقطع فيديو بشريحة عرض تقديمي برمجيًا باستخدام عنصر تحكم ActiveX. يتيح لك ذلك إنشاء عروض تقديمية تفاعلية حيث يمكن تشغيل محتوى الفيديو مباشرة داخل الشريحة. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية ربط مقطع فيديو بشريحة عرض تقديمي باستخدام Aspose.Slides for .NET.
@@ -80,3 +84,9 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 باتباع الخطوات الموضحة في هذا الدليل، يمكنك بسهولة ربط مقطع فيديو عبر عنصر تحكم ActiveX في عرض تقديمي باستخدام Aspose.Slides for .NET. تمكنك هذه الميزة من إنشاء عروض تقديمية جذابة وتفاعلية تتضمن محتوى الوسائط المتعددة بسلاسة.
 
  لمزيد من التفاصيل والخيارات المتقدمة، يمكنك الرجوع إلى[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

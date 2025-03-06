@@ -3,10 +3,14 @@ title: Přidejte obrázek z objektu SVG v Java Slides
 linktitle: Přidejte obrázek z objektu SVG v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat obrázky SVG do Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s kódem pro ohromující prezentace.
-type: docs
 weight: 11
 url: /cs/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod k přidání obrázku z objektu SVG v Java Slides
 
@@ -120,3 +124,9 @@ Aspose.Slides pro Javu zvládne širokou škálu obrázků SVG. Velmi velké neb
 ### Mohu upravit vzhled obrázku SVG, jako jsou barvy nebo styly, po jeho přidání na snímek?
 
 Ano, vzhled obrázku SVG můžete upravit pomocí rozsáhlého API Aspose.Slides for Java. Podle potřeby můžete měnit barvy, aplikovat styly a provádět další úpravy.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

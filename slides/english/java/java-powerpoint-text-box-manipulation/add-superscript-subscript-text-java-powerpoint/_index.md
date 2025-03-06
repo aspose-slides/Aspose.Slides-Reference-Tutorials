@@ -3,10 +3,14 @@ title: Add Superscript and Subscript Text in Java PowerPoint
 linktitle: Add Superscript and Subscript Text in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add superscript and subscript text in Java PowerPoint presentations using Aspose.Slides for Java. Perfect for enhancing your slides.
-type: docs
 weight: 13
 url: /java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Creating engaging and informative PowerPoint presentations often requires the use of formatting features like superscript and subscript text. This tutorial will guide you through the process of incorporating superscript and subscript text into your Java PowerPoint presentations using Aspose.Slides for Java.
 ## Prerequisites
@@ -89,3 +93,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides for Java?
 For support and discussions, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

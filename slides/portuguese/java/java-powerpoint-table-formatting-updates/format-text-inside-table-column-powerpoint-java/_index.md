@@ -3,10 +3,14 @@ title: Formatar texto dentro da coluna da tabela no PowerPoint usando Java
 linktitle: Formatar texto dentro da coluna da tabela no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como formatar texto dentro de colunas de tabela no PowerPoint usando Aspose.Slides for Java com este tutorial. Aprimore suas apresentações de maneira programática.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Você está pronto para mergulhar no mundo das apresentações em PowerPoint, mas com uma diferença? Em vez de formatar manualmente seus slides, vamos seguir um caminho mais eficiente usando Aspose.Slides para Java. Este tutorial irá guiá-lo através do processo de formatação de texto dentro de colunas de tabelas em apresentações do PowerPoint de forma programática. Apertem os cintos, porque vai ser um passeio divertido!
 ## Pré-requisitos
@@ -88,3 +92,9 @@ Absolutamente! Aspose.Slides permite amplas opções de formatação, incluindo 
  Você pode baixar uma versão de teste gratuita no site[Aspose página de teste gratuito](https://releases.aspose.com/).
 ### Onde posso encontrar mais exemplos e documentação?
  Confira a[Documentação do Aspose.Slides](https://reference.aspose.com/slides/java/) para exemplos detalhados e guias.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

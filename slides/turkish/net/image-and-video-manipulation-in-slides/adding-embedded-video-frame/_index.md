@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET Sunumlarına Gömülü Videolar Ekleme
 linktitle: Aspose.Slides - .NET Sunumlarına Gömülü Videolar Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumlarınızı gömülü videolarla geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 19
 url: /tr/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Sunumların dinamik dünyasında multimedya öğelerinin entegre edilmesi katılımı önemli ölçüde artırabilir. Aspose.Slides for .NET, gömülü video çerçevelerini sunum slaytlarınıza dahil etmek için güçlü bir çözüm sunar. Bu eğitim, kusursuz bir deneyim sağlamak için her adımı parçalara ayırarak süreç boyunca size rehberlik edecektir.
 ## Önkoşullar
@@ -75,3 +79,9 @@ Aspose.Slides, MP4, AVI ve WMV dahil olmak üzere çeşitli video formatlarını
 Gömülü videoların sayısı genellikle sunum yazılımınızın kapasitesiyle sınırlıdır.
 ### Nasıl daha fazla yardım isteyebilirim veya deneyimimi nasıl paylaşabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

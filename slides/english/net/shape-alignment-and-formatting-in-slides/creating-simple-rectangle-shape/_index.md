@@ -3,10 +3,14 @@ title: Creating Rectangle Shapes with Aspose.Slides for .NET
 linktitle: Creating Simple Rectangle Shape in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Explore the world of dynamic PowerPoint presentations with Aspose.Slides for .NET. Learn how to create engaging rectangle shapes in slides with this step-by-step guide. 
-type: docs
 weight: 12
 url: /net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 If you're looking to enhance your .NET applications with dynamic and visually appealing PowerPoint presentations, Aspose.Slides for .NET is your go-to solution. In this tutorial, we'll guide you through the process of creating a simple rectangle shape in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -61,3 +65,9 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 Yes, you can purchase a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find the documentation for Aspose.Slides for .NET?
 Refer to the documentation [here](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

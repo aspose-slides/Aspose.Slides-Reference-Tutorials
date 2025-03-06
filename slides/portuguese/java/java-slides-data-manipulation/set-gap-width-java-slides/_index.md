@@ -3,10 +3,14 @@ title: Definir largura da lacuna em slides Java
 linktitle: Definir largura da lacuna em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir a largura da lacuna em slides Java com Aspose.Slides para Java. Aprimore o visual dos gráficos para suas apresentações em PowerPoint.
-type: docs
 weight: 21
 url: /pt/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução à configuração da largura da lacuna em Aspose.Slides para Java
 
@@ -158,3 +162,9 @@ Sim, Aspose.Slides for Java oferece amplos recursos para personalização de gr�
 ### Onde posso encontrar mais recursos e documentação?
 
  Você pode encontrar documentação abrangente e recursos adicionais em Aspose.Slides for Java na página[Aspor site](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

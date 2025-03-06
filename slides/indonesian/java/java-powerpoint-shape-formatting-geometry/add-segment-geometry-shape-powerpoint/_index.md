@@ -3,10 +3,14 @@ title: Tambahkan Segmen ke Bentuk Geometri di PowerPoint
 linktitle: Tambahkan Segmen ke Bentuk Geometri di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan segmen ke bentuk geometri dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah yang mendetail ini.
-type: docs
 weight: 19
 url: /id/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat presentasi yang menarik dan dinamis bisa menjadi sebuah tantangan, terutama bila Anda ingin menambahkan bentuk dan desain khusus. Di situlah Aspose.Slides untuk Java berguna. API canggih ini memungkinkan Anda memanipulasi file PowerPoint secara terprogram, memberi Anda fleksibilitas untuk menambahkan bentuk dan segmen geometris yang kompleks dengan mudah. Dalam tutorial ini, kami akan memandu Anda tentang cara menambahkan segmen ke bentuk geometri dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Baik Anda seorang pengembang yang ingin mengotomatiskan pembuatan presentasi atau hanya seseorang yang suka mendalami coding, panduan ini akan menjadi sumber komprehensif Anda.
 ## Prasyarat
@@ -78,3 +82,9 @@ Tidak, Aspose.Slides untuk Java dirancang khusus untuk digunakan dengan Java. Na
 Anda dapat menambahkan berbagai bentuk termasuk persegi panjang, elips, garis, dan bentuk geometri khusus.
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) tempat Anda dapat mengajukan pertanyaan dan mendapatkan bantuan dari komunitas dan pengembang.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

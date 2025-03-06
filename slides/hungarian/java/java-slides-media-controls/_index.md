@@ -3,10 +3,14 @@ title: Médiavezérlők az Aspose.Slides for Java használatával
 linktitle: Java Slides Media Controls
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java oktatóanyag segítségével megtudhatja, hogyan implementálhat médiavezérlőket Java diákon. Növelje prezentációit hanggal és videóval zökkenőmentesen.
-type: docs
 weight: 22
 url: /hu/java/media-controls/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 A mai digitális korban a prezentációk nem csak statikus, szöveget és képeket tartalmazó diákat tartalmaznak. Dinamikus, interaktív élményekké fejlődtek, amelyek lekötik és lekötik a közönséget. Ha Ön Java-fejlesztő, aki új dimenziót szeretne hozzáadni prezentációihoz, akkor jó helyen jár. Ebben a cikkben megvizsgáljuk, hogyan valósíthat meg médiavezérlőket a Java diákban az Aspose.Slides for Java oktatóanyagaival.
 
@@ -51,3 +55,9 @@ Master Java Slides megszakításkezelés az Aspose.Slides for Java segítségév
 Ismerje meg, hogyan frissítheti a prezentáció tulajdonságait Java diákban az Aspose.Slides for Java segítségével. Szabja személyre a szerzőt, a címet és egyebeket a hatásos prezentációk érdekében.
 ### [Frissítse a prezentáció tulajdonságait egy másik prezentáció használatával sablonként a Java Slidesben](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Javítsa a PowerPoint prezentációkat frissített metaadatokkal az Aspose.Slides for Java segítségével. Ismerje meg, hogyan frissítheti a tulajdonságokat, például a szerzőt, a címet és a kulcsszavakat a Java Slides sablonjaival.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Thêm khung video nhúng vào PowerPoint
 linktitle: Thêm khung video nhúng vào PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nhúng khung video trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Nâng cao bài thuyết trình của bạn một cách dễ dàng.
-type: docs
 weight: 21
 url: /vi/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Việc thêm video vào bản trình bày PowerPoint của bạn có thể khiến chúng trở nên hấp dẫn và giàu thông tin hơn. Sử dụng Aspose.Slides cho Java, bạn có thể dễ dàng nhúng video trực tiếp vào trang trình bày của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn hiểu mọi phần của mã và cách thức hoạt động của mã. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn cải thiện bản trình bày của mình bằng các video được nhúng.
 ## Điều kiện tiên quyết
@@ -93,3 +97,9 @@ Aspose.Slides hỗ trợ nhiều định dạng video khác nhau bao gồm MP4, 
 Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Slides. Bạn có thể có được giấy phép tạm thời để đánh giá.
 ### Tôi có thể tùy chỉnh kích thước và vị trí của khung hình video không?
 Có, bạn có thể tùy chỉnh kích thước và vị trí bằng cách thiết lập các thông số phù hợp khi thêm khung hình video.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

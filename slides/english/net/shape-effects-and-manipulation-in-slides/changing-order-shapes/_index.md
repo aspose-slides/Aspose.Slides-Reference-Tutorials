@@ -3,10 +3,14 @@ title: Reshaping Presentation Slides with Aspose.Slides for .NET
 linktitle: Changing Order of Shapes in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to reshape presentation slides using Aspose.Slides for .NET. Follow this step-by-step guide to reorder shapes and enhance visual appeal.
-type: docs
 weight: 26
 url: /net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Creating visually appealing presentation slides is a crucial aspect of effective communication. Aspose.Slides for .NET empowers developers to manipulate slides programmatically, offering a wide range of functionalities. In this tutorial, we'll delve into the process of changing the order of shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -70,3 +74,10 @@ A: Yes, you can explore the features with the [free trial](https://releases.aspo
 A: Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to get support and engage with the community.
 ### Q: How can I obtain a temporary license for Aspose.Slides for .NET?
 A: You can acquire a [temporary license](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

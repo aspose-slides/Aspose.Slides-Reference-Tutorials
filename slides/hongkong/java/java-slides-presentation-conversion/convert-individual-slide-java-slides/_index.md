@@ -3,10 +3,14 @@ title: 在 Java 幻燈片中轉換單一幻燈片
 linktitle: 在 Java 幻燈片中轉換單一幻燈片
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 透過程式碼範例逐步將單一 PowerPoint 投影片轉換為 HTML。
-type: docs
 weight: 12
 url: /zh-hant/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中轉換單一投影片簡介
 
@@ -170,3 +174,9 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### 如何處理投影片中形狀和文字的附加格式？
 
 您可以延長`CustomFormattingController`類別透過實作來處理特定於形狀的格式`writeShapeStart`和`writeShapeEnd`方法並在其中應用自訂格式化邏輯。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

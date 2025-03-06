@@ -3,10 +3,14 @@ title: 使用 Java 變更 PowerPoint 中的 SmartArt 佈局
 linktitle: 使用 Java 變更 PowerPoint 中的 SmartArt 佈局
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides for Java 操作 PowerPoint 簡報中的 SmartArt 版面配置。
-type: docs
 weight: 19
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教學中，我們將探討如何使用 Java 操作 PowerPoint 簡報中的 SmartArt 版面。 SmartArt 是 PowerPoint 中的一項強大功能，可讓使用者為各種目的創建具有視覺吸引力的圖形，例如說明流程、層級結構、關係等。
 ## 先決條件
@@ -60,3 +64,9 @@ Aspose.Slides支援在各種版本的PowerPoint中建立的PowerPoint簡報，�
 當然，您可以透過程式設計方式建立 SmartArt 圖形或修改現有圖形以滿足您的要求。
 ### 是否有社群論壇可供我尋求有關 Aspose.Slides 的協助？
 是的，您可以造訪 Aspose.Slides 論壇[這裡](https://forum.aspose.com/c/slides/11)提出問題並與社區互動。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

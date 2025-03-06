@@ -3,10 +3,14 @@ title: Presentatieregels opmaken met Aspose.Slides .NET Tutorial
 linktitle: Lijnen in presentatiedia's opmaken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentatiedia's met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding om lijnen moeiteloos op te maken. Download nu de gratis proefversie!
-type: docs
 weight: 10
 url: /nl/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het maken van visueel aantrekkelijke presentatiedia's is essentieel voor effectieve communicatie. Aspose.Slides voor .NET biedt een krachtige oplossing voor het programmatisch manipuleren en opmaken van presentatie-elementen. In deze zelfstudie concentreren we ons op het opmaken van lijnen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -75,3 +79,9 @@ Ja, Aspose.Slides ondersteunt verschillende programmeertalen, waaronder Java en 
  U kunt een tijdelijke licentie verkrijgen via[Aspose.Slides Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 ### V5: Waar kan ik Aspose.Slides voor .NET kopen?
  U kunt het product kopen bij[Aspose.Dia's Aankoop](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

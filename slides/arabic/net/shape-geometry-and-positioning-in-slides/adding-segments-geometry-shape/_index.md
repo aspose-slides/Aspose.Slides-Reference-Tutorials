@@ -3,10 +3,14 @@ title: إتقان العناصر المرئية - إضافة شرائح باست
 linktitle: إضافة شرائح إلى الشكل الهندسي في العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين تطبيقات .NET الخاصة بك باستخدام Aspose.Slides. يرشدك هذا البرنامج التعليمي إلى كيفية إضافة شرائح إلى الأشكال الهندسية لتقديم عروض تقديمية جذابة.
-type: docs
 weight: 13
 url: /ar/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في عالم تطوير .NET، يعد إنشاء عروض تقديمية جذابة بصريًا مطلبًا شائعًا. Aspose.Slides for .NET هي مكتبة قوية تسهل التكامل السلس لإمكانيات إنشاء العروض التقديمية القوية في تطبيقات .NET الخاصة بك. يركز هذا البرنامج التعليمي على جانب محدد من تصميم العرض التقديمي - إضافة شرائح إلى الأشكال الهندسية.
 ## المتطلبات الأساسية
@@ -72,3 +76,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  اكتشف ال[توثيق](https://reference.aspose.com/slides/net/) للحصول على أدلة وأمثلة شاملة.
 ### هل يمكنني تجربة Aspose.Slides مجانًا قبل الشراء؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

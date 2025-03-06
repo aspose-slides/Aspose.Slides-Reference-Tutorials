@@ -3,10 +3,14 @@ title: Přidejte do prezentace snímky rozvržení
 linktitle: Přidejte do prezentace snímky rozvržení
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit své PowerPointové prezentace pomocí Aspose.Slides pro .NET. Přidejte snímky rozvržení pro profesionální vzhled.
-type: docs
 weight: 11
 url: /cs/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 dnešní digitální době je působivá prezentace zásadní dovedností. Dobře strukturovaná a vizuálně přitažlivá prezentace může efektivně předat vaše sdělení. Aspose.Slides for .NET je výkonný nástroj, který vám pomůže vytvořit úžasné prezentace během okamžiku. V tomto podrobném průvodci prozkoumáme, jak používat Aspose.Slides pro .NET k přidání snímků rozložení do vaší prezentace. Tento proces rozdělíme do snadno srozumitelných kroků, abychom zajistili, že koncepty důkladně pochopíte. Začněme!
 
@@ -104,3 +108,9 @@ Aspose.Slides for .NET je knihovna .NET, která umožňuje vývojářům program
 
 ### Kde mohu získat podporu nebo vyhledat pomoc s Aspose.Slides pro .NET?
  Pokud máte nějaké dotazy nebo potřebujete pomoc, můžete navštívit fórum Aspose.Slides for .NET na adrese[Aspose Community Forum](https://forum.aspose.com/). Komunita je aktivní a nápomocná při řešení uživatelských dotazů.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

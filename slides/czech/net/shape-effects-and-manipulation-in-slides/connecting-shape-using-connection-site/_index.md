@@ -3,10 +3,14 @@ title: Shape Connection Mastery s Aspose.Slides pro .NET
 linktitle: Connecting Shape pomocí Connection Site v Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vytvářejte podmanivé prezentace pomocí Aspose.Slides pro .NET, které plynule spojují tvary. Postupujte podle našeho průvodce pro hladký a poutavý zážitek.
-type: docs
 weight: 30
 url: /cs/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 dynamickém světě prezentací je vytváření vizuálně přitažlivých diapozitivů s propojenými tvary zásadní pro efektivní komunikaci. Aspose.Slides for .NET poskytuje výkonné řešení, jak toho dosáhnout tím, že vám umožní propojit tvary pomocí spojovacích webů. Tento tutoriál vás provede procesem spojování tvarů krok za krokem a zajistí, že vaše prezentace vyniknou plynulými vizuálními přechody.
 ## Předpoklady
@@ -78,3 +82,9 @@ Ke zpracování výjimek můžete použít bloky try-catch. Odkazovat na[dokumen
  Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

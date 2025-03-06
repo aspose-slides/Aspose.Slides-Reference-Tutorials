@@ -3,10 +3,14 @@ title: Utiliser des polices personnalisées dans PowerPoint avec Java
 linktitle: Utiliser des polices personnalisées dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment intégrer des polices personnalisées dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez l’attrait visuel sans effort.
-type: docs
 weight: 25
 url: /fr/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment exploiter Aspose.Slides pour Java pour améliorer les présentations PowerPoint en intégrant des polices personnalisées. Les polices personnalisées peuvent enrichir considérablement l'attrait visuel de vos diapositives, garantissant qu'elles correspondent parfaitement aux exigences de votre marque ou de votre conception. Nous couvrirons tout, de l'importation des packages nécessaires à l'exécution des étapes requises pour intégrer de manière transparente des polices personnalisées dans vos présentations.
 ## Conditions préalables
@@ -70,3 +74,9 @@ Assurez-vous que vous disposez des licences appropriées pour distribuer les pol
 Aspose.Slides pour Java prend en charge l'utilisation d'une large gamme de polices personnalisées et aucune limite inhérente n'est imposée par la bibliothèque.
 ### Puis-je intégrer des polices personnalisées directement dans le fichier PowerPoint à l'aide d'Aspose.Slides pour Java ?
 Oui, Aspose.Slides pour Java vous permet d'intégrer des polices personnalisées dans le fichier de présentation lui-même pour une distribution transparente.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

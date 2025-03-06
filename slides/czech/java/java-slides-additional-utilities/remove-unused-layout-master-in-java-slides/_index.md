@@ -3,10 +3,14 @@ title: Odebrat Unused Layout Master v Java Slides
 linktitle: Odebrat Unused Layout Master v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Odstraňte nepoužité předlohy rozvržení pomocí Aspose.Slides. Návod a kód krok za krokem. Zvyšte efektivitu prezentace.
-type: docs
 weight: 10
 url: /cs/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod k odstranění nepoužitého vzoru rozložení v Java Slides
 
@@ -123,3 +127,9 @@ Ne, odstranění nepoužitých předloh rozvržení neovlivní formátování va
 ### Kde získám přístup ke zdrojovému kódu použitému v tomto článku?
 
 Zdrojový kód použitý v tomto článku najdete ve fragmentech kódu poskytnutých v každém kroku. Jednoduše zkopírujte a vložte kód do svého projektu Java a implementujte odstranění nepoužívaných vzorů rozložení ve vašich prezentacích.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

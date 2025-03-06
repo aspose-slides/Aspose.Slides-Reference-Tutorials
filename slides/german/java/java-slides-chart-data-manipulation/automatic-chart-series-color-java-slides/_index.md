@@ -3,10 +3,14 @@ title: Automatische Diagrammreihenfarbe in Java-Folien
 linktitle: Automatische Diagrammreihenfarbe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Diagramme mit automatischer Serienfarbe in PowerPoint-Präsentationen erstellen. Verbessern Sie Ihre Datenvisualisierungen mühelos.
-type: docs
 weight: 14
 url: /de/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in die automatische Diagrammreihenfarbe in Aspose.Slides für Java
 
@@ -190,3 +194,9 @@ Ja, Sie können das Diagramm, die Reihen und die Beschriftungen nach Bedarf weit
 ### Wo finde ich weitere Informationen zur Arbeit mit Aspose.Slides für Java?
 
  Weitere Informationen und eine ausführliche Dokumentation zu Aspose.Slides für Java finden Sie in der Referenzdokumentation[Hier](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

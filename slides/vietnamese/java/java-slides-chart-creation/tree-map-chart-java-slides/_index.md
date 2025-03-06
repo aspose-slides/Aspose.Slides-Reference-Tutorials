@@ -3,10 +3,14 @@ title: Biểu đồ bản đồ cây trong Java Slides
 linktitle: Biểu đồ bản đồ cây trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ bản đồ cây trong các trang trình bày Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu phân cấp.
-type: docs
 weight: 13
 url: /vi/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Biểu đồ bản đồ cây trong Java Slides
 
@@ -152,3 +156,9 @@ Có, bạn có thể tạo nhiều biểu đồ Bản đồ cây trong một b�
 ### Làm cách nào để lưu bản trình bày bằng biểu đồ Bản đồ cây?
 
  Sử dụng`pres.save()` phương pháp lưu bản trình bày với biểu đồ Bản đồ cây ở định dạng mong muốn (ví dụ: PPTX).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

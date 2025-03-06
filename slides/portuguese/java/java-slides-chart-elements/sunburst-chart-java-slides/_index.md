@@ -3,10 +3,14 @@ title: Gráfico Sunburst em slides Java
 linktitle: Gráfico Sunburst em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Crie gráficos Sunburst impressionantes em slides Java com Aspose.Slides. Aprenda passo a passo a criação de gráficos e manipulação de dados.
-type: docs
 weight: 16
 url: /pt/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução ao gráfico Sunburst em slides Java com Aspose.Slides
 
@@ -168,3 +172,9 @@ Para adicionar dicas de ferramentas ao gráfico Sunburst, você pode definir o f
 ### É possível criar gráficos Sunburst interativos com hiperlinks?
 
 Sim, você pode criar gráficos Sunburst interativos com hiperlinks adicionando hiperlinks a elementos ou segmentos específicos do gráfico. Consulte a documentação do Aspose.Slides para obter detalhes sobre como adicionar hiperlinks.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

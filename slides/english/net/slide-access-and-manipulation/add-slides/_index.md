@@ -3,10 +3,14 @@ title: Insert Additional Slides into Presentation
 linktitle: Insert Additional Slides into Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to insert additional slides into your PowerPoint presentations using Aspose.Slides for .NET. This step-by-step guide provides source code examples and detailed instructions for seamlessly enhancing your presentations. Customizable content, insertion tips, and FAQs included.
-type: docs
 weight: 15
 url: /net/slide-access-and-manipulation/add-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Insert Additional Slides into Presentation
 
@@ -107,3 +111,10 @@ Absolutely. You can change the layout, design, and formatting of the inserted sl
 ### Where can I find more information about Aspose.Slides for .NET?
 
 For detailed documentation and examples, refer to the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

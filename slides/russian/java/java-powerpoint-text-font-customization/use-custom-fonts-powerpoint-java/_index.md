@@ -3,10 +3,14 @@ title: Используйте пользовательские шрифты в P
 linktitle: Используйте пользовательские шрифты в PowerPoint с Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как интегрировать пользовательские шрифты в презентации PowerPoint с помощью Aspose.Slides для Java. Повысьте визуальную привлекательность без особых усилий.
-type: docs
 weight: 25
 url: /ru/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В этом уроке мы рассмотрим, как использовать Aspose.Slides для Java для улучшения презентаций PowerPoint путем интеграции пользовательских шрифтов. Пользовательские шрифты могут значительно улучшить визуальную привлекательность ваших слайдов, гарантируя, что они идеально соответствуют вашему бренду или требованиям дизайна. Мы рассмотрим все: от импорта необходимых пакетов до выполнения шагов, необходимых для плавной интеграции пользовательских шрифтов в ваши презентации.
 ## Предварительные условия
@@ -70,3 +74,9 @@ FontsLoader.clearCache();
 Aspose.Slides для Java поддерживает использование широкого спектра пользовательских шрифтов, и библиотека не накладывает никаких ограничений.
 ### Могу ли я встроить пользовательские шрифты непосредственно в файл PowerPoint с помощью Aspose.Slides для Java?
 Да, Aspose.Slides для Java позволяет встраивать пользовательские шрифты в сам файл презентации для беспрепятственного распространения.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

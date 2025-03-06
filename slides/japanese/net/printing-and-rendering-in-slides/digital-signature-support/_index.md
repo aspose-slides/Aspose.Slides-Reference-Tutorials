@@ -3,10 +3,14 @@ title: Aspose.Slides を使用して PowerPoint にデジタル署名を追加�
 linktitle: Aspose.Slides でのデジタル署名のサポート
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET で PowerPoint プレゼンテーションに安全に署名します。ステップバイステップのガイドに従ってください。今すぐダウンロードして無料トライアルをお試しください。
-type: docs
 weight: 19
 url: /ja/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 デジタル署名は、デジタル ドキュメントの信頼性と整合性を保証する上で重要な役割を果たします。Aspose.Slides for .NET はデジタル署名を強力にサポートし、PowerPoint プレゼンテーションに安全に署名できるようにします。このチュートリアルでは、Aspose.Slides を使用してプレゼンテーションにデジタル署名を追加する手順を説明します。
 ## 前提条件
@@ -62,3 +66,9 @@ Aspose.Slides は、デジタル署名をプログラムで検証する方法を
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/net/).
 ### サポートが必要ですか、または追加の質問がありますか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

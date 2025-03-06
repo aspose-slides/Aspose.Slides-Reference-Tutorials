@@ -3,10 +3,14 @@ title: Установить ширину промежутка в слайдах 
 linktitle: Установить ширину промежутка в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить ширину зазора в слайдах Java с помощью Aspose.Slides для Java. Улучшите визуальные эффекты диаграмм для презентаций PowerPoint.
-type: docs
 weight: 21
 url: /ru/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в настройку ширины зазора в Aspose.Slides для Java
 
@@ -158,3 +162,9 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### Где я могу найти дополнительные ресурсы и документацию?
 
  Вы можете найти подробную документацию и дополнительные ресурсы по Aspose.Slides для Java на сайте[Веб-сайт Aspose](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

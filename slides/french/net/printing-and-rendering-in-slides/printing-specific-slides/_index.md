@@ -3,10 +3,14 @@ title: Imprimer des diapositives de présentation avec Aspose.Slides dans .NET
 linktitle: Impression de diapositives de présentation spécifiques avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment imprimer des diapositives de présentation dans .NET à l'aide d'Aspose.Slides. Guide étape par étape pour les développeurs. Téléchargez la bibliothèque et commencez à imprimer dès aujourd'hui.
-type: docs
 weight: 18
 url: /fr/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le monde du développement .NET, Aspose.Slides s'impose comme un outil puissant pour travailler avec des fichiers de présentation. Si vous avez déjà eu besoin d’imprimer des diapositives de présentation par programmation, vous êtes au bon endroit. Dans ce didacticiel, nous verrons comment y parvenir à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -59,3 +63,9 @@ R : Oui, vous pouvez y parvenir en modifiant le code pour imprimer sélectiveme
  R : Absolument ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je acheter Aspose.Slides pour .NET ?
  R : Vous pouvez acheter la bibliothèque[ici](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Wyrównanie kształtów i formatowanie na slajdach
 linktitle: Wyrównanie kształtów i formatowanie na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zapoznaj się z obszernymi samouczkami Aspose.Slides na temat wyrównywania kształtów i formatowania w aplikacjach .NET. Dowiedz się, jak bez wysiłku wyrównywać i formatować kształty, ulepszając swoje prezentacje slajdów z precyzją.
-type: docs
 weight: 14
 url: /pl/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wstęp
 
@@ -44,3 +48,9 @@ Dowiedz się, jak tworzyć urzekające slajdy prezentacji z naszkicowanymi kszta
 Dowiedz się, jak dodać przesunięcie rozciągnięcia w lewo dla ramki obrazu w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym przykładem kodu źródłowego.
 ### [Zastępowanie tytułu obrazu ramki obiektu OLE na slajdach prezentacji](./substituting-picture-title-ole-object-frame/)
 Dowiedz się, jak zastąpić tytuły obrazów ramek obiektów OLE na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

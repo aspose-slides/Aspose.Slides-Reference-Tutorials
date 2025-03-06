@@ -3,10 +3,14 @@ title: 在 PowerPoint 中新增視訊幀
 linktitle: 在 PowerPoint 中新增視訊幀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將影片內容無縫整合到 PowerPoint 簡報中。您的投影片包含多媒體元素以吸引觀眾。
-type: docs
 weight: 17
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在本教學中，我們將引導您完成使用 Aspose.Slides for Java 將影片影格新增至 PowerPoint 簡報的過程。透過遵循這些逐步說明，您將能夠輕鬆地將影片內容無縫整合到您的簡報中。
 ## 先決條件
@@ -60,3 +64,9 @@ Aspose.Slides支援多種視訊格式，如AVI、WMV、MP4等。確保格式與 
 是的，您可以根據自己的喜好設定視訊幀的播放模式和音量。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多支援和資源？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求協助、文件和社群支援。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

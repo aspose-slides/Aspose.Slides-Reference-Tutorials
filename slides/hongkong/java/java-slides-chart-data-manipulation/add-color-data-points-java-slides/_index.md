@@ -3,10 +3,14 @@ title: 為 Java 投影片中的資料點新增顏色
 linktitle: 為 Java 投影片中的資料點新增顏色
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 為 Java 投影片中的資料點新增顏色。
-type: docs
 weight: 10
 url: /zh-hant/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中為資料點新增色彩簡介
 
@@ -117,3 +121,9 @@ finally
 ### 在哪裡可以找到更多範例和文件？
 
 您可以在以下位置找到有關使用 Aspose.Slides for Java 的更多範例和詳細文件：[Aspose.Slides 文檔](https://reference.aspose.com/slides/java/)網站。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

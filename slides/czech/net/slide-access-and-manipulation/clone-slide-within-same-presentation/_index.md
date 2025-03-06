@@ -3,10 +3,14 @@ title: Klonovat snímek v rámci stejné prezentace
 linktitle: Klonovat snímek v rámci stejné prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se klonovat snímky v rámci stejné prezentace PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce s úplnými příklady zdrojového kódu, abyste mohli efektivně manipulovat s prezentacemi.
-type: docs
 weight: 21
 url: /cs/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -105,3 +109,9 @@ Ano, pomocí podobných technik můžete klonovat snímky mezi různými prezent
 ### Kde najdu další informace o Aspose.Slides pro .NET?
 
  Pro podrobnější dokumentaci a příklady můžete navštívit[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

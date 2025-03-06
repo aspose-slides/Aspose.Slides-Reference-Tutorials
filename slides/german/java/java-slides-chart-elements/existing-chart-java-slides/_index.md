@@ -3,10 +3,14 @@ title: Vorhandenes Diagramm in Java-Folien
 linktitle: Vorhandenes Diagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie, wie Sie vorhandene Diagramme programmgesteuert ändern. Schritt-für-Schritt-Anleitung mit Quellcode zur Diagrammanpassung.
-type: docs
 weight: 12
 url: /de/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in vorhandene Diagramme in Java-Folien mit Aspose.Slides für Java
 
@@ -184,3 +188,9 @@ In diesem umfassenden Tutorial haben wir gelernt, wie Sie mit Aspose.Slides für
 ### Gibt es eine Möglichkeit, eine Reihe aus dem Diagramm zu entfernen?
 
  Ja, Sie können eine Serie aus dem Diagramm entfernen, indem Sie das`chart.getChartData().getSeries().removeAt(index)` Methode, wobei`index`ist der Index der Serie, die Sie entfernen möchten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

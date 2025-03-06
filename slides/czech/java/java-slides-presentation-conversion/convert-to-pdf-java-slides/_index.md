@@ -3,10 +3,14 @@ title: Převést do PDF v Java Slides
 linktitle: Převést do PDF v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět PowerPointové prezentace do PDF v Javě pomocí Aspose.Slides pro Javu. Postupujte podle našeho podrobného průvodce se zdrojovým kódem a nejčastějšími dotazy pro bezproblémový převod z PowerPointu do PDF.
-type: docs
 weight: 25
 url: /cs/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do převodu PowerPointové prezentace do PDF v Javě pomocí Aspose.Slides pro Javu
 
@@ -113,3 +117,9 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Správa řádkování v Java PowerPoint
 linktitle: Správa řádkování v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak snadno spravovat řádkování v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Vylepšete své snímky.
-type: docs
 weight: 12
 url: /cs/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V programování Java je řízení řádkování v prezentacích PowerPoint zásadní pro vytváření vizuálně přitažlivých snímků, které efektivně předávají informace. Ať už upravujete mezery mezi odstavci nebo ovládáte mezery před a za každým odstavcem, Aspose.Slides for Java poskytuje komplexní nástroje pro bezproblémové dosažení těchto úkolů.
 ## Předpoklady
@@ -62,3 +66,9 @@ Můžete prozkoumat podrobnou dokumentaci[tady](https://reference.aspose.com/sli
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Jak mohu získat technickou podporu pro Aspose.Slides?
  Pro technickou pomoc navštivte Aspose.Slides[Fórum podpory](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

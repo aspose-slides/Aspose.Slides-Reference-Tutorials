@@ -3,10 +3,14 @@ title: إضافة ارتباط تشعبي إلى مربع النص في PowerPoi
 linktitle: إضافة ارتباط تشعبي إلى مربع النص في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة ارتباطات تشعبية إلى مربعات نص PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة لمطوري Java.
-type: docs
 weight: 23
 url: /ar/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية تشاركية ومفيدة أمرًا بالغ الأهمية للتواصل الفعال. غالبًا ما يلجأ مطورو Java الذين يسعون إلى تحسين تطبيقاتهم بميزات تفاعلية إلى Aspose.Slides for Java، وهي مكتبة قوية تتيح معالجة عروض PowerPoint التقديمية برمجيًا. يتعمق هذا البرنامج التعليمي في إحدى هذه الميزات: إضافة ارتباطات تشعبية إلى مربعات النص في عروض PowerPoint التقديمية باستخدام Java. بحلول نهاية هذا الدليل، سيكون لديك فهم واضح لكيفية تنفيذ هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -76,3 +80,9 @@ pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
  نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل Aspose.Slides متوافق مع مكتبات Java الأخرى؟
 يتكامل Aspose.Slides بشكل جيد مع مكتبات Java المتنوعة لمعالجة PowerPoint بشكل شامل.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

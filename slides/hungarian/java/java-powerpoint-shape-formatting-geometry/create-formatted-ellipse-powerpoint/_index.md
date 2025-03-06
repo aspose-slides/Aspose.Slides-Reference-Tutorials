@@ -3,10 +3,14 @@ title: Formázott ellipszis létrehozása a PowerPointban
 linktitle: Formázott ellipszis létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: A részletes, lépésenkénti útmutatónkból megtudhatja, hogyan hozhat létre formázott ellipszist a PowerPointban az Aspose.Slides for Java segítségével.
-type: docs
 weight: 17
 url: /hu/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban, amely a PowerPointban formázott ellipszis létrehozásáról szól az Aspose.Slides for Java használatával. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a PowerPoint fájlokat. Függetlenül attól, hogy automatizálja a diagenerálást, vagy egyéni alakzatokkal javítja a prezentációkat, ez az útmutató végigvezeti Önt minden lépésen, így könnyedén hozzáadhat egy tökéletesen formázott ellipszist a diákhoz. Merüljünk el, és nézzük meg, hogyan érhetjük el ezt!
 ## Előfeltételek
@@ -95,3 +99,9 @@ Igen, az Aspose.Slides kereskedelmi termék, és a teljes funkcionalitáshoz lic
  Részletes dokumentációt találhat az Aspose.Slides for Java webhelyen[dokumentációs oldal](https://reference.aspose.com/slides/java/).
 ### Van-e támogatás az Aspose.Slides számára?
  Igen, az Aspose támogatást nyújt rajtuk keresztül[fórum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

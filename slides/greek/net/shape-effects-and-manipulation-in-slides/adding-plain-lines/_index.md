@@ -3,10 +3,14 @@ title: Προσθήκη απλών γραμμών σε διαφάνειες πα
 linktitle: Προσθήκη απλών γραμμών σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας PowerPoint σε .NET χρησιμοποιώντας Aspose.Slides. Ακολουθήστε τον οδηγό βήμα προς βήμα για να προσθέσετε απλές γραμμές χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Η δημιουργία ελκυστικών και οπτικά ελκυστικών παρουσιάσεων PowerPoint συχνά περιλαμβάνει την ενσωμάτωση διαφόρων σχημάτων και στοιχείων. Εάν εργάζεστε με .NET, το Aspose.Slides είναι ένα ισχυρό εργαλείο που απλοποιεί τη διαδικασία. Αυτό το σεμινάριο εστιάζει στην προσθήκη απλών γραμμών σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε για να βελτιώσετε τις παρουσιάσεις σας με αυτόν τον εύκολο στην παρακολούθηση οδηγό.
 ## Προαπαιτούμενα
@@ -67,3 +71,9 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
  Μία επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/) για προσωρινές άδειες.
 ### Ε: Αντιμετωπίζετε προβλήματα; Πού μπορώ να βρω υποστήριξη;
  Α: Ζητήστε βοήθεια για το[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Crea miniature di forme PowerPoint - Aspose.Slides .NET
 linktitle: Creazione di una miniatura per la forma in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come creare miniature per forme nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Una guida passo passo completa per gli sviluppatori.
-type: docs
 weight: 14
 url: /it/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di lavorare senza problemi con le presentazioni PowerPoint. Una delle sue caratteristiche degne di nota è la capacità di generare miniature per le forme all'interno di una presentazione. Questo tutorial ti guiderà attraverso il processo di creazione di miniature per forme utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -57,3 +61,9 @@ R: È possibile implementare meccanismi di gestione degli errori utilizzando i b
 R: Aspose.Slides offre flessibilità per la creazione di miniature per varie forme, incluse caselle di testo, immagini e altro.
 ### D: Posso personalizzare la dimensione e la risoluzione delle miniature generate?
  R: Sì, puoi regolare i parametri quando chiami il file`GetThumbnail` metodo per controllare le dimensioni e la risoluzione.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

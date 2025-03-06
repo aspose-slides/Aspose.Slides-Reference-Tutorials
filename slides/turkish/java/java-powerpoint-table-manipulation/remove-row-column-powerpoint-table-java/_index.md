@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint Tablosunda Satır veya Sütunu Kaldırma
 linktitle: Java kullanarak PowerPoint Tablosunda Satır veya Sütunu Kaldırma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java kullanarak PowerPoint tablolarından satır veya sütunları nasıl kaldıracağınızı öğrenin. Geliştiriciler için kolay adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu derste, Aspose.Slides'ın yardımıyla Java kullanarak bir PowerPoint tablosundan bir satırın veya sütunun nasıl kaldırılacağını inceleyeceğiz. Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Bu eğitim, özellikle PowerPoint slaytlarındaki tabloları değiştirme sürecine odaklanarak, bir tablodan belirli satırların veya sütunların nasıl kaldırılacağını adım adım gösterir.
 ## Önkoşullar
@@ -74,3 +78,9 @@ Aspose.Slides, slayt oluşturma, metin biçimlendirme ve daha fazlası dahil olm
 Evet, Aspose.Slides, güçlü özellikleri ve performansı nedeniyle kurumsal ortamlarda PowerPoint görevlerini otomatikleştirmek için yaygın olarak kullanılmaktadır.
 ### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
  Evet, Aspose.Slides'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

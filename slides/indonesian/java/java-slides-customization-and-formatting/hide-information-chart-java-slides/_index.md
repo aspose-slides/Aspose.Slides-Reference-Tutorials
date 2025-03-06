@@ -3,10 +3,14 @@ title: Sembunyikan Informasi dari Bagan di Slide Java
 linktitle: Sembunyikan Informasi dari Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyembunyikan elemen bagan di Java Slides dengan Aspose.Slides for Java. Sesuaikan presentasi untuk kejelasan dan estetika dengan panduan langkah demi langkah dan kode sumber.
-type: docs
 weight: 13
 url: /id/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Menyembunyikan Informasi dari Bagan di Slide Java
 
@@ -172,3 +176,9 @@ Ya, Anda dapat mengubah tipe bagan secara dinamis dengan membuat bagan baru dari
 ### Bagaimana cara mengubah judul bagan dan label sumbu secara terprogram?
 
 Anda dapat mengatur judul dan label bagan dan sumbu dengan mengakses properti masing-masing dan mengatur teks dan format yang diinginkan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

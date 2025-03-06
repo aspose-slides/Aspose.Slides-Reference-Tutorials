@@ -3,10 +3,14 @@ title: Configuración del eje de posición en diapositivas de Java
 linktitle: Configuración del eje de posición en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Mejore sus gráficos con Aspose.Slides para Java. Aprenda a configurar el eje de posición en diapositivas Java, crear presentaciones impresionantes y personalizar diseños de gráficos con facilidad.
-type: docs
 weight: 16
 url: /es/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a la configuración del eje de posición en Aspose.Slides para Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Eso es todo por este tutorial. Ha aprendido cómo configurar el eje de posición en un gráfico usando Aspose.Slides para Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

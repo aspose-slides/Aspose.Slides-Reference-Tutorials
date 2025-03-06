@@ -3,10 +3,14 @@ title: تعيين زاوية خط الموصل في PowerPoint
 linktitle: تعيين زاوية خط الموصل في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين زوايا خط الموصل في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص الشرائح الخاصة بك بدقة.
-type: docs
 weight: 17
 url: /ar/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية تعيين زاوية خطوط الموصل في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. تعتبر خطوط الموصل ضرورية لتوضيح العلاقات والتدفقات بين الأشكال في شرائحك. ومن خلال ضبط زواياها، يمكنك التأكد من أن عروضك التقديمية تنقل رسالتك بوضوح وفعالية.
 ## المتطلبات الأساسية
@@ -80,3 +84,9 @@ public static double getDirection(float w, float h, boolean flipH, boolean flipV
 بالتأكيد! يوفر Aspose.Slides خيارات شاملة لتخصيص خطوط الموصل، بما في ذلك الأنماط والسمك ونقاط النهاية، مما يسمح لك بإنشاء عروض تقديمية جذابة بصريًا.
 ### أين يمكنني العثور على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للمساعدة في أي استفسارات أو مشكلات تواجهها أثناء عملية التطوير.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

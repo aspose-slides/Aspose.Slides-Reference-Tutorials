@@ -3,10 +3,14 @@ title: Java 슬라이드의 기존 차트
 linktitle: Java 슬라이드의 기존 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 향상하세요. 기존 차트를 프로그래밍 방식으로 수정하는 방법을 알아보세요. 차트 사용자 정의를 위한 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java를 사용하여 Java 슬라이드의 기존 차트 소개
 
@@ -184,3 +188,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### 차트에서 계열을 제거하는 방법이 있나요?
 
  예, 다음을 사용하여 차트에서 계열을 제거할 수 있습니다.`chart.getChartData().getSeries().removeAt(index)` 방법, 여기서`index`제거하려는 시리즈의 인덱스입니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: แปลงมุมมองสไลด์ Notes เป็นรูป
 linktitle: แปลงมุมมองสไลด์ Notes เป็นรูปแบบ PDF
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: แปลงบันทึกของผู้บรรยายใน PowerPoint เป็น PDF ด้วย Aspose.Slides สำหรับ .NET รักษาบริบทและปรับแต่งเค้าโครงได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดขั้นตอนการแปลง Notes Slide View เป็นรูปแบบ PDF โดยใช้ Aspose.Slides สำหรับ .NET คุณจะพบคำแนะนำโดยละเอียดและข้อมูลโค้ดเพื่อให้งานนี้สำเร็จได้อย่างง่ายดาย
 
@@ -78,3 +82,9 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 คุณสามารถสำรวจบทช่วยสอนและตัวอย่างเพิ่มเติมได้ใน[Aspose.Slides สำหรับเอกสาร .NET API](https://reference.aspose.com/slides/net/).
 
 ตอนนี้คุณได้แปลง Notes Slide View เป็นรูปแบบ PDF เรียบร้อยแล้ว คุณสามารถสำรวจคุณสมบัติและความสามารถเพิ่มเติมของ Aspose.Slides สำหรับ .NET เพื่อปรับปรุงงานการทำงานอัตโนมัติของ PowerPoint ของคุณได้ ขอให้มีความสุขในการเขียนโค้ด!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

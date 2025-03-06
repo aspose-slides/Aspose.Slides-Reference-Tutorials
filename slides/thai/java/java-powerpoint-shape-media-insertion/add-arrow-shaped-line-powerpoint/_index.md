@@ -3,10 +3,14 @@ title: เพิ่มเส้นรูปลูกศรใน PowerPoint
 linktitle: เพิ่มเส้นรูปลูกศรใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มเส้นรูปลูกศรลงในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 การเพิ่มเส้นรูปลูกศรลงในงานนำเสนอ PowerPoint สามารถเพิ่มความดึงดูดสายตาและช่วยในการถ่ายทอดข้อมูลได้อย่างมีประสิทธิภาพ Aspose.Slides สำหรับ Java นำเสนอโซลูชันที่ครอบคลุมสำหรับนักพัฒนา Java เพื่อจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มเส้นรูปลูกศรลงในสไลด์ PowerPoint ของคุณโดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -76,3 +80,9 @@ Aspose.Slides สำหรับ Java รองรับความเข้า
  เอกสารประกอบ:[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/)
  ดาวน์โหลด:[Aspose.Slides สำหรับการดาวน์โหลด Java](https://releases.aspose.com/slides/java/)
  สนับสนุน:[Aspose.Slides สำหรับฟอรัมสนับสนุน Java](https://forum.aspose.com/c/slides/11)
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

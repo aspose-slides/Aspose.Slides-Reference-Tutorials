@@ -3,10 +3,14 @@ title: Créez des présentations dynamiques avec les cadres de zoom Aspose.Slide
 linktitle: Création d'un cadre de zoom dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer des présentations captivantes avec des cadres de zoom à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour une expérience de diapositive attrayante.
-type: docs
 weight: 17
 url: /fr/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans le domaine des présentations, des diapositives captivantes sont essentielles pour laisser une impression durable. Aspose.Slides pour .NET fournit un ensemble d'outils puissants et, dans ce guide, nous vous guiderons tout au long du processus d'intégration de cadres de zoom attrayants dans vos diapositives de présentation.
 ## Conditions préalables
@@ -89,3 +93,9 @@ Oui, vous pouvez personnaliser divers aspects tels que la largeur des lignes, la
  Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je acheter la version complète d'Aspose.Slides pour .NET ?
  Vous pouvez acheter la version complète[ici](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

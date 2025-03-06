@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint 테이블에서 첫 번째 행을 머리�
 linktitle: Java를 사용하여 PowerPoint 테이블에서 첫 번째 행을 머리글로 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 테이블의 첫 번째 행을 헤더로 설정하는 방법을 알아보세요. 프레젠테이션의 명확성과 구성을 쉽게 개선할 수 있습니다.
-type: docs
 weight: 19
 url: /ko/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 프레젠테이션을 원활하게 통합하고 수정할 수 있는 강력한 라이브러리인 Aspose.Slides for Java를 사용하여 PowerPoint 테이블을 조작하는 방법을 살펴보겠습니다. 특히 표의 첫 번째 행을 머리글로 설정하여 슬라이드의 시각적 매력과 구성을 향상시키는 데 중점을 둘 것입니다.
 ## 전제 조건
@@ -76,3 +80,9 @@ Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 파일을 작�
  자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  커뮤니티 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

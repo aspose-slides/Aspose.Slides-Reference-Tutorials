@@ -3,10 +3,14 @@ title: प्रस्तुतियों में मेल मर्ज न
 linktitle: प्रस्तुतियों में मेल मर्ज निष्पादित करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: इस चरण-दर-चरण मार्गदर्शिका में Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन में मेल मर्ज करना सीखें। आसानी से गतिशील, वैयक्तिकृत प्रेजेंटेशन बनाएँ।
-type: docs
 weight: 21
 url: /hi/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 .NET विकास की दुनिया में, गतिशील और व्यक्तिगत प्रस्तुतियाँ बनाना एक सामान्य आवश्यकता है। एक शक्तिशाली उपकरण जो इस प्रक्रिया को सरल बनाता है वह है Aspose.Slides for .NET। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में मेल मर्ज करने के आकर्षक क्षेत्र में गहराई से उतरेंगे।
 ## आवश्यक शर्तें
@@ -150,3 +154,9 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
  ज़रूर! आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ## निष्कर्ष
 इस ट्यूटोरियल में, हमने प्रेजेंटेशन में मेल मर्ज करने में Aspose.Slides for .NET की रोमांचक क्षमताओं का पता लगाया। चरण-दर-चरण गाइड का पालन करके, आप आसानी से गतिशील और वैयक्तिकृत प्रेजेंटेशन बना सकते हैं। सहज प्रेजेंटेशन निर्माण के लिए Aspose.Slides के साथ अपने .NET विकास अनुभव को बढ़ाएँ।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

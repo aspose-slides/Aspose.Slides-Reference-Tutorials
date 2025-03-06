@@ -3,10 +3,14 @@ title: Fejléc és lábléc kezelése a Notes alkalmazásban az Aspose.Slides .N
 linktitle: A fejléc és a lábléc kezelése a Notes diában
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a fejlécet és láblécet a PowerPoint jegyzetdiáin az Aspose.Slides for .NET segítségével. Fokozza könnyedén prezentációit.
-type: docs
 weight: 11
 url: /hu/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 mai digitális korban a vonzó és informatív prezentációk készítése létfontosságú készség. Ennek a folyamatnak a részeként gyakran előfordulhat, hogy fejlécet és láblécet kell felvennie a jegyzetdiákba, hogy további kontextust és információkat biztosítson. Az Aspose.Slides for .NET egy hatékony eszköz, amely lehetővé teszi a fejléc- és lábléc-beállítások egyszerű kezelését a jegyzetdiákban. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan érhető el ez az Aspose.Slides for .NET használatával.
 
@@ -120,3 +124,9 @@ Az Aspose.Slides for .NET lehetővé teszi a PowerPoint prezentációk automatiz
 
 ### Rendelkezésre áll technikai támogatás az Aspose.Slides számára a .NET felhasználók számára?
  Igen, támogatást és segítséget kaphat az Aspose közösségtől és a szakértőktől[Aspose támogatási fórum](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

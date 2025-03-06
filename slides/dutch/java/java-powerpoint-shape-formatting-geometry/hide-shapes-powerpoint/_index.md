@@ -3,10 +3,14 @@ title: Vormen verbergen in PowerPoint
 linktitle: Vormen verbergen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen in PowerPoint kunt verbergen met Aspose.Slides voor Java met onze gedetailleerde stapsgewijze handleiding. Perfect voor Java-ontwikkelaars van alle niveaus.
-type: docs
 weight: 27
 url: /nl/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het verbergen van vormen in PowerPoint met Aspose.Slides voor Java! Als u ooit bepaalde vormen in uw PowerPoint-presentaties programmatisch hebt moeten verbergen, bent u hier op de juiste plek. Deze gids begeleidt u bij elke stap in een eenvoudige, gemoedelijke stijl. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Java, wij staan voor u klaar.
 ## Vereisten
@@ -81,3 +85,9 @@ Aspose.Slides is beschikbaar voor verschillende programmeertalen, waaronder .NET
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  U kunt ondersteuning krijgen van de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

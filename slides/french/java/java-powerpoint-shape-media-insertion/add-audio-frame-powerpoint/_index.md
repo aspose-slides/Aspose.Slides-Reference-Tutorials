@@ -3,10 +3,14 @@ title: Ajouter un cadre audio dans PowerPoint
 linktitle: Ajouter un cadre audio dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des images audio aux présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Élevez vos présentations avec des éléments audio attrayants sans effort.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 L'amélioration des présentations avec des éléments audio peut augmenter considérablement leur impact et leur engagement. Avec Aspose.Slides pour Java, l'intégration d'images audio dans des présentations PowerPoint devient un processus transparent. Ce didacticiel vous guidera tout au long du processus étape par étape d'ajout d'images audio à vos présentations à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -75,3 +79,9 @@ Oui, vous pouvez créer des présentations PowerPoint avec des images audio int�
 Aspose.Slides pour Java offre des options de personnalisation étendues, vous permettant d'adapter l'apparence du lecteur audio en fonction de vos préférences.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides pour Java ?
  Oui, vous pouvez accéder à un essai gratuit d'Aspose.Slides pour Java depuis leur[site web](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

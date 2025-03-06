@@ -3,10 +3,14 @@ title: Définir la largeur de l'espace dans les diapositives Java
 linktitle: Définir la largeur de l'espace dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir la largeur de l'espace dans les diapositives Java avec Aspose.Slides pour Java. Améliorez les visuels des graphiques pour vos présentations PowerPoint.
-type: docs
 weight: 21
 url: /fr/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la définition de la largeur de l'espace dans Aspose.Slides pour Java
 
@@ -158,3 +162,9 @@ Oui, Aspose.Slides pour Java offre des fonctionnalités étendues de personnalis
 ### Où puis-je trouver plus de ressources et de documentation ?
 
  Vous pouvez trouver une documentation complète et des ressources supplémentaires sur Aspose.Slides pour Java sur le[Site Aspose](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 創建令人驚嘆的草圖形狀
 linktitle: 使用 Aspose.Slides 在簡報投影片中建立草圖形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將創意草圖形狀新增至簡報投影片中。毫不費力地增強視覺吸引力！
-type: docs
 weight: 13
 url: /zh-hant/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 歡迎閱讀我們關於使用 Aspose.Slides for .NET 在簡報投影片中建立草圖形狀的逐步指南。如果您想為簡報增添創意，草圖形狀可提供獨特的手繪美感。在本教程中，我們將引導您完成整個過程，將其分解為簡單的步驟，以確保流暢的體驗。
 ## 先決條件
@@ -74,3 +78,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 要購買 Aspose.Slides for .NET，請訪問[購買頁面](https://purchase.aspose.com/buy).
 ### 5. 你們提供臨時許可證嗎？
 是的，可以使用臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

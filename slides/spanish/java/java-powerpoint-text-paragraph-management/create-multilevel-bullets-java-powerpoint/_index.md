@@ -3,10 +3,14 @@ title: Crear viñetas multinivel en Java PowerPoint
 linktitle: Crear viñetas multinivel en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear viñetas de varios niveles en PowerPoint usando Aspose.Slides para Java. Guía paso a paso con ejemplos de código y preguntas frecuentes.
-type: docs
 weight: 14
 url: /es/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En este tutorial, exploraremos cómo crear viñetas multinivel en presentaciones de PowerPoint usando Aspose.Slides para Java. Agregar viñetas es un requisito común para crear contenido organizado y visualmente atractivo en presentaciones. Revisaremos el proceso paso a paso, asegurándonos de que al final de esta guía esté equipado para mejorar sus presentaciones con viñetas estructuradas en múltiples niveles.
 ## Requisitos previos
@@ -109,3 +113,9 @@ Aspose.Slides genera presentaciones que son compatibles con Microsoft PowerPoint
 Sí, Aspose.Slides proporciona API para automatizar la creación, modificación y manipulación de presentaciones de PowerPoint.
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener apoyo de la comunidad Aspose.Slides y de expertos en[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

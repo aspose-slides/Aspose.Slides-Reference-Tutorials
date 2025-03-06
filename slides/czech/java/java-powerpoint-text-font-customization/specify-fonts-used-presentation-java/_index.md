@@ -3,10 +3,14 @@ title: Zadejte písma použitá v prezentaci pomocí Java
 linktitle: Zadejte písma použitá v prezentaci pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se určit vlastní písma v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vylepšete své snímky jedinečnou typografií bez námahy.
-type: docs
 weight: 22
 url: /cs/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 dnešní digitální době je vytváření vizuálně působivých prezentací zásadní pro efektivní komunikaci v podnikání i na akademické půdě. Aspose.Slides for Java poskytuje vývojářům Java robustní platformu pro dynamické generování a manipulaci s prezentacemi v PowerPointu. Tento tutoriál vás provede procesem zadávání písem používaných v prezentaci pomocí Aspose.Slides pro Java. Na konci budete vybaveni znalostmi pro bezproblémovou integraci vlastních písem do vašich PowerPoint projektů, čímž zvýšíte jejich vizuální přitažlivost a zajistíte konzistenci značky.
 ## Předpoklady
@@ -71,3 +75,9 @@ Ano, můžete zadat písma na různých úrovních, včetně úrovně snímku, t
 Aspose.Slides neklade přísná omezení na počet vlastních písem; zvažte však důsledky pro výkon.
 ### Mohu dynamicky načítat písma za běhu, aniž bych je vkládal do své aplikace?
 Ano, můžete načíst písma z externích zdrojů nebo paměti, jak je ukázáno v tomto tutoriálu.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

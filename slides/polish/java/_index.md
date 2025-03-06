@@ -1,12 +1,15 @@
 ---
 title: Uwolnij moc Aspose.Slides dla Java
 linktitle: Aspose.Slides dla samouczków Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Dowiedz się, jak opanować Aspose.Slides dla Java, dzięki naszym obszernym samouczkom. Wskazówki krok po kroku dotyczące korzystania z tego zaawansowanego interfejsu API języka Java w prezentacjach.
-is_root: true
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 świecie programowania w języku Java tworzenie prezentacji i zarządzanie nimi nigdy nie było łatwiejsze dzięki Aspose.Slides for Java. Ten potężny interfejs API otwiera świat możliwości dla programistów, którzy chcą zintegrować dynamiczne i oszałamiające wizualnie prezentacje ze swoimi aplikacjami. W tym artykule zabierzemy Cię w podróż po krainie samouczków Aspose.Slides for Java, pokazując, jak możesz w pełni wykorzystać jego potencjał.
 
@@ -104,3 +107,9 @@ Opanuj manipulację tabelami w programie Java PowerPoint za pomocą Aspose.Slide
 Ulepsz prezentacje Java PowerPoint dzięki formatowaniu tabel i aktualizacjom za pomocą Aspose.Slides. Naucz się dodawać obramowania, formatować tekst w kolumnach i wierszach oraz aktualizować tabele.
 ### [Manipulacja grafiką SmartArt w programie Java PowerPoint](./java-powerpoint-smartart-manipulation/)
 Dowiedz się, jak efektywnie manipulować grafiką Java PowerPoint SmartArt, korzystając z samouczków GroupDocs.Slides for Java. Uzyskaj dostęp do węzłów podrzędnych, dodawaj węzły, zmieniaj układy i wiele więcej!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

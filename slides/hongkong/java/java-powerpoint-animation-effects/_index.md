@@ -3,10 +3,14 @@ title: Java PowerPoint 動畫和效果
 linktitle: Java PowerPoint 動畫和效果
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們全面的教學掌握 Java PowerPoint 動畫和效果。學習使用 Aspose.Slides for Java 添加動畫、外部和內部陰影。
-type: docs
 weight: 22
 url: /zh-hant/java/java-powerpoint-animation-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 
 透過正確的動畫和效果，Java PowerPoint 簡報可以是動態的、視覺上令人驚嘆的。透過 Aspose.Slides for Java，您可以使用一個強大的工具來增強您的投影片。無論您是初學者還是高級用戶，我們的教程都將幫助您掌握向 PowerPoint 簡報添加動畫和陰影效果的藝術。讓我們深入研究這些教程，看看如何提升您的投影片！
@@ -35,3 +39,9 @@ url: /zh-hant/java/java-powerpoint-animation-effects/
 了解如何使用 Aspose.Slides 將內部陰影效果套用至 Java PowerPoint 簡報中的形狀。透過此逐步指南增強您的幻燈片。
 ### [使用 Java 在 PowerPoint 中套用外部陰影](./apply-outer-shadow-powerpoint-java/)
 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 中套用外部陰影效果。增強您的簡報的深度和視覺吸引力。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

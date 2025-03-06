@@ -3,10 +3,14 @@ title: Grafiektrendlijnen verkennen in Aspose.Slides voor .NET
 linktitle: Grafiektrendlijnen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer in deze stapsgewijze handleiding hoe u verschillende trendlijnen aan grafieken kunt toevoegen met Aspose.Slides voor .NET. Verbeter uw vaardigheden op het gebied van datavisualisatie met gemak!
-type: docs
 weight: 12
 url: /nl/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In de wereld van datavisualisatie en -presentatie kan het opnemen van grafieken een krachtige manier zijn om informatie effectief over te brengen. Aspose.Slides voor .NET biedt een uitgebreide set tools om met grafieken te werken, inclusief de mogelijkheid om trendlijnen aan uw grafieken toe te voegen. In deze zelfstudie gaan we stap voor stap dieper in op het proces van het toevoegen van trendlijnen aan een diagram met behulp van Aspose.Slides voor .NET. 
 
@@ -145,3 +149,9 @@ Aspose.Slides voor .NET is een veelzijdige bibliotheek waarmee u eenvoudig grafi
 
 ### Heb ik een tijdelijke licentie nodig voor Aspose.Slides voor .NET?
  U kunt een tijdelijke licentie voor Aspose.Slides voor .NET verkrijgen bij[deze link](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

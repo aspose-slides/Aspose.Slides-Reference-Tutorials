@@ -3,10 +3,14 @@ title: 在 Java Slides 中使用进度更新转换为 PDF
 linktitle: 在 Java Slides 中使用进度更新转换为 PDF
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF 并进行进度更新。分步指南包含源代码和进度跟踪，可实现无缝转换。
-type: docs
 weight: 36
 url: /zh/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 使用 Aspose.Slides for Java 将 PowerPoint 转换为 PDF 并进行进度更新的简介
 
@@ -118,3 +122,10 @@ class ExportProgressHandler implements IProgressCallback
 ### 如何自定义 PDF 转换选项？
 
 您可以通过修改`PdfOptions`调用之前的对象`presentation.save`方法。这包括设置页面大小、质量等属性。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

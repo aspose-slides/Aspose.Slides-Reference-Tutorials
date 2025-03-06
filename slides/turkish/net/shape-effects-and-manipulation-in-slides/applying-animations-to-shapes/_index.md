@@ -3,10 +3,14 @@ title: Aspose.Slides ile Şekil Animasyonları Kolaylaştı
 linktitle: Aspose.Slides ile Sunum Slaytlarındaki Şekillere Animasyon Uygulamak
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile etkileyici sunumlar oluşturun. Bu adım adım kılavuzda animasyonların şekillere nasıl uygulanacağını öğrenin. Şimdi slaytlarınızı yükseltin!
-type: docs
 weight: 21
 url: /tr/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Dinamik sunumlar dünyasında, şekillere animasyon eklemek slaytlarınızın görsel çekiciliğini ve etkileşimini önemli ölçüde artırabilir. Aspose.Slides for .NET, bunu sorunsuz bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar. Bu eğitimde, Aspose.Slides'ı kullanarak şekillere animasyon uygulama sürecinde size rehberlik edeceğiz ve kalıcı bir izlenim bırakan büyüleyici sunumlar oluşturmanıza olanak sağlayacağız.
 ## Önkoşullar
@@ -81,3 +85,9 @@ Aspose.Slides, çeşitli PowerPoint sürümleriyle uyumluluk sağlayarak sunumla
  Evet lisans alabilirsiniz[Burada](https://purchase.aspose.com/buy) Aspose.Slides'ın tüm potansiyelini ortaya çıkarmak için.
 ### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
  Kesinlikle! Kullanın[ücretsiz deneme](https://releases.aspose.com/) taahhütte bulunmadan önce Aspose.Slides'ın yeteneklerini deneyimlemek.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

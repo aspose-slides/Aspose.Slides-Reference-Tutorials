@@ -3,10 +3,14 @@ title: Sử dụng ShapeUtil cho Hình dạng Hình học trong PowerPoint
 linktitle: Sử dụng ShapeUtil cho Hình dạng Hình học trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo hình dạng tùy chỉnh trong PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước này để nâng cao chất lượng bài thuyết trình của bạn.
-type: docs
 weight: 23
 url: /vi/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Việc tạo các bản trình bày PowerPoint hấp dẫn về mặt trực quan thường đòi hỏi nhiều thứ hơn là chỉ sử dụng các hình dạng và văn bản tiêu chuẩn. Hãy tưởng tượng bạn có thể thêm các hình dạng và đường dẫn văn bản tùy chỉnh trực tiếp vào trang trình bày của mình, nâng cao tác động trực quan cho bản trình bày của bạn. Sử dụng Aspose.Slides cho Java, bạn có thể đạt được điều này một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng`ShapeUtil` lớp tạo các hình dạng hình học trong bài thuyết trình PowerPoint. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn tận dụng sức mạnh của Aspose.Slides dành cho Java để tạo nội dung tuyệt đẹp, có hình dạng tùy chỉnh.
 ## Điều kiện tiên quyết
@@ -75,3 +79,9 @@ Aspose.Slides cung cấp phiên bản dùng thử miễn phí, bạn có thể t
  Các`ShapeUtil` lớp trong Aspose.Slides cung cấp các phương thức tiện ích để làm việc với các hình dạng, chẳng hạn như chuyển đổi đường dẫn đồ họa thành đường dẫn hình học.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

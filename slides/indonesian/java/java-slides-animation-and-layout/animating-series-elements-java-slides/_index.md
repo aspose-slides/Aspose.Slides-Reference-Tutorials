@@ -3,10 +3,14 @@ title: Menganimasikan Elemen Seri di Slide Java
 linktitle: Menganimasikan Elemen Seri di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menganimasikan elemen rangkaian di slide PowerPoint menggunakan Aspose.Slides for Java. Ikuti panduan langkah demi langkah komprehensif ini dengan kode sumber untuk menyempurnakan presentasi Anda.
-type: docs
 weight: 12
 url: /id/java/animation-and-layout/animating-series-elements-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Elemen Seri Animasi di Slide Java
 
@@ -126,3 +130,9 @@ Ya, setelah menyimpan presentasi, Anda dapat membukanya di aplikasi PowerPoint u
 ### Apakah ada opsi animasi tingkat lanjut yang tersedia di Aspose.Slides untuk Java?
 
 Ya, Aspose.Slides untuk Java menawarkan beragam opsi animasi tingkat lanjut, termasuk jalur gerakan, pengaturan waktu, dan animasi interaktif. Anda dapat menjelajahi dokumentasi dan contoh yang disediakan oleh Aspose.Slides untuk menerapkan animasi tingkat lanjut dalam presentasi Anda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Graphique multi-catégories dans les diapositives Java
 linktitle: Graphique multi-catégories dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Créez des graphiques multicatégories dans des diapositives Java à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour une visualisation impressionnante des données dans les présentations.
-type: docs
 weight: 20
 url: /fr/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction au graphique multi-catégories dans Java Slides avec Aspose.Slides
 
@@ -157,3 +161,9 @@ Oui, vous pouvez ajouter des séries supplémentaires au graphique en suivant un
 ### Comment puis-je ajouter un titre au graphique ?
 
  Vous pouvez ajouter un titre au graphique en utilisant le`ch.getChartTitle().getTextFrame().setText("Chart Title");` méthode.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

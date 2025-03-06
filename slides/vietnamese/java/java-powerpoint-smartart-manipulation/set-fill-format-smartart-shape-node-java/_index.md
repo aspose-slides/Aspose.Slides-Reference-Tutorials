@@ -3,10 +3,14 @@ title: Đặt định dạng điền cho nút hình dạng SmartArt trong Java
 linktitle: Đặt định dạng điền cho nút hình dạng SmartArt trong Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt định dạng tô màu cho các nút hình dạng SmartArt trong Java bằng Aspose.Slides. Nâng cao bài thuyết trình của bạn với màu sắc sống động và hình ảnh quyến rũ.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong bối cảnh năng động của việc tạo nội dung kỹ thuật số, Aspose.Slides cho Java nổi bật như một công cụ mạnh mẽ để tạo các bản trình bày trực quan ấn tượng một cách dễ dàng và hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, việc nắm vững nghệ thuật thao tác các hình dạng trong trang trình bày là điều quan trọng để tạo ra các bài thuyết trình hấp dẫn để lại ấn tượng lâu dài cho khán giả của bạn.
 ## Điều kiện tiên quyết
@@ -65,3 +69,9 @@ Bạn có thể tìm thấy các tài nguyên hỗ trợ rộng rãi, bao gồm 
 Tuyệt đối! Aspose.Slides for Java cung cấp nhiều tùy chọn tùy chỉnh để điều chỉnh giao diện của các hình SmartArt theo sở thích của bạn.
 ### Aspose.Slides cho Java có phù hợp với cả người mới bắt đầu và nhà phát triển có kinh nghiệm không?
 Có, Aspose.Slides for Java phục vụ các nhà phát triển ở mọi cấp độ kỹ năng, cung cấp các API trực quan và tài liệu toàn diện để tạo điều kiện tích hợp và sử dụng dễ dàng.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 圖表格式和動畫
 linktitle: 圖表格式和動畫
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過動態圖表增強您的簡報。逐步學習圖表格式和動畫。今天就提升您的演講技巧！
-type: docs
 weight: 22
 url: /zh-hant/net/chart-formatting-and-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介紹
 
@@ -35,3 +39,9 @@ url: /zh-hant/net/chart-formatting-and-animation/
 了解如何使用 Aspose.Slides for .NET 製作圖表系列動畫。透過引人入勝的數據視覺化創建動態簡報。
 ### [將圖表中的系列元素進行動畫處理](./animating-series-elements/)
 學習使用 Aspose.Slides for .NET 製作圖表系列動畫。使用動態視覺效果創建引人入勝的簡報。帶有程式碼範例的專家指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

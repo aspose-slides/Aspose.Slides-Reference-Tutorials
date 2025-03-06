@@ -3,10 +3,14 @@ title: PowerPoint에서 주석 렌더링
 linktitle: PowerPoint에서 주석 렌더링
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 주석을 렌더링하는 방법을 알아보세요. 모양을 사용자 정의하고 이미지 미리보기를 효율적으로 생성합니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 주석을 렌더링하는 과정을 안내합니다. 주석 렌더링은 주석이 포함된 프리젠테이션의 이미지 미리 보기 생성과 같은 다양한 목적에 유용할 수 있습니다.
 ## 전제 조건
@@ -72,3 +76,9 @@ try {
 예, Aspose.Slides를 사용하면 PowerPoint 애플리케이션을 열지 않고도 이미지에 주석을 렌더링할 수 있습니다.
 ### 주석을 PDF 문서에 직접 렌더링하는 방법이 있습니까?
 예, Aspose.Slides는 주석을 PDF 문서에 직접 렌더링하는 기능을 제공하여 문서 작업 흐름에 원활하게 통합할 수 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

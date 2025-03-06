@@ -3,10 +3,14 @@ title: Paragraf Lanjutan Java PowerPoint dan Properti Font
 linktitle: Paragraf Lanjutan Java PowerPoint dan Properti Font
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kuasai properti paragraf dan font tingkat lanjut di Java PowerPoint menggunakan Aspose.Slides. Pelajari cara menyesuaikan font, menambahkan poin gambar, dan menggunakan font cadangan.
-type: docs
 weight: 28
 url: /id/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 
 Membuat presentasi PowerPoint yang sempurna memerlukan penyesuaian berbagai elemen, mulai dari pemformatan paragraf hingga manajemen font. Aspose.Slides untuk Java menyediakan alat canggih untuk mengelola properti tingkat lanjut ini secara efektif. Dalam artikel ini, kita akan menjelajahi tutorial yang membantu Anda mengkustomisasi properti font paragraf, menambahkan poin gambar, dan menggunakan font fallback. Mari selami teknik-teknik canggih ini untuk membuat presentasi Anda menonjol!
@@ -35,3 +39,9 @@ Pelajari cara menambahkan poin gambar kustom ke slide PowerPoint menggunakan Asp
 Pelajari cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah yang mendetail ini. Sempurna untuk pengembang Java.
 ### [Render dengan Font Fallback di Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Pelajari cara merender teks dengan font fallback dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah ini untuk penerapan yang lancar.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

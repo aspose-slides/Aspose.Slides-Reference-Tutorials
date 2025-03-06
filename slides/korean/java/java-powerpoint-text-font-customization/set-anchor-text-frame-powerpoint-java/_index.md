@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint에서 텍스트 프레임의 앵커 설�
 linktitle: Java를 사용하여 PowerPoint에서 텍스트 프레임의 앵커 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint에서 텍스트 프레임 앵커를 설정하는 방법을 알아보세요. 프레젠테이션을 향상시키세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides의 도움으로 Java를 사용하여 PowerPoint 프레젠테이션에서 텍스트 프레임의 앵커를 설정하는 방법을 배웁니다. 텍스트 프레임을 고정하면 모양 내에서 텍스트의 위치와 동작을 정밀하게 제어할 수 있어 슬라이드가 시각적으로 매력적이고 효율적으로 구성됩니다.
 ## 전제 조건
@@ -71,3 +75,9 @@ Aspose.Slides for Java는 Java 개발자가 PowerPoint 프레젠테이션을 생
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  지원 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11) 문의사항이나 도움이 필요하시면
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java ile PowerPoint'te Porsiyon Dikdörtgenini Alın
 linktitle: Java ile PowerPoint'te Porsiyon Dikdörtgenini Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı, adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint'te porsiyon dikdörtgenini nasıl alacağınızı öğrenin. Java geliştiricileri için mükemmel.
-type: docs
 weight: 12
 url: /tr/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Aspose.Slides for Java ile Java'da dinamik sunumlar oluşturmak çok kolay. Bu derste Aspose.Slides'ı kullanarak PowerPoint'te porsiyon dikdörtgeni almanın en ince ayrıntısına kadar inceleyeceğiz. Ortamınızın kurulumundan kodun adım adım çözülmesine kadar her şeyi ele alacağız. Öyleyse başlayalım!
 ## Önkoşullar
@@ -138,3 +142,9 @@ Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı ol
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
  Aspose forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

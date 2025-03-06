@@ -3,10 +3,14 @@ title: Tạo biểu đồ radar trong Java Slides
 linktitle: Tạo biểu đồ radar trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ Radar trong bản trình bày Java PowerPoint bằng Aspose.Slides cho API Java.
-type: docs
 weight: 10
 url: /vi/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Tạo biểu đồ radar trong Java Slides
 
@@ -268,3 +272,9 @@ Tham khảo "Bước 5" để tùy chỉnh nhãn và định dạng trục, bao 
 ### Làm cách nào để lưu biểu đồ sang định dạng tệp khác?
 
 Bạn có thể thay đổi định dạng đầu ra bằng cách sửa đổi phần mở rộng của tệp trong`outPath` biến và sử dụng thích hợp`SaveFormat` . Ví dụ: để lưu dưới dạng PDF, hãy sử dụng`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

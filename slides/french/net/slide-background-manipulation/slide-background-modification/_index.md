@@ -3,10 +3,14 @@ title: Modification de l’arrière-plan des diapositives dans Aspose.Slides
 linktitle: Modification de l’arrière-plan des diapositives dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment personnaliser les arrière-plans des diapositives à l'aide d'Aspose.Slides pour .NET. Améliorez vos présentations avec des arrière-plans visuellement attrayants. Commencer aujourd'hui!
-type: docs
 weight: 10
 url: /fr/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Lorsqu’il s’agit de créer des présentations visuellement captivantes, l’arrière-plan joue un rôle crucial. Aspose.Slides pour .NET vous permet de personnaliser facilement les arrière-plans des diapositives. Dans ce didacticiel, nous verrons comment modifier les arrière-plans des diapositives à l'aide d'Aspose.Slides pour .NET. 
 
@@ -123,3 +127,10 @@ Dans ce didacticiel, nous avons appris à modifier les arrière-plans des diapos
 ### 5. Puis-je personnaliser les arrière-plans des diapositives de plusieurs diapositives d'une présentation ?
 
 Oui, vous pouvez modifier l'arrière-plan des diapositives de n'importe quelle diapositive d'une présentation à l'aide d'Aspose.Slides for .NET. Ciblez simplement la diapositive que vous souhaitez personnaliser et suivez les mêmes étapes décrites dans ce didacticiel.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

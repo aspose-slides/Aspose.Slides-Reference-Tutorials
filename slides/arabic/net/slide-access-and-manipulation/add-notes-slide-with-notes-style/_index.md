@@ -3,10 +3,14 @@ title: إضافة تنسيق أنيق للملاحظات باستخدام Aspose
 linktitle: أضف شريحة ملاحظات بتنسيق ملاحظات أنيق
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة تنسيق ملاحظات أنيق إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. قم بتحسين شرائحك باستخدام الرموز والنقاط.
-type: docs
 weight: 14
 url: /ar/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم العروض التقديمية، لا يتعلق الأمر بالمحتوى الذي تقدمه فحسب، بل يتعلق أيضًا بكيفية تقديمه. يمكن أن يُحدث تنسيق الملاحظات الأنيق فرقًا كبيرًا في تأثير العرض التقديمي الخاص بك. باستخدام Aspose.Slides for .NET، يمكنك بسهولة تحسين عروض PowerPoint التقديمية الخاصة بك عن طريق إضافة ملاحظات أنيقة ذات نقاط نقطية ورموز. في هذا الدليل التفصيلي، سنرشدك خلال عملية إضافة تنسيق ملاحظات أنيق إلى شرائح PowerPoint الخاصة بك.
 
@@ -109,3 +113,9 @@ Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات Micro
 
 ### هل يوجد منتدى مجتمعي أو دعم متاح لـ Aspose.Slides for .NET؟
  نعم، يمكنك طلب المساعدة والمشاركة في المناقشات في منتدى مجتمع Aspose.Slides for .NET[هنا](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

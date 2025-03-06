@@ -3,10 +3,14 @@ title: Ẩn hình dạng trong PowerPoint
 linktitle: Ẩn hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách ẩn hình trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển Java ở mọi cấp độ.
-type: docs
 weight: 27
 url: /vi/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách ẩn hình trong PowerPoint bằng Aspose.Slides cho Java! Nếu bạn cần ẩn các hình dạng cụ thể trong bản trình bày PowerPoint của mình theo chương trình thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn từng bước theo phong cách đàm thoại đơn giản. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Java, chúng tôi đều có thể hỗ trợ bạn.
 ## Điều kiện tiên quyết
@@ -81,3 +85,9 @@ Aspose.Slides có sẵn cho nhiều ngôn ngữ lập trình khác nhau bao gồ
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

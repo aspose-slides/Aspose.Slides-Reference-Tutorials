@@ -3,10 +3,14 @@ title: Nhập văn bản HTML trong PowerPoint bằng Java
 linktitle: Nhập văn bản HTML trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nhập văn bản HTML vào các trang chiếu PowerPoint bằng Java với Aspose.Slides để tích hợp liền mạch. Lý tưởng cho các nhà phát triển đang tìm cách quản lý tài liệu.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách nhập văn bản HTML vào bản trình bày PowerPoint bằng Java với sự trợ giúp của Aspose.Slides. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình từ nhập các gói cần thiết đến lưu tệp PowerPoint của bạn.
 ## Điều kiện tiên quyết
@@ -68,3 +72,9 @@ Aspose.Slides tự động xử lý hầu hết các định dạng HTML, bao g�
 Có, Aspose.Slides cung cấp API để xử lý hàng loạt tệp PowerPoint trong Java một cách hiệu quả.
 ### Tôi có thể tìm thêm ví dụ và hỗ trợ cho Aspose.Slides ở đâu?
  Tham quan[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11) để biết ví dụ chi tiết và hỗ trợ.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

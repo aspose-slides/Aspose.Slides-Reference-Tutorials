@@ -3,10 +3,14 @@ title: Font Properties for Chart in Java Slides
 linktitle: Font Properties for Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance Chart Font Properties in Java Slides with Aspose.Slides for Java. Customize font size, style, and color for impactful presentations.
-type: docs
 weight: 11
 url: /java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Font Properties for Chart in Java Slides
 
@@ -102,3 +106,10 @@ Yes, you can change the font style. Use `chart.getTextFormat().getPortionFormat(
 ### How do I customize font properties for specific chart elements?
 
 To customize font properties for specific chart elements, such as axis labels or legend text, you can access those elements and set their font properties using similar methods as shown above.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

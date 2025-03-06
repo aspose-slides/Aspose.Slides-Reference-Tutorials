@@ -3,10 +3,14 @@ title: Opzioni degli indicatori di grafico sul punto dati nelle diapositive Java
 linktitle: Opzioni degli indicatori di grafico sul punto dati nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Ottimizza le tue diapositive Java con le opzioni dei marcatori di grafici personalizzati. Impara a migliorare visivamente i punti dati utilizzando Aspose.Slides per Java. Esplora la guida passo passo e le domande frequenti.
-type: docs
 weight: 14
 url: /it/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione alle opzioni degli indicatori di grafico sul punto dati nelle diapositive Java
 
@@ -154,3 +158,9 @@ Sì, puoi personalizzare vari aspetti del grafico, inclusi titoli, assi, etichet
 ### Dove posso accedere alla documentazione e ai download di Aspose.Slides per Java?
 
  Puoi trovare la documentazione su[Qui](https://reference.aspose.com/slides/java/) e scarica la libreria su[Qui](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

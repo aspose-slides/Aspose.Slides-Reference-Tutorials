@@ -3,10 +3,14 @@ title: Cách trích xuất video từ slide bằng Aspose.Slides cho .NET
 linktitle: Trích xuất video từ slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách trích xuất video từ các trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này giúp đơn giản hóa quy trình cho bạn.
-type: docs
 weight: 14
 url: /vi/net/audio-and-video-extraction/extract-video/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn làm việc với các bản trình bày PowerPoint trong môi trường .NET. Một trong những tính năng hữu ích mà nó cung cấp là khả năng trích xuất video từ slide. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách trích xuất video từ trang chiếu PowerPoint bằng Aspose.Slides cho .NET.
 
@@ -110,3 +114,9 @@ Aspose.Slides for .NET là một thư viện cho phép các ứng dụng .NET ho
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

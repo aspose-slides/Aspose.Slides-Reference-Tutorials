@@ -3,10 +3,14 @@ title: إضافة صورة Blob إلى العرض التقديمي في شرائ
 linktitle: إضافة صورة Blob إلى العرض التقديمي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة صور Blob إلى العروض التقديمية لـ Java Slides دون عناء. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية باستخدام Aspose.Slides لـ Java.
-type: docs
 weight: 10
 url: /ar/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لإضافة صورة Blob إلى العرض التقديمي في شرائح Java
 
@@ -133,3 +137,9 @@ pres.save(dataDir + "presentationWithBlobImage.pptx", SaveFormat.Pptx);
 ### هل Aspose.Slides مناسب لمهام أتمتة PowerPoint المتقدمة؟
 
 قطعاً! يوفر Aspose.Slides إمكانات متقدمة لأتمتة برنامج PowerPoint، بما في ذلك إنشاء الشرائح وتعديلها واستخراج البيانات. إنها أداة قوية لتبسيط المهام المتعلقة ببرنامج PowerPoint.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

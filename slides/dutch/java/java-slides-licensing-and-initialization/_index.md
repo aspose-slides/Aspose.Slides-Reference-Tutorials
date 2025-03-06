@@ -3,10 +3,14 @@ title: Licentie en initialisatie van Java-dia's
 linktitle: Licentie en initialisatie van Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek hoe u Aspose.Slides voor Java effectief kunt licentiëren en initialiseren in onze uitgebreide tutorials. Ga nu aan de slag met Java Slides!
-type: docs
 weight: 10
 url: /nl/java/licensing-and-initialization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In de wereld van Java Slides zijn licenties en initialisatie de cruciale eerste stappen. Aspose.Slides voor Java biedt een krachtig platform voor het maken van verbluffende presentaties en diavoorstellingen. In dit artikel begeleiden we u door het licentieproces en het initialiseren van Aspose.Slides voor Java, zodat u over alle tools beschikt die u nodig hebt om boeiende presentaties te maken.
 
@@ -38,3 +42,9 @@ Kortom, het licentiëren en initialiseren van Aspose.Slides voor Java zijn de fu
 ## Licentie- en initialisatie-tutorials voor Java Slides
 ### [Gemeten licenties in Java-dia's](./metered-licensing-java-slides/)
 Optimaliseer uw Aspose.Slides voor Java-gebruik met gemeten licenties. Leer hoe u dit instelt en uw API-verbruik bewaakt.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

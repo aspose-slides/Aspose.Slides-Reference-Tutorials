@@ -3,10 +3,14 @@ title: Aspose.Slides의 하이퍼링크 조작
 linktitle: Aspose.Slides의 하이퍼링크 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides에서 하이퍼링크를 추가하고 제거하는 방법을 알아보세요. 대화형 링크를 사용하여 프레젠테이션을 쉽게 향상하세요.
-type: docs
 weight: 10
 url: /ko/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 하이퍼링크는 슬라이드 간을 이동하거나 외부 리소스에 액세스할 수 있는 편리한 방법을 제공하므로 프레젠테이션의 필수 요소입니다. .NET용 Aspose.Slides는 프레젠테이션 슬라이드에 하이퍼링크를 추가하고 제거하는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 하이퍼링크를 조작하는 과정을 안내합니다. 슬라이드에 하이퍼링크를 추가하고 슬라이드에서 하이퍼링크를 제거하는 방법을 다루겠습니다. 그럼, 뛰어 들어 봅시다!
 
@@ -121,3 +125,9 @@ Aspose.Slides 작업이나 프리젠테이션 디자인의 다른 측면에 대�
 
 ### Aspose.Slides의 임시 라이선스를 어떻게 얻을 수 있나요?
  Aspose.Slides에 대한 임시 라이선스가 필요한 경우 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

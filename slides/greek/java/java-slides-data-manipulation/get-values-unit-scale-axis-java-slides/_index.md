@@ -3,10 +3,14 @@ title: Λάβετε τιμές και κλίμακα μονάδων από το 
 linktitle: Λάβετε τιμές και κλίμακα μονάδων από το Axis σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να λαμβάνετε τιμές και κλίμακα μονάδων από άξονες σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις δυνατότητες ανάλυσης δεδομένων σας.
-type: docs
 weight: 20
 url: /el/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στο Get Values and Unit Scale from Axis σε Java Slides
 
@@ -122,3 +126,9 @@ finally
 ### Πού μπορώ να βρω περισσότερους πόρους και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και πρόσθετους πόρους στο[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) δικτυακός τόπος.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

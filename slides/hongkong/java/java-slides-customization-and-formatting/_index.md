@@ -3,10 +3,14 @@ title: Java 幻燈片自訂和格式設定
 linktitle: Java 幻燈片自訂和格式設定
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 探索 Aspose.Slides for Java 在自訂和格式化 Java 投影片方面的強大功能。在我們的教程中逐步學習。提升您的演講技巧。
-type: docs
 weight: 12
 url: /zh-hant/java/customization-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在本文中，我們將使用 Aspose.Slides for Java 深入研究 Java 幻燈片自訂和格式化的世界。無論您是經驗豐富的開發人員還是剛開始學習 Java 演示，我們的教學清單都將引導您充分發揮 Aspose.Slides 的潛力。|
 
@@ -49,3 +53,9 @@ Aspose.Slides for Java 是一個強大且多功能的函式庫，讓 Java 開發
 使用 Aspose.Slides for Java 增強您的圖表。了解如何在 Java 投影片中設定位置軸、建立令人驚嘆的簡報以及輕鬆自訂圖表佈局。
 ### [在 Java 投影片中設定旋轉角度](./setting-rotation-angle-java-slides/)
 使用 Aspose.Slides for Java 優化您的 Java 投影片。學習設定文字元素的旋轉角度。帶有原始程式碼的分步指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

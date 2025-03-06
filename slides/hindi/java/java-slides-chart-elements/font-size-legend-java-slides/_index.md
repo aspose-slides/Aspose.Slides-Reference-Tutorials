@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में फ़ॉन्ट आक
 linktitle: जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ। हमारे चरण-दर-चरण मार्गदर्शिका में लेजेंड फ़ॉन्ट आकार और अन्य चीज़ों को कस्टमाइज़ करना सीखें।
-type: docs
 weight: 13
 url: /hi/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## जावा स्लाइड्स में फ़ॉन्ट आकार लेजेंड का परिचय
 
@@ -135,3 +139,9 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### मैं Aspose.Slides के लिए अधिक जानकारी और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए Aspose डॉक्यूमेंटेशन वेबसाइट पर विस्तृत डॉक्यूमेंटेशन और API संदर्भ पा सकते हैं।[यहाँ](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Diagrammentitäten in Java-Folien
 linktitle: Diagrammentitäten in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Java Slides-Diagramme erstellen und anpassen. Verbessern Sie Ihre Präsentationen mit leistungsstarken Diagrammelementen.
-type: docs
 weight: 13
 url: /de/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in Diagrammentitäten in Java-Folien
 
@@ -301,3 +305,9 @@ Sie können die Diagrammfarben anpassen, indem Sie das Füllformat für verschie
 ### Ist Aspose.Slides für Java mit den neuesten Java-Versionen kompatibel?
 
 Ja, Aspose.Slides für Java wird regelmäßig aktualisiert, um die neuesten Java-Versionen zu unterstützen und Kompatibilität mit einer Vielzahl von Java-Umgebungen zu bieten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

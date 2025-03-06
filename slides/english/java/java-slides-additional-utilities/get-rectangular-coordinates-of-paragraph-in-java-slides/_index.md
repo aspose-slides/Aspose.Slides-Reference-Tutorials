@@ -3,10 +3,14 @@ title: Get Rectangular Coordinates of Paragraph in Java Slides
 linktitle: Get Rectangular Coordinates of Paragraph in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve paragraph coordinates in PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide with source code for accurate positioning.
-type: docs
 weight: 13
 url: /java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Retrieving Rectangular Coordinates of a Paragraph in Aspose.Slides for Java
 
@@ -112,3 +116,10 @@ You can find more code examples and detailed documentation for Aspose.Slides for
 ### Do I need a license to use Aspose.Slides for Java?
 
 Yes, you typically need a valid license to use Aspose.Slides for Java in a production environment. You can obtain a license from the Aspose website. However, they may offer a trial version for testing and evaluation purposes.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

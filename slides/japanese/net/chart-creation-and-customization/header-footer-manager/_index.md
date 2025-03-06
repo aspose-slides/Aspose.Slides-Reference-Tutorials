@@ -3,10 +3,14 @@ title: スライドのヘッダーとフッターを管理する
 linktitle: スライドのヘッダーとフッターを管理する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションに動的なヘッダーとフッターを追加する方法を学習します。
-type: docs
 weight: 14
 url: /ja/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # Aspose.Slides for .NET で動的なヘッダーとフッターを作成する
 
@@ -131,3 +135,9 @@ A2: はい、Aspose.Slides for .NETの無料トライアルをお試しくださ
 
 ### Q5: Aspose.Slides for .NET のコミュニティまたはサポート フォーラムはありますか?
  A5: はい、Aspose.Slides for .NETサポートフォーラムにアクセスできます。[ここ](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

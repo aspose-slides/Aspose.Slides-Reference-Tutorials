@@ -3,10 +3,14 @@ title: Achtergrondmanipulatie van dia's met Aspose.Slides
 linktitle: Dia-achtergrondmanipulatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw dia-ontwerp met Aspose.Slides! Leer hoe u dia-achtergronden kunt manipuleren in deze uitgebreide zelfstudie. Stapsgewijze instructies en codevoorbeelden worden verstrekt.
-type: docs
 weight: 11
 url: /nl/net/slide-background-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering
 
@@ -37,3 +41,9 @@ Leer hoe u een afbeelding instelt als dia-achtergrond met Aspose.Slides voor .NE
 Leer in deze stapsgewijze handleiding hoe u dia-achtergronden kunt instellen met Aspose.Slides. Til uw presentaties naar een hoger niveau met boeiende beelden.
 ### [Wijzig de normale dia-achtergrond](./change-slide-background-normal/)
 Leer hoe u de normale dia-achtergrond kunt wijzigen om uw publiek te boeien. Volg deze uitgebreide handleiding met Aspose.Slides voor .NET, compleet met stapsgewijze instructies en codevoorbeelden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Ορισμός δεδομένων γραφήματος από το βιβ
 linktitle: Ορισμός δεδομένων γραφήματος από το βιβλίο εργασίας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε δεδομένα γραφήματος από ένα βιβλίο εργασίας του Excel σε Java Slides χρησιμοποιώντας το Aspose.Slides. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για δυναμικές παρουσιάσεις.
-type: docs
 weight: 15
 url: /el/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στον ορισμό δεδομένων γραφήματος από το βιβλίο εργασίας σε διαφάνειες Java
 
@@ -142,3 +146,9 @@ try {
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και πόρους για την εργασία με το Aspose.Slides για Java;
 
  Μπορείτε να εξερευνήσετε πρόσθετα παραδείγματα και πόρους στο[Aspose website](https://www.aspose.com/). Επιπλέον, η τεκμηρίωση Aspose.Slides for Java παρέχει ολοκληρωμένη καθοδήγηση σχετικά με την εργασία με τη βιβλιοθήκη.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

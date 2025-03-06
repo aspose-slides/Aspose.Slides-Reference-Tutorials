@@ -3,10 +3,14 @@ title: 在 Aspose.Slides 中為 SmartArt 子註解建立縮圖
 linktitle: 在 Aspose.Slides 中為 SmartArt 子註解建立縮圖
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 建立迷人的 SmartArt Child Note 縮圖。透過動態視覺效果提升您的簡報！
-type: docs
 weight: 15
 url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 在動態簡報領域，Aspose.Slides for .NET 是一款功能強大的工具，它為開發人員提供了以程式設計方式操作和增強 PowerPoint 簡報的能力。一個有趣的功能是能夠為 SmartArt Child Notes 產生縮圖，為您的簡報增添一層視覺吸引力。本逐步指南將引導您完成使用 Aspose.Slides for .NET 為 SmartArt Child Notes 建立縮圖的過程。
 ## 先決條件
@@ -62,3 +66,9 @@ A：是的，您可以透過修改程式碼中對應的參數來調整縮圖的�
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)與社區互動、提出問題並尋找解決方案。
 ### Q：我可以購買 Aspose.Slides for .NET 嗎？
 答：當然可以！探索購買選項[這裡](https://purchase.aspose.com/buy)釋放 Aspose.Slides 在您的專案中的全部潛力。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

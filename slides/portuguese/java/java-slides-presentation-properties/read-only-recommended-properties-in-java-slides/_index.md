@@ -3,10 +3,14 @@ title: Propriedades recomendadas somente leitura em slides Java
 linktitle: Propriedades recomendadas somente leitura em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como habilitar propriedades recomendadas somente leitura em apresentações Java PowerPoint usando Aspose.Slides para Java. Siga nosso guia passo a passo com exemplos de código-fonte para aumentar a segurança da apresentação.
-type: docs
 weight: 17
 url: /pt/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução à ativação de propriedades recomendadas somente leitura em slides Java
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Lembre-se de substituir`"YourPassword"` com a senha desejada.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

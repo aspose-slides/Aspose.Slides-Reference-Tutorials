@@ -3,10 +3,14 @@ title: إنشاء جداول قياسية في PowerPoint باستخدام Java
 linktitle: إنشاء جداول قياسية في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء جداول قياسية في PowerPoint باستخدام Java باستخدام Aspose.Slides. اتبع دليلنا التفصيلي خطوة بخطوة للحصول على تجربة سلسة.
-type: docs
 weight: 21
 url: /ar/java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 غالبًا ما يتضمن إنشاء عروض PowerPoint التقديمية الجذابة إضافة عناصر مختلفة، مثل الجداول، لتنظيم البيانات وعرضها بوضوح. يوفر Aspose.Slides for Java واجهة برمجة تطبيقات قوية للعمل مع ملفات PowerPoint برمجيًا. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء الجداول القياسية في PowerPoint باستخدام Java، مع تفصيل كل خطوة لضمان تجربة تعليمية سلسة وشاملة.
 ## المتطلبات الأساسية
@@ -101,3 +105,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  يمكنك شراء ترخيص من[Aspose صفحة الشراء](https://purchase.aspose.com/buy).
 ### هل يدعم Aspose.Slides for Java جميع تنسيقات PowerPoint؟
 نعم، يدعم Aspose.Slides for Java جميع تنسيقات PowerPoint الرئيسية بما في ذلك PPT وPPTX وPPS والمزيد.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

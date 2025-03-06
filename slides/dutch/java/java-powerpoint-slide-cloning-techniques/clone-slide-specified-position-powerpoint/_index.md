@@ -3,10 +3,14 @@ title: Kloon dia op opgegeven positie in PowerPoint
 linktitle: Kloon dia op opgegeven positie in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Kloon PowerPoint-dia's moeiteloos op specifieke posities met Aspose.Slides voor Java. Gedetailleerde stapsgewijze handleiding voor beginners en experts.
-type: docs
 weight: 10
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Ben je klaar om je PowerPoint-spel een stapje verder te brengen? Of u nu een ervaren ontwikkelaar bent of een nieuweling die diamanipulaties probeert te automatiseren, u bent hier aan het juiste adres. In deze zelfstudie leiden we u door het proces van het klonen van dia's op een bepaalde positie in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java. Zet je schrap en laten we samen deze reis aangaan!
 ## Vereisten
@@ -80,3 +84,9 @@ Absoluut! Aspose.Slides ondersteunt verschillende formaten, waaronder PPTX, PPT 
 Aspose.Slides biedt robuuste functies, uitgebreide documentatie en uitstekende ondersteuning, waardoor het een voorkeurskeuze is voor PowerPoint-manipulaties.
 ### Waar kan ik meer tutorials vinden over Aspose.Slides?
  Bekijk de[documentatie](https://reference.aspose.com/slides/java/) voor uitgebreide tutorials en voorbeelden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java スライドでフォント プロパティを設定する
 linktitle: Java スライドでフォント プロパティを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのフォント プロパティを設定する方法を学びます。このステップ バイ ステップ ガイドには、コード例と FAQ が含まれています。
-type: docs
 weight: 15
 url: /ja/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでのフォント プロパティの設定の概要
 
@@ -137,3 +141,9 @@ for (ISlide slide : pres.getSlides()) {
     //ここでテキスト要素のフォントプロパティにアクセスしてカスタマイズします
 }
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

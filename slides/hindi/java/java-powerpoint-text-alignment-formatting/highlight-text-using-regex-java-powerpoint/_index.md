@@ -3,10 +3,14 @@ title: जावा पावरपॉइंट में रेगेक्स 
 linktitle: जावा पावरपॉइंट में रेगेक्स का उपयोग करके टेक्स्ट हाइलाइट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ रेगेक्स पैटर्न का उपयोग करके PowerPoint में टेक्स्ट को हाइलाइट करना सीखें। अपनी प्रस्तुतियों को गतिशील रूप से बेहतर बनाएँ।
-type: docs
 weight: 15
 url: /hi/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 PowerPoint प्रस्तुतियों को बनाने और उनमें हेरफेर करने के लिए जावा-आधारित विकास के क्षेत्र में, Aspose.Slides for Java एक मजबूत समाधान के रूप में सामने आता है। यह ट्यूटोरियल PowerPoint प्रस्तुतियों के भीतर नियमित अभिव्यक्तियों (regex) का उपयोग करके टेक्स्ट को हाइलाइट करने के लिए Aspose.Slides का लाभ उठाने पर केंद्रित है। इस गाइड के अंत तक, आप समझ जाएँगे कि स्लाइड में विशिष्ट टेक्स्ट को हाइलाइट करने के लिए रेगेक्स पैटर्न को कैसे लागू किया जाए, जिससे कार्यक्षमता और दृश्य स्पष्टता दोनों में वृद्धि हो।
 ## आवश्यक शर्तें
@@ -62,3 +66,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 निश्चित रूप से, यह हाइलाइटिंग से परे व्यापक टेक्स्ट हेरफेर सुविधाएँ प्रदान करता है, जिसमें फ़ॉन्ट स्टाइलिंग, संरेखण और बहुत कुछ शामिल है।
 ### क्या मैं खरीदने से पहले Aspose.Slides for Java आज़मा सकता हूँ?
  हां, आप शुरुआत कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) अपनी क्षमताओं का मूल्यांकन करने के लिए।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

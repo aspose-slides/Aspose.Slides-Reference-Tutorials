@@ -3,10 +3,14 @@ title: Vytvořte část Zoom v PowerPointu
 linktitle: Vytvořte část Zoom v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete navigaci a zapojení bez námahy.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 tomto tutoriálu se ponoříme do vytváření přiblížení sekcí v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Přiblížení sekcí je výkonná funkce, která vám umožňuje plynule procházet různými sekcemi vaší prezentace, což zlepšuje organizaci i celkový uživatelský dojem. Rozdělením složitých prezentací do snadno stravitelných sekcí můžete efektivně předat své sdělení a zaujmout své publikum.
@@ -72,3 +76,9 @@ Aspose.Slides for Java podporuje přiblížení sekcí v různých formátech Po
 Ano, můžete přidat přiblížení sekcí ke stávajícím prezentacím pomocí Aspose.Slides for Java podle podobných kroků popsaných v tomto tutoriálu.
 ### Kde najdu další podporu nebo pomoc s Aspose.Slides for Java?
  Pro další podporu nebo pomoc můžete navštívit fórum Aspose.Slides for Java[tady](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

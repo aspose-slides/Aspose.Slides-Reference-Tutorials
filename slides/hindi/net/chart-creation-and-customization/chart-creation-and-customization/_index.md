@@ -3,10 +3,14 @@ title: Aspose.Slides में चार्ट निर्माण और अ�
 linktitle: Aspose.Slides में चार्ट निर्माण और अनुकूलन
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint में चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। गतिशील प्रस्तुतियाँ बनाने के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 10
 url: /hi/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## परिचय
 
@@ -110,3 +114,9 @@ Aspose.Slides for .NET .NET संस्करणों की एक विस�
 
 ### क्या मैं Aspose.Slides for .NET के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
 हां, आप Aspose वेबसाइट से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

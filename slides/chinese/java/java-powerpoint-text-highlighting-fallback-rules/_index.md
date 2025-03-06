@@ -3,10 +3,14 @@ title: Java PowerPoint 文本突出显示和后备规则
 linktitle: Java PowerPoint 文本突出显示和后备规则
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides 掌握 Java PowerPoint 中的文本突出显示和字体回退规则。按照我们的教程无缝增强和自动化您的演示文稿。
-type: docs
 weight: 25
 url: /zh/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介绍
 
@@ -26,3 +30,9 @@ url: /zh/java/java-powerpoint-text-highlighting-fallback-rules/
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中突出显示文本。使用我们的详细指南轻松实现演示文稿的自动化和增强。
 ### [Java PowerPoint 中的后备规则集合](./fallback-rules-collection-java-powerpoint/)
 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 演示文稿中的字体回退规则。轻松增强跨设备兼容性。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

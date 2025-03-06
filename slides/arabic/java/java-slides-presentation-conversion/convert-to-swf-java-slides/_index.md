@@ -3,10 +3,14 @@ title: تحويل إلى SWF في شرائح جافا
 linktitle: تحويل إلى SWF في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحويل عروض PowerPoint التقديمية إلى تنسيق SWF في Java باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة مع الكود المصدري للتحويل السلس.
-type: docs
 weight: 35
 url: /ar/java/presentation-conversion/convert-to-swf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتحويل عرض PowerPoint التقديمي إلى SWF في Java باستخدام Aspose.Slides
 
@@ -124,3 +128,9 @@ finally
 ### كيف يمكنني معالجة الأخطاء أثناء التحويل؟
 
 يمكنك استخدام كتل محاولة الالتقاط لمعالجة الاستثناءات التي قد تحدث أثناء عملية التحويل. تأكد من مراجعة وثائق Aspose.Slides للحصول على توصيات محددة لمعالجة الأخطاء.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Atur Jangkar Bingkai Teks di PowerPoint dengan Java
 linktitle: Atur Jangkar Bingkai Teks di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur jangkar bingkai teks di PowerPoint menggunakan Java dengan Aspose.Slides. Sempurnakan presentasi Anda.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara mengatur jangkar bingkai teks dalam presentasi PowerPoint menggunakan Java dengan bantuan Aspose.Slides. Menahan bingkai teks memungkinkan Anda mengontrol secara tepat posisi dan perilaku teks dalam suatu bentuk, memastikan slide Anda menarik secara visual dan terstruktur secara efektif.
 ## Prasyarat
@@ -71,3 +75,9 @@ Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengemban
  Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda dapat mengunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/slides/11) untuk pertanyaan atau bantuan apa pun.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Erste Zeile als Überschrift in PowerPoint-Tabelle mit Java festlegen
 linktitle: Erste Zeile als Überschrift in PowerPoint-Tabelle mit Java festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die erste Zeile als Kopfzeile in PowerPoint-Tabellen festlegen. Verbessern Sie mühelos die Übersichtlichkeit und Organisation Ihrer Präsentation.
-type: docs
 weight: 19
 url: /de/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie PowerPoint-Tabellen mit Aspose.Slides für Java bearbeiten können. Dabei handelt es sich um eine leistungsstarke Bibliothek, die eine nahtlose Integration und Änderung von Präsentationen ermöglicht. Insbesondere konzentrieren wir uns darauf, die erste Zeile einer Tabelle als Überschrift festzulegen, um die visuelle Attraktivität und Organisation Ihrer Folien zu verbessern.
 ## Voraussetzungen
@@ -76,3 +80,9 @@ Aspose.Slides für Java ist eine robuste Bibliothek für die programmgesteuerte 
  Detaillierte Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
 ### Wie kann ich Support für Aspose.Slides für Java erhalten?
  Sie können Community-Support erhalten[Hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

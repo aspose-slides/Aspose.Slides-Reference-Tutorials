@@ -3,10 +3,14 @@ title: Biểu đồ biểu đồ trong Java Slides
 linktitle: Biểu đồ biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu.
-type: docs
 weight: 19
 url: /vi/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Biểu đồ biểu đồ trong Java Slides bằng Aspose.Slides
 
@@ -112,3 +116,9 @@ Biểu đồ biểu đồ được sử dụng để trực quan hóa việc ph�
 ### Tôi có thể tùy chỉnh giao diện của Biểu đồ biểu đồ không?
 
 Có, bạn có thể tùy chỉnh giao diện của biểu đồ, bao gồm màu sắc, nhãn và trục bằng cách sử dụng API Aspose.Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

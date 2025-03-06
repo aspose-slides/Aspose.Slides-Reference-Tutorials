@@ -3,10 +3,14 @@ title: Samenvatting maken Zoom in PowerPoint
 linktitle: Samenvatting maken Zoom in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een samenvattingszoom in PowerPoint kunt maken met Aspose.Slides voor Java met deze uitgebreide stapsgewijze zelfstudie.
-type: docs
 weight: 16
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het maken van een samenvattingszoom in PowerPoint met behulp van Aspose.Slides voor Java. Als u een dynamisch en interactief element aan uw presentaties wilt toevoegen, is Summary Zoom een fantastische functie. Hiermee kunt u één enkele dia maken die kan inzoomen op verschillende delen van uw presentatie, waardoor uw publiek een boeiendere en navigeerbare ervaring krijgt.
 In deze stapsgewijze handleiding begeleiden we u door het hele proces, van het opzetten van uw ontwikkelomgeving tot het maken en aanpassen van een Samenvattingszoomframe. Of u nu een doorgewinterde Java-ontwikkelaar bent of net begint, deze handleiding is gemakkelijk te volgen en staat boordevol waardevolle inzichten.
@@ -107,3 +111,9 @@ Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de[
  Een tijdelijke licentie kunt u verkrijgen bij de[Aspose aankooppagina](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik meer voorbeelden en ondersteuning vinden voor Aspose.Slides voor Java?
  U kunt meer voorbeelden vinden en ondersteuning zoeken op de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

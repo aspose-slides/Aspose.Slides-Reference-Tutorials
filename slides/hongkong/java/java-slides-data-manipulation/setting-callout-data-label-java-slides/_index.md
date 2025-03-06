@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定資料標籤的標註
 linktitle: 在 Java 投影片中設定資料標籤的標註
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何在 Aspose.Slides for Java 中設定資料標籤的標註。帶有原始程式碼的分步指南。
-type: docs
 weight: 25
 url: /zh-hant/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在Aspose.Slides for Java中設定資料標籤標註的簡介
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 這些是 Aspose.Slides for Java 中資料標籤和標註的一些常見自訂選項。您可以根據您的特定需求進一步客製化外觀。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

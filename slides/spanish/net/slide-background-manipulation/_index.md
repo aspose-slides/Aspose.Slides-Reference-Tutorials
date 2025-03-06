@@ -3,10 +3,14 @@ title: Manipulación del fondo de diapositivas usando Aspose.Slides
 linktitle: Manipulación del fondo de diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejora el diseño de tu diapositiva con Aspose.Slides! Aprenda a manipular fondos de diapositivas en este completo tutorial. Se proporcionan instrucciones paso a paso y ejemplos de código.
-type: docs
 weight: 11
 url: /es/net/slide-background-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción
 
@@ -37,3 +41,9 @@ Aprenda cómo configurar una imagen como fondo de diapositiva usando Aspose.Slid
 Aprenda a dominar la configuración de fondos de diapositivas usando Aspose.Slides en esta guía paso a paso. Eleva tus presentaciones al siguiente nivel con imágenes atractivas.
 ### [Cambiar el fondo normal de la diapositiva](./change-slide-background-normal/)
 Aprenda cómo cambiar el fondo normal de la diapositiva para cautivar a su audiencia. Siga esta guía completa utilizando Aspose.Slides para .NET, completa con instrucciones paso a paso y ejemplos de código.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

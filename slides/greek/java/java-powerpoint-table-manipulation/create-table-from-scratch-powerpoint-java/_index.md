@@ -3,10 +3,14 @@ title: Δημιουργία πίνακα από την αρχή στο PowerPoin
 linktitle: Δημιουργία πίνακα από την αρχή στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε δυναμικούς πίνακες στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό μας οδηγό βήμα προς βήμα.
-type: docs
 weight: 22
 url: /el/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Χρειάστηκε ποτέ να δημιουργήσετε έναν δυναμικό πίνακα σε μια παρουσίαση PowerPoint χρησιμοποιώντας Java; Λοιπόν, είστε στο σωστό μέρος! Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός πίνακα από την αρχή χρησιμοποιώντας το Aspose.Slides για Java. Είτε είστε έμπειρος προγραμματιστής Java είτε μόλις ξεκινάτε, θα βρείτε αυτόν τον οδηγό εύκολο στην παρακολούθηση και απίστευτα χρήσιμο. Ας βουτήξουμε και μετατρέψουμε τις διαφάνειες του PowerPoint σε κάτι εξαιρετικό!
 ## Προαπαιτούμενα
@@ -86,3 +90,9 @@ if (presentation != null) presentation.dispose();
 Το Aspose.Slides είναι συμβατό με Java SE 6 και νεότερη έκδοση.
 ### Πού μπορώ να βρω την τεκμηρίωση του Aspose.Slides;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

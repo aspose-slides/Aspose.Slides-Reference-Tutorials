@@ -3,10 +3,14 @@ title: Inserisci diapositive aggiuntive nella presentazione
 linktitle: Inserisci diapositive aggiuntive nella presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come inserire diapositive aggiuntive nelle tue presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce esempi di codice sorgente e istruzioni dettagliate per migliorare senza problemi le tue presentazioni. Contenuti personalizzabili, suggerimenti per l'inserimento e domande frequenti inclusi.
-type: docs
 weight: 15
 url: /it/net/slide-access-and-manipulation/add-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione all'inserimento di diapositive aggiuntive nella presentazione
 
@@ -107,3 +111,9 @@ Assolutamente. Puoi modificare il layout, il design e la formattazione delle dia
 ### Dove posso trovare ulteriori informazioni su Aspose.Slides per .NET?
 
  Per documentazione dettagliata ed esempi, fare riferimento a[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

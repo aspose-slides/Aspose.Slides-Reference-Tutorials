@@ -3,10 +3,14 @@ title: Usuń wiersz lub kolumnę w tabeli programu PowerPoint przy użyciu języ
 linktitle: Usuń wiersz lub kolumnę w tabeli programu PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak usuwać wiersze lub kolumny z tabel programu PowerPoint przy użyciu języka Java z Aspose.Slides dla języka Java. Łatwy przewodnik krok po kroku dla programistów.
-type: docs
 weight: 18
 url: /pl/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 tym samouczku omówimy, jak usunąć wiersz lub kolumnę z tabeli programu PowerPoint przy użyciu języka Java i Aspose.Slides. Aspose.Slides dla Java to potężna biblioteka, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint. Ten samouczek skupia się w szczególności na procesie modyfikowania tabel na slajdach programu PowerPoint, pokazując krok po kroku, jak usunąć określone wiersze lub kolumny z tabeli.
 ## Warunki wstępne
@@ -74,3 +78,9 @@ Aspose.Slides zapewnia kompleksową obsługę tworzenia, modyfikowania i konwert
 Tak, Aspose.Slides jest szeroko stosowany w środowiskach korporacyjnych do automatyzacji zadań programu PowerPoint ze względu na jego solidne funkcje i wydajność.
 ### Czy mogę wypróbować Aspose.Slides przed zakupem?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

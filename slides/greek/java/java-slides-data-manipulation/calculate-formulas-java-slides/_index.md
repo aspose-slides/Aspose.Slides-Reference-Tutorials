@@ -3,10 +3,14 @@ title: Υπολογισμός τύπων σε διαφάνειες Java
 linktitle: Υπολογισμός τύπων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να υπολογίζετε τύπους σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για δυναμικές παρουσιάσεις PowerPoint.
-type: docs
 weight: 10
 url: /el/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στον υπολογισμό τύπων σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides
 
@@ -114,3 +118,10 @@ try {
 ### Πώς μπορώ να υπολογίσω τύπους σε ένα βιβλίο εργασίας;
 
  Μπορείτε να υπολογίσετε τύπους σε ένα βιβλίο εργασίας χρησιμοποιώντας το`calculateFormulas` μέθοδος για`IChartDataWorkbook` στο Aspose.Slides.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

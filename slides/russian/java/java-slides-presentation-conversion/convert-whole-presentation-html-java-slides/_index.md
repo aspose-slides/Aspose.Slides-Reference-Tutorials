@@ -3,10 +3,14 @@ title: Преобразование всей презентации в HTML в �
 linktitle: Преобразование всей презентации в HTML в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации PowerPoint в HTML на Java с помощью Aspose.Slides. Пошаговое руководство с примерами кода.
-type: docs
 weight: 29
 url: /ru/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в преобразование всей презентации в HTML в слайдах Java
 
@@ -117,3 +121,9 @@ finally
 ### Могу ли я конвертировать отдельные слайды, а не всю презентацию?
 
 Да, вы можете конвертировать отдельные слайды, выбрав их в коде перед сохранением презентации. Это дает вам контроль над тем, какие слайды конвертируются в HTML.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 図形セグメントの削除 - Aspose.Slides .NET チュートリアル
 linktitle: プレゼンテーションスライドのジオメトリシェイプからセグメントを削除する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides API for .NET を使用して、プレゼンテーション スライドのジオメトリ シェイプからセグメントを削除する方法を学びます。ソース コードを使用したステップ バイ ステップ ガイド。
-type: docs
 weight: 16
 url: /ja/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 視覚的に魅力的なプレゼンテーションを作成するには、多くの場合、希望するデザインを実現するために図形や要素を操作する必要があります。Aspose.Slides for .NET を使用すると、開発者は図形のジオメトリを簡単に制御し、特定のセグメントを削除できます。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドのジオメトリ図形からセグメントを削除するプロセスについて説明します。
 ## 前提条件
@@ -68,3 +72,9 @@ try-catch ブロックを使用して適切なエラー処理を実装します�
 いいえ、保存後の変更は元に戻せません。変更する前にバックアップを保存することを検討してください。
 ### 追加のサポートや支援はどこで受けられますか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

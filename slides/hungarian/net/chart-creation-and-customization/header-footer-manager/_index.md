@@ -3,10 +3,14 @@ title: Fejléc és lábléc kezelése a Diákban
 linktitle: Fejléc és lábléc kezelése a Diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá dinamikus fejlécet és láblécet a PowerPoint-prezentációkhoz az Aspose.Slides for .NET segítségével.
-type: docs
 weight: 14
 url: /hu/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # Dinamikus fejlécek és láblécek létrehozása az Aspose.Slides-ben .NET-hez
 
@@ -131,3 +135,9 @@ Most már rendelkezik azzal a tudással, amellyel PowerPoint-prezentációit a k
 
 ### 5. kérdés: Létezik közösségi vagy támogatási fórum az Aspose.Slides for .NET számára?
  5. válasz: Igen, felkeresheti az Aspose.Slides for .NET támogatási fórumát[itt](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

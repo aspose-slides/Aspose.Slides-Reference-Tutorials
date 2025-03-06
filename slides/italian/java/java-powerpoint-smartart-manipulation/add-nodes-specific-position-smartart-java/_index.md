@@ -3,10 +3,14 @@ title: Aggiungi nodi in posizioni specifiche in SmartArt utilizzando Java
 linktitle: Aggiungi nodi in posizioni specifiche in SmartArt utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere nodi in posizioni specifiche in SmartArt utilizzando Java con Aspose.Slides. Crea presentazioni dinamiche senza sforzo.
-type: docs
 weight: 16
 url: /it/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 In questo tutorial ti guideremo attraverso il processo di aggiunta di nodi in posizioni specifiche in SmartArt utilizzando Java con Aspose.Slides. SmartArt è una funzionalità di PowerPoint che consente di creare diagrammi e grafici visivamente accattivanti.
 ## Prerequisiti
@@ -70,3 +74,9 @@ Sì, puoi personalizzare l'aspetto dei nodi, incluse dimensioni, colore e stile.
 Sì, Aspose.Slides fornisce librerie per più linguaggi di programmazione, inclusi .NET e Python.
 ### È disponibile una versione di prova per Aspose.Slides?
  Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

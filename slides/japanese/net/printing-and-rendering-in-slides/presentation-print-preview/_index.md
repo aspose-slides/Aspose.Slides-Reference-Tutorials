@@ -3,10 +3,14 @@ title: Aspose.Slides でプレゼンテーションの印刷出力をプレビ�
 linktitle: Aspose.Slides でプレゼンテーションの印刷出力をプレビューする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションの印刷出力をプレビューする方法を学びます。ソース コードを含むこのステップ バイ ステップ ガイドに従って、印刷プレビューを生成およびカスタマイズします。
-type: docs
 weight: 11
 url: /ja/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Aspose.Slides for .NET の世界へようこそ。これは、開発者が .NET アプリケーションで PowerPoint プレゼンテーションをシームレスに操作および強化できるようにする強力なライブラリです。熟練した開発者でも、初心者でも、この包括的なガイドは、Aspose.Slides の潜在能力を最大限に活用するための重要な手順を説明します。
 ## 前提条件
@@ -71,3 +75,9 @@ pres.Print(printerSettings);
 訪問[一時ライセンス](https://purchase.aspose.com/temporary-license/)テスト目的で臨時ライセンスを取得する。
 ### サポートが必要ですか、あるいはさらに質問がありますか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)支援を受け、コミュニティとつながることができます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

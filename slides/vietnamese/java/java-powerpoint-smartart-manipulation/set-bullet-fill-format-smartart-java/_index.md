@@ -3,10 +3,14 @@ title: Đặt định dạng điền dấu đầu dòng trong SmartArt bằng Ja
 linktitle: Đặt định dạng điền dấu đầu dòng trong SmartArt bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt định dạng điền dấu đầu dòng trong SmartArt bằng Java với Aspose.Slides. Hướng dẫn từng bước để thao tác trình bày hiệu quả.
-type: docs
 weight: 18
 url: /vi/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong lĩnh vực lập trình Java, việc thao tác hiệu quả các bản trình bày là một yêu cầu phổ biến, đặc biệt là khi xử lý các phần tử SmartArt. Aspose.Slides for Java nổi lên như một công cụ mạnh mẽ cho những tác vụ như vậy, cung cấp một loạt chức năng để xử lý các bài thuyết trình theo chương trình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình thiết lập định dạng điền dấu đầu dòng trong SmartArt bằng cách sử dụng Java với Aspose.Slides, từng bước một.
 ## Điều kiện tiên quyết
@@ -71,3 +75,9 @@ Thật vậy, Aspose.Slides cho phép bạn tùy chỉnh mọi khía cạnh củ
  Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng bản dùng thử miễn phí. Chỉ cần tải xuống từ[trang mạng](https://releases.aspose.com/slides/java/) và bắt đầu khám phá.
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Slides tại[liên kết này](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

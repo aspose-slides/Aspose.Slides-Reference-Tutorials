@@ -3,10 +3,14 @@ title: 在 Java Slides 中打开受密码保护的演示文稿
 linktitle: 在 Java Slides 中打开受密码保护的演示文稿
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Java 解锁受密码保护的演示文稿。了解如何使用 Aspose.Slides for Java 打开和访问受密码保护的 PowerPoint 幻灯片。带有代码的分步指南。
-type: docs
 weight: 15
 url: /zh/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java Slides 中打开受密码保护的演示文稿的简介
 
@@ -113,3 +117,9 @@ Aspose.Slides 提供了设置和更改演示文稿密码的功能，但没有提
 ### 在哪里可以找到更多 Aspose.Slides for Java 的示例和文档？
 
 您可以在以下位置找到全面的文档和其他示例[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)以及[Aspose.Slides 论坛](https://forum.aspose.com/c/slides).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

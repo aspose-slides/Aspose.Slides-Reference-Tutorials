@@ -3,10 +3,14 @@ title: Ορισμός πλάτους κενού στις διαφάνειες Ja
 linktitle: Ορισμός πλάτους κενού στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε το Gap Width σε Java Slides με το Aspose.Slides for Java. Βελτιώστε τα γραφικά για τις παρουσιάσεις σας στο PowerPoint.
-type: docs
 weight: 21
 url: /el/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη ρύθμιση του πλάτους χάσματος στο Aspose.Slides για Java
 
@@ -158,3 +162,9 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να βρω περισσότερους πόρους και τεκμηρίωση;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και πρόσθετους πόρους στο Aspose.Slides for Java στο[Aspose website](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

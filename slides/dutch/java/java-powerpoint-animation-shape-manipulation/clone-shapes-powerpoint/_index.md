@@ -3,10 +3,14 @@ title: Kloon vormen in PowerPoint
 linktitle: Kloon vormen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen in PowerPoint-presentaties kunt klonen met Aspose.Slides voor Java. Stroomlijn uw workflow met deze eenvoudig te volgen tutorial.
-type: docs
 weight: 16
 url: /nl/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u vormen in PowerPoint-presentaties kunt klonen met Aspose.Slides voor Java. Door vormen te klonen kunt u bestaande vormen binnen een presentatie dupliceren, wat vooral handig kan zijn voor het maken van consistente lay-outs of het herhalen van elementen op dia's.
 ## Vereisten
@@ -57,3 +61,9 @@ Absoluut, zodra de vormen zijn gekloond en aan een dia zijn toegevoegd, kunt u h
 Ja, u kunt dia's, tekst, afbeeldingen en andere elementen binnen een PowerPoint-presentatie klonen met Aspose.Slides voor Java.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de[website](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

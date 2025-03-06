@@ -3,10 +3,14 @@ title: Nastavte Invertovat barevný graf výplně v Java Slides
 linktitle: Nastavte Invertovat barevný graf výplně v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit invertní barvy výplně pro grafy Java Slides pomocí Aspose.Slides. Vylepšete své vizualizace grafů pomocí tohoto podrobného průvodce a zdrojového kódu.
-type: docs
 weight: 22
 url: /cs/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod k nastavení invertního barevného grafu výplně v Java Slides
 
@@ -153,3 +157,9 @@ Ano, pomocí Aspose.Slides for Java si můžete přizpůsobit různé aspekty vz
 ### Mohu uložit graf v různých formátech?
 
  Ano, graf můžete uložit v různých formátech pomocí Aspose.Slides for Java. V uvedeném příkladu kódu jsme prezentaci uložili jako soubor PPTX. Můžete použít různé`SaveFormat` možnosti uložení v jiných formátech, jako je PDF, PNG nebo SVG, v závislosti na vašich požadavcích.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Incorporamento della guida agli oggetti OLE con Aspose.Slides per .NET
 linktitle: Sostituzione del titolo dell'immagine della cornice dell'oggetto OLE nelle diapositive della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come migliorare le diapositive della tua presentazione con oggetti OLE dinamici utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 15
 url: /it/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 La creazione di diapositive di presentazione dinamiche e coinvolgenti spesso comporta l'incorporazione di vari elementi multimediali. In questo tutorial, esploreremo come sostituire il titolo dell'immagine di un frame di oggetti OLE (Object Linking and Embedding) nelle diapositive di presentazione utilizzando la potente libreria Aspose.Slides per .NET. Aspose.Slides semplifica il processo di gestione degli oggetti OLE, fornendo agli sviluppatori gli strumenti per migliorare facilmente le loro presentazioni.
 ## Prerequisiti
@@ -83,3 +87,9 @@ partire dall'ultima versione, Aspose.Slides si concentra sull'incorporamento e s
 Certamente. Hai il controllo programmatico completo sugli oggetti OLE, consentendoti di modificarne le proprietà e l'aspetto secondo necessità.
 ### Esistono limitazioni alla dimensione degli oggetti OLE incorporati?
 Sebbene esistano limiti di dimensione, generalmente sono generosi. Si consiglia di eseguire il test con il caso d'uso specifico per garantire prestazioni ottimali.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

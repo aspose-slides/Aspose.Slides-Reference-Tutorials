@@ -3,10 +3,14 @@ title: Tworzenie wykresów slajdów Java
 linktitle: Tworzenie wykresów slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć dynamiczne slajdy Java z wykresami przy użyciu Aspose.Slides for Java. Nasze obszerne samouczki przeprowadzą Cię przez cały proces krok po kroku.
-type: docs
 weight: 16
 url: /pl/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Czy jesteś gotowy, aby uwolnić moc dynamicznych wykresów w slajdach Java? Dzięki Aspose.Slides dla Java możesz bez wysiłku tworzyć urzekające wykresy. Ten obszerny przewodnik poprowadzi Cię przez najważniejsze etapy, od instalacji po udoskonalenie wykresu.
 
@@ -35,3 +39,9 @@ Dowiedz się, jak tworzyć wykresy punktowe w Javie przy użyciu Aspose.Slides. 
 Dowiedz się, jak dostosowywać wykresy w Java Slides za pomocą Aspose.Slides dla Java. Przeglądaj opcje drugiej fabuły i ulepszaj swoje prezentacje.
 ### [Wykres mapy drzewa w slajdach Java](./tree-map-chart-java-slides/)
 Twórz wykresy mapy drzewa w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do wizualizacji danych hierarchicznych.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

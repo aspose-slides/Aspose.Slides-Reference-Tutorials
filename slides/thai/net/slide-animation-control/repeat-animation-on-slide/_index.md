@@ -3,10 +3,14 @@ title: การเรียนรู้ภาพเคลื่อนไหว 
 linktitle: ทำซ้ำภาพเคลื่อนไหวบนสไลด์
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ปรับปรุงการนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ควบคุมแอนิเมชั่นได้อย่างง่ายดาย ดึงดูดผู้ชม และสร้างความประทับใจไม่รู้ลืม
-type: docs
 weight: 12
 url: /th/net/slide-animation-control/repeat-animation-on-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในโลกแห่งการนำเสนอแบบไดนามิก ความสามารถในการควบคุมแอนิเมชั่นมีบทบาทสำคัญในการมีส่วนร่วมและดึงดูดความสนใจของผู้ชม Aspose.Slides สำหรับ .NET ช่วยให้นักพัฒนาสามารถดูแลประเภทแอนิเมชั่นภายในสไลด์ได้ ช่วยให้นำเสนอแบบโต้ตอบและดึงดูดสายตามากขึ้น ในบทช่วยสอนนี้ เราจะสำรวจวิธีการควบคุมประเภทภาพเคลื่อนไหวบนสไลด์โดยใช้ Aspose.Slides สำหรับ .NET ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +70,9 @@ Aspose.Slides ให้การสนับสนุน PowerPoint เวอร
  เยี่ยม[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับข้อมูลเกี่ยวกับการขอรับใบอนุญาตชั่วคราว
 ### ต้องการความช่วยเหลือหรือมีคำถามเพิ่มเติม?
  มีส่วนร่วมกับชุมชน Aspose.Slides บน[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

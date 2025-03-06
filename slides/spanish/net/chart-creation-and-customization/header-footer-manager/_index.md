@@ -3,10 +3,14 @@ title: Administrar encabezado y pie de página en diapositivas
 linktitle: Administrar encabezado y pie de página en diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar encabezados y pies de página dinámicos en presentaciones de PowerPoint usando Aspose.Slides para .NET.
-type: docs
 weight: 14
 url: /es/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # Creación de encabezados y pies de página dinámicos en Aspose.Slides para .NET
 
@@ -131,3 +135,9 @@ R2: Sí, puede explorar una prueba gratuita de Aspose.Slides para .NET[aquí](ht
 
 ### P5: ¿Existe una comunidad o un foro de soporte para Aspose.Slides para .NET?
  R5: Sí, puede visitar el foro de soporte de Aspose.Slides para .NET[aquí](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

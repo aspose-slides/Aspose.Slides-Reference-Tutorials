@@ -3,10 +3,14 @@ title: Anpassung und Formatierung von Java-Folien
 linktitle: Anpassung und Formatierung von Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Slides für Java beim Anpassen und Formatieren von Java-Folien. Lernen Sie Schritt für Schritt in unseren Tutorials. Verbessern Sie Ihre Präsentationsfähigkeiten.
-type: docs
 weight: 12
 url: /de/java/customization-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
  In diesem Artikel tauchen wir in die Welt der Anpassung und Formatierung von Java-Folien mit Aspose.Slides für Java ein. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Java-Präsentationen beginnen, unsere Tutorialliste wird Ihnen dabei helfen, das volle Potenzial von Aspose.Slides auszuschöpfen.|
 
@@ -49,3 +53,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides für Java Schrifteigenschaften in Java-F
 Verbessern Sie Ihre Diagramme mit Aspose.Slides für Java. Erfahren Sie, wie Sie die Positionsachse in Java-Folien festlegen, beeindruckende Präsentationen erstellen und Diagrammlayouts mühelos anpassen.
 ### [Festlegen des Rotationswinkels in Java-Folien](./setting-rotation-angle-java-slides/)
 Optimieren Sie Ihre Java-Folien mit Aspose.Slides für Java. Erfahren Sie, wie Sie Drehwinkel für Textelemente festlegen. Schritt-für-Schritt-Anleitung mit Quellcode.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

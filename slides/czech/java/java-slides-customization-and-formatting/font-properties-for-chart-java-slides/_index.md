@@ -3,10 +3,14 @@ title: Vlastnosti písma pro graf v Java Slides
 linktitle: Vlastnosti písma pro graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete vlastnosti písma grafu v Java Slides pomocí Aspose.Slides pro Java. Přizpůsobte si velikost, styl a barvu písma pro působivé prezentace.
-type: docs
 weight: 11
 url: /cs/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do vlastností písma pro graf v Java Slides
 
@@ -102,3 +106,9 @@ finally
 ### Jak přizpůsobím vlastnosti písma pro konkrétní prvky grafu?
 
 Chcete-li přizpůsobit vlastnosti písma pro konkrétní prvky grafu, jako jsou popisky os nebo text legendy, můžete k těmto prvkům přistupovat a nastavit jejich vlastnosti písma pomocí podobných metod, jak je uvedeno výše.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

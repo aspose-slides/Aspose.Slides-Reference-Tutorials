@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定旋轉角度
 linktitle: 在 Java 投影片中設定旋轉角度
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 優化您的 Java 投影片。學習設定文字元素的旋轉角度。帶有原始程式碼的分步指南。
-type: docs
 weight: 17
 url: /zh-hant/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片設定旋轉角度簡介
 
@@ -100,3 +104,9 @@ Aspose.Slides for Java 為圖表標題提供了各種格式選項，包括字體
 ### 是否可以為圖表軸標題中的文字旋轉設定動畫？
 
 是的，您可以使用 Aspose.Slides for Java 將動畫效果新增至文字元素，包括圖表軸標題。有關向簡報新增動畫的信息，請參閱文件。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

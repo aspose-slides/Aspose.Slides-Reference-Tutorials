@@ -3,10 +3,14 @@ title: Membuat Bentuk Persegi Panjang dengan Aspose.Slides untuk .NET
 linktitle: Membuat Bentuk Persegi Panjang Sederhana di Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi dunia presentasi PowerPoint dinamis dengan Aspose.Slides untuk .NET. Pelajari cara membuat bentuk persegi panjang yang menarik dalam slide dengan panduan langkah demi langkah ini.
-type: docs
 weight: 12
 url: /id/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Jika Anda ingin menyempurnakan aplikasi .NET Anda dengan presentasi PowerPoint yang dinamis dan menarik secara visual, Aspose.Slides untuk .NET adalah solusi tepat Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan bentuk persegi panjang sederhana di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -61,3 +65,9 @@ Ya, Aspose.Slides for .NET tidak bergantung pada platform dan dapat digunakan di
  Ya, Anda dapat membeli lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi Aspose.Slides untuk .NET?
  Lihat dokumentasi[Di Sini](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

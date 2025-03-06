@@ -3,10 +3,14 @@ title: 投影片中的形狀對齊和格式設置
 linktitle: 投影片中的形狀對齊和格式設置
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 探索 .NET 應用程式中形狀對齊和格式設定的綜合 Aspose.Slides 教學。學習輕鬆對齊和格式化形狀，從而精確地增強您的投影片簡報。
-type: docs
 weight: 14
 url: /zh-hant/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介紹
 
@@ -44,3 +48,9 @@ url: /zh-hant/net/shape-alignment-and-formatting-in-slides/
 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中為圖片框架新增左側拉伸偏移。帶有完整原始程式碼範例的分步指南。
 ### [在簡報投影片中替換 OLE 物件框架的圖片標題](./substituting-picture-title-ole-object-frame/)
 了解如何使用 Aspose.Slides for .NET 取代簡報投影片中 OLE 物件框架的圖片標題。帶有完整原始程式碼的分步指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

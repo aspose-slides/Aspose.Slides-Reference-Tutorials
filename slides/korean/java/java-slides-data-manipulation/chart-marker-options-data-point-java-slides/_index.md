@@ -3,10 +3,14 @@ title: Java 슬라이드의 데이터 포인트에 대한 차트 표시 옵션
 linktitle: Java 슬라이드의 데이터 포인트에 대한 차트 표시 옵션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 사용자 정의 차트 마커 옵션으로 Java 슬라이드를 최적화하세요. Aspose.Slides for Java를 사용하여 데이터 포인트를 시각적으로 향상시키는 방법을 알아보세요. 단계별 지침과 FAQ를 살펴보세요.
-type: docs
 weight: 14
 url: /ko/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드의 데이터 포인트에 대한 차트 표시 옵션 소개
 
@@ -154,3 +158,9 @@ Aspose.Slides for Java를 사용하면 데이터 포인트의 차트 마커를 �
 ### Java 문서 및 다운로드용 Aspose.Slides에 어디서 액세스할 수 있나요?
 
  문서는 다음에서 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/) 그리고 다음에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

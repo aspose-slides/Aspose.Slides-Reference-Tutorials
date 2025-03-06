@@ -3,10 +3,14 @@ title: 将演示文稿导出为 XAML 格式
 linktitle: 将演示文稿导出为 XAML 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将演示文稿导出为 XAML 格式。轻松创建交互式内容！
-type: docs
 weight: 27
 url: /zh/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在软件开发领域，拥有能够简化复杂任务的工具至关重要。Aspose.Slides for .NET 就是这样一种工具，它使您能够以编程方式处理 PowerPoint 演示文稿。在本分步教程中，我们将探索如何使用 Aspose.Slides for .NET 将演示文稿导出为 XAML 格式。 
 
@@ -113,3 +117,9 @@ Aspose.Slides for .NET 是一个用于以编程方式处理 PowerPoint 演示文
 您可以找到支持和社区讨论[这里](https://forum.aspose.com/).
 
 如需更多教程和资源，请访问[Aspose.Slides API 文档](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

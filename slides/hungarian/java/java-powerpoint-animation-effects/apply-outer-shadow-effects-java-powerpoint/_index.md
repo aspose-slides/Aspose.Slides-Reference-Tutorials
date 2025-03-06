@@ -3,10 +3,14 @@ title: Külső árnyékhatások alkalmazása a Java PowerPointban
 linktitle: Külső árnyékhatások alkalmazása a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan alkalmazhat egyszerűen külső árnyékhatásokat Java PowerPoint prezentációkban az Aspose.Slides segítségével.
-type: docs
 weight: 11
 url: /hu/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 A lebilincselő prezentációk létrehozásához gyakran különféle effektusok hozzáadása szükséges a diák vizuális vonzerejének fokozása érdekében. Az egyik ilyen hatás a külső árnyék, amely feldobhatja az elemeket, és mélységet adhat a tartalomnak. Ebben az oktatóanyagban végigvezetjük a külső árnyékhatások alkalmazásának folyamatát a PowerPoint-prezentáció alakzataira az Aspose.Slides for Java segítségével.
 ## Előfeltételek
@@ -114,3 +118,9 @@ Igen, az Aspose.Slides for Java bármely Java IDE-vel használható, például a
  Ideiglenes jogosítványt kaphat a[Aspose honlapja](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további példákat és dokumentációt az Aspose.Slides-hez?
  További példákat és részletes dokumentációt találhat a[Az Aspose.Slides dokumentációs oldala](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

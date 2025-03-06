@@ -3,10 +3,14 @@ title: Java スライドの段落の直角座標を取得する
 linktitle: Java スライドの段落の直角座標を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの段落座標を取得する方法を学びます。正確な配置を行うには、ソース コードを含むステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java で段落の直角座標を取得する方法の紹介
 
@@ -112,3 +116,9 @@ Aspose.Slides for Java を使用して PowerPoint スライド内の段落にア
 ### Aspose.Slides for Java を使用するにはライセンスが必要ですか?
 
 はい、通常、Aspose.Slides for Java を運用環境で使用するには有効なライセンスが必要です。ライセンスは Aspose の Web サイトから取得できます。ただし、テストや評価の目的で試用版が提供される場合があります。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

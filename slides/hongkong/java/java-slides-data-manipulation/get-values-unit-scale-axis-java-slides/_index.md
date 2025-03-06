@@ -3,10 +3,14 @@ title: 在 Java 投影片中從 Axis 取得值和單位比例
 linktitle: 在 Java 投影片中從 Axis 取得值和單位比例
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 從 Java Slides 中的軸獲取值和單位比例。增強您的數據分析能力。
-type: docs
 weight: 20
 url: /zh-hant/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片中從軸取得值和單位比例的簡介
 
@@ -122,3 +126,9 @@ Aspose.Slides for Java 定期更新以支援最新的 Java 版本，確保與最
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和文件？
 
 您可以在以下位置找到全面的文件和其他資源[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)網站。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Форма Java PowerPoint и вставка мультимедиа
 linktitle: Форма Java PowerPoint и вставка мультимедиа
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как вставлять фигуры и мультимедиа в презентации PowerPoint с помощью Aspose.Slides для Java. Учебные пособия включают добавление линий, аудио, объектов OLE и видео.
-type: docs
 weight: 23
 url: /ru/java/java-powerpoint-shape-media-insertion/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение
 
@@ -53,3 +57,9 @@ url: /ru/java/java-powerpoint-shape-media-insertion/
 Узнайте, как легко интегрировать видеоконтент в презентации PowerPoint с помощью Aspose.Slides для Java. Ваши слайды с мультимедийными элементами для привлечения аудитории.
 ### [Добавить видеокадр из веб-источника в PowerPoint](./add-video-frame-web-source-powerpoint/)
 Узнайте, как улучшить ваши презентации PowerPoint, добавив видеокадры из веб-источников с помощью Aspose.Slides для Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Προσθήκη Video Frame στο PowerPoint
 linktitle: Προσθήκη Video Frame στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενσωματώνετε απρόσκοπτα περιεχόμενο βίντεο σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οι διαφάνειές σας με στοιχεία πολυμέσων για να προσελκύσουν το κοινό σας.
-type: docs
 weight: 17
 url: /el/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενός πλαισίου βίντεο σε μια παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Ακολουθώντας αυτές τις οδηγίες βήμα προς βήμα, θα μπορείτε να ενσωματώνετε απρόσκοπτα περιεχόμενο βίντεο στις παρουσιάσεις σας με ευκολία.
 ## Προαπαιτούμενα
@@ -60,3 +64,9 @@ pres.save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να ρυθμίσετε τη λειτουργία αναπαραγωγής και την ένταση του καρέ βίντεο σύμφωνα με τις προτιμήσεις σας.
 ### Πού μπορώ να βρω περισσότερη υποστήριξη και πόρους για το Aspose.Slides;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για βοήθεια, τεκμηρίωση και κοινοτική υποστήριξη.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

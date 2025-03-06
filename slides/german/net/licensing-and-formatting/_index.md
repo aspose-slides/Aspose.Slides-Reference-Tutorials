@@ -3,10 +3,14 @@ title: Lizenzierung und Formatierung
 linktitle: Lizenzierung und Formatierung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihr Verständnis der Lizenzierung und Formatierung von Aspose.Slides durch umfassende Tutorials. Erfahren Sie, wie Sie Lizenzen effizient verwalten und eine einwandfreie Formatierung für Ihre Präsentationen erreichen.
-type: docs
 weight: 21
 url: /de/net/licensing-and-formatting/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung
 
@@ -31,3 +35,9 @@ Erfahren Sie, wie Sie Metered Licensing mit Aspose.Slides für .NET effizient nu
 Erfahren Sie, wie Sie Diagrammdarstellungen mit Aspose.Slides für .NET verbessern. Fügen Sie Datenpunkten dynamische Farben hinzu, um wirkungsvollere Präsentationen zu erzielen.
 ### [Hinzufügen benutzerdefinierter Fehlerbalken zum Diagramm](./add-custom-error/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET benutzerdefinierte Fehlerbalken zu Diagrammen hinzufügen. Erstellen, gestalten und passen Sie Fehlerbalken für eine präzise Datenvisualisierung an.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

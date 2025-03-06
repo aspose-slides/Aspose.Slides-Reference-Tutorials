@@ -3,10 +3,14 @@ title: Přechodové efekty snímku
 linktitle: Přechodové efekty snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí podmanivých efektů přechodu snímků pomocí Aspose.Slides pro .NET. Zjistěte, jak přidat dynamické animace do snímků pro poutavý zážitek ze sledování.
-type: docs
 weight: 19
 url: /cs/net/slide-transition-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod:
 
@@ -37,3 +41,9 @@ Naučte se, jak přidat úžasné přechodové efekty do snímků prezentace pom
 vydělávejte, jak nastavit typ přechodu morph na snímcích pomocí Aspose.Slides pro .NET. Podrobný průvodce s příklady kódu. Vylepšete své prezentace hned teď! 
 ### [Jednoduché přechody snímků](./simple-slide-transitions/)
 Naučte se, jak vylepšit své PowerPointové prezentace pomocí jednoduchých přechodů snímků pomocí Aspose.Slides for .NET. Průvodce krok za krokem se zdrojovým kódem. Zaujměte své publikum podmanivým vizuálem!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

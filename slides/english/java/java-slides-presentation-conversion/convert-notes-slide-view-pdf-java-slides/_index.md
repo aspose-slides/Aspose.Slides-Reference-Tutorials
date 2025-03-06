@@ -3,10 +3,14 @@ title: Convert Notes Slide View to PDF in Java Slides
 linktitle: Convert Notes Slide View to PDF in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations with notes into PDFs using Aspose.Slides for Java. Follow our step-by-step guide with source code.
-type: docs
 weight: 16
 url: /java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Convert Notes Slide View to PDF in Java Slides
 
@@ -106,3 +110,10 @@ Yes, Aspose.Slides requires a valid license for commercial use. You can obtain a
 ### Where can I find more documentation and examples?
 
 You can find comprehensive documentation and examples for Aspose.Slides for Java at [here](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

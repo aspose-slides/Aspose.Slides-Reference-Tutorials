@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint에서 SmartArt 모양 만들기
 linktitle: Java를 사용하여 PowerPoint에서 SmartArt 모양 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 동적 PowerPoint 프레젠테이션을 만듭니다. 향상된 시각적 효과를 위해 프로그래밍 방식으로 SmartArt 모양을 추가하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 Java 프로그래밍 영역에서는 시각적으로 매력적인 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. 비즈니스 프레젠테이션, 학술 프레젠테이션 또는 단순한 정보 공유 등 프로그래밍 방식으로 동적 PowerPoint 슬라이드를 생성하는 기능은 판도를 바꿀 수 있습니다. Aspose.Slides for Java는 이 프로세스를 촉진하는 강력한 도구로 등장하여 프레젠테이션을 쉽고 효율적으로 조작할 수 있는 포괄적인 기능 세트를 제공합니다.
 ## 전제 조건
@@ -63,3 +67,9 @@ pres.save(dataDir + "SimpleSmartArt_out.pptx", SaveFormat.Pptx);
 ### 구매하기 전에 Java용 Aspose.Slides를 사용해 볼 수 있나요?
  틀림없이! 다음에서 무료 평가판을 다운로드하여 Aspose.Slides for Java의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 Aspose.Slides와 함께 Java를 사용하여 동적 PowerPoint 프레젠테이션을 만듭니다. 향상된 시각적 효과를 위해 프로그래밍 방식으로 SmartArt 모양을 추가하는 방법을 알아보세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

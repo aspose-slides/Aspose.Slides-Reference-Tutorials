@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET에서 요약 확대/축소 마스터하기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 요약 확대/축소 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 향상시키세요! 매력적인 요약 확대/축소를 손쉽게 만드는 방법을 알아보세요. 역동적인 슬라이드 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 16
 url: /ko/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 역동적인 프레젠테이션 세계에서 Aspose.Slides for .NET은 슬라이드 생성 경험을 향상시키는 강력한 도구로 돋보입니다. 이 앱이 제공하는 주목할만한 기능 중 하나는 슬라이드 모음을 표시하는 시각적으로 매력적인 방법인 요약 확대/축소를 생성하는 기능입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 요약 확대/축소를 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -79,3 +83,9 @@ Aspose.Slides는 최신 .NET 버전과의 호환성을 보장하기 위해 정�
 최신 버전에서는 프레젠테이션에 추가할 수 있는 섹션 수에 대한 엄격한 제한이 없습니다.
 ### Aspose.Slides에 사용할 수 있는 평가판이 있습니까?
 예, Aspose.Slides를 다운로드하여 기능을 탐색할 수 있습니다.[무료 평가판](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

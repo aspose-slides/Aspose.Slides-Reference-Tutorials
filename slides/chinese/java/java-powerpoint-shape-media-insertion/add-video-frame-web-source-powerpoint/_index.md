@@ -3,10 +3,14 @@ title: 在 PowerPoint 中从 Web 源添加视频帧
 linktitle: 在 PowerPoint 中从 Web 源添加视频帧
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 添加来自 Web 资源的视频帧来增强您的 PowerPoint 演示文稿。
-type: docs
 weight: 18
 url: /zh/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，我们将学习如何使用 Aspose.Slides for Java 将来自网络源（例如 YouTube）的视频帧添加到 PowerPoint 演示文稿中。通过遵循这些分步说明，您将能够通过整合引人入胜的多媒体元素来增强您的演示文稿。
 ## 先决条件
@@ -84,3 +88,9 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Aspose.Slides 支持广泛的 PowerPoint 版本，确保跨不同平台的兼容性。
 ### 在哪里可以找到有关 Aspose.Slides 的更多资源和支持？
 您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求帮助、文档和社区支持。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Ορισμός προσαρμοσμένων επιλογών Legend στ�
 linktitle: Ορισμός προσαρμοσμένων επιλογών Legend στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε προσαρμοσμένες επιλογές υπομνήματος σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε τη θέση και το μέγεθος του υπομνήματος στα γραφήματα του PowerPoint.
-type: docs
 weight: 14
 url: /el/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στο Set Legend Custom Options σε Java Slides
 
@@ -131,3 +135,9 @@ finally
 ## Μπορώ να προσαρμόσω άλλα χαρακτηριστικά μύθου;
 
 Ναι, μπορείτε να προσαρμόσετε διάφορα χαρακτηριστικά του μύθου, όπως στυλ γραμματοσειράς, περίγραμμα, χρώμα φόντου και άλλα. Εξερευνήστε την τεκμηρίωση του Aspose.Slides για λεπτομερείς πληροφορίες σχετικά με την περαιτέρω προσαρμογή των μύθων.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

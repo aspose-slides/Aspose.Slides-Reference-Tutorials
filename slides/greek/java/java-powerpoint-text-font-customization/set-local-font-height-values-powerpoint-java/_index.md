@@ -3,10 +3,14 @@ title: Ορίστε τιμές ύψους τοπικής γραμματοσει�
 linktitle: Ορίστε τιμές ύψους τοπικής γραμματοσειράς στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσαρμόζετε τα ύψη γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides. Βελτιώστε τη μορφοποίηση κειμένου στις διαφάνειές σας χωρίς κόπο.
-type: docs
 weight: 17
 url: /el/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χειρίζεστε τα ύψη γραμματοσειράς σε διάφορα επίπεδα στις παρουσιάσεις του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ο έλεγχος των μεγεθών γραμματοσειρών είναι ζωτικής σημασίας για τη δημιουργία οπτικά ελκυστικών και δομημένων παρουσιάσεων. Θα περιηγηθούμε σε παραδείγματα βήμα προς βήμα για να δείξουμε πώς να ορίσετε ύψη γραμματοσειράς για διαφορετικά στοιχεία κειμένου.
 ## Προαπαιτούμενα
@@ -65,3 +69,9 @@ pres.save("YourOutputDirectory/SetLocalFontHeightValues.pptx", SaveFormat.Pptx);
  Για υποστήριξη, επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.Slides για Java;
  Μπορείτε να αγοράσετε μια άδεια[εδώ](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Přidejte video rámeček z webového zdroje v PowerPointu
 linktitle: Přidejte video rámeček z webového zdroje v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vylepšit své prezentace v PowerPointu přidáním snímků videa z webových zdrojů pomocí Aspose.Slides for Java.
-type: docs
 weight: 18
 url: /cs/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 tomto tutoriálu se naučíme, jak přidat snímek videa z webového zdroje, jako je YouTube, do prezentace PowerPoint pomocí Aspose.Slides for Java. Podle těchto podrobných pokynů budete moci vylepšit své prezentace začleněním poutavých multimediálních prvků.
 ## Předpoklady
@@ -84,3 +88,9 @@ Absolutně! Aspose.Slides poskytuje rozsáhlé možnosti pro přizpůsobení vzh
 Aspose.Slides podporuje širokou škálu verzí aplikace PowerPoint a zajišťuje kompatibilitu napříč různými platformami.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
  Můžete navštívit[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za pomoc, dokumentaci a podporu komunity.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

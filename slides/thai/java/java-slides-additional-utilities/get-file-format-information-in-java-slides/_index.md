@@ -3,10 +3,14 @@ title: รับข้อมูลรูปแบบไฟล์ใน Java Slid
 linktitle: รับข้อมูลรูปแบบไฟล์ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีดึงข้อมูลรูปแบบไฟล์ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java API ระบุรูปแบบการนำเสนอด้วยตัวอย่างโค้ด
-type: docs
 weight: 11
 url: /th/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการรับข้อมูลรูปแบบไฟล์ใน Java Slides
 
@@ -113,3 +117,9 @@ Aspose.Slides for Java เป็นไลบรารีเชิงพาณิ
 ### ฉันจะติดต่อฝ่ายสนับสนุน Aspose เพื่อขอความช่วยเหลือได้อย่างไร
 
 คุณสามารถติดต่อฝ่ายสนับสนุนของ Aspose ผ่านทางเว็บไซต์ของพวกเขา มีช่องทางการสนับสนุนเฉพาะเพื่อช่วยเหลือคุณในการสอบถามหรือปัญหาที่คุณอาจพบขณะใช้ผลิตภัณฑ์ของตน
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

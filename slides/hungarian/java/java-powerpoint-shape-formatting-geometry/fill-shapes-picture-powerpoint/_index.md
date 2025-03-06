@@ -3,10 +3,14 @@ title: Töltse ki az alakzatokat képpel a PowerPointban
 linktitle: Töltse ki az alakzatokat képpel a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan tölthet ki alakzatokat képekkel a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.
-type: docs
 weight: 12
 url: /hu/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 A PowerPoint prezentációkhoz gyakran olyan vizuális elemekre van szükség, mint például képekkel kitöltött alakzatok, hogy fokozzák vonzerejüket és hatékonyan közvetítsék az információkat. Az Aspose.Slides for Java hatékony eszközkészletet kínál a feladat zökkenőmentes elvégzéséhez. Ebben az oktatóanyagban lépésről lépésre megtanuljuk, hogyan töltsünk ki alakzatokat képekkel az Aspose.Slides for Java segítségével.
 ## Előfeltételek
@@ -80,3 +84,9 @@ Az Aspose.Slides for Java PowerPoint 97 és újabb verziókkal kompatibilis prez
 Az Aspose.Slides for Java a képformátumok széles skáláját támogatja, többek között JPEG, PNG, GIF, BMP és TIFF.
 ### Alkalmazhatok effektusokat a kitöltött alakzatokra?
 Igen, az Aspose.Slides for Java átfogó API-kat biztosít különféle effektusok, például árnyékok, tükröződések és 3D elforgatások alkalmazásához a kitöltött alakzatokra.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

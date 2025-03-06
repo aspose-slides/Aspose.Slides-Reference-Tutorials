@@ -3,10 +3,14 @@ title: إضافة خطوط على شكل سهم إلى شرائح معينة ب�
 linktitle: إضافة خطوط على شكل سهم إلى شرائح معينة باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية بخطوط على شكل سهم باستخدام Aspose.Slides for .NET. تعلم كيفية إضافة العناصر المرئية ديناميكيًا لتأسر جمهورك.
-type: docs
 weight: 13
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 غالبًا ما يتطلب إنشاء عروض تقديمية جذابة بصريًا أكثر من مجرد النصوص والصور. يوفر Aspose.Slides for .NET حلاً قويًا للمطورين الذين يتطلعون إلى تحسين عروضهم التقديمية بشكل ديناميكي. في هذا البرنامج التعليمي، سنتعمق في عملية إضافة خطوط على شكل سهم إلى شرائح محددة باستخدام Aspose.Slides، مما يفتح إمكانيات جديدة لإنشاء عروض تقديمية جذابة وغنية بالمعلومات.
 ## المتطلبات الأساسية
@@ -76,3 +80,9 @@ using (Presentation pres = new Presentation())
  ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Slides لـ .NET؟
  ج: يمكنك شراء Aspose.Slides[هنا](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

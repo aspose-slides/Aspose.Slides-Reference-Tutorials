@@ -3,10 +3,14 @@ title: Appliquer des effets de biseau sur des formes dans PowerPoint
 linktitle: Appliquer des effets de biseau sur des formes dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment appliquer des effets de biseau aux formes dans PowerPoint à l'aide d'Aspose.Slides pour Java avec notre guide étape par étape. Améliorez vos présentations.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Créer des présentations visuellement attrayantes est crucial pour capter et maintenir l'attention de votre public. L'ajout d'effets de biseau aux formes peut améliorer l'esthétique globale de vos diapositives et faire ressortir votre présentation. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'effets de biseau aux formes dans PowerPoint à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur cherchant à automatiser la création de présentations ou simplement quelqu'un qui aime bricoler le design, ce guide est là pour vous.
 ## Conditions préalables
@@ -92,3 +96,9 @@ Vous pouvez ajouter diverses formes telles que des rectangles, des ellipses, des
 Oui, Aspose.Slides pour Java vous permet d'appliquer divers effets 3D, notamment des effets de profondeur, d'éclairage et de caméra.
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez obtenir l'assistance de la communauté Aspose et de l'équipe d'assistance sur leur[forum d'entraide](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

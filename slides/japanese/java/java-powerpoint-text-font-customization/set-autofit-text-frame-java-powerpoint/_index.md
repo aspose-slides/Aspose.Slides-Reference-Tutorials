@@ -3,10 +3,14 @@ title: Java PowerPoint でテキスト フレームの自動調整を設定す�
 linktitle: Java PowerPoint でテキスト フレームの自動調整を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint のテキスト フレームの自動調整を設定する方法を学びます。ダイナミックなプレゼンテーションを簡単に作成します。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Java アプリケーション開発では、動的で視覚的に魅力的な PowerPoint プレゼンテーションをプログラムで作成することが一般的な要件です。Aspose.Slides for Java は、これを簡単に実現するための強力な API セットを提供します。重要な機能の 1 つは、テキスト フレームの自動調整を設定することです。これにより、手動で調整しなくても、テキストが図形内で適切に調整されます。このチュートリアルでは、Aspose.Slides for Java を利用して PowerPoint スライドでのテキストの調整を自動化するプロセスを段階的に説明します。
 ## 前提条件
@@ -86,3 +90,9 @@ Aspose.Slides for Java は、開発者が PowerPoint プレゼンテーション
  Aspose.Slides for Javaの詳細なドキュメントは以下をご覧ください。[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
  Aspose.Slides for Javaのコミュニティおよび専門家によるサポートは、以下から受けられます。[ここ](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

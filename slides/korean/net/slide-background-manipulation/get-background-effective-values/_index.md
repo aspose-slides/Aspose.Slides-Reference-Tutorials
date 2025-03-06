@@ -3,10 +3,14 @@ title: 슬라이드의 효과적인 배경 값 얻기
 linktitle: 슬라이드의 효과적인 배경 값 얻기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint에서 슬라이드의 효과적인 배경 값을 추출하는 방법을 알아보세요. 오늘 프레젠테이션 디자인 기술을 향상해보세요!
-type: docs
 weight: 11
 url: /ko/net/slide-background-manipulation/get-background-effective-values/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 역동적이고 매력적인 프레젠테이션 세계에서 Aspose.Slides for .NET은 개발자와 전문가가 PowerPoint 파일의 다양한 측면을 조작하고 제어할 수 있도록 지원하는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 효과적인 배경 값을 얻는 과정을 안내합니다. 이 기술은 프레젠테이션의 배경 디자인과 색 구성표를 사용하여 시각적으로 멋진 슬라이드를 만들어야 할 때 특히 유용합니다. 
 
@@ -111,3 +115,10 @@ Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint �
 ### .NET용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
 
  지원을 받고 질문을 할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

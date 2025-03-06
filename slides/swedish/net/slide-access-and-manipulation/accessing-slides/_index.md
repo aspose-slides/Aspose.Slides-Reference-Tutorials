@@ -3,10 +3,14 @@ title: Få åtkomst till bilder i Aspose.Slides
 linktitle: Få åtkomst till bilder i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du kommer åt och manipulerar PowerPoint-bilder programmatiskt med Aspose.Slides för .NET. Den här steg-för-steg-guiden täcker inläsning, ändring och lagring av presentationer, tillsammans med exempel på källkod.
-type: docs
 weight: 10
 url: /sv/net/slide-access-and-manipulation/accessing-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -134,3 +138,9 @@ Ja, Aspose.Slides stöder olika PowerPoint-format, inklusive PPT, PPTX, PPS och 
 ### Är Aspose.Slides lämplig för att skapa presentationer från grunden?
 
 Absolut! Aspose.Slides låter dig skapa nya presentationer från grunden, lägga till bilder, ställa in layouter och fylla dem med innehåll, vilket ger full kontroll över presentationsprocessen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

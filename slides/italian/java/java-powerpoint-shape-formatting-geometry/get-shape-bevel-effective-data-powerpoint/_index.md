@@ -3,10 +3,14 @@ title: Ottieni dati effettivi sulla smussatura della forma in PowerPoint
 linktitle: Ottieni dati effettivi sulla smussatura della forma in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come recuperare dati efficaci sulla smussatura della forma in PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con straordinari effetti visivi.
-type: docs
 weight: 26
 url: /it/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nelle moderne presentazioni aziendali, l’attrattiva visiva gioca un ruolo cruciale nel trasmettere le informazioni in modo efficace. Uno degli elementi che possono migliorare l'impatto visivo delle forme nelle presentazioni PowerPoint è l'effetto smussato. Aspose.Slides per Java fornisce potenti strumenti per accedere e manipolare varie proprietà delle forme, inclusi i loro effetti smussati. In questo tutorial, ti guideremo attraverso il processo di recupero dei dati effettivi della smussatura della forma utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -58,3 +62,9 @@ Aspose.Slides garantisce la compatibilità con varie versioni di PowerPoint, con
 Assolutamente, hai il pieno controllo sulle proprietà dell'effetto smussato e puoi personalizzarle in base alle tue esigenze.
 ### Dove posso trovare ulteriori risorse e supporto per Aspose.Slides?
  Puoi visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per qualsiasi domanda, supporto o risorse aggiuntive.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

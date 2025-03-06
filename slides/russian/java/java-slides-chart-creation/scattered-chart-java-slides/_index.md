@@ -3,10 +3,14 @@ title: Рассеянная диаграмма в слайдах Java
 linktitle: Рассеянная диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать точечные диаграммы на Java с помощью Aspose.Slides. Пошаговое руководство с исходным кодом Java для визуализации данных в презентациях.
-type: docs
 weight: 11
 url: /ru/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в точечную диаграмму в Aspose.Slides для Java
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Не стесняйтесь изучить дополнительные параметры настройки в документации Aspose.Slides for Java.
 
  Не забудьте заменить`"Your Document Directory"` с фактическим путем, по которому вы хотите сохранить презентацию.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

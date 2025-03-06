@@ -3,10 +3,14 @@ title: Kumpulan Aturan Fallback di Java PowerPoint
 linktitle: Kumpulan Aturan Fallback di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengelola aturan penggantian font dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan kompatibilitas antar perangkat dengan mudah.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengelola aturan fallback font menggunakan Aspose.Slides untuk Java. Penggantian font sangat penting dalam memastikan presentasi Anda ditampilkan dengan benar di berbagai lingkungan, terutama ketika font tertentu tidak tersedia. Kami akan memandu Anda dalam mengimpor paket yang diperlukan, menyiapkan lingkungan, dan menerapkan aturan fallback langkah demi langkah.
 ## Prasyarat
@@ -73,3 +77,9 @@ Aturan penggantian font menentukan font alternatif untuk digunakan ketika font y
  Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Slides untuk Java?
 Untuk dukungan, kunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

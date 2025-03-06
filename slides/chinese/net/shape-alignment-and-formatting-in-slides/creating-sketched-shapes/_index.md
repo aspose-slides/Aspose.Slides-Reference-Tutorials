@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 创建令人惊叹的素描形状
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建草图形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将创意草图形状添加到您的演示幻灯片中。轻松增强视觉吸引力！
-type: docs
 weight: 13
 url: /zh/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 欢迎阅读我们的分步指南，了解如何使用 Aspose.Slides for .NET 在演示文稿幻灯片中创建草图形状。如果您想为演示文稿增添一丝创意，草图形状可提供独特的手绘美感。在本教程中，我们将引导您完成整个过程，将其分解为简单的步骤以确保流畅的体验。
 ## 先决条件
@@ -74,3 +78,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 要购买 Aspose.Slides for .NET，请访问[购买页面](https://purchase.aspose.com/buy).
 ### 5. 你们提供临时许可证吗？
 是的，有临时执照[这里](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

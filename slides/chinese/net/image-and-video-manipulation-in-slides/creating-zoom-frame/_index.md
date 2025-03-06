@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 缩放框架创建动态演示文稿
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建缩放框架
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 学习使用 Aspose.Slides for .NET 创建具有缩放框架的引人入胜的演示文稿。按照我们的分步指南获得引人入胜的幻灯片体验。
-type: docs
 weight: 17
 url: /zh/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在演示领域，引人入胜的幻灯片是给人留下深刻印象的关键。Aspose.Slides for .NET 提供了一套强大的工具集，在本指南中，我们将引导您完成将引人入胜的缩放框架合并到演示幻灯片中的过程。
 ## 先决条件
@@ -89,3 +93,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
 您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我可以在哪里购买 Aspose.Slides for .NET 的完整版本？
 您可以购买完整版[这里](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

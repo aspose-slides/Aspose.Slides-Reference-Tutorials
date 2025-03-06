@@ -3,10 +3,14 @@ title: Stel een aangepast opsommingstekennummer in Java PowerPoint in
 linktitle: Stel een aangepast opsommingstekennummer in Java PowerPoint in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste opsommingstekens kunt instellen in Java PowerPoint met Aspose.Slides, waardoor de helderheid en structuur van presentaties programmatisch wordt verbeterd.
-type: docs
 weight: 15
 url: /nl/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In het huidige digitale tijdperk is het creëren van dynamische presentaties cruciaal voor het effectief communiceren van ideeën en gegevens. Aspose.Slides voor Java biedt een krachtige toolkit om PowerPoint-presentaties programmatisch te manipuleren en biedt uitgebreide functies om uw presentatieopbouwproces te verbeteren. In dit artikel wordt dieper ingegaan op het instellen van aangepaste opsommingstekens in Java PowerPoint-presentaties met behulp van Aspose.Slides. Of u nu een doorgewinterde ontwikkelaar of een nieuwkomer bent, deze tutorial begeleidt u stap voor stap door het proces, zodat u deze mogelijkheid efficiënt kunt benutten.
 ## Vereisten
@@ -82,3 +86,9 @@ Aspose.Slides ondersteunt PowerPoint-formaten van 97-2003 tot de nieuwste versie
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik Aspose.Slides kopen?
  U kunt Aspose.Slides kopen bij[hier](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

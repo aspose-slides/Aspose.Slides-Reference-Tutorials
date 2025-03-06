@@ -3,10 +3,14 @@ title: Tetapkan Izin Akses ke PDF di Java Slides
 linktitle: Tetapkan Izin Akses ke PDF di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengamankan dokumen PDF Anda dengan izin akses di Java Slides menggunakan Aspose.Slides. Panduan langkah demi langkah ini mencakup perlindungan kata sandi dan banyak lagi.
-type: docs
 weight: 17
 url: /id/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mengatur Izin Akses ke PDF di Java Slides
 
@@ -104,3 +108,9 @@ Aspose.Slides for Java menyediakan berbagai fitur keamanan, termasuk enkripsi, t
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat mengakses dokumentasi komprehensif untuk Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/) . Selain itu, Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

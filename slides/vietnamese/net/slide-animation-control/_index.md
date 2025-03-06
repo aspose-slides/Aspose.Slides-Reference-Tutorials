@@ -3,10 +3,14 @@ title: Điều khiển hoạt ảnh slide
 linktitle: Điều khiển hoạt ảnh slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn bằng hoạt ảnh động bằng Aspose.Slides cho .NET. Tìm hiểu cách kiểm soát hoạt ảnh trang chiếu từng bước trong hướng dẫn toàn diện này.
-type: docs
 weight: 18
 url: /vi/net/slide-animation-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu:
 
@@ -36,3 +40,9 @@ Tìm hiểu cách kiểm soát các loại hoạt ảnh trong trang chiếu Powe
 Tìm hiểu cách lặp lại hoạt ảnh trên trang chiếu bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn rõ ràng để thêm hình động hấp dẫn vào bản trình bày PowerPoint theo chương trình.
 ### [Tua lại hoạt ảnh trên slide](./rewind-animation-on-slide/)
 Tìm hiểu cách tua lại hoạt ảnh trên trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này với các ví dụ về mã nguồn hoàn chỉnh để cải thiện bản trình bày của bạn một cách linh hoạt.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java スライドのライセンスと初期化
 linktitle: Java スライドのライセンスと初期化
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: 弊社の包括的なチュートリアルで、Aspose.Slides for Java のライセンスを効果的に取得し、初期化する方法をご確認ください。今すぐ Java Slides を使い始めましょう!
-type: docs
 weight: 10
 url: /ja/java/licensing-and-initialization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Java スライドの世界では、ライセンスと初期化が重要な最初のステップです。Aspose.Slides for Java は、魅力的なプレゼンテーションやスライドショーを作成するための強力なプラットフォームを提供します。この記事では、Aspose.Slides for Java のライセンスと初期化のプロセスを説明し、魅力的なプレゼンテーションを作成するために必要なすべてのツールが揃っていることを確認します。
 
@@ -38,3 +42,9 @@ Aspose.Slides for Java のライセンスを取得することは、動的なス
 ## Java スライドのライセンスと初期化のチュートリアル
 ### [Java スライドの従量制ライセンス](./metered-licensing-java-slides/)
 従量制ライセンスを使用して Aspose.Slides for Java の使用を最適化します。設定方法と API 使用量の監視方法を学びます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

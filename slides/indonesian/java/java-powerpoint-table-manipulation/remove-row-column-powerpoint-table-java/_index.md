@@ -3,10 +3,14 @@ title: Hapus Baris atau Kolom di Tabel PowerPoint menggunakan Java
 linktitle: Hapus Baris atau Kolom di Tabel PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghapus baris atau kolom dari tabel PowerPoint menggunakan Java dengan Aspose.Slides for Java. Panduan langkah demi langkah yang mudah untuk pengembang.
-type: docs
 weight: 18
 url: /id/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menghapus baris atau kolom dari tabel PowerPoint menggunakan Java dengan bantuan Aspose.Slides. Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram. Tutorial ini secara khusus berfokus pada proses memodifikasi tabel dalam slide PowerPoint, menunjukkan langkah demi langkah cara menghapus baris atau kolom tertentu dari tabel.
 ## Prasyarat
@@ -74,3 +78,9 @@ Aspose.Slides memberikan dukungan komprehensif untuk membuat, memodifikasi, dan 
 Ya, Aspose.Slides banyak digunakan di lingkungan perusahaan untuk mengotomatisasi tugas PowerPoint karena fitur dan kinerjanya yang tangguh.
 ### Bisakah saya mencoba Aspose.Slides sebelum membeli?
  Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides dari[Di Sini](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

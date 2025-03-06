@@ -3,10 +3,14 @@ title: Bädda in teckensnitt i HTML med Aspose.Slides för Java
 linktitle: Bädda in teckensnitt i HTML med Aspose.Slides för Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du bäddar in teckensnitt i HTML med Aspose.Slides för Java för att säkerställa konsekvent typografi över olika plattformar och enheter.
-type: docs
 weight: 13
 url: /sv/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Aspose.Slides för Java är ett kraftfullt verktyg för Java-utvecklare som vill manipulera PowerPoint-presentationer programmatiskt. I den här handledningen kommer vi att fördjupa oss i processen att bädda in teckensnitt i HTML med Aspose.Slides för Java. Genom att bädda in typsnitt ser du till att dina presentationer behåller sitt avsedda utseende på olika plattformar och enheter, även om de nödvändiga typsnitten inte är installerade lokalt.
 ## Förutsättningar
@@ -58,3 +62,9 @@ Ja, Aspose.Slides stöder inbäddning av typsnitt i olika utdataformat, inklusiv
  Du kan besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd eller kontakta Aspose support för professionell hjälp.
 ### Kan jag köpa en tillfällig licens för Aspose.Slides för Java?
 Ja, du kan skaffa en tillfällig licens från[köpsidan](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

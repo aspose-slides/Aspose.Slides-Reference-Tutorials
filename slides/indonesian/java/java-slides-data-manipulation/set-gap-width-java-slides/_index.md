@@ -3,10 +3,14 @@ title: Atur Lebar Celah di Slide Java
 linktitle: Atur Lebar Celah di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur Lebar Celah di Slide Java dengan Aspose.Slides untuk Java. Sempurnakan visual bagan untuk presentasi PowerPoint Anda.
-type: docs
 weight: 21
 url: /id/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mengatur Lebar Celah di Aspose.Slides untuk Java
 
@@ -158,3 +162,9 @@ Ya, Aspose.Slides untuk Java menyediakan kemampuan luas untuk penyesuaian bagan.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
  Anda dapat menemukan dokumentasi komprehensif dan sumber daya tambahan di Aspose.Slides untuk Java di[Asumsikan situs web](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

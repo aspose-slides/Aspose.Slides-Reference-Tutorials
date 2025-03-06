@@ -3,10 +3,14 @@ title: Fyll former med enfärgade i PowerPoint
 linktitle: Fyll former med enfärgade i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du fyller former med solida färger i PowerPoint med Aspose.Slides för Java. En steg-för-steg-guide för utvecklare.
-type: docs
 weight: 13
 url: /sv/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Om du någonsin har arbetat med PowerPoint-presentationer vet du att att lägga till former och anpassa deras färger kan vara en avgörande aspekt för att göra dina bilder visuellt tilltalande och informativa. Med Aspose.Slides för Java blir denna process en bris. Oavsett om du är en utvecklare som vill automatisera skapandet av PowerPoint-presentationer eller någon som är intresserad av att lägga till en färgklick till dina bilder, kommer den här handledningen att guida dig genom processen att fylla former med solida färger med Aspose.Slides för Java.
 ## Förutsättningar
@@ -85,3 +89,9 @@ Ja, Aspose.Slides för Java låter dig öppna, redigera och spara befintliga Pow
  Ja, du kan ladda ner en gratis testversion från[Aspose hemsida](https://releases.aspose.com/).
 ### Var kan jag hitta mer dokumentation och support?
  Detaljerad dokumentation finns tillgänglig på[Aspose hemsida](https://reference.aspose.com/slides/java/) och du kan söka stöd på[Aspose forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

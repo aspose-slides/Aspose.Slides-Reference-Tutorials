@@ -3,10 +3,14 @@ title: Ontvang camera-effectieve gegevens in PowerPoint
 linktitle: Ontvang camera-effectieve gegevens in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer met deze stapsgewijze handleiding hoe u effectieve cameragegevens uit PowerPoint-dia's kunt ophalen met Aspose.Slides voor Java.
-type: docs
 weight: 24
 url: /nl/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, wijzigen en beheren. Of u nu het genereren van rapporten automatiseert, aangepaste dia's maakt of gewoon met presentatiegegevens werkt, Aspose.Slides biedt een uitgebreide reeks functies om aan uw behoeften te voldoen. In deze handleiding gaan we dieper in op het ophalen van camera-effectieve gegevens uit een PowerPoint-dia met behulp van Aspose.Slides voor Java. Wij begeleiden u bij elke stap, zodat u een duidelijk beeld krijgt van het proces.
 ## Vereisten
@@ -70,3 +74,9 @@ Aspose.Slides is beschikbaar voor meerdere programmeertalen, waaronder .NET, maa
  Ja, commerciële licenties kunnen worden gekocht[hier](https://purchase.aspose.com/buy).
 ### Waar kan ik de documentatie voor Aspose.Slides voor Java vinden?
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Definir sinal de porcentagem de rótulos de dados em slides Java
 linktitle: Definir sinal de porcentagem de rótulos de dados em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir rótulos de dados com sinais de porcentagem em apresentações do PowerPoint usando Aspose.Slides para Java. Crie gráficos envolventes com orientação passo a passo e código-fonte.
-type: docs
 weight: 17
 url: /pt/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução ao conjunto de sinal de porcentagem de rótulos de dados em Aspose.Slides para Java
 
@@ -176,3 +180,10 @@ Sim, você pode personalizar o tamanho da fonte dos rótulos de dados definindo 
 ### Como posso adicionar mais séries ao gráfico?
 
  Você pode adicionar séries adicionais ao gráfico usando o`add` método no`IChartSeriesCollection` objeto.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

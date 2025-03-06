@@ -3,10 +3,14 @@ title: Aspose.Slides .NET で楕円形を簡単に作成する
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにシンプルな楕円形を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーション スライドに魅力的な楕円形を作成する方法を学びます。簡単な手順でダイナミックなデザインを作成できます。
-type: docs
 weight: 11
 url: /ja/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 プレゼンテーション デザインのダイナミックな世界では、楕円などの図形を組み込むことで、創造性とプロフェッショナリズムの雰囲気を演出できます。Aspose.Slides for .NET は、プレゼンテーション ファイルをプログラムで操作するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドに単純な楕円を作成する手順を説明します。
 ## 前提条件
@@ -65,3 +69,9 @@ Congratulations! You've successfully created a simple ellipse shape in a present
 フォロー[一時ライセンスリンク](https://purchase.aspose.com/temporary-license/)テスト目的で一時ライセンスを申請します。
 ### サポートが必要ですか、または具体的な質問がありますか?
 訪問[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11)コミュニティや専門家からの支援を受けることができます。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

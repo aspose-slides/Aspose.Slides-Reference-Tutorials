@@ -3,10 +3,14 @@ title: Krijg een gedeelterechthoek in PowerPoint met Java
 linktitle: Krijg een gedeelterechthoek in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de portierechthoek in PowerPoint kunt krijgen met Aspose.Slides voor Java met deze gedetailleerde, stapsgewijze zelfstudie. Ideaal voor Java-ontwikkelaars.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het maken van dynamische presentaties in Java is een fluitje van een cent met Aspose.Slides voor Java. In deze zelfstudie duiken we in de kern van het verkrijgen van de gedeelterechthoek in PowerPoint met behulp van Aspose.Slides. We behandelen alles, van het instellen van uw omgeving tot het stapsgewijs afbreken van de code. Dus laten we beginnen!
 ## Vereisten
@@ -138,3 +142,9 @@ Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars Power
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen via het Aspose-forum[hier](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

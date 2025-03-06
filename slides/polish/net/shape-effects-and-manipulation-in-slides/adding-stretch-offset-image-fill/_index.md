@@ -3,10 +3,14 @@ title: Dodawanie przesunięcia rozciągania dla wypełnienia obrazem w prezentac
 linktitle: Dodawanie przesunięcia rozciągania dla wypełnienia obrazem na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie ze szczegółowym przewodnikiem, aby dodać przesunięcie rozciągania dla wypełnienia obrazem.
-type: docs
 weight: 18
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W dynamicznym świecie prezentacji elementy wizualne odgrywają kluczową rolę w przyciąganiu uwagi publiczności. Aspose.Slides dla .NET umożliwia programistom ulepszanie prezentacji programu PowerPoint poprzez zapewnienie solidnego zestawu funkcji. Jedną z takich funkcji jest możliwość dodania przesunięcia rozciągania do wypełnienia obrazem, co pozwala na tworzenie kreatywnych i atrakcyjnych wizualnie slajdów.
 ## Warunki wstępne
@@ -71,3 +75,9 @@ Tak, Aspose.Slides dla .NET jest odpowiedni zarówno dla aplikacji stacjonarnych
  Patrz[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje.
 ### Czy mogę kupić Aspose.Slides dla .NET?
  Tak, możesz kupić produkt[Tutaj](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

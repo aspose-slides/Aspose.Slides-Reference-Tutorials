@@ -3,10 +3,14 @@ title: Ukryj kształty w programie PowerPoint za pomocą samouczka Aspose.Slides
 linktitle: Ukrywanie kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ukrywać kształty na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Programowo dostosowuj prezentacje, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 21
 url: /pl/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 dynamicznym świecie prezentacji dostosowanie jest kluczem. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do programowego manipulowania prezentacjami programu PowerPoint. Jednym z typowych wymagań jest możliwość ukrycia określonych kształtów na slajdzie. Ten samouczek poprowadzi Cię przez proces ukrywania kształtów na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -73,3 +77,9 @@ Absolutnie! Możesz dostosować logikę ukrywania w oparciu o różne atrybuty, 
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/)do celów testowych.
 ### Jak mogę uzyskać wsparcie społeczności dla Aspose.Slides?
  Dołącz do społeczności Aspose.Slides na stronie[forum](https://forum.aspose.com/c/slides/11) za dyskusję i pomoc.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

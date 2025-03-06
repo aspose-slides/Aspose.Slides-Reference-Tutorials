@@ -3,10 +3,14 @@ title: Java 슬라이드에서 GIF로 변환
 linktitle: Java 슬라이드에서 GIF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Java의 GIF 이미지로 변환하는 방법을 알아보세요. 원활한 변환을 위한 쉬운 단계별 가이드입니다.
-type: docs
 weight: 22
 url: /ko/java/presentation-conversion/convert-to-gif-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 GIF로 변환 소개
 
@@ -111,3 +115,9 @@ try {
 ### Aspose.Slides for Java 라이브러리는 어디에서 액세스할 수 있나요?
 
  Aspose 웹사이트에서 Java용 Aspose.Slides를 다운로드할 수 있습니다.[Java용 Aspose.Slides 다운로드](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

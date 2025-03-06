@@ -3,10 +3,14 @@ title: Uppnå PDF/A- och PDF/UA-överensstämmelse med Aspose.Slides
 linktitle: Uppnå PDF/A- och PDF/UA-överensstämmelse
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Se till att PDF/A och PDF/UA överensstämmer med Aspose.Slides för .NET. Skapa lättillgängliga och bevarabara presentationer.
-type: docs
 weight: 23
 url: /sv/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion
 
@@ -127,3 +131,9 @@ För att säkerställa tillgänglighet i PDF/UA-dokument kan du använda Aspose.
 ### Är PDF/UA-efterlevnad nödvändigt för alla dokument?
 
 PDF/UA-efterlevnad är särskilt viktigt för dokument som är avsedda att vara tillgängliga för användare med funktionshinder. Nödvändigheten av PDF/UA-efterlevnad beror dock på de specifika kraven hos din målgrupp.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

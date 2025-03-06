@@ -3,10 +3,14 @@ title: เพิ่มโหนดลงใน SmartArt ใน Java PowerPoint
 linktitle: เพิ่มโหนดลงใน SmartArt ใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มโหนด SmartArt ในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในขอบเขตของการนำเสนอ Java PowerPoint การจัดการโหนด SmartArt สามารถเพิ่มความน่าดึงดูดและประสิทธิภาพของสไลด์ของคุณได้อย่างมาก Aspose.Slides สำหรับ Java นำเสนอโซลูชันที่มีประสิทธิภาพสำหรับนักพัฒนา Java เพื่อรวมฟังก์ชัน SmartArt เข้ากับงานนำเสนอของตนได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการเพิ่มโหนดลงใน SmartArt ในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides
 ## ข้อกำหนดเบื้องต้น
@@ -71,3 +75,9 @@ pres.save(dataDir + "AddSmartArtNode_out.pptx", SaveFormat.Pptx);
 ใช่ Aspose.Slides สำหรับ Java นำเสนอชุดคุณสมบัติที่ครอบคลุมสำหรับการจัดการ PowerPoint รวมถึงการสร้างสไลด์ แอนิเมชั่น และการจัดการรูปร่าง
 ### ฉันจะขอความช่วยเหลือหรือการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนจากชุมชนหรือสำรวจเอกสารประกอบเพื่อดูคำแนะนำโดยละเอียด
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

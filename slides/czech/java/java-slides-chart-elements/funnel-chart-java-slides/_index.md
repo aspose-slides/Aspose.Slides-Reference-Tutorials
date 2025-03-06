@@ -3,10 +3,14 @@ title: Graf trychtýře v Java Slides
 linktitle: Graf trychtýře v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Prozkoumejte Aspose.Slides pro Javu pomocí podrobných výukových programů. Vytvářejte úžasné trychtýřové grafy a další.
-type: docs
 weight: 14
 url: /cs/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do grafu trychtýře v aplikaci Java Slides
 
@@ -144,3 +148,9 @@ Chyby a výjimky můžete zpracovat pomocí standardních mechanismů zpracován
 ### Kde najdu další příklady a dokumentaci k Aspose.Slides pro Javu?
 
  Další příklady a podrobnou dokumentaci k používání Aspose.Slides pro Javu naleznete v[dokumentace](https://docs.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Căn chỉnh và định dạng hình dạng trong slide
 linktitle: Căn chỉnh và định dạng hình dạng trong slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá các hướng dẫn toàn diện về Aspose.Slides về căn chỉnh và định dạng hình dạng trong các ứng dụng .NET. Tìm hiểu cách căn chỉnh và định dạng hình dạng một cách dễ dàng, nâng cao độ chính xác cho bản trình bày slide của bạn.
-type: docs
 weight: 14
 url: /vi/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu
 
@@ -44,3 +48,9 @@ Tìm hiểu cách tạo các trang trình bày quyến rũ với các hình dạ
 Tìm hiểu cách thêm độ lệch kéo dài sang bên trái cho khung ảnh trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với ví dụ về mã nguồn hoàn chỉnh.
 ### [Thay thế tiêu đề ảnh của khung đối tượng OLE trong slide thuyết trình](./substituting-picture-title-ole-object-frame/)
 Tìm hiểu cách thay thế tiêu đề ảnh của khung đối tượng OLE trong các trang trình bày bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn hoàn chỉnh.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

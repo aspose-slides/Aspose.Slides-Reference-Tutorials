@@ -3,10 +3,14 @@ title: 在 PowerPoint 中获取形状斜面有效数据
 linktitle: 在 PowerPoint 中获取形状斜面有效数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中检索形状斜面效果数据。使用令人惊叹的视觉效果增强您的演示文稿。
-type: docs
 weight: 26
 url: /zh/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在现代商业演示中，视觉吸引力在有效传达信息方面起着至关重要的作用。可以增强 PowerPoint 演示文稿中形状视觉冲击力的元素之一是斜面效果。Aspose.Slides for Java 提供了强大的工具来访问和操作形状的各种属性，包括其斜面效果。在本教程中，我们将指导您完成使用 Aspose.Slides for Java 检索形状斜面效果数据的过程。
 ## 先决条件
@@ -58,3 +62,9 @@ Aspose.Slides 确保与各种版本的 PowerPoint 兼容，允许您在不同的
 当然，您可以完全控制斜面效果属性，并可以根据您的要求进行自定义。
 ### 在哪里可以找到有关 Aspose.Slides 的更多资源和支持？
 您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)对于任何问题、支持或额外资源。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

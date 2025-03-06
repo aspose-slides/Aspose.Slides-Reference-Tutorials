@@ -3,10 +3,14 @@ title: تحديث خصائص العرض التقديمي باستخدام قال
 linktitle: تحديث خصائص العرض التقديمي باستخدام قالب جديد
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديث خصائص العرض التقديمي باستخدام Aspose.Slides لـ Java. قم بتحسين مشاريع Java الخاصة بك من خلال التعديل السلس للبيانات التعريفية.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في مجال تطوير Java، يمثل Aspose.Slides أداة قوية لمعالجة عروض PowerPoint التقديمية برمجيًا. بفضل مكتبة Java الخاصة به، يمكن للمطورين أتمتة المهام مثل إنشاء العروض التقديمية وتعديلها وتحويلها، مما يجعلها رصيدًا لا يقدر بثمن للشركات والأفراد على حدٍ سواء. ومع ذلك، فإن استغلال الإمكانات الكاملة لـ Aspose.Slides يتطلب فهمًا قويًا لوظائفه وكيفية دمجها في مشاريع Java الخاصة بك بشكل فعال. في هذا البرنامج التعليمي، سنتعمق في تحديث خصائص العرض التقديمي باستخدام قالب جديد، خطوة بخطوة، مما يضمن استيعاب كل مفهوم بدقة.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ updateByTemplate(dataDir + "doc3.ppt", template);
 من المؤكد أن Aspose.Slides يقدم خيارات تخصيص واسعة النطاق لخصائص العرض التقديمي، مما يسمح لك بتخصيصها وفقًا لمتطلباتك المحددة.
 ### أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Slides؟
 يمكنك استكشاف وثائق Aspose.Slides، أو الانضمام إلى منتديات المجتمع، أو التواصل مع دعم Aspose للحصول على أي مساعدة أو استفسارات.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

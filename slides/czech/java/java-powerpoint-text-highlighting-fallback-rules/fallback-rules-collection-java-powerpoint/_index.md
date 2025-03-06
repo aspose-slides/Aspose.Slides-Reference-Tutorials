@@ -3,10 +3,14 @@ title: Kolekce záložních pravidel v Java PowerPointu
 linktitle: Kolekce záložních pravidel v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak spravovat záložní pravidla písem v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vylepšete kompatibilitu mezi zařízeními bez námahy.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 tomto tutoriálu se ponoříme do toho, jak spravovat záložní pravidla písem pomocí Aspose.Slides pro Java. Záložní písma jsou zásadní pro zajištění správného zobrazení vašich prezentací v různých prostředích, zvláště když nejsou k dispozici konkrétní písma. Krok za krokem vás provedeme importem potřebných balíčků, nastavením prostředí a implementací záložních pravidel.
 ## Předpoklady
@@ -73,3 +77,9 @@ Záložní pravidla písem definují alternativní písma, která se mají použ
  K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
 ### Jak získám podporu pro Aspose.Slides pro Java?
 Podporu získáte na fóru Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

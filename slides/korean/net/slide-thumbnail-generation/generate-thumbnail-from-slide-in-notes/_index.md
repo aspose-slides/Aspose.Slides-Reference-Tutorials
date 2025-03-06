@@ -3,10 +3,14 @@ title: Notes의 슬라이드에서 축소판 생성
 linktitle: Notes의 슬라이드에서 축소판 생성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션의 노트 섹션에 있는 슬라이드에서 축소판을 생성하는 방법을 알아보세요. 시각적 콘텐츠를 강화해보세요!
-type: docs
 weight: 12
 url: /ko/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 현대 프레젠테이션의 세계에서는 시각적 콘텐츠가 가장 중요합니다. 효과적인 의사소통을 위해서는 매력적인 슬라이드를 만드는 것이 필수적입니다. 프레젠테이션을 향상시키는 한 가지 방법은 특히 특정 세부 사항을 강조하거나 개요를 공유하려는 경우 슬라이드에서 축소판을 생성하는 것입니다. Aspose.Slides for .NET은 이를 원활하게 달성하는 데 도움이 되는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션의 노트 섹션에 있는 슬라이드에서 썸네일을 생성하는 과정을 안내합니다.
 
@@ -114,3 +118,9 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### .NET용 Aspose.Slides에 대한 지원이나 추가 지원은 어디서 받을 수 있나요?
  다음에서 도움을 찾고 Aspose 커뮤니티에 참여할 수 있습니다.[Aspose 지원 포럼](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

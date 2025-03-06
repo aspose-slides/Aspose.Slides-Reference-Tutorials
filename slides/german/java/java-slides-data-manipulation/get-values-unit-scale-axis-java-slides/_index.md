@@ -3,10 +3,14 @@ title: Werte und Einheitenskala von der Achse in Java-Folien abrufen
 linktitle: Werte und Einheitenskala von der Achse in Java-Folien abrufen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Werte und Einheitenskalen aus Achsen in Java Slides abrufen. Verbessern Sie Ihre Datenanalysefunktionen.
-type: docs
 weight: 20
 url: /de/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Abrufen von Werten und Einheitenskalen von Achsen in Java-Folien
 
@@ -122,3 +126,9 @@ Ja, Sie können Aspose.Slides für Java in kommerziellen Projekten verwenden. Es
 ### Wo finde ich weitere Ressourcen und Dokumentation für Aspose.Slides für Java?
 
  Umfassende Dokumentation und zusätzliche Ressourcen finden Sie auf der[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) Webseite.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

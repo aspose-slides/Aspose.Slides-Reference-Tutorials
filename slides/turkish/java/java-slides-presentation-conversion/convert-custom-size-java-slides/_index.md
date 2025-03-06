@@ -3,10 +3,14 @@ title: Java Slaytlarında Özel Boyutla Dönüştürme
 linktitle: Java Slaytlarında Özel Boyutla Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını özel boyutlu TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 31
 url: /tr/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Özel Boyutla Dönüştürmeye Giriş
 
@@ -137,3 +141,9 @@ Evet, DPI'yi kullanarak ayarlayabilirsiniz.`setDpiX` Ve`setDpiY` içindeki yönt
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Aspose.Slides for Java hakkında ayrıntılı belgeler ve ek bilgiler için lütfen belgeleri ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

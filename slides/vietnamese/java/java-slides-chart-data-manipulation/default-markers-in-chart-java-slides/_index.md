@@ -3,10 +3,14 @@ title: Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 linktitle: Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Trang trình bày Java với các điểm đánh dấu mặc định trong biểu đồ bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 16
 url: /vi/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Điểm đánh dấu mặc định trong biểu đồ trong Java Slides
 
@@ -142,3 +146,9 @@ Bạn có thể tùy chỉnh các ký hiệu điểm đánh dấu bằng cách �
 ### Tôi có thể thêm nhãn vào điểm dữ liệu không?
 
  Có, bạn có thể thêm nhãn vào điểm dữ liệu bằng cách sử dụng`IDataPoint.getLabel()` phương pháp và tùy chỉnh chúng khi cần thiết.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

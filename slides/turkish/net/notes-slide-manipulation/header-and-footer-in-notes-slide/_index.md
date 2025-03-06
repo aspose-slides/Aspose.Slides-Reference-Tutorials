@@ -3,10 +3,14 @@ title: Aspose.Slides .NET ile Notlarda Üstbilgi ve Altbilgiyi Yönetme
 linktitle: Notes Slaytında Üstbilgi ve Altbilgiyi Yönetme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint not slaytlarında üstbilgi ve altbilgiyi nasıl yöneteceğinizi öğrenin. Sunumlarınızı zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Günümüzün dijital çağında ilgi çekici ve bilgilendirici sunumlar oluşturmak hayati bir beceridir. Bu sürecin bir parçası olarak, ek bağlam ve bilgi sağlamak için not slaytlarınıza sıklıkla üstbilgi ve altbilgi eklemeniz gerekebilir. Aspose.Slides for .NET, not slaytlarındaki üstbilgi ve altbilgi ayarlarını kolaylıkla yönetmenize olanak tanıyan güçlü bir araçtır. Bu adım adım kılavuzda bunu Aspose.Slides for .NET kullanarak nasıl başaracağımızı inceleyeceğiz.
 
@@ -120,3 +124,9 @@ Aspose.Slides for .NET kesinlikle PowerPoint sunumlarını otomatikleştirmenize
 
 ### Aspose.Slides for .NET kullanıcıları için teknik destek mevcut mu?
  Evet, Aspose topluluğundan ve uzmanlardan destek ve yardım alabilirsiniz.[Aspose destek forumu](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

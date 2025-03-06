@@ -3,10 +3,14 @@ title: Tìm hình dạng trong slide
 linktitle: Tìm hình dạng trong slide
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Dễ dàng tìm thấy các hình dạng trong slide PowerPoint với Aspose.Slides for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm viết mã liền mạch.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Bạn cảm thấy mệt mỏi khi phải sàng lọc các slide PowerPoint để tìm các hình dạng cụ thể? Hãy tưởng tượng bạn có thể tự động hóa quá trình này một cách dễ dàng chỉ với một vài dòng mã. Chào mừng bạn đến với hướng dẫn chi tiết của chúng tôi về cách sử dụng Aspose.Slides cho Java để định vị các hình dạng trong tệp bản trình bày của bạn. Trong hướng dẫn này, chúng tôi sẽ chia nhỏ các bước cần thiết để tìm hình dạng trong trang trình bày bằng Aspose.Slides cho Java, từ thiết lập môi trường của bạn đến chạy mã.
 ## Điều kiện tiên quyết
@@ -84,3 +88,9 @@ Có, Aspose.Slides hỗ trợ nhiều định dạng tệp khác nhau bao gồm 
  Có, bạn có thể dùng thử miễn phí từ[Trang dùng thử miễn phí của Aspose](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

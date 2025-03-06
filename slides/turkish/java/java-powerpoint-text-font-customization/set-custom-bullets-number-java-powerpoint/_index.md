@@ -3,10 +3,14 @@ title: Java PowerPoint'te Özel Madde İşareti Numarasını Ayarlama
 linktitle: Java PowerPoint'te Özel Madde İşareti Numarasını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java PowerPoint'te özel madde işareti numaralarını nasıl ayarlayacağınızı, sunum netliğini ve yapısını programlı olarak nasıl geliştireceğinizi öğrenin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Günümüzün dijital çağında, fikirlerin ve verilerin etkili bir şekilde iletilmesi için dinamik sunumlar oluşturmak çok önemlidir. Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak yönetmek için güçlü bir araç seti sağlayarak sunum oluşturma sürecinizi geliştirecek kapsamlı özellikler sunar. Bu makalede Aspose.Slides kullanılarak Java PowerPoint sunumlarında özel madde işareti numaralarının ayarlanması anlatılmaktadır. İster deneyimli bir geliştirici ister yeni başlayan biri olun, bu eğitim size süreç boyunca adım adım rehberlik edecek ve bu özellikten verimli bir şekilde yararlanabilmenizi sağlayacaktır.
 ## Önkoşullar
@@ -82,3 +86,9 @@ Aspose.Slides, 97-2003 arası PowerPoint formatlarını en son sürümlere kadar
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides'ı nereden satın alabilirim?
  Aspose.Slides'ı şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Thêm dấu đầu dòng đoạn văn trong PowerPoint bằng Java
 linktitle: Thêm dấu đầu dòng đoạn văn trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm dấu đầu dòng đoạn văn trong trang chiếu PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn này hướng dẫn bạn từng bước với các ví dụ về mã.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Việc thêm dấu đầu dòng đoạn sẽ nâng cao khả năng đọc và cấu trúc của bản trình bày PowerPoint. Aspose.Slides cho Java cung cấp các công cụ mạnh mẽ để thao tác các bài thuyết trình theo chương trình, bao gồm khả năng định dạng văn bản với nhiều kiểu dấu đầu dòng khác nhau. Trong hướng dẫn này, bạn sẽ tìm hiểu cách tích hợp các dấu đầu dòng vào các trang chiếu PowerPoint bằng mã Java, tận dụng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -89,3 +93,9 @@ Có, bạn có thể áp dụng các kiểu dấu đầu dòng độc đáo cho 
 Có, Aspose.Slides hỗ trợ Java 11 và các phiên bản cao hơn.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
  Thăm nom[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/) để có hướng dẫn và ví dụ toàn diện.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

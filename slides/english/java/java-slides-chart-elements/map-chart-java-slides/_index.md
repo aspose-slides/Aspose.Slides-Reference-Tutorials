@@ -3,10 +3,14 @@ title: Map Chart in Java Slides
 linktitle: Map Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Stunning Map Charts in PowerPoint Presentations with Aspose.Slides for Java. Step-by-step guide and source code for Java developers.
-type: docs
 weight: 15
 url: /java/chart-elements/map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Map Chart in Java Slides using Aspose.Slides for Java
 
@@ -131,3 +135,10 @@ Yes, you can add as many data points and categories as needed. Simply use the `s
 ### How do I integrate Aspose.Slides for Java into my project?
 
 Download the library from [here](https://releases.aspose.com/slides/java/) and add it to your project's classpath.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

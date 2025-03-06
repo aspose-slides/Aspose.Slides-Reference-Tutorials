@@ -3,10 +3,14 @@ title: Toegang tot het wijzigen van eigenschappen in Java-dia's
 linktitle: Toegang tot het wijzigen van eigenschappen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u eigenschappen in Java Slides kunt openen en wijzigen met Aspose.Slides voor Java. Verbeter uw presentaties met aangepaste eigenschappen.
-type: docs
 weight: 11
 url: /nl/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot toegang tot het wijzigen van eigenschappen in Java-dia's
 
@@ -117,3 +121,9 @@ U kunt fouten afhandelen door gebruik te maken van de mechanismen voor het afhan
 ### Waar kan ik meer documentatie en voorbeelden vinden?
 
  Uitgebreide documentatie en codevoorbeelden voor Aspose.Slides voor Java vindt u op[hier](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

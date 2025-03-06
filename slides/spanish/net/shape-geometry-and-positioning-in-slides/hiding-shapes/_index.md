@@ -3,10 +3,14 @@ title: Ocultar formas en PowerPoint con Aspose.Slides .NET Tutorial
 linktitle: Ocultar formas en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a ocultar formas en diapositivas de PowerPoint usando Aspose.Slides para .NET. Personalice presentaciones mediante programación con esta guía paso a paso.
-type: docs
 weight: 21
 url: /es/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el dinámico mundo de las presentaciones, la personalización es clave. Aspose.Slides para .NET proporciona una poderosa solución para manipular presentaciones de PowerPoint mediante programación. Un requisito común es la capacidad de ocultar formas específicas dentro de una diapositiva. Este tutorial lo guiará a través del proceso de ocultar formas en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -73,3 +77,9 @@ Sí, Aspose.Slides es compatible con .NET Core, lo que brinda flexibilidad en su
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/)con fines de prueba.
 ### ¿Cómo puedo obtener apoyo de la comunidad para Aspose.Slides?
  Únase a la comunidad Aspose.Slides en el[foro](https://forum.aspose.com/c/slides/11) para discusiones y ayuda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

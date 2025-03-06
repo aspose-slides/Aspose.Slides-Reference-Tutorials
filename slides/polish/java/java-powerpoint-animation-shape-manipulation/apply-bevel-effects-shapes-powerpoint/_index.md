@@ -3,10 +3,14 @@ title: Zastosuj efekty skosu na kształtach w programie PowerPoint
 linktitle: Zastosuj efekty skosu na kształtach w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zastosować efekty skosu do kształtów w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z naszego przewodnika krok po kroku. Ulepsz swoje prezentacje.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji ma kluczowe znaczenie dla przyciągnięcia i utrzymania uwagi odbiorców. Dodanie efektów skosu do kształtów może poprawić ogólną estetykę slajdów, dzięki czemu Twoja prezentacja będzie się wyróżniać. W tym samouczku przeprowadzimy Cię przez proces stosowania efektów skosu do kształtów w programie PowerPoint przy użyciu Aspose.Slides dla Java. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować tworzenie prezentacji, czy po prostu osobą, która uwielbia majsterkować przy projektowaniu, ten przewodnik pomoże Ci.
 ## Warunki wstępne
@@ -92,3 +96,9 @@ Za pomocą Aspose.Slides for Java możesz dodawać różne kształty, takie jak 
 Tak, Aspose.Slides for Java umożliwia zastosowanie różnych efektów 3D, w tym głębi, oświetlenia i efektów kamery.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie od społeczności Aspose i zespołu wsparcia na ich stronie[forum wsparcia](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

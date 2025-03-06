@@ -3,10 +3,14 @@ title: Java Slaytlarında Grafik Görüntüsü Alın
 linktitle: Java Slaytlarında Grafik Görüntüsü Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java Slides'ta grafik görsellerini nasıl elde edeceğinizi öğrenin. Bu adım adım kılavuz, kusursuz entegrasyon için kaynak kodu ve ipuçları sağlar.
-type: docs
 weight: 19
 url: /tr/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Grafik Görüntüsü Alma Konusuna Giriş
 
@@ -92,3 +96,9 @@ Evet, Aspose.Slides for Java ticari amaçlarla kullanılabilir. Hem bireysel gel
 ### Grafik görselini farklı bir formatta kaydedebilir miyim?
 
  Kesinlikle! Grafik görselini, uygun dosya uzantısını belirterek, JPEG veya GIF gibi çeşitli formatlarda kaydedebilirsiniz.`ImageIO.write` yöntem.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

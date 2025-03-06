@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中创建雷达图
 linktitle: 在 Java 幻灯片中创建雷达图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java API 在 Java PowerPoint 演示文稿中创建雷达图。
-type: docs
 weight: 10
 url: /zh/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 幻灯片中创建雷达图的简介
 
@@ -268,3 +272,9 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### 如何将图表保存为不同的文件格式？
 
 您可以通过修改文件扩展名来更改输出格式`outPath`变量并使用适当的`SaveFormat`。例如，要保存为 PDF，请使用`SaveFormat.Pdf`.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

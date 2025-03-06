@@ -3,10 +3,14 @@ title: 모든 슬라이드에서 메모 제거
 linktitle: 모든 슬라이드에서 메모 제거
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 메모를 제거하는 방법을 알아보세요. 프레젠테이션을 더욱 깔끔하고 전문적으로 만들어 보세요.
-type: docs
 weight: 13
 url: /ko/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 PowerPoint 프레젠테이션을 작업하는 .NET 개발자라면 프레젠테이션의 모든 슬라이드에서 메모를 제거해야 할 수도 있습니다. 이는 슬라이드를 정리하고 청중에게 제공되지 않는 추가 정보를 제거하려는 경우 유용할 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 이 작업을 효율적으로 수행하는 과정을 안내합니다.
 
@@ -97,3 +101,9 @@ PowerPoint 슬라이드에서 노트를 제거하면 청중에게 깔끔하고 �
 ### 5. .NET용 Aspose.Slides는 최신 PowerPoint 형식을 지원합니까?
 
 예, .NET용 Aspose.Slides는 최신 버전을 포함하여 다양한 PowerPoint 형식을 지원합니다. 자세한 내용은 설명서를 참조하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

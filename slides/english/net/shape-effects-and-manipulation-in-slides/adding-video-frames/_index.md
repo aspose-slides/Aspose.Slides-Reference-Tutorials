@@ -3,10 +3,14 @@ title: Adding Video Frames Tutorial with Aspose.Slides for .NET
 linktitle: Adding Video Frames to Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Revitalize presentations with dynamic video frames using Aspose.Slides for .NET. Follow our guide for seamless integration and create engaging. 
-type: docs
 weight: 19
 url: /net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic landscape of presentations, incorporating multimedia elements can elevate the overall impact and engagement. Adding video frames to your slides can be a game-changer, capturing your audience's attention in a way static content can't. Aspose.Slides for .NET provides a robust solution for seamlessly integrating video frames into your presentation slides.
 ## Prerequisites
@@ -67,3 +71,10 @@ Absolutely! You have full control over playback options, such as play mode and v
 Yes, you can explore the capabilities of Aspose.Slides for .NET by downloading the trial version [here](https://releases.aspose.com/).
 ### Q5: Where can I find support for Aspose.Slides for .NET?
 For any queries or assistance, visit the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

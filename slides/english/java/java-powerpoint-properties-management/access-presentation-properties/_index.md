@@ -3,10 +3,14 @@ title: Access Presentation Properties
 linktitle: Access Presentation Properties
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Unlock the power of Aspose.Slides for Java. Master presentation management with this tutorial. Access, modify, and enhance presentation properties effortlessly.
-type: docs
 weight: 11
 url: /java/java-powerpoint-properties-management/access-presentation-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the realm of Java development, managing presentations seamlessly can be a challenging endeavor. However, with the advent of Aspose.Slides for Java, developers are empowered with a robust toolkit to navigate through this complexity effortlessly. This tutorial serves as your guiding light, unveiling the intricacies of leveraging Aspose.Slides to access presentation properties. We'll delve into prerequisites, import packages, and break down each example into digestible steps, ensuring your journey towards mastery remains smooth and enriching.
 ## Prerequisites
@@ -64,3 +68,10 @@ Yes, you can explore the functionalities of Aspose.Slides by availing of the fre
 For any queries or assistance, you can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11), where experts and the community are readily available to help.
 ### Can I obtain a temporary license for Aspose.Slides?
 Yes, temporary licenses are available for evaluation or testing purposes. You can acquire a temporary license from the [purchase page](https://purchase.aspose.com/temporary-license/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

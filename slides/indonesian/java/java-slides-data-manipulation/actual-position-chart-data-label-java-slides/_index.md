@@ -3,10 +3,14 @@ title: Dapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
 linktitle: Dapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mendapatkan posisi sebenarnya dari label data bagan di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-type: docs
 weight: 18
 url: /id/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Mendapatkan Posisi Sebenarnya Label Data Bagan di Slide Java
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

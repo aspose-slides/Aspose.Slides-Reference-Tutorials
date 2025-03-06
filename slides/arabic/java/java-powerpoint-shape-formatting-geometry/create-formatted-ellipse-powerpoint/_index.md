@@ -3,10 +3,14 @@ title: إنشاء القطع الناقص المنسق في PowerPoint
 linktitle: إنشاء القطع الناقص المنسق في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء شكل بيضاوي منسق في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إنشاء شكل بيضاوي منسق في PowerPoint باستخدام Aspose.Slides لـ Java. Aspose.Slides هي مكتبة قوية تسمح للمطورين بمعالجة ملفات PowerPoint برمجياً. سواء كنت تقوم بأتمتة إنشاء الشرائح أو تحسين العروض التقديمية باستخدام أشكال مخصصة، سيرشدك هذا الدليل خلال كل خطوة، مما يضمن أنه يمكنك إضافة شكل بيضاوي منسق بشكل مثالي إلى شرائحك بسهولة. دعونا نتعمق ونرى كيف يمكننا تحقيق ذلك!
 ## المتطلبات الأساسية
@@ -95,3 +99,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  يمكنك العثور على وثائق مفصلة على Aspose.Slides لـ Java[صفحة التوثيق](https://reference.aspose.com/slides/java/).
 ### هل هناك دعم متاح لـ Aspose.Slides؟
  نعم، Aspose يقدم الدعم من خلال[المنتدى](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

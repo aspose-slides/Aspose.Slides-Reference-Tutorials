@@ -3,10 +3,14 @@ title: Hiển thị ghi chú trong khi chuyển đổi bản trình bày sang HT
 linktitle: Hiển thị ghi chú trong khi chuyển đổi bản trình bày sang HTML
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách hiển thị hiệu quả ghi chú của diễn giả trong khi chuyển đổi bản trình bày sang HTML bằng Aspose.Slides for .NET. Hướng dẫn từng bước này cung cấp các ví dụ và thông tin chi tiết về mã nguồn để giúp bạn đạt được chuyển đổi liền mạch với tính năng bảo quản ghi chú.
-type: docs
 weight: 28
 url: /vi/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thời đại kỹ thuật số ngày nay, việc chuyển đổi bài thuyết trình sang định dạng HTML đã trở thành một yêu cầu phổ biến. Nó cho phép bạn dễ dàng chia sẻ bài thuyết trình của mình trên web, giúp nhiều đối tượng hơn có thể tiếp cận chúng. Aspose.Slides for .NET là một công cụ mạnh mẽ giúp đơn giản hóa quá trình này. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày sang HTML bằng Aspose.Slides cho .NET.
 
@@ -79,3 +83,10 @@ Có, Aspose.Slides for .NET hỗ trợ nhiều định dạng PowerPoint khác n
  Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc, bạn có thể tìm kiếm sự trợ giúp trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/).
 
 Bằng cách làm theo các bước này, bạn có thể dễ dàng chuyển đổi bản trình bày PowerPoint của mình sang HTML bằng Aspose.Slides cho .NET. Tận hưởng việc chia sẻ bài thuyết trình của bạn trực tuyến với nhiều đối tượng hơn!
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

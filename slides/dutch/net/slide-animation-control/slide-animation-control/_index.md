@@ -3,10 +3,14 @@ title: Masterdia-animaties met Aspose.Slides voor .NET
 linktitle: Dia-animatiebesturingselement in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met Aspose.Slides voor .NET! Leer moeiteloos dia-animaties besturen. Download de bibliotheek nu!
-type: docs
 weight: 10
 url: /nl/net/slide-animation-control/slide-animation-control/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het verbeteren van uw presentaties met boeiende dia-animaties kan de algehele impact op uw publiek aanzienlijk vergroten. In deze zelfstudie onderzoeken we hoe u dia-animaties kunt besturen met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek die naadloze manipulatie van PowerPoint-presentaties in een .NET-omgeving mogelijk maakt.
 ## Vereisten
@@ -77,3 +81,9 @@ Het animeren van dia's in uw presentaties voegt een dynamisch tintje toe, waardo
  U kunt een tijdelijke licentie verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik Aspose.Slides voor .NET kopen?
  Koop de bibliotheek[hier](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

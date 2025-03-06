@@ -3,10 +3,14 @@ title: Alakzatok elrejtése a PowerPointban az Aspose.Slides .NET oktatóanyagga
 linktitle: Alakzatok elrejtése a bemutató diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan rejthet el alakzatokat a PowerPoint diákban az Aspose.Slides for .NET segítségével. Ezzel a lépésenkénti útmutatóval programozottan testreszabhatja a prezentációkat.
-type: docs
 weight: 21
 url: /hu/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 prezentációk dinamikus világában a testreszabás kulcsfontosságú. Az Aspose.Slides for .NET hatékony megoldást kínál a PowerPoint-prezentációk programozott kezeléséhez. Az egyik általános követelmény az, hogy bizonyos formákat el lehet rejteni egy dián belül. Ez az oktatóanyag végigvezeti az Aspose.Slides for .NET segítségével alakzatok elrejtésének folyamatán.
 ## Előfeltételek
@@ -73,3 +77,9 @@ Teljesen! Testreszabhatja a rejtési logikát különféle attribútumok, péld�
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/)tesztelési célokra.
 ### Hogyan kaphatok közösségi támogatást az Aspose.Slides-hez?
  Csatlakozz az Aspose.Slides közösséghez a[fórum](https://forum.aspose.com/c/slides/11) megbeszélésekre és segítségnyújtásra.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

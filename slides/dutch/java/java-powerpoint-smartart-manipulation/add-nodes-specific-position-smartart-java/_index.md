@@ -3,10 +3,14 @@ title: Voeg knooppunten op specifieke posities toe in SmartArt met behulp van Ja
 linktitle: Voeg knooppunten op specifieke posities toe in SmartArt met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek hoe u knooppunten op specifieke posities in SmartArt kunt toevoegen met behulp van Java met Aspose.Slides. Creëer moeiteloos dynamische presentaties.
-type: docs
 weight: 16
 url: /nl/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het toevoegen van knooppunten op specifieke posities in SmartArt met behulp van Java met Aspose.Slides. SmartArt is een functie in PowerPoint waarmee u visueel aantrekkelijke diagrammen en diagrammen kunt maken.
 ## Vereisten
@@ -70,3 +74,9 @@ Ja, u kunt het uiterlijk van knooppunten aanpassen, inclusief hun grootte, kleur
 Ja, Aspose.Slides biedt bibliotheken voor meerdere programmeertalen, waaronder .NET en Python.
 ### Is er een proefversie beschikbaar voor Aspose.Slides?
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

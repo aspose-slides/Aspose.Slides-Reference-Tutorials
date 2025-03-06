@@ -3,10 +3,14 @@ title: Quản lý biểu đồ thuộc tính trong Java Slides
 linktitle: Quản lý biểu đồ thuộc tính trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo các biểu đồ tuyệt đẹp và quản lý các thuộc tính trong các trang trình bày Java bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn để có bài thuyết trình hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu về Quản lý thuộc tính và biểu đồ trong Java Slide bằng Aspose.Slides
 
@@ -198,3 +202,9 @@ Có, bạn có thể tùy chỉnh màu biểu đồ bằng cách đặt thuộc 
 ### Tôi có thể tùy chỉnh những thuộc tính 3D nào khác?
 
 Bạn có thể khám phá các thuộc tính 3D khác của biểu đồ, chẳng hạn như độ sâu, phối cảnh và ánh sáng, bằng cách tham khảo tài liệu Aspose.Slides.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

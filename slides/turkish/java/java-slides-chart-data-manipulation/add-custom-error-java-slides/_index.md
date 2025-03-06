@@ -3,10 +3,14 @@ title: Java Slaytlarına Özel Hata Ekleme
 linktitle: Java Slaytlarına Özel Hata Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java Slides'daki PowerPoint grafiklerine özel hata çubuklarının nasıl ekleneceğini öğrenin. Hassas veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides Kullanarak Java Slaytlarına Özel Hata Çubukları Eklemeye Giriş
 
@@ -150,3 +154,9 @@ Yukarıdaki kodda gösterildiği gibi, veri noktaları arasında geçiş yapabil
 ### Belirli veri noktalarına ilişkin hata çubuklarını gizlemek mümkün müdür?
 
  Evet, ayrı ayrı veri noktaları için hata çubuklarının görünürlüğünü ayarlayarak kontrol edebilirsiniz.`setVisible` mülkiyeti`IErrorBarsFormat` nesne.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

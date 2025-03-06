@@ -3,10 +3,14 @@ title: Konvertera bilder till PDF med Notes i Java Slides
 linktitle: Konvertera bilder till PDF med Notes i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du konverterar PowerPoint-bilder till PDF med anteckningar i Java med Aspose.Slides för Java. Steg-för-steg-guide för Java-utvecklare. Förbättra din presentationsdelning.
-type: docs
 weight: 19
 url: /sv/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till att konvertera bilder till PDF med Notes i Java
 
@@ -124,3 +128,9 @@ Säkert! Du kan gå igenom bilderna i din presentation och klona dem till den ny
 ### Var kan jag hitta mer dokumentation för Aspose.Slides för Java?
 
  Du kan hitta detaljerad dokumentation för Aspose.Slides för Java på webbplatsen:[Aspose.Slides för Java API Referens](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

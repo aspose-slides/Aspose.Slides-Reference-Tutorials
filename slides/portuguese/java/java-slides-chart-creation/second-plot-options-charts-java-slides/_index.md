@@ -3,10 +3,14 @@ title: Segundas opções de plotagem para gráficos em slides Java
 linktitle: Segundas opções de plotagem para gráficos em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como personalizar gráficos em Java Slides usando Aspose.Slides for Java. Explore opções de segundo enredo e aprimore suas apresentações.
-type: docs
 weight: 12
 url: /pt/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução às opções de segundo gráfico para gráficos em slides Java
 
@@ -93,3 +97,9 @@ Para alterar o tamanho da segunda pizza em um gráfico de pizza, use o botão`se
 ### Como defino a posição da divisão em um gráfico de pizza?
 
  Você pode definir a posição da divisão em um gráfico de pizza usando o botão`setPieSplitPosition` método. Ajuste o valor para especificar a posição desejada.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

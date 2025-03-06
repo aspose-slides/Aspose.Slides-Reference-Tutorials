@@ -3,10 +3,14 @@ title: Slayta Ok Şekilli Çizgi Ekle
 linktitle: Slayta Ok Şekilli Çizgi Ekle
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarına ok şeklinde çizgiler eklemeyi öğrenin. Stilleri, renkleri ve konumları zahmetsizce özelleştirin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu derste Aspose.Slides for Java kullanarak bir slayda ok şeklinde bir çizginin nasıl ekleneceğini inceleyeceğiz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir Java API'sidir. Slaytlara ok şeklinde çizgiler eklemek sunumlarınızın görsel çekiciliğini ve netliğini artırabilir.
 ## Önkoşullar
@@ -74,3 +78,9 @@ Aspose.Slides çeşitli PowerPoint formatlarını destekleyerek farklı sürüml
 Evet, bir TextFrame oluşturup özelliklerini buna göre ayarlayarak satıra metin ekleyebilirsiniz.
 ### Aspose.Slides için daha fazla kaynağı ve desteği nerede bulabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) destek ve keşfetmek için[dokümantasyon](https://reference.aspose.com/slides/java/) detaylı bilgi için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

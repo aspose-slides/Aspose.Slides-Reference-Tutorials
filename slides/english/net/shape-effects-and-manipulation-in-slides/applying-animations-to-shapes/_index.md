@@ -3,10 +3,14 @@ title: Shape Animations Made Easy with Aspose.Slides
 linktitle: Applying Animations to Shapes in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Create stunning presentations with Aspose.Slides for .NET. Learn how to apply animations to shapes in this step-by-step guide. Elevate your slides now!
-type: docs
 weight: 21
 url: /net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the world of dynamic presentations, adding animations to shapes can significantly enhance the visual appeal and engagement of your slides. Aspose.Slides for .NET provides a powerful toolkit to achieve this seamlessly. In this tutorial, we'll guide you through the process of applying animations to shapes using Aspose.Slides, allowing you to create captivating presentations that leave a lasting impression.
 ## Prerequisites
@@ -81,3 +85,10 @@ Explore the [documentation](https://reference.aspose.com/slides/net/) and seek a
 Yes, you can acquire a license [here](https://purchase.aspose.com/buy) to unlock the full potential of Aspose.Slides.
 ### Can I try Aspose.Slides before purchasing?
 Certainly! Utilize the [free trial](https://releases.aspose.com/) to experience the capabilities of Aspose.Slides before making a commitment.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

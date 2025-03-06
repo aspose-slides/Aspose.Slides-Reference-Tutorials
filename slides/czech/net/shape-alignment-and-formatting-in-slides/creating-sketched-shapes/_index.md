@@ -3,10 +3,14 @@ title: Vytvářejte úžasné načrtnuté tvary pomocí Aspose.Slides
 linktitle: Vytváření načrtnutých tvarů v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat kreativní načrtnuté tvary do snímků prezentace pomocí Aspose.Slides for .NET. Vylepšete vizuální přitažlivost bez námahy!
-type: docs
 weight: 13
 url: /cs/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Vítejte v našem podrobném průvodci vytvářením načrtnutých tvarů na snímcích prezentace pomocí Aspose.Slides for .NET. Pokud chcete svým prezentacím dodat nádech kreativity, načrtnuté tvary poskytují jedinečnou a ručně kreslenou estetiku. V tomto tutoriálu vás provedeme celým procesem a rozdělíme ho do jednoduchých kroků, abyste zajistili hladký průběh.
 ## Předpoklady
@@ -74,3 +78,9 @@ Přidáním načrtnutých tvarů do snímků prezentace můžete zvýšit vizuá
  Chcete-li zakoupit Aspose.Slides pro .NET, navštivte stránku[nákupní stránku](https://purchase.aspose.com/buy).
 ### 5. Nabízíte dočasné licence?
  Ano, dočasné licence jsou k dispozici[tady](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

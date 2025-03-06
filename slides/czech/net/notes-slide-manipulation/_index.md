@@ -3,10 +3,14 @@ title: Poznámky Manipulace se snímky
 linktitle: Poznámky Manipulace se snímky
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace s přesností! Prozkoumejte výukový program Aspose.Slides o manipulaci se snímky poznámek v .NET. Naučte se programově přidávat, upravovat a spravovat poznámky řečníka.
-type: docs
 weight: 16
 url: /cs/net/notes-slide-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 
 Vítejte v komplexním kurzu Aspose.Slides o manipulaci se snímky Notes pro vývojáře .NET. V tomto tutoriálu se ponoříme do fascinujícího světa poznámek řečníka a do toho, jak s nimi můžete programově manipulovat pomocí knihovny Aspose.Slides. Poznámky řečníka hrají v prezentacích klíčovou roli, nabízejí prezentujícímu cenné poznatky a zvyšují celkový dopad obsahu. Na konci tohoto kurzu budete dobře rozumět tomu, jak efektivně přidávat, upravovat a spravovat poznámky řečníka v prezentacích PowerPoint.
@@ -39,3 +43,9 @@ Naučte se, jak upravit záhlaví a zápatí ve snímcích poznámek pomocí Asp
 Přečtěte si, jak odstranit poznámky z konkrétního snímku v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle našeho podrobného průvodce s kompletním zdrojovým kódem, abyste mohli bezproblémově programově manipulovat se snímky.
 ### [Odebrat poznámky ze všech snímků](./remove-notes-from-all-slides/)
 Naučte se, jak odstranit poznámky ze všech snímků v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce s kompletními příklady zdrojového kódu, abyste snadno dosáhli svého cíle.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

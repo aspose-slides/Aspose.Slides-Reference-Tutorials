@@ -3,10 +3,14 @@ title: Konwertuj na format PDF dzięki aktualizacji postępu w slajdach Java
 linktitle: Konwertuj na format PDF dzięki aktualizacji postępu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Konwertuj program PowerPoint do formatu PDF dzięki aktualizacjom postępu w Javie przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym i śledzeniem postępu zapewniający bezproblemową konwersję.
-type: docs
 weight: 36
 url: /pl/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do konwersji programu PowerPoint do formatu PDF z aktualizacjami postępu w Javie przy użyciu Aspose.Slides dla Java
 
@@ -118,3 +122,10 @@ Tak, Aspose.Slides for Java zapewnia rozbudowaną funkcjonalność do pracy z pr
 ### Jak mogę dostosować opcje konwersji plików PDF?
 
  Opcje konwersji plików PDF można dostosować, modyfikując plik`PdfOptions` obiekt przed wywołaniem metody`presentation.save` metoda. Obejmuje to ustawianie właściwości, takich jak rozmiar strony, jakość i inne.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

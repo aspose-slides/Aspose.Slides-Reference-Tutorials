@@ -3,10 +3,14 @@ title: Ρύθμιση μορφής ημερομηνίας για άξονα κα
 linktitle: Ρύθμιση μορφής ημερομηνίας για άξονα κατηγορίας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε μια μορφή ημερομηνίας για τον άξονα κατηγορίας σε ένα γράφημα PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 26
 url: /el/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη ρύθμιση της μορφής ημερομηνίας για τον άξονα κατηγορίας στις διαφάνειες Java
 
@@ -139,3 +143,9 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### Πώς μπορώ να προσθέσω περισσότερα σημεία δεδομένων στο γράφημα;
 
  Για να προσθέσετε περισσότερα σημεία δεδομένων στο γράφημα, χρησιμοποιήστε το`getDataPoints().addDataPointForLineSeries`μέθοδος στη σειρά δεδομένων και παρέχετε τις τιμές δεδομένων.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

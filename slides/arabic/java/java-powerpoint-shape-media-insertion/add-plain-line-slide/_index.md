@@ -3,10 +3,14 @@ title: إضافة خط عادي إلى الشريحة
 linktitle: إضافة خط عادي إلى الشريحة
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة خط عادي إلى شريحة PowerPoint برمجياً باستخدام Aspose.Slides لـ Java. عزز إنتاجيتك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بالعمل مع عروض PowerPoint التقديمية برمجياً. باستخدام Aspose.Slides، يمكنك إنشاء ملفات PowerPoint وتعديلها وتحويلها بسهولة، مما يوفر لك الوقت والجهد. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة خط عادي إلى شريحة في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -62,3 +66,9 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 نعم، يمكنك إضافة نص وصور ومحتويات أخرى إلى الشريحة باستخدام Aspose.Slides API.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

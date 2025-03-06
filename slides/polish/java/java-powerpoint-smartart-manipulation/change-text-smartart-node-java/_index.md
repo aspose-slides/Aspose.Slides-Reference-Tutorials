@@ -3,10 +3,14 @@ title: Zmień tekst w węźle SmartArt za pomocą języka Java
 linktitle: Zmień tekst w węźle SmartArt za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zaktualizować tekst węzła SmartArt w programie PowerPoint przy użyciu języka Java z Aspose.Slides, usprawniając dostosowywanie prezentacji.
-type: docs
 weight: 22
 url: /pl/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 SmartArt w programie PowerPoint to zaawansowana funkcja umożliwiająca tworzenie atrakcyjnych wizualnie diagramów. Aspose.Slides for Java zapewnia kompleksową obsługę programowego manipulowania elementami SmartArt. W tym samouczku przeprowadzimy Cię przez proces zmiany tekstu w węźle SmartArt przy użyciu języka Java.
 ## Warunki wstępne
@@ -60,3 +64,9 @@ Z pewnością możesz modyfikować różne właściwości, takie jak kolor, rozm
 Tak, Aspose.Slides obsługuje szeroką gamę układów SmartArt, dzięki czemu możesz wybrać ten, który najlepiej odpowiada Twoim potrzebom w zakresie prezentacji.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides?
  Możesz odwiedzić[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) szczegółowe odniesienia do API i samouczki. Dodatkowo możesz zwrócić się o pomoc do[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) lub rozważ zakup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) za profesjonalne wsparcie.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

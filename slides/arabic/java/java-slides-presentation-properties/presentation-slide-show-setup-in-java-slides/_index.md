@@ -3,10 +3,14 @@ title: إعداد عرض شرائح العرض التقديمي في شرائح 
 linktitle: إعداد عرض شرائح العرض التقديمي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عرض شرائح Java الخاص بك باستخدام Aspose.Slides. قم بإنشاء عروض تقديمية جذابة باستخدام إعدادات مخصصة. استكشف الأدلة والأسئلة الشائعة خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لإعداد عرض شرائح العرض التقديمي في شرائح Java
 
@@ -146,3 +150,9 @@ try {
 ### كيف يمكنني تخصيص إعدادات عرض الشرائح بشكل أكبر؟
 
  يمكنك استكشاف إعدادات عرض الشرائح الإضافية التي يوفرها Aspose.Slides لـ Java لتخصيص تجربة عرض الشرائح وفقًا لاحتياجاتك. الرجوع إلى الوثائق في[هنا](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة حول الخيارات والتكوينات المتاحة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

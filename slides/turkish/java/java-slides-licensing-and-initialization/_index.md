@@ -3,10 +3,14 @@ title: Java Slaytlarının Lisanslanması ve Başlatılması
 linktitle: Java Slaytlarının Lisanslanması ve Başlatılması
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Kapsamlı eğitimlerimizde Aspose.Slides for Java'yı etkili bir şekilde nasıl lisanslayıp başlatacağınızı keşfedin. Şimdi Java Slaytlarını kullanmaya başlayın!
-type: docs
 weight: 10
 url: /tr/java/licensing-and-initialization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Java Slaytları dünyasında lisanslama ve başlatma çok önemli ilk adımlardır. Aspose.Slides for Java, etkileyici sunumlar ve slayt gösterileri oluşturmak için güçlü bir platform sağlar. Bu makalede, Aspose.Slides for Java'yı lisanslama ve başlatma sürecinde size rehberlik edeceğiz ve büyüleyici sunumlar oluşturmak için ihtiyacınız olan tüm araçlara sahip olmanızı sağlayacağız.
 
@@ -38,3 +42,9 @@ Sonuç olarak, Aspose.Slides for Java'yı lisanslamak ve başlatmak, görsel aç
 ## Java Slaytları Lisanslama ve Başlatma Eğitimleri
 ### [Java Slaytlarında Ölçülü Lisanslama](./metered-licensing-java-slides/)
 Ölçülü Lisanslama ile Aspose.Slides'ınızı Java kullanımı için optimize edin. Bunu nasıl ayarlayacağınızı ve API tüketiminizi nasıl izleyeceğinizi öğrenin.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

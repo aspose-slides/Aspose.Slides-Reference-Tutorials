@@ -3,10 +3,14 @@ title: Definir gráfico de cores de preenchimento invertido em slides Java
 linktitle: Definir gráfico de cores de preenchimento invertido em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir cores de preenchimento invertidas para gráficos do Slides Java usando Aspose.Slides. Aprimore as visualizações do seu gráfico com este guia passo a passo e código-fonte.
-type: docs
 weight: 22
 url: /pt/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução à definição do gráfico de cores de preenchimento invertido em slides Java
 
@@ -153,3 +157,9 @@ Sim, você pode personalizar vários aspectos da aparência do gráfico, incluin
 ### Posso salvar o gráfico em diferentes formatos?
 
  Sim, você pode salvar o gráfico em diferentes formatos usando Aspose.Slides for Java. No exemplo de código fornecido, salvamos a apresentação como um arquivo PPTX. Você pode usar diferentes`SaveFormat` opções para salvá-lo em outros formatos como PDF, PNG ou SVG, dependendo de suas necessidades.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

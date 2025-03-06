@@ -3,10 +3,14 @@ title: Jegyzetek eltávolítása egy adott diáról az Aspose.Slides .NET segít
 linktitle: Megjegyzések eltávolítása az adott diáról
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan távolíthat el jegyzeteket egy adott diáról a PowerPointban az Aspose.Slides for .NET segítségével. Egyszerűsítse prezentációit könnyedén.
-type: docs
 weight: 12
 url: /hu/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Ebben a részletes útmutatóban végigvezetjük a jegyzetek eltávolításának folyamatán a PowerPoint-prezentáció egy adott diájánál az Aspose.Slides for .NET segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a PowerPoint-fájlok programozott kezelését. Függetlenül attól, hogy Ön fejlesztő, vagy valaki, aki automatizálja a feladatokat a PowerPoint-prezentációkban, ez az oktatóanyag segít ennek egyszerű elérésében.
 
@@ -82,3 +86,9 @@ Bár bizonyos programozási ismeretek hasznosak, az Aspose.Slides dokumentáció
 
 ### Elérhető az Aspose.Slides .NET-hez készült próbaverziója?
 Igen, az Aspose.Slides felfedezéséhez ingyenes próbaverziót tölt le a webhelyről[itt](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 3D-Rotationseffekt auf Formen in PowerPoint anwenden
 linktitle: 3D-Rotationseffekt auf Formen in PowerPoint anwenden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java 3D-Rotationseffekte auf Formen in PowerPoint anwenden.
-type: docs
 weight: 12
 url: /de/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 Sind Sie bereit, Ihre PowerPoint-Präsentationen auf die nächste Stufe zu heben? Durch das Hinzufügen von 3D-Rotationseffekten können Sie Ihre Folien dynamischer und ansprechender gestalten. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieses Schritt-für-Schritt-Tutorial zeigt Ihnen, wie Sie mit Aspose.Slides für Java 3D-Rotationseffekte auf Formen in PowerPoint anwenden. Lassen Sie uns direkt loslegen!
 ## Voraussetzungen
@@ -84,3 +88,9 @@ Sie können verschiedenen Formen wie Rechtecken, Linien, Ellipsen und benutzerde
  Besuchen Sie die[Hilfeforum](https://forum.aspose.com/c/slides/11) um Hilfe zu erhalten und etwaige Probleme zu besprechen.
 ### Kann ich Aspose.Slides für Java in kommerziellen Projekten verwenden?
  Ja, aber Sie müssen eine Lizenz erwerben. Sie können eine Lizenz erwerben bei[Kaufseite](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

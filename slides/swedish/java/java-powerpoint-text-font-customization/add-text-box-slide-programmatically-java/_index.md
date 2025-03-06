@@ -3,10 +3,14 @@ title: Lägg till textruta på bild med Java
 linktitle: Lägg till textruta på bild med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du programmatiskt lägger till en textruta till PowerPoint-bilder med Aspose.Slides för Java. Förbättra din produktivitet med denna steg-för-steg-guide.
-type: docs
 weight: 24
 url: /sv/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Att skapa och manipulera PowerPoint-presentationer programmatiskt kan effektivisera många arbetsflöden, från att generera rapporter till att automatisera presentationer. Aspose.Slides för Java tillhandahåller ett kraftfullt API som gör det möjligt för utvecklare att utföra dessa uppgifter effektivt. I den här handledningen guidar vi dig genom att lägga till en textruta till en bild med Aspose.Slides för Java. I slutet av denna handledning kommer du att ha en klar förståelse för hur du integrerar denna funktion i dina Java-applikationer.
 ## Förutsättningar
@@ -67,3 +71,9 @@ Absolut, den är utformad för att hantera komplexa uppgifter effektivt.
  Du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) från Aspose.
 ### Har Aspose.Slides stöd för att konvertera presentationer till andra format?
 Ja, det stöder olika format inklusive PDF och bilder.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

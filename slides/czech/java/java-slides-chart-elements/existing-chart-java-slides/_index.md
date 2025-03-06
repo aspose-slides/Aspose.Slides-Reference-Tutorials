@@ -3,10 +3,14 @@ title: Stávající graf v Java Slides
 linktitle: Stávající graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete své prezentace v PowerPointu pomocí Aspose.Slides for Java. Naučte se programově upravovat existující grafy. Podrobný průvodce se zdrojovým kódem pro přizpůsobení grafu.
-type: docs
 weight: 12
 url: /cs/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do existujícího grafu v Java Slides pomocí Aspose.Slides pro Java
 
@@ -184,3 +188,9 @@ tomto komplexním tutoriálu jsme se naučili, jak upravit existující graf v p
 ### Existuje způsob, jak odstranit řadu z grafu?
 
  Ano, řadu můžete z grafu odstranit pomocí`chart.getChartData().getSeries().removeAt(index)` metoda, kde`index`je index řady, kterou chcete odstranit.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

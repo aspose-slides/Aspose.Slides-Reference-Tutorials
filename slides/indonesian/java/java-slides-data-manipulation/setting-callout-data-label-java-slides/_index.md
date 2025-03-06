@@ -3,10 +3,14 @@ title: Mengatur Callout Untuk Label Data di Slide Java
 linktitle: Mengatur Callout Untuk Label Data di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari Cara Mengatur Info untuk Label Data di Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
-type: docs
 weight: 25
 url: /id/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengenalan Pengaturan Callout untuk Label Data di Aspose.Slides untuk Java
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Ini adalah beberapa opsi penyesuaian umum untuk label data dan info di Aspose.Slides untuk Java. Anda selanjutnya dapat menyesuaikan tampilan dengan kebutuhan spesifik Anda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

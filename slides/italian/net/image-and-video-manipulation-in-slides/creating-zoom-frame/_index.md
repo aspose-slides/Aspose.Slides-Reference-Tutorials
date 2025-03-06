@@ -3,10 +3,14 @@ title: Crea presentazioni dinamiche con i fotogrammi di zoom Aspose.Slides
 linktitle: Creazione di frame di zoom nelle diapositive di presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Impara a creare presentazioni accattivanti con fotogrammi di zoom utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per un'esperienza di diapositive coinvolgente.
-type: docs
 weight: 17
 url: /it/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Nel regno delle presentazioni, diapositive accattivanti sono fondamentali per lasciare un'impressione duratura. Aspose.Slides per .NET fornisce un potente set di strumenti e in questa guida ti guideremo attraverso il processo di incorporazione di fotogrammi di zoom accattivanti nelle diapositive della presentazione.
 ## Prerequisiti
@@ -89,3 +93,9 @@ Sì, puoi personalizzare vari aspetti come la larghezza della linea, il colore d
  È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso acquistare la versione completa di Aspose.Slides per .NET?
  Puoi acquistare la versione completa[Qui](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

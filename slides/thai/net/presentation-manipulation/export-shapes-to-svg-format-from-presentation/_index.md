@@ -3,10 +3,14 @@ title: ส่งออกรูปร่างเป็นรูปแบบ SVG
 linktitle: ส่งออกรูปร่างเป็นรูปแบบ SVG จากการนำเสนอ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีส่งออกรูปร่างจากงานนำเสนอ PowerPoint เป็นรูปแบบ SVG โดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดรวมอยู่ด้วย ดึงรูปทรงออกมาใช้งานได้หลากหลายอย่างมีประสิทธิภาพ
-type: docs
 weight: 16
 url: /th/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ในโลกดิจิทัลปัจจุบัน การนำเสนอมีบทบาทสำคัญในการถ่ายทอดข้อมูลอย่างมีประสิทธิภาพ อย่างไรก็ตาม บางครั้งเราจำเป็นต้องส่งออกรูปร่างเฉพาะจากการนำเสนอของเราไปยังรูปแบบที่แตกต่างกันเพื่อวัตถุประสงค์ที่แตกต่างกัน รูปแบบหนึ่งคือ SVG (Scalable Vector Graphics) ซึ่งขึ้นชื่อในด้านความสามารถในการปรับขนาดและการปรับตัว ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการส่งออกรูปร่างเป็นรูปแบบ SVG จากงานนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 
@@ -83,3 +87,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 เมื่อคุณได้เรียนรู้วิธีส่งออกรูปร่างเป็นรูปแบบ SVG แล้ว คุณสามารถปรับปรุงงานนำเสนอของคุณและทำให้มีความหลากหลายมากขึ้นตามวัตถุประสงค์ที่แตกต่างกัน ขอให้มีความสุขในการเขียนโค้ด!
 
  สำหรับรายละเอียดเพิ่มเติมและคุณสมบัติขั้นสูง โปรดดูที่[Aspose.Slides สำหรับการอ้างอิง .NET API](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

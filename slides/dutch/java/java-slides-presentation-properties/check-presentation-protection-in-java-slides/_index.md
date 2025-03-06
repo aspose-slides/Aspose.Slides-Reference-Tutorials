@@ -3,10 +3,14 @@ title: Controleer Presentatiebeveiliging in Java-dia's
 linktitle: Controleer Presentatiebeveiliging in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de presentatiebeveiliging in Java-dia's kunt controleren met Aspose.Slides voor Java. Deze stapsgewijze handleiding biedt codevoorbeelden voor schrijf- en openbeveiligingscontroles.
-type: docs
 weight: 15
 url: /nl/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het controleren van presentatiebeveiliging in Java-dia's
 
@@ -113,3 +117,9 @@ Als u het beveiligingswachtwoord voor een presentatie vergeet, is er geen ingebo
 ### Is Aspose.Slides voor Java compatibel met de nieuwste PowerPoint-bestandsindelingen?
 
 Ja, Aspose.Slides voor Java ondersteunt de nieuwste PowerPoint-bestandsindelingen, inclusief .pptx-bestanden.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

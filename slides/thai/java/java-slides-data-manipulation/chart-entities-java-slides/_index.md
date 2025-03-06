@@ -3,10 +3,14 @@ title: เอนทิตีแผนภูมิใน Java Slides
 linktitle: เอนทิตีแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการสร้างและปรับแต่งแผนภูมิ Java Slides ด้วย Aspose.Slides ปรับปรุงการนำเสนอของคุณด้วยเอนทิตีแผนภูมิที่มีประสิทธิภาพ
-type: docs
 weight: 13
 url: /th/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับเอนทิตีแผนภูมิใน Java Slides
 
@@ -301,3 +305,9 @@ finally
 ### Aspose.Slides สำหรับ Java เข้ากันได้กับ Java เวอร์ชันล่าสุดหรือไม่
 
 ใช่ Aspose.Slides สำหรับ Java ได้รับการอัปเดตเป็นประจำเพื่อรองรับ Java เวอร์ชันล่าสุด และให้ความเข้ากันได้กับสภาพแวดล้อม Java ที่หลากหลาย
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

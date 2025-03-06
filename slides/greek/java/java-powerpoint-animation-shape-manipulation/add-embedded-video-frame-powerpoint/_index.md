@@ -3,10 +3,14 @@ title: Προσθήκη ενσωματωμένου καρέ βίντεο στο 
 linktitle: Προσθήκη ενσωματωμένου καρέ βίντεο στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενσωματώνετε καρέ βίντεο στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε εύκολα τις παρουσιάσεις σας.
-type: docs
 weight: 21
 url: /el/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Εισαγωγή
 Η προσθήκη βίντεο στις παρουσιάσεις σας στο PowerPoint μπορεί να τις κάνει πιο ελκυστικές και ενημερωτικές. Χρησιμοποιώντας το Aspose.Slides για Java, μπορείτε εύκολα να ενσωματώσετε βίντεο απευθείας στις διαφάνειές σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι κατανοείτε κάθε μέρος του κώδικα και πώς λειτουργεί. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας βοηθήσει να βελτιώσετε τις παρουσιάσεις σας με ενσωματωμένα βίντεο.
 ## Προαπαιτούμενα
@@ -93,3 +97,9 @@ if (pres != null) pres.dispose();
 Ναι, χρειάζεστε έγκυρη άδεια χρήσης για να χρησιμοποιήσετε το Aspose.Slides. Μπορείτε να αποκτήσετε προσωρινή άδεια για αξιολόγηση.
 ### Μπορώ να προσαρμόσω το μέγεθος και τη θέση του καρέ βίντεο;
 Ναι, μπορείτε να προσαρμόσετε το μέγεθος και τη θέση ορίζοντας τις κατάλληλες παραμέτρους κατά την προσθήκη του καρέ βίντεο.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

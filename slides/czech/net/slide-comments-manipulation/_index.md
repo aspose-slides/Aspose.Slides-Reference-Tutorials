@@ -3,10 +3,14 @@ title: Manipulace s komentáři snímku
 linktitle: Manipulace s komentáři snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své dovednosti v manipulaci se snímky pomocí výukových programů Aspose.Slides o manipulaci s komentáři snímků. Naučte se přidávat, upravovat a spravovat komentáře programově v prezentacích PowerPoint pomocí .NET.
-type: docs
 weight: 12
 url: /cs/net/slide-comments-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 
@@ -27,3 +31,9 @@ Naučte se, jak vylepšit své prezentace interaktivními prvky přidáním nad�
 Přidejte hloubku a interakci do vašich prezentací pomocí Aspose.Slides API. Naučte se, jak snadno integrovat komentáře do snímků pomocí .NET. Zvyšte zapojení a upoutejte své publikum.
 ### [Moderní správa komentářů](./modern-comments/)
 Vylepšete spolupráci a procesy zpětné vazby pomocí moderní správy komentářů pomocí Aspose.Slides. Naučte se, jak zefektivnit komunikaci v prezentacích a maximalizovat produktivitu.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: إنشاء صورة مصغرة مع عامل القياس للشكل في
 linktitle: إنشاء صورة مصغرة مع عامل القياس للشكل في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية إنشاء صور مصغرة لـ PowerPoint بحدود محددة باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول إنشاء صور مصغرة ذات حدود للأشكال في Aspose.Slides لـ .NET. Aspose.Slides هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء صور مصغرة ذات حدود محددة للأشكال داخل العرض التقديمي باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -55,3 +59,9 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
  لأية استفسارات أو مساعدة، لا تتردد في زيارة منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
 ### س5: هل يمكنني شراء Aspose.Slides لـ .NET؟
  بالتأكيد! لشراء Aspose.Slides لـ .NET، يرجى زيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Cách thay đổi nền của slide trong Aspose.Slides .NET
 linktitle: Thay đổi nền slide thông thường
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thay đổi nền trang chiếu bằng Aspose.Slides cho .NET và tạo bản trình bày PowerPoint tuyệt đẹp.
-type: docs
 weight: 15
 url: /vi/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thế giới thiết kế bài thuyết trình, việc tạo ra những slide bắt mắt và hấp dẫn là điều cần thiết. Aspose.Slides for .NET là một công cụ mạnh mẽ cho phép bạn thao tác các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách thay đổi nền của trang chiếu bằng Aspose.Slides cho .NET. Điều này có thể giúp bạn nâng cao sự hấp dẫn trực quan của bản trình bày và làm cho chúng có tác động mạnh hơn. 
 
@@ -99,3 +103,9 @@ Chắc chắn! Bạn có thể lặp qua các trang chiếu của mình và áp 
 ### 5. Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides cho .NET?
 
  Nếu bạn cần giấy phép tạm thời cho dự án của mình, bạn có thể lấy giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

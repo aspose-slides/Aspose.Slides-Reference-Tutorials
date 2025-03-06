@@ -3,10 +3,14 @@ title: Samouczek dodawania ramek do zdjęć za pomocą Aspose.Slides .NET
 linktitle: Dodawanie ramek obrazów o względnej wysokości skali w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać ramki obrazów ze względną wysokością skali w Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać płynne prezentacje.
-type: docs
 weight: 17
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Aspose.Slides dla .NET to potężna biblioteka, która pozwala programistom na łatwe tworzenie, manipulowanie i konwertowanie prezentacji PowerPoint w aplikacjach .NET. W tym samouczku zagłębimy się w proces dodawania ramek obrazów o względnej wysokości w skali za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności budowania prezentacji.
 ## Warunki wstępne
@@ -64,3 +68,9 @@ Aspose.Slides obsługuje przede wszystkim języki .NET, ale możesz eksplorować
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby zwrócić się o pomoc do społeczności i ekspertów Aspose.
 ### Gdzie mogę kupić Aspose.Slides dla .NET?
  Możesz kupić Aspose.Slides dla .NET w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

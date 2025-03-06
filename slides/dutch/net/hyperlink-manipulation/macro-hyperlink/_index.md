@@ -3,10 +3,14 @@ title: Macro-hyperlinkklikken instellen in Aspose.Slides voor .NET
 linktitle: Hyperlinkbeheer met behulp van macro's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u macro-hyperlinks in uw presentaties instelt met Aspose.Slides voor .NET. Verbeter de interactiviteit en betrek uw publiek.
-type: docs
 weight: 13
 url: /nl/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In de wereld van moderne softwareontwikkeling is het creëren van dynamische en interactieve presentaties een belangrijk aspect. Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u naadloos met presentaties kunt werken. Of u nu een bedrijfspresentatie of een educatieve diavoorstelling maakt, de mogelijkheid om klikken op macro-hyperlinks in te stellen kan de gebruikerservaring aanzienlijk verbeteren. In deze stapsgewijze handleiding leiden we u door het proces van het instellen van een macro-hyperlinkklik met Aspose.Slides voor .NET. 
 
@@ -106,3 +110,9 @@ Ja, u kunt het uiterlijk van de AutoVorm aanpassen door de eigenschappen ervan a
 
 ### Waar kan ik hulp of ondersteuning krijgen voor Aspose.Slides voor .NET?
  Als u problemen ondervindt of vragen heeft, kunt u hulp zoeken op het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

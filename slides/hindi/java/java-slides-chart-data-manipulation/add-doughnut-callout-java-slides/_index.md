@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में डोनट कॉलआ
 linktitle: जावा स्लाइड्स में डोनट कॉलआउट जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में डोनट कॉलआउट जोड़ना सीखें। बेहतर प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में डोनट कॉलआउट जोड़ने का परिचय
 
@@ -180,3 +184,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### मैं स्लाइड पर डोनट चार्ट की स्थिति और आकार को कैसे समायोजित कर सकता हूं?
 
  आप डोनट चार्ट में पैरामीटर संशोधित करके इसकी स्थिति और आकार बदल सकते हैं।`addChart` विधि। उस विधि में चार संख्याएं क्रमशः चार्ट के ऊपरी-बाएं कोने के X और Y निर्देशांक तथा उसकी चौड़ाई और ऊंचाई के अनुरूप होती हैं।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

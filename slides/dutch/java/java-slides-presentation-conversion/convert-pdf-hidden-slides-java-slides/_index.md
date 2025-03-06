@@ -3,10 +3,14 @@ title: Converteren naar PDF met verborgen dia's in Java-dia's
 linktitle: Converteren naar PDF met verborgen dia's in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties naar PDF kunt converteren met verborgen dia's met behulp van Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncode voor het naadloos genereren van PDF's.
-type: docs
 weight: 27
 url: /nl/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het converteren van PowerPoint-presentaties naar PDF met verborgen dia's met behulp van Aspose.Slides voor Java
 
@@ -115,3 +119,9 @@ slide.setHidden(false);
 ### Hoe download ik Aspose.Slides voor Java?
 
  U kunt Aspose.Slides voor Java downloaden van de Aspose-website. Bezoek de[Aspose.Slides voor Java-downloadpagina](https://releases.aspose.com/slides/java/) om de nieuwste versie te krijgen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

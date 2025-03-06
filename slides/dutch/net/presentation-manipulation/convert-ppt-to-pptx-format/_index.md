@@ -3,10 +3,14 @@ title: Converteer PPT naar PPTX-indeling
 linktitle: Converteer PPT naar PPTX-indeling
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PPT moeiteloos naar PPTX kunt converteren met Aspose.Slides voor .NET. Stapsgewijze handleiding met codevoorbeelden voor een naadloze formaattransformatie.
-type: docs
 weight: 25
 url: /nl/net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Als u ooit PowerPoint-bestanden van het oudere PPT-formaat naar het nieuwere PPTX-formaat met .NET heeft moeten converteren, bent u hier aan het juiste adres. In deze stapsgewijze zelfstudie leiden we u door het proces met behulp van de Aspose.Slides voor .NET API. Met deze krachtige bibliotheek kunt u dergelijke conversies moeiteloos verwerken. Laten we beginnen!
 
@@ -79,3 +83,10 @@ Ja, Aspose.Slides voor .NET ondersteunt ook het werken met Word-documenten, Exce
 ### 5. Waar kan ik ondersteuning krijgen of vragen stellen over Aspose.Slides voor .NET?
  U kunt antwoorden op uw vragen vinden en ondersteuning zoeken in de[Aspose.Slides-forums](https://forum.aspose.com/).
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

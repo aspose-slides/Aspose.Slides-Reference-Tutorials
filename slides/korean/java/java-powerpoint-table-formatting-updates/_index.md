@@ -3,10 +3,14 @@ title: Java PowerPoint 테이블 형식 지정 및 업데이트
 linktitle: Java PowerPoint 테이블 형식 지정 및 업데이트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 테이블 서식 지정 및 업데이트로 Java PowerPoint 프레젠테이션을 향상하세요. 테두리를 추가하고, 열과 행의 텍스트 서식을 지정하고, 표를 업데이트하는 방법을 알아보세요.
-type: docs
 weight: 31
 url: /ko/java/java-powerpoint-table-formatting-updates/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 소개
 
@@ -36,3 +40,9 @@ Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 테이블에
 Aspose.Slides for Java를 사용하여 PowerPoint의 표 행 내부에 텍스트 서식을 지정하는 방법을 알아보세요. 단계별 가이드를 통해 프레젠테이션을 향상해 보세요.
 ### [Java를 사용하여 PowerPoint에서 기존 테이블 업데이트](./update-existing-table-powerpoint-java/)
 Aspose.Slides와 함께 Java를 사용하여 PowerPoint의 기존 테이블을 업데이트하는 방법을 알아보세요. 단계별 가이드, 자세한 지침 및 FAQ가 포함되어 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

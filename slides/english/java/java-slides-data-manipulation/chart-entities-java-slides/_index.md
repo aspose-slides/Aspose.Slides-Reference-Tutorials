@@ -3,10 +3,14 @@ title: Chart Entities in Java Slides
 linktitle: Chart Entities in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create and customize Java Slides charts with Aspose.Slides. Enhance your presentations with powerful chart entities.
-type: docs
 weight: 13
 url: /java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Chart Entities in Java Slides
 
@@ -301,3 +305,10 @@ Yes, Aspose.Slides for Java supports the creation of 3D charts. You can set the 
 ### Is Aspose.Slides for Java compatible with the latest Java versions?
 
 Yes, Aspose.Slides for Java is regularly updated to support the latest Java versions and provides compatibility across a wide range of Java environments.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

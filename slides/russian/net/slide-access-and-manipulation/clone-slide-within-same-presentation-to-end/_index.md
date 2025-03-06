@@ -3,10 +3,14 @@ title: Дублировать слайд до конца существующе�
 linktitle: Дублировать слайд до конца существующей презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как дублировать и добавлять слайды в конец существующей презентации PowerPoint с помощью Aspose.Slides для .NET. В этом пошаговом руководстве представлены примеры исходного кода, а также описаны настройка, дублирование слайдов, модификация и многое другое.
-type: docs
 weight: 22
 url: /ru/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в Aspose.Slides для .NET
 
@@ -96,3 +100,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Могу ли я изменить содержимое слайда с помощью Aspose.Slides?
 
 Абсолютно! Aspose.Slides позволяет не только дублировать слайды, но и программно манипулировать их содержимым, таким как текст, изображения, фигуры и анимация.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

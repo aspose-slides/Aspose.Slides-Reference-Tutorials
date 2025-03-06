@@ -3,10 +3,14 @@ title: Uzyskaj dostęp do modyfikowania właściwości w slajdach Java
 linktitle: Uzyskaj dostęp do modyfikowania właściwości w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać dostęp do właściwości Java Slides i je modyfikować za pomocą Aspose.Slides for Java. Ulepsz swoje prezentacje dzięki niestandardowym właściwościom.
-type: docs
 weight: 11
 url: /pl/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do modyfikowania właściwości dostępu w slajdach Java
 
@@ -117,3 +121,9 @@ Błędy można obsługiwać, korzystając z mechanizmów obsługi wyjątków ję
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów?
 
  Obszerną dokumentację i przykłady kodu dla Aspose.Slides for Java można znaleźć pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

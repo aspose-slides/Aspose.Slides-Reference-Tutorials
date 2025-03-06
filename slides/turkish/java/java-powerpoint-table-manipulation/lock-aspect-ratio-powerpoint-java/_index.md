@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint'te En Boy Oranını Kilitleme
 linktitle: Java kullanarak PowerPoint'te En Boy Oranını Kilitleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint sunumlarında en boy oranını nasıl kilitleyeceğinizi öğrenin. Slayt tasarımı üzerinde hassas kontrol isteyen Java geliştiricileri için mükemmeldir.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Java geliştirme alanında, PowerPoint sunumlarını programlı bir şekilde değiştirmek, iş akışlarını kolaylaştırabilir ve verimliliği önemli ölçüde artırabilir. Aspose.Slides for Java, Java geliştiricilerinin slaytları değiştirme, içerik ekleme ve doğrudan Java kodundan biçimlendirme uygulama gibi görevleri otomatikleştirmesi için güçlü bir araç seti sunar. Bu eğitim PowerPoint sunum yönetiminin temel bir yönüne odaklanmaktadır: en boy oranlarının kilitlenmesi.
 ## Önkoşullar
@@ -61,3 +65,9 @@ Evet, Aspose.Slides for Java, kurumsal uygulamalardaki karmaşık senaryoları e
  Aspose.Slides topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
 ### Satın almadan önce Aspose.Slides for Java'yı nasıl deneyebilirim?
  Ücretsiz deneme sürümünü alabilirsiniz[Burada](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

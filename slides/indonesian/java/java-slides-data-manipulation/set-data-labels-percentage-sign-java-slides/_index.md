@@ -3,10 +3,14 @@ title: Tetapkan Persentase Label Data Masuk di Slide Java
 linktitle: Tetapkan Persentase Label Data Masuk di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur label data dengan tanda persentase dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Buat bagan yang menarik dengan panduan langkah demi langkah dan kode sumber.
-type: docs
 weight: 17
 url: /id/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Menetapkan Masuk Persentase Label Data di Aspose.Slides untuk Java
 
@@ -176,3 +180,10 @@ Ya, Anda dapat menyesuaikan ukuran font label data dengan mengatur`setFontHeight
 ### Bagaimana cara menambahkan lebih banyak seri ke grafik?
 
  Anda dapat menambahkan rangkaian tambahan ke bagan dengan menggunakan`add` metode pada`IChartSeriesCollection` obyek.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: معالجة جافا باور بوينت SmartArt
 linktitle: معالجة جافا باور بوينت SmartArt
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع Java PowerPoint SmartArt بشكل فعال باستخدام GroupDocs.Slides لبرامج Java التعليمية. الوصول إلى العقد الفرعية وإضافة العقد وتغيير التخطيطات والمزيد!
-type: docs
 weight: 32
 url: /ar/java/java-powerpoint-smartart-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة
 
@@ -71,3 +75,9 @@ url: /ar/java/java-powerpoint-smartart-manipulation/
 تعرف على كيفية إزالة العقد من SmartArt في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java بكفاءة وبرمجيًا.
 ### [قم بإزالة العقدة في موضع محدد في SmartArt](./remove-node-specific-position-smartart-java/)
 تعرف على كيفية إزالة عقدة في موضع معين داخل SmartArt باستخدام Aspose.Slides لـ Java. تعزيز تخصيص العرض التقديمي دون عناء.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

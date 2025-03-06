@@ -3,10 +3,14 @@ title: Преобразование презентации в PDF со скры�
 linktitle: Преобразование презентации в PDF со скрытыми слайдами
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как использовать Aspose.Slides для .NET для беспрепятственного преобразования презентаций в PDF со скрытыми слайдами.
-type: docs
 weight: 26
 url: /ru/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в Aspose.Slides для .NET
 
@@ -95,3 +99,9 @@ class Program
 ### Есть ли документация по Aspose.Slides для .NET?
 
  Да, вы можете найти документацию и примеры использования Aspose.Slides для .NET по адресу[здесь](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

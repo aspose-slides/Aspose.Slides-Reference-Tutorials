@@ -3,10 +3,14 @@ title: Gestisci i punti elenco delle immagini dei paragrafi in Java PowerPoint
 linktitle: Gestisci i punti elenco delle immagini dei paragrafi in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere elenchi puntati personalizzati alle diapositive di PowerPoint utilizzando Aspose.Slides per Java. Segui questa guida dettagliata passo dopo passo per un'integrazione perfetta.
-type: docs
 weight: 11
 url: /it/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Creare presentazioni accattivanti e visivamente accattivanti è un'abilità cruciale nel mondo degli affari moderno. Gli sviluppatori Java possono sfruttare Aspose.Slides per migliorare le loro presentazioni con elenchi puntati personalizzati nelle diapositive di PowerPoint. Questo tutorial ti guiderà attraverso il processo passo dopo passo, assicurandoti di poter aggiungere con sicurezza elenchi puntati di immagini alle tue presentazioni.
 ## Prerequisiti
@@ -104,3 +108,9 @@ Sì, puoi utilizzare qualsiasi immagine per i punti elenco purché sia accessibi
 Sì, puoi aggiungere più paragrafi con stili di punti elenco diversi a una singola forma creando e configurando ogni paragrafo individualmente.
 ### Dove posso trovare ulteriori esempi e supporto?
  Puoi trovare altri esempi in[documentazione](https://reference.aspose.com/slides/java/) e ottieni supporto dalla comunità Aspose su[forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

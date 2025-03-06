@@ -3,10 +3,14 @@ title: Zugriff auf und Manipulation von Folien
 linktitle: Zugriff auf und Manipulation von Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Entdecken Sie umfassende Tutorials zum Folienzugriff und zur Folienbearbeitung mit Aspose.Slides für .NET. Erfahren Sie, wie Sie Präsentationen programmgesteuert erstellen, ändern und verbessern.
-type: docs
 weight: 10
 url: /de/net/slide-access-and-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung:
 
 Willkommen in einer Welt der dynamischen Präsentationsbearbeitung mit Aspose.Slides für .NET! Diese Sammlung von Tutorials ist Ihr Schlüssel zur Entfaltung des vollen Potenzials der Aspose.Slides-API und bietet Ihnen die Tools und Kenntnisse, um nahtlos auf Folien in Ihren .NET-Anwendungen zuzugreifen und diese zu bearbeiten. Von der Erstellung fesselnder Präsentationen bis zur Implementierung komplexer Änderungen bieten Ihnen diese Tutorials einen umfassenden Leitfaden. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Aspose.Slides beginnen, unsere Schritt-für-Schritt-Anleitungen und Codebeispiele ermöglichen es Ihnen, die Leistungsfähigkeit von Folien für eindrucksvolles visuelles Storytelling zu nutzen. Begleiten Sie uns auf einer Reise in die Welt des Folienzugriffs und der Folienbearbeitung und erkunden Sie die Möglichkeiten, die Ihnen Aspose.Slides bietet.
@@ -44,3 +48,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET die Folienpositionen in Präse
 Erfahren Sie Schritt für Schritt, wie Sie PowerPoint-Folien mit Aspose.Slides für .NET löschen. Unser Handbuch enthält klare Anweisungen und vollständigen Quellcode, mit dem Sie Folien programmgesteuert anhand ihres sequentiellen Indexes entfernen können.
 ### [Folie über Referenz löschen](./remove-slide-using-reference/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folien in PowerPoint-Präsentationen programmgesteuert löschen. Vereinfachen Sie die Präsentationsbearbeitung mit dieser Schritt-für-Schritt-Anleitung.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

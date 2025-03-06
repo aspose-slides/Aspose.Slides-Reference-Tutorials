@@ -3,10 +3,14 @@ title: Java 投影片中的引導線顏色
 linktitle: Java 投影片中的引導線顏色
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 變更 PowerPoint 圖表中的引線顏色。帶有原始程式碼範例的分步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java中引導線顏色簡介
 
@@ -116,3 +120,9 @@ pres.save(outPath, SaveFormat.Pptx);
 ### 我可以將 Aspose.Slides for Java 與其他 Java 函式庫和框架一起使用嗎？
 
 是的，您可以根據專案需求將 Aspose.Slides for Java 與其他 Java 程式庫和框架整合。 Aspose.Slides 提供了用於使用各種 PowerPoint 功能的 API，使其可以與其他工具和技術結合以建立強大的應用程式。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

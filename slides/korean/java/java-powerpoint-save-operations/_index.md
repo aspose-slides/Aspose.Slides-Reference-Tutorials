@@ -3,10 +3,14 @@ title: Java PowerPoint 저장 작업
 linktitle: Java PowerPoint 저장 작업
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 저장하는 방법을 알아보세요. 파일 저장, 스트리밍 및 비밀번호 보호 추가에 대한 튜토리얼입니다.
-type: docs
 weight: 20
 url: /ko/java/java-powerpoint-save-operations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 소개
 
@@ -32,3 +36,9 @@ Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint �
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 스트림에 저장하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [비밀번호로 PowerPoint 저장](./save-powerpoint-with-password/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 비밀번호 보호를 추가하는 방법을 알아보세요. 슬라이드를 쉽게 보호하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

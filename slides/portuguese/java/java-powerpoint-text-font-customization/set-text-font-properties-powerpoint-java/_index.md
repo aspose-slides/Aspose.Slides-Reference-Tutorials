@@ -3,10 +3,14 @@ title: Defina propriedades de fonte de texto no PowerPoint com Java
 linktitle: Defina propriedades de fonte de texto no PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir propriedades de fonte de texto no PowerPoint usando Aspose.Slides para Java. Guia passo a passo fácil para desenvolvedores Java.#Aprenda como manipular propriedades de fonte de texto do PowerPoint usando Aspose.Slides para Java com este tutorial passo a passo para desenvolvedores Java.
-type: docs
 weight: 18
 url: /pt/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, você aprenderá como usar Aspose.Slides for Java para definir várias propriedades de fonte de texto em uma apresentação do PowerPoint de forma programática. Abordaremos a configuração do tipo de fonte, estilo (negrito, itálico), sublinhado, tamanho e cor do texto nos slides.
 ## Pré-requisitos
@@ -85,3 +89,9 @@ Sim, você pode usar Aspose.Slides para trabalhar com modelos do PowerPoint.
 Sim, Aspose.Slides permite exportar apresentações para vários formatos, incluindo PDF.
 ### Onde posso encontrar mais ajuda e suporte para Aspose.Slides?
  Visita[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e orientação da comunidade.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

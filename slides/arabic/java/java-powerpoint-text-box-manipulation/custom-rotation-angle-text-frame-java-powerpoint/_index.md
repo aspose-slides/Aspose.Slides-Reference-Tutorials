@@ -3,10 +3,14 @@ title: زاوية دوران مخصصة لإطار النص في Java PowerPoint
 linktitle: زاوية دوران مخصصة لإطار النص في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تخصيص زوايا التدوير لإطارات النص في Java PowerPoint باستخدام Aspose.Slides. تعزيز العروض التقديمية الخاصة بك بشكل حيوي.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع زوايا دوران إطار النص في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. يعد تخصيص زوايا التدوير أمرًا بالغ الأهمية لتعزيز المظهر البصري ووضوح النص داخل الشرائح. سواء كنت تقوم بإنشاء مخططات ديناميكية أو إضافة عناوين مخصصة، فإن التدوير الدقيق لإطار النص يمكن أن يؤدي إلى تحسين جماليات العرض التقديمي بشكل كبير.
 ## المتطلبات الأساسية
@@ -64,3 +68,9 @@ Aspose.Slides for Java هي مكتبة قوية تمكن مطوري Java من إ
 نعم، تم تصميم Aspose.Slides للتعامل مع المتطلبات على مستوى المؤسسة لإنشاء عروض PowerPoint التقديمية وإدارتها.
 ### كيف يمكنني الحصول على دعم Aspose.Slides لـ Java؟
  للحصول على الدعم الفني والتفاعل المجتمعي، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

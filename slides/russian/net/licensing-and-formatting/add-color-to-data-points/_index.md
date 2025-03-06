@@ -3,10 +3,14 @@ title: Раскрашивание диаграммы с помощью Aspose.Sl
 linktitle: Добавить цвет к точкам данных на диаграмме
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как добавить цвет к точкам данных на диаграмме с помощью Aspose.Slides для .NET. Улучшите свои презентации визуально и эффективно вовлекайте аудиторию.
-type: docs
 weight: 12
 url: /ru/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 В этом пошаговом руководстве мы покажем вам процесс добавления цвета к точкам данных на диаграмме с помощью Aspose.Slides для .NET. Aspose.Slides — мощная библиотека для работы с презентациями PowerPoint в .NET-приложениях. Добавление цвета к точкам данных на диаграмме может сделать ваши презентации более визуально привлекательными и простыми для понимания.
 
@@ -115,3 +119,9 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ### Как мне получить поддержку Aspose.Slides для .NET?
     Для поддержки и обсуждения посетите[Форум Aspose.Slides](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: แปลงการนำเสนอเป็น TIFF ด้วยข�
 linktitle: แปลงการนำเสนอเป็น TIFF ด้วยขนาดเริ่มต้น
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงงานนำเสนอเป็นรูปภาพ TIFF ด้วยขนาดเริ่มต้นอย่างง่ายดายโดยใช้ Aspose.Slides สำหรับ .NET
-type: docs
 weight: 27
 url: /th/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## การแนะนำ
 
@@ -86,3 +90,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ .NET ได้ที่ไหน
 
  สำหรับเอกสารและตัวอย่างที่ครอบคลุม โปรดไปที่[Aspose.Slides สำหรับเอกสาร .NET](https://reference.aspose.com/slides/net).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas 
 linktitle: Establecer etiquetas de datos Iniciar sesión porcentual en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar etiquetas de datos con signos de porcentaje en presentaciones de PowerPoint usando Aspose.Slides para Java. Cree gráficos atractivos con orientación paso a paso y código fuente.
-type: docs
 weight: 17
 url: /es/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción al inicio de sesión de porcentaje de etiquetas de datos en Aspose.Slides para Java
 
@@ -176,3 +180,10 @@ Sí, puede personalizar el tamaño de fuente de las etiquetas de datos configura
 ### ¿Cómo puedo agregar más series al gráfico?
 
  Puede agregar series adicionales al gráfico utilizando el`add` método en el`IChartSeriesCollection` objeto.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

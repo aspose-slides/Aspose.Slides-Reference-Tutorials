@@ -3,10 +3,14 @@ title: Управление текстом и абзацами Java PowerPoint
 linktitle: Управление текстом и абзацами Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Освойте управление текстом и абзацами Java PowerPoint с помощью Aspose.Slides. Научитесь импортировать текст HTML, управлять межстрочным интервалом, создавать маркеры и выравнивать абзацы.
-type: docs
 weight: 26
 url: /ru/java/java-powerpoint-text-paragraph-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 
 Создание хорошо структурированных и визуально привлекательных презентаций PowerPoint может значительно улучшить ваше общение. С Aspose.Slides для Java управление текстом и абзацами становится простой задачей. Если вам нужно импортировать текст HTML, управлять межстрочным интервалом или создавать многоуровневые маркеры, наши подробные руководства помогут вам в этом процессе. Давайте рассмотрим, как вывести презентации Java PowerPoint на новый уровень.
@@ -55,3 +59,9 @@ url: /ru/java/java-powerpoint-text-paragraph-management/
 Узнайте, как программно устанавливать отступы абзацев в слайдах PowerPoint с помощью Aspose.Slides для Java. Улучшите форматирование презентации без особых усилий.
 ### [Выровняйте абзацы в PowerPoint с помощью Java](./align-paragraphs-powerpoint-java/)
 Узнайте, как выравнивать абзацы в презентациях PowerPoint с помощью Aspose.Slides для Java. Следуйте нашему пошаговому руководству для точного форматирования.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

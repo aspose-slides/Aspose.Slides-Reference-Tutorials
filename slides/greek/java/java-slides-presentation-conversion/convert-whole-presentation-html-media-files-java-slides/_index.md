@@ -3,10 +3,14 @@ title: Μετατρέψτε ολόκληρη την παρουσίαση σε HT
 linktitle: Μετατρέψτε ολόκληρη την παρουσίαση σε HTML με αρχεία πολυμέσων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις σε HTML με αρχεία πολυμέσων χρησιμοποιώντας Java Slides. Ακολουθήστε τον βήμα προς βήμα οδηγό μας με το Aspose.Slides for Java API.
-type: docs
 weight: 30
 url: /el/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στη μετατροπή ολόκληρης της παρουσίασης σε HTML με αρχεία πολυμέσων σε διαφάνειες Java
 
@@ -125,3 +129,9 @@ finally
 ### Πώς μπορώ να αποκτήσω πρόσβαση στην παρουσίαση HTML που έχει μετατραπεί;
 
  Μόλις ολοκληρώσετε τη μετατροπή, μπορείτε να αποκτήσετε πρόσβαση στην παρουσίαση HTML, εντοπίζοντας το αρχείο που καθορίζεται στο`htmlDocumentFileName` μεταβλητός.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

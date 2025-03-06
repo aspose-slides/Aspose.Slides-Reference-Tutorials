@@ -3,10 +3,14 @@ title: Pisahkan Sel di Tabel PowerPoint menggunakan Java
 linktitle: Pisahkan Sel di Tabel PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membagi, menggabungkan, dan memformat sel tabel PowerPoint secara terprogram menggunakan Aspose.Slides untuk Java. Desain presentasi utama.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara memanipulasi tabel PowerPoint di Java menggunakan Aspose.Slides. Tabel adalah komponen mendasar dalam presentasi, sering digunakan untuk mengatur dan menyajikan data secara efektif. Aspose.Slides memberikan kemampuan yang kuat untuk membuat, memodifikasi, dan menyempurnakan tabel secara terprogram, menawarkan fleksibilitas dalam desain dan tata letak.
 ## Prasyarat
@@ -95,3 +99,9 @@ Memanipulasi tabel PowerPoint secara terprogram menggunakan Aspose.Slides for Ja
  Anda bisa mendapatkan dukungan dari forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Slides untuk Java?
  Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

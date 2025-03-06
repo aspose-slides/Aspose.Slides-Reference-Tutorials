@@ -3,10 +3,14 @@ title: Conversion d'une présentation en HTML en préservant les polices origina
 linktitle: Conversion d'une présentation en HTML en préservant les polices originales dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Convertissez des présentations PowerPoint en HTML tout en préservant les polices originales à l'aide d'Aspose.Slides pour Java.
-type: docs
 weight: 14
 url: /fr/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction à la conversion d'une présentation en HTML en préservant les polices originales dans les diapositives Java
 
@@ -111,3 +115,9 @@ Cet exemple de code est conçu pour les fichiers PPTX. Si vous devez convertir d
 ### Comment puis-je personnaliser davantage la sortie HTML ?
 
  Vous pouvez explorer le`HtmlOptions` classe pour personnaliser divers aspects de la sortie HTML, tels que la taille des diapositives, la qualité de l’image, etc.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

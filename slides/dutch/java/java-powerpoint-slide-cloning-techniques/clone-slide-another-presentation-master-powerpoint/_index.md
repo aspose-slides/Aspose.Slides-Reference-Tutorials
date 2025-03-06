@@ -3,10 +3,14 @@ title: Kloon dia naar een andere presentatie met Master
 linktitle: Kloon dia naar een andere presentatie met Master
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u dia's tussen presentaties in Java kunt klonen met Aspose.Slides. Stapsgewijze zelfstudie over het onderhouden van basisdia's.
-type: docs
 weight: 14
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, wijzigen en manipuleren. Dit artikel biedt een uitgebreide, stapsgewijze zelfstudie over hoe u een dia van de ene presentatie naar de andere kunt klonen met behoud van de basisdia, met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -83,3 +87,9 @@ Aspose.Slides voor Java biedt een gratis proefversie. Voor volledige functionali
  Een tijdelijke licentie kunt u verkrijgen bij de[Aspose aankooppagina](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik meer voorbeelden en documentatie vinden?  
  Bezoek de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor meer voorbeelden en gedetailleerde informatie.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Gewone lijnen toevoegen aan presentatiedia's met Aspose.Slides
 linktitle: Gewone lijnen toevoegen aan presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw PowerPoint-presentaties in .NET met Aspose.Slides. Volg onze stapsgewijze handleiding om moeiteloos effen lijnen toe te voegen.
-type: docs
 weight: 16
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het creëren van boeiende en visueel aantrekkelijke PowerPoint-presentaties omvat vaak het integreren van verschillende vormen en elementen. Als u met .NET werkt, is Aspose.Slides een krachtige tool die het proces vereenvoudigt. Deze tutorial richt zich op het toevoegen van gewone lijnen aan presentatiedia's met behulp van Aspose.Slides voor .NET. Volg mee en verbeter uw presentaties met deze eenvoudig te volgen gids.
 ## Vereisten
@@ -67,3 +71,9 @@ A: Absoluut, Aspose.Slides ondersteunt de nieuwste .NET-frameworks.
  Een bezoek[hier](https://purchase.aspose.com/temporary-license/) voor tijdelijke licenties.
 ### Vraag: Geconfronteerd met problemen? Waar kan ik ondersteuning krijgen?
  A: Zoek hulp op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

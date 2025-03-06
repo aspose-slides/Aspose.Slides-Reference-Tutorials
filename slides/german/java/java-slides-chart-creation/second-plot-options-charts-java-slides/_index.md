@@ -3,10 +3,14 @@ title: Zweite Plotoptionen für Diagramme in Java-Folien
 linktitle: Zweite Plotoptionen für Diagramme in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Diagramme in Java Slides mit Aspose.Slides für Java anpassen. Entdecken Sie zweite Plotoptionen und verbessern Sie Ihre Präsentationen.
-type: docs
 weight: 12
 url: /de/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in zweite Plotoptionen für Diagramme in Java-Folien
 
@@ -93,3 +97,9 @@ Um die Größe des zweiten Kreises in einem Kreis-aus-Kreis-Diagramm zu ändern,
 ### Wie lege ich die Position der Teilung in einem Kreis-von-Kreis-Diagramm fest?
 
  Sie können die Position der Teilung in einem Kreisdiagramm mit dem`setPieSplitPosition` Methode. Passen Sie den Wert an, um die gewünschte Position anzugeben.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

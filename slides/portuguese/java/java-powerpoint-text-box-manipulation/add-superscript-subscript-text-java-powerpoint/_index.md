@@ -3,10 +3,14 @@ title: Adicionar texto sobrescrito e subscrito em Java PowerPoint
 linktitle: Adicionar texto sobrescrito e subscrito em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar texto sobrescrito e subscrito em apresentações Java PowerPoint usando Aspose.Slides para Java. Perfeito para aprimorar seus slides.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 A criação de apresentações em PowerPoint envolventes e informativas geralmente requer o uso de recursos de formatação, como texto sobrescrito e subscrito. Este tutorial irá guiá-lo através do processo de incorporação de texto sobrescrito e subscrito em suas apresentações Java PowerPoint usando Aspose.Slides for Java.
 ## Pré-requisitos
@@ -89,3 +93,9 @@ Aspose.Slides for Java é uma biblioteca robusta que permite aos desenvolvedores
  Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Para suporte e discussões, visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

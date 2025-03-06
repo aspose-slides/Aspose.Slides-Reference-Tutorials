@@ -3,10 +3,14 @@ title: 幻灯片中的形状效果和操作
 linktitle: 幻灯片中的形状效果和操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 形状效果和操作教程增强演示文稿的视觉吸引力。了解如何使用形状效果、动画等创建令人惊叹的幻灯片。
-type: docs
 weight: 11
 url: /zh/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介绍
 
@@ -63,3 +67,9 @@ Aspose.Slides 提供了一系列专为 .NET 开发人员量身定制的形状操
 通过学习如何使用 Aspose.Slides 在演示文稿幻灯片中使用连接器连接形状，增强您的演示能力。立即提升您的视觉叙事能力！
 ### [使用 Aspose.Slides 在演示幻灯片中使用连接站点连接形状](./connecting-shape-using-connection-site/)
 通过学习如何使用 Aspose.Slides 在演示幻灯片中使用连接点连接形状来提高您的演示技巧。遵循我们的详细指南和代码示例。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

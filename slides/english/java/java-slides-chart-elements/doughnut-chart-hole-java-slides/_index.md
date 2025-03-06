@@ -3,10 +3,14 @@ title: Doughnut Chart Hole in Java Slides
 linktitle: Doughnut Chart Hole in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Doughnut Charts with Custom Hole Sizes in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for chart customization.
-type: docs
 weight: 11
 url: /java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Doughnut Chart with a Hole in Java Slides
 
@@ -94,3 +98,10 @@ Yes, you can add labels to the doughnut chart segments using the `setDataPointsL
 ### Is it possible to add a title to the chart?
 
 Certainly! You can add a title to the chart using the `setTitle` method on the `IChart` object and providing the desired title text.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

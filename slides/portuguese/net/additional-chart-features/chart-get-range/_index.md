@@ -3,10 +3,14 @@ title: Como obter o intervalo de dados do gráfico em Aspose.Slides para .NET
 linktitle: Obter intervalo de dados do gráfico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como extrair dados de gráficos de apresentações em PowerPoint usando Aspose.Slides for .NET. Um guia passo a passo para desenvolvedores.
-type: docs
 weight: 11
 url: /pt/net/additional-chart-features/chart-get-range/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Você deseja extrair o intervalo de dados de um gráfico em sua apresentação do PowerPoint usando Aspose.Slides for .NET? Você veio ao lugar certo. Neste guia passo a passo, orientaremos você no processo de obtenção do intervalo de dados do gráfico em sua apresentação. Aspose.Slides for .NET é uma biblioteca poderosa que permite trabalhar com documentos do PowerPoint de forma programática, e obter o intervalo de dados do gráfico é apenas uma das muitas tarefas que ela pode ajudá-lo a realizar.
 
@@ -93,3 +97,9 @@ Sim, você pode trabalhar com slides, formas, texto, imagens e outros elementos 
 
 ### Que tipo de opções de suporte estão disponíveis para usuários do Aspose.Slides para .NET?
  Você pode obter suporte e assistência da comunidade Aspose em seu[Fórum de suporte](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint でテキストを垂直に揃える
 linktitle: Java PowerPoint でテキストを垂直に揃える
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: シームレスなスライドの書式設定のために Aspose.Slides を使用して、Java PowerPoint プレゼンテーションでテキストを垂直に配置する方法を学習します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの表のセル内のテキストを垂直に揃える方法を学習します。テキストを垂直に揃えることは、スライド デザインの重要な側面であり、コンテンツがきちんとプロフェッショナルに提示されることを保証します。Aspose.Slides は、プレゼンテーションをプログラムで操作およびフォーマットするための強力な機能を提供し、スライドのあらゆる側面を完全に制御できるようにします。
 ## 前提条件
@@ -91,3 +95,9 @@ Aspose.Slides は、Microsoft PowerPoint のすべての主要バージョンと
 訪問[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/java/)包括的なガイド、API リファレンス、コード サンプルについては、こちらをご覧ください。
 ### Aspose.Slides のサポートを受けるにはどうすればよいですか?
 技術サポートやコミュニティサポートについては、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

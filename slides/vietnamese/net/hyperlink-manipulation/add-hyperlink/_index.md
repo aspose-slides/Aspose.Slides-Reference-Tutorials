@@ -3,10 +3,14 @@ title: Thêm siêu liên kết vào trang trình bày trong .NET bằng Aspose.S
 linktitle: Thêm siêu liên kết vào slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm siêu liên kết vào trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn với các yếu tố tương tác.
-type: docs
 weight: 12
 url: /vi/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Trong thế giới thuyết trình kỹ thuật số, tính tương tác là chìa khóa. Việc thêm siêu liên kết vào trang chiếu của bạn có thể làm cho bản trình bày của bạn hấp dẫn và nhiều thông tin hơn. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn tạo, sửa đổi và thao tác với các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách thêm siêu liên kết vào các trang trình bày của bạn bằng Aspose.Slides cho .NET. 
 
@@ -106,3 +110,9 @@ Aspose.Slides cung cấp nhiều tính năng tương tác, bao gồm các nút h
 ### 5. Aspose.Slides có sẵn cho các ngôn ngữ lập trình khác không?
 
 Có, Aspose.Slides có sẵn cho nhiều ngôn ngữ lập trình khác nhau, bao gồm Java và Python.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Aspose.Slides .NET을 사용하여 액자 튜토리얼 추가하기
 linktitle: Aspose.Slides에서 상대 배율 높이를 사용하여 액자 추가하기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides에서 상대 배율 높이를 사용하여 사진 프레임을 추가하는 방법을 알아보세요. 원활한 프레젠테이션을 위해 이 단계별 가이드를 따르세요.
-type: docs
 weight: 17
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 Aspose.Slides for .NET은 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 손쉽게 생성, 조작 및 변환할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 상대 배율 높이를 가진 사진 프레임을 추가하는 과정을 살펴보겠습니다. 프레젠테이션 작성 기술을 향상하려면 이 단계별 가이드를 따르세요.
 ## 전제 조건
@@ -64,3 +68,9 @@ Aspose.Slides는 주로 .NET 언어를 지원하지만 다른 플랫폼과의 �
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티와 Aspose 전문가의 도움을 구합니다.
 ### .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  .NET용 Aspose.Slides는 다음에서 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

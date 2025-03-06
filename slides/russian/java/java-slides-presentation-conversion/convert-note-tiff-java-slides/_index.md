@@ -3,10 +3,14 @@ title: Преобразование с помощью примечаний в TI
 linktitle: Преобразование с помощью примечаний в TIFF в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Конвертируйте презентации PowerPoint с заметками докладчика в формат TIFF на Java с помощью Aspose.Slides. Следуйте нашему пошаговому руководству с исходным кодом для беспрепятственного преобразования документов.
-type: docs
 weight: 32
 url: /ru/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение в преобразование с примечанием в TIFF в слайдах Java
 
@@ -111,3 +115,9 @@ finally
 ### Есть ли какие-либо вопросы лицензирования для использования Aspose.Slides for Java в моем проекте?
 
 Да, для коммерческого использования Aspose.Slides for Java требуется действующая лицензия. Подробную информацию о лицензировании можно найти на веб-сайте Aspose.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Metered Licensing in Java Slides
 linktitle: Metered Licensing in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Aspose.Slides for Java usage with Metered Licensing. Learn how to set it up and monitor your API consumption.
-type: docs
 weight: 10
 url: /java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Metered Licensing in Aspose.Slides for Java
 
@@ -108,3 +112,10 @@ If you exceed your metered limit, you may need to upgrade your licensing or cont
 
 Yes, an internet connection is required to set and validate metered licensing.
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

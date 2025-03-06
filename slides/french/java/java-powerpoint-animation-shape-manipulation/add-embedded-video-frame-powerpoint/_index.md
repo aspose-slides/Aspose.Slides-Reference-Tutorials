@@ -3,10 +3,14 @@ title: Ajouter une image vidéo intégrée dans PowerPoint
 linktitle: Ajouter une image vidéo intégrée dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment intégrer des images vidéo dans PowerPoint à l'aide d'Aspose.Slides pour Java avec ce didacticiel étape par étape. Améliorez facilement vos présentations.
-type: docs
 weight: 21
 url: /fr/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 L'ajout de vidéos à vos présentations PowerPoint peut les rendre plus attrayantes et informatives. En utilisant Aspose.Slides pour Java, vous pouvez facilement intégrer des vidéos directement dans vos diapositives. Dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus, en nous assurant que vous comprenez chaque partie du code et son fonctionnement. Que vous soyez un développeur chevronné ou débutant, ce guide vous aidera à enrichir vos présentations avec des vidéos intégrées.
 ## Conditions préalables
@@ -93,3 +97,9 @@ Aspose.Slides prend en charge divers formats vidéo, notamment MP4, AVI et WMV.
 Oui, vous avez besoin d'une licence valide pour utiliser Aspose.Slides. Vous pouvez obtenir une licence temporaire pour évaluation.
 ### Puis-je personnaliser la taille et la position de l'image vidéo ?
 Oui, vous pouvez personnaliser la taille et la position en définissant les paramètres appropriés lors de l'ajout de l'image vidéo.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

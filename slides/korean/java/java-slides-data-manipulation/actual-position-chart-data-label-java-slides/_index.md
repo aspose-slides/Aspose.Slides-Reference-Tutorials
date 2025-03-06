@@ -3,10 +3,14 @@ title: Java 슬라이드에서 차트 데이터 레이블의 실제 위치 가�
 linktitle: Java 슬라이드에서 차트 데이터 레이블의 실제 위치 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 데이터 레이블의 실제 위치를 얻는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 18
 url: /ko/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드에서 차트 데이터 레이블의 실제 위치 가져오기 소개
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Chart Creation and Customization
 linktitle: Chart Creation and Customization
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your .NET application's presentation capabilities with Aspose.Slides. Dive into our tutorial on chart creation and customization, exploring step-by-step guides and code examples.
-type: docs
 weight: 14
 url: /net/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction:
 
@@ -27,3 +31,9 @@ Learn how to compare slides in presentations using Aspose.Slides for .NET. Step-
 Learn how to use Aspose.Slides for .NET to create dynamic PowerPoint presentations with base placeholders.
 ### [Manage Header and Footer in Slides](./header-footer-manager/)
 Learn how to manage headers and footers in slides using Aspose.Slides for .NET. Customize your presentations with ease and precision.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint 텍스트 및 글꼴 사용자 정의
 linktitle: Java PowerPoint 텍스트 및 글꼴 사용자 정의
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 텍스트 및 글꼴 사용자 정의에 대한 튜토리얼을 살펴보세요. 프레젠테이션을 향상시키기 위해 회전, 글꼴 교체 등에 대해 알아보세요.
-type: docs
 weight: 29
 url: /ko/java/java-powerpoint-text-font-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 
 Aspose.Slides를 사용하는 Java PowerPoint 텍스트 및 글꼴 사용자 정의 튜토리얼을 통해 PowerPoint 프레젠테이션의 잠재력을 최대한 활용하세요. 초보자이든 고급 사용자이든 당사의 자세한 가이드는 프레젠테이션을 쉽게 향상시키는 데 도움이 될 것입니다.
@@ -102,3 +106,9 @@ Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint �
 Aspose.Slides for Java를 사용하여 사용자 정의 글꼴을 PowerPoint 프레젠테이션에 통합하는 방법을 알아보세요. 쉽게 시각적 매력을 향상시키세요.
 ### [Java를 사용하여 PowerPoint에서 WordArt 만들기](./create-wordart-powerpoint-java/)
 Aspose.Slides와 함께 Java를 사용하여 PowerPoint 프레젠테이션에서 매력적인 WordArt를 만드는 방법을 알아보세요. 개발자를 위한 단계별 튜토리얼입니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

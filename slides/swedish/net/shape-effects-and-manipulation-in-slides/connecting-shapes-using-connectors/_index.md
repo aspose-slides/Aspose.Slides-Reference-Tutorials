@@ -3,10 +3,14 @@ title: Aspose.Slides - Anslut former sömlöst i .NET
 linktitle: Ansluta former med kopplingar i presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska kraften i Aspose.Slides för .NET, koppla samman former utan ansträngning i dina presentationer. Lyft dina bilder med dynamiska kontakter.
-type: docs
 weight: 29
 url: /sv/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I den dynamiska presentationsvärlden ger möjligheten att koppla samman former med hjälp av kopplingar ett lager av sofistikering till dina bilder. Aspose.Slides för .NET ger utvecklare möjlighet att uppnå detta sömlöst. Den här handledningen guidar dig genom processen och delar upp varje steg för att säkerställa en tydlig förståelse.
 ## Förutsättningar
@@ -77,3 +81,9 @@ Aspose.Slides för .NET stöder sammankoppling av olika former, inklusive grundl
 Utforska Aspose.Slides-dokumentationen för metoder för att anpassa kontaktens utseende, som linjestil och färg.
 ### Finns det ett communityforum för Aspose.Slides-stöd?
  Ja, du kan få hjälp och dela dina erfarenheter i[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Hasilkan Gambar Mini di Slide dengan Dimensi Khusus
 linktitle: Hasilkan Gambar Kecil dengan Dimensi Khusus
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghasilkan gambar mini khusus dari presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Meningkatkan pengalaman dan fungsionalitas pengguna.
-type: docs
 weight: 13
 url: /id/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Membuat gambar mini khusus dari presentasi PowerPoint Anda dapat menjadi aset berharga, baik Anda sedang membangun aplikasi interaktif, meningkatkan pengalaman pengguna, atau mengoptimalkan konten untuk berbagai platform. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan gambar mini khusus dari presentasi PowerPoint menggunakan pustaka Aspose.Slides untuk .NET. Pustaka canggih ini memungkinkan Anda memanipulasi, mengonversi, dan menyempurnakan file PowerPoint secara terprogram dalam aplikasi .NET.
 
@@ -115,3 +119,9 @@ Meskipun beberapa pengetahuan tentang pemrograman .NET bermanfaat, Aspose.Slides
 
 ### Apakah dukungan teknis tersedia untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat mengakses dukungan teknis dan forum komunitas[Di Sini](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

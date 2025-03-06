@@ -3,10 +3,14 @@ title: पावरपॉइंट में एनिमेशन के लि
 linktitle: पावरपॉइंट में एनिमेशन के लिए लक्ष्य आकृतियाँ
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में विशिष्ट आकृतियों को एनिमेट करना सीखें। आसानी से आकर्षक स्लाइड बनाएँ।
-type: docs
 weight: 11
 url: /hi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 गतिशील प्रस्तुतियों की दुनिया में, दर्शकों को आकर्षित करने और जानकारी को प्रभावी ढंग से संप्रेषित करने में एनिमेशन महत्वपूर्ण भूमिका निभाते हैं। Aspose.Slides for Java डेवलपर्स को विशिष्ट आकृतियों के अनुरूप जटिल एनिमेशन के साथ आकर्षक PowerPoint प्रस्तुतियाँ बनाने में सक्षम बनाता है। यह ट्यूटोरियल आपको Aspose.Slides for Java का उपयोग करके एनिमेशन के लिए आकृतियों को लक्षित करने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आपकी प्रस्तुतियाँ तरल संक्रमण और सटीक एनिमेशन के साथ अलग दिखें।
 ## आवश्यक शर्तें
@@ -62,3 +66,9 @@ try {
  आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं Java के लिए Aspose.Slides कहां से खरीद सकता हूं?
  आप वेबसाइट से Java के लिए Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

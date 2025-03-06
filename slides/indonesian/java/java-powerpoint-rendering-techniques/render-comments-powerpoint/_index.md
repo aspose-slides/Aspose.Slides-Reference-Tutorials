@@ -3,10 +3,14 @@ title: Render Komentar di PowerPoint
 linktitle: Render Komentar di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara merender komentar dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sesuaikan tampilan & hasilkan pratinjau gambar secara efisien.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses rendering komentar dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Merender komentar dapat berguna untuk berbagai tujuan, seperti menghasilkan pratinjau gambar presentasi dengan menyertakan komentar.
 ## Prasyarat
@@ -72,3 +76,9 @@ Ya, selain PNG, Anda dapat memberikan komentar ke format gambar lain yang diduku
 Ya, dengan menggunakan Aspose.Slides, Anda dapat memberikan komentar pada gambar tanpa membuka aplikasi PowerPoint.
 ### Apakah ada cara untuk memberikan komentar langsung ke dokumen PDF?
 Ya, Aspose.Slides menyediakan fungsionalitas untuk memberikan komentar langsung ke dokumen PDF, memungkinkan integrasi yang lancar ke dalam alur kerja dokumen Anda.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

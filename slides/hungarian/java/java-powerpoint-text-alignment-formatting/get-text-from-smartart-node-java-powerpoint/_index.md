@@ -3,10 +3,14 @@ title: Szöveg lekérése a SmartArt Node-ból a Java PowerPointban
 linktitle: Szöveg lekérése a SmartArt Node-ból a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan bonthat ki szöveget a SmartArt csomópontokból Java PowerPoint prezentációkban az Aspose.Slides segítségével. Egyszerű, lépésenkénti útmutató fejlesztőknek.
-type: docs
 weight: 14
 url: /hu/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet szöveget kivonni a SmartArt csomópontokból Java PowerPoint prezentációkban az Aspose.Slides segítségével. Az Aspose.Slides egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint-prezentációk programozott létrehozását, kezelését és konvertálását. A SmartArt csomópontok szövegének kinyerése hasznos lehet különféle alkalmazásokhoz, például adatkinyeréshez, tartalomelemzéshez stb. Az útmutató végére világosan megérti, hogyan lehet hatékonyan lekérni szöveget a SmartArt-csomópontokból az Aspose.Slides Java-ban.
 ## Előfeltételek
@@ -66,3 +70,9 @@ Az Aspose.Slides for Java egy robusztus API, amely lehetővé teszi a fejlesztő
  Igen, megkaphatja az Aspose.Slides for Java ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Slides for Java számára?
  Technikai segítségért és közösségi támogatásért látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

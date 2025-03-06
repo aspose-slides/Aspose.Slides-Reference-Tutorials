@@ -3,10 +3,14 @@ title: Sunburst-grafiek in Java-dia's
 linktitle: Sunburst-grafiek in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak verbluffende Sunburst-grafieken in Java-dia's met Aspose.Slides. Leer stapsgewijze diagrammen maken en gegevensmanipulatie.
-type: docs
 weight: 16
 url: /nl/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot Sunburst Chart in Java-dia's met Aspose.Slides
 
@@ -168,3 +172,9 @@ Als u knopinfo aan het Sunburst-diagram wilt toevoegen, kunt u de indeling van h
 ### Is het mogelijk om interactieve Sunburst-grafieken met hyperlinks te maken?
 
 Ja, u kunt interactieve Sunburst-diagrammen met hyperlinks maken door hyperlinks toe te voegen aan specifieke diagramelementen of segmenten. Raadpleeg de Aspose.Slides-documentatie voor meer informatie over het toevoegen van hyperlinks.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

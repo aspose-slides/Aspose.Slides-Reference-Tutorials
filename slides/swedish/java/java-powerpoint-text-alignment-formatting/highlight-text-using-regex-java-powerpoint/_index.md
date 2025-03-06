@@ -3,10 +3,14 @@ title: Markera text med Regex i Java PowerPoint
 linktitle: Markera text med Regex i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du markerar text i PowerPoint med hjälp av regexmönster med Aspose.Slides för Java. Förbättra dina presentationer dynamiskt.
-type: docs
 weight: 15
 url: /sv/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Inom området Java-baserad utveckling för att skapa och manipulera PowerPoint-presentationer, framstår Aspose.Slides för Java som en robust lösning. Den här handledningen fokuserar på att utnyttja Aspose.Slides för att markera text med hjälp av reguljära uttryck (regex) i PowerPoint-presentationer. I slutet av den här guiden kommer du att förstå hur du implementerar regexmönster för att markera specifik text i bilder, vilket förbättrar både funktionalitet och visuell klarhet.
 ## Förutsättningar
@@ -62,3 +66,9 @@ Ja, Aspose.Slides stöder olika PowerPoint-format, vilket säkerställer kompati
 Absolut, den erbjuder omfattande textmanipuleringsfunktioner utöver markering, inklusive typsnittsstil, justering och mer.
 ### Kan jag prova Aspose.Slides för Java innan jag köper?
  Ja, du kan börja med en[gratis provperiod](https://releases.aspose.com/) att utvärdera dess förmåga.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

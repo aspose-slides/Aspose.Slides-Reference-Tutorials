@@ -3,10 +3,14 @@ title: Efekty przejścia slajdów
 linktitle: Efekty przejścia slajdów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje za pomocą urzekających efektów przejścia slajdów za pomocą Aspose.Slides dla .NET. Dowiedz się, jak dodawać dynamiczne animacje do slajdów, aby zapewnić wciągające wrażenia podczas oglądania.
-type: docs
 weight: 19
 url: /pl/net/slide-transition-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wstęp:
 
@@ -37,3 +41,9 @@ Dowiedz się, jak dodać wspaniałe efekty przejścia do slajdów prezentacji za
 zarabiaj, jak ustawić typ zmiany przejścia na slajdach za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z przykładami kodu. Ulepsz swoje prezentacje już teraz! 
 ### [Proste przejścia slajdów](./simple-slide-transitions/)
 Dowiedz się, jak ulepszyć swoje prezentacje PowerPoint za pomocą prostych przejść slajdów przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym. Zaangażuj odbiorców urzekającymi efektami wizualnymi!
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

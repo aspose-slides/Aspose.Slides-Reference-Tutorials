@@ -3,10 +3,14 @@ title: Animační série v Java Slides
 linktitle: Animační série v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své prezentace pomocí animací série v Aspose.Slides pro Java. Postupujte podle našeho podrobného průvodce s příklady zdrojového kódu a vytvořte poutavé animace PowerPoint.
-type: docs
 weight: 11
 url: /cs/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do Animace Series v Aspose.Slides pro Java
 
@@ -125,3 +129,9 @@ V kroku 3 můžete prodloužit smyčku a přidat animace pro všechny řady v gr
 ### Jak mohu přizpůsobit trvání a zpoždění animace?
 
 Dobu trvání animace a zpoždění můžete přizpůsobit nastavením vlastností efektů animace. Podrobnosti o dostupných možnostech přizpůsobení najdete v dokumentaci Aspose.Slides for Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

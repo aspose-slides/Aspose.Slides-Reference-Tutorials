@@ -3,10 +3,14 @@ title: تطبيق الظل الداخلي في عروض Java PowerPoint التق
 linktitle: تطبيق الظل الداخلي في عروض Java PowerPoint التقديمية
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تطبيق تأثيرات الظل الداخلي على الأشكال في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. قم بتحسين الشرائح الخاصة بك باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا ضروريًا لتوصيل أفكارك بشكل فعال. إحدى الأدوات التي يمكنها تحسين عروضك التقديمية بشكل كبير هي استخدام الظلال الداخلية. سيرشدك هذا البرنامج التعليمي خلال عملية تطبيق الظلال الداخلية على الأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم شامل لكيفية التعامل مع عناصر الشريحة لإنشاء تأثيرات مذهلة.
 ## المتطلبات الأساسية
@@ -94,3 +98,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 نعم، يمكنك تخصيص معلمات مختلفة لتأثير الظل، مثل نصف قطر التمويه والاتجاه والمسافة واللون، لتناسب احتياجاتك.
 ### أين يمكنني العثور على وثائق أكثر تفصيلا؟
  يمكنك الرجوع إلى[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) للحصول على معلومات وأمثلة مفصلة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

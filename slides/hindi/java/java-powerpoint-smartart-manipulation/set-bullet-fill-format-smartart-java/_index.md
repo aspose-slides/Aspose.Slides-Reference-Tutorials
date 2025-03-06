@@ -3,10 +3,14 @@ title: जावा का उपयोग करके स्मार्टआ
 linktitle: जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फॉर्मेट सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java का उपयोग करके SmartArt में बुलेट फ़िल फ़ॉर्मेट सेट करना सीखें। कुशल प्रस्तुतिकरण हेरफेर के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 18
 url: /hi/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## परिचय
 जावा प्रोग्रामिंग के क्षेत्र में, प्रस्तुतियों का कुशल संचालन एक सामान्य आवश्यकता है, खासकर जब स्मार्टआर्ट तत्वों से निपटना हो। जावा के लिए Aspose.Slides ऐसे कार्यों के लिए एक शक्तिशाली उपकरण के रूप में उभरता है, जो प्रस्तुतियों को प्रोग्रामेटिक रूप से संभालने के लिए कई प्रकार की कार्यक्षमता प्रदान करता है। इस ट्यूटोरियल में, हम Aspose.Slides के साथ जावा का उपयोग करके स्मार्टआर्ट में बुलेट फिल फ़ॉर्मेट सेट करने की प्रक्रिया को चरण दर चरण समझेंगे।
 ## आवश्यक शर्तें
@@ -71,3 +75,9 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
  हां, आप एक निःशुल्क परीक्षण के साथ Aspose.Slides की विशेषताओं का पता लगा सकते हैं। बस इसे यहाँ से डाउनलोड करें[वेबसाइट](https://releases.aspose.com/slides/java/) और अन्वेषण शुरू करें.
 ### मैं Aspose.Slides for Java के लिए समर्थन कहां पा सकता हूं?
  किसी भी प्रश्न या सहायता के लिए, आप Aspose.Slides फोरम पर जा सकते हैं[इस लिंक](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

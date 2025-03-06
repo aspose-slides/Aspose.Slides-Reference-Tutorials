@@ -3,10 +3,14 @@ title: Анимация серии диаграмм с помощью Aspose.Sli
 linktitle: Анимация серии в диаграмме
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как анимировать серии диаграмм с помощью Aspose.Slides для .NET. Привлекайте аудиторию с помощью динамичных презентаций. Начать сейчас!
-type: docs
 weight: 12
 url: /ru/net/chart-formatting-and-animation/animating-series/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Хотите добавить изюминку своим презентациям с помощью анимированных диаграмм? Aspose.Slides для .NET создан для того, чтобы оживить ваши диаграммы. В этом пошаговом руководстве мы покажем вам, как анимировать ряды на диаграмме с помощью Aspose.Slides для .NET. Но прежде чем мы углубимся в действие, давайте рассмотрим предпосылки.
 
@@ -109,3 +113,9 @@ Aspose.Slides for .NET поддерживает различные версии 
 
 ### Где я могу приобрести лицензию на Aspose.Slides для .NET?
  Вы можете приобрести лицензию на Aspose.Slides для .NET на странице покупки.[здесь](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

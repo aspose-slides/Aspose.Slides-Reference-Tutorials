@@ -3,10 +3,14 @@ title: Identyfikuj scalone komórki w tabeli programu PowerPoint przy użyciu j�
 linktitle: Identyfikuj scalone komórki w tabeli programu PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo identyfikować scalone komórki w tabelach programu PowerPoint przy użyciu Aspose.Slides dla Java. Idealny dla programistów Java.
-type: docs
 weight: 15
 url: /pl/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 środowisku programowania w języku Java programowe manipulowanie prezentacjami programu PowerPoint może być kluczowym zadaniem, szczególnie w przypadku złożonych tabel danych. Aspose.Slides dla Java zapewnia potężny zestaw narzędzi, który umożliwia programistom płynne zarządzanie różnymi aspektami prezentacji PowerPoint. Jednym z częstych wyzwań stojących przed programistami jest identyfikacja scalonych komórek w tabelach osadzonych w prezentacjach. Ten samouczek ma na celu poprowadzić Cię przez proces identyfikowania scalonych komórek przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -67,3 +71,9 @@ Aspose.Slides for Java to potężna biblioteka do programowego manipulowania pre
  Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
 Aby uzyskać pomoc, odwiedź forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

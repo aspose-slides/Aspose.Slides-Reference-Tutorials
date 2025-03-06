@@ -3,10 +3,14 @@ title: Μετατροπή σε Markdown στις διαφάνειες Java
 linktitle: Μετατροπή σε Markdown στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μετατροπή παρουσιάσεων PowerPoint σε Markdown με το Aspose.Slides για Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να μεταμορφώσετε εύκολα τις διαφάνειές σας.
-type: docs
 weight: 24
 url: /el/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή Μετατροπή σε Markdown σε διαφάνειες Java
 
@@ -136,3 +140,9 @@ try {
 ### Πού μπορώ να βρω περισσότερα έγγραφα και πόρους;
 
  Μπορείτε να ανατρέξετε στην τεκμηρίωση Aspose.Slides for Java στο[Aspose.Slides for Java API References](https://reference.aspose.com/slides/java/) για λεπτομερείς πληροφορίες και πρόσθετα παραδείγματα.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

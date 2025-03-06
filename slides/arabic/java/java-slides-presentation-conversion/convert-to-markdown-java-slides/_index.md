@@ -3,10 +3,14 @@ title: تحويل إلى تخفيض السعر في شرائح جافا
 linktitle: تحويل إلى تخفيض السعر في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحويل عروض PowerPoint التقديمية إلى Markdown باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل المفصّل خطوة بخطوة لتحويل شرائحك بسهولة.
-type: docs
 weight: 24
 url: /ar/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة تحويل إلى تخفيض السعر في شرائح جافا
 
@@ -136,3 +140,9 @@ try {
 ### أين يمكنني العثور على المزيد من الوثائق والموارد؟
 
  يمكنك الرجوع إلى وثائق Aspose.Slides لـ Java على[Aspose.Slides لمراجع Java API](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة وأمثلة إضافية.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

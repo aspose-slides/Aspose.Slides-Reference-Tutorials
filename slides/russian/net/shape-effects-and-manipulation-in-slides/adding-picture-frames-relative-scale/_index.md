@@ -3,10 +3,14 @@ title: Учебное пособие по добавлению рамок для
 linktitle: Добавление рамок изображений с относительным масштабом по высоте в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Научитесь добавлять рамки изображений с относительной высотой масштаба в Aspose.Slides для .NET. Следуйте этому пошаговому руководству для создания бесшовных презентаций.
-type: docs
 weight: 17
 url: /ru/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 Aspose.Slides for .NET — это мощная библиотека, которая позволяет разработчикам без особых усилий создавать, манипулировать и конвертировать презентации PowerPoint в своих .NET-приложениях. В этом уроке мы углубимся в процесс добавления рамок изображений с относительной высотой масштаба с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству, чтобы улучшить свои навыки построения презентаций.
 ## Предварительные условия
@@ -64,3 +68,9 @@ Aspose.Slides в основном поддерживает языки .NET, но
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) обратиться за помощью к сообществу и экспертам Aspose.
 ### Где я могу приобрести Aspose.Slides для .NET?
  Вы можете купить Aspose.Slides для .NET на сайте[страница покупки](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

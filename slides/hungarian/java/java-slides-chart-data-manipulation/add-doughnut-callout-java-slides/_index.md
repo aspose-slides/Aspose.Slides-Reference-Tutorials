@@ -3,10 +3,14 @@ title: Donut Callout hozzáadása a Java Slides-hez
 linktitle: Donut Callout hozzáadása a Java Slides-hez
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá fánkfeliratokat a Java Slides-hez az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a továbbfejlesztett prezentációkhoz.
-type: docs
 weight: 12
 url: /hu/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Fánk kiemelés hozzáadása Java Slides programhoz az Aspose.Slides for Java segítségével
 
@@ -180,3 +184,9 @@ Igen, annyi adatpontot adhat hozzá a Donut diagramhoz, amennyi szükséges. Egy
 ### Hogyan állíthatom be a fánk diagram helyzetét és méretét a dián?
 
  Módosíthatja a Donut diagram helyzetét és méretét a paraméterek módosításával a`addChart` módszer. Ebben a módszerben a négy szám megfelel a diagram bal felső sarkának X és Y koordinátáinak, illetve annak szélességének és magasságának.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

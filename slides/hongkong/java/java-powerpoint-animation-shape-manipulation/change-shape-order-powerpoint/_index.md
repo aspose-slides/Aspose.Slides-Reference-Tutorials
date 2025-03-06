@@ -3,10 +3,14 @@ title: 在 PowerPoint 中更改形狀順序
 linktitle: 在 PowerPoint 中更改形狀順序
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過此逐步教學，了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的形狀順序。毫不費力地提升您的簡報技巧。
-type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 創建具有視覺吸引力且結構良好的簡報可能是一項艱鉅的任務。然而，使用正確的工具和技術，您可以使其變得更加容易。 Aspose.Slides for Java 是一個功能強大的程式庫，可協助您以程式設計方式操作和管理 PowerPoint 簡報。在本教學中，我們將引導您完成使用 Aspose.Slides for Java 變更 PowerPoint 投影片中的形狀順序的步驟。
 ## 先決條件
@@ -73,3 +77,9 @@ Aspose.Slides for Java 是一個 Java API，用於在不使用 Microsoft PowerPo
 您可以從以下位置下載免費試用版：[Aspose.Slides for Java 下載頁面](https://releases.aspose.com/).
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件？
 您可以在以下位置找到詳細文檔[Aspose.Slides for Java 文件頁面](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Audio uit dia extraheren
 linktitle: Audio uit dia extraheren
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: LLeer hoe u audio uit dia's extraheert met Aspose.Slides voor .NET. Verbeter uw presentaties met deze stapsgewijze handleiding.
-type: docs
 weight: 11
 url: /nl/net/audio-and-video-extraction/extract-audio/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In de wereld van presentaties kan het toevoegen van audio aan uw dia's de algehele impact en betrokkenheid vergroten. Aspose.Slides voor .NET biedt een krachtige set hulpmiddelen voor het werken met presentaties, en in deze zelfstudie zullen we in een stapsgewijze handleiding onderzoeken hoe u audio uit een dia kunt extraheren. Of u nu een ontwikkelaar bent die dit proces wil automatiseren of gewoon wilt begrijpen hoe het werkt, deze tutorial begeleidt u door het proces.
 
@@ -87,3 +91,9 @@ Ja, Aspose.Slides voor .NET biedt een breed scala aan functies voor het werken m
 
 ### 5. Waar kan ik aanvullende ondersteuning vinden of vragen stellen met betrekking tot Aspose.Slides voor .NET?
  U kunt een bezoek brengen aan de[Aspose.Slides voor .NET-ondersteuningsforum](https://forum.aspose.com/) om hulp te zoeken, vragen te stellen of uw ervaringen te delen met de Aspose-gemeenschap.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

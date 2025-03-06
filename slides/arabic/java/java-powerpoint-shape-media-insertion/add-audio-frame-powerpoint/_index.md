@@ -3,10 +3,14 @@ title: إضافة إطار الصوت في PowerPoint
 linktitle: إضافة إطار الصوت في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة إطارات صوتية إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. ارفع مستوى عروضك التقديمية باستخدام عناصر صوتية جذابة دون عناء.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 يمكن أن يؤدي تعزيز العروض التقديمية باستخدام العناصر الصوتية إلى زيادة تأثيرها ومشاركتها بشكل كبير. باستخدام Aspose.Slides for Java، يصبح دمج الإطارات الصوتية في عروض PowerPoint التقديمية عملية سلسة. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة إطارات صوتية إلى عروضك التقديمية خطوة بخطوة باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 يوفر Aspose.Slides for Java خيارات تخصيص واسعة النطاق، مما يسمح لك بتخصيص مظهر مشغل الصوت ليناسب تفضيلاتك.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Slides for Java من موقعهم[موقع إلكتروني](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

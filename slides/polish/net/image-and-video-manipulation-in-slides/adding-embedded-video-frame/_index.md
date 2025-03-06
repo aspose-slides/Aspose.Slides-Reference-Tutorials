@@ -3,10 +3,14 @@ title: Aspose.Slides - Dodawanie osadzonych filmów wideo w prezentacjach .NET
 linktitle: Aspose.Slides - Dodawanie osadzonych filmów wideo w prezentacjach .NET
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje dzięki osadzonym filmom za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 19
 url: /pl/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 W dynamicznym świecie prezentacji integracja elementów multimedialnych może znacząco zwiększyć zaangażowanie. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do włączania osadzonych klatek wideo do slajdów prezentacji. Ten samouczek przeprowadzi Cię przez cały proces, szczegółowo opisując każdy krok, aby zapewnić płynną obsługę.
 ## Warunki wstępne
@@ -75,3 +79,9 @@ Aspose.Slides obsługuje wiele formatów wideo, w tym MP4, AVI i WMV.
 Liczba osadzonych filmów jest zazwyczaj ograniczona możliwościami oprogramowania do prezentacji.
 ### Jak mogę uzyskać dalszą pomoc lub podzielić się swoim doświadczeniem?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności i dyskusje.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

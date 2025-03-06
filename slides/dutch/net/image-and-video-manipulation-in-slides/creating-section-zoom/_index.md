@@ -3,10 +3,14 @@ title: Aspose.Slides Sectie Zoom - Verbeter uw presentaties
 linktitle: Sectiezoom-presentatiedia's maken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u boeiende presentatiedia's kunt maken met sectiezoom met behulp van Aspose.Slides voor .NET. Verbeter uw presentaties met interactieve functies.
-type: docs
 weight: 13
 url: /nl/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het verbeteren van uw presentatiedia's met interactieve functies is van cruciaal belang om uw publiek betrokken te houden. Een krachtige manier om dit te bereiken is door sectiezooms toe te voegen, zodat u naadloos tussen verschillende secties van uw presentatie kunt navigeren. In deze zelfstudie onderzoeken we hoe u sectiezooms in presentatiedia's kunt maken met Aspose.Slides voor .NET.
 ## Vereisten
@@ -70,3 +74,9 @@ Absoluut! U heeft volledige controle over de afmetingen, positionering en stijl 
  Ja, u kunt de functies van Aspose.Slides verkennen met behulp van de[gratis proefperiode](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides-gerelateerde vragen?
  Voor ondersteuning of vragen kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

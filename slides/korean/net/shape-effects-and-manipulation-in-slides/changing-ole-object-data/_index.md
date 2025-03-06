@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 프레젠테이션에서 OLE 개체 데이�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션에서 OLE 개체 데이터 변경
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: OLE 개체 데이터를 손쉽게 변경하는 데 있어 Aspose.Slides for .NET의 강력한 기능을 살펴보세요. 동적 콘텐츠로 프레젠테이션을 향상시키세요.
-type: docs
 weight: 25
 url: /ko/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 역동적이고 대화형인 PowerPoint 프레젠테이션을 만드는 것은 오늘날 디지털 세계의 일반적인 요구 사항입니다. 이를 달성하기 위한 강력한 도구 중 하나는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하고 향상시킬 수 있는 강력한 라이브러리인 Aspose.Slides for .NET입니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 프레젠테이션 슬라이드 내의 OLE(Object Linking and Embedding) 개체 데이터를 변경하는 프로세스를 살펴보겠습니다.
 ## 전제 조건
@@ -88,3 +92,9 @@ Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 프로�
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### .NET용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  지원 및 토론을 원하시면 다음 사이트를 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

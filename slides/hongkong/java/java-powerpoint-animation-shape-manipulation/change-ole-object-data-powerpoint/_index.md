@@ -3,10 +3,14 @@ title: 在 PowerPoint 中更改 OLE 物件數據
 linktitle: 在 PowerPoint 中更改 OLE 物件數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 變更 PowerPoint 中的 OLE 物件資料。高效、輕鬆更新的逐步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 當您需要更新嵌入內容而不手動編輯每張投影片時，變更 PowerPoint 簡報中的 OLE 物件資料可能是一項至關重要的任務。這份綜合指南將引導您完成使用 Aspose.Slides for Java 的過程，Aspose.Slides for Java 是一個功能強大的函式庫，專為處理 PowerPoint 簡報而設計。無論您是經驗豐富的開發人員還是剛起步，您都會發現本教學很有幫助且易於遵循。
 ## 先決條件
@@ -100,3 +104,9 @@ OLE（物件連結和嵌入）物件允許將其他應用程式（例如 Excel �
 是的，您可以獲得[免費試用](https://releases.aspose.com/)測試Aspose.Slides的功能。
 ### 在哪裡可以找到 Aspose.Slides 的文檔？
 您可以在以下位置找到詳細文檔[Aspose.Slides 文件頁面](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

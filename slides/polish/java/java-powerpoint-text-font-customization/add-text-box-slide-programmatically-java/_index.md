@@ -3,10 +3,14 @@ title: Programowo dodaj pole tekstowe na slajdzie za pomocą języka Java
 linktitle: Programowo dodaj pole tekstowe na slajdzie za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo dodać pole tekstowe do slajdów programu PowerPoint przy użyciu Aspose.Slides dla Java. Zwiększ swoją produktywność dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 24
 url: /pl/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Programowe tworzenie prezentacji programu PowerPoint i manipulowanie nimi może usprawnić wiele przepływów pracy, od generowania raportów po automatyzację prezentacji. Aspose.Slides for Java zapewnia potężne API, które pozwala programistom efektywnie wykonywać te zadania. W tym samouczku poprowadzimy Cię przez proces dodawania pola tekstowego do slajdu przy użyciu Aspose.Slides dla Java. Pod koniec tego samouczka będziesz jasno wiedział, jak zintegrować tę funkcjonalność z aplikacjami Java.
 ## Warunki wstępne
@@ -67,3 +71,9 @@ Bez wątpienia został zaprojektowany do wydajnej obsługi złożonych zadań.
  Można uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) z Aspose.
 ### Czy Aspose.Slides obsługuje konwersję prezentacji do innych formatów?
 Tak, obsługuje różne formaty, w tym pliki PDF i obrazy.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

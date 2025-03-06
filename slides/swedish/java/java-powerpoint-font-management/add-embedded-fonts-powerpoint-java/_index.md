@@ -3,10 +3,14 @@ title: Lägg till inbäddade teckensnitt i PowerPoint med Java
 linktitle: Lägg till inbäddade teckensnitt i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till inbäddade typsnitt i PowerPoint-presentationer med Java med Aspose.Slides för Java. Säkerställ konsekvent visning på alla enheter.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I den här självstudien guidar vi dig genom processen att lägga till inbäddade typsnitt i PowerPoint-presentationer med Java, speciellt med Aspose.Slides för Java. Inbäddade teckensnitt ser till att din presentation ser konsekvent ut på olika enheter, även om det ursprungliga teckensnittet inte är tillgängligt. Låt oss dyka ner i stegen:
 ## Förutsättningar
@@ -69,3 +73,9 @@ Ja, inbäddning av teckensnitt kan öka filstorleken på presentationen något, 
 Aspose.Slides för Java stöder inbäddning av TrueType-teckensnitt, som täcker ett brett utbud av typsnitt som vanligtvis används i presentationer.
 ### Kan jag bädda in teckensnitt programmatiskt med Aspose.Slides för Java?
 Ja, som visas i den här handledningen kan du bädda in teckensnitt programmatiskt med Aspose.Slides för Java API.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

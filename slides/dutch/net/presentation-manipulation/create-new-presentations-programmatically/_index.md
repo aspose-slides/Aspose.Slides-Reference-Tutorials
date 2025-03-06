@@ -3,10 +3,14 @@ title: Maak programmatisch nieuwe presentaties
 linktitle: Maak programmatisch nieuwe presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u programmatisch presentaties kunt maken met Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode voor efficiënte automatisering.
-type: docs
 weight: 10
 url: /nl/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Als u programmatisch presentaties wilt maken in .NET, is Aspose.Slides voor .NET een krachtig hulpmiddel om u te helpen deze taak efficiënt uit te voeren. Deze stapsgewijze zelfstudie leidt u door het proces van het maken van nieuwe presentaties met behulp van de meegeleverde broncode.
 
@@ -87,3 +91,9 @@ Nu kunt u beginnen met het opnemen van deze code in uw .NET-projecten om dynamis
 
 4. ### Kan ik Aspose.Slides voor .NET uitproberen voordat ik een aankoop doe?
     Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET downloaden[hier](https://releases.aspose.com/). De proefversie heeft beperkingen, dus controleer of deze aan uw eisen voldoet.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

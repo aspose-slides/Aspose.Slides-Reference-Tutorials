@@ -3,10 +3,14 @@ title: Formjustering och formatering i Slides
 linktitle: Formjustering och formatering i Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska de omfattande Aspose.Slides-handledningarna om formjustering och formatering i .NET-applikationer. Lär dig att justera och formatera former utan ansträngning, och förbättra dina bildpresentationer med precision.
-type: docs
 weight: 14
 url: /sv/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion
 
@@ -44,3 +48,9 @@ Lär dig hur du skapar fängslande presentationsbilder med skissade former med A
 Lär dig hur du lägger till stretch offset till vänster för en bildram i PowerPoint med Aspose.Slides för .NET. Steg-för-steg-guide med komplett källkodsexempel.
 ### [Ersätter bildtitel för OLE-objektram i presentationsbilder](./substituting-picture-title-ole-object-frame/)
 Lär dig hur du ersätter bildtitlar för OLE-objektramar i presentationsbilder med Aspose.Slides för .NET. Steg-för-steg guide med komplett källkod.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

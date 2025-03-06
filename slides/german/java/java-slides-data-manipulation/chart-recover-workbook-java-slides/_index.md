@@ -3,10 +3,14 @@ title: Diagrammwiederherstellung - Arbeitsmappe in Java-Folien
 linktitle: Diagrammwiederherstellung - Arbeitsmappe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Arbeitsmappen aus Diagrammen in Java Slides wiederherstellen. Schritt-für-Schritt-Anleitung zur PowerPoint-Automatisierung.
-type: docs
 weight: 17
 url: /de/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in die Diagrammwiederherstellung von Arbeitsmappen in Java-Folien
 
@@ -109,3 +113,9 @@ Absolut! Aspose.Slides für Java ist eine leistungsstarke Bibliothek zur Automat
 ### Wie kann ich auf weitere Dokumentation für Aspose.Slides für Java zugreifen?
 
  Ausführliche Dokumentation und Referenzen zu Aspose.Slides für Java finden Sie auf der Dokumentationsseite unter[Hier](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

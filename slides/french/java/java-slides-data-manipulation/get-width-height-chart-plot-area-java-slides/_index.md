@@ -3,10 +3,14 @@ title: Obtenez la largeur et la hauteur de la zone de tracé du graphique dans l
 linktitle: Obtenez la largeur et la hauteur de la zone de tracé du graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer les dimensions de la zone de tracé d'un graphique dans Java Slides à l'aide d'Aspose.Slides pour Java. Améliorez vos compétences en automatisation PowerPoint.
-type: docs
 weight: 21
 url: /fr/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction
 
@@ -109,3 +113,10 @@ Oui, Aspose.Slides for Java est une puissante bibliothèque permettant d'automat
 ### Comment puis-je en savoir plus sur Aspose.Slides pour Java ?
 
  Vous pouvez trouver une documentation complète et des exemples sur la page de documentation Aspose.Slides pour Java.[ici](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

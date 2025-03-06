@@ -3,10 +3,14 @@ title: Gráfico de mapa em slides Java
 linktitle: Gráfico de mapa em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Crie gráficos de mapas impressionantes em apresentações do PowerPoint com Aspose.Slides para Java. Guia passo a passo e código-fonte para desenvolvedores Java.
-type: docs
 weight: 15
 url: /pt/java/chart-elements/map-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução ao mapa gráfico em slides Java usando Aspose.Slides para Java
 
@@ -131,3 +135,9 @@ Neste tutorial, percorremos o processo de criação de um mapa gráfico em uma a
 ### Como integro Aspose.Slides for Java ao meu projeto?
 
  Baixe a biblioteca de[aqui](https://releases.aspose.com/slides/java/) e adicione-o ao classpath do seu projeto.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

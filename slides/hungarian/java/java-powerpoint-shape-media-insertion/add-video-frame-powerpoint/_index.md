@@ -3,10 +3,14 @@ title: Videokeret hozzáadása a PowerPointban
 linktitle: Videokeret hozzáadása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan integrálhat zökkenőmentesen videotartalmat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Diák multimédiás elemekkel, hogy bevonják a közönséget.
-type: docs
 weight: 17
 url: /hu/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a videókeret PowerPoint-prezentációhoz való hozzáadásának folyamatán az Aspose.Slides for Java segítségével. Ha követi ezeket a lépésenkénti utasításokat, könnyedén integrálhatja a videotartalmat prezentációiba.
 ## Előfeltételek
@@ -60,3 +64,9 @@ Igen, az Aspose.Slides for Java kompatibilis a JDK 6-os és újabb verzióival.
 Igen, tetszés szerint beállíthatja a videókockák lejátszási módját és hangerejét.
 ### Hol találok további támogatást és forrásokat az Aspose.Slides számára?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítségért, dokumentációért és közösségi támogatásért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

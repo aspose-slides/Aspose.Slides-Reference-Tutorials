@@ -3,10 +3,14 @@ title: Java 슬라이드의 차트 데이터 포인트 색인
 linktitle: Java 슬라이드의 차트 데이터 포인트 색인
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 데이터 포인트 인덱스를 조작하는 방법을 알아보세요. PowerPoint 차트에서 데이터를 쉽게 추출하고 작업할 수 있습니다.
-type: docs
 weight: 12
 url: /ko/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 슬라이드의 차트 데이터 포인트 색인 소개
 
@@ -98,3 +102,9 @@ Aspose.Slides for Java를 사용하면 차트가 포함된 PowerPoint 프레젠�
 ### Aspose.Slides for Java에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
 
  Aspose 문서 웹사이트에서 Java용 Aspose.Slides에 대한 포괄적인 예제와 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Hyperlinkmanipulatie in Aspose.Slides
 linktitle: Hyperlinkmanipulatie in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u hyperlinks toevoegt en verwijdert in Aspose.Slides voor .NET. Verbeter uw presentaties eenvoudig met interactieve links.
-type: docs
 weight: 10
 url: /nl/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Hyperlinks zijn essentiële elementen in presentaties, omdat ze een handige manier bieden om tussen dia's te navigeren of toegang te krijgen tot externe bronnen. Aspose.Slides voor .NET biedt krachtige functies voor het toevoegen en verwijderen van hyperlinks in uw presentatiedia's. In deze zelfstudie begeleiden we u door het proces van hyperlinkmanipulatie met Aspose.Slides voor .NET. We bespreken het toevoegen van hyperlinks aan een dia en het verwijderen van hyperlinks uit een dia. Dus laten we erin duiken!
 
@@ -121,3 +125,9 @@ Absoluut. Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waaronder
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Slides verkrijgen?
  Als u een tijdelijke licentie voor Aspose.Slides nodig heeft, kunt u er een aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

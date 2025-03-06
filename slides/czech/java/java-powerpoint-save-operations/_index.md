@@ -3,10 +3,14 @@ title: Operace ukládání Java PowerPoint
 linktitle: Operace ukládání Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se ukládat prezentace PowerPoint pomocí Aspose.Slides for Java. Návody na ukládání do souboru, streamování a přidávání ochrany heslem.
-type: docs
 weight: 20
 url: /cs/java/java-powerpoint-save-operations/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 
@@ -32,3 +36,9 @@ Naučte se ukládat prezentace PowerPoint do souborů programově pomocí Aspose
 Naučte se ukládat prezentace PowerPoint do streamu pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Uložit PowerPoint s heslem](./save-powerpoint-with-password/)
 Naučte se, jak přidat ochranu heslem k prezentacím PowerPoint pomocí Aspose.Slides for Java. Zajistěte své snímky snadno.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

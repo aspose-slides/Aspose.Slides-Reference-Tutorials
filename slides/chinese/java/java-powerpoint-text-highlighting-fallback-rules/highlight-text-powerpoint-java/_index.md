@@ -3,10 +3,14 @@ title: 使用 Java 在 PowerPoint 中突出显示文本
 linktitle: 使用 Java 在 PowerPoint 中突出显示文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中突出显示文本。使用我们的详细指南轻松实现演示文稿的自动化和增强。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在当今的数字时代，视觉交流在商业演示和教育材料中起着关键作用，能够以编程方式操作和增强 PowerPoint 演示文稿是一项重大优势。Aspose.Slides for Java 为开发人员提供了一套强大的工具，可以使用 Java 编程语言无缝集成和操作 PowerPoint 幻灯片。无论您是自动创建演示文稿、修改现有演示文稿还是从幻灯片中提取数据，Aspose.Slides for Java 都提供了高效完成这些任务所需的功能。
 ## 先决条件
@@ -62,3 +66,9 @@ Aspose.Slides for Java 是一个 Java API，它使开发人员能够创建、修
 Aspose.Slides for Java 支持以各种格式保存演示文稿，包括 PPTX、PPT、PDF 等。
 ### Aspose.Slides for Java 与 Java SE 开发工具包兼容吗？
 是的，Aspose.Slides for Java 与 Java SE 开发工具包兼容。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

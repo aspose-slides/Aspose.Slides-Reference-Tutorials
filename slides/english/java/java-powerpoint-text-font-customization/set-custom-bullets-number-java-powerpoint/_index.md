@@ -3,10 +3,14 @@ title: Set Custom Bullets Number in Java PowerPoint
 linktitle: Set Custom Bullets Number in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set custom bullet numbers in Java PowerPoint with Aspose.Slides, enhancing presentation clarity and structure programmatically.
-type: docs
 weight: 15
 url: /java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In today's digital age, creating dynamic presentations is crucial for effectively communicating ideas and data. Aspose.Slides for Java provides a powerful toolkit to manipulate PowerPoint presentations programmatically, offering extensive features to enhance your presentation-building process. This article delves into setting custom bullet numbers in Java PowerPoint presentations using Aspose.Slides. Whether you're a seasoned developer or a newcomer, this tutorial will guide you step-by-step through the process, ensuring you can leverage this capability efficiently.
 ## Prerequisites
@@ -82,3 +86,10 @@ Visit [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) for technical 
 Yes, you can download a free trial from [here](https://releases.aspose.com/).
 ### Where can I purchase Aspose.Slides?
 You can purchase Aspose.Slides from [here](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

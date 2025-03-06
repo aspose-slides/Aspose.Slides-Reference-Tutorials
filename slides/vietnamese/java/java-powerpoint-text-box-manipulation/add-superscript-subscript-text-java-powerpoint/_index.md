@@ -3,10 +3,14 @@ title: Thêm văn bản chỉ số trên và chỉ số dưới trong Java Power
 linktitle: Thêm văn bản chỉ số trên và chỉ số dưới trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm văn bản chỉ số trên và chỉ số dưới trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Hoàn hảo để nâng cao các slide của bạn.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Tạo bản trình bày PowerPoint hấp dẫn và giàu thông tin thường yêu cầu sử dụng các tính năng định dạng như văn bản chỉ số trên và chỉ số dưới. Hướng dẫn này sẽ hướng dẫn bạn quy trình kết hợp văn bản chỉ số trên và chỉ số dưới vào bản trình bày Java PowerPoint của bạn bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -89,3 +93,9 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà ph�
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Để được hỗ trợ và thảo luận, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

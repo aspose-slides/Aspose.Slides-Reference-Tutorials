@@ -3,10 +3,14 @@ title: Embedded Font Compression in Java PowerPoint
 linktitle: Embedded Font Compression in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to compress embedded fonts in Java PowerPoint presentations using Aspose.Slides. Optimize file sizes effortlessly.
-type: docs
 weight: 12
 url: /java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In the dynamic landscape of digital presentations, the ability to optimize file sizes without compromising quality is paramount. Aspose.Slides for Java offers a powerful solution to enhance the efficiency of PowerPoint presentations by enabling embedded font compression. This tutorial will guide you through the process of leveraging this feature to reduce file sizes effectively, ensuring smoother distribution and enhanced performance of your presentations.
 ## Prerequisites
@@ -64,3 +68,10 @@ Yes, you can access a free trial of Aspose.Slides from the provided [link](https
 Certainly! You can seek support from the Aspose.Slides community through the dedicated [forum](https://forum.aspose.com/c/slides/11) or consider acquiring a temporary license for priority assistance.
 ### How can I purchase a licensed version of Aspose.Slides for Java?
 You can purchase a licensed version of Aspose.Slides for Java from the website using the provided [buy link](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

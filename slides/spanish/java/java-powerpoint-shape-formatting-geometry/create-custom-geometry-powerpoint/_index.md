@@ -3,10 +3,14 @@ title: Crear geometría personalizada en PowerPoint
 linktitle: Crear geometría personalizada en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear formas geométricas personalizadas en PowerPoint usando Aspose.Slides para Java. Esta guía le ayudará a mejorar sus presentaciones con formas únicas.
-type: docs
 weight: 21
 url: /es/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 Crear formas y geometrías personalizadas en PowerPoint puede mejorar significativamente el atractivo visual de sus presentaciones. Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrolladores manipular archivos de PowerPoint mediante programación. En este tutorial, exploraremos cómo crear una geometría personalizada, específicamente una forma de estrella, en una diapositiva de PowerPoint usando Aspose.Slides para Java. ¡Vamos a sumergirnos!
 ## Requisitos previos
@@ -106,3 +110,9 @@ Aspose.Slides para Java ofrece una prueba gratuita. Para un uso prolongado, debe
 No se requiere ninguna configuración especial aparte de tener instalado JDK e incluir la biblioteca Aspose.Slides en su proyecto.
 ### ¿Dónde puedo obtener soporte para Aspose.Slides?
  Puede obtener apoyo del[Foro de soporte de Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

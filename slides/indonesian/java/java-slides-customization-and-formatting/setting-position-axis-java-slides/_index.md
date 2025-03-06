@@ -3,10 +3,14 @@ title: Mengatur Posisi Sumbu di Slide Java
 linktitle: Mengatur Posisi Sumbu di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan Grafik Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur sumbu posisi di slide Java, membuat presentasi yang menakjubkan, dan menyesuaikan tata letak bagan dengan mudah.
-type: docs
 weight: 16
 url: /id/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Pengaturan Posisi Sumbu di Aspose.Slide untuk Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Itu saja untuk tutorial ini. Anda telah mempelajari cara mengatur sumbu posisi dalam bagan menggunakan Aspose.Slides untuk Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

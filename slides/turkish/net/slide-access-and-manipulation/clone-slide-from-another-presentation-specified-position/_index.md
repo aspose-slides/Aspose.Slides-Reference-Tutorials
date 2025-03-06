@@ -3,10 +3,14 @@ title: Slaydı Farklı Sunumdan Belirtilen Konuma Klonlayın
 linktitle: Slaydı Farklı Sunumdan Belirtilen Konuma Klonlayın
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak farklı sunumlardaki slaytları belirli bir konuma nasıl kopyalayacağınızı öğrenin. Slayt klonlamayı, konum belirtmeyi ve sunum kaydetmeyi kapsayan, eksiksiz kaynak kodunu içeren adım adım kılavuz.
-type: docs
 weight: 16
 url: /tr/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Slaytları Farklı Sunumdan Belirtilen Konuma Klonlamaya Giriş
 
@@ -137,3 +141,9 @@ Aspose.Slides kütüphanesinin sağladığı yöntemleri kullanarak klonlanan sl
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/) Aspose.Slides for .NET ile ilgili ayrıntılı bilgi, örnekler ve API referansları için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

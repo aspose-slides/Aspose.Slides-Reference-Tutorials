@@ -3,10 +3,14 @@ title: Automatische segmentkleuren voor cirkeldiagrammen instellen in Java-dia's
 linktitle: Automatische segmentkleuren voor cirkeldiagrammen instellen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u dynamische cirkeldiagrammen kunt maken met automatische segmentkleuren in Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
-type: docs
 weight: 24
 url: /nl/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Inleiding tot het instellen van automatische segmentkleuren voor cirkeldiagrammen in Java-dia's
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 U kunt de lettergrootte, vetheid en cursieve stijl indien nodig aanpassen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: مخطط الحصول على النطاق في شرائح جافا
 linktitle: مخطط الحصول على النطاق في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد نطاقات المخططات في Java Slides باستخدام Aspose.Slides for Java API. دليل خطوة بخطوة مع التعليمات البرمجية المصدر للوصول الفعال إلى بيانات المخطط.
-type: docs
 weight: 16
 url: /ar/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى مخطط الحصول على النطاق في شرائح جافا
 
@@ -98,3 +102,10 @@ Aspose.Slides for Java هي مكتبة تجارية، ولكن يمكنك است
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق وموارد شاملة لـ Aspose.Slides for Java على الموقع:[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

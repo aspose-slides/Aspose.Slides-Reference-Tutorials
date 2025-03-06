@@ -3,10 +3,14 @@ title: プレゼンテーションにおける複合幾何学図形の習得
 linktitle: Aspose.Slides を使用してジオメトリ シェイプに複合オブジェクトを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、複合ジオメトリ シェイプを使用した魅力的なプレゼンテーションを作成する方法を学びます。ステップ バイ ステップ ガイドに従って、印象的な結果を実現してください。
-type: docs
 weight: 14
 url: /ja/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Aspose.Slides for .NET のパワーを活用して、ジオメトリ シェイプの複合オブジェクトを作成し、プレゼンテーションを強化します。このチュートリアルでは、Aspose.Slides を使用して複雑なジオメトリを持つ視覚的に魅力的なスライドを生成するプロセスについて説明します。
 ## 前提条件
@@ -84,3 +88,9 @@ Aspose.Slides は、Java や Python など、さまざまなプログラミン�
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートと支援のため。
 ### Q: 一時ライセンスを購入できますか?
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

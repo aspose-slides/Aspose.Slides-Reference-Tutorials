@@ -3,10 +3,14 @@ title: إعداد وسائل الشرح لتسمية البيانات في شر�
 linktitle: إعداد وسائل الشرح لتسمية البيانات في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إعداد وسائل الشرح لتسميات البيانات في Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 25
 url: /ar/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لإعداد وسائل الشرح لتسمية البيانات في Aspose.Slides لـ Java
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 هذه بعض خيارات التخصيص الشائعة لتسميات البيانات ووسائل الشرح في Aspose.Slides لـ Java. يمكنك أيضًا تخصيص المظهر وفقًا لاحتياجاتك المحددة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

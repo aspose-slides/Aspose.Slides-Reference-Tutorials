@@ -3,10 +3,14 @@ title: تحويل العرض التقديمي إلى GIF المتحركة
 linktitle: تحويل العرض التقديمي إلى GIF المتحركة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بإنشاء عروض تقديمية جذابة باستخدام رسوم GIF المتحركة باستخدام Aspose.Slides لـ .NET. تحويل الشرائح الثابتة إلى تجارب بصرية ديناميكية.
-type: docs
 weight: 20
 url: /ar/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في العصر الرقمي الحالي، يلعب المحتوى المرئي دورًا حيويًا في التواصل. في بعض الأحيان، قد تحتاج إلى تحويل العرض التقديمي إلى صورة GIF متحركة لجعله أكثر جاذبية وقابلية للمشاركة. ولحسن الحظ، بمساعدة Aspose.Slides for .NET، تصبح هذه المهمة واضحة ومباشرة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل العرض التقديمي إلى صورة متحركة بتنسيق GIF باستخدام كود المصدر التالي.
 
@@ -80,3 +84,9 @@ presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 
 ### س5: أين يمكنني الوصول إلى الكود المصدري لهذا البرنامج التعليمي؟
  يمكنك العثور على الكود المصدري والمزيد من البرامج التعليمية على Aspose.Slides في الوثائق[هنا](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Voeg rekverschuiving toe voor afbeeldingsvulling in PowerPoint
 linktitle: Voeg rekverschuiving toe voor afbeeldingsvulling in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een rekverschuiving kunt toevoegen voor afbeeldingsinvulling in PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Inclusief stap-voor-stap handleiding.
-type: docs
 weight: 16
 url: /nl/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 In deze zelfstudie leert u hoe u Aspose.Slides voor Java kunt gebruiken om een uitrekbare offset toe te voegen voor het opvullen van afbeeldingen in PowerPoint-presentaties. Met deze functie kunt u afbeeldingen in uw dia's manipuleren, waardoor u meer controle krijgt over hun uiterlijk.
 ## Vereisten
@@ -64,3 +68,9 @@ Aspose.Slides voor Java kan afbeeldingen van verschillende formaten verwerken, m
 Ja, u kunt een breed scala aan effecten en transformaties op afbeeldingen toepassen met behulp van de uitgebreide API van Aspose.Slides voor Java.
 ### Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Slides voor Java?
  U kunt een bezoek brengen aan de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor gedetailleerde gidsen en verken de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapssteun.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

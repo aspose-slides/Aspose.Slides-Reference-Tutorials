@@ -3,10 +3,14 @@ title: Geometri Şekillerinde Bileşik Nesneler Oluşturma
 linktitle: Geometri Şekillerinde Bileşik Nesneler Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu kapsamlı eğitimle Aspose.Slides for Java'yı kullanarak geometri şekillerinde kompozit nesneler oluşturmayı öğrenin. Java geliştiricileri için mükemmel.
-type: docs
 weight: 20
 url: /tr/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Selam! Hiç Java kullanarak PowerPoint sunumlarınızda çarpıcı ve karmaşık şekiller oluşturmak istediniz mi? Peki, doğru yerdesiniz. Bu eğitimde, geometri şekillerinde kompozit nesneler oluşturmak için güçlü Aspose.Slides for Java kütüphanesini inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz kısa sürede etkileyici sonuçlar elde etmenize yardımcı olacaktır. başlamaya hazır mısın? Hadi dalalım!
 ## Önkoşullar
@@ -95,3 +99,9 @@ Aspose.Slides for Java, Java'da PowerPoint sunumları oluşturmaya, düzenlemeye
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Daha fazla belge ve desteği nerede bulabilirim?
  Kontrol et[dokümantasyon](https://reference.aspose.com/slides/java/) Ve[destek Forumu](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

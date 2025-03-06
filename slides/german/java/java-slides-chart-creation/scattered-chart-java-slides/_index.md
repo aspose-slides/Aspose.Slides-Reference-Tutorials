@@ -3,10 +3,14 @@ title: Streudiagramm in Java-Folien
 linktitle: Streudiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Streudiagramme in Java erstellen. Schritt-für-Schritt-Anleitung mit Java-Quellcode zur Datenvisualisierung in Präsentationen.
-type: docs
 weight: 11
 url: /de/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in Streudiagramme in Aspose.Slides für Java
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Weitere Anpassungsoptionen finden Sie in der Dokumentation zu Aspose.Slides für Java.
 
  Denken Sie daran, zu ersetzen`"Your Document Directory"` durch den tatsächlichen Pfad, in dem Sie die Präsentation speichern möchten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

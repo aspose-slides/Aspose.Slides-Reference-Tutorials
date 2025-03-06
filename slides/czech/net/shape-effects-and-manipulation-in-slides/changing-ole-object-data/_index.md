@@ -3,10 +3,14 @@ title: Změna dat objektu OLE v prezentaci pomocí Aspose.Slides
 linktitle: Změna dat objektu OLE v prezentaci pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte sílu Aspose.Slides pro .NET při snadné změně objektových dat OLE. Vylepšete své prezentace dynamickým obsahem.
-type: docs
 weight: 25
 url: /cs/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Vytváření dynamických a interaktivních prezentací v PowerPointu je v dnešním digitálním světě běžným požadavkem. Jedním z mocných nástrojů, jak toho dosáhnout, je Aspose.Slides for .NET, robustní knihovna, která umožňuje vývojářům programově manipulovat a vylepšovat prezentace PowerPoint. V tomto tutoriálu se ponoříme do procesu změny objektových dat OLE (Object Linking and Embedding) v rámci snímků prezentace pomocí Aspose.Slides.
 ## Předpoklady
@@ -88,3 +92,9 @@ Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům pr
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides pro .NET?
  Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

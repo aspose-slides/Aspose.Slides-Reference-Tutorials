@@ -3,10 +3,14 @@ title: Menambahkan Stretch Offset untuk Isi Gambar dalam Presentasi PowerPoint
 linktitle: Menambahkan Stretch Offset untuk Isian Gambar di Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan presentasi PowerPoint dengan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah untuk menambahkan offset regangan untuk pengisian gambar.
-type: docs
 weight: 18
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, visual memainkan peran penting dalam menarik perhatian audiens. Aspose.Slides for .NET memberdayakan pengembang untuk menyempurnakan presentasi PowerPoint mereka dengan menyediakan serangkaian fitur canggih. Salah satu fitur tersebut adalah kemampuan untuk menambahkan peregangan offset untuk pengisian gambar, memungkinkan slide yang kreatif dan menarik secara visual.
 ## Prasyarat
@@ -71,3 +75,9 @@ Ya, Aspose.Slides untuk .NET cocok untuk aplikasi desktop dan web.
  Mengacu kepada[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi rinci.
 ### Bisakah saya membeli Aspose.Slides untuk .NET?
  Ya, Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

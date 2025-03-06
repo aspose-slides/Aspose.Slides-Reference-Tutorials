@@ -3,10 +3,14 @@ title: Geometrie tvaru a umístění ve snímcích pomocí Aspose.Slides
 linktitle: Geometrie tvaru a umístění ve snímcích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své dovednosti v manipulaci se snímky pomocí výukových programů Aspose.Slides o geometrii tvaru a umístění na snímcích. Naučte se programově ovládat tvary, jejich rozměry a zarovnání.
-type: docs
 weight: 13
 url: /cs/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 
@@ -51,3 +55,9 @@ Naučte se, jak efektivně integrovat data světelné soupravy do prezentačníc
 Naučte se, jak vylepšit snímky prezentace pomocí efektivních dat úkosů pomocí Aspose.Slides. Komplexní průvodce s podrobnými pokyny a ukázkovým kódem.
 ### [Skrytí obrazců v prezentačních snímcích s Aspose.Slides](./hiding-shapes/)
 Naučte se skrýt tvary ve snímcích prezentace pomocí Aspose.Slides for .NET. Podrobný průvodce se zdrojovým kódem, často kladenými dotazy a doporučenými postupy pro dynamické prezentace.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

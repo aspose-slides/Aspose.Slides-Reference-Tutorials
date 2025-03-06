@@ -3,10 +3,14 @@ title: Konwertuj na XAML w slajdach Java
 linktitle: Konwertuj na XAML w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje PowerPoint do XAML w Javie za pomocą Aspose.Slides. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 28
 url: /pl/java/presentation-conversion/convert-to-xaml-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie Konwertuj na XAML w Java Slides
 
@@ -161,3 +165,9 @@ Aby wyeksportować ukryte slajdy podczas konwersji, ustaw opcję`setExportHidden
 ### Czy są jakieś inne formaty wyjściowe obsługiwane przez Aspose.Slides?
 
 Tak, Aspose.Slides obsługuje szeroką gamę formatów wyjściowych, w tym PDF, HTML, obrazy i inne. Możesz zapoznać się z tymi opcjami w dokumentacji interfejsu API.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

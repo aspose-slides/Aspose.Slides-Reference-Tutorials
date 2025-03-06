@@ -3,10 +3,14 @@ title: Kustomisasi Bagan Tingkat Lanjut
 linktitle: Kustomisasi Bagan Tingkat Lanjut
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan penyesuaian bagan tingkat lanjut menggunakan Aspose.Slides untuk .NET. Pelajari cara membuat bagan yang menakjubkan secara visual dan menyesuaikannya dengan kebutuhan Anda.
-type: docs
 weight: 23
 url: /id/net/advanced-chart-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Perkenalan
 
@@ -33,3 +37,9 @@ Pelajari cara meningkatkan visualisasi data Anda menggunakan Aspose.Slides untuk
 Pelajari cara membuat garis tren bagan menggunakan Aspose.Slides untuk .NET. Tingkatkan visualisasi data dengan panduan langkah demi langkah dan contoh kode.
 ### [Entitas Bagan dan Pemformatan](./chart-entities/)
 Pelajari cara membuat dan memformat bagan dinamis di PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

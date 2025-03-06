@@ -3,10 +3,14 @@ title: Slide View and Layout Manipulation in Aspose.Slides
 linktitle: Slide View and Layout Manipulation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to manipulate slide views and layouts in PowerPoint using Aspose.Slides for .NET. Step-by-step guide with code examples. 
-type: docs
 weight: 10
 url: /net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In the world of software development, creating and manipulating PowerPoint presentations programmatically is a common requirement. Aspose.Slides for .NET provides a powerful toolkit that allows developers to work with PowerPoint files seamlessly. One crucial aspect of working with presentations is slide view and layout manipulation. In this guide, we'll delve into the process of using Aspose.Slides for .NET to manage slide views and layouts, offering step-by-step instructions and code examples.
 
@@ -133,3 +137,10 @@ You can save the modified presentation in various formats, including PPTX, PPT, 
 
 Aspose.Slides for .NET simplifies the process of working with PowerPoint presentations programmatically. In this guide, we explored the fundamental steps of slide view and layout manipulation. From loading presentations to customizing slide content, Aspose.Slides provides a robust toolkit for developers to create dynamic and engaging presentations effortlessly.
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

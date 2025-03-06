@@ -3,10 +3,14 @@ title: แผนภูมิฮิสโตแกรมใน Java Slides
 linktitle: แผนภูมิฮิสโตแกรมใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการสร้างแผนภูมิฮิสโตแกรมในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการแสดงข้อมูลเป็นภาพ
-type: docs
 weight: 19
 url: /th/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิฮิสโตแกรมใน Java Slides โดยใช้ Aspose.Slides
 
@@ -112,3 +116,9 @@ finally
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของแผนภูมิฮิสโตแกรมได้หรือไม่
 
 ใช่ คุณสามารถปรับแต่งลักษณะของแผนภูมิ รวมถึงสี ป้ายกำกับ และแกนได้โดยใช้ Aspose.Slides API
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

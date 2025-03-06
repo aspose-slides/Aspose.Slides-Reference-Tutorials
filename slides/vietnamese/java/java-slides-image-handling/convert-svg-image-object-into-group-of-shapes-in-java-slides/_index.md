@@ -3,10 +3,14 @@ title: Chuyển đổi đối tượng hình ảnh SVG thành nhóm hình dạng
 linktitle: Chuyển đổi đối tượng hình ảnh SVG thành nhóm hình dạng trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi hình ảnh SVG thành một nhóm hình dạng trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 13
 url: /vi/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Giới thiệu Chuyển đổi đối tượng hình ảnh SVG thành nhóm hình dạng trong Java Slides
 
@@ -129,3 +133,9 @@ Có, Aspose.Slides yêu cầu giấy phép hợp lệ để sử dụng cho mụ
 ### Tôi có thể tùy chỉnh giao diện của các hình dạng được chuyển đổi không?
 
 Chắc chắn! Bạn có thể tùy chỉnh hình thức, kích thước và vị trí của các hình dạng được chuyển đổi theo yêu cầu của mình. Aspose.Slides cung cấp các API mở rộng để thao tác hình dạng.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

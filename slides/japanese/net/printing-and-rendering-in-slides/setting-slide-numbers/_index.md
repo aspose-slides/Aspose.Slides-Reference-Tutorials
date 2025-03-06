@@ -3,10 +3,14 @@ title: Aspose.Slides を使用してプレゼンテーションのスライド�
 linktitle: Aspose.Slides を使用してプレゼンテーションのスライド番号を設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でシームレスなスライド操作の世界を探索しましょう。スライド番号を簡単に設定して、プレゼンテーション体験を向上させる方法を学びます。
-type: docs
 weight: 16
 url: /ja/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 プレゼンテーションの動的な世界では、スライドの順序と構成を制御することが効果的なコミュニケーションに不可欠です。Aspose.Slides for .NET は、プレゼンテーション内のスライド番号を操作するための強力なソリューションを提供し、コンテンツをシームレスにカスタマイズする柔軟性を提供します。
 ## 前提条件
@@ -63,3 +67,9 @@ Aspose.Slides for .NET を使用すると、スライド番号を簡単に設定
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティベースのサポートをご希望の場合は、プレミアム サポート オプションをご確認ください。
 ### 購入前に Aspose.Slides を試すことはできますか?
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

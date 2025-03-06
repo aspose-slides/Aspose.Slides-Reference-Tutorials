@@ -3,10 +3,14 @@ title: Tạo hình ảnh động dễ dàng với Aspose.Slides
 linktitle: Áp dụng Hoạt ảnh cho Hình dạng trong Trang trình bày với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tạo bản trình bày ấn tượng với Aspose.Slides cho .NET. Tìm hiểu cách áp dụng hoạt ảnh cho hình dạng trong hướng dẫn từng bước này. Nâng tầm slide của bạn ngay bây giờ!
-type: docs
 weight: 21
 url: /vi/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong thế giới của các bản trình bày động, việc thêm hoạt ảnh vào các hình có thể nâng cao đáng kể sự hấp dẫn trực quan và sự tương tác của các trang trình bày của bạn. Aspose.Slides for .NET cung cấp bộ công cụ mạnh mẽ để đạt được điều này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hoạt ảnh cho các hình dạng bằng Aspose.Slides, cho phép bạn tạo các bài thuyết trình hấp dẫn để lại ấn tượng lâu dài.
 ## Điều kiện tiên quyết
@@ -81,3 +85,9 @@ Aspose.Slides đảm bảo khả năng tương thích với nhiều phiên bản
  Có, bạn có thể có được giấy phép[đây](https://purchase.aspose.com/buy) để mở khóa toàn bộ tiềm năng của Aspose.Slides.
 ### Tôi có thể dùng thử Aspose.Slides trước khi mua không?
  Chắc chắn! Sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để trải nghiệm các khả năng của Aspose.Slides trước khi đưa ra cam kết.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: قم بتعيين عكس مخطط ألوان التعبئة في شرائ
 linktitle: قم بتعيين عكس مخطط ألوان التعبئة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين ألوان التعبئة المعكوسة لمخططات Java Slides باستخدام Aspose.Slides. قم بتحسين تصورات المخطط الخاص بك باستخدام هذا الدليل التفصيلي والتعليمة البرمجية المصدرية.
-type: docs
 weight: 22
 url: /ar/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتعيين مخطط ألوان التعبئة العكسية في شرائح Java
 
@@ -153,3 +157,9 @@ if (pres != null) pres.dispose();
 ### هل يمكنني حفظ المخطط بتنسيقات مختلفة؟
 
  نعم، يمكنك حفظ المخطط بتنسيقات مختلفة باستخدام Aspose.Slides لـ Java. في مثال التعليمات البرمجية المقدم، قمنا بحفظ العرض التقديمي كملف PPTX. يمكنك استخدام مختلفة`SaveFormat` خيارات لحفظه بتنسيقات أخرى مثل PDF أو PNG أو SVG، حسب متطلباتك.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

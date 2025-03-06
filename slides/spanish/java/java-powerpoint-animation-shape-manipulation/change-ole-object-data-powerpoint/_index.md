@@ -3,10 +3,14 @@ title: Cambiar datos de objetos OLE en PowerPoint
 linktitle: Cambiar datos de objetos OLE en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo cambiar datos de objetos OLE en PowerPoint usando Aspose.Slides para Java. Una guía paso a paso para actualizaciones eficientes y sencillas.
-type: docs
 weight: 14
 url: /es/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 Cambiar los datos de los objetos OLE en presentaciones de PowerPoint puede ser una tarea crucial cuando necesita actualizar el contenido incrustado sin editar manualmente cada diapositiva. Esta guía completa lo guiará a través del proceso utilizando Aspose.Slides para Java, una poderosa biblioteca diseñada para manejar presentaciones de PowerPoint. Si es un desarrollador experimentado o recién está comenzando, este tutorial le resultará útil y fácil de seguir.
 ## Requisitos previos
@@ -100,3 +104,9 @@ Sí, si el objeto OLE es una hoja de cálculo de Excel, necesitará Aspose.Cells
  Sí, puedes conseguir un[prueba gratis](https://releases.aspose.com/) para probar las características de Aspose.Slides.
 ### ¿Dónde puedo encontrar la documentación de Aspose.Slides?
  Puede encontrar documentación detallada en el[Página de documentación de Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में श्रृंखला 
 linktitle: जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में श्रृंखला तत्वों को एनिमेट करना सीखें। अपने प्रस्तुतियों को बेहतर बनाने के लिए स्रोत कोड के साथ इस व्यापक चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 12
 url: /hi/java/animation-and-layout/animating-series-elements-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## जावा स्लाइड्स में श्रृंखला तत्वों को एनिमेट करने का परिचय
 
@@ -126,3 +130,9 @@ Aspose.Slides for Java को अपने प्रोजेक्ट में
 ### क्या Aspose.Slides for Java में अधिक उन्नत एनीमेशन विकल्प उपलब्ध हैं?
 
 हां, Aspose.Slides for Java मोशन पाथ, टाइमिंग और इंटरैक्टिव एनिमेशन सहित उन्नत एनिमेशन विकल्पों की एक विस्तृत श्रृंखला प्रदान करता है। आप अपनी प्रस्तुतियों में उन्नत एनिमेशन लागू करने के लिए Aspose.Slides द्वारा प्रदान किए गए दस्तावेज़ों और उदाहरणों का पता लगा सकते हैं।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Bemästra 3D-rotation i presentationer med Aspose.Slides för .NET
 linktitle: Tillämpa 3D-rotationseffekt på former i presentationsbilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationer med Aspose.Slides för .NET! Lär dig att tillämpa 3D-rotationseffekter på former i den här handledningen. Skapa dynamisk och visuellt fantastisk presentation.
-type: docs
 weight: 23
 url: /sv/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Att skapa engagerande och dynamiska presentationsbilder är en nyckelaspekt för effektiv kommunikation. Aspose.Slides för .NET tillhandahåller en kraftfull uppsättning verktyg för att förbättra dina presentationer, inklusive möjligheten att tillämpa 3D-rotationseffekter på former. I den här handledningen kommer vi att gå igenom processen att tillämpa en 3D-rotationseffekt på former i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -60,3 +64,9 @@ Ja, du kan använda 3D-rotationseffekter på olika former, inklusive textrutor, 
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta detaljerad dokumentation för Aspose.Slides för .NET?
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

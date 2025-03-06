@@ -3,10 +3,14 @@ title: Festlegen einer Legende für die Datenbeschriftung in Java-Folien
 linktitle: Festlegen einer Legende für die Datenbeschriftung in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Callouts für Datenbeschriftungen in Aspose.Slides für Java einrichten. Schritt-für-Schritt-Anleitung mit Quellcode.
-type: docs
 weight: 25
 url: /de/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Einführung in das Festlegen von Callouts für Datenbeschriftungen in Aspose.Slides für Java
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Dies sind einige allgemeine Anpassungsoptionen für Datenbeschriftungen und Beschriftungen in Aspose.Slides für Java. Sie können das Erscheinungsbild weiter an Ihre spezifischen Anforderungen anpassen.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

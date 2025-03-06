@@ -3,10 +3,14 @@ title: PowerPoint'te Light Rig Etkili Verilerini Alın
 linktitle: PowerPoint'te Light Rig Etkili Verilerini Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı, adım adım kılavuzda Aspose.Slides for Java kullanarak hafif teçhizat etkili verilerini PowerPoint sunumlarından nasıl alacağınızı öğrenin.
-type: docs
 weight: 25
 url: /tr/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 PowerPoint sunum görevlerinizi Java kullanarak otomatikleştirmek mi istiyorsunuz? Başka yerde arama! Aspose.Slides for Java, geliştiricilerin Microsoft PowerPoint'in yüklü olmasına gerek kalmadan PowerPoint dosyaları oluşturmasına, işlemesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Bu kapsamlı kılavuzda, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundan hafif teçhizatla etkili veriler elde etmek için size adım adım yol göstereceğiz. İster deneyimli bir Java geliştiricisi olun ister yeni başlıyor olun, bu eğitim projelerinizde Aspose.Slides'ın tüm potansiyelinden yararlanmanıza yardımcı olacaktır.
 ## Önkoşullar
@@ -66,3 +70,9 @@ Evet, Aspose.Slides'ı Microsoft PowerPoint yüklemeden kullanabilirsiniz.
  Dokümantasyon şu adreste mevcuttur:[bu bağlantı](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides için nasıl destek alabilirim?
  Aspose.Slides destek forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

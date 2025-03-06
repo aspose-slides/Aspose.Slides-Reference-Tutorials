@@ -3,10 +3,14 @@ title: Grafieken maken en aanpassen
 linktitle: Grafieken maken en aanpassen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter de presentatiemogelijkheden van uw .NET-applicatie met Aspose.Slides. Duik in onze tutorial over het maken en aanpassen van diagrammen en ontdek stapsgewijze handleidingen en codevoorbeelden.
-type: docs
 weight: 14
 url: /nl/net/chart-creation-and-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Invoering:
 
@@ -27,3 +31,9 @@ Leer hoe u dia's in presentaties vergelijkt met Aspose.Slides voor .NET. Stapsge
 Leer hoe u Aspose.Slides voor .NET kunt gebruiken om dynamische PowerPoint-presentaties te maken met tijdelijke aanduidingen.
 ### [Beheer kop- en voettekst in dia's](./header-footer-manager/)
 Leer hoe u kop- en voetteksten in dia's beheert met Aspose.Slides voor .NET. Pas uw presentaties eenvoudig en nauwkeurig aan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

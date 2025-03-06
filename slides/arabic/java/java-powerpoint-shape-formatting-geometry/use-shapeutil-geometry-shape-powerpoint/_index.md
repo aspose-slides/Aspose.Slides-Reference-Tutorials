@@ -3,10 +3,14 @@ title: استخدم ShapeUtil للأشكال الهندسية في PowerPoint
 linktitle: استخدم ShapeUtil للأشكال الهندسية في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإنشاء أشكال مخصصة في PowerPoint باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل المفصّل خطوة بخطوة لتحسين عروضك التقديمية.
-type: docs
 weight: 23
 url: /ar/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 غالبًا ما يتطلب إنشاء عروض PowerPoint التقديمية الجذابة أكثر من مجرد استخدام الأشكال والنصوص القياسية. تخيل أنك قادر على إضافة أشكال مخصصة ومسارات نصية مباشرة إلى شرائحك، مما يعزز التأثير البصري لعرضك التقديمي. باستخدام Aspose.Slides لـ Java، يمكنك تحقيق ذلك بسهولة. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام`ShapeUtil` فئة لإنشاء الأشكال الهندسية في عروض PowerPoint التقديمية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على الاستفادة من قوة Aspose.Slides لـ Java لإنشاء محتوى مذهل ومخصص الشكل.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  ال`ShapeUtil` توفر الفئة في Aspose.Slides أساليب مفيدة للعمل مع الأشكال، مثل تحويل المسارات الرسومية إلى مسارات هندسية.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

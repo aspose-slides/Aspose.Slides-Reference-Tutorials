@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में कस्टम दस्
 linktitle: जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Java Slides में कस्टम डॉक्यूमेंट प्रॉपर्टीज़ के साथ PowerPoint प्रेजेंटेशन को कैसे बेहतर बनाया जाए। Java के लिए Aspose.Slides का उपयोग करके कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 13
 url: /hi/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## जावा स्लाइड्स में कस्टम दस्तावेज़ गुण जोड़ने का परिचय
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 यह कोड प्रस्तुति में सभी कस्टम गुणों के नाम और मान प्रदर्शित करेगा।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Расширенная настройка диаграммы
 linktitle: Расширенная настройка диаграммы
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью расширенной настройки диаграмм с помощью Aspose.Slides для .NET. Узнайте, как создавать потрясающие диаграммы и адаптировать их под свои нужды.
-type: docs
 weight: 23
 url: /ru/net/advanced-chart-customization/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Введение
 
@@ -33,3 +37,9 @@ url: /ru/net/advanced-chart-customization/
 Узнайте, как создавать линии тренда на диаграмме с помощью Aspose.Slides для .NET. Улучшите визуализацию данных с помощью пошаговых инструкций и примеров кода.
 ### [Объекты диаграммы и форматирование](./chart-entities/)
 Научитесь создавать и форматировать динамические диаграммы в PowerPoint с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

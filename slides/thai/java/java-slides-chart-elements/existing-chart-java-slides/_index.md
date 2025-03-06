@@ -3,10 +3,14 @@ title: แผนภูมิที่มีอยู่ใน Java Slides
 linktitle: แผนภูมิที่มีอยู่ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ปรับปรุงงานนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้การแก้ไขแผนภูมิที่มีอยู่โดยทางโปรแกรม คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการปรับแต่งแผนภูมิ
-type: docs
 weight: 12
 url: /th/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิที่มีอยู่ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
 
@@ -184,3 +188,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### มีวิธีลบซีรี่ส์ออกจากแผนภูมิหรือไม่?
 
  ใช่ คุณสามารถลบชุดข้อมูลออกจากแผนภูมิได้โดยใช้`chart.getChartData().getSeries().removeAt(index)` วิธีการที่ไหน`index`คือดัชนีของซีรีส์ที่คุณต้องการลบ
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

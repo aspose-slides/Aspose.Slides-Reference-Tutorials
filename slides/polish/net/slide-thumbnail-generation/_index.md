@@ -3,10 +3,14 @@ title: Generowanie miniatur slajdów
 linktitle: Generowanie miniatur slajdów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak generować miniatury slajdów za pomocą Aspose.Slides dla .NET. Samouczek krok po kroku z przykładami kodu do tworzenia dynamicznych podglądów slajdów. Ulepsz swoje aplikacje do prezentacji dzięki tej zaawansowanej funkcji.
-type: docs
 weight: 17
 url: /pl/net/slide-thumbnail-generation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wstęp:
 
@@ -37,3 +41,9 @@ Dowiedz się, jak generować miniatury ze slajdów programu PowerPoint za pomoc�
 Generuj miniatury ze slajdów zawierających notatki za pomocą Aspose.Slides dla .NET. Dowiedz się krok po kroku, jak wyodrębniać notatki, tworzyć miniatury i usprawniać manipulację w programie PowerPoint. 
 ### [Wygeneruj miniaturę z niestandardowymi wymiarami](./generate-thumbnail-with-custom-dimensions/)
 Dowiedz się, jak generować miniatury o niestandardowych rozmiarach na slajdach za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym. Wzbogać swoje prezentacje atrakcyjnymi efektami wizualnymi. 
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

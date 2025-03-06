@@ -3,10 +3,14 @@ title: Расширенные свойства абзацев и шрифтов 
 linktitle: Расширенные свойства абзацев и шрифтов Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Освойте расширенные свойства абзацев и шрифтов в Java PowerPoint с помощью Aspose.Slides. Научитесь настраивать шрифты, добавлять графические маркеры и использовать резервные шрифты.
-type: docs
 weight: 28
 url: /ru/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 
 Создание безупречных презентаций PowerPoint требует тонкой настройки различных элементов, от форматирования абзацев до управления шрифтами. Aspose.Slides для Java предоставляет надежные инструменты для эффективного управления этими расширенными свойствами. В этой статье мы рассмотрим учебные пособия, которые помогут вам настроить свойства шрифта абзаца, добавить графические маркеры и использовать резервные шрифты. Давайте углубимся в эти передовые методы, которые сделают ваши презентации выдающимися!
@@ -35,3 +39,9 @@ url: /ru/java/java-powerpoint-advanced-paragraph-font-properties/
 Узнайте, как получить прямоугольник части в PowerPoint с помощью Aspose.Slides для Java, с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков Java.
 ### [Рендеринг с резервным шрифтом в Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Узнайте, как визуализировать текст с помощью резервных шрифтов в презентациях Java PowerPoint с помощью Aspose.Slides. Следуйте этому пошаговому руководству для беспрепятственного внедрения.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: تحويل العرض التقديمي إلى تنسيق SWF
 linktitle: تحويل العرض التقديمي إلى تنسيق SWF
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى تنسيق SWF باستخدام Aspose.Slides لـ .NET. أنشئ محتوى ديناميكيًا دون عناء!
-type: docs
 weight: 28
 url: /ar/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في العصر الرقمي الحالي، تعد العروض التقديمية متعددة الوسائط وسيلة قوية للاتصال. في بعض الأحيان، قد ترغب في مشاركة عروضك التقديمية بطريقة أكثر ديناميكية، مثل تحويلها إلى تنسيق SWF (Shockwave Flash). سيرشدك هذا الدليل خلال عملية تحويل العرض التقديمي إلى تنسيق SWF باستخدام Aspose.Slides لـ .NET.
 
@@ -111,3 +115,10 @@ SWF (Shockwave Flash) هو تنسيق وسائط متعددة يستخدم لل�
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  إذا كان لديك أي أسئلة أو كنت بحاجة إلى المساعدة، يمكنك زيارة[Aspose.Slides لمنتدى .NET](https://forum.aspose.com/)للحصول على الدعم ومساعدة المجتمع.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

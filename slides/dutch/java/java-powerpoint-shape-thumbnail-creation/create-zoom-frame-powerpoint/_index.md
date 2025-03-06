@@ -3,10 +3,14 @@ title: Maak een zoomframe in PowerPoint
 linktitle: Maak een zoomframe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u boeiende zoomframes in PowerPoint kunt maken met Aspose.Slides voor Java. Volg onze gids om interactieve elementen aan uw presentaties toe te voegen.
-type: docs
 weight: 17
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Het maken van boeiende PowerPoint-presentaties is een kunst, en soms kunnen de kleinste toevoegingen een groot verschil maken. Eén zo'n functie is het Zoom Frame, waarmee u kunt inzoomen op specifieke dia's of afbeeldingen, waardoor een dynamische en interactieve presentatie ontstaat. In deze zelfstudie begeleiden we u bij het maken van een zoomframe in PowerPoint met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -113,3 +117,9 @@ Ja, met Aspose.Slides kunt u verschillende eigenschappen van zoomframes aanpasse
 Absoluut! U kunt aangepaste afbeeldingen toevoegen aan Zoom Frames door afbeeldingsbestanden te lezen en deze aan de presentatie toe te voegen.
 ### Waar kan ik meer voorbeelden en documentatie vinden?
  Uitgebreide documentatie en voorbeelden vindt u op de website[Aspose.Slides voor Java-documentatiepagina](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

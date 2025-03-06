@@ -3,10 +3,14 @@ title: Java PowerPoint에서 텍스트를 플랫하게 유지
 linktitle: Java PowerPoint에서 텍스트를 플랫하게 유지
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 텍스트를 플랫하게 유지하는 방법을 알아보세요. 효율적인 텍스트 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 Java 기반 PowerPoint 조작 영역에서 Java용 Aspose.Slides는 강력하고 다재다능한 도구 세트로 우뚝 서 있습니다. 노련한 개발자이든 프로그래밍 방식으로 프레젠테이션을 향상시키려는 신규 사용자이든 Aspose.Slides for Java는 PowerPoint 프레젠테이션을 원활하게 생성, 수정 및 관리할 수 있는 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 Java용 Aspose.Slides를 사용하여 PowerPoint 슬라이드 내에서 텍스트를 플랫하게 유지하는 특정 기능에 대해 자세히 설명합니다. 이 가이드를 따르면 정확한 프레젠테이션 결과를 얻기 위해 텍스트 서식을 조작하는 방법을 배우게 됩니다.
 ## 전제 조건
@@ -64,3 +68,9 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  예, 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
 ### Java용 Aspose.Slides에 대한 커뮤니티 지원은 어디서 받을 수 있나요?
  Aspose.Slides 커뮤니티 포럼에 참여하세요[여기](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Dia klónozása egy másik prezentációhoz a Mesterrel
 linktitle: Dia klónozása egy másik prezentációhoz a Mesterrel
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan klónozhat diákot a prezentációk között Java nyelven az Aspose.Slides segítségével. Lépésről lépésre bemutató mesterdiák karbantartásáról.
-type: docs
 weight: 14
 url: /hu/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint prezentációk programozott létrehozását, módosítását és kezelését. Ez a cikk átfogó, lépésenkénti oktatóanyagot tartalmaz arról, hogyan klónozhat egy diát egyik prezentációból a másikba, miközben megtartja a fődiát az Aspose.Slides for Java használatával.
 ## Előfeltételek
@@ -83,3 +87,9 @@ Az Aspose.Slides for Java ingyenes próbaverziót kínál. A teljes funkcionalit
  Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további példákat és dokumentációt?  
  Meglátogatni a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) további példákért és részletes információkért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

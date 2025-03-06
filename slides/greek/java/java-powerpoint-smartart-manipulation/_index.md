@@ -3,10 +3,14 @@ title: Χειρισμός Java PowerPoint SmartArt
 linktitle: Χειρισμός Java PowerPoint SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να χειρίζεστε αποτελεσματικά το Java PowerPoint SmartArt με τους οδηγούς GroupDocs.Slides for Java. Πρόσβαση σε θυγατρικούς κόμβους, προσθήκη κόμβων, αλλαγή διάταξης και πολλά άλλα!
-type: docs
 weight: 32
 url: /el/java/java-powerpoint-smartart-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή
 
@@ -71,3 +75,9 @@ url: /el/java/java-powerpoint-smartart-manipulation/
 Μάθετε πώς να αφαιρείτε κόμβους από το SmartArt σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java αποτελεσματικά και μέσω προγραμματισμού.
 ### [Αφαιρέστε τον κόμβο σε συγκεκριμένη θέση στο SmartArt](./remove-node-specific-position-smartart-java/)
 Μάθετε πώς μπορείτε να αφαιρέσετε έναν κόμβο σε μια συγκεκριμένη θέση στο SmartArt χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την προσαρμογή της παρουσίασης χωρίς κόπο.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

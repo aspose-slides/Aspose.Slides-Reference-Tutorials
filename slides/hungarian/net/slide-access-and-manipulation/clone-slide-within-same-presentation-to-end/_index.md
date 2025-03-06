@@ -3,10 +3,14 @@ title: Dia másolása a meglévő prezentáció végére
 linktitle: Dia másolása a meglévő prezentáció végére
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan másolhat le és adhat hozzá diát egy meglévő PowerPoint-prezentáció végéhez az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató forráskód-példákat tartalmaz, és lefedi a beállítást, a diamásolást, a módosítást és egyebeket.
-type: docs
 weight: 22
 url: /hu/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
@@ -96,3 +100,9 @@ Igen, az Aspose.Slides különféle PowerPoint formátumokat támogat, beleértv
 ### Módosíthatom a dia tartalmát az Aspose.Slides segítségével?
 
 Teljesen! Az Aspose.Slides lehetővé teszi, hogy ne csak megkettőzze a diákat, hanem a tartalmukat, például szövegeket, képeket, alakzatokat és animációkat is programozottan kezelje.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

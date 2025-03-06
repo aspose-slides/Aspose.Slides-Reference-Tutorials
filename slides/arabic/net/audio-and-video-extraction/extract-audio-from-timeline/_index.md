@@ -3,10 +3,14 @@ title: استخراج الصوت من الجدول الزمني لبرنامج P
 linktitle: استخراج الصوت من الجدول الزمني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخراج الصوت من عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. قم بتحسين محتوى الوسائط المتعددة الخاص بك بسهولة.
-type: docs
 weight: 13
 url: /ar/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 في عالم عروض الوسائط المتعددة، يمكن أن يكون الصوت أداة قوية لتوصيل رسالتك بفعالية. يقدم Aspose.Slides for .NET حلاً سلسًا لاستخراج الصوت من عروض PowerPoint التقديمية. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية استخراج الصوت من عرض PowerPoint التقديمي باستخدام Aspose.Slides for .NET.
 
@@ -110,3 +114,9 @@ File.WriteAllBytes(outMediaPath, audio);
 ### 5. أين يمكنني العثور على وثائق شاملة لـ Aspose.Slides لـ .NET؟
 
  يمكنك العثور على وثائق وأمثلة تفصيلية لـ Aspose.Slides لـ .NET[هنا](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Vylepšení prezentací – formátování obdélníkových tvarů pomoc�
 linktitle: Formátování tvaru obdélníku v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se formátovat obdélníkové tvary v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Pozvedněte své snímky pomocí dynamických vizuálních prvků.
-type: docs
 weight: 12
 url: /cs/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Aspose.Slides for .NET je výkonná knihovna, která usnadňuje práci s prezentacemi PowerPoint v prostředí .NET. Pokud chcete vylepšit své prezentace dynamickým formátováním obdélníkových tvarů, je tento výukový program právě pro vás. V tomto podrobném průvodci vás provedeme procesem formátování obdélníkového tvaru v prezentaci pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -76,3 +80,9 @@ Ano, Aspose.Slides podporuje kromě C# další jazyky .NET jako VB.NET a F#.
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Q5: Kde mohu zakoupit Aspose.Slides pro .NET?
  Můžete si koupit Aspose.Slides pro .NET[tady](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

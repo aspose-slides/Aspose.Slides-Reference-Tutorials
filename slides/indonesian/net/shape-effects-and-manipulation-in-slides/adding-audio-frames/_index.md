@@ -3,10 +3,14 @@ title: Menambahkan Bingkai Audio ke Slide Presentasi menggunakan Aspose.Slides
 linktitle: Menambahkan Bingkai Audio ke Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi dengan Aspose.Slides untuk .NET! Pelajari cara menambahkan bingkai audio dengan lancar, sehingga melibatkan pemirsa Anda dengan cara yang belum pernah ada sebelumnya.
-type: docs
 weight: 14
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menggabungkan elemen audio dapat meningkatkan keseluruhan pengalaman audiens Anda secara signifikan. Aspose.Slides for .NET memberdayakan pengembang untuk mengintegrasikan bingkai audio ke dalam slide presentasi dengan lancar, menambahkan lapisan keterlibatan dan interaktivitas baru. Panduan langkah demi langkah ini akan memandu Anda melalui proses menambahkan bingkai audio ke slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -63,3 +67,9 @@ Ya, Aspose.Slides memberikan fleksibilitas dalam mengonfigurasi pengaturan pemut
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mencari bantuan dan terlibat dengan masyarakat.
 ### Bagaimana cara membeli Aspose.Slides untuk .NET?
  Anda dapat membeli perpustakaan dari[Asumsikan toko](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Apply Bevel Effects on Shapes in PowerPoint
 linktitle: Apply Bevel Effects on Shapes in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to apply bevel effects to shapes in PowerPoint using Aspose.Slides for Java with our step-by-step guide. Enhance your presentations.
-type: docs
 weight: 13
 url: /java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Creating visually appealing presentations is crucial for capturing and maintaining your audience's attention. Adding bevel effects to shapes can enhance the overall aesthetics of your slides, making your presentation stand out. In this tutorial, we’ll walk you through the process of applying bevel effects to shapes in PowerPoint using Aspose.Slides for Java. Whether you're a developer looking to automate presentation creation or just someone who loves tinkering with design, this guide has got you covered.
 ## Prerequisites
@@ -92,3 +96,10 @@ You can add various shapes such as rectangles, ellipses, lines, and custom shape
 Yes, Aspose.Slides for Java allows you to apply various 3D effects, including depth, lighting, and camera effects.
 ### Where can I get support for Aspose.Slides for Java?
 You can get support from the Aspose community and support team on their [support forum](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

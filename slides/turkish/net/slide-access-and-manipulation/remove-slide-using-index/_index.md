@@ -3,10 +3,14 @@ title: Slaydı Sıralı Dizine Göre Sil
 linktitle: Slaydı Sıralı Dizine Göre Sil
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarını adım adım nasıl sileceğinizi öğrenin. Kılavuzumuz, slaytları sıralı dizinlerine göre programlı bir şekilde kaldırmanıza yardımcı olacak açık talimatlar ve eksiksiz kaynak kodu sağlar.
-type: docs
 weight: 24
 url: /tr/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Sıralı Dizine Göre Slayt Silme İşlemine Giriş
 
@@ -86,3 +90,9 @@ Kesinlikle slayt içeriği, notlar veya belirli özellikler gibi koşullara bağ
 ### Aspose.Slides for .NET hakkında nasıl daha fazla bilgi edinebilirim?
 
  Aspose.Slides for .NET'in ayrıntılı belgelerini ve API referansını şu adreste inceleyebilirsiniz:[dokümantasyon sayfası](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

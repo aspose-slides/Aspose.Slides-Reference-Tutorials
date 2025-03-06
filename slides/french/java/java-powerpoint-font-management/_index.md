@@ -3,10 +3,14 @@ title: Gestion des polices Java PowerPoint
 linktitle: Gestion des polices Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez les didacticiels de gestion des polices Java PowerPoint à l'aide d'Aspose.Slides pour Java. Apprenez les techniques d’intégration, de compression et de personnalisation pour améliorer les présentations.
-type: docs
 weight: 21
 url: /fr/java/java-powerpoint-font-management/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 
 Libérez le potentiel de vos présentations PowerPoint avec nos didacticiels de gestion des polices Java PowerPoint utilisant Aspose.Slides pour Java. Nos guides complets vous aideront à maîtriser la personnalisation des polices et à garantir que vos présentations se démarquent.
@@ -72,3 +76,9 @@ Découvrez comment effectuer une substitution de police dans des présentations 
 Apprenez à formater des blocs de texte dans des présentations Java PowerPoint avec Aspose.Slides pour Java. Améliorez l'attrait visuel de vos diapositives sans effort.
 ### [Données de style de texte efficaces dans Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Maîtrisez la manipulation du style de texte dans les présentations Java PowerPoint avec Aspose.Slides pour Java. Personnalisez le formatage de manière dynamique pour une création de contenu percutante.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

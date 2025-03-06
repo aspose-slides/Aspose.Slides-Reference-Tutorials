@@ -3,10 +3,14 @@ title: Voeg knooppunten toe aan SmartArt in Java PowerPoint
 linktitle: Voeg knooppunten toe aan SmartArt in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u SmartArt-knooppunten kunt toevoegen aan Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht moeiteloos.
-type: docs
 weight: 15
 url: /nl/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 Op het gebied van Java PowerPoint-presentaties kan het manipuleren van SmartArt-knooppunten de visuele aantrekkingskracht en effectiviteit van uw dia's aanzienlijk vergroten. Aspose.Slides voor Java biedt een robuuste oplossing voor Java-ontwikkelaars om SmartArt-functionaliteiten naadloos in hun presentaties te integreren. In deze zelfstudie verdiepen we ons in het proces van het toevoegen van knooppunten aan SmartArt in Java PowerPoint-presentaties met behulp van Aspose.Slides.
 ## Vereisten
@@ -71,3 +75,9 @@ Absoluut, u kunt dia's doorlopen en indien nodig SmartArt-knooppunten toevoegen,
 Ja, Aspose.Slides voor Java biedt een uitgebreid pakket functies voor PowerPoint-manipulatie, inclusief het maken van dia's, animatie en vormbeheer.
 ### Waar kan ik hulp of ondersteuning zoeken voor Aspose.Slides voor Java?
  U kunt een bezoek brengen aan de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning of bekijk de documentatie voor gedetailleerde begeleiding.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

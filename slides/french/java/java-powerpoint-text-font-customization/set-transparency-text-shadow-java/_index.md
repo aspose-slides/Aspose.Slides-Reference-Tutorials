@@ -3,10 +3,14 @@ title: Définir la transparence du texte dans l'ombre à l'aide de Java
 linktitle: Définir la transparence du texte dans l'ombre à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajuster la transparence de l'ombre du texte dans PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos présentations par programmation.
-type: docs
 weight: 20
 url: /fr/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment manipuler la transparence des ombres de texte dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. L'ajustement de la transparence des ombres du texte peut améliorer considérablement l'attrait visuel de vos diapositives, les rendant plus dynamiques et professionnelles. Aspose.Slides pour Java fournit des fonctionnalités robustes pour contrôler avec précision divers aspects des éléments des diapositives par programmation, garantissant ainsi que vos présentations répondent aux normes de conception les plus élevées.
 ## Conditions préalables
@@ -70,3 +74,9 @@ Aspose.Slides for Java est une API Java robuste qui permet aux développeurs de 
  La documentation d'Aspose.Slides pour Java peut être trouvée[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
  Pour obtenir de l'aide et une interaction avec la communauté, visitez le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

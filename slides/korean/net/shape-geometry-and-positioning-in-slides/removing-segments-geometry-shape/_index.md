@@ -3,10 +3,14 @@ title: 모양 세그먼트 제거 - Aspose.Slides .NET Tutorial
 linktitle: 프레젠테이션 슬라이드의 기하학 모양에서 세그먼트 제거
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides API를 사용하여 프레젠테이션 슬라이드의 기하학적 모양에서 세그먼트를 제거하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 16
 url: /ko/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만들려면 원하는 디자인을 얻기 위해 모양과 요소를 조작해야 하는 경우가 많습니다. .NET용 Aspose.Slides를 사용하면 개발자는 모양의 기하학적 구조를 쉽게 제어하여 특정 세그먼트를 제거할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 기하학적 모양에서 세그먼트를 제거하는 과정을 안내합니다.
 ## 전제 조건
@@ -68,3 +72,9 @@ try-catch 블록을 사용하여 적절한 오류 처리를 구현합니다.
 아니요. 저장한 후에는 변경사항을 되돌릴 수 없습니다. 수정하기 전에 백업을 저장하는 것이 좋습니다.
 ### 추가 지원이나 도움을 어디서 구할 수 있나요?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

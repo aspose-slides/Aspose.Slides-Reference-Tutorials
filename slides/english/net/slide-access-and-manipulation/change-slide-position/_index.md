@@ -3,10 +3,14 @@ title: Adjust Slide Position within Presentation with Aspose.Slides
 linktitle: Adjust Slide Position within Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to adjust slide positions within PowerPoint presentations using Aspose.Slides for .NET. Enhance your presentation skills!
-type: docs
 weight: 23
 url: /net/slide-access-and-manipulation/change-slide-position/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Are you looking to reorganize your presentation slides and wondering how to adjust their positions with Aspose.Slides for .NET? This step-by-step guide will walk you through the process, ensuring you understand each step clearly. Before we dive into the tutorial, let's go over the prerequisites and import namespaces you need to get started.
 
@@ -111,3 +115,10 @@ Yes, Aspose.Slides for .NET provides a wide range of features for working with P
 ### 5. Can I try Aspose.Slides for .NET before purchasing it?
 
 Yes, you can explore a free trial version of Aspose.Slides for .NET at [Aspose.Slides for .NET Free Trial](https://releases.aspose.com/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

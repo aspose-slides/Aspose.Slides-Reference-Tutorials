@@ -3,10 +3,14 @@ title: Erstellen von Java-Foliendiagrammen
 linktitle: Erstellen von Java-Foliendiagrammen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Java-Folien mit Diagrammen erstellen. Unsere umfassenden Tutorials führen Sie Schritt für Schritt durch den Prozess.
-type: docs
 weight: 16
 url: /de/java/chart-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Sind Sie bereit, die Leistungsfähigkeit dynamischer Diagramme in Ihren Java-Folien zu nutzen? Mit Aspose.Slides für Java können Sie mühelos fesselnde Diagramme erstellen. Diese umfassende Anleitung führt Sie durch die wesentlichen Schritte, von der Installation bis zur Perfektion des Diagramms.
 
@@ -35,3 +39,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides Streudiagramme in Java erstellen. Schrit
 Erfahren Sie, wie Sie Diagramme in Java Slides mit Aspose.Slides für Java anpassen. Entdecken Sie zweite Plotoptionen und verbessern Sie Ihre Präsentationen.
 ### [Baumdiagramm in Java-Folien](./tree-map-chart-java-slides/)
 Erstellen Sie Tree Map-Diagramme in Java Slides mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode zur Visualisierung hierarchischer Daten.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

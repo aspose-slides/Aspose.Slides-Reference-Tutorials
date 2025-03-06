@@ -3,10 +3,14 @@ title: Konvertálja a HTML beágyazó képeket a Java Slides-be
 linktitle: Konvertálja a HTML beágyazó képeket a Java Slides-be
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: A PowerPoint konvertálása HTML-re beágyazott képekkel. Útmutató lépésről lépésre az Aspose.Slides for Java használatához. Tanulja meg könnyedén automatizálni a prezentációkonverziókat Java nyelven.
-type: docs
 weight: 11
 url: /hu/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a HTML beágyazott képek konvertálásához Java diákba
 
@@ -125,3 +129,10 @@ Igen, testreszabhatja a HTML-sablont az Aspose.Slides által generált HTML- és
 ### Hogyan kezelhetem a hibákat az átalakítás során?
 
 A konverziós kódot egy try-catch blokkba csomagolhatja, hogy kezelje a konverziós folyamat során előforduló kivételeket.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

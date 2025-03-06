@@ -3,10 +3,14 @@ title: Menguasai Ekstraksi Audio dan Video dengan Aspose.Slides untuk .NET
 linktitle: Ekstraksi Audio dan Video dari Slide menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekstrak audio dan video dari slide PowerPoint menggunakan Aspose.Slides untuk .NET. Ekstraksi multimedia yang mudah.
-type: docs
 weight: 10
 url: /id/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Perkenalan
 
@@ -135,3 +139,10 @@ Aspose menawarkan berbagai opsi lisensi, termasuk uji coba gratis dan lisensi se
 
 ### Tugas lain apa yang dapat saya lakukan dengan Aspose.Slides untuk .NET?
  Aspose.Slides for .NET menyediakan berbagai fitur, termasuk membuat, memodifikasi, dan mengonversi presentasi PowerPoint. Anda dapat menjelajahi dokumentasi untuk lebih jelasnya:[Aspose.Slide untuk Dokumentasi .NET](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

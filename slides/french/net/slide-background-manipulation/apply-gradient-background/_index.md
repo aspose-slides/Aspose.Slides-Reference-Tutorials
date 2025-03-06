@@ -3,10 +3,14 @@ title: Appliquer un arrière-plan dégradé à une diapositive
 linktitle: Appliquer un arrière-plan dégradé à une diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à appliquer de superbes arrière-plans dégradés à vos diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Élevez vos présentations !
-type: docs
 weight: 12
 url: /fr/net/slide-background-manipulation/apply-gradient-background/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dans le monde de la conception de présentations, créer des diapositives visuellement époustouflantes est essentiel pour captiver votre public. Une façon d’y parvenir consiste à appliquer un arrière-plan dégradé à vos diapositives. Aspose.Slides pour .NET rend cette tâche transparente, vous permettant de créer des présentations professionnelles. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'application d'un arrière-plan dégradé à une diapositive à l'aide d'Aspose.Slides pour .NET.
 
@@ -99,3 +103,10 @@ Absolument! Vous pouvez personnaliser l'arrière-plan dégradé de chaque diapos
 
 ### Quelles autres fonctionnalités Aspose.Slides for .NET offre-t-il pour la conception de présentations ?
 Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment la création, l'édition et la manipulation de diapositives, la gestion de graphiques et de tableaux et l'exportation vers différents formats.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

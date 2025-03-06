@@ -3,10 +3,14 @@ title: Właściwości czcionki dla wykresu w slajdach Java
 linktitle: Właściwości czcionki dla wykresu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz właściwości czcionek wykresów w slajdach Java za pomocą Aspose.Slides dla Java. Dostosuj rozmiar, styl i kolor czcionki, aby uzyskać efektowne prezentacje.
-type: docs
 weight: 11
 url: /pl/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Wprowadzenie do właściwości czcionek dla wykresów w slajdach Java
 
@@ -102,3 +106,9 @@ finally
 ### Jak dostosować właściwości czcionki dla określonych elementów wykresu?
 
 Aby dostosować właściwości czcionki dla określonych elementów wykresu, takich jak etykiety osi lub tekst legendy, możesz uzyskać dostęp do tych elementów i ustawić ich właściwości czcionki, korzystając z metod podobnych do pokazanych powyżej.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

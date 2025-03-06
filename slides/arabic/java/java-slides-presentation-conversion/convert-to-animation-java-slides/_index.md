@@ -3,10 +3,14 @@ title: تحويل إلى الرسوم المتحركة في شرائح جافا
 linktitle: تحويل إلى الرسوم المتحركة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى رسوم متحركة في Java باستخدام Aspose.Slides. اجذب جمهورك من خلال صور ديناميكية.
-type: docs
 weight: 21
 url: /ar/java/presentation-conversion/convert-to-animation-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # مقدمة للتحويل إلى الرسوم المتحركة في شرائح Java باستخدام Aspose.Slides لـ Java
 
@@ -130,3 +134,10 @@ try {
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق وموارد مكثفة لـ Aspose.Slides for Java على الموقع[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/) صفحة.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Identifikasi Sel yang Digabung di Tabel PowerPoint menggunakan Java
 linktitle: Identifikasi Sel yang Digabung di Tabel PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengidentifikasi sel yang digabungkan dalam tabel PowerPoint secara terprogram menggunakan Aspose.Slides for Java. Sempurna untuk pengembang Java.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam bidang pengembangan Java, memanipulasi presentasi PowerPoint secara terprogram bisa menjadi tugas yang sangat penting, terutama ketika berhadapan dengan tabel data yang kompleks. Aspose.Slides untuk Java menyediakan toolkit canggih yang memungkinkan pengembang mengelola berbagai aspek presentasi PowerPoint dengan lancar. Salah satu tantangan umum yang dihadapi pengembang adalah mengidentifikasi sel gabungan dalam tabel yang disematkan dalam presentasi. Tutorial ini bertujuan untuk memandu Anda melalui proses mengidentifikasi sel yang digabungkan menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -67,3 +71,9 @@ Aspose.Slides untuk Java adalah perpustakaan yang kuat untuk memanipulasi presen
  Dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
 Untuk dukungan, kunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

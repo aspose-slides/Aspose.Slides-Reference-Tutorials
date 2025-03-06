@@ -3,10 +3,14 @@ title: Format Garis di PowerPoint
 linktitle: Format Garis di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memformat garis di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah ini. Sempurnakan presentasi Anda dengan gaya garis khusus.
-type: docs
 weight: 16
 url: /id/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Presentasi PowerPoint adalah hal pokok di lingkungan profesional dan pendidikan. Kemampuan untuk memformat garis secara efektif di slide Anda dapat membuat presentasi Anda terlihat halus dan profesional. Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Slides untuk Java untuk memformat garis dalam presentasi PowerPoint. Di akhir panduan ini, Anda akan dapat membuat dan memformat garis di slide Anda dengan mudah.
 ## Prasyarat
@@ -87,3 +91,9 @@ Ya, Aspose.Slides untuk Java mendukung berbagai macam bentuk, dan Anda dapat mem
  Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dokumentasi yang lebih detail?
  Dokumentasi terperinci tersedia di[halaman dokumentasi](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

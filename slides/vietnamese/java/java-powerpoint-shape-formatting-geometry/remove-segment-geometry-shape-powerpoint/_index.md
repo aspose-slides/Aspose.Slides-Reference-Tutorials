@@ -3,10 +3,14 @@ title: Xóa đoạn khỏi hình dạng hình học trong PowerPoint
 linktitle: Xóa đoạn khỏi hình dạng hình học trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xóa các phân đoạn khỏi hình dạng hình học trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết của chúng tôi.
-type: docs
 weight: 22
 url: /vi/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Bạn đang muốn thao tác các hình dạng trong bản trình bày PowerPoint của mình bằng Java? Bạn đã đến đúng nơi! Aspose.Slides cho Java là một API mạnh mẽ cho phép bạn tạo, sửa đổi và quản lý các slide trong bản trình bày của mình một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa một đoạn khỏi hình dạng hình học trong PowerPoint. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn cách tiếp cận từng bước để thành thạo nhiệm vụ này. Sẵn sàng để đi sâu vào? Bắt đầu nào!
 ## Điều kiện tiên quyết
@@ -71,3 +75,9 @@ Tuyệt đối! Aspose.Slides for Java hỗ trợ nhiều loại hình dạng m�
  Có, bạn cần có giấy phép để có đầy đủ chức năng. Bạn có thể mua một cái[đây](https://purchase.aspose.com/buy) hoặc lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm tài liệu về Aspose.Slides cho Java ở đâu?
  Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

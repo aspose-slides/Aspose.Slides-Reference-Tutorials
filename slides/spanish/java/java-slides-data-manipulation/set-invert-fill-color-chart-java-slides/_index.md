@@ -3,10 +3,14 @@ title: Establecer tabla de colores de relleno invertidos en diapositivas de Java
 linktitle: Establecer tabla de colores de relleno invertidos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar colores de relleno invertidos para gráficos de diapositivas de Java usando Aspose.Slides. Mejore las visualizaciones de sus gráficos con esta guía paso a paso y el código fuente.
-type: docs
 weight: 22
 url: /es/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a establecer una tabla de colores de relleno invertidos en diapositivas de Java
 
@@ -153,3 +157,9 @@ Sí, puedes personalizar varios aspectos de la apariencia del gráfico, incluida
 ### ¿Puedo guardar el gráfico en diferentes formatos?
 
  Sí, puedes guardar el gráfico en diferentes formatos usando Aspose.Slides para Java. En el ejemplo de código proporcionado, guardamos la presentación como un archivo PPTX. Puedes usar diferentes`SaveFormat` opciones para guardarlo en otros formatos como PDF, PNG o SVG, según sus requisitos.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

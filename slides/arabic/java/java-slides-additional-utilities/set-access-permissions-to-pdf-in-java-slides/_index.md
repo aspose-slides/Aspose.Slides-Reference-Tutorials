@@ -3,10 +3,14 @@ title: قم بتعيين أذونات الوصول إلى PDF في شرائح Ja
 linktitle: قم بتعيين أذونات الوصول إلى PDF في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تأمين مستندات PDF الخاصة بك بأذونات الوصول في Java Slides باستخدام Aspose.Slides. يغطي هذا الدليل التفصيلي حماية كلمة المرور والمزيد.
-type: docs
 weight: 17
 url: /ar/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لتعيين أذونات الوصول إلى PDF في شرائح Java
 
@@ -104,3 +108,9 @@ finally
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك الوصول إلى الوثائق الشاملة لـ Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/) . بالإضافة إلى ذلك، يمكنك تنزيل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

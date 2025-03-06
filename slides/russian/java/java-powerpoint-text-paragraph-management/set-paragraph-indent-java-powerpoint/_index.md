@@ -3,10 +3,14 @@ title: Установить отступ абзаца в Java PowerPoint
 linktitle: Установить отступ абзаца в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как программно устанавливать отступы абзацев в слайдах PowerPoint с помощью Aspose.Slides для Java. Улучшите форматирование презентации без особых усилий.
-type: docs
 weight: 16
 url: /ru/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Введение
 В этом уроке вы узнаете, как программно манипулировать презентациями PowerPoint с помощью Aspose.Slides для Java. В частности, мы сосредоточимся на настройке отступов абзацев внутри слайдов. Aspose.Slides для Java предоставляет мощный набор API-интерфейсов, которые позволяют разработчикам создавать, изменять, конвертировать презентации PowerPoint и управлять ими, не полагаясь на Microsoft Office Automation.
 ## Предварительные условия
@@ -85,3 +89,9 @@ Aspose.Slides for Java — мощная библиотека для програ
  Да, вы можете получить бесплатную пробную версию на[здесь](https://releases.aspose.com/).
 ### Где я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить поддержку на форуме сообщества[здесь](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定字體屬性
 linktitle: 在 Java 投影片中設定字體屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 投影片中設定字體屬性。本逐步指南包括程式碼範例和常見問題。
-type: docs
 weight: 15
 url: /zh-hant/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 在 Java 投影片中設定字體屬性簡介
 
@@ -137,3 +141,9 @@ for (ISlide slide : pres.getSlides()) {
     //在此處存取和自訂文字元素的字體屬性
 }
 ```
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

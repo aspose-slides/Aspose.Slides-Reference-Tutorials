@@ -3,10 +3,14 @@ title: Import HTML Text in PowerPoint using Java
 linktitle: Import HTML Text in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to import HTML text into PowerPoint slides using Java with Aspose.Slides for seamless integration. Ideal for developers seeking document management.
-type: docs
 weight: 10
 url: /java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, you will learn how to import HTML text into a PowerPoint presentation using Java with the help of Aspose.Slides. This step-by-step guide will walk you through the process from importing necessary packages to saving your PowerPoint file.
 ## Prerequisites
@@ -68,3 +72,10 @@ Aspose.Slides automatically handles most HTML formatting, including text styles 
 Yes, Aspose.Slides provides APIs for efficient batch processing of PowerPoint files in Java.
 ### Where can I find more examples and support for Aspose.Slides?
 Visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) and [support forum](https://forum.aspose.com/c/slides/11) for detailed examples and assistance.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Manipulatie van Java PowerPoint-tekstvakken
 linktitle: Manipulatie van Java PowerPoint-tekstvakken
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek uitgebreide tutorials voor het manipuleren van Java PowerPoint-tekstvakken met Aspose.Slides. Verbeter uw presentaties stap voor stap met onze handleidingen.
-type: docs
 weight: 20
 url: /nl/java/java-powerpoint-text-box-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van uw PowerPoint-presentaties met onze Java PowerPoint-tekstvakmanipulatie-tutorials met behulp van Aspose.Slides. Of u nu een beginner of een gevorderde gebruiker bent, met onze gedetailleerde handleidingen kunt u uw presentaties moeiteloos verbeteren.
@@ -52,3 +56,9 @@ Leer hoe u de rotatiehoeken voor tekstframes in Java PowerPoint kunt aanpassen m
 Leer hoe u indelingen voor opsommingstekens kunt toepassen in Java PowerPoint met behulp van Aspose.Slides voor Java. Beheers de stijl van opsommingstekens en verbeter uw presentaties.
 ### [Effect Tekstvakparagraaf in Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Leer hoe u PowerPoint-presentaties in Java kunt verbeteren met dynamische teksteffecten met behulp van Aspose.Slides voor naadloze integratie en maatwerk.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

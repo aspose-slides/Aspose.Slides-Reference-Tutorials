@@ -3,10 +3,14 @@ title: Java PowerPoint 모양 및 썸네일 생성
 linktitle: Java PowerPoint 모양 및 썸네일 생성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides Java를 사용하여 PowerPoint에서 모양과 축소판을 만드는 방법을 알아보세요. 그룹 모양 생성, 배율 축소판 그림 및 확대/축소 효과에 대한 자세한 튜토리얼입니다.
-type: docs
 weight: 24
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 
 효과적인 커뮤니케이션을 위해서는 시각적으로 매력적이고 체계적인 PowerPoint 프레젠테이션을 만드는 것이 필수적입니다. Aspose.Slides for Java를 사용하면 다양한 모양과 썸네일을 만들어 프레젠테이션을 쉽게 향상시킬 수 있습니다. 이 문서에서는 이러한 기술을 익히고 슬라이드를 매력적이고 전문적으로 만들기 위한 단계별 가이드를 제공합니다.
@@ -52,3 +56,9 @@ Aspose.Slides를 사용하여 Java로 SmartArt 하위 노트 축소판을 만드
  이 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 요약 확대/축소를 만드는 방법을 알아보세요.
 ### [PowerPoint에서 확대/축소 프레임 만들기](./create-zoom-frame-powerpoint/)
 Aspose.Slides for Java를 사용하여 PowerPoint에서 매력적인 확대/축소 프레임을 만드는 방법을 알아보세요. 프레젠테이션에 대화형 요소를 추가하려면 가이드를 따르세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

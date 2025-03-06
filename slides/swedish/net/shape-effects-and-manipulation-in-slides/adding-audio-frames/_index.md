@@ -3,10 +3,14 @@ title: Lägga till ljudramar till presentationsbilder med Aspose.Slides
 linktitle: Lägga till ljudramar till presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra presentationer med Aspose.Slides för .NET! Lär dig att sömlöst lägga till ljudramar och engagera din publik som aldrig förr.
-type: docs
 weight: 14
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 I den dynamiska presentationsvärlden kan inkorporering av ljudelement avsevärt förbättra den övergripande upplevelsen för din publik. Aspose.Slides för .NET ger utvecklare möjlighet att sömlöst integrera ljudramar i presentationsbilder, vilket lägger till ett nytt lager av engagemang och interaktivitet. Den här steg-för-steg-guiden leder dig genom processen att lägga till ljudramar till presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -63,3 +67,9 @@ Ja, Aspose.Slides ger flexibilitet när det gäller att konfigurera uppspelnings
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att söka hjälp och engagera sig i samhället.
 ### Hur köper jag Aspose.Slides för .NET?
  Du kan köpa biblioteket från[Aspose butik](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

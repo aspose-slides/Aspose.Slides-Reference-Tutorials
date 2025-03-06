@@ -3,10 +3,14 @@ title: Menambahkan Stretch Offset ke Kiri di PowerPoint dengan Aspose.Slide
 linktitle: Menambahkan Stretch Offset ke Kiri untuk Bingkai Gambar di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan offset regangan ke kiri untuk bingkai foto.
-type: docs
 weight: 14
 url: /id/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi presentasi PowerPoint dengan mudah. Dalam tutorial ini, kita akan menjelajahi proses menambahkan offset regangan ke kiri untuk bingkai foto menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan Anda dalam bekerja dengan gambar dan bentuk dalam presentasi PowerPoint.
 ## Prasyarat
@@ -85,3 +89,9 @@ J: Aspose.Slides diperbarui secara berkala untuk memastikan kompatibilitas denga
  J: Jelajahi[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/net/) untuk contoh dan bimbingan yang komprehensif.
 ### T: Bisakah saya menerapkan beberapa offset regangan ke satu bentuk?
 J: Ya, Anda dapat menggabungkan beberapa peregangan offset untuk mencapai efek visual yang kompleks dan dapat disesuaikan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

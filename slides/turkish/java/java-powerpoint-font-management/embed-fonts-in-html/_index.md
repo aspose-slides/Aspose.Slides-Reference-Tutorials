@@ -3,10 +3,14 @@ title: Aspose.Slides for Java kullanarak Fontları HTML'ye gömme
 linktitle: Aspose.Slides for Java kullanarak Fontları HTML'ye gömme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Farklı platformlar ve cihazlarda tutarlı tipografi sağlamak için Aspose.Slides for Java'yı kullanarak yazı tiplerini HTML'ye nasıl yerleştireceğinizi öğrenin.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Aspose.Slides for Java, PowerPoint sunumlarını programlı olarak değiştirmek isteyen Java geliştiricileri için güçlü bir araçtır. Bu eğitimde Aspose.Slides for Java kullanarak yazı tiplerini HTML'ye yerleştirme sürecini ayrıntılı olarak ele alacağız. Yazı tiplerini gömerek, gerekli yazı tipleri yerel olarak yüklenmemiş olsa bile sunumlarınızın farklı platformlarda ve cihazlarda amaçlanan görünümünü korumasını sağlarsınız.
 ## Önkoşullar
@@ -58,3 +62,9 @@ Evet, Aspose.Slides, PDF ve görseller de dahil olmak üzere çeşitli çıktı 
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için veya profesyonel yardım için Aspose desteğiyle iletişime geçin.
 ### Aspose.Slides for Java için geçici bir lisans satın alabilir miyim?
 Evet, geçici lisansı şu adresten alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

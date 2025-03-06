@@ -3,10 +3,14 @@ title: PowerPoint'te Bağlantı Sitelerini Kullanarak Şekilleri Bağlama
 linktitle: PowerPoint'te Bağlantı Sitelerini Kullanarak Şekilleri Bağlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint'te şekilleri nasıl bağlayacağınızı öğrenin. Sunumlarınızı zahmetsizce otomatikleştirin.
-type: docs
 weight: 19
 url: /tr/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint'teki bağlantı sitelerini kullanarak şekilleri nasıl bağlayacağınızı keşfedeceğiz. Bu güçlü kitaplık, PowerPoint sunumlarını programlı bir şekilde düzenlememize olanak tanıyarak şekilleri bağlama gibi görevleri sorunsuz ve verimli hale getirir.
 ## Önkoşullar
@@ -70,3 +74,9 @@ Evet, Aspose.Slides for Java, PowerPoint sunumları oluşturmak, düzenlemek ve 
  Evet, test ve değerlendirme amaçlı geçici lisanslar mevcuttur. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java lisansını nereden satın alabilirim?
 Aspose web sitesinden lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

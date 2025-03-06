@@ -3,10 +3,14 @@ title: 在 Aspose.Slides for .NET 中探索图表趋势线
 linktitle: 图表趋势线
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 在本分步指南中学习如何使用 Aspose.Slides for .NET 向图表添加各种趋势线。轻松提高您的数据可视化技能！
-type: docs
 weight: 12
 url: /zh/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 在数据可视化和演示领域，整合图表是有效传达信息的有效方式。Aspose.Slides for .NET 提供了一套功能丰富的工具来处理图表，包括向图表添加趋势线的功能。在本教程中，我们将逐步深入研究使用 Aspose.Slides for .NET 向图表添加趋势线的过程。 
 
@@ -145,3 +149,9 @@ Aspose.Slides for .NET 是一个多功能库，可让您轻松创建和操作图
 
 ### 我是否需要 Aspose.Slides for .NET 的临时许可证？
 您可以从以下位置获取 Aspose.Slides for .NET 的临时许可证[此链接](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

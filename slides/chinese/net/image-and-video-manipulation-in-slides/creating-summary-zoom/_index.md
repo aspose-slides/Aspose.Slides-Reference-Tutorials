@@ -3,10 +3,14 @@ title: Aspose.Slides - 掌握.NET 中的摘要放大功能
 linktitle: 使用 Aspose.Slides 创建摘要放大演示幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 提升您的演示文稿！学习如何轻松创建引人入胜的摘要缩放。立即下载以获得动态幻灯片体验。
-type: docs
 weight: 16
 url: /zh/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在动态的演示世界中，Aspose.Slides for .NET 是一款功能强大的工具，可增强您的幻灯片创建体验。它提供的一项显著功能是能够创建“摘要缩放”，这是一种以视觉效果吸引人的方式呈现幻灯片集合。在本教程中，我们将指导您使用 Aspose.Slides for .NET 在演示幻灯片中创建“摘要缩放”的过程。
 ## 先决条件
@@ -79,3 +83,9 @@ Aspose.Slides 定期更新以确保与最新的.NET 版本兼容。
 从最新版本开始，您可以添加到演示文稿中的部分数量没有严格的限制。
 ### Aspose.Slides 有试用版吗？
 是的，您可以通过下载[免费试用版](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

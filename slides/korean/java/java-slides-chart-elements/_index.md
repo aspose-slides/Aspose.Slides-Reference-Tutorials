@@ -3,10 +3,14 @@ title: Java 슬라이드 차트 요소
 linktitle: Java 슬라이드 차트 요소
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 포괄적인 튜토리얼을 통해 Aspose.Slides for Java를 사용하여 Java 슬라이드에서 동적 차트를 만드는 방법을 알아보세요. 오늘 프레젠테이션 기술을 향상해보세요!
-type: docs
 weight: 15
 url: /ko/java/chart-elements/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 프레젠테이션 기술을 한 단계 더 발전시킬 준비가 되셨나요? Aspose.Slides for Java를 사용하여 Java 슬라이드에서 동적 차트의 세계를 살펴보세요. 이 종합 가이드에서는 차트 요소를 마스터하고 프레젠테이션을 눈에 띄게 만들기 위해 알아야 할 모든 것을 안내합니다.
 
@@ -58,3 +62,9 @@ Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상하
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 멋진 지도 차트를 만들어 보세요. Java 개발자를 위한 단계별 가이드 및 소스 코드입니다.
 ### [Java 슬라이드의 선버스트 차트](./sunburst-chart-java-slides/)
 Aspose.Slides를 사용하여 Java 슬라이드에서 멋진 선버스트 차트를 만드세요. 단계별 차트 생성 및 데이터 조작을 알아보세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

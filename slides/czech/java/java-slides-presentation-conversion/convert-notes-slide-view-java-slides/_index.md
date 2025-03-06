@@ -3,10 +3,14 @@ title: Převést zobrazení snímku Notes v aplikaci Java Slides
 linktitle: Převést zobrazení snímku Notes v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak převést zobrazení snímků s poznámkami v aplikaci Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce s příklady kódu pro efektivní manipulaci s PowerPointem.
-type: docs
 weight: 15
 url: /cs/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod do převodu poznámek Slide View v Java Slides pomocí Aspose.Slides
 
@@ -101,3 +105,10 @@ Aspose.Slides je navržen pro práci s různými formáty PowerPoint, včetně n
 ### Kde najdu další příklady kódu a návody pro Aspose.Slides pro Javu?
 
  Můžete najít velké množství příkladů kódu a tutoriálů v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/)Prozkoumejte dokumentaci a zjistěte více o možnostech této výkonné knihovny.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

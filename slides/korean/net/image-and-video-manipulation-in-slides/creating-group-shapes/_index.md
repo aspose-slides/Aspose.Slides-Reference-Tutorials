@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET에서 그룹 모양 만들기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 그룹 모양 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint에서 그룹 모양을 만드는 방법을 알아보세요. 시각적으로 매력적인 프레젠테이션을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 프레젠테이션 슬라이드의 시각적 매력을 향상시키고 콘텐츠를 보다 효율적으로 구성하려는 경우 그룹 셰이프를 통합하는 것이 강력한 솔루션입니다. .NET용 Aspose.Slides는 PowerPoint 프레젠테이션에서 그룹 모양을 만들고 조작하는 원활한 방법을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 그룹 모양을 만드는 과정을 따라하기 쉬운 단계로 나누어 살펴보겠습니다.
 ## 전제 조건
@@ -98,3 +102,10 @@ Aspose.Slides를 방문하세요.[법정](https://forum.aspose.com/c/slides/11) 
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides의 정식 라이센스는 어디서 구입할 수 있나요?
  에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

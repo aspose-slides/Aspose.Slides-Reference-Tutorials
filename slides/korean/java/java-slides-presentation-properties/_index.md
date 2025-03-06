@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 프레젠테이션 속성 탐색
 linktitle: Java 슬라이드 프레젠테이션 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java 튜토리얼을 통해 Java 슬라이드 프리젠테이션 속성을 향상시키는 방법을 알아보세요. 동적 프레젠테이션을 위한 팁과 요령을 알아보세요.
-type: docs
 weight: 21
 url: /ko/java/presentation-properties/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 끊임없이 진화하는 디지털 커뮤니케이션 세계에서는 매력적인 프레젠테이션이 필수입니다. 노련한 전문가이든 이제 막 Java 슬라이드 프레젠테이션을 시작하는 사람이든 프레젠테이션 속성 기술을 익히는 것이 중요합니다. 다행스럽게도 Aspose.Slides for Java는 프레젠테이션을 빛나게 만드는 강력한 도구와 기능 세트를 제공합니다.
 
@@ -57,3 +61,9 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드에서 프레젠테이�
 Aspose.Slides로 Java 슬라이드 쇼를 최적화하세요. 맞춤형 설정으로 매력적인 프레젠테이션을 만드세요. 단계별 가이드와 FAQ를 살펴보세요.
 ### [Java 슬라이드의 읽기 전용 권장 속성](./read-only-recommended-properties-in-java-slides/)
 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 읽기 전용 권장 속성을 활성화하는 방법을 알아보세요. 향상된 프레젠테이션 보안을 위해 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Ενημερώστε τις ιδιότητες παρουσίασης χ�
 linktitle: Ενημερώστε τις ιδιότητες παρουσίασης χρησιμοποιώντας μια άλλη παρουσίαση ως πρότυπο σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις PowerPoint με ενημερωμένα μεταδεδομένα χρησιμοποιώντας το Aspose.Slides για Java. Μάθετε να ενημερώνετε ιδιότητες όπως ο συγγραφέας, ο τίτλος και οι λέξεις-κλειδιά χρησιμοποιώντας πρότυπα σε Java Slides.
-type: docs
 weight: 14
 url: /el/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή στην ενημέρωση των ιδιοτήτων παρουσίασης χρησιμοποιώντας μια άλλη παρουσίαση ως πρότυπο σε διαφάνειες Java
 
@@ -122,3 +126,9 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### Υπάρχει κάποιος περιορισμός στο είδος των παρουσιάσεων που μπορούν να ενημερωθούν;
 
 Όχι, μπορείτε να ενημερώσετε τις ιδιότητες για παρουσιάσεις σε διάφορες μορφές, συμπεριλαμβανομένων των PPTX, ODP και PPT.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

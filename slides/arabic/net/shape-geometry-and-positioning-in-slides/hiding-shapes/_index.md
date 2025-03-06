@@ -3,10 +3,14 @@ title: إخفاء الأشكال في PowerPoint باستخدام البرنام
 linktitle: إخفاء الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إخفاء الأشكال في شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. قم بتخصيص العروض التقديمية برمجيًا باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 21
 url: /ar/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يعد التخصيص أمرًا أساسيًا. يوفر Aspose.Slides for .NET حلاً قويًا لمعالجة عروض PowerPoint التقديمية برمجيًا. أحد المتطلبات الشائعة هو القدرة على إخفاء أشكال معينة داخل الشريحة. سيرشدك هذا البرنامج التعليمي خلال عملية إخفاء الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -73,3 +77,9 @@ Congratulations! You've successfully hidden shapes in your presentation using As
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/)لأغراض تجريبية.
 ### كيف يمكنني الحصول على دعم المجتمع لـ Aspose.Slides؟
  انضم إلى مجتمع Aspose.Slides على[المنتدى](https://forum.aspose.com/c/slides/11) للمناقشات والمساعدة.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

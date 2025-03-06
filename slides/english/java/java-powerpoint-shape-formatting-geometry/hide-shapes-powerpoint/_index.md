@@ -3,10 +3,14 @@ title: Hide Shapes in PowerPoint
 linktitle: Hide Shapes in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to hide shapes in PowerPoint using Aspose.Slides for Java with our detailed step-by-step guide. Perfect for Java developers of all levels.
-type: docs
 weight: 27
 url: /java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 Welcome to our comprehensive tutorial on hiding shapes in PowerPoint using Aspose.Slides for Java! If you’ve ever needed to hide specific shapes in your PowerPoint presentations programmatically, you’re in the right place. This guide will walk you through each step in a simple, conversational style. Whether you’re a seasoned developer or just getting started with Java, we’ve got you covered.
 ## Prerequisites
@@ -81,3 +85,10 @@ Aspose.Slides is available for various programming languages including .NET, Pyt
 Yes, you can download a free trial from [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides?
 You can get support from the [Aspose.Slides support forum](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

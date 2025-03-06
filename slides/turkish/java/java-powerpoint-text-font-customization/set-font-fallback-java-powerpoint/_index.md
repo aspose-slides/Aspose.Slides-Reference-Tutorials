@@ -3,10 +3,14 @@ title: Java PowerPoint'te Yazı Tipi Geri Dönüşünü Ayarlama
 linktitle: Java PowerPoint'te Yazı Tipi Geri Dönüşünü Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Tutarlı metin gösterimi sağlamak için Aspose.Slides for Java'yı kullanarak Java PowerPoint'te yazı tipi yedeklerini nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında yazı tipi yedeklerini ayarlamanın inceliklerini inceleyeceğiz. Yazı tipi yedekleri, gerekli yazı tipleri mevcut olmasa bile sunumlarınızdaki metnin farklı cihazlarda ve işletim sistemlerinde doğru şekilde görüntülenmesini sağlamak açısından çok önemlidir.
 ## Önkoşullar
@@ -53,3 +57,9 @@ Evet, Aspose.Slides for Java, IntelliJ IDEA ve Eclipse gibi popüler Java IDE'le
 Evet, Aspose ürünleri için geçici lisanslar şu adresten edinilebilir:[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java desteğini nerede bulabilirim?
  Aspose.Slides for Java ile ilgili destek için şu adresi ziyaret edin:[Forumu aspose](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

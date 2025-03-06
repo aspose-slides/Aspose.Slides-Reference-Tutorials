@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में संगठन चार
 linktitle: जावा स्लाइड्स में संगठन चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: चरण-दर-चरण Aspose.Slides ट्यूटोरियल के साथ Java Slides में शानदार संगठन चार्ट बनाना सीखें। अपने संगठनात्मक ढांचे को आसानी से अनुकूलित और विज़ुअलाइज़ करें।
-type: docs
 weight: 22
 url: /hi/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides का उपयोग करके Java स्लाइड्स में संगठन चार्ट बनाने का परिचय
 
@@ -103,3 +107,9 @@ finally
 ### क्या अनेक स्तरों वाली जटिल संगठनात्मक संरचनाएं बनाना संभव है?
 
 हां, Aspose.Slides आपको संगठन चार्ट के भीतर आकृतियों को जोड़कर और व्यवस्थित करके कई स्तरों के साथ जटिल संगठनात्मक संरचनाएं बनाने की अनुमति देता है। आप वांछित संरचना का प्रतिनिधित्व करने के लिए आकृतियों के बीच पदानुक्रमिक संबंधों को परिभाषित कर सकते हैं।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

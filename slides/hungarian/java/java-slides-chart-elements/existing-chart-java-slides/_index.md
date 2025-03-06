@@ -3,10 +3,14 @@ title: Meglévő diagram a Java Slides-ben
 linktitle: Meglévő diagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Javítsa PowerPoint prezentációit az Aspose.Slides for Java segítségével. Ismerje meg a meglévő diagramok programozott módosítását. Lépésről lépésre útmutató forráskóddal a diagram testreszabásához.
-type: docs
 weight: 12
 url: /hu/java/chart-elements/existing-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a Java Slides meglévő diagramjába az Aspose.Slides for Java használatával
 
@@ -184,3 +188,9 @@ Ebben az átfogó oktatóanyagban megtanultuk, hogyan lehet módosítani egy meg
 ### Van mód egy sorozat eltávolítására a diagramról?
 
  Igen, eltávolíthat egy sorozatot a diagramból a`chart.getChartData().getSeries().removeAt(index)` módszer, hol`index`az eltávolítani kívánt sorozat indexe.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

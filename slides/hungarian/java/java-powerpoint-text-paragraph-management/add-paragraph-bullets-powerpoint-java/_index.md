@@ -3,10 +3,14 @@ title: Bekezdésjelek hozzáadása a PowerPointban Java használatával
 linktitle: Bekezdésjelek hozzáadása a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá bekezdéssorokat a PowerPoint-diákhoz az Aspose.Slides for Java segítségével. Ez az oktatóprogram lépésről lépésre végigvezeti a kódpéldákon.
-type: docs
 weight: 15
 url: /hu/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Bekezdésjelek hozzáadása javítja a PowerPoint-prezentációk olvashatóságát és szerkezetét. Az Aspose.Slides for Java robusztus eszközöket biztosít a prezentációk programozott manipulálásához, beleértve a szöveg formázásának lehetőségét különféle felsorolásjelekkel. Ebből az oktatóanyagból megtudhatja, hogyan integrálhat pontokat PowerPoint diákba Java kóddal, az Aspose.Slides segítségével.
 ## Előfeltételek
@@ -89,3 +93,9 @@ Igen, programozottan alkalmazhat egyedi felsorolásjel-stílusokat a különböz
 Igen, az Aspose.Slides támogatja a Java 11 és újabb verzióit.
 ### Hol találok további példákat és dokumentációt?
  Látogatás[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/) átfogó útmutatókért és példákért.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में बहु-श्रेण
 linktitle: जावा स्लाइड्स में बहु-श्रेणी चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में बहु-श्रेणी चार्ट बनाएँ। प्रस्तुतियों में प्रभावशाली डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 20
 url: /hi/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides के साथ जावा स्लाइड्स में मल्टी-कैटेगरी चार्ट का परिचय
 
@@ -157,3 +161,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### मैं चार्ट में शीर्षक कैसे जोड़ सकता हूँ?
 
  आप चार्ट में शीर्षक जोड़ सकते हैं`ch.getChartTitle().getTextFrame().setText("Chart Title");` तरीका।
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

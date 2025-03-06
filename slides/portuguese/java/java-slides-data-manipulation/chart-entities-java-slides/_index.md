@@ -3,10 +3,14 @@ title: Entidades de gráfico em slides Java
 linktitle: Entidades de gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda a criar e personalizar gráficos do Java Slides com Aspose.Slides. Aprimore suas apresentações com entidades gráficas poderosas.
-type: docs
 weight: 13
 url: /pt/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introdução às entidades gráficas em slides Java
 
@@ -301,3 +305,9 @@ Você pode personalizar as cores do gráfico definindo o formato de preenchiment
 ### O Aspose.Slides for Java é compatível com as versões mais recentes do Java?
 
 Sim, o Aspose.Slides for Java é atualizado regularmente para oferecer suporte às versões mais recentes do Java e fornece compatibilidade em uma ampla variedade de ambientes Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

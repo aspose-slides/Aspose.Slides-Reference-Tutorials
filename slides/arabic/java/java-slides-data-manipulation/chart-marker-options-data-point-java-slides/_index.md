@@ -3,10 +3,14 @@ title: خيارات علامة الرسم البياني على نقطة الب�
 linktitle: خيارات علامة الرسم البياني على نقطة البيانات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين شرائح Java الخاصة بك باستخدام خيارات علامة الرسم البياني المخصصة. تعلم كيفية تحسين نقاط البيانات بشكل مرئي باستخدام Aspose.Slides لـ Java. استكشف الإرشادات والأسئلة الشائعة خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة إلى خيارات علامة المخطط على نقطة البيانات في شرائح Java
 
@@ -154,3 +158,9 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ### أين يمكنني الوصول إلى وثائق وتنزيلات Aspose.Slides for Java؟
 
  يمكنك العثور على الوثائق في[هنا](https://reference.aspose.com/slides/java/) وتحميل المكتبة في[هنا](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

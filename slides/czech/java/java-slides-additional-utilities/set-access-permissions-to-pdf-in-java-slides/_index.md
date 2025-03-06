@@ -3,10 +3,14 @@ title: Nastavte přístupová oprávnění na PDF v Java Slides
 linktitle: Nastavte přístupová oprávnění na PDF v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak zabezpečit dokumenty PDF pomocí přístupových oprávnění v Java Slides pomocí Aspose.Slides. Tento podrobný průvodce pokrývá ochranu heslem a další.
-type: docs
 weight: 17
 url: /cs/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod k nastavení přístupových oprávnění k PDF v Java Slides
 
@@ -104,3 +108,9 @@ Aspose.Slides for Java poskytuje různé funkce zabezpečení, včetně šifrov�
 ### Kde najdu další zdroje a dokumentaci k Aspose.Slides for Java?
 
  Kompletní dokumentaci k Aspose.Slides pro Java můžete získat na adrese[tady](https://reference.aspose.com/slides/java/) . Knihovnu si navíc můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

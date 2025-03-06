@@ -3,10 +3,14 @@ title: 刪除 Java 投影片中未使用的 Layout Master
 linktitle: 刪除 Java 投影片中未使用的 Layout Master
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 刪除未使用的版面母版。逐步指南和代碼。提高演示效率。
-type: docs
 weight: 10
 url: /zh-hant/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java投影片中刪除未使用的版面大師簡介
 
@@ -123,3 +127,9 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### 在哪裡可以存取本文中使用的源代碼？
 
 您可以在每個步驟提供的程式碼片段中找到本文中使用的原始程式碼。只需將程式碼複製並貼上到您的 Java 專案中即可實現刪除簡報中未使用的佈局母版。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

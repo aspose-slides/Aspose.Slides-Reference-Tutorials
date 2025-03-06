@@ -3,10 +3,14 @@ title: Entfernen Sie Zeilen oder Spalten in einer PowerPoint-Tabelle mit Java
 linktitle: Entfernen Sie Zeilen oder Spalten in einer PowerPoint-Tabelle mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Zeilen oder Spalten aus PowerPoint-Tabellen entfernen. Einfache Schritt-für-Schritt-Anleitung für Entwickler.
-type: docs
 weight: 18
 url: /de/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Slides mithilfe von Java eine Zeile oder Spalte aus einer PowerPoint-Tabelle entfernen. Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können. Dieses Tutorial konzentriert sich speziell auf den Prozess der Tabellenänderung in PowerPoint-Folien und zeigt Schritt für Schritt, wie Sie bestimmte Zeilen oder Spalten aus einer Tabelle entfernen.
 ## Voraussetzungen
@@ -74,3 +78,9 @@ Aspose.Slides bietet umfassende Unterstützung beim Erstellen, Ändern und Konve
 Ja, Aspose.Slides wird aufgrund seiner robusten Funktionen und Leistung in Unternehmensumgebungen häufig zur Automatisierung von PowerPoint-Aufgaben verwendet.
 ### Kann ich Aspose.Slides vor dem Kauf ausprobieren?
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

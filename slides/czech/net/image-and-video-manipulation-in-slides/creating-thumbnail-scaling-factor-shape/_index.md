@@ -3,10 +3,14 @@ title: Vytvoření miniatury s faktorem měřítka pro tvar v Aspose.Slides
 linktitle: Vytvoření miniatury s faktorem měřítka pro tvar v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet PowerPointové miniatury se specifickými hranicemi pomocí Aspose.Slides for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 12
 url: /cs/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 Vítejte v našem komplexním průvodci vytvářením miniatur s hranicemi pro tvary v Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s prezentacemi PowerPoint v jejich aplikacích .NET. V tomto tutoriálu se ponoříme do procesu generování miniatur se specifickými hranicemi pro tvary v prezentaci pomocí Aspose.Slides.
 ## Předpoklady
@@ -55,3 +59,9 @@ Ano, Aspose.Slides je kompatibilní s různými .NET frameworky a poskytuje flex
  Máte-li jakékoli dotazy nebo pomoc, neváhejte navštívit fórum podpory Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
 ### Q5: Mohu zakoupit Aspose.Slides pro .NET?
  Rozhodně! Chcete-li zakoupit Aspose.Slides pro .NET, navštivte stránku nákupu[tady](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

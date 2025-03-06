@@ -3,10 +3,14 @@ title: Aspose.Slides で効果的なカメラデータ抽出をマスターす�
 linktitle: プレゼンテーションスライドで効果的なカメラデータを取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: プレゼンテーション スライドから効果的なカメラ データを抽出するためのステップ バイ ステップ ガイドを使用して、Aspose.Slides for .NET の可能性を最大限に引き出します。
-type: docs
 weight: 18
 url: /ja/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 プレゼンテーション スライドに埋め込まれたカメラ データを抽出して操作する方法を考えたことはありませんか? もう探す必要はありません。このチュートリアルでは、Aspose.Slides for .NET を使用して効果的なカメラ データを取得するプロセスについて説明します。Aspose.Slides は、.NET アプリケーションでプレゼンテーション ファイルをシームレスに操作できる強力なライブラリです。
 ## 前提条件
@@ -68,3 +72,9 @@ Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
 臨時免許証を取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET はどこで購入できますか?
 Aspose.Slidesを購入するには、[購入ページ](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

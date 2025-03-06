@@ -3,10 +3,14 @@ title: Java スライドでのプレゼンテーション スライド ショー
 linktitle: Java スライドでのプレゼンテーション スライド ショーの設定
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライド ショーを最適化します。カスタマイズされた設定で魅力的なプレゼンテーションを作成します。ステップ バイ ステップ ガイドと FAQ をご覧ください。
-type: docs
 weight: 16
 url: /ja/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java スライドでのプレゼンテーション スライド ショーの設定の概要
 
@@ -146,3 +150,9 @@ try {
 ### スライドショーの設定をさらにカスタマイズするにはどうすればよいですか?
 
  Aspose.Slides for Java が提供する追加のスライドショー設定を調べて、ニーズに合わせてスライドショーのエクスペリエンスをカスタマイズできます。次のドキュメントを参照してください。[ここ](https://reference.aspose.com/slides/java/)利用可能なオプションと構成の詳細については、こちらをご覧ください。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

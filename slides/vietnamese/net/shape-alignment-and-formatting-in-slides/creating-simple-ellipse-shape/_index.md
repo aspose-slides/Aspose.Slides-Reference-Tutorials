@@ -3,10 +3,14 @@ title: Tạo hình elip dễ dàng với Aspose.Slides .NET
 linktitle: Tạo hình elip đơn giản trong slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo các hình elip tuyệt đẹp trong các trang trình bày bằng Aspose.Slides cho .NET. Các bước dễ dàng cho thiết kế năng động!
-type: docs
 weight: 11
 url: /vi/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Trong thế giới năng động của thiết kế bản trình bày, việc kết hợp các hình dạng như hình elip có thể tạo thêm nét sáng tạo và tính chuyên nghiệp. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để thao tác các tệp trình bày theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình tạo hình elip đơn giản trong các slide thuyết trình bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
@@ -65,3 +69,9 @@ Có, Aspose.Slides được cập nhật thường xuyên để đảm bảo kh�
  Theo[liên kết giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để yêu cầu giấy phép tạm thời cho mục đích thử nghiệm.
 ### Cần hỗ trợ hoặc có câu hỏi cụ thể?
  Tham quan[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11) để nhận được sự giúp đỡ từ cộng đồng và các chuyên gia.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

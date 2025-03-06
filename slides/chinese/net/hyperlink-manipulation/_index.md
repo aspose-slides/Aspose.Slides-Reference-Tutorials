@@ -3,10 +3,14 @@ title: 超链接操纵
 linktitle: 超链接操纵
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 通过全面的超链接操作增强您的 .NET 应用程序。了解如何轻松管理超链接、创建交互式演示文稿并提高用户参与度。
-type: docs
 weight: 13
 url: /zh/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## 介绍：
 
@@ -27,3 +31,9 @@ url: /zh/net/hyperlink-manipulation/
 了解如何使用 Aspose.Slides for .NET 有效地管理演示文稿中的超链接。自动执行任务、创建交互式菜单并增强用户参与度。
 ### [可变超链接创建](./mutable-hyperlink/)
 学习使用 Aspose.Slides for .NET 创建可变超链接。带有动态演示源代码的分步指南。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

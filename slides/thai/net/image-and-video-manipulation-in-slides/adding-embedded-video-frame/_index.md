@@ -3,10 +3,14 @@ title: Aspose.Slides - การเพิ่มวิดีโอแบบฝั
 linktitle: Aspose.Slides - การเพิ่มวิดีโอแบบฝังในการนำเสนอ .NET
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ปรับปรุงการนำเสนอของคุณด้วยวิดีโอแบบฝังโดยใช้ Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 19
 url: /th/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในโลกการนำเสนอแบบไดนามิก การบูรณาการองค์ประกอบมัลติมีเดียสามารถช่วยเพิ่มการมีส่วนร่วมได้อย่างมาก Aspose.Slides สำหรับ .NET มอบโซลูชั่นอันทรงพลังสำหรับการรวมเฟรมวิดีโอที่ฝังไว้ในสไลด์การนำเสนอของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าได้รับประสบการณ์ที่ราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -75,3 +79,9 @@ Aspose.Slides รองรับรูปแบบวิดีโอที่ห
 โดยทั่วไปจำนวนวิดีโอที่ฝังไว้จะถูกจำกัดตามความสามารถของซอฟต์แวร์การนำเสนอของคุณ
 ### ฉันจะขอความช่วยเหลือเพิ่มเติมหรือแบ่งปันประสบการณ์ของฉันได้อย่างไร?
  เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

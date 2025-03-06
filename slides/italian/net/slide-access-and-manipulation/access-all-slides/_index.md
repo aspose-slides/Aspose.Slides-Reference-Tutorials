@@ -3,10 +3,14 @@ title: Recupera tutte le diapositive all'interno di una presentazione
 linktitle: Recupera tutte le diapositive all'interno di una presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come recuperare tutte le diapositive all'interno di una presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con il codice sorgente completo per lavorare in modo efficiente con le presentazioni a livello di codice. Esplora le proprietà delle diapositive, l'installazione, la personalizzazione e altro ancora.
-type: docs
 weight: 13
 url: /it/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduzione ad Aspose.Slides per .NET
 
@@ -139,3 +143,9 @@ Assolutamente. Puoi aggiungere testo, immagini, forme, grafici e altro alle tue 
 ### Dove posso trovare ulteriori informazioni su Aspose.Slides per .NET?
 
  Per informazioni più dettagliate, riferimenti API ed esempi di codice, puoi visitare il sito[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

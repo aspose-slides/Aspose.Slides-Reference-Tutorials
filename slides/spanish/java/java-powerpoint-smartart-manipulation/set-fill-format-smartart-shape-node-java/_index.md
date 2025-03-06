@@ -3,10 +3,14 @@ title: Establecer formato de relleno para el nodo de forma SmartArt en Java
 linktitle: Establecer formato de relleno para el nodo de forma SmartArt en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar el formato de relleno para nodos de formas SmartArt en Java usando Aspose.Slides. Mejore sus presentaciones con colores vibrantes y elementos visuales cautivadores.
-type: docs
 weight: 12
 url: /es/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En el panorama dinámico de la creación de contenido digital, Aspose.Slides para Java se destaca como una poderosa herramienta para crear presentaciones visualmente impresionantes con facilidad y eficiencia. Ya sea que sea un desarrollador experimentado o esté comenzando, dominar el arte de manipular formas dentro de las diapositivas es crucial para crear presentaciones cautivadoras que dejen una impresión duradera en su audiencia.
 ## Requisitos previos
@@ -65,3 +69,9 @@ Puede encontrar amplios recursos de soporte, incluidos foros y documentación, e
 ¡Absolutamente! Aspose.Slides para Java proporciona una amplia gama de opciones de personalización para adaptar la apariencia de las formas SmartArt según sus preferencias.
 ### ¿Aspose.Slides para Java es adecuado tanto para principiantes como para desarrolladores experimentados?
 Sí, Aspose.Slides para Java está dirigido a desarrolladores de todos los niveles y ofrece API intuitivas y documentación completa para facilitar la integración y el uso.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

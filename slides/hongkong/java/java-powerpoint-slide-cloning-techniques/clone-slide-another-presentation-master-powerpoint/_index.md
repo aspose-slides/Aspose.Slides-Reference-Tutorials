@@ -3,10 +3,14 @@ title: 將投影片複製到母版的另一個簡報
 linktitle: 將投影片複製到母版的另一個簡報
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java 簡報之間複製投影片。有關維護母版投影片的逐步教學。
-type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、修改和操作 PowerPoint 簡報。本文提供了一個全面的分步教程，介紹如何使用 Aspose.Slides for Java 將幻燈片從一個演示文稿克隆到另一個演示文稿，同時保留其主幻燈片。
 ## 先決條件
@@ -83,3 +87,9 @@ Aspose.Slides for Java 提供免費試用版。要獲得完整功能，您需要
 您可以從以下機構獲得臨時許可證[Aspose購買頁面](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到更多範例和文件？  
 參觀[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)了解更多範例和詳細資訊。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

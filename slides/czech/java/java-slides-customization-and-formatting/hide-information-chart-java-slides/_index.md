@@ -3,10 +3,14 @@ title: Skrýt informace z grafu v Java Slides
 linktitle: Skrýt informace z grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se skrýt prvky grafu v Java Slides pomocí Aspose.Slides pro Java. Přizpůsobte si prezentace tak, aby byly přehledné a estetické, pomocí podrobných pokynů a zdrojového kódu.
-type: docs
 weight: 13
 url: /cs/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod ke skrytí informací z grafu v Java Slides
 
@@ -172,3 +176,9 @@ Ano, typ grafu můžete dynamicky změnit vytvořením nového grafu požadovan�
 ### Jak mohu programově změnit název grafu a popisky osy?
 
 Můžete nastavit nadpis a popisky grafu a os přístupem k jejich příslušným vlastnostem a nastavením požadovaného textu a formátování.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

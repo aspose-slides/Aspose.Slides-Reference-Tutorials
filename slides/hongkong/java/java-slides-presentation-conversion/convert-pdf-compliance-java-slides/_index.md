@@ -3,10 +3,14 @@ title: 在 Java 投影片中轉換為 PDF 合規性
 linktitle: 在 Java 投影片中轉換為 PDF 合規性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為符合 PDF/A-2a 規格的 PDF。請遵循我們的原始程式碼逐步指南，以實現無縫存檔和可訪問性。
-type: docs
 weight: 26
 url: /zh-hant/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java 投影片中轉換為 PDF 合規簡介
 
@@ -114,3 +118,9 @@ PDF/A-2a 是 PDF 檔案的合規等級。它規定了一套電子文檔長期歸
 ## 在哪裡可以找到有關 Aspose.Slides for Java 和 PDF 合規性的更多資訊？
 
 有關 Aspose.Slides for Java 及其功能（包括 PDF 合規性設定）的更多詳細信息，您可以參閱有關的文檔[Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/)。此外，您可以探索程式碼範例和教程，以進一步增強您對該程式庫的了解。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

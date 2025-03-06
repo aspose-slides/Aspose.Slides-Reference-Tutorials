@@ -3,10 +3,14 @@ title: Format Gabung Gaya di PowerPoint
 linktitle: Format Gabung Gaya di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan mengatur gaya gabungan garis yang berbeda untuk bentuk menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik secara visual bisa menjadi tugas yang menakutkan, terutama bila Anda ingin setiap detailnya sempurna. Di sinilah Aspose.Slides untuk Java berguna. Ini adalah API canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola presentasi secara terprogram. Salah satu fitur yang dapat Anda manfaatkan adalah mengatur gaya gabungan garis yang berbeda untuk bentuk, yang secara signifikan dapat meningkatkan estetika slide Anda. Dalam tutorial ini, kita akan menyelami bagaimana Anda dapat menggunakan Aspose.Slides untuk Java untuk mengatur gaya gabungan untuk bentuk dalam presentasi PowerPoint. 
 ## Prasyarat
@@ -112,3 +116,9 @@ Ya, Anda dapat menggunakan Aspose.Slides untuk Java di IDE apa pun yang mendukun
 Gaya penggabungan garis mengacu pada bentuk sudut tempat dua garis bertemu. Gaya umum termasuk Mitre, Bevel, dan Round.
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Slides untuk Java?
  Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

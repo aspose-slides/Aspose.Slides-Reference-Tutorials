@@ -3,10 +3,14 @@ title: 通过唯一标识符访问幻灯片
 linktitle: 通过唯一标识符访问幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 通过唯一标识符访问 PowerPoint 幻灯片。本分步指南涵盖加载演示文稿、通过索引或 ID 访问幻灯片、修改内容以及保存更改。
-type: docs
 weight: 11
 url: /zh/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for .NET 简介
 
@@ -112,3 +116,9 @@ Aspose.Slides 支持幻灯片索引和幻灯片 ID 作为标识符。您可以�
 ### 在哪里可以找到更详细的文档和资源？
 
 您可以在以下位置找到有关 Aspose.Slides for .NET 的全面文档、代码示例、教程等[文档](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

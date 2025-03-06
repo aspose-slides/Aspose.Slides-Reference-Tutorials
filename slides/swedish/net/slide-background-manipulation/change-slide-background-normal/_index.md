@@ -3,10 +3,14 @@ title: Hur man ändrar bakgrunden på en bild i Aspose.Slides .NET
 linktitle: Ändra normal bildbakgrund
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du ändrar bildbakgrund med Aspose.Slides för .NET och skapar fantastiska PowerPoint-presentationer.
-type: docs
 weight: 15
 url: /sv/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 en värld av presentationsdesign är det viktigt att skapa iögonfallande och engagerande bilder. Aspose.Slides för .NET är ett kraftfullt verktyg som låter dig manipulera PowerPoint-presentationer programmatiskt. I den här steg-för-steg-guiden kommer vi att visa dig hur du ändrar bakgrunden på en bild med Aspose.Slides för .NET. Detta kan hjälpa dig att förbättra det visuella tilltalande av dina presentationer och göra dem mer effektfulla. 
 
@@ -99,3 +103,9 @@ Säkert! Du kan gå igenom dina bilder och tillämpa de önskade bakgrundsändri
 ### 5. Hur får jag en tillfällig licens för Aspose.Slides för .NET?
 
  Om du behöver en tillfällig licens för ditt projekt kan du få en från[här](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

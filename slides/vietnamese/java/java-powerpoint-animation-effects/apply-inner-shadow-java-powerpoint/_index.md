@@ -3,10 +3,14 @@ title: Áp dụng Inner Shadow trong bản trình bày PowerPoint bằng Java
 linktitle: Áp dụng Inner Shadow trong bản trình bày PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách áp dụng hiệu ứng bóng bên trong cho các hình dạng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Cải thiện các trang trình bày của bạn bằng hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Tạo các bài thuyết trình hấp dẫn trực quan là rất quan trọng để truyền đạt ý tưởng của bạn một cách hiệu quả. Một trong những công cụ có thể nâng cao đáng kể bài thuyết trình của bạn là sử dụng bóng bên trong. Hướng dẫn này sẽ hướng dẫn bạn quy trình áp dụng bóng bên trong cho các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ hiểu toàn diện về cách thao tác các phần tử slide để tạo ra các hiệu ứng ấn tượng.
 ## Điều kiện tiên quyết
@@ -94,3 +98,9 @@ Aspose.Slides cho Java là một API mạnh mẽ để tạo và thao tác các 
 Có, bạn có thể tùy chỉnh các thông số khác nhau của hiệu ứng đổ bóng, chẳng hạn như bán kính mờ, hướng, khoảng cách và màu sắc để phù hợp với nhu cầu của bạn.
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
  Bạn có thể tham khảo các[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết và ví dụ.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

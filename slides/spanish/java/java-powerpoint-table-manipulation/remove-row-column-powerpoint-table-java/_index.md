@@ -3,10 +3,14 @@ title: Eliminar fila o columna en una tabla de PowerPoint usando Java
 linktitle: Eliminar fila o columna en una tabla de PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo eliminar filas o columnas de tablas de PowerPoint usando Java con Aspose.Slides para Java. Guía sencilla paso a paso para desarrolladores.
-type: docs
 weight: 18
 url: /es/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introducción
 En este tutorial, exploraremos cómo eliminar una fila o columna de una tabla de PowerPoint usando Java con la ayuda de Aspose.Slides. Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrolladores crear, manipular y convertir presentaciones de PowerPoint mediante programación. Este tutorial se centra específicamente en el proceso de modificación de tablas dentro de diapositivas de PowerPoint, y muestra paso a paso cómo eliminar filas o columnas específicas de una tabla.
 ## Requisitos previos
@@ -74,3 +78,9 @@ Aspose.Slides brinda soporte integral para crear, modificar y convertir presenta
 Sí, Aspose.Slides se usa ampliamente en entornos empresariales para automatizar tareas de PowerPoint debido a sus sólidas funciones y rendimiento.
 ### ¿Puedo probar Aspose.Slides antes de comprarlo?
  Sí, puedes descargar una prueba gratuita de Aspose.Slides desde[aquí](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Mengungkap Keajaiban Pengambilan Data Bevel yang Efektif dalam Slide
 linktitle: Mendapatkan Data Bevel yang Efektif untuk Bentuk di Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan slide presentasi Anda dengan data bevel yang efektif menggunakan Aspose.Slides. Panduan komprehensif dengan petunjuk langkah demi langkah dan kode contoh.
-type: docs
 weight: 20
 url: /id/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Slides for .NET yang menakjubkan, pintu gerbang Anda untuk membuat presentasi menakjubkan dengan kemudahan yang tak tertandingi. Dalam tutorial ini, kita akan mempelajari seluk-beluk mendapatkan data bevel yang efektif untuk bentuk dalam slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -69,3 +73,9 @@ Ya, Aspose.Slides for .NET mendukung berbagai versi .NET Framework, memastikan k
  Ya, Anda dapat membeli Aspose.Slides untuk .NET[Di Sini](https://purchase.aspose.com/buy) untuk membuka fitur premiumnya untuk proyek komersial.
 ### Bagaimana jika saya mengalami masalah selama penerapan?
  Carilah bantuan dari komunitas Aspose.Slides untuk .NET di[forum dukungan](https://forum.aspose.com/c/slides/11) untuk solusi cepat dan bermanfaat.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

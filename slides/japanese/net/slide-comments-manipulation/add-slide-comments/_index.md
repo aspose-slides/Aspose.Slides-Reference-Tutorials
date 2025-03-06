@@ -3,10 +3,14 @@ title: スライドにコメントを追加する
 linktitle: スライドにコメントを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides API を使用して、プレゼンテーションに深みとインタラクションを追加します。.NET を使用してスライドにコメントを簡単に統合する方法を学びます。エンゲージメントを高め、視聴者を魅了します。
-type: docs
 weight: 13
 url: /ja/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 プレゼンテーション管理の世界では、スライドにコメントを追加できると画期的なことがあります。コメントは共同作業を強化するだけでなく、スライド コンテンツの理解と修正にも役立ちます。強力で多用途なライブラリである Aspose.Slides for .NET を使用すると、プレゼンテーション スライドにコメントを簡単に組み込むことができます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してスライドにコメントを追加する手順を説明します。熟練した開発者でも、.NET 開発の世界の初心者でも、このチュートリアルは必要な情報をすべて提供します。
 
@@ -104,3 +108,9 @@ Aspose.Slides for .NET を .NET アプリケーションに統合するには、
 ### 5. 購入前に Aspose.Slides for .NET を試すことはできますか?
 
 はい、無料トライアルでAspose.Slides for .NETを試すことができます。[Aspose.Slides 無料トライアルページ](https://releases.aspose.com/)始めましょう。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

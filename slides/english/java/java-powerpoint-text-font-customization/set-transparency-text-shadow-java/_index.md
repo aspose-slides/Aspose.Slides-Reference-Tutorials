@@ -3,10 +3,14 @@ title: Set Transparency of Text in Shadow using Java
 linktitle: Set Transparency of Text in Shadow using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to adjust text shadow transparency in PowerPoint using Aspose.Slides for Java. Enhance your presentations programmatically.
-type: docs
 weight: 20
 url: /java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, we will explore how to manipulate the transparency of text shadows in PowerPoint presentations using Aspose.Slides for Java. Adjusting the transparency of text shadows can significantly enhance the visual appeal of your slides, making them more dynamic and professional. Aspose.Slides for Java provides robust functionalities to precisely control various aspects of slide elements programmatically, ensuring your presentations meet the highest standards of design.
 ## Prerequisites
@@ -70,3 +74,10 @@ Yes, you can obtain a free trial version from [here](https://releases.aspose.com
 The documentation for Aspose.Slides for Java can be found [here](https://reference.aspose.com/slides/java/).
 ### How can I get support for Aspose.Slides for Java?
 For support and community interaction, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

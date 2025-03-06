@@ -3,10 +3,14 @@ title: 使用 PowerPoint 中的连接站点连接形状
 linktitle: 使用 PowerPoint 中的连接站点连接形状
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 连接 PowerPoint 中的形状。轻松实现演示文稿的自动化。
-type: docs
 weight: 19
 url: /zh/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 在 PowerPoint 中使用连接站点连接形状。这个功能强大的库允许我们以编程方式操作 PowerPoint 演示文稿，使连接形状等任务变得无缝且高效。
 ## 先决条件
@@ -70,3 +74,9 @@ if (ellipse.getConnectionSiteCount() > (wantedIndex & 0xFFFFFFFFL))
 是的，临时许可证可用于测试和评估目的。您可以获取一个[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪里购买 Aspose.Slides for Java 的许可证？
 您可以从 Aspose 网站购买许可证[这里](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

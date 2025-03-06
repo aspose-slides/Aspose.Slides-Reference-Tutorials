@@ -3,10 +3,14 @@ title: Atualizar propriedades da apresentação com novo modelo
 linktitle: Atualizar propriedades da apresentação com novo modelo
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como atualizar as propriedades da apresentação usando Aspose.Slides para Java. Aprimore seus projetos Java com modificação contínua de metadados.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 No domínio do desenvolvimento Java, Aspose.Slides se destaca como uma ferramenta poderosa para manipular apresentações do PowerPoint de forma programática. Com sua biblioteca Java, os desenvolvedores podem automatizar tarefas como criar, modificar e converter apresentações, tornando-a um ativo inestimável para empresas e indivíduos. No entanto, aproveitar todo o potencial do Aspose.Slides requer um conhecimento sólido de suas funcionalidades e de como integrá-las de forma eficaz em seus projetos Java. Neste tutorial, nos aprofundaremos na atualização das propriedades da apresentação usando um novo modelo, passo a passo, garantindo que você compreenda cada conceito completamente.
 ## Pré-requisitos
@@ -75,3 +79,9 @@ Na verdade, Aspose.Slides oferece recursos e confiabilidade de nível empresaria
 Certamente, Aspose.Slides oferece amplas opções de personalização para propriedades de apresentação, permitindo adaptá-las às suas necessidades específicas.
 ### Onde posso encontrar suporte e recursos adicionais para Aspose.Slides?
 Você pode explorar a documentação do Aspose.Slides, participar dos fóruns da comunidade ou entrar em contato com o suporte do Aspose para qualquer assistência ou dúvida.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

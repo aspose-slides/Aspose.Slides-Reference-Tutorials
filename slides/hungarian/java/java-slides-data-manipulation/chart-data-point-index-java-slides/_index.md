@@ -3,10 +3,14 @@ title: Diagram adatpont-index a Java Slides-ben
 linktitle: Diagram adatpont-index a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a diagram adatpont-indexeit a Java Slides programban az Aspose.Slides for Java segítségével. Könnyedén bontsa ki és dolgozzon ki adatokat PowerPoint diagramokból.
-type: docs
 weight: 12
 url: /hu/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## A diagram adatpont-indexének bemutatása a Java Slides-ben
 
@@ -98,3 +102,9 @@ A diagramokat tartalmazó PowerPoint-prezentációkat különféle formátumokba
 ### Hol találok további példákat és dokumentációt az Aspose.Slides for Java-hoz?
 
  Az Aspose.Slides for Java-hoz átfogó példákat és dokumentációt találhat az Aspose dokumentációs webhelyén[itt](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java 投影片中的計量許可
 linktitle: Java 投影片中的計量許可
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過計量許可優化您的 Aspose.Slides for Java 使用。了解如何設定它並監控您的 API 消耗。
-type: docs
 weight: 10
 url: /zh-hant/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java 中的計量許可簡介
 
@@ -107,3 +111,10 @@ catch (Exception ex)
 ### 我需要網路連線才能獲得計量許可嗎？
 
 是的，需要網路連線來設定和驗證計量許可。
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

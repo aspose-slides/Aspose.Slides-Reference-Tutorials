@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ hình dạng giới hạn
 linktitle: Tạo hình thu nhỏ hình dạng giới hạn
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình thu nhỏ có giới hạn bằng Aspose.Slides cho Java. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Giới thiệu
 Aspose.Slides for Java là một thư viện mạnh mẽ cho phép các nhà phát triển Java tạo, thao tác và chuyển đổi bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách tạo hình ảnh thu nhỏ của một hình có giới hạn bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -57,3 +61,9 @@ Có, bạn có thể điều chỉnh các thuộc tính của hình thu nhỏ, c
 Có, Aspose.Slides for Java cung cấp chức năng mở rộng để làm việc với bản trình bày PowerPoint, bao gồm thao tác với trang chiếu, trích xuất văn bản và tạo biểu đồ.
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

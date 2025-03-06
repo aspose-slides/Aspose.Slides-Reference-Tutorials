@@ -3,10 +3,14 @@ title: .NET के लिए Aspose.Slides के साथ PowerPoint को PD
 linktitle: पीडीएफ अनुपालन प्राप्त करना - पीडीएफ/ए प्रारूप में कनवर्ट करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides for .NET के साथ PowerPoint प्रस्तुतियों को PDF/A प्रारूप में परिवर्तित करके PDF अनुपालन कैसे प्राप्त करें। दस्तावेज़ की दीर्घायु और पहुँच सुनिश्चित करें।
-type: docs
 weight: 25
 url: /hi/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 # .NET के लिए Aspose.Slides के साथ PDF अनुपालन कैसे प्राप्त करें
 
@@ -99,3 +103,9 @@ PDF/A, डिजिटल संरक्षण के लिए डिज़ा
 
 ### यदि मुझे कोई समस्या आती है तो मैं Aspose.Slides for .NET के लिए समर्थन कहां पा सकता हूं?
  यदि आपके कोई प्रश्न हों या आपको कोई समस्या हो, तो आप यहाँ सहायता और सहयोग ले सकते हैं।[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

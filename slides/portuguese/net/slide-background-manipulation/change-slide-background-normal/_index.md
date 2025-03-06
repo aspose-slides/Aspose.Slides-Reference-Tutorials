@@ -3,10 +3,14 @@ title: Como alterar o plano de fundo de um slide no Aspose.Slides .NET
 linktitle: Alterar plano de fundo normal do slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como alterar o plano de fundo dos slides usando Aspose.Slides for .NET e criar apresentações impressionantes em PowerPoint.
-type: docs
 weight: 15
 url: /pt/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 No mundo do design de apresentações, criar slides atraentes e envolventes é essencial. Aspose.Slides for .NET é uma ferramenta poderosa que permite manipular apresentações do PowerPoint de forma programática. Neste guia passo a passo, mostraremos como alterar o plano de fundo de um slide usando Aspose.Slides for .NET. Isso pode ajudá-lo a melhorar o apelo visual de suas apresentações e torná-las mais impactantes. 
 
@@ -99,3 +103,9 @@ Certamente! Você pode percorrer seus slides e aplicar as alterações de fundo 
 ### 5. Como obtenho uma licença temporária do Aspose.Slides for .NET?
 
  Se precisar de uma licença temporária para o seu projeto, você pode obter uma em[aqui](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

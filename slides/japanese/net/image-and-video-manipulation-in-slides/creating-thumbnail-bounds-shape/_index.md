@@ -3,10 +3,14 @@ title: Aspose.Slides で図形の境界付きサムネイルを作成する
 linktitle: Aspose.Slides で図形の境界付きサムネイルを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET のパワーを解き放ちましょう。ステップバイステップのガイドを使用して、境界付きの図形サムネイルを簡単に作成する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 PowerPoint プレゼンテーションの図形の境界付きサムネイル画像を作成するための堅牢なソリューションを探している .NET 開発者にとって、Aspose.Slides for .NET は頼りになるツールです。この強力なライブラリはシームレスな統合を提供し、PowerPoint ファイルから貴重な情報を効率的に操作および抽出できます。このチュートリアルでは、Aspose.Slides を使用して図形の境界付きサムネイルを作成する手順を説明します。
 ## 前提条件
@@ -60,3 +64,9 @@ Aspose.Slides for .NET は、PowerPoint プレゼンテーションの操作プ�
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティとつながり、経験豊富な開発者から支援を求めることができます。
 ### Aspose.Slides の一時ライセンスを取得できますか?
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/)短期的なプロジェクトのニーズに対応します。
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

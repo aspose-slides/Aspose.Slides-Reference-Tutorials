@@ -3,10 +3,14 @@ title: Hoạt ảnh và bố cục trang trình bày Java
 linktitle: Hoạt ảnh và bố cục trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu Bố cục và Hoạt ảnh của Trang trình bày Java với Aspose.Slides cho Java. Làm chủ các bài thuyết trình tương tác. Đi sâu vào việc tạo nội dung động.
-type: docs
 weight: 14
 url: /vi/java/animation-and-layout/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Bạn đang muốn thổi sức sống vào bài thuyết trình của mình và tạo các slide hấp dẫn bằng Java? Aspose.Slides cho Java là giải pháp phù hợp cho bạn. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách làm chủ hoạt ảnh và bố cục trang trình bày Java, đảm bảo bản trình bày của bạn nổi bật so với phần còn lại.
 
@@ -42,3 +46,9 @@ Tối ưu hóa bản trình bày Java của bạn với Aspose.Slides for Java. 
 Tối ưu hóa bản trình bày của bạn với hàng loạt hoạt ảnh trong Aspose.Slides for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi cùng với các ví dụ về mã nguồn để tạo hoạt ảnh PowerPoint hấp dẫn.
 ### [Hoạt hình các phần tử chuỗi trong Java Slides](./animating-series-elements-java-slides/)
 Tìm hiểu cách tạo hiệu ứng động cho các phần tử chuỗi trong trang chiếu PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước toàn diện này cùng với mã nguồn để cải thiện bản trình bày của bạn.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

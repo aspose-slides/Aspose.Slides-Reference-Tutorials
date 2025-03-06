@@ -3,10 +3,14 @@ title: Crie um retângulo formatado no PowerPoint
 linktitle: Crie um retângulo formatado no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar e formatar um retângulo no PowerPoint usando Aspose.Slides for Java com este guia passo a passo.
-type: docs
 weight: 18
 url: /pt/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introdução
 Neste tutorial, orientaremos você no processo de criação de um retângulo formatado em um slide do PowerPoint usando Aspose.Slides para Java. Descreveremos cada etapa, garantindo que você possa acompanhar e implementar isso em seus próprios projetos.
 ## Pré-requisitos
@@ -91,3 +95,9 @@ Sim, você pode usar Aspose.Slides for Java com qualquer IDE compatível com Jav
  Sim, descartando o`Presentation` object ajuda a liberar recursos e evitar vazamentos de memória.
 ### Onde posso encontrar a documentação do Aspose.Slides for Java?
  A documentação está disponível[aqui](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

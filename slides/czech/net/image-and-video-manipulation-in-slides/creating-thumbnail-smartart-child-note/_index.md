@@ -3,10 +3,14 @@ title: Vytvoření miniatury pro podřízenou poznámku SmartArt v Aspose.Slides
 linktitle: Vytvoření miniatury pro podřízenou poznámku SmartArt v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet úchvatné miniatury podřízených poznámek SmartArt pomocí Aspose.Slides for .NET. Pozvedněte své prezentace pomocí dynamických vizuálů!
-type: docs
 weight: 15
 url: /cs/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 oblasti dynamických prezentací vyniká Aspose.Slides for .NET jako výkonný nástroj, který vývojářům poskytuje možnost programově manipulovat a vylepšovat prezentace PowerPoint. Jednou ze zajímavých funkcí je schopnost generovat miniatury pro SmartArt Child Notes, které dodávají vašim prezentacím vrstvu vizuální přitažlivosti. Tento podrobný průvodce vás provede procesem vytváření miniatur pro SmartArt Child Notes pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -62,3 +66,9 @@ A: Rozhodně! Aspose.Slides nabízí řadu rozvržení SmartArt, což vám umož
  A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) zapojit se do komunity, klást otázky a hledat řešení.
 ### Otázka: Mohu si zakoupit Aspose.Slides pro .NET?
  A: Určitě! Prozkoumejte možnosti nákupu[tady](https://purchase.aspose.com/buy) odemknout plný potenciál Aspose.Slides ve vašich projektech.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

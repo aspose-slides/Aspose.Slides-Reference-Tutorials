@@ -3,10 +3,14 @@ title: So ändern Sie den Hintergrund einer Folie in Aspose.Slides .NET
 linktitle: Normalen Folienhintergrund ändern
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folienhintergründe ändern und beeindruckende PowerPoint-Präsentationen erstellen.
-type: docs
 weight: 15
 url: /de/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 In der Welt des Präsentationsdesigns ist die Erstellung auffälliger und ansprechender Folien unerlässlich. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie PowerPoint-Präsentationen programmgesteuert bearbeiten können. In dieser Schritt-für-Schritt-Anleitung zeigen wir Ihnen, wie Sie den Hintergrund einer Folie mit Aspose.Slides für .NET ändern. Dies kann Ihnen dabei helfen, die visuelle Attraktivität Ihrer Präsentationen zu steigern und sie wirkungsvoller zu gestalten. 
 
@@ -99,3 +103,9 @@ Natürlich! Sie können Ihre Folien durchlaufen und die gewünschten Hintergrund
 ### 5. Wie erhalte ich eine temporäre Lizenz für Aspose.Slides für .NET?
 
  Wenn Sie für Ihr Projekt eine temporäre Lizenz benötigen, erhalten Sie diese bei[Hier](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

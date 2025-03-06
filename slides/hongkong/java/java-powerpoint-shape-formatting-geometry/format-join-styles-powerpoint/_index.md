@@ -3,10 +3,14 @@ title: 在 PowerPoint 中格式化連線樣式
 linktitle: 在 PowerPoint 中格式化連線樣式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 為形狀設定不同的線條連接樣式來增強 PowerPoint 簡報。請遵循我們的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 介紹
 建立具有視覺吸引力的 PowerPoint 簡報可能是一項艱鉅的任務，尤其是當您希望每個細節都完美時。這就是 Aspose.Slides for Java 派上用場的地方。它是一個功能強大的 API，可讓您以程式設計方式建立、操作和管理簡報。您可以利用的功能之一是為形狀設定不同的線條連接樣式，這可以顯著增強投影片的美感。在本教學中，我們將深入探討如何使用 Aspose.Slides for Java 設定 PowerPoint 簡報中形狀的連線樣式。 
 ## 先決條件
@@ -112,3 +116,9 @@ Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方�
 線連接樣式是指兩條線相交的角的形狀。常見的樣式包括斜接、斜角和圓形。
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件？
 你可以找到詳細的文檔[這裡](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Hangkeretek hozzáadása prezentációs diákhoz az Aspose.Slides segíts
 linktitle: Hangkeretek hozzáadása prezentációs diákhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa a prezentációkat az Aspose.Slides for .NET segítségével! Tanuljon meg zökkenőmentesen hangkockákat hozzáadni, és még soha nem vonzza le közönségét.
-type: docs
 weight: 14
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 A prezentációk dinamikus világában az audioelemek beépítése jelentősen javíthatja a közönség általános élményét. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen integrálják az audio kereteket a prezentációs diákba, új réteget adva hozzá az elköteleződéshez és az interaktivitáshoz. Ez a részletes útmutató végigvezeti az Aspose.Slides for .NET segítségével hangkeretek hozzáadásának folyamatán.
 ## Előfeltételek
@@ -63,3 +67,9 @@ Igen, az Aspose.Slides rugalmasságot biztosít a lejátszási beállítások, p
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítséget kérni és kapcsolatba lépni a közösséggel.
 ### Hogyan vásárolhatom meg az Aspose.Slides-t .NET-hez?
  A könyvtárat megvásárolhatja a[Aspose bolt](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

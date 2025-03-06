@@ -3,10 +3,14 @@ title: Aspose.Slides .NET을 사용하여 차트에서 통합 문서를 복구�
 linktitle: 차트에서 통합 문서 복구
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 통합 문서를 복구하는 방법을 알아보세요. 데이터를 효율적으로 추출하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 .NET에서 PowerPoint 프레젠테이션 작업을 하려는 경우 Aspose.Slides for .NET은 목표 달성에 도움이 되는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 통합 문서를 복구하는 과정을 안내합니다. 이 강력한 기능은 프레젠테이션 내의 차트에서 데이터를 추출해야 할 때 유용할 수 있습니다. 우리는 프로세스를 따라하기 쉬운 단계로 나누어서 귀하가 이 작업을 수행하는 방법을 명확하게 이해할 수 있도록 하겠습니다.
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET은 Microsoft PowerPoint 파일 작업을 위한 강력한
 ### 5. SEO 최적화를 위한 최대 제목 길이는 얼마입니까?
 
 SEO 최적화를 위해서는 제목을 60자 미만으로 유지하여 검색 엔진 결과에 제대로 표시되도록 하는 것이 좋습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

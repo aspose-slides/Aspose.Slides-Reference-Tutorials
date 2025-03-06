@@ -3,10 +3,14 @@ title: Buat Bentuk Grup di PowerPoint
 linktitle: Buat Bentuk Grup di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat bentuk grup dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan pengorganisasian dan daya tarik visual dengan mudah.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Dalam presentasi modern, menggabungkan elemen yang menarik secara visual dan terstruktur dengan baik sangat penting untuk menyampaikan informasi secara efektif. Bentuk grup di PowerPoint memungkinkan Anda mengatur beberapa bentuk menjadi satu unit, sehingga memudahkan manipulasi dan pemformatan. Aspose.Slides untuk Java menyediakan fungsionalitas canggih untuk membuat dan memanipulasi bentuk grup secara terprogram, menawarkan fleksibilitas dan kontrol atas desain presentasi Anda.
 ## Prasyarat
@@ -75,3 +79,9 @@ Tentu saja, Anda dapat menambahkan gambar bersama dengan bentuk lain ke bentuk g
 Aspose.Slides untuk Java tidak menerapkan batasan ketat pada jumlah bentuk yang dapat ditambahkan ke bentuk grup.
 ### Bisakah saya menerapkan animasi ke bentuk grup menggunakan Aspose.Slides untuk Java?
 Ya, Aspose.Slides untuk Java memberikan dukungan komprehensif untuk menerapkan animasi ke bentuk grup, memungkinkan presentasi dinamis.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

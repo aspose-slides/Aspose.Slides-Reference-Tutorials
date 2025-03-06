@@ -3,10 +3,14 @@ title: كيانات الرسم البياني في شرائح جافا
 linktitle: كيانات الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية إنشاء مخططات Java Slides وتخصيصها باستخدام Aspose.Slides. قم بتحسين العروض التقديمية الخاصة بك باستخدام كيانات الرسم البياني القوية.
-type: docs
 weight: 13
 url: /ar/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## مقدمة لكيانات المخطط في شرائح جافا
 
@@ -301,3 +305,9 @@ finally
 ### هل Aspose.Slides for Java متوافق مع أحدث إصدارات Java؟
 
 نعم، يتم تحديث Aspose.Slides for Java بانتظام لدعم أحدث إصدارات Java وتوفير التوافق عبر مجموعة واسعة من بيئات Java.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

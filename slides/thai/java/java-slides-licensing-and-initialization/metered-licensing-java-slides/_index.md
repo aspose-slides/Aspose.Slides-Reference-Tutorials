@@ -3,10 +3,14 @@ title: ใบอนุญาตแบบมิเตอร์ใน Java Slides
 linktitle: ใบอนุญาตแบบมิเตอร์ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เพิ่มประสิทธิภาพ Aspose.Slides ของคุณสำหรับการใช้งาน Java ด้วย Metered Licensing เรียนรู้วิธีตั้งค่าและติดตามปริมาณการใช้ API ของคุณ
-type: docs
 weight: 10
 url: /th/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับ Metered Licensing ใน Aspose.Slides สำหรับ Java
 
@@ -107,3 +111,10 @@ catch (Exception ex)
 ### ฉันจำเป็นต้องเชื่อมต่ออินเทอร์เน็ตเพื่อขอใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูลหรือไม่?
 
 ใช่ จำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อตั้งค่าและตรวจสอบสิทธิ์การใช้งานแบบมิเตอร์
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Java PowerPoint'te Fallback Font ile İşleme
 linktitle: Java PowerPoint'te Fallback Font ile İşleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında yedek yazı tipleriyle metni nasıl oluşturacağınızı öğrenin. Sorunsuz bir uygulama için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Java'da PowerPoint sunumları oluşturmak ve düzenlemek zorlayıcı olabilir ancak Aspose.Slides ile bunu verimli bir şekilde yapabilirsiniz. Önemli özelliklerden biri, metni yedek yazı tipleriyle oluşturma yeteneğidir. Bu makale, Aspose.Slides for Java kullanarak PowerPoint slaytlarınıza yedek yazı tiplerini nasıl uygulayacağınız konusunda ayrıntılı, adım adım bir kılavuz sağlar.
 ## Önkoşullar
@@ -88,3 +92,9 @@ Yedek yazı tipleri, belirtilen yazı tipi kullanılamadığında veya belirli k
 Evet, farklı Unicode aralıklarını ve yazı tiplerini işlemek için birden fazla geri dönüş kuralı ekleyebilirsiniz.
 ### Aspose.Slides için nereden destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

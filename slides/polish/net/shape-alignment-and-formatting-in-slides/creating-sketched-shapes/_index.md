@@ -3,10 +3,14 @@ title: Twórz oszałamiające szkicowane kształty za pomocą Aspose.Slides
 linktitle: Tworzenie szkicowanych kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać kreatywne, naszkicowane kształty do slajdów prezentacji za pomocą Aspose.Slides dla .NET. Zwiększ atrakcyjność wizualną bez wysiłku!
-type: docs
 weight: 13
 url: /pl/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym tworzenia szkicowanych kształtów na slajdach prezentacji przy użyciu Aspose.Slides dla .NET. Jeśli chcesz dodać odrobinę kreatywności do swoich prezentacji, szkicowane kształty zapewnią niepowtarzalną, ręcznie rysowaną estetykę. W tym samouczku przeprowadzimy Cię przez cały proces, dzieląc go na proste kroki, aby zapewnić płynne działanie.
 ## Warunki wstępne
@@ -74,3 +78,9 @@ Dodawanie naszkicowanych kształtów do slajdów prezentacji może zwiększyć a
  Aby kupić Aspose.Slides dla .NET, odwiedź stronę[strona zakupu](https://purchase.aspose.com/buy).
 ### 5. Czy oferujecie licencje tymczasowe?
  Tak, dostępne są licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

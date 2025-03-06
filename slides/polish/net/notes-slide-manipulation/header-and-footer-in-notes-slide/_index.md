@@ -3,10 +3,14 @@ title: Zarządzanie nagłówkiem i stopką w notatkach za pomocą Aspose.Slides 
 linktitle: Zarządzaj nagłówkiem i stopką na slajdzie Notatki
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak zarządzać nagłówkiem i stopką na slajdach notatek programu PowerPoint przy użyciu Aspose.Slides dla .NET. Ulepsz swoje prezentacje bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 dzisiejszej erze cyfrowej tworzenie angażujących i pouczających prezentacji jest kluczową umiejętnością. W ramach tego procesu często może zaistnieć potrzeba dołączenia nagłówków i stopek do slajdów notatek, aby zapewnić dodatkowy kontekst i informacje. Aspose.Slides dla .NET to potężne narzędzie, które umożliwia łatwe zarządzanie ustawieniami nagłówka i stopki na slajdach z notatkami. W tym przewodniku krok po kroku odkryjemy, jak to osiągnąć za pomocą Aspose.Slides dla .NET.
 
@@ -120,3 +124,9 @@ Absolutnie Aspose.Slides dla .NET pozwala zautomatyzować prezentacje PowerPoint
 
 ### Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Slides dla .NET?
  Tak, możesz znaleźć wsparcie i pomoc ze strony społeczności Aspose i ekspertów ds[Forum wsparcia Aspose](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

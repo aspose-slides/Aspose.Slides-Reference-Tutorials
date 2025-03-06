@@ -3,10 +3,14 @@ title: Java 슬라이드의 지시선 색상
 linktitle: Java 슬라이드의 지시선 색상
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 차트에서 지시선 색상을 변경하는 방법을 알아보세요. 소스 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Aspose.Slides for Java의 지시선 색상 소개
 
@@ -116,3 +120,9 @@ Aspose 지원 포럼을 방문하면 Aspose.Slides for Java에 대한 기술 지
 ### 다른 Java 라이브러리 및 프레임워크와 함께 Java용 Aspose.Slides를 사용할 수 있나요?
 
 예, 프로젝트에 필요에 따라 Aspose.Slides for Java를 다른 Java 라이브러리 및 프레임워크와 통합할 수 있습니다. Aspose.Slides는 다양한 PowerPoint 기능을 사용하기 위한 API를 제공하므로 이를 다른 도구 및 기술과 결합하여 강력한 응용 프로그램을 만들 수 있습니다.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

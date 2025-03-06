@@ -3,10 +3,14 @@ title: จัดรูปแบบเส้นใน PowerPoint
 linktitle: จัดรูปแบบเส้นใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดรูปแบบเส้นใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนนี้ ทำให้การนำเสนอของคุณสมบูรณ์แบบด้วยสไตล์เส้นที่กำหนดเอง
-type: docs
 weight: 16
 url: /th/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 งานนำเสนอ PowerPoint เป็นเนื้อหาหลักในสภาพแวดล้อมทางวิชาชีพและทางการศึกษา ความสามารถในการจัดรูปแบบเส้นอย่างมีประสิทธิภาพในสไลด์ของคุณสามารถทำให้งานนำเสนอของคุณดูสวยงามและเป็นมืออาชีพได้ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Slides สำหรับ Java เพื่อจัดรูปแบบเส้นในงานนำเสนอ PowerPoint ในตอนท้ายของคู่มือนี้ คุณจะสามารถสร้างและจัดรูปแบบเส้นในสไลด์ของคุณได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -87,3 +91,9 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
  ใช่ คุณสามารถทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะหาเอกสารรายละเอียดเพิ่มเติมได้จากที่ไหน?
  เอกสารรายละเอียดมีอยู่ที่[หน้าเอกสาร](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

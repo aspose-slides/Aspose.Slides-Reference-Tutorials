@@ -3,10 +3,14 @@ title: Add Video Frame in PowerPoint
 linktitle: Add Video Frame in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to seamlessly integrate video content into PowerPoint presentations using Aspose.Slides for Java. Your slides with multimedia elements to engage your audience.
-type: docs
 weight: 17
 url: /java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 In this tutorial, we will guide you through the process of adding a video frame to a PowerPoint presentation using Aspose.Slides for Java. By following these step-by-step instructions, you'll be able to seamlessly integrate video content into your presentations with ease.
 ## Prerequisites
@@ -60,3 +64,10 @@ You can customize the dimensions and coordinates of the video frame by modifying
 Yes, you can set the play mode and volume of the video frame according to your preferences.
 ### Where can I find more support and resources for Aspose.Slides?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for assistance, documentation, and community support.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

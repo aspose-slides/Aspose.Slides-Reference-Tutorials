@@ -3,10 +3,14 @@ title: Aspose.Slides ile PDF/A ve PDF/UA Uyumluluğunu Elde Etme
 linktitle: PDF/A ve PDF/UA Uyumluluğunu Elde Etme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PDF/A ve PDF/UA uyumluluğunu sağlayın. Kolayca erişilebilir ve korunabilir sunumlar oluşturun.
-type: docs
 weight: 23
 url: /tr/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## giriiş
 
@@ -127,3 +131,9 @@ PDF/UA belgelerinde erişilebilirliği sağlamak için Aspose.Slides'ın özelli
 ### Tüm belgeler için PDF/UA uyumluluğu gerekli midir?
 
 PDF/UA uyumluluğu özellikle engelli kullanıcıların erişebilmesi amaçlanan belgeler için önemlidir. Ancak PDF/UA uyumluluğunun gerekliliği hedef kitlenizin özel gereksinimlerine bağlıdır.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

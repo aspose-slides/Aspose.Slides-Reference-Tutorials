@@ -3,10 +3,14 @@ title: Zvládnutí extrakce zvuku a videa pomocí Aspose.Slides pro .NET
 linktitle: Extrakce zvuku a videa ze snímků pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se extrahovat zvuk a video ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Bezproblémová extrakce multimédií.
-type: docs
 weight: 10
 url: /cs/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Úvod
 
@@ -135,3 +139,10 @@ Aspose nabízí různé možnosti licencování, včetně bezplatných zkušebn�
 
 ### Jaké další úkoly mohu provádět s Aspose.Slides pro .NET?
  Aspose.Slides for .NET poskytuje širokou škálu funkcí, včetně vytváření, úprav a převodu prezentací v PowerPointu. Další podrobnosti si můžete prohlédnout v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/).
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

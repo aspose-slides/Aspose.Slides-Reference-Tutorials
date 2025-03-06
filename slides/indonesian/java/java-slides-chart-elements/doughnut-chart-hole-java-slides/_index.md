@@ -3,10 +3,14 @@ title: Lubang Bagan Donat di Slide Java
 linktitle: Lubang Bagan Donat di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Donat dengan Ukuran Lubang Khusus di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk penyesuaian bagan.
-type: docs
 weight: 11
 url: /id/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Pengantar Bagan Donat Berlubang di Slide Java
 
@@ -94,3 +98,9 @@ finally
 ### Apakah mungkin untuk menambahkan judul pada grafik?
 
  Tentu! Anda dapat menambahkan judul ke bagan menggunakan`setTitle` metode pada`IChart` objek dan memberikan judul teks yang diinginkan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

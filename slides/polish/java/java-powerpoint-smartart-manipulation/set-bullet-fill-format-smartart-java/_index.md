@@ -3,10 +3,14 @@ title: Ustaw format wypełnienia punktorem w SmartArt przy użyciu języka Java
 linktitle: Ustaw format wypełnienia punktorem w SmartArt przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić format wypełnienia punktorem w SmartArt przy użyciu języka Java z Aspose.Slides. Przewodnik krok po kroku dotyczący skutecznej manipulacji prezentacją.
-type: docs
 weight: 18
 url: /pl/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 dziedzinie programowania w języku Java sprawna manipulacja prezentacjami jest powszechnym wymogiem, szczególnie w przypadku elementów SmartArt. Aspose.Slides for Java okazuje się potężnym narzędziem do takich zadań, oferującym szereg funkcji do programowej obsługi prezentacji. W tym samouczku szczegółowo omówimy proces ustawiania formatu wypełnienia punktorem w SmartArt przy użyciu języka Java z Aspose.Slides.
 ## Warunki wstępne
@@ -71,3 +75,9 @@ Rzeczywiście, Aspose.Slides umożliwia dostosowanie każdego aspektu kształtó
  Tak, możesz poznać funkcje Aspose.Slides w ramach bezpłatnej wersji próbnej. Po prostu pobierz go z[strona internetowa](https://releases.aspose.com/slides/java/) i zacznij odkrywać.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla Java?
  W przypadku jakichkolwiek pytań lub pomocy możesz odwiedzić forum Aspose.Slides pod adresem[ten link](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Diagramadatok szerkesztése a Java Slides külső munkafüzetében
 linktitle: Diagramadatok szerkesztése a Java Slides külső munkafüzetében
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan szerkesztheti a diagramadatokat egy külső munkafüzetben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-type: docs
 weight: 17
 url: /hu/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés a diagramadatok szerkesztésébe a Java Slides külső munkafüzetében
 
@@ -103,3 +107,9 @@ A kódot hozzáigazíthatja a különböző külső munkafüzet-formátumok keze
 ### Hogyan automatizálhatom ezt a folyamatot több prezentációhoz?
 
 Létrehozhat egy hurkot több prezentáció feldolgozásához, mindegyik betöltéséhez, a kívánt módosítások elvégzéséhez és a módosított prezentációk egyenkénti mentéséhez.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

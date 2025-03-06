@@ -3,10 +3,14 @@ title: Création de formes et de vignettes Java PowerPoint
 linktitle: Création de formes et de vignettes Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des formes et des vignettes dans PowerPoint à l'aide d'Aspose.Slides Java. Tutoriels détaillés sur la création de formes de groupe, de vignettes de facteurs de mise à l'échelle et d'effets de zoom.
-type: docs
 weight: 24
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduction
 
 Créer des présentations PowerPoint visuellement attrayantes et organisées est essentiel pour une communication efficace. Avec Aspose.Slides pour Java, vous pouvez facilement améliorer vos présentations en créant diverses formes et vignettes. Cet article fournit un guide étape par étape pour maîtriser ces techniques, garantissant que vos diapositives sont à la fois attrayantes et professionnelles.
@@ -52,3 +56,9 @@ Apprenez à créer des vignettes de notes enfants SmartArt en Java avec Aspose.S
  Apprenez à créer un zoom récapitulatif dans PowerPoint à l'aide d'Aspose.Slides pour Java avec ce didacticiel complet étape par étape.
 ### [Créer un cadre de zoom dans PowerPoint](./create-zoom-frame-powerpoint/)
 Découvrez comment créer des cadres de zoom attrayants dans PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez notre guide pour ajouter des éléments interactifs à vos présentations.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

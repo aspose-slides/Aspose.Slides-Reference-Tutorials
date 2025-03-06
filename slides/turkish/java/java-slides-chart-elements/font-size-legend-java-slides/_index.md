@@ -3,10 +3,14 @@ title: Java Slaytlarında Yazı Tipi Boyutu Açıklaması
 linktitle: Java Slaytlarında Yazı Tipi Boyutu Açıklaması
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint sunumlarını geliştirin. Adım adım kılavuzumuzda açıklama yazı tipi boyutlarını ve daha fazlasını nasıl özelleştireceğinizi öğrenin.
-type: docs
 weight: 13
 url: /tr/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Yazı Tipi Boyutu Göstergesine Giriş
 
@@ -135,3 +139,9 @@ Burada otomatik eksen ölçeklendirmeyi devre dışı bırakıp dikey eksen içi
 ### Aspose.Slides için daha fazla bilgi ve belgeyi nerede bulabilirim?
 
  Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı dokümantasyon ve API referansları bulabilirsiniz. Ziyaret etmek[Burada](https://reference.aspose.com/slides/java/) Kütüphanenin kullanımına ilişkin detaylı bilgi için.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

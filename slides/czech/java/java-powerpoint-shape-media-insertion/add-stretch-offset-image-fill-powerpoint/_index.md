@@ -3,10 +3,14 @@ title: Přidejte odsazení roztažení pro výplň obrázku v PowerPointu
 linktitle: Přidejte odsazení roztažení pro výplň obrázku v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat odsazení roztažení pro výplň obrázků v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Včetně návodu krok za krokem.
-type: docs
 weight: 16
 url: /cs/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Úvod
 V tomto tutoriálu se naučíte, jak používat Aspose.Slides pro Java k přidání posunutí roztažení pro výplň obrázků v prezentacích PowerPoint. Tato funkce vám umožňuje manipulovat s obrázky ve vašich snímcích, což vám dává větší kontrolu nad jejich vzhledem.
 ## Předpoklady
@@ -64,3 +68,9 @@ Aspose.Slides for Java si poradí s obrázky různých velikostí, ale pro lepš
 Ano, pomocí rozsáhlého API Aspose.Slides for Java můžete na obrázky aplikovat širokou škálu efektů a transformací.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides for Java?
  Můžete navštívit[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) pro podrobné průvodce a prozkoumejte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

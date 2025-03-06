@@ -3,10 +3,14 @@ title: Πώς να αφαιρέσετε υπερσυνδέσμους από δι
 linktitle: Κατάργηση υπερσυνδέσμων από τη Διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αφαιρείτε υπερσυνδέσμους από διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Δημιουργήστε καθαρές και επαγγελματικές παρουσιάσεις.
-type: docs
 weight: 11
 url: /el/net/hyperlink-manipulation/remove-hyperlinks/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Στον κόσμο των επαγγελματικών παρουσιάσεων, είναι απαραίτητο να βεβαιωθείτε ότι οι διαφάνειές σας φαίνονται προσεγμένες και τακτοποιημένες. Ένα κοινό στοιχείο που συχνά παρασέρνει τις διαφάνειες είναι οι υπερσύνδεσμοι. Είτε έχετε να κάνετε με υπερσυνδέσμους σε ιστότοπους, έγγραφα ή άλλες διαφάνειες στην παρουσίασή σας, μπορεί να θέλετε να τις αφαιρέσετε για μια πιο καθαρή και εστιασμένη εμφάνιση. Με το Aspose.Slides για .NET, μπορείτε εύκολα να επιτύχετε αυτήν την εργασία. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία κατάργησης υπερσυνδέσμων από διαφάνειες χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -84,3 +88,9 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### Διατίθεται τεχνική υποστήριξη για το Aspose.Slides για .NET;
  Ναι, μπορείτε να αναζητήσετε τεχνική υποστήριξη και να συνεργαστείτε με την κοινότητα Aspose στο[Aspose φόρουμ](https://forum.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

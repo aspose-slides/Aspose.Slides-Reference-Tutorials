@@ -3,10 +3,14 @@ title: PowerPoint の組み込みプロパティを変更する
 linktitle: PowerPoint の組み込みプロパティを変更する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの組み込みプロパティを変更する方法を学びます。プログラムによってプレゼンテーションを強化します。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 導入
 Aspose.Slides for Java を使用すると、開発者は PowerPoint プレゼンテーションをプログラムで操作できます。重要な機能の 1 つは、作成者、タイトル、件名、コメント、管理者などの組み込みプロパティを変更することです。このチュートリアルでは、プロセスを段階的に説明します。
 ## 前提条件
@@ -65,3 +69,9 @@ Aspose.Slides は、PPT、PPTX、PPS などさまざまな PowerPoint 形式を�
 Aspose.Slides は広範な機能を提供しますが、一部の高度な機能は PowerPoint の形式とバージョンに応じて制限される可能性があります。
 ### Aspose.Slides のテクニカル サポートは受けられますか?
 はい、支援を求めたり、議論に参加したりすることができます。[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Keresse meg az alakzatot a Diában
 linktitle: Keresse meg az alakzatot a Diában
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java segítségével könnyedén megtalálhatja az alakzatokat a PowerPoint diákban. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes kódolási élmény érdekében.
-type: docs
 weight: 14
 url: /hu/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Eleged van abból, hogy a PowerPoint diákat keresd, hogy konkrét formákat keress? Képzelje el, hogy ezt a folyamatot könnyedén automatizálhatja néhány sornyi kóddal. Üdvözöljük részletes útmutatónkban az Aspose.Slides for Java használatáról a prezentációs fájlokban lévő alakzatok megkereséséhez. Ebben az oktatóanyagban lebontjuk azokat a lépéseket, amelyek szükségesek ahhoz, hogy az Aspose.Slides for Java segítségével alakzatokat találjon egy diában, a környezet beállításától a kód futtatásáig.
 ## Előfeltételek
@@ -84,3 +88,9 @@ Igen, az Aspose.Slides különféle fájlformátumokat támogat, beleértve a .p
  Igen, ingyenes próbaverziót kaphat a webhelyen[Az Aspose ingyenes próbaoldala](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides-hez?
  Támogatást találhat a[Aspose Slides fórum](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

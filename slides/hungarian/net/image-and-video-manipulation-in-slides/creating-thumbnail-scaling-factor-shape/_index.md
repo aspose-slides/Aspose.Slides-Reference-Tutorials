@@ -3,10 +3,14 @@ title: Bélyegkép létrehozása méretezési tényezővel az Aspose.Slides-ben
 linktitle: Bélyegkép létrehozása méretezési tényezővel az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre PowerPoint bélyegképeket meghatározott határokkal az Aspose.Slides for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az Aspose.Slides for .NET alakzatokhoz korlátos bélyegképek létrehozásáról. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint prezentációkkal .NET-alkalmazásaikban. Ebben az oktatóanyagban az Aspose.Slides segítségével elmélyülünk a prezentáción belüli alakzatokhoz meghatározott korlátokkal rendelkező bélyegképek létrehozásának folyamatában.
 ## Előfeltételek
@@ -55,3 +59,9 @@ Igen, az Aspose.Slides kompatibilis a különböző .NET-keretrendszerekkel, rug
  Ha kérdése vagy segítsége van, keresse fel az Aspose.Slides támogatási fórumát[itt](https://forum.aspose.com/c/slides/11).
 ### 5. kérdés: Megvásárolhatom az Aspose.Slides-t .NET-hez?
  Biztosan! Az Aspose.Slides for .NET megvásárlásához látogasson el a vásárlási oldalra[itt](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

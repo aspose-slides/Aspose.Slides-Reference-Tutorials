@@ -3,10 +3,14 @@ title: Setting Automatic Pie Chart Slice Colors in Java Slides
 linktitle: Setting Automatic Pie Chart Slice Colors in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic pie charts with automatic slice colors in Java PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code.
-type: docs
 weight: 24
 url: /java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Setting Automatic Pie Chart Slice Colors in Java Slides
 
@@ -198,3 +202,10 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 You can adjust the font size, boldness, and italic style as needed.
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

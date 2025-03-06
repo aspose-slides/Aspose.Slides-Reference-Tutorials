@@ -3,10 +3,14 @@ title: Replicar diapositiva al final de una presentación separada
 linktitle: Replicar diapositiva al final de una presentación separada
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo replicar una diapositiva de una presentación de PowerPoint y agregarla a otra usando Aspose.Slides para .NET. Esta guía paso a paso proporciona código fuente e instrucciones claras para una manipulación de diapositivas perfecta.
-type: docs
 weight: 17
 url: /es/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introducción a Aspose.Slides para .NET
 
@@ -103,3 +107,9 @@ Sí, Aspose.Slides para .NET admite varios formatos de PowerPoint, incluidos PPT
 ### ¿Aspose.Slides para .NET funciona sólo con diapositivas?
 
 No, Aspose.Slides para .NET proporciona amplias capacidades más allá de las diapositivas. Puede trabajar con formas, gráficos, animaciones e incluso extraer texto e imágenes de presentaciones.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

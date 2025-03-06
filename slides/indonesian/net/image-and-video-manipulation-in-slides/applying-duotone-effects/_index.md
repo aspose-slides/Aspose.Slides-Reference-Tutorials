@@ -3,10 +3,14 @@ title: Menguasai Efek Duotone di Aspose.Slides untuk .NET
 linktitle: Menerapkan Efek Duotone pada Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buat slide presentasi yang menawan dengan Aspose.Slides untuk .NET. Pelajari cara menerapkan efek duotone selangkah demi selangkah. Tingkatkan presentasi Anda sekarang!
-type: docs
 weight: 18
 url: /id/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Perkenalan
 Membuat slide presentasi yang memukau secara visual sangat penting untuk menarik audiens Anda. Salah satu cara efektif untuk menyempurnakan slide Anda adalah dengan menerapkan efek duotone. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan efek duotone dalam slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -81,3 +85,9 @@ Ya, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibilitas deng
 Sangat. Jelajahi dokumentasi Aspose.Slides untuk opsi penyesuaian tingkat lanjut.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides?
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

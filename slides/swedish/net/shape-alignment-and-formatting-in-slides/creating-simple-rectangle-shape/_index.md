@@ -3,10 +3,14 @@ title: Skapa rektangelformer med Aspose.Slides för .NET
 linktitle: Skapa enkel rektangelform i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska en värld av dynamiska PowerPoint-presentationer med Aspose.Slides för .NET. Lär dig hur du skapar engagerande rektangelformer i bilder med denna steg-för-steg-guide.
-type: docs
 weight: 12
 url: /sv/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Introduktion
 Om du vill förbättra dina .NET-applikationer med dynamiska och visuellt tilltalande PowerPoint-presentationer, är Aspose.Slides för .NET din bästa lösning. I den här handledningen guidar vi dig genom processen att skapa en enkel rektangelform i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -61,3 +65,9 @@ Ja, Aspose.Slides för .NET är plattformsoberoende och kan användas i både Wi
  Ja, du kan köpa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta dokumentationen för Aspose.Slides för .NET?
  Se dokumentationen[här](https://reference.aspose.com/slides/net/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

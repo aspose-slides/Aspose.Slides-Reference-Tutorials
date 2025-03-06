@@ -3,10 +3,14 @@ title: Χειρισμός σχολίων διαφανειών
 linktitle: Χειρισμός σχολίων διαφανειών
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις δεξιότητές σας στον χειρισμό της διαφάνειας με τα μαθήματα Aspose.Slides σχετικά με τη χειραγώγηση σχολίων διαφανειών. Μάθετε να προσθέτετε, να επεξεργάζεστε και να διαχειρίζεστε σχόλια μέσω προγραμματισμού σε παρουσιάσεις PowerPoint χρησιμοποιώντας .NET.
-type: docs
 weight: 12
 url: /el/net/slide-comments-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Εισαγωγή
 
@@ -27,3 +31,9 @@ url: /el/net/slide-comments-manipulation/
 Προσθέστε βάθος και αλληλεπίδραση στις παρουσιάσεις σας με το Aspose.Slides API. Μάθετε πώς να ενσωματώνετε εύκολα σχόλια στις διαφάνειές σας χρησιμοποιώντας το .NET. Ενισχύστε την αφοσίωση και μαγέψτε το κοινό σας.
 ### [Διαχείριση Σύγχρονων Σχόλια](./modern-comments/)
 Βελτιώστε τις διαδικασίες συνεργασίας και ανατροφοδότησης με τη σύγχρονη διαχείριση σχολίων χρησιμοποιώντας το Aspose.Slides. Μάθετε πώς να βελτιστοποιείτε την επικοινωνία στις παρουσιάσεις σας και να μεγιστοποιείτε την παραγωγικότητα.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

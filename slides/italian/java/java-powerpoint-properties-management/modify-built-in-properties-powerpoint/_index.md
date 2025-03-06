@@ -3,10 +3,14 @@ title: Modifica le proprietà integrate in PowerPoint
 linktitle: Modifica le proprietà integrate in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come modificare le proprietà integrate nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue presentazioni in modo programmatico.
-type: docs
 weight: 12
 url: /it/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## introduzione
 Aspose.Slides per Java consente agli sviluppatori di manipolare le presentazioni PowerPoint a livello di codice. Una caratteristica essenziale è la modifica delle proprietà integrate, come autore, titolo, oggetto, commenti e gestore. Questo tutorial ti guida attraverso il processo passo dopo passo.
 ## Prerequisiti
@@ -65,3 +69,9 @@ Assolutamente! Puoi creare script o applicazioni per automatizzare le modifiche 
 Sebbene Aspose.Slides offra funzionalità estese, alcune funzionalità avanzate potrebbero presentare limitazioni a seconda del formato e della versione di PowerPoint.
 ### Il supporto tecnico è disponibile per Aspose.Slides?
  Sì, puoi chiedere assistenza e partecipare alle discussioni su[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

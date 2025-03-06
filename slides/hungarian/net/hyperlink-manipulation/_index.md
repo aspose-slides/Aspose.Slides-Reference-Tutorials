@@ -3,10 +3,14 @@ title: Hiperhivatkozás-manipuláció
 linktitle: Hiperhivatkozás-manipuláció
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Bővítse .NET-alkalmazásait átfogó hiperhivatkozás-manipulációval az Aspose.Slides segítségével. Tanulja meg, hogyan kezelheti a hiperhivatkozásokat, hogyan hozhat létre interaktív prezentációkat, és hogyan fokozza a felhasználók elkötelezettségét.
-type: docs
 weight: 13
 url: /hu/net/hyperlink-manipulation/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Bevezetés:
 
@@ -27,3 +31,9 @@ Ismerje meg, hogyan adhat hiperhivatkozásokat diákhoz a PowerPointban az Aspos
 Ismerje meg, hogyan kezelheti hatékonyan a prezentációkban található hiperhivatkozásokat az Aspose.Slides for .NET segítségével. Automatizálja a feladatokat, hozzon létre interaktív menüket, és fokozza a felhasználók elkötelezettségét.
 ### [Változó hiperhivatkozás létrehozása](./mutable-hyperlink/)
 Ismerje meg, hogyan hozhat létre módosítható hivatkozásokat az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal dinamikus prezentációkhoz.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: ลบแถวหรือคอลัมน์ในตาราง Pow
 linktitle: ลบแถวหรือคอลัมน์ในตาราง PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบแถวหรือคอลัมน์ออกจากตาราง PowerPoint โดยใช้ Java กับ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนง่ายๆ สำหรับนักพัฒนา
-type: docs
 weight: 18
 url: /th/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีลบแถวหรือคอลัมน์ออกจากตาราง PowerPoint โดยใช้ Java ด้วยความช่วยเหลือของ Aspose.Slides Aspose.Slides สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงงานนำเสนอ PowerPoint โดยทางโปรแกรม บทช่วยสอนนี้เน้นที่กระบวนการปรับเปลี่ยนตารางภายในสไลด์ PowerPoint โดยเฉพาะ โดยสาธิตวิธีการลบแถวหรือคอลัมน์เฉพาะออกจากตารางทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +78,9 @@ Aspose.Slides ให้การสนับสนุนที่ครอบค
 ใช่ Aspose.Slides ถูกนำมาใช้กันอย่างแพร่หลายในสภาพแวดล้อมขององค์กรสำหรับการทำงาน PowerPoint อัตโนมัติ เนื่องจากมีคุณสมบัติและประสิทธิภาพที่แข็งแกร่ง
 ### ฉันสามารถลองใช้ Aspose.Slides ก่อนซื้อได้หรือไม่
  ใช่ คุณสามารถดาวน์โหลด Aspose.Slides รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Panduan Komprehensif untuk Mengatur Master Latar Belakang Slide
 linktitle: Atur Master Latar Belakang Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengatur master latar belakang slide menggunakan Aspose.Slides untuk .NET untuk menyempurnakan presentasi Anda secara visual.
-type: docs
 weight: 14
 url: /id/net/slide-background-manipulation/set-slide-background-master/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 Dalam bidang desain presentasi, latar belakang yang menawan dan menarik secara visual dapat membuat perbedaan besar. Baik Anda membuat presentasi untuk bisnis, pendidikan, atau tujuan lainnya, latar belakang memainkan peran penting dalam meningkatkan dampak visual. Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda memanipulasi dan menyesuaikan presentasi dengan cara yang mulus. Dalam panduan langkah demi langkah ini, kita akan mempelajari proses pengaturan master latar belakang slide menggunakan Aspose.Slides untuk .NET. 
 
@@ -143,3 +147,9 @@ Aspose.Slides untuk .NET dirancang untuk bekerja dengan berbagai format PowerPoi
 **Title (maximum 60 characters):** Pengaturan Latar Belakang Slide Utama di Aspose.Slides untuk .NET
 
 Sempurnakan desain presentasi Anda dengan Aspose.Slides untuk .NET. Pelajari cara mengatur master latar belakang slide untuk visual yang menawan.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

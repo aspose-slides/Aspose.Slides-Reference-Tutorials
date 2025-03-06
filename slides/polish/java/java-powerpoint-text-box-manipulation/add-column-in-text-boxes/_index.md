@@ -3,10 +3,14 @@ title: Dodaj kolumnę w polach tekstowych za pomocą Aspose.Slides dla Java
 linktitle: Dodaj kolumnę w polach tekstowych za pomocą Aspose.Slides dla Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać kolumny do pól tekstowych w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 tym samouczku przyjrzymy się, jak ulepszyć pola tekstowe, dodając kolumny za pomocą Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka Java, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint bez konieczności korzystania z pakietu Microsoft Office. Dodanie kolumn do pól tekstowych może znacznie poprawić czytelność i organizację treści na slajdach, dzięki czemu Twoje prezentacje będą bardziej wciągające i profesjonalne.
 ## Warunki wstępne
@@ -82,3 +86,9 @@ Tak, Aspose.Slides obsługuje Java 11 i nowsze wersje.
 Nie, Aspose.Slides nie wymaga instalacji pakietu Microsoft Office na komputerze.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Slides dla Java?
  Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

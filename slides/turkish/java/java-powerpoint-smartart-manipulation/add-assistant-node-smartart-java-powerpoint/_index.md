@@ -3,10 +3,14 @@ title: Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme
 linktitle: Java PowerPoint'te SmartArt'a Yardımcı Düğüm Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides kullanarak Java PowerPoint sunumlarında SmartArt'a nasıl asistan düğüm ekleyeceğinizi öğrenin. PowerPoint düzenleme becerilerinizi geliştirin.
-type: docs
 weight: 17
 url: /tr/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında SmartArt'a asistan düğüm ekleme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -70,3 +74,9 @@ Aspose.Slides, 97-2003 arası PowerPoint sürümlerini en son sürüme kadar des
 Evet, Aspose.Slides tarafından sağlanan çeşitli özellik ve yöntemleri kullanarak görünümü özelleştirebilirsiniz.
 ### SmartArt'taki düğüm sayısında herhangi bir sınırlama var mı?
 PowerPoint'teki SmartArt çok sayıda düğümü destekler ancak daha iyi okunabilirlik için bunun makul düzeyde tutulması önerilir.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

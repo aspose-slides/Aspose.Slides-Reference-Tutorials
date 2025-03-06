@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Veri Noktalarına Renk Ekleme
 linktitle: Java Slaytlarındaki Veri Noktalarına Renk Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java slaytlarındaki veri noktalarına nasıl renk ekleyeceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Java Slaytlarında Veri Noktalarına Renk Eklemeye Giriş
 
@@ -117,3 +121,9 @@ Diğer veri noktalarının rengini değiştirmek için 4. Adımda gösterilene b
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java kullanımına ilişkin daha fazla örnek ve ayrıntılı belgeyi şu adreste bulabilirsiniz:[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

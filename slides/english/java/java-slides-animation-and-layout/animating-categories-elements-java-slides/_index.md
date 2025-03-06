@@ -3,10 +3,14 @@ title: Animating Categories Elements in Java Slides
 linktitle: Animating Categories Elements in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java presentations with Aspose.Slides for Java. Learn how to animate category elements in PowerPoint slides step-by-step.
-type: docs
 weight: 10
 url: /java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduction to Animating Categories Elements in Java Slides
 
@@ -118,3 +122,10 @@ Yes, you can apply similar animations to other types of charts by modifying the 
 
 For comprehensive documentation and additional resources, visit the [Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/). You can also download the library from [here](https://releases.aspose.com/slides/java/).
 
+
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

@@ -3,10 +3,14 @@ title: Andra plotalternativ för diagram i Java Slides
 linktitle: Andra plotalternativ för diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du anpassar diagram i Java Slides med Aspose.Slides för Java. Utforska andra plotalternativ och förbättra dina presentationer.
-type: docs
 weight: 12
 url: /sv/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 
 ## Introduktion till andra plotalternativ för diagram i Java Slides
 
@@ -93,3 +97,9 @@ För att ändra storleken på den andra cirkeln i ett cirkeldiagram, använd`set
 ### Hur ställer jag in positionen för delingen i ett cirkeldiagram?
 
  Du kan ställa in positionen för delingen i ett cirkeldiagram med hjälp av`setPieSplitPosition` metod. Justera värdet för att ange önskad position.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

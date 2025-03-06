@@ -3,10 +3,14 @@ title: Hozzáférés a PowerPoint beépített tulajdonságaihoz
 linktitle: Hozzáférés a PowerPoint beépített tulajdonságaihoz
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan érheti el a PowerPoint beépített tulajdonságait az Aspose.Slides for Java segítségével. Ez az oktatóanyag végigvezeti Önt a szerző visszakeresésén, a létrehozás dátumán és egyebeken.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan érheti el a PowerPoint-prezentációk beépített tulajdonságait az Aspose.Slides for Java segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak PowerPoint prezentációkkal, és zökkenőmentesen végezzenek el olyan feladatokat, mint például a tulajdonságok olvasása és módosítása.
 ## Előfeltételek
@@ -101,3 +105,9 @@ Igen, a beépített tulajdonságok mellett egyéni tulajdonságokat is lekérhet
  Igen, átfogó dokumentációt találhat, és elérheti a támogatási fórumokat a webhelyen[Aspose honlapja](https://reference.aspose.com/slides/java/).
 ### Elérhető az Aspose.Slides for Java próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

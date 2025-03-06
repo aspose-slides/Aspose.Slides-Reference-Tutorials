@@ -3,10 +3,14 @@ title: Zastosuj efekty Duotone na obrazach w programie PowerPoint
 linktitle: Zastosuj efekty Duotone na obrazach w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zastosować efekty Duotone do obrazów w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z naszego przewodnika krok po kroku. Ulepsz swoje prezentacje.
-type: docs
 weight: 20
 url: /pl/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-images-powerpoint/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## Wstęp
 Dodanie efektów wizualnych do prezentacji programu PowerPoint może znacznie zwiększyć ich atrakcyjność i skuteczność. Jednym z takich fascynujących efektów jest efekt Duotone, który nakłada na obraz dwa kontrastujące kolory, nadając mu nowoczesny i profesjonalny wygląd. W tym obszernym przewodniku przeprowadzimy Cię przez proces stosowania efektów Duotone do obrazów w programie PowerPoint przy użyciu Aspose.Slides for Java.
 ## Warunki wstępne
@@ -86,3 +90,9 @@ Tak, Aspose.Slides for Java jest kompatybilny ze wszystkimi głównymi IDE, w ty
  Tak, możesz uzyskać bezpłatną wersję próbną od[Strona bezpłatnej wersji próbnej Aspose.Slides](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides dla Java?
  Obszerną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Slides](https://reference.aspose.com/slides/java/).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

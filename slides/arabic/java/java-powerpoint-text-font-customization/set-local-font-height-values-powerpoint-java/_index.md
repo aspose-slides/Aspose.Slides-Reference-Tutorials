@@ -3,10 +3,14 @@ title: قم بتعيين قيم ارتفاع الخط المحلي في PowerPoi
 linktitle: قم بتعيين قيم ارتفاع الخط المحلي في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ضبط ارتفاعات الخطوط في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. تحسين تنسيق النص في الشرائح الخاصة بك دون عناء.
-type: docs
 weight: 17
 url: /ar/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## مقدمة
 في هذا البرنامج التعليمي، ستتعلم كيفية التعامل مع ارتفاعات الخطوط على مستويات مختلفة داخل عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. يعد التحكم في أحجام الخطوط أمرًا بالغ الأهمية لإنشاء عروض تقديمية جذابة ومنظمة. سنتعرف على الأمثلة خطوة بخطوة لتوضيح كيفية تعيين ارتفاعات الخطوط لعناصر النص المختلفة.
 ## المتطلبات الأساسية
@@ -65,3 +69,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  للحصول على الدعم، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### أين يمكنني شراء ترخيص Aspose.Slides لـ Java؟
  يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}

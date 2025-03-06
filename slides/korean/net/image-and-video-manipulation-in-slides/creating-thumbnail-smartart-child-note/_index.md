@@ -3,10 +3,14 @@ title: Aspose.Slides에서 SmartArt 하위 노트의 썸네일 만들기
 linktitle: Aspose.Slides에서 SmartArt 하위 노트의 썸네일 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 매력적인 SmartArt Child Note 썸네일을 만드는 방법을 알아보세요. 역동적인 시각적 요소로 프레젠테이션을 향상시키세요!
-type: docs
 weight: 15
 url: /ko/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{< blocks/products/pf/main-wrap-class >}
+{< blocks/products/pf/main-container >}
+{< blocks/products/pf/tutorial-page-section >}
+
 ## 소개
 동적 프레젠테이션 영역에서 .NET용 Aspose.Slides는 개발자에게 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하고 향상시킬 수 있는 기능을 제공하는 강력한 도구로 돋보입니다. 흥미로운 기능 중 하나는 SmartArt Child Notes의 축소판을 생성하여 프레젠테이션에 시각적 매력을 더해주는 기능입니다. 이 단계별 가이드는 Aspose.Slides for .NET을 사용하여 SmartArt Child Notes의 썸네일을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -62,3 +66,9 @@ A: 예, 코드에서 해당 매개변수를 수정하여 썸네일의 크기와 
  답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티에 참여하고, 질문하고, 해결책을 찾으세요.
 ### Q: .NET용 Aspose.Slides를 구입할 수 있나요?
  답: 물론이죠! 구매 옵션 살펴보기[여기](https://purchase.aspose.com/buy) 프로젝트에서 Aspose.Slides의 잠재력을 최대한 활용하세요.
+{< /blocks/products/pf/tutorial-page-section >}
+
+{< /blocks/products/pf/main-container >}
+{< /blocks/products/pf/main-wrap-class >}
+
+{< blocks/products/products-backtop-button >}
