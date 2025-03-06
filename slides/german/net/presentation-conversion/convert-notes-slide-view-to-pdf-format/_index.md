@@ -3,14 +3,10 @@ title: Konvertieren der Folienansicht von Notes in das PDF-Format
 linktitle: Konvertieren der Folienansicht von Notes in das PDF-Format
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Konvertieren Sie Sprechernotizen in PowerPoint mit Aspose.Slides für .NET in PDF. Behalten Sie den Kontext bei und passen Sie das Layout mühelos an.
+type: docs
 weight: 15
 url: /de/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In dieser umfassenden Anleitung führen wir Sie durch den Prozess der Konvertierung der Notes-Folienansicht in das PDF-Format mit Aspose.Slides für .NET. Sie finden detaillierte Anweisungen und Codeausschnitte, um diese Aufgabe mühelos zu erledigen.
 
@@ -82,9 +78,3 @@ Auf jeden Fall! Aspose.Slides für .NET bietet verschiedene Optionen zum Anpasse
 Weitere Tutorials und Beispiele finden Sie auf der[Aspose.Slides für .NET API-Dokumentation](https://reference.aspose.com/slides/net/).
 
 Nachdem Sie die Folienansicht von Notes nun erfolgreich in das PDF-Format konvertiert haben, können Sie weitere Funktionen und Möglichkeiten von Aspose.Slides für .NET erkunden, um Ihre PowerPoint-Automatisierungsaufgaben zu verbessern. Viel Spaß beim Programmieren!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

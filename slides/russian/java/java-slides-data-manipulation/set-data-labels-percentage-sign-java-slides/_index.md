@@ -3,14 +3,10 @@ title: Установите знак процента для меток данн
 linktitle: Установите знак процента для меток данных в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как устанавливать метки данных со знаками процента в презентациях PowerPoint с помощью Aspose.Slides для Java. Создавайте интересные диаграммы с помощью пошаговых инструкций и исходного кода.
+type: docs
 weight: 17
 url: /ru/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в установку меток данных в процентах в Aspose.Slides для Java
 
@@ -180,10 +176,3 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### Как добавить на диаграмму больше серий?
 
  Вы можете добавить дополнительные серии на диаграмму, используя`add` метод на`IChartSeriesCollection` объект.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides의 모양에 대한 배율 조정 요소를 사용하여 �
 linktitle: Aspose.Slides의 모양에 대한 배율 조정 요소를 사용하여 축소판 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 특정 범위의 PowerPoint 축소판 이미지를 만드는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+type: docs
 weight: 12
 url: /ko/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 .NET용 Aspose.Slides에서 모양 경계가 있는 썸네일 생성에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.Slides는 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 프레젠테이션 내의 모양에 대한 특정 경계가 있는 썸네일을 생성하는 프로세스를 자세히 살펴보겠습니다.
 ## 전제 조건
@@ -59,9 +55,3 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
  질문이나 도움이 필요하면 Aspose.Slides 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
 ### Q5: .NET용 Aspose.Slides를 구입할 수 있나요?
  틀림없이! .NET용 Aspose.Slides를 구매하려면 구매 페이지를 방문하세요.[여기](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

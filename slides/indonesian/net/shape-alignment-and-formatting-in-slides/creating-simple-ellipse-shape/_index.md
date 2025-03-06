@@ -3,14 +3,10 @@ title: Buat Bentuk Ellipse dengan Mudah dengan Aspose.Slides .NET
 linktitle: Membuat Bentuk Elips Sederhana di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat bentuk elips yang menakjubkan di slide presentasi menggunakan Aspose.Slides untuk .NET. Langkah mudah untuk desain dinamis!
+type: docs
 weight: 11
 url: /id/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia desain presentasi yang dinamis, menggabungkan bentuk seperti elips dapat menambah sentuhan kreativitas dan profesionalisme. Aspose.Slides untuk .NET menawarkan solusi ampuh untuk memanipulasi file presentasi secara terprogram. Tutorial ini akan memandu Anda melalui proses pembuatan bentuk elips sederhana di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -69,9 +65,3 @@ Ya, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibilitas deng
  Ikuti[tautan lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk meminta izin sementara untuk tujuan pengujian.
 ### Butuh bantuan atau punya pertanyaan spesifik?
  Mengunjungi[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11) untuk mendapatkan bantuan dari masyarakat dan para ahli.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

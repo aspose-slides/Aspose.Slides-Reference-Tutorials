@@ -3,14 +3,10 @@ title: Tạo phần Phóng to PowerPoint
 linktitle: Tạo phần Phóng to PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo phần phóng to trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường điều hướng và tương tác dễ dàng.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo phần phóng to trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Thu phóng phần là một tính năng mạnh mẽ cho phép bạn điều hướng liền mạch qua các phần khác nhau của bản trình bày, nâng cao cả tổ chức và trải nghiệm tổng thể của người dùng. Bằng cách chia nhỏ các bài thuyết trình phức tạp thành các phần dễ hiểu, bạn có thể truyền tải thông điệp của mình một cách hiệu quả và thu hút khán giả.
@@ -76,9 +72,3 @@ Aspose.Slides for Java hỗ trợ phóng to phần ở nhiều định dạng Po
 Có, bạn có thể thêm phần thu phóng phần vào bản trình bày hiện có bằng Aspose.Slides cho Java bằng cách làm theo các bước tương tự được nêu trong hướng dẫn này.
 ### Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung với Aspose.Slides cho Java ở đâu?
  Để được hỗ trợ hoặc trợ giúp thêm, bạn có thể truy cập diễn đàn Aspose.Slides for Java[đây](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

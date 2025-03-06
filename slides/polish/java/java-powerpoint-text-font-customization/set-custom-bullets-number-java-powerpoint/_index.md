@@ -3,14 +3,10 @@ title: Ustaw niestandardową liczbę punktorów w programie Java PowerPoint
 linktitle: Ustaw niestandardową liczbę punktorów w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić niestandardowe numery punktorów w programie Java PowerPoint za pomocą Aspose.Slides, programowo zwiększając przejrzystość i strukturę prezentacji.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dzisiejszej erze cyfrowej tworzenie dynamicznych prezentacji ma kluczowe znaczenie dla skutecznego komunikowania pomysłów i danych. Aspose.Slides for Java zapewnia potężny zestaw narzędzi do programowego manipulowania prezentacjami programu PowerPoint, oferując rozbudowane funkcje usprawniające proces tworzenia prezentacji. W tym artykule opisano ustawianie niestandardowych numerów punktorów w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten samouczek poprowadzi Cię krok po kroku przez proces, zapewniając efektywne wykorzystanie tej możliwości.
 ## Warunki wstępne
@@ -86,9 +82,3 @@ Aspose.Slides obsługuje formaty programu PowerPoint od wersji 97-2003 do najnow
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę kupić Aspose.Slides?
  Możesz kupić Aspose.Slides od[Tutaj](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

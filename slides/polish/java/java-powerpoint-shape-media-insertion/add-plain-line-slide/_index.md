@@ -3,14 +3,10 @@ title: Dodaj prostą linię do slajdu
 linktitle: Dodaj prostą linię do slajdu
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo dodać prostą linię do slajdu programu PowerPoint przy użyciu Aspose.Slides dla Java. Zwiększ swoją produktywność dzięki temu przewodnikowi krok po kroku.
+type: docs
 weight: 14
 url: /pl/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Aspose.Slides for Java to potężna biblioteka, która umożliwia programistom Java programową pracę z prezentacjami programu PowerPoint. Dzięki Aspose.Slides możesz z łatwością tworzyć, modyfikować i konwertować pliki programu PowerPoint, oszczędzając czas i wysiłek. W tym samouczku przeprowadzimy Cię przez proces dodawania zwykłej linii do slajdu w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Absolutnie! Aspose.Slides oferuje szeroką gamę typów kształtów, w tym prost
 Tak, możesz dodawać tekst, obrazy i inną zawartość do slajdu za pomocą interfejsu API Aspose.Slides.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Slides?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

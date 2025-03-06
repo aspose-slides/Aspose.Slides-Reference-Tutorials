@@ -3,14 +3,10 @@ title: Aspose.Slides .NET에서 슬라이드 배경을 변경하는 방법
 linktitle: 일반 슬라이드 배경 변경
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 슬라이드 배경을 변경하고 멋진 PowerPoint 프레젠테이션을 만드는 방법을 알아보세요.
+type: docs
 weight: 15
 url: /ko/net/slide-background-manipulation/change-slide-background-normal/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 프레젠테이션 디자인의 세계에서는 눈길을 사로잡고 매력적인 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 배경을 변경하는 방법을 보여줍니다. 이를 통해 프레젠테이션의 시각적 매력을 향상하고 더욱 인상적으로 만들 수 있습니다. 
 
@@ -103,9 +99,3 @@ Aspose.Slides for .NET은 최신 버전을 포함하여 다양한 PowerPoint 버
 ### 5. .NET용 Aspose.Slides의 임시 라이선스를 어떻게 얻나요?
 
  프로젝트에 임시 라이센스가 필요한 경우 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

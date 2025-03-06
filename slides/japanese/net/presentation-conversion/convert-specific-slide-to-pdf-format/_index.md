@@ -3,14 +3,10 @@ title: 特定のスライドをPDF形式に変換する
 linktitle: 特定のスライドをPDF形式に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して特定の PowerPoint スライドを PDF 形式に変換する方法を学びます。コード例付きのステップバイステップ ガイドです。
+type: docs
 weight: 19
 url: /ja/net/presentation-conversion/convert-specific-slide-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 
 Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションの特定のスライドを PDF 形式に変換したい場合は、ここが最適な場所です。この包括的なチュートリアルでは、プロセスを段階的に説明し、簡単に目標を達成できるようにします。
@@ -86,9 +82,3 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 追加のリソースとドキュメントについては[Aspose.Slides API リファレンス](https://reference.aspose.com/slides/net/).
 
 Aspose.Slides for .NET を使用して特定のスライドを PDF に変換する方法を習得したので、PowerPoint の自動化タスクを効率化する準備が整いました。コーディングを楽しんでください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

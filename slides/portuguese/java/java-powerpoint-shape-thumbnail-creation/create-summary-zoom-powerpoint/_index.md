@@ -3,14 +3,10 @@ title: Criar resumo Zoom no PowerPoint
 linktitle: Criar resumo Zoom no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar um zoom resumido no PowerPoint usando Aspose.Slides para Java com este tutorial passo a passo abrangente.
+type: docs
 weight: 16
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Bem-vindo ao nosso tutorial abrangente sobre como criar um zoom de resumo no PowerPoint usando Aspose.Slides para Java. Se você deseja adicionar um elemento dinâmico e interativo às suas apresentações, o Summary Zoom é um recurso fantástico. Ele permite que você crie um único slide que pode ampliar diferentes seções da sua apresentação, oferecendo uma experiência mais envolvente e navegável para o seu público.
 Neste guia passo a passo, orientaremos você durante todo o processo, desde a configuração do seu ambiente de desenvolvimento até a criação e personalização de um quadro de Zoom de resumo. Quer você seja um desenvolvedor Java experiente ou esteja apenas começando, você achará este guia fácil de seguir e repleto de informações valiosas.
@@ -111,9 +107,3 @@ Sim, você pode baixar uma avaliação gratuita do Aspose.Slides for Java no sit
  Você pode obter uma licença temporária do[Aspose página de compra](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar mais exemplos e suporte para Aspose.Slides for Java?
  Você pode encontrar mais exemplos e buscar apoio no site[Fórum de suporte Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

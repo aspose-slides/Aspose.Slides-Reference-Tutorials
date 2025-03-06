@@ -3,14 +3,10 @@ title: Добавить видеокадр из веб-источника в Pow
 linktitle: Добавить видеокадр из веб-источника в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как улучшить ваши презентации PowerPoint, добавив видеокадры из веб-источников с помощью Aspose.Slides для Java.
+type: docs
 weight: 18
 url: /ru/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы научимся добавлять видеокадр из веб-источника, например YouTube, в презентацию PowerPoint с помощью Aspose.Slides для Java. Следуя этим пошаговым инструкциям, вы сможете улучшить свои презентации, включив в них интересные мультимедийные элементы.
 ## Предварительные условия
@@ -88,9 +84,3 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Aspose.Slides поддерживает широкий спектр версий PowerPoint, обеспечивая совместимость с различными платформами.
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Slides?
  Вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за помощь, документацию и поддержку сообщества.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

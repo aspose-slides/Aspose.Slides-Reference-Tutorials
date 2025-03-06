@@ -3,14 +3,10 @@ title: Převeďte snímky do PDF pomocí poznámek
 linktitle: Převeďte snímky do PDF pomocí poznámek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Bez námahy převádějte snímky prezentace s poznámkami řečníka do PDF pomocí Aspose.Slides pro .NET. Bezproblémově zachovejte obsah a kontext.
+type: docs
 weight: 18
 url: /cs/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Napište krok za krokem výukovou příručku o převodu snímků do PDF pomocí poznámek pomocí Aspose.Slides pro .NET
 
@@ -102,9 +98,3 @@ Ano, Aspose.Slides for .NET podporuje různé výstupní formáty, včetně PPTX
  Ano, dočasnou licenci si můžete zakoupit na[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Závěrem lze říci, že pomocí Aspose.Slides for .NET můžete snadno převést snímky aplikace PowerPoint do formátu PDF s nedotčenými poznámkami. Je to cenný nástroj pro profesionály, kteří potřebují sdílet prezentace s kolegy a klienty a zároveň zajistit, aby se neztratily důležité souvislosti.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

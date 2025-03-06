@@ -3,14 +3,10 @@ title: Automatic Chart Series Color in Java Slides
 linktitle: Automatic Chart Series Color in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic charts with automatic series color in PowerPoint presentations using Aspose.Slides for Java. Enhance your data visualizations effortlessly.
+type: docs
 weight: 14
 url: /java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Automatic Chart Series Color in Aspose.Slides for Java
 
@@ -194,10 +190,3 @@ Yes, you can further format the chart, series, and labels as needed. Aspose.Slid
 ### Where can I find more information on working with Aspose.Slides for Java?
 
 For more information and detailed documentation on Aspose.Slides for Java, you can visit the reference documentation [here](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

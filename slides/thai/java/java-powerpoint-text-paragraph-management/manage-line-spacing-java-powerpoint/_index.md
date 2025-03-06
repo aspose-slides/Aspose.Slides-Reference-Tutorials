@@ -3,14 +3,10 @@ title: จัดการระยะห่างบรรทัดใน Java P
 linktitle: จัดการระยะห่างบรรทัดใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการระยะห่างบรรทัดในงานนำเสนอ Java PowerPoint ได้อย่างง่ายดายด้วย Aspose.Slides สำหรับ Java ปรับปรุงสไลด์ของคุณ
+type: docs
 weight: 12
 url: /th/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในการเขียนโปรแกรม Java การจัดการระยะห่างบรรทัดภายในงานนำเสนอ PowerPoint เป็นสิ่งสำคัญสำหรับการสร้างสไลด์ที่ดึงดูดสายตาซึ่งสามารถถ่ายทอดข้อมูลได้อย่างมีประสิทธิภาพ ไม่ว่าคุณจะปรับช่องว่างระหว่างย่อหน้าหรือควบคุมระยะห่างก่อนและหลังแต่ละย่อหน้า Aspose.Slides สำหรับ Java ก็มีเครื่องมือที่ครอบคลุมเพื่อให้ทำงานเหล่านี้ให้สำเร็จได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -66,9 +62,3 @@ Aspose.Slides รองรับงานนำเสนอ PowerPoint ทั้
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนทางเทคนิคสำหรับ Aspose.Slides ได้อย่างไร
  สำหรับความช่วยเหลือทางเทคนิค โปรดไปที่ Aspose.Slides[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

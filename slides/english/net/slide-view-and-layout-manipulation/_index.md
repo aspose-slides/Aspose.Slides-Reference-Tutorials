@@ -3,14 +3,10 @@ title: Slide View and Layout Manipulation
 linktitle: Slide View and Layout Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optimize slide views and layouts with Aspose.Slides Slide View and Layout Manipulation Tutorials. Enhance presentation impact and visual excellence using powerful .NET tools.
+type: docs
 weight: 20
 url: /net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction
 
@@ -33,9 +29,3 @@ Learn how to manage presentations in normal view state using Aspose.Slides for .
 Learn how to link videos to PowerPoint slides using Aspose.Slides for .NET. This step-by-step guide includes source code and tips for creating interactive and engaging presentations with linked videos.
 ### [Manage ActiveX Control in Presentation](./manage-activex-control/)
 Learn how to enhance PowerPoint presentations with ActiveX controls using Aspose.Slides for .NET. Our step-by-step guide covers insertion, manipulation, customization, event handling, and more.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

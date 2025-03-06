@@ -3,14 +3,10 @@ title: Dodaj obramowanie komórek do tabeli w programie Java PowerPoint
 linktitle: Dodaj obramowanie komórek do tabeli w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać obramowania komórek do tabel w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Ten przewodnik krok po kroku ułatwia ulepszanie slajdów.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 No hej! Chcesz więc dodać obramowania komórek do tabeli w prezentacji programu PowerPoint przy użyciu języka Java, prawda? Cóż, jesteś we właściwym miejscu! Ten samouczek poprowadzi Cię krok po kroku przez proces korzystania z biblioteki Aspose.Slides for Java. Pod koniec tego przewodnika będziesz już dobrze wiedział, jak profesjonalnie manipulować tabelami na slajdach programu PowerPoint. Zanurzmy się i sprawmy, aby Twoje prezentacje wyglądały elegancko i profesjonalnie!
 ## Warunki wstępne
@@ -100,9 +96,3 @@ Absolutnie! Możesz wstawiać obrazy do komórek tabeli za pomocą Aspose.Slides
 Tak, możesz zautomatyzować proces, przeglądając slajdy w pętli i stosując logikę tworzenia tabeli do każdego slajdu.
 ### Jakie formaty plików obsługuje Aspose.Slides?
 Aspose.Slides obsługuje różne formaty, w tym PPT, PPTX, PDF i inne.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

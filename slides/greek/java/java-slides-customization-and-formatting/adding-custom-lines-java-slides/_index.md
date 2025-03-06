@@ -3,14 +3,10 @@ title: Προσθήκη προσαρμοσμένων γραμμών σε δια�
 linktitle: Προσθήκη προσαρμοσμένων γραμμών σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις διαφάνειες Java σας με προσαρμοσμένες γραμμές. Οδηγός βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για Java. Μάθετε να προσθέτετε και να προσαρμόζετε γραμμές σε παρουσιάσεις για εντυπωσιακά γραφικά.
+type: docs
 weight: 10
 url: /el/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στην προσθήκη προσαρμοσμένων γραμμών σε διαφάνειες Java
 
@@ -112,9 +108,3 @@ shape.getLineFormat().setWidth(2); // Ρυθμίστε το πάχος της γ
 ### Είναι δυνατή η προσθήκη πολλών γραμμών σε μια διαφάνεια;
 
 Ναι, μπορείτε να προσθέσετε πολλές γραμμές σε μια διαφάνεια επαναλαμβάνοντας τα βήματα που αναφέρονται σε αυτό το σεμινάριο. Κάθε γραμμή μπορεί να προσαρμοστεί ανεξάρτητα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

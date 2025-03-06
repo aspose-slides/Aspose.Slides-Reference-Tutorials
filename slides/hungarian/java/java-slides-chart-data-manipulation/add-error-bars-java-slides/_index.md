@@ -3,14 +3,10 @@ title: Hibasávok hozzáadása a Java Slides-hez
 linktitle: Hibasávok hozzáadása a Java Slides-hez
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá hibasávokat a PowerPoint diagramokhoz Java nyelven az Aspose.Slides segítségével. Lépésről lépésre útmutató forráskóddal a hibasávok testreszabásához.
+type: docs
 weight: 13
 url: /hu/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a hibasávok hozzáadásához Java Slides-ben az Aspose.Slides használatával
 
@@ -132,9 +128,3 @@ Igen, az Aspose.Slides for Java által támogatott különféle diagramtípusokh
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 
  Hivatkozhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) a könyvtár használatával kapcsolatos részletes információkért.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

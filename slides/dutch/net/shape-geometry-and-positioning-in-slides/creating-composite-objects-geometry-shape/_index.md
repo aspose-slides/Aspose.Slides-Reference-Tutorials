@@ -3,14 +3,10 @@ title: Samengestelde geometrische vormen beheersen in presentaties
 linktitle: Samengestelde objecten in geometrische vorm maken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u verbluffende presentaties kunt maken met samengestelde geometrische vormen met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor indrukwekkende resultaten.
+type: docs
 weight: 14
 url: /nl/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Ontgrendel de kracht van Aspose.Slides voor .NET om uw presentaties te verbeteren door samengestelde objecten in geometrische vormen te maken. Deze tutorial begeleidt u bij het genereren van visueel aantrekkelijke dia's met ingewikkelde geometrie met behulp van Aspose.Slides.
 ## Vereisten
@@ -88,9 +84,3 @@ Aspose.Slides ondersteunt verschillende programmeertalen, waaronder Java en Pyth
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor steun en hulp van de gemeenschap.
 ### Vraag: Kan ik een tijdelijke licentie kopen?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

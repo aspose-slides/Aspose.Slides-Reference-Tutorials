@@ -3,14 +3,10 @@ title: Přidejte chybové úsečky do snímků Java
 linktitle: Přidejte chybové úsečky do snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat chybové úsečky do grafů PowerPoint v Javě pomocí Aspose.Slides. Podrobný průvodce se zdrojovým kódem pro přizpůsobení chybových pruhů.
+type: docs
 weight: 13
 url: /cs/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do přidávání chybových úseček v Java Slides pomocí Aspose.Slides
 
@@ -132,9 +128,3 @@ Ano, do různých typů grafů podporovaných Aspose.Slides for Java můžete p�
 ### Kde najdu více informací o Aspose.Slides for Java?
 
  Můžete odkazovat na[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) pro podrobné informace o používání knihovny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

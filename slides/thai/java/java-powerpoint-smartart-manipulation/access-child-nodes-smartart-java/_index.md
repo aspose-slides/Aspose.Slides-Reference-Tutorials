@@ -3,14 +3,10 @@ title: เข้าถึงโหนดลูกใน SmartArt โดยใช
 linktitle: เข้าถึงโหนดลูกใน SmartArt โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเข้าถึงและจัดการโหนดลูกใน SmartArt โดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนนี้
+type: docs
 weight: 10
 url: /th/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 เคยสงสัยบ้างไหมว่าคุณสามารถจัดการกราฟิก SmartArt ในงานนำเสนอของคุณโดยทางโปรแกรมได้อย่างไร Aspose.Slides for Java เป็นไลบรารี่สำหรับจัดการและแก้ไขงานนำเสนอ PowerPoint เครื่องมืออันทรงพลังนี้ช่วยให้นักพัฒนาสามารถเข้าถึงและจัดการองค์ประกอบต่าง ๆ ภายในงานนำเสนอ รวมถึงกราฟิก SmartArt ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดการเข้าถึงโหนดลูกใน SmartArt โดยใช้ Java ทำให้การนำเสนอของคุณไดนามิกและโต้ตอบได้มากขึ้น ในตอนท้ายของคู่มือนี้ คุณจะมีความรู้ในการสำรวจและจัดการโหนด SmartArt ได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -85,9 +81,3 @@ if (pres != null) pres.dispose();
  เอกสารก็มีให้[ที่นี่](https://reference.aspose.com/slides/java/).
 ### IDE ที่ดีที่สุดสำหรับการพัฒนาด้วย Aspose.Slides สำหรับ Java คืออะไร
 IntelliJ IDEA และ Eclipse เป็น IDE ยอดนิยมที่ทำงานได้ดีกับ Aspose.Slides สำหรับ Java
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

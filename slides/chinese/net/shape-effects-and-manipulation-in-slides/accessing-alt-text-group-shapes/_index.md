@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 访问组形状中的替代文本
 linktitle: 访问组形状中的可选文本
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 访问组形状中的替代文本。带有代码示例的分步指南。
+type: docs
 weight: 10
 url: /zh/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在管理和操作演示文稿方面，Aspose.Slides for .NET 提供了一套强大的工具。在本文中，我们将深入研究此 API 的一个特定方面 - 访问组形状中的替代文本。无论您是经验丰富的开发人员还是刚开始使用 Aspose.Slides，本综合指南都将引导您完成整个过程，提供分步说明和代码示例。最后，您将对如何使用 Aspose.Slides 有效地处理组形状中的替代文本有一个扎实的理解。
 
@@ -122,9 +118,3 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides 是否适合初学者和有经验的开发人员？
 
 是的，Aspose.Slides 旨在满足所有技能水平的开发人员的需求。初学者可以按照文档中提供的分步指南进行操作，而经验丰富的开发人员可以利用其高级功能。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

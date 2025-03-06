@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용한 OLE 개체 가이드 포함
 linktitle: 프레젠테이션 슬라이드에서 OLE 개체 프레임의 그림 제목 대체
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 동적 OLE 개체로 프레젠테이션 슬라이드를 향상시키는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+type: docs
 weight: 15
 url: /ko/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적이고 매력적인 프레젠테이션 슬라이드를 만들려면 다양한 멀티미디어 요소를 통합해야 하는 경우가 많습니다. 이 튜토리얼에서는 강력한 Aspose.Slides for .NET 라이브러리를 사용하여 프레젠테이션 슬라이드에서 OLE(Object Linking and Embedding) 개체 프레임의 그림 제목을 대체하는 방법을 살펴보겠습니다. Aspose.Slides는 OLE 개체 처리 프로세스를 단순화하여 개발자에게 프레젠테이션을 쉽게 향상시킬 수 있는 도구를 제공합니다.
 ## 전제 조건
@@ -87,9 +83,3 @@ Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 OLE �
 틀림없이. OLE 개체를 프로그래밍 방식으로 완전히 제어할 수 있으므로 필요에 따라 개체의 속성과 모양을 수정할 수 있습니다.
 ### 포함된 OLE 개체의 크기에 제한이 있습니까?
 크기 제한이 있지만 일반적으로 관대합니다. 최적의 성능을 보장하려면 특정 사용 사례로 테스트하는 것이 좋습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

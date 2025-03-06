@@ -3,14 +3,10 @@ title: Acceda al nodo secundario en una posición específica en SmartArt
 linktitle: Acceda al nodo secundario en una posición específica en SmartArt
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a manipular SmartArt en Aspose.Slides para Java con esta guía detallada. Se incluyen instrucciones paso a paso, ejemplos y mejores prácticas.
+type: docs
 weight: 11
 url: /es/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 ¿Está buscando llevar sus presentaciones al siguiente nivel con sofisticados gráficos SmartArt? ¡No busque más! Aspose.Slides para Java ofrece una poderosa suite para crear, manipular y administrar diapositivas de presentación, incluida la capacidad de trabajar con objetos SmartArt. En este completo tutorial, lo guiaremos a través del acceso y manipulación de un nodo secundario en una posición específica dentro de un gráfico SmartArt, utilizando la biblioteca Aspose.Slides para Java.
 
@@ -102,9 +98,3 @@ Esta línea de código formatea e imprime los detalles del nodo secundario, como
  Puede obtener apoyo del[Aspose foro de la comunidad](https://forum.aspose.com/c/slides/11) o consultar la extensa[documentación](https://reference.aspose.com/slides/java/).
 ### ¿Puedo comprar una licencia completa de Aspose.Slides para Java?
  Sí, puede comprar una licencia completa en[pagina de compra](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

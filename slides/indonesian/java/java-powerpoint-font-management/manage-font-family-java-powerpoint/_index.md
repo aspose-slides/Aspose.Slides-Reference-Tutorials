@@ -3,14 +3,10 @@ title: Kelola Keluarga Font di Java PowerPoint
 linktitle: Kelola Keluarga Font di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengelola jenis font dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Sesuaikan gaya font, warna, dan lainnya dengan mudah.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara mengelola jenis font dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Font memainkan peran penting dalam daya tarik visual dan keterbacaan slide Anda, jadi penting untuk mengetahui cara memanipulasinya secara efektif.
 ## Prasyarat
@@ -70,9 +66,3 @@ Ya, Aspose.Slides memungkinkan Anda menyematkan font khusus dalam presentasi And
 Ya, Aspose.Slides menyediakan API untuk membuat, memodifikasi, dan memanipulasi presentasi PowerPoint sepenuhnya melalui kode.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides untuk Java?
 Ya, Anda dapat mengunduh Aspose.Slides untuk Java versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

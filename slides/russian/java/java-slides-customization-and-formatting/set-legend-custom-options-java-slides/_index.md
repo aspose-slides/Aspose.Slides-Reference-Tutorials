@@ -3,14 +3,10 @@ title: Установка пользовательских параметров 
 linktitle: Установка пользовательских параметров легенды в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настроить пользовательские параметры легенды в слайдах Java с помощью Aspose.Slides для Java. Настройте положение и размер легенды на диаграммах PowerPoint.
+type: docs
 weight: 14
 url: /ru/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в установку пользовательских параметров легенды в слайдах Java
 
@@ -135,9 +131,3 @@ finally
 ## Могу ли я настроить другие атрибуты легенды?
 
 Да, вы можете настроить различные атрибуты легенды, такие как стиль шрифта, рамка, цвет фона и т. д. Изучите документацию Aspose.Slides для получения подробной информации о дальнейшей настройке легенд.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

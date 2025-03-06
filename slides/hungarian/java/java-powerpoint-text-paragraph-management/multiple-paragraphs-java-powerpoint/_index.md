@@ -3,14 +3,10 @@ title: Több bekezdés a Java PowerPointban
 linktitle: Több bekezdés a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre több bekezdést Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Teljes útmutató kódpéldákkal.
+type: docs
 weight: 13
 url: /hu/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre több bekezdést tartalmazó diákat Java nyelven az Aspose.Slides for Java segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk programozott kezelését, így ideális a diakészítéssel és -formázással kapcsolatos feladatok automatizálására.
 ## Előfeltételek
@@ -117,9 +113,3 @@ Az Aspose.Slides különféle PowerPoint formátumokat támogat, biztosítva a k
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok technikai támogatást, ha szükséges?
  Támogatást kaphat az Aspose.Slides közösségtől[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

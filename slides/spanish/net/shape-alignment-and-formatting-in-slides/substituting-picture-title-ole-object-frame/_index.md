@@ -3,14 +3,10 @@ title: Guía de incrustación de objetos OLE con Aspose.Slides para .NET
 linktitle: Sustitución del título de imagen del marco de objeto OLE en diapositivas de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar las diapositivas de su presentación con objetos OLE dinámicos usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para una integración perfecta.
+type: docs
 weight: 15
 url: /es/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 La creación de diapositivas de presentación dinámicas y atractivas a menudo implica la incorporación de varios elementos multimedia. En este tutorial, exploraremos cómo sustituir el título de la imagen de un marco de objeto OLE (vinculación e incrustación de objetos) en diapositivas de presentación utilizando la potente biblioteca Aspose.Slides para .NET. Aspose.Slides simplifica el proceso de manejo de objetos OLE y brinda a los desarrolladores las herramientas para mejorar sus presentaciones con facilidad.
 ## Requisitos previos
@@ -87,9 +83,3 @@ partir de la última versión, Aspose.Slides se centra en la incrustación y vis
 Ciertamente. Tiene control programático total sobre los objetos OLE, lo que le permite modificar sus propiedades y apariencia según sea necesario.
 ### ¿Existe alguna limitación en cuanto al tamaño de los objetos OLE incrustados?
 Si bien existen limitaciones de tamaño, generalmente son generosas. Se recomienda realizar pruebas con su caso de uso específico para garantizar un rendimiento óptimo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

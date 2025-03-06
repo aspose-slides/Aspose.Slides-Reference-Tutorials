@@ -3,14 +3,10 @@ title: Tambahkan Kolom di Kotak Teks dengan Aspose.Slides untuk Java
 linktitle: Tambahkan Kolom di Kotak Teks dengan Aspose.Slides untuk Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan kolom ke kotak teks di PowerPoint menggunakan Aspose.Slides for Java. Sempurnakan presentasi Anda dengan panduan langkah demi langkah ini.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyempurnakan kotak teks dengan menambahkan kolom menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah pustaka Java canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram tanpa memerlukan Microsoft Office. Menambahkan kolom ke kotak teks dapat meningkatkan keterbacaan dan pengorganisasian konten dalam slide secara signifikan, sehingga membuat presentasi Anda lebih menarik dan profesional.
 ## Prasyarat
@@ -86,9 +82,3 @@ Ya, Aspose.Slides mendukung Java 11 dan versi yang lebih tinggi.
 Tidak, Aspose.Slides tidak memerlukan Microsoft Office untuk diinstal pada mesin.
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Slides untuk Java?
  Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Formen in PowerPoint mit dem Aspose.Slides .NET-Tutorial ausblenden
 linktitle: Formen in Präsentationsfolien mit Aspose.Slides ausblenden
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Formen in PowerPoint-Folien ausblenden. Mit dieser Schritt-für-Schritt-Anleitung können Sie Präsentationen programmgesteuert anpassen.
+type: docs
 weight: 21
 url: /de/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 In der dynamischen Welt der Präsentationen ist Anpassung der Schlüssel. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zur programmgesteuerten Bearbeitung von PowerPoint-Präsentationen. Eine häufige Anforderung ist die Möglichkeit, bestimmte Formen innerhalb einer Folie auszublenden. Dieses Tutorial führt Sie durch den Vorgang des Ausblendens von Formen in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -77,9 +73,3 @@ Auf jeden Fall! Sie können die Ausblendlogik basierend auf verschiedenen Attrib
  Ja, Sie können eine vorübergehende Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/)zu Testzwecken.
 ### Wie kann ich Community-Support für Aspose.Slides erhalten?
  Treten Sie der Aspose.Slides-Community bei auf der[Forum](https://forum.aspose.com/c/slides/11) für Gespräche und Hilfestellung.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

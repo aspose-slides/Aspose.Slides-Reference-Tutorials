@@ -3,14 +3,10 @@ title: Effectuer un publipostage dans des présentations
 linktitle: Effectuer un publipostage dans des présentations
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez le publipostage dans les présentations à l’aide d’Aspose.Slides pour .NET dans ce guide étape par étape. Créez des présentations dynamiques et personnalisées sans effort.
+type: docs
 weight: 21
 url: /fr/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le monde du développement .NET, créer des présentations dynamiques et personnalisées est une exigence courante. Aspose.Slides pour .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel, nous approfondirons le domaine fascinant du publipostage dans des présentations à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -154,9 +150,3 @@ Aspose.Slides pour .NET prend en charge une large gamme de graphiques, notamment
  Certainement! Vous pouvez bénéficier d’un essai gratuit d’Aspose.Slides pour .NET à partir de[ici](https://releases.aspose.com/).
 ## Conclusion
 Dans ce didacticiel, nous avons exploré les fonctionnalités intéressantes d'Aspose.Slides pour .NET pour effectuer un publipostage dans des présentations. En suivant le guide étape par étape, vous pouvez créer des présentations dynamiques et personnalisées sans effort. Améliorez votre expérience de développement .NET avec Aspose.Slides pour une génération transparente de présentations.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

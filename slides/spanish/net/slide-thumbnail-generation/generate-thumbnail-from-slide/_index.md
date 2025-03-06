@@ -3,14 +3,10 @@ title: Genere miniaturas de diapositivas con Aspose.Slides para .NET
 linktitle: Generar miniatura a partir de diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a generar miniaturas de diapositivas de PowerPoint con Aspose.Slides para .NET. Mejore sus presentaciones fácilmente.
+type: docs
 weight: 11
 url: /es/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 En el mundo de las presentaciones digitales, crear miniaturas de diapositivas atractivas e informativas es una parte esencial para captar la atención de la audiencia. Aspose.Slides para .NET es una poderosa biblioteca que le permite generar miniaturas de diapositivas en sus aplicaciones .NET. En esta guía paso a paso, le mostraremos cómo lograr esto con Aspose.Slides para .NET.
 
@@ -110,10 +106,3 @@ Sí, Aspose ofrece varias opciones de licencia, incluidas licencias temporales p
 
 ### ¿Cómo puedo obtener soporte para Aspose.Slides para .NET si tengo problemas o preguntas?
  Puede buscar ayuda y unirse a discusiones en el foro de soporte de la comunidad Aspose.[aquí](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

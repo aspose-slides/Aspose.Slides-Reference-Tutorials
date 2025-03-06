@@ -3,14 +3,10 @@ title: Şekil Segmentlerini Kaldırma - Aspose.Slides .NET Eğitimi
 linktitle: Sunum Slaytlarındaki Geometri Şeklinden Segmentleri Kaldırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides API for .NET'i kullanarak sunum slaytlarındaki geometri şekillerinden segmentleri nasıl kaldıracağınızı öğrenin. Kaynak koduyla adım adım kılavuz.
+type: docs
 weight: 16
 url: /tr/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Görsel olarak çekici sunumlar oluşturmak, genellikle istenen tasarımı elde etmek için şekillerin ve öğelerin değiştirilmesini içerir. Aspose.Slides for .NET ile geliştiriciler şekillerin geometrisini kolayca kontrol edebilir ve belirli bölümlerin kaldırılmasına olanak tanır. Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki bir geometri şeklinden segmentleri kaldırma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -72,9 +68,3 @@ Try-catch bloklarını kullanarak uygun hata işlemeyi uygulayın.
 Hayır, değişiklikler kaydedildikten sonra geri alınamaz. Değişiklikten önce yedekleri kaydetmeyi düşünün.
 ### Nereden ek destek veya yardım alabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides For Java 进行 Java 幻灯片图像处理
 linktitle: Java 幻灯片图像处理
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 教程处理 Java 幻灯片中的图像。探索高效图像管理的分步指导。
+type: docs
 weight: 23
 url: /zh/java/image-handling/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 您准备好用精美的图片增强 Java 幻灯片了吗？在本文中，我们将使用 Aspose.Slides for Java 教程深入研究图像处理的世界。无论您是经验丰富的开发人员还是刚刚开始您的旅程，本综合指南都将逐步指导您完成整个过程。
 
@@ -46,9 +42,3 @@ url: /zh/java/image-handling/
 了解如何使用 Aspose.Slides 将外部资源中的矢量 SVG 图像添加到 Java 幻灯片。使用高品质的视觉效果创建令人惊叹的演示文稿。
 ### [在 Java Slides 中将 SVG 图像对象转换为形状组](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 将 SVG 图像转换为 Java Slides 中的一组形状。带有代码示例的分步指南。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: อัปเดตตารางที่มีอยู่ใน PowerP
 linktitle: อัปเดตตารางที่มีอยู่ใน PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการอัปเดตตารางที่มีอยู่ใน PowerPoint โดยใช้ Java กับ Aspose.Slides รวมคำแนะนำทีละขั้นตอน คำแนะนำโดยละเอียด และคำถามที่พบบ่อย
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 การอัปเดตตารางที่มีอยู่ในงานนำเสนอ PowerPoint โดยใช้ Java อาจดูเหมือนเป็นงานที่น่ากังวล แต่ด้วย Aspose.Slides สำหรับ Java มันจะกลายเป็นการเดินเล่นในสวนสาธารณะ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการทั้งหมด เพื่อให้มั่นใจว่าคุณเข้าใจแต่ละส่วนอย่างถี่ถ้วน
 ## ข้อกำหนดเบื้องต้น
@@ -96,9 +92,3 @@ if (pres != null) pres.dispose();
 ใช่ Aspose.Slides รองรับภาษาการเขียนโปรแกรมหลายภาษา รวมถึง .NET, Python และ C-.
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[กำหนดหน้าการซื้อ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

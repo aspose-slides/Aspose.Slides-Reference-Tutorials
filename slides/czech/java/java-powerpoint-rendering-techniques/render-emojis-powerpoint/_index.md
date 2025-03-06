@@ -3,14 +3,10 @@ title: Render Emojis v PowerPointu
 linktitle: Render Emojis v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak snadno vykreslit emotikony v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete zapojení pomocí expresivních vizuálů.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Emoji se staly nedílnou součástí komunikace a dodávají našim prezentacím barvu a emoce. Začlenění emotikonů do snímků aplikace PowerPoint může zvýšit zapojení a jednoduše zprostředkovat složité myšlenky. V tomto tutoriálu vás provedeme procesem vykreslování emotikonů v PowerPointu pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -56,9 +52,3 @@ Ano, velikost, pozici a další vlastnosti vykreslených emotikonů můžete upr
 Ano, Aspose.Slides for Java je kompatibilní se všemi verzemi PowerPointu a zajišťuje bezproblémové vykreslování emotikonů na různých platformách.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides for Java z webu[webová stránka](https://releases.aspose.com/) k prozkoumání jeho funkcí před nákupem.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Tải định dạng liệt kê trong Java Slides
 linktitle: Tải định dạng liệt kê trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách kiểm tra định dạng của bản trình bày PowerPoint trong Java bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã nguồn để phát hiện định dạng hiệu quả.
+type: docs
 weight: 14
 url: /vi/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Tải định dạng bản trình bày trong Java Slides
 
@@ -72,10 +68,3 @@ Bạn có thể nhận hỗ trợ cho Aspose.Slides cho Java bằng cách truy c
 ### Aspose.Slides cho Java có phù hợp với các dự án thương mại không?
 
 Có, Aspose.Slides for Java phù hợp cho các dự án thương mại. Nó cung cấp một bộ tính năng mạnh mẽ để làm việc với các bản trình bày PowerPoint trong các ứng dụng Java và được sử dụng rộng rãi trong cả môi trường thương mại và doanh nghiệp.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

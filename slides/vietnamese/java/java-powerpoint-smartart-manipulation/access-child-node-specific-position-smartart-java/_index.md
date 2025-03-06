@@ -3,14 +3,10 @@ title: Truy cập nút con tại vị trí cụ thể trong SmartArt
 linktitle: Truy cập nút con tại vị trí cụ thể trong SmartArt
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác SmartArt trong Aspose.Slides cho Java với hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước, ví dụ và cách thực hành tốt nhất.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Bạn đang muốn đưa bản trình bày của mình lên một tầm cao mới với đồ họa SmartArt tinh vi? Đừng tìm đâu xa! Aspose.Slides for Java cung cấp một bộ công cụ mạnh mẽ để tạo, thao tác và quản lý các trang trình bày, bao gồm khả năng làm việc với các đối tượng SmartArt. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn cách truy cập và thao tác nút con tại một vị trí cụ thể trong đồ họa SmartArt bằng cách sử dụng thư viện Aspose.Slides cho Java.
 
@@ -102,9 +98,3 @@ Chúc mừng! Bạn đã truy cập và thao tác thành công nút con trong đ
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/c/slides/11) hoặc tham khảo phần mở rộng[tài liệu](https://reference.aspose.com/slides/java/).
 ### Tôi có thể mua giấy phép đầy đủ cho Aspose.Slides cho Java không?
  Có, bạn có thể mua giấy phép đầy đủ từ[trang mua hàng](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

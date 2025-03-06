@@ -3,14 +3,10 @@ title: Szerezze be a Portion Rectangle-t a PowerPointban Java segítségével
 linktitle: Szerezze be a Portion Rectangle-t a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes, lépésenkénti oktatóanyagból megtudhatja, hogyan állíthatja be a résztéglalapot a PowerPointban az Aspose.Slides for Java segítségével. Java fejlesztőknek tökéletes.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Dinamikus prezentációk létrehozása Java nyelven gyerekjáték az Aspose.Slides for Java segítségével. Ebben az oktatóanyagban belevetjük magunkat az Aspose.Slides segítségével a rész-téglalap PowerPointban való lekérésének alapjaiba. A környezet beállításától a kód lépésről lépésre történő lebontásáig mindenre kiterjedünk. Szóval, kezdjük!
 ## Előfeltételek
@@ -142,9 +138,3 @@ Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fej
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatást kaphat az Aspose fórumtól[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

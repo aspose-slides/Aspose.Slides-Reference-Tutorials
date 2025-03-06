@@ -3,14 +3,10 @@ title: Buka Presentasi yang Dilindungi Kata Sandi di Slide Java
 linktitle: Buka Presentasi yang Dilindungi Kata Sandi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Membuka Kunci Presentasi yang Dilindungi Kata Sandi di Java. Pelajari Cara Membuka dan Mengakses Slide PowerPoint yang Dilindungi Kata Sandi Menggunakan Aspose.Slides untuk Java. Panduan Langkah demi Langkah dengan Kode.
+type: docs
 weight: 15
 url: /id/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Buka Presentasi yang Dilindungi Kata Sandi di Slide Java
 
@@ -117,9 +113,3 @@ Aspose.Slides menyediakan kemampuan untuk mengatur dan mengubah kata sandi untuk
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi komprehensif dan contoh tambahan di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/) dan di[Forum Aspose.Slide](https://forum.aspose.com/c/slides).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

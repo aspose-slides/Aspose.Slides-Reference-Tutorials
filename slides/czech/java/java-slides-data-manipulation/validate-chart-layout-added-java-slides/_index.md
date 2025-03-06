@@ -3,14 +3,10 @@ title: Ověřit rozvržení grafu Přidáno do Slides Java
 linktitle: Ověřit rozvržení grafu Přidáno do Slides Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ověření rozložení hlavního grafu v PowerPointu pomocí Aspose.Slides pro Javu. Naučte se programově manipulovat s grafy pro úžasné prezentace.
+type: docs
 weight: 10
 url: /cs/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do ověřování rozložení grafu v Aspose.Slides pro Javu
 
@@ -101,10 +97,3 @@ Ano, data grafu můžete přizpůsobit přidáním a úpravou datových řad, ka
 ### Co když chci upravit další vlastnosti grafu?
 
 Můžete přistupovat k různým vlastnostem grafu a upravovat je podle svých požadavků. Prozkoumejte dokumentaci Aspose.Slides, kde najdete komplexní informace o manipulaci s grafy.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

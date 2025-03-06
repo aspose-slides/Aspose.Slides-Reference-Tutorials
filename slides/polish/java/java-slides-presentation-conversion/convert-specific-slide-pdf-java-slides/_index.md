@@ -3,14 +3,10 @@ title: Konwertuj określony slajd do formatu PDF w slajdach Java
 linktitle: Konwertuj określony slajd do formatu PDF w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować określone slajdy do formatu PDF w Javie przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu dla programistów Java.
+type: docs
 weight: 20
 url: /pl/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwertowania określonego slajdu do formatu PDF w slajdach Java
 
@@ -111,9 +107,3 @@ Możesz dostosować wygląd przekonwertowanego pliku PDF, modyfikując zawartoś
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides dla Java?
 
  Obszerną dokumentację i przykłady kodu można znaleźć na stronie dokumentacji Aspose.Slides for Java[Tutaj](https://reference.aspose.com/slides/java/). Zapoznaj się z dokumentacją, aby odkryć więcej funkcji i przypadków użycia.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 更新 Java 投影片中的簡報屬性
 linktitle: 更新 Java 投影片中的簡報屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 更新 Java 投影片中的簡報屬性。自訂作者、標題等，以獲得有影響力的簡報。
+type: docs
 weight: 13
 url: /zh-hant/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 更新 Java 投影片中的簡報屬性簡介
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java 可讓您修改各種文件屬性，包括但不限於作
 ### 如何存取 Aspose.Slides for Java 的文檔？
 
 您可以透過造訪以下連結存取 Aspose.Slides for Java 的文檔：[Aspose.Slides Java 文檔](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

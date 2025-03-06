@@ -3,14 +3,10 @@ title: Lägg till styckepunkter i PowerPoint med Java
 linktitle: Lägg till styckepunkter i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till styckepunkter i PowerPoint-bilder med Aspose.Slides för Java. Denna handledning guidar dig genom steg-för-steg med kodexempel.
+type: docs
 weight: 15
 url: /sv/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att lägga till styckepunkter förbättrar läsbarheten och strukturen i PowerPoint-presentationer. Aspose.Slides för Java tillhandahåller robusta verktyg för att manipulera presentationer programmatiskt, inklusive möjligheten att formatera text med olika punktstilar. I den här handledningen kommer du att lära dig hur du integrerar punktpunkter i PowerPoint-bilder med Java-kod, med Aspose.Slides.
 ## Förutsättningar
@@ -93,9 +89,3 @@ Ja, du kan använda unika punktstilar på olika bilder programmatiskt.
 Ja, Aspose.Slides stöder Java 11 och högre versioner.
 ### Var kan jag hitta fler exempel och dokumentation?
  Besök[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) för omfattande guider och exempel.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Získejte obdélníkové souřadnice odstavce v Java Slides
 linktitle: Získejte obdélníkové souřadnice odstavce v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak načíst souřadnice odstavce v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro přesné umístění.
+type: docs
 weight: 13
 url: /cs/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do získávání pravoúhlých souřadnic odstavce v Aspose.Slides pro Javu
 
@@ -116,9 +112,3 @@ Ano, Aspose.Slides for Java se dobře hodí pro dávkové zpracování souborů 
 ### Potřebuji licenci k používání Aspose.Slides for Java?
 
 Ano, k používání Aspose.Slides for Java v produkčním prostředí obvykle potřebujete platnou licenci. Licenci můžete získat z webu Aspose. Mohou však nabízet zkušební verzi pro účely testování a hodnocení.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

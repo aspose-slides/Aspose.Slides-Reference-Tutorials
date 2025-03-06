@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 프레젠테이션에서 되감기 애니�
 linktitle: 슬라이드에서 애니메이션 되감기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 슬라이드에서 애니메이션을 되감는 방법을 알아보세요. 전체 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
+type: docs
 weight: 13
 url: /ko/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 매력적인 애니메이션을 통합하면 참여도를 크게 높일 수 있습니다. .NET용 Aspose.Slides는 프레젠테이션에 생기를 불어넣는 강력한 도구 세트를 제공합니다. 흥미로운 기능 중 하나는 슬라이드에서 애니메이션을 되감는 기능입니다. 이 포괄적인 가이드에서는 .NET용 Aspose.Slides를 사용하여 애니메이션 되감기의 잠재력을 최대한 활용할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -84,9 +80,3 @@ Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciti
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 도움을 구하고 지역사회에 참여하기 위해.
 ### .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  예, 다음에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

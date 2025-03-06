@@ -3,14 +3,10 @@ title: Preencher formas com imagem no PowerPoint
 linktitle: Preencher formas com imagem no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como preencher formas com imagens em apresentações do PowerPoint usando Aspose.Slides para Java. Aumente o apelo visual sem esforço.
+type: docs
 weight: 12
 url: /pt/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 As apresentações em PowerPoint geralmente exigem elementos visuais, como formas preenchidas com imagens, para aumentar seu apelo e transmitir informações de maneira eficaz. Aspose.Slides for Java fornece um conjunto poderoso de ferramentas para realizar essa tarefa perfeitamente. Neste tutorial, aprenderemos como preencher formas com imagens usando Aspose.Slides for Java passo a passo.
 ## Pré-requisitos
@@ -84,9 +80,3 @@ Você pode redimensionar a imagem dentro da forma ajustando as dimensões da for
 Aspose.Slides for Java oferece suporte a uma ampla variedade de formatos de imagem, incluindo JPEG, PNG, GIF, BMP e TIFF, entre outros.
 ### Posso aplicar efeitos às formas preenchidas?
 Sim, Aspose.Slides for Java fornece APIs abrangentes para aplicar vários efeitos, como sombras, reflexos e rotações 3D, a formas preenchidas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

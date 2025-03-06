@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中將節點新增至 SmartArt
 linktitle: 在 Java PowerPoint 中將節點新增至 SmartArt
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 SmartArt 節點新增至 Java PowerPoint 簡報。毫不費力地增強視覺吸引力。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在 Java PowerPoint 簡報領域，操作 SmartArt 節點可以大幅增強投影片的視覺吸引力和效果。 Aspose.Slides for Java 為 Java 開發人員提供了一個強大的解決方案，將 SmartArt 功能無縫整合到他們的簡報中。在本教學中，我們將深入研究使用 Aspose.Slides 在 Java PowerPoint 簡報中為 SmartArt 新增節點的過程。
 ## 先決條件
@@ -75,9 +71,3 @@ pres.save(dataDir + "AddSmartArtNode_out.pptx", SaveFormat.Pptx);
 是的，Aspose.Slides for Java 提供了一套全面的 PowerPoint 操作功能，包括投影片建立、動畫和形狀管理。
 ### 我可以在哪裡尋求 Aspose.Slides for Java 的協助或支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求社群支援或瀏覽文件以獲取詳細指導。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

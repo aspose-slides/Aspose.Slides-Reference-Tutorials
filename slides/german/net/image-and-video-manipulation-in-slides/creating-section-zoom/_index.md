@@ -3,14 +3,10 @@ title: Aspose.Slides-Abschnittszoom - Verbessern Sie Ihre Präsentationen
 linktitle: Erstellen eines Abschnittszooms in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET ansprechende Präsentationsfolien mit Abschnittszoom erstellen. Werten Sie Ihre Präsentationen mit interaktiven Funktionen auf.
+type: docs
 weight: 13
 url: /de/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Um Ihr Publikum zu fesseln, ist es wichtig, Ihre Präsentationsfolien mit interaktiven Funktionen zu erweitern. Eine effektive Möglichkeit, dies zu erreichen, ist die Integration von Abschnittszooms, mit denen Sie nahtlos zwischen verschiedenen Abschnitten Ihrer Präsentation navigieren können. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für .NET Abschnittszooms in Präsentationsfolien erstellen.
 ## Voraussetzungen
@@ -74,9 +70,3 @@ Auf jeden Fall! Sie haben die volle Kontrolle über die Abmessungen, die Positio
  Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[Kostenlose Testphase](https://releases.aspose.com/).
 ### Wo erhalte ich Unterstützung bei Fragen zu Aspose.Slides?
  Für Support oder Fragen besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

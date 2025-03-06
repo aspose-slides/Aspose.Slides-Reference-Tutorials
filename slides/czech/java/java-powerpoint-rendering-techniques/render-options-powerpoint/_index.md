@@ -3,14 +3,10 @@ title: Možnosti vykreslení v PowerPointu
 linktitle: Možnosti vykreslení v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se manipulovat s možnostmi vykreslování v prezentacích PowerPoint pomocí Aspose.Slides for Java. Přizpůsobte si snímky pro optimální vizuální dopad.
+type: docs
 weight: 13
 url: /cs/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak využít Aspose.Slides pro Java k manipulaci s možnostmi vykreslování v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede procesem krok za krokem.
 ## Předpoklady
@@ -79,9 +75,3 @@ Ano, můžete ovládat, jak se s animacemi během procesu vykreslování naklád
 Rozhodně! Aspose.Slides umožňuje nastavit vlastní pozadí pro snímky před jejich vykreslením.
 ### Existuje způsob, jak vykreslit snímky přímo do dokumentu PDF?
 Ano, Aspose.Slides poskytuje funkce pro přímý převod prezentací PowerPoint do souborů PDF s vysokou věrností.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

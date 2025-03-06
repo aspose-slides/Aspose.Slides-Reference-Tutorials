@@ -3,14 +3,10 @@ title: Eigenschaften in Java-Folien speichern
 linktitle: Eigenschaften in Java-Folien speichern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie, wie Sie Eigenschaften festlegen, die Verschlüsselung deaktivieren, einen Kennwortschutz hinzufügen und mühelos speichern.
+type: docs
 weight: 12
 url: /de/java/saving-options/save-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in das Speichern von Eigenschaften in Java-Folien
 
@@ -174,9 +170,3 @@ Dies hilft, Speicherlecks in Ihrer Anwendung zu verhindern.
 ### Wie kann ich mehr über Aspose.Slides für Java und seine Funktionen erfahren?
 
  Sie können die Aspose.Slides für Java-Dokumentation unter folgender Adresse erkunden:[Hier](https://docs.aspose.com/slides/java/) für detaillierte Informationen, Tutorials und Beispiele zur Verwendung der Bibliothek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

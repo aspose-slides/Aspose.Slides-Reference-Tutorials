@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中设置数据标签的标注
 linktitle: 在 Java 幻灯片中设置数据标签的标注
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何在 Aspose.Slides for Java 中设置数据标签的标注。带有源代码的分步指南。
+type: docs
 weight: 25
 url: /zh/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java 中数据标签标注设置简介
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 这些是 Aspose.Slides for Java 中数据标签和标注的一些常见自定义选项。您可以进一步根据您的特定需求定制外观。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

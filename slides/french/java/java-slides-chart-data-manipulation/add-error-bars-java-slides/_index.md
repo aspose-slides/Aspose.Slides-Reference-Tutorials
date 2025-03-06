@@ -3,14 +3,10 @@ title: Ajouter des barres d'erreur dans les diapositives Java
 linktitle: Ajouter des barres d'erreur dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des barres d'erreur aux graphiques PowerPoint en Java à l'aide d'Aspose.Slides. Guide étape par étape avec code source pour personnaliser les barres d'erreur.
+type: docs
 weight: 13
 url: /fr/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à l'ajout de barres d'erreur dans les diapositives Java à l'aide d'Aspose.Slides
 
@@ -132,9 +128,3 @@ Oui, vous pouvez ajouter des barres d'erreur à différents types de graphiques 
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
  Vous pouvez vous référer au[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) pour des informations détaillées sur l’utilisation de la bibliothèque.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

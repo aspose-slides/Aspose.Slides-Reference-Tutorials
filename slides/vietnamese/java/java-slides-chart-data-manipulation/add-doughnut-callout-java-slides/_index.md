@@ -3,14 +3,10 @@ title: Thêm chú thích bánh rán trong trang trình bày Java
 linktitle: Thêm chú thích bánh rán trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm chú thích bánh rán trong các trang trình bày Java bằng cách sử dụng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để nâng cao bài thuyết trình.
+type: docs
 weight: 12
 url: /vi/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Thêm chú thích bánh rán trong các trang trình bày Java bằng Aspose.Slides cho Java
 
@@ -184,9 +180,3 @@ Có, bạn có thể thêm bao nhiêu điểm dữ liệu nếu cần vào biể
 ### Làm cách nào để điều chỉnh vị trí và kích thước của biểu đồ Donut trên slide?
 
  Bạn có thể thay đổi vị trí và kích thước của biểu đồ Donut bằng cách sửa đổi các tham số trong`addChart` phương pháp. Bốn số trong phương thức đó tương ứng với tọa độ X và Y ở góc trên bên trái của biểu đồ cũng như chiều rộng và chiều cao của nó.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

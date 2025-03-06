@@ -3,14 +3,10 @@ title: Zoom de la section Aspose.Slides - Élevez vos présentations
 linktitle: Création d'un zoom de section dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer des diapositives de présentation attrayantes avec un zoom de section à l'aide d'Aspose.Slides pour .NET. Améliorez vos présentations avec des fonctionnalités interactives.
+type: docs
 weight: 13
 url: /fr/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Améliorer vos diapositives de présentation avec des fonctionnalités interactives est crucial pour garder votre public engagé. Un moyen efficace d'y parvenir consiste à intégrer des zooms de section, vous permettant de naviguer de manière transparente entre les différentes sections de votre présentation. Dans ce didacticiel, nous verrons comment créer des zooms de section dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -74,9 +70,3 @@ Absolument! Vous avez un contrôle total sur les dimensions, le positionnement e
  Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en utilisant le[essai gratuit](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour les requêtes liées à Aspose.Slides ?
  Pour toute assistance ou question, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

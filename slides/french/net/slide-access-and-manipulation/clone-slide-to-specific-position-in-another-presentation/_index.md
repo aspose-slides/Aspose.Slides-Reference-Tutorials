@@ -3,14 +3,10 @@ title: Copier la diapositive vers un emplacement précis dans une présentation 
 linktitle: Copier la diapositive vers un emplacement précis dans une présentation différente
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à copier des diapositives vers des emplacements précis dans différentes présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit le code source et les instructions pour une manipulation transparente de PowerPoint.
+type: docs
 weight: 18
 url: /fr/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à Aspose.Slides pour .NET
 
@@ -98,9 +94,3 @@ Oui, Aspose.Slides vous permet de manipuler par programme le contenu des diaposi
 ### Où puis-je trouver plus de documentation et d’exemples pour Aspose.Slides ?
 
  Vous pouvez trouver une documentation complète et des exemples pour Aspose.Slides pour .NET dans la documentation :[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 슬라이드 댓글에 액세스
 linktitle: 슬라이드 댓글에 액세스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 슬라이드 주석에 액세스하는 방법을 알아보세요. 협업과 워크플로우를 손쉽게 향상하세요.
+type: docs
 weight: 11
 url: /ko/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 역동적이고 대화형인 프레젠테이션의 세계에서 슬라이드 내의 댓글을 관리하는 것은 공동 작업 프로세스에서 중요한 부분이 될 수 있습니다. .NET용 Aspose.Slides는 슬라이드 주석에 액세스하고 조작할 수 있는 강력하고 다양한 솔루션을 제공하여 프레젠테이션 작업 흐름을 향상시킵니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드 주석에 액세스하는 프로세스를 자세히 살펴보겠습니다.
 
@@ -116,9 +112,3 @@ Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint �
 
 ### .NET용 Aspose.Slides 라이선스를 구매할 수 있나요?
  예, 다음에서 .NET용 Aspose.Slides 라이선스를 구매할 수 있습니다.[이 링크](https://purchase.aspose.com/buy) 프로젝트에서 라이브러리의 잠재력을 최대한 활용하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

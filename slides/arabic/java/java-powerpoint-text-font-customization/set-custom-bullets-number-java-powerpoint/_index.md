@@ -3,14 +3,10 @@ title: قم بتعيين رقم نقطي مخصص في Java PowerPoint
 linktitle: قم بتعيين رقم نقطي مخصص في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين أرقام نقطية مخصصة في Java PowerPoint باستخدام Aspose.Slides، مما يعزز وضوح العرض التقديمي وبنيته برمجيًا.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية أمرًا ضروريًا لتوصيل الأفكار والبيانات بشكل فعال. يوفر Aspose.Slides for Java مجموعة أدوات قوية للتعامل مع عروض PowerPoint التقديمية برمجيًا، مما يوفر ميزات شاملة لتحسين عملية إنشاء العرض التقديمي. تتعمق هذه المقالة في إعداد أرقام نقطية مخصصة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية، مما يضمن أنه يمكنك الاستفادة من هذه الإمكانية بكفاءة.
 ## المتطلبات الأساسية
@@ -86,9 +82,3 @@ presentation.save(dataDir + "SetCustomBulletsNumber-slides.pptx", SaveFormat.Ppt
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني شراء Aspose.Slides؟
  يمكنك شراء Aspose.Slides من[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

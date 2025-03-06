@@ -3,14 +3,10 @@ title: ملء الأشكال مع نمط في PowerPoint
 linktitle: ملء الأشكال مع نمط في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية تعبئة الأشكال بالأنماط في PowerPoint باستخدام Aspose.Slides لـ Java. اتبع دليلنا السهل خطوة بخطوة لتحسين عروضك التقديمية بصريًا.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا ضروريًا لجذب جمهورك. إحدى الطرق لتحسين شرائح PowerPoint الخاصة بك هي ملء الأشكال بالأنماط. في هذا البرنامج التعليمي، سنتعرف على خطوات ملء الأشكال بالأنماط باستخدام Aspose.Slides for Java. تم تصميم هذا الدليل للمطورين الذين يرغبون في الاستفادة من الميزات القوية في Aspose.Slides لإنشاء عروض تقديمية مذهلة برمجيًا.
 ## المتطلبات الأساسية
@@ -98,9 +94,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 نعم، يتيح لك Aspose.Slides for Java فتح عروض PowerPoint التقديمية الحالية وتحريرها وحفظها.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

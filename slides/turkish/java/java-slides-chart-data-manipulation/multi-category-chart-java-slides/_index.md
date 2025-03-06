@@ -3,14 +3,10 @@ title: Java Slaytlarında Çok Kategorili Grafik
 linktitle: Java Slaytlarında Çok Kategorili Grafik
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slaytlarında Çok Kategorili Grafikler oluşturun. Sunumlarda etkileyici veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
+type: docs
 weight: 20
 url: /tr/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides ile Java Slaytlarında Çok Kategorili Grafiğe Giriş
 
@@ -161,9 +157,3 @@ Evet, 5. Adımda gösterilene benzer bir işlemi izleyerek grafiğe ek seriler e
 ### Grafiğe nasıl başlık ekleyebilirim?
 
  Kullanarak grafiğe bir başlık ekleyebilirsiniz.`ch.getChartTitle().getTextFrame().setText("Chart Title");` yöntem.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

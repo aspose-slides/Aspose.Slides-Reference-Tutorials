@@ -3,14 +3,10 @@ title: إدارة الرأس والتذييل في الملاحظات باستخ
 linktitle: إدارة الرأس والتذييل في شريحة الملاحظات
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إدارة الرأس والتذييل في شرائح ملاحظات PowerPoint باستخدام Aspose.Slides for .NET. تعزيز العروض التقديمية الخاصة بك دون عناء.
+type: docs
 weight: 11
 url: /ar/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية جذابة وغنية بالمعلومات مهارة حيوية. كجزء من هذه العملية، قد تحتاج غالبًا إلى تضمين الرؤوس والتذييلات في شرائح الملاحظات لتوفير سياق ومعلومات إضافية. Aspose.Slides for .NET هي أداة قوية تمكنك من إدارة إعدادات الرأس والتذييل في شرائح الملاحظات بسهولة. في هذا الدليل التفصيلي، سنستكشف كيفية تحقيق ذلك باستخدام Aspose.Slides for .NET.
 
@@ -124,9 +120,3 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ### هل يتوفر الدعم الفني لـ Aspose.Slides لمستخدمي .NET؟
  نعم، يمكنك الحصول على الدعم والمساعدة من مجتمع Aspose والخبراء في الموقع[Aspose منتدى الدعم](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

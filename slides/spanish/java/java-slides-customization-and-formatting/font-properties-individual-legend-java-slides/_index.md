@@ -3,14 +3,10 @@ title: Propiedades de fuente para leyenda individual en diapositivas Java
 linktitle: Propiedades de fuente para leyenda individual en diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Mejore las presentaciones de PowerPoint con estilos, tamaños y colores de fuente personalizados para leyendas individuales en Java Slides usando Aspose.Slides para Java.
+type: docs
 weight: 12
 url: /es/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a las propiedades de fuente para leyendas individuales en diapositivas de Java
 
@@ -117,9 +113,3 @@ Recuerde deshacerse del objeto de presentación cuando haya terminado de liberar
 ```java
 if (pres != null) pres.dispose();
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

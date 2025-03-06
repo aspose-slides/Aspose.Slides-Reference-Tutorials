@@ -3,14 +3,10 @@ title: Stílusos jegyzetformázás hozzáadása az Aspose.Slides segítségével
 linktitle: Jegyzetek hozzáadása stílusos jegyzetformázással
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat stílusos jegyzetformázást PowerPoint-prezentációihoz az Aspose.Slides for .NET segítségével. Javítsa diákjait szimbólumokkal és felsorolásjelekkel.
+type: docs
 weight: 14
 url: /hu/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 A prezentációk világában nem csak a tartalomról van szó, hanem arról is, hogyan prezentálja azt. A stílusos jegyzetformázás jelentősen megváltoztathatja a prezentáció hatását. Az Aspose.Slides for .NET segítségével egyszerűen javíthatja PowerPoint-prezentációit úgy, hogy stílusos jegyzeteket ad hozzá felsorolásjelekkel és szimbólumokkal. Ebben a lépésenkénti útmutatóban végigvezetjük a PowerPoint diák stílusos jegyzetformázásának hozzáadásának folyamatán.
 
@@ -113,9 +109,3 @@ Igen, ideiglenes licencet szerezhet tesztelési és értékelési célokra a kö
 
 ### Van közösségi fórum vagy támogatás az Aspose.Slides for .NET számára?
  Igen, kérhet segítséget, és részt vehet a vitákban az Aspose.Slides for .NET közösségi fórumon[itt](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 슬라이드에서 프리젠테이션을 비밀번호로 보호된 P
 linktitle: Java 슬라이드에서 프리젠테이션을 비밀번호로 보호된 PDF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Java에서 비밀번호로 보호된 안전한 PDF로 변환하는 방법을 알아보세요. 문서 보안을 강화하세요.
+type: docs
 weight: 17
 url: /ko/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 프레젠테이션을 비밀번호로 보호된 PDF로 변환하는 방법 소개
 
@@ -150,9 +146,3 @@ Aspose.Slides는 강력한 PDF 비밀번호 보호 기능을 제공합니다. �
 ### Aspose.Slides for Java는 상업용으로 적합합니까?
 
 예, Aspose.Slides for Java는 상업용으로 적합합니다. 이는 Java 애플리케이션에서 PowerPoint 프레젠테이션 작업을 위한 다양한 기능을 제공하며 업계에서 널리 사용됩니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

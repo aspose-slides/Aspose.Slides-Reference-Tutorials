@@ -3,14 +3,10 @@ title: Zvládnutí cílů animace pomocí Aspose.Slides pro .NET
 linktitle: Nastavení cílů animace pro tvary snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak oživit vaše prezentace pomocí Aspose.Slides pro .NET! Nastavte si cíle animace bez námahy a upoutejte své publikum.
+type: docs
 weight: 22
 url: /cs/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dynamickém světě prezentací může přidání animací do snímků změnit hru. Aspose.Slides for .NET umožňuje vývojářům vytvářet poutavé a vizuálně přitažlivé prezentace tím, že umožňuje přesnou kontrolu nad cíli animace pro tvary snímků. V tomto podrobném průvodci vás provedeme procesem nastavení cílů animace pomocí Aspose.Slides pro .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vám pomůže využít sílu animací ve vašich prezentacích.
 ## Předpoklady
@@ -66,9 +62,3 @@ Ne, Aspose.Slides umožňuje animovat prakticky neomezený počet tvarů v preze
 Ano, Aspose.Slides nabízí možnosti přizpůsobení trvání a načasování každé animace.
 ### Kde najdu další příklady a dokumentaci pro Aspose.Slides?
  Prozkoumat[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/) pro podrobné informace a příklady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

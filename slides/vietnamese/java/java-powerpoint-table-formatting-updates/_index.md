@@ -3,14 +3,10 @@ title: Cập nhật và định dạng bảng Java PowerPoint
 linktitle: Cập nhật và định dạng bảng Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nâng cao bản trình bày Java PowerPoint với định dạng và cập nhật bảng bằng Aspose.Slides. Tìm hiểu cách thêm đường viền, định dạng văn bản trong cột, hàng và cập nhật bảng.
+type: docs
 weight: 31
 url: /vi/java/java-powerpoint-table-formatting-updates/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -40,9 +36,3 @@ Tìm hiểu cách định dạng văn bản bên trong các cột bảng trong P
 Tìm hiểu cách định dạng văn bản bên trong các hàng của bảng trong PowerPoint bằng Aspose.Slides cho Java. Cải thiện bản trình bày của bạn với hướng dẫn từng bước của chúng tôi.
 ### [Cập nhật bảng hiện có trong PowerPoint bằng Java](./update-existing-table-powerpoint-java/)
 Tìm hiểu cách cập nhật các bảng hiện có trong PowerPoint bằng Java với Aspose.Slides. Bao gồm hướng dẫn từng bước, hướng dẫn chi tiết và Câu hỏi thường gặp.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: إنشاء مصغرات أشكال PowerPoint - Aspose.Slides .NET
 linktitle: إنشاء صورة مصغرة للشكل في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة للأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. دليل شامل خطوة بخطوة للمطورين.
+type: docs
 weight: 14
 url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع عروض PowerPoint التقديمية. إحدى ميزاته البارزة هي القدرة على إنشاء صور مصغرة للأشكال داخل العرض التقديمي. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء صور مصغرة للأشكال باستخدام Aspose.Slides لـ .NET.
 ## المتطلبات الأساسية
@@ -61,9 +57,3 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ج: يوفر Aspose.Slides المرونة اللازمة لإنشاء صور مصغرة لمختلف الأشكال، بما في ذلك مربعات النص والصور والمزيد.
 ### س: هل يمكنني تخصيص حجم ودقة الصور المصغرة التي تم إنشاؤها؟
  ج: نعم، يمكنك ضبط المعلمات عند الاتصال`GetThumbnail` طريقة التحكم في الحجم والدقة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

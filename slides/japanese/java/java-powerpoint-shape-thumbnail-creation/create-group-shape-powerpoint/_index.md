@@ -3,14 +3,10 @@ title: PowerPoint でグループ図形を作成する
 linktitle: PowerPoint でグループ図形を作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでグループ図形を作成する方法を学びます。簡単に整理して視覚的な魅力を高めます。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 現代のプレゼンテーションでは、視覚的に魅力的で構造化された要素を組み込むことが、情報を効果的に伝えるために重要です。PowerPoint のグループ図形を使用すると、複数の図形を 1 つのユニットに整理して、操作や書式設定を簡単に行うことができます。Aspose.Slides for Java は、グループ図形をプログラムで作成および操作するための強力な機能を提供し、プレゼンテーション デザインを柔軟に制御できます。
 ## 前提条件
@@ -79,9 +75,3 @@ Aspose.Slides for Java は、さまざまなバージョンと互換性のある
 Aspose.Slides for Java では、グループ シェイプに追加できるシェイプの数に厳密な制限はありません。
 ### Aspose.Slides for Java を使用してグループ図形にアニメーションを適用できますか?
 はい、Aspose.Slides for Java は、グループ図形にアニメーションを適用するための包括的なサポートを提供し、動的なプレゼンテーションを可能にします。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

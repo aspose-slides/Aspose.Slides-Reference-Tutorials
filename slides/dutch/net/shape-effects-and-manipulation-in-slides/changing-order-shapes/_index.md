@@ -3,14 +3,10 @@ title: Presentatiedia's opnieuw vormgeven met Aspose.Slides voor .NET
 linktitle: De volgorde van vormen in presentatiedia's wijzigen met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u presentatiedia's een nieuwe vorm kunt geven met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om vormen opnieuw te ordenen en de visuele aantrekkingskracht te verbeteren.
+type: docs
 weight: 26
 url: /nl/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het maken van visueel aantrekkelijke presentatiedia's is een cruciaal aspect van effectieve communicatie. Aspose.Slides voor .NET stelt ontwikkelaars in staat dia's programmatisch te manipuleren en biedt een breed scala aan functionaliteiten. In deze zelfstudie verdiepen we ons in het proces van het wijzigen van de volgorde van vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -74,9 +70,3 @@ A: Ja, Aspose.Slides voor .NET is compatibel met zowel Windows- als Linux-omgevi
  A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om steun te krijgen en betrokken te raken bij de gemeenschap.
 ### Vraag: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Slides voor .NET?
  A: U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

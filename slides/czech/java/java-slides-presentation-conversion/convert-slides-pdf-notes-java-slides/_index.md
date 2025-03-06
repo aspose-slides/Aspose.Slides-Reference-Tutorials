@@ -3,14 +3,10 @@ title: Převeďte snímky do PDF pomocí poznámek v Java Slides
 linktitle: Převeďte snímky do PDF pomocí poznámek v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak převést PowerPoint snímky do PDF s poznámkami v Javě pomocí Aspose.Slides for Java. Podrobný průvodce pro vývojáře Java. Vylepšete sdílení prezentací.
+type: docs
 weight: 19
 url: /cs/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do převodu snímků do PDF pomocí poznámek v Javě
 
@@ -128,9 +124,3 @@ Rozhodně! Můžete procházet snímky v prezentaci a klonovat je do nové preze
 ### Kde najdu další dokumentaci k Aspose.Slides pro Java?
 
  Podrobnou dokumentaci k Aspose.Slides for Java můžete najít na webu:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

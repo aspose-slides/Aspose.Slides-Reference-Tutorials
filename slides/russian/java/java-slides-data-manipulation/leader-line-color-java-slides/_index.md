@@ -3,14 +3,10 @@ title: Цвет линии выноски в слайдах Java
 linktitle: Цвет линии выноски в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как изменить цвета линий выноски в диаграммах PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с примерами исходного кода.
+type: docs
 weight: 12
 url: /ru/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в цвет линии выноски в Aspose.Slides для Java
 
@@ -120,9 +116,3 @@ pres.save(outPath, SaveFormat.Pptx);
 ### Могу ли я использовать Aspose.Slides для Java с другими библиотеками и платформами Java?
 
 Да, вы можете интегрировать Aspose.Slides for Java с другими библиотеками и платформами Java, если это необходимо для вашего проекта. Aspose.Slides предоставляет API для работы с различными функциями PowerPoint, что позволяет комбинировать их с другими инструментами и технологиями для создания мощных приложений.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

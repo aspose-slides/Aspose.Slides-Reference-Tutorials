@@ -3,14 +3,10 @@ title: Aspose.Slides - Tạo hình dạng nhóm trong .NET
 linktitle: Tạo hình dạng nhóm trong các slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo các hình dạng nhóm trong PowerPoint bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có bản trình bày hấp dẫn về mặt hình ảnh.
+type: docs
 weight: 11
 url: /vi/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Nếu bạn đang tìm cách nâng cao sức hấp dẫn trực quan của các trang trình bày và sắp xếp nội dung hiệu quả hơn thì việc kết hợp các hình dạng nhóm là một giải pháp mạnh mẽ. Aspose.Slides for .NET cung cấp một cách liền mạch để tạo và thao tác các hình dạng nhóm trong bản trình bày PowerPoint của bạn. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tạo các hình dạng nhóm bằng Aspose.Slides, chia nhỏ thành các bước dễ thực hiện.
 ## Điều kiện tiên quyết
@@ -102,10 +98,3 @@ Truy cập Aspose.Slides[diễn đàn](https://forum.aspose.com/c/slides/11) đ�
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua giấy phép đầy đủ cho Aspose.Slides ở đâu?
  Bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

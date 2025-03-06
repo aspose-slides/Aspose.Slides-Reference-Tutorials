@@ -3,14 +3,10 @@ title: Làm chủ việc căn chỉnh hình dạng với Aspose.Slides cho .NET
 linktitle: Căn chỉnh các hình dạng trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách căn chỉnh các hình dạng một cách dễ dàng trong các trang trình bày bằng Aspose.Slides for .NET. Tăng cường sự hấp dẫn trực quan với sự liên kết chính xác. Tải ngay!
+type: docs
 weight: 10
 url: /vi/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Việc tạo các slide thuyết trình hấp dẫn trực quan thường yêu cầu căn chỉnh chính xác các hình dạng. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để đạt được điều này một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách căn chỉnh các hình dạng trong các trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -86,9 +82,3 @@ Tuyệt đối! Aspose.Slides cung cấp các phương pháp phân phối hình 
 Aspose.Slides cho .NET được thiết kế chủ yếu cho các ứng dụng Windows, nhưng Aspose cũng cung cấp các thư viện cho Java và các nền tảng khác.
 ### Làm thế nào tôi có thể nhận được sự trợ giúp hoặc hỗ trợ thêm?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

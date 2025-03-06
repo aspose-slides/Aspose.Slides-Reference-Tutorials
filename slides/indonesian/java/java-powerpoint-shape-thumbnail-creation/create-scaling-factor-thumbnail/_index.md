@@ -3,14 +3,10 @@ title: Buat Thumbnail Faktor Penskalaan
 linktitle: Buat Thumbnail Faktor Penskalaan
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat gambar mini faktor penskalaan di Java menggunakan Aspose.Slides untuk Java. Panduan yang mudah diikuti dengan petunjuk langkah demi langkah.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan thumbnail faktor penskalaan menggunakan Aspose.Slides untuk Java. Ikuti petunjuk langkah demi langkah ini untuk mencapai hasil yang Anda inginkan.
 ## Prasyarat
@@ -70,9 +66,3 @@ Ya, Aspose.Slides untuk Java dapat digunakan dengan Java Integrated Development 
  Anda dapat membeli Aspose.Slides untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
 ### Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Slides untuk Java?
  Ya, Anda bisa mendapatkan lisensi sementara dari[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

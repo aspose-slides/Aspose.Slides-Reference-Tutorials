@@ -3,14 +3,10 @@ title: Dodaj węzeł asystenta do grafiki SmartArt w programie Java PowerPoint
 linktitle: Dodaj węzeł asystenta do grafiki SmartArt w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodać węzeł asystenta do grafiki SmartArt w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Popraw swoje umiejętności edycji programu PowerPoint.
+type: docs
 weight: 17
 url: /pl/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces dodawania węzła asystenta do grafiki SmartArt w prezentacjach Java PowerPoint przy użyciu Aspose.Slides.
 ## Warunki wstępne
@@ -74,9 +70,3 @@ Aspose.Slides obsługuje wersje programu PowerPoint od 97-2003 do najnowszej wer
 Tak, możesz dostosować wygląd, korzystając z różnych właściwości i metod udostępnianych przez Aspose.Slides.
 ### Czy istnieje ograniczenie liczby węzłów w sztuce SmartArt?
 Grafika SmartArt w programie PowerPoint obsługuje dużą liczbę węzłów, ale zaleca się zachowanie rozsądnej liczby węzłów, aby zapewnić lepszą czytelność.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

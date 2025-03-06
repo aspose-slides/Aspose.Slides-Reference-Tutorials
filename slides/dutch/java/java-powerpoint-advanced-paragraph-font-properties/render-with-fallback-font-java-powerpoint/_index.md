@@ -3,14 +3,10 @@ title: Render met Fallback-lettertype in Java PowerPoint
 linktitle: Render met Fallback-lettertype in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tekst kunt weergeven met reservelettertypen in Java PowerPoint-presentaties met behulp van Aspose.Slides. Volg deze stapsgewijze handleiding voor een naadloze implementatie.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het maken en manipuleren van PowerPoint-presentaties in Java kan een uitdaging zijn, maar met Aspose.Slides kunt u dit efficiënt doen. Een cruciaal kenmerk is de mogelijkheid om tekst weer te geven met reservelettertypen. Dit artikel biedt een gedetailleerde, stapsgewijze handleiding voor het implementeren van reservelettertypen in uw PowerPoint-dia's met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -92,9 +88,3 @@ Reservelettertypen zijn alternatieve lettertypen die worden gebruikt wanneer het
 Ja, u kunt meerdere fallback-regels toevoegen om verschillende Unicode-bereiken en lettertypen te verwerken.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  U kunt ondersteuning krijgen van de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

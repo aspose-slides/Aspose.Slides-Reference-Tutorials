@@ -3,14 +3,10 @@ title: Áp dụng định dạng Bullet Fill hiệu quả trong Java PowerPoint
 linktitle: Áp dụng định dạng Bullet Fill hiệu quả trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách áp dụng các định dạng điền dấu đầu dòng trong Java PowerPoint bằng Aspose.Slides cho Java. Nắm vững các kiểu dấu đầu dòng và cải thiện bài thuyết trình của bạn.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong bối cảnh kỹ thuật số ngày nay, kỹ năng thuyết trình hiệu quả là rất quan trọng đối với các chuyên gia trên nhiều lĩnh vực khác nhau. Tạo bản trình bày PowerPoint hấp dẫn không chỉ đòi hỏi sự sáng tạo mà còn đòi hỏi chuyên môn kỹ thuật để khai thác toàn bộ tiềm năng của các công cụ như Aspose.Slides cho Java. Hướng dẫn này đi sâu vào một khía cạnh như vậy: áp dụng các định dạng điền dấu đầu dòng theo chương trình bằng cách sử dụng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển, chuyên gia kinh doanh hay sinh viên đang muốn nâng cao kỹ năng thuyết trình của mình thì việc nắm vững các định dạng điền dấu đầu dòng có thể nâng cao đáng kể sự hấp dẫn trực quan và độ rõ ràng của các trang chiếu của bạn.
 ## Điều kiện tiên quyết
@@ -94,9 +90,3 @@ Hoàn toàn có thể, Aspose.Slides cho Java được thiết kế để xử l
 Có, Aspose.Slides for Java cung cấp API để tích hợp dựa trên đám mây.
 ### Tôi có thể dùng thử Aspose.Slides cho Java trước khi mua không?
  Có, bạn có thể bắt đầu bằng một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá các tính năng của nó.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Harita Grafiği
 linktitle: Java Slaytlarındaki Harita Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint Sunumlarında Çarpıcı Harita Grafikleri oluşturun. Java geliştiricileri için adım adım kılavuz ve kaynak kodu.
+type: docs
 weight: 15
 url: /tr/java/chart-elements/map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java kullanarak Java Slaytlarındaki Harita Grafiğine Giriş
 
@@ -135,9 +131,3 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumunda Harita G
 ### Aspose.Slides for Java'yı projeme nasıl entegre edebilirim?
 
  Kütüphaneyi şuradan indirin:[Burada](https://releases.aspose.com/slides/java/) ve bunu projenizin sınıf yoluna ekleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

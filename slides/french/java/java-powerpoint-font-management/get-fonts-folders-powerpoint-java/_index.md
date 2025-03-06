@@ -3,14 +3,10 @@ title: Obtenir des dossiers de polices dans PowerPoint à l'aide de Java
 linktitle: Obtenir des dossiers de polices dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment extraire des dossiers de polices dans des présentations PowerPoint à l'aide de Java avec Aspose.Slides, améliorant ainsi vos capacités de conception de présentation.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous aborderons le processus d'acquisition de dossiers de polices dans des présentations PowerPoint à l'aide de Java. Les polices jouent un rôle central dans l’attrait visuel et la lisibilité de vos présentations. En tirant parti d'Aspose.Slides pour Java, nous pouvons accéder efficacement aux répertoires de polices, ce qui est essentiel pour diverses opérations liées aux polices dans les présentations PowerPoint.
 ## Conditions préalables
@@ -50,9 +46,3 @@ Les dossiers de polices facilitent l'accès aux ressources de polices, permettan
  Vous pouvez visiter le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11) pour demander l’aide de la communauté ou de l’équipe d’assistance Aspose.
 ### Où puis-je acheter Aspose.Slides pour Java ?
  Vous pouvez acheter Aspose.Slides pour Java sur le site Web[ici](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

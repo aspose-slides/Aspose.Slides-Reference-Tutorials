@@ -3,14 +3,10 @@ title: Dodawanie ramek audio do slajdów prezentacji za pomocą Aspose.Slides
 linktitle: Dodawanie ramek audio do slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz prezentacje dzięki Aspose.Slides dla .NET! Naucz się płynnie dodawać klatki audio, angażując odbiorców jak nigdy dotąd.
+type: docs
 weight: 14
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dynamicznym świecie prezentacji włączenie elementów audio może znacznie poprawić ogólne wrażenia odbiorców. Aspose.Slides dla .NET umożliwia programistom bezproblemową integrację klatek audio ze slajdami prezentacji, dodając nową warstwę zaangażowania i interaktywności. Ten przewodnik krok po kroku przeprowadzi Cię przez proces dodawania ramek audio do slajdów prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -67,9 +63,3 @@ Tak, Aspose.Slides zapewnia elastyczność w konfigurowaniu ustawień odtwarzani
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) szukać pomocy i współpracować ze społecznością.
 ### Jak kupić Aspose.Slides dla .NET?
  Bibliotekę można kupić w sklepie[Sklep Aspose](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

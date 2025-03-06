@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트에 대한 글꼴 속성
 linktitle: Java 슬라이드의 차트에 대한 글꼴 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 Java 슬라이드의 차트 글꼴 속성을 향상하세요. 영향력 있는 프레젠테이션을 위해 글꼴 크기, 스타일, 색상을 맞춤설정하세요.
+type: docs
 weight: 11
 url: /ko/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 차트 글꼴 속성 소개
 
@@ -106,9 +102,3 @@ finally
 ### 특정 차트 요소의 글꼴 속성을 어떻게 사용자 정의합니까?
 
 축 레이블이나 범례 텍스트와 같은 특정 차트 요소의 글꼴 속성을 사용자 정의하려면 해당 요소에 액세스하고 위에 표시된 것과 유사한 방법을 사용하여 글꼴 속성을 설정하면 됩니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

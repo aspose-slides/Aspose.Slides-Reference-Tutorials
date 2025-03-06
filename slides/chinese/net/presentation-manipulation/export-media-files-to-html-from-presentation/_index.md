@@ -3,14 +3,10 @@ title: 从演示文稿将媒体文件导出为 HTML
 linktitle: 从演示文稿将媒体文件导出为 HTML
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 优化您的演示文稿共享！通过本分步指南了解如何将演示文稿中的媒体文件导出为 HTML。
+type: docs
 weight: 15
 url: /zh/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在本教程中，我们将引导您完成使用 Aspose.Slides for .NET 将媒体文件从演示文稿导出为 HTML 的过程。Aspose.Slides 是一个功能强大的 API，允许您以编程方式处理 PowerPoint 演示文稿。在本指南结束时，您将能够轻松地将演示文稿转换为 HTML 格式。那么，让我们开始吧！
 
@@ -88,9 +84,3 @@ A3：是的，Aspose.Slides for .NET 支持各种导出格式，包括 PDF、图
  A5：您可以从以下位置购买许可证[此链接](https://purchase.aspose.com/buy).
 
 现在您已完成本教程，您已掌握使用 Aspose.Slides for .NET 将媒体文件从 PowerPoint 演示文稿导出为 HTML 的技能。尽情享受在线分享您的多媒体演示文稿吧！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

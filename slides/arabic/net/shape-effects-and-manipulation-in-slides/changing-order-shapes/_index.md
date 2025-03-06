@@ -3,14 +3,10 @@ title: إعادة تشكيل شرائح العرض التقديمي باستخد
 linktitle: تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل المفصّل خطوة بخطوة لإعادة ترتيب الأشكال وتحسين المظهر البصري.
+type: docs
 weight: 26
 url: /ar/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد إنشاء شرائح عرض تقديمي جذابة بصريًا جانبًا مهمًا للتواصل الفعال. يعمل Aspose.Slides for .NET على تمكين المطورين من التعامل مع الشرائح برمجيًا، مما يوفر نطاقًا واسعًا من الوظائف. في هذا البرنامج التعليمي، سوف نتعمق في عملية تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -74,9 +70,3 @@ presentation.Save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
  ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والتفاعل مع المجتمع.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
  ج: يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

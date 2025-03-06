@@ -3,14 +3,10 @@ title: Wypełnianie kształtów gradientem w programie PowerPoint
 linktitle: Wypełnianie kształtów gradientem w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wypełniać kształty gradientem w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając ze szczegółowego przewodnika krok po kroku.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji programu PowerPoint ma kluczowe znaczenie dla przyciągnięcia uwagi odbiorców. Jednym ze skutecznych sposobów ulepszania slajdów jest wypełnianie kształtów gradientami. Ten samouczek poprowadzi Cię przez proces używania Aspose.Slides dla Java do wypełniania kształtów gradientami w programie PowerPoint. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik będzie pomocny i łatwy w obsłudze. Zanurzmy się w świat gradientów i zobaczmy, jak mogą one przekształcić Twoje prezentacje.
 ## Warunki wstępne
@@ -110,9 +106,3 @@ Stopnie gradientu to określone punkty w gradiencie, które definiują kolor i j
  Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Skąd mogę pobrać najnowszą wersję Aspose.Slides dla Java?
  Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose.Slides](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφιών διαφανειών
 linktitle: Δημιουργία μικρογραφιών διαφανειών
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες διαφανειών χρησιμοποιώντας το Aspose.Slides για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα για τη δημιουργία δυναμικών προεπισκοπήσεων διαφανειών. Βελτιώστε τις εφαρμογές παρουσίασης με αυτήν την ισχυρή δυνατότητα.
+type: docs
 weight: 17
 url: /el/net/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή:
 
@@ -41,9 +37,3 @@ url: /el/net/slide-thumbnail-generation/
 Δημιουργήστε μικρογραφίες από διαφάνειες που περιλαμβάνουν σημειώσεις χρησιμοποιώντας το Aspose.Slides για .NET. Μάθετε βήμα προς βήμα πώς να εξάγετε σημειώσεις, να δημιουργείτε μικρογραφίες και να βελτιώνετε τον χειρισμό του PowerPoint. 
 ### [Δημιουργήστε μικρογραφία με προσαρμοσμένες διαστάσεις](./generate-thumbnail-with-custom-dimensions/)
 Μάθετε πώς να δημιουργείτε μικρογραφίες προσαρμοσμένου μεγέθους σε διαφάνειες χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα. Βελτιώστε τις παρουσιάσεις σας με συναρπαστικά γραφικά. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

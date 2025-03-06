@@ -3,14 +3,10 @@ title: Faire pivoter le texte dans PowerPoint à l'aide de Java
 linktitle: Faire pivoter le texte dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à faire pivoter du texte dans PowerPoint à l'aide de Java avec Aspose.Slides. Tutoriel étape par étape pour les débutants et les utilisateurs avancés.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous explorerons comment faire pivoter du texte dans des présentations PowerPoint par programmation à l'aide de Java et Aspose.Slides. La rotation du texte peut être une fonctionnalité utile lors de la conception de diapositives pour créer des présentations visuellement attrayantes.
 ## Conditions préalables
@@ -79,9 +75,3 @@ Absolument, Aspose.Slides fournit des API complètes pour gérer diverses exigen
  Pour une documentation détaillée, visitez[Aspose.Slides pour Java Documentation](https://reference.aspose.com/slides/java/) . Vous pouvez également obtenir le soutien de la communauté sur[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
  Vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/)pour évaluer Aspose.Slides sans limitations.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

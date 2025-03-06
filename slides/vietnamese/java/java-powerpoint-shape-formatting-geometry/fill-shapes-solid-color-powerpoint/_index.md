@@ -3,14 +3,10 @@ title: Tô màu cho hình dạng bằng màu đồng nhất trong PowerPoint
 linktitle: Tô màu cho hình dạng bằng màu đồng nhất trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tô màu các hình dạng bằng màu đồng nhất trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước dành cho nhà phát triển.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Nếu bạn đã từng làm việc với các bản trình bày PowerPoint thì bạn biết rằng việc thêm hình dạng và tùy chỉnh màu sắc của chúng có thể là một khía cạnh quan trọng giúp làm cho các trang chiếu của bạn trở nên hấp dẫn về mặt trực quan và chứa nhiều thông tin. Với Aspose.Slides cho Java, quá trình này trở nên dễ dàng. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa việc tạo bản trình bày PowerPoint hay ai đó quan tâm đến việc thêm một chút màu sắc vào trang trình bày của mình, hướng dẫn này sẽ hướng dẫn bạn qua quy trình tô màu các hình bằng các màu đơn sắc bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -89,9 +85,3 @@ Có, Aspose.Slides cho Java cho phép bạn mở, chỉnh sửa và lưu các b�
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[trang web giả định](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm tài liệu và hỗ trợ ở đâu?
  Tài liệu chi tiết có sẵn trên[trang web giả định](https://reference.aspose.com/slides/java/)và bạn có thể tìm kiếm sự hỗ trợ trên[diễn đàn giả định](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

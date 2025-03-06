@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 프레젠테이션에서 3D 회전 
 linktitle: 프레젠테이션 슬라이드의 도형에 3D 회전 효과 적용
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 향상시키세요! 이 튜토리얼에서는 모양에 3D 회전 효과를 적용하는 방법을 알아봅니다. 역동적이고 시각적으로 멋진 프레젠테이션을 만들어 보세요.
+type: docs
 weight: 23
 url: /ko/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 매력적이고 역동적인 프레젠테이션 슬라이드를 만드는 것은 효과적인 커뮤니케이션의 핵심 요소입니다. .NET용 Aspose.Slides는 도형에 3D 회전 효과를 적용하는 기능을 포함하여 프레젠테이션을 향상시키는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 도형에 3D 회전 효과를 적용하는 과정을 안내합니다.
 ## 전제 조건
@@ -64,9 +60,3 @@ pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### .NET용 Aspose.Slides에 대한 자세한 문서는 어디서 찾을 수 있나요?
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

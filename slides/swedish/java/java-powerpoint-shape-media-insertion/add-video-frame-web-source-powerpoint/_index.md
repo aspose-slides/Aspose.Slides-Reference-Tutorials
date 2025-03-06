@@ -3,14 +3,10 @@ title: Lägg till videoram från webbkälla i PowerPoint
 linktitle: Lägg till videoram från webbkälla i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du förbättrar dina PowerPoint-presentationer genom att lägga till videoramar från webbkällor med Aspose.Slides för Java.
+type: docs
 weight: 18
 url: /sv/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 den här handledningen kommer vi att lära oss hur du lägger till en videoram från en webbkälla, som YouTube, till en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa dessa steg-för-steg-instruktioner kommer du att kunna förbättra dina presentationer genom att inkludera engagerande multimediaelement.
 ## Förutsättningar
@@ -88,9 +84,3 @@ Absolut! Aspose.Slides erbjuder omfattande alternativ för att anpassa utseendet
 Aspose.Slides stöder ett brett utbud av PowerPoint-versioner, vilket säkerställer kompatibilitet mellan olika plattformar.
 ### Var kan jag hitta fler resurser och support för Aspose.Slides?
  Du kan besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för hjälp, dokumentation och samhällsstöd.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

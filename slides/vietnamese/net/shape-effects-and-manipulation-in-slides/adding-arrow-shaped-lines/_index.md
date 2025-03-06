@@ -3,14 +3,10 @@ title: Thêm các đường hình mũi tên vào các slide thuyết trình bằ
 linktitle: Thêm các đường hình mũi tên vào các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn bằng các đường hình mũi tên bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm trang trình bày năng động và hấp dẫn.
+type: docs
 weight: 12
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thế giới của các bài thuyết trình sinh động, khả năng tùy chỉnh và nâng cao các slide là rất quan trọng. Aspose.Slides for .NET trao quyền cho các nhà phát triển thêm các yếu tố trực quan hấp dẫn, chẳng hạn như các đường hình mũi tên, vào các trang trình bày. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình kết hợp các đường hình mũi tên vào các trang trình bày của bạn bằng Aspose.Slides for .NET.
 ## Điều kiện tiên quyết
@@ -83,9 +79,3 @@ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn toàn diện để tù
  Có, bạn có thể trải nghiệm Aspose.Slides với bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides?
  Thăm cộng đồng[diễn đàn](https://forum.aspose.com/c/slides/11) cho bất kỳ sự trợ giúp hoặc thắc mắc.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

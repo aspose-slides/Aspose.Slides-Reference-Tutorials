@@ -3,14 +3,10 @@ title: Ställ in första raden som rubrik i PowerPoint-tabellen med Java
 linktitle: Ställ in första raden som rubrik i PowerPoint-tabellen med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in den första raden som rubrik i PowerPoint-tabeller med Aspose.Slides för Java. Förbättra presentationens tydlighet och organisation utan ansträngning.
+type: docs
 weight: 19
 url: /sv/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 I den här handledningen kommer vi att fördjupa oss i hur man manipulerar PowerPoint-tabeller med Aspose.Slides för Java, ett kraftfullt bibliotek som möjliggör sömlös integration och modifiering av presentationer. Specifikt kommer vi att fokusera på att ställa in den första raden i en tabell som en rubrik, vilket förbättrar det visuella tilltalande och organiseringen av dina bilder.
 ## Förutsättningar
@@ -80,9 +76,3 @@ Aspose.Slides för Java är ett robust bibliotek för att arbeta med PowerPoint-
  Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/slides/java/).
 ### Hur kan jag få support för Aspose.Slides för Java?
  Du kan få stöd från samhället[här](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

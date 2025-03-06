@@ -3,14 +3,10 @@ title: Add Relative Scale Height Picture Frame in PowerPoint
 linktitle: Add Relative Scale Height Picture Frame in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add relative scale height picture frames in PowerPoint presentations using Aspose.Slides for Java, enhancing your visual content.
+type: docs
 weight: 15
 url: /java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, you'll learn how to add a picture frame with relative scale height in PowerPoint presentations using Aspose.Slides for Java.
 ## Prerequisites
@@ -72,10 +68,3 @@ Absolutely, you can adjust the position and size parameters in the `addPictureFr
 Yes, Aspose.Slides for Java supports various image formats, including PNG, GIF, BMP, and more.
 ### Is there a community forum or support channel available for Aspose.Slides users?
 Yes, you can visit the Aspose.Slides forum for any questions, discussions, or assistance regarding the library.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

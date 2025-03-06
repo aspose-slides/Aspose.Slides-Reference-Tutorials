@@ -3,14 +3,10 @@ title: Géométrie de forme et positionnement dans les diapositives à l'aide d'
 linktitle: Géométrie des formes et positionnement dans les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos compétences en manipulation de diapositives avec les didacticiels Aspose.Slides sur la géométrie des formes et le positionnement dans les diapositives. Apprenez à contrôler par programmation les formes, leurs dimensions et leur alignement.
+type: docs
 weight: 13
 url: /fr/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction
 
@@ -55,9 +51,3 @@ Apprenez à intégrer efficacement les données de Light Rig dans les diapositiv
 Apprenez à améliorer vos diapositives de présentation avec des données de biseau efficaces à l'aide d'Aspose.Slides. Un guide complet avec des instructions étape par étape et un exemple de code.
 ### [Masquer des formes dans les diapositives de présentation avec Aspose.Slides](./hiding-shapes/)
 Découvrez comment masquer des formes dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source, FAQ et bonnes pratiques pour les présentations dynamiques.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

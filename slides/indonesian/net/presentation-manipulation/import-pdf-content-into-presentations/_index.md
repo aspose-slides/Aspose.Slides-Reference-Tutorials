@@ -3,14 +3,10 @@ title: Impor Konten PDF ke dalam Presentasi
 linktitle: Impor Konten PDF ke dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengimpor konten PDF ke dalam presentasi dengan lancar menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber ini akan membantu Anda menyempurnakan presentasi Anda dengan mengintegrasikan konten PDF eksternal.
+type: docs
 weight: 24
 url: /id/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Perkenalan
 Memasukkan konten dari berbagai sumber ke dalam presentasi Anda dapat meningkatkan aspek visual dan informasi slide Anda. Aspose.Slides untuk .NET memberikan solusi tangguh untuk mengimpor konten PDF ke dalam presentasi, memungkinkan Anda menyempurnakan slide Anda dengan informasi eksternal. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses mengimpor konten PDF menggunakan Aspose.Slides untuk .NET. Dengan petunjuk langkah demi langkah yang mendetail dan contoh kode sumber, Anda akan dapat mengintegrasikan konten PDF ke dalam presentasi Anda dengan lancar.
@@ -71,9 +67,3 @@ Sangat. Aspose.Slides menawarkan berbagai fitur untuk membuat presentasi yang me
 
 ## Kesimpulan
 Mengintegrasikan konten PDF ke dalam presentasi menggunakan Aspose.Slides untuk .NET adalah cara ampuh untuk menyempurnakan slide Anda dengan informasi eksternal. Dengan mengikuti panduan langkah demi langkah dan memanfaatkan contoh kode sumber yang disediakan, Anda dapat mengimpor konten PDF dengan lancar dan membuat presentasi yang menggabungkan berbagai sumber informasi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

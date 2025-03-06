@@ -3,14 +3,10 @@ title: Руководство по внедрению объектов OLE с п
 linktitle: Замена названия изображения кадра объекта OLE на слайдах презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как улучшить слайды презентации с помощью динамических объектов OLE с помощью Aspose.Slides для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+type: docs
 weight: 15
 url: /ru/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Создание динамичных и интересных слайдов презентации часто предполагает включение различных мультимедийных элементов. В этом уроке мы рассмотрим, как заменить заголовок изображения кадра объекта OLE (связывание и внедрение объектов) в слайдах презентации с помощью мощной библиотеки Aspose.Slides для .NET. Aspose.Slides упрощает процесс работы с OLE-объектами, предоставляя разработчикам инструменты для легкого улучшения их презентаций.
 ## Предварительные условия
@@ -87,9 +83,3 @@ oof.SubstitutePictureTitle = "Caption example";
 Конечно. У вас есть полный программный контроль над объектами OLE, что позволяет вам изменять их свойства и внешний вид по мере необходимости.
 ### Существуют ли какие-либо ограничения на размер встроенных объектов OLE?
 Хотя существуют ограничения по размеру, они, как правило, щедры. Рекомендуется протестировать ваш конкретный вариант использования, чтобы обеспечить оптимальную производительность.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

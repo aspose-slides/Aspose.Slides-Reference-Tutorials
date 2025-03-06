@@ -3,14 +3,10 @@ title: Tweede plotopties voor grafieken in Java-dia's
 linktitle: Tweede plotopties voor grafieken in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagrammen in Java Slides kunt aanpassen met Aspose.Slides voor Java. Ontdek tweede plotopties en verbeter uw presentaties.
+type: docs
 weight: 12
 url: /nl/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot tweede plotopties voor diagrammen in Java-dia's
 
@@ -97,9 +93,3 @@ Als u de grootte van de tweede cirkel in een cirkeldiagram wilt wijzigen, gebrui
 ### Hoe stel ik de positie van de splitsing in een cirkeldiagram in?
 
  U kunt de positie van de splitsing in een cirkeldiagram instellen met behulp van de`setPieSplitPosition` methode. Pas de waarde aan om de gewenste positie op te geven.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

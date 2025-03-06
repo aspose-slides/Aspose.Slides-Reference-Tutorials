@@ -3,14 +3,10 @@ title: Wykres histogramu w slajdach Java
 linktitle: Wykres histogramu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wykresy histogramów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do wizualizacji danych.
+type: docs
 weight: 19
 url: /pl/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do wykresu histogramu w slajdach Java przy użyciu Aspose.Slides
 
@@ -116,9 +112,3 @@ Wykres histogramu służy do wizualizacji rozkładu danych w ciągłym przedzial
 ### Czy mogę dostosować wygląd wykresu histogramu?
 
 Tak, możesz dostosować wygląd wykresu, w tym jego kolory, etykiety i osie, korzystając z interfejsu API Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

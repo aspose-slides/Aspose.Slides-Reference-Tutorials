@@ -3,14 +3,10 @@ title: Couleur automatique des séries de graphiques dans les diapositives Java
 linktitle: Couleur automatique des séries de graphiques dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des graphiques dynamiques avec des couleurs de série automatiques dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos visualisations de données sans effort.
+type: docs
 weight: 14
 url: /fr/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la couleur automatique des séries de graphiques dans Aspose.Slides pour Java
 
@@ -194,9 +190,3 @@ Oui, vous pouvez formater davantage le graphique, la série et les étiquettes s
 ### Où puis-je trouver plus d’informations sur l’utilisation d’Aspose.Slides pour Java ?
 
  Pour plus d'informations et une documentation détaillée sur Aspose.Slides pour Java, vous pouvez visiter la documentation de référence[ici](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

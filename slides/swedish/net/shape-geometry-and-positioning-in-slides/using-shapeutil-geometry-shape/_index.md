@@ -3,14 +3,10 @@ title: Bemästra geometriska former med ShapeUtil - Aspose.Slides .NET
 linktitle: Använda ShapeUtil för Geometry Shape i presentationsbilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska kraften i Aspose.Slides för .NET med ShapeUtil för dynamiska geometriska former. Skapa engagerande presentationer utan ansträngning. Ladda ner nu! Lär dig hur du förbättrar PowerPoint-presentationer med Aspose.Slides. Utforska ShapeUtil för manipulering av geometriska former. Steg-för-steg-guide med .NET-källkod. Optimera presentationer effektivt.
+type: docs
 weight: 17
 url: /sv/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att skapa visuellt tilltalande och dynamiska presentationsbilder är en viktig färdighet, och Aspose.Slides för .NET tillhandahåller en kraftfull verktygslåda för att uppnå detta. I den här handledningen kommer vi att utforska användningen av ShapeUtil för att hantera geometriska former i presentationsbilder. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Slides, kommer den här guiden att leda dig genom processen att använda ShapeUtil för att förbättra dina presentationer.
 ## Förutsättningar
@@ -92,9 +88,3 @@ Aspose.Slides stöder främst .NET-språk. Men Aspose tillhandahåller liknande 
  Besök communityns supportforum[här](https://forum.aspose.com/c/slides/11).
 ### Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

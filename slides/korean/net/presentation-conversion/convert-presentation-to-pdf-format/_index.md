@@ -3,14 +3,10 @@ title: 프레젠테이션을 PDF 형식으로 변환
 linktitle: 프레젠테이션을 PDF 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 PDF로 변환하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다. 효율적이고 효과적인 변환.
+type: docs
 weight: 24
 url: /ko/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## .NET용 Aspose.Slides 소개
 
@@ -111,9 +107,3 @@ Aspose.Slides for .NET을 사용하면 프레젠테이션을 PDF 형식으로 �
 ### 평가판을 사용할 수 있나요?
 
  예, 다음에서 .NET용 Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://products.aspose.com/slides/net).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

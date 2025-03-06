@@ -3,14 +3,10 @@ title: Állítsa be a dia helyzetét a bemutatón belül az Aspose.Slides segít
 linktitle: Állítsa be a dia helyzetét a bemutatón belül
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a diapozíciókat a PowerPoint-prezentációkban az Aspose.Slides for .NET segítségével. Fejleszd prezentációs készségedet!
+type: docs
 weight: 23
 url: /hu/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Szeretné átszervezni prezentációs diákjait, és azon töpreng, hogyan állíthatja be a pozíciójukat az Aspose.Slides for .NET segítségével? Ez a lépésenkénti útmutató végigvezeti a folyamaton, biztosítva, hogy minden lépést egyértelműen megértsen. Mielőtt belevágnánk az oktatóanyagba, tekintsük át az előfeltételeket és importáljuk a kezdéshez szükséges névtereket.
 
@@ -115,9 +111,3 @@ Igen, az Aspose.Slides for .NET funkciók széles skáláját kínálja a PowerP
 ### 5. Kipróbálhatom az Aspose.Slides for .NET-et a vásárlás előtt?
 
  Igen, felfedezheti az Aspose.Slides .NET-hez készült ingyenes próbaverzióját a címen[Aspose.Slides a .NET ingyenes próbaverziójához](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

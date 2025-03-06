@@ -3,14 +3,10 @@ title: Javaスライドでの割り込みのサポート
 linktitle: Javaスライドでの割り込みのサポート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドの割り込み処理をマスターします。この詳細なガイドでは、シームレスな割り込み管理のための手順とコード例を示します。
+type: docs
 weight: 12
 url: /ja/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Aspose.Slides for Java を使用した Java スライドの割り込みサポートの概要
 
 Aspose.Slides for Java は、Java アプリケーションで PowerPoint プレゼンテーションを作成、操作、および操作するための強力なライブラリです。この包括的なガイドでは、Aspose.Slides for Java を使用して Java スライドの割り込みサポートを活用する方法について説明します。熟練した開発者でも、初心者でも、このステップバイステップのチュートリアルでは、詳細な説明とコード例を使用してプロセスを順を追って説明します。
@@ -137,9 +133,3 @@ Java スライドの割り込み処理とは、PowerPoint プレゼンテーシ�
 ### Aspose.Slides for Java の詳細なリソースやドキュメントにはどこでアクセスできますか?
 
 Aspose.Slides for Javaの包括的なドキュメント、チュートリアル、およびサンプルは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/)さらに、特定のユースケースに関するサポートが必要な場合は、Aspose サポート チームにお問い合わせください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

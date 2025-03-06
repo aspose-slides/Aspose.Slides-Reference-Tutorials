@@ -3,14 +3,10 @@ title: Aspose.Slides Kullanarak Sunum Slaytlarına Düz Çizgiler Ekleme
 linktitle: Aspose.Slides Kullanarak Sunum Slaytlarına Düz Çizgiler Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak PowerPoint sunumlarınızı .NET'te geliştirin. Zahmetsizce düz çizgiler eklemek için adım adım kılavuzumuzu izleyin.
+type: docs
 weight: 16
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 İlgi çekici ve görsel olarak çekici PowerPoint sunumları oluşturmak genellikle çeşitli şekil ve öğelerin birleştirilmesini içerir. .NET ile çalışıyorsanız Aspose.Slides, süreci kolaylaştıran güçlü bir araçtır. Bu eğitim Aspose.Slides for .NET kullanarak sunum slaytlarına düz çizgiler eklemeye odaklanmaktadır. Takip edilmesi kolay bu kılavuzla sunumlarınızı geliştirmek için takip edin.
 ## Önkoşullar
@@ -71,9 +67,3 @@ C: Aspose.Slides kesinlikle en yeni .NET çerçevelerini destekliyor.
  Ziyaret[Burada](https://purchase.aspose.com/temporary-license/) Geçici lisanslar için.
 ### S: Sorunlarla mı karşılaşıyorsunuz? Nereden destek alabilirim?
  C: Şu konuda yardım isteyin:[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

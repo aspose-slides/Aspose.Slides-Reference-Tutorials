@@ -3,14 +3,10 @@ title: Java PowerPoint에서 텍스트를 수직으로 정렬
 linktitle: Java PowerPoint에서 텍스트를 수직으로 정렬
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 원활한 슬라이드 서식을 위해 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 텍스트를 수직으로 정렬하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 표 셀 내에서 텍스트를 수직으로 정렬하는 방법을 배웁니다. 텍스트를 수직으로 정렬하는 것은 슬라이드 디자인의 중요한 측면으로, 콘텐츠가 깔끔하고 전문적으로 표시되도록 보장합니다. Aspose.Slides는 프레젠테이션을 프로그래밍 방식으로 조작하고 형식을 지정하는 강력한 기능을 제공하여 슬라이드의 모든 측면을 완벽하게 제어할 수 있습니다.
 ## 전제 조건
@@ -95,9 +91,3 @@ Aspose.Slides는 Microsoft PowerPoint의 모든 주요 버전과 호환되는 �
  방문하다[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 포괄적인 가이드, API 참조 및 코드 샘플을 확인하세요.
 ### Aspose.Slides에 대한 지원은 어떻게 받을 수 있나요?
  기술 지원 및 커뮤니티 지원을 받으려면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

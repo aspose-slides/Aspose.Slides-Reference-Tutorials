@@ -3,14 +3,10 @@ title: Präsentationsmanipulation
 linktitle: Präsentationsmanipulation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Schöpfen Sie das Potenzial der Präsentationsbearbeitung mit Aspose.Slides für .NET-Tutorials aus. Erfahren Sie, wie Sie PowerPoint-Präsentationen dynamisch und programmgesteuert erstellen, anpassen und verbessern können. Verbessern Sie noch heute Ihre PowerPoint-Verarbeitungsfähigkeiten!
+type: docs
 weight: 11
 url: /de/net/presentation-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Im Bereich der PowerPoint-Verarbeitung erweist sich Aspose.Slides für .NET als leistungsstarkes Tool zur Präsentationsbearbeitung. Diese Sammlung von Tutorials bietet umfassende Anleitungen zur Nutzung der Funktionen von Aspose.Slides zur programmgesteuerten Bearbeitung und Verbesserung von Präsentationen. Vom Erstellen, Ändern und Anordnen von Folien bis hin zur Verwaltung von Text, Bildern und Multimediaelementen bieten diese Tutorials eine schrittweise Reise in die Welt der dynamischen Präsentationserstellung und -anpassung. Egal, ob Sie Präsentationsaufgaben automatisieren, Berichte erstellen oder interaktive Diashows erstellen, diese Tutorials vermitteln Entwicklern das Wissen, um Aspose.Slides effektiv einzusetzen.
 
 ## Präsentationsmanipulation
@@ -55,9 +51,3 @@ Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET in 
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine SVG-Konvertierung für Präsentationen durchführen. Diese umfassende Anleitung enthält Schritt-für-Schritt-Anleitungen, Quellcodebeispiele und verschiedene SVG-Konvertierungsoptionen.
 ### [Formatieren von SVGs in Präsentationen](./formatting-svgs-in-presentations/)
 Optimieren Sie Ihre Präsentationen mit atemberaubenden SVGs mithilfe von Aspose.Slides für .NET. Erfahren Sie Schritt für Schritt, wie Sie SVGs für eindrucksvolle visuelle Darstellungen formatieren. Verbessern Sie noch heute Ihre Präsentationsleistung! 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

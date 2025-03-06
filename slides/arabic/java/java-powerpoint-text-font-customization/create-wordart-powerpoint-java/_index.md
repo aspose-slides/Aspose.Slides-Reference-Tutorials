@@ -3,14 +3,10 @@ title: إنشاء WordArt في PowerPoint باستخدام Java
 linktitle: إنشاء WordArt في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء WordArt جذاب في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. برنامج تعليمي خطوة بخطوة للمطورين.
+type: docs
 weight: 26
 url: /ar/java/java-powerpoint-text-font-customization/create-wordart-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد إنشاء عروض تقديمية ديناميكية وجذابة بصريًا أمرًا بالغ الأهمية في مجال الاتصالات الرقمية اليوم. يوفر Aspose.Slides for Java أدوات قوية للتعامل مع عروض PowerPoint التقديمية برمجيًا، مما يوفر للمطورين إمكانات واسعة النطاق لتحسين عملية الإنشاء وأتمتتها. في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء WordArt في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides.
 ## المتطلبات الأساسية
@@ -89,9 +85,3 @@ pres.save(resultPath, SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على المساعدة من المجتمع والخبراء في منتديات Aspose[هنا](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

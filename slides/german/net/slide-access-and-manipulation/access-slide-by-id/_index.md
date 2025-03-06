@@ -3,14 +3,10 @@ title: Zugriff auf die Folie über die eindeutige Kennung
 linktitle: Zugriff auf die Folie über die eindeutige Kennung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET über eindeutige Kennungen auf PowerPoint-Folien zugreifen. Diese Schritt-für-Schritt-Anleitung behandelt das Laden von Präsentationen, den Zugriff auf Folien über Index oder ID, das Ändern von Inhalten und das Speichern von Änderungen.
+type: docs
 weight: 11
 url: /de/net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -116,9 +112,3 @@ Auf jeden Fall. Egal, ob Sie an einer einfachen Präsentation mit wenigen Folien
 ### Wo finde ich ausführlichere Dokumentation und Ressourcen?
 
  Ausführliche Dokumentation, Codebeispiele, Tutorials und mehr finden Sie auf Aspose.Slides für .NET im[Dokumentation](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

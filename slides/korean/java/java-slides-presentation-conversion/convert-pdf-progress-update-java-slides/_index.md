@@ -3,14 +3,10 @@ title: Java 슬라이드의 진행률 업데이트를 사용하여 PDF로 변환
 linktitle: Java 슬라이드의 진행률 업데이트를 사용하여 PDF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 Java에서 진행률 업데이트를 사용하여 PowerPoint를 PDF로 변환합니다. 원활한 변환을 위한 소스 코드 및 진행 상황 추적이 포함된 단계별 가이드입니다.
+type: docs
 weight: 36
 url: /ko/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java를 사용하여 Java에서 진행률 업데이트를 사용하여 PowerPoint를 PDF로 변환하는 방법 소개
 
@@ -122,10 +118,3 @@ class ExportProgressHandler implements IProgressCallback
 ### PDF 변환 옵션을 어떻게 사용자 정의할 수 있나요?
 
  PDF 변환 옵션을 수정하여 사용자 정의할 수 있습니다.`PdfOptions` 호출하기 전에 개체를`presentation.save` 방법. 여기에는 페이지 크기, 품질 등과 같은 속성 설정이 포함됩니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

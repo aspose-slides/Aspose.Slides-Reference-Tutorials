@@ -3,14 +3,10 @@ title: Java PowerPoint Özellikleri Yönetimi
 linktitle: Java PowerPoint Özellikleri Yönetimi
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint özelliklerini nasıl yöneteceğinizi keşfedin. Kapsamlı eğitimlerimiz sayesinde özelliklere zahmetsizce erişin, değiştirin ve güncelleyin.
+type: docs
 weight: 21
 url: /tr/java/java-powerpoint-properties-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## giriiş
 
@@ -42,9 +38,3 @@ Aspose.Slides for Java'nın gücünün kilidini açın. Bu eğitimle sunum yöne
 Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrenin. Sunumlarınızı programlı olarak geliştirin.
 ### [Sunum Özelliklerini Yeni Şablonla Güncelleme](./update-presentation-properties-new-template/)
 Aspose.Slides for Java'yı kullanarak sunum özelliklerini nasıl güncelleyeceğinizi öğrenin. Sorunsuz meta veri değişikliğiyle Java projelerinizi geliştirin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java PowerPoint Şekli ve Medya Ekleme
 linktitle: Java PowerPoint Şekli ve Medya Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarına şekil ve medya eklemeyi öğrenin. Öğreticilere satır, ses, OLE nesneleri ve video ekleme dahildir.
+type: docs
 weight: 23
 url: /tr/java/java-powerpoint-shape-media-insertion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## giriiş
 
@@ -57,9 +53,3 @@ Aspose.Slides for Java kullanarak PowerPoint sunumlarına görüntü dolgusu iç
 Aspose.Slides for Java'yı kullanarak video içeriğini PowerPoint sunumlarına nasıl sorunsuz bir şekilde entegre edebileceğinizi öğrenin. Hedef kitlenizin ilgisini çekecek multimedya öğeleri içeren slaytlarınız.
 ### [PowerPoint'te Web Kaynağından Video Çerçevesi Ekleme](./add-video-frame-web-source-powerpoint/)
 Aspose.Slides for Java kullanarak web kaynaklarından video kareleri ekleyerek PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

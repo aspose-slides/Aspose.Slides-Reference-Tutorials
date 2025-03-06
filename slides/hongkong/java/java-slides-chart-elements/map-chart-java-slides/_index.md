@@ -3,14 +3,10 @@ title: Java 投影片中的地圖圖表
 linktitle: Java 投影片中的地圖圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立令人驚嘆的地圖圖表。面向 Java 開發人員的分步指南和原始程式碼。
+type: docs
 weight: 15
 url: /zh-hant/java/chart-elements/map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 使用 Aspose.Slides for Java 介紹 Java 投影片中的地圖圖表
 
@@ -135,9 +131,3 @@ try {
 ### 如何將 Aspose.Slides for Java 整合到我的專案中？
 
 從以下位置下載庫[這裡](https://releases.aspose.com/slides/java/)並將其新增至專案的類別路徑。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

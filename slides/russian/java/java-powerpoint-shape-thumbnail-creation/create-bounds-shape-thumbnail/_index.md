@@ -3,14 +3,10 @@ title: Создать миниатюру формы границ
 linktitle: Создать миниатюру формы границ
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать миниатюры фигур с границами, используя Aspose.Slides для Java. Это пошаговое руководство проведет вас через этот процесс.
+type: docs
 weight: 10
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Aspose.Slides for Java — это мощная библиотека, которая позволяет разработчикам Java программно создавать, манипулировать и конвертировать презентации PowerPoint. В этом уроке мы научимся создавать миниатюрное изображение фигуры с границами, используя Aspose.Slides для Java.
 ## Предварительные условия
@@ -61,9 +57,3 @@ Aspose.Slides для Java поддерживает различные форма
 Да, Aspose.Slides for Java предоставляет обширные функциональные возможности для работы с презентациями PowerPoint, включая манипулирование слайдами, извлечение текста и создание диаграмм.
 ### Доступна ли пробная версия Aspose.Slides для Java?
  Да, вы можете скачать бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

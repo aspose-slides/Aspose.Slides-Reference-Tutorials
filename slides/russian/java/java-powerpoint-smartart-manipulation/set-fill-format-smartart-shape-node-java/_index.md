@@ -3,14 +3,10 @@ title: Установить формат заливки для узла форм
 linktitle: Установить формат заливки для узла формы SmartArt в Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить формат заливки для узлов фигуры SmartArt в Java с помощью Aspose.Slides. Улучшите свои презентации с помощью ярких цветов и захватывающих визуальных эффектов.
+type: docs
 weight: 12
 url: /ru/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В динамичной среде создания цифрового контента Aspose.Slides for Java выделяется как мощный инструмент для простого и эффективного создания визуально потрясающих презентаций. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, овладение искусством манипулирования фигурами на слайдах имеет решающее значение для создания увлекательных презентаций, которые оставят неизгладимое впечатление на вашу аудиторию.
 ## Предварительные условия
@@ -69,9 +65,3 @@ presentation.save(dataDir + "FillFormat_SmartArt_ShapeNode_out.pptx", SaveFormat
 Абсолютно! Aspose.Slides для Java предоставляет широкий спектр возможностей настройки, позволяющих адаптировать внешний вид фигур SmartArt в соответствии с вашими предпочтениями.
 ### Подходит ли Aspose.Slides for Java как новичкам, так и опытным разработчикам?
 Да, Aspose.Slides для Java подходит разработчикам всех уровней квалификации, предлагая интуитивно понятные API и подробную документацию для облегчения интеграции и использования.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

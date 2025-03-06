@@ -3,14 +3,10 @@ title: Duplikat Slide ke Akhir Presentasi yang Ada
 linktitle: Duplikat Slide ke Akhir Presentasi yang Ada
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menduplikasi dan menambahkan slide ke akhir presentasi PowerPoint yang sudah ada menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini memberikan contoh kode sumber dan mencakup pengaturan, duplikasi slide, modifikasi, dan banyak lagi.
+type: docs
 weight: 22
 url: /id/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -100,9 +96,3 @@ Ya, Aspose.Slides mendukung berbagai format PowerPoint, termasuk PPT, PPTX, PPS,
 ### Bisakah saya memodifikasi konten slide menggunakan Aspose.Slides?
 
 Sangat! Aspose.Slides memungkinkan Anda tidak hanya menduplikasi slide tetapi juga memanipulasi kontennya, seperti teks, gambar, bentuk, dan animasi, secara terprogram.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

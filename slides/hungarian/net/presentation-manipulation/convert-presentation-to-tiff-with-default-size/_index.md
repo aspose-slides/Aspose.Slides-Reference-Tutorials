@@ -3,14 +3,10 @@ title: Konvertálja a prezentációt TIFF formátumba az alapértelmezett méret
 linktitle: Konvertálja a prezentációt TIFF formátumba az alapértelmezett mérettel
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat könnyedén prezentációkat TIFF-képekké az alapértelmezett méretükkel az Aspose.Slides for .NET segítségével.
+type: docs
 weight: 27
 url: /hu/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés
 
@@ -90,9 +86,3 @@ Teljesen! Az Aspose.Slides for .NET opciók széles skáláját kínálja a TIFF
 ### Hol találhatok további információt az Aspose.Slides for .NET-ről?
 
  Átfogó dokumentációért és példákért látogassa meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

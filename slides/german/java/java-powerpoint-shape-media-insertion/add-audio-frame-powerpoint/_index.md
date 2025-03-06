@@ -3,14 +3,10 @@ title: Audiorahmen in PowerPoint hinzufügen
 linktitle: Audiorahmen in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Audiorahmen zu PowerPoint-Präsentationen hinzufügen. Werten Sie Ihre Präsentationen mühelos mit ansprechenden Audioelementen auf.
+type: docs
 weight: 12
 url: /de/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Das Anreichern von Präsentationen mit Audioelementen kann deren Wirkung und Engagement deutlich steigern. Mit Aspose.Slides für Java wird das Integrieren von Audioframes in PowerPoint-Präsentationen zu einem nahtlosen Prozess. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess des Hinzufügens von Audioframes zu Ihren Präsentationen mit Aspose.Slides für Java.
 ## Voraussetzungen
@@ -79,9 +75,3 @@ Ja, Sie können PowerPoint-Präsentationen mit eingebetteten Audiorahmen erstell
 Aspose.Slides für Java bietet umfangreiche Anpassungsoptionen, mit denen Sie das Erscheinungsbild des Audioplayers Ihren Wünschen entsprechend anpassen können.
 ### Gibt es eine Testversion von Aspose.Slides für Java?
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides für Java über deren[Webseite](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

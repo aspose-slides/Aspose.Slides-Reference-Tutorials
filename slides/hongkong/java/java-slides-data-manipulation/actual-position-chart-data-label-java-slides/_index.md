@@ -3,14 +3,10 @@ title: 取得 Java 投影片中圖表資料標籤的實際位置
 linktitle: 取得 Java 投影片中圖表資料標籤的實際位置
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 取得 Java Slides 中圖表資料標籤的實際位置。帶有原始程式碼的分步指南。
+type: docs
 weight: 18
 url: /zh-hant/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java投影片中取得圖表資料標籤實際位置簡介
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

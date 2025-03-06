@@ -3,14 +3,10 @@ title: Освоение эффективных данных о световом 
 linktitle: Получение эффективных данных о световом оборудовании на слайдах презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите слайды своей презентации с помощью Aspose.Slides для .NET! Узнайте, как шаг за шагом получить эффективные данные о световой установке. Улучшите свое визуальное повествование прямо сейчас!
+type: docs
 weight: 19
 url: /ru/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Создание динамичных и визуально привлекательных слайдов презентаций является обычным требованием в современную цифровую эпоху. Одним из важных аспектов является управление свойствами светового оборудования для улучшения общей эстетики. Это руководство проведет вас через процесс получения эффективных данных о световом оборудовании в слайдах презентации с использованием Aspose.Slides для .NET.
 ## Предварительные условия
@@ -68,9 +64,3 @@ Aspose.Slides в первую очередь поддерживает языки
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/slides/11).
 ### Могу ли я приобрести временную лицензию на Aspose.Slides для .NET?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

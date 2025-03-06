@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides에서 변경 가능한 하이퍼링크 생성
 linktitle: 가변 하이퍼링크 생성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 변경 가능한 하이퍼링크로 PowerPoint 프레젠테이션을 향상하세요. 이전과는 전혀 다른 방식으로 청중의 참여를 유도하세요!
+type: docs
 weight: 14
 url: /ko/net/hyperlink-manipulation/mutable-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 현대 소프트웨어 개발 세계에서는 대화형 하이퍼링크를 사용하여 역동적인 프레젠테이션을 만드는 것이 청중의 관심을 끄는 데 매우 중요합니다. Aspose.Slides for .NET은 변경 가능한 하이퍼링크 생성을 포함하여 PowerPoint 프레젠테이션을 조작하고 사용자 정의할 수 있는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 변경 가능한 하이퍼링크를 만드는 과정을 안내합니다. 
 
@@ -100,9 +96,3 @@ presentation.Save(dataDir + "presentation-out.pptx", SaveFormat.Pptx);
 
 ### 5. Aspose.Slides for .NET은 대화형 e-러닝 콘텐츠 제작에 적합합니까?
 예, Aspose.Slides for .NET은 하이퍼링크, 퀴즈 및 멀티미디어 요소를 포함한 대화형 e-러닝 콘텐츠를 만드는 데 사용할 수 있는 다목적 도구입니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

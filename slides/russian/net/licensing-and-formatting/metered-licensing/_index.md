@@ -3,14 +3,10 @@ title: Использование лицензий по счетчику
 linktitle: Использование лицензий по счетчику
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как эффективно использовать дозированное лицензирование с Aspose.Slides для .NET. Легко интегрируйте API, платя за фактическое использование.
+type: docs
 weight: 11
 url: /ru/net/licensing-and-formatting/metered-licensing/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET — это мощная библиотека, котор�
 
 ### Есть ли форум для поддержки и обсуждений Aspose.Slides?
  Да, вы можете найти поддержку и участвовать в обсуждениях на форуме Aspose.Slides по адресу[эта ссылка](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

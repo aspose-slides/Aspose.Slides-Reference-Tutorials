@@ -3,14 +3,10 @@ title: Organize Chart Layout Type in SmartArt using Java
 linktitle: Organize Chart Layout Type in SmartArt using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master organizing chart layout types in SmartArt using Java with Aspose.Slides, enhancing presentation visuals effortlessly.
+type: docs
 weight: 13
 url: /java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, we'll walk through the process of organizing chart layout type in SmartArt using Java, specifically leveraging the Aspose.Slides library. SmartArt in presentations can greatly enhance the visual appeal and clarity of your data, making it essential to master its manipulation.
 ## Prerequisites
@@ -59,10 +55,3 @@ Yes, developers can refer to the detailed documentation provided by Aspose.Slide
 Yes, you can access a free trial version of Aspose.Slides to explore its features before making a purchase decision.
 ### Where can I seek support for Aspose.Slides-related queries?
 For any assistance or queries regarding Aspose.Slides, you can visit the support forum [here](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Come rimuovere le note in una diapositiva specifica con Aspose.Slides .NE
 linktitle: Rimuovi le note nella diapositiva specifica
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come rimuovere le note da una diapositiva specifica in PowerPoint utilizzando Aspose.Slides per .NET. Semplifica le tue presentazioni senza sforzo.
+type: docs
 weight: 12
 url: /it/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In questa guida passo passo ti guideremo attraverso il processo di rimozione delle note in una diapositiva specifica in una presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Aspose.Slides è una potente libreria che ti consente di lavorare con i file PowerPoint a livello di codice. Che tu sia uno sviluppatore o qualcuno che desidera automatizzare le attività nelle presentazioni di PowerPoint, questo tutorial ti aiuterà a raggiungere questo obiettivo con facilità.
 
@@ -86,9 +82,3 @@ Sebbene alcune conoscenze di programmazione siano utili, Aspose.Slides fornisce 
 
 ### È disponibile una versione di prova di Aspose.Slides per .NET?
 Sì, puoi esplorare Aspose.Slides scaricando una versione di prova gratuita da[Qui](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

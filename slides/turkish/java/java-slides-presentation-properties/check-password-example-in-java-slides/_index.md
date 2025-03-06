@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Şifre Örneğini Kontrol Edin
 linktitle: Java Slaytlarındaki Şifre Örneğini Kontrol Edin
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java Slides'ta şifreleri nasıl doğrulayacağınızı öğrenin. Adım adım rehberlikle sunum güvenliğini artırın.
+type: docs
 weight: 14
 url: /tr/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Parolayı Kontrol Etme Örneğine Giriş
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Aspose.Slides for Java ile ilgili daha fazla belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java ile ilgili kapsamlı belgeleri Aspose web sitesinde bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

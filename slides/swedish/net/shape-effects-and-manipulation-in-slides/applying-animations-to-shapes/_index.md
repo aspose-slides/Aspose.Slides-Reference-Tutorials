@@ -3,14 +3,10 @@ title: Formanimationer på ett enkelt sätt med Aspose.Slides
 linktitle: Tillämpa animationer på former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa fantastiska presentationer med Aspose.Slides för .NET. Lär dig hur du applicerar animationer på former i den här steg-för-steg-guiden. Höj dina bilder nu!
+type: docs
 weight: 21
 url: /sv/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 en värld av dynamiska presentationer, kan lägga till animationer till former avsevärt förbättra det visuella tilltalandet och engagemanget hos dina bilder. Aspose.Slides för .NET tillhandahåller en kraftfull verktygslåda för att uppnå detta sömlöst. I den här självstudien guidar vi dig genom processen att applicera animationer på former med Aspose.Slides, så att du kan skapa fängslande presentationer som lämnar ett bestående intryck.
 ## Förutsättningar
@@ -85,9 +81,3 @@ Aspose.Slides säkerställer kompatibilitet med olika PowerPoint-versioner, vilk
  Ja, du kan skaffa en licens[här](https://purchase.aspose.com/buy) för att låsa upp Aspose.Slides fulla potential.
 ### Kan jag prova Aspose.Slides innan jag köper?
  Säkert! Använd[gratis provperiod](https://releases.aspose.com/) att uppleva funktionerna i Aspose.Slides innan du gör ett åtagande.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Μετατροπή με επιλογές XPS σε Java Slides
 linktitle: Μετατροπή με επιλογές XPS σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε μορφή XPS σε Java χρησιμοποιώντας το Aspose.Slides. Προσαρμόστε τις επιλογές για μια απρόσκοπτη διαδικασία μετατροπής.
+type: docs
 weight: 34
 url: /el/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη Μετατροπή με επιλογές XPS σε διαφάνειες Java
 
@@ -118,10 +114,3 @@ finally
 ### Πώς μπορώ να χειριστώ τις εξαιρέσεις κατά τη χρήση του Aspose.Slides για Java;
 
 Για να χειριστείτε εξαιρέσεις, μπορείτε να χρησιμοποιήσετε μπλοκ try-catch γύρω από τον κώδικά σας όταν εργάζεστε με το Aspose.Slides. Ανατρέξτε στην τεκμηρίωση για συγκεκριμένες οδηγίες χειρισμού εξαιρέσεων.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

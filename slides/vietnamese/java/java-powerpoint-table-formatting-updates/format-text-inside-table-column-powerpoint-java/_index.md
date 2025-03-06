@@ -3,14 +3,10 @@ title: Định dạng văn bản bên trong cột bảng trong PowerPoint bằng
 linktitle: Định dạng văn bản bên trong cột bảng trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách định dạng văn bản bên trong các cột bảng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn này. Nâng cao bài thuyết trình của bạn theo chương trình.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Bạn đã sẵn sàng bước vào thế giới thuyết trình PowerPoint nhưng có chút thay đổi chưa? Thay vì định dạng thủ công các trang trình bày của bạn, hãy thực hiện một lộ trình hiệu quả hơn bằng cách sử dụng Aspose.Slides cho Java. Hướng dẫn này sẽ hướng dẫn bạn quy trình định dạng văn bản bên trong các cột trong bảng trong bản trình bày PowerPoint theo chương trình. Hãy thắt dây an toàn vì đây sẽ là một chuyến đi thú vị!
 ## Điều kiện tiên quyết
@@ -92,9 +88,3 @@ Tuyệt đối! Aspose.Slides cho phép các tùy chọn định dạng mở r�
  Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
  Kiểm tra[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) để biết ví dụ và hướng dẫn chi tiết.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

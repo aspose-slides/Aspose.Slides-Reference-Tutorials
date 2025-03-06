@@ -3,14 +3,10 @@ title: จัดการแบบอักษรฝังตัวใน Java P
 linktitle: จัดการแบบอักษรฝังตัวใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: จัดการแบบอักษรที่ฝังในงานนำเสนอ Java PowerPoint ได้อย่างง่ายดายด้วย Aspose.Slides คำแนะนำทีละขั้นตอนเพื่อเพิ่มประสิทธิภาพสไลด์ของคุณเพื่อความสม่ำเสมอ
+type: docs
 weight: 11
 url: /th/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในโลกของการนำเสนอที่เปลี่ยนแปลงตลอดเวลา การจัดการแบบอักษรอย่างมีประสิทธิภาพสามารถสร้างความแตกต่างอย่างมากในด้านคุณภาพและความเข้ากันได้ของไฟล์ PowerPoint ของคุณ Aspose.Slides for Java นำเสนอโซลูชันที่ครอบคลุมในการจัดการแบบอักษรที่ฝังไว้ เพื่อให้มั่นใจว่างานนำเสนอของคุณจะดูสมบูรณ์แบบบนอุปกรณ์ทุกชนิด ไม่ว่าคุณจะจัดการกับงานนำเสนอแบบเดิมหรือสร้างงานนำเสนอใหม่ คู่มือนี้จะแนะนำคุณตลอดกระบวนการจัดการแบบอักษรที่ฝังในงานนำเสนอ Java PowerPoint ของคุณโดยใช้ Aspose.Slides มาดำน้ำกันเถอะ!
 ## ข้อกำหนดเบื้องต้น
@@ -108,9 +104,3 @@ Aspose.Slides สำหรับ Java เข้ากันได้กับ JD
 การจัดการแบบอักษรที่ฝังไว้ช่วยให้มั่นใจได้ว่างานนำเสนอของคุณดูสอดคล้องกันบนอุปกรณ์และแพลตฟอร์มต่างๆ และช่วยลดขนาดไฟล์โดยการลบแบบอักษรที่ไม่จำเป็นออก
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  คุณสามารถรับการสนับสนุนจาก[ฟอรั่มการสนับสนุน Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

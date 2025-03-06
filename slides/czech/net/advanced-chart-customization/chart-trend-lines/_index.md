@@ -3,14 +3,10 @@ title: Prozkoumávání trendových linií grafu v Aspose.Slides pro .NET
 linktitle: Graf trendových linií
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: V tomto podrobném průvodci se dozvíte, jak přidat různé čáry trendu do grafů pomocí Aspose.Slides for .NET. Vylepšete své dovednosti vizualizace dat snadno!
+type: docs
 weight: 12
 url: /cs/net/advanced-chart-customization/chart-trend-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ve světě vizualizace a prezentace dat může být začlenění grafů účinným způsobem, jak efektivně předávat informace. Aspose.Slides for .NET poskytuje funkčně bohatou sadu nástrojů pro práci s grafy, včetně možnosti přidávat do grafů trendové čáry. V tomto tutoriálu se ponoříme do procesu přidávání trendových čar do grafu krok za krokem pomocí Aspose.Slides for .NET. 
 
@@ -149,9 +145,3 @@ Aspose.Slides for .NET je všestranná knihovna, která vám umožní snadno vyt
 
 ### Potřebuji dočasnou licenci pro Aspose.Slides pro .NET?
  Můžete získat dočasnou licenci pro Aspose.Slides pro .NET od[tento odkaz](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

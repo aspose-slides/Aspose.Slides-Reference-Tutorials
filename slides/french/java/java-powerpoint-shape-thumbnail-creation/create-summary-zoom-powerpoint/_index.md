@@ -3,14 +3,10 @@ title: Créer un zoom récapitulatif dans PowerPoint
 linktitle: Créer un zoom récapitulatif dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer un zoom récapitulatif dans PowerPoint à l'aide d'Aspose.Slides pour Java avec ce didacticiel complet étape par étape.
+type: docs
 weight: 16
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Bienvenue dans notre didacticiel complet sur la création d'un zoom récapitulatif dans PowerPoint à l'aide d'Aspose.Slides pour Java. Si vous cherchez à ajouter un élément dynamique et interactif à vos présentations, Summary Zoom est une fonctionnalité fantastique. Il vous permet de créer une seule diapositive pouvant zoomer sur différentes sections de votre présentation, offrant ainsi une expérience plus attrayante et plus navigable à votre public.
 Dans ce guide étape par étape, nous vous guiderons tout au long du processus, de la configuration de votre environnement de développement à la création et à la personnalisation d'un cadre de zoom récapitulatif. Que vous soyez un développeur Java chevronné ou tout juste débutant, vous trouverez ce guide facile à suivre et rempli d'informations précieuses.
@@ -111,9 +107,3 @@ Oui, vous pouvez télécharger un essai gratuit d'Aspose.Slides pour Java à par
  Vous pouvez obtenir une licence temporaire auprès du[Page d'achat Aspose](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver plus d’exemples et de support pour Aspose.Slides pour Java ?
  Vous pouvez trouver plus d'exemples et demander de l'aide sur le[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

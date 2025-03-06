@@ -3,14 +3,10 @@ title: Generate Thumbnail from Slide in Notes
 linktitle: Generate Thumbnail from Slide in Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to generate thumbnails from slides in the notes section of your presentation using Aspose.Slides for .NET. Enhance your visual content! 
+type: docs
 weight: 12
 url: /net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In the world of modern presentations, visual content is king. Creating appealing slides is essential for effective communication. One way to enhance your presentations is by generating thumbnails from slides, especially when you want to emphasize specific details or share an overview. Aspose.Slides for .NET is a powerful tool that can help you achieve this seamlessly. In this step-by-step guide, we will walk you through the process of generating thumbnails from slides in the notes section of a presentation using Aspose.Slides for .NET.
 
@@ -118,10 +114,3 @@ Absolutely! Aspose.Slides for .NET provides options for customizing the appearan
 
 ### Where can I get support or further assistance with Aspose.Slides for .NET?
 You can find help and engage with the Aspose community at the [Aspose Support Forum](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

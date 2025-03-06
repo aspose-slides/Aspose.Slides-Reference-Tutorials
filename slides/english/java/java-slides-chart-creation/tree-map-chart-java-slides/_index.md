@@ -3,14 +3,10 @@ title: Tree Map Chart in Java Slides
 linktitle: Tree Map Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Tree Map Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for visualizing hierarchical data.
+type: docs
 weight: 13
 url: /java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Tree Map Chart in Java Slides
 
@@ -156,10 +152,3 @@ Yes, you can create multiple Tree Map charts in a single presentation by followi
 ### How do I save the presentation with the Tree Map chart?
 
 Use the `pres.save()` method to save the presentation with the Tree Map chart in the desired format (e.g., PPTX).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

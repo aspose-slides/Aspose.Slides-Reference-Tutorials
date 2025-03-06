@@ -3,14 +3,10 @@ title: แปลงแต่ละสไลด์ใน Java Slides
 linktitle: แปลงแต่ละสไลด์ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงสไลด์ PowerPoint แต่ละสไลด์เป็น HTML ทีละขั้นตอนพร้อมตัวอย่างโค้ดโดยใช้ Aspose.Slides สำหรับ Java
+type: docs
 weight: 12
 url: /th/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## รู้เบื้องต้นเกี่ยวกับการแปลงแต่ละสไลด์ใน Java Slides
 
@@ -174,9 +170,3 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### ฉันจะจัดการการจัดรูปแบบเพิ่มเติมสำหรับรูปร่างและข้อความภายในสไลด์ได้อย่างไร
 
  คุณสามารถขยาย`CustomFormattingController` คลาสเพื่อจัดการการจัดรูปแบบเฉพาะรูปร่างโดยการนำ`writeShapeStart` และ`writeShapeEnd` วิธีการและการใช้ตรรกะการจัดรูปแบบที่กำหนดเองภายในนั้น
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

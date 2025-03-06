@@ -3,14 +3,10 @@ title: Bagan Corong di Slide Java
 linktitle: Bagan Corong di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Jelajahi Aspose.Slides untuk Java dengan tutorial langkah demi langkah. Buat bagan corong yang menakjubkan dan banyak lagi.
+type: docs
 weight: 14
 url: /id/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Bagan Corong di Slide Java
 
@@ -148,9 +144,3 @@ Anda dapat menangani kesalahan dan pengecualian menggunakan mekanisme penanganan
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Slides untuk Java di[dokumentasi](https://docs.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

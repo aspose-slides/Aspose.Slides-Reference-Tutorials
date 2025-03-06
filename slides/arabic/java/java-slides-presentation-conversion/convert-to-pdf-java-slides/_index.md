@@ -3,14 +3,10 @@ title: تحويل إلى PDF في شرائح جافا
 linktitle: تحويل إلى PDF في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى PDF في Java باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة مع التعليمات البرمجية المصدر والأسئلة الشائعة للتحويل السلس من PowerPoint إلى PDF.
+type: docs
 weight: 25
 url: /ar/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتحويل عرض PowerPoint التقديمي إلى PDF في Java باستخدام Aspose.Slides لـ Java
 
@@ -117,9 +113,3 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

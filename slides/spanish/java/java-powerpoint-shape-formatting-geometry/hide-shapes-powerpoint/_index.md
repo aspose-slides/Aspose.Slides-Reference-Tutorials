@@ -3,14 +3,10 @@ title: Ocultar formas en PowerPoint
 linktitle: Ocultar formas en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo ocultar formas en PowerPoint usando Aspose.Slides para Java con nuestra guía detallada paso a paso. Perfecto para desarrolladores de Java de todos los niveles.
+type: docs
 weight: 27
 url: /es/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 ¡Bienvenido a nuestro tutorial completo sobre cómo ocultar formas en PowerPoint usando Aspose.Slides para Java! Si alguna vez necesitó ocultar formas específicas en sus presentaciones de PowerPoint mediante programación, está en el lugar correcto. Esta guía lo guiará a través de cada paso en un estilo simple y conversacional. Si es un desarrollador experimentado o recién está comenzando con Java, lo tenemos cubierto.
 ## Requisitos previos
@@ -85,9 +81,3 @@ Aspose.Slides está disponible para varios lenguajes de programación, incluidos
  Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Slides?
  Puede obtener apoyo del[Foro de soporte de Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

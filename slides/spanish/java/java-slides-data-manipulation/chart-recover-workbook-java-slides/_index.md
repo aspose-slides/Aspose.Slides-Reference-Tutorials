@@ -3,14 +3,10 @@ title: Libro de trabajo de recuperación de gráficos en diapositivas de Java
 linktitle: Libro de trabajo de recuperación de gráficos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a recuperar libros de trabajo de gráficos en Java Slides con Aspose.Slides. Guía paso a paso para la automatización de PowerPoint.
+type: docs
 weight: 17
 url: /es/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción al libro de trabajo de recuperación de gráficos en diapositivas de Java
 
@@ -113,9 +109,3 @@ Sí, Aspose.Slides para Java ofrece una amplia gama de opciones para trabajar co
 ### ¿Cómo puedo acceder a más documentación de Aspose.Slides para Java?
 
  Para obtener documentación detallada y referencias sobre Aspose.Slides para Java, visite la página de documentación en[aquí](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

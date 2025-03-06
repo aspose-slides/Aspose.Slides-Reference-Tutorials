@@ -3,14 +3,10 @@ title: Java kullanarak SmartArt'ta Grafik Düzeni Türünü Düzenleme
 linktitle: Java kullanarak SmartArt'ta Grafik Düzeni Türünü Düzenleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak SmartArt'ta grafik düzeni türlerini düzenlemede ustalaşın ve sunum görsellerini zahmetsizce geliştirin.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde, özellikle Aspose.Slides kütüphanesinden yararlanarak, Java kullanarak SmartArt'ta grafik düzeni türünü düzenleme sürecini anlatacağız. Sunumlardaki SmartArt, verilerinizin görsel çekiciliğini ve netliğini büyük ölçüde artırabilir, bu da verilerinizin işlenmesinde ustalaşmayı önemli hale getirir.
 ## Önkoşullar
@@ -59,9 +55,3 @@ Evet, geliştiriciler Aspose.Slides for Java tarafından sağlanan, işlevleri v
 Evet, satın alma kararını vermeden önce özelliklerini keşfetmek için Aspose.Slides'ın ücretsiz deneme sürümüne erişebilirsiniz.
 ### Aspose.Slides ile ilgili sorgular için nereden destek alabilirim?
  Aspose.Slides ile ilgili her türlü yardım veya sorularınız için destek forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

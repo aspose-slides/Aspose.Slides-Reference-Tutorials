@@ -3,14 +3,10 @@ title: Aspose.Slides を使用してスライドのコメントにアクセス�
 linktitle: スライドのコメントにアクセス
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションのスライド コメントにアクセスする方法を学びます。コラボレーションとワークフローを簡単に強化します。
+type: docs
 weight: 11
 url: /ja/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 動的でインタラクティブなプレゼンテーションの世界では、スライド内のコメントの管理はコラボレーション プロセスの重要な部分になります。Aspose.Slides for .NET は、スライドのコメントにアクセスして操作するための強力で多用途なソリューションを提供し、プレゼンテーションのワークフローを強化します。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してスライドのコメントにアクセスするプロセスを詳しく説明します。
 
@@ -116,9 +112,3 @@ Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーション
 
 ### Aspose.Slides for .NET のライセンスを購入できますか?
 はい、Aspose.Slides for .NETのライセンスは以下からご購入いただけます。[このリンク](https://purchase.aspose.com/buy)プロジェクトでライブラリの可能性を最大限に引き出します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

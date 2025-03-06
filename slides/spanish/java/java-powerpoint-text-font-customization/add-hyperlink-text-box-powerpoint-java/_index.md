@@ -3,14 +3,10 @@ title: Agregar hipervínculo al cuadro de texto en PowerPoint usando Java
 linktitle: Agregar hipervínculo al cuadro de texto en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar hipervínculos a cuadros de texto de PowerPoint usando Aspose.Slides para Java. Guía paso a paso con ejemplos para desarrolladores de Java.
+type: docs
 weight: 23
 url: /es/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En la era digital actual, crear presentaciones dinámicas que atraigan e informen es crucial para una comunicación efectiva. Los desarrolladores de Java que buscan mejorar sus aplicaciones con características interactivas a menudo recurren a Aspose.Slides para Java, una poderosa biblioteca que permite la manipulación de presentaciones de PowerPoint mediante programación. Este tutorial profundiza en una de esas características: agregar hipervínculos a cuadros de texto en presentaciones de PowerPoint usando Java. Al final de esta guía, comprenderá claramente cómo implementar esta funcionalidad sin problemas en sus aplicaciones Java.
 ## Requisitos previos
@@ -80,9 +76,3 @@ Siguiendo estos pasos, habrá aprendido con éxito cómo agregar hipervínculos 
  Sí, hay licencias temporales disponibles para su compra.[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Aspose.Slides es compatible con otras bibliotecas de Java?
 Aspose.Slides se integra bien con varias bibliotecas de Java para una manipulación integral de PowerPoint.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

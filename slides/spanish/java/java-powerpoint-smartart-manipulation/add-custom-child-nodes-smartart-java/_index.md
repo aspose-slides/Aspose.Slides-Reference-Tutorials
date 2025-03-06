@@ -3,14 +3,10 @@ title: Agregue nodos secundarios personalizados en SmartArt usando Java
 linktitle: Agregue nodos secundarios personalizados en SmartArt usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar nodos secundarios personalizados a SmartArt en presentaciones de PowerPoint usando Java con Aspose.Slides. Mejore sus diapositivas con gráficos profesionales sin esfuerzo.
+type: docs
 weight: 11
 url: /es/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 SmartArt es una potente característica de PowerPoint que permite a los usuarios crear gráficos de aspecto profesional de forma rápida y sencilla. En este tutorial, aprenderemos cómo agregar nodos secundarios personalizados a SmartArt usando Java con Aspose.Slides.
 ## Requisitos previos
@@ -83,9 +79,3 @@ Aspose.Slides para Java está diseñado para funcionar a la perfección con dife
 Sí, puede encontrar documentación completa y acceso a foros de soporte de la comunidad en el sitio web de Aspose.
 ### ¿Existe una versión de prueba disponible para Aspose.Slides para Java?
  Sí, puede descargar una versión de prueba gratuita de Aspose.Slides para Java desde el sitio web para explorar sus características y capacidades antes de realizar una compra.[aquí](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

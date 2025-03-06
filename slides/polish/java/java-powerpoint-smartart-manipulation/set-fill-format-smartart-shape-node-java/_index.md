@@ -3,14 +3,10 @@ title: Ustaw format wypełnienia dla węzła kształtu SmartArt w Javie
 linktitle: Ustaw format wypełnienia dla węzła kształtu SmartArt w Javie
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić format wypełnienia dla węzłów kształtu SmartArt w Javie przy użyciu Aspose.Slides. Wzbogać swoje prezentacje żywymi kolorami i urzekającymi efektami wizualnymi.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dynamicznym środowisku tworzenia treści cyfrowych Aspose.Slides for Java wyróżnia się jako potężne narzędzie do tworzenia oszałamiających wizualnie prezentacji z łatwością i wydajnością. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, opanowanie sztuki manipulowania kształtami na slajdach ma kluczowe znaczenie dla tworzenia urzekających prezentacji, które pozostawią trwałe wrażenie na odbiorcach.
 ## Warunki wstępne
@@ -69,9 +65,3 @@ Możesz znaleźć obszerne zasoby wsparcia, w tym fora i dokumentację, na stron
 Absolutnie! Aspose.Slides for Java zapewnia szeroką gamę opcji dostosowywania, aby dostosować wygląd kształtów SmartArt zgodnie z własnymi preferencjami.
 ### Czy Aspose.Slides dla Java jest odpowiedni zarówno dla początkujących, jak i doświadczonych programistów?
 Tak, Aspose.Slides for Java jest przeznaczony dla programistów na wszystkich poziomach umiejętności, oferując intuicyjne interfejsy API i obszerną dokumentację ułatwiającą łatwą integrację i użytkowanie.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

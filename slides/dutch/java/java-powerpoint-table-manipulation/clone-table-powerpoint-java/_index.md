@@ -3,14 +3,10 @@ title: Kloontabel in PowerPoint met Java
 linktitle: Kloontabel in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tabellen in PowerPoint kunt klonen met Aspose.Slides voor Java met onze gedetailleerde, stapsgewijze handleiding. Vereenvoudig uw presentatiebeheer.
+type: docs
 weight: 12
 url: /nl/java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het maken en beheren van PowerPoint-presentaties kan een hele klus zijn, vooral als u inhoud programmatisch moet manipuleren. Met Aspose.Slides voor Java wordt dit proces echter veel eenvoudiger. Deze tutorial begeleidt u bij het klonen van tabellen in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java, een krachtige bibliotheek voor het uitvoeren van verschillende presentatietaken.
 ## Vereisten
@@ -123,9 +119,3 @@ Ja, Aspose.Slides ondersteunt verschillende formaten, waaronder PPT, PPTX en mee
  Ja, voor productiegebruik heeft u een licentie nodig. U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  U kunt ondersteuning krijgen van de Aspose.Slides[Helpforum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Presentatie-eigenschappen bijwerken met een andere presentatie als sjablo
 linktitle: Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter PowerPoint-presentaties met bijgewerkte metadata met Aspose.Slides voor Java. Leer eigenschappen zoals auteur, titel en trefwoorden bijwerken met behulp van sjablonen in Java Slides.
+type: docs
 weight: 14
 url: /nl/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het bijwerken van presentatie-eigenschappen met een andere presentatie als sjabloon in Java-dia's
 
@@ -126,9 +122,3 @@ Ja, u kunt de code aanpassen om specifieke eigenschappen bij te werken op basis 
 ### Geldt er een beperking voor het type presentaties dat kan worden bijgewerkt?
 
 Nee, u kunt eigenschappen bijwerken voor presentaties in verschillende indelingen, waaronder PPTX, ODP en PPT.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java Slaytlarında Halka Grafik Deliği
 linktitle: Java Slaytlarında Halka Grafik Deliği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slaytlarında Özel Delik Boyutlarına sahip Halka Grafikleri oluşturun. Grafik özelleştirmesi için kaynak kodlu adım adım kılavuz.
+type: docs
 weight: 11
 url: /tr/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Delikli Halka Grafiğine Giriş
 
@@ -98,9 +94,3 @@ finally
 ### Grafiğe başlık eklemek mümkün mü?
 
  Kesinlikle! kullanarak grafiğe bir başlık ekleyebilirsiniz.`setTitle` konusundaki yöntem`IChart` nesne ve istenen başlık metninin sağlanması.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

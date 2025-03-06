@@ -3,14 +3,10 @@ title: Stijlvolle notitieopmaak toevoegen met Aspose.Slides voor .NET
 linktitle: Voeg notities toe met stijlvolle notitieopmaak
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u stijlvolle notitieopmaak aan uw PowerPoint-presentaties kunt toevoegen met Aspose.Slides voor .NET. Verbeter uw dia's met symbolen en opsommingstekens.
+type: docs
 weight: 14
 url: /nl/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van presentaties gaat het niet alleen om de inhoud die u levert, maar ook om de manier waarop u deze presenteert. Een stijlvolle opmaak van notities kan een groot verschil maken in de impact van uw presentatie. Met Aspose.Slides voor .NET kunt u uw PowerPoint-presentaties eenvoudig verbeteren door stijlvolle notities met opsommingstekens en symbolen toe te voegen. In deze stapsgewijze handleiding begeleiden we u bij het toevoegen van stijlvolle notitieopmaak aan uw PowerPoint-dia's.
 
@@ -113,9 +109,3 @@ Ja, u kunt een tijdelijke licentie voor test- en evaluatiedoeleinden verkrijgen 
 
 ### Is er een communityforum of ondersteuning beschikbaar voor Aspose.Slides voor .NET?
  Ja, u kunt hulp zoeken en deelnemen aan discussies op het Aspose.Slides for .NET-communityforum[hier](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: PowerPoint에서 서식 있는 타원 만들기
 linktitle: PowerPoint에서 서식 있는 타원 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 자세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 형식화된 타원을 만드는 방법을 알아보세요.
+type: docs
 weight: 17
 url: /ko/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Aspose.Slides for Java를 사용하여 PowerPoint에서 형식화된 타원을 만드는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Slides는 개발자가 PowerPoint 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 슬라이드 생성을 자동화하든 사용자 정의 모양으로 프레젠테이션을 향상시키든 이 가이드는 모든 단계를 안내하여 완벽하게 서식이 지정된 타원을 슬라이드에 쉽게 추가할 수 있도록 도와줍니다. 자세히 알아보고 이를 어떻게 달성할 수 있는지 살펴보겠습니다!
 ## 전제 조건
@@ -99,9 +95,3 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  Aspose.Slides for Java에서 자세한 문서를 찾을 수 있습니다.[문서 페이지](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides에 대한 지원이 제공됩니까?
  예, Aspose는 다음을 통해 지원을 제공합니다.[법정](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

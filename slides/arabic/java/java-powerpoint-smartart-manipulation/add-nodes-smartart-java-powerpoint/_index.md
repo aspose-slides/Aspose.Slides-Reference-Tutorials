@@ -3,14 +3,10 @@ title: إضافة العقد إلى SmartArt في Java PowerPoint
 linktitle: إضافة العقد إلى SmartArt في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة عقد SmartArt إلى عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم عروض Java PowerPoint التقديمية، يمكن أن يؤدي التعامل مع عقد SmartArt إلى تحسين المظهر المرئي وفعالية الشرائح بشكل كبير. يقدم Aspose.Slides for Java حلاً قويًا لمطوري Java لدمج وظائف SmartArt بسلاسة في عروضهم التقديمية. في هذا البرنامج التعليمي، سنتعمق في عملية إضافة العقد إلى SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -75,9 +71,3 @@ pres.save(dataDir + "AddSmartArtNode_out.pptx", SaveFormat.Pptx);
 نعم، يوفر Aspose.Slides for Java مجموعة شاملة من الميزات لمعالجة PowerPoint، بما في ذلك إنشاء الشرائح والرسوم المتحركة وإدارة الأشكال.
 ### أين يمكنني طلب المساعدة أو الدعم بخصوص Aspose.Slides for Java؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع أو استكشاف الوثائق للحصول على إرشادات مفصلة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

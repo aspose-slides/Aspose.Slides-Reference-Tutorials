@@ -3,14 +3,10 @@ title: Vytvoření miniatury s hranicemi pro tvar v Aspose.Slides
 linktitle: Vytvoření miniatury s hranicemi pro tvar v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Odemkněte sílu Aspose.Slides pro .NET! Naučte se snadno vytvářet miniatury tvarů s ohraničením pomocí našeho podrobného průvodce.
+type: docs
 weight: 10
 url: /cs/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Pokud jste vývojář .NET, který hledá robustní řešení pro vytváření miniatur obrázků s ohraničením tvarů v prezentacích PowerPoint, Aspose.Slides for .NET je váš oblíbený nástroj. Tato výkonná knihovna poskytuje bezproblémovou integraci a umožňuje vám efektivně manipulovat a extrahovat cenné informace ze souborů PowerPoint. V tomto tutoriálu si projdeme proces vytváření miniatury s hranicemi pro tvar pomocí Aspose.Slides.
 ## Předpoklady
@@ -64,9 +60,3 @@ Ano, Aspose.Slides je pravidelně aktualizován, aby byla zajištěna kompatibil
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) spojit se s komunitou a vyhledat pomoc od zkušených vývojářů.
 ### Mohu získat dočasnou licenci pro Aspose.Slides?
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro potřeby krátkodobých projektů.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

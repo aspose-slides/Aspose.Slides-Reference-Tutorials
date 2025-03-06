@@ -3,14 +3,10 @@ title: Obtenga datos efectivos de bisel de forma en PowerPoint
 linktitle: Obtenga datos efectivos de bisel de forma en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo recuperar datos efectivos de bisel de forma en PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con impresionantes efectos visuales.
+type: docs
 weight: 26
 url: /es/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En las presentaciones comerciales modernas, el atractivo visual juega un papel crucial a la hora de transmitir información de forma eficaz. Uno de los elementos que puede potenciar el impacto visual de las formas en las presentaciones de PowerPoint es el efecto de bisel. Aspose.Slides para Java proporciona potentes herramientas para acceder y manipular diversas propiedades de las formas, incluidos sus efectos de bisel. En este tutorial, lo guiaremos a través del proceso de recuperación de datos efectivos de bisel de forma usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -62,9 +58,3 @@ Aspose.Slides garantiza la compatibilidad con varias versiones de PowerPoint, lo
 Por supuesto, usted tiene control total sobre las propiedades del efecto de bisel y puede personalizarlas según sus requisitos.
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Slides?
  Puedes visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para cualquier pregunta, soporte o recursos adicionales.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

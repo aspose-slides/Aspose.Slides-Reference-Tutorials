@@ -3,14 +3,10 @@ title: Ορίστε την εσοχή παραγράφου στο Java PowerPoin
 linktitle: Ορίστε την εσοχή παραγράφου στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε εσοχές παραγράφου στις διαφάνειες του PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη μορφοποίηση της παρουσίασής σας χωρίς κόπο.
+type: docs
 weight: 16
 url: /el/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χειρίζεστε τις παρουσιάσεις του PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Συγκεκριμένα, θα επικεντρωθούμε στον ορισμό εσοχών παραγράφων μέσα σε διαφάνειες. Το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο API που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν, να μετατρέπουν και να διαχειρίζονται παρουσιάσεις PowerPoint χωρίς να βασίζονται στον Αυτοματισμό του Microsoft Office.
 ## Προαπαιτούμενα
@@ -89,9 +85,3 @@ pres.save(dataDir + "IndentedPresentation.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να λάβετε δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από το φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

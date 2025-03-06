@@ -3,14 +3,10 @@ title: Update Presentation Properties with New Template
 linktitle: Update Presentation Properties with New Template
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to update presentation properties using Aspose.Slides for Java. Enhance your Java projects with seamless metadata modification.
+type: docs
 weight: 13
 url: /java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the realm of Java development, Aspose.Slides stands as a powerful tool for manipulating PowerPoint presentations programmatically. With its Java library, developers can automate tasks such as creating, modifying, and converting presentations, making it an invaluable asset for businesses and individuals alike. However, harnessing the full potential of Aspose.Slides requires a solid understanding of its functionalities and how to integrate them into your Java projects effectively. In this tutorial, we'll delve into updating presentation properties using a new template, step by step, ensuring that you grasp each concept thoroughly.
 ## Prerequisites
@@ -79,10 +75,3 @@ Indeed, Aspose.Slides offers enterprise-grade features and reliability, making i
 Certainly, Aspose.Slides offers extensive customization options for presentation properties, allowing you to tailor them to your specific requirements.
 ### Where can I find additional support and resources for Aspose.Slides?
 You can explore the Aspose.Slides documentation, join the community forums, or reach out to Aspose support for any assistance or inquiries.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

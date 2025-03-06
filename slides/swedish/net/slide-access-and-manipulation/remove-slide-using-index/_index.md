@@ -3,14 +3,10 @@ title: Radera bild för sekventiellt index
 linktitle: Radera bild för sekventiellt index
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du raderar PowerPoint-bilder steg för steg med Aspose.Slides för .NET. Vår guide ger tydliga instruktioner och fullständig källkod för att hjälpa dig att programmatiskt ta bort bilder efter deras sekventiella index.
+type: docs
 weight: 24
 url: /sv/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Erase Slide by Sequential Index
 
@@ -90,9 +86,3 @@ Absolut, du kan radera bilder baserat på förhållanden som bildinnehåll, ante
 ### Hur lär jag mig mer om Aspose.Slides för .NET?
 
  Du kan utforska den detaljerade dokumentationen och API-referensen för Aspose.Slides för .NET på[dokumentationssida](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

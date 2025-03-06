@@ -3,14 +3,10 @@ title: Akses dan Manipulasi Slide
 linktitle: Akses dan Manipulasi Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi tutorial komprehensif tentang akses dan manipulasi slide menggunakan Aspose.Slides untuk .NET. Belajar membuat, memodifikasi, dan menyempurnakan presentasi secara terprogram.
+type: docs
 weight: 10
 url: /id/net/slide-access-and-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan:
 
 Selamat datang di dunia manipulasi presentasi dinamis dengan Aspose.Slides untuk .NET! Kumpulan tutorial ini adalah kunci Anda untuk membuka potensi penuh Aspose.Slides API, menawarkan alat dan pengetahuan untuk mengakses dan memanipulasi slide dalam aplikasi .NET Anda dengan lancar. Dari membuat presentasi yang menawan hingga menerapkan modifikasi yang rumit, tutorial ini memberi Anda peta jalan yang komprehensif. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan Anda dengan Aspose.Slides, panduan langkah demi langkah dan contoh kode kami akan memberdayakan Anda untuk memanfaatkan kekuatan slide untuk penyampaian cerita visual yang berdampak. Bergabunglah bersama kami saat kami memulai perjalanan ke dunia akses dan manipulasi slide, menjelajahi kemampuan yang dihadirkan Aspose.Slides ke ujung jari Anda.
@@ -48,9 +44,3 @@ Pelajari cara menyesuaikan posisi slide dalam presentasi menggunakan Aspose.Slid
 Pelajari cara menghapus slide PowerPoint langkah demi langkah menggunakan Aspose.Slides untuk .NET. Panduan kami memberikan instruksi yang jelas dan kode sumber lengkap untuk membantu Anda menghapus slide secara terprogram berdasarkan indeks berurutannya.
 ### [Hapus Slide melalui Referensi](./remove-slide-using-reference/)
 Pelajari cara menghapus slide secara terprogram dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Sederhanakan manipulasi presentasi dengan panduan langkah demi langkah ini.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

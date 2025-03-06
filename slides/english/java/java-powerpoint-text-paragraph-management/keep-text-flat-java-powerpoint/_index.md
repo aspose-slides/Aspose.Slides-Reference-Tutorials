@@ -3,14 +3,10 @@ title: Keep Text Flat in Java PowerPoint
 linktitle: Keep Text Flat in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to keep text flat in Java PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide for efficient text manipulation.
+type: docs
 weight: 11
 url: /java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the realm of Java-based PowerPoint manipulation, Aspose.Slides for Java stands tall as a robust and versatile toolset. Whether you're a seasoned developer or a newcomer seeking to enhance your presentations programmatically, Aspose.Slides for Java offers a comprehensive set of features to create, modify, and manage PowerPoint presentations seamlessly. This tutorial dives into a specific functionality: keeping text flat within PowerPoint slides using Aspose.Slides for Java. By following this guide, you'll learn how to manipulate text formatting to achieve precise presentation outcomes.
 ## Prerequisites
@@ -68,10 +64,3 @@ Visit [here](https://releases.aspose.com/) to download a free trial.
 Yes, you can purchase a license [here](https://purchase.aspose.com/buy).
 ### Where can I get community support for Aspose.Slides for Java?
 Join the Aspose.Slides community forum [here](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

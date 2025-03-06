@@ -3,14 +3,10 @@ title: Vormgeometrie en positionering in dia's met Aspose.Slides
 linktitle: Vormgeometrie en positionering in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw vaardigheden op het gebied van diamanipulatie met Aspose.Slides-tutorials over vormgeometrie en positionering in dia's. Leer vormen, hun afmetingen en uitlijning programmatisch te beheren.
+type: docs
 weight: 13
 url: /nl/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering
 
@@ -55,9 +51,3 @@ Leer hoe u op een efficiënte manier light rig-gegevens kunt integreren in prese
 Leer hoe u uw presentatiedia's kunt verbeteren met effectieve schuine gegevens met behulp van Aspose.Slides. Een uitgebreide handleiding met stapsgewijze instructies en voorbeeldcode.
 ### [Vormen verbergen in presentatiedia's met Aspose.Slides](./hiding-shapes/)
 Leer hoe u vormen in presentatiedia's kunt verbergen met Aspose.Slides voor .NET. Stapsgewijze handleiding met broncode, veelgestelde vragen en best practices voor dynamische presentaties.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

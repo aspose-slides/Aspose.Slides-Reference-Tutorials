@@ -3,14 +3,10 @@ title: Vormen verbergen in PowerPoint met Aspose.Slides .NET Tutorial
 linktitle: Vormen verbergen in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u vormen in PowerPoint-dia's kunt verbergen met Aspose.Slides voor .NET. Pas presentaties programmatisch aan met deze stapsgewijze handleiding.
+type: docs
 weight: 21
 url: /nl/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van presentaties is maatwerk essentieel. Aspose.Slides voor .NET biedt een krachtige oplossing voor het programmatisch manipuleren van PowerPoint-presentaties. Een veel voorkomende vereiste is de mogelijkheid om specifieke vormen binnen een dia te verbergen. Deze tutorial leidt u door het proces van het verbergen van vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -77,9 +73,3 @@ Absoluut! U kunt de verberglogica aanpassen op basis van verschillende kenmerken
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/)voor testdoeleinden.
 ### Hoe kan ik community-ondersteuning krijgen voor Aspose.Slides?
  Sluit u aan bij de Aspose.Slides-community op de[forum](https://forum.aspose.com/c/slides/11) voor discussies en hulp.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

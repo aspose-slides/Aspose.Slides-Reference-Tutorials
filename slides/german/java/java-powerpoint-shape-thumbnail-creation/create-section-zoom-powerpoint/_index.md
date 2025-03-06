@@ -3,14 +3,10 @@ title: Erstellen eines Abschnittszooms in PowerPoint
 linktitle: Erstellen eines Abschnittszooms in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Abschnittszooms in PowerPoint-Präsentationen erstellen. Verbessern Sie mühelos die Navigation und das Engagement.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung
 In diesem Tutorial beschäftigen wir uns mit der Erstellung von Abschnittszooms in PowerPoint-Präsentationen mit Aspose.Slides für Java. Abschnittszooms sind eine leistungsstarke Funktion, mit der Sie nahtlos durch verschiedene Abschnitte Ihrer Präsentation navigieren können, was sowohl die Organisation als auch das allgemeine Benutzererlebnis verbessert. Indem Sie komplexe Präsentationen in leicht verdauliche Abschnitte aufteilen, können Sie Ihre Botschaft effektiv vermitteln und Ihr Publikum einbeziehen.
@@ -76,9 +72,3 @@ Aspose.Slides für Java unterstützt Abschnittszooms in verschiedenen PowerPoint
 Ja, Sie können mit Aspose.Slides für Java Abschnittszooms zu vorhandenen Präsentationen hinzufügen, indem Sie die in diesem Tutorial beschriebenen Schritte befolgen.
 ### Wo finde ich zusätzlichen Support oder Hilfe zu Aspose.Slides für Java?
  Für zusätzliche Unterstützung oder Hilfe können Sie das Aspose.Slides für Java-Forum besuchen.[Hier](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

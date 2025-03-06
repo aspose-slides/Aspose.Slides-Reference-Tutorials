@@ -3,14 +3,10 @@ title: Java 슬라이드의 개별 범례에 대한 글꼴 속성
 linktitle: Java 슬라이드의 개별 범례에 대한 글꼴 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드의 개별 범례에 대한 사용자 지정 글꼴 스타일, 크기 및 색상으로 PowerPoint 프레젠테이션을 향상하세요.
+type: docs
 weight: 12
 url: /ko/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 개별 범례에 대한 글꼴 속성 소개
 
@@ -117,9 +113,3 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

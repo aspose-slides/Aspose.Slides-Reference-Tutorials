@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中添加上标和下标文本
 linktitle: 在 Java PowerPoint 中添加上标和下标文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中添加上标和下标文本。非常适合增强您的幻灯片。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 创建引人入胜且内容丰富的 PowerPoint 演示文稿通常需要使用上标和下标文本等格式化功能。本教程将指导您使用 Aspose.Slides for Java 将上标和下标文本合并到 Java PowerPoint 演示文稿中。
 ## 先决条件
@@ -93,9 +89,3 @@ Aspose.Slides for Java 是一个强大的库，允许开发人员以编程方式
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 如需支持和讨论，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

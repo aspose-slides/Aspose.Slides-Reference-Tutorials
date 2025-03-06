@@ -3,14 +3,10 @@ title: Δημιουργία Περίληψης Ζουμ στο PowerPoint
 linktitle: Δημιουργία Περίληψης Ζουμ στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε ένα συνοπτικό ζουμ στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
+type: docs
 weight: 16
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με τη δημιουργία ενός συνοπτικού ζουμ στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αν θέλετε να προσθέσετε ένα δυναμικό και διαδραστικό στοιχείο στις παρουσιάσεις σας, το Summary Zoom είναι μια φανταστική δυνατότητα. Σας επιτρέπει να δημιουργήσετε μια ενιαία διαφάνεια που μπορεί να μεγεθύνει σε διαφορετικές ενότητες της παρουσίασής σας, προσφέροντας μια πιο συναρπαστική και πλοηγήσιμη εμπειρία για το κοινό σας.
 Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε σε όλη τη διαδικασία, από τη ρύθμιση του περιβάλλοντος ανάπτυξής σας έως τη δημιουργία και την προσαρμογή ενός πλαισίου περίληψης ζουμ. Είτε είστε έμπειρος προγραμματιστής Java είτε μόλις ξεκινάτε, θα βρείτε αυτόν τον οδηγό εύκολο να ακολουθήσετε και γεμάτο με πολύτιμες πληροφορίες.
@@ -111,9 +107,3 @@ if (pres != null) pres.dispose();
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[Σελίδα αγοράς Aspose](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να βρείτε περισσότερα παραδείγματα και να αναζητήσετε υποστήριξη στο[Φόρουμ υποστήριξης Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

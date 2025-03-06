@@ -3,14 +3,10 @@ title: Erstellung veränderlicher Hyperlinks in Aspose.Slides für .NET
 linktitle: Erstellung veränderlicher Hyperlinks
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre PowerPoint-Präsentationen mit veränderbaren Hyperlinks mithilfe von Aspose.Slides für .NET. Begeistern Sie Ihr Publikum wie nie zuvor!
+type: docs
 weight: 14
 url: /de/net/hyperlink-manipulation/mutable-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der modernen Softwareentwicklung ist die Erstellung dynamischer Präsentationen mit interaktiven Hyperlinks entscheidend, um Ihr Publikum zu fesseln. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie PowerPoint-Präsentationen bearbeiten und anpassen können, einschließlich der Erstellung veränderlicher Hyperlinks. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Erstellung veränderlicher Hyperlinks mit Aspose.Slides für .NET. 
 
@@ -100,9 +96,3 @@ Auf jeden Fall. Aspose.Slides für .NET bietet umfangreiche Optionen zum Anpasse
 
 ### 5. Ist Aspose.Slides für .NET zum Erstellen interaktiver E-Learning-Inhalte geeignet?
 Ja, Aspose.Slides für .NET ist ein vielseitiges Tool, mit dem interaktive E-Learning-Inhalte, einschließlich Hyperlinks, Quizzen und Multimedia-Elementen, erstellt werden können.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

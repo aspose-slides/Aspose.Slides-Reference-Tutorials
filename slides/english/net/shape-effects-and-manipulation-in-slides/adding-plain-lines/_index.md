@@ -3,14 +3,10 @@ title: Adding Plain Lines to Presentation Slides using Aspose.Slides
 linktitle: Adding Plain Lines to Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your PowerPoint presentations in .NET using Aspose.Slides. Follow our step-by-step guide to add plain lines effortlessly.
+type: docs
 weight: 16
 url: /net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Creating engaging and visually appealing PowerPoint presentations often involves incorporating various shapes and elements. If you're working with .NET, Aspose.Slides is a powerful tool that simplifies the process. This tutorial focuses on adding plain lines to presentation slides using Aspose.Slides for .NET. Follow along to enhance your presentations with this easy-to-follow guide.
 ## Prerequisites
@@ -71,10 +67,3 @@ A: Explore the documentation [here](https://reference.aspose.com/slides/net/).
 A: Visit [here](https://purchase.aspose.com/temporary-license/) for temporary licenses.
 ### Q: Facing issues? Where can I get support?
 A: Seek assistance on the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

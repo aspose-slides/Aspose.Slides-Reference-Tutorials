@@ -3,14 +3,10 @@ title: قم بتعيين المصنف الخارجي مع تحديث بيانا�
 linktitle: قم بتعيين المصنف الخارجي مع تحديث بيانات المخطط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين المصنفات الخارجية وتحديث بيانات المخطط في Java Slides باستخدام Aspose.Slides for Java. تعزيز مهاراتك في أتمتة PowerPoint.
+type: docs
 weight: 20
 url: /ar/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتعيين المصنف الخارجي مع تحديث بيانات المخطط في شرائح Java
 
@@ -103,9 +99,3 @@ finally
 ### أين يمكنني العثور على مزيد من الوثائق والموارد الخاصة بـ Aspose.Slides لـ Java؟
 
  للحصول على وثائق مفصلة وموارد إضافية، قم بزيارة وثائق Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

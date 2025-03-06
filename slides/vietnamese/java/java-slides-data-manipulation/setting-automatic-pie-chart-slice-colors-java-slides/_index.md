@@ -3,14 +3,10 @@ title: Đặt màu lát biểu đồ hình tròn tự động trong trang trình
 linktitle: Đặt màu lát biểu đồ hình tròn tự động trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo biểu đồ hình tròn động với các màu lát cắt tự động trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
+type: docs
 weight: 24
 url: /vi/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Thiết lập màu lát biểu đồ hình tròn tự động trong các trang trình bày Java
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Bạn có thể điều chỉnh kích thước phông chữ, độ đậm và kiểu in nghiêng nếu cần.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

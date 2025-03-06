@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में पीडीएफ तक
 linktitle: जावा स्लाइड्स में पीडीएफ तक पहुंच अनुमतियाँ सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java Slides में एक्सेस अनुमतियों के साथ अपने PDF दस्तावेज़ों को सुरक्षित करने का तरीका जानें। यह चरण-दर-चरण मार्गदर्शिका पासवर्ड सुरक्षा और बहुत कुछ को कवर करती है।
+type: docs
 weight: 17
 url: /hi/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में पीडीएफ तक पहुंच अनुमतियाँ सेट करने का परिचय
 
@@ -108,9 +104,3 @@ Aspose.Slides for Java आपके PDF दस्तावेज़ों की
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ यहां से प्राप्त कर सकते हैं[यहाँ](https://reference.aspose.com/slides/java/) इसके अतिरिक्त, आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

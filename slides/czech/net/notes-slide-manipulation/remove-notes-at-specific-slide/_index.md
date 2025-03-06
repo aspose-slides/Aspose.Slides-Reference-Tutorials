@@ -3,14 +3,10 @@ title: Jak odstranit poznámky na konkrétním snímku pomocí Aspose.Slides .NE
 linktitle: Odebrat poznámky na konkrétním snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Přečtěte si, jak odstranit poznámky z konkrétního snímku v PowerPointu pomocí Aspose.Slides for .NET. Zefektivněte své prezentace bez námahy.
+type: docs
 weight: 12
 url: /cs/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 V tomto podrobném průvodci vás provedeme procesem odstraňování poznámek na konkrétním snímku v prezentaci PowerPoint pomocí Aspose.Slides for .NET. Aspose.Slides je výkonná knihovna, která umožňuje programově pracovat se soubory PowerPoint. Ať už jste vývojář nebo někdo, kdo chce automatizovat úkoly v prezentacích PowerPoint, tento výukový program vám toho pomůže snadno dosáhnout.
 
@@ -86,9 +82,3 @@ Zatímco některé znalosti programování jsou užitečné, Aspose.Slides posky
 
 ### Je k dispozici zkušební verze Aspose.Slides pro .NET?
 Ano, Aspose.Slides můžete prozkoumat stažením bezplatné zkušební verze z[tady](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

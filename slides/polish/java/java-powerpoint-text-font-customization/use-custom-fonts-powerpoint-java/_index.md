@@ -3,14 +3,10 @@ title: Używaj niestandardowych czcionek w programie PowerPoint z Javą
 linktitle: Używaj niestandardowych czcionek w programie PowerPoint z Javą
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zintegrować niestandardowe czcionki z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java. Zwiększ atrakcyjność wizualną bez wysiłku.
+type: docs
 weight: 25
 url: /pl/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku przyjrzymy się, jak wykorzystać Aspose.Slides dla Java do ulepszenia prezentacji programu PowerPoint poprzez integrację niestandardowych czcionek. Niestandardowe czcionki mogą znacząco wzbogacić atrakcyjność wizualną slajdów, zapewniając ich idealne dopasowanie do wymagań Twojej marki lub projektu. Omówimy wszystko, od importowania niezbędnych pakietów po wykonanie kroków wymaganych do bezproblemowej integracji niestandardowych czcionek z prezentacjami.
 ## Warunki wstępne
@@ -74,9 +70,3 @@ Upewnij się, że masz odpowiednie licencje na dystrybucję niestandardowych czc
 Aspose.Slides dla Java obsługuje szeroką gamę niestandardowych czcionek i nie ma żadnych nieodłącznych ograniczeń narzuconych przez bibliotekę.
 ### Czy mogę osadzić niestandardowe czcionki bezpośrednio w pliku PowerPoint przy użyciu Aspose.Slides dla Java?
 Tak, Aspose.Slides for Java umożliwia osadzanie niestandardowych czcionek w samym pliku prezentacji w celu bezproblemowej dystrybucji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

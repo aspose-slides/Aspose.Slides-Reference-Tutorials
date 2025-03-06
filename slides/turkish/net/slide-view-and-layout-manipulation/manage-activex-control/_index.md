@@ -3,14 +3,10 @@ title: PowerPoint'te ActiveX Denetimini Yönetme
 linktitle: PowerPoint'te ActiveX Denetimini Yönetme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını ActiveX kontrolleriyle nasıl geliştireceğinizi öğrenin. Adım adım kılavuzumuz ekleme, değiştirme, özelleştirme, olay işleme ve daha fazlasını kapsar.
+type: docs
 weight: 13
 url: /tr/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ActiveX denetimleri, PowerPoint sunumlarınızın işlevselliğini ve etkileşimini geliştirebilecek güçlü öğelerdir. Bu kontroller, multimedya oynatıcılar, veri giriş formları ve daha fazlası gibi nesneleri doğrudan slaytlarınıza yerleştirmenize ve değiştirmenize olanak tanır. Bu makalede, PowerPoint dosyalarının .NET uygulamalarınızda sorunsuz entegrasyonunu ve manipülasyonunu sağlayan çok yönlü bir kitaplık olan Aspose.Slides for .NET'i kullanarak PowerPoint'te ActiveX kontrollerini nasıl yöneteceğinizi keşfedeceğiz.
 
 ## PowerPoint Slaytlarına ActiveX Denetimleri Ekleme
@@ -153,9 +149,3 @@ ActiveX denetimleri tarafından tetiklenen olayları, ilgili olaylara abone olar
 ### Bir ActiveX denetimini slayttan kaldırabilir miyim?
 
  Evet, ActiveX denetimini slayttan kaldırabilirsiniz.`Remove` yöntemi`Shapes` Toplamak. Referansı şuraya iletin:`IOleObjectFrame` kontrolü bir argüman olarak temsil etmek`Remove` yöntem ve denetim slayttan kaldırılacaktır.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

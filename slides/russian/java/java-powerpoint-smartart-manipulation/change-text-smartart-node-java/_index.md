@@ -3,14 +3,10 @@ title: Изменение текста на узле SmartArt с помощью 
 linktitle: Изменение текста на узле SmartArt с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как обновить текст узла SmartArt в PowerPoint с помощью Java с помощью Aspose.Slides, расширяя возможности настройки презентации.
+type: docs
 weight: 22
 url: /ru/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 SmartArt в PowerPoint — это мощная функция для создания визуально привлекательных диаграмм. Aspose.Slides для Java обеспечивает комплексную поддержку программного управления элементами SmartArt. В этом уроке мы покажем вам процесс изменения текста в узле SmartArt с помощью Java.
 ## Предварительные условия
@@ -64,9 +60,3 @@ presentation.save(dataDir + "ChangeText_On_SmartArt_Node_out.pptx", SaveFormat.P
 Да, Aspose.Slides поддерживает широкий спектр макетов SmartArt, что позволяет вам выбрать тот, который лучше всего соответствует вашим потребностям в презентации.
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Slides?
  Вы можете посетить[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) для получения подробных справок по API и учебных пособий. Кроме того, вы можете обратиться за помощью к[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) или рассмотрите возможность приобретения[временная лицензия](https://purchase.aspose.com/temporary-license/) за профессиональную поддержку.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

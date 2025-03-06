@@ -3,14 +3,10 @@ title: Hiển thị biểu tượng cảm xúc và ký tự đặc biệt trong 
 linktitle: Hiển thị biểu tượng cảm xúc và ký tự đặc biệt trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Cải thiện bản trình bày của bạn bằng biểu tượng cảm xúc bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng thêm nét sáng tạo.
+type: docs
 weight: 14
 url: /vi/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc truyền tải cảm xúc và các ký tự đặc biệt có thể tạo thêm nét sáng tạo và độc đáo. Aspose.Slides for .NET trao quyền cho các nhà phát triển hiển thị liền mạch các biểu tượng cảm xúc và ký tự đặc biệt trong bản trình bày của họ, mở ra một chiều hướng biểu đạt mới. Trong hướng dẫn này, chúng ta sẽ khám phá cách đạt được điều này với hướng dẫn từng bước bằng cách sử dụng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -55,9 +51,3 @@ Aspose.Slides hỗ trợ nhiều loại biểu tượng cảm xúc, bao gồm c�
  Tham gia cộng đồng Aspose.Slides[diễn đàn](https://forum.aspose.com/c/slides/11) để được hỗ trợ và thảo luận.
 ### Tôi có thể sử dụng Aspose.Slides mà không có giấy phép vĩnh viễn không?
  Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

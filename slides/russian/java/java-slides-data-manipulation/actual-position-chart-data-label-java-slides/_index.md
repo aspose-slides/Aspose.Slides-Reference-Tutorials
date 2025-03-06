@@ -3,14 +3,10 @@ title: Получите фактическое положение метки д�
 linktitle: Получите фактическое положение метки данных диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить фактическое положение меток данных диаграммы в слайдах Java с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
+type: docs
 weight: 18
 url: /ru/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в получение фактического положения метки данных диаграммы в слайдах Java
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

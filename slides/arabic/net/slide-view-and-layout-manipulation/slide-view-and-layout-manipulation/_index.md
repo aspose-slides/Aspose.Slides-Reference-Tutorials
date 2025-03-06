@@ -3,14 +3,10 @@ title: عرض الشرائح ومعالجة التخطيط في Aspose.Slides
 linktitle: عرض الشرائح ومعالجة التخطيط في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية التعامل مع طرق عرض الشرائح وتخطيطاتها في PowerPoint باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
+type: docs
 weight: 10
 url: /ar/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في عالم تطوير البرمجيات، يعد إنشاء عروض PowerPoint التقديمية ومعالجتها برمجيًا متطلبًا شائعًا. يوفر Aspose.Slides for .NET مجموعة أدوات قوية تسمح للمطورين بالعمل مع ملفات PowerPoint بسلاسة. أحد الجوانب الحاسمة في العمل مع العروض التقديمية هو عرض الشرائح ومعالجة التخطيط. في هذا الدليل، سوف نتعمق في عملية استخدام Aspose.Slides for .NET لإدارة عروض الشرائح وتخطيطاتها، ونقدم إرشادات خطوة بخطوة وأمثلة التعليمات البرمجية.
 
@@ -136,10 +132,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## خاتمة
 
 يعمل Aspose.Slides for .NET على تبسيط عملية العمل مع عروض PowerPoint التقديمية برمجياً. في هذا الدليل، استكشفنا الخطوات الأساسية لعرض الشرائح ومعالجة التخطيط. من تحميل العروض التقديمية إلى تخصيص محتوى الشرائح، توفر Aspose.Slides مجموعة أدوات قوية للمطورين لإنشاء عروض تقديمية ديناميكية وجذابة دون عناء.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

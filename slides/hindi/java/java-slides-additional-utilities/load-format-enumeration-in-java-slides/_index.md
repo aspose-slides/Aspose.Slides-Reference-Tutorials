@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में प्रारूप ग
 linktitle: जावा स्लाइड्स में प्रारूप गणना लोड करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों के प्रारूप की जाँच करना सीखें। प्रभावी प्रारूप पहचान के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+type: docs
 weight: 14
 url: /hi/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में प्रेजेंटेशन फ़ॉर्मेट लोड करने का परिचय
 
@@ -72,10 +68,3 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### क्या Aspose.Slides for Java व्यावसायिक परियोजनाओं के लिए उपयुक्त है?
 
 हां, Aspose.Slides for Java व्यावसायिक परियोजनाओं के लिए उपयुक्त है। यह जावा अनुप्रयोगों में पावरपॉइंट प्रस्तुतियों के साथ काम करने के लिए सुविधाओं का एक मजबूत सेट प्रदान करता है और वाणिज्यिक और उद्यम दोनों वातावरणों में व्यापक रूप से उपयोग किया जाता है।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

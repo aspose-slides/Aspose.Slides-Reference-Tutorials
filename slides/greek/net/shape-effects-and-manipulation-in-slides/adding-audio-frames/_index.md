@@ -3,14 +3,10 @@ title: Προσθήκη πλαισίων ήχου σε διαφάνειες πα
 linktitle: Προσθήκη πλαισίων ήχου σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις με το Aspose.Slides για .NET! Μάθετε να προσθέτετε απρόσκοπτα καρέ ήχου, προσελκύοντας το κοινό σας όπως ποτέ πριν.
+type: docs
 weight: 14
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η ενσωμάτωση στοιχείων ήχου μπορεί να βελτιώσει σημαντικά τη συνολική εμπειρία για το κοινό σας. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να ενσωματώνουν απρόσκοπτα καρέ ήχου σε διαφάνειες παρουσίασης, προσθέτοντας ένα νέο επίπεδο αφοσίωσης και διαδραστικότητας. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία προσθήκης πλαισίων ήχου σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -67,9 +63,3 @@ pres.Save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) να αναζητήσει βοήθεια και να συνεργαστεί με την κοινότητα.
 ### Πώς μπορώ να αγοράσω Aspose.Slides για .NET;
  Μπορείτε να αγοράσετε τη βιβλιοθήκη από το[Κατάστημα Aspose](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

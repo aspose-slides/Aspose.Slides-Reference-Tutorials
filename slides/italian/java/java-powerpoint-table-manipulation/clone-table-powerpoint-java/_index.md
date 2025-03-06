@@ -3,14 +3,10 @@ title: Clona tabella in PowerPoint con Java
 linktitle: Clona tabella in PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come clonare le tabelle in PowerPoint utilizzando Aspose.Slides per Java con la nostra guida dettagliata passo passo. Semplifica la gestione delle tue presentazioni.
+type: docs
 weight: 12
 url: /it/java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Creare e gestire presentazioni PowerPoint può essere un compito arduo, soprattutto quando è necessario manipolare i contenuti a livello di codice. Tuttavia, con Aspose.Slides per Java, questo processo diventa molto più semplice. Questo tutorial ti guiderà attraverso la clonazione delle tabelle in una presentazione di PowerPoint utilizzando Aspose.Slides per Java, una potente libreria per la gestione di varie attività di presentazione.
 ## Prerequisiti
@@ -123,9 +119,3 @@ Sì, Aspose.Slides supporta vari formati tra cui PPT, PPTX e altri.
  Sì, è necessaria una licenza per l'uso in produzione. È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso ottenere supporto per Aspose.Slides?
  Puoi ottenere supporto da Aspose.Slides[Forum di assistenza](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

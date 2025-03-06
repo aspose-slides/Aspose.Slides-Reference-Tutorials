@@ -3,14 +3,10 @@ title: Vormen vullen met patroon in PowerPoint
 linktitle: Vormen vullen met patroon in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer vormen vullen met patronen in PowerPoint met Aspose.Slides voor Java. Volg onze eenvoudige, stapsgewijze handleiding om uw presentaties visueel te verbeteren.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het creëren van visueel aantrekkelijke presentaties is essentieel om uw publiek te boeien. Een manier om uw PowerPoint-dia's te verbeteren is door vormen met patronen te vullen. In deze zelfstudie doorlopen we de stappen om vormen met patronen te vullen met Aspose.Slides voor Java. Deze handleiding is bedoeld voor ontwikkelaars die de krachtige functies van Aspose.Slides willen benutten om programmatisch verbluffende presentaties te maken.
 ## Vereisten
@@ -98,9 +94,3 @@ Aspose.Slides voor Java is een krachtige API waarmee ontwikkelaars PowerPoint-pr
 Ja, met Aspose.Slides voor Java kunt u bestaande PowerPoint-presentaties openen, bewerken en opslaan.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen van de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

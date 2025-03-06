@@ -3,14 +3,10 @@ title: Normala diagram i Java Slides
 linktitle: Normala diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa normala diagram i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide och källkod för att skapa, anpassa och spara diagram i PowerPoint-presentationer.
+type: docs
 weight: 21
 url: /sv/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till normala diagram i Java Slides
 
@@ -244,9 +240,3 @@ I den här handledningen har vi lärt oss hur man skapar normala diagram i Java 
 ### Hur sparar jag diagrammet i ett annat filformat?
 
  För att spara diagrammet till ett annat filformat, ändra`SaveFormat` parametern i`pres.save()` till önskat format (t.ex. PDF, PNG, JPEG).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

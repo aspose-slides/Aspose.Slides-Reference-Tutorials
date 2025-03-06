@@ -3,14 +3,10 @@ title: प्रस्तुति के भीतर स्लाइडों 
 linktitle: प्रस्तुति के भीतर स्लाइडों की तुलना करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके प्रस्तुतियों में स्लाइड्स की तुलना करना सीखें। सटीक तुलना के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 12
 url: /hi/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## प्रस्तुति में स्लाइडों की तुलना का परिचय
 
@@ -147,9 +143,3 @@ Aspose.Slides for .NET का उपयोग करके प्रस्तु
 ### क्या प्रस्तुति तुलना के प्रदर्शन को अनुकूलित करने के लिए कोई सर्वोत्तम अभ्यास हैं?
 
 हां, कुशल एल्गोरिदम को लागू करना और मेमोरी उपयोग का प्रबंधन करना प्रस्तुति तुलना के प्रदर्शन को अनुकूलित करने के लिए महत्वपूर्ण है।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Xuất các đoạn toán sang MathML trong bài thuyết trình
 linktitle: Xuất các đoạn toán sang MathML trong bài thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bài thuyết trình của bạn bằng cách xuất các đoạn toán học sang MathML bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để kết xuất toán học chính xác. Tải xuống Aspose.Slides và bắt đầu tạo bài thuyết trình hấp dẫn ngay hôm nay.
+type: docs
 weight: 14
 url: /vi/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thế giới thuyết trình hiện đại, nội dung toán học thường đóng vai trò quan trọng trong việc truyền tải những ý tưởng và dữ liệu phức tạp. Nếu bạn đang làm việc với Aspose.Slides cho .NET, bạn thật may mắn! Hướng dẫn này sẽ hướng dẫn bạn quy trình xuất các đoạn văn toán học sang MathML, cho phép bạn tích hợp liền mạch nội dung toán học vào bài thuyết trình của mình. Vì vậy, hãy cùng đi sâu vào thế giới của MathML và Aspose.Slides.
 
@@ -77,10 +73,3 @@ Không, bạn không cần phải là một chuyên gia. Aspose.Slides for .NET 
 Có, bạn có thể dễ dàng tích hợp nội dung MathML vào bản trình bày hiện có của mình bằng Aspose.Slides cho .NET.
 
 Bây giờ bạn đã học cách xuất các đoạn văn toán học sang MathML bằng Aspose.Slides cho .NET, bạn đã sẵn sàng tạo các bài thuyết trình năng động và hấp dẫn có nội dung toán học. Chúc bạn trình bày vui vẻ!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

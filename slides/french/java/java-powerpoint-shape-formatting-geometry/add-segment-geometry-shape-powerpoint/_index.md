@@ -3,14 +3,10 @@ title: Ajouter un segment à la forme géométrique dans PowerPoint
 linktitle: Ajouter un segment à la forme géométrique dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des segments aux formes géométriques dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java avec ce guide détaillé étape par étape.
+type: docs
 weight: 19
 url: /fr/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Créer des présentations attrayantes et dynamiques peut être un défi, surtout lorsque vous souhaitez ajouter des formes et des designs personnalisés. C'est là qu'Aspose.Slides pour Java s'avère utile. Cette API puissante vous permet de manipuler des fichiers PowerPoint par programme, vous offrant ainsi la flexibilité d'ajouter facilement des formes et des segments géométriques complexes. Dans ce didacticiel, nous vous expliquerons comment ajouter des segments aux formes géométriques dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur cherchant à automatiser la création de présentations ou simplement quelqu'un qui aime se plonger dans le codage, ce guide sera votre ressource complète.
 ## Conditions préalables
@@ -82,9 +78,3 @@ Non, Aspose.Slides pour Java est spécialement conçu pour être utilisé avec J
 Vous pouvez ajouter diverses formes, notamment des rectangles, des ellipses, des lignes et des formes géométriques personnalisées.
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
  Vous pouvez bénéficier du soutien du[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) où vous pouvez poser des questions et obtenir de l'aide de la communauté et des développeurs.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

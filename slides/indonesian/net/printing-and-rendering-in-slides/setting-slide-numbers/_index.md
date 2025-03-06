@@ -3,14 +3,10 @@ title: Mengatur Nomor Slide untuk Presentasi menggunakan Aspose.Slides
 linktitle: Mengatur Nomor Slide untuk Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi dunia manipulasi slide yang mulus dengan Aspose.Slides untuk .NET. Pelajari cara mengatur nomor slide dengan mudah, sehingga meningkatkan pengalaman presentasi Anda.
+type: docs
 weight: 16
 url: /id/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, pengendalian urutan dan pengaturan slide sangat penting untuk komunikasi yang efektif. Aspose.Slides for .NET memberikan solusi ampuh untuk memanipulasi nomor slide dalam presentasi Anda, memberi Anda fleksibilitas untuk menyesuaikan konten Anda dengan lancar.
 ## Prasyarat
@@ -67,9 +63,3 @@ Sangat! Aspose.Slides menyediakan opsi ekstensif untuk menyesuaikan tampilan nom
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan berbasis komunitas atau jelajahi opsi dukungan premium.
 ### Bisakah saya mencoba Aspose.Slides sebelum membeli?
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

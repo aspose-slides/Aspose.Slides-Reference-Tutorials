@@ -3,14 +3,10 @@ title: Управление семейством шрифтов в Java PowerPoi
 linktitle: Управление семейством шрифтов в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как управлять семейством шрифтов в презентациях Java PowerPoint с помощью Aspose.Slides для Java. С легкостью настраивайте стили шрифтов, цвета и многое другое.
+type: docs
 weight: 10
 url: /ru/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы рассмотрим, как управлять семейством шрифтов в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Шрифты играют решающую роль в визуальной привлекательности и читабельности ваших слайдов, поэтому важно знать, как эффективно ими манипулировать.
 ## Предварительные условия
@@ -70,9 +66,3 @@ pres.save(dataDir + "pptxFont_out.pptx", SaveFormat.Pptx);
 Да, Aspose.Slides предоставляет API для создания, изменения и управления презентациями PowerPoint полностью с помощью кода.
 ### Доступна ли пробная версия Aspose.Slides для Java?
 Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для Java с сайта[здесь](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

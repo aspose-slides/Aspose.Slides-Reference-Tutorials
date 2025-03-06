@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày Java Slides
 linktitle: Chuyển đổi bản trình bày Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi các bản trình bày trang trình bày Java một cách dễ dàng với Aspose.Slides cho Java. Hướng dẫn toàn diện và hướng dẫn từng bước đang chờ bạn.
+type: docs
 weight: 17
 url: /vi/java/presentation-conversion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Bạn đã sẵn sàng đi sâu vào thế giới chuyển đổi trình bày slide Java chưa? Với sức mạnh của Aspose.Slides cho Java trong tầm tay, bạn sắp bắt đầu một cuộc hành trình giúp bạn có thể chuyển đổi các bài thuyết trình của mình một cách dễ dàng. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết và cung cấp cho bạn những hiểu biết có giá trị để nắm vững nghệ thuật chuyển đổi bản trình bày trang trình bày Java.
 
@@ -91,9 +87,3 @@ Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang định dạ
 Chuyển đổi bản trình bày PowerPoint sang định dạng SWF trong Java bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước của chúng tôi với mã nguồn để chuyển đổi liền mạch.
 ### [Chuyển đổi sang PDF với Cập nhật tiến độ trong Java Slides](./convert-pdf-progress-update-java-slides/)
 Chuyển đổi PowerPoint sang PDF với Cập nhật tiến độ trong Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn và theo dõi tiến trình để chuyển đổi liền mạch.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

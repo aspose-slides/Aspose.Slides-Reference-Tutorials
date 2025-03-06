@@ -3,14 +3,10 @@ title: Java スライドのプロパティの変更にアクセスする
 linktitle: Java スライドのプロパティの変更にアクセスする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのプロパティにアクセスし、変更する方法を学びます。カスタム プロパティを使用してプレゼンテーションを強化します。
+type: docs
 weight: 11
 url: /ja/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでのプロパティの変更へのアクセスの概要
 
@@ -121,9 +117,3 @@ Java の例外処理メカニズムを使用してエラーを処理できます
 ### さらに詳しいドキュメントや例はどこで見つかりますか?
 
  Aspose.Slides for Javaの包括的なドキュメントとコード例は、以下でご覧いただけます。[ここ](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Cập nhật bảng hiện có trong PowerPoint bằng Java
 linktitle: Cập nhật bảng hiện có trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách cập nhật các bảng hiện có trong PowerPoint bằng Java với Aspose.Slides. Bao gồm hướng dẫn từng bước, hướng dẫn chi tiết và Câu hỏi thường gặp.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Cập nhật bảng hiện có trong bản trình bày PowerPoint bằng Java có vẻ như là một nhiệm vụ khó khăn, nhưng với Aspose.Slides cho Java, việc này trở thành một công việc dễ dàng. Hướng dẫn từng bước này sẽ hướng dẫn bạn toàn bộ quá trình, đảm bảo bạn hiểu kỹ từng phần.
 ## Điều kiện tiên quyết
@@ -96,9 +92,3 @@ Có, bạn có thể lặp qua các hàng và cột của bảng để cập nh�
 Có, Aspose.Slides hỗ trợ một số ngôn ngữ lập trình, bao gồm .NET, Python và C++.
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides?
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

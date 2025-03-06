@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में सनबर्स्ट 
 linktitle: जावा स्लाइड्स में सनबर्स्ट चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा स्लाइड्स में शानदार सनबर्स्ट चार्ट बनाएं। चरण-दर-चरण चार्ट निर्माण और डेटा हेरफेर सीखें।
+type: docs
 weight: 16
 url: /hi/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides के साथ जावा स्लाइड्स में सनबर्स्ट चार्ट का परिचय
 
@@ -172,9 +168,3 @@ finally
 ### क्या हाइपरलिंक के साथ इंटरैक्टिव सनबर्स्ट चार्ट बनाना संभव है?
 
 हां, आप विशिष्ट चार्ट तत्वों या खंडों में हाइपरलिंक जोड़कर हाइपरलिंक के साथ इंटरैक्टिव सनबर्स्ट चार्ट बना सकते हैं। हाइपरलिंक जोड़ने के विवरण के लिए Aspose.Slides दस्तावेज़ देखें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

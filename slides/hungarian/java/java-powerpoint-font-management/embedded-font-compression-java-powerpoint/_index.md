@@ -3,14 +3,10 @@ title: Beágyazott betűtípus-tömörítés a Java PowerPointban
 linktitle: Beágyazott betűtípus-tömörítés a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan tömöríthet beágyazott betűtípusokat Java PowerPoint prezentációkban az Aspose.Slides segítségével. Könnyedén optimalizálhatja a fájlméreteket.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A digitális prezentációk dinamikus környezetében a fájlméretek minőségi kompromisszumok nélküli optimalizálása a legfontosabb. Az Aspose.Slides for Java hatékony megoldást kínál a PowerPoint prezentációk hatékonyságának növelésére a beágyazott betűtípus-tömörítés engedélyezésével. Ez az oktatóanyag végigvezeti Önt a funkció kihasználásán, hogy hatékonyan csökkentse a fájlméretet, biztosítva a zökkenőmentesebb terjesztést és a prezentációk jobb teljesítményét.
 ## Előfeltételek
@@ -68,9 +64,3 @@ Igen, az Aspose.Slides titkosítási és jelszavas védelmi funkciókat kínál,
  Biztosan! Támogatást kérhet az Aspose.Slides közösségtől a dedikált webhelyen keresztül[fórum](https://forum.aspose.com/c/slides/11) vagy fontolja meg ideiglenes engedély megszerzését elsőbbségi segítségnyújtáshoz.
 ### Hogyan vásárolhatom meg az Aspose.Slides for Java licencelt verzióját?
 Megvásárolhatja az Aspose.Slides for Java licencelt verzióját a webhelyről a mellékelt eszközök használatával[vásárlás link](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

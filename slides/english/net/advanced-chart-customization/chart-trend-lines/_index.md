@@ -3,14 +3,10 @@ title: Exploring Chart Trend Lines in Aspose.Slides for .NET
 linktitle: Chart Trend Lines
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add various trend lines to charts using Aspose.Slides for .NET in this step-by-step guide. Enhance your data visualization skills with ease!
+type: docs
 weight: 12
 url: /net/advanced-chart-customization/chart-trend-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In the world of data visualization and presentation, incorporating charts can be a powerful way to convey information effectively. Aspose.Slides for .NET provides a feature-rich set of tools to work with charts, including the ability to add trend lines to your charts. In this tutorial, we will delve into the process of adding trend lines to a chart in a step-by-step manner using Aspose.Slides for .NET. 
 
@@ -149,10 +145,3 @@ To purchase Aspose.Slides for .NET, visit the purchase page [here](https://purch
 
 ### Do I need a temporary license for Aspose.Slides for .NET?
 You can obtain a temporary license for Aspose.Slides for .NET from [this link](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

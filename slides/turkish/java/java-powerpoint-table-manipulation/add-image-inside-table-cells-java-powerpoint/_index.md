@@ -3,14 +3,10 @@ title: Java PowerPoint'te Tablo Hücrelerinin İçine Resim Ekleme
 linktitle: Java PowerPoint'te Tablo Hücrelerinin İçine Resim Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak bu ayrıntılı adım adım kılavuzla Java PowerPoint sunumlarında tablo hücrelerinin içine nasıl resim ekleyeceğinizi öğrenin.
+type: docs
 weight: 10
 url: /tr/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Tablo hücrelerine görseller yerleştirerek Java PowerPoint sunumlarınızı geliştirmek istiyorsanız doğru yere geldiniz! Bugün Aspose.Slides for Java'yı kullanarak ayrıntılı, adım adım bir kılavuza bakacağız. Bu eğitim size tüm süreç boyunca yol gösterecek ve acemi birinin bile takip edip çarpıcı sonuçlar elde etmesini sağlayacaktır.
 ## Önkoşullar
@@ -108,9 +104,3 @@ Aspose.Slides, JPEG, PNG, BMP ve daha fazlasını içeren çeşitli görüntü f
  Şuraya başvurabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/java/) Daha detaylı bilgi ve örnekler için.
 ### Aspose.Slides for Java'yı nasıl satın alabilirim?
  adresinden satın alabilirsiniz.[Web sitesi](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Απόκρυψη σχημάτων στο PowerPoint
 linktitle: Απόκρυψη σχημάτων στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκρύπτετε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό οδηγό μας βήμα προς βήμα. Ιδανικό για προγραμματιστές Java όλων των επιπέδων.
+type: docs
 weight: 27
 url: /el/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με την απόκρυψη σχημάτων στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java! Εάν χρειάστηκε ποτέ να αποκρύψετε συγκεκριμένα σχήματα στις παρουσιάσεις σας στο PowerPoint μέσω προγραμματισμού, βρίσκεστε στο σωστό μέρος. Αυτός ο οδηγός θα σας καθοδηγήσει σε κάθε βήμα με απλό, συνομιλητικό στυλ. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με την Java, σας έχουμε καλύψει.
 ## Προαπαιτούμενα
@@ -85,9 +81,3 @@ pres.save(dataDir + "Hiding_Shapes_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Μπορείτε να λάβετε υποστήριξη από το[Φόρουμ υποστήριξης Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

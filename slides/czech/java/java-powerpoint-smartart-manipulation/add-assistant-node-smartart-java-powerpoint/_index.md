@@ -3,14 +3,10 @@ title: Přidejte uzel asistenta k obrázku SmartArt v aplikaci Java PowerPoint
 linktitle: Přidejte uzel asistenta k obrázku SmartArt v aplikaci Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat uzel asistenta k obrázku SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Vylepšete své schopnosti upravovat PowerPoint.
+type: docs
 weight: 17
 url: /cs/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu vás provedeme procesem přidání uzlu asistenta do SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides.
 ## Předpoklady
@@ -74,9 +70,3 @@ Aspose.Slides podporuje verze aplikace PowerPoint od 97-2003 po nejnovější ve
 Ano, vzhled můžete přizpůsobit pomocí různých vlastností a metod poskytovaných Aspose.Slides.
 ### Existuje nějaké omezení počtu uzlů v obrázku SmartArt?
 SmartArt v PowerPointu podporuje velký počet uzlů, ale pro lepší čitelnost se doporučuje ponechat jej v rozumné míře.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

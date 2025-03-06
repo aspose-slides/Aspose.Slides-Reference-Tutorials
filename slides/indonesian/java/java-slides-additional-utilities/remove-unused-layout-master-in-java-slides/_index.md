@@ -3,14 +3,10 @@ title: Hapus Master Tata Letak yang Tidak Digunakan di Slide Java
 linktitle: Hapus Master Tata Letak yang Tidak Digunakan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Hapus Master Tata Letak yang Tidak Digunakan dengan Aspose.Slides. Panduan dan kode langkah demi langkah. Meningkatkan efisiensi presentasi.
+type: docs
 weight: 10
 url: /id/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Menghapus Layout Master yang Tidak Digunakan di Slide Java
 
@@ -127,9 +123,3 @@ Tidak, menghapus master tata letak yang tidak digunakan tidak akan memengaruhi p
 ### Di mana saya dapat mengakses kode sumber yang digunakan dalam artikel ini?
 
 Anda dapat menemukan kode sumber yang digunakan dalam artikel ini dalam cuplikan kode yang disediakan di setiap langkah. Cukup salin dan tempel kode ke proyek Java Anda untuk menerapkan penghapusan master tata letak yang tidak digunakan dalam presentasi Anda.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

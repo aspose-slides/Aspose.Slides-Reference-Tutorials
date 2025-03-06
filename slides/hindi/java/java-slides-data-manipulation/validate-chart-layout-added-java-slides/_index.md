@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में चार्ट लेआ
 linktitle: जावा स्लाइड्स में चार्ट लेआउट को मान्य करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ PowerPoint में चार्ट लेआउट सत्यापन में महारत हासिल करें। शानदार प्रस्तुतियों के लिए प्रोग्रामेटिक रूप से चार्ट में हेरफेर करना सीखें।
+type: docs
 weight: 10
 url: /hi/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java में चार्ट लेआउट को मान्य करने का परिचय
 
@@ -101,10 +97,3 @@ finally
 ### यदि मैं अन्य चार्ट गुणधर्मों को संशोधित करना चाहूँ तो क्या होगा?
 
 आप विभिन्न चार्ट प्रॉपर्टी तक पहुँच सकते हैं और उन्हें अपनी आवश्यकताओं के अनुसार अनुकूलित कर सकते हैं। चार्ट हेरफेर पर व्यापक जानकारी के लिए Aspose.Slides दस्तावेज़ देखें।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

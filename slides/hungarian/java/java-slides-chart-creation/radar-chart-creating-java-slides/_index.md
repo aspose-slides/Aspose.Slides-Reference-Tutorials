@@ -3,14 +3,10 @@ title: Radar diagram létrehozása Java Slides-ben
 linktitle: Radar diagram létrehozása Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre radardiagramokat Java PowerPoint prezentációkban az Aspose.Slides for Java API használatával.
+type: docs
 weight: 10
 url: /hu/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a radardiagram létrehozásába Java Slides programban
 
@@ -272,9 +268,3 @@ Tekintse meg az "5. lépést" a tengelycímkék és a formázás testreszabásá
 ### Hogyan menthetem el a diagramot másik fájlformátumba?
 
 Módosíthatja a kimeneti formátumot a fájl kiterjesztésének módosításával a`outPath` változó és a megfelelő használatával`SaveFormat` . Például PDF formátumban történő mentéshez használja a`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

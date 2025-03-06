@@ -3,14 +3,10 @@ title: Dodawanie stylowego formatowania notatek za pomocą Aspose.Slides dla .NE
 linktitle: Dodaj slajd z notatkami ze stylowym formatowaniem notatek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać stylowe formatowanie notatek do prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Ulepsz swoje slajdy za pomocą symboli i wypunktowań.
+type: docs
 weight: 14
 url: /pl/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 W świecie prezentacji nie chodzi tylko o dostarczaną treść, ale także o sposób jej prezentacji. Stylowe formatowanie notatek może znacząco wpłynąć na efekt Twojej prezentacji. Dzięki Aspose.Slides dla .NET możesz łatwo ulepszyć swoje prezentacje PowerPoint, dodając stylowe notatki z punktorami i symbolami. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania stylowych notatek do slajdów programu PowerPoint.
 
@@ -113,9 +109,3 @@ Tak, możesz uzyskać tymczasową licencję do celów testowania i oceny od[Tuta
 
 ### Czy dostępne jest forum społecznościowe lub wsparcie dla Aspose.Slides dla .NET?
  Tak, możesz szukać pomocy i brać udział w dyskusjach na forum społeczności Aspose.Slides for .NET[Tutaj](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java PowerPoint 属性管理
 linktitle: Java PowerPoint 属性管理
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 属性。通过我们全面的教程轻松访问、修改和更新属性。
+type: docs
 weight: 21
 url: /zh/java/java-powerpoint-properties-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍
 
@@ -42,9 +38,3 @@ url: /zh/java/java-powerpoint-properties-management/
 了解如何使用 Aspose.Slides for Java 修改 PowerPoint 演示文稿中的内置属性。通过编程增强您的演示文稿。
 ### [使用新模板更新演示属性](./update-presentation-properties-new-template/)
 了解如何使用 Aspose.Slides for Java 更新演示文稿属性。通过无缝元数据修改增强您的 Java 项目。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

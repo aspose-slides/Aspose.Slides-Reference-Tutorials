@@ -3,14 +3,10 @@ title: เพิ่มลายเซ็นดิจิทัลลงใน Pow
 linktitle: รองรับลายเซ็นดิจิทัลใน Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ลงนามในงานนำเสนอ PowerPoint อย่างปลอดภัยด้วย Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา ดาวน์โหลดเดี๋ยวนี้เพื่อทดลองใช้ฟรี
+type: docs
 weight: 19
 url: /th/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ลายเซ็นดิจิทัลมีบทบาทสำคัญในการรับรองความถูกต้องและความสมบูรณ์ของเอกสารดิจิทัล Aspose.Slides สำหรับ .NET ให้การสนับสนุนลายเซ็นดิจิทัลที่มีประสิทธิภาพ ช่วยให้คุณสามารถเซ็นชื่อในงานนำเสนอ PowerPoint ของคุณได้อย่างปลอดภัย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มลายเซ็นดิจิทัลให้กับงานนำเสนอของคุณโดยใช้ Aspose.Slides
 ## ข้อกำหนดเบื้องต้น
@@ -66,9 +62,3 @@ Aspose.Slides มีวิธีการตรวจสอบลายเซ็
  เอกสารก็มีให้[ที่นี่](https://reference.aspose.com/slides/net/).
 ### ต้องการความช่วยเหลือหรือมีคำถามเพิ่มเติม?
  เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Tutorial para agregar marcos de fotos con Aspose.Slides .NET
 linktitle: Agregar marcos de fotos con altura de escala relativa en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar marcos de cuadros con altura de escala relativa en Aspose.Slides para .NET. Siga esta guía paso a paso para realizar presentaciones perfectas.
+type: docs
 weight: 17
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrolladores crear, manipular y convertir presentaciones de PowerPoint en sus aplicaciones .NET sin esfuerzo. En este tutorial, profundizaremos en el proceso de agregar marcos de fotos con altura de escala relativa usando Aspose.Slides para .NET. Siga esta guía paso a paso para mejorar sus habilidades de creación de presentaciones.
 ## Requisitos previos
@@ -68,9 +64,3 @@ Aspose.Slides admite principalmente lenguajes .NET, pero puede explorar otros pr
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) buscar ayuda de la comunidad y de los expertos de Aspose.
 ### ¿Dónde puedo comprar Aspose.Slides para .NET?
  Puede comprar Aspose.Slides para .NET desde el[pagina de compra](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

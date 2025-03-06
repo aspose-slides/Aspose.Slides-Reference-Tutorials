@@ -3,14 +3,10 @@ title: Aspose.Slides'ta Şekil Sınırlarıyla Küçük Resim Oluşturma
 linktitle: Aspose.Slides'ta Şekil Sınırlarıyla Küçük Resim Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'in gücünün kilidini açın! Adım adım kılavuzumuzu kullanarak sınırlarla zahmetsizce şekil küçük resimleri oluşturmayı öğrenin.
+type: docs
 weight: 10
 url: /tr/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 PowerPoint sunumlarında şekillerin sınırlarıyla küçük resimler oluşturmak için sağlam bir çözüm arayan bir .NET geliştiricisiyseniz, Aspose.Slides for .NET sizin başvurulacak aracınızdır. Bu güçlü kitaplık, kusursuz entegrasyon sağlayarak PowerPoint dosyalarından değerli bilgileri verimli bir şekilde değiştirmenize ve çıkarmanıza olanak tanır. Bu eğitimde Aspose.Slides'ı kullanarak bir şekil için sınırları olan küçük resim oluşturma sürecini anlatacağız.
 ## Önkoşullar
@@ -64,9 +60,3 @@ Evet, Aspose.Slides, en yeni .NET framework sürümleriyle uyumluluğun sağlanm
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla bağlantı kurmak ve deneyimli geliştiricilerden yardım istemek.
 ### Aspose.Slides için geçici lisans alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Kısa vadeli proje ihtiyaçları için.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

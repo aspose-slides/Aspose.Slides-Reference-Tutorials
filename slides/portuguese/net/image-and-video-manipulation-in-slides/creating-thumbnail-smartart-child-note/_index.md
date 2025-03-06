@@ -3,14 +3,10 @@ title: Criando miniatura para nota infantil SmartArt em Aspose.Slides
 linktitle: Criando miniatura para nota infantil SmartArt em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como criar miniaturas cativantes de notas infantis SmartArt usando Aspose.Slides for .NET. Eleve suas apresentações com recursos visuais dinâmicos!
+type: docs
 weight: 15
 url: /pt/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 No domínio das apresentações dinâmicas, Aspose.Slides for .NET se destaca como uma ferramenta poderosa, fornecendo aos desenvolvedores a capacidade de manipular e aprimorar apresentações do PowerPoint de forma programática. Um recurso intrigante é a capacidade de gerar miniaturas para SmartArt Child Notes, adicionando uma camada de apelo visual às suas apresentações. Este guia passo a passo orientará você no processo de criação de miniaturas para SmartArt Child Notes usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -66,9 +62,3 @@ R: Absolutamente! Aspose.Slides oferece uma variedade de layouts SmartArt, permi
  R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para se envolver com a comunidade, fazer perguntas e encontrar soluções.
 ### P: Posso comprar o Aspose.Slides para .NET?
  R: Certamente! Explore as opções de compra[aqui](https://purchase.aspose.com/buy) para desbloquear todo o potencial do Aspose.Slides em seus projetos.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: การจัดการคุณสมบัติ Java PowerPoint
 linktitle: การจัดการคุณสมบัติ Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ค้นพบวิธีจัดการคุณสมบัติของ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เข้าถึง แก้ไข และอัปเดตคุณสมบัติได้อย่างง่ายดายด้วยบทช่วยสอนที่ครอบคลุมของเรา
+type: docs
 weight: 21
 url: /th/java/java-powerpoint-properties-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## การแนะนำ
 
@@ -42,9 +38,3 @@ url: /th/java/java-powerpoint-properties-management/
 เรียนรู้วิธีปรับเปลี่ยนคุณสมบัติในตัวในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการนำเสนอของคุณโดยทางโปรแกรม
 ### [อัปเดตคุณสมบัติการนำเสนอด้วยเทมเพลตใหม่](./update-presentation-properties-new-template/)
 เรียนรู้วิธีอัปเดตคุณสมบัติการนำเสนอโดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงโปรเจ็กต์ Java ของคุณด้วยการแก้ไขเมตาดาต้าที่ราบรื่น
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 幻灯片中数据点上的图表标记选项
 linktitle: Java 幻灯片中数据点上的图表标记选项
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用自定义图表标记选项优化您的 Java 幻灯片。学习使用 Aspose.Slides for Java 以视觉方式增强数据点。探索分步指导和常见问题解答。
+type: docs
 weight: 14
 url: /zh/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中数据点上的图表标记选项简介
 
@@ -158,9 +154,3 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ### 我可以在哪里访问 Aspose.Slides for Java 文档和下载？
 
 您可以在以下位置找到文档[这里](https://reference.aspose.com/slides/java/)并下载库[这里](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 使用密碼保存 PowerPoint
 linktitle: 使用密碼保存 PowerPoint
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 為 PowerPoint 簡報新增密碼保護。輕鬆固定您的投影片。
+type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將引導您完成使用 Aspose.Slides for Java 使用密碼儲存 PowerPoint 簡報的過程。為簡報新增密碼可以增強其安全性，確保只有授權人員才能存取其內容。
 ## 先決條件
@@ -71,9 +67,3 @@ Aspose.Slides 支援各種 PowerPoint 格式，包括 PPTX、PPT 等。有關相
 是的，您可以從 Aspose 下載免費試用版[網站](https://releases.aspose.com/).
 ### 如何獲得 Aspose.Slides 的技術支援？
 您可以造訪 Aspose.Slides 論壇以獲得社群和 Aspose 支援人員的技術協助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

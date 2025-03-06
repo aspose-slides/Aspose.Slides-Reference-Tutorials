@@ -3,14 +3,10 @@ title: Java PowerPoint フォント管理とテキスト置換
 linktitle: Java PowerPoint フォント管理とテキスト置換
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java PowerPoint のフォント管理とテキスト置換をマスターします。カスタム フォントの読み込み、埋め込みフォントの管理、テキストのシームレスな置換を学習します。
+type: docs
 weight: 27
 url: /ja/java/java-powerpoint-font-management-text-replacement/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 
 フォントとテキスト管理は、洗練されたプロフェッショナルな PowerPoint プレゼンテーションを作成する上で重要な要素です。Aspose.Slides for Java を使用すると、カスタム フォントの読み込み、埋め込みフォントの管理、テキストの効率的な置き換えが簡単に行えます。チュートリアルでは、これらのプロセスをガイドし、プレゼンテーションが視覚的に魅力的で機能的であることを保証します。これらのチュートリアルを調べて、PowerPoint スキルを高めましょう。
@@ -39,9 +35,3 @@ Aspose.Slides を使用すると、Java PowerPoint プレゼンテーション�
 Aspose.Slides で Java を使用して、PowerPoint プレゼンテーションのフォントを簡単に置き換えます。シームレスなフォント移行プロセスについては、詳細なガイドに従ってください。
 ### [Java を使用して PowerPoint のテキストを置換する](./replace-text-powerpoint-java/)
 Aspose.Slides for Java を使用して PowerPoint プレゼンテーション内のテキストを置き換える方法を学びます。このステップ バイ ステップ ガイドに従って、プレゼンテーションの更新を自動化します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

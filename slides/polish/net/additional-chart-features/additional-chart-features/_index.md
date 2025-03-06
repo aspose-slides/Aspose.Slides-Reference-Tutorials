@@ -3,14 +3,10 @@ title: Odkrywanie zaawansowanych funkcji wykresów w Aspose.Slides dla .NET
 linktitle: Dodatkowe funkcje wykresów w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Poznaj zaawansowane funkcje wykresów w Aspose.Slides dla .NET, aby ulepszyć swoje prezentacje PowerPoint. Wyczyść punkty danych, odzyskaj skoroszyty i nie tylko!
+type: docs
 weight: 10
 url: /pl/net/additional-chart-features/additional-chart-features/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 W świecie wizualizacji danych i projektowania prezentacji Aspose.Slides dla .NET wyróżnia się jako potężne narzędzie do tworzenia niesamowitych wykresów i ulepszania prezentacji PowerPoint. Ten przewodnik krok po kroku przeprowadzi Cię przez różne zaawansowane funkcje wykresów oferowane przez Aspose.Slides dla .NET. Niezależnie od tego, czy jesteś programistą, czy entuzjastą prezentacji, ten samouczek pomoże Ci wykorzystać pełny potencjał tej biblioteki.
 
@@ -152,9 +148,3 @@ Tak, możesz używać Aspose.Slides dla .NET do tworzenia wykresów w różnych 
 ### Jak mogę uzyskać wsparcie lub pomoc dotyczącą Aspose.Slides dla .NET?
 
  przypadku jakichkolwiek pytań technicznych lub wsparcia możesz odwiedzić stronę[Forum Aspose.Slides](https://forum.aspose.com/), gdzie możesz znaleźć odpowiedzi na często zadawane pytania i uzyskać pomoc od społeczności.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

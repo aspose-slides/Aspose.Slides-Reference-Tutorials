@@ -3,14 +3,10 @@ title: Wyodrębnij dźwięk z osi czasu programu PowerPoint
 linktitle: Wyodrębnij dźwięk z osi czasu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wyodrębnić dźwięk z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Z łatwością ulepszaj swoje treści multimedialne.
+type: docs
 weight: 13
 url: /pl/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 W świecie prezentacji multimedialnych dźwięk może być potężnym narzędziem do skutecznego przekazywania wiadomości. Aspose.Slides dla .NET oferuje płynne rozwiązanie do wydobywania dźwięku z prezentacji PowerPoint. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić dźwięk z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET.
 
@@ -114,9 +110,3 @@ Tak, Aspose.Slides zapewnia rozbudowane funkcje do manipulacji i edycji dźwięk
 ### 5. Gdzie mogę znaleźć obszerną dokumentację Aspose.Slides dla .NET?
 
  Możesz znaleźć szczegółową dokumentację i przykłady Aspose.Slides dla .NET[Tutaj](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

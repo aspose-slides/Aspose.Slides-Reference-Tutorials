@@ -3,14 +3,10 @@ title: Options de rendu dans PowerPoint
 linktitle: Options de rendu dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment manipuler les options de rendu dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez vos diapositives pour un impact visuel optimal.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous verrons comment exploiter Aspose.Slides pour Java pour manipuler les options de rendu dans les présentations PowerPoint. Que vous soyez un développeur chevronné ou débutant, ce guide vous guidera pas à pas tout au long du processus.
 ## Conditions préalables
@@ -79,9 +75,3 @@ Oui, vous pouvez contrôler la manière dont les animations sont gérées pendan
 Certainement! Aspose.Slides vous permet de définir des arrière-plans personnalisés pour les diapositives avant de les rendre.
 ### Existe-t-il un moyen de restituer des diapositives directement dans un document PDF ?
 Oui, Aspose.Slides fournit des fonctionnalités permettant de convertir directement des présentations PowerPoint en fichiers PDF avec une haute fidélité.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

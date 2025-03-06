@@ -3,14 +3,10 @@ title: Клонировать слайд в одной презентации
 linktitle: Клонировать слайд в одной презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как клонировать слайды в одной презентации PowerPoint с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству с полными примерами исходного кода, чтобы эффективно управлять своими презентациями.
+type: docs
 weight: 21
 url: /ru/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в Aspose.Slides для .NET
 
@@ -109,9 +105,3 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ### Где я могу найти дополнительную информацию об Aspose.Slides для .NET?
 
  Для получения более подробной документации и примеров вы можете посетить[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

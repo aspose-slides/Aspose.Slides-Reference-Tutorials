@@ -3,14 +3,10 @@ title: Java 슬라이드의 SVG 개체에서 이미지 추가
 linktitle: Java 슬라이드의 SVG 개체에서 이미지 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에 SVG 이미지를 추가하는 방법을 알아보세요. 멋진 프레젠테이션을 위한 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 11
 url: /ko/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 SVG 개체에서 이미지 추가 소개
 
@@ -124,9 +120,3 @@ Aspose.Slides for Java는 광범위한 SVG 이미지를 처리할 수 있습니�
 ### 슬라이드에 SVG 이미지를 추가한 후 색상이나 스타일 등 SVG 이미지의 모양을 사용자 정의할 수 있나요?
 
 예, Aspose.Slides for Java의 광범위한 API를 사용하여 SVG 이미지의 모양을 사용자 정의할 수 있습니다. 필요에 따라 색상을 변경하고, 스타일을 적용하고, 기타 조정을 수행할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

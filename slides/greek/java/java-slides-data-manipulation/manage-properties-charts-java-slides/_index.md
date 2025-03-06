@@ -3,14 +3,10 @@ title: Διαχείριση γραφημάτων ιδιοτήτων σε δια�
 linktitle: Διαχείριση γραφημάτων ιδιοτήτων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να δημιουργείτε εντυπωσιακά γραφήματα και να διαχειρίζεστε ιδιότητες σε διαφάνειες Java με το Aspose.Slides. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για ισχυρές παρουσιάσεις.
+type: docs
 weight: 13
 url: /el/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη διαχείριση ιδιοτήτων και γραφημάτων σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides
 
@@ -202,9 +198,3 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### Ποιες άλλες ιδιότητες 3D μπορώ να προσαρμόσω;
 
 Μπορείτε να εξερευνήσετε άλλες τρισδιάστατες ιδιότητες του γραφήματος, όπως το βάθος, την προοπτική και τον φωτισμό, ανατρέχοντας στην τεκμηρίωση Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

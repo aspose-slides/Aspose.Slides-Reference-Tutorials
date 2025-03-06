@@ -3,14 +3,10 @@ title: Java 슬라이드의 슬라이드 쇼 미디어 컨트롤
 linktitle: Java 슬라이드의 슬라이드 쇼 미디어 컨트롤
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 미디어 컨트롤을 활성화하고 사용하는 방법을 알아보세요. 미디어 컨트롤로 프레젠테이션을 향상하세요.
+type: docs
 weight: 11
 url: /ko/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 슬라이드 쇼 미디어 컨트롤 소개
 
@@ -112,9 +108,3 @@ try {
 ### Java Slides의 비디오에 자막을 추가하는 방법이 있습니까?
 
 예, 비디오가 포함된 슬라이드에 텍스트 프레임이나 도형을 추가하여 Java Slides의 비디오에 자막이나 캡션을 추가할 수 있습니다. 그런 다음 타이밍 설정을 사용하여 텍스트를 비디오 재생과 동기화할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

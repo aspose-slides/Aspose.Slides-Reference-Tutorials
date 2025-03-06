@@ -3,14 +3,10 @@ title: Répertoire racine ClsId dans les diapositives Java
 linktitle: Répertoire racine ClsId dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir le répertoire racine ClsId dans les présentations Aspose.Slides pour Java. Personnalisez le comportement des liens hypertexte avec CLSID.
+type: docs
 weight: 10
 url: /fr/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition du répertoire racine ClsId dans Aspose.Slides pour Java
 
@@ -111,9 +107,3 @@ Non, le Root Directory ClsId est généralement défini au niveau de la présent
 ### Existe-t-il des limitations concernant les CLSID que je peux utiliser ?
 
 Les CLSID que vous pouvez utiliser sont généralement déterminés par les applications installées sur le système. Vous devez utiliser des CLSID qui correspondent à des applications valides capables de gérer les hyperliens. Sachez que l’utilisation d’un CLSID non valide peut entraîner un comportement inattendu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

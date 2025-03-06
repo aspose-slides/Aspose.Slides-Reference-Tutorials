@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में विशिष्ट स
 linktitle: जावा स्लाइड्स में विशिष्ट स्लाइड को पीडीएफ में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके Java में विशिष्ट स्लाइड्स को PDF में कैसे परिवर्तित किया जाता है। Java डेवलपर्स के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 20
 url: /hi/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में विशिष्ट स्लाइड को पीडीएफ में बदलने का परिचय
 
@@ -111,9 +107,3 @@ finally
 ### मैं Aspose.Slides for Java के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java प्रलेखन पृष्ठ पर व्यापक प्रलेखन और कोड उदाहरण पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/)अधिक सुविधाएँ और उपयोग के मामले जानने के लिए दस्तावेज़ देखें.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

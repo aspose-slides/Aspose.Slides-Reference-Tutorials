@@ -3,14 +3,10 @@ title: Освоение целей анимации с помощью Aspose.Sli
 linktitle: Настройка целей анимации для форм слайдов презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как оживить свои презентации с помощью Aspose.Slides для .NET! Легко устанавливайте цели анимации и привлекайте аудиторию.
+type: docs
 weight: 22
 url: /ru/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В динамичном мире презентаций добавление анимации к слайдам может изменить правила игры. Aspose.Slides для .NET дает разработчикам возможность создавать привлекательные и визуально привлекательные презентации, обеспечивая точный контроль над целями анимации для форм слайдов. В этом пошаговом руководстве мы покажем вам процесс настройки целей анимации с помощью Aspose.Slides для .NET. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство поможет вам использовать возможности анимации в ваших презентациях.
 ## Предварительные условия
@@ -66,9 +62,3 @@ foreach (ISlide slide in pres.Slides)
 Да, Aspose.Slides предоставляет возможность настроить продолжительность и время каждой анимации.
 ### Где я могу найти больше примеров и документации для Aspose.Slides?
  Исследовать[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/) для получения подробной информации и примеров.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

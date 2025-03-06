@@ -3,14 +3,10 @@ title: Поддержка прерываний в слайдах Java
 linktitle: Поддержка прерываний в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Освойте обработку прерываний Java Slides с помощью Aspose.Slides для Java. В этом подробном руководстве представлены пошаговые инструкции и примеры кода для беспрепятственного управления прерываниями.
+type: docs
 weight: 12
 url: /ru/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Введение в поддержку прерываний в слайдах Java с помощью Aspose.Slides для Java
 
 Aspose.Slides for Java — это мощная библиотека для создания, управления и работы с презентациями PowerPoint в приложениях Java. В этом подробном руководстве мы рассмотрим, как использовать поддержку прерываний в Java Slides с помощью Aspose.Slides для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство проведет вас через весь процесс с подробными объяснениями и примерами кода.
@@ -137,9 +133,3 @@ tokenSource.interrupt();
 ### Где я могу получить доступ к дополнительным ресурсам и документации по Aspose.Slides для Java?
 
 Вы можете найти подробную документацию, учебные пособия и примеры для Aspose.Slides для Java на сайте[Веб-сайт Aspose](https://reference.aspose.com/slides/java/). Кроме того, вы можете обратиться в службу поддержки Aspose за помощью в вашем конкретном случае использования.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

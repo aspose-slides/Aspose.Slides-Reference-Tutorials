@@ -3,14 +3,10 @@ title: Clone Shapes στο PowerPoint
 linktitle: Clone Shapes στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κλωνοποιείτε σχήματα σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη ροή εργασιών σας με αυτό το εύχρηστο σεμινάριο.
+type: docs
 weight: 16
 url: /el/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο κλωνοποίησης σχημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Η κλωνοποίηση σχημάτων σάς επιτρέπει να αντιγράψετε υπάρχοντα σχήματα σε μια παρουσίαση, κάτι που μπορεί να είναι ιδιαίτερα χρήσιμο για τη δημιουργία συνεπών διατάξεων ή την επανάληψη στοιχείων σε διαφάνειες.
 ## Προαπαιτούμενα
@@ -61,9 +57,3 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να κλωνοποιήσετε διαφάνειες, κείμενο, εικόνες και άλλα στοιχεία σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides για Java;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Slides για Java από το[δικτυακός τόπος](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

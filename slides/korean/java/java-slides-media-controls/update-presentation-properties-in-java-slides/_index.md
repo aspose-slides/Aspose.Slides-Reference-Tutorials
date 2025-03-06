@@ -3,14 +3,10 @@ title: Java 슬라이드의 프레젠테이션 속성 업데이트
 linktitle: Java 슬라이드의 프레젠테이션 속성 업데이트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드의 프레젠테이션 속성을 업데이트하는 방법을 알아보세요. 영향력 있는 프레젠테이션을 위해 작성자, 제목 등을 맞춤설정하세요.
+type: docs
 weight: 13
 url: /ko/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 프레젠테이션 속성 업데이트 소개
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java를 사용하면 작성자, 제목, 주제, 키워드 및 
 ### Aspose.Slides for Java 설명서에 어떻게 액세스할 수 있나요?
 
  다음 링크를 방문하여 Java용 Aspose.Slides 설명서에 액세스할 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

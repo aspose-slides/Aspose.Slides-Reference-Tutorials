@@ -3,14 +3,10 @@ title: Prise en charge de l'interruption dans les diapositives Java
 linktitle: Prise en charge de l'interruption dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez la gestion des interruptions de Java Slides avec Aspose.Slides pour Java. Ce guide détaillé fournit des instructions étape par étape et des exemples de code pour une gestion transparente des interruptions.
+type: docs
 weight: 12
 url: /fr/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Introduction à la prise en charge des interruptions dans les diapositives Java avec Aspose.Slides pour Java
 
 Aspose.Slides pour Java est une bibliothèque puissante permettant de créer, de manipuler et d'utiliser des présentations PowerPoint dans des applications Java. Dans ce guide complet, nous explorerons comment utiliser la prise en charge de l'interruption dans Java Slides à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce didacticiel étape par étape vous guidera tout au long du processus avec des explications détaillées et des exemples de code.
@@ -137,9 +133,3 @@ La gestion des interruptions est particulièrement utile dans les scénarios dan
 ### Où puis-je accéder à davantage de ressources et de documentation pour Aspose.Slides pour Java ?
 
 Vous pouvez trouver une documentation complète, des didacticiels et des exemples pour Aspose.Slides pour Java sur le[Site Aspose](https://reference.aspose.com/slides/java/). De plus, vous pouvez contacter l'équipe d'assistance Aspose pour obtenir de l'aide concernant votre cas d'utilisation spécifique.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

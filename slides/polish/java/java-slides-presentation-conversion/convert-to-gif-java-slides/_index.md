@@ -3,14 +3,10 @@ title: Konwertuj na GIF w Prezentacjach Java
 linktitle: Konwertuj na GIF w Prezentacjach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje programu PowerPoint na obrazy GIF w Javie za pomocą Aspose.Slides. Łatwy przewodnik krok po kroku umożliwiający bezproblemową konwersję.
+type: docs
 weight: 22
 url: /pl/java/presentation-conversion/convert-to-gif-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwersji do formatu GIF w slajdach Java
 
@@ -115,9 +111,3 @@ Tak, Aspose.Slides for Java dobrze nadaje się do zadań konwersji wsadowej. Mo�
 ### Gdzie mogę uzyskać dostęp do biblioteki Aspose.Slides for Java?
 
  Możesz pobrać Aspose.Slides dla Java ze strony internetowej Aspose:[Pobierz Aspose.Slides dla Java](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

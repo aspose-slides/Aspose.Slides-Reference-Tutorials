@@ -3,14 +3,10 @@ title: Рендеринг комментариев к слайдам в Aspose.S
 linktitle: Рендеринг комментариев к слайдам в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как отображать комментарии к слайдам в Aspose.Slides для .NET, с помощью нашего пошагового руководства. Настройте внешний вид комментариев и повысьте уровень автоматизации PowerPoint.
+type: docs
 weight: 12
 url: /ru/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Добро пожаловать в наше подробное руководство по рендерингу комментариев к слайдам с помощью Aspose.Slides для .NET! Aspose.Slides — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с презентациями PowerPoint в своих .NET-приложениях. В этом руководстве мы сосредоточимся на конкретной задаче — рендеринге комментариев к слайдам — и проведем вас через этот процесс шаг за шагом.
 ## Предварительные условия
@@ -90,9 +86,3 @@ System.Diagnostics.Process.Start(resultPath);
  О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу получить помощь и поддержку по Aspose.Slides?
  А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

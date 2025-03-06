@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 모양 정렬 마스터하기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 정렬
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 모양을 쉽게 정렬하는 방법을 알아보세요. 정확한 정렬로 시각적 매력을 향상시킵니다. 지금 다운로드하세요!
+type: docs
 weight: 10
 url: /ko/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만들려면 모양을 정확하게 정렬해야 하는 경우가 많습니다. .NET용 Aspose.Slides는 이를 쉽게 달성할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 모양을 정렬하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -86,9 +82,3 @@ Aspose.Slides는 AlignTop, AlignRight, AlignBottom, AlignLeft 등을 포함한 �
 Aspose.Slides for .NET은 주로 Windows 애플리케이션용으로 설계되었지만 Aspose는 Java 및 기타 플랫폼용 라이브러리도 제공합니다.
 ### 추가 지원이나 지원을 받으려면 어떻게 해야 합니까?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

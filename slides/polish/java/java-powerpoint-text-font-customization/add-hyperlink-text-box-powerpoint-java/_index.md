@@ -3,14 +3,10 @@ title: Dodaj hiperłącze do pola tekstowego w programie PowerPoint przy użyciu
 linktitle: Dodaj hiperłącze do pola tekstowego w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać hiperłącza do pól tekstowych programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami dla programistów Java.
+type: docs
 weight: 23
 url: /pl/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 dzisiejszej erze cyfrowej tworzenie dynamicznych prezentacji, które angażują i informują, ma kluczowe znaczenie dla skutecznej komunikacji. Programiści Java, którzy chcą ulepszyć swoje aplikacje za pomocą funkcji interaktywnych, często zwracają się do Aspose.Slides for Java, potężnej biblioteki umożliwiającej programowe manipulowanie prezentacjami programu PowerPoint. W tym samouczku omówiono jedną z takich funkcji: dodawanie hiperłączy do pól tekstowych w prezentacjach programu PowerPoint przy użyciu języka Java. Pod koniec tego przewodnika będziesz już jasno wiedział, jak bezproblemowo wdrożyć tę funkcjonalność w aplikacjach Java.
 ## Warunki wstępne
@@ -80,9 +76,3 @@ Wykonując poniższe kroki, z powodzeniem nauczyłeś się dodawać hiperłącza
  Tak, można kupić licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy Aspose.Slides jest kompatybilny z innymi bibliotekami Java?
 Aspose.Slides dobrze integruje się z różnymi bibliotekami Java, umożliwiając wszechstronną manipulację programem PowerPoint.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

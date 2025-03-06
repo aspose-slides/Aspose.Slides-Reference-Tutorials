@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Notlarla Slaytları PDF'ye Dönüştürme
 linktitle: Java Slaytlarındaki Notlarla Slaytları PDF'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarını Java'da not içeren PDF'ye nasıl dönüştüreceğinizi öğrenin. Java geliştiricileri için adım adım kılavuz. Sunum paylaşımınızı geliştirin.
+type: docs
 weight: 19
 url: /tr/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java'da Notlarla Slaytları PDF'ye Dönüştürmeye Giriş
 
@@ -128,9 +124,3 @@ Kesinlikle! Sununuzdaki slaytlar arasında geçiş yapabilir ve bunları yeni su
 ### Aspose.Slides for Java ile ilgili daha fazla belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java ile ilgili ayrıntılı belgeleri şu sitede bulabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Utwórz miniaturę współczynnika skalowania
 linktitle: Utwórz miniaturę współczynnika skalowania
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć miniatury współczynników skalowania w Javie przy użyciu Aspose.Slides dla Java. Łatwy w obsłudze przewodnik z instrukcjami krok po kroku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces tworzenia miniatury współczynnika skalowania przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z poniższymi instrukcjami krok po kroku, aby osiągnąć pożądany rezultat.
 ## Warunki wstępne
@@ -70,9 +66,3 @@ Tak, Aspose.Slides for Java może być używany z dowolnym zintegrowanym środow
  Możesz kupić Aspose.Slides dla Java w sklepie[strona zakupu](https://purchase.aspose.com/buy).
 ### Czy potrzebuję tymczasowej licencji na korzystanie z Aspose.Slides dla Java?
  Tak, możesz uzyskać tymczasową licencję od[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Xử lý hình ảnh slide Java bằng Aspose.Slides cho Java
 linktitle: Xử lý hình ảnh trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xử lý hình ảnh trong các trang trình bày Java bằng cách sử dụng các hướng dẫn Aspose.Slides for Java. Khám phá hướng dẫn từng bước để quản lý hình ảnh hiệu quả.
+type: docs
 weight: 23
 url: /vi/java/image-handling/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Bạn đã sẵn sàng nâng cao các trang trình bày Java của mình bằng những hình ảnh tuyệt đẹp chưa? Trong bài viết này, chúng ta sẽ đi sâu vào thế giới xử lý hình ảnh bằng cách sử dụng các hướng dẫn Aspose.Slides for Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình, hướng dẫn toàn diện này sẽ hướng dẫn bạn thực hiện quy trình, từng bước một.
 
@@ -46,9 +42,3 @@ Tìm hiểu cách thêm hình ảnh SVG vào Java Slides bằng Aspose.Slides ch
 Tìm hiểu cách thêm hình ảnh SVG dựa trên vector từ các tài nguyên bên ngoài vào các trang trình bày Java bằng Aspose.Slides. Tạo các bài thuyết trình tuyệt đẹp với hình ảnh chất lượng cao.
 ### [Chuyển đổi đối tượng hình ảnh SVG thành nhóm hình dạng trong Java Slides](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Tìm hiểu cách chuyển đổi hình ảnh SVG thành một nhóm hình dạng trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với các ví dụ về mã.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

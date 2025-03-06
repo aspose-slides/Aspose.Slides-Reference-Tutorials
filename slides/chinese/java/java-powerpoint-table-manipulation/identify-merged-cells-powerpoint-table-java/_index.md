@@ -3,14 +3,10 @@ title: 使用 Java 识别 PowerPoint 表格中的合并单元格
 linktitle: 使用 Java 识别 PowerPoint 表格中的合并单元格
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 以编程方式识别 PowerPoint 表中的合并单元格。非常适合 Java 开发人员。
+type: docs
 weight: 15
 url: /zh/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在 Java 开发领域，以编程方式操作 PowerPoint 演示文稿可能是一项至关重要的任务，尤其是在处理复杂的数据表时。Aspose.Slides for Java 提供了一个强大的工具包，使开发人员能够无缝管理 PowerPoint 演示文稿的各个方面。开发人员面临的一个常见挑战是识别演示文稿中嵌入的表格内的合并单元格。本教程旨在指导您完成使用 Aspose.Slides for Java 识别合并单元格的过程。
 ## 先决条件
@@ -71,9 +67,3 @@ Aspose.Slides for Java 是一个功能强大的库，可以使用 Java 以编程
 文档可以找到[这里](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides for Java 的支持？
 如需支持，请访问 Aspose.Slides 论坛[这里](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Adjon hozzá oszlopokat a szövegkerethez az Aspose.Slides for Java segí
 linktitle: Adjon hozzá oszlopokat a szövegkerethez az Aspose.Slides for Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá oszlopokat szövegkeretekhez az Aspose.Slides for Java segítségével PowerPoint-bemutatóinak javítása érdekében. Lépésről lépésre bemutatott útmutatónk leegyszerűsíti a folyamatot.
+type: docs
 weight: 11
 url: /hu/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet szövegkereteket manipulálni oszlopok hozzáadásához az Aspose.Slides for Java segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára PowerPoint prezentációk programozott létrehozását, kezelését és konvertálását. Az oszlopok szövegkeretekhez való hozzáadása javítja a dián belüli szöveg vizuális vonzerejét és rendezettségét, így a prezentációk vonzóbbá és könnyebben olvashatóvá válnak.
 ## Előfeltételek
@@ -85,9 +81,3 @@ Nem, az Aspose.Slides automatikusan egyenlő szélességet állít be a szövegk
  A részletes dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok műszaki támogatást az Aspose.Slides for Java-hoz?
  Kérhetsz támogatást a közösségtől[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

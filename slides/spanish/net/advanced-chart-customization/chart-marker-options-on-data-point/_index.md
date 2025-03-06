@@ -3,14 +3,10 @@ title: Uso de las opciones de marcador de gráfico en un punto de datos en Aspos
 linktitle: Opciones de marcador de gráfico en punto de datos
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar sus gráficos de PowerPoint usando Aspose.Slides para .NET. Personalice marcadores de puntos de datos con imágenes. Crea presentaciones atractivas.
+type: docs
 weight: 11
 url: /es/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Cuando se trabaja con presentaciones y visualización de datos, Aspose.Slides para .NET ofrece una amplia gama de potentes funciones para crear, personalizar y manipular gráficos. En este tutorial, exploraremos cómo utilizar las opciones de marcadores de gráficos en puntos de datos para mejorar las presentaciones de sus gráficos. Esta guía paso a paso lo guiará a través del proceso, desde los requisitos previos y la importación de espacios de nombres, hasta dividir cada ejemplo en varios pasos.
 
@@ -152,9 +148,3 @@ Aspose.Slides para .NET está diseñado para funcionar con varios formatos de Po
 
 ### ¿Existe una versión de prueba de Aspose.Slides para .NET disponible?
  Sí, puedes probar Aspose.Slides para .NET descargando una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

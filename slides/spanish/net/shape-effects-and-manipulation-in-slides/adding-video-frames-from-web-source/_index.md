@@ -3,14 +3,10 @@ title: Tutorial de incrustación de fotogramas de vídeo con Aspose.Slides para 
 linktitle: Agregar marcos de video desde fuente web en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo incrustar fácilmente fotogramas de vídeo en diapositivas de PowerPoint utilizando Aspose.Slides para .NET. Mejore las presentaciones con multimedia sin esfuerzo.
+type: docs
 weight: 20
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En el dinámico mundo de las presentaciones, la incorporación de elementos multimedia puede mejorar significativamente la participación y transmitir mensajes impactantes. Una forma poderosa de lograrlo es incorporando fotogramas de vídeo en las diapositivas de la presentación. En este tutorial, exploraremos cómo lograr esto sin problemas usando Aspose.Slides para .NET. Aspose.Slides es una biblioteca sólida que permite a los desarrolladores manipular presentaciones de PowerPoint mediante programación, proporcionando amplias capacidades para crear, editar y mejorar diapositivas.
 ## Requisitos previos
@@ -79,9 +75,3 @@ Aspose.Slides se actualiza periódicamente para mantener la compatibilidad con l
 Sí, puedes incrustar varios videos agregando fotogramas de video adicionales a una diapositiva.
 ### ¿Dónde puedo encontrar soporte para consultas relacionadas con Aspose.Slides?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

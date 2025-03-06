@@ -3,14 +3,10 @@ title: Java 슬라이드의 조직도
 linktitle: Java 슬라이드의 조직도
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 단계별 Aspose.Slides 튜토리얼을 통해 Java Slides에서 멋진 조직도를 만드는 방법을 알아보세요. 조직 구조를 손쉽게 사용자 정의하고 시각화하세요.
+type: docs
 weight: 22
 url: /ko/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에서 조직도 만들기 소개
 
@@ -107,9 +103,3 @@ finally
 ### 여러 수준으로 구성된 복잡한 조직 구조를 만드는 것이 가능합니까?
 
 네, Aspose.Slides를 사용하면 조직도 내에 도형을 추가하고 배열하여 여러 수준으로 복잡한 조직 구조를 만들 수 있습니다. 원하는 구조를 나타내기 위해 셰이프 간의 계층적 관계를 정의할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

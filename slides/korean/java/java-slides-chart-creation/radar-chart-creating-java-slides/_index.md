@@ -3,14 +3,10 @@ title: Java 슬라이드에서 방사형 차트 만들기
 linktitle: Java 슬라이드에서 방사형 차트 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java API를 사용하여 Java PowerPoint 프레젠테이션에서 방사형 차트를 만드는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 방사형 차트 만들기 소개
 
@@ -272,9 +268,3 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### 차트를 다른 파일 형식으로 저장하려면 어떻게 해야 합니까?
 
 파일 확장자를 수정하여 출력 형식을 변경할 수 있습니다.`outPath` 변수를 사용하고 적절한`SaveFormat` . 예를 들어 PDF로 저장하려면 다음을 사용하세요.`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ajouter des polices intégrées dans PowerPoint à l'aide de Java
 linktitle: Ajouter des polices intégrées dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des polices intégrées aux présentations PowerPoint à l'aide de Java avec Aspose.Slides pour Java. Garantissez un affichage cohérent sur tous les appareils.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout de polices intégrées aux présentations PowerPoint à l'aide de Java, en tirant spécifiquement parti d'Aspose.Slides pour Java. Les polices intégrées garantissent que votre présentation apparaît cohérente sur différents appareils, même si la police d'origine n'est pas disponible. Passons aux étapes :
 ## Conditions préalables
@@ -73,9 +69,3 @@ Oui, l'intégration de polices peut légèrement augmenter la taille du fichier 
 Aspose.Slides pour Java prend en charge l'intégration des polices TrueType, qui couvrent un large éventail de polices couramment utilisées dans les présentations.
 ### Puis-je intégrer des polices par programme à l’aide d’Aspose.Slides pour Java ?
 Oui, comme démontré dans ce didacticiel, vous pouvez intégrer des polices par programme à l'aide de l'API Aspose.Slides pour Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

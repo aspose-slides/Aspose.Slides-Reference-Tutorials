@@ -3,14 +3,10 @@ title: Conversión de presentaciones de diapositivas Java
 linktitle: Conversión de presentaciones de diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo convertir presentaciones de diapositivas Java sin esfuerzo con Aspose.Slides para Java. Te esperan completos tutoriales y guías paso a paso.
+type: docs
 weight: 17
 url: /es/java/presentation-conversion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ¿Estás listo para sumergirte en el mundo de la conversión de presentaciones de diapositivas en Java? Con el poder de Aspose.Slides para Java a tu alcance, estás a punto de embarcarte en un viaje que te permitirá transformar tus presentaciones sin esfuerzo. En esta guía completa, lo guiaremos a través de los pasos esenciales y le brindaremos información valiosa para dominar el arte de la conversión de presentaciones de diapositivas de Java.
 
@@ -91,9 +87,3 @@ Aprenda cómo convertir presentaciones de PowerPoint al formato XPS en Java usan
 Convierta presentaciones de PowerPoint a formato SWF en Java usando Aspose.Slides. Siga nuestra guía paso a paso con código fuente para una conversión perfecta.
 ### [Convierta a PDF con actualización de progreso en diapositivas de Java](./convert-pdf-progress-update-java-slides/)
 Convierta PowerPoint a PDF con actualizaciones de progreso en Java usando Aspose.Slides para Java. Guía paso a paso con código fuente y seguimiento del progreso para una conversión perfecta.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

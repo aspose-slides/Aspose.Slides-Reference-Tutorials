@@ -3,14 +3,10 @@ title: जावा के साथ PowerPoint में बाहरी छा
 linktitle: जावा के साथ PowerPoint में बाहरी छाया लागू करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java का उपयोग करके PowerPoint में बाहरी छाया प्रभाव लागू करना सीखें। अपनी प्रस्तुतियों को गहराई और दृश्य अपील के साथ बेहतर बनाएँ।
+type: docs
 weight: 13
 url: /hi/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 दिखने में आकर्षक पावरपॉइंट प्रेजेंटेशन बनाने में अक्सर आकृतियों और टेक्स्ट में कई तरह के इफ़ेक्ट जोड़ने पड़ते हैं। ऐसा ही एक इफ़ेक्ट है बाहरी छाया, जो तत्वों को अलग दिखा सकता है और आपकी स्लाइड्स में गहराई जोड़ सकता है। इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides के साथ Java का उपयोग करके PowerPoint में किसी आकृति पर बाहरी छाया इफ़ेक्ट कैसे लागू करें।
 ## आवश्यक शर्तें
@@ -125,9 +121,3 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 
 ### मैं Aspose.Slides के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
  आप इसका संदर्भ ले सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/) विस्तृत API संदर्भों के लिए और अन्वेषण करें[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन और चर्चा के लिए।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

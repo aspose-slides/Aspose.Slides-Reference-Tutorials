@@ -3,14 +3,10 @@ title: Edytuj dane wykresu w skoroszycie zewnętrznym w slajdach Java
 linktitle: Edytuj dane wykresu w skoroszycie zewnętrznym w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak edytować dane wykresu w zewnętrznym skoroszycie za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
+type: docs
 weight: 17
 url: /pl/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do edycji danych wykresu w zewnętrznym skoroszycie w aplikacji Java Slides
 
@@ -107,9 +103,3 @@ Możesz dostosować kod do obsługi różnych zewnętrznych formatów skoroszyt�
 ### Jak mogę zautomatyzować ten proces w przypadku wielu prezentacji?
 
 Możesz utworzyć pętlę do przetwarzania wielu prezentacji, ładowania każdej z nich, wprowadzania żądanych zmian i zapisywania zmodyfikowanych prezentacji jedna po drugiej.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

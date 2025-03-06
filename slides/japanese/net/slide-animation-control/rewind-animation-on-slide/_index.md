@@ -3,14 +3,10 @@ title: Aspose.Slides を使用したプレゼンテーションの巻き戻し�
 linktitle: スライドの巻き戻しアニメーション
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドのアニメーションを巻き戻す方法を学びます。完全なソース コード例を含むこのステップ バイ ステップ ガイドに従ってください。
+type: docs
 weight: 13
 url: /ja/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションのダイナミックな世界では、魅力的なアニメーションを組み込むことで、エンゲージメントを大幅に高めることができます。Aspose.Slides for .NET は、プレゼンテーションに活気を与える強力なツールセットを提供します。興味深い機能の 1 つは、スライドのアニメーションを巻き戻す機能です。この包括的なガイドでは、Aspose.Slides for .NET を使用してアニメーションの巻き戻しの潜在能力を最大限に活用できるように、プロセスを段階的に説明します。
 ## 前提条件
@@ -84,9 +80,3 @@ Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciti
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)支援を求め、コミュニティと関わること。
 ### Aspose.Slides for .NET の一時ライセンスを購入できますか?
 はい、一時ライセンスを取得することができます。[ここ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트 추세선
 linktitle: Java 슬라이드의 차트 추세선
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에 다양한 추세선을 추가하는 방법을 알아보세요. 효과적인 데이터 시각화를 위한 코드 예제가 포함된 단계별 가이드입니다.
+type: docs
 weight: 15
 url: /ko/java/data-manipulation/chart-trend-lines-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 차트 추세선 소개: 단계별 가이드
 
@@ -194,9 +190,3 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for Java에 대한 더 많은 리소스와 예제에 어떻게 액세스할 수 있나요?
 
  Aspose.Slides for Java에 대한 추가 리소스, 문서 및 예제에 액세스할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

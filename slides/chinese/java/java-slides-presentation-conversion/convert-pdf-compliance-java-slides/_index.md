@@ -3,14 +3,10 @@ title: 在 Java Slides 中转换为 PDF 合规性
 linktitle: 在 Java Slides 中转换为 PDF 合规性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为符合 PDF/A-2a 标准的 PDF。按照我们的分步指南和源代码进行操作，实现无缝存档和可访问性。
+type: docs
 weight: 26
 url: /zh/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中转换为 PDF 合规性的简介
 
@@ -118,9 +114,3 @@ PDF/A-2a 是 PDF 文件的合规级别。它指定了一组用于长期存档电
 ## 在哪里可以找到有关 Aspose.Slides for Java 和 PDF 兼容性的更多信息？
 
 有关 Aspose.Slides for Java 及其功能的详细信息，包括 PDF 合规性设置，您可以参考[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/)。此外，您还可以探索代码示例和教程，以进一步增强您对该库的了解。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

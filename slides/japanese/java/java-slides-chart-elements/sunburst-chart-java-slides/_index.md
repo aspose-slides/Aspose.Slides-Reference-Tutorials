@@ -3,14 +3,10 @@ title: Java スライドのサンバースト チャート
 linktitle: Java スライドのサンバースト チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java スライドで魅力的なサンバースト チャートを作成します。チャートの作成とデータ操作をステップごとに学習します。
+type: docs
 weight: 16
 url: /ja/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides を使用した Java スライドのサンバースト チャートの紹介
 
@@ -172,9 +168,3 @@ finally
 ### ハイパーリンクを使用してインタラクティブなサンバースト チャートを作成することは可能ですか?
 
 はい、特定のグラフ要素またはセグメントにハイパーリンクを追加することで、ハイパーリンク付きのインタラクティブなサンバースト グラフを作成できます。ハイパーリンクの追加の詳細については、Aspose.Slides のドキュメントを参照してください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

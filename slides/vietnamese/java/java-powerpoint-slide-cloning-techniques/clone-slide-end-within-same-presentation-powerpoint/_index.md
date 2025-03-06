@@ -3,14 +3,10 @@ title: Sao chép slide đến cuối trong cùng một bản trình bày
 linktitle: Sao chép slide đến cuối trong cùng một bản trình bày
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách sao chép một trang chiếu vào cuối bản trình bày bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển Java.
+type: docs
 weight: 16
 url: /vi/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-presentation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Bạn đang tìm cách nâng cao kỹ năng thao tác trình bày của mình với Java? Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép bạn tạo, sửa đổi và thao tác các bản trình bày PowerPoint một cách dễ dàng. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn cách sao chép một slide vào cuối cùng một bản trình bày bằng Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ nắm vững cách sử dụng tính năng này trong các dự án của riêng mình. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -68,9 +64,3 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà ph�
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Tôi có thể sử dụng Aspose.Slides cho Java để chuyển đổi bản trình bày sang PDF không?
 Có, Aspose.Slides for Java hỗ trợ chuyển đổi bản trình bày sang nhiều định dạng khác nhau, bao gồm cả PDF.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

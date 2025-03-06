@@ -3,14 +3,10 @@ title: Áp dụng hiệu ứng bóng ngoài trong Java PowerPoint
 linktitle: Áp dụng hiệu ứng bóng ngoài trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách dễ dàng áp dụng các hiệu ứng bóng bên ngoài trong bản trình bày Java PowerPoint bằng Aspose.Slides với hướng dẫn từng bước chi tiết của chúng tôi.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Việc tạo bản trình bày hấp dẫn thường yêu cầu thêm nhiều hiệu ứng khác nhau để nâng cao sức hấp dẫn trực quan cho trang trình bày của bạn. Một hiệu ứng như vậy là bóng bên ngoài, có thể làm cho các phần tử của bạn nổi bật và thêm chiều sâu cho nội dung của bạn. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình áp dụng hiệu ứng bóng ngoài cho các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -118,9 +114,3 @@ Có, bạn có thể sử dụng Aspose.Slides cho Java với bất kỳ IDE Jav
  Bạn có thể nhận được giấy phép tạm thời từ[trang web giả định](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides ở đâu?
  Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về[Trang tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

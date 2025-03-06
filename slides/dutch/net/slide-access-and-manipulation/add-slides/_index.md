@@ -3,14 +3,10 @@ title: Voeg extra dia's in de presentatie in
 linktitle: Voeg extra dia's in de presentatie in
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u extra dia's in uw PowerPoint-presentaties kunt invoegen met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncodevoorbeelden en gedetailleerde instructies voor het naadloos verbeteren van uw presentaties. Aanpasbare inhoud, invoegtips en veelgestelde vragen inbegrepen.
+type: docs
 weight: 15
 url: /nl/net/slide-access-and-manipulation/add-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het invoegen van extra dia's in de presentatie
 
@@ -111,9 +107,3 @@ Absoluut. U kunt de lay-out, het ontwerp en de opmaak van de ingevoegde dia's wi
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor .NET?
 
  Voor gedetailleerde documentatie en voorbeelden raadpleegt u de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

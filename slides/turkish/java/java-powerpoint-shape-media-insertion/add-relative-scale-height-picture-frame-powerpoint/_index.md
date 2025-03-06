@@ -3,14 +3,10 @@ title: PowerPoint'te Göreli Ölçekli Yükseklik Resim Çerçevesi Ekleme
 linktitle: PowerPoint'te Göreli Ölçekli Yükseklik Resim Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarınıza göreli ölçek yüksekliğinde resim çerçeveleri eklemeyi öğrenin ve görsel içeriğinizi geliştirin.
+type: docs
 weight: 15
 url: /tr/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarına göreceli ölçek yüksekliğine sahip bir resim çerçevesinin nasıl ekleneceğini öğreneceksiniz.
 ## Önkoşullar
@@ -72,9 +68,3 @@ Aspose.Slides for Java, PowerPoint'in çeşitli sürümleriyle uyumlu olduğunda
 Evet, Aspose.Slides for Java PNG, GIF, BMP ve daha fazlası dahil olmak üzere çeşitli görüntü formatlarını destekler.
 ### Aspose.Slides kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
 Evet, kütüphaneyle ilgili her türlü soru, tartışma veya yardım için Aspose.Slides forumunu ziyaret edebilirsiniz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ajouter un nœud assistant à SmartArt dans Java PowerPoint
 linktitle: Ajouter un nœud assistant à SmartArt dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter un nœud assistant à SmartArt dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Améliorez vos compétences en édition PowerPoint.
+type: docs
 weight: 17
 url: /fr/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'un nœud assistant à SmartArt dans les présentations Java PowerPoint à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -74,9 +70,3 @@ Aspose.Slides prend en charge les versions PowerPoint de 97 à 2003 jusqu'à la 
 Oui, vous pouvez personnaliser l'apparence à l'aide de diverses propriétés et méthodes fournies par Aspose.Slides.
 ### Y a-t-il une limite au nombre de nœuds dans un SmartArt ?
 SmartArt dans PowerPoint prend en charge un grand nombre de nœuds, mais il est recommandé de le conserver à un niveau raisonnable pour une meilleure lisibilité.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

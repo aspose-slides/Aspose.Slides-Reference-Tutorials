@@ -3,14 +3,10 @@ title: Notlar Slayt İşleme
 linktitle: Notlar Slayt İşleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Sunumlarınızı hassasiyetle geliştirin! .NET'te not slaytlarının işlenmesiyle ilgili Aspose.Slides eğitimini keşfedin. Konuşmacı notlarını programlı olarak eklemeyi, düzenlemeyi ve yönetmeyi öğrenin.
+type: docs
 weight: 16
 url: /tr/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 
 .NET geliştiricileri için Notes Slayt İşleme hakkındaki kapsamlı Aspose.Slides eğitimine hoş geldiniz. Bu derste, konuşmacı notlarının büyüleyici dünyasına ve Aspose.Slides kütüphanesini kullanarak bunları programlı olarak nasıl değiştirebileceğinize değineceğiz. Konuşmacı notları sunumlarda çok önemli bir rol oynar, sunum yapan kişiye değerli bilgiler sunar ve içeriğin genel etkisini artırır. Bu eğitimin sonunda, PowerPoint sunumlarınıza konuşmacı notlarını etkili bir şekilde nasıl ekleyeceğinizi, düzenleyeceğinizi ve yöneteceğinizi tam olarak anlayacaksınız.
@@ -43,9 +39,3 @@ Aspose.Slides for .NET'i kullanarak not slaytlarındaki üstbilgi ve altbilgiyi 
 Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki belirli bir slayttaki notları nasıl kaldıracağınızı öğrenin. Slaytlarınızı programlı bir şekilde sorunsuz bir şekilde değiştirmek için tam kaynak kodunu içeren adım adım kılavuzumuzu izleyin.
 ### [Tüm Slaytlardan Notları Kaldır](./remove-notes-from-all-slides/)
 Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarınızdaki tüm slaytlardan notları nasıl kaldıracağınızı öğrenin. Hedefinize kolayca ulaşmak için eksiksiz kaynak kodu örnekleri içeren bu adım adım kılavuzu izleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

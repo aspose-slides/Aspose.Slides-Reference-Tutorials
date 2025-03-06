@@ -1,15 +1,12 @@
 ---
 title: Giải phóng sức mạnh của Aspose.Slides cho Java
 linktitle: Aspose.Slides cho các hướng dẫn Java
+type: docs
 weight: 10
 url: /vi/java/
 description: Tìm hiểu cách thành thạo Aspose.Slides cho Java bằng các hướng dẫn toàn diện của chúng tôi. Hướng dẫn từng bước cách sử dụng API Java mạnh mẽ này cho bản trình bày.
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thế giới lập trình Java, việc tạo và quản lý bản trình bày chưa bao giờ dễ dàng hơn thế nhờ Aspose.Slides cho Java. API mạnh mẽ này mở ra vô số khả năng cho các nhà phát triển đang tìm cách tích hợp các bản trình bày năng động và trực quan ấn tượng vào ứng dụng của họ. Trong bài viết này, chúng tôi sẽ đưa bạn vào cuộc hành trình qua lĩnh vực hướng dẫn Aspose.Slides dành cho Java, trình bày cách bạn có thể khai thác tối đa tiềm năng của nó.
 
@@ -107,9 +104,3 @@ Làm chủ thao tác bảng Java PowerPoint với Aspose.Slides. Tìm hiểu cá
 Nâng cao bản trình bày Java PowerPoint với định dạng và cập nhật bảng bằng Aspose.Slides. Tìm hiểu cách thêm đường viền, định dạng văn bản trong cột, hàng và cập nhật bảng.
 ### [Thao tác SmartArt của Java PowerPoint](./java-powerpoint-smartart-manipulation/)
 Tìm hiểu cách thao tác Java PowerPoint SmartArt hiệu quả với hướng dẫn GroupDocs.Slides for Java. Truy cập các nút con, thêm nút, thay đổi bố cục và hơn thế nữa!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

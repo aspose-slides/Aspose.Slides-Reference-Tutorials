@@ -3,14 +3,10 @@ title: Установить угол линии соединителя в PowerP
 linktitle: Установить угол линии соединителя в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить углы соединительных линий в презентациях PowerPoint с помощью Aspose.Slides для Java. Настраивайте слайды с точностью.
+type: docs
 weight: 17
 url: /ru/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы рассмотрим, как установить угол соединительных линий в презентациях PowerPoint с помощью Aspose.Slides для Java. Соединительные линии необходимы для иллюстрации взаимосвязей и потоков между фигурами на слайдах. Регулируя их углы, вы можете гарантировать, что ваши презентации будут передавать ваше сообщение четко и эффективно.
 ## Предварительные условия
@@ -84,9 +80,3 @@ Aspose.Slides стремится поддерживать большинство
 Конечно! Aspose.Slides предоставляет широкие возможности для настройки соединительных линий, включая стили, толщину и конечные точки, что позволяет создавать визуально привлекательные презентации.
 ### Где я могу найти поддержку для запросов, связанных с Aspose.Slides?
  Вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для помощи по любым вопросам или проблемам, с которыми вы можете столкнуться в процессе разработки.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

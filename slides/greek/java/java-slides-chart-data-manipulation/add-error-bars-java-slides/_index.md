@@ -3,14 +3,10 @@ title: Προσθήκη γραμμών σφαλμάτων στις διαφάν�
 linktitle: Προσθήκη γραμμών σφαλμάτων στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε γραμμές σφαλμάτων σε γραφήματα PowerPoint σε Java χρησιμοποιώντας το Aspose.Slides. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για την προσαρμογή των γραμμών σφαλμάτων.
+type: docs
 weight: 13
 url: /el/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στην προσθήκη γραμμών σφαλμάτων σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides
 
@@ -132,9 +128,3 @@ finally
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides for Java;
 
  Μπορείτε να ανατρέξετε στο[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) για λεπτομερείς πληροφορίες σχετικά με τη χρήση της βιβλιοθήκης.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

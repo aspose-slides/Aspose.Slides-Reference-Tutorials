@@ -3,14 +3,10 @@ title: Java 幻灯片中的漏斗图
 linktitle: Java 幻灯片中的漏斗图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过分步教程探索 Aspose.Slides for Java。创建令人惊叹的漏斗图等。
+type: docs
 weight: 14
 url: /zh/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中的漏斗图简介
 
@@ -148,9 +144,3 @@ finally
 ### 在哪里可以找到更多 Aspose.Slides for Java 的示例和文档？
 
 您可以在以下位置找到有关使用 Aspose.Slides for Java 的更多示例和详细文档[文档](https://docs.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Comment supprimer les hyperliens des diapositives avec Aspose.Slides .NET
 linktitle: Supprimer les hyperliens de la diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment supprimer les hyperliens des diapositives PowerPoint à l’aide d’Aspose.Slides pour .NET. Créez des présentations claires et professionnelles.
+type: docs
 weight: 11
 url: /fr/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dans le monde des présentations professionnelles, il est essentiel de veiller à ce que vos diapositives soient propres et bien rangées. Les hyperliens sont un élément commun qui encombre souvent les diapositives. Que vous ayez affaire à des hyperliens vers des sites Web, des documents ou d'autres diapositives dans votre présentation, vous souhaiterez peut-être les supprimer pour une apparence plus nette et plus ciblée. Avec Aspose.Slides pour .NET, vous pouvez facilement réaliser cette tâche. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de suppression des hyperliens des diapositives à l'aide d'Aspose.Slides pour .NET.
 
@@ -88,9 +84,3 @@ Oui, Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notam
 
 ### Un support technique est-il disponible pour Aspose.Slides pour .NET ?
  Oui, vous pouvez demander une assistance technique et interagir avec la communauté Aspose sur le[Forum Aspose](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

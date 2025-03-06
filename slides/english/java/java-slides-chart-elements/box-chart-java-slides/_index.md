@@ -3,14 +3,10 @@ title: Box Chart in Java Slides
 linktitle: Box Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Box Charts in Java presentations with Aspose.Slides. Step-by-step guide and source code included for effective data visualization.
+type: docs
 weight: 10
 url: /java/chart-elements/box-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Box Chart in Aspose.Slides for Java
 
@@ -152,10 +148,3 @@ Yes, you can add multiple data series to the Box Chart by creating additional `I
 ### What does the QuartileMethodType.Exclusive mean?
 
 The `QuartileMethodType.Exclusive` setting specifies that the quartile calculations should be done using the exclusive method. You can choose different quartile calculation methods depending on your data and requirements.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

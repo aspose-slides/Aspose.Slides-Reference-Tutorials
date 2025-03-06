@@ -3,14 +3,10 @@ title: Converter slide individual em slides Java
 linktitle: Converter slide individual em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como converter slides individuais do PowerPoint em HTML passo a passo com exemplos de código usando Aspose.Slides para Java.
+type: docs
 weight: 12
 url: /pt/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introdução à conversão de slides individuais em slides Java
 
@@ -174,9 +170,3 @@ Você converteu com sucesso slides individuais de uma apresentação do PowerPoi
 ### Como lidar com a formatação adicional de formas e texto nos slides?
 
  Você pode estender o`CustomFormattingController` classe para lidar com a formatação específica da forma, implementando o`writeShapeStart` e`writeShapeEnd` métodos e aplicando lógica de formatação personalizada dentro deles.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

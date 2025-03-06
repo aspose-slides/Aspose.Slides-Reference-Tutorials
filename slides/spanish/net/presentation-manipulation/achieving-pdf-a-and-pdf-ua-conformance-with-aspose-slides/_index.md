@@ -3,14 +3,10 @@ title: Lograr la conformidad de PDF/A y PDF/UA con Aspose.Slides
 linktitle: Lograr la conformidad con PDF/A y PDF/UA
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Garantice la conformidad de PDF/A y PDF/UA con Aspose.Slides para .NET. Cree presentaciones accesibles y conservables fácilmente.
+type: docs
 weight: 23
 url: /es/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción
 
@@ -131,9 +127,3 @@ Para garantizar la accesibilidad en documentos PDF/UA, puede utilizar las funcio
 ### ¿Es necesaria la compatibilidad con PDF/UA para todos los documentos?
 
 El cumplimiento de PDF/UA es especialmente importante para documentos destinados a ser accesibles para usuarios con discapacidades. Sin embargo, la necesidad de cumplir con PDF/UA depende de los requisitos específicos de su público objetivo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

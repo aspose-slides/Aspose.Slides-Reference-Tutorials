@@ -3,14 +3,10 @@ title: Controleer het wachtwoordvoorbeeld in Java-dia's
 linktitle: Controleer het wachtwoordvoorbeeld in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u wachtwoorden in Java Slides kunt verifiëren met Aspose.Slides voor Java. Verbeter de presentatiebeveiliging met stapsgewijze begeleiding.
+type: docs
 weight: 14
 url: /nl/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het wachtwoordcontrolevoorbeeld in Java-dia's
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Waar kan ik meer documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie voor Aspose.Slides voor Java vindt u op de Aspose-website[hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

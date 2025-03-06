@@ -3,14 +3,10 @@ title: Объекты диаграммы в слайдах Java
 linktitle: Объекты диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Научитесь создавать и настраивать диаграммы Java Slides с помощью Aspose.Slides. Улучшите свои презентации с помощью мощных объектов диаграмм.
+type: docs
 weight: 13
 url: /ru/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в объекты диаграммы в слайдах Java
 
@@ -305,9 +301,3 @@ finally
 ### Совместим ли Aspose.Slides for Java с последними версиями Java?
 
 Да, Aspose.Slides для Java регулярно обновляется для поддержки последних версий Java и обеспечивает совместимость с широким спектром сред Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

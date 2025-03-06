@@ -3,14 +3,10 @@ title: Menganimasikan Elemen Kategori di Slide Java
 linktitle: Menganimasikan Elemen Kategori di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan presentasi Java Anda dengan Aspose.Slides untuk Java. Pelajari cara menganimasikan elemen kategori dalam slide PowerPoint langkah demi langkah.
+type: docs
 weight: 10
 url: /id/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Elemen Kategori Animasi di Slide Java
 
@@ -121,10 +117,3 @@ Ya, Anda dapat menerapkan animasi serupa ke jenis bagan lainnya dengan memodifik
 ### Bagaimana cara mempelajari lebih lanjut tentang Aspose.Slides untuk Java?
 
  Untuk dokumentasi komprehensif dan sumber daya tambahan, kunjungi[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/) . Anda juga dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

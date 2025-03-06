@@ -3,14 +3,10 @@ title: Xóa tính năng chống ghi trong Java Slides
 linktitle: Xóa tính năng chống ghi trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách loại bỏ tính năng chống ghi trong bản trình bày Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước có kèm theo mã nguồn.
+type: docs
 weight: 10
 url: /vi/java/document-protection/remove-write-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Xóa tính năng chống ghi trong Java Slides
 
@@ -112,9 +108,3 @@ Có, việc xóa tính năng bảo vệ ghi theo chương trình phải được
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tham khảo tài liệu về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

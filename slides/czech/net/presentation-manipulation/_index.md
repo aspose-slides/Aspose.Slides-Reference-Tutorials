@@ -3,14 +3,10 @@ title: Manipulace s prezentací
 linktitle: Manipulace s prezentací
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Odemkněte potenciál manipulace s prezentacemi pomocí výukových programů Aspose.Slides for .NET. Naučte se, jak dynamicky vytvářet, přizpůsobovat a vylepšovat prezentace PowerPoint programově. Zvyšte své dovednosti zpracování PowerPointu ještě dnes!
+type: docs
 weight: 11
 url: /cs/net/presentation-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 oblasti zpracování PowerPointu se Aspose.Slides for .NET ukazuje jako výkonný nástroj pro manipulaci s prezentacemi. Tato sbírka výukových programů poskytuje komplexní návod, jak využít možnosti Aspose.Slides k programové manipulaci a vylepšování prezentací. Od vytváření, úprav a uspořádání snímků až po správu textu, obrázků a multimediálních prvků, tyto výukové programy nabízejí krok za krokem cestu do světa dynamického generování a přizpůsobení prezentací. Ať už automatizujete prezentační úlohy, generujete zprávy nebo vytváříte interaktivní prezentace, tyto výukové programy dávají vývojářům znalosti k efektivnímu ovládání Aspose.Slides.
 
 ## Manipulace s prezentací
@@ -55,9 +51,3 @@ Naučte se exportovat PowerPointové prezentace do HTML se soubory CSS pomocí A
 Naučte se provádět převod SVG pro prezentace pomocí Aspose.Slides for .NET. Tento komplexní průvodce obsahuje podrobné pokyny, příklady zdrojového kódu a různé možnosti převodu SVG.
 ### [Formátování SVG v prezentacích](./formatting-svgs-in-presentations/)
 Optimalizujte své prezentace pomocí ohromujících souborů SVG pomocí Aspose.Slides pro .NET. Naučte se krok za krokem formátovat SVG pro působivé vizuály. Pozvedněte svou prezentační hru ještě dnes! 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

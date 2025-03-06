@@ -3,14 +3,10 @@ title: Highlight Text in PowerPoint with Java
 linktitle: Highlight Text in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to highlight text in PowerPoint using Aspose.Slides for Java. Automate and enhance presentations effortlessly with our detailed guide.
+type: docs
 weight: 10
 url: /java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In today's digital age, where visual communication plays a pivotal role in business presentations and educational materials, having the ability to manipulate and enhance PowerPoint presentations programmatically is a significant advantage. Aspose.Slides for Java empowers developers with a robust set of tools to seamlessly integrate and manipulate PowerPoint slides using Java programming language. Whether you are automating the creation of presentations, modifying existing ones, or extracting data from slides, Aspose.Slides for Java provides the necessary functionalities to achieve these tasks efficiently.
 ## Prerequisites
@@ -66,10 +62,3 @@ You can obtain a temporary license [here](https://purchase.aspose.com/temporary-
 Aspose.Slides for Java supports saving presentations in various formats including PPTX, PPT, PDF, and more.
 ### Is Aspose.Slides for Java compatible with Java SE Development Kit?
 Yes, Aspose.Slides for Java is compatible with the Java SE Development Kit.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

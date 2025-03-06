@@ -3,14 +3,10 @@ title: プレゼンテーションを強化 - Aspose.Slides で四角形をフ�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの四角形を書式設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションで四角形の図形を書式設定する方法を学びます。動的な視覚要素を使用してスライドのレベルを高めます。
+type: docs
 weight: 12
 url: /ja/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for .NET は、.NET 環境での PowerPoint プレゼンテーションの操作を容易にする強力なライブラリです。四角形を動的に書式設定してプレゼンテーションを強化したい場合は、このチュートリアルが最適です。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションで四角形を書式設定するプロセスについて説明します。
 ## 前提条件
@@ -80,9 +76,3 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 はい、無料トライアルにアクセスできます[ここ](https://releases.aspose.com/).
 ### Q5: Aspose.Slides for .NET はどこで購入できますか?
  Aspose.Slides for .NETを購入できます[ここ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

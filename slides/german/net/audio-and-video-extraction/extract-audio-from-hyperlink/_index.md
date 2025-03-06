@@ -3,14 +3,10 @@ title: Extrahieren Sie Audio aus PowerPoint-Hyperlinks mit Aspose.Slides
 linktitle: Audio aus Hyperlink extrahieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Extrahieren Sie Audio aus Hyperlinks in PowerPoint-Präsentationen mit Aspose.Slides für .NET. Verbessern Sie Ihre Multimediaprojekte mühelos.
+type: docs
 weight: 12
 url: /de/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der Multimediapräsentationen spielt Audio eine entscheidende Rolle bei der Verbesserung der Gesamtwirkung Ihrer Folien. Sind Sie schon einmal auf eine PowerPoint-Präsentation mit Audio-Hyperlinks gestoßen und haben sich gefragt, wie Sie den Ton für andere Zwecke extrahieren können? Mit Aspose.Slides für .NET können Sie diese Aufgabe mühelos erledigen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Extrahierens von Audio aus einem Hyperlink in einer PowerPoint-Präsentation.
 
@@ -109,10 +105,3 @@ Ja, Sie können eine temporäre Lizenz für Aspose.Slides für .NET erwerben, um
 
 ### Werden für die Extraktion außer MPG noch andere Audioformate unterstützt?
 Mit Aspose.Slides für .NET können Sie Audio in verschiedenen Formaten extrahieren, nicht nur in MPG. Sie können es nach der Extraktion in Ihr bevorzugtes Format konvertieren.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

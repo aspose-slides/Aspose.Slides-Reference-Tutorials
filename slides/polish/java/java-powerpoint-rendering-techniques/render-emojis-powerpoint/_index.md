@@ -3,14 +3,10 @@ title: Renderuj emotikony w programie PowerPoint
 linktitle: Renderuj emotikony w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bez wysiłku renderować emotikony w prezentacjach programu PowerPoint, korzystając z Aspose.Slides dla Java. Zwiększ zaangażowanie dzięki wyrazistym efektom wizualnym.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Emotikony stały się integralną częścią komunikacji, dodając koloru i emocji naszym prezentacjom. Dodanie emoji do slajdów programu PowerPoint może zwiększyć zaangażowanie i w prosty sposób przekazać złożone pomysły. W tym samouczku przeprowadzimy Cię przez proces renderowania emoji w programie PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -56,9 +52,3 @@ Tak, możesz programowo dostosować rozmiar, położenie i inne właściwości r
 Tak, Aspose.Slides for Java jest kompatybilny ze wszystkimi wersjami programu PowerPoint, zapewniając płynne renderowanie emoji na różnych platformach.
 ### Czy dostępna jest wersja próbna Aspose.Slides dla Java?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla Java z[strona internetowa](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed zakupem.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

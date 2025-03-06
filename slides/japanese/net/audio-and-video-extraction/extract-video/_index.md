@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET を使用してスライドからビデオを抽�
 linktitle: スライドからビデオを抽出する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドからビデオを抽出する方法を学びます。このステップ バイ ステップ ガイドでは、プロセスが簡素化されます。
+type: docs
 weight: 14
 url: /ja/net/audio-and-video-extraction/extract-video/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET は、.NET 環境で PowerPoint プレゼンテーションを操作できる強力なライブラリです。このライブラリが提供する便利な機能の 1 つは、スライドからビデオを抽出する機能です。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して PowerPoint スライドからビデオを抽出する方法を説明します。
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET は、コンテンツの作成、編集、抽出など、
 
 ### Aspose.Slides for .NET のサポートはどこで受けられますか?
 サポートについては、[Aspose.Slides フォーラム](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

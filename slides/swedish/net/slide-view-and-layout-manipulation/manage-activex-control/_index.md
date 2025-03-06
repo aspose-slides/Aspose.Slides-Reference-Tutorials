@@ -3,14 +3,10 @@ title: Hantera ActiveX-kontroll i PowerPoint
 linktitle: Hantera ActiveX-kontroll i PowerPoint
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar PowerPoint-presentationer med ActiveX-kontroller med Aspose.Slides för .NET. Vår steg-för-steg-guide täcker insättning, manipulation, anpassning, händelsehantering och mer.
+type: docs
 weight: 13
 url: /sv/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ActiveX-kontroller är kraftfulla element som kan förbättra funktionaliteten och interaktiviteten i dina PowerPoint-presentationer. Dessa kontroller låter dig bädda in och manipulera objekt som multimediaspelare, datainmatningsformulär och mer direkt i dina bilder. I den här artikeln kommer vi att utforska hur du hanterar ActiveX-kontroller i PowerPoint med Aspose.Slides för .NET, ett mångsidigt bibliotek som möjliggör sömlös integrering och manipulering av PowerPoint-filer i dina .NET-applikationer.
 
 ## Lägga till ActiveX-kontroller till PowerPoint-bilder
@@ -153,9 +149,3 @@ Du kan hantera händelser som utlöses av ActiveX-kontroller genom att prenumere
 ### Kan jag ta bort en ActiveX-kontroll från en bild?
 
  Ja, du kan ta bort en ActiveX-kontroll från en bild med hjälp av`Remove` metod för`Shapes` samling. Skicka referensen till`IOleObjectFrame` representerar kontrollen som ett argument till`Remove` metod och kontrollen tas bort från bilden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

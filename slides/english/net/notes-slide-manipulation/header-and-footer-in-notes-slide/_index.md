@@ -3,14 +3,10 @@ title: Managing Header and Footer in Notes with Aspose.Slides .NET
 linktitle: Manage Header and Footer in Notes Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to manage header and footer in PowerPoint notes slides using Aspose.Slides for .NET. Enhance your presentations effortlessly.
+type: docs
 weight: 11
 url: /net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In today's digital age, creating engaging and informative presentations is a vital skill. As part of this process, you may often need to include headers and footers in your notes slides to provide additional context and information. Aspose.Slides for .NET is a powerful tool that enables you to manage header and footer settings in notes slides with ease. In this step-by-step guide, we will explore how to achieve this using Aspose.Slides for .NET.
 
@@ -124,10 +120,3 @@ Absolutely, Aspose.Slides for .NET allows you to automate PowerPoint presentatio
 
 ### Is technical support available for Aspose.Slides for .NET users?
 Yes, you can find support and assistance from the Aspose community and experts on the [Aspose support forum](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

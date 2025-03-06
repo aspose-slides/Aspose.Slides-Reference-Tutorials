@@ -3,14 +3,10 @@ title: Как извлечь видео из слайда с помощью Aspo
 linktitle: Извлечь видео из слайда
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как извлекать видео из слайдов PowerPoint с помощью Aspose.Slides для .NET. Это пошаговое руководство упростит для вас этот процесс.
+type: docs
 weight: 14
 url: /ru/net/audio-and-video-extraction/extract-video/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET — это мощная библиотека, позволяющая работать с презентациями PowerPoint в среде .NET. Одной из полезных функций, которые он предоставляет, является возможность извлекать видео из слайдов. В этом пошаговом руководстве мы покажем вам, как извлечь видео из слайда PowerPoint с помощью Aspose.Slides для .NET.
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET — это библиотека, которая позв�
 
 ### Где я могу получить поддержку Aspose.Slides для .NET?
  Вы можете найти поддержку на[Форум Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

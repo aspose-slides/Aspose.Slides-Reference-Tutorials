@@ -3,14 +3,10 @@ title: PowerPoint の指定セクションにスライドを複製する
 linktitle: PowerPoint の指定セクションにスライドを複製する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用すると、PowerPoint の特定のセクションにスライドを簡単に複製できます。このステップ バイ ステップ ガイドを使用してプレゼンテーションを強化します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 PowerPoint プレゼンテーションの作成プロセスを効率化したいとお考えですか? プレゼンテーションの特定のセクションにスライドを簡単に複製できるとしたらどうでしょう。Aspose.Slides for Java を使用すると、これが簡単になります。このチュートリアルでは、プロセスをステップごとに説明し、プレゼンテーションを簡単かつ正確に強化できるようにします。
 ## 前提条件
@@ -80,9 +76,3 @@ if (presentation != null) presentation.dispose();
 試用版にはいくつかの制限があります。完全な機能を利用するには、有料版の購入を検討してください。[一時ライセンス](https://purchase.aspose.com/temporary-license/).
 ### より詳細なドキュメントはどこで見つかりますか?
 詳細なドキュメントは、[Aspose.Slides ドキュメント ページ](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

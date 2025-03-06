@@ -3,14 +3,10 @@ title: แปลงเป็น Markdown ใน Java Slides
 linktitle: แปลงเป็น Markdown ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: แปลงงานนำเสนอ PowerPoint เป็น Markdown ด้วย Aspose.Slides สำหรับ Java ทำตามคำแนะนำทีละขั้นตอนนี้เพื่อแปลงสไลด์ของคุณอย่างง่ายดาย
+type: docs
 weight: 24
 url: /th/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## บทนำ แปลงเป็น Markdown ใน Java Slides
 
@@ -140,9 +136,3 @@ try {
 ### ฉันจะหาเอกสารและแหล่งข้อมูลเพิ่มเติมได้จากที่ไหน?
 
  คุณสามารถอ้างถึงเอกสารประกอบ Aspose.Slides สำหรับ Java ได้ที่[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/) สำหรับข้อมูลโดยละเอียดและตัวอย่างเพิ่มเติม
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

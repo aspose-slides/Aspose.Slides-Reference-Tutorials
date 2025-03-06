@@ -3,14 +3,10 @@ title: Khám phá các tính năng biểu đồ nâng cao với Aspose.Slides ch
 linktitle: Các tính năng biểu đồ bổ sung trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu các tính năng biểu đồ nâng cao trong Aspose.Slides for .NET để cải thiện bản trình bày PowerPoint của bạn. Xóa điểm dữ liệu, khôi phục sổ làm việc và hơn thế nữa!
+type: docs
 weight: 10
 url: /vi/net/additional-chart-features/additional-chart-features/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thế giới trực quan hóa dữ liệu và thiết kế bản trình bày, Aspose.Slides for .NET nổi bật như một công cụ mạnh mẽ để tạo các biểu đồ tuyệt đẹp và nâng cao bản trình bày PowerPoint của bạn. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua các tính năng biểu đồ nâng cao khác nhau mà Aspose.Slides for .NET cung cấp. Cho dù bạn là nhà phát triển hay người đam mê thuyết trình, hướng dẫn này sẽ giúp bạn tận dụng toàn bộ tiềm năng của thư viện này.
 
@@ -152,9 +148,3 @@ Có, bạn có thể sử dụng Aspose.Slides for .NET để tạo biểu đồ
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc trợ giúp với Aspose.Slides cho .NET?
 
 Đối với bất kỳ câu hỏi hoặc hỗ trợ kỹ thuật nào, bạn có thể truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/), nơi bạn có thể tìm thấy câu trả lời cho các câu hỏi phổ biến và nhận trợ giúp từ cộng đồng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

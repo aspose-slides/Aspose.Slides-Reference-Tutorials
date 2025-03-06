@@ -3,14 +3,10 @@ title: Заполните фигуры изображением в PowerPoint
 linktitle: Заполните фигуры изображением в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как заполнять фигуры изображениями в презентациях PowerPoint с помощью Aspose.Slides для Java. Повысьте визуальную привлекательность без особых усилий.
+type: docs
 weight: 12
 url: /ru/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Презентации PowerPoint часто требуют визуальных элементов, таких как фигуры, заполненные изображениями, чтобы повысить их привлекательность и эффективно передать информацию. Aspose.Slides for Java предоставляет мощный набор инструментов для легкого выполнения этой задачи. В этом уроке мы шаг за шагом научимся заполнять фигуры изображениями с помощью Aspose.Slides для Java.
 ## Предварительные условия
@@ -84,9 +80,3 @@ Aspose.Slides for Java создает презентации, совместим
 Aspose.Slides for Java поддерживает широкий спектр форматов изображений, включая JPEG, PNG, GIF, BMP и TIFF и другие.
 ### Могу ли я применять эффекты к заполненным фигурам?
 Да, Aspose.Slides для Java предоставляет комплексные API-интерфейсы для применения различных эффектов, таких как тени, отражения и трехмерное вращение, к заполненным фигурам.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

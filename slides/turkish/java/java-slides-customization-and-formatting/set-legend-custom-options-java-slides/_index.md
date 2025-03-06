@@ -3,14 +3,10 @@ title: Java Slaytlarında Açıklama Özel Seçeneklerini Ayarlama
 linktitle: Java Slaytlarında Açıklama Özel Seçeneklerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta özel gösterge seçeneklerini nasıl ayarlayacağınızı öğrenin. PowerPoint grafiklerinizde açıklama konumunu ve boyutunu özelleştirin.
+type: docs
 weight: 14
 url: /tr/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Gösterge Özel Seçeneklerini Ayarlamaya Giriş
 
@@ -135,9 +131,3 @@ Bu eğitimde Aspose.Slides for Java kullanarak bir PowerPoint sunumundaki grafi�
 ## Diğer gösterge niteliklerini özelleştirebilir miyim?
 
 Evet, yazı tipi stili, kenarlık, arka plan rengi ve daha fazlası gibi açıklamanın çeşitli özelliklerini özelleştirebilirsiniz. Göstergeleri daha fazla özelleştirme hakkında ayrıntılı bilgi için Aspose.Slides belgelerini inceleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

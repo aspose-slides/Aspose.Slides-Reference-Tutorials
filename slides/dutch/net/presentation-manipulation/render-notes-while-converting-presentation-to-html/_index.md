@@ -3,14 +3,10 @@ title: Geef notities weer tijdens het converteren van de presentatie naar HTML
 linktitle: Geef notities weer tijdens het converteren van de presentatie naar HTML
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u effectief sprekernotities kunt weergeven terwijl u een presentatie naar HTML converteert met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncodevoorbeelden en inzichten om u te helpen een naadloze conversie te realiseren met behoud van notities.
+type: docs
 weight: 28
 url: /nl/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In het huidige digitale tijdperk is het converteren van presentaties naar HTML-formaat een algemene vereiste geworden. Hiermee kunt u uw presentaties eenvoudig op internet delen, waardoor ze toegankelijk worden voor een breder publiek. Aspose.Slides voor .NET is een krachtige tool die dit proces vereenvoudigt. In deze stapsgewijze zelfstudie begeleiden we u door het proces van het converteren van een presentatie naar HTML met Aspose.Slides voor .NET.
 
@@ -83,10 +79,3 @@ Ja, Aspose.Slides voor .NET ondersteunt verschillende PowerPoint-formaten, waaro
  Als u problemen ondervindt of vragen heeft, kunt u hulp zoeken op de[Aspose.Slides-forum](https://forum.aspose.com/).
 
 Door deze stappen te volgen, kunt u uw PowerPoint-presentaties eenvoudig naar HTML converteren met Aspose.Slides voor .NET. Geniet van het online delen van uw presentaties met een breder publiek!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

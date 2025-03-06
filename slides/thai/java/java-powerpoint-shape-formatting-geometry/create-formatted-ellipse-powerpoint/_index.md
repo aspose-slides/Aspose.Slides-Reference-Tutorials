@@ -3,14 +3,10 @@ title: สร้างวงรีที่จัดรูปแบบใน Pow
 linktitle: สร้างวงรีที่จัดรูปแบบใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างวงรีที่จัดรูปแบบใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
+type: docs
 weight: 17
 url: /th/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการสร้างวงรีที่จัดรูปแบบใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java Aspose.Slides เป็นไลบรารีที่ทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการไฟล์ PowerPoint โดยทางโปรแกรม ไม่ว่าคุณจะสร้างสไลด์อัตโนมัติหรือปรับปรุงการนำเสนอด้วยรูปร่างที่กำหนดเอง คู่มือนี้จะแนะนำคุณในทุกขั้นตอน เพื่อให้มั่นใจว่าคุณสามารถเพิ่มวงรีที่มีรูปแบบสมบูรณ์แบบให้กับสไลด์ของคุณได้อย่างง่ายดาย มาเจาะลึกและดูว่าเราจะบรรลุเป้าหมายนี้ได้อย่างไร!
 ## ข้อกำหนดเบื้องต้น
@@ -99,9 +95,3 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
  คุณสามารถดูเอกสารโดยละเอียดได้ที่ Aspose.Slides สำหรับ Java[หน้าเอกสาร](https://reference.aspose.com/slides/java/).
 ### มีการรองรับ Aspose.Slides หรือไม่
  ใช่ Aspose ให้การสนับสนุนผ่านทางพวกเขา[ฟอรั่ม](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides - إتقان تكبير الملخص في .NET
 linktitle: إنشاء تكبير ملخص في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: ارفع مستوى عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعلم كيفية إنشاء ملخصات Zoom جذابة دون عناء. قم بالتنزيل الآن للاستمتاع بتجربة الشرائح الديناميكية.
+type: docs
 weight: 16
 url: /ar/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، تبرز Aspose.Slides for .NET كأداة قوية لتحسين تجربة إنشاء الشرائح الخاصة بك. إحدى الميزات البارزة التي تقدمها هي القدرة على إنشاء تكبير ملخص، وهي طريقة جذابة بصريًا لتقديم مجموعة من الشرائح. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء ملخص تكبير في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -83,9 +79,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
 اعتبارًا من الإصدار الأخير، لا توجد قيود صارمة على عدد الأقسام التي يمكنك إضافتها إلى العرض التقديمي.
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides؟
 نعم، يمكنك استكشاف ميزات Aspose.Slides عن طريق تنزيل الملف[نسخة تجريبية مجانية](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

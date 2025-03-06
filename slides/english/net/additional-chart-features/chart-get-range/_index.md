@@ -3,14 +3,10 @@ title: How to Get Chart Data Range in Aspose.Slides for .NET
 linktitle: Get Chart Data Range
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to extract chart data range from PowerPoint presentations using Aspose.Slides for .NET. A step-by-step guide for developers.
+type: docs
 weight: 11
 url: /net/additional-chart-features/chart-get-range/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Are you looking to extract the data range from a chart in your PowerPoint presentation using Aspose.Slides for .NET? You've come to the right place. In this step-by-step guide, we will walk you through the process of obtaining the chart data range from your presentation. Aspose.Slides for .NET is a powerful library that enables you to work with PowerPoint documents programmatically, and getting the chart data range is just one of the many tasks it can help you accomplish.
 
@@ -97,10 +93,3 @@ You can request a temporary license from [here](https://purchase.aspose.com/temp
 
 ### What kind of support options are available for Aspose.Slides for .NET users?
 You can get support and assistance from the Aspose community on their [support forum](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

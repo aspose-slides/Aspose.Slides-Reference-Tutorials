@@ -3,14 +3,10 @@ title: Java Slaytlarında Özellikler Grafiklerini Yönetme
 linktitle: Java Slaytlarında Özellikler Grafiklerini Yönetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile çarpıcı grafikler oluşturmayı ve Java slaytlarındaki özellikleri yönetmeyi öğrenin. Güçlü sunumlar için kaynak kodlu adım adım kılavuz.
+type: docs
 weight: 13
 url: /tr/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides kullanarak Java Slaytlarında Özellikleri ve Grafikleri Yönetmeye Giriş
 
@@ -202,9 +198,3 @@ Evet, seri veri noktalarının veya kategorilerinin dolgu özelliklerini ayarlay
 ### Başka hangi 3B özelliklerini özelleştirebilirim?
 
 Aspose.Slides belgelerine başvurarak grafiğin derinlik, perspektif ve aydınlatma gibi diğer 3B özelliklerini keşfedebilirsiniz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

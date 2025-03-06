@@ -3,14 +3,10 @@ title: SmartArt の特定の位置にある子ノードにアクセスする
 linktitle: SmartArt の特定の位置にある子ノードにアクセスする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なガイドで、Aspose.Slides for Java で SmartArt を操作する方法を学びます。ステップバイステップの手順、例、ベスト プラクティスが含まれています。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 洗練された SmartArt グラフィックを使用して、プレゼンテーションを次のレベルに引き上げたいとお考えですか? もう探す必要はありません。Aspose.Slides for Java は、SmartArt オブジェクトを操作する機能を含む、プレゼンテーション スライドの作成、操作、管理のための強力なスイートを提供します。この包括的なチュートリアルでは、Aspose.Slides for Java ライブラリを使用して、SmartArt グラフィック内の特定の位置にある子ノードにアクセスして操作する方法について説明します。
 
@@ -102,9 +98,3 @@ System.out.println(outString);
 サポートを受けるには[Aspose コミュニティ フォーラム](https://forum.aspose.com/c/slides/11)または、広範な[ドキュメンテーション](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のフルライセンスを購入できますか?
 はい、フルライセンスは[購入ページ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

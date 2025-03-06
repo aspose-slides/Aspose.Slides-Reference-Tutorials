@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày HTML bằng hình ảnh nhúng
 linktitle: Chuyển đổi bản trình bày HTML bằng hình ảnh nhúng
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang HTML bằng hình ảnh được nhúng bằng Aspose.Slides cho .NET. Hướng dẫn từng bước để chuyển đổi liền mạch.
+type: docs
 weight: 11
 url: /vi/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thế giới kỹ thuật số ngày nay, nhu cầu chuyển đổi bài thuyết trình PowerPoint sang HTML ngày càng trở nên quan trọng. Cho dù đó là để chia sẻ nội dung trực tuyến hay tạo bản trình bày dựa trên web, khả năng chuyển đổi tệp PowerPoint của bạn sang HTML có thể là một tài sản có giá trị. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn thực hiện các chuyển đổi như vậy một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày HTML có hình ảnh được nhúng bằng Aspose.Slides cho .NET.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET hỗ trợ chuyển đổi bản trình bày với nhiề
 
 ### Tôi có thể chuyển đổi bản trình bày PowerPoint sang định dạng nào khác bằng Aspose.Slides cho .NET?
 Aspose.Slides for .NET hỗ trợ chuyển đổi sang nhiều định dạng khác nhau, bao gồm PDF, hình ảnh, v.v. Kiểm tra tài liệu để biết danh sách đầy đủ các định dạng được hỗ trợ.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

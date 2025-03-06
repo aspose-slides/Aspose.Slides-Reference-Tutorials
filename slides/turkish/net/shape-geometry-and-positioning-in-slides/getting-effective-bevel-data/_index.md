@@ -3,14 +3,10 @@ title: Slaytlarda Etkili Eğim Verisi Alma Sihrini Ortaya Çıkarıyoruz
 linktitle: Sunum Slaytlarında Şekil İçin Etkili Eğim Verileri Alma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak sunum slaytlarınızı etkili eğim verileriyle nasıl geliştireceğinizi öğrenin. Adım adım talimatlar ve örnek kod içeren kapsamlı bir kılavuz.
+type: docs
 weight: 20
 url: /tr/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Benzersiz kolaylıkla çarpıcı sunumlar oluşturmanın kapısı olan Aspose.Slides for .NET'in büyüleyici dünyasına hoş geldiniz. Bu derste Aspose.Slides for .NET kullanarak sunum slaytlarındaki şekiller için etkili eğim verileri elde etmenin inceliklerini inceleyeceğiz.
 ## Önkoşullar
@@ -73,9 +69,3 @@ Evet, Aspose.Slides for .NET, çok çeşitli .NET Framework sürümlerini destek
  Evet, Aspose.Slides for .NET'i satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) ticari projelere yönelik premium özelliklerinin kilidini açmak için.
 ### Uygulama sırasında sorunlarla karşılaşırsam ne olur?
  Aspose.Slides for .NET topluluğundan yardım isteyin.[destek Forumu](https://forum.aspose.com/c/slides/11) Hızlı ve yararlı çözümler için.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Sunburst-diagram i Java Slides
 linktitle: Sunburst-diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa fantastiska Sunburst-diagram i Java Slides med Aspose.Slides. Lär dig steg-för-steg-diagramskapande och datamanipulation.
+type: docs
 weight: 16
 url: /sv/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Sunburst Chart i Java Slides med Aspose.Slides
 
@@ -172,9 +168,3 @@ För att lägga till verktygstips till Sunburst-diagrammet kan du ställa in dat
 ### Är det möjligt att skapa interaktiva Sunburst-diagram med hyperlänkar?
 
 Ja, du kan skapa interaktiva Sunburst-diagram med hyperlänkar genom att lägga till hyperlänkar till specifika diagramelement eller segment. Se Aspose.Slides-dokumentationen för detaljer om hur du lägger till hyperlänkar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

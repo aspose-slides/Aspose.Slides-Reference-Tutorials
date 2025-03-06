@@ -3,14 +3,10 @@ title: Adicionar marcadores de parágrafo no PowerPoint usando Java
 linktitle: Adicionar marcadores de parágrafo no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar marcadores de parágrafo em slides do PowerPoint usando Aspose.Slides para Java. Este tutorial orienta você passo a passo com exemplos de código.
+type: docs
 weight: 15
 url: /pt/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Adicionar marcadores de parágrafo melhora a legibilidade e a estrutura das apresentações do PowerPoint. Aspose.Slides for Java fornece ferramentas robustas para manipular apresentações programaticamente, incluindo a capacidade de formatar texto com vários estilos de marcadores. Neste tutorial, você aprenderá como integrar marcadores em slides do PowerPoint usando código Java, aproveitando Aspose.Slides.
 ## Pré-requisitos
@@ -93,9 +89,3 @@ Sim, você pode aplicar estilos de marcadores exclusivos a diferentes slides de 
 Sim, Aspose.Slides suporta Java 11 e versões superiores.
 ### Onde posso encontrar mais exemplos e documentação?
  Visita[Aspose.Slides para documentação Java](https://reference.aspose.com/slides/java/) para guias e exemplos completos.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

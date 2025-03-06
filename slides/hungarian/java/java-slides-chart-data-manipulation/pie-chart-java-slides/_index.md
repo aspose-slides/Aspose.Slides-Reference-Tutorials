@@ -3,14 +3,10 @@ title: Kördiagram a Java Slides-ben
 linktitle: Kördiagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre lenyűgöző kördiagramokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal Java fejlesztők számára.
+type: docs
 weight: 23
 url: /hu/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a kördiagram létrehozásába Java Slides programban az Aspose.Slides használatával
 
@@ -287,9 +283,3 @@ Igen, az Aspose.Slides for Java különféle diagramtípusokat támogat, beleér
 ### Hogyan találhatok további információkat és példákat az Aspose.Slides for Java programhoz?
 
  További információkért, részletes dokumentációért és további példákért keresse fel a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/). Átfogó forrásokat biztosít a könyvtár hatékony használatához.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

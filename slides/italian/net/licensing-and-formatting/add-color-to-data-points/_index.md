@@ -3,14 +3,10 @@ title: Colorazione del grafico con Aspose.Slides per .NET
 linktitle: Aggiungi colore ai punti dati nel grafico
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come aggiungere colore ai punti dati in un grafico con Aspose.Slides per .NET. Migliora visivamente le tue presentazioni e coinvolgi il tuo pubblico in modo efficace.
+type: docs
 weight: 12
 url: /it/net/licensing-and-formatting/add-color-to-data-points/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In questa guida passo passo, ti guideremo attraverso il processo di aggiunta di colore ai punti dati in un grafico utilizzando Aspose.Slides per .NET. Aspose.Slides è una potente libreria per lavorare con presentazioni PowerPoint in applicazioni .NET. L'aggiunta di colore ai punti dati in un grafico può rendere le tue presentazioni visivamente più accattivanti e più facili da comprendere.
 
@@ -119,9 +115,3 @@ Aggiungere colore ai punti dati in un grafico è un modo efficace per rendere le
 
 ### Come posso ottenere supporto per Aspose.Slides per .NET?
     Per supporto e discussioni, visitare il[Forum Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

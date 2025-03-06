@@ -3,14 +3,10 @@ title: Printing Presentations with Default Printer in Aspose.Slides
 linktitle: Printing Presentations with Default Printer in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Unlock seamless PowerPoint printing in .NET with Aspose.Slides. Follow our step-by-step guide for easy integration. Elevate your application's functionality now!
+type: docs
 weight: 10
 url: /net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the realm of .NET development, Aspose.Slides stands out as a powerful tool for creating, manipulating, and rendering PowerPoint presentations. Among its array of features, the ability to print presentations directly to the default printer is a handy functionality that developers often seek. This tutorial will guide you through the process step by step, making it accessible even if you're relatively new to Aspose.Slides.
 ## Prerequisites
@@ -55,10 +51,3 @@ Explore the documentation [here](https://reference.aspose.com/slides/net/) for c
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
 ### How can I seek assistance or connect with the Aspose.Slides community?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to ask questions, share insights, and connect with fellow developers.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

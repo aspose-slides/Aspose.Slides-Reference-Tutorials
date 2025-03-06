@@ -3,14 +3,10 @@ title: Сохранить как предопределенный тип пре�
 linktitle: Сохранить как предопределенный тип представления в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить предопределенные типы представления в Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода и часто задаваемыми вопросами.
+type: docs
 weight: 10
 url: /ru/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в сохранение как предопределенный тип представления в слайдах Java
 
@@ -113,9 +109,3 @@ Aspose.Slides для Java поддерживает различные форма
 ### Где я могу найти дополнительную информацию и документацию по Aspose.Slides для Java?
 
  Для получения полной документации и справок по Aspose.Slides for Java посетите веб-сайт документации:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

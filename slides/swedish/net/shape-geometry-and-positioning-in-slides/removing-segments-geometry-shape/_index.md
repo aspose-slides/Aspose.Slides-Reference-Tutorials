@@ -3,14 +3,10 @@ title: Ta bort formsegment - Aspose.Slides .NET Tutorial
 linktitle: Ta bort segment från Geometry Shape i presentationsbilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du tar bort segment från geometriska former i presentationsbilder med Aspose.Slides API för .NET. Steg-för-steg guide med källkod.
+type: docs
 weight: 16
 url: /sv/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att skapa visuellt tilltalande presentationer innebär ofta att man manipulerar former och element för att uppnå önskad design. Med Aspose.Slides för .NET kan utvecklare enkelt kontrollera formernas geometri, vilket gör det möjligt att ta bort specifika segment. I den här handledningen kommer vi att guida dig genom processen att ta bort segment från en geometrisk form i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -72,9 +68,3 @@ Implementera korrekt felhantering med hjälp av try-catch-block.
 Nej, ändringarna är oåterkalleliga efter att de har sparats. Överväg att spara säkerhetskopior innan ändringar.
 ### Var kan jag söka ytterligare stöd eller hjälp?
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

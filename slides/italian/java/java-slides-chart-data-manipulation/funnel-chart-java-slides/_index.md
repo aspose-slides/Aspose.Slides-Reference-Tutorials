@@ -3,14 +3,10 @@ title: Grafico a imbuto nelle diapositive Java
 linktitle: Grafico a imbuto nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara a creare grafici a imbuto nelle presentazioni PowerPoint con Aspose.Slides per Java. Guida passo passo con codice sorgente per una visualizzazione efficace dei dati.
+type: docs
 weight: 18
 url: /it/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione alla creazione di un grafico a imbuto in Aspose.Slides per Java
 
@@ -141,9 +137,3 @@ Puoi regolare la posizione e le dimensioni del grafico a imbuto modificando le c
 ### Posso esportare il grafico in diversi formati, come PDF o immagine?
 
 Sì, Aspose.Slides per Java ti consente di esportare la presentazione con il grafico a imbuto in vari formati, inclusi PDF, formati di immagine e altro. Puoi usare il`SaveFormat` opzioni per specificare il formato di output desiderato quando si salva la presentazione.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

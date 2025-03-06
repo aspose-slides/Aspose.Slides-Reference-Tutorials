@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 访问幻灯片注释
 linktitle: 访问幻灯片评论
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 访问 PowerPoint 演示文稿中的幻灯片注释。轻松增强协作和工作流程。
+type: docs
 weight: 11
 url: /zh/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在动态和交互式演示的世界中，管理幻灯片中的注释可能是协作过程的关键部分。 Aspose.Slides for .NET 提供了一个强大而多功能的解决方案来访问和操作幻灯片注释，从而增强了您的演示工作流程。 在本分步指南中，我们将深入研究使用 Aspose.Slides for .NET 访问幻灯片注释的过程。
 
@@ -116,9 +112,3 @@ Aspose.Slides for .NET 是一个功能强大的库，允许开发人员以编程
 
 ### 我可以购买 Aspose.Slides for .NET 的许可证吗？
 是的，您可以从以下网站购买 Aspose.Slides for .NET 许可证[此链接](https://purchase.aspose.com/buy)在您的项目中充分发挥库的潜力。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

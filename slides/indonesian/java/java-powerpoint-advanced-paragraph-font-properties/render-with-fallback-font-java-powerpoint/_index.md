@@ -3,14 +3,10 @@ title: Render dengan Font Fallback di Java PowerPoint
 linktitle: Render dengan Font Fallback di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara merender teks dengan font fallback dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah ini untuk penerapan yang lancar.
+type: docs
 weight: 13
 url: /id/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Membuat dan memanipulasi presentasi PowerPoint di Java dapat menjadi tantangan, namun dengan Aspose.Slides, Anda dapat melakukannya secara efisien. Salah satu fitur penting adalah kemampuan untuk merender teks dengan font fallback. Artikel ini memberikan panduan langkah demi langkah terperinci tentang cara menerapkan font fallback di slide PowerPoint Anda menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -92,9 +88,3 @@ Font cadangan adalah font alternatif yang digunakan ketika font tertentu tidak t
 Ya, Anda dapat menambahkan beberapa aturan cadangan untuk menangani rentang dan font Unicode yang berbeda.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides?
  Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

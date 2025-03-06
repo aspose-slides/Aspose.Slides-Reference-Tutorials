@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày sang PDF với Cập nhật tiến đ�
 linktitle: Chuyển đổi bản trình bày sang PDF với Cập nhật tiến độ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày sang PDF với các bản cập nhật tiến độ bằng Aspose.Slides cho .NET. Hướng dẫn từng bước có kèm theo mã nguồn.
+type: docs
 weight: 29
 url: /vi/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thời đại kỹ thuật số ngày nay, việc chuyển đổi bài thuyết trình sang PDF là một yêu cầu phổ biến, đặc biệt là trong lĩnh vực kinh doanh và giáo dục. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để hoàn thành nhiệm vụ này một cách dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày sang PDF đồng thời theo dõi tiến trình chuyển đổi.
 
@@ -89,9 +85,3 @@ Trả lời: Có, Aspose.Slides cho .NET được cập nhật thường xuyên 
 
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Đáp: Bạn có thể tìm thấy sự hỗ trợ và thảo luận cộng đồng tại[https://forum.aspose.com/](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Állítsa be a szövegkeret automatikus illeszkedését a Java PowerPoint
 linktitle: Állítsa be a szövegkeret automatikus illeszkedését a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a szövegkeretek automatikus illeszkedését a Java PowerPointban az Aspose.Slides for Java segítségével. Hozzon létre dinamikus prezentációkat könnyedén.
+type: docs
 weight: 14
 url: /hu/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Java-alkalmazások fejlesztésében általános követelmény a dinamikus és látványos PowerPoint-prezentációk programozott létrehozása. Az Aspose.Slides for Java hatékony API-készletet biztosít ennek könnyed eléréséhez. Az egyik alapvető funkció a szövegkeretek automatikus illeszkedésének beállítása, amely biztosítja, hogy a szöveg szépen igazodjon az alakzatokon belülre, kézi beállítás nélkül. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, és az Aspose.Slides for Java segítségével automatizálja a szövegillesztést a PowerPoint diákban.
 ## Előfeltételek
@@ -90,9 +86,3 @@ Az Aspose.Slides for Java egy robusztus Java API, amely lehetővé teszi a fejle
  Az Aspose.Slides for Java részletes dokumentációja megtalálható[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
  Az Aspose.Slides for Java-hoz közösségi és szakmai támogatást kaphat a webhelyen[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

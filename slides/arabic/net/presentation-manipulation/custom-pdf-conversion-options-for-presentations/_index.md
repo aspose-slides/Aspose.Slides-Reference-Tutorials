@@ -3,14 +3,10 @@ title: خيارات تحويل PDF مخصصة للعروض التقديمية
 linktitle: خيارات تحويل PDF مخصصة للعروض التقديمية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين خيارات تحويل PDF الخاصة بك للعروض التقديمية باستخدام Aspose.Slides for .NET. يغطي هذا الدليل خطوة بخطوة كيفية تحقيق إعدادات تحويل PDF مخصصة، مما يضمن التحكم الدقيق في مخرجاتك. قم بتحسين تحويلات العرض التقديمي الخاص بك اليوم.
+type: docs
 weight: 12
 url: /ar/net/presentation-manipulation/custom-pdf-conversion-options-for-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في عالم إدارة المستندات ومعالجتها، تبرز Aspose.Slides for .NET كأداة قوية للعمل مع العروض التقديمية. فهو يسمح لك بتحويل العروض التقديمية إلى تنسيقات مختلفة، بما في ذلك PDF، بمستوى عالٍ من التخصيص. في هذا البرنامج التعليمي خطوة بخطوة، سوف نستكشف كيفية استخدام Aspose.Slides لـ .NET لإجراء تحويلات PDF مخصصة. لذلك، احصل على معدات البرمجة الخاصة بك، ودعنا نتعمق!
 
@@ -98,9 +94,3 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
  بالنسبة لأية استفسارات فنية أو متعلقة بالاستخدام، يمكنك زيارة منتدى مجتمع Aspose للحصول على الدعم[هنا](https://forum.aspose.com/).
 
 الآن بعد أن أصبحت لديك المعرفة اللازمة لإجراء تحويلات PDF مخصصة، يمكنك المضي قدمًا وفتح إمكانيات جديدة في إدارة المستندات باستخدام Aspose.Slides for .NET! 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

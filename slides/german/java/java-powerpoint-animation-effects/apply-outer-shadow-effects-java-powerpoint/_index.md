@@ -3,14 +3,10 @@ title: Äußere Schatteneffekte in Java PowerPoint anwenden
 linktitle: Äußere Schatteneffekte in Java PowerPoint anwenden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie mit unserer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides ganz einfach äußere Schatteneffekte in Java PowerPoint-Präsentationen anwenden.
+type: docs
 weight: 11
 url: /de/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Beim Erstellen ansprechender Präsentationen müssen häufig verschiedene Effekte hinzugefügt werden, um die visuelle Attraktivität Ihrer Folien zu verbessern. Ein solcher Effekt ist der Außenschatten, der Ihre Elemente hervorstechen lässt und Ihrem Inhalt Tiefe verleiht. In diesem Tutorial werden wir den Prozess des Anwendens von Außenschatteneffekten auf Formen in einer PowerPoint-Präsentation mithilfe von Aspose.Slides für Java durchgehen.
 ## Voraussetzungen
@@ -118,9 +114,3 @@ Ja, Sie können Aspose.Slides für Java mit jeder Java-IDE wie IntelliJ IDEA, Ec
  Eine vorläufige Lizenz erhalten Sie bei der[Aspose-Website](https://purchase.aspose.com/temporary-license/).
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Slides?
  Weitere Beispiele und eine ausführliche Dokumentation finden Sie auf der[Aspose.Slides-Dokumentationsseite](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

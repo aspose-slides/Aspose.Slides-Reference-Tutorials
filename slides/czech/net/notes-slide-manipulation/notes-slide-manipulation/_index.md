@@ -3,14 +3,10 @@ title: Poznámky Manipulace se snímky pomocí Aspose.Slides
 linktitle: Poznámky Manipulace se snímky pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se spravovat záhlaví a zápatí na snímcích PowerPoint pomocí Aspose.Slides pro .NET. Odstraňte poznámky a přizpůsobte své prezentace bez námahy.
+type: docs
 weight: 10
 url: /cs/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dnešní digitální době je vytváření poutavých prezentací nezbytnou dovedností. Aspose.Slides for .NET je výkonný nástroj, který vám umožní snadno manipulovat a přizpůsobovat snímky prezentace. V tomto podrobném průvodci vás provedeme některými základními úkoly pomocí Aspose.Slides pro .NET. Probereme, jak spravovat záhlaví a zápatí ve snímcích s poznámkami, odstraňovat poznámky na konkrétních snímcích a odstraňovat poznámky ze všech snímků.
 
@@ -169,10 +165,3 @@ Aspose.Slides for .NET vám umožňuje převzít plnou kontrolu nad vašimi prez
 ### Mohu pomocí Aspose.Slides for .NET manipulovat s dalšími aspekty prezentací PowerPoint?
 
 Ano, Aspose.Slides for .NET nabízí širokou škálu funkcí pro manipulaci s prezentacemi v PowerPointu, včetně snímků, tvarů, textu a dalších. Podrobnosti najdete v dokumentaci.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

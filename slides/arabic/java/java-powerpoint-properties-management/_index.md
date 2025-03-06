@@ -3,14 +3,10 @@ title: إدارة خصائص جافا باور بوينت
 linktitle: إدارة خصائص جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف كيفية إدارة خصائص PowerPoint باستخدام Aspose.Slides لـ Java. يمكنك الوصول إلى الخصائص وتعديلها وتحديثها بسهولة من خلال برامجنا التعليمية الشاملة.
+type: docs
 weight: 21
 url: /ar/java/java-powerpoint-properties-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة
 
@@ -42,9 +38,3 @@ url: /ar/java/java-powerpoint-properties-management/
 تعرف على كيفية تعديل الخصائص المضمنة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك برمجيا.
 ### [تحديث خصائص العرض التقديمي باستخدام قالب جديد](./update-presentation-properties-new-template/)
 تعرف على كيفية تحديث خصائص العرض التقديمي باستخدام Aspose.Slides لـ Java. قم بتحسين مشاريع Java الخاصة بك من خلال التعديل السلس للبيانات التعريفية.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

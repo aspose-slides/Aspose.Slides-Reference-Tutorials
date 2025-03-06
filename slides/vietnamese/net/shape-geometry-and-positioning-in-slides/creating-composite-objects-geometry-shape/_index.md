@@ -3,14 +3,10 @@ title: Nắm vững các hình dạng hình học tổng hợp trong bài thuy�
 linktitle: Tạo các đối tượng tổng hợp theo hình dạng hình học với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo các bản trình bày ấn tượng với các hình dạng hình học tổng hợp bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả ấn tượng.
+type: docs
 weight: 14
 url: /vi/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Khai phá sức mạnh của Aspose.Slides cho .NET để nâng cao bản trình bày của bạn bằng cách tạo các đối tượng tổng hợp ở dạng hình học. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình tạo các slide hấp dẫn trực quan với hình học phức tạp bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -88,9 +84,3 @@ Aspose.Slides hỗ trợ nhiều ngôn ngữ lập trình khác nhau, bao gồm 
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và giúp đỡ.
 ### Hỏi: Tôi có thể mua giấy phép tạm thời không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Benzersiz Tanımlayıcıya Göre Slayta Erişim
 linktitle: Benzersiz Tanımlayıcıya Göre Slayta Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak benzersiz tanımlayıcılarla PowerPoint slaytlarına nasıl erişeceğinizi öğrenin. Bu adım adım kılavuz, sunumların yüklenmesini, slaytlara dizine veya kimliğe göre erişmeyi, içeriği değiştirmeyi ve değişiklikleri kaydetmeyi kapsar.
+type: docs
 weight: 11
 url: /tr/net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -116,9 +112,3 @@ Kesinlikle. İster birkaç slayttan oluşan basit bir sunum üzerinde ister karm
 ### Daha ayrıntılı belgeleri ve kaynakları nerede bulabilirim?
 
  Aspose.Slides for .NET'te kapsamlı belgeler, kod örnekleri, eğitimler ve daha fazlasını şu adreste bulabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

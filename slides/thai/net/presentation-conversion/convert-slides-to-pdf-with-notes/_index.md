@@ -3,14 +3,10 @@ title: แปลงสไลด์เป็น PDF ด้วย Notes
 linktitle: แปลงสไลด์เป็น PDF ด้วย Notes
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: แปลงสไลด์การนำเสนอด้วยบันทึกของผู้บรรยายเป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Slides สำหรับ .NET เก็บรักษาเนื้อหาและบริบทได้อย่างลงตัว
+type: docs
 weight: 18
 url: /th/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # เขียนคำแนะนำทีละขั้นตอนเกี่ยวกับการแปลงสไลด์เป็น PDF ด้วย Notes โดยใช้ Aspose.Slides สำหรับ .NET
 
@@ -102,9 +98,3 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
  ใช่ คุณสามารถซื้อใบอนุญาตชั่วคราวได้ที่[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 โดยสรุป เมื่อใช้ Aspose.Slides สำหรับ .NET คุณสามารถแปลงสไลด์ PowerPoint เป็นรูปแบบ PDF ได้อย่างง่ายดายโดยมีบันทึกย่อครบถ้วน เป็นเครื่องมืออันมีค่าสำหรับมืออาชีพที่ต้องการแบ่งปันการนำเสนอกับเพื่อนร่วมงานและลูกค้า ในขณะเดียวกันก็ทำให้มั่นใจว่าบริบทที่สำคัญจะไม่สูญหายไป
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

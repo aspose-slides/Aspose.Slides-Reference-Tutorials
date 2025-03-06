@@ -3,14 +3,10 @@ title: A SmartArt gyermekcsomópontjainak elérése Java használatával
 linktitle: A SmartArt gyermekcsomópontjainak elérése Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan érheti el és kezelheti a SmartArt gyermekcsomópontjait az Aspose.Slides for Java segítségével.
+type: docs
 weight: 10
 url: /hu/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Gondolkozott már azon, hogyan lehet programozottan manipulálni a SmartArt grafikákat a prezentációiban? Az Aspose.Slides for Java a PowerPoint-prezentációk kezeléséhez és szerkesztéséhez szükséges könyvtár. Ez a hatékony eszköz lehetővé teszi a fejlesztők számára a prezentáció különböző elemeinek elérését és kezelését, beleértve a SmartArt grafikákat is. Ebben az oktatóanyagban végigvezetjük Önt, hogyan érheti el a SmartArt alárendelt csomópontjait Java használatával, így dinamikusabbá és interaktívabbá teheti prezentációit. Az útmutató végére olyan ismeretek birtokában lesz, amelyek segítségével könnyedén bejárhatja és kezelheti a SmartArt-csomópontokat.
 ## Előfeltételek
@@ -85,9 +81,3 @@ Igen, az Aspose.Slides for Java lehetővé teszi a prezentáción belüli külö
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Melyik a legjobb IDE az Aspose.Slides for Java-val való fejlesztéshez?
 Az IntelliJ IDEA és az Eclipse népszerű IDE-k, amelyek jól működnek az Aspose.Slides for Java-val.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

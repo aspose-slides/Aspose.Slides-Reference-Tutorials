@@ -3,14 +3,10 @@ title: Définition de l'image comme arrière-plan de la diapositive à l'aide d'
 linktitle: Définir une image comme arrière-plan de diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment définir des arrière-plans d'images dans PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez facilement vos présentations.
+type: docs
 weight: 13
 url: /fr/net/slide-background-manipulation/set-image-as-background/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dans le monde de la conception et de l'automatisation de présentations, Aspose.Slides pour .NET est un outil puissant et polyvalent qui permet aux développeurs de manipuler facilement des présentations PowerPoint. Que vous créiez des rapports personnalisés, créiez des présentations époustouflantes ou automatisiez la génération de diapositives, Aspose.Slides pour .NET est un atout précieux. Dans ce guide étape par étape, nous allons vous montrer comment définir une image comme arrière-plan de diapositive à l'aide de cette remarquable bibliothèque.
 
@@ -119,9 +115,3 @@ Aspose.Slides pour .NET est principalement conçu pour les environnements Window
 ### 5. Aspose.Slides pour .NET propose-t-il une version d'essai ?
 
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour .NET sur le site Web à l'adresse[ce lien](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

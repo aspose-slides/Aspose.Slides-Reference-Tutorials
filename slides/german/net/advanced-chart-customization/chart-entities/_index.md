@@ -3,14 +3,10 @@ title: Erstellen schöner Diagramme mit Aspose.Slides für .NET
 linktitle: Diagrammelemente und Formatierung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET beeindruckende Diagramme erstellen. Verbessern Sie Ihre Datenvisualisierung mit unserer Schritt-für-Schritt-Anleitung.
+type: docs
 weight: 13
 url: /de/net/advanced-chart-customization/chart-entities/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der heutigen datengesteuerten Welt ist eine effektive Datenvisualisierung der Schlüssel zur Vermittlung von Informationen an Ihr Publikum. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie beeindruckende Präsentationen und Folien erstellen können, einschließlich auffälliger Diagramme. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung schöner Diagramme mit Aspose.Slides für .NET. Wir werden jedes Beispiel in mehrere Schritte aufteilen, um Ihnen zu helfen, Diagrammelemente und -formatierungen zu verstehen und zu implementieren. Also, legen wir los!
 
@@ -265,10 +261,3 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der .NET-Entwic
 ### 5. Gibt es eine Community oder ein Support-Forum für Aspose.Slides für .NET?
 
  Ja, Sie finden die Aspose.Slides-Community und das Support-Forum[Hier](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

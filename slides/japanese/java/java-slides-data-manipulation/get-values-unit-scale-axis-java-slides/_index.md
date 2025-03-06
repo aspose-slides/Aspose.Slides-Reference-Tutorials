@@ -3,14 +3,10 @@ title: Java スライドの軸から値と単位スケールを取得する
 linktitle: Java スライドの軸から値と単位スケールを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドの軸から値と単位スケールを取得する方法を学習します。データ分析機能を強化します。
+type: docs
 weight: 20
 url: /ja/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドで軸から値と単位スケールを取得する方法の紹介
 
@@ -126,9 +122,3 @@ Aspose.Slides for Java は、最新の Java バージョンをサポートする
 ### Aspose.Slides for Java のその他のリソースやドキュメントはどこで入手できますか?
 
 包括的なドキュメントと追加リソースについては、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/) Webサイト。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

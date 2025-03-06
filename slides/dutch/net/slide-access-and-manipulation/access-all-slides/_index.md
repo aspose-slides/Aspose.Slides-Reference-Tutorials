@@ -3,14 +3,10 @@ title: Haal alle dia's binnen een presentatie op
 linktitle: Haal alle dia's binnen een presentatie op
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u alle dia's binnen een PowerPoint-presentatie kunt ophalen met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncode om efficiënt programmatisch met presentaties te werken. Ontdek dia-eigenschappen, installatie, aanpassing en meer.
+type: docs
 weight: 13
 url: /nl/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -143,9 +139,3 @@ Absoluut. U kunt tekst, afbeeldingen, vormen, grafieken en meer aan uw dia's toe
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor .NET?
 
  Voor meer gedetailleerde informatie, API-referenties en codevoorbeelden kunt u terecht op de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

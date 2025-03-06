@@ -3,14 +3,10 @@ title: Aspose.Slides .NET 튜토리얼을 사용하여 PowerPoint에서 도형 �
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 도형 숨기기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 모양을 숨기는 방법을 알아보세요. 이 단계별 가이드를 통해 프로그래밍 방식으로 프레젠테이션을 맞춤설정하세요.
+type: docs
 weight: 21
 url: /ko/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적인 프레젠테이션 세계에서는 사용자 정의가 핵심입니다. Aspose.Slides for .NET은 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하기 위한 강력한 솔루션을 제공합니다. 일반적인 요구 사항 중 하나는 슬라이드 내에서 특정 도형을 숨기는 기능입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 모양을 숨기는 과정을 안내합니다.
 ## 전제 조건
@@ -77,9 +73,3 @@ Congratulations! You've successfully hidden shapes in your presentation using As
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/)테스트 목적으로.
 ### Aspose.Slides에 대한 커뮤니티 지원은 어떻게 받을 수 있나요?
  Aspose.Slides 커뮤니티에 가입하세요.[법정](https://forum.aspose.com/c/slides/11) 토론과 지원을 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

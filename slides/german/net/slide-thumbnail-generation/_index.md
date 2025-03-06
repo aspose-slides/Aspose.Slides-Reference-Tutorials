@@ -3,14 +3,10 @@ title: Erstellen von Miniaturansichten für Folien
 linktitle: Erstellen von Miniaturansichten für Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folienvorschauen erstellen. Schritt-für-Schritt-Anleitung mit Codebeispielen zum Erstellen dynamischer Folienvorschauen. Verbessern Sie Ihre Präsentationsanwendungen mit dieser leistungsstarken Funktion.
+type: docs
 weight: 17
 url: /de/net/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung:
 
@@ -41,9 +37,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturbilder aus PowerPoint-
 Generieren Sie mit Aspose.Slides für .NET Miniaturansichten aus Folien, die Notizen enthalten. Erfahren Sie Schritt für Schritt, wie Sie Notizen extrahieren, Miniaturansichten erstellen und Ihre PowerPoint-Bearbeitung verbessern. 
 ### [Miniaturbild mit benutzerdefinierten Abmessungen generieren](./generate-thumbnail-with-custom-dimensions/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Miniaturansichten in benutzerdefinierten Größen in Folien erstellen. Schritt-für-Schritt-Anleitung mit Quellcode. Werten Sie Ihre Präsentationen mit ansprechenden visuellen Elementen auf. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

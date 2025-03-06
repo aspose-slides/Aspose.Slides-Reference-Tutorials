@@ -3,14 +3,10 @@ title: إدارة الخطوط المضمنة في Java PowerPoint
 linktitle: إدارة الخطوط المضمنة في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإدارة الخطوط المضمنة بسهولة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دليل خطوة بخطوة لتحسين الشرائح الخاصة بك لتحقيق الاتساق.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم العروض التقديمية الذي يتطور باستمرار، يمكن لإدارة الخطوط بكفاءة أن تُحدث فرقًا كبيرًا في جودة ملفات PowerPoint وتوافقها. يقدم Aspose.Slides for Java حلاً شاملاً لإدارة الخطوط المضمنة، مما يضمن أن تبدو عروضك التقديمية مثالية على أي جهاز. سواء كنت تتعامل مع العروض التقديمية القديمة أو تنشئ عروضًا جديدة، سيرشدك هذا الدليل خلال عملية إدارة الخطوط المضمنة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دعونا الغوص في!
 ## المتطلبات الأساسية
@@ -108,9 +104,3 @@ Aspose.Slides for Java متوافق مع JDK 8 والإصدارات الأحدث
 تضمن إدارة الخطوط المضمنة أن تبدو عروضك التقديمية متسقة عبر الأجهزة والأنظمة الأساسية المختلفة، وتساعد على تقليل حجم الملف عن طريق إزالة الخطوط غير الضرورية.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

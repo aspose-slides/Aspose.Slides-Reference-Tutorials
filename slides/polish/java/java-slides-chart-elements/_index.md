@@ -3,14 +3,10 @@ title: Elementy wykresu slajdów Java
 linktitle: Elementy wykresu slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć dynamiczne wykresy na slajdach Java za pomocą Aspose.Slides for Java, korzystając z naszych kompleksowych samouczków. Podnieś swoje umiejętności prezentacji już dziś!
+type: docs
 weight: 15
 url: /pl/java/chart-elements/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Czy jesteś gotowy, aby przenieść swoje umiejętności prezentacji na wyższy poziom? Zanurz się w świat dynamicznych wykresów na slajdach Java, korzystając z Aspose.Slides for Java. W tym obszernym przewodniku przeprowadzimy Cię przez wszystko, co musisz wiedzieć, aby opanować elementy wykresów i sprawić, by Twoje prezentacje naprawdę się wyróżniały.
 
@@ -62,9 +58,3 @@ Poznaj Aspose.Slides dla języka Java dzięki samouczkom krok po kroku. Twórz w
 Twórz oszałamiające wykresy map w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku i kod źródłowy dla programistów Java.
 ### [Wykres Sunburst w slajdach Java](./sunburst-chart-java-slides/)
 Twórz oszałamiające wykresy Sunburst w Java Slides za pomocą Aspose.Slides. Dowiedz się, jak krok po kroku tworzyć wykresy i manipulować danymi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

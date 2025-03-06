@@ -3,14 +3,10 @@ title: قم بتمييز النص باستخدام Regex في Java PowerPoint
 linktitle: قم بتمييز النص باستخدام Regex في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تمييز النص في PowerPoint باستخدام أنماط التعبير العادي باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك بشكل حيوي.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في مجال التطوير المستند إلى Java لإنشاء عروض PowerPoint التقديمية ومعالجتها، يبرز Aspose.Slides for Java كحل قوي. يركز هذا البرنامج التعليمي على الاستفادة من Aspose.Slides لتمييز النص باستخدام التعبيرات العادية (regex) في عروض PowerPoint التقديمية. بحلول نهاية هذا الدليل، ستفهم كيفية تنفيذ أنماط التعبير العادي لتسليط الضوء على نص معين في الشرائح، مما يعزز الوظيفة والوضوح البصري.
 ## المتطلبات الأساسية
@@ -66,9 +62,3 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 بالتأكيد، فهو يوفر ميزات واسعة النطاق لمعالجة النص تتجاوز التمييز، بما في ذلك تصميم الخط والمحاذاة والمزيد.
 ### هل يمكنني تجربة Aspose.Slides لـ Java قبل الشراء؟
  نعم، يمكنك البدء بـ أ[تجربة مجانية](https://releases.aspose.com/) لتقييم قدراتها.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

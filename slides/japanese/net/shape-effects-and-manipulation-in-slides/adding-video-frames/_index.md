@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET を使用したビデオ フレームの追加チ�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにビデオ フレームを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、動的なビデオ フレームでプレゼンテーションを活性化します。シームレスな統合のためのガイドに従って、魅力的なプレゼンテーションを作成してください。
+type: docs
 weight: 19
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションの動的な状況では、マルチメディア要素を組み込むことで、全体的なインパクトとエンゲージメントを高めることができます。スライドにビデオ フレームを追加すると、静的コンテンツでは得られない方法で視聴者の注目を集めることができ、状況が大きく変わります。Aspose.Slides for .NET は、プレゼンテーション スライドにビデオ フレームをシームレスに統合するための強力なソリューションを提供します。
 ## 前提条件
@@ -71,9 +67,3 @@ Aspose.Slides for .NET は、AVI、WMV、MP4 など、さまざまなビデオ�
 はい、試用版をダウンロードして、Aspose.Slides for .NET の機能を試すことができます。[ここ](https://releases.aspose.com/).
 ### Q5: Aspose.Slides for .NET のサポートはどこで受けられますか?
 ご質問やサポートについては、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

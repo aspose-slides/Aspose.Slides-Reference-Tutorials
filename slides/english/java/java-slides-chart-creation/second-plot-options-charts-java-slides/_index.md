@@ -3,14 +3,10 @@ title: Second Plot Options for Charts in Java Slides
 linktitle: Second Plot Options for Charts in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to customize charts in Java Slides using Aspose.Slides for Java. Explore second plot options and enhance your presentations.
+type: docs
 weight: 12
 url: /java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Second Plot Options for Charts in Java Slides
 
@@ -97,10 +93,3 @@ The `PieSplitBy` property controls how the pie chart is split. You can set it to
 ### How do I set the position of the split in a Pie of Pie chart?
 
 You can set the position of the split in a Pie of Pie chart using the `setPieSplitPosition` method. Adjust the value to specify the desired position.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

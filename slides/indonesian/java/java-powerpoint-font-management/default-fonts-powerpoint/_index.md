@@ -3,14 +3,10 @@ title: Font Default di PowerPoint dengan Aspose.Slides untuk Java
 linktitle: Font Default di PowerPoint dengan Aspose.Slides untuk Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur font default dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Pastikan konsistensi dan tingkatkan daya tarik visual dengan mudah.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Membuat presentasi PowerPoint dengan font khusus merupakan persyaratan umum di banyak proyek. Aspose.Slides untuk Java memberikan solusi yang lancar untuk mengelola font default, memastikan konsistensi di berbagai lingkungan. Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan font default dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -75,9 +71,3 @@ Aspose.Slides for Java mendukung berbagai versi PowerPoint, memastikan kompatibi
  Ya, Anda dapat menjelajahi Aspose.Slides untuk Java melalui uji coba gratis yang tersedia di[rilis.aspose.com](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides untuk Java?
  Anda dapat memperoleh lisensi sementara untuk Aspose.Slides untuk Java dari[halaman pembelian](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

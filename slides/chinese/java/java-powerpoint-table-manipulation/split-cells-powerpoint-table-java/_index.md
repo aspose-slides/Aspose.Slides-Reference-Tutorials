@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 表格中拆分单元格
 linktitle: 使用 Java 在 PowerPoint 表格中拆分单元格
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 以编程方式拆分、合并和格式化 PowerPoint 表格单元格。掌握演示文稿设计。
+type: docs
 weight: 11
 url: /zh/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides 在 Java 中操作 PowerPoint 表格。表格是演示文稿的基本组成部分，通常用于有效地组织和呈现数据。Aspose.Slides 提供了强大的功能，可以通过编程创建、修改和增强表格，从而提供设计和布局的灵活性。
 ## 先决条件
@@ -99,9 +95,3 @@ try {
 您可以从 Aspose.Slides 论坛获得支持[这里](https://forum.aspose.com/c/slides/11).
 ### 我可以获得 Aspose.Slides for Java 的临时许可证吗？
 是的，你可以从[这里](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

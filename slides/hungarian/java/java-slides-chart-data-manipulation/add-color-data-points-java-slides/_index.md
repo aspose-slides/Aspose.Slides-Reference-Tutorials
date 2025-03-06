@@ -3,14 +3,10 @@ title: Adjon színt a Java Slides adatpontjaihoz
 linktitle: Adjon színt a Java Slides adatpontjaihoz
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat színt a Java diák adatpontjaihoz az Aspose.Slides for Java segítségével.
+type: docs
 weight: 10
 url: /hu/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Java Slides adatpontjainak színezésébe
 
@@ -121,9 +117,3 @@ Más adatpontok színének megváltoztatásához a 4. lépésben bemutatotthoz h
 ### Hol találok további példákat és dokumentációt?
 
  További példákat és részletes dokumentációt találhat az Aspose.Slides for Java használatáról a webhelyen[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) weboldal.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

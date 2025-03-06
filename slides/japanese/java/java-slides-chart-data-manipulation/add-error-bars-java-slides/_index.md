@@ -3,14 +3,10 @@ title: Java スライドにエラー バーを追加する
 linktitle: Java スライドにエラー バーを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java で PowerPoint グラフにエラー バーを追加する方法を学びます。エラー バーをカスタマイズするためのソース コードを含むステップ バイ ステップ ガイド。
+type: docs
 weight: 13
 url: /ja/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides を使用して Java スライドにエラー バーを追加する方法の紹介
 
@@ -132,9 +128,3 @@ finally
 ### Aspose.Slides for Java の詳細情報はどこで入手できますか?
 
 参照するには[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)ライブラリの使用に関する詳細情報。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

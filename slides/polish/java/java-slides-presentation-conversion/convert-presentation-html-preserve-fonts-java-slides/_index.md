@@ -3,14 +3,10 @@ title: Konwersja prezentacji do formatu HTML z zachowaniem oryginalnych czcionek
 linktitle: Konwersja prezentacji do formatu HTML z zachowaniem oryginalnych czcionek w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Konwertuj prezentacje programu PowerPoint do formatu HTML, zachowując oryginalne czcionki, korzystając z Aspose.Slides for Java.
+type: docs
 weight: 14
 url: /pl/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwertowania prezentacji do formatu HTML z zachowaniem oryginalnych czcionek w slajdach Java
 
@@ -115,9 +111,3 @@ Ten przykładowy kod jest przeznaczony dla plików PPTX. Jeśli chcesz przekonwe
 ### Jak mogę dodatkowo dostosować dane wyjściowe HTML?
 
  Możesz zwiedzać`HtmlOptions` class, aby dostosować różne aspekty wyniku HTML, takie jak rozmiar slajdu, jakość obrazu i inne.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

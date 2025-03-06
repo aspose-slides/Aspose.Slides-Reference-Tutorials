@@ -3,14 +3,10 @@ title: So verwenden Sie Aspose.Slides .NET zum Wiederherstellen einer Arbeitsmap
 linktitle: Arbeitsmappe aus Diagramm wiederherstellen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Arbeitsmappe aus einem Diagramm in PowerPoint-Präsentationen wiederherstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Daten effizient zu extrahieren.
+type: docs
 weight: 12
 url: /de/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Wenn Sie mit PowerPoint-Präsentationen in .NET arbeiten möchten, ist Aspose.Slides für .NET eine leistungsstarke Bibliothek, die Ihnen beim Erreichen Ihrer Ziele helfen kann. In diesem Tutorial führen wir Sie durch den Prozess der Wiederherstellung einer Arbeitsmappe aus einem Diagramm in einer PowerPoint-Präsentation mit Aspose.Slides für .NET. Diese leistungsstarke Funktion kann nützlich sein, wenn Sie Daten aus Diagrammen in Ihren Präsentationen extrahieren müssen. Wir unterteilen den Prozess in leicht verständliche Schritte, damit Sie genau verstehen, wie Sie diese Aufgabe erledigen.
 
@@ -105,9 +101,3 @@ Aspose.Slides für .NET ist eine leistungsstarke .NET-Bibliothek für die Arbeit
 ### 5. Was ist die maximale Titellänge für die SEO-Optimierung?
 
 Aus SEO-Gründen wird empfohlen, den Titel auf weniger als 60 Zeichen zu beschränken, um sicherzustellen, dass er in den Suchmaschinenergebnissen richtig angezeigt wird.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

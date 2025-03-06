@@ -3,14 +3,10 @@ title: Copy Slide to Precise Location in Different Presentation
 linktitle: Copy Slide to Precise Location in Different Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to copy slides to precise locations in different presentations using Aspose.Slides for .NET. This step-by-step guide provides source code and instructions for seamless PowerPoint manipulation.
+type: docs
 weight: 18
 url: /net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -98,10 +94,3 @@ Yes, Aspose.Slides allows you to programmatically manipulate slide content, incl
 ### Where can I find more documentation and examples for Aspose.Slides?
 
 You can find comprehensive documentation and examples for Aspose.Slides for .NET in the documentation: [Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

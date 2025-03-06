@@ -3,14 +3,10 @@ title: Quản lý nhận xét hiện đại bằng Aspose.Slides
 linktitle: Quản lý bình luận hiện đại
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách quản lý nhận xét hiện đại trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Cộng tác dễ dàng!
+type: docs
 weight: 14
 url: /vi/net/slide-comments-manipulation/modern-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các bản trình bày PowerPoint theo chương trình. Một trong những tính năng mà nó cung cấp là quản lý nhận xét hiện đại, cho phép bạn thêm, sửa đổi và tương tác với các nhận xét trong bản trình bày của mình một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình quản lý nhận xét hiện đại bằng Aspose.Slides cho .NET.
 
@@ -113,9 +109,3 @@ Bạn có thể cập nhật hoặc xóa các nhận xét hiện đại theo ch�
 ### 5. Tôi có thể dùng thử Aspose.Slides cho .NET trước khi mua không?
 
  Chắc chắn! Bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Slides cho .NET từ[liên kết dùng thử miễn phí](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

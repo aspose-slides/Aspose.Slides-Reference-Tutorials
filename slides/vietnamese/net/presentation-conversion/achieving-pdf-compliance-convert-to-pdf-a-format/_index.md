@@ -3,14 +3,10 @@ title: Chuyển đổi PowerPoint sang PDF/A bằng Aspose.Slides cho .NET
 linktitle: Đạt được sự tuân thủ PDF - Chuyển đổi sang định dạng PDF/A
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách đạt được sự tuân thủ PDF bằng cách chuyển đổi bản trình bày PowerPoint sang định dạng PDF/A bằng Aspose.Slides cho .NET. Đảm bảo tuổi thọ tài liệu và khả năng truy cập.
+type: docs
 weight: 25
 url: /vi/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Cách đạt được sự tuân thủ PDF với Aspose.Slides cho .NET
 
@@ -103,9 +99,3 @@ Có, Aspose.Slides hỗ trợ chuyển đổi hàng loạt, cho phép bạn xử
 
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides cho .NET ở đâu nếu tôi gặp bất kỳ vấn đề nào?
  Nếu bạn có thắc mắc hoặc gặp vấn đề, bạn có thể tìm kiếm sự giúp đỡ và hỗ trợ trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

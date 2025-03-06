@@ -3,14 +3,10 @@ title: Manipulasi Kotak Teks Java PowerPoint
 linktitle: Manipulasi Kotak Teks Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Jelajahi tutorial komprehensif untuk manipulasi kotak teks Java PowerPoint dengan Aspose.Slides. Sempurnakan presentasi Anda selangkah demi selangkah dengan panduan kami.
+type: docs
 weight: 20
 url: /id/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 
 Buka potensi penuh presentasi PowerPoint Anda dengan Tutorial Manipulasi Kotak Teks Java PowerPoint kami menggunakan Aspose.Slides. Baik Anda seorang pemula atau pengguna tingkat lanjut, panduan terperinci kami akan membantu Anda menyempurnakan presentasi Anda dengan mudah.
@@ -56,9 +52,3 @@ Pelajari cara menyesuaikan sudut rotasi untuk bingkai teks di Java PowerPoint me
 Pelajari cara menerapkan format pengisian poin di Java PowerPoint menggunakan Aspose.Slides untuk Java. Kuasai gaya poin dan tingkatkan presentasi Anda.
 ### [Paragraf Kotak Teks Efek di Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Pelajari cara menyempurnakan presentasi PowerPoint di Java dengan efek teks dinamis menggunakan Aspose.Slides untuk integrasi dan penyesuaian yang lancar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

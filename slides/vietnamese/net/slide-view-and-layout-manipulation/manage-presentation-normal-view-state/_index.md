@@ -3,14 +3,10 @@ title: Quản lý bản trình bày ở trạng thái xem bình thường
 linktitle: Quản lý bản trình bày ở trạng thái xem bình thường
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách quản lý bản trình bày ở trạng thái xem bình thường bằng Aspose.Slides cho .NET. Tạo, sửa đổi và nâng cao bản trình bày theo chương trình với hướng dẫn từng bước và mã nguồn hoàn chỉnh.
+type: docs
 weight: 11
 url: /vi/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Cho dù bạn đang tạo ra một quảng cáo chiêu hàng năng động, một bài giảng mang tính giáo dục hay một hội thảo trên web hấp dẫn thì bản trình bày là nền tảng của giao tiếp hiệu quả. Microsoft PowerPoint từ lâu đã là phần mềm được sử dụng để tạo các trình chiếu tuyệt đẹp. Tuy nhiên, khi nói đến việc quản lý các bài thuyết trình theo chương trình, thư viện Aspose.Slides for .NET tỏ ra là một công cụ vô giá. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Slides cho .NET để quản lý bản trình bày ở trạng thái xem thông thường, cho phép bạn tạo, sửa đổi và nâng cao bản trình bày của mình một cách liền mạch.
 
@@ -125,9 +121,3 @@ Bạn có thể truy cập tài liệu toàn diện về Aspose.Slides for .NET 
 
 ## Phần kết luận
 Trong hướng dẫn này, chúng tôi đã khám phá cách quản lý bản trình bày ở trạng thái xem thông thường bằng Aspose.Slides cho .NET. Với các tính năng mạnh mẽ của nó, bạn có thể tạo, sửa đổi và nâng cao bản trình bày theo chương trình, đảm bảo nội dung của bạn thu hút khán giả một cách hiệu quả. Cho dù bạn là người thuyết trình chuyên nghiệp hay nhà phát triển làm việc trên các ứng dụng liên quan đến bản trình bày, Aspose.Slides for .NET là cửa ngõ để bạn quản lý bản trình bày liền mạch.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ändern der Formreihenfolge in PowerPoint
 linktitle: Ändern der Formreihenfolge in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie die Formreihenfolge in PowerPoint mit Aspose.Slides für Java ändern. Verbessern Sie mühelos Ihre Präsentationsfähigkeiten.
+type: docs
 weight: 15
 url: /de/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Das Erstellen optisch ansprechender und gut strukturierter Präsentationen kann eine gewaltige Aufgabe sein. Mit den richtigen Tools und Techniken können Sie es sich jedoch deutlich erleichtern. Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert bearbeiten und verwalten können. In diesem Tutorial führen wir Sie durch die Schritte zum Ändern der Formreihenfolge in einer PowerPoint-Folie mit Aspose.Slides für Java.
 ## Voraussetzungen
@@ -77,9 +73,3 @@ Ja, Aspose.Slides für Java unterstützt PPT, PPTX und andere PowerPoint-Formate
  Sie können eine kostenlose Testversion herunterladen von der[Aspose.Slides für Java-Downloadseite](https://releases.aspose.com/).
 ### Wo finde ich weitere Dokumentation zu Aspose.Slides für Java?
  Eine ausführliche Dokumentation finden Sie auf der[Aspose.Slides für Java-Dokumentationsseite](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

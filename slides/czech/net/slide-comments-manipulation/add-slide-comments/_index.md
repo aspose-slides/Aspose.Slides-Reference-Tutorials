@@ -3,14 +3,10 @@ title: Přidejte komentáře ke snímku
 linktitle: Přidejte komentáře ke snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Přidejte hloubku a interakci do vašich prezentací pomocí Aspose.Slides API. Naučte se, jak snadno integrovat komentáře do snímků pomocí .NET. Zvyšte zapojení a upoutejte své publikum.
+type: docs
 weight: 13
 url: /cs/net/slide-comments-manipulation/add-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ve světě správy prezentací může být možnost přidávat komentáře ke snímkům zásadní změnou. Komentáře nejen zlepšují spolupráci, ale také pomáhají pochopit a revidovat obsah snímků. S Aspose.Slides for .NET, výkonnou a všestrannou knihovnou, můžete bez námahy začlenit komentáře do snímků prezentace. V tomto podrobném průvodci vás provedeme procesem přidávání komentářů na snímek pomocí Aspose.Slides for .NET. Ať už jste ostřílený vývojář nebo nováček ve světě vývoje .NET, tento tutoriál vám poskytne všechny potřebné poznatky.
 
@@ -108,9 +104,3 @@ Chcete-li integrovat Aspose.Slides for .NET do vaší aplikace .NET, můžete se
 ### 5. Mohu Aspose.Slides for .NET vyzkoušet před jeho zakoupením?
 
 Ano, můžete prozkoumat Aspose.Slides pro .NET pomocí bezplatné zkušební verze. Navštivte[Bezplatná zkušební stránka Aspose.Slides](https://releases.aspose.com/) začít.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

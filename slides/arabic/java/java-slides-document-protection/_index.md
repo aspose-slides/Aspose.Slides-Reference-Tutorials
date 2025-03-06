@@ -3,14 +3,10 @@ title: حماية المستندات باستخدام Aspose.Slides لـ Java
 linktitle: حماية مستند شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين أمان مستندات Java Slides الخاصة بك باستخدام Aspose.Slides. استكشف البرامج التعليمية خطوة بخطوة لحماية المستندات.
+type: docs
 weight: 24
 url: /ar/java/document-protection/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 في عالم المستندات الرقمية دائم التطور، يعد ضمان أمان المحتوى الخاص بك وسلامته أمرًا بالغ الأهمية. لا تعد مستندات Java Slides استثناءً من هذه القاعدة، وهنا يأتي دور Aspose.Slides for Java للإنقاذ. في هذا الدليل الشامل، سنوجهك عبر البرامج التعليمية الأساسية لحماية المستندات باستخدام Aspose.Slides for Java.
 
 ## لماذا تعتبر حماية المستندات مهمة؟
@@ -38,9 +34,3 @@ url: /ar/java/document-protection/
 ## دروس جافا لحماية المستندات
 ### [إزالة الحماية ضد الكتابة في شرائح جافا](./remove-write-protection-in-java-slides/)
 تعرف على كيفية إزالة الحماية ضد الكتابة في العروض التقديمية لـ Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر متضمن.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

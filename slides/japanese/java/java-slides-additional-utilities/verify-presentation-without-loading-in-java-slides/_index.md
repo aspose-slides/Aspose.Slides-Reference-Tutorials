@@ -3,14 +3,10 @@ title: Java スライドに読み込まずにプレゼンテーションを検�
 linktitle: Java スライドに読み込まずにプレゼンテーションを検証する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドにプレゼンテーションをロードせずに検証する方法を学びます。このステップバイステップ ガイドを使用して、ファイルの整合性を効率的に確保します。
+type: docs
 weight: 18
 url: /ja/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドで読み込まずにプレゼンテーションを検証する方法の紹介
 
@@ -84,9 +80,3 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### Aspose.Slides for Java のその他のリソースやドキュメントはどこで入手できますか?
 
  Aspose.Slides for Javaの包括的なドキュメントとリソースは、以下からアクセスできます。[ここ](https://reference.aspose.com/slides/java/)このドキュメントは、API とその機能を習得するのに役立ちます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

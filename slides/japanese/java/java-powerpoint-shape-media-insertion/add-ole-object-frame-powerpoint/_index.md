@@ -3,14 +3,10 @@ title: PowerPoint に OLE オブジェクト フレームを追加する
 linktitle: PowerPoint に OLE オブジェクト フレームを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、OLE オブジェクト フレームを PowerPoint プレゼンテーションにシームレスに統合する方法を学習します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 PowerPoint プレゼンテーションに OLE (オブジェクトのリンクと埋め込み) オブジェクト フレームを追加すると、スライドの見た目の魅力と機能性が大幅に向上します。Aspose.Slides for Java を使用すると、このプロセスが合理化され、効率的になります。このチュートリアルでは、OLE オブジェクト フレームを PowerPoint プレゼンテーションにシームレスに統合するために必要な手順を説明します。
 ### 前提条件
@@ -84,9 +80,3 @@ Aspose.Slides は、幅広いバージョンの PowerPoint との互換性を提
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides for Java のサポートはどこで見つかりますか?
  Aspose.Slidesフォーラムからサポートや支援を求めることができます[ここ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

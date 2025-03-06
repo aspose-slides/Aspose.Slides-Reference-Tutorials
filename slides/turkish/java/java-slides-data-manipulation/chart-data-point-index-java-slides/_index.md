@@ -3,14 +3,10 @@ title: Java Slaytlarında Grafik Veri Noktası Dizini
 linktitle: Java Slaytlarında Grafik Veri Noktası Dizini
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik veri noktası indekslerini nasıl değiştireceğinizi öğrenin. PowerPoint grafiklerinden verileri zahmetsizce çıkarın ve bunlarla çalışın.
+type: docs
 weight: 12
 url: /tr/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Grafik Veri Noktası Dizinine Giriş
 
@@ -102,9 +98,3 @@ Aspose.Slides for Java'yı kullanarak grafikler içeren bir PowerPoint sunumunu 
 ### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
 
  Aspose dokümantasyon web sitesinde Aspose.Slides for Java için kapsamlı örnekler ve belgeler bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: PowerPoint에서 패턴으로 도형 채우기
 linktitle: PowerPoint에서 패턴으로 도형 채우기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 패턴으로 도형을 채우는 방법을 알아보세요. 프레젠테이션을 시각적으로 향상하려면 쉬운 단계별 가이드를 따르세요.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 청중의 관심을 끌기 위해서는 시각적으로 매력적인 프레젠테이션을 만드는 것이 필수적입니다. PowerPoint 슬라이드를 향상시키는 한 가지 방법은 도형을 패턴으로 채우는 것입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 패턴으로 도형을 채우는 단계를 안내합니다. 이 가이드는 Aspose.Slides의 강력한 기능을 활용하여 프로그래밍 방식으로 멋진 프레젠테이션을 만들고자 하는 개발자를 위해 맞춤 제작되었습니다.
 ## 전제 조건
@@ -98,9 +94,3 @@ Aspose.Slides for Java는 개발자가 Java 애플리케이션에서 PowerPoint 
 예, Aspose.Slides for Java를 사용하면 기존 PowerPoint 프레젠테이션을 열고, 편집하고, 저장할 수 있습니다.
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

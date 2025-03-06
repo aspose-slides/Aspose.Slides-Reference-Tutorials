@@ -3,14 +3,10 @@ title: Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach
 linktitle: Ustawianie automatycznych kolorów wycinków wykresu kołowego w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć dynamiczne wykresy kołowe z automatycznymi kolorami plasterków w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
+type: docs
 weight: 24
 url: /pl/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do ustawiania automatycznych kolorów wycinków wykresu kołowego w slajdach Java
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 W razie potrzeby możesz dostosować rozmiar czcionki, pogrubienie i styl kursywy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

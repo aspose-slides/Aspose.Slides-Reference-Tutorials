@@ -3,14 +3,10 @@ title: Điều khiển phương tiện bằng Aspose.Slides cho Java
 linktitle: Điều khiển phương tiện Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách triển khai các điều khiển phương tiện trong các trang trình bày Java bằng cách sử dụng các hướng dẫn Aspose.Slides for Java. Cải thiện bài thuyết trình của bạn bằng âm thanh và video một cách liền mạch.
+type: docs
 weight: 22
 url: /vi/java/media-controls/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thời đại kỹ thuật số ngày nay, bài thuyết trình không chỉ có những slide tĩnh với văn bản và hình ảnh. Chúng đã phát triển thành những trải nghiệm năng động, tương tác, thu hút và thu hút khán giả. Nếu bạn là nhà phát triển Java đang tìm cách thêm một chiều hướng mới vào bản trình bày của mình thì bạn đã đến đúng nơi. Trong bài viết này, chúng ta sẽ khám phá cách triển khai các điều khiển phương tiện trong các trang trình bày Java bằng cách sử dụng các hướng dẫn Aspose.Slides for Java.
 
@@ -55,9 +51,3 @@ Làm chủ việc xử lý gián đoạn Java Slides với Aspose.Slides cho Jav
 Tìm hiểu cách cập nhật các thuộc tính bản trình bày trong các trang trình bày Java bằng Aspose.Slides cho Java. Tùy chỉnh tác giả, tiêu đề, v.v. để có bài thuyết trình hiệu quả.
 ### [Cập nhật thuộc tính bản trình bày bằng cách sử dụng bản trình bày khác làm mẫu trong Java Slides](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Nâng cao bản trình bày PowerPoint với siêu dữ liệu được cập nhật bằng Aspose.Slides cho Java. Tìm hiểu cách cập nhật các thuộc tính như tác giả, tiêu đề và từ khóa bằng cách sử dụng các mẫu trong Java Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

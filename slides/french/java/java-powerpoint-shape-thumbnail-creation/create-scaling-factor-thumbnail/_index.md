@@ -3,14 +3,10 @@ title: Créer une vignette de facteur d'échelle
 linktitle: Créer une vignette de facteur d'échelle
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des vignettes de facteurs de mise à l'échelle en Java à l'aide d'Aspose.Slides pour Java. Guide facile à suivre avec des instructions étape par étape.
+type: docs
 weight: 12
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'une vignette de facteur de mise à l'échelle à l'aide d'Aspose.Slides pour Java. Suivez ces instructions étape par étape pour obtenir le résultat souhaité.
 ## Conditions préalables
@@ -70,9 +66,3 @@ Oui, Aspose.Slides pour Java peut être utilisé avec n'importe quel environneme
  Vous pouvez acheter Aspose.Slides pour Java sur le site[page d'achat](https://purchase.aspose.com/buy).
 ### Ai-je besoin d’une licence temporaire pour utiliser Aspose.Slides pour Java ?
  Oui, vous pouvez obtenir une licence temporaire auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

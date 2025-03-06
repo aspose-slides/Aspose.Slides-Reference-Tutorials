@@ -3,14 +3,10 @@ title: Управление фоном слайда с помощью Aspose.Sli
 linktitle: Управление фоном слайда
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите дизайн слайдов с помощью Aspose.Slides! Узнайте, как управлять фоном слайдов, в этом подробном руководстве. Предоставляются пошаговые инструкции и примеры кода.
+type: docs
 weight: 11
 url: /ru/net/slide-background-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение
 
@@ -41,9 +37,3 @@ url: /ru/net/slide-background-manipulation/
 Узнайте, как освоить настройку фона слайдов с помощью Aspose.Slides, в этом пошаговом руководстве. Поднимите свои презентации на новый уровень с помощью привлекательных визуальных эффектов.
 ### [Изменить обычный фон слайда](./change-slide-background-normal/)
 Узнайте, как изменить обычный фон слайда, чтобы привлечь внимание аудитории. Следуйте этому подробному руководству по использованию Aspose.Slides для .NET, дополненному пошаговыми инструкциями и примерами кода.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

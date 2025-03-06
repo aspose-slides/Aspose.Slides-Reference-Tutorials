@@ -3,14 +3,10 @@ title: 参照経由でスライドを削除
 linktitle: 参照経由でスライドを削除
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: .NET 開発者向けの強力なライブラリである Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのスライドを削除する方法を学習します。
+type: docs
 weight: 25
 url: /ja/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 熟練した SEO ライターとして、Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションからスライドを削除する方法についての包括的なガイドを提供します。このステップバイステップのチュートリアルでは、プロセスを管理しやすいステップに分割して、簡単に実行できるようにします。それでは、始めましょう。
 
@@ -105,9 +101,3 @@ Aspose.Slides for .NET は、最新バージョンを含むさまざまな Power
 
 ### Aspose.Slides for .NET を使用してスライドの削除を元に戻すことはできますか?
 スライドを削除すると、簡単に元に戻すことはできません。このような変更を行う前に、プレゼンテーションのバックアップを保存しておくことをお勧めします。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

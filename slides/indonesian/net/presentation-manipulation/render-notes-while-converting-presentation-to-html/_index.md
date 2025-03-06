@@ -3,14 +3,10 @@ title: Render Catatan sambil Mengonversi Presentasi ke HTML
 linktitle: Render Catatan sambil Mengonversi Presentasi ke HTML
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara merender catatan pembicara secara efektif sambil mengonversi presentasi ke HTML menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini memberikan contoh dan wawasan kode sumber untuk membantu Anda mencapai konversi yang lancar dengan pelestarian catatan.
+type: docs
 weight: 28
 url: /id/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Di era digital saat ini, mengubah presentasi ke format HTML sudah menjadi kebutuhan umum. Ini memungkinkan Anda membagikan presentasi Anda dengan mudah di web, sehingga dapat diakses oleh audiens yang lebih luas. Aspose.Slides for .NET adalah alat canggih yang menyederhanakan proses ini. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi ke HTML menggunakan Aspose.Slides untuk .NET.
 
@@ -83,10 +79,3 @@ Ya, Aspose.Slides untuk .NET mendukung berbagai format PowerPoint, termasuk PPT,
  Jika Anda mengalami masalah atau memiliki pertanyaan, Anda dapat mencari bantuan di[Forum Aspose.Slide](https://forum.aspose.com/).
 
 Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengonversi presentasi PowerPoint Anda ke HTML menggunakan Aspose.Slides untuk .NET. Nikmati berbagi presentasi Anda secara online dengan audiens yang lebih luas!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

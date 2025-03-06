@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 슬라이드 축소판 생성
 linktitle: 슬라이드에서 축소판 생성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드 축소판을 생성하는 방법을 알아보세요. 프레젠테이션을 쉽게 향상시키세요.
+type: docs
 weight: 11
 url: /ko/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 디지털 프레젠테이션 세계에서 매력적이고 유익한 슬라이드 축소판을 만드는 것은 청중의 관심을 끄는 데 필수적인 부분입니다. Aspose.Slides for .NET은 .NET 애플리케이션의 슬라이드에서 썸네일을 생성할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 이를 달성하는 방법을 보여줍니다.
 
@@ -110,10 +106,3 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlide.pptx")
 
 ### 문제가 발생하거나 질문이 있는 경우 Aspose.Slides for .NET에 대한 지원을 받으려면 어떻게 해야 합니까?
  Aspose 커뮤니티 지원 포럼에서 도움을 구하고 토론에 참여할 수 있습니다.[여기](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

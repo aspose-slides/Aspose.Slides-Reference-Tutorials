@@ -3,14 +3,11 @@ title: 用於 PowerPoint 處理的 Aspose.Slides 教學課程
 linktitle: Aspose.Slides 教學課程
 additionalTitle: Aspose API 參考
 description: 使用 Aspose.Slides 教學掌握簡報處理。有效率地建立、修改和增強 PowerPoint 簡報。 Excel 中的動態內容動作。
+type: docs
 weight: 10
 url: /zh-hant/
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 探索廣泛的 Aspose.Slides 教學。當您深入研究如何充分利用 Aspose.Slides 的潛力時，您將發現簡報處理的領域。這些教學提供逐步指導，幫助您掌握 PowerPoint 簡報中的投影片建立、修改、格式設定和多媒體整合等任務。無論您是經驗豐富的開發人員還是新手，這些資源都可以幫助您掌握使用 Aspose.Slides 製作動態且引人注目的簡報所需的技能。
 
 ## Aspose.Slides For .NET：PowerPoint 處理 API
@@ -65,9 +62,3 @@ url: /zh-hant/
 - [Java 投影片影像處理](./java/image-handling/)
 - [Java 投影片文件保護](./java/document-protection/)
 - [Java 投影片儲存選項](./java/saving-options/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

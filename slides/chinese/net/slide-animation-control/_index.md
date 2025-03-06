@@ -3,14 +3,10 @@ title: 幻灯片动画控制
 linktitle: 幻灯片动画控制
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 通过动态动画增强您的演示文稿。在此综合教程中逐步了解如何控制幻灯片动画。
+type: docs
 weight: 18
 url: /zh/net/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍：
 
@@ -40,9 +36,3 @@ url: /zh/net/slide-animation-control/
 了解如何使用 Aspose.Slides for .NET 在幻灯片上重复动画。本分步指南提供了源代码和清晰的说明，用于以编程方式向 PowerPoint 演示文稿添加引人入胜的动画。
 ### [幻灯片上的倒带动画](./rewind-animation-on-slide/)
 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 幻灯片上倒带动画。按照本分步指南和完整的源代码示例动态增强您的演示文稿。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

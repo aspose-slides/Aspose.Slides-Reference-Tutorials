@@ -3,14 +3,10 @@ title: Thay thế phông chữ dựa trên quy tắc trong Java PowerPoint
 linktitle: Thay thế phông chữ dựa trên quy tắc trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tự động thay thế phông chữ trong bản trình bày Java PowerPoint bằng Aspose.Slides. Nâng cao khả năng tiếp cận và tính nhất quán một cách dễ dàng.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong lĩnh vực tự động hóa PowerPoint dựa trên Java, việc quản lý phông chữ hiệu quả là rất quan trọng để đảm bảo tính nhất quán và khả năng truy cập trên các bản trình bày. Aspose.Slides for Java cung cấp các công cụ mạnh mẽ để xử lý việc thay thế phông chữ một cách liền mạch, nâng cao độ tin cậy và sự hấp dẫn trực quan của các tệp PowerPoint. Hướng dẫn này đi sâu vào quá trình thay thế phông chữ dựa trên quy tắc bằng Aspose.Slides cho Java, trao quyền cho các nhà phát triển tự động hóa việc quản lý phông chữ một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -81,9 +77,3 @@ Có, Aspose.Slides cho phép nhà phát triển xác định quy tắc thay th�
 Có, Aspose.Slides cung cấp hỗ trợ mạnh mẽ cho các ứng dụng Java, cho phép tích hợp và thao tác liền mạch với các tệp PowerPoint.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides ở đâu?
  Để có thêm tài nguyên, tài liệu và hỗ trợ, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

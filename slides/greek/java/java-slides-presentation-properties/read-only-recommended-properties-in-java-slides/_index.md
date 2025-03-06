@@ -3,14 +3,10 @@ title: Προτεινόμενες ιδιότητες μόνο για ανάγν�
 linktitle: Προτεινόμενες ιδιότητες μόνο για ανάγνωση στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενεργοποιείτε τις προτεινόμενες ιδιότητες μόνο για ανάγνωση σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας με παραδείγματα πηγαίου κώδικα για βελτιωμένη ασφάλεια παρουσίασης.
+type: docs
 weight: 17
 url: /el/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στην ενεργοποίηση προτεινόμενων ιδιοτήτων μόνο για ανάγνωση σε διαφάνειες Java
 
@@ -92,9 +88,3 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Θυμηθείτε να αντικαταστήσετε`"YourPassword"` με τον κωδικό πρόσβασης που επιθυμείτε.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

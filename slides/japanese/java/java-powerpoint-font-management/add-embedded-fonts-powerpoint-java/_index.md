@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint に埋め込みフォントを追加す�
 linktitle: Java を使用して PowerPoint に埋め込みフォントを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java で PowerPoint プレゼンテーションに埋め込みフォントを追加する方法を学習します。デバイス間で一貫した表示を保証します。
+type: docs
 weight: 10
 url: /ja/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Java を使用して、特に Aspose.Slides for Java を活用して、PowerPoint プレゼンテーションに埋め込みフォントを追加する手順を説明します。埋め込みフォントを使用すると、元のフォントが利用できない場合でも、さまざまなデバイスでプレゼンテーションが一貫して表示されます。手順を見てみましょう。
 ## 前提条件
@@ -73,9 +69,3 @@ PowerPoint プレゼンテーションに埋め込みフォントを追加する
 Aspose.Slides for Java は、プレゼンテーションでよく使用される幅広いフォントをカバーする TrueType フォントの埋め込みをサポートしています。
 ### Aspose.Slides for Java を使用してプログラムでフォントを埋め込むことはできますか?
 はい、このチュートリアルで説明されているように、Aspose.Slides for Java API を使用してプログラムでフォントを埋め込むことができます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

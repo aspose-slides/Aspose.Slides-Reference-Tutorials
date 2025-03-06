@@ -3,14 +3,10 @@ title: Grafico dell'istogramma nelle diapositive Java
 linktitle: Grafico dell'istogramma nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare grafici a istogramma nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per la visualizzazione dei dati.
+type: docs
 weight: 19
 url: /it/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione al grafico dell'istogramma nelle diapositive Java utilizzando Aspose.Slides
 
@@ -116,9 +112,3 @@ Un grafico a istogramma viene utilizzato per visualizzare la distribuzione dei d
 ### Posso personalizzare l'aspetto del grafico dell'istogramma?
 
 Sì, puoi personalizzare l'aspetto del grafico, inclusi colori, etichette e assi, utilizzando l'API Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

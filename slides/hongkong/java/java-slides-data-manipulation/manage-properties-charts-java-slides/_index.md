@@ -3,14 +3,10 @@ title: 在 Java 投影片中管理屬性圖表
 linktitle: 在 Java 投影片中管理屬性圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Aspose.Slides 建立令人驚嘆的圖表並管理 Java 投影片中的屬性。具有原始程式碼的逐步指南，可實現強大的演示。
+type: docs
 weight: 13
 url: /zh-hant/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 使用 Aspose.Slides 管理 Java 投影片中的屬性和圖表的簡介
 
@@ -202,9 +198,3 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### 我還可以自訂哪些其他 3D 屬性？
 
 您可以透過參考 Aspose.Slides 文件來探索圖表的其他 3D 屬性，例如深度、透視和照明。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

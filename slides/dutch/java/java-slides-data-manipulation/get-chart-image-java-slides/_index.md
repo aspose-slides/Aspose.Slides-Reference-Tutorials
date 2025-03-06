@@ -3,14 +3,10 @@ title: Grafiekafbeelding ophalen in Java-dia's
 linktitle: Grafiekafbeelding ophalen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagramafbeeldingen kunt verkrijgen in Java Slides met behulp van Aspose.Slides voor Java. Deze stapsgewijze handleiding biedt broncode en tips voor een naadloze integratie.
+type: docs
 weight: 19
 url: /nl/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het verkrijgen van een grafiekafbeelding in Java-dia's
 
@@ -96,9 +92,3 @@ Ja, Aspose.Slides voor Java kan voor commerciële doeleinden worden gebruikt. He
 ### Kan ik de kaartafbeelding in een ander formaat opslaan?
 
  Zeker! U kunt de kaartafbeelding in verschillende formaten opslaan, zoals JPEG of GIF, door de juiste bestandsextensie op te geven in het`ImageIO.write` methode.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

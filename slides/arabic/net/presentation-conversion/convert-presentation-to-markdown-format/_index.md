@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى تنسيق تخفيض ال�
 linktitle: تحويل العرض التقديمي إلى تنسيق تخفيض السعر
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى Markdown بسهولة باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
+type: docs
 weight: 23
 url: /ar/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في العصر الرقمي الحالي، أصبحت الحاجة إلى تحويل العروض التقديمية إلى تنسيقات مختلفة ذات أهمية متزايدة. سواء كنت طالبًا أو محترفًا في مجال الأعمال أو منشئ محتوى، فإن القدرة على تحويل عروض PowerPoint التقديمية الخاصة بك إلى تنسيق Markdown يمكن أن تكون مهارة قيمة. Markdown هي لغة ترميزية خفيفة الوزن تُستخدم على نطاق واسع لتنسيق المستندات النصية ومحتوى الويب. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تحويل العروض التقديمية إلى تنسيق Markdown باستخدام Aspose.Slides for .NET.
 
@@ -102,10 +98,3 @@ pres.Save(Path.Combine(outPath, "pres.md"), SaveFormat.Md, mdOptions);
 ### س5: أين يمكنني الوصول إلى الترخيص المؤقت لـ Aspose.Slides for .NET؟
 
  يمكنك الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET على[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

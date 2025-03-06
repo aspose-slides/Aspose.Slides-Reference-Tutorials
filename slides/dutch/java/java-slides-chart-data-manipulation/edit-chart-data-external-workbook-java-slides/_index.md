@@ -3,14 +3,10 @@ title: Bewerk grafiekgegevens in externe werkmap in Java-dia's
 linktitle: Bewerk grafiekgegevens in externe werkmap in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagramgegevens in een externe werkmap kunt bewerken met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
+type: docs
 weight: 17
 url: /nl/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het bewerken van diagramgegevens in een externe werkmap in Java-dia's
 
@@ -107,9 +103,3 @@ U kunt de code aanpassen om verschillende externe werkmapindelingen te verwerken
 ### Hoe kan ik dit proces automatiseren voor meerdere presentaties?
 
 U kunt een lus maken om meerdere presentaties te verwerken, elke presentatie te laden, de gewenste wijzigingen aan te brengen en de gewijzigde presentaties één voor één op te slaan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 投影片中對中斷的支持
 linktitle: Java 投影片中對中斷的支持
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 掌握 Java Slides 中斷處理。本詳細指南提供了無縫中斷管理的逐步說明和程式碼範例。
+type: docs
 weight: 12
 url: /zh-hant/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # 使用 Aspose.Slides for Java 在 Java 投影片中支援中斷簡介
 
 Aspose.Slides for Java 是一個功能強大的函式庫，用於在 Java 應用程式中建立、操作和使用 PowerPoint 簡報。在本綜合指南中，我們將探討如何使用 Aspose.Slides for Java 來利用 Java Slides 中的中斷支援。無論您是經驗豐富的開發人員還是剛剛入門，本逐步教學都將透過詳細的解釋和程式碼範例引導您完成整個過程。
@@ -137,9 +133,3 @@ Java Slides 中的中斷處理是指在處理 PowerPoint 簡報期間優雅地�
 ### 在哪裡可以存取 Aspose.Slides for Java 的更多資源和文件？
 
 您可以在以下位置找到 Aspose.Slides for Java 的綜合文件、教學課程和範例：[阿斯普斯網站](https://reference.aspose.com/slides/java/)。此外，您可以聯絡 Aspose 支援團隊以獲得有關您的特定用例的協助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: قم بتعيين لون التعبئة التلقائية للسلسلة
 linktitle: قم بتعيين لون التعبئة التلقائية للسلسلة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين لون التعبئة التلقائي للسلسلة في Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية للعروض التقديمية الديناميكية.
+type: docs
 weight: 14
 url: /ar/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتعيين لون التعبئة التلقائية للسلسلة في شرائح Java
 
@@ -130,9 +126,3 @@ finally
 ### أين يمكنني العثور على المزيد من الموارد والوثائق؟
 
  يمكنك الوصول إلى الوثائق الشاملة لـ Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

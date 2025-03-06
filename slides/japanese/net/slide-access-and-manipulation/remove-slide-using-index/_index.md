@@ -3,14 +3,10 @@ title: 連続インデックスによるスライドの消去
 linktitle: 連続インデックスによるスライドの消去
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドを消去する方法を段階的に学習します。ガイドには、スライドを順番にインデックスでプログラム的に削除するための明確な手順と完全なソース コードが記載されています。
+type: docs
 weight: 24
 url: /ja/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## シーケンシャルインデックスによるスライド消去の紹介
 
@@ -90,9 +86,3 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### Aspose.Slides for .NET について詳しく知るにはどうすればよいですか?
 
  Aspose.Slides for .NETの詳細なドキュメントとAPIリファレンスは、[ドキュメントページ](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

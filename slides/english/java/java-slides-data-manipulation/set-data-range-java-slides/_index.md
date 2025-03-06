@@ -3,14 +3,10 @@ title: Set Data Range in Java Slides
 linktitle: Set Data Range in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set data ranges in Java slides effortlessly with Aspose.Slides for Java. Create dynamic and data-driven presentations with this step-by-step guide. 
+type: docs
 weight: 18
 url: /java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Set Data Range in Java Slides
 
@@ -101,10 +97,3 @@ You can access specific slides and shapes within a presentation using the Aspose
 ### Where can I find more documentation and examples for Aspose.Slides for Java?
 
 You can find extensive documentation and examples for Aspose.Slides for Java on the Aspose documentation website: [Aspose.Slides for Java API References](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

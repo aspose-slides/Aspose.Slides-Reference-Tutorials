@@ -3,14 +3,10 @@ title: Aspose.Slides .NET ile PowerPoint Animasyonlarında Uzmanlaşmak
 linktitle: Slaytta Animasyonu Tekrarla
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını geliştirin. Animasyonları zahmetsizce kontrol edin, izleyicilerinizi büyüleyin ve kalıcı bir izlenim bırakın.
+type: docs
 weight: 12
 url: /tr/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunumların dinamik dünyasında, animasyonları kontrol etme yeteneği izleyicinin dikkatini çekmede ve çekmede çok önemli bir rol oynar. Aspose.Slides for .NET, geliştiricilerin slaytlardaki animasyon türlerinin sorumluluğunu üstlenmelerini sağlayarak daha etkileşimli ve görsel olarak çekici bir sunuma olanak tanır. Bu eğitimde Aspose.Slides for .NET kullanarak bir slayttaki animasyon türlerinin nasıl kontrol edileceğini adım adım inceleyeceğiz.
 ## Önkoşullar
@@ -70,9 +66,3 @@ Aspose.Slides, çok çeşitli PowerPoint sürümleri için destek sağlayarak he
  Ziyaret etmek[Burada](https://purchase.aspose.com/temporary-license/) Geçici lisans alma konusunda bilgi için.
 ### Yardıma mı ihtiyacınız var veya daha fazla sorunuz mu var?
  Aspose.Slides topluluğuyla etkileşime geçin[destek Forumu](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Łącz kształty za pomocą łączników w programie PowerPoint
 linktitle: Łącz kształty za pomocą łączników w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak łączyć kształty za pomocą łączników w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Samouczek krok po kroku dla początkujących.
+type: docs
 weight: 18
 url: /pl/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku dowiemy się, jak łączyć kształty za pomocą łączników w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla języka Java. Postępuj zgodnie z tymi instrukcjami krok po kroku, aby skutecznie łączyć kształty i tworzyć atrakcyjne wizualnie slajdy.
 ## Warunki wstępne
@@ -86,9 +82,3 @@ Tak, możesz łączyć wiele kształtów za pomocą złożonych łączników dos
 Absolutnie możesz łatwo programowo dodawać tekst do kształtów i złączy, używając Aspose.Slides dla Java.
 ### Czy dostępne jest forum społecznościowe lub kanał wsparcia dla użytkowników Aspose.Slides for Java?
  Tak, na forum Aspose.Slides możesz znaleźć pomocne zasoby, zadawać pytania i kontaktować się z innymi użytkownikami[Tutaj](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

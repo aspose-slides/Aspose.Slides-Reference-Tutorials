@@ -3,14 +3,10 @@ title: Ustaw przezroczystość tekstu w cieniu za pomocą Java
 linktitle: Ustaw przezroczystość tekstu w cieniu za pomocą Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dostosować przezroczystość cienia tekstu w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje programowo.
+type: docs
 weight: 20
 url: /pl/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku przyjrzymy się, jak manipulować przezroczystością cieni tekstu w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Dostosowanie przezroczystości cieni tekstu może znacznie poprawić atrakcyjność wizualną slajdów, czyniąc je bardziej dynamicznymi i profesjonalnymi. Aspose.Slides for Java zapewnia solidne funkcje do precyzyjnego i programowego kontrolowania różnych aspektów elementów slajdów, zapewniając, że Twoje prezentacje spełniają najwyższe standardy projektowania.
 ## Warunki wstępne
@@ -74,9 +70,3 @@ Aspose.Slides for Java to solidny interfejs API języka Java, który umożliwia 
  Można znaleźć dokumentację Aspose.Slides dla Java[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Aby uzyskać wsparcie i interakcję ze społecznością, odwiedź forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

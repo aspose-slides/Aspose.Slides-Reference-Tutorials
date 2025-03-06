@@ -3,14 +3,10 @@ title: Java 슬라이드에서 마크다운으로 변환
 linktitle: Java 슬라이드에서 마크다운으로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Markdown으로 변환하세요. 이 단계별 가이드를 따라 슬라이드를 손쉽게 변형해 보세요.
+type: docs
 weight: 24
 url: /ko/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개 Java 슬라이드에서 Markdown으로 변환
 
@@ -140,9 +136,3 @@ Aspose.Slides for Java는 강력한 변환 기능을 제공하지만 복잡한 �
 ### 추가 문서와 리소스는 어디에서 찾을 수 있나요?
 
  Java 문서에 대한 Aspose.Slides를 참조할 수 있습니다.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/) 자세한 정보와 추가 예시를 확인하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

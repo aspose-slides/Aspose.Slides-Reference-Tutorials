@@ -3,14 +3,10 @@ title: Slayta Düz Çizgi Ekle
 linktitle: Slayta Düz Çizgi Ekle
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak bir PowerPoint slaytına programlı olarak nasıl düz çizgi ekleyeceğinizi öğrenin. Bu adım adım kılavuzla üretkenliğinizi artırın.
+type: docs
 weight: 14
 url: /tr/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Aspose.Slides for Java, Java geliştiricilerinin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kütüphanedir. Aspose.Slides ile PowerPoint dosyalarını kolaylıkla oluşturabilir, değiştirebilir ve dönüştürebilirsiniz; zamandan ve emekten tasarruf edersiniz. Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint sunumundaki bir slayda düz çizgi ekleme sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -66,9 +62,3 @@ Kesinlikle! Aspose.Slides dikdörtgenler, daireler, oklar ve daha fazlasını i�
 Evet, Aspose.Slides API'sini kullanarak slayta metin, resim ve diğer içerikleri ekleyebilirsiniz.
 ### Aspose.Slides'ın ücretsiz deneme sürümü mevcut mu?
  Evet, Aspose.Slides'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

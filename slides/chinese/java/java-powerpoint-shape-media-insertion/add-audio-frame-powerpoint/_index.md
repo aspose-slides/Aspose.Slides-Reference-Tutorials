@@ -3,14 +3,10 @@ title: 在 PowerPoint 中添加音频框
 linktitle: 在 PowerPoint 中添加音频框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将音频帧添加到 PowerPoint 演示文稿中。轻松使用引人入胜的音频元素提升您的演示文稿。
+type: docs
 weight: 12
 url: /zh/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 使用音频元素增强演示文稿可以显著提升其影响力和参与度。使用 Aspose.Slides for Java，将音频帧集成到 PowerPoint 演示文稿中成为一个无缝过程。本教程将指导您逐步使用 Aspose.Slides for Java 将音频帧添加到演示文稿中。
 ## 先决条件
@@ -79,9 +75,3 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java 提供了广泛的自定义选项，允许您根据自己的喜好定制音频播放器的外观。
 ### Aspose.Slides for Java 有试用版吗？
 是的，你可以从他们的[网站](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

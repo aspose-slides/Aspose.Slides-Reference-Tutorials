@@ -3,14 +3,10 @@ title: Establecer un libro de trabajo externo con datos de gráfico de actualiza
 linktitle: Establecer un libro de trabajo externo con datos de gráfico de actualización en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar libros de trabajo externos y actualizar datos de gráficos en Java Slides usando Aspose.Slides para Java. Mejore sus habilidades de automatización de PowerPoint.
+type: docs
 weight: 20
 url: /es/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a configurar un libro de trabajo externo con datos de gráfico de actualización en diapositivas de Java
 
@@ -103,9 +99,3 @@ Sí, puede personalizar la apariencia del gráfico, incluido su título, etiquet
 ### ¿Dónde puedo encontrar más documentación y recursos para Aspose.Slides para Java?
 
  Para obtener documentación detallada y recursos adicionales, visite la documentación de Aspose.Slides para Java en[aquí](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

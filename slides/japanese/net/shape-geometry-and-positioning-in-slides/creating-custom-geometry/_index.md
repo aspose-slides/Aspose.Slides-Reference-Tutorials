@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET を使用して C# でカスタム ジオメトリ
 linktitle: Aspose.Slides を使用してジオメトリ シェイプにカスタム ジオメトリを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でカスタム ジオメトリを作成する方法を学びます。ユニークな図形でプレゼンテーションの質を高めます。C# 開発者向けのステップ バイ ステップ ガイド。
+type: docs
 weight: 15
 url: /ja/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションの動的な世界では、ユニークな図形やジオメトリを追加することでコンテンツの質を高め、より魅力的で視覚的に魅力的なものにすることができます。Aspose.Slides for .NET は、図形内にカスタム ジオメトリを作成するための強力なソリューションを提供し、従来のデザインから脱却できるようにします。このチュートリアルでは、Aspose.Slides for .NET を使用して GeometryShape にカスタム ジオメトリを作成する手順を説明します。
 ## 前提条件
@@ -98,9 +94,3 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
 支援を求め、コミュニティと関わりましょう[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
 ### 5. Aspose.Slides for .NET はどこで購入できますか?
  Aspose.Slides for .NETを購入できます[ここ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

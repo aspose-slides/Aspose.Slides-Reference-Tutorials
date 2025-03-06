@@ -3,14 +3,10 @@ title: Создать форматированный прямоугольник 
 linktitle: Создать форматированный прямоугольник в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создать и отформатировать прямоугольник в PowerPoint с помощью Aspose.Slides для Java, с помощью этого пошагового руководства.
+type: docs
 weight: 18
 url: /ru/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы покажем вам процесс создания форматированного прямоугольника на слайде PowerPoint с помощью Aspose.Slides для Java. Мы разберем каждый шаг, чтобы вы могли следовать ему и реализовать это в своих собственных проектах.
 ## Предварительные условия
@@ -95,9 +91,3 @@ Aspose.Slides for Java — это библиотека, которая позв�
  Да, утилизация`Presentation` объект помогает освободить ресурсы и избежать утечек памяти.
 ### Где я могу найти документацию по Aspose.Slides для Java?
  Документация доступна[здесь](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

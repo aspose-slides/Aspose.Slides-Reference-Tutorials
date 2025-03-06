@@ -3,14 +3,10 @@ title: Java Slaytlarında Dağınık Grafik
 linktitle: Java Slaytlarında Dağınık Grafik
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java'da Dağılım Grafikleri oluşturmayı öğrenin. Sunumlarda veri görselleştirmesi için Java kaynak kodunu içeren adım adım kılavuz.
+type: docs
 weight: 11
 url: /tr/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java'da Dağınık Grafiğe Giriş
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Aspose.Slides for Java belgelerinde daha fazla özelleştirme seçeneğini keşfetmekten çekinmeyin.
 
  Değiştirmeyi unutmayın`"Your Document Directory"` sunuyu kaydetmek istediğiniz asıl yolla.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

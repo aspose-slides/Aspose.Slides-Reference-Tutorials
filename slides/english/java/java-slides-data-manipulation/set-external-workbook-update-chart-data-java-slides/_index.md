@@ -3,14 +3,10 @@ title: Set External Workbook With Update Chart Data in Java Slides
 linktitle: Set External Workbook With Update Chart Data in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set external workbooks and update chart data in Java Slides using Aspose.Slides for Java. Enhance your PowerPoint automation skills.
+type: docs
 weight: 20
 url: /java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Set External Workbook With Update Chart Data in Java Slides
 
@@ -103,10 +99,3 @@ Yes, you can customize the appearance of the chart, including its title, labels,
 ### Where can I find more documentation and resources for Aspose.Slides for Java?
 
 For detailed documentation and additional resources, visit the Aspose.Slides for Java documentation at [here](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Trích xuất âm thanh từ dòng thời gian PowerPoint
 linktitle: Trích xuất âm thanh từ dòng thời gian
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách trích xuất âm thanh từ bản trình bày PowerPoint bằng Aspose.Slides for .NET. Nâng cao nội dung đa phương tiện của bạn một cách dễ dàng.
+type: docs
 weight: 13
 url: /vi/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thế giới thuyết trình đa phương tiện, âm thanh có thể là một công cụ mạnh mẽ để truyền tải thông điệp của bạn một cách hiệu quả. Aspose.Slides for .NET cung cấp giải pháp liền mạch để trích xuất âm thanh từ bản trình bày PowerPoint. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách trích xuất âm thanh từ bản trình bày PowerPoint bằng Aspose.Slides cho .NET.
 
@@ -114,9 +110,3 @@ Có, Aspose.Slides cung cấp các tính năng mở rộng để thao tác và c
 ### 5. Tôi có thể tìm tài liệu toàn diện về Aspose.Slides cho .NET ở đâu?
 
  Bạn có thể tìm tài liệu chi tiết và ví dụ về Aspose.Slides for .NET[đây](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

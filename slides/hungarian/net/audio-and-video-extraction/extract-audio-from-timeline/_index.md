@@ -3,14 +3,10 @@ title: Hang kibontása a PowerPoint idővonaláról
 linktitle: Hang kibontása az idővonalról
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan vonhat ki hangot a PowerPoint-prezentációkból az Aspose.Slides for .NET segítségével. Egyszerűen javíthatja multimédiás tartalmait.
+type: docs
 weight: 13
 url: /hu/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 A multimédiás prezentációk világában a hang hatékony eszköz lehet az üzenet hatékony közvetítésére. Az Aspose.Slides for .NET zökkenőmentes megoldást kínál a PowerPoint prezentációk hangjának kinyerésére. Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan vonhat ki hangot egy PowerPoint-prezentációból az Aspose.Slides for .NET segítségével.
 
@@ -114,9 +110,3 @@ Igen, az Aspose.Slides kiterjedt funkciókat kínál a hangkezeléshez és -szer
 ### 5. Hol találom az Aspose.Slides for .NET átfogó dokumentációját?
 
  Részletes dokumentációt és példákat találhat az Aspose.Slides for .NET-hez[itt](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

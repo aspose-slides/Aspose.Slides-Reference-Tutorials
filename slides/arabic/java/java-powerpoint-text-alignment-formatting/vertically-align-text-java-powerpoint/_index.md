@@ -3,14 +3,10 @@ title: محاذاة النص عموديًا في Java PowerPoint
 linktitle: محاذاة النص عموديًا في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية محاذاة النص عموديًا في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لتنسيق الشرائح بسلاسة.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية محاذاة النص رأسيًا داخل خلايا الجدول في عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ Java. تعد محاذاة النص عموديًا جانبًا مهمًا في تصميم الشرائح، مما يضمن تقديم المحتوى الخاص بك بدقة واحترافية. يوفر Aspose.Slides ميزات قوية للتعامل مع العروض التقديمية وتنسيقها برمجيًا، مما يمنحك التحكم الكامل في كل جانب من جوانب شرائحك.
 ## المتطلبات الأساسية
@@ -95,9 +91,3 @@ if (presentation != null) presentation.dispose();
  قم بزيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) للحصول على أدلة شاملة ومراجع واجهة برمجة التطبيقات ونماذج التعليمات البرمجية.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides؟
  للحصول على المساعدة الفنية ودعم المجتمع، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

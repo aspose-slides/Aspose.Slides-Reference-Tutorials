@@ -3,14 +3,10 @@ title: Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özellikleri
 linktitle: Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özellikleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak, Java Slides'daki ayrı açıklamalar için özel yazı tipi stilleri, boyutları ve renkleri ile PowerPoint sunumlarınızı geliştirin.
+type: docs
 weight: 12
 url: /tr/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Bireysel Açıklamalar için Yazı Tipi Özelliklerine Giriş
 
@@ -117,9 +113,3 @@ Kaynakları serbest bırakmayı tamamladığınızda sunum nesnesini elden çık
 ```java
 if (pres != null) pres.dispose();
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

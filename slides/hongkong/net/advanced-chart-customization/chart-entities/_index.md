@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 建立漂亮的圖表
 linktitle: 圖表實體和格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 建立令人驚嘆的圖表。透過我們的逐步指南提升您的數據視覺化遊戲水平。
+type: docs
 weight: 13
 url: /zh-hant/net/advanced-chart-customization/chart-entities/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今數據驅動的世界中，有效的數據視覺化是向受眾傳達訊息的關鍵。 Aspose.Slides for .NET 是一個功能強大的函式庫，可讓您建立令人驚嘆的簡報和投影片，包括引人注目的圖表。在本教程中，我們將引導您完成使用 Aspose.Slides for .NET 建立漂亮圖表的過程。我們將每個範例分解為多個步驟，以幫助您理解和實施圖表實體和格式。那麼，就讓我們開始吧！
 
@@ -265,10 +261,3 @@ Aspose.Slides for .NET 是一個功能強大的程式庫，可讓 .NET 開發人
 ### 5. Aspose.Slides for .NET 有社群或支援論壇嗎？
 
 是的，您可以找到 Aspose.Slides 社群和支援論壇[這裡](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

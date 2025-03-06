@@ -3,14 +3,10 @@ title: Indeks punktów danych wykresu w slajdach Java
 linktitle: Indeks punktów danych wykresu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak manipulować indeksami punktów danych na wykresie w Java Slides przy użyciu Aspose.Slides dla Java. Wyodrębniaj i pracuj z danymi z wykresów programu PowerPoint bez wysiłku.
+type: docs
 weight: 12
 url: /pl/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do indeksu punktów danych wykresu w slajdach Java
 
@@ -102,9 +98,3 @@ Możesz wyeksportować prezentację programu PowerPoint z wykresami do różnych
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides dla Java?
 
  Obszerne przykłady i dokumentację Aspose.Slides for Java można znaleźć na stronie z dokumentacją Aspose[Tutaj](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

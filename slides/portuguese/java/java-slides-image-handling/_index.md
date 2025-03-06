@@ -3,14 +3,10 @@ title: Manipulação de imagens de slides Java usando Aspose.Slides para Java
 linktitle: Manipulação de imagens de slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como lidar com imagens em slides Java usando os tutoriais Aspose.Slides para Java. Explore orientações passo a passo para um gerenciamento eficiente de imagens.
+type: docs
 weight: 23
 url: /pt/java/image-handling/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Você está pronto para aprimorar seus slides Java com imagens impressionantes? Neste artigo, iremos nos aprofundar no mundo do tratamento de imagens usando os tutoriais Aspose.Slides para Java. Quer você seja um desenvolvedor experiente ou esteja apenas começando sua jornada, este guia completo irá orientá-lo durante o processo, passo a passo.
 
@@ -46,9 +42,3 @@ Aprenda como adicionar imagens SVG ao Java Slides com Aspose.Slides for Java. Gu
 Aprenda como adicionar imagens SVG baseadas em vetores de recursos externos a slides Java usando Aspose.Slides. Crie apresentações impressionantes com recursos visuais de alta qualidade.
 ### [Converter objeto de imagem SVG em grupo de formas em slides Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Aprenda como converter imagens SVG em um grupo de formas em Java Slides usando Aspose.Slides for Java. Guia passo a passo com exemplos de código.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

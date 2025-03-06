@@ -3,14 +3,10 @@ title: Aplique el formato de relleno de viñetas de manera efectiva en Java Powe
 linktitle: Aplique el formato de relleno de viñetas de manera efectiva en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a aplicar formatos de relleno de viñetas en Java PowerPoint usando Aspose.Slides para Java. Domina los estilos de viñetas y mejora tus presentaciones.
+type: docs
 weight: 15
 url: /es/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En el panorama digital actual, las habilidades de presentación eficaces son cruciales para los profesionales de diversos ámbitos. Crear presentaciones de PowerPoint atractivas requiere no sólo creatividad sino también experiencia técnica para aprovechar todo el potencial de herramientas como Aspose.Slides para Java. Este tutorial profundiza en uno de esos aspectos: aplicar formatos de relleno de viñetas mediante programación utilizando Aspose.Slides para Java. Ya sea que sea un desarrollador, un profesional de negocios o un estudiante que busque mejorar sus habilidades de presentación, dominar los formatos de relleno con viñetas puede mejorar significativamente el atractivo visual y la claridad de sus diapositivas.
 ## Requisitos previos
@@ -94,9 +90,3 @@ Por supuesto, Aspose.Slides para Java está diseñado para manejar requisitos s�
 Sí, Aspose.Slides para Java ofrece API para integraciones basadas en la nube.
 ### ¿Puedo probar Aspose.Slides para Java antes de comprarlo?
  Sí, puedes empezar con un[prueba gratis](https://releases.aspose.com/) para evaluar sus características.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

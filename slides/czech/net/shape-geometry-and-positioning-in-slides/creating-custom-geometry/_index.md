@@ -3,14 +3,10 @@ title: Vytváření vlastní geometrie v C# pomocí Aspose.Slides pro .NET
 linktitle: Vytváření vlastní geometrie v Geometry Shape pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet vlastní geometrii v Aspose.Slides pro .NET. Vylepšete své prezentace jedinečnými tvary. Podrobný průvodce pro vývojáře C#.
+type: docs
 weight: 15
 url: /cs/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dynamickém světě prezentací může přidání jedinečných tvarů a geometrií pozvednout váš obsah a učinit jej poutavějším a vizuálně přitažlivějším. Aspose.Slides for .NET poskytuje výkonné řešení pro vytváření vlastních geometrií v rámci tvarů, což vám umožní osvobodit se od konvenčních návrhů. Tento tutoriál vás provede procesem vytváření vlastní geometrie v GeometryShape pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -98,9 +94,3 @@ Ano, Aspose.Slides podporuje různé programovací jazyky, ale tento tutoriál s
  Vyhledejte pomoc a zapojte se do komunity na adrese[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Kde mohu zakoupit Aspose.Slides pro .NET?
  Můžete si koupit Aspose.Slides pro .NET[tady](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

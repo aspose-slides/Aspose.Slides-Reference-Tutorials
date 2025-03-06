@@ -3,14 +3,10 @@ title: Controle de animação de slides
 linktitle: Controle de animação de slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprimore suas apresentações com animações dinâmicas usando Aspose.Slides for .NET. Aprenda como controlar animações de slides passo a passo neste tutorial abrangente.
+type: docs
 weight: 18
 url: /pt/net/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introdução:
 
@@ -40,9 +36,3 @@ Aprenda como controlar os tipos de animação em slides do PowerPoint usando Asp
 Aprenda como repetir animações em um slide usando Aspose.Slides for .NET. Este guia passo a passo fornece código-fonte e instruções claras para adicionar animações cativantes a apresentações do PowerPoint de forma programática.
 ### [Retroceder animação no slide](./rewind-animation-on-slide/)
 Aprenda como retroceder animações em slides do PowerPoint usando Aspose.Slides for .NET. Siga este guia passo a passo com exemplos completos de código-fonte para aprimorar suas apresentações de forma dinâmica.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

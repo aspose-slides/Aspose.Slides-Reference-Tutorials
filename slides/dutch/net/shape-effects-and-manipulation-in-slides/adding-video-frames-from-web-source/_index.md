@@ -3,14 +3,10 @@ title: Zelfstudie videoframes insluiten met Aspose.Slides voor .NET
 linktitle: Videoframes van webbron toevoegen aan presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u videoframes naadloos in PowerPoint-dia's kunt insluiten met Aspose.Slides voor .NET. Verbeter presentaties moeiteloos met multimedia.
+type: docs
 weight: 20
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van presentaties kan het opnemen van multimedia-elementen de betrokkenheid aanzienlijk vergroten en impactvolle boodschappen overbrengen. Een krachtige manier om dit te bereiken is door videoframes in presentatiedia's in te sluiten. In deze zelfstudie onderzoeken we hoe u dit naadloos kunt bereiken met Aspose.Slides voor .NET. Aspose.Slides is een robuuste bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen manipuleren en uitgebreide mogelijkheden bieden voor het maken, bewerken en verbeteren van dia's.
 ## Vereisten
@@ -79,9 +75,3 @@ Aspose.Slides wordt regelmatig bijgewerkt om de compatibiliteit met de nieuwste 
 Ja, u kunt meerdere video's insluiten door extra videoframes aan een dia toe te voegen.
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides-gerelateerde vragen?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

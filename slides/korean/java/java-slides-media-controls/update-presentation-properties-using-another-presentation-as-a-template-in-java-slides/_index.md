@@ -3,14 +3,10 @@ title: Java 슬라이드에서 다른 프리젠테이션을 템플릿으로 사�
 linktitle: Java 슬라이드에서 다른 프리젠테이션을 템플릿으로 사용하여 프리젠테이션 속성 업데이트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 업데이트된 메타데이터로 PowerPoint 프레젠테이션을 향상하세요. Java Slides의 템플릿을 사용하여 작성자, 제목, 키워드와 같은 속성을 업데이트하는 방법을 알아보세요.
+type: docs
 weight: 14
 url: /ko/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 다른 프리젠테이션을 템플릿으로 사용하여 프리젠테이션 속성 업데이트 소개
 
@@ -126,9 +122,3 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### 업데이트할 수 있는 프레젠테이션 유형에 제한이 있나요?
 
 아니요. PPTX, ODP, PPT를 포함한 다양한 형식의 프레젠테이션 속성을 업데이트할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: استكشاف خصائص العرض التقديمي باستخدام As
 linktitle: خصائص عرض شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين خصائص العرض التقديمي لشرائح Java باستخدام Aspose.Slides لبرامج Java التعليمية. اكتشف النصائح والحيل للعروض التقديمية الديناميكية.
+type: docs
 weight: 21
 url: /ar/java/presentation-properties/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في عالم الاتصالات الرقمية المتطور باستمرار، تعد العروض التقديمية الجذابة أمرًا ضروريًا. سواء كنت محترفًا متمرسًا أو بدأت رحلتك للتو في عروض شرائح Java التقديمية، فإن إتقان فن خصائص العرض التقديمي أمر بالغ الأهمية. لحسن الحظ، يوفر Aspose.Slides for Java مجموعة قوية من الأدوات والميزات لجعل عروضك التقديمية متألقة.
 
@@ -61,9 +57,3 @@ url: /ar/java/presentation-properties/
 قم بتحسين عرض شرائح Java الخاص بك باستخدام Aspose.Slides. قم بإنشاء عروض تقديمية جذابة باستخدام إعدادات مخصصة. استكشف الأدلة والأسئلة الشائعة خطوة بخطوة.
 ### [الخصائص الموصى بها للقراءة فقط في شرائح Java](./read-only-recommended-properties-in-java-slides/)
 تعرف على كيفية تمكين الخصائص الموصى بها للقراءة فقط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر لتعزيز أمان العرض التقديمي.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

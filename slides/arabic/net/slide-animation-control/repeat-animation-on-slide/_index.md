@@ -3,14 +3,10 @@ title: إتقان الرسوم المتحركة لـ PowerPoint باستخدام
 linktitle: كرر الرسوم المتحركة على الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. تحكم في الرسوم المتحركة دون عناء، واجذب انتباه جمهورك، واترك انطباعًا دائمًا.
+type: docs
 weight: 12
 url: /ar/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، تلعب القدرة على التحكم في الرسوم المتحركة دورًا محوريًا في جذب انتباه الجمهور وجذب انتباهه. يعمل Aspose.Slides for .NET على تمكين المطورين من تولي مسؤولية أنواع الرسوم المتحركة داخل الشرائح، مما يسمح بتقديم عرض تقديمي أكثر تفاعلية وجاذبية بصريًا. في هذا البرنامج التعليمي، سنستكشف كيفية التحكم في أنواع الرسوم المتحركة على الشريحة باستخدام Aspose.Slides لـ .NET، خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -70,9 +66,3 @@ pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Expor
  يزور[هنا](https://purchase.aspose.com/temporary-license/) للحصول على معلومات حول الحصول على ترخيص مؤقت.
 ### هل تحتاج إلى مساعدة أو لديك المزيد من الأسئلة؟
  تفاعل مع مجتمع Aspose.Slides على[منتدى الدعم](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

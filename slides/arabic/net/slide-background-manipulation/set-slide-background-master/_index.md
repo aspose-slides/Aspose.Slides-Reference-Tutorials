@@ -3,14 +3,10 @@ title: دليل شامل لإعداد خلفية الشريحة الرئيسية
 linktitle: تعيين خلفية الشريحة الرئيسية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تعيين خلفية الشريحة الرئيسية باستخدام Aspose.Slides لـ .NET لتحسين عروضك التقديمية بشكل مرئي.
+type: docs
 weight: 14
 url: /ar/net/slide-background-manipulation/set-slide-background-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في مجال تصميم العرض التقديمي، يمكن للخلفية الجذابة والجذابة بصريًا أن تُحدث فرقًا كبيرًا. سواء كنت تقوم بإنشاء عرض تقديمي للعمل أو التعليم أو أي غرض آخر، تلعب الخلفية دورًا حاسمًا في تعزيز التأثير البصري. Aspose.Slides for .NET هي مكتبة قوية تمكنك من التعامل مع العروض التقديمية وتخصيصها بطريقة سلسة. في هذا الدليل التفصيلي خطوة بخطوة، سوف نتعمق في عملية إعداد خلفية الشريحة الرئيسية باستخدام Aspose.Slides for .NET. 
 
@@ -147,9 +143,3 @@ pres.Save(dataDir + "SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
 **Title (maximum 60 characters):** إعداد خلفية الشريحة الرئيسية في Aspose.Slides لـ .NET
 
 قم بتحسين تصميم العرض التقديمي الخاص بك باستخدام Aspose.Slides لـ .NET. تعلم كيفية ضبط الشريحة الرئيسية لخلفية الشريحة للحصول على صور جذابة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

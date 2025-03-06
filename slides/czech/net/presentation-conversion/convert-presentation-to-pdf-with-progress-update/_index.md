@@ -3,14 +3,10 @@ title: Převeďte prezentaci do formátu PDF pomocí funkce Progress Update
 linktitle: Převeďte prezentaci do formátu PDF pomocí funkce Progress Update
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak převádět prezentace do PDF pomocí aktualizací postupu pomocí Aspose.Slides for .NET. Podrobný průvodce včetně zdrojového kódu.
+type: docs
 weight: 29
 url: /cs/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dnešní digitální době je převod prezentací do PDF běžným požadavkem, zejména v obchodním a vzdělávacím sektoru. Aspose.Slides for .NET poskytuje výkonné řešení pro snadné dosažení tohoto úkolu. V tomto tutoriálu krok za krokem vás provedeme procesem převodu prezentace do PDF a zároveň budeme sledovat průběh převodu.
 
@@ -89,9 +85,3 @@ Odpověď: Ve svém kódu můžete implementovat mechanismy zpracování chyb, a
 
 ### Otázka: Kde mohu získat podporu pro Aspose.Slides pro .NET?
  Odpověď: Podporu a komunitní diskuse najdete na[https://forum.aspose.com/](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

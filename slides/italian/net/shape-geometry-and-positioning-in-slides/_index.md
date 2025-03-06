@@ -3,14 +3,10 @@ title: Geometria della forma e posizionamento nelle diapositive utilizzando Aspo
 linktitle: Geometria della forma e posizionamento nelle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue abilità di manipolazione delle diapositive con i tutorial Aspose.Slides sulla geometria della forma e sul posizionamento nelle diapositive. Impara a controllare a livello di codice le forme, le relative dimensioni e l'allineamento.
+type: docs
 weight: 13
 url: /it/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## introduzione
 
@@ -55,9 +51,3 @@ Scopri come integrare in modo efficiente i dati dell'impianto di illuminazione n
 Scopri come migliorare le diapositive della tua presentazione con dati smussati efficaci utilizzando Aspose.Slides. Una guida completa con istruzioni dettagliate e codice di esempio.
 ### [Nascondere le forme nelle diapositive della presentazione con Aspose.Slides](./hiding-shapes/)
 Scopri come nascondere le forme nelle diapositive della presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente, domande frequenti e best practice per presentazioni dinamiche.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

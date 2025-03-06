@@ -3,14 +3,10 @@ title: قم بتكرار الشريحة في نهاية العرض التقدي�
 linktitle: قم بتكرار الشريحة في نهاية العرض التقديمي المنفصل
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية نسخ شريحة من عرض تقديمي لـ PowerPoint وإضافتها إلى أخرى باستخدام Aspose.Slides for .NET. يوفر هذا الدليل التفصيلي التعليمات البرمجية المصدرية والتعليمات الواضحة للتعامل السلس مع الشرائح.
+type: docs
 weight: 17
 url: /ar/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -107,9 +103,3 @@ Aspose.Slides for .NET هي مكتبة تتيح لمطوري .NET إنشاء ع�
 ### هل يعمل Aspose.Slides for .NET مع الشرائح فقط؟
 
 لا، يوفر Aspose.Slides for .NET إمكانات واسعة النطاق تتجاوز الشرائح. يمكنك العمل مع الأشكال والمخططات والرسوم المتحركة وحتى استخراج النصوص والصور من العروض التقديمية.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

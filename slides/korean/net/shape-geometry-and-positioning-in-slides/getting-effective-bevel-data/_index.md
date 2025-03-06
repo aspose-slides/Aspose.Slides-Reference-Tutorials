@@ -3,14 +3,10 @@ title: 슬라이드에서 효과적인 베벨 데이터 검색의 마법 공개
 linktitle: 프레젠테이션 슬라이드의 모양에 대한 효과적인 경사 데이터 얻기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 효과적인 경사 데이터로 프레젠테이션 슬라이드를 향상시키는 방법을 알아보세요. 단계별 지침과 샘플 코드가 포함된 종합 가이드입니다.
+type: docs
 weight: 20
 url: /ko/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 비교할 수 없이 쉽게 멋진 프레젠테이션을 만들 수 있는 관문인 Aspose.Slides for .NET의 매혹적인 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프리젠테이션 슬라이드의 모양에 대한 효과적인 경사 데이터를 얻는 복잡한 과정을 살펴보겠습니다.
 ## 전제 조건
@@ -73,9 +69,3 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
  예, .NET용 Aspose.Slides를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy) 상업용 프로젝트를 위한 프리미엄 기능을 잠금 해제합니다.
 ### 구현 중에 문제가 발생하면 어떻게 되나요?
  .NET 커뮤니티용 Aspose.Slides에서 도움을 구하세요.[지원 포럼](https://forum.aspose.com/c/slides/11) 신속하고 유용한 솔루션을 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

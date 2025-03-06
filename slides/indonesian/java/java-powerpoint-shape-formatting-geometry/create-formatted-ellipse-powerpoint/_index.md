@@ -3,14 +3,10 @@ title: Buat Ellipse Terformat di PowerPoint
 linktitle: Buat Ellipse Terformat di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat elips yang diformat di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah terperinci kami.
+type: docs
 weight: 17
 url: /id/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Selamat datang di tutorial komprehensif tentang membuat elips yang diformat di PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file PowerPoint secara terprogram. Baik Anda mengotomatiskan pembuatan slide atau menyempurnakan presentasi dengan bentuk khusus, panduan ini akan memandu Anda melalui setiap langkah, memastikan Anda dapat menambahkan elips yang diformat sempurna ke slide Anda dengan mudah. Mari selami dan lihat bagaimana kita bisa mencapainya!
 ## Prasyarat
@@ -99,9 +95,3 @@ Ya, Aspose.Slides adalah produk komersial, dan Anda memerlukan lisensi untuk fun
  Anda dapat menemukan dokumentasi terperinci di Aspose.Slides untuk Java[halaman dokumentasi](https://reference.aspose.com/slides/java/).
 ### Apakah ada dukungan yang tersedia untuk Aspose.Slides?
  Ya, Aspose menawarkan dukungan melalui mereka[forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

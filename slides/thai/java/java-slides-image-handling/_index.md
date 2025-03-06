@@ -3,14 +3,10 @@ title: การจัดการภาพ Java Slides โดยใช้ Aspos
 linktitle: การจัดการภาพ Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการรูปภาพในสไลด์ Java โดยใช้ Aspose.Slides สำหรับบทช่วยสอน Java สำรวจคำแนะนำทีละขั้นตอนเพื่อการจัดการรูปภาพที่มีประสิทธิภาพ
+type: docs
 weight: 23
 url: /th/java/image-handling/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 คุณพร้อมที่จะปรับปรุงสไลด์ Java ของคุณด้วยภาพที่น่าทึ่งแล้วหรือยัง? ในบทความนี้ เราจะเจาะลึกโลกแห่งการจัดการรูปภาพโดยใช้ Aspose.Slides สำหรับบทช่วยสอน Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นการเดินทาง คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
 
@@ -46,9 +42,3 @@ url: /th/java/image-handling/
 เรียนรู้วิธีเพิ่มรูปภาพ SVG แบบเวกเตอร์จากแหล่งข้อมูลภายนอกไปยังสไลด์ Java โดยใช้ Aspose.Slides สร้างงานนำเสนอที่น่าทึ่งด้วยภาพคุณภาพสูง
 ### [แปลงวัตถุรูปภาพ SVG เป็นกลุ่มของรูปร่างใน Java Slides](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 เรียนรู้วิธีแปลงรูปภาพ SVG เป็นกลุ่มของรูปร่างใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

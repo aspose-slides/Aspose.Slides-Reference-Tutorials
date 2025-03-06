@@ -3,14 +3,10 @@ title: Java 投影片授權與初始化
 linktitle: Java 投影片授權與初始化
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 在我們的綜合教學中了解如何有效地授權和初始化 Aspose.Slides for Java。立即開始使用 Java 投影片！
+type: docs
 weight: 10
 url: /zh-hant/java/licensing-and-initialization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在 Java Slides 的世界中，許可和初始化是至關重要的第一步。 Aspose.Slides for Java 提供了一個強大的平台來創建令人驚嘆的簡報和幻燈片。在本文中，我們將引導您完成 Aspose.Slides for Java 的許可和初始化過程，確保您擁有創建引人入勝的簡報所需的所有工具。
 
@@ -42,9 +38,3 @@ url: /zh-hant/java/licensing-and-initialization/
 ## Java Slides 許可與初始化教程
 ### [Java 投影片中的計量許可](./metered-licensing-java-slides/)
 透過計量許可優化您的 Aspose.Slides for Java 使用。了解如何設定它並監控您的 API 消耗。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

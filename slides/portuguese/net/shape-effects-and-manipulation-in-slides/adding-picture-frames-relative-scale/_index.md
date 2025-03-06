@@ -3,14 +3,10 @@ title: Tutorial Adicionando Molduras de Imagem com Aspose.Slides .NET
 linktitle: Adicionando molduras com altura de escala relativa em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda a adicionar molduras com altura de escala relativa em Aspose.Slides for .NET. Siga este guia passo a passo para apresentações perfeitas.
+type: docs
 weight: 17
 url: /pt/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Aspose.Slides for .NET é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter apresentações do PowerPoint em seus aplicativos .NET sem esforço. Neste tutorial, mergulharemos no processo de adição de molduras de imagem com altura de escala relativa usando Aspose.Slides for .NET. Siga este guia passo a passo para aprimorar suas habilidades de construção de apresentações.
 ## Pré-requisitos
@@ -68,9 +64,3 @@ Aspose.Slides oferece suporte principalmente a linguagens .NET, mas você pode e
  Visite a[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para buscar assistência da comunidade e de especialistas da Aspose.
 ### Onde posso comprar o Aspose.Slides para .NET?
  Você pode comprar Aspose.Slides para .NET no site[página de compra](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

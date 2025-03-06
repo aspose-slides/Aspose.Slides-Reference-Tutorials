@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφίας σχήματος στο Pow
 linktitle: Δημιουργία μικρογραφίας σχήματος στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες σχημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Παρέχεται οδηγός βήμα προς βήμα.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη δημιουργία μικρογραφιών σχημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία PowerPoint μέσω προγραμματισμού, επιτρέποντας την αυτοματοποίηση διαφόρων εργασιών, συμπεριλαμβανομένης της δημιουργίας μικρογραφιών σχημάτων.
 ## Προαπαιτούμενα
@@ -64,9 +60,3 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
  Απολύτως! Μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Slides από[εδώ](https://releases.aspose.com/) να αξιολογήσει τα χαρακτηριστικά και τις δυνατότητές του.
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Slides;
  Εάν έχετε οποιεσδήποτε ερωτήσεις ή χρειάζεστε βοήθεια με το Aspose.Slides, μπορείτε να επισκεφτείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για υποστήριξη.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

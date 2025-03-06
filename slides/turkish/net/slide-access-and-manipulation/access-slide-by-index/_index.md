@@ -3,14 +3,10 @@ title: Sıralı Dizine Göre Slayta Erişim
 linktitle: Sıralı Dizine Göre Slayta Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak slaytlara sıralı indeksle nasıl erişeceğinizi öğrenin. PowerPoint sunumlarında kolayca gezinmek ve bunları değiştirmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+type: docs
 weight: 12
 url: /tr/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Sıralı Dizine Göre Slayta Erişime Giriş
 
@@ -90,9 +86,3 @@ Aspose.Slides for .NET, sıfırdan sunumlar oluşturma, slaytları düzenleme, �
 ### Aspose.Slides'ı kullanarak PowerPoint otomasyonu hakkında nasıl daha fazla bilgi edinebilirim?
 
  Aspose.Slides'ı kullanarak PowerPoint otomasyonu hakkında daha fazla bilgi edinmek için bu sitelerde bulunan ayrıntılı belgeleri ve kod örneklerini inceleyebilirsiniz.[dokümantasyon](https://reference.aspose.com/slides/net/) sayfa.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

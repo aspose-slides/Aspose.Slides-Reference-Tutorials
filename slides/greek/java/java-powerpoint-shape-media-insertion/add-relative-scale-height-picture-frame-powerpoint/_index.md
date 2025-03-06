@@ -3,14 +3,10 @@ title: Προσθήκη πλαισίου εικόνας σχετικής κλί�
 linktitle: Προσθήκη πλαισίου εικόνας σχετικής κλίμακας ύψους στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε κορνίζες εικόνων σε σχετική κλίμακα ύψους σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java, βελτιώνοντας το οπτικό σας περιεχόμενο.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να προσθέτετε μια κορνίζα με σχετικό ύψος κλίμακας σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -72,9 +68,3 @@ presentation.save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx",
 Ναι, το Aspose.Slides για Java υποστηρίζει διάφορες μορφές εικόνας, συμπεριλαμβανομένων των PNG, GIF, BMP και άλλων.
 ### Υπάρχει κάποιο φόρουμ κοινότητας ή κανάλι υποστήριξης διαθέσιμο για τους χρήστες του Aspose.Slides;
 Ναι, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides για τυχόν ερωτήσεις, συζητήσεις ή βοήθεια σχετικά με τη βιβλιοθήκη.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

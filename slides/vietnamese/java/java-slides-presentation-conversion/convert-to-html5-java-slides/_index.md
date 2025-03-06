@@ -3,14 +3,10 @@ title: Chuyển đổi sang HTML5 trong Java Slides
 linktitle: Chuyển đổi sang HTML5 trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuyển đổi bản trình bày PowerPoint sang HTML5 bằng Java bằng Aspose.Slides. Tìm hiểu cách tự động hóa quá trình chuyển đổi bằng các ví dụ về mã theo từng bước.
+type: docs
 weight: 23
 url: /vi/java/presentation-conversion/convert-to-html5-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu Chuyển đổi bản trình bày PowerPoint sang HTML5 trong Java bằng Aspose.Slides
 
@@ -109,9 +105,3 @@ Bạn có thể tùy chỉnh thêm đầu ra HTML5 bằng cách điều chỉnh 
 ### Aspose.Slides có tương thích với các phiên bản Java mới nhất không?
 
 Aspose.Slides được cập nhật thường xuyên để hỗ trợ các phiên bản Java mới nhất, vì vậy hãy đảm bảo bạn đang sử dụng phiên bản tương thích của thư viện.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

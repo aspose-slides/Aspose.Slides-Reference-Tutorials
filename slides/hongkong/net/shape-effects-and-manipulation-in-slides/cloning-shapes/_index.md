@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 複製簡報投影片中的形狀
 linktitle: 使用 Aspose.Slides 複製簡報投影片中的形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides API 高效複製簡報投影片中的形狀。輕鬆建立動態簡報。探索逐步指南、常見問題等。
+type: docs
 weight: 27
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介紹
 
@@ -101,9 +97,3 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## 結論
 
 使用 Aspose.Slides 解鎖簡報投影片中複製形狀的功能，為內容創作者和開發人員開啟了一個充滿創意可能性的世界。本指南引導您完成從安裝到進階自訂的整個過程，為您提供使您的簡報脫穎而出所需的工具。透過 Aspose.Slides，您可以簡化工作流程並輕鬆地將簡報願景變為現實。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

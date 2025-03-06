@@ -3,14 +3,10 @@ title: Aspose.Slides のズーム フレームを使用してダイナミック�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにズーム フレームを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、ズーム フレームを備えた魅力的なプレゼンテーションを作成する方法を学びます。魅力的なスライド エクスペリエンスを実現するには、ステップ バイ ステップ ガイドに従ってください。
+type: docs
 weight: 17
 url: /ja/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションの分野では、魅力的なスライドが印象に残る鍵となります。Aspose.Slides for .NET は強力なツールセットを提供します。このガイドでは、魅力的なズーム フレームをプレゼンテーション スライドに組み込むプロセスについて説明します。
 ## 前提条件
@@ -93,9 +89,3 @@ Aspose.Slides for .NET を使用して、魅力的なズーム フレームを�
 一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides for .NET のフル バージョンはどこで購入できますか?
 フルバージョンを購入できます[ここ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

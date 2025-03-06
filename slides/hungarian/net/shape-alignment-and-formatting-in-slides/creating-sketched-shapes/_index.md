@@ -3,14 +3,10 @@ title: Lenyűgöző vázlatos formák létrehozása az Aspose.Slides segítség�
 linktitle: Vázlatos alakzatok létrehozása prezentációs diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat kreatív vázlatos alakzatokat prezentációi diákjaihoz az Aspose.Slides for .NET segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül!
+type: docs
 weight: 13
 url: /hu/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Üdvözöljük lépésről lépésre bemutatott útmutatónkban, amely bemutatja az Aspose.Slides for .NET segítségével vázolt alakzatokat bemutató diákban. Ha egy kis kreativitást szeretne adni prezentációihoz, a vázlatos formák egyedi és kézzel rajzolt esztétikát biztosítanak. Ebben az oktatóanyagban végigvezetjük a folyamaton, egyszerű lépésekre bontva a zökkenőmentes élmény érdekében.
 ## Előfeltételek
@@ -78,9 +74,3 @@ Ha vázlatos formákat ad a prezentáció diákjaihoz, az javíthatja a vizuáli
  Az Aspose.Slides for .NET megvásárlásához látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy).
 ### 5. Kínálnak ideiglenes licenceket?
  Igen, rendelkezésre állnak ideiglenes licencek[itt](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

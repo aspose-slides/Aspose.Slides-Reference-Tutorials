@@ -3,14 +3,10 @@ title: Java 幻灯片中的幻灯片放映媒体控件
 linktitle: Java 幻灯片中的幻灯片放映媒体控件
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中启用和使用媒体控件。使用媒体控件增强您的演示文稿。
+type: docs
 weight: 11
 url: /zh/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中的幻灯片放映媒体控件简介
 
@@ -112,9 +108,3 @@ try {
 ### 有没有办法在 Java Slides 中为视频添加字幕或说明？
 
 是的，您可以通过向包含视频的幻灯片添加文本框或形状来为 Java Slides 中的视频添加字幕。然后，您可以使用计时设置将文本与视频播放同步。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 幻灯片中的图表获取范围
 linktitle: Java 幻灯片中的图表获取范围
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java API 检索 Java Slides 中的图表范围。带有源代码的分步指南，可实现有效的图表数据访问。
+type: docs
 weight: 16
 url: /zh/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中图表获取范围简介
 
@@ -102,10 +98,3 @@ Aspose.Slides for Java 是一个商业库，但您可以通过免费试用来探
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以在网站上找到有关 Aspose.Slides for Java 的全面文档和资源：[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

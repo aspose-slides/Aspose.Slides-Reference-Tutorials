@@ -3,14 +3,10 @@ title: Obtenga valores de fondo efectivos de una diapositiva
 linktitle: Obtenga valores de fondo efectivos de una diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a extraer valores de fondo efectivos de una diapositiva en PowerPoint usando Aspose.Slides para .NET. ¡Mejora tus habilidades de diseño de presentaciones hoy!
+type: docs
 weight: 11
 url: /es/net/slide-background-manipulation/get-background-effective-values/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 En el mundo de las presentaciones dinámicas y atractivas, Aspose.Slides para .NET es una poderosa herramienta que permite a los desarrolladores y profesionales manipular y controlar varios aspectos de los archivos de PowerPoint. En esta guía paso a paso, lo guiaremos a través del proceso de obtención de los valores de fondo efectivos de una diapositiva usando Aspose.Slides para .NET. Esta habilidad es particularmente útil cuando necesitas trabajar con el diseño de fondo y las combinaciones de colores de tu presentación para crear diapositivas visualmente impresionantes. 
 
@@ -115,10 +111,3 @@ Si bien algunos conocimientos de programación son beneficiosos, Aspose.Slides p
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para .NET?
 
  Puede obtener soporte y hacer preguntas en el[Foro Aspose.Slides](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

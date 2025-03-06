@@ -1,15 +1,12 @@
 ---
 title: Liberando el poder de la manipulación y conversión de presentaciones
 linktitle: Tutoriales de Aspose.Slides para .NET
+type: docs
 weight: 10
 url: /es/net/
 description: Descubra el mundo de la manipulación, conversión y procesamiento de presentaciones de PowerPoint con los tutoriales de Aspose.Slides para .NET. Aprenda a crear, convertir y mejorar presentaciones para obtener resultados impactantes.
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Bienvenido a la colección completa de tutoriales de Aspose.Slides para .NET, donde descubrirá el arte de la manipulación, conversión y procesamiento de presentaciones de PowerPoint. Estos tutoriales sirven como guía para dominar las capacidades de Aspose.Slides, permitiéndole navegar sin problemas a través de varios aspectos de la creación, personalización y transformación de presentaciones. Ya sea que esté buscando automatizar tareas de PowerPoint, convertir presentaciones a diferentes formatos o mejorar diapositivas con multimedia, estos tutoriales brindan instrucciones paso a paso para potenciar su viaje de desarrollo.
 
 ## Conversión de presentaciones: transformar diapositivas con facilidad
@@ -63,9 +60,3 @@ Mejore sus presentaciones de diapositivas con imágenes y videos cautivadores us
 Mejore sus habilidades de manipulación de diapositivas con los tutoriales de Aspose.Slides sobre geometría de formas y posicionamiento en diapositivas. Aprenda a controlar formas mediante programación, sus dimensiones y alineación.
 ### [Alineación de formas y formato en diapositivas](./shape-alignment-and-formatting-in-slides/)
 Explore los completos tutoriales de Aspose.Slides sobre alineación de formas y formato en aplicaciones .NET. Aprenda a alinear y dar formato a formas sin esfuerzo, mejorando sus presentaciones de diapositivas con precisión. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Converteer presentaties naar HTML met ingebouwde lettertypen
 linktitle: Converteer presentaties naar HTML met ingebouwde lettertypen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Converteer PowerPoint-presentaties naar HTML met ingesloten lettertypen met behulp van Aspose.Slides voor .NET. Behoud de originaliteit naadloos.
+type: docs
 weight: 13
 url: /nl/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In het huidige digitale tijdperk is het online delen van presentaties en documenten een gangbare praktijk geworden. Eén uitdaging die zich echter vaak voordoet, is ervoor zorgen dat uw lettertypen correct worden weergegeven bij het converteren van presentaties naar HTML. Deze stapsgewijze zelfstudie begeleidt u bij het gebruik van Aspose.Slides voor .NET om presentaties naar HTML met ingesloten lettertypen te converteren, zodat uw documenten er precies zo uitzien als u ze bedoeld had.
 
@@ -124,10 +120,3 @@ Ja, Aspose.Slides voor .NET ondersteunt een breed scala aan uitvoerformaten, waa
 ### 5. Waar kan ik aanvullende bronnen en ondersteuning vinden voor Aspose.Slides voor .NET?
 
  U heeft toegang tot een schat aan bronnen, waaronder documentatie, op de[Aspose.Slides voor .NET API-referentie](https://reference.aspose.com/slides/net/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

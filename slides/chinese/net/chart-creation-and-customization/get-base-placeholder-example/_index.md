@@ -3,14 +3,10 @@ title: 获取基本占位符示例
 linktitle: 获取基本占位符示例
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索 Aspose.Slides for .NET，这是一个使用 C# 处理 PowerPoint 演示文稿的强大库。学习如何轻松创建动态幻灯片。
+type: docs
 weight: 13
 url: /zh/net/chart-creation-and-customization/get-base-placeholder-example/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在 .NET 开发领域，创建动态且引人入胜的 PowerPoint 演示文稿是一项常见要求。Aspose.Slides for .NET 是一个功能强大的库，允许开发人员无缝处理 PowerPoint 文件。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 的过程，将每个示例分解为多个步骤。在本教程结束时，您将能够充分利用 Aspose.Slides for .NET 的功能来创建令人惊叹的演示文稿。让我们开始吧！
 
@@ -132,9 +128,3 @@ Aspose.Slides for .NET 是一个功能强大的库，可用于在 .NET 应用程
 
 ### 5. 在哪里可以获得支持或者询问有关 Aspose.Slides for .NET 的问题？
 如需支持和讨论，您可以访问 Aspose.Slides for .NET 论坛[这里](https://forum.aspose.com/)。它是获得帮助和与 Aspose 社区建立联系的好地方。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

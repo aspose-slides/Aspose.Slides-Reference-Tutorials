@@ -3,14 +3,10 @@ title: Προσθήκη Stretch Offset για Παρουσιάσεις PowerPoin
 linktitle: Προσθήκη Stretch Offset για Πλήρωση εικόνας σε διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώνετε τις παρουσιάσεις του PowerPoint με το Aspose.Slides για .NET. Ακολουθήστε έναν οδηγό βήμα προς βήμα για να προσθέσετε μια μετατόπιση τεντώματος για γέμισμα εικόνας.
+type: docs
 weight: 18
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, τα γραφικά παίζουν καθοριστικό ρόλο στην αιχμαλωσία της προσοχής του κοινού. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να βελτιώσουν τις παρουσιάσεις τους στο PowerPoint παρέχοντας ένα ισχυρό σύνολο λειτουργιών. Ένα τέτοιο χαρακτηριστικό είναι η δυνατότητα προσθήκης μετατόπισης τεντώματος για γέμισμα εικόνας, επιτρέποντας δημιουργικές και οπτικά ελκυστικές διαφάνειες.
 ## Προαπαιτούμενα
@@ -75,9 +71,3 @@ pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
  Αναφέρομαι στο[τεκμηρίωση](https://reference.aspose.com/slides/net/) για αναλυτικές πληροφορίες.
 ### Μπορώ να αγοράσω Aspose.Slides για .NET;
  Ναι, μπορείτε να αγοράσετε το προϊόν[εδώ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

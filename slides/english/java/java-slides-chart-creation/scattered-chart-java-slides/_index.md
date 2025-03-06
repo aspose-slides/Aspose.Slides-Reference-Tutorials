@@ -3,14 +3,10 @@ title: Scattered Chart in Java Slides
 linktitle: Scattered Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Scatter Charts in Java using Aspose.Slides. Step-by-step guide with Java source code for data visualization in presentations.
+type: docs
 weight: 11
 url: /java/chart-creation/scattered-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Scattered Chart in Aspose.Slides for Java
 
@@ -176,10 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Feel free to explore more customization options in the Aspose.Slides for Java documentation.
 
 Remember to replace `"Your Document Directory"` with the actual path where you want to save the presentation.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

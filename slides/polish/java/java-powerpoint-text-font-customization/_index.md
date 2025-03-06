@@ -3,14 +3,10 @@ title: Dostosowywanie tekstu i czcionek w programie Java PowerPoint
 linktitle: Dostosowywanie tekstu i czcionek w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zapoznaj się z samouczkami na temat dostosowywania tekstu i czcionek w programie Java PowerPoint za pomocą Aspose.Slides. Dowiedz się o rotacji, wymianie czcionek i nie tylko, aby ulepszyć swoje prezentacje.
+type: docs
 weight: 29
 url: /pl/java/java-powerpoint-text-font-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 
 Odblokuj pełny potencjał swoich prezentacji PowerPoint dzięki naszym samouczkom dotyczącym dostosowywania tekstu i czcionek w programie Java PowerPoint przy użyciu Aspose.Slides. Niezależnie od tego, czy jesteś początkującym, czy zaawansowanym użytkownikiem, nasze szczegółowe przewodniki pomogą Ci bez wysiłku ulepszyć swoje prezentacje.
@@ -106,9 +102,3 @@ Dowiedz się, jak programowo dodać pole tekstowe do slajdów programu PowerPoin
 Dowiedz się, jak zintegrować niestandardowe czcionki z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java. Zwiększ atrakcyjność wizualną bez wysiłku.
 ### [Twórz obiekty WordArt w programie PowerPoint przy użyciu języka Java](./create-wordart-powerpoint-java/)
 Dowiedz się, jak tworzyć wciągające obiekty WordArt w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides. Samouczek krok po kroku dla programistów.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

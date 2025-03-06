@@ -3,14 +3,10 @@ title: إنشاء إطار التكبير في PowerPoint
 linktitle: إنشاء إطار التكبير في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء إطارات Zoom جذابة في PowerPoint باستخدام Aspose.Slides لـ Java. اتبع دليلنا لإضافة عناصر تفاعلية إلى عروضك التقديمية.
+type: docs
 weight: 17
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد إنشاء عروض PowerPoint التقديمية الجذابة فنًا، وفي بعض الأحيان، يمكن لأصغر الإضافات أن تحدث فرقًا كبيرًا. إحدى هذه الميزات هي Zoom Frame، الذي يسمح لك بتكبير شرائح أو صور معينة، وإنشاء عرض تقديمي ديناميكي وتفاعلي. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء إطار تكبير/تصغير في PowerPoint باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -117,9 +113,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 قطعاً! يمكنك إضافة صور مخصصة إلى Zoom Frames من خلال قراءة ملفات الصور وإضافتها إلى العرض التقديمي.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  يمكنك العثور على وثائق وأمثلة شاملة على الموقع[Aspose.Slides لصفحة وثائق Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

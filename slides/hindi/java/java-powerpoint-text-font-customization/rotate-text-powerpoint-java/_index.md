@@ -3,14 +3,10 @@ title: जावा का उपयोग करके पावरपॉइं
 linktitle: जावा का उपयोग करके पावरपॉइंट में टेक्स्ट घुमाएँ
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा का उपयोग करके PowerPoint में टेक्स्ट को घुमाना सीखें। शुरुआती से लेकर उन्नत उपयोगकर्ताओं के लिए चरण-दर-चरण ट्यूटोरियल।
+type: docs
 weight: 10
 url: /hi/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 इस ट्यूटोरियल में, हम सीखेंगे कि जावा और Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में टेक्स्ट को प्रोग्रामेटिक रूप से कैसे घुमाया जाए। स्लाइड्स को डिज़ाइन करते समय टेक्स्ट को घुमाना एक उपयोगी सुविधा हो सकती है, जिससे आकर्षक प्रस्तुतियाँ बनाई जा सकें।
 ## आवश्यक शर्तें
@@ -79,9 +75,3 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
  विस्तृत दस्तावेज़ीकरण के लिए, यहां जाएं[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) . आप समुदाय से भी सहायता प्राप्त कर सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
 ### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
  आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/)Aspose.Slides का बिना किसी सीमा के मूल्यांकन करने के लिए.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

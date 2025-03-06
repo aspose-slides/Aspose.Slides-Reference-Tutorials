@@ -3,14 +3,10 @@ title: Aspose.Slides を使用して画像をスライドの背景として設�
 linktitle: 画像をスライドの背景として設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint で画像の背景を設定する方法を学びます。プレゼンテーションを簡単に強化できます。
+type: docs
 weight: 13
 url: /ja/net/slide-background-manipulation/set-image-as-background/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 プレゼンテーションのデザインと自動化の世界では、Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーションを簡単に操作できるようにする強力で多用途なツールです。カスタマイズされたレポートの作成、魅力的なプレゼンテーションの作成、スライド生成の自動化など、どのような場合でも、Aspose.Slides for .NET は貴重な資産となります。このステップ バイ ステップ ガイドでは、この優れたライブラリを使用して画像をスライドの背景として設定する方法を説明します。
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET は主に Windows 環境向けに設計されています
 ### 5. Aspose.Slides for .NET には試用版がありますか?
 
 はい、Aspose.Slides for .NETの無料トライアルを以下のWebサイトから入手できます。[このリンク](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

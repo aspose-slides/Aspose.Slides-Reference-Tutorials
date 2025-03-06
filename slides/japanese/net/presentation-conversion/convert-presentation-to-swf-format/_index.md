@@ -3,14 +3,10 @@ title: プレゼンテーションをSWF形式に変換する
 linktitle: プレゼンテーションをSWF形式に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを SWF 形式に変換する方法を学びます。動的なコンテンツを簡単に作成できます。
+type: docs
 weight: 28
 url: /ja/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 今日のデジタル時代では、マルチメディア プレゼンテーションは強力なコミュニケーション手段です。プレゼンテーションを SWF (Shockwave Flash) 形式に変換するなど、より動的な方法で共有したい場合があります。このガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションを SWF 形式に変換するプロセスについて説明します。
 
@@ -115,10 +111,3 @@ SWF (Shockwave Flash) は、Web 上のアニメーション、ゲーム、イン
 
 ### Aspose.Slides for .NET のサポートはどこで受けられますか?
 ご質問やサポートが必要な場合は、[Aspose.Slides for .NET フォーラム](https://forum.aspose.com/)サポートとコミュニティの支援のため。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

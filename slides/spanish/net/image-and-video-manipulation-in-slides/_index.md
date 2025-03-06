@@ -3,14 +3,10 @@ title: Manipulación de imágenes y videos en diapositivas
 linktitle: Manipulación de imágenes y videos en diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones de diapositivas con imágenes y videos cautivadores usando Aspose.Slides para .NET. Aprenda paso a paso cómo manipular imágenes y videos dentro de diapositivas para obtener contenido visualmente atractivo.
+type: docs
 weight: 12
 url: /es/net/image-and-video-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la manipulación de imágenes y videos en Aspose.Slides
 
@@ -57,9 +53,3 @@ Aprenda cómo mejorar las diapositivas de su presentación agregando cuadros de 
 Aprenda a extraer datos de archivos incrustados de objetos OLE en presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga esta guía paso a paso con código fuente para recuperar y procesar datos incrustados sin problemas.
 ### [Rellenar formas con degradado en diapositivas de presentación usando Aspose.Slides](./filling-shapes-gradient/)
 Aprenda cómo mejorar las diapositivas de su presentación con gradientes cautivadores usando Aspose.Slides para .NET. Siga esta guía paso a paso con código fuente completo para rellenar formas con degradados, desde lineales hasta radiales, agregando profundidad y dimensión.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java スライドでスライドをノート付き PDF に変換する
 linktitle: Java スライドでスライドをノート付き PDF に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java で PowerPoint スライドをメモ付きの PDF に変換する方法を学びます。Java 開発者向けのステップバイステップ ガイド。プレゼンテーションの共有を強化します。
+type: docs
 weight: 19
 url: /ja/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java でスライドをノート付き PDF に変換する方法の紹介
 
@@ -128,9 +124,3 @@ Aspose.Slides for Java をインストールするには、次の手順に従い
 ### Aspose.Slides for Java の詳細なドキュメントはどこで入手できますか?
 
  Aspose.Slides for Java の詳細なドキュメントは次のサイトにあります:[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

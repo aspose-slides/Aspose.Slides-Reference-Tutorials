@@ -3,14 +3,10 @@ title: PowerPoint 프레젠테이션에서 이미지 채우기를 위한 스트�
 linktitle: 슬라이드의 이미지 채우기를 위한 스트레치 오프셋 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 이미지 채우기를 위한 스트레치 오프셋을 추가하려면 단계별 안내를 따르세요.
+type: docs
 weight: 18
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 시각적 요소는 청중의 관심을 사로잡는 데 중추적인 역할을 합니다. .NET용 Aspose.Slides는 강력한 기능 세트를 제공하여 개발자가 PowerPoint 프레젠테이션을 향상시킬 수 있도록 지원합니다. 이러한 기능 중 하나는 이미지 채우기를 위한 스트레치 오프셋을 추가하여 창의적이고 시각적으로 매력적인 슬라이드를 만드는 기능입니다.
 ## 전제 조건
@@ -75,9 +71,3 @@ Aspose.Slides for .NET을 사용하면 PowerPoint 프레젠테이션을 그 어�
  다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 자세한 내용은.
 ### .NET용 Aspose.Slides를 구입할 수 있나요?
  네, 해당 제품을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

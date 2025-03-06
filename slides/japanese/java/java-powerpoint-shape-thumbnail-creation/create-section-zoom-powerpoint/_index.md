@@ -3,14 +3,10 @@ title: PowerPoint でセクション ズームを作成する
 linktitle: PowerPoint でセクション ズームを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでセクション ズームを作成する方法を学びます。ナビゲーションとエンゲージメントを簡単に強化します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでセクション ズームを作成する方法について詳しく説明します。セクション ズームは、プレゼンテーションのさまざまなセクションをシームレスに移動できる強力な機能であり、構成と全体的なユーザー エクスペリエンスの両方が向上します。複雑なプレゼンテーションを簡単に理解できるセクションに分割することで、メッセージを効果的に伝え、視聴者を引き付けることができます。
@@ -76,9 +72,3 @@ Aspose.Slides for Java は、PPTX、PPT など、さまざまな PowerPoint 形�
 はい、このチュートリアルで説明されている同様の手順に従って、Aspose.Slides for Java を使用して既存のプレゼンテーションにセクション ズームを追加できます。
 ### Aspose.Slides for Java に関する追加サポートや支援はどこで受けられますか?
 追加のサポートや支援が必要な場合は、Aspose.Slides for Java フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

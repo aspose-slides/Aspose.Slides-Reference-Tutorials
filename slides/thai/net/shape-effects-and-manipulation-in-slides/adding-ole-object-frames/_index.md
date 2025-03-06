@@ -3,14 +3,10 @@ title: การเพิ่ม OLE Object Frames ให้กับการน
 linktitle: การเพิ่ม OLE Object Frames ให้กับการนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ด้วยเนื้อหาแบบไดนามิก! ทำตามคำแนะนำทีละขั้นตอนของเราโดยใช้ Aspose.Slides สำหรับ .NET เพิ่มการมีส่วนร่วมทันที!
+type: docs
 weight: 15
 url: /th/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการเพิ่มเฟรมออบเจ็กต์ OLE (การเชื่อมโยงและการฝังวัตถุ) ลงในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET Aspose.Slides เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ PowerPoint โดยทางโปรแกรม ทำตามคำแนะนำทีละขั้นตอนนี้เพื่อฝังวัตถุ OLE ลงในสไลด์การนำเสนอของคุณได้อย่างราบรื่น เพิ่มประสิทธิภาพไฟล์ PowerPoint ของคุณด้วยเนื้อหาแบบไดนามิกและโต้ตอบได้
 ## ข้อกำหนดเบื้องต้น
@@ -88,9 +84,3 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ตอบ: แน่นอน คุณสามารถปรับขนาด ตำแหน่ง และคุณสมบัติอื่นๆ ของ OLE Object Frame ได้ตามความต้องการของคุณ
 ### ถาม: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันเผชิญกับความท้าทายระหว่างการดำเนินการ
  ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและคำแนะนำจากชุมชน
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Přidat video rámeček v PowerPointu
 linktitle: Přidat video rámeček v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak bezproblémově integrovat videoobsah do prezentací PowerPoint pomocí Aspose.Slides for Java. Vaše snímky s multimediálními prvky pro zapojení publika.
+type: docs
 weight: 17
 url: /cs/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu vás provedeme procesem přidání rámečku videa do prezentace PowerPoint pomocí Aspose.Slides for Java. Budete-li se řídit těmito podrobnými pokyny, budete moci bez problémů integrovat videoobsah do svých prezentací.
 ## Předpoklady
@@ -64,9 +60,3 @@ Ano, Aspose.Slides for Java je kompatibilní s JDK verze 6 a vyšší.
 Ano, režim přehrávání a hlasitost snímku videa si můžete nastavit podle svých preferencí.
 ### Kde najdu další podporu a zdroje pro Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za pomoc, dokumentaci a podporu komunity.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

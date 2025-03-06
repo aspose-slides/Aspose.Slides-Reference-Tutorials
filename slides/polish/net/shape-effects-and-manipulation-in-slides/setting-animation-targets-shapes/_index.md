@@ -3,14 +3,10 @@ title: Opanowanie celów animacji za pomocą Aspose.Slides dla .NET
 linktitle: Ustawianie celów animacji dla kształtów slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ożywić swoje prezentacje dzięki Aspose.Slides dla .NET! Bez wysiłku wyznaczaj cele animacji i zachwyć odbiorców.
+type: docs
 weight: 22
 url: /pl/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 dynamicznym świecie prezentacji dodanie animacji do slajdów może zmienić zasady gry. Aspose.Slides dla .NET umożliwia programistom tworzenie angażujących i atrakcyjnych wizualnie prezentacji, umożliwiając precyzyjną kontrolę nad celami animacji dla kształtów slajdów. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces ustawiania celów animacji za pomocą Aspose.Slides dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek pomoże Ci wykorzystać moc animacji w prezentacjach.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Nie, Aspose.Slides pozwala animować praktycznie nieograniczoną liczbę kształ
 Tak, Aspose.Slides zapewnia opcje dostosowywania czasu trwania i czasu każdej animacji.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides?
  Poznaj[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/) szczegółowe informacje i przykłady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

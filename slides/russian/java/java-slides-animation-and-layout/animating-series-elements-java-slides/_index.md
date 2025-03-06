@@ -3,14 +3,10 @@ title: Анимация элементов серии в слайдах Java
 linktitle: Анимация элементов серии в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как анимировать элементы серий в слайдах PowerPoint с помощью Aspose.Slides для Java. Следуйте этому подробному пошаговому руководству с исходным кодом, чтобы улучшить свои презентации.
+type: docs
 weight: 12
 url: /ru/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в анимацию элементов серии в слайдах Java
 
@@ -130,9 +126,3 @@ finally
 ### Доступны ли в Aspose.Slides для Java более продвинутые параметры анимации?
 
 Да, Aspose.Slides для Java предлагает широкий спектр расширенных возможностей анимации, включая траектории движения, синхронизацию и интерактивную анимацию. Вы можете изучить документацию и примеры, предоставленные Aspose.Slides, чтобы реализовать расширенную анимацию в своих презентациях.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides에서 기본 프린터로 프레젠테이션 인쇄하기
 linktitle: Aspose.Slides에서 기본 프린터로 프레젠테이션 인쇄하기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 .NET에서 원활한 PowerPoint 인쇄를 잠금 해제하세요. 간편한 통합을 위해 단계별 가이드를 따르세요. 지금 애플리케이션의 기능을 향상시키세요!
+type: docs
 weight: 10
 url: /ko/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 .NET 개발 영역에서 Aspose.Slides는 PowerPoint 프레젠테이션을 생성, 조작 및 렌더링하기 위한 강력한 도구로 돋보입니다. 다양한 기능 중에서 프레젠테이션을 기본 프린터로 직접 인쇄하는 기능은 개발자가 자주 찾는 편리한 기능입니다. 이 튜토리얼은 프로세스를 단계별로 안내하므로 Aspose.Slides를 비교적 처음 접하는 사람이라도 접근할 수 있습니다.
 ## 전제 조건
@@ -55,9 +51,3 @@ Aspose.Slides for .NET을 사용하여 기본 프린터로 프레젠테이션을
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 ### Aspose.Slides 커뮤니티에 어떻게 도움을 요청하거나 연결할 수 있나요?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 질문하고, 통찰력을 공유하고, 동료 개발자와 연결하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

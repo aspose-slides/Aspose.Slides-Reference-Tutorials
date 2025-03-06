@@ -3,14 +3,10 @@ title: Несколько абзацев в Java PowerPoint
 linktitle: Несколько абзацев в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать несколько абзацев в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Полное руководство с примерами кода.
+type: docs
 weight: 13
 url: /ru/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы рассмотрим, как создавать слайды с несколькими абзацами на Java, используя Aspose.Slides для Java. Aspose.Slides — это мощная библиотека, которая позволяет разработчикам программно манипулировать презентациями PowerPoint, что делает ее идеальной для автоматизации задач, связанных с созданием и форматированием слайдов.
 ## Предварительные условия
@@ -117,9 +113,3 @@ Aspose.Slides поддерживает различные форматы PowerPo
  Да, вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### Как я могу получить техническую поддержку в случае необходимости?
  Вы можете получить поддержку от сообщества Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

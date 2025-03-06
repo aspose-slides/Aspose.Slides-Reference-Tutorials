@@ -3,14 +3,10 @@ title: Spara egenskaper i Java Slides
 linktitle: Spara egenskaper i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimera dina PowerPoint-presentationer med Aspose.Slides för Java. Lär dig att ställa in egenskaper, inaktivera kryptering, lägga till lösenordsskydd och spara enkelt.
+type: docs
 weight: 12
 url: /sv/java/saving-options/save-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till att spara egenskaper i Java Slides
 
@@ -174,9 +170,3 @@ Detta hjälper till att förhindra minnesläckor i din applikation.
 ### Hur kan jag lära mig mer om Aspose.Slides för Java och dess funktioner?
 
  Du kan utforska Aspose.Slides för Java-dokumentationen på[här](https://docs.aspose.com/slides/java/) för detaljerad information, handledningar och exempel på hur du använder biblioteket.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

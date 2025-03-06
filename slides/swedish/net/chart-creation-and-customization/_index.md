@@ -3,14 +3,10 @@ title: Skapa och anpassning av diagram
 linktitle: Skapa och anpassning av diagram
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra din .NET-applikations presentationsmöjligheter med Aspose.Slides. Dyk in i vår handledning om att skapa och anpassa diagram, utforska steg-för-steg-guider och kodexempel.
+type: docs
 weight: 14
 url: /sv/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion:
 
@@ -31,9 +27,3 @@ Lär dig hur du jämför bilder i presentationer med Aspose.Slides för .NET. St
 Lär dig hur du använder Aspose.Slides för .NET för att skapa dynamiska PowerPoint-presentationer med basplatshållare.
 ### [Hantera sidhuvud och sidfot i Presentationer](./header-footer-manager/)
 Lär dig hur du hanterar sidhuvuden och sidfötter i bilder med Aspose.Slides för .NET. Anpassa dina presentationer med enkelhet och precision.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

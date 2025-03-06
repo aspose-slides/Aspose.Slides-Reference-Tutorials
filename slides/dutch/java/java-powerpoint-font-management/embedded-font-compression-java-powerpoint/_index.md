@@ -3,14 +3,10 @@ title: Ingebouwde lettertypecompressie in Java PowerPoint
 linktitle: Ingebouwde lettertypecompressie in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u ingesloten lettertypen in Java PowerPoint-presentaties comprimeert met Aspose.Slides. Optimaliseer moeiteloos bestandsgroottes.
+type: docs
 weight: 12
 url: /nl/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In het dynamische landschap van digitale presentaties is de mogelijkheid om de bestandsgrootte te optimaliseren zonder dat dit ten koste gaat van de kwaliteit van het grootste belang. Aspose.Slides voor Java biedt een krachtige oplossing om de efficiëntie van PowerPoint-presentaties te verbeteren door ingebouwde lettertypecompressie mogelijk te maken. Deze tutorial begeleidt u bij het gebruik van deze functie om de bestandsgrootte effectief te verkleinen, waardoor een soepelere distributie en betere prestaties van uw presentaties worden gegarandeerd.
 ## Vereisten
@@ -68,9 +64,3 @@ Ja, Aspose.Slides biedt functies voor codering en wachtwoordbeveiliging om uw pr
  Zeker! U kunt ondersteuning zoeken bij de Aspose.Slides-gemeenschap via het speciale[forum](https://forum.aspose.com/c/slides/11) of overweeg een tijdelijke vergunning aan te schaffen voor prioritaire hulp.
 ### Hoe kan ik een gelicentieerde versie van Aspose.Slides voor Java kopen?
  kunt een gelicentieerde versie van Aspose.Slides voor Java aanschaffen via de website met behulp van de meegeleverde versie[koop link](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ajout de cadres audio aux diapositives de présentation à l'aide d'Aspos
 linktitle: Ajout de cadres audio aux diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez les présentations avec Aspose.Slides pour .NET ! Apprenez à ajouter des images audio de manière transparente, engageant ainsi votre public comme jamais auparavant.
+type: docs
 weight: 14
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le monde dynamique des présentations, l’intégration d’éléments audio peut améliorer considérablement l’expérience globale de votre public. Aspose.Slides pour .NET permet aux développeurs d'intégrer de manière transparente des images audio dans les diapositives de présentation, ajoutant ainsi une nouvelle couche d'engagement et d'interactivité. Ce guide étape par étape vous guidera tout au long du processus d'ajout d'images audio aux diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -67,9 +63,3 @@ Oui, Aspose.Slides offre une flexibilité dans la configuration des paramètres 
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) demander de l’aide et s’engager auprès de la communauté.
 ### Comment acheter Aspose.Slides pour .NET ?
  Vous pouvez acheter la bibliothèque auprès du[Magasin Aspose](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

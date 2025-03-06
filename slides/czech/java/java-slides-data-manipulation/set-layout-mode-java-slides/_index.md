@@ -3,14 +3,10 @@ title: Nastavte režim rozvržení v aplikaci Java Slides
 linktitle: Nastavte režim rozvržení v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit režimy rozvržení pro snímky Java pomocí Aspose.Slides. Přizpůsobte si umístění a velikost grafu v tomto podrobném průvodci se zdrojovým kódem.
+type: docs
 weight: 23
 url: /cs/java/data-manipulation/set-layout-mode-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do nastavení režimu rozvržení v Java Slides
 
@@ -99,9 +95,3 @@ finally
 ### Kde najdu více informací o Aspose.Slides for Java?
 
  Více informací o Aspose.Slides for Java naleznete v[dokumentace](https://reference.aspose.com/slides/java/). Obsahuje podrobné odkazy a příklady rozhraní API, které vám pomohou efektivně pracovat se snímky a grafy v Javě.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

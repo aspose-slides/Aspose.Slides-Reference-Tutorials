@@ -3,14 +3,10 @@ title: Java 投影片中的根目錄 ClsId
 linktitle: Java 投影片中的根目錄 ClsId
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何在 Aspose.Slides 中為 Java 簡報設定根目錄 ClsId。使用 CLSID 自訂超連結行為。
+type: docs
 weight: 10
 url: /zh-hant/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java中設定根目錄ClsId介紹
 
@@ -111,9 +107,3 @@ try {
 ### 我可以使用的 CLSID 有任何限制嗎？
 
 您可以使用的 CLSID 通常由系統上安裝的應用程式決定。您應該使用與能夠處理超連結的有效應用程式相對應的 CLSID。請注意，使用無效的 CLSID 可能會導致意外行為。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: إتقان تأثيرات ما بعد الرسوم المتحركة في 
 linktitle: التحكم بعد الرسوم المتحركة اكتب في الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية التحكم في تأثيرات ما بعد الرسوم المتحركة في شرائح PowerPoint باستخدام Aspose.Slides for .NET. قم بتحسين عروضك التقديمية باستخدام العناصر المرئية الديناميكية.
+type: docs
 weight: 11
 url: /ar/net/slide-animation-control/control-after-animation-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد تحسين عروضك التقديمية باستخدام الرسوم المتحركة الديناميكية جانبًا مهمًا لجذب جمهورك. يوفر Aspose.Slides for .NET حلاً قويًا للتحكم في تأثيرات ما بعد الرسوم المتحركة في الشرائح. في هذا البرنامج التعليمي، سنرشدك خلال عملية استخدام Aspose.Slides لـ .NET لمعالجة نوع ما بعد الرسوم المتحركة على الشرائح. باتباع هذا الدليل التفصيلي، ستتمكن من إنشاء عروض تقديمية أكثر تفاعلية وجذابة.
 ## المتطلبات الأساسية
@@ -91,9 +87,3 @@ pres.Save(outPath, SaveFormat.Pptx);
 يدعم Aspose.Slides العديد من التنسيقات، بما في ذلك PPTX وPPT وPDF والمزيد. تحقق من الوثائق للحصول على القائمة الكاملة.
 ### أين يمكنني الحصول على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.Slides؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للدعم والتفاعل المجتمعي.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

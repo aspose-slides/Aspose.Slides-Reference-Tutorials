@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中添加自定义线条
 linktitle: 在 Java 幻灯片中添加自定义线条
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用自定义线条增强 Java 幻灯片的效果。使用 Aspose.Slides for Java 的分步指南。学习如何在演示文稿中添加和自定义线条以获得具有影响力的视觉效果。
+type: docs
 weight: 10
 url: /zh/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中添加自定义线条的简介
 
@@ -112,9 +108,3 @@ shape.getLineFormat().setWidth(2); //将线条粗细设置为 2 点
 ### 是否可以在幻灯片中添加多行？
 
 是的，您可以重复本教程中提到的步骤，在幻灯片中添加多行。每行都可以单独定制。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

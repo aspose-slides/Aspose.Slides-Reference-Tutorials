@@ -3,14 +3,10 @@ title: إدارة مخططات الخصائص في شرائح جافا
 linktitle: إدارة مخططات الخصائص في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية إنشاء مخططات مذهلة وإدارة الخصائص في شرائح Java باستخدام Aspose.Slides. دليل خطوة بخطوة مع الكود المصدري للعروض التقديمية القوية.
+type: docs
 weight: 13
 url: /ar/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لإدارة الخصائص والمخططات في شرائح Java باستخدام Aspose.Slides
 
@@ -202,9 +198,3 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### ما هي الخصائص ثلاثية الأبعاد الأخرى التي يمكنني تخصيصها؟
 
 يمكنك استكشاف الخصائص ثلاثية الأبعاد الأخرى للمخطط، مثل العمق والمنظور والإضاءة، من خلال الرجوع إلى وثائق Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

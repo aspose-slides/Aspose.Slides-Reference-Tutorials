@@ -3,14 +3,10 @@ title: Zarządzanie czcionkami w programie Java PowerPoint
 linktitle: Zarządzanie czcionkami w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odkryj samouczki dotyczące zarządzania czcionkami w programie Java PowerPoint przy użyciu Aspose.Slides dla języka Java. Poznaj techniki osadzania, kompresji i dostosowywania w celu ulepszenia prezentacji.
+type: docs
 weight: 21
 url: /pl/java/java-powerpoint-font-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 
 Odblokuj potencjał swoich prezentacji PowerPoint dzięki naszym samouczkom dotyczącym zarządzania czcionkami w programie Java PowerPoint przy użyciu Aspose.Slides dla języka Java. Nasze obszerne przewodniki pomogą Ci opanować dostosowywanie czcionek i sprawią, że Twoje prezentacje będą się wyróżniać.
@@ -76,9 +72,3 @@ Dowiedz się, jak wykonać podstawienie czcionek w prezentacjach Java PowerPoint
 Naucz się formatować ramki tekstowe w prezentacjach Java PowerPoint za pomocą Aspose.Slides for Java. Bez wysiłku zwiększ atrakcyjność wizualną swoich slajdów.
 ### [Efektywne dane dotyczące stylu tekstu w programie Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Opanuj manipulację stylem tekstu w prezentacjach Java PowerPoint za pomocą Aspose.Slides dla Java. Dynamicznie dostosowuj formatowanie, aby tworzyć efektowne treści.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

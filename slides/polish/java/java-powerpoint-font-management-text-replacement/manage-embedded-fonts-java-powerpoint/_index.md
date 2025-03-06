@@ -3,14 +3,10 @@ title: Zarządzaj osadzonymi czcionkami w programie Java PowerPoint
 linktitle: Zarządzaj osadzonymi czcionkami w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Z łatwością zarządzaj osadzonymi czcionkami w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Przewodnik krok po kroku dotyczący optymalizacji slajdów pod kątem spójności.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 stale rozwijającym się świecie prezentacji efektywne zarządzanie czcionkami może mieć ogromny wpływ na jakość i zgodność plików programu PowerPoint. Aspose.Slides for Java oferuje kompleksowe rozwiązanie do zarządzania osadzonymi czcionkami, dzięki czemu Twoje prezentacje będą wyglądać idealnie na każdym urządzeniu. Niezależnie od tego, czy masz do czynienia ze starszymi prezentacjami, czy tworzysz nowe, ten przewodnik przeprowadzi Cię przez proces zarządzania osadzonymi czcionkami w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Zanurzmy się!
 ## Warunki wstępne
@@ -108,9 +104,3 @@ Aspose.Slides dla Java jest kompatybilny z JDK 8 i nowszymi wersjami.
 Zarządzanie osadzonymi czcionkami zapewnia spójny wygląd prezentacji na różnych urządzeniach i platformach oraz pomaga zmniejszyć rozmiar pliku poprzez usunięcie niepotrzebnych czcionek.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: تغيير النص على عقدة SmartArt باستخدام Java
 linktitle: تغيير النص على عقدة SmartArt باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف كيفية تحديث نص عقدة SmartArt في PowerPoint باستخدام Java مع Aspose.Slides، مما يعزز تخصيص العرض التقديمي.
+type: docs
 weight: 22
 url: /ar/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد SmartArt في PowerPoint ميزة قوية لإنشاء مخططات جذابة بصريًا. يوفر Aspose.Slides for Java دعمًا شاملاً لمعالجة عناصر SmartArt برمجيًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية تغيير النص على عقدة SmartArt باستخدام Java.
 ## المتطلبات الأساسية
@@ -64,9 +60,3 @@ presentation.save(dataDir + "ChangeText_On_SmartArt_Node_out.pptx", SaveFormat.P
 نعم، يدعم Aspose.Slides مجموعة واسعة من تخطيطات SmartArt، مما يسمح لك باختيار التخطيط الذي يناسب احتياجات العرض التقديمي الخاص بك.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides؟
  يمكنك زيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) للحصول على مراجع API مفصلة والبرامج التعليمية. بالإضافة إلى ذلك، يمكنك طلب المساعدة من[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) أو فكر في شراء أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للحصول على الدعم المهني.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

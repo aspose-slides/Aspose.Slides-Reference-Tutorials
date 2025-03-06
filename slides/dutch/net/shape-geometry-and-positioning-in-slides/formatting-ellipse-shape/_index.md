@@ -3,14 +3,10 @@ title: Zelfstudie ellipsvormen opmaken met Aspose.Slides voor .NET
 linktitle: Ellipsvorm in dia's opmaken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Maak verbluffende ellipsvormen in PowerPoint met Aspose.Slides voor .NET. Volg onze stap-voor-stap handleiding voor professionele presentaties.
+type: docs
 weight: 11
 url: /nl/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het verbeteren van uw PowerPoint-presentaties met visueel aantrekkelijke vormen is cruciaal om uw publiek te boeien. Eén zo'n vorm is de ellips, die een vleugje elegantie en professionaliteit aan uw dia's kan toevoegen. In deze zelfstudie begeleiden we u bij het opmaken van ellipsvormen in PowerPoint met Aspose.Slides voor .NET.
 ## Vereisten
@@ -85,9 +81,3 @@ Aspose.Slides zorgt voor compatibiliteit met verschillende PowerPoint-versies, i
  Zoek hulp bij de gemeenschap van de gemeente[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### Is er een directe aankoopoptie voor Aspose.Slides voor .NET?
  Ja, u kunt de bibliotheek rechtstreeks aanschaffen[hier](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

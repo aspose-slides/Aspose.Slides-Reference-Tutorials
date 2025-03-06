@@ -3,14 +3,10 @@ title: Adatcímkék százalékos bejelentkezés beállítása a Java Slides szol
 linktitle: Adatcímkék százalékos bejelentkezés beállítása a Java Slides szolgáltatásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be adatcímkéket százalékjelekkel a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Hozzon létre lenyűgöző diagramokat lépésről lépésre útmutatóval és forráskóddal.
+type: docs
 weight: 17
 url: /hu/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az adatcímkék százalékos bejelentkezésébe az Aspose.Slides for Java-ban
 
@@ -180,10 +176,3 @@ Igen, testreszabhatja az adatcímkék betűméretét a`setFontHeight` kódban be
 ### Hogyan tudok több sorozatot hozzáadni a diagramhoz?
 
  A diagram segítségével további sorozatokat adhat hozzá`add` módszer a`IChartSeriesCollection` tárgy.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

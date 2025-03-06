@@ -3,14 +3,10 @@ title: การสร้างภาพเคลื่อนไหวใน Jav
 linktitle: การสร้างภาพเคลื่อนไหวใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เพิ่มประสิทธิภาพการนำเสนอของคุณด้วยชุดภาพเคลื่อนไหวใน Aspose.Slides สำหรับ Java ทำตามคำแนะนำทีละขั้นตอนพร้อมตัวอย่างซอร์สโค้ดเพื่อสร้างภาพเคลื่อนไหว PowerPoint ที่น่าสนใจ
+type: docs
 weight: 11
 url: /th/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างภาพเคลื่อนไหวใน Aspose.Slides สำหรับ Java
 
@@ -129,9 +125,3 @@ finally
 ### ฉันจะปรับแต่งระยะเวลาและดีเลย์ของแอนิเมชั่นได้อย่างไร
 
 คุณสามารถปรับแต่งระยะเวลาและความล่าช้าของภาพเคลื่อนไหวได้โดยการตั้งค่าคุณสมบัติของเอฟเฟ็กต์ภาพเคลื่อนไหว ตรวจสอบเอกสารประกอบ Aspose.Slides สำหรับ Java เพื่อดูรายละเอียดเกี่ยวกับตัวเลือกการปรับแต่งที่มีอยู่
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

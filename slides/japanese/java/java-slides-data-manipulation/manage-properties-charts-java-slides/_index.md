@@ -3,14 +3,10 @@ title: Java スライドでプロパティ チャートを管理する
 linktitle: Java スライドでプロパティ チャートを管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java スライドで魅力的なグラフを作成し、プロパティを管理する方法を学びます。強力なプレゼンテーションのためのソース コード付きのステップ バイ ステップ ガイドです。
+type: docs
 weight: 13
 url: /ja/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides を使用した Java スライドのプロパティとグラフの管理の概要
 
@@ -202,9 +198,3 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### 他にカスタマイズできる 3D プロパティは何ですか?
 
 Aspose.Slides のドキュメントを参照すると、深度、遠近感、照明など、グラフのその他の 3D プロパティを調べることができます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

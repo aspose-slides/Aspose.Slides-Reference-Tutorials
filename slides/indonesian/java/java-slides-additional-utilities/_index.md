@@ -3,14 +3,10 @@ title: Membuka Kemungkinan Baru dengan Aspose.Slides untuk Tutorial Java
 linktitle: Java Slides Utilitas Tambahan
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Temukan utilitas tambahan untuk Java Slides menggunakan tutorial Aspose.Slides untuk Java. Tingkatkan presentasi Anda dengan fitur canggih. Jelajahi sekarang!
+type: docs
 weight: 20
 url: /id/java/additional-utilities/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Apakah Anda siap untuk membawa presentasi Java Slides Anda ke level selanjutnya? Aspose.Slides untuk Java menawarkan harta karun berupa utilitas dan fitur tambahan yang dapat mengubah slide Anda menjadi mahakarya menawan. Dalam artikel ini, kita akan menjelajahi beragam alat dan teknik yang disediakan oleh Aspose.Slides untuk Java, yang memberdayakan Anda untuk membuat presentasi yang meninggalkan kesan mendalam.
 
 ## Kekuatan Aspose.Slide untuk Java
@@ -52,9 +48,3 @@ Pelajari cara membuka presentasi PowerPoint di Java menggunakan Aspose.Slides fo
 Pelajari cara mengamankan dokumen PDF Anda dengan izin akses di Java Slides menggunakan Aspose.Slides. Panduan langkah demi langkah ini mencakup perlindungan kata sandi dan banyak lagi.
 ### [Verifikasi Presentasi Tanpa Memuat di Slide Java](./verify-presentation-without-loading-in-java-slides/)
 Pelajari cara memverifikasi presentasi tanpa memuatnya di Java Slides menggunakan Aspose.Slides untuk Java. Pastikan integritas file secara efisien dengan panduan langkah demi langkah ini.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

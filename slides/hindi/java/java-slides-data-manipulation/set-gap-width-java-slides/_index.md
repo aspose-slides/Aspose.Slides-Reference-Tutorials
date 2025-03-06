@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में गैप की चौ�
 linktitle: जावा स्लाइड्स में गैप की चौड़ाई सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड में गैप की चौड़ाई सेट करना सीखें। अपने PowerPoint प्रेजेंटेशन के लिए चार्ट विज़ुअल को बेहतर बनाएँ।
+type: docs
 weight: 21
 url: /hi/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java में गैप की चौड़ाई निर्धारित करने का परिचय
 
@@ -162,9 +158,3 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### मैं अधिक संसाधन और दस्तावेज कहां पा सकता हूं?
 
  आप Aspose.Slides for Java पर व्यापक दस्तावेज़ीकरण और अतिरिक्त संसाधन पा सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

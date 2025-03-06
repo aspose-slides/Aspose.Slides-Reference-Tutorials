@@ -3,14 +3,10 @@ title: Ajout d'un décalage d'étirement vers la gauche dans PowerPoint avec Asp
 linktitle: Ajout d'un décalage d'étirement vers la gauche pour le cadre photo dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment améliorer les présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour ajouter un décalage d'étirement vers la gauche pour les cadres photo.
+type: docs
 weight: 14
 url: /fr/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Aspose.Slides pour .NET est une bibliothèque puissante qui permet aux développeurs de manipuler facilement des présentations PowerPoint. Dans ce didacticiel, nous explorerons le processus d'ajout d'un décalage d'étirement vers la gauche pour un cadre photo à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences dans l'utilisation d'images et de formes dans des présentations PowerPoint.
 ## Conditions préalables
@@ -89,9 +85,3 @@ R : Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
  R : Explorez le[Documentation Aspose.Slides](https://reference.aspose.com/slides/net/) pour des exemples et des conseils complets.
 ### Q : Puis-je appliquer plusieurs décalages d’étirement à une seule forme ?
 R : Oui, vous pouvez combiner plusieurs décalages d'étirement pour obtenir des effets visuels complexes et personnalisés.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

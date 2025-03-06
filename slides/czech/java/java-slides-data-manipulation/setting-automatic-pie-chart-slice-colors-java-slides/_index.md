@@ -3,14 +3,10 @@ title: Nastavení automatických barev výsečového grafu v Java Slides
 linktitle: Nastavení automatických barev výsečového grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet dynamické výsečové grafy s automatickými barvami řezů v prezentacích Java PowerPoint pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
+type: docs
 weight: 24
 url: /cs/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do nastavení automatických barev výsečového grafu v Java Slides
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Podle potřeby můžete upravit velikost písma, tučné písmo a styl kurzívy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

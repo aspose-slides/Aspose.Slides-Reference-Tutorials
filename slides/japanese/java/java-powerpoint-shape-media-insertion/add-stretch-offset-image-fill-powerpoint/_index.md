@@ -3,14 +3,10 @@ title: PowerPoint で画像塗りつぶしにストレッチ オフセットを�
 linktitle: PowerPoint で画像塗りつぶしにストレッチ オフセットを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで画像塗りつぶしのストレッチ オフセットを追加する方法を学びます。ステップ バイ ステップのチュートリアルが含まれています。
+type: docs
 weight: 16
 url: /ja/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションの画像塗りつぶしにストレッチ オフセットを追加する方法を学習します。この機能を使用すると、スライド内の画像を操作して、画像の外観をより細かく制御できます。
 ## 前提条件
@@ -68,9 +64,3 @@ Aspose.Slides for Java はさまざまなサイズの画像を処理できます
 はい、Aspose.Slides for Java の広範な API を使用して、画像にさまざまな効果や変換を適用できます。
 ### Aspose.Slides for Java のその他のリソースやサポートはどこで見つかりますか?
 訪問することができます[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)詳細なガイドと[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティサポートのため。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

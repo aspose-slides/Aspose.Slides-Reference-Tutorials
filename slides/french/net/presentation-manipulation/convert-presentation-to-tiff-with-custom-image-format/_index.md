@@ -3,14 +3,10 @@ title: Convertir une présentation en TIFF avec un format d'image personnalisé
 linktitle: Convertir une présentation en TIFF avec un format d'image personnalisé
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment convertir des présentations au format TIFF avec des paramètres d'image personnalisés à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code.
+type: docs
 weight: 26
 url: /fr/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Convertir une présentation en TIFF avec un format d'image personnalisé à l'aide d'Aspose.Slides pour .NET
 
@@ -96,9 +92,3 @@ Pendant le processus de conversion, il est important de gérer les erreurs poten
 ### Aspose.Slides pour .NET prend-il en charge d'autres formats de sortie que TIFF ?
 
 Oui, outre le TIFF, Aspose.Slides pour .NET prend en charge une variété de formats de sortie pour la conversion de présentations, notamment PDF, JPEG, PNG, GIF, etc. Cela vous donne la possibilité de choisir le format le plus adapté à votre cas d'utilisation spécifique.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

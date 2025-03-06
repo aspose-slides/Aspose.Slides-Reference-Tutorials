@@ -3,14 +3,10 @@ title: Graphique en entonnoir dans les diapositives Java
 linktitle: Graphique en entonnoir dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des graphiques en entonnoir dans des présentations PowerPoint avec Aspose.Slides pour Java. Guide étape par étape avec code source pour une visualisation efficace des données.
+type: docs
 weight: 18
 url: /fr/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la création d'un graphique en entonnoir dans Aspose.Slides pour Java
 
@@ -141,9 +137,3 @@ Vous pouvez ajuster la position et la taille du graphique en entonnoir en modifi
 ### Puis-je exporter le graphique vers différents formats, tels que PDF ou image ?
 
 Oui, Aspose.Slides pour Java vous permet d'exporter la présentation avec le Funnel Chart vers différents formats, notamment PDF, formats d'image, etc. Vous pouvez utiliser le`SaveFormat` options pour spécifier le format de sortie souhaité lors de l’enregistrement de la présentation.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

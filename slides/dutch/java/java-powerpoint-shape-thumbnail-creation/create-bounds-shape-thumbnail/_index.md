@@ -3,14 +3,10 @@ title: Maak een grensvormminiatuur
 linktitle: Maak een grensvormminiatuur
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormminiaturen met grenzen kunt maken met Aspose.Slides voor Java. Deze stapsgewijze zelfstudie begeleidt u door het proces.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Aspose.Slides voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren. In deze zelfstudie leren we hoe u een miniatuurafbeelding van een vorm met grenzen kunt maken met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -61,9 +57,3 @@ Ja, u kunt de eigenschappen van de miniatuurafbeeldingen, zoals grootte en kwali
 Ja, Aspose.Slides voor Java biedt uitgebreide functionaliteit voor het werken met PowerPoint-presentaties, inclusief diamanipulatie, tekstextractie en het genereren van diagrammen.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

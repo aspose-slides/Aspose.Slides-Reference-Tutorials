@@ -3,14 +3,10 @@ title: 演示操縱
 linktitle: 演示操縱
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 教學釋放簡報操作的潛力。了解如何以程式設計方式動態建立、自訂和增強 PowerPoint 簡報。立即提升您的 PowerPoint 處理技能！
+type: docs
 weight: 11
 url: /zh-hant/net/presentation-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 在 PowerPoint 處理領域，Aspose.Slides for .NET 已成為簡報操作的強大工具。此教程集提供了有關利用 Aspose.Slides 的功能以程式設計方式操作和增強簡報的全面指導。從創建、修改和排列幻燈片到管理文字、圖像和多媒體元素，這些教程提供了逐步進入動態簡報生成和自訂世界的旅程。無論您是自動化簡報任務、產生報表或建立互動式投影片，這些教學課程都可以為開發人員提供有效運用 Aspose.Slides 的知識。
 
 ## 演示操縱
@@ -55,9 +51,3 @@ url: /zh-hant/net/presentation-manipulation/
 了解如何使用 Aspose.Slides for .NET 對簡報執行 SVG 轉換。此綜合指南涵蓋逐步說明、原始程式碼範例和各種 SVG 轉換選項。
 ### [設定簡報中 SVG 的格式](./formatting-svgs-in-presentations/)
 使用 Aspose.Slides for .NET 透過令人驚嘆的 SVG 優化您的簡報。逐步學習如何格式化 SVG 以獲得有影響力的視覺效果。立即提升您的示範遊戲！ 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

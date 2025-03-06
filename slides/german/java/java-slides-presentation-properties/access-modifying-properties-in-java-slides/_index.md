@@ -3,14 +3,10 @@ title: Zugriff auf Eigenschaften zum Ändern in Java-Folien
 linktitle: Zugriff auf Eigenschaften zum Ändern in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java auf Eigenschaften in Java-Folien zugreifen und diese ändern. Verbessern Sie Ihre Präsentationen mit benutzerdefinierten Eigenschaften.
+type: docs
 weight: 11
 url: /de/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Access - Ändern von Eigenschaften in Java-Folien
 
@@ -121,9 +117,3 @@ Sie können Fehler mithilfe der Ausnahmebehandlungsmechanismen von Java behandel
 ### Wo finde ich weitere Dokumentation und Beispiele?
 
  Eine umfassende Dokumentation und Codebeispiele für Aspose.Slides für Java finden Sie unter[Hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

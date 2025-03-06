@@ -3,14 +3,10 @@ title: Gerenciar marcadores de imagem de parágrafo em Java PowerPoint
 linktitle: Gerenciar marcadores de imagem de parágrafo em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar marcadores de imagem personalizados a slides do PowerPoint usando Aspose.Slides para Java. Siga este guia passo a passo detalhado para uma integração perfeita.
+type: docs
 weight: 11
 url: /pt/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Criar apresentações envolventes e visualmente atraentes é uma habilidade crucial no mundo empresarial moderno. Os desenvolvedores Java podem aproveitar o Aspose.Slides para aprimorar suas apresentações com marcadores de imagens personalizados em slides do PowerPoint. Este tutorial irá guiá-lo através do processo passo a passo, garantindo que você possa adicionar marcadores de imagem às suas apresentações com segurança.
 ## Pré-requisitos
@@ -108,9 +104,3 @@ Sim, você pode usar qualquer imagem para os marcadores da imagem, desde que est
 Sim, você pode adicionar vários parágrafos com diferentes estilos de marcadores a uma única AutoForma criando e configurando cada parágrafo individualmente.
 ### Onde posso encontrar mais exemplos e suporte?
  Você pode encontrar mais exemplos no[documentação](https://reference.aspose.com/slides/java/) e obtenha suporte da comunidade Aspose no[fóruns](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

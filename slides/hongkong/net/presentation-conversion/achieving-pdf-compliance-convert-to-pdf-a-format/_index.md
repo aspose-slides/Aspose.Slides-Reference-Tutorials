@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 將 PowerPoint 轉換為 PDF/A
 linktitle: 實現 PDF 合規性 - 轉換為 PDF/A 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為 PDF/A 格式，從而實現 PDF 合規性。確保文件的壽命和可訪問性。
+type: docs
 weight: 25
 url: /zh-hant/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # 如何使用 Aspose.Slides for .NET 實作 PDF 合規性
 
@@ -103,9 +99,3 @@ PDF/A 是 PDF 的 ISO 標準化版本，專為數位保存而設計。這很重�
 
 ### 如果遇到任何問題，在哪裡可以找到 Aspose.Slides for .NET 支援？
 如果您有疑問或遇到問題，可以透過以下方式尋求協助和協助：[Aspose.Slides 論壇](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

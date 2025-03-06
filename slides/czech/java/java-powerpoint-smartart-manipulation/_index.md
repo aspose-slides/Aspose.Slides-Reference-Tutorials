@@ -3,14 +3,10 @@ title: Manipulace s obrázky Java PowerPoint SmartArt
 linktitle: Manipulace s obrázky Java PowerPoint SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak efektivně manipulovat s Java PowerPoint SmartArt pomocí GroupDocs.Slides for Java tutoriálů. Získejte přístup k podřízeným uzlům, přidávejte uzly, změňte rozvržení a další!
+type: docs
 weight: 32
 url: /cs/java/java-powerpoint-smartart-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod
 
@@ -75,9 +71,3 @@ Zvládněte uspořádání typů rozložení grafů v SmartArt pomocí Java s As
 Naučte se, jak efektivně a programově odstraňovat uzly z obrázků SmartArt v prezentacích PowerPoint pomocí Aspose.Slides for Java.
 ### [Odebrat uzel na konkrétní pozici v obrázku SmartArt](./remove-node-specific-position-smartart-java/)
 Naučte se, jak odstranit uzel na konkrétní pozici v rámci SmartArt pomocí Aspose.Slides for Java. Vylepšete přizpůsobení prezentace bez námahy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

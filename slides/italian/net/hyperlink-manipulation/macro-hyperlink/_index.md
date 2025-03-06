@@ -3,14 +3,10 @@ title: Come impostare il collegamento ipertestuale macro Fare clic su Aspose.Sli
 linktitle: Gestione dei collegamenti ipertestuali tramite macro
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come impostare collegamenti ipertestuali macro nelle tue presentazioni con Aspose.Slides per .NET. Migliora l'interattività e coinvolgi il tuo pubblico.
+type: docs
 weight: 13
 url: /it/net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Nel mondo dello sviluppo software moderno, la creazione di presentazioni dinamiche e interattive è un aspetto fondamentale. Aspose.Slides per .NET è una potente libreria che ti consente di lavorare con le presentazioni in modo fluido. Che tu stia creando una presentazione aziendale o una presentazione didattica, la possibilità di impostare clic su macro collegamenti ipertestuali può migliorare notevolmente l'esperienza dell'utente. In questa guida passo passo, ti guideremo attraverso il processo di impostazione di un clic sul collegamento ipertestuale macro utilizzando Aspose.Slides per .NET. 
 
@@ -110,9 +106,3 @@ Sì, puoi personalizzare l'aspetto della forma modificandone le proprietà, ad e
 
 ### Dove posso ottenere aiuto o supporto per Aspose.Slides per .NET?
  Se riscontri problemi o hai domande, puoi cercare aiuto nel forum di supporto Aspose[Qui](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

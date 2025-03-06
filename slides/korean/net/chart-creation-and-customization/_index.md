@@ -3,14 +3,10 @@ title: 차트 생성 및 사용자 정의
 linktitle: 차트 생성 및 사용자 정의
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 .NET 애플리케이션의 프레젠테이션 기능을 향상하세요. 차트 생성 및 사용자 정의에 대한 튜토리얼을 살펴보고 단계별 가이드와 코드 예제를 살펴보세요.
+type: docs
 weight: 14
 url: /ko/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개:
 
@@ -31,9 +27,3 @@ Aspose.Slides for .NET을 사용하여 프레젠테이션의 슬라이드를 비
 Aspose.Slides for .NET을 사용하여 기본 자리 표시자가 있는 동적 PowerPoint 프레젠테이션을 만드는 방법을 알아보세요.
 ### [슬라이드의 머리글 및 바닥글 관리](./header-footer-manager/)
 Aspose.Slides for .NET을 사용하여 슬라이드의 머리글과 바닥글을 관리하는 방법을 알아보세요. 프레젠테이션을 쉽고 정확하게 맞춤화하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

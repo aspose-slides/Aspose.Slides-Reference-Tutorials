@@ -3,14 +3,10 @@ title: So legen Sie Übergangseffekte auf Folien in Aspose.Slides für .NET fest
 linktitle: Übergangseffekte auf Folie festlegen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie in Aspose.Slides für .NET Übergangseffekte auf Folien festlegen und visuell beeindruckende Präsentationen erstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis.
+type: docs
 weight: 11
 url: /de/net/slide-transition-effects/set-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt dynamischer und ansprechender Präsentationen spielen visuelle Übergänge eine entscheidende Rolle. Aspose.Slides für .NET bietet eine leistungsstarke und vielseitige Plattform zum Erstellen von Präsentationen mit atemberaubenden Übergangseffekten. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für .NET Übergangseffekte auf Folien festlegen und Ihre Präsentationen in fesselnde Meisterwerke verwandeln.
 
@@ -120,9 +116,3 @@ Aspose.Slides für .NET bietet Kompatibilität mit verschiedenen Versionen von P
 ### 5. Gibt es eine kostenlose Testversion für Aspose.Slides für .NET?
 
  Ja, Sie können Aspose.Slides für .NET erkunden, indem Sie eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

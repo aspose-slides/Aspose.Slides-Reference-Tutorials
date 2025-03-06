@@ -3,14 +3,10 @@ title: Диаграмма получения диапазона в слайда�
 linktitle: Диаграмма получения диапазона в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить диапазоны диаграмм в слайдах Java с помощью API Aspose.Slides для Java. Пошаговое руководство с исходным кодом для эффективного доступа к данным диаграммы.
+type: docs
 weight: 16
 url: /ru/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в диапазон получения диаграммы в слайдах Java
 
@@ -102,10 +98,3 @@ Aspose.Slides for Java — это коммерческая библиотека,
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
  Вы можете найти подробную документацию и ресурсы для Aspose.Slides для Java на сайте:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

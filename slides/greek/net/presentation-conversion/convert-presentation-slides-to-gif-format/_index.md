@@ -3,14 +3,10 @@ title: Μετατροπή διαφανειών παρουσίασης σε μο�
 linktitle: Μετατροπή διαφανειών παρουσίασης σε μορφή GIF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Slides για .NET για να μετατρέπετε τις διαφάνειες του PowerPoint σε δυναμικά GIF με αυτόν τον αναλυτικό οδηγό.
+type: docs
 weight: 21
 url: /el/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -137,9 +133,3 @@ class Program
 ### Πού μπορώ να βρω περισσότερα παραδείγματα κώδικα και τεκμηρίωση;
 
  Μπορείτε να βρείτε περισσότερα παραδείγματα κώδικα και λεπτομερή τεκμηρίωση σχετικά με τη χρήση του Aspose.Slides για .NET στο[τεκμηρίωση](https://reference.aspose.com).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

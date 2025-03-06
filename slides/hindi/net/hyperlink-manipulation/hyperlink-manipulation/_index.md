@@ -3,14 +3,10 @@ title: Aspose.Slides में हाइपरलिंक हेरफेर
 linktitle: Aspose.Slides में हाइपरलिंक हेरफेर
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET में हाइपरलिंक जोड़ने और हटाने का तरीका जानें। इंटरैक्टिव लिंक के साथ आसानी से अपनी प्रस्तुतियों को बेहतर बनाएँ।
+type: docs
 weight: 10
 url: /hi/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 हाइपरलिंक्स प्रेजेंटेशन में आवश्यक तत्व हैं, क्योंकि वे स्लाइड्स के बीच नेविगेट करने या बाहरी संसाधनों तक पहुँचने का एक सुविधाजनक तरीका प्रदान करते हैं। Aspose.Slides for .NET आपकी प्रेजेंटेशन स्लाइड्स में हाइपरलिंक्स जोड़ने और हटाने के लिए शक्तिशाली सुविधाएँ प्रदान करता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for .NET का उपयोग करके हाइपरलिंक हेरफेर की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। हम एक स्लाइड में हाइपरलिंक्स जोड़ने और एक स्लाइड से हाइपरलिंक्स हटाने को कवर करेंगे। तो, चलिए शुरू करते हैं!
 
@@ -125,9 +121,3 @@ Aspose.Slides for .NET प्रेजेंटेशन बनाने, उस
 
 ### मैं Aspose.Slides के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  यदि आपको Aspose.Slides के लिए अस्थायी लाइसेंस की आवश्यकता है, तो आप इसे प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ορισμός γραφήματος χρωμάτων Invert Fill σε Jav
 linktitle: Ορισμός γραφήματος χρωμάτων Invert Fill σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε τα χρώματα αντιστροφής γεμίσματος για γραφήματα Java Slides χρησιμοποιώντας το Aspose.Slides. Βελτιώστε τις οπτικοποιήσεις των γραφημάτων σας με αυτόν τον αναλυτικό οδηγό και τον πηγαίο κώδικα.
+type: docs
 weight: 22
 url: /el/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στον ορισμό γραφήματος χρωμάτων Invert Fill σε διαφάνειες Java
 
@@ -157,9 +153,3 @@ if (pres != null) pres.dispose();
 ### Μπορώ να αποθηκεύσω το γράφημα σε διαφορετικές μορφές;
 
  Ναι, μπορείτε να αποθηκεύσετε το γράφημα σε διαφορετικές μορφές χρησιμοποιώντας το Aspose.Slides για Java. Στο παρεχόμενο παράδειγμα κώδικα, αποθηκεύσαμε την παρουσίαση ως αρχείο PPTX. Μπορείτε να χρησιμοποιήσετε διαφορετικά`SaveFormat` επιλογές για να το αποθηκεύσετε σε άλλες μορφές όπως PDF, PNG ή SVG, ανάλογα με τις απαιτήσεις σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

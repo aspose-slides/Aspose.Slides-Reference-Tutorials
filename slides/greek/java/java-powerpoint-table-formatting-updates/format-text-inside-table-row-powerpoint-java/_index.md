@@ -3,14 +3,10 @@ title: Μορφοποίηση κειμένου εντός της σειράς π
 linktitle: Μορφοποίηση κειμένου εντός της σειράς πίνακα στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μορφοποιείτε κείμενο μέσα σε σειρές πίνακα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με τον βήμα προς βήμα οδηγό μας.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Όταν εργάζεστε με παρουσιάσεις, η δημιουργία οπτικά ελκυστικών διαφανειών είναι απαραίτητη για τη διατήρηση της αφοσίωσης του κοινού σας. Η μορφοποίηση κειμένου μέσα σε σειρές πίνακα μπορεί να βελτιώσει σημαντικά την αναγνωσιμότητα και την αισθητική των διαφανειών σας. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να μορφοποιήσετε κείμενο μέσα σε μια σειρά πίνακα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -89,9 +85,3 @@ if (presentation != null) presentation.dispose();
  Ναι, μπορείτε να αγοράσετε άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
 ### Ποιες μορφές αρχείων υποστηρίζει το Aspose.Slides for Java;
 Το Aspose.Slides για Java υποστηρίζει μια ποικιλία μορφών, όπως PPT, PPTX, ODP και άλλα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

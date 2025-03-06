@@ -3,14 +3,10 @@ title: Voeg een ingesloten videoframe toe in PowerPoint
 linktitle: Voeg een ingesloten videoframe toe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u videoframes in PowerPoint kunt insluiten met Aspose.Slides voor Java met deze stapsgewijze zelfstudie. Verbeter uw presentaties eenvoudig.
+type: docs
 weight: 21
 url: /nl/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Door video's aan uw PowerPoint-presentaties toe te voegen, kunnen ze aantrekkelijker en informatiever worden. Met Aspose.Slides voor Java kunt u eenvoudig video's rechtstreeks in uw dia's insluiten. In deze zelfstudie leiden we u stap voor stap door het proces, zodat u elk onderdeel van de code begrijpt en begrijpt hoe deze werkt. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze handleiding helpt u uw presentaties te verbeteren met ingesloten video's.
 ## Vereisten
@@ -97,9 +93,3 @@ Aspose.Slides ondersteunt verschillende videoformaten, waaronder MP4, AVI en WMV
 Ja, je hebt een geldige licentie nodig om Aspose.Slides te gebruiken. U kunt een tijdelijke licentie verkrijgen voor evaluatie.
 ### Kan ik de grootte en positie van het videoframe aanpassen?
 Ja, u kunt de grootte en positie aanpassen door de juiste parameters in te stellen bij het toevoegen van het videoframe.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

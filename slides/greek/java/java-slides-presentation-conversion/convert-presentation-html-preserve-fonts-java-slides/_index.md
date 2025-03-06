@@ -3,14 +3,10 @@ title: Μετατροπή παρουσίασης σε HTML με διατήρησ
 linktitle: Μετατροπή παρουσίασης σε HTML με διατήρηση αρχικών γραμματοσειρών σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μετατρέψτε παρουσιάσεις PowerPoint σε HTML διατηρώντας παράλληλα τις αρχικές γραμματοσειρές χρησιμοποιώντας το Aspose.Slides για Java.
+type: docs
 weight: 14
 url: /el/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη μετατροπή παρουσίασης σε HTML με διατήρηση αρχικών γραμματοσειρών σε διαφάνειες Java
 
@@ -115,9 +111,3 @@ finally
 ### Πώς μπορώ να προσαρμόσω περαιτέρω την έξοδο HTML;
 
  Μπορείτε να εξερευνήσετε το`HtmlOptions` class για να προσαρμόσετε διάφορες πτυχές της εξόδου HTML, όπως το μέγεθος της διαφάνειας, την ποιότητα εικόνας και άλλα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

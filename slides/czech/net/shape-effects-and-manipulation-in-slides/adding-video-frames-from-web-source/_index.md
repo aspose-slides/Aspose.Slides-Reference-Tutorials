@@ -3,14 +3,10 @@ title: Výukový program vkládání video rámců s Aspose.Slides pro .NET
 linktitle: Přidávání snímků videa z webového zdroje do snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak bezproblémově vkládat snímky videa do snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Vylepšete prezentace pomocí multimédií bez námahy.
+type: docs
 weight: 20
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dynamickém světě prezentací může začlenění multimediálních prvků výrazně zvýšit zapojení a poskytnout působivá sdělení. Jedním z účinných způsobů, jak toho dosáhnout, je vkládání snímků videa do snímků prezentace. V tomto tutoriálu prozkoumáme, jak toho hladce dosáhnout pomocí Aspose.Slides pro .NET. Aspose.Slides je robustní knihovna, která umožňuje vývojářům programově manipulovat s prezentacemi PowerPoint a poskytuje rozsáhlé možnosti pro vytváření, úpravy a vylepšování snímků.
 ## Předpoklady
@@ -79,9 +75,3 @@ Aspose.Slides je pravidelně aktualizován, aby byla zachována kompatibilita s 
 Ano, můžete vložit více videí přidáním dalších snímků videa do snímku.
 ### Kde najdu podporu pro dotazy související s Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

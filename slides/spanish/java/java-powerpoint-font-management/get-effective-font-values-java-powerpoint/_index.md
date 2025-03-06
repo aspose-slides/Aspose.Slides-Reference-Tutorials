@@ -3,14 +3,10 @@ title: Obtenga valores de fuente efectivos en Java PowerPoint
 linktitle: Obtenga valores de fuente efectivos en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo recuperar valores de fuente efectivos en presentaciones de PowerPoint Java usando Aspose.Slides. Mejore el formato de su presentación sin esfuerzo.
+type: docs
 weight: 12
 url: /es/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En este tutorial, profundizaremos en la recuperación de valores de fuente efectivos en presentaciones de PowerPoint en Java utilizando Aspose.Slides. Esta funcionalidad le permite acceder al formato de fuente aplicado al texto en las diapositivas, lo que proporciona información valiosa para diversas tareas de manipulación de presentaciones.
 ## Requisitos previos
@@ -66,9 +62,3 @@ Puede implementar mecanismos de manejo de errores, como bloques try-catch, para 
 Sí, Aspose.Slides le permite acceder a valores de fuentes desde presentaciones protegidas con contraseña, siempre que proporcione las credenciales correctas.
 ### ¿Existe alguna limitación en las propiedades de fuente que se pueden recuperar?
 Aspose.Slides ofrece amplias capacidades para la recuperación de propiedades de fuentes, cubriendo los aspectos de formato más comunes. Sin embargo, es posible que no se pueda acceder a determinadas funciones de fuentes avanzadas o especializadas mediante este método.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

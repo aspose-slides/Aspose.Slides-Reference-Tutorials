@@ -3,14 +3,10 @@ title: Aspose.Slides で図形アニメーションを簡単に作成
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形にアニメーションを適用する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET で魅力的なプレゼンテーションを作成します。このステップ バイ ステップ ガイドで、図形にアニメーションを適用する方法を学びます。今すぐスライドのレベルを上げましょう。
+type: docs
 weight: 21
 url: /ja/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 動的なプレゼンテーションの世界では、図形にアニメーションを追加すると、スライドの視覚的な魅力とエンゲージメントが大幅に向上します。Aspose.Slides for .NET は、これをシームレスに実現するための強力なツールキットを提供します。このチュートリアルでは、Aspose.Slides を使用して図形にアニメーションを適用するプロセスについて説明します。これにより、印象に残る魅力的なプレゼンテーションを作成できます。
 ## 前提条件
@@ -85,9 +81,3 @@ Aspose.Slides はさまざまな PowerPoint バージョンとの互換性を保
 はい、ライセンスを取得できます[ここ](https://purchase.aspose.com/buy) Aspose.Slides の潜在能力を最大限に引き出します。
 ### 購入前に Aspose.Slides を試すことはできますか?
 もちろんです！[無料トライアル](https://releases.aspose.com/)契約する前に Aspose.Slides の機能を体験してください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

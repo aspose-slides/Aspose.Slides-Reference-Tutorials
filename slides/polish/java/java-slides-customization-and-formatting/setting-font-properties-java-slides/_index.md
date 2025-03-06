@@ -3,14 +3,10 @@ title: Ustawianie właściwości czcionki w slajdach Java
 linktitle: Ustawianie właściwości czcionki w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić właściwości czcionki na slajdach Java za pomocą Aspose.Slides dla Java. Ten przewodnik krok po kroku zawiera przykłady kodu i często zadawane pytania.
+type: docs
 weight: 15
 url: /pl/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do ustawiania właściwości czcionek w slajdach Java
 
@@ -141,9 +137,3 @@ for (ISlide slide : pres.getSlides()) {
     // Tutaj uzyskasz dostęp i dostosujesz właściwości czcionek elementów tekstowych
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

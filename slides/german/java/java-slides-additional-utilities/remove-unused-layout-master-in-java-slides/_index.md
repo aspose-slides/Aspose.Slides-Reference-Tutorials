@@ -3,14 +3,10 @@ title: Entfernen Sie unbenutzte Layoutmaster in Java-Folien
 linktitle: Entfernen Sie unbenutzte Layoutmaster in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Entfernen Sie unbenutzte Layoutmaster mit Aspose.Slides. Schritt-für-Schritt-Anleitung und Code. Verbessern Sie die Präsentationseffizienz.
+type: docs
 weight: 10
 url: /de/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung zum Entfernen nicht verwendeter Layoutmaster in Java-Folien
 
@@ -127,9 +123,3 @@ Nein, das Entfernen nicht verwendeter Layoutmaster hat keine Auswirkungen auf di
 ### Wo kann ich auf den in diesem Artikel verwendeten Quellcode zugreifen?
 
 Den in diesem Artikel verwendeten Quellcode finden Sie in den Codeausschnitten, die in jedem Schritt bereitgestellt werden. Kopieren Sie den Code einfach und fügen Sie ihn in Ihr Java-Projekt ein, um das Entfernen nicht verwendeter Layoutmaster in Ihren Präsentationen zu implementieren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

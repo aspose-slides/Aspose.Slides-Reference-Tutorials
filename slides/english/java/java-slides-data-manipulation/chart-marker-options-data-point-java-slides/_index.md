@@ -3,14 +3,10 @@ title: Chart Marker Options on Data Point in Java Slides
 linktitle: Chart Marker Options on Data Point in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java Slides with Custom Chart Marker Options. Learn to enhance data points visually using Aspose.Slides for Java. Explore step-by-step guidance and FAQs.
+type: docs
 weight: 14
 url: /java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Chart Marker Options on Data Point in Java Slides
 
@@ -158,10 +154,3 @@ Yes, you can customize various aspects of the chart, including titles, axes, dat
 ### Where can I access the Aspose.Slides for Java documentation and downloads?
 
 You can find the documentation at [here](https://reference.aspose.com/slides/java/) and download the library at [here](https://releases.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

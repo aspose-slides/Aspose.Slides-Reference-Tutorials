@@ -3,14 +3,10 @@ title: Kopieer dia naar nieuwe presentatie met basisdia
 linktitle: Kopieer dia naar nieuwe presentatie met basisdia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's met basisdia's kopieert met Aspose.Slides voor .NET. Verbeter uw presentatievaardigheden met deze stapsgewijze handleiding.
+type: docs
 weight: 20
 url: /nl/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van presentatieontwerp en -beheer is efficiëntie van cruciaal belang. Als inhoudschrijver ben ik hier om u te begeleiden bij het kopiëren van een dia naar een nieuwe presentatie met een basisdia met behulp van Aspose.Slides voor .NET. Of je nu een doorgewinterde ontwikkelaar bent of een nieuwkomer op dit gebied, deze stapsgewijze tutorial helpt je deze essentiële vaardigheid onder de knie te krijgen. Laten we er meteen in duiken.
 
@@ -122,9 +118,3 @@ Aspose.Slides voor .NET is een krachtige bibliotheek waarmee .NET-ontwikkelaars 
 
 ### Waar kan ik community-ondersteuning krijgen en Aspose.Slides voor .NET bespreken?
  U kunt lid worden van de Aspose-gemeenschap en ondersteuning zoeken op[Aspose.Slides voor .NET-ondersteuningsforum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

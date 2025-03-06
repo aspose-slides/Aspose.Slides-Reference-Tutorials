@@ -3,14 +3,10 @@ title: Manipulation Java PowerPoint SmartArt
 linktitle: Manipulation Java PowerPoint SmartArt
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à manipuler efficacement Java PowerPoint SmartArt avec les didacticiels GroupDocs.Slides pour Java. Accédez aux nœuds enfants, ajoutez des nœuds, modifiez les dispositions et bien plus encore !
+type: docs
 weight: 32
 url: /fr/java/java-powerpoint-smartart-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction
 
@@ -75,9 +71,3 @@ Maîtrisez les types de disposition d'organigrammes dans SmartArt à l'aide de J
 Découvrez comment supprimer des nœuds de SmartArt dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java de manière efficace et par programmation.
 ### [Supprimer le nœud à une position spécifique dans SmartArt](./remove-node-specific-position-smartart-java/)
 Découvrez comment supprimer un nœud à une position spécifique dans SmartArt à l'aide d'Aspose.Slides pour Java. Améliorez la personnalisation des présentations sans effort.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 슬라이드에서 프레젠테이션을 반응형 HTML로 변환
 linktitle: Java 슬라이드에서 프레젠테이션을 반응형 HTML로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 프레젠테이션을 Java 슬라이드의 반응형 HTML로 쉽게 변환하는 방법을 알아보세요. 모든 기기에서 콘텐츠에 액세스할 수 있도록 하세요.
+type: docs
 weight: 18
 url: /ko/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 프레젠테이션을 반응형 HTML로 변환하는 방법 소개
 
@@ -112,9 +108,3 @@ finally
 ### 프레젠테이션을 다른 형식으로도 변환할 수 있나요?
 
 예, Aspose.Slides는 PDF, 이미지 등을 포함한 광범위한 출력 형식을 지원합니다. 추가 변환 옵션에 대한 설명서를 탐색할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ottieni l'immagine del grafico nelle diapositive Java
 linktitle: Ottieni l'immagine del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come ottenere immagini di grafici in Java Slides utilizzando Aspose.Slides per Java. Questa guida passo passo fornisce il codice sorgente e suggerimenti per un'integrazione perfetta.
+type: docs
 weight: 19
 url: /it/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione a come ottenere l'immagine del grafico nelle diapositive Java
 
@@ -96,9 +92,3 @@ Sì, Aspose.Slides per Java può essere utilizzato per scopi commerciali. Fornis
 ### Posso salvare l'immagine della carta in un formato diverso?
 
  Certamente! Puoi salvare l'immagine della carta in vari formati, come JPEG o GIF, specificando l'estensione file appropriata nel file`ImageIO.write` metodo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

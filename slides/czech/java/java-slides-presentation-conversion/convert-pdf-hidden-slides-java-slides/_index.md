@@ -3,14 +3,10 @@ title: Převeďte do PDF pomocí skrytých snímků v Java Slides
 linktitle: Převeďte do PDF pomocí skrytých snímků v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět PowerPointové prezentace do PDF se skrytými snímky pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem pro bezproblémové generování PDF.
+type: docs
 weight: 27
 url: /cs/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do převodu PowerPointové prezentace do PDF se skrytými snímky pomocí Aspose.Slides pro Java
 
@@ -119,9 +115,3 @@ slide.setHidden(false);
 ### Jak si stáhnu Aspose.Slides for Java?
 
  Aspose.Slides for Java si můžete stáhnout z webu Aspose. Navštivte[Aspose.Slides for Java download page](https://releases.aspose.com/slides/java/) získat nejnovější verzi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

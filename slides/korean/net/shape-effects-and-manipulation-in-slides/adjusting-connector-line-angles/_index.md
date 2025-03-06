@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 PowerPoint에서 커넥터 선 각도 조�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 커넥터 선 각도 조정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 연결선 각도를 조정하는 방법을 알아보세요. 정확하고 쉽게 프레젠테이션을 향상시켜 보세요.
+type: docs
 weight: 28
 url: /ko/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만들려면 연결선을 정밀하게 조정해야 하는 경우가 많습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 연결선 각도를 조정하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있도록 하는 강력한 라이브러리로, 프레젠테이션 생성, 수정 및 조작을 위한 광범위한 기능을 제공합니다.
 ## 전제 조건
@@ -91,9 +87,3 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides에 대한 지원 포럼이 있습니까?
  예, 지원 포럼을 방문하실 수 있습니다[여기](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

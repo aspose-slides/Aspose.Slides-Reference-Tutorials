@@ -3,14 +3,10 @@ title: Sao chép slide trong cùng một bản trình bày
 linktitle: Sao chép slide trong cùng một bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sao chép các trang trình bày trong cùng một bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này với các ví dụ về mã nguồn hoàn chỉnh để thao tác hiệu quả với bản trình bày của bạn.
+type: docs
 weight: 21
 url: /vi/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -109,9 +105,3 @@ Có, bạn có thể sao chép các slide giữa các bản trình bày khác nh
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho .NET ở đâu?
 
  Để biết thêm tài liệu và ví dụ chi tiết, bạn có thể truy cập[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

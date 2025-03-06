@@ -3,14 +3,10 @@ title: Java PowerPoint에서 다단계 글머리 기호 만들기
 linktitle: Java PowerPoint에서 다단계 글머리 기호 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 다단계 글머리 기호를 만드는 방법을 알아보세요. 코드 예제와 FAQ가 포함된 단계별 가이드입니다.
+type: docs
 weight: 14
 url: /ko/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 다단계 글머리 기호를 만드는 방법을 살펴보겠습니다. 주요 항목을 추가하는 것은 프레젠테이션에서 체계적이고 시각적으로 매력적인 콘텐츠를 만들기 위한 일반적인 요구 사항입니다. 우리는 이 가이드가 끝날 때쯤에는 여러 수준에서 구조화된 주요 항목을 사용하여 프레젠테이션을 향상시킬 수 있도록 프로세스를 단계별로 진행해 보겠습니다.
 ## 전제 조건
@@ -113,9 +109,3 @@ Aspose.Slides는 Microsoft PowerPoint 2007 이상 버전과 호환되는 프레�
 예, Aspose.Slides는 PowerPoint 프레젠테이션의 생성, 수정 및 조작을 자동화하는 API를 제공합니다.
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  Aspose.Slides 커뮤니티와 전문가로부터 지원을 받을 수 있습니다.[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

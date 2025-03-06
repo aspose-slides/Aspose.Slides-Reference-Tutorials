@@ -3,14 +3,10 @@ title: 사용자 정의 이미지 형식을 사용하여 프레젠테이션을 T
 linktitle: 사용자 정의 이미지 형식을 사용하여 프레젠테이션을 TIFF로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 사용자 정의 이미지 설정을 사용하여 프레젠테이션을 TIFF로 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
+type: docs
 weight: 26
 url: /ko/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## .NET용 Aspose.Slides를 사용하여 사용자 정의 이미지 형식을 사용하여 프레젠테이션을 TIFF로 변환
 
@@ -96,9 +92,3 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 PowerPoint 프레젠테�
 ### .NET용 Aspose.Slides는 TIFF 외에 다른 출력 형식을 지원합니까?
 
 예, TIFF 외에도 Aspose.Slides for .NET은 PDF, JPEG, PNG, GIF 등을 포함하여 프레젠테이션 변환을 위한 다양한 출력 형식을 지원합니다. 이를 통해 특정 사용 사례에 가장 적합한 형식을 선택할 수 있는 유연성을 얻을 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

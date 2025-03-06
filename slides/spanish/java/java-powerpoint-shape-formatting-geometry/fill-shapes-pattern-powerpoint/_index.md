@@ -3,14 +3,10 @@ title: Rellenar formas con patrón en PowerPoint
 linktitle: Rellenar formas con patrón en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a rellenar formas con patrones en PowerPoint usando Aspose.Slides para Java. Siga nuestra sencilla guía paso a paso para mejorar visualmente sus presentaciones.
+type: docs
 weight: 11
 url: /es/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Crear presentaciones visualmente atractivas es esencial para atraer a su audiencia. Una forma de mejorar tus diapositivas de PowerPoint es rellenando formas con patrones. En este tutorial, seguiremos los pasos para rellenar formas con patrones usando Aspose.Slides para Java. Esta guía está diseñada para desarrolladores que desean aprovechar las potentes funciones de Aspose.Slides para crear presentaciones impresionantes mediante programación.
 ## Requisitos previos
@@ -98,9 +94,3 @@ Aspose.Slides para Java es una potente API que permite a los desarrolladores cre
 Sí, Aspose.Slides para Java le permite abrir, editar y guardar presentaciones de PowerPoint existentes.
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener apoyo del[Foro de soporte de Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

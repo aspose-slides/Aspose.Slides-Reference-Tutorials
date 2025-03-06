@@ -3,14 +3,10 @@ title: جافا باور بوينت الرسوم المتحركة والتأثي
 linktitle: جافا باور بوينت الرسوم المتحركة والتأثيرات
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: أتقن الرسوم المتحركة والتأثيرات الخاصة بـ Java PowerPoint من خلال برامجنا التعليمية الشاملة. تعلم كيفية إضافة الرسوم المتحركة والظلال الخارجية والداخلية باستخدام Aspose.Slides لـ Java.
+type: docs
 weight: 22
 url: /ar/java/java-powerpoint-animation-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 
 يمكن أن تكون عروض Java PowerPoint التقديمية ديناميكية ومذهلة بصريًا باستخدام الرسوم المتحركة والتأثيرات المناسبة. باستخدام Aspose.Slides for Java، لديك أداة قوية تحت تصرفك لتحسين شرائحك. سواء كنت مبتدئًا أو مستخدمًا متقدمًا، ستساعدك برامجنا التعليمية على إتقان فن إضافة الرسوم المتحركة وتأثيرات الظل إلى عروض PowerPoint التقديمية. دعنا نتعمق في هذه البرامج التعليمية ونرى كيف يمكنك رفع مستوى الشرائح الخاصة بك!
@@ -39,9 +35,3 @@ url: /ar/java/java-powerpoint-animation-effects/
 تعرف على كيفية تطبيق تأثيرات الظل الداخلي على الأشكال في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. قم بتحسين الشرائح الخاصة بك باستخدام هذا الدليل التفصيلي خطوة بخطوة.
 ### [تطبيق الظل الخارجي في PowerPoint مع Java](./apply-outer-shadow-powerpoint-java/)
 تعرف على كيفية تطبيق تأثير الظل الخارجي في PowerPoint باستخدام Java باستخدام Aspose.Slides. قم بتحسين عروضك التقديمية بعمق وجاذبية بصرية.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

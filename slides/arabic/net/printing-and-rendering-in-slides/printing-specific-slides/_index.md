@@ -3,14 +3,10 @@ title: طباعة شرائح العرض التقديمي باستخدام Aspose
 linktitle: طباعة شرائح عرض تقديمي محددة باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية طباعة شرائح العرض التقديمي في .NET باستخدام Aspose.Slides. دليل خطوة بخطوة للمطورين. قم بتنزيل المكتبة وابدأ الطباعة اليوم.
+type: docs
 weight: 18
 url: /ar/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم تطوير .NET، تبرز Aspose.Slides كأداة قوية للعمل مع ملفات العروض التقديمية. إذا وجدت نفسك في حاجة إلى طباعة شرائح العرض التقديمي برمجيًا، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نستكشف كيفية تحقيق ذلك باستخدام Aspose.Slides لـ .NET.
 ## المتطلبات الأساسية
@@ -63,9 +59,3 @@ presentation.Print(printerSettings, "Please set your printer name here");
  ج: بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني شراء Aspose.Slides لـ .NET؟
  ج: يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

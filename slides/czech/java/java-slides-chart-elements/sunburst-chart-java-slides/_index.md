@@ -3,14 +3,10 @@ title: Sunburst Chart v Java Slides
 linktitle: Sunburst Chart v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte úžasné grafy Sunburst v Java Slides pomocí Aspose.Slides. Naučte se krok za krokem vytvářet grafy a manipulovat s daty.
+type: docs
 weight: 16
 url: /cs/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do Sunburst Chart v Java Slides s Aspose.Slides
 
@@ -172,9 +168,3 @@ Chcete-li do grafu Sunburst přidat nápovědu, můžete nastavit formát štít
 ### Je možné vytvořit interaktivní grafy Sunburst s hypertextovými odkazy?
 
 Ano, můžete vytvářet interaktivní grafy Sunburst s hypertextovými odkazy přidáním hypertextových odkazů na konkrétní prvky grafu nebo segmenty. Podrobnosti o přidávání hypertextových odkazů naleznete v dokumentaci Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

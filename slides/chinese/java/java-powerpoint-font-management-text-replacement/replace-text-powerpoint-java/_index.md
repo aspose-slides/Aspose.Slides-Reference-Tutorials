@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中替换文本
 linktitle: 使用 Java 在 PowerPoint 中替换文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 替换 PowerPoint 演示文稿中的文本。按照此分步指南自动更新演示文稿。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-font-management-text-replacement/replace-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 您是否曾需要以编程方式更新 PowerPoint 演示文稿中的文本？也许您有数百张幻灯片，而手动更新实在太耗时。使用 Aspose.Slides for Java，这是一个强大的 API，可让您轻松管理和操作 PowerPoint 文件。在本教程中，我们将指导您使用 Aspose.Slides for Java 替换 PowerPoint 演示文稿中的文本。在本指南结束时，您将成为自动更新幻灯片中文本的专家，从而节省您的时间和精力。
 ## 先决条件
@@ -84,9 +80,3 @@ Aspose.Slides for Java 是一个功能强大的 API，用于在 Java 中创建�
 是的，Aspose.Slides for Java 旨在高效处理大型复杂的演示文稿。
 ### 在哪里可以找到更多示例和文档？
 您可以在[Aspose.Slides for Java 文档页面](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

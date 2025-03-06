@@ -3,14 +3,10 @@ title: Java PowerPoint에서 표 셀 내부에 이미지 추가
 linktitle: Java PowerPoint에서 표 셀 내부에 이미지 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 상세한 단계별 가이드를 통해 Java PowerPoint 프레젠테이션의 표 셀 내부에 이미지를 추가하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 표 셀 내에 이미지를 삽입하여 Java PowerPoint 프레젠테이션을 향상시키려는 경우 올바른 위치에 오셨습니다! 오늘은 Aspose.Slides for Java를 사용하여 자세한 단계별 가이드를 살펴보겠습니다. 이 튜토리얼에서는 전체 프로세스를 안내하므로 초보자도 따라하고 놀라운 결과를 얻을 수 있습니다.
 ## 전제 조건
@@ -108,9 +104,3 @@ Aspose.Slides는 JPEG, PNG, BMP 등을 포함한 다양한 이미지 형식을 �
  당신은[선적 서류 비치](https://reference.aspose.com/slides/java/) 더 자세한 정보와 예시를 보려면
 ### Java용 Aspose.Slides를 어떻게 구매할 수 있나요?
  에서 구매하실 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

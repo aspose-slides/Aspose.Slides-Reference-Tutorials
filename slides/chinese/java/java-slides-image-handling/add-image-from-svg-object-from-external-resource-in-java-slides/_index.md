@@ -3,14 +3,10 @@ title: 在 Java Slides 中从外部资源的 SVG 对象添加图像
 linktitle: 在 Java Slides 中从外部资源的 SVG 对象添加图像
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 将外部资源中的矢量 SVG 图像添加到 Java 幻灯片。使用高品质的视觉效果创建令人惊叹的演示文稿。
+type: docs
 weight: 12
 url: /zh/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中从外部资源的 SVG 对象添加图像的介绍
 
@@ -122,9 +118,3 @@ Aspose.Slides for Java 支持各种 SVG 格式，但建议确保您的 SVG 文�
 ### 我可以将动画应用于幻灯片中添加的 SVG 图像吗？
 
 是的，您可以使用 Aspose.Slides 将动画应用于幻灯片中的 SVG 图像来创建动态演示文稿。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

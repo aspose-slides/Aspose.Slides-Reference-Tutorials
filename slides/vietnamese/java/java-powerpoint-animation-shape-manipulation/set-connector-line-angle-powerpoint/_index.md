@@ -3,14 +3,10 @@ title: Đặt góc đường kết nối trong PowerPoint
 linktitle: Đặt góc đường kết nối trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt góc đường kết nối trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tùy chỉnh các slide của bạn một cách chính xác.
+type: docs
 weight: 17
 url: /vi/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đặt góc của các đường kết nối trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Các đường kết nối rất cần thiết để minh họa các mối quan hệ và dòng chảy giữa các hình dạng trong trang trình bày của bạn. Bằng cách điều chỉnh các góc của chúng, bạn có thể đảm bảo bài thuyết trình của mình truyền tải thông điệp một cách rõ ràng và hiệu quả.
 ## Điều kiện tiên quyết
@@ -84,9 +80,3 @@ Aspose.Slides cố gắng hỗ trợ hầu hết các tính năng của PowerPoi
 Chắc chắn! Aspose.Slides cung cấp các tùy chọn mở rộng để tùy chỉnh các đường kết nối, bao gồm kiểu, độ dày và điểm cuối, cho phép bạn tạo các bản trình bày hấp dẫn trực quan.
 ### Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
  Bạn có thể ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ với bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải trong quá trình phát triển của mình.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

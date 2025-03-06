@@ -3,14 +3,10 @@ title: Uwagi Manipulacja slajdami przy użyciu Aspose.Slides
 linktitle: Uwagi Manipulacja slajdami przy użyciu Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak zarządzać nagłówkiem i stopką na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Usuwaj notatki i dostosowuj swoje prezentacje bez wysiłku.
+type: docs
 weight: 10
 url: /pl/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dzisiejszej erze cyfrowej tworzenie angażujących prezentacji jest niezbędną umiejętnością. Aspose.Slides dla .NET to potężne narzędzie, które pozwala z łatwością manipulować i dostosowywać slajdy prezentacji. W tym przewodniku krok po kroku przeprowadzimy Cię przez kilka podstawowych zadań przy użyciu Aspose.Slides dla .NET. Omówimy, jak zarządzać nagłówkami i stopkami na slajdach z notatkami, usuwać notatki z określonych slajdów i usuwać notatki ze wszystkich slajdów.
 
@@ -169,10 +165,3 @@ Aspose.Slides dla .NET umożliwia Ci przejęcie pełnej kontroli nad prezentacja
 ### Czy mogę manipulować innymi aspektami prezentacji PowerPoint za pomocą Aspose.Slides dla .NET?
 
 Tak, Aspose.Slides dla .NET oferuje szeroką gamę funkcji do manipulacji prezentacjami programu PowerPoint, w tym slajdy, kształty, tekst i inne. Aby poznać szczegóły, zapoznaj się z dokumentacją.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

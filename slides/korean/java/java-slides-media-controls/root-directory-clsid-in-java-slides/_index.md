@@ -3,14 +3,10 @@ title: Java 슬라이드의 루트 디렉터리 ClsId
 linktitle: Java 슬라이드의 루트 디렉터리 ClsId
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java 프레젠테이션용 Aspose.Slides에서 루트 디렉터리 ClsId를 설정하는 방법을 알아보세요. CLSID를 사용하여 하이퍼링크 동작을 사용자 정의합니다.
+type: docs
 weight: 10
 url: /ko/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java에서 루트 디렉터리 ClsId 설정 소개
 
@@ -111,9 +107,3 @@ Aspose.Slides for Java에서 루트 디렉터리 ClsId를 성공적으로 설정
 ### 사용할 수 있는 CLSID에 제한이 있나요?
 
 사용할 수 있는 CLSID는 일반적으로 시스템에 설치된 응용 프로그램에 따라 결정됩니다. 하이퍼링크를 처리할 수 있는 유효한 응용 프로그램에 해당하는 CLSID를 사용해야 합니다. 잘못된 CLSID를 사용하면 예기치 않은 동작이 발생할 수 있다는 점에 유의하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

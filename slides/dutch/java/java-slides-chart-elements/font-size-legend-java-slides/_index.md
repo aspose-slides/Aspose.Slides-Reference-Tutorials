@@ -3,14 +3,10 @@ title: Legenda voor lettergrootte in Java-dia's
 linktitle: Legenda voor lettergrootte in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter PowerPoint-presentaties met Aspose.Slides voor Java. Leer hoe u de lettergrootte van legenda's kunt aanpassen en meer in onze stapsgewijze handleiding.
+type: docs
 weight: 13
 url: /nl/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot de legenda van de lettergrootte in Java-dia's
 
@@ -139,9 +135,3 @@ Hier schakelen we het automatisch schalen van de assen uit en specificeren we de
 ### Waar kan ik meer informatie en documentatie voor Aspose.Slides vinden?
 
  Uitgebreide documentatie en API-referenties voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose. Bezoek[hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

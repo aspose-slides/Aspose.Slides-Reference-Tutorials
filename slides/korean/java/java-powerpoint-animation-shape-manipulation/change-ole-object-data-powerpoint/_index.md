@@ -3,14 +3,10 @@ title: PowerPoint에서 OLE 개체 데이터 변경
 linktitle: PowerPoint에서 OLE 개체 데이터 변경
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 OLE 개체 데이터를 변경하는 방법을 알아보세요. 효율적이고 쉬운 업데이트를 위한 단계별 가이드입니다.
+type: docs
 weight: 14
 url: /ko/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 PowerPoint 프레젠테이션에서 OLE 개체 데이터를 변경하는 것은 각 슬라이드를 수동으로 편집하지 않고 포함된 콘텐츠를 업데이트해야 하는 경우 중요한 작업이 될 수 있습니다. 이 포괄적인 가이드는 PowerPoint 프레젠테이션 처리를 위해 설계된 강력한 라이브러리인 Aspose.Slides for Java를 사용하는 프로세스를 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼이 유용하고 따라하기 쉽다는 것을 알게 될 것입니다.
 ## 전제 조건
@@ -104,9 +100,3 @@ OLE(개체 연결 및 포함) 개체를 사용하면 Excel 스프레드시트와
  예, 다음을 얻을 수 있습니다.[무료 시험판](https://releases.aspose.com/) Aspose.Slides의 기능을 테스트합니다.
 ### Aspose.Slides에 대한 문서는 어디서 찾을 수 있나요?
  자세한 문서는 다음에서 찾을 수 있습니다.[Aspose.Slides 문서 페이지](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

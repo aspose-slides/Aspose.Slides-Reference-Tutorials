@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中存取具有特定佈局的 SmartArt
 linktitle: 在 Java PowerPoint 中存取具有特定佈局的 SmartArt
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 以程式設計方式存取和操作 PowerPoint 中的 SmartArt。請遵循此詳細的分步指南。
+type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/access-smartart-specific-layout-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 創建動態且具有視覺吸引力的簡報通常需要的不僅僅是文字和圖像。 SmartArt 是 PowerPoint 中的一項出色功能，可讓您建立資訊和想法的圖形表示。但您是否知道可以使用 Aspose.Slides for Java 以程式方式操作 SmartArt？在這個綜合教程中，我們將引導您完成使用 Aspose.Slides for Java 在 PowerPoint 簡報中存取和使用 SmartArt 的過程。無論您是希望自動化簡報建立流程還是以程式設計方式自訂投影片，本指南都能滿足您的需求。
 ## 先決條件
@@ -98,9 +94,3 @@ Aspose.Slides 提供免費試用版，但要獲得完整功能，您需要購買
 您可以從以下方面獲得支持[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)社區和開發人員可以為您提供幫助。
 ### 是否可以使用 Aspose.Slides for Java 在 PowerPoint 中自動建立 SmartArt？
 當然，Aspose.Slides for Java 提供了以程式設計方式建立和操作 SmartArt 的綜合工具。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

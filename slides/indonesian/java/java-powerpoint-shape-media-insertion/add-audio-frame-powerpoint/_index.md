@@ -3,14 +3,10 @@ title: Tambahkan Bingkai Audio di PowerPoint
 linktitle: Tambahkan Bingkai Audio di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan bingkai audio ke presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan presentasi Anda dengan elemen audio yang menarik dengan mudah.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Menyempurnakan presentasi dengan elemen audio dapat meningkatkan dampak dan keterlibatannya secara signifikan. Dengan Aspose.Slides untuk Java, mengintegrasikan bingkai audio ke dalam presentasi PowerPoint menjadi proses yang lancar. Tutorial ini akan memandu Anda melalui proses langkah demi langkah menambahkan bingkai audio ke presentasi Anda menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -79,9 +75,3 @@ Ya, Anda dapat membuat presentasi PowerPoint dengan bingkai audio tertanam yang 
 Aspose.Slides untuk Java menawarkan opsi penyesuaian yang luas, memungkinkan Anda menyesuaikan tampilan pemutar audio agar sesuai dengan preferensi Anda.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides untuk Java?
  Ya, Anda dapat mengakses uji coba gratis Aspose.Slides untuk Java dari mereka[situs web](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

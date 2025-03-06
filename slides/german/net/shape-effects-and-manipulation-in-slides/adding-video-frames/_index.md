@@ -3,14 +3,10 @@ title: Tutorial zum Hinzufügen von Video-Frames mit Aspose.Slides für .NET
 linktitle: Hinzufügen von Videoframes zu Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Beleben Sie Präsentationen mit dynamischen Video-Frames mithilfe von Aspose.Slides für .NET. Folgen Sie unserer Anleitung für eine nahtlose Integration und erstellen Sie ansprechende Präsentationen.
+type: docs
 weight: 19
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 In der dynamischen Landschaft der Präsentationen kann die Einbindung von Multimedia-Elementen die Gesamtwirkung und das Engagement steigern. Das Hinzufügen von Video-Frames zu Ihren Folien kann bahnbrechend sein und die Aufmerksamkeit Ihres Publikums auf eine Weise fesseln, die statische Inhalte nicht können. Aspose.Slides für .NET bietet eine robuste Lösung für die nahtlose Integration von Video-Frames in Ihre Präsentationsfolien.
 ## Voraussetzungen
@@ -71,9 +67,3 @@ Auf jeden Fall! Sie haben die volle Kontrolle über die Wiedergabeoptionen, wie 
  Ja, Sie können die Funktionen von Aspose.Slides für .NET erkunden, indem Sie die Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### F5: Wo finde ich Unterstützung für Aspose.Slides für .NET?
  Bei Fragen oder für Hilfe besuchen Sie die[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Exportujte mediální soubory do HTML z prezentace
 linktitle: Exportujte mediální soubory do HTML z prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optimalizujte sdílení prezentací pomocí Aspose.Slides pro .NET! V tomto podrobném průvodci se dozvíte, jak exportovat mediální soubory do HTML z vaší prezentace.
+type: docs
 weight: 15
 url: /cs/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 V tomto tutoriálu vás provedeme procesem exportu mediálních souborů do HTML z prezentace pomocí Aspose.Slides for .NET. Aspose.Slides je výkonné API, které umožňuje programově pracovat s prezentacemi PowerPoint. Na konci této příručky budete moci snadno převádět své prezentace do formátu HTML. Takže, pojďme začít!
 
@@ -88,9 +84,3 @@ Odpověď 3: Ano, Aspose.Slides for .NET podporuje různé exportní formáty, v
  A5: Můžete si zakoupit licenci od[tento odkaz](https://purchase.aspose.com/buy).
 
 Nyní, když jste dokončili tento tutoriál, máte dovednosti exportovat mediální soubory do HTML z prezentací PowerPoint pomocí Aspose.Slides for .NET. Užijte si sdílení multimediálních prezentací online!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

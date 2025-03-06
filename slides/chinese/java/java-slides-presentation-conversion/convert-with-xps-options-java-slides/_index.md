@@ -3,14 +3,10 @@ title: 使用 Java Slides 中的 XPS 选项进行转换
 linktitle: 使用 Java Slides 中的 XPS 选项进行转换
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿转换为 XPS 格式。自定义选项以实现无缝转换过程。
+type: docs
 weight: 34
 url: /zh/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中使用 XPS 选项进行转换的简介
 
@@ -118,10 +114,3 @@ finally
 ### 使用 Aspose.Slides for Java 时如何处理异常？
 
 要处理异常，您可以在使用 Aspose.Slides 时在代码周围使用 try-catch 块。请参阅文档以了解具体的异常处理指南。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

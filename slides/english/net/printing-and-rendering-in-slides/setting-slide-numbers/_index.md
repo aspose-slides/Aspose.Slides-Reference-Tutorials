@@ -3,14 +3,10 @@ title: Setting Slide Numbers for Presentations using Aspose.Slides
 linktitle: Setting Slide Numbers for Presentations using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Explore the seamless world of slide manipulation with Aspose.Slides for .NET. Learn how to set slide numbers effortlessly, enhancing your presentation experience.
+type: docs
 weight: 16
 url: /net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the dynamic world of presentations, controlling the sequence and organization of slides is crucial for effective communication. Aspose.Slides for .NET provides a powerful solution to manipulate slide numbers within your presentations, giving you the flexibility to customize your content seamlessly.
 ## Prerequisites
@@ -67,10 +63,3 @@ Refer to the [Aspose.Slides licensing page](https://purchase.aspose.com/buy) for
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community-based support or explore premium support options.
 ### Can I try Aspose.Slides before purchasing?
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

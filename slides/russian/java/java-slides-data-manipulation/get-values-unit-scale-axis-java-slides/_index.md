@@ -3,14 +3,10 @@ title: Получение значений и масштаба единиц из
 linktitle: Получение значений и масштаба единиц измерения из оси в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить значения и масштаб единиц измерения по осям в Java Slides с помощью Aspose.Slides для Java. Расширьте свои возможности анализа данных.
+type: docs
 weight: 20
 url: /ru/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в получение значений и масштаб единиц измерения из оси в слайдах Java
 
@@ -126,9 +122,3 @@ Aspose.Slides for Java регулярно обновляется для подд
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
  Подробную документацию и дополнительные ресурсы можно найти на сайте[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/) Веб-сайт.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

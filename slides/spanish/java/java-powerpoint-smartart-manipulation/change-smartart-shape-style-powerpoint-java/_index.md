@@ -3,14 +3,10 @@ title: Cambiar el estilo de forma SmartArt en PowerPoint con Java
 linktitle: Cambiar el estilo de forma SmartArt en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a cambiar los estilos SmartArt en presentaciones de PowerPoint usando Java con Aspose.Slides para Java. Impulsa tus presentaciones.
+type: docs
 weight: 23
 url: /es/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En el mundo del desarrollo de Java, la creación de presentaciones potentes suele ser un requisito. Ya sea para presentaciones comerciales, fines educativos o simplemente para compartir información, las presentaciones de PowerPoint son un medio común. Sin embargo, en ocasiones los estilos y formatos predeterminados proporcionados por PowerPoint pueden no satisfacer completamente nuestras necesidades. Aquí es donde entra en juego Aspose.Slides para Java.
 Aspose.Slides para Java es una biblioteca sólida que permite a los desarrolladores de Java trabajar con presentaciones de PowerPoint mediante programación. Proporciona una amplia gama de funciones, incluida la capacidad de manipular formas, estilos, animaciones y mucho más. En este tutorial, nos centraremos en una tarea específica: cambiar el estilo de forma SmartArt en presentaciones de PowerPoint usando Java.
@@ -73,9 +69,3 @@ Sí, Aspose.Slides para Java se puede integrar perfectamente con otras bibliotec
  Sí, puede adquirir una licencia temporal de Aspose.Slides para Java en[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar documentación detallada para Aspose.Slides para Java?
  Puede encontrar documentación detallada para Aspose.Slides para Java[aquí](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

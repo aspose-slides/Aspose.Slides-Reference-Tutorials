@@ -3,14 +3,10 @@ title: Beheers effectieve Light Rig-gegevens met Aspose.Slides
 linktitle: Effectieve Light Rig-gegevens verkrijgen in presentatiedia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentatiedia's met Aspose.Slides voor .NET! Leer stap voor stap hoe u effectieve gegevens over lichtinstallaties kunt ophalen. Verbeter nu uw visuele verhalen!
+type: docs
 weight: 19
 url: /nl/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het creëren van dynamische en visueel aantrekkelijke presentatiedia's is een veel voorkomende vereiste in het huidige digitale tijdperk. Een essentieel aspect is het manipuleren van de eigenschappen van de lichtinstallatie om de algehele esthetiek te verbeteren. Deze tutorial begeleidt u bij het verkrijgen van effectieve light rig-gegevens in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -68,9 +64,3 @@ Aspose.Slides ondersteunt voornamelijk .NET-talen zoals C#. Er zijn echter verge
  Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/slides/11).
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

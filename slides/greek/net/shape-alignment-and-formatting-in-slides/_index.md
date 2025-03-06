@@ -3,14 +3,10 @@ title: Στοίχιση και μορφοποίηση σχήματος σε δι
 linktitle: Στοίχιση και μορφοποίηση σχήματος σε διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε τα ολοκληρωμένα σεμινάρια Aspose.Slides σχετικά με τη στοίχιση και τη μορφοποίηση σχημάτων σε εφαρμογές .NET. Μάθετε να ευθυγραμμίζετε και να μορφοποιείτε τα σχήματα χωρίς κόπο, βελτιώνοντας τις παρουσιάσεις διαφανειών σας με ακρίβεια.
+type: docs
 weight: 14
 url: /el/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -48,9 +44,3 @@ url: /el/net/shape-alignment-and-formatting-in-slides/
 Μάθετε πώς μπορείτε να προσθέσετε μετατόπιση τεντώματος προς τα αριστερά για μια κορνίζα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με πλήρες παράδειγμα πηγαίου κώδικα.
 ### [Αντικατάσταση του τίτλου εικόνας του πλαισίου αντικειμένου OLE στις διαφάνειες παρουσίασης](./substituting-picture-title-ole-object-frame/)
 Μάθετε πώς να αντικαθιστάτε τους τίτλους εικόνων των πλαισίων αντικειμένων OLE σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με πλήρη πηγαίο κώδικα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

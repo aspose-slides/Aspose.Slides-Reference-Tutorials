@@ -3,14 +3,10 @@ title: Клонирование фигур в PowerPoint
 linktitle: Клонирование фигур в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как клонировать фигуры в презентациях PowerPoint с помощью Aspose.Slides для Java. Оптимизируйте свой рабочий процесс с помощью этого простого руководства.
+type: docs
 weight: 16
 url: /ru/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В этом уроке мы рассмотрим, как клонировать фигуры в презентациях PowerPoint с помощью Aspose.Slides для Java. Клонирование фигур позволяет дублировать существующие фигуры в презентации, что может быть особенно полезно для создания единообразных макетов или повторения элементов на слайдах.
 ## Предварительные условия
@@ -61,9 +57,3 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 Да, вы можете клонировать слайды, текст, изображения и другие элементы презентации PowerPoint с помощью Aspose.Slides for Java.
 ### Доступна ли пробная версия Aspose.Slides для Java?
  Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для Java с сайта[Веб-сайт](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

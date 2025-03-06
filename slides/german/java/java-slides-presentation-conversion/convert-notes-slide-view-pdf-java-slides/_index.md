@@ -3,14 +3,10 @@ title: Konvertieren Sie die Notizen-Folienansicht in Java Slides in PDF
 linktitle: Konvertieren Sie die Notizen-Folienansicht in Java Slides in PDF
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Notizen mithilfe von Aspose.Slides für Java in PDFs konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcode.
+type: docs
 weight: 16
 url: /de/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung zum Konvertieren der Notes-Folienansicht in PDF in Java Slides
 
@@ -110,9 +106,3 @@ Ja, für die kommerzielle Nutzung von Aspose.Slides ist eine gültige Lizenz erf
 ### Wo finde ich weitere Dokumentation und Beispiele?
 
  Ausführliche Dokumentation und Beispiele für Aspose.Slides für Java finden Sie unter[Hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

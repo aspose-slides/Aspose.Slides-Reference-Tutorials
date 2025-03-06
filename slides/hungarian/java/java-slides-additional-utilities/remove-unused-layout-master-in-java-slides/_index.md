@@ -3,14 +3,10 @@ title: Távolítsa el a nem használt elrendezési mestert a Java Slides alkalma
 linktitle: Távolítsa el a nem használt elrendezési mestert a Java Slides alkalmazásból
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Távolítsa el a nem használt elrendezési mestereket az Aspose.Slides segítségével. Lépésről lépésre útmutató és kód. Növelje a prezentáció hatékonyságát.
+type: docs
 weight: 10
 url: /hu/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Java Slides nem használt Layout Master eltávolításához
 
@@ -127,9 +123,3 @@ Nem, a nem használt elrendezési minták eltávolítása nem befolyásolja a di
 ### Hol érhetem el a cikkben használt forráskódot?
 
 Az ebben a cikkben használt forráskód az egyes lépésekben megadott kódrészletekben található. Egyszerűen másolja és illessze be a kódot a Java-projektbe, hogy megvalósítsa a nem használt elrendezési mesterek eltávolítását a prezentációiból.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

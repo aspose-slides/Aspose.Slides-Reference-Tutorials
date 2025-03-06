@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày thành PDF được bảo vệ bằng m
 linktitle: Chuyển đổi bản trình bày thành PDF được bảo vệ bằng mật khẩu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint thành tệp PDF bảo mật, được bảo vệ bằng mật khẩu trong Java bằng Aspose.Slides. Tăng cường bảo mật tài liệu.
+type: docs
 weight: 17
 url: /vi/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Chuyển đổi bản trình bày thành PDF được bảo vệ bằng mật khẩu trong Java Slides
 
@@ -150,9 +146,3 @@ Có, bạn có thể tự động hóa quá trình chuyển đổi nhiều bản
 ### Aspose.Slides cho Java có phù hợp cho mục đích thương mại không?
 
 Có, Aspose.Slides for Java phù hợp cho mục đích thương mại. Nó cung cấp một loạt các tính năng để làm việc với bản trình bày PowerPoint trong các ứng dụng Java và được sử dụng rộng rãi trong ngành.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

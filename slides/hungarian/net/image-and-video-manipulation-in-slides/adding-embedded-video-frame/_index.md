@@ -3,14 +3,10 @@ title: Aspose.Slides – Beágyazott videók hozzáadása a .NET-bemutatókhoz
 linktitle: Aspose.Slides – Beágyazott videók hozzáadása a .NET-bemutatókhoz
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa prezentációit beágyazott videókkal az Aspose.Slides for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+type: docs
 weight: 19
 url: /hu/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A prezentációk dinamikus világában a multimédiás elemek integrálása jelentősen fokozhatja az elköteleződést. Az Aspose.Slides for .NET hatékony megoldást kínál beágyazott videokockák beépítésére a bemutató diákjaiba. Ez az oktatóanyag végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a zökkenőmentes élmény érdekében.
 ## Előfeltételek
@@ -79,9 +75,3 @@ Az Aspose.Slides számos videóformátumot támogat, beleértve az MP4-et, az AV
 A beágyazott videók számát általában a prezentációs szoftver kapacitása korlátozza.
 ### Hogyan kérhetek további segítséget vagy oszthatok meg tapasztalataimat?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

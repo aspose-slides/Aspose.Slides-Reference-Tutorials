@@ -3,14 +3,10 @@ title: Làm chủ kết nối hình dạng với Aspose.Slides cho .NET
 linktitle: Kết nối Hình dạng bằng Trang web Kết nối trong Bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tạo các bản trình bày hấp dẫn với Aspose.Slides dành cho .NET, kết nối các hình dạng một cách liền mạch. Hãy làm theo hướng dẫn của chúng tôi để có trải nghiệm mượt mà, hấp dẫn.
+type: docs
 weight: 30
 url: /vi/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thế giới thuyết trình năng động, việc tạo các trang trình bày hấp dẫn về mặt hình ảnh với các hình dạng được kết nối với nhau là điều cốt yếu để giao tiếp hiệu quả. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để đạt được điều này bằng cách cho phép bạn kết nối các hình dạng bằng cách sử dụng các trang kết nối. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình kết nối các hình dạng từng bước, đảm bảo rằng bản trình bày của bạn nổi bật với các chuyển tiếp hình ảnh liền mạch.
 ## Điều kiện tiên quyết
@@ -82,9 +78,3 @@ Bạn có thể sử dụng khối try-catch để xử lý các trường hợp
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

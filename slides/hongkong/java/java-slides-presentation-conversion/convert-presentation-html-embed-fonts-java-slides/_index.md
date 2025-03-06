@@ -3,14 +3,10 @@ title: 透過在 Java 投影片中嵌入所有字體將簡報轉換為 HTML
 linktitle: 透過在 Java 投影片中嵌入所有字體將簡報轉換為 HTML
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將簡報轉換為帶有嵌入字體的 HTML。本逐步指南可確保格式一致，以實現無縫共享。
+type: docs
 weight: 13
 url: /zh-hant/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 透過在 Java 投影片中嵌入所有字體將簡報轉換為 HTML 的簡介
 
@@ -112,9 +108,3 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和文件？
 
 您可以存取 Aspose.Slides for Java 的全面文件和資源：[Java API 參考的 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

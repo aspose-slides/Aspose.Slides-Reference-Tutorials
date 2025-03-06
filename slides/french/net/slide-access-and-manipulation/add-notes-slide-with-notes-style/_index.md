@@ -3,14 +3,10 @@ title: Ajout d'un formatage de notes élégant avec Aspose.Slides pour .NET
 linktitle: Ajouter une diapositive de notes avec un formatage de notes élégant
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment ajouter une mise en forme de notes élégante à vos présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez vos diapositives avec des symboles et des puces.
+type: docs
 weight: 14
 url: /fr/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dans le monde des présentations, il ne s'agit pas seulement du contenu que vous proposez, mais aussi de la manière dont vous le présentez. Un formatage élégant des notes peut faire une différence significative dans l’impact de votre présentation. Avec Aspose.Slides pour .NET, vous pouvez facilement améliorer vos présentations PowerPoint en ajoutant des notes élégantes avec des puces et des symboles. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajout d'une mise en forme de notes élégante à vos diapositives PowerPoint.
 
@@ -113,9 +109,3 @@ Oui, vous pouvez obtenir une licence temporaire à des fins de tests et d'évalu
 
 ### Existe-t-il un forum communautaire ou une assistance disponible pour Aspose.Slides pour .NET ?
  Oui, vous pouvez demander de l'aide et participer aux discussions sur le forum de la communauté Aspose.Slides for .NET.[ici](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

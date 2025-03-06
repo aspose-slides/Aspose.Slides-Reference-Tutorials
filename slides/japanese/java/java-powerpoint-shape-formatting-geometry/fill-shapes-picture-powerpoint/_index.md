@@ -3,14 +3,10 @@ title: PowerPoint で図形を画像で塗りつぶす
 linktitle: PowerPoint で図形を画像で塗りつぶす
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで図形を画像で塗りつぶす方法を学びます。視覚的な魅力を簡単に高めることができます。
+type: docs
 weight: 12
 url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 PowerPoint プレゼンテーションでは、魅力を高め、情報を効果的に伝えるために、画像で埋め尽くされた図形などの視覚要素が必要になることがよくあります。Aspose.Slides for Java は、このタスクをシームレスに実行するための強力なツール セットを提供します。このチュートリアルでは、Aspose.Slides for Java を使用して図形に画像を埋め込む方法を段階的に学習します。
 ## 前提条件
@@ -84,9 +80,3 @@ Aspose.Slides for Java は、PowerPoint 97 以降と互換性のあるプレゼ�
 Aspose.Slides for Java は、JPEG、PNG、GIF、BMP、TIFF など、幅広い画像形式をサポートしています。
 ### 塗りつぶされた図形に効果を適用できますか?
 はい、Aspose.Slides for Java は、塗りつぶされた図形に影、反射、3D 回転などのさまざまな効果を適用するための包括的な API を提供します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

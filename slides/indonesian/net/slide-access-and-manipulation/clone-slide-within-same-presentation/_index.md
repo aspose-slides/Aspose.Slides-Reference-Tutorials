@@ -3,14 +3,10 @@ title: Kloning Slide dalam Presentasi yang Sama
 linktitle: Kloning Slide dalam Presentasi yang Sama
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengkloning slide dalam presentasi PowerPoint yang sama menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap untuk memanipulasi presentasi Anda secara efisien.
+type: docs
 weight: 21
 url: /id/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -109,9 +105,3 @@ Ya, Anda dapat mengkloning slide di antara berbagai presentasi menggunakan tekni
 ### Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk .NET?
 
  Untuk dokumentasi dan contoh lebih detail, Anda dapat mengunjungi[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

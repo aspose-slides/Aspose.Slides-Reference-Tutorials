@@ -3,14 +3,10 @@ title: Thao tác với hộp văn bản Java PowerPoint
 linktitle: Thao tác với hộp văn bản Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá các hướng dẫn toàn diện về thao tác với hộp văn bản Java PowerPoint với Aspose.Slides. Nâng cao bản trình bày của bạn từng bước với hướng dẫn của chúng tôi.
+type: docs
 weight: 20
 url: /vi/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của bản trình bày PowerPoint của bạn với Hướng dẫn thao tác với hộp văn bản PowerPoint Java bằng cách sử dụng Aspose.Slides. Cho dù bạn là người mới bắt đầu hay người dùng nâng cao, hướng dẫn chi tiết của chúng tôi sẽ giúp bạn cải thiện bài thuyết trình của mình một cách dễ dàng.
@@ -56,9 +52,3 @@ Tìm hiểu cách tùy chỉnh góc xoay cho khung văn bản trong Java PowerPo
 Tìm hiểu cách áp dụng các định dạng điền dấu đầu dòng trong Java PowerPoint bằng Aspose.Slides cho Java. Nắm vững các kiểu dấu đầu dòng và cải thiện bài thuyết trình của bạn.
 ### [Đoạn văn bản hiệu ứng trong Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng Java bằng các hiệu ứng văn bản động bằng cách sử dụng Aspose.Slides để tích hợp và tùy chỉnh liền mạch.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

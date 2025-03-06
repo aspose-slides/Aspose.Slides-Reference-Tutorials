@@ -3,14 +3,10 @@ title: Aspose.Slides .NET Eğitimi ile PowerPoint'te Şekilleri Gizleyin
 linktitle: Aspose.Slides ile Sunum Slaytlarındaki Şekilleri Gizleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint slaytlarındaki şekilleri nasıl gizleyeceğinizi öğrenin. Bu adım adım kılavuzla sunumlarınızı programlı bir şekilde özelleştirin.
+type: docs
 weight: 21
 url: /tr/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunumların dinamik dünyasında kişiselleştirme çok önemlidir. Aspose.Slides for .NET, PowerPoint sunumlarını programlı olarak düzenlemek için güçlü bir çözüm sunar. Yaygın gereksinimlerden biri, slayttaki belirli şekilleri gizleyebilmektir. Bu eğitim, Aspose.Slides for .NET kullanarak sunum slaytlarındaki şekilleri gizleme sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -77,9 +73,3 @@ Kesinlikle! Şekil türü, renk veya konum gibi çeşitli niteliklere göre gizl
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/)test amaçlı.
 ### Aspose.Slides için topluluk desteğini nasıl alabilirim?
  Aspose.Slides topluluğuna katılın[forum](https://forum.aspose.com/c/slides/11) Tartışma ve yardım için.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 在投影片中尋找形狀
 linktitle: 在投影片中尋找形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 輕鬆尋找 PowerPoint 投影片中的形狀。請遵循我們的逐步指南以獲得無縫編碼體驗。
+type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 您是否厭倦了在 PowerPoint 投影片中篩選特定形狀？想像一下，只需幾行程式碼就可以輕鬆地自動化此流程。歡迎閱讀我們有關使用 Aspose.Slides for Java 來定位簡報文件中的形狀的詳細指南。在本教程中，我們將詳細介紹使用 Aspose.Slides for Java 在投影片中尋找形狀所需的步驟，從設定環境到執行程式碼。
 ## 先決條件
@@ -88,9 +84,3 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 是的，您可以從以下位置獲得免費試用[Aspose 的免費試用頁面](https://releases.aspose.com/).
 ### 我可以在哪裡獲得 Aspose.Slides 的支援？
 您可以在以下位置找到支持[Aspose 幻燈片論壇](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

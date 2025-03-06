@@ -3,14 +3,10 @@ title: 使用 Java 合併 PowerPoint 表格中的儲存格
 linktitle: 使用 Java 合併 PowerPoint 表格中的儲存格
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 合併 PowerPoint 表格中的儲存格。透過此逐步指南增強您的簡報佈局。
+type: docs
 weight: 17
 url: /zh-hant/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，您將學習如何使用 Aspose.Slides for Java 有效地合併 PowerPoint 表格中的儲存格。 Aspose.Slides 是一個功能強大的函式庫，可讓開發人員以程式設計方式建立、操作和轉換 PowerPoint 簡報。透過合併表格中的儲存格，您可以自訂簡報投影片的版面和結構，從而增強清晰度和視覺吸引力。
 ## 先決條件
@@ -96,9 +92,3 @@ Aspose.Slides for Java 是一個 Java API，用於以程式設計方式建立、
 你可以找到文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 您可以從 Aspose.Slides 社區論壇獲得支持[這裡](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

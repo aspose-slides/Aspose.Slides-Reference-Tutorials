@@ -3,14 +3,10 @@ title: 掌握视觉效果 - 使用 .NET 中的 Aspose.Slides 添加片段
 linktitle: 使用 Aspose.Slides 在演示文稿中向几何形状添加线段
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 增强您的 .NET 应用程序。本教程将指导您向几何形状添加线段，以制作引人入胜的演示文稿。
+type: docs
 weight: 13
 url: /zh/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在 .NET 开发领域，创建具有视觉吸引力的演示文稿是一项常见要求。Aspose.Slides for .NET 是一个功能强大的库，可帮助将强大的演示文稿创建功能无缝集成到您的 .NET 应用程序中。本教程重点介绍演示文稿设计的一个特定方面 - 向几何形状添加线段。
 ## 先决条件
@@ -76,9 +72,3 @@ Aspose.Slides for .NET 使开发人员能够通过高级演示文稿创建功能
 探索[文档](https://reference.aspose.com/slides/net/)以获得全面的指南和示例。
 ### 我可以在购买之前免费试用 Aspose.Slides 吗？
 是的，你可以从下载免费试用版[这里](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

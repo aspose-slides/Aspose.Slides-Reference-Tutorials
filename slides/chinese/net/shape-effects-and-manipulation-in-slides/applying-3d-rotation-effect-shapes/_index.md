@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 掌握演示文稿中的 3D 旋转
 linktitle: 在演示文稿幻灯片中对形状应用 3D 旋转效果
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强您的演示文稿！在本教程中学习如何将 3D 旋转效果应用于形状。创建动态且视觉震撼的演示文稿。
+type: docs
 weight: 23
 url: /zh/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 创建引人入胜且动态的演示幻灯片是有效沟通的关键方面。Aspose.Slides for .NET 提供了一套强大的工具来增强您的演示文稿，包括将 3D 旋转效果应用于形状的能力。在本教程中，我们将介绍使用 Aspose.Slides for .NET 将 3D 旋转效果应用于演示幻灯片中的形状的过程。
 ## 先决条件
@@ -64,9 +60,3 @@ pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 是的，你可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Slides for .NET 的详细文档？
 文档可用[这里](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

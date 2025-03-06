@@ -3,14 +3,10 @@ title: Convierta PowerPoint a PDF/A con Aspose.Slides para .NET
 linktitle: Lograr la compatibilidad con PDF convertir a formato PDF/A
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo lograr la compatibilidad con PDF convirtiendo presentaciones de PowerPoint a formato PDF/A con Aspose.Slides para .NET. Garantizar la longevidad y accesibilidad de los documentos.
+type: docs
 weight: 25
 url: /es/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Cómo lograr el cumplimiento de PDF con Aspose.Slides para .NET
 
@@ -103,9 +99,3 @@ Sí, Aspose.Slides admite conversiones por lotes, lo que le permite procesar mú
 
 ### ¿Dónde puedo encontrar soporte para Aspose.Slides para .NET si encuentro algún problema?
  Si tiene preguntas o tiene problemas, puede buscar ayuda y asistencia en el[Foro Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

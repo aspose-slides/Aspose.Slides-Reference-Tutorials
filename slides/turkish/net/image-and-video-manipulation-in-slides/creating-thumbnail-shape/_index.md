@@ -3,14 +3,10 @@ title: PowerPoint Şekil Küçük Resimleri Oluşturma - Aspose.Slides .NET
 linktitle: Aspose.Slides'ta Shape için Küçük Resim Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki şekiller için küçük resimler oluşturmayı öğrenin. Geliştiriciler için kapsamlı, adım adım kılavuz.
+type: docs
 weight: 14
 url: /tr/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Dikkate değer özelliklerinden biri, bir sunumdaki şekiller için küçük resimler oluşturma yeteneğidir. Bu eğitim, Aspose.Slides for .NET kullanarak şekiller için küçük resimler oluşturma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -61,9 +57,3 @@ C: İstisnaları yönetmek için try-catch bloklarını kullanarak hata işleme 
 C: Aspose.Slides, metin kutuları, resimler ve daha fazlası dahil olmak üzere çeşitli şekiller için küçük resimler oluşturma konusunda esneklik sağlar.
 ### S: Oluşturulan küçük resimlerin boyutunu ve çözünürlüğünü özelleştirebilir miyim?
  C: Evet, çağrı yaparken parametreleri ayarlayabilirsiniz.`GetThumbnail` boyutu ve çözünürlüğü kontrol etme yöntemi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

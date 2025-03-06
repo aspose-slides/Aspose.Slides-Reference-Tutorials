@@ -3,14 +3,10 @@ title: Nastavte vlastnosti písma textu v PowerPointu pomocí Java
 linktitle: Nastavte vlastnosti písma textu v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit vlastnosti písma textu v PowerPointu pomocí Aspose.Slides for Java. Snadný, podrobný průvodce pro vývojáře v jazyce Java.#V tomto podrobném návodu pro vývojáře v jazyce Java se dozvíte, jak manipulovat s vlastnostmi textových písem PowerPoint pomocí Aspose.Slides for Java.
+type: docs
 weight: 18
 url: /cs/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu se naučíte, jak používat Aspose.Slides pro Java k programovému nastavení různých vlastností textových písem v prezentaci PowerPoint. Probereme nastavení typu písma, stylu (tučné, kurzíva), podtržení, velikosti a barvy textu na snímcích.
 ## Předpoklady
@@ -89,9 +85,3 @@ Ano, můžete použít Aspose.Slides pro práci s PowerPoint šablonami.
 Ano, Aspose.Slides umožňuje export prezentací do různých formátů včetně PDF.
 ### Kde najdu další pomoc a podporu pro Aspose.Slides?
  Návštěva[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a vedení komunity.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

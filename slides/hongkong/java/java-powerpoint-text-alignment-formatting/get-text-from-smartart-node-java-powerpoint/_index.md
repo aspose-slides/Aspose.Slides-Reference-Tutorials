@@ -3,14 +3,10 @@ title: 從 Java PowerPoint 中的 SmartArt 節點取得文本
 linktitle: 從 Java PowerPoint 中的 SmartArt 節點取得文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 從 Java PowerPoint 簡報中的 SmartArt 節點擷取文字。為開發人員提供簡單的逐步指南。
+type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Slides 從 Java PowerPoint 簡報中的 SmartArt 節點中擷取文字。 Aspose.Slides 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式建立、操作和轉換 PowerPoint 簡報。從 SmartArt 節點提取文字可用於各種應用程序，例如資料提取、內容分析等。在本指南結束時，您將清楚地了解如何使用 Java 中的 Aspose.Slides 有效地從 SmartArt 節點檢索文字。
 ## 先決條件
@@ -70,9 +66,3 @@ Aspose.Slides for Java 是一個強大的 API，使開發人員能夠使用 Java
 是的，您可以免費試用 Aspose.Slides for Java[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到 Aspose.Slides for Java 的支援？
 如需技術援助和社區支持，請訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

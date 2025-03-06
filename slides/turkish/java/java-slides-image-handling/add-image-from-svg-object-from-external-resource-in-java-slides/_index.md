@@ -3,14 +3,10 @@ title: Java Slaytlarında Harici Kaynaktan SVG Nesnesinden Resim Ekleme
 linktitle: Java Slaytlarında Harici Kaynaktan SVG Nesnesinden Resim Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak harici kaynaklardan Java slaytlarına vektör tabanlı SVG görsellerini nasıl ekleyeceğinizi öğrenin. Yüksek kaliteli görsellerle etkileyici sunumlar oluşturun.
+type: docs
 weight: 12
 url: /tr/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Harici Kaynaktan SVG Nesnesinden Resim Eklemeye Giriş
 
@@ -122,9 +118,3 @@ Evet, Aspose.Slides for Java, en son Java sürümleriyle uyumludur. Java ortamı
 ### Slaytlara eklenen SVG görsellerine animasyon uygulayabilir miyim?
 
 Evet, dinamik sunumlar oluşturmak için Aspose.Slides'ı kullanarak slaytlarınızdaki SVG görsellerine animasyonlar uygulayabilirsiniz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

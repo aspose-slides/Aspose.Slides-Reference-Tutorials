@@ -3,14 +3,10 @@ title: Konversikan Slide ke PDF dengan Catatan di Java Slides
 linktitle: Konversikan Slide ke PDF dengan Catatan di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi slide PowerPoint ke PDF dengan catatan di Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah untuk pengembang Java. Tingkatkan berbagi presentasi Anda.
+type: docs
 weight: 19
 url: /id/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengonversi Slide ke PDF dengan Catatan di Java
 
@@ -128,9 +124,3 @@ Tentu! Anda dapat mengulang slide dalam presentasi Anda dan mengkloningnya ke da
 ### Di mana saya dapat menemukan lebih banyak dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk Java di situs:[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Добавьте узлы в SmartArt в Java PowerPoint
 linktitle: Добавьте узлы в SmartArt в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять узлы SmartArt в презентации Java PowerPoint с помощью Aspose.Slides для Java. Повысьте визуальную привлекательность без особых усилий.
+type: docs
 weight: 15
 url: /ru/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В сфере презентаций Java PowerPoint управление узлами SmartArt может значительно повысить визуальную привлекательность и эффективность ваших слайдов. Aspose.Slides for Java предлагает надежное решение для разработчиков Java, позволяющее легко интегрировать функции SmartArt в свои презентации. В этом уроке мы углубимся в процесс добавления узлов в SmartArt в презентациях Java PowerPoint с использованием Aspose.Slides.
 ## Предварительные условия
@@ -75,9 +71,3 @@ pres.save(dataDir + "AddSmartArtNode_out.pptx", SaveFormat.Pptx);
 Да, Aspose.Slides for Java предлагает полный набор функций для манипуляций с PowerPoint, включая создание слайдов, анимацию и управление фигурами.
 ### Где я могу получить помощь или поддержку по Aspose.Slides для Java?
  Вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки сообщества или изучите документацию для получения подробных инструкций.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

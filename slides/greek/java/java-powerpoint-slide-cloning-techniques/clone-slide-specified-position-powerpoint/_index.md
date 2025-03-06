@@ -3,14 +3,10 @@ title: Κλωνοποίηση διαφάνειας σε καθορισμένη �
 linktitle: Κλωνοποίηση διαφάνειας σε καθορισμένη θέση στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κλωνοποιήστε το PowerPoint διαφάνειες σε καθορισμένες θέσεις χωρίς κόπο με το Aspose.Slides για Java. Λεπτομερής οδηγός βήμα προς βήμα για αρχάριους και ειδικούς.
+type: docs
 weight: 10
 url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Είστε έτοιμοι να ενισχύσετε το παιχνίδι σας στο PowerPoint; Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος που προσπαθεί να αυτοματοποιήσει τους χειρισμούς διαφανειών, έχετε έρθει στο σωστό μέρος. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία κλωνοποίησης διαφανειών σε μια καθορισμένη θέση σε μια παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Κουμπώστε και ελάτε να βουτήξουμε μαζί σε αυτό το ταξίδι!
 ## Προαπαιτούμενα
@@ -84,9 +80,3 @@ destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", 
 Το Aspose.Slides προσφέρει ισχυρές δυνατότητες, εκτενή τεκμηρίωση και εξαιρετική υποστήριξη, καθιστώντας το μια προτιμώμενη επιλογή για χειρισμούς PowerPoint.
 ### Πού μπορώ να βρω περισσότερα μαθήματα για το Aspose.Slides;
  Ελέγξτε το[τεκμηρίωση](https://reference.aspose.com/slides/java/) για ολοκληρωμένα σεμινάρια και παραδείγματα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

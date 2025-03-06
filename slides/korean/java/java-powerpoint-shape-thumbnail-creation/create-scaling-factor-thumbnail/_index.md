@@ -3,14 +3,10 @@ title: 배율 축소판 만들기
 linktitle: 배율 축소판 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java에서 배율 축소판을 만드는 방법을 알아보세요. 단계별 지침이 포함된 따라하기 쉬운 가이드입니다.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 스케일링 팩터 썸네일을 생성하는 과정을 안내합니다. 원하는 결과를 얻으려면 다음 단계별 지침을 따르십시오.
 ## 전제 조건
@@ -70,9 +66,3 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  Java용 Aspose.Slides를 다음에서 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java를 사용하려면 임시 라이선스가 필요합니까?
  네, 임시 면허는 다음 기관에서 받으실 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

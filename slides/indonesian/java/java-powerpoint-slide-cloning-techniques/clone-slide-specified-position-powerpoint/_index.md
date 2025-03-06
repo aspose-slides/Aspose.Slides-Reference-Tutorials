@@ -3,14 +3,10 @@ title: Kloning Slide pada Posisi Tertentu di PowerPoint
 linktitle: Kloning Slide pada Posisi Tertentu di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kloning slide PowerPoint pada posisi tertentu dengan mudah menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah terperinci untuk pemula dan ahli.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Apakah Anda siap untuk meningkatkan permainan PowerPoint Anda? Baik Anda seorang pengembang berpengalaman atau pemula yang mencoba mengotomatiskan manipulasi slide, Anda datang ke tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses mengkloning slide pada posisi tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Bersiaplah, dan mari selami perjalanan ini bersama-sama!
 ## Prasyarat
@@ -84,9 +80,3 @@ Sangat! Aspose.Slides mendukung berbagai format termasuk PPTX, PPT, dan banyak l
 Aspose.Slides menawarkan fitur canggih, dokumentasi ekstensif, dan dukungan luar biasa, menjadikannya pilihan utama untuk manipulasi PowerPoint.
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Slides?
  Lihat[dokumentasi](https://reference.aspose.com/slides/java/) untuk tutorial dan contoh yang komprehensif.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

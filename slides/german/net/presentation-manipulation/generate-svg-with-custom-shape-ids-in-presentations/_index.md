@@ -3,14 +3,10 @@ title: Generieren Sie SVG mit benutzerdefinierten Shape-IDs in Präsentationen
 linktitle: Generieren Sie SVG mit benutzerdefinierten Shape-IDs in Präsentationen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erstellen Sie ansprechende Präsentationen mit benutzerdefinierten SVG-Formen und IDs mit Aspose.Slides für .NET. Erfahren Sie anhand von Quellcodebeispielen Schritt für Schritt, wie Sie interaktive Folien erstellen. Verbessern Sie die visuelle Attraktivität und Benutzerinteraktion in Ihren Präsentationen.
+type: docs
 weight: 19
 url: /de/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Möchten Sie die Leistungsfähigkeit von Aspose.Slides für .NET nutzen, um SVG-Dateien mit benutzerdefinierten Shape-IDs zu generieren? Dann sind Sie hier richtig! In diesem Schritt-für-Schritt-Tutorial führen wir Sie mithilfe des folgenden Quellcodeausschnitts durch den Prozess. Am Ende sind Sie gut gerüstet, um SVG-Dateien mit benutzerdefinierten Shape-IDs in Ihren Präsentationen zu erstellen.
 
@@ -82,10 +78,3 @@ Und da haben Sie es! Sie haben erfolgreich SVG-Dateien mit benutzerdefinierten S
     Weitere Dokumentation finden Sie unter[Aspose.Slides für .NET API-Referenz](https://reference.aspose.com/slides/net/).
 
 Entdecken Sie jetzt die endlosen Möglichkeiten der SVG-Generierung mit Aspose.Slides für .NET. Viel Spaß beim Programmieren!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

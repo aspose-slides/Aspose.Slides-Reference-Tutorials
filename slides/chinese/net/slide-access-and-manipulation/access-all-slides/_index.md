@@ -3,14 +3,10 @@ title: 检索演示文稿中的所有幻灯片
 linktitle: 检索演示文稿中的所有幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 检索 PowerPoint 演示文稿中的所有幻灯片。按照此分步指南和完整源代码以编程方式高效处理演示文稿。探索幻灯片属性、安装、自定义等。
+type: docs
 weight: 13
 url: /zh/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET 简介
 
@@ -143,9 +139,3 @@ Install-Package Aspose.Slides
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
 有关更多详细信息、API 参考和代码示例，您可以访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

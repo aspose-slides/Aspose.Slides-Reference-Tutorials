@@ -3,14 +3,10 @@ title: Manipulacja danymi wykresów slajdów Java
 linktitle: Manipulacja danymi wykresów slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odblokuj moc manipulacji danymi wykresów slajdów Java za pomocą Aspose.Slides dla Java. Bez wysiłku twórz oszałamiające wizualizacje i spostrzeżenia.
+type: docs
 weight: 11
 url: /pl/java/chart-data-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Czy jesteś gotowy, aby przenieść prezentacje slajdów w języku Java na wyższy poziom? Dzięki Aspose.Slides dla Java możesz bez wysiłku manipulować danymi wykresów, tworząc oszałamiające wizualnie i wnikliwe prezentacje, które urzekają odbiorców. W tym artykule zbadamy, w jaki sposób Aspose.Slides umożliwia programistom Java ożywianie wykresów opartych na danych.
 
 ## Zrozumienie Aspose.Slides dla Java
@@ -58,9 +54,3 @@ Twórz normalne wykresy w slajdach Java za pomocą Aspose.Slides dla Java. Przew
 Dowiedz się, jak tworzyć wspaniałe schematy organizacyjne w Java Slides, korzystając ze szczegółowych samouczków Aspose.Slides. Dostosuj i wizualizuj swoją strukturę organizacyjną bez wysiłku.
 ### [Wykres kołowy w slajdach Java](./pie-chart-java-slides/)
 Dowiedz się, jak tworzyć wspaniałe wykresy kołowe w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla programistów Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

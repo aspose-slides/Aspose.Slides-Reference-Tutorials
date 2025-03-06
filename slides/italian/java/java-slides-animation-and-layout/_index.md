@@ -3,14 +3,10 @@ title: Animazione e layout di diapositive Java
 linktitle: Animazione e layout di diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara l'animazione e il layout delle diapositive Java con Aspose.Slides per Java. Padroneggia presentazioni interattive. Immergiti nella creazione di contenuti dinamici.
+type: docs
 weight: 14
 url: /it/java/animation-and-layout/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Stai cercando di dare vita alle tue presentazioni e creare diapositive accattivanti con Java? Aspose.Slides per Java è la soluzione ideale. In questa guida completa, esploreremo come padroneggiare l'animazione e il layout delle diapositive Java, assicurandoci che le tue presentazioni si distinguano dal resto.
 
@@ -46,9 +42,3 @@ Ottimizza le tue presentazioni Java con Aspose.Slides per Java. Scopri passo dop
 Ottimizza le tue presentazioni con animazioni di serie in Aspose.Slides per Java. Segui la nostra guida passo passo con esempi di codice sorgente per creare coinvolgenti animazioni PowerPoint.
 ### [Animazione di elementi della serie in diapositive Java](./animating-series-elements-java-slides/)
 Scopri come animare gli elementi della serie nelle diapositive di PowerPoint utilizzando Aspose.Slides per Java. Segui questa guida passo passo completa con il codice sorgente per migliorare le tue presentazioni.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

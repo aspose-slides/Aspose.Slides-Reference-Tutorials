@@ -3,14 +3,10 @@ title: Leader Line Color in Java Slides
 linktitle: Leader Line Color in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to change leader line colors in PowerPoint charts using Aspose.Slides for Java. Step-by-step guide with source code examples.
+type: docs
 weight: 12
 url: /java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Leader Line Color in Aspose.Slides for Java
 
@@ -120,10 +116,3 @@ You can get technical support for Aspose.Slides for Java by visiting the Aspose 
 ### Can I use Aspose.Slides for Java with other Java libraries and frameworks?
 
 Yes, you can integrate Aspose.Slides for Java with other Java libraries and frameworks as needed for your project. Aspose.Slides provides APIs for working with various PowerPoint features, making it possible to combine it with other tools and technologies to create powerful applications.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

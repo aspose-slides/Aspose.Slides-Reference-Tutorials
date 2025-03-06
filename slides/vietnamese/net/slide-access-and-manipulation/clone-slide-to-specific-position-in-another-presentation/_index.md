@@ -3,14 +3,10 @@ title: Sao chép slide đến vị trí chính xác trong bản trình bày khá
 linktitle: Sao chép slide đến vị trí chính xác trong bản trình bày khác
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sao chép các trang trình bày đến các vị trí chính xác trong các bản trình bày khác nhau bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn thao tác PowerPoint liền mạch.
+type: docs
 weight: 18
 url: /vi/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -98,9 +94,3 @@ Có, Aspose.Slides cho phép bạn thao tác theo chương trình với nội du
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Slides ở đâu?
 
  Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Slides cho .NET trong tài liệu:[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

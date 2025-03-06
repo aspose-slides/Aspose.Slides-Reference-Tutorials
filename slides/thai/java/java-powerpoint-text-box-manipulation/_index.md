@@ -3,14 +3,10 @@ title: การจัดการกล่องข้อความ Java Powe
 linktitle: การจัดการกล่องข้อความ Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สำรวจบทช่วยสอนที่ครอบคลุมเกี่ยวกับการจัดการกล่องข้อความ Java PowerPoint ด้วย Aspose.Slides ปรับปรุงการนำเสนอของคุณทีละขั้นตอนด้วยคำแนะนำของเรา
+type: docs
 weight: 20
 url: /th/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 
 ปลดล็อกศักยภาพสูงสุดของงานนำเสนอ PowerPoint ของคุณด้วยบทช่วยสอนการจัดการกล่องข้อความ Java PowerPoint โดยใช้ Aspose.Slides ไม่ว่าคุณจะเป็นมือใหม่หรือผู้ใช้ขั้นสูง คำแนะนำโดยละเอียดของเราจะช่วยให้คุณปรับปรุงการนำเสนอของคุณได้อย่างง่ายดาย
@@ -56,9 +52,3 @@ url: /th/java/java-powerpoint-text-box-manipulation/
 เรียนรู้วิธีใช้รูปแบบการเติมสัญลักษณ์แสดงหัวข้อย่อยใน Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ฝึกฝนสไตล์สัญลักษณ์แสดงหัวข้อย่อยและปรับปรุงการนำเสนอของคุณ
 ### [ผลย่อหน้ากล่องข้อความใน Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ใน Java ด้วยเอฟเฟกต์ข้อความแบบไดนามิกโดยใช้ Aspose.Slides เพื่อการผสานรวมและการปรับแต่งที่ราบรื่น
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

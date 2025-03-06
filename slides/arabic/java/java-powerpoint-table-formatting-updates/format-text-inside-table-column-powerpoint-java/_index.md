@@ -3,14 +3,10 @@ title: تنسيق النص داخل عمود الجدول في PowerPoint باس
 linktitle: تنسيق النص داخل عمود الجدول في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تنسيق النص داخل أعمدة الجدول في PowerPoint باستخدام Aspose.Slides لـ Java باستخدام هذا البرنامج التعليمي. تعزيز العروض التقديمية الخاصة بك برمجيا.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 هل أنت مستعد للغوص في عالم عروض PowerPoint التقديمية ولكن مع لمسة جديدة؟ بدلاً من تنسيق الشرائح يدويًا، دعنا نتبع طريقًا أكثر كفاءة باستخدام Aspose.Slides for Java. سيرشدك هذا البرنامج التعليمي خلال عملية تنسيق النص داخل أعمدة الجدول في عروض PowerPoint التقديمية برمجياً. اربطوا حزام الأمان، لأن هذه ستكون رحلة ممتعة!
 ## المتطلبات الأساسية
@@ -92,9 +88,3 @@ pres.save(dataDir + "result.pptx", SaveFormat.Pptx);
  يمكنك تنزيل نسخة تجريبية مجانية من[Aspose صفحة تجريبية مجانية](https://releases.aspose.com/).
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  تفحص ال[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) للحصول على أمثلة وأدلة مفصلة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

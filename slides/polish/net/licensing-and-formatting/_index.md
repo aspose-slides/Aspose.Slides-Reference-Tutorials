@@ -3,14 +3,10 @@ title: Licencjonowanie i formatowanie
 linktitle: Licencjonowanie i formatowanie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zwiększ swoją wiedzę na temat licencjonowania i formatowania Aspose.Slides dzięki kompleksowym samouczkom. Dowiedz się, jak efektywnie zarządzać licencjami i uzyskać nienaganne formatowanie swoich prezentacji.
+type: docs
 weight: 21
 url: /pl/net/licensing-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp
 
@@ -35,9 +31,3 @@ Dowiedz się, jak efektywnie korzystać z licencjonowania licznikowego z Aspose.
 Dowiedz się, jak ulepszyć wizualizację wykresów za pomocą Aspose.Slides dla .NET. Dodaj dynamiczne kolory do punktów danych, aby uzyskać bardziej efektowne prezentacje.
 ### [Dodaj niestandardowe słupki błędów do wykresu](./add-custom-error/)
 Dowiedz się, jak dodawać niestandardowe słupki błędów do wykresów za pomocą Aspose.Slides dla .NET. Twórz, stylizuj i dostosowuj słupki błędów w celu dokładnej wizualizacji danych.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

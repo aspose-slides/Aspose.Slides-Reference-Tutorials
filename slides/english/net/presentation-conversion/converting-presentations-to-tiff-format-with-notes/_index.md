@@ -3,14 +3,10 @@ title: Converting Presentations to TIFF Format with Notes
 linktitle: Converting Presentations to TIFF Format with Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert PowerPoint presentations to TIFF format with speaker's notes using Aspose.Slides for .NET. High-quality, efficient conversion.
+type: docs
 weight: 10
 url: /net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In the world of digital presentations, the ability to convert them into different formats can be incredibly useful. One such format is TIFF, which stands for Tagged Image File Format. TIFF files are renowned for their high-quality images and compatibility with various applications. In this step-by-step tutorial, we'll show you how to convert presentations to TIFF format, complete with notes, using the Aspose.Slides for .NET API.
 
@@ -82,9 +78,3 @@ For support and community discussions, visit the Aspose.Slides forum [here](http
  Yes, Aspose.Slides for .NET supports various output formats, including PDF, images, and more. Check the documentation for details.
 
 Now that you have the knowledge to convert presentations to TIFF format with notes using Aspose.Slides for .NET, go ahead and explore the possibilities of this powerful API in your projects.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

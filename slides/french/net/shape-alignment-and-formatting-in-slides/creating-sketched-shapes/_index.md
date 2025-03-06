@@ -3,14 +3,10 @@ title: Créez de superbes formes esquissées avec Aspose.Slides
 linktitle: Création de formes esquissées dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment ajouter des formes esquissées créatives à vos diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Améliorez l’attrait visuel sans effort !
+type: docs
 weight: 13
 url: /fr/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Bienvenue dans notre guide étape par étape sur la création de formes esquissées dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Si vous souhaitez ajouter une touche de créativité à vos présentations, les formes esquissées offrent une esthétique unique et dessinée à la main. Dans ce didacticiel, nous vous guiderons tout au long du processus, en le décomposant en étapes simples pour garantir une expérience fluide.
 ## Conditions préalables
@@ -78,9 +74,3 @@ L'ajout de formes esquissées à vos diapositives de présentation peut amélior
  Pour acheter Aspose.Slides pour .NET, visitez le[page d'achat](https://purchase.aspose.com/buy).
 ### 5. Proposez-vous des licences temporaires ?
  Oui, des licences temporaires sont disponibles[ici](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Editar datos de gráficos en un libro de trabajo externo en diapositivas 
 linktitle: Editar datos de gráficos en un libro de trabajo externo en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a editar datos de gráficos en un libro de trabajo externo usando Aspose.Slides para Java. Guía paso a paso con código fuente.
+type: docs
 weight: 17
 url: /es/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la edición de datos de gráficos en un libro de trabajo externo en diapositivas de Java
 
@@ -107,9 +103,3 @@ Puede adaptar el código para manejar diferentes formatos de libros de trabajo e
 ### ¿Cómo puedo automatizar este proceso para múltiples presentaciones?
 
 Puede crear un bucle para procesar varias presentaciones, cargar cada una, realizar los cambios deseados y guardar las presentaciones modificadas una por una.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

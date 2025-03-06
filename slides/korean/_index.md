@@ -3,14 +3,11 @@ title: PowerPoint 처리를 위한 Aspose.Slides 자습서
 linktitle: Aspose.Slides 튜토리얼
 additionalTitle: Aspose API 참조
 description: Aspose.Slides 튜토리얼로 프레젠테이션 처리를 마스터하세요. PowerPoint 프레젠테이션을 효율적으로 만들고, 수정하고, 향상하세요. 동적 콘텐츠 조작에 탁월한 성능을 발휘합니다.
+type: docs
 weight: 10
 url: /ko/
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Aspose.Slides에 대한 광범위한 튜토리얼을 살펴보세요. Aspose.Slides를 최대한 활용하는 기술을 탐구하면서 프레젠테이션 처리 영역을 알아보세요. 이 튜토리얼은 단계별 지침을 제공하여 PowerPoint 프레젠테이션의 슬라이드 생성, 수정, 서식 지정 및 멀티미디어 통합과 같은 작업을 마스터하는 데 도움이 됩니다. 노련한 개발자이든 초보자이든 이 리소스는 Aspose.Slides를 사용하여 역동적이고 설득력 있는 프레젠테이션을 만드는 데 필요한 기술을 제공합니다.
 
 ## .NET용 Aspose.Slides: PowerPoint 처리 API
@@ -65,9 +62,3 @@ Aspose.Slides for Java는 Java 애플리케이션에서 역동적이고 매력�
 - [Java 슬라이드 이미지 처리](./java/image-handling/)
 - [Java 슬라이드 문서 보호](./java/document-protection/)
 - [Java 슬라이드 저장 옵션](./java/saving-options/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

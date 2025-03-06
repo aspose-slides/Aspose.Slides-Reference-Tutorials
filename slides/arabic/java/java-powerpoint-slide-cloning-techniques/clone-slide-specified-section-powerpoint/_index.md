@@ -3,14 +3,10 @@ title: استنساخ الشريحة في القسم المحدد في PowerPoin
 linktitle: استنساخ الشريحة في القسم المحدد في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: يمكنك استنساخ الشرائح بسهولة في أقسام محددة في PowerPoint باستخدام Aspose.Slides لـ Java. قم بتحسين عروضك التقديمية باستخدام هذا الدليل المفصّل خطوة بخطوة.
+type: docs
 weight: 13
 url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 هل تتطلع إلى تبسيط عملية إنشاء عرض PowerPoint التقديمي؟ تخيل أنك قادر على استنساخ الشرائح بسهولة في أقسام محددة من العرض التقديمي الخاص بك. مع Aspose.Slides لـ Java، يصبح هذا أمرًا سهلاً. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك تحسين عروضك التقديمية بسهولة ودقة.
 ## المتطلبات الأساسية
@@ -80,9 +76,3 @@ if (presentation != null) presentation.dispose();
  النسخة التجريبية لديها بعض القيود. للحصول على الميزات الكاملة، فكر في الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على وثائق أكثر تفصيلا؟
  الوثائق التفصيلية متاحة على[صفحة وثائق Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

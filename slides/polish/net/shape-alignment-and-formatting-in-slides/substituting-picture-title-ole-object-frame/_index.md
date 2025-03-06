@@ -3,14 +3,10 @@ title: Przewodnik po osadzaniu obiektów OLE w Aspose.Slides dla .NET
 linktitle: Zastępowanie tytułu obrazu ramki obiektu OLE na slajdach prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ulepszyć slajdy prezentacji za pomocą dynamicznych obiektów OLE przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+type: docs
 weight: 15
 url: /pl/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie dynamicznych i angażujących slajdów prezentacyjnych często wiąże się z włączeniem różnych elementów multimedialnych. W tym samouczku dowiemy się, jak zastąpić tytuł obrazu ramki obiektu OLE (łączenie i osadzanie obiektów) na slajdach prezentacji przy użyciu potężnej biblioteki Aspose.Slides dla .NET. Aspose.Slides upraszcza proces obsługi obiektów OLE, zapewniając programistom narzędzia umożliwiające łatwe ulepszanie ich prezentacji.
 ## Warunki wstępne
@@ -87,9 +83,3 @@ Od najnowszej wersji Aspose.Slides koncentruje się na osadzaniu i wyświetlaniu
 Z pewnością. Masz pełną programową kontrolę nad obiektami OLE, co pozwala na modyfikowanie ich właściwości i wyglądu według potrzeb.
 ### Czy istnieją jakieś ograniczenia dotyczące rozmiaru osadzonych obiektów OLE?
 Chociaż istnieją ograniczenia dotyczące rozmiaru, są one na ogół hojne. Zaleca się przetestowanie w konkretnym przypadku użycia, aby zapewnić optymalną wydajność.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

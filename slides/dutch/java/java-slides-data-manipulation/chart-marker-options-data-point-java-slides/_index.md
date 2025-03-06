@@ -3,14 +3,10 @@ title: Grafiekmarkeringsopties op gegevenspunt in Java-dia's
 linktitle: Grafiekmarkeringsopties op gegevenspunt in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw Java-dia's met aangepaste diagrammarkeringsopties. Leer hoe u datapunten visueel kunt verbeteren met Aspose.Slides voor Java. Ontdek stapsgewijze begeleiding en veelgestelde vragen.
+type: docs
 weight: 14
 url: /nl/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot opties voor diagrammarkeringen op gegevenspunten in Java-dia's
 
@@ -158,9 +154,3 @@ Ja, u kunt verschillende aspecten van het diagram aanpassen, waaronder titels, a
 ### Waar kan ik toegang krijgen tot de Aspose.Slides voor Java-documentatie en -downloads?
 
  U kunt de documentatie vinden op[hier](https://reference.aspose.com/slides/java/) en download de bibliotheek op[hier](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

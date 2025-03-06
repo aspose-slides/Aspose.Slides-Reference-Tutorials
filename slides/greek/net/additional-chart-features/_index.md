@@ -3,14 +3,10 @@ title: Πρόσθετα χαρακτηριστικά γραφήματος
 linktitle: Πρόσθετα χαρακτηριστικά γραφήματος
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε προηγμένες δυνατότητες γραφήματος στο Aspose.Slides για .NET! Μάθετε να δημιουργείτε δυναμικά, διαδραστικά γραφήματα με προσαρμοσμένα στυλ, γραμμές τάσης και πολλά άλλα. Αναβαθμίστε τις παρουσιάσεις σας με ισχυρή οπτικοποίηση δεδομένων.
+type: docs
 weight: 24
 url: /el/net/additional-chart-features/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -36,9 +32,3 @@ url: /el/net/additional-chart-features/
 Μάθετε πώς μπορείτε να ανακτήσετε ένα βιβλίο εργασίας από ένα γράφημα χρησιμοποιώντας το Aspose.Slides για .NET. Εξαγωγή δεδομένων γραφήματος και δημιουργία βιβλίων εργασίας του Excel μέσω προγραμματισμού.
 ### [Εκκαθάριση συγκεκριμένων σημείων δεδομένων σειράς γραφήματος](./clear-specific-chart-series-data-points-data/)
 Μάθετε πώς μπορείτε να διαγράψετε συγκεκριμένα σημεία δεδομένων γραφήματος στο Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα που περιλαμβάνεται.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

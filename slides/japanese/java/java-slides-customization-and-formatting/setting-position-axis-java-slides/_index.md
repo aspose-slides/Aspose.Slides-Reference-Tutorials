@@ -3,14 +3,10 @@ title: Java スライドで位置軸を設定する
 linktitle: Java スライドで位置軸を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java でグラフを強化します。Java スライドで位置軸を設定する方法、魅力的なプレゼンテーションを作成する方法、グラフのレイアウトを簡単にカスタマイズする方法を学びます。
+type: docs
 weight: 16
 url: /ja/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java での位置軸の設定の概要
 
@@ -104,9 +100,3 @@ if (pres != null) pres.dispose();
 ```
 
 このチュートリアルはこれで終わりです。Aspose.Slides for Java を使用してグラフの位置軸を設定する方法を学習しました。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

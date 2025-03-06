@@ -3,14 +3,10 @@ title: Gestión de fuentes de PowerPoint Java y reemplazo de texto
 linktitle: Gestión de fuentes de PowerPoint Java y reemplazo de texto
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine la administración de fuentes de Java PowerPoint y el reemplazo de texto con Aspose.Slides. Aprenda a cargar fuentes personalizadas, administrar fuentes incrustadas y reemplazar texto sin problemas.
+type: docs
 weight: 27
 url: /es/java/java-powerpoint-font-management-text-replacement/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 
 Las fuentes y la gestión de texto son elementos cruciales para crear presentaciones de PowerPoint pulidas y profesionales. Con Aspose.Slides para Java, puede cargar fácilmente fuentes personalizadas, administrar fuentes incrustadas y reemplazar texto de manera eficiente. Nuestros tutoriales lo guiarán a través de estos procesos, asegurando que sus presentaciones sean visualmente atractivas y funcionales. ¡Exploremos estos tutoriales para mejorar tus habilidades en PowerPoint!
@@ -39,9 +35,3 @@ Administre sin esfuerzo fuentes incrustadas en presentaciones de PowerPoint Java
 Reemplace fácilmente fuentes en presentaciones de PowerPoint usando Java con Aspose.Slides. Siga nuestra guía detallada para un proceso de transición de fuentes fluido.
 ### [Reemplazar texto en PowerPoint usando Java](./replace-text-powerpoint-java/)
 Aprenda cómo reemplazar texto en presentaciones de PowerPoint usando Aspose.Slides para Java. Siga esta guía paso a paso para automatizar las actualizaciones de su presentación.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

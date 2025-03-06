@@ -3,14 +3,10 @@ title: Propiedades avanzadas de párrafo y fuente de Java PowerPoint
 linktitle: Propiedades avanzadas de párrafo y fuente de Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine las propiedades avanzadas de párrafos y fuentes en Java PowerPoint usando Aspose.Slides. Aprenda a personalizar fuentes, agregar viñetas de imágenes y utilizar fuentes alternativas.
+type: docs
 weight: 28
 url: /es/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 
 Crear presentaciones de PowerPoint pulidas requiere ajustar varios elementos, desde el formato de los párrafos hasta la gestión de fuentes. Aspose.Slides para Java proporciona herramientas sólidas para administrar estas propiedades avanzadas de manera efectiva. En este artículo, exploraremos tutoriales que lo ayudarán a personalizar las propiedades de las fuentes de los párrafos, agregar viñetas de imágenes y usar fuentes alternativas. ¡Profundicemos en estas técnicas avanzadas para que sus presentaciones se destaquen!
@@ -39,9 +35,3 @@ Aprenda a agregar viñetas de imágenes personalizadas a diapositivas de PowerPo
 Aprenda cómo obtener la porción del rectángulo en PowerPoint usando Aspose.Slides para Java con este tutorial detallado paso a paso. Perfecto para desarrolladores de Java.
 ### [Renderizar con fuente alternativa en Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Aprenda a representar texto con fuentes alternativas en presentaciones de PowerPoint en Java utilizando Aspose.Slides. Siga esta guía paso a paso para una implementación perfecta.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

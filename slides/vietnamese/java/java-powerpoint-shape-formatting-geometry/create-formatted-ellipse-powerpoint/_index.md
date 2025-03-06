@@ -3,14 +3,10 @@ title: Tạo hình elip có định dạng trong PowerPoint
 linktitle: Tạo hình elip có định dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình elip được định dạng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết của chúng tôi.
+type: docs
 weight: 17
 url: /vi/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạo hình elip được định dạng trong PowerPoint bằng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp PowerPoint theo chương trình. Cho dù bạn đang tự động hóa việc tạo trang chiếu hay cải thiện bản trình bày bằng các hình dạng tùy chỉnh, hướng dẫn này sẽ hướng dẫn bạn từng bước, đảm bảo bạn có thể thêm hình elip được định dạng hoàn hảo vào trang chiếu của mình một cách dễ dàng. Hãy cùng tìm hiểu và xem chúng ta có thể đạt được điều này như thế nào!
 ## Điều kiện tiên quyết
@@ -99,9 +95,3 @@ Có, Aspose.Slides là một sản phẩm thương mại và bạn cần có gi�
  Bạn có thể tìm tài liệu chi tiết trên Aspose.Slides for Java[trang tài liệu](https://reference.aspose.com/slides/java/).
 ### Có hỗ trợ nào cho Aspose.Slides không?
  Có, Aspose cung cấp hỗ trợ thông qua[diễn đàn](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

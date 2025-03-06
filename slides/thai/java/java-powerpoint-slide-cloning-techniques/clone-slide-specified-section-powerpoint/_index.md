@@ -3,14 +3,10 @@ title: โคลนสไลด์ในส่วนที่ระบุใน 
 linktitle: โคลนสไลด์ในส่วนที่ระบุใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: โคลนสไลด์เป็นส่วนเฉพาะใน PowerPoint ได้อย่างง่ายดายโดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการนำเสนอของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 คุณกำลังมองหาวิธีปรับปรุงกระบวนการสร้างงานนำเสนอ PowerPoint ของคุณหรือไม่? ลองนึกภาพความสามารถในการลอกสไลด์เป็นส่วนเฉพาะของงานนำเสนอของคุณได้อย่างง่ายดาย ด้วย Aspose.Slides สำหรับ Java สิ่งนี้จะกลายเป็นเรื่องง่าย บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้มั่นใจว่าคุณสามารถปรับปรุงการนำเสนอของคุณได้อย่างง่ายดายและแม่นยำ
 ## ข้อกำหนดเบื้องต้น
@@ -80,9 +76,3 @@ if (presentation != null) presentation.dispose();
  เวอร์ชันทดลองมีข้อจำกัดบางประการ หากต้องการคุณสมบัติครบถ้วน โปรดพิจารณารับ a[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาเอกสารรายละเอียดเพิ่มเติมได้จากที่ไหน?
  เอกสารรายละเอียดมีอยู่ที่[หน้าเอกสารประกอบของ Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

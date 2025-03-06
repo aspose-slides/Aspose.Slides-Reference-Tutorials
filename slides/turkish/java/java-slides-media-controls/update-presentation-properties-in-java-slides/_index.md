@@ -3,14 +3,10 @@ title: Java Slaytlarında Sunum Özelliklerini Güncelleme
 linktitle: Java Slaytlarında Sunum Özelliklerini Güncelleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java slaytlarındaki sunum özelliklerini nasıl güncelleyeceğinizi öğrenin. Etkili sunumlar için yazarı, başlığı ve daha fazlasını özelleştirin.
+type: docs
 weight: 13
 url: /tr/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Sunum Özelliklerini Güncellemeye Giriş
 
@@ -116,9 +112,3 @@ Evet, Aspose.Slides for Java hem kişisel hem de ticari projeler için kullanıl
 ### Aspose.Slides for Java belgelerine nasıl erişebilirim?
 
  Aspose.Slides for Java belgelerine aşağıdaki bağlantıyı ziyaret ederek erişebilirsiniz:[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

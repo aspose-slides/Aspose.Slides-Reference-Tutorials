@@ -3,14 +3,10 @@ title: Kelola Header dan Footer di Slide
 linktitle: Kelola Header dan Footer di Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan header dan footer dinamis dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET.
+type: docs
 weight: 14
 url: /id/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Membuat Header dan Footer Dinamis di Aspose.Slides untuk .NET
 
@@ -135,9 +131,3 @@ A2: Ya, Anda dapat menjelajahi uji coba gratis Aspose.Slides untuk .NET[Di Sini]
 
 ### Q5: Apakah ada komunitas atau forum dukungan untuk Aspose.Slides untuk .NET?
  A5: Ya, Anda dapat mengunjungi forum dukungan Aspose.Slides untuk .NET[Di Sini](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Uzyskaj dostęp do formatów układu w slajdach Java
 linktitle: Uzyskaj dostęp do formatów układu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać dostęp do formatów układu i manipulować nimi w Java Slides za pomocą Aspose.Slides dla Java. Dostosuj style kształtów i linii bez wysiłku w prezentacjach programu PowerPoint.
+type: docs
 weight: 10
 url: /pl/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do formatów układu dostępu w slajdach Java
 
@@ -142,9 +138,3 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Uzyskaj dostęp do pierws
 ```
 
  Następnie możesz użyć`IFillFormat` I`ILineFormat` metody pokazane w poprzednich odpowiedziach, aby zmodyfikować formaty wypełnienia i linii kształtu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Druhé možnosti vykreslování pro grafy v Java Slides
 linktitle: Druhé možnosti vykreslování pro grafy v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přizpůsobit grafy v Java Slides pomocí Aspose.Slides pro Java. Prozkoumejte možnosti druhého grafu a vylepšete své prezentace.
+type: docs
 weight: 12
 url: /cs/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do možností druhého vykreslování pro grafy v Java Slides
 
@@ -97,9 +93,3 @@ Chcete-li změnit velikost druhého výsečového grafu, použijte`setSecondPieS
 ### Jak nastavím polohu rozdělení v koláčovém grafu?
 
  Polohu rozdělení v koláčovém grafu můžete nastavit pomocí`setPieSplitPosition` metoda. Upravte hodnotu pro určení požadované polohy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

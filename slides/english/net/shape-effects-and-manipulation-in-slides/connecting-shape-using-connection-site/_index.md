@@ -3,14 +3,10 @@ title: Shape Connection Mastery with Aspose.Slides for .NET
 linktitle: Connecting Shape using Connection Site in Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Craft captivating presentations with Aspose.Slides for .NET, seamlessly connecting shapes. Follow our guide for a smooth, engaging experience.
+type: docs
 weight: 30
 url: /net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the dynamic world of presentations, creating visually appealing slides with interconnected shapes is crucial for effective communication. Aspose.Slides for .NET provides a powerful solution to achieve this by allowing you to connect shapes using connection sites. This tutorial will guide you through the process of connecting shapes step by step, ensuring that your presentations stand out with seamless visual transitions.
 ## Prerequisites
@@ -82,10 +78,3 @@ You can use try-catch blocks to handle exceptions. Refer to the [documentation](
 Yes, you can download a free trial version [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides?
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support and discussions.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

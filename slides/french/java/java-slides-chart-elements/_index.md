@@ -3,14 +3,10 @@ title: Éléments du graphique de diapositives Java
 linktitle: Éléments du graphique de diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des graphiques dynamiques dans des diapositives Java à l'aide d'Aspose.Slides pour Java grâce à nos didacticiels complets. Élevez vos compétences de présentation dès aujourd’hui !
+type: docs
 weight: 15
 url: /fr/java/chart-elements/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Êtes-vous prêt à faire passer vos compétences de présentation au niveau supérieur ? Plongez dans le monde des graphiques dynamiques dans les diapositives Java à l'aide d'Aspose.Slides for Java. Dans ce guide complet, nous vous expliquerons tout ce que vous devez savoir pour maîtriser les éléments des graphiques et faire en sorte que vos présentations se démarquent vraiment.
 
@@ -62,9 +58,3 @@ Explorez Aspose.Slides pour Java avec des didacticiels étape par étape. Créez
 Créez de superbes graphiques cartographiques dans des présentations PowerPoint avec Aspose.Slides pour Java. Guide étape par étape et code source pour les développeurs Java.
 ### [Graphique Sunburst dans les diapositives Java](./sunburst-chart-java-slides/)
 Créez de superbes graphiques Sunburst dans des diapositives Java avec Aspose.Slides. Apprenez étape par étape la création de graphiques et la manipulation des données.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

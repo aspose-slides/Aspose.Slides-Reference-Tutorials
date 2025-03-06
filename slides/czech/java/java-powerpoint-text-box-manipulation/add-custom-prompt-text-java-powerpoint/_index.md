@@ -3,14 +3,10 @@ title: Přidejte vlastní text výzvy v Java PowerPointu
 linktitle: Přidejte vlastní text výzvy v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat vlastní text výzvy v Java PowerPoint pomocí Aspose.Slides. Vylepšete interakci s uživatelem bez námahy pomocí tohoto výukového programu.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dnešní digitální době je vytváření dynamických a poutavých prezentací zásadní pro efektivní komunikaci. Aspose.Slides for Java umožňuje vývojářům programově manipulovat s prezentacemi PowerPoint a nabízí rozsáhlé funkce pro přizpůsobení snímků, tvarů, textu a dalších. Tento výukový program vás provede procesem přidávání vlastního textu výzvy k zástupným symbolům v prezentacích Java PowerPoint pomocí Aspose.Slides.
 ## Předpoklady
@@ -75,9 +71,3 @@ Aspose.Slides podporuje širokou škálu verzí aplikace PowerPoint, což zajiš
  Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) k vyhodnocení všech funkcí Aspose.Slides.
 ### Podporuje Aspose.Slides for Java přidávání vlastních animací do snímků?
 Ano, Aspose.Slides poskytuje rozhraní API pro programovou správu animací snímků.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

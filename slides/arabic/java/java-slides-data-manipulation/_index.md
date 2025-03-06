@@ -3,14 +3,10 @@ title: معالجة بيانات شرائح جافا
 linktitle: معالجة بيانات شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: عزز مهاراتك في التعامل مع بيانات Java Slides باستخدام Aspose.Slides لبرامج Java التعليمية. تعلم خطوة بخطوة كيفية إنشاء العروض التقديمية وتحريرها وتحويلها بكفاءة.
+type: docs
 weight: 13
 url: /ar/java/data-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 هل أنت مستعد لإتقان فن معالجة بيانات Java Slides؟ لا مزيد من البحث. في هذا الدليل الشامل، سنرشدك عبر تعقيدات استخدام Aspose.Slides لـ Java لإنشاء عروض الشرائح التقديمية وتعديلها وتحسينها. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو في عالم Java Slides، ستزودك برامجنا التعليمية بالمعرفة والمهارات التي تحتاجها.
 
@@ -100,9 +96,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 تعرف على كيفية إعداد وسائل الشرح لتسميات البيانات في Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
 ### [ضبط تنسيق التاريخ لمحور الفئة في شرائح Java](./setting-date-format-category-axis-java-slides/)
 تعرف على كيفية تعيين تنسيق تاريخ لمحور الفئة في مخطط PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

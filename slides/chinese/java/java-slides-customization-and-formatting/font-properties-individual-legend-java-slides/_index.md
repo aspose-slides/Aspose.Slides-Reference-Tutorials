@@ -3,14 +3,10 @@ title: Java 幻灯片中单个图例的字体属性
 linktitle: Java 幻灯片中单个图例的字体属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 为 Java Slides 中的各个图例自定义字体样式、大小和颜色，增强 PowerPoint 演示文稿的效果。
+type: docs
 weight: 12
 url: /zh/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中单个图例的字体属性介绍
 
@@ -117,9 +113,3 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

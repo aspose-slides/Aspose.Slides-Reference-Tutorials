@@ -3,14 +3,10 @@ title: Agregar marco de audio en PowerPoint
 linktitle: Agregar marco de audio en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar marcos de audio a presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con atractivos elementos de audio sin esfuerzo.
+type: docs
 weight: 12
 url: /es/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Mejorar las presentaciones con elementos de audio puede aumentar significativamente su impacto y participación. Con Aspose.Slides para Java, la integración de marcos de audio en presentaciones de PowerPoint se convierte en un proceso perfecto. Este tutorial lo guiará a través del proceso paso a paso para agregar marcos de audio a sus presentaciones usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -79,9 +75,3 @@ Sí, puedes crear presentaciones de PowerPoint con marcos de audio integrados qu
 Aspose.Slides para Java ofrece amplias opciones de personalización, lo que le permite adaptar la apariencia del reproductor de audio a sus preferencias.
 ### ¿Existe una versión de prueba disponible para Aspose.Slides para Java?
  Sí, puedes acceder a una prueba gratuita de Aspose.Slides para Java desde su[sitio web](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

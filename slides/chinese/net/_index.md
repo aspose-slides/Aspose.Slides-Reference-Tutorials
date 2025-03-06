@@ -1,15 +1,12 @@
 ---
 title: 释放演示操控和转换的力量
 linktitle: Aspose.Slides for .NET教程
+type: docs
 weight: 10
 url: /zh/net/
 description: 使用 Aspose.Slides for .NET 教程探索演示文稿操作、转换和 PowerPoint 处理的世界。学习如何创建、转换和增强演示文稿以获得有影响力的结果。
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 欢迎来到 Aspose.Slides for .NET 教程的综合集合，在这里您将发现演示文稿操作、转换和 PowerPoint 处理的艺术。这些教程将指导您掌握 Aspose.Slides 的功能，使您能够无缝浏览演示文稿创建、自定义和转换的各个方面。无论您是想自动执行 PowerPoint 任务、将演示文稿转换为不同的格式，还是使用多媒体增强幻灯片，这些教程都会提供分步说明，以增强您的开发之旅。
 
 ## 演示文稿转换：轻松转换幻灯片
@@ -63,9 +60,3 @@ description: 使用 Aspose.Slides for .NET 教程探索演示文稿操作、转�
 使用 Aspose.Slides 教程中的幻灯片几何形状和定位来增强幻灯片操作技能。学习以编程方式控制形状、其尺寸和对齐方式。
 ### [幻灯片中的形状对齐和格式](./shape-alignment-and-formatting-in-slides/)
 探索有关 .NET 应用程序中形状对齐和格式化的全面 Aspose.Slides 教程。学习如何轻松对齐和格式化形状，精确增强幻灯片演示效果。 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

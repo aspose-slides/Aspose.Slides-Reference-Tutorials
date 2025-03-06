@@ -3,14 +3,10 @@ title: Přidání čar ve tvaru šipky do konkrétních snímků pomocí Aspose.
 linktitle: Přidání čar ve tvaru šipky do konkrétních snímků pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí čar ve tvaru šipek pomocí Aspose.Slides pro .NET. Naučte se dynamicky přidávat vizuální prvky, abyste zaujali své publikum.
+type: docs
 weight: 13
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací často vyžaduje více než jen text a obrázky. Aspose.Slides for .NET poskytuje výkonné řešení pro vývojáře, kteří chtějí dynamicky vylepšit své prezentace. V tomto tutoriálu se ponoříme do procesu přidávání čar ve tvaru šipek na konkrétní snímky pomocí Aspose.Slides, čímž se otevírají nové možnosti pro vytváření poutavých a informativních prezentací.
 ## Předpoklady
@@ -80,9 +76,3 @@ Na závěr, Aspose.Slides for .NET umožňuje vývojářům posunout jejich prez
  Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu zakoupit Aspose.Slides pro .NET?
  A: Můžete si koupit Aspose.Slides[tady](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

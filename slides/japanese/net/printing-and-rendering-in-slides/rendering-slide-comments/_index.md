@@ -3,14 +3,10 @@ title: Aspose.Slides でスライドのコメントをレンダリングする
 linktitle: Aspose.Slides でスライドのコメントをレンダリングする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: ステップバイステップのチュートリアルで、Aspose.Slides for .NET でスライドのコメントをレンダリングする方法を学びます。コメントの外観をカスタマイズし、PowerPoint の自動化を強化します。
+type: docs
 weight: 12
 url: /ja/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for .NET を使用してスライド コメントをレンダリングする包括的なチュートリアルへようこそ。Aspose.Slides は、開発者が .NET アプリケーションで PowerPoint プレゼンテーションをシームレスに操作できるようにする強力なライブラリです。このガイドでは、スライド コメントのレンダリングという特定のタスクに焦点を当て、そのプロセスを段階的に説明します。
 ## 前提条件
@@ -90,9 +86,3 @@ A: もちろんです! チュートリアルには、コメント領域の色、
  A: 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides に関するヘルプやサポートはどこで受けられますか?
  A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティサポートのため。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

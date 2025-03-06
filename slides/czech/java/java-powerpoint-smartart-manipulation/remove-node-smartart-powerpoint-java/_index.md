@@ -3,14 +3,10 @@ title: Odeberte Node z obrázku SmartArt v PowerPointu pomocí Javy
 linktitle: Odeberte Node z obrázku SmartArt v PowerPointu pomocí Javy
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak efektivně a programově odstraňovat uzly z obrázků SmartArt v prezentacích PowerPoint pomocí Aspose.Slides for Java.
+type: docs
 weight: 14
 url: /cs/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dnešní digitální době je vytváření dynamických a vizuálně přitažlivých prezentací zásadní pro podniky, pedagogy i jednotlivce. Prezentace v PowerPointu se svou schopností zprostředkovat informace stručným a poutavým způsobem zůstávají základem komunikace. Někdy však potřebujeme programově manipulovat s obsahem těchto prezentací, abychom splnili specifické požadavky nebo efektivně automatizovali úkoly. Zde vstupuje do hry Aspose.Slides for Java, který poskytuje výkonnou sadu nástrojů pro programovou interakci s prezentacemi PowerPoint.
 ## Předpoklady
@@ -68,9 +64,3 @@ Rozhodně! Aspose.Slides for Java nabízí funkce a robustnost na podnikové úr
  Samozřejmě! Můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides pro Java z[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  V případě jakékoli technické pomoci nebo dotazů můžete navštívit[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

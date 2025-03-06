@@ -3,14 +3,10 @@ title: Προεπισκόπηση της εξόδου εκτύπωσης των 
 linktitle: Προεπισκόπηση της εξόδου εκτύπωσης των παρουσιάσεων στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να κάνετε προεπισκόπηση της εκτύπωσης των παρουσιάσεων του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα με τον πηγαίο κώδικα για να δημιουργήσετε και να προσαρμόσετε προεπισκοπήσεις εκτύπωσης.
+type: docs
 weight: 11
 url: /el/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Καλώς ήρθατε στον κόσμο του Aspose.Slides for .NET, μιας ισχυρής βιβλιοθήκης που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται και να βελτιώνουν απρόσκοπτα τις παρουσιάσεις PowerPoint στις εφαρμογές τους .NET. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στα βασικά βήματα για να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Slides.
 ## Προαπαιτούμενα
@@ -75,9 +71,3 @@ pres.Print(printerSettings);
  Επίσκεψη[Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/) για την απόκτηση προσωρινής άδειας για σκοπούς δοκιμών.
 ### Χρειάζεστε υποστήριξη ή έχετε περισσότερες ερωτήσεις;
  Επισκέψου το[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) για να λάβετε βοήθεια και να συνδεθείτε με την κοινότητα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

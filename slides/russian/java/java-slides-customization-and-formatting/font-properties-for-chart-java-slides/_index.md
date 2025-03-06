@@ -3,14 +3,10 @@ title: Свойства шрифта для диаграммы в слайдах
 linktitle: Свойства шрифта для диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшите свойства шрифта диаграммы в слайдах Java с помощью Aspose.Slides для Java. Настройте размер, стиль и цвет шрифта для создания эффектных презентаций.
+type: docs
 weight: 11
 url: /ru/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в свойства шрифта для диаграммы в слайдах Java
 
@@ -106,9 +102,3 @@ finally
 ### Как настроить свойства шрифта для определенных элементов диаграммы?
 
 Чтобы настроить свойства шрифта для определенных элементов диаграммы, таких как метки осей или текст легенды, вы можете получить доступ к этим элементам и установить их свойства шрифта, используя методы, аналогичные показанным выше.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

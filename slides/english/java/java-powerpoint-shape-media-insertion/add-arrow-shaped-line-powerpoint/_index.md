@@ -3,14 +3,10 @@ title: Add Arrow Shaped Line in PowerPoint
 linktitle: Add Arrow Shaped Line in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add arrow-shaped lines to PowerPoint presentations using Aspose.Slides for Java. Enhance visual appeal effortlessly.
+type: docs
 weight: 10
 url: /java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Adding arrow-shaped lines to PowerPoint presentations can enhance visual appeal and aid in conveying information effectively. Aspose.Slides for Java offers a comprehensive solution for Java developers to manipulate PowerPoint presentations programmatically. In this tutorial, we'll guide you through the process of adding arrow-shaped lines to your PowerPoint slides using Aspose.Slides for Java.
 ## Prerequisites
@@ -80,10 +76,3 @@ You can explore the documentation, download the library, and access support foru
 Documentation: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)
 Download: [Aspose.Slides for Java Download](https://releases.aspose.com/slides/java/)
 Support: [Aspose.Slides for Java Support Forum](https://forum.aspose.com/c/slides/11)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

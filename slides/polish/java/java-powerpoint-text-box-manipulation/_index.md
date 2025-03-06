@@ -3,14 +3,10 @@ title: Manipulacja polami tekstowymi w programie Java PowerPoint
 linktitle: Manipulacja polami tekstowymi w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zapoznaj się z obszernymi samouczkami dotyczącymi manipulacji polami tekstowymi w programie Java PowerPoint za pomocą Aspose.Slides. Ulepsz swoje prezentacje krok po kroku, korzystając z naszych przewodników.
+type: docs
 weight: 20
 url: /pl/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 
 Odblokuj pełny potencjał swoich prezentacji PowerPoint dzięki naszym samouczkom dotyczącym manipulacji polami tekstowymi w programie Java PowerPoint przy użyciu Aspose.Slides. Niezależnie od tego, czy jesteś początkującym, czy zaawansowanym użytkownikiem, nasze szczegółowe przewodniki pomogą Ci bez wysiłku ulepszyć swoje prezentacje.
@@ -56,9 +52,3 @@ Dowiedz się, jak dostosować kąty obrotu ramek tekstowych w programie Java Pow
 Dowiedz się, jak stosować formaty wypełniania punktorami w programie Java PowerPoint przy użyciu Aspose.Slides dla języka Java. Opanuj style pocisków i ulepsz swoje prezentacje.
 ### [Efekt pola tekstowego Akapit w programie Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Dowiedz się, jak ulepszyć prezentacje programu PowerPoint w Javie za pomocą dynamicznych efektów tekstowych przy użyciu Aspose.Slides w celu bezproblemowej integracji i dostosowywania.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

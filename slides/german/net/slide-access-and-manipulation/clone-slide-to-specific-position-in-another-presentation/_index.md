@@ -3,14 +3,10 @@ title: Folie an genaue Position in anderer Präsentation kopieren
 linktitle: Folie an genaue Position in anderer Präsentation kopieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folien an präzise Positionen in verschiedenen Präsentationen kopieren. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Anweisungen zur nahtlosen PowerPoint-Bearbeitung.
+type: docs
 weight: 18
 url: /de/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -98,9 +94,3 @@ Ja, mit Aspose.Slides können Sie Folieninhalte, einschließlich Text, Bilder, F
 ### Wo finde ich weitere Dokumentation und Beispiele für Aspose.Slides?
 
  Ausführliche Dokumentation und Beispiele zu Aspose.Slides für .NET finden Sie in der Dokumentation:[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

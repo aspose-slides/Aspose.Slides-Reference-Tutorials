@@ -3,14 +3,10 @@ title: Alleen-lezen aanbevolen eigenschappen in Java-dia's
 linktitle: Alleen-lezen aanbevolen eigenschappen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u alleen-lezen aanbevolen eigenschappen inschakelt in Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncodevoorbeelden voor verbeterde presentatiebeveiliging.
+type: docs
 weight: 17
 url: /nl/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het inschakelen van alleen-lezen aanbevolen eigenschappen in Java-dia's
 
@@ -92,9 +88,3 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Vergeet niet te vervangen`"YourPassword"` met uw gewenste wachtwoord.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

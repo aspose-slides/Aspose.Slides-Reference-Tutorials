@@ -3,14 +3,10 @@ title: Konfiguracja pokazu slajdów prezentacji w slajdach Java
 linktitle: Konfiguracja pokazu slajdów prezentacji w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zoptymalizuj swój pokaz slajdów Java za pomocą Aspose.Slides. Twórz atrakcyjne prezentacje z niestandardowymi ustawieniami. Zapoznaj się z przewodnikami krok po kroku i często zadawanymi pytaniami.
+type: docs
 weight: 16
 url: /pl/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konfiguracji pokazu slajdów prezentacji w Slides Java
 
@@ -150,9 +146,3 @@ W tym samouczku nauczyliśmy się, jak skonfigurować pokaz slajdów prezentacji
 ### Jak mogę dodatkowo dostosować ustawienia pokazu slajdów?
 
  Możesz zapoznać się z dodatkowymi ustawieniami pokazu slajdów dostarczonymi przez Aspose.Slides dla Java, aby dostosować pokaz slajdów do swoich potrzeb. Zapoznaj się z dokumentacją pod adresem[Tutaj](https://reference.aspose.com/slides/java/) aby uzyskać szczegółowe informacje na temat dostępnych opcji i konfiguracji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

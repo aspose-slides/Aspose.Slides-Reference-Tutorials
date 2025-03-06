@@ -3,14 +3,10 @@ title: 在 PowerPoint 中對影像套用雙色調效果
 linktitle: 在 PowerPoint 中對影像套用雙色調效果
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們的逐步指南，了解如何使用 Aspose.Slides for Java 將雙色調效果應用於 PowerPoint 中的影像。增強您的簡報。
+type: docs
 weight: 20
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-images-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在 PowerPoint 簡報中加入視覺效果可以顯著增強其吸引力和效能。其中一個引人注目的效果是雙色調效果，它將兩種對比色應用於影像，賦予其現代和專業的外觀。在本綜合指南中，我們將引導您完成使用 Aspose.Slides for Java 將雙色調效果套用至 PowerPoint 中的影像的過程。
 ## 先決條件
@@ -90,9 +86,3 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 是的，您可以從以下網站獲得免費試用[Aspose.Slides 免費試用頁面](https://releases.aspose.com/).
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多範例和文件？
 您可以在以下位置找到全面的文件和範例[Aspose.Slides 文件頁面](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Konwertuj całą prezentację na format HTML za pomocą plików multimedi
 linktitle: Konwertuj całą prezentację na format HTML za pomocą plików multimedialnych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje do formatu HTML z plikami multimedialnymi za pomocą Java Slides. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym Aspose.Slides for Java API.
+type: docs
 weight: 30
 url: /pl/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwertowania całej prezentacji do formatu HTML za pomocą plików multimedialnych w slajdach Java
 
@@ -129,9 +125,3 @@ Tak, Aspose.Slides for Java to solidne i opłacalne rozwiązanie do obsługi zad
 ### Jak uzyskać dostęp do przekonwertowanej prezentacji HTML?
 
  Po zakończeniu konwersji możesz uzyskać dostęp do prezentacji HTML, lokalizując plik określony w pliku`htmlDocumentFileName` zmienny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

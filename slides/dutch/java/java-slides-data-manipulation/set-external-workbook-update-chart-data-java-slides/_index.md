@@ -3,14 +3,10 @@ title: Stel een externe werkmap in met het bijwerken van grafiekgegevens in Java
 linktitle: Stel een externe werkmap in met het bijwerken van grafiekgegevens in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u externe werkmappen instelt en diagramgegevens bijwerkt in Java Slides met behulp van Aspose.Slides voor Java. Verbeter uw PowerPoint-automatiseringsvaardigheden.
+type: docs
 weight: 20
 url: /nl/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het instellen van een externe werkmap met het bijwerken van grafiekgegevens in Java-dia's
 
@@ -103,9 +99,3 @@ Ja, u kunt het uiterlijk van het diagram aanpassen, inclusief de titel, labels, 
 ### Waar kan ik meer documentatie en bronnen vinden voor Aspose.Slides voor Java?
 
  Voor gedetailleerde documentatie en aanvullende bronnen gaat u naar de Aspose.Slides voor Java-documentatie op[hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

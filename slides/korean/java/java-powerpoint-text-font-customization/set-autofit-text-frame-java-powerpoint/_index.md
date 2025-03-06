@@ -3,14 +3,10 @@ title: Java PowerPoint에서 텍스트 프레임 자동 맞춤 설정
 linktitle: Java PowerPoint에서 텍스트 프레임 자동 맞춤 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint에서 텍스트 프레임 자동 맞춤을 설정하는 방법을 알아보세요. 손쉽게 동적 프레젠테이션을 만들어 보세요.
+type: docs
 weight: 14
 url: /ko/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java 애플리케이션 개발에서는 프로그래밍 방식으로 동적이고 시각적으로 매력적인 PowerPoint 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. Aspose.Slides for Java는 이를 손쉽게 달성할 수 있는 강력한 API 세트를 제공합니다. 한 가지 필수 기능은 텍스트 프레임의 자동 맞춤을 설정하여 수동으로 조정하지 않고도 텍스트가 모양 내에서 깔끔하게 조정되도록 하는 것입니다. 이 튜토리얼에서는 Java용 Aspose.Slides를 활용하여 PowerPoint 슬라이드의 텍스트 맞춤을 자동화하는 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -90,9 +86,3 @@ Aspose.Slides for Java는 개발자가 PowerPoint 프레젠테이션을 생성, 
  Aspose.Slides for Java에 대한 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  Aspose.Slides for Java에 대한 커뮤니티 및 전문 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

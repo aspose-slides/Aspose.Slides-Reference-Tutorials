@@ -3,14 +3,10 @@ title: Gunakan Font Kustom di PowerPoint dengan Java
 linktitle: Gunakan Font Kustom di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengintegrasikan font khusus ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan daya tarik visual dengan mudah.
+type: docs
 weight: 25
 url: /id/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Slides untuk Java untuk menyempurnakan presentasi PowerPoint dengan mengintegrasikan font khusus. Font khusus dapat secara signifikan memperkaya daya tarik visual slide Anda, memastikannya selaras sempurna dengan kebutuhan merek atau desain Anda. Kami akan membahas semuanya mulai dari mengimpor paket yang diperlukan hingga menjalankan langkah-langkah yang diperlukan untuk mengintegrasikan font khusus dengan mulus ke dalam presentasi Anda.
 ## Prasyarat
@@ -74,9 +70,3 @@ Pastikan Anda memiliki lisensi yang sesuai untuk mendistribusikan font khusus ap
 Aspose.Slides untuk Java mendukung penggunaan berbagai font khusus, dan tidak ada batasan bawaan yang diberlakukan oleh perpustakaan.
 ### Bisakah saya menyematkan font khusus langsung ke file PowerPoint menggunakan Aspose.Slides untuk Java?
 Ya, Aspose.Slides untuk Java memungkinkan Anda menyematkan font khusus ke dalam file presentasi itu sendiri untuk distribusi yang lancar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

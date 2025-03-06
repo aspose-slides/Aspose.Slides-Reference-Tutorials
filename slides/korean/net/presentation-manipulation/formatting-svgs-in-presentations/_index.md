@@ -3,14 +3,10 @@ title: 프레젠테이션에서 SVG 형식 지정
 linktitle: 프레젠테이션에서 SVG 형식 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 멋진 SVG로 프레젠테이션을 최적화하세요. 인상적인 시각적 효과를 위해 SVG 형식을 지정하는 방법을 단계별로 알아보세요. 오늘 프레젠테이션 게임을 한 단계 더 발전시켜 보세요!
+type: docs
 weight: 31
 url: /ko/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 눈길을 끄는 SVG 모양으로 프레젠테이션을 향상시키고 싶으십니까? .NET용 Aspose.Slides는 이를 달성하기 위한 최고의 도구가 될 수 있습니다. 이 포괄적인 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 SVG 모양의 형식을 지정하는 과정을 안내합니다. 제공된 소스 코드를 따라 프레젠테이션을 시각적으로 매력적인 걸작으로 바꿔보세요.
 
@@ -119,10 +115,3 @@ Aspose 커뮤니티 포럼(위에 제공된 링크)을 방문하여 기술 지�
 시각적으로 매력적인 프레젠테이션을 만들려면 디자인 일관성에 집중하고, 고품질 그래픽을 사용하고, 콘텐츠를 간결하고 흥미롭게 유지하세요. 이 튜토리얼에 설명된 대로 다양한 형식 옵션을 실험해 보세요.
 
 이제 이러한 기술을 적용하여 청중을 사로잡을 멋진 프레젠테이션을 만들어 보십시오!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

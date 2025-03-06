@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides .NET 管理 Notes 中的頁首和頁尾
 linktitle: 管理筆記投影片中的頁首和頁腳
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理 PowerPoint 筆記投影片中的頁首和頁尾。毫不費力地增強您的簡報。
+type: docs
 weight: 11
 url: /zh-hant/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今的數位時代，創建引人入勝且資訊豐富的簡報是一項至關重要的技能。作為此過程的一部分，您可能經常需要在筆記投影片中包含頁首和頁尾以提供其他上下文和資訊。 Aspose.Slides for .NET 是一個功能強大的工具，可讓您輕鬆管理筆記投影片中的頁首和頁尾設定。在本逐步指南中，我們將探索如何使用 Aspose.Slides for .NET 來實現這一目標。
 
@@ -124,9 +120,3 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ### .NET 使用者的 Aspose.Slides 是否可以獲得技術支援？
 是的，您可以從 Aspose 社群和專家那裡獲得有關以下方面的支持和幫助：[Aspose 支援論壇](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

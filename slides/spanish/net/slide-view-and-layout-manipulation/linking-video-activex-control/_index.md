@@ -3,14 +3,10 @@ title: Vincular vídeo a través del control ActiveX en PowerPoint
 linktitle: Vinculación de vídeo a través del control ActiveX
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo vincular videos a diapositivas de PowerPoint usando Aspose.Slides para .NET. Esta guía paso a paso incluye código fuente y consejos para crear presentaciones interactivas y atractivas con vídeos vinculados.
+type: docs
 weight: 12
 url: /es/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Vincular un video a través del control ActiveX en una presentación usando Aspose.Slides para .NET
 
 En Aspose.Slides para .NET, puede vincular mediante programación un video a una diapositiva de presentación usando el control ActiveX. Esto le permite crear presentaciones interactivas donde el contenido del video se puede reproducir directamente dentro de la diapositiva. En esta guía paso a paso, lo guiaremos a través del proceso de vincular un video a una diapositiva de presentación usando Aspose.Slides para .NET.
@@ -84,9 +80,3 @@ El tamaño del vídeo vinculado puede afectar el tamaño general y el rendimient
 Si sigue los pasos descritos en esta guía, puede vincular fácilmente un vídeo a través del control ActiveX en una presentación utilizando Aspose.Slides para .NET. Esta función le permite crear presentaciones atractivas e interactivas que incorporan contenido multimedia a la perfección.
 
  Para obtener más detalles y opciones avanzadas, puede consultar el[Aspose.Slides para la documentación de .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

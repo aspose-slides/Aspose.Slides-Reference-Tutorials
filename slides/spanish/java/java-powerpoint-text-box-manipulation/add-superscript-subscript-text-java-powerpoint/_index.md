@@ -3,14 +3,10 @@ title: Agregar texto en superíndice y subíndice en Java PowerPoint
 linktitle: Agregar texto en superíndice y subíndice en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar texto en superíndice y subíndice en presentaciones de PowerPoint en Java utilizando Aspose.Slides para Java. Perfecto para mejorar tus diapositivas.
+type: docs
 weight: 13
 url: /es/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 La creación de presentaciones de PowerPoint atractivas e informativas a menudo requiere el uso de funciones de formato como texto en superíndice y subíndice. Este tutorial lo guiará a través del proceso de incorporación de texto en superíndice y subíndice en sus presentaciones de PowerPoint en Java utilizando Aspose.Slides para Java.
 ## Requisitos previos
@@ -93,9 +89,3 @@ Aspose.Slides para Java es una biblioteca sólida que permite a los desarrollado
  Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Para soporte y debates, visite el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

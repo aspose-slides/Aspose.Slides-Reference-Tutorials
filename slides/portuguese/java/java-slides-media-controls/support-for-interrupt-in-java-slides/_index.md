@@ -3,14 +3,10 @@ title: Suporte para interrupção em slides Java
 linktitle: Suporte para interrupção em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Domine o tratamento de interrupções do Java Slides com Aspose.Slides for Java. Este guia detalhado fornece instruções passo a passo e exemplos de código para gerenciamento contínuo de interrupções.
+type: docs
 weight: 12
 url: /pt/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 # Introdução ao suporte para interrupção em slides Java com Aspose.Slides para Java
 
 Aspose.Slides for Java é uma biblioteca poderosa para criar, manipular e trabalhar com apresentações do PowerPoint em aplicativos Java. Neste guia abrangente, exploraremos como utilizar o suporte para interrupção em Java Slides usando Aspose.Slides for Java. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este tutorial passo a passo o guiará pelo processo com explicações detalhadas e exemplos de código.
@@ -137,9 +133,3 @@ O tratamento de interrupções é especialmente útil em cenários onde você pr
 ### Onde posso acessar mais recursos e documentação do Aspose.Slides for Java?
 
 Você pode encontrar documentação abrangente, tutoriais e exemplos para Aspose.Slides for Java no site.[Aspor site](https://reference.aspose.com/slides/java/). Além disso, você pode entrar em contato com a equipe de suporte do Aspose para obter assistência com seu caso de uso específico.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

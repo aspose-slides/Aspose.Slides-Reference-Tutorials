@@ -3,14 +3,10 @@ title: A képarány zárolása a PowerPointban Java használatával
 linktitle: A képarány zárolása a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan zárolhatja a képarányt a PowerPoint-prezentációkban Java és Aspose.Slides használatával. Tökéletes azoknak a Java-fejlesztőknek, akik pontos vezérlést szeretnének a diatervezés felett.
+type: docs
 weight: 16
 url: /hu/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A Java fejlesztés területén a PowerPoint prezentációk programozott manipulálása egyszerűsítheti a munkafolyamatokat és jelentősen növelheti a termelékenységet. Az Aspose.Slides for Java robusztus eszközkészletet kínál a Java-fejlesztők számára olyan feladatok automatizálására, mint a diák módosítása, tartalom hozzáadása és formázás közvetlenül a Java kódból. Ez az oktatóanyag a PowerPoint prezentációkezelés alapvető aspektusára összpontosít: a képarányok rögzítésére.
 ## Előfeltételek
@@ -65,9 +61,3 @@ Igen, az Aspose.Slides for Java célja a vállalati alkalmazások összetett for
  Kérhet támogatást az Aspose.Slides közösségtől[itt](https://forum.aspose.com/c/slides/11).
 ### Hogyan próbálhatom ki az Aspose.Slides for Java programot vásárlás előtt?
  Ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

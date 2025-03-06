@@ -3,14 +3,10 @@ title: Bir Sunumdaki Tüm Slaytları Alma
 linktitle: Bir Sunumdaki Tüm Slaytları Alma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak bir PowerPoint sunumundaki tüm slaytları nasıl alacağınızı öğrenin. Sunumlarla programlı olarak verimli bir şekilde çalışmak için kaynak kodunun tamamını içeren bu adım adım kılavuzu izleyin. Slayt özelliklerini, kurulumu, özelleştirmeyi ve daha fazlasını keşfedin.
+type: docs
 weight: 13
 url: /tr/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -143,9 +139,3 @@ Kesinlikle. Aspose.Slides'ın kapsamlı API'sini kullanarak slaytlarınıza meti
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Daha detaylı bilgi, API referansları ve kod örnekleri için şu adresi ziyaret edebilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

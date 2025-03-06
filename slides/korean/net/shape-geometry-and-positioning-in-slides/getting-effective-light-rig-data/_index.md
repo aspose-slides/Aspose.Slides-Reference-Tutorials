@@ -3,14 +3,10 @@ title: Aspose.Slides로 효과적인 조명 장비 데이터 마스터하기
 linktitle: 프레젠테이션 슬라이드에서 효과적인 조명 장비 데이터 얻기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드를 향상하세요! 효과적인 조명 장비 데이터를 검색하는 방법을 단계별로 알아보세요. 지금 시각적 스토리텔링의 수준을 높이세요!
+type: docs
 weight: 19
 url: /ko/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적이고 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것은 오늘날 디지털 시대의 일반적인 요구 사항입니다. 한 가지 필수적인 측면은 전체적인 미학을 향상시키기 위해 조명 장비 속성을 조작하는 것입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 프리젠테이션 슬라이드에서 효과적인 조명 장비 데이터를 얻는 과정을 안내합니다.
 ## 전제 조건
@@ -68,9 +64,3 @@ Aspose.Slides는 주로 C#과 같은 .NET 언어를 지원합니다. 그러나 J
  지원 포럼 방문[여기](https://forum.aspose.com/c/slides/11).
 ### .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: แผนภูมิซ่านใน Java Slides
 linktitle: แผนภูมิซ่านใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิ Sunburst อันน่าทึ่งใน Java Slides ด้วย Aspose.Slides เรียนรู้การสร้างแผนภูมิทีละขั้นตอนและการจัดการข้อมูล
+type: docs
 weight: 16
 url: /th/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิ Sunburst ใน Java Slides ด้วย Aspose.Slides
 
@@ -172,9 +168,3 @@ finally
 ### เป็นไปได้ไหมที่จะสร้างแผนภูมิ Sunburst แบบโต้ตอบพร้อมไฮเปอร์ลิงก์
 
 ได้ คุณสามารถสร้างแผนภูมิ Sunburst แบบโต้ตอบด้วยไฮเปอร์ลิงก์ได้โดยการเพิ่มไฮเปอร์ลิงก์ไปยังองค์ประกอบหรือส่วนแผนภูมิเฉพาะ โปรดดูเอกสารประกอบของ Aspose.Slides สำหรับรายละเอียดเกี่ยวกับการเพิ่มไฮเปอร์ลิงก์
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

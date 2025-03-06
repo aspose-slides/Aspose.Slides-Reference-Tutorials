@@ -3,14 +3,10 @@ title: Java 슬라이드에서 글꼴 속성 설정
 linktitle: Java 슬라이드에서 글꼴 속성 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 글꼴 속성을 설정하는 방법을 알아보세요. 이 단계별 가이드에는 코드 예제와 FAQ가 포함되어 있습니다.
+type: docs
 weight: 15
 url: /ko/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 글꼴 속성 설정 소개
 
@@ -141,9 +137,3 @@ for (ISlide slide : pres.getSlides()) {
     // 여기에서 텍스트 요소의 글꼴 속성에 액세스하고 사용자 정의하세요.
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

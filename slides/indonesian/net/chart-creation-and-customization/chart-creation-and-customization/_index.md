@@ -3,14 +3,10 @@ title: Pembuatan dan Penyesuaian Bagan di Aspose.Slide
 linktitle: Pembuatan dan Penyesuaian Bagan di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat dan mengkustomisasi bagan di PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah untuk membuat presentasi dinamis.
+type: docs
 weight: 10
 url: /id/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Perkenalan
 
@@ -114,9 +110,3 @@ Ya, Anda dapat membuat berbagai jenis diagram, termasuk diagram batang, diagram 
 
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Slides untuk .NET?
 Ya, Anda bisa mendapatkan lisensi sementara dari situs Aspose[Di Sini](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

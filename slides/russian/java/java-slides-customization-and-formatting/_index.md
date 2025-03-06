@@ -3,14 +3,10 @@ title: Настройка и форматирование слайдов Java
 linktitle: Настройка и форматирование слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Откройте для себя возможности Aspose.Slides for Java в настройке и форматировании слайдов Java. Изучите шаг за шагом в наших руководствах. Совершенствуйте свои навыки презентации.
+type: docs
 weight: 12
 url: /ru/java/customization-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
  В этой статье мы углубимся в мир настройки и форматирования слайдов Java с помощью Aspose.Slides для Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с презентациями на Java, наш список учебных пособий станет вашим руководством по использованию всего потенциала Aspose.Slides.|
 
@@ -53,9 +49,3 @@ Aspose.Slides for Java — это надежная и универсальная
 Улучшите свои диаграммы с помощью Aspose.Slides для Java. Узнайте, как настроить ось положения в слайдах Java, создавать потрясающие презентации и с легкостью настраивать макеты диаграмм.
 ### [Настройка угла поворота в слайдах Java](./setting-rotation-angle-java-slides/)
 Оптимизируйте свои слайды Java с помощью Aspose.Slides for Java. Научитесь задавать углы поворота текстовых элементов. Пошаговое руководство с исходным кодом.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 幻灯片中的图表实体
 linktitle: Java 幻灯片中的图表实体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 学习使用 Aspose.Slides 创建和自定义 Java Slides 图表。使用强大的图表实体增强您的演示文稿。
+type: docs
 weight: 13
 url: /zh/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中的图表实体简介
 
@@ -305,9 +301,3 @@ finally
 ### Aspose.Slides for Java 是否与最新的 Java 版本兼容？
 
 是的，Aspose.Slides for Java 会定期更新以支持最新的 Java 版本，并提供与各种 Java 环境的兼容性。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

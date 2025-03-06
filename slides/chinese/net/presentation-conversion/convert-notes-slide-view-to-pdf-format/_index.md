@@ -3,14 +3,10 @@ title: 将笔记幻灯片视图转换为 PDF 格式
 linktitle: 将笔记幻灯片视图转换为 PDF 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 将 PowerPoint 中的演讲者备注转换为 PDF。轻松保留上下文并自定义布局。
+type: docs
 weight: 15
 url: /zh/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在本综合指南中，我们将引导您完成使用 Aspose.Slides for .NET 将 Notes Slide View 转换为 PDF 格式的过程。您将找到详细的说明和代码片段，轻松完成此任务。
 
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 您可以在[Aspose.Slides for .NET API 文档](https://reference.aspose.com/slides/net/).
 
 现在您已成功将 Notes Slide View 转换为 PDF 格式，您可以探索 Aspose.Slides for .NET 的更多功能和能力，以增强您的 PowerPoint 自动化任务。祝您编码愉快！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

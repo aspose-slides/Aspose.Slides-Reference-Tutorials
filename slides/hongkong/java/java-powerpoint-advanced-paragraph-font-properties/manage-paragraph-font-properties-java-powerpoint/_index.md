@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中管理段落字型屬性
 linktitle: 在 Java PowerPoint 中管理段落字型屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過這個易於遵循的分步指南，了解如何使用 Aspose.Slides 管理和自訂 Java PowerPoint 簡報中的段落字體屬性。
+type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 建立具有視覺吸引力的 PowerPoint 簡報對於有效溝通至關重要。無論您是在準備商業提案還是學校項目，正確的字體屬性都可以使您的投影片更具吸引力。本教學將指導您使用 Aspose.Slides for Java 管理段落字體屬性。準備好潛入了嗎？讓我們開始吧！
 ## 先決條件
@@ -117,9 +113,3 @@ if (presentation != null) presentation.dispose();
 是的，Aspose.Slides for Java 支援文字的漸層填色。
 ### 如果我想撤銷更改怎麼辦？
 在進行更改之前重新載入原始簡報或保留備份。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

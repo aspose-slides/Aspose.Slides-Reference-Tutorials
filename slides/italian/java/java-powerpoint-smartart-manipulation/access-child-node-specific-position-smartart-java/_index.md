@@ -3,14 +3,10 @@ title: Accedi al nodo figlio in una posizione specifica in SmartArt
 linktitle: Accedi al nodo figlio in una posizione specifica in SmartArt
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara a manipolare SmartArt in Aspose.Slides per Java con questa guida dettagliata. Istruzioni dettagliate, esempi e best practice inclusi.
+type: docs
 weight: 11
 url: /it/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Stai cercando di portare le tue presentazioni a un livello superiore con la sofisticata grafica SmartArt? Non guardare oltre! Aspose.Slides per Java offre una potente suite per creare, manipolare e gestire diapositive di presentazione, inclusa la possibilità di lavorare con oggetti SmartArt. In questo tutorial completo, ti guideremo attraverso l'accesso e la manipolazione di un nodo figlio in una posizione specifica all'interno di un elemento grafico SmartArt, utilizzando la libreria Aspose.Slides per Java.
 
@@ -102,9 +98,3 @@ Congratulazioni! Hai effettuato l'accesso e manipolato con successo un nodo figl
  Puoi ottenere supporto da[Aspose forum della comunità](https://forum.aspose.com/c/slides/11) o fare riferimento all'esteso[documentazione](https://reference.aspose.com/slides/java/).
 ### Posso acquistare una licenza completa per Aspose.Slides per Java?
  Sì, puoi acquistare una licenza completa da[pagina di acquisto](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

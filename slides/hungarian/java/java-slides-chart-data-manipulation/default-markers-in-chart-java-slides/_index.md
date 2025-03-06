@@ -3,14 +3,10 @@ title: Alapértelmezett jelölők a diagramon a Java Slides-ben
 linktitle: Alapértelmezett jelölők a diagramon a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre Java-diákat alapértelmezett jelölőkkel a diagramokon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+type: docs
 weight: 16
 url: /hu/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az alapértelmezett jelölőkhöz a Java Slides diagramjában
 
@@ -146,9 +142,3 @@ Ebben az átfogó oktatóanyagban megtanulta, hogyan hozhat létre Java-diákat 
 ### Hozzáadhatok címkéket az adatpontokhoz?
 
  Igen, az adatpontokhoz címkéket adhat hozzá a`IDataPoint.getLabel()` módszert, és szükség szerint testreszabhatja azokat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

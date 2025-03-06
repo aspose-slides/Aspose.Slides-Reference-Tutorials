@@ -3,14 +3,10 @@ title: إنشاء تعداد نقطي متعدد المستويات في Java Po
 linktitle: إنشاء تعداد نقطي متعدد المستويات في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء تعداد نقطي متعدد المستويات في PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
+type: docs
 weight: 14
 url: /ar/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء رموز نقطية متعددة المستويات في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. تعد إضافة نقاط نقطية مطلبًا شائعًا لإنشاء محتوى منظم وجذاب بصريًا في العروض التقديمية. سنخوض العملية خطوة بخطوة، مما يضمن أنه بحلول نهاية هذا الدليل، ستكون جاهزًا لتحسين عروضك التقديمية بنقاط منظمة على مستويات متعددة.
 ## المتطلبات الأساسية
@@ -113,9 +109,3 @@ pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات لأتمتة إنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من مجتمع Aspose.Slides والخبراء على[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

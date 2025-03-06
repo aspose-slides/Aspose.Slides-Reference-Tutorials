@@ -3,14 +3,10 @@ title: กลับค่าถ้าเป็นลบสำหรับแต�
 linktitle: กลับค่าถ้าเป็นลบสำหรับแต่ละซีรี่ส์ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีใช้ฟีเจอร์ Invert If Negative ใน Aspose.Slides สำหรับ Java เพื่อปรับปรุงภาพแผนภูมิในงานนำเสนอ PowerPoint
+type: docs
 weight: 11
 url: /th/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการกลับด้านถ้าเป็นลบสำหรับแต่ละซีรี่ส์ใน Java Slides
 
@@ -135,9 +131,3 @@ finally
 ### ฉันจะเข้าถึงเอกสาร Aspose.Slides สำหรับ Java ได้ที่ไหน
 
 คุณสามารถเข้าถึงเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

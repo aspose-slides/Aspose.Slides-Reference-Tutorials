@@ -3,14 +3,10 @@ title: Add OLE Object Frame in PowerPoint
 linktitle: Add OLE Object Frame in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to seamlessly integrate OLE Object Frames into PowerPoint presentations using Aspose.Slides for Java.
+type: docs
 weight: 13
 url: /java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Adding an OLE (Object Linking and Embedding) Object Frame in PowerPoint presentations can significantly enhance the visual appeal and functionality of your slides. With Aspose.Slides for Java, this process becomes streamlined and efficient. In this tutorial, we'll guide you through the steps required to seamlessly integrate OLE Object Frames into your PowerPoint presentations.
 ### Prerequisites
@@ -84,10 +80,3 @@ Absolutely! Aspose.Slides offers extensive options for customizing the appearanc
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Slides for Java?
 You can seek support and assistance from the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Maak een opgemaakte ellips in PowerPoint
 linktitle: Maak een opgemaakte ellips in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een opgemaakte ellips in PowerPoint maakt met Aspose.Slides voor Java met onze gedetailleerde stapsgewijze handleiding.
+type: docs
 weight: 17
 url: /nl/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Welkom bij deze uitgebreide tutorial over het maken van een opgemaakte ellips in PowerPoint met behulp van Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-bestanden programmatisch kunnen manipuleren. Of u nu het genereren van dia's automatiseert of presentaties verbetert met aangepaste vormen, deze gids begeleidt u bij elke stap, zodat u gemakkelijk een perfect opgemaakte ellips aan uw dia's kunt toevoegen. Laten we erin duiken en kijken hoe we dit kunnen bereiken!
 ## Vereisten
@@ -99,9 +95,3 @@ Ja, Aspose.Slides is een commercieel product en je hebt een licentie nodig voor 
  Gedetailleerde documentatie vindt u op Aspose.Slides voor Java[documentatiepagina](https://reference.aspose.com/slides/java/).
 ### Is er ondersteuning beschikbaar voor Aspose.Slides?
  Ja, Aspose biedt ondersteuning via hun[forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

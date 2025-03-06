@@ -3,14 +3,10 @@ title: Tutorial Menambahkan Bingkai Foto dengan Aspose.Slides .NET
 linktitle: Menambahkan Bingkai Gambar dengan Tinggi Skala Relatif di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan bingkai foto dengan tinggi skala relatif di Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini untuk presentasi yang lancar.
+type: docs
 weight: 17
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi presentasi PowerPoint dalam aplikasi .NET mereka dengan mudah. Dalam tutorial ini, kita akan mendalami proses menambahkan bingkai foto dengan tinggi skala relatif menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan membangun presentasi Anda.
 ## Prasyarat
@@ -68,9 +64,3 @@ Aspose.Slides terutama mendukung bahasa .NET, namun Anda dapat menjelajahi produ
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mencari bantuan dari masyarakat dan para ahli Aspose.
 ### Di mana saya dapat membeli Aspose.Slides untuk .NET?
  Anda dapat membeli Aspose.Slides untuk .NET dari[halaman pembelian](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

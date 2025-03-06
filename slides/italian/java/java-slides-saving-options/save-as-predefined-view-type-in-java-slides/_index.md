@@ -3,14 +3,10 @@ title: Salva come tipo di visualizzazione predefinito nelle diapositive Java
 linktitle: Salva come tipo di visualizzazione predefinito nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare tipi di visualizzazione predefiniti in Diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice e domande frequenti.
+type: docs
 weight: 10
 url: /it/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione al salvataggio come tipo di visualizzazione predefinito nelle diapositive Java
 
@@ -113,9 +109,3 @@ Sì, Aspose.Slides per Java è adatto per attività di elaborazione batch. Puoi 
 ### Dove posso trovare ulteriori informazioni e documentazione per Aspose.Slides per Java?
 
  Per documentazione completa e riferimenti relativi ad Aspose.Slides per Java, visitare il sito Web della documentazione:[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

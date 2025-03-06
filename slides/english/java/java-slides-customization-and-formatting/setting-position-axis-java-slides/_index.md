@@ -3,14 +3,10 @@ title: Setting Position Axis in Java Slides
 linktitle: Setting Position Axis in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance Your Charts with Aspose.Slides for Java. Learn how to setting the position axis in Java slides, create stunning presentations, and customize chart layouts with ease.
+type: docs
 weight: 16
 url: /java/customization-and-formatting/setting-position-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Setting Position Axis in Aspose.Slides for Java
 
@@ -104,10 +100,3 @@ if (pres != null) pres.dispose();
 ```
 
 That's it for this tutorial. You've learned how to set the position axis in a chart using Aspose.Slides for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

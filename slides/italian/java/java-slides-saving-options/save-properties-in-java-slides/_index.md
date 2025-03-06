@@ -3,14 +3,10 @@ title: Salva proprietà nelle diapositive Java
 linktitle: Salva proprietà nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Ottimizza le tue presentazioni PowerPoint con Aspose.Slides per Java. Impara a impostare proprietà, disabilitare la crittografia, aggiungere la protezione tramite password e salvare senza sforzo.
+type: docs
 weight: 12
 url: /it/java/saving-options/save-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione al salvataggio delle proprietà nelle diapositive Java
 
@@ -174,9 +170,3 @@ Ciò aiuta a prevenire perdite di memoria nell'applicazione.
 ### Come posso saperne di più su Aspose.Slides per Java e le sue funzionalità?
 
  Puoi esplorare la documentazione di Aspose.Slides per Java all'indirizzo[Qui](https://docs.aspose.com/slides/java/) per informazioni dettagliate, tutorial ed esempi sull'utilizzo della libreria.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

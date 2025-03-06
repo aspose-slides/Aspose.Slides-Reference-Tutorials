@@ -3,14 +3,10 @@ title: Aspose.Slides의 라이선스
 linktitle: Aspose.Slides의 라이선스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides 라이선스를 취득하고 .NET 애플리케이션에서 PowerPoint 조작의 힘을 활용하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/net/licensing-and-formatting/licensing-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 .NET 개발 세계에서 Aspose.Slides는 Microsoft PowerPoint 파일을 프로그래밍 방식으로 작업할 수 있는 강력하고 다재다능한 라이브러리입니다. PowerPoint 프레젠테이션을 생성, 조작 또는 변환해야 하는 경우 Aspose.Slides가 도와드립니다. 해당 기능을 최대한 활용하려면 라이선스의 중요성을 이해해야 합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET 라이선스를 취득하고 애플리케이션이 원활하게 작동할 준비가 되었는지 확인하는 방법을 살펴보겠습니다.
 
@@ -96,9 +92,3 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 Microsoft PowerPoint 파
 
 ### .NET 사용자를 위한 Aspose.Slides에는 어떤 종류의 지원이 제공됩니까?
  Aspose는 지원을 구하고 다른 Aspose 사용자와 상호 작용할 수 있는 커뮤니티 포럼을 제공합니다. 다음에서 포럼에 액세스할 수 있습니다.[https://forum.aspose.com/](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

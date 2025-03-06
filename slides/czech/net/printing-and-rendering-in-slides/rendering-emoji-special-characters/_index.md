@@ -3,14 +3,10 @@ title: Vykreslování emodži a speciálních znaků v Aspose.Slides
 linktitle: Vykreslování emodži a speciálních znaků v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí emotikonů pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce a přidejte kreativní dotek bez námahy.
+type: docs
 weight: 14
 url: /cs/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V dynamickém světě prezentací může zprostředkování emocí a speciálních postav dodat nádech kreativity a jedinečnosti. Aspose.Slides for .NET umožňuje vývojářům bezproblémově vykreslovat emotikony a speciální postavy ve svých prezentacích a odemykat tak novou dimenzi vyjadřování. V tomto tutoriálu prozkoumáme, jak toho dosáhnout pomocí podrobného vedení pomocí Aspose.Slides.
 ## Předpoklady
@@ -55,9 +51,3 @@ Aspose.Slides podporuje širokou škálu emotikonů, včetně vlastních. Ujist�
  Připojte se ke komunitě Aspose.Slides[Fórum](https://forum.aspose.com/c/slides/11) za pomoc a diskuze.
 ### Mohu používat Aspose.Slides bez trvalé licence?
  Ano, získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

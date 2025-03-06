@@ -3,14 +3,10 @@ title: Formátování prezentačních řádků pomocí Aspose.Slides .NET Tutori
 linktitle: Formátování řádků v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentační snímky pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce a formátujte řádky bez námahy. Stáhněte si bezplatnou zkušební verzi nyní!
+type: docs
 weight: 10
 url: /cs/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých prezentačních snímků je nezbytné pro efektivní komunikaci. Aspose.Slides for .NET poskytuje výkonné řešení pro programovou manipulaci a formátování prvků prezentace. V tomto tutoriálu se zaměříme na formátování řádků v prezentačních snímcích pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -79,9 +75,3 @@ Ano, Aspose.Slides podporuje různé programovací jazyky, včetně Javy a Pytho
  Dočasnou licenci můžete získat od[Dočasná licence Aspose.Slides](https://purchase.aspose.com/temporary-license/).
 ### Q5: Kde mohu zakoupit Aspose.Slides pro .NET?
  Produkt můžete zakoupit od[Nákup Aspose.Slides](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

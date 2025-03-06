@@ -3,14 +3,10 @@ title: Aspose.Slides - Menambahkan Video Tersemat di Presentasi .NET
 linktitle: Aspose.Slides - Menambahkan Video Tersemat di Presentasi .NET
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan video tersemat menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
+type: docs
 weight: 19
 url: /id/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, mengintegrasikan elemen multimedia dapat meningkatkan keterlibatan secara signifikan. Aspose.Slides for .NET memberikan solusi canggih untuk menggabungkan bingkai video tertanam ke dalam slide presentasi Anda. Tutorial ini akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan pengalaman yang lancar.
 ## Prasyarat
@@ -79,9 +75,3 @@ Aspose.Slides mendukung berbagai format video, termasuk MP4, AVI, dan WMV.
 Jumlah video yang disematkan biasanya dibatasi oleh kapasitas perangkat lunak presentasi Anda.
 ### Bagaimana saya dapat mencari bantuan lebih lanjut atau berbagi pengalaman saya?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

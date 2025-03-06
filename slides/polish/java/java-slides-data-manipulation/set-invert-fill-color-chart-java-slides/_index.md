@@ -3,14 +3,10 @@ title: Ustaw tabelę kolorów odwróconego wypełnienia w slajdach Java
 linktitle: Ustaw tabelę kolorów odwróconego wypełnienia w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić odwracanie kolorów wypełnienia wykresów Java Slides za pomocą Aspose.Slides. Ulepsz swoje wizualizacje wykresów dzięki temu przewodnikowi krok po kroku i kodowi źródłowemu.
+type: docs
 weight: 22
 url: /pl/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do ustawiania tabeli kolorów odwróconego wypełnienia w slajdach Java
 
@@ -157,9 +153,3 @@ Tak, możesz dostosować różne aspekty wyglądu wykresu, w tym etykiety osi, t
 ### Czy mogę zapisać wykres w różnych formatach?
 
  Tak, możesz zapisać wykres w różnych formatach, używając Aspose.Slides for Java. W podanym przykładzie kodu zapisaliśmy prezentację jako plik PPTX. Możesz użyć innego`SaveFormat` opcje zapisania go w innych formatach, takich jak PDF, PNG lub SVG, w zależności od wymagań.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

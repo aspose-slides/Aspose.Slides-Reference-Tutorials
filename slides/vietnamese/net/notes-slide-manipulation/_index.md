@@ -3,14 +3,10 @@ title: Ghi chú Thao tác trượt
 linktitle: Ghi chú Thao tác trượt
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bài thuyết trình của bạn một cách chính xác! Khám phá hướng dẫn Aspose.Slides về thao tác trượt ghi chú trong .NET. Tìm hiểu cách thêm, chỉnh sửa và quản lý ghi chú của người thuyết trình theo chương trình.
+type: docs
 weight: 16
 url: /vi/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn Aspose.Slides toàn diện về Thao tác với slide ghi chú dành cho nhà phát triển .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của ghi chú của diễn giả và cách bạn có thể thao tác chúng theo chương trình bằng thư viện Aspose.Slides. Ghi chú của diễn giả đóng vai trò then chốt trong bài thuyết trình, cung cấp những hiểu biết có giá trị cho người trình bày và nâng cao tác động tổng thể của nội dung. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách thêm, chỉnh sửa và quản lý hiệu quả ghi chú của diễn giả trong bản trình bày PowerPoint của mình.
@@ -43,9 +39,3 @@ Tìm hiểu cách tùy chỉnh đầu trang và chân trang trong các trang ghi
 Tìm hiểu cách xóa ghi chú khỏi một trang chiếu cụ thể trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi với mã nguồn hoàn chỉnh để thao tác liền mạch các trang trình bày của bạn theo chương trình.
 ### [Xóa ghi chú khỏi tất cả các slide](./remove-notes-from-all-slides/)
 Tìm hiểu cách xóa ghi chú khỏi tất cả các trang chiếu trong bản trình bày PowerPoint của bạn bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước này với các ví dụ về mã nguồn hoàn chỉnh để dễ dàng đạt được mục tiêu của bạn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

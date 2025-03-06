@@ -3,14 +3,10 @@ title: Create Scaling Factor Thumbnail
 linktitle: Create Scaling Factor Thumbnail
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create scaling factor thumbnails in Java using Aspose.Slides for Java. Easy-to-follow guide with step-by-step instructions.
+type: docs
 weight: 12
 url: /java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, we will guide you through the process of creating a scaling factor thumbnail using Aspose.Slides for Java. Follow these step-by-step instructions to achieve your desired result.
 ## Prerequisites
@@ -70,10 +66,3 @@ You can find support for Aspose.Slides for Java on the [Aspose.Slides forum](htt
 You can purchase Aspose.Slides for Java from the [purchase page](https://purchase.aspose.com/buy).
 ### Do I need a temporary license for using Aspose.Slides for Java?
 Yes, you can obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides ile Etkili Kamera Veri Çıkarma Konusunda Uzmanlaşmak
 linktitle: Sunum Slaytlarında Etkili Kamera Verileri Alma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Sunum slaytlarından etkili kamera verilerinin çıkarılmasıyla ilgili adım adım kılavuzumuzla Aspose.Slides for .NET'in potansiyelini ortaya çıkarın.
+type: docs
 weight: 18
 url: /tr/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunum slaytlarınıza gömülü kamera verilerini nasıl çıkaracağınızı ve değiştireceğinizi hiç merak ettiniz mi? Başka yerde arama! Bu eğitim, Aspose.Slides for .NET'i kullanarak etkili kamera verileri elde etme sürecinde size yol gösterecektir. Aspose.Slides, .NET uygulamalarınızdaki sunum dosyalarıyla sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphanedir.
 ## Önkoşullar
@@ -72,9 +68,3 @@ Evet, Aspose.Slides, .NET Core ve .NET 5 dahil olmak üzere çeşitli .NET çer�
  Geçici lisans alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET'i nereden satın alabilirim?
  Aspose.Slides'ı satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

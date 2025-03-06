@@ -3,14 +3,10 @@ title: 投影片檢視和佈局操作
 linktitle: 投影片檢視和佈局操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides 投影片檢視和版面操作教學優化投影片檢視和版面配置。使用強大的 .NET 工具增強簡報效果和視覺效果。
+type: docs
 weight: 20
 url: /zh-hant/net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介紹
 
@@ -33,9 +29,3 @@ url: /zh-hant/net/slide-view-and-layout-manipulation/
 了解如何使用 Aspose.Slides for .NET 將影片連結到 PowerPoint 投影片。本逐步指南包括原始程式碼和使用連結影片建立互動且引人入勝的簡報的提示。
 ### [管理簡報中的 ActiveX 控件](./manage-activex-control/)
 了解如何使用 Aspose.Slides for .NET 透過 ActiveX 控制項增強 PowerPoint 簡報。我們的逐步指南涵蓋插入、操作、自訂、事件處理等。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

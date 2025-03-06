@@ -3,14 +3,10 @@ title: ضبط عرض الفجوة في شرائح جافا
 linktitle: ضبط عرض الفجوة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ضبط عرض الفجوة في شرائح Java باستخدام Aspose.Slides لـ Java. قم بتحسين الرسوم البيانية المرئية لعروض PowerPoint التقديمية الخاصة بك.
+type: docs
 weight: 21
 url: /ar/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لإعداد عرض الفجوة في Aspose.Slides لـ Java
 
@@ -162,9 +158,3 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### أين يمكنني العثور على المزيد من الموارد والوثائق؟
 
  يمكنك العثور على وثائق شاملة وموارد إضافية على Aspose.Slides for Java على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

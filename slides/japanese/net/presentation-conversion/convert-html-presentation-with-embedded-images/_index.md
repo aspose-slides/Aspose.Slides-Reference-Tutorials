@@ -3,14 +3,10 @@ title: 埋め込み画像を含む HTML プレゼンテーションを変換す�
 linktitle: 埋め込み画像を含む HTML プレゼンテーションを変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションを埋め込み画像付きの HTML に変換する方法を学びます。シームレスな変換のためのステップバイステップ ガイド。
+type: docs
 weight: 11
 url: /ja/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 今日のデジタル世界では、PowerPoint プレゼンテーションを HTML に変換する必要性がますます高まっています。オンラインでコンテンツを共有する場合でも、Web ベースのプレゼンテーションを作成する場合でも、PowerPoint ファイルを HTML に変換する機能は貴重な資産になります。Aspose.Slides for .NET は、このような変換をシームレスに実行できる強力なライブラリです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して埋め込み画像を含む HTML プレゼンテーションを変換するプロセスについて説明します。
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET は、アニメーションを含むさまざまな要素
 
 ### Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを他のどの形式に変換できますか?
 Aspose.Slides for .NET は、PDF、画像など、さまざまな形式への変換をサポートしています。サポートされている形式の包括的なリストについては、ドキュメントを確認してください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

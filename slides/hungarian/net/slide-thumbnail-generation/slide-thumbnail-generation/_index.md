@@ -3,14 +3,10 @@ title: Dia miniatűrök generálása az Aspose.Slides-ben
 linktitle: Dia miniatűrök generálása az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Hozzon létre dia miniatűröket az Aspose.Slides for .NET programban lépésenkénti útmutatóval és kódpéldákkal. A megjelenés testreszabása és a miniatűrök mentése. Javítsa a prezentáció előnézetét.
+type: docs
 weight: 10
 url: /hu/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ha dia miniatűröket szeretne létrehozni .NET-alkalmazásaiban az Aspose.Slides segítségével, akkor jó helyen jár. A diabélyegképek létrehozása értékes szolgáltatás lehet különféle forgatókönyvekben, például egyéni PowerPoint-megtekintők készítésénél vagy prezentációk kép-előnézeteinek létrehozásában. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton. Leírjuk az előfeltételeket, a névterek importálását, és az egyes példákat több lépésre bontjuk, így megkönnyítve a dia miniatűrök zökkenőmentes létrehozását.
 
@@ -115,9 +111,3 @@ V: Igen, módosíthatja a méreteket a paraméterek módosításával a`GetThumb
 V: Igen, az Aspose.Slides robusztus megoldás személyes és kereskedelmi alkalmazásokhoz egyaránt. Az engedélyezés részleteit az Aspose webhelyén találja.
 
  További segítségért vagy kérdésért keresse fel a[Aspose.Slides támogatási fórum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

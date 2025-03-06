@@ -3,14 +3,10 @@ title: Specify Fonts Used in Presentation with Java
 linktitle: Specify Fonts Used in Presentation with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to specify custom fonts in PowerPoint presentations using Aspose.Slides for Java. Enhance your slides with unique typography effortlessly.
+type: docs
 weight: 22
 url: /java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In today's digital age, creating visually compelling presentations is crucial for effective communication in business and academia alike. Aspose.Slides for Java provides a robust platform for Java developers to dynamically generate and manipulate PowerPoint presentations. This tutorial will guide you through the process of specifying fonts used in a presentation using Aspose.Slides for Java. By the end, you'll be equipped with the knowledge to seamlessly integrate custom fonts into your PowerPoint projects, enhancing their visual appeal and ensuring brand consistency.
 ## Prerequisites
@@ -75,10 +71,3 @@ Yes, you can specify fonts at various levels including slide, shape, or text fra
 Aspose.Slides does not impose strict limitations on the number of custom fonts; however, consider performance implications.
 ### Can I dynamically load fonts at runtime without embedding them in my application?
 Yes, you can load fonts from external sources or memory as demonstrated in this tutorial.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

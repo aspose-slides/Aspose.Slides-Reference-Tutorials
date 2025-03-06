@@ -3,14 +3,10 @@ title: Effectieve tekstframe-indelingsgegevens in Java PowerPoint
 linktitle: Effectieve tekstframe-indelingsgegevens in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer tekstframes opmaken in Java PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht van uw dia's moeiteloos.
+type: docs
 weight: 15
 url: /nl/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Op het gebied van op Java gebaseerde presentaties komt Aspose.Slides voor Java naar voren als een krachtig hulpmiddel, waarmee ontwikkelaars met gemak dynamische en visueel boeiende diavoorstellingen kunnen maken. Een van de cruciale aspecten van het maken van boeiende presentaties ligt in het effectief opmaken van tekstkaders. In deze uitgebreide handleiding duiken we in de fijne kneepjes van het gebruik van Aspose.Slides voor Java om de kunst van het opmaken van tekstframes onder de knie te krijgen.
 ## Vereisten
@@ -76,9 +72,3 @@ Aspose.Slides voor Java ondersteunt inderdaad het exporteren van presentaties na
 Ja, u kunt animaties toepassen op tekstframes en andere elementen in uw PowerPoint-presentaties met Aspose.Slides voor Java.
 ### Is er technische ondersteuning beschikbaar voor Aspose.Slides voor Java?
  Ja, technische ondersteuning voor Aspose.Slides voor Java is beschikbaar via de[forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

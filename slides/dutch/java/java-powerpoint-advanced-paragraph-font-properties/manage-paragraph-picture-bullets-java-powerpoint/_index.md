@@ -3,14 +3,10 @@ title: Beheer opsommingstekens voor alineaafbeeldingen in Java PowerPoint
 linktitle: Beheer opsommingstekens voor alineaafbeeldingen in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste afbeeldingsopsommingstekens aan PowerPoint-dia's kunt toevoegen met Aspose.Slides voor Java. Volg deze gedetailleerde, stap-voor-stap handleiding voor een naadloze integratie.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het creëren van boeiende en visueel aantrekkelijke presentaties is een cruciale vaardigheid in de moderne zakenwereld. Java-ontwikkelaars kunnen Aspose.Slides gebruiken om hun presentaties te verbeteren met aangepaste afbeeldingsopsommingstekens in PowerPoint-dia's. Deze tutorial begeleidt u stap voor stap door het proces, zodat u vol vertrouwen afbeeldingsopsommingstekens aan uw presentaties kunt toevoegen.
 ## Vereisten
@@ -108,9 +104,3 @@ Ja, u kunt elke afbeelding gebruiken voor de afbeeldingsopsommingen, zolang deze
 Ja, u kunt meerdere alinea's met verschillende stijlen voor opsommingstekens toevoegen aan één AutoVorm door elke alinea afzonderlijk te maken en te configureren.
 ### Waar kan ik meer voorbeelden en ondersteuning vinden?
  Meer voorbeelden vindt u in de[documentatie](https://reference.aspose.com/slides/java/) en krijg steun van de Aspose-gemeenschap op de[forums](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Add Paragraph Bullets in PowerPoint using Java
 linktitle: Add Paragraph Bullets in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add paragraph bullets in PowerPoint slides using Aspose.Slides for Java. This tutorial guides you through step-by-step with code examples.
+type: docs
 weight: 15
 url: /java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Adding paragraph bullets enhances the readability and structure of PowerPoint presentations. Aspose.Slides for Java provides robust tools to manipulate presentations programmatically, including the ability to format text with various bullet styles. In this tutorial, you will learn how to integrate bullet points into PowerPoint slides using Java code, leveraging Aspose.Slides.
 ## Prerequisites
@@ -93,10 +89,3 @@ Yes, you can apply unique bullet styles to different slides programmatically.
 Yes, Aspose.Slides supports Java 11 and higher versions.
 ### Where can I find more examples and documentation?
 Visit [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/) for comprehensive guides and examples.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

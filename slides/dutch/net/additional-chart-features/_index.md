@@ -3,14 +3,10 @@ title: Extra kaartfuncties
 linktitle: Extra kaartfuncties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Ontdek geavanceerde grafiekfuncties in Aspose.Slides voor .NET! Leer dynamische, interactieve grafieken maken met aangepaste stijlen, trendlijnen en meer. Verbeter uw presentaties met krachtige datavisualisatie.
+type: docs
 weight: 24
 url: /nl/net/additional-chart-features/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering
 
@@ -36,9 +32,3 @@ Leer hoe u diagramgegevens efficiënt kunt extraheren met Aspose.Slides voor .NE
 Leer hoe u een werkmap uit een grafiek kunt herstellen met Aspose.Slides voor .NET. Extraheer diagramgegevens en maak programmatisch Excel-werkmappen.
 ### [Wis specifieke gegevenspunten uit de grafiekreeks](./clear-specific-chart-series-data-points-data/)
 Leer hoe u specifieke diagramgegevenspunten kunt wissen in Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode inbegrepen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

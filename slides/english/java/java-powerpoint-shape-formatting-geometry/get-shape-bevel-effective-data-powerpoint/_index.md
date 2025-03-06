@@ -3,14 +3,10 @@ title: Get Shape Bevel Effective Data in PowerPoint
 linktitle: Get Shape Bevel Effective Data in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve shape bevel effective data in PowerPoint using Aspose.Slides for Java. Enhance your presentations with stunning visual effects.
+type: docs
 weight: 26
 url: /java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In modern business presentations, visual appeal plays a crucial role in conveying information effectively. One of the elements that can enhance the visual impact of shapes in PowerPoint presentations is the bevel effect. Aspose.Slides for Java provides powerful tools to access and manipulate various properties of shapes, including their bevel effects. In this tutorial, we'll guide you through the process of retrieving shape bevel effective data using Aspose.Slides for Java.
 ## Prerequisites
@@ -62,10 +58,3 @@ Aspose.Slides ensures compatibility with various versions of PowerPoint, allowin
 Absolutely, you have full control over the bevel effect properties and can customize them according to your requirements.
 ### Where can I find more resources and support for Aspose.Slides?
 You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for any questions, support, or additional resources.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

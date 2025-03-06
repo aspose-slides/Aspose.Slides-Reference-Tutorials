@@ -3,14 +3,10 @@ title: Kelola Kontrol ActiveX di PowerPoint
 linktitle: Kelola Kontrol ActiveX di PowerPoint
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan presentasi PowerPoint dengan kontrol ActiveX menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah kami mencakup penyisipan, manipulasi, penyesuaian, penanganan peristiwa, dan banyak lagi.
+type: docs
 weight: 13
 url: /id/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Kontrol ActiveX adalah elemen canggih yang dapat meningkatkan fungsionalitas dan interaktivitas presentasi PowerPoint Anda. Kontrol ini memungkinkan Anda menyematkan dan memanipulasi objek seperti pemutar multimedia, formulir entri data, dan lainnya secara langsung di dalam slide Anda. Dalam artikel ini, kita akan mempelajari cara mengelola kontrol ActiveX di PowerPoint menggunakan Aspose.Slides untuk .NET, pustaka serbaguna yang memungkinkan integrasi dan manipulasi file PowerPoint dengan lancar di aplikasi .NET Anda.
 
 ## Menambahkan Kontrol ActiveX ke Slide PowerPoint
@@ -153,9 +149,3 @@ Anda dapat menangani kejadian yang dipicu oleh kontrol ActiveX dengan berlanggan
 ### Bisakah saya menghapus kontrol ActiveX dari slide?
 
  Ya, Anda dapat menghapus kontrol ActiveX dari slide menggunakan`Remove` metode`Shapes` koleksi. Berikan referensi ke`IOleObjectFrame` mewakili kontrol sebagai argumen untuk`Remove` metode, dan kontrol akan dihapus dari slide.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

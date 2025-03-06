@@ -3,14 +3,10 @@ title: Edit Data Bagan di Buku Kerja Eksternal di Slide Java
 linktitle: Edit Data Bagan di Buku Kerja Eksternal di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengedit data bagan di buku kerja eksternal menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber.
+type: docs
 weight: 17
 url: /id/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengedit Data Bagan di Buku Kerja Eksternal di Slide Java
 
@@ -107,9 +103,3 @@ Anda dapat mengadaptasi kode untuk menangani format buku kerja eksternal yang be
 ### Bagaimana cara mengotomatiskan proses ini untuk beberapa presentasi?
 
 Anda dapat membuat loop untuk memproses beberapa presentasi, memuat masing-masing presentasi, membuat perubahan yang diinginkan, dan menyimpan presentasi yang dimodifikasi satu per satu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

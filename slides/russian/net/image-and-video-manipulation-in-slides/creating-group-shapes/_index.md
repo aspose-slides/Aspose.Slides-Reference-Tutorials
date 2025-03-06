@@ -3,14 +3,10 @@ title: Aspose.Slides — Создание групповых фигур в .NET
 linktitle: Создание групповых фигур на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать групповые фигуры в PowerPoint с помощью Aspose.Slides для .NET. Следуйте нашему пошаговому руководству для создания визуально привлекательных презентаций.
+type: docs
 weight: 11
 url: /ru/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Если вы хотите повысить визуальную привлекательность слайдов презентации и более эффективно организовать контент, включение групповых фигур — мощное решение. Aspose.Slides for .NET обеспечивает простой способ создания групповых фигур и управления ими в презентациях PowerPoint. В этом уроке мы рассмотрим процесс создания групповых фигур с помощью Aspose.Slides, разбив его на простые для выполнения шаги.
 ## Предварительные условия
@@ -102,10 +98,3 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести полную лицензию на Aspose.Slides?
  Вы можете купить лицензию на сайте[страница покупки](https://purchase.aspose.com/buy).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

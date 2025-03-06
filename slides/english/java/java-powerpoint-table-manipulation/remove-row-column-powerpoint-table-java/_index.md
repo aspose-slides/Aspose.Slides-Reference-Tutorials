@@ -3,14 +3,10 @@ title: Remove Row or Column in PowerPoint Table using Java
 linktitle: Remove Row or Column in PowerPoint Table using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to remove rows or columns from PowerPoint tables using Java with Aspose.Slides for Java. Easy step-by-step guide for developers.
+type: docs
 weight: 18
 url: /java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, we will explore how to remove a row or column from a PowerPoint table using Java with the help of Aspose.Slides. Aspose.Slides for Java is a powerful library that allows developers to create, manipulate, and convert PowerPoint presentations programmatically. This tutorial specifically focuses on the process of modifying tables within PowerPoint slides, demonstrating step-by-step how to remove specific rows or columns from a table.
 ## Prerequisites
@@ -78,10 +74,3 @@ Detailed documentation and examples can be found on the [Aspose.Slides for Java 
 Yes, Aspose.Slides is widely used in enterprise environments for automating PowerPoint tasks due to its robust features and performance.
 ### Can I try Aspose.Slides before purchasing?
 Yes, you can download a free trial of Aspose.Slides from [here](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

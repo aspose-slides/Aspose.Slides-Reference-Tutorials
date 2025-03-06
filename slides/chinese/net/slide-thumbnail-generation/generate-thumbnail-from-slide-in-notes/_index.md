@@ -3,14 +3,10 @@ title: 从笔记中的幻灯片生成缩略图
 linktitle: 从笔记中的幻灯片生成缩略图
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从演示文稿注释部分的幻灯片生成缩略图。增强您的视觉内容！
+type: docs
 weight: 12
 url: /zh/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在现代演示世界中，视觉内容为王。创建吸引人的幻灯片对于有效沟通至关重要。增强演示文稿的一种方法是从幻灯片生成缩略图，尤其是当您想要强调特定细节或分享概述时。Aspose.Slides for .NET 是一款功能强大的工具，可以帮助您无缝实现这一点。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 从演示文稿注释部分的幻灯片生成缩略图的过程。
 
@@ -118,9 +114,3 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### 我可以在哪里获得有关 Aspose.Slides for .NET 的支持或进一步帮助？
 您可以在以下位置寻求帮助并参与 Aspose 社区[Aspose 支持论坛](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

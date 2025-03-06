@@ -3,14 +3,10 @@ title: Not Slayt Görünümünü PDF Formatına Dönüştürme
 linktitle: Not Slayt Görünümünü PDF Formatına Dönüştürme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint'teki konuşmacı notlarını PDF'ye dönüştürün. Bağlamı koruyun ve düzeni zahmetsizce özelleştirin.
+type: docs
 weight: 15
 url: /tr/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Bu kapsamlı kılavuzda, Aspose.Slides for .NET'i kullanarak Notes Slayt Görünümünü PDF Formatına dönüştürme sürecinde size yol göstereceğiz. Bu görevi zahmetsizce gerçekleştirmek için ayrıntılı talimatlar ve kod parçacıkları bulacaksınız.
 
@@ -82,9 +78,3 @@ Kesinlikle! Aspose.Slides for .NET, düzen ve biçimlendirme de dahil olmak üze
 Ek eğitimleri ve örnekleri inceleyebilirsiniz.[Aspose.Slides for .NET API belgeleri](https://reference.aspose.com/slides/net/).
 
 Artık Notes Slayt Görünümünü başarıyla PDF Formatına dönüştürdüğünüze göre, PowerPoint otomasyon görevlerinizi geliştirmek için Aspose.Slides for .NET'in daha fazla özellik ve yeteneğini keşfedebilirsiniz. Mutlu kodlama!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

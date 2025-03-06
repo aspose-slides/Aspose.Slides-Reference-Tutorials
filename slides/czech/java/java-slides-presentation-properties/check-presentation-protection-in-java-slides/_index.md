@@ -3,14 +3,10 @@ title: Zkontrolujte ochranu prezentace v aplikaci Java Slides
 linktitle: Zkontrolujte ochranu prezentace v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Zjistěte, jak zkontrolovat ochranu prezentace na snímcích Java pomocí Aspose.Slides for Java. Tento podrobný průvodce poskytuje příklady kódu pro kontrolu zápisu a ochrany proti otevření.
+type: docs
 weight: 15
 url: /cs/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do kontroly ochrany prezentace v Java Slides
 
@@ -117,9 +113,3 @@ Pokud zapomenete heslo pro ochranu prezentace, neexistuje žádný vestavěný z
 ### Je Aspose.Slides for Java kompatibilní s nejnovějšími formáty souborů PowerPoint?
 
 Ano, Aspose.Slides for Java podporuje nejnovější formáty souborů PowerPoint, včetně souborů .pptx.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

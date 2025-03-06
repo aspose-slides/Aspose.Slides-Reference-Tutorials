@@ -3,14 +3,10 @@ title: Twórz obiekty złożone w kształtach geometrycznych
 linktitle: Twórz obiekty złożone w kształtach geometrycznych
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dzięki temu wszechstronnemu samouczkowi dowiesz się, jak tworzyć obiekty złożone w kształtach geometrycznych przy użyciu Aspose.Slides for Java. Idealny dla programistów Java.
+type: docs
 weight: 20
 url: /pl/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 No hej! Czy kiedykolwiek chciałeś tworzyć wspaniałe i skomplikowane kształty w prezentacjach programu PowerPoint przy użyciu języka Java? Cóż, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w potężną bibliotekę Aspose.Slides for Java, aby tworzyć obiekty złożone w kształtach geometrycznych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik krok po kroku pomoże Ci osiągnąć imponujące wyniki w mgnieniu oka. Gotowy żeby zacząć? Zanurzmy się!
 ## Warunki wstępne
@@ -99,9 +95,3 @@ Aspose.Slides for Java to potężna biblioteka do tworzenia, manipulowania i kon
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej dokumentacji i wsparcia?
  Sprawdź[dokumentacja](https://reference.aspose.com/slides/java/) I[forum wsparcia](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

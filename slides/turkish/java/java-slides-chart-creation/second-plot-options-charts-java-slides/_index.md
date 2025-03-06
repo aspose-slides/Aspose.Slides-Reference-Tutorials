@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Grafikler için İkinci Grafik Seçenekleri
 linktitle: Java Slaytlarındaki Grafikler için İkinci Grafik Seçenekleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'taki grafikleri nasıl özelleştireceğinizi öğrenin. İkinci senaryo seçeneklerini keşfedin ve sunumlarınızı geliştirin.
+type: docs
 weight: 12
 url: /tr/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarındaki Grafikler için İkinci Grafik Seçeneklerine Giriş
 
@@ -97,9 +93,3 @@ Pasta Pastası grafiğindeki ikinci pastanın boyutunu değiştirmek için`setSe
 ### Pie of Pie grafiğinde bölünmenin konumunu nasıl ayarlarım?
 
  Bölmenin konumunu Pie of Pie grafiğinde ayarlayabilirsiniz.`setPieSplitPosition` yöntem. İstenilen konumu belirtmek için değeri ayarlayın.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

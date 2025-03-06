@@ -3,14 +3,10 @@ title: SmartArt'ta Belirli Konumdaki Alt Düğüme Erişim
 linktitle: SmartArt'ta Belirli Konumdaki Alt Düğüme Erişim
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı kılavuzla Aspose.Slides for Java'da SmartArt'ı kullanmayı öğrenin. Adım adım talimatlar, örnekler ve en iyi uygulamalar dahildir.
+type: docs
 weight: 11
 url: /tr/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Gelişmiş SmartArt grafikleriyle sunumlarınızı bir sonraki seviyeye taşımak mı istiyorsunuz? Başka yerde arama! Aspose.Slides for Java, SmartArt nesneleriyle çalışma yeteneği de dahil olmak üzere sunum slaytlarını oluşturmak, değiştirmek ve yönetmek için güçlü bir paket sunar. Bu kapsamlı eğitimde, Aspose.Slides for Java kütüphanesini kullanarak SmartArt grafiğinde belirli bir konumdaki alt düğüme erişme ve bu düğümü değiştirme konusunda size yol göstereceğiz.
 
@@ -102,9 +98,3 @@ Tebrikler! Aspose.Slides for Java'yı kullanarak SmartArt grafiğindeki bir alt 
  adresinden destek alabilirsiniz.[Topluluk forumu aspose](https://forum.aspose.com/c/slides/11) veya kapsamlı bilgilere bakın[dokümantasyon](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java'nın tam lisansını satın alabilir miyim?
  Evet, tam lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

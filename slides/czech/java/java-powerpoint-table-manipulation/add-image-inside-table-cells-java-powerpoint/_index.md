@@ -3,14 +3,10 @@ title: Přidejte obrázek do buněk tabulky v Java PowerPoint
 linktitle: Přidejte obrázek do buněk tabulky v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat obrázky do buněk tabulky v prezentacích Java PowerPoint pomocí tohoto podrobného průvodce krok za krokem pomocí Aspose.Slides pro Java.
+type: docs
 weight: 10
 url: /cs/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Pokud chcete vylepšit své prezentace Java PowerPoint vložením obrázků do buněk tabulky, jste na správném místě! Dnes se ponoříme do podrobného průvodce pomocí Aspose.Slides for Java. Tento tutoriál vás provede celým procesem a zajistí, že i nováček bude moci sledovat a dosáhnout úžasných výsledků.
 ## Předpoklady
@@ -108,9 +104,3 @@ Aspose.Slides podporuje různé formáty obrázků včetně JPEG, PNG, BMP a dal
  Můžete odkazovat na[dokumentace](https://reference.aspose.com/slides/java/) pro podrobnější informace a příklady.
 ### Jak si mohu zakoupit Aspose.Slides pro Java?
  Můžete si jej zakoupit od[Aspose webové stránky](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Modifica i dati del grafico nella cartella di lavoro esterna in Diapositi
 linktitle: Modifica i dati del grafico nella cartella di lavoro esterna in Diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come modificare i dati del grafico in una cartella di lavoro esterna utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
+type: docs
 weight: 17
 url: /it/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione alla modifica dei dati del grafico nella cartella di lavoro esterna nelle diapositive Java
 
@@ -107,9 +103,3 @@ Sì, puoi modificare i dati in più grafici all'interno della stessa presentazio
 ### Come posso automatizzare questo processo per più presentazioni?
 
 È possibile creare un ciclo per elaborare più presentazioni, caricandole ciascuna, apportando le modifiche desiderate e salvando le presentazioni modificate una per una.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

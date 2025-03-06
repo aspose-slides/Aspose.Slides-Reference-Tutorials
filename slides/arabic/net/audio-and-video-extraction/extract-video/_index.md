@@ -3,14 +3,10 @@ title: كيفية استخراج الفيديو من الشريحة باستخد
 linktitle: استخراج الفيديو من الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخراج مقاطع الفيديو من شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. هذا الدليل خطوة بخطوة يبسط العملية بالنسبة لك.
+type: docs
 weight: 14
 url: /ar/net/audio-and-video-extraction/extract-video/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET هي مكتبة قوية تسمح لك بالعمل مع عروض PowerPoint التقديمية في بيئة .NET. إحدى الميزات المفيدة التي يوفرها هي القدرة على استخراج مقاطع الفيديو من الشرائح. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية استخراج مقطع فيديو من شريحة PowerPoint باستخدام Aspose.Slides for .NET.
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET هي مكتبة تتيح لتطبيقات .NET العمل
 
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  يمكنك العثور على الدعم على[منتدى Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

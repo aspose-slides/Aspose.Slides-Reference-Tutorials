@@ -3,14 +3,10 @@ title: Menguasai Bentuk Geometri dengan ShapeUtil - Aspose.Slides .NET
 linktitle: Menggunakan ShapeUtil untuk Bentuk Geometri di Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi kecanggihan Aspose.Slides untuk .NET dengan ShapeUtil untuk bentuk geometri dinamis. Buat presentasi yang menarik dengan mudah. Unduh sekarang! Pelajari cara menyempurnakan presentasi PowerPoint dengan Aspose.Slides. Jelajahi ShapeUtil untuk manipulasi bentuk geometri. Panduan langkah demi langkah dengan kode sumber .NET. Optimalkan presentasi secara efektif.
+type: docs
 weight: 17
 url: /id/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Membuat slide presentasi yang menarik secara visual dan dinamis adalah keterampilan yang penting, dan Aspose.Slides untuk .NET menyediakan perangkat canggih untuk mencapai hal ini. Dalam tutorial ini, kita akan mengeksplorasi penggunaan ShapeUtil untuk menangani bentuk geometri dalam slide presentasi. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan Aspose.Slides, panduan ini akan memandu Anda melalui proses penggunaan ShapeUtil untuk menyempurnakan presentasi Anda.
 ## Prasyarat
@@ -92,9 +88,3 @@ Aspose.Slides terutama mendukung bahasa .NET. Namun, Aspose menyediakan perpusta
  Kunjungi forum dukungan komunitas[Di Sini](https://forum.aspose.com/c/slides/11).
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Slides untuk .NET?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

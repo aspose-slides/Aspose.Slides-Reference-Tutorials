@@ -3,14 +3,10 @@ title: Преобразование презентации в HTML с внедр
 linktitle: Преобразование презентации в HTML с внедрением всех шрифтов в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации в HTML со встроенными шрифтами с помощью Aspose.Slides для Java. Это пошаговое руководство обеспечивает единообразное форматирование для удобного обмена.
+type: docs
 weight: 13
 url: /ru/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в преобразование презентации в HTML с использованием всех шрифтов в слайдах Java
 
@@ -112,9 +108,3 @@ finally
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
  Вы можете получить доступ к полной документации и ресурсам для Aspose.Slides для Java по адресу[Ссылки на Aspose.Slides для Java API](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

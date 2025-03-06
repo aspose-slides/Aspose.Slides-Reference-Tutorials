@@ -3,14 +3,10 @@ title: Propriedades de fonte para legenda individual em slides Java
 linktitle: Propriedades de fonte para legenda individual em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore as apresentações do PowerPoint com estilos, tamanhos e cores de fonte personalizados para legendas individuais em Java Slides usando Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /pt/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introdução às propriedades de fonte para legenda individual em slides Java
 
@@ -117,9 +113,3 @@ Lembre-se de descartar o objeto de apresentação quando terminar para liberar r
 ```java
 if (pres != null) pres.dispose();
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

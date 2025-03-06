@@ -3,14 +3,10 @@ title: PowerPoint에서 Light Rig의 효과적인 데이터 가져오기
 linktitle: PowerPoint에서 Light Rig의 효과적인 데이터 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 상세한 단계별 가이드에서 Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션에서 조명 장비의 효과적인 데이터를 검색하는 방법을 알아보세요.
+type: docs
 weight: 25
 url: /ko/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션 작업을 자동화하려고 하시나요? 더 이상 보지 마세요! Aspose.Slides for Java는 개발자가 Microsoft PowerPoint를 설치하지 않고도 PowerPoint 파일을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 조명 장치의 효과적인 데이터를 얻는 단계를 안내합니다. 노련한 Java 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 프로젝트에서 Aspose.Slides의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
 ## 전제 조건
@@ -70,9 +66,3 @@ Aspose.Slides for Java는 Java를 사용하여 PowerPoint 파일을 생성, 조�
  문서는 다음에서 구할 수 있습니다.[이 링크](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides에 대한 지원은 어떻게 받나요?
  Aspose.Slides 지원 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

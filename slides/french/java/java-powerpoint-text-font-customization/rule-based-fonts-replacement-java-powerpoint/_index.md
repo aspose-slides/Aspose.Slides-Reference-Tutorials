@@ -3,14 +3,10 @@ title: Remplacement des polices basées sur des règles dans Java PowerPoint
 linktitle: Remplacement des polices basées sur des règles dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment automatiser le remplacement des polices dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Améliorez l’accessibilité et la cohérence sans effort.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le domaine de l'automatisation PowerPoint basée sur Java, une gestion efficace des polices est cruciale pour garantir la cohérence et l'accessibilité entre les présentations. Aspose.Slides pour Java propose des outils robustes pour gérer les substitutions de polices de manière transparente, améliorant ainsi la fiabilité et l'attrait visuel des fichiers PowerPoint. Ce didacticiel explore le processus de remplacement des polices basé sur des règles à l'aide d'Aspose.Slides pour Java, permettant aux développeurs d'automatiser la gestion des polices sans effort.
 ## Conditions préalables
@@ -81,9 +77,3 @@ Oui, Aspose.Slides permet aux développeurs de définir des règles de substitut
 Oui, Aspose.Slides offre une prise en charge robuste des applications Java, permettant une intégration et une manipulation transparentes des fichiers PowerPoint.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides ?
  Pour des ressources, de la documentation et une assistance supplémentaires, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

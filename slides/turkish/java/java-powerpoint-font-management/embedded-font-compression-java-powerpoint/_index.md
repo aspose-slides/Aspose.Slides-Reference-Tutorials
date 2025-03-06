@@ -3,14 +3,10 @@ title: Java PowerPoint'te Gömülü Yazı Tipi Sıkıştırma
 linktitle: Java PowerPoint'te Gömülü Yazı Tipi Sıkıştırma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides kullanarak Java PowerPoint sunumlarında gömülü yazı tiplerini nasıl sıkıştıracağınızı öğrenin. Dosya boyutlarını zahmetsizce optimize edin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Dijital sunumların dinamik ortamında, kaliteden ödün vermeden dosya boyutlarını optimize etme yeteneği çok önemlidir. Aspose.Slides for Java, gömülü yazı tipi sıkıştırmayı etkinleştirerek PowerPoint sunumlarının verimliliğini artıran güçlü bir çözüm sunar. Bu eğitim, dosya boyutlarını etkili bir şekilde azaltmak, daha sorunsuz dağıtım ve sunumlarınızın gelişmiş performansını sağlamak için bu özellikten yararlanma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -68,9 +64,3 @@ Evet, Aspose.Slides sunumlarınızı yetkisiz erişime karşı korumak için şi
  Kesinlikle! Aspose.Slides topluluğundan özel destek aracılığıyla destek alabilirsiniz.[forum](https://forum.aspose.com/c/slides/11) veya öncelikli yardım için geçici bir lisans almayı düşünün.
 ### Aspose.Slides for Java'nın lisanslı sürümünü nasıl satın alabilirim?
 Aspose.Slides for Java'nın lisanslı bir sürümünü sağlanan web sitesinden satın alabilirsiniz.[bağlantı satın al](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

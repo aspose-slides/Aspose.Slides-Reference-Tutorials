@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET - OLE オブジェクト データの抽出チュ�
 linktitle: Aspose.Slides で OLE オブジェクトから埋め込みファイル データを抽出する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: OLE オブジェクトから埋め込みファイル データを抽出するステップ バイ ステップ ガイドを使用して、Aspose.Slides for .NET の可能性を最大限に引き出します。PowerPoint 処理能力を高めましょう。
+type: docs
 weight: 20
 url: /ja/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for .NET の世界を詳しく調べているなら、PowerPoint 処理能力を高めるための正しい道を歩んでいることになります。この包括的なガイドでは、Aspose.Slides を使用して OLE オブジェクトから埋め込みファイル データを抽出するプロセスを順を追って説明します。熟練した開発者でも、Aspose.Slides の初心者でも、このチュートリアルは、この強力な .NET ライブラリの可能性を最大限に引き出すための明確で詳細なロードマップを提供します。
 ## 前提条件
@@ -85,9 +81,3 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 はい、無料試用版を入手できます[ここ](https://releases.aspose.com/).
 ### Aspose.Slides 関連のクエリのサポートを受けるにはどうすればよいですか?
  Aspose.Slides サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/slides/11)援助をお願いします。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

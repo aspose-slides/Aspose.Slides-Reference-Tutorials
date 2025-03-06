@@ -3,14 +3,10 @@ title: 使用 Java 變更 SmartArt 形狀顏色樣式
 linktitle: 使用 Java 變更 SmartArt 形狀顏色樣式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Java 和 Aspose.Slides 在 PowerPoint 中動態變更 SmartArt 形狀顏色。毫不費力地增強視覺吸引力。
+type: docs
 weight: 20
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-style-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將逐步介紹使用 Java 和 Aspose.Slides 來變更 SmartArt 形狀顏色樣式的過程。 SmartArt 是 PowerPoint 簡報中的強大功能，可用於建立具有視覺吸引力的圖形。透過變更 SmartArt 造型的色彩樣式，您可以增強簡報的整體設計和視覺效果。我們將把這個過程分解為易於遵循的步驟。
 ## 先決條件
@@ -67,9 +63,3 @@ presentation.save(dataDir + "ChangeSmartArtColorStyle_out.pptx", SaveFormat.Pptx
 是的，Aspose.Slides 支援多種 PowerPoint 版本，確保與大多數簡報檔案相容。
 ### 在哪裡可以獲得 Aspose.Slides 相關查詢的支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求社區和 Aspose 支援人員的協助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

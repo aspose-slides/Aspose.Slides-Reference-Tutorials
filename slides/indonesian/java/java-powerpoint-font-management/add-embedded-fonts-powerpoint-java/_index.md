@@ -3,14 +3,10 @@ title: Tambahkan Font Tertanam di PowerPoint menggunakan Java
 linktitle: Tambahkan Font Tertanam di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan font yang disematkan ke presentasi PowerPoint menggunakan Java dengan Aspose.Slides untuk Java. Pastikan tampilan yang konsisten di seluruh perangkat.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan font yang disematkan ke presentasi PowerPoint menggunakan Java, khususnya memanfaatkan Aspose.Slides untuk Java. Font yang disematkan memastikan presentasi Anda tampak konsisten di berbagai perangkat, meskipun font asli tidak tersedia. Mari selami langkah-langkahnya:
 ## Prasyarat
@@ -73,9 +69,3 @@ Ya, menyematkan font dapat sedikit meningkatkan ukuran file presentasi, namun me
 Aspose.Slides untuk Java mendukung penyematan font TrueType, yang mencakup berbagai font yang biasa digunakan dalam presentasi.
 ### Bisakah saya menyematkan font secara terprogram menggunakan Aspose.Slides untuk Java?
 Ya, seperti yang ditunjukkan dalam tutorial ini, Anda dapat menyematkan font secara terprogram menggunakan Aspose.Slides for Java API.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

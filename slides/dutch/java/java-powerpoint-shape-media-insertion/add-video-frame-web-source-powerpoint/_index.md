@@ -3,14 +3,10 @@ title: Voeg een videoframe toe van de webbron in PowerPoint
 linktitle: Voeg een videoframe toe van de webbron in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u uw PowerPoint-presentaties kunt verbeteren door videoframes uit webbronnen toe te voegen met Aspose.Slides voor Java.
+type: docs
 weight: 18
 url: /nl/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie leren we hoe u een videoframe van een webbron, zoals YouTube, aan een PowerPoint-presentatie kunt toevoegen met Aspose.Slides voor Java. Door deze stapsgewijze instructies te volgen, kunt u uw presentaties verbeteren door boeiende multimedia-elementen op te nemen.
 ## Vereisten
@@ -88,9 +84,3 @@ Absoluut! Aspose.Slides biedt uitgebreide opties voor het aanpassen van het uite
 Aspose.Slides ondersteunt een breed scala aan PowerPoint-versies, waardoor compatibiliteit tussen verschillende platforms wordt gegarandeerd.
 ### Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Slides?
  U kunt een bezoek brengen aan de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor hulp, documentatie en gemeenschapsondersteuning.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

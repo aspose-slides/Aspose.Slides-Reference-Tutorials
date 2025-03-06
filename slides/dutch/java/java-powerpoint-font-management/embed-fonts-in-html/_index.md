@@ -3,14 +3,10 @@ title: Sluit lettertypen in HTML in met Aspose.Slides voor Java
 linktitle: Sluit lettertypen in HTML in met Aspose.Slides voor Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lettertypen in HTML kunt insluiten met Aspose.Slides voor Java om consistente typografie op verschillende platforms en apparaten te garanderen.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Aspose.Slides voor Java is een krachtig hulpmiddel voor Java-ontwikkelaars die PowerPoint-presentaties programmatisch willen manipuleren. In deze zelfstudie verdiepen we ons in het proces van het insluiten van lettertypen in HTML met behulp van Aspose.Slides voor Java. Door lettertypen in te sluiten, zorgt u ervoor dat uw presentaties op verschillende platforms en apparaten het beoogde uiterlijk behouden, zelfs als de vereiste lettertypen niet lokaal zijn geïnstalleerd.
 ## Vereisten
@@ -62,9 +58,3 @@ Ja, Aspose.Slides ondersteunt het insluiten van lettertypen in verschillende uit
  U kunt een bezoek brengen aan de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning of neem contact op met Aspose-ondersteuning voor professionele hulp.
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor Java?
 Ja, u kunt een tijdelijke licentie verkrijgen bij de[aankooppagina](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

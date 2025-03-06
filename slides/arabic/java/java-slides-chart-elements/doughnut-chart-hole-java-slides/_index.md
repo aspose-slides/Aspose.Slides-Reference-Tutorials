@@ -3,14 +3,10 @@ title: ثقب الرسم البياني الدائري في شرائح جافا
 linktitle: ثقب الرسم البياني الدائري في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإنشاء مخططات دائرية بأحجام فتحات مخصصة في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لتخصيص المخطط.
+type: docs
 weight: 11
 url: /ar/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى المخطط الدائري المجوف مع وجود ثقب في شرائح Java
 
@@ -98,9 +94,3 @@ finally
 ### هل من الممكن إضافة عنوان إلى الرسم البياني؟
 
  بالتأكيد! يمكنك إضافة عنوان إلى المخطط باستخدام`setTitle` الطريقة على`IChart` الكائن وتوفير نص العنوان المطلوب.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Dominar las animaciones de rebobinado en presentaciones con Aspose.Slides
 linktitle: Rebobinar animación en diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a rebobinar animaciones en diapositivas de PowerPoint usando Aspose.Slides para .NET. Siga esta guía paso a paso con ejemplos completos de código fuente.
+type: docs
 weight: 13
 url: /es/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En el dinámico mundo de las presentaciones, la incorporación de animaciones cautivadoras puede mejorar significativamente la participación. Aspose.Slides para .NET proporciona un poderoso conjunto de herramientas para darle vida a sus presentaciones. Una característica interesante es la capacidad de rebobinar animaciones en las diapositivas. En esta guía completa, lo guiaremos a través del proceso paso a paso, permitiéndole aprovechar todo el potencial del rebobinado de animación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -84,9 +80,3 @@ Sí, puedes personalizar el código para aplicar animación de rebobinado de for
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) buscar ayuda y relacionarse con la comunidad.
 ### ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
  Sí, puede adquirir una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

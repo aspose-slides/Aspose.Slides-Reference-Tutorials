@@ -3,14 +3,10 @@ title: 在 Aspose.Slides 中为 SmartArt 子注释创建缩略图
 linktitle: 在 Aspose.Slides 中为 SmartArt 子注释创建缩略图
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 创建引人入胜的 SmartArt Child Note 缩略图。使用动态视觉效果提升您的演示文稿！
+type: docs
 weight: 15
 url: /zh/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在动态演示领域，Aspose.Slides for .NET 是一款功能强大的工具，它为开发人员提供了以编程方式操作和增强 PowerPoint 演示文稿的能力。一个有趣的功能是能够为 SmartArt 子注释生成缩略图，为您的演示文稿增添一层视觉吸引力。本分步指南将引导您完成使用 Aspose.Slides for .NET 为 SmartArt 子注释创建缩略图的过程。
 ## 先决条件
@@ -66,9 +62,3 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
 答：访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)与社区互动、提出问题并寻找解决方案。
 ### 问：我可以购买 Aspose.Slides for .NET 吗？
 答：当然可以！了解购买选项[这里](https://purchase.aspose.com/buy)在您的项目中充分发挥 Aspose.Slides 的潜力。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

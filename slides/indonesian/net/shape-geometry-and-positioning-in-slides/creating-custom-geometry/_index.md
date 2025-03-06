@@ -3,14 +3,10 @@ title: Membuat Geometri Kustom di C# dengan Aspose.Slides untuk .NET
 linktitle: Membuat Geometri Kustom dalam Bentuk Geometri menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat geometri khusus di Aspose.Slides untuk .NET. Tingkatkan presentasi Anda dengan bentuk yang unik. Panduan langkah demi langkah untuk pengembang C#.
+type: docs
 weight: 15
 url: /id/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menambahkan bentuk dan geometri unik dapat meningkatkan konten Anda, menjadikannya lebih menarik dan menarik secara visual. Aspose.Slides untuk .NET memberikan solusi canggih untuk membuat geometri khusus dalam bentuk, memungkinkan Anda melepaskan diri dari desain konvensional. Tutorial ini akan memandu Anda melalui proses pembuatan geometri khusus di GeometryShape menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -98,9 +94,3 @@ Ya, Aspose.Slides mendukung berbagai bahasa pemrograman, tetapi tutorial ini ber
  Mencari bantuan dan terlibat dengan komunitas di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### 5. Di mana saya dapat membeli Aspose.Slides untuk .NET?
  Anda dapat membeli Aspose.Slides untuk .NET[Di Sini](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

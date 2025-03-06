@@ -3,14 +3,10 @@ title: Java 슬라이드의 원형 차트
 linktitle: Java 슬라이드의 원형 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 멋진 원형 차트를 만드는 방법을 알아보세요. Java 개발자를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 23
 url: /ko/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에서 원형 차트 만들기 소개
 
@@ -287,9 +283,3 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for Java 작업에 대한 추가 정보와 예제를 어떻게 찾을 수 있나요?
 
  자세한 내용, 자세한 문서 및 추가 예제를 보려면 다음을 방문하세요.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/). 도서관을 효과적으로 사용하는 데 도움이 되는 포괄적인 리소스를 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Hyperlinkmanipulatie
 linktitle: Hyperlinkmanipulatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw .NET-applicaties met uitgebreide hyperlinkmanipulatie met Aspose.Slides. Leer hoe u hyperlinks beheert, interactieve presentaties maakt en de betrokkenheid van gebruikers moeiteloos vergroot.
+type: docs
 weight: 13
 url: /nl/net/hyperlink-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering:
 
@@ -31,9 +27,3 @@ Leer hoe u hyperlinks naar dia's in PowerPoint kunt toevoegen met Aspose.Slides 
 Leer hoe u hyperlinks in presentaties effectief kunt beheren met Aspose.Slides voor .NET. Automatiseer taken, maak interactieve menu's en verbeter de betrokkenheid van gebruikers.
 ### [Veranderlijke hyperlinkcreatie](./mutable-hyperlink/)
 Leer hoe u veranderlijke hyperlinks kunt maken met Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode voor dynamische presentaties.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

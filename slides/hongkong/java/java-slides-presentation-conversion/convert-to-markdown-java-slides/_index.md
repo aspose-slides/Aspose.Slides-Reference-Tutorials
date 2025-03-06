@@ -3,14 +3,10 @@ title: 在 Java 投影片中轉換為 Markdown
 linktitle: 在 Java 投影片中轉換為 Markdown
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 Markdown。請按照此逐步指南輕鬆改造您的投影片。
+type: docs
 weight: 24
 url: /zh-hant/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 簡介 在 Java 中轉換為 Markdown 投影片
 
@@ -140,9 +136,3 @@ try {
 ### 在哪裡可以找到更多文件和資源？
 
 您可以參考 Aspose.Slides for Java 文件：[Java API 參考的 Aspose.Slides](https://reference.aspose.com/slides/java/)取得詳細資訊和其他範例。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

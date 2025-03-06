@@ -3,14 +3,10 @@ title: Pas buitenste schaduweffecten toe in Java PowerPoint
 linktitle: Pas buitenste schaduweffecten toe in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u eenvoudig buitenste schaduweffecten kunt toepassen in Java PowerPoint-presentaties met behulp van Aspose.Slides met onze gedetailleerde, stapsgewijze handleiding.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Om boeiende presentaties te maken, moet u vaak verschillende effecten toevoegen om de visuele aantrekkingskracht van uw dia's te vergroten. Eén zo'n effect is de buitenste schaduw, die ervoor kan zorgen dat uw elementen eruit springen en diepte aan uw inhoud toevoegt. In deze zelfstudie doorlopen we het proces van het toepassen van buitenste schaduweffecten op vormen in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -118,9 +114,3 @@ Ja, u kunt Aspose.Slides voor Java gebruiken met elke Java-IDE zoals IntelliJ ID
  U kunt een tijdelijke licentie verkrijgen bij de[Aspose-website](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik meer voorbeelden en documentatie voor Aspose.Slides vinden?
  Meer voorbeelden en gedetailleerde documentatie vindt u op de[Aspose.Slides documentatiepagina](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

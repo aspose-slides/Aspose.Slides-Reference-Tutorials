@@ -3,14 +3,10 @@ title: スライドトランジション効果
 linktitle: スライドトランジション効果
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、魅力的なスライド遷移効果でプレゼンテーションを強化します。魅力的な視聴エクスペリエンスを実現するために、スライドに動的なアニメーションを追加する方法を学びます。
+type: docs
 weight: 19
 url: /ja/net/slide-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入：
 
@@ -41,9 +37,3 @@ Aspose.Slides for .NET を使用して、プレゼンテーション スライ�
 Aspose.Slides for .NET を使用してスライドにトランジション モーフ タイプを設定する方法を学びます。コード例付きのステップ バイ ステップ ガイド。今すぐプレゼンテーションを強化しましょう。 
 ### [シンプルなスライドトランジション](./simple-slide-transitions/)
 Aspose.Slides for .NET を使用して、シンプルなスライド トランジションで PowerPoint プレゼンテーションを強化する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。魅力的なビジュアルで視聴者を魅了しましょう。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

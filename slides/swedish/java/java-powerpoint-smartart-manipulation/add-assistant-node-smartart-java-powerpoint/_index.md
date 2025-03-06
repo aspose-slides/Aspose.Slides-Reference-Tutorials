@@ -3,14 +3,10 @@ title: Lägg till Assistant Node till SmartArt i Java PowerPoint
 linktitle: Lägg till Assistant Node till SmartArt i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till en assistentnod till SmartArt i Java PowerPoint-presentationer med Aspose.Slides. Förbättra dina färdigheter i PowerPoint-redigering.
+type: docs
 weight: 17
 url: /sv/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 I den här självstudien guidar vi dig genom processen att lägga till en assistentnod till SmartArt i Java PowerPoint-presentationer med Aspose.Slides.
 ## Förutsättningar
@@ -74,9 +70,3 @@ Aspose.Slides stöder PowerPoint-versioner från 97-2003 till den senaste versio
 Ja, du kan anpassa utseendet med hjälp av olika egenskaper och metoder som tillhandahålls av Aspose.Slides.
 ### Finns det någon gräns för antalet noder i en SmartArt?
 SmartArt i PowerPoint stöder ett stort antal noder, men det rekommenderas att hålla det rimligt för bättre läsbarhet.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

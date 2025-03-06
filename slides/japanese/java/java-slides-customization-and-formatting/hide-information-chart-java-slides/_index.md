@@ -3,14 +3,10 @@ title: Java スライドのチャートから情報を非表示にする
 linktitle: Java スライドのチャートから情報を非表示にする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドのグラフ要素を非表示にする方法を学びます。ステップバイステップのガイダンスとソース コードを使用して、プレゼンテーションをカスタマイズし、明瞭性と美しさを高めます。
+type: docs
 weight: 13
 url: /ja/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでチャートから情報を非表示にする方法の紹介
 
@@ -176,9 +172,3 @@ finally
 ### グラフのタイトルと軸ラベルをプログラムで変更するにはどうすればよいですか?
 
 それぞれのプロパティにアクセスし、必要なテキストと書式を設定することで、グラフと軸のタイトルとラベルを設定できます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

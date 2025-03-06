@@ -3,14 +3,10 @@ title: Aspose.Slides For Java Kullanarak Medya Kontrolleri
 linktitle: Java Slaytlar Medya Denetimleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java eğitimlerini kullanarak Java slaytlarına medya kontrollerini nasıl uygulayacağınızı öğrenin. Sunumlarınızı ses ve videoyla sorunsuz bir şekilde geliştirin.
+type: docs
 weight: 22
 url: /tr/java/media-controls/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Günümüzün dijital çağında sunumlar yalnızca metin ve görsellerden oluşan statik slaytlardan ibaret değildir. İzleyicinin ilgisini çeken ve büyüleyen dinamik, etkileşimli deneyimlere dönüştüler. Sunumlarınıza yeni bir boyut katmak isteyen bir Java geliştiricisiyseniz doğru yerdesiniz. Bu makalede, Aspose.Slides for Java eğitimlerini kullanarak Java slaytlarında medya kontrollerinin nasıl uygulanacağını inceleyeceğiz.
 
@@ -55,9 +51,3 @@ Aspose.Slides for Java ile Java Slides kesintilerini yönetme konusunda uzmanla�
 Aspose.Slides for Java kullanarak Java slaytlarındaki sunum özelliklerini nasıl güncelleyeceğinizi öğrenin. Etkili sunumlar için yazarı, başlığı ve daha fazlasını özelleştirin.
 ### [Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncelleme](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarınızı güncellenmiş meta verilerle geliştirin. Java Slaytlar'daki şablonları kullanarak yazar, başlık ve anahtar kelimeler gibi özellikleri güncellemeyi öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

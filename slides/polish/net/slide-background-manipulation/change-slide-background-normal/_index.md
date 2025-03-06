@@ -3,14 +3,10 @@ title: Jak zmienić tło slajdu w Aspose.Slides .NET
 linktitle: Zmień normalne tło slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak zmieniać tło slajdów za pomocą Aspose.Slides dla .NET i tworzyć wspaniałe prezentacje programu PowerPoint.
+type: docs
 weight: 15
 url: /pl/net/slide-background-manipulation/change-slide-background-normal/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 świecie projektowania prezentacji tworzenie przyciągających wzrok i angażujących slajdów jest niezbędne. Aspose.Slides dla .NET to potężne narzędzie, które pozwala programowo manipulować prezentacjami programu PowerPoint. W tym przewodniku krok po kroku pokażemy, jak zmienić tło slajdu za pomocą Aspose.Slides dla .NET. Dzięki temu możesz poprawić atrakcyjność wizualną prezentacji i zwiększyć ich skuteczność. 
 
@@ -103,9 +99,3 @@ Z pewnością! Możesz przeglądać slajdy w pętli i stosować żądane zmiany 
 ### 5. Jak uzyskać tymczasową licencję na Aspose.Slides dla .NET?
 
  Jeśli potrzebujesz tymczasowej licencji dla swojego projektu, możesz ją uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

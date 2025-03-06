@@ -3,14 +3,10 @@ title: Effektive Light Rig-Daten mit Aspose.Slides meistern
 linktitle: Abrufen effektiver Licht-Rig-Daten in Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationsfolien mit Aspose.Slides für .NET! Erfahren Sie Schritt für Schritt, wie Sie effektive Licht-Rig-Daten abrufen. Verbessern Sie jetzt Ihr visuelles Storytelling!
+type: docs
 weight: 19
 url: /de/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Das Erstellen dynamischer und optisch ansprechender Präsentationsfolien ist im heutigen digitalen Zeitalter eine gängige Anforderung. Ein wesentlicher Aspekt ist die Manipulation der Lichtanlageneigenschaften, um die Gesamtästhetik zu verbessern. Dieses Tutorial führt Sie durch den Prozess zum Erhalten effektiver Lichtanlagendaten in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -68,9 +64,3 @@ Aspose.Slides unterstützt hauptsächlich .NET-Sprachen wie C#. Es sind jedoch �
  Besuchen Sie das Support-Forum[Hier](https://forum.aspose.com/c/slides/11).
 ### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
  Ja, Sie können eine vorübergehende Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

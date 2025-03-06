@@ -3,14 +3,10 @@ title: Définir la plage de données dans les diapositives Java
 linktitle: Définir la plage de données dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à définir facilement des plages de données dans des diapositives Java avec Aspose.Slides for Java. Créez des présentations dynamiques et basées sur les données avec ce guide étape par étape.
+type: docs
 weight: 18
 url: /fr/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition de la plage de données dans les diapositives Java
 
@@ -101,9 +97,3 @@ Vous pouvez accéder à des diapositives et des formes spécifiques dans une pr�
 ### Où puis-je trouver plus de documentation et d’exemples pour Aspose.Slides pour Java ?
 
  Vous pouvez trouver une documentation complète et des exemples pour Aspose.Slides pour Java sur le site Web de documentation Aspose :[Aspose.Slides pour les références de l'API Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

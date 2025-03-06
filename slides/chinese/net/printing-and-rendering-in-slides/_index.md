@@ -3,14 +3,10 @@ title: 幻灯片中的打印和渲染
 linktitle: 幻灯片中的打印和渲染
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 .NET 的 Aspose.Slides 教程增强您的幻灯片打印和渲染技能。逐步学习高质量输出的技术。立即开始幻灯片操作！
+type: docs
 weight: 10
 url: /zh/net/printing-and-rendering-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍：
 
@@ -45,9 +41,3 @@ url: /zh/net/printing-and-rendering-in-slides/
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中打印特定幻灯片。我们的分步指南涵盖安装、自定义和处理异常，提供无缝的方式来自动执行 PowerPoint 任务。
 ### [Aspose.Slides 支持数字签名](./digital-signature-support/)
 使用 Aspose.Slides for .NET 通过数字签名增强演示文稿的安全性。逐步学习如何在 PowerPoint 中添加和验证签名。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

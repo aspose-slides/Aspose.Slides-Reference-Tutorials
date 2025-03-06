@@ -3,14 +3,10 @@ title: Aspose.Slides kullanarak Görüntüyü Slayt Arka Planı Olarak Ayarlama
 linktitle: Bir Görüntüyü Slayt Arka Planı Olarak Ayarlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint'te görüntü arka planlarını nasıl ayarlayacağınızı öğrenin. Sunumlarınızı kolaylıkla geliştirin.
+type: docs
 weight: 13
 url: /tr/net/slide-background-manipulation/set-image-as-background/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Sunum tasarımı ve otomasyon dünyasında Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarını kolaylıkla düzenlemelerine olanak tanıyan güçlü ve çok yönlü bir araçtır. İster özelleştirilmiş raporlar oluşturuyor olun, ister çarpıcı sunumlar oluşturuyor olun, ister slayt oluşturmayı otomatikleştiriyor olun, Aspose.Slides for .NET değerli bir varlıktır. Bu adım adım kılavuzda, bu olağanüstü kütüphaneyi kullanarak bir görseli slayt arka planı olarak nasıl ayarlayacağınızı göstereceğiz.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET öncelikle Windows ortamları için tasarlanmıştır. Ma
 ### 5. Aspose.Slides for .NET'in deneme sürümü var mı?
 
  Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresteki web sitesinden edinebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

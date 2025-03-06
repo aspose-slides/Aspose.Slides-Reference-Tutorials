@@ -3,14 +3,10 @@ title: Chuyển đổi sang PDF Tuân thủ trong Java Slides
 linktitle: Chuyển đổi sang PDF Tuân thủ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang PDF tuân thủ PDF/A-2a bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi với mã nguồn để lưu trữ và truy cập liền mạch.
+type: docs
 weight: 26
 url: /vi/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Tuân thủ chuyển đổi sang PDF trong Java Slides
 
@@ -118,9 +114,3 @@ Có, bạn thường cần có giấy phép hợp lệ để Aspose.Slides for J
 ## Tôi có thể tìm thêm thông tin về việc tuân thủ Aspose.Slides cho Java và PDF ở đâu?
 
  Để biết thêm thông tin chi tiết về Aspose.Slides cho Java và các tính năng của nó, bao gồm cài đặt tuân thủ PDF, bạn có thể tham khảo tài liệu trên[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/). Ngoài ra, bạn có thể khám phá các ví dụ và hướng dẫn về mã để nâng cao hơn nữa kiến thức của mình về thư viện.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Generación de miniaturas de diapositivas en Aspose.Slides
 linktitle: Generación de miniaturas de diapositivas en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Genere miniaturas de diapositivas en Aspose.Slides para .NET con guía paso a paso y ejemplos de código. Personaliza la apariencia y guarda miniaturas. Mejore las vistas previas de las presentaciones.
+type: docs
 weight: 10
 url: /es/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Si buscas generar miniaturas de diapositivas en tus aplicaciones .NET usando Aspose.Slides, estás en el lugar correcto. La creación de miniaturas de diapositivas puede ser una característica valiosa en varios escenarios, como la creación de visores de PowerPoint personalizados o la generación de vistas previas de imágenes de presentaciones. En esta guía completa, lo guiaremos a través del proceso paso a paso. Cubriremos los requisitos previos, la importación de espacios de nombres y dividiremos cada ejemplo en varios pasos, lo que le facilitará la implementación de la generación de miniaturas de diapositivas sin problemas.
 
@@ -115,9 +111,3 @@ R: Sí, puede ajustar las dimensiones modificando los parámetros en el`GetThumb
 R: Sí, Aspose.Slides es una solución sólida para aplicaciones personales y comerciales. Puede encontrar detalles de la licencia en el sitio web de Aspose.
 
  Para obtener más ayuda o preguntas, no dude en visitar el[Foro de soporte de Aspose.Slides](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

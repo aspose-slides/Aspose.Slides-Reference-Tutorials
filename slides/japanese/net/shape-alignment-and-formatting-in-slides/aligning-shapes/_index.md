@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET で図形の配置をマスターする
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形を整列させる
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーション スライドで図形を簡単に整列させる方法を学びます。正確な整列により視覚的な魅力を高めます。今すぐダウンロードしてください。
+type: docs
 weight: 10
 url: /ja/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 視覚的に魅力的なプレゼンテーション スライドを作成するには、多くの場合、図形を正確に配置する必要があります。Aspose.Slides for .NET は、これを簡単に実現する強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドの図形を配置する方法について説明します。
 ## 前提条件
@@ -86,9 +82,3 @@ Aspose.Slides には、AlignTop、AlignRight、AlignBottom、AlignLeft など、
 Aspose.Slides for .NET は主に Windows アプリケーション向けに設計されていますが、Aspose は Java やその他のプラットフォーム用のライブラリも提供しています。
 ### さらに支援やサポートを受けるにはどうすればよいですか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

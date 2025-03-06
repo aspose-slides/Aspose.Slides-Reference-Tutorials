@@ -3,14 +3,10 @@ title: Java PowerPoint의 포함된 글꼴 압축
 linktitle: Java PowerPoint의 포함된 글꼴 압축
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에 포함된 글꼴을 압축하는 방법을 알아보세요. 손쉽게 파일 크기를 최적화하세요.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 디지털 프레젠테이션의 역동적인 환경에서는 품질 저하 없이 파일 크기를 최적화하는 능력이 무엇보다 중요합니다. Aspose.Slides for Java는 포함된 글꼴 압축을 활성화하여 PowerPoint 프레젠테이션의 효율성을 향상시키는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 이 기능을 활용하여 파일 크기를 효과적으로 줄이고 프레젠테이션의 원활한 배포와 향상된 성능을 보장하는 프로세스를 안내합니다.
 ## 전제 조건
@@ -68,9 +64,3 @@ Java 기반 PowerPoint 프리젠테이션에 포함된 글꼴 압축을 통합�
  틀림없이! 전용 사이트를 통해 Aspose.Slides 커뮤니티에서 지원을 요청할 수 있습니다.[법정](https://forum.aspose.com/c/slides/11) 또는 우선 지원을 위한 임시 면허 취득을 고려해보세요.
 ### Java용 Aspose.Slides의 라이선스 버전을 어떻게 구매할 수 있나요?
 제공된 웹 사이트를 사용하여 Java용 Aspose.Slides의 라이선스 버전을 구입할 수 있습니다.[구매링크](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

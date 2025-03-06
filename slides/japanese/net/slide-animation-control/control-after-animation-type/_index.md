@@ -3,14 +3,10 @@ title: Aspose.Slides を使用した PowerPoint のアフターアニメーシ�
 linktitle: スライドのアニメーション入力後の制御
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint スライドのアニメーション後の効果を制御する方法を学びます。動的な視覚要素を使用してプレゼンテーションを強化します。
+type: docs
 weight: 11
 url: /ja/net/slide-animation-control/control-after-animation-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 動的なアニメーションでプレゼンテーションを強化することは、視聴者の関心を引くために重要な要素です。Aspose.Slides for .NET は、スライドのアニメーション後の効果を制御するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してスライドのアニメーション後のタイプを操作する手順を説明します。このステップ バイ ステップ ガイドに従うことで、よりインタラクティブで視覚的に魅力的なプレゼンテーションを作成できます。
 ## 前提条件
@@ -91,9 +87,3 @@ pres.Save(outPath, SaveFormat.Pptx);
 Aspose.Slides は、PPTX、PPT、PDF など、さまざまな形式をサポートしています。完全なリストについては、ドキュメントを確認してください。
 ### Aspose.Slides に関するサポートを受けたり質問したりするにはどこに行けばよいですか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)サポートとコミュニティの交流のため。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

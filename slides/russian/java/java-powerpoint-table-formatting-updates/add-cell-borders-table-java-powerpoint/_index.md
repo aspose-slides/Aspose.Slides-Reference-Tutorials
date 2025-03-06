@@ -3,14 +3,10 @@ title: Добавить границы ячеек в таблицу в Java Powe
 linktitle: Добавить границы ячеек в таблицу в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавить границы ячеек в таблицы в презентациях Java PowerPoint с помощью Aspose.Slides. Это пошаговое руководство позволяет легко улучшить ваши слайды.
+type: docs
 weight: 10
 url: /ru/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Привет! Итак, вы хотите добавить границы ячеек в таблицу в презентации PowerPoint с помощью Java, да? Ну, вы в правильном месте! Это руководство шаг за шагом проведет вас через весь процесс с использованием библиотеки Aspose.Slides для Java. К концу этого руководства вы получите хорошее представление о том, как профессионально управлять таблицами в слайдах PowerPoint. Давайте углубимся и сделаем ваши презентации стильными и профессиональными!
 ## Предварительные условия
@@ -100,9 +96,3 @@ if (pres != null) pres.dispose();
 Да, вы можете автоматизировать процесс, просматривая слайды и применяя логику создания таблицы к каждому слайду.
 ### Какие форматы файлов поддерживает Aspose.Slides?
 Aspose.Slides поддерживает различные форматы, включая PPT, PPTX, PDF и другие.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

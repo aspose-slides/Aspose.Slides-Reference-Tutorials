@@ -3,14 +3,10 @@ title: การตั้งค่าสี Slice แผนภูมิวงก
 linktitle: การตั้งค่าสี Slice แผนภูมิวงกลมอัตโนมัติใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิวงกลมแบบไดนามิกด้วยสีชิ้นอัตโนมัติในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
+type: docs
 weight: 24
 url: /th/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการตั้งค่าสี Slice แผนภูมิวงกลมอัตโนมัติใน Java Slides
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 คุณสามารถปรับขนาดตัวอักษร ตัวหนา และลักษณะตัวเอียงได้ตามต้องการ
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

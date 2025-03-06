@@ -3,14 +3,10 @@ title: Adicionar coluna em caixas de texto com Aspose.Slides para Java
 linktitle: Adicionar coluna em caixas de texto com Aspose.Slides para Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar colunas a caixas de texto no PowerPoint usando Aspose.Slides para Java. Aprimore suas apresentações com este guia passo a passo.
+type: docs
 weight: 10
 url: /pt/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Neste tutorial, exploraremos como aprimorar caixas de texto adicionando colunas usando Aspose.Slides para Java. Aspose.Slides é uma poderosa biblioteca Java que permite aos desenvolvedores criar, manipular e converter apresentações do PowerPoint de forma programática sem a necessidade do Microsoft Office. Adicionar colunas às caixas de texto pode melhorar muito a legibilidade e a organização do conteúdo dos slides, tornando suas apresentações mais envolventes e profissionais.
 ## Pré-requisitos
@@ -86,9 +82,3 @@ Sim, Aspose.Slides suporta Java 11 e versões superiores.
 Não, o Aspose.Slides não requer a instalação do Microsoft Office na máquina.
 ### Onde posso encontrar mais documentação sobre Aspose.Slides para Java?
  Documentação detalhada está disponível[aqui](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

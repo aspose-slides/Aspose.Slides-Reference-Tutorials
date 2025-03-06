@@ -3,14 +3,10 @@ title: 在 PowerPoint 中呈现注释
 linktitle: 在 PowerPoint 中呈现注释
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中呈现注释。自定义外观并高效生成图像预览。
+type: docs
 weight: 10
 url: /zh/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在本教程中，我们将介绍使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中呈现注释的过程。呈现注释可用于各种目的，例如生成包含注释的演示文稿的图像预览。
 ## 先决条件
@@ -76,9 +72,3 @@ try {
 是的，使用 Aspose.Slides，您无需打开 PowerPoint 应用程序即可对图像发表评论。
 ### 有没有办法将评论直接呈现到 PDF 文档中？
 是的，Aspose.Slides 提供将注释直接呈现到 PDF 文档的功能，允许无缝集成到您的文档工作流程中。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

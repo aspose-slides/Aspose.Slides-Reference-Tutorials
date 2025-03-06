@@ -3,14 +3,10 @@ title: Kontrola animacji slajdów
 linktitle: Kontrola animacji slajdów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje za pomocą dynamicznych animacji za pomocą Aspose.Slides dla .NET. Z tego obszernego samouczka dowiesz się, jak krok po kroku sterować animacjami slajdów.
+type: docs
 weight: 18
 url: /pl/net/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp:
 
@@ -40,9 +36,3 @@ Dowiedz się, jak kontrolować typy animacji na slajdach programu PowerPoint za 
 Dowiedz się, jak powtarzać animacje na slajdzie za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera kod źródłowy i jasne instrukcje dotyczące programowego dodawania urzekających animacji do prezentacji programu PowerPoint.
 ### [Przewiń animację na slajdzie](./rewind-animation-on-slide/)
 Dowiedz się, jak przewijać animacje na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnymi przykładami kodu źródłowego, aby dynamicznie ulepszać swoje prezentacje.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

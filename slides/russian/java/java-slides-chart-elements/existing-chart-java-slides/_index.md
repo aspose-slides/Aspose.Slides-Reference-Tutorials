@@ -3,14 +3,10 @@ title: Существующая диаграмма в слайдах Java
 linktitle: Существующая диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшите свои презентации PowerPoint с помощью Aspose.Slides для Java. Научитесь программно изменять существующие диаграммы. Пошаговое руководство с исходным кодом для настройки диаграммы.
+type: docs
 weight: 12
 url: /ru/java/chart-elements/existing-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в существующую диаграмму в слайдах Java с использованием Aspose.Slides для Java
 
@@ -188,9 +184,3 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### Есть ли способ удалить серию из диаграммы?
 
  Да, вы можете удалить серию из диаграммы, используя`chart.getChartData().getSeries().removeAt(index)` метод, где`index`— это индекс серии, которую вы хотите удалить.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

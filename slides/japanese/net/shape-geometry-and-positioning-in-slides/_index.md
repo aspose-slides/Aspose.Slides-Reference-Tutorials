@@ -3,14 +3,10 @@ title: Aspose.Slides を使用したスライド内の図形のジオメトリ�
 linktitle: スライド内の図形の配置と形状
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: スライド内の図形のジオメトリと配置に関する Aspose.Slides チュートリアルで、スライドの操作スキルを高めます。図形、その寸法、配置をプログラムで制御する方法を学びます。
+type: docs
 weight: 13
 url: /ja/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入
 
@@ -55,9 +51,3 @@ Aspose.Slides を使用して、ライト リグ データをプレゼンテー�
 Aspose.Slides を使用して、効果的なベベル データでプレゼンテーション スライドを強化する方法を学びます。ステップバイステップの手順とサンプル コードを含む包括的なガイドです。
 ### [Aspose.Slides を使用してプレゼンテーション スライド内の図形を非表示にする](./hiding-shapes/)
 Aspose.Slides for .NET を使用してプレゼンテーション スライド内の図形を非表示にする方法を学びます。ソース コード、FAQ、および動的プレゼンテーションのベスト プラクティスを含むステップ バイ ステップ ガイドです。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

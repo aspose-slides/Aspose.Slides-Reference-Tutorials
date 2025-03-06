@@ -3,14 +3,10 @@ title: Klonovat snímek v rámci stejné prezentace
 linktitle: Klonovat snímek v rámci stejné prezentace
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Klonujte snímky v rámci stejné prezentace pomocí Aspose.Slides for Java s naším průvodcem. Ideální pro vývojáře, kteří chtějí zjednodušit manipulaci s PowerPointem.
+type: docs
 weight: 15
 url: /cs/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Jste připraveni ponořit se do světa Aspose.Slides for Java a naučit se klonovat snímky v rámci stejné prezentace? Tento tutoriál vás provede vším, co potřebujete vědět, od předpokladů až po konečnou implementaci. Začněme!
 ## Předpoklady
@@ -71,9 +67,3 @@ Aspose.Slides for Java je výkonné API pro práci s PowerPoint prezentacemi v J
 Dokumentace k Aspose.Slides for Java je k dispozici na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
 ### Jak si mohu zakoupit Aspose.Slides pro Java?
  Aspose.Slides pro Java si můžete zakoupit na stránce[nákupní stránku](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

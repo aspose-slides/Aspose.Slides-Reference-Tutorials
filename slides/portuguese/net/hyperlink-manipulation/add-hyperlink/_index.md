@@ -3,14 +3,10 @@ title: Adicionando hiperlinks a slides em .NET usando Aspose.Slides
 linktitle: Adicionar hiperlink ao slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como adicionar hiperlinks a slides do PowerPoint com Aspose.Slides for .NET. Aprimore suas apresentações com elementos interativos.
+type: docs
 weight: 12
 url: /pt/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 No mundo das apresentações digitais, a interatividade é fundamental. Adicionar hiperlinks aos slides pode tornar sua apresentação mais envolvente e informativa. Aspose.Slides for .NET é uma biblioteca poderosa que permite criar, modificar e manipular apresentações do PowerPoint programaticamente. Neste tutorial, mostraremos como adicionar hiperlinks aos seus slides usando Aspose.Slides for .NET. 
 
@@ -110,9 +106,3 @@ Aspose.Slides oferece uma ampla gama de recursos interativos, incluindo botões 
 ### 5. O Aspose.Slides está disponível para outras linguagens de programação?
 
 Sim, Aspose.Slides está disponível para várias linguagens de programação, incluindo Java e Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

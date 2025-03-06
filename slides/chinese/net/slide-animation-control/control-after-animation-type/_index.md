@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 掌握 PowerPoint 中的动画后效果
 linktitle: 幻灯片中动画类型的控制后
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 控制 PowerPoint 幻灯片中的动画后效果。使用动态视觉元素增强您的演示文稿。
+type: docs
 weight: 11
 url: /zh/net/slide-animation-control/control-after-animation-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 使用动态动画增强演示文稿是吸引观众的关键方面。Aspose.Slides for .NET 提供了强大的解决方案来控制幻灯片中的动画后效果。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 来操作幻灯片上的动画后类型的过程。通过遵循本分步指南，您将能够创建更具交互性和视觉吸引力的演示文稿。
 ## 先决条件
@@ -91,9 +87,3 @@ pres.Save(outPath, SaveFormat.Pptx);
 Aspose.Slides 支持多种格式，包括 PPTX、PPT、PDF 等。查看文档以获取完整列表。
 ### 我可以在哪里获得支持或者询问与 Aspose.Slides 相关的问题？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得支持和社区互动。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

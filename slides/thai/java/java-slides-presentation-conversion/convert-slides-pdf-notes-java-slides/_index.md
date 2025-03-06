@@ -3,14 +3,10 @@ title: แปลงสไลด์เป็น PDF ด้วย Notes ใน Jav
 linktitle: แปลงสไลด์เป็น PDF ด้วย Notes ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงสไลด์ PowerPoint เป็น PDF ด้วยบันทึกย่อใน Java โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา Java ปรับปรุงการแบ่งปันการนำเสนอของคุณ
+type: docs
 weight: 19
 url: /th/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการแปลงสไลด์เป็น PDF ด้วย Notes ใน Java
 
@@ -128,9 +124,3 @@ finally
 ### ฉันจะหาเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารโดยละเอียดสำหรับ Aspose.Slides สำหรับ Java บนเว็บไซต์:[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

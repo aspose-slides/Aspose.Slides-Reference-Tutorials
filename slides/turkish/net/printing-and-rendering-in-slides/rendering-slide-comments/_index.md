@@ -3,14 +3,10 @@ title: Aspose.Slides'ta Slayt Yorumlarını Oluşturma
 linktitle: Aspose.Slides'ta Slayt Yorumlarını Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Adım adım eğitimimizle Aspose.Slides for .NET'te slayt yorumlarının nasıl oluşturulacağını keşfedin. Yorum görünümünü özelleştirin ve PowerPoint otomasyonunuzu geliştirin.
+type: docs
 weight: 12
 url: /tr/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Aspose.Slides for .NET'i kullanarak slayt yorumlarını işlemeye ilişkin kapsamlı eğitimimize hoş geldiniz! Aspose.Slides, geliştiricilerin .NET uygulamalarında PowerPoint sunumlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu kılavuzda belirli bir göreve (slayt yorumlarını oluşturma) odaklanacağız ve süreç boyunca size adım adım yol göstereceğiz.
 ## Önkoşullar
@@ -90,9 +86,3 @@ C: Kesinlikle! Eğitici, yorum alanı rengini, genişliğini ve konumunu özelle
  C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Slides için nereden yardım ve destek alabilirim?
  C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

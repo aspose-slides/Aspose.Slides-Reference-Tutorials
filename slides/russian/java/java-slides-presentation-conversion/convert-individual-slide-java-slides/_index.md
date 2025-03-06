@@ -3,14 +3,10 @@ title: Преобразование отдельного слайда в сла�
 linktitle: Преобразование отдельного слайда в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как шаг за шагом конвертировать отдельные слайды PowerPoint в HTML, с помощью примеров кода с использованием Aspose.Slides для Java.
+type: docs
 weight: 12
 url: /ru/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в преобразование отдельного слайда в слайды Java
 
@@ -174,9 +170,3 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### Как обрабатывать дополнительное форматирование фигур и текста на слайдах?
 
  Вы можете продлить`CustomFormattingController` класс для обработки форматирования, специфичного для фигуры, путем реализации`writeShapeStart` и`writeShapeEnd` методы и применение в них пользовательской логики форматирования.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

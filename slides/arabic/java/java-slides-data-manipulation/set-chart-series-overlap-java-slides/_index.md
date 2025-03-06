@@ -3,14 +3,10 @@ title: تعيين تداخل سلسلة المخططات في شرائح Java
 linktitle: تعيين تداخل سلسلة المخططات في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تتداخل سلسلة المخططات الرئيسية في Java Slides مع Aspose.Slides لـ Java. تعلم خطوة بخطوة كيفية تخصيص الرسوم البيانية المرئية لتقديم عروض تقديمية مذهلة.
+type: docs
 weight: 16
 url: /ar/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتعيين تداخل سلسلة المخططات في شرائح Java
 
@@ -114,9 +110,3 @@ finally
 ### أين يمكنني العثور على المزيد من الموارد والأمثلة لـ Aspose.Slides لـ Java؟
 
  للحصول على وثائق وأمثلة شاملة، تفضل بزيارة الصفحة المرجعية لـ Aspose.Slides for Java:[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Diagramelrendezési típus rendezése SmartArtban Java használatával
 linktitle: Diagramelrendezési típus rendezése SmartArtban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Sajátítsa el a diagramelrendezési típusok rendszerezését a SmartArt programban Java segítségével az Aspose.Slides-szel, így könnyedén javíthatja a prezentáció látványvilágát.
+type: docs
 weight: 13
 url: /hu/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a diagramelrendezési típusok megszervezésének folyamatát a SmartArt programban Java használatával, különösen az Aspose.Slides könyvtár kihasználásával. A prezentációkban található SmartArt nagymértékben javíthatja az adatok vizuális vonzerejét és tisztaságát, így elengedhetetlen a manipuláció uralása.
 ## Előfeltételek
@@ -59,9 +55,3 @@ Igen, a fejlesztők elolvashatják az Aspose.Slides for Java részletes dokument
 Igen, hozzáférhet az Aspose.Slides ingyenes próbaverziójához, hogy a vásárlási döntés meghozatala előtt felfedezze annak funkcióit.
 ### Hol kérhetek támogatást az Aspose.Slides-hez kapcsolódó lekérdezésekhez?
  Az Aspose.Slides-szal kapcsolatos segítségért vagy kérdésért keresse fel a támogatási fórumot[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

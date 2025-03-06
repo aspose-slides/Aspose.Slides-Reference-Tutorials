@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides .NET 掌握 PowerPoint 動畫
 linktitle: 在投影片上重複動畫
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強 PowerPoint 簡報。輕鬆控制動畫，吸引觀眾並留下持久的印象。
+type: docs
 weight: 12
 url: /zh-hant/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在動態的演示世界中，控制動畫的能力在吸引和吸引觀眾注意力方面發揮關鍵作用。 Aspose.Slides for .NET 使開發人員能夠負責幻燈片中的動畫類型，從而實現更具互動性和視覺吸引力的簡報。在本教學中，我們將逐步探索如何使用 Aspose.Slides for .NET 控制投影片上的動畫類型。
 ## 先決條件
@@ -70,9 +66,3 @@ Aspose.Slides 提供對多種 PowerPoint 版本的支持，確保與新舊版本
 訪問[這裡](https://purchase.aspose.com/temporary-license/)有關獲得臨時許可證的資訊。
 ### 需要幫助或有更多問題？
 與 Aspose.Slides 社區互動[支援論壇](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

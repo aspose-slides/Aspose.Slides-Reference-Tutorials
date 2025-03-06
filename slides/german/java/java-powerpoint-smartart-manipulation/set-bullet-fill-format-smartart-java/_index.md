@@ -3,14 +3,10 @@ title: Festlegen des Aufzählungszeichen-Füllformats in SmartArt mithilfe von J
 linktitle: Festlegen des Aufzählungszeichen-Füllformats in SmartArt mithilfe von Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Java und Aspose.Slides das Aufzählungszeichenformat in SmartArt festlegen. Schritt-für-Schritt-Anleitung zur effizienten Präsentationsbearbeitung.
+type: docs
 weight: 18
 url: /de/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Im Bereich der Java-Programmierung ist die effiziente Bearbeitung von Präsentationen eine häufige Anforderung, insbesondere beim Umgang mit SmartArt-Elementen. Aspose.Slides für Java erweist sich als leistungsstarkes Tool für solche Aufgaben und bietet eine Reihe von Funktionen zur programmgesteuerten Bearbeitung von Präsentationen. In diesem Tutorial werden wir Schritt für Schritt den Prozess zum Festlegen des Aufzählungszeichenformats in SmartArt mithilfe von Java und Aspose.Slides durchgehen.
 ## Voraussetzungen
@@ -75,9 +71,3 @@ Tatsächlich können Sie mit Aspose.Slides jeden Aspekt von SmartArt-Formen anpa
  Ja, Sie können die Funktionen von Aspose.Slides mit einer kostenlosen Testversion erkunden. Laden Sie es einfach von der[Webseite](https://releases.aspose.com/slides/java/) und beginnen Sie mit der Erkundung.
 ### Wo finde ich Unterstützung für Aspose.Slides für Java?
  Bei Fragen oder Hilfe können Sie das Aspose.Slides-Forum unter besuchen.[dieser Link](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

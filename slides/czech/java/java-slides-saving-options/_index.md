@@ -3,14 +3,10 @@ title: Možnosti ukládání snímků Java
 linktitle: Možnosti ukládání snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si o možnostech ukládání snímků Java pomocí Aspose.Slides pro Java. Prozkoumejte komplexní výukové programy a průvodce pro efektivní správu a přizpůsobení snímků.
+type: docs
 weight: 25
 url: /cs/java/saving-options/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 
 Ve světě dynamických prezentací se Java ukázala jako všestranný jazyk, který nabízí nepřeberné množství nástrojů a knihoven pro vylepšení vašich prezentací. Pokud jde o správu a přizpůsobení snímků, Aspose.Slides for Java vyniká jako výkonné řešení. V tomto článku se ponoříme do vzrušující sféry možností ukládání Java Slides pomocí Aspose.Slides pro Java.
@@ -50,9 +46,3 @@ Naučte se, jak nastavit předdefinované typy zobrazení v Java Slides pomocí 
 Naučte se, jak uložit PowerPointové prezentace jako pouze pro čtení v Javě pomocí Aspose.Slides. Chraňte svůj obsah pomocí podrobných pokynů a příkladů kódu.
 ### [Uložit vlastnosti v Java Slides](./save-properties-in-java-slides/)
 Optimalizujte své prezentace v PowerPointu pomocí Aspose.Slides pro Java. Naučte se nastavovat vlastnosti, deaktivovat šifrování, přidat ochranu heslem a bez námahy ukládat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

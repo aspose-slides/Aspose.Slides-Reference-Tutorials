@@ -3,14 +3,10 @@ title: Aspose.Slides - Connect Shapes Seamlessly in .NET
 linktitle: Connecting Shapes using Connectors in Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Explore the power of Aspose.Slides for .NET, connecting shapes effortlessly in your presentations. Elevate your slides with dynamic connectors.
+type: docs
 weight: 29
 url: /net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the dynamic world of presentations, the ability to connect shapes using connectors adds a layer of sophistication to your slides. Aspose.Slides for .NET empowers developers to achieve this seamlessly. This tutorial will guide you through the process, breaking down each step to ensure a clear understanding.
 ## Prerequisites
@@ -81,10 +77,3 @@ Aspose.Slides for .NET supports connecting various shapes, including basic shape
 Explore the Aspose.Slides documentation for methods to customize connector appearance, such as line style and color.
 ### Is there a community forum for Aspose.Slides support?
 Yes, you can find assistance and share your experiences in the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

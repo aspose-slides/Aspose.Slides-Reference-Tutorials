@@ -3,14 +3,10 @@ title: PowerPoint'te İşleme Seçenekleri
 linktitle: PowerPoint'te İşleme Seçenekleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki görüntü oluşturma seçeneklerini nasıl değiştireceğinizi öğrenin. Optimum görsel etki için slaytlarınızı özelleştirin.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde, PowerPoint sunumlarındaki işleme seçeneklerini değiştirmek için Aspose.Slides for Java'dan nasıl yararlanılacağını keşfedeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz süreç boyunca size adım adım yol gösterecektir.
 ## Önkoşullar
@@ -79,9 +75,3 @@ Evet, animasyonların dahil edilip edilmeyeceği de dahil olmak üzere, oluştur
 Kesinlikle! Aspose.Slides, slaytları oluşturmadan önce özel arka planlar ayarlamanıza olanak tanır.
 ### Slaytları doğrudan PDF belgesine dönüştürmenin bir yolu var mı?
 Evet, Aspose.Slides, PowerPoint sunumlarını doğrudan yüksek kalitede PDF dosyalarına dönüştürme işlevselliği sağlar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

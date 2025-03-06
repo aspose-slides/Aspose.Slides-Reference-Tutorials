@@ -3,14 +3,10 @@ title: 在 PowerPoint 中添加 OLE 对象框
 linktitle: 在 PowerPoint 中添加 OLE 对象框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将 OLE 对象框架无缝集成到 PowerPoint 演示文稿中。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在 PowerPoint 演示文稿中添加 OLE（对象链接和嵌入）对象框架可以显著增强幻灯片的视觉吸引力和功能。使用 Aspose.Slides for Java，此过程变得精简而高效。在本教程中，我们将指导您完成将 OLE 对象框架无缝集成到 PowerPoint 演示文稿中所需的步骤。
 ### 先决条件
@@ -84,9 +80,3 @@ Aspose.Slides 与多种 PowerPoint 版本兼容，确保无缝集成。
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
 ### 在哪里可以找到对 Aspose.Slides for Java 的支持？
 您可以从 Aspose.Slides 论坛寻求支持和帮助[这里](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

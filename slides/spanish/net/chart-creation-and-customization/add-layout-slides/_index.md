@@ -3,14 +3,10 @@ title: Agregar diapositivas de diseño a la presentación
 linktitle: Agregar diapositivas de diseño a la presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar sus presentaciones de PowerPoint con Aspose.Slides para .NET. Agregue diapositivas de diseño para darle un toque profesional.
+type: docs
 weight: 11
 url: /es/net/chart-creation-and-customization/add-layout-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 En la era digital actual, hacer una presentación impactante es una habilidad esencial. Una presentación bien estructurada y visualmente atractiva puede transmitir su mensaje de manera efectiva. Aspose.Slides para .NET es una herramienta poderosa que puede ayudarlo a crear presentaciones impresionantes en poco tiempo. En esta guía paso a paso, exploraremos cómo usar Aspose.Slides para .NET para agregar diapositivas de diseño a su presentación. Dividiremos el proceso en pasos fáciles de seguir, asegurándonos de que comprenda los conceptos a fondo. ¡Empecemos!
 
@@ -108,9 +104,3 @@ Aspose.Slides para .NET es una biblioteca .NET que permite a los desarrolladores
 
 ### ¿Dónde puedo obtener soporte o buscar ayuda con Aspose.Slides para .NET?
  Si tiene alguna pregunta o necesita ayuda, puede visitar el foro Aspose.Slides para .NET en[Foro de la comunidad Aspose](https://forum.aspose.com/). La comunidad es activa y útil para abordar las consultas de los usuarios.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

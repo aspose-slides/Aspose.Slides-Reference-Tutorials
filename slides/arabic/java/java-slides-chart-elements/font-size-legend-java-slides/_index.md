@@ -3,14 +3,10 @@ title: أسطورة حجم الخط في شرائح جافا
 linktitle: أسطورة حجم الخط في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعرف على كيفية تخصيص أحجام الخطوط الإيضاحية والمزيد في دليلنا التفصيلي خطوة بخطوة.
+type: docs
 weight: 13
 url: /ar/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى وسيلة إيضاح حجم الخط في شرائح Java
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### أين يمكنني العثور على مزيد من المعلومات والوثائق الخاصة بـ Aspose.Slides؟
 
  يمكنك العثور على وثائق شاملة ومراجع واجهة برمجة التطبيقات لـ Aspose.Slides for Java على موقع وثائق Aspose. يزور[هنا](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة حول استخدام المكتبة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

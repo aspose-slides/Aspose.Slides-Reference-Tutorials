@@ -3,14 +3,10 @@ title: Simpan Properti di Slide Java
 linktitle: Simpan Properti di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan presentasi PowerPoint Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur properti, menonaktifkan enkripsi, menambahkan perlindungan kata sandi, dan menyimpan dengan mudah.
+type: docs
 weight: 12
 url: /id/java/saving-options/save-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Menyimpan Properti di Slide Java
 
@@ -174,9 +170,3 @@ Ini membantu mencegah kebocoran memori pada aplikasi Anda.
 ### Bagaimana saya bisa mempelajari lebih lanjut tentang Aspose.Slides untuk Java dan fitur-fiturnya?
 
  Anda dapat menjelajahi dokumentasi Aspose.Slides untuk Java di[Di Sini](https://docs.aspose.com/slides/java/) untuk informasi detail, tutorial, dan contoh penggunaan perpustakaan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

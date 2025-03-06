@@ -3,14 +3,10 @@ title: Απόδοση σχολίων στο PowerPoint
 linktitle: Απόδοση σχολίων στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποδίδετε σχόλια σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε την εμφάνιση και δημιουργήστε αποτελεσματικά προεπισκοπήσεις εικόνων.
+type: docs
 weight: 10
 url: /el/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα περιηγηθούμε στη διαδικασία απόδοσης σχολίων σε παρουσιάσεις PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Η απόδοση σχολίων μπορεί να είναι χρήσιμη για διάφορους σκοπούς, όπως για τη δημιουργία προεπισκοπήσεων εικόνων των παρουσιάσεων με σχόλια που περιλαμβάνονται.
 ## Προαπαιτούμενα
@@ -76,9 +72,3 @@ try {
 Ναι, χρησιμοποιώντας το Aspose.Slides, μπορείτε να αποδώσετε σχόλια σε εικόνες χωρίς να ανοίξετε την εφαρμογή PowerPoint.
 ### Υπάρχει τρόπος να αποδώσουμε σχόλια απευθείας σε ένα έγγραφο PDF;
 Ναι, το Aspose.Slides παρέχει λειτουργικότητα για την απευθείας απόδοση σχολίων σε έγγραφα PDF, επιτρέποντας την απρόσκοπτη ενσωμάτωση στη ροή εργασίας του εγγράφου σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

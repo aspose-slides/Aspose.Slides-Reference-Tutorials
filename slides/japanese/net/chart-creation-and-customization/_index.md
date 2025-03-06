@@ -3,14 +3,10 @@ title: チャートの作成とカスタマイズ
 linktitle: チャートの作成とカスタマイズ
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides を使用して、.NET アプリケーションのプレゼンテーション機能を強化します。チャートの作成とカスタマイズに関するチュートリアルを詳しく見て、ステップバイステップのガイドとコード例を確認してください。
+type: docs
 weight: 14
 url: /ja/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入：
 
@@ -31,9 +27,3 @@ Aspose.Slides for .NET を使用してプレゼンテーションのスライド
 Aspose.Slides for .NET を使用して、基本プレースホルダーを備えた動的な PowerPoint プレゼンテーションを作成する方法を学習します。
 ### [スライドのヘッダーとフッターを管理する](./header-footer-manager/)
 Aspose.Slides for .NET を使用してスライドのヘッダーとフッターを管理する方法を学びます。プレゼンテーションを簡単かつ正確にカスタマイズします。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

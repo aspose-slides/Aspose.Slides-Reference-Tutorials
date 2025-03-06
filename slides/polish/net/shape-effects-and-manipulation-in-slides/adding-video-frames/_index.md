@@ -3,14 +3,10 @@ title: Samouczek dodawania klatek wideo za pomocą Aspose.Slides dla .NET
 linktitle: Dodawanie klatek wideo do slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ożyw prezentacje za pomocą dynamicznych klatek wideo za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem, aby uzyskać bezproblemową integrację i tworzyć wciągające treści.
+type: docs
 weight: 19
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dynamicznym krajobrazie prezentacji włączenie elementów multimedialnych może zwiększyć ogólny wpływ i zaangażowanie. Dodawanie klatek wideo do slajdów może zmienić zasady gry i przyciągnąć uwagę odbiorców w sposób, w jaki nie jest w stanie tego zrobić statyczna treść. Aspose.Slides dla .NET zapewnia solidne rozwiązanie do płynnej integracji klatek wideo ze slajdami prezentacji.
 ## Warunki wstępne
@@ -71,9 +67,3 @@ Absolutnie! Masz pełną kontrolę nad opcjami odtwarzania, takimi jak tryb odtw
  Tak, możesz poznać możliwości Aspose.Slides dla .NET, pobierając wersję próbną[Tutaj](https://releases.aspose.com/).
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Slides dla .NET?
  W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

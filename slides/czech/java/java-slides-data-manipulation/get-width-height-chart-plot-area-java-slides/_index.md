@@ -3,14 +3,10 @@ title: Získejte šířku a výšku z oblasti grafu v aplikaci Java Slides
 linktitle: Získejte šířku a výšku z oblasti grafu v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak načíst rozměry oblasti grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Vylepšete své dovednosti v automatizaci aplikace PowerPoint.
+type: docs
 weight: 21
 url: /cs/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod
 
@@ -113,10 +109,3 @@ Ano, Aspose.Slides for Java je výkonná knihovna pro automatizaci úloh aplikac
 ### Jak se mohu dozvědět více o Aspose.Slides pro Java?
 
  Rozsáhlou dokumentaci a příklady můžete najít na stránce dokumentace Aspose.Slides for Java[tady](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

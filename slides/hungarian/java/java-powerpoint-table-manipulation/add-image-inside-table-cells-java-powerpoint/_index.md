@@ -3,14 +3,10 @@ title: Kép hozzáadása a táblázat celláihoz a Java PowerPointban
 linktitle: Kép hozzáadása a táblázat celláihoz a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá képeket a Java PowerPoint prezentációk táblázatcelláihoz az Aspose.Slides for Java használatával.
+type: docs
 weight: 10
 url: /hu/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ha szeretné javítani Java PowerPoint prezentációit azáltal, hogy képeket ágyaz be táblázatcellákba, akkor jó helyen jár! Ma az Aspose.Slides for Java használatával részletes, lépésről-lépésre szóló útmutatót mutatunk be. Ez az oktatóanyag végigvezeti Önt a teljes folyamaton, így még egy kezdő is követni tudja, és lenyűgöző eredményeket érhet el.
 ## Előfeltételek
@@ -108,9 +104,3 @@ Az Aspose.Slides különféle képformátumokat támogat, beleértve a JPEG-et, 
  Hivatkozhat a[dokumentáció](https://reference.aspose.com/slides/java/) részletesebb információkért és példákért.
 ### Hogyan vásárolhatom meg az Aspose.Slides for Java programot?
  Megvásárolhatja a[Aspose honlapja](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

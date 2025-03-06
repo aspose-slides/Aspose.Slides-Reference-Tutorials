@@ -3,14 +3,10 @@ title: Animace a rozvržení snímků Java
 linktitle: Animace a rozvržení snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se animaci a rozvržení snímků Java s Aspose.Slides pro Java. Ovládněte interaktivní prezentace. Ponořte se do dynamické tvorby obsahu.
+type: docs
 weight: 14
 url: /cs/java/animation-and-layout/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Chcete vdechnout život svým prezentacím a vytvořit strhující snímky s Javou? Aspose.Slides for Java je vaším oblíbeným řešením. V tomto komplexním průvodci prozkoumáme, jak zvládnout animaci a rozvržení snímků Java a zajistit, aby vaše prezentace vynikly od ostatních.
 
@@ -46,9 +42,3 @@ Optimalizujte své Java prezentace pomocí Aspose.Slides for Java. Naučte se kr
 Optimalizujte své prezentace pomocí animací série v Aspose.Slides pro Java. Postupujte podle našeho podrobného průvodce s příklady zdrojového kódu a vytvořte poutavé animace PowerPoint.
 ### [Animace prvků série v Java Slides](./animating-series-elements-java-slides/)
 Naučte se animovat prvky série ve snímcích PowerPoint pomocí Aspose.Slides pro Java. Postupujte podle tohoto obsáhlého podrobného průvodce se zdrojovým kódem pro vylepšení vašich prezentací.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

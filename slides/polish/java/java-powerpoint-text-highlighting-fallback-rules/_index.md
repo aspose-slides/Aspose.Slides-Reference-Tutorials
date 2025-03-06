@@ -3,14 +3,10 @@ title: Zasady wyróżniania i zastępowania tekstu w programie Java PowerPoint
 linktitle: Zasady wyróżniania i zastępowania tekstu w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Opanuj reguły podświetlania tekstu i zastępowania czcionek w programie Java PowerPoint za pomocą Aspose.Slides. Skorzystaj z naszych samouczków, aby bezproblemowo ulepszać i automatyzować swoje prezentacje.
+type: docs
 weight: 25
 url: /pl/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp
 
@@ -30,9 +26,3 @@ Postępując zgodnie z tymi samouczkami, będziesz dobrze przygotowany do wzboga
 Dowiedz się, jak wyróżniać tekst w programie PowerPoint przy użyciu Aspose.Slides dla Java. Automatyzuj i ulepszaj prezentacje bez wysiłku, korzystając z naszego szczegółowego przewodnika.
 ### [Kolekcja reguł awaryjnych w programie Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Dowiedz się, jak zarządzać regułami zastępowania czcionek w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Bez wysiłku zwiększ kompatybilność między urządzeniami.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

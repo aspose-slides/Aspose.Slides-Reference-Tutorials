@@ -3,14 +3,10 @@ title: Imposta le proprietà dei caratteri del testo in PowerPoint con Java
 linktitle: Imposta le proprietà dei caratteri del testo in PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare le proprietà dei caratteri di testo in PowerPoint utilizzando Aspose.Slides per Java. Guida semplice e passo passo per gli sviluppatori Java.#Scopri come manipolare le proprietà dei caratteri di testo di PowerPoint utilizzando Aspose.Slides per Java con questo tutorial passo passo per gli sviluppatori Java.
+type: docs
 weight: 18
 url: /it/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 In questo tutorial imparerai come utilizzare Aspose.Slides per Java per impostare varie proprietà dei caratteri di testo in una presentazione di PowerPoint a livello di codice. Tratteremo l'impostazione del tipo di carattere, dello stile (grassetto, corsivo), della sottolineatura, della dimensione e del colore per il testo nelle diapositive.
 ## Prerequisiti
@@ -89,9 +85,3 @@ Sì, puoi utilizzare Aspose.Slides per lavorare con i modelli PowerPoint.
 Sì, Aspose.Slides consente di esportare presentazioni in vari formati, incluso PDF.
 ### Dove posso trovare ulteriore aiuto e supporto per Aspose.Slides?
  Visita[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

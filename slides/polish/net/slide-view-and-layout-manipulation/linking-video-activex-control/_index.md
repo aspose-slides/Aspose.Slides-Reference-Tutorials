@@ -3,14 +3,10 @@ title: Łączenie wideo za pomocą kontrolki ActiveX w programie PowerPoint
 linktitle: Łączenie wideo za pomocą formantu ActiveX
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak łączyć filmy ze slajdami programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki dotyczące tworzenia interaktywnych i wciągających prezentacji z połączonymi filmami.
+type: docs
 weight: 12
 url: /pl/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Łączenie wideo za pomocą kontrolki ActiveX w prezentacji przy użyciu Aspose.Slides dla .NET
 
 W Aspose.Slides dla .NET możesz programowo połączyć wideo ze slajdem prezentacji za pomocą kontrolki ActiveX. Umożliwia to tworzenie interaktywnych prezentacji, w których zawartość wideo można odtwarzać bezpośrednio na slajdzie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces łączenia filmu ze slajdem prezentacji za pomocą Aspose.Slides dla .NET.
@@ -84,9 +80,3 @@ Rozmiar połączonego wideo może mieć wpływ na ogólny rozmiar i wydajność 
 Wykonując kroki opisane w tym przewodniku, możesz łatwo połączyć wideo za pomocą kontrolki ActiveX w prezentacji przy użyciu Aspose.Slides dla .NET. Ta funkcja umożliwia tworzenie wciągających i interaktywnych prezentacji płynnie zawierających treści multimedialne.
 
  Więcej szczegółów i opcji zaawansowanych można znaleźć na stronie[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

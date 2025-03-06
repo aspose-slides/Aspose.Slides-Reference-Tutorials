@@ -3,14 +3,10 @@ title: So legen Sie einen Makro-Hyperlink-Klick in Aspose.Slides für .NET fest
 linktitle: Hyperlink-Verwaltung mit Makros
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Makro-Hyperlinks in Ihre Präsentationen einfügen. Steigern Sie die Interaktivität und fesseln Sie Ihr Publikum.
+type: docs
 weight: 13
 url: /de/net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der modernen Softwareentwicklung ist die Erstellung dynamischer und interaktiver Präsentationen ein zentraler Aspekt. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie nahtlos mit Präsentationen arbeiten können. Egal, ob Sie eine Geschäftspräsentation oder eine Bildungs-Diashow erstellen, die Möglichkeit, Makro-Hyperlink-Klicks festzulegen, kann das Benutzererlebnis erheblich verbessern. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess zum Festlegen eines Makro-Hyperlink-Klicks mit Aspose.Slides für .NET. 
 
@@ -110,9 +106,3 @@ Ja, Sie können das Erscheinungsbild der AutoForm anpassen, indem Sie ihre Eigen
 
 ### Wo kann ich Hilfe oder Support für Aspose.Slides für .NET erhalten?
  Wenn Sie auf Probleme stoßen oder Fragen haben, können Sie im Aspose-Supportforum Hilfe suchen.[Hier](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

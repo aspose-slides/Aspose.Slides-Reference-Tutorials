@@ -3,14 +3,10 @@ title: Java용 Aspose.Slides를 사용하여 단락에 애니메이션 효과 �
 linktitle: Java용 Aspose.Slides를 사용하여 단락에 애니메이션 효과 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 쉬운 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 단락에 애니메이션 효과를 추가하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 놀라운 애니메이션으로 PowerPoint 프레젠테이션을 돋보이게 만들 준비가 되셨나요? 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 단락에 애니메이션 효과를 추가하는 방법을 안내합니다. 노련한 Java 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 명확하고 매력적인 단계별 프로세스를 제공합니다. 뛰어들어보자!
 ## 전제 조건
@@ -85,9 +81,3 @@ Aspose.Slides는 입구, 출구, 강조 및 모션 경로 효과를 포함한 �
 예, Aspose.Slides는 다양한 버전의 PowerPoint에서 작성된 프레젠테이션과 작동하도록 설계되었습니다.
 ### 문제가 발생하면 어디서 도움을 받을 수 있나요?
  당신은 방문 할 수 있습니다[지원 포럼](https://forum.aspose.com/c/slides/11) Aspose.Slides 커뮤니티 및 지원 팀의 도움을 받으십시오.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Remove Notes from All Slides
 linktitle: Remove Notes from All Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to remove notes from PowerPoint slides using Aspose.Slides for .NET. Make your presentations cleaner and more professional.
+type: docs
 weight: 13
 url: /net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 If you're a .NET developer working with PowerPoint presentations, you might come across the need to remove notes from all slides in your presentation. This can be useful when you want to clean up your slides and eliminate any additional information that is not intended for your audience. In this step-by-step guide, we'll walk you through the process of using Aspose.Slides for .NET to achieve this task efficiently.
 
@@ -101,9 +97,3 @@ You can request a temporary license for testing and development purposes from [h
 ### 5. Does Aspose.Slides for .NET support the latest PowerPoint formats?
 
 Yes, Aspose.Slides for .NET supports a wide range of PowerPoint formats, including the latest versions. You can refer to the documentation for details.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

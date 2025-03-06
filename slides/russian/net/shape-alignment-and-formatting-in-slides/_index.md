@@ -3,14 +3,10 @@ title: Выравнивание фигур и форматирование на 
 linktitle: Выравнивание фигур и форматирование на слайдах
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Изучите подробные руководства Aspose.Slides по выравниванию и форматированию фигур в приложениях .NET. Научитесь легко выравнивать и форматировать фигуры, повышая точность слайд-презентаций.
+type: docs
 weight: 14
 url: /ru/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение
 
@@ -48,9 +44,3 @@ url: /ru/net/shape-alignment-and-formatting-in-slides/
 Узнайте, как добавить смещение растягивания влево для рамки изображения в PowerPoint с помощью Aspose.Slides для .NET. Пошаговое руководство с полным примером исходного кода.
 ### [Замена названия изображения кадра объекта OLE на слайдах презентации](./substituting-picture-title-ole-object-frame/)
 Узнайте, как заменять заголовки изображений фреймов объектов OLE на слайдах презентации с помощью Aspose.Slides для .NET. Пошаговое руководство с полным исходным кодом.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Gere SVG com IDs de formas personalizadas em apresentações
 linktitle: Gere SVG com IDs de formas personalizadas em apresentações
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Gere apresentações envolventes com formas e IDs SVG personalizados usando Aspose.Slides for .NET. Aprenda como criar slides interativos passo a passo com exemplos de código-fonte. Melhore o apelo visual e a interação do usuário em suas apresentações.
+type: docs
 weight: 19
 url: /pt/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Você está procurando aproveitar o poder do Aspose.Slides for .NET para gerar arquivos SVG com IDs de forma personalizados? Você está no lugar certo! Neste tutorial passo a passo, guiaremos você pelo processo usando o seguinte trecho de código-fonte. Ao final, você estará bem equipado para criar arquivos SVG com IDs de formato personalizados em suas apresentações.
 
@@ -82,10 +78,3 @@ E aí está! Você gerou com sucesso arquivos SVG com IDs de forma personalizado
     Para documentação adicional, visite o[Referência da API Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
 
 Agora vá em frente e explore as infinitas possibilidades de geração de SVG com Aspose.Slides for .NET. Boa codificação!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Onthulling van de magie van het effectief ophalen van schuine gegevens in
 linktitle: Effectieve afschuiningsgegevens verkrijgen voor vorm in presentatiedia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u uw presentatiedia's kunt verbeteren met effectieve schuine gegevens met behulp van Aspose.Slides. Een uitgebreide handleiding met stapsgewijze instructies en voorbeeldcode.
+type: docs
 weight: 20
 url: /nl/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Welkom in de fascinerende wereld van Aspose.Slides voor .NET, uw toegangspoort tot het maken van verbluffende presentaties met ongeëvenaard gemak. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het verkrijgen van effectieve schuine gegevens voor vormen in presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -73,9 +69,3 @@ Ja, Aspose.Slides voor .NET ondersteunt een breed scala aan .NET Framework-versi
  Ja, u kunt Aspose.Slides voor .NET kopen[hier](https://purchase.aspose.com/buy) om de premiumfuncties voor commerciële projecten te ontgrendelen.
 ### Wat moet ik doen als ik tijdens de implementatie problemen tegenkom?
  Vraag hulp aan de Aspose.Slides voor .NET-gemeenschap op de[Helpforum](https://forum.aspose.com/c/slides/11) voor snelle en behulpzame oplossingen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

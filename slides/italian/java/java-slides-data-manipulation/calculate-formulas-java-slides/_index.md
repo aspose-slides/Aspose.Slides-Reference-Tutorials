@@ -3,14 +3,10 @@ title: Calcola formule nelle diapositive Java
 linktitle: Calcola formule nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come calcolare le formule in Diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni PowerPoint dinamiche.
+type: docs
 weight: 10
 url: /it/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione al calcolo delle formule nelle diapositive Java utilizzando Aspose.Slides
 
@@ -118,10 +114,3 @@ In questa guida, abbiamo imparato come calcolare le formule in Java Slides utili
 ### Come si calcolano le formule in una cartella di lavoro?
 
  È possibile calcolare le formule in una cartella di lavoro utilizzando il file`calculateFormulas` metodo di`IChartDataWorkbook` in Aspose.Slides.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

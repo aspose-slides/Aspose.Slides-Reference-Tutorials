@@ -3,14 +3,10 @@ title: إدارة خصائص خط الفقرة في Java PowerPoint
 linktitle: إدارة خصائص خط الفقرة في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إدارة وتخصيص خصائص خط الفقرة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides من خلال هذا الدليل سهل المتابعة خطوة بخطوة.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد إنشاء عروض PowerPoint التقديمية الجذابة بصريًا أمرًا بالغ الأهمية للتواصل الفعال. سواء كنت تقوم بإعداد مقترح عمل أو مشروع مدرسي، فإن خصائص الخط الصحيحة يمكن أن تجعل شرائحك أكثر جاذبية. سيرشدك هذا البرنامج التعليمي خلال إدارة خصائص خط الفقرة باستخدام Aspose.Slides لـ Java. على استعداد للغوص في؟ هيا بنا نبدأ!
 ## المتطلبات الأساسية
@@ -117,9 +113,3 @@ if (presentation != null) presentation.dispose();
 نعم، يدعم Aspose.Slides for Java التعبئة المتدرجة للنص.
 ### ماذا لو أردت التراجع عن التغييرات؟
 أعد تحميل العرض التقديمي الأصلي أو احتفظ بنسخة احتياطية قبل إجراء التغييرات.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

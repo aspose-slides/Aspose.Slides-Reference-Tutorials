@@ -3,14 +3,10 @@ title: Đặt chú thích cho nhãn dữ liệu trong Java Slides
 linktitle: Đặt chú thích cho nhãn dữ liệu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thiết lập chú thích cho nhãn dữ liệu trong Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
+type: docs
 weight: 25
 url: /vi/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Đặt chú thích cho nhãn dữ liệu trong Aspose.Slides cho Java
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Đây là một số tùy chọn tùy chỉnh phổ biến cho nhãn dữ liệu và chú thích trong Aspose.Slides cho Java. Bạn có thể điều chỉnh thêm giao diện theo nhu cầu cụ thể của mình.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: หมุนข้อความใน PowerPoint โดยใช้ Jav
 linktitle: หมุนข้อความใน PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการหมุนข้อความใน PowerPoint โดยใช้ Java กับ Aspose.Slides บทช่วยสอนทีละขั้นตอนสำหรับผู้เริ่มต้นถึงผู้ใช้ขั้นสูง
+type: docs
 weight: 10
 url: /th/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการหมุนข้อความในงานนำเสนอ PowerPoint โดยทางโปรแกรมโดยใช้ Java และ Aspose.Slides การหมุนข้อความอาจเป็นคุณสมบัติที่มีประโยชน์เมื่อออกแบบสไลด์เพื่อสร้างงานนำเสนอที่ดึงดูดสายตา
 ## ข้อกำหนดเบื้องต้น
@@ -79,9 +75,3 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
  สำหรับเอกสารโดยละเอียด โปรดไปที่[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/) - คุณยังสามารถรับการสนับสนุนจากชุมชนได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/)เพื่อประเมิน Aspose.Slides โดยไม่มีข้อจำกัด
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

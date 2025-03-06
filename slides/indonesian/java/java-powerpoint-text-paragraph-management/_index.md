@@ -3,14 +3,10 @@ title: Manajemen Teks dan Paragraf Java PowerPoint
 linktitle: Manajemen Teks dan Paragraf Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kuasai manajemen teks dan paragraf Java PowerPoint dengan Aspose.Slides. Pelajari cara mengimpor teks HTML, mengatur spasi baris, membuat poin, dan menyelaraskan paragraf.
+type: docs
 weight: 26
 url: /id/java/java-powerpoint-text-paragraph-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 
 Membuat presentasi PowerPoint yang terstruktur dengan baik dan menarik secara visual dapat meningkatkan komunikasi Anda secara signifikan. Dengan Aspose.Slides untuk Java, mengelola teks dan paragraf menjadi tugas yang mudah. Baik Anda perlu mengimpor teks HTML, mengatur spasi baris, atau membuat poin bertingkat, tutorial mendetail kami akan memandu Anda melalui prosesnya. Mari jelajahi bagaimana Anda dapat membawa presentasi Java PowerPoint Anda ke level berikutnya.
@@ -59,9 +55,3 @@ Pelajari cara menambahkan poin paragraf di slide PowerPoint menggunakan Aspose.S
 Pelajari cara mengatur indentasi paragraf di slide PowerPoint secara terprogram menggunakan Aspose.Slides for Java. Sempurnakan format presentasi Anda dengan mudah.
 ### [Sejajarkan Paragraf di PowerPoint menggunakan Java](./align-paragraphs-powerpoint-java/)
 Pelajari cara menyelaraskan paragraf dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami untuk pemformatan yang tepat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

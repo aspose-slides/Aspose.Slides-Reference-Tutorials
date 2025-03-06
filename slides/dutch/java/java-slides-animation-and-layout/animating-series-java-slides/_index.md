@@ -3,14 +3,10 @@ title: Animatieseries in Java-dia's
 linktitle: Animatieseries in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw presentaties met serie-animaties in Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncodevoorbeelden om boeiende PowerPoint-animaties te maken.
+type: docs
 weight: 11
 url: /nl/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot animatieseries in Aspose.Slides voor Java
 
@@ -129,9 +125,3 @@ U kunt de lus in stap 3 uitbreiden om animaties toe te voegen voor alle reeksen 
 ### Hoe kan ik de duur en vertraging van de animatie aanpassen?
 
 U kunt de duur en vertraging van de animatie aanpassen door eigenschappen voor de animatie-effecten in te stellen. Controleer de Aspose.Slides for Java-documentatie voor details over beschikbare aanpassingsopties.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

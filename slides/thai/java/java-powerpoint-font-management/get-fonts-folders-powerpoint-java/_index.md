@@ -3,14 +3,10 @@ title: รับโฟลเดอร์แบบอักษรใน PowerPoin
 linktitle: รับโฟลเดอร์แบบอักษรใน PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแยกโฟลเดอร์แบบอักษรในงานนำเสนอ PowerPoint โดยใช้ Java กับ Aspose.Slides เพื่อเพิ่มความสามารถในการออกแบบงานนำเสนอของคุณ
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกขั้นตอนการรับโฟลเดอร์ฟอนต์ในงานนำเสนอ PowerPoint โดยใช้ Java แบบอักษรมีบทบาทสำคัญในการดึงดูดสายตาและความสามารถในการอ่านงานนำเสนอของคุณ ด้วยการใช้ประโยชน์จาก Aspose.Slides สำหรับ Java เราสามารถเข้าถึงไดเรกทอรีแบบอักษรได้อย่างมีประสิทธิภาพ ซึ่งจำเป็นสำหรับการดำเนินการที่เกี่ยวข้องกับแบบอักษรต่างๆ ภายในงานนำเสนอ PowerPoint
 ## ข้อกำหนดเบื้องต้น
@@ -50,9 +46,3 @@ String[] fontFolders = FontsLoader.getFontFolders();
  คุณสามารถเยี่ยมชมฟอรัม Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11) เพื่อขอการสนับสนุนจากชุมชนหรือทีมสนับสนุน Aspose
 ### ฉันจะซื้อ Aspose.Slides สำหรับ Java ได้ที่ไหน
  คุณสามารถซื้อ Aspose.Slides สำหรับ Java ได้จากเว็บไซต์[ที่นี่](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

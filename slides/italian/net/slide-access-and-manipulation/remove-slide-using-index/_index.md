@@ -3,14 +3,10 @@ title: Cancella diapositiva per indice sequenziale
 linktitle: Cancella diapositiva per indice sequenziale
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come cancellare le diapositive di PowerPoint passo dopo passo utilizzando Aspose.Slides per .NET. La nostra guida fornisce istruzioni chiare e codice sorgente completo per aiutarti a rimuovere a livello di codice le diapositive in base al loro indice sequenziale.
+type: docs
 weight: 24
 url: /it/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione alla cancellazione diapositiva tramite indice sequenziale
 
@@ -90,9 +86,3 @@ Assolutamente, puoi cancellare le diapositive in base a condizioni come contenut
 ### Come posso saperne di più su Aspose.Slides per .NET?
 
  Puoi esplorare la documentazione dettagliata e il riferimento API per Aspose.Slides per .NET su[pagina della documentazione](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

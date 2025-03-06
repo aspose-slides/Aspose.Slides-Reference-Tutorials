@@ -3,14 +3,10 @@ title: Quản lý khoảng cách dòng trong Java PowerPoint
 linktitle: Quản lý khoảng cách dòng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách quản lý khoảng cách dòng trong bản trình bày PowerPoint bằng Java một cách dễ dàng với Aspose.Slides dành cho Java. Cải thiện các slide của bạn.
+type: docs
 weight: 12
 url: /vi/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong lập trình Java, việc quản lý khoảng cách dòng trong bản trình bày PowerPoint là rất quan trọng để tạo các trang trình bày hấp dẫn về mặt hình ảnh và truyền tải thông tin một cách hiệu quả. Cho dù bạn đang điều chỉnh khoảng cách giữa các đoạn văn hay kiểm soát khoảng cách trước và sau mỗi đoạn văn, Aspose.Slides for Java đều cung cấp các công cụ toàn diện để thực hiện các tác vụ này một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -66,9 +62,3 @@ Bạn có thể khám phá tài liệu chi tiết[đây](https://reference.aspos
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Slides?
  Để được hỗ trợ kỹ thuật, hãy truy cập Aspose.Slides[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

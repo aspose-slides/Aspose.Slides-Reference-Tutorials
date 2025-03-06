@@ -3,14 +3,10 @@ title: Java 슬라이드의 메모를 사용하여 슬라이드를 PDF로 변환
 linktitle: Java 슬라이드의 메모를 사용하여 슬라이드를 PDF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java에서 메모가 포함된 PowerPoint 슬라이드를 PDF로 변환하는 방법을 알아보세요. Java 개발자를 위한 단계별 가이드입니다. 프레젠테이션 공유 기능을 향상하세요.
+type: docs
 weight: 19
 url: /ko/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java의 Notes를 사용하여 슬라이드를 PDF로 변환하는 방법 소개
 
@@ -128,9 +124,3 @@ Java용 Aspose.Slides를 설치하려면 다음 단계를 따르세요.
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
 
  다음 사이트에서 Aspose.Slides for Java에 대한 자세한 문서를 찾을 수 있습니다.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

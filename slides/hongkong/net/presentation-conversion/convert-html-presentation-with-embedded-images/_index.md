@@ -3,14 +3,10 @@ title: 轉換帶有嵌入圖像的 HTML 簡報
 linktitle: 轉換帶有嵌入圖像的 HTML 簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為嵌入圖片的 HTML。無縫轉換的逐步指南。
+type: docs
 weight: 11
 url: /zh-hant/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今的數位世界中，將 PowerPoint 簡報轉換為 HTML 的需求變得越來越重要。無論是在線上分享內容還是建立基於 Web 的演示文稿，將 PowerPoint 文件轉換為 HTML 的能力都是一項寶貴的資產。 Aspose.Slides for .NET 是一個功能強大的程式庫，可讓您無縫地執行此類轉換。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 轉換帶有嵌入圖像的 HTML 簡報的過程。
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET 支援具有各種元素（包括動畫）的簡報的轉
 
 ### 我可以使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為哪些其他格式？
 Aspose.Slides for .NET 支援轉換為各種格式，包括 PDF、圖像等。檢查文件以取得支援格式的完整清單。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

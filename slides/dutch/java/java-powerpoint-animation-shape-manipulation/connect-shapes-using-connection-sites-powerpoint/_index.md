@@ -3,14 +3,10 @@ title: Verbind vormen met verbindingssites in PowerPoint
 linktitle: Verbind vormen met verbindingssites in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen in PowerPoint verbindt met Aspose.Slides voor Java. Automatiseer uw presentaties moeiteloos.
+type: docs
 weight: 19
 url: /nl/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u vormen kunt verbinden met behulp van verbindingssites in PowerPoint met behulp van Aspose.Slides voor Java. Met deze krachtige bibliotheek kunnen we PowerPoint-presentaties programmatisch manipuleren, waardoor taken zoals het verbinden van vormen naadloos en efficiënt worden.
 ## Vereisten
@@ -74,9 +70,3 @@ Ja, Aspose.Slides voor Java biedt een breed scala aan functionaliteiten voor het
  Ja, er zijn tijdelijke licenties beschikbaar voor test- en evaluatiedoeleinden. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik een licentie kopen voor Aspose.Slides voor Java?
  kunt een licentie kopen op de Aspose-website[hier](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aggiungi colonne nella cornice di testo utilizzando Aspose.Slides per Jav
 linktitle: Aggiungi colonne nella cornice di testo utilizzando Aspose.Slides per Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere colonne nelle cornici di testo utilizzando Aspose.Slides per Java per migliorare le tue presentazioni PowerPoint. La nostra guida passo passo semplifica il processo.
+type: docs
 weight: 11
 url: /it/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 In questo tutorial esploreremo come manipolare le cornici di testo per aggiungere colonne utilizzando Aspose.Slides per Java. Aspose.Slides è una potente libreria che consente agli sviluppatori Java di creare, manipolare e convertire presentazioni PowerPoint a livello di codice. L'aggiunta di colonne alle cornici di testo migliora l'aspetto visivo e l'organizzazione del testo all'interno delle diapositive, rendendo le presentazioni più coinvolgenti e più facili da leggere.
 ## Prerequisiti
@@ -85,9 +81,3 @@ No, Aspose.Slides imposta automaticamente la stessa larghezza per le colonne all
  È disponibile la documentazione dettagliata[Qui](https://reference.aspose.com/slides/java/).
 ### Come posso ottenere supporto tecnico per Aspose.Slides per Java?
  Puoi chiedere sostegno alla comunità[Qui](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

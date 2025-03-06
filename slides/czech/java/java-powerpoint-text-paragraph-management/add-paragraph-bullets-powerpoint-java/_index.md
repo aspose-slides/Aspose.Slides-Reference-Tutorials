@@ -3,14 +3,10 @@ title: Přidejte odrážky odstavců v PowerPointu pomocí Java
 linktitle: Přidejte odrážky odstavců v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat odrážky odstavců do snímků aplikace PowerPoint pomocí Aspose.Slides for Java. Tento tutoriál vás provede krok za krokem s příklady kódu.
+type: docs
 weight: 15
 url: /cs/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Přidání odrážek odstavců zlepšuje čitelnost a strukturu prezentací PowerPoint. Aspose.Slides for Java poskytuje robustní nástroje pro programovou manipulaci s prezentacemi, včetně možnosti formátovat text pomocí různých stylů odrážek. V tomto tutoriálu se naučíte, jak integrovat odrážky do snímků aplikace PowerPoint pomocí kódu Java s využitím Aspose.Slides.
 ## Předpoklady
@@ -93,9 +89,3 @@ Ano, na různé snímky můžete programově použít jedinečné styly odráže
 Ano, Aspose.Slides podporuje Java 11 a vyšší verze.
 ### Kde najdu další příklady a dokumentaci?
  Návštěva[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) pro komplexní návody a příklady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

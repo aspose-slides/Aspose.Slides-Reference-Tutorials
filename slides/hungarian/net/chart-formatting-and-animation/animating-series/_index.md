@@ -3,14 +3,10 @@ title: Animált diagramsorozat az Aspose.Slides segítségével .NET-hez
 linktitle: Animációs sorozat a diagramon
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan animálhat diagramsorozatokat az Aspose.Slides for .NET segítségével. Vonja be közönségét dinamikus prezentációkkal. Kezd el most!
+type: docs
 weight: 12
 url: /hu/net/chart-formatting-and-animation/animating-series/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Animált diagramokkal szeretnél egy kis pizzázatot adni prezentációidhoz? Az Aspose.Slides for .NET azért van itt, hogy életre keltse diagramjait. Ebben a lépésenkénti útmutatóban bemutatjuk, hogyan animálhat sorozatokat diagramon az Aspose.Slides for .NET használatával. Mielőtt azonban belemerülnénk az akcióba, fedjük le az előfeltételeket.
 
@@ -113,9 +109,3 @@ Igen, személyre szabhatja az animációs effektusokat az egyes diagramsorozatok
 
 ### Hol vásárolhatok licencet az Aspose.Slides for .NET-hez?
  Az Aspose.Slides for .NET licencét a vásárlási oldalon szerezheti be[itt](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

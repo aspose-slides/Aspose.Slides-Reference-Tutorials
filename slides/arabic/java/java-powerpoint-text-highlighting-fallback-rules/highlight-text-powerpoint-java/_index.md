@@ -3,14 +3,10 @@ title: تسليط الضوء على النص في PowerPoint مع جافا
 linktitle: تسليط الضوء على النص في PowerPoint مع جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تمييز النص في PowerPoint باستخدام Aspose.Slides لـ Java. قم بأتمتة العروض التقديمية وتحسينها بسهولة من خلال دليلنا التفصيلي.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في العصر الرقمي الحالي، حيث يلعب الاتصال المرئي دورًا محوريًا في عروض الأعمال والمواد التعليمية، تعد القدرة على التعامل مع عروض PowerPoint التقديمية وتحسينها برمجيًا ميزة كبيرة. يعمل Aspose.Slides for Java على تمكين المطورين من خلال مجموعة قوية من الأدوات لدمج شرائح PowerPoint ومعالجتها بسلاسة باستخدام لغة برمجة Java. سواء كنت تقوم بأتمتة إنشاء العروض التقديمية، أو تعديل العروض الحالية، أو استخراج البيانات من الشرائح، فإن Aspose.Slides for Java يوفر الوظائف اللازمة لتحقيق هذه المهام بكفاءة.
 ## المتطلبات الأساسية
@@ -66,9 +62,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات Java
 يدعم Aspose.Slides for Java حفظ العروض التقديمية بتنسيقات مختلفة بما في ذلك PPTX وPPT وPDF والمزيد.
 ### هل Aspose.Slides for Java متوافق مع Java SE Development Kit؟
 نعم، Aspose.Slides for Java متوافق مع Java SE Development Kit.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java スライドのプレゼンテーション プロパティを更新�
 linktitle: Java スライドのプレゼンテーション プロパティを更新する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのプレゼンテーション プロパティを更新する方法を学びます。作成者、タイトルなどをカスタマイズして、インパクトのあるプレゼンテーションを作成します。
+type: docs
 weight: 13
 url: /ja/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでのプレゼンテーション プロパティの更新の概要
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java を使用すると、作成者、タイトル、件名、
 ### Aspose.Slides for Java のドキュメントにアクセスするにはどうすればいいですか?
 
  Aspose.Slides for Java のドキュメントにアクセスするには、次のリンクにアクセスしてください。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

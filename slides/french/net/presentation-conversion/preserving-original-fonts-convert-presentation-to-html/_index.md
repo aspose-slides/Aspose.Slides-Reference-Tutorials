@@ -3,14 +3,10 @@ title: Préserver les polices originales - Convertir la présentation en HTML
 linktitle: Préserver les polices originales - Convertir la présentation en HTML
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment conserver les polices d'origine lors de la conversion de présentations au format HTML à l'aide d'Aspose.Slides pour .NET. Assurez la cohérence des polices et l’impact visuel sans effort.
+type: docs
 weight: 14
 url: /fr/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dans ce guide complet, nous vous guiderons tout au long du processus de préservation des polices originales lors de la conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET. Nous vous fournirons le code source C# nécessaire et expliquerons chaque étape en détail. À la fin de ce didacticiel, vous serez en mesure de vous assurer que les polices de votre document HTML converti restent fidèles à la présentation originale.
 
@@ -102,10 +98,3 @@ Aspose.Slides pour .NET se concentre principalement sur les présentations Power
 ### Q5 : Où puis-je accéder à des ressources et à une assistance supplémentaires ?
 
  Vous pouvez trouver plus de documentation, de didacticiels et d'assistance sur le site Web Aspose. Visite[Documentation Aspose.Slides pour .NET](https://reference.aspose.com/slides/net/) pour des informations détaillées.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

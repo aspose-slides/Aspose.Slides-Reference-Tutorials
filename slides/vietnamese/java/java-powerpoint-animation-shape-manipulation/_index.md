@@ -3,14 +3,10 @@ title: Thao tác hình dạng và hoạt hình PowerPoint của Java
 linktitle: Thao tác hình dạng và hoạt hình PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hiệu ứng động và thao tác các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn toàn diện cho các bài thuyết trình năng động.
+type: docs
 weight: 25
 url: /vi/java/java-powerpoint-animation-shape-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -94,9 +90,3 @@ Tìm hiểu cách áp dụng hiệu ứng Duotone cho hình ảnh trong PowerPoi
 Tìm hiểu cách nhúng khung video trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Nâng cao bài thuyết trình của bạn một cách dễ dàng.
 ### [Trích xuất dữ liệu tệp nhúng từ đối tượng OLE trong PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Tìm hiểu cách trích xuất dữ liệu tệp nhúng từ bản trình bày PowerPoint bằng Aspose.Slides cho Java, nâng cao khả năng quản lý tài liệu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

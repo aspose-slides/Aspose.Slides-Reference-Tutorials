@@ -3,14 +3,10 @@ title: Acesso e manipulação de slides
 linktitle: Acesso e manipulação de slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Explore tutoriais abrangentes sobre acesso e manipulação de slides usando Aspose.Slides for .NET. Aprenda a criar, modificar e aprimorar apresentações de maneira programática.
+type: docs
 weight: 10
 url: /pt/net/slide-access-and-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução:
 
 Bem-vindo a um mundo de manipulação dinâmica de apresentações com Aspose.Slides for .NET! Esta coleção de tutoriais é a chave para desbloquear todo o potencial da API Aspose.Slides, oferecendo as ferramentas e o conhecimento para acessar e manipular slides perfeitamente em seus aplicativos .NET. Desde a criação de apresentações cativantes até a implementação de modificações complexas, esses tutoriais fornecem um roteiro abrangente. Quer você seja um desenvolvedor experiente ou esteja apenas começando sua jornada com Aspose.Slides, nossos guias passo a passo e exemplos de código irão capacitá-lo a aproveitar o poder dos slides para uma narrativa visual impactante. Junte-se a nós enquanto embarcamos em uma jornada pelo domínio do acesso e manipulação de slides, explorando os recursos que o Aspose.Slides traz ao seu alcance.
@@ -48,9 +44,3 @@ Aprenda como ajustar as posições dos slides nas apresentações usando Aspose.
 Aprenda como apagar slides do PowerPoint passo a passo usando Aspose.Slides for .NET. Nosso guia fornece instruções claras e código-fonte completo para ajudá-lo a remover slides programaticamente por seu índice sequencial.
 ### [Excluir slide via referência](./remove-slide-using-reference/)
 Aprenda como excluir slides programaticamente em apresentações do PowerPoint usando Aspose.Slides for .NET. Simplifique a manipulação da apresentação com este guia passo a passo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

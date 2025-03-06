@@ -3,14 +3,10 @@ title: Java PowerPoint-vormopmaak en geometrie
 linktitle: Java PowerPoint-vormopmaak en geometrie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek Java PowerPoint-tutorials over vormopmaak en geometrie. Leer vormen vullen, vormen vinden en aangepaste geometrie maken met Aspose.Slides voor Java.
+type: docs
 weight: 26
 url: /nl/java/java-powerpoint-shape-formatting-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 
 Het maken van visueel aantrekkelijke PowerPoint-presentaties vereist vaak nauwkeurige vormopmaak en geometrische manipulatie. Met Aspose.Slides voor Java kunnen ontwikkelaars hun presentaties naar een hoger niveau tillen. In dit artikel worden essentiële tutorials besproken over het vullen van vormen, het vinden van vormen en het maken van aangepaste geometrie, waardoor uw dia's opvallen.
@@ -78,9 +74,3 @@ Leer hoe u eenvoudig effectieve gegevens uit PowerPoint-presentaties kunt ophale
 Leer hoe u effectieve gegevens over vormafschuining kunt ophalen in PowerPoint met behulp van Aspose.Slides voor Java. Verbeter uw presentaties met verbluffende visuele effecten.
 ### [Vormen verbergen in PowerPoint](./hide-shapes-powerpoint/)
 Leer hoe u vormen in PowerPoint kunt verbergen met Aspose.Slides voor Java met onze gedetailleerde stapsgewijze handleiding. Perfect voor Java-ontwikkelaars van alle niveaus.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

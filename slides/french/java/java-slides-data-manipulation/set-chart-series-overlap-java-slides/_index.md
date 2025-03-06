@@ -3,14 +3,10 @@ title: Définir le chevauchement des séries de graphiques dans les diapositives
 linktitle: Définir le chevauchement des séries de graphiques dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Les séries de graphiques principaux se chevauchent dans Java Slides avec Aspose.Slides pour Java. Apprenez étape par étape à personnaliser les visuels des graphiques pour des présentations époustouflantes.
+type: docs
 weight: 16
 url: /fr/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition du chevauchement des séries de graphiques dans les diapositives Java
 
@@ -114,9 +110,3 @@ Absolument! Aspose.Slides pour Java fournit des API pour créer des présentatio
 ### Où puis-je trouver plus de ressources et d’exemples pour Aspose.Slides pour Java ?
 
  Pour une documentation complète et des exemples, visitez la page de référence Aspose.Slides pour Java :[Référence de l'API Aspose.Slides pour Java](https://reference.aspose.com/slides/java/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Pengaturan Pertunjukan Slide Presentasi di Slide Java
 linktitle: Pengaturan Pertunjukan Slide Presentasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan Pertunjukan Slide Java Anda dengan Aspose.Slides. Buat presentasi yang menarik dengan pengaturan yang disesuaikan. Jelajahi panduan langkah demi langkah dan FAQ.
+type: docs
 weight: 16
 url: /id/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Pengaturan Pertunjukan Slide Presentasi di Slide Java
 
@@ -150,9 +146,3 @@ Dalam tutorial ini, kita telah mempelajari cara menyiapkan tayangan slide presen
 ### Bagaimana cara menyesuaikan pengaturan peragaan slide lebih lanjut?
 
  Anda dapat menjelajahi pengaturan tayangan slide tambahan yang disediakan oleh Aspose.Slides untuk Java untuk menyesuaikan pengalaman tayangan slide dengan kebutuhan Anda. Lihat dokumentasi di[Di Sini](https://reference.aspose.com/slides/java/) untuk informasi rinci tentang opsi dan konfigurasi yang tersedia.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

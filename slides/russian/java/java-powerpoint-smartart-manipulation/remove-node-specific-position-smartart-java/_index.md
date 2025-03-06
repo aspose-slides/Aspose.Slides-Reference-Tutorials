@@ -3,14 +3,10 @@ title: Удалить узел в определенной позиции в Sma
 linktitle: Удалить узел в определенной позиции в SmartArt
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как удалить узел в определенной позиции в SmartArt с помощью Aspose.Slides для Java. Усовершенствуйте настройку презентации без особых усилий.
+type: docs
 weight: 15
 url: /ru/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В сфере разработки Java Aspose.Slides выступает как мощный инструмент для программного управления презентациями. Будь то создание, изменение или управление слайдами, Aspose.Slides for Java предоставляет надежный набор функций для эффективной оптимизации этих задач. Одной из таких распространенных операций является удаление узла в определенной позиции объекта SmartArt. В этом руководстве подробно описывается пошаговый процесс выполнения этой задачи с помощью Aspose.Slides для Java.
 ## Предварительные условия
@@ -66,9 +62,3 @@ pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
  Чтобы приобрести Aspose.Slides для Java, посетите страницу покупки.[здесь](https://purchase.aspose.com/buy).
 ### Где я могу найти подробную документацию по Aspose.Slides для Java?
  Вы можете получить доступ к полной документации[здесь](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

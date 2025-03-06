@@ -3,14 +3,10 @@ title: Java 幻灯片中的组织结构图
 linktitle: Java 幻灯片中的组织结构图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过 Aspose.Slides 分步教程学习如何在 Java Slides 中创建出色的组织结构图。轻松自定义和可视化您的组织结构。
+type: docs
 weight: 22
 url: /zh/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 使用 Aspose.Slides 在 Java Slides 中创建组织结构图的简介
 
@@ -107,9 +103,3 @@ finally
 ### 是否有可能创建具有多个层次的复杂组织结构？
 
 是的，Aspose.Slides 允许您通过在组织结构图中添加和排列形状来创建具有多个级别的复杂组织结构。您可以定义形状之间的层次关系来表示所需的结构。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

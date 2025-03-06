@@ -3,14 +3,10 @@ title: الأشكال المستهدفة للرسوم المتحركة في Powe
 linktitle: الأشكال المستهدفة للرسوم المتحركة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحريك أشكال معينة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بإنشاء شرائح جذابة دون عناء.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكية، تلعب الرسوم المتحركة دورًا حاسمًا في إشراك الجمهور ونقل المعلومات بشكل فعال. يعمل Aspose.Slides for Java على تمكين المطورين من إنشاء عروض PowerPoint التقديمية الجذابة باستخدام رسوم متحركة معقدة مصممة خصيصًا لأشكال محددة. سيرشدك هذا البرنامج التعليمي خلال عملية استهداف الأشكال للرسوم المتحركة باستخدام Aspose.Slides لـ Java، مما يضمن تميز عروضك التقديمية من خلال انتقالات سلسة ورسوم متحركة دقيقة.
 ## المتطلبات الأساسية
@@ -66,9 +62,3 @@ try {
  يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Slides لـ Java؟
  يمكنك شراء Aspose.Slides لـ Java من موقع الويب[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

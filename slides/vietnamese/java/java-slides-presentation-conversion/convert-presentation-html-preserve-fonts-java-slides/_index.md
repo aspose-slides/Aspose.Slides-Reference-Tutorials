@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày sang HTML với việc giữ nguyên ph
 linktitle: Chuyển đổi bản trình bày sang HTML với việc giữ nguyên phông chữ gốc trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuyển đổi bản trình bày PowerPoint sang HTML trong khi vẫn giữ nguyên phông chữ gốc bằng Aspose.Slides cho Java.
+type: docs
 weight: 14
 url: /vi/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Chuyển đổi bản trình bày sang HTML với việc giữ nguyên phông chữ gốc trong trang trình bày Java
 
@@ -115,9 +111,3 @@ Ví dụ mã này được thiết kế cho các tệp PPTX. Nếu bạn cần c
 ### Làm cách nào tôi có thể tùy chỉnh thêm đầu ra HTML?
 
  Bạn có thể khám phá`HtmlOptions` class để tùy chỉnh các khía cạnh khác nhau của đầu ra HTML, chẳng hạn như kích thước trang chiếu, chất lượng hình ảnh, v.v.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

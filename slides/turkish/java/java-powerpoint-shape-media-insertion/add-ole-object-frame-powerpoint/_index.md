@@ -3,14 +3,10 @@ title: PowerPoint'e OLE Nesne Çerçevesi Ekleme
 linktitle: PowerPoint'e OLE Nesne Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak OLE Nesne Çerçevelerini PowerPoint sunumlarına sorunsuz bir şekilde nasıl entegre edeceğinizi öğrenin.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 PowerPoint sunumlarına bir OLE (Nesne Bağlama ve Gömme) Nesne Çerçevesi eklemek, slaytlarınızın görsel çekiciliğini ve işlevselliğini önemli ölçüde artırabilir. Aspose.Slides for Java ile bu süreç kolaylaştırılmış ve verimli hale geliyor. Bu öğreticide, OLE Nesne Çerçevelerini PowerPoint sunumlarınıza sorunsuz bir şekilde entegre etmek için gereken adımlarda size yol göstereceğiz.
 ### Önkoşullar
@@ -84,9 +80,3 @@ Kesinlikle! Aspose.Slides, OLE Nesne Çerçevelerinin görünümünü ve davran�
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides for Java desteğini nerede bulabilirim?
  Aspose.Slides forumundan destek ve yardım alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

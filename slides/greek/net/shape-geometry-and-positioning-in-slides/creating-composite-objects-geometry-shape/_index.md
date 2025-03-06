@@ -3,14 +3,10 @@ title: Κατοχή σύνθετων σχημάτων γεωμετρίας σε 
 linktitle: Δημιουργία σύνθετων αντικειμένων σε σχήμα γεωμετρίας με το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε εντυπωσιακές παρουσιάσεις με σχήματα σύνθετης γεωμετρίας χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εντυπωσιακά αποτελέσματα.
+type: docs
 weight: 14
 url: /el/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Ξεκλειδώστε τη δύναμη του Aspose.Slides για .NET για να βελτιώσετε τις παρουσιάσεις σας δημιουργώντας σύνθετα αντικείμενα σε σχήματα γεωμετρίας. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας οπτικά ελκυστικών διαφανειών με περίπλοκη γεωμετρία χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -88,9 +84,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και βοήθεια.
 ### Ε: Μπορώ να αγοράσω μια προσωρινή άδεια;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

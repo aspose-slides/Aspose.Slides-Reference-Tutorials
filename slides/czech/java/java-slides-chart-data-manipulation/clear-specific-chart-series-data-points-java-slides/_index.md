@@ -3,14 +3,10 @@ title: Vymazat data konkrétních datových bodů řady grafů v Java Slides
 linktitle: Vymazat data konkrétních datových bodů řady grafů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vymazat konkrétní datové body ze série grafů v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce se zdrojovým kódem pro efektivní správu vizualizace dat.
+type: docs
 weight: 15
 url: /cs/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod k vymazání dat datových bodů konkrétní řady grafů v Java Slides
 
@@ -125,9 +121,3 @@ Ano, datové body můžete vymazat na základě podmínky přidáním podmíněn
 ### Kde najdu více informací o Aspose.Slides for Java?
 
  Komplexní dokumentaci a příklady naleznete v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

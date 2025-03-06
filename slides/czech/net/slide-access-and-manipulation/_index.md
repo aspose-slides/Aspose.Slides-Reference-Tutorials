@@ -3,14 +3,10 @@ title: Přístup ke snímkům a manipulace s nimi
 linktitle: Přístup ke snímkům a manipulace s nimi
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte komplexní výukové programy pro přístup ke snímkům a manipulaci s nimi pomocí Aspose.Slides pro .NET. Naučte se vytvářet, upravovat a vylepšovat prezentace programově.
+type: docs
 weight: 10
 url: /cs/net/slide-access-and-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod:
 
 Vítejte ve světě dynamické manipulace s prezentacemi s Aspose.Slides pro .NET! Tato sbírka výukových programů je vaším klíčem k odemknutí plného potenciálu Aspose.Slides API a nabízí vám nástroje a znalosti pro bezproblémový přístup a manipulaci se snímky ve vašich aplikacích .NET. Od vytváření poutavých prezentací až po implementaci složitých úprav, tyto výukové programy vám poskytnou komplexní plán. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu s Aspose.Slides, naši podrobní průvodci a příklady kódu vám umožní využít sílu snímků pro působivé vizuální vyprávění příběhu. Připojte se k nám, když se vydáme na cestu do říše přístupu a manipulace s diapozitivy a zkoumáme možnosti, které vám Aspose.Slides přináší.
@@ -48,9 +44,3 @@ Naučte se, jak upravit pozice snímků v prezentacích pomocí Aspose.Slides fo
 Naučte se, jak mazat PowerPoint snímky krok za krokem pomocí Aspose.Slides pro .NET. Náš průvodce poskytuje jasné pokyny a úplný zdrojový kód, který vám pomůže programově odstranit snímky podle jejich sekvenčního indexu.
 ### [Smazat snímek pomocí reference](./remove-slide-using-reference/)
 Naučte se, jak programově odstranit snímky v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Zjednodušte si manipulaci s prezentacemi pomocí tohoto podrobného průvodce.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

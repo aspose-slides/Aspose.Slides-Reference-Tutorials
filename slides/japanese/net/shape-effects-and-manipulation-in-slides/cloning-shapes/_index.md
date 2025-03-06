@@ -3,14 +3,10 @@ title: Aspose.Slides を使用してプレゼンテーション スライドの�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形を複製する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides API を使用してプレゼンテーション スライド内の図形を効率的に複製する方法を学びます。動的なプレゼンテーションを簡単に作成します。ステップ バイ ステップ ガイド、FAQ などをご覧ください。
+type: docs
 weight: 27
 url: /ja/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入
 
@@ -101,9 +97,3 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## 結論
 
 Aspose.Slides でプレゼンテーション スライドの図形を複製する機能を活用すると、コンテンツ作成者と開発者の両方にとって創造的な可能性の世界が開かれます。このガイドでは、インストールから高度なカスタマイズまでのプロセスを順を追って説明し、プレゼンテーションを際立たせるために必要なツールを提供します。Aspose.Slides を使用すると、ワークフローを合理化し、プレゼンテーションのビジョンを簡単に実現できます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

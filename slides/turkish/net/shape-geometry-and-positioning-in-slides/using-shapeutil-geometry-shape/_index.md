@@ -3,14 +3,10 @@ title: ShapeUtil ile Geometri Şekillerinde Ustalaşmak - Aspose.Slides .NET
 linktitle: Sunum Slaytlarında Geometri Şekli için ShapeUtil'i Kullanma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Dinamik geometri şekilleri için Aspose.Slides for .NET'in gücünü ShapeUtil ile keşfedin. Zahmetsizce ilgi çekici sunumlar oluşturun. Hemen indirin! Aspose.Slides ile PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Geometri şekillerinin işlenmesi için ShapeUtil'i keşfedin. .NET kaynak kodunu içeren adım adım kılavuz. Sunumları etkili bir şekilde optimize edin.
+type: docs
 weight: 17
 url: /tr/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Görsel olarak çekici ve dinamik sunum slaytları oluşturmak önemli bir beceridir ve Aspose.Slides for .NET bunu başarmak için güçlü bir araç seti sağlar. Bu derste, sunum slaytlarındaki geometri şekillerini işlemek için ShapeUtil'in kullanımını inceleyeceğiz. İster tecrübeli bir geliştirici olun ister Aspose.Slides'a yeni başlıyor olun, bu kılavuz sunumlarınızı geliştirmek için ShapeUtil'i kullanma sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -92,9 +88,3 @@ Aspose.Slides öncelikle .NET dillerini destekler. Ancak Aspose diğer platforml
  Topluluk destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

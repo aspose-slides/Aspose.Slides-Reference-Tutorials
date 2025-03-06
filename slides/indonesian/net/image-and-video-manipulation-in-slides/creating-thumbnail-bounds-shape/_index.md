@@ -3,14 +3,10 @@ title: Membuat Thumbnail dengan Batas untuk Bentuk di Aspose.Slide
 linktitle: Membuat Thumbnail dengan Batas untuk Bentuk di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buka kekuatan Aspose.Slides untuk .NET! Pelajari cara membuat thumbnail bentuk dengan mudah dan berbatas menggunakan panduan langkah demi langkah kami.
+type: docs
 weight: 10
 url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Jika Anda seorang pengembang .NET yang mencari solusi tangguh untuk membuat gambar mini dengan batas bentuk dalam presentasi PowerPoint, Aspose.Slides untuk .NET adalah alat bantu Anda. Pustaka canggih ini memberikan integrasi yang lancar, memungkinkan Anda memanipulasi dan mengekstrak informasi berharga dari file PowerPoint secara efisien. Dalam tutorial ini, kita akan memandu proses pembuatan thumbnail dengan batas untuk suatu bentuk menggunakan Aspose.Slides.
 ## Prasyarat
@@ -64,9 +60,3 @@ Ya, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibilitas deng
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terhubung dengan komunitas dan mencari bantuan dari pengembang berpengalaman.
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Slides?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk kebutuhan proyek jangka pendek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

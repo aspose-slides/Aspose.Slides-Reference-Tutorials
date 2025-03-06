@@ -3,14 +3,10 @@ title: Java スライドのファネル チャート
 linktitle: Java スライドのファネル チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: ステップバイステップのチュートリアルで Aspose.Slides for Java を詳しく調べます。魅力的なファネル チャートなどを作成します。
+type: docs
 weight: 14
 url: /ja/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Javaスライドでのファネルチャートの紹介
 
@@ -148,9 +144,3 @@ finally
 ### Aspose.Slides for Java のその他の例やドキュメントはどこで入手できますか?
 
  Aspose.Slides for Javaの使用に関する詳細な例とドキュメントは、[ドキュメンテーション](https://docs.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

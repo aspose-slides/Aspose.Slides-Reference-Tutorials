@@ -3,14 +3,10 @@ title: Διπλότυπη διαφάνεια στο τέλος της υπάρχ
 linktitle: Διπλότυπη διαφάνεια στο τέλος της υπάρχουσας παρουσίασης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αντιγράφετε και να προσθέτετε μια διαφάνεια στο τέλος μιας υπάρχουσας παρουσίασης PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει παραδείγματα πηγαίου κώδικα και καλύπτει τη ρύθμιση, την αντιγραφή διαφανειών, την τροποποίηση και άλλα.
+type: docs
 weight: 22
 url: /el/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -100,9 +96,3 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Μπορώ να τροποποιήσω το περιεχόμενο της διαφάνειας χρησιμοποιώντας το Aspose.Slides;
 
 Απολύτως! Το Aspose.Slides σάς επιτρέπει όχι μόνο να αντιγράφετε διαφάνειες αλλά και να χειρίζεστε το περιεχόμενό τους, όπως κείμενο, εικόνες, σχήματα και κινούμενα σχέδια, μέσω προγραμματισμού.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

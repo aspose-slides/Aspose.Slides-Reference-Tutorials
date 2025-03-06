@@ -3,14 +3,10 @@ title: Hiệu ứng hình dạng và thao tác trong slide
 linktitle: Hiệu ứng hình dạng và thao tác trong slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao sức hấp dẫn trực quan của bản trình bày của bạn với các hướng dẫn Aspose.Slides về các hiệu ứng và thao tác hình dạng. Tìm hiểu cách tạo các trang trình bày ấn tượng bằng cách sử dụng các hiệu ứng hình dạng, hoạt ảnh, v.v.
+type: docs
 weight: 11
 url: /vi/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -67,9 +63,3 @@ Tìm hiểu cách nâng cao trang trình bày của bạn bằng cách điều c
 Nâng cao khả năng thuyết trình của bạn bằng cách tìm hiểu cách kết nối các hình dạng bằng cách sử dụng trình kết nối trong các trang trình bày với Aspose.Slides. Nâng cao khả năng kể chuyện bằng hình ảnh của bạn ngay hôm nay!
 ### [Kết nối Hình dạng bằng Trang web Kết nối trong Trang trình bày với Aspose.Slides](./connecting-shape-using-connection-site/)
 Nâng cao kỹ năng thuyết trình của bạn bằng cách học cách kết nối các hình dạng bằng cách sử dụng các trang kết nối trong các trang trình bày với Aspose.Slides. Hãy làm theo hướng dẫn chi tiết và ví dụ về mã của chúng tôi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

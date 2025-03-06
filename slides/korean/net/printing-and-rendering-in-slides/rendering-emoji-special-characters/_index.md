@@ -3,14 +3,10 @@ title: Aspose.Slides에서 이모티콘 및 특수 문자 렌더링
 linktitle: Aspose.Slides에서 이모티콘 및 특수 문자 렌더링
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 이모티콘으로 프레젠테이션을 향상하세요. 단계별 가이드에 따라 창의적인 터치를 손쉽게 추가하세요.
+type: docs
 weight: 14
 url: /ko/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 감정과 특수 문자를 전달하면 창의성과 독창성을 더할 수 있습니다. .NET용 Aspose.Slides는 개발자가 프레젠테이션에서 이모티콘과 특수 문자를 원활하게 렌더링하여 새로운 차원의 표현을 가능하게 해줍니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 단계별 지침을 통해 이를 달성하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -55,9 +51,3 @@ Aspose.Slides는 맞춤형 이모티콘을 포함하여 다양한 이모티콘�
  Aspose.Slides 커뮤니티에 가입하세요[법정](https://forum.aspose.com/c/slides/11) 도움과 토론을 위해.
 ### 영구 라이선스 없이 Aspose.Slides를 사용할 수 있나요?
  네, 임시 면허를 취득하세요[여기](https://purchase.aspose.com/temporary-license/) 단기 사용을 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

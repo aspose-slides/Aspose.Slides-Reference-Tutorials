@@ -3,14 +3,10 @@ title: Java PowerPoint で段落画像の箇条書きを管理する
 linktitle: Java PowerPoint で段落画像の箇条書きを管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint スライドにカスタム画像の箇条書きを追加する方法を学びます。シームレスな統合のために、この詳細なステップバイステップ ガイドに従ってください。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 魅力的で視覚的に魅力的なプレゼンテーションを作成することは、現代のビジネスの世界では重要なスキルです。Java 開発者は Aspose.Slides を活用して、PowerPoint スライドにカスタマイズされた画像の箇条書きを追加し、プレゼンテーションを強化できます。このチュートリアルでは、プロセスを段階的に説明し、自信を持ってプレゼンテーションに画像の箇条書きを追加できるようにします。
 ## 前提条件
@@ -108,9 +104,3 @@ Aspose.Slides for Java は、Java 開発者がプログラムで PowerPoint プ�
 はい、各段落を個別に作成して構成することで、異なる箇条書きスタイルを持つ複数の段落を 1 つのオートシェイプに追加できます。
 ### より多くの例やサポートはどこで見つかりますか?
 さらなる例は[ドキュメンテーション](https://reference.aspose.com/slides/java/)Asposeコミュニティからのサポートを受けるには[フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

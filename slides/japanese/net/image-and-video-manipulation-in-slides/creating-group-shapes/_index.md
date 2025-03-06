@@ -3,14 +3,10 @@ title: Aspose.Slides - .NET でグループ図形を作成する
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにグループ図形を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint でグループ図形を作成する方法を学びます。視覚的に魅力的なプレゼンテーションを作成するためのステップバイステップ ガイドに従ってください。
+type: docs
 weight: 11
 url: /ja/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーション スライドの視覚的な魅力を高め、コンテンツをより効率的に整理したい場合は、グループ シェイプを組み込むことが強力なソリューションとなります。Aspose.Slides for .NET は、PowerPoint プレゼンテーションでグループ シェイプをシームレスに作成および操作する方法を提供します。このチュートリアルでは、Aspose.Slides を使用してグループ シェイプを作成するプロセスを、わかりやすい手順に分解して説明します。
 ## 前提条件
@@ -102,10 +98,3 @@ Aspose.Slidesをご覧ください[フォーラム](https://forum.aspose.com/c/s
 臨時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides のフルライセンスはどこで購入できますか?
 ライセンスは以下から購入できます。[購入ページ](https://purchase.aspose.com/buy).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

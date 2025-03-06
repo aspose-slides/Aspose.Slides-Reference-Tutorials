@@ -3,14 +3,10 @@ title: 在 PowerPoint 中删除几何形状的线段
 linktitle: 在 PowerPoint 中删除几何形状的线段
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过我们详细的分步指南学习如何使用 Aspose.Slides for Java 从 PowerPoint 中的几何形状中删除线段。
+type: docs
 weight: 22
 url: /zh/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 您是否希望使用 Java 来操作 PowerPoint 演示文稿中的形状？您来对地方了！Aspose.Slides for Java 是一个强大的 API，可让您轻松创建、修改和管理演示文稿中的幻灯片。在本教程中，我们将引导您完成从 PowerPoint 中的几何形状中删除线段的过程。无论您是经验丰富的开发人员还是刚刚入门，本指南都将为您提供逐步掌握此任务的方法。准备好了吗？让我们开始吧！
 ## 先决条件
@@ -75,9 +71,3 @@ Aspose.Slides for Java 是一个强大的 API，用于以编程方式创建、�
 是的，您需要许可证才能使用完整功能。您可以购买一个[这里](https://purchase.aspose.com/buy)或获得临时执照[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多文档？
 提供全面的文档[这里](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

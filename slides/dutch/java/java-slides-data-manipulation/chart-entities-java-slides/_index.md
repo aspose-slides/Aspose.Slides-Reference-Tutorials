@@ -3,14 +3,10 @@ title: Grafiekentiteiten in Java-dia's
 linktitle: Grafiekentiteiten in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer Java Slides-diagrammen maken en aanpassen met Aspose.Slides. Verbeter uw presentaties met krachtige diagramentiteiten.
+type: docs
 weight: 13
 url: /nl/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot grafiekentiteiten in Java-dia's
 
@@ -305,9 +301,3 @@ U kunt de diagramkleuren aanpassen door het opvulformaat in te stellen voor vers
 ### Is Aspose.Slides voor Java compatibel met de nieuwste Java-versies?
 
 Ja, Aspose.Slides voor Java wordt regelmatig bijgewerkt om de nieuwste Java-versies te ondersteunen en biedt compatibiliteit met een breed scala aan Java-omgevingen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java 幻灯片中的树形图
 linktitle: Java 幻灯片中的树形图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 在 Java Slides 中创建树形图。带有源代码的分步指南，用于可视化分层数据。
+type: docs
 weight: 13
 url: /zh/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中的树形图图表简介
 
@@ -156,9 +152,3 @@ finally
 ### 如何保存树形图的演示文稿？
 
 使用`pres.save()`方法以所需的格式（例如 PPTX）保存包含树形图的演示文稿。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

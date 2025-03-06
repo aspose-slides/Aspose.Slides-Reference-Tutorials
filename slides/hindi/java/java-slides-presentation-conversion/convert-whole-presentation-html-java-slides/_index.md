@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में संपूर्ण प
 linktitle: जावा स्लाइड्स में संपूर्ण प्रस्तुति को HTML में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को HTML में परिवर्तित करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 29
 url: /hi/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में संपूर्ण प्रेजेंटेशन को HTML में बदलने का परिचय
 
@@ -121,9 +117,3 @@ finally
 ### क्या मैं संपूर्ण प्रस्तुति के बजाय विशिष्ट स्लाइडों को परिवर्तित कर सकता हूँ?
 
 हां, आप प्रेजेंटेशन को सेव करने से पहले कोड में उन्हें चुनकर विशिष्ट स्लाइड्स को कन्वर्ट कर सकते हैं। इससे आपको यह नियंत्रण मिलता है कि कौन सी स्लाइड्स HTML में कन्वर्ट होंगी।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

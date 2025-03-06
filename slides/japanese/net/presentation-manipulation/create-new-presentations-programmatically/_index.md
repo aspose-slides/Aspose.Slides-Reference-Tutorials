@@ -3,14 +3,10 @@ title: プログラムで新しいプレゼンテーションを作成する
 linktitle: プログラムで新しいプレゼンテーションを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプログラムでプレゼンテーションを作成する方法を学びます。効率的な自動化のためのソース コード付きのステップ バイ ステップ ガイド。
+type: docs
 weight: 10
 url: /ja/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 .NET でプログラムを使用してプレゼンテーションを作成する場合、Aspose.Slides for .NET は、このタスクを効率的に達成するのに役立つ強力なツールです。このステップバイステップのチュートリアルでは、提供されているソース コードを使用して新しいプレゼンテーションを作成する手順を説明します。
 
@@ -91,9 +87,3 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### 購入前に Aspose.Slides for .NET を試すことはできますか?
    はい、Aspose.Slides for .NETの無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/)試用版には制限がありますので、要件を満たしているかどうか必ず確認してください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

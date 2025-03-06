@@ -3,14 +3,10 @@ title: Hantera sidhuvud och sidfot i Notes med Aspose.Slides .NET
 linktitle: Hantera sidhuvud och sidfot i Notes Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du hanterar sidhuvud och sidfot i PowerPoint-anteckningsbilder med Aspose.Slides för .NET. Förbättra dina presentationer utan ansträngning.
+type: docs
 weight: 11
 url: /sv/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dagens digitala tidsålder är det en viktig färdighet att skapa engagerande och informativa presentationer. Som en del av denna process kan du ofta behöva inkludera sidhuvuden och sidfötter i dina anteckningsbilder för att ge ytterligare sammanhang och information. Aspose.Slides för .NET är ett kraftfullt verktyg som gör att du enkelt kan hantera sidhuvuds- och sidfotsinställningar i anteckningsbilder. I den här steg-för-steg-guiden kommer vi att utforska hur man uppnår detta med Aspose.Slides för .NET.
 
@@ -124,9 +120,3 @@ Absolut, Aspose.Slides för .NET låter dig automatisera PowerPoint-presentation
 
 ### Finns teknisk support tillgänglig för Aspose.Slides för .NET-användare?
  Ja, du kan hitta stöd och hjälp från Aspose-gemenskapen och experter på[Aspose supportforum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

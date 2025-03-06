@@ -3,14 +3,10 @@ title: Java 슬라이드의 통합 문서에서 차트 데이터 설정
 linktitle: Java 슬라이드의 통합 문서에서 차트 데이터 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드의 Excel 통합 문서에서 차트 데이터를 설정하는 방법을 알아보세요. 동적 프레젠테이션을 위한 코드 예제가 포함된 단계별 가이드입니다.
+type: docs
 weight: 15
 url: /ko/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 통합 문서에서 차트 데이터 설정 소개
 
@@ -146,9 +142,3 @@ Aspose.Slides for Java는 막대형 차트, 꺾은선형 차트, 분산형 차�
 ### Aspose.Slides for Java 작업에 대한 추가 예제와 리소스는 어디에서 찾을 수 있나요?
 
  다음에서 추가 예시와 리소스를 탐색할 수 있습니다.[Aspose 웹사이트](https://www.aspose.com/). 또한 Aspose.Slides for Java 설명서는 라이브러리 작업에 대한 포괄적인 지침을 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

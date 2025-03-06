@@ -3,14 +3,10 @@ title: Folie in den dafür vorgesehenen Abschnitt innerhalb der Präsentation du
 linktitle: Folie in den dafür vorgesehenen Abschnitt innerhalb der Präsentation duplizieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folien innerhalb eines bestimmten Abschnitts duplizieren. Schritt-für-Schritt-Anleitung zur effektiven Folienbearbeitung.
+type: docs
 weight: 19
 url: /de/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt dynamischer Präsentationen ist Aspose.Slides für .NET ein zuverlässiges Tool für Entwickler. Egal, ob Sie fesselnde Diashows erstellen oder die Folienbearbeitung automatisieren, Aspose.Slides für .NET bietet eine robuste Plattform zur Optimierung Ihrer Präsentationsprojekte. In diesem Tutorial werden wir uns mit dem Prozess des Duplizierens von Folien innerhalb eines bestimmten Abschnitts einer Präsentation befassen. Diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Voraussetzungen zu verstehen, Namespaces zu importieren und den Prozess zu meistern.
 
@@ -113,9 +109,3 @@ Nein, Aspose.Slides für .NET ist speziell für .NET-Anwendungen konzipiert. Wen
 ### 5. Wo erhalte ich Hilfe und Support für Aspose.Slides für .NET?
 
  Bei Fragen oder Problemen können Sie die[Aspose.Slides für .NET-Supportforum](https://forum.aspose.com/). Die Community und die Experten dort können Ihnen bei Ihren Fragen weiterhelfen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

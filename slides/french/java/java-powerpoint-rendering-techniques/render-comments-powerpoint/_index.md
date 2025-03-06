@@ -3,14 +3,10 @@ title: Rendre les commentaires dans PowerPoint
 linktitle: Rendre les commentaires dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment afficher des commentaires dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez l'apparence et générez efficacement des aperçus d'images.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous passerons en revue le processus de rendu des commentaires dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Le rendu des commentaires peut être utile à diverses fins, telles que la génération d'aperçus d'images de présentations avec des commentaires inclus.
 ## Conditions préalables
@@ -76,9 +72,3 @@ Oui, outre PNG, vous pouvez afficher des commentaires dans d'autres formats d'im
 Oui, en utilisant Aspose.Slides, vous pouvez afficher des commentaires sur les images sans ouvrir l'application PowerPoint.
 ### Existe-t-il un moyen d'afficher des commentaires directement dans un document PDF ?
 Oui, Aspose.Slides fournit des fonctionnalités pour afficher les commentaires directement dans les documents PDF, permettant une intégration transparente dans votre flux de travail documentaire.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

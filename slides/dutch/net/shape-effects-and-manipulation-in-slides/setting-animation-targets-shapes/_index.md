@@ -3,14 +3,10 @@ title: Animatiedoelen beheersen met Aspose.Slides voor .NET
 linktitle: Animatiedoelen instellen voor presentatiediavormen met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u uw presentaties tot leven kunt brengen met Aspose.Slides voor .NET! Stel moeiteloos animatiedoelen in en fascineer uw publiek.
+type: docs
 weight: 22
 url: /nl/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van presentaties kan het toevoegen van animaties aan uw dia's een gamechanger zijn. Aspose.Slides voor .NET stelt ontwikkelaars in staat boeiende en visueel aantrekkelijke presentaties te maken door nauwkeurige controle over animatiedoelen voor diavormen mogelijk te maken. In deze stapsgewijze handleiding leiden we u door het proces van het instellen van animatiedoelen met Aspose.Slides voor .NET. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial helpt u de kracht van animaties in uw presentaties te benutten.
 ## Vereisten
@@ -66,9 +62,3 @@ Nee, met Aspose.Slides kunt u een vrijwel onbeperkt aantal vormen in een present
 Ja, Aspose.Slides biedt opties om de duur en timing van elke animatie aan te passen.
 ### Waar kan ik meer voorbeelden en documentatie voor Aspose.Slides vinden?
  Ontdek de[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie en voorbeelden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

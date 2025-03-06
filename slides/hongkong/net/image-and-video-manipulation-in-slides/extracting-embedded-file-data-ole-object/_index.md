@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET - 擷取 OLE 物件資料教學
 linktitle: 從 Aspose.Slides 中的 OLE 物件提取嵌入檔案數據
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過我們從 OLE 物件提取嵌入檔案資料的分步指南，釋放 Aspose.Slides for .NET 的全部潛力。提升您的 PowerPoint 處理能力！
+type: docs
 weight: 20
 url: /zh-hant/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 如果您正在深入研究 Aspose.Slides for .NET 的世界，那麼您就走在了提升 PowerPoint 處理能力的正確道路上。在本綜合指南中，我們將引導您完成使用 Aspose.Slides 從 OLE 物件中提取嵌入檔案資料的過程。無論您是經驗豐富的開發人員還是 Aspose.Slides 的新手，本教學都將為您提供清晰詳細的路線圖，以充分利用這個強大的 .NET 庫的潛力。
 ## 先決條件
@@ -85,9 +81,3 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
 是的，您可以獲得免費試用版[這裡](https://releases.aspose.com/).
 ### 如何獲得對 Aspose.Slides 相關查詢的支援？
 請造訪 Aspose.Slides 支援論壇[這裡](https://forum.aspose.com/c/slides/11)尋求幫助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Klona bild i slutet av en annan presentation
 linktitle: Klona bild i slutet av en annan presentation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du klona en bild i slutet av en annan presentation med Aspose.Slides för Java i denna omfattande steg-för-steg-handledning.
+type: docs
 weight: 11
 url: /sv/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Har du någonsin hamnat i en situation där du behövde slå samman bilder från flera PowerPoint-presentationer? Det kan vara ganska jobbigt, eller hur? Nåväl, inte längre! Aspose.Slides för Java är ett kraftfullt bibliotek som gör det enkelt att manipulera PowerPoint-presentationer. I den här handledningen går vi igenom processen att klona en bild från en presentation och lägga till den i slutet av en annan presentation med Aspose.Slides för Java. Tro mig, i slutet av den här guiden kommer du att hantera dina presentationer som ett proffs!
 ## Förutsättningar
@@ -85,9 +81,3 @@ Aspose.Slides för Java är en kommersiell produkt, men du kan ladda ner en grat
 Nej, när du väl har laddat ner biblioteket behöver du ingen internetanslutning för att använda det.
 ### Var kan jag få support om jag stöter på problem?
  Du kan få stöd från Asposes communityforum[här](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ustaw wcięcie akapitu w programie Java PowerPoint
 linktitle: Ustaw wcięcie akapitu w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo ustawiać wcięcia akapitów na slajdach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz formatowanie prezentacji bez wysiłku.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku dowiesz się, jak programowo manipulować prezentacjami programu PowerPoint przy użyciu Aspose.Slides dla Java. W szczególności skupimy się na ustawianiu wcięć akapitów na slajdach. Aspose.Slides for Java zapewnia potężny zestaw interfejsów API, które pozwalają programistom tworzyć, modyfikować, konwertować i zarządzać prezentacjami programu PowerPoint bez polegania na Microsoft Office Automation.
 ## Warunki wstępne
@@ -89,9 +85,3 @@ Aspose.Slides for Java to potężna biblioteka do programowej pracy z prezentacj
  Tak, możesz uzyskać bezpłatną wersję próbną od[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie na forum społeczności[Tutaj](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

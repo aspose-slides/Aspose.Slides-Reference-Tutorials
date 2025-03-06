@@ -3,14 +3,10 @@ title: โหลดการแจงนับรูปแบบใน Java Slid
 linktitle: โหลดการแจงนับรูปแบบใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีตรวจสอบรูปแบบของงานนำเสนอ PowerPoint ใน Java โดยใช้ Aspose.Slides ปฏิบัติตามคำแนะนำทีละขั้นตอนพร้อมตัวอย่างซอร์สโค้ดเพื่อการตรวจจับรูปแบบที่มีประสิทธิภาพ
+type: docs
 weight: 14
 url: /th/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## รู้เบื้องต้นเกี่ยวกับการโหลดรูปแบบการนำเสนอใน Java Slides
 
@@ -72,10 +68,3 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### Aspose.Slides สำหรับ Java เหมาะสำหรับโครงการเชิงพาณิชย์หรือไม่
 
 ใช่ Aspose.Slides สำหรับ Java เหมาะสำหรับโครงการเชิงพาณิชย์ มีชุดคุณลักษณะที่มีประสิทธิภาพสำหรับการทำงานกับงานนำเสนอ PowerPoint ในแอปพลิเคชัน Java และมีการใช้กันอย่างแพร่หลายในสภาพแวดล้อมเชิงพาณิชย์และองค์กร
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

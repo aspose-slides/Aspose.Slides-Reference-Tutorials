@@ -3,14 +3,10 @@ title: تحريك سلسلة الرسوم البيانية باستخدام Aspo
 linktitle: سلسلة الرسوم المتحركة في الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحريك سلسلة المخططات باستخدام Aspose.Slides لـ .NET. قم بإشراك جمهورك من خلال العروض التقديمية الديناميكية. نبدأ الآن!
+type: docs
 weight: 12
 url: /ar/net/chart-formatting-and-animation/animating-series/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 هل تتطلع إلى إضافة بعض الإثارة إلى عروضك التقديمية باستخدام الرسوم البيانية المتحركة؟ Aspose.Slides for .NET موجود هنا لإضفاء الحيوية على مخططاتك. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية تحريك السلسلة في مخطط باستخدام Aspose.Slides for .NET. ولكن قبل أن نتعمق في العمل، دعونا نغطي المتطلبات الأساسية.
 
@@ -113,9 +109,3 @@ presentation.Save(dataDir + "AnimatingSeries_out.pptx", SaveFormat.Pptx);
 
 ### أين يمكنني شراء ترخيص Aspose.Slides لـ .NET؟
  يمكنك الحصول على ترخيص Aspose.Slides لـ .NET من صفحة الشراء[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java PowerPoint'te Tabloya Hücre Kenarlıkları Ekleme
 linktitle: Java PowerPoint'te Tabloya Hücre Kenarlıkları Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında tablolara hücre kenarlıklarının nasıl ekleneceğini öğrenin. Bu adım adım kılavuz, slaytlarınızı geliştirmenizi kolaylaştırır.
+type: docs
 weight: 10
 url: /tr/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Selam! Yani Java kullanarak PowerPoint sunumundaki bir tabloya hücre sınırları eklemek istiyorsunuz, öyle mi? Peki, doğru yerdesiniz! Bu eğitim, Aspose.Slides for Java kütüphanesini kullanarak süreç boyunca size adım adım rehberlik edecektir. Bu kılavuzun sonunda PowerPoint slaytlarınızdaki tabloları bir profesyonel gibi nasıl değiştireceğinizi iyice anlayacaksınız. Gelin hemen dalalım ve sunumlarınızın şık ve profesyonel görünmesini sağlayalım!
 ## Önkoşullar
@@ -100,9 +96,3 @@ Kesinlikle! Aspose.Slides'ı kullanarak tablo hücrelerine görseller ekleyebili
 Evet, slaytlar arasında geçiş yaparak ve tablo oluşturma mantığını her slayta uygulayarak süreci otomatikleştirebilirsiniz.
 ### Aspose.Slides hangi dosya formatlarını destekliyor?
 Aspose.Slides, PPT, PPTX, PDF ve daha fazlasını içeren çeşitli formatları destekler.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

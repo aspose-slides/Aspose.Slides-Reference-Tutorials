@@ -3,14 +3,10 @@ title: Mért licenchasználat
 linktitle: Mért licenchasználat
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan használhatja hatékonyan a mért licencelést az Aspose.Slides for .NET segítségével. Zökkenőmentesen integrálja az API-kat, miközben fizet a tényleges használatért.
+type: docs
 weight: 11
 url: /hu/net/licensing-and-formatting/metered-licensing/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés
 
@@ -118,9 +114,3 @@ Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fej
 
 ### Létezik fórum az Aspose.Slides támogatásához és vitáihoz?
  Igen, támogatást találhat és beszélgetéseket folytathat az Aspose.Slides fórumon a címen[ez a link](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

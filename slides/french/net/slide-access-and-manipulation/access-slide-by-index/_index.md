@@ -3,14 +3,10 @@ title: Accéder à la diapositive par index séquentiel
 linktitle: Accéder à la diapositive par index séquentiel
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment accéder aux diapositives par index séquentiel à l’aide d’Aspose.Slides pour .NET. Suivez ce guide étape par étape avec le code source pour naviguer et manipuler facilement les présentations PowerPoint.
+type: docs
 weight: 12
 url: /fr/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la diapositive d'accès par index séquentiel
 
@@ -90,9 +86,3 @@ Aspose.Slides pour .NET offre un large éventail de fonctionnalités, notamment 
 ### Comment puis-je en savoir plus sur l’automatisation PowerPoint à l’aide d’Aspose.Slides ?
 
  Pour en savoir plus sur l'automatisation PowerPoint à l'aide d'Aspose.Slides, vous pouvez explorer la Documentation détaillée et les exemples de code disponibles sur leur site Web.[documentation](https://reference.aspose.com/slides/net/) page.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

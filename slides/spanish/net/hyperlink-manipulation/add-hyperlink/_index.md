@@ -3,14 +3,10 @@ title: Agregar hipervínculos a diapositivas en .NET usando Aspose.Slides
 linktitle: Agregar hipervínculo a la diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar hipervínculos a diapositivas de PowerPoint con Aspose.Slides para .NET. Mejore sus presentaciones con elementos interactivos.
+type: docs
 weight: 12
 url: /es/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 En el mundo de las presentaciones digitales, la interactividad es clave. Agregar hipervínculos a sus diapositivas puede hacer que su presentación sea más atractiva e informativa. Aspose.Slides para .NET es una poderosa biblioteca que le permite crear, modificar y manipular presentaciones de PowerPoint mediante programación. En este tutorial, le mostraremos cómo agregar hipervínculos a sus diapositivas usando Aspose.Slides para .NET. 
 
@@ -110,9 +106,3 @@ Aspose.Slides ofrece una amplia gama de funciones interactivas, incluidos botone
 ### 5. ¿Aspose.Slides está disponible para otros lenguajes de programación?
 
 Sí, Aspose.Slides está disponible para varios lenguajes de programación, incluidos Java y Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

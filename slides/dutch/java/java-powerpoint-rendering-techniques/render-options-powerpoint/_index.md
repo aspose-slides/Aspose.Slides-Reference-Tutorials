@@ -3,14 +3,10 @@ title: Renderopties in PowerPoint
 linktitle: Renderopties in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u weergaveopties in PowerPoint-presentaties kunt manipuleren met Aspose.Slides voor Java. Pas uw dia's aan voor een optimale visuele impact.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Aspose.Slides voor Java kunt gebruiken om weergaveopties in PowerPoint-presentaties te manipuleren. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze handleiding begeleidt u stap voor stap door het proces.
 ## Vereisten
@@ -79,9 +75,3 @@ Ja, u kunt bepalen hoe animaties worden afgehandeld tijdens het weergaveproces, 
 Zeker! Met Aspose.Slides kunt u aangepaste achtergronden voor dia's instellen voordat u ze rendert.
 ### Is er een manier om dia's rechtstreeks naar een PDF-document weer te geven?
 Ja, Aspose.Slides biedt functionaliteit om PowerPoint-presentaties direct met hoge betrouwbaarheid naar PDF-bestanden te converteren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

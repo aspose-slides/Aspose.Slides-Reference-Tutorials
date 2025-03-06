@@ -3,14 +3,10 @@ title: Java Slaytlarında Sunum Korumasını Kontrol Edin
 linktitle: Java Slaytlarında Sunum Korumasını Kontrol Edin
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java slaytlarında sunum korumasını nasıl kontrol edeceğinizi öğrenin. Bu adım adım kılavuz, yazma ve açma koruması kontrollerine yönelik kod örnekleri sağlar.
+type: docs
 weight: 15
 url: /tr/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Sunum Korumasını Kontrol Etmeye Giriş
 
@@ -117,9 +113,3 @@ Bir sunumun koruma parolasını unutursanız onu kurtarmanın yerleşik bir yolu
 ### Aspose.Slides for Java en son PowerPoint dosya formatlarıyla uyumlu mu?
 
 Evet, Aspose.Slides for Java, .pptx dosyaları dahil en yeni PowerPoint dosya formatlarını destekler.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

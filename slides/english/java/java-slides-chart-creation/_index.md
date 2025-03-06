@@ -3,14 +3,10 @@ title: Java Slides Chart Creation
 linktitle: Java Slides Chart Creation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic Java slides with charts using Aspose.Slides for Java. Our comprehensive tutorials guide you through the process step by step.
+type: docs
 weight: 16
 url: /java/chart-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Are you ready to unlock the power of dynamic charts in your Java slides? With Aspose.Slides for Java, you can create captivating charts effortlessly. This comprehensive guide will take you through the essential steps, from installation to chart perfection.
 
@@ -39,9 +35,3 @@ Learn how to create Scatter Charts in Java using Aspose.Slides. Step-by-step gui
 Learn how to customize charts in Java Slides using Aspose.Slides for Java. Explore second plot options and enhance your presentations.
 ### [Tree Map Chart in Java Slides](./tree-map-chart-java-slides/)
 Create Tree Map Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for visualizing hierarchical data.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

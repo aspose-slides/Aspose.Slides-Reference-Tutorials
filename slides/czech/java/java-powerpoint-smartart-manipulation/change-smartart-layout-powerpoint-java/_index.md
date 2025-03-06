@@ -3,14 +3,10 @@ title: Změňte rozvržení SmartArt v PowerPointu pomocí Java
 linktitle: Změňte rozvržení SmartArt v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se manipulovat s rozvrženími SmartArt v prezentacích PowerPoint pomocí Java s Aspose.Slides for Java.
+type: docs
 weight: 19
 url: /cs/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto kurzu prozkoumáme, jak manipulovat s rozvržením SmartArt v prezentacích PowerPoint pomocí Javy. SmartArt je výkonná funkce v PowerPointu, která uživatelům umožňuje vytvářet vizuálně přitažlivou grafiku pro různé účely, jako je ilustrování procesů, hierarchií, vztahů a další.
 ## Předpoklady
@@ -64,9 +60,3 @@ Ano, Aspose.Slides je k dispozici pro více programovacích jazyků, včetně .N
 Grafiku SmartArt můžete samozřejmě vytvářet programově nebo upravovat stávající tak, aby vyhovovaly vašim požadavkům.
 ### Existuje komunitní fórum, kde mohu vyhledat pomoc ohledně Aspose.Slides?
  Ano, můžete navštívit fórum Aspose.Slides[tady](https://forum.aspose.com/c/slides/11) klást otázky a zapojit se do komunity.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

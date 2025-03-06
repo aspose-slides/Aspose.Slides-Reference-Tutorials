@@ -3,14 +3,10 @@ title: 在 PowerPoint 中添加嵌入式视频框
 linktitle: 在 PowerPoint 中添加嵌入式视频框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本分步教程学习如何使用 Aspose.Slides for Java 在 PowerPoint 中嵌入视频帧。轻松增强您的演示文稿。
+type: docs
 weight: 21
 url: /zh/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在 PowerPoint 演示文稿中添加视频可以使其更具吸引力和信息量。使用 Aspose.Slides for Java，您可以轻松地将视频直接嵌入幻灯片中。在本教程中，我们将逐步指导您完成该过程，确保您了解代码的每个部分及其功能。无论您是经验丰富的开发人员还是刚刚起步，本指南都将帮助您使用嵌入视频增强演示文稿的效果。
 ## 先决条件
@@ -97,9 +93,3 @@ Aspose.Slides 支持各种视频格式，包括 MP4、AVI 和 WMV。
 是的，您需要有效的许可证才能使用 Aspose.Slides。您可以获取临时许可证进行评估。
 ### 我可以自定义视频帧的大小和位置吗？
 是的，您可以在添加视频帧时通过设置相应的参数来自定义大小和位置。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

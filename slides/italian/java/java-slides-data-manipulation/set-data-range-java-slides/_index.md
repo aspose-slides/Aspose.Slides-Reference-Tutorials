@@ -3,14 +3,10 @@ title: Imposta l'intervallo di dati nelle diapositive Java
 linktitle: Imposta l'intervallo di dati nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare gli intervalli di dati nelle diapositive Java senza sforzo con Aspose.Slides per Java. Crea presentazioni dinamiche e basate sui dati con questa guida passo passo.
+type: docs
 weight: 18
 url: /it/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione all'impostazione dell'intervallo di dati nelle diapositive Java
 
@@ -101,9 +97,3 @@ Sì, Aspose.Slides per Java è adatto sia per uso personale che commerciale. For
 ### Dove posso trovare ulteriore documentazione ed esempi per Aspose.Slides per Java?
 
  È possibile trovare un'ampia documentazione ed esempi per Aspose.Slides per Java sul sito Web della documentazione di Aspose:[Aspose.Slides per riferimenti API Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

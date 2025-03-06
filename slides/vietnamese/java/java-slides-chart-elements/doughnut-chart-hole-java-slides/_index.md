@@ -3,14 +3,10 @@ title: Lỗ biểu đồ bánh rán trong trang trình bày Java
 linktitle: Lỗ biểu đồ bánh rán trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ bánh rán với kích thước lỗ tùy chỉnh trong trang trình bày Java bằng cách sử dụng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để tùy chỉnh biểu đồ.
+type: docs
 weight: 11
 url: /vi/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Biểu đồ bánh rán có lỗ trong Java Slides
 
@@ -98,9 +94,3 @@ finally
 ### Có thể thêm tiêu đề vào biểu đồ không?
 
  Chắc chắn! Bạn có thể thêm tiêu đề vào biểu đồ bằng cách sử dụng`setTitle` phương pháp trên`IChart` đối tượng và cung cấp văn bản tiêu đề mong muốn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

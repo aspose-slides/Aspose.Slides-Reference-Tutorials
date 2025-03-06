@@ -3,14 +3,10 @@ title: Definir âncora do quadro de texto no PowerPoint com Java
 linktitle: Definir âncora do quadro de texto no PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir âncoras de quadro de texto no PowerPoint usando Java com Aspose.Slides. Aprimore suas apresentações.
+type: docs
 weight: 13
 url: /pt/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Neste tutorial, você aprenderá como definir a âncora de um quadro de texto em apresentações do PowerPoint usando Java com a ajuda de Aspose.Slides. A ancoragem de quadros de texto permite controlar com precisão a posição e o comportamento do texto dentro de uma forma, garantindo que seus slides sejam visualmente atraentes e estruturados de maneira eficaz.
 ## Pré-requisitos
@@ -75,9 +71,3 @@ Aspose.Slides for Java é uma biblioteca poderosa que permite aos desenvolvedore
  Sim, você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode visitar o fórum de suporte[aqui](https://forum.aspose.com/c/slides/11) para qualquer dúvida ou assistência.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

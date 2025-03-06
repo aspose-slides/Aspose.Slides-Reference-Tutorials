@@ -3,14 +3,10 @@ title: Replikasi Slide di Akhir Presentasi Terpisah
 linktitle: Replikasi Slide di Akhir Presentasi Terpisah
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mereplikasi slide dari satu presentasi PowerPoint dan menambahkannya ke presentasi lain menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini menyediakan kode sumber dan instruksi yang jelas untuk manipulasi slide yang lancar.
+type: docs
 weight: 17
 url: /id/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -107,9 +103,3 @@ Sangat! Anda dapat memanipulasi konten slide yang direplikasi sama seperti slide
 ### Apakah Aspose.Slides untuk .NET hanya berfungsi dengan slide?
 
 Tidak, Aspose.Slides untuk .NET memberikan kemampuan luas di luar slide. Anda dapat bekerja dengan bentuk, bagan, animasi, dan bahkan mengekstrak teks dan gambar dari presentasi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Licenze a consumo in Java Slides
 linktitle: Licenze a consumo in Java Slides
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Ottimizza il tuo Aspose.Slides per l'utilizzo di Java con licenze a consumo. Scopri come configurarlo e monitorare il consumo dell'API.
+type: docs
 weight: 10
 url: /it/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione alle licenze controllate in Aspose.Slides per Java
 
@@ -111,10 +107,3 @@ Se superi il limite misurato, potrebbe essere necessario aggiornare la licenza o
 ### Ho bisogno di una connessione Internet per le licenze a consumo?
 
 Sì, è necessaria una connessione Internet per impostare e convalidare la licenza a consumo.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

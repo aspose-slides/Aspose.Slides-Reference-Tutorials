@@ -3,14 +3,10 @@ title: การเรียนรู้เอฟเฟกต์ Duotone ใน 
 linktitle: การใช้เอฟเฟ็กต์ดูโอโทนในสไลด์การนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: สร้างสไลด์การนำเสนอที่น่าดึงดูดใจด้วย Aspose.Slides สำหรับ .NET เรียนรู้การใช้เอฟเฟ็กต์ดูโอโทนทีละขั้นตอน ยกระดับการนำเสนอของคุณตอนนี้!
+type: docs
 weight: 18
 url: /th/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 การสร้างสไลด์การนำเสนอที่สวยงามสะดุดตาถือเป็นสิ่งสำคัญในการดึงดูดผู้ชมของคุณ วิธีหนึ่งที่มีประสิทธิภาพในการปรับปรุงสไลด์ของคุณคือการใช้เอฟเฟ็กต์ดูโอโทน ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการใช้เอฟเฟกต์ดูโอโทนในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -85,9 +81,3 @@ Aspose.Slides มีเอฟเฟกต์การแปลงภาพที
 อย่างแน่นอน. สำรวจเอกสารประกอบของ Aspose.Slides สำหรับตัวเลือกการปรับแต่งขั้นสูง
 ### มี Aspose.Slides รุ่นทดลองใช้งานหรือไม่
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

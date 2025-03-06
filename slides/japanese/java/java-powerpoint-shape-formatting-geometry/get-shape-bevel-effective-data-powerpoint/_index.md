@@ -3,14 +3,10 @@ title: PowerPoint でシェイプベベルの有効データを取得する
 linktitle: PowerPoint でシェイプベベルの有効データを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint で図形のベベルの有効データを取得する方法を学びます。魅力的な視覚効果でプレゼンテーションを強化します。
+type: docs
 weight: 26
 url: /ja/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 現代のビジネス プレゼンテーションでは、視覚的な魅力が情報を効果的に伝える上で重要な役割を果たします。PowerPoint プレゼンテーションで図形の視覚的なインパクトを高めることができる要素の 1 つがベベル効果です。Aspose.Slides for Java は、ベベル効果を含む図形のさまざまなプロパティにアクセスして操作するための強力なツールを提供します。このチュートリアルでは、Aspose.Slides for Java を使用して図形のベベル効果データを取得する手順を説明します。
 ## 前提条件
@@ -62,9 +58,3 @@ Aspose.Slides は、さまざまなバージョンの PowerPoint との互換性
 もちろん、ベベル効果のプロパティを完全に制御し、要件に応じてカスタマイズできます。
 ### Aspose.Slides のその他のリソースやサポートはどこで見つかりますか?
 訪問することができます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)ご質問、サポート、追加リソースについては、こちらをご覧ください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

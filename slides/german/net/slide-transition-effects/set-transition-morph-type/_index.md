@@ -3,14 +3,10 @@ title: So legen Sie mit Aspose.Slides den Übergangsmorph-Typ auf einer Folie fe
 linktitle: Übergangsmorph-Typ auf Folie festlegen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET den Übergangsmorph-Typ auf Folien festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie jetzt Ihre Präsentationen!
+type: docs
 weight: 12
 url: /de/net/slide-transition-effects/set-transition-morph-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt dynamischer Präsentationen können die richtigen Übergänge einen großen Unterschied machen. Aspose.Slides für .NET ermöglicht Entwicklern die Erstellung atemberaubender PowerPoint-Präsentationen, und eine seiner spannenden Funktionen ist die Möglichkeit, Übergangseffekte festzulegen. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für .NET den Übergangsmorph-Typ auf einer Folie festlegen. Dies verleiht Ihren Präsentationen nicht nur eine professionelle Note, sondern verbessert auch das allgemeine Benutzererlebnis.
 
@@ -106,10 +102,3 @@ Bei technischen oder produktbezogenen Fragen können Sie die[Aspose.Slides für 
 
  Aspose.Slides für .NET bietet eine Vielzahl von Übergangseffekten, darunter Überblendungen, Pushes, Wipes und mehr. Sie können die Dokumentation auf der[Aspose.Slides für .NET-Dokumentationsseite](https://reference.aspose.com/slides/net/) für Details zu allen verfügbaren Übergangstypen.
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

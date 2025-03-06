@@ -1,15 +1,12 @@
 ---
 title: 프레젠테이션 조작 및 변환의 힘 활용
 linktitle: .NET 튜토리얼용 Aspose.Slides
+type: docs
 weight: 10
 url: /ko/net/
 description: .NET용 Aspose.Slides 튜토리얼을 통해 프레젠테이션 조작, 변환 및 PowerPoint 처리의 세계를 알아보세요. 영향력 있는 결과를 위해 프레젠테이션을 만들고, 변환하고, 향상시키는 방법을 알아보세요.
+is_root: true
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 프레젠테이션 조작, 변환 및 PowerPoint 처리 기술을 발견할 수 있는 .NET용 Aspose.Slides 튜토리얼의 포괄적인 컬렉션에 오신 것을 환영합니다. 이 튜토리얼은 Aspose.Slides의 기능을 마스터하기 위한 가이드 역할을 하며 프레젠테이션 생성, 사용자 정의 및 변환의 다양한 측면을 원활하게 탐색할 수 있도록 해줍니다. PowerPoint 작업을 자동화하거나, 프레젠테이션을 다른 형식으로 변환하거나, 멀티미디어로 슬라이드를 향상시키려는 경우, 이 튜토리얼은 개발 과정에 힘을 실어주는 단계별 지침을 제공합니다.
 
 ## 프레젠테이션 변환: 쉽게 슬라이드 변환
@@ -63,9 +60,3 @@ Aspose.Slides 슬라이드 보기 및 레이아웃 조작 튜토리얼을 사용
 슬라이드의 모양 기하학 및 위치 지정에 대한 Aspose.Slides 튜토리얼을 통해 슬라이드 조작 기술을 향상하세요. 프로그래밍 방식으로 모양, 크기 및 정렬을 제어하는 방법을 알아보세요.
 ### [슬라이드의 도형 정렬 및 서식 지정](./shape-alignment-and-formatting-in-slides/)
 .NET 애플리케이션의 모양 정렬 및 형식 지정에 대한 포괄적인 Aspose.Slides 자습서를 살펴보세요. 손쉽게 모양을 정렬하고 서식을 지정하는 방법을 배워 슬라이드 프레젠테이션을 정밀하게 향상하세요. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

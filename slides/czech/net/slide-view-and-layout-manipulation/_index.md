@@ -3,14 +3,10 @@ title: Zobrazení snímků a manipulace s rozvržením
 linktitle: Zobrazení snímků a manipulace s rozvržením
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optimalizujte zobrazení a rozvržení snímků pomocí výukových programů Zobrazení snímků a manipulace s rozvržením Aspose.Slides. Vylepšete dopad prezentace a vizuální dokonalost pomocí výkonných nástrojů .NET.
+type: docs
 weight: 20
 url: /cs/net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod
 
@@ -33,9 +29,3 @@ Naučte se spravovat prezentace v normálním stavu zobrazení pomocí Aspose.Sl
 Přečtěte si, jak propojit videa se snímky aplikace PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce obsahuje zdrojový kód a tipy pro vytváření interaktivních a poutavých prezentací s propojenými videi.
 ### [Správa ovládacího prvku ActiveX v prezentaci](./manage-activex-control/)
 Naučte se, jak vylepšit prezentace PowerPoint pomocí ovládacích prvků ActiveX pomocí Aspose.Slides pro .NET. Náš podrobný průvodce pokrývá vkládání, manipulaci, přizpůsobení, zpracování událostí a další.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

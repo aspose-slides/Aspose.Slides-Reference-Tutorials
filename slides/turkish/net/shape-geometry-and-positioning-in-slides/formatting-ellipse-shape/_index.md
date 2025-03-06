@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Elips Şekillerini Formatlama Eğitimi
 linktitle: Aspose.Slides ile Slaytlarda Elips Şeklini Formatlamak
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint'te göz alıcı elips şekilleri oluşturun. Profesyonel sunumlar için adım adım kılavuzumuzu takip edin.
+type: docs
 weight: 11
 url: /tr/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 PowerPoint sunumlarınızı görsel olarak çekici şekillerle geliştirmek, izleyicilerinizi büyülemek için çok önemlidir. Bu şekillerden biri, slaytlarınıza zarafet ve profesyonellik dokunuşu katabilecek elipstir. Bu eğitimde, Aspose.Slides for .NET kullanarak PowerPoint'te elips şekillerini biçimlendirme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -85,9 +81,3 @@ Aspose.Slides, en yenileri de dahil olmak üzere çeşitli PowerPoint sürümler
  Toplumdan yardım isteyin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET için doğrudan satın alma seçeneği var mı?
  Evet, kütüphaneyi doğrudan satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

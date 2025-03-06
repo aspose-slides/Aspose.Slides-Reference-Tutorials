@@ -3,14 +3,10 @@ title: Modernes Kommentarmanagement mit Aspose.Slides
 linktitle: Modernes Kommentarmanagement
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET moderne Kommentare in PowerPoint-Präsentationen verwalten. Mühelos zusammenarbeiten!
+type: docs
 weight: 14
 url: /de/net/slide-comments-manipulation/modern-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten. Eine der angebotenen Funktionen ist die moderne Kommentarverwaltung, mit der Sie Kommentare in Ihren Präsentationen nahtlos hinzufügen, ändern und mit ihnen interagieren können. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Verwaltung moderner Kommentare mit Aspose.Slides für .NET.
 
@@ -113,9 +109,3 @@ Sie können moderne Kommentare programmgesteuert aktualisieren oder löschen, in
 ### 5. Kann ich Aspose.Slides für .NET vor dem Kauf ausprobieren?
 
  Sicherlich! Sie können eine kostenlose Testversion von Aspose.Slides für .NET über das[Link zur kostenlosen Testversion](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

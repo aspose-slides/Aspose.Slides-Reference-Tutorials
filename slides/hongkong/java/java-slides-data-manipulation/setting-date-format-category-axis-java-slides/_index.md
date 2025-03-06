@@ -3,14 +3,10 @@ title: 在 Java 投影片中設定類別軸的日期格式
 linktitle: 在 Java 投影片中設定類別軸的日期格式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 設定 PowerPoint 圖表中類別軸的日期格式。帶有原始程式碼的分步指南。
+type: docs
 weight: 26
 url: /zh-hant/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 在 Java 投影片中設定類別軸的日期格式簡介
 
@@ -143,9 +139,3 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### 如何為圖表添加更多數據點？
 
 若要為圖表新增更多資料點，請使用`getDataPoints().addDataPointForLineSeries`資料系列上的方法並提供資料值。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

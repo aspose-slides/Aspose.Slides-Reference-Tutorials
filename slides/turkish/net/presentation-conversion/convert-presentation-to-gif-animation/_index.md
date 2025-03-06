@@ -3,14 +3,10 @@ title: Sunumu GIF Animasyonuna Dönüştür
 linktitle: Sunumu GIF Animasyonuna Dönüştür
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak GIF animasyonlarıyla büyüleyici sunumlar oluşturun. Statik slaytları dinamik görsel deneyimlere dönüştürün.
+type: docs
 weight: 20
 url: /tr/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Günümüzün dijital çağında görsel içerik iletişimde hayati bir rol oynamaktadır. Bazen bir sunumu daha ilgi çekici ve paylaşılabilir hale getirmek için GIF animasyonuna dönüştürmeniz gerekebilir. Neyse ki Aspose.Slides for .NET'in yardımıyla bu görev kolaylaşıyor. Bu eğitimde, aşağıdaki kaynak kodunu kullanarak bir sunumu GIF animasyonuna dönüştürme sürecinde size yol göstereceğiz.
 
@@ -84,9 +80,3 @@ Evet, ihtiyaçlarınıza uygun bir GIF oluşturmak için koddaki geçiş efektle
 
 ### S5: Bu eğitimin kaynak koduna nereden erişebilirim?
  Aspose.Slides'ın kaynak kodunu ve daha fazla öğreticiyi belgelerde bulabilirsiniz.[Burada](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

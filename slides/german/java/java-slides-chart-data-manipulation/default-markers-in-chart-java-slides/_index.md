@@ -3,14 +3,10 @@ title: Standardmarkierungen im Diagramm in Java-Folien
 linktitle: Standardmarkierungen im Diagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Java-Folien mit Standardmarkierungen in Diagrammen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode.
+type: docs
 weight: 16
 url: /de/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Standardmarkierungen im Diagramm in Java-Folien
 
@@ -146,9 +142,3 @@ Sie können die Markierungssymbole anpassen, indem Sie den Markierungsstil für 
 ### Kann ich den Datenpunkten Beschriftungen hinzufügen?
 
  Ja, Sie können Datenpunkten Beschriftungen hinzufügen mit dem`IDataPoint.getLabel()` Methode und passen Sie sie nach Bedarf an.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

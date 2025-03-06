@@ -3,14 +3,10 @@ title: Définir le nuancier de couleurs de remplissage inversé dans les diaposi
 linktitle: Définir le nuancier de couleurs de remplissage inversé dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des couleurs de remplissage inversées pour les graphiques Java Slides à l'aide d'Aspose.Slides. Améliorez vos visualisations de graphiques avec ce guide étape par étape et ce code source.
+type: docs
 weight: 22
 url: /fr/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition du nuancier de couleurs de remplissage inversé dans les diapositives Java
 
@@ -157,9 +153,3 @@ Oui, vous pouvez personnaliser divers aspects de l'apparence du graphique, notam
 ### Puis-je enregistrer le graphique dans différents formats ?
 
  Oui, vous pouvez enregistrer le graphique dans différents formats à l'aide d'Aspose.Slides pour Java. Dans l'exemple de code fourni, nous avons enregistré la présentation sous forme de fichier PPTX. Vous pouvez utiliser différents`SaveFormat` options pour l'enregistrer dans d'autres formats comme PDF, PNG ou SVG, en fonction de vos besoins.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

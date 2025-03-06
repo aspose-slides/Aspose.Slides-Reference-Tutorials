@@ -3,14 +3,10 @@ title: Egyszerű vonalak hozzáadása a bemutató diákhoz az Aspose.Slides seg�
 linktitle: Egyszerű vonalak hozzáadása a bemutató diákhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa PowerPoint-prezentációit .NET-ben az Aspose.Slides segítségével. Kövesse lépésenkénti útmutatónkat, hogy egyszerű vonalakat adjon hozzá könnyedén.
+type: docs
 weight: 16
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Lebilincselő és látványos PowerPoint-prezentációk létrehozása gyakran magában foglalja a különböző formák és elemek beépítését. Ha .NET-tel dolgozik, az Aspose.Slides egy hatékony eszköz, amely leegyszerűsíti a folyamatot. Ez az oktatóanyag az Aspose.Slides for .NET segítségével egyszerű vonalak hozzáadására összpontosít a prezentáció diákjaihoz. Kövesse tovább, és javítsa prezentációit ezzel a könnyen követhető útmutatóval.
 ## Előfeltételek
@@ -71,9 +67,3 @@ V: Az Aspose.Slides feltétlenül támogatja a legújabb .NET keretrendszereket.
  Egy látogatás[itt](https://purchase.aspose.com/temporary-license/) ideiglenes engedélyekért.
 ### K: Problémákkal szembesül? Hol kaphatok támogatást?
  V: Kérjen segítséget a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

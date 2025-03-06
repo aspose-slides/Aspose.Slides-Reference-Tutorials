@@ -3,14 +3,10 @@ title: Twórz wielopoziomowe punktory w Java PowerPoint
 linktitle: Twórz wielopoziomowe punktory w Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wielopoziomowe punktory w programie PowerPoint przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami.
+type: docs
 weight: 14
 url: /pl/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku omówimy, jak tworzyć wielopoziomowe punktory w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Dodawanie wypunktowań jest częstym wymogiem tworzenia zorganizowanej i atrakcyjnej wizualnie treści w prezentacjach. Przejdziemy przez ten proces krok po kroku, upewniając się, że pod koniec tego przewodnika będziesz w stanie wzbogacić swoje prezentacje o uporządkowane wypunktowania na wielu poziomach.
 ## Warunki wstępne
@@ -113,9 +109,3 @@ Aspose.Slides generuje prezentacje kompatybilne z Microsoft PowerPoint 2007 i no
 Tak, Aspose.Slides udostępnia interfejsy API umożliwiające automatyzację tworzenia, modyfikowania i manipulowania prezentacjami programu PowerPoint.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie od społeczności i ekspertów Aspose.Slides pod adresem[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

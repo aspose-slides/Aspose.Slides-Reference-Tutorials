@@ -3,14 +3,10 @@ title: Java スライドでファイル形式情報を取得する
 linktitle: Java スライドでファイル形式情報を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java API を使用して Java スライドのファイル形式情報を取得する方法を学習します。コード例を使用してプレゼンテーション形式を識別します。
+type: docs
 weight: 11
 url: /ja/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでファイル形式情報を取得する方法の紹介
 
@@ -117,9 +113,3 @@ Aspose.Slides for Java は商用ライブラリですが、無料の試用版が
 ### Aspose サポートに問い合わせるにはどうすればいいですか?
 
 Aspose のサポートには、同社の Web サイトから問い合わせることができます。同社では、製品の使用中に発生するあらゆる質問や問題に対応するための専用のサポート チャネルを提供しています。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

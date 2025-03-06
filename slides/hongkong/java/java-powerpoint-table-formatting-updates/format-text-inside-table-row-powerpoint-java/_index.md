@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中格式化表格行內的文本
 linktitle: 使用 Java 在 PowerPoint 中格式化表格行內的文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中設定表格行內文字的格式。透過我們的逐步指南增強您的簡報。
+type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在處理簡報時，創建具有視覺吸引力的幻燈片對於保持觀眾的參與至關重要。設定表格行內文字的格式可以顯著增強投影片的可讀性和美觀性。在本教學中，我們將探討如何使用 Aspose.Slides for Java 在 PowerPoint 中設定表格行內的文字格式。
 ## 先決條件
@@ -89,9 +85,3 @@ Aspose.Slides 可用於多種平台，包括 .NET 和 C++。但是，對於 Java
 是的，您可以從[購買頁面](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java 支援哪些檔案格式？
 Aspose.Slides for Java 支援多種格式，包括 PPT、PPTX、ODP 等。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

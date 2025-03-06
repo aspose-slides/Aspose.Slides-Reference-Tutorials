@@ -3,14 +3,10 @@ title: Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
 linktitle: Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi presentasi ke HTML dengan font tersemat menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah ini memastikan pemformatan yang konsisten untuk berbagi tanpa hambatan.
+type: docs
 weight: 13
 url: /id/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengonversi Presentasi ke HTML dengan Sematkan Semua Font di Slide Java
 
@@ -112,9 +108,3 @@ Ya, metode ini berfungsi untuk presentasi dengan konten kompleks, termasuk gamba
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat mengakses dokumentasi dan sumber daya komprehensif untuk Aspose.Slides untuk Java di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

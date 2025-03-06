@@ -3,14 +3,10 @@ title: Manipulación de diapositivas de notas
 linktitle: Manipulación de diapositivas de notas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejora tus presentaciones con precisión! Explore el tutorial de Aspose.Slides sobre manipulación de diapositivas de notas en .NET. Aprenda a agregar, editar y administrar notas del orador mediante programación.
+type: docs
 weight: 16
 url: /es/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 
 Bienvenido al tutorial completo de Aspose.Slides sobre manipulación de diapositivas de Notes para desarrolladores .NET. En este tutorial, profundizaremos en el fascinante mundo de las notas del orador y cómo puedes manipularlas mediante programación usando la biblioteca Aspose.Slides. Las notas del orador desempeñan un papel fundamental en las presentaciones, ya que ofrecen información valiosa al presentador y mejoran el impacto general del contenido. Al final de este tutorial, tendrá una comprensión sólida de cómo agregar, editar y administrar de manera efectiva notas del orador dentro de sus presentaciones de PowerPoint.
@@ -43,9 +39,3 @@ Aprenda a personalizar el encabezado y el pie de página en las diapositivas de 
 Aprenda cómo eliminar notas de una diapositiva específica en presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga nuestra guía paso a paso con el código fuente completo para manipular sin problemas sus diapositivas mediante programación.
 ### [Eliminar notas de todas las diapositivas](./remove-notes-from-all-slides/)
 Aprenda cómo eliminar notas de todas las diapositivas de sus presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga esta guía paso a paso con ejemplos completos de código fuente para lograr fácilmente su objetivo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

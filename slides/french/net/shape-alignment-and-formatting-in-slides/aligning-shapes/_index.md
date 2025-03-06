@@ -3,14 +3,10 @@ title: Maîtriser l'alignement des formes avec Aspose.Slides pour .NET
 linktitle: Alignement des formes dans les diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à aligner les formes sans effort dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Améliorez l’attrait visuel avec un alignement précis. Télécharger maintenant!
+type: docs
 weight: 10
 url: /fr/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 La création de diapositives de présentation visuellement attrayantes nécessite souvent un alignement précis des formes. Aspose.Slides pour .NET fournit une solution puissante pour y parvenir facilement. Dans ce didacticiel, nous allons explorer comment aligner les formes dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -86,9 +82,3 @@ Absolument! Aspose.Slides fournit des méthodes pour répartir les formes unifor
 Aspose.Slides pour .NET est principalement conçu pour les applications Windows, mais Aspose fournit également des bibliothèques pour Java et d'autres plates-formes.
 ### Comment puis-je obtenir une aide ou un soutien supplémentaire ?
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les discussions de la communauté.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

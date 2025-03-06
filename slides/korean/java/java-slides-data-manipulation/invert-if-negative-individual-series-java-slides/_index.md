@@ -3,14 +3,10 @@ title: Java 슬라이드의 개별 시리즈에 대해 음수인 경우 반전
 linktitle: Java 슬라이드의 개별 시리즈에 대해 음수인 경우 반전
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java의 음수인 경우 반전 기능을 사용하여 PowerPoint 프레젠테이션의 차트 시각적 효과를 향상시키는 방법을 알아보세요.
+type: docs
 weight: 11
 url: /ko/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 개별 시리즈에 대한 음수 반전 소개
 
@@ -135,9 +131,3 @@ Java 프로젝트에 Aspose.Slides 라이브러리를 포함하려면 프로젝�
 ### Java 설명서용 Aspose.Slides에 어디서 액세스할 수 있나요?
 
 Java용 Aspose.Slides 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Limpe pontos de dados específicos da série de gráficos com Aspose.Slid
 linktitle: Limpar pontos de dados específicos da série de gráficos
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como limpar pontos de dados específicos de séries de gráficos em apresentações do PowerPoint com Aspose.Slides for .NET. Guia passo a passo.
+type: docs
 weight: 13
 url: /pt/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET é uma biblioteca poderosa que permite trabalhar com apresentações do PowerPoint de forma programática. Neste tutorial, iremos guiá-lo através do processo de limpeza de pontos de dados de séries de gráficos específicos em uma apresentação do PowerPoint usando Aspose.Slides for .NET. Ao final deste tutorial, você será capaz de manipular pontos de dados do gráfico com facilidade.
 
@@ -99,9 +95,3 @@ Sim, você pode personalizar a aparência dos gráficos modificando suas proprie
 
 ### Existe uma comunidade ou comunidade de desenvolvedores para Aspose.Slides for .NET?
 Sim, você pode ingressar na comunidade Aspose em seu fórum para discussões, perguntas e compartilhamento de suas experiências.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

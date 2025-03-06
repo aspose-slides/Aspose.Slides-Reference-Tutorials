@@ -3,14 +3,10 @@ title: Ορισμός ποσοστού ετικετών δεδομένων Σύ�
 linktitle: Ορισμός ποσοστού ετικετών δεδομένων Σύνδεση σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε ετικέτες δεδομένων με σύμβολα ποσοστού σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε ελκυστικά γραφήματα με καθοδήγηση βήμα προς βήμα και πηγαίο κώδικα.
+type: docs
 weight: 17
 url: /el/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στο Set Data Labels Percentage Sign in Aspose.Slides for Java
 
@@ -180,10 +176,3 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### Πώς μπορώ να προσθέσω περισσότερες σειρές στο γράφημα;
 
  Μπορείτε να προσθέσετε επιπλέον σειρές στο γράφημα χρησιμοποιώντας το`add` μέθοδος στο`IChartSeriesCollection` αντικείμενο.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

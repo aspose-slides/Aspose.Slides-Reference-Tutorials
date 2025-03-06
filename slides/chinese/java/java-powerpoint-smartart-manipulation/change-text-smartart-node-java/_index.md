@@ -3,14 +3,10 @@ title: 使用 Java 更改 SmartArt 节点上的文本
 linktitle: 使用 Java 更改 SmartArt 节点上的文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 更新 PowerPoint 中的 SmartArt 节点文本，增强演示文稿定制。
+type: docs
 weight: 22
 url: /zh/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 PowerPoint 中的 SmartArt 是一项强大的功能，可用于创建具有视觉吸引力的图表。Aspose.Slides for Java 提供全面的支持，以编程方式操作 SmartArt 元素。在本教程中，我们将指导您完成使用 Java 更改 SmartArt 节点上的文本的过程。
 ## 先决条件
@@ -64,9 +60,3 @@ presentation.save(dataDir + "ChangeText_On_SmartArt_Node_out.pptx", SaveFormat.P
 是的，Aspose.Slides 支持各种各样的 SmartArt 布局，让您可以选择最适合您的演示需求的布局。
 ### 在哪里可以找到有关 Aspose.Slides 的更多资源和支持？
 您可以访问[Aspose.Slides 文档](https://reference.aspose.com/slides/java/)了解详细的 API 参考和教程。此外，您还可以向[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)或者考虑购买[临时执照](https://purchase.aspose.com/temporary-license/)获得专业支持。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

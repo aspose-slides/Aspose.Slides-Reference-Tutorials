@@ -3,14 +3,10 @@ title: Establecer rango de datos en diapositivas de Java
 linktitle: Establecer rango de datos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar rangos de datos en diapositivas de Java sin esfuerzo con Aspose.Slides para Java. Cree presentaciones dinámicas y basadas en datos con esta guía paso a paso.
+type: docs
 weight: 18
 url: /es/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a establecer rango de datos en diapositivas de Java
 
@@ -101,9 +97,3 @@ Puede acceder a diapositivas y formas específicas dentro de una presentación u
 ### ¿Dónde puedo encontrar más documentación y ejemplos de Aspose.Slides para Java?
 
  Puede encontrar documentación extensa y ejemplos de Aspose.Slides para Java en el sitio web de documentación de Aspose:[Aspose.Slides para referencias de la API de Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

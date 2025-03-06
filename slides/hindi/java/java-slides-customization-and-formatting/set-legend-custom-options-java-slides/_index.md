@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में लेजेंड कस
 linktitle: जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में कस्टम लेजेंड विकल्प सेट करना सीखें। अपने PowerPoint चार्ट में लेजेंड की स्थिति और आकार को कस्टमाइज़ करें।
+type: docs
 weight: 14
 url: /hi/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में लेजेंड कस्टम विकल्प सेट करने का परिचय
 
@@ -135,9 +131,3 @@ finally
 ## क्या मैं अन्य किंवदंती विशेषताओं को अनुकूलित कर सकता हूं?
 
 हां, आप लीजेंड की विभिन्न विशेषताओं को अनुकूलित कर सकते हैं, जैसे कि फ़ॉन्ट शैली, बॉर्डर, पृष्ठभूमि रंग, और बहुत कुछ। लीजेंड को और अधिक अनुकूलित करने के बारे में विस्तृत जानकारी के लिए Aspose.Slides दस्तावेज़ देखें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ιδιότητες γραμματοσειράς για γράφημα σ�
 linktitle: Ιδιότητες γραμματοσειράς για γράφημα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις ιδιότητες γραμματοσειράς γραφήματος σε διαφάνειες Java με το Aspose.Slides για Java. Προσαρμόστε το μέγεθος, το στυλ και το χρώμα γραμματοσειράς για εντυπωσιακές παρουσιάσεις.
+type: docs
 weight: 11
 url: /el/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στις ιδιότητες γραμματοσειράς για γράφημα σε διαφάνειες Java
 
@@ -106,9 +102,3 @@ finally
 ### Πώς μπορώ να προσαρμόσω τις ιδιότητες γραμματοσειράς για συγκεκριμένα στοιχεία γραφήματος;
 
 Για να προσαρμόσετε τις ιδιότητες γραμματοσειράς για συγκεκριμένα στοιχεία γραφήματος, όπως ετικέτες αξόνων ή κείμενο μύθου, μπορείτε να αποκτήσετε πρόσβαση σε αυτά τα στοιχεία και να ορίσετε τις ιδιότητες γραμματοσειράς τους χρησιμοποιώντας παρόμοιες μεθόδους όπως φαίνεται παραπάνω.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

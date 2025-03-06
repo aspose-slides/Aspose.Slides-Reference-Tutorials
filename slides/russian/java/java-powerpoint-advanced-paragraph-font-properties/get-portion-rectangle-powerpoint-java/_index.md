@@ -3,14 +3,10 @@ title: Получить прямоугольник порции в PowerPoint с
 linktitle: Получить прямоугольник порции в PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить прямоугольник части в PowerPoint с помощью Aspose.Slides для Java, с помощью этого подробного пошагового руководства. Идеально подходит для разработчиков Java.
+type: docs
 weight: 12
 url: /ru/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Создание динамических презентаций на Java с помощью Aspose.Slides for Java очень просто. В этом уроке мы углубимся в тонкости получения прямоугольника части в PowerPoint с помощью Aspose.Slides. Мы рассмотрим все: от настройки среды до пошаговой разборки кода. Итак, начнем!
 ## Предварительные условия
@@ -142,9 +138,3 @@ Aspose.Slides for Java — это мощная библиотека, котор�
  Документация доступна[здесь](https://reference.aspose.com/slides/java/).
 ### Как я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить поддержку на форуме Aspose[здесь](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

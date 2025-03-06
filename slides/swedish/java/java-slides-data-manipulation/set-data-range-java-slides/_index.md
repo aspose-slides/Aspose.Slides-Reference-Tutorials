@@ -3,14 +3,10 @@ title: Ställ in dataintervall i Java Slides
 linktitle: Ställ in dataintervall i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in dataintervall i Java-bilder utan ansträngning med Aspose.Slides för Java. Skapa dynamiska och datadrivna presentationer med denna steg-för-steg-guide.
+type: docs
 weight: 18
 url: /sv/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till inställning av dataintervall i Java Slides
 
@@ -101,9 +97,3 @@ Du kan komma åt specifika bilder och former i en presentation med Aspose.Slides
 ### Var kan jag hitta mer dokumentation och exempel för Aspose.Slides för Java?
 
  Du kan hitta omfattande dokumentation och exempel för Aspose.Slides för Java på Asposes dokumentationswebbplats:[Aspose.Slides för Java API-referenser](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

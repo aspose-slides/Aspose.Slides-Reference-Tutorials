@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용한 슬라이드 배경 조작
 linktitle: 슬라이드 배경 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides로 슬라이드 디자인을 향상해보세요! 이 포괄적인 튜토리얼에서 슬라이드 배경을 조작하는 방법을 알아보세요. 단계별 지침과 코드 예제가 제공됩니다.
+type: docs
 weight: 11
 url: /ko/net/slide-background-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 
@@ -41,9 +37,3 @@ Aspose.Slides for .NET을 사용하여 슬라이드에 그라데이션 배경을
 이 단계별 가이드에서 Aspose.Slides를 사용하여 슬라이드 배경 설정을 마스터하는 방법을 알아보세요. 매력적인 시각적 요소로 프레젠테이션을 한 단계 더 발전시키세요.
 ### [일반 슬라이드 배경 변경](./change-slide-background-normal/)
 일반 슬라이드 배경을 변경하여 청중의 시선을 사로잡는 방법을 알아보세요. .NET용 Aspose.Slides를 사용하여 단계별 지침과 코드 예제가 포함된 이 포괄적인 가이드를 따르세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

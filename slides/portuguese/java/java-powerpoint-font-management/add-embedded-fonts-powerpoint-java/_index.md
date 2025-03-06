@@ -3,14 +3,10 @@ title: Adicione fontes incorporadas no PowerPoint usando Java
 linktitle: Adicione fontes incorporadas no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar fontes incorporadas a apresentações do PowerPoint usando Java com Aspose.Slides for Java. Garanta uma exibição consistente em todos os dispositivos.
+type: docs
 weight: 10
 url: /pt/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Neste tutorial, orientaremos você no processo de adição de fontes incorporadas a apresentações do PowerPoint usando Java, aproveitando especificamente Aspose.Slides para Java. As fontes incorporadas garantem que sua apresentação pareça consistente em diferentes dispositivos, mesmo que a fonte original não esteja disponível. Vamos mergulhar nas etapas:
 ## Pré-requisitos
@@ -73,9 +69,3 @@ Sim, a incorporação de fontes pode aumentar ligeiramente o tamanho do arquivo 
 Aspose.Slides for Java suporta a incorporação de fontes TrueType, que cobre uma ampla variedade de fontes comumente usadas em apresentações.
 ### Posso incorporar fontes programaticamente usando Aspose.Slides para Java?
 Sim, conforme demonstrado neste tutorial, você pode incorporar fontes programaticamente usando a API Aspose.Slides for Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

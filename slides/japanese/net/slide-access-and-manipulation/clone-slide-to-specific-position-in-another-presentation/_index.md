@@ -3,14 +3,10 @@ title: スライドを別のプレゼンテーションの正確な場所にコ�
 linktitle: スライドを別のプレゼンテーションの正確な場所にコピーする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、さまざまなプレゼンテーションの正確な場所にスライドをコピーする方法を学びます。このステップ バイ ステップ ガイドでは、シームレスな PowerPoint 操作のためのソース コードと手順を説明します。
+type: docs
 weight: 18
 url: /ja/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET の紹介
 
@@ -98,9 +94,3 @@ Aspose.Slides for .NET を使用して、スライドを別のプレゼンテー
 ### Aspose.Slides の詳細なドキュメントや例はどこで見つかりますか?
 
  Aspose.Slides for .NET の包括的なドキュメントと例は、次のドキュメントで参照できます。[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

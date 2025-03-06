@@ -3,14 +3,10 @@ title: Képletek kiszámítása a Java Slides-ben
 linktitle: Képletek kiszámítása a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan számíthat ki képleteket a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal dinamikus PowerPoint prezentációkhoz.
+type: docs
 weight: 10
 url: /hu/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a képletek kiszámításába Java Slides-ben az Aspose.Slides használatával
 
@@ -118,10 +114,3 @@ Ebben az útmutatóban megtanultuk, hogyan lehet képleteket kiszámítani a Jav
 ### Hogyan számíthatok ki képleteket a munkafüzetben?
 
  Képleteket számíthat ki egy munkafüzetben a`calculateFormulas` a metódusa`IChartDataWorkbook` az Aspose-ban.Diák.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

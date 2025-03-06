@@ -3,14 +3,10 @@ title: चार्ट निर्माण और अनुकूलन
 linktitle: चार्ट निर्माण और अनुकूलन
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides के साथ अपने .NET एप्लिकेशन की प्रस्तुति क्षमताओं को बेहतर बनाएँ। चार्ट निर्माण और अनुकूलन पर हमारे ट्यूटोरियल में गोता लगाएँ, चरण-दर-चरण मार्गदर्शिकाएँ और कोड उदाहरणों का अन्वेषण करें।
+type: docs
 weight: 14
 url: /hi/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## परिचय:
 
@@ -31,9 +27,3 @@ Aspose.Slides for .NET का उपयोग करके प्रस्तु
 जानें कि बेस प्लेसहोल्डर्स के साथ गतिशील पावरपॉइंट प्रेजेंटेशन बनाने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।
 ### [स्लाइड्स में हेडर और फ़ुटर प्रबंधित करें](./header-footer-manager/)
 Aspose.Slides for .NET का उपयोग करके स्लाइड्स में हेडर और फ़ुटर को प्रबंधित करना सीखें। अपनी प्रस्तुतियों को आसानी और सटीकता से अनुकूलित करें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

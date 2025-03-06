@@ -3,14 +3,10 @@ title: Sunumu Gizli Slaytlarla PDF'ye Dönüştürün
 linktitle: Sunumu Gizli Slaytlarla PDF'ye Dönüştürün
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Sunumları gizli slaytlarla PDF'ye sorunsuz bir şekilde dönüştürmek için Aspose.Slides for .NET'i nasıl kullanacağınızı öğrenin.
+type: docs
 weight: 26
 url: /tr/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -99,9 +95,3 @@ Aspose.Slides for .NET kesinlikle farklı karmaşıklıktaki sunumları yönetec
 ### Aspose.Slides for .NET'e ait herhangi bir belge var mı?
 
  Evet, Aspose.Slides for .NET'in belgelerini ve kullanım örneklerini şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/net).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

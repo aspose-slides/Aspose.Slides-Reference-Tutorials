@@ -3,14 +3,10 @@ title: 將簡報轉換為受密碼保護的 PDF
 linktitle: 將簡報轉換為受密碼保護的 PDF
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何透過密碼保護來保護簡報並使用 Aspose.Slides for .NET 將簡報轉換為 PDF。立即加強資料安全。
+type: docs
 weight: 16
 url: /zh-hant/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今的數位時代，保護敏感簡報的安全至關重要。確保 PowerPoint 簡報機密性的有效方法是將其轉換為受密碼保護的 PDF。透過 Aspose.Slides for .NET，您可以無縫地實現這一目標。在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for .NET API 將簡報轉換為受密碼保護的 PDF 的過程。學完本教學後，您將掌握輕鬆保護簡報的知識和工具。
 
@@ -81,9 +77,3 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 ### 在哪裡可以存取 Aspose.Slides for .NET API 文件？
 
 您可以存取 Aspose.Slides for .NET 的文檔：[這裡](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Begrenzungsform-Vorschaubild erstellen
 linktitle: Begrenzungsform-Vorschaubild erstellen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Miniaturansichten von Formen mit Begrenzungen erstellen. Dieses Schritt-für-Schritt-Tutorial führt Sie durch den Vorgang.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Java-Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java ein Miniaturbild einer Form mit Begrenzungen erstellen.
 ## Voraussetzungen
@@ -61,9 +57,3 @@ Ja, Sie können die Eigenschaften der Miniaturbilder wie Größe und Qualität I
 Ja, Aspose.Slides für Java bietet umfangreiche Funktionen für die Arbeit mit PowerPoint-Präsentationen, einschließlich Folienbearbeitung, Textextraktion und Diagrammerstellung.
 ### Gibt es eine Testversion von Aspose.Slides für Java?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

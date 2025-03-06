@@ -3,14 +3,10 @@ title: Мастер анимации слайдов с помощью Aspose.Sli
 linktitle: Управление анимацией слайдов в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью Aspose.Slides для .NET! Научитесь легко управлять анимацией слайдов. Загрузите библиотеку прямо сейчас!
+type: docs
 weight: 10
 url: /ru/net/slide-animation-control/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Дополнение ваших презентаций увлекательной анимацией слайдов может значительно повысить общее воздействие на вашу аудиторию. В этом уроке мы рассмотрим, как управлять анимацией слайдов с помощью Aspose.Slides для .NET. Aspose.Slides — это мощная библиотека, которая позволяет легко манипулировать презентациями PowerPoint в среде .NET.
 ## Предварительные условия
@@ -81,9 +77,3 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести Aspose.Slides для .NET?
  Купить библиотеку[здесь](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

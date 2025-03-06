@@ -3,14 +3,10 @@ title: Vytvořte tvar skupiny v PowerPointu
 linktitle: Vytvořte tvar skupiny v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet skupinové tvary v prezentacích PowerPoint pomocí Aspose.Slides for Java. Zlepšete organizaci a vizuální přitažlivost bez námahy.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V moderních prezentacích je pro efektivní předávání informací zásadní začlenění vizuálně přitažlivých a dobře strukturovaných prvků. Skupinové tvary v PowerPointu umožňují uspořádat více tvarů do jedné jednotky, což usnadňuje manipulaci a formátování. Aspose.Slides for Java poskytuje výkonné funkce pro vytváření a manipulaci s tvary skupin programově, nabízí flexibilitu a kontrolu nad návrhem vaší prezentace.
 ## Předpoklady
@@ -79,9 +75,3 @@ Rozhodně můžete přidávat obrázky spolu s dalšími tvary do skupin tvarů 
 Aspose.Slides for Java neklade žádná přísná omezení na počet tvarů, které lze přidat do skupinového tvaru.
 ### Mohu použít animace na tvary skupin pomocí Aspose.Slides for Java?
 Ano, Aspose.Slides for Java poskytuje komplexní podporu pro aplikaci animací na tvary skupin, což umožňuje dynamické prezentace.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

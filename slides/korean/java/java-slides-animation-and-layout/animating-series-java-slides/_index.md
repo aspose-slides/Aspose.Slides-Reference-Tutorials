@@ -3,14 +3,10 @@ title: Java 슬라이드의 애니메이션 시리즈
 linktitle: Java 슬라이드의 애니메이션 시리즈
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java의 시리즈 애니메이션으로 프레젠테이션을 최적화하세요. 매력적인 PowerPoint 애니메이션을 만들려면 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
+type: docs
 weight: 11
 url: /ko/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java의 애니메이션 시리즈 소개
 
@@ -129,9 +125,3 @@ Aspose.Slides for Java를 사용하여 PowerPoint 차트에 성공적으로 애�
 ### 애니메이션 지속 시간과 지연을 어떻게 사용자 정의할 수 있나요?
 
 애니메이션 효과에 대한 속성을 설정하여 애니메이션 지속 시간과 지연을 사용자 정의할 수 있습니다. 사용 가능한 사용자 정의 옵션에 대한 자세한 내용은 Aspose.Slides for Java 설명서를 확인하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

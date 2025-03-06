@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 掌握動畫目標
 linktitle: 使用 Aspose.Slides 設定簡報投影片形狀的動畫目標
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 讓您的簡報栩栩如生！輕鬆設定動畫目標並吸引觀眾。
+type: docs
 weight: 22
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在簡報的動態世界中，為投影片添加動畫可以改變遊戲規則。 Aspose.Slides for .NET 允許精確控制投影片形狀的動畫目標，使開發人員能夠創建引人入勝且具有視覺吸引力的簡報。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 設定動畫目標的過程。無論您是經驗豐富的開發人員還是新手，本教學都將幫助您在簡報中利用動畫的力量。
 ## 先決條件
@@ -66,9 +62,3 @@ foreach (ISlide slide in pres.Slides)
 是的，Aspose.Slides 提供了自訂每個動畫的持續時間和計時的選項。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多範例和文件？
 探索[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/)取得詳細資訊和範例。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Alkalmazzon 3D forgatási effektust az alakzatokra a PowerPointban
 linktitle: Alkalmazzon 3D forgatási effektust az alakzatokra a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ezzel az átfogó, lépésenkénti oktatóanyaggal megtudhatja, hogyan alkalmazhat 3D-s forgatási effektusokat alakzatokon a PowerPointban az Aspose.Slides for Java segítségével.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Készen áll arra, hogy PowerPoint prezentációit a következő szintre emelje? 3D-s forgatási effektusok hozzáadásával a diák dinamikusabbá és vonzóbbá válik. Akár tapasztalt fejlesztő, akár csak most kezdi, ez a lépésről lépésre bemutató oktatóanyag megmutatja, hogyan alkalmazhat 3D-s forgatási effektusokat a PowerPoint alakzataira az Aspose.Slides for Java segítségével. Egyből merüljünk bele!
 ## Előfeltételek
@@ -88,9 +84,3 @@ Az Aspose.Slides for Java egy hatékony API PowerPoint-prezentációk programozo
  Meglátogathatja a[támogatói fórum](https://forum.aspose.com/c/slides/11) segítségért és bármilyen kérdés megbeszélésére.
 ### Használhatom az Aspose.Slides for Java programot kereskedelmi projektekben?
  Igen, de licencet kell vásárolnia. Vásárolhat egyet a[vásárlási oldal](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

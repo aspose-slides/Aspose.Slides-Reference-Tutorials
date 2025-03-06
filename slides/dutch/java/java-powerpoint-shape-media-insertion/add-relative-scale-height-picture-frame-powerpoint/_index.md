@@ -3,14 +3,10 @@ title: Voeg een afbeeldingsframe met relatieve schaalhoogte toe in PowerPoint
 linktitle: Voeg een afbeeldingsframe met relatieve schaalhoogte toe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u afbeeldingsframes op relatieve schaalhoogte kunt toevoegen aan PowerPoint-presentaties met behulp van Aspose.Slides voor Java, waardoor uw visuele inhoud wordt verbeterd.
+type: docs
 weight: 15
 url: /nl/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie leert u hoe u een afbeeldingsframe met relatieve schaalhoogte kunt toevoegen aan PowerPoint-presentaties met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -72,9 +68,3 @@ Aspose.Slides voor Java is compatibel met verschillende versies van PowerPoint, 
 Ja, Aspose.Slides voor Java ondersteunt verschillende afbeeldingsformaten, waaronder PNG, GIF, BMP en meer.
 ### Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Slides-gebruikers?
 Ja, u kunt het Aspose.Slides-forum bezoeken voor vragen, discussies of hulp met betrekking tot de bibliotheek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

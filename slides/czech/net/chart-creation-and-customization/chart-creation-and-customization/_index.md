@@ -3,14 +3,10 @@ title: Vytvoření a přizpůsobení grafu v Aspose.Slides
 linktitle: Vytvoření a přizpůsobení grafu v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet a přizpůsobovat grafy v PowerPointu pomocí Aspose.Slides for .NET. Podrobný průvodce vytvářením dynamických prezentací.
+type: docs
 weight: 10
 url: /cs/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod
 
@@ -114,9 +110,3 @@ Ano, můžete vytvářet různé typy grafů, včetně sloupcových grafů, kol�
 
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Slides pro .NET?
 Ano, dočasnou licenci můžete získat z webu Aspose[tady](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

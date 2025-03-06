@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 아름다운 차트 만들기
 linktitle: 차트 엔터티 및 서식 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 멋진 차트를 만드는 방법을 알아보세요. 단계별 가이드를 통해 데이터 시각화 게임의 수준을 높이세요.
+type: docs
 weight: 13
 url: /ko/net/advanced-chart-customization/chart-entities/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 오늘날의 데이터 중심 세계에서 효과적인 데이터 시각화는 청중에게 정보를 전달하는 데 핵심입니다. Aspose.Slides for .NET은 눈길을 끄는 차트를 포함하여 멋진 프레젠테이션과 슬라이드를 만들 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 아름다운 차트를 만드는 과정을 안내합니다. 차트 엔터티와 서식을 이해하고 구현하는 데 도움이 되도록 각 예를 여러 단계로 나누어 보겠습니다. 자, 시작해 봅시다!
 
@@ -265,10 +261,3 @@ Aspose.Slides for .NET은 .NET 개발자가 Microsoft PowerPoint 프레젠테이
 ### 5. .NET용 Aspose.Slides에 대한 커뮤니티나 지원 포럼이 있습니까?
 
  예, Aspose.Slides 커뮤니티 및 지원 포럼을 찾을 수 있습니다[여기](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

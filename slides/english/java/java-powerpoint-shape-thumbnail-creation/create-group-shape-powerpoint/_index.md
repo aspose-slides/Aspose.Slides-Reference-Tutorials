@@ -3,14 +3,10 @@ title: Create Group Shape in PowerPoint
 linktitle: Create Group Shape in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create group shapes in PowerPoint presentations using Aspose.Slides for Java. Improve organization and visual appeal effortlessly.
+type: docs
 weight: 11
 url: /java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In modern presentations, incorporating visually appealing and well-structured elements is crucial for effectively conveying information. Group shapes in PowerPoint allow you to organize multiple shapes into a single unit, facilitating easier manipulation and formatting. Aspose.Slides for Java provides powerful functionalities to create and manipulate group shapes programmatically, offering flexibility and control over your presentation design.
 ## Prerequisites
@@ -79,10 +75,3 @@ Absolutely, you can add images along with other shapes to group shapes using Asp
 Aspose.Slides for Java imposes no strict limitations on the number of shapes that can be added to a group shape.
 ### Can I apply animations to group shapes using Aspose.Slides for Java?
 Yes, Aspose.Slides for Java provides comprehensive support for applying animations to group shapes, enabling dynamic presentations.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

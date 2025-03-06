@@ -3,14 +3,10 @@ title: Cách xóa ghi chú tại một slide cụ thể bằng Aspose.Slides .NE
 linktitle: Xóa ghi chú tại slide cụ thể
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa ghi chú khỏi một trang chiếu cụ thể trong PowerPoint bằng Aspose.Slides for .NET. Hợp lý hóa bài thuyết trình của bạn một cách dễ dàng.
+type: docs
 weight: 12
 url: /vi/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình xóa ghi chú tại một trang chiếu cụ thể trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép bạn làm việc với các tệp PowerPoint theo chương trình. Cho dù bạn là nhà phát triển hay người đang tìm cách tự động hóa các tác vụ trong bản trình bày PowerPoint, hướng dẫn này sẽ giúp bạn đạt được điều này một cách dễ dàng.
 
@@ -86,9 +82,3 @@ Mặc dù một số kiến thức lập trình hữu ích nhưng Aspose.Slides 
 
 ### Có phiên bản dùng thử của Aspose.Slides cho .NET không?
 Có, bạn có thể khám phá Aspose.Slides bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

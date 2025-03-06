@@ -3,14 +3,10 @@ title: Diaweergave en lay-outmanipulatie in Aspose.Slides
 linktitle: Diaweergave en lay-outmanipulatie in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u diaweergaven en lay-outs in PowerPoint kunt manipuleren met Aspose.Slides voor .NET. Stapsgewijze handleiding met codevoorbeelden.
+type: docs
 weight: 10
 url: /nl/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van softwareontwikkeling is het programmatisch maken en manipuleren van PowerPoint-presentaties een veel voorkomende vereiste. Aspose.Slides voor .NET biedt een krachtige toolkit waarmee ontwikkelaars naadloos met PowerPoint-bestanden kunnen werken. Een cruciaal aspect van het werken met presentaties is diaweergave en lay-outmanipulatie. In deze handleiding gaan we dieper in op het gebruik van Aspose.Slides voor .NET om diaweergaven en lay-outs te beheren, met stapsgewijze instructies en codevoorbeelden.
 
@@ -136,10 +132,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Conclusie
 
 Aspose.Slides voor .NET vereenvoudigt het programmatisch werken met PowerPoint-presentaties. In deze handleiding hebben we de fundamentele stappen van diaweergave en lay-outmanipulatie onderzocht. Van het laden van presentaties tot het aanpassen van dia-inhoud, Aspose.Slides biedt een robuuste toolkit voor ontwikkelaars om moeiteloos dynamische en boeiende presentaties te maken.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Controleer de verborgen eigenschap van SmartArt met behulp van Java
 linktitle: Controleer de verborgen eigenschap van SmartArt met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek hoe u de verborgen eigenschap van SmartArt in PowerPoint kunt controleren met Aspose.Slides voor Java, waardoor de manipulatie van presentaties wordt verbeterd.
+type: docs
 weight: 24
 url: /nl/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van Java-programmeren is het programmatisch manipuleren van PowerPoint-presentaties een waardevolle vaardigheid. Aspose.Slides voor Java is een robuuste bibliotheek waarmee ontwikkelaars naadloos PowerPoint-presentaties kunnen maken, wijzigen en manipuleren. Een van de essentiële taken bij presentatiemanipulatie is het controleren van de verborgen eigenschappen van SmartArt-objecten. Deze tutorial begeleidt u bij het controleren van de verborgen eigenschap van SmartArt met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -80,9 +76,3 @@ Absoluut! Aspose.Slides voor Java biedt uitgebreide mogelijkheden voor het wijzi
 Ja, Aspose.Slides voor Java ondersteunt een breed scala aan PowerPoint-bestandsindelingen, waaronder PPT, PPTX, POT, POTX, PPS en meer.
 ### Is er een community of forum waar ik hulp kan krijgen met Aspose.Slides voor Java?
 Ja, u kunt het Aspose.Slides-forum bezoeken (https://forum.aspose.com/c/slides/11) om vragen te stellen, ideeën te delen en steun te krijgen van de community.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

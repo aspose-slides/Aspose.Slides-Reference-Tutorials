@@ -3,14 +3,10 @@ title: Dodawanie prostych linii do slajdów prezentacji za pomocą Aspose.Slides
 linktitle: Dodawanie prostych linii do slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje PowerPoint w .NET za pomocą Aspose.Slides. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku dodawać gładkie linie.
+type: docs
 weight: 16
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie angażujących i atrakcyjnych wizualnie prezentacji programu PowerPoint często wiąże się z wykorzystaniem różnych kształtów i elementów. Jeśli pracujesz z .NET, Aspose.Slides to potężne narzędzie, które upraszcza ten proces. Ten samouczek koncentruje się na dodawaniu prostych linii do slajdów prezentacji przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie ze wskazówkami, aby ulepszyć swoje prezentacje dzięki temu łatwemu do zrozumienia przewodnikowi.
 ## Warunki wstępne
@@ -71,9 +67,3 @@ Odp.: Oczywiście, Aspose.Slides obsługuje najnowsze frameworki .NET.
  Wizyta[Tutaj](https://purchase.aspose.com/temporary-license/) w przypadku licencji tymczasowych.
 ### P: Masz problemy? Gdzie mogę uzyskać wsparcie?
  Odp.: Poproś o pomoc w sprawie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

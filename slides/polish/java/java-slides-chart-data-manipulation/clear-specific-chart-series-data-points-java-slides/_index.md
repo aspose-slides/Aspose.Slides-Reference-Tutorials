@@ -3,14 +3,10 @@ title: Wyczyść dane dotyczące punktów danych określonych serii wykresów w 
 linktitle: Wyczyść dane dotyczące punktów danych określonych serii wykresów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyczyścić określone punkty danych z serii wykresów w Java Slides za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiający skuteczne zarządzanie wizualizacją danych.
+type: docs
 weight: 15
 url: /pl/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do czyszczenia danych punktów danych określonych serii wykresów w slajdach Java
 
@@ -125,9 +121,3 @@ Tak, możesz wyczyścić punkty danych na podstawie warunku, dodając logikę wa
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 
  Obszerną dokumentację i przykłady można znaleźć w pliku[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

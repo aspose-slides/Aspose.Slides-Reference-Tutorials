@@ -3,14 +3,10 @@ title: Uzyskaj prostokątne współrzędne akapitu w slajdach Java
 linktitle: Uzyskaj prostokątne współrzędne akapitu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak odzyskać współrzędne akapitu w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z kodem źródłowym, aby uzyskać dokładne pozycjonowanie.
+type: docs
 weight: 13
 url: /pl/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do pobierania współrzędnych prostokątnych akapitu w Aspose.Slides dla Java
 
@@ -116,9 +112,3 @@ Tak, Aspose.Slides for Java doskonale nadaje się do przetwarzania wsadowego pli
 ### Czy potrzebuję licencji, aby używać Aspose.Slides dla Java?
 
 Tak, zazwyczaj potrzebujesz ważnej licencji, aby używać Aspose.Slides for Java w środowisku produkcyjnym. Licencję można uzyskać ze strony internetowej Aspose. Mogą jednak oferować wersję próbną do celów testowania i oceny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

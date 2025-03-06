@@ -3,14 +3,10 @@ title: Gérer les polices intégrées dans Java PowerPoint
 linktitle: Gérer les polices intégrées dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Gérez sans effort les polices intégrées dans les présentations Java PowerPoint avec Aspose.Slides. Guide étape par étape pour optimiser vos diapositives pour plus de cohérence.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le monde des présentations en constante évolution, la gestion efficace des polices peut faire une énorme différence dans la qualité et la compatibilité de vos fichiers PowerPoint. Aspose.Slides for Java offre une solution complète pour gérer les polices intégrées, garantissant ainsi que vos présentations seront parfaites sur n'importe quel appareil. Que vous ayez affaire à des présentations existantes ou en créiez de nouvelles, ce guide vous guidera tout au long du processus de gestion des polices intégrées dans vos présentations Java PowerPoint à l'aide d'Aspose.Slides. Allons-y !
 ## Conditions préalables
@@ -108,9 +104,3 @@ Aspose.Slides pour Java est compatible avec JDK 8 et versions ultérieures.
 La gestion des polices intégrées garantit la cohérence de vos présentations sur différents appareils et plates-formes et contribue à réduire la taille des fichiers en supprimant les polices inutiles.
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez bénéficier du soutien du[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 다른 프레젠테이션이 끝나면 슬라이드 복제
 linktitle: 다른 프레젠테이션이 끝나면 슬라이드 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 포괄적인 단계별 튜토리얼에서 Java용 Aspose.Slides를 사용하여 다른 프레젠테이션이 끝날 때 슬라이드를 복제하는 방법을 알아보세요.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 여러 PowerPoint 프레젠테이션의 슬라이드를 병합해야 하는 상황에 처한 적이 있습니까? 꽤 번거로운 일이겠죠? 글쎄, 더 이상은 아니야! Aspose.Slides for Java는 PowerPoint 프레젠테이션을 쉽게 조작할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 한 프레젠테이션에서 슬라이드를 복제하고 이를 다른 프레젠테이션의 끝에 추가하는 과정을 안내합니다. 저를 믿으십시오. 이 가이드가 끝나면 당신은 전문가처럼 프레젠테이션을 처리하게 될 것입니다!
 ## 전제 조건
@@ -85,9 +81,3 @@ Aspose.Slides for Java는 상용 제품이지만 다음 위치에서 무료 평�
 아니요, 라이브러리를 다운로드한 후에는 사용하기 위해 인터넷 연결이 필요하지 않습니다.
 ### 문제가 발생하면 어디서 지원을 받을 수 있나요?
  Aspose 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

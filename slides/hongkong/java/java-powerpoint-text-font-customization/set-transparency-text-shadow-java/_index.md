@@ -3,14 +3,10 @@ title: 使用 Java 設定陰影中文字的透明度
 linktitle: 使用 Java 設定陰影中文字的透明度
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中調整文字陰影透明度。以程式設計方式增強您的簡報。
+type: docs
 weight: 20
 url: /zh-hant/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Slides for Java 操縱 PowerPoint 簡報中文字陰影的透明度。調整文字陰影的透明度可以顯著增強投影片的視覺吸引力，使它們更加動態和專業。 Aspose.Slides for Java 提供了強大的功能，可透過程式設計精確控制投影片元素的各個方面，確保您的簡報符合最高的設計標準。
 ## 先決條件
@@ -74,9 +70,3 @@ Aspose.Slides for Java 是一個強大的 Java API，允許開發人員以程式
 可以找到 Aspose.Slides for Java 的文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 如需支援和社群互動，請造訪 Aspose.Slides 論壇[這裡](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

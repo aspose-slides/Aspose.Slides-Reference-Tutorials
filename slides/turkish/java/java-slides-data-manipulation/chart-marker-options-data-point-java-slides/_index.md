@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekler
 linktitle: Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçenekleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Özel Grafik İşaretleyici Seçenekleri ile Java Slaytlarınızı optimize edin. Aspose.Slides for Java'yı kullanarak veri noktalarını görsel olarak geliştirmeyi öğrenin. Adım adım rehberlik ve SSS'leri keşfedin.
+type: docs
 weight: 14
 url: /tr/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarındaki Veri Noktasındaki Grafik İşaretleyici Seçeneklerine Giriş
 
@@ -158,9 +154,3 @@ Evet, Aspose.Slides for Java'yı kullanarak grafiğin başlıklar, eksenler, ver
 ### Aspose.Slides for Java belgelerine ve indirmelerine nereden erişebilirim?
 
  Belgeleri şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/java/) ve şu adresteki kütüphaneyi indirin:[Burada](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

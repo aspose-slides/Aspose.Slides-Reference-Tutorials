@@ -3,14 +3,10 @@ title: الرسم البياني في شرائح جافا
 linktitle: الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات الرسم البياني في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لتصور البيانات.
+type: docs
 weight: 19
 url: /ar/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى الرسم البياني في شرائح Java باستخدام Aspose.Slides
 
@@ -116,9 +112,3 @@ finally
 ### هل يمكنني تخصيص مظهر مخطط الرسم البياني؟
 
 نعم، يمكنك تخصيص مظهر المخطط، بما في ذلك ألوانه وتسمياته ومحاوره، باستخدام Aspose.Slides API.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

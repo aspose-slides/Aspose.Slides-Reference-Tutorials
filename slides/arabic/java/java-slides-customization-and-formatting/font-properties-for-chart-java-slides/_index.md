@@ -3,14 +3,10 @@ title: خصائص الخط للمخطط في شرائح جافا
 linktitle: خصائص الخط للمخطط في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تحسين خصائص خط المخطط في شرائح Java باستخدام Aspose.Slides لـ Java. قم بتخصيص حجم الخط والنمط واللون لتقديم عروض تقديمية مؤثرة.
+type: docs
 weight: 11
 url: /ar/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى خصائص الخط للمخطط في شرائح Java
 
@@ -106,9 +102,3 @@ finally
 ### كيف أقوم بتخصيص خصائص الخط لعناصر مخطط محددة؟
 
 لتخصيص خصائص الخط لعناصر مخطط محددة، مثل تسميات المحاور أو نص وسيلة الإيضاح، يمكنك الوصول إلى هذه العناصر وتعيين خصائص الخط الخاصة بها باستخدام طرق مشابهة كما هو موضح أعلاه.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

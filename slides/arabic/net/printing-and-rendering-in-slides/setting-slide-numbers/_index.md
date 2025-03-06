@@ -3,14 +3,10 @@ title: ضبط أرقام الشرائح للعروض التقديمية باست
 linktitle: ضبط أرقام الشرائح للعروض التقديمية باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: استكشف العالم السلس لمعالجة الشرائح باستخدام Aspose.Slides for .NET. تعرف على كيفية تعيين أرقام الشرائح بسهولة، مما يعزز تجربة العرض التقديمي الخاص بك.
+type: docs
 weight: 16
 url: /ar/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يعد التحكم في تسلسل الشرائح وتنظيمها أمرًا بالغ الأهمية للتواصل الفعال. يوفر Aspose.Slides for .NET حلاً قويًا لمعالجة أرقام الشرائح داخل العروض التقديمية، مما يمنحك المرونة لتخصيص المحتوى الخاص بك بسلاسة.
 ## المتطلبات الأساسية
@@ -67,9 +63,3 @@ presentation.Save(dataDir + "Set_Slide_Number_out.pptx", SaveFormat.Pptx);
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم المجتمعي أو استكشاف خيارات الدعم المتميزة.
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Dodaj obraz obiektu Blob do prezentacji w slajdach Java
 linktitle: Dodaj obraz obiektu Blob do prezentacji w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bez wysiłku dodawać obrazy obiektów BLOB do prezentacji Java Slides. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu przy użyciu Aspose.Slides dla Java.
+type: docs
 weight: 10
 url: /pl/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do dodawania obrazu obiektu BLOB do prezentacji w slajdach Java
 
@@ -137,9 +133,3 @@ W prezentacjach zaleca się używanie popularnych formatów obrazów, takich jak
 ### Czy Aspose.Slides nadaje się do zaawansowanych zadań automatyzacji programu PowerPoint?
 
 Absolutnie! Aspose.Slides oferuje zaawansowane możliwości automatyzacji programu PowerPoint, w tym tworzenie, modyfikację i ekstrakcję danych. To potężne narzędzie usprawniające zadania związane z programem PowerPoint.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

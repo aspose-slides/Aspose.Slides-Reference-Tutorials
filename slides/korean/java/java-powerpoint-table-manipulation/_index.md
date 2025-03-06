@@ -3,14 +3,10 @@ title: Java PowerPoint 테이블 조작
 linktitle: Java PowerPoint 테이블 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 테이블 조작을 마스터하세요. 자세한 단계별 튜토리얼을 통해 이미지 추가, 셀 분할, 테이블 생성 등의 방법을 알아보세요.
+type: docs
 weight: 30
 url: /ko/java/java-powerpoint-table-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 
 PowerPoint 프레젠테이션의 테이블 조작을 마스터하면 슬라이드의 효과와 시각적 매력을 크게 향상시킬 수 있습니다. Aspose.Slides for Java는 프로그래밍 방식으로 테이블을 조작할 수 있는 강력한 기능 세트를 제공합니다. 표 셀에 이미지를 추가하거나, 셀을 분할 또는 병합하거나, 처음부터 표를 생성하는 경우 이 튜토리얼은 각 프로세스를 단계별로 안내합니다. Java PowerPoint 테이블 조작의 세계를 탐험해 봅시다!
@@ -64,9 +60,3 @@ Aspose.Slides for Java를 사용하여 PowerPoint 테이블의 첫 번째 행을
 Aspose.Slides for Java를 사용하여 PowerPoint 표 내부의 텍스트 서식을 지정하는 방법을 알아보세요. 개발자를 위한 코드 예제가 포함된 단계별 가이드입니다.
 ### [Java를 사용하여 PowerPoint에서 표준 테이블 만들기](./create-standard-tables-powerpoint-java/)
 Aspose.Slides를 사용하여 Java로 PowerPoint에서 표준 테이블을 만드는 방법을 알아보세요. 원활한 경험을 위해 자세한 단계별 가이드를 따르세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

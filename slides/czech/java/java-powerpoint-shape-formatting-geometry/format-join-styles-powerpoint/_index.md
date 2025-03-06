@@ -3,14 +3,10 @@ title: Formátovat styly spojení v PowerPointu
 linktitle: Formátovat styly spojení v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vylepšit své powerpointové prezentace nastavením různých stylů spojování čar pro tvary pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce.
+type: docs
 weight: 15
 url: /cs/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací v PowerPointu může být náročný úkol, zvláště když chcete, aby každý detail byl dokonalý. Zde se hodí Aspose.Slides for Java. Je to výkonné API, které vám umožňuje vytvářet, manipulovat a spravovat prezentace programově. Jednou z funkcí, které můžete využít, je nastavení různých stylů spojení čar pro tvary, což může výrazně zlepšit estetiku vašich snímků. V tomto tutoriálu se ponoříme do toho, jak můžete použít Aspose.Slides pro Java k nastavení stylů spojení pro tvary v prezentacích PowerPoint. 
 ## Předpoklady
@@ -116,9 +112,3 @@ Ano, Aspose.Slides pro Javu můžete použít v jakémkoli IDE s podporou Java, 
 Styly spojení čar odkazují na tvar rohů, kde se dvě čáry setkávají. Mezi běžné styly patří pokos, zkosení a zaoblení.
 ### Kde najdu další dokumentaci k Aspose.Slides for Java?
  Můžete najít podrobnou dokumentaci[tady](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

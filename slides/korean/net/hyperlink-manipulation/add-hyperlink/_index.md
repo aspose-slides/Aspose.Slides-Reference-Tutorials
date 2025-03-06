@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 .NET의 슬라이드에 하이퍼링크 추
 linktitle: 슬라이드에 하이퍼링크 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에 하이퍼링크를 추가하는 방법을 알아보세요. 대화형 요소로 프레젠테이션을 향상시키세요.
+type: docs
 weight: 12
 url: /ko/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 디지털 프레젠테이션의 세계에서는 상호작용이 핵심입니다. 슬라이드에 하이퍼링크를 추가하면 프레젠테이션을 더욱 매력적이고 유익하게 만들 수 있습니다. Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방식으로 생성, 수정 및 조작할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드에 하이퍼링크를 추가하는 방법을 보여줍니다. 
 
@@ -110,9 +106,3 @@ Aspose.Slides는 작업 버튼, 멀티미디어 요소, 애니메이션을 포�
 ### 5. Aspose.Slides를 다른 프로그래밍 언어에서도 사용할 수 있나요?
 
 예, Aspose.Slides는 Java 및 Python을 포함한 다양한 프로그래밍 언어에서 사용할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

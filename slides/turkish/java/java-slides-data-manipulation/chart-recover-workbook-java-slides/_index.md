@@ -3,14 +3,10 @@ title: Grafik Java Slaytlarındaki Çalışma Kitabını Kurtarma
 linktitle: Grafik Java Slaytlarındaki Çalışma Kitabını Kurtarma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java Slides'taki grafiklerden çalışma kitaplarını nasıl kurtaracağınızı öğrenin. PowerPoint otomasyonu için adım adım kılavuz.
+type: docs
 weight: 17
 url: /tr/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slaytlarında Grafik Kurtarma Çalışma Kitabına Giriş
 
@@ -113,9 +109,3 @@ Kesinlikle! Aspose.Slides for Java, PowerPoint görevlerini otomatikleştirmeye 
 ### Aspose.Slides for Java ile ilgili diğer belgelere nasıl erişebilirim?
 
  Aspose.Slides for Java ile ilgili ayrıntılı belgeler ve referanslar için şu adresteki belgeler sayfasını ziyaret edin:[Burada](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

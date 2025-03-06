@@ -3,14 +3,10 @@ title: Grafico a scatola nelle diapositive Java
 linktitle: Grafico a scatola nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare grafici a scatola nelle presentazioni Java con Aspose.Slides. Guida passo passo e codice sorgente inclusi per una visualizzazione efficace dei dati.
+type: docs
 weight: 10
 url: /it/java/chart-elements/box-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione al grafico a scatola in Aspose.Slides per Java
 
@@ -152,9 +148,3 @@ In questo tutorial, abbiamo imparato come creare un grafico a scatola utilizzand
 ### Cosa significa QuartileMethodType.Exclusive?
 
  IL`QuartileMethodType.Exclusive` L'impostazione specifica che i calcoli del quartile devono essere eseguiti utilizzando il metodo esclusivo. Puoi scegliere diversi metodi di calcolo del quartile a seconda dei tuoi dati e requisiti.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

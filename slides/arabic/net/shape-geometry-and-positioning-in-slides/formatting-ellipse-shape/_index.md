@@ -3,14 +3,10 @@ title: البرنامج التعليمي لتنسيق الأشكال البيض�
 linktitle: تنسيق شكل القطع الناقص في الشرائح باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بإنشاء أشكال بيضاوية مذهلة في PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة للعروض التقديمية الاحترافية.
+type: docs
 weight: 11
 url: /ar/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يعد تحسين عروض PowerPoint التقديمية بأشكال جذابة بصريًا أمرًا بالغ الأهمية لجذب جمهورك. أحد هذه الأشكال هو الشكل البيضاوي، والذي يمكن أن يضيف لمسة من الأناقة والاحترافية إلى شرائحك. في هذا البرنامج التعليمي، سنرشدك خلال عملية تنسيق أشكال القطع الناقص في PowerPoint باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -85,9 +81,3 @@ pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
  اطلب المساعدة من المجتمع في[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### هل يوجد خيار شراء مباشر لـ Aspose.Slides لـ .NET؟
  نعم، يمكنك شراء المكتبة مباشرة[هنا](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

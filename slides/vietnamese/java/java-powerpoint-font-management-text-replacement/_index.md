@@ -3,14 +3,10 @@ title: Quản lý phông chữ Java PowerPoint và thay thế văn bản
 linktitle: Quản lý phông chữ Java PowerPoint và thay thế văn bản
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Làm chủ việc quản lý phông chữ Java PowerPoint và thay thế văn bản bằng Aspose.Slides. Tìm hiểu cách tải phông chữ tùy chỉnh, quản lý phông chữ được nhúng và thay thế văn bản một cách liền mạch.
+type: docs
 weight: 27
 url: /vi/java/java-powerpoint-font-management-text-replacement/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 
 Phông chữ và quản lý văn bản là những yếu tố quan trọng trong việc tạo bản trình bày PowerPoint bóng bẩy và chuyên nghiệp. Với Aspose.Slides cho Java, bạn có thể dễ dàng tải phông chữ tùy chỉnh, quản lý phông chữ được nhúng và thay thế văn bản một cách hiệu quả. Hướng dẫn của chúng tôi sẽ hướng dẫn bạn thực hiện các quy trình này, đảm bảo bản trình bày của bạn vừa hấp dẫn về mặt hình ảnh vừa hữu dụng. Hãy cùng khám phá những hướng dẫn này để nâng cao kỹ năng PowerPoint của bạn!
@@ -39,9 +35,3 @@ Dễ dàng quản lý các phông chữ được nhúng trong bản trình bày 
 Dễ dàng thay thế phông chữ trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Hãy làm theo hướng dẫn chi tiết của chúng tôi để có quá trình chuyển đổi phông chữ liền mạch.
 ### [Thay thế văn bản trong PowerPoint bằng Java](./replace-text-powerpoint-java/)
 Tìm hiểu cách thay thế văn bản trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước này để tự động cập nhật bản trình bày của bạn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 在 C# 中建立自訂幾何圖形
 linktitle: 使用 Aspose.Slides 在幾何形狀中建立自訂幾何圖形
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解在 Aspose.Slides for .NET 中建立自訂幾何體。以獨特的形狀提升您的簡報。 C# 開發人員的逐步指南。
+type: docs
 weight: 15
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在動態的簡報世界中，添加獨特的形狀和幾何形狀可以提升您的內容，使其更具吸引力和視覺吸引力。 Aspose.Slides for .NET 提供了一個強大的解決方案，可在形狀中建立自訂幾何形狀，使您能夠擺脫傳統設計。本教學將引導您完成使用 Aspose.Slides for .NET 在 GeometryShape 中建立自訂幾何圖形的過程。
 ## 先決條件
@@ -98,9 +94,3 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
 尋求協助並與社區互動[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
 ### 5. 在哪裡可以購買 Aspose.Slides for .NET？
 您可以購買 Aspose.Slides for .NET[這裡](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

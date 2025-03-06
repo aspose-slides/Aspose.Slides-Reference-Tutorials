@@ -3,14 +3,10 @@ title: Regola la posizione della diapositiva all'interno della presentazione con
 linktitle: Regola la posizione della diapositiva all'interno della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come regolare le posizioni delle diapositive all'interno delle presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Migliora le tue capacità di presentazione!
+type: docs
 weight: 23
 url: /it/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Stai cercando di riorganizzare le diapositive della tua presentazione e ti chiedi come regolare le loro posizioni con Aspose.Slides per .NET? Questa guida passo passo ti guiderà attraverso il processo, assicurandoti di comprendere chiaramente ogni passaggio. Prima di immergerci nel tutorial, esaminiamo i prerequisiti e importiamo gli spazi dei nomi necessari per iniziare.
 
@@ -115,9 +111,3 @@ Sì, Aspose.Slides per .NET fornisce un'ampia gamma di funzionalità per lavorar
 ### 5. Posso provare Aspose.Slides per .NET prima di acquistarlo?
 
  Sì, puoi esplorare una versione di prova gratuita di Aspose.Slides per .NET all'indirizzo[Aspose.Slides per .NET Prova gratuita](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

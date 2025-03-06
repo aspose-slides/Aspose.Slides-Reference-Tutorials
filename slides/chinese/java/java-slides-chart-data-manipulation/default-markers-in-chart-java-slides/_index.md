@@ -3,14 +3,10 @@ title: Java 幻灯片中图表的默认标记
 linktitle: Java 幻灯片中图表的默认标记
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 创建带有默认标记的 Java Slides 图表。带有源代码的分步指南。
+type: docs
 weight: 16
 url: /zh/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中图表默认标记介绍
 
@@ -146,9 +142,3 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### 我可以给数据点添加标签吗？
 
 是的，您可以使用`IDataPoint.getLabel()`方法并根据需要进行定制。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

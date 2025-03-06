@@ -3,14 +3,10 @@ title: 프레젠테이션에서 수학 단락을 MathML로 내보내기
 linktitle: 프레젠테이션에서 수학 단락을 MathML로 내보내기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 수학 단락을 MathML로 내보내 프레젠테이션을 향상하세요. 정확한 수학적 렌더링을 위한 단계별 가이드를 따르세요. 지금 Aspose.Slides를 다운로드하고 매력적인 프레젠테이션을 만들어 보세요.
+type: docs
 weight: 14
 url: /ko/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 현대 프리젠테이션 세계에서 수학적 내용은 복잡한 아이디어와 데이터를 전달하는 데 중요한 역할을 하는 경우가 많습니다. .NET용 Aspose.Slides를 사용하고 있다면 행운이 따릅니다! 이 튜토리얼에서는 수학 단락을 MathML로 내보내는 과정을 안내하여 수학 콘텐츠를 프레젠테이션에 원활하게 통합할 수 있습니다. 이제 MathML과 Aspose.Slides의 세계로 들어가 보겠습니다.
 
@@ -77,10 +73,3 @@ using (Presentation pres = new Presentation())
 예, Aspose.Slides for .NET을 사용하여 MathML 콘텐츠를 기존 프레젠테이션에 쉽게 통합할 수 있습니다.
 
 이제 Aspose.Slides for .NET을 사용하여 수학 단락을 MathML로 내보내는 방법을 배웠으므로 수학 콘텐츠가 포함된 역동적이고 매력적인 프레젠테이션을 만들 준비가 되었습니다. 발표를 즐기세요!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

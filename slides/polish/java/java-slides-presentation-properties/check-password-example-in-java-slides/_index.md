@@ -3,14 +3,10 @@ title: Sprawdź przykład hasła w slajdach Java
 linktitle: Sprawdź przykład hasła w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak weryfikować hasła w Java Slides przy użyciu Aspose.Slides dla Java. Zwiększ bezpieczeństwo prezentacji dzięki wskazówkom krok po kroku.
+type: docs
 weight: 14
 url: /pl/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do przykładowego sprawdzania hasła w slajdach Java
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Gdzie mogę znaleźć więcej dokumentacji dla Aspose.Slides dla Java?
 
  Obszerną dokumentację Aspose.Slides dla Java można znaleźć na stronie internetowej Aspose[Tutaj](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

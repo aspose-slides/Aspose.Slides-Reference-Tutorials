@@ -3,14 +3,10 @@ title: Gestione di intestazione e piè di pagina in Notes con Aspose.Slides .NET
 linktitle: Gestisci intestazione e piè di pagina nella diapositiva delle note
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come gestire intestazione e piè di pagina nelle diapositive delle note di PowerPoint utilizzando Aspose.Slides per .NET. Migliora le tue presentazioni senza sforzo.
+type: docs
 weight: 11
 url: /it/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Nell'era digitale di oggi, creare presentazioni accattivanti e informative è un'abilità vitale. Come parte di questo processo, potresti spesso dover includere intestazioni e piè di pagina nelle diapositive delle note per fornire contesto e informazioni aggiuntivi. Aspose.Slides per .NET è un potente strumento che ti consente di gestire facilmente le impostazioni di intestazione e piè di pagina nelle diapositive delle note. In questa guida passo passo, esploreremo come raggiungere questo obiettivo utilizzando Aspose.Slides per .NET.
 
@@ -124,9 +120,3 @@ Assolutamente, Aspose.Slides per .NET ti consente di automatizzare le presentazi
 
 ### Il supporto tecnico è disponibile per Aspose.Slides per gli utenti .NET?
  Sì, puoi trovare supporto e assistenza dalla comunità Aspose e dagli esperti su[Aspose forum di supporto](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

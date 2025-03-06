@@ -3,14 +3,10 @@ title: إنشاء عروض تقديمية جديدة برمجياً
 linktitle: إنشاء عروض تقديمية جديدة برمجياً
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء العروض التقديمية برمجيًا باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع الكود المصدري للتشغيل الآلي الفعال.
+type: docs
 weight: 10
 url: /ar/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 إذا كنت تتطلع إلى إنشاء عروض تقديمية برمجيًا في .NET، فإن Aspose.Slides for .NET هي أداة قوية تساعدك على تحقيق هذه المهمة بكفاءة. سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال عملية إنشاء عروض تقديمية جديدة باستخدام كود المصدر المقدم.
 
@@ -91,9 +87,3 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### هل يمكنني تجربة Aspose.Slides لـ .NET قبل الشراء؟
     نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/). الإصدار التجريبي له قيود، لذا تأكد من التحقق مما إذا كان يلبي متطلباتك.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

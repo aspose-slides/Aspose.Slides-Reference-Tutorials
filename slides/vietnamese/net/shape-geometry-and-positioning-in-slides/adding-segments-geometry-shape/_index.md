@@ -3,14 +3,10 @@ title: Làm chủ hình ảnh - Thêm phân đoạn bằng Aspose.Slides trong .
 linktitle: Thêm các phân đoạn vào hình dạng hình học trong bản trình bày với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách nâng cao ứng dụng .NET của bạn bằng Aspose.Slides. Hướng dẫn này hướng dẫn bạn cách thêm các phân đoạn vào các hình dạng hình học để có được bài thuyết trình hấp dẫn.
+type: docs
 weight: 13
 url: /vi/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc tạo ra các bản trình bày hấp dẫn về mặt hình ảnh là một yêu cầu chung. Aspose.Slides for .NET là một thư viện mạnh mẽ tạo điều kiện tích hợp liền mạch các khả năng tạo bản trình bày mạnh mẽ vào các ứng dụng .NET của bạn. Hướng dẫn này tập trung vào một khía cạnh cụ thể của thiết kế bản trình bày – thêm các phân đoạn vào các hình dạng hình học.
 ## Điều kiện tiên quyết
@@ -76,9 +72,3 @@ Có, cần có giấy phép hợp lệ. Bạn có thể lấy giấy phép tạm
  Khám phá cái[tài liệu](https://reference.aspose.com/slides/net/) để có hướng dẫn và ví dụ toàn diện.
 ### Tôi có thể dùng thử Aspose.Slides miễn phí trước khi mua không?
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

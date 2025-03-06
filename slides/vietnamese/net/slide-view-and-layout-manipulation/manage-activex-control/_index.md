@@ -3,14 +3,10 @@ title: Quản lý điều khiển ActiveX trong PowerPoint
 linktitle: Quản lý điều khiển ActiveX trong PowerPoint
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng điều khiển ActiveX bằng Aspose.Slides cho .NET. Hướng dẫn từng bước của chúng tôi bao gồm cách chèn, thao tác, tùy chỉnh, xử lý sự kiện, v.v.
+type: docs
 weight: 13
 url: /vi/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Điều khiển ActiveX là các yếu tố mạnh mẽ có thể nâng cao chức năng và tính tương tác của bản trình bày PowerPoint của bạn. Các điều khiển này cho phép bạn nhúng và thao tác các đối tượng như trình phát đa phương tiện, biểu mẫu nhập dữ liệu, v.v. trực tiếp trong các trang trình bày của bạn. Trong bài viết này, chúng ta sẽ khám phá cách quản lý các điều khiển ActiveX trong PowerPoint bằng Aspose.Slides cho .NET, một thư viện đa năng cho phép tích hợp và thao tác liền mạch các tệp PowerPoint trong các ứng dụng .NET của bạn.
 
 ## Thêm điều khiển ActiveX vào trang chiếu PowerPoint
@@ -153,9 +149,3 @@ Bạn có thể xử lý các sự kiện được kích hoạt bởi điều kh
 ### Tôi có thể xóa điều khiển ActiveX khỏi trang chiếu không?
 
  Có, bạn có thể xóa điều khiển ActiveX khỏi trang chiếu bằng cách sử dụng`Remove` phương pháp của`Shapes` bộ sưu tập. Chuyển tham chiếu đến`IOleObjectFrame` biểu diễn điều khiển như một đối số cho`Remove` phương pháp và điều khiển sẽ bị xóa khỏi slide.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

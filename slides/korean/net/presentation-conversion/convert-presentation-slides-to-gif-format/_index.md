@@ -3,14 +3,10 @@ title: 프레젠테이션 슬라이드를 GIF 형식으로 변환
 linktitle: 프레젠테이션 슬라이드를 GIF 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 이 단계별 가이드를 통해 Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드를 동적 GIF로 변환하는 방법을 알아보세요.
+type: docs
 weight: 21
 url: /ko/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## .NET용 Aspose.Slides 소개
 
@@ -137,9 +133,3 @@ NuGet 패키지 관리자를 사용하여 .NET용 Aspose.Slides를 설치할 수
 ### 더 많은 코드 예제와 문서는 어디에서 찾을 수 있나요?
 
  .NET용 Aspose.Slides 사용에 대한 더 많은 코드 예제와 자세한 문서는 다음에서 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

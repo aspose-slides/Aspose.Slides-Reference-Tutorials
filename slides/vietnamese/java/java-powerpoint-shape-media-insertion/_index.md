@@ -3,14 +3,10 @@ title: Chèn hình dạng và phương tiện PowerPoint của Java
 linktitle: Chèn hình dạng và phương tiện PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chèn hình dạng và phương tiện vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn bao gồm thêm dòng, âm thanh, đối tượng OLE và video.
+type: docs
 weight: 23
 url: /vi/java/java-powerpoint-shape-media-insertion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -57,9 +53,3 @@ Tìm hiểu cách thêm khoảng bù giãn cho hình ảnh trong bản trình b�
 Tìm hiểu cách tích hợp liền mạch nội dung video vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Các trang trình bày của bạn có các yếu tố đa phương tiện để thu hút khán giả.
 ### [Thêm khung hình video từ nguồn web trong PowerPoint](./add-video-frame-web-source-powerpoint/)
 Tìm hiểu cách nâng cao bản trình bày PowerPoint của bạn bằng cách thêm khung hình video từ các nguồn web bằng Aspose.Slides cho Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

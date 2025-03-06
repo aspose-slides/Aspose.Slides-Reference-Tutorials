@@ -3,14 +3,10 @@ title: Javaスライドでプレゼンテーションを開く
 linktitle: Javaスライドでプレゼンテーションを開く
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java で PowerPoint プレゼンテーションを開く方法を学びます。効率的なプレゼンテーション処理のためのソース コード例を含むステップ バイ ステップ ガイド。
+type: docs
 weight: 16
 url: /ja/java/additional-utilities/open-presentation-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java でプレゼンテーションを開く方法の紹介
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java は、さまざまなバージョンの Java で動作す
 ### Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを他の形式に変換できますか?
 
 はい、Aspose.Slides for Java を使用すると、PowerPoint プレゼンテーションを PDF、画像、HTML などのさまざまな形式に変換できます。ライブラリのドキュメントと例を調べて、これらの変換をプログラムで実行する方法を学ぶことができます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

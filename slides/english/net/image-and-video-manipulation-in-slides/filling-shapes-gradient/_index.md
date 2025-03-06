@@ -3,14 +3,10 @@ title: Create Stunning Gradients in PowerPoint with Aspose.Slides
 linktitle: Filling Shapes with Gradient in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with Aspose.Slides for .NET! Learn the step-by-step process of filling shapes with gradients. Download your free trial now!
+type: docs
 weight: 21
 url: /net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Crafting visually captivating presentation slides is essential to capture and maintain your audience's attention. In this tutorial, we'll walk you through the process of enhancing your slides by filling an ellipse shape with a gradient using Aspose.Slides for .NET.
 ## Prerequisites
@@ -77,10 +73,3 @@ A: Yes, you can access a free trial [here](https://releases.aspose.com/).
 A: Seek assistance and engage with the community on the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Q: Can I purchase a temporary license for Aspose.Slides for .NET?
 A: Certainly, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

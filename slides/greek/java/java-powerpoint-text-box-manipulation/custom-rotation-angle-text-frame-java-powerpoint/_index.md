@@ -3,14 +3,10 @@ title: Προσαρμοσμένη γωνία περιστροφής για πλ�
 linktitle: Προσαρμοσμένη γωνία περιστροφής για πλαίσιο κειμένου σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσαρμόζετε τις γωνίες περιστροφής για πλαίσια κειμένου στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Βελτιώστε τις παρουσιάσεις σας δυναμικά.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο χειρισμού των γωνιών περιστροφής πλαισίου κειμένου σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Η προσαρμογή των γωνιών περιστροφής είναι ζωτικής σημασίας για τη βελτίωση της οπτικής ελκυστικότητας και της σαφήνειας του κειμένου μέσα στις διαφάνειες. Είτε δημιουργείτε δυναμικά γραφήματα είτε προσθέτετε προσαρμοσμένους τίτλους, η ακριβής περιστροφή πλαισίου κειμένου μπορεί να βελτιώσει σημαντικά την αισθητική της παρουσίασης.
 ## Προαπαιτούμενα
@@ -68,9 +64,3 @@ presentation.save(dataDir + "textframe-rotation_out.pptx", SaveFormat.Pptx);
 Ναι, το Aspose.Slides έχει σχεδιαστεί για να χειρίζεται τις απαιτήσεις σε εταιρικό επίπεδο για τη δημιουργία και τη διαχείριση παρουσιάσεων PowerPoint.
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Για τεχνική υποστήριξη και αλληλεπίδραση με την κοινότητα, επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

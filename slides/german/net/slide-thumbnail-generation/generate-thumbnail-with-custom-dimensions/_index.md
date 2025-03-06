@@ -3,14 +3,10 @@ title: Miniaturansichten in Folien mit benutzerdefinierten Abmessungen generiere
 linktitle: Miniaturbild mit benutzerdefinierten Abmessungen generieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET benutzerdefinierte Miniaturbilder aus PowerPoint-Präsentationen erstellen. Verbessern Sie Benutzererfahrung und Funktionalität.
+type: docs
 weight: 13
 url: /de/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Das Erstellen benutzerdefinierter Miniaturbilder Ihrer PowerPoint-Präsentationen kann von großem Nutzen sein, egal ob Sie eine interaktive Anwendung erstellen, das Benutzererlebnis verbessern oder Inhalte für verschiedene Plattformen optimieren. In diesem Tutorial führen wir Sie durch den Prozess der Generierung benutzerdefinierter Miniaturbilder aus PowerPoint-Präsentationen mithilfe der Aspose.Slides für .NET-Bibliothek. Mit dieser leistungsstarken Bibliothek können Sie PowerPoint-Dateien programmgesteuert in .NET-Anwendungen bearbeiten, konvertieren und verbessern.
 
@@ -119,9 +115,3 @@ Während einige Kenntnisse der .NET-Programmierung von Vorteil sind, bietet Aspo
 
 ### Gibt es technischen Support für Aspose.Slides für .NET?
  Ja, Sie haben Zugriff auf technischen Support und Community-Foren[Hier](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

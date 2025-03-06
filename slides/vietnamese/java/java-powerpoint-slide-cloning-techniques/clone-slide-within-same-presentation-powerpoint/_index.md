@@ -3,14 +3,10 @@ title: Sao chép slide trong cùng một bản trình bày
 linktitle: Sao chép slide trong cùng một bản trình bày
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Sao chép các slide trong cùng một bản trình bày bằng Aspose.Slides for Java với hướng dẫn của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa các thao tác trên PowerPoint.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Bạn đã sẵn sàng đi sâu vào thế giới của Aspose.Slides cho Java và tìm hiểu cách sao chép các slide trong cùng một bản trình bày chưa? Hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết, từ các điều kiện tiên quyết đến cách triển khai cuối cùng. Bắt đầu nào!
 ## Điều kiện tiên quyết
@@ -71,9 +67,3 @@ Aspose.Slides cho Java là một API mạnh mẽ để làm việc với các b�
 Tài liệu về Aspose.Slides cho Java có sẵn trên[trang web giả định](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể mua Aspose.Slides cho Java?
  Bạn có thể mua Aspose.Slides cho Java bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

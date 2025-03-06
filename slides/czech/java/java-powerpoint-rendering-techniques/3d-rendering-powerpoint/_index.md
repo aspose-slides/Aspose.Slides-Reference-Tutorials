@@ -3,14 +3,10 @@ title: 3D vykreslování v PowerPointu
 linktitle: 3D vykreslování v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet úžasné 3D rendery v PowerPointu pomocí Aspose.Slides for Java. Pozvedněte své prezentace.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 tomto tutoriálu prozkoumáme, jak začlenit úžasné 3D vykreslování do vašich prezentací PowerPoint pomocí Aspose.Slides pro Java. Dodržováním těchto podrobných pokynů budete moci vytvářet podmanivé vizuální efekty, které zapůsobí na vaše publikum.
 ## Předpoklady
@@ -76,9 +72,3 @@ Absolutně! Aspose.Slides poskytuje rozsáhlou podporu pro přidávání animac�
 Přestože Aspose.Slides nabízí pokročilé funkce 3D vykreslování, je nezbytné vzít v úvahu důsledky pro výkon, zejména při práci se složitými scénami nebo velkými prezentacemi.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
  Můžete navštívit[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za pomoc, dokumentaci a podporu komunity.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

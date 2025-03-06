@@ -3,14 +3,10 @@ title: Bentuk Geometri dan Pemosisian dalam Slide menggunakan Aspose.Slides
 linktitle: Bentuk Geometri dan Posisi dalam Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan keterampilan manipulasi slide Anda dengan tutorial Aspose.Slides tentang geometri bentuk dan pemosisian dalam slide. Pelajari cara mengontrol bentuk, dimensi, dan perataannya secara terprogram.
+type: docs
 weight: 13
 url: /id/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Perkenalan
 
@@ -55,9 +51,3 @@ Pelajari cara mengintegrasikan data rig ringan secara efisien ke dalam slide pre
 Pelajari cara menyempurnakan slide presentasi Anda dengan data bevel yang efektif menggunakan Aspose.Slides. Panduan komprehensif dengan petunjuk langkah demi langkah dan kode contoh.
 ### [Menyembunyikan Bentuk di Slide Presentasi dengan Aspose.Slides](./hiding-shapes/)
 Pelajari cara menyembunyikan bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber, FAQ, dan praktik terbaik untuk presentasi dinamis.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java スライドでのチャート回復ワークブック
 linktitle: Java スライドでのチャート回復ワークブック
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライドのグラフからワークブックを復元する方法を学びます。PowerPoint 自動化のステップバイステップ ガイド。
+type: docs
 weight: 17
 url: /ja/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでのチャート回復ワークブックの紹介
 
@@ -113,9 +109,3 @@ finally
 ### Aspose.Slides for Java の詳細なドキュメントにアクセスするにはどうすればいいですか?
 
  Aspose.Slides for Javaの詳細なドキュメントとリファレンスについては、次のドキュメントページをご覧ください。[ここ](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

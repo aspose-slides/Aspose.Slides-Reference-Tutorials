@@ -3,14 +3,10 @@ title: Crie apresentações dinâmicas com quadros de zoom Aspose.Slides
 linktitle: Criando quadro de zoom em slides de apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda a criar apresentações cativantes com quadros de zoom usando Aspose.Slides for .NET. Siga nosso guia passo a passo para uma experiência de slides envolvente.
+type: docs
 weight: 17
 url: /pt/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 No mundo das apresentações, slides cativantes são essenciais para deixar uma impressão duradoura. Aspose.Slides for .NET fornece um conjunto de ferramentas poderoso e, neste guia, orientaremos você no processo de incorporação de quadros de zoom envolventes em seus slides de apresentação.
 ## Pré-requisitos
@@ -93,9 +89,3 @@ Sim, você pode personalizar vários aspectos, como largura da linha, cor de pre
  Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso comprar a versão completa do Aspose.Slides for .NET?
  Você pode comprar a versão completa[aqui](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

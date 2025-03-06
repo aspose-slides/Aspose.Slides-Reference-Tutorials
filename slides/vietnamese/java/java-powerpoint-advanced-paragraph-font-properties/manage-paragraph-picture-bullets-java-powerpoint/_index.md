@@ -3,14 +3,10 @@ title: Quản lý dấu đầu dòng ảnh đoạn văn trong Java PowerPoint
 linktitle: Quản lý dấu đầu dòng ảnh đoạn văn trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm dấu đầu dòng hình ảnh tùy chỉnh vào trang chiếu PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn chi tiết từng bước này để tích hợp liền mạch.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Tạo các bài thuyết trình hấp dẫn và hấp dẫn về mặt hình ảnh là một kỹ năng quan trọng trong thế giới kinh doanh hiện đại. Các nhà phát triển Java có thể tận dụng Aspose.Slides để cải thiện bản trình bày của họ bằng các dấu đầu dòng hình ảnh tùy chỉnh trong các trang chiếu PowerPoint. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn có thể tự tin thêm dấu đầu dòng hình ảnh vào bản trình bày của mình.
 ## Điều kiện tiên quyết
@@ -108,9 +104,3 @@ Có, bạn có thể sử dụng bất kỳ hình ảnh nào cho các dấu đ�
 Có, bạn có thể thêm nhiều đoạn văn với các kiểu dấu đầu dòng khác nhau vào một Hình tự động bằng cách tạo và đặt cấu hình từng đoạn riêng lẻ.
 ### Tôi có thể tìm thêm ví dụ và hỗ trợ ở đâu?
  Bạn có thể tìm thêm ví dụ ở[tài liệu](https://reference.aspose.com/slides/java/) và nhận được sự hỗ trợ từ cộng đồng Aspose trên[diễn đàn](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

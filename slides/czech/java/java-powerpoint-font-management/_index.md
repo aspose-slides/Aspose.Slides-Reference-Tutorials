@@ -3,14 +3,10 @@ title: Správa písem Java PowerPoint
 linktitle: Správa písem Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Objevte výukové programy správy písem Java PowerPoint pomocí Aspose.Slides pro Java. Naučte se techniky vkládání, komprese a přizpůsobení pro vylepšení prezentací.
+type: docs
 weight: 21
 url: /cs/java/java-powerpoint-font-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 
 Odemkněte potenciál svých prezentací v PowerPointu pomocí našich výukových programů správy písem Java PowerPoint pomocí Aspose.Slides for Java. Naši obsáhlí průvodci vám pomohou zvládnout přizpůsobení písma a zajistí, že vaše prezentace vyniknou.
@@ -76,9 +72,3 @@ Naučte se, jak provádět nahrazování písem v prezentacích Java PowerPoint 
 Naučte se formátovat textové rámečky v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Vylepšete vizuální přitažlivost svých snímků bez námahy.
 ### [Efektivní data stylu textu v Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Ovládněte manipulaci se stylem textu v prezentacích Java PowerPoint pomocí Aspose.Slides for Java. Dynamicky přizpůsobujte formátování pro účinnou tvorbu obsahu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

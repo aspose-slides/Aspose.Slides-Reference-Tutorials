@@ -3,14 +3,10 @@ title: Slaytları Notlarla PDF'ye Dönüştürün
 linktitle: Slaytları Notlarla PDF'ye Dönüştürün
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak konuşmacı notlarının bulunduğu sunum slaytlarını zahmetsizce PDF'ye dönüştürün. İçeriği ve bağlamı sorunsuz bir şekilde koruyun.
+type: docs
 weight: 18
 url: /tr/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Aspose.Slides for .NET Kullanarak Slaytları Notlarla PDF'ye Dönüştürmeye İlişkin Adım Adım Eğitim Kılavuzu Yazma
 
@@ -102,9 +98,3 @@ Evet, Aspose.Slides for .NET, PPTX, DOCX ve daha fazlası dahil olmak üzere çe
  Evet, şu adresten geçici bir lisans satın alabilirsiniz:[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Sonuç olarak, Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarını notları bozulmadan kolayca PDF formatına dönüştürebilirsiniz. Önemli bağlamın kaybolmamasını sağlarken sunumlarını iş arkadaşları ve müşterileriyle paylaşmaya ihtiyaç duyan profesyoneller için değerli bir araçtır.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

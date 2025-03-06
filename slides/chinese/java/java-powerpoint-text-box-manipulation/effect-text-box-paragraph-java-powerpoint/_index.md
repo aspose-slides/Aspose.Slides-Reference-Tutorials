@@ -3,14 +3,10 @@ title: Java PowerPoint 中的效果文本框段落
 linktitle: Java PowerPoint 中的效果文本框段落
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 通过动态文本效果增强 Java 中的 PowerPoint 演示文稿，实现无缝集成和定制。
+type: docs
 weight: 16
 url: /zh/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 Aspose.Slides for Java 使开发人员能够以编程方式操作 PowerPoint 演示文稿，提供一组用于创建、修改和转换幻灯片的强大功能。本教程深入介绍如何利用 Aspose.Slides 在文本框中添加和管理效果，通过 Java 代码动态增强演示文稿。
 ## 先决条件
@@ -64,9 +60,3 @@ Aspose.Slides for Java 支持 Java 6 及更高版本。
 您可以从[这里](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java 是否支持除 .pptx 之外的其他 PowerPoint 文件格式？
 是的，它支持各种 PowerPoint 格式，包括 .ppt、.pptx、.pptm 等。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

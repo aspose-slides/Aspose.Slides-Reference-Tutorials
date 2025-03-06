@@ -3,14 +3,10 @@ title: 순차 색인으로 슬라이드에 액세스
 linktitle: 순차 색인으로 슬라이드에 액세스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 순차 색인으로 슬라이드에 액세스하는 방법을 알아보세요. 소스 코드가 포함된 이 단계별 가이드를 따라 PowerPoint 프레젠테이션을 쉽게 탐색하고 조작하세요.
+type: docs
 weight: 12
 url: /ko/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 순차 색인별 슬라이드 액세스 소개
 
@@ -90,9 +86,3 @@ Aspose.Slides for .NET은 처음부터 프레젠테이션 만들기, 슬라이�
 ### Aspose.Slides를 사용하여 PowerPoint 자동화에 대해 자세히 알아보려면 어떻게 해야 합니까?
 
  Aspose.Slides를 사용한 PowerPoint 자동화에 대해 자세히 알아보려면 해당 사이트에서 제공되는 자세한 문서와 코드 샘플을 살펴보세요.[선적 서류 비치](https://reference.aspose.com/slides/net/) 페이지.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

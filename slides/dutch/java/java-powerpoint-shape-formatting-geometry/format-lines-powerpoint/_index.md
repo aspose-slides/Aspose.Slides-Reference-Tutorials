@@ -3,14 +3,10 @@ title: Lijnen opmaken in PowerPoint
 linktitle: Lijnen opmaken in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lijnen in PowerPoint kunt opmaken met Aspose.Slides voor Java met deze stapsgewijze zelfstudie. Perfectioneer uw presentaties met aangepaste lijnstijlen.
+type: docs
 weight: 16
 url: /nl/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 PowerPoint-presentaties zijn een belangrijk onderdeel van zowel professionele als educatieve omgevingen. De mogelijkheid om lijnen effectief op te maken in uw dia's kan ervoor zorgen dat uw presentaties er verzorgd en professioneel uitzien. In deze zelfstudie onderzoeken we hoe u Aspose.Slides voor Java kunt gebruiken om lijnen in een PowerPoint-presentatie op te maken. Aan het einde van deze handleiding kunt u eenvoudig lijnen in uw dia's maken en opmaken.
 ## Vereisten
@@ -91,9 +87,3 @@ Ja, Aspose.Slides voor Java ondersteunt een breed scala aan vormen, en u kunt in
  Ja, u kunt een gratis proefperiode krijgen van[hier](https://releases.aspose.com/).
 ### Waar kan ik meer gedetailleerde documentatie vinden?
  Gedetailleerde documentatie is beschikbaar op de[documentatiepagina](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

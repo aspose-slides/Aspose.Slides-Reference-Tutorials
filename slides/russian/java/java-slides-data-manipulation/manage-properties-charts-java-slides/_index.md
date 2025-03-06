@@ -3,14 +3,10 @@ title: Управление диаграммами свойств в слайд�
 linktitle: Управление диаграммами свойств в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Научитесь создавать потрясающие диаграммы и управлять свойствами слайдов Java с помощью Aspose.Slides. Пошаговое руководство с исходным кодом для создания мощных презентаций.
+type: docs
 weight: 13
 url: /ru/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в управление свойствами и диаграммами в слайдах Java с использованием Aspose.Slides
 
@@ -202,9 +198,3 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### Какие еще 3D-свойства я могу настроить?
 
 Вы можете изучить другие трехмерные свойства диаграммы, такие как глубина, перспектива и освещение, обратившись к документации Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Load External Font in PowerPoint with Java
 linktitle: Load External Font in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to load custom fonts in PowerPoint presentations using Aspose.Slides for Java. Enhance your slides with unique typography.
+type: docs
 weight: 10
 url: /java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, we'll guide you through the process of loading an external font in PowerPoint presentations using Aspose.Slides for Java. Custom fonts can add a unique touch to your presentations, ensuring consistent branding or stylistic preferences across various platforms.
 ## Prerequisites
@@ -67,10 +63,3 @@ Yes, you can load multiple external fonts by repeating the process for each font
 As long as the font file is in TrueType (.ttf) format and within reasonable size limits, you should be able to load it successfully.
 ### Does loading external fonts affect the compatibility of the presentation with different PowerPoint versions?
 No, the presentation remains compatible across different PowerPoint versions as long as the fonts are embedded or loaded externally.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

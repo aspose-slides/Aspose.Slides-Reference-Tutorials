@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में मूल फ़ॉन्
 linktitle: जावा स्लाइड्स में मूल फ़ॉन्ट को संरक्षित रखते हुए प्रेजेंटेशन को HTML में परिवर्तित करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Java के लिए Aspose.Slides का उपयोग करके मूल फ़ॉन्ट को संरक्षित करते हुए PowerPoint प्रस्तुतियों को HTML में परिवर्तित करें।
+type: docs
 weight: 14
 url: /hi/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में मूल फ़ॉन्ट को संरक्षित रखते हुए प्रेजेंटेशन को HTML में परिवर्तित करने का परिचय
 
@@ -115,9 +111,3 @@ finally
 ### मैं HTML आउटपुट को और अधिक अनुकूलित कैसे कर सकता हूं?
 
  आप अन्वेषण कर सकते हैं`HtmlOptions` HTML आउटपुट के विभिन्न पहलुओं को अनुकूलित करने के लिए क्लास का उपयोग करें, जैसे स्लाइड का आकार, छवि गुणवत्ता, आदि।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 차트 시리즈 애니메이션화
 linktitle: 차트의 시리즈 애니메이션
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 차트 시리즈에 애니메이션을 적용하는 방법을 알아보세요. 역동적인 프레젠테이션으로 청중의 관심을 사로잡으세요. 지금 시작하세요!
+type: docs
 weight: 12
 url: /ko/net/chart-formatting-and-animation/animating-series/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 애니메이션 차트를 사용하여 프레젠테이션에 활기를 더하고 싶으십니까? .NET용 Aspose.Slides는 차트에 생기를 불어넣기 위해 여기에 있습니다. 이 단계별 가이드에서는 .NET용 Aspose.Slides를 사용하여 차트의 시리즈에 애니메이션을 적용하는 방법을 보여줍니다. 하지만 작업을 시작하기 전에 전제 조건을 살펴보겠습니다.
 
@@ -113,9 +109,3 @@ Aspose.Slides for .NET은 PowerPoint 2007 이상을 포함한 다양한 PowerPoi
 
 ### .NET용 Aspose.Slides 라이선스는 어디서 구매할 수 있나요?
  구매 페이지에서 Aspose.Slides for .NET 라이선스를 취득하실 수 있습니다.[여기](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

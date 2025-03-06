@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में सामान्य च
 linktitle: जावा स्लाइड्स में सामान्य चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड्स में सामान्य चार्ट बनाएँ। PowerPoint प्रस्तुतियों में चार्ट बनाने, अनुकूलित करने और सहेजने के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड।
+type: docs
 weight: 21
 url: /hi/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में सामान्य चार्ट का परिचय
 
@@ -244,9 +240,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
  चार्ट को किसी भिन्न फ़ाइल प्रारूप में सहेजने के लिए, बदलें`SaveFormat` पैरामीटर में`pres.save()` विधि को वांछित प्रारूप में परिवर्तित करें (जैसे, पीडीएफ, पीएनजी, जेपीईजी)।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

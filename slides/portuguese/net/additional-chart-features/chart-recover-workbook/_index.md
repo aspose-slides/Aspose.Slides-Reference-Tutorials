@@ -3,14 +3,10 @@ title: Como usar Aspose.Slides .NET para recuperar a pasta de trabalho do gráfi
 linktitle: Recuperar pasta de trabalho do gráfico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como recuperar uma pasta de trabalho de um gráfico em apresentações do PowerPoint usando Aspose.Slides for .NET. Siga nosso guia passo a passo para extrair dados com eficiência.
+type: docs
 weight: 12
 url: /pt/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Se você deseja trabalhar com apresentações do PowerPoint em .NET, Aspose.Slides for .NET é uma biblioteca poderosa que pode ajudá-lo a atingir seus objetivos. Neste tutorial, iremos guiá-lo através do processo de recuperação de uma pasta de trabalho de um gráfico em uma apresentação do PowerPoint usando Aspose.Slides for .NET. Esse recurso poderoso pode ser útil quando você precisa extrair dados de gráficos em suas apresentações. Dividiremos o processo em etapas fáceis de seguir, garantindo que você tenha uma compreensão clara de como realizar essa tarefa.
 
@@ -105,9 +101,3 @@ Aspose.Slides for .NET é uma biblioteca .NET poderosa para trabalhar com arquiv
 ### 5. Qual é o comprimento máximo do título para otimização de SEO?
 
 Para otimização de SEO, é recomendado manter seu título com menos de 60 caracteres para garantir que ele seja exibido corretamente nos resultados de pesquisas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

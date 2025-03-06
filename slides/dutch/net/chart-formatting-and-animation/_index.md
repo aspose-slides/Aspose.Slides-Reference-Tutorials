@@ -3,14 +3,10 @@ title: Grafiekopmaak en animatie
 linktitle: Grafiekopmaak en animatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met dynamische grafieken met Aspose.Slides voor .NET. Leer stap voor stap de opmaak en animatie van diagrammen. Verbeter vandaag nog uw presentatievaardigheden!
+type: docs
 weight: 22
 url: /nl/net/chart-formatting-and-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering
 
@@ -39,9 +35,3 @@ Leer hoe u boeiende animaties kunt toevoegen aan diagramcategorie-elementen met 
 Leer hoe u diagramreeksen kunt animeren met Aspose.Slides voor .NET. Creëer dynamische presentaties met boeiende datavisualisaties.
 ### [Serie-elementen in diagram animeren](./animating-series-elements/)
 Leer diagramseries animeren met Aspose.Slides voor .NET. Maak boeiende presentaties met dynamische beelden. Deskundige gids met codevoorbeelden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

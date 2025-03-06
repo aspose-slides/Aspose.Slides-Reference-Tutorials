@@ -3,14 +3,10 @@ title: 使用 .NET 中的 Aspose.Slides 打印演示幻灯片
 linktitle: 使用 Aspose.Slides 打印特定演示幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 .NET 中打印演示文稿幻灯片。面向开发人员的分步指南。下载库并立即开始打印。
+type: docs
 weight: 18
 url: /zh/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在 .NET 开发领域，Aspose.Slides 是处理演示文件的强大工具。如果您曾经需要以编程方式打印演示幻灯片，那么您来对地方了。在本教程中，我们将探讨如何使用 Aspose.Slides for .NET 实现此目的。
 ## 先决条件
@@ -63,9 +59,3 @@ presentation.Print(printerSettings, "Please set your printer name here");
 答：当然可以！您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 问：如何购买 Aspose.Slides for .NET？
 答：你可以购买图书馆[这里](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

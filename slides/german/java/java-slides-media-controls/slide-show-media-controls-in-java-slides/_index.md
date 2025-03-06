@@ -3,14 +3,10 @@ title: Mediensteuerung für Diashows in Java-Folien
 linktitle: Mediensteuerung für Diashows in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Mediensteuerelemente in Java-Folien mit Aspose.Slides für Java aktivieren und verwenden. Verbessern Sie Ihre Präsentationen mit Mediensteuerelementen.
+type: docs
 weight: 11
 url: /de/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Diashow-Mediensteuerelemente in Java Slides
 
@@ -112,9 +108,3 @@ In diesem Tutorial haben wir untersucht, wie Sie Mediensteuerelemente in Java Sl
 ### Gibt es eine Möglichkeit, in Java Slides Untertitel oder Beschriftungen zu Videos hinzuzufügen?
 
 Ja, Sie können in Java Slides Untertitel oder Beschriftungen zu Videos hinzufügen, indem Sie der Folie mit dem Video Textrahmen oder Formen hinzufügen. Anschließend können Sie den Text mithilfe der Zeiteinstellungen mit der Videowiedergabe synchronisieren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

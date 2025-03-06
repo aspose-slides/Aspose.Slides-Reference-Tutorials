@@ -3,14 +3,10 @@ title: Java を使用して SmartArt の箇条書きの塗りつぶし形式を�
 linktitle: Java を使用して SmartArt の箇条書きの塗りつぶし形式を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して SmartArt の箇条書きの塗りつぶし形式を設定する方法を学びます。効率的なプレゼンテーション操作のためのステップバイステップ ガイド。
+type: docs
 weight: 18
 url: /ja/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Java プログラミングの分野では、プレゼンテーションを効率的に操作することが一般的な要件であり、特に SmartArt 要素を扱う場合に当てはまります。Aspose.Slides for Java は、このようなタスクのための強力なツールとして登場し、プレゼンテーションをプログラムで処理するためのさまざまな機能を提供します。このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt の箇条書きの塗りつぶし形式を設定するプロセスを段階的に説明します。
 ## 前提条件
@@ -75,9 +71,3 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
 はい、無料トライアルでAspose.Slidesの機能を試すことができます。[Webサイト](https://releases.aspose.com/slides/java/)探索を始めましょう。
 ### Aspose.Slides for Java のサポートはどこで見つかりますか?
 ご質問やサポートについては、Aspose.Slidesフォーラムをご覧ください。[このリンク](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

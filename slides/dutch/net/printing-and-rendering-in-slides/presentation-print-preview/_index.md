@@ -3,14 +3,10 @@ title: Een voorbeeld van de afdrukuitvoer van presentaties bekijken in Aspose.Sl
 linktitle: Een voorbeeld van de afdrukuitvoer van presentaties bekijken in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u een voorbeeld van de afdrukuitvoer van PowerPoint-presentaties kunt bekijken met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met broncode om afdrukvoorbeelden te genereren en aan te passen.
+type: docs
 weight: 11
 url: /nl/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Welkom in de wereld van Aspose.Slides voor .NET, een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties in hun .NET-toepassingen naadloos kunnen manipuleren en verbeteren. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze uitgebreide gids leidt u door de essentiële stappen om het volledige potentieel van Aspose.Slides te benutten.
 ## Vereisten
@@ -75,9 +71,3 @@ Absoluut! Aspose.Slides is veelzijdig en kan naadloos worden geïntegreerd in zo
  Bezoek[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
 ### Ondersteuning nodig of meer vragen?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om hulp te krijgen en verbinding te maken met de gemeenschap.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Szöveg módosítása a SmartArt-csomóponton Java használatával
 linktitle: Szöveg módosítása a SmartArt-csomóponton Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel, hogyan frissítheti a SmartArt csomópont szövegét a PowerPointban Java használatával az Aspose.Slides segítségével, javítva a prezentáció testreszabását.
+type: docs
 weight: 22
 url: /hu/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A SmartArt a PowerPointban egy hatékony szolgáltatás a tetszetős diagramok létrehozásához. Az Aspose.Slides for Java átfogó támogatást nyújt a SmartArt elemek programozott kezeléséhez. Ebben az oktatóanyagban végigvezetjük a SmartArt-csomóponton lévő szöveg Java használatával történő módosításának folyamatán.
 ## Előfeltételek
@@ -64,9 +60,3 @@ Természetesen az Aspose.Slides API segítségével módosíthatja a különfél
 Igen, az Aspose.Slides a SmartArt-elrendezések széles skáláját támogatja, így kiválaszthatja azt, amelyik a legjobban megfelel prezentációs igényeinek.
 ### Hol találok további forrásokat és támogatást az Aspose.Slides számára?
  Meglátogathatja a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/java/) részletes API-referenciákért és oktatóanyagokért. Ezenkívül segítséget kérhet a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) vagy fontolja meg a vásárlást a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) szakmai támogatásért.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

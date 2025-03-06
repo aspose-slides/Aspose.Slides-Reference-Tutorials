@@ -3,14 +3,10 @@ title: Tentukan Font yang Digunakan dalam Presentasi dengan Java
 linktitle: Tentukan Font yang Digunakan dalam Presentasi dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menentukan font khusus dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan slide Anda dengan tipografi unik dengan mudah.
+type: docs
 weight: 22
 url: /id/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Di era digital saat ini, membuat presentasi yang menarik secara visual sangat penting untuk komunikasi yang efektif dalam bisnis dan akademisi. Aspose.Slides untuk Java menyediakan platform yang kuat bagi pengembang Java untuk secara dinamis menghasilkan dan memanipulasi presentasi PowerPoint. Tutorial ini akan memandu Anda melalui proses menentukan font yang digunakan dalam presentasi menggunakan Aspose.Slides untuk Java. Pada akhirnya, Anda akan dibekali dengan pengetahuan untuk mengintegrasikan font khusus ke dalam proyek PowerPoint Anda dengan lancar, meningkatkan daya tarik visualnya, dan memastikan konsistensi merek.
 ## Prasyarat
@@ -75,9 +71,3 @@ Ya, Anda dapat menentukan font di berbagai tingkatan termasuk tingkat slide, ben
 Aspose.Slides tidak menerapkan batasan ketat pada jumlah font khusus; namun, pertimbangkan implikasi kinerja.
 ### Bisakah saya memuat font secara dinamis saat runtime tanpa menyematkannya di aplikasi saya?
 Ya, Anda dapat memuat font dari sumber eksternal atau memori seperti yang ditunjukkan dalam tutorial ini.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

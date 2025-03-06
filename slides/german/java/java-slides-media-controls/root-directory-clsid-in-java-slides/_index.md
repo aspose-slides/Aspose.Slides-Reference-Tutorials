@@ -3,14 +3,10 @@ title: Stammverzeichnis ClsId in Java-Folien
 linktitle: Stammverzeichnis ClsId in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie die ClsId des Stammverzeichnisses in Aspose.Slides für Java-Präsentationen festlegen. Passen Sie das Hyperlink-Verhalten mit CLSID an.
+type: docs
 weight: 10
 url: /de/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in das Festlegen der ClsId des Stammverzeichnisses in Aspose.Slides für Java
 
@@ -111,9 +107,3 @@ Nein, die ClsId des Stammverzeichnisses wird normalerweise auf Präsentationsebe
 ### Gibt es Einschränkungen hinsichtlich der CLSIDs, die ich verwenden kann?
 
 Die verwendbaren CLSIDs werden normalerweise durch die auf dem System installierten Anwendungen bestimmt. Sie sollten CLSIDs verwenden, die gültigen Anwendungen entsprechen, die Hyperlinks verarbeiten können. Beachten Sie, dass die Verwendung einer ungültigen CLSID zu unerwartetem Verhalten führen kann.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

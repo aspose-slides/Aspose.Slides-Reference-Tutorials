@@ -3,14 +3,10 @@ title: Java Slaytlarına Donut Belirtme Çizgisi Ekleme
 linktitle: Java Slaytlarına Donut Belirtme Çizgisi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slaytlarına Donut Açıklamaları Eklemeyi öğrenin. Gelişmiş sunumlar için kaynak kodlu adım adım kılavuz.
+type: docs
 weight: 12
 url: /tr/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java kullanarak Java Slaytlarına Donut Açıklamaları Eklemeye Giriş
 
@@ -184,9 +180,3 @@ Evet, Donut grafiğine gerektiği kadar veri noktası ekleyebilirsiniz. Kategori
 ### Slayttaki Halka grafiğinin konumunu ve boyutunu nasıl ayarlayabilirim?
 
  Aşağıdaki parametreleri değiştirerek Halka grafiğinin konumunu ve boyutunu değiştirebilirsiniz.`addChart` yöntem. Bu yöntemdeki dört sayı, sırasıyla grafiğin sol üst köşesinin X ve Y koordinatlarına ve genişliğine ve yüksekliğine karşılık gelir.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Bagan Tersebar di Slide Java
 linktitle: Bagan Tersebar di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Bagan Sebar di Java menggunakan Aspose.Slides. Panduan langkah demi langkah dengan kode sumber Java untuk visualisasi data dalam presentasi.
+type: docs
 weight: 11
 url: /id/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Bagan Tersebar di Aspose.Slide untuk Java
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Jangan ragu untuk menjelajahi opsi penyesuaian lainnya di dokumentasi Aspose.Slides untuk Java.
 
  Ingatlah untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan presentasi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

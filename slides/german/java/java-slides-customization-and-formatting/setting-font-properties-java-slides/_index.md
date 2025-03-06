@@ -3,14 +3,10 @@ title: Festlegen von Schrifteigenschaften in Java-Folien
 linktitle: Festlegen von Schrifteigenschaften in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Schrifteigenschaften in Java-Folien festlegen. Diese Schritt-für-Schritt-Anleitung enthält Codebeispiele und FAQs.
+type: docs
 weight: 15
 url: /de/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in das Festlegen von Schrifteigenschaften in Java-Folien
 
@@ -141,9 +137,3 @@ for (ISlide slide : pres.getSlides()) {
     // Greifen Sie hier auf die Schrifteigenschaften von Textelementen zu und passen Sie sie an
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

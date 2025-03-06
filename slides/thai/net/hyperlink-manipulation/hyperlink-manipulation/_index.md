@@ -3,14 +3,10 @@ title: การจัดการไฮเปอร์ลิงก์ใน Asp
 linktitle: การจัดการไฮเปอร์ลิงก์ใน Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มและลบไฮเปอร์ลิงก์ใน Aspose.Slides สำหรับ .NET ปรับปรุงการนำเสนอของคุณด้วยลิงก์แบบโต้ตอบได้อย่างง่ายดาย
+type: docs
 weight: 10
 url: /th/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ไฮเปอร์ลิงก์เป็นองค์ประกอบสำคัญในการนำเสนอ เนื่องจากเป็นวิธีที่สะดวกในการนำทางระหว่างสไลด์หรือเข้าถึงแหล่งข้อมูลภายนอก Aspose.Slides สำหรับ .NET นำเสนอคุณสมบัติที่มีประสิทธิภาพสำหรับการเพิ่มและลบไฮเปอร์ลิงก์ในสไลด์การนำเสนอของคุณ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการจัดการไฮเปอร์ลิงก์โดยใช้ Aspose.Slides สำหรับ .NET เราจะกล่าวถึงการเพิ่มไฮเปอร์ลิงก์ลงในสไลด์และการลบไฮเปอร์ลิงก์ออกจากสไลด์ เอาล่ะ มาดำดิ่งกันเถอะ!
 
@@ -125,9 +121,3 @@ Aspose.Slides สำหรับ .NET นำเสนอคุณสมบัต
 
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Slides ได้อย่างไร
  หากคุณต้องการใบอนุญาตชั่วคราวสำหรับ Aspose.Slides คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

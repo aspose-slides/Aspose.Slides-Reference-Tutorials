@@ -3,14 +3,10 @@ title: Liên kết Video qua ActiveX Control trong PowerPoint
 linktitle: Liên kết video qua ActiveX Control
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách liên kết video với các trang chiếu PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước này bao gồm mã nguồn và các mẹo để tạo bản trình bày tương tác và hấp dẫn bằng các video được liên kết.
+type: docs
 weight: 12
 url: /vi/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Liên kết Video qua Điều khiển ActiveX trong Bản trình bày bằng Aspose.Slides for .NET
 
 Trong Aspose.Slides dành cho .NET, bạn có thể liên kết video với trang trình bày theo chương trình bằng cách sử dụng điều khiển ActiveX. Điều này cho phép bạn tạo các bản trình bày tương tác trong đó nội dung video có thể được phát trực tiếp trong trang chiếu. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình liên kết video với trang trình bày bằng Aspose.Slides cho .NET.
@@ -84,9 +80,3 @@ Kích thước của video được liên kết có thể ảnh hưởng đến 
 Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng liên kết video thông qua điều khiển ActiveX trong bản trình bày bằng Aspose.Slides for .NET. Tính năng này cho phép bạn tạo các bài thuyết trình hấp dẫn và có tính tương tác kết hợp nội dung đa phương tiện một cách liền mạch.
 
  Để biết thêm chi tiết và các tùy chọn nâng cao, bạn có thể tham khảo[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

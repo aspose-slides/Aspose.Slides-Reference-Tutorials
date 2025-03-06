@@ -3,14 +3,10 @@ title: Set Access Permissions to PDF in Java Slides
 linktitle: Set Access Permissions to PDF in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to secure your PDF documents with access permissions in Java Slides using Aspose.Slides. This step-by-step guide covers password protection and more.
+type: docs
 weight: 17
 url: /java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Set Access Permissions to PDF in Java Slides
 
@@ -108,10 +104,3 @@ Aspose.Slides for Java provides various security features, including encryption,
 ### Where can I find more resources and documentation for Aspose.Slides for Java?
 
 You can access comprehensive documentation for Aspose.Slides for Java at [here](https://reference.aspose.com/slides/java/). Additionally, you can download the library from [here](https://releases.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Baumdiagramm in Java-Folien
 linktitle: Baumdiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erstellen Sie Tree Map-Diagramme in Java Slides mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode zur Visualisierung hierarchischer Daten.
+type: docs
 weight: 13
 url: /de/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in das Tree Map-Diagramm in Java-Folien
 
@@ -156,9 +152,3 @@ Ja, Sie können mehrere TreeMap-Diagramme in einer einzigen Präsentation erstel
 ### Wie speichere ich die Präsentation mit dem Tree Map-Diagramm?
 
  Verwenden Sie die`pres.save()` Methode, um die Präsentation mit dem Tree Map-Diagramm im gewünschten Format (z. B. PPTX) zu speichern.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

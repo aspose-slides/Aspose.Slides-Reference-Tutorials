@@ -3,14 +3,10 @@ title: Thao tác hình ảnh và video trong slide
 linktitle: Thao tác hình ảnh và video trong slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Cải thiện bản trình bày slide của bạn bằng các hình ảnh và video hấp dẫn bằng Aspose.Slides for .NET. Tìm hiểu từng bước cách thao tác với hình ảnh và video trong trang trình bày để có nội dung hấp dẫn về mặt hình ảnh.
+type: docs
 weight: 12
 url: /vi/net/image-and-video-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Thao tác hình ảnh và video trong Aspose.Slides
 
@@ -57,9 +53,3 @@ Tìm hiểu cách cải thiện các trang trình bày của bạn bằng cách 
 Tìm hiểu cách trích xuất dữ liệu tệp nhúng từ các đối tượng OLE trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để truy xuất và xử lý dữ liệu được nhúng một cách liền mạch.
 ### [Làm đầy các hình dạng bằng gradient trong các slide thuyết trình bằng Aspose.Slides](./filling-shapes-gradient/)
 Tìm hiểu cách cải thiện các trang trình bày của bạn bằng các dải màu quyến rũ bằng cách sử dụng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này với mã nguồn hoàn chỉnh để tô các hình dạng có chuyển màu, từ tuyến tính đến xuyên tâm, thêm chiều sâu và kích thước.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

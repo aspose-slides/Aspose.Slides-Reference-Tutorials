@@ -3,14 +3,10 @@ title: Eredeti betűtípusok megőrzése – A prezentáció konvertálása HTML
 linktitle: Eredeti betűtípusok megőrzése – A prezentáció konvertálása HTML-be
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan őrizheti meg az eredeti betűtípusokat, miközben a prezentációkat HTML-formátumba konvertálja az Aspose.Slides for .NET segítségével. Gondoskodjon a betűtípus konzisztenciájáról és a vizuális hatásról.
+type: docs
 weight: 14
 url: /hu/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ebben az átfogó útmutatóban végigvezetjük az eredeti betűtípusok megőrzésének folyamatán, amikor egy prezentációt HTML formátumba konvertál az Aspose.Slides for .NET használatával. Biztosítjuk Önnek a szükséges C# forráskódot, és minden lépést részletesen elmagyarázunk. Ennek az oktatóanyagnak a végére biztosítani tudja, hogy a konvertált HTML-dokumentumban lévő betűtípusok hűek maradjanak az eredeti megjelenítéshez.
 
@@ -102,10 +98,3 @@ Az Aspose.Slides for .NET elsősorban a PowerPoint-bemutatókra összpontosít. 
 ### 5. kérdés: Hol férhetek hozzá további forrásokhoz és támogatáshoz?
 
  További dokumentációt, oktatóanyagokat és támogatást találhat az Aspose webhelyén. Látogatás[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/) részletes információkért.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

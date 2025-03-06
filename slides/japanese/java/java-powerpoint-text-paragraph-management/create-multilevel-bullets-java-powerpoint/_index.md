@@ -3,14 +3,10 @@ title: Java PowerPoint で複数レベルの箇条書きを作成する
 linktitle: Java PowerPoint で複数レベルの箇条書きを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint で複数レベルの箇条書きを作成する方法を学びます。コード例と FAQ を含むステップバイステップ ガイド。
+type: docs
 weight: 14
 url: /ja/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで複数レベルの箇条書きを作成する方法を説明します。箇条書きを追加することは、プレゼンテーションで整理された視覚的に魅力的なコンテンツを作成するための一般的な要件です。このガイドの最後までに、複数のレベルで構造化された箇条書きを使用してプレゼンテーションを強化できるように、プロセスを段階的に説明します。
 ## 前提条件
@@ -113,9 +109,3 @@ Aspose.Slides は、Microsoft PowerPoint 2007 以降のバージョンと互換�
 はい、Aspose.Slides は、PowerPoint プレゼンテーションの作成、変更、操作を自動化する API を提供します。
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
  Aspose.Slidesコミュニティと専門家からのサポートは、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

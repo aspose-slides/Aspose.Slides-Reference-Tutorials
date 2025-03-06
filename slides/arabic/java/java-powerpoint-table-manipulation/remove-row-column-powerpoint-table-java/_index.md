@@ -3,14 +3,10 @@ title: إزالة الصف أو العمود في جدول PowerPoint باستخ
 linktitle: إزالة الصف أو العمود في جدول PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إزالة الصفوف أو الأعمدة من جداول PowerPoint باستخدام Java مع Aspose.Slides لـ Java. دليل سهل خطوة بخطوة للمطورين.
+type: docs
 weight: 18
 url: /ar/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إزالة صف أو عمود من جدول PowerPoint باستخدام Java بمساعدة Aspose.Slides. Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. يركز هذا البرنامج التعليمي بشكل خاص على عملية تعديل الجداول داخل شرائح PowerPoint، ويوضح خطوة بخطوة كيفية إزالة صفوف أو أعمدة معينة من الجدول.
 ## المتطلبات الأساسية
@@ -78,9 +74,3 @@ pres.save(dataDir + "ModifiedTablePresentation.pptx", SaveFormat.Pptx);
 نعم، يتم استخدام Aspose.Slides على نطاق واسع في بيئات المؤسسات لأتمتة مهام PowerPoint نظرًا لميزاته وأدائه القوي.
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

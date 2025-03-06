@@ -3,14 +3,10 @@ title: Zarządzaj wykresami właściwości w slajdach Java
 linktitle: Zarządzaj wykresami właściwości w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się tworzyć wspaniałe wykresy i zarządzać właściwościami slajdów Java za pomocą Aspose.Slides. Przewodnik krok po kroku z kodem źródłowym umożliwiającym tworzenie potężnych prezentacji.
+type: docs
 weight: 13
 url: /pl/java/data-manipulation/manage-properties-charts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do zarządzania właściwościami i wykresami w slajdach Java przy użyciu Aspose.Slides
 
@@ -202,9 +198,3 @@ Tak, możesz dostosować kolory wykresu, ustawiając właściwości wypełnienia
 ### Jakie inne właściwości 3D mogę dostosować?
 
 Możesz poznać inne właściwości 3D wykresu, takie jak głębokość, perspektywa i oświetlenie, odwołując się do dokumentacji Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Establecer anclaje de marco de texto en PowerPoint con Java
 linktitle: Establecer anclaje de marco de texto en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar anclajes de marcos de texto en PowerPoint usando Java con Aspose.Slides. Mejora tus presentaciones.
+type: docs
 weight: 13
 url: /es/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En este tutorial, aprenderá cómo establecer el ancla de un marco de texto en presentaciones de PowerPoint usando Java con la ayuda de Aspose.Slides. Anclar marcos de texto le permite controlar con precisión la posición y el comportamiento del texto dentro de una forma, lo que garantiza que sus diapositivas sean visualmente atractivas y estén estructuradas de manera efectiva.
 ## Requisitos previos
@@ -75,9 +71,3 @@ Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrollad
  Sí, puedes descargar una prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puedes visitar el foro de soporte.[aquí](https://forum.aspose.com/c/slides/11) para cualquier consulta o ayuda.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

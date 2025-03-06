@@ -3,14 +3,10 @@ title: Klonovat snímek z jiné prezentace do zadané pozice
 linktitle: Klonovat snímek z jiné prezentace do zadané pozice
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se klonovat snímky z různých prezentací do určené pozice pomocí Aspose.Slides for .NET. Podrobný průvodce s kompletním zdrojovým kódem, který zahrnuje klonování snímků, specifikaci pozice a ukládání prezentace.
+type: docs
 weight: 16
 url: /cs/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do klonování diapozitivů z jiné prezentace do zadané pozice
 
@@ -141,9 +137,3 @@ Rozhodně můžete upravit obsah, formátování a vlastnosti klonovaného sním
 ### Kde najdu další informace o Aspose.Slides pro .NET?
 
  Můžete odkazovat na[dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace, příklady a odkazy na API související s Aspose.Slides pro .NET.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

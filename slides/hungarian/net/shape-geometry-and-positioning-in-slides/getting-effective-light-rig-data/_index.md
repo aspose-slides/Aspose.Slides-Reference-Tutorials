@@ -3,14 +3,10 @@ title: Hatékony fénytechnikai adatok elsajátítása az Aspose.Slides segíts�
 linktitle: Hatékony fénytechnikai adatok beszerzése a bemutató diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa bemutató diákjait az Aspose.Slides for .NET segítségével! Ismerje meg, hogyan kérheti le lépésről lépésre a hatékony világítási berendezés adatait. Emelje fel vizuális történetmesélését most!
+type: docs
 weight: 19
 url: /hu/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Napjaink digitális korszakában általános követelmény a dinamikus és tetszetős prezentációs diák létrehozása. Az egyik lényeges szempont a fényberendezés tulajdonságainak manipulálása az általános esztétika javítása érdekében. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET segítségével a prezentációs diákon lévő hatékony fényberendezés-adatok megszerzésének folyamatán.
 ## Előfeltételek
@@ -68,9 +64,3 @@ Az Aspose.Slides elsősorban a .NET nyelveket támogatja, mint például a C#. J
  Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/slides/11).
 ### Vásárolhatok ideiglenes licencet az Aspose.Slides for .NET számára?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

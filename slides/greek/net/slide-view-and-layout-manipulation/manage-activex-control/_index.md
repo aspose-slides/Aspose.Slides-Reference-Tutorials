@@ -3,14 +3,10 @@ title: Διαχείριση ActiveX Control στο PowerPoint
 linktitle: Διαχείριση ActiveX Control στο PowerPoint
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώνετε τις παρουσιάσεις PowerPoint με στοιχεία ελέγχου ActiveX χρησιμοποιώντας το Aspose.Slides για .NET. Ο βήμα προς βήμα οδηγός μας καλύπτει την εισαγωγή, τη χειραγώγηση, την προσαρμογή, τον χειρισμό συμβάντων και πολλά άλλα.
+type: docs
 weight: 13
 url: /el/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Τα στοιχεία ελέγχου ActiveX είναι ισχυρά στοιχεία που μπορούν να βελτιώσουν τη λειτουργικότητα και τη διαδραστικότητα των παρουσιάσεων του PowerPoint. Αυτά τα στοιχεία ελέγχου σάς επιτρέπουν να ενσωματώνετε και να χειρίζεστε αντικείμενα όπως προγράμματα αναπαραγωγής πολυμέσων, φόρμες εισαγωγής δεδομένων και πιο άμεσα μέσα στις διαφάνειές σας. Σε αυτό το άρθρο, θα εξερευνήσουμε τον τρόπο διαχείρισης των στοιχείων ελέγχου ActiveX στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET, μια ευέλικτη βιβλιοθήκη που επιτρέπει την απρόσκοπτη ενσωμάτωση και χειρισμό αρχείων PowerPoint στις εφαρμογές σας .NET.
 
 ## Προσθήκη στοιχείων ελέγχου ActiveX στις διαφάνειες του PowerPoint
@@ -153,9 +149,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ### Μπορώ να αφαιρέσω ένα στοιχείο ελέγχου ActiveX από μια διαφάνεια;
 
  Ναι, μπορείτε να αφαιρέσετε ένα στοιχείο ελέγχου ActiveX από μια διαφάνεια χρησιμοποιώντας το`Remove` μέθοδος του`Shapes` συλλογή. Περάστε την αναφορά στο`IOleObjectFrame` που αναπαριστά το στοιχείο ελέγχου ως επιχείρημα για το`Remove` μέθοδο και το στοιχείο ελέγχου θα αφαιρεθεί από τη διαφάνεια.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

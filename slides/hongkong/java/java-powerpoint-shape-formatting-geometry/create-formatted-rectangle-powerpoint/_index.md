@@ -3,14 +3,10 @@ title: 在 PowerPoint 中建立格式化矩形
 linktitle: 在 PowerPoint 中建立格式化矩形
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過此逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立矩形並設定其格式。
+type: docs
 weight: 18
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將引導您完成使用 Aspose.Slides for Java 在 PowerPoint 投影片中建立格式化矩形的過程。我們將分解每個步驟，確保您可以遵循並在您自己的專案中實施它。
 ## 先決條件
@@ -95,9 +91,3 @@ Aspose.Slides for Java 是一個函式庫，可讓開發人員以程式設計方
 是的，處置`Presentation`物件有助於釋放資源並避免記憶體洩漏。
 ### 在哪裡可以找到 Aspose.Slides for Java 的文檔？
 文件可用[這裡](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

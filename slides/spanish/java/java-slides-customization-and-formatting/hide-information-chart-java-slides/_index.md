@@ -3,14 +3,10 @@ title: Ocultar información del gráfico en diapositivas de Java
 linktitle: Ocultar información del gráfico en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a ocultar elementos de gráficos en Java Slides con Aspose.Slides para Java. Personalice presentaciones para mayor claridad y estética con guía paso a paso y código fuente.
+type: docs
 weight: 13
 url: /es/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a ocultar información del gráfico en diapositivas de Java
 
@@ -176,9 +172,3 @@ Sí, puede cambiar el tipo de gráfico dinámicamente creando un nuevo gráfico 
 ### ¿Cómo puedo cambiar el título del gráfico y las etiquetas de los ejes mediante programación?
 
 Puede configurar el título y las etiquetas del gráfico y los ejes accediendo a sus respectivas propiedades y configurando el texto y el formato deseados.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

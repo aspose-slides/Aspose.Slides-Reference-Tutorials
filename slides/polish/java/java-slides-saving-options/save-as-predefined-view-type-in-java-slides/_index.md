@@ -3,14 +3,10 @@ title: Zapisz jako predefiniowany typ widoku w slajdach Java
 linktitle: Zapisz jako predefiniowany typ widoku w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić predefiniowane typy widoków w Java Slides za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami.
+type: docs
 weight: 10
 url: /pl/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do zapisywania jako predefiniowanego typu widoku w slajdach Java
 
@@ -113,9 +109,3 @@ Tak, Aspose.Slides for Java dobrze nadaje się do zadań przetwarzania wsadowego
 ### Gdzie mogę znaleźć więcej informacji i dokumentacji dla Aspose.Slides dla Java?
 
  Aby uzyskać obszerną dokumentację i odniesienia związane z Aspose.Slides for Java, odwiedź witrynę z dokumentacją:[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Hur man extraherar video från bild med Aspose.Slides för .NET
 linktitle: Extrahera video från Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du extraherar videor från PowerPoint-bilder med Aspose.Slides för .NET. Denna steg-för-steg-guide förenklar processen för dig.
+type: docs
 weight: 14
 url: /sv/net/audio-and-video-extraction/extract-video/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer i en .NET-miljö. En av de användbara funktionerna är möjligheten att extrahera videor från bilder. I den här steg-för-steg-guiden kommer vi att visa dig hur du extraherar en video från en PowerPoint-bild med Aspose.Slides för .NET.
 
@@ -114,9 +110,3 @@ Aspose.Slides för .NET är ett bibliotek som gör det möjligt för .NET-applik
 
 ### Var kan jag få support för Aspose.Slides för .NET?
  Du kan hitta support på[Aspose.Slides forum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

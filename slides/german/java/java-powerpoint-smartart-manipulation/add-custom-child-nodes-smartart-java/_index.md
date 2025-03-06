@@ -3,14 +3,10 @@ title: Hinzufügen benutzerdefinierter untergeordneter Knoten in SmartArt mit Ja
 linktitle: Hinzufügen benutzerdefinierter untergeordneter Knoten in SmartArt mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Java und Aspose.Slides benutzerdefinierte untergeordnete Knoten zu SmartArt in PowerPoint-Präsentationen hinzufügen. Verbessern Sie Ihre Folien mühelos mit professionellen Grafiken.
+type: docs
 weight: 11
 url: /de/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 SmartArt ist eine leistungsstarke Funktion in PowerPoint, mit der Benutzer schnell und einfach professionell aussehende Grafiken erstellen können. In diesem Tutorial erfahren Sie, wie Sie mit Java und Aspose.Slides benutzerdefinierte untergeordnete Knoten zu SmartArt hinzufügen.
 ## Voraussetzungen
@@ -83,9 +79,3 @@ Auf jeden Fall! Mit Aspose.Slides für Java können Sie das Aussehen, die Größ
 Ja, Sie finden umfassende Dokumentationen und Zugriff auf Community-Supportforen auf der Aspose-Website.
 ### Gibt es eine Testversion von Aspose.Slides für Java?
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides für Java von der Website herunterladen, um die Funktionen und Möglichkeiten zu erkunden, bevor Sie einen Kauf tätigen.[Hier](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

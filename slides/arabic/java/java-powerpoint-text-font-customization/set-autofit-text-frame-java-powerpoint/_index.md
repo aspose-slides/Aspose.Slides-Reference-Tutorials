@@ -3,14 +3,10 @@ title: ضبط الاحتواء التلقائي لإطار النص في Java Po
 linktitle: ضبط الاحتواء التلقائي لإطار النص في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ضبط الاحتواء التلقائي لإطارات النص في Java PowerPoint باستخدام Aspose.Slides لـ Java. قم بإنشاء عروض تقديمية ديناميكية دون عناء.
+type: docs
 weight: 14
 url: /ar/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في تطوير تطبيقات Java، يعد إنشاء عروض PowerPoint التقديمية الديناميكية والجذابة بصريًا برمجيًا مطلبًا شائعًا. يوفر Aspose.Slides for Java مجموعة قوية من واجهات برمجة التطبيقات لتحقيق ذلك دون عناء. إحدى الميزات الأساسية هي ضبط الاحتواء التلقائي لإطارات النص، مما يضمن ضبط النص بدقة داخل الأشكال دون تعديلات يدوية. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مع الاستفادة من Aspose.Slides لـ Java لأتمتة ملاءمة النص في شرائح PowerPoint.
 ## المتطلبات الأساسية
@@ -90,9 +86,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات Java
  يمكنك العثور على وثائق مفصلة عن Aspose.Slides لـ Java[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم المجتمعي والمهني لـ Aspose.Slides for Java من[هنا](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

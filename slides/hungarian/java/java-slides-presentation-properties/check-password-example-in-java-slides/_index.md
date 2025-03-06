@@ -3,14 +3,10 @@ title: Jelszópélda ellenőrzése a Java Slides-ben
 linktitle: Jelszópélda ellenőrzése a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan ellenőrizheti a jelszavakat a Java Slides programban az Aspose.Slides for Java segítségével. Növelje a prezentáció biztonságát lépésről lépésre szóló útmutatásokkal.
+type: docs
 weight: 14
 url: /hu/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a jelszó ellenőrzésére példa a Java Slides programban
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Hol találok további dokumentációt az Aspose.Slides for Java-hoz?
 
  Az Aspose.Slides for Java átfogó dokumentációja az Aspose webhelyén található[itt](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Vygenerujte miniaturu z Slide in Notes
 linktitle: Vygenerujte miniaturu z Slide in Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se generovat miniatury ze snímků v sekci poznámek vaší prezentace pomocí Aspose.Slides for .NET. Vylepšete svůj vizuální obsah!
+type: docs
 weight: 12
 url: /cs/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ve světě moderních prezentací je vizuální obsah králem. Vytváření atraktivních diapozitivů je nezbytné pro efektivní komunikaci. Jedním ze způsobů, jak vylepšit své prezentace, je generování miniatur ze snímků, zvláště když chcete zdůraznit konkrétní detaily nebo sdílet přehled. Aspose.Slides for .NET je výkonný nástroj, který vám toho může pomoci bez problémů dosáhnout. V tomto podrobném průvodci vás provedeme procesem generování miniatur ze snímků v sekci poznámek prezentace pomocí Aspose.Slides for .NET.
 
@@ -118,9 +114,3 @@ Absolutně! Aspose.Slides for .NET poskytuje možnosti pro přizpůsobení vzhle
 
 ### Kde mohu získat podporu nebo další pomoc s Aspose.Slides pro .NET?
  Můžete najít pomoc a zapojit se do komunity Aspose na adrese[Aspose Support Forum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

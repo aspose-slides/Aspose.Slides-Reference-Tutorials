@@ -3,14 +3,10 @@ title: Voeg opmerkingen toe aan dia
 linktitle: Voeg opmerkingen toe aan dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Voeg diepte en interactie toe aan uw presentaties met de Aspose.Slides API. Leer hoe u eenvoudig opmerkingen in uw dia's kunt integreren met behulp van .NET. Vergroot de betrokkenheid en fascineer uw publiek.
+type: docs
 weight: 13
 url: /nl/net/slide-comments-manipulation/add-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van presentatiebeheer kan de mogelijkheid om opmerkingen aan dia's toe te voegen een gamechanger zijn. Opmerkingen verbeteren niet alleen de samenwerking, maar helpen ook bij het begrijpen en herzien van dia-inhoud. Met Aspose.Slides voor .NET, een krachtige en veelzijdige bibliotheek, kunt u moeiteloos opmerkingen in uw presentatiedia's opnemen. In deze stapsgewijze handleiding begeleiden we u bij het toevoegen van opmerkingen aan een dia met Aspose.Slides voor .NET. Of je nu een doorgewinterde ontwikkelaar bent of een nieuwkomer in de wereld van .NET-ontwikkeling, deze tutorial biedt alle inzichten die je nodig hebt.
 
@@ -108,9 +104,3 @@ Om Aspose.Slides voor .NET in uw .NET-applicatie te integreren, kunt u de docume
 ### 5. Kan ik Aspose.Slides voor .NET uitproberen voordat ik het aanschaf?
 
 Ja, u kunt Aspose.Slides voor .NET verkennen met behulp van een gratis proefperiode. Bezoek de[Aspose.Slides gratis proefpagina](https://releases.aspose.com/) starten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

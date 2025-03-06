@@ -3,14 +3,10 @@ title: 프리젠테이션을 위한 사용자 정의 PDF 변환 옵션
 linktitle: 프리젠테이션을 위한 사용자 정의 PDF 변환 옵션
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션의 PDF 변환 옵션을 향상하세요. 이 단계별 가이드에서는 사용자 정의 PDF 변환 설정을 달성하여 출력을 정밀하게 제어하는 방법을 다룹니다. 지금 프레젠테이션 전환을 최적화하세요.
+type: docs
 weight: 12
 url: /ko/net/presentation-manipulation/custom-pdf-conversion-options-for-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 문서 관리 및 조작 분야에서 Aspose.Slides for .NET은 프레젠테이션 작업을 위한 강력한 도구로 돋보입니다. 높은 수준의 사용자 정의 기능을 통해 프레젠테이션을 PDF를 포함한 다양한 형식으로 변환할 수 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 사용자 정의 PDF 변환을 수행하는 방법을 살펴보겠습니다. 이제 코딩 장비를 챙겨서 시작해 보세요!
 
@@ -98,9 +94,3 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
  기술 또는 사용 관련 질문이 있는 경우 Aspose 커뮤니티 포럼을 방문하여 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/).
 
 이제 사용자 정의 PDF 변환을 수행할 수 있는 지식을 얻었으므로 .NET용 Aspose.Slides를 사용하여 문서 관리의 새로운 가능성을 열어보세요! 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

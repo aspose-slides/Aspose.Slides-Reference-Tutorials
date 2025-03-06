@@ -3,14 +3,10 @@ title: Cloner une diapositive à une position spécifiée dans PowerPoint
 linktitle: Cloner une diapositive à une position spécifiée dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Clonez facilement des diapositives PowerPoint à des positions spécifiées avec Aspose.Slides pour Java. Guide détaillé étape par étape pour les débutants et les experts.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Êtes-vous prêt à intensifier votre jeu PowerPoint ? Que vous soyez un développeur expérimenté ou un débutant essayant d'automatiser les manipulations de diapositives, vous êtes au bon endroit. Dans ce didacticiel, nous vous guiderons tout au long du processus de clonage de diapositives à une position spécifiée dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Attachez votre ceinture et plongeons ensemble dans ce voyage !
 ## Conditions préalables
@@ -84,9 +80,3 @@ Absolument! Aspose.Slides prend en charge divers formats, notamment PPTX, PPT, e
 Aspose.Slides offre des fonctionnalités robustes, une documentation complète et un excellent support, ce qui en fait un choix privilégié pour les manipulations PowerPoint.
 ### Où puis-je trouver plus de didacticiels sur Aspose.Slides ?
  Vérifiez[Documentation](https://reference.aspose.com/slides/java/) pour des tutoriels et des exemples complets.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

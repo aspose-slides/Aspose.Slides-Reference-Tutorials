@@ -3,14 +3,10 @@ title: Změňte pořadí tvarů v PowerPointu
 linktitle: Změňte pořadí tvarů v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: V tomto podrobném návodu se dozvíte, jak změnit pořadí tvarů v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentační dovednosti bez námahy.
+type: docs
 weight: 15
 url: /cs/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých a dobře strukturovaných prezentací může být náročný úkol. Se správnými nástroji a technikami si to však můžete výrazně usnadnit. Aspose.Slides for Java je výkonná knihovna, která vám pomůže programově manipulovat a spravovat prezentace PowerPoint. V tomto tutoriálu vás provedeme kroky ke změně pořadí tvarů na snímku aplikace PowerPoint pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -77,9 +73,3 @@ Ano, Aspose.Slides for Java podporuje formáty PPT, PPTX a další PowerPoint.
  Můžete si stáhnout bezplatnou zkušební verzi z[Aspose.Slides for Java download page](https://releases.aspose.com/).
 ### Kde najdu další dokumentaci k Aspose.Slides for Java?
  Podrobnou dokumentaci najdete na[Dokumentační stránka Aspose.Slides pro Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

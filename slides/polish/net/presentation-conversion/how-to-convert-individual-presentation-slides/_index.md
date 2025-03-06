@@ -3,14 +3,10 @@ title: Jak konwertować indywidualne slajdy prezentacji
 linktitle: Jak konwertować indywidualne slajdy prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak bez wysiłku konwertować poszczególne slajdy prezentacji za pomocą Aspose.Slides dla .NET. Programowo twórz, manipuluj i zapisuj slajdy.
+type: docs
 weight: 12
 url: /pl/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie Aspose.Slides dla .NET
 
@@ -145,9 +141,3 @@ Absolutnie! Aspose.Slides dla .NET obsługuje konwersję do różnych formatów,
 ### Czy mogę dostosować układy slajdów za pomocą Aspose.Slides?
 
 Tak, możesz dostosowywać układy slajdów, dodawać kształty, obrazy i stosować animacje za pomocą Aspose.Slides dla .NET, co daje Ci pełną kontrolę nad prezentacjami.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Konwertuj obiekt obrazu SVG na grupę kształtów w slajdach Java
 linktitle: Konwertuj obiekt obrazu SVG na grupę kształtów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować obrazy SVG na grupę kształtów w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu.
+type: docs
 weight: 13
 url: /pl/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwertowania obiektu obrazu SVG na grupę kształtów w slajdach Java
 
@@ -133,9 +129,3 @@ Tak, Aspose.Slides wymaga ważnej licencji do użytku komercyjnego. Licencję mo
 ### Czy mogę dostosować wygląd przekonwertowanych kształtów?
 
 Z pewnością! Możesz dostosować wygląd, rozmiar i położenie przekonwertowanych kształtów zgodnie ze swoimi wymaganiami. Aspose.Slides zapewnia rozbudowane interfejsy API do manipulacji kształtami.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Přidat segment do geometrického tvaru v PowerPointu
 linktitle: Přidat segment do geometrického tvaru v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat segmenty do geometrických tvarů v prezentacích PowerPoint pomocí Aspose.Slides for Java s tímto podrobným průvodcem krok za krokem.
+type: docs
 weight: 19
 url: /cs/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření poutavých a dynamických prezentací může být problém, zvláště když chcete přidat vlastní tvary a návrhy. Zde se hodí Aspose.Slides for Java. Toto výkonné rozhraní API vám umožňuje programově manipulovat se soubory PowerPoint, což vám dává flexibilitu pro snadné přidávání složitých geometrických tvarů a segmentů. V tomto tutoriálu vás provedeme přidáním segmentů do geometrických tvarů v prezentaci aplikace PowerPoint pomocí Aspose.Slides for Java. Ať už jste vývojář, který chce automatizovat tvorbu prezentací, nebo jen někdo, kdo se rád ponoří do kódování, tato příručka bude vaším komplexním zdrojem.
 ## Předpoklady
@@ -82,9 +78,3 @@ Ne, Aspose.Slides for Java je speciálně navržen pro použití s Java. Aspose 
 Můžete přidat různé tvary včetně obdélníků, elips, čar a vlastních geometrických tvarů.
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
  Můžete získat podporu od[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) kde můžete klást otázky a získat pomoc od komunity a vývojářů.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

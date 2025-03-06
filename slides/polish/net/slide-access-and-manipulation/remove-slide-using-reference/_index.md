@@ -3,14 +3,10 @@ title: Usuń slajd poprzez odniesienie
 linktitle: Usuń slajd poprzez odniesienie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak usuwać slajdy z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET, potężnej biblioteki dla programistów .NET.
+type: docs
 weight: 25
 url: /pl/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Jako biegły autor SEO, jestem tutaj, aby zapewnić Ci kompleksowy przewodnik na temat używania Aspose.Slides dla .NET do usuwania slajdów z prezentacji PowerPoint. W tym samouczku krok po kroku podzielimy proces na łatwe do wykonania kroki, dzięki czemu możesz łatwo je śledzić. Więc zacznijmy!
 
@@ -105,9 +101,3 @@ Tak, możesz przeglądać slajdy w pętli i programowo usuwać wiele slajdów.
 
 ### Czy mogę cofnąć usunięcie slajdu za pomocą Aspose.Slides dla .NET?
 Usuniętego slajdu nie da się łatwo cofnąć. Przed wprowadzeniem takich zmian zaleca się wykonanie kopii zapasowych prezentacji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

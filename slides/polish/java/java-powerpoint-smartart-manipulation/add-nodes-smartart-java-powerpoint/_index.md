@@ -3,14 +3,10 @@ title: Dodaj węzły do grafiki SmartArt w programie Java PowerPoint
 linktitle: Dodaj węzły do grafiki SmartArt w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać węzły SmartArt do prezentacji Java PowerPoint przy użyciu Aspose.Slides for Java. Zwiększ atrakcyjność wizualną bez wysiłku.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 świecie prezentacji Java PowerPoint manipulowanie węzłami SmartArt może znacznie poprawić atrakcyjność wizualną i efektywność slajdów. Aspose.Slides for Java oferuje solidne rozwiązanie dla programistów Java, umożliwiające bezproblemową integrację funkcjonalności SmartArt z ich prezentacjami. W tym samouczku zagłębimy się w proces dodawania węzłów do SmartArt w prezentacjach Java PowerPoint przy użyciu Aspose.Slides.
 ## Warunki wstępne
@@ -75,9 +71,3 @@ Oczywiście możesz przeglądać slajdy i w razie potrzeby dodawać węzły Smar
 Tak, Aspose.Slides for Java oferuje kompleksowy zestaw funkcji do manipulacji programem PowerPoint, w tym tworzenie slajdów, animacje i zarządzanie kształtami.
 ### Gdzie mogę szukać pomocy lub wsparcia dla Aspose.Slides for Java?
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) uzyskać wsparcie społeczności lub przejrzyj dokumentację, aby uzyskać szczegółowe wskazówki.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

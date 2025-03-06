@@ -3,14 +3,10 @@ title: Zkontrolujte příklad hesla v Java Slides
 linktitle: Zkontrolujte příklad hesla v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak ověřovat hesla v Java Slides pomocí Aspose.Slides for Java. Vylepšete zabezpečení prezentace pomocí podrobného průvodce.
+type: docs
 weight: 14
 url: /cs/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do příkladu kontroly hesla v Java Slides
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Kde najdu další dokumentaci k Aspose.Slides pro Java?
 
  Kompletní dokumentaci k Aspose.Slides for Java můžete najít na webu Aspose[tady](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

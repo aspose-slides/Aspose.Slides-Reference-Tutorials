@@ -3,14 +3,10 @@ title: Określ czcionki używane w prezentacji w języku Java
 linktitle: Określ czcionki używane w prezentacji w języku Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak określić niestandardowe czcionki w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Bez wysiłku wzbogacaj swoje slajdy unikalną typografią.
+type: docs
 weight: 22
 url: /pl/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 dzisiejszej erze cyfrowej tworzenie atrakcyjnych wizualnie prezentacji ma kluczowe znaczenie dla skutecznej komunikacji zarówno w biznesie, jak i w środowisku akademickim. Aspose.Slides for Java zapewnia solidną platformę dla programistów Java do dynamicznego generowania i manipulowania prezentacjami programu PowerPoint. Ten samouczek poprowadzi Cię przez proces określania czcionek używanych w prezentacji przy użyciu Aspose.Slides dla Java. Na koniec będziesz wyposażony w wiedzę niezbędną do płynnej integracji niestandardowych czcionek z projektami programu PowerPoint, poprawiając ich atrakcyjność wizualną i zapewniając spójność marki.
 ## Warunki wstępne
@@ -75,9 +71,3 @@ Tak, możesz określić czcionki na różnych poziomach, w tym na poziomie slajd
 Aspose.Slides nie nakłada ścisłych ograniczeń na liczbę niestandardowych czcionek; należy jednak wziąć pod uwagę wpływ na wydajność.
 ### Czy mogę dynamicznie ładować czcionki w czasie wykonywania bez osadzania ich w mojej aplikacji?
 Tak, możesz ładować czcionki ze źródeł zewnętrznych lub pamięci, jak pokazano w tym samouczku.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

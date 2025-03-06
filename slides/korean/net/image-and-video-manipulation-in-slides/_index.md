@@ -3,14 +3,10 @@ title: 슬라이드의 이미지 및 비디오 조작
 linktitle: 슬라이드의 이미지 및 비디오 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 매력적인 이미지와 비디오로 슬라이드 프레젠테이션을 향상하세요. 시각적으로 매력적인 콘텐츠를 위해 슬라이드 내의 이미지와 비디오를 조작하는 방법을 단계별로 알아보세요.
+type: docs
 weight: 12
 url: /ko/net/image-and-video-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides의 이미지 및 비디오 조작 소개
 
@@ -57,9 +53,3 @@ Aspose.Slides for .NET을 사용하여 매혹적인 이중톤 효과로 프레�
 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 OLE 개체에서 포함된 파일 데이터를 추출하는 방법을 알아보세요. 내장된 데이터를 원활하게 검색하고 처리하려면 소스 코드가 포함된 이 단계별 가이드를 따르세요.
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 그라디언트로 도형 채우기](./filling-shapes-gradient/)
 Aspose.Slides for .NET을 사용하여 매혹적인 그라데이션으로 프레젠테이션 슬라이드를 향상시키는 방법을 알아보세요. 완전한 소스 코드가 포함된 이 단계별 가이드를 따라 선형에서 방사형까지 그라데이션으로 도형을 채우고 깊이와 차원을 추가하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

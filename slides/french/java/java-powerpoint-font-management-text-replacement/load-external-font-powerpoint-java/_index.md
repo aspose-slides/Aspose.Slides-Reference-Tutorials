@@ -3,14 +3,10 @@ title: Charger une police externe dans PowerPoint avec Java
 linktitle: Charger une police externe dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment charger des polices personnalisées dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos diapositives avec une typographie unique.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus de chargement d'une police externe dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Les polices personnalisées peuvent ajouter une touche unique à vos présentations, garantissant une image de marque ou des préférences stylistiques cohérentes sur différentes plates-formes.
 ## Conditions préalables
@@ -67,9 +63,3 @@ Oui, vous pouvez charger plusieurs polices externes en répétant le processus p
 Tant que le fichier de police est au format TrueType (.ttf) et dans des limites de taille raisonnables, vous devriez pouvoir le charger avec succès.
 ### Le chargement de polices externes affecte-t-il la compatibilité de la présentation avec les différentes versions de PowerPoint ?
 Non, la présentation reste compatible entre les différentes versions de PowerPoint tant que les polices sont intégrées ou chargées en externe.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

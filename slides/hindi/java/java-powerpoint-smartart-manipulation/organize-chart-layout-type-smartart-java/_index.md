@@ -3,14 +3,10 @@ title: जावा का उपयोग करके स्मार्टआ
 linktitle: जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार व्यवस्थित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकारों को व्यवस्थित करना सीखें, तथा प्रस्तुति दृश्यों को सहजता से बढ़ाएं।
+type: docs
 weight: 13
 url: /hi/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 इस ट्यूटोरियल में, हम जावा का उपयोग करके स्मार्टआर्ट में चार्ट लेआउट प्रकार को व्यवस्थित करने की प्रक्रिया से गुजरेंगे, विशेष रूप से Aspose.Slides लाइब्रेरी का लाभ उठाते हुए। प्रस्तुतियों में स्मार्टआर्ट आपके डेटा की दृश्य अपील और स्पष्टता को बहुत बढ़ा सकता है, जिससे इसके हेरफेर में महारत हासिल करना आवश्यक हो जाता है।
 ## आवश्यक शर्तें
@@ -59,9 +55,3 @@ presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx)
 हां, आप खरीदारी का निर्णय लेने से पहले इसकी सुविधाओं का पता लगाने के लिए Aspose.Slides के निःशुल्क परीक्षण संस्करण का उपयोग कर सकते हैं।
 ### मैं Aspose.Slides-संबंधित प्रश्नों के लिए सहायता कहां से प्राप्त कर सकता हूं?
  Aspose.Slides से संबंधित किसी भी सहायता या प्रश्न के लिए, आप सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

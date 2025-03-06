@@ -3,14 +3,10 @@ title: ใช้เอฟเฟกต์เงาด้านนอกใน Jav
 linktitle: ใช้เอฟเฟกต์เงาด้านนอกใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีใช้เอฟเฟกต์เงาภายนอกในงานนำเสนอ Java PowerPoint ได้อย่างง่ายดายโดยใช้ Aspose.Slides พร้อมคำแนะนำโดยละเอียดทีละขั้นตอนของเรา
+type: docs
 weight: 11
 url: /th/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 การสร้างงานนำเสนอที่น่าสนใจมักต้องเพิ่มเอฟเฟ็กต์ต่างๆ เพื่อเพิ่มความสวยงามให้กับสไลด์ของคุณ เอฟเฟกต์อย่างหนึ่งคือเงาด้านนอก ซึ่งสามารถทำให้องค์ประกอบของคุณโดดเด่นและเพิ่มความลึกให้กับเนื้อหาของคุณได้ ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการใช้เอฟเฟกต์เงาภายนอกกับรูปร่างในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -118,9 +114,3 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[เว็บไซต์กำหนด](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Slides ได้ที่ไหน
  คุณสามารถดูตัวอย่างเพิ่มเติมและเอกสารประกอบโดยละเอียดได้ที่[หน้าเอกสารประกอบของ Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

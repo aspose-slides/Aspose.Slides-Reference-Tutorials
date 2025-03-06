@@ -3,14 +3,10 @@ title: Wbudowana kompresja czcionek w programie Java PowerPoint
 linktitle: Wbudowana kompresja czcionek w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak kompresować osadzone czcionki w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Bez wysiłku optymalizuj rozmiary plików.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dynamicznym środowisku prezentacji cyfrowych możliwość optymalizacji rozmiarów plików bez utraty jakości jest najważniejsza. Aspose.Slides for Java oferuje potężne rozwiązanie zwiększające wydajność prezentacji PowerPoint poprzez umożliwienie kompresji osadzonych czcionek. Ten samouczek poprowadzi Cię przez proces wykorzystania tej funkcji do skutecznego zmniejszania rozmiaru plików, zapewniając płynniejszą dystrybucję i lepszą wydajność prezentacji.
 ## Warunki wstępne
@@ -68,9 +64,3 @@ Tak, Aspose.Slides oferuje funkcje szyfrowania i ochrony hasłem, aby chronić T
  Z pewnością! Możesz zwrócić się o wsparcie do społeczności Aspose.Slides za pośrednictwem dedykowanego[forum](https://forum.aspose.com/c/slides/11) lub rozważ uzyskanie tymczasowej licencji na pomoc priorytetową.
 ### Jak mogę kupić licencjonowaną wersję Aspose.Slides dla Java?
 Licencjonowaną wersję Aspose.Slides for Java można kupić na stronie internetowej, korzystając z dostarczonego oprogramowania[Kup Link](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

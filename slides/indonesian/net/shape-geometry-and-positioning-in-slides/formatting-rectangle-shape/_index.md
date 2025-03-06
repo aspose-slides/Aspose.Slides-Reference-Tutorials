@@ -3,14 +3,10 @@ title: Sempurnakan Presentasi - Format Bentuk Persegi Panjang dengan Aspose.Slid
 linktitle: Memformat Bentuk Persegi Panjang di Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara memformat bentuk persegi panjang dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Tinggikan slide Anda dengan elemen visual dinamis.
+type: docs
 weight: 12
 url: /id/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Aspose.Slides for .NET adalah perpustakaan canggih yang memfasilitasi bekerja dengan presentasi PowerPoint di lingkungan .NET. Jika Anda ingin menyempurnakan presentasi Anda dengan memformat bentuk persegi panjang secara dinamis, tutorial ini cocok untuk Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pemformatan bentuk persegi panjang dalam presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -80,9 +76,3 @@ Ya, Aspose.Slides mendukung bahasa .NET lainnya seperti VB.NET dan F# selain C#.
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Q5: Di mana saya dapat membeli Aspose.Slides untuk .NET?
  Anda dapat membeli Aspose.Slides untuk .NET[Di Sini](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

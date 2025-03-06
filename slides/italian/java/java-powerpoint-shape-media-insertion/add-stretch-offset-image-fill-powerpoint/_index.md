@@ -3,14 +3,10 @@ title: Aggiungi offset di stiramento per riempimento immagine in PowerPoint
 linktitle: Aggiungi offset di stiramento per riempimento immagine in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere un offset stirato per il riempimento delle immagini nelle presentazioni PowerPoint utilizzando Aspose.Slides per Java. Tutorial passo passo incluso.
+type: docs
 weight: 16
 url: /it/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 In questo tutorial imparerai come utilizzare Aspose.Slides per Java per aggiungere un offset di allungamento per il riempimento delle immagini nelle presentazioni di PowerPoint. Questa funzione ti consente di manipolare le immagini all'interno delle tue diapositive, offrendoti un maggiore controllo sul loro aspetto.
 ## Prerequisiti
@@ -68,9 +64,3 @@ Aspose.Slides per Java può gestire immagini di varie dimensioni, ma si consigli
 Sì, puoi applicare un'ampia gamma di effetti e trasformazioni alle immagini utilizzando Aspose.Slides per l'ampia API di Java.
 ### Dove posso trovare ulteriori risorse e supporto per Aspose.Slides per Java?
  Puoi visitare il[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/) per guide dettagliate ed esplorare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il sostegno della comunità.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

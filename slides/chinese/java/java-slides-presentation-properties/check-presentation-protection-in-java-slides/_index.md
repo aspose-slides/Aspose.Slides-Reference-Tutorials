@@ -3,14 +3,10 @@ title: 检查 Java 幻灯片中的演示文稿保护
 linktitle: 检查 Java 幻灯片中的演示文稿保护
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 检查 Java 幻灯片中的演示文稿保护。本分步指南提供了写入和打开保护检查的代码示例。
+type: docs
 weight: 15
 url: /zh/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中检查演示文稿保护的简介
 
@@ -117,9 +113,3 @@ if (presentationInfo.isPasswordProtected())
 ### Aspose.Slides for Java 是否与最新的 PowerPoint 文件格式兼容？
 
 是的，Aspose.Slides for Java 支持最新的 PowerPoint 文件格式，包括 .pptx 文件。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

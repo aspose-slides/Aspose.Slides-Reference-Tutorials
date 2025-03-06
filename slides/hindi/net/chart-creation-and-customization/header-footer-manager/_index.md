@@ -3,14 +3,10 @@ title: स्लाइड्स में हेडर और फ़ुटर �
 linktitle: स्लाइड्स में हेडर और फ़ुटर प्रबंधित करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में गतिशील शीर्षलेख और पादलेख जोड़ना सीखें।
+type: docs
 weight: 14
 url: /hi/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # .NET के लिए Aspose.Slides में डायनामिक हेडर और फूटर बनाना
 
@@ -135,9 +131,3 @@ A2: हाँ, आप .NET के लिए Aspose.Slides का निःशु
 
 ### प्रश्न 5: क्या Aspose.Slides for .NET के लिए कोई समुदाय या सहायता मंच है?
  A5: हाँ, आप .NET के लिए Aspose.Slides सहायता फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

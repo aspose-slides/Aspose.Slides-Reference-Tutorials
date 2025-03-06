@@ -3,14 +3,10 @@ title: Access Slide by Unique Identifier
 linktitle: Access Slide by Unique Identifier
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access PowerPoint slides by unique identifiers using Aspose.Slides for .NET. This step-by-step guide covers loading presentations, accessing slides by index or ID, modifying content, and saving changes.
+type: docs
 weight: 11
 url: /net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -116,10 +112,3 @@ Absolutely. Whether you're working on a simple presentation with a few slides or
 ### Where can I find more detailed documentation and resources?
 
 You can find comprehensive documentation, code samples, tutorials, and more on Aspose.Slides for .NET in the [documentation](https://reference.aspose.com/slides/net/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

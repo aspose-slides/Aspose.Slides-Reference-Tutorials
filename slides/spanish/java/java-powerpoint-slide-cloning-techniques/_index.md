@@ -3,14 +3,10 @@ title: Técnicas de clonación de diapositivas de PowerPoint en Java
 linktitle: Técnicas de clonación de diapositivas de PowerPoint en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Clonación maestra de diapositivas en PowerPoint usando Aspose.Slides para Java. Aprenda a clonar diapositivas dentro de la misma presentación o entre presentaciones sin problemas.
+type: docs
 weight: 27
 url: /es/java/java-powerpoint-slide-cloning-techniques/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ##  Introducción
 
 Clonar diapositivas en presentaciones de PowerPoint puede ahorrarle mucho tiempo y optimizar su flujo de trabajo. Con Aspose.Slides para Java, puede clonar fácilmente diapositivas dentro de la misma presentación o en diferentes presentaciones. Ya sea principiante o experto, estos tutoriales paso a paso lo guiarán a través del proceso, lo que le permitirá mejorar sus presentaciones sin esfuerzo.
@@ -53,9 +49,3 @@ Aprenda a clonar diapositivas entre presentaciones en Java usando Aspose.Slides.
 Clona diapositivas dentro de la misma presentación usando Aspose.Slides para Java con nuestra guía. Perfecto para desarrolladores que buscan optimizar las manipulaciones de PowerPoint.
 ### [Clonar diapositiva para finalizar dentro de la misma presentación](./clone-slide-end-within-same-presentation-powerpoint/)
 Aprenda cómo clonar una diapositiva hasta el final de una presentación usando Aspose.Slides para Java con esta guía paso a paso. Perfecto para desarrolladores de Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

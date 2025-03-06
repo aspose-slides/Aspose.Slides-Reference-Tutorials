@@ -3,14 +3,10 @@ title: Chỉ mục điểm dữ liệu biểu đồ trong Java Slides
 linktitle: Chỉ mục điểm dữ liệu biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác các chỉ mục điểm dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides cho Java. Trích xuất và làm việc với dữ liệu từ biểu đồ PowerPoint một cách dễ dàng.
+type: docs
 weight: 12
 url: /vi/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Chỉ mục điểm dữ liệu biểu đồ trong Java Slides
 
@@ -102,9 +98,3 @@ Bạn có thể xuất bản trình bày PowerPoint có biểu đồ sang các �
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy các ví dụ và tài liệu toàn diện về Aspose.Slides for Java trên trang web tài liệu Aspose[đây](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 在 PowerPoint 中以純色填滿形狀
 linktitle: 在 PowerPoint 中以純色填滿形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中以純色填滿形狀。開發人員的分步指南。
+type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 如果您曾經使用過 PowerPoint 簡報，您就會知道添加形狀和自訂其顏色可能是使幻燈片具有視覺吸引力和資訊豐富性的關鍵方面。使用 Aspose.Slides for Java，這個過程變得輕而易舉。無論您是希望自動建立 PowerPoint 簡報的開發人員，還是有興趣為投影片添加色彩的人，本教學都將引導您完成使用 Aspose.Slides for Java 用純色填滿形狀的過程。
 ## 先決條件
@@ -89,9 +85,3 @@ Aspose.Slides for Java 是一個功能強大的函式庫，用於在 Java 中處
 是的，您可以從以下位置下載免費試用版：[阿斯普斯網站](https://releases.aspose.com/).
 ### 在哪裡可以找到更多文件和支援？
 詳細文件可在[阿斯普斯網站](https://reference.aspose.com/slides/java/)，並且您可以尋求支持[Aspose 論壇](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

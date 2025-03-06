@@ -3,14 +3,10 @@ title: Mencetak Presentasi dengan Printer Default di Aspose.Slides
 linktitle: Mencetak Presentasi dengan Printer Default di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buka kunci pencetakan PowerPoint yang lancar di .NET dengan Aspose.Slides. Ikuti panduan langkah demi langkah kami untuk integrasi yang mudah. Tingkatkan fungsionalitas aplikasi Anda sekarang!
+type: docs
 weight: 10
 url: /id/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Di bidang pengembangan .NET, Aspose.Slides menonjol sebagai alat yang ampuh untuk membuat, memanipulasi, dan merender presentasi PowerPoint. Di antara beragam fiturnya, kemampuan untuk mencetak presentasi langsung ke printer default adalah fungsi praktis yang sering dicari oleh pengembang. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, sehingga dapat diakses bahkan jika Anda relatif baru mengenal Aspose.Slides.
 ## Prasyarat
@@ -55,9 +51,3 @@ Tentu saja, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibili
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### Bagaimana saya bisa mencari bantuan atau terhubung dengan komunitas Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mengajukan pertanyaan, berbagi wawasan, dan terhubung dengan sesama pengembang.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

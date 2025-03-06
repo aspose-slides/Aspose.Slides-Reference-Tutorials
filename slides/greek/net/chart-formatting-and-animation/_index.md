@@ -3,14 +3,10 @@ title: Μορφοποίηση γραφημάτων και κινούμενα σ�
 linktitle: Μορφοποίηση γραφημάτων και κινούμενα σχέδια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας με δυναμικά γραφήματα χρησιμοποιώντας το Aspose.Slides για .NET. Μάθετε τη μορφοποίηση γραφημάτων και την κινούμενη εικόνα βήμα προς βήμα. Αυξήστε τις δεξιότητες παρουσίασής σας σήμερα!
+type: docs
 weight: 22
 url: /el/net/chart-formatting-and-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -39,9 +35,3 @@ url: /el/net/chart-formatting-and-animation/
 Μάθετε πώς να δημιουργείτε κινούμενες σειρές γραφημάτων χρησιμοποιώντας το Aspose.Slides για .NET. Δημιουργήστε δυναμικές παρουσιάσεις με ελκυστικές απεικονίσεις δεδομένων.
 ### [Στοιχεία σειράς κινουμένων σχεδίων στο γράφημα](./animating-series-elements/)
 Μάθετε να κάνετε κινούμενες σειρές γραφημάτων χρησιμοποιώντας το Aspose.Slides για .NET. Δημιουργήστε ελκυστικές παρουσιάσεις με δυναμικά γραφικά. Οδηγός εμπειρογνωμόνων με παραδείγματα κώδικα.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

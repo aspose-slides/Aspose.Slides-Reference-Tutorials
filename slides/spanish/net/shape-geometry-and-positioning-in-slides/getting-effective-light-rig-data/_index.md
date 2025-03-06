@@ -3,14 +3,10 @@ title: Dominar los datos efectivos de plataformas de iluminación con Aspose.Sli
 linktitle: Obtención de datos efectivos sobre plataformas de iluminación en diapositivas de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejore las diapositivas de su presentación con Aspose.Slides para .NET! Aprenda cómo recuperar datos efectivos de plataformas ligeras paso a paso. ¡Mejora tu narración visual ahora!
+type: docs
 weight: 19
 url: /es/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Crear diapositivas de presentación dinámicas y visualmente atractivas es un requisito común en la era digital actual. Un aspecto esencial es manipular las propiedades de la plataforma de iluminación para mejorar la estética general. Este tutorial lo guiará a través del proceso de obtención de datos efectivos sobre plataformas de iluminación en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -68,9 +64,3 @@ Aspose.Slides admite principalmente lenguajes .NET como C#. Sin embargo, hay pro
  Visita el foro de soporte[aquí](https://forum.aspose.com/c/slides/11).
 ### ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

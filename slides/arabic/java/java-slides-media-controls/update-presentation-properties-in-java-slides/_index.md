@@ -3,14 +3,10 @@ title: تحديث خصائص العرض التقديمي في شرائح Java
 linktitle: تحديث خصائص العرض التقديمي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديث خصائص العرض التقديمي في شرائح Java باستخدام Aspose.Slides لـ Java. قم بتخصيص المؤلف والعنوان والمزيد للعروض التقديمية المؤثرة.
+type: docs
 weight: 13
 url: /ar/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتحديث خصائص العرض التقديمي في شرائح Java
 
@@ -116,9 +112,3 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ### كيف يمكنني الوصول إلى الوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك الوصول إلى وثائق Aspose.Slides for Java عن طريق زيارة الرابط التالي:[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

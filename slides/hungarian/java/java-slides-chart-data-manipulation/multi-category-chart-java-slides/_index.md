@@ -3,14 +3,10 @@ title: Több kategóriás diagram a Java Slides-ben
 linktitle: Több kategóriás diagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hozzon létre többkategóriás diagramokat a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a lenyűgöző adatok megjelenítéséhez prezentációkban.
+type: docs
 weight: 20
 url: /hu/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Java Slides többkategóriás diagramjába az Aspose.Slides segítségével
 
@@ -161,9 +157,3 @@ Igen, további sorozatokat is hozzáadhat a diagramhoz az 5. lépésben bemutato
 ### Hogyan adhatok címet a diagramhoz?
 
  Címet adhat a diagramhoz a gombbal`ch.getChartTitle().getTextFrame().setText("Chart Title");` módszer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

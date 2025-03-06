@@ -3,14 +3,10 @@ title: Přidejte ohraničení buněk do tabulky v Java PowerPointu
 linktitle: Přidejte ohraničení buněk do tabulky v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat ohraničení buněk do tabulek v prezentacích Java PowerPoint pomocí Aspose.Slides. Tento podrobný průvodce usnadňuje vylepšení vašich snímků.
+type: docs
 weight: 10
 url: /cs/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Nazdárek! Takže chcete přidat ohraničení buněk do tabulky v prezentaci PowerPoint pomocí Javy, co? Tak to jste na správném místě! Tento tutoriál vás provede procesem krok za krokem pomocí knihovny Aspose.Slides for Java. Na konci této příručky budete mít dobrý přehled o tom, jak manipulovat s tabulkami ve snímcích PowerPoint jako profesionál. Pojďme se ponořit do toho, aby vaše prezentace vypadaly elegantně a profesionálně!
 ## Předpoklady
@@ -100,9 +96,3 @@ Absolutně! Obrázky můžete vkládat do buněk tabulky pomocí Aspose.Slides.
 Ano, proces můžete automatizovat procházením snímků a aplikací logiky vytváření tabulky na každý snímek.
 ### Jaké formáty souborů Aspose.Slides podporuje?
 Aspose.Slides podporuje různé formáty včetně PPT, PPTX, PDF a dalších.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java를 사용하여 SmartArt에서 글머리 기호 채우기 형식 설
 linktitle: Java를 사용하여 SmartArt에서 글머리 기호 채우기 형식 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 SmartArt에서 글머리 기호 채우기 형식을 설정하는 방법을 알아보세요. 효율적인 프레젠테이션 조작을 위한 단계별 가이드입니다.
+type: docs
 weight: 18
 url: /ko/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java 프로그래밍 영역에서는 특히 SmartArt 요소를 다룰 때 프레젠테이션을 효율적으로 조작하는 것이 일반적인 요구 사항입니다. Aspose.Slides for Java는 프로그래밍 방식으로 프레젠테이션을 처리할 수 있는 다양한 기능을 제공하여 이러한 작업을 위한 강력한 도구로 등장합니다. 이 튜토리얼에서는 Aspose.Slides와 함께 Java를 사용하여 SmartArt에서 글머리 기호 채우기 형식을 설정하는 프로세스를 단계별로 살펴보겠습니다.
 ## 전제 조건
@@ -75,9 +71,3 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
  예, 무료 평가판을 통해 Aspose.Slides의 기능을 탐색할 수 있습니다. 간단히 다운로드하세요.[웹사이트](https://releases.aspose.com/slides/java/) 탐색을 시작하세요.
 ### Java용 Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  질문이나 도움이 필요하면 Aspose.Slides 포럼을 방문하세요.[이 링크](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

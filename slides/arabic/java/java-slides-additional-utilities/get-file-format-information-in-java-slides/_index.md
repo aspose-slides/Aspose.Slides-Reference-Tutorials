@@ -3,14 +3,10 @@ title: احصل على معلومات تنسيق الملف في شرائح Java
 linktitle: احصل على معلومات تنسيق الملف في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد معلومات تنسيق الملف في Java Slides باستخدام Aspose.Slides for Java API. تحديد تنسيقات العرض التقديمي باستخدام أمثلة التعليمات البرمجية.
+type: docs
 weight: 11
 url: /ar/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة للحصول على معلومات تنسيق الملف في شرائح Java
 
@@ -117,9 +113,3 @@ Aspose.Slides for Java هي مكتبة تجارية، ولكنها تقدم نس
 ### كيف يمكنني الاتصال بدعم Aspose للحصول على المساعدة؟
 
 يمكنك التواصل مع فريق دعم Aspose من خلال موقعه على الويب. إنهم يوفرون قنوات دعم مخصصة لمساعدتك في أي استفسارات أو مشكلات قد تواجهها أثناء استخدام منتجاتهم.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

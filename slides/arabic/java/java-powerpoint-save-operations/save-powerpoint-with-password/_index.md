@@ -3,14 +3,10 @@ title: حفظ PowerPoint بكلمة المرور
 linktitle: حفظ PowerPoint بكلمة المرور
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة الحماية بكلمة مرور إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تأمين الشرائح الخاصة بك بكل سهولة.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية حفظ عرض PowerPoint التقديمي بكلمة مرور باستخدام Aspose.Slides for Java. يمكن أن تؤدي إضافة كلمة مرور إلى العرض التقديمي الخاص بك إلى تعزيز أمانه، مما يضمن أن الأشخاص المصرح لهم فقط هم من يمكنهم الوصول إلى محتوياته.
 ## المتطلبات الأساسية
@@ -71,9 +67,3 @@ pres.save(dataDir + "SaveWithPassword_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من موقع Aspose[موقع إلكتروني](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Slides؟
 يمكنك زيارة منتدى Aspose.Slides للحصول على المساعدة الفنية من المجتمع وموظفي الدعم في Aspose.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

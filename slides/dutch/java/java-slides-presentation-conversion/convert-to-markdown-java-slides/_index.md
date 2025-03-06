@@ -3,14 +3,10 @@ title: Converteren naar prijsverlaging in Java-dia's
 linktitle: Converteren naar prijsverlaging in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Converteer PowerPoint-presentaties naar Markdown met Aspose.Slides voor Java. Volg deze stapsgewijze handleiding om uw dia's moeiteloos te transformeren.
+type: docs
 weight: 24
 url: /nl/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding Converteren naar prijsverlaging in Java-dia's
 
@@ -140,9 +136,3 @@ Ja, Aspose.Slides voor Java is ontworpen voor zowel kleinschalige als grootschal
 ### Waar kan ik meer documentatie en bronnen vinden?
 
  U kunt de Aspose.Slides voor Java-documentatie raadplegen op[Aspose.Slides voor Java API-referenties](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie en aanvullende voorbeelden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

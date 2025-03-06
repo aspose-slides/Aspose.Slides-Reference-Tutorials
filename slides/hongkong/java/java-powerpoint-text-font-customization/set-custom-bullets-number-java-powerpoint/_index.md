@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中設定自訂項目符號編號
 linktitle: 在 Java PowerPoint 中設定自訂項目符號編號
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java PowerPoint 中設定自訂項目符號編號，以程式方式增強簡報的清晰度和結構。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在當今的數位時代，創建動態演示對於有效交流想法和數據至關重要。 Aspose.Slides for Java 提供了一個強大的工具包，可以以程式設計方式操作 PowerPoint 簡報，並提供廣泛的功能來增強您的簡報建置流程。本文深入探討使用 Aspose.Slides 在 Java PowerPoint 簡報中設定自訂項目符號編號。無論您是經驗豐富的開發人員還是新手，本教學都將逐步引導您完成整個過程，確保您可以有效地利用此功能。
 ## 先決條件
@@ -86,9 +82,3 @@ Aspose.Slides支援從97-2003到最新版本的PowerPoint格式。
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 在哪裡可以購買 Aspose.Slides？
 您可以從以下位置購買 Aspose.Slides[這裡](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

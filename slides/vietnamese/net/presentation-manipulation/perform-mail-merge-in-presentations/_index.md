@@ -3,14 +3,10 @@ title: Thực hiện trộn thư trong bài thuyết trình
 linktitle: Thực hiện trộn thư trong bài thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách phối thư trong bản trình bày bằng Aspose.Slides cho .NET trong hướng dẫn từng bước này. Tạo các bài thuyết trình năng động, được cá nhân hóa một cách dễ dàng.
+type: docs
 weight: 21
 url: /vi/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thế giới phát triển .NET, việc tạo các bản trình bày năng động và được cá nhân hóa là một yêu cầu chung. Một công cụ mạnh mẽ giúp đơn giản hóa quá trình này là Aspose.Slides for .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào lĩnh vực thực hiện trộn thư hấp dẫn trong bản trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -154,9 +150,3 @@ Aspose.Slides for .NET hỗ trợ nhiều loại biểu đồ, bao gồm biểu 
  Chắc chắn! Bạn có thể tận dụng bản dùng thử miễn phí Aspose.Slides cho .NET từ[đây](https://releases.aspose.com/).
 ## Phần kết luận
 Trong hướng dẫn này, chúng ta đã khám phá các khả năng thú vị của Aspose.Slides dành cho .NET trong việc thực hiện trộn thư trong bản trình bày. Bằng cách làm theo hướng dẫn từng bước, bạn có thể dễ dàng tạo các bản trình bày sinh động và được cá nhân hóa. Nâng cao trải nghiệm phát triển .NET của bạn với Aspose.Slides để tạo bản trình bày liền mạch.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

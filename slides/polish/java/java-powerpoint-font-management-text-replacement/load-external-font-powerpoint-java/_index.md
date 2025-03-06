@@ -3,14 +3,10 @@ title: Załaduj zewnętrzną czcionkę w programie PowerPoint z Javą
 linktitle: Załaduj zewnętrzną czcionkę w programie PowerPoint z Javą
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ładować niestandardowe czcionki w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje slajdy unikalną typografią.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces ładowania zewnętrznej czcionki w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Niestandardowe czcionki mogą nadać Twoim prezentacjom niepowtarzalny charakter, zapewniając spójne preferencje dotyczące marki lub stylu na różnych platformach.
 ## Warunki wstępne
@@ -67,9 +63,3 @@ Tak, możesz załadować wiele czcionek zewnętrznych, powtarzając proces dla k
 Jeśli plik czcionki jest w formacie TrueType (.ttf) i mieści się w rozsądnych granicach, załadowanie go powinno być możliwe.
 ### Czy ładowanie zewnętrznych czcionek wpływa na kompatybilność prezentacji z różnymi wersjami programu PowerPoint?
 Nie, prezentacja pozostaje zgodna z różnymi wersjami programu PowerPoint, o ile czcionki są osadzone lub załadowane zewnętrznie.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

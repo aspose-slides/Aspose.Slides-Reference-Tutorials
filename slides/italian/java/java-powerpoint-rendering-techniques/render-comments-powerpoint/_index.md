@@ -3,14 +3,10 @@ title: Rendering di commenti in PowerPoint
 linktitle: Rendering di commenti in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come eseguire il rendering dei commenti nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Personalizza l'aspetto e genera anteprime delle immagini in modo efficiente.
+type: docs
 weight: 10
 url: /it/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 In questo tutorial, esamineremo il processo di rendering dei commenti nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. I commenti sul rendering possono essere utili per vari scopi, come generare anteprime di immagini di presentazioni con commenti inclusi.
 ## Prerequisiti
@@ -76,9 +72,3 @@ Sì, oltre a PNG, puoi visualizzare commenti in altri formati di immagine suppor
 Sì, utilizzando Aspose.Slides, puoi eseguire il rendering dei commenti sulle immagini senza aprire l'applicazione PowerPoint.
 ### Esiste un modo per visualizzare i commenti direttamente in un documento PDF?
 Sì, Aspose.Slides fornisce funzionalità per visualizzare i commenti direttamente nei documenti PDF, consentendo una perfetta integrazione nel flusso di lavoro dei documenti.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

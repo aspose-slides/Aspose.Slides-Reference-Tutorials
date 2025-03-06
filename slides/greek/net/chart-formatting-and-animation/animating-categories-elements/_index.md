@@ -3,14 +3,10 @@ title: Ισχυρά κινούμενα σχέδια γραφημάτων με As
 linktitle: Εμψύχωση στοιχείων κατηγοριών στο γράφημα
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε να κάνετε κίνηση στοιχείων γραφήματος στο PowerPoint με το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα για εντυπωσιακές παρουσιάσεις.
+type: docs
 weight: 11
 url: /el/net/chart-formatting-and-animation/animating-categories-elements/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Στον κόσμο των παρουσιάσεων, τα κινούμενα σχέδια μπορούν να ζωντανέψουν το περιεχόμενό σας, ειδικά όταν ασχολείστε με γραφήματα. Το Aspose.Slides for .NET προσφέρει μια σειρά από ισχυρά χαρακτηριστικά που σας επιτρέπουν να δημιουργείτε εκπληκτικά κινούμενα σχέδια για τα γραφήματα σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας κινούμενων στοιχείων κατηγορίας σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -127,10 +123,3 @@ presentation.Save(dataDir + "AnimatingCategoriesElements_out.pptx", SaveFormat.P
 
 ### 5. Υπάρχει κάποιο φόρουμ κοινότητας για το Aspose.Slides για υποστήριξη .NET;
  Ναι, μπορείτε να βρείτε ένα υποστηρικτικό φόρουμ κοινότητας για το Aspose.Slides για .NET[εδώ](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides .NET을 사용하여 슬라이드에서 하이퍼링크를 
 linktitle: 슬라이드에서 하이퍼링크 제거
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 하이퍼링크를 제거하는 방법을 알아보세요. 깔끔하고 전문적인 프레젠테이션을 만들어 보세요.
+type: docs
 weight: 11
 url: /ko/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 전문적인 프레젠테이션의 세계에서는 슬라이드가 깔끔하고 깔끔하게 보이는 것이 중요합니다. 슬라이드를 복잡하게 만드는 공통 요소 중 하나는 하이퍼링크입니다. 프레젠테이션 내의 웹 사이트, 문서 또는 기타 슬라이드에 대한 하이퍼링크를 처리하는 경우 더 깔끔하고 집중된 모양을 위해 해당 하이퍼링크를 제거할 수 있습니다. .NET용 Aspose.Slides를 사용하면 이 작업을 쉽게 수행할 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드에서 하이퍼링크를 제거하는 과정을 안내합니다.
 
@@ -88,9 +84,3 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### .NET용 Aspose.Slides에 대한 기술 지원이 제공됩니까?
  예, 기술 지원을 요청하고 Aspose 커뮤니티에 참여할 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

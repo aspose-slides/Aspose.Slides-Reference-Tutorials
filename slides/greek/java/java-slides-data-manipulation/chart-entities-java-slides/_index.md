@@ -3,14 +3,10 @@ title: Οντότητες γραφήματος σε διαφάνειες Java
 linktitle: Οντότητες γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να δημιουργείτε και να προσαρμόζετε γραφήματα Java Slides με το Aspose.Slides. Βελτιώστε τις παρουσιάσεις σας με ισχυρές οντότητες γραφημάτων.
+type: docs
 weight: 13
 url: /el/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στις οντότητες γραφημάτων σε διαφάνειες Java
 
@@ -305,9 +301,3 @@ finally
 ### Είναι το Aspose.Slides για Java συμβατό με τις πιο πρόσφατες εκδόσεις Java;
 
 Ναι, το Aspose.Slides για Java ενημερώνεται τακτικά για να υποστηρίζει τις πιο πρόσφατες εκδόσεις Java και παρέχει συμβατότητα σε ένα ευρύ φάσμα περιβαλλόντων Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

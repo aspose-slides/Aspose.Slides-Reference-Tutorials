@@ -3,14 +3,10 @@ title: OLE objektumkeret hozzáadása a PowerPointban
 linktitle: OLE objektumkeret hozzáadása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan integrálhatja zökkenőmentesen az OLE-objektumkereteket PowerPoint-prezentációkba az Aspose.Slides for Java segítségével.
+type: docs
 weight: 13
 url: /hu/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 OLE (Object Linking and Embedding) objektumkeret hozzáadása a PowerPoint-prezentációkhoz jelentősen javíthatja diákjainak vizuális vonzerejét és funkcionalitását. Az Aspose.Slides for Java segítségével ez a folyamat leegyszerűsödik és hatékony. Ebben az oktatóanyagban végigvezetjük azokon a lépéseken, amelyek szükségesek ahhoz, hogy az OLE-objektumkereteket zökkenőmentesen integrálhassák PowerPoint-prezentációiba.
 ### Előfeltételek
@@ -84,9 +80,3 @@ Teljesen! Az Aspose.Slides kiterjedt lehetőségeket kínál az OLE objektumkere
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol találok támogatást az Aspose.Slides for Java számára?
  Támogatást és segítséget kérhet az Aspose.Slides fórumtól[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

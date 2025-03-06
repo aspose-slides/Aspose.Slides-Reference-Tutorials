@@ -3,14 +3,10 @@ title: Spojte tvary pomocí konektorů v PowerPointu
 linktitle: Spojte tvary pomocí konektorů v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se propojovat tvary pomocí konektorů v prezentacích PowerPoint s Aspose.Slides pro Java. Návod krok za krokem pro začátečníky.
+type: docs
 weight: 18
 url: /cs/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak spojovat tvary pomocí konektorů v prezentacích PowerPoint s pomocí Aspose.Slides for Java. Postupujte podle těchto podrobných pokynů, abyste efektivně spojili tvary a vytvořili vizuálně přitažlivé snímky.
 ## Předpoklady
@@ -86,9 +82,3 @@ Ano, můžete propojit více tvarů pomocí složitých konektorů poskytovanýc
 Rozhodně můžete snadno přidávat text do tvarů a konektorů programově pomocí Aspose.Slides pro Java.
 ### Je k dispozici komunitní fórum nebo kanál podpory pro Aspose.Slides pro uživatele Java?
  Ano, na fóru Aspose.Slides můžete najít užitečné zdroje, klást otázky a komunikovat s ostatními uživateli[tady](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

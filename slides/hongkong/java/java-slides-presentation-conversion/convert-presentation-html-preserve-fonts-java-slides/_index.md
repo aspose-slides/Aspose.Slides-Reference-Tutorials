@@ -3,14 +3,10 @@ title: 將簡報轉換為 HTML，同時保留 Java 投影片中的原始字體
 linktitle: 將簡報轉換為 HTML，同時保留 Java 投影片中的原始字體
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 HTML，同時保留原始字體。
+type: docs
 weight: 14
 url: /zh-hant/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 將簡報轉換為 HTML 並保留 Java 投影片中的原始字體簡介
 
@@ -115,9 +111,3 @@ finally
 ### 如何進一步自訂 HTML 輸出？
 
 您可以探索`HtmlOptions`類別來自訂 HTML 輸出的各個方面，例如幻燈片大小、圖像品質等。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

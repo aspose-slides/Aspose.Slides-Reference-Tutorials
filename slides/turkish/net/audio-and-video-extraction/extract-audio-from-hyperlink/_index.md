@@ -3,14 +3,10 @@ title: Aspose.Slides ile PowerPoint Köprülerinden Sesi Çıkarma
 linktitle: Köprüden Sesi Çıkar
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarındaki köprülerden ses çıkarın. Multimedya projelerinizi zahmetsizce geliştirin.
+type: docs
 weight: 12
 url: /tr/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Multimedya sunumları dünyasında ses, slaytlarınızın genel etkisini artırmada hayati bir rol oynar. Hiç ses köprüleri içeren bir PowerPoint sunumuyla karşılaştınız mı ve sesi diğer kullanımlar için nasıl çıkaracağınızı merak ettiniz mi? Aspose.Slides for .NET ile bu görevi zahmetsizce başarabilirsiniz. Bu adım adım kılavuzda, bir PowerPoint sunumundaki köprüden ses çıkarma sürecinde size yol göstereceğiz.
 
@@ -109,10 +105,3 @@ Evet, kısa vadeli proje ihtiyaçlarınızı karşılamak için Aspose.Slides fo
 
 ### MPG dışında, çıkarma için desteklenen başka ses formatları var mı?
 Aspose.Slides for .NET, MPG ile sınırlı olmamak üzere çeşitli formatlarda ses çıkarmanıza olanak tanır. Çıkarma işleminden sonra tercih ettiğiniz formata dönüştürebilirsiniz.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

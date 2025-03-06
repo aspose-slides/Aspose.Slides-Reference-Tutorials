@@ -3,14 +3,10 @@ title: ลบสไลด์ผ่านการอ้างอิง
 linktitle: ลบสไลด์ผ่านการอ้างอิง
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบสไลด์ในงานนำเสนอ PowerPoint ด้วย Aspose.Slides สำหรับ .NET ซึ่งเป็นไลบรารีอันทรงพลังสำหรับนักพัฒนา .NET
+type: docs
 weight: 25
 url: /th/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ในฐานะนักเขียน SEO ที่เชี่ยวชาญ ฉันพร้อมให้คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้ Aspose.Slides สำหรับ .NET เพื่อลบสไลด์ออกจากงานนำเสนอ PowerPoint ในบทช่วยสอนแบบทีละขั้นตอนนี้ เราจะแบ่งกระบวนการออกเป็นขั้นตอนที่สามารถจัดการได้ เพื่อให้มั่นใจว่าคุณสามารถปฏิบัติตามได้อย่างง่ายดาย เอาล่ะ มาเริ่มกันเลย!
 
@@ -105,9 +101,3 @@ Aspose.Slides สำหรับ .NET รองรับรูปแบบไฟ
 
 ### ฉันสามารถยกเลิกการลบสไลด์โดยใช้ Aspose.Slides สำหรับ .NET ได้หรือไม่
 เมื่อสไลด์ถูกลบออกแล้ว จะไม่สามารถยกเลิกได้อย่างง่ายดาย ขอแนะนำให้สำรองข้อมูลการนำเสนอของคุณไว้ก่อนที่จะทำการเปลี่ยนแปลงดังกล่าว
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

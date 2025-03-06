@@ -3,14 +3,10 @@ title: 在 PowerPoint 中向形状添加动画
 linktitle: 在 PowerPoint 中向形状添加动画
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本详细教程学习如何使用 Aspose.Slides for Java 为 PowerPoint 中的形状添加动画。非常适合创建引人入胜的演示文稿。
+type: docs
 weight: 10
 url: /zh/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 创建引人入胜的演示文稿通常需要在形状和文本中添加动画。动画可以使您的幻灯片更具活力和吸引力，从而确保您的观众保持兴趣。在本教程中，我们将指导您使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中向形状添加动画的过程。在本文结束时，您将能够轻松创建专业动画。
 ## 先决条件
@@ -112,9 +108,3 @@ Aspose.Slides 支持 Java SE 6 及以上版本。
 您可以对每个形状重复这些步骤并根据需要指定不同的效果，从而为多个形状添加不同的动画。
 ### 在哪里可以找到更多示例和文档？
 查看[文档](https://reference.aspose.com/slides/java/)和[支持论坛](https://forum.aspose.com/c/slides/11)获取更多示例和帮助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

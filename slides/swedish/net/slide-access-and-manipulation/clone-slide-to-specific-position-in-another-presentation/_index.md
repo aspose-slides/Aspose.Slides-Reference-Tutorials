@@ -3,14 +3,10 @@ title: Kopiera bild till exakt plats i en annan presentation
 linktitle: Kopiera bild till exakt plats i en annan presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du kopierar bilder till exakta platser i olika presentationer med Aspose.Slides för .NET. Denna steg-för-steg-guide ger källkod och instruktioner för sömlös PowerPoint-manipulation.
+type: docs
 weight: 18
 url: /sv/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -98,9 +94,3 @@ Ja, Aspose.Slides låter dig programmera manipulera bildinnehåll, inklusive tex
 ### Var kan jag hitta mer dokumentation och exempel för Aspose.Slides?
 
  Du kan hitta omfattande dokumentation och exempel för Aspose.Slides för .NET i dokumentationen:[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

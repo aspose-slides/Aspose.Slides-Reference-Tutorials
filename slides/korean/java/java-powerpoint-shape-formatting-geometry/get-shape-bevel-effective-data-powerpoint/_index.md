@@ -3,14 +3,10 @@ title: PowerPoint에서 Shape Bevel 효과적인 데이터 가져오기
 linktitle: PowerPoint에서 Shape Bevel 효과적인 데이터 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 형상 베벨 유효 데이터를 검색하는 방법을 알아보세요. 놀라운 시각 효과로 프레젠테이션을 향상시켜 보세요.
+type: docs
 weight: 26
 url: /ko/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 현대 비즈니스 프레젠테이션에서 시각적 매력은 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. PowerPoint 프레젠테이션에서 도형의 시각적 효과를 향상시킬 수 있는 요소 중 하나는 경사 효과입니다. Aspose.Slides for Java는 베벨 효과를 포함하여 도형의 다양한 속성에 액세스하고 조작할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 형상 베벨 유효 데이터를 검색하는 과정을 안내합니다.
 ## 전제 조건
@@ -62,9 +58,3 @@ Aspose.Slides는 다양한 버전의 PowerPoint와의 호환성을 보장하므�
 물론, 경사 효과 속성을 완전히 제어할 수 있으며 요구 사항에 따라 사용자 정의할 수 있습니다.
 ### Aspose.Slides에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 질문, 지원 또는 추가 리소스가 필요합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

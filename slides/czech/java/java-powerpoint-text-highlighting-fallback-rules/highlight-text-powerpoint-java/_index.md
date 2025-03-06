@@ -3,14 +3,10 @@ title: Zvýrazněte text v PowerPointu pomocí Java
 linktitle: Zvýrazněte text v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se zvýraznit text v PowerPointu pomocí Aspose.Slides pro Java. Automatizujte a vylepšujte prezentace bez námahy pomocí našeho podrobného průvodce.
+type: docs
 weight: 10
 url: /cs/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dnešní digitální době, kdy vizuální komunikace hraje klíčovou roli v obchodních prezentacích a vzdělávacích materiálech, je schopnost programově manipulovat a vylepšovat PowerPointové prezentace významnou výhodou. Aspose.Slides for Java umožňuje vývojářům s robustní sadou nástrojů pro bezproblémovou integraci a manipulaci se snímky aplikace PowerPoint pomocí programovacího jazyka Java. Ať už automatizujete vytváření prezentací, upravujete ty stávající nebo získáváte data ze snímků, Aspose.Slides for Java poskytuje potřebné funkce pro efektivní dosažení těchto úkolů.
 ## Předpoklady
@@ -66,9 +62,3 @@ Aspose.Slides for Java je Java API, které umožňuje vývojářům vytvářet, 
 Aspose.Slides for Java podporuje ukládání prezentací v různých formátech včetně PPTX, PPT, PDF a dalších.
 ### Je Aspose.Slides for Java kompatibilní s Java SE Development Kit?
 Ano, Aspose.Slides for Java je kompatibilní s Java SE Development Kit.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

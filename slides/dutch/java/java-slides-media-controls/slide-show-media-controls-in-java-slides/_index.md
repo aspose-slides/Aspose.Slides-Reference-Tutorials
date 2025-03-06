@@ -3,14 +3,10 @@ title: Mediabedieningen voor diavoorstellingen in Java-dia's
 linktitle: Mediabedieningen voor diavoorstellingen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u mediabediening in Java Slides kunt inschakelen en gebruiken met Aspose.Slides voor Java. Verbeter uw presentaties met mediabediening.
+type: docs
 weight: 11
 url: /nl/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot mediabedieningen voor diavoorstellingen in Java-dia's
 
@@ -112,9 +108,3 @@ In deze zelfstudie hebben we onderzocht hoe u mediabesturingselementen in Java S
 ### Is er een manier om ondertitels of bijschriften toe te voegen aan video's in Java Slides?
 
 Ja, u kunt ondertitels of bijschriften toevoegen aan video's in Java Slides door tekstkaders of vormen toe te voegen aan de dia met de video. Vervolgens kunt u de tekst synchroniseren met het afspelen van de video met behulp van de timinginstellingen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

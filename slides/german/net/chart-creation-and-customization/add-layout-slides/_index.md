@@ -3,14 +3,10 @@ title: Layoutfolien zur Präsentation hinzufügen
 linktitle: Layoutfolien zur Präsentation hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre PowerPoint-Präsentationen mit Aspose.Slides für .NET verbessern. Fügen Sie Layoutfolien für einen professionellen Touch hinzu.
+type: docs
 weight: 11
 url: /de/net/chart-creation-and-customization/add-layout-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Im heutigen digitalen Zeitalter ist es eine wesentliche Fähigkeit, eine wirkungsvolle Präsentation zu erstellen. Eine gut strukturierte und optisch ansprechende Präsentation kann Ihre Botschaft effektiv vermitteln. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie im Handumdrehen beeindruckende Präsentationen erstellen können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Slides für .NET Ihrer Präsentation Layoutfolien hinzufügen können. Wir unterteilen den Prozess in leicht verständliche Schritte, um sicherzustellen, dass Sie die Konzepte gründlich verstehen. Lassen Sie uns anfangen!
 
@@ -108,9 +104,3 @@ Aspose.Slides für .NET ist eine .NET-Bibliothek, die es Entwicklern ermöglicht
 
 ### Wo kann ich Support oder Hilfe zu Aspose.Slides für .NET erhalten?
  Wenn Sie Fragen haben oder Hilfe benötigen, können Sie das Aspose.Slides für .NET-Forum unter besuchen.[Aspose-Gemeinschaftsforum](https://forum.aspose.com/). Die Community ist aktiv und hilfsbereit bei der Beantwortung von Benutzeranfragen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

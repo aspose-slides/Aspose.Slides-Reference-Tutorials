@@ -3,14 +3,10 @@ title: Muat Format Enumerasi di Slide Java
 linktitle: Muat Format Enumerasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memeriksa format presentasi PowerPoint di Java menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk deteksi format yang efektif.
+type: docs
 weight: 14
 url: /id/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Memuat Format Presentasi di Slide Java
 
@@ -72,10 +68,3 @@ Anda bisa mendapatkan dukungan untuk Aspose.Slides for Java dengan mengunjungi f
 ### Apakah Aspose.Slides untuk Java cocok untuk proyek komersial?
 
 Ya, Aspose.Slides for Java cocok untuk proyek komersial. Ini menyediakan serangkaian fitur canggih untuk bekerja dengan presentasi PowerPoint dalam aplikasi Java dan banyak digunakan baik di lingkungan komersial maupun perusahaan.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

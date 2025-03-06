@@ -3,14 +3,10 @@ title: Aspose.Slides でのグラフの書式設定とアニメーション
 linktitle: Aspose.Slides でのグラフの書式設定とアニメーション
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でグラフをフォーマットおよびアニメーション化し、魅力的なビジュアルでプレゼンテーションを強化する方法を学習します。
+type: docs
 weight: 10
 url: /ja/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 動的なグラフやアニメーションを使用して魅力的なプレゼンテーションを作成すると、メッセージの効果を大幅に高めることができます。Aspose.Slides for .NET を使用すると、まさにそれが実現できます。このチュートリアルでは、Aspose.Slides for .NET を使用してグラフをアニメーション化およびフォーマットするプロセスについて説明します。概念を完全に理解できるように、手順を管理しやすいセクションに分割します。
 
@@ -176,10 +172,3 @@ Aspose.Slides for .NET には、グラフの書式設定とアニメーション
 
 サポートや質問については、Aspose.Slidesフォーラムをご覧ください。[フォーラム](https://forum.aspose.com/).
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

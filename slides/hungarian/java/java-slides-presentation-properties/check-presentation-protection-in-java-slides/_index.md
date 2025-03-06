@@ -3,14 +3,10 @@ title: Ellenőrizze a prezentációvédelmet a Java Slides-ben
 linktitle: Ellenőrizze a prezentációvédelmet a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan ellenőrizheti a prezentációvédelmet a Java diákban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató kódpéldákat tartalmaz az írási és nyitott védelmi ellenőrzésekhez.
+type: docs
 weight: 15
 url: /hu/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Java Slides prezentációvédelmének ellenőrzésébe
 
@@ -117,9 +113,3 @@ Ha elfelejti a prezentáció védelmi jelszavát, nincs beépített módja annak
 ### Az Aspose.Slides for Java kompatibilis a legújabb PowerPoint fájlformátumokkal?
 
 Igen, az Aspose.Slides for Java támogatja a legújabb PowerPoint fájlformátumokat, beleértve a .pptx fájlokat is.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

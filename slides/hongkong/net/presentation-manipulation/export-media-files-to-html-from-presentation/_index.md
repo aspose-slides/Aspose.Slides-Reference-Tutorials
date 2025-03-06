@@ -3,14 +3,10 @@ title: 將媒體檔案從簡報匯出為 HTML
 linktitle: 將媒體檔案從簡報匯出為 HTML
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 優化您的簡報分享！在此逐步指南中了解如何將簡報中的媒體檔案匯出為 HTML。
+type: docs
 weight: 15
 url: /zh-hant/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在本教學中，我們將引導您完成使用 Aspose.Slides for .NET 將簡報中的媒體檔案匯出為 HTML 的過程。 Aspose.Slides 是一個功能強大的 API，可讓您以程式設計方式處理 PowerPoint 簡報。讀完本指南後，您將能夠輕鬆地將簡報轉換為 HTML 格式。那麼，就讓我們開始吧！
 
@@ -88,9 +84,3 @@ A3：是的，Aspose.Slides for .NET 支援各種匯出格式，包括 PDF、影
  A5：您可以從以下位置購買許可證：[這個連結](https://purchase.aspose.com/buy).
 
 現在您已完成本教學課程，您已經掌握了使用 Aspose.Slides for .NET 將 PowerPoint 簡報中的媒體檔案匯出為 HTML 的技能。享受在線分享您豐富的多媒體簡報！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

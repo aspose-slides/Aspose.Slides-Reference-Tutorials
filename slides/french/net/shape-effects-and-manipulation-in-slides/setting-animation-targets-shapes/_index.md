@@ -3,14 +3,10 @@ title: Maîtriser les cibles d'animation avec Aspose.Slides pour .NET
 linktitle: Définition de cibles d'animation pour les formes de diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à donner vie à vos présentations avec Aspose.Slides pour .NET ! Définissez des cibles d’animation sans effort et captivez votre public.
+type: docs
 weight: 22
 url: /fr/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le monde dynamique des présentations, l’ajout d’animations à vos diapositives peut changer la donne. Aspose.Slides pour .NET permet aux développeurs de créer des présentations attrayantes et visuellement attrayantes en permettant un contrôle précis sur les cibles d'animation pour les formes de diapositives. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de définition des cibles d'animation à l'aide d'Aspose.Slides pour .NET. Que vous soyez un développeur chevronné ou débutant, ce didacticiel vous aidera à exploiter la puissance des animations dans vos présentations.
 ## Conditions préalables
@@ -66,9 +62,3 @@ Non, Aspose.Slides vous permet d'animer un nombre pratiquement illimité de form
 Oui, Aspose.Slides propose des options pour personnaliser la durée et le timing de chaque animation.
 ### Où puis-je trouver plus d’exemples et de documentation pour Aspose.Slides ?
  Explore le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/) pour des informations détaillées et des exemples.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Presentatie exporteren naar XAML-indeling
 linktitle: Presentatie exporteren naar XAML-indeling
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u presentaties naar XAML-indeling exporteert met Aspose.Slides voor .NET. Creëer moeiteloos interactieve inhoud!
+type: docs
 weight: 27
 url: /nl/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van softwareontwikkeling is het essentieel om over tools te beschikken die complexe taken kunnen vereenvoudigen. Aspose.Slides voor .NET is zo'n tool waarmee je programmatisch met PowerPoint-presentaties kunt werken. In deze stapsgewijze zelfstudie onderzoeken we hoe u een presentatie naar XAML-indeling kunt exporteren met behulp van Aspose.Slides voor .NET. 
 
@@ -117,9 +113,3 @@ Aspose.Slides voor .NET is een .NET-bibliotheek voor het programmatisch werken m
  U kunt ondersteuning en communitydiscussies vinden[hier](https://forum.aspose.com/).
 
  Ga voor meer tutorials en bronnen naar de[Aspose.Slides API-documentatie](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

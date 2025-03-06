@@ -3,14 +3,10 @@ title: Vytvářejte miniatury tvarů aplikace PowerPoint - Aspose.Slides .NET
 linktitle: Vytvoření miniatury pro tvar v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet miniatury tvarů v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Komplexní průvodce krok za krokem pro vývojáře.
+type: docs
 weight: 14
 url: /cs/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s prezentacemi v PowerPointu. Jednou z jeho pozoruhodných funkcí je schopnost generovat miniatury pro tvary v rámci prezentace. Tento tutoriál vás provede procesem vytváření miniatur tvarů pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -61,9 +57,3 @@ Odpověď: Ke správě výjimek můžete implementovat mechanismy zpracování c
 Odpověď: Aspose.Slides poskytuje flexibilitu pro vytváření miniatur pro různé tvary, včetně textových polí, obrázků a dalších.
 ### Otázka: Mohu přizpůsobit velikost a rozlišení generovaných miniatur?
  Odpověď: Ano, můžete upravit parametry při volání`GetThumbnail` způsob ovládání velikosti a rozlišení.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

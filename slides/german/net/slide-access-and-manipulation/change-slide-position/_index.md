@@ -3,14 +3,10 @@ title: Passen Sie die Folienposition innerhalb der Präsentation mit Aspose.Slid
 linktitle: Folienposition innerhalb der Präsentation anpassen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET die Folienpositionen in PowerPoint-Präsentationen anpassen. Verbessern Sie Ihre Präsentationsfähigkeiten!
+type: docs
 weight: 23
 url: /de/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Möchten Sie Ihre Präsentationsfolien neu organisieren und fragen sich, wie Sie ihre Positionen mit Aspose.Slides für .NET anpassen können? Diese Schritt-für-Schritt-Anleitung führt Sie durch den Vorgang und stellt sicher, dass Sie jeden Schritt klar verstehen. Bevor wir in das Tutorial eintauchen, gehen wir die Voraussetzungen und Import-Namespaces durch, die Sie für den Einstieg benötigen.
 
@@ -115,9 +111,3 @@ Ja, Aspose.Slides für .NET bietet zahlreiche Funktionen für die Arbeit mit Pow
 ### 5. Kann ich Aspose.Slides für .NET vor dem Kauf ausprobieren?
 
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET unter[Kostenlose Testversion von Aspose.Slides für .NET](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

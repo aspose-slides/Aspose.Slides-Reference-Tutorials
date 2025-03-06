@@ -3,14 +3,10 @@ title: Điều chỉnh góc đường kết nối trong PowerPoint bằng Aspose
 linktitle: Điều chỉnh các góc của đường kết nối trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách điều chỉnh góc đường kết nối trong trang chiếu PowerPoint bằng Aspose.Slides for .NET. Nâng cao bài thuyết trình của bạn một cách chính xác và dễ dàng.
+type: docs
 weight: 28
 url: /vi/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Việc tạo các slide thuyết trình hấp dẫn về mặt trực quan thường liên quan đến việc điều chỉnh chính xác các đường kết nối. Trong hướng dẫn này, chúng ta sẽ khám phá cách điều chỉnh góc đường kết nối trong các trang trình bày bằng Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp PowerPoint theo chương trình, cung cấp các khả năng mở rộng để tạo, sửa đổi và thao tác với bản trình bày.
 ## Điều kiện tiên quyết
@@ -91,9 +87,3 @@ Có, Aspose.Slides có thể được sử dụng trong cả Windows và ứng d
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Có diễn đàn hỗ trợ cho Aspose.Slides không?
  Có, bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

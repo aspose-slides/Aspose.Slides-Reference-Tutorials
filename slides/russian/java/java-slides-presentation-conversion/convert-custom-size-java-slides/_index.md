@@ -3,14 +3,10 @@ title: Преобразование с нестандартным размеро
 linktitle: Преобразование с нестандартным размером в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации PowerPoint в изображения TIFF произвольного размера с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода для разработчиков.
+type: docs
 weight: 31
 url: /ru/java/presentation-conversion/convert-custom-size-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в преобразование с нестандартным размером в слайдах Java
 
@@ -141,9 +137,3 @@ finally
 ### Где я могу найти дополнительную информацию об Aspose.Slides для Java?
 
  Подробную документацию и дополнительную информацию об Aspose.Slides для Java можно найти в документации:[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

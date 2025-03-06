@@ -3,14 +3,10 @@ title: إضافة إطار فيديو من مصدر ويب في PowerPoint
 linktitle: إضافة إطار فيديو من مصدر ويب في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية الخاصة بك عن طريق إضافة إطارات فيديو من مصادر الويب باستخدام Aspose.Slides for Java.
+type: docs
 weight: 18
 url: /ar/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعلم كيفية إضافة إطار فيديو من مصدر ويب، مثل YouTube، إلى عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java. باتباع هذه التعليمات خطوة بخطوة، ستتمكن من تحسين عروضك التقديمية من خلال دمج عناصر الوسائط المتعددة الجذابة.
 ## المتطلبات الأساسية
@@ -88,9 +84,3 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 يدعم Aspose.Slides مجموعة واسعة من إصدارات PowerPoint، مما يضمن التوافق عبر الأنظمة الأساسية المختلفة.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة والتوثيق ودعم المجتمع.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

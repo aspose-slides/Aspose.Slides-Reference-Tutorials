@@ -3,14 +3,10 @@ title: Impostazione del callout per l'etichetta dati nelle diapositive Java
 linktitle: Impostazione del callout per l'etichetta dati nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare i callout per le etichette dati in Aspose.Slides per Java. Guida passo passo con il codice sorgente.
+type: docs
 weight: 25
 url: /it/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione all'impostazione del callout per l'etichetta dati in Aspose.Slides per Java
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Queste sono alcune opzioni di personalizzazione comuni per le etichette dei dati e i callout in Aspose.Slides per Java. Puoi personalizzare ulteriormente l'aspetto in base alle tue esigenze specifiche.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Stel aangepaste legenda-opties in Java-dia's in
 linktitle: Stel aangepaste legenda-opties in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste legenda-opties instelt in Java Slides met behulp van Aspose.Slides voor Java. Pas de positie en grootte van de legenda in uw PowerPoint-grafieken aan.
+type: docs
 weight: 14
 url: /nl/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het instellen van aangepaste opties voor legenda's in Java-dia's
 
@@ -135,9 +131,3 @@ In deze zelfstudie hebben we geleerd hoe u de legenda-eigenschappen van een diag
 ## Kan ik andere legenda-attributen aanpassen?
 
 Ja, u kunt verschillende kenmerken van de legenda aanpassen, zoals lettertype, rand, achtergrondkleur en meer. Verken de Aspose.Slides-documentatie voor gedetailleerde informatie over het verder aanpassen van legenda's.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

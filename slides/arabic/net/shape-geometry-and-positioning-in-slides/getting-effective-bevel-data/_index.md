@@ -3,14 +3,10 @@ title: الكشف عن سحر الاسترجاع الفعال للبيانات �
 linktitle: الحصول على بيانات مجسمة مشطوفة فعالة للشكل في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين شرائح العرض التقديمي باستخدام بيانات مشطوفة فعالة باستخدام Aspose.Slides. دليل شامل يتضمن تعليمات خطوة بخطوة ونموذج التعليمات البرمجية.
+type: docs
 weight: 20
 url: /ar/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 مرحبًا بك في عالم Aspose.Slides for .NET الرائع، بوابتك لإنشاء عروض تقديمية مذهلة بسهولة لا مثيل لها. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات الحصول على بيانات مشطوفة فعالة للأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -73,9 +69,3 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
  نعم، يمكنك شراء Aspose.Slides لـ .NET[هنا](https://purchase.aspose.com/buy) لفتح ميزاته المتميزة للمشاريع التجارية.
 ### ماذا لو واجهت مشاكل أثناء التنفيذ؟
  اطلب المساعدة من مجتمع Aspose.Slides for .NET على[منتدى الدعم](https://forum.aspose.com/c/slides/11) للحصول على حلول سريعة ومفيدة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

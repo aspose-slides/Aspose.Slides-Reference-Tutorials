@@ -3,14 +3,10 @@ title: Добавить комментарии к слайду
 linktitle: Добавить комментарии к слайду
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Добавьте глубины и интерактивности своим презентациям с помощью API Aspose.Slides. Узнайте, как легко интегрировать комментарии в слайды с помощью .NET. Повысьте вовлеченность и увлеките свою аудиторию.
+type: docs
 weight: 13
 url: /ru/net/slide-comments-manipulation/add-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 В мире управления презентациями возможность добавлять комментарии к слайдам может изменить правила игры. Комментарии не только улучшают совместную работу, но также помогают понимать и редактировать содержимое слайдов. С помощью Aspose.Slides for .NET, мощной и универсальной библиотеки, вы можете легко включать комментарии в слайды презентации. В этом пошаговом руководстве мы покажем вам процесс добавления комментариев к слайду с помощью Aspose.Slides для .NET. Независимо от того, являетесь ли вы опытным разработчиком или новичком в мире разработки .NET, это руководство предоставит вам всю необходимую информацию.
 
@@ -108,9 +104,3 @@ using (Presentation pres = new Presentation())
 ### 5. Могу ли я попробовать Aspose.Slides для .NET перед его покупкой?
 
 Да, вы можете изучить Aspose.Slides для .NET, воспользовавшись бесплатной пробной версией. Посетить[Страница бесплатной пробной версии Aspose.Slides](https://releases.aspose.com/) для начала.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

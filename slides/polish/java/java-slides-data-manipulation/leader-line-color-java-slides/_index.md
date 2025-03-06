@@ -3,14 +3,10 @@ title: Kolor linii odniesienia w slajdach Java
 linktitle: Kolor linii odniesienia w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zmieniać kolory linii odniesienia na wykresach programu PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu źródłowego.
+type: docs
 weight: 12
 url: /pl/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do koloru linii odniesienia w Aspose.Slides dla Java
 
@@ -120,9 +116,3 @@ Możesz uzyskać pomoc techniczną dla Aspose.Slides dla Java, odwiedzając foru
 ### Czy mogę używać Aspose.Slides for Java z innymi bibliotekami i frameworkami Java?
 
 Tak, możesz zintegrować Aspose.Slides for Java z innymi bibliotekami i frameworkami Java, jeśli jest to potrzebne dla Twojego projektu. Aspose.Slides zapewnia interfejsy API do pracy z różnymi funkcjami programu PowerPoint, umożliwiając łączenie go z innymi narzędziami i technologiami w celu tworzenia wydajnych aplikacji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

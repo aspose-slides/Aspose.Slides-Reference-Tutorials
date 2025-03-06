@@ -3,14 +3,10 @@ title: Create Ellipse Shape Easily with Aspose.Slides .NET
 linktitle: Creating Simple Ellipse Shape in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to create stunning ellipse shapes in presentation slides using Aspose.Slides for .NET. Easy steps for dynamic design!
+type: docs
 weight: 11
 url: /net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the dynamic world of presentation design, incorporating shapes like ellipses can add a touch of creativity and professionalism. Aspose.Slides for .NET offers a powerful solution for manipulating presentation files programmatically. This tutorial will guide you through the process of creating a simple ellipse shape in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -69,10 +65,3 @@ Visit the [documentation](https://reference.aspose.com/slides/net/) for comprehe
 Follow the [temporary license link](https://purchase.aspose.com/temporary-license/) to request a temporary license for testing purposes.
 ### Need assistance or have specific questions?
 Visit the [Aspose.Slides support forum](https://forum.aspose.com/c/slides/11) to get help from the community and experts.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

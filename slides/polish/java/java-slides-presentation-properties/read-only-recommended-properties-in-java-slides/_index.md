@@ -3,14 +3,10 @@ title: Zalecane właściwości tylko do odczytu w slajdach Java
 linktitle: Zalecane właściwości tylko do odczytu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak włączyć właściwości zalecane tylko do odczytu w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby zwiększyć bezpieczeństwo prezentacji.
+type: docs
 weight: 17
 url: /pl/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do włączania zalecanych właściwości tylko do odczytu w slajdach Java
 
@@ -92,9 +88,3 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Pamiętaj o wymianie`"YourPassword"` z żądanym hasłem.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

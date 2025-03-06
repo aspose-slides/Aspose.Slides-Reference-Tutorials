@@ -3,14 +3,10 @@ title: 在 Java 投影片中建立雷達圖
 linktitle: 在 Java 投影片中建立雷達圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java API 在 Java PowerPoint 簡報中建立雷達圖。
+type: docs
 weight: 10
 url: /zh-hant/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 在 Java 投影片中建立雷達圖簡介
 
@@ -272,9 +268,3 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### 如何將圖表儲存為不同的文件格式？
 
 您可以透過修改檔案副檔名來變更輸出格式`outPath`變數並使用適當的`SaveFormat`。例如，若要另存為 PDF，請使用`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

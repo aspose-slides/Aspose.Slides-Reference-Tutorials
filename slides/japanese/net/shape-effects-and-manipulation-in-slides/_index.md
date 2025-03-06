@@ -3,14 +3,10 @@ title: スライド内の図形効果と操作
 linktitle: スライド内の図形効果と操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: シェイプ効果と操作に関する Aspose.Slides チュートリアルを使用して、プレゼンテーションの視覚的な魅力を高めます。シェイプ効果、アニメーションなどを使用して魅力的なスライドを作成する方法を学びます。
+type: docs
 weight: 11
 url: /ja/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入
 
@@ -67,9 +63,3 @@ Aspose.Slides for .NET を使用してコネクタ ラインの角度を調整�
 Aspose.Slides でプレゼンテーション スライド内のコネクタを使用して図形を接続する方法を学習して、プレゼンテーションの能力を高めましょう。今すぐビジュアル ストーリーテリングのレベルを高めましょう。
 ### [Aspose.Slides を使用したプレゼンテーション スライドの接続サイトを使用して図形を接続する](./connecting-shape-using-connection-site/)
 Aspose.Slides を使用してプレゼンテーション スライド内の接続サイトを使用して図形を接続する方法を学習し、プレゼンテーション スキルを向上させます。詳細なガイドとコード例に従ってください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

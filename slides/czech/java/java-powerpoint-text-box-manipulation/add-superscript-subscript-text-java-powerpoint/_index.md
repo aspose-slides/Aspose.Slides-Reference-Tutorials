@@ -3,14 +3,10 @@ title: Přidejte text horního a dolního indexu v Java PowerPointu
 linktitle: Přidejte text horního a dolního indexu v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat text horního a dolního indexu do prezentací Java PowerPoint pomocí Aspose.Slides for Java. Ideální pro vylepšení vašich snímků.
+type: docs
 weight: 13
 url: /cs/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření poutavých a informativních prezentací PowerPoint často vyžaduje použití funkcí formátování, jako je horní a dolní index textu. Tento tutoriál vás provede procesem začlenění textu horního a dolního indexu do vašich prezentací Java PowerPoint pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -93,9 +89,3 @@ Aspose.Slides for Java je robustní knihovna, která umožňuje vývojářům vy
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

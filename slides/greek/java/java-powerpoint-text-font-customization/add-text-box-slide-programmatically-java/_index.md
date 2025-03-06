@@ -3,14 +3,10 @@ title: Προσθήκη πλαισίου κειμένου στη διαφάνε�
 linktitle: Προσθήκη πλαισίου κειμένου στη διαφάνεια μέσω προγραμματισμού με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να προσθέσετε μέσω προγραμματισμού ένα πλαίσιο κειμένου στις διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την παραγωγικότητά σας με αυτόν τον οδηγό βήμα προς βήμα.
+type: docs
 weight: 24
 url: /el/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία και ο χειρισμός παρουσιάσεων του PowerPoint μέσω προγραμματισμού μπορεί να απλοποιήσει πολλές ροές εργασίας, από τη δημιουργία αναφορών έως την αυτοματοποίηση των παρουσιάσεων. Το Aspose.Slides για Java παρέχει ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εκτελούν αυτές τις εργασίες αποτελεσματικά. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στην προσθήκη ενός πλαισίου κειμένου σε μια διαφάνεια χρησιμοποιώντας το Aspose.Slides για Java. Μέχρι το τέλος αυτού του σεμιναρίου, θα έχετε ξεκάθαρη κατανόηση του τρόπου ενσωμάτωσης αυτής της λειτουργικότητας στις εφαρμογές σας Java.
 ## Προαπαιτούμενα
@@ -71,9 +67,3 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
  Μπορείτε να αποκτήσετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) από τον Aspose.
 ### Υποστηρίζει το Aspose.Slides τη μετατροπή παρουσιάσεων σε άλλες μορφές;
 Ναι, υποστηρίζει διάφορες μορφές, όπως PDF και εικόνες.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

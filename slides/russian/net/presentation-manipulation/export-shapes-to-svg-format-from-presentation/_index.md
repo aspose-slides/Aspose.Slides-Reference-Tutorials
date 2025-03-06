@@ -3,14 +3,10 @@ title: Экспорт фигур в формат SVG из презентации
 linktitle: Экспорт фигур в формат SVG из презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как экспортировать фигуры из презентации PowerPoint в формат SVG с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом. Эффективно извлекайте формы для различных приложений.
+type: docs
 weight: 16
 url: /ru/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 В современном цифровом мире презентации играют решающую роль в эффективной передаче информации. Однако иногда нам необходимо экспортировать определенные фигуры из наших презентаций в разные форматы для различных целей. Одним из таких форматов является SVG (масштабируемая векторная графика), известный своей масштабируемостью и адаптируемостью. В этом уроке мы покажем вам процесс экспорта фигур в формат SVG из презентации с помощью Aspose.Slides для .NET.
 
@@ -87,9 +83,3 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 Теперь, когда вы научились экспортировать фигуры в формат SVG, вы можете улучшить свои презентации и сделать их более универсальными для различных целей. Приятного кодирования!
 
  Более подробную информацию и расширенные функции см.[Справочник по API Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 기하학 모양에 복합 개체 만들기
 linktitle: 기하학 모양에 복합 개체 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 포괄적인 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 기하학적 형태로 복합 개체를 만드는 방법을 알아보세요. Java 개발자에게 적합합니다.
+type: docs
 weight: 20
 url: /ko/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 안녕하세요! Java를 사용하여 PowerPoint 프레젠테이션에서 멋지고 복잡한 모양을 만들고 싶었던 적이 있습니까? 글쎄, 당신은 바로 이곳에 있습니다. 이 튜토리얼에서는 강력한 Aspose.Slides for Java 라이브러리에 대해 자세히 알아보고 기하학적 형태로 복합 객체를 생성합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 인상적인 결과를 즉시 달성하는 데 도움이 될 것입니다. 시작할 준비가 되셨나요? 뛰어들어보자!
 ## 전제 조건
@@ -99,9 +95,3 @@ Aspose.Slides for Java는 Java로 PowerPoint 프레젠테이션을 생성, 조�
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 추가 문서와 지원은 어디서 찾을 수 있나요?
  확인해 보세요[선적 서류 비치](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

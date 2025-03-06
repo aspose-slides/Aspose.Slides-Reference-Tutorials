@@ -3,14 +3,10 @@ title: Wykres lejkowy w slajdach Java
 linktitle: Wykres lejkowy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się tworzyć wykresy lejkowe w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiający efektywną wizualizację danych.
+type: docs
 weight: 18
 url: /pl/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do tworzenia wykresu lejkowego w Aspose.Slides dla Java
 
@@ -141,9 +137,3 @@ Możesz dostosować położenie i rozmiar wykresu lejkowego, modyfikując wspó�
 ### Czy mogę wyeksportować wykres do różnych formatów, takich jak PDF lub obraz?
 
 Tak, Aspose.Slides for Java umożliwia eksport prezentacji z wykresem lejkowym do różnych formatów, w tym PDF, formatów obrazów i innych. Możesz skorzystać z`SaveFormat` opcje umożliwiające określenie żądanego formatu wyjściowego podczas zapisywania prezentacji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

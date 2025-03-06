@@ -3,14 +3,10 @@ title: Folien innerhalb der Präsentation vergleichen
 linktitle: Folien innerhalb der Präsentation vergleichen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Folien in Präsentationen mit Aspose.Slides für .NET vergleichen. Schritt-für-Schritt-Anleitung mit Quellcode für genaue Vergleiche.
+type: docs
 weight: 12
 url: /de/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung zum Vergleichen von Folien innerhalb einer Präsentation
 
@@ -147,9 +143,3 @@ Sie können Vergleichsberichte zum einfachen Teilen und Dokumentieren in Formate
 ### Gibt es bewährte Methoden zur Optimierung der Leistung von Präsentationsvergleichen?
 
 Ja, die Implementierung effizienter Algorithmen und die Verwaltung der Speichernutzung sind der Schlüssel zur Optimierung der Leistung des Präsentationsvergleichs.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

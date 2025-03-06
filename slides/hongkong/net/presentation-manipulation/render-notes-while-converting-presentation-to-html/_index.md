@@ -3,14 +3,10 @@ title: 將簡報轉換為 HTML 時渲染註釋
 linktitle: 將簡報轉換為 HTML 時渲染註釋
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將簡報轉換為 HTML 時有效地呈現演講者註解。本逐步指南提供了原始程式碼範例和見解，可協助您透過註解保存實現無縫轉換。
+type: docs
 weight: 28
 url: /zh-hant/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今的數位時代，將簡報轉換為 HTML 格式已成為常見要求。它允許您輕鬆地在網路上分享您的簡報，讓更多的受眾可以存取它們。 Aspose.Slides for .NET 是一個功能強大的工具，可以簡化這個過程。在本逐步教學中，我們將引導您完成使用 Aspose.Slides for .NET 將簡報轉換為 HTML 的過程。
 
@@ -83,10 +79,3 @@ Aspose.Slides for .NET 提供對轉換過程的精確控制，確保高品質的
 如果您遇到任何問題或有疑問，可以透過以下方式尋求協助[Aspose.Slides 論壇](https://forum.aspose.com/).
 
 透過執行下列步驟，您可以使用 Aspose.Slides for .NET 輕鬆將 PowerPoint 簡報轉換為 HTML。享受與更廣泛的受眾在線分享您的簡報！
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

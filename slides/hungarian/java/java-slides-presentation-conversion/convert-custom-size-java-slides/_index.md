@@ -3,14 +3,10 @@ title: Konvertálása egyéni mérettel a Java Slides alkalmazásban
 linktitle: Konvertálása egyéni mérettel a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan alakíthat át PowerPoint-prezentációkat egyéni méretű TIFF-képekké az Aspose.Slides for Java segítségével. Lépésről lépésre, kódpéldákkal fejlesztők számára.
+type: docs
 weight: 31
 url: /hu/java/presentation-conversion/convert-custom-size-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az egyéni mérettel történő konvertáláshoz a Java Slides-ben
 
@@ -141,9 +137,3 @@ Igen, beállíthatja a DPI-t a gombbal`setDpiX` és`setDpiY` módszerek a`TiffOp
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 
  Az Aspose.Slides for Java-val kapcsolatos részletes dokumentációért és további információkért keresse fel a következő dokumentációt:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

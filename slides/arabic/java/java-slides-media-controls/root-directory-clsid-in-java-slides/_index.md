@@ -3,14 +3,10 @@ title: ClsId الدليل الجذر في شرائح جافا
 linktitle: ClsId الدليل الجذر في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين Root Directory ClsId في Aspose.Slides لعروض Java التقديمية. تخصيص سلوك الارتباط التشعبي باستخدام CLSID.
+type: docs
 weight: 10
 url: /ar/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لإعداد ClsId للدليل الجذري في Aspose.Slides لـ Java
 
@@ -111,9 +107,3 @@ try {
 ### هل هناك أي قيود على معرفات CLSID التي يمكنني استخدامها؟
 
 عادةً ما يتم تحديد معرفات CLSID التي يمكنك استخدامها من خلال التطبيقات المثبتة على النظام. يجب عليك استخدام معرفات CLSID التي تتوافق مع التطبيقات الصالحة القادرة على التعامل مع الارتباطات التشعبية. انتبه إلى أن استخدام CLSID غير صالح قد يؤدي إلى سلوك غير متوقع.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

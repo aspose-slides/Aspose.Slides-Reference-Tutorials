@@ -3,14 +3,10 @@ title: Dia háttér módosítása az Aspose.Slides-ben
 linktitle: Dia háttér módosítása az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan testreszabhatja a dia hátterét az Aspose.Slides for .NET segítségével. Emelje fel prezentációit tetszetős hátterekkel. Kezdje el még ma!
+type: docs
 weight: 10
 url: /hu/net/slide-background-manipulation/slide-background-modification/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Amikor vizuálisan lenyűgöző prezentációkat kell készíteni, a háttér döntő szerepet játszik. Az Aspose.Slides for .NET lehetővé teszi a diák hátterének egyszerű testreszabását. Ebben az oktatóanyagban megvizsgáljuk, hogyan módosíthatja a diák hátterét az Aspose.Slides for .NET segítségével. 
 
@@ -127,10 +123,3 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet módosítani a diák hátter�
 ### 5. Testreszabhatom a dia hátterét egy prezentáció több diájához?
 
 Igen, a prezentáció bármely diájához módosíthatja a dia hátterét az Aspose.Slides for .NET segítségével. Egyszerűen célozza meg a testreszabni kívánt diát, és kövesse az ebben az oktatóanyagban ismertetett lépéseket.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

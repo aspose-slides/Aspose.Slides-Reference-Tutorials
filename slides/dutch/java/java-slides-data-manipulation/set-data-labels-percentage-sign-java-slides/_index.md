@@ -3,14 +3,10 @@ title: Gegevenslabels instellen Percentage Aanmelden in Java-dia's
 linktitle: Gegevenslabels instellen Percentage Aanmelden in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u gegevenslabels met procenttekens instelt in PowerPoint-presentaties met Aspose.Slides voor Java. Maak boeiende grafieken met stapsgewijze begeleiding en broncode.
+type: docs
 weight: 17
 url: /nl/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het instellen van gegevenslabels Percentage-aanmelding in Aspose.Slides voor Java
 
@@ -180,10 +176,3 @@ Ja, u kunt de lettergrootte van gegevenslabels aanpassen door de`setFontHeight` 
 ### Hoe kan ik meer series aan het diagram toevoegen?
 
  U kunt extra reeksen aan het diagram toevoegen met behulp van de`add` methode op de`IChartSeriesCollection` voorwerp.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

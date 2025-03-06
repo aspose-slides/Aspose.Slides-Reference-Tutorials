@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 �
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 복제
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides API를 사용하여 프레젠테이션 슬라이드의 모양을 효율적으로 복제하는 방법을 알아보세요. 다이내믹한 프레젠테이션을 쉽게 만들어 보세요. 단계별 가이드, FAQ 등을 살펴보세요.
+type: docs
 weight: 27
 url: /ko/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 
@@ -101,9 +97,3 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## 결론
 
 Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 모양 복제 기능을 활용하면 콘텐츠 제작자와 개발자 모두에게 창의적인 가능성의 세계가 열립니다. 이 가이드는 설치부터 고급 사용자 정의까지의 과정을 안내하여 프레젠테이션을 돋보이게 만드는 데 필요한 도구를 제공합니다. Aspose.Slides를 사용하면 작업 흐름을 간소화하고 프레젠테이션 비전을 손쉽게 실현할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 슬라이드 댓글 조작
 linktitle: 슬라이드 댓글 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 슬라이드 주석 조작에 대한 Aspose.Slides 튜토리얼을 통해 슬라이드 조작 기술을 향상하세요. .NET을 사용하여 PowerPoint 프레젠테이션에서 프로그래밍 방식으로 주석을 추가, 편집 및 관리하는 방법을 알아보세요.
+type: docs
 weight: 12
 url: /ko/net/slide-comments-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 
@@ -31,9 +27,3 @@ url: /ko/net/slide-comments-manipulation/
 Aspose.Slides API를 사용하여 프레젠테이션에 깊이와 상호 작용을 추가하세요. .NET을 사용하여 슬라이드에 주석을 쉽게 통합하는 방법을 알아보세요. 참여도를 높이고 청중의 마음을 사로잡으세요.
 ### [최신 댓글 관리](./modern-comments/)
 Aspose.Slides를 사용한 현대적인 댓글 관리로 협업 및 피드백 프로세스를 강화하세요. 프레젠테이션에서 의사소통을 간소화하고 생산성을 극대화하는 방법을 알아보세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

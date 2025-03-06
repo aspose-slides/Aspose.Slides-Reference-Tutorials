@@ -3,14 +3,10 @@ title: Find and Replace Text in PowerPoint using Java
 linktitle: Find and Replace Text in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to efficiently replace text in PowerPoint presentations using Aspose.Slides for Java. Boost your Java application's productivity with this tutorial.
+type: docs
 weight: 13
 url: /java/java-powerpoint-text-alignment-formatting/find-and-replace-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the realm of Java programming, manipulating PowerPoint presentations programmatically can greatly enhance productivity and customization. Aspose.Slides for Java offers a robust solution for developers looking to automate tasks such as finding and replacing text within PowerPoint slides. This tutorial will guide you through the process of finding and replacing text in PowerPoint presentations using Aspose.Slides for Java. Whether you're looking to streamline document editing or integrate automated workflows, mastering this capability can significantly boost your efficiency.
 ## Prerequisites
@@ -79,10 +75,3 @@ Explore comprehensive documentation and examples at [Aspose.Slides Java Document
 Yes, Aspose.Slides supports various PowerPoint file formats, including PPT, PPTX, and others.
 ### Can I try Aspose.Slides for Java before purchasing?
 Yes, you can download a free trial from [here](https://releases.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Převeďte prezentaci do PDF chráněného heslem v Java Slides
 linktitle: Převeďte prezentaci do PDF chráněného heslem v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak převést PowerPointové prezentace na zabezpečené, heslem chráněné PDF v Javě pomocí Aspose.Slides. Zvyšte zabezpečení dokumentů.
+type: docs
 weight: 17
 url: /cs/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do převodu prezentace do PDF chráněného heslem v Java Slides
 
@@ -150,9 +146,3 @@ Ano, proces převodu více prezentací do PDF chráněných heslem můžete zaut
 ### Je Aspose.Slides for Java vhodný pro komerční použití?
 
 Ano, Aspose.Slides for Java je vhodný pro komerční použití. Nabízí řadu funkcí pro práci s powerpointovými prezentacemi v aplikacích Java a je široce používán v průmyslu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

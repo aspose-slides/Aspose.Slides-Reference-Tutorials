@@ -3,14 +3,10 @@ title: Convert to PDF Compliance in Java Slides
 linktitle: Convert to PDF Compliance in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to PDF with PDF/A-2a compliance using Aspose.Slides for Java. Follow our step-by-step guide with source code for seamless archiving and accessibility.
+type: docs
 weight: 26
 url: /java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Convert to PDF Compliance in Java Slides
 
@@ -118,10 +114,3 @@ Yes, you typically need a valid license for Aspose.Slides for Java to use its ad
 ## Where can I find more information about Aspose.Slides for Java and PDF compliance?
 
 For more detailed information about Aspose.Slides for Java and its features, including PDF compliance settings, you can refer to the documentation on the [Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/). Additionally, you can explore code examples and tutorials to further enhance your knowledge of the library.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

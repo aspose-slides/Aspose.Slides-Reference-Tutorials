@@ -3,14 +3,10 @@ title: Ajouter une ligne simple à la diapositive
 linktitle: Ajouter une ligne simple à la diapositive
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter une ligne simple à une diapositive PowerPoint par programme à l'aide d'Aspose.Slides pour Java. Boostez votre productivité avec ce guide étape par étape.
+type: docs
 weight: 14
 url: /fr/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Aspose.Slides for Java est une bibliothèque puissante qui permet aux développeurs Java de travailler avec des présentations PowerPoint par programme. Avec Aspose.Slides, vous pouvez créer, modifier et convertir facilement des fichiers PowerPoint, ce qui vous fait gagner du temps et des efforts. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'une ligne simple à une diapositive dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -66,9 +62,3 @@ Absolument! Aspose.Slides propose une large gamme de types de formes, notamment 
 Oui, vous pouvez ajouter du texte, des images et d'autres contenus à la diapositive à l'aide de l'API Aspose.Slides.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Slides ?
  Oui, vous pouvez télécharger un essai gratuit d’Aspose.Slides à partir de[ici](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

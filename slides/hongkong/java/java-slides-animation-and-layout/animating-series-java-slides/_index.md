@@ -3,14 +3,10 @@ title: Java 投影片動畫系列
 linktitle: Java 投影片動畫系列
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 中的系列動畫優化您的簡報。請按照我們的逐步指南和原始程式碼範例來創建引人入勝的 PowerPoint 動畫。
+type: docs
 weight: 11
 url: /zh-hant/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java 中的動畫系列簡介
 
@@ -129,9 +125,3 @@ finally
 ### 如何自訂動畫持續時間和延遲？
 
 您可以透過設定動畫效果的屬性來自訂動畫持續時間和延遲。有關可用自訂選項的詳細信息，請查看 Aspose.Slides for Java 文件。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

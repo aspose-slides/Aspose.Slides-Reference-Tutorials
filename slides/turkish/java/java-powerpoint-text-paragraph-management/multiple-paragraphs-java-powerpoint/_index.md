@@ -3,14 +3,10 @@ title: Java PowerPoint'te Çoklu Paragraflar
 linktitle: Java PowerPoint'te Çoklu Paragraflar
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında birden fazla paragraf oluşturmayı öğrenin. Kod örnekleriyle eksiksiz kılavuz.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java kullanarak Java'da birden fazla paragraf içeren slaytların nasıl oluşturulacağını keşfedeceğiz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmelerine olanak tanıyan güçlü bir kitaplıktır; bu da onu slayt oluşturma ve biçimlendirmeyle ilgili görevlerin otomatikleştirilmesi için ideal kılar.
 ## Önkoşullar
@@ -117,9 +113,3 @@ Aspose.Slides çeşitli PowerPoint formatlarını destekleyerek farklı sürüml
  Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Gerektiğinde teknik desteği nasıl alabilirim?
  Aspose.Slides topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

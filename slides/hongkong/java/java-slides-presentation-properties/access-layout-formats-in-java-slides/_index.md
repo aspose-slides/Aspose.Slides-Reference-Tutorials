@@ -3,14 +3,10 @@ title: 存取 Java 投影片中的版面格式
 linktitle: 存取 Java 投影片中的版面格式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 存取和操作 Java Slides 中的佈局格式。在 PowerPoint 簡報中輕鬆自訂形狀和線條樣式。
+type: docs
 weight: 10
 url: /zh-hant/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 投影片中的存取版面配置格式簡介
 
@@ -142,9 +138,3 @@ IShape shape = layoutSlide.getShapes().get_Item(0); //存取佈局投影片上�
 ```
 
 然後您可以使用`IFillFormat`和`ILineFormat`方法如前面的答案所示來修改形狀的填滿和線條格式。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

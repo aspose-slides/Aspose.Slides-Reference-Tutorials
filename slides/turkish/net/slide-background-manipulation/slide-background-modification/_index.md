@@ -3,14 +3,10 @@ title: Aspose.Slides'ta Slayt Arka Planı Değişikliği
 linktitle: Aspose.Slides'ta Slayt Arka Planı Değişikliği
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak slayt arka planlarını nasıl özelleştireceğinizi öğrenin. Sunumlarınızı görsel olarak çekici arka planlarla zenginleştirin. Bu gün başlayacağım!
+type: docs
 weight: 10
 url: /tr/net/slide-background-manipulation/slide-background-modification/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Görsel olarak büyüleyici sunumlar oluşturmak söz konusu olduğunda arka plan çok önemli bir rol oynar. Aspose.Slides for .NET, slayt arka planlarını kolaylıkla özelleştirmenizi sağlar. Bu eğitimde Aspose.Slides for .NET kullanarak slayt arka planlarının nasıl değiştirileceğini inceleyeceğiz. 
 
@@ -127,10 +123,3 @@ Bu eğitimde Aspose.Slides for .NET'te slayt arka planlarının nasıl değişti
 ### 5. Bir sunumdaki birden fazla slayt için slayt arka planlarını özelleştirebilir miyim?
 
 Evet, Aspose.Slides for .NET'i kullanarak bir sunumdaki herhangi bir slaytın slayt arka planlarını değiştirebilirsiniz. Özelleştirmek istediğiniz slaydı hedefleyin ve bu eğitimde özetlenen adımların aynısını izleyin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

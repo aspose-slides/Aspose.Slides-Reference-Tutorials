@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Sunum Slaytlarını Yeniden Şekillendirme
 linktitle: Aspose.Slides Kullanarak Sunum Slaytlarındaki Şekillerin Sırasını Değiştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunum slaytlarını nasıl yeniden şekillendireceğinizi öğrenin. Şekilleri yeniden sıralamak ve görsel çekiciliği artırmak için bu adım adım kılavuzu izleyin.
+type: docs
 weight: 26
 url: /tr/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Görsel olarak çekici sunum slaytları oluşturmak, etkili iletişimin çok önemli bir yönüdür. Aspose.Slides for .NET, geniş bir işlevsellik yelpazesi sunarak geliştiricilerin slaytları programlı olarak değiştirmesine olanak tanır. Bu eğitimde Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki şekillerin sırasını değiştirme sürecini inceleyeceğiz.
 ## Önkoşullar
@@ -74,9 +70,3 @@ C: Evet, Aspose.Slides for .NET hem Windows hem de Linux ortamlarıyla uyumludur
  C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) destek almak ve toplulukla etkileşime geçmek için.
 ### S: Aspose.Slides for .NET için nasıl geçici lisans alabilirim?
  C: Bir[geçici lisans](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

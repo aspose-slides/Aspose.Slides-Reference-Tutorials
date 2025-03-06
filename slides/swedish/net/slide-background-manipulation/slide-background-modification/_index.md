@@ -3,14 +3,10 @@ title: Bildbakgrundsändring i Aspose.Slides
 linktitle: Bildbakgrundsändring i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du anpassar bildbakgrunder med Aspose.Slides för .NET. Lyft dina presentationer med visuellt tilltalande bakgrunder. Kom igång idag!
+type: docs
 weight: 10
 url: /sv/net/slide-background-manipulation/slide-background-modification/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 När det kommer till att skapa visuellt fängslande presentationer spelar bakgrunden en avgörande roll. Aspose.Slides för .NET ger dig möjlighet att enkelt anpassa bildens bakgrunder. I den här handledningen kommer vi att undersöka hur du ändrar bildbakgrunder med Aspose.Slides för .NET. 
 
@@ -127,10 +123,3 @@ den här handledningen har vi lärt oss hur man ändrar bildbakgrunder i Aspose.
 ### 5. Kan jag anpassa bildbakgrunder för flera bilder i en presentation?
 
 Ja, du kan ändra bildbakgrunder för alla bilder i en presentation med Aspose.Slides för .NET. Rikta bara in bilden du vill anpassa och följ samma steg som beskrivs i den här handledningen.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

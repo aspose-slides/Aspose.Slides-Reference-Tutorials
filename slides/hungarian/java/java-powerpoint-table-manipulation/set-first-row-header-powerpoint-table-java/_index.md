@@ -3,14 +3,10 @@ title: Állítsa be az első sort fejlécként a PowerPoint-táblázatban Java-v
 linktitle: Állítsa be az első sort fejlécként a PowerPoint-táblázatban Java-val
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be az első sort fejlécként a PowerPoint-táblázatokban az Aspose.Slides for Java segítségével. Javítsa a prezentáció áttekinthetőségét és a rendszerezést könnyedén.
+type: docs
 weight: 19
 url: /hu/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet a PowerPoint táblákat manipulálni az Aspose.Slides for Java segítségével, amely egy hatékony könyvtár, amely lehetővé teszi a prezentációk zökkenőmentes integrációját és módosítását. Konkrétan a táblázat első sorának fejlécként való beállítására fogunk összpontosítani, ezzel javítva a diák vizuális vonzerejét és rendezettségét.
 ## Előfeltételek
@@ -80,9 +76,3 @@ Az Aspose.Slides for Java egy robusztus könyvtár a PowerPoint fájlokkal való
  A részletes dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
  Közösségi támogatást kaphat[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

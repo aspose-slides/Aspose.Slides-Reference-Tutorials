@@ -3,14 +3,10 @@ title: Aggiungi caratteri incorporati in PowerPoint utilizzando Java
 linktitle: Aggiungi caratteri incorporati in PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere caratteri incorporati alle presentazioni di PowerPoint utilizzando Java con Aspose.Slides per Java. Garantisci una visualizzazione coerente su tutti i dispositivi.
+type: docs
 weight: 10
 url: /it/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 In questo tutorial, ti guideremo attraverso il processo di aggiunta di caratteri incorporati alle presentazioni di PowerPoint utilizzando Java, sfruttando in particolare Aspose.Slides per Java. I caratteri incorporati garantiscono che la tua presentazione appaia coerente su diversi dispositivi, anche se il carattere originale non è disponibile. Immergiamoci nei passaggi:
 ## Prerequisiti
@@ -73,9 +69,3 @@ Sì, l'incorporamento dei caratteri può aumentare leggermente la dimensione del
 Aspose.Slides per Java supporta l'incorporamento di caratteri TrueType, che copre un'ampia gamma di caratteri comunemente utilizzati nelle presentazioni.
 ### Posso incorporare i caratteri a livello di codice utilizzando Aspose.Slides per Java?
 Sì, come dimostrato in questo tutorial, puoi incorporare i caratteri a livello di codice utilizzando l'API Aspose.Slides per Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Padroneggiare le animazioni PowerPoint con Aspose.Slides .NET
 linktitle: Ripeti l'animazione sulla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Controlla le animazioni senza sforzo, affascina il tuo pubblico e lascia un'impressione duratura.
+type: docs
 weight: 12
 url: /it/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Nel dinamico mondo delle presentazioni, la capacità di controllare le animazioni gioca un ruolo fondamentale nel coinvolgere e catturare l'attenzione del pubblico. Aspose.Slides per .NET consente agli sviluppatori di farsi carico dei tipi di animazione all'interno delle diapositive, consentendo una presentazione più interattiva e visivamente accattivante. In questo tutorial esploreremo come controllare i tipi di animazione su una diapositiva utilizzando Aspose.Slides per .NET, passo dopo passo.
 ## Prerequisiti
@@ -70,9 +66,3 @@ Aspose.Slides fornisce supporto per un'ampia gamma di versioni di PowerPoint, ga
  Visita[Qui](https://purchase.aspose.com/temporary-license/) per informazioni su come ottenere una licenza temporanea.
 ### Hai bisogno di aiuto o hai altre domande?
  Interagisci con la community di Aspose.Slides su[Forum di assistenza](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

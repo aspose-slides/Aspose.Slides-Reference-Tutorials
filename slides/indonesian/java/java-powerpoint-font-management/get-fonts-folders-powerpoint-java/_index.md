@@ -3,14 +3,10 @@ title: Dapatkan Folder Font di PowerPoint menggunakan Java
 linktitle: Dapatkan Folder Font di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengekstrak folder font dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides, sehingga meningkatkan kemampuan desain presentasi Anda.
+type: docs
 weight: 13
 url: /id/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari proses memperoleh folder font dalam presentasi PowerPoint menggunakan Java. Font memainkan peran penting dalam daya tarik visual dan keterbacaan presentasi Anda. Dengan memanfaatkan Aspose.Slides untuk Java, kita dapat mengakses direktori font secara efisien, yang penting untuk berbagai operasi terkait font dalam presentasi PowerPoint.
 ## Prasyarat
@@ -50,9 +46,3 @@ Folder font memfasilitasi akses ke sumber daya font, memungkinkan integrasi font
  Anda dapat mengunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk mencari dukungan dari komunitas atau tim dukungan Aspose.
 ### Di mana saya dapat membeli Aspose.Slides untuk Java?
  Anda dapat membeli Aspose.Slides untuk Java dari situs web[Di Sini](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

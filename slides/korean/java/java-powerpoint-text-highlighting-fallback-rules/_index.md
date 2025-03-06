@@ -3,14 +3,10 @@ title: Java PowerPoint 텍스트 강조 표시 및 대체 규칙
 linktitle: Java PowerPoint 텍스트 강조 표시 및 대체 규칙
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint에서 텍스트 강조 표시 및 글꼴 대체 규칙을 마스터하세요. 프레젠테이션을 원활하게 향상하고 자동화하려면 튜토리얼을 따르십시오.
+type: docs
 weight: 25
 url: /ko/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 
@@ -30,9 +26,3 @@ PowerPoint 슬라이드에서 특정 텍스트를 눈에 띄게 만들어야 했
 Aspose.Slides for Java를 사용하여 PowerPoint에서 텍스트를 강조 표시하는 방법을 알아보세요. 자세한 가이드를 통해 프레젠테이션을 손쉽게 자동화하고 향상하세요.
 ### [Java PowerPoint의 대체 규칙 컬렉션](./fallback-rules-collection-java-powerpoint/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 대체 규칙을 관리하는 방법을 알아보세요. 장치 간 호환성을 손쉽게 향상하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

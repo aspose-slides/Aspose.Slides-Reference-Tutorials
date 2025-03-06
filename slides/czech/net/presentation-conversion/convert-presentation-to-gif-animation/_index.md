@@ -3,14 +3,10 @@ title: Převést prezentaci na animaci GIF
 linktitle: Převést prezentaci na animaci GIF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vytvářejte podmanivé prezentace s animacemi GIF pomocí Aspose.Slides pro .NET. Transformujte statické snímky na dynamické vizuální zážitky.
+type: docs
 weight: 20
 url: /cs/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dnešní digitální době hraje vizuální obsah zásadní roli v komunikaci. Někdy může být potřeba převést prezentaci na animaci GIF, aby byla poutavější a sdílená. Naštěstí s pomocí Aspose.Slides pro .NET se tento úkol stává přímočarým. V tomto tutoriálu vás provedeme procesem převodu prezentace na animaci GIF pomocí následujícího zdrojového kódu.
 
@@ -84,9 +80,3 @@ Ano, můžete upravit přechodové efekty a další parametry v kódu a vytvoři
 
 ### Q5: Kde mohu získat přístup ke zdrojovému kódu tohoto kurzu?
  Zdrojový kód a další návody najdete na Aspose.Slides v dokumentaci[tady](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

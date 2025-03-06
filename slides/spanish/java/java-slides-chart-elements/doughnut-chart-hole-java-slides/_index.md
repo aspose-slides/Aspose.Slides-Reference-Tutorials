@@ -3,14 +3,10 @@ title: Agujero del gráfico de anillos en diapositivas de Java
 linktitle: Agujero del gráfico de anillos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Cree gráficos de anillos con tamaños de orificios personalizados en diapositivas de Java utilizando Aspose.Slides para Java. Guía paso a paso con código fuente para la personalización de gráficos.
+type: docs
 weight: 11
 url: /es/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción al gráfico de anillos con un agujero en diapositivas de Java
 
@@ -98,9 +94,3 @@ finally
 ### ¿Es posible agregar un título al gráfico?
 
  ¡Ciertamente! Puede agregar un título al gráfico usando el`setTitle` método en el`IChart` objeto y proporcionando el texto del título deseado.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

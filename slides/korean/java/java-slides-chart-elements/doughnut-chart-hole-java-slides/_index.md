@@ -3,14 +3,10 @@ title: Java 슬라이드의 도넛 차트 구멍
 linktitle: Java 슬라이드의 도넛 차트 구멍
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 Java 슬라이드에서 사용자 정의 구멍 크기로 도넛 차트를 만듭니다. 차트 사용자 정의를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 11
 url: /ko/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에 구멍이 있는 도넛 차트 소개
 
@@ -98,9 +94,3 @@ finally
 ### 차트에 제목을 추가할 수 있나요?
 
  틀림없이! 다음을 사용하여 차트에 제목을 추가할 수 있습니다.`setTitle` 에 대한 방법`IChart` 개체를 선택하고 원하는 제목 텍스트를 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

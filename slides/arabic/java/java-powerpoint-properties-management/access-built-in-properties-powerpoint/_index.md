@@ -3,14 +3,10 @@ title: الوصول إلى الخصائص المضمنة في PowerPoint
 linktitle: الوصول إلى الخصائص المضمنة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الوصول إلى الخصائص المضمنة في PowerPoint باستخدام Aspose.Slides لـ Java. يرشدك هذا البرنامج التعليمي إلى كيفية استرداد المؤلف وتاريخ الإنشاء والمزيد.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية الوصول إلى الخصائص المضمنة في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. Aspose.Slides هي مكتبة قوية تسمح لمطوري Java بالعمل مع عروض PowerPoint التقديمية برمجياً، مما يتيح مهام مثل القراءة وتعديل الخصائص بسلاسة.
 ## المتطلبات الأساسية
@@ -105,9 +101,3 @@ System.out.println("Title : " + documentProperties.getTitle());
  نعم، يمكنك العثور على وثائق شاملة والوصول إلى منتديات الدعم على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

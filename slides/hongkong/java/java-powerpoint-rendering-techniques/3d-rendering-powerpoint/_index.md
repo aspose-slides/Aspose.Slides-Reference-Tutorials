@@ -3,14 +3,10 @@ title: PowerPoint 中的 3D 渲染
 linktitle: PowerPoint 中的 3D 渲染
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立令人驚嘆的 3D 渲染。提升您的簡報。
+type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將探索如何使用 Aspose.Slides for Java 將令人驚嘆的 3D 渲染融入您的 PowerPoint 簡報中。透過遵循這些逐步說明，您將能夠創建令人著迷的視覺效果，給您的觀眾留下深刻的印象。
 ## 先決條件
@@ -76,9 +72,3 @@ try {
 雖然 Aspose.Slides 提供了高級 3D 渲染功能，但必須考慮效能影響，尤其是在處理複雜場景或大型簡報時。
 ### 在哪裡可以找到 Aspose.Slides 的其他資源和支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求協助、文件和社群支援。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

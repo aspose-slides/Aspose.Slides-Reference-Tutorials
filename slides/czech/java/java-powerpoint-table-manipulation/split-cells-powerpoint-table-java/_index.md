@@ -3,14 +3,10 @@ title: Rozdělit buňky v tabulce PowerPoint pomocí Java
 linktitle: Rozdělit buňky v tabulce PowerPoint pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak programově rozdělit, sloučit a formátovat buňky PowerPoint tabulky pomocí Aspose.Slides for Java. Mistrovský design prezentace.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu se naučíte, jak manipulovat s PowerPoint tabulkami v Javě pomocí Aspose.Slides. Tabulky jsou základní součástí prezentací, často se používají k efektivní organizaci a prezentaci dat. Aspose.Slides poskytuje robustní možnosti pro vytváření, úpravu a vylepšování tabulek programově a nabízí flexibilitu v návrhu a rozložení.
 ## Předpoklady
@@ -99,9 +95,3 @@ Programová manipulace s tabulkami PowerPoint pomocí Aspose.Slides for Java pos
  Podporu můžete získat na fóru Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
 ### Mohu získat dočasnou licenci pro Aspose.Slides for Java?
  Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

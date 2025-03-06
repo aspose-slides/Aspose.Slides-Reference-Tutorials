@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में फ़नल चार्
 linktitle: जावा स्लाइड्स में फ़नल चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Slides का अन्वेषण करें। शानदार फ़नल चार्ट और बहुत कुछ बनाएँ।
+type: docs
 weight: 14
 url: /hi/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में फ़नल चार्ट का परिचय
 
@@ -148,9 +144,3 @@ finally
 ### मैं Aspose.Slides for Java के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
  आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं[प्रलेखन](https://docs.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

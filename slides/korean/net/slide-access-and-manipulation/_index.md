@@ -3,14 +3,10 @@ title: 슬라이드 접근 및 조작
 linktitle: 슬라이드 접근 및 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 슬라이드 액세스 및 조작에 대한 포괄적인 튜토리얼을 살펴보세요. 프로그래밍 방식으로 프레젠테이션을 생성, 수정 및 향상하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/net/slide-access-and-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개:
 
 .NET용 Aspose.Slides를 사용하여 역동적인 프레젠테이션 조작의 세계에 오신 것을 환영합니다! 이 튜토리얼 모음은 Aspose.Slides API의 잠재력을 최대한 활용하는 열쇠이며, .NET 애플리케이션에서 슬라이드에 원활하게 액세스하고 조작할 수 있는 도구와 지식을 제공합니다. 매력적인 프레젠테이션 제작부터 복잡한 수정 구현까지, 이 튜토리얼은 포괄적인 로드맵을 제공합니다. 숙련된 개발자이든 Aspose.Slides를 처음 시작하는 개발자이든, 당사의 단계별 가이드와 코드 예제를 통해 영향력 있는 시각적 스토리텔링을 위해 슬라이드의 힘을 활용할 수 있습니다. Aspose.Slides가 여러분의 손끝에 제공하는 기능을 탐색하면서 슬라이드 액세스 및 조작 영역으로의 여정을 시작하면서 우리와 함께 하십시오.
@@ -48,9 +44,3 @@ Aspose.Slides for .NET을 사용하여 프레젠테이션 내에서 슬라이드
 Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드를 단계별로 지우는 방법을 알아보세요. 우리 가이드는 순차 색인별로 슬라이드를 프로그래밍 방식으로 제거하는 데 도움이 되는 명확한 지침과 완전한 소스 코드를 제공합니다.
 ### [참조를 통해 슬라이드 삭제](./remove-slide-using-reference/)
 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 프로그래밍 방식으로 슬라이드를 삭제하는 방법을 알아보세요. 이 단계별 가이드를 통해 프레젠테이션 조작을 단순화하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

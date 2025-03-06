@@ -3,14 +3,10 @@ title: Personnalisation avancée des graphiques dans Aspose.Slides
 linktitle: Personnalisation avancée des graphiques dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez la personnalisation avancée des graphiques dans Aspose.Slides pour .NET. Créez des graphiques visuellement attrayants avec des conseils étape par étape.
+type: docs
 weight: 10
 url: /fr/net/advanced-chart-customization/advanced-chart-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 La création de graphiques visuellement attrayants et informatifs est une partie essentielle de la présentation des données dans de nombreuses applications. Aspose.Slides pour .NET fournit des outils robustes pour la personnalisation des graphiques, vous permettant d'affiner chaque aspect de vos graphiques. Dans ce didacticiel, nous explorerons les techniques avancées de personnalisation de graphiques à l'aide d'Aspose.Slides pour .NET.
 
@@ -308,9 +304,3 @@ Oui, Aspose.Slides pour .NET propose des options pour exporter votre présentati
 
 ### Où puis-je trouver plus de didacticiels et d’exemples pour Aspose.Slides pour .NET ?
  Vous pouvez trouver une multitude de didacticiels, d'exemples de code et de documentation sur Aspose.Slides.[site web](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

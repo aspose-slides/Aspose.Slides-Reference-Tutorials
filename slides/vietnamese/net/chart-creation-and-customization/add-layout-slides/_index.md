@@ -3,14 +3,10 @@ title: Thêm bố cục slide vào bản trình bày
 linktitle: Thêm bố cục slide vào bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint của bạn bằng Aspose.Slides for .NET. Thêm các slide bố cục để tạo cảm giác chuyên nghiệp.
+type: docs
 weight: 11
 url: /vi/net/chart-creation-and-customization/add-layout-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra một bài thuyết trình hiệu quả là một kỹ năng cần thiết. Một bài thuyết trình có cấu trúc tốt và hấp dẫn trực quan có thể truyền tải thông điệp của bạn một cách hiệu quả. Aspose.Slides for .NET là một công cụ mạnh mẽ có thể giúp bạn tạo các bản trình bày ấn tượng ngay lập tức. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Slides cho .NET để thêm các trang trình bày bố cục vào bản trình bày của bạn. Chúng tôi sẽ chia quy trình thành các bước dễ thực hiện, đảm bảo rằng bạn nắm bắt kỹ các khái niệm. Bắt đầu nào!
 
@@ -108,9 +104,3 @@ Aspose.Slides for .NET là thư viện .NET cho phép các nhà phát triển l�
 
 ### Tôi có thể nhận hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.Slides cho .NET ở đâu?
  Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ, bạn có thể truy cập diễn đàn Aspose.Slides for .NET tại[Diễn đàn cộng đồng Aspose](https://forum.aspose.com/). Cộng đồng này hoạt động tích cực và hữu ích trong việc giải quyết các thắc mắc của người dùng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

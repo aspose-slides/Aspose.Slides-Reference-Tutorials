@@ -3,14 +3,10 @@ title: Java 슬라이드의 프레젠테이션 슬라이드 쇼 설정
 linktitle: Java 슬라이드의 프레젠테이션 슬라이드 쇼 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides로 Java 슬라이드 쇼를 최적화하세요. 맞춤형 설정으로 매력적인 프레젠테이션을 만드세요. 단계별 가이드와 FAQ를 살펴보세요.
+type: docs
 weight: 16
 url: /ko/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 프레젠테이션 슬라이드 쇼 설정 소개
 
@@ -150,9 +146,3 @@ try {
 ### 슬라이드 쇼 설정을 추가로 사용자 정의하려면 어떻게 해야 합니까?
 
  Aspose.Slides for Java에서 제공하는 추가 슬라이드 쇼 설정을 탐색하여 슬라이드 쇼 경험을 필요에 맞게 조정할 수 있습니다. 다음 문서를 참조하세요.[여기](https://reference.aspose.com/slides/java/) 사용 가능한 옵션 및 구성에 대한 자세한 내용은
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

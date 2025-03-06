@@ -3,14 +3,10 @@ title: Slayt Animasyon Kontrolü
 linktitle: Slayt Animasyon Kontrolü
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumlarınızı dinamik animasyonlarla geliştirin. Bu kapsamlı eğitimde slayt animasyonlarını adım adım nasıl kontrol edeceğinizi öğrenin.
+type: docs
 weight: 18
 url: /tr/net/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giriiş:
 
@@ -40,9 +36,3 @@ Aspose.Slides for .NET kullanarak PowerPoint slaytlarındaki animasyon türlerin
 Aspose.Slides for .NET'i kullanarak bir slayttaki animasyonları nasıl tekrarlayacağınızı öğrenin. Bu adım adım kılavuz, PowerPoint sunumlarına program aracılığıyla büyüleyici animasyonlar eklemek için kaynak kodu ve net talimatlar sağlar.
 ### [Slaytta Animasyonu Geri Sarma](./rewind-animation-on-slide/)
 Aspose.Slides for .NET kullanarak PowerPoint slaytlarındaki animasyonları nasıl geri saracağınızı öğrenin. Sunumlarınızı dinamik olarak geliştirmek için eksiksiz kaynak kodu örnekleri içeren bu adım adım kılavuzu izleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

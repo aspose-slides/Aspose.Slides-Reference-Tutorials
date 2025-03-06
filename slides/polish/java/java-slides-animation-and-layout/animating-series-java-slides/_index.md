@@ -3,14 +3,10 @@ title: Seria animowana w slajdach Java
 linktitle: Seria animowana w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Optymalizuj swoje prezentacje za pomocą animacji serii w Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby tworzyć atrakcyjne animacje programu PowerPoint.
+type: docs
 weight: 11
 url: /pl/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do serii animacji w Aspose.Slides dla Java
 
@@ -129,9 +125,3 @@ Możesz rozszerzyć pętlę w kroku 3, aby dodać animacje dla wszystkich serii 
 ### Jak mogę dostosować czas trwania i opóźnienie animacji?
 
 Możesz dostosować czas trwania i opóźnienie animacji, ustawiając właściwości efektów animacji. Sprawdź dokumentację Aspose.Slides for Java, aby uzyskać szczegółowe informacje na temat dostępnych opcji dostosowywania.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

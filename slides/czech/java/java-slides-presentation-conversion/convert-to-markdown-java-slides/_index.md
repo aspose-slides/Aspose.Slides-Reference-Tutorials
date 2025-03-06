@@ -3,14 +3,10 @@ title: Převést na Markdown v Java Slides
 linktitle: Převést na Markdown v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Převeďte PowerPointové prezentace na Markdown pomocí Aspose.Slides pro Java. Postupujte podle tohoto podrobného průvodce a bez námahy transformujte své snímky.
+type: docs
 weight: 24
 url: /cs/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod Převést na Markdown v Java Slides
 
@@ -140,9 +136,3 @@ Ano, Aspose.Slides for Java je navržen pro převody v malém i velkém měřít
 ### Kde najdu další dokumentaci a zdroje?
 
  Můžete se podívat na dokumentaci Aspose.Slides for Java na adrese[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) pro podrobné informace a další příklady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Options d'enregistrement des diapositives Java
 linktitle: Options d'enregistrement des diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez les options d’enregistrement de Java Slides avec Aspose.Slides pour Java. Explorez des didacticiels et des guides complets pour une gestion et une personnalisation efficaces des diapositives.
+type: docs
 weight: 25
 url: /fr/java/saving-options/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 
 Dans le monde des présentations dynamiques, Java s'est imposé comme un langage polyvalent, offrant une multitude d'outils et de bibliothèques pour améliorer vos diaporamas. Lorsqu'il s'agit de gérer et de personnaliser des diapositives, Aspose.Slides for Java s'impose comme une solution puissante. Dans cet article, nous approfondirons le domaine passionnant des options d'enregistrement de Java Slides à l'aide d'Aspose.Slides pour Java.
@@ -50,9 +46,3 @@ Découvrez comment définir des types d'affichage prédéfinis dans Java Slides 
 Découvrez comment enregistrer des présentations PowerPoint en lecture seule en Java à l'aide d'Aspose.Slides. Protégez votre contenu avec des instructions étape par étape et des exemples de code.
 ### [Enregistrer les propriétés dans les diapositives Java](./save-properties-in-java-slides/)
 Optimisez vos présentations PowerPoint avec Aspose.Slides pour Java. Apprenez à définir les propriétés, à désactiver le cryptage, à ajouter une protection par mot de passe et à enregistrer sans effort.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

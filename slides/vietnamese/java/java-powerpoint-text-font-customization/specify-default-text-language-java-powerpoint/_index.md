@@ -3,14 +3,10 @@ title: Chỉ định ngôn ngữ văn bản mặc định trong Java PowerPoint
 linktitle: Chỉ định ngôn ngữ văn bản mặc định trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chỉ định ngôn ngữ văn bản mặc định trong Java PowerPoint bằng Aspose.Slides cho Java. Hoàn hảo cho các nhà phát triển muốn bản địa hóa văn bản theo chương trình.
+type: docs
 weight: 21
 url: /vi/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong lĩnh vực phát triển ứng dụng Java, việc quản lý và thao tác các bản trình bày PowerPoint theo chương trình là một yêu cầu phổ biến. Aspose.Slides cho Java cung cấp một bộ chức năng mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và nâng cao các bản trình bày PowerPoint một cách liền mạch thông qua mã Java. Hướng dẫn này nhằm mục đích hướng dẫn bạn qua các bước thiết yếu để chỉ định ngôn ngữ văn bản mặc định trong bản trình bày Java PowerPoint bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -70,9 +66,3 @@ Tuyệt đối. Aspose.Slides cho Java được thiết kế để có khả nă
 Có, Aspose.Slides for Java cung cấp các API hỗ trợ tích hợp với các nền tảng đám mây phổ biến.
 ### Tôi có thể đánh giá Aspose.Slides cho Java trước khi mua không?
  Có, bạn có thể tải bản dùng thử miễn phí Aspose.Slides cho Java từ[đây](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

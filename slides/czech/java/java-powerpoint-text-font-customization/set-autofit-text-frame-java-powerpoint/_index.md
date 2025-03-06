@@ -3,14 +3,10 @@ title: Nastavte automatické přizpůsobení textového rámečku v Java PowerPo
 linktitle: Nastavte automatické přizpůsobení textového rámečku v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit automatické přizpůsobení pro textové rámečky v Java PowerPoint pomocí Aspose.Slides pro Java. Vytvářejte dynamické prezentace bez námahy.
+type: docs
 weight: 14
 url: /cs/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Při vývoji aplikací Java je běžným požadavkem vytváření dynamických a vizuálně přitažlivých prezentací v PowerPointu programově. Aspose.Slides for Java poskytuje výkonnou sadu rozhraní API, jak toho dosáhnout bez námahy. Jednou ze základních funkcí je nastavení automatického přizpůsobení pro textové rámečky, které zajišťuje, že se text v rámci tvarů úhledně přizpůsobí bez ručních úprav. Tento výukový program vás provede procesem krok za krokem s využitím Aspose.Slides pro Java k automatizaci vkládání textu do snímků aplikace PowerPoint.
 ## Předpoklady
@@ -90,9 +86,3 @@ Aspose.Slides for Java je robustní Java API, které umožňuje vývojářům vy
  Můžete najít podrobnou dokumentaci k Aspose.Slides pro Javu[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
  Komunitní a profesionální podporu pro Aspose.Slides pro Javu můžete získat od[tady](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

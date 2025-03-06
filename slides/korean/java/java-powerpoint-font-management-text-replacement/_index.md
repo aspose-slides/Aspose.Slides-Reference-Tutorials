@@ -3,14 +3,10 @@ title: Java PowerPoint 글꼴 관리 및 텍스트 교체
 linktitle: Java PowerPoint 글꼴 관리 및 텍스트 교체
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용한 마스터 Java PowerPoint 글꼴 관리 및 텍스트 대체. 사용자 정의 글꼴을 로드하고, 포함된 글꼴을 관리하고, 텍스트를 원활하게 바꾸는 방법을 알아보세요.
+type: docs
 weight: 27
 url: /ko/java/java-powerpoint-font-management-text-replacement/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 
 글꼴과 텍스트 관리는 세련되고 전문적인 PowerPoint 프레젠테이션을 만드는 데 중요한 요소입니다. Aspose.Slides for Java를 사용하면 사용자 정의 글꼴을 쉽게 로드하고, 포함된 글꼴을 관리하고, 텍스트를 효율적으로 바꿀 수 있습니다. 우리의 튜토리얼은 이러한 프로세스를 안내하여 프레젠테이션이 시각적으로 매력적이고 기능적이 되도록 보장합니다. PowerPoint 기술을 향상시키기 위해 이 튜토리얼을 살펴보세요!
@@ -39,9 +35,3 @@ Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에 포함된 �
 Aspose.Slides로 Java를 사용하여 PowerPoint 프레젠테이션의 글꼴을 쉽게 교체할 수 있습니다. 원활한 글꼴 전환 프로세스에 대한 자세한 가이드를 따르십시오.
 ### [Java를 사용하여 PowerPoint에서 텍스트 바꾸기](./replace-text-powerpoint-java/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 텍스트를 바꾸는 방법을 알아보세요. 프레젠테이션 업데이트를 자동화하려면 이 단계별 가이드를 따르세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

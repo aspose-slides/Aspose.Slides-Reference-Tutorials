@@ -3,14 +3,10 @@ title: Boxdiagram in Java-dia's
 linktitle: Boxdiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u boxdiagrammen maakt in Java-presentaties met Aspose.Slides. Inclusief stapsgewijze handleiding en broncode voor effectieve datavisualisatie.
+type: docs
 weight: 10
 url: /nl/java/chart-elements/box-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot Box Chart in Aspose.Slides voor Java
 
@@ -152,9 +148,3 @@ U kunt het uiterlijk van het boxdiagram aanpassen door eigenschappen zoals lijns
 ### Wat betekent QuartileMethodType.Exclusive?
 
  De`QuartileMethodType.Exclusive` De instelling specificeert dat de kwartielberekeningen moeten worden uitgevoerd met behulp van de exclusieve methode. U kunt verschillende kwartielberekeningsmethoden kiezen, afhankelijk van uw gegevens en vereisten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

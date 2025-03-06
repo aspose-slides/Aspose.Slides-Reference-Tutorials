@@ -3,14 +3,10 @@ title: Μετατροπή σε HTML5 σε διαφάνειες Java
 linktitle: Μετατροπή σε HTML5 σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μετατροπή παρουσιάσεων PowerPoint σε HTML5 σε Java χρησιμοποιώντας το Aspose.Slides. Μάθετε να αυτοματοποιείτε τη διαδικασία μετατροπής με παραδείγματα κώδικα βήμα προς βήμα.
+type: docs
 weight: 23
 url: /el/java/presentation-conversion/convert-to-html5-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη μετατροπή παρουσίασης PowerPoint σε HTML5 σε Java χρησιμοποιώντας Aspose.Slides
 
@@ -109,9 +105,3 @@ try {
 ### Είναι το Aspose.Slides συμβατό με τις πιο πρόσφατες εκδόσεις Java;
 
 Το Aspose.Slides ενημερώνεται τακτικά για να υποστηρίζει τις πιο πρόσφατες εκδόσεις Java, επομένως βεβαιωθείτε ότι χρησιμοποιείτε μια συμβατή έκδοση της βιβλιοθήκης.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

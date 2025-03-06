@@ -3,14 +3,10 @@ title: สร้างรูปขนาดย่อรูปร่าง PowerP
 linktitle: การสร้างรูปขนาดย่อสำหรับรูปร่างใน Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างภาพขนาดย่อสำหรับรูปร่างในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับนักพัฒนา
+type: docs
 weight: 14
 url: /th/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 Aspose.Slides สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับงานนำเสนอ PowerPoint ได้อย่างราบรื่น หนึ่งในคุณสมบัติที่โดดเด่นคือความสามารถในการสร้างภาพขนาดย่อสำหรับรูปร่างภายในงานนำเสนอ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการสร้างภาพขนาดย่อสำหรับรูปร่างโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -61,9 +57,3 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 ตอบ: Aspose.Slides ให้ความยืดหยุ่นในการสร้างภาพขนาดย่อสำหรับรูปร่างต่างๆ รวมถึงกล่องข้อความ รูปภาพ และอื่นๆ
 ### ถาม: ฉันสามารถกำหนดขนาดและความละเอียดของภาพขนาดย่อที่สร้างขึ้นได้หรือไม่
  ตอบ: ได้ คุณสามารถปรับพารามิเตอร์ได้เมื่อโทร`GetThumbnail` วิธีการควบคุมขนาดและความละเอียด
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

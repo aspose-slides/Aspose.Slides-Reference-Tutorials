@@ -3,14 +3,10 @@ title: Konversi ke Kepatuhan PDF di Java Slides
 linktitle: Konversi ke Kepatuhan PDF di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi presentasi PowerPoint ke PDF dengan kepatuhan PDF/A-2a menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan kode sumber untuk pengarsipan dan aksesibilitas yang lancar.
+type: docs
 weight: 26
 url: /id/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Kepatuhan Konversi ke PDF di Slide Java
 
@@ -118,9 +114,3 @@ Ya, Anda biasanya memerlukan lisensi yang valid untuk Aspose.Slides for Java unt
 ## Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk kepatuhan Java dan PDF?
 
  Untuk informasi lebih detail tentang Aspose.Slides untuk Java dan fitur-fiturnya, termasuk pengaturan kepatuhan PDF, Anda dapat merujuk ke dokumentasi di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/). Selain itu, Anda dapat menjelajahi contoh kode dan tutorial untuk lebih meningkatkan pengetahuan Anda tentang perpustakaan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

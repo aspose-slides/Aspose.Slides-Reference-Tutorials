@@ -3,14 +3,10 @@ title: Exporteer HTML-tekst in PowerPoint met Java
 linktitle: Exporteer HTML-tekst in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u HTML-tekst uit PowerPoint kunt exporteren met Java met Aspose.Slides. Stapsgewijze handleiding voor ontwikkelaars. Perfect voor integratie in uw Java-applicaties.
+type: docs
 weight: 12
 url: /nl/java/java-powerpoint-text-alignment-formatting/export-html-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie leert u hoe u HTML-tekst uit PowerPoint-presentaties kunt exporteren met behulp van Java met behulp van Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen manipuleren, waardoor taken zoals het exporteren van tekst naar HTML eenvoudig en efficiënt worden.
 ## Vereisten
@@ -82,9 +78,3 @@ Ja, u kunt dia's opgeven op index of bereik voor exportbewerkingen.
 Ja, u heeft een geldige licentie nodig om Aspose.Slides in commerciële toepassingen te gebruiken.
 ### Waar kan ik meer voorbeelden en documentatie voor Aspose.Slides vinden?
  Bezoek de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor uitgebreide handleidingen en API-referenties.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

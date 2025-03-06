@@ -3,14 +3,10 @@ title: Επίτευξη συμμόρφωσης PDF/A και PDF/UA με το Asp
 linktitle: Επίτευξη συμμόρφωσης PDF/A και PDF/UA
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Διασφαλίστε τη συμμόρφωση των PDF/A και PDF/UA με το Aspose.Slides για .NET. Δημιουργήστε εύκολα προσβάσιμες και διατηρούμενες παρουσιάσεις.
+type: docs
 weight: 23
 url: /el/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -131,9 +127,3 @@ Install-Package Aspose.Slides
 ### Είναι απαραίτητη η συμμόρφωση με PDF/UA για όλα τα έγγραφα;
 
 Η συμμόρφωση με PDF/UA είναι ιδιαίτερα σημαντική για έγγραφα που προορίζονται να είναι προσβάσιμα σε χρήστες με ειδικές ανάγκες. Ωστόσο, η αναγκαιότητα συμμόρφωσης PDF/UA εξαρτάται από τις συγκεκριμένες απαιτήσεις του κοινού-στόχου σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

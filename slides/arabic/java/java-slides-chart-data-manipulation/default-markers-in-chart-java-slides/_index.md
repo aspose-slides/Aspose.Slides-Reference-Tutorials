@@ -3,14 +3,10 @@ title: العلامات الافتراضية في المخطط في شرائح J
 linktitle: العلامات الافتراضية في المخطط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء شرائح Java باستخدام العلامات الافتراضية في المخططات باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع كود المصدر.
+type: docs
 weight: 16
 url: /ar/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى العلامات الافتراضية في المخطط في شرائح Java
 
@@ -146,9 +142,3 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### هل يمكنني إضافة تسميات إلى نقاط البيانات؟
 
  نعم، يمكنك إضافة تسميات إلى نقاط البيانات باستخدام`IDataPoint.getLabel()` الطريقة وتخصيصها حسب الحاجة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

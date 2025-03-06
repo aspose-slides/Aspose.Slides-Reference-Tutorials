@@ -3,14 +3,10 @@ title: Изменение стиля фигуры SmartArt в PowerPoint с по
 linktitle: Изменение стиля фигуры SmartArt в PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как изменить стили SmartArt в презентациях PowerPoint с помощью Java с помощью Aspose.Slides для Java. Улучшите свои презентации.
+type: docs
 weight: 23
 url: /ru/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В мире разработки Java часто требуется создание мощных презентаций. Презентации PowerPoint являются распространенным средством коммуникации, будь то деловые презентации, образовательные цели или просто обмен информацией. Однако иногда стили и форматы по умолчанию, предоставляемые PowerPoint, могут не полностью соответствовать нашим потребностям. Именно здесь в игру вступает Aspose.Slides для Java.
 Aspose.Slides for Java — это надежная библиотека, которая позволяет разработчикам Java программно работать с презентациями PowerPoint. Он предоставляет широкий спектр функций, включая возможность манипулировать фигурами, стилями, анимацией и многим другим. В этом уроке мы сосредоточимся на одной конкретной задаче: изменении стиля фигуры SmartArt в презентациях PowerPoint с использованием Java.
@@ -73,9 +69,3 @@ presentation.save(dataDir + "ChangeSmartArtStyle_out.pptx", SaveFormat.Pptx);
  Да, вы можете приобрести временную лицензию на Aspose.Slides для Java на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти подробную документацию по Aspose.Slides для Java?
  Вы можете найти подробную документацию по Aspose.Slides для Java.[здесь](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

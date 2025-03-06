@@ -3,14 +3,10 @@ title: Voer Afdruk samenvoegen uit in presentaties
 linktitle: Voer Afdruk samenvoegen uit in presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer samenvoegen in presentaties met Aspose.Slides voor .NET in deze stapsgewijze handleiding. Creëer moeiteloos dynamische, gepersonaliseerde presentaties.
+type: docs
 weight: 21
 url: /nl/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de wereld van .NET-ontwikkeling is het creëren van dynamische en gepersonaliseerde presentaties een veel voorkomende vereiste. Een krachtig hulpmiddel dat dit proces vereenvoudigt, is Aspose.Slides voor .NET. In deze zelfstudie verdiepen we ons in de fascinerende wereld van het uitvoeren van samenvoegbewerkingen in presentaties met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -154,9 +150,3 @@ Aspose.Slides voor .NET ondersteunt een breed scala aan grafieken, waaronder lij
  Zeker! U kunt gebruikmaken van een gratis proefversie van Aspose.Slides voor .NET vanaf[hier](https://releases.aspose.com/).
 ## Conclusie
 In deze zelfstudie hebben we de opwindende mogelijkheden van Aspose.Slides voor .NET onderzocht bij het uitvoeren van samenvoegbewerkingen in presentaties. Door de stapsgewijze handleiding te volgen, kunt u moeiteloos dynamische en gepersonaliseerde presentaties maken. Verbeter uw .NET-ontwikkelingservaring met Aspose.Slides voor het naadloos genereren van presentaties.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

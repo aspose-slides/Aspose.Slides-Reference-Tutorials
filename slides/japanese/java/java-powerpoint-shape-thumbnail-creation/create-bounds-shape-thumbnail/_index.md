@@ -3,14 +3,10 @@ title: 境界シェイプサムネイルの作成
 linktitle: 境界シェイプサムネイルの作成
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して境界付きの図形サムネイルを作成する方法を学びます。このステップバイステップのチュートリアルでは、プロセスを順を追って説明します。
+type: docs
 weight: 10
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for Java は、Java 開発者がプログラムで PowerPoint プレゼンテーションを作成、操作、変換できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Slides for Java を使用して境界付きの図形のサムネイル画像を作成する方法を学習します。
 ## 前提条件
@@ -61,9 +57,3 @@ Aspose.Slides for Java は、PPT、PPTX、PPS、PPSX など、さまざまな Po
 はい、Aspose.Slides for Java は、スライドの操作、テキストの抽出、グラフの生成など、PowerPoint プレゼンテーションを操作するための広範な機能を提供します。
 ### Aspose.Slides for Java の試用版はありますか?
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

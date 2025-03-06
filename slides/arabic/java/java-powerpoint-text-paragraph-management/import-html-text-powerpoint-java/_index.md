@@ -3,14 +3,10 @@ title: استيراد نص HTML في PowerPoint باستخدام Java
 linktitle: استيراد نص HTML في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استيراد نص HTML إلى شرائح PowerPoint باستخدام Java مع Aspose.Slides للتكامل السلس. مثالي للمطورين الذين يبحثون عن إدارة المستندات.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية استيراد نص HTML إلى عرض تقديمي لـ PowerPoint باستخدام Java بمساعدة Aspose.Slides. سيرشدك هذا الدليل خطوة بخطوة خلال العملية بدءًا من استيراد الحزم الضرورية وحتى حفظ ملف PowerPoint الخاص بك.
 ## المتطلبات الأساسية
@@ -72,9 +68,3 @@ pres.save(dataDir + "output_out.pptx", SaveFormat.Pptx);
 نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات للمعالجة المجمعة الفعالة لملفات PowerPoint في Java.
 ### أين يمكنني العثور على المزيد من الأمثلة والدعم لـ Aspose.Slides؟
  قم بزيارة[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11) للحصول على أمثلة مفصلة والمساعدة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

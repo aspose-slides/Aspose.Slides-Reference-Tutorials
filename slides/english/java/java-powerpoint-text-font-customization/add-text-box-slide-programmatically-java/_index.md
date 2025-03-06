@@ -3,14 +3,10 @@ title: Add Text Box on Slide Programmatically with Java
 linktitle: Add Text Box on Slide Programmatically with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to programmatically add a text box to PowerPoint slides using Aspose.Slides for Java. Improve your productivity with this step-by-step guide.
+type: docs
 weight: 24
 url: /java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Creating and manipulating PowerPoint presentations programmatically can streamline many workflows, from generating reports to automating presentations. Aspose.Slides for Java provides a powerful API that allows developers to perform these tasks efficiently. In this tutorial, we will guide you through adding a text box to a slide using Aspose.Slides for Java. By the end of this tutorial, you will have a clear understanding of how to integrate this functionality into your Java applications.
 ## Prerequisites
@@ -71,10 +67,3 @@ Visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/java
 You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) from Aspose.
 ### Does Aspose.Slides support converting presentations to other formats?
 Yes, it supports various formats including PDF and images.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

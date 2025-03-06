@@ -3,14 +3,10 @@ title: Aggiungi segmento alla forma geometrica in PowerPoint
 linktitle: Aggiungi segmento alla forma geometrica in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere segmenti alle forme geometriche nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java con questa guida dettagliata passo passo.
+type: docs
 weight: 19
 url: /it/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Creare presentazioni accattivanti e dinamiche può essere una sfida, soprattutto quando desideri aggiungere forme e design personalizzati. È qui che Aspose.Slides per Java torna utile. Questa potente API ti consente di manipolare i file PowerPoint a livello di codice, offrendoti la flessibilità di aggiungere facilmente forme geometriche e segmenti complessi. In questo tutorial ti spiegheremo come aggiungere segmenti alle forme geometriche in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. Che tu sia uno sviluppatore che desidera automatizzare la creazione di presentazioni o semplicemente qualcuno che ama immergersi nella programmazione, questa guida sarà la tua risorsa completa.
 ## Prerequisiti
@@ -82,9 +78,3 @@ No, Aspose.Slides per Java è progettato specificamente per l'uso con Java. Tutt
 Puoi aggiungere varie forme tra cui rettangoli, ellissi, linee e forme geometriche personalizzate.
 ### Come posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere supporto da[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) dove puoi porre domande e ottenere aiuto dalla community e dagli sviluppatori.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

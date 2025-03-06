@@ -3,14 +3,10 @@ title: Wyodrębnij dźwięk z hiperłączy programu PowerPoint za pomocą Aspose
 linktitle: Wyodrębnij dźwięk z hiperłącza
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Wyodrębnij dźwięk z hiperłączy w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Ulepsz swoje projekty multimedialne bez wysiłku.
+type: docs
 weight: 12
 url: /pl/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 W świecie prezentacji multimedialnych dźwięk odgrywa kluczową rolę we wzmacnianiu ogólnego wrażenia slajdów. Czy kiedykolwiek natknąłeś się na prezentację programu PowerPoint zawierającą hiperłącza audio i zastanawiałeś się, jak wyodrębnić dźwięk do innych zastosowań? Dzięki Aspose.Slides dla .NET możesz bez wysiłku osiągnąć to zadanie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces wyodrębniania dźwięku z hiperłącza w prezentacji programu PowerPoint.
 
@@ -109,10 +105,3 @@ Tak, możesz uzyskać tymczasową licencję na Aspose.Slides dla .NET, aby speł
 
 ### Czy oprócz MPG obsługiwane są inne formaty audio do ekstrakcji?
 Aspose.Slides dla .NET umożliwia wyodrębnianie dźwięku w różnych formatach, nie ograniczając się do MPG. Po wyodrębnieniu możesz przekonwertować go na preferowany format.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Få bredd och höjd från sjökortsområdet i Java Slides
 linktitle: Få bredd och höjd från sjökortsområdet i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du hämtar dimensioner för diagramplottarea i Java Slides med Aspose.Slides för Java. Förbättra dina färdigheter i PowerPoint-automatisering.
+type: docs
 weight: 21
 url: /sv/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion
 
@@ -113,10 +109,3 @@ Ja, Aspose.Slides för Java är ett kraftfullt bibliotek för att automatisera P
 ### Hur kan jag lära mig mer om Aspose.Slides för Java?
 
  Du kan hitta omfattande dokumentation och exempel på dokumentationssidan för Aspose.Slides för Java[här](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

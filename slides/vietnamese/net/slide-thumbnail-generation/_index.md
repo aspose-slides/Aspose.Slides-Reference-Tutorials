@@ -3,14 +3,10 @@ title: Tạo hình thu nhỏ trang trình bày
 linktitle: Tạo hình thu nhỏ trang trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình thu nhỏ trang chiếu bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với các ví dụ về mã để tạo bản xem trước trang chiếu động. Nâng cao ứng dụng thuyết trình của bạn với tính năng mạnh mẽ này.
+type: docs
 weight: 17
 url: /vi/net/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu:
 
@@ -41,9 +37,3 @@ Tìm hiểu cách tạo hình ảnh thu nhỏ từ các trang chiếu PowerPoint
 Tạo hình thu nhỏ từ các trang chiếu có ghi chú bằng Aspose.Slides for .NET. Tìm hiểu từng bước cách trích xuất ghi chú, tạo hình thu nhỏ và nâng cao thao tác PowerPoint của bạn. 
 ### [Tạo hình thu nhỏ với thứ nguyên tùy chỉnh](./generate-thumbnail-with-custom-dimensions/)
 Tìm hiểu cách tạo hình thu nhỏ có kích thước tùy chỉnh trong trang trình bày bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn. Nâng cao bài thuyết trình của bạn bằng hình ảnh hấp dẫn. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

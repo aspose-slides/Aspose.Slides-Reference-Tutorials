@@ -3,14 +3,10 @@ title: Lettertype-eigenschappen in PowerPoint met Java
 linktitle: Lettertype-eigenschappen in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lettertype-eigenschappen in PowerPoint-presentaties kunt manipuleren met behulp van Java met Aspose.Slides voor Java. Pas lettertypen eenvoudig aan met deze stapsgewijze handleiding.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u lettertype-eigenschappen in PowerPoint-presentaties kunt manipuleren met behulp van Java, met name met Aspose.Slides voor Java. Wij begeleiden u bij elke stap, van het importeren van de benodigde pakketten tot het opslaan van uw aangepaste presentatie. Laten we erin duiken!
 ## Vereisten
@@ -85,9 +81,3 @@ Ja, Aspose.Slides voor Java biedt verschillende opties voor teksteffecten om uw 
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik meer ondersteuning en bronnen vinden voor Aspose.Slides voor Java?
  U kunt het Aspose.Slides-forum bezoeken[hier](https://forum.aspose.com/c/slides/11) voor ondersteuning en documentatie[hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

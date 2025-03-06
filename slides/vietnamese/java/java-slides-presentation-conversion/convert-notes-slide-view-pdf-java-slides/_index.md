@@ -3,14 +3,10 @@ title: Chuyển đổi Chế độ xem slide ghi chú thành PDF trong Java Slid
 linktitle: Chuyển đổi Chế độ xem slide ghi chú thành PDF trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint có ghi chú thành tệp PDF bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi về mã nguồn.
+type: docs
 weight: 16
 url: /vi/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Chuyển đổi Notes Slide View sang PDF trong Java Slides
 
@@ -110,9 +106,3 @@ Có, Aspose.Slides yêu cầu giấy phép hợp lệ để sử dụng cho mụ
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
  Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

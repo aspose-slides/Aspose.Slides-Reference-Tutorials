@@ -3,14 +3,10 @@ title: Konversikan Presentasi ke PDF dengan Pembaruan Kemajuan
 linktitle: Konversikan Presentasi ke PDF dengan Pembaruan Kemajuan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi ke PDF dengan pembaruan kemajuan menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber disertakan.
+type: docs
 weight: 29
 url: /id/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Di era digital saat ini, mengubah presentasi ke PDF merupakan kebutuhan umum, terutama di sektor bisnis dan pendidikan. Aspose.Slides untuk .NET memberikan solusi ampuh untuk menyelesaikan tugas ini dengan mudah. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi ke PDF sambil melacak kemajuan konversi.
 
@@ -89,9 +85,3 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan dalam kode Anda untuk me
 
 ### T: Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
  J: Anda dapat menemukan dukungan dan diskusi komunitas di[https://forum.aspose.com/](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

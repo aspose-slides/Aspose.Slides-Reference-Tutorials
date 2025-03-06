@@ -3,14 +3,10 @@ title: Вычисление формул в слайдах Java
 linktitle: Вычисление формул в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как вычислять формулы в Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом для динамических презентаций PowerPoint.
+type: docs
 weight: 10
 url: /ru/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в расчет формул в слайдах Java с использованием Aspose.Slides
 
@@ -118,10 +114,3 @@ try {
 ### Как рассчитать формулы в книге?
 
  Вы можете вычислять формулы в рабочей книге, используя`calculateFormulas` метод`IChartDataWorkbook` в Aspose.Слайды.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

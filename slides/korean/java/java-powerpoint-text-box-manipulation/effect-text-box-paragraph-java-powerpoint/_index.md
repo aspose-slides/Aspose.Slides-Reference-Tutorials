@@ -3,14 +3,10 @@ title: Java PowerPoint의 효과 텍스트 상자 단락
 linktitle: Java PowerPoint의 효과 텍스트 상자 단락
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 원활한 통합 및 사용자 정의를 위해 Aspose.Slides를 사용하여 동적 텍스트 효과로 Java에서 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요.
+type: docs
 weight: 16
 url: /ko/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Aspose.Slides for Java는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있도록 지원하여 슬라이드 생성, 수정 및 변환을 위한 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 활용하여 텍스트 상자 내에서 효과를 추가 및 관리하고 Java 코드를 통해 프레젠테이션을 동적으로 향상시키는 방법에 대해 자세히 설명합니다.
 ## 전제 조건
@@ -64,9 +60,3 @@ Java용 Aspose.Slides는 Java 6 이상을 지원합니다.
  임시면허를 받을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Slides는 .pptx 이외의 PowerPoint 파일 형식을 지원합니까?
 예, .ppt, .pptx, .pptm 등을 포함한 다양한 PowerPoint 형식을 지원합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

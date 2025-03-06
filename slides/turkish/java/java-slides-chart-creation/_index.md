@@ -3,14 +3,10 @@ title: Java Slayt Grafiği Oluşturma
 linktitle: Java Slayt Grafiği Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak grafiklerle dinamik Java slaytları oluşturmayı öğrenin. Kapsamlı eğitimlerimiz süreç boyunca size adım adım rehberlik eder.
+type: docs
 weight: 16
 url: /tr/java/chart-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Java slaytlarınızda dinamik grafiklerin gücünü açığa çıkarmaya hazır mısınız? Aspose.Slides for Java ile zahmetsizce büyüleyici grafikler oluşturabilirsiniz. Bu kapsamlı kılavuz, kurulumdan grafiğin mükemmelleştirilmesine kadar temel adımlarda size yol gösterecektir.
 
@@ -39,9 +35,3 @@ Aspose.Slides'ı kullanarak Java'da Dağılım Grafikleri oluşturmayı öğreni
 Aspose.Slides for Java'yı kullanarak Java Slides'taki grafikleri nasıl özelleştireceğinizi öğrenin. İkinci senaryo seçeneklerini keşfedin ve sunumlarınızı geliştirin.
 ### [Java Slaytlarındaki Ağaç Haritası Grafiği](./tree-map-chart-java-slides/)
 Aspose.Slides for Java'yı kullanarak Java Slaytlarında Ağaç Haritası Grafikleri oluşturun. Hiyerarşik verileri görselleştirmek için kaynak kodlu adım adım kılavuz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Opanowanie efektów animacji końcowej w programie PowerPoint za pomocą 
 linktitle: Sterowanie po typie animacji na slajdzie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak kontrolować efekty animacji końcowej na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Wzbogać swoje prezentacje dynamicznymi elementami wizualnymi.
+type: docs
 weight: 11
 url: /pl/net/slide-animation-control/control-after-animation-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Wzbogacanie prezentacji dynamicznymi animacjami jest kluczowym aspektem angażowania odbiorców. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do kontrolowania efektów animacji na slajdach. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Slides dla .NET do manipulowania typem animacji końcowej na slajdach. Postępując zgodnie z tym przewodnikiem krok po kroku, będziesz w stanie tworzyć bardziej interaktywne i atrakcyjne wizualnie prezentacje.
 ## Warunki wstępne
@@ -91,9 +87,3 @@ Tak, Aspose.Slides jest regularnie aktualizowany, aby zapewnić kompatybilność
 Aspose.Slides obsługuje różne formaty, w tym PPTX, PPT, PDF i inne. Pełną listę znajdziesz w dokumentacji.
 ### Gdzie mogę uzyskać pomoc lub zadać pytania związane z Aspose.Slides?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie i interakcję społeczną.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

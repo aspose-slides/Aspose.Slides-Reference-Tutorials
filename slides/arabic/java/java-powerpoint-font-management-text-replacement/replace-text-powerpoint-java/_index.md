@@ -3,14 +3,10 @@ title: استبدال النص في PowerPoint باستخدام Java
 linktitle: استبدال النص في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استبدال النص في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل المفصّل خطوة بخطوة لأتمتة تحديثات العرض التقديمي.
+type: docs
 weight: 13
 url: /ar/java/java-powerpoint-font-management-text-replacement/replace-text-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 هل سبق لك أن احتجت إلى تحديث النص في عرض PowerPoint التقديمي برمجياً؟ ربما لديك مئات الشرائح، والتحديثات اليدوية تستغرق وقتًا طويلاً للغاية. أدخل Aspose.Slides for Java، وهي واجهة برمجة تطبيقات قوية تجعل إدارة ملفات PowerPoint ومعالجتها أمرًا سهلاً. في هذا البرنامج التعليمي، سنرشدك خلال استبدال النص في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. بحلول نهاية هذا الدليل، ستكون محترفًا في أتمتة التحديثات النصية في شرائحك، مما يوفر عليك الوقت والجهد.
 ## المتطلبات الأساسية
@@ -84,9 +80,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 نعم، تم تصميم Aspose.Slides for Java للتعامل مع العروض التقديمية الكبيرة والمعقدة بكفاءة.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  يمكنك العثور على وثائق وأمثلة مفصلة على[Aspose.Slides لصفحة وثائق Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

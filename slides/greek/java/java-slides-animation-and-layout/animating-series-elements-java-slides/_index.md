@@ -3,14 +3,10 @@ title: Κινούμενη εικόνα στοιχείων σειράς σε δι
 linktitle: Κινούμενη εικόνα στοιχείων σειράς σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κάνετε κίνηση στοιχείων σειράς σε διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα με τον πηγαίο κώδικα για να βελτιώσετε τις παρουσιάσεις σας.
+type: docs
 weight: 12
 url: /el/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη δημιουργία κινούμενων στοιχείων σειρών σε διαφάνειες Java
 
@@ -130,9 +126,3 @@ finally
 ### Υπάρχουν πιο προηγμένες επιλογές κινούμενων εικόνων διαθέσιμες στο Aspose.Slides για Java;
 
 Ναι, το Aspose.Slides για Java προσφέρει ένα ευρύ φάσμα προηγμένων επιλογών κινούμενων εικόνων, συμπεριλαμβανομένων των διαδρομών κίνησης, του χρονισμού και των διαδραστικών κινούμενων εικόνων. Μπορείτε να εξερευνήσετε την τεκμηρίωση και τα παραδείγματα που παρέχονται από το Aspose.Slides για να εφαρμόσετε προηγμένες κινούμενες εικόνες στις παρουσιάσεις σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 在 Java Slides 中添加自定义文档属性
 linktitle: 在 Java Slides 中添加自定义文档属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java Slides 中的自定义文档属性增强 PowerPoint 演示文稿。使用 Aspose.Slides for Java 的代码示例的分步指南。
+type: docs
 weight: 13
 url: /zh/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中添加自定义文档属性的简介
 
@@ -141,9 +137,3 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 此代码将显示演示文稿中所有自定义属性的名称和值。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

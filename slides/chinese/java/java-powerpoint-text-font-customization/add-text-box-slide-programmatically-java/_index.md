@@ -3,14 +3,10 @@ title: 使用 Java 以编程方式在幻灯片上添加文本框
 linktitle: 使用 Java 以编程方式在幻灯片上添加文本框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 以编程方式将文本框添加到 PowerPoint 幻灯片。通过本分步指南提高您的工作效率。
+type: docs
 weight: 24
 url: /zh/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 通过编程方式创建和操作 PowerPoint 演示文稿可以简化许多工作流程，从生成报告到自动化演示。Aspose.Slides for Java 提供了强大的 API，允许开发人员高效地执行这些任务。在本教程中，我们将指导您使用 Aspose.Slides for Java 向幻灯片添加文本框。在本教程结束时，您将清楚地了解如何将此功能集成到您的 Java 应用程序中。
 ## 先决条件
@@ -71,9 +67,3 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
 您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)来自 Aspose。
 ### Aspose.Slides 是否支持将演示文稿转换为其他格式？
 是的，它支持各种格式，包括 PDF 和图像。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

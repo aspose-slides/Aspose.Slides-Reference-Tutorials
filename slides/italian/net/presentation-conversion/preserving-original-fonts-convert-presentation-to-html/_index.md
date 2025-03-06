@@ -3,14 +3,10 @@ title: Conservazione dei caratteri originali converti la presentazione in HTML
 linktitle: Conservazione dei caratteri originali converti la presentazione in HTML
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come preservare i caratteri originali durante la conversione delle presentazioni in HTML utilizzando Aspose.Slides per .NET. Garantisci la coerenza dei caratteri e l'impatto visivo senza sforzo.
+type: docs
 weight: 14
 url: /it/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In questa guida completa, ti guideremo attraverso il processo di conservazione dei caratteri originali durante la conversione di una presentazione in HTML utilizzando Aspose.Slides per .NET. Ti forniremo il codice sorgente C# necessario e spiegheremo ogni passaggio in dettaglio. Alla fine di questo tutorial sarai in grado di assicurarti che i caratteri nel tuo documento HTML convertito rimangano fedeli alla presentazione originale.
 
@@ -102,10 +98,3 @@ Aspose.Slides per .NET si concentra principalmente sulle presentazioni PowerPoin
 ### Q5: Dove posso accedere a risorse e supporto aggiuntivi?
 
  È possibile trovare ulteriore documentazione, tutorial e supporto sul sito Web Aspose. Visita[Aspose.Slides per la documentazione .NET](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

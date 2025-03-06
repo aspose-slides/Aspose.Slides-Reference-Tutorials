@@ -3,14 +3,10 @@ title: قم بتعيين بيانات المخطط من المصنف في شرا
 linktitle: قم بتعيين بيانات المخطط من المصنف في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين بيانات المخطط من مصنف Excel في Java Slides باستخدام Aspose.Slides. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية للعروض التقديمية الديناميكية.
+type: docs
 weight: 15
 url: /ar/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتعيين بيانات المخطط من المصنف في شرائح Java
 
@@ -146,9 +142,3 @@ try {
 ### أين يمكنني العثور على المزيد من الأمثلة والموارد للعمل مع Aspose.Slides لـ Java؟
 
  يمكنك استكشاف أمثلة وموارد إضافية على[موقع أسبوز](https://www.aspose.com/). بالإضافة إلى ذلك، توفر وثائق Aspose.Slides for Java إرشادات شاملة حول العمل مع المكتبة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

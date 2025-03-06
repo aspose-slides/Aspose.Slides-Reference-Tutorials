@@ -3,14 +3,10 @@ title: Folie ans Ende einer bestehenden Präsentation duplizieren
 linktitle: Folie ans Ende einer bestehenden Präsentation duplizieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Folie duplizieren und am Ende einer vorhandenen PowerPoint-Präsentation hinzufügen. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele und behandelt Einrichtung, Folienduplizierung, Änderung und mehr.
+type: docs
 weight: 22
 url: /de/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -100,9 +96,3 @@ Ja, Aspose.Slides unterstützt verschiedene PowerPoint-Formate, darunter PPT, PP
 ### Kann ich Folieninhalte mit Aspose.Slides ändern?
 
 Auf jeden Fall! Mit Aspose.Slides können Sie Folien nicht nur duplizieren, sondern auch deren Inhalt wie Text, Bilder, Formen und Animationen programmgesteuert bearbeiten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

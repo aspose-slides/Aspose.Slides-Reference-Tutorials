@@ -3,14 +3,10 @@ title: Převést prezentaci do formátu Markdown
 linktitle: Převést prezentaci do formátu Markdown
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak snadno převést prezentace do Markdown pomocí Aspose.Slides for .NET. Podrobný průvodce s příklady kódu.
+type: docs
 weight: 23
 url: /cs/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 dnešní digitální době je potřeba převádět prezentace do různých formátů stále důležitější. Ať už jste student, obchodní profesionál nebo tvůrce obsahu, schopnost převést své PowerPointové prezentace do formátu Markdown může být cennou dovedností. Markdown je lehký značkovací jazyk, který se široce používá pro formátování textových dokumentů a webového obsahu. V tomto podrobném tutoriálu vás provedeme procesem převodu prezentací do formátu Markdown pomocí Aspose.Slides for .NET.
 
@@ -102,10 +98,3 @@ Ano, Aspose.Slides for .NET podporuje převod do různých formátů, včetně P
 ### Q5: Kde mohu získat přístup k dočasné licenci pro Aspose.Slides pro .NET?
 
  Dočasnou licenci pro Aspose.Slides pro .NET můžete získat na adrese[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Přidejte rámeček obrázku v relativním měřítku výšky v aplikaci 
 linktitle: Přidejte rámeček obrázku v relativním měřítku výšky v aplikaci PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat rámečky obrázků v relativním měřítku do prezentací aplikace PowerPoint pomocí Aspose.Slides for Java a vylepšit tak svůj vizuální obsah.
+type: docs
 weight: 15
 url: /cs/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V tomto tutoriálu se naučíte, jak přidat rámeček obrázku s relativní výškou měřítka v prezentacích PowerPoint pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -72,9 +68,3 @@ Aspose.Slides for Java je kompatibilní s různými verzemi PowerPointu a zajiš
 Ano, Aspose.Slides for Java podporuje různé formáty obrázků, včetně PNG, GIF, BMP a dalších.
 ### Je pro uživatele Aspose.Slides k dispozici komunitní fórum nebo kanál podpory?
 Ano, můžete navštívit fórum Aspose.Slides pro jakékoli dotazy, diskuze nebo pomoc týkající se knihovny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

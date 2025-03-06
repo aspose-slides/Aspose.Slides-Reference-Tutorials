@@ -3,14 +3,10 @@ title: Tutorial Menyematkan Bingkai Video dengan Aspose.Slides untuk .NET
 linktitle: Menambahkan Bingkai Video dari Sumber Web di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyematkan bingkai video dengan mulus ke dalam slide PowerPoint menggunakan Aspose.Slides untuk .NET. Sempurnakan presentasi dengan multimedia dengan mudah.
+type: docs
 weight: 20
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menggabungkan elemen multimedia dapat meningkatkan keterlibatan secara signifikan dan menyampaikan pesan yang berdampak. Salah satu cara ampuh untuk mencapai hal ini adalah dengan menyematkan bingkai video ke dalam slide presentasi. Dalam tutorial ini, kita akan mempelajari cara melakukannya dengan lancar menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan tangguh yang memungkinkan pengembang memanipulasi presentasi PowerPoint secara terprogram, memberikan kemampuan ekstensif untuk membuat, mengedit, dan menyempurnakan slide.
 ## Prasyarat
@@ -79,9 +75,3 @@ Aspose.Slides diperbarui secara berkala untuk menjaga kompatibilitas dengan kera
 Ya, Anda dapat menyematkan banyak video dengan menambahkan bingkai video tambahan ke slide.
 ### Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

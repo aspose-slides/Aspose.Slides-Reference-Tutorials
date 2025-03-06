@@ -3,14 +3,10 @@ title: Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltat
 linktitle: Szerezzen be értékeket és mértékegység-skálát az Axis szolgáltatásból a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan szerezhet be értékeket és mértékegység-skálát a Java Slides tengelyeiből az Aspose.Slides for Java segítségével. Növelje adatelemzési képességeit.
+type: docs
 weight: 20
 url: /hu/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az Axis-ből származó értékek és mértékegységek lekéréséhez a Java Slides-ben
 
@@ -126,9 +122,3 @@ Igen, az Aspose.Slides for Java használható kereskedelmi projektekben. A kül�
 ### Hol találok további forrásokat és dokumentációt az Aspose.Slides for Java-hoz?
 
  A webhelyen átfogó dokumentációt és további forrásokat találhat[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/) weboldal.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

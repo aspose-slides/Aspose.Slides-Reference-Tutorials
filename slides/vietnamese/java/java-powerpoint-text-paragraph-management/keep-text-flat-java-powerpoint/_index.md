@@ -3,14 +3,10 @@ title: Giữ văn bản phẳng trong Java PowerPoint
 linktitle: Giữ văn bản phẳng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách giữ văn bản phẳng trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác văn bản hiệu quả.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong lĩnh vực thao tác PowerPoint dựa trên Java, Aspose.Slides for Java nổi bật như một bộ công cụ mạnh mẽ và linh hoạt. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới đang tìm cách nâng cao bản trình bày của mình theo chương trình, Aspose.Slides for Java đều cung cấp một bộ tính năng toàn diện để tạo, sửa đổi và quản lý bản trình bày PowerPoint một cách liền mạch. Hướng dẫn này đi sâu vào một chức năng cụ thể: giữ văn bản phẳng trong các trang chiếu PowerPoint bằng Aspose.Slides cho Java. Bằng cách làm theo hướng dẫn này, bạn sẽ học cách thao tác định dạng văn bản để đạt được kết quả trình bày chính xác.
 ## Điều kiện tiên quyết
@@ -68,9 +64,3 @@ Bạn có thể khám phá tài liệu chi tiết[đây](https://reference.aspos
  Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận hỗ trợ cộng đồng cho Aspose.Slides cho Java ở đâu?
  Tham gia diễn đàn cộng đồng Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

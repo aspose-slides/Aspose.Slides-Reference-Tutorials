@@ -3,14 +3,10 @@ title: Java Slides Chart Data Manipulation
 linktitle: Java Slides Chart Data Manipulation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lås upp kraften i Java Slides Chart Data Manipulation med Aspose.Slides för Java. Skapa fantastiska bilder och insikter utan ansträngning.
+type: docs
 weight: 11
 url: /sv/java/chart-data-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Är du redo att ta dina Java-baserade bildpresentationer till nästa nivå? Med Aspose.Slides för Java kan du enkelt manipulera diagramdata och skapa visuellt fantastiska och insiktsfulla presentationer som fängslar din publik. I den här artikeln kommer vi att utforska hur Aspose.Slides ger Java-utvecklare möjlighet att få datadrivna diagram till liv.
 
 ## Förstå Aspose.Slides för Java
@@ -58,9 +54,3 @@ Skapa normala diagram i Java Slides med Aspose.Slides för Java. Steg-för-steg-
 Lär dig hur du skapar fantastiska organisationsscheman i Java Slides med steg-för-steg handledningar i Aspose.Slides. Anpassa och visualisera din organisationsstruktur utan ansträngning.
 ### [Cirkeldiagram i Java Slides](./pie-chart-java-slides/)
 Lär dig hur du skapar fantastiska cirkeldiagram i PowerPoint-presentationer med Aspose.Slides för Java. Steg-för-steg guide med källkod för Java-utvecklare.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

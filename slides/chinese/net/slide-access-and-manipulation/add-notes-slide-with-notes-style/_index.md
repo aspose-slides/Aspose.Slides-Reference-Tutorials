@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 添加时尚的笔记格式
 linktitle: 添加具有时尚注释格式的注释幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 为您的 PowerPoint 演示文稿添加时尚的注释格式。使用符号和项目符号增强您的幻灯片。
+type: docs
 weight: 14
 url: /zh/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在演示世界中，重要的不仅仅是您传递的内容，还有您如何呈现它。时尚的注释格式可以对演示的影响产生重大影响。使用 Aspose.Slides for .NET，您可以通过添加带有项目符号和符号的时尚注释来轻松增强您的 PowerPoint 演示文稿。在本分步指南中，我们将引导您完成向 PowerPoint 幻灯片添加时尚注释格式的过程。
 
@@ -113,9 +109,3 @@ Aspose.Slides for .NET 是一个功能强大的库，可用于以编程方式处
 
 ### 是否有针对 Aspose.Slides for .NET 的社区论坛或支持？
 是的，您可以在 Aspose.Slides for .NET 社区论坛上寻求帮助并参与讨论[这里](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

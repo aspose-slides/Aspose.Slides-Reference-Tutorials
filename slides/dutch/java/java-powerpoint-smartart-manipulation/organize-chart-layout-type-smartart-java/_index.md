@@ -3,14 +3,10 @@ title: Organiseer de diagramindeling Typ in SmartArt met behulp van Java
 linktitle: Organiseer de diagramindeling Typ in SmartArt met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Beheers het organiseren van diagramindelingstypen in SmartArt met behulp van Java met Aspose.Slides, waardoor presentatiebeelden moeiteloos worden verbeterd.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie doorlopen we het proces van het organiseren van het diagramindelingstype in SmartArt met behulp van Java, waarbij we specifiek gebruik maken van de Aspose.Slides-bibliotheek. SmartArt in presentaties kan de visuele aantrekkingskracht en helderheid van uw gegevens aanzienlijk verbeteren, waardoor het essentieel wordt om de manipulatie ervan onder de knie te krijgen.
 ## Vereisten
@@ -59,9 +55,3 @@ Ja, ontwikkelaars kunnen de gedetailleerde documentatie van Aspose.Slides voor J
 Ja, u heeft toegang tot een gratis proefversie van Aspose.Slides om de functies ervan te verkennen voordat u een aankoopbeslissing neemt.
 ### Waar kan ik ondersteuning zoeken voor Aspose.Slides-gerelateerde vragen?
  Voor hulp of vragen over Aspose.Slides kunt u het ondersteuningsforum bezoeken[hier](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

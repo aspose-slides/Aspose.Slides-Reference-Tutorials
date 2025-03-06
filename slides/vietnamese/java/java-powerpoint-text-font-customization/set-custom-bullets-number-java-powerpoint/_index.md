@@ -3,14 +3,10 @@ title: Đặt số đầu dòng tùy chỉnh trong Java PowerPoint
 linktitle: Đặt số đầu dòng tùy chỉnh trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt số dấu đầu dòng tùy chỉnh trong Java PowerPoint bằng Aspose.Slides, nâng cao tính rõ ràng và cấu trúc của bản trình bày theo chương trình.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình sinh động là rất quan trọng để truyền đạt ý tưởng và dữ liệu một cách hiệu quả. Aspose.Slides for Java cung cấp bộ công cụ mạnh mẽ để thao tác các bản trình bày PowerPoint theo chương trình, cung cấp các tính năng mở rộng để nâng cao quá trình xây dựng bản trình bày của bạn. Bài viết này đi sâu vào việc đặt số dấu đầu dòng tùy chỉnh trong bản trình bày Java PowerPoint bằng Aspose.Slides. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình, đảm bảo bạn có thể tận dụng khả năng này một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -86,9 +82,3 @@ Aspose.Slides hỗ trợ các định dạng PowerPoint từ 97-2003 đến các
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể mua Aspose.Slides ở đâu?
  Bạn có thể mua Aspose.Slides từ[đây](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

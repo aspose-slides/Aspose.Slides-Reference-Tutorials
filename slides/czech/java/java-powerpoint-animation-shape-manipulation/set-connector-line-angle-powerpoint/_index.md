@@ -3,14 +3,10 @@ title: Nastavte úhel spojnice v PowerPointu
 linktitle: Nastavte úhel spojnice v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit úhly spojnice v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Přizpůsobte si snímky s přesností.
+type: docs
 weight: 17
 url: /cs/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 tomto tutoriálu prozkoumáme, jak nastavit úhel spojovacích čar v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Spojnice jsou nezbytné pro znázornění vztahů a toků mezi tvary na snímcích. Úpravou jejich úhlů zajistíte, že vaše prezentace předají vaše sdělení jasně a efektivně.
 ## Předpoklady
@@ -84,9 +80,3 @@ Aspose.Slides se snaží podporovat většinu funkcí aplikace PowerPoint. Pro k
 Rozhodně! Aspose.Slides poskytuje rozsáhlé možnosti přizpůsobení spojovacích čar, včetně stylů, tloušťky a koncových bodů, což vám umožňuje vytvářet vizuálně přitažlivé prezentace.
 ### Kde najdu podporu pro dotazy související s Aspose.Slides?
  Můžete navštívit[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro pomoc s jakýmikoli dotazy nebo problémy, na které narazíte během vašeho vývojového procesu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 프레젠테이션 내에서 슬라이드 비교
 linktitle: 프레젠테이션 내에서 슬라이드 비교
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션의 슬라이드를 비교하는 방법을 알아보세요. 정확한 비교를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 12
 url: /ko/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 프레젠테이션 내 슬라이드 비교 소개
 
@@ -147,9 +143,3 @@ url: /ko/net/chart-creation-and-customization/check-slides-comparison/
 ### 프레젠테이션 비교 성능을 최적화하기 위한 모범 사례가 있습니까?
 
 그렇습니다. 효율적인 알고리즘을 구현하고 메모리 사용량을 관리하는 것이 프레젠테이션 비교 성능을 최적화하는 데 중요합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

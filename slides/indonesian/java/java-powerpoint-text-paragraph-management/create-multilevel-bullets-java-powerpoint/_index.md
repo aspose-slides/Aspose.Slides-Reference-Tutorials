@@ -3,14 +3,10 @@ title: Buat Poin Bertingkat di Java PowerPoint
 linktitle: Buat Poin Bertingkat di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat poin bertingkat di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode dan FAQ.
+type: docs
 weight: 14
 url: /id/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membuat poin bertingkat dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Menambahkan poin-poin adalah persyaratan umum untuk membuat konten yang terorganisir dan menarik secara visual dalam presentasi. Kami akan menjalani prosesnya langkah demi langkah, memastikan bahwa pada akhir panduan ini, Anda akan diperlengkapi untuk menyempurnakan presentasi Anda dengan poin-poin terstruktur di berbagai tingkatan.
 ## Prasyarat
@@ -113,9 +109,3 @@ Aspose.Slides menghasilkan presentasi yang kompatibel dengan Microsoft PowerPoin
 Ya, Aspose.Slides menyediakan API untuk mengotomatiskan pembuatan, modifikasi, dan manipulasi presentasi PowerPoint.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari komunitas dan pakar Aspose.Slides di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

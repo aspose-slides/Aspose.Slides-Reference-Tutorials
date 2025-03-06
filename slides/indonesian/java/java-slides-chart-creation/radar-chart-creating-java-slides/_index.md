@@ -3,14 +3,10 @@ title: Pembuatan Bagan Radar di Slide Java
 linktitle: Pembuatan Bagan Radar di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Diagram Radar dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java API.
+type: docs
 weight: 10
 url: /id/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Membuat Bagan Radar di Slide Java
 
@@ -272,9 +268,3 @@ Lihat "Langkah 5" untuk menyesuaikan label dan format sumbu, termasuk ukuran dan
 ### Bagaimana cara menyimpan grafik ke format file lain?
 
 Anda dapat mengubah format keluaran dengan memodifikasi ekstensi file di`outPath` variabel dan menggunakan yang sesuai`SaveFormat` . Misalnya, untuk menyimpan sebagai PDF, gunakan`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

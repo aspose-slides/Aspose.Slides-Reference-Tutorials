@@ -3,14 +3,10 @@ title: Modifikasi Latar Belakang Slide di Aspose.Slides
 linktitle: Modifikasi Latar Belakang Slide di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengkustomisasi latar belakang slide menggunakan Aspose.Slides untuk .NET. Tingkatkan presentasi Anda dengan latar belakang yang menarik secara visual. Mulailah hari ini!
+type: docs
 weight: 10
 url: /id/net/slide-background-manipulation/slide-background-modification/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dalam membuat presentasi yang menawan secara visual, latar belakang memainkan peran penting. Aspose.Slides untuk .NET memberdayakan Anda untuk menyesuaikan latar belakang slide dengan mudah. Dalam tutorial ini, kita akan mempelajari cara memodifikasi latar belakang slide menggunakan Aspose.Slides untuk .NET. 
 
@@ -127,10 +123,3 @@ Dalam tutorial ini, kita telah mempelajari cara mengubah latar belakang slide di
 ### 5. Bisakah saya menyesuaikan latar belakang slide untuk beberapa slide dalam presentasi?
 
 Ya, Anda dapat mengubah latar belakang slide untuk slide apa pun dalam presentasi menggunakan Aspose.Slides untuk .NET. Cukup targetkan slide yang ingin Anda sesuaikan dan ikuti langkah-langkah yang sama yang diuraikan dalam tutorial ini.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

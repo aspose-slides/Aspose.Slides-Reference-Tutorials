@@ -3,14 +3,10 @@ title: Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien
 linktitle: Holen Sie sich die Positionskoordinaten von Abschnitten in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java API die Koordinaten von Textabschnitten in Java-Folien abrufen. Erhalten Sie präzise Kontrolle über die Textplatzierung in PowerPoint-Präsentationen.
+type: docs
 weight: 12
 url: /de/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung zum Abrufen der Positionskoordinaten von Abschnitten in Java-Folien
 
@@ -124,9 +120,3 @@ Ja, Aspose.Slides für Java unterstützt verschiedene PowerPoint-Dateiformate, d
 ### Wie kann ich weiteren Support oder Hilfe zu Aspose.Slides für Java erhalten?
 
 Auf der Aspose-Website können Sie auf zusätzlichen Support und Ressourcen zugreifen. Sie bietet Foren, Dokumentation und Premium-Supportoptionen für Benutzer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

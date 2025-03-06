@@ -3,14 +3,10 @@ title: إضافة خط على شكل سهم في PowerPoint
 linktitle: إضافة خط على شكل سهم في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة خطوط على شكل سهم إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 يمكن أن تؤدي إضافة خطوط على شكل سهم إلى عروض PowerPoint التقديمية إلى تحسين المظهر المرئي والمساعدة في نقل المعلومات بشكل فعال. يقدم Aspose.Slides for Java حلاً شاملاً لمطوري Java للتعامل مع عروض PowerPoint التقديمية برمجياً. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة خطوط على شكل سهم إلى شرائح PowerPoint الخاصة بك باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -80,9 +76,3 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
  توثيق:[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/)
  تحميل:[Aspose.Slides لتحميل جافا](https://releases.aspose.com/slides/java/)
  يدعم:[Aspose.Slides لمنتدى دعم جافا](https://forum.aspose.com/c/slides/11)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

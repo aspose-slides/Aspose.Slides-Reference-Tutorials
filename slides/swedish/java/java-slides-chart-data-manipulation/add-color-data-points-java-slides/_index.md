@@ -3,14 +3,10 @@ title: Lägg till färg till datapunkter i Java Slides
 linktitle: Lägg till färg till datapunkter i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till färg på datapunkter i Java-bilder med Aspose.Slides för Java.
+type: docs
 weight: 10
 url: /sv/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till att lägga till färg till datapunkter i Java Slides
 
@@ -121,9 +117,3 @@ För att ändra färgen på andra datapunkter kan du följa ett liknande tillvä
 ### Var kan jag hitta fler exempel och dokumentation?
 
  Du kan hitta fler exempel och detaljerad dokumentation om hur du använder Aspose.Slides för Java på[Aspose.Slides dokumentation](https://reference.aspose.com/slides/java/) hemsida.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

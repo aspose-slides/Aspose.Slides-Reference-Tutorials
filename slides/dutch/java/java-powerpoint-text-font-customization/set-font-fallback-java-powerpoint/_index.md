@@ -3,14 +3,10 @@ title: Stel Font Fallback in Java PowerPoint in
 linktitle: Stel Font Fallback in Java PowerPoint in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lettertype-fallbacks in Java PowerPoint kunt instellen met behulp van Aspose.Slides voor Java om een consistente tekstweergave te garanderen.
+type: docs
 weight: 16
 url: /nl/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie gaan we in op de fijne kneepjes van het instellen van lettertype-fallbacks in Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Terugval op lettertypen is van cruciaal belang om ervoor te zorgen dat tekst in uw presentaties correct wordt weergegeven op verschillende apparaten en besturingssystemen, zelfs als de vereiste lettertypen niet beschikbaar zijn.
 ## Vereisten
@@ -57,9 +53,3 @@ Ja, Aspose.Slides voor Java is compatibel met populaire Java-IDE's zoals Intelli
 Ja, tijdelijke licenties voor Aspose-producten kunnen worden verkregen via[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides voor Java?
  Voor ondersteuning met betrekking tot Aspose.Slides voor Java gaat u naar de[Aspose-forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

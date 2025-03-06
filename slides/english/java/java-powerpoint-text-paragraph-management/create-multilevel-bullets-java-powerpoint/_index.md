@@ -3,14 +3,10 @@ title: Create Multilevel Bullets in Java PowerPoint
 linktitle: Create Multilevel Bullets in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create multilevel bullets in PowerPoint using Aspose.Slides for Java. Step-by-step guide with code examples and FAQs.
+type: docs
 weight: 14
 url: /java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In this tutorial, we will explore how to create multilevel bullets in PowerPoint presentations using Aspose.Slides for Java. Adding bullet points is a common requirement for creating organized and visually appealing content in presentations. We'll go through the process step-by-step, ensuring that by the end of this guide, you'll be equipped to enhance your presentations with structured bullet points at multiple levels.
 ## Prerequisites
@@ -113,10 +109,3 @@ Aspose.Slides generates presentations that are compatible with Microsoft PowerPo
 Yes, Aspose.Slides provides APIs to automate the creation, modification, and manipulation of PowerPoint presentations.
 ### Where can I get support for Aspose.Slides for Java?
 You can get support from the Aspose.Slides community and experts at [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

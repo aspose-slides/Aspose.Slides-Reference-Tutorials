@@ -3,14 +3,10 @@ title: Vormen in presentatiedia's klonen met Aspose.Slides
 linktitle: Vormen in presentatiedia's klonen met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u vormen in presentatiedia's efficiënt kunt klonen met behulp van de Aspose.Slides API. Creëer eenvoudig dynamische presentaties. Ontdek de stapsgewijze handleiding, veelgestelde vragen en meer.
+type: docs
 weight: 27
 url: /nl/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering
 
@@ -101,9 +97,3 @@ Gekloonde vormen behouden hun interacties en hyperlinks van de bronvorm. U hoeft
 ## Conclusie
 
 Door de kracht van het klonen van vormen in presentatiedia's te ontgrendelen met Aspose.Slides gaat er een wereld aan creatieve mogelijkheden open voor zowel makers van inhoud als ontwikkelaars. Deze gids begeleidt u door het proces, van installatie tot geavanceerde aanpassingen, en biedt u de tools die u nodig heeft om uw presentaties te laten opvallen. Met Aspose.Slides kunt u uw workflow stroomlijnen en uw presentatievisies moeiteloos tot leven brengen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

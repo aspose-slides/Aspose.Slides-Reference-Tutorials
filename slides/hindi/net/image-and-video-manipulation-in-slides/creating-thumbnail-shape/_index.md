@@ -3,14 +3,10 @@ title: PowerPoint आकार थंबनेल बनाएँ - Aspose.Slide
 linktitle: Aspose.Slides में आकृति के लिए थंबनेल बनाना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुतियों में आकृतियों के लिए थंबनेल बनाना सीखें। डेवलपर्स के लिए एक व्यापक चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 14
 url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को PowerPoint प्रस्तुतियों के साथ सहजता से काम करने में सक्षम बनाती है। इसकी उल्लेखनीय विशेषताओं में से एक प्रस्तुति के भीतर आकृतियों के लिए थंबनेल बनाने की क्षमता है। यह ट्यूटोरियल आपको Aspose.Slides for .NET का उपयोग करके आकृतियों के लिए थंबनेल बनाने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -61,9 +57,3 @@ A: Aspose.Slides विभिन्न फ़ाइल स्वरूपों 
 उत्तर: Aspose.Slides विभिन्न आकृतियों के लिए थंबनेल बनाने की सुविधा प्रदान करता है, जिसमें टेक्स्ट बॉक्स, चित्र आदि शामिल हैं।
 ### प्रश्न: क्या मैं उत्पन्न थंबनेल का आकार और रिज़ॉल्यूशन अनुकूलित कर सकता हूँ?
  उत्तर: हां, आप कॉल करते समय पैरामीटर समायोजित कर सकते हैं`GetThumbnail` आकार और रिज़ोल्यूशन को नियंत्रित करने की विधि।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

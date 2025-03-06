@@ -3,14 +3,10 @@ title: Java 投影片中的組織結構圖
 linktitle: Java 投影片中的組織結構圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過 Aspose.Slides 逐步教學，了解如何在 Java Slides 中建立令人驚嘆的組織結構圖。輕鬆自訂和視覺化您的組織結構。
+type: docs
 weight: 22
 url: /zh-hant/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 使用 Aspose.Slides 在 Java 投影片中建立組織結構圖的簡介
 
@@ -107,9 +103,3 @@ finally
 ### 是否有可能創建多層次的複雜組織結構？
 
 是的，Aspose.Slides 允許您透過在組織結構圖中新增和排列形狀來建立具有多個層級的複雜組織結構。您可以定義形狀之間的層次關係來表示所需的結構。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Convert Whole Presentation to HTML in Java Slides
 linktitle: Convert Whole Presentation to HTML in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to HTML in Java using Aspose.Slides. Step-by-step guide with code examples.
+type: docs
 weight: 29
 url: /java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Convert Whole Presentation to HTML in Java Slides
 
@@ -121,10 +117,3 @@ Yes, Aspose.Slides for Java supports various output formats, including PDF, PPTX
 ### Can I convert specific slides instead of the whole presentation?
 
 Yes, you can convert specific slides by selecting them in the code before saving the presentation. This gives you control over which slides get converted to HTML.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

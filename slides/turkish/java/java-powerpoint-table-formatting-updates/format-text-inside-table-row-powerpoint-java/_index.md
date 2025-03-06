@@ -3,14 +3,10 @@ title: Java ile PowerPoint'te Tablo Satırının İçindeki Metni Biçimlendirme
 linktitle: Java ile PowerPoint'te Tablo Satırının İçindeki Metni Biçimlendirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te tablo satırlarının içindeki metni nasıl formatlayacağınızı öğrenin. Adım adım kılavuzumuzla sunumlarınızı geliştirin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunumlarla çalışırken görsel olarak çekici slaytlar oluşturmak, izleyicilerinizin ilgisini canlı tutmak için çok önemlidir. Tablo satırlarının içindeki metni biçimlendirmek, slaytlarınızın okunabilirliğini ve estetiğini önemli ölçüde artırabilir. Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint'te bir tablo satırı içindeki metnin nasıl formatlanacağını keşfedeceğiz.
 ## Önkoşullar
@@ -89,9 +85,3 @@ Aspose.Slides, .NET ve C dahil çeşitli platformlarda mevcuttur++. Ancak Java i
  Evet, adresinden lisans satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java hangi dosya formatlarını destekliyor?
 Aspose.Slides for Java, PPT, PPTX, ODP ve daha fazlasını içeren çeşitli formatları destekler.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

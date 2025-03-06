@@ -3,14 +3,10 @@ title: Wis specifieke gegevenspunten uit grafiekreeksen met Aspose.Slides .NET
 linktitle: Wis specifieke gegevenspunten uit de grafiekreeks
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u specifieke gegevenspunten uit diagramreeksen in PowerPoint-presentaties kunt wissen met Aspose.Slides voor .NET. Stap-voor-stap handleiding.
+type: docs
 weight: 13
 url: /nl/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u programmatisch met PowerPoint-presentaties kunt werken. In deze zelfstudie begeleiden we u bij het wissen van specifieke gegevenspunten uit diagramreeksen in een PowerPoint-presentatie met behulp van Aspose.Slides voor .NET. Aan het einde van deze zelfstudie kunt u eenvoudig diagramgegevenspunten manipuleren.
 
@@ -99,9 +95,3 @@ Ja, u kunt het uiterlijk van diagrammen aanpassen door hun eigenschappen, zoals 
 
 ### Is er een community of ontwikkelaarscommunity voor Aspose.Slides voor .NET?
 Ja, u kunt lid worden van de Aspose-gemeenschap op hun forum voor discussies, vragen en het delen van uw ervaringen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

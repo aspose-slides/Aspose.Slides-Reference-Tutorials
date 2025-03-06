@@ -3,14 +3,10 @@ title: Diagramformatering och animering
 linktitle: Diagramformatering och animering
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationer med dynamiska diagram med Aspose.Slides för .NET. Lär dig diagramformatering och animering steg för steg. Lyft dina presentationsfärdigheter idag!
+type: docs
 weight: 22
 url: /sv/net/chart-formatting-and-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion
 
@@ -39,9 +35,3 @@ Lär dig hur du lägger till fängslande animationer till diagramkategorielement
 Lär dig hur du animerar diagramserier med Aspose.Slides för .NET. Skapa dynamiska presentationer med engagerande datavisualiseringar.
 ### [Animera serieelement i diagram](./animating-series-elements/)
 Lär dig att animera diagramserier med Aspose.Slides för .NET. Skapa engagerande presentationer med dynamiska bilder. Expertguide med kodexempel.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

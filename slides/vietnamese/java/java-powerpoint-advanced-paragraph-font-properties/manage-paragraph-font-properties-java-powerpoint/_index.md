@@ -3,14 +3,10 @@ title: Quản lý thuộc tính phông chữ đoạn văn trong Java PowerPoint
 linktitle: Quản lý thuộc tính phông chữ đoạn văn trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách quản lý và tùy chỉnh các thuộc tính phông chữ của đoạn văn trong bản trình bày Java PowerPoint bằng Aspose.Slides với hướng dẫn từng bước dễ thực hiện này.
+type: docs
 weight: 10
 url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Tạo các bài thuyết trình PowerPoint hấp dẫn trực quan là rất quan trọng để giao tiếp hiệu quả. Cho dù bạn đang chuẩn bị một bản đề xuất kinh doanh hay một dự án trường học thì các thuộc tính phông chữ phù hợp có thể làm cho các trang trình bày của bạn hấp dẫn hơn. Hướng dẫn này sẽ hướng dẫn bạn quản lý các thuộc tính phông chữ của đoạn văn bằng Aspose.Slides cho Java. Sẵn sàng để đi sâu vào? Bắt đầu nào!
 ## Điều kiện tiên quyết
@@ -117,9 +113,3 @@ Có, mỗi phần của đoạn văn có thể có thuộc tính phông chữ ri
 Có, Aspose.Slides for Java hỗ trợ tô màu chuyển màu cho văn bản.
 ### Nếu tôi muốn hoàn tác các thay đổi thì sao?
 Tải lại bản trình bày gốc hoặc giữ bản sao lưu trước khi thực hiện thay đổi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

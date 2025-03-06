@@ -3,14 +3,10 @@ title: Aspose.Slides 렌더링 옵션 - 프레젠테이션 향상
 linktitle: Aspose.Slides에서 프레젠테이션 슬라이드의 렌더링 옵션 탐색
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET 렌더링 옵션을 위한 Aspose.Slides를 살펴보세요. 매력적인 프레젠테이션을 위해 글꼴, 레이아웃 등을 사용자 정의하세요. 손쉽게 슬라이드를 향상시키세요.
+type: docs
 weight: 15
 url: /ko/net/printing-and-rendering-in-slides/presentation-render-options/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 멋진 프레젠테이션을 만들려면 원하는 시각적 효과를 얻기 위해 렌더링 옵션을 미세 조정해야 하는 경우가 많습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 렌더링 옵션 세계를 탐구합니다. 자세한 단계와 예시를 통해 프레젠테이션을 최적화하는 방법을 알아보세요.
 ## 전제 조건
 이 렌더링 모험을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하십시오.
@@ -74,9 +70,3 @@ A: 예, 레이아웃 옵션의 전체 목록을 보려면 Aspose.Slides 문서�
  A: 예, 다음을 사용하여 글꼴 파일 경로를 지정하십시오.`AddFonts` 의 방법`FontsLoader` 수업.
 ### Q: 어디서 도움을 구하거나 커뮤니티와 소통할 수 있나요?
  답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원 및 지역 사회 참여를 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

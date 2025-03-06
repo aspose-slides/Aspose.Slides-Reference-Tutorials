@@ -3,14 +3,10 @@ title: Aynı Sunumda Slaydı Klonlama
 linktitle: Aynı Sunumda Slaydı Klonlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak aynı PowerPoint sunumundaki slaytları nasıl kopyalayacağınızı öğrenin. Sunumlarınızı verimli bir şekilde düzenlemek için eksiksiz kaynak kodu örnekleri içeren bu adım adım kılavuzu izleyin.
+type: docs
 weight: 21
 url: /tr/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -109,9 +105,3 @@ Evet, benzer teknikleri kullanarak slaytları farklı sunumlar arasında kopyala
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Daha ayrıntılı belgeler ve örnekler için şu adresi ziyaret edebilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

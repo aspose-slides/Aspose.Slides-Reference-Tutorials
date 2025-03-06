@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 PowerPoint에서 멋진 그라데이션 만
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 그라디언트로 도형 채우기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 향상시키세요! 그라디언트로 모양을 채우는 단계별 과정을 알아보세요. 지금 무료 평가판을 다운로드하세요!
+type: docs
 weight: 21
 url: /ko/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것은 청중의 관심을 끌고 유지하는 데 필수적입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 타원 모양에 그라데이션을 채워 슬라이드를 향상시키는 과정을 안내합니다.
 ## 전제 조건
@@ -77,9 +73,3 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
  답변: 도움을 구하고 커뮤니티에 참여하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### Q: .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  A: 물론 임시면허를 취득할 수도 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

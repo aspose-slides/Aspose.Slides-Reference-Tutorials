@@ -3,14 +3,10 @@ title: ตั้งค่าสมุดงานภายนอกใน Java S
 linktitle: ตั้งค่าสมุดงานภายนอกใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการตั้งค่าสมุดงานภายนอกใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java สร้างงานนำเสนอแบบไดนามิกด้วยการผสานรวมข้อมูล Excel
+type: docs
 weight: 19
 url: /th/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการตั้งค่าสมุดงานภายนอกใน Java Slides
 
@@ -123,9 +119,3 @@ Aspose.Slides สำหรับ Java ได้รับการอัปเด
 ### ฉันสามารถเพิ่มแผนภูมิหลายแผนภูมิที่อ้างอิงสมุดงานภายนอกเดียวกันได้หรือไม่
 
 ได้ คุณสามารถเพิ่มแผนภูมิได้หลายแผนภูมิในงานนำเสนอของคุณ โดยทั้งหมดอ้างอิงเวิร์กบุ๊กภายนอกเดียวกัน เพียงทำซ้ำขั้นตอนที่ระบุไว้ในบทช่วยสอนนี้สำหรับแต่ละแผนภูมิที่คุณต้องการสร้าง
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

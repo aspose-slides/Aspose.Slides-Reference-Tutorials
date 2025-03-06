@@ -3,14 +3,10 @@ title: Beheer de eigenschappen van alinealettertypen in Java PowerPoint
 linktitle: Beheer de eigenschappen van alinealettertypen in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de eigenschappen van alinealettertypen in Java PowerPoint-presentaties kunt beheren en aanpassen met Aspose.Slides met deze eenvoudig te volgen, stapsgewijze handleiding.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het maken van visueel aantrekkelijke PowerPoint-presentaties is cruciaal voor effectieve communicatie. Of u nu een zakelijk voorstel of een schoolproject voorbereidt, de juiste lettertype-eigenschappen kunnen uw dia's aantrekkelijker maken. Deze tutorial begeleidt u bij het beheren van alinealettertype-eigenschappen met Aspose.Slides voor Java. Klaar om erin te duiken? Laten we beginnen!
 ## Vereisten
@@ -117,9 +113,3 @@ Ja, elk deel van een alinea kan zijn eigen lettertype-eigenschappen hebben.
 Ja, Aspose.Slides voor Java ondersteunt verloopvulling voor tekst.
 ### Wat moet ik doen als ik de wijzigingen ongedaan wil maken?
 Laad de originele presentatie opnieuw of bewaar een back-up voordat u wijzigingen aanbrengt.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

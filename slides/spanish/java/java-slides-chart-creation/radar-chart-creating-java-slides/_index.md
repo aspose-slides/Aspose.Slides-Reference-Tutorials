@@ -3,14 +3,10 @@ title: Creación de gráficos radiales en diapositivas Java
 linktitle: Creación de gráficos radiales en diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear gráficos radiales en presentaciones de PowerPoint de Java utilizando Aspose.Slides para la API de Java.
+type: docs
 weight: 10
 url: /es/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la creación de un gráfico radial en diapositivas de Java
 
@@ -272,9 +268,3 @@ Consulte el "Paso 5" para personalizar las etiquetas y el formato de los ejes, i
 ### ¿Cómo guardo el gráfico en un formato de archivo diferente?
 
 Puede cambiar el formato de salida modificando la extensión del archivo en el`outPath` variable y utilizando el adecuado`SaveFormat` . Por ejemplo, para guardar como PDF, utilice`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ορισμός γλώσσας παρουσίασης και σχήματ�
 linktitle: Ορισμός γλώσσας παρουσίασης και σχήματος κειμένου σε Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αυτοματοποιείτε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε, τροποποιήστε και βελτιώστε διαφάνειες μέσω προγραμματισμού με ευκολία.
+type: docs
 weight: 19
 url: /el/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία και ο χειρισμός παρουσιάσεων του PowerPoint μέσω προγραμματισμού σε Java μπορεί να βελτιστοποιήσει την αυτοματοποίηση της ροής εργασιών και να βελτιώσει την παραγωγικότητα. Το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο εργαλείων για την αποτελεσματική επίτευξη αυτών των εργασιών. Αυτό το σεμινάριο σάς καθοδηγεί στα βασικά βήματα για να ορίσετε τη γλώσσα παρουσίασης και το σχήμα κειμένου χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -73,9 +69,3 @@ pres.dispose();
  Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
 ### Ποιες επιλογές υποστήριξης είναι διαθέσιμες για το Aspose.Slides για Java;
  Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

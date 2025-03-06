@@ -3,14 +3,10 @@ title: Tambahkan Tanda Tangan Digital ke PowerPoint dengan Aspose.Slides
 linktitle: Dukungan Tanda Tangan Digital di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tanda tangani presentasi PowerPoint dengan aman dengan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami. Unduh sekarang untuk uji coba gratis
+type: docs
 weight: 19
 url: /id/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Tanda tangan digital memainkan peran penting dalam memastikan keaslian dan integritas dokumen digital. Aspose.Slides untuk .NET memberikan dukungan kuat untuk tanda tangan digital, memungkinkan Anda menandatangani presentasi PowerPoint dengan aman. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan tanda tangan digital ke presentasi Anda menggunakan Aspose.Slides.
 ## Prasyarat
@@ -66,9 +62,3 @@ Aspose.Slides menyediakan metode untuk memverifikasi tanda tangan digital secara
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/net/).
 ### Butuh dukungan atau memiliki pertanyaan tambahan?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

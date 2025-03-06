@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 新增父級註解到投影片
 linktitle: 將家長評論加入投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 新增互動式評論和回覆到 PowerPoint 簡報。加強參與和協作。
+type: docs
 weight: 12
 url: /zh-hant/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 您是否希望透過互動式功能來增強您的 PowerPoint 簡報？ Aspose.Slides for .NET 讓您可以合併評論和回复，為您的觀眾創造動態且引人入勝的體驗。在本逐步教學中，我們將向您展示如何使用 Aspose.Slides for .NET 在投影片中新增父級註解。讓我們深入探索這個令人興奮的功能。
 
@@ -164,9 +160,3 @@ Aspose.Slides for .NET 旨在與各種 PowerPoint 版本配合使用，確保與
 
 ### Aspose.Slides for .NET 是否有可用的授權選項？
 是的，您可以在 Aspose 網站上探索許可選項，包括臨時許可[這裡](https://purchase.aspose.com/buy)或嘗試免費試用[這裡](https://releases.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

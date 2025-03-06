@@ -3,14 +3,10 @@ title: Java 슬라이드에서 부분의 위치 좌표 가져오기
 linktitle: Java 슬라이드에서 부분의 위치 좌표 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 텍스트 부분 좌표를 검색하는 방법을 알아보세요. PowerPoint 프레젠테이션에서 텍스트 배치를 정확하게 제어할 수 있습니다.
+type: docs
 weight: 12
 url: /ko/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 부분의 위치 좌표 가져오기 소개
 
@@ -124,9 +120,3 @@ finally
 ### Aspose.Slides for Java에 대한 추가 지원을 받으려면 어떻게 해야 합니까?
 
 Aspose 웹사이트에서 추가 지원 및 리소스에 액세스할 수 있습니다. 사용자에게 포럼, 문서 및 프리미엄 지원 옵션을 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

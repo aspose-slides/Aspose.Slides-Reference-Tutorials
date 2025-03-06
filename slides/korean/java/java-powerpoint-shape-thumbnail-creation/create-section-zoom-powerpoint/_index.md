@@ -3,14 +3,10 @@ title: PowerPoint에서 섹션 확대/축소 만들기
 linktitle: PowerPoint에서 섹션 확대/축소 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 섹션 확대/축소를 만드는 방법을 알아보세요. 탐색과 참여를 쉽게 향상할 수 있습니다.
+type: docs
 weight: 13
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 섹션 확대/축소를 만드는 방법을 살펴보겠습니다. 섹션 확대/축소는 프레젠테이션의 다양한 섹션을 원활하게 탐색할 수 있는 강력한 기능으로, 구성과 전반적인 사용자 경험을 모두 향상시킵니다. 복잡한 프레젠테이션을 쉽게 소화할 수 있는 섹션으로 나누면 효과적으로 메시지를 전달하고 청중의 관심을 끌 수 있습니다.
@@ -76,9 +72,3 @@ Aspose.Slides for Java는 PPTX, PPT 등을 포함한 다양한 PowerPoint 형식
 예, 이 튜토리얼에 설명된 유사한 단계에 따라 Aspose.Slides for Java를 사용하여 기존 프레젠테이션에 섹션 확대/축소를 추가할 수 있습니다.
 ### Aspose.Slides for Java에 대한 추가 지원은 어디서 찾을 수 있나요?
  추가 지원이나 도움이 필요한 경우 Aspose.Slides for Java 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

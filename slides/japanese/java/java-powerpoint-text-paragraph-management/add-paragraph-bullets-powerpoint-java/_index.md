@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint に段落の箇条書きを追加する
 linktitle: Java を使用して PowerPoint に段落の箇条書きを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint スライドに段落の箇条書きを追加する方法を学びます。このチュートリアルでは、コード例を使用して手順を追って説明します。
+type: docs
 weight: 15
 url: /ja/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 段落の箇条書きを追加すると、PowerPoint プレゼンテーションの読みやすさと構造が向上します。Aspose.Slides for Java は、さまざまな箇条書きスタイルでテキストをフォーマットする機能など、プログラムでプレゼンテーションを操作するための強力なツールを提供します。このチュートリアルでは、Aspose.Slides を活用して、Java コードを使用して箇条書きを PowerPoint スライドに統合する方法を学習します。
 ## 前提条件
@@ -93,9 +89,3 @@ Aspose.Slides for Java を使用して PowerPoint に段落の箇条書きを追
 はい、Aspose.Slides は Java 11 以降のバージョンをサポートしています。
 ### その他の例やドキュメントはどこで見つかりますか?
 訪問[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)包括的なガイドと例については、こちらをご覧ください。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

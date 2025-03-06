@@ -3,14 +3,10 @@ title: PowerPoint で図形をパターンで塗りつぶす
 linktitle: PowerPoint で図形をパターンで塗りつぶす
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint で図形をパターンで塗りつぶす方法を学びます。簡単なステップバイステップのガイドに従って、プレゼンテーションを視覚的に強化します。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 視覚的に魅力的なプレゼンテーションを作成することは、視聴者の関心を引くために不可欠です。PowerPoint スライドを魅力的にする方法の 1 つは、図形をパターンで塗りつぶすことです。このチュートリアルでは、Aspose.Slides for Java を使用して図形をパターンで塗りつぶす手順について説明します。このガイドは、Aspose.Slides の強力な機能を活用して、プログラムで魅力的なプレゼンテーションを作成したい開発者向けに作成されています。
 ## 前提条件
@@ -98,9 +94,3 @@ Aspose.Slides for Java は、開発者が Java アプリケーションで Power
 はい、Aspose.Slides for Java を使用すると、既存の PowerPoint プレゼンテーションを開いて編集し、保存できます。
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
 サポートを受けるには[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

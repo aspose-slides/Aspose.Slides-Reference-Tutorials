@@ -3,14 +3,10 @@ title: 在 PowerPoint 中管理 ActiveX 控件
 linktitle: 在 PowerPoint 中管理 ActiveX 控件
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 透過 ActiveX 控制項增強 PowerPoint 簡報。我們的逐步指南涵蓋插入、操作、自訂、事件處理等。
+type: docs
 weight: 13
 url: /zh-hant/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ActiveX 控制項是強大的元素，可以增強 PowerPoint 簡報的功能和互動性。這些控制項可讓您在投影片中直接嵌入和操作多媒體播放器、資料輸入表單等物件。在本文中，我們將探討如何使用 Aspose.Slides for .NET 管理 PowerPoint 中的 ActiveX 控件，Aspose.Slides for .NET 是一個多功能函式庫，可在 .NET 應用程式中無縫整合和操作 PowerPoint 檔案。
 
 ## 將 ActiveX 控制項新增至 PowerPoint 投影片
@@ -153,9 +149,3 @@ Aspose.Slides for .NET 透過提供使用者友善的 API 簡化了在 PowerPoin
 ### 我可以從投影片中刪除 ActiveX 控制項嗎？
 
 是的，您可以使用以下命令從幻燈片中刪除 ActiveX 控件`Remove`的方法`Shapes`收藏。將引用傳遞給`IOleObjectFrame`將控制項表示為參數`Remove`方法，並且控制項將從幻燈片中刪除。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

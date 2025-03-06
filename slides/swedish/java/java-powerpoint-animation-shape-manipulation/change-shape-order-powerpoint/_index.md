@@ -3,14 +3,10 @@ title: Ändra formordning i PowerPoint
 linktitle: Ändra formordning i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ändrar formordningen i PowerPoint med Aspose.Slides för Java med denna steg-för-steg handledning. Förbättra dina presentationsfärdigheter utan ansträngning.
+type: docs
 weight: 15
 url: /sv/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att skapa visuellt tilltalande och välstrukturerade presentationer kan vara en skrämmande uppgift. Men med rätt verktyg och tekniker kan du göra det betydligt enklare. Aspose.Slides för Java är ett kraftfullt bibliotek som hjälper dig att manipulera och hantera PowerPoint-presentationer programmatiskt. I den här handledningen går vi igenom stegen för att ändra formordningen i en PowerPoint-bild med Aspose.Slides för Java.
 ## Förutsättningar
@@ -77,9 +73,3 @@ Ja, Aspose.Slides för Java stöder PPT, PPTX och andra PowerPoint-format.
  Du kan ladda ner en gratis testversion från[Aspose.Slides för Java nedladdningssida](https://releases.aspose.com/).
 ### Var kan jag hitta mer dokumentation om Aspose.Slides för Java?
  Du kan hitta detaljerad dokumentation på[Aspose.Slides för Java dokumentationssida](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

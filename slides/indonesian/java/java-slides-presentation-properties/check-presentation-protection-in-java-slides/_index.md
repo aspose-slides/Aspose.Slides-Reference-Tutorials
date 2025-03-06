@@ -3,14 +3,10 @@ title: Periksa Perlindungan Presentasi di Slide Java
 linktitle: Periksa Perlindungan Presentasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memeriksa perlindungan presentasi di slide Java menggunakan Aspose.Slides for Java. Panduan langkah demi langkah ini memberikan contoh kode untuk pemeriksaan proteksi tulis dan terbuka.
+type: docs
 weight: 15
 url: /id/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Memeriksa Perlindungan Presentasi di Slide Java
 
@@ -117,9 +113,3 @@ Jika Anda lupa kata sandi perlindungan untuk presentasi, tidak ada cara bawaan u
 ### Apakah Aspose.Slides untuk Java kompatibel dengan format file PowerPoint terbaru?
 
 Ya, Aspose.Slides untuk Java mendukung format file PowerPoint terbaru, termasuk file .pptx.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

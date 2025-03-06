@@ -3,14 +3,10 @@ title: Tutorial de incorporação de quadros de vídeo com Aspose.Slides para .N
 linktitle: Adicionando quadros de vídeo de fonte da Web em slides de apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como incorporar quadros de vídeo perfeitamente em slides do PowerPoint usando Aspose.Slides for .NET. Aprimore apresentações com multimídia sem esforço.
+type: docs
 weight: 20
 url: /pt/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 No mundo dinâmico das apresentações, a incorporação de elementos multimídia pode aumentar significativamente o envolvimento e transmitir mensagens impactantes. Uma maneira poderosa de conseguir isso é incorporar quadros de vídeo em slides de apresentação. Neste tutorial, exploraremos como fazer isso perfeitamente usando Aspose.Slides for .NET. Aspose.Slides é uma biblioteca robusta que permite aos desenvolvedores manipular apresentações do PowerPoint de forma programática, fornecendo amplos recursos para criar, editar e aprimorar slides.
 ## Pré-requisitos
@@ -79,9 +75,3 @@ Aspose.Slides é atualizado regularmente para manter a compatibilidade com os fr
 Sim, você pode incorporar vários vídeos adicionando quadros de vídeo adicionais a um slide.
 ### Onde posso encontrar suporte para consultas relacionadas ao Aspose.Slides?
  Visite a[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e discussões da comunidade.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

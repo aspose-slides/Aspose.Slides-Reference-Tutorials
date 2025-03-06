@@ -3,14 +3,10 @@ title: Γράφημα γραμμών τάσης σε διαφάνειες Java
 linktitle: Γράφημα γραμμών τάσης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε διάφορες γραμμές τάσης σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για αποτελεσματική οπτικοποίηση δεδομένων.
+type: docs
 weight: 15
 url: /el/java/data-manipulation/chart-trend-lines-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στις γραμμές τάσεων γραφημάτων σε διαφάνειες Java: Οδηγός βήμα προς βήμα
 
@@ -194,9 +190,3 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### Πώς μπορώ να έχω πρόσβαση σε περισσότερους πόρους και παραδείγματα για το Aspose.Slides για Java;
 
  Μπορείτε να αποκτήσετε πρόσβαση σε πρόσθετους πόρους, τεκμηρίωση και παραδείγματα για το Aspose.Slides για Java στο[Aspose website](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

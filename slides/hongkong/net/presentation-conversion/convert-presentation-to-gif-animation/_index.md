@@ -3,14 +3,10 @@ title: 將簡報轉換為 GIF 動畫
 linktitle: 將簡報轉換為 GIF 動畫
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 建立帶有 GIF 動畫的迷人簡報。將靜態投影片轉變為動態視覺體驗。
+type: docs
 weight: 20
 url: /zh-hant/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在當今的數位時代，視覺內容在溝通中發揮著至關重要的作用。有時，您可能需要將簡報轉換為 GIF 動畫，以使其更具吸引力和可共享性。幸運的是，在 Aspose.Slides for .NET 的幫助下，這項任務變得非常簡單。在本教學中，我們將引導您使用以下原始程式碼完成將簡報轉換為 GIF 動畫的過程。
 
@@ -84,9 +80,3 @@ presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 
 ### Q5：在哪裡可以取得本教學的原始碼？
 您可以在文件中找到有關 Aspose.Slides 的源代碼和更多教程[這裡](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

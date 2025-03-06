@@ -3,14 +3,10 @@ title: 按顺序索引访问幻灯片
 linktitle: 按顺序索引访问幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 通过顺序索引访问幻灯片。按照带有源代码的分步指南轻松导航和操作 PowerPoint 演示文稿。
+type: docs
 weight: 12
 url: /zh/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 按顺序索引访问幻灯片简介
 
@@ -90,9 +86,3 @@ Aspose.Slides for .NET 提供广泛的功能，包括从头开始创建演示文
 ### 如何才能了解有关使用 Aspose.Slides 进行 PowerPoint 自动化的更多信息？
 
 要了解有关使用 Aspose.Slides 进行 PowerPoint 自动化的更多信息，您可以浏览其网站上提供的详细文档和代码示例[文档](https://reference.aspose.com/slides/net/)页。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

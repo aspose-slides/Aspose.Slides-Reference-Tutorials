@@ -3,14 +3,10 @@ title: تأثيرات انتقال الشريحة
 linktitle: تأثيرات انتقال الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين العروض التقديمية الخاصة بك باستخدام تأثيرات انتقال الشرائح الجذابة باستخدام Aspose.Slides for .NET. تعرف على كيفية إضافة رسوم متحركة ديناميكية إلى الشرائح للحصول على تجربة مشاهدة جذابة.
+type: docs
 weight: 19
 url: /ar/net/slide-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة:
 
@@ -41,9 +37,3 @@ url: /ar/net/slide-transition-effects/
 تعرف على كيفية تعيين نوع التحويل التحويلي على الشرائح باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية. تعزيز العروض التقديمية الخاصة بك الآن! 
 ### [انتقالات الشرائح البسيطة](./simple-slide-transitions/)
 تعرف على كيفية تحسين عروض PowerPoint التقديمية الخاصة بك من خلال انتقالات شرائح بسيطة باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع كود المصدر. اجذب جمهورك بصور جذابة!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Metered Licensing Usage
 linktitle: Metered Licensing Usage
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to efficiently use Metered Licensing with Aspose.Slides for .NET. Seamlessly integrate APIs while paying for actual usage.
+type: docs
 weight: 11
 url: /net/licensing-and-formatting/metered-licensing/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction
 
@@ -118,10 +114,3 @@ To purchase a license, visit the Aspose store at [this link](https://purchase.as
 
 ### Is there a forum for Aspose.Slides support and discussions?
 Yes, you can find support and engage in discussions on the Aspose.Slides forum at [this link](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

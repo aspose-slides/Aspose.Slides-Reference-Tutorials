@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中垂直對齊文本
 linktitle: 在 Java PowerPoint 中垂直對齊文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 垂直對齊 Java PowerPoint 簡報中的文字以實現無縫幻燈片格式。
+type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，您將學習如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中的表格儲存格內垂直對齊文字。垂直對齊文字是投影片設計的重要方面，可確保您的內容整齊且專業地呈現。 Aspose.Slides 提供了強大的功能來以程式設計方式操作和格式化簡報，讓您可以完全控制幻燈片的各個方面。
 ## 先決條件
@@ -95,9 +91,3 @@ Aspose.Slides 支援產生與所有主要版本的 Microsoft PowerPoint 相容�
 參觀[Aspose.Slides 文檔](https://reference.aspose.com/slides/java/)取得綜合指南、API 參考和程式碼範例。
 ### 我如何獲得 Aspose.Slides 的支持？
 如需技術援助和社區支持，請訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

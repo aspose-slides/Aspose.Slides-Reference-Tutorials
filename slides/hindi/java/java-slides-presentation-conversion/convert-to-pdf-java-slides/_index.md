@@ -3,14 +3,10 @@ title: जावा स्लाइड्स को पीडीएफ में
 linktitle: जावा स्लाइड्स को पीडीएफ में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को PDF में कनवर्ट करना सीखें। PowerPoint से PDF में सहज रूपांतरण के लिए स्रोत कोड और FAQ के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+type: docs
 weight: 25
 url: /hi/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुति को PDF में बदलने का परिचय
 
@@ -117,9 +113,3 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Voeg ingesloten lettertypen toe in PowerPoint met behulp van Java
 linktitle: Voeg ingesloten lettertypen toe in PowerPoint met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u ingesloten lettertypen aan PowerPoint-presentaties kunt toevoegen met behulp van Java met Aspose.Slides voor Java. Zorg voor een consistente weergave op alle apparaten.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie begeleiden we u bij het proces van het toevoegen van ingesloten lettertypen aan PowerPoint-presentaties met behulp van Java, waarbij we specifiek gebruik maken van Aspose.Slides voor Java. Ingesloten lettertypen zorgen ervoor dat uw presentatie er consistent uitziet op verschillende apparaten, zelfs als het originele lettertype niet beschikbaar is. Laten we in de stappen duiken:
 ## Vereisten
@@ -73,9 +69,3 @@ Ja, het insluiten van lettertypen kan de bestandsgrootte van de presentatie enig
 Aspose.Slides voor Java ondersteunt het insluiten van TrueType-lettertypen, die een breed scala aan lettertypen bestrijken die vaak in presentaties worden gebruikt.
 ### Kan ik lettertypen programmatisch insluiten met Aspose.Slides voor Java?
 Ja, zoals in deze zelfstudie wordt gedemonstreerd, kunt u lettertypen programmatisch insluiten met behulp van de Aspose.Slides voor Java API.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

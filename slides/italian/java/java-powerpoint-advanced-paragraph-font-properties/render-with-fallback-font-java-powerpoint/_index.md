@@ -3,14 +3,10 @@ title: Rendering con carattere di fallback in Java PowerPoint
 linktitle: Rendering con carattere di fallback in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come eseguire il rendering del testo con caratteri di fallback nelle presentazioni Java PowerPoint utilizzando Aspose.Slides. Segui questa guida passo passo per un'implementazione senza problemi.
+type: docs
 weight: 13
 url: /it/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Creare e manipolare presentazioni PowerPoint in Java può essere impegnativo, ma con Aspose.Slides puoi farlo in modo efficiente. Una caratteristica cruciale è la capacità di eseguire il rendering del testo con caratteri di fallback. Questo articolo fornisce una guida dettagliata passo passo su come implementare i caratteri di fallback nelle diapositive di PowerPoint utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -92,9 +88,3 @@ I caratteri di fallback sono caratteri alternativi utilizzati quando il caratter
 Sì, puoi aggiungere più regole di fallback per gestire diversi intervalli e caratteri Unicode.
 ### Dove posso ottenere supporto per Aspose.Slides?
  Puoi ottenere supporto da[Forum di supporto di Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

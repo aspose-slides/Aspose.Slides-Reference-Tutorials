@@ -3,14 +3,10 @@ title: Použijte ShapeUtil pro Geometry Shape v PowerPointu
 linktitle: Použijte ShapeUtil pro Geometry Shape v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte vlastní tvary v PowerPointu pomocí Aspose.Slides pro Java. Chcete-li své prezentace vylepšit, postupujte podle tohoto podrobného průvodce.
+type: docs
 weight: 23
 url: /cs/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací PowerPoint často vyžaduje více než jen použití standardních tvarů a textu. Představte si, že můžete přidat přizpůsobené tvary a textové cesty přímo do vašich snímků, čímž zvýšíte vizuální dopad vaší prezentace. Pomocí Aspose.Slides for Java toho můžete dosáhnout snadno. Tento tutoriál vás provede procesem používání`ShapeUtil` třídy k vytváření geometrických tvarů v prezentacích PowerPoint. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný průvodce vám pomůže využít sílu Aspose.Slides pro Java k vytvoření úžasného obsahu přizpůsobeného na míru.
 ## Předpoklady
@@ -79,9 +75,3 @@ Aspose.Slides nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout
  The`ShapeUtil` class v Aspose.Slides poskytuje obslužné metody pro práci s tvary, jako je převod grafických cest na geometrické cesty.
 ### Kde mohu získat podporu pro Aspose.Slides?
  Můžete získat podporu od[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

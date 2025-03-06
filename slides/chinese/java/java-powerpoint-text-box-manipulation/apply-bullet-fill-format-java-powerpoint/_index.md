@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中有效应用项目符号填充格式
 linktitle: 在 Java PowerPoint 中有效应用项目符号填充格式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中应用项目符号填充格式。掌握项目符号样式并增强您的演示文稿。
+type: docs
 weight: 15
 url: /zh/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在当今的数字环境中，有效的演示技巧对于各个领域的专业人士都至关重要。创建引人注目的 PowerPoint 演示文稿不仅需要创造力，还需要技术专业知识，以充分利用 Aspose.Slides for Java 等工具的潜力。本教程深入探讨了其中一个方面：使用 Aspose.Slides for Java 以编程方式应用项目符号填充格式。无论您是开发人员、商务专业人士还是希望提高演示技巧的学生，掌握项目符号填充格式都可以显著提升幻灯片的视觉吸引力和清晰度。
 ## 先决条件
@@ -94,9 +90,3 @@ if (bulletFormatEffective.getType() != BulletType.None) {
 是的，Aspose.Slides for Java 提供基于云的集成 API。
 ### 我可以在购买之前试用 Aspose.Slides for Java 吗？
 是的，你可以从[免费试用](https://releases.aspose.com/)来评价其特征。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Controllo dell'animazione delle diapositive
 linktitle: Controllo dell'animazione delle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue presentazioni con animazioni dinamiche utilizzando Aspose.Slides per .NET. Scopri come controllare le animazioni delle diapositive passo dopo passo in questo tutorial completo.
+type: docs
 weight: 18
 url: /it/net/slide-animation-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione:
 
@@ -40,9 +36,3 @@ Scopri come controllare i tipi di animazione nelle diapositive di PowerPoint uti
 Scopri come ripetere le animazioni su una diapositiva utilizzando Aspose.Slides per .NET. Questa guida passo passo fornisce il codice sorgente e istruzioni chiare per aggiungere animazioni accattivanti alle presentazioni PowerPoint a livello di codice.
 ### [Riavvolgi l'animazione sulla diapositiva](./rewind-animation-on-slide/)
 Scopri come riavvolgere le animazioni sulle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con esempi di codice sorgente completi per migliorare dinamicamente le tue presentazioni.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

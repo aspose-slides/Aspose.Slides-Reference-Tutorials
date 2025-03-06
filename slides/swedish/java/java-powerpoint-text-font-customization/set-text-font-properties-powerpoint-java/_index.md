@@ -3,14 +3,10 @@ title: Ställ in egenskaper för textteckensnitt i PowerPoint med Java
 linktitle: Ställ in egenskaper för textteckensnitt i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in egenskaper för textteckensnitt i PowerPoint med Aspose.Slides för Java. Enkel, steg-för-steg-guide för Java-utvecklare.#Lär dig hur du manipulerar egenskaper för PowerPoint-textteckensnitt med Aspose.Slides för Java med denna steg-för-steg handledning för Java-utvecklare.
+type: docs
 weight: 18
 url: /sv/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 I den här handledningen kommer du att lära dig hur du använder Aspose.Slides för Java för att ställa in olika teckensnittsegenskaper i en PowerPoint-presentation programmatiskt. Vi kommer att täcka inställning av teckensnitt, stil (fet, kursiv), understrykning, storlek och färg för text i bilder.
 ## Förutsättningar
@@ -89,9 +85,3 @@ Ja, du kan använda Aspose.Slides för att arbeta med PowerPoint-mallar.
 Ja, Aspose.Slides tillåter export av presentationer till olika format inklusive PDF.
 ### Var kan jag hitta mer hjälp och support för Aspose.Slides?
  Besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

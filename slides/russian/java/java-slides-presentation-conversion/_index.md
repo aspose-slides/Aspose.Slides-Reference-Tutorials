@@ -3,14 +3,10 @@ title: Преобразование презентации слайдов Java
 linktitle: Преобразование презентации слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как легко конвертировать слайды Java-презентаций с помощью Aspose.Slides for Java. Вас ждут подробные учебные пособия и пошаговые руководства.
+type: docs
 weight: 17
 url: /ru/java/presentation-conversion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Готовы ли вы погрузиться в мир преобразования презентаций слайдов Java? Имея под рукой возможности Aspose.Slides for Java, вы собираетесь отправиться в путешествие, которое позволит вам легко трансформировать свои презентации. В этом подробном руководстве мы покажем вам основные шаги и предоставим ценную информацию, необходимую для освоения искусства преобразования презентаций слайдов Java.
 
@@ -91,9 +87,3 @@ url: /ru/java/presentation-conversion/
 Конвертируйте презентации PowerPoint в формат SWF на Java с помощью Aspose.Slides. Следуйте нашему пошаговому руководству с исходным кодом для плавного преобразования.
 ### [Преобразование в PDF с обновлением прогресса в слайдах Java](./convert-pdf-progress-update-java-slides/)
 Конвертируйте PowerPoint в PDF с обновлениями прогресса на Java с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом и отслеживанием прогресса для плавного преобразования.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

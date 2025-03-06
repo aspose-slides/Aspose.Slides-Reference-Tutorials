@@ -3,14 +3,10 @@ title: Formátování textu uvnitř sloupce tabulky v PowerPointu pomocí Java
 linktitle: Formátování textu uvnitř sloupce tabulky v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: V tomto kurzu se dozvíte, jak formátovat text ve sloupcích tabulky v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentace programově.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Jste připraveni ponořit se do světa powerpointových prezentací, ale se zápletkou? Namísto ručního formátování snímků, pojďme použít efektivnější cestu pomocí Aspose.Slides pro Java. Tento kurz vás programově provede procesem formátování textu ve sloupcích tabulky v prezentacích PowerPoint. Připoutejte se, protože tohle bude zábavná jízda!
 ## Předpoklady
@@ -92,9 +88,3 @@ Absolutně! Aspose.Slides umožňuje rozsáhlé možnosti formátování, včetn
  Můžete si stáhnout bezplatnou zkušební verzi z[Aspose zkušební stránku zdarma](https://releases.aspose.com/).
 ### Kde najdu další příklady a dokumentaci?
  Podívejte se na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) pro podrobné příklady a návody.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

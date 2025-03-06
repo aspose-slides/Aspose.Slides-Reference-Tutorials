@@ -3,14 +3,10 @@ title: Kết nối các hình dạng bằng cách sử dụng Connectors trong P
 linktitle: Kết nối các hình dạng bằng cách sử dụng Connectors trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách kết nối các hình dạng bằng trình kết nối trong bản trình bày PowerPoint với Aspose.Slides cho Java. Hướng dẫn từng bước cho người mới bắt đầu.
+type: docs
 weight: 18
 url: /vi/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách kết nối các hình dạng bằng trình kết nối trong bản trình bày PowerPoint với sự trợ giúp của Aspose.Slides cho Java. Hãy làm theo các hướng dẫn từng bước này để kết nối các hình dạng một cách hiệu quả và tạo các trang trình bày hấp dẫn về mặt trực quan.
 ## Điều kiện tiên quyết
@@ -86,9 +82,3 @@ Có, bạn có thể kết nối nhiều hình dạng bằng các trình kết n
 Hoàn toàn có thể, bạn có thể dễ dàng thêm văn bản vào hình dạng và trình kết nối theo chương trình bằng cách sử dụng Aspose.Slides cho Java.
 ### Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho Aspose.Slides dành cho người dùng Java không?
  Có, bạn có thể tìm thấy các tài nguyên hữu ích, đặt câu hỏi và tương tác với những người dùng khác trên diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

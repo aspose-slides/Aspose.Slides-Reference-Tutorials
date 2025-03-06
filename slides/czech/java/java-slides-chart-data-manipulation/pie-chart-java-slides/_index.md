@@ -3,14 +3,10 @@ title: Koláčový graf v Java Slides
 linktitle: Koláčový graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet úžasné koláčové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vývojáře v jazyce Java.
+type: docs
 weight: 23
 url: /cs/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do vytváření výsečového grafu v Java Slides pomocí Aspose.Slides
 
@@ -287,9 +283,3 @@ Ano, Aspose.Slides for Java podporuje různé typy grafů, včetně sloupcových
 ### Jak najdu další informace a příklady pro práci s Aspose.Slides for Java?
 
  Další informace, podrobnou dokumentaci a další příklady naleznete na adrese[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/). Poskytuje komplexní zdroje, které vám pomohou efektivně využívat knihovnu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

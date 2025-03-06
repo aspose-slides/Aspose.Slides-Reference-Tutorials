@@ -3,14 +3,10 @@ title: 프레젠테이션에서 HTML로 미디어 파일 내보내기
 linktitle: 프레젠테이션에서 HTML로 미디어 파일 내보내기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides로 프레젠테이션 공유를 최적화하세요! 이 단계별 가이드를 통해 프레젠테이션에서 미디어 파일을 HTML로 내보내는 방법을 알아보세요.
+type: docs
 weight: 15
 url: /ko/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 미디어 파일을 HTML로 내보내는 과정을 안내합니다. Aspose.Slides는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 이 가이드가 끝나면 프레젠테이션을 HTML 형식으로 쉽게 변환할 수 있습니다. 자, 시작해 봅시다!
 
@@ -88,9 +84,3 @@ A3: 예, .NET용 Aspose.Slides는 PDF, 이미지 형식 등을 포함한 다양�
  A5: 다음에서 라이센스를 구입할 수 있습니다.[이 링크](https://purchase.aspose.com/buy).
 
 이제 이 튜토리얼을 완료했으므로 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 HTML로 미디어 파일을 내보내는 기술을 갖추게 되었습니다. 멀티미디어가 풍부한 프레젠테이션을 온라인으로 공유해 보세요!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

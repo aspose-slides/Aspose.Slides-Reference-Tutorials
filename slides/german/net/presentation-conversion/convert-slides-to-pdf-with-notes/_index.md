@@ -3,14 +3,10 @@ title: Folien mit Notizen in PDF konvertieren
 linktitle: Folien mit Notizen in PDF konvertieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Mit Aspose.Slides für .NET können Sie Präsentationsfolien mit Sprechernotizen mühelos in PDF konvertieren. Inhalt und Kontext bleiben nahtlos erhalten.
+type: docs
 weight: 18
 url: /de/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Schreiben Sie eine Schritt-für-Schritt-Anleitung zum Konvertieren von Folien in PDF mit Notizen unter Verwendung von Aspose.Slides für .NET
 
@@ -102,9 +98,3 @@ Ja, Aspose.Slides für .NET unterstützt verschiedene Ausgabeformate, darunter P
  Ja, Sie können eine temporäre Lizenz erwerben bei[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Zusammenfassend lässt sich sagen, dass Sie mit Aspose.Slides für .NET PowerPoint-Folien problemlos in das PDF-Format konvertieren können, ohne dass die Notizen verloren gehen. Es ist ein wertvolles Tool für Fachleute, die Präsentationen mit Kollegen und Kunden teilen müssen und dabei sicherstellen müssen, dass kein wichtiger Kontext verloren geht.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

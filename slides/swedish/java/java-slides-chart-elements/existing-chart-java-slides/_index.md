@@ -3,14 +3,10 @@ title: Befintligt diagram i Java Slides
 linktitle: Befintligt diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra dina PowerPoint-presentationer med Aspose.Slides för Java. Lär dig att ändra befintliga diagram programmatiskt. Steg-för-steg guide med källkod för diagramanpassning.
+type: docs
 weight: 12
 url: /sv/java/chart-elements/existing-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till befintliga diagram i Java Slides med Aspose.Slides för Java
 
@@ -188,9 +184,3 @@ den här omfattande självstudien har vi lärt oss hur man ändrar ett befintlig
 ### Finns det något sätt att ta bort en serie från diagrammet?
 
  Ja, du kan ta bort en serie från diagrammet genom att använda`chart.getChartData().getSeries().removeAt(index)` metod, var`index`är indexet för serien du vill ta bort.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

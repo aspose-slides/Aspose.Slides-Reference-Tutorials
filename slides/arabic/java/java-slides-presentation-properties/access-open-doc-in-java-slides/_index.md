@@ -3,14 +3,10 @@ title: الوصول إلى Open Doc في شرائح Java
 linktitle: الوصول إلى Open Doc في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الوصول إلى ملفات Open Document Presentation (ODP) وتحويلها في Java باستخدام Aspose.Slides for Java. دليل خطوة بخطوة للمطورين.
+type: docs
 weight: 12
 url: /ar/java/presentation-properties/access-open-doc-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة للوصول إلى Open Doc في شرائح Java
 
@@ -90,9 +86,3 @@ pres.save(dataDir + "AccessOpenDoc_out.pptx", SaveFormat.Pptx);
 ### كيف يمكنني الاتصال بدعم Aspose إذا كانت لدي أسئلة أو مشكلات؟
 
 يمكنك التواصل مع فريق دعم Aspose من خلال قنوات الدعم الخاصة بهم، والمدرجة على موقعهم الإلكتروني. إنهم يقدمون دعمًا مخصصًا للمساعدة في أي استفسارات أو مشكلات قد تواجهها.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

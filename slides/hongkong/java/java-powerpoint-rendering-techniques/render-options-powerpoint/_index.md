@@ -3,14 +3,10 @@ title: PowerPoint 中的渲染選項
 linktitle: PowerPoint 中的渲染選項
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 操作 PowerPoint 簡報中的渲染選項。自訂您的投影片以獲得最佳視覺效果。
+type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在本教學中，我們將探討如何利用 Aspose.Slides for Java 來操作 PowerPoint 簡報中的渲染選項。無論您是經驗豐富的開發人員還是剛起步，本指南都將引導您逐步完成整個過程。
 ## 先決條件
@@ -79,9 +75,3 @@ if (pres != null) pres.dispose();
 當然！ Aspose.Slides 允許您在渲染投影片之前為投影片設定自訂背景。
 ### 有沒有辦法將投影片直接渲染為 PDF 文件？
 是的，Aspose.Slides 提供了將 PowerPoint 簡報直接高保真度轉換為 PDF 檔案的功能。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

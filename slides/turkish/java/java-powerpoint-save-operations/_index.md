@@ -3,14 +3,10 @@ title: Java PowerPoint Kaydetme İşlemleri
 linktitle: Java PowerPoint Kaydetme İşlemleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını nasıl kaydedeceğinizi öğrenin. Dosyaya kaydetme, akışa kaydetme ve parola koruması eklemeyle ilgili eğitimler.
+type: docs
 weight: 20
 url: /tr/java/java-powerpoint-save-operations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## giriiş
 
@@ -36,9 +32,3 @@ Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını programlı olarak
 Aspose.Slides for Java kullanarak PowerPoint sunumlarını bir akışa nasıl kaydedeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [PowerPoint'i Parolayla Kaydet](./save-powerpoint-with-password/)
 Aspose.Slides for Java kullanarak PowerPoint sunumlarına nasıl şifre koruması ekleyeceğinizi öğrenin. Slaytlarınızı kolaylıkla sabitleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

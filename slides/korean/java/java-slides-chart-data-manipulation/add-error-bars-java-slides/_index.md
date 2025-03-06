@@ -3,14 +3,10 @@ title: Java 슬라이드에 오류 막대 추가
 linktitle: Java 슬라이드에 오류 막대 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java의 PowerPoint 차트에 오류 막대를 추가하는 방법을 알아보세요. 오류 막대를 사용자 정의하기 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 13
 url: /ko/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에 오류 막대 추가 소개
 
@@ -132,9 +128,3 @@ finally
 ### Aspose.Slides for Java에 대한 자세한 정보는 어디서 찾을 수 있나요?
 
  당신은[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 도서관 이용에 대한 자세한 내용은
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

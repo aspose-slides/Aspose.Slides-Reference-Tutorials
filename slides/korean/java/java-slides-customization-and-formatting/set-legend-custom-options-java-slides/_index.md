@@ -3,14 +3,10 @@ title: Java 슬라이드에서 범례 사용자 정의 옵션 설정
 linktitle: Java 슬라이드에서 범례 사용자 정의 옵션 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 사용자 정의 범례 옵션을 설정하는 방법을 알아보세요. PowerPoint 차트에서 범례 위치와 크기를 사용자 정의하세요.
+type: docs
 weight: 14
 url: /ko/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 범례 사용자 정의 옵션 설정 소개
 
@@ -135,9 +131,3 @@ finally
 ## 다른 범례 속성을 사용자 정의할 수 있나요?
 
 예, 글꼴 스타일, 테두리, 배경색 등과 같은 범례의 다양한 속성을 사용자 정의할 수 있습니다. 범례 사용자 정의에 대한 자세한 내용은 Aspose.Slides 문서를 살펴보세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Hiệu ứng chuyển tiếp slide
 linktitle: Hiệu ứng chuyển tiếp slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn với các hiệu ứng chuyển tiếp trang trình bày hấp dẫn bằng Aspose.Slides for .NET. Tìm hiểu cách thêm hoạt ảnh động vào trang trình bày để có trải nghiệm xem hấp dẫn.
+type: docs
 weight: 19
 url: /vi/net/slide-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu:
 
@@ -41,9 +37,3 @@ Tìm hiểu cách thêm các hiệu ứng chuyển tiếp tuyệt đẹp vào c�
 tìm hiểu cách đặt loại hình thái chuyển tiếp trên các trang chiếu bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với các ví dụ về mã. Hãy nâng cao bài thuyết trình của bạn ngay bây giờ! 
 ### [Chuyển tiếp slide đơn giản](./simple-slide-transitions/)
 Tìm hiểu cách cải thiện bản trình bày PowerPoint của bạn bằng các chuyển tiếp trang chiếu đơn giản bằng cách sử dụng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn. Thu hút khán giả của bạn bằng hình ảnh quyến rũ!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

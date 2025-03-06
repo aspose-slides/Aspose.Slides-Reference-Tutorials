@@ -3,14 +3,10 @@ title: 使用母版将幻灯片克隆到另一个演示文稿
 linktitle: 使用母版将幻灯片克隆到另一个演示文稿
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中克隆演示文稿之间的幻灯片。关于维护主幻灯片的分步教程。
+type: docs
 weight: 14
 url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程方式创建、修改和操作 PowerPoint 演示文稿。本文提供了全面的分步教程，介绍如何使用 Aspose.Slides for Java 将幻灯片从一个演示文稿克隆到另一个演示文稿，同时保留其主幻灯片。
 ## 先决条件
@@ -87,9 +83,3 @@ Aspose.Slides for Java 提供免费试用版。如需使用完整功能，您需
 您可以从[Aspose 购买页面](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到更多示例和文档？  
 访问[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)了解更多示例和详细信息。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

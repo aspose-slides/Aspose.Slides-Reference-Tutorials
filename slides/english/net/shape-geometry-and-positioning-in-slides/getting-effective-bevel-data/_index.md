@@ -3,14 +3,10 @@ title: Unveiling the Magic of Effective Bevel Data Retrieval in Slides
 linktitle: Getting Effective Bevel Data for Shape in Presentation Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance your presentation slides with effective bevel data using Aspose.Slides. A comprehensive guide with step-by-step instructions and sample code.
+type: docs
 weight: 20
 url: /net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Welcome to the fascinating world of Aspose.Slides for .NET, your gateway to creating stunning presentations with unparalleled ease. In this tutorial, we'll delve into the intricacies of obtaining effective bevel data for shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -73,10 +69,3 @@ Acquire a temporary license from [here](https://purchase.aspose.com/temporary-li
 Yes, you can purchase Aspose.Slides for .NET [here](https://purchase.aspose.com/buy) to unlock its premium features for commercial projects.
 ### What if I encounter issues during the implementation?
 Seek assistance from the Aspose.Slides for .NET community on the [support forum](https://forum.aspose.com/c/slides/11) for prompt and helpful solutions.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Hubungkan Bentuk menggunakan Konektor di PowerPoint
 linktitle: Hubungkan Bentuk menggunakan Konektor di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyambungkan bentuk menggunakan konektor dalam presentasi PowerPoint dengan Aspose.Slides untuk Java. Tutorial langkah demi langkah untuk pemula.
+type: docs
 weight: 18
 url: /id/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menyambungkan bentuk menggunakan konektor dalam presentasi PowerPoint dengan bantuan Aspose.Slides untuk Java. Ikuti petunjuk langkah demi langkah berikut untuk menghubungkan bentuk secara efisien dan membuat slide yang menarik secara visual.
 ## Prasyarat
@@ -86,9 +82,3 @@ Ya, Anda dapat menghubungkan beberapa bentuk menggunakan konektor kompleks yang 
 Tentu saja, Anda dapat dengan mudah menambahkan teks ke bentuk dan konektor secara terprogram menggunakan Aspose.Slides untuk Java.
 ### Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk Aspose.Slides untuk pengguna Java?
  Ya, Anda dapat menemukan sumber daya yang bermanfaat, mengajukan pertanyaan, dan berinteraksi dengan pengguna lain di forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

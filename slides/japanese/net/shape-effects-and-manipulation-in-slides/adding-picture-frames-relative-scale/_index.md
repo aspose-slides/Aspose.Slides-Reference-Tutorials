@@ -3,14 +3,10 @@ title: Aspose.Slides .NET を使用した画像フレームの追加チュート
 linktitle: Aspose.Slides で相対スケールの高さを持つ画像フレームを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET で相対スケールの高さを持つ画像フレームを追加する方法を学びます。シームレスなプレゼンテーションを行うには、このステップ バイ ステップ ガイドに従ってください。
+type: docs
 weight: 17
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for .NET は、開発者が .NET アプリケーションで PowerPoint プレゼンテーションを簡単に作成、操作、変換できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Slides for .NET を使用して、相対スケールの高さを持つ画像フレームを追加するプロセスについて詳しく説明します。このステップ バイ ステップ ガイドに従って、プレゼンテーション作成スキルを高めてください。
 ## 前提条件
@@ -68,9 +64,3 @@ Aspose.Slides は主に .NET 言語をサポートしていますが、さまざ
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティや Aspose の専門家から支援を求めることができます。
 ### Aspose.Slides for .NET はどこで購入できますか?
  Aspose.Slides for .NETは以下から購入できます。[購入ページ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

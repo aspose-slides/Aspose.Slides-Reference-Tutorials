@@ -3,14 +3,10 @@ title: Организационная структура в слайдах Java
 linktitle: Организационная структура в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать потрясающие организационные диаграммы в Java Slides, с помощью пошаговых руководств по Aspose.Slides. Настраивайте и визуализируйте свою организационную структуру без особых усилий.
+type: docs
 weight: 22
 url: /ru/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в создание организационной диаграммы в слайдах Java с использованием Aspose.Slides
 
@@ -107,9 +103,3 @@ finally
 ### Возможно ли создание сложных многоуровневых организационных структур?
 
 Да, Aspose.Slides позволяет создавать сложные организационные структуры с несколькими уровнями, добавляя и располагая фигуры в организационной диаграмме. Вы можете определить иерархические отношения между фигурами для представления желаемой структуры.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

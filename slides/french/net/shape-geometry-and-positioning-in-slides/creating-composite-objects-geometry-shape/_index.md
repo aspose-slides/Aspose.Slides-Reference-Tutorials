@@ -3,14 +3,10 @@ title: Maîtriser les formes géométriques composites dans les présentations
 linktitle: Création d'objets composites sous forme géométrique avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer de superbes présentations avec des formes géométriques composites à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour des résultats impressionnants.
+type: docs
 weight: 14
 url: /fr/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Libérez la puissance d'Aspose.Slides pour .NET pour améliorer vos présentations en créant des objets composites dans des formes géométriques. Ce didacticiel vous guidera tout au long du processus de génération de diapositives visuellement attrayantes avec une géométrie complexe à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -88,9 +84,3 @@ Aspose.Slides prend en charge divers langages de programmation, notamment Java e
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’assistance de la communauté.
 ### Q : Puis-je acheter une licence temporaire ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

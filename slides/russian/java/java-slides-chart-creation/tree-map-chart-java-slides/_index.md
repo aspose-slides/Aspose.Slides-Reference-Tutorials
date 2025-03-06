@@ -3,14 +3,10 @@ title: Древовидная диаграмма в слайдах Java
 linktitle: Древовидная диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Создайте древовидные диаграммы в слайдах Java, используя Aspose.Slides для Java. Пошаговое руководство с исходным кодом для визуализации иерархических данных.
+type: docs
 weight: 13
 url: /ru/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в древовидную диаграмму в слайдах Java
 
@@ -156,9 +152,3 @@ finally
 ### Как сохранить презентацию с древовидной диаграммой?
 
  Использовать`pres.save()` метод сохранения презентации с древовидной диаграммой в нужном формате (например, PPTX).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

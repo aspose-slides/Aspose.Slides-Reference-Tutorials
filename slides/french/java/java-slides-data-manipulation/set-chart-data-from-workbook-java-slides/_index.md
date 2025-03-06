@@ -3,14 +3,10 @@ title: Définir les données du graphique à partir du classeur dans les diaposi
 linktitle: Définir les données du graphique à partir du classeur dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les données d'un graphique à partir d'un classeur Excel dans Java Slides à l'aide d'Aspose.Slides. Guide étape par étape avec des exemples de code pour des présentations dynamiques.
+type: docs
 weight: 15
 url: /fr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition des données de graphique à partir d'un classeur dans des diapositives Java
 
@@ -146,9 +142,3 @@ Oui, vous pouvez mettre à jour les données du graphique de manière dynamique 
 ### Où puis-je trouver plus d’exemples et de ressources pour travailler avec Aspose.Slides pour Java ?
 
  Vous pouvez explorer des exemples et des ressources supplémentaires sur le[Site Aspose](https://www.aspose.com/). De plus, la documentation Aspose.Slides pour Java fournit des conseils complets sur l'utilisation de la bibliothèque.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

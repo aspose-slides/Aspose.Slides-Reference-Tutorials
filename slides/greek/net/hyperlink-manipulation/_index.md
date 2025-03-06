@@ -3,14 +3,10 @@ title: Χειρισμός υπερσύνδεσης
 linktitle: Χειρισμός υπερσύνδεσης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις εφαρμογές σας .NET με ολοκληρωμένο χειρισμό υπερσυνδέσμων χρησιμοποιώντας το Aspose.Slides. Μάθετε πώς να διαχειρίζεστε υπερσυνδέσμους, να δημιουργείτε διαδραστικές παρουσιάσεις και να ενισχύετε την αφοσίωση των χρηστών χωρίς κόπο.
+type: docs
 weight: 13
 url: /el/net/hyperlink-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή:
 
@@ -31,9 +27,3 @@ url: /el/net/hyperlink-manipulation/
 Μάθετε πώς να διαχειρίζεστε αποτελεσματικά υπερσυνδέσμους σε παρουσιάσεις χρησιμοποιώντας το Aspose.Slides για .NET. Αυτοματοποιήστε εργασίες, δημιουργήστε διαδραστικά μενού και βελτιώστε την αφοσίωση των χρηστών.
 ### [Δημιουργία μεταβλητής υπερσύνδεσης](./mutable-hyperlink/)
 Μάθετε να δημιουργείτε μεταβλητούς υπερσυνδέσμους χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για δυναμικές παρουσιάσεις.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java スライドのスライドショー メディア コントロール
 linktitle: Java スライドのスライドショー メディア コントロール
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでメディア コントロールを有効にして使用する方法を学習します。メディア コントロールを使用してプレゼンテーションを強化します。
+type: docs
 weight: 11
 url: /ja/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドのスライドショー メディア コントロールの概要
 
@@ -112,9 +108,3 @@ try {
 ### Java Slides でビデオに字幕やキャプションを追加する方法はありますか?
 
 はい、ビデオを含むスライドにテキスト フレームまたは図形を追加することで、Java スライドでビデオに字幕またはキャプションを追加できます。その後、タイミング設定を使用して、テキストをビデオの再生と同期できます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Mengakses Slide di Aspose.Slides
 linktitle: Mengakses Slide di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses dan memanipulasi slide PowerPoint secara terprogram menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup memuat, memodifikasi, dan menyimpan presentasi, beserta contoh kode sumber.
+type: docs
 weight: 10
 url: /id/net/slide-access-and-manipulation/accessing-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -138,9 +134,3 @@ Ya, Aspose.Slides mendukung berbagai format PowerPoint, termasuk PPT, PPTX, PPS,
 ### Apakah Aspose.Slides cocok untuk membuat presentasi dari awal?
 
 Sangat! Aspose.Slides memungkinkan Anda membuat presentasi baru dari awal, menambahkan slide, mengatur tata letak, dan mengisinya dengan konten, memberikan kontrol penuh atas proses pembuatan presentasi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

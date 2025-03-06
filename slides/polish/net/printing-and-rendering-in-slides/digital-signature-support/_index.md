@@ -3,14 +3,10 @@ title: Dodaj podpisy cyfrowe do programu PowerPoint za pomocą Aspose.Slides
 linktitle: Obsługa podpisów cyfrowych w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Podpisuj bezpiecznie prezentacje programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku. Pobierz teraz, aby skorzystać z bezpłatnej wersji próbnej
+type: docs
 weight: 19
 url: /pl/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Podpisy cyfrowe odgrywają kluczową rolę w zapewnieniu autentyczności i integralności dokumentów cyfrowych. Aspose.Slides dla .NET zapewnia solidną obsługę podpisów cyfrowych, umożliwiając bezpieczne podpisywanie prezentacji PowerPoint. W tym samouczku przeprowadzimy Cię przez proces dodawania podpisów cyfrowych do prezentacji za pomocą Aspose.Slides.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Aspose.Slides udostępnia metody programowej weryfikacji podpisów cyfrowych.
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/net/).
 ### Potrzebujesz wsparcia lub masz dodatkowe pytania?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

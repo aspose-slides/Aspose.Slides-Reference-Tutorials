@@ -3,14 +3,10 @@ title: Configuración del formato de fecha para el eje de categorías en diaposi
 linktitle: Configuración del formato de fecha para el eje de categorías en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a establecer un formato de fecha para el eje de categorías en un gráfico de PowerPoint usando Aspose.Slides para Java. Guía paso a paso con código fuente.
+type: docs
 weight: 26
 url: /es/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la configuración del formato de fecha para el eje de categorías en diapositivas de Java
 
@@ -143,9 +139,3 @@ Sí, puedes configurar diferentes formatos de fecha para los ejes de categorías
 ### ¿Cómo agrego más puntos de datos al gráfico?
 
  Para agregar más puntos de datos al gráfico, use el`getDataPoints().addDataPointForLineSeries`método en la serie de datos y proporcionar los valores de los datos.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

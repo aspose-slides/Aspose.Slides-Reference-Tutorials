@@ -3,14 +3,10 @@ title: Renderuj z czcionką zastępczą w programie Java PowerPoint
 linktitle: Renderuj z czcionką zastępczą w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak renderować tekst przy użyciu czcionek zastępczych w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową implementację.
+type: docs
 weight: 13
 url: /pl/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie prezentacji PowerPoint i manipulowanie nimi w Javie może być wyzwaniem, ale dzięki Aspose.Slides możesz to zrobić efektywnie. Jedną z kluczowych funkcji jest możliwość renderowania tekstu przy użyciu czcionek zastępczych. Ten artykuł zawiera szczegółowy przewodnik krok po kroku dotyczący implementowania czcionek zastępczych na slajdach programu PowerPoint przy użyciu Aspose.Slides for Java.
 ## Warunki wstępne
@@ -92,9 +88,3 @@ Czcionki zastępcze to czcionki alternatywne używane, gdy określona czcionka n
 Tak, możesz dodać wiele reguł zastępczych, aby obsługiwać różne zakresy i czcionki Unicode.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Set Data Labels Percentage Sign in Java Slides
 linktitle: Set Data Labels Percentage Sign in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set data labels with percentage signs in PowerPoint presentations using Aspose.Slides for Java. Create engaging charts with step-by-step guidance and source code.
+type: docs
 weight: 17
 url: /java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Set Data Labels Percentage Sign in Aspose.Slides for Java
 
@@ -181,10 +177,3 @@ Yes, you can customize the font size of data labels by setting the `setFontHeigh
 
 You can add additional series to the chart by using the `add` method on the `IChartSeriesCollection` object.
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

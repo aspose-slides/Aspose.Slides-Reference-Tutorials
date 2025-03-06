@@ -3,14 +3,10 @@ title: Java kullanarak PowerPoint'te Metin Kutusuna Köprü Ekleme
 linktitle: Java kullanarak PowerPoint'te Metin Kutusuna Köprü Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint metin kutularına nasıl köprü ekleyeceğinizi öğrenin. Java geliştiricileri için örnekler içeren adım adım kılavuz.
+type: docs
 weight: 23
 url: /tr/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Günümüzün dijital çağında ilgi çekici ve bilgilendirici dinamik sunumlar oluşturmak etkili iletişim için çok önemlidir. Uygulamalarını etkileşimli özelliklerle geliştirmek isteyen Java geliştiricileri genellikle PowerPoint sunumlarının programlı olarak değiştirilmesine olanak tanıyan güçlü bir kütüphane olan Aspose.Slides for Java'ya başvuruyor. Bu eğitimde böyle bir özellik ele alınmaktadır: Java kullanarak PowerPoint sunumlarındaki metin kutularına köprüler ekleme. Bu kılavuzun sonunda, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde nasıl uygulayacağınız konusunda net bir anlayışa sahip olacaksınız.
 ## Önkoşullar
@@ -80,9 +76,3 @@ Bu adımları izleyerek Aspose.Slides for Java kullanarak PowerPoint sunumların
  Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides diğer Java kütüphaneleriyle uyumlu mu?
 Aspose.Slides, kapsamlı PowerPoint düzenlemeleri için çeşitli Java kitaplıklarıyla iyi bir şekilde entegre olur.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

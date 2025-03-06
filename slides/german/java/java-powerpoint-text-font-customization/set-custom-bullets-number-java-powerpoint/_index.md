@@ -3,14 +3,10 @@ title: Festlegen einer benutzerdefinierten Aufzählungszeichenanzahl in Java Pow
 linktitle: Festlegen einer benutzerdefinierten Aufzählungszeichenanzahl in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides benutzerdefinierte Aufzählungsnummern in Java PowerPoint festlegen und so die Klarheit und Struktur der Präsentation programmgesteuert verbessern.
+type: docs
 weight: 15
 url: /de/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Im heutigen digitalen Zeitalter ist die Erstellung dynamischer Präsentationen für die effektive Kommunikation von Ideen und Daten von entscheidender Bedeutung. Aspose.Slides für Java bietet ein leistungsstarkes Toolkit zur programmgesteuerten Bearbeitung von PowerPoint-Präsentationen und umfassende Funktionen zur Verbesserung Ihres Präsentationserstellungsprozesses. Dieser Artikel befasst sich mit dem Festlegen benutzerdefinierter Aufzählungszeichen in Java PowerPoint-Präsentationen mithilfe von Aspose.Slides. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling sind, dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie diese Funktion effizient nutzen können.
 ## Voraussetzungen
@@ -86,9 +82,3 @@ Aspose.Slides unterstützt PowerPoint-Formate von 97-2003 bis zu den neuesten Ve
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wo kann ich Aspose.Slides kaufen?
  Sie können Aspose.Slides kaufen bei[Hier](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

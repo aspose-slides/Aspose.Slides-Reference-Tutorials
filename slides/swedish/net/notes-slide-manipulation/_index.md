@@ -3,14 +3,10 @@ title: Notes Slide Manipulation
 linktitle: Notes Slide Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationer med precision! Utforska Aspose.Slides handledning om manipulering av anteckningsbilder i .NET. Lär dig att lägga till, redigera och hantera talaranteckningar programmatiskt.
+type: docs
 weight: 16
 url: /sv/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 
 Välkommen till den omfattande Aspose.Slides-handledningen om Notes Slide Manipulation för .NET-utvecklare. I den här handledningen kommer vi att fördjupa oss i den fascinerande världen av talaranteckningar och hur du kan manipulera dem programmatiskt med Aspose.Slides-biblioteket. Talaranteckningar spelar en central roll i presentationer, ger värdefulla insikter till presentatören och förstärker den övergripande effekten av innehållet. I slutet av den här handledningen har du en gedigen förståelse för hur du effektivt lägger till, redigerar och hanterar talaranteckningar i dina PowerPoint-presentationer.
@@ -43,9 +39,3 @@ Lär dig hur du anpassar sidhuvud och sidfot i anteckningsbilder med Aspose.Slid
 Lär dig hur du tar bort anteckningar från en specifik bild i PowerPoint-presentationer med Aspose.Slides för .NET. Följ vår steg-för-steg-guide med komplett källkod för att sömlöst manipulera dina bilder programmatiskt.
 ### [Ta bort anteckningar från alla bilder](./remove-notes-from-all-slides/)
 Lär dig hur du tar bort anteckningar från alla bilder i dina PowerPoint-presentationer med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel för att enkelt nå ditt mål.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

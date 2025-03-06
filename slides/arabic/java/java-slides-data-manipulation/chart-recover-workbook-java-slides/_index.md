@@ -3,14 +3,10 @@ title: مصنف استرداد الرسم البياني في شرائح جاف�
 linktitle: مصنف استرداد الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد المصنفات من المخططات في Java Slides باستخدام Aspose.Slides. دليل خطوة بخطوة لأتمتة PowerPoint.
+type: docs
 weight: 17
 url: /ar/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى مصنف استرداد المخطط في شرائح جافا
 
@@ -113,9 +109,3 @@ finally
 ### كيف يمكنني الوصول إلى مزيد من الوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  للحصول على وثائق ومراجع مفصلة حول Aspose.Slides for Java، قم بزيارة صفحة الوثائق على[هنا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

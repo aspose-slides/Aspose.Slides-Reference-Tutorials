@@ -3,14 +3,10 @@ title: Διάγραμμα Sunburst σε Java Slides
 linktitle: Διάγραμμα Sunburst σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε εκπληκτικά γραφήματα Sunburst σε Java Slides με το Aspose.Slides. Μάθετε βήμα προς βήμα τη δημιουργία γραφήματος και τη χειραγώγηση δεδομένων.
+type: docs
 weight: 16
 url: /el/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στο γράφημα Sunburst σε διαφάνειες Java με Aspose.Slides
 
@@ -172,9 +168,3 @@ finally
 ### Είναι δυνατή η δημιουργία διαδραστικών γραφημάτων Sunburst με υπερσυνδέσμους;
 
 Ναι, μπορείτε να δημιουργήσετε διαδραστικά γραφήματα Sunburst με υπερσυνδέσμους προσθέτοντας υπερσυνδέσμους σε συγκεκριμένα στοιχεία ή τμήματα γραφήματος. Ανατρέξτε στην τεκμηρίωση Aspose.Slides για λεπτομέρειες σχετικά με την προσθήκη υπερσυνδέσμων.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

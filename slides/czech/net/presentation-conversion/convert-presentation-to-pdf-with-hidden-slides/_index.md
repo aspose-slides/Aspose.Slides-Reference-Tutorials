@@ -3,14 +3,10 @@ title: Převeďte prezentaci do PDF pomocí skrytých snímků
 linktitle: Převeďte prezentaci do PDF pomocí skrytých snímků
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se používat Aspose.Slides pro .NET k bezproblémovému převodu prezentací do PDF se skrytými snímky.
+type: docs
 weight: 26
 url: /cs/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -99,9 +95,3 @@ Aspose.Slides for .NET je rozhodně navržen tak, aby zvládal prezentace různ�
 ### Existuje nějaká dokumentace pro Aspose.Slides pro .NET?
 
  Ano, dokumentaci a příklady použití Aspose.Slides pro .NET najdete na[tady](https://reference.aspose.com/slides/net).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Καταργήστε το τμήμα από το σχήμα γεωμετ�
 linktitle: Καταργήστε το τμήμα από το σχήμα γεωμετρίας στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να αφαιρέσετε τμήματα από σχήματα γεωμετρίας στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό οδηγό βήμα προς βήμα.
+type: docs
 weight: 22
 url: /el/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Θέλετε να χειριστείτε σχήματα στις παρουσιάσεις σας στο PowerPoint χρησιμοποιώντας Java; Ήρθατε στο σωστό μέρος! Το Aspose.Slides for Java είναι ένα ισχυρό API που σας επιτρέπει να δημιουργείτε, να τροποποιείτε και να διαχειρίζεστε διαφάνειες στις παρουσιάσεις σας χωρίς κόπο. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία κατάργησης ενός τμήματος από ένα σχήμα γεωμετρίας στο PowerPoint. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας παρέχει μια βήμα προς βήμα προσέγγιση για να κατακτήσετε αυτήν την εργασία. Είστε έτοιμοι να βουτήξετε; Ας αρχίσουμε!
 ## Προαπαιτούμενα
@@ -75,9 +71,3 @@ if (pres != null) pres.dispose();
  Ναι, χρειάζεστε άδεια για πλήρη λειτουργικότητα. Μπορείτε να αγοράσετε ένα[εδώ](https://purchase.aspose.com/buy) ή πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Slides for Java;
  Διατίθεται ολοκληρωμένη τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

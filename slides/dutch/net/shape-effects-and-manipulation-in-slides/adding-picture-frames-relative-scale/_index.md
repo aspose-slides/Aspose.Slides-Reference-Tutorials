@@ -3,14 +3,10 @@ title: Zelfstudie fotolijsten toevoegen met Aspose.Slides .NET
 linktitle: Afbeeldingsframes met relatieve schaalhoogte toevoegen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u afbeeldingsframes met relatieve schaalhoogte toevoegt in Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding voor naadloze presentaties.
+type: docs
 weight: 17
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos PowerPoint-presentaties in hun .NET-toepassingen kunnen maken, manipuleren en converteren. In deze zelfstudie duiken we in het proces van het toevoegen van afbeeldingsframes met relatieve schaalhoogte met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden op het gebied van presentatieopbouw te verbeteren.
 ## Vereisten
@@ -68,9 +64,3 @@ Aspose.Slides ondersteunt voornamelijk .NET-talen, maar u kunt andere Aspose-pro
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om hulp te zoeken bij de gemeenschap en Aspose-experts.
 ### Waar kan ik Aspose.Slides voor .NET kopen?
  U kunt Aspose.Slides voor .NET kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

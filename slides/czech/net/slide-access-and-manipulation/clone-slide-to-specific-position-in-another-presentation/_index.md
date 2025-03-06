@@ -3,14 +3,10 @@ title: Zkopírujte snímek na přesné umístění v jiné prezentaci
 linktitle: Zkopírujte snímek na přesné umístění v jiné prezentaci
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se kopírovat snímky na přesná místa v různých prezentacích pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje zdrojový kód a pokyny pro bezproblémovou manipulaci s PowerPointem.
+type: docs
 weight: 18
 url: /cs/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -98,9 +94,3 @@ Ano, Aspose.Slides vám umožňuje programově manipulovat s obsahem snímků, v
 ### Kde najdu další dokumentaci a příklady pro Aspose.Slides?
 
  Obsáhlou dokumentaci a příklady pro Aspose.Slides pro .NET naleznete v dokumentaci:[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

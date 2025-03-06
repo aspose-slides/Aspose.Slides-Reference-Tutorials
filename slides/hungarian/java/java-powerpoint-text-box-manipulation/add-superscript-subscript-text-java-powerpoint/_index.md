@@ -3,14 +3,10 @@ title: Adjon hozzá felső és alsó indexet a Java PowerPointban
 linktitle: Adjon hozzá felső és alsó indexet a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá felső és alsó indexet a Java PowerPoint prezentációkhoz az Aspose.Slides for Java segítségével. Tökéletes a csúszdák feljavításához.
+type: docs
 weight: 13
 url: /hu/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A lebilincselő és informatív PowerPoint-prezentációk létrehozása gyakran olyan formázási funkciókat igényel, mint a felső és alsó index. Ez az oktatóanyag végigvezeti Önt a felső és alsó indexek szövegének Java PowerPoint prezentációiba való beépítésén az Aspose.Slides for Java segítségével.
 ## Előfeltételek
@@ -93,9 +89,3 @@ Az Aspose.Slides for Java egy robusztus könyvtár, amely lehetővé teszi a fej
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatásért és megbeszélésekért keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

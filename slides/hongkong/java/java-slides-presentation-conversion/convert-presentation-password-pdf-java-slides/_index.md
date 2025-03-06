@@ -3,14 +3,10 @@ title: 在 Java 幻燈片中將簡報轉換為受密碼保護的 PDF
 linktitle: 在 Java 幻燈片中將簡報轉換為受密碼保護的 PDF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 將 PowerPoint 簡報轉換為 Java 中受密碼保護的安全 PDF。增強文件安全性。
+type: docs
 weight: 17
 url: /zh-hant/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 在 Java 投影片中將簡報轉換為受密碼保護的 PDF 的簡介
 
@@ -150,9 +146,3 @@ Aspose.Slides 提供強大的 PDF 密碼保護功能。但是，請務必注意�
 ### Aspose.Slides for Java適合商業用途嗎？
 
 是的，Aspose.Slides for Java 適合商業用途。它提供了一系列在 Java 應用程式中處理 PowerPoint 簡報的功能，並在業界廣泛使用。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Alakzatbélyegkép létrehozása a PowerPointban
 linktitle: Alakzatbélyegkép létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre alakzat bélyegképeket PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre bemutatott útmutató.
+type: docs
 weight: 14
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban az Aspose.Slides for Java segítségével alakzat-bélyegképek létrehozásával foglalkozunk PowerPoint-prezentációkban. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint fájlokkal, lehetővé téve a különféle feladatok automatizálását, beleértve az alakzat bélyegképek generálását.
 ## Előfeltételek
@@ -64,9 +60,3 @@ Igen, a PNG mellett az Aspose.Slides támogatja a bélyegképek különféle ké
  Teljesen! Letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) hogy értékelje jellemzőit és képességeit.
 ### Hol találok támogatást az Aspose.Slides számára?
  Ha bármilyen kérdése van, vagy segítségre van szüksége az Aspose.Slides szolgáltatással kapcsolatban, keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) támogatásért.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

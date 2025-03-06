@@ -3,14 +3,10 @@ title: Adjon hozzá beágyazott videokeretet a PowerPointban
 linktitle: Adjon hozzá beágyazott videokeretet a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan ágyazhat be videokockákat a PowerPointba az Aspose.Slides for Java segítségével. Egyszerűen javíthatja prezentációit.
+type: docs
 weight: 21
 url: /hu/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ha videókat ad hozzá PowerPoint-prezentációihoz, vonzóbbá és informatívabbá teheti azokat. Az Aspose.Slides for Java használatával egyszerűen beágyazhat videókat közvetlenül a diákba. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy megértse a kód minden részét és működését. Akár tapasztalt fejlesztő vagy, akár csak kezdő, ez az útmutató segít a prezentációk tökéletesítésében beágyazott videókkal.
 ## Előfeltételek
@@ -97,9 +93,3 @@ Az Aspose.Slides különféle videoformátumokat támogat, beleértve az MP4-et,
 Igen, az Aspose.Slides használatához érvényes licenc szükséges. Az értékeléshez ideiglenes engedélyt kaphat.
 ### Testreszabhatom a videókockák méretét és helyzetét?
 Igen, a videokocka hozzáadásakor a megfelelő paraméterek beállításával testreszabhatja a méretet és a pozíciót.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

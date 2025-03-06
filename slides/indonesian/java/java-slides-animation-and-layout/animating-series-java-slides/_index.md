@@ -3,14 +3,10 @@ title: Seri Animasi dalam Slide Java
 linktitle: Seri Animasi dalam Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan presentasi Anda dengan animasi seri di Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk membuat animasi PowerPoint yang menarik.
+type: docs
 weight: 11
 url: /id/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Seri Animasi di Aspose.Slide untuk Java
 
@@ -129,9 +125,3 @@ Anda dapat memperluas perulangan di Langkah 3 untuk menambahkan animasi untuk se
 ### Bagaimana cara menyesuaikan durasi dan penundaan animasi?
 
 Anda dapat menyesuaikan durasi dan penundaan animasi dengan mengatur properti pada efek animasi. Periksa dokumentasi Aspose.Slides untuk Java untuk detail tentang opsi penyesuaian yang tersedia.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

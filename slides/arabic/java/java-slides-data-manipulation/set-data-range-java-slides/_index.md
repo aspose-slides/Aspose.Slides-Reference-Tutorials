@@ -3,14 +3,10 @@ title: تعيين نطاق البيانات في شرائح جافا
 linktitle: تعيين نطاق البيانات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين نطاقات البيانات في شرائح Java بسهولة باستخدام Aspose.Slides for Java. أنشئ عروضًا تقديمية ديناميكية ومعتمدة على البيانات باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+type: docs
 weight: 18
 url: /ar/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتعيين نطاق البيانات في شرائح جافا
 
@@ -101,9 +97,3 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق وأمثلة موسعة لـ Aspose.Slides for Java على موقع وثائق Aspose:[Aspose.Slides لمراجع Java API](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

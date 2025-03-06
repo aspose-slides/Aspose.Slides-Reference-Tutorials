@@ -3,14 +3,10 @@ title: Java Slides-animering och layout
 linktitle: Java Slides-animering och layout
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig Java Slides-animering och layout med Aspose.Slides för Java. Bemästra interaktiva presentationer. Dyk in i dynamiskt innehållsskapande.
+type: docs
 weight: 14
 url: /sv/java/animation-and-layout/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Vill du blåsa liv i dina presentationer och skapa fängslande bilder med Java? Aspose.Slides för Java är din bästa lösning. I den här omfattande guiden kommer vi att undersöka hur du bemästrar animering och layout av Java-bilder, så att dina presentationer sticker ut från resten.
 
@@ -46,9 +42,3 @@ Optimera dina Java-presentationer med Aspose.Slides för Java. Lär dig hur du a
 Optimera dina presentationer med serieanimationer i Aspose.Slides för Java. Följ vår steg-för-steg-guide med källkodsexempel för att skapa engagerande PowerPoint-animationer.
 ### [Animera serieelement i Java Slides](./animating-series-elements-java-slides/)
 Lär dig hur du animerar serieelement i PowerPoint-bilder med Aspose.Slides för Java. Följ den här omfattande steg-för-steg-guiden med källkod för att förbättra dina presentationer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

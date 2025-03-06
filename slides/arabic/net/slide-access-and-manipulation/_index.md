@@ -3,14 +3,10 @@ title: الوصول إلى الشرائح والتلاعب بها
 linktitle: الوصول إلى الشرائح والتلاعب بها
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: استكشف البرامج التعليمية الشاملة حول الوصول إلى الشرائح ومعالجتها باستخدام Aspose.Slides for .NET. تعلم كيفية إنشاء العروض التقديمية وتعديلها وتحسينها برمجيًا.
+type: docs
 weight: 10
 url: /ar/net/slide-access-and-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة:
 
 مرحبًا بك في عالم المعالجة الديناميكية للعروض التقديمية باستخدام Aspose.Slides لـ .NET! هذه المجموعة من البرامج التعليمية هي مفتاحك لفتح الإمكانات الكاملة لـ Aspose.Slides API، حيث تقدم لك الأدوات والمعرفة اللازمة للوصول إلى الشرائح ومعالجتها بسلاسة في تطبيقات .NET الخاصة بك. بدءًا من إنشاء عروض تقديمية جذابة وحتى تنفيذ تعديلات معقدة، توفر لك هذه البرامج التعليمية خريطة طريق شاملة. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو مع Aspose.Slides، فإن أدلتنا خطوة بخطوة وأمثلة التعليمات البرمجية ستمكنك من تسخير قوة الشرائح لسرد قصص بصرية مؤثرة. انضم إلينا ونحن نشرع في رحلة إلى عالم الوصول إلى الشرائح ومعالجتها، واستكشاف الإمكانات التي توفرها Aspose.Slides في متناول يدك.
@@ -48,9 +44,3 @@ url: /ar/net/slide-access-and-manipulation/
 تعرف على كيفية مسح شرائح PowerPoint خطوة بخطوة باستخدام Aspose.Slides لـ .NET. يوفر دليلنا تعليمات واضحة وكود مصدر كامل لمساعدتك على إزالة الشرائح برمجيًا من خلال فهرسها التسلسلي.
 ### [حذف الشريحة عبر المرجع](./remove-slide-using-reference/)
 تعرف على كيفية حذف الشرائح برمجيًا في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. قم بتبسيط معالجة العرض التقديمي باستخدام هذا الدليل المفصّل خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

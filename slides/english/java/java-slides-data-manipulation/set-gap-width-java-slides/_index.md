@@ -3,14 +3,10 @@ title: Set Gap Width in Java Slides
 linktitle: Set Gap Width in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set Gap Width in Java Slides with Aspose.Slides for Java. Enhance chart visuals for your PowerPoint presentations.
+type: docs
 weight: 21
 url: /java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Setting Gap Width in Aspose.Slides for Java
 
@@ -162,10 +158,3 @@ Yes, Aspose.Slides for Java provides extensive capabilities for chart customizat
 ### Where can I find more resources and documentation?
 
 You can find comprehensive documentation and additional resources on Aspose.Slides for Java on the [Aspose website](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

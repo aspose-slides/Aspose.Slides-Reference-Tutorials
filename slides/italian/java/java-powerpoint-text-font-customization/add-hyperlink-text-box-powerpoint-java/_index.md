@@ -3,14 +3,10 @@ title: Aggiungi collegamento ipertestuale alla casella di testo in PowerPoint ut
 linktitle: Aggiungi collegamento ipertestuale alla casella di testo in PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere collegamenti ipertestuali alle caselle di testo di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con esempi per sviluppatori Java.
+type: docs
 weight: 23
 url: /it/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Nell'era digitale di oggi, creare presentazioni dinamiche che coinvolgano e informino è fondamentale per una comunicazione efficace. Gli sviluppatori Java che cercano di migliorare le loro applicazioni con funzionalità interattive spesso si rivolgono ad Aspose.Slides per Java, una potente libreria che consente la manipolazione delle presentazioni PowerPoint a livello di codice. Questo tutorial approfondisce una di queste funzionalità: l'aggiunta di collegamenti ipertestuali alle caselle di testo nelle presentazioni PowerPoint utilizzando Java. Al termine di questa guida avrai una chiara comprensione di come implementare facilmente questa funzionalità nelle tue applicazioni Java.
 ## Prerequisiti
@@ -80,9 +76,3 @@ Seguendo questi passaggi, hai imparato con successo come aggiungere collegamenti
  Sì, è possibile acquistare licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides è compatibile con altre librerie Java?
 Aspose.Slides si integra bene con varie librerie Java per una manipolazione completa di PowerPoint.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

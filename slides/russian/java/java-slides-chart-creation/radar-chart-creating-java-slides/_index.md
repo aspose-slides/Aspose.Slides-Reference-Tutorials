@@ -3,14 +3,10 @@ title: Создание радиолокационной диаграммы в �
 linktitle: Создание радиолокационной диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать радиолокационные диаграммы в презентациях Java PowerPoint с помощью Aspose.Slides для Java API.
+type: docs
 weight: 10
 url: /ru/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в создание радиолокационной диаграммы в слайдах Java
 
@@ -272,9 +268,3 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### Как сохранить диаграмму в другом формате файла?
 
 Вы можете изменить формат вывода, изменив расширение файла в`outPath` переменную и используя соответствующий`SaveFormat` . Например, чтобы сохранить в формате PDF, используйте`SaveFormat.Pdf`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

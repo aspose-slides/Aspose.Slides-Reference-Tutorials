@@ -3,14 +3,10 @@ title: Wykres Sunburst w slajdach Java
 linktitle: Wykres Sunburst w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz oszałamiające wykresy Sunburst w Java Slides za pomocą Aspose.Slides. Dowiedz się, jak krok po kroku tworzyć wykresy i manipulować danymi.
+type: docs
 weight: 16
 url: /pl/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do wykresu Sunburst w Java Slides z Aspose.Slides
 
@@ -172,9 +168,3 @@ Aby dodać podpowiedzi do wykresu Sunburst, możesz ustawić format etykiety dan
 ### Czy można tworzyć interaktywne wykresy Sunburst z hiperłączami?
 
 Tak, możesz tworzyć interaktywne wykresy Sunburst z hiperłączami, dodając hiperłącza do określonych elementów lub segmentów wykresu. Szczegółowe informacje na temat dodawania hiperłączy można znaleźć w dokumentacji Aspose.Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

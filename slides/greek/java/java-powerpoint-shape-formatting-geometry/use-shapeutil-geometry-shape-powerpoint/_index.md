@@ -3,14 +3,10 @@ title: Χρησιμοποιήστε το ShapeUtil για το σχήμα γεω
 linktitle: Χρησιμοποιήστε το ShapeUtil για το σχήμα γεωμετρίας στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε προσαρμοσμένα σχήματα στο PowerPoint με το Aspose.Slides για Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε τις παρουσιάσεις σας.
+type: docs
 weight: 23
 url: /el/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων PowerPoint απαιτεί συχνά περισσότερα από τη χρήση τυπικών σχημάτων και κειμένου. Φανταστείτε ότι μπορείτε να προσθέσετε προσαρμοσμένα σχήματα και διαδρομές κειμένου απευθείας στις διαφάνειές σας, βελτιώνοντας τον οπτικό αντίκτυπο της παρουσίασής σας. Χρησιμοποιώντας το Aspose.Slides για Java, μπορείτε να το πετύχετε εύκολα. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία χρήσης του`ShapeUtil` τάξη για τη δημιουργία σχημάτων γεωμετρίας σε παρουσιάσεις PowerPoint. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός βήμα προς βήμα θα σας βοηθήσει να αξιοποιήσετε τη δύναμη του Aspose.Slides για Java για να δημιουργήσετε εκπληκτικό περιεχόμενο προσαρμοσμένου σχήματος.
 ## Προαπαιτούμενα
@@ -79,9 +75,3 @@ pres.dispose();
  ο`ShapeUtil` class στο Aspose.Slides παρέχει βοηθητικές μεθόδους για την εργασία με σχήματα, όπως η μετατροπή γραφικών μονοπατιών σε γεωμετρικές διαδρομές.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Μπορείτε να λάβετε υποστήριξη από το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

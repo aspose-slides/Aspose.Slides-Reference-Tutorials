@@ -3,14 +3,10 @@ title: Repliceer dia aan het einde van een afzonderlijke presentatie
 linktitle: Repliceer dia aan het einde van een afzonderlijke presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u een dia uit de ene PowerPoint-presentatie kunt repliceren en deze aan een andere kunt toevoegen met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncode en duidelijke instructies voor naadloze diamanipulatie.
+type: docs
 weight: 17
 url: /nl/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -107,9 +103,3 @@ Absoluut! U kunt de inhoud van de gerepliceerde dia net als elke andere dia mani
 ### Werkt Aspose.Slides voor .NET alleen met dia's?
 
 Nee, Aspose.Slides voor .NET biedt uitgebreide mogelijkheden die verder gaan dan alleen dia's. U kunt werken met vormen, grafieken en animaties en zelfs tekst en afbeeldingen uit presentaties extraheren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

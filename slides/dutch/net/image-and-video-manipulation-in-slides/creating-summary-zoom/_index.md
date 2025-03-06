@@ -3,14 +3,10 @@ title: Aspose.Slides - Mastering Samenvatting Zoomt in op .NET
 linktitle: Samenvatting maken Inzoomen op presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met Aspose.Slides voor .NET! Leer moeiteloos boeiende samenvattingszooms maken. Download nu voor een dynamische dia-ervaring.
+type: docs
 weight: 16
 url: /nl/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van presentaties onderscheidt Aspose.Slides voor .NET zich als een krachtig hulpmiddel om uw ervaring met het maken van dia's te verbeteren. Een van de opvallende kenmerken die het biedt, is de mogelijkheid om een samenvattingszoom te maken, een visueel aantrekkelijke manier om een verzameling dia's te presenteren. In deze zelfstudie begeleiden we u bij het maken van presentatiedia's met samenvattende zoom in met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -83,9 +79,3 @@ Absoluut! U kunt hyperlinks in uw dia's opnemen en deze werken naadloos binnen h
 Vanaf de nieuwste versie zijn er geen strikte beperkingen op het aantal secties dat u aan een presentatie kunt toevoegen.
 ### Is er een proefversie beschikbaar voor Aspose.Slides?
 Ja, u kunt de functies van Aspose.Slides verkennen door het bestand[gratis proefversie](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

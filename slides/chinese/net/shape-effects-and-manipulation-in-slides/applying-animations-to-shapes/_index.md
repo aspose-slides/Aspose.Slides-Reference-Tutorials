@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 轻松制作形状动画
 linktitle: 使用 Aspose.Slides 将动画应用于演示幻灯片中的形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 创建令人惊叹的演示文稿。通过本分步指南学习如何将动画应用于形状。立即提升您的幻灯片！
+type: docs
 weight: 21
 url: /zh/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在动态演示的世界中，向形状添加动画可以显著增强幻灯片的视觉吸引力和参与度。Aspose.Slides for .NET 提供了一个强大的工具包来无缝实现这一点。在本教程中，我们将指导您使用 Aspose.Slides 将动画应用于形状的过程，让您创建引人入胜、令人印象深刻的演示文稿。
 ## 先决条件
@@ -85,9 +81,3 @@ Aspose.Slides 确保与各种 PowerPoint 版本的兼容性，确保您的演示
 是的，你可以获得许可证[这里](https://purchase.aspose.com/buy)释放 Aspose.Slides 的全部潜力。
 ### 我可以在购买之前试用 Aspose.Slides 吗？
 当然可以！利用[免费试用](https://releases.aspose.com/)在做出承诺之前体验 Aspose.Slides 的功能。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

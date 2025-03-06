@@ -3,14 +3,10 @@ title: Java PowerPoint でカスタム箇条書き番号を設定する
 linktitle: Java PowerPoint でカスタム箇条書き番号を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint でカスタム箇条書き番号を設定し、プレゼンテーションの明瞭性と構造をプログラムで強化する方法を学習します。
+type: docs
 weight: 15
 url: /ja/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 今日のデジタル時代では、アイデアやデータを効果的に伝えるには、動的なプレゼンテーションを作成することが重要です。Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログラムで操作するための強力なツールキットを提供し、プレゼンテーション作成プロセスを強化するための幅広い機能を提供します。この記事では、Aspose.Slides を使用して Java PowerPoint プレゼンテーションにカスタム箇条書き番号を設定する方法について詳しく説明します。熟練した開発者でも初心者でも、このチュートリアルではプロセスをステップごとに説明し、この機能を効率的に活用できるようにします。
 ## 前提条件
@@ -86,9 +82,3 @@ Aspose.Slides は、97 ～ 2003 から最新バージョンまでの PowerPoint 
 はい、無料トライアルはここからダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides はどこで購入できますか?
  Aspose.Slidesは以下から購入できます。[ここ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

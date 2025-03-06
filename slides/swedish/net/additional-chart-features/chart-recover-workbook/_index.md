@@ -3,14 +3,10 @@ title: Hur man använder Aspose.Slides .NET för att återställa arbetsbok frå
 linktitle: Återställ arbetsbok från diagram
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du återställer en arbetsbok från ett diagram i PowerPoint-presentationer med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för att extrahera data effektivt.
+type: docs
 weight: 12
 url: /sv/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Om du vill arbeta med PowerPoint-presentationer i .NET är Aspose.Slides för .NET ett kraftfullt bibliotek som kan hjälpa dig att nå dina mål. I den här självstudien guidar vi dig genom processen att återställa en arbetsbok från ett diagram i en PowerPoint-presentation med Aspose.Slides för .NET. Denna kraftfulla funktion kan vara användbar när du behöver extrahera data från diagram i dina presentationer. Vi delar upp processen i steg som är lätta att följa, så att du har en tydlig förståelse för hur du ska utföra denna uppgift.
 
@@ -105,9 +101,3 @@ Aspose.Slides för .NET är ett kraftfullt .NET-bibliotek för att arbeta med Mi
 ### 5. Vad är den maximala titellängden för SEO-optimering?
 
 För SEO-optimering rekommenderas att du håller din titel under 60 tecken för att säkerställa att den visas korrekt i sökmotorernas resultat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

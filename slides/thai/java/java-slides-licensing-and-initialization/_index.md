@@ -3,14 +3,10 @@ title: การให้สิทธิ์การใช้งาน Java Slid
 linktitle: การให้สิทธิ์การใช้งาน Java Slides และการเริ่มต้น
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ค้นพบวิธีการอนุญาตและเริ่มต้น Aspose.Slides สำหรับ Java อย่างมีประสิทธิภาพในบทช่วยสอนที่ครอบคลุมของเรา เริ่มต้นใช้งาน Java Slides ทันที!
+type: docs
 weight: 10
 url: /th/java/licensing-and-initialization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ในโลกของ Java Slides การให้สิทธิ์การใช้งานและการเริ่มต้นถือเป็นก้าวแรกที่สำคัญ Aspose.Slides สำหรับ Java มอบแพลตฟอร์มที่ทรงพลังสำหรับการสร้างงานนำเสนอและสไลด์โชว์ที่น่าทึ่ง ในบทความนี้ เราจะแนะนำคุณตลอดขั้นตอนการออกใบอนุญาตและการเริ่มต้น Aspose.Slides สำหรับ Java เพื่อให้มั่นใจว่าคุณมีเครื่องมือทั้งหมดที่จำเป็นในการสร้างงานนำเสนอที่น่าดึงดูด
 
@@ -42,9 +38,3 @@ url: /th/java/licensing-and-initialization/
 ## บทช่วยสอนการให้สิทธิ์การใช้งานและการเริ่มต้น Java Slides
 ### [ใบอนุญาตแบบมิเตอร์ใน Java Slides](./metered-licensing-java-slides/)
 เพิ่มประสิทธิภาพ Aspose.Slides ของคุณสำหรับการใช้งาน Java ด้วย Metered Licensing เรียนรู้วิธีตั้งค่าและติดตามปริมาณการใช้ API ของคุณ
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

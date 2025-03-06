@@ -3,14 +3,10 @@ title: Buat Bagian Zoom di PowerPoint
 linktitle: Buat Bagian Zoom di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat pembesaran bagian dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan navigasi dan keterlibatan dengan mudah.
+type: docs
 weight: 13
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membuat pembesaran bagian dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Pembesaran bagian adalah fitur canggih yang memungkinkan Anda bernavigasi dengan lancar melalui berbagai bagian presentasi Anda, meningkatkan organisasi dan pengalaman pengguna secara keseluruhan. Dengan memecah presentasi yang kompleks menjadi beberapa bagian yang mudah dicerna, Anda dapat menyampaikan pesan secara efektif dan melibatkan audiens Anda.
@@ -76,9 +72,3 @@ Aspose.Slides untuk Java mendukung pembesaran bagian dalam berbagai format Power
 Ya, Anda dapat menambahkan pembesaran bagian ke presentasi yang sudah ada menggunakan Aspose.Slides untuk Java dengan mengikuti langkah serupa yang diuraikan dalam tutorial ini.
 ### Di mana saya dapat menemukan dukungan atau bantuan tambahan dengan Aspose.Slides untuk Java?
  Untuk dukungan atau bantuan tambahan, Anda dapat mengunjungi forum Aspose.Slides for Java[Di Sini](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

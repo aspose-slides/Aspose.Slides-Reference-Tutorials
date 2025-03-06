@@ -3,14 +3,10 @@ title: 在 PowerPoint 中创建部分放大
 linktitle: 在 PowerPoint 中创建部分放大
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建部分缩放。轻松增强导航和参与度。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍
 在本教程中，我们将深入研究如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建部分缩放。部分缩放是一项强大的功能，可让您无缝浏览演示文稿的不同部分，从而增强组织和整体用户体验。通过将复杂的演示文稿分解为易于理解的部分，您可以有效地传达您的信息并吸引观众。
@@ -76,9 +72,3 @@ Aspose.Slides for Java 支持各种 PowerPoint 格式的章节缩放，包括 PP
 是的，您可以按照本教程中概述的类似步骤，使用 Aspose.Slides for Java 为现有演示文稿添加部分缩放。
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多支持或帮助？
 如需更多支持或帮助，您可以访问 Aspose.Slides for Java 论坛[这里](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

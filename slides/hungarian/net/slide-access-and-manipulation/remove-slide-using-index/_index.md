@@ -3,14 +3,10 @@ title: Dia törlése szekvenciális index szerint
 linktitle: Dia törlése szekvenciális index szerint
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan törölheti lépésről lépésre a PowerPoint diákat az Aspose.Slides for .NET segítségével. Útmutatónk egyértelmű utasításokat és teljes forráskódot tartalmaz, amelyek segítségével programozottan eltávolíthatja a diákat a szekvenciális indexük alapján.
+type: docs
 weight: 24
 url: /hu/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Dia törléséhez szekvenciális index szerint
 
@@ -90,9 +86,3 @@ Természetesen törölheti a diákat olyan feltételek alapján, mint a diatarta
 ### Hogyan tudhatok meg többet az Aspose.Slides for .NET-ről?
 
  Az Aspose.Slides for .NET részletes dokumentációját és API-referenciáját a webhelyen tekintheti meg[dokumentációs oldal](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

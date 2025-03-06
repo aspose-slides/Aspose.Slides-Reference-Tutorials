@@ -3,14 +3,10 @@ title: Adjon hozzá egyéni gyermekcsomópontokat a SmartArthoz Java használat�
 linktitle: Adjon hozzá egyéni gyermekcsomópontokat a SmartArthoz Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá egyéni gyermekcsomópontokat a SmartArthoz a PowerPoint-prezentációkban Java és Aspose.Slides használatával. Fokozza könnyedén diákjait professzionális grafikával.
+type: docs
 weight: 11
 url: /hu/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A SmartArt a PowerPoint hatékony funkciója, amely lehetővé teszi a felhasználók számára, hogy gyorsan és egyszerűen készítsenek professzionális megjelenésű grafikákat. Ebben az oktatóanyagban megtanuljuk, hogyan adhatunk egyéni gyermekcsomópontokat a SmartArthoz Java és Aspose.Slides használatával.
 ## Előfeltételek
@@ -83,9 +79,3 @@ Teljesen! Az Aspose.Slides for Java segítségével programozottan testreszabhat
 Igen, az Aspose webhelyén átfogó dokumentációt és hozzáférést találhat a közösségi támogatási fórumokhoz.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
  Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről, hogy a vásárlás előtt felfedezze annak funkcióit és képességeit.[itt](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

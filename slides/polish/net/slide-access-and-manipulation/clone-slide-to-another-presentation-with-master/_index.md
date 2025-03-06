@@ -3,14 +3,10 @@ title: Skopiuj slajd do nowej prezentacji za pomocą slajdu wzorcowego
 linktitle: Skopiuj slajd do nowej prezentacji za pomocą slajdu wzorcowego
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak kopiować slajdy ze slajdami wzorcowymi przy użyciu Aspose.Slides dla .NET. Zwiększ swoje umiejętności prezentacji dzięki temu przewodnikowi krok po kroku.
+type: docs
 weight: 20
 url: /pl/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 świecie projektowania prezentacji i zarządzania nimi efektywność jest kluczowa. Jako autor treści jestem tutaj, aby poprowadzić Cię przez proces kopiowania slajdu do nowej prezentacji ze slajdem wzorcowym przy użyciu Aspose.Slides dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w tej dziedzinie, ten samouczek krok po kroku pomoże Ci opanować tę niezbędną umiejętność. Zanurzmy się od razu.
 
@@ -122,9 +118,3 @@ Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom .
 
 ### Gdzie mogę uzyskać wsparcie społeczności i omówić Aspose.Slides dla .NET?
  Możesz dołączyć do społeczności Aspose i szukać wsparcia pod adresem[Aspose.Slides dla forum pomocy technicznej .NET](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

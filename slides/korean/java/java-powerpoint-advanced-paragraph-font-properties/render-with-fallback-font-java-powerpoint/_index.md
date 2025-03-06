@@ -3,14 +3,10 @@ title: Java PowerPoint에서 대체 글꼴을 사용하여 렌더링
 linktitle: Java PowerPoint에서 대체 글꼴을 사용하여 렌더링
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 대체 글꼴로 텍스트를 렌더링하는 방법을 알아보세요. 원활한 구현을 위해 이 단계별 가이드를 따르세요.
+type: docs
 weight: 13
 url: /ko/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java로 PowerPoint 프레젠테이션을 만들고 조작하는 것은 어려울 수 있지만 Aspose.Slides를 사용하면 이 작업을 효율적으로 수행할 수 있습니다. 중요한 기능 중 하나는 대체 글꼴을 사용하여 텍스트를 렌더링하는 기능입니다. 이 문서에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 대체 글꼴을 구현하는 방법에 대한 자세한 단계별 가이드를 제공합니다.
 ## 전제 조건
@@ -92,9 +88,3 @@ Aspose.Slides for Java는 개발자가 Java 애플리케이션에서 PowerPoint 
 예, 여러 대체 규칙을 추가하여 다양한 유니코드 범위 및 글꼴을 처리할 수 있습니다.
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Hướng dẫn toàn diện để thiết lập nền slide chính
 linktitle: Đặt nền chính của slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách đặt nền trang chiếu chính bằng Aspose.Slides cho .NET để cải thiện bản trình bày của bạn một cách trực quan.
+type: docs
 weight: 14
 url: /vi/net/slide-background-manipulation/set-slide-background-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong lĩnh vực thiết kế bài thuyết trình, một hình nền quyến rũ và hấp dẫn về mặt hình ảnh có thể tạo nên sự khác biệt. Cho dù bạn đang tạo một bài thuyết trình cho mục đích kinh doanh, giáo dục hay bất kỳ mục đích nào khác, nền đều đóng một vai trò quan trọng trong việc nâng cao tác động trực quan. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn thao tác và tùy chỉnh bản trình bày một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào quy trình thiết lập nền trang chiếu chính bằng Aspose.Slides cho .NET. 
 
@@ -147,9 +143,3 @@ Aspose.Slides for .NET được thiết kế để hoạt động với nhiều 
 **Title (maximum 60 characters):** Thiết lập nền slide chính trong Aspose.Slides cho .NET
 
 Nâng cao thiết kế bản trình bày của bạn với Aspose.Slides for .NET. Tìm hiểu cách đặt nền trang chiếu chính để có hình ảnh hấp dẫn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

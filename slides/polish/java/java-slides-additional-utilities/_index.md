@@ -3,14 +3,10 @@ title: Odblokowywanie nowych możliwości dzięki Aspose.Slides dla samouczków 
 linktitle: Dodatkowe narzędzia Java Slides
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odkryj dodatkowe narzędzia dla Java Slides, korzystając z samouczków Aspose.Slides for Java. Ulepsz swoje prezentacje dzięki zaawansowanym funkcjom. Przeglądaj teraz!
+type: docs
 weight: 20
 url: /pl/java/additional-utilities/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Czy jesteś gotowy, aby przenieść swoje prezentacje Java Slides na wyższy poziom? Aspose.Slides for Java oferuje skarbnicę dodatkowych narzędzi i funkcji, które mogą przekształcić Twoje slajdy w urzekające arcydzieła. W tym artykule zbadamy różnorodną gamę narzędzi i technik udostępnianych przez Aspose.Slides dla Java, umożliwiając tworzenie prezentacji, które pozostawiają niezatarte wrażenie.
 
 ## Moc Aspose.Slides dla Java
@@ -52,9 +48,3 @@ Dowiedz się, jak otwierać prezentacje programu PowerPoint w Javie przy użyciu
 Dowiedz się, jak zabezpieczyć dokumenty PDF uprawnieniami dostępu w Java Slides za pomocą Aspose.Slides. W tym przewodniku krok po kroku opisano ochronę hasłem i nie tylko.
 ### [Sprawdź prezentację bez ładowania w slajdach Java](./verify-presentation-without-loading-in-java-slides/)
 Dowiedz się, jak weryfikować prezentacje bez ładowania ich do Java Slides przy użyciu Aspose.Slides dla Java. Skutecznie zapewnij integralność plików, korzystając z tego przewodnika krok po kroku.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

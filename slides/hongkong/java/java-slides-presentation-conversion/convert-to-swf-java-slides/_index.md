@@ -3,14 +3,10 @@ title: 在 Java 投影片中轉換為 SWF
 linktitle: 在 Java 投影片中轉換為 SWF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 將 PowerPoint 簡報轉換為 Java 中的 SWF 格式。請按照我們的原始碼逐步指南進行無縫轉換。
+type: docs
 weight: 35
 url: /zh-hant/java/presentation-conversion/convert-to-swf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 使用 Aspose.Slides 將 PowerPoint 簡報轉換為 Java 中的 SWF 的簡介
 
@@ -128,9 +124,3 @@ SWF 檔案中的預設註解位置為「無」。您可以根據需要將其變�
 ### 如何處理轉換過程中的錯誤？
 
 您可以使用 try-catch 區塊來處理轉換過程中可能發生的異常。請務必檢查 Aspose.Slides 文件以取得特定的錯誤處理建議。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

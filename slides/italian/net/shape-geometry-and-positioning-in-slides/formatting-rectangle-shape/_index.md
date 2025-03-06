@@ -3,14 +3,10 @@ title: Migliora le presentazioni formatta forme rettangolari con Aspose.Slides
 linktitle: Formattazione della forma rettangolare nelle diapositive della presentazione utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Impara a formattare forme rettangolari nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Migliora le tue diapositive con elementi visivi dinamici.
+type: docs
 weight: 12
 url: /it/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Aspose.Slides per .NET è una potente libreria che facilita il lavoro con le presentazioni PowerPoint nell'ambiente .NET. Se desideri migliorare le tue presentazioni formattando dinamicamente le forme rettangolari, questo tutorial fa per te. In questa guida passo passo, ti guideremo attraverso il processo di formattazione di una forma rettangolare in una presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -80,9 +76,3 @@ Sì, Aspose.Slides supporta altri linguaggi .NET come VB.NET e F# oltre a C#.
  Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 ### Q5: Dove posso acquistare Aspose.Slides per .NET?
  È possibile acquistare Aspose.Slides per .NET[Qui](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

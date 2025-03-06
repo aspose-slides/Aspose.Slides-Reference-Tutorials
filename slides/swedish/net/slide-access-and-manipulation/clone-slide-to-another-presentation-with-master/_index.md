@@ -3,14 +3,10 @@ title: Kopiera bild till ny presentation med huvudbild
 linktitle: Kopiera bild till ny presentation med huvudbild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du kopierar bilder med masterbilder med Aspose.Slides för .NET. Öka dina presentationsfärdigheter med denna steg-för-steg-guide.
+type: docs
 weight: 20
 url: /sv/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 en värld av presentationsdesign och -hantering är effektivitet nyckeln. Som innehållsskribent är jag här för att guida dig genom processen att kopiera en bild till en ny presentation med en huvudbild med Aspose.Slides för .NET. Oavsett om du är en erfaren utvecklare eller en nykomling i det här riket, kommer denna steg-för-steg-handledning att hjälpa dig att bemästra denna viktiga färdighet. Låt oss dyka direkt in.
 
@@ -122,9 +118,3 @@ Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för 
 
 ### Var kan jag få communitysupport och diskutera Aspose.Slides för .NET?
  Du kan gå med i Aspose-communityt och söka stöd på[Aspose.Slides för .NET Support Forum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

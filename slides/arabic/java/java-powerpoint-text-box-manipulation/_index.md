@@ -3,14 +3,10 @@ title: التعامل مع مربع نص جافا باور بوينت
 linktitle: التعامل مع مربع نص جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استكشف البرامج التعليمية الشاملة لمعالجة مربع نص Java PowerPoint باستخدام Aspose.Slides. قم بتحسين عروضك التقديمية خطوة بخطوة باستخدام أدلتنا.
+type: docs
 weight: 20
 url: /ar/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لعروض PowerPoint التقديمية الخاصة بك من خلال البرامج التعليمية الخاصة بمعالجة مربع نص Java PowerPoint باستخدام Aspose.Slides. سواء كنت مستخدمًا مبتدئًا أو متقدمًا، ستساعدك أدلتنا التفصيلية على تحسين عروضك التقديمية دون عناء.
@@ -56,9 +52,3 @@ url: /ar/java/java-powerpoint-text-box-manipulation/
 تعرف على كيفية تطبيق تنسيقات تعبئة التعداد النقطي في Java PowerPoint باستخدام Aspose.Slides لـ Java. إتقان أنماط التعداد النقطي وتحسين العروض التقديمية الخاصة بك.
 ### [تأثير مربع النص على الفقرة في جافا باور بوينت](./effect-text-box-paragraph-java-powerpoint/)
 تعرف على كيفية تحسين عروض PowerPoint التقديمية في Java باستخدام تأثيرات النص الديناميكية باستخدام Aspose.Slides للتكامل والتخصيص السلس.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

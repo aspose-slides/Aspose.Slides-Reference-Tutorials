@@ -3,14 +3,10 @@ title: Convertir a PDF en diapositivas Java
 linktitle: Convertir a PDF en diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo convertir presentaciones de PowerPoint a PDF en Java usando Aspose.Slides para Java. Siga nuestra guía paso a paso con código fuente y preguntas frecuentes para una conversión perfecta de PowerPoint a PDF.
+type: docs
 weight: 25
 url: /es/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a convertir presentaciones de PowerPoint a PDF en Java usando Aspose.Slides para Java
 
@@ -117,9 +113,3 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

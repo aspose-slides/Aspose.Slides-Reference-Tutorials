@@ -3,14 +3,10 @@ title: Ekspor Presentasi ke Format XAML
 linktitle: Ekspor Presentasi ke Format XAML
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides untuk .NET. Buat konten interaktif dengan mudah!
+type: docs
 weight: 27
 url: /id/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dalam dunia pengembangan perangkat lunak, penting untuk memiliki alat yang dapat menyederhanakan tugas-tugas kompleks. Aspose.Slides for .NET adalah salah satu alat yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial langkah demi langkah ini, kita akan mempelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides untuk .NET. 
 
@@ -117,9 +113,3 @@ Aspose.Slides for .NET adalah perpustakaan .NET untuk bekerja dengan presentasi 
  Anda dapat menemukan dukungan dan diskusi komunitas[Di Sini](https://forum.aspose.com/).
 
  Untuk tutorial dan sumber daya lainnya, kunjungi[Dokumentasi Aspose.Slides API](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

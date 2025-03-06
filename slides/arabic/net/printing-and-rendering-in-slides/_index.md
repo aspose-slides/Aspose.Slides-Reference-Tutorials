@@ -3,14 +3,10 @@ title: الطباعة والعرض في الشرائح
 linktitle: الطباعة والعرض في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز مهاراتك في طباعة الشرائح وعرضها من خلال البرامج التعليمية لـ Aspose.Slides لـ .NET. تعلم تقنيات خطوة بخطوة للحصول على مخرجات عالية الجودة. انغمس في معالجة الشرائح الآن!
+type: docs
 weight: 10
 url: /ar/net/printing-and-rendering-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة:
 
@@ -45,9 +41,3 @@ url: /ar/net/printing-and-rendering-in-slides/
 تعرف على كيفية طباعة شرائح محددة من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يغطي دليلنا خطوة بخطوة التثبيت والتخصيص ومعالجة الاستثناءات، مما يوفر طريقة سلسة لأتمتة مهام PowerPoint.
 ### [دعم التوقيعات الرقمية في Aspose.Slides](./digital-signature-support/)
 قم بتعزيز أمان العرض التقديمي باستخدام التوقيعات الرقمية باستخدام Aspose.Slides لـ .NET. تعلم كيفية إضافة التوقيعات والتحقق منها في PowerPoint خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

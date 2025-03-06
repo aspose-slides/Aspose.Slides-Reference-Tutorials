@@ -3,14 +3,10 @@ title: Java 슬라이드의 데이터 포인트에 색상 추가
 linktitle: Java 슬라이드의 데이터 포인트에 색상 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드의 데이터 포인트에 색상을 추가하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 데이터 포인트에 색상 추가 소개
 
@@ -121,9 +117,3 @@ finally
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
 
  Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음 페이지에서 찾을 수 있습니다.[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 웹사이트.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

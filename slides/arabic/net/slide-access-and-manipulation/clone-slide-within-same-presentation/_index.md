@@ -3,14 +3,10 @@ title: استنساخ الشريحة داخل نفس العرض التقديمي
 linktitle: استنساخ الشريحة داخل نفس العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استنساخ الشرائح داخل نفس عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل المفصّل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر الكاملة للتعامل مع عروضك التقديمية بكفاءة.
+type: docs
 weight: 21
 url: /ar/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -109,9 +105,3 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
 
  لمزيد من الوثائق والأمثلة التفصيلية، يمكنك زيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

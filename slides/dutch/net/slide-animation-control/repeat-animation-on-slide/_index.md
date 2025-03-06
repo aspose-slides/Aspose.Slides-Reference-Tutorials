@@ -3,14 +3,10 @@ title: PowerPoint-animaties beheersen met Aspose.Slides .NET
 linktitle: Herhaal animatie op dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter PowerPoint-presentaties met Aspose.Slides voor .NET. Beheer animaties moeiteloos, boeien uw publiek en laat een blijvende indruk achter.
+type: docs
 weight: 12
 url: /nl/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In de dynamische wereld van presentaties speelt de mogelijkheid om animaties te besturen een cruciale rol bij het boeien en vasthouden van de aandacht van het publiek. Aspose.Slides voor .NET stelt ontwikkelaars in staat de animatietypes binnen dia's in eigen hand te nemen, waardoor een meer interactieve en visueel aantrekkelijke presentatie mogelijk wordt. In deze zelfstudie onderzoeken we stap voor stap hoe u animatietypen op een dia kunt beheren met Aspose.Slides voor .NET.
 ## Vereisten
@@ -70,9 +66,3 @@ Aspose.Slides biedt ondersteuning voor een breed scala aan PowerPoint-versies, w
  Bezoek[hier](https://purchase.aspose.com/temporary-license/) voor informatie over het verkrijgen van een tijdelijke licentie.
 ### Hulp nodig of meer vragen?
  Neem contact op met de Aspose.Slides-community op de[Helpforum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

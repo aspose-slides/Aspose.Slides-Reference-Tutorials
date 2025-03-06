@@ -3,14 +3,10 @@ title: Adjon hozzá csomópontokat a SmartArt adott pozíciójához Java haszná
 linktitle: Adjon hozzá csomópontokat a SmartArt adott pozíciójához Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel, hogyan adhat hozzá csomópontokat a SmartArt adott pozícióihoz Java és Aspose.Slides segítségével. Hozzon létre dinamikus prezentációkat könnyedén.
+type: docs
 weight: 16
 url: /hu/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a SmartArt adott pozícióihoz csomópontok hozzáadásának folyamatán Java és Aspose.Slides használatával. A SmartArt a PowerPoint egyik funkciója, amely lehetővé teszi tetszetős diagramok és diagramok létrehozását.
 ## Előfeltételek
@@ -74,9 +70,3 @@ Igen, testreszabhatja a csomópontok megjelenését, beleértve a méretüket, s
 Igen, az Aspose.Slides több programozási nyelvhez biztosít könyvtárakat, beleértve a .NET-t és a Python-t is.
 ### Elérhető az Aspose.Slides próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

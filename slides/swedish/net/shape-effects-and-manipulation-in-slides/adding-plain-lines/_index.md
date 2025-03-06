@@ -3,14 +3,10 @@ title: Lägga till vanliga linjer till presentationsbilder med Aspose.Slides
 linktitle: Lägga till vanliga linjer till presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina PowerPoint-presentationer i .NET med Aspose.Slides. Följ vår steg-för-steg-guide för att lägga till enkla linjer utan ansträngning.
+type: docs
 weight: 16
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att skapa engagerande och visuellt tilltalande PowerPoint-presentationer innebär ofta att olika former och element införlivas. Om du arbetar med .NET är Aspose.Slides ett kraftfullt verktyg som förenklar processen. Den här handledningen fokuserar på att lägga till enkla linjer till presentationsbilder med Aspose.Slides för .NET. Följ med för att förbättra dina presentationer med den här lättanvända guiden.
 ## Förutsättningar
@@ -71,9 +67,3 @@ S: Absolut, Aspose.Slides stöder de senaste .NET-ramverken.
  Ett besök[här](https://purchase.aspose.com/temporary-license/) för tillfälliga licenser.
 ### F: Står du inför problem? Var kan jag få stöd?
  S: Sök hjälp på[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

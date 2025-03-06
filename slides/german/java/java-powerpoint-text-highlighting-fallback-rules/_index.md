@@ -3,14 +3,10 @@ title: Texthervorhebung und Fallback-Regeln in Java PowerPoint
 linktitle: Texthervorhebung und Fallback-Regeln in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Meistern Sie Texthervorhebung und Schriftart-Fallback-Regeln in Java PowerPoint mit Aspose.Slides. Folgen Sie unseren Tutorials, um Ihre Präsentationen nahtlos zu verbessern und zu automatisieren.
+type: docs
 weight: 25
 url: /de/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung
 
@@ -30,9 +26,3 @@ Wenn Sie diese Tutorials befolgen, sind Sie bestens gerüstet, um Ihre Java Powe
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Text in PowerPoint hervorheben. Automatisieren und verbessern Sie Präsentationen mühelos mit unserer ausführlichen Anleitung.
 ### [Fallback-Regelsammlung in Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Fallback-Regeln für Schriftarten in PowerPoint-Präsentationen verwalten. Verbessern Sie mühelos die geräteübergreifende Kompatibilität.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

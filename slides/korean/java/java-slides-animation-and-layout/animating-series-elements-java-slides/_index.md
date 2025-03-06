@@ -3,14 +3,10 @@ title: Java 슬라이드의 시리즈 요소 애니메이션
 linktitle: Java 슬라이드의 시리즈 요소 애니메이션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 시리즈 요소에 애니메이션을 적용하는 방법을 알아보세요. 프레젠테이션을 향상하려면 소스 코드가 포함된 이 포괄적인 단계별 가이드를 따르세요.
+type: docs
 weight: 12
 url: /ko/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드의 애니메이션 시리즈 요소 소개
 
@@ -130,9 +126,3 @@ Aspose.Slides for Java를 프로젝트에 통합하려면 빌드 경로에 라�
 ### Aspose.Slides for Java에서 사용할 수 있는 고급 애니메이션 옵션이 있습니까?
 
 예, Aspose.Slides for Java는 모션 경로, 타이밍, 대화형 애니메이션을 포함한 광범위한 고급 애니메이션 옵션을 제공합니다. Aspose.Slides에서 제공하는 문서와 예제를 탐색하여 프레젠테이션에 고급 애니메이션을 구현할 수 있습니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

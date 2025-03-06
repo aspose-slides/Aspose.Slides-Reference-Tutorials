@@ -3,14 +3,10 @@ title: Hyperlinks uit dia's verwijderen met Aspose.Slides .NET
 linktitle: Verwijder hyperlinks uit dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u hyperlinks uit PowerPoint-dia's verwijdert met Aspose.Slides voor .NET. Maak heldere en professionele presentaties.
+type: docs
 weight: 11
 url: /nl/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In de wereld van professionele presentaties is het essentieel dat uw dia's er netjes en opgeruimd uitzien. Een veelvoorkomend element dat dia's vaak onoverzichtelijk maakt, zijn hyperlinks. Of u nu te maken heeft met hyperlinks naar websites, documenten of andere dia's in uw presentatie, u wilt deze wellicht verwijderen voor een overzichtelijker en gerichter uiterlijk. Met Aspose.Slides voor .NET kunt u deze taak eenvoudig uitvoeren. In deze stapsgewijze handleiding leiden we u door het proces van het verwijderen van hyperlinks uit dia's met Aspose.Slides voor .NET.
 
@@ -88,9 +84,3 @@ Ja, Aspose.Slides voor .NET biedt een breed scala aan functies, waaronder het ma
 
 ### Is er technische ondersteuning beschikbaar voor Aspose.Slides voor .NET?
  Ja, u kunt technische ondersteuning zoeken en contact opnemen met de Aspose-gemeenschap op de website[Aspose-forum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Marqueurs par défaut dans le graphique dans les diapositives Java
 linktitle: Marqueurs par défaut dans le graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des diapositives Java avec des marqueurs par défaut dans des graphiques à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
+type: docs
 weight: 16
 url: /fr/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction aux marqueurs par défaut dans le graphique dans les diapositives Java
 
@@ -146,9 +142,3 @@ Vous pouvez personnaliser les symboles de marqueur en définissant le style de m
 ### Puis-je ajouter des étiquettes aux points de données ?
 
  Oui, vous pouvez ajouter des étiquettes aux points de données à l'aide de l'outil`IDataPoint.getLabel()` et personnalisez-les selon vos besoins.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Diák klónozása a különböző prezentációból a megadott pozíciób
 linktitle: Diák klónozása a különböző prezentációból a megadott pozícióba
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan klónozhat különböző prezentációk diákjait egy meghatározott pozícióba az Aspose.Slides for .NET segítségével. Lépésről lépésre, teljes forráskóddal, amely magában foglalja a dia klónozását, a pozíció specifikációját és a prezentáció mentését.
+type: docs
 weight: 16
 url: /hu/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a diák klónozásába a különböző megjelenítéstől a meghatározott pozícióig
 
@@ -141,9 +137,3 @@ A klónozott dia tartalmát, formázását és tulajdonságait feltétlenül mó
 ### Hol találhatok további információt az Aspose.Slides for .NET-ről?
 
  Hivatkozhat a[dokumentáció](https://reference.aspose.com/slides/net/) az Aspose.Slides for .NET-hez kapcsolódó részletes információkért, példákért és API-hivatkozásokért.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

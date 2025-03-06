@@ -3,14 +3,10 @@ title: Java を使用して SmartArt にカスタム子ノードを追加する
 linktitle: Java を使用して SmartArt にカスタム子ノードを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して、PowerPoint プレゼンテーションの SmartArt にカスタム子ノードを追加する方法を学びます。プロフェッショナルなグラフィックでスライドを簡単に強化できます。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 SmartArt は PowerPoint の強力な機能で、ユーザーはこれを使用してプロフェッショナルなグラフィックをすばやく簡単に作成できます。このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt にカスタム子ノードを追加する方法を学習します。
 ## 前提条件
@@ -83,9 +79,3 @@ Aspose.Slides for Java は、さまざまなバージョンの PowerPoint とシ
 はい、Aspose Web サイトで包括的なドキュメントやコミュニティ サポート フォーラムにアクセスできます。
 ### Aspose.Slides for Java の試用版はありますか?
 はい、購入前に Aspose.Slides for Java の無料試用版を Web サイトからダウンロードして、その機能や性能を調べることができます。[ここ](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

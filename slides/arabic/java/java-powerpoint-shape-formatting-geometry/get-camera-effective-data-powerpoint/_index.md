@@ -3,14 +3,10 @@ title: احصل على بيانات الكاميرا الفعالة في PowerPo
 linktitle: احصل على بيانات الكاميرا الفعالة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد بيانات الكاميرا الفعالة من شرائح PowerPoint باستخدام Aspose.Slides لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+type: docs
 weight: 24
 url: /ar/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها وإدارتها برمجياً. سواء كنت تقوم بأتمتة إنشاء التقارير، أو إنشاء شرائح مخصصة، أو ببساطة العمل مع بيانات العرض التقديمي، فإن Aspose.Slides يوفر مجموعة شاملة من الميزات لتلبية احتياجاتك. في هذا الدليل، سنتعمق في كيفية استرداد بيانات الكاميرا الفعالة من شريحة PowerPoint باستخدام Aspose.Slides for Java. سنرشدك خلال كل خطوة، مما يضمن حصولك على فهم واضح للعملية.
 ## المتطلبات الأساسية
@@ -74,9 +70,3 @@ if (pres != null) pres.dispose();
  نعم، يمكن شراء الرخص التجارية[هنا](https://purchase.aspose.com/buy).
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ Java؟
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

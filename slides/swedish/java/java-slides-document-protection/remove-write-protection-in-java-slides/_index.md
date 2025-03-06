@@ -3,14 +3,10 @@ title: Ta bort skrivskydd i Java Slides
 linktitle: Ta bort skrivskydd i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du tar bort skrivskydd i Java Slides-presentationer med Aspose.Slides för Java. Steg-för-steg guide med källkod ingår.
+type: docs
 weight: 10
 url: /sv/java/document-protection/remove-write-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Ta bort skrivskydd i Java Slides
 
@@ -112,9 +108,3 @@ Ja, att ta bort skrivskyddet programmatiskt bör göras med försiktighet och en
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 
  Du kan hänvisa till dokumentationen för Aspose.Slides för Java på[här](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

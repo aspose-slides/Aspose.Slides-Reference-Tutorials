@@ -3,14 +3,10 @@ title: Προσθήκη γονικών σχολίων στη Διαφάνεια 
 linktitle: Προσθήκη σχολίων γονέα στη διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε διαδραστικά σχόλια και απαντήσεις στις παρουσιάσεις σας στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ενισχύστε τη δέσμευση και τη συνεργασία.
+type: docs
 weight: 12
 url: /el/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Θέλετε να βελτιώσετε τις παρουσιάσεις σας στο PowerPoint με διαδραστικές λειτουργίες; Το Aspose.Slides για .NET σάς επιτρέπει να ενσωματώνετε σχόλια και απαντήσεις, δημιουργώντας μια δυναμική και συναρπαστική εμπειρία για το κοινό σας. Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας δείξουμε πώς να προσθέτετε γονικά σχόλια σε διαφάνειες χρησιμοποιώντας το Aspose.Slides για .NET. Ας βουτήξουμε και ας εξερευνήσουμε αυτό το συναρπαστικό χαρακτηριστικό.
 
@@ -164,9 +160,3 @@ pres.Save(outPptxFile + "remove_comment.pptx", SaveFormat.Pptx);
 
 ### Υπάρχουν διαθέσιμες επιλογές αδειοδότησης για το Aspose.Slides για .NET;
  Ναι, μπορείτε να εξερευνήσετε τις επιλογές αδειοδότησης, συμπεριλαμβανομένων των προσωρινών αδειών, στον ιστότοπο Aspose[εδώ](https://purchase.aspose.com/buy) ή δοκιμάστε τη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

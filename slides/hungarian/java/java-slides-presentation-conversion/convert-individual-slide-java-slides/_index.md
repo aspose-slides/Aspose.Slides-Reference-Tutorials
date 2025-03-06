@@ -3,14 +3,10 @@ title: Egyéni diák konvertálása a Java diákban
 linktitle: Egyéni diák konvertálása a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java segítségével kódpéldák segítségével megtudhatja, hogyan alakíthat át lépésről lépésre az egyes PowerPoint-diákat HTML-formátumba.
+type: docs
 weight: 12
 url: /hu/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az egyéni dia konvertálásához a Java diákban
 
@@ -174,9 +170,3 @@ Sikeresen konvertálta az egyes diákat egy PowerPoint-prezentációból HTML-fo
 ### Hogyan kezelhetem a dián belüli alakzatok és szövegek további formázását?
 
  Meghosszabbíthatja a`CustomFormattingController` osztály az alakspecifikus formázás kezeléséhez a megvalósításával`writeShapeStart` és`writeShapeEnd` módszereket és egyéni formázási logikát alkalmazva bennük.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

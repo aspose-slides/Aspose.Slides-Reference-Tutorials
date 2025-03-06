@@ -3,14 +3,10 @@ title: قم بتعيين الصف الأول كرأس في جدول PowerPoint �
 linktitle: قم بتعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين الصف الأول كرأس في جداول PowerPoint باستخدام Aspose.Slides لـ Java. تحسين وضوح العرض التقديمي وتنظيمه دون عناء.
+type: docs
 weight: 19
 url: /ar/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية التعامل مع جداول PowerPoint باستخدام Aspose.Slides for Java، وهي مكتبة قوية تتيح التكامل والتعديل السلس للعروض التقديمية. على وجه التحديد، سنركز على تعيين الصف الأول من الجدول كرأس، مما يعزز المظهر المرئي وتنظيم الشرائح الخاصة بك.
 ## المتطلبات الأساسية
@@ -80,9 +76,3 @@ Aspose.Slides for Java هي مكتبة قوية للعمل مع ملفات Power
  الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

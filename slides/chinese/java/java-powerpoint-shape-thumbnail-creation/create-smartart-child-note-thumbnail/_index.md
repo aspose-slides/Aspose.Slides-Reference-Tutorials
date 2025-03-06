@@ -3,14 +3,10 @@ title: 创建 SmartArt 子注释缩略图
 linktitle: 创建 SmartArt 子注释缩略图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中创建 SmartArt 子注释缩略图，轻松增强您的 PowerPoint 演示文稿。
+type: docs
 weight: 15
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides 在 Java 中创建 SmartArt 子注释缩略图。Aspose.Slides 是一个功能强大的 Java API，允许开发人员以编程方式处理 PowerPoint 演示文稿，使他们能够轻松创建、修改和操作幻灯片。
 ## 先决条件
@@ -74,9 +70,3 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 当然！Aspose.Slides 为创建和操作各种复杂程度的 SmartArt 图表提供了全面的支持。
 ### Aspose.Slides 是否为开发人员提供技术支持？
 是的，Aspose.Slides 通过其[论坛](https://forum.aspose.com/c/slides/11)和其他渠道。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

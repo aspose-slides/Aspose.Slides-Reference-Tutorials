@@ -3,14 +3,10 @@ title: Obtenez les valeurs efficaces du tableau dans PowerPoint avec Java
 linktitle: Obtenez les valeurs efficaces du tableau dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment extraire des valeurs de tableau efficaces dans PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos présentations par programmation.
+type: docs
 weight: 14
 url: /fr/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 À l'ère numérique d'aujourd'hui, la création de présentations dynamiques et attrayantes est cruciale pour une communication efficace dans les environnements professionnels et éducatifs. Aspose.Slides for Java fournit une solution puissante permettant aux développeurs Java de manipuler et d'améliorer les présentations PowerPoint par programme. Ce didacticiel vous guidera tout au long du processus d'extraction de valeurs efficaces à partir de tableaux dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. À la fin de ce didacticiel, vous disposerez des connaissances nécessaires pour accéder et utiliser par programme les données de formatage de tableau dans vos applications Java.
 ## Conditions préalables
@@ -65,9 +61,3 @@ Oui, Aspose.Slides pour Java fournit des API complètes pour travailler avec des
  Visitez le forum de soutien de la communauté[ici](https://forum.aspose.com/c/slides/11) à l'aide.
 ### Puis-je acheter une licence temporaire pour Aspose.Slides pour Java ?
  Oui, vous pouvez acheter une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

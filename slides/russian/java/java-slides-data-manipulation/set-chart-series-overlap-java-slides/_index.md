@@ -3,14 +3,10 @@ title: Установить перекрытие серий диаграмм в 
 linktitle: Установить перекрытие серий диаграмм в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Серии основных диаграмм пересекаются в Java Slides с Aspose.Slides для Java. Узнайте шаг за шагом, как настроить визуальные эффекты диаграмм для создания потрясающих презентаций.
+type: docs
 weight: 16
 url: /ru/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в настройку перекрытия серий диаграмм в слайдах Java
 
@@ -114,9 +110,3 @@ Aspose.Slides для Java предлагает широкий спектр во�
 ### Где я могу найти дополнительные ресурсы и примеры для Aspose.Slides для Java?
 
  Подробную документацию и примеры можно найти на справочной странице Aspose.Slides for Java:[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

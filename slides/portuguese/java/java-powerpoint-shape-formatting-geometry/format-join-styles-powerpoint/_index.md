@@ -3,14 +3,10 @@ title: Formatar estilos de junção no PowerPoint
 linktitle: Formatar estilos de junção no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como aprimorar suas apresentações do PowerPoint definindo diferentes estilos de junção de linhas para formas usando Aspose.Slides para Java. Siga nosso guia passo a passo.
+type: docs
 weight: 15
 url: /pt/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Criar apresentações em PowerPoint visualmente atraentes pode ser uma tarefa difícil, especialmente quando você deseja que cada detalhe seja perfeito. É aqui que Aspose.Slides for Java se torna útil. É uma API poderosa que permite criar, manipular e gerenciar apresentações de forma programática. Um dos recursos que você pode utilizar é definir diferentes estilos de junção de linhas para formas, o que pode melhorar significativamente a estética dos seus slides. Neste tutorial, veremos como você pode usar Aspose.Slides for Java para definir estilos de junção para formas em apresentações do PowerPoint. 
 ## Pré-requisitos
@@ -116,9 +112,3 @@ Sim, você pode usar Aspose.Slides for Java em qualquer IDE compatível com Java
 Os estilos de junção de linha referem-se ao formato dos cantos onde duas linhas se encontram. Os estilos comuns incluem Mitre, Bevel e Round.
 ### Onde posso encontrar mais documentação sobre Aspose.Slides for Java?
  Você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Convert HTML Embedding Images in Java Slides
 linktitle: Convert HTML Embedding Images in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint to HTML with Embedded Images. Step-by-step guide using Aspose.Slides for Java. Learn to automate presentation conversions in Java effortlessly.
+type: docs
 weight: 11
 url: /java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Convert HTML Embedding Images in Java Slides
 
@@ -130,10 +126,3 @@ Yes, you can customize the HTML template by modifying the HTML and CSS files gen
 
 You can wrap the conversion code in a try-catch block to handle exceptions that may occur during the conversion process.
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

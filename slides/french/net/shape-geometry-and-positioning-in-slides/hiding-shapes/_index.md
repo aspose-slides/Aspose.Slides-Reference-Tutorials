@@ -3,14 +3,10 @@ title: Masquer les formes dans PowerPoint avec le didacticiel Aspose.Slides .NET
 linktitle: Masquer des formes dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment masquer des formes dans des diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Personnalisez les présentations par programmation avec ce guide étape par étape.
+type: docs
 weight: 21
 url: /fr/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le monde dynamique des présentations, la personnalisation est essentielle. Aspose.Slides pour .NET fournit une solution puissante pour manipuler les présentations PowerPoint par programme. Une exigence courante est la possibilité de masquer des formes spécifiques dans une diapositive. Ce didacticiel vous guidera tout au long du processus de masquage des formes dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -77,9 +73,3 @@ Absolument! Vous pouvez personnaliser la logique de masquage en fonction de dive
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/)à des fins de tests.
 ### Comment puis-je obtenir le soutien de la communauté pour Aspose.Slides ?
  Rejoignez la communauté Aspose.Slides sur le[forum](https://forum.aspose.com/c/slides/11) pour des discussions et de l'aide.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: スライドから音声を抽出する
 linktitle: スライドから音声を抽出する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してスライドからオーディオを抽出する方法を学びます。このステップバイステップ ガイドを使用してプレゼンテーションを強化します。
+type: docs
 weight: 11
 url: /ja/net/audio-and-video-extraction/extract-audio/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 プレゼンテーションの世界では、スライドにオーディオを追加すると、全体的なインパクトとエンゲージメントを高めることができます。Aspose.Slides for .NET は、プレゼンテーションを操作するための強力なツール セットを提供します。このチュートリアルでは、スライドからオーディオを抽出する方法をステップ バイ ステップで説明します。このプロセスを自動化しようとしている開発者でも、単にその方法を理解したいだけの開発者でも、このチュートリアルでプロセスについて順を追って説明します。
 
@@ -91,9 +87,3 @@ Aspose.Slides for .NET は、MP3 や WAV など、さまざまなオーディオ
 
 ### 5. Aspose.Slides for .NET に関する追加サポートや質問はどこで受けられますか?
 訪問することができます[Aspose.Slides for .NET サポート フォーラム](https://forum.aspose.com/)Aspose コミュニティでサポートを求めたり、質問したり、経験を共有したりできます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

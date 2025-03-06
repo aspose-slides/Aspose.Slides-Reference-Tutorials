@@ -3,14 +3,10 @@ title: Lägga till OLE-objektramar i presentationen med Aspose.Slides
 linktitle: Lägga till OLE-objektramar i presentationen med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar PowerPoint-presentationer med dynamiskt innehåll! Följ vår steg-för-steg-guide med Aspose.Slides för .NET. Öka engagemanget nu!
+type: docs
 weight: 15
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i processen att lägga till OLE (Object Linking and Embedding)-objektramar till presentationsbilder med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med PowerPoint-filer programmatiskt. Följ den här steg-för-steg-guiden för att sömlöst bädda in OLE-objekt i dina presentationsbilder och förbättra dina PowerPoint-filer med dynamiskt och interaktivt innehåll.
 ## Förutsättningar
@@ -88,9 +84,3 @@ S: Ja, Aspose.Slides stöder de senaste PowerPoint-filformaten, inklusive PPTX.
 S: Absolut, du kan justera storleken, positionen och andra egenskaper för OLE Object Frame enligt dina önskemål.
 ### F: Var kan jag söka hjälp om jag stöter på utmaningar under implementeringen?
  A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och vägledning.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

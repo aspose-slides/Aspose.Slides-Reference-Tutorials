@@ -3,14 +3,10 @@ title: Bentuk Java PowerPoint dan Pembuatan Gambar Kecil
 linktitle: Bentuk Java PowerPoint dan Pembuatan Gambar Kecil
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat bentuk dan thumbnail di PowerPoint menggunakan Aspose.Slides Java. Tutorial mendetail tentang membuat bentuk grup, gambar mini faktor penskalaan, dan efek zoom.
+type: docs
 weight: 24
 url: /id/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 
 Membuat presentasi PowerPoint yang menarik secara visual dan terorganisir sangat penting untuk komunikasi yang efektif. Dengan Aspose.Slides untuk Java, Anda dapat dengan mudah menyempurnakan presentasi Anda dengan membuat berbagai bentuk dan gambar mini. Artikel ini memberikan panduan langkah demi langkah untuk menguasai teknik-teknik ini, memastikan slide Anda menarik dan profesional.
@@ -56,9 +52,3 @@ Pelajari cara membuat thumbnail catatan anak SmartArt di Java dengan Aspose.Slid
  Pelajari cara membuat Ringkasan Zoom di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah yang komprehensif ini.
 ### [Buat Bingkai Zoom di PowerPoint](./create-zoom-frame-powerpoint/)
 Pelajari cara membuat Zoom Frames yang menarik di PowerPoint menggunakan Aspose.Slides for Java. Ikuti panduan kami untuk menambahkan elemen interaktif ke presentasi Anda.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

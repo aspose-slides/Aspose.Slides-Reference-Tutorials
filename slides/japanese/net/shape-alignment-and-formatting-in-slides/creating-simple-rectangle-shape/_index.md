@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET で四角形を作成する
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにシンプルな長方形を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でダイナミックな PowerPoint プレゼンテーションの世界を探索してください。このステップ バイ ステップ ガイドで、スライドに魅力的な四角形を作成する方法を学びます。
+type: docs
 weight: 12
 url: /ja/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 動的で視覚的に魅力的な PowerPoint プレゼンテーションを使用して .NET アプリケーションを強化したい場合は、Aspose.Slides for .NET が最適なソリューションです。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドに単純な四角形を作成する手順を説明します。
 ## 前提条件
@@ -65,9 +61,3 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
 はい、一時ライセンスを購入することができます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET のドキュメントはどこにありますか?
 ドキュメントを参照してください[ここ](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

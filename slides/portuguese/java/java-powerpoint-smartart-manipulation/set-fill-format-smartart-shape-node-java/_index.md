@@ -3,14 +3,10 @@ title: Definir formato de preenchimento para nó de forma SmartArt em Java
 linktitle: Definir formato de preenchimento para nó de forma SmartArt em Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir o formato de preenchimento para nós de forma SmartArt em Java usando Aspose.Slides. Aprimore suas apresentações com cores vibrantes e visuais cativantes.
+type: docs
 weight: 12
 url: /pt/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 No cenário dinâmico da criação de conteúdo digital, Aspose.Slides for Java se destaca como uma ferramenta poderosa para criar apresentações visualmente impressionantes com facilidade e eficiência. Quer você seja um desenvolvedor experiente ou esteja apenas começando, dominar a arte de manipular formas em slides é crucial para criar apresentações cativantes que deixem uma impressão duradoura em seu público.
 ## Pré-requisitos
@@ -69,9 +65,3 @@ Você pode encontrar amplos recursos de suporte, incluindo fóruns e documentaç
 Absolutamente! Aspose.Slides for Java oferece uma ampla gama de opções de personalização para adaptar a aparência das formas SmartArt de acordo com suas preferências.
 ### O Aspose.Slides for Java é adequado tanto para iniciantes quanto para desenvolvedores experientes?
 Sim, Aspose.Slides for Java atende desenvolvedores de todos os níveis de habilidade, oferecendo APIs intuitivas e documentação abrangente para facilitar fácil integração e uso.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

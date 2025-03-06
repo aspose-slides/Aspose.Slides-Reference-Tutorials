@@ -3,14 +3,10 @@ title: Präsentationen verbessern - Rechteckige Formen mit Aspose.Slides formati
 linktitle: Formatieren der rechteckigen Form in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET rechteckige Formen in PowerPoint-Präsentationen formatieren. Werten Sie Ihre Folien mit dynamischen visuellen Elementen auf.
+type: docs
 weight: 12
 url: /de/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die die Arbeit mit PowerPoint-Präsentationen in der .NET-Umgebung erleichtert. Wenn Sie Ihre Präsentationen durch dynamisches Formatieren von Rechteckformen verbessern möchten, ist dieses Tutorial genau das Richtige für Sie. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Formatierens einer Rechteckform in einer Präsentation mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -80,9 +76,3 @@ Ja, Aspose.Slides unterstützt neben C# auch andere .NET-Sprachen wie VB.NET und
  Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### F5: Wo kann ich Aspose.Slides für .NET kaufen?
  Sie können Aspose.Slides für .NET kaufen[Hier](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

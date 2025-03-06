@@ -3,14 +3,10 @@ title: Nhận thư mục phông chữ trong PowerPoint bằng Java
 linktitle: Nhận thư mục phông chữ trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách trích xuất các thư mục phông chữ trong bản trình bày PowerPoint bằng Java với Aspose.Slides, nâng cao khả năng thiết kế bản trình bày của bạn.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình lấy các thư mục phông chữ trong bản trình bày PowerPoint bằng Java. Phông chữ đóng một vai trò quan trọng trong sự hấp dẫn trực quan và khả năng đọc của bài thuyết trình của bạn. Bằng cách tận dụng Aspose.Slides cho Java, chúng ta có thể truy cập các thư mục phông chữ một cách hiệu quả, điều này rất cần thiết cho các hoạt động khác nhau liên quan đến phông chữ trong bản trình bày PowerPoint.
 ## Điều kiện tiên quyết
@@ -50,9 +46,3 @@ Các thư mục phông chữ tạo điều kiện truy cập vào tài nguyên p
  Bạn có thể truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11) để tìm kiếm sự hỗ trợ từ cộng đồng hoặc nhóm hỗ trợ Aspose.
 ### Tôi có thể mua Aspose.Slides cho Java ở đâu?
  Bạn có thể mua Aspose.Slides cho Java từ trang web[đây](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

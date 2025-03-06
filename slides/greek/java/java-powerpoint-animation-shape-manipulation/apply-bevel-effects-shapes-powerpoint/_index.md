@@ -3,14 +3,10 @@ title: Εφαρμόστε εφέ λοξοτομής σε σχήματα στο P
 linktitle: Εφαρμόστε εφέ λοξοτομής σε σχήματα στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να εφαρμόζετε εφέ λοξοτομής σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό οδηγό μας. Βελτιώστε τις παρουσιάσεις σας.
+type: docs
 weight: 13
 url: /el/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι ζωτικής σημασίας για να τραβήξετε και να διατηρήσετε την προσοχή του κοινού σας. Η προσθήκη εφέ λοξότμησης σε σχήματα μπορεί να βελτιώσει τη συνολική αισθητική των διαφανειών σας, κάνοντας την παρουσίασή σας να ξεχωρίζει. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής φαλτσών εφέ σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Είτε είστε προγραμματιστής που θέλει να αυτοματοποιήσει τη δημιουργία παρουσιάσεων είτε απλώς κάποιος που του αρέσει να ασχολείται με το σχεδιασμό, αυτός ο οδηγός σας καλύπτει.
 ## Προαπαιτούμενα
@@ -96,9 +92,3 @@ if (pres != null) pres.dispose();
 Ναι, το Aspose.Slides για Java σάς επιτρέπει να εφαρμόζετε διάφορα εφέ 3D, συμπεριλαμβανομένων των εφέ βάθους, φωτισμού και κάμερας.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από την κοινότητα Aspose και την ομάδα υποστήριξης στο δικό τους[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

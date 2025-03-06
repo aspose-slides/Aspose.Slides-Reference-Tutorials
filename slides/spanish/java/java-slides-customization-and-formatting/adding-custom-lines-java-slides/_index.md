@@ -3,14 +3,10 @@ title: Agregar líneas personalizadas en diapositivas de Java
 linktitle: Agregar líneas personalizadas en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Mejore sus diapositivas Java con líneas personalizadas. Guía paso a paso usando Aspose.Slides para Java. Aprenda a agregar y personalizar líneas en presentaciones para obtener imágenes impactantes.
+type: docs
 weight: 10
 url: /es/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la adición de líneas personalizadas en diapositivas de Java
 
@@ -112,9 +108,3 @@ shape.getLineFormat().setWidth(2); // Establecer el grosor de la línea en 2 pun
 ### ¿Es posible agregar varias líneas a una diapositiva?
 
 Sí, puedes agregar varias líneas a una diapositiva repitiendo los pasos mencionados en este tutorial. Cada línea se puede personalizar de forma independiente.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

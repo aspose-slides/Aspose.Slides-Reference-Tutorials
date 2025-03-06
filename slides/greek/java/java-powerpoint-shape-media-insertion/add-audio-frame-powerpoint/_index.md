@@ -3,14 +3,10 @@ title: Προσθήκη πλαισίου ήχου στο PowerPoint
 linktitle: Προσθήκη πλαισίου ήχου στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε πλαίσια ήχου σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αναβαθμίστε τις παρουσιάσεις σας με ελκυστικά στοιχεία ήχου χωρίς κόπο.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η βελτίωση των παρουσιάσεων με στοιχεία ήχου μπορεί να αυξήσει σημαντικά τον αντίκτυπο και την αφοσίωση τους. Με το Aspose.Slides για Java, η ενσωμάτωση πλαισίων ήχου σε παρουσιάσεις PowerPoint γίνεται μια απρόσκοπτη διαδικασία. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα προσθήκης πλαισίων ήχου στις παρουσιάσεις σας χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -79,9 +75,3 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 Το Aspose.Slides για Java προσφέρει εκτενείς επιλογές προσαρμογής, επιτρέποντάς σας να προσαρμόσετε την εμφάνιση της συσκευής αναπαραγωγής ήχου σύμφωνα με τις προτιμήσεις σας.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides για Java;
  Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Slides για Java από το δικό τους[δικτυακός τόπος](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

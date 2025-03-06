@@ -3,14 +3,10 @@ title: Diaweergave en lay-outmanipulatie
 linktitle: Diaweergave en lay-outmanipulatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Optimaliseer diaweergaven en lay-outs met Aspose.Slides Slide View en Layout Manipulation Tutorials. Verbeter de impact van presentaties en visuele uitmuntendheid met behulp van krachtige .NET-tools.
+type: docs
 weight: 20
 url: /nl/net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Invoering
 
@@ -33,9 +29,3 @@ Leer hoe u presentaties in de normale weergavestatus kunt beheren met Aspose.Sli
 Leer hoe u video's aan PowerPoint-dia's kunt koppelen met Aspose.Slides voor .NET. Deze stapsgewijze handleiding bevat broncode en tips voor het maken van interactieve en boeiende presentaties met gekoppelde video's.
 ### [Beheer ActiveX-besturingselement in Presentatie](./manage-activex-control/)
 Leer hoe u PowerPoint-presentaties kunt verbeteren met ActiveX-besturingselementen met behulp van Aspose.Slides voor .NET. Onze stapsgewijze handleiding behandelt het invoegen, manipuleren, aanpassen, afhandelen van gebeurtenissen en meer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

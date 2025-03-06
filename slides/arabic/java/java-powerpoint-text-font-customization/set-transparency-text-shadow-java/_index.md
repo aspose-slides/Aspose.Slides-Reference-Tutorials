@@ -3,14 +3,10 @@ title: ضبط شفافية النص في الظل باستخدام Java
 linktitle: ضبط شفافية النص في الظل باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ضبط شفافية ظل النص في PowerPoint باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك برمجيا.
+type: docs
 weight: 20
 url: /ar/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع شفافية ظلال النص في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. يمكن أن يؤدي ضبط شفافية ظلال النص إلى تحسين المظهر المرئي لشرائحك بشكل كبير، مما يجعلها أكثر ديناميكية واحترافية. يوفر Aspose.Slides for Java وظائف قوية للتحكم بدقة في الجوانب المختلفة لعناصر الشرائح برمجيًا، مما يضمن أن العروض التقديمية الخاصة بك تلبي أعلى معايير التصميم.
 ## المتطلبات الأساسية
@@ -74,9 +70,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات Java
  يمكن العثور على وثائق Aspose.Slides لـ Java[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على الدعم والتفاعل المجتمعي، قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: PowerPoint プレゼンテーションで画像塗りつぶしにスト�
 linktitle: スライドの画像塗りつぶしにストレッチ オフセットを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを強化する方法を学びます。ステップ バイ ステップ ガイドに従って、画像の塗りつぶしにストレッチ オフセットを追加します。
+type: docs
 weight: 18
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションのダイナミックな世界では、ビジュアルは聴衆の注目を集める上で重要な役割を果たします。Aspose.Slides for .NET は、強力な機能セットを提供することで、開発者が PowerPoint プレゼンテーションを強化できるようにします。そのような機能の 1 つは、イメージの塗りつぶしにストレッチ オフセットを追加する機能で、これによりクリエイティブで視覚的に魅力的なスライドを作成できます。
 ## 前提条件
@@ -75,9 +71,3 @@ Aspose.Slides for .NET を使用すると、PowerPoint プレゼンテーショ�
 参照[ドキュメンテーション](https://reference.aspose.com/slides/net/)詳細情報については。
 ### Aspose.Slides for .NET を購入できますか?
 はい、商品を購入できます[ここ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

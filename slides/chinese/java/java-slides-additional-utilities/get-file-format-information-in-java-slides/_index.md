@@ -3,14 +3,10 @@ title: 在 Java Slides 中获取文件格式信息
 linktitle: 在 Java Slides 中获取文件格式信息
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java API 检索 Java Slides 中的文件格式信息。通过代码示例识别演示文稿格式。
+type: docs
 weight: 11
 url: /zh/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中获取文件格式信息简介
 
@@ -117,9 +113,3 @@ Aspose.Slides for Java 是一个商业库，但它提供免费试用版。您可
 ### 我如何联系 Aspose 支持寻求帮助？
 
 您可以通过他们的网站联系 Aspose 支持。他们提供专门的支持渠道，帮助您解决使用其产品时可能遇到的任何疑问或问题。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

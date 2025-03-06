@@ -3,14 +3,10 @@ title: Graphique dispersé dans les diapositives Java
 linktitle: Graphique dispersé dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des graphiques à nuages de points en Java à l'aide d'Aspose.Slides. Guide étape par étape avec le code source Java pour la visualisation des données dans les présentations.
+type: docs
 weight: 11
 url: /fr/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction au diagramme dispersé dans Aspose.Slides pour Java
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 N'hésitez pas à explorer davantage d'options de personnalisation dans la documentation Aspose.Slides pour Java.
 
  N'oubliez pas de remplacer`"Your Document Directory"` avec le chemin réel où vous souhaitez enregistrer la présentation.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

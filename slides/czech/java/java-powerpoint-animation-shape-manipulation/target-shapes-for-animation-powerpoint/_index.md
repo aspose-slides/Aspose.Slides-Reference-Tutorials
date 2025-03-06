@@ -3,14 +3,10 @@ title: Cílové tvary pro animaci v PowerPointu
 linktitle: Cílové tvary pro animaci v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se animovat konkrétní tvary v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vytvářejte poutavé snímky bez námahy.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Ve světě dynamických prezentací hrají animace zásadní roli v zapojení publika a efektivním předávání informací. Aspose.Slides for Java umožňuje vývojářům vytvářet podmanivé PowerPointové prezentace se složitými animacemi přizpůsobenými konkrétním tvarům. Tento výukový program vás provede procesem zacílení tvarů pro animaci pomocí Aspose.Slides pro Java a zajistí, že vaše prezentace vyniknou plynulými přechody a přesnými animacemi.
 ## Předpoklady
@@ -66,9 +62,3 @@ Ano, Aspose.Slides for Java poskytuje rozsáhlé funkce pro vytváření složit
  Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde mohu zakoupit Aspose.Slides pro Java?
  Aspose.Slides pro Java si můžete zakoupit na webových stránkách[tady](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

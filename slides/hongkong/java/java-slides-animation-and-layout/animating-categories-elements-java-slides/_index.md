@@ -3,14 +3,10 @@ title: 在 Java 投影片中對類別元素進行動畫處理
 linktitle: 在 Java 投影片中對類別元素進行動畫處理
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 優化您的 Java 簡報。了解如何逐步為 PowerPoint 投影片中的類別元素新增動畫效果。
+type: docs
 weight: 10
 url: /zh-hant/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 投影片中的類別元素動畫簡介
 
@@ -121,10 +117,3 @@ finally
 ### 如何了解更多關於 Aspose.Slides for Java 的資訊？
 
 如需全面的文檔和其他資源，請訪問[Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/)。您也可以從以下位置下載該庫[這裡](https://releases.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

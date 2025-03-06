@@ -3,14 +3,10 @@ title: Wykres mapy w slajdach Java
 linktitle: Wykres mapy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz oszałamiające wykresy map w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku i kod źródłowy dla programistów Java.
+type: docs
 weight: 15
 url: /pl/java/chart-elements/map-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do mapy mapy w Java Slides przy użyciu Aspose.Slides dla Java
 
@@ -135,9 +131,3 @@ tym samouczku omówiliśmy proces tworzenia wykresu mapy w prezentacji programu 
 ### Jak zintegrować Aspose.Slides for Java z moim projektem?
 
  Pobierz bibliotekę z[Tutaj](https://releases.aspose.com/slides/java/) i dodaj go do ścieżki klas swojego projektu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

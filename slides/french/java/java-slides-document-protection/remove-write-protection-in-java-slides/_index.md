@@ -3,14 +3,10 @@ title: Supprimer la protection en écriture dans les diapositives Java
 linktitle: Supprimer la protection en écriture dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment supprimer la protection en écriture dans les présentations Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source inclus.
+type: docs
 weight: 10
 url: /fr/java/document-protection/remove-write-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la suppression de la protection en écriture dans les diapositives Java
 
@@ -112,9 +108,3 @@ Oui, la suppression de la protection en écriture par programme doit être effec
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
  Vous pouvez vous référer à la documentation d'Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

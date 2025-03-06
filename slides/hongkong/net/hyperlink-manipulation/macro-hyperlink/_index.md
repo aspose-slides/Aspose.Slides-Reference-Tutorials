@@ -3,14 +3,10 @@ title: 如何在 Aspose.Slides for .NET 中設定巨集超連結點擊
 linktitle: 使用巨集的超連結管理
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在簡報中設定巨集超連結。增強互動性並吸引觀眾。
+type: docs
 weight: 13
 url: /zh-hant/net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在現代軟體開發領域，創建動態和互動式簡報是關鍵方面。 Aspose.Slides for .NET 是一個功能強大的程式庫，可讓您以無縫方式處理簡報。無論您是建立商業簡報還是教育投影片，設定巨集超連結點擊的功能都可以大大增強使用者體驗。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 設定巨集超連結點擊的過程。 
 
@@ -110,9 +106,3 @@ Aspose.Slides for .NET 允許您使用巨集，但在簡報中使用巨集時您
 
 ### 我可以在哪裡獲得 Aspose.Slides for .NET 的協助或支援？
 如果您遇到問題或有疑問，可以在 Aspose 支援論壇上尋求協助[這裡](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

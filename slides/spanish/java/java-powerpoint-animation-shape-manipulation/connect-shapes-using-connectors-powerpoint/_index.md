@@ -3,14 +3,10 @@ title: Conecte formas usando conectores en PowerPoint
 linktitle: Conecte formas usando conectores en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a conectar formas usando conectores en presentaciones de PowerPoint con Aspose.Slides para Java. Tutorial paso a paso para principiantes.
+type: docs
 weight: 18
 url: /es/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En este tutorial, exploraremos cómo conectar formas usando conectores en presentaciones de PowerPoint con la ayuda de Aspose.Slides para Java. Siga estas instrucciones paso a paso para conectar formas de manera eficiente y crear diapositivas visualmente atractivas.
 ## Requisitos previos
@@ -86,9 +82,3 @@ Sí, puedes conectar varias formas utilizando conectores complejos proporcionado
 Por supuesto, puedes agregar texto fácilmente a formas y conectores mediante programación usando Aspose.Slides para Java.
 ### ¿Existe un foro comunitario o un canal de soporte disponible para los usuarios de Aspose.Slides para Java?
  Sí, puede encontrar recursos útiles, hacer preguntas e interactuar con otros usuarios en el foro Aspose.Slides.[aquí](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

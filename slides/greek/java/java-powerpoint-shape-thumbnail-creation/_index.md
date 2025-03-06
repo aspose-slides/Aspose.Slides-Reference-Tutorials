@@ -3,14 +3,10 @@ title: Δημιουργία σχήματος και μικρογραφίας Jav
 linktitle: Δημιουργία σχήματος και μικρογραφίας Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να δημιουργείτε σχήματα και μικρογραφίες στο PowerPoint χρησιμοποιώντας το Aspose.Slides Java. Λεπτομερή μαθήματα για τη δημιουργία σχημάτων ομάδας, μικρογραφίες παραγόντων κλιμάκωσης και εφέ ζουμ.
+type: docs
 weight: 24
 url: /el/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 
 Η δημιουργία οπτικά ελκυστικών και οργανωμένων παρουσιάσεων PowerPoint είναι απαραίτητη για την αποτελεσματική επικοινωνία. Με το Aspose.Slides για Java, μπορείτε να βελτιώσετε αβίαστα τις παρουσιάσεις σας δημιουργώντας διάφορα σχήματα και μικρογραφίες. Αυτό το άρθρο παρέχει έναν οδηγό βήμα προς βήμα για να κατακτήσετε αυτές τις τεχνικές, διασφαλίζοντας ότι οι διαφάνειές σας είναι τόσο ελκυστικές όσο και επαγγελματικές.
@@ -56,9 +52,3 @@ url: /el/java/java-powerpoint-shape-thumbnail-creation/
  Μάθετε πώς να δημιουργείτε ένα συνοπτικό ζουμ στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
 ### [Δημιουργήστε Zoom Frame στο PowerPoint](./create-zoom-frame-powerpoint/)
 Μάθετε πώς να δημιουργείτε ελκυστικά Zoom Frames στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον οδηγό μας για να προσθέσετε διαδραστικά στοιχεία στις παρουσιάσεις σας.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

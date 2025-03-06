@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Video Kareleri Ekleme Eğitimi
 linktitle: Aspose.Slides kullanarak Sunum Slaytlarına Video Çerçeveleri Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumlarınızı dinamik video kareleriyle canlandırın. Sorunsuz entegrasyon ve ilgi çekici içerik oluşturmak için kılavuzumuzu izleyin.
+type: docs
 weight: 19
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunumların dinamik ortamında multimedya öğelerinin dahil edilmesi genel etkiyi ve etkileşimi artırabilir. Slaytlarınıza video çerçeveleri eklemek oyunun kurallarını değiştirebilir ve hedef kitlenizin dikkatini statik içeriğin yapamayacağı bir şekilde çekebilir. Aspose.Slides for .NET, video çerçevelerini sunum slaytlarınıza sorunsuz bir şekilde entegre etmek için güçlü bir çözüm sunar.
 ## Önkoşullar
@@ -71,9 +67,3 @@ Kesinlikle! Eğitimde gösterildiği gibi oynatma modu ve ses seviyesi gibi oyna
  Evet, deneme sürümünü indirerek Aspose.Slides for .NET'in yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 ### S5: Aspose.Slides for .NET desteğini nerede bulabilirim?
  Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Toegang tot dia via unieke identificatie
 linktitle: Toegang tot dia via unieke identificatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-dia's kunt openen via unieke ID's met behulp van Aspose.Slides voor .NET. Deze stapsgewijze handleiding behandelt het laden van presentaties, het openen van dia's via index of ID, het wijzigen van inhoud en het opslaan van wijzigingen.
+type: docs
 weight: 11
 url: /nl/net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -116,9 +112,3 @@ Absoluut. Of u nu werkt aan een eenvoudige presentatie met een paar dia's of aan
 ### Waar kan ik meer gedetailleerde documentatie en bronnen vinden?
 
  Uitgebreide documentatie, codevoorbeelden, tutorials en meer over Aspose.Slides voor .NET vindt u in de[documentatie](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

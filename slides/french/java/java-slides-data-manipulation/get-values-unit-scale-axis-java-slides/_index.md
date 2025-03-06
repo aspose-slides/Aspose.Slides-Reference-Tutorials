@@ -3,14 +3,10 @@ title: Obtenir les valeurs et l'échelle des unités de l'axe dans les diapositi
 linktitle: Obtenir les valeurs et l'échelle des unités de l'axe dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment obtenir les valeurs et l'échelle des unités à partir des axes dans Java Slides à l'aide d'Aspose.Slides pour Java. Améliorez vos capacités d’analyse de données.
+type: docs
 weight: 20
 url: /fr/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à l'obtention des valeurs et de l'échelle des unités à partir de l'axe dans les diapositives Java
 
@@ -126,9 +122,3 @@ Oui, vous pouvez utiliser Aspose.Slides pour Java dans des projets commerciaux. 
 ### Où puis-je trouver plus de ressources et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez trouver une documentation complète et des ressources supplémentaires sur le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) site web.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

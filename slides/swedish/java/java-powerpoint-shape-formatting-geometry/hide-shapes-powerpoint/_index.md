@@ -3,14 +3,10 @@ title: Dölj former i PowerPoint
 linktitle: Dölj former i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du döljer former i PowerPoint med Aspose.Slides för Java med vår detaljerade steg-för-steg-guide. Perfekt för Java-utvecklare på alla nivåer.
+type: docs
 weight: 27
 url: /sv/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Välkommen till vår omfattande handledning om att dölja former i PowerPoint med Aspose.Slides för Java! Om du någonsin har behövt dölja specifika former i dina PowerPoint-presentationer programmatiskt, är du på rätt plats. Den här guiden går igenom varje steg i en enkel, konversationsstil. Oavsett om du är en erfaren utvecklare eller precis har börjat med Java, har vi dig täckt.
 ## Förutsättningar
@@ -85,9 +81,3 @@ Aspose.Slides är tillgängligt för olika programmeringsspråk inklusive .NET, 
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides?
  Du kan få stöd från[Aspose.Slides supportforum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

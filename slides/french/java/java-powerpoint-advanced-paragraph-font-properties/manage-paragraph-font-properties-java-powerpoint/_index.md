@@ -3,14 +3,10 @@ title: Gérer les propriétés de police de paragraphe dans Java PowerPoint
 linktitle: Gérer les propriétés de police de paragraphe dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment gérer et personnaliser les propriétés de police de paragraphe dans les présentations Java PowerPoint à l'aide d'Aspose.Slides avec ce guide étape par étape facile à suivre.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Créer des présentations PowerPoint visuellement attrayantes est crucial pour une communication efficace. Que vous prépariez une proposition commerciale ou un projet scolaire, les bonnes propriétés de police peuvent rendre vos diapositives plus attrayantes. Ce didacticiel vous guidera dans la gestion des propriétés de police de paragraphe à l'aide d'Aspose.Slides pour Java. Prêt à plonger ? Commençons!
 ## Conditions préalables
@@ -117,9 +113,3 @@ Oui, chaque partie d'un paragraphe peut avoir ses propres propriétés de police
 Oui, Aspose.Slides pour Java prend en charge le remplissage dégradé pour le texte.
 ### Que faire si je souhaite annuler les modifications ?
 Rechargez la présentation originale ou conservez une sauvegarde avant d'apporter des modifications.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

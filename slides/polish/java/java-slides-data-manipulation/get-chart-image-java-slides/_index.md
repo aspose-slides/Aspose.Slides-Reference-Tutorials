@@ -3,14 +3,10 @@ title: Uzyskaj obraz wykresu w slajdach Java
 linktitle: Uzyskaj obraz wykresu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać obrazy wykresów w Java Slides przy użyciu Aspose.Slides dla Java. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki dotyczące bezproblemowej integracji.
+type: docs
 weight: 19
 url: /pl/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do pobierania obrazu wykresu w slajdach Java
 
@@ -96,9 +92,3 @@ Tak, Aspose.Slides dla Java może być wykorzystywane do celów komercyjnych. Za
 ### Czy mogę zapisać obraz wykresu w innym formacie?
 
  Z pewnością! Możesz zapisać obraz wykresu w różnych formatach, takich jak JPEG lub GIF, określając odpowiednie rozszerzenie pliku w formacie`ImageIO.write` metoda.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

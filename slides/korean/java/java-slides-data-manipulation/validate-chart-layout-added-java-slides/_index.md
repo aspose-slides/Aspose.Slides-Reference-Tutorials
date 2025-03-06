@@ -3,14 +3,10 @@ title: Java 슬라이드에 추가된 차트 레이아웃 확인
 linktitle: Java 슬라이드에 추가된 차트 레이아웃 확인
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 마스터 차트 레이아웃 유효성 검사. 멋진 프레젠테이션을 위해 프로그래밍 방식으로 차트를 조작하는 방법을 알아보세요.
+type: docs
 weight: 10
 url: /ko/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java의 차트 레이아웃 유효성 검사 소개
 
@@ -101,10 +97,3 @@ finally
 ### 다른 차트 속성을 수정하려면 어떻게 해야 하나요?
 
 다양한 차트 속성에 액세스하고 요구 사항에 따라 사용자 정의할 수 있습니다. 차트 조작에 대한 포괄적인 정보를 보려면 Aspose.Slides 문서를 살펴보세요.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

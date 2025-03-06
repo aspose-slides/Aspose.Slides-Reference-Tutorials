@@ -3,14 +3,10 @@ title: Konwertuj prezentację na responsywny kod HTML w slajdach Java
 linktitle: Konwertuj prezentację na responsywny kod HTML w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bez wysiłku konwertować prezentacje do responsywnego kodu HTML w Java Slides za pomocą Aspose.Slides. Spraw, aby Twoje treści były dostępne na każdym urządzeniu.
+type: docs
 weight: 18
 url: /pl/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do konwersji prezentacji na responsywny kod HTML w slajdach Java
 
@@ -112,9 +108,3 @@ Absolutnie! Aspose.Slides zapewnia zaawansowane funkcje przetwarzania wsadowego,
 ### Czy mogę konwertować prezentacje także do innych formatów?
 
 Tak, Aspose.Slides obsługuje szeroką gamę formatów wyjściowych, w tym PDF, obrazy i inne. Możesz zapoznać się z dokumentacją, aby uzyskać dodatkowe opcje konwersji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

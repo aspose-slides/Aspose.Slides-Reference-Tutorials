@@ -3,14 +3,10 @@ title: Jak nastavit typ transformace přechodu na snímku pomocí Aspose.Slides
 linktitle: Na snímku nastavte typ přeměny přechodu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak nastavit typ přechodu na snímcích pomocí Aspose.Slides pro .NET. Podrobný průvodce s příklady kódu. Vylepšete své prezentace hned teď!
+type: docs
 weight: 12
 url: /cs/net/slide-transition-effects/set-transition-morph-type/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Ve světě dynamických prezentací mohou správné přechody znamenat velký rozdíl. Aspose.Slides for .NET umožňuje vývojářům vytvářet úžasné PowerPointové prezentace a jednou z jeho vzrušujících funkcí je možnost nastavit přechodové efekty. V tomto podrobném průvodci se ponoříme do toho, jak nastavit typ morfologie přechodu na snímku pomocí Aspose.Slides pro .NET. To nejen dodá vašim prezentacím profesionální nádech, ale také zlepší celkový uživatelský zážitek.
 
@@ -106,10 +102,3 @@ Aspose.Slides for .NET je výkonná knihovna pro práci s PowerPointovými preze
 
  Aspose.Slides for .NET nabízí řadu přechodových efektů, včetně blednutí, tlačení, stírání a dalších. Dokumentaci si můžete prohlédnout na[Dokumentační stránka Aspose.Slides for .NET](https://reference.aspose.com/slides/net/) podrobnosti o všech dostupných typech přechodů.
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

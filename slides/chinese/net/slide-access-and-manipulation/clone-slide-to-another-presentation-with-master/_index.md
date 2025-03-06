@@ -3,14 +3,10 @@ title: 使用母版幻灯片将幻灯片复制到新演示文稿
 linktitle: 使用母版幻灯片将幻灯片复制到新演示文稿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 复制带有主幻灯片的幻灯片。通过本分步指南提高您的演示技巧。
+type: docs
 weight: 20
 url: /zh/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在演示设计和管理领域，效率是关键。作为一名内容撰写者，我将指导您使用 Aspose.Slides for .NET 将幻灯片复制到具有主幻灯片的新演示文稿的过程。无论您是经验丰富的开发人员还是该领域的新手，本分步教程都将帮助您掌握这项基本技能。让我们开始吧。
 
@@ -122,9 +118,3 @@ Aspose.Slides for .NET 是一个功能强大的库，使.NET 开发人员能够�
 
 ### 在哪里可以获得社区支持并讨论 Aspose.Slides for .NET？
 您可以加入 Aspose 社区并寻求支持[Aspose.Slides for .NET 支持论坛](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Highlight Text using Regex in Java PowerPoint
 linktitle: Highlight Text using Regex in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to highlight text in PowerPoint using regex patterns with Aspose.Slides for Java. Enhance your presentations dynamically.
+type: docs
 weight: 15
 url: /java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the realm of Java-based development for creating and manipulating PowerPoint presentations, Aspose.Slides for Java stands out as a robust solution. This tutorial focuses on leveraging Aspose.Slides to highlight text using regular expressions (regex) within PowerPoint presentations. By the end of this guide, you will grasp how to implement regex patterns to highlight specific text in slides, enhancing both functionality and visual clarity.
 ## Prerequisites
@@ -66,10 +62,3 @@ You can explore detailed examples and comprehensive documentation [here](https:/
 Absolutely, it offers extensive text manipulation features beyond highlighting, including font styling, alignment, and more.
 ### Can I try Aspose.Slides for Java before purchasing?
 Yes, you can start with a [free trial](https://releases.aspose.com/) to evaluate its capabilities.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

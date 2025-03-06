@@ -3,14 +3,10 @@ title: تصدير العرض التقديمي إلى تنسيق XAML
 linktitle: تصدير العرض التقديمي إلى تنسيق XAML
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تصدير العروض التقديمية إلى تنسيق XAML باستخدام Aspose.Slides لـ .NET. قم بإنشاء محتوى تفاعلي دون عناء!
+type: docs
 weight: 27
 url: /ar/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في عالم تطوير البرمجيات، من الضروري أن يكون لديك أدوات يمكنها تبسيط المهام المعقدة. Aspose.Slides for .NET هي إحدى هذه الأدوات التي تمكنك من العمل مع عروض PowerPoint التقديمية برمجياً. في هذا البرنامج التعليمي خطوة بخطوة، سنستكشف كيفية تصدير عرض تقديمي إلى تنسيق XAML باستخدام Aspose.Slides for .NET. 
 
@@ -117,9 +113,3 @@ Aspose.Slides for .NET هي مكتبة .NET للعمل مع عروض PowerPoint 
  يمكنك العثور على الدعم والمناقشات المجتمعية[هنا](https://forum.aspose.com/).
 
  لمزيد من الدروس والموارد، قم بزيارة[وثائق Aspose.Slides API](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

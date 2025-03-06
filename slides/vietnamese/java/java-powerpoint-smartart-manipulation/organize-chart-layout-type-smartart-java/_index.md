@@ -3,14 +3,10 @@ title: Sắp xếp loại bố cục biểu đồ trong SmartArt bằng cách s�
 linktitle: Sắp xếp loại bố cục biểu đồ trong SmartArt bằng cách sử dụng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Làm chủ các kiểu bố cục biểu đồ trong SmartArt bằng cách sử dụng Java với Aspose.Slides, nâng cao hình ảnh trình bày một cách dễ dàng.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tổ chức kiểu bố cục biểu đồ trong SmartArt bằng cách sử dụng Java, đặc biệt là tận dụng thư viện Aspose.Slides. SmartArt trong bản trình bày có thể nâng cao đáng kể sự hấp dẫn trực quan và độ rõ ràng của dữ liệu của bạn, khiến việc thao tác thành thạo dữ liệu trở nên cần thiết.
 ## Điều kiện tiên quyết
@@ -59,9 +55,3 @@ Có, các nhà phát triển có thể tham khảo tài liệu chi tiết do Asp
 Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Slides để khám phá các tính năng của nó trước khi đưa ra quyết định mua hàng.
 ### Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
  Đối với bất kỳ hỗ trợ hoặc thắc mắc nào liên quan đến Aspose.Slides, bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

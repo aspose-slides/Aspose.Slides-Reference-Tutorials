@@ -3,14 +3,10 @@ title: ลบการป้องกันการเขียนใน Java S
 linktitle: ลบการป้องกันการเขียนใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบการป้องกันการเขียนในการนำเสนอ Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดรวมอยู่ด้วย
+type: docs
 weight: 10
 url: /th/java/document-protection/remove-write-protection-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## รู้เบื้องต้นเกี่ยวกับการลบการป้องกันการเขียนใน Java Slides
 
@@ -112,9 +108,3 @@ finally
 ### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถดูเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่[ที่นี่](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

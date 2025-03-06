@@ -3,14 +3,10 @@ title: Διαίρεση κελιών σε πίνακα PowerPoint χρησιμο
 linktitle: Διαίρεση κελιών σε πίνακα PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να χωρίζετε, να συγχωνεύετε και να μορφοποιείτε κελιά πίνακα PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Κύριος σχεδιασμός παρουσίασης.
+type: docs
 weight: 11
 url: /el/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χειρίζεστε πίνακες PowerPoint σε Java χρησιμοποιώντας το Aspose.Slides. Οι πίνακες είναι ένα θεμελιώδες στοιχείο στις παρουσιάσεις, που χρησιμοποιούνται συχνά για την αποτελεσματική οργάνωση και παρουσίαση δεδομένων. Το Aspose.Slides παρέχει ισχυρές δυνατότητες δημιουργίας, τροποποίησης και βελτίωσης πινάκων μέσω προγραμματισμού, προσφέροντας ευελιξία στο σχεδιασμό και τη διάταξη.
 ## Προαπαιτούμενα
@@ -99,9 +95,3 @@ try {
  Μπορείτε να λάβετε υποστήριξη από το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
 ### Μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για Java;
  Ναι, μπορείτε να λάβετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Wstawianie kształtów i multimediów w programie Java PowerPoint
 linktitle: Wstawianie kształtów i multimediów w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wstawiać kształty i multimedia do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Samouczki obejmują dodawanie linii, dźwięku, obiektów OLE i filmów.
+type: docs
 weight: 23
 url: /pl/java/java-powerpoint-shape-media-insertion/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp
 
@@ -57,9 +53,3 @@ Dowiedz się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w pr
 Dowiedz się, jak bezproblemowo integrować zawartość wideo z prezentacjami programu PowerPoint za pomocą Aspose.Slides dla Java. Twoje slajdy z elementami multimedialnymi, które zaangażują odbiorców.
 ### [Dodaj klatkę wideo ze źródła internetowego w programie PowerPoint](./add-video-frame-web-source-powerpoint/)
 Dowiedz się, jak ulepszyć prezentacje programu PowerPoint, dodając klatki wideo ze źródeł internetowych za pomocą Aspose.Slides dla Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

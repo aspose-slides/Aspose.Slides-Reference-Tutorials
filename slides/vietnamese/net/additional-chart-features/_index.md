@@ -3,14 +3,10 @@ title: Các tính năng biểu đồ bổ sung
 linktitle: Các tính năng biểu đồ bổ sung
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá các tính năng biểu đồ nâng cao trong Aspose.Slides for .NET! Tìm hiểu cách tạo biểu đồ động, tương tác với các kiểu, đường xu hướng tùy chỉnh, v.v. Nâng cao bản trình bày của bạn bằng trực quan hóa dữ liệu mạnh mẽ.
+type: docs
 weight: 24
 url: /vi/net/additional-chart-features/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -36,9 +32,3 @@ Tìm hiểu cách trích xuất dữ liệu biểu đồ hiệu quả bằng Asp
 Tìm hiểu cách khôi phục sổ làm việc từ biểu đồ bằng Aspose.Slides for .NET. Trích xuất dữ liệu biểu đồ và tạo sổ làm việc Excel theo chương trình.
 ### [Xóa điểm dữ liệu chuỗi biểu đồ cụ thể](./clear-specific-chart-series-data-points-data/)
 Tìm hiểu cách xóa các điểm dữ liệu biểu đồ cụ thể trong Aspose.Slides cho .NET. Hướng dẫn từng bước có kèm theo mã nguồn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

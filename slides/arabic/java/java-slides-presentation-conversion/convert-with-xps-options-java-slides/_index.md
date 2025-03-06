@@ -3,14 +3,10 @@ title: قم بالتحويل باستخدام خيارات XPS في شرائح J
 linktitle: قم بالتحويل باستخدام خيارات XPS في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى تنسيق XPS في Java باستخدام Aspose.Slides. تخصيص الخيارات لعملية تحويل سلسة.
+type: docs
 weight: 34
 url: /ar/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة للتحويل باستخدام خيارات XPS في شرائح Java
 
@@ -118,10 +114,3 @@ finally
 ### كيف يمكنني التعامل مع الاستثناءات أثناء استخدام Aspose.Slides لـ Java؟
 
 للتعامل مع الاستثناءات، يمكنك استخدام كتل محاولة الالتقاط حول التعليمات البرمجية الخاصة بك عند العمل مع Aspose.Slides. راجع الوثائق للحصول على إرشادات محددة لمعالجة الاستثناءات.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

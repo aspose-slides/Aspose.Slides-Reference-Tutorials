@@ -3,14 +3,10 @@ title: Java 投影片中的箱型圖
 linktitle: Java 投影片中的箱型圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java 簡報中建立箱形圖。包含用於有效資料視覺化的逐步指南和原始程式碼。
+type: docs
 weight: 10
 url: /zh-hant/java/chart-elements/box-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java 中的箱型圖簡介
 
@@ -152,9 +148,3 @@ finally
 ### QuartileMethodType.Exclusive 是什麼意思？
 
 這`QuartileMethodType.Exclusive`設定指定應使用排除方法進行四分位數計算。您可以根據您的資料和要求選擇不同的四分位數計算方法。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

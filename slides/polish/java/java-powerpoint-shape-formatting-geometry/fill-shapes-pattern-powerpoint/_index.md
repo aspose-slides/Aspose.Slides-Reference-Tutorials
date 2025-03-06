@@ -3,14 +3,10 @@ title: Wypełnianie kształtów wzorkiem w programie PowerPoint
 linktitle: Wypełnianie kształtów wzorkiem w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wypełniać kształty wzorami w programie PowerPoint przy użyciu aplikacji Aspose.Slides dla języka Java. Postępuj zgodnie z naszym prostym przewodnikiem krok po kroku, aby wizualnie ulepszyć swoje prezentacje.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji jest niezbędne, aby zaangażować odbiorców. Jednym ze sposobów ulepszenia slajdów programu PowerPoint jest wypełnianie kształtów wzorami. W tym samouczku omówimy etapy wypełniania kształtów wzorami przy użyciu Aspose.Slides dla Java. Ten przewodnik jest przeznaczony dla programistów, którzy chcą wykorzystać zaawansowane funkcje Aspose.Slides do programowego tworzenia wspaniałych prezentacji.
 ## Warunki wstępne
@@ -98,9 +94,3 @@ Aspose.Slides for Java to potężny interfejs API, który umożliwia programisto
 Tak, Aspose.Slides for Java umożliwia otwieranie, edytowanie i zapisywanie istniejących prezentacji programu PowerPoint.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

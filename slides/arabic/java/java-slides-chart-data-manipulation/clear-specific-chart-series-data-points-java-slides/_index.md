@@ -3,14 +3,10 @@ title: مسح بيانات نقاط بيانات سلسلة المخططات ا�
 linktitle: مسح بيانات نقاط بيانات سلسلة المخططات المحددة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية مسح نقاط بيانات محددة من سلسلة مخططات في Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لإدارة فعالة لتصور البيانات.
+type: docs
 weight: 15
 url: /ar/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لمسح بيانات نقاط بيانات سلسلة المخططات المحددة في شرائح Java
 
@@ -125,9 +121,3 @@ finally
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق وأمثلة شاملة في[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

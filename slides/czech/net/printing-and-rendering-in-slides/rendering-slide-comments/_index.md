@@ -3,14 +3,10 @@ title: Vykreslování komentářů snímků v Aspose.Slides
 linktitle: Vykreslování komentářů snímků v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte, jak vykreslit komentáře ke snímkům v Aspose.Slides pro .NET pomocí našeho podrobného tutoriálu. Přizpůsobte si vzhled komentářů a vylepšete automatizaci aplikace PowerPoint.
+type: docs
 weight: 12
 url: /cs/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vítejte v našem komplexním tutoriálu o vykreslování komentářů ke snímkům pomocí Aspose.Slides pro .NET! Aspose.Slides je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s prezentacemi PowerPoint v jejich aplikacích .NET. V této příručce se zaměříme na konkrétní úkol – vykreslování komentářů ke snímkům – a provedeme vás procesem krok za krokem.
 ## Předpoklady
@@ -90,9 +86,3 @@ A: Rozhodně! Kurz obsahuje možnosti přizpůsobení barvy, šířky a polohy o
  Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu hledat pomoc a podporu pro Aspose.Slides?
  A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

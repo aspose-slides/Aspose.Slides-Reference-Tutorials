@@ -3,14 +3,10 @@ title: Aspose.Slides - เชื่อมต่อรูปร่างได้
 linktitle: การเชื่อมต่อรูปร่างโดยใช้ตัวเชื่อมต่อในการนำเสนอ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: สำรวจพลังของ Aspose.Slides สำหรับ .NET ซึ่งเชื่อมต่อรูปร่างในการนำเสนอของคุณได้อย่างง่ายดาย ยกระดับสไลด์ของคุณด้วยตัวเชื่อมต่อแบบไดนามิก
+type: docs
 weight: 29
 url: /th/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในโลกการนำเสนอแบบไดนามิก ความสามารถในการเชื่อมต่อรูปร่างโดยใช้ตัวเชื่อมต่อจะช่วยเพิ่มความซับซ้อนให้กับสไลด์ของคุณ Aspose.Slides สำหรับ .NET ช่วยให้นักพัฒนาสามารถบรรลุเป้าหมายนี้ได้อย่างราบรื่น บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่ามีความเข้าใจที่ชัดเจน
 ## ข้อกำหนดเบื้องต้น
@@ -81,9 +77,3 @@ Aspose.Slides สำหรับ .NET รองรับการเชื่อ
 สำรวจเอกสารประกอบของ Aspose.Slides เพื่อดูวิธีการปรับแต่งรูปลักษณ์ของตัวเชื่อมต่อ เช่น สไตล์เส้นและสี
 ### มีฟอรัมชุมชนสำหรับการสนับสนุน Aspose.Slides หรือไม่
  ใช่ คุณสามารถขอความช่วยเหลือและแบ่งปันประสบการณ์ของคุณได้ใน[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Aspose.Slides में स्मार्टआर्ट चाइल्
 linktitle: Aspose.Slides में स्मार्टआर्ट चाइल्ड नोट के लिए थंबनेल बनाना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके आकर्षक SmartArt Child Note थंबनेल बनाना सीखें। गतिशील दृश्यों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ!
+type: docs
 weight: 15
 url: /hi/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 गतिशील प्रस्तुतियों के क्षेत्र में, Aspose.Slides for .NET एक शक्तिशाली उपकरण के रूप में सामने आता है, जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint प्रस्तुतियों में हेरफेर करने और उन्हें बेहतर बनाने की क्षमता प्रदान करता है। एक आकर्षक विशेषता SmartArt Child Notes के लिए थंबनेल बनाने की क्षमता है, जो आपकी प्रस्तुतियों में दृश्य अपील की एक परत जोड़ती है। यह चरण-दर-चरण मार्गदर्शिका आपको Aspose.Slides for .NET का उपयोग करके SmartArt Child Notes के लिए थंबनेल बनाने की प्रक्रिया से परिचित कराएगी।
 ## आवश्यक शर्तें
@@ -66,9 +62,3 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
  उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समुदाय के साथ जुड़ना, प्रश्न पूछना और समाधान ढूंढना।
 ### प्रश्न: क्या मैं .NET के लिए Aspose.Slides खरीद सकता हूँ?
  उत्तर: ज़रूर! खरीद के विकल्प तलाशें[यहाँ](https://purchase.aspose.com/buy) अपनी परियोजनाओं में Aspose.Slides की पूरी क्षमता को अनलॉक करने के लिए।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

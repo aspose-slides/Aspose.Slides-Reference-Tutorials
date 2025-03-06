@@ -3,14 +3,10 @@ title: Přidejte hypertextový odkaz do textového pole v PowerPointu pomocí Ja
 linktitle: Přidejte hypertextový odkaz do textového pole v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat hypertextové odkazy do textových polí aplikace PowerPoint pomocí Aspose.Slides for Java. Podrobný průvodce s příklady pro vývojáře v jazyce Java.
+type: docs
 weight: 23
 url: /cs/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 dnešní digitální době je pro efektivní komunikaci zásadní vytváření dynamických prezentací, které zaujmou a informují. Vývojáři Javy, kteří chtějí vylepšit své aplikace interaktivními funkcemi, se často obracejí na Aspose.Slides for Java, výkonnou knihovnu, která umožňuje programově manipulovat s prezentacemi PowerPoint. Tento výukový program se ponoří do jedné takové funkce: přidávání hypertextových odkazů do textových polí v prezentacích PowerPoint pomocí Java. Na konci této příručky budete mít jasno v tom, jak tuto funkci bezproblémově implementovat do vašich aplikací Java.
 ## Předpoklady
@@ -80,9 +76,3 @@ Pomocí těchto kroků jste se úspěšně naučili přidávat hypertextové odk
  Ano, dočasné licence je možné zakoupit[tady](https://purchase.aspose.com/temporary-license/).
 ### Je Aspose.Slides kompatibilní s jinými Java knihovnami?
 Aspose.Slides se dobře integruje s různými knihovnami Java pro komplexní manipulaci s PowerPointem.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

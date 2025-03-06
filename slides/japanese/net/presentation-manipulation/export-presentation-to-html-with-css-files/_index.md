@@ -3,14 +3,10 @@ title: プレゼンテーションを CSS ファイル付き HTML にエクス�
 linktitle: プレゼンテーションを CSS ファイル付き HTML にエクスポートする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションを CSS ファイル付きの HTML にエクスポートする方法を学びます。シームレスな変換のためのステップバイステップ ガイド。スタイルとレイアウトを保持します。
+type: docs
 weight: 29
 url: /ja/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 今日のデジタル時代では、ダイナミックでインタラクティブなプレゼンテーションを作成することが、効果的なコミュニケーションに不可欠です。Aspose.Slides for .NET を使用すると、開発者はプレゼンテーションを CSS ファイル付きの HTML にエクスポートできるため、さまざまなプラットフォーム間でコンテンツをシームレスに共有できます。このステップバイステップのチュートリアルでは、Aspose.Slides for .NET を使用してこれを実現するプロセスについて説明します。
 
@@ -77,10 +73,3 @@ Aspose.Slides for .NET は主に C# 向けですが、Aspose では Java やそ�
 Aspose.Slides for .NET を使用すると、PowerPoint プレゼンテーションを CSS ファイル付きの HTML に簡単に変換できるため、視聴者はシームレスにプレゼンテーションを閲覧できます。
 
 さあ、Aspose.Slides for .NET を使って魅力的な HTML プレゼンテーションを作成しましょう。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

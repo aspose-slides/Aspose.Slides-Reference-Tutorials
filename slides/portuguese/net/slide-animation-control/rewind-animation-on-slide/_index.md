@@ -3,14 +3,10 @@ title: Dominando animações de retrocesso em apresentações com Aspose.Slides
 linktitle: Retroceder animação no slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como retroceder animações em slides do PowerPoint usando Aspose.Slides for .NET. Siga este guia passo a passo com exemplos completos de código-fonte.
+type: docs
 weight: 13
 url: /pt/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 No mundo dinâmico das apresentações, incorporar animações cativantes pode aumentar significativamente o envolvimento. Aspose.Slides for .NET fornece um conjunto de ferramentas poderoso para dar vida às suas apresentações. Um recurso intrigante é a capacidade de retroceder animações em slides. Neste guia abrangente, orientaremos você passo a passo no processo, permitindo que você aproveite todo o potencial do retrocesso da animação usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -84,9 +80,3 @@ Sim, você pode personalizar o código para aplicar animação de retrocesso sel
  Visite a[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) buscar assistência e se envolver com a comunidade.
 ### Posso comprar uma licença temporária do Aspose.Slides for .NET?
  Sim, você pode adquirir uma licença temporária de[aqui](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

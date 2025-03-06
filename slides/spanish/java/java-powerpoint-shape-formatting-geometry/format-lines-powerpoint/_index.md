@@ -3,14 +3,10 @@ title: Dar formato a líneas en PowerPoint
 linktitle: Dar formato a líneas en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a formatear líneas en PowerPoint usando Aspose.Slides para Java con este tutorial paso a paso. Perfeccione sus presentaciones con estilos de línea personalizados.
+type: docs
 weight: 16
 url: /es/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Las presentaciones de PowerPoint son un elemento básico tanto en entornos profesionales como educativos. La capacidad de formatear líneas de manera efectiva en sus diapositivas puede hacer que sus presentaciones luzcan pulidas y profesionales. En este tutorial, exploraremos cómo usar Aspose.Slides para Java para formatear líneas en una presentación de PowerPoint. Al final de esta guía, podrá crear y dar formato a líneas en sus diapositivas con facilidad.
 ## Requisitos previos
@@ -91,9 +87,3 @@ Sí, Aspose.Slides para Java admite una amplia gama de formas y puede formatear 
  Sí, puedes obtener una prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar documentación más detallada?
  La documentación detallada está disponible en el[página de documentación](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

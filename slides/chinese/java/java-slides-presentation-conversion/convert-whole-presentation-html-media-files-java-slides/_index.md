@@ -3,14 +3,10 @@ title: 使用 Java Slides 中的媒体文件将整个演示文稿转换为 HTML
 linktitle: 使用 Java Slides 中的媒体文件将整个演示文稿转换为 HTML
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java Slides 将演示文稿转换为包含媒体文件的 HTML。按照我们的分步指南使用 Aspose.Slides for Java API。
+type: docs
 weight: 30
 url: /zh/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中如何使用媒体文件将整个演示文稿转换为 HTML 的简介
 
@@ -129,9 +125,3 @@ finally
 ### 我如何访问转换后的 HTML 演示文稿？
 
 完成转换后，您可以通过在`htmlDocumentFileName`多变的。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

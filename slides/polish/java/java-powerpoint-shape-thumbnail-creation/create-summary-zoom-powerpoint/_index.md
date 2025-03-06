@@ -3,14 +3,10 @@ title: Utwórz podsumowanie Zoom w programie PowerPoint
 linktitle: Utwórz podsumowanie Zoom w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak utworzyć podsumowanie podsumowujące w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając z tego wszechstronnego samouczka krok po kroku.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Witamy w naszym obszernym samouczku na temat tworzenia powiększenia podsumowującego w programie PowerPoint przy użyciu Aspose.Slides dla Java. Jeśli chcesz dodać dynamiczny i interaktywny element do swoich prezentacji, Zoom podsumowujący to fantastyczna funkcja. Umożliwia utworzenie pojedynczego slajdu, który można powiększać i przybliżać różne sekcje prezentacji, zapewniając odbiorcom bardziej wciągające i łatwiejsze w nawigacji doświadczenie.
 W tym przewodniku krok po kroku przeprowadzimy Cię przez cały proces, od konfiguracji środowiska programistycznego po utworzenie i dostosowanie ramki podsumowania powiększenia. Niezależnie od tego, czy jesteś doświadczonym programistą Java, czy dopiero zaczynasz, ten przewodnik będzie łatwy w obsłudze i pełen cennych spostrzeżeń.
@@ -111,9 +107,3 @@ Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla Java ze stro
  Licencję tymczasową można uzyskać od firmy[Strona zakupu Aspose](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć więcej przykładów i wsparcia dla Aspose.Slides dla Java?
  Więcej przykładów i pomoc można znaleźć na stronie[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

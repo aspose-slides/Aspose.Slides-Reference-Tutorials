@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Histogram Grafiği
 linktitle: Java Slaytlarındaki Histogram Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında Histogram Grafiklerini nasıl oluşturacağınızı öğrenin. Veri görselleştirmesi için kaynak kodu içeren adım adım kılavuz.
+type: docs
 weight: 19
 url: /tr/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides kullanarak Java Slaytlarında Histogram Grafiğine Giriş
 
@@ -116,9 +112,3 @@ Histogram Grafiği, verilerin sürekli bir aralıktaki dağılımını görselle
 ### Histogram Grafiğinin görünümünü özelleştirebilir miyim?
 
 Evet, Aspose.Slides API'sini kullanarak grafiğin görünümünü renkler, etiketler ve eksenler dahil olmak üzere özelleştirebilirsiniz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

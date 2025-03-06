@@ -3,14 +3,10 @@ title: แยกเสียงจากสไลด์
 linktitle: แยกเสียงจากสไลด์
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแยกเสียงจากสไลด์โดยใช้ Aspose.Slides สำหรับ .NET ปรับปรุงการนำเสนอของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+type: docs
 weight: 11
 url: /th/net/audio-and-video-extraction/extract-audio/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ในโลกของการนำเสนอ การเพิ่มเสียงลงในสไลด์ของคุณสามารถเพิ่มผลกระทบและการมีส่วนร่วมโดยรวมได้ Aspose.Slides สำหรับ .NET มีชุดเครื่องมืออันทรงพลังสำหรับการทำงานกับงานนำเสนอ และในบทช่วยสอนนี้ เราจะสำรวจวิธีแยกเสียงจากสไลด์ในคำแนะนำทีละขั้นตอน ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการทำให้กระบวนการนี้เป็นแบบอัตโนมัติ หรือเพียงสนใจที่จะทำความเข้าใจวิธีการทำงาน บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ
 
@@ -91,9 +87,3 @@ Aspose.Slides สำหรับ .NET รองรับรูปแบบเส
 
 ### 5. ฉันจะรับการสนับสนุนเพิ่มเติมหรือถามคำถามที่เกี่ยวข้องกับ Aspose.Slides สำหรับ .NET ได้ที่ไหน
  ท่านสามารถเยี่ยมชมได้ที่[Aspose.Slides สำหรับฟอรัมสนับสนุน .NET](https://forum.aspose.com/) เพื่อขอความช่วยเหลือ ถามคำถาม หรือแบ่งปันประสบการณ์ของคุณกับชุมชน Aspose
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

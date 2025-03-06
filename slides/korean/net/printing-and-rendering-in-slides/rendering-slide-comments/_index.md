@@ -3,14 +3,10 @@ title: Aspose.Slides에서 슬라이드 주석 렌더링
 linktitle: Aspose.Slides에서 슬라이드 주석 렌더링
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 단계별 튜토리얼을 통해 .NET용 Aspose.Slides에서 슬라이드 주석을 렌더링하는 방법을 알아보세요. 댓글 모양을 사용자 정의하고 PowerPoint 자동화를 향상하세요.
+type: docs
 weight: 12
 url: /ko/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 .NET용 Aspose.Slides를 사용하여 슬라이드 주석 렌더링에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose.Slides는 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 가이드에서는 특정 작업(슬라이드 주석 렌더링)에 중점을 두고 프로세스를 단계별로 안내해 드립니다.
 ## 전제 조건
@@ -90,9 +86,3 @@ A: 예, Aspose.Slides는 최신 .NET 프레임워크 버전을 지원하도록 �
  A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Slides에 대한 도움과 지원은 어디서 구할 수 있나요?
  답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

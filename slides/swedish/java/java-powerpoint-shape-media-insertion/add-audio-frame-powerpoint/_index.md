@@ -3,14 +3,10 @@ title: Lägg till ljudram i PowerPoint
 linktitle: Lägg till ljudram i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till ljudramar till PowerPoint-presentationer med Aspose.Slides för Java. Lyft dina presentationer med engagerande ljudelement utan ansträngning.
+type: docs
 weight: 12
 url: /sv/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att förbättra presentationer med ljudelement kan avsevärt höja deras inverkan och engagemang. Med Aspose.Slides för Java blir det en sömlös process att integrera ljudramar i PowerPoint-presentationer. Denna handledning guidar dig genom steg-för-steg-processen för att lägga till ljudramar till dina presentationer med Aspose.Slides för Java.
 ## Förutsättningar
@@ -79,9 +75,3 @@ Ja, du kan skapa PowerPoint-presentationer med inbäddade ljudramar som är komp
 Aspose.Slides för Java erbjuder omfattande anpassningsalternativ, så att du kan skräddarsy ljudspelarens utseende för att passa dina preferenser.
 ### Finns det en testversion tillgänglig för Aspose.Slides för Java?
  Ja, du kan få tillgång till en gratis testversion av Aspose.Slides för Java från deras[hemsida](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

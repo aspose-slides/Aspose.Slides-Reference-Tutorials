@@ -3,14 +3,10 @@ title: Schemat organizacyjny w slajdach Java
 linktitle: Schemat organizacyjny w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wspaniałe schematy organizacyjne w Java Slides, korzystając ze szczegółowych samouczków Aspose.Slides. Dostosuj i wizualizuj swoją strukturę organizacyjną bez wysiłku.
+type: docs
 weight: 22
 url: /pl/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do tworzenia schematu organizacyjnego w slajdach Java przy użyciu Aspose.Slides
 
@@ -107,9 +103,3 @@ Tak, możesz dodać do schematu organizacyjnego dodatkowe kształty, tekst i ł�
 ### Czy możliwe jest tworzenie złożonych struktur organizacyjnych o wielu poziomach?
 
 Tak, Aspose.Slides umożliwia tworzenie złożonych struktur organizacyjnych o wielu poziomach poprzez dodawanie i porządkowanie kształtów w schemacie organizacyjnym. Można zdefiniować hierarchiczne relacje między kształtami, aby reprezentować pożądaną strukturę.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

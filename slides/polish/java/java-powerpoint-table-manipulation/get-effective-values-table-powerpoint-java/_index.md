@@ -3,14 +3,10 @@ title: Uzyskaj efektywne wartości tabeli w programie PowerPoint przy użyciu j�
 linktitle: Uzyskaj efektywne wartości tabeli w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyodrębnić efektywne wartości z tabeli w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje programowo.
+type: docs
 weight: 14
 url: /pl/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dzisiejszej erze cyfrowej tworzenie dynamicznych i wciągających prezentacji ma kluczowe znaczenie dla skutecznej komunikacji zarówno w środowisku biznesowym, jak i edukacyjnym. Aspose.Slides for Java zapewnia programistom Java potężne rozwiązanie do programowego manipulowania i ulepszania prezentacji PowerPoint. Ten samouczek poprowadzi Cię przez proces wyodrębniania efektywnych wartości z tabel w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Pod koniec tego samouczka będziesz wyposażony w wiedzę umożliwiającą programowy dostęp do danych formatujących tabele i ich wykorzystywanie w aplikacjach Java.
 ## Warunki wstępne
@@ -65,9 +61,3 @@ Tak, Aspose.Slides for Java zapewnia kompleksowe interfejsy API do pracy ze slaj
  Odwiedź forum wsparcia społeczności[Tutaj](https://forum.aspose.com/c/slides/11) do pomocy.
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides dla Java?
  Tak, możesz kupić licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

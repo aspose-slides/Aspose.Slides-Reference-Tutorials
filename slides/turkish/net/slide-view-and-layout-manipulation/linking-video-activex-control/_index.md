@@ -3,14 +3,10 @@ title: PowerPoint'te ActiveX Denetimi aracılığıyla Videoyu Bağlama
 linktitle: ActiveX Kontrolü Aracılığıyla Videoyu Bağlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak videoları PowerPoint slaytlarına nasıl bağlayacağınızı öğrenin. Bu adım adım kılavuz, bağlantılı videolarla etkileşimli ve ilgi çekici sunumlar oluşturmaya yönelik kaynak kodunu ve ipuçlarını içerir.
+type: docs
 weight: 12
 url: /tr/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Aspose.Slides for .NET kullanarak bir Sunumda ActiveX Kontrolü aracılığıyla bir Videoyu Bağlama
 
 Aspose.Slides for .NET'te, ActiveX kontrolünü kullanarak bir videoyu programlı olarak bir sunum slaytına bağlayabilirsiniz. Bu, video içeriğinin doğrudan slayt içinde oynatılabileceği etkileşimli sunumlar oluşturmanıza olanak tanır. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir videoyu sunum slaytına bağlama sürecinde size yol göstereceğiz.
@@ -84,9 +80,3 @@ Bağlantılı videonun boyutu sununuzun genel boyutunu ve performansını etkile
 Bu kılavuzda özetlenen adımları takip ederek Aspose.Slides for .NET kullanarak bir sunumdaki ActiveX kontrolü aracılığıyla bir videoyu kolayca bağlayabilirsiniz. Bu özellik, multimedya içeriğini sorunsuz bir şekilde birleştiren ilgi çekici ve etkileşimli sunumlar oluşturmanıza olanak tanır.
 
  Daha fazla ayrıntı ve gelişmiş seçenekler için şu adrese başvurabilirsiniz:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

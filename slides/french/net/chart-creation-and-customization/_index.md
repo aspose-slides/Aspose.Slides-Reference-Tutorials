@@ -3,14 +3,10 @@ title: Création et personnalisation de graphiques
 linktitle: Création et personnalisation de graphiques
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez les capacités de présentation de votre application .NET avec Aspose.Slides. Plongez dans notre didacticiel sur la création et la personnalisation de graphiques, en explorant des guides étape par étape et des exemples de code.
+type: docs
 weight: 14
 url: /fr/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction:
 
@@ -31,9 +27,3 @@ Découvrez comment comparer des diapositives dans des présentations à l'aide d
 Découvrez comment utiliser Aspose.Slides pour .NET pour créer des présentations PowerPoint dynamiques avec des espaces réservés de base.
 ### [Gérer l'en-tête et le pied de page dans les diapositives](./header-footer-manager/)
 Découvrez comment gérer les en-têtes et les pieds de page dans les diapositives à l'aide d'Aspose.Slides pour .NET. Personnalisez vos présentations avec facilité et précision.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

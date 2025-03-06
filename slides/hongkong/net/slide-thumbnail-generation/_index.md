@@ -3,14 +3,10 @@ title: 幻燈片縮圖生成
 linktitle: 幻燈片縮圖生成
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 產生投影片縮圖。包含用於建立動態投影片預覽的程式碼範例的逐步教學。利用這項強大的功能增強您的演示應用程式。
+type: docs
 weight: 17
 url: /zh-hant/net/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介紹：
 
@@ -41,9 +37,3 @@ url: /zh-hant/net/slide-thumbnail-generation/
 使用 Aspose.Slides for .NET 從包含註解的投影片產生縮圖。逐步學習如何提取筆記、建立縮圖以及增強 PowerPoint 操作。 
 ### [產生具有自訂尺寸的縮圖](./generate-thumbnail-with-custom-dimensions/)
 了解如何使用 Aspose.Slides for .NET 在投影片中產生自訂大小的縮圖。帶有原始程式碼的分步指南。透過引人入勝的視覺效果增強您的簡報。 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

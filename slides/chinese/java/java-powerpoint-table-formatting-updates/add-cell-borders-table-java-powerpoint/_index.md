@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中向表添加单元格边框
 linktitle: 在 Java PowerPoint 中向表添加单元格边框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 为 Java PowerPoint 演示文稿中的表格添加单元格边框。本分步指南可帮助您轻松增强幻灯片效果。
+type: docs
 weight: 10
 url: /zh/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 嗨！所以，你想用 Java 在 PowerPoint 演示文稿的表格中添加单元格边框，对吧？嗯，你来对地方了！本教程将指导您使用 Aspose.Slides for Java 库逐步完成该过程。在本指南结束时，您将很好地掌握如何像专业人士一样操作 PowerPoint 幻灯片中的表格。让我们开始吧，让您的演示文稿看起来更时尚、更专业！
 ## 先决条件
@@ -100,9 +96,3 @@ if (pres != null) pres.dispose();
 是的，您可以通过循环幻灯片并将表创建逻辑应用于每张幻灯片来自动化该过程。
 ### Aspose.Slides 支持哪些文件格式?
 Aspose.Slides 支持各种格式，包括 PPT、PPTX、PDF 等。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Thêm màu vào điểm dữ liệu trong trang trình bày Java
 linktitle: Thêm màu vào điểm dữ liệu trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm màu vào điểm dữ liệu trong các trang trình bày Java bằng Aspose.Slides cho Java.
+type: docs
 weight: 10
 url: /vi/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Thêm màu vào điểm dữ liệu trong Java Slides
 
@@ -121,9 +117,3 @@ Trong hướng dẫn này, bạn đã học cách thêm màu vào điểm dữ l
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 
  Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.Slides cho Java trên[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/) trang mạng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

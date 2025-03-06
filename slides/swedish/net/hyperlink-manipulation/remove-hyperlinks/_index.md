@@ -3,14 +3,10 @@ title: Hur man tar bort hyperlänkar från bilder med Aspose.Slides .NET
 linktitle: Ta bort hyperlänkar från Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du tar bort hyperlänkar från PowerPoint-bilder med Aspose.Slides för .NET. Skapa rena och professionella presentationer.
+type: docs
 weight: 11
 url: /sv/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 I en värld av professionella presentationer är det viktigt att se till att dina bilder ser snygga och snygga ut. Ett vanligt element som ofta stör bilderna är hyperlänkar. Oavsett om du har att göra med hyperlänkar till webbplatser, dokument eller andra bilder i din presentation, kanske du vill ta bort dem för ett renare och mer fokuserat utseende. Med Aspose.Slides för .NET kan du enkelt uppnå denna uppgift. I den här steg-för-steg-guiden går vi igenom processen att ta bort hyperlänkar från bilder med Aspose.Slides för .NET.
 
@@ -88,9 +84,3 @@ Ja, Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive bi
 
 ### Finns teknisk support tillgänglig för Aspose.Slides för .NET?
  Ja, du kan söka teknisk support och engagera dig med Aspose-communityt på[Aspose forum](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

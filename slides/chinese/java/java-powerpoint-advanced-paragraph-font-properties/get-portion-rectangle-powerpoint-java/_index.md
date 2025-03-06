@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中获取部分矩形
 linktitle: 使用 Java 在 PowerPoint 中获取部分矩形
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本详细的分步教程学习如何使用 Aspose.Slides for Java 获取 PowerPoint 中的部分矩形。非常适合 Java 开发人员。
+type: docs
 weight: 12
 url: /zh/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 使用 Aspose.Slides for Java 可以轻松在 Java 中创建动态演示文稿。在本教程中，我们将深入探讨使用 Aspose.Slides 在 PowerPoint 中获取部分矩形的细节。我们将介绍从设置环境到逐步分解代码的所有内容。那么，让我们开始吧！
 ## 先决条件
@@ -142,9 +138,3 @@ Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程
 文档可用[这里](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides for Java 的支持？
 您可以从 Aspose 论坛获得支持[这里](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

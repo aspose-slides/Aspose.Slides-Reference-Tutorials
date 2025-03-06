@@ -3,14 +3,10 @@ title: Atur Format Isi Poin di SmartArt menggunakan Java
 linktitle: Atur Format Isi Poin di SmartArt menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur format pengisian poin di SmartArt menggunakan Java dengan Aspose.Slides. Panduan langkah demi langkah untuk manipulasi presentasi yang efisien.
+type: docs
 weight: 18
 url: /id/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia pemrograman Java, manipulasi presentasi yang efisien merupakan kebutuhan umum, terutama ketika berhadapan dengan elemen SmartArt. Aspose.Slides untuk Java muncul sebagai alat yang ampuh untuk tugas-tugas tersebut, menawarkan serangkaian fungsi untuk menangani presentasi secara terprogram. Dalam tutorial ini, kita akan mempelajari proses pengaturan format pengisian poin di SmartArt menggunakan Java dengan Aspose.Slides, langkah demi langkah.
 ## Prasyarat
@@ -75,9 +71,3 @@ Memang, Aspose.Slides memberdayakan Anda untuk menyesuaikan setiap aspek bentuk 
  Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan uji coba gratis. Cukup unduh dari[situs web](https://releases.aspose.com/slides/java/) dan mulai menjelajah.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk Java?
  Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Slides di[Link ini](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

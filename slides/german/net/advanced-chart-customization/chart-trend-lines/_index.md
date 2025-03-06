@@ -3,14 +3,10 @@ title: Erkunden von Diagramm-Trendlinien in Aspose.Slides für .NET
 linktitle: Diagramm-Trendlinien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für .NET verschiedene Trendlinien zu Diagrammen hinzufügen. Verbessern Sie Ihre Datenvisualisierungsfähigkeiten mit Leichtigkeit!
+type: docs
 weight: 12
 url: /de/net/advanced-chart-customization/chart-trend-lines/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der Datenvisualisierung und -präsentation kann die Einbindung von Diagrammen eine wirkungsvolle Möglichkeit sein, Informationen effektiv zu vermitteln. Aspose.Slides für .NET bietet einen funktionsreichen Satz von Tools für die Arbeit mit Diagrammen, einschließlich der Möglichkeit, Trendlinien zu Ihren Diagrammen hinzuzufügen. In diesem Tutorial werden wir uns Schritt für Schritt mit dem Hinzufügen von Trendlinien zu einem Diagramm mithilfe von Aspose.Slides für .NET befassen. 
 
@@ -149,9 +145,3 @@ Aspose.Slides für .NET ist eine vielseitige Bibliothek, mit der Sie Diagramme g
 
 ### Benötige ich eine temporäre Lizenz für Aspose.Slides für .NET?
  Sie können eine temporäre Lizenz für Aspose.Slides für .NET erhalten von[dieser Link](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

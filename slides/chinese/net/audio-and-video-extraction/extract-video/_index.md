@@ -3,14 +3,10 @@ title: 如何使用 Aspose.Slides for .NET 从幻灯片中提取视频
 linktitle: 从幻灯片中提取视频
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中提取视频。本分步指南可为您简化此过程。
+type: docs
 weight: 14
 url: /zh/net/audio-and-video-extraction/extract-video/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Aspose.Slides for .NET 是一个功能强大的库，可让您在 .NET 环境中处理 PowerPoint 演示文稿。它提供的有用功能之一是能够从幻灯片中提取视频。在本分步指南中，我们将向您展示如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中提取视频。
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET 是一个库，使.NET 应用程序能够处理 PowerPoin
 
 ### 在哪里可以获得 Aspose.Slides for .NET 的支持？
 您可以在[Aspose.Slides 论坛](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

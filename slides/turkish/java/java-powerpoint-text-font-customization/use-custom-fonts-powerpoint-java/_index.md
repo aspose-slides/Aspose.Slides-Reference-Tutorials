@@ -3,14 +3,10 @@ title: Java ile PowerPoint'te Özel Yazı Tiplerini Kullanma
 linktitle: Java ile PowerPoint'te Özel Yazı Tiplerini Kullanma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak özel yazı tiplerini PowerPoint sunumlarına nasıl entegre edeceğinizi öğrenin. Görsel çekiciliği zahmetsizce geliştirin.
+type: docs
 weight: 25
 url: /tr/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde, özel yazı tiplerini entegre ederek PowerPoint sunumlarını geliştirmek için Aspose.Slides for Java'dan nasıl yararlanılacağını keşfedeceğiz. Özel yazı tipleri, slaytlarınızın görsel çekiciliğini önemli ölçüde zenginleştirerek marka veya tasarım gereksinimlerinize mükemmel şekilde uyum sağlamalarını sağlar. Gerekli paketlerin içe aktarılmasından, özel yazı tiplerini sunumlarınıza sorunsuz bir şekilde entegre etmek için gerekli adımların yürütülmesine kadar her şeyi ele alacağız.
 ## Önkoşullar
@@ -74,9 +70,3 @@ Sunumlarınızla birlikte gelen özel yazı tiplerini dağıtmak için uygun lis
 Aspose.Slides for Java, çok çeşitli özel yazı tiplerinin kullanımını destekler ve kütüphane tarafından dayatılan herhangi bir sınır yoktur.
 ### Aspose.Slides for Java'yı kullanarak özel yazı tiplerini doğrudan PowerPoint dosyasına gömebilir miyim?
 Evet, Aspose.Slides for Java, kusursuz dağıtım için özel yazı tiplerini sunum dosyasına yerleştirmenize olanak tanır.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

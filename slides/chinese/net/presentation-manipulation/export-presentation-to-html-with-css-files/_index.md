@@ -3,14 +3,10 @@ title: 使用 CSS 文件将演示文稿导出为 HTML
 linktitle: 使用 CSS 文件将演示文稿导出为 HTML
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿导出为带有 CSS 文件的 HTML。无缝转换的分步指南。保留样式和布局！
+type: docs
 weight: 29
 url: /zh/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在当今的数字时代，创建动态和交互式演示文稿对于有效沟通至关重要。Aspose.Slides for .NET 使开发人员能够使用 CSS 文件将演示文稿导出为 HTML，从而让您可以在各种平台上无缝共享内容。在本分步教程中，我们将指导您完成使用 Aspose.Slides for .NET 实现此目的的过程。
 
@@ -77,10 +73,3 @@ Aspose.Slides for .NET 主要用于 C#，但 Aspose 也提供适用于 Java 和�
 使用 Aspose.Slides for .NET，您可以轻松地将 PowerPoint 演示文稿转换为带有 CSS 文件的 HTML，从而确保您的观众获得无缝的观看体验。
 
 现在，继续使用 Aspose.Slides for .NET 创建令人惊叹的 HTML 演示文稿！
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

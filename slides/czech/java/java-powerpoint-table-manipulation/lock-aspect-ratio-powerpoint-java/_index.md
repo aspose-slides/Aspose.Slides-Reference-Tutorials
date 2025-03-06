@@ -3,14 +3,10 @@ title: Zamkněte poměr stran v PowerPointu pomocí Java
 linktitle: Zamkněte poměr stran v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak uzamknout poměr stran v prezentacích PowerPoint pomocí Java s Aspose.Slides. Perfektní pro vývojáře Java, kteří chtějí přesnou kontrolu nad návrhem snímků.
+type: docs
 weight: 16
 url: /cs/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V oblasti vývoje Java může programová manipulace s prezentacemi v PowerPointu zefektivnit pracovní postupy a výrazně zvýšit produktivitu. Aspose.Slides for Java nabízí robustní sadu nástrojů pro vývojáře Java pro automatizaci úloh, jako je úprava snímků, přidávání obsahu a použití formátování přímo z kódu Java. Tento tutoriál se zaměřuje na základní aspekt správy prezentací v PowerPointu: zamykání poměrů stran.
 ## Předpoklady
@@ -65,9 +61,3 @@ Ano, Aspose.Slides for Java je navržen tak, aby efektivně zvládal složité s
  Můžete požádat o podporu komunitu Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
 ### Jak mohu vyzkoušet Aspose.Slides for Java před nákupem?
  Můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

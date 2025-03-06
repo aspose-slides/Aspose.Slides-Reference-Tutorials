@@ -3,14 +3,10 @@ title: Rellenar formas con colores sólidos en PowerPoint
 linktitle: Rellenar formas con colores sólidos en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a rellenar formas con colores sólidos en PowerPoint usando Aspose.Slides para Java. Una guía paso a paso para desarrolladores.
+type: docs
 weight: 13
 url: /es/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Si alguna vez ha trabajado con presentaciones de PowerPoint, sabrá que agregar formas y personalizar sus colores puede ser un aspecto crucial para que sus diapositivas sean visualmente atractivas e informativas. Con Aspose.Slides para Java, este proceso se vuelve muy sencillo. Si eres un desarrollador que busca automatizar la creación de presentaciones de PowerPoint o alguien interesado en agregar un toque de color a tus diapositivas, este tutorial te guiará a través del proceso de rellenar formas con colores sólidos usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -89,9 +85,3 @@ Sí, Aspose.Slides para Java le permite abrir, editar y guardar presentaciones d
  Sí, puedes descargar una prueba gratuita desde[Aspose sitio web](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar más documentación y soporte?
  La documentación detallada está disponible en el[Aspose sitio web](https://reference.aspose.com/slides/java/) y puede buscar ayuda en el[Asponer foros](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

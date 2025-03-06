@@ -3,14 +3,10 @@ title: Phông chữ mặc định trong PowerPoint với Aspose.Slides cho Java
 linktitle: Phông chữ mặc định trong PowerPoint với Aspose.Slides cho Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt phông chữ mặc định trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Đảm bảo tính nhất quán và nâng cao sức hấp dẫn thị giác một cách dễ dàng.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Tạo bản trình bày PowerPoint với phông chữ tùy chỉnh là yêu cầu phổ biến trong nhiều dự án. Aspose.Slides for Java cung cấp giải pháp liền mạch để quản lý phông chữ mặc định, đảm bảo tính nhất quán trên các môi trường khác nhau. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đặt phông chữ mặc định trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -75,9 +71,3 @@ Aspose.Slides for Java hỗ trợ nhiều phiên bản PowerPoint, đảm bảo 
  Có, bạn có thể khám phá Aspose.Slides cho Java thông qua bản dùng thử miễn phí tại[phát hành.aspose.com](https://releases.aspose.com/).
 ### Tôi có thể lấy giấy phép tạm thời cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides for Java từ[trang mua hàng](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

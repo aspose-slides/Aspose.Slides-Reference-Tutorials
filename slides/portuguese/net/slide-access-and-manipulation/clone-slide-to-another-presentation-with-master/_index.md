@@ -3,14 +3,10 @@ title: Copiar slide para nova apresentação com slide mestre
 linktitle: Copiar slide para nova apresentação com slide mestre
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como copiar slides com slides mestres usando Aspose.Slides for .NET. Aumente suas habilidades de apresentação com este guia passo a passo.
+type: docs
 weight: 20
 url: /pt/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 No mundo do design e gerenciamento de apresentações, a eficiência é fundamental. Como redator de conteúdo, estou aqui para orientá-lo no processo de cópia de um slide para uma nova apresentação com um slide mestre usando Aspose.Slides for .NET. Quer você seja um desenvolvedor experiente ou um novato neste domínio, este tutorial passo a passo o ajudará a dominar essa habilidade essencial. Vamos mergulhar de cabeça.
 
@@ -122,9 +118,3 @@ Aspose.Slides for .NET é uma biblioteca poderosa que permite aos desenvolvedore
 
 ### Onde posso obter suporte da comunidade e discutir o Aspose.Slides for .NET?
  Você pode ingressar na comunidade Aspose e buscar suporte em[Fórum de suporte Aspose.Slides para .NET](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

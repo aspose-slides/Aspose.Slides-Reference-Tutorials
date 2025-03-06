@@ -3,14 +3,10 @@ title: Java PowerPoint Shape and Thumbnail Creation
 linktitle: Java PowerPoint Shape and Thumbnail Creation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create shapes and thumbnails in PowerPoint using Aspose.Slides Java. Detailed tutorials on creating group shapes, scaling factor thumbnails & zoom effects.
+type: docs
 weight: 24
 url: /java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 
 Creating visually appealing and organized PowerPoint presentations is essential for effective communication. With Aspose.Slides for Java, you can effortlessly enhance your presentations by creating various shapes and thumbnails. This article provides a step-by-step guide to mastering these techniques, ensuring your slides are both engaging and professional.
@@ -56,9 +52,3 @@ Learn how to create SmartArt child note thumbnails in Java with Aspose.Slides, e
  Learn how to create a Summary Zoom in PowerPoint using Aspose.Slides for Java with this comprehensive step-by-step tutorial.
 ### [Create Zoom Frame in PowerPoint](./create-zoom-frame-powerpoint/)
 Learn how to create engaging Zoom Frames in PowerPoint using Aspose.Slides for Java. Follow our guide to add interactive elements to your presentations.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

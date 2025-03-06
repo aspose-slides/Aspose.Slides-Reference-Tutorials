@@ -3,14 +3,10 @@ title: Aspose.Slides — podsumowanie opanowania powiększeń w .NET
 linktitle: Tworzenie podsumowania powiększenia slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Podnieś poziom swoich prezentacji dzięki Aspose.Slides dla .NET! Naucz się bez wysiłku tworzyć atrakcyjne powiększenia podsumowujące. Pobierz teraz, aby cieszyć się dynamicznymi slajdami.
+type: docs
 weight: 16
 url: /pl/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dynamicznym świecie prezentacji Aspose.Slides dla .NET wyróżnia się jako potężne narzędzie poprawiające jakość tworzenia slajdów. Jedną z godnych uwagi funkcji, jakie oferuje, jest możliwość utworzenia powiększenia podsumowującego, atrakcyjnego wizualnie sposobu prezentacji kolekcji slajdów. W tym samouczku przeprowadzimy Cię przez proces tworzenia powiększenia podsumowującego na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -83,9 +79,3 @@ Absolutnie! Do slajdów możesz dodawać hiperłącza, które będą płynnie dz
 Od najnowszej wersji nie ma ścisłych ograniczeń co do liczby sekcji, które można dodać do prezentacji.
 ### Czy dostępna jest wersja próbna Aspose.Slides?
 Tak, możesz poznać funkcje Aspose.Slides, pobierając plik[bezpłatna wersja próbna](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

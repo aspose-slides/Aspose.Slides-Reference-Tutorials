@@ -3,14 +3,10 @@ title: แผนภูมิดัชนีจุดข้อมูลใน Jav
 linktitle: แผนภูมิดัชนีจุดข้อมูลใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการดัชนีจุดข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java แยกและทำงานกับข้อมูลจากแผนภูมิ PowerPoint ได้อย่างง่ายดาย
+type: docs
 weight: 12
 url: /th/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับดัชนีจุดข้อมูลแผนภูมิใน Java Slides
 
@@ -102,9 +98,3 @@ try {
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถดูตัวอย่างและเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้บนเว็บไซต์เอกสารประกอบของ Aspose[ที่นี่](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

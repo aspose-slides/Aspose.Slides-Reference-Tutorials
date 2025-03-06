@@ -3,14 +3,10 @@ title: Chèn thêm slide vào bài thuyết trình
 linktitle: Chèn thêm slide vào bài thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chèn các trang trình bày bổ sung vào bản trình bày PowerPoint của bạn bằng Aspose.Slides for .NET. Hướng dẫn từng bước này cung cấp các ví dụ về mã nguồn và hướng dẫn chi tiết để nâng cao liền mạch bản trình bày của bạn. Bao gồm nội dung có thể tùy chỉnh, mẹo chèn và Câu hỏi thường gặp.
+type: docs
 weight: 15
 url: /vi/net/slide-access-and-manipulation/add-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu Chèn thêm slide vào bài thuyết trình
 
@@ -111,9 +107,3 @@ Tuyệt đối. Bạn có thể thay đổi bố cục, thiết kế và định
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho .NET ở đâu?
 
  Để biết tài liệu chi tiết và ví dụ, hãy tham khảo[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

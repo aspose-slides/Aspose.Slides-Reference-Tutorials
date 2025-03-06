@@ -3,14 +3,10 @@ title: Převést jednotlivé snímky v Java Slides
 linktitle: Převést jednotlivé snímky v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak převést jednotlivé PowerPoint snímky do HTML krok za krokem pomocí příkladů kódu pomocí Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /cs/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do převodu jednotlivých snímků v Java Slides
 
@@ -174,9 +170,3 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### Jak zvládnu další formátování tvarů a textu na snímcích?
 
  Můžete prodloužit`CustomFormattingController` třídy pro zpracování formátování specifického pro tvar implementací`writeShapeStart` a`writeShapeEnd` metody a v nich aplikovat vlastní logiku formátování.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

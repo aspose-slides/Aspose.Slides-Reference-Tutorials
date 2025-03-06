@@ -3,14 +3,10 @@ title: Přístup k úpravě vlastností v aplikaci Java Slides
 linktitle: Přístup k úpravě vlastností v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přistupovat k vlastnostem a upravovat vlastnosti v Java Slides pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí vlastních vlastností.
+type: docs
 weight: 11
 url: /cs/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do přístupu k úpravě vlastností v Java Slides
 
@@ -121,9 +117,3 @@ Chyby můžete zpracovat pomocí mechanismů zpracování výjimek Java. Aspose.
 ### Kde najdu další dokumentaci a příklady?
 
  Komplexní dokumentaci a příklady kódu pro Aspose.Slides pro Javu naleznete na adrese[tady](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

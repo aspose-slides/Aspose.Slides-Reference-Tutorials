@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 嵌入 OLE 物件指南
 linktitle: 在簡報投影片中替換 OLE 物件框架的圖片標題
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 透過動態 OLE 物件增強簡報投影片。請按照我們的逐步指南進行無縫整合。
+type: docs
 weight: 15
 url: /zh-hant/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 創建動態且引人入勝的簡報投影片通常需要結合各種多媒體元素。在本教程中，我們將探索如何使用強大的 Aspose.Slides for .NET 庫替換簡報投影片中 OLE（物件連結和嵌入）物件框架的圖片標題。 Aspose.Slides 簡化了處理 OLE 物件的過程，為開發人員提供了輕鬆增強簡報的工具。
 ## 先決條件
@@ -87,9 +83,3 @@ oof.SubstitutePictureTitle = "Caption example";
 當然。您對 OLE 物件擁有完全的程式控制，可讓您根據需要修改它們的屬性和外觀。
 ### 嵌入的 OLE 物件的大小有限制嗎？
 雖然有尺寸限制，但通常都很慷慨。建議使用您的特定用例進行測試，以確保最佳效能。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

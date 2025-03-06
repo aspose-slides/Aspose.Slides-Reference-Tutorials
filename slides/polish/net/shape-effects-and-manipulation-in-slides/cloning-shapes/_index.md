@@ -3,14 +3,10 @@ title: Klonowanie kształtów na slajdach prezentacji za pomocą Aspose.Slides
 linktitle: Klonowanie kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak efektywnie klonować kształty na slajdach prezentacji przy użyciu interfejsu API Aspose.Slides. Z łatwością twórz dynamiczne prezentacje. Zapoznaj się z przewodnikiem krok po kroku, często zadawanymi pytaniami i nie tylko.
+type: docs
 weight: 27
 url: /pl/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp
 
@@ -101,9 +97,3 @@ Sklonowane kształty zachowują interakcje i hiperłącza z kształtu źródłow
 ## Wniosek
 
 Odblokowanie mocy klonowania kształtów na slajdach prezentacji za pomocą Aspose.Slides otwiera świat kreatywnych możliwości zarówno dla twórców treści, jak i programistów. Ten przewodnik przeprowadził Cię przez cały proces, od instalacji po zaawansowane dostosowywanie, zapewniając narzędzia potrzebne do wyróżnienia prezentacji. Dzięki Aspose.Slides możesz usprawnić przepływ pracy i bez wysiłku ożywić swoje wizje prezentacji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

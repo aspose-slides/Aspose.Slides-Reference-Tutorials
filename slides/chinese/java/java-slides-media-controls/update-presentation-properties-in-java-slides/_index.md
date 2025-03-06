@@ -3,14 +3,10 @@ title: 更新 Java 幻灯片中的演示文稿属性
 linktitle: 更新 Java 幻灯片中的演示文稿属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 更新 Java 幻灯片中的演示文稿属性。自定义作者、标题等，以制作具有影响力的演示文稿。
+type: docs
 weight: 13
 url: /zh/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java Slides 中更新演示属性的介绍
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java 允许您修改各种文档属性，包括但不限于作
 ### 我如何访问 Aspose.Slides for Java 的文档？
 
 您可以通过以下链接访问 Aspose.Slides for Java 的文档：[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

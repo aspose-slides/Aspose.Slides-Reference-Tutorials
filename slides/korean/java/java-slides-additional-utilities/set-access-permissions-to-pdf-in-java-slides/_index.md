@@ -3,14 +3,10 @@ title: Java 슬라이드에서 PDF에 대한 액세스 권한 설정
 linktitle: Java 슬라이드에서 PDF에 대한 액세스 권한 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드의 액세스 권한으로 PDF 문서를 보호하는 방법을 알아보세요. 이 단계별 가이드에서는 비밀번호 보호 등을 다룹니다.
+type: docs
 weight: 17
 url: /ko/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 PDF에 대한 액세스 권한 설정 소개
 
@@ -108,9 +104,3 @@ Aspose.Slides for Java는 암호화, 디지털 서명, 워터마킹 등 다양�
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 포괄적인 문서에 액세스할 수 있습니다.[여기](https://reference.aspose.com/slides/java/) . 또한 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

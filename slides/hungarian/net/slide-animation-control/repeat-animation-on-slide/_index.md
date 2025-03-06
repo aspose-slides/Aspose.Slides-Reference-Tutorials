@@ -3,14 +3,10 @@ title: PowerPoint animációk elsajátítása az Aspose.Slides .NET segítségé
 linktitle: Ismételje meg az animációt a dián
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa a PowerPoint prezentációkat az Aspose.Slides for .NET segítségével. Könnyedén vezérelheti az animációkat, ragadja meg közönségét, és hagyjon maradandó benyomást.
+type: docs
 weight: 12
 url: /hu/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A prezentációk dinamikus világában az animációk irányításának képessége kulcsfontosságú szerepet játszik a közönség lekötésében és figyelmének lekötésében. Az Aspose.Slides for .NET lehetővé teszi a fejlesztők számára, hogy átvegyék a diákon belüli animációs típusokat, így interaktívabb és tetszetősebb bemutatót készíthetnek. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan lehet vezérelni az animációtípusokat egy dián az Aspose.Slides for .NET segítségével.
 ## Előfeltételek
@@ -70,9 +66,3 @@ Az Aspose.Slides a PowerPoint-verziók széles skáláját támogatja, így bizt
  Látogatás[itt](https://purchase.aspose.com/temporary-license/) az ideiglenes engedély megszerzésével kapcsolatos információkért.
 ### Segítségre van szüksége, vagy további kérdései vannak?
  Vegyen részt az Aspose.Slides közösséggel a[támogatói fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

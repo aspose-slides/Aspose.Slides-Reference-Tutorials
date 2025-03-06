@@ -3,14 +3,10 @@ title: Atur Buku Kerja Eksternal di Slide Java
 linktitle: Atur Buku Kerja Eksternal di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur buku kerja eksternal di Java Slides menggunakan Aspose.Slides for Java. Buat presentasi dinamis dengan integrasi data Excel.
+type: docs
 weight: 19
 url: /id/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengatur Buku Kerja Eksternal di Slide Java
 
@@ -123,9 +119,3 @@ Aspose.Slides untuk Java diperbarui secara berkala untuk memastikan kompatibilit
 ### Bisakah saya menambahkan beberapa bagan yang merujuk pada buku kerja eksternal yang sama?
 
 Ya, Anda bisa menambahkan beberapa bagan ke presentasi Anda, semuanya merujuk pada buku kerja eksternal yang sama. Cukup ulangi langkah-langkah yang diuraikan dalam tutorial ini untuk setiap bagan yang ingin Anda buat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

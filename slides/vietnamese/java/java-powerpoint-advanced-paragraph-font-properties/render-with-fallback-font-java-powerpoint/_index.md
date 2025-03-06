@@ -3,14 +3,10 @@ title: Kết xuất với phông chữ dự phòng trong Java PowerPoint
 linktitle: Kết xuất với phông chữ dự phòng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách hiển thị văn bản bằng phông chữ dự phòng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước này để triển khai liền mạch.
+type: docs
 weight: 13
 url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Việc tạo và thao tác các bản trình bày PowerPoint bằng Java có thể là một thách thức, nhưng với Aspose.Slides, bạn có thể thực hiện việc này một cách hiệu quả. Một tính năng quan trọng là khả năng hiển thị văn bản với phông chữ dự phòng. Bài viết này cung cấp hướng dẫn chi tiết từng bước về cách triển khai phông chữ dự phòng trong trang chiếu PowerPoint của bạn bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -92,9 +88,3 @@ Phông chữ dự phòng là phông chữ thay thế được sử dụng khi ph
 Có, bạn có thể thêm nhiều quy tắc dự phòng để xử lý các phạm vi và phông chữ Unicode khác nhau.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

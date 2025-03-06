@@ -3,14 +3,10 @@ title: قفل نسبة العرض إلى الارتفاع في PowerPoint باس
 linktitle: قفل نسبة العرض إلى الارتفاع في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية قفل نسبة العرض إلى الارتفاع في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. مثالي لمطوري Java الذين يريدون التحكم الدقيق في تصميم الشرائح.
+type: docs
 weight: 16
 url: /ar/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 في مجال تطوير Java، يمكن أن يؤدي التعامل مع عروض PowerPoint التقديمية برمجياً إلى تبسيط سير العمل وتحسين الإنتاجية بشكل كبير. يقدم Aspose.Slides for Java مجموعة أدوات قوية لمطوري Java لأتمتة المهام مثل تعديل الشرائح وإضافة المحتوى وتطبيق التنسيق مباشرةً من تعليمات Java البرمجية. يركز هذا البرنامج التعليمي على جانب أساسي لإدارة عروض PowerPoint التقديمية: تأمين نسب العرض إلى الارتفاع.
 ## المتطلبات الأساسية
@@ -65,9 +61,3 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
  يمكنك طلب الدعم من مجتمع Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
 ### كيف يمكنني تجربة Aspose.Slides لـ Java قبل الشراء؟
  يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

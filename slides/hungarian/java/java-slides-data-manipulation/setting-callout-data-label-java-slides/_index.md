@@ -3,14 +3,10 @@ title: Kiemelés beállítása adatcímkéhez a Java Slides-ben
 linktitle: Kiemelés beállítása adatcímkéhez a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be kiemeléseket adatcímkékhez az Aspose.Slides for Java programban. Lépésről lépésre útmutató forráskóddal.
+type: docs
 weight: 25
 url: /hu/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés az adatcímkék kiemelésének beállításába az Aspose.Slides for Java programban
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Íme néhány gyakori testreszabási lehetőség az Aspose.Slides for Java adatcímkéihez és felirataihoz. Tovább szabhatja a megjelenést az Ön egyedi igényeihez.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

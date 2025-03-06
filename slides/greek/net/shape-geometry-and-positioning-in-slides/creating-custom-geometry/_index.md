@@ -3,14 +3,10 @@ title: Δημιουργία προσαρμοσμένης γεωμετρίας σ
 linktitle: Δημιουργία προσαρμοσμένης γεωμετρίας σε σχήμα γεωμετρίας χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε να δημιουργείτε προσαρμοσμένη γεωμετρία στο Aspose.Slides για .NET. Αναβαθμίστε τις παρουσιάσεις σας με μοναδικά σχήματα. Οδηγός βήμα προς βήμα για προγραμματιστές C#.
+type: docs
 weight: 15
 url: /el/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η προσθήκη μοναδικών σχημάτων και γεωμετριών μπορεί να ανυψώσει το περιεχόμενό σας, καθιστώντας το πιο ελκυστικό και οπτικά ελκυστικό. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για τη δημιουργία προσαρμοσμένων γεωμετριών μέσα σε σχήματα, επιτρέποντάς σας να απαλλαγείτε από τα συμβατικά σχέδια. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας προσαρμοσμένης γεωμετρίας σε ένα GeometryShape χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -98,9 +94,3 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
  Ζητήστε βοήθεια και συνεργαστείτε με την κοινότητα στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Πού μπορώ να αγοράσω Aspose.Slides για .NET;
  Μπορείτε να αγοράσετε Aspose.Slides για .NET[εδώ](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

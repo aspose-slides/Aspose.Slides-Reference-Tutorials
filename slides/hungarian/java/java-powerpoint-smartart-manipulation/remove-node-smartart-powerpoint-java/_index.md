@@ -3,14 +3,10 @@ title: Távolítsa el a csomópontot a SmartArt programból a PowerPointban Java
 linktitle: Távolítsa el a csomópontot a SmartArt programból a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan távolíthat el csomópontokat a SmartArtból a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével hatékonyan és programozottan.
+type: docs
 weight: 14
 url: /hu/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 mai digitális korban a dinamikus és tetszetős prezentációk készítése elengedhetetlen a vállalkozások, az oktatók és az egyének számára egyaránt. A PowerPoint-prezentációk tömör és lebilincselő módon képesek közvetíteni az információkat, továbbra is a kommunikáció alapvető elemei. Néha azonban a prezentációk tartalmát programozottan kell manipulálnunk, hogy megfeleljünk bizonyos követelményeknek vagy hatékonyan automatizáljuk a feladatokat. Itt jön képbe az Aspose.Slides for Java, amely hatékony eszközkészletet biztosít a PowerPoint-prezentációk programozott interakciójához.
 ## Előfeltételek
@@ -68,9 +64,3 @@ Biztosan! Az Aspose.Slides for Java vállalati szintű szolgáltatásokat és ro
  Természetesen! Letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides for Java számára?
  Bármilyen technikai segítségért vagy kérdésért keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

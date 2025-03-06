@@ -3,14 +3,10 @@ title: 使用 Java 投影片中的註解將投影片轉換為 PDF
 linktitle: 使用 Java 投影片中的註解將投影片轉換為 PDF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 PowerPoint 投影片轉換為帶有 Java 註解的 PDF。 Java 開發人員的逐步指南。增強您的簡報共享。
+type: docs
 weight: 19
 url: /zh-hant/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 中使用註解將投影片轉換為 PDF 的簡介
 
@@ -128,9 +124,3 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件？
 
 您可以在以下網站上找到 Aspose.Slides for Java 的詳細文件：[Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

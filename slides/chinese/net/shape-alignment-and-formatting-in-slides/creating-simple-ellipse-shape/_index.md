@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides .NET 轻松创建椭圆形
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建简单的椭圆形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 在演示幻灯片中创建令人惊叹的椭圆形状。动态设计的简单步骤！
+type: docs
 weight: 11
 url: /zh/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 在动态的演示设计世界中，加入椭圆等形状可以增添一丝创造力和专业性。Aspose.Slides for .NET 提供了一种强大的解决方案，用于以编程方式操作演示文件。本教程将指导您使用 Aspose.Slides for .NET 在演示幻灯片中创建简单的椭圆形。
 ## 先决条件
@@ -69,9 +65,3 @@ Congratulations! You've successfully created a simple ellipse shape in a present
 跟着[临时许可证链接](https://purchase.aspose.com/temporary-license/)申请临时许可证以用于测试目的。
 ### 需要帮助或者有具体问题吗？
 访问[Aspose.Slides 支持论坛](https://forum.aspose.com/c/slides/11)获得社区和专家的帮助。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

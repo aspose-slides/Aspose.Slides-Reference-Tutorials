@@ -3,14 +3,10 @@ title: Κλωνοποίηση διαφάνειας στην ίδια παρου�
 linktitle: Κλωνοποίηση διαφάνειας στην ίδια παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να κλωνοποιείτε διαφάνειες στην ίδια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα με πλήρη παραδείγματα πηγαίου κώδικα για να χειριστείτε αποτελεσματικά τις παρουσιάσεις σας.
+type: docs
 weight: 21
 url: /el/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -109,9 +105,3 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides για .NET;
 
  Για πιο λεπτομερή τεκμηρίωση και παραδείγματα, μπορείτε να επισκεφθείτε το[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Creación de miniaturas con factor de escala para formas en Aspose.Slides
 linktitle: Creación de miniaturas con factor de escala para formas en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a crear imágenes en miniatura de PowerPoint con límites específicos utilizando Aspose.Slides para .NET. Siga nuestra guía paso a paso para una integración perfecta.
+type: docs
 weight: 12
 url: /es/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Bienvenido a nuestra guía completa sobre cómo crear miniaturas con límites para formas en Aspose.Slides para .NET. Aspose.Slides es una potente biblioteca que permite a los desarrolladores trabajar sin problemas con presentaciones de PowerPoint en sus aplicaciones .NET. En este tutorial, profundizaremos en el proceso de generación de miniaturas con límites específicos para formas dentro de una presentación usando Aspose.Slides.
 ## Requisitos previos
@@ -59,9 +55,3 @@ Sí, Aspose.Slides es compatible con varios marcos .NET, lo que brinda flexibili
  Para cualquier consulta o ayuda, no dude en visitar el foro de soporte de Aspose.Slides.[aquí](https://forum.aspose.com/c/slides/11).
 ### P5: ¿Puedo comprar Aspose.Slides para .NET?
  ¡Ciertamente! Para comprar Aspose.Slides para .NET, visite la página de compra[aquí](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

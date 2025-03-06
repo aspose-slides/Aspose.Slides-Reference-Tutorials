@@ -3,14 +3,10 @@ title: كيفية تغيير خلفية الشريحة في Aspose.Slides .NET
 linktitle: تغيير خلفية الشريحة العادية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تغيير خلفيات الشرائح باستخدام Aspose.Slides for .NET وإنشاء عروض تقديمية مذهلة في PowerPoint.
+type: docs
 weight: 15
 url: /ar/net/slide-background-manipulation/change-slide-background-normal/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في عالم تصميم العروض التقديمية، يعد إنشاء شرائح ملفتة للنظر وجذابة أمرًا ضروريًا. Aspose.Slides for .NET هي أداة قوية تسمح لك بمعالجة عروض PowerPoint التقديمية برمجياً. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية تغيير خلفية الشريحة باستخدام Aspose.Slides for .NET. يمكن أن يساعدك هذا في تحسين المظهر المرئي لعروضك التقديمية وجعلها أكثر تأثيرًا. 
 
@@ -103,9 +99,3 @@ pres.Save(dataDir + "ContentBG_out.pptx", SaveFormat.Pptx);
 ### 5. كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 
  إذا كنت بحاجة إلى ترخيص مؤقت لمشروعك، يمكنك الحصول عليه من[هنا](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

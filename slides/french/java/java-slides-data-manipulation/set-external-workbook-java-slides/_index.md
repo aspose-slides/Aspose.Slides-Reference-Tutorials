@@ -3,14 +3,10 @@ title: Définir un classeur externe dans les diapositives Java
 linktitle: Définir un classeur externe dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des classeurs externes dans Java Slides à l'aide d'Aspose.Slides pour Java. Créez des présentations dynamiques avec l'intégration de données Excel.
+type: docs
 weight: 19
 url: /fr/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la définition d'un classeur externe dans les diapositives Java
 
@@ -123,9 +119,3 @@ Aspose.Slides for Java est régulièrement mis à jour pour garantir la compatib
 ### Puis-je ajouter plusieurs graphiques faisant référence au même classeur externe ?
 
 Oui, vous pouvez ajouter plusieurs graphiques à votre présentation, faisant tous référence au même classeur externe. Répétez simplement les étapes décrites dans ce didacticiel pour chaque graphique que vous souhaitez créer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

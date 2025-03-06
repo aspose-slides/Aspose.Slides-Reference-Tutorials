@@ -3,14 +3,10 @@ title: Xuất bản trình bày sang HTML bằng tệp CSS
 linktitle: Xuất bản trình bày sang HTML bằng tệp CSS
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xuất bản trình bày PowerPoint sang HTML bằng tệp CSS bằng Aspose.Slides cho .NET. Hướng dẫn từng bước để chuyển đổi liền mạch. Bảo tồn phong cách và bố cục!
+type: docs
 weight: 29
 url: /vi/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình năng động và có tính tương tác là điều cần thiết để giao tiếp hiệu quả. Aspose.Slides for .NET trao quyền cho các nhà phát triển xuất bản trình bày sang HTML bằng tệp CSS, cho phép bạn chia sẻ nội dung của mình một cách liền mạch trên nhiều nền tảng khác nhau. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.Slides cho .NET để đạt được điều này.
 
@@ -77,10 +73,3 @@ Aspose.Slides cho .NET chủ yếu dành cho C#, nhưng Aspose cũng cung cấp 
 Với Aspose.Slides cho .NET, bạn có thể dễ dàng chuyển đổi bản trình bày PowerPoint của mình thành HTML bằng các tệp CSS, đảm bảo trải nghiệm xem liền mạch cho khán giả của bạn.
 
 Bây giờ, hãy tiếp tục và tạo các bản trình bày HTML tuyệt đẹp với Aspose.Slides cho .NET!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

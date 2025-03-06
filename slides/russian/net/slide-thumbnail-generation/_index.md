@@ -3,14 +3,10 @@ title: Создание миниатюр слайдов
 linktitle: Создание миниатюр слайдов
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать миниатюры слайдов с помощью Aspose.Slides для .NET. Пошаговое руководство с примерами кода для создания динамического предварительного просмотра слайдов. Улучшите свои презентационные приложения с помощью этой мощной функции.
+type: docs
 weight: 17
 url: /ru/net/slide-thumbnail-generation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение:
 
@@ -41,9 +37,3 @@ url: /ru/net/slide-thumbnail-generation/
 Создавайте миниатюры слайдов, содержащих примечания, с помощью Aspose.Slides для .NET. Шаг за шагом научитесь извлекать заметки, создавать миниатюры и совершенствовать свои манипуляции с PowerPoint. 
 ### [Создать миниатюру с пользовательскими размерами](./generate-thumbnail-with-custom-dimensions/)
 Узнайте, как создавать миниатюры нестандартного размера в слайдах с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом. Улучшите свои презентации с помощью привлекательных визуальных эффектов. 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

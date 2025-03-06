@@ -3,14 +3,10 @@ title: Tworzenie i dostosowywanie wykresów w Aspose.Slides
 linktitle: Tworzenie i dostosowywanie wykresów w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć i dostosowywać wykresy w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku dotyczący tworzenia dynamicznych prezentacji.
+type: docs
 weight: 10
 url: /pl/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wstęp
 
@@ -114,9 +110,3 @@ Tak, możesz tworzyć różne typy wykresów, w tym wykresy słupkowe, wykresy k
 
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
 Tak, możesz uzyskać tymczasową licencję na stronie Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

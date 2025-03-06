@@ -3,14 +3,10 @@ title: Vytvořte Zoom Frame v PowerPointu
 linktitle: Vytvořte Zoom Frame v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet poutavé rámečky přiblížení v PowerPointu pomocí Aspose.Slides for Java. Postupujte podle našeho průvodce a přidejte do svých prezentací interaktivní prvky.
+type: docs
 weight: 17
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření poutavých prezentací v PowerPointu je umění a někdy mohou i ty nejmenší doplňky znamenat obrovský rozdíl. Jednou z takových funkcí je Zoom Frame, který umožňuje přiblížit konkrétní snímky nebo obrázky a vytvořit tak dynamickou a interaktivní prezentaci. V tomto tutoriálu vás provedeme procesem vytvoření Zoom Frame v PowerPointu pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -117,9 +113,3 @@ Ano, Aspose.Slides vám umožňuje přizpůsobit různé vlastnosti Zoom Frames,
 Absolutně! Vlastní obrázky můžete do rámečků přiblížit načtením obrazových souborů a jejich přidáním do prezentace.
 ### Kde najdu další příklady a dokumentaci?
  Kompletní dokumentaci a příklady naleznete na[Dokumentační stránka Aspose.Slides pro Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

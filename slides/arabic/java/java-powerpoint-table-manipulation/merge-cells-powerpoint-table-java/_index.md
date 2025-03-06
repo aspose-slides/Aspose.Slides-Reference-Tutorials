@@ -3,14 +3,10 @@ title: دمج الخلايا في جدول PowerPoint باستخدام Java
 linktitle: دمج الخلايا في جدول PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية دمج الخلايا في جداول PowerPoint باستخدام Aspose.Slides لـ Java. قم بتحسين تخطيط العرض التقديمي الخاص بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
+type: docs
 weight: 17
 url: /ar/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية دمج الخلايا بشكل فعال داخل جدول PowerPoint باستخدام Aspose.Slides لـ Java. Aspose.Slides هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. من خلال دمج الخلايا في جدول، يمكنك تخصيص تخطيط وبنية شرائح العرض التقديمي، مما يعزز الوضوح والجاذبية البصرية.
 ## المتطلبات الأساسية
@@ -96,9 +92,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات Java
  يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

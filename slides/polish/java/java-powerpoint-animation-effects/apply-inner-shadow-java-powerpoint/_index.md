@@ -3,14 +3,10 @@ title: Zastosuj cień wewnętrzny w prezentacjach Java PowerPoint
 linktitle: Zastosuj cień wewnętrzny w prezentacjach Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zastosować efekty cienia wewnętrznego do kształtów w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Ulepsz swoje slajdy, korzystając z tego przewodnika krok po kroku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji ma kluczowe znaczenie dla skutecznego komunikowania swoich pomysłów. Jednym z narzędzi, które może znacznie ulepszyć Twoje prezentacje, jest wykorzystanie cieni wewnętrznych. Ten samouczek poprowadzi Cię przez proces stosowania cieni wewnętrznych do kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Pod koniec tego samouczka będziesz mieć pełną wiedzę na temat manipulowania elementami slajdu w celu uzyskania oszałamiających efektów.
 ## Warunki wstępne
@@ -98,9 +94,3 @@ Aspose.Slides for Java to potężny interfejs API do programowego tworzenia i ma
 Tak, możesz dostosować różne parametry efektu cienia, takie jak promień rozmycia, kierunek, odległość i kolor, do swoich potrzeb.
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?
  Możesz zapoznać się z[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) szczegółowe informacje i przykłady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

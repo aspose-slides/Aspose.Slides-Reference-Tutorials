@@ -3,14 +3,10 @@ title: 슬라이드에 일반 선 추가
 linktitle: 슬라이드에 일반 선 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 슬라이드에 일반 선을 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 생산성을 높이십시오.
+type: docs
 weight: 14
 url: /ko/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Aspose.Slides for Java는 Java 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 라이브러리입니다. Aspose.Slides를 사용하면 PowerPoint 파일을 쉽게 생성, 수정 및 변환하여 시간과 노력을 절약할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 슬라이드에 일반 선을 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -66,9 +62,3 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 예, Aspose.Slides API를 사용하여 슬라이드에 텍스트, 이미지 및 기타 콘텐츠를 추가할 수 있습니다.
 ### Aspose.Slides에 대한 무료 평가판이 있습니까?
  예, 다음에서 Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

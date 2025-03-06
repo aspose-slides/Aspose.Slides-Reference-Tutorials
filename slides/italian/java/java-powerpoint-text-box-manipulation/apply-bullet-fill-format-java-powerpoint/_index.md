@@ -3,14 +3,10 @@ title: Applicare il formato di riempimento puntato in modo efficace in Java Powe
 linktitle: Applicare il formato di riempimento puntato in modo efficace in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come applicare i formati di riempimento dei punti elenco in Java PowerPoint utilizzando Aspose.Slides per Java. Padroneggia gli stili dei punti elenco e migliora le tue presentazioni.
+type: docs
 weight: 15
 url: /it/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Nel panorama digitale odierno, capacità di presentazione efficaci sono cruciali per i professionisti di vari settori. La creazione di presentazioni PowerPoint avvincenti richiede non solo creatività ma anche competenze tecniche per sfruttare tutto il potenziale di strumenti come Aspose.Slides per Java. Questo tutorial approfondisce uno di questi aspetti: applicare i formati di riempimento dei punti elenco a livello di codice utilizzando Aspose.Slides per Java. Che tu sia uno sviluppatore, un professionista o uno studente che desidera migliorare le proprie capacità di presentazione, padroneggiare i formati di riempimento dei punti elenco può aumentare significativamente l'attrattiva visiva e la chiarezza delle diapositive.
 ## Prerequisiti
@@ -94,9 +90,3 @@ Assolutamente, Aspose.Slides per Java è progettato per gestire i robusti requis
 Sì, Aspose.Slides per Java offre API per integrazioni basate su cloud.
 ### Posso provare Aspose.Slides per Java prima dell'acquisto?
  Sì, puoi iniziare con a[prova gratuita](https://releases.aspose.com/) per valutarne le caratteristiche.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

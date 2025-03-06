@@ -3,14 +3,10 @@ title: Kelola Properti Font Paragraf di Java PowerPoint
 linktitle: Kelola Properti Font Paragraf di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengelola dan mengkustomisasi properti font paragraf dalam presentasi Java PowerPoint menggunakan Aspose.Slides dengan panduan langkah demi langkah yang mudah diikuti ini.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik secara visual sangat penting untuk komunikasi yang efektif. Baik Anda sedang mempersiapkan proposal bisnis atau proyek sekolah, properti font yang tepat dapat membuat slide Anda lebih menarik. Tutorial ini akan memandu Anda dalam mengelola properti font paragraf menggunakan Aspose.Slides untuk Java. Siap untuk terjun? Mari kita mulai!
 ## Prasyarat
@@ -117,9 +113,3 @@ Ya, setiap bagian paragraf dapat memiliki properti fontnya sendiri.
 Ya, Aspose.Slides untuk Java mendukung pengisian gradien untuk teks.
 ### Bagaimana jika saya ingin membatalkan perubahan?
 Muat ulang presentasi asli atau simpan cadangan sebelum melakukan perubahan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

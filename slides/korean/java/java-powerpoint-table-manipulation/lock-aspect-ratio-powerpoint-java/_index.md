@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint에서 종횡비 잠금
 linktitle: Java를 사용하여 PowerPoint에서 종횡비 잠금
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint 프레젠테이션에서 종횡비를 잠그는 방법을 알아보세요. 슬라이드 디자인을 정밀하게 제어하려는 Java 개발자에게 적합합니다.
+type: docs
 weight: 16
 url: /ko/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java 개발 영역에서 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하면 작업 흐름을 간소화하고 생산성을 크게 향상시킬 수 있습니다. Aspose.Slides for Java는 Java 개발자가 슬라이드 수정, 콘텐츠 추가, Java 코드에서 직접 서식 적용과 같은 작업을 자동화할 수 있는 강력한 도구 키트를 제공합니다. 이 자습서에서는 PowerPoint 프레젠테이션 관리의 기본 측면인 가로 세로 비율 잠금에 중점을 둡니다.
 ## 전제 조건
@@ -65,9 +61,3 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
  Aspose.Slides 커뮤니티에서 지원을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
 ### 구매하기 전에 Java용 Aspose.Slides를 어떻게 사용해 볼 수 있나요?
  무료 평가판을 받으실 수 있습니다[여기](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

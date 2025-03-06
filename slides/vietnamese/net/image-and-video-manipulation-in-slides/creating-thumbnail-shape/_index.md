@@ -3,14 +3,10 @@ title: Tạo hình thu nhỏ hình dạng PowerPoint - Aspose.Slides .NET
 linktitle: Tạo hình thu nhỏ cho hình dạng trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình thu nhỏ cho các hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước toàn diện dành cho nhà phát triển.
+type: docs
 weight: 14
 url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Aspose.Slides for .NET là một thư viện mạnh mẽ hỗ trợ các nhà phát triển làm việc liền mạch với các bản trình bày PowerPoint. Một trong những tính năng đáng chú ý của nó là khả năng tạo hình thu nhỏ cho các hình dạng trong bản trình bày. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ cho các hình dạng bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -61,9 +57,3 @@ Trả lời: Bạn có thể triển khai cơ chế xử lý lỗi bằng cách 
 Trả lời: Aspose.Slides mang đến sự linh hoạt trong việc tạo hình thu nhỏ cho nhiều hình dạng khác nhau, bao gồm hộp văn bản, hình ảnh, v.v.
 ### Hỏi: Tôi có thể tùy chỉnh kích thước và độ phân giải của hình thu nhỏ được tạo không?
  A: Có, bạn có thể điều chỉnh các thông số khi gọi`GetThumbnail` phương pháp để kiểm soát kích thước và độ phân giải.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

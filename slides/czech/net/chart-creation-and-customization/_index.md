@@ -3,14 +3,10 @@ title: Vytvoření a přizpůsobení grafu
 linktitle: Vytvoření a přizpůsobení grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete prezentační schopnosti své .NET aplikace pomocí Aspose.Slides. Ponořte se do našeho výukového programu o vytváření a přizpůsobení grafů, prozkoumejte podrobné průvodce a příklady kódu.
+type: docs
 weight: 14
 url: /cs/net/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod:
 
@@ -31,9 +27,3 @@ Naučte se porovnávat snímky v prezentacích pomocí Aspose.Slides for .NET. P
 Naučte se používat Aspose.Slides pro .NET k vytváření dynamických prezentací PowerPoint se základními zástupnými symboly.
 ### [Správa záhlaví a zápatí v Prezentacích](./header-footer-manager/)
 Naučte se spravovat záhlaví a zápatí ve snímcích pomocí Aspose.Slides pro .NET. Přizpůsobte své prezentace snadno a přesně.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Tetapkan Opsi Kustom Legenda di Slide Java
 linktitle: Tetapkan Opsi Kustom Legenda di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur opsi legenda khusus di Java Slides menggunakan Aspose.Slides for Java. Sesuaikan posisi dan ukuran legenda di bagan PowerPoint Anda.
+type: docs
 weight: 14
 url: /id/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengatur Opsi Kustom Legenda di Slide Java
 
@@ -135,9 +131,3 @@ Dalam tutorial ini, kita mempelajari cara mengkustomisasi properti legenda bagan
 ## Bisakah saya menyesuaikan atribut legenda lainnya?
 
 Ya, Anda dapat menyesuaikan berbagai atribut legenda, seperti gaya font, batas, warna latar belakang, dan lainnya. Jelajahi dokumentasi Aspose.Slides untuk informasi mendetail tentang penyesuaian legenda lebih lanjut.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

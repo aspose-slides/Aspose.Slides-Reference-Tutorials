@@ -3,14 +3,10 @@ title: Gömülü Resimlerle HTML Sunumunu Dönüştürün
 linktitle: Gömülü Resimlerle HTML Sunumunu Dönüştürün
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını gömülü görüntülerle HTML'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz dönüşüm için adım adım kılavuz.
+type: docs
 weight: 11
 url: /tr/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Günümüzün dijital dünyasında PowerPoint sunumlarını HTML'ye dönüştürme ihtiyacı giderek önem kazanıyor. İster çevrimiçi içerik paylaşmak ister web tabanlı sunumlar oluşturmak olsun, PowerPoint dosyalarınızı HTML'ye dönüştürme yeteneği değerli bir varlık olabilir. Aspose.Slides for .NET, bu tür dönüşümleri sorunsuz bir şekilde gerçekleştirmenize olanak tanıyan güçlü bir kitaplıktır. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak gömülü görüntüler içeren bir HTML sunumunu dönüştürme sürecinde size yol göstereceğiz.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET, sunumların animasyonlar dahil çeşitli öğelerle dön
 
 ### Aspose.Slides for .NET kullanarak PowerPoint sunumlarını başka hangi formatlara dönüştürebilirim?
 Aspose.Slides for .NET, PDF, görseller ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler. Desteklenen formatların kapsamlı bir listesi için belgelere bakın.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Quản lý thuộc tính PowerPoint Java
 linktitle: Quản lý thuộc tính PowerPoint Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá cách quản lý thuộc tính PowerPoint bằng Aspose.Slides cho Java. Truy cập, sửa đổi và cập nhật các thuộc tính một cách dễ dàng bằng các hướng dẫn toàn diện của chúng tôi.
+type: docs
 weight: 21
 url: /vi/java/java-powerpoint-properties-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -42,9 +38,3 @@ Khai phá sức mạnh của Aspose.Slides cho Java. Quản lý bản trình bà
 Tìm hiểu cách sửa đổi các thuộc tính tích hợp trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn theo chương trình.
 ### [Cập nhật thuộc tính bản trình bày với mẫu mới](./update-presentation-properties-new-template/)
 Tìm hiểu cách cập nhật thuộc tính bản trình bày bằng Aspose.Slides cho Java. Nâng cao các dự án Java của bạn bằng cách sửa đổi siêu dữ liệu liền mạch.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

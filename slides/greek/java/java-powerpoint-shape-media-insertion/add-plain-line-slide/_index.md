@@ -3,14 +3,10 @@ title: Προσθήκη απλής γραμμής στη διαφάνεια
 linktitle: Προσθήκη απλής γραμμής στη διαφάνεια
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε μια απλή γραμμή σε μια διαφάνεια του PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Αυξήστε την παραγωγικότητά σας με αυτόν τον οδηγό βήμα προς βήμα.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να εργάζονται με παρουσιάσεις PowerPoint μέσω προγραμματισμού. Με το Aspose.Slides, μπορείτε να δημιουργήσετε, να τροποποιήσετε και να μετατρέψετε αρχεία PowerPoint με ευκολία, εξοικονομώντας χρόνο και προσπάθεια. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης μιας απλής γραμμής σε μια διαφάνεια σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -66,9 +62,3 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να προσθέσετε κείμενο, εικόνες και άλλο περιεχόμενο στη διαφάνεια χρησιμοποιώντας το Aspose.Slides API.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Slides;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides από[εδώ](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

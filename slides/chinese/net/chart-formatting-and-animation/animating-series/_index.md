@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 制作动画图表系列
 linktitle: 图表中的动画系列
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 制作动画图表系列。通过动态演示吸引观众。立即开始！
+type: docs
 weight: 12
 url: /zh/net/chart-formatting-and-animation/animating-series/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 您是否希望使用动画图表为您的演示文稿增添一些活力？Aspose.Slides for .NET 可让您的图表栩栩如生。在本分步指南中，我们将向您展示如何使用 Aspose.Slides for .NET 为图表中的系列添加动画。但在开始操作之前，让我们先介绍一下先决条件。
 
@@ -113,9 +109,3 @@ Aspose.Slides for .NET 支持各种 PowerPoint 版本，包括 PowerPoint 2007 �
 
 ### 我可以在哪里购买 Aspose.Slides for .NET 的许可证？
 您可以从购买页面获取 Aspose.Slides for .NET 的许可证[这里](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

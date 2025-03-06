@@ -3,14 +3,10 @@ title: Điều chỉnh vị trí slide trong bản trình bày với Aspose.Slid
 linktitle: Điều chỉnh vị trí slide trong bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách điều chỉnh vị trí trang chiếu trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Nâng cao kỹ năng thuyết trình của bạn!
+type: docs
 weight: 23
 url: /vi/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Bạn đang muốn sắp xếp lại các slide thuyết trình của mình và tự hỏi làm cách nào để điều chỉnh vị trí của chúng bằng Aspose.Slides cho .NET? Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn hiểu rõ từng bước. Trước khi đi sâu vào hướng dẫn, chúng ta hãy xem qua các điều kiện tiên quyết và nhập các không gian tên bạn cần để bắt đầu.
 
@@ -115,9 +111,3 @@ Có, Aspose.Slides for .NET cung cấp nhiều tính năng để làm việc v�
 ### 5. Tôi có thể dùng thử Aspose.Slides cho .NET trước khi mua không?
 
  Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.Slides cho .NET tại[Aspose.Slides để dùng thử miễn phí .NET](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

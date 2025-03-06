@@ -3,14 +3,10 @@ title: Pokročilé přizpůsobení grafu v Aspose.Slides
 linktitle: Pokročilé přizpůsobení grafu v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se pokročilé přizpůsobení grafu v Aspose.Slides pro .NET. Vytvářejte vizuálně přitažlivé grafy s podrobnými pokyny.
+type: docs
 weight: 10
 url: /cs/net/advanced-chart-customization/advanced-chart-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Vytváření vizuálně přitažlivých a informativních grafů je nezbytnou součástí prezentace dat v mnoha aplikacích. Aspose.Slides for .NET poskytuje robustní nástroje pro přizpůsobení grafů, což vám umožní doladit každý aspekt vašich grafů. V tomto tutoriálu prozkoumáme pokročilé techniky přizpůsobení grafu pomocí Aspose.Slides pro .NET.
 
@@ -308,9 +304,3 @@ Ano, Aspose.Slides for .NET poskytuje možnosti exportu prezentace s grafy do r�
 
 ### Kde najdu další návody a příklady pro Aspose.Slides pro .NET?
  Na Aspose.Slides můžete najít nepřeberné množství výukových programů, příkladů kódu a dokumentace[webová stránka](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

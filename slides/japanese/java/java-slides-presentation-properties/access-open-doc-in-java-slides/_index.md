@@ -3,14 +3,10 @@ title: Java スライドでオープンドキュメントにアクセスする
 linktitle: Java スライドでオープンドキュメントにアクセスする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java で Open Document Presentation (ODP) ファイルにアクセスし、変換する方法を学びます。開発者向けのステップバイステップ ガイド。
+type: docs
 weight: 12
 url: /ja/java/presentation-properties/access-open-doc-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java スライドでの Open Doc へのアクセスの概要
 
@@ -90,9 +86,3 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションの作成、�
 ### 質問や問題がある場合、Aspose サポートに問い合わせるにはどうすればよいでしょうか?
 
 Aspose のサポートには、同社の Web サイトに掲載されているサポート チャネルを通じて問い合わせることができます。Aspose では、問い合わせや問題が発生した場合の対応を専門にサポートしています。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

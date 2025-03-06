@@ -3,14 +3,10 @@ title: Java PowerPoint анимация и манипулирование фиг
 linktitle: Java PowerPoint анимация и манипулирование фигурами
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как анимировать фигуры и манипулировать ими в PowerPoint с помощью Aspose.Slides для Java. Комплексные руководства по динамическим презентациям.
+type: docs
 weight: 25
 url: /ru/java/java-powerpoint-animation-shape-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение
 
@@ -94,9 +90,3 @@ url: /ru/java/java-powerpoint-animation-shape-manipulation/
 Узнайте, как встраивать видеокадры в PowerPoint с помощью Aspose.Slides for Java, с помощью этого пошагового руководства. Легко улучшайте свои презентации.
 ### [Извлечение данных встроенного файла из объекта OLE в PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Узнайте, как извлекать данные встроенных файлов из презентаций PowerPoint с помощью Aspose.Slides для Java, расширяя возможности управления документами.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

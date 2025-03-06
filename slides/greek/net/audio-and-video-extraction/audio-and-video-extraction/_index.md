@@ -3,14 +3,10 @@ title: Mastering Audio and Video Extraction με Aspose.Slides για .NET
 linktitle: Εξαγωγή ήχου και βίντεο από διαφάνειες χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να εξάγετε ήχο και βίντεο από διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αβίαστη εξαγωγή πολυμέσων.
+type: docs
 weight: 10
 url: /el/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -139,10 +135,3 @@ foreach (ISlide slide in pres.Slides)
 
 ### Ποιες άλλες εργασίες μπορώ να εκτελέσω με το Aspose.Slides για .NET;
  Το Aspose.Slides για .NET παρέχει ένα ευρύ φάσμα δυνατοτήτων, όπως δημιουργία, τροποποίηση και μετατροπή παρουσιάσεων PowerPoint. Μπορείτε να εξερευνήσετε την τεκμηρίωση για περισσότερες λεπτομέρειες:[Aspose.Slides for .NET Documentation](https://reference.aspose.com/slides/net/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: PowerPoint mit Passwort speichern
 linktitle: PowerPoint mit Passwort speichern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java mit einem Kennwortschutz versehen. Sichern Sie Ihre Folien ganz einfach.
+type: docs
 weight: 12
 url: /de/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess zum Speichern einer PowerPoint-Präsentation mit einem Kennwort mithilfe von Aspose.Slides für Java. Das Hinzufügen eines Kennworts zu Ihrer Präsentation kann deren Sicherheit erhöhen und sicherstellen, dass nur autorisierte Personen auf deren Inhalte zugreifen können.
 ## Voraussetzungen
@@ -71,9 +67,3 @@ Ja, Aspose.Slides ermöglicht Ihnen, separate Passwörter für Bearbeitungs- und
  Ja, Sie können eine kostenlose Testversion von Aspose herunterladen.[Webseite](https://releases.aspose.com/).
 ### Wie kann ich technischen Support für Aspose.Slides erhalten?
 Sie können das Aspose.Slides-Forum besuchen, um technische Unterstützung von der Community und dem Aspose-Supportpersonal zu erhalten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

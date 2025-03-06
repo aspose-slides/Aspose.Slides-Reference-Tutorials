@@ -3,14 +3,10 @@ title: Opmerkingen Diamanipulatie
 linktitle: Opmerkingen Diamanipulatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met precisie! Verken de Aspose.Slides-tutorial over het manipuleren van notities en dia's in .NET. Leer sprekernotities programmatisch toevoegen, bewerken en beheren.
+type: docs
 weight: 16
 url: /nl/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 
 Welkom bij de uitgebreide Aspose.Slides-tutorial over Notes-diamanipulatie voor .NET-ontwikkelaars. In deze tutorial duiken we in de fascinerende wereld van sprekernotities en hoe je deze programmatisch kunt manipuleren met behulp van de Aspose.Slides-bibliotheek. Sprekernotities spelen een cruciale rol in presentaties, bieden waardevolle inzichten voor de presentator en vergroten de algehele impact van de inhoud. Aan het einde van deze zelfstudie heeft u een goed begrip van hoe u effectief sprekernotities kunt toevoegen, bewerken en beheren in uw PowerPoint-presentaties.
@@ -43,9 +39,3 @@ Leer hoe u de kop- en voettekst in notitiedia's kunt aanpassen met Aspose.Slides
 Leer hoe u notities van een specifieke dia in PowerPoint-presentaties verwijdert met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding met volledige broncode om uw dia's naadloos programmatisch te manipuleren.
 ### [Verwijder notities uit alle dia's](./remove-notes-from-all-slides/)
 Leer hoe u notities uit alle dia's in uw PowerPoint-presentaties verwijdert met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncodevoorbeelden om eenvoudig uw doel te bereiken.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

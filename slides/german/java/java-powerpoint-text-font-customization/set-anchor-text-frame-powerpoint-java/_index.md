@@ -3,14 +3,10 @@ title: Anker des Textrahmens in PowerPoint mit Java setzen
 linktitle: Anker des Textrahmens in PowerPoint mit Java setzen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides mithilfe von Java Textrahmenanker in PowerPoint festlegen. Verbessern Sie Ihre Präsentationen.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Slides mit Java den Anker eines Textrahmens in PowerPoint-Präsentationen setzen. Durch das Verankern von Textrahmen können Sie die Position und das Verhalten von Text innerhalb einer Form präzise steuern und so sicherstellen, dass Ihre Folien optisch ansprechend und effektiv strukturiert sind.
 ## Voraussetzungen
@@ -75,9 +71,3 @@ Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Java-Entwic
  Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### Wo erhalte ich Support für Aspose.Slides für Java?
  Sie können das Support-Forum besuchen[Hier](https://forum.aspose.com/c/slides/11) für Fragen oder Hilfe.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

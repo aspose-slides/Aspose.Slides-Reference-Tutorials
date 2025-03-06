@@ -3,14 +3,10 @@ title: PowerPoint의 기하학 모양에서 세그먼트 제거
 linktitle: PowerPoint의 기하학 모양에서 세그먼트 제거
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 자세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint의 기하학 모양에서 세그먼트를 제거하는 방법을 알아보세요.
+type: docs
 weight: 22
 url: /ko/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션의 모양을 조작하려고 하시나요? 당신은 올바른 장소에 왔습니다! Aspose.Slides for Java는 프레젠테이션에서 슬라이드를 쉽게 생성, 수정 및 관리할 수 있는 강력한 API입니다. 이 튜토리얼에서는 PowerPoint의 기하학 모양에서 세그먼트를 제거하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 이 작업을 마스터하기 위한 단계별 접근 방식을 제공합니다. 다이빙할 준비가 되셨나요? 시작하자!
 ## 전제 조건
@@ -75,9 +71,3 @@ Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방�
  예, 전체 기능을 사용하려면 라이센스가 필요합니다. 하나 구매하시면 됩니다[여기](https://purchase.aspose.com/buy) 아니면 임시면허를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
  포괄적인 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

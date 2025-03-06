@@ -3,14 +3,10 @@ title: Zvýrazňování textu Java PowerPoint a záložní pravidla
 linktitle: Zvýrazňování textu Java PowerPoint a záložní pravidla
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ovládněte pravidla zvýrazňování textu a záložních písem v Java PowerPoint s Aspose.Slides. Postupujte podle našich výukových programů a bez problémů vylepšujte a automatizujte své prezentace.
+type: docs
 weight: 25
 url: /cs/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod
 
@@ -30,9 +26,3 @@ Budete-li se řídit těmito výukovými programy, budete dobře vybaveni pro vy
 Naučte se zvýraznit text v PowerPointu pomocí Aspose.Slides pro Java. Automatizujte a vylepšujte prezentace bez námahy pomocí našeho podrobného průvodce.
 ### [Kolekce záložních pravidel v Java PowerPointu](./fallback-rules-collection-java-powerpoint/)
 Naučte se, jak spravovat záložní pravidla písem v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Vylepšete kompatibilitu mezi zařízeními bez námahy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

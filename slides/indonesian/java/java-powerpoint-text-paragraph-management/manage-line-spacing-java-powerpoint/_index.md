@@ -3,14 +3,10 @@ title: Kelola Spasi Baris di Java PowerPoint
 linktitle: Kelola Spasi Baris di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengelola spasi baris dalam presentasi Java PowerPoint dengan mudah menggunakan Aspose.Slides untuk Java. Sempurnakan slide Anda.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam pemrograman Java, mengatur spasi baris dalam presentasi PowerPoint sangat penting untuk membuat slide yang menarik secara visual dan menyampaikan informasi secara efektif. Baik Anda menyesuaikan spasi antar paragraf atau mengontrol spasi sebelum dan sesudah setiap paragraf, Aspose.Slides untuk Java menyediakan alat komprehensif untuk menyelesaikan tugas ini dengan lancar.
 ## Prasyarat
@@ -66,9 +62,3 @@ Anda dapat menjelajahi dokumentasi terperinci[Di Sini](https://reference.aspose.
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Slides?
  Untuk bantuan teknis, kunjungi Aspose.Slides[forum dukungan](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

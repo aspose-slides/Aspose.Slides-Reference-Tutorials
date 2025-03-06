@@ -3,14 +3,10 @@ title: Zmień układ grafiki SmartArt w programie PowerPoint za pomocą języka 
 linktitle: Zmień układ grafiki SmartArt w programie PowerPoint za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak manipulować układami SmartArt w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides dla języka Java.
+type: docs
 weight: 19
 url: /pl/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W tym samouczku dowiemy się, jak manipulować układami SmartArt w prezentacjach programu PowerPoint przy użyciu języka Java. SmartArt to zaawansowana funkcja programu PowerPoint, która umożliwia użytkownikom tworzenie atrakcyjnych wizualnie grafik do różnych celów, takich jak ilustrowanie procesów, hierarchii, relacji i nie tylko.
 ## Warunki wstępne
@@ -64,9 +60,3 @@ Tak, Aspose.Slides jest dostępny dla wielu języków programowania, w tym .NET,
 Absolutnie możesz programowo tworzyć grafiki SmartArt lub modyfikować istniejące, aby spełniały Twoje wymagania.
 ### Czy istnieje forum społeczności, na którym mogę szukać pomocy dotyczącej Aspose.Slides?
  Tak, możesz odwiedzić forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11) do zadawania pytań i nawiązywania kontaktu ze społecznością.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

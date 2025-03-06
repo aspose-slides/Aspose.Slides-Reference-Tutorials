@@ -3,14 +3,10 @@ title: Erweiterte Diagrammanpassung in Aspose.Slides
 linktitle: Erweiterte Diagrammanpassung in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie mehr über die erweiterte Diagrammanpassung in Aspose.Slides für .NET. Erstellen Sie optisch ansprechende Diagramme mit Schritt-für-Schritt-Anleitung.
+type: docs
 weight: 10
 url: /de/net/advanced-chart-customization/advanced-chart-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Das Erstellen optisch ansprechender und informativer Diagramme ist in vielen Anwendungen ein wesentlicher Bestandteil der Datenpräsentation. Aspose.Slides für .NET bietet robuste Tools zur Diagrammanpassung, mit denen Sie jeden Aspekt Ihrer Diagramme optimieren können. In diesem Tutorial erkunden wir erweiterte Diagrammanpassungstechniken mit Aspose.Slides für .NET.
 
@@ -308,9 +304,3 @@ Ja, Aspose.Slides für .NET bietet Optionen zum Exportieren Ihrer Präsentation 
 
 ### Wo finde ich weitere Tutorials und Beispiele für Aspose.Slides für .NET?
  Sie finden eine Fülle von Tutorials, Codebeispielen und Dokumentationen auf den Aspose.Slides[Webseite](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Check Password Example in Java Slides
 linktitle: Check Password Example in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to verify passwords in Java Slides using Aspose.Slides for Java. Enhance presentation security with step-by-step guidance.
+type: docs
 weight: 14
 url: /java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Check Password Example in Java Slides
 
@@ -103,10 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Where can I find more documentation for Aspose.Slides for Java?
 
 You can find comprehensive documentation for Aspose.Slides for Java on the Aspose website [here](https://reference.aspose.com/slides/java/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

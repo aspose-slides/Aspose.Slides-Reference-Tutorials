@@ -3,14 +3,10 @@ title: ใช้แบบอักษรที่กำหนดเองใน 
 linktitle: ใช้แบบอักษรที่กำหนดเองใน PowerPoint กับ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีรวมแบบอักษรที่กำหนดเองลงในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย
+type: docs
 weight: 25
 url: /th/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ประโยชน์จาก Aspose.Slides สำหรับ Java เพื่อปรับปรุงงานนำเสนอ PowerPoint โดยการผสานรวมแบบอักษรที่กำหนดเอง แบบอักษรที่กำหนดเองสามารถเสริมรูปลักษณ์ที่น่าดึงดูดให้กับสไลด์ของคุณได้อย่างมาก ทำให้มั่นใจได้ว่าจะสอดคล้องกับข้อกำหนดของแบรนด์หรือการออกแบบของคุณอย่างสมบูรณ์แบบ เราจะครอบคลุมทุกอย่างตั้งแต่การนำเข้าแพ็คเกจที่จำเป็นไปจนถึงการดำเนินการขั้นตอนที่จำเป็นสำหรับการรวมแบบอักษรที่กำหนดเองเข้ากับงานนำเสนอของคุณได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -74,9 +70,3 @@ FontsLoader.clearCache();
 Aspose.Slides สำหรับ Java รองรับการใช้งานฟอนต์แบบกำหนดเองที่หลากหลาย และไม่มีข้อจำกัดโดยธรรมชาติที่กำหนดโดยไลบรารี
 ### ฉันสามารถฝังแบบอักษรที่กำหนดเองลงในไฟล์ PowerPoint ได้โดยตรงโดยใช้ Aspose.Slides for Java ได้หรือไม่
 ใช่ Aspose.Slides สำหรับ Java ช่วยให้คุณสามารถฝังแบบอักษรที่กำหนดเองลงในไฟล์การนำเสนอได้เพื่อการแจกจ่ายที่ราบรื่น
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Formatting Ellipse Shapes Tutorial with Aspose.Slides for .NET
 linktitle: Formatting Ellipse Shape in Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Create stunning ellipse shapes in PowerPoint using Aspose.Slides for .NET. Follow our step-by-step guide for professional presentations.
+type: docs
 weight: 11
 url: /net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Enhancing your PowerPoint presentations with visually appealing shapes is crucial to captivate your audience. One such shape is the ellipse, which can add a touch of elegance and professionalism to your slides. In this tutorial, we'll guide you through the process of formatting ellipse shapes in PowerPoint using Aspose.Slides for .NET.
 ## Prerequisites
@@ -85,9 +81,3 @@ Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a t
 Seek assistance from the community at the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Is there a direct purchase option for Aspose.Slides for .NET?
 Yes, you can purchase the library directly [here](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

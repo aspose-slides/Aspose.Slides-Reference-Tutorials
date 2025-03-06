@@ -3,14 +3,10 @@ title: Java スライドでチャート画像を取得する
 linktitle: Java スライドでチャート画像を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドでチャート画像を取得する方法を学びます。このステップバイステップ ガイドでは、シームレスな統合のためのソース コードとヒントを提供します。
+type: docs
 weight: 19
 url: /ja/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Javaスライドでチャート画像を取得する方法の紹介
 
@@ -96,9 +92,3 @@ Aspose.Slides for Java は、スライドの作成、テキストの操作、図
 ### チャート画像を別の形式で保存できますか?
 
 もちろんです！適切なファイル拡張子を指定することで、チャート画像をJPEGやGIFなどのさまざまな形式で保存できます。`ImageIO.write`方法。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

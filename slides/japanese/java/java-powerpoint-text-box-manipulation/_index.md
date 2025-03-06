@@ -3,14 +3,10 @@ title: Java PowerPoint テキスト ボックスの操作
 linktitle: Java PowerPoint テキスト ボックスの操作
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用した Java PowerPoint テキスト ボックス操作の包括的なチュートリアルをご覧ください。ガイドに従って段階的にプレゼンテーションを強化してください。
+type: docs
 weight: 20
 url: /ja/java/java-powerpoint-text-box-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 
 Aspose.Slides を使用した Java PowerPoint テキスト ボックス操作チュートリアルで、PowerPoint プレゼンテーションの可能性を最大限に引き出しましょう。初心者でも上級ユーザーでも、詳細なガイドを利用すれば、プレゼンテーションを簡単に強化できます。
@@ -56,9 +52,3 @@ Aspose.Slides を使用して Java PowerPoint のテキスト フレームの回
 Aspose.Slides for Java を使用して、Java PowerPoint で箇条書きの塗りつぶし形式を適用する方法を学びます。箇条書きのスタイルをマスターして、プレゼンテーションを強化します。
 ### [Java PowerPoint でテキスト ボックスの段落に効果を適用する](./effect-text-box-paragraph-java-powerpoint/)
 シームレスな統合とカスタマイズを実現する Aspose.Slides を使用して、動的なテキスト効果で Java の PowerPoint プレゼンテーションを強化する方法を学習します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

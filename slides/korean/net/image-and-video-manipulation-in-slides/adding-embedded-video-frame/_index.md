@@ -3,14 +3,10 @@ title: Aspose.Slides - .NET 프레젠테이션에 포함된 비디오 추가하�
 linktitle: Aspose.Slides - .NET 프레젠테이션에 포함된 비디오 추가하기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 포함된 비디오로 프레젠테이션을 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+type: docs
 weight: 19
 url: /ko/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 멀티미디어 요소를 통합하면 참여도가 크게 향상될 수 있습니다. .NET용 Aspose.Slides는 내장된 비디오 프레임을 프레젠테이션 슬라이드에 통합하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 원활한 경험을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
 ## 전제 조건
@@ -79,9 +75,3 @@ Aspose.Slides는 MP4, AVI 및 WMV를 포함한 다양한 비디오 형식을 지
 포함된 비디오 수는 일반적으로 프레젠테이션 소프트웨어의 용량에 따라 제한됩니다.
 ### 추가 지원을 요청하거나 내 경험을 공유하려면 어떻게 해야 합니까?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

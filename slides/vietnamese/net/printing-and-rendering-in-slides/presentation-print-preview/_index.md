@@ -3,14 +3,10 @@ title: Xem trước bản in của bản trình bày trong Aspose.Slides
 linktitle: Xem trước bản in của bản trình bày trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xem trước bản in của bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này cùng với mã nguồn để tạo và tùy chỉnh bản xem trước bản in.
+type: docs
 weight: 11
 url: /vi/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Slides cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và nâng cao liền mạch các bản trình bày PowerPoint trong ứng dụng .NET của họ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước cần thiết để tận dụng toàn bộ tiềm năng của Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -75,9 +71,3 @@ Tuyệt đối! Aspose.Slides rất linh hoạt và có thể được tích h�
  Thăm nom[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
 ### Cần hỗ trợ hoặc có thêm câu hỏi?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ và kết nối với cộng đồng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

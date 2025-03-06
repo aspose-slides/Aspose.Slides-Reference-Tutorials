@@ -3,14 +3,10 @@ title: Menjelajahi Properti Presentasi dengan Aspose.Slides
 linktitle: Properti Presentasi Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyempurnakan properti presentasi slide Java Anda dengan tutorial Aspose.Slides untuk Java. Temukan tip dan trik untuk presentasi dinamis.
+type: docs
 weight: 21
 url: /id/java/presentation-properties/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Dalam dunia komunikasi digital yang terus berkembang, presentasi yang menawan adalah sebuah kebutuhan. Baik Anda seorang profesional berpengalaman atau baru memulai perjalanan Anda dalam presentasi slide Java, menguasai seni properti presentasi sangatlah penting. Untungnya, Aspose.Slides for Java menyediakan seperangkat alat dan fitur canggih untuk membuat presentasi Anda bersinar.
 
@@ -61,9 +57,3 @@ Pelajari cara memeriksa perlindungan presentasi di slide Java menggunakan Aspose
 Optimalkan Pertunjukan Slide Java Anda dengan Aspose.Slides. Buat presentasi yang menarik dengan pengaturan yang disesuaikan. Jelajahi panduan langkah demi langkah dan FAQ.
 ### [Properti yang Direkomendasikan Hanya Baca di Slide Java](./read-only-recommended-properties-in-java-slides/)
 Pelajari cara mengaktifkan properti Baca-Saja yang Direkomendasikan dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk meningkatkan keamanan presentasi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

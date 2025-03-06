@@ -3,14 +3,10 @@ title: Obtenez des valeurs de police efficaces dans Java PowerPoint
 linktitle: Obtenez des valeurs de police efficaces dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer des valeurs de police efficaces dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Améliorez la mise en forme de votre présentation sans effort.
+type: docs
 weight: 12
 url: /fr/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous aborderons la récupération de valeurs de police efficaces dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Cette fonctionnalité vous permet d'accéder au formatage de police appliqué au texte dans les diapositives, fournissant ainsi des informations précieuses pour diverses tâches de manipulation de présentation.
 ## Conditions préalables
@@ -66,9 +62,3 @@ Vous pouvez implémenter des mécanismes de gestion des erreurs, tels que des bl
 Oui, Aspose.Slides vous permet d'accéder aux valeurs de police à partir de présentations protégées par mot de passe, à condition que vous fournissiez les informations d'identification correctes.
 ### Existe-t-il des limitations aux propriétés de police qui peuvent être récupérées ?
 Aspose.Slides offre des fonctionnalités étendues pour la récupération des propriétés de police, couvrant les aspects de formatage les plus courants. Toutefois, certaines fonctionnalités de polices avancées ou spécialisées peuvent ne pas être accessibles via cette méthode.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

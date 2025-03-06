@@ -3,14 +3,10 @@ title: Java PowerPoint Animation και χειραγώγηση σχήματος
 linktitle: Java PowerPoint Animation και χειραγώγηση σχήματος
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κάνετε κίνηση και να χειρίζεστε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ολοκληρωμένα σεμινάρια για δυναμικές παρουσιάσεις.
+type: docs
 weight: 25
 url: /el/java/java-powerpoint-animation-shape-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή
 
@@ -94,9 +90,3 @@ url: /el/java/java-powerpoint-animation-shape-manipulation/
 Μάθετε πώς να ενσωματώνετε καρέ βίντεο στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε εύκολα τις παρουσιάσεις σας.
 ### [Εξαγωγή δεδομένων ενσωματωμένου αρχείου από αντικείμενο OLE στο PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Μάθετε πώς να εξάγετε ενσωματωμένα δεδομένα αρχείων από παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java, βελτιώνοντας τις δυνατότητες διαχείρισης εγγράφων.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

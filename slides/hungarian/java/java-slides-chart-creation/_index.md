@@ -3,14 +3,10 @@ title: Java diadiagram létrehozása
 linktitle: Java diadiagram létrehozása
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre dinamikus Java diákat diagramokkal az Aspose.Slides for Java segítségével. Átfogó oktatóanyagaink lépésről lépésre végigvezetik a folyamaton.
+type: docs
 weight: 16
 url: /hu/java/chart-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Készen áll arra, hogy felszabadítsa a dinamikus diagramok erejét Java diákjaiban? Az Aspose.Slides for Java segítségével könnyedén készíthet lenyűgöző diagramokat. Ez az átfogó útmutató végigvezeti Önt a lényeges lépéseken, a telepítéstől a diagram tökéletesítéséig.
 
@@ -39,9 +35,3 @@ Ismerje meg, hogyan hozhat létre szóródiagramokat Java nyelven az Aspose.Slid
 Ismerje meg, hogyan testreszabhatja a diagramokat a Java Slides programban az Aspose.Slides for Java segítségével. Fedezze fel a második cselekmény lehetőségeit, és javítsa prezentációit.
 ### [Fatérkép diagram a Java Slides-ben](./tree-map-chart-java-slides/)
 Hozzon létre fatérkép-diagramokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a hierarchikus adatok megjelenítéséhez.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

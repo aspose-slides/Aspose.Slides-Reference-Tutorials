@@ -3,14 +3,10 @@ title: Chuyển đổi slide sang PDF bằng ghi chú
 linktitle: Chuyển đổi slide sang PDF bằng ghi chú
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Dễ dàng chuyển đổi các slide thuyết trình có ghi chú của diễn giả sang PDF bằng Aspose.Slides for .NET. Bảo tồn nội dung và bối cảnh một cách liền mạch.
+type: docs
 weight: 18
 url: /vi/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Viết Hướng dẫn từng bước về chuyển đổi trang trình bày sang PDF kèm ghi chú bằng Aspose.Slides for .NET
 
@@ -102,9 +98,3 @@ Có, Aspose.Slides for .NET hỗ trợ nhiều định dạng đầu ra khác nh
  Có, bạn có thể mua giấy phép tạm thời tại[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Tóm lại, bằng cách sử dụng Aspose.Slides cho .NET, bạn có thể dễ dàng chuyển đổi các slide PowerPoint sang định dạng PDF mà không có ghi chú. Đây là một công cụ có giá trị dành cho các chuyên gia cần chia sẻ bài thuyết trình với đồng nghiệp và khách hàng trong khi vẫn đảm bảo rằng bối cảnh quan trọng không bị mất.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

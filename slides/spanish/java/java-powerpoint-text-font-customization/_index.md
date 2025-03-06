@@ -3,14 +3,10 @@ title: Personalización de fuentes y texto de PowerPoint en Java
 linktitle: Personalización de fuentes y texto de PowerPoint en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Explore tutoriales sobre personalización de fuentes y texto de PowerPoint en Java con Aspose.Slides. Aprenda a rotar, reemplazar fuentes y más para mejorar sus presentaciones.
+type: docs
 weight: 29
 url: /es/java/java-powerpoint-text-font-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 
 Libere todo el potencial de sus presentaciones de PowerPoint con nuestros tutoriales de personalización de fuentes y textos de PowerPoint en Java utilizando Aspose.Slides. Ya seas principiante o avanzado, nuestras guías detalladas te ayudarán a mejorar tus presentaciones sin esfuerzo.
@@ -106,9 +102,3 @@ Aprenda cómo agregar mediante programación un cuadro de texto a diapositivas d
 Aprenda cómo integrar fuentes personalizadas en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore el atractivo visual sin esfuerzo.
 ### [Crea WordArt en PowerPoint usando Java](./create-wordart-powerpoint-java/)
 Aprenda a crear presentaciones WordArt cautivadoras en PowerPoint usando Java con Aspose.Slides. Tutorial paso a paso para desarrolladores.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

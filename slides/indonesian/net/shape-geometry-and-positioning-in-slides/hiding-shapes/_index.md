@@ -3,14 +3,10 @@ title: Sembunyikan Bentuk di PowerPoint dengan Tutorial Aspose.Slides .NET
 linktitle: Menyembunyikan Bentuk di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyembunyikan bentuk di slide PowerPoint menggunakan Aspose.Slides untuk .NET. Sesuaikan presentasi secara terprogram dengan panduan langkah demi langkah ini.
+type: docs
 weight: 21
 url: /id/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, penyesuaian adalah kuncinya. Aspose.Slides untuk .NET memberikan solusi ampuh untuk memanipulasi presentasi PowerPoint secara terprogram. Salah satu persyaratan umum adalah kemampuan untuk menyembunyikan bentuk tertentu dalam slide. Tutorial ini akan memandu Anda melalui proses menyembunyikan bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -77,9 +73,3 @@ Sangat! Anda dapat menyesuaikan logika persembunyian berdasarkan berbagai atribu
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/)untuk tujuan pengujian.
 ### Bagaimana saya bisa mendapatkan dukungan komunitas untuk Aspose.Slides?
  Bergabunglah dengan komunitas Aspose.Slides di[forum](https://forum.aspose.com/c/slides/11) untuk diskusi dan bantuan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Chart Creation and Customization in Aspose.Slides
 linktitle: Chart Creation and Customization in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to create and customize charts in PowerPoint using Aspose.Slides for .NET. Step-by-step guide for creating dynamic presentations.
+type: docs
 weight: 10
 url: /net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction
 
@@ -114,10 +110,3 @@ Visit the Aspose support forum [here](https://forum.aspose.com/) for any questio
 
 ### Can I purchase a temporary license for Aspose.Slides for .NET?
 Yes, you can obtain a temporary license from the Aspose website [here](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

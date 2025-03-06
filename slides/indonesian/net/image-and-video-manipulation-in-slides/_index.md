@@ -3,14 +3,10 @@ title: Manipulasi Gambar dan Video dalam Slide
 linktitle: Manipulasi Gambar dan Video dalam Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi slide Anda dengan gambar dan video menawan menggunakan Aspose.Slides untuk .NET. Pelajari langkah demi langkah cara memanipulasi gambar dan video dalam slide untuk konten yang menarik secara visual.
+type: docs
 weight: 12
 url: /id/net/image-and-video-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Manipulasi Gambar dan Video di Aspose.Slides
 
@@ -57,9 +53,3 @@ Pelajari cara menyempurnakan slide presentasi Anda dengan menambahkan bingkai vi
 Pelajari cara mengekstrak data file yang disematkan dari objek OLE dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah berikut dengan kode sumber untuk mengambil dan memproses data yang disematkan dengan lancar.
 ### [Mengisi Bentuk dengan Gradien di Slide Presentasi menggunakan Aspose.Slides](./filling-shapes-gradient/)
 Pelajari cara menyempurnakan slide presentasi Anda dengan gradien menawan menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan kode sumber lengkap untuk mengisi bentuk dengan gradien, dari linier hingga radial, menambah kedalaman dan dimensi.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

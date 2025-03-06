@@ -3,14 +3,10 @@ title: Hinzufügen von Hyperlinks zu Folien in .NET mit Aspose.Slides
 linktitle: Hyperlink zur Folie hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Hyperlinks zu PowerPoint-Folien hinzufügen. Verbessern Sie Ihre Präsentationen mit interaktiven Elementen.
+type: docs
 weight: 12
 url: /de/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der digitalen Präsentationen ist Interaktivität der Schlüssel. Durch das Hinzufügen von Hyperlinks zu Ihren Folien können Sie Ihre Präsentation ansprechender und informativer gestalten. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen programmgesteuert erstellen, ändern und bearbeiten können. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Slides für .NET Hyperlinks zu Ihren Folien hinzufügen. 
 
@@ -110,9 +106,3 @@ Aspose.Slides bietet eine breite Palette interaktiver Funktionen, darunter Aktio
 ### 5. Ist Aspose.Slides für andere Programmiersprachen verfügbar?
 
 Ja, Aspose.Slides ist für verschiedene Programmiersprachen verfügbar, darunter Java und Python.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

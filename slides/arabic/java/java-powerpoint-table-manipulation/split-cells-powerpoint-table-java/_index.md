@@ -3,14 +3,10 @@ title: تقسيم الخلايا في جدول PowerPoint باستخدام Java
 linktitle: تقسيم الخلايا في جدول PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرّف على كيفية تقسيم خلايا جدول PowerPoint ودمجها وتنسيقها برمجياً باستخدام Aspose.Slides لـ Java. تصميم العرض الرئيسي.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية التعامل مع جداول PowerPoint في Java باستخدام Aspose.Slides. تعد الجداول عنصرًا أساسيًا في العروض التقديمية، وغالبًا ما تستخدم لتنظيم البيانات وعرضها بشكل فعال. يوفر Aspose.Slides إمكانات قوية لإنشاء الجداول وتعديلها وتحسينها برمجيًا، مما يوفر المرونة في التصميم والتخطيط.
 ## المتطلبات الأساسية
@@ -99,9 +95,3 @@ try {
  يمكنك الحصول على الدعم من منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
  نعم يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

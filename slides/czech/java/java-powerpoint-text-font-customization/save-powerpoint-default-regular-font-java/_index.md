@@ -3,14 +3,10 @@ title: Uložte PowerPoint s výchozím běžným písmem pomocí Java
 linktitle: Uložte PowerPoint s výchozím běžným písmem pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak programově manipulovat s prezentacemi PowerPoint pomocí Aspose.Slides for Java. Osvojte si práci s Java PowerPoint pomocí výukových programů krok za krokem.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-text-font-customization/save-powerpoint-default-regular-font-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 V oblasti vývoje Java může vytváření a manipulace s prezentacemi v PowerPointu programově výrazně zvýšit produktivitu a možnosti přizpůsobení. Aspose.Slides for Java je robustní knihovna, která umožňuje vývojářům efektivně zpracovávat soubory PowerPoint a nabízí komplexní sadu funkcí od jednoduchých úprav až po složité prezentace.
 ## Předpoklady
@@ -73,9 +69,3 @@ Aspose.Slides for Java vyžaduje kvůli kompatibilitě JDK 1.8 nebo vyšší.
  Ano, můžete získat podporu komunity[tady](https://forum.aspose.com/c/slides/11).
 ### Mohu vyzkoušet Aspose.Slides for Java zdarma?
  Ano, stáhněte si bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

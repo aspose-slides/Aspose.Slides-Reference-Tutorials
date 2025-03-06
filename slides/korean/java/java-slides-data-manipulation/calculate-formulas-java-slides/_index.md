@@ -3,14 +3,10 @@ title: Java 슬라이드에서 수식 계산
 linktitle: Java 슬라이드에서 수식 계산
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides에서 수식을 계산하는 방법을 알아보세요. 동적 PowerPoint 프레젠테이션을 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 10
 url: /ko/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에서 수식 계산 소개
 
@@ -118,10 +114,3 @@ try {
 ### 통합 문서에서 수식을 어떻게 계산하나요?
 
  다음을 사용하여 통합 문서의 수식을 계산할 수 있습니다.`calculateFormulas` 의 방법`IChartDataWorkbook` Aspose.Slides에서.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

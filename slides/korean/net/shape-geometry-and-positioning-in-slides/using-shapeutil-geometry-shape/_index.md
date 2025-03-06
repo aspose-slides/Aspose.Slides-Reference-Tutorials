@@ -3,14 +3,10 @@ title: ShapeUtil로 기하학 도형 마스터하기 - Aspose.Slides .NET
 linktitle: 프레젠테이션 슬라이드의 기하학 모양에 ShapeUtil 사용
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 동적 기하학 모양을 위한 ShapeUtil을 사용하여 .NET용 Aspose.Slides의 강력한 기능을 살펴보세요. 매력적인 프레젠테이션을 손쉽게 만들어 보세요. 지금 다운로드하세요! Aspose.Slides로 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 기하학적 모양 조작을 위해 ShapeUtil을 살펴보세요. .NET 소스 코드가 포함된 단계별 가이드입니다. 프레젠테이션을 효과적으로 최적화하세요.
+type: docs
 weight: 17
 url: /ko/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 시각적으로 매력적이고 역동적인 프레젠테이션 슬라이드를 만드는 것은 필수적인 기술이며 .NET용 Aspose.Slides는 이를 달성하기 위한 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 프리젠테이션 슬라이드에서 기하학적 모양을 처리하기 위해 ShapeUtil을 사용하는 방법을 살펴보겠습니다. 숙련된 개발자이든 Aspose.Slides를 처음 시작하든 이 가이드는 ShapeUtil을 활용하여 프레젠테이션을 향상시키는 과정을 안내합니다.
 ## 전제 조건
@@ -92,9 +88,3 @@ Aspose.Slides는 주로 .NET 언어를 지원합니다. 그러나 Aspose는 다�
  커뮤니티 지원 포럼을 방문하세요[여기](https://forum.aspose.com/c/slides/11).
 ### .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

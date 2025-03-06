@@ -3,14 +3,10 @@ title: Hinzufügen einer stilvollen Notizenformatierung mit Aspose.Slides für .
 linktitle: Notizenfolie mit stilvoller Notizenformatierung hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihren PowerPoint-Präsentationen mit Aspose.Slides für .NET stilvolle Notizenformatierungen hinzufügen. Verbessern Sie Ihre Folien mit Symbolen und Aufzählungszeichen.
+type: docs
 weight: 14
 url: /de/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In der Welt der Präsentationen kommt es nicht nur auf die Inhalte an, die Sie vermitteln, sondern auch darauf, wie Sie diese präsentieren. Eine stilvolle Formatierung der Notizen kann die Wirkung Ihrer Präsentation erheblich verbessern. Mit Aspose.Slides für .NET können Sie Ihre PowerPoint-Präsentationen ganz einfach verbessern, indem Sie stilvolle Notizen mit Aufzählungszeichen und Symbolen hinzufügen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens einer stilvollen Formatierung der Notizen zu Ihren PowerPoint-Folien.
 
@@ -113,9 +109,3 @@ Ja, Sie können eine temporäre Lizenz für Test- und Evaluierungszwecke erhalte
 
 ### Gibt es ein Community-Forum oder Support für Aspose.Slides für .NET?
  Ja, Sie können Hilfe suchen und an Diskussionen im Aspose.Slides für .NET-Community-Forum teilnehmen.[Hier](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

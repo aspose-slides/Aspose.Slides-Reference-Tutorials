@@ -3,14 +3,10 @@ title: Ubah Gaya Bentuk SmartArt di PowerPoint dengan Java
 linktitle: Ubah Gaya Bentuk SmartArt di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengubah gaya SmartArt dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides untuk Java. Tingkatkan presentasi Anda.
+type: docs
 weight: 23
 url: /id/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Dalam dunia pengembangan Java, membuat presentasi yang kuat sering kali menjadi suatu keharusan. Baik untuk promosi bisnis, tujuan pendidikan, atau sekadar berbagi informasi, presentasi PowerPoint adalah media yang umum. Namun, terkadang gaya dan format default yang disediakan oleh PowerPoint mungkin tidak sepenuhnya memenuhi kebutuhan kita. Di sinilah Aspose.Slides untuk Java berperan.
 Aspose.Slides untuk Java adalah perpustakaan tangguh yang memungkinkan pengembang Java bekerja dengan presentasi PowerPoint secara terprogram. Ini menyediakan berbagai fitur, termasuk kemampuan untuk memanipulasi bentuk, gaya, animasi, dan banyak lagi. Dalam tutorial ini, kita akan fokus pada satu tugas spesifik: mengubah gaya bentuk SmartArt dalam presentasi PowerPoint menggunakan Java.
@@ -73,9 +69,3 @@ Ya, Aspose.Slides untuk Java dapat diintegrasikan dengan pustaka Java lainnya se
  Ya, Anda dapat membeli lisensi sementara untuk Aspose.Slides untuk Java dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk Java?
  Anda dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk Java[Di Sini](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

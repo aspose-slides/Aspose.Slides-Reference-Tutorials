@@ -3,14 +3,10 @@ title: تحويل شرائح العرض التقديمي إلى تنسيق GIF
 linktitle: تحويل شرائح العرض التقديمي إلى تنسيق GIF
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخدام Aspose.Slides for .NET لتحويل شرائح PowerPoint إلى صور GIF ديناميكية باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+type: docs
 weight: 21
 url: /ar/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -137,9 +133,3 @@ class Program
 ### أين يمكنني العثور على المزيد من أمثلة التعليمات البرمجية والوثائق؟
 
  يمكنك العثور على المزيد من أمثلة التعليمات البرمجية والوثائق التفصيلية حول استخدام Aspose.Slides لـ .NET في[توثيق](https://reference.aspose.com).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

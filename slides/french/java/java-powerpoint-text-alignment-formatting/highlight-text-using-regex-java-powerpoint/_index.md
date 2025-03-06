@@ -3,14 +3,10 @@ title: Surligner le texte à l'aide de Regex dans Java PowerPoint
 linktitle: Surligner le texte à l'aide de Regex dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment surligner du texte dans PowerPoint à l'aide de modèles d'expression régulière avec Aspose.Slides pour Java. Améliorez vos présentations de manière dynamique.
+type: docs
 weight: 15
 url: /fr/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans le domaine du développement basé sur Java pour la création et la manipulation de présentations PowerPoint, Aspose.Slides for Java se présente comme une solution robuste. Ce didacticiel se concentre sur l'utilisation d'Aspose.Slides pour mettre en évidence du texte à l'aide d'expressions régulières (regex) dans les présentations PowerPoint. À la fin de ce guide, vous comprendrez comment implémenter des modèles d'expression régulière pour mettre en évidence du texte spécifique dans les diapositives, améliorant ainsi à la fois la fonctionnalité et la clarté visuelle.
 ## Conditions préalables
@@ -66,9 +62,3 @@ Oui, Aspose.Slides prend en charge différents formats PowerPoint, garantissant 
 Absolument, il offre des fonctionnalités étendues de manipulation de texte au-delà de la mise en surbrillance, notamment le style des polices, l'alignement, etc.
 ### Puis-je essayer Aspose.Slides pour Java avant d’acheter ?
  Oui, vous pouvez commencer par un[essai gratuit](https://releases.aspose.com/) pour évaluer ses capacités.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

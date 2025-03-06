@@ -3,14 +3,10 @@ title: Tùy chỉnh biểu đồ nâng cao trong Aspose.Slides
 linktitle: Tùy chỉnh biểu đồ nâng cao trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tùy chỉnh biểu đồ nâng cao trong Aspose.Slides cho .NET. Tạo biểu đồ hấp dẫn trực quan với hướng dẫn từng bước.
+type: docs
 weight: 10
 url: /vi/net/advanced-chart-customization/advanced-chart-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Tạo các biểu đồ giàu thông tin và hấp dẫn trực quan là một phần thiết yếu của việc trình bày dữ liệu trong nhiều ứng dụng. Aspose.Slides for .NET cung cấp các công cụ mạnh mẽ để tùy chỉnh biểu đồ, cho phép bạn tinh chỉnh mọi khía cạnh của biểu đồ của mình. Trong hướng dẫn này, chúng ta sẽ khám phá các kỹ thuật tùy chỉnh biểu đồ nâng cao bằng Aspose.Slides cho .NET.
 
@@ -308,9 +304,3 @@ Có, Aspose.Slides for .NET cung cấp các tùy chọn để xuất bản trìn
 
 ### Tôi có thể tìm thêm hướng dẫn và ví dụ về Aspose.Slides cho .NET ở đâu?
  Bạn có thể tìm thấy vô số hướng dẫn, ví dụ về mã và tài liệu trên Aspose.Slides[trang mạng](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

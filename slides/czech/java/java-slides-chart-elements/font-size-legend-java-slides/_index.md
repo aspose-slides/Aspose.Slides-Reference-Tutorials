@@ -3,14 +3,10 @@ title: Legenda velikosti písma v Java Slides
 linktitle: Legenda velikosti písma v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete prezentace v PowerPointu pomocí Aspose.Slides pro Java. V našem podrobném průvodci se dozvíte, jak přizpůsobit velikosti písma legendy a další.
+type: docs
 weight: 13
 url: /cs/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do legendy velikosti písma v Java Slides
 
@@ -139,9 +135,3 @@ Zde zakážeme automatické škálování os a určíme minimální a maximáln�
 ### Kde najdu další informace a dokumentaci k Aspose.Slides?
 
  Komplexní dokumentaci a reference API pro Aspose.Slides for Java můžete najít na webu dokumentace Aspose. Návštěva[tady](https://reference.aspose.com/slides/java/) pro podrobné informace o používání knihovny.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

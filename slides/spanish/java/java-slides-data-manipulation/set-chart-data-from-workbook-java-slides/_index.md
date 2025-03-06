@@ -3,14 +3,10 @@ title: Establecer datos de gráficos del libro de trabajo en diapositivas de Jav
 linktitle: Establecer datos de gráficos del libro de trabajo en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar datos de gráficos de un libro de Excel en Java Slides usando Aspose.Slides. Guía paso a paso con ejemplos de código para presentaciones dinámicas.
+type: docs
 weight: 15
 url: /es/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a establecer datos de gráficos desde el libro de trabajo en diapositivas de Java
 
@@ -146,9 +142,3 @@ Sí, puede actualizar los datos del gráfico dinámicamente en una presentación
 ### ¿Dónde puedo encontrar más ejemplos y recursos para trabajar con Aspose.Slides para Java?
 
  Puede explorar ejemplos y recursos adicionales en el[Aspose sitio web](https://www.aspose.com/). Además, la documentación de Aspose.Slides para Java proporciona una guía completa sobre cómo trabajar con la biblioteca.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Manipulacja obrazem i wideo na slajdach
 linktitle: Manipulacja obrazem i wideo na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje slajdów za pomocą urzekających obrazów i filmów za pomocą Aspose.Slides dla .NET. Dowiedz się krok po kroku, jak manipulować obrazami i filmami na slajdach, aby uzyskać atrakcyjną wizualnie treść.
+type: docs
 weight: 12
 url: /pl/net/image-and-video-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do manipulacji obrazami i wideo w Aspose.Slides
 
@@ -57,9 +53,3 @@ Dowiedz się, jak ulepszyć slajdy prezentacji, dodając osadzone klatki wideo z
 Dowiedz się, jak wyodrębnić osadzone dane plików z obiektów OLE w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo pobierać i przetwarzać osadzone dane.
 ### [Wypełnianie kształtów gradientem na slajdach prezentacji za pomocą Aspose.Slides](./filling-shapes-gradient/)
 Dowiedz się, jak ulepszyć slajdy prezentacji za pomocą urzekających gradientów, korzystając z Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnym kodem źródłowym, aby wypełniać kształty gradientami, od liniowego do promieniowego, dodając głębi i wymiaru.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: عناصر مخطط شرائح جافا
 linktitle: عناصر مخطط شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات ديناميكية في شرائح Java باستخدام Aspose.Slides for Java من خلال برامجنا التعليمية الشاملة. ارفع مهاراتك في العرض التقديمي اليوم!
+type: docs
 weight: 15
 url: /ar/java/chart-elements/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 هل أنت مستعد للارتقاء بمهاراتك في العرض التقديمي إلى المستوى التالي؟ انغمس في عالم المخططات الديناميكية في شرائح Java باستخدام Aspose.Slides for Java. في هذا الدليل الشامل، سنرشدك إلى كل ما تحتاج إلى معرفته لإتقان عناصر المخطط وجعل عروضك التقديمية مميزة حقًا.
 
@@ -62,9 +58,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 قم بإنشاء مخططات خريطة مذهلة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة والكود المصدري لمطوري Java.
 ### [مخطط Sunburst في شرائح Java](./sunburst-chart-java-slides/)
 أنشئ مخططات Sunburst مذهلة في شرائح Java باستخدام Aspose.Slides. تعلم كيفية إنشاء المخططات خطوة بخطوة ومعالجة البيانات.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

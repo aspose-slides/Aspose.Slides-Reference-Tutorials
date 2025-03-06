@@ -3,14 +3,10 @@ title: Manipolazione dei dati delle diapositive Java
 linktitle: Manipolazione dei dati delle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora le tue capacità di manipolazione dei dati di Java Slides con i tutorial Aspose.Slides per Java. Impara passo dopo passo a creare, modificare e trasformare le presentazioni in modo efficiente.
+type: docs
 weight: 13
 url: /it/java/data-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Sei pronto a padroneggiare l'arte della manipolazione dei dati di Java Slides? Non guardare oltre. In questa guida completa, ti guideremo attraverso le complessità dell'utilizzo di Aspose.Slides per Java per creare, modificare e migliorare le tue presentazioni di diapositive. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato il tuo viaggio nel mondo di Java Slides, i nostri tutorial ti forniranno le conoscenze e le competenze di cui hai bisogno.
 
@@ -100,9 +96,3 @@ Scopri come creare grafici a torta dinamici con colori delle sezioni automatici 
 Scopri come impostare i callout per le etichette dati in Aspose.Slides per Java. Guida passo passo con il codice sorgente.
 ### [Impostazione del formato della data per l'asse delle categorie nelle diapositive Java](./setting-date-format-category-axis-java-slides/)
 Scopri come impostare un formato di data per l'asse delle categorie in un grafico di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

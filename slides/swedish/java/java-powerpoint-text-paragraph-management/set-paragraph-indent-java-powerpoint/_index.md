@@ -3,14 +3,10 @@ title: Ställ in styckeindrag i Java PowerPoint
 linktitle: Ställ in styckeindrag i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in styckeindrag i PowerPoint-bilder programmatiskt med Aspose.Slides för Java. Förbättra din presentationsformatering utan ansträngning.
+type: docs
 weight: 16
 url: /sv/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 I den här handledningen kommer du att lära dig hur du manipulerar PowerPoint-presentationer programmatiskt med Aspose.Slides för Java. Specifikt kommer vi att fokusera på att ställa in styckeindrag i bilder. Aspose.Slides för Java tillhandahåller en kraftfull uppsättning API:er som gör det möjligt för utvecklare att skapa, ändra, konvertera och hantera PowerPoint-presentationer utan att förlita sig på Microsoft Office Automation.
 ## Förutsättningar
@@ -89,9 +85,3 @@ Aspose.Slides för Java är ett kraftfullt bibliotek för att arbeta med PowerPo
  Ja, du kan få en gratis provperiod från[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides för Java?
  Du kan få stöd från gemenskapsforumet[här](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

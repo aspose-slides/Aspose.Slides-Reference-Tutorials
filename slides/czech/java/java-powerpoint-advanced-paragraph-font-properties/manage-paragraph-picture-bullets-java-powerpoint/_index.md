@@ -3,14 +3,10 @@ title: Správa odrážek odstavcových obrázků v Java PowerPointu
 linktitle: Správa odrážek odstavcových obrázků v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat vlastní obrázkové odrážky do snímků aplikace PowerPoint pomocí Aspose.Slides for Java. Postupujte podle tohoto podrobného průvodce krok za krokem pro bezproblémovou integraci.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření poutavých a vizuálně přitažlivých prezentací je klíčovou dovedností v moderním obchodním světě. Vývojáři Java mohou využít Aspose.Slides k vylepšení svých prezentací pomocí přizpůsobených obrázkových odrážek na snímcích PowerPoint. Tento výukový program vás provede procesem krok za krokem a zajistí, že do svých prezentací můžete s jistotou přidávat obrázkové odrážky.
 ## Předpoklady
@@ -108,9 +104,3 @@ Ano, pro obrázkové odrážky můžete použít jakýkoli obrázek, pokud je do
 Ano, do jednoho automatického tvaru můžete přidat více odstavců s různými styly odrážek tak, že vytvoříte a nakonfigurujete každý odstavec samostatně.
 ### Kde najdu další příklady a podporu?
  Další příklady najdete v[dokumentace](https://reference.aspose.com/slides/java/) a získat podporu od komunity Aspose na[fórech](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

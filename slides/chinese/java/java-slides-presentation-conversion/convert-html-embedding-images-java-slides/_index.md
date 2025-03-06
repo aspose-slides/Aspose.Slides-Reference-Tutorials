@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中转换 HTML 嵌入图像
 linktitle: 在 Java 幻灯片中转换 HTML 嵌入图像
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 将 PowerPoint 转换为带有嵌入图像的 HTML。使用 Aspose.Slides for Java 的分步指南。学习如何轻松使用 Java 自动进行演示文稿转换。
+type: docs
 weight: 11
 url: /zh/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 幻灯片中 HTML 嵌入图像转换简介
 
@@ -129,10 +125,3 @@ try {
 ### 如何处理转换过程中的错误？
 
 您可以将转换代码包装在try-catch块中，以处理转换过程中可能发生的异常。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

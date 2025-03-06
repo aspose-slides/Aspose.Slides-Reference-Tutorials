@@ -3,14 +3,10 @@ title: الترخيص والتنسيق
 linktitle: الترخيص والتنسيق
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز فهمك لترخيص Aspose.Slides وتنسيقه من خلال البرامج التعليمية الشاملة. تعرف على كيفية إدارة التراخيص بكفاءة وتحقيق تنسيق لا تشوبه شائبة لعروضك التقديمية.
+type: docs
 weight: 21
 url: /ar/net/licensing-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة
 
@@ -35,9 +31,3 @@ url: /ar/net/licensing-and-formatting/
 تعرف على كيفية تحسين العناصر المرئية للمخطط باستخدام Aspose.Slides لـ .NET. أضف ألوانًا ديناميكية إلى نقاط البيانات للحصول على عروض تقديمية أكثر تأثيرًا.
 ### [إضافة أشرطة خطأ مخصصة إلى المخطط](./add-custom-error/)
 تعرف على كيفية إضافة أشرطة خطأ مخصصة إلى المخططات باستخدام Aspose.Slides لـ .NET. قم بإنشاء أشرطة الأخطاء وتصميمها وتخصيصها للحصول على تصور دقيق للبيانات.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

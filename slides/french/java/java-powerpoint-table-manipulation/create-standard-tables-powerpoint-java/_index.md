@@ -3,14 +3,10 @@ title: Créer des tableaux standard dans PowerPoint avec Java
 linktitle: Créer des tableaux standard dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des tableaux standard dans PowerPoint avec Java à l'aide d'Aspose.Slides. Suivez notre guide détaillé étape par étape pour une expérience fluide.
+type: docs
 weight: 21
 url: /fr/java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 La création de présentations PowerPoint visuellement attrayantes implique souvent l'ajout de divers éléments, tels que des tableaux, pour organiser et présenter clairement les données. Aspose.Slides pour Java fournit une API robuste pour travailler avec des fichiers PowerPoint par programme. Ce didacticiel vous guidera tout au long du processus de création de tableaux standard dans PowerPoint à l'aide de Java, en décomposant chaque étape pour garantir une expérience d'apprentissage fluide et complète.
 ## Conditions préalables
@@ -105,9 +101,3 @@ Oui, Aspose.Slides pour Java peut être utilisé avec d'autres langages JVM comm
  Vous pouvez acheter une licence auprès du[Page d'achat Aspose](https://purchase.aspose.com/buy).
 ### Aspose.Slides pour Java prend-il en charge tous les formats PowerPoint ?
 Oui, Aspose.Slides pour Java prend en charge tous les principaux formats PowerPoint, notamment PPT, PPTX, PPS, etc.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

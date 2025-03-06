@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint에서 로컬 글꼴 높이 값 설정
 linktitle: Java를 사용하여 PowerPoint에서 로컬 글꼴 높이 값 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 높이를 조정하는 방법을 알아보세요. 슬라이드의 텍스트 서식을 손쉽게 향상하세요.
+type: docs
 weight: 17
 url: /ko/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션 내의 다양한 수준에서 글꼴 높이를 조작하는 방법을 배웁니다. 시각적으로 매력적이고 구조화된 프레젠테이션을 만들려면 글꼴 크기를 제어하는 것이 중요합니다. 다양한 텍스트 요소에 대해 글꼴 높이를 설정하는 방법을 설명하기 위해 단계별 예제를 살펴보겠습니다.
 ## 전제 조건
@@ -69,9 +65,3 @@ Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테�
  지원을 받으려면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java 라이선스는 어디서 구매할 수 있나요?
  라이센스를 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Folienansicht und Layoutbearbeitung
 linktitle: Folienansicht und Layoutbearbeitung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Folienansichten und -layouts mit den Tutorials zur Folienansicht und Layoutbearbeitung von Aspose.Slides. Verbessern Sie die Wirkung und visuelle Qualität Ihrer Präsentation mit leistungsstarken .NET-Tools.
+type: docs
 weight: 20
 url: /de/net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung
 
@@ -33,9 +29,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen im normalen An
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Videos mit PowerPoint-Folien verknüpfen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Tipps zum Erstellen interaktiver und ansprechender Präsentationen mit verknüpften Videos.
 ### [Verwalten des ActiveX-Steuerelements in der Präsentation](./manage-activex-control/)
 Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügung, Bearbeitung, Anpassung, Ereignisbehandlung und mehr.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

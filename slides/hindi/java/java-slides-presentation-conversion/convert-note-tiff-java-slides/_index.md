@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में नोट को TIFF म
 linktitle: जावा स्लाइड्स में नोट को TIFF में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके स्पीकर नोट्स के साथ PowerPoint प्रस्तुतियों को जावा में TIFF प्रारूप में आसानी से परिवर्तित करें। निर्बाध दस्तावेज़ रूपांतरण के लिए स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+type: docs
 weight: 32
 url: /hi/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में नोट को TIFF में बदलने का परिचय
 
@@ -115,9 +111,3 @@ finally
 ### क्या मेरे प्रोजेक्ट में Java के लिए Aspose.Slides का उपयोग करने के लिए कोई लाइसेंसिंग संबंधी विचारणीय बातें हैं?
 
 हां, Aspose.Slides for Java को व्यावसायिक उपयोग के लिए वैध लाइसेंस की आवश्यकता होती है। आप Aspose वेबसाइट पर लाइसेंसिंग विवरण पा सकते हैं।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

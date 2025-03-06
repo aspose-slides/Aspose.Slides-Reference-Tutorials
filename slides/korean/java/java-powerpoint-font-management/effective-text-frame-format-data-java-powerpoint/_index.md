@@ -3,14 +3,10 @@ title: Java PowerPoint의 효과적인 텍스트 프레임 형식 데이터
 linktitle: Java PowerPoint의 효과적인 텍스트 프레임 형식 데이터
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 텍스트 프레임의 형식을 지정하는 방법을 알아보세요. 슬라이드의 시각적 매력을 쉽게 향상시킬 수 있습니다.
+type: docs
 weight: 15
 url: /ko/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 Java 기반 프리젠테이션 영역에서 Aspose.Slides for Java는 개발자가 동적이고 시각적으로 매력적인 슬라이드쇼를 쉽게 만들 수 있게 해주는 강력한 도구로 등장합니다. 매력적인 프레젠테이션을 만드는 데 있어서 중요한 측면 중 하나는 텍스트 프레임의 서식을 효과적으로 지정하는 것입니다. 이 포괄적인 가이드에서는 Aspose.Slides for Java를 활용하여 텍스트 프레임 서식 지정 기술을 익히는 복잡한 과정을 자세히 살펴봅니다.
 ## 전제 조건
@@ -76,9 +72,3 @@ Java PowerPoint 프레젠테이션의 텍스트 프레임 서식을 마스터하
 예, Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션 내의 텍스트 프레임 및 기타 요소에 애니메이션을 적용할 수 있습니다.
 ### Aspose.Slides for Java에 대한 기술 지원이 제공됩니까?
  예, Aspose.Slides for Java에 대한 기술 지원은 다음을 통해 제공됩니다.[법정](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

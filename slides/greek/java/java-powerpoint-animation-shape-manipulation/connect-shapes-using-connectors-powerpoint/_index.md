@@ -3,14 +3,10 @@ title: Συνδέστε σχήματα χρησιμοποιώντας συνδέ
 linktitle: Συνδέστε σχήματα χρησιμοποιώντας συνδέσμους στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να συνδέετε σχήματα χρησιμοποιώντας συνδέσμους σε παρουσιάσεις PowerPoint με το Aspose.Slides για Java. Βήμα προς βήμα μάθημα για αρχάριους.
+type: docs
 weight: 18
 url: /el/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να συνδέουμε σχήματα χρησιμοποιώντας συνδέσμους σε παρουσιάσεις PowerPoint με τη βοήθεια του Aspose.Slides για Java. Ακολουθήστε αυτές τις οδηγίες βήμα προς βήμα για να συνδέσετε αποτελεσματικά σχήματα και να δημιουργήσετε οπτικά ελκυστικές διαφάνειες.
 ## Προαπαιτούμενα
@@ -86,9 +82,3 @@ if (input != null) input.dispose();
 Οπωσδήποτε, μπορείτε εύκολα να προσθέσετε κείμενο σε σχήματα και συνδέσμους μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java.
 ### Υπάρχει κάποιο φόρουμ κοινότητας ή κανάλι υποστήριξης διαθέσιμο για το Aspose.Slides για χρήστες Java;
  Ναι, μπορείτε να βρείτε χρήσιμους πόρους, να κάνετε ερωτήσεις και να αλληλεπιδράσετε με άλλους χρήστες στο φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

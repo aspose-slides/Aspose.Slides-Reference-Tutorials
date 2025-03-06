@@ -3,14 +3,10 @@ title: PowerPoint に埋め込みビデオ フレームを追加する
 linktitle: PowerPoint に埋め込みビデオ フレームを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このステップバイステップのチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint にビデオ フレームを埋め込む方法を説明します。プレゼンテーションを簡単に強化できます。
+type: docs
 weight: 21
 url: /ja/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 PowerPoint プレゼンテーションにビデオを追加すると、プレゼンテーションがより魅力的で有益なものになります。Aspose.Slides for Java を使用すると、ビデオをスライドに直接簡単に埋め込むことができます。このチュートリアルでは、プロセスについてステップごとに説明し、コードのすべての部分とその機能について理解できるようにします。経験豊富な開発者でも、初心者でも、このガイドは、埋め込みビデオを使用してプレゼンテーションを強化するのに役立ちます。
 ## 前提条件
@@ -97,9 +93,3 @@ Aspose.Slides は、MP4、AVI、WMV などさまざまなビデオ形式をサ�
 はい、Aspose.Slides を使用するには有効なライセンスが必要です。評価用に一時ライセンスを取得できます。
 ### ビデオフレームのサイズと位置をカスタマイズできますか?
 はい、ビデオ フレームを追加するときに適切なパラメータを設定することで、サイズと位置をカスタマイズできます。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

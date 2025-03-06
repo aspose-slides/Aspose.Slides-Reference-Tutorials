@@ -3,14 +3,10 @@ title: Duplikovat snímek na konec stávající prezentace
 linktitle: Duplikovat snímek na konec stávající prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak duplikovat a přidat snímek na konec existující PowerPointové prezentace pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu a pokrývá nastavení, duplikaci snímků, úpravy a další.
+type: docs
 weight: 22
 url: /cs/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -100,9 +96,3 @@ Ano, Aspose.Slides podporuje různé formáty PowerPoint, včetně PPT, PPTX, PP
 ### Mohu upravit obsah snímku pomocí Aspose.Slides?
 
 Absolutně! Aspose.Slides vám umožňuje nejen duplikovat snímky, ale také programově manipulovat s jejich obsahem, jako je text, obrázky, tvary a animace.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

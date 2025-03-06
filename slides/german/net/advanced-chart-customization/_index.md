@@ -3,14 +3,10 @@ title: Erweiterte Diagrammanpassung
 linktitle: Erweiterte Diagrammanpassung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit erweiterter Diagrammanpassung mithilfe von Aspose.Slides für .NET. Erfahren Sie, wie Sie visuell beeindruckende Diagramme erstellen und diese genau an Ihre Bedürfnisse anpassen.
+type: docs
 weight: 23
 url: /de/net/advanced-chart-customization/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung
 
@@ -37,9 +33,3 @@ Erfahren Sie, wie Sie Ihre Datenvisualisierungen mit Aspose.Slides für .NET ver
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Diagrammtrendlinien erstellen. Verbessern Sie die Datenvisualisierung mit Schritt-für-Schritt-Anleitungen und Codebeispielen.
 ### [Diagrammelemente und Formatierung](./chart-entities/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET dynamische Diagramme in PowerPoint erstellen und formatieren. Schritt-für-Schritt-Anleitung mit Quellcode.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 將筆記投影片檢視轉換為 PDF 格式
 linktitle: 將筆記投影片檢視轉換為 PDF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 將 PowerPoint 中的講者筆記轉換為 PDF。輕鬆保留上下文並自訂佈局。
+type: docs
 weight: 15
 url: /zh-hant/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for .NET 將 Notes Slide View 轉換為 PDF 格式的流程。您將找到詳細的說明和程式碼片段來輕鬆完成此任務。
 
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 您可以探索其他教學和範例[Aspose.Slides for .NET API 文檔](https://reference.aspose.com/slides/net/).
 
 現在您已成功將 Notes Slide View 轉換為 PDF 格式，您可以探索 Aspose.Slides for .NET 的更多特性和功能來增強您的 PowerPoint 自動化任務。快樂編碼！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

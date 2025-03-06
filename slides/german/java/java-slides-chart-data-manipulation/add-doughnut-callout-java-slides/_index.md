@@ -3,14 +3,10 @@ title: Donut-Callout in Java-Folien hinzufügen
 linktitle: Donut-Callout in Java-Folien hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Donut-Callouts in Java-Folien einfügen. Schritt-für-Schritt-Anleitung mit Quellcode für erweiterte Präsentationen.
+type: docs
 weight: 12
 url: /de/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung zum Hinzufügen eines Donut-Callouts in Java-Folien mit Aspose.Slides für Java
 
@@ -184,9 +180,3 @@ Ja, Sie können dem Ringdiagramm beliebig viele Datenpunkte hinzufügen. Erweite
 ### Wie kann ich die Position und Größe des Ringdiagramms auf der Folie anpassen?
 
  Sie können die Position und Größe des Ringdiagramms ändern, indem Sie die Parameter im`addChart` Methode. Die vier Zahlen in dieser Methode entsprechen den X- und Y-Koordinaten der oberen linken Ecke des Diagramms bzw. seiner Breite und Höhe.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

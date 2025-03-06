@@ -3,14 +3,10 @@ title: Добавьте полосы ошибок в слайды Java
 linktitle: Добавьте полосы ошибок в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавить полосы ошибок в диаграммы PowerPoint в Java с помощью Aspose.Slides. Пошаговое руководство с исходным кодом для настройки панелей ошибок.
+type: docs
 weight: 13
 url: /ru/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в добавление полос ошибок в слайды Java с использованием Aspose.Slides
 
@@ -132,9 +128,3 @@ finally
 ### Где я могу найти дополнительную информацию об Aspose.Slides для Java?
 
  Вы можете обратиться к[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/) для получения подробной информации об использовании библиотеки.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

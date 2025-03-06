@@ -3,14 +3,10 @@ title: 将演示文稿转换为带有嵌入字体的 HTML
 linktitle: 将演示文稿转换为带有嵌入字体的 HTML
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为带有嵌入字体的 HTML。无缝保持原创性。
+type: docs
 weight: 13
 url: /zh/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在当今的数字时代，在线共享演示文稿和文档已成为一种常见做法。然而，经常出现的一个挑战是确保在将演示文稿转换为 HTML 时正确显示字体。本分步教程将指导您完成使用 Aspose.Slides for .NET 将演示文稿转换为带有嵌入字体的 HTML 的过程，确保您的文档看起来与您想要的一样。
 
@@ -124,10 +120,3 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ### 5. 在哪里可以找到有关 Aspose.Slides for .NET 的更多资源和支持？
 
 您可以访问丰富的资源，包括文档，[Aspose.Slides for .NET API 参考](https://reference.aspose.com/slides/net/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

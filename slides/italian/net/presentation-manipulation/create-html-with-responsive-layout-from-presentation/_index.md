@@ -3,14 +3,10 @@ title: Crea HTML con layout reattivo dalla presentazione
 linktitle: Crea HTML con layout reattivo dalla presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come convertire le presentazioni in HTML reattivo utilizzando Aspose.Slides per .NET. Crea contenuti interattivi e ottimizzati per i dispositivi senza sforzo.
+type: docs
 weight: 17
 url: /it/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Nell'era digitale di oggi, la creazione di contenuti web reattivi è una competenza cruciale per sviluppatori e designer web. Fortunatamente, strumenti come Aspose.Slides per .NET semplificano la generazione di HTML con layout reattivi dalle presentazioni. In questo tutorial passo passo ti guideremo attraverso il processo per raggiungere questo obiettivo utilizzando il codice sorgente fornito.
 
@@ -76,9 +72,3 @@ Per qualsiasi richiesta relativa al supporto, visitare il[Forum Aspose.Slides](h
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 
 Ora che disponi di una guida completa per creare HTML reattivo dalle presentazioni, sei sulla buona strada per migliorare l'accessibilità e l'attrattiva dei tuoi contenuti web. Buona programmazione!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

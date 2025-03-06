@@ -3,14 +3,10 @@ title: Dominando efeitos duotônicos em Aspose.Slides para .NET
 linktitle: Aplicando efeitos Duotone em slides de apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Crie slides de apresentação cativantes com Aspose.Slides for .NET. Aprenda a aplicar efeitos duotônicos passo a passo. Eleve suas apresentações agora!
+type: docs
 weight: 18
 url: /pt/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Criar slides de apresentação visualmente impressionantes é essencial para envolver o seu público. Uma maneira eficaz de aprimorar seus slides é aplicar efeitos duotônicos. Neste tutorial, orientaremos você no processo de aplicação de efeitos duotônicos em slides de apresentação usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -85,9 +81,3 @@ Sim, o Aspose.Slides é atualizado regularmente para garantir compatibilidade co
 Absolutamente. Explore a documentação do Aspose.Slides para opções avançadas de personalização.
 ### Existe uma versão de teste disponível para Aspose.Slides?
  Sim, você pode baixar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

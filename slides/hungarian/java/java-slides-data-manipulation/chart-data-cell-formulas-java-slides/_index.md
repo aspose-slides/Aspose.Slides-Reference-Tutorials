@@ -3,14 +3,10 @@ title: Diagram adatcella képletek Java Slides
 linktitle: Diagram adatcella képletek Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be diagramadatcella-képleteket Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Dinamikus diagramok létrehozása képletekkel.
+type: docs
 weight: 11
 url: /hu/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés a Chart Data Cell Formulákba az Aspose.Slides for Java programban
 
@@ -126,9 +122,3 @@ Igen, az adatcella-képletekben különféle típusú képleteket használhat, b
 ### Hogyan változtathatom meg a diagram típusát?
 
  A diagram típusát a gombbal módosíthatja`setChartType` módszer a`IChart` objektumot, és megadja a kívántat`ChartType`.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

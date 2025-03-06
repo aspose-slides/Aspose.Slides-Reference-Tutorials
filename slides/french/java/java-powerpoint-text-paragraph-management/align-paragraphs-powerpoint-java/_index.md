@@ -3,14 +3,10 @@ title: Aligner les paragraphes dans PowerPoint à l'aide de Java
 linktitle: Aligner les paragraphes dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment aligner des paragraphes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez notre guide étape par étape pour un formatage précis.
+type: docs
 weight: 17
 url: /fr/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, vous apprendrez à aligner des paragraphes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Un bon alignement du texte dans les diapositives améliore la lisibilité et l'attrait esthétique, rendant vos présentations plus professionnelles et attrayantes. Ce guide vous guidera à travers les étapes nécessaires pour centrer les paragraphes par programmation, garantissant ainsi que vous pouvez obtenir une mise en forme cohérente dans vos diapositives sans effort.
 ## Conditions préalables
@@ -76,9 +72,3 @@ Absolument, vous pouvez personnaliser les styles de police, les couleurs, l'espa
 Aspose.Slides prend en charge une large gamme de formats PowerPoint, garantissant la compatibilité entre les différentes versions.
 ### Puis-je essayer Aspose.Slides avant d’acheter ?
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

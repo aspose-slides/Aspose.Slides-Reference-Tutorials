@@ -3,14 +3,10 @@ title: Java Slaytlarında Ölçülü Lisanslama
 linktitle: Java Slaytlarında Ölçülü Lisanslama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Ölçülü Lisanslama ile Aspose.Slides'ınızı Java kullanımı için optimize edin. Bunu nasıl ayarlayacağınızı ve API tüketiminizi nasıl izleyeceğinizi öğrenin.
+type: docs
 weight: 10
 url: /tr/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java'da Ölçülü Lisanslamaya Giriş
 
@@ -111,10 +107,3 @@ Evet, Aspose.Slides for Java da dahil olmak üzere çeşitli Aspose ürünleri i
 ### Ölçülü lisanslama için internet bağlantısına ihtiyacım var mı?
 
 Evet, ölçülü lisanslamayı ayarlamak ve doğrulamak için internet bağlantısı gereklidir.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

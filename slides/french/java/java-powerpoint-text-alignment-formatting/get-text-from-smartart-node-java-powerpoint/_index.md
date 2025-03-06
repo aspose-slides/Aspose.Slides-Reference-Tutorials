@@ -3,14 +3,10 @@ title: Obtenir du texte à partir du nœud SmartArt dans Java PowerPoint
 linktitle: Obtenir du texte à partir du nœud SmartArt dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment extraire du texte à partir de nœuds SmartArt dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Guide simple, étape par étape, pour les développeurs.
+type: docs
 weight: 14
 url: /fr/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous explorerons comment extraire du texte à partir de nœuds SmartArt dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Aspose.Slides est une puissante bibliothèque Java qui permet aux développeurs de créer, manipuler et convertir des présentations PowerPoint par programme. L'extraction de texte à partir de nœuds SmartArt peut être utile pour diverses applications telles que l'extraction de données, l'analyse de contenu, etc. À la fin de ce guide, vous comprendrez clairement comment récupérer efficacement du texte à partir de nœuds SmartArt à l'aide d'Aspose.Slides en Java.
 ## Conditions préalables
@@ -70,9 +66,3 @@ Aspose.Slides pour Java est une API robuste qui permet aux développeurs de cré
  Oui, vous pouvez obtenir un essai gratuit d'Aspose.Slides pour Java[ici](https://releases.aspose.com/).
 ### Où puis-je trouver de l’assistance pour Aspose.Slides pour Java ?
  Pour une assistance technique et un soutien communautaire, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

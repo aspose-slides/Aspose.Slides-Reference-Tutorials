@@ -3,14 +3,10 @@ title: Java Slides Práce s obrázky pomocí Aspose.Slides pro Java
 linktitle: Manipulace s obrázky Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak zacházet s obrázky ve snímcích Java pomocí výukových programů Aspose.Slides for Java. Prozkoumejte podrobné pokyny pro efektivní správu obrázků.
+type: docs
 weight: 23
 url: /cs/java/image-handling/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Jste připraveni vylepšit své snímky Java úžasnými obrázky? V tomto článku se ponoříme do světa práce s obrázky pomocí výukových programů Aspose.Slides for Java. Ať už jste ostřílený vývojář nebo teprve začínáte svou cestu, tento komplexní průvodce vás krok za krokem provede celým procesem.
 
@@ -46,9 +42,3 @@ Naučte se přidávat obrázky SVG do Java Slides pomocí Aspose.Slides for Java
 Naučte se přidávat vektorové obrázky SVG z externích zdrojů do snímků Java pomocí Aspose.Slides. Vytvářejte úžasné prezentace s vysoce kvalitními vizuálními prvky.
 ### [Převeďte obrazový objekt SVG na skupinu tvarů v Java Slides](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Naučte se převádět obrázky SVG do skupiny tvarů v aplikaci Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

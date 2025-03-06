@@ -3,14 +3,10 @@ title: Állítsa be az egyéni felsorolásjelek számát a Java PowerPointban
 linktitle: Állítsa be az egyéni felsorolásjelek számát a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be egyéni felsorolásszámokat a Java PowerPointban az Aspose.Slides segítségével, amely programozottan javítja a prezentáció tisztaságát és szerkezetét.
+type: docs
 weight: 15
 url: /hu/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 A mai digitális korban a dinamikus prezentációk készítése kulcsfontosságú az ötletek és adatok hatékony kommunikálásához. Az Aspose.Slides for Java hatékony eszközkészletet biztosít a PowerPoint-prezentációk programozott kezeléséhez, és kiterjedt funkciókat kínál a prezentáció-készítési folyamat javítására. Ez a cikk az egyéni felsorolásszámok beállításával foglalkozik Java PowerPoint prezentációkban az Aspose.Slides használatával. Akár tapasztalt fejlesztő, akár újonc, ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, és biztosítja, hogy hatékonyan tudja kihasználni ezt a képességet.
 ## Előfeltételek
@@ -86,9 +82,3 @@ Az Aspose.Slides támogatja a PowerPoint formátumokat 97-2003-tól a legújabb 
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol vásárolhatok Aspose.Slides-t?
  Az Aspose.Slides-t itt vásárolhatja meg[itt](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

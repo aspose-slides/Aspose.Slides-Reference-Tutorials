@@ -3,14 +3,10 @@ title: PowerPoint で図形を非表示にする
 linktitle: PowerPoint で図形を非表示にする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: 詳細なステップバイステップ ガイドを使用して、Aspose.Slides for Java を使用して PowerPoint で図形を非表示にする方法を学びます。あらゆるレベルの Java 開発者に最適です。
+type: docs
 weight: 27
 url: /ja/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 Aspose.Slides for Java を使用して PowerPoint で図形を非表示にする方法について、包括的なチュートリアルへようこそ。PowerPoint プレゼンテーションで特定の図形をプログラムで非表示にする必要がある場合は、このガイドが役に立ちます。このガイドでは、各手順を簡単な会話形式で説明します。経験豊富な開発者でも、Java を使い始めたばかりでも、このガイドが役立ちます。
 ## 前提条件
@@ -85,9 +81,3 @@ Aspose.Slidesは、.NET、Python、Cなどさまざまなプログラミング�
 はい、無料トライアルはここからダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides のサポートはどこで受けられますか?
 サポートを受けるには[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

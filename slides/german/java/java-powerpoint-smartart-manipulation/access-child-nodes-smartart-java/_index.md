@@ -3,14 +3,10 @@ title: Zugriff auf untergeordnete Knoten in SmartArt mit Java
 linktitle: Zugriff auf untergeordnete Knoten in SmartArt mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für Java auf untergeordnete Knoten in SmartArt zugreifen und diese bearbeiten.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Haben Sie sich schon einmal gefragt, wie Sie SmartArt-Grafiken in Ihren Präsentationen programmgesteuert bearbeiten können? Aspose.Slides für Java ist Ihre Bibliothek zum Verwalten und Bearbeiten von PowerPoint-Präsentationen. Mit diesem leistungsstarken Tool können Entwickler auf verschiedene Elemente einer Präsentation zugreifen und diese bearbeiten, darunter auch SmartArt-Grafiken. In diesem Tutorial führen wir Sie durch den Zugriff auf untergeordnete Knoten in SmartArt mit Java, damit Ihre Präsentationen dynamischer und interaktiver werden. Am Ende dieses Handbuchs verfügen Sie über das Wissen, um SmartArt-Knoten problemlos zu durchlaufen und zu bearbeiten.
 ## Voraussetzungen
@@ -85,9 +81,3 @@ Ja, mit Aspose.Slides für Java können Sie verschiedene Elemente wie Text, Form
  Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
 ### Was ist die beste IDE für die Entwicklung mit Aspose.Slides für Java?
 IntelliJ IDEA und Eclipse sind beliebte IDEs, die gut mit Aspose.Slides für Java funktionieren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 在 PowerPoint 中更改 OLE 对象数据
 linktitle: 在 PowerPoint 中更改 OLE 对象数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 更改 PowerPoint 中的 OLE 对象数据。高效、轻松更新的分步指南。
+type: docs
 weight: 14
 url: /zh/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 当您需要更新嵌入内容而无需手动编辑每张幻灯片时，更改 PowerPoint 演示文稿中的 OLE 对象数据可能是一项至关重要的任务。本综合指南将引导您使用 Aspose.Slides for Java（一个专为处理 PowerPoint 演示文稿而设计的强大库）完成该过程。无论您是经验丰富的开发人员还是刚刚起步，您都会发现本教程很有帮助且易于理解。
 ## 先决条件
@@ -104,9 +100,3 @@ OLE（对象链接和嵌入）对象允许将其他应用程序（如 Excel 电�
 是的，你可以得到一个[免费试用](https://releases.aspose.com/)测试 Aspose.Slides 的功能。
 ### 在哪里可以找到 Aspose.Slides 的文档？
 您可以找到有关[Aspose.Slides 文档页面](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 使用 Java 將超連結新增至 PowerPoint 中的文字框
 linktitle: 使用 Java 將超連結新增至 PowerPoint 中的文字框
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 新增超連結到 PowerPoint 文字方塊。為 Java 開發人員提供帶有範例的分步指南。
+type: docs
 weight: 23
 url: /zh-hant/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在當今的數位時代，創建具有吸引力和資訊性的動態演示對於有效溝通至關重要。尋求透過互動功能增強應用程式的 Java 開發人員通常會求助於 Aspose.Slides for Java，這是一個功能強大的程式庫，可以透過程式設計 PowerPoint 簡報。本教學深入探討這樣一個功能：使用 Java 將超連結新增至 PowerPoint 簡報中的文字方塊。閱讀本指南後，您將清楚地了解如何在 Java 應用程式中無縫地實現此功能。
 ## 先決條件
@@ -80,9 +76,3 @@ pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
 是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides 與其他 Java 函式庫相容嗎？
 Aspose.Slides 與各種 Java 函式庫完美集成，可進行全面的 PowerPoint 操作。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

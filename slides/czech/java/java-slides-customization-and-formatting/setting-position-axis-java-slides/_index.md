@@ -3,14 +3,10 @@ title: Nastavení osy polohy v Java Slides
 linktitle: Nastavení osy polohy v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete své grafy pomocí Aspose.Slides pro Java. Naučte se, jak nastavit poziční osu na snímcích Java, vytvářet úžasné prezentace a snadno přizpůsobit rozvržení grafu.
+type: docs
 weight: 16
 url: /cs/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Úvod do nastavení osy polohy v Aspose.Slides pro Java
 
@@ -104,9 +100,3 @@ if (pres != null) pres.dispose();
 ```
 
 To je pro tento tutoriál vše. Naučili jste se, jak nastavit poziční osu v grafu pomocí Aspose.Slides for Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

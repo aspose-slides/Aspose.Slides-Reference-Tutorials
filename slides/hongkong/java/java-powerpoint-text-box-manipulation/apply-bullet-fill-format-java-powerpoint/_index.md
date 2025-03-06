@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中有效套用項目符號填色格式
 linktitle: 在 Java PowerPoint 中有效套用項目符號填色格式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中套用項目符號填色格式。掌握項目符號樣式並增強您的簡報。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在當今的數位環境中，有效的演示技能對於各個領域的專業人士至關重要。創建引人注目的 PowerPoint 簡報不僅需要創造力，還需要技術專業知識，以充分利用 Aspose.Slides for Java 等工具的潛力。本教學深入探討這樣一個面向：使用 Aspose.Slides for Java 以程式設計方式套用項目符號填色格式。無論您是開發人員、商務專業人士還是希望提高簡報技能的學生，掌握項目符號填充格式都可以顯著提高投影片的視覺吸引力和清晰度。
 ## 先決條件
@@ -94,9 +90,3 @@ if (bulletFormatEffective.getType() != BulletType.None) {
 是的，Aspose.Slides for Java 提供了用於基於雲端的整合的 API。
 ### 我可以在購買前試用 Aspose.Slides for Java 嗎？
 是的，您可以從[免費試用](https://releases.aspose.com/)來評價其特點。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

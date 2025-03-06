@@ -3,14 +3,10 @@ title: إضافة صورة من كائن SVG في شرائح Java
 linktitle: إضافة صورة من كائن SVG في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة صور SVG إلى Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية للعروض التقديمية المذهلة.
+type: docs
 weight: 11
 url: /ar/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لإضافة صورة من كائن SVG في شرائح Java
 
@@ -124,9 +120,3 @@ finally
 ### هل يمكنني تخصيص مظهر صورة SVG، مثل الألوان أو الأنماط، بعد إضافتها إلى الشريحة؟
 
 نعم، يمكنك تخصيص مظهر صورة SVG باستخدام Aspose.Slides لواجهة برمجة تطبيقات Java الشاملة. يمكنك تغيير الألوان وتطبيق الأنماط وإجراء تعديلات أخرى حسب الحاجة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

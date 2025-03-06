@@ -3,14 +3,10 @@ title: Эффекты перехода слайдов
 linktitle: Эффекты перехода слайдов
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью захватывающих эффектов перехода слайдов с помощью Aspose.Slides для .NET. Узнайте, как добавлять к слайдам динамическую анимацию для более увлекательного просмотра.
+type: docs
 weight: 19
 url: /ru/net/slide-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение:
 
@@ -41,9 +37,3 @@ url: /ru/net/slide-transition-effects/
 Узнайте, как установить тип морфинга перехода на слайдах с помощью Aspose.Slides для .NET. Пошаговое руководство с примерами кода. Улучшите свои презентации прямо сейчас! 
 ### [Простые переходы между слайдами](./simple-slide-transitions/)
 Узнайте, как улучшить ваши презентации PowerPoint с помощью простых переходов между слайдами с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом. Привлеките свою аудиторию захватывающими визуальными эффектами!
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

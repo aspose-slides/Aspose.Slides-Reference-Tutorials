@@ -3,14 +3,10 @@ title: Aspose.Slides kullanarak Sunumlar için Slayt Numaralarını Ayarlama
 linktitle: Aspose.Slides kullanarak Sunumlar için Slayt Numaralarını Ayarlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile slayt düzenlemenin kusursuz dünyasını keşfedin. Sunum deneyiminizi geliştirerek slayt numaralarını zahmetsizce nasıl ayarlayacağınızı öğrenin.
+type: docs
 weight: 16
 url: /tr/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Sunumların dinamik dünyasında slaytların sırasını ve organizasyonunu kontrol etmek etkili iletişim için çok önemlidir. Aspose.Slides for .NET, sunumlarınızda slayt numaralarını değiştirmek için güçlü bir çözüm sunarak içeriğinizi sorunsuz bir şekilde özelleştirme esnekliği sağlar.
 ## Önkoşullar
@@ -67,9 +63,3 @@ Kesinlikle! Aspose.Slides, yazı tipi, boyut ve renk de dahil olmak üzere slayt
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk temelli destek için veya premium destek seçeneklerini keşfedin.
 ### Satın almadan önce Aspose.Slides'ı deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

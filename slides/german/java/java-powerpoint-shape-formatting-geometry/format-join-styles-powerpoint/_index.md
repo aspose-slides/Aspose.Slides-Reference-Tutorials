@@ -3,14 +3,10 @@ title: Formatieren von Verbindungsstilen in PowerPoint
 linktitle: Formatieren von Verbindungsstilen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre PowerPoint-Präsentationen verbessern können, indem Sie mit Aspose.Slides für Java verschiedene Linienverbindungsstile für Formen festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung.
+type: docs
 weight: 15
 url: /de/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Das Erstellen optisch ansprechender PowerPoint-Präsentationen kann eine gewaltige Aufgabe sein, insbesondere wenn jedes Detail perfekt sein soll. Hier kommt Aspose.Slides für Java ins Spiel. Es handelt sich um eine leistungsstarke API, mit der Sie Präsentationen programmgesteuert erstellen, bearbeiten und verwalten können. Eine der Funktionen, die Sie nutzen können, ist das Festlegen verschiedener Linienverbindungsstile für Formen, wodurch die Ästhetik Ihrer Folien erheblich verbessert werden kann. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java Verbindungsstile für Formen in PowerPoint-Präsentationen festlegen können. 
 ## Voraussetzungen
@@ -116,9 +112,3 @@ Ja, Sie können Aspose.Slides für Java in jeder Java-unterstützten IDE wie Int
 Linienverbindungsstile beziehen sich auf die Form der Ecken, an denen zwei Linien zusammentreffen. Gängige Stile sind Gehrung, Abschrägung und Rundung.
 ### Wo finde ich weitere Dokumentation zu Aspose.Slides für Java?
  Eine ausführliche Dokumentation finden Sie[Hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java PowerPoint'te SmartArt Düğümünden Metin Alın
 linktitle: Java PowerPoint'te SmartArt Düğümünden Metin Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında SmartArt düğümlerinden nasıl metin çıkaracağınızı öğrenin. Geliştiriciler için kolay, adım adım kılavuz.
+type: docs
 weight: 14
 url: /tr/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 Bu eğitimde Aspose.Slides kullanarak Java PowerPoint sunumlarında SmartArt düğümlerinden nasıl metin çıkarılacağını inceleyeceğiz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir Java kitaplığıdır. SmartArt düğümlerinden metin çıkarmak, veri çıkarma, içerik analizi ve daha fazlası gibi çeşitli uygulamalar için yararlı olabilir. Bu kılavuzun sonunda, Java'da Aspose.Slides kullanarak SmartArt düğümlerinden metni verimli bir şekilde nasıl alacağınızı net bir şekilde anlayacaksınız.
 ## Önkoşullar
@@ -70,9 +66,3 @@ Aspose.Slides for Java, geliştiricilerin Java kullanarak programlı olarak Powe
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Slides for Java desteğini nerede bulabilirim?
  Teknik yardım ve topluluk desteği için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

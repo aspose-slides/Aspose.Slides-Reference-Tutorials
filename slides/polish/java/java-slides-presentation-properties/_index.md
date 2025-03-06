@@ -3,14 +3,10 @@ title: Odkrywanie właściwości prezentacji za pomocą Aspose.Slides
 linktitle: Właściwości prezentacji slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ulepszyć właściwości prezentacji slajdów Java, korzystając z samouczków Aspose.Slides for Java. Odkryj porady i wskazówki dotyczące dynamicznych prezentacji.
+type: docs
 weight: 21
 url: /pl/java/presentation-properties/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 stale rozwijającym się świecie komunikacji cyfrowej, urzekające prezentacje są koniecznością. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy dopiero zaczynasz przygodę z prezentacjami slajdów w języku Java, opanowanie sztuki właściwości prezentacji ma kluczowe znaczenie. Na szczęście Aspose.Slides dla Java zapewnia potężny zestaw narzędzi i funkcji, dzięki którym Twoje prezentacje zabłysną.
 
@@ -61,9 +57,3 @@ Dowiedz się, jak sprawdzić ochronę prezentacji na slajdach Java za pomocą As
 Zoptymalizuj swój pokaz slajdów Java za pomocą Aspose.Slides. Twórz atrakcyjne prezentacje z niestandardowymi ustawieniami. Zapoznaj się z przewodnikami krok po kroku i często zadawanymi pytaniami.
 ### [Zalecane właściwości tylko do odczytu w slajdach Java](./read-only-recommended-properties-in-java-slides/)
 Dowiedz się, jak włączyć właściwości zalecane tylko do odczytu w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku z przykładami kodu źródłowego, aby zwiększyć bezpieczeństwo prezentacji.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

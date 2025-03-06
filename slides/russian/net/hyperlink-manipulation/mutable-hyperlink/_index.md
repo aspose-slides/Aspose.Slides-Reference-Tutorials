@@ -3,14 +3,10 @@ title: Создание изменяемой гиперссылки в Aspose.Sl
 linktitle: Создание изменяемой гиперссылки
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации PowerPoint с помощью изменяемых гиперссылок с помощью Aspose.Slides для .NET. Вовлекайте свою аудиторию, как никогда раньше!
+type: docs
 weight: 14
 url: /ru/net/hyperlink-manipulation/mutable-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 В мире современной разработки программного обеспечения создание динамических презентаций с интерактивными гиперссылками имеет решающее значение для привлечения вашей аудитории. Aspose.Slides for .NET — это мощный инструмент, позволяющий манипулировать и настраивать презентации PowerPoint, включая создание изменяемых гиперссылок. В этом пошаговом руководстве мы покажем вам процесс создания изменяемых гиперссылок с помощью Aspose.Slides для .NET. 
 
@@ -100,9 +96,3 @@ Aspose.Slides для .NET поддерживает несколько верси
 
 ### 5. Подходит ли Aspose.Slides для .NET для создания интерактивного контента электронного обучения?
 Да, Aspose.Slides for .NET — это универсальный инструмент, который можно использовать для создания интерактивного контента электронного обучения, включая гиперссылки, тесты и мультимедийные элементы.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

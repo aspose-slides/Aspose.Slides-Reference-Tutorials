@@ -3,14 +3,10 @@ title: 将幻灯片从不同的演示文稿克隆到指定位置
 linktitle: 将幻灯片从不同的演示文稿克隆到指定位置
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将不同演示文稿的幻灯片克隆到指定位置。分步指南包含完整的源代码，涵盖幻灯片克隆、位置指定和演示文稿保存。
+type: docs
 weight: 16
 url: /zh/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍如何将不同演示文稿中的幻灯片克隆到指定位置
 
@@ -141,9 +137,3 @@ namespace SlideCloningDemo
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
 您可以参考[文档](https://reference.aspose.com/slides/net/)有关 Aspose.Slides for .NET 的详细信息、示例和 API 参考。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

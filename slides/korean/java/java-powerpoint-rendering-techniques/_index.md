@@ -3,14 +3,10 @@ title: Java PowerPoint 렌더링 기술
 linktitle: Java PowerPoint 렌더링 기술
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 PowerPoint에서 댓글, 3D 그래픽, 이모티콘 등을 렌더링하는 방법을 알아보세요. 향상된 프레젠테이션을 위한 포괄적인 튜토리얼입니다.
+type: docs
 weight: 22
 url: /ko/java/java-powerpoint-rendering-techniques/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 소개
 
@@ -42,9 +38,3 @@ Aspose.Slides for Java를 사용하여 PowerPoint에서 멋진 3D 렌더링을 �
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 이모티콘을 쉽게 렌더링하는 방법을 알아보세요. 표현력이 풍부한 영상으로 참여도를 높입니다.
 ### [PowerPoint의 렌더링 옵션](./render-options-powerpoint/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 렌더링 옵션을 조작하는 방법을 알아보세요. 최적의 시각적 효과를 위해 슬라이드를 사용자 정의하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Konversi Presentasi ke Format HTML5
 linktitle: Konversi Presentasi ke Format HTML5
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi PowerPoint ke format HTML5 menggunakan Aspose.Slides untuk .NET. Konversi yang mudah dan efisien untuk berbagi web.
+type: docs
 weight: 22
 url: /id/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Konversikan Presentasi ke Format HTML5 menggunakan Aspose.Slides untuk .NET
 
 Dalam panduan ini, kami akan memandu Anda melalui proses mengonversi presentasi PowerPoint (PPT/PPTX) ke format HTML5 menggunakan pustaka Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan canggih yang memungkinkan Anda memanipulasi dan mengonversi presentasi PowerPoint dalam berbagai format.
@@ -85,9 +81,3 @@ Ya, Aspose.Slides untuk .NET mendukung konversi presentasi dengan animasi dan tr
 ### Apakah ada versi uji coba Aspose.Slides yang tersedia?
 
  Ya, Anda bisa mendapatkan versi uji coba gratis Aspose.Slides untuk .NET dari[Unduh Halaman](https://releases.aspose.com/slides/net).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

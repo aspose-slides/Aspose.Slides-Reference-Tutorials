@@ -3,14 +3,10 @@ title: Konversi ke TIFF dengan Catatan di Java Slides
 linktitle: Konversi ke TIFF dengan Catatan di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi Slide Java ke format TIFF dengan catatan tersemat menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber disertakan.
+type: docs
 weight: 10
 url: /id/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Konversi ke TIFF dengan Catatan di Slide Java
 
@@ -92,9 +88,3 @@ Ya, Aspose.Slides untuk Java memerlukan lisensi yang valid untuk penggunaan kome
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Slides untuk Java?
 
  Anda dapat menjelajahi dokumentasi komprehensif dan contoh kode di halaman Referensi Aspose.Slides untuk Java API[Di Sini](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

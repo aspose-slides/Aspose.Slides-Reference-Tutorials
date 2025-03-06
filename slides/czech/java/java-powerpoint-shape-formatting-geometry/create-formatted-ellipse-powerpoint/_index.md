@@ -3,14 +3,10 @@ title: Vytvořte formátovanou elipsu v PowerPointu
 linktitle: Vytvořte formátovanou elipsu v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vytvořit formátovanou elipsu v PowerPointu pomocí Aspose.Slides for Java, s naším podrobným průvodcem krok za krokem.
+type: docs
 weight: 17
 url: /cs/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vítejte v tomto komplexním tutoriálu o vytváření formátované elipsy v PowerPointu pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům programově manipulovat se soubory PowerPoint. Ať už automatizujete generování snímků nebo vylepšujete prezentace pomocí vlastních tvarů, tento průvodce vás provede každým krokem a zajistí, že na snímky můžete snadno přidat dokonale naformátovanou elipsu. Pojďme se ponořit a uvidíme, jak toho můžeme dosáhnout!
 ## Předpoklady
@@ -99,9 +95,3 @@ Ano, Aspose.Slides je komerční produkt a pro plnou funkčnost potřebujete lic
  Podrobnou dokumentaci najdete na Aspose.Slides for Java[dokumentační stránku](https://reference.aspose.com/slides/java/).
 ### Je k dispozici podpora pro Aspose.Slides?
  Ano, Aspose nabízí podporu prostřednictvím jejich[Fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

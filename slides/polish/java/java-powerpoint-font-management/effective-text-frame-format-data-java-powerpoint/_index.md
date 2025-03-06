@@ -3,14 +3,10 @@ title: Efektywny format ramki tekstowej w programie Java PowerPoint
 linktitle: Efektywny format ramki tekstowej w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się formatować ramki tekstowe w prezentacjach Java PowerPoint za pomocą Aspose.Slides for Java. Bez wysiłku zwiększ atrakcyjność wizualną swoich slajdów.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 W dziedzinie prezentacji opartych na Javie Aspose.Slides for Java okazuje się potężnym narzędziem, umożliwiającym programistom łatwe tworzenie dynamicznych i urzekających wizualnie pokazów slajdów. Jednym z kluczowych aspektów tworzenia angażujących prezentacji jest efektywne formatowanie ramek tekstowych. W tym obszernym przewodniku zagłębiamy się w zawiłości wykorzystania Aspose.Slides dla Java do opanowania sztuki formatowania ramek tekstowych.
 ## Warunki wstępne
@@ -76,9 +72,3 @@ Rzeczywiście, Aspose.Slides for Java obsługuje eksportowanie prezentacji do po
 Tak, możesz zastosować animacje do ramek tekstowych i innych elementów prezentacji PowerPoint za pomocą Aspose.Slides for Java.
 ### Czy dostępna jest pomoc techniczna dla Aspose.Slides dla Java?
  Tak, pomoc techniczna dla Aspose.Slides dla Java jest dostępna za pośrednictwem[forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

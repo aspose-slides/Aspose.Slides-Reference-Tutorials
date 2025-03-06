@@ -3,14 +3,10 @@ title: Skapa fantastiska skissade former med Aspose.Slides
 linktitle: Skapa skissade former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till kreativa skissade former till dina presentationsbilder med Aspose.Slides för .NET. Förbättra visuellt tilltal utan ansträngning!
+type: docs
 weight: 13
 url: /sv/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Välkommen till vår steg-för-steg-guide för att skapa skissade former i presentationsbilder med Aspose.Slides för .NET. Om du vill lägga till en touch av kreativitet till dina presentationer, ger skissade former en unik och handritad estetik. I den här handledningen går vi igenom processen och delar upp den i enkla steg för att säkerställa en smidig upplevelse.
 ## Förutsättningar
@@ -78,9 +74,3 @@ Genom att lägga till skissade former till dina presentationsbilder kan du förb
  För att köpa Aspose.Slides för .NET, besök[köpsidan](https://purchase.aspose.com/buy).
 ### 5. Erbjuder ni tillfälliga licenser?
  Ja, tillfälliga licenser är tillgängliga[här](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

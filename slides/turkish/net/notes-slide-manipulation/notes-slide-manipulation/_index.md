@@ -3,14 +3,10 @@ title: Aspose.Slides Kullanarak Slayt İşleme Notları
 linktitle: Aspose.Slides Kullanarak Slayt İşleme Notları
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint slaytlarında üstbilgi ve altbilgiyi nasıl yöneteceğinizi öğrenin. Notları kaldırın ve sunumlarınızı zahmetsizce özelleştirin.
+type: docs
 weight: 10
 url: /tr/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Günümüzün dijital çağında ilgi çekici sunumlar oluşturmak önemli bir beceridir. Aspose.Slides for .NET, sunum slaytlarınızı kolaylıkla değiştirmenize ve özelleştirmenize olanak tanıyan güçlü bir araçtır. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak bazı önemli görevlerde size yol göstereceğiz. Not slaytlarında üstbilgi ve altbilginin nasıl yönetileceğini, belirli slaytlardaki notların nasıl kaldırılacağını ve tüm slaytlardan notların nasıl kaldırılacağını ele alacağız.
 
@@ -169,10 +165,3 @@ Aspose.Slides for .NET, PowerPoint sunumlarınızın tam kontrolünü elinize al
 ### Aspose.Slides for .NET ile PowerPoint sunumlarının diğer yönlerini değiştirebilir miyim?
 
 Evet, Aspose.Slides for .NET PowerPoint sunumlarının işlenmesi için slaytlar, şekiller, metinler ve daha fazlasını içeren çok çeşitli özellikler sunar. Ayrıntılar için belgeleri inceleyin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

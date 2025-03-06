@@ -3,14 +3,10 @@ title: Convertir une présentation en HTML réactif dans des diapositives Java
 linktitle: Convertir une présentation en HTML réactif dans des diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à convertir des présentations en HTML réactif dans Java Slides sans effort avec Aspose.Slides. Rendez votre contenu accessible sur n'importe quel appareil.
+type: docs
 weight: 18
 url: /fr/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la conversion d'une présentation en HTML réactif dans des diapositives Java
 
@@ -112,9 +108,3 @@ Absolument! Aspose.Slides fournit des fonctionnalités puissantes pour le traite
 ### Puis-je également convertir des présentations dans d’autres formats ?
 
 Oui, Aspose.Slides prend en charge un large éventail de formats de sortie, notamment PDF, images, etc. Vous pouvez explorer la documentation pour des options de conversion supplémentaires.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

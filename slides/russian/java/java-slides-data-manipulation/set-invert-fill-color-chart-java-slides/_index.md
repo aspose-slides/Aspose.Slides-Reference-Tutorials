@@ -3,14 +3,10 @@ title: Установить инвертированную диаграмму ц
 linktitle: Установить инвертированную диаграмму цветов заливки в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить инвертированные цвета заливки для диаграмм Java Slides с помощью Aspose.Slides. Улучшите визуализацию диаграмм с помощью этого пошагового руководства и исходного кода.
+type: docs
 weight: 22
 url: /ru/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в настройку инвертированной цветовой диаграммы заливки в слайдах Java
 
@@ -157,9 +153,3 @@ if (pres != null) pres.dispose();
 ### Могу ли я сохранить диаграмму в разных форматах?
 
  Да, вы можете сохранить диаграмму в разных форматах, используя Aspose.Slides для Java. В приведенном примере кода мы сохранили презентацию как файл PPTX. Вы можете использовать разные`SaveFormat` варианты сохранения в других форматах, таких как PDF, PNG или SVG, в зависимости от ваших требований.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

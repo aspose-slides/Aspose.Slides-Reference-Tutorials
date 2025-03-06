@@ -3,14 +3,10 @@ title: Kolekcja reguł awaryjnych w programie Java PowerPoint
 linktitle: Kolekcja reguł awaryjnych w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zarządzać regułami zastępowania czcionek w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Bez wysiłku zwiększ kompatybilność między urządzeniami.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 tym samouczku omówimy, jak zarządzać regułami zastępowania czcionek za pomocą Aspose.Slides dla Java. Zastępcze czcionki mają kluczowe znaczenie dla zapewnienia prawidłowego wyświetlania prezentacji w różnych środowiskach, zwłaszcza gdy określone czcionki są niedostępne. Krok po kroku przeprowadzimy Cię przez import niezbędnych pakietów, konfigurację środowiska i wdrożenie reguł awaryjnych.
 ## Warunki wstępne
@@ -77,9 +73,3 @@ Reguły zastępowania czcionek definiują alternatywne czcionki, które mają by
  Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak uzyskać wsparcie dla Aspose.Slides dla Java?
 Aby uzyskać pomoc, odwiedź forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

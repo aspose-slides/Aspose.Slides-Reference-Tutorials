@@ -3,14 +3,10 @@ title: Použijte vnitřní stín v prezentacích Java PowerPoint
 linktitle: Použijte vnitřní stín v prezentacích Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak aplikovat efekty vnitřního stínu na tvary v prezentacích Java PowerPoint pomocí Aspose.Slides. Vylepšete své snímky pomocí tohoto podrobného průvodce.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací je zásadní pro efektivní komunikaci vašich nápadů. Jedním z nástrojů, který může výrazně vylepšit vaše prezentace, je použití vnitřních stínů. Tento tutoriál vás provede procesem aplikace vnitřních stínů na tvary v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Na konci tohoto kurzu budete mít komplexní znalosti o tom, jak manipulovat s prvky snímku, abyste vytvořili úžasné efekty.
 ## Předpoklady
@@ -98,9 +94,3 @@ Aspose.Slides for Java je výkonné API pro vytváření a manipulaci s prezenta
 Ano, můžete přizpůsobit různé parametry efektu stínu, jako je poloměr rozostření, směr, vzdálenost a barva, aby vyhovovaly vašim potřebám.
 ### Kde najdu podrobnější dokumentaci?
  Můžete odkazovat na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) pro podrobné informace a příklady.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

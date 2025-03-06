@@ -3,14 +3,10 @@ title: ODP 형식을 PPTX 형식으로 변환
 linktitle: ODP 형식을 PPTX 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 ODP를 PPTX로 쉽게 변환하는 방법을 알아보세요. 원활한 프레젠테이션 형식 변환을 위한 단계별 가이드를 따르세요.
+type: docs
 weight: 22
 url: /ko/net/presentation-manipulation/convert-odp-format-to-pptx-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 오늘날의 디지털 시대에는 문서 형식 변환이 필수가 되었습니다. 기업과 개인이 호환성과 유연성을 위해 노력함에 따라 다양한 파일 형식 간 변환 기능은 매우 중요합니다. .NET을 사용하여 파일을 ODP(OpenDocument Presentation) 형식에서 PPTX(PowerPoint Presentation) 형식으로 변환하려는 경우 올바른 위치에 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 이 작업을 수행하는 방법을 살펴보겠습니다.
 
@@ -87,9 +83,3 @@ Aspose.Slides for .NET은 .NET 애플리케이션용으로 특별히 설계되�
 ### 5. Aspose.Slides for .NET에 대한 임시 라이선스를 얻을 수 있나요?
 
  예, 테스트 및 평가 목적으로 임시 라이센스를 얻을 수 있습니다. 더 많은 정보를 찾아보세요[여기](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

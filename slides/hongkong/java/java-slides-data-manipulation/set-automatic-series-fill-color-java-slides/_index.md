@@ -3,14 +3,10 @@ title: 在 Java 投影片中設定自動系列填滿顏色
 linktitle: 在 Java 投影片中設定自動系列填滿顏色
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中設定自動系列填滿顏色。包含動態演示程式碼範例的逐步指南。
+type: docs
 weight: 14
 url: /zh-hant/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 在 Java 投影片中設定自動系列填滿色彩簡介
 
@@ -130,9 +126,3 @@ finally
 ### 在哪裡可以找到更多資源和文件？
 
 您可以存取 Aspose.Slides for Java 的綜合文件：[這裡](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

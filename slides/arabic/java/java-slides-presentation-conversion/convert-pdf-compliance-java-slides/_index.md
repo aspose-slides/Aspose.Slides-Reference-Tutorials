@@ -3,14 +3,10 @@ title: التحويل إلى توافق PDF في شرائح Java
 linktitle: التحويل إلى توافق PDF في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى PDF مع التوافق مع PDF/A-2a باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة مع التعليمات البرمجية المصدر للأرشفة وإمكانية الوصول بسلاسة.
+type: docs
 weight: 26
 url: /ar/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة للتحويل إلى التوافق مع PDF في شرائح Java
 
@@ -118,9 +114,3 @@ PDF/A-2a هو مستوى التوافق لملفات PDF. وهي تحدد مجم
 ## أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides للتوافق مع Java وPDF؟
 
  للحصول على معلومات أكثر تفصيلاً حول Aspose.Slides for Java وميزاته، بما في ذلك إعدادات التوافق مع PDF، يمكنك الرجوع إلى الوثائق الموجودة على[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/). بالإضافة إلى ذلك، يمكنك استكشاف أمثلة التعليمات البرمجية والبرامج التعليمية لتعزيز معرفتك بالمكتبة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

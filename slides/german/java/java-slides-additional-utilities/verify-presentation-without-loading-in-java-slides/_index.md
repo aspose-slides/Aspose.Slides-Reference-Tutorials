@@ -3,14 +3,10 @@ title: Überprüfen der Präsentation ohne Laden in Java-Folien
 linktitle: Überprüfen der Präsentation ohne Laden in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Präsentationen überprüfen, ohne sie mit Aspose.Slides für Java in Java Slides zu laden. Stellen Sie mit dieser Schritt-für-Schritt-Anleitung effizient die Dateiintegrität sicher.
+type: docs
 weight: 18
 url: /de/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in die Überprüfung der Präsentation ohne Laden in Java-Folien
 
@@ -84,9 +80,3 @@ Auf jeden Fall! Aspose.Slides für Java bietet eine breite Palette an Funktionen
 ### Wo finde ich weitere Ressourcen und Dokumentation für Aspose.Slides für Java?
 
  Sie können auf umfassende Dokumentation und Ressourcen für Aspose.Slides für Java zugreifen unter[Hier](https://reference.aspose.com/slides/java/). Diese Dokumentation hilft Ihnen dabei, die API und ihre Funktionen zu beherrschen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Adding Stretch Offset to Left in PowerPoint with Aspose.Slide
 linktitle: Adding Stretch Offset to Left for Picture Frame in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance PowerPoint presentations using Aspose.Slides for .NET. Follow our step-by-step guide to add stretch offset to left for picture frames.
+type: docs
 weight: 14
 url: /net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Aspose.Slides for .NET is a powerful library that empowers developers to manipulate PowerPoint presentations with ease. In this tutorial, we'll explore the process of adding a stretch offset to the left for a picture frame using Aspose.Slides for .NET. Follow this step-by-step guide to enhance your skills in working with images and shapes within PowerPoint presentations.
 ## Prerequisites
@@ -89,10 +85,3 @@ A: Aspose.Slides is regularly updated to ensure compatibility with the latest .N
 A: Explore the [Aspose.Slides documentation](https://reference.aspose.com/slides/net/) for comprehensive examples and guidance.
 ### Q: Can I apply multiple stretch offsets to a single shape?
 A: Yes, you can combine multiple stretch offsets to achieve complex and customized visual effects.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

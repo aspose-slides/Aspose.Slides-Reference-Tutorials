@@ -3,14 +3,10 @@ title: Ajouter une image vidéo à partir d'une source Web dans PowerPoint
 linktitle: Ajouter une image vidéo à partir d'une source Web dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment améliorer vos présentations PowerPoint en ajoutant des images vidéo à partir de sources Web à l'aide d'Aspose.Slides pour Java.
+type: docs
 weight: 18
 url: /fr/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous apprendrons comment ajouter une image vidéo provenant d'une source Web, telle que YouTube, à une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. En suivant ces instructions étape par étape, vous serez en mesure d'améliorer vos présentations en incorporant des éléments multimédias attrayants.
 ## Conditions préalables
@@ -88,9 +84,3 @@ Absolument! Aspose.Slides offre de nombreuses options pour personnaliser l'appar
 Aspose.Slides prend en charge une large gamme de versions de PowerPoint, garantissant la compatibilité entre différentes plates-formes.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides ?
  Vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide, de la documentation et le soutien de la communauté.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

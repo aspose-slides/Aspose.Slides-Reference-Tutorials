@@ -3,14 +3,10 @@ title: 使用 Java 以程式設計方式在投影片上新增文字框
 linktitle: 使用 Java 以程式設計方式在投影片上新增文字框
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 以程式設計方式為 PowerPoint 投影片新增文字方塊。透過本逐步指南提高您的工作效率。
+type: docs
 weight: 24
 url: /zh-hant/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 以程式設計方式建立和操作 PowerPoint 簡報可以簡化從產生報告到自動化簡報的許多工作流程。 Aspose.Slides for Java 提供了強大的 API，讓開發人員能有效率地執行這些任務。在本教程中，我們將指導您使用 Aspose.Slides for Java 將文字方塊新增至投影片中。學完本教學後，您將清楚地了解如何將此功能整合到 Java 應用程式中。
 ## 先決條件
@@ -71,9 +67,3 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
 您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/)來自阿斯珀斯。
 ### Aspose.Slides 是否支援將簡報轉換為其他格式？
 是的，它支援多種格式，包括 PDF 和圖像。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

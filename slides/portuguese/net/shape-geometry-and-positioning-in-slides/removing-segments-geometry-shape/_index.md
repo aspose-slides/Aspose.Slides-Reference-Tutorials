@@ -3,14 +3,10 @@ title: Remover segmentos de forma - Tutorial Aspose.Slides .NET
 linktitle: Removendo segmentos da forma geométrica em slides de apresentação
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como remover segmentos de formas geométricas em slides de apresentação usando a API Aspose.Slides para .NET. Guia passo a passo com código-fonte.
+type: docs
 weight: 16
 url: /pt/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 A criação de apresentações visualmente atraentes geralmente envolve a manipulação de formas e elementos para obter o design desejado. Com Aspose.Slides for .NET, os desenvolvedores podem controlar facilmente a geometria das formas, permitindo a remoção de segmentos específicos. Neste tutorial, iremos guiá-lo através do processo de remoção de segmentos de uma forma geométrica em slides de apresentação usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -72,9 +68,3 @@ Implemente o tratamento adequado de erros usando blocos try-catch.
 Não, as alterações são irreversíveis após salvar. Considere salvar backups antes da modificação.
 ### Onde posso procurar suporte ou assistência adicional?
  Visite a[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e discussões da comunidade.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

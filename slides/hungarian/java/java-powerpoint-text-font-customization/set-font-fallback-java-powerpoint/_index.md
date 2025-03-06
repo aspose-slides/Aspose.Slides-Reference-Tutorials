@@ -3,14 +3,10 @@ title: Állítsa be a tartalék betűtípust a Java PowerPointban
 linktitle: Állítsa be a tartalék betűtípust a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be betűkészlet-visszaállítást a Java PowerPointban az Aspose.Slides for Java segítségével a következetes szövegmegjelenítés biztosítása érdekében.
+type: docs
 weight: 16
 url: /hu/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban a Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével történő betűkészlet-visszaállítás beállításának bonyolultságába fogunk bele. A tartalék betűkészletek kulcsfontosságúak annak biztosításában, hogy a prezentációk szövege helyesen jelenjen meg a különböző eszközökön és operációs rendszereken, még akkor is, ha a szükséges betűtípusok nem állnak rendelkezésre.
 ## Előfeltételek
@@ -57,9 +53,3 @@ Igen, az Aspose.Slides for Java kompatibilis az olyan népszerű Java IDE-kkel, 
 Igen, az Aspose-termékekre vonatkozó ideiglenes licencek a következő címen szerezhetők be[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találok támogatást az Aspose.Slides for Java számára?
  Az Aspose.Slides for Java termékhez kapcsolódó támogatásért keresse fel a[Aspose fórum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

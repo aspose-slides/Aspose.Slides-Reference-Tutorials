@@ -3,14 +3,10 @@ title: Αποτελεσματικά δεδομένα μορφής πλαισίο
 linktitle: Αποτελεσματικά δεδομένα μορφής πλαισίου κειμένου σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να μορφοποιείτε πλαίσια κειμένου σε παρουσιάσεις Java PowerPoint με το Aspose.Slides για Java. Βελτιώστε την οπτική έλξη των διαφανειών σας χωρίς κόπο.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Στον τομέα των παρουσιάσεων που βασίζονται σε Java, το Aspose.Slides for Java αναδεικνύεται ως ένα ισχυρό εργαλείο, που επιτρέπει στους προγραμματιστές να δημιουργούν δυναμικές και οπτικά σαγηνευτικές slideshow με ευκολία. Μία από τις κρίσιμες πτυχές της δημιουργίας ελκυστικών παρουσιάσεων έγκειται στην αποτελεσματική μορφοποίηση πλαισίων κειμένου. Σε αυτόν τον περιεκτικό οδηγό, εμβαθύνουμε στις περιπλοκές της αξιοποίησης του Aspose.Slides για Java για να κατακτήσετε την τέχνη της μορφοποίησης πλαισίων κειμένου.
 ## Προαπαιτούμενα
@@ -76,9 +72,3 @@ System.out.println("   Bottom: " + effectiveTextFrameFormat.getMarginBottom());
 Ναι, μπορείτε να εφαρμόσετε κινούμενα σχέδια σε πλαίσια κειμένου και άλλα στοιχεία στις παρουσιάσεις σας στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ### Διατίθεται τεχνική υποστήριξη για το Aspose.Slides για Java;
  Ναι, η τεχνική υποστήριξη για το Aspose.Slides για Java είναι διαθέσιμη μέσω του[δικαστήριο](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

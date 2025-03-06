@@ -3,14 +3,10 @@ title: Μετατροπή Προβολή διαφανειών σημειώσεω
 linktitle: Μετατροπή Προβολή διαφανειών σημειώσεων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε προβολές διαφανειών σημειώσεων σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για αποτελεσματικό χειρισμό PowerPoint.
+type: docs
 weight: 15
 url: /el/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη Μετατροπή σημειώσεων Προβολή διαφανειών σε διαφάνειες Java με χρήση του Aspose.Slides
 
@@ -105,10 +101,3 @@ finally
 ### Πού μπορώ να βρω περισσότερα παραδείγματα κώδικα και μαθήματα για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε πληθώρα παραδειγμάτων κώδικα και οδηγών στο[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/)Εξερευνήστε την τεκμηρίωση για να μάθετε περισσότερα σχετικά με τις δυνατότητες αυτής της ισχυρής βιβλιοθήκης.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

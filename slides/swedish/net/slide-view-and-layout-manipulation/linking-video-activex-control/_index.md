@@ -3,14 +3,10 @@ title: Länka video via ActiveX-kontroll i PowerPoint
 linktitle: Länka video via ActiveX-kontroll
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du länkar videor till PowerPoint-bilder med Aspose.Slides för .NET. Den här steg-för-steg-guiden innehåller källkod och tips för att skapa interaktiva och engagerande presentationer med länkade videor.
+type: docs
 weight: 12
 url: /sv/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Länka en video via ActiveX-kontroll i en presentation med Aspose.Slides för .NET
 
 I Aspose.Slides för .NET kan du programmässigt länka en video till en presentationsbild med ActiveX-kontrollen. Detta gör att du kan skapa interaktiva presentationer där videoinnehållet kan spelas upp direkt i bilden. I den här steg-för-steg-guiden går vi igenom processen att länka en video till en presentationsbild med Aspose.Slides för .NET.
@@ -84,9 +80,3 @@ Storleken på den länkade videon kan påverka den övergripande storleken och p
 Genom att följa stegen som beskrivs i den här guiden kan du enkelt länka en video via ActiveX-kontroll i en presentation med Aspose.Slides för .NET. Den här funktionen gör att du kan skapa engagerande och interaktiva presentationer som integrerar multimediainnehåll sömlöst.
 
  För mer information och avancerade alternativ kan du se[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

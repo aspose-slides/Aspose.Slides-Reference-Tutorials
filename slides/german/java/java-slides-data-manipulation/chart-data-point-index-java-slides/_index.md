@@ -3,14 +3,10 @@ title: Diagramm-Datenpunktindex in Java-Folien
 linktitle: Diagramm-Datenpunktindex in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammdatenpunktindizes in Java-Folien bearbeiten. Extrahieren und bearbeiten Sie mühelos Daten aus PowerPoint-Diagrammen.
+type: docs
 weight: 12
 url: /de/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in den Datenpunktindex für Diagramme in Java-Folien
 
@@ -102,9 +98,3 @@ Sie können eine PowerPoint-Präsentation mit Diagrammen mit Aspose.Slides für 
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Slides für Java?
 
  Ausführliche Beispiele und Dokumentationen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite.[Hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

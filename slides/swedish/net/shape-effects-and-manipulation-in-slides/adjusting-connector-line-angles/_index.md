@@ -3,14 +3,10 @@ title: Justera kontaktens linjevinklar i PowerPoint med Aspose.Slides
 linktitle: Justera anslutningslinjevinklar i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du justerar anslutningslinjevinklar i PowerPoint-bilder med Aspose.Slides för .NET. Förbättra dina presentationer med precision och enkelhet.
+type: docs
 weight: 28
 url: /sv/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Att skapa visuellt tilltalande presentationsbilder innebär ofta exakta justeringar av anslutningslinjer. I den här självstudien kommer vi att undersöka hur du justerar vinklar för anslutningslinjer i presentationsbilder med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som låter utvecklare arbeta med PowerPoint-filer programmatiskt, vilket ger omfattande möjligheter för att skapa, ändra och manipulera presentationer.
 ## Förutsättningar
@@ -91,9 +87,3 @@ Ja, Aspose.Slides kan användas i både Windows och webbapplikationer.
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Finns det ett supportforum för Aspose.Slides?
  Ja, du kan besöka supportforumet[här](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

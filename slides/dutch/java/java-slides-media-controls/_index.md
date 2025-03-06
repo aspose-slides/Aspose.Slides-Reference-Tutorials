@@ -3,14 +3,10 @@ title: Mediabediening met Aspose.Slides voor Java
 linktitle: Java-dia's Mediabediening
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u mediabesturingselementen in Java-dia's implementeert met behulp van Aspose.Slides voor Java-tutorials. Verbeter uw presentaties naadloos met audio en video.
+type: docs
 weight: 22
 url: /nl/java/media-controls/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 In het huidige digitale tijdperk bestaan presentaties niet alleen uit statische dia's met tekst en afbeeldingen. Ze zijn geëvolueerd naar dynamische, interactieve ervaringen die het publiek boeien en boeien. Als u een Java-ontwikkelaar bent en een nieuwe dimensie aan uw presentaties wilt toevoegen, bent u hier op de juiste plek. In dit artikel zullen we onderzoeken hoe u mediabesturingselementen in Java-dia's kunt implementeren met behulp van Aspose.Slides voor Java-tutorials.
 
@@ -55,9 +51,3 @@ Master Java Slides-onderbrekingsafhandeling met Aspose.Slides voor Java. Deze ge
 Leer hoe u presentatie-eigenschappen in Java-dia's kunt bijwerken met Aspose.Slides voor Java. Pas auteur, titel en meer aan voor indrukwekkende presentaties.
 ### [Presentatie-eigenschappen bijwerken met een andere presentatie als sjabloon in Java-dia's](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Verbeter PowerPoint-presentaties met bijgewerkte metadata met Aspose.Slides voor Java. Leer eigenschappen zoals auteur, titel en trefwoorden bijwerken met behulp van sjablonen in Java Slides.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

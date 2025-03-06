@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint でテキスト フォント プロパテ
 linktitle: Java を使用して PowerPoint でテキスト フォント プロパティを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint でテキスト フォント プロパティを設定する方法を学びます。Java 開発者向けの簡単なステップ バイ ステップ ガイドです。#Java 開発者向けのこのステップ バイ ステップ チュートリアルで、Aspose.Slides for Java を使用して PowerPoint テキスト フォント プロパティを操作する方法を学びます。
+type: docs
 weight: 18
 url: /ja/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションのさまざまなテキスト フォント プロパティをプログラムで設定する方法を学習します。スライド内のテキストのフォントの種類、スタイル (太字、斜体)、下線、サイズ、色の設定について説明します。
 ## 前提条件
@@ -89,9 +85,3 @@ if (presentation != null) {
 はい、Aspose.Slides では、プレゼンテーションを PDF を含むさまざまな形式でエクスポートできます。
 ### Aspose.Slides に関する詳細なヘルプとサポートはどこで見つかりますか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとガイダンスのため。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

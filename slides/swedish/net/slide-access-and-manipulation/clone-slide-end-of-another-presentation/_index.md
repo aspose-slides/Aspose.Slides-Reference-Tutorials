@@ -3,14 +3,10 @@ title: Replikera bild i slutet av separat presentation
 linktitle: Replikera bild i slutet av separat presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du replikerar en bild från en PowerPoint-presentation och lägger till den i en annan med Aspose.Slides för .NET. Den här steg-för-steg-guiden tillhandahåller källkod och tydliga instruktioner för sömlös bildhantering.
+type: docs
 weight: 17
 url: /sv/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -107,9 +103,3 @@ Absolut! Du kan manipulera innehållet i den replikerade bilden precis som vilke
 ### Fungerar Aspose.Slides för .NET endast med bilder?
 
 Nej, Aspose.Slides för .NET erbjuder omfattande funktioner utöver bilder. Du kan arbeta med former, diagram, animationer och till och med extrahera text och bilder från presentationer.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

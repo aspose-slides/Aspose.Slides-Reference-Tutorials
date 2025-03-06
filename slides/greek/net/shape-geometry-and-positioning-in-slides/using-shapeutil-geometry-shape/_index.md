@@ -3,14 +3,10 @@ title: Κατακτήστε τα σχήματα γεωμετρίας με το S
 linktitle: Χρήση του ShapeUtil για το σχήμα γεωμετρίας στις διαφάνειες παρουσίασης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε τη δύναμη του Aspose.Slides για .NET με το ShapeUtil για σχήματα δυναμικής γεωμετρίας. Δημιουργήστε ελκυστικές παρουσιάσεις χωρίς κόπο. Κάντε λήψη τώρα!Μάθετε πώς να βελτιώσετε τις παρουσιάσεις PowerPoint με το Aspose.Slides. Εξερευνήστε το ShapeUtil για χειρισμό σχημάτων γεωμετρίας. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα .NET. Βελτιστοποιήστε αποτελεσματικά τις παρουσιάσεις.
+type: docs
 weight: 17
 url: /el/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών και δυναμικών διαφανειών παρουσίασης είναι μια βασική δεξιότητα και το Aspose.Slides για .NET παρέχει μια ισχυρή εργαλειοθήκη για να το πετύχετε αυτό. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη χρήση του ShapeUtil για το χειρισμό σχημάτων γεωμετρίας σε διαφάνειες παρουσίασης. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με το Aspose.Slides, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία χρήσης του ShapeUtil για να βελτιώσετε τις παρουσιάσεις σας.
 ## Προαπαιτούμενα
@@ -92,9 +88,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
  Επισκεφτείτε το φόρουμ υποστήριξης της κοινότητας[εδώ](https://forum.aspose.com/c/slides/11).
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

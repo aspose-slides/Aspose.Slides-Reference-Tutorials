@@ -3,14 +3,10 @@ title: Gunakan ShapeUtil untuk Bentuk Geometri di PowerPoint
 linktitle: Gunakan ShapeUtil untuk Bentuk Geometri di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat bentuk khusus di PowerPoint dengan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah ini untuk menyempurnakan presentasi Anda.
+type: docs
 weight: 23
 url: /id/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik secara visual sering kali memerlukan lebih dari sekadar menggunakan bentuk dan teks standar. Bayangkan bisa menambahkan bentuk dan jalur teks yang disesuaikan langsung ke slide Anda, sehingga meningkatkan dampak visual presentasi Anda. Menggunakan Aspose.Slides untuk Java, Anda dapat mencapainya dengan mudah. Tutorial ini akan memandu Anda melalui proses penggunaan`ShapeUtil` kelas untuk membuat bentuk geometri dalam presentasi PowerPoint. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan membantu Anda memanfaatkan kekuatan Aspose.Slides untuk Java untuk membuat konten yang menakjubkan dan berbentuk khusus.
 ## Prasyarat
@@ -79,9 +75,3 @@ Aspose.Slides menawarkan versi uji coba gratis, yang dapat Anda unduh[Di Sini](h
  Itu`ShapeUtil` kelas di Aspose.Slides menyediakan metode utilitas untuk bekerja dengan bentuk, seperti mengubah jalur grafis menjadi jalur geometri.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides?
  Anda bisa mendapatkan dukungan dari[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

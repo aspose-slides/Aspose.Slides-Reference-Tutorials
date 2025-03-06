@@ -3,14 +3,10 @@ title: Impostazione dei colori delle sezioni del grafico a torta automatico nell
 linktitle: Impostazione dei colori delle sezioni del grafico a torta automatico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare grafici a torta dinamici con colori delle sezioni automatici nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
+type: docs
 weight: 24
 url: /it/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione all'impostazione dei colori delle sezioni del grafico a torta automatico nelle diapositive Java
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Puoi regolare la dimensione del carattere, il grassetto e lo stile corsivo secondo necessità.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

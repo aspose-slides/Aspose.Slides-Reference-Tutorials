@@ -3,14 +3,10 @@ title: PowerPoint'e Gömülü Video Çerçevesi Ekleme
 linktitle: PowerPoint'e Gömülü Video Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint'e video karelerini nasıl yerleştireceğinizi öğrenin. Sunumlarınızı kolayca geliştirin.
+type: docs
 weight: 21
 url: /tr/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## giriiş
 PowerPoint sunumlarınıza video eklemek onları daha ilgi çekici ve bilgilendirici hale getirebilir. Aspose.Slides for Java'yı kullanarak videoları doğrudan slaytlarınıza kolayca gömebilirsiniz. Bu eğitimde, kodun her bölümünü ve nasıl çalıştığını anlamanızı sağlayacak şekilde süreç boyunca size adım adım yol göstereceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu kılavuz, yerleşik videolarla sunumlarınızı geliştirmenize yardımcı olacaktır.
 ## Önkoşullar
@@ -97,9 +93,3 @@ Aspose.Slides MP4, AVI ve WMV dahil olmak üzere çeşitli video formatlarını 
 Evet, Aspose.Slides'ı kullanmak için geçerli bir lisansa ihtiyacınız var. Değerlendirme için geçici bir lisans alabilirsiniz.
 ### Video çerçevesinin boyutunu ve konumunu özelleştirebilir miyim?
 Evet, video karesini eklerken uygun parametreleri ayarlayarak boyutu ve konumu özelleştirebilirsiniz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

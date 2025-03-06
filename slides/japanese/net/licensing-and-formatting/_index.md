@@ -3,14 +3,10 @@ title: ライセンスとフォーマット
 linktitle: ライセンスとフォーマット
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: 包括的なチュートリアルを通じて、Aspose.Slides のライセンスとフォーマットに関する理解を深めます。ライセンスを効率的に管理し、プレゼンテーションの完璧なフォーマットを実現する方法を学びます。
+type: docs
 weight: 21
 url: /ja/net/licensing-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 導入
 
@@ -35,9 +31,3 @@ Aspose.Slides for .NET で従量制ライセンスを効率的に使用する方
 Aspose.Slides for .NET を使用してグラフのビジュアルを強化する方法を学びます。データ ポイントに動的な色を追加して、よりインパクトのあるプレゼンテーションを実現します。
 ### [グラフにカスタムエラーバーを追加する](./add-custom-error/)
 Aspose.Slides for .NET を使用してグラフにカスタム エラー バーを追加する方法を学習します。正確なデータ視覚化のためにエラー バーを作成、スタイル設定、カスタマイズします。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

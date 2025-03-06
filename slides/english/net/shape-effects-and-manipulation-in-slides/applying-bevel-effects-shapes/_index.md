@@ -3,14 +3,10 @@ title: Mastering Bevel Effects in Aspose.Slides - Step By Step Tutorial
 linktitle: Applying Bevel Effects to Shapes in Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentation slides with Aspose.Slides for .NET! Learn to apply captivating bevel effects in this step-by-step guide.
+type: docs
 weight: 24
 url: /net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 In the dynamic world of presentations, adding visual appeal to your slides can significantly enhance your message's impact. Aspose.Slides for .NET provides a powerful toolkit to manipulate and beautify your presentation slides programmatically. One such intriguing feature is the ability to apply bevel effects to shapes, adding depth and dimension to your visuals.
 ## Prerequisites
@@ -79,10 +75,3 @@ Yes, Aspose.Slides is regularly updated to ensure compatibility with the latest 
 While not common, you can experiment with stacking multiple shapes or manipulating the bevel properties to achieve a similar effect.
 ### 5. Are there other 3D effects available in Aspose.Slides?
 Absolutely! Aspose.Slides offers a variety of 3D effects to add depth and realism to your presentation elements.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

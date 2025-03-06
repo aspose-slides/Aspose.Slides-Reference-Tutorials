@@ -3,14 +3,10 @@ title: Converteer presentatie naar TIFF met aangepast beeldformaat
 linktitle: Converteer presentatie naar TIFF met aangepast beeldformaat
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u presentaties naar TIFF kunt converteren met aangepaste afbeeldingsinstellingen met behulp van Aspose.Slides voor .NET. Stapsgewijze handleiding met codevoorbeelden.
+type: docs
 weight: 26
 url: /nl/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Converteer presentatie naar TIFF met aangepast afbeeldingsformaat met Aspose.Slides voor .NET
 
@@ -96,9 +92,3 @@ Tijdens het conversieproces is het belangrijk om potentiële fouten netjes af te
 ### Ondersteunt Aspose.Slides voor .NET naast TIFF ook andere uitvoerformaten?
 
 Ja, naast TIFF ondersteunt Aspose.Slides voor .NET een verscheidenheid aan uitvoerformaten voor het converteren van presentaties, waaronder PDF, JPEG, PNG, GIF en meer. Dit geeft u de flexibiliteit om het meest geschikte formaat voor uw specifieke gebruikssituatie te kiezen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

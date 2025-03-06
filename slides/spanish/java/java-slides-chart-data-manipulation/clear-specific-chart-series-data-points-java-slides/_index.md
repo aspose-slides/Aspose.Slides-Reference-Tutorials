@@ -3,14 +3,10 @@ title: Borrar datos de puntos de datos de series de gráficos específicos en di
 linktitle: Borrar datos de puntos de datos de series de gráficos específicos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a borrar puntos de datos específicos de una serie de gráficos en Java Slides con Aspose.Slides para Java. Guía paso a paso con código fuente para una gestión eficaz de la visualización de datos.
+type: docs
 weight: 15
 url: /es/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la eliminación de datos de puntos de datos de series de gráficos específicos en diapositivas de Java
 
@@ -125,9 +121,3 @@ Sí, puede borrar puntos de datos según una condición agregando lógica condic
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para Java?
 
  Puede encontrar documentación completa y ejemplos en el[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Доступ к дочерним узлам в SmartArt с помощью
 linktitle: Доступ к дочерним узлам в SmartArt с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получать доступ к дочерним узлам в SmartArt и манипулировать ими с помощью Aspose.Slides для Java с помощью этого пошагового руководства.
+type: docs
 weight: 10
 url: /ru/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 Вы когда-нибудь задумывались, как можно программно манипулировать графикой SmartArt в презентациях? Aspose.Slides for Java — это идеальная библиотека для управления и редактирования презентаций PowerPoint. Этот мощный инструмент позволяет разработчикам получать доступ к различным элементам презентации, включая графику SmartArt, и манипулировать ими. В этом руководстве мы покажем вам, как получить доступ к дочерним узлам в SmartArt с помощью Java, что сделает ваши презентации более динамичными и интерактивными. К концу этого руководства вы будете обладать знаниями, позволяющими с легкостью перемещаться по узлам SmartArt и манипулировать ими.
 ## Предварительные условия
@@ -85,9 +81,3 @@ if (pres != null) pres.dispose();
  Документация доступна[здесь](https://reference.aspose.com/slides/java/).
 ### Какая IDE лучше всего подходит для разработки с помощью Aspose.Slides для Java?
 IntelliJ IDEA и Eclipse — популярные IDE, которые хорошо работают с Aspose.Slides для Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

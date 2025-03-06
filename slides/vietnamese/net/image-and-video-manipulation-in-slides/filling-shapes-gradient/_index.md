@@ -3,14 +3,10 @@ title: Tạo các hiệu ứng chuyển màu ấn tượng trong PowerPoint bằ
 linktitle: Làm đầy các hình dạng bằng gradient trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn với Aspose.Slides cho .NET! Tìm hiểu quy trình từng bước điền các hình dạng có độ dốc. Tải về dùng thử ngay!
+type: docs
 weight: 21
 url: /vi/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Việc tạo các slide thuyết trình hấp dẫn về mặt hình ảnh là điều cần thiết để thu hút và duy trì sự chú ý của khán giả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình cải thiện các trang trình bày của bạn bằng cách tô màu hình elip bằng dải màu bằng cách sử dụng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -77,9 +73,3 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
  Đáp: Tìm kiếm sự trợ giúp và tham gia với cộng đồng trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Câu hỏi: Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho .NET không?
  A: Chắc chắn là bạn có thể xin được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Lettertype-eigenschappen voor diagrammen in Java-dia's
 linktitle: Lettertype-eigenschappen voor diagrammen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter de eigenschappen van diagramlettertypen in Java-dia's met Aspose.Slides voor Java. Pas de lettergrootte, stijl en kleur aan voor indrukwekkende presentaties.
+type: docs
 weight: 11
 url: /nl/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot lettertype-eigenschappen voor diagrammen in Java-dia's
 
@@ -106,9 +102,3 @@ In deze zelfstudie hebt u geleerd hoe u de lettertype-eigenschappen voor een dia
 ### Hoe pas ik de lettertype-eigenschappen aan voor specifieke diagramelementen?
 
 Als u lettertype-eigenschappen wilt aanpassen voor specifieke diagramelementen, zoals aslabels of legendatekst, kunt u toegang krijgen tot die elementen en hun lettertype-eigenschappen instellen met soortgelijke methoden als hierboven weergegeven.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

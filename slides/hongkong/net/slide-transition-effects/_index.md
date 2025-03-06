@@ -3,14 +3,10 @@ title: 投影片切換效果
 linktitle: 投影片切換效果
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過迷人的投影片過渡效果增強您的簡報。了解如何在幻燈片中添加動態動畫以獲得引人入勝的觀看體驗。
+type: docs
 weight: 19
 url: /zh-hant/net/slide-transition-effects/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介紹：
 
@@ -41,9 +37,3 @@ url: /zh-hant/net/slide-transition-effects/
 了解如何使用 Aspose.Slides for .NET 在投影片上設定過渡變形類型。帶有程式碼範例的分步指南。立即增強您的簡報！ 
 ### [簡單的幻燈片切換](./simple-slide-transitions/)
 了解如何使用 Aspose.Slides for .NET 透過簡單的投影片切換來增強 PowerPoint 簡報。帶有原始程式碼的分步指南。用迷人的視覺效果吸引觀眾！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

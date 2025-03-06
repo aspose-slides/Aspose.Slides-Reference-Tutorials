@@ -3,14 +3,10 @@ title: 從簡報建立響應式 HTML
 linktitle: 從簡報建立響應式 HTML
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將簡報轉換為響應式 HTML。創建可跨裝置無縫適應的引人入勝的內容。
+type: docs
 weight: 17
 url: /zh-hant/net/presentation-conversion/create-responsive-html-from-presentation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 對於希望將 PowerPoint 簡報轉換為網頁友善格式的開發人員來說，使用 Aspose.Slides for .NET 從簡報建立響應式 HTML 是一項寶貴的技能。在本教程中，我們將使用提供的原始程式碼逐步引導您完成該過程。
 
@@ -84,9 +80,3 @@ presentation.Save(outPath + "ConvertPresentationToResponsiveHTML_out.html", Save
 您可以加入 Aspose 社群論壇以獲得支持和討論[這裡](https://forum.aspose.com/).
 
 現在您已經掌握了將簡報轉換為響應式 HTML 的知識，接下來您就可以讓更多受眾存取您的內容。快樂編碼！
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

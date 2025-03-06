@@ -3,14 +3,10 @@ title: Ubah Objek Gambar SVG menjadi Kelompok Bentuk di Slide Java
 linktitle: Ubah Objek Gambar SVG menjadi Kelompok Bentuk di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi gambar SVG menjadi sekelompok bentuk di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode.
+type: docs
 weight: 13
 url: /id/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Pengantar Mengubah Objek Gambar SVG menjadi Kelompok Bentuk di Slide Java
 
@@ -133,9 +129,3 @@ Ya, Aspose.Slides memerlukan lisensi yang valid untuk penggunaan komersial. Anda
 ### Bisakah saya menyesuaikan tampilan bentuk yang dikonversi?
 
 Tentu! Anda dapat menyesuaikan tampilan, ukuran, dan posisi bentuk yang dikonversi sesuai kebutuhan Anda. Aspose.Slides menyediakan API ekstensif untuk manipulasi bentuk.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

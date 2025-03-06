@@ -3,14 +3,10 @@ title: Μετατροπή ολόκληρης της παρουσίασης σε 
 linktitle: Μετατροπή ολόκληρης της παρουσίασης σε HTML σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε HTML σε Java χρησιμοποιώντας το Aspose.Slides. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
+type: docs
 weight: 29
 url: /el/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στη μετατροπή ολόκληρης της παρουσίασης σε HTML σε διαφάνειες Java
 
@@ -121,9 +117,3 @@ finally
 ### Μπορώ να μετατρέψω συγκεκριμένες διαφάνειες αντί για ολόκληρη την παρουσίαση;
 
 Ναι, μπορείτε να μετατρέψετε συγκεκριμένες διαφάνειες επιλέγοντάς τις στον κώδικα πριν αποθηκεύσετε την παρουσίαση. Αυτό σας δίνει τον έλεγχο του ποιες διαφάνειες μετατρέπονται σε HTML.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

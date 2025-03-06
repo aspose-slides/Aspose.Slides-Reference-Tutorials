@@ -3,14 +3,10 @@ title: تقديم الملاحظات أثناء تحويل العرض التقد
 linktitle: تقديم الملاحظات أثناء تحويل العرض التقديمي إلى HTML
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تقديم ملاحظات المتحدث بشكل فعال أثناء تحويل العرض التقديمي إلى HTML باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر ورؤى لمساعدتك على تحقيق تحويل سلس مع الاحتفاظ بالملاحظات.
+type: docs
 weight: 28
 url: /ar/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في العصر الرقمي الحالي، أصبح تحويل العروض التقديمية إلى تنسيق HTML مطلبًا شائعًا. فهو يسمح لك بمشاركة العروض التقديمية الخاصة بك بسهولة على الويب، مما يجعلها في متناول جمهور أوسع. Aspose.Slides for .NET هي أداة قوية تعمل على تبسيط هذه العملية. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تحويل العرض التقديمي إلى HTML باستخدام Aspose.Slides for .NET.
 
@@ -83,10 +79,3 @@ pres.Save(dataDir + "Output.html", SaveFormat.Html, opt);
  إذا واجهت أي مشاكل أو كانت لديك أسئلة، يمكنك طلب المساعدة على[منتدى Aspose.Slides](https://forum.aspose.com/).
 
 باتباع هذه الخطوات، يمكنك بسهولة تحويل عروض PowerPoint التقديمية إلى HTML باستخدام Aspose.Slides for .NET. استمتع بمشاركة عروضك التقديمية عبر الإنترنت مع جمهور أوسع!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

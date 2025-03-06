@@ -3,14 +3,10 @@ title: プレゼンテーション内のスライドを比較する
 linktitle: プレゼンテーション内のスライドを比較する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションのスライドを比較する方法を学びます。正確な比較のためのソース コード付きのステップ バイ ステップ ガイドです。
+type: docs
 weight: 12
 url: /ja/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## プレゼンテーション内のスライドの比較の概要
 
@@ -147,9 +143,3 @@ Aspose.Slides for .NET を使用してプレゼンテーション内のスライ
 ### プレゼンテーション比較のパフォーマンスを最適化するためのベストプラクティスはありますか?
 
 はい、効率的なアルゴリズムを実装し、メモリ使用量を管理することが、プレゼンテーション比較のパフォーマンスを最適化する鍵となります。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

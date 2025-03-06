@@ -3,14 +3,10 @@ title: Excluir slide via referência
 linktitle: Excluir slide via referência
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como excluir slides em apresentações do PowerPoint com Aspose.Slides for .NET, uma biblioteca poderosa para desenvolvedores .NET.
+type: docs
 weight: 25
 url: /pt/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Como um escritor de SEO proficiente, estou aqui para fornecer um guia completo sobre como usar o Aspose.Slides for .NET para excluir um slide de uma apresentação do PowerPoint. Neste tutorial passo a passo, dividiremos o processo em etapas gerenciáveis, garantindo que você possa acompanhar facilmente. Então vamos começar!
 
@@ -105,9 +101,3 @@ Sim, você pode percorrer os slides e remover vários slides programaticamente.
 
 ### Posso desfazer a exclusão de um slide usando Aspose.Slides for .NET?
 Depois que um slide é removido, ele não pode ser desfeito facilmente. É aconselhável manter backups de suas apresentações antes de fazer tais alterações.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Δημιουργία γραφήματος διαφανειών Java
 linktitle: Δημιουργία γραφήματος διαφανειών Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε δυναμικές διαφάνειες Java με γραφήματα χρησιμοποιώντας το Aspose.Slides για Java. Τα αναλυτικά μας σεμινάρια σας καθοδηγούν βήμα προς βήμα στη διαδικασία.
+type: docs
 weight: 16
 url: /el/java/chart-creation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Είστε έτοιμοι να ξεκλειδώσετε τη δύναμη των δυναμικών γραφημάτων στις διαφάνειες Java; Με το Aspose.Slides για Java, μπορείτε να δημιουργήσετε συναρπαστικά γραφήματα χωρίς κόπο. Αυτός ο περιεκτικός οδηγός θα σας οδηγήσει στα βασικά βήματα, από την εγκατάσταση έως την τελειότητα του χάρτη.
 
@@ -39,9 +35,3 @@ url: /el/java/chart-creation/
 Μάθετε πώς να προσαρμόζετε γραφήματα σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Εξερευνήστε τις επιλογές δεύτερης πλοκής και βελτιώστε τις παρουσιάσεις σας.
 ### [Γράφημα δενδρικού χάρτη σε Java Slides](./tree-map-chart-java-slides/)
 Δημιουργήστε γραφήματα δέντρων χαρτών σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για την απεικόνιση ιεραρχικών δεδομένων.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

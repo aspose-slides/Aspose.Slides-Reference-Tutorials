@@ -3,14 +3,10 @@ title: Ställ in Autopassning av textram i Java PowerPoint
 linktitle: Ställ in Autopassning av textram i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in autoanpassning för textramar i Java PowerPoint med Aspose.Slides för Java. Skapa dynamiska presentationer utan ansträngning.
+type: docs
 weight: 14
 url: /sv/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 Java-applikationsutveckling är det ett vanligt krav att skapa dynamiska och visuellt tilltalande PowerPoint-presentationer programmatiskt. Aspose.Slides för Java tillhandahåller en kraftfull uppsättning API:er för att uppnå detta utan ansträngning. En viktig funktion är att ställa in autopassning för textramar, vilket säkerställer att text justeras snyggt inom former utan manuella justeringar. Den här handledningen guidar dig genom processen steg-för-steg och använder Aspose.Slides för Java för att automatisera textanpassning i PowerPoint-bilder.
 ## Förutsättningar
@@ -90,9 +86,3 @@ Aspose.Slides för Java är ett robust Java API som låter utvecklare skapa, lä
  Du kan hitta detaljerad dokumentation för Aspose.Slides för Java[här](https://reference.aspose.com/slides/java/).
 ### Hur kan jag få support för Aspose.Slides för Java?
  Du kan få community och professionell support för Aspose.Slides för Java från[här](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

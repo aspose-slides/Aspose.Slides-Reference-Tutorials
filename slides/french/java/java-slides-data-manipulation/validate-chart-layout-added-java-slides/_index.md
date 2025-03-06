@@ -3,14 +3,10 @@ title: Valider la disposition du graphique ajoutée dans les diapositives Java
 linktitle: Valider la disposition du graphique ajoutée dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Validation de la mise en page du graphique principal dans PowerPoint avec Aspose.Slides pour Java. Apprenez à manipuler des graphiques par programmation pour des présentations époustouflantes.
+type: docs
 weight: 10
 url: /fr/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction à la validation de la disposition des graphiques dans Aspose.Slides pour Java
 
@@ -101,10 +97,3 @@ Oui, vous pouvez personnaliser les données du graphique en ajoutant et en modif
 ### Que faire si je souhaite modifier d'autres propriétés du graphique ?
 
 Vous pouvez accéder à diverses propriétés du graphique et les personnaliser en fonction de vos besoins. Explorez la documentation Aspose.Slides pour obtenir des informations complètes sur la manipulation des graphiques.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

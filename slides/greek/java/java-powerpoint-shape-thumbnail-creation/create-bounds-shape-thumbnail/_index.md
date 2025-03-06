@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφίας σχήματος ορίων
 linktitle: Δημιουργία μικρογραφίας σχήματος ορίων
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες σχημάτων με όρια χρησιμοποιώντας το Aspose.Slides για Java. Αυτό το σεμινάριο βήμα προς βήμα σας καθοδηγεί στη διαδικασία.
+type: docs
 weight: 10
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να δημιουργούν, να χειρίζονται και να μετατρέπουν παρουσιάσεις PowerPoint μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα μάθουμε πώς να δημιουργήσουμε μια μικρογραφία ενός σχήματος με όρια χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -61,9 +57,3 @@ try {
 Ναι, το Aspose.Slides για Java παρέχει εκτεταμένες λειτουργίες για εργασία με παρουσιάσεις PowerPoint, συμπεριλαμβανομένης της επεξεργασίας διαφανειών, της εξαγωγής κειμένου και της δημιουργίας γραφημάτων.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides για Java;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

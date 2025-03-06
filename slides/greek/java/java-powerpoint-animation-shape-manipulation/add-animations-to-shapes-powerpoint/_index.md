@@ -3,14 +3,10 @@ title: Προσθήκη κινούμενων εικόνων στα σχήματ�
 linktitle: Προσθήκη κινούμενων εικόνων στα σχήματα στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε κινούμενα σχέδια σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτό το λεπτομερές σεμινάριο. Ιδανικό για τη δημιουργία συναρπαστικών παρουσιάσεων.
+type: docs
 weight: 10
 url: /el/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Η δημιουργία συναρπαστικών παρουσιάσεων απαιτεί συχνά την προσθήκη κινούμενων εικόνων σε σχήματα και κείμενο. Τα κινούμενα σχέδια μπορούν να κάνουν τις διαφάνειές σας πιο δυναμικές και σαγηνευτικές, διασφαλίζοντας ότι το κοινό σας θα συνεχίσει να ενδιαφέρεται. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης κινούμενων εικόνων σε σχήματα σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Μέχρι το τέλος αυτού του άρθρου, θα μπορείτε να δημιουργείτε επαγγελματικά κινούμενα σχέδια χωρίς κόπο.
 ## Προαπαιτούμενα
@@ -112,9 +108,3 @@ if (pres != null) pres.dispose();
 Μπορείτε να προσθέσετε διαφορετικά κινούμενα σχέδια σε πολλά σχήματα επαναλαμβάνοντας τα βήματα για κάθε σχήμα και προσδιορίζοντας διαφορετικά εφέ, όπως απαιτείται.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
  Ελέγξτε το[τεκμηρίωση](https://reference.aspose.com/slides/java/) και[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11)για περισσότερα παραδείγματα και βοήθεια.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

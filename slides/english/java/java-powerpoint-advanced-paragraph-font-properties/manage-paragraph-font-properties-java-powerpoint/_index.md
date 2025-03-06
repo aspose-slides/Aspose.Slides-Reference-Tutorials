@@ -3,14 +3,10 @@ title: Manage Paragraph Font Properties in Java PowerPoint
 linktitle: Manage Paragraph Font Properties in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to manage and customize paragraph font properties in Java PowerPoint presentations using Aspose.Slides with this easy-to-follow, step-by-step guide.
+type: docs
 weight: 10
 url: /java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Creating visually appealing PowerPoint presentations is crucial for effective communication. Whether you're preparing a business proposal or a school project, the right font properties can make your slides more engaging. This tutorial will guide you through managing paragraph font properties using Aspose.Slides for Java. Ready to dive in? Let's get started!
 ## Prerequisites
@@ -117,10 +113,3 @@ Yes, each portion of a paragraph can have its own font properties.
 Yes, Aspose.Slides for Java supports gradient fill for text.
 ### What if I want to undo the changes?
 Reload the original presentation or keep a backup before making changes.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

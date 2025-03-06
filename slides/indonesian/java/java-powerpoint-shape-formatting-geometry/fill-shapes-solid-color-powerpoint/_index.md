@@ -3,14 +3,10 @@ title: Isi Bentuk dengan Warna Solid di PowerPoint
 linktitle: Isi Bentuk dengan Warna Solid di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengisi bentuk dengan warna solid di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah untuk pengembang.
+type: docs
 weight: 13
 url: /id/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Jika Anda pernah bekerja dengan presentasi PowerPoint, Anda pasti tahu bahwa menambahkan bentuk dan menyesuaikan warnanya bisa menjadi aspek penting untuk membuat slide Anda menarik secara visual dan informatif. Dengan Aspose.Slides untuk Java, proses ini menjadi mudah. Baik Anda seorang pengembang yang ingin mengotomatiskan pembuatan presentasi PowerPoint atau seseorang yang tertarik untuk menambahkan percikan warna ke slide Anda, tutorial ini akan memandu Anda melalui proses mengisi bentuk dengan warna solid menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -89,9 +85,3 @@ Ya, Aspose.Slides untuk Java memungkinkan Anda membuka, mengedit, dan menyimpan 
  Ya, Anda dapat mengunduh uji coba gratis dari[Asumsikan situs web](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan dukungan?
  Dokumentasi terperinci tersedia di[Asumsikan situs web](https://reference.aspose.com/slides/java/) dan Anda dapat mencari dukungan di[Asumsikan forum](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

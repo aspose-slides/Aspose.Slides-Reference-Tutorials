@@ -3,14 +3,10 @@ title: Use ShapeUtil for Geometry Shape in PowerPoint
 linktitle: Use ShapeUtil for Geometry Shape in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create custom shapes in PowerPoint with Aspose.Slides for Java. Follow this step-by-step guide to enhance your presentations.
+type: docs
 weight: 23
 url: /java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Creating visually appealing PowerPoint presentations often requires more than just using standard shapes and text. Imagine being able to add customized shapes and text paths directly into your slides, enhancing the visual impact of your presentation. Using Aspose.Slides for Java, you can achieve this with ease. This tutorial will guide you through the process of using the `ShapeUtil` class to create geometry shapes in PowerPoint presentations. Whether you're a seasoned developer or just starting out, this step-by-step guide will help you leverage the power of Aspose.Slides for Java to create stunning, custom-shaped content.
 ## Prerequisites
@@ -79,10 +75,3 @@ Aspose.Slides offers a free trial version, which you can download from [here](ht
 The `ShapeUtil` class in Aspose.Slides provides utility methods for working with shapes, such as converting graphical paths to geometry paths.
 ### Where can I get support for Aspose.Slides?
 You can get support from the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

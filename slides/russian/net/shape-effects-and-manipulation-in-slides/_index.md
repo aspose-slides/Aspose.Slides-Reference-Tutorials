@@ -3,14 +3,10 @@ title: Эффекты фигур и манипуляции на слайдах
 linktitle: Эффекты фигур и манипуляции на слайдах
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Повысьте визуальную привлекательность вашей презентации с помощью руководств Aspose.Slides по эффектам фигур и манипулированию ими. Узнайте, как создавать потрясающие слайды, используя эффекты фигур, анимацию и многое другое.
+type: docs
 weight: 11
 url: /ru/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение
 
@@ -67,9 +63,3 @@ Aspose.Slides предлагает набор инструментов для м
 Повысьте мастерство презентации, научившись соединять фигуры с помощью соединителей в слайдах презентации с помощью Aspose.Slides. Улучшите свое визуальное повествование уже сегодня!
 ### [Соединение фигуры с использованием места соединения в слайдах презентации с помощью Aspose.Slides](./connecting-shape-using-connection-site/)
 Совершенствуйте свои навыки презентации, научившись соединять фигуры, используя места соединения в слайдах презентации с помощью Aspose.Slides. Следуйте нашему подробному руководству и примерам кода.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中使用正規表示式來反白顯示文本
 linktitle: 在 Java PowerPoint 中使用正規表示式來反白顯示文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 的正規表示式模式在 PowerPoint 中反白顯示文字。動態增強您的簡報。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 在用於建立和操作 PowerPoint 簡報的基於 Java 的開發領域，Aspose.Slides for Java 是一個強大的解決方案。本教學重點在於如何利用 Aspose.Slides 在 PowerPoint 簡報中使用正規表示式 (regex) 來反白顯示文字。在本指南結束時，您將掌握如何實現正則表達式模式來突出顯示幻燈片中的特定文本，從而增強功能和視覺清晰度。
 ## 先決條件
@@ -66,9 +62,3 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 當然，除了突出顯示之外，它還提供廣泛的文字操作功能，包括字體樣式、對齊方式等。
 ### 我可以在購買前試用 Aspose.Slides for Java 嗎？
 是的，您可以從[免費試用](https://releases.aspose.com/)來評估其能力。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

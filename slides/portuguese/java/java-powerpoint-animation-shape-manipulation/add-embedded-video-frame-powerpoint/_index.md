@@ -3,14 +3,10 @@ title: Adicionar quadro de vídeo incorporado no PowerPoint
 linktitle: Adicionar quadro de vídeo incorporado no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como incorporar quadros de vídeo no PowerPoint usando Aspose.Slides for Java com este tutorial passo a passo. Aprimore suas apresentações facilmente.
+type: docs
 weight: 21
 url: /pt/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Adicionar vídeos às suas apresentações do PowerPoint pode torná-las mais envolventes e informativas. Usando Aspose.Slides for Java, você pode incorporar facilmente vídeos diretamente em seus slides. Neste tutorial, orientaremos você passo a passo no processo, garantindo que você entenda cada parte do código e como ele funciona. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia o ajudará a aprimorar suas apresentações com vídeos incorporados.
 ## Pré-requisitos
@@ -97,9 +93,3 @@ Aspose.Slides suporta vários formatos de vídeo, incluindo MP4, AVI e WMV.
 Sim, você precisa de uma licença válida para usar o Aspose.Slides. Você pode obter uma licença temporária para avaliação.
 ### Posso personalizar o tamanho e a posição do quadro do vídeo?
 Sim, você pode personalizar o tamanho e a posição definindo os parâmetros apropriados ao adicionar o quadro do vídeo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Manipulasi Hyperlink
 linktitle: Manipulasi Hyperlink
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan aplikasi .NET Anda dengan manipulasi hyperlink komprehensif menggunakan Aspose.Slides. Pelajari cara mengelola hyperlink, membuat presentasi interaktif, dan meningkatkan keterlibatan pengguna dengan mudah.
+type: docs
 weight: 13
 url: /id/net/hyperlink-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Perkenalan:
 
@@ -31,9 +27,3 @@ Pelajari cara menambahkan hyperlink ke slide di PowerPoint menggunakan Aspose.Sl
 Pelajari cara mengelola hyperlink secara efektif dalam presentasi menggunakan Aspose.Slides untuk .NET. Otomatiskan tugas, buat menu interaktif, dan tingkatkan keterlibatan pengguna.
 ### [Pembuatan Hyperlink yang Dapat Diubah](./mutable-hyperlink/)
 Pelajari cara membuat hyperlink yang dapat diubah menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber untuk presentasi dinamis.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

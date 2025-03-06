@@ -3,14 +3,10 @@ title: PowerPoint の図形にベベル効果を適用する
 linktitle: PowerPoint の図形にベベル効果を適用する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint の図形にベベル効果を適用する方法をステップバイステップ ガイドで学習します。プレゼンテーションを強化します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 視覚的に魅力的なプレゼンテーションを作成することは、聴衆の注目を集め、維持するために不可欠です。図形にベベル効果を追加すると、スライドの全体的な美観が向上し、プレゼンテーションが際立ちます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint の図形にベベル効果を適用する手順を説明します。プレゼンテーション作成の自動化を検討している開発者でも、デザインをいじるのが好きな人でも、このガイドは役に立ちます。
 ## 前提条件
@@ -96,9 +92,3 @@ Aspose.Slides for Java を使用すると、四角形、楕円、線、カスタ
 はい、Aspose.Slides for Java を使用すると、深度、照明、カメラ効果など、さまざまな 3D 効果を適用できます。
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
  Asposeコミュニティとサポートチームからのサポートは、[サポートフォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

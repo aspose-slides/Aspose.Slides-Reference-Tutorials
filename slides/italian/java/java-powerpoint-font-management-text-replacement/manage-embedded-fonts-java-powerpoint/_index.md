@@ -3,14 +3,10 @@ title: Gestisci i caratteri incorporati in Java PowerPoint
 linktitle: Gestisci i caratteri incorporati in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Gestisci facilmente i caratteri incorporati nelle presentazioni Java PowerPoint con Aspose.Slides. Guida passo passo per ottimizzare la coerenza delle diapositive.
+type: docs
 weight: 11
 url: /it/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## introduzione
 Nel mondo in continua evoluzione delle presentazioni, la gestione efficiente dei caratteri può fare un'enorme differenza nella qualità e nella compatibilità dei file PowerPoint. Aspose.Slides per Java offre una soluzione completa per gestire i caratteri incorporati, garantendo che le tue presentazioni siano perfette su qualsiasi dispositivo. Che tu abbia a che fare con presentazioni legacy o ne crei di nuove, questa guida ti guiderà attraverso il processo di gestione dei caratteri incorporati nelle presentazioni Java PowerPoint utilizzando Aspose.Slides. Immergiamoci!
 ## Prerequisiti
@@ -108,9 +104,3 @@ Aspose.Slides per Java è compatibile con JDK 8 e versioni successive.
 La gestione dei caratteri incorporati garantisce che le tue presentazioni abbiano un aspetto coerente su diversi dispositivi e piattaforme e aiuta a ridurre le dimensioni del file rimuovendo i caratteri non necessari.
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere supporto da[Forum di supporto di Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

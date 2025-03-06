@@ -3,14 +3,10 @@ title: Změňte text na SmartArt Node pomocí Java
 linktitle: Změňte text na SmartArt Node pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Zjistěte, jak aktualizovat text uzlu SmartArt v PowerPointu pomocí Java s Aspose.Slides, což zlepšuje přizpůsobení prezentace.
+type: docs
 weight: 22
 url: /cs/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 SmartArt v PowerPointu je výkonná funkce pro vytváření vizuálně přitažlivých diagramů. Aspose.Slides for Java poskytuje komplexní podporu pro programovou manipulaci s prvky SmartArt. V tomto tutoriálu vás provedeme procesem změny textu na uzlu SmartArt pomocí Javy.
 ## Předpoklady
@@ -64,9 +60,3 @@ Jistě, můžete upravit různé vlastnosti, jako je barva, velikost a tvar pomo
 Ano, Aspose.Slides podporuje širokou škálu rozvržení SmartArt, což vám umožní vybrat si to, které nejlépe vyhovuje vašim potřebám prezentace.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
  Můžete navštívit[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) pro podrobné API reference a výukové programy. Kromě toho můžete požádat o pomoc u[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) nebo zvažte nákup a[dočasná licence](https://purchase.aspose.com/temporary-license/) za odbornou podporu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

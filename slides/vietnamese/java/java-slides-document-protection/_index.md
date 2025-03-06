@@ -3,14 +3,10 @@ title: Bảo vệ tài liệu bằng Aspose.Slides cho Java
 linktitle: Bảo vệ tài liệu Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nâng cao tính bảo mật của tài liệu Java Slides của bạn bằng Aspose.Slides. Khám phá hướng dẫn từng bước để bảo vệ tài liệu.
+type: docs
 weight: 24
 url: /vi/java/document-protection/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 Trong thế giới tài liệu kỹ thuật số ngày càng phát triển, việc đảm bảo tính bảo mật và tính toàn vẹn cho nội dung của bạn là điều tối quan trọng. Các tài liệu Java Slides cũng không ngoại lệ với quy tắc này và đó là lúc Aspose.Slides for Java ra tay giải cứu. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các hướng dẫn cần thiết để bảo vệ tài liệu bằng Aspose.Slides cho Java.
 
 ## Tại sao vấn đề bảo vệ tài liệu
@@ -38,9 +34,3 @@ Trong bài viết này, chúng tôi đã đi sâu vào tầm quan trọng của 
 ## Hướng dẫn bảo vệ tài liệu Java Slides
 ### [Xóa tính năng chống ghi trong Java Slides](./remove-write-protection-in-java-slides/)
 Tìm hiểu cách loại bỏ tính năng chống ghi trong bản trình bày Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước có kèm theo mã nguồn.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Converteer presentatie naar met een wachtwoord beveiligde PDF in Java-dia
 linktitle: Converteer presentatie naar met een wachtwoord beveiligde PDF in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties converteert naar veilige, met een wachtwoord beveiligde PDF's in Java met behulp van Aspose.Slides. Verbeter de documentbeveiliging.
+type: docs
 weight: 17
 url: /nl/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het converteren van presentaties naar met een wachtwoord beveiligde PDF in Java-dia's
 
@@ -150,9 +146,3 @@ Ja, u kunt het proces van het converteren van meerdere presentaties naar met een
 ### Is Aspose.Slides voor Java geschikt voor commercieel gebruik?
 
 Ja, Aspose.Slides voor Java is geschikt voor commercieel gebruik. Het biedt een reeks functies voor het werken met PowerPoint-presentaties in Java-toepassingen en wordt veel gebruikt in de branche.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

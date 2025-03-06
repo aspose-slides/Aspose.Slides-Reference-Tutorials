@@ -3,14 +3,10 @@ title: पावरपॉइंट में रेंडर विकल्प
 linktitle: पावरपॉइंट में रेंडर विकल्प
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में रेंडरिंग विकल्पों में हेरफेर करना सीखें। इष्टतम दृश्य प्रभाव के लिए अपनी स्लाइड्स को अनुकूलित करें।
+type: docs
 weight: 13
 url: /hi/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 इस ट्यूटोरियल में, हम PowerPoint प्रस्तुतियों में रेंडरिंग विकल्पों में हेरफेर करने के लिए Aspose.Slides for Java का लाभ उठाने का तरीका जानेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह गाइड आपको चरण दर चरण प्रक्रिया से परिचित कराएगा।
 ## आवश्यक शर्तें
@@ -79,9 +75,3 @@ if (pres != null) pres.dispose();
 निश्चित रूप से! Aspose.Slides आपको स्लाइड्स को रेंडर करने से पहले उनके लिए कस्टम बैकग्राउंड सेट करने की अनुमति देता है।
 ### क्या स्लाइडों को सीधे पीडीएफ दस्तावेज़ में प्रस्तुत करने का कोई तरीका है?
 हां, Aspose.Slides उच्च विश्वसनीयता के साथ पावरपॉइंट प्रस्तुतियों को सीधे पीडीएफ फाइलों में परिवर्तित करने की कार्यक्षमता प्रदान करता है।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

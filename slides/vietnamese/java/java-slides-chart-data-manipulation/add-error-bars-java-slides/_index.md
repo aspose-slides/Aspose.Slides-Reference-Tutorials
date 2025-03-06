@@ -3,14 +3,10 @@ title: Thêm thanh lỗi trong trang trình bày Java
 linktitle: Thêm thanh lỗi trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm thanh lỗi vào biểu đồ PowerPoint trong Java bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn để tùy chỉnh các thanh lỗi.
+type: docs
 weight: 13
 url: /vi/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về Thêm thanh lỗi trong Java Slide bằng Aspose.Slides
 
@@ -132,9 +128,3 @@ Có, bạn có thể thêm các thanh lỗi vào các loại biểu đồ khác 
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tham khảo các[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết về việc sử dụng thư viện.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

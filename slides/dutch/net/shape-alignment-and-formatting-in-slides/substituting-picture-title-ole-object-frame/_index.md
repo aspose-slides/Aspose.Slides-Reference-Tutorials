@@ -3,14 +3,10 @@ title: OLE Objects Guide insluiten met Aspose.Slides voor .NET
 linktitle: Vervanging van de afbeeldingstitel van het OLE-objectframe in presentatiedia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u uw presentatiedia's kunt verbeteren met dynamische OLE-objecten met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
+type: docs
 weight: 15
 url: /nl/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Het maken van dynamische en boeiende presentatiedia's omvat vaak de integratie van verschillende multimedia-elementen. In deze zelfstudie onderzoeken we hoe u de afbeeldingstitel van een OLE-objectframe (Object Linking and Embedding) in presentatiedia's kunt vervangen met behulp van de krachtige Aspose.Slides voor .NET-bibliotheek. Aspose.Slides vereenvoudigt het proces van het verwerken van OLE-objecten, waardoor ontwikkelaars de tools krijgen om hun presentaties gemakkelijk te verbeteren.
 ## Vereisten
@@ -87,9 +83,3 @@ Vanaf de nieuwste versie richt Aspose.Slides zich op het insluiten en weergeven 
 Zeker. U heeft volledige programmatische controle over OLE-objecten, zodat u hun eigenschappen en uiterlijk indien nodig kunt wijzigen.
 ### Zijn er beperkingen aan de grootte van de ingesloten OLE-objecten?
 Hoewel er beperkingen zijn qua grootte, zijn ze over het algemeen genereus. Het wordt aanbevolen om te testen met uw specifieke gebruiksscenario om optimale prestaties te garanderen.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

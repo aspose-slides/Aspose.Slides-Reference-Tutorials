@@ -3,14 +3,10 @@ title: تحويل عرض شرائح الملاحظات في شرائح جافا
 linktitle: تحويل عرض شرائح الملاحظات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل طرق عرض شرائح الملاحظات في Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لمعالجة PowerPoint بكفاءة.
+type: docs
 weight: 15
 url: /ar/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## مقدمة لتحويل عرض شرائح الملاحظات في شرائح Java باستخدام Aspose.Slides
 
@@ -105,10 +101,3 @@ finally
 ### أين يمكنني العثور على المزيد من أمثلة التعليمات البرمجية والبرامج التعليمية الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على مجموعة كبيرة من أمثلة التعليمات البرمجية والبرامج التعليمية في[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/)استكشف الوثائق لمعرفة المزيد حول إمكانيات هذه المكتبة القوية.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

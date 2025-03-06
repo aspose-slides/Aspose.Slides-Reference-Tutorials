@@ -3,14 +3,10 @@ title: 许可和格式
 linktitle: 许可和格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 通过全面的教程增强您对 Aspose.Slides 许可和格式的理解。了解如何有效地管理许可证并为您的演示文稿实现完美的格式。
+type: docs
 weight: 21
 url: /zh/net/licensing-and-formatting/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 介绍
 
@@ -35,9 +31,3 @@ url: /zh/net/licensing-and-formatting/
 了解如何使用 Aspose.Slides for .NET 增强图表视觉效果。为数据点添加动态颜色，以获得更具影响力的演示。
 ### [向图表添加自定义误差线](./add-custom-error/)
 了解如何使用 Aspose.Slides for .NET 向图表添加自定义误差线。创建、设置样式和自定义误差线以实现准确的数据可视化。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

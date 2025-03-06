@@ -3,14 +3,10 @@ title: Animações de gráficos poderosas com Aspose.Slides para .NET
 linktitle: Animando elementos de categorias no gráfico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda a animar elementos gráficos no PowerPoint com Aspose.Slides for .NET. Guia passo a passo para apresentações impressionantes.
+type: docs
 weight: 11
 url: /pt/net/chart-formatting-and-animation/animating-categories-elements/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 No mundo das apresentações, as animações podem dar vida ao seu conteúdo, principalmente quando se trata de gráficos. Aspose.Slides for .NET oferece uma variedade de recursos poderosos que permitem criar animações impressionantes para seus gráficos. Neste guia passo a passo, orientaremos você no processo de animação de elementos de categoria em um gráfico usando Aspose.Slides for .NET.
 
@@ -127,10 +123,3 @@ Aspose.Slides for .NET foi projetado para funcionar com várias versões do Powe
 
 ### 5. Existe um fórum da comunidade para suporte do Aspose.Slides for .NET?
  Sim, você pode encontrar um fórum da comunidade de apoio para Aspose.Slides for .NET[aqui](https://forum.aspose.com/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

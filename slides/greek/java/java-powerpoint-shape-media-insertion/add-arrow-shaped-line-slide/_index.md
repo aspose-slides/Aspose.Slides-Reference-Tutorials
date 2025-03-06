@@ -3,14 +3,10 @@ title: Προσθήκη γραμμής σε σχήμα βέλους στη δι�
 linktitle: Προσθήκη γραμμής σε σχήμα βέλους στη διαφάνεια
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε γραμμές σε σχήμα βέλους στις διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε στυλ, χρώματα και θέσεις χωρίς κόπο.
+type: docs
 weight: 11
 url: /el/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε μια γραμμή σε σχήμα βέλους σε μια διαφάνεια χρησιμοποιώντας το Aspose.Slides για Java. Το Aspose.Slides είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν και να μετατρέπουν παρουσιάσεις PowerPoint μέσω προγραμματισμού. Η προσθήκη γραμμών σε σχήμα βέλους στις διαφάνειες μπορεί να βελτιώσει την οπτική ελκυστικότητα και τη σαφήνεια των παρουσιάσεών σας.
 ## Προαπαιτούμενα
@@ -78,9 +74,3 @@ pres.save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να προσθέσετε κείμενο στη γραμμή δημιουργώντας ένα TextFrame και ρυθμίζοντας τις ιδιότητές του ανάλογα.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για υποστήριξη και εξερεύνηση του[τεκμηρίωση](https://reference.aspose.com/slides/java/) για αναλυτικές πληροφορίες.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Ajouter une ligne en forme de flèche à la diapositive
 linktitle: Ajouter une ligne en forme de flèche à la diapositive
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des lignes en forme de flèche aux diapositives PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez les styles, les couleurs et les positions sans effort.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment ajouter une ligne en forme de flèche à une diapositive à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une puissante API Java qui permet aux développeurs de créer, modifier et convertir des présentations PowerPoint par programme. L'ajout de lignes en forme de flèche aux diapositives peut améliorer l'attrait visuel et la clarté de vos présentations.
 ## Conditions préalables
@@ -78,9 +74,3 @@ Aspose.Slides prend en charge différents formats PowerPoint, garantissant la co
 Oui, vous pouvez ajouter du texte à la ligne en créant un TextFrame et en définissant ses propriétés en conséquence.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides ?
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide et explorer les[Documentation](https://reference.aspose.com/slides/java/) pour des informations détaillées.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

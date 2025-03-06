@@ -3,14 +3,10 @@ title: Få värden och enhetsskala från Axis i Java Slides
 linktitle: Få värden och enhetsskala från Axis i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du får värden och enhetsskala från axlar i Java Slides med Aspose.Slides för Java. Förbättra dina dataanalysmöjligheter.
+type: docs
 weight: 20
 url: /sv/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till Hämta värden och enhetsskala från Axis i Java Slides
 
@@ -126,9 +122,3 @@ Ja, du kan använda Aspose.Slides för Java i kommersiella projekt. Det erbjuder
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Slides för Java?
 
  Du kan hitta omfattande dokumentation och ytterligare resurser på[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) hemsida.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

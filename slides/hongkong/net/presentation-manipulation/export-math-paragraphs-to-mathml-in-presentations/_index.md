@@ -3,14 +3,10 @@ title: 在簡報中將數學段落匯出到 MathML
 linktitle: 在簡報中將數學段落匯出到 MathML
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 將數學段落匯出到 MathML，從而增強您的簡報。請按照我們的逐步指南進行準確的數學渲染。立即下載 Aspose.Slides 並開始建立引人注目的簡報。
+type: docs
 weight: 14
 url: /zh-hant/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 在現代演示領域，數學內容通常在傳達複雜的想法和數據方面發揮著至關重要的作用。如果您正在使用 Aspose.Slides for .NET，那麼您很幸運！本教學將引導您完成將數學段落匯出到 MathML 的過程，使您能夠將數學內容無縫整合到簡報中。那麼，讓我們深入了解 MathML 和 Aspose.Slides 的世界。
 
@@ -77,10 +73,3 @@ using (Presentation pres = new Presentation())
 是的，您可以使用 Aspose.Slides for .NET 輕鬆將 MathML 內容整合到現有簡報中。
 
 既然您已經了解如何使用 Aspose.Slides for .NET 將數學段落匯出到 MathML，您就可以建立包含數學內容的動態且引人入勝的簡報了。快樂的演講！
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

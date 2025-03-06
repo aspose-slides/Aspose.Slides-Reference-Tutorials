@@ -3,14 +3,10 @@ title: Adicionar deslocamento de estiramento para preenchimento de imagem no Pow
 linktitle: Adicionar deslocamento de estiramento para preenchimento de imagem no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar um deslocamento de estiramento para preenchimento de imagem em apresentações do PowerPoint usando Aspose.Slides para Java. Tutorial passo a passo incluído.
+type: docs
 weight: 16
 url: /pt/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introdução
 Neste tutorial, você aprenderá como usar Aspose.Slides for Java para adicionar um deslocamento de estiramento para preenchimento de imagem em apresentações do PowerPoint. Esse recurso permite manipular imagens em seus slides, proporcionando maior controle sobre sua aparência.
 ## Pré-requisitos
@@ -68,9 +64,3 @@ Aspose.Slides for Java pode lidar com imagens de vários tamanhos, mas é recome
 Sim, você pode aplicar uma ampla gama de efeitos e transformações a imagens usando a extensa API do Aspose.Slides for Java.
 ### Onde posso encontrar mais recursos e suporte para Aspose.Slides for Java?
  Você pode visitar o[Documentação Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para obter guias detalhados e explorar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio comunitário.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

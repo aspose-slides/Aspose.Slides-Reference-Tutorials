@@ -3,14 +3,10 @@ title: PowerPoint でコネクタ ラインの角度を設定する
 linktitle: PowerPoint でコネクタ ラインの角度を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでコネクタ ラインの角度を設定する方法を学びます。スライドを正確にカスタマイズします。
+type: docs
 weight: 17
 url: /ja/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのコネクタ ラインの角度を設定する方法について説明します。コネクタ ラインは、スライド内の図形間の関係や流れを示すために不可欠です。コネクタ ラインの角度を調整することで、プレゼンテーションでメッセージを明確かつ効果的に伝えることができます。
 ## 前提条件
@@ -84,9 +80,3 @@ Aspose.Slides は、ほとんどの PowerPoint 機能をサポートするよう
 もちろんです! Aspose.Slides には、スタイル、太さ、エンドポイントなど、コネクタ ラインをカスタマイズするための広範なオプションが用意されており、視覚的に魅力的なプレゼンテーションを作成できます。
 ### Aspose.Slides 関連のクエリのサポートはどこで見つかりますか?
 訪問することができます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)開発プロセス中に発生した質問や問題に関するサポートを提供します。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

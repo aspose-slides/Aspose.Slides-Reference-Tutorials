@@ -3,14 +3,10 @@ title: Získejte přístup k SmartArt Shape v PowerPointu pomocí Java
 linktitle: Získejte přístup k SmartArt Shape v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přistupovat k tvarům SmartArt a manipulovat s nimi v PowerPointu pomocí Java s Aspose.Slides. Postupujte podle tohoto podrobného průvodce pro bezproblémovou integraci.
+type: docs
 weight: 14
 url: /cs/java/java-powerpoint-smartart-manipulation/access-smartart-shape-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Chcete manipulovat s tvary SmartArt v prezentacích PowerPoint pomocí Javy? Ať už automatizujete sestavy, vytváříte výukové materiály nebo připravujete firemní prezentace, znalost toho, jak programově přistupovat k tvarům SmartArt a manipulovat s nimi, vám může ušetřit spoustu času. Tento tutoriál vás provede procesem pomocí Aspose.Slides pro Java. Každý krok rozebereme jednoduchým a srozumitelným způsobem, takže i když jste začátečník, budete moci pokračovat a dosáhnout profesionálních výsledků.
 ## Předpoklady
@@ -88,9 +84,3 @@ Pomocí těchto kroků můžete snadno přistupovat a manipulovat s tvary SmartA
  Ano, můžete získat podporu od komunity Aspose[tady](https://forum.aspose.com/c/slides/11).
 ### Jak získám dočasnou licenci pro Aspose.Slides for Java?  
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

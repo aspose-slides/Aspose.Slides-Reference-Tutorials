@@ -3,14 +3,10 @@ title: Преобразование всей презентации в HTML с �
 linktitle: Преобразование всей презентации в HTML с помощью медиафайлов в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации в HTML с медиафайлами с помощью Java Slides. Следуйте нашему пошаговому руководству по использованию Aspose.Slides для Java API.
+type: docs
 weight: 30
 url: /ru/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Введение в преобразование всей презентации в HTML с помощью медиафайлов в слайдах Java
 
@@ -129,9 +125,3 @@ finally
 ### Как я могу получить доступ к преобразованной HTML-презентации?
 
  После завершения преобразования вы сможете получить доступ к HTML-презентации, найдя файл, указанный в`htmlDocumentFileName` переменная.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

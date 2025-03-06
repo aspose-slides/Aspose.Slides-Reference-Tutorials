@@ -3,14 +3,10 @@ title: Gerenciando cabeçalho e rodapé em notas com Aspose.Slides .NET
 linktitle: Gerenciar cabeçalho e rodapé no slide do Notes
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como gerenciar cabeçalho e rodapé em slides de notas do PowerPoint usando Aspose.Slides for .NET. Aprimore suas apresentações sem esforço.
+type: docs
 weight: 11
 url: /pt/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Na era digital de hoje, criar apresentações envolventes e informativas é uma habilidade vital. Como parte desse processo, muitas vezes você pode precisar incluir cabeçalhos e rodapés em seus slides de anotações para fornecer contexto e informações adicionais. Aspose.Slides for .NET é uma ferramenta poderosa que permite gerenciar facilmente as configurações de cabeçalho e rodapé em slides de notas. Neste guia passo a passo, exploraremos como conseguir isso usando Aspose.Slides for .NET.
 
@@ -124,9 +120,3 @@ Com certeza, Aspose.Slides for .NET permite automatizar apresentações em Power
 
 ### O suporte técnico está disponível para usuários do Aspose.Slides para .NET?
  Sim, você pode encontrar suporte e assistência da comunidade Aspose e de especialistas no[Aspose fórum de suporte](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: خيارات تحويل SVG للعروض التقديمية
 linktitle: خيارات تحويل SVG للعروض التقديمية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إجراء تحويل SVG للعروض التقديمية باستخدام Aspose.Slides لـ .NET. يغطي هذا الدليل الشامل إرشادات خطوة بخطوة وأمثلة التعليمات البرمجية المصدر وخيارات تحويل SVG المتنوعة.
+type: docs
 weight: 30
 url: /ar/net/presentation-manipulation/svg-conversion-options-for-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 في العصر الرقمي، تلعب العناصر المرئية دورًا حاسمًا في نقل المعلومات بشكل فعال. عند العمل مع العروض التقديمية في .NET، تعد القدرة على تحويل عناصر العرض التقديمي إلى رسومات متجهة قابلة للتطوير (SVG) ميزة قيمة. يوفر Aspose.Slides for .NET حلاً قويًا لتحويل SVG، مما يوفر المرونة والتحكم في عملية العرض. في هذا البرنامج التعليمي خطوة بخطوة، سنستكشف كيفية استخدام Aspose.Slides for .NET لتحويل أشكال العرض التقديمي إلى SVG، بما في ذلك مقتطفات التعليمات البرمجية الأساسية.
 
@@ -85,10 +81,3 @@ using (FileStream stream = new FileStream(outPath + "YourFileName.svg", FileMode
  يمكنك العثور على موارد إضافية ووثائق ودعم على[مرجع Aspose.Slides API](https://reference.aspose.com/slides/net/).
 
 الآن بعد أن أصبح لديك فهم قوي لتحويل SVG باستخدام Aspose.Slides for .NET، يمكنك تحسين عروضك التقديمية باستخدام رسومات عالية الجودة وقابلة للتطوير. ترميز سعيد!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

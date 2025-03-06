@@ -3,14 +3,10 @@ title: पावरपॉइंट में आकृति थंबनेल 
 linktitle: पावरपॉइंट में आकृति थंबनेल बनाएं
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में आकृति थंबनेल कैसे बनाएं। चरण-दर-चरण मार्गदर्शिका प्रदान की गई है।
+type: docs
 weight: 14
 url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में आकृति थंबनेल बनाने के बारे में जानेंगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint फ़ाइलों के साथ काम करने में सक्षम बनाती है, जिससे आकृति थंबनेल बनाने सहित विभिन्न कार्यों के स्वचालन की अनुमति मिलती है।
 ## आवश्यक शर्तें
@@ -64,9 +60,3 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
  बिल्कुल! आप Aspose.Slides का निःशुल्क परीक्षण संस्करण यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/) इसकी विशेषताओं और क्षमताओं का मूल्यांकन करने के लिए।
 ### मैं Aspose.Slides के लिए समर्थन कहां पा सकता हूं?
  यदि आपके पास कोई प्रश्न है या Aspose.Slides के साथ सहायता की आवश्यकता है, तो आप जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन के लिए।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

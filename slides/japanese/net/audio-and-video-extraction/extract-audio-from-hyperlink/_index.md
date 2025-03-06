@@ -3,14 +3,10 @@ title: Aspose.Slides を使用して PowerPoint ハイパーリンクからオ�
 linktitle: ハイパーリンクからオーディオを抽出する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのハイパーリンクからオーディオを抽出します。マルチメディア プロジェクトを簡単に強化できます。
+type: docs
 weight: 12
 url: /ja/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 マルチメディア プレゼンテーションの世界では、オーディオはスライドの全体的なインパクトを高める上で重要な役割を果たします。オーディオ ハイパーリンクを含む PowerPoint プレゼンテーションを見て、オーディオを他の用途に抽出する方法を考えたことはありませんか? Aspose.Slides for .NET を使用すると、このタスクを簡単に実行できます。このステップ バイ ステップ ガイドでは、PowerPoint プレゼンテーションのハイパーリンクからオーディオを抽出する手順を説明します。
 
@@ -109,10 +105,3 @@ Aspose.Slides for .NET は、PowerPoint プレゼンテーションのハイパ�
 
 ### MPG 以外に、抽出にサポートされている他のオーディオ形式はありますか?
 Aspose.Slides for .NET では、MPG に限らず、さまざまな形式でオーディオを抽出できます。抽出後に、好みの形式に変換できます。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

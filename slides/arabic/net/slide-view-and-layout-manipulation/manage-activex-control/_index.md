@@ -3,14 +3,10 @@ title: إدارة عنصر تحكم ActiveX في PowerPoint
 linktitle: إدارة عنصر تحكم ActiveX في PowerPoint
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام عناصر تحكم ActiveX باستخدام Aspose.Slides لـ .NET. يغطي دليلنا خطوة بخطوة الإدراج والمعالجة والتخصيص ومعالجة الأحداث والمزيد.
+type: docs
 weight: 13
 url: /ar/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 تعد عناصر تحكم ActiveX عناصر قوية يمكنها تحسين وظائف عروض PowerPoint التقديمية وتفاعلها. تسمح لك عناصر التحكم هذه بتضمين الكائنات ومعالجتها مثل مشغلات الوسائط المتعددة ونماذج إدخال البيانات والمزيد بشكل مباشر داخل الشرائح الخاصة بك. في هذه المقالة، سنستكشف كيفية إدارة عناصر تحكم ActiveX في PowerPoint باستخدام Aspose.Slides for .NET، وهي مكتبة متعددة الاستخدامات تتيح التكامل والمعالجة السلسة لملفات PowerPoint في تطبيقات .NET الخاصة بك.
 
 ## إضافة عناصر تحكم ActiveX إلى شرائح PowerPoint
@@ -153,9 +149,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ### هل يمكنني إزالة عنصر تحكم ActiveX من الشريحة؟
 
  نعم، يمكنك إزالة عنصر تحكم ActiveX من الشريحة باستخدام`Remove` طريقة`Shapes` مجموعة. قم بتمرير الإشارة إلى`IOleObjectFrame` يمثل التحكم كوسيطة لـ`Remove` الطريقة، وستتم إزالة عنصر التحكم من الشريحة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

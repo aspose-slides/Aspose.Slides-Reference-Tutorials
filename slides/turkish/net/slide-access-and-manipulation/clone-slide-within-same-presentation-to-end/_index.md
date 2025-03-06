@@ -3,14 +3,10 @@ title: Slaydı Mevcut Sunumun Sonuna Kadar Çoğalt
 linktitle: Slaydı Mevcut Sunumun Sonuna Kadar Çoğalt
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak mevcut bir PowerPoint sunumunun sonuna slayt eklemeyi öğrenin. Bu adım adım kılavuz, kaynak kodu örnekleri sağlar ve kurulumu, slayt çoğaltmayı, değiştirmeyi ve daha fazlasını kapsar.
+type: docs
 weight: 22
 url: /tr/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -100,9 +96,3 @@ Evet, Aspose.Slides, PPT, PPTX, PPS ve daha fazlası dahil olmak üzere çeşitl
 ### Aspose.Slides'ı kullanarak slayt içeriğini değiştirebilir miyim?
 
 Kesinlikle! Aspose.Slides yalnızca slaytları kopyalamanıza değil aynı zamanda metin, resim, şekil ve animasyon gibi içeriklerini de programlı olarak değiştirmenize olanak tanır.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

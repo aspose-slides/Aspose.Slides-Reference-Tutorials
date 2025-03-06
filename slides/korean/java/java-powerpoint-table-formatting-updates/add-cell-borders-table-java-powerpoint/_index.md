@@ -3,14 +3,10 @@ title: Java PowerPoint에서 테이블에 셀 테두리 추가
 linktitle: Java PowerPoint에서 테이블에 셀 테두리 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 테이블에 셀 테두리를 추가하는 방법을 알아보세요. 이 단계별 가이드를 사용하면 슬라이드를 쉽게 향상할 수 있습니다.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 안녕하세요! 그렇다면 Java를 사용하여 PowerPoint 프레젠테이션의 표에 셀 테두리를 추가하려고 하시나요? 글쎄, 당신은 바로 이곳에 있어요! 이 튜토리얼은 Aspose.Slides for Java 라이브러리를 사용하여 프로세스를 단계별로 안내합니다. 이 가이드를 마치면 전문가처럼 PowerPoint 슬라이드의 표를 조작하는 방법을 잘 이해하게 될 것입니다. 이제 프레젠테이션을 세련되고 전문적으로 보이게 만들어 보세요!
 ## 전제 조건
@@ -100,9 +96,3 @@ if (pres != null) pres.dispose();
 예, 슬라이드를 반복하고 각 슬라이드에 테이블 생성 논리를 적용하여 프로세스를 자동화할 수 있습니다.
 ### Aspose.Slides는 어떤 파일 형식을 지원합니까?
 Aspose.Slides는 PPT, PPTX, PDF 등을 포함한 다양한 형식을 지원합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

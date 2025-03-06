@@ -3,14 +3,10 @@ title: Erstellen Sie atemberaubende skizzierte Formen mit Aspose.Slides
 linktitle: Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET kreative skizzierte Formen zu Ihren Präsentationsfolien hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität!
+type: docs
 weight: 13
 url: /de/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Einführung
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Erstellen skizzierter Formen in Präsentationsfolien mit Aspose.Slides für .NET. Wenn Sie Ihren Präsentationen einen Hauch von Kreativität verleihen möchten, bieten skizzierte Formen eine einzigartige und handgezeichnete Ästhetik. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um ein reibungsloses Erlebnis zu gewährleisten.
 ## Voraussetzungen
@@ -78,9 +74,3 @@ Das Hinzufügen skizzierter Formen zu Ihren Präsentationsfolien kann die visuel
  Um Aspose.Slides für .NET zu kaufen, besuchen Sie die[Kaufseite](https://purchase.aspose.com/buy).
 ### 5. Bieten Sie temporäre Lizenzen an?
  Ja, es sind temporäre Lizenzen verfügbar[Hier](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

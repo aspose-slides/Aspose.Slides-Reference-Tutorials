@@ -3,14 +3,10 @@ title: Kloon dia naar opgegeven sectie in PowerPoint
 linktitle: Kloon dia naar opgegeven sectie in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Kloon moeiteloos dia's naar specifieke secties in PowerPoint met Aspose.Slides voor Java. Verbeter uw presentaties met deze stapsgewijze handleiding.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 Wilt u het creatieproces van uw PowerPoint-presentaties stroomlijnen? Stel je voor dat je moeiteloos dia's naar specifieke secties van je presentatie kunt klonen. Met Aspose.Slides voor Java wordt dit een fluitje van een cent. Deze tutorial begeleidt u stap voor stap door het proces, zodat u uw presentaties gemakkelijk en nauwkeurig kunt verbeteren.
 ## Vereisten
@@ -80,9 +76,3 @@ Absoluut! U kunt een verzameling dia's doorlopen en ze indien nodig klonen.
  De proefversie heeft enkele beperkingen. Voor volledige functies kunt u overwegen een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik meer gedetailleerde documentatie vinden?
  Gedetailleerde documentatie is beschikbaar op de[Aspose.Slides documentatiepagina](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

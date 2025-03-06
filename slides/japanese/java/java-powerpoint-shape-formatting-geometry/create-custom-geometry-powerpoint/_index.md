@@ -3,14 +3,10 @@ title: PowerPoint でカスタムジオメトリを作成する
 linktitle: PowerPoint でカスタムジオメトリを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint でカスタムのジオメトリ シェイプを作成する方法を学びます。このガイドは、ユニークなシェイプを使用してプレゼンテーションを強化するのに役立ちます。
+type: docs
 weight: 21
 url: /ja/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 PowerPoint でカスタムの図形やジオメトリを作成すると、プレゼンテーションの視覚的な魅力を大幅に高めることができます。Aspose.Slides for Java は、開発者がプログラムで PowerPoint ファイルを操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint スライドにカスタムのジオメトリ、具体的には星形を作成する方法を説明します。さっそく始めましょう。
 ## 前提条件
@@ -110,9 +106,3 @@ Aspose.Slides for Java は無料試用版を提供しています。 継続し�
 JDK をインストールし、プロジェクトに Aspose.Slides ライブラリを含める以外に特別な設定は必要ありません。
 ### Aspose.Slides のサポートはどこで受けられますか?
 サポートを受けるには[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

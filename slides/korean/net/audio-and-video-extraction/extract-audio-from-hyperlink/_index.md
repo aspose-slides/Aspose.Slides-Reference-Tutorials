@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 PowerPoint 하이퍼링크에서 오디오 
 linktitle: 하이퍼링크에서 오디오 추출
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 하이퍼링크에서 오디오를 추출합니다. 멀티미디어 프로젝트를 쉽게 향상시키세요.
+type: docs
 weight: 12
 url: /ko/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 멀티미디어 프리젠테이션 세계에서 오디오는 슬라이드의 전반적인 효과를 높이는 데 중요한 역할을 합니다. 오디오 하이퍼링크가 포함된 PowerPoint 프레젠테이션을 접하고 다른 용도로 오디오를 추출하는 방법이 궁금한 적이 있습니까? .NET용 Aspose.Slides를 사용하면 이 작업을 쉽게 수행할 수 있습니다. 이 단계별 가이드에서는 PowerPoint 프레젠테이션의 하이퍼링크에서 오디오를 추출하는 과정을 안내합니다.
 
@@ -109,10 +105,3 @@ File.WriteAllBytes(outMediaPath, audioData);
 
 ### MPG 외에 추출을 지원하는 다른 오디오 형식이 있습니까?
 .NET용 Aspose.Slides를 사용하면 MPG에 국한되지 않고 다양한 형식으로 오디오를 추출할 수 있습니다. 추출 후 원하는 형식으로 변환할 수 있습니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Mediakontroller för bildspel i Java Slides
 linktitle: Mediakontroller för bildspel i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du aktiverar och använder mediakontroller i Java Slides med Aspose.Slides för Java. Förbättra dina presentationer med mediakontroller.
+type: docs
 weight: 11
 url: /sv/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduktion till mediakontroller för bildspel i Java-bilder
 
@@ -112,9 +108,3 @@ I den här handledningen undersökte vi hur man aktiverar och använder mediakon
 ### Finns det något sätt att lägga till undertexter till videor i Java Slides?
 
 Ja, du kan lägga till undertexter till videor i Java Slides genom att lägga till textramar eller former till bilden som innehåller videon. Du kan sedan synkronisera texten med videouppspelningen med hjälp av tidsinställningar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

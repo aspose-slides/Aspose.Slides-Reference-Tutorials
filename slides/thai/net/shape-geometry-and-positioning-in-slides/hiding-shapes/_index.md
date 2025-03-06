@@ -3,14 +3,10 @@ title: ซ่อนรูปร่างใน PowerPoint ด้วย Aspose.Sl
 linktitle: การซ่อนรูปร่างในสไลด์การนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีซ่อนรูปร่างในสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ปรับแต่งการนำเสนอด้วยโปรแกรมด้วยคำแนะนำทีละขั้นตอนนี้
+type: docs
 weight: 21
 url: /th/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## การแนะนำ
 ในโลกการนำเสนอแบบไดนามิก การปรับแต่งเป็นสิ่งสำคัญ Aspose.Slides สำหรับ .NET มอบโซลูชันอันทรงพลังสำหรับการจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม ข้อกำหนดทั่วไปประการหนึ่งคือความสามารถในการซ่อนรูปร่างเฉพาะภายในสไลด์ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการซ่อนรูปร่างในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -77,9 +73,3 @@ Congratulations! You've successfully hidden shapes in your presentation using As
  ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/)เพื่อวัตถุประสงค์ในการทดสอบ
 ### ฉันจะรับการสนับสนุนจากชุมชนสำหรับ Aspose.Slides ได้อย่างไร
  เข้าร่วมชุมชน Aspose.Slides บน[ฟอรั่ม](https://forum.aspose.com/c/slides/11) เพื่อหารือและช่วยเหลือ
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

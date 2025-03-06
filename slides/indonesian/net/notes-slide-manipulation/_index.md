@@ -3,14 +3,10 @@ title: Manipulasi Slide Catatan
 linktitle: Manipulasi Slide Catatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan presisi! Jelajahi tutorial Aspose.Slides tentang manipulasi slide catatan di .NET. Pelajari cara menambahkan, mengedit, dan mengelola catatan pembicara secara terprogram.
+type: docs
 weight: 16
 url: /id/net/notes-slide-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 
 Selamat datang di tutorial Aspose.Slides komprehensif tentang Manipulasi Slide Catatan untuk pengembang .NET. Dalam tutorial ini, kita akan mempelajari dunia catatan pembicara yang menarik dan bagaimana Anda dapat memanipulasinya secara terprogram menggunakan perpustakaan Aspose.Slides. Catatan pembicara memainkan peran penting dalam presentasi, memberikan wawasan berharga kepada presenter dan meningkatkan dampak keseluruhan konten. Di akhir tutorial ini, Anda akan memiliki pemahaman yang kuat tentang cara menambahkan, mengedit, dan mengelola catatan pembicara secara efektif dalam presentasi PowerPoint Anda.
@@ -43,9 +39,3 @@ Pelajari cara mengkustomisasi header dan footer di slide catatan menggunakan Asp
 Pelajari cara menghapus catatan dari slide tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami dengan kode sumber lengkap untuk memanipulasi slide Anda secara terprogram dengan lancar.
 ### [Hapus Catatan dari Semua Slide](./remove-notes-from-all-slides/)
 Pelajari cara menghapus catatan dari semua slide dalam presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode sumber lengkap untuk mencapai tujuan Anda dengan mudah.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

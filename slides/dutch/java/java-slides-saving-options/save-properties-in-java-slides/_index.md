@@ -3,14 +3,10 @@ title: Bewaar eigenschappen in Java-dia's
 linktitle: Bewaar eigenschappen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw PowerPoint-presentaties met Aspose.Slides voor Java. Leer eigenschappen instellen, encryptie uitschakelen, wachtwoordbeveiliging toevoegen en moeiteloos opslaan.
+type: docs
 weight: 12
 url: /nl/java/saving-options/save-properties-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Inleiding tot het opslaan van eigenschappen in Java-dia's
 
@@ -174,9 +170,3 @@ Dit helpt geheugenlekken in uw toepassing te voorkomen.
 ### Hoe kan ik meer te weten komen over Aspose.Slides voor Java en de functies ervan?
 
  U kunt de Aspose.Slides voor Java-documentatie verkennen op[hier](https://docs.aspose.com/slides/java/) voor gedetailleerde informatie, tutorials en voorbeelden over het gebruik van de bibliotheek.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

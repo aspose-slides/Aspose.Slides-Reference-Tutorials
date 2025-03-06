@@ -3,14 +3,10 @@ title: Visualizzazione diapositive e manipolazione del layout
 linktitle: Visualizzazione diapositive e manipolazione del layout
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Ottimizza le visualizzazioni e i layout delle diapositive con Aspose.Slides Tutorial sulla visualizzazione delle diapositive e sulla manipolazione del layout. Migliora l'impatto della presentazione e l'eccellenza visiva utilizzando potenti strumenti .NET.
+type: docs
 weight: 20
 url: /it/net/slide-view-and-layout-manipulation/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## introduzione
 
@@ -33,9 +29,3 @@ Scopri come gestire le presentazioni nello stato di visualizzazione normale util
 Scopri come collegare video alle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Questa guida passo passo include il codice sorgente e suggerimenti per creare presentazioni interattive e coinvolgenti con video collegati.
 ### [Gestisci il controllo ActiveX nella presentazione](./manage-activex-control/)
 Scopri come migliorare le presentazioni di PowerPoint con i controlli ActiveX utilizzando Aspose.Slides per .NET. La nostra guida passo passo copre l'inserimento, la manipolazione, la personalizzazione, la gestione degli eventi e altro ancora.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Java Slaytlarında Not Slayt Görünümünü Dönüştürme
 linktitle: Java Slaytlarında Not Slayt Görünümünü Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta not slayt görünümlerini nasıl dönüştüreceğinizi öğrenin. Verimli PowerPoint manipülasyonu için kod örnekleri içeren adım adım kılavuz.
+type: docs
 weight: 15
 url: /tr/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Not Slayt Görünümünü Dönüştürmeye Giriş
 
@@ -105,10 +101,3 @@ Aspose.Slides, en son sürümler de dahil olmak üzere çeşitli PowerPoint form
 ### Aspose.Slides for Java için daha fazla kod örneğini ve öğreticiyi nerede bulabilirim?
 
  Çok sayıda kod örneği ve öğreticiyi burada bulabilirsiniz.[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/)Bu güçlü kitaplığın yetenekleri hakkında daha fazla bilgi edinmek için belgeleri inceleyin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

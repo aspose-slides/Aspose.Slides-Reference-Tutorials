@@ -3,14 +3,10 @@ title: Java 슬라이드에서 회전 각도 설정
 linktitle: Java 슬라이드에서 회전 각도 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java로 Java 슬라이드를 최적화하세요. 텍스트 요소의 회전 각도를 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 17
 url: /ko/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Java 슬라이드에서 회전 각도 설정 소개
 
@@ -104,9 +100,3 @@ Aspose.Slides for Java는 글꼴 스타일, 색상, 정렬을 포함하여 차�
 ### 차트 축 제목의 텍스트 회전에 애니메이션을 적용할 수 있나요?
 
 예, Aspose.Slides for Java를 사용하여 차트 축 제목을 포함한 텍스트 요소에 애니메이션 효과를 추가할 수 있습니다. 프레젠테이션에 애니메이션을 추가하는 방법에 대한 자세한 내용은 설명서를 참조하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

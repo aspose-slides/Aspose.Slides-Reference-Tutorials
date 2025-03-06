@@ -3,14 +3,10 @@ title: PowerPoint의 기하학 모양에 세그먼트 추가
 linktitle: PowerPoint의 기하학 모양에 세그먼트 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 상세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 기하학적 모양에 세그먼트를 추가하는 방법을 알아보세요.
+type: docs
 weight: 19
 url: /ko/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 매력적이고 역동적인 프레젠테이션을 만드는 것은 어려울 수 있으며, 특히 사용자 정의 모양과 디자인을 추가하려는 경우 더욱 그렇습니다. 이것이 바로 Java용 Aspose.Slides가 유용한 곳입니다. 이 강력한 API를 사용하면 프로그래밍 방식으로 PowerPoint 파일을 조작할 수 있으므로 복잡한 기하학적 모양과 세그먼트를 쉽게 추가할 수 있는 유연성을 얻을 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기하학적 모양에 세그먼트를 추가하는 방법을 안내합니다. 프레젠테이션 작성을 자동화하려는 개발자이거나 코딩을 좋아하는 사람이라면 이 가이드가 포괄적인 리소스가 될 것입니다.
 ## 전제 조건
@@ -82,9 +78,3 @@ Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방�
 직사각형, 타원, 선, 사용자 정의 기하학 모양을 포함한 다양한 모양을 추가할 수 있습니다.
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티와 개발자에게 질문하고 도움을 받을 수 있는 곳입니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

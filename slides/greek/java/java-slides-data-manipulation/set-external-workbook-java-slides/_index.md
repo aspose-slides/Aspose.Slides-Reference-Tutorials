@@ -3,14 +3,10 @@ title: Ορισμός εξωτερικού βιβλίου εργασίας σε 
 linktitle: Ορισμός εξωτερικού βιβλίου εργασίας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε εξωτερικά βιβλία εργασίας σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε δυναμικές παρουσιάσεις με ενοποίηση δεδομένων Excel.
+type: docs
 weight: 19
 url: /el/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Εισαγωγή στον ορισμό εξωτερικού βιβλίου εργασίας σε διαφάνειες Java
 
@@ -123,9 +119,3 @@ finally
 ### Μπορώ να προσθέσω πολλά γραφήματα που αναφέρονται στο ίδιο εξωτερικό βιβλίο εργασίας;
 
 Ναι, μπορείτε να προσθέσετε πολλά γραφήματα στην παρουσίασή σας, όλα να αναφέρονται στο ίδιο εξωτερικό βιβλίο εργασίας. Απλώς επαναλάβετε τα βήματα που περιγράφονται σε αυτό το σεμινάριο για κάθε γράφημα που θέλετε να δημιουργήσετε.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

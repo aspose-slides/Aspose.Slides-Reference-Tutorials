@@ -3,14 +3,10 @@ title: Agregue fuentes incrustadas en PowerPoint usando Java
 linktitle: Agregue fuentes incrustadas en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar fuentes incrustadas a presentaciones de PowerPoint usando Java con Aspose.Slides para Java. Garantice una visualización consistente en todos los dispositivos.
+type: docs
 weight: 10
 url: /es/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En este tutorial, lo guiaremos a través del proceso de agregar fuentes incrustadas a presentaciones de PowerPoint usando Java, aprovechando específicamente Aspose.Slides para Java. Las fuentes incrustadas garantizan que su presentación parezca coherente en diferentes dispositivos, incluso si la fuente original no está disponible. Profundicemos en los pasos:
 ## Requisitos previos
@@ -73,9 +69,3 @@ Sí, incrustar fuentes puede aumentar ligeramente el tamaño del archivo de la p
 Aspose.Slides para Java admite la incorporación de fuentes TrueType, que cubren una amplia gama de fuentes comúnmente utilizadas en presentaciones.
 ### ¿Puedo incrustar fuentes mediante programación usando Aspose.Slides para Java?
 Sí, como se demuestra en este tutorial, puede incrustar fuentes mediante programación utilizando la API Aspose.Slides para Java.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

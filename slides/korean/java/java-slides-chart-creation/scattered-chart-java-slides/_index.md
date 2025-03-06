@@ -3,14 +3,10 @@ title: Java 슬라이드의 분산형 차트
 linktitle: Java 슬라이드의 분산형 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java에서 분산형 차트를 만드는 방법을 알아보세요. 프레젠테이션의 데이터 시각화를 위한 Java 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 11
 url: /ko/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java의 분산형 차트 소개
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Aspose.Slides for Java 문서에서 더 많은 사용자 정의 옵션을 자유롭게 살펴보세요.
 
  교체하는 것을 기억하세요`"Your Document Directory"` 프레젠테이션을 저장하려는 실제 경로를 사용하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: プレゼンテーションに追加のスライドを挿入する
 linktitle: プレゼンテーションに追加のスライドを挿入する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションに追加のスライドを挿入する方法を学びます。このステップ バイ ステップ ガイドでは、プレゼンテーションをシームレスに強化するためのソース コードの例と詳細な手順を示します。カスタマイズ可能なコンテンツ、挿入のヒント、FAQ が含まれています。
+type: docs
 weight: 15
 url: /ja/net/slide-access-and-manipulation/add-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## プレゼンテーションに追加のスライドを挿入する方法の紹介
 
@@ -111,9 +107,3 @@ Aspose.Slides の API を使用して図形やプロパティにアクセスす�
 ### Aspose.Slides for .NET の詳細情報はどこで入手できますか?
 
 詳細なドキュメントと例については、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

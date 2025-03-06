@@ -3,14 +3,10 @@ title: Verwijder rij of kolom in PowerPoint-tabel met Java
 linktitle: Verwijder rij of kolom in PowerPoint-tabel met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u rijen of kolommen uit PowerPoint-tabellen verwijdert met behulp van Java met Aspose.Slides voor Java. Eenvoudige stapsgewijze handleiding voor ontwikkelaars.
+type: docs
 weight: 18
 url: /nl/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u een rij of kolom uit een PowerPoint-tabel kunt verwijderen met behulp van Java met behulp van Aspose.Slides. Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren. Deze tutorial richt zich specifiek op het proces van het wijzigen van tabellen in PowerPoint-dia's, waarbij stap voor stap wordt gedemonstreerd hoe specifieke rijen of kolommen uit een tabel kunnen worden verwijderd.
 ## Vereisten
@@ -78,9 +74,3 @@ Aspose.Slides biedt uitgebreide ondersteuning voor het maken, wijzigen en conver
 Ja, Aspose.Slides wordt veel gebruikt in bedrijfsomgevingen voor het automatiseren van PowerPoint-taken vanwege de robuuste functies en prestaties.
 ### Kan ik Aspose.Slides uitproberen voordat ik een aankoop doe?
  Ja, u kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

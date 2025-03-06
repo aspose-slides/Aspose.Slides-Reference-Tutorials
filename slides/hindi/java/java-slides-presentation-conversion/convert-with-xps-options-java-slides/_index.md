@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में XPS विकल्पो
 linktitle: जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में PowerPoint प्रस्तुतियों को XPS प्रारूप में परिवर्तित करना सीखें। निर्बाध रूपांतरण प्रक्रिया के लिए विकल्पों को अनुकूलित करें।
+type: docs
 weight: 34
 url: /hi/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## जावा स्लाइड्स में XPS विकल्पों के साथ कनवर्ट करने का परिचय
 
@@ -118,10 +114,3 @@ finally
 ### मैं Java के लिए Aspose.Slides का उपयोग करते समय अपवादों को कैसे संभालूँ?
 
 अपवादों को संभालने के लिए, आप Aspose.Slides के साथ काम करते समय अपने कोड के चारों ओर try-catch ब्लॉक का उपयोग कर सकते हैं। विशिष्ट अपवाद हैंडलिंग दिशा-निर्देशों के लिए दस्तावेज़ देखें।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

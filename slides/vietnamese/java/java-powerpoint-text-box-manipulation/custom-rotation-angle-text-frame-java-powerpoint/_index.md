@@ -3,14 +3,10 @@ title: Góc xoay tùy chỉnh cho khung văn bản trong Java PowerPoint
 linktitle: Góc xoay tùy chỉnh cho khung văn bản trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tùy chỉnh góc xoay cho khung văn bản trong Java PowerPoint bằng Aspose.Slides. Nâng cao bài thuyết trình của bạn một cách linh hoạt.
+type: docs
 weight: 14
 url: /vi/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thao tác các góc xoay khung văn bản trong bản trình bày Java PowerPoint bằng Aspose.Slides. Tùy chỉnh góc xoay là rất quan trọng để nâng cao sự hấp dẫn trực quan và độ rõ ràng của văn bản trong các trang trình bày. Cho dù bạn đang xây dựng biểu đồ động hay thêm tiêu đề tùy chỉnh, việc xoay khung văn bản chính xác có thể cải thiện đáng kể tính thẩm mỹ của bản trình bày.
 ## Điều kiện tiên quyết
@@ -68,9 +64,3 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà ph�
 Có, Aspose.Slides được thiết kế để xử lý các yêu cầu cấp doanh nghiệp về tạo và quản lý bản trình bày PowerPoint.
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.Slides cho Java?
  Để được hỗ trợ kỹ thuật và tương tác cộng đồng, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

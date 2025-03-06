@@ -3,14 +3,10 @@ title: Aspose.Slides .NET でノートのヘッダーとフッターを管理す
 linktitle: ノートスライドのヘッダーとフッターを管理する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint ノート スライドのヘッダーとフッターを管理する方法を学びます。プレゼンテーションを簡単に強化できます。
+type: docs
 weight: 11
 url: /ja/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 今日のデジタル時代では、魅力的で情報豊富なプレゼンテーションを作成することは、不可欠なスキルです。このプロセスの一環として、追加のコンテキストと情報を提供するために、ノート スライドにヘッダーとフッターを含める必要があることがよくあります。Aspose.Slides for .NET は、ノート スライドのヘッダーとフッターの設定を簡単に管理できる強力なツールです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してこれを実現する方法について説明します。
 
@@ -124,9 +120,3 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ### Aspose.Slides for .NET ユーザー向けのテクニカル サポートは提供されますか?
 はい、Asposeコミュニティと専門家からのサポートと支援を受けることができます。[Aspose サポート フォーラム](https://forum.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

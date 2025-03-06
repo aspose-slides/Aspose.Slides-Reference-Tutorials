@@ -3,14 +3,10 @@ title: PowerPoint에서 ActiveX 컨트롤을 통해 비디오 연결
 linktitle: ActiveX 컨트롤을 통해 비디오 연결
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 비디오를 PowerPoint 슬라이드에 연결하는 방법을 알아보세요. 이 단계별 가이드에는 연결된 비디오를 사용하여 대화형의 매력적인 프레젠테이션을 만들기 위한 소스 코드와 팁이 포함되어 있습니다.
+type: docs
 weight: 12
 url: /ko/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 .NET용 Aspose.Slides를 사용하여 프레젠테이션에서 ActiveX 컨트롤을 통해 비디오 연결
 
 .NET용 Aspose.Slides에서는 ActiveX 컨트롤을 사용하여 비디오를 프레젠테이션 슬라이드에 프로그래밍 방식으로 연결할 수 있습니다. 이를 통해 슬라이드 내에서 비디오 콘텐츠를 직접 재생할 수 있는 대화형 프레젠테이션을 만들 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 비디오를 프레젠테이션 슬라이드에 연결하는 과정을 안내합니다.
@@ -84,9 +80,3 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 이 가이드에 설명된 단계를 따르면 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 ActiveX 컨트롤을 통해 비디오를 쉽게 연결할 수 있습니다. 이 기능을 사용하면 멀티미디어 콘텐츠를 원활하게 통합하는 매력적인 대화형 프레젠테이션을 만들 수 있습니다.
 
  자세한 내용과 고급 옵션은 다음을 참조하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

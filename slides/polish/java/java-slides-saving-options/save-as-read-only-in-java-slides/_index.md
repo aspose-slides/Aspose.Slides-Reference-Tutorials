@@ -3,14 +3,10 @@ title: Zapisz jako tylko do odczytu w slajdach Java
 linktitle: Zapisz jako tylko do odczytu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zapisywać prezentacje programu PowerPoint jako tylko do odczytu w Javie przy użyciu Aspose.Slides. Chroń swoje treści za pomocą instrukcji krok po kroku i przykładów kodu.
+type: docs
 weight: 11
 url: /pl/java/saving-options/save-as-read-only-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Wprowadzenie do zapisywania jako tylko do odczytu w slajdach Java przy użyciu Aspose.Slides dla Java
 
@@ -131,9 +127,3 @@ Jeśli zapomnisz hasła zabezpieczającego przed zapisem, nie ma wbudowanej moż
 ### Czy mogę zmienić hasło tylko do odczytu po jego ustawieniu?
 
  Tak, możesz zmienić hasło tylko do odczytu po jego ustawieniu. Użyj`setReadProtection(String newPassword)` metodę z nowym hasłem, aby zaktualizować hasło zabezpieczające tylko do odczytu.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

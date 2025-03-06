@@ -3,14 +3,10 @@ title: Állítsa be a csatlakozóvonal szögeit a PowerPointban az Aspose.Slides
 linktitle: Csatlakozóvonal szögeinek beállítása a bemutató diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a csatlakozóvonalak szögét a PowerPoint diákban az Aspose.Slides for .NET segítségével. Tökéletesítse prezentációit precízen és egyszerűen.
+type: docs
 weight: 28
 url: /hu/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 tetszetős prezentációs diák létrehozása gyakran a csatlakozóvonalak pontos beállítását igényli. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthatjuk be a csatlakozási vonalak szögét a bemutatódiákon az Aspose.Slides for .NET segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint fájlokkal, és széleskörű lehetőségeket biztosítanak prezentációk létrehozásához, módosításához és manipulálásához.
 ## Előfeltételek
@@ -91,9 +87,3 @@ Igen, az Aspose.Slides Windows és webes alkalmazásokban is használható.
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Létezik támogatási fórum az Aspose.Slides számára?
  Igen, felkeresheti a támogatási fórumot[itt](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

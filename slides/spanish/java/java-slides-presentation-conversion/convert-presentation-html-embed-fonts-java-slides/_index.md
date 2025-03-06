@@ -3,14 +3,10 @@ title: Conversión de presentaciones a HTML con incrustar todas las fuentes en d
 linktitle: Conversión de presentaciones a HTML con incrustar todas las fuentes en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a convertir presentaciones a HTML con fuentes incrustadas usando Aspose.Slides para Java. Esta guía paso a paso garantiza un formato uniforme para compartir sin problemas.
+type: docs
 weight: 13
 url: /es/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la conversión de presentaciones a HTML con incrustar todas las fuentes en diapositivas de Java
 
@@ -112,9 +108,3 @@ Sí, este método funciona para presentaciones con contenido complejo, incluidas
 ### ¿Dónde puedo encontrar más recursos y documentación para Aspose.Slides para Java?
 
  Puede acceder a documentación y recursos completos para Aspose.Slides para Java en[Aspose.Slides para referencias de la API de Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: PowerPoint에서 확대/축소 프레임 만들기
 linktitle: PowerPoint에서 확대/축소 프레임 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 매력적인 확대/축소 프레임을 만드는 방법을 알아보세요. 프레젠테이션에 대화형 요소를 추가하려면 가이드를 따르세요.
+type: docs
 weight: 17
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 소개
 매력적인 PowerPoint 프레젠테이션을 만드는 것은 예술이며 때로는 아주 작은 추가 사항이 큰 차이를 만들 수 있습니다. 이러한 기능 중 하나는 특정 슬라이드나 이미지를 확대하여 역동적이고 대화형 프레젠테이션을 만들 수 있는 줌 프레임(Zoom Frame)입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint에서 확대/축소 프레임을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -117,9 +113,3 @@ Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테�
 전적으로! 이미지 파일을 읽고 프레젠테이션에 추가하여 확대/축소 프레임에 사용자 정의 이미지를 추가할 수 있습니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
  다음에서 포괄적인 문서와 예제를 찾을 수 있습니다.[Java 문서 페이지용 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

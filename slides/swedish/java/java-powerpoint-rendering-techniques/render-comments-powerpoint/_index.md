@@ -3,14 +3,10 @@ title: Återge kommentarer i PowerPoint
 linktitle: Återge kommentarer i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du återger kommentarer i PowerPoint-presentationer med Aspose.Slides för Java. Anpassa utseendet och generera bildförhandsvisningar effektivt.
+type: docs
 weight: 10
 url: /sv/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introduktion
 I den här handledningen går vi igenom processen att återge kommentarer i PowerPoint-presentationer med Aspose.Slides för Java. Att återge kommentarer kan vara användbart för olika ändamål, som att generera bildförhandsvisningar av presentationer med kommentarer inkluderade.
 ## Förutsättningar
@@ -76,9 +72,3 @@ Ja, förutom PNG kan du återge kommentarer till andra bildformat som stöds av 
 Ja, med Aspose.Slides kan du återge kommentarer till bilder utan att öppna PowerPoint-programmet.
 ### Finns det något sätt att återge kommentarer direkt till ett PDF-dokument?
 Ja, Aspose.Slides tillhandahåller funktionalitet för att återge kommentarer direkt till PDF-dokument, vilket möjliggör sömlös integrering i ditt dokumentarbetsflöde.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

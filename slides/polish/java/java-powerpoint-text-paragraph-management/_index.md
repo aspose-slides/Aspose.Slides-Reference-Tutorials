@@ -3,14 +3,10 @@ title: Zarządzanie tekstem i akapitami w programie Java PowerPoint
 linktitle: Zarządzanie tekstem i akapitami w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Opanuj zarządzanie tekstem i akapitami w programie Java PowerPoint za pomocą Aspose.Slides. Dowiedz się, jak importować tekst HTML, zarządzać odstępami między wierszami, tworzyć punktory i wyrównywać akapity.
+type: docs
 weight: 26
 url: /pl/java/java-powerpoint-text-paragraph-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Wstęp
 
 Tworzenie dobrze zorganizowanych i atrakcyjnych wizualnie prezentacji programu PowerPoint może znacznie poprawić komunikację. Dzięki Aspose.Slides dla Java zarządzanie tekstem i akapitami staje się prostym zadaniem. Niezależnie od tego, czy chcesz zaimportować tekst HTML, zarządzać odstępami między wierszami czy utworzyć wielopoziomowe punktory, nasze szczegółowe samouczki poprowadzą Cię przez ten proces. Przyjrzyjmy się, jak przenieść prezentacje Java PowerPoint na wyższy poziom.
@@ -59,9 +55,3 @@ Dowiedz się, jak dodawać punktory akapitów na slajdach programu PowerPoint pr
 Dowiedz się, jak programowo ustawiać wcięcia akapitów na slajdach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz formatowanie prezentacji bez wysiłku.
 ### [Wyrównaj akapity w programie PowerPoint przy użyciu języka Java](./align-paragraphs-powerpoint-java/)
 Dowiedz się, jak wyrównywać akapity w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać precyzyjne formatowanie.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

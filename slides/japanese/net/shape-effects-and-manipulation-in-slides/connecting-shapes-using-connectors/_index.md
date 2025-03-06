@@ -3,14 +3,10 @@ title: Aspose.Slides - .NET でシームレスに図形を接続する
 linktitle: プレゼンテーションでコネクタを使用して図形を接続する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET のパワーを活用して、プレゼンテーションで図形を簡単に接続します。ダイナミック コネクタを使用してスライドのレベルを高めます。
+type: docs
 weight: 29
 url: /ja/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーションの動的な世界では、コネクタを使用して図形を接続する機能により、スライドに洗練されたレイヤーが追加されます。Aspose.Slides for .NET を使用すると、開発者はこれをシームレスに実現できます。このチュートリアルでは、各ステップを分解してプロセスをガイドし、明確に理解できるようにします。
 ## 前提条件
@@ -81,9 +77,3 @@ Aspose.Slides for .NET は、基本図形、スマート アート、カスタ�
 線のスタイルや色など、コネクタの外観をカスタマイズする方法については、Aspose.Slides のドキュメントを参照してください。
 ### Aspose.Slides サポートのコミュニティ フォーラムはありますか?
 はい、サポートを見つけたり、経験を共有したりできます。[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

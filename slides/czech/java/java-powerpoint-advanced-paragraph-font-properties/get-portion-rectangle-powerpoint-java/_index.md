@@ -3,14 +3,10 @@ title: Získejte částečný obdélník v PowerPointu s Javou
 linktitle: Získejte částečný obdélník v PowerPointu s Javou
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak získat obdélník části v PowerPointu pomocí Aspose.Slides pro Java, pomocí tohoto podrobného, podrobného návodu. Ideální pro vývojáře v Javě.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Úvod
 Vytváření dynamických prezentací v Javě je s Aspose.Slides pro Javu hračkou. V tomto tutoriálu se ponoříme do toho nejnutnějšího získání obdélníku části v PowerPointu pomocí Aspose.Slides. Pokryjeme vše od nastavení vašeho prostředí až po rozebrání kódu krok za krokem. Takže, pojďme začít!
 ## Předpoklady
@@ -142,9 +138,3 @@ Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům pr
  Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
  Podporu můžete získat na fóru Aspose[tady](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

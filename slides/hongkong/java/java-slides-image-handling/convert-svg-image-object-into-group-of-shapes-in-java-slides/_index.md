@@ -3,14 +3,10 @@ title: 將 SVG 影像物件轉換為 Java 投影片中的形狀群組
 linktitle: 將 SVG 影像物件轉換為 Java 投影片中的形狀群組
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 SVG 映像轉換為 Java Slides 中的一組形狀。帶有程式碼範例的分步指南。
+type: docs
 weight: 13
 url: /zh-hant/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## 在 Java 投影片中將 SVG 影像物件轉換為形狀群組簡介
 
@@ -133,9 +129,3 @@ finally
 ### 我可以自訂轉換後的形狀的外觀嗎？
 
 當然！您可以根據您的要求自訂轉換後的形狀的外觀、大小和位置。 Aspose.Slides 提供了廣泛的用於形狀操作的 API。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

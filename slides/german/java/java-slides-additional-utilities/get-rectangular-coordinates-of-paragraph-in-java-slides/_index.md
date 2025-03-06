@@ -3,14 +3,10 @@ title: Holen Sie sich rechteckige Koordinaten von Absätzen in Java-Folien
 linktitle: Holen Sie sich rechteckige Koordinaten von Absätzen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Absatzkoordinaten in PowerPoint-Präsentationen abrufen. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcode für eine genaue Positionierung.
+type: docs
 weight: 13
 url: /de/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Einführung in das Abrufen rechteckiger Koordinaten eines Absatzes in Aspose.Slides für Java
 
@@ -116,9 +112,3 @@ Ja, Aspose.Slides für Java eignet sich gut für die Stapelverarbeitung von Powe
 ### Benötige ich eine Lizenz, um Aspose.Slides für Java zu verwenden?
 
 Ja, Sie benötigen normalerweise eine gültige Lizenz, um Aspose.Slides für Java in einer Produktionsumgebung zu verwenden. Sie können eine Lizenz von der Aspose-Website erhalten. Möglicherweise wird jedoch eine Testversion zu Test- und Evaluierungszwecken angeboten.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

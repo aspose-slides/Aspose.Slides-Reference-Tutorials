@@ -3,14 +3,10 @@ title: تنسيق الخطوط في برنامج PowerPoint
 linktitle: تنسيق الخطوط في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تنسيق الخطوط في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة. قم بتحسين عروضك التقديمية باستخدام أنماط الخطوط المخصصة.
+type: docs
 weight: 16
 url: /ar/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 تعد عروض PowerPoint التقديمية عنصرًا أساسيًا في البيئات المهنية والتعليمية. إن القدرة على تنسيق الخطوط بشكل فعال في الشرائح الخاصة بك يمكن أن تجعل عروضك التقديمية تبدو مصقولة واحترافية. في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.Slides لـ Java لتنسيق الخطوط في عرض PowerPoint التقديمي. بحلول نهاية هذا الدليل، ستتمكن من إنشاء خطوط وتنسيقها في شرائحك بسهولة.
 ## المتطلبات الأساسية
@@ -91,9 +87,3 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على وثائق أكثر تفصيلا؟
  الوثائق التفصيلية متاحة على[صفحة التوثيق](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

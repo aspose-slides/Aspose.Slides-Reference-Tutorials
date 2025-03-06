@@ -3,14 +3,10 @@ title: استبدال الخطوط في جافا باور بوينت
 linktitle: استبدال الخطوط في جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إجراء استبدال الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تعزيز التوافق والاتساق دون عناء.
+type: docs
 weight: 14
 url: /ar/java/java-powerpoint-font-management/fonts-substitution-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## مقدمة
 
 في عالم تطوير Java، يظهر Aspose.Slides كأداة قوية، حيث يقدم عددًا لا يحصى من الوظائف للتعامل مع عروض PowerPoint التقديمية برمجيًا. من بين ميزاته العديدة، يبرز استبدال الخطوط باعتباره جانبًا حاسمًا، مما يضمن الاتساق والتوافق عبر الأنظمة المختلفة. يتعمق هذا البرنامج التعليمي في عملية استبدال الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. سواء كنت مطورًا متمرسًا أو مبتدئًا يغامر في عالم برمجة Java، يهدف هذا الدليل إلى توفير نهج شامل خطوة بخطوة لتنفيذ استبدال الخطوط بسلاسة.
@@ -94,9 +90,3 @@ if (pres != null) pres.dispose();
 
 ### هل الدعم الفني متاح لمستخدمي Aspose.Slides؟
 نعم، يقدم Aspose دعمًا فنيًا شاملاً لمستخدمي Aspose.Slides من خلال منتدياته المخصصة، ويقدم المساعدة والتوجيه للتنفيذ واستكشاف الأخطاء وإصلاحها.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

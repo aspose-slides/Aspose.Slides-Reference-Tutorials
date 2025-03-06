@@ -3,14 +3,10 @@ title: Conversione della presentazione in HTML con incorporamento di tutti i car
 linktitle: Conversione della presentazione in HTML con incorporamento di tutti i caratteri nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come convertire le presentazioni in HTML con caratteri incorporati utilizzando Aspose.Slides per Java. Questa guida passo passo garantisce una formattazione coerente per una condivisione senza interruzioni.
+type: docs
 weight: 13
 url: /it/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduzione alla conversione della presentazione in HTML con incorporamento di tutti i caratteri nelle diapositive Java
 
@@ -112,9 +108,3 @@ Sì, questo metodo funziona per presentazioni con contenuti complessi, incluse i
 ### Dove posso trovare ulteriori risorse e documentazione per Aspose.Slides per Java?
 
  È possibile accedere alla documentazione e alle risorse complete per Aspose.Slides per Java all'indirizzo[Aspose.Slides per riferimenti API Java](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

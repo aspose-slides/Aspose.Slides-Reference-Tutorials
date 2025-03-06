@@ -3,14 +3,10 @@ title: Aplicar sombra interior en presentaciones de PowerPoint de Java
 linktitle: Aplicar sombra interior en presentaciones de PowerPoint de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a aplicar efectos de sombra interior a formas en presentaciones de PowerPoint de Java usando Aspose.Slides. Mejore sus diapositivas con esta guía paso a paso.
+type: docs
 weight: 12
 url: /es/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 Crear presentaciones visualmente atractivas es crucial para comunicar sus ideas de manera efectiva. Una de las herramientas que puede mejorar significativamente tus presentaciones es el uso de sombras interiores. Este tutorial lo guiará a través del proceso de aplicar sombras internas a formas en presentaciones de PowerPoint usando Aspose.Slides para Java. Al final de este tutorial, tendrá una comprensión integral de cómo manipular elementos de diapositivas para crear efectos sorprendentes.
 ## Requisitos previos
@@ -98,9 +94,3 @@ Aspose.Slides para Java es una potente API para crear y manipular presentaciones
 Sí, puedes personalizar varios parámetros del efecto de sombra, como el radio de desenfoque, la dirección, la distancia y el color, para adaptarlos a tus necesidades.
 ### ¿Dónde puedo encontrar documentación más detallada?
  Puedes consultar el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/) para obtener información detallada y ejemplos.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

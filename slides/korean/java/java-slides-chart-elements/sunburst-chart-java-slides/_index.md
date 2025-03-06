@@ -3,14 +3,10 @@ title: Java 슬라이드의 선버스트 차트
 linktitle: Java 슬라이드의 선버스트 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드에서 멋진 선버스트 차트를 만드세요. 단계별 차트 생성 및 데이터 조작을 알아보세요.
+type: docs
 weight: 16
 url: /ko/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides를 사용한 Java 슬라이드의 선버스트 차트 소개
 
@@ -172,9 +168,3 @@ finally
 ### 하이퍼링크를 사용하여 대화형 Sunburst 차트를 만드는 것이 가능합니까?
 
 예, 특정 차트 요소나 세그먼트에 하이퍼링크를 추가하여 하이퍼링크가 있는 대화형 선버스트 차트를 만들 수 있습니다. 하이퍼링크 추가에 대한 자세한 내용은 Aspose.Slides 설명서를 참조하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

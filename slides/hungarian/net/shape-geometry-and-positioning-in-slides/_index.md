@@ -3,14 +3,10 @@ title: Alakzatgeometria és pozicionálás a diákban az Aspose.Slides segítsé
 linktitle: Alakzat geometria és pozicionálás a diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Növelje diakezelési készségeit az Aspose.Slides oktatóanyagaival az alakgeometriáról és a diák pozicionálásáról. Ismerje meg az alakzatok, méretük és igazításuk programozott vezérlését.
+type: docs
 weight: 13
 url: /hu/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Bevezetés
 
@@ -55,9 +51,3 @@ Tanulja meg, hogyan integrálhatja hatékonyan a világítástechnikai berendez�
 Ismerje meg, hogyan javíthatja bemutató diákját hatékony ferde adatokkal az Aspose.Slides segítségével. Átfogó útmutató lépésenkénti utasításokkal és mintakóddal.
 ### [Alakzatok elrejtése a bemutató diákban az Aspose.Slides segítségével](./hiding-shapes/)
 Ismerje meg, hogyan rejthet el alakzatokat bemutató diákban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal, GYIK-ekkel és bevált gyakorlatokkal a dinamikus prezentációkhoz.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

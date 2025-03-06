@@ -3,14 +3,10 @@ title: Slide Show Media Controls in Java Slides
 linktitle: Slide Show Media Controls in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn How to Enable and Use Media Controls in Java Slides with Aspose.Slides for Java. Enhance Your Presentations with Media Controls.
+type: docs
 weight: 11
 url: /java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introduction to Slide Show Media Controls in Java Slides
 
@@ -112,10 +108,3 @@ To make a video play automatically when a slide appears, you can set the `PlayMo
 ### Is there a way to add subtitles or captions to videos in Java Slides?
 
 Yes, you can add subtitles or captions to videos in Java Slides by adding text frames or shapes to the slide containing the video. You can then synchronize the text with the video playback using timing settings.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

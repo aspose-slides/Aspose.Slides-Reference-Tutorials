@@ -3,14 +3,10 @@ title: Megjegyzések hozzáadása a diához
 linktitle: Megjegyzések hozzáadása a diához
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Adjon mélységet és interakciót prezentációihoz az Aspose.Slides API-val. Tanulja meg, hogyan illesztheti be a megjegyzéseket egyszerűen a diákba a .NET használatával. Fokozza az elkötelezettséget, és ragadja meg közönségét.
+type: docs
 weight: 13
 url: /hu/net/slide-comments-manipulation/add-slide-comments/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 prezentációkezelés világában az a lehetőség, hogy megjegyzéseket fűzzünk a diákhoz, változást hozhat. A megjegyzések nemcsak az együttműködést erősítik, hanem a diatartalom megértésében és átdolgozásában is segítenek. Az Aspose.Slides for .NET segítségével, amely egy hatékony és sokoldalú könyvtár, könnyedén beillesztheti a megjegyzéseket a bemutató diákjaiba. Ebben a lépésenkénti útmutatóban végigvezetjük a diához való megjegyzések hozzáadásának folyamatán az Aspose.Slides for .NET segítségével. Akár tapasztalt fejlesztő, akár újonc a .NET-fejlesztés világában, ez az oktatóanyag minden szükséges információt megad.
 
@@ -108,9 +104,3 @@ Az Aspose.Slides for .NET .NET-alkalmazásba való integrálásához tekintse me
 ### 5. Kipróbálhatom az Aspose.Slides for .NET-et a vásárlás előtt?
 
 Igen, az Aspose.Slides for .NET ingyenes próbaverzióval felfedezhető. Meglátogatni a[Aspose.Slides ingyenes próbaoldal](https://releases.aspose.com/) kezdeni.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

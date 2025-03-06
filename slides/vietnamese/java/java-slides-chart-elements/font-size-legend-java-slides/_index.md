@@ -3,14 +3,10 @@ title: Chú giải cỡ chữ trong Java Slides
 linktitle: Chú giải cỡ chữ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Cải thiện bản trình bày PowerPoint với Aspose.Slides cho Java. Tìm hiểu cách tùy chỉnh kích thước phông chữ chú giải và hơn thế nữa trong hướng dẫn từng bước của chúng tôi.
+type: docs
 weight: 13
 url: /vi/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu về chú giải cỡ chữ trong Java Slides
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### Tôi có thể tìm thêm thông tin và tài liệu về Aspose.Slides ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện và tài liệu tham khảo API cho Aspose.Slides for Java trên trang web tài liệu Aspose. Thăm nom[đây](https://reference.aspose.com/slides/java/) để biết thông tin chi tiết về việc sử dụng thư viện.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

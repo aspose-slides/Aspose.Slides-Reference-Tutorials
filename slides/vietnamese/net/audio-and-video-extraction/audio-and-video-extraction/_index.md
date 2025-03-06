@@ -3,14 +3,10 @@ title: Làm chủ việc trích xuất âm thanh và video bằng Aspose.Slides 
 linktitle: Trích xuất âm thanh và video từ các slide bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách trích xuất âm thanh và video từ các trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Trích xuất đa phương tiện dễ dàng.
+type: docs
 weight: 10
 url: /vi/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Giới thiệu
 
@@ -139,10 +135,3 @@ Aspose cung cấp nhiều tùy chọn cấp phép khác nhau, bao gồm bản d�
 
 ### Tôi có thể thực hiện những tác vụ nào khác với Aspose.Slides cho .NET?
  Aspose.Slides for .NET cung cấp nhiều tính năng, bao gồm tạo, sửa đổi và chuyển đổi bản trình bày PowerPoint. Bạn có thể khám phá tài liệu để biết thêm chi tiết:[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

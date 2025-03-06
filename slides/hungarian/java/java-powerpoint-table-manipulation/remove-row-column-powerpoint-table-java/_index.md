@@ -3,14 +3,10 @@ title: Távolítsa el a sorokat vagy oszlopokat a PowerPoint-táblázatból Java
 linktitle: Távolítsa el a sorokat vagy oszlopokat a PowerPoint-táblázatból Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan távolíthat el sorokat vagy oszlopokat PowerPoint-táblázatokból Java használatával az Aspose.Slides for Java segítségével. Könnyű, lépésről lépésre mutató útmutató fejlesztőknek.
+type: docs
 weight: 18
 url: /hu/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan távolíthatunk el egy sort vagy oszlopot a PowerPoint-táblázatból Java használatával az Aspose.Slides segítségével. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint-prezentációk programozott létrehozását, kezelését és konvertálását. Ez az oktatóanyag kifejezetten a PowerPoint diákon belüli táblázatok módosításának folyamatára összpontosít, lépésről lépésre bemutatva, hogyan távolíthat el bizonyos sorokat vagy oszlopokat a táblázatból.
 ## Előfeltételek
@@ -78,9 +74,3 @@ Az Aspose.Slides átfogó támogatást nyújt PowerPoint-prezentációk létreho
 Igen, robusztus szolgáltatásainak és teljesítményének köszönhetően az Aspose.Slides-t széles körben használják vállalati környezetekben PowerPoint-feladatok automatizálására.
 ### Kipróbálhatom az Aspose.Slides-t vásárlás előtt?
  Igen, letöltheti az Aspose.Slides ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

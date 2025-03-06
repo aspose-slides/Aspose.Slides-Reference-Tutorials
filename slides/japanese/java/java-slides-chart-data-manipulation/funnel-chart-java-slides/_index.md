@@ -3,14 +3,10 @@ title: Java スライドのファネル チャート
 linktitle: Java スライドのファネル チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでファネル チャートを作成する方法を学びます。効果的なデータ視覚化のためのソース コード付きのステップ バイ ステップ ガイド。
+type: docs
 weight: 18
 url: /ja/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Aspose.Slides for Java でファネル チャートを作成する方法の紹介
 
@@ -141,9 +137,3 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### チャートを PDF や画像などの別の形式でエクスポートできますか?
 
 はい、Aspose.Slides for Javaではファネルチャートを含むプレゼンテーションをPDF、画像形式などさまざまな形式でエクスポートできます。`SaveFormat`プレゼンテーションを保存するときに、希望の出力形式を指定するオプション。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

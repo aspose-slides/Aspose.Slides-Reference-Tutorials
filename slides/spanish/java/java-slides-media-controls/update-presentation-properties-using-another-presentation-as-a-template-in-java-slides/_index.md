@@ -3,14 +3,10 @@ title: Actualizar las propiedades de la presentación usando otra presentación 
 linktitle: Actualizar las propiedades de la presentación usando otra presentación como plantilla en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Mejore las presentaciones de PowerPoint con metadatos actualizados utilizando Aspose.Slides para Java. Aprenda a actualizar propiedades como autor, título y palabras clave utilizando plantillas en Java Slides.
+type: docs
 weight: 14
 url: /es/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción a la actualización de las propiedades de una presentación utilizando otra presentación como plantilla en diapositivas de Java
 
@@ -126,9 +122,3 @@ Sí, puede personalizar el código para actualizar propiedades específicas seg�
 ### ¿Existe alguna limitación en el tipo de presentaciones que se pueden actualizar?
 
 No, puede actualizar las propiedades de presentaciones en varios formatos, incluidos PPTX, ODP y PPT.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

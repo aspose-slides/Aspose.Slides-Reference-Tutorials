@@ -3,14 +3,10 @@ title: Maak een opgemaakte rechthoek in PowerPoint
 linktitle: Maak een opgemaakte rechthoek in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een rechthoek in PowerPoint maakt en opmaakt met Aspose.Slides voor Java met deze stapsgewijze handleiding.
+type: docs
 weight: 18
 url: /nl/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Invoering
 In deze zelfstudie begeleiden we u bij het maken van een opgemaakte rechthoek in een PowerPoint-dia met behulp van Aspose.Slides voor Java. We leggen elke stap uit, zodat u deze kunt volgen en in uw eigen projecten kunt implementeren.
 ## Vereisten
@@ -95,9 +91,3 @@ Ja, u kunt Aspose.Slides voor Java gebruiken met elke Java-compatibele IDE, zoal
  Ja, het weggooien van de`Presentation` object helpt bronnen vrij te maken en geheugenlekken te voorkomen.
 ### Waar kan ik de documentatie voor Aspose.Slides voor Java vinden?
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

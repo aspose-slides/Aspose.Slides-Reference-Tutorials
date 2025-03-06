@@ -3,14 +3,10 @@ title: Java PowerPoint で段落のインデントを設定する
 linktitle: Java PowerPoint で段落のインデントを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint スライドの段落インデントをプログラムで設定する方法を学びます。プレゼンテーションの書式設定を簡単に強化できます。
+type: docs
 weight: 16
 url: /ja/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用してプログラムで PowerPoint プレゼンテーションを操作する方法を学習します。特に、スライド内の段落インデントの設定に焦点を当てます。Aspose.Slides for Java は、開発者が Microsoft Office Automation に依存せずに PowerPoint プレゼンテーションを作成、変更、変換、管理できるようにする強力な API セットを提供します。
 ## 前提条件
@@ -89,9 +85,3 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログ�
 はい、無料トライアルをご利用いただけます[ここ](https://releases.aspose.com/).
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
 コミュニティフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

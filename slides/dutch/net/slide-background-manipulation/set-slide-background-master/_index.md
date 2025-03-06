@@ -3,14 +3,10 @@ title: Een uitgebreide handleiding voor het instellen van een dia-achtergrondmas
 linktitle: Stel Dia-achtergrondmaster in
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u een dia-achtergrondmaster kunt instellen met Aspose.Slides voor .NET om uw presentaties visueel te verbeteren.
+type: docs
 weight: 14
 url: /nl/net/slide-background-manipulation/set-slide-background-master/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Op het gebied van presentatieontwerp kan een boeiende en visueel aantrekkelijke achtergrond het verschil maken. Of u nu een presentatie maakt voor het bedrijfsleven, het onderwijs of een ander doel, de achtergrond speelt een cruciale rol bij het vergroten van de visuele impact. Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u presentaties op een naadloze manier kunt manipuleren en aanpassen. In deze stapsgewijze handleiding gaan we dieper in op het proces van het instellen van de dia-achtergrondmaster met Aspose.Slides voor .NET. 
 
@@ -147,9 +143,3 @@ Aspose.Slides voor .NET is ontworpen om te werken met verschillende PowerPoint-f
 **Title (maximum 60 characters):** Basisdia-achtergrond instellen in Aspose.Slides voor .NET
 
 Verbeter uw presentatieontwerp met Aspose.Slides voor .NET. Leer hoe u de dia-achtergrondmaster instelt voor boeiende beelden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

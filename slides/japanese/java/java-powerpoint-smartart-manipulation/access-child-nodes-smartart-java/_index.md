@@ -3,14 +3,10 @@ title: Java を使用して SmartArt の子ノードにアクセスする
 linktitle: Java を使用して SmartArt の子ノードにアクセスする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このステップバイステップ ガイドでは、Aspose.Slides for Java を使用して SmartArt の子ノードにアクセスし、操作する方法を学習します。
+type: docs
 weight: 10
 url: /ja/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 導入
 プレゼンテーション内の SmartArt グラフィックをプログラムで操作する方法を考えたことはありませんか? Aspose.Slides for Java は、PowerPoint プレゼンテーションの管理と編集に最適なライブラリです。この強力なツールを使用すると、開発者は SmartArt グラフィックを含むプレゼンテーション内のさまざまな要素にアクセスして操作できます。このチュートリアルでは、Java を使用して SmartArt の子ノードにアクセスし、プレゼンテーションをより動的でインタラクティブにする方法について説明します。このガイドを読み終えると、SmartArt ノードを簡単に移動および操作するための知識が身に付きます。
 ## 前提条件
@@ -85,9 +81,3 @@ if (pres != null) pres.dispose();
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java で開発するのに最適な IDE は何ですか?
 IntelliJ IDEA と Eclipse は、Aspose.Slides for Java と連携する人気の IDE です。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -3,14 +3,10 @@ title: Importar contenido PDF a presentaciones
 linktitle: Importar contenido PDF a presentaciones
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo importar sin problemas contenido PDF en presentaciones usando Aspose.Slides para .NET. Esta guía paso a paso con código fuente le ayudará a mejorar sus presentaciones integrando contenido PDF externo.
+type: docs
 weight: 24
 url: /es/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 ## Introducción
 La incorporación de contenido de diversas fuentes a sus presentaciones puede mejorar los aspectos visuales e informativos de sus diapositivas. Aspose.Slides para .NET proporciona una solución sólida para importar contenido PDF a presentaciones, lo que le permite mejorar sus diapositivas con información externa. En esta guía completa, lo guiaremos a través del proceso de importación de contenido PDF usando Aspose.Slides para .NET. Con instrucciones detalladas paso a paso y ejemplos de código fuente, podrá integrar perfectamente contenido PDF en sus presentaciones.
@@ -71,9 +67,3 @@ Absolutamente. Aspose.Slides ofrece una amplia gama de funciones para crear pres
 
 ## Conclusión
 Integrar contenido PDF en presentaciones usando Aspose.Slides para .NET es una forma poderosa de mejorar sus diapositivas con información externa. Si sigue la guía paso a paso y utiliza los ejemplos de código fuente proporcionados, puede importar sin problemas contenido PDF y crear presentaciones que combinen varias fuentes de información.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

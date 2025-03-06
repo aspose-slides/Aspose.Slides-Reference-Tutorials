@@ -3,14 +3,10 @@ title: Эффективно применяйте формат заполнени
 linktitle: Эффективно применяйте формат заполнения маркеров в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как применять форматы заполнения маркеров в Java PowerPoint с помощью Aspose.Slides для Java. Освойте стили маркеров и улучшите свои презентации.
+type: docs
 weight: 15
 url: /ru/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Введение
 В сегодняшней цифровой среде навыки эффективной презентации имеют решающее значение для профессионалов в различных областях. Создание убедительных презентаций PowerPoint требует не только творческого подхода, но и технических знаний, чтобы использовать весь потенциал таких инструментов, как Aspose.Slides для Java. В этом руководстве подробно рассматривается один из таких аспектов: программное применение форматов заполнения маркеров с помощью Aspose.Slides для Java. Независимо от того, являетесь ли вы разработчиком, бизнес-профессионалом или студентом, желающим улучшить свои навыки презентации, освоение форматов заполнения маркеров может значительно повысить визуальную привлекательность и четкость ваших слайдов.
 ## Предварительные условия
@@ -94,9 +90,3 @@ if (bulletFormatEffective.getType() != BulletType.None) {
 Да, Aspose.Slides для Java предлагает API для облачной интеграции.
 ### Могу ли я попробовать Aspose.Slides для Java перед покупкой?
  Да, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) оценить его особенности.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

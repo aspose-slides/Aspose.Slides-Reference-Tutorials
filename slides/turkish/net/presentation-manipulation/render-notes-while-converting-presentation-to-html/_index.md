@@ -3,14 +3,10 @@ title: Sunumu HTML'ye Dönüştürürken Notları Oluşturma
 linktitle: Sunumu HTML'ye Dönüştürürken Notları Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak bir sunumu HTML'ye dönüştürürken konuşmacı notlarını etkili bir şekilde nasıl oluşturacağınızı öğrenin. Bu adım adım kılavuz, notların korunmasıyla sorunsuz dönüşüm elde etmenize yardımcı olacak kaynak kodu örnekleri ve bilgiler sağlar.
+type: docs
 weight: 28
 url: /tr/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Günümüzün dijital çağında sunumları HTML formatına dönüştürmek yaygın bir gereksinim haline geldi. Sunumlarınızı web üzerinde kolayca paylaşmanıza olanak tanıyarak daha geniş bir kitleye ulaşmasını sağlar. Aspose.Slides for .NET bu süreci kolaylaştıran güçlü bir araçtır. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak bir sunumu HTML'ye dönüştürme sürecinde size rehberlik edeceğiz.
 
@@ -83,10 +79,3 @@ Evet, Aspose.Slides for .NET, PPT, PPTX ve daha fazlası dahil olmak üzere çe�
  Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa, şu adresten yardım isteyebilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).
 
 Bu adımları izleyerek PowerPoint sunumlarınızı Aspose.Slides for .NET kullanarak kolayca HTML'ye dönüştürebilirsiniz. Sunumlarınızı daha geniş bir kitleyle çevrimiçi paylaşmanın tadını çıkarın!
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

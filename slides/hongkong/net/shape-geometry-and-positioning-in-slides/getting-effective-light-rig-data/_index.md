@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 掌握有效的燈光裝備數據
 linktitle: 在簡報投影片中取得有效的輕型裝備數據
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強您的簡報投影片！了解如何逐步檢索有效的燈光裝備資料。立即提升您的視覺敘事能力！
+type: docs
 weight: 19
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介紹
 創建動態且具有視覺吸引力的簡報幻燈片是當今數位時代的常見要求。一個重要的方面是操縱燈光裝備屬性以增強整體美感。本教學將引導您完成使用 Aspose.Slides for .NET 在簡報投影片中取得有效燈光裝備資料的過程。
 ## 先決條件
@@ -68,9 +64,3 @@ Aspose.Slides 主要支援 .NET 語言，例如 C#。不過，類似的產品也
 造訪支援論壇[這裡](https://forum.aspose.com/c/slides/11).
 ### 我可以購買 Aspose.Slides for .NET 的臨時授權嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

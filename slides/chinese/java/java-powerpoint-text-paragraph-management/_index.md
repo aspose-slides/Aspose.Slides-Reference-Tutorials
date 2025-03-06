@@ -3,14 +3,10 @@ title: Java PowerPoint 文本和段落管理
 linktitle: Java PowerPoint 文本和段落管理
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 掌握使用 Aspose.Slides 进行 Java PowerPoint 文本和段落管理。学习导入 HTML 文本、管理行距、创建项目符号和对齐段落。
+type: docs
 weight: 26
 url: /zh/java/java-powerpoint-text-paragraph-management/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 介绍
 
 创建结构良好且视觉上有吸引力的 PowerPoint 演示文稿可以显著增强您的沟通能力。使用 Aspose.Slides for Java，管理文本和段落变得非常简单。无论您需要导入 HTML 文本、管理行距还是创建多级项目符号，我们的详细教程都会指导您完成整个过程。让我们探索如何将您的 Java PowerPoint 演示文稿提升到一个新的水平。
@@ -59,9 +55,3 @@ url: /zh/java/java-powerpoint-text-paragraph-management/
 了解如何使用 Aspose.Slides for Java 以编程方式设置 PowerPoint 幻灯片中的段落缩进。轻松增强您的演示文稿格式。
 ### [使用 Java 在 PowerPoint 中对齐段落](./align-paragraphs-powerpoint-java/)
 了解如何使用 Aspose.Slides for Java 对齐 PowerPoint 演示文稿中的段落。按照我们的分步指南进行精确格式化。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

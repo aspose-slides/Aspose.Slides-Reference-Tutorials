@@ -3,14 +3,10 @@ title: Format Teks Di Dalam Kolom Tabel di PowerPoint menggunakan Java
 linktitle: Format Teks Di Dalam Kolom Tabel di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memformat teks di dalam kolom tabel di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial ini. Sempurnakan presentasi Anda secara terprogram.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Perkenalan
 Apakah Anda siap untuk terjun ke dunia presentasi PowerPoint tetapi dengan sesuatu yang berbeda? Daripada memformat slide Anda secara manual, mari kita ambil cara yang lebih efisien menggunakan Aspose.Slides untuk Java. Tutorial ini akan memandu Anda melalui proses pemformatan teks di dalam kolom tabel dalam presentasi PowerPoint secara terprogram. Bersiaplah, karena ini akan menjadi perjalanan yang menyenangkan!
 ## Prasyarat
@@ -92,9 +88,3 @@ Sangat! Aspose.Slides memungkinkan opsi pemformatan yang luas, termasuk gaya fon
  Anda dapat mengunduh uji coba gratis dari[Asumsikan halaman uji coba gratis](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
  Lihat[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) untuk contoh dan panduan rinci.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

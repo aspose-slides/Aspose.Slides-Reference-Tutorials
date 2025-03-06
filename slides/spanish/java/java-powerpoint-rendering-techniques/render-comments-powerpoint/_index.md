@@ -3,14 +3,10 @@ title: Representar comentarios en PowerPoint
 linktitle: Representar comentarios en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a representar comentarios en presentaciones de PowerPoint usando Aspose.Slides para Java. Personalice la apariencia y genere vistas previas de imágenes de manera eficiente.
+type: docs
 weight: 10
 url: /es/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Introducción
 En este tutorial, recorreremos el proceso de representación de comentarios en presentaciones de PowerPoint utilizando Aspose.Slides para Java. La representación de comentarios puede resultar útil para diversos fines, como generar vistas previas de imágenes de presentaciones con comentarios incluidos.
 ## Requisitos previos
@@ -76,9 +72,3 @@ Sí, además de PNG, puede representar comentarios en otros formatos de imagen c
 Sí, con Aspose.Slides, puede representar comentarios en imágenes sin abrir la aplicación PowerPoint.
 ### ¿Existe alguna forma de representar comentarios directamente en un documento PDF?
 Sí, Aspose.Slides proporciona funcionalidad para representar comentarios directamente en documentos PDF, lo que permite una integración perfecta en el flujo de trabajo de su documento.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

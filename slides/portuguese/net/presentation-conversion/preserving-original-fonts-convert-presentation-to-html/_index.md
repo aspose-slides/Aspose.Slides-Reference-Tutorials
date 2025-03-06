@@ -3,14 +3,10 @@ title: Preservando fontes originais - Converta apresentação em HTML
 linktitle: Preservando fontes originais - Converta apresentação em HTML
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como preservar as fontes originais ao converter apresentações em HTML usando Aspose.Slides for .NET. Garanta a consistência da fonte e o impacto visual sem esforço.
+type: docs
 weight: 14
 url: /pt/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-
 
 Neste guia completo, orientaremos você no processo de preservação das fontes originais ao converter uma apresentação para HTML usando Aspose.Slides for .NET. Forneceremos o código-fonte C# necessário e explicaremos cada etapa detalhadamente. Ao final deste tutorial, você poderá garantir que as fontes do documento HTML convertido permaneçam fiéis à apresentação original.
 
@@ -102,10 +98,3 @@ Aspose.Slides for .NET concentra-se principalmente em apresentações em PowerPo
 ### P5: Onde posso acessar recursos e suporte adicionais?
 
  Você pode encontrar mais documentação, tutoriais e suporte no site Aspose. Visita[Documentação Aspose.Slides para .NET](https://reference.aspose.com/slides/net/) para obter informações detalhadas.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
