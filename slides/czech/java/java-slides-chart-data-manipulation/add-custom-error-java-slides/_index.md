@@ -3,10 +3,14 @@ title: Přidat vlastní chybu v Java Slides
 linktitle: Přidat vlastní chybu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak přidat vlastní chybové úsečky do grafů aplikace PowerPoint v aplikaci Java Slides pomocí Aspose.Slides. Podrobný průvodce se zdrojovým kódem pro přesnou vizualizaci dat.
-type: docs
 weight: 11
 url: /cs/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do přidávání vlastních chybových pruhů do snímků Java pomocí Aspose.Slides
 
@@ -150,3 +154,9 @@ Můžete procházet datové body a pro každý bod nastavit vlastní hodnoty chy
 ### Je možné skrýt chybové úsečky pro konkrétní datové body?
 
  Ano, viditelnost chybových pruhů pro jednotlivé datové body můžete ovládat nastavením`setVisible` vlastnictvím`IErrorBarsFormat` objekt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

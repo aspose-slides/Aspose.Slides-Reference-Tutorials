@@ -3,10 +3,14 @@ title: Java PowerPoint 動畫與形狀操作
 linktitle: Java PowerPoint 動畫與形狀操作
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中製作動畫和操作形狀。動態演示的綜合教學。
-type: docs
 weight: 25
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介紹
 
@@ -90,3 +94,9 @@ PowerPoint 簡報可以改變任何專案的遊戲規則，無論是商業宣傳
 透過此逐步教學，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中嵌入視訊畫面。輕鬆增強您的簡報。
 ### [從 PowerPoint 中的 OLE 物件提取嵌入文件數據](./extract-embedded-file-data-ole-object-powerpoint/)
 了解如何使用 Aspose.Slides for Java 從 PowerPoint 簡報中提取嵌入的文件數據，從而增強文件管理功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

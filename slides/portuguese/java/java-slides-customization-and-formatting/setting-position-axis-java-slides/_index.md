@@ -3,10 +3,14 @@ title: Configurando o eixo de posição em slides Java
 linktitle: Configurando o eixo de posição em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore seus gráficos com Aspose.Slides para Java. Aprenda como definir o eixo de posição em slides Java, criar apresentações impressionantes e personalizar layouts de gráficos com facilidade.
-type: docs
 weight: 16
 url: /pt/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à configuração do eixo de posição em Aspose.Slides para Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 É isso neste tutorial. Você aprendeu como definir o eixo de posição em um gráfico usando Aspose.Slides para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

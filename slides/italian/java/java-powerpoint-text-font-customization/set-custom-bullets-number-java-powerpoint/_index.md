@@ -3,10 +3,14 @@ title: Imposta il numero di punti elenco personalizzati in Java PowerPoint
 linktitle: Imposta il numero di punti elenco personalizzati in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare numeri di punti elenco personalizzati in Java PowerPoint con Aspose.Slides, migliorando la chiarezza e la struttura della presentazione a livello di codice.
-type: docs
 weight: 15
 url: /it/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 Nell'era digitale di oggi, la creazione di presentazioni dinamiche è fondamentale per comunicare in modo efficace idee e dati. Aspose.Slides per Java fornisce un potente toolkit per manipolare le presentazioni PowerPoint a livello di codice, offrendo funzionalità estese per migliorare il processo di creazione delle presentazioni. Questo articolo approfondisce l'impostazione di numeri di punti elenco personalizzati nelle presentazioni Java PowerPoint utilizzando Aspose.Slides. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questo tutorial ti guiderà passo dopo passo attraverso il processo, assicurandoti di poter sfruttare questa funzionalità in modo efficiente.
 ## Prerequisiti
@@ -82,3 +86,9 @@ Aspose.Slides supporta i formati PowerPoint dal 97-2003 alle versioni più recen
  Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### Dove posso acquistare Aspose.Slides?
  È possibile acquistare Aspose.Slides da[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

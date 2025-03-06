@@ -3,10 +3,14 @@ title: 將投影片複製到 PowerPoint 中的指定部分
 linktitle: 將投影片複製到 PowerPoint 中的指定部分
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 輕鬆將投影片複製到 PowerPoint 中的特定部分。透過本逐步指南增強您的簡報。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 您是否希望簡化 PowerPoint 簡報的建立流程？想像一下能夠輕鬆地將投影片複製到簡報的特定部分。使用 Aspose.Slides for Java，這變得輕而易舉。本教學將逐步引導您完成整個過程，確保您可以輕鬆、準確地增強您的簡報。
 ## 先決條件
@@ -76,3 +80,9 @@ if (presentation != null) presentation.dispose();
 試用版有一些限制。要獲得完整功能，請考慮獲取[臨時執照](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到更詳細的文件？
 詳細文件可在[Aspose.Slides 文件頁面](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

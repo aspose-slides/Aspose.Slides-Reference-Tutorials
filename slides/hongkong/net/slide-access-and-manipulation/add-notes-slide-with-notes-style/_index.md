@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for .NET 新增時尚的註解格式
 linktitle: 新增具有時尚註釋格式的註釋投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將時尚的註解格式新增至 PowerPoint 簡報中。使用符號和要點增強您的投影片。
-type: docs
 weight: 14
 url: /zh-hant/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在簡報領域，重要的不僅是您提供的內容，還包括您呈現內容的方式。時尚的筆記格式可以顯著提高簡報的效果。透過 Aspose.Slides for .NET，您可以透過新增帶有重點和符號的時尚註釋來輕鬆增強 PowerPoint 簡報。在本逐步指南中，我們將引導您完成在 PowerPoint 投影片中新增時尚筆記格式的過程。
 
@@ -109,3 +113,9 @@ Aspose.Slides for .NET 是一個功能強大的函式庫，用於以程式設計
 
 ### 是否有適用於 Aspose.Slides for .NET 的社群論壇或支援？
 是的，您可以在 Aspose.Slides for .NET 社群論壇上尋求協助並參與討論[這裡](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

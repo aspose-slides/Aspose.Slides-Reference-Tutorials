@@ -3,10 +3,14 @@ title: Đặt hàng đầu tiên làm tiêu đề trong bảng PowerPoint bằng
 linktitle: Đặt hàng đầu tiên làm tiêu đề trong bảng PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt hàng đầu tiên làm tiêu đề trong bảng PowerPoint bằng Aspose.Slides cho Java. Cải thiện sự rõ ràng và tổ chức của bản trình bày một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thao tác với các bảng PowerPoint bằng Aspose.Slides cho Java, một thư viện mạnh mẽ cho phép tích hợp và sửa đổi liền mạch các bản trình bày. Cụ thể, chúng tôi sẽ tập trung vào việc đặt hàng đầu tiên của bảng làm tiêu đề, nâng cao tính hấp dẫn trực quan và tính tổ chức cho các trang chiếu của bạn.
 ## Điều kiện tiên quyết
@@ -76,3 +80,9 @@ Aspose.Slides for Java là một thư viện mạnh mẽ để làm việc với
  Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Bạn có thể nhận được sự hỗ trợ của cộng đồng[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

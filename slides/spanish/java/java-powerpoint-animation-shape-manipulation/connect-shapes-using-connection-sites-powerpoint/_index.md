@@ -3,10 +3,14 @@ title: Conecte formas usando sitios de conexión en PowerPoint
 linktitle: Conecte formas usando sitios de conexión en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo conectar formas en PowerPoint usando Aspose.Slides para Java. Automatiza tus presentaciones sin esfuerzo.
-type: docs
 weight: 19
 url: /es/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En este tutorial, exploraremos cómo conectar formas usando sitios de conexión en PowerPoint usando Aspose.Slides para Java. Esta poderosa biblioteca nos permite manipular presentaciones de PowerPoint mediante programación, haciendo que tareas como conectar formas sean fluidas y eficientes.
 ## Requisitos previos
@@ -70,3 +74,9 @@ Sí, Aspose.Slides para Java proporciona una amplia gama de funcionalidades para
  Sí, hay licencias temporales disponibles para fines de prueba y evaluación. Puedes obtener uno[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo comprar una licencia de Aspose.Slides para Java?
 Puede comprar una licencia desde el sitio web de Aspose[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Klona bild i samma presentation
 linktitle: Klona bild i samma presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du klona bilder i samma PowerPoint-presentation med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med kompletta källkodsexempel för att effektivt manipulera dina presentationer.
-type: docs
 weight: 21
 url: /sv/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -105,3 +109,9 @@ Ja, du kan klona bilder mellan olika presentationer med liknande tekniker. Se ba
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
  För mer detaljerad dokumentation och exempel kan du besöka[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

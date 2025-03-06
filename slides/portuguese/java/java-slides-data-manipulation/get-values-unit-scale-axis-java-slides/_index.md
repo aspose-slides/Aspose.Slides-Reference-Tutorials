@@ -3,10 +3,14 @@ title: Obtenha valores e escala unitária do eixo em slides Java
 linktitle: Obtenha valores e escala unitária do eixo em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como obter valores e escala unitária de eixos em Java Slides usando Aspose.Slides for Java. Aprimore seus recursos de análise de dados.
-type: docs
 weight: 20
 url: /pt/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução para obter valores e escala unitária do eixo em slides Java
 
@@ -122,3 +126,9 @@ Sim, você pode usar Aspose.Slides for Java em projetos comerciais. Oferece opç
 ### Onde posso encontrar mais recursos e documentação para Aspose.Slides for Java?
 
  Você pode encontrar documentação abrangente e recursos adicionais no site[Documentação Aspose.Slides para Java](https://reference.aspose.com/slides/java/) local na rede Internet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

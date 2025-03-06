@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में स्वचालित 
 linktitle: जावा स्लाइड्स में स्वचालित पाई चार्ट स्लाइस रंग सेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में स्वचालित स्लाइस रंगों के साथ गतिशील पाई चार्ट बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 24
 url: /hi/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में स्वचालित पाई चार्ट स्लाइस रंग सेट करने का परिचय
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 आप आवश्यकतानुसार फ़ॉन्ट का आकार, बोल्डनेस और इटैलिक शैली समायोजित कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

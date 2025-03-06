@@ -3,10 +3,14 @@ title: Streckungsversatz für Bildfüllung in PowerPoint hinzufügen
 linktitle: Streckungsversatz für Bildfüllung in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Schritt-für-Schritt-Anleitung enthalten.
-type: docs
 weight: 16
 url: /de/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für die Bildfüllung in PowerPoint-Präsentationen hinzufügen. Mit dieser Funktion können Sie Bilder in Ihren Folien bearbeiten und so deren Erscheinungsbild besser steuern.
 ## Voraussetzungen
@@ -64,3 +68,9 @@ Aspose.Slides für Java kann Bilder verschiedener Größen verarbeiten, es wird 
 Ja, Sie können mit der umfangreichen API von Aspose.Slides für Java eine Vielzahl von Effekten und Transformationen auf Bilder anwenden.
 ### Wo finde ich weitere Ressourcen und Support für Aspose.Slides für Java?
  Besuchen Sie die[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für detaillierte Anleitungen und erkunden Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung der Community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

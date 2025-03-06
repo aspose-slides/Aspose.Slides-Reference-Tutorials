@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for .NET 添加视频帧教程
 linktitle: 使用 Aspose.Slides 将视频帧添加到演示幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 通过动态视频帧使演示文稿焕然一新。按照我们的指南进行无缝集成并创建引人入胜的内容。
-type: docs
 weight: 19
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在动态的演示环境中，整合多媒体元素可以提升整体影响力和参与度。在幻灯片中添加视频帧可以改变游戏规则，以静态内容无法做到的方式吸引观众的注意力。Aspose.Slides for .NET 提供了一个强大的解决方案，可将视频帧无缝集成到您的演示幻灯片中。
 ## 先决条件
@@ -67,3 +71,9 @@ Aspose.Slides for .NET 支持各种视频格式，包括 AVI、WMV 和 MP4。
 是的，您可以通过下载试用版来探索 Aspose.Slides for .NET 的功能[这里](https://releases.aspose.com/).
 ### Q5: 在哪里可以找到对 Aspose.Slides for .NET 的支持？
 如有任何疑问或需要帮助，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides - 在 .NET 中创建组形状
 linktitle: 使用 Aspose.Slides 在演示幻灯片中创建组形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中创建组形状。按照我们的分步指南制作具有视觉吸引力的演示文稿。
-type: docs
 weight: 11
 url: /zh/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 如果您希望增强演示文稿幻灯片的视觉吸引力并更有效地组织内容，那么合并组形状是一种强大的解决方案。Aspose.Slides for .NET 提供了一种在 PowerPoint 演示文稿中创建和操作组形状的无缝方法。在本教程中，我们将逐步介绍使用 Aspose.Slides 创建组形状的过程，并将其分解为易于遵循的步骤。
 ## 先决条件
@@ -98,3 +102,10 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 您可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪里购买 Aspose.Slides 的完整许可证？
 您可以从[购买页面](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

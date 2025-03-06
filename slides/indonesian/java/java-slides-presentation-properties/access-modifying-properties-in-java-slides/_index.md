@@ -3,10 +3,14 @@ title: Akses Memodifikasi Properti di Slide Java
 linktitle: Akses Memodifikasi Properti di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengakses dan mengubah properti di Java Slides menggunakan Aspose.Slides for Java. Sempurnakan presentasi Anda dengan properti khusus.
-type: docs
 weight: 11
 url: /id/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengakses Properti Memodifikasi di Slide Java
 
@@ -117,3 +121,9 @@ Anda dapat menangani kesalahan dengan menggunakan mekanisme penanganan pengecual
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh?
 
  Anda dapat menemukan dokumentasi komprehensif dan contoh kode untuk Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

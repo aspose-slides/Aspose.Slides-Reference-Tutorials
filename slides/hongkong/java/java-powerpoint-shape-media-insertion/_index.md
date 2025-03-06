@@ -3,10 +3,14 @@ title: Java PowerPoint 形狀與媒體插入
 linktitle: Java PowerPoint 形狀與媒體插入
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將形狀和媒體插入 PowerPoint 簡報中。教程包括添加線條、音訊、OLE 物件和視訊。
-type: docs
 weight: 23
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介紹
 
@@ -53,3 +57,9 @@ url: /zh-hant/java/java-powerpoint-shape-media-insertion/
 了解如何使用 Aspose.Slides for Java 將影片內容無縫整合到 PowerPoint 簡報中。您的投影片包含多媒體元素以吸引觀眾。
 ### [在 PowerPoint 中新增來自 Web 來源的視訊幀](./add-video-frame-web-source-powerpoint/)
 了解如何使用 Aspose.Slides for Java 新增來自 Web 來源的影片畫面來增強 PowerPoint 簡報。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Nhận giá trị và tỷ lệ đơn vị từ trục trong các trang t
 linktitle: Nhận giá trị và tỷ lệ đơn vị từ trục trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lấy giá trị và thang đo đơn vị từ các trục trong Java Slides bằng Aspose.Slides for Java. Nâng cao khả năng phân tích dữ liệu của bạn.
-type: docs
 weight: 20
 url: /vi/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Nhận giá trị và thang đo đơn vị từ trục trong Java Slides
 
@@ -122,3 +126,9 @@ Có, bạn có thể sử dụng Aspose.Slides for Java trong các dự án thư
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện và các tài nguyên bổ sung trên[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) trang mạng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

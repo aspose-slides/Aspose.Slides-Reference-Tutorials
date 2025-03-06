@@ -3,10 +3,14 @@ title: Entdecken Sie die Magie des effektiven Abrufs von Abschrägungsdaten in F
 linktitle: Abrufen effektiver Abschrägungsdaten für die Form in Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre Präsentationsfolien mit Aspose.Slides mit effektiven Abschrägungsdaten verbessern können. Eine umfassende Anleitung mit Schritt-für-Schritt-Anleitungen und Beispielcode.
-type: docs
 weight: 20
 url: /de/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Willkommen in der faszinierenden Welt von Aspose.Slides für .NET, Ihrem Tor zum Erstellen atemberaubender Präsentationen mit beispielloser Leichtigkeit. In diesem Tutorial werden wir uns mit den Feinheiten der Erlangung effektiver Abschrägungsdaten für Formen in Präsentationsfolien mithilfe von Aspose.Slides für .NET befassen.
 ## Voraussetzungen
@@ -69,3 +73,9 @@ Ja, Aspose.Slides für .NET unterstützt eine breite Palette von .NET Framework-
  Ja, Sie können Aspose.Slides für .NET kaufen[Hier](https://purchase.aspose.com/buy) um die Premiumfunktionen für kommerzielle Projekte freizuschalten.
 ### Was passiert, wenn während der Implementierung Probleme auftreten?
  Bitten Sie die Aspose.Slides for .NET-Community um Unterstützung auf der[Hilfeforum](https://forum.aspose.com/c/slides/11) für schnelle und hilfreiche Lösungen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

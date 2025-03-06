@@ -3,10 +3,14 @@ title: Wyrównaj tekst w pionie w programie Java PowerPoint
 linktitle: Wyrównaj tekst w pionie w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyrównywać tekst w pionie w prezentacjach Java PowerPoint przy użyciu Aspose.Slides w celu płynnego formatowania slajdów.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 tym samouczku dowiesz się, jak wyrównywać w pionie tekst w komórkach tabeli w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java. Wyrównanie tekstu w pionie to kluczowy aspekt projektowania slajdów, zapewniający schludną i profesjonalną prezentację treści. Aspose.Slides zapewnia zaawansowane funkcje do programowego manipulowania i formatowania prezentacji, zapewniając pełną kontrolę nad każdym aspektem slajdów.
 ## Warunki wstępne
@@ -91,3 +95,9 @@ Aspose.Slides obsługuje generowanie prezentacji kompatybilnych ze wszystkimi g�
  Odwiedzić[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/java/) obszerne przewodniki, odniesienia do API i próbki kodu.
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Aby uzyskać pomoc techniczną i wsparcie społeczności, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

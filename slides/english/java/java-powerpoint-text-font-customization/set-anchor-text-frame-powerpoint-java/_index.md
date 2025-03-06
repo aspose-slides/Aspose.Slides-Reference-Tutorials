@@ -3,10 +3,14 @@ title: Set Anchor of Text Frame in PowerPoint with Java
 linktitle: Set Anchor of Text Frame in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set text frame anchors in PowerPoint using Java with Aspose.Slides. Enhance your presentations.
-type: docs
 weight: 13
 url: /java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, you will learn how to set the anchor of a text frame in PowerPoint presentations using Java with the help of Aspose.Slides. Anchoring text frames allows you to precisely control the position and behavior of text within a shape, ensuring your slides are visually appealing and structured effectively.
 ## Prerequisites
@@ -71,3 +75,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides for Java?
 You can visit the support forum [here](https://forum.aspose.com/c/slides/11) for any queries or assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

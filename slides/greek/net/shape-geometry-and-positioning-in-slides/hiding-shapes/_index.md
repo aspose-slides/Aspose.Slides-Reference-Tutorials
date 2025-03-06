@@ -3,10 +3,14 @@ title: Απόκρυψη σχημάτων στο PowerPoint με το Aspose.Slid
 linktitle: Απόκρυψη σχημάτων σε διαφάνειες παρουσίασης με Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αποκρύπτετε σχήματα σε διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Προσαρμόστε τις παρουσιάσεις μέσω προγραμματισμού με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 21
 url: /el/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η προσαρμογή είναι το κλειδί. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για τον προγραμματισμό των παρουσιάσεων του PowerPoint. Μια κοινή απαίτηση είναι η δυνατότητα απόκρυψης συγκεκριμένων σχημάτων μέσα σε μια διαφάνεια. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία απόκρυψης σχημάτων σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -73,3 +77,9 @@ Congratulations! You've successfully hidden shapes in your presentation using As
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/)για δοκιμαστικούς σκοπούς.
 ### Πώς μπορώ να λάβω υποστήριξη κοινότητας για το Aspose.Slides;
  Εγγραφείτε στην κοινότητα Aspose.Slides στο[δικαστήριο](https://forum.aspose.com/c/slides/11) για συζητήσεις και βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

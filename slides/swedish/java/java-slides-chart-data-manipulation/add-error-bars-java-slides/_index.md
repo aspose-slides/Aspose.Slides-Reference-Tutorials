@@ -3,10 +3,14 @@ title: Lägg till felfält i Java Slides
 linktitle: Lägg till felfält i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till felstaplar till PowerPoint-diagram i Java med Aspose.Slides. Steg-för-steg-guide med källkod för att anpassa felfält.
-type: docs
 weight: 13
 url: /sv/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att lägga till felfält i Java Slides med Aspose.Slides
 
@@ -128,3 +132,9 @@ Ja, du kan lägga till felstaplar till olika diagramtyper som stöds av Aspose.S
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 
  Du kan hänvisa till[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) för detaljerad information om hur du använder biblioteket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

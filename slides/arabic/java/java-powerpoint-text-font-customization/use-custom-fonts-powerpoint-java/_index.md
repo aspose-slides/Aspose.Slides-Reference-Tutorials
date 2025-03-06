@@ -3,10 +3,14 @@ title: استخدم الخطوط المخصصة في PowerPoint مع Java
 linktitle: استخدم الخطوط المخصصة في PowerPoint مع Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية دمج الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
-type: docs
 weight: 25
 url: /ar/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية الاستفادة من Aspose.Slides for Java لتحسين عروض PowerPoint التقديمية من خلال دمج الخطوط المخصصة. يمكن للخطوط المخصصة أن تُثري المظهر المرئي لشرائحك بشكل كبير، مما يضمن توافقها تمامًا مع علامتك التجارية أو متطلبات التصميم. سنغطي كل شيء بدءًا من استيراد الحزم الضرورية وحتى تنفيذ الخطوات المطلوبة لدمج الخطوط المخصصة بسلاسة في عروضك التقديمية.
 ## المتطلبات الأساسية
@@ -70,3 +74,9 @@ FontsLoader.clearCache();
 يدعم Aspose.Slides for Java استخدام نطاق واسع من الخطوط المخصصة، ولا يوجد حد متأصل تفرضه المكتبة.
 ### هل يمكنني تضمين خطوط مخصصة مباشرةً في ملف PowerPoint باستخدام Aspose.Slides لـ Java؟
 نعم، يسمح لك Aspose.Slides for Java بتضمين خطوط مخصصة في ملف العرض التقديمي نفسه للتوزيع السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

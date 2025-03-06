@@ -3,10 +3,14 @@ title: Nastavte vlastní možnosti legendy v aplikaci Java Slides
 linktitle: Nastavte vlastní možnosti legendy v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit vlastní možnosti legendy v Java Slides pomocí Aspose.Slides for Java. Přizpůsobte umístění a velikost legendy v grafech PowerPoint.
-type: docs
 weight: 14
 url: /cs/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod k nastavení vlastních možností legendy v Java Slides
 
@@ -131,3 +135,9 @@ V tomto tutoriálu jsme se naučili, jak upravit vlastnosti legendy grafu v prez
 ## Mohu upravit další atributy legend?
 
 Ano, můžete přizpůsobit různé atributy legendy, jako je styl písma, ohraničení, barva pozadí a další. Prozkoumejte dokumentaci Aspose.Slides, kde najdete podrobné informace o dalším přizpůsobení legend.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

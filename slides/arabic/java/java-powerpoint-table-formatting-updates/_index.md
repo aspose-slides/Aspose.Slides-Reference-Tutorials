@@ -3,10 +3,14 @@ title: تنسيق جدول Java PowerPoint وتحديثاته
 linktitle: تنسيق جدول Java PowerPoint وتحديثاته
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض Java PowerPoint التقديمية بتنسيق الجدول والتحديثات باستخدام Aspose.Slides. تعلم كيفية إضافة الحدود وتنسيق النص في الأعمدة والصفوف وتحديث الجداول.
-type: docs
 weight: 31
 url: /ar/java/java-powerpoint-table-formatting-updates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -36,3 +40,9 @@ url: /ar/java/java-powerpoint-table-formatting-updates/
 تعرف على كيفية تنسيق النص داخل صفوف الجدول في PowerPoint باستخدام Aspose.Slides لـ Java. قم بتعزيز العروض التقديمية الخاصة بك من خلال دليلنا خطوة بخطوة.
 ### [تحديث الجدول الموجود في PowerPoint باستخدام Java](./update-existing-table-powerpoint-java/)
 تعرف على كيفية تحديث الجداول الموجودة في PowerPoint باستخدام Java باستخدام Aspose.Slides. تم تضمين دليل خطوة بخطوة وتعليمات مفصلة والأسئلة الشائعة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

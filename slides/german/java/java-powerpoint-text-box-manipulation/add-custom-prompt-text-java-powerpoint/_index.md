@@ -3,10 +3,14 @@ title: Benutzerdefinierten Eingabeaufforderungstext in Java PowerPoint hinzufüg
 linktitle: Benutzerdefinierten Eingabeaufforderungstext in Java PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides benutzerdefinierten Eingabeaufforderungstext in Java PowerPoint hinzufügen. Verbessern Sie mit diesem Tutorial mühelos die Benutzerinteraktion.
-type: docs
 weight: 12
 url: /de/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Im heutigen digitalen Zeitalter ist die Erstellung dynamischer und ansprechender Präsentationen für eine effektive Kommunikation von entscheidender Bedeutung. Aspose.Slides für Java ermöglicht Entwicklern die programmgesteuerte Bearbeitung von PowerPoint-Präsentationen und bietet umfangreiche Funktionen zum Anpassen von Folien, Formen, Text und mehr. Dieses Tutorial führt Sie durch den Prozess des Hinzufügens von benutzerdefiniertem Eingabeaufforderungstext zu Platzhaltern in Java PowerPoint-Präsentationen mit Aspose.Slides.
 ## Voraussetzungen
@@ -71,3 +75,9 @@ Aspose.Slides unterstützt eine Vielzahl von PowerPoint-Versionen und gewährlei
  Sie erhalten eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) um alle Funktionen von Aspose.Slides zu testen.
 ### Unterstützt Aspose.Slides für Java das Hinzufügen benutzerdefinierter Animationen zu Folien?
 Ja, Aspose.Slides bietet APIs zur programmgesteuerten Verwaltung von Folienanimationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

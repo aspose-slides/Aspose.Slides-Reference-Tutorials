@@ -3,10 +3,14 @@ title: जावा का उपयोग करके स्मार्टआ
 linktitle: जावा का उपयोग करके स्मार्टआर्ट की छिपी हुई संपत्ति की जाँच करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint में SmartArt की छिपी हुई संपत्ति की जांच कैसे करें, जिससे प्रस्तुति में हेरफेर में वृद्धि हो।
-type: docs
 weight: 24
 url: /hi/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 जावा प्रोग्रामिंग की गतिशील दुनिया में, PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करना एक मूल्यवान कौशल है। Aspose.Slides for Java एक मजबूत लाइब्रेरी है जो डेवलपर्स को PowerPoint प्रस्तुतियों को सहजता से बनाने, संशोधित करने और हेरफेर करने की शक्ति प्रदान करती है। प्रस्तुति हेरफेर में आवश्यक कार्यों में से एक SmartArt ऑब्जेक्ट्स की छिपी हुई संपत्ति की जाँच करना है। यह ट्यूटोरियल आपको Aspose.Slides for Java का उपयोग करके SmartArt की छिपी हुई संपत्ति की जाँच करने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -76,3 +80,9 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 हां, Java के लिए Aspose.Slides PPT, PPTX, POT, POTX, PPS, आदि सहित PowerPoint फ़ाइल स्वरूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
 ### क्या कोई समुदाय या मंच है जहां मैं Aspose.Slides for Java के लिए सहायता प्राप्त कर सकता हूं?
 हां, आप Aspose.Slides फोरम पर जा सकते हैं (https://forum.aspose.com/c/slides/11) प्रश्न पूछने, विचार साझा करने और समुदाय से समर्थन प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

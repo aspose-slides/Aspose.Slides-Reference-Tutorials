@@ -3,10 +3,14 @@ title: Java 슬라이드에서 파일 형식 정보 가져오기
 linktitle: Java 슬라이드에서 파일 형식 정보 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 파일 형식 정보를 검색하는 방법을 알아보세요. 코드 예제를 통해 프레젠테이션 형식을 식별하세요.
-type: docs
 weight: 11
 url: /ko/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드에서 파일 형식 정보 가져오기 소개
 
@@ -113,3 +117,9 @@ Aspose.Slides for Java는 상용 라이브러리이지만 무료 평가판을 �
 ### Aspose 지원팀에 도움을 요청하려면 어떻게 해야 하나요?
 
 웹사이트를 통해 Aspose 지원팀에 문의할 수 있습니다. 그들은 제품을 사용하는 동안 발생할 수 있는 문의사항이나 문제에 대해 도움을 줄 수 있는 전용 지원 채널을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

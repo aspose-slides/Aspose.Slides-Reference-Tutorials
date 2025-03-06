@@ -3,10 +3,14 @@ title: 슬라이드 배경 마스터 설정 종합 가이드
 linktitle: 슬라이드 배경 마스터 설정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 프레젠테이션을 시각적으로 향상시키기 위해 Aspose.Slides for .NET을 사용하여 슬라이드 배경 마스터를 설정하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/slide-background-manipulation/set-slide-background-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 프리젠테이션 디자인 영역에서는 매력적이고 시각적으로 매력적인 배경이 큰 변화를 가져올 수 있습니다. 비즈니스, 교육 또는 기타 목적으로 프레젠테이션을 만들 때 배경은 시각적 효과를 높이는 데 중요한 역할을 합니다. Aspose.Slides for .NET은 프레젠테이션을 원활하게 조작하고 사용자 정의할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드 배경 마스터를 설정하는 과정을 자세히 살펴보겠습니다. 
 
@@ -143,3 +147,9 @@ Aspose.Slides for .NET은 최신 버전을 포함한 다양한 PowerPoint 형식
 **Title (maximum 60 characters):** .NET용 Aspose.Slides의 마스터 슬라이드 배경 설정
 
 .NET용 Aspose.Slides를 사용하여 프레젠테이션 디자인을 향상하세요. 시선을 사로잡는 시각적 효과를 위해 슬라이드 배경 마스터를 설정하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

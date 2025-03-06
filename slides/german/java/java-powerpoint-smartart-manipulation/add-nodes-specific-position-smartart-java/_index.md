@@ -3,10 +3,14 @@ title: Mit Java Knoten an bestimmten Positionen in SmartArt hinzufügen
 linktitle: Mit Java Knoten an bestimmten Positionen in SmartArt hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Entdecken Sie, wie Sie mit Java und Aspose.Slides Knoten an bestimmten Positionen in SmartArt hinzufügen. Erstellen Sie mühelos dynamische Präsentationen.
-type: docs
 weight: 16
 url: /de/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens von Knoten an bestimmten Positionen in SmartArt mithilfe von Java und Aspose.Slides. SmartArt ist eine Funktion in PowerPoint, mit der Sie optisch ansprechende Diagramme und Tabellen erstellen können.
 ## Voraussetzungen
@@ -70,3 +74,9 @@ Ja, Sie können das Erscheinungsbild von Knoten einschließlich Größe, Farbe u
 Ja, Aspose.Slides bietet Bibliotheken für mehrere Programmiersprachen, darunter .NET und Python.
 ### Gibt es eine Testversion für Aspose.Slides?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

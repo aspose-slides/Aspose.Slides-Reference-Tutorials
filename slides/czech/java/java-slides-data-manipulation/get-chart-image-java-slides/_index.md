@@ -3,10 +3,14 @@ title: Získejte obrázek grafu v Java Slides
 linktitle: Získejte obrázek grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak získat obrázky grafů v Java Slides pomocí Aspose.Slides for Java. Tento průvodce krok za krokem poskytuje zdrojový kód a tipy pro bezproblémovou integraci.
-type: docs
 weight: 19
 url: /cs/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod k získání obrázku grafu v Java Slides
 
@@ -92,3 +96,9 @@ Ano, Aspose.Slides for Java lze použít pro komerční účely. Poskytuje možn
 ### Mohu uložit obrázek grafu v jiném formátu?
 
  Rozhodně! Obrázek grafu můžete uložit v různých formátech, jako je JPEG nebo GIF, zadáním příslušné přípony souboru v`ImageIO.write` metoda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Externe Arbeitsmappe mit aktualisierten Diagrammdaten in Java-Folien einr
 linktitle: Externe Arbeitsmappe mit aktualisierten Diagrammdaten in Java-Folien einrichten
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java externe Arbeitsmappen einrichten und Diagrammdaten in Java Slides aktualisieren. Verbessern Sie Ihre PowerPoint-Automatisierungsfähigkeiten.
-type: docs
 weight: 20
 url: /de/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Festlegen einer externen Arbeitsmappe mit aktualisierten Diagrammdaten in Java-Folien
 
@@ -99,3 +103,9 @@ Ja, Sie können das Erscheinungsbild des Diagramms, einschließlich Titel, Besch
 ### Wo finde ich weitere Dokumentation und Ressourcen für Aspose.Slides für Java?
 
  Ausführliche Dokumentation und zusätzliche Ressourcen finden Sie in der Aspose.Slides-Dokumentation für Java unter[Hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

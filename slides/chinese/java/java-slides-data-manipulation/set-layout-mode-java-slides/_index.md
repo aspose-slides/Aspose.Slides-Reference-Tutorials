@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置布局模式
 linktitle: 在 Java Slides 中设置布局模式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 设置 Java 幻灯片的布局模式。使用带有源代码的分步指南自定义图表定位和大小。
-type: docs
 weight: 23
 url: /zh/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中设置布局模式的介绍
 
@@ -95,3 +99,9 @@ finally
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多信息？
 
 您可以在以下位置找到有关 Aspose.Slides for Java 的更多信息[文档](https://reference.aspose.com/slides/java/)。它包含详细的 API 参考和示例，以帮助您使用 Java 有效地处理幻灯片和图表。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

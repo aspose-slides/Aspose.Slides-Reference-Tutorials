@@ -3,10 +3,14 @@ title: Skapa PowerPoint Shape Thumbnails - Aspose.Slides .NET
 linktitle: Skapa miniatyrbild för Shape i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar miniatyrer för former i PowerPoint-presentationer med Aspose.Slides för .NET. En omfattande steg-för-steg-guide för utvecklare.
-type: docs
 weight: 14
 url: /sv/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Aspose.Slides för .NET är ett kraftfullt bibliotek som ger utvecklare möjlighet att arbeta sömlöst med PowerPoint-presentationer. En av dess anmärkningsvärda funktioner är möjligheten att generera miniatyrer för former i en presentation. Denna handledning guidar dig genom processen att skapa miniatyrer för former med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -57,3 +61,9 @@ S: Du kan implementera felhanteringsmekanismer med hjälp av försöksfångstblo
 S: Aspose.Slides ger flexibilitet för att skapa miniatyrer för olika former, inklusive textrutor, bilder och mer.
 ### F: Kan jag anpassa storleken och upplösningen på de genererade miniatyrerna?
  S: Ja, du kan justera parametrarna när du anropar`GetThumbnail` metod för att kontrollera storlek och upplösning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

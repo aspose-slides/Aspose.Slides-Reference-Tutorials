@@ -3,10 +3,14 @@ title: Mastering Duotone Effects in Aspose.Slides for .NET
 linktitle: Applying Duotone Effects in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Create captivating presentation slides with Aspose.Slides for .NET. Learn to apply duotone effects step-by-step. Elevate your presentations now!
-type: docs
 weight: 18
 url: /net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Creating visually stunning presentation slides is essential for engaging your audience. One effective way to enhance your slides is by applying duotone effects. In this tutorial, we'll walk you through the process of applying duotone effects in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -81,3 +85,10 @@ Yes, Aspose.Slides is regularly updated to ensure compatibility with the latest 
 Absolutely. Explore the Aspose.Slides documentation for advanced customization options.
 ### Is there a trial version available for Aspose.Slides?
 Yes, you can download a free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

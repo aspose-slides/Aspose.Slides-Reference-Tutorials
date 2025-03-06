@@ -3,10 +3,14 @@ title: Właściwości akapitu końcowego w programie Java PowerPoint
 linktitle: Właściwości akapitu końcowego w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się programowo tworzyć i dostosowywać prezentacje programu PowerPoint w Javie za pomocą Aspose.Slides. Zapoznaj się z samouczkami i niezbędnymi wskazówkami dotyczącymi bezproblemowej integracji.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Programowe tworzenie prezentacji programu PowerPoint i manipulowanie nimi może usprawnić przepływ pracy i zwiększyć produktywność w różnych dziedzinach, od prezentacji biznesowych po materiały edukacyjne. Aspose.Slides dla Java zapewnia solidny interfejs API, który umożliwia programistom automatyzację zadań, takich jak dodawanie slajdów, wstawianie tekstu, formatowanie treści i eksportowanie prezentacji w różnych formatach. Ten samouczek poprowadzi Cię przez niezbędne kroki, aby rozpocząć pracę z Aspose.Slides dla Java, demonstrując, jak efektywnie wykorzystać jego funkcje.
 ## Warunki wstępne
@@ -85,3 +89,9 @@ Absolutnie Aspose.Slides zapewnia interfejsy API umożliwiające dodawanie i man
 Tak, możesz dodawać animacje i przejścia do slajdów poprzez interfejs API Aspose.Slides.
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy lub mam pytania?
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie i dyskusje społeczne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

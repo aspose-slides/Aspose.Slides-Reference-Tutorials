@@ -3,10 +3,14 @@ title: Génération de vignettes de diapositives dans Aspose.Slides
 linktitle: Génération de vignettes de diapositives dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Générez des vignettes de diapositives dans Aspose.Slides pour .NET avec un guide étape par étape et des exemples de code. Personnalisez l'apparence et enregistrez les vignettes. Améliorez les aperçus des présentations.
-type: docs
 weight: 10
 url: /fr/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Si vous souhaitez générer des miniatures de diapositives dans vos applications .NET à l'aide d'Aspose.Slides, vous êtes au bon endroit. La création de vignettes de diapositives peut s'avérer une fonctionnalité précieuse dans divers scénarios, tels que la création de visionneuses PowerPoint personnalisées ou la génération d'aperçus d'images de présentations. Dans ce guide complet, nous vous guiderons pas à pas tout au long du processus. Nous aborderons les conditions préalables, l'importation d'espaces de noms et la décomposition de chaque exemple en plusieurs étapes, ce qui vous permettra d'implémenter facilement la génération de vignettes de diapositives de manière transparente.
 
@@ -111,3 +115,9 @@ R : Oui, vous pouvez ajuster les dimensions en modifiant les paramètres dans l
 R : Oui, Aspose.Slides est une solution robuste pour les applications personnelles et commerciales. Vous pouvez trouver les détails de la licence sur le site Web Aspose.
 
  Pour plus d’aide ou des questions, n’hésitez pas à visiter le[Forum d'assistance Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

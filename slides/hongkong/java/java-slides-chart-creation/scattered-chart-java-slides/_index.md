@@ -3,10 +3,14 @@ title: Java 投影片中的散點圖
 linktitle: Java 投影片中的散點圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中建立散點圖。用於簡報中資料視覺化的 Java 原始碼逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java中的散佈圖簡介
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 請隨意在 Aspose.Slides for Java 文件中探索更多自訂選項。
 
 記得更換`"Your Document Directory"`與您要儲存簡報的實際路徑。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

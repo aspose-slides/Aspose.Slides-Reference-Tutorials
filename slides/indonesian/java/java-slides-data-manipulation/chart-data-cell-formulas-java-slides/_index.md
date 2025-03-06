@@ -3,10 +3,14 @@ title: Bagan Rumus Sel Data di Slide Java
 linktitle: Bagan Rumus Sel Data di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur rumus sel data bagan dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Buat bagan dinamis dengan rumus.
-type: docs
 weight: 11
 url: /id/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Rumus Sel Data Bagan di Aspose.Slide untuk Java
 
@@ -122,3 +126,9 @@ Ya, Anda bisa menggunakan berbagai tipe rumus, termasuk operasi matematika, fung
 ### Bagaimana cara mengubah jenis grafik?
 
  Anda dapat mengubah jenis bagan dengan menggunakan`setChartType` metode pada`IChart` objek dan menentukan yang diinginkan`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

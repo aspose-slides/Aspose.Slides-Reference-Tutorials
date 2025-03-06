@@ -3,10 +3,14 @@ title: Crea cornice di zoom in PowerPoint
 linktitle: Crea cornice di zoom in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare fotogrammi Zoom accattivanti in PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida per aggiungere elementi interattivi alle tue presentazioni.
-type: docs
 weight: 17
 url: /it/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 Creare presentazioni PowerPoint accattivanti è un'arte e, a volte, le più piccole aggiunte possono fare un'enorme differenza. Una di queste funzionalità è Zoom Frame, che consente di ingrandire diapositive o immagini specifiche, creando una presentazione dinamica e interattiva. In questo tutorial ti guideremo attraverso il processo di creazione di un frame di zoom in PowerPoint utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -113,3 +117,9 @@ Sì, Aspose.Slides ti consente di personalizzare varie proprietà dei fotogrammi
 Assolutamente! Puoi aggiungere immagini personalizzate ai fotogrammi Zoom leggendo i file immagine e aggiungendoli alla presentazione.
 ### Dove posso trovare altri esempi e documentazione?
  È possibile trovare documentazione completa ed esempi su[Aspose.Slides per la pagina della documentazione Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

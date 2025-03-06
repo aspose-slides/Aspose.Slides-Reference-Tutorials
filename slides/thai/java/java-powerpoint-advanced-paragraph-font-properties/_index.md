@@ -3,10 +3,14 @@ title: Java PowerPoint ย่อหน้าขั้นสูงและคุ
 linktitle: Java PowerPoint ย่อหน้าขั้นสูงและคุณสมบัติแบบอักษร
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เชี่ยวชาญคุณสมบัติย่อหน้าและแบบอักษรขั้นสูงใน Java PowerPoint โดยใช้ Aspose.Slides เรียนรู้การปรับแต่งแบบอักษร เพิ่มสัญลักษณ์แสดงหัวข้อย่อยรูปภาพ และใช้แบบอักษรสำรอง
-type: docs
 weight: 28
 url: /th/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 
 การสร้างงานนำเสนอ PowerPoint ที่สวยงามจำเป็นต้องมีการปรับแต่งองค์ประกอบต่างๆ อย่างละเอียด ตั้งแต่การจัดรูปแบบย่อหน้าไปจนถึงการจัดการแบบอักษร Aspose.Slides สำหรับ Java มีเครื่องมือที่มีประสิทธิภาพในการจัดการคุณสมบัติขั้นสูงเหล่านี้อย่างมีประสิทธิภาพ ในบทความนี้ เราจะสำรวจบทช่วยสอนที่ช่วยให้คุณกำหนดคุณสมบัติแบบอักษรของย่อหน้า เพิ่มสัญลักษณ์แสดงหัวข้อย่อยรูปภาพ และใช้แบบอักษรสำรอง เรามาเจาะลึกเทคนิคขั้นสูงเหล่านี้เพื่อทำให้การนำเสนอของคุณโดดเด่นกันดีกว่า!
@@ -35,3 +39,9 @@ url: /th/java/java-powerpoint-advanced-paragraph-font-properties/
 เรียนรู้วิธีรับสี่เหลี่ยมส่วนใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java พร้อมบทช่วยสอนแบบละเอียดทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา Java
 ### [แสดงผลด้วยแบบอักษรทางเลือกใน Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 เรียนรู้วิธีแสดงข้อความด้วยแบบอักษรสำรองในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการใช้งานที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

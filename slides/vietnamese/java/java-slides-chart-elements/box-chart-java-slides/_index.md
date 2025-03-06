@@ -3,10 +3,14 @@ title: Biểu đồ hộp trong Java Slides
 linktitle: Biểu đồ hộp trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ hộp trong bản trình bày Java bằng Aspose.Slides. Hướng dẫn từng bước và mã nguồn được bao gồm để hiển thị dữ liệu hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Biểu đồ hộp trong Aspose.Slides cho Java
 
@@ -148,3 +152,9 @@ Bạn có thể tùy chỉnh giao diện của Biểu đồ hộp bằng cách s
 ### QuartileMethodType.Exclusive có nghĩa là gì?
 
  Các`QuartileMethodType.Exclusive` cài đặt chỉ định rằng việc tính toán tứ phân vị phải được thực hiện bằng phương pháp độc quyền. Bạn có thể chọn các phương pháp tính toán tứ phân vị khác nhau tùy thuộc vào dữ liệu và yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

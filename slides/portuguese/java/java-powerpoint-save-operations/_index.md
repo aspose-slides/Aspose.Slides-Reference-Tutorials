@@ -3,10 +3,14 @@ title: Operações de salvamento do Java PowerPoint
 linktitle: Operações de salvamento do Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como salvar apresentações do PowerPoint usando Aspose.Slides para Java. Tutoriais sobre como salvar em arquivo, transmitir e adicionar proteção por senha.
-type: docs
 weight: 20
 url: /pt/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução
 
@@ -32,3 +36,9 @@ Aprenda como salvar apresentações do PowerPoint em arquivos programaticamente 
 Aprenda como salvar apresentações do PowerPoint em um stream usando Aspose.Slides para Java. Siga nosso guia passo a passo para uma integração perfeita.
 ### [Salvar PowerPoint com senha](./save-powerpoint-with-password/)
 Aprenda como adicionar proteção por senha a apresentações do PowerPoint usando Aspose.Slides for Java. Proteja seus slides com facilidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

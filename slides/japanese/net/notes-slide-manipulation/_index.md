@@ -3,10 +3,14 @@ title: ノートスライドの操作
 linktitle: ノートスライドの操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: プレゼンテーションを正確に強化しましょう。.NET でのノート スライド操作に関する Aspose.Slides チュートリアルをご覧ください。プログラムでスピーカー ノートを追加、編集、管理する方法を学びます。
-type: docs
 weight: 16
 url: /ja/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 
 .NET 開発者向けの包括的な Aspose.Slides のノート スライド操作チュートリアルへようこそ。このチュートリアルでは、魅力的なスピーカー ノートの世界と、Aspose.Slides ライブラリを使用してプログラムでスピーカー ノートを操作する方法について詳しく説明します。スピーカー ノートはプレゼンテーションで重要な役割を果たし、プレゼンターに貴重な情報を提供して、コンテンツの全体的なインパクトを高めます。このチュートリアルを完了すると、PowerPoint プレゼンテーション内でスピーカー ノートを効果的に追加、編集、管理する方法をしっかりと理解できるようになります。
@@ -39,3 +43,9 @@ Aspose.Slides for .NET を使用して、ノート スライドのヘッダー�
 Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションの特定のスライドからメモを削除する方法を学びます。完全なソース コードを含むステップ バイ ステップ ガイドに従って、プログラムでスライドをシームレスに操作します。
 ### [すべてのスライドからメモを削除する](./remove-notes-from-all-slides/)
 Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのすべてのスライドからメモを削除する方法を学びます。完全なソース コード例を含むこのステップ バイ ステップ ガイドに従って、簡単に目標を達成してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

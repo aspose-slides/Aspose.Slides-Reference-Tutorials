@@ -3,10 +3,14 @@ title: Passen Sie die Winkel der Verbindungslinien in PowerPoint mit Aspose.Slid
 linktitle: Anpassen der Winkel von Verbindungslinien in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET die Winkel von Verbindungslinien in PowerPoint-Folien anpassen. Verbessern Sie Ihre Präsentationen mit Präzision und Leichtigkeit.
-type: docs
 weight: 28
 url: /de/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Das Erstellen optisch ansprechender Präsentationsfolien erfordert häufig präzise Anpassungen der Verbindungslinien. In diesem Tutorial erfahren Sie, wie Sie die Winkel der Verbindungslinien in Präsentationsfolien mit Aspose.Slides für .NET anpassen. Aspose.Slides ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Dateien zu arbeiten und umfassende Funktionen zum Erstellen, Ändern und Bearbeiten von Präsentationen bietet.
 ## Voraussetzungen
@@ -87,3 +91,9 @@ Ja, Aspose.Slides kann sowohl in Windows- als auch in Webanwendungen verwendet w
  Sie können eine vorübergehende Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### Gibt es ein Support-Forum für Aspose.Slides?
  Ja, Sie können das Support-Forum besuchen[Hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

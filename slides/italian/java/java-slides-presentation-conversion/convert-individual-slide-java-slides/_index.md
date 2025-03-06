@@ -3,10 +3,14 @@ title: Converti diapositive individuali in diapositive Java
 linktitle: Converti diapositive individuali in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come convertire singole diapositive di PowerPoint in HTML passo dopo passo con esempi di codice utilizzando Aspose.Slides per Java.
-type: docs
 weight: 12
 url: /it/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alla conversione di singole diapositive in diapositive Java
 
@@ -170,3 +174,9 @@ Hai convertito con successo singole diapositive da una presentazione PowerPoint 
 ### Come posso gestire la formattazione aggiuntiva per forme e testo all'interno delle diapositive?
 
  Puoi estendere il`CustomFormattingController` classe per gestire la formattazione specifica della forma implementando il file`writeShapeStart` E`writeShapeEnd` metodi e applicando la logica di formattazione personalizzata al loro interno.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

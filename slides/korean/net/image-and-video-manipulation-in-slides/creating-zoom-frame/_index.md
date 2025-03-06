@@ -3,10 +3,14 @@ title: Aspose.Slides 줌 프레임으로 동적 프레젠테이션 만들기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 확대/축소 프레임 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 확대 프레임으로 매력적인 프레젠테이션을 만드는 방법을 알아보세요. 매력적인 슬라이드 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 17
 url: /ko/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 프레젠테이션 영역에서 시선을 사로잡는 슬라이드는 지속적인 인상을 남기는 데 핵심입니다. .NET용 Aspose.Slides는 강력한 도구 세트를 제공하며, 이 가이드에서는 매력적인 확대/축소 프레임을 프레젠테이션 슬라이드에 통합하는 과정을 안내합니다.
 ## 전제 조건
@@ -89,3 +93,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: .NET용 Aspose.Slides 정식 버전은 어디서 구입할 수 있나요?
  정식 버전을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

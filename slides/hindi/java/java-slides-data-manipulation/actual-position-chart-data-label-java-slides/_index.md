@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में चार्ट डेट
 linktitle: जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 18
 url: /hi/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में चार्ट डेटा लेबल की वास्तविक स्थिति प्राप्त करने का परिचय
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

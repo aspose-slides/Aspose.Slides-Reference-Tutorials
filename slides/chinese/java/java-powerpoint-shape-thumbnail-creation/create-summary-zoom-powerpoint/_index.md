@@ -3,10 +3,14 @@ title: 在 PowerPoint 中创建摘要放大
 linktitle: 在 PowerPoint 中创建摘要放大
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过这个全面的分步教程学习如何使用 Aspose.Slides for Java 在 PowerPoint 中创建摘要缩放。
-type: docs
 weight: 16
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 欢迎阅读我们关于使用 Aspose.Slides for Java 在 PowerPoint 中创建摘要缩放的综合教程。如果您希望在演示文稿中添加动态和交互元素，摘要缩放是一项很棒的功能。它允许您创建一张可以放大演示文稿不同部分的幻灯片，为您的观众提供更具吸引力和导航性的体验。
 在本分步指南中，我们将引导您完成整个过程，从设置开发环境到创建和自定义摘要缩放框架。无论您是经验丰富的 Java 开发人员还是刚刚入门，您都会发现本指南易于理解且包含宝贵的见解。
@@ -107,3 +111,9 @@ Aspose.Slides for Java 是一个功能强大的库，允许开发人员使用 Ja
 您可以从[Aspose 购买页面](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到更多 Aspose.Slides for Java 的示例和支持？
 您可以在以下位置找到更多示例并寻求支持[Aspose.Slides 支持论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

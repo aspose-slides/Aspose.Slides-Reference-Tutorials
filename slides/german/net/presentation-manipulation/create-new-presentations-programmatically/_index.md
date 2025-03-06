@@ -3,10 +3,14 @@ title: Neue Präsentationen programmgesteuert erstellen
 linktitle: Neue Präsentationen programmgesteuert erstellen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET programmgesteuert Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode für effiziente Automatisierung.
-type: docs
 weight: 10
 url: /de/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Wenn Sie Präsentationen programmgesteuert in .NET erstellen möchten, ist Aspose.Slides für .NET ein leistungsstarkes Tool, mit dem Sie diese Aufgabe effizient erledigen können. Dieses Schritt-für-Schritt-Tutorial führt Sie durch den Prozess der Erstellung neuer Präsentationen mit dem bereitgestellten Quellcode.
 
@@ -87,3 +91,9 @@ Jetzt können Sie damit beginnen, diesen Code in Ihre .NET-Projekte zu integrier
 
 4. ### Kann ich Aspose.Slides für .NET vor dem Kauf ausprobieren?
     Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET herunterladen[Hier](https://releases.aspose.com/). Die Testversion weist Einschränkungen auf. Prüfen Sie daher unbedingt, ob sie Ihren Anforderungen entspricht.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

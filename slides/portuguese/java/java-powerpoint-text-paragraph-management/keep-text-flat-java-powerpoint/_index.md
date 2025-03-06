@@ -3,10 +3,14 @@ title: Mantenha o texto plano em Java PowerPoint
 linktitle: Mantenha o texto plano em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como manter o texto plano em apresentações Java PowerPoint usando Aspose.Slides for Java. Siga nosso guia passo a passo para manipulação de texto eficiente.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 No domínio da manipulação do PowerPoint baseado em Java, Aspose.Slides for Java se destaca como um conjunto de ferramentas robusto e versátil. Quer você seja um desenvolvedor experiente ou um novato em busca de aprimorar suas apresentações de forma programática, o Aspose.Slides for Java oferece um conjunto abrangente de recursos para criar, modificar e gerenciar apresentações do PowerPoint de maneira integrada. Este tutorial se aprofunda em uma funcionalidade específica: manter o texto plano nos slides do PowerPoint usando Aspose.Slides para Java. Seguindo este guia, você aprenderá como manipular a formatação de texto para obter resultados de apresentação precisos.
 ## Pré-requisitos
@@ -64,3 +68,9 @@ Você pode explorar a documentação detalhada[aqui](https://reference.aspose.co
  Sim, você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
 ### Onde posso obter suporte da comunidade para Aspose.Slides for Java?
  Participe do fórum da comunidade Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

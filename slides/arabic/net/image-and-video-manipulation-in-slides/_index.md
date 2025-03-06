@@ -3,10 +3,14 @@ title: معالجة الصور والفيديو في الشرائح
 linktitle: معالجة الصور والفيديو في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروض الشرائح الخاصة بك باستخدام الصور ومقاطع الفيديو الجذابة باستخدام Aspose.Slides for .NET. تعلم خطوة بخطوة كيفية التعامل مع الصور ومقاطع الفيديو داخل الشرائح للحصول على محتوى جذاب بصريًا.
-type: docs
 weight: 12
 url: /ar/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لمعالجة الصور والفيديو في Aspose.Slides
 
@@ -53,3 +57,9 @@ url: /ar/net/image-and-video-manipulation-in-slides/
 تعرف على كيفية استخراج بيانات الملف المضمنة من كائنات OLE في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر لاسترداد البيانات المضمنة ومعالجتها بسلاسة.
 ### [تعبئة الأشكال بالتدرج في شرائح العرض التقديمي باستخدام Aspose.Slides](./filling-shapes-gradient/)
 تعرف على كيفية تحسين شرائح العرض التقديمي الخاص بك باستخدام التدرجات الجذابة باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر الكاملة لملء الأشكال بالتدرجات، من الخطي إلى الشعاعي، مما يضيف العمق والأبعاد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

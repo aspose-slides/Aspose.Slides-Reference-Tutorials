@@ -3,10 +3,14 @@ title: إتقان الاستخلاص الفعال لبيانات الكامير�
 linktitle: الحصول على بيانات الكاميرا الفعالة في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أطلق العنان لإمكانات Aspose.Slides لـ .NET من خلال دليلنا خطوة بخطوة حول استخراج بيانات الكاميرا الفعالة من شرائح العرض التقديمي.
-type: docs
 weight: 18
 url: /ar/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 هل تساءلت يومًا عن كيفية استخراج بيانات الكاميرا المضمنة في شرائح العرض التقديمي ومعالجتها؟ لا مزيد من البحث! سيرشدك هذا البرنامج التعليمي خلال عملية الحصول على بيانات الكاميرا الفعالة باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تتيح لك العمل بسلاسة مع ملفات العروض التقديمية في تطبيقات .NET الخاصة بك.
 ## المتطلبات الأساسية
@@ -68,3 +72,9 @@ Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
  يمكن الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Slides لـ .NET؟
  لشراء Aspose.Slides، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

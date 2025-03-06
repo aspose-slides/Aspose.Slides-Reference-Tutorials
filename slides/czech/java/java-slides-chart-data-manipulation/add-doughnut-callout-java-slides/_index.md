@@ -3,10 +3,14 @@ title: Přidejte do Slides Java popisek donut
 linktitle: Přidejte do Slides Java popisek donut
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat donutové popisky do Java snímků pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vylepšené prezentace.
-type: docs
 weight: 12
 url: /cs/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod k přidání popisku donut do snímků Java pomocí Aspose.Slides pro Java
 
@@ -180,3 +184,9 @@ Ano, do prstencového grafu můžete přidat tolik datových bodů, kolik potře
 ### Jak mohu upravit polohu a velikost prstencového grafu na snímku?
 
  Pozici a velikost prstencového grafu můžete změnit úpravou parametrů v`addChart` metoda. Čtyři čísla v této metodě odpovídají souřadnicím X a Y levého horního rohu grafu a jeho šířce a výšce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java スライドの散布図
 linktitle: Java スライドの散布図
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java で散布図を作成する方法を学びます。プレゼンテーションでデータを視覚化するための Java ソース コードを使用したステップバイステップ ガイドです。
-type: docs
 weight: 11
 url: /ja/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java の散布図の概要
 
@@ -172,3 +176,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Aspose.Slides for Java のドキュメントで、さらに多くのカスタマイズ オプションを自由に調べてください。
 
 交換を忘れないでください`"Your Document Directory"`プレゼンテーションを保存する実際のパスを入力します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

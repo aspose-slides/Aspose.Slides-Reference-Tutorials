@@ -3,10 +3,14 @@ title: Thêm đường hình mũi tên trong PowerPoint
 linktitle: Thêm đường hình mũi tên trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm các đường hình mũi tên vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường sự hấp dẫn thị giác một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Việc thêm các đường hình mũi tên vào bản trình bày PowerPoint có thể nâng cao sức hấp dẫn trực quan và hỗ trợ truyền tải thông tin một cách hiệu quả. Aspose.Slides for Java cung cấp một giải pháp toàn diện cho các nhà phát triển Java để thao tác các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm các đường hình mũi tên vào trang chiếu PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -76,3 +80,9 @@ Bạn có thể khám phá tài liệu, tải xuống thư viện và truy cập
  Tài liệu:[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/)
  Tải xuống:[Aspose.Slides cho Java Tải xuống](https://releases.aspose.com/slides/java/)
  Ủng hộ:[Diễn đàn hỗ trợ Aspose.Slides cho Java](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

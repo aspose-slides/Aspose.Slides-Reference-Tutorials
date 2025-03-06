@@ -3,10 +3,14 @@ title: Java ile PowerPoint'te Metin Çerçevesinin Bağlantısını Ayarlama
 linktitle: Java ile PowerPoint'te Metin Çerçevesinin Bağlantısını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint'te metin çerçevesi bağlantılarını nasıl ayarlayacağınızı öğrenin. Sunumlarınızı geliştirin.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides'ın yardımıyla Java kullanarak PowerPoint sunumlarında bir metin çerçevesinin bağlantısını nasıl ayarlayacağınızı öğreneceksiniz. Metin çerçevelerinin sabitlenmesi, bir şekil içindeki metnin konumunu ve davranışını tam olarak kontrol etmenize olanak tanıyarak slaytlarınızın görsel olarak çekici olmasını ve etkili bir şekilde yapılandırılmasını sağlar.
 ## Önkoşullar
@@ -71,3 +75,9 @@ Aspose.Slides for Java, Java geliştiricilerinin PowerPoint sunumları oluşturm
  Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Slides for Java için nereden destek alabilirim?
  Destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/slides/11) Herhangi bir sorunuz veya yardımınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

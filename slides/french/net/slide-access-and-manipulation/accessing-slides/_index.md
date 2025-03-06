@@ -3,10 +3,14 @@ title: Accéder aux diapositives dans Aspose.Slides
 linktitle: Accéder aux diapositives dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment accéder et manipuler des diapositives PowerPoint par programmation à l'aide d'Aspose.Slides for .NET. Ce guide étape par étape couvre le chargement, la modification et l'enregistrement des présentations, ainsi que des exemples de code source.
-type: docs
 weight: 10
 url: /fr/net/slide-access-and-manipulation/accessing-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à Aspose.Slides pour .NET
 
@@ -134,3 +138,9 @@ Oui, Aspose.Slides prend en charge divers formats PowerPoint, notamment PPT, PPT
 ### Aspose.Slides est-il adapté à la création de présentations à partir de zéro ?
 
 Absolument! Aspose.Slides vous permet de créer de nouvelles présentations à partir de zéro, d'ajouter des diapositives, de définir des mises en page et de les remplir de contenu, offrant ainsi un contrôle total sur le processus de création de présentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

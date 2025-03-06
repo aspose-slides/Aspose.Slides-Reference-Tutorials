@@ -3,10 +3,14 @@ title: Odebrat segmenty tvaru - Aspose.Slides .NET výukový program
 linktitle: Odebrání segmentů z geometrického tvaru v prezentačních snímcích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak odstranit segmenty z geometrických tvarů na snímcích prezentace pomocí Aspose.Slides API pro .NET. Průvodce krok za krokem se zdrojovým kódem.
-type: docs
 weight: 16
 url: /cs/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací často zahrnuje manipulaci s tvary a prvky, abyste dosáhli požadovaného designu. S Aspose.Slides for .NET mohou vývojáři snadno ovládat geometrii tvarů, což umožňuje odstranění konkrétních segmentů. V tomto tutoriálu vás provedeme procesem odstranění segmentů z geometrického tvaru na snímcích prezentace pomocí Aspose.Slides for .NET.
 ## Předpoklady
@@ -68,3 +72,9 @@ Implementujte správné zpracování chyb pomocí bloků try-catch.
 Ne, změny jsou po uložení nevratné. Před úpravou zvažte uložení záloh.
 ### Kde mohu hledat další podporu nebo pomoc?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

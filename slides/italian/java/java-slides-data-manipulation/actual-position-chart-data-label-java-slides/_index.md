@@ -3,10 +3,14 @@ title: Ottieni la posizione effettiva dell'etichetta dei dati del grafico nelle 
 linktitle: Ottieni la posizione effettiva dell'etichetta dei dati del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come ottenere la posizione effettiva delle etichette dei dati del grafico in Diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
-type: docs
 weight: 18
 url: /it/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione per ottenere la posizione effettiva dell'etichetta dei dati del grafico nelle diapositive Java
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

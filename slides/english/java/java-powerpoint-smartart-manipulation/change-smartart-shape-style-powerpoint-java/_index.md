@@ -3,10 +3,14 @@ title: Change SmartArt Shape Style in PowerPoint with Java
 linktitle: Change SmartArt Shape Style in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to change SmartArt styles in PowerPoint presentations using Java with Aspose.Slides for Java. Boost your presentations.
-type: docs
 weight: 23
 url: /java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In the world of Java development, creating powerful presentations is often a requirement. Whether it's for business pitches, educational purposes, or simply sharing information, PowerPoint presentations are a common medium. However, sometimes the default styles and formats provided by PowerPoint may not fully meet our needs. This is where Aspose.Slides for Java comes into play.
 Aspose.Slides for Java is a robust library that allows Java developers to work with PowerPoint presentations programmatically. It provides a wide range of features, including the ability to manipulate shapes, styles, animations, and much more. In this tutorial, we will focus on one specific task: changing the SmartArt shape style in PowerPoint presentations using Java.
@@ -69,3 +73,10 @@ You can get support for Aspose.Slides for Java by visiting the [forum](https://f
 Yes, you can purchase a temporary license for Aspose.Slides for Java from [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find detailed documentation for Aspose.Slides for Java?
 You can find detailed documentation for Aspose.Slides for Java [here](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

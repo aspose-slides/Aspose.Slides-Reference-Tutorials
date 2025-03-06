@@ -3,10 +3,14 @@ title: การดำเนินการบันทึก Java PowerPoint
 linktitle: การดำเนินการบันทึก Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีบันทึกงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนเกี่ยวกับการบันทึกไฟล์ สตรีม และการเพิ่มการป้องกันด้วยรหัสผ่าน
-type: docs
 weight: 20
 url: /th/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## การแนะนำ
 
@@ -32,3 +36,9 @@ url: /th/java/java-powerpoint-save-operations/
 เรียนรู้วิธีบันทึกงานนำเสนอ PowerPoint ลงในสตรีมโดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
 ### [บันทึก PowerPoint ด้วยรหัสผ่าน](./save-powerpoint-with-password/)
 เรียนรู้วิธีเพิ่มการป้องกันด้วยรหัสผ่านให้กับงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java รักษาความปลอดภัยสไลด์ของคุณอย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

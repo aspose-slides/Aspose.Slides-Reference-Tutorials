@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides For Java 進行文件保護
 linktitle: Java 投影片文件保護
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 增強 Java Slides 文件的安全性。探索文件保護的逐步教學。
-type: docs
 weight: 24
 url: /zh-hant/java/document-protection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 在不斷發展的數位文件世界中，確保內容的安全性和完整性至關重要。 Java Slides 文件也不例外，這就是 Aspose.Slides for Java 的用武之地。在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for Java 進行文件保護的基本教學。
 
 ## 為什麼文件保護很重要
@@ -34,3 +38,9 @@ Aspose.Slides for Java 為增強 Java Slides 文件的安全性開闢了一個�
 ## Java 投影片文件保護教學
 ### [刪除 Java 投影片中的寫入保護](./remove-write-protection-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 刪除 Java Slides 簡報中的寫入保護。包含原始碼的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

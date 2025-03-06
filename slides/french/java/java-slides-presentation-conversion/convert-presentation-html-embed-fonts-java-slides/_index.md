@@ -3,10 +3,14 @@ title: Conversion d'une présentation en HTML avec intégration de toutes les po
 linktitle: Conversion d'une présentation en HTML avec intégration de toutes les polices dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment convertir des présentations au format HTML avec des polices intégrées à l'aide d'Aspose.Slides pour Java. Ce guide étape par étape garantit un formatage cohérent pour un partage fluide.
-type: docs
 weight: 13
 url: /fr/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la conversion d'une présentation en HTML avec intégration de toutes les polices dans les diapositives Java
 
@@ -108,3 +112,9 @@ Oui, cette méthode fonctionne pour les présentations au contenu complexe, comp
 ### Où puis-je trouver plus de ressources et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez accéder à une documentation et à des ressources complètes pour Aspose.Slides pour Java à l'adresse[Aspose.Slides pour les références de l'API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

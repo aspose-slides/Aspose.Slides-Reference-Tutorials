@@ -3,10 +3,14 @@ title: Đặt sổ làm việc bên ngoài trong Java Slides
 linktitle: Đặt sổ làm việc bên ngoài trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt sổ làm việc bên ngoài trong Java Slides bằng Aspose.Slides for Java. Tạo bản trình bày động với tích hợp dữ liệu Excel.
-type: docs
 weight: 19
 url: /vi/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Đặt sổ làm việc bên ngoài trong Java Slides
 
@@ -119,3 +123,9 @@ Aspose.Slides cho Java được cập nhật thường xuyên để đảm bảo
 ### Tôi có thể thêm nhiều biểu đồ tham chiếu cùng một sổ làm việc bên ngoài không?
 
 Có, bạn có thể thêm nhiều biểu đồ vào bản trình bày của mình, tất cả đều tham chiếu đến cùng một sổ làm việc bên ngoài. Chỉ cần lặp lại các bước được nêu trong hướng dẫn này cho từng biểu đồ bạn muốn tạo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

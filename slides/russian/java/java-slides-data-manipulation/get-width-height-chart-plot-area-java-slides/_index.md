@@ -3,10 +3,14 @@ title: Получить ширину и высоту из области гра�
 linktitle: Получить ширину и высоту из области графика диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получить размеры области графика диаграммы в Java Slides с помощью Aspose.Slides для Java. Совершенствуйте свои навыки автоматизации PowerPoint.
-type: docs
 weight: 21
 url: /ru/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение
 
@@ -109,3 +113,10 @@ finally
 ### Как я могу узнать больше об Aspose.Slides для Java?
 
  Вы можете найти обширную документацию и примеры на странице документации Aspose.Slides for Java.[здесь](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

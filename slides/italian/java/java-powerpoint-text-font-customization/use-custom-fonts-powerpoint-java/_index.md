@@ -3,10 +3,14 @@ title: Utilizza caratteri personalizzati in PowerPoint con Java
 linktitle: Utilizza caratteri personalizzati in PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come integrare caratteri personalizzati nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora l'attrattiva visiva senza sforzo.
-type: docs
 weight: 25
 url: /it/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial esploreremo come sfruttare Aspose.Slides per Java per migliorare le presentazioni di PowerPoint integrando caratteri personalizzati. I caratteri personalizzati possono arricchire in modo significativo l'attrattiva visiva delle tue diapositive, garantendo che si allineino perfettamente al tuo marchio o ai requisiti di progettazione. Tratteremo tutto, dall'importazione dei pacchetti necessari all'esecuzione dei passaggi necessari per integrare perfettamente i caratteri personalizzati nelle tue presentazioni.
 ## Prerequisiti
@@ -70,3 +74,9 @@ Assicurati di disporre delle licenze appropriate per la distribuzione di eventua
 Aspose.Slides per Java supporta l'utilizzo di un'ampia gamma di caratteri personalizzati e non esiste alcun limite intrinseco imposto dalla libreria.
 ### Posso incorporare caratteri personalizzati direttamente nel file PowerPoint utilizzando Aspose.Slides per Java?
 Sì, Aspose.Slides per Java ti consente di incorporare caratteri personalizzati nel file di presentazione stesso per una distribuzione senza interruzioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

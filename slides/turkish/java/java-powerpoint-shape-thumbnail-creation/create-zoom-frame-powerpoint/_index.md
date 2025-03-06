@@ -3,10 +3,14 @@ title: PowerPoint'te Yakınlaştırma Çerçevesi Oluşturun
 linktitle: PowerPoint'te Yakınlaştırma Çerçevesi Oluşturun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te ilgi çekici Yakınlaştırma Çerçevelerini nasıl oluşturacağınızı öğrenin. Sunumlarınıza etkileşimli öğeler eklemek için kılavuzumuzu takip edin.
-type: docs
 weight: 17
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 İlgi çekici PowerPoint sunumları oluşturmak bir sanattır ve bazen en küçük eklemeler büyük bir fark yaratabilir. Bu özelliklerden biri, dinamik ve etkileşimli bir sunum oluşturarak belirli slaytları veya görüntüleri yakınlaştırmanıza olanak tanıyan Yakınlaştırma Çerçevesidir. Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint'te Yakınlaştırma Çerçevesi oluşturma sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -113,3 +117,9 @@ Evet, Aspose.Slides, Yakınlaştırma Çerçevelerinin çizgi stili, renk ve ark
 Kesinlikle! Görüntü dosyalarını okuyup sunuma ekleyerek Yakınlaştırma Çerçevelerine özel görüntüler ekleyebilirsiniz.
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
  Kapsamlı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides for Java dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

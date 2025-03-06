@@ -3,10 +3,14 @@ title: Contrôles multimédia du diaporama dans les diapositives Java
 linktitle: Contrôles multimédia du diaporama dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment activer et utiliser les contrôles multimédias dans les diapositives Java avec Aspose.Slides pour Java. Améliorez vos présentations avec les contrôles multimédias.
-type: docs
 weight: 11
 url: /fr/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction aux contrôles multimédias du diaporama dans Java Slides
 
@@ -108,3 +112,9 @@ Dans ce didacticiel, nous avons exploré comment activer et utiliser les contrô
 ### Existe-t-il un moyen d'ajouter des sous-titres ou des légendes aux vidéos dans Java Slides ?
 
 Oui, vous pouvez ajouter des sous-titres ou des légendes aux vidéos dans Java Slides en ajoutant des cadres de texte ou des formes à la diapositive contenant la vidéo. Vous pouvez ensuite synchroniser le texte avec la lecture vidéo à l'aide des paramètres de synchronisation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

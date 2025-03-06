@@ -3,10 +3,14 @@ title: Hoạt động lưu PowerPoint của Java
 linktitle: Hoạt động lưu PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lưu bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn cách lưu vào tệp, phát trực tuyến và thêm bảo vệ bằng mật khẩu.
-type: docs
 weight: 20
 url: /vi/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -32,3 +36,9 @@ Tìm hiểu cách lưu bản trình bày PowerPoint vào tệp theo chương tr�
 Tìm hiểu cách lưu bản trình bày PowerPoint vào luồng bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Lưu PowerPoint bằng mật khẩu](./save-powerpoint-with-password/)
 Tìm hiểu cách thêm bảo vệ bằng mật khẩu vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bảo vệ các slide của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides でのスライド背景の変更
 linktitle: Aspose.Slides でのスライド背景の変更
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してスライドの背景をカスタマイズする方法を学びます。視覚的に魅力的な背景でプレゼンテーションのレベルを高めます。今すぐ始めましょう!
-type: docs
 weight: 10
 url: /ja/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 視覚的に魅力的なプレゼンテーションを作成する場合、背景は重要な役割を果たします。Aspose.Slides for .NET を使用すると、スライドの背景を簡単にカスタマイズできます。このチュートリアルでは、Aspose.Slides for .NET を使用してスライドの背景を変更する方法について説明します。 
 
@@ -123,3 +127,10 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ### 5. プレゼンテーション内の複数のスライドのスライド背景をカスタマイズできますか?
 
 はい、Aspose.Slides for .NET を使用して、プレゼンテーション内の任意のスライドのスライド背景を変更できます。カスタマイズするスライドをターゲットにして、このチュートリアルで説明されているのと同じ手順に従うだけです。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

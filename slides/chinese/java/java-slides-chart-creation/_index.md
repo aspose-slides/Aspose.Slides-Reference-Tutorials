@@ -3,10 +3,14 @@ title: Java 幻灯片图表创建
 linktitle: Java 幻灯片图表创建
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 创建带有图表的动态 Java 幻灯片。我们全面的教程将逐步指导您完成整个过程。
-type: docs
 weight: 16
 url: /zh/java/chart-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 您准备好在 Java 幻灯片中释放动态图表的强大功能了吗？借助 Aspose.Slides for Java，您可以轻松创建引人入胜的图表。本综合指南将带您完成从安装到完美图表的基本步骤。
 
@@ -35,3 +39,9 @@ url: /zh/java/chart-creation/
 了解如何使用 Aspose.Slides for Java 自定义 Java Slides 中的图表。探索第二个绘图选项并增强您的演示文稿。
 ### [Java 幻灯片中的树形图](./tree-map-chart-java-slides/)
 使用 Aspose.Slides for Java 在 Java Slides 中创建树形图。带有源代码的分步指南，用于可视化分层数据。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

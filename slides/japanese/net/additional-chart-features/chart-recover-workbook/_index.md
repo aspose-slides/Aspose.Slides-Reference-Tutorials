@@ -3,10 +3,14 @@ title: Aspose.Slides .NET を使用してチャートからワークブックを
 linktitle: チャートからワークブックを復元する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションのグラフからワークブックを復元する方法を学びます。ステップバイステップのガイドに従って、データを効率的に抽出します。
-type: docs
 weight: 12
 url: /ja/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 .NET で PowerPoint プレゼンテーションを操作したい場合、Aspose.Slides for .NET は目標達成に役立つ強力なライブラリです。このチュートリアルでは、Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションのグラフからワークブックを復元するプロセスについて説明します。この強力な機能は、プレゼンテーション内のグラフからデータを抽出する必要がある場合に役立ちます。このタスクの達成方法を明確に理解できるように、プロセスをわかりやすい手順に分解します。
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET は、Microsoft PowerPoint ファイルを操作する強
 ### 5. SEO 最適化におけるタイトルの最大長はどれくらいですか?
 
 SEO を最適化するには、タイトルが検索エンジンの結果に適切に表示されるように、タイトルを 60 文字未満にすることをお勧めします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

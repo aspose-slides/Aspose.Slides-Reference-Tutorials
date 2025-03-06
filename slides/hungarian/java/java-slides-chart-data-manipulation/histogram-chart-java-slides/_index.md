@@ -3,10 +3,14 @@ title: Hisztogram diagram a Java diákban
 linktitle: Hisztogram diagram a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre hisztogram diagramokat PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal az adatok megjelenítéséhez.
-type: docs
 weight: 19
 url: /hu/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## A hisztogram diagram bemutatása Java Slides-ben az Aspose.Slides használatával
 
@@ -112,3 +116,9 @@ A hisztogram diagram az adatok folyamatos intervallumon belüli eloszlásának m
 ### Testreszabhatom a hisztogram diagram megjelenését?
 
 Igen, az Aspose.Slides API segítségével testreszabhatja a diagram megjelenését, beleértve annak színeit, címkéit és tengelyeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

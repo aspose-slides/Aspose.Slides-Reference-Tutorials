@@ -3,10 +3,14 @@ title: Convert Presentation to PDF with Hidden Slides
 linktitle: Convert Presentation to PDF with Hidden Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to use Aspose.Slides for .NET to convert presentations to PDF with hidden slides seamlessly.
-type: docs
 weight: 26
 url: /net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -95,3 +99,10 @@ You can download the Aspose.Slides for .NET library from [here](https://releases
 ### Is there any documentation for Aspose.Slides for .NET?
 
 Yes, you can find the documentation and usage examples for Aspose.Slides for .NET at [here](https://reference.aspose.com/slides/net).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

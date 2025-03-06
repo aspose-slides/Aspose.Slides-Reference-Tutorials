@@ -3,10 +3,14 @@ title: Thêm nhận xét của phụ huynh vào slide bằng Aspose.Slides
 linktitle: Thêm nhận xét của phụ huynh vào slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm nhận xét và câu trả lời tương tác vào bản trình bày PowerPoint của bạn bằng Aspose.Slides cho .NET. Tăng cường sự tham gia và hợp tác.
-type: docs
 weight: 12
 url: /vi/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Bạn đang tìm cách cải thiện bản trình bày PowerPoint của mình bằng các tính năng tương tác? Aspose.Slides for .NET cho phép bạn kết hợp các nhận xét và câu trả lời, tạo ra trải nghiệm năng động và hấp dẫn cho khán giả của bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách thêm nhận xét gốc vào trang trình bày bằng Aspose.Slides cho .NET. Hãy cùng tìm hiểu và khám phá tính năng thú vị này.
 
@@ -160,3 +164,9 @@ Aspose.Slides for .NET được thiết kế để hoạt động với nhiều 
 
 ### Có bất kỳ tùy chọn cấp phép nào có sẵn cho Aspose.Slides cho .NET không?
  Có, bạn có thể khám phá các tùy chọn cấp phép, bao gồm cả giấy phép tạm thời, trên trang web Aspose[đây](https://purchase.aspose.com/buy) hoặc dùng thử miễn phí[đây](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

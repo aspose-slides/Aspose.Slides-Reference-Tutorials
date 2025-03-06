@@ -3,10 +3,14 @@ title: Kontrol Media Pertunjukan Slide di Slide Java
 linktitle: Kontrol Media Pertunjukan Slide di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari Cara Mengaktifkan dan Menggunakan Kontrol Media di Slide Java dengan Aspose.Slides untuk Java. Sempurnakan Presentasi Anda dengan Kontrol Media.
-type: docs
 weight: 11
 url: /id/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Kontrol Media Pertunjukan Slide di Slide Java
 
@@ -108,3 +112,9 @@ Dalam tutorial ini, kita menjelajahi cara mengaktifkan dan memanfaatkan kontrol 
 ### Apakah ada cara untuk menambahkan subtitle atau keterangan ke video di Java Slides?
 
 Ya, Anda dapat menambahkan subtitle atau keterangan ke video di Java Slides dengan menambahkan bingkai teks atau bentuk ke slide yang berisi video tersebut. Anda kemudian dapat menyinkronkan teks dengan pemutaran video menggunakan pengaturan waktu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

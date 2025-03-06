@@ -3,10 +3,14 @@ title: プレゼンテーションからレスポンシブ HTML を作成する
 linktitle: プレゼンテーションからレスポンシブ HTML を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションをレスポンシブ HTML に変換する方法を学びます。デバイス間でシームレスに適応する魅力的なコンテンツを作成します。
-type: docs
 weight: 17
 url: /ja/net/presentation-conversion/create-responsive-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET を使用してプレゼンテーションからレスポンシブ HTML を作成することは、PowerPoint プレゼンテーションを Web に適した形式に変換しようとしている開発者にとって貴重なスキルです。このチュートリアルでは、提供されているソース コードを使用して、プロセスを段階的に説明します。
 
@@ -80,3 +84,9 @@ presentation.Save(outPath + "ConvertPresentationToResponsiveHTML_out.html", Save
 サポートやディスカッションのためにAsposeコミュニティフォーラムに参加できます[ここ](https://forum.aspose.com/).
 
 プレゼンテーションをレスポンシブ HTML に変換する知識が身についたので、コンテンツをより幅広いユーザーが利用できるようにしてみましょう。コーディングを楽しんでください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

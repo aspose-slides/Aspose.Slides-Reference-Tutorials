@@ -3,10 +3,14 @@ title: Extract Audio from Slide
 linktitle: Extract Audio from Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: LLearn how to extract audio from slides using Aspose.Slides for .NET. Enhance your presentations with this step-by-step guide.
-type: docs
 weight: 11
 url: /net/audio-and-video-extraction/extract-audio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In the world of presentations, adding audio to your slides can enhance the overall impact and engagement. Aspose.Slides for .NET provides a powerful set of tools for working with presentations, and in this tutorial, we will explore how to extract audio from a slide in a step-by-step guide. Whether you are a developer looking to automate this process or simply interested in understanding how it's done, this tutorial will walk you through the process.
 
@@ -87,3 +91,10 @@ Yes, Aspose.Slides for .NET offers a wide range of features for working with pre
 
 ### 5. Where can I find additional support or ask questions related to Aspose.Slides for .NET?
 You can visit the [Aspose.Slides for .NET Support Forum](https://forum.aspose.com/) to seek help, ask questions, or share your experiences with the Aspose community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

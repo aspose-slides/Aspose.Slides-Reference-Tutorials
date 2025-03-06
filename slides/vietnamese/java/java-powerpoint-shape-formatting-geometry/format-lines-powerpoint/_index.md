@@ -3,10 +3,14 @@ title: Định dạng dòng trong PowerPoint
 linktitle: Định dạng dòng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách định dạng dòng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Hoàn thiện bản trình bày của bạn với các kiểu dòng tùy chỉnh.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Bài thuyết trình PowerPoint là một phần không thể thiếu trong cả môi trường chuyên nghiệp và giáo dục. Khả năng định dạng các dòng một cách hiệu quả trong các trang trình bày của bạn có thể làm cho bản trình bày của bạn trông bóng bẩy và chuyên nghiệp. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Slides cho Java để định dạng các dòng trong bản trình bày PowerPoint. Đến cuối hướng dẫn này, bạn sẽ có thể tạo và định dạng các dòng trong trang chiếu của mình một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -87,3 +91,9 @@ Có, Aspose.Slides for Java hỗ trợ nhiều loại hình dạng và bạn có
  Có, bạn có thể dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
  Tài liệu chi tiết có sẵn trên[trang tài liệu](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

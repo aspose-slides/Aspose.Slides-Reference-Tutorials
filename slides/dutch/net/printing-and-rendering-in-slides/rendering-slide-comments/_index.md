@@ -3,10 +3,14 @@ title: Dia-opmerkingen weergeven in Aspose.Slides
 linktitle: Dia-opmerkingen weergeven in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Ontdek hoe u diaopmerkingen kunt weergeven in Aspose.Slides voor .NET met onze stapsgewijze zelfstudie. Pas de weergave van opmerkingen aan en til uw PowerPoint-automatisering naar een hoger niveau.
-type: docs
 weight: 12
 url: /nl/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Welkom bij onze uitgebreide tutorial over het weergeven van diaopmerkingen met Aspose.Slides voor .NET! Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met PowerPoint-presentaties in hun .NET-toepassingen. In deze handleiding concentreren we ons op een specifieke taak: het weergeven van diaopmerkingen, en begeleiden we u stap voor stap door het proces.
 ## Vereisten
@@ -86,3 +90,9 @@ EEN: Absoluut! De zelfstudie bevat opties om de kleur, breedte en positie van he
  A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik hulp en ondersteuning zoeken voor Aspose.Slides?
  A: Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

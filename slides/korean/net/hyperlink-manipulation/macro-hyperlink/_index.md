@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides에서 매크로 하이퍼링크 클릭을 설정하
 linktitle: 매크로를 이용한 하이퍼링크 관리
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션에 매크로 하이퍼링크를 설정하는 방법을 알아보세요. 상호작용성을 향상하고 청중의 참여를 유도하세요.
-type: docs
 weight: 13
 url: /ko/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 현대 소프트웨어 개발 세계에서는 역동적이고 대화형 프레젠테이션을 만드는 것이 핵심입니다. Aspose.Slides for .NET은 프레젠테이션 작업을 원활하게 수행할 수 있는 강력한 라이브러리입니다. 비즈니스 프리젠테이션을 작성하든 교육용 슬라이드쇼를 작성하든 관계없이 매크로 하이퍼링크 클릭을 설정하는 기능은 사용자 경험을 크게 향상시킬 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 매크로 하이퍼링크 클릭을 설정하는 과정을 안내합니다. 
 
@@ -106,3 +110,9 @@ Aspose.Slides for .NET은 무료 평가판을 사용할 수 있는 상용 라이
 
 ### .NET용 Aspose.Slides에 대한 도움말이나 지원은 어디서 얻을 수 있나요?
  문제가 발생하거나 질문이 있는 경우 Aspose 지원 포럼에서 도움을 구할 수 있습니다.[여기](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tutoriel de formatage des formes d'ellipse avec Aspose.Slides pour .NET
 linktitle: Formatage de la forme d'ellipse dans les diapositives avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Créez de superbes formes d'ellipse dans PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour les présentations professionnelles.
-type: docs
 weight: 11
 url: /fr/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Améliorer vos présentations PowerPoint avec des formes visuellement attrayantes est crucial pour captiver votre public. L'une de ces formes est l'ellipse, qui peut ajouter une touche d'élégance et de professionnalisme à vos diapositives. Dans ce didacticiel, nous vous guiderons tout au long du processus de formatage des formes d'ellipse dans PowerPoint à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -81,3 +85,9 @@ Aspose.Slides garantit la compatibilité avec différentes versions de PowerPoin
  Demandez l'aide de la communauté au[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Existe-t-il une option d’achat direct pour Aspose.Slides pour .NET ?
  Oui, vous pouvez acheter la bibliothèque directement[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

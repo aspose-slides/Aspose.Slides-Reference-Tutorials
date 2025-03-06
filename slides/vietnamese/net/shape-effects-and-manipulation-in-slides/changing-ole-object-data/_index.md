@@ -3,10 +3,14 @@ title: Thay đổi dữ liệu đối tượng OLE trong bản trình bày bằn
 linktitle: Thay đổi dữ liệu đối tượng OLE trong bản trình bày bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá sức mạnh của Aspose.Slides dành cho .NET trong việc thay đổi dữ liệu đối tượng OLE một cách dễ dàng. Nâng cao bài thuyết trình của bạn với nội dung động.
-type: docs
 weight: 25
 url: /vi/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Tạo bản trình bày PowerPoint năng động và tương tác là yêu cầu phổ biến trong thế giới kỹ thuật số ngày nay. Một công cụ mạnh mẽ để đạt được điều này là Aspose.Slides for .NET, một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và nâng cao các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thay đổi dữ liệu đối tượng OLE (Liên kết và nhúng đối tượng) trong các trang trình bày bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -88,3 +92,9 @@ Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà ph�
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Để được hỗ trợ và thảo luận, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

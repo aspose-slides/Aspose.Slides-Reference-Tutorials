@@ -3,10 +3,14 @@ title: Manipulace s obrázky a videem v diapozitivech
 linktitle: Manipulace s obrázky a videem v diapozitivech
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí podmanivých obrázků a videí pomocí Aspose.Slides for .NET. Naučte se krok za krokem, jak manipulovat s obrázky a videy v rámci snímků, abyste získali vizuálně poutavý obsah.
-type: docs
 weight: 12
 url: /cs/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do manipulace s obrázky a videem v Aspose.Slides
 
@@ -53,3 +57,9 @@ Naučte se, jak vylepšit snímky prezentace přidáním vložených snímků vi
 Naučte se extrahovat data vložených souborů z objektů OLE v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce se zdrojovým kódem pro bezproblémové načítání a zpracování vložených dat.
 ### [Vyplnění tvarů přechodem v prezentačních snímcích pomocí Aspose.Slides](./filling-shapes-gradient/)
 Naučte se, jak vylepšit snímky prezentace podmanivými přechody pomocí Aspose.Slides pro .NET. Postupujte podle tohoto podrobného průvodce s úplným zdrojovým kódem a vyplňte tvary přechody, od lineárních po radiální, s přidáním hloubky a rozměrů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

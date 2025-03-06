@@ -3,10 +3,14 @@ title: Xóa các phân đoạn hình dạng - Hướng dẫn Aspose.Slides .NET
 linktitle: Loại bỏ các phân đoạn khỏi hình dạng hình học trong các slide thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa các phân đoạn khỏi hình dạng hình học trong các trang trình bày bằng API Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 16
 url: /vi/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Việc tạo các bản trình bày hấp dẫn về mặt trực quan thường liên quan đến việc vận dụng các hình dạng và thành phần để đạt được thiết kế mong muốn. Với Aspose.Slides cho .NET, các nhà phát triển có thể dễ dàng kiểm soát hình dạng của các hình dạng, cho phép loại bỏ các phân đoạn cụ thể. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa các phân đoạn khỏi hình dạng hình học trong các trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -68,3 +72,9 @@ Thực hiện xử lý lỗi thích hợp bằng cách sử dụng khối try-ca
 Không, những thay đổi này không thể thay đổi được sau khi lưu. Hãy cân nhắc việc lưu các bản sao lưu trước khi sửa đổi.
 ### Tôi có thể tìm kiếm sự hỗ trợ hoặc trợ giúp bổ sung ở đâu?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

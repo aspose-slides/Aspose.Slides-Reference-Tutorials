@@ -3,10 +3,14 @@ title: حفظ للقراءة فقط في شرائح جافا
 linktitle: حفظ للقراءة فقط في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية حفظ عروض PowerPoint التقديمية للقراءة فقط في Java باستخدام Aspose.Slides. قم بحماية المحتوى الخاص بك من خلال تعليمات خطوة بخطوة وأمثلة التعليمات البرمجية.
-type: docs
 weight: 11
 url: /ar/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة للحفظ للقراءة فقط في شرائح Java باستخدام Aspose.Slides لـ Java
 
@@ -127,3 +131,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### هل يمكنني تغيير كلمة المرور للقراءة فقط بعد ضبطها؟
 
  نعم، يمكنك تغيير كلمة المرور للقراءة فقط بعد ضبطها. استخدم ال`setReadProtection(String newPassword)` طريقة باستخدام كلمة المرور الجديدة لتحديث كلمة مرور الحماية للقراءة فقط.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

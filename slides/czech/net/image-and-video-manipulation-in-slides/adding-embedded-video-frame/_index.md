@@ -3,10 +3,14 @@ title: Aspose.Slides – Přidávání vložených videí do prezentací .NET
 linktitle: Aspose.Slides – Přidávání vložených videí do prezentací .NET
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí vložených videí pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 19
 url: /cs/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V dynamickém světě prezentací může integrace multimediálních prvků výrazně zvýšit zapojení. Aspose.Slides for .NET poskytuje výkonné řešení pro začlenění vložených snímků videa do snímků prezentace. Tento tutoriál vás provede celým procesem a rozebere každý krok, abyste zajistili bezproblémový zážitek.
 ## Předpoklady
@@ -75,3 +79,9 @@ Aspose.Slides podporuje různé formáty videa, včetně MP4, AVI a WMV.
 Počet vložených videí je obvykle omezen kapacitou vašeho prezentačního softwaru.
 ### Jak mohu vyhledat další pomoc nebo sdílet své zkušenosti?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

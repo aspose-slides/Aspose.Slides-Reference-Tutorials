@@ -3,10 +3,14 @@ title: Get Chart Image in Java Slides
 linktitle: Get Chart Image in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to obtain chart images in Java Slides using Aspose.Slides for Java. This step-by-step guide provides source code and tips for seamless integration.
-type: docs
 weight: 19
 url: /java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Get Chart Image in Java Slides
 
@@ -92,3 +96,10 @@ Yes, Aspose.Slides for Java can be used for commercial purposes. It provides lic
 ### Can I save the chart image in a different format?
 
 Certainly! You can save the chart image in various formats, such as JPEG or GIF, by specifying the appropriate file extension in the `ImageIO.write` method.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

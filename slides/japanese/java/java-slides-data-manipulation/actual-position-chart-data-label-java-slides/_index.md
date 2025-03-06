@@ -3,10 +3,14 @@ title: Java スライドでチャート データ ラベルの実際の位置を
 linktitle: Java スライドでチャート データ ラベルの実際の位置を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドのグラフ データ ラベルの実際の位置を取得する方法を学びます。ソース コードを使用したステップ バイ ステップ ガイド。
-type: docs
 weight: 18
 url: /ja/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドでチャート データ ラベルの実際の位置を取得する方法の紹介
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

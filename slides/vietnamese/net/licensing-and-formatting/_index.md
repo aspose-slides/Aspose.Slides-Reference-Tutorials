@@ -3,10 +3,14 @@ title: Cấp phép và định dạng
 linktitle: Cấp phép và định dạng
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao hiểu biết của bạn về cấp phép và định dạng Aspose.Slides thông qua các hướng dẫn toàn diện. Tìm hiểu cách quản lý giấy phép hiệu quả và đạt được định dạng hoàn hảo cho bản trình bày của bạn.
-type: docs
 weight: 21
 url: /vi/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -31,3 +35,9 @@ Tìm hiểu cách sử dụng hiệu quả Cấp phép đo lường với Aspose
 Tìm hiểu cách nâng cao hình ảnh biểu đồ bằng Aspose.Slides cho .NET. Thêm màu sắc sống động vào điểm dữ liệu để có bản trình bày ấn tượng hơn.
 ### [Thêm thanh lỗi tùy chỉnh vào biểu đồ](./add-custom-error/)
 Tìm hiểu cách thêm thanh lỗi tùy chỉnh vào biểu đồ bằng Aspose.Slides cho .NET. Tạo, tạo kiểu và tùy chỉnh các thanh lỗi để hiển thị dữ liệu chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

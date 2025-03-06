@@ -3,10 +3,14 @@ title: PowerPoint のジオメトリ シェイプに ShapeUtil を使用する
 linktitle: PowerPoint のジオメトリ シェイプに ShapeUtil を使用する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint でカスタム図形を作成します。このステップ バイ ステップ ガイドに従って、プレゼンテーションを強化します。
-type: docs
 weight: 23
 url: /ja/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 視覚的に魅力的なPowerPointプレゼンテーションを作成するには、標準の図形やテキストを使用するだけでは不十分な場合がよくあります。カスタマイズされた図形やテキストパスをスライドに直接追加して、プレゼンテーションの視覚的なインパクトを高めることができるとしたらどうでしょうか。Aspose.Slides for Javaを使用すると、これを簡単に実現できます。このチュートリアルでは、`ShapeUtil`クラスを使用して、PowerPoint プレゼンテーションでジオメトリ シェイプを作成します。熟練した開発者でも、初心者でも、このステップ バイ ステップ ガイドは、Aspose.Slides for Java のパワーを活用して、魅力的なカスタム シェイプのコンテンツを作成するのに役立ちます。
 ## 前提条件
@@ -75,3 +79,9 @@ Aspose.Slidesは無料試用版を提供しており、こちらからダウン�
 の`ShapeUtil` Aspose.Slides のクラスは、グラフィカル パスをジオメトリ パスに変換するなど、図形を操作するためのユーティリティ メソッドを提供します。
 ### Aspose.Slides のサポートはどこで受けられますか?
 サポートを受けるには[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

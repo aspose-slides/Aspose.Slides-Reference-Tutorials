@@ -3,10 +3,14 @@ title: Přidání čistých čar do snímků prezentace pomocí Aspose.Slides
 linktitle: Přidání čistých čar do snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace v PowerPointu v .NET pomocí Aspose.Slides. Postupujte podle našeho podrobného průvodce a přidejte jednoduché čáry bez námahy.
-type: docs
 weight: 16
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření poutavých a vizuálně přitažlivých prezentací v PowerPointu často zahrnuje začlenění různých tvarů a prvků. Pokud pracujete s .NET, Aspose.Slides je mocný nástroj, který celý proces zjednodušuje. Tento tutoriál se zaměřuje na přidávání čistých čar do snímků prezentace pomocí Aspose.Slides pro .NET. Postupujte a vylepšete své prezentace pomocí tohoto snadno pochopitelného průvodce.
 ## Předpoklady
@@ -67,3 +71,9 @@ Odpověď: Aspose.Slides rozhodně podporuje nejnovější frameworky .NET.
  Návštěva[tady](https://purchase.aspose.com/temporary-license/) pro dočasné licence.
 ### Otázka: Čelíte problémům? Kde mohu získat podporu?
  A: Vyhledejte pomoc na[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

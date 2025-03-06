@@ -3,10 +3,14 @@ title: Добавить аудиокадр в PowerPoint
 linktitle: Добавить аудиокадр в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять аудиокадры в презентации PowerPoint с помощью Aspose.Slides для Java. Улучшите свои презентации с помощью привлекательных аудиоэлементов без особых усилий.
-type: docs
 weight: 12
 url: /ru/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Улучшение презентаций аудиоэлементами может значительно повысить их воздействие и вовлеченность. С Aspose.Slides for Java интеграция аудиокадров в презентации PowerPoint становится простым процессом. Это руководство проведет вас через пошаговый процесс добавления аудиокадров в ваши презентации с помощью Aspose.Slides для Java.
 ## Предварительные условия
@@ -75,3 +79,9 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java предлагает широкие возможности настройки, позволяющие настроить внешний вид аудиоплеера в соответствии с вашими предпочтениями.
 ### Доступна ли пробная версия Aspose.Slides для Java?
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.Slides для Java на их сайте.[Веб-сайт](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

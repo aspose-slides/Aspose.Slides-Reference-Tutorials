@@ -3,10 +3,14 @@ title: Создавайте потрясающие эскизные фигуры
 linktitle: Создание эскизных фигур на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как добавлять креативные эскизы фигур к слайдам презентации с помощью Aspose.Slides для .NET. Увеличьте внешнюю привлекательность без особых усилий!
-type: docs
 weight: 13
 url: /ru/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по созданию эскизов фигур в слайдах презентации с помощью Aspose.Slides для .NET. Если вы хотите добавить нотку творчества в свои презентации, наброски фигур придадут уникальную, нарисованную от руки эстетику. В этом уроке мы познакомим вас с процессом, разбив его на простые шаги, чтобы обеспечить удобство работы.
 ## Предварительные условия
@@ -74,3 +78,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
  Чтобы приобрести Aspose.Slides для .NET, посетите[страница покупки](https://purchase.aspose.com/buy).
 ### 5. Предлагаете ли вы временные лицензии?
  Да, временные лицензии доступны.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

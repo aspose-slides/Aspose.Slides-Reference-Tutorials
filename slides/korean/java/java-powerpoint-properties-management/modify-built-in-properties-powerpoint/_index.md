@@ -3,10 +3,14 @@ title: PowerPoint에서 기본 제공 속성 수정
 linktitle: PowerPoint에서 기본 제공 속성 수정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기본 제공 속성을 수정하는 방법을 알아보세요. 프로그래밍 방식으로 프레젠테이션을 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Aspose.Slides for Java를 사용하면 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있습니다. 필수 기능 중 하나는 작성자, 제목, 제목, 댓글, 관리자 등 기본 제공 속성을 수정하는 것입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -65,3 +69,9 @@ Aspose.Slides는 PPT, PPTX, PPS 등을 포함한 다양한 PowerPoint 형식을 
 Aspose.Slides는 광범위한 기능을 제공하지만 일부 고급 기능은 PowerPoint 형식 및 버전에 따라 제한이 있을 수 있습니다.
 ### Aspose.Slides에 대한 기술 지원이 제공됩니까?
  예, 귀하는 다음 사항에 관해 도움을 구하고 토론에 참여할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

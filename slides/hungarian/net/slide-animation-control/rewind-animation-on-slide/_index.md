@@ -3,10 +3,14 @@ title: Rewind animációk elsajátítása prezentációkban az Aspose.Slides seg
 linktitle: Visszatekerés animáció a dián
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan tekerhet vissza animációkat PowerPoint diákon az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót a teljes forráskód példákkal.
-type: docs
 weight: 13
 url: /hu/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 prezentációk dinamikus világában a magával ragadó animációk beépítése jelentősen fokozhatja az elköteleződést. Az Aspose.Slides for .NET hatékony eszközkészletet kínál, amellyel életet lehelhet prezentációiba. Az egyik érdekes funkció az animációk visszatekerése a diákon. Ebben az átfogó útmutatóban lépésről lépésre végigvezetjük a folyamaton, lehetővé téve, hogy az Aspose.Slides for .NET használatával teljes mértékben kihasználhassa az animációk visszatekeréséből adódó lehetőségeket.
 ## Előfeltételek
@@ -80,3 +84,9 @@ Igen, testreszabhatja a kódot úgy, hogy a visszatekerés animációját szelek
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítséget kérni és kapcsolatba lépni a közösséggel.
 ### Vásárolhatok ideiglenes licencet az Aspose.Slides for .NET számára?
  Igen, ideiglenes engedélyt szerezhetsz innen[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

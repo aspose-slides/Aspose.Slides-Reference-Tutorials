@@ -3,10 +3,14 @@ title: Java PowerPoint 中的嵌入式字體壓縮
 linktitle: Java PowerPoint 中的嵌入式字體壓縮
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 壓縮 Java PowerPoint 簡報中的嵌入字型。輕鬆優化檔案大小。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在數位演示的動態環境中，在不影響品質的情況下優化文件大小的能力至關重要。 Aspose.Slides for Java 提供了一個強大的解決方案，透過啟用嵌入式字體壓縮來提高 PowerPoint 簡報的效率。本教學將引導您完成利用此功能有效減小檔案大小的過程，確保簡報的分發更順暢並增強效能。
 ## 先決條件
@@ -64,3 +68,9 @@ System.out.println(String.format("Result file size = %d bytes", outputFile.lengt
 當然！您可以透過專門的 Aspose.Slides 社群尋求支持[論壇](https://forum.aspose.com/c/slides/11)或考慮取得臨時許可證以獲得優先援助。
 ### 如何購買 Aspose.Slides for Java 的授權版本？
 您可以使用提供的網站購買 Aspose.Slides for Java 的授權版本[購買連結](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

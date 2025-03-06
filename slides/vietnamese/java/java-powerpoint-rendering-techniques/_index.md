@@ -3,10 +3,14 @@ title: Kỹ thuật kết xuất PowerPoint của Java
 linktitle: Kỹ thuật kết xuất PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách hiển thị nhận xét, đồ họa 3D, biểu tượng cảm xúc, v.v. trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn toàn diện cho bài thuyết trình nâng cao.
-type: docs
 weight: 22
 url: /vi/java/java-powerpoint-rendering-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -38,3 +42,9 @@ Tìm hiểu cách tạo kết xuất 3D tuyệt đẹp trong PowerPoint bằng A
 Tìm hiểu cách hiển thị biểu tượng cảm xúc trong bản trình bày PowerPoint một cách dễ dàng bằng Aspose.Slides cho Java. Tăng cường sự tương tác với hình ảnh biểu cảm.
 ### [Tùy chọn kết xuất trong PowerPoint](./render-options-powerpoint/)
 Tìm hiểu cách thao tác các tùy chọn hiển thị trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tùy chỉnh các slide của bạn để có tác động trực quan tối ưu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

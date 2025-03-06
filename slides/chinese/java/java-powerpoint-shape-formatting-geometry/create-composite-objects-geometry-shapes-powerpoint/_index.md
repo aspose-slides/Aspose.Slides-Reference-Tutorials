@@ -3,10 +3,14 @@ title: 创建几何形状的复合对象
 linktitle: 创建几何形状的复合对象
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本综合教程学习如何使用 Aspose.Slides for Java 创建几何形状的复合对象。非常适合 Java 开发人员。
-type: docs
 weight: 20
 url: /zh/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 嗨！您是否曾想过使用 Java 在 PowerPoint 演示文稿中创建令人惊叹且复杂的形状？好吧，您来对地方了。在本教程中，我们将深入研究强大的 Aspose.Slides for Java 库，以创建几何形状的复合对象。无论您是经验丰富的开发人员还是刚刚入门，本分步指南都将帮助您立即获得令人印象深刻的结果。准备好开始了吗？让我们开始吧！
 ## 先决条件
@@ -95,3 +99,9 @@ Aspose.Slides for Java 是一个功能强大的库，用于在 Java 中创建、
 是的，你可以从下载免费试用版[这里](https://releases.aspose.com/).
 ### 在哪里可以找到更多文档和支持？
 查看[文档](https://reference.aspose.com/slides/java/)和[支持论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

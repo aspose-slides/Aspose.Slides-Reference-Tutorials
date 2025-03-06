@@ -3,10 +3,14 @@ title: Boxdiagramm in Java-Folien
 linktitle: Boxdiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Boxdiagramme in Java-Präsentationen erstellen. Schritt-für-Schritt-Anleitung und Quellcode für eine effektive Datenvisualisierung enthalten.
-type: docs
 weight: 10
 url: /de/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Boxdiagramm in Aspose.Slides für Java
 
@@ -148,3 +152,9 @@ Sie können das Erscheinungsbild des Boxdiagramms anpassen, indem Sie Eigenschaf
 ### Was bedeutet QuartileMethodType.Exclusive?
 
  Der`QuartileMethodType.Exclusive` Die Einstellung gibt an, dass die Quartilberechnungen mit der exklusiven Methode durchgeführt werden sollen. Sie können je nach Ihren Daten und Anforderungen unterschiedliche Quartilberechnungsmethoden wählen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

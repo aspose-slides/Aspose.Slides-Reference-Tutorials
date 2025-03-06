@@ -3,10 +3,14 @@ title: Ενσωματώστε γραμματοσειρές σε HTML χρησι�
 linktitle: Ενσωματώστε γραμματοσειρές σε HTML χρησιμοποιώντας Aspose.Slides για Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε HTML χρησιμοποιώντας το Aspose.Slides για Java για να εξασφαλίσετε συνεπή τυπογραφία σε διαφορετικές πλατφόρμες και συσκευές.
-type: docs
 weight: 13
 url: /el/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Το Aspose.Slides for Java είναι ένα ισχυρό εργαλείο για προγραμματιστές Java που επιδιώκουν να χειριστούν τις παρουσιάσεις του PowerPoint μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ενσωμάτωσης γραμματοσειρών σε HTML χρησιμοποιώντας Aspose.Slides για Java. Με την ενσωμάτωση γραμματοσειρών, διασφαλίζετε ότι οι παρουσιάσεις σας διατηρούν την προβλεπόμενη εμφάνισή τους σε διαφορετικές πλατφόρμες και συσκευές, ακόμα κι αν οι απαιτούμενες γραμματοσειρές δεν είναι εγκατεστημένες τοπικά.
 ## Προαπαιτούμενα
@@ -58,3 +62,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη ή επικοινωνήστε με την υποστήριξη της Aspose για επαγγελματική βοήθεια.
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για Java;
 Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: كيفية تحويل شرائح العرض التقديمي الفردي
 linktitle: كيفية تحويل شرائح العرض التقديمي الفردية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل شرائح العرض التقديمي الفردية بسهولة باستخدام Aspose.Slides for .NET. إنشاء الشرائح ومعالجتها وحفظها برمجياً.
-type: docs
 weight: 12
 url: /ar/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة عن Aspose.Slides لـ .NET
 
@@ -141,3 +145,9 @@ public class CustomFormattingController : IHtmlFormattingController
 ### هل يمكنني تخصيص تخطيطات الشرائح باستخدام Aspose.Slides؟
 
 نعم، يمكنك تخصيص تخطيطات الشرائح وإضافة الأشكال والصور وتطبيق الرسوم المتحركة باستخدام Aspose.Slides for .NET، مما يمنحك التحكم الكامل في العروض التقديمية الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

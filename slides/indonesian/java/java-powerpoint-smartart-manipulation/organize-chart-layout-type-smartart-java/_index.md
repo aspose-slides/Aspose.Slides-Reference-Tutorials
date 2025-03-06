@@ -3,10 +3,14 @@ title: Atur Tipe Tata Letak Bagan di SmartArt menggunakan Java
 linktitle: Atur Tipe Tata Letak Bagan di SmartArt menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kuasai pengorganisasian tipe tata letak bagan di SmartArt menggunakan Java dengan Aspose.Slides, tingkatkan visual presentasi dengan mudah.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan memandu proses pengorganisasian tipe tata letak bagan di SmartArt menggunakan Java, khususnya memanfaatkan pustaka Aspose.Slides. SmartArt dalam presentasi dapat meningkatkan daya tarik visual dan kejelasan data Anda secara signifikan, sehingga penting untuk menguasai manipulasinya.
 ## Prasyarat
@@ -55,3 +59,9 @@ Ya, pengembang dapat merujuk ke dokumentasi terperinci yang disediakan oleh Aspo
 Ya, Anda dapat mengakses Aspose.Slides versi uji coba gratis untuk menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.
 ### Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Slides?
  Untuk bantuan atau pertanyaan apa pun mengenai Aspose.Slides, Anda dapat mengunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

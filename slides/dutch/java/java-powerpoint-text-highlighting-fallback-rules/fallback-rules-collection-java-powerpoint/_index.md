@@ -3,10 +3,14 @@ title: Verzameling van fallback-regels in Java PowerPoint
 linktitle: Verzameling van fallback-regels in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de fallback-regels voor lettertypen in PowerPoint-presentaties kunt beheren met behulp van Aspose.Slides voor Java. Verbeter moeiteloos de compatibiliteit tussen apparaten.
-type: docs
 weight: 11
 url: /nl/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In deze zelfstudie gaan we dieper in op het beheren van fallback-regels voor lettertypen met behulp van Aspose.Slides voor Java. Terugval op lettertypen is van cruciaal belang om ervoor te zorgen dat uw presentaties correct worden weergegeven in verschillende omgevingen, vooral wanneer specifieke lettertypen niet beschikbaar zijn. Wij begeleiden u stap voor stap bij het importeren van de benodigde pakketten, het opzetten van de omgeving en het implementeren van fallback-regels.
 ## Vereisten
@@ -73,3 +77,9 @@ Regels voor lettertype-fallback definiëren alternatieve lettertypen die moeten 
  Gedetailleerde documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Hoe krijg ik ondersteuning voor Aspose.Slides voor Java?
 Bezoek het Aspose.Slides-forum voor ondersteuning[hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

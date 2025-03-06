@@ -3,10 +3,14 @@ title: Jak wyodrębnić wideo ze slajdu za pomocą Aspose.Slides dla .NET
 linktitle: Wyodrębnij wideo ze slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wyodrębniać filmy ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku uprości Ci ten proces.
-type: docs
 weight: 14
 url: /pl/net/audio-and-video-extraction/extract-video/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides dla .NET to potężna biblioteka, która umożliwia pracę z prezentacjami programu PowerPoint w środowisku .NET. Jedną z przydatnych funkcji, jakie zapewnia, jest możliwość wyodrębniania filmów ze slajdów. W tym przewodniku krok po kroku pokażemy, jak wyodrębnić wideo ze slajdu programu PowerPoint za pomocą Aspose.Slides dla .NET.
 
@@ -110,3 +114,9 @@ Aspose.Slides dla .NET to biblioteka, która umożliwia aplikacjom .NET współp
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla .NET?
  Wsparcie znajdziesz na stronie[Forum Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

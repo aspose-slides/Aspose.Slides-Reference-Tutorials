@@ -3,10 +3,14 @@ title: Datenbereich in Java-Folien festlegen
 linktitle: Datenbereich in Java-Folien festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java mühelos Datenbereiche in Java-Folien festlegen. Erstellen Sie mit dieser Schritt-für-Schritt-Anleitung dynamische und datengesteuerte Präsentationen.
-type: docs
 weight: 18
 url: /de/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Festlegen eines Datenbereichs in Java-Folien
 
@@ -97,3 +101,9 @@ Mithilfe der Aspose.Slides für Java-API können Sie auf bestimmte Folien und Fo
 ### Wo finde ich weitere Dokumentation und Beispiele für Aspose.Slides für Java?
 
  Ausführliche Dokumentation und Beispiele für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite:[Aspose.Slides für Java-API-Referenzen](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

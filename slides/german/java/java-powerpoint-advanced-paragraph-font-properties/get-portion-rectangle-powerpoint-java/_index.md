@@ -3,10 +3,14 @@ title: Holen Sie sich ein Portionsrechteck in PowerPoint mit Java
 linktitle: Holen Sie sich ein Portionsrechteck in PowerPoint mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java das Portionsrechteck in PowerPoint erstellen. Perfekt für Java-Entwickler.
-type: docs
 weight: 12
 url: /de/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Mit Aspose.Slides für Java ist das Erstellen dynamischer Präsentationen in Java ein Kinderspiel. In diesem Tutorial werden wir uns mit den Einzelheiten des Erstellens des Portionsrechtecks in PowerPoint mithilfe von Aspose.Slides befassen. Wir behandeln alles, vom Einrichten Ihrer Umgebung bis zum schrittweisen Aufschlüsseln des Codes. Also, legen wir los!
 ## Voraussetzungen
@@ -138,3 +142,9 @@ Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Entwickler 
  Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
 ### Wie kann ich Support für Aspose.Slides für Java erhalten?
  Sie können Unterstützung vom Aspose-Forum erhalten[Hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

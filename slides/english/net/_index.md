@@ -1,12 +1,15 @@
 ---
 title: Unleashing the Power of Presentation Manipulation and Conversion
 linktitle: Aspose.Slides for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Discover the world of presentation manipulation, conversion, and PowerPoint processing with Aspose.Slides for .NET tutorials. Learn to create, convert, and enhance presentations for impactful results.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Welcome to the comprehensive collection of Aspose.Slides for .NET tutorials, where you'll discover the art of presentation manipulation, conversion, and PowerPoint processing. These tutorials serve as your guide to mastering the capabilities of Aspose.Slides, enabling you to seamlessly navigate through various aspects of presentation creation, customization, and transformation. Whether you're seeking to automate PowerPoint tasks, convert presentations to different formats, or enhance slides with multimedia, these tutorials provide step-by-step instructions to empower your development journey.
 
 ## Presentation Conversion: Transforming Slides with Ease
@@ -60,3 +63,9 @@ Enhance your slide presentations with captivating images and videos using Aspose
 Enhance your slide manipulation skills with Aspose.Slides tutorials on shape geometry and positioning in slides. Learn to programmatically control shapes, their dimensions, and alignment.
 ### [Shape Alignment and Formatting in Slides](./shape-alignment-and-formatting-in-slides/)
 Explore the comprehensive Aspose.Slides tutorials on shape alignment and formatting in .NET applications. Learn to align and format shapes effortlessly, enhancing your slide presentations with precision. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

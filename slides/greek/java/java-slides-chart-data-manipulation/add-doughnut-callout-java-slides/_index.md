@@ -3,10 +3,14 @@ title: Προσθήκη Donut Callout σε Java Slides
 linktitle: Προσθήκη Donut Callout σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να προσθέτετε Donut Callouts σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για βελτιωμένες παρουσιάσεις.
-type: docs
 weight: 12
 url: /el/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στην προσθήκη ενός μηνύματος ντόνατ σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java
 
@@ -180,3 +184,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### Πώς μπορώ να προσαρμόσω τη θέση και το μέγεθος του γραφήματος Donut στη διαφάνεια;
 
  Μπορείτε να αλλάξετε τη θέση και το μέγεθος του γραφήματος Donut τροποποιώντας τις παραμέτρους στο`addChart` μέθοδος. Οι τέσσερις αριθμοί σε αυτήν τη μέθοδο αντιστοιχούν στις συντεταγμένες X και Y της επάνω αριστερής γωνίας του γραφήματος και στο πλάτος και το ύψος του, αντίστοιχα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

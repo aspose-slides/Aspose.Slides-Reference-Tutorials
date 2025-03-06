@@ -3,10 +3,14 @@ title: Chuyển đổi không có tùy chọn XPS trong Java Slides
 linktitle: Chuyển đổi không có tùy chọn XPS trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang định dạng XPS bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 33
 url: /vi/java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu Chuyển đổi PowerPoint sang XPS mà không cần tùy chọn XPS trong Aspose.Slides for Java
 
@@ -93,3 +97,9 @@ finally
 ### Làm cách nào để xử lý các trường hợp ngoại lệ trong quá trình chuyển đổi?
 
  Bạn có thể triển khai xử lý ngoại lệ để xử lý khéo léo mọi lỗi có thể xảy ra trong quá trình chuyển đổi. Như được hiển thị trong mã, một`try` Và`finally` khối được sử dụng để đảm bảo xử lý tài nguyên hợp lý ngay cả khi xảy ra ngoại lệ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: SmartArt gyermekjegyzet miniatűr létrehozása
 linktitle: SmartArt gyermekjegyzet miniatűr létrehozása
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre SmartArt gyermekjegyzet-bélyegképeket Java nyelven az Aspose.Slides segítségével, így könnyedén javíthatja PowerPoint-prezentációit.
-type: docs
 weight: 15
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre SmartArt gyermekjegyzet-bélyegképeket Java nyelven az Aspose.Slides használatával. Az Aspose.Slides egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak PowerPoint-prezentációkkal, lehetővé téve számukra a diák könnyű létrehozását, módosítását és kezelését.
 ## Előfeltételek
@@ -70,3 +74,9 @@ Igen, az Aspose.Slides a vállalati szintű PowerPoint automatizálási feladato
 Biztosan! Az Aspose.Slides átfogó támogatást nyújt a különböző bonyolultságú SmartArt-diagramok létrehozásához és kezeléséhez.
 ### Az Aspose.Slides kínál technikai támogatást a fejlesztőknek?
  Igen, az Aspose.Slides dedikált technikai támogatást nyújt a fejlesztőknek a sajátjukon keresztül[fórum](https://forum.aspose.com/c/slides/11) és más csatornákon.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 增強簡報 - 使用 Aspose.Slides 設定矩形格式
 linktitle: 使用 Aspose.Slides 格式化簡報投影片中的矩形形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解使用 Aspose.Slides for .NET 在 PowerPoint 簡報中設定矩形格式。使用動態視覺元素提升您的投影片。
-type: docs
 weight: 12
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 Aspose.Slides for .NET 是一個功能強大的程式庫，有助於在 .NET 環境中處理 PowerPoint 簡報。如果您想透過動態設定矩形形狀來增強演示文稿，本教學適合您。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 在簡報中設定矩形形狀的過程。
 ## 先決條件
@@ -76,3 +80,9 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q5：哪裡可以購買 Aspose.Slides for .NET？
 您可以購買 Aspose.Slides for .NET[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: قم بإزالة العقدة في موضع محدد في SmartArt
 linktitle: قم بإزالة العقدة في موضع محدد في SmartArt
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إزالة عقدة في موضع معين داخل SmartArt باستخدام Aspose.Slides لـ Java. تعزيز تخصيص العرض التقديمي دون عناء.
-type: docs
 weight: 15
 url: /ar/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في مجال تطوير Java، يظهر Aspose.Slides كأداة قوية لمعالجة العروض التقديمية برمجيًا. سواء كان الأمر يتعلق بإنشاء الشرائح أو تعديلها أو إدارتها، يوفر Aspose.Slides for Java مجموعة قوية من الميزات لتبسيط هذه المهام بكفاءة. إحدى هذه العمليات الشائعة هي إزالة عقدة في موضع محدد داخل كائن SmartArt. يتعمق هذا البرنامج التعليمي في عملية تنفيذ ذلك خطوة بخطوة باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -62,3 +66,9 @@ pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
  لشراء Aspose.Slides لـ Java، قم بزيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).
 ### أين يمكنني العثور على وثائق مفصلة عن Aspose.Slides لـ Java؟
  يمكنك الوصول إلى الوثائق الشاملة[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

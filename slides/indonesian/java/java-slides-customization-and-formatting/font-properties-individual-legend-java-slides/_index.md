@@ -3,10 +3,14 @@ title: Properti Font untuk Legenda Individu di Slide Java
 linktitle: Properti Font untuk Legenda Individu di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan presentasi PowerPoint dengan gaya, ukuran, dan warna font khusus untuk masing-masing legenda di Java Slides menggunakan Aspose.Slides untuk Java.
-type: docs
 weight: 12
 url: /id/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Properti Font untuk Legenda Individual di Slide Java
 
@@ -113,3 +117,9 @@ Ingatlah untuk membuang objek presentasi setelah Anda selesai melepaskan sumber 
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

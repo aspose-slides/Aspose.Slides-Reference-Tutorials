@@ -3,10 +3,14 @@ title: Simpan sebagai Read-Only di Java Slides
 linktitle: Simpan sebagai Read-Only di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyimpan presentasi PowerPoint sebagai baca-saja di Java menggunakan Aspose.Slides. Lindungi konten Anda dengan petunjuk langkah demi langkah dan contoh kode.
-type: docs
 weight: 11
 url: /id/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Simpan sebagai Read-Only di Slide Java Menggunakan Aspose.Slides untuk Java
 
@@ -127,3 +131,9 @@ Jika Anda lupa kata sandi perlindungan penulisan, tidak ada cara bawaan untuk me
 ### Bisakah saya mengubah kata sandi read-only setelah mengaturnya?
 
  Ya, Anda dapat mengubah kata sandi read-only setelah mengaturnya. Menggunakan`setReadProtection(String newPassword)` metode dengan kata sandi baru untuk memperbarui kata sandi perlindungan read-only.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

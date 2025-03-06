@@ -3,10 +3,14 @@ title: Ukryj kształty w programie PowerPoint
 linktitle: Ukryj kształty w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ukryć kształty w programie PowerPoint za pomocą Aspose.Slides dla Java, korzystając z naszego szczegółowego przewodnika krok po kroku. Idealny dla programistów Java na wszystkich poziomach.
-type: docs
 weight: 27
 url: /pl/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Witamy w naszym obszernym samouczku na temat ukrywania kształtów w programie PowerPoint przy użyciu Aspose.Slides dla Java! Jeśli kiedykolwiek musiałeś programowo ukryć określone kształty w prezentacjach programu PowerPoint, jesteś we właściwym miejscu. Ten przewodnik przeprowadzi Cię przez każdy krok w prosty, konwersacyjny sposób. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z Javą, mamy dla Ciebie wsparcie.
 ## Warunki wstępne
@@ -81,3 +85,9 @@ Aspose.Slides jest dostępny dla różnych języków programowania, w tym .NET, 
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置数据范围
 linktitle: 在 Java Slides 中设置数据范围
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 轻松设置 Java 幻灯片中的数据范围。通过本分步指南创建动态和数据驱动的演示文稿。
-type: docs
 weight: 18
 url: /zh/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中设置数据范围的介绍
 
@@ -97,3 +101,9 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多文档和示例？
 
 您可以在 Aspose 文档网站上找到有关 Aspose.Slides for Java 的大量文档和示例：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

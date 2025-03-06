@@ -3,10 +3,14 @@ title: Xác định các ô đã hợp nhất trong bảng PowerPoint bằng Jav
 linktitle: Xác định các ô đã hợp nhất trong bảng PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xác định các ô đã hợp nhất trong bảng PowerPoint theo lập trình bằng Aspose.Slides cho Java. Hoàn hảo cho các nhà phát triển Java.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc thao tác các bản trình bày PowerPoint theo chương trình có thể là một nhiệm vụ quan trọng, đặc biệt là khi xử lý các bảng dữ liệu phức tạp. Aspose.Slides for Java cung cấp bộ công cụ mạnh mẽ cho phép các nhà phát triển quản lý các khía cạnh khác nhau của bản trình bày PowerPoint một cách liền mạch. Một thách thức chung mà các nhà phát triển phải đối mặt là xác định các ô đã hợp nhất trong các bảng được nhúng trong bản trình bày. Hướng dẫn này nhằm mục đích hướng dẫn bạn quy trình xác định các ô đã hợp nhất bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -67,3 +71,9 @@ Aspose.Slides for Java là một thư viện mạnh mẽ để thao tác các b�
  Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
 Để được hỗ trợ, hãy truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

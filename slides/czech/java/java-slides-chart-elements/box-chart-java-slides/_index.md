@@ -3,10 +3,14 @@ title: Box Chart v Java Slides
 linktitle: Box Chart v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet krabicové grafy v prezentacích Java pomocí Aspose.Slides. Součástí je podrobný průvodce a zdrojový kód pro efektivní vizualizaci dat.
-type: docs
 weight: 10
 url: /cs/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do Box Chart v Aspose.Slides pro Javu
 
@@ -148,3 +152,9 @@ Vzhled krabicového grafu můžete přizpůsobit úpravou vlastností, jako jsou
 ### Co znamená QuartileMethodType.Exclusive?
 
  The`QuartileMethodType.Exclusive` nastavení určuje, že výpočty kvartilů by měly být prováděny pomocí exkluzivní metody. Můžete si vybrat různé metody výpočtu kvartilů v závislosti na vašich datech a požadavcích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

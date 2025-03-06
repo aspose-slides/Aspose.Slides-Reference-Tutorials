@@ -3,10 +3,14 @@ title: Προσθήκη εικόνας από το αντικείμενο SVG σ
 linktitle: Προσθήκη εικόνας από το αντικείμενο SVG σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε εικόνες SVG σε διαφάνειες Java με το Aspose.Slides for Java. Οδηγός βήμα προς βήμα με κώδικα για εντυπωσιακές παρουσιάσεις.
-type: docs
 weight: 11
 url: /el/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στην Προσθήκη εικόνας από αντικείμενο SVG σε διαφάνειες Java
 
@@ -120,3 +124,9 @@ finally
 ### Μπορώ να προσαρμόσω την εμφάνιση της εικόνας SVG, όπως χρώματα ή στυλ, αφού την προσθέσω στη διαφάνεια;
 
 Ναι, μπορείτε να προσαρμόσετε την εμφάνιση της εικόνας SVG χρησιμοποιώντας το Aspose.Slides για το εκτεταμένο API της Java. Μπορείτε να αλλάξετε χρώματα, να εφαρμόσετε στυλ και να κάνετε άλλες προσαρμογές όπως απαιτείται.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: เพิ่มเฟรมวิดีโอใน PowerPoint
 linktitle: เพิ่มเฟรมวิดีโอใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีผสานรวมเนื้อหาวิดีโอเข้ากับงานนำเสนอ PowerPoint ได้อย่างราบรื่นโดยใช้ Aspose.Slides สำหรับ Java สไลด์ของคุณพร้อมองค์ประกอบมัลติมีเดียเพื่อดึงดูดผู้ชมของคุณ
-type: docs
 weight: 17
 url: /th/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มเฟรมวิดีโอลงในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เมื่อทำตามคำแนะนำทีละขั้นตอนเหล่านี้ คุณจะสามารถรวมเนื้อหาวิดีโอเข้ากับงานนำเสนอของคุณได้อย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -60,3 +64,9 @@ Aspose.Slides รองรับรูปแบบวิดีโอต่าง
 ได้ คุณสามารถตั้งค่าโหมดการเล่นและระดับเสียงของเฟรมวิดีโอได้ตามความต้องการของคุณ
 ### ฉันจะหาการสนับสนุนและทรัพยากรเพิ่มเติมสำหรับ Aspose.Slides ได้ที่ไหน
  เยี่ยมชม[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับความช่วยเหลือ เอกสาร และการสนับสนุนจากชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

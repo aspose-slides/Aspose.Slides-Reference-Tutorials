@@ -3,10 +3,14 @@ title: Administrar encabezado y pie de página en Notes con Aspose.Slides .NET
 linktitle: Administrar encabezado y pie de página en la diapositiva de notas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a administrar encabezados y pies de página en diapositivas de notas de PowerPoint usando Aspose.Slides para .NET. Mejore sus presentaciones sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 En la era digital actual, crear presentaciones atractivas e informativas es una habilidad vital. Como parte de este proceso, es posible que a menudo necesites incluir encabezados y pies de página en las diapositivas de tus notas para proporcionar contexto e información adicionales. Aspose.Slides para .NET es una poderosa herramienta que le permite administrar la configuración del encabezado y pie de página en diapositivas de notas con facilidad. En esta guía paso a paso, exploraremos cómo lograr esto usando Aspose.Slides para .NET.
 
@@ -120,3 +124,9 @@ Por supuesto, Aspose.Slides para .NET le permite automatizar presentaciones de P
 
 ### ¿Hay soporte técnico disponible para usuarios de Aspose.Slides para .NET?
  Sí, puede encontrar apoyo y asistencia de la comunidad de Aspose y de expertos en el tema.[Aspose foro de soporte](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

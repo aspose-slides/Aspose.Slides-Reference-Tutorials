@@ -3,10 +3,14 @@ title: Aspose.Slides セクション ズーム - プレゼンテーションの�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにセクション ズームを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、セクション ズームを備えた魅力的なプレゼンテーション スライドを作成する方法を学びます。インタラクティブな機能でプレゼンテーションのレベルを高めます。
-type: docs
 weight: 13
 url: /ja/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 プレゼンテーション スライドをインタラクティブな機能で強化することは、視聴者の関心を維持するために不可欠です。これを実現する強力な方法の 1 つは、セクション ズームを組み込むことです。これにより、プレゼンテーションのさまざまなセクション間をシームレスに移動できます。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドにセクション ズームを作成する方法について説明します。
 ## 前提条件
@@ -70,3 +74,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
 はい、Aspose.Slidesの機能を調べるには、[無料トライアル](https://releases.aspose.com/).
 ### Aspose.Slides 関連のクエリのサポートはどこで受けられますか?
 サポートや質問については、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

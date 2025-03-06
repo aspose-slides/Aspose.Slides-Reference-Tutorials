@@ -3,10 +3,14 @@ title: 在 Java PowerPoint 中指定默认文本语言
 linktitle: 在 Java PowerPoint 中指定默认文本语言
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中指定默认文本语言。非常适合希望以编程方式进行文本本地化的开发人员。
-type: docs
 weight: 21
 url: /zh/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在 Java 应用程序开发领域，以编程方式管理和操作 PowerPoint 演示文稿是一项常见要求。Aspose.Slides for Java 提供了一套强大的功能，使开发人员能够通过 Java 代码无缝创建、修改和增强 PowerPoint 演示文稿。本教程旨在指导您完成使用 Aspose.Slides 在 Java PowerPoint 演示文稿中指定默认文本语言的基本步骤。
 ## 先决条件
@@ -66,3 +70,9 @@ finally {
 是的，Aspose.Slides for Java 提供支持与流行云平台集成的 API。
 ### 我可以在购买之前评估 Aspose.slides for Java 吗？
 是的，您可以从以下网站获取 Aspose.slides for Java 的免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

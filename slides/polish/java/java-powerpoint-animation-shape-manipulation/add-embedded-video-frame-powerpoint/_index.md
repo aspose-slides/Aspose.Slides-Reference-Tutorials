@@ -3,10 +3,14 @@ title: Dodaj osadzoną ramkę wideo w programie PowerPoint
 linktitle: Dodaj osadzoną ramkę wideo w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak osadzać klatki wideo w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z tego samouczka krok po kroku. Z łatwością ulepszaj swoje prezentacje.
-type: docs
 weight: 21
 url: /pl/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Dodawanie filmów do prezentacji programu PowerPoint może uczynić je bardziej wciągającymi i pouczającymi. Używając Aspose.Slides dla Java, możesz łatwo osadzać filmy bezpośrednio w swoich slajdach. W tym samouczku przeprowadzimy Cię przez proces krok po kroku, upewniając się, że rozumiesz każdą część kodu i jego działanie. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik pomoże Ci ulepszyć swoje prezentacje za pomocą osadzonych filmów.
 ## Warunki wstępne
@@ -93,3 +97,9 @@ Aspose.Slides obsługuje różne formaty wideo, w tym MP4, AVI i WMV.
 Tak, potrzebujesz ważnej licencji, aby korzystać z Aspose.Slides. Możesz uzyskać tymczasową licencję do oceny.
 ### Czy mogę dostosować rozmiar i położenie klatki wideo?
 Tak, możesz dostosować rozmiar i położenie, ustawiając odpowiednie parametry podczas dodawania klatki wideo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

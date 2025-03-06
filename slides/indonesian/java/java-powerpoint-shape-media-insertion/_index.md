@@ -3,10 +3,14 @@ title: Bentuk Java PowerPoint dan Penyisipan Media
 linktitle: Bentuk Java PowerPoint dan Penyisipan Media
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyisipkan bentuk dan media ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tutorialnya mencakup penambahan baris, audio, objek OLE, dan video.
-type: docs
 weight: 23
 url: /id/java/java-powerpoint-shape-media-insertion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Perkenalan
 
@@ -53,3 +57,9 @@ Pelajari cara menambahkan offset regangan untuk pengisian gambar dalam presentas
 Pelajari cara mengintegrasikan konten video dengan lancar ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Slide Anda dengan elemen multimedia untuk melibatkan audiens Anda.
 ### [Tambahkan Bingkai Video dari Sumber Web di PowerPoint](./add-video-frame-web-source-powerpoint/)
 Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan menambahkan bingkai video dari sumber web menggunakan Aspose.Slides untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

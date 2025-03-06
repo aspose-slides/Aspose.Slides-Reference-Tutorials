@@ -3,10 +3,14 @@ title: Voeg kolom toe aan tekstvakken met Aspose.Slides voor Java
 linktitle: Voeg kolom toe aan tekstvakken met Aspose.Slides voor Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u kolommen aan tekstvakken in PowerPoint kunt toevoegen met Aspose.Slides voor Java. Verbeter uw presentaties met deze stapsgewijze handleiding.
-type: docs
 weight: 10
 url: /nl/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u tekstvakken kunt verbeteren door kolommen toe te voegen met Aspose.Slides voor Java. Aspose.Slides is een krachtige Java-bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren zonder dat daarvoor Microsoft Office nodig is. Het toevoegen van kolommen aan tekstvakken kan de leesbaarheid en organisatie van de inhoud binnen dia's aanzienlijk verbeteren, waardoor uw presentaties aantrekkelijker en professioneler worden.
 ## Vereisten
@@ -82,3 +86,9 @@ Ja, Aspose.Slides ondersteunt Java 11 en hogere versies.
 Nee, voor Aspose.Slides hoeft Microsoft Office niet op de machine te zijn geïnstalleerd.
 ### Waar kan ik meer documentatie vinden over Aspose.Slides voor Java?
  Gedetailleerde documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

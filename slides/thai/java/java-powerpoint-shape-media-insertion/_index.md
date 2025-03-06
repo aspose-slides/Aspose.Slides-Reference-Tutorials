@@ -3,10 +3,14 @@ title: Java PowerPoint รูปร่างและการแทรกสื
 linktitle: Java PowerPoint รูปร่างและการแทรกสื่อ
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแทรกรูปร่างและสื่อลงในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนประกอบด้วยการเพิ่มบรรทัด เสียง วัตถุ OLE และวิดีโอ
-type: docs
 weight: 23
 url: /th/java/java-powerpoint-shape-media-insertion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## การแนะนำ
 
@@ -53,3 +57,9 @@ url: /th/java/java-powerpoint-shape-media-insertion/
 เรียนรู้วิธีผสานรวมเนื้อหาวิดีโอเข้ากับงานนำเสนอ PowerPoint ได้อย่างราบรื่นโดยใช้ Aspose.Slides สำหรับ Java สไลด์ของคุณพร้อมองค์ประกอบมัลติมีเดียเพื่อดึงดูดผู้ชมของคุณ
 ### [เพิ่มเฟรมวิดีโอจากแหล่งที่มาของเว็บใน PowerPoint](./add-video-frame-web-source-powerpoint/)
 เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ของคุณโดยการเพิ่มเฟรมวิดีโอจากแหล่งที่มาของเว็บโดยใช้ Aspose.Slides สำหรับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

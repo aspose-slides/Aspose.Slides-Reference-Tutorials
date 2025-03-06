@@ -3,10 +3,14 @@ title: 将演示幻灯片转换为 GIF 格式
 linktitle: 将演示幻灯片转换为 GIF 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 通过本分步指南了解如何使用 Aspose.Slides for .NET 将 PowerPoint 幻灯片转换为动态 GIF。
-type: docs
 weight: 21
 url: /zh/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for .NET 简介
 
@@ -133,3 +137,9 @@ class Program
 ### 在哪里可以找到更多代码示例和文档？
 
 您可以在以下位置找到有关使用 Aspose.Slides for .NET 的更多代码示例和详细文档[文档](https://reference.aspose.com).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

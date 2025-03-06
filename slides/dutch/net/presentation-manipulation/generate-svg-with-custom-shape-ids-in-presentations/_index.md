@@ -3,10 +3,14 @@ title: Genereer SVG met aangepaste vorm-ID's in presentaties
 linktitle: Genereer SVG met aangepaste vorm-ID's in presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Genereer boeiende presentaties met aangepaste SVG-vormen en ID's met Aspose.Slides voor .NET. Leer stap voor stap hoe u interactieve dia's maakt met broncodevoorbeelden. Verbeter de visuele aantrekkingskracht en gebruikersinteractie in uw presentaties.
-type: docs
 weight: 19
 url: /nl/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Wilt u de kracht van Aspose.Slides voor .NET benutten om SVG-bestanden met aangepaste vorm-ID's te genereren? Je bent op de juiste plek! In deze stapsgewijze zelfstudie begeleiden we u door het proces met behulp van het volgende broncodefragment. Uiteindelijk bent u goed uitgerust om SVG-bestanden met aangepaste vorm-ID's in uw presentaties te maken.
 
@@ -78,3 +82,10 @@ En daar heb je het! U hebt met succes SVG-bestanden met aangepaste vorm-ID's geg
     Voor aanvullende documentatie gaat u naar de[Aspose.Slides voor .NET API-referentie](https://reference.aspose.com/slides/net/).
 
 Ga nu aan de slag en ontdek de eindeloze mogelijkheden van het genereren van SVG met Aspose.Slides voor .NET. Veel codeerplezier!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

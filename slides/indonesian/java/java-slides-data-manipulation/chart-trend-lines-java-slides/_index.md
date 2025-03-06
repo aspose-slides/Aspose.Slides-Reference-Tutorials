@@ -3,10 +3,14 @@ title: Garis Tren Bagan di Slide Java
 linktitle: Garis Tren Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan berbagai garis tren ke Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan contoh kode untuk visualisasi data yang efektif.
-type: docs
 weight: 15
 url: /id/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Garis Tren Bagan di Slide Java: Panduan Langkah demi Langkah
 
@@ -190,3 +194,9 @@ Ya, Anda dapat menambahkan beberapa garis tren ke satu rangkaian grafik. Cukup h
 ### Bagaimana saya bisa mengakses lebih banyak sumber daya dan contoh untuk Aspose.Slides untuk Java?
 
  Anda dapat mengakses sumber daya tambahan, dokumentasi, dan contoh untuk Aspose.Slides untuk Java di[Asumsikan situs web](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

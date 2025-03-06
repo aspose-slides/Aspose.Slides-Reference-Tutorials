@@ -3,10 +3,14 @@ title: Diagramtrendlinjer i Java Slides
 linktitle: Diagramtrendlinjer i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till olika trendlinjer till Java Slides med Aspose.Slides för Java. Steg-för-steg guide med kodexempel för effektiv datavisualisering.
-type: docs
 weight: 15
 url: /sv/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till diagramtrendlinjer i Java Slides: En steg-för-steg-guide
 
@@ -190,3 +194,9 @@ Ja, du kan lägga till flera trendlinjer i en enda diagramserie. Ring helt enkel
 ### Hur kan jag komma åt fler resurser och exempel för Aspose.Slides för Java?
 
  Du kan komma åt ytterligare resurser, dokumentation och exempel för Aspose.Slides för Java på[Aspose hemsida](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

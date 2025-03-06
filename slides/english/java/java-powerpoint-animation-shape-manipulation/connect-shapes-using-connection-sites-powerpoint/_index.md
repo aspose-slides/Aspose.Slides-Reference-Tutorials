@@ -3,10 +3,14 @@ title: Connect Shapes using Connection Sites in PowerPoint
 linktitle: Connect Shapes using Connection Sites in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to connect shapes in PowerPoint using Aspose.Slides for Java. Automate your presentations effortlessly.
-type: docs
 weight: 19
 url: /java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, we'll explore how to connect shapes using connection sites in PowerPoint using Aspose.Slides for Java. This powerful library allows us to programmatically manipulate PowerPoint presentations, making tasks like connecting shapes seamless and efficient.
 ## Prerequisites
@@ -70,3 +74,10 @@ Yes, you can get support from the Aspose community forums [here](https://forum.a
 Yes, temporary licenses are available for testing and evaluation purposes. You can obtain one [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase a license for Aspose.Slides for Java?
 You can purchase a license from the Aspose website [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

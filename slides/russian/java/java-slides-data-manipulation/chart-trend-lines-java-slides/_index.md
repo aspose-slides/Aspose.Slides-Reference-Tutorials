@@ -3,10 +3,14 @@ title: Нарисуйте линии тренда в слайдах Java
 linktitle: Нарисуйте линии тренда в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять различные линии тренда в слайды Java с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода для эффективной визуализации данных.
-type: docs
 weight: 15
 url: /ru/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в линии тренда диаграммы в слайдах Java: пошаговое руководство
 
@@ -190,3 +194,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### Как я могу получить доступ к дополнительным ресурсам и примерам Aspose.Slides для Java?
 
  Вы можете получить доступ к дополнительным ресурсам, документации и примерам для Aspose.Slides for Java на сайте[Веб-сайт Aspose](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

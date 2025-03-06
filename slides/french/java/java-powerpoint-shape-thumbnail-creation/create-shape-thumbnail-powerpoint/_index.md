@@ -3,10 +3,14 @@ title: Créer une vignette de forme dans PowerPoint
 linktitle: Créer une vignette de forme dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment générer des vignettes de formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape fourni.
-type: docs
 weight: 14
 url: /fr/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans ce didacticiel, nous aborderons la création de vignettes de formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers PowerPoint par programme, permettant l'automatisation de diverses tâches, notamment la génération de vignettes de formes.
 ## Conditions préalables
@@ -60,3 +64,9 @@ Oui, outre PNG, Aspose.Slides prend en charge l'enregistrement des vignettes dan
  Absolument! Vous pouvez télécharger une version d’essai gratuite d’Aspose.Slides à partir de[ici](https://releases.aspose.com/) pour évaluer ses caractéristiques et ses capacités.
 ### Où puis-je trouver de l’aide pour Aspose.Slides ?
  Si vous avez des questions ou avez besoin d'aide avec Aspose.Slides, vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

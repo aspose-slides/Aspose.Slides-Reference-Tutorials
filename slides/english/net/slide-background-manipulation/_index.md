@@ -3,10 +3,14 @@ title: Slide Background Manipulation using Aspose.Slides
 linktitle: Slide Background Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your slide design with Aspose.Slides! Learn how to manipulate slide backgrounds in this comprehensive tutorial. Step-by-step instructions and code examples provided.
-type: docs
 weight: 11
 url: /net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction
 
@@ -37,3 +41,9 @@ Learn how to set an image as slide background using Aspose.Slides for .NET. Crea
 Learn how to master setting slide backgrounds using Aspose.Slides in this step-by-step guide. Elevate your presentations to the next level with engaging visuals.
 ### [Change Normal Slide Background](./change-slide-background-normal/)
 Learn how to change the normal slide background to captivate your audience. Follow this comprehensive guide using Aspose.Slides for .NET, complete with step-by-step instructions and code examples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

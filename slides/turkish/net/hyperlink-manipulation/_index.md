@@ -3,10 +3,14 @@ title: Köprü Bağlantısı Manipülasyonu
 linktitle: Köprü Bağlantısı Manipülasyonu
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak .NET uygulamalarınızı kapsamlı köprü manipülasyonuyla geliştirin. Köprüleri nasıl yöneteceğinizi, etkileşimli sunumlar oluşturmayı ve kullanıcı etkileşimini zahmetsizce nasıl artıracağınızı öğrenin.
-type: docs
 weight: 13
 url: /tr/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giriiş:
 
@@ -27,3 +31,9 @@ Aspose.Slides for .NET'i kullanarak PowerPoint'te slaytlara nasıl köprü ekley
 Aspose.Slides for .NET kullanarak sunumlardaki köprüleri etkili bir şekilde nasıl yöneteceğinizi öğrenin. Görevleri otomatikleştirin, etkileşimli menüler oluşturun ve kullanıcı etkileşimini artırın.
 ### [Değiştirilebilir Köprü Oluşturma](./mutable-hyperlink/)
 Aspose.Slides for .NET'i kullanarak değiştirilebilir köprüler oluşturmayı öğrenin. Dinamik sunumlar için kaynak kodlu adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

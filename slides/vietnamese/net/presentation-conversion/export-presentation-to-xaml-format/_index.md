@@ -3,10 +3,14 @@ title: Xuất bản trình bày sang định dạng XAML
 linktitle: Xuất bản trình bày sang định dạng XAML
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xuất bản trình bày sang định dạng XAML bằng Aspose.Slides cho .NET. Tạo nội dung tương tác dễ dàng!
-type: docs
 weight: 27
 url: /vi/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thế giới phát triển phần mềm, điều cần thiết là phải có các công cụ có thể đơn giản hóa các tác vụ phức tạp. Aspose.Slides for .NET là một trong những công cụ cho phép bạn làm việc với các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách xuất bản trình bày sang định dạng XAML bằng Aspose.Slides cho .NET. 
 
@@ -113,3 +117,9 @@ Aspose.Slides for .NET là thư viện .NET để làm việc với các bản t
  Bạn có thể tìm thấy sự hỗ trợ và thảo luận cộng đồng[đây](https://forum.aspose.com/).
 
  Để biết thêm hướng dẫn và tài nguyên, hãy truy cập[Tài liệu API Aspose.Slides](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

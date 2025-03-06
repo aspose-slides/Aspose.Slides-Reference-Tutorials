@@ -3,10 +3,14 @@ title: Snadné animace tvarů s Aspose.Slides
 linktitle: Použití animací na tvary v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vytvářejte úžasné prezentace s Aspose.Slides pro .NET. V tomto podrobném průvodci se dozvíte, jak aplikovat animace na tvary. Pozvedněte své snímky hned teď!
-type: docs
 weight: 21
 url: /cs/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Ve světě dynamických prezentací může přidání animací k tvarům výrazně zlepšit vizuální přitažlivost a zapojení vašich snímků. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů, jak toho dosáhnout. V tomto tutoriálu vás provedeme procesem aplikace animací na tvary pomocí Aspose.Slides, což vám umožní vytvářet podmanivé prezentace, které zanechají trvalý dojem.
 ## Předpoklady
@@ -81,3 +85,9 @@ Aspose.Slides zajišťuje kompatibilitu s různými verzemi aplikace PowerPoint 
  Ano, můžete získat licenci[tady](https://purchase.aspose.com/buy) odemknout plný potenciál Aspose.Slides.
 ### Mohu vyzkoušet Aspose.Slides před nákupem?
  Rozhodně! Využijte[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet možnosti Aspose.Slides, než se zavážete.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

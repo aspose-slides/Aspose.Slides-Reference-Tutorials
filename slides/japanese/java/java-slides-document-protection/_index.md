@@ -3,10 +3,14 @@ title: Aspose.Slides For Java を使用したドキュメントの保護
 linktitle: Java スライド ドキュメント保護
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライド ドキュメントのセキュリティを強化する方法を学びます。ドキュメント保護に関するステップバイステップのチュートリアルをご覧ください。
-type: docs
 weight: 24
 url: /ja/java/document-protection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 進化し続けるデジタル ドキュメントの世界では、コンテンツのセキュリティと整合性を確保することが最も重要です。Java スライド ドキュメントもこのルールの例外ではありません。そこで Aspose.Slides for Java が役に立ちます。この包括的なガイドでは、Aspose.Slides for Java を使用してドキュメントを保護するための重要なチュートリアルを順を追って説明します。
 
 ## 文書保護が重要な理由
@@ -34,3 +38,9 @@ Aspose.Slides for Java は、Java スライド ドキュメントのセキュリ
 ## Java スライド ドキュメント保護チュートリアル
 ### [Javaスライドの書き込み保護を解除する](./remove-write-protection-in-java-slides/)
 Aspose.Slides for Java を使用して Java スライド プレゼンテーションの書き込み保護を解除する方法を学びます。ソース コードを含むステップ バイ ステップ ガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Đạt được sự phù hợp với PDF/A và PDF/UA với Aspose.Slide
 linktitle: Đạt được sự phù hợp với PDF/A và PDF/UA
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Đảm bảo tuân thủ PDF/A và PDF/UA với Aspose.Slides for .NET. Tạo các bài thuyết trình có thể truy cập và bảo quản dễ dàng.
-type: docs
 weight: 23
 url: /vi/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -127,3 +131,9 @@ Có, các ví dụ về mã nguồn được cung cấp tương thích với nhi
 ### Việc tuân thủ PDF/UA có cần thiết cho tất cả tài liệu không?
 
 Việc tuân thủ PDF/UA đặc biệt quan trọng đối với các tài liệu nhằm mục đích giúp người dùng khuyết tật có thể truy cập được. Tuy nhiên, sự cần thiết phải tuân thủ PDF/UA phụ thuộc vào yêu cầu cụ thể của đối tượng mục tiêu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

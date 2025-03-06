@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint テーブルの最初の行をヘッダ�
 linktitle: Java を使用して PowerPoint テーブルの最初の行をヘッダーとして設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint テーブルの最初の行をヘッダーとして設定する方法を学びます。プレゼンテーションの明瞭性と構成を簡単に向上できます。
-type: docs
 weight: 19
 url: /ja/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、プレゼンテーションのシームレスな統合と変更を可能にする強力なライブラリである Aspose.Slides for Java を使用して PowerPoint テーブルを操作する方法について詳しく説明します。具体的には、テーブルの最初の行をヘッダーとして設定し、スライドの視覚的な魅力と構成を強化することに焦点を当てます。
 ## 前提条件
@@ -76,3 +80,9 @@ Aspose.Slides for Java は、PowerPoint ファイルをプログラムで操作�
 詳細なドキュメントが利用可能[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 コミュニティのサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

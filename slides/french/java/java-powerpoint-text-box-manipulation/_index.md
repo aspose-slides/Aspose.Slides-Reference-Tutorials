@@ -3,10 +3,14 @@ title: Manipulation de la zone de texte Java PowerPoint
 linktitle: Manipulation de la zone de texte Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Explorez des didacticiels complets sur la manipulation des zones de texte Java PowerPoint avec Aspose.Slides. Améliorez vos présentations étape par étape avec nos guides.
-type: docs
 weight: 20
 url: /fr/java/java-powerpoint-text-box-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 
 Libérez tout le potentiel de vos présentations PowerPoint avec nos didacticiels de manipulation de zones de texte Java PowerPoint utilisant Aspose.Slides. Que vous soyez débutant ou utilisateur avancé, nos guides détaillés vous aideront à améliorer vos présentations sans effort.
@@ -52,3 +56,9 @@ Découvrez comment personnaliser les angles de rotation des blocs de texte dans 
 Découvrez comment appliquer des formats de remplissage de puces dans Java PowerPoint à l'aide d'Aspose.Slides pour Java. Maîtrisez les styles de puces et améliorez vos présentations.
 ### [Paragraphe de zone de texte d'effet dans Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Découvrez comment améliorer les présentations PowerPoint en Java avec des effets de texte dynamiques à l'aide d'Aspose.Slides pour une intégration et une personnalisation transparentes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: सभी स्लाइडों से नोट्स हटाएँ
 linktitle: सभी स्लाइडों से नोट्स हटाएँ
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड से नोट्स निकालना सीखें। अपनी प्रस्तुतियों को अधिक साफ़ और अधिक पेशेवर बनाएँ।
-type: docs
 weight: 13
 url: /hi/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 यदि आप पावरपॉइंट प्रेजेंटेशन के साथ काम करने वाले .NET डेवलपर हैं, तो आपको अपनी प्रेजेंटेशन में सभी स्लाइड से नोट्स हटाने की आवश्यकता हो सकती है। यह तब उपयोगी हो सकता है जब आप अपनी स्लाइड को साफ करना चाहते हैं और ऐसी कोई भी अतिरिक्त जानकारी हटाना चाहते हैं जो आपके दर्शकों के लिए अभिप्रेत नहीं है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको इस कार्य को कुशलतापूर्वक पूरा करने के लिए .NET के लिए Aspose.Slides का उपयोग करने की प्रक्रिया के बारे में बताएँगे।
 
@@ -97,3 +101,9 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 ### 5. क्या Aspose.Slides for .NET नवीनतम PowerPoint प्रारूपों का समर्थन करता है?
 
 हां, Aspose.Slides for .NET, PowerPoint के कई प्रारूपों का समर्थन करता है, जिसमें नवीनतम संस्करण भी शामिल हैं। विवरण के लिए आप दस्तावेज़ देख सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

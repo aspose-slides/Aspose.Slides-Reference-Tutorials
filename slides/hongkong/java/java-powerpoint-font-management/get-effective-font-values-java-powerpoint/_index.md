@@ -3,10 +3,14 @@ title: 在 Java PowerPoint 中取得有效的字體值
 linktitle: 在 Java PowerPoint 中取得有效的字體值
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 檢索 Java PowerPoint 簡報中的有效字體值。輕鬆增強您的簡報格式。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將深入研究使用 Aspose.Slides 檢索 Java PowerPoint 簡報中的有效字體值。此功能可讓您存取應用於投影片中文字的字體格式，為各種簡報操作任務提供有價值的見解。
 ## 先決條件
@@ -62,3 +66,9 @@ Aspose.Slides 為各種 PowerPoint 格式提供全面支持，確保不同版本
 是的，只要您提供正確的憑證，Aspose.Slides 允許您存取受密碼保護的簡報中的字體值。
 ### 可檢索的字體屬性是否有任何限制？
 Aspose.Slides 提供了廣泛的字體屬性檢索功能，涵蓋了最常見的格式設定方面。但是，某些高級或專用字體功能可能無法透過此方法存取。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

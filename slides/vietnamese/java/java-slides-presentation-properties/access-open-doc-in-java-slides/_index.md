@@ -3,10 +3,14 @@ title: Truy cập Open Doc trong Java Slides
 linktitle: Truy cập Open Doc trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy cập và chuyển đổi các tệp Bản trình bày Tài liệu Mở (ODP) trong Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 12
 url: /vi/java/presentation-properties/access-open-doc-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Access Open Doc trong Java Slides
 
@@ -86,3 +90,9 @@ Có, bạn có thể sử dụng Aspose.Slides cho Java trong cả dự án cá 
 ### Làm cách nào tôi có thể liên hệ với bộ phận hỗ trợ của Aspose nếu tôi có thắc mắc hoặc vấn đề?
 
 Bạn có thể liên hệ với bộ phận hỗ trợ của Aspose thông qua các kênh hỗ trợ được liệt kê trên trang web của họ. Họ cung cấp hỗ trợ riêng để giải đáp mọi thắc mắc hoặc vấn đề bạn có thể gặp phải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

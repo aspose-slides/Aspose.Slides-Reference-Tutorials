@@ -3,10 +3,14 @@ title: Notes를 사용하여 슬라이드를 PDF로 변환
 linktitle: Notes를 사용하여 슬라이드를 PDF로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 발표자 노트가 포함된 프레젠테이션 슬라이드를 PDF로 쉽게 변환하세요. 콘텐츠와 맥락을 원활하게 보존합니다.
-type: docs
 weight: 18
 url: /ko/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # .NET용 Aspose.Slides를 사용하여 슬라이드를 노트와 함께 PDF로 변환하는 방법에 대한 단계별 튜토리얼 가이드 작성
 
@@ -98,3 +102,9 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
  예, 다음에서 임시 라이센스를 구입할 수 있습니다.[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 결론적으로 Aspose.Slides for .NET을 사용하면 PowerPoint 슬라이드를 메모를 그대로 유지하면서 PDF 형식으로 쉽게 변환할 수 있습니다. 이는 중요한 컨텍스트가 손실되지 않도록 하면서 동료 및 고객과 프레젠테이션을 공유해야 하는 전문가를 위한 귀중한 도구입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

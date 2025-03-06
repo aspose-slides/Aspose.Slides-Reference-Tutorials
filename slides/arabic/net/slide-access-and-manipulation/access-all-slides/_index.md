@@ -3,10 +3,14 @@ title: استرداد جميع الشرائح داخل العرض التقديم
 linktitle: استرداد جميع الشرائح داخل العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استرداد كافة الشرائح داخل عرض PowerPoint التقديمي باستخدام Aspose.Slides for .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر الكاملة للعمل بكفاءة مع العروض التقديمية برمجيًا. استكشف خصائص الشرائح والتثبيت والتخصيص والمزيد.
-type: docs
 weight: 13
 url: /ar/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -139,3 +143,9 @@ Install-Package Aspose.Slides
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
 
  للحصول على معلومات أكثر تفصيلاً ومراجع واجهة برمجة التطبيقات وأمثلة التعليمات البرمجية، يمكنك زيارة الموقع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

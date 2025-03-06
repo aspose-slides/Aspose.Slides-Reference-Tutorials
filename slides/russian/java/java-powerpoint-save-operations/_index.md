@@ -3,10 +3,14 @@ title: Операции сохранения Java PowerPoint
 linktitle: Операции сохранения Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как сохранять презентации PowerPoint с помощью Aspose.Slides для Java. Учебные пособия по сохранению в файл, потоковой передаче и добавлению защиты паролем.
-type: docs
 weight: 20
 url: /ru/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение
 
@@ -32,3 +36,9 @@ url: /ru/java/java-powerpoint-save-operations/
 Узнайте, как сохранять презентации PowerPoint в поток с помощью Aspose.Slides для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
 ### [Сохранить PowerPoint с паролем](./save-powerpoint-with-password/)
 Узнайте, как добавить защиту паролем к презентациям PowerPoint с помощью Aspose.Slides для Java. Легко защитите свои слайды.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

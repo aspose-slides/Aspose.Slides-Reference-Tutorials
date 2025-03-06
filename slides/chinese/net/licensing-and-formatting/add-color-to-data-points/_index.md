@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for .NET 实现图表着色
 linktitle: 为图表中的数据点添加颜色
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 为图表中的数据点添加颜色。增强您的演示文稿的视觉效果并有效吸引观众。
-type: docs
 weight: 12
 url: /zh/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 为图表中的数据点添加颜色的过程。Aspose.Slides 是一个功能强大的库，可用于在 .NET 应用程序中处理 PowerPoint 演示文稿。为图表中的数据点添加颜色可以使您的演示文稿更具视觉吸引力，更易于理解。
 
@@ -115,3 +119,9 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ### 如何获得对 Aspose.Slides for .NET 的支持？
    如需支持和讨论，请访问[Aspose.Slides 论坛](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

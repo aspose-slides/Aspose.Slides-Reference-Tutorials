@@ -3,10 +3,14 @@ title: Java PowerPoint SmartArt-manipulatie
 linktitle: Java PowerPoint SmartArt-manipulatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u Java PowerPoint SmartArt effectief kunt manipuleren met GroupDocs.Slides voor Java-tutorials. Krijg toegang tot onderliggende knooppunten, voeg knooppunten toe, wijzig de lay-out en meer!
-type: docs
 weight: 32
 url: /nl/java/java-powerpoint-smartart-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Invoering
 
@@ -71,3 +75,9 @@ Beheers het organiseren van diagramindelingstypen in SmartArt met behulp van Jav
 Leer hoe u knooppunten efficiënt en programmatisch kunt verwijderen uit SmartArt in PowerPoint-presentaties met behulp van Aspose.Slides voor Java.
 ### [Verwijder knooppunt op specifieke positie in SmartArt](./remove-node-specific-position-smartart-java/)
 Leer hoe u een knooppunt op een specifieke positie binnen SmartArt kunt verwijderen met Aspose.Slides voor Java. Verbeter moeiteloos de aanpassing van presentaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

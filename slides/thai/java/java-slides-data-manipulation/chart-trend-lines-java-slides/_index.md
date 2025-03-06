@@ -3,10 +3,14 @@ title: เส้นแนวโน้มแผนภูมิใน Java Slides
 linktitle: เส้นแนวโน้มแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มเส้นแนวโน้มต่างๆ ลงใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดเพื่อการแสดงภาพข้อมูลที่มีประสิทธิภาพ
-type: docs
 weight: 15
 url: /th/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับเส้นแนวโน้มของแผนภูมิใน Java Slides: คำแนะนำทีละขั้นตอน
 
@@ -190,3 +194,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### ฉันจะเข้าถึงทรัพยากรและตัวอย่างเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
  คุณสามารถเข้าถึงทรัพยากร เอกสาร และตัวอย่างเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้บน[เว็บไซต์กำหนด](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Formataufzählung in Java-Folien laden
 linktitle: Formataufzählung in Java-Folien laden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides das Format von PowerPoint-Präsentationen in Java überprüfen. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen zur effektiven Formaterkennung.
-type: docs
 weight: 14
 url: /de/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Laden von Präsentationsformaten in Java-Folien
 
@@ -68,3 +72,10 @@ Sie erhalten Support für Aspose.Slides für Java, indem Sie die Aspose-Supportf
 ### Ist Aspose.Slides für Java für kommerzielle Projekte geeignet?
 
 Ja, Aspose.Slides für Java ist für kommerzielle Projekte geeignet. Es bietet einen robusten Funktionsumfang für die Arbeit mit PowerPoint-Präsentationen in Java-Anwendungen und wird sowohl in kommerziellen als auch in Unternehmensumgebungen häufig verwendet.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में बॉक्स चार
 linktitle: जावा स्लाइड्स में बॉक्स चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा प्रेजेंटेशन में बॉक्स चार्ट बनाना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए चरण-दर-चरण मार्गदर्शिका और स्रोत कोड शामिल है।
-type: docs
 weight: 10
 url: /hi/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java में बॉक्स चार्ट का परिचय
 
@@ -148,3 +152,9 @@ finally
 ### QuartileMethodType.Exclusive का क्या अर्थ है?
 
 `QuartileMethodType.Exclusive` सेटिंग निर्दिष्ट करती है कि चतुर्थक गणना अनन्य विधि का उपयोग करके की जानी चाहिए। आप अपने डेटा और आवश्यकताओं के आधार पर अलग-अलग चतुर्थक गणना विधियाँ चुन सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

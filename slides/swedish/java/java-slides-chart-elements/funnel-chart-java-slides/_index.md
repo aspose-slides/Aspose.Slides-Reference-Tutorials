@@ -3,10 +3,14 @@ title: Trattdiagram i Java Slides
 linktitle: Trattdiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Utforska Aspose.Slides för Java med steg-för-steg handledning. Skapa fantastiska trattdiagram och mer.
-type: docs
 weight: 14
 url: /sv/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till trattdiagram i Java Slides
 
@@ -144,3 +148,9 @@ Du kan hantera fel och undantag med vanliga Java-undantagshanteringsmekanismer. 
 ### Var kan jag hitta fler exempel och dokumentation för Aspose.Slides för Java?
 
  Du kan hitta fler exempel och detaljerad dokumentation om hur du använder Aspose.Slides för Java i[dokumentation](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

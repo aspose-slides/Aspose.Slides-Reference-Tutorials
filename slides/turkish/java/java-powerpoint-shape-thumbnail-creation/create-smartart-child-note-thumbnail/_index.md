@@ -3,10 +3,14 @@ title: SmartArt Alt Notu Küçük Resmi Oluşturun
 linktitle: SmartArt Alt Notu Küçük Resmi Oluşturun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java'da SmartArt alt not küçük resimlerini nasıl oluşturacağınızı öğrenin ve PowerPoint sunumlarınızı zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde Aspose.Slides kullanarak Java'da SmartArt alt not küçük resimlerinin nasıl oluşturulacağını keşfedeceğiz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan, slaytları kolaylıkla oluşturmalarına, değiştirmelerine ve işlemelerine olanak tanıyan güçlü bir Java API'sidir.
 ## Önkoşullar
@@ -70,3 +74,9 @@ Evet, Aspose.Slides, kurumsal düzeyde PowerPoint otomasyon görevlerini verimli
 Kesinlikle! Aspose.Slides, farklı karmaşıklıktaki SmartArt diyagramlarını oluşturmak ve değiştirmek için kapsamlı destek sağlar.
 ### Aspose.Slides geliştiricilere teknik destek sunuyor mu?
  Evet, Aspose.Slides geliştiricilere özel teknik destek sağlıyor.[forum](https://forum.aspose.com/c/slides/11) ve diğer kanallar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

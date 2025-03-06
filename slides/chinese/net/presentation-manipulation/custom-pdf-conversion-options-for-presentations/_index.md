@@ -3,10 +3,14 @@ title: 演示文稿的自定义 PDF 转换选项
 linktitle: 演示文稿的自定义 PDF 转换选项
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强演示文稿的 PDF 转换选项。本分步指南介绍如何实现自定义 PDF 转换设置，确保精确控制输出。立即优化您的演示文稿转换。
-type: docs
 weight: 12
 url: /zh/net/presentation-manipulation/custom-pdf-conversion-options-for-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在文档管理和操作领域，Aspose.Slides for .NET 是一款功能强大的演示文稿处理工具。它允许您将演示文稿转换为各种格式，包括 PDF，并具有高度的自定义功能。在本分步教程中，我们将探索如何使用 Aspose.Slides for .NET 执行自定义 PDF 转换。所以，拿起您的编码工具，让我们开始吧！
 
@@ -94,3 +98,9 @@ using (Presentation pres = new Presentation(dataDir + "ConvertToPDF.pptx"))
 对于任何技术或使用相关的问题，您可以访问 Aspose 社区论坛寻求支持[这里](https://forum.aspose.com/).
 
 现在您已经掌握了执行自定义 PDF 转换的知识，请继续使用 Aspose.Slides for .NET 解锁文档管理的新可能性！ 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

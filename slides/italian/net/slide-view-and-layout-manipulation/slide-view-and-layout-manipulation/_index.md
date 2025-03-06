@@ -3,10 +3,14 @@ title: Visualizzazione diapositive e manipolazione del layout in Aspose.Slides
 linktitle: Visualizzazione diapositive e manipolazione del layout in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come manipolare visualizzazioni di diapositive e layout in PowerPoint utilizzando Aspose.Slides per .NET. Guida passo passo con esempi di codice.
-type: docs
 weight: 10
 url: /it/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Nel mondo dello sviluppo software, la creazione e la manipolazione di presentazioni PowerPoint a livello di codice è un requisito comune. Aspose.Slides per .NET fornisce un potente toolkit che consente agli sviluppatori di lavorare senza problemi con i file PowerPoint. Un aspetto cruciale del lavoro con le presentazioni è la visualizzazione delle diapositive e la manipolazione del layout. In questa guida, approfondiremo il processo di utilizzo di Aspose.Slides per .NET per gestire visualizzazioni e layout di diapositive, offrendo istruzioni dettagliate ed esempi di codice.
 
@@ -132,3 +136,10 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Conclusione
 
 Aspose.Slides per .NET semplifica il processo di lavoro con le presentazioni di PowerPoint a livello di codice. In questa guida abbiamo esplorato i passaggi fondamentali della visualizzazione diapositive e della manipolazione del layout. Dal caricamento delle presentazioni alla personalizzazione del contenuto delle diapositive, Aspose.Slides fornisce un robusto toolkit per gli sviluppatori per creare presentazioni dinamiche e coinvolgenti senza sforzo.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

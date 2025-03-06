@@ -3,10 +3,14 @@ title: เรนเดอร์อิโมจิใน PowerPoint
 linktitle: เรนเดอร์อิโมจิใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแสดงอิโมจิในงานนำเสนอ PowerPoint ได้อย่างง่ายดายโดยใช้ Aspose.Slides สำหรับ Java เพิ่มการมีส่วนร่วมด้วยภาพที่แสดงออก
-type: docs
 weight: 12
 url: /th/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 อิโมจิได้กลายเป็นส่วนสำคัญของการสื่อสาร โดยเพิ่มสีสันและอารมณ์ให้กับการนำเสนอของเรา การรวมอิโมจิลงในสไลด์ PowerPoint ของคุณสามารถเพิ่มการมีส่วนร่วมและถ่ายทอดแนวคิดที่ซับซ้อนได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการแสดงอิโมจิใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -52,3 +56,9 @@ Aspose.Slides สำหรับ Java รองรับการเรนเด
 ใช่ Aspose.Slides สำหรับ Java เข้ากันได้กับ PowerPoint ทุกเวอร์ชัน ทำให้มั่นใจได้ว่าการเรนเดอร์อิโมจิบนแพลตฟอร์มต่างๆ จะเป็นไปอย่างราบรื่น
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
  ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติก่อนซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

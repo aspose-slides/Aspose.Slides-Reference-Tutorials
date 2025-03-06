@@ -3,10 +3,14 @@ title: Java PowerPoint에서 단락 그림 글머리 기호 관리
 linktitle: Java PowerPoint에서 단락 그림 글머리 기호 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 사용자 정의 그림 글머리 기호를 추가하는 방법을 알아보세요. 원활한 통합을 위해 자세한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 매력적이고 시각적으로 매력적인 프레젠테이션을 만드는 것은 현대 비즈니스 세계에서 중요한 기술입니다. Java 개발자는 Aspose.Slides를 활용하여 PowerPoint 슬라이드의 사용자 정의된 그림 글머리 기호로 프레젠테이션을 향상할 수 있습니다. 이 튜토리얼에서는 프레젠테이션에 그림 글머리 기호를 자신있게 추가할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -104,3 +108,9 @@ Aspose.Slides for Java는 Java 개발자가 프로그래밍 방식으로 PowerPo
 예, 각 단락을 개별적으로 만들고 구성하여 단일 도형에 다양한 글머리 기호 스타일을 가진 여러 단락을 추가할 수 있습니다.
 ### 더 많은 예제와 지원은 어디서 찾을 수 있나요?
  다음에서 더 많은 예를 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com/slides/java/) Aspose 커뮤니티로부터 지원을 받으세요.[포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

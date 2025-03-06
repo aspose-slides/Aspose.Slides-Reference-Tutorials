@@ -3,10 +3,14 @@ title: تحويل إلى XAML في شرائح جافا
 linktitle: تحويل إلى XAML في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى XAML في Java باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 28
 url: /ar/java/presentation-conversion/convert-to-xaml-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة تحويل إلى XAML في شرائح جافا
 
@@ -161,3 +165,9 @@ XAML (لغة ترميز التطبيقات القابلة للتوسيع) هي �
 ### هل هناك أي تنسيقات إخراج أخرى يدعمها Aspose.Slides؟
 
 نعم، يدعم Aspose.Slides مجموعة واسعة من تنسيقات الإخراج، بما في ذلك PDF وHTML والصور والمزيد. يمكنك استكشاف هذه الخيارات في وثائق API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

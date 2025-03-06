@@ -3,10 +3,14 @@ title: 如何使用 Aspose.Slides .NET 從圖表中復原工作簿
 linktitle: 從圖表恢復工作簿
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的圖表還原工作簿。按照我們的逐步指南有效地提取資料。
-type: docs
 weight: 12
 url: /zh-hant/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 如果您希望在 .NET 中使用 PowerPoint 簡報，Aspose.Slides for .NET 是一個功能強大的程式庫，可以協助您實現目標。在本教程中，我們將指導您完成使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的圖表恢復工作簿的過程。當您需要從簡報中的圖表中提取資料時，此強大的功能非常有用。我們將把該過程分解為易於遵循的步驟，確保您清楚地了解如何完成此任務。
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET 是一個功能強大的 .NET 程式庫，用於處理 Mi
 ### 5. SEO優化的最大標題長度是多少？
 
 對於 SEO 優化，建議將標題控制在 60 個字元以下，以確保其在搜尋引擎結果中正確顯示。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

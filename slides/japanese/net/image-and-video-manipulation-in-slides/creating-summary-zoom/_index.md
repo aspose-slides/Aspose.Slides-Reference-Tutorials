@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET での要約ズームの習得
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドに概要ズームを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーションのレベルを上げましょう。魅力的なサマリー ズームを簡単に作成する方法を学びます。今すぐダウンロードして、ダイナミックなスライドを体験してください。
-type: docs
 weight: 16
 url: /ja/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 プレゼンテーションのダイナミックな世界では、Aspose.Slides for .NET はスライド作成エクスペリエンスを強化する強力なツールとして際立っています。このツールが提供する注目すべき機能の 1 つは、スライドのコレクションを視覚的に魅力的に提示するサマリー ズームを作成する機能です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドにサマリー ズームを作成する手順を説明します。
 ## 前提条件
@@ -79,3 +83,9 @@ Aspose.Slides は、最新の .NET バージョンとの互換性を確保する
 最新バージョンでは、プレゼンテーションに追加できるセクションの数に厳密な制限はありません。
 ### Aspose.Slides の試用版はありますか?
 はい、Aspose.Slidesの機能を試すには、[無料試用版](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

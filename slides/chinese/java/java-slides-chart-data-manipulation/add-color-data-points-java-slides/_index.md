@@ -3,10 +3,14 @@ title: 为 Java 幻灯片中的数据点添加颜色
 linktitle: 为 Java 幻灯片中的数据点添加颜色
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 为 Java 幻灯片中的数据点添加颜色。
-type: docs
 weight: 10
 url: /zh/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中为数据点添加颜色的简介
 
@@ -117,3 +121,9 @@ finally
 ### 在哪里可以找到更多示例和文档？
 
 您可以在以下位置找到有关使用 Aspose.Slides for Java 的更多示例和详细文档：[Aspose.Slides 文档](https://reference.aspose.com/slides/java/)网站。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

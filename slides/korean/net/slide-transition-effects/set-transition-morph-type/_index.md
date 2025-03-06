@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 슬라이드에서 전환 모프 유형을 
 linktitle: 슬라이드에 전환 모프 유형 설정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 슬라이드에서 전환 모프 유형을 설정하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다. 지금 프레젠테이션을 강화해보세요!
-type: docs
 weight: 12
 url: /ko/net/slide-transition-effects/set-transition-morph-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 역동적인 프레젠테이션의 세계에서는 올바른 전환이 세상을 변화시킬 수 있습니다. .NET용 Aspose.Slides는 개발자가 멋진 PowerPoint 프레젠테이션을 만들 수 있도록 지원하며, 그 흥미로운 기능 중 하나는 전환 효과를 설정하는 기능입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드에서 전환 모프 유형을 설정하는 방법을 자세히 살펴보겠습니다. 이는 프레젠테이션에 전문적인 느낌을 더할 뿐만 아니라 전반적인 사용자 경험도 향상시킵니다.
 
@@ -102,3 +106,10 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 PowerPoint 프레젠테�
 
  .NET용 Aspose.Slides는 페이드, 푸시, 와이프 등을 포함한 다양한 전환 효과를 제공합니다. 다음에서 문서를 탐색할 수 있습니다.[.NET 문서 페이지용 Aspose.Slides](https://reference.aspose.com/slides/net/) 사용 가능한 모든 전환 유형에 대한 자세한 내용을 확인하세요.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

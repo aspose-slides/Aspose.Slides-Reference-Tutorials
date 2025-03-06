@@ -3,10 +3,14 @@ title: Manipulation von Folienkommentaren
 linktitle: Manipulation von Folienkommentaren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Fähigkeiten zur Folienbearbeitung mit Aspose.Slides-Tutorials zur Bearbeitung von Folienkommentaren. Erfahren Sie, wie Sie mit .NET Kommentare programmgesteuert in PowerPoint-Präsentationen hinzufügen, bearbeiten und verwalten.
-type: docs
 weight: 12
 url: /de/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung
 
@@ -27,3 +31,9 @@ Erfahren Sie, wie Sie Ihre Präsentationen mit interaktiven Elementen verbessern
 Verleihen Sie Ihren Präsentationen mit der Aspose.Slides API mehr Tiefe und Interaktion. Erfahren Sie, wie Sie mit .NET ganz einfach Kommentare in Ihre Folien integrieren. Steigern Sie das Engagement und fesseln Sie Ihr Publikum.
 ### [Modernes Kommentarmanagement](./modern-comments/)
 Verbessern Sie Zusammenarbeit und Feedbackprozesse mit modernem Kommentarmanagement mithilfe von Aspose.Slides. Erfahren Sie, wie Sie die Kommunikation in Ihren Präsentationen optimieren und die Produktivität maximieren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

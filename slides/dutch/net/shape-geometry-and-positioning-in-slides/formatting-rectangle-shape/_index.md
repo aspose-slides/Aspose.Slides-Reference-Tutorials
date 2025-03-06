@@ -3,10 +3,14 @@ title: Verbeter presentaties - Maak rechthoekige vormen op met Aspose.Slides
 linktitle: Rechthoekige vorm in presentatiedia's opmaken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u rechthoekige vormen kunt opmaken in PowerPoint-presentaties met Aspose.Slides voor .NET. Verbeter uw dia's met dynamische visuele elementen.
-type: docs
 weight: 12
 url: /nl/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Aspose.Slides voor .NET is een krachtige bibliotheek die het werken met PowerPoint-presentaties in de .NET-omgeving vergemakkelijkt. Als u uw presentaties wilt verbeteren door rechthoekige vormen dynamisch op te maken, dan is deze tutorial iets voor u. In deze stapsgewijze handleiding leiden we u door het proces van het opmaken van een rechthoekige vorm in een presentatie met Aspose.Slides voor .NET.
 ## Vereisten
@@ -76,3 +80,9 @@ Ja, Aspose.Slides ondersteunt naast C# ook andere .NET-talen zoals VB.NET en F#.
  Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 ### V5: Waar kan ik Aspose.Slides voor .NET kopen?
  U kunt Aspose.Slides voor .NET kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

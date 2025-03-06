@@ -3,10 +3,14 @@ title: Extrahujte zvuk z hypertextových odkazů aplikace PowerPoint pomocí Asp
 linktitle: Extrahujte zvuk z hypertextového odkazu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Extrahujte zvuk z hypertextových odkazů v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své multimediální projekty bez námahy.
-type: docs
 weight: 12
 url: /cs/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Ve světě multimediálních prezentací hraje zvuk zásadní roli při zvyšování celkového dopadu vašich snímků. Už jste někdy narazili na prezentaci v PowerPointu se zvukovými hypertextovými odkazy a přemýšleli jste, jak extrahovat zvuk pro jiné použití? S Aspose.Slides pro .NET můžete tohoto úkolu dosáhnout bez námahy. V tomto podrobném průvodci vás provedeme procesem extrahování zvuku z hypertextového odkazu v prezentaci PowerPoint.
 
@@ -105,3 +109,10 @@ Ano, můžete získat dočasnou licenci pro Aspose.Slides pro .NET, abyste splni
 
 ### Jsou pro extrakci podporovány jiné zvukové formáty kromě MPG?
 Aspose.Slides for .NET umožňuje extrahovat zvuk v různých formátech, neomezuje se pouze na MPG. Po extrakci jej můžete převést do preferovaného formátu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

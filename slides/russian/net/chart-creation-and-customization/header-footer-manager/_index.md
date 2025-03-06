@@ -3,10 +3,14 @@ title: Управление верхним и нижним колонтитул�
 linktitle: Управление верхним и нижним колонтитулом в слайдах
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как добавлять динамические верхние и нижние колонтитулы в презентации PowerPoint с помощью Aspose.Slides для .NET.
-type: docs
 weight: 14
 url: /ru/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Создание динамических верхних и нижних колонтитулов в Aspose.Slides для .NET
 
@@ -131,3 +135,9 @@ presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 
 ### Вопрос 5. Существует ли сообщество или форум поддержки Aspose.Slides для .NET?
  О5: Да, вы можете посетить форум поддержки Aspose.Slides for .NET.[здесь](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

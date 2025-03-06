@@ -3,10 +3,14 @@ title: Φόρτωση εξωτερικής γραμματοσειράς στο P
 linktitle: Φόρτωση εξωτερικής γραμματοσειράς στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να φορτώνετε προσαρμοσμένες γραμματοσειρές σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις διαφάνειές σας με μοναδική τυπογραφία.
-type: docs
 weight: 10
 url: /el/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία φόρτωσης μιας εξωτερικής γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οι προσαρμοσμένες γραμματοσειρές μπορούν να προσθέσουν μια μοναδική πινελιά στις παρουσιάσεις σας, διασφαλίζοντας σταθερές προτιμήσεις επωνυμίας ή στυλ σε διάφορες πλατφόρμες.
 ## Προαπαιτούμενα
@@ -63,3 +67,9 @@ finally
 Εφόσον το αρχείο γραμματοσειράς είναι σε μορφή TrueType (.ttf) και εντός λογικών ορίων μεγέθους, θα πρέπει να μπορείτε να το φορτώσετε με επιτυχία.
 ### Η φόρτωση εξωτερικών γραμματοσειρών επηρεάζει τη συμβατότητα της παρουσίασης με διαφορετικές εκδόσεις PowerPoint;
 Όχι, η παρουσίαση παραμένει συμβατή σε διαφορετικές εκδόσεις του PowerPoint, εφόσον οι γραμματοσειρές είναι ενσωματωμένες ή φορτωμένες εξωτερικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

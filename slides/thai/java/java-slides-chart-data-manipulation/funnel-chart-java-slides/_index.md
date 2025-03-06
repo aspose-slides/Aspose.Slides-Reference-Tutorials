@@ -3,10 +3,14 @@ title: แผนภูมิช่องทางใน Java Slides
 linktitle: แผนภูมิช่องทางใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้การสร้างแผนภูมิกรวยในงานนำเสนอ PowerPoint ด้วย Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดเพื่อการแสดงภาพข้อมูลที่มีประสิทธิภาพ
-type: docs
 weight: 18
 url: /th/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างแผนภูมิช่องทางใน Aspose.Slides สำหรับ Java
 
@@ -137,3 +141,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### ฉันสามารถส่งออกแผนภูมิเป็นรูปแบบต่างๆ เช่น PDF หรือรูปภาพได้หรือไม่
 
 ใช่ Aspose.Slides สำหรับ Java ช่วยให้คุณสามารถส่งออกงานนำเสนอด้วยแผนภูมิกรวยเป็นรูปแบบต่างๆ รวมถึง PDF รูปแบบรูปภาพ และอื่นๆ คุณสามารถใช้`SaveFormat` ตัวเลือกเพื่อระบุรูปแบบผลลัพธ์ที่ต้องการเมื่อบันทึกงานนำเสนอ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

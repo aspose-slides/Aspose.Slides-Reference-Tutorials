@@ -3,10 +3,14 @@ title: Τύποι κυψελών δεδομένων γραφήματος σε δ
 linktitle: Τύποι κυψελών δεδομένων γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε τύπους κελιών δεδομένων γραφήματος σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε δυναμικά γραφήματα με τύπους.
-type: docs
 weight: 11
 url: /el/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στους τύπους κυψελών δεδομένων γραφημάτων στο Aspose.Slides για Java
 
@@ -122,3 +126,9 @@ finally
 ### Πώς μπορώ να αλλάξω τον τύπο του γραφήματος;
 
  Μπορείτε να αλλάξετε τον τύπο γραφήματος χρησιμοποιώντας το`setChartType` μέθοδος στο`IChart` αντικείμενο και προσδιορίζοντας το επιθυμητό`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

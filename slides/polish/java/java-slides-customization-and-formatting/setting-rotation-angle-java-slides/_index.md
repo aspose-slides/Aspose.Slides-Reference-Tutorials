@@ -3,10 +3,14 @@ title: Ustawianie kąta obrotu w slajdach Java
 linktitle: Ustawianie kąta obrotu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zoptymalizuj swoje slajdy Java za pomocą Aspose.Slides for Java. Naucz się ustawiać kąty obrotu elementów tekstowych. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 17
 url: /pl/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania kąta obrotu w slajdach Java
 
@@ -100,3 +104,9 @@ Aspose.Slides dla Java zapewnia różne opcje formatowania tytułów wykresów, 
 ### Czy można animować obrót tekstu w tytule osi wykresu?
 
 Tak, możesz dodawać efekty animacji do elementów tekstowych, w tym tytułów osi wykresu, używając Aspose.Slides dla Java. Informacje na temat dodawania animacji do prezentacji można znaleźć w dokumentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

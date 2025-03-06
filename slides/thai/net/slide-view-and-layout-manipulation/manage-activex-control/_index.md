@@ -3,10 +3,14 @@ title: จัดการการควบคุม ActiveX ใน PowerPoint
 linktitle: จัดการการควบคุม ActiveX ใน PowerPoint
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ด้วยตัวควบคุม ActiveX โดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนของเราครอบคลุมถึงการแทรก การจัดการ การปรับแต่ง การจัดการเหตุการณ์ และอื่นๆ
-type: docs
 weight: 13
 url: /th/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ตัวควบคุม ActiveX เป็นองค์ประกอบที่มีประสิทธิภาพซึ่งสามารถปรับปรุงฟังก์ชันการทำงานและการโต้ตอบของงานนำเสนอ PowerPoint ของคุณได้ การควบคุมเหล่านี้ช่วยให้คุณสามารถฝังและจัดการวัตถุต่างๆ เช่น เครื่องเล่นมัลติมีเดีย แบบฟอร์มการป้อนข้อมูล และอื่นๆ ได้โดยตรงภายในสไลด์ของคุณ ในบทความนี้ เราจะสำรวจวิธีจัดการตัวควบคุม ActiveX ใน PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ซึ่งเป็นไลบรารีอเนกประสงค์ที่ช่วยให้สามารถผสานรวมและจัดการไฟล์ PowerPoint ในแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น
 
 ## การเพิ่มตัวควบคุม ActiveX ให้กับสไลด์ PowerPoint
@@ -149,3 +153,9 @@ Aspose.Slides สำหรับ .NET ทำให้กระบวนการ
 ### ฉันสามารถลบตัวควบคุม ActiveX ออกจากสไลด์ได้หรือไม่
 
  ใช่ คุณสามารถลบตัวควบคุม ActiveX ออกจากสไลด์ได้โดยใช้`Remove` วิธีการของ`Shapes` ของสะสม. ส่งต่อการอ้างอิงไปยัง`IOleObjectFrame` เป็นตัวแทนของการควบคุมเป็นข้อโต้แย้งของ`Remove` และการควบคุมจะถูกลบออกจากสไลด์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

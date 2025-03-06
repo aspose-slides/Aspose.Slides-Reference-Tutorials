@@ -3,10 +3,14 @@ title: Přidejte komentáře rodiče ke snímku pomocí Aspose.Slides
 linktitle: Přidejte ke snímku komentáře rodičů
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat interaktivní komentáře a odpovědi do prezentací PowerPoint pomocí Aspose.Slides for .NET. Zvyšte zapojení a spolupráci.
-type: docs
 weight: 12
 url: /cs/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Chcete vylepšit své prezentace v PowerPointu interaktivními funkcemi? Aspose.Slides for .NET vám umožňuje začlenit komentáře a odpovědi a vytvořit tak pro vaše publikum dynamický a poutavý zážitek. V tomto podrobném tutoriálu vám ukážeme, jak přidat nadřazené komentáře ke snímkům pomocí Aspose.Slides for .NET. Pojďme se ponořit a prozkoumat tuto vzrušující funkci.
 
@@ -160,3 +164,9 @@ Aspose.Slides for .NET je navržen pro práci s širokou škálou verzí aplikac
 
 ### Jsou pro Aspose.Slides pro .NET k dispozici nějaké možnosti licencování?
  Ano, na webu Aspose můžete prozkoumat možnosti licencování, včetně dočasných licencí[tady](https://purchase.aspose.com/buy) nebo vyzkoušejte bezplatnou zkušební verzi[tady](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Couleur de la ligne de repère dans les diapositives Java
 linktitle: Couleur de la ligne de repère dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment modifier les couleurs des lignes de repère dans les graphiques PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples de code source.
-type: docs
 weight: 12
 url: /fr/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la couleur de la ligne de repère dans Aspose.Slides pour Java
 
@@ -116,3 +120,9 @@ Vous pouvez obtenir une assistance technique pour Aspose.Slides pour Java en vis
 ### Puis-je utiliser Aspose.Slides pour Java avec d’autres bibliothèques et frameworks Java ?
 
 Oui, vous pouvez intégrer Aspose.Slides pour Java avec d'autres bibliothèques et frameworks Java selon les besoins de votre projet. Aspose.Slides fournit des API pour travailler avec diverses fonctionnalités de PowerPoint, permettant de les combiner avec d'autres outils et technologies pour créer des applications puissantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

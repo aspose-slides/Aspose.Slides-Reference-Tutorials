@@ -3,10 +3,14 @@ title: Установите цвет автоматической заливки
 linktitle: Установите цвет автоматической заливки серий в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить цвет автоматической заливки серий в слайдах Java с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода для динамических презентаций.
-type: docs
 weight: 14
 url: /ru/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в установку цвета автоматической заливки серий в слайдах Java
 
@@ -126,3 +130,9 @@ finally
 ### Где я могу найти дополнительные ресурсы и документацию?
 
  Вы можете получить доступ к полной документации по Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

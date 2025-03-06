@@ -3,10 +3,14 @@ title: Kloning Slide ke Presentasi Lain dengan Guru
 linktitle: Kloning Slide ke Presentasi Lain dengan Guru
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara Mengkloning slide antar presentasi di Java menggunakan Aspose.Slides. Tutorial langkah demi langkah dalam memelihara slide master.
-type: docs
 weight: 14
 url: /id/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengembang membuat, memodifikasi, dan memanipulasi presentasi PowerPoint secara terprogram. Artikel ini memberikan tutorial langkah demi langkah yang komprehensif tentang cara mengkloning slide dari satu presentasi ke presentasi lainnya sambil mempertahankan slide masternya, menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -83,3 +87,9 @@ Aspose.Slides untuk Java menawarkan versi uji coba gratis. Untuk fungsionalitas 
  Anda dapat memperoleh lisensi sementara dari[Asumsikan halaman pembelian](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?  
  Mengunjungi[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/) untuk lebih banyak contoh dan informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

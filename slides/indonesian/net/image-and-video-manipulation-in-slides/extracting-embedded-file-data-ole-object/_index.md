@@ -3,10 +3,14 @@ title: Aspose.Slides untuk .NET - Tutorial Mengekstrak Data Objek OLE
 linktitle: Mengekstrak Data File Tertanam dari Objek OLE di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buka potensi penuh Aspose.Slides untuk .NET dengan panduan langkah demi langkah kami dalam mengekstraksi data file tersemat dari objek OLE. Tingkatkan kemampuan pemrosesan PowerPoint Anda!
-type: docs
 weight: 20
 url: /id/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Jika Anda mempelajari dunia Aspose.Slides untuk .NET, Anda berada di jalur yang tepat untuk meningkatkan kemampuan pemrosesan PowerPoint Anda. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses mengekstraksi data file yang disematkan dari objek OLE menggunakan Aspose.Slides. Baik Anda seorang pengembang berpengalaman atau pendatang baru di Aspose.Slides, tutorial ini akan memberi Anda peta jalan yang jelas dan terperinci untuk memanfaatkan potensi penuh dari perpustakaan .NET yang kuat ini.
 ## Prasyarat
@@ -81,3 +85,9 @@ Sangat! Kode yang disediakan dirancang untuk menangani beberapa objek OLE dalam 
  Ya, Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Slides?
  Kunjungi forum dukungan Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

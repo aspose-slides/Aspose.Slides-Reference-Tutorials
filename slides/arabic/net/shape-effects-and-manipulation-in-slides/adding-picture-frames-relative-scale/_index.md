@@ -3,10 +3,14 @@ title: إضافة برنامج تعليمي لإطارات الصور باستخ
 linktitle: إضافة إطارات صور ذات ارتفاع نسبي في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية إضافة إطارات صور ذات ارتفاع نسبي في Aspose.Slides لـ .NET. اتبع هذا الدليل المفصّل خطوة بخطوة للحصول على عروض تقديمية سلسة.
-type: docs
 weight: 17
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 Aspose.Slides for .NET هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها في تطبيقات .NET الخاصة بهم دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في عملية إضافة إطارات صور ذات ارتفاع نسبي للمقياس باستخدام Aspose.Slides for .NET. اتبع هذا الدليل المفصّل خطوة بخطوة لتعزيز مهاراتك في إنشاء العروض التقديمية.
 ## المتطلبات الأساسية
@@ -64,3 +68,9 @@ presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx",
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لطلب المساعدة من المجتمع وخبراء Aspose.
 ### أين يمكنني شراء Aspose.Slides لـ .NET؟
  يمكنك شراء Aspose.Slides لـ .NET من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

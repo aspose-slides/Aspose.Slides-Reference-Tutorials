@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में इनवर्ट फि
 linktitle: जावा स्लाइड्स में इनवर्ट फिल कलर चार्ट सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java Slides चार्ट के लिए इनवर्ट फिल कलर सेट करना सीखें। इस चरण-दर-चरण गाइड और स्रोत कोड के साथ अपने चार्ट विज़ुअलाइज़ेशन को बेहतर बनाएँ।
-type: docs
 weight: 22
 url: /hi/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में इनवर्ट फिल कलर चार्ट सेट करने का परिचय
 
@@ -153,3 +157,9 @@ if (pres != null) pres.dispose();
 ### क्या मैं चार्ट को विभिन्न प्रारूपों में सहेज सकता हूँ?
 
  हां, आप Aspose.Slides for Java का उपयोग करके चार्ट को विभिन्न प्रारूपों में सहेज सकते हैं। दिए गए कोड उदाहरण में, हमने प्रस्तुति को PPTX फ़ाइल के रूप में सहेजा है। आप अलग-अलग प्रारूपों का उपयोग कर सकते हैं`SaveFormat` आपकी आवश्यकताओं के आधार पर इसे पीडीएफ, पीएनजी या एसवीजी जैसे अन्य प्रारूपों में सहेजने के विकल्प उपलब्ध हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

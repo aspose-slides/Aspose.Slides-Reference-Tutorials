@@ -3,10 +3,14 @@ title: Atur Properti Font Teks di PowerPoint dengan Java
 linktitle: Atur Properti Font Teks di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur properti font teks di PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah yang mudah untuk pengembang Java.#Pelajari cara memanipulasi properti font teks PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah untuk pengembang Java ini.
-type: docs
 weight: 18
 url: /id/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara menggunakan Aspose.Slides untuk Java untuk mengatur berbagai properti font teks dalam presentasi PowerPoint secara terprogram. Kami akan membahas pengaturan jenis font, gaya (tebal, miring), garis bawah, ukuran, dan warna untuk teks dalam slide.
 ## Prasyarat
@@ -85,3 +89,9 @@ Ya, Anda bisa menggunakan Aspose.Slides untuk bekerja dengan templat PowerPoint.
 Ya, Aspose.Slides memungkinkan mengekspor presentasi ke berbagai format termasuk PDF.
 ### Di mana saya dapat menemukan bantuan dan dukungan lebih lanjut untuk Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bimbingan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

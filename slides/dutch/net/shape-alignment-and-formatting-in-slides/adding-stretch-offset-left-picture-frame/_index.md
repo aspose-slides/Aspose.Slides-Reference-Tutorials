@@ -3,10 +3,14 @@ title: Stretch Offset naar links toevoegen in PowerPoint met Aspose.Slide
 linktitle: Stretch-offset naar links toevoegen voor afbeeldingsframe in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt verbeteren met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding om rekverschuiving naar links toe te voegen voor fotolijsten.
-type: docs
 weight: 14
 url: /nl/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties gemakkelijk kunnen manipuleren. In deze zelfstudie verkennen we het proces van het toevoegen van een rekverschuiving aan de linkerkant voor een fotolijst met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in het werken met afbeeldingen en vormen in PowerPoint-presentaties te verbeteren.
 ## Vereisten
@@ -85,3 +89,9 @@ A: Aspose.Slides wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste 
  A: Ontdek de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/net/) voor uitgebreide voorbeelden en begeleiding.
 ### Vraag: Kan ik meerdere rekverschuivingen op één vorm toepassen?
 A: Ja, u kunt meerdere rek-offsets combineren om complexe en aangepaste visuele effecten te bereiken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

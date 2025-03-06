@@ -3,10 +3,14 @@ title: الترخيص في Aspose.Slides
 linktitle: الترخيص في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية ترخيص Aspose.Slides لـ .NET وإطلاق العنان لقوة معالجة PowerPoint في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/licensing-and-formatting/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 في عالم تطوير .NET، تعد Aspose.Slides مكتبة قوية ومتعددة الاستخدامات تتيح لك العمل مع ملفات Microsoft PowerPoint برمجيًا. سواء كنت بحاجة إلى إنشاء عروض PowerPoint التقديمية أو معالجتها أو تحويلها، فإن Aspose.Slides يوفر لك كل ما تحتاجه. للاستفادة الكاملة من قدراتها، تحتاج إلى فهم أهمية الترخيص. في هذا الدليل التفصيلي، سنستكشف كيفية ترخيص Aspose.Slides لـ .NET والتأكد من أن تطبيقك جاهز للعمل بسلاسة.
 
@@ -92,3 +96,9 @@ Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات Micro
 
 ### ما نوع الدعم المتوفر لـ Aspose.Slides لمستخدمي .NET؟
  يوفر Aspose منتدى مجتمعيًا يمكنك من خلاله طلب الدعم والتفاعل مع مستخدمي Aspose الآخرين. يمكنك الدخول إلى المنتدى على[https://forum.aspose.com/](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

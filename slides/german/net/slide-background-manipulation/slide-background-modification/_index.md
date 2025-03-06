@@ -3,10 +3,14 @@ title: Änderung des Folienhintergrunds in Aspose.Slides
 linktitle: Änderung des Folienhintergrunds in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Folienhintergründe mit Aspose.Slides für .NET anpassen. Werten Sie Ihre Präsentationen mit optisch ansprechenden Hintergründen auf. Legen Sie noch heute los!
-type: docs
 weight: 10
 url: /de/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Wenn es darum geht, visuell ansprechende Präsentationen zu erstellen, spielt der Hintergrund eine entscheidende Rolle. Mit Aspose.Slides für .NET können Sie Folienhintergründe ganz einfach anpassen. In diesem Tutorial erfahren Sie, wie Sie Folienhintergründe mit Aspose.Slides für .NET ändern können. 
 
@@ -123,3 +127,10 @@ In diesem Tutorial haben wir gelernt, wie man Folienhintergründe in Aspose.Slid
 ### 5. Kann ich Folienhintergründe für mehrere Folien einer Präsentation anpassen?
 
 Ja, Sie können mit Aspose.Slides für .NET die Folienhintergründe für jede Folie in einer Präsentation ändern. Wählen Sie einfach die Folie aus, die Sie anpassen möchten, und befolgen Sie die gleichen Schritte, die in diesem Tutorial beschrieben werden.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

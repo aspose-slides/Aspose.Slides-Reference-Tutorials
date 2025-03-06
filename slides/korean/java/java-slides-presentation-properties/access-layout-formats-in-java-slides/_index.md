@@ -3,10 +3,14 @@ title: Java 슬라이드의 레이아웃 형식에 액세스
 linktitle: Java 슬라이드의 레이아웃 형식에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드의 레이아웃 형식에 액세스하고 조작하는 방법을 알아보세요. PowerPoint 프레젠테이션에서 모양과 선 스타일을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 10
 url: /ko/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드의 레이아웃 형식 액세스 소개
 
@@ -138,3 +142,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // 레이아웃 슬라이드
 ```
 
  그런 다음`IFillFormat` 그리고`ILineFormat` 이전 답변에 표시된 방법을 사용하여 모양의 채우기 및 선 형식을 수정합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

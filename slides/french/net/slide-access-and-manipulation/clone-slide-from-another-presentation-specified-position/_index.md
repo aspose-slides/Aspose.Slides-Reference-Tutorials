@@ -3,10 +3,14 @@ title: Cloner une diapositive d'une présentation différente vers une position 
 linktitle: Cloner une diapositive d'une présentation différente vers une position spécifiée
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment cloner des diapositives de différentes présentations vers une position spécifiée à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec le code source complet, couvrant le clonage de diapositives, la spécification de position et l'enregistrement de la présentation.
-type: docs
 weight: 16
 url: /fr/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction au clonage de diapositives d'une présentation différente vers une position spécifiée
 
@@ -137,3 +141,9 @@ Absolument, vous pouvez modifier le contenu, la mise en forme et les propriété
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
 
  Vous pouvez vous référer au[Documentation](https://reference.aspose.com/slides/net/) pour des informations détaillées, des exemples et des références API liées à Aspose.Slides pour .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

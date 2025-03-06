@@ -3,10 +3,14 @@ title: स्लाइड्स में आकार संरेखण और
 linktitle: स्लाइड्स में आकार संरेखण और स्वरूपण
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET अनुप्रयोगों में आकार संरेखण और स्वरूपण पर व्यापक Aspose.Slides ट्यूटोरियल का अन्वेषण करें। आसानी से आकृतियों को संरेखित और स्वरूपित करना सीखें, अपनी स्लाइड प्रस्तुतियों को सटीकता के साथ बेहतर बनाएँ।
-type: docs
 weight: 14
 url: /hi/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## परिचय
 
@@ -44,3 +48,9 @@ Aspose.Slides for .NET का उपयोग करके प्रेजें
 जानें कि Aspose.Slides for .NET का उपयोग करके PowerPoint में पिक्चर फ्रेम के लिए बाईं ओर स्ट्रेच ऑफ़सेट कैसे जोड़ें। संपूर्ण स्रोत कोड उदाहरण के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [प्रस्तुति स्लाइड में OLE ऑब्जेक्ट फ़्रेम का चित्र शीर्षक प्रतिस्थापित करना](./substituting-picture-title-ole-object-frame/)
 Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड में OLE ऑब्जेक्ट फ़्रेम के चित्र शीर्षकों को प्रतिस्थापित करना सीखें। संपूर्ण स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

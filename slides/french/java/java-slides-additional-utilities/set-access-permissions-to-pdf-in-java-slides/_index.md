@@ -3,10 +3,14 @@ title: Définir les autorisations d'accès au PDF dans les diapositives Java
 linktitle: Définir les autorisations d'accès au PDF dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment sécuriser vos documents PDF avec des autorisations d'accès dans Java Slides à l'aide d'Aspose.Slides. Ce guide étape par étape couvre la protection par mot de passe et bien plus encore.
-type: docs
 weight: 17
 url: /fr/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la définition des autorisations d'accès au PDF dans Java Slides
 
@@ -104,3 +108,9 @@ Aspose.Slides pour Java fournit diverses fonctionnalités de sécurité, notamme
 ### Où puis-je trouver plus de ressources et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez accéder à une documentation complète pour Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/) . De plus, vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

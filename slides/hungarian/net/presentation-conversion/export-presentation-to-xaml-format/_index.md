@@ -3,10 +3,14 @@ title: Prezentáció exportálása XAML formátumba
 linktitle: Prezentáció exportálása XAML formátumba
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan exportálhat prezentációkat XAML formátumba az Aspose.Slides for .NET segítségével. Hozzon létre interaktív tartalmat könnyedén!
-type: docs
 weight: 27
 url: /hu/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 szoftverfejlesztés világában elengedhetetlen az összetett feladatok egyszerűsítésére alkalmas eszközök megléte. Az Aspose.Slides for .NET egy ilyen eszköz, amely lehetővé teszi a PowerPoint-prezentációk programozott kezelését. Ebben a lépésenkénti oktatóanyagban megvizsgáljuk, hogyan exportálhat prezentációt XAML formátumba az Aspose.Slides for .NET segítségével. 
 
@@ -113,3 +117,9 @@ Az Aspose.Slides for .NET egy .NET-könyvtár a PowerPoint-prezentációk progra
  Támogatást és közösségi beszélgetéseket találhat[itt](https://forum.aspose.com/).
 
  További oktatóanyagokért és forrásokért keresse fel a[Aspose.Slides API dokumentáció](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: PowerPoint'te Görüntü Doldurma için Uzatma Ofseti Ekleme
 linktitle: PowerPoint'te Görüntü Doldurma için Uzatma Ofseti Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarına görüntü dolgusu için nasıl esnek ofset ekleyeceğinizi öğrenin. Adım adım eğitim dahildir.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, PowerPoint sunumlarında görüntü dolgusuna esnek ofset eklemek için Aspose.Slides for Java'yı nasıl kullanacağınızı öğreneceksiniz. Bu özellik, slaytlarınızdaki görselleri değiştirmenize olanak vererek görünümleri üzerinde daha fazla kontrol sahibi olmanızı sağlar.
 ## Önkoşullar
@@ -64,3 +68,9 @@ Aspose.Slides for Java, çeşitli boyutlardaki görselleri işleyebilir ancak su
 Evet, Aspose.Slides for Java'nın kapsamlı API'sini kullanarak görüntülere çok çeşitli efektler ve dönüşümler uygulayabilirsiniz.
 ### Aspose.Slides for Java için daha fazla kaynağı ve desteği nerede bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) ayrıntılı kılavuzlar için[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

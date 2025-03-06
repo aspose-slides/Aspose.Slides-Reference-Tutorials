@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中将整个演示文稿转换为 HTML
 linktitle: 在 Java 幻灯片中将整个演示文稿转换为 HTML
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 HTML。带有代码示例的分步指南。
-type: docs
 weight: 29
 url: /zh/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中将整个演示文稿转换为 HTML 的简介
 
@@ -117,3 +121,9 @@ finally
 ### 我可以转换特定的幻灯片而不是整个演示文稿吗？
 
 是的，您可以在保存演示文稿之前在代码中选择特定幻灯片来转换它们。这样您就可以控制哪些幻灯片要转换为 HTML。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

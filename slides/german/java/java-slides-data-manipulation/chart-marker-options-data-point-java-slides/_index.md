@@ -3,10 +3,14 @@ title: Diagrammmarkierungsoptionen für Datenpunkte in Java-Folien
 linktitle: Diagrammmarkierungsoptionen für Datenpunkte in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre Java-Folien mit benutzerdefinierten Diagrammmarkierungsoptionen. Erfahren Sie, wie Sie Datenpunkte mit Aspose.Slides für Java visuell verbessern. Entdecken Sie Schritt-für-Schritt-Anleitungen und FAQs.
-type: docs
 weight: 14
 url: /de/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in Diagrammmarkierungsoptionen für Datenpunkte in Java-Folien
 
@@ -154,3 +158,9 @@ Ja, Sie können mit Aspose.Slides für Java verschiedene Aspekte des Diagramms a
 ### Wo kann ich auf die Dokumentation und Downloads zu Aspose.Slides für Java zugreifen?
 
  Die Dokumentation finden Sie unter[Hier](https://reference.aspose.com/slides/java/) und laden Sie die Bibliothek herunter unter[Hier](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

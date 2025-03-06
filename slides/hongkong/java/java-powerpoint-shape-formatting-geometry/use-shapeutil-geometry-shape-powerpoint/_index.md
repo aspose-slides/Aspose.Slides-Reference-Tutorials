@@ -3,10 +3,14 @@ title: 在 PowerPoint 中使用 ShapeUtil 繪製幾何形狀
 linktitle: 在 PowerPoint 中使用 ShapeUtil 繪製幾何形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 PowerPoint 中建立自訂形狀。請按照此逐步指南來增強您的簡報。
-type: docs
 weight: 23
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 建立具有視覺吸引力的 PowerPoint 簡報通常需要的不僅僅是使用標準形狀和文字。想像一下能夠將自訂形狀和文字路徑直接添加到投影片中，從而增強簡報的視覺效果。使用Aspose.Slides for Java，您可以輕鬆實現這一點。本教學將引導您完成使用流程`ShapeUtil`類別在 PowerPoint 簡報中建立幾何圖形。無論您是經驗豐富的開發人員還是剛起步，本逐步指南都將幫助您利用 Aspose.Slides for Java 的強大功能來創建令人驚嘆的自訂形狀內容。
 ## 先決條件
@@ -75,3 +79,9 @@ Aspose.Slides 提供免費試用版，您可以從以下位置下載[這裡](htt
 這`ShapeUtil` Aspose.Slides 中的類別提供了處理形狀的實用方法，例如將圖形路徑轉換為幾何路徑。
 ### 我可以在哪裡獲得 Aspose.Slides 的支援？
 您可以從以下方面獲得支持[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint에서 글꼴 폴더 가져오기
 linktitle: Java를 사용하여 PowerPoint에서 글꼴 폴더 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 폴더를 추출하여 프레젠테이션 디자인 기능을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 폴더를 얻는 과정을 자세히 살펴보겠습니다. 글꼴은 프레젠테이션의 시각적 매력과 가독성에 중추적인 역할을 합니다. Aspose.Slides for Java를 활용하면 PowerPoint 프레젠테이션 내 다양한 글꼴 관련 작업에 필수적인 글꼴 디렉터리에 효율적으로 액세스할 수 있습니다.
 ## 전제 조건
@@ -46,3 +50,9 @@ Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 폴더 추출을
  Aspose.Slides 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11) 커뮤니티나 Aspose 지원팀의 지원을 구하세요.
 ### Java용 Aspose.Slides를 어디서 구입할 수 있나요?
  웹사이트에서 Java용 Aspose.Slides를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

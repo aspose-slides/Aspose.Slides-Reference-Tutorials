@@ -3,10 +3,14 @@ title: Java PowerPoint SmartArt Manipülasyonu
 linktitle: Java PowerPoint SmartArt Manipülasyonu
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: GroupDocs.Slides for Java eğitimleriyle Java PowerPoint SmartArt'ı etkili bir şekilde nasıl yöneteceğinizi öğrenin. Alt düğümlere erişin, düğüm ekleyin, düzenleri değiştirin ve daha fazlasını yapın!
-type: docs
 weight: 32
 url: /tr/java/java-powerpoint-smartart-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -71,3 +75,9 @@ Aspose.Slides ile Java kullanarak SmartArt'ta grafik düzeni türlerini düzenle
 Aspose.Slides for Java'yı verimli ve programlı bir şekilde kullanarak PowerPoint sunumlarında SmartArt'tan düğümleri nasıl kaldıracağınızı öğrenin.
 ### [SmartArt'ta Belirli Konumdaki Düğümü Kaldır](./remove-node-specific-position-smartart-java/)
 Aspose.Slides for Java'yı kullanarak SmartArt'ta belirli bir konumdaki düğümü nasıl kaldıracağınızı öğrenin. Sunum özelleştirmesini zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

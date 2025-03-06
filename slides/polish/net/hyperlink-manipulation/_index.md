@@ -3,10 +3,14 @@ title: Manipulacja hiperłączami
 linktitle: Manipulacja hiperłączami
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje aplikacje .NET dzięki kompleksowej manipulacji hiperłączami za pomocą Aspose.Slides. Dowiedz się, jak bez wysiłku zarządzać hiperłączami, tworzyć interaktywne prezentacje i zwiększać zaangażowanie użytkowników.
-type: docs
 weight: 13
 url: /pl/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp:
 
@@ -27,3 +31,9 @@ Dowiedz się, jak dodawać hiperłącza do slajdów w programie PowerPoint przy 
 Dowiedz się, jak skutecznie zarządzać hiperłączami w prezentacjach za pomocą Aspose.Slides dla .NET. Automatyzuj zadania, twórz interaktywne menu i zwiększaj zaangażowanie użytkowników.
 ### [Tworzenie modyfikowalnego hiperłącza](./mutable-hyperlink/)
 Dowiedz się, jak tworzyć modyfikowalne hiperłącza za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym dla prezentacji dynamicznych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Αποκτήστε πρόσβαση στις ενσωματωμένες �
 linktitle: Αποκτήστε πρόσβαση στις ενσωματωμένες ιδιότητες στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκτάτε πρόσβαση σε ενσωματωμένες ιδιότητες στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτό το σεμινάριο σάς καθοδηγεί στην ανάκτηση του συγγραφέα, της ημερομηνίας δημιουργίας και πολλά άλλα.
-type: docs
 weight: 10
 url: /el/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να αποκτήσετε πρόσβαση σε ενσωματωμένες ιδιότητες σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές Java να εργάζονται με παρουσιάσεις PowerPoint μέσω προγραμματισμού, επιτρέποντας εργασίες όπως η ανάγνωση και η απρόσκοπτη τροποποίηση ιδιοτήτων.
 ## Προαπαιτούμενα
@@ -101,3 +105,9 @@ System.out.println("Title : " + documentProperties.getTitle());
  Ναι, μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και να αποκτήσετε πρόσβαση σε φόρουμ υποστήριξης στο[Aspose website](https://reference.aspose.com/slides/java/).
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides για Java;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

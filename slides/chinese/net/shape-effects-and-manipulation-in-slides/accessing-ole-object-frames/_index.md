@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 访问演示幻灯片中的 OLE 对象框架
 linktitle: 使用 Aspose.Slides 访问演示幻灯片中的 OLE 对象框架
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 访问和操作演示幻灯片中的 OLE 对象框架。通过分步指导和实际代码示例增强您的幻灯片处理能力。
-type: docs
 weight: 11
 url: /zh/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介绍
 
@@ -99,3 +103,9 @@ Aspose.Slides 支持多种 OLE 对象类型，包括嵌入式文档、电子表�
 在演示领域，利用 OLE 对象框架的强大功能可以将您的内容提升到新的互动性和参与度高度。Aspose.Slides for .NET 简化了访问和操作 OLE 对象框架的过程，使您能够无缝集成来自其他应用程序的内容并丰富您的演示文稿。通过遵循分步指南并利用提供的代码示例，您将解锁动态和引人入胜的幻灯片的无限可能性。
 
 使用 Aspose.Slides 释放 OLE 对象框架的潜力，并将您的演示文稿转化为吸引观众注意力的交互式体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

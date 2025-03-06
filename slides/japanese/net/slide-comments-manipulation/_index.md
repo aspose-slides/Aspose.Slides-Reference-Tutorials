@@ -3,10 +3,14 @@ title: スライドコメントの操作
 linktitle: スライドコメントの操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: スライド コメントの操作に関する Aspose.Slides チュートリアルで、スライド操作スキルを強化します。.NET を使用して、PowerPoint プレゼンテーションでプログラムによってコメントを追加、編集、管理する方法を学習します。
-type: docs
 weight: 12
 url: /ja/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 導入
 
@@ -27,3 +31,9 @@ Aspose.Slides for .NET を使用して親コメントを追加し、インタラ
 Aspose.Slides API を使用して、プレゼンテーションに深みとインタラクションを追加します。.NET を使用してスライドにコメントを簡単に統合する方法を学びます。エンゲージメントを高め、視聴者を魅了します。
 ### [最新のコメント管理](./modern-comments/)
 Aspose.Slides を使用した最新のコメント管理により、コラボレーションとフィードバックのプロセスを強化します。プレゼンテーションでのコミュニケーションを効率化し、生産性を最大化する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

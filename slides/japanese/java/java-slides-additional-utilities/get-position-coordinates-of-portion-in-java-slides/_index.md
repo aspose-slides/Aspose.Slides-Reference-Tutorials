@@ -3,10 +3,14 @@ title: Java スライド内の部分の位置座標を取得する
 linktitle: Java スライド内の部分の位置座標を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java API を使用して、Java スライドのテキスト部分の座標を取得する方法を学習します。PowerPoint プレゼンテーションのテキストの配置を正確に制御します。
-type: docs
 weight: 12
 url: /ja/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドで部分の位置座標を取得する方法の紹介
 
@@ -120,3 +124,9 @@ finally
 ### Aspose.Slides for Java に関するさらなるサポートや支援を受けるにはどうすればよいですか?
 
 Aspose Web サイトでは、追加のサポートとリソースにアクセスできます。ユーザー向けにフォーラム、ドキュメント、プレミアム サポート オプションが提供されています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

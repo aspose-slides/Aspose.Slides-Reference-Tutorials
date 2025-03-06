@@ -3,10 +3,14 @@ title: 在 PowerPoint 中建立形狀縮圖
 linktitle: 在 PowerPoint 中建立形狀縮圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中產生形狀縮圖。提供逐步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將深入研究使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立形狀縮圖。 Aspose.Slides 是一個功能強大的函式庫，使開發人員能夠以程式設計方式處理 PowerPoint 文件，從而實現各種任務的自動化，包括產生形狀縮圖。
 ## 先決條件
@@ -60,3 +64,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
 絕對地！您可以從以下位置下載 Aspose.Slides 的免費試用版：[這裡](https://releases.aspose.com/)評估其特性和功能。
 ### 在哪裡可以找到對 Aspose.Slides 的支援？
 如果您對 Aspose.Slides 有任何疑問或需要協助，可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)為了支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java-dia's Beeldverwerking met Aspose.Slides voor Java
 linktitle: Beeldverwerking van Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u met afbeeldingen in Java-dia's omgaat met Aspose.Slides voor Java-tutorials. Ontdek stapsgewijze begeleiding voor efficiënt beeldbeheer.
-type: docs
 weight: 23
 url: /nl/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Bent u klaar om uw Java-dia's te verbeteren met verbluffende afbeeldingen? In dit artikel zullen we ons verdiepen in de wereld van het verwerken van afbeeldingen met behulp van Aspose.Slides voor Java-tutorials. Of u nu een doorgewinterde ontwikkelaar bent of net aan uw reis begint, deze uitgebreide gids begeleidt u stap voor stap door het proces.
 
@@ -42,3 +46,9 @@ Leer hoe u SVG-afbeeldingen kunt toevoegen aan Java-dia's met Aspose.Slides voor
 Leer hoe u op vectoren gebaseerde SVG-afbeeldingen uit externe bronnen aan Java-dia's kunt toevoegen met Aspose.Slides. Maak verbluffende presentaties met hoogwaardige beelden.
 ### [Converteer SVG-afbeeldingsobject naar een groep vormen in Java-dia's](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Leer hoe u SVG-afbeeldingen converteert naar een groep vormen in Java Slides met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

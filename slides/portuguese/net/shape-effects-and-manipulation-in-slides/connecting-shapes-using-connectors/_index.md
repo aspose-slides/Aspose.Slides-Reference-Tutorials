@@ -3,10 +3,14 @@ title: Aspose.Slides - Conecte formas perfeitamente no .NET
 linktitle: Conectando formas usando conectores na apresentação
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Explore o poder do Aspose.Slides for .NET, conectando formas sem esforço em suas apresentações. Eleve seus slides com conectores dinâmicos.
-type: docs
 weight: 29
 url: /pt/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 No mundo dinâmico das apresentações, a capacidade de conectar formas usando conectores adiciona uma camada de sofisticação aos seus slides. Aspose.Slides for .NET capacita os desenvolvedores a conseguir isso perfeitamente. Este tutorial irá guiá-lo através do processo, detalhando cada etapa para garantir uma compreensão clara.
 ## Pré-requisitos
@@ -77,3 +81,9 @@ Aspose.Slides for .NET suporta a conexão de várias formas, incluindo formas b�
 Explore a documentação do Aspose.Slides para conhecer métodos para personalizar a aparência do conector, como estilo de linha e cor.
 ### Existe um fórum da comunidade para suporte do Aspose.Slides?
  Sim, você pode encontrar assistência e compartilhar suas experiências no[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

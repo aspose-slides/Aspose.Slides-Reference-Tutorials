@@ -3,10 +3,14 @@ title: Beeld- en videomanipulatie in dia's
 linktitle: Beeld- en videomanipulatie in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw diapresentaties met boeiende afbeeldingen en video's met Aspose.Slides voor .NET. Leer stap voor stap hoe u afbeeldingen en video's in dia's kunt manipuleren voor visueel aantrekkelijke inhoud.
-type: docs
 weight: 12
 url: /nl/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot beeld- en videomanipulatie in Aspose.Slides
 
@@ -53,3 +57,9 @@ Leer hoe u uw presentatiedia's kunt verbeteren door ingesloten videoframes toe t
 Leer hoe u ingesloten bestandsgegevens kunt extraheren uit OLE-objecten in PowerPoint-presentaties met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met broncode om ingebedde gegevens naadloos op te halen en te verwerken.
 ### [Vormen vullen met verloop in presentatiedia's met Aspose.Slides](./filling-shapes-gradient/)
 Leer hoe u uw presentatiedia's kunt verfraaien met boeiende kleurverlopen met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncode om vormen met verlopen te vullen, van lineair tot radiaal, en diepte en dimensie toe te voegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Načtěte externí písmo v PowerPointu pomocí Javy
 linktitle: Načtěte externí písmo v PowerPointu pomocí Javy
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se načítat vlastní písma v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete své snímky jedinečnou typografií.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem načítání externího písma v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vlastní písma mohou vašim prezentacím dodat jedinečný nádech a zajistit konzistentní branding nebo stylistické preference na různých platformách.
 ## Předpoklady
@@ -63,3 +67,9 @@ Ano, můžete načíst více externích písem opakováním procesu pro každý 
 Pokud je soubor písma ve formátu TrueType (.ttf) a v rámci přiměřených limitů velikosti, měli byste být schopni jej úspěšně načíst.
 ### Ovlivňuje načítání externích písem kompatibilitu prezentace s různými verzemi aplikace PowerPoint?
 Ne, prezentace zůstává kompatibilní v různých verzích aplikace PowerPoint, pokud jsou písma vložena nebo načtena externě.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

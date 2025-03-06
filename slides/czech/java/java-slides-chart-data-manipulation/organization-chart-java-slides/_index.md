@@ -3,10 +3,14 @@ title: Organizační schéma v Java Slides
 linktitle: Organizační schéma v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet úžasné organizační diagramy v Java Slides pomocí podrobných výukových programů Aspose.Slides. Přizpůsobte a vizualizujte svou organizační strukturu bez námahy.
-type: docs
 weight: 22
 url: /cs/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do vytváření organizačního diagramu v Java Slides pomocí Aspose.Slides
 
@@ -103,3 +107,9 @@ Ano, do organizačního diagramu můžete přidat další tvary, text a konektor
 ### Je možné vytvořit složité organizační struktury s více úrovněmi?
 
 Ano, Aspose.Slides vám umožňuje vytvářet složité organizační struktury s více úrovněmi přidáváním a uspořádáním tvarů v organizačním diagramu. Můžete definovat hierarchické vztahy mezi tvary, které reprezentují požadovanou strukturu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

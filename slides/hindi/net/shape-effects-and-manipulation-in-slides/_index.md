@@ -3,10 +3,14 @@ title: स्लाइडों में आकार प्रभाव और
 linktitle: स्लाइडों में आकार प्रभाव और हेरफेर
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: शेप इफ़ेक्ट और मैनीपुलेशन पर Aspose.Slides ट्यूटोरियल के साथ अपनी प्रस्तुति के विज़ुअल अपील को बढ़ाएँ। शेप इफ़ेक्ट, एनिमेशन और बहुत कुछ का उपयोग करके शानदार स्लाइड बनाने का तरीका जानें।
-type: docs
 weight: 11
 url: /hi/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## परिचय
 
@@ -63,3 +67,9 @@ Aspose.Slides for .NET का उपयोग करके कनेक्टर
 Aspose.Slides के साथ प्रेजेंटेशन स्लाइड में कनेक्टर का उपयोग करके आकृतियों को जोड़ना सीखकर अपनी प्रेजेंटेशन क्षमता को बढ़ाएँ। आज ही अपनी विज़ुअल स्टोरीटेलिंग को और बेहतर बनाएँ!
 ### [Aspose.Slides के साथ प्रेजेंटेशन स्लाइड्स में कनेक्शन साइट का उपयोग करके आकृति को जोड़ना](./connecting-shape-using-connection-site/)
 Aspose.Slides के साथ प्रेजेंटेशन स्लाइड में कनेक्शन साइट्स का उपयोग करके आकृतियों को कनेक्ट करना सीखकर अपने प्रेजेंटेशन कौशल को बेहतर बनाएँ। हमारे विस्तृत गाइड और कोड उदाहरणों का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

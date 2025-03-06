@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中转换为 GIF
 linktitle: 在 Java 幻灯片中转换为 GIF
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿转换为 GIF 图像。简单的分步指南，实现无缝转换。
-type: docs
 weight: 22
 url: /zh/java/presentation-conversion/convert-to-gif-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中转换为 GIF 的简介
 
@@ -111,3 +115,9 @@ try {
 ### 在哪里可以访问 Aspose.Slides for Java 库？
 
 您可以从 Aspose 网站下载 Aspose.Slides for Java：[下载 Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

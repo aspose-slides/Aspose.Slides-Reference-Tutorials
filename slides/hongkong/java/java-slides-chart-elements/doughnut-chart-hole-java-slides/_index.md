@@ -3,10 +3,14 @@ title: Java 投影片中的圓環圖孔
 linktitle: Java 投影片中的圓環圖孔
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 Java 投影片中建立具有自訂孔尺寸的圓環圖。帶有圖表自訂原始程式碼的分步指南。
-type: docs
 weight: 11
 url: /zh-hant/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中帶洞的圓環圖簡介
 
@@ -94,3 +98,9 @@ finally
 ### 是否可以為圖表添加標題？
 
 當然！您可以使用以下命令向圖表新增標題`setTitle`方法上的`IChart`物件並提供所需的標題文字。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

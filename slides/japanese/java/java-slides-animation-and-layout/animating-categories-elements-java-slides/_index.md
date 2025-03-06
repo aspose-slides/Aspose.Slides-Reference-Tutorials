@@ -3,10 +3,14 @@ title: Java スライドのカテゴリ要素をアニメーション化する
 linktitle: Java スライドのカテゴリ要素をアニメーション化する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java プレゼンテーションを最適化します。PowerPoint スライドのカテゴリ要素をアニメーション化する方法を説明します。
-type: docs
 weight: 10
 url: /ja/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドのカテゴリ要素のアニメーション化の概要
 
@@ -117,3 +121,10 @@ Aspose.Slides for Java を使用して、Java スライドのカテゴリ要素�
 ### Aspose.Slides for Java について詳しく知るにはどうすればよいですか?
 
 包括的なドキュメントと追加リソースについては、[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/)ライブラリは以下からダウンロードすることもできます。[ここ](https://releases.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

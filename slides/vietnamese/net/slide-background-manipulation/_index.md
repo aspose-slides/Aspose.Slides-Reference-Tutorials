@@ -3,10 +3,14 @@ title: Thao tác nền slide bằng Aspose.Slides
 linktitle: Thao tác với nền slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao thiết kế slide của bạn với Aspose.Slides! Tìm hiểu cách thao tác với nền trang chiếu trong hướng dẫn toàn diện này. Hướng dẫn từng bước và ví dụ về mã được cung cấp.
-type: docs
 weight: 11
 url: /vi/net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -37,3 +41,9 @@ Tìm hiểu cách đặt hình ảnh làm nền trang chiếu bằng Aspose.Slid
 Tìm hiểu cách thành thạo cách cài đặt nền trang chiếu bằng Aspose.Slides trong hướng dẫn từng bước này. Nâng bản trình bày của bạn lên một tầm cao mới bằng hình ảnh hấp dẫn.
 ### [Thay đổi nền slide thông thường](./change-slide-background-normal/)
 Tìm hiểu cách thay đổi nền trang chiếu thông thường để thu hút người xem. Hãy làm theo hướng dẫn toàn diện này bằng cách sử dụng Aspose.Slides cho .NET, kèm theo hướng dẫn từng bước và ví dụ về mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

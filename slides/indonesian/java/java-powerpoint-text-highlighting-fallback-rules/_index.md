@@ -3,10 +3,14 @@ title: Penyorotan Teks Java PowerPoint dan Aturan Penggantian
 linktitle: Penyorotan Teks Java PowerPoint dan Aturan Penggantian
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kuasai penyorotan teks dan aturan penggantian font di Java PowerPoint dengan Aspose.Slides. Ikuti tutorial kami untuk menyempurnakan dan mengotomatiskan presentasi Anda dengan lancar.
-type: docs
 weight: 25
 url: /id/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Perkenalan
 
@@ -26,3 +30,9 @@ Dengan mengikuti tutorial ini, Anda akan diperlengkapi dengan baik untuk menyemp
 Pelajari cara menyorot teks di PowerPoint menggunakan Aspose.Slides untuk Java. Otomatiskan dan tingkatkan presentasi dengan mudah menggunakan panduan terperinci kami.
 ### [Kumpulan Aturan Fallback di Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Pelajari cara mengelola aturan penggantian font dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan kompatibilitas antar perangkat dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

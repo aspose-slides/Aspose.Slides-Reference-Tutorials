@@ -3,10 +3,14 @@ title: تحويل إلى GIF في شرائح جافا
 linktitle: تحويل إلى GIF في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى صور GIF في Java باستخدام Aspose.Slides. دليل خطوة بخطوة سهل للتحويل السلس.
-type: docs
 weight: 22
 url: /ar/java/presentation-conversion/convert-to-gif-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة للتحويل إلى GIF في شرائح Java
 
@@ -111,3 +115,9 @@ try {
 ### أين يمكنني الوصول إلى مكتبة Aspose.Slides for Java؟
 
  يمكنك تنزيل Aspose.Slides for Java من موقع Aspose:[تنزيل Aspose.Slides للجافا](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

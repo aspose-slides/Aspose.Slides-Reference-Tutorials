@@ -3,10 +3,14 @@ title: Információk elrejtése a diagramból a Java Slides alkalmazásban
 linktitle: Információk elrejtése a diagramból a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan rejtheti el a diagramelemeket a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Testreszabhatja a prezentációkat az átláthatóság és az esztétika érdekében lépésről lépésre szóló útmutatás és forráskód segítségével.
-type: docs
 weight: 13
 url: /hu/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés az információk elrejtéséhez a diagramból a Java Slides alkalmazásban
 
@@ -172,3 +176,9 @@ Igen, dinamikusan módosíthatja a diagram típusát, ha létrehoz egy új, a k�
 ### Hogyan módosíthatom programozottan a diagram címét és tengelycímkéit?
 
 Beállíthatja a diagram és a tengelyek címét és címkéit, ha hozzáfér a megfelelő tulajdonságaikhoz, és beállítja a kívánt szöveget és formázást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Buat Bentuk Thumbnail di PowerPoint
 linktitle: Buat Bentuk Thumbnail di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat gambar mini bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah disediakan.
-type: docs
 weight: 14
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membuat thumbnail bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah pustaka canggih yang memungkinkan pengembang bekerja dengan file PowerPoint secara terprogram, memungkinkan otomatisasi berbagai tugas, termasuk menghasilkan thumbnail bentuk.
 ## Prasyarat
@@ -60,3 +64,9 @@ Ya, selain PNG, Aspose.Slides mendukung penyimpanan thumbnail dalam berbagai for
  Sangat! Anda dapat mengunduh Aspose.Slides versi uji coba gratis dari[Di Sini](https://releases.aspose.com/) untuk mengevaluasi fitur dan kemampuannya.
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides?
  Jika Anda memiliki pertanyaan atau memerlukan bantuan dengan Aspose.Slides, Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

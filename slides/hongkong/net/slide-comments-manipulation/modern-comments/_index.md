@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 進行現代評論管理
 linktitle: 現代評論管理
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理 PowerPoint 簡報中的現代註解。協作毫不費力！
-type: docs
 weight: 14
 url: /zh-hant/net/slide-comments-manipulation/modern-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 PowerPoint 簡報。它提供的功能之一是現代註釋管理，使您能夠在簡報中無縫添加、修改註釋並與之互動。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 管理現代註解的過程。
 
@@ -109,3 +113,9 @@ PowerPoint 簡報中的現代註釋可讓協作者直接在簡報中提供回饋
 ### 5. 我可以在購買之前試用 Aspose.Slides for .NET 嗎？
 
 當然！您可以從以下位置存取 Aspose.Slides for .NET 的免費試用版：[免費試用連結](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

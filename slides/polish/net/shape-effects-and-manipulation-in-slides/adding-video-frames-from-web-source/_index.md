@@ -3,10 +3,14 @@ title: Samouczek osadzania klatek wideo w Aspose.Slides dla .NET
 linktitle: Dodawanie klatek wideo ze źródła internetowego do slajdów prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak bezproblemowo osadzać klatki wideo w slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Bez wysiłku wzbogacaj prezentacje multimediami.
-type: docs
 weight: 20
 url: /pl/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 dynamicznym świecie prezentacji włączenie elementów multimedialnych może znacząco zwiększyć zaangażowanie i dostarczyć wpływowy przekaz. Skutecznym sposobem osiągnięcia tego celu jest osadzanie klatek wideo w slajdach prezentacji. W tym samouczku omówimy, jak bezproblemowo to osiągnąć, używając Aspose.Slides dla .NET. Aspose.Slides to solidna biblioteka, która umożliwia programistom programowe manipulowanie prezentacjami programu PowerPoint, zapewniając szerokie możliwości tworzenia, edytowania i ulepszania slajdów.
 ## Warunki wstępne
@@ -75,3 +79,9 @@ Aspose.Slides jest regularnie aktualizowany, aby zachować zgodność z najnowsz
 Tak, możesz osadzić wiele filmów, dodając do slajdu dodatkowe klatki wideo.
 ### Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.Slides?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

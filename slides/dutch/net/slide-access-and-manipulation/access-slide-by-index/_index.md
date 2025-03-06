@@ -3,10 +3,14 @@ title: Toegang tot dia via opeenvolgende index
 linktitle: Toegang tot dia via opeenvolgende index
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's kunt openen via sequentiële index met behulp van Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met broncode om eenvoudig door PowerPoint-presentaties te navigeren en deze te manipuleren.
-type: docs
 weight: 12
 url: /nl/net/slide-access-and-manipulation/access-slide-by-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot toegang tot dia's via opeenvolgende index
 
@@ -86,3 +90,9 @@ Aspose.Slides voor .NET biedt een breed scala aan functionaliteiten, waaronder h
 ### Hoe kan ik meer leren over PowerPoint-automatisering met Aspose.Slides?
 
  Voor meer informatie over PowerPoint-automatisering met Aspose.Slides kunt u de gedetailleerde documentatie en codevoorbeelden verkennen die beschikbaar zijn op hun[documentatie](https://reference.aspose.com/slides/net/) bladzijde.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

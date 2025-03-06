@@ -3,10 +3,14 @@ title: PowerPoint에서 모양 축소판 만들기
 linktitle: PowerPoint에서 모양 축소판 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 모양 축소판을 생성하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 모양 축소판을 만드는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있도록 지원하는 강력한 라이브러리로, 모양 축소판 생성을 포함한 다양한 작업을 자동화할 수 있습니다.
 ## 전제 조건
@@ -60,3 +64,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
  전적으로! Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 그 특징과 능력을 평가합니다.
 ### Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  Aspose.Slides에 대해 질문이 있거나 도움이 필요하면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

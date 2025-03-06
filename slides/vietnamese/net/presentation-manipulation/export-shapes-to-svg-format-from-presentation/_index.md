@@ -3,10 +3,14 @@ title: Xuất hình dạng sang định dạng SVG từ bản trình bày
 linktitle: Xuất hình dạng sang định dạng SVG từ bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xuất hình từ bản trình bày PowerPoint sang định dạng SVG bằng Aspose.Slides cho .NET. Hướng dẫn từng bước có kèm theo mã nguồn. Trích xuất hình dạng một cách hiệu quả cho các ứng dụng khác nhau.
-type: docs
 weight: 16
 url: /vi/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thế giới kỹ thuật số ngày nay, bài thuyết trình đóng một vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Tuy nhiên, đôi khi chúng ta cần xuất các hình dạng cụ thể từ bản trình bày của mình sang các định dạng khác nhau cho nhiều mục đích khác nhau. Một định dạng như vậy là SVG (Đồ họa vectơ có thể mở rộng), được biết đến với khả năng mở rộng và khả năng thích ứng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất hình sang định dạng SVG từ bản trình bày bằng Aspose.Slides cho .NET.
 
@@ -83,3 +87,9 @@ Khả năng xuất hình dạng có thể khác nhau tùy thuộc vào độ ph�
 Bây giờ bạn đã học cách xuất hình dạng sang định dạng SVG, bạn có thể nâng cao bản trình bày của mình và làm cho chúng linh hoạt hơn cho các mục đích khác nhau. Chúc mừng mã hóa!
 
  Để biết thêm chi tiết và các tính năng nâng cao, hãy tham khảo[Aspose.Slides cho tài liệu tham khảo API .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

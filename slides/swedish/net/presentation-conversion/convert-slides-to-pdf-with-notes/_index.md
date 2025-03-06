@@ -3,10 +3,14 @@ title: Konvertera bilder till PDF med Notes
 linktitle: Konvertera bilder till PDF med Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Konvertera enkelt presentationsbilder med talaranteckningar till PDF med Aspose.Slides för .NET. Bevara innehåll och sammanhang sömlöst.
-type: docs
 weight: 18
 url: /sv/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Skriv steg för steg handledning om att konvertera diabilder till PDF med anteckningar med Aspose.Slides för .NET
 
@@ -98,3 +102,9 @@ Ja, Aspose.Slides för .NET stöder olika utdataformat, inklusive PPTX, DOCX och
  Ja, du kan köpa en tillfällig licens på[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Sammanfattningsvis, med Aspose.Slides för .NET kan du enkelt konvertera PowerPoint-bilder till PDF-format med anteckningar intakta. Det är ett värdefullt verktyg för proffs som behöver dela presentationer med kollegor och kunder samtidigt som det säkerställer att viktiga sammanhang inte går förlorade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

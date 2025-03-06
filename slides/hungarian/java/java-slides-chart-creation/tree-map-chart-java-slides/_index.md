@@ -3,10 +3,14 @@ title: Fatérkép diagram a Java Slides-ben
 linktitle: Fatérkép diagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hozzon létre fatérkép-diagramokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a hierarchikus adatok megjelenítéséhez.
-type: docs
 weight: 13
 url: /hu/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## A Java Slides fatérkép-diagramjának bemutatása
 
@@ -152,3 +156,9 @@ Igen, több fatérkép-diagramot is létrehozhat egyetlen prezentációban, ha u
 ### Hogyan menthetem el a prezentációt a fatérkép diagrammal?
 
  Használja a`pres.save()` módszerrel mentheti a prezentációt a fatérkép diagrammal a kívánt formátumban (pl. PPTX).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

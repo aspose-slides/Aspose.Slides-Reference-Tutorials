@@ -3,10 +3,14 @@ title: احصل على العرض والارتفاع من منطقة رسم ال
 linktitle: احصل على العرض والارتفاع من منطقة رسم المخطط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد أبعاد مساحة رسم المخطط في Java Slides باستخدام Aspose.Slides لـ Java. تعزيز مهاراتك في أتمتة PowerPoint.
-type: docs
 weight: 21
 url: /ar/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -109,3 +113,10 @@ finally
 ### كيف يمكنني معرفة المزيد حول Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق وأمثلة موسعة على صفحة وثائق Aspose.Slides for Java[هنا](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

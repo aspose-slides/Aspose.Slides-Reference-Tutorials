@@ -3,10 +3,14 @@ title: Un guide complet sur la configuration du masque d'arrière-plan des diapo
 linktitle: Définir le masque d'arrière-plan des diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment définir le masque d'arrière-plan des diapositives à l'aide d'Aspose.Slides pour .NET pour améliorer visuellement vos présentations.
-type: docs
 weight: 14
 url: /fr/net/slide-background-manipulation/set-slide-background-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dans le domaine de la conception de présentations, un arrière-plan captivant et visuellement attrayant peut faire toute la différence. Que vous créiez une présentation à des fins commerciales, éducatives ou à toute autre fin, l'arrière-plan joue un rôle crucial dans l'amélioration de l'impact visuel. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de manipuler et de personnaliser des présentations de manière transparente. Dans ce guide étape par étape, nous approfondirons le processus de configuration du masque d'arrière-plan des diapositives à l'aide d'Aspose.Slides pour .NET. 
 
@@ -143,3 +147,9 @@ Aspose.Slides for .NET est conçu pour fonctionner avec différents formats Powe
 **Title (maximum 60 characters):** Configuration de l'arrière-plan de la diapositive principale dans Aspose.Slides pour .NET
 
 Améliorez la conception de votre présentation avec Aspose.Slides pour .NET. Apprenez à définir le masque d’arrière-plan des diapositives pour des visuels captivants.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

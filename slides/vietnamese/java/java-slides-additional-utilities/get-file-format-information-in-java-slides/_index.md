@@ -3,10 +3,14 @@ title: Nhận thông tin định dạng tệp trong Java Slides
 linktitle: Nhận thông tin định dạng tệp trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất thông tin định dạng tệp trong Java Slides bằng Aspose.Slides cho API Java. Xác định các định dạng trình bày bằng các ví dụ về mã.
-type: docs
 weight: 11
 url: /vi/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Lấy thông tin định dạng tệp trong Java Slides
 
@@ -113,3 +117,9 @@ Aspose.Slides for Java là một thư viện thương mại nhưng nó cung cấ
 ### Làm cách nào tôi có thể liên hệ với bộ phận hỗ trợ của Aspose để được hỗ trợ?
 
 Bạn có thể liên hệ với bộ phận hỗ trợ của Aspose thông qua trang web của họ. Họ cung cấp các kênh hỗ trợ riêng để giúp bạn giải đáp mọi thắc mắc hoặc vấn đề bạn có thể gặp phải khi sử dụng sản phẩm của họ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

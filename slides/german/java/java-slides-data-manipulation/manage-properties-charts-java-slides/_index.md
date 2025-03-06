@@ -3,10 +3,14 @@ title: Verwalten von Eigenschaftsdiagrammen in Java-Folien
 linktitle: Verwalten von Eigenschaftsdiagrammen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides beeindruckende Diagramme erstellen und Eigenschaften in Java-Folien verwalten. Schritt-für-Schritt-Anleitung mit Quellcode für wirkungsvolle Präsentationen.
-type: docs
 weight: 13
 url: /de/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in die Verwaltung von Eigenschaften und Diagrammen in Java-Folien mit Aspose.Slides
 
@@ -198,3 +202,9 @@ Ja, Sie können die Diagrammfarben anpassen, indem Sie die Fülleigenschaften vo
 ### Welche anderen 3D-Eigenschaften kann ich anpassen?
 
 Sie können andere 3D-Eigenschaften des Diagramms, wie Tiefe, Perspektive und Beleuchtung, erkunden, indem Sie die Aspose.Slides-Dokumentation zu Rate ziehen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

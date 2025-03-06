@@ -3,10 +3,14 @@ title: Java PowerPoint でテキスト ボックスの段落に効果を適用�
 linktitle: Java PowerPoint でテキスト ボックスの段落に効果を適用する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: シームレスな統合とカスタマイズを実現する Aspose.Slides を使用して、動的なテキスト効果で Java の PowerPoint プレゼンテーションを強化する方法を学習します。
-type: docs
 weight: 16
 url: /ja/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 Aspose.Slides for Java は、スライドの作成、変更、変換のための強力な機能セットを提供し、開発者が PowerPoint プレゼンテーションをプログラムで操作できるようにします。このチュートリアルでは、Aspose.Slides を活用してテキスト ボックス内に効果を追加および管理し、Java コードを通じてプレゼンテーションを動的に強化する方法について詳しく説明します。
 ## 前提条件
@@ -60,3 +64,9 @@ Aspose.Slides for Java は Java 6 以降をサポートしています。
 臨時免許証は以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java は .pptx 以外の PowerPoint ファイル形式をサポートしていますか?
 はい、.ppt、.pptx、.pptm など、さまざまな PowerPoint 形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Accesso al testo alternativo nelle forme di gruppo utilizzando Aspose.Sli
 linktitle: Accesso al testo alternativo nelle forme di gruppo
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come accedere al testo alternativo nelle forme di gruppo utilizzando Aspose.Slides per .NET. Guida passo passo con esempi di codice.
-type: docs
 weight: 10
 url: /it/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Quando si tratta di gestire e manipolare presentazioni, Aspose.Slides per .NET offre un potente set di strumenti. In questo articolo approfondiremo un aspetto specifico di questa API: accesso al testo alternativo nelle forme di gruppo. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Aspose.Slides, questa guida completa ti guiderà attraverso il processo, fornendo istruzioni dettagliate ed esempi di codice. Alla fine, avrai una solida conoscenza di come lavorare in modo efficace con testo alternativo in forme di gruppo utilizzando Aspose.Slides.
 
@@ -118,3 +122,9 @@ Puoi utilizzare lettori di schermo o strumenti di test di accessibilità per val
 ### Aspose.Slides è adatto sia ai principianti che agli sviluppatori esperti?
 
 Sì, Aspose.Slides è progettato per soddisfare gli sviluppatori di tutti i livelli. I principianti possono seguire la guida passo passo fornita nella documentazione, mentre gli sviluppatori esperti possono sfruttare le sue funzionalità avanzate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

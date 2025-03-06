@@ -3,10 +3,14 @@ title: Manipolazione dei collegamenti ipertestuali in Aspose.Slides
 linktitle: Manipolazione dei collegamenti ipertestuali in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come aggiungere e rimuovere collegamenti ipertestuali in Aspose.Slides per .NET. Migliora facilmente le tue presentazioni con collegamenti interattivi.
-type: docs
 weight: 10
 url: /it/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 collegamenti ipertestuali sono elementi essenziali nelle presentazioni poiché forniscono un modo conveniente per navigare tra le diapositive o accedere a risorse esterne. Aspose.Slides per .NET offre potenti funzionalità per aggiungere e rimuovere collegamenti ipertestuali nelle diapositive della presentazione. In questo tutorial, ti guideremo attraverso il processo di manipolazione dei collegamenti ipertestuali utilizzando Aspose.Slides per .NET. Tratteremo l'aggiunta di collegamenti ipertestuali a una diapositiva e la rimozione di collegamenti ipertestuali da una diapositiva. Quindi tuffiamoci!
 
@@ -121,3 +125,9 @@ Assolutamente. Aspose.Slides supporta vari formati PowerPoint, inclusi PPT, PPTX
 
 ### Come posso ottenere una licenza temporanea per Aspose.Slides?
  Se hai bisogno di una licenza temporanea per Aspose.Slides, puoi ottenerne una[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Přístup k podřízenému uzlu na konkrétní pozici v prvku SmartArt
 linktitle: Přístup k podřízenému uzlu na konkrétní pozici v prvku SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se manipulovat s obrázky SmartArt v Aspose.Slides for Java pomocí tohoto podrobného průvodce. Obsahuje podrobné pokyny, příklady a osvědčené postupy.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Chcete posunout své prezentace na další úroveň pomocí sofistikované grafiky SmartArt? Už nehledejte! Aspose.Slides for Java nabízí výkonnou sadu pro vytváření, manipulaci a správu prezentačních snímků, včetně možnosti pracovat s objekty SmartArt. V tomto komplexním tutoriálu vás provedeme přístupem a manipulací s podřízeným uzlem na konkrétní pozici v grafice SmartArt pomocí knihovny Aspose.Slides for Java.
 
@@ -98,3 +102,9 @@ Gratulujeme! Úspěšně jste přistoupili a manipulovali s podřízeným uzlem 
  Můžete získat podporu od[Aspose komunitní fórum](https://forum.aspose.com/c/slides/11) nebo odkazovat na rozsáhlé[dokumentace](https://reference.aspose.com/slides/java/).
 ### Mohu si koupit plnou licenci pro Aspose.Slides pro Javu?
  Ano, můžete si zakoupit plnou licenci od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

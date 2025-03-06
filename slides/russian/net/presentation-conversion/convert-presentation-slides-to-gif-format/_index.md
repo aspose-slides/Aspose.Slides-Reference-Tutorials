@@ -3,10 +3,14 @@ title: Преобразование слайдов презентации в ф�
 linktitle: Преобразование слайдов презентации в формат GIF
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как использовать Aspose.Slides for .NET для преобразования слайдов PowerPoint в динамические GIF-файлы с помощью этого пошагового руководства.
-type: docs
 weight: 21
 url: /ru/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в Aspose.Slides для .NET
 
@@ -133,3 +137,9 @@ class Program
 ### Где я могу найти больше примеров кода и документации?
 
  Дополнительные примеры кода и подробную документацию по использованию Aspose.Slides для .NET можно найти в разделе[документация](https://reference.aspose.com).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

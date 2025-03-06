@@ -3,10 +3,14 @@ title: Java PowerPoint で効果的なフォント値を取得する
 linktitle: Java PowerPoint で効果的なフォント値を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint プレゼンテーションで有効なフォント値を取得する方法を学びます。プレゼンテーションの書式設定を簡単に強化できます。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides を使用して Java PowerPoint プレゼンテーションで有効なフォント値を取得する方法について説明します。この機能を使用すると、スライド内のテキストに適用されているフォント書式設定にアクセスできるため、さまざまなプレゼンテーション操作タスクに役立つ情報が得られます。
 ## 前提条件
@@ -62,3 +66,9 @@ try-catch ブロックなどのエラー処理メカニズムを実装して、�
 はい、Aspose.Slides では、正しい資格情報を提供すれば、パスワードで保護されたプレゼンテーションのフォント値にアクセスできます。
 ### 取得できるフォントプロパティに制限はありますか?
 Aspose.Slides は、フォント プロパティを取得するための広範な機能を提供しており、ほとんどの一般的な書式設定の側面をカバーしています。ただし、この方法では、特定の高度なフォント機能や特殊なフォント機能にアクセスできない場合があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

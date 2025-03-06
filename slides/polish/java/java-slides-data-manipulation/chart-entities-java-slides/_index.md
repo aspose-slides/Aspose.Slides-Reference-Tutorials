@@ -3,10 +3,14 @@ title: Elementy wykresów w slajdach Java
 linktitle: Elementy wykresów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się tworzyć i dostosowywać wykresy Java Slides za pomocą Aspose.Slides. Ulepsz swoje prezentacje za pomocą potężnych jednostek wykresów.
-type: docs
 weight: 13
 url: /pl/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do jednostek wykresów w slajdach Java
 
@@ -301,3 +305,9 @@ Kolory wykresu można dostosować, ustawiając format wypełnienia różnych ele
 ### Czy Aspose.Slides for Java jest kompatybilny z najnowszymi wersjami Java?
 
 Tak, Aspose.Slides for Java jest regularnie aktualizowany, aby obsługiwać najnowsze wersje Java i zapewnia kompatybilność z szeroką gamą środowisk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

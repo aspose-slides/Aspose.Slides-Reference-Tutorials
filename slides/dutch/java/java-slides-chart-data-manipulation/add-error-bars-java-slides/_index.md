@@ -3,10 +3,14 @@ title: Voeg foutbalken toe aan Java-dia's
 linktitle: Voeg foutbalken toe aan Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u foutbalken kunt toevoegen aan PowerPoint-diagrammen in Java met behulp van Aspose.Slides. Stapsgewijze handleiding met broncode voor het aanpassen van foutbalken.
-type: docs
 weight: 13
 url: /nl/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het toevoegen van foutbalken in Java-dia's met behulp van Aspose.Slides
 
@@ -128,3 +132,9 @@ Ja, u kunt foutbalken toevoegen aan verschillende diagramtypen die worden onders
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
  U kunt verwijzen naar de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over het gebruik van de bibliotheek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

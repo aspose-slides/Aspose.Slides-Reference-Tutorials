@@ -3,10 +3,14 @@ title: تحديد لغة النص الافتراضية في Java PowerPoint
 linktitle: تحديد لغة النص الافتراضية في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديد لغة النص الافتراضية في Java PowerPoint باستخدام Aspose.Slides لـ Java. مثالي للمطورين الذين يتطلعون إلى توطين النصوص برمجيًا.
-type: docs
 weight: 21
 url: /ar/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في مجال تطوير تطبيقات Java، تعد إدارة عروض PowerPoint التقديمية ومعالجتها برمجيًا مطلبًا شائعًا. يوفر Aspose.Slides for Java مجموعة قوية من الوظائف التي تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتعديلها وتحسينها بسلاسة من خلال تعليمات Java البرمجية. يهدف هذا البرنامج التعليمي إلى إرشادك خلال الخطوات الأساسية لتحديد لغة النص الافتراضية في عرض Java PowerPoint التقديمي باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -66,3 +70,9 @@ finally {
 نعم، يوفر Aspose.Slides for Java واجهات برمجة التطبيقات التي تدعم التكامل مع الأنظمة الأساسية السحابية الشائعة.
 ### هل يمكنني تقييم Aspose.Slides لـ Java قبل الشراء؟
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

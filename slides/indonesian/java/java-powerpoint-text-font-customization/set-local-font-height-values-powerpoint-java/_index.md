@@ -3,10 +3,14 @@ title: Tetapkan Nilai Tinggi Font Lokal di PowerPoint menggunakan Java
 linktitle: Tetapkan Nilai Tinggi Font Lokal di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyesuaikan ketinggian font dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides. Sempurnakan pemformatan teks di slide Anda dengan mudah.
-type: docs
 weight: 17
 url: /id/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara memanipulasi ketinggian font di berbagai level dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Mengontrol ukuran font sangat penting untuk membuat presentasi yang menarik secara visual dan terstruktur. Kami akan membahas contoh langkah demi langkah untuk mengilustrasikan cara mengatur tinggi font untuk elemen teks yang berbeda.
 ## Prasyarat
@@ -65,3 +69,9 @@ Aspose.Slides untuk Java adalah API yang kuat untuk memanipulasi presentasi Powe
  Untuk dukungan, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### Di mana saya dapat membeli lisensi Aspose.Slides untuk Java?
  Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

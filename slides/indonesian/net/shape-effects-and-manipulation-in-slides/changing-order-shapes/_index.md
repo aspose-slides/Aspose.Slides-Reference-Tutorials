@@ -3,10 +3,14 @@ title: Membentuk Kembali Slide Presentasi dengan Aspose.Slides untuk .NET
 linktitle: Mengubah Urutan Bentuk di Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membentuk ulang slide presentasi menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini untuk menyusun ulang bentuk dan meningkatkan daya tarik visual.
-type: docs
 weight: 26
 url: /id/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Membuat slide presentasi yang menarik secara visual merupakan aspek penting dari komunikasi yang efektif. Aspose.Slides untuk .NET memberdayakan pengembang untuk memanipulasi slide secara terprogram, menawarkan berbagai fungsi. Dalam tutorial ini, kita akan mempelajari proses mengubah urutan bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -70,3 +74,9 @@ J: Ya, Aspose.Slides untuk .NET kompatibel dengan lingkungan Windows dan Linux.
  J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk mendapatkan dukungan dan terlibat dengan masyarakat.
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
  A: Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

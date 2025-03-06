@@ -3,10 +3,14 @@ title: Java Slaytlarında Slayt Gösterisi Medya Denetimleri
 linktitle: Java Slaytlarında Slayt Gösterisi Medya Denetimleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'ta Medya Kontrollerini Nasıl Etkinleştireceğinizi ve Kullanacağınızı Öğrenin. Sunumlarınızı Medya Kontrolleriyle Geliştirin.
-type: docs
 weight: 11
 url: /tr/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarındaki Slayt Gösterisi Medya Kontrollerine Giriş
 
@@ -108,3 +112,9 @@ Bu eğitimde Aspose.Slides for Java kullanarak Java Slides'ta medya kontrollerin
 ### Java Slaytlar'daki videolara alt yazı veya resim yazıları eklemenin bir yolu var mı?
 
 Evet, videoyu içeren slayda metin çerçeveleri veya şekiller ekleyerek Java Slaytlar'daki videolara altyazı veya resim yazıları ekleyebilirsiniz. Daha sonra zamanlama ayarlarını kullanarak metni video oynatımıyla senkronize edebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

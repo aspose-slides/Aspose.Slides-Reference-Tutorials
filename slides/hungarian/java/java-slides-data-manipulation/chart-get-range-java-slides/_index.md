@@ -3,10 +3,14 @@ title: Chart Get Range in Java Slides
 linktitle: Chart Get Range in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kérheti le a diagramtartományokat a Java Slides alkalmazásban az Aspose.Slides for Java API segítségével. Lépésről lépésre útmutató forráskóddal a diagramadatok hatékony eléréséhez.
-type: docs
 weight: 16
 url: /hu/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## A Chart Get Range bemutatása a Java Slides-ben
 
@@ -98,3 +102,10 @@ Igen, testreszabhatja a diagramok megjelenését, például megváltoztathatja a
 ### Hol találok további forrásokat és dokumentációt az Aspose.Slides for Java-hoz?
 
  Az Aspose.Slides for Java átfogó dokumentációját és forrásait a következő oldalon találja:[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Définir le format de remplissage des puces dans SmartArt à l'aide de Ja
 linktitle: Définir le format de remplissage des puces dans SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir le format de remplissage des puces dans SmartArt à l'aide de Java avec Aspose.Slides. Guide étape par étape pour une manipulation efficace des présentations.
-type: docs
 weight: 18
 url: /fr/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le domaine de la programmation Java, la manipulation efficace des présentations est une exigence courante, notamment lorsqu'il s'agit d'éléments SmartArt. Aspose.Slides pour Java apparaît comme un outil puissant pour de telles tâches, offrant un éventail de fonctionnalités pour gérer les présentations par programme. Dans ce didacticiel, nous approfondirons le processus de définition du format de remplissage des puces dans SmartArt à l'aide de Java avec Aspose.Slides, étape par étape.
 ## Conditions préalables
@@ -71,3 +75,9 @@ En effet, Aspose.Slides vous permet de personnaliser tous les aspects des formes
  Oui, vous pouvez explorer les fonctionnalités d’Aspose.Slides avec un essai gratuit. Téléchargez-le simplement depuis le[site web](https://releases.aspose.com/slides/java/) et commencez à explorer.
 ### Où puis-je trouver de l’assistance pour Aspose.Slides pour Java ?
  Pour toute question ou assistance, vous pouvez visiter le forum Aspose.Slides à l'adresse[ce lien](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

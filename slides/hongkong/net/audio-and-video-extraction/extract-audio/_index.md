@@ -3,10 +3,14 @@ title: 從幻燈片中提取音頻
 linktitle: 從幻燈片中提取音頻
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 從投影片中提取音訊。透過本逐步指南增強您的簡報。
-type: docs
 weight: 11
 url: /zh-hant/net/audio-and-video-extraction/extract-audio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在簡報領域，為投影片添加音訊可以增強整體影響力和參與度。 Aspose.Slides for .NET 提供了一套強大的工具來處理演示文稿，在本教程中，我們將在逐步指南中探索如何從幻燈片中提取音訊。無論您是希望自動化此流程的開發人員，還是只是想了解其完成方式，本教學都將引導您完成流程。
 
@@ -87,3 +91,9 @@ Aspose.Slides for .NET 支援各種音訊格式，包括 MP3 和 WAV。擷取的
 
 ### 5. 在哪裡可以找到與 Aspose.Slides for .NET 相關的其他支援或提問？
 您可以訪問[Aspose.Slides for .NET 支援論壇](https://forum.aspose.com/)尋求協助、提出問題或與 Aspose 社群分享您的經驗。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

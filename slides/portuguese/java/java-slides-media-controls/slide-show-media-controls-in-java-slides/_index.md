@@ -3,10 +3,14 @@ title: Controles de mídia de apresentação de slides em slides Java
 linktitle: Controles de mídia de apresentação de slides em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como ativar e usar controles de mídia em slides Java com Aspose.Slides para Java. Aprimore suas apresentações com controles de mídia.
-type: docs
 weight: 11
 url: /pt/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução aos controles de mídia de apresentação de slides em slides Java
 
@@ -108,3 +112,9 @@ Neste tutorial, exploramos como habilitar e utilizar controles de mídia em Java
 ### Existe uma maneira de adicionar legendas aos vídeos no Java Slides?
 
 Sim, você pode adicionar legendas a vídeos em Java Slides adicionando quadros de texto ou formas ao slide que contém o vídeo. Você pode então sincronizar o texto com a reprodução do vídeo usando configurações de tempo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

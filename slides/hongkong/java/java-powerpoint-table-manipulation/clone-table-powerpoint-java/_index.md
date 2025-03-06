@@ -3,10 +3,14 @@ title: 使用 Java 複製 PowerPoint 中的表格
 linktitle: 使用 Java 複製 PowerPoint 中的表格
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們詳細的逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中複製表格。簡化您的演示管理。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 建立和管理 PowerPoint 簡報可能是一項艱鉅的任務，尤其是當您需要以程式設計方式操作內容時。然而，使用 Aspose.Slides for Java，這個過程變得更簡單。本教學將引導您使用 Aspose.Slides for Java（一個用於處理各種簡報任務的強大函式庫）在 PowerPoint 簡報中複製表格。
 ## 先決條件
@@ -119,3 +123,9 @@ Aspose.Slides for Java 是一個功能強大的 API，用於在 Java 應用程�
 是的，您需要生產使用許可證。您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪裡獲得 Aspose.Slides 的支援？
 您可以從 Aspose.Slides 獲得支持[支援論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

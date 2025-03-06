@@ -3,10 +3,14 @@ title: Entitas Bagan di Slide Java
 linktitle: Entitas Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat dan menyesuaikan bagan Java Slides dengan Aspose.Slides. Sempurnakan presentasi Anda dengan entitas bagan yang canggih.
-type: docs
 weight: 13
 url: /id/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Entitas Bagan di Slide Java
 
@@ -301,3 +305,9 @@ Anda dapat menyesuaikan warna bagan dengan mengatur format isian untuk berbagai 
 ### Apakah Aspose.Slides for Java kompatibel dengan versi Java terbaru?
 
 Ya, Aspose.Slides for Java diperbarui secara berkala untuk mendukung versi Java terbaru dan menyediakan kompatibilitas di berbagai lingkungan Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

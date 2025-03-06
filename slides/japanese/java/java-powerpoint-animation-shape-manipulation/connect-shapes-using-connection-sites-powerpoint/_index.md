@@ -3,10 +3,14 @@ title: PowerPoint の接続サイトを使用して図形を接続する
 linktitle: PowerPoint の接続サイトを使用して図形を接続する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint で図形を接続する方法を学びます。プレゼンテーションを簡単に自動化します。
-type: docs
 weight: 19
 url: /ja/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint の接続サイトを使用して図形を接続する方法について説明します。この強力なライブラリを使用すると、PowerPoint プレゼンテーションをプログラムで操作できるため、図形の接続などのタスクをシームレスかつ効率的に実行できます。
 ## 前提条件
@@ -70,3 +74,9 @@ if (ellipse.getConnectionSiteCount() > (wantedIndex & 0xFFFFFFFFL))
 はい、テストや評価の目的で一時ライセンスをご利用いただけます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java のライセンスはどこで購入できますか?
 ライセンスはAsposeのウェブサイトから購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

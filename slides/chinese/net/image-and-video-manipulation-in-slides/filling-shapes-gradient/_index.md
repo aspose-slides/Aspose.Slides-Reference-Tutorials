@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 在 PowerPoint 中创建令人惊叹的渐变效果
 linktitle: 使用 Aspose.Slides 在演示幻灯片中用渐变填充形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强您的演示文稿！了解使用渐变填充形状的分步过程。立即下载免费试用版！
-type: docs
 weight: 21
 url: /zh/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 制作视觉上引人入胜的演示幻灯片对于吸引和保持观众的注意力至关重要。在本教程中，我们将引导您完成使用 Aspose.Slides for .NET 用渐变填充椭圆形来增强幻灯片的过程。
 ## 先决条件
@@ -73,3 +77,9 @@ With Aspose.Slides for .NET, you can effortlessly elevate the visual aesthetics 
 答：寻求帮助并与社区互动[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
 ### 问：我可以购买 Aspose.Slides for .NET 的临时许可证吗？
 答：当然可以，你可以申请临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

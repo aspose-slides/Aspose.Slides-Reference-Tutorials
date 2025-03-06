@@ -3,10 +3,14 @@ title: Java 슬라이드에서 SVG 이미지 개체를 모양 그룹으로 변�
 linktitle: Java 슬라이드에서 SVG 이미지 개체를 모양 그룹으로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 SVG 이미지를 Java 슬라이드의 모양 그룹으로 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드에서 SVG 이미지 객체를 도형 그룹으로 변환하는 방법 소개
 
@@ -129,3 +133,9 @@ finally
 ### 변환된 도형의 모양을 사용자 지정할 수 있나요?
 
 틀림없이! 요구 사항에 따라 변환된 도형의 모양, 크기 및 위치를 사용자 정의할 수 있습니다. Aspose.Slides는 모양 조작을 위한 광범위한 API를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

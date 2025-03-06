@@ -3,10 +3,14 @@ title: Java PowerPoint Μορφοποίηση σχήματος και γεωμε
 linktitle: Java PowerPoint Μορφοποίηση σχήματος και γεωμετρία
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε μαθήματα μορφοποίησης σχήματος και γεωμετρίας Java PowerPoint. Μάθετε να συμπληρώνετε σχήματα, να βρίσκετε σχήματα και να δημιουργείτε προσαρμοσμένη γεωμετρία με το Aspose.Slides για Java.
-type: docs
 weight: 26
 url: /el/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων PowerPoint απαιτεί συχνά ακριβή μορφοποίηση σχήματος και γεωμετρικό χειρισμό. Με το Aspose.Slides για Java, οι προγραμματιστές μπορούν να ανεβάσουν τις παρουσιάσεις τους στο επόμενο επίπεδο. Αυτό το άρθρο διερευνά βασικούς οδηγούς για τη συμπλήρωση σχημάτων, την εύρεση σχημάτων και τη δημιουργία προσαρμοσμένης γεωμετρίας, κάνοντας τις διαφάνειές σας να ξεχωρίζουν.
@@ -74,3 +78,9 @@ url: /el/java/java-powerpoint-shape-formatting-geometry/
 Μάθετε πώς να ανακτάτε αποτελεσματικά δεδομένα λοξότμησης σχήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με εντυπωσιακά οπτικά εφέ.
 ### [Απόκρυψη σχημάτων στο PowerPoint](./hide-shapes-powerpoint/)
 Μάθετε πώς να αποκρύπτετε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με τον αναλυτικό οδηγό μας βήμα προς βήμα. Ιδανικό για προγραμματιστές Java όλων των επιπέδων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

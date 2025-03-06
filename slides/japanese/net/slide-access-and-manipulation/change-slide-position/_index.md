@@ -3,10 +3,14 @@ title: Aspose.Slides を使用してプレゼンテーション内のスライ�
 linktitle: プレゼンテーション内のスライドの位置を調整する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーション内のスライドの位置を調整する方法を学びます。プレゼンテーション スキルを向上させましょう。
-type: docs
 weight: 23
 url: /ja/net/slide-access-and-manipulation/change-slide-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 プレゼンテーション スライドを再編成し、Aspose.Slides for .NET でスライドの位置を調整する方法を知りたいですか? このステップ バイ ステップ ガイドでは、各ステップを明確に理解できるように、プロセスを順を追って説明します。チュートリアルに進む前に、開始するために必要な前提条件とインポート名前空間を確認しましょう。
 
@@ -111,3 +115,9 @@ Aspose.Slides for .NET は、開発者が .NET アプリケーションで Power
 ### 5. 購入前に Aspose.Slides for .NET を試すことはできますか?
 
 はい、Aspose.Slides for .NETの無料試用版を以下からお試しいただけます。[Aspose.Slides for .NET 無料トライアル](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

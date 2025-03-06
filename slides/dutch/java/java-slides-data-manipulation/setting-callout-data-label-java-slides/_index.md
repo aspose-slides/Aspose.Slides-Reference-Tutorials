@@ -3,10 +3,14 @@ title: Bijschrift voor gegevenslabel instellen in Java-dia's
 linktitle: Bijschrift voor gegevenslabel instellen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u toelichtingen voor gegevenslabels in Aspose.Slides voor Java instelt. Stap-voor-stap handleiding met broncode.
-type: docs
 weight: 25
 url: /nl/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het instellen van bijschrift voor gegevenslabel in Aspose.Slides voor Java
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Dit zijn enkele veelgebruikte aanpassingsopties voor gegevenslabels en bijschriften in Aspose.Slides voor Java. U kunt de uitstraling verder afstemmen op uw specifieke wensen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

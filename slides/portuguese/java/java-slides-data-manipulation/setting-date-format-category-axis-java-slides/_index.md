@@ -3,10 +3,14 @@ title: Configurando formato de data para eixo de categoria em slides Java
 linktitle: Configurando formato de data para eixo de categoria em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir um formato de data para o eixo de categoria em um gráfico do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com código-fonte.
-type: docs
 weight: 26
 url: /pt/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à configuração do formato de data para eixo de categoria em slides Java
 
@@ -139,3 +143,9 @@ Sim, você pode definir diferentes formatos de data para eixos de categoria em d
 ### Como adiciono mais pontos de dados ao gráfico?
 
  Para adicionar mais pontos de dados ao gráfico, use o`getDataPoints().addDataPointForLineSeries`método na série de dados e forneça os valores dos dados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

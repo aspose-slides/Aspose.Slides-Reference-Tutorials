@@ -3,10 +3,14 @@ title: ضبط تنسيق النص داخل الجدول في PowerPoint باست
 linktitle: ضبط تنسيق النص داخل الجدول في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تنسيق النص داخل جداول PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية للمطورين.
-type: docs
 weight: 20
 url: /ar/java/java-powerpoint-table-manipulation/set-text-formatting-inside-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تنسيق النص داخل الجداول في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. Aspose.Slides هي مكتبة قوية تسمح للمطورين بمعالجة عروض PowerPoint التقديمية برمجياً، وتوفر إمكانات واسعة لتنسيق النص وإدارة الشرائح والمزيد. يركز هذا البرنامج التعليمي بشكل خاص على تحسين تنسيق النص داخل الجداول لإنشاء عروض تقديمية جذابة ومنظمة.
 ## المتطلبات الأساسية
@@ -80,3 +84,9 @@ presentation.save(dataDir + "result.pptx", SaveFormat.Pptx);
 قم بتنفيذ تقنيات معالجة الأخطاء مثل كتل محاولة الالتقاط لإدارة الاستثناءات بشكل فعال أثناء معالجة العرض التقديمي.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides لـ Java؟
  قم بزيارة[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11) للحصول على أدلة شاملة، والأمثلة، والمساعدة المجتمعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

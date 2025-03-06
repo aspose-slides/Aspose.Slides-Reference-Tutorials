@@ -3,10 +3,14 @@ title: 在 PowerPoint 中获取相机有效数据
 linktitle: 在 PowerPoint 中获取相机有效数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本分步指南了解如何使用 Aspose.Slides for Java 从 PowerPoint 幻灯片中检索有效的相机数据。
-type: docs
 weight: 24
 url: /zh/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程方式创建、修改和管理 PowerPoint 演示文稿。无论您是自动生成报告、创建自定义幻灯片还是仅处理演示文稿数据，Aspose.Slides 都提供了一套全面的功能来满足您的需求。在本指南中，我们将深入介绍如何使用 Aspose.Slides for Java 从 PowerPoint 幻灯片中检索相机有效数据。我们将引导您完成每个步骤，确保您清楚地了解该过程。
 ## 先决条件
@@ -70,3 +74,9 @@ Aspose.Slides 适用于多种编程语言，包括.NET，但本指南重点介�
 是的，可以购买商业许可证[这里](https://purchase.aspose.com/buy).
 ### 在哪里可以找到 Aspose.Slides for Java 的文档？
 文档可用[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

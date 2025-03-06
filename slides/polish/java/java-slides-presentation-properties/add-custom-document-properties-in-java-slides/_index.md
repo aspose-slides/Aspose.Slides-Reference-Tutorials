@@ -3,10 +3,14 @@ title: Dodaj niestandardowe właściwości dokumentu w slajdach Java
 linktitle: Dodaj niestandardowe właściwości dokumentu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą niestandardowych właściwości dokumentu w aplikacji Java Slides. Przewodnik krok po kroku z przykładami kodu przy użyciu Aspose.Slides dla Java.
-type: docs
 weight: 13
 url: /pl/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do dodawania niestandardowych właściwości dokumentu w slajdach Java
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Ten kod wyświetli nazwy i wartości wszystkich właściwości niestandardowych w prezentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

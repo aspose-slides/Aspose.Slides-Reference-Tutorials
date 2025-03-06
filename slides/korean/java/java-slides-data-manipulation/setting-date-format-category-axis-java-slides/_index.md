@@ -3,10 +3,14 @@ title: Java 슬라이드의 범주 축에 대한 날짜 형식 설정
 linktitle: Java 슬라이드의 범주 축에 대한 날짜 형식 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 차트에서 범주 축의 날짜 형식을 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 26
 url: /ko/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드의 범주 축에 대한 날짜 형식 설정 소개
 
@@ -139,3 +143,9 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드 차트에서 범주 축
 ### 차트에 데이터 포인트를 더 추가하려면 어떻게 해야 합니까?
 
  차트에 더 많은 데이터 포인트를 추가하려면`getDataPoints().addDataPointForLineSeries`데이터 시리즈에 대한 메소드를 생성하고 데이터 값을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

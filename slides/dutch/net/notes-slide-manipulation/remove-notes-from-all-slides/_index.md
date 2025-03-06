@@ -3,10 +3,14 @@ title: Verwijder notities uit alle dia's
 linktitle: Verwijder notities uit alle dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u notities uit PowerPoint-dia's verwijdert met Aspose.Slides voor .NET. Maak uw presentaties schoner en professioneler.
-type: docs
 weight: 13
 url: /nl/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Als u een .NET-ontwikkelaar bent die met PowerPoint-presentaties werkt, komt u wellicht de noodzaak tegen om notities uit alle dia's in uw presentatie te verwijderen. Dit kan handig zijn als u uw dia's wilt opschonen en aanvullende informatie wilt verwijderen die niet voor uw publiek bedoeld is. In deze stapsgewijze handleiding leiden we u door het proces van het gebruik van Aspose.Slides voor .NET om deze taak efficiënt uit te voeren.
 
@@ -97,3 +101,9 @@ Ja, Aspose.Slides is ook beschikbaar voor Java, C++ en vele andere programmeerta
 ### 5. Ondersteunt Aspose.Slides voor .NET de nieuwste PowerPoint-formaten?
 
 Ja, Aspose.Slides voor .NET ondersteunt een breed scala aan PowerPoint-formaten, inclusief de nieuwste versies. Voor meer informatie kunt u de documentatie raadplegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

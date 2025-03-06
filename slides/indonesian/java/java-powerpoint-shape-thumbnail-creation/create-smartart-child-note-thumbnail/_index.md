@@ -3,10 +3,14 @@ title: Buat Gambar Kecil Catatan Anak SmartArt
 linktitle: Buat Gambar Kecil Catatan Anak SmartArt
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat thumbnail catatan anak SmartArt di Java dengan Aspose.Slides, menyempurnakan presentasi PowerPoint Anda dengan mudah.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara membuat thumbnail catatan anak SmartArt di Java menggunakan Aspose.Slides. Aspose.Slides adalah Java API canggih yang memungkinkan pengembang bekerja dengan presentasi PowerPoint secara terprogram, memungkinkan mereka membuat, memodifikasi, dan memanipulasi slide dengan mudah.
 ## Prasyarat
@@ -70,3 +74,9 @@ Ya, Aspose.Slides dirancang untuk menangani tugas otomatisasi PowerPoint tingkat
 Tentu! Aspose.Slides memberikan dukungan komprehensif untuk membuat dan memanipulasi diagram SmartArt dengan berbagai kompleksitas.
 ### Apakah Aspose.Slides menawarkan dukungan teknis untuk pengembang?
  Ya, Aspose.Slides menyediakan dukungan teknis khusus untuk pengembang melalui mereka[forum](https://forum.aspose.com/c/slides/11) dan saluran lainnya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

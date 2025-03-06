@@ -3,10 +3,14 @@ title: Agregue columnas en un marco de texto usando Aspose.Slides para Java
 linktitle: Agregue columnas en un marco de texto usando Aspose.Slides para Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar columnas en marcos de texto usando Aspose.Slides para Java para mejorar sus presentaciones de PowerPoint. Nuestra guía paso a paso simplifica el proceso.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En este tutorial, exploraremos cómo manipular marcos de texto para agregar columnas usando Aspose.Slides para Java. Aspose.Slides es una poderosa biblioteca que permite a los desarrolladores de Java crear, manipular y convertir presentaciones de PowerPoint mediante programación. Agregar columnas a los marcos de texto mejora el atractivo visual y la organización del texto dentro de las diapositivas, lo que hace que las presentaciones sean más atractivas y fáciles de leer.
 ## Requisitos previos
@@ -81,3 +85,9 @@ No, Aspose.Slides establece automáticamente el mismo ancho para las columnas de
  La documentación detallada está disponible.[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cómo puedo obtener soporte técnico para Aspose.Slides para Java?
  Puedes buscar apoyo de la comunidad.[aquí](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

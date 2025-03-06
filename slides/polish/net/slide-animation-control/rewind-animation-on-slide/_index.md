@@ -3,10 +3,14 @@ title: Opanowywanie animacji przewijania w prezentacjach za pomocą Aspose.Slide
 linktitle: Przewiń animację na slajdzie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak przewijać animacje na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnymi przykładami kodu źródłowego.
-type: docs
 weight: 13
 url: /pl/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 dynamicznym świecie prezentacji włączenie urzekających animacji może znacznie zwiększyć zaangażowanie. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi, dzięki którym tchniesz życie w swoje prezentacje. Intrygującą funkcją jest możliwość przewijania animacji na slajdach. W tym obszernym przewodniku przeprowadzimy Cię krok po kroku przez proces, pozwalając Ci wykorzystać pełny potencjał przewijania animacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -80,3 +84,9 @@ Tak, możesz dostosować kod, aby zastosować animację przewijania selektywnie 
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) szukać pomocy i współpracować ze społecznością.
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
  Tak, możesz nabyć licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

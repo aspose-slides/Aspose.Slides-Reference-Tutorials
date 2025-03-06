@@ -3,10 +3,14 @@ title: Další funkce grafu
 linktitle: Další funkce grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte pokročilé funkce grafů v Aspose.Slides pro .NET! Naučte se vytvářet dynamické, interaktivní grafy s vlastními styly, trendovými liniemi a dalšími. Vylepšete své prezentace pomocí výkonné vizualizace dat.
-type: docs
 weight: 24
 url: /cs/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod
 
@@ -32,3 +36,9 @@ Naučte se, jak efektivně extrahovat data grafu pomocí Aspose.Slides pro .NET.
 Naučte se, jak obnovit sešit z grafu pomocí Aspose.Slides for .NET. Extrahujte data grafu a vytvářejte sešity Excelu programově.
 ### [Vymazat konkrétní datové body řady grafů](./clear-specific-chart-series-data-points-data/)
 Přečtěte si, jak vymazat konkrétní datové body grafu v Aspose.Slides pro .NET. Podrobný průvodce včetně zdrojového kódu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

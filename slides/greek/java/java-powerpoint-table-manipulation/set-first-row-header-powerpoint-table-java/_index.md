@@ -3,10 +3,14 @@ title: Ορίστε την πρώτη σειρά ως κεφαλίδα στον 
 linktitle: Ορίστε την πρώτη σειρά ως κεφαλίδα στον πίνακα PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε την πρώτη σειρά ως κεφαλίδα σε πίνακες PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη σαφήνεια και την οργάνωση της παρουσίασης χωρίς κόπο.
-type: docs
 weight: 19
 url: /el/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον τρόπο χειρισμού πινάκων PowerPoint χρησιμοποιώντας το Aspose.Slides για Java, μια ισχυρή βιβλιοθήκη που επιτρέπει την απρόσκοπτη ενσωμάτωση και τροποποίηση των παρουσιάσεων. Συγκεκριμένα, θα εστιάσουμε στο να ορίσουμε την πρώτη σειρά ενός πίνακα ως κεφαλίδα, βελτιώνοντας την οπτική εμφάνιση και την οργάνωση των διαφανειών σας.
 ## Προαπαιτούμενα
@@ -76,3 +80,9 @@ pres.dispose();
  Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από την κοινότητα[εδώ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

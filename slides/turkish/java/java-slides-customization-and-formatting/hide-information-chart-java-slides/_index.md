@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Grafikteki Bilgileri Gizle
 linktitle: Java Slaytlarındaki Grafikteki Bilgileri Gizle
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'ta grafik öğelerini nasıl gizleyeceğinizi öğrenin. Adım adım rehberlik ve kaynak koduyla sunumlarınızı netlik ve estetik açısından özelleştirin.
-type: docs
 weight: 13
 url: /tr/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarında Bilgileri Grafikten Gizlemeye Giriş
 
@@ -172,3 +176,9 @@ Evet, istediğiniz türde yeni bir grafik oluşturup verileri eski grafikten yen
 ### Grafiğin başlığını ve eksen etiketlerini programlı olarak nasıl değiştirebilirim?
 
 Grafiğin ve eksenlerin başlığını ve etiketlerini, ilgili özelliklerine erişerek ve istediğiniz metni ve formatı ayarlayarak ayarlayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

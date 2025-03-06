@@ -3,10 +3,14 @@ title: Mediensteuerung mit Aspose.Slides für Java
 linktitle: Java Slides-Mediensteuerung
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Mediensteuerelemente in Java-Folien implementieren, indem Sie Aspose.Slides für Java-Tutorials verwenden. Verbessern Sie Ihre Präsentationen nahtlos mit Audio und Video.
-type: docs
 weight: 22
 url: /de/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Im heutigen digitalen Zeitalter bestehen Präsentationen nicht mehr nur aus statischen Folien mit Text und Bildern. Sie haben sich zu dynamischen, interaktiven Erlebnissen entwickelt, die das Publikum fesseln und fesseln. Wenn Sie Java-Entwickler sind und Ihren Präsentationen eine neue Dimension verleihen möchten, sind Sie hier richtig. In diesem Artikel erfahren Sie, wie Sie Mediensteuerelemente in Java-Folien mithilfe von Aspose.Slides für Java-Tutorials implementieren.
 
@@ -51,3 +55,9 @@ Meistern Sie die Unterbrechungsbehandlung von Java Slides mit Aspose.Slides für
 Erfahren Sie, wie Sie Präsentationseigenschaften in Java-Folien mit Aspose.Slides für Java aktualisieren. Passen Sie Autor, Titel und mehr für wirkungsvolle Präsentationen an.
 ### [Aktualisieren der Präsentationseigenschaften mithilfe einer anderen Präsentation als Vorlage in Java Slides](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Verbessern Sie PowerPoint-Präsentationen mit aktualisierten Metadaten mithilfe von Aspose.Slides für Java. Erfahren Sie, wie Sie Eigenschaften wie Autor, Titel und Schlüsselwörter mithilfe von Vorlagen in Java Slides aktualisieren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

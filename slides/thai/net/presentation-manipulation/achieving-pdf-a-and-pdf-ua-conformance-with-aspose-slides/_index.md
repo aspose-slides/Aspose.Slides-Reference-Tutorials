@@ -3,10 +3,14 @@ title: บรรลุความสอดคล้องกับ PDF/A แล
 linktitle: บรรลุความสอดคล้อง PDF/A และ PDF/UA
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ตรวจสอบให้แน่ใจว่า PDF/A และ PDF/UA สอดคล้องกับ Aspose.Slides สำหรับ .NET สร้างงานนำเสนอที่เข้าถึงได้และเก็บรักษาไว้ได้อย่างง่ายดาย
-type: docs
 weight: 23
 url: /th/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## การแนะนำ
 
@@ -127,3 +131,9 @@ Install-Package Aspose.Slides
 ### การปฏิบัติตาม PDF/UA จำเป็นสำหรับเอกสารทั้งหมดหรือไม่
 
 การปฏิบัติตามข้อกำหนด PDF/UA มีความสำคัญอย่างยิ่งสำหรับเอกสารที่มีจุดประสงค์ให้ผู้ใช้ที่มีความพิการสามารถเข้าถึงได้ อย่างไรก็ตาม ความจำเป็นในการปฏิบัติตามข้อกำหนด PDF/UA ขึ้นอยู่กับข้อกำหนดเฉพาะของกลุ่มเป้าหมายของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 在 PowerPoint 中建立格式化橢圓
 linktitle: 在 PowerPoint 中建立格式化橢圓
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們詳細的逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立格式化橢圓。
-type: docs
 weight: 17
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 歡迎來到這個關於使用 Aspose.Slides for Java 在 PowerPoint 中建立格式化橢圓的綜合教學。 Aspose.Slides 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 PowerPoint 檔案。無論您是自動產生幻燈片還是使用自訂形狀增強演示文稿，本指南都將引導您完成每一步，確保您可以輕鬆地在幻燈片中添加格式完美的橢圓。讓我們深入了解如何實現這一目標！
 ## 先決條件
@@ -95,3 +99,9 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 您可以在 Aspose.Slides for Java 上找到詳細文檔[文件頁](https://reference.aspose.com/slides/java/).
 ### 是否支援 Aspose.Slides？
 是的，Aspose 透過他們的[論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

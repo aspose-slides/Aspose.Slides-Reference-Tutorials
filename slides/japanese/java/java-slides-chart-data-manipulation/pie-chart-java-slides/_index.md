@@ -3,10 +3,14 @@ title: Java スライドの円グラフ
 linktitle: Java スライドの円グラフ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで魅力的な円グラフを作成する方法を学びます。Java 開発者向けのソース コード付きのステップバイステップ ガイドです。
-type: docs
 weight: 23
 url: /ja/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides を使用して Java スライドで円グラフを作成する方法の紹介
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### Aspose.Slides for Java の操作に関する詳細情報や例はどこで見つけることができますか?
 
 詳細情報、詳細なドキュメント、追加の例については、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)ライブラリを効果的に使用するための包括的なリソースを提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

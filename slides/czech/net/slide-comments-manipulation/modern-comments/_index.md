@@ -3,10 +3,14 @@ title: Moderní správa komentářů pomocí Aspose.Slides
 linktitle: Moderní správa komentářů
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se spravovat moderní komentáře v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Spolupracujte bez námahy!
-type: docs
 weight: 14
 url: /cs/net/slide-comments-manipulation/modern-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET je výkonná knihovna, která vývojářům umožňuje programově pracovat s prezentacemi PowerPoint. Jednou z funkcí, které nabízí, je moderní správa komentářů, která umožňuje plynule přidávat, upravovat a pracovat s komentáři ve vašich prezentacích. V tomto podrobném průvodci vás provedeme procesem správy moderních komentářů pomocí Aspose.Slides pro .NET.
 
@@ -109,3 +113,9 @@ Moderní komentáře můžete aktualizovat nebo odstraňovat programově příst
 ### 5. Mohu Aspose.Slides for .NET vyzkoušet před jeho zakoupením?
 
  Rozhodně! Můžete přistupovat k bezplatné zkušební verzi Aspose.Slides pro .NET z[odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

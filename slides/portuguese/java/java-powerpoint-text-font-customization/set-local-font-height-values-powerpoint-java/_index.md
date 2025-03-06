@@ -3,10 +3,14 @@ title: Defina valores locais de altura da fonte no PowerPoint usando Java
 linktitle: Defina valores locais de altura da fonte no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como ajustar a altura das fontes em apresentações do PowerPoint usando Java com Aspose.Slides. Melhore a formatação de texto em seus slides sem esforço.
-type: docs
 weight: 17
 url: /pt/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Neste tutorial, você aprenderá como manipular alturas de fontes em vários níveis em apresentações do PowerPoint usando Aspose.Slides para Java. Controlar o tamanho das fontes é crucial para criar apresentações estruturadas e visualmente atraentes. Examinaremos exemplos passo a passo para ilustrar como definir alturas de fonte para diferentes elementos de texto.
 ## Pré-requisitos
@@ -65,3 +69,9 @@ Aspose.Slides for Java é uma API poderosa para manipular apresentações do Pow
  Para suporte, visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Onde posso comprar uma licença do Aspose.Slides for Java?
  Você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

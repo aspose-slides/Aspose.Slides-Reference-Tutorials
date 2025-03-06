@@ -3,10 +3,14 @@ title: Add Assistant Node to SmartArt in Java PowerPoint
 linktitle: Add Assistant Node to SmartArt in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add an assistant node to SmartArt in Java PowerPoint presentations using Aspose.Slides. Enhance your PowerPoint editing skills.
-type: docs
 weight: 17
 url: /java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, we'll guide you through the process of adding an assistant node to SmartArt in Java PowerPoint presentations using Aspose.Slides.
 ## Prerequisites
@@ -70,3 +74,10 @@ Aspose.Slides supports PowerPoint versions from 97-2003 to the latest version.
 Yes, you can customize the appearance using various properties and methods provided by Aspose.Slides.
 ### Is there any limit to the number of nodes in a SmartArt?
 SmartArt in PowerPoint supports a large number of nodes, but it's recommended to keep it reasonable for better readability.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

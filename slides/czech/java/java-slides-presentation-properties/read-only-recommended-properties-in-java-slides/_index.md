@@ -3,10 +3,14 @@ title: Doporučené vlastnosti pouze pro čtení v Java Slides
 linktitle: Doporučené vlastnosti pouze pro čtení v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak povolit vlastnosti doporučené pouze pro čtení v prezentacích Java PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce s příklady zdrojového kódu pro lepší zabezpečení prezentace.
-type: docs
 weight: 17
 url: /cs/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod k aktivaci doporučených vlastností pouze pro čtení v Java Slides
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Nezapomeňte vyměnit`"YourPassword"` s požadovaným heslem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

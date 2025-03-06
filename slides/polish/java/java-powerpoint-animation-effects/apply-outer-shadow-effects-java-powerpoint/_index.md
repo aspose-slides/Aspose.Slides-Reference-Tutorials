@@ -3,10 +3,14 @@ title: Zastosuj efekty cienia zewnętrznego w programie Java PowerPoint
 linktitle: Zastosuj efekty cienia zewnętrznego w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak łatwo zastosować efekty cienia zewnętrznego w prezentacjach Java PowerPoint przy użyciu Aspose.Slides, korzystając z naszego szczegółowego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Tworzenie angażujących prezentacji często wymaga dodania różnych efektów poprawiających atrakcyjność wizualną slajdów. Jednym z takich efektów jest cień zewnętrzny, który może sprawić, że Twoje elementy wyblakną i dodadzą głębi treści. W tym samouczku omówimy proces stosowania efektów cienia zewnętrznego do kształtów w prezentacji programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -114,3 +118,9 @@ Tak, możesz używać Aspose.Slides for Java z dowolnym IDE Java, takim jak Inte
  Możesz uzyskać tymczasową licencję od[Strona Aspose](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides?
  Więcej przykładów i szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

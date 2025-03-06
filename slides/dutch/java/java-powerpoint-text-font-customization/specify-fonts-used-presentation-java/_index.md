@@ -3,10 +3,14 @@ title: Geef lettertypen op die worden gebruikt in presentaties met Java
 linktitle: Geef lettertypen op die worden gebruikt in presentaties met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste lettertypen kunt opgeven in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter uw dia's moeiteloos met unieke typografie.
-type: docs
 weight: 22
 url: /nl/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In het huidige digitale tijdperk is het creëren van visueel aantrekkelijke presentaties cruciaal voor effectieve communicatie in het bedrijfsleven en de academische wereld. Aspose.Slides voor Java biedt een robuust platform voor Java-ontwikkelaars om PowerPoint-presentaties dynamisch te genereren en te manipuleren. Deze tutorial leidt u door het proces van het specificeren van lettertypen die in een presentatie worden gebruikt met Aspose.Slides voor Java. Uiteindelijk beschikt u over de kennis om aangepaste lettertypen naadloos in uw PowerPoint-projecten te integreren, waardoor de visuele aantrekkingskracht wordt vergroot en de merkconsistentie wordt gewaarborgd.
 ## Vereisten
@@ -71,3 +75,9 @@ Ja, u kunt lettertypen op verschillende niveaus opgeven, waaronder dia-, vorm- o
 Aspose.Slides legt geen strikte beperkingen op aan het aantal aangepaste lettertypen; houd echter rekening met de gevolgen voor de prestaties.
 ### Kan ik lettertypen tijdens runtime dynamisch laden zonder ze in mijn toepassing in te sluiten?
 Ja, u kunt lettertypen laden vanuit externe bronnen of geheugen, zoals gedemonstreerd in deze zelfstudie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

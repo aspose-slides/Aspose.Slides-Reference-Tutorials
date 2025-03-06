@@ -3,10 +3,14 @@ title: Konversi Tampilan Slide Catatan di Slide Java
 linktitle: Konversi Tampilan Slide Catatan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi tampilan slide catatan di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan contoh kode untuk manipulasi PowerPoint yang efisien.
-type: docs
 weight: 15
 url: /id/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengonversi Tampilan Slide Catatan di Slide Java Menggunakan Aspose.Slides
 
@@ -101,3 +105,10 @@ Aspose.Slides dirancang untuk bekerja dengan berbagai format PowerPoint, termasu
 ### Di mana saya dapat menemukan lebih banyak contoh kode dan tutorial untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan banyak contoh kode dan tutorial di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/)Jelajahi dokumentasi untuk mempelajari lebih lanjut tentang kemampuan perpustakaan canggih ini.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

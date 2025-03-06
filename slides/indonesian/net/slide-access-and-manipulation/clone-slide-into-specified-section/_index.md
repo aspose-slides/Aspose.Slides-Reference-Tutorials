@@ -3,10 +3,14 @@ title: Duplikat Slide ke Bagian yang Ditunjuk dalam Presentasi
 linktitle: Duplikat Slide ke Bagian yang Ditunjuk dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menduplikasi slide dalam bagian yang ditentukan menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah untuk manipulasi slide yang efektif.
-type: docs
 weight: 19
 url: /id/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dalam dunia presentasi dinamis, Aspose.Slides for .NET berdiri sebagai alat yang andal bagi pengembang. Baik Anda membuat tayangan slide yang menawan atau mengotomatiskan manipulasi slide, Aspose.Slides untuk .NET menawarkan platform tangguh untuk menyederhanakan proyek presentasi Anda. Dalam tutorial ini, kita akan menyelami proses duplikasi slide dalam bagian presentasi yang ditentukan. Panduan langkah demi langkah ini akan membantu Anda memahami prasyarat, mengimpor namespace, dan menguasai prosesnya.
 
@@ -109,3 +113,9 @@ Tidak, Aspose.Slides untuk .NET dirancang khusus untuk aplikasi .NET. Jika Anda 
 ### 5. Di mana saya dapat mencari bantuan dan dukungan untuk Aspose.Slides untuk .NET?
 
  Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi[Aspose.Slides untuk forum dukungan .NET](https://forum.aspose.com/). Komunitas dan pakar di sana dapat membantu menjawab pertanyaan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

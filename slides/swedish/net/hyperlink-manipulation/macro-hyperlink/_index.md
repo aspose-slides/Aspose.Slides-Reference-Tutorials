@@ -3,10 +3,14 @@ title: Hur man ställer in makrohyperlänk Klicka i Aspose.Slides för .NET
 linktitle: Hyperlänkhantering med makron
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du ställer in makrohyperlänkar i dina presentationer med Aspose.Slides för .NET. Förbättra interaktivitet och engagera din publik.
-type: docs
 weight: 13
 url: /sv/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 I en värld av modern mjukvaruutveckling är skapande av dynamiska och interaktiva presentationer en nyckelaspekt. Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med presentationer på ett sömlöst sätt. Oavsett om du bygger en företagspresentation eller ett pedagogiskt bildspel, kan möjligheten att ställa in makrohyperlänksklick förbättra användarupplevelsen avsevärt. I den här steg-för-steg-guiden går vi igenom processen att ställa in ett makro-hyperlänksklick med Aspose.Slides för .NET. 
 
@@ -106,3 +110,9 @@ Ja, du kan anpassa AutoShapes utseende genom att justera dess egenskaper, såsom
 
 ### Var kan jag få hjälp eller support för Aspose.Slides för .NET?
  Om du stöter på problem eller har frågor kan du söka hjälp på Asposes supportforum[här](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

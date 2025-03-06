@@ -3,10 +3,14 @@ title: Java Slaytlarında Kategori Öğelerini Hareketlendirme
 linktitle: Java Slaytlarında Kategori Öğelerini Hareketlendirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java sunumlarınızı optimize edin. PowerPoint slaytlarındaki kategori öğelerini adım adım nasıl canlandıracağınızı öğrenin.
-type: docs
 weight: 10
 url: /tr/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarındaki Kategori Öğelerini Animasyona Giriş
 
@@ -117,3 +121,10 @@ Evet, kodu canlandırmak istediğiniz belirli grafik öğelerini hedefleyecek ş
 ### Aspose.Slides for Java hakkında nasıl daha fazla bilgi edinebilirim?
 
  Kapsamlı belgeler ve ek kaynaklar için şu adresi ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/) . Ayrıca kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

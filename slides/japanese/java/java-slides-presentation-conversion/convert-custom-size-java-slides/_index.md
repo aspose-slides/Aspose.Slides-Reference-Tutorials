@@ -3,10 +3,14 @@ title: Java スライドでカスタム サイズに変換する
 linktitle: Java スライドでカスタム サイズに変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションをカスタム サイズの TIFF 画像に変換する方法を学びます。開発者向けのコード例を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 31
 url: /ja/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドでカスタム サイズに変換する方法の紹介
 
@@ -137,3 +141,9 @@ finally
 ### Aspose.Slides for Java の詳細情報はどこで入手できますか?
 
  Aspose.Slides for Java の詳細なドキュメントと追加情報については、次のドキュメントをご覧ください。[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

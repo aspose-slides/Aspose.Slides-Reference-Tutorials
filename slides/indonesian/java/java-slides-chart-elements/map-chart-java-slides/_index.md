@@ -3,10 +3,14 @@ title: Bagan Peta di Slide Java
 linktitle: Bagan Peta di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Peta yang Menakjubkan dalam Presentasi PowerPoint dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk pengembang Java.
-type: docs
 weight: 15
 url: /id/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengenalan Bagan Peta di Slide Java menggunakan Aspose.Slides untuk Java
 
@@ -131,3 +135,9 @@ Dalam tutorial ini, kita telah mempelajari proses pembuatan Bagan Peta dalam pre
 ### Bagaimana cara mengintegrasikan Aspose.Slides untuk Java ke dalam proyek saya?
 
  Unduh perpustakaan dari[Di Sini](https://releases.aspose.com/slides/java/) dan menambahkannya ke classpath proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 元のフォントの保持 - プレゼンテーションを HTML に変�
 linktitle: 元のフォントの保持 - プレゼンテーションを HTML に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションを HTML に変換しながら元のフォントを保持する方法を学びます。フォントの一貫性と視覚的なインパクトを簡単に確保します。
-type: docs
 weight: 14
 url: /ja/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 この包括的なガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションを HTML に変換するときに元のフォントを保持するプロセスについて説明します。必要な C# ソース コードを提供し、各手順を詳しく説明します。このチュートリアルの最後には、変換された HTML ドキュメントのフォントが元のプレゼンテーションに忠実であることを確認できるようになります。
 
@@ -98,3 +102,10 @@ Aspose.Slides for .NET は主に PowerPoint プレゼンテーションに重点
 ### Q5: 追加のリソースやサポートにはどこでアクセスできますか?
 
 詳細なドキュメント、チュートリアル、サポートについては、Aspose Webサイトをご覧ください。[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/)詳細情報については。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

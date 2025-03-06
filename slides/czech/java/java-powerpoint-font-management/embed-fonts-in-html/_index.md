@@ -3,10 +3,14 @@ title: Vkládání písem do HTML pomocí Aspose.Slides for Java
 linktitle: Vkládání písem do HTML pomocí Aspose.Slides for Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vkládat písma do HTML pomocí Aspose.Slides for Java, abyste zajistili konzistentní typografii na různých platformách a zařízeních.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Aspose.Slides for Java je výkonný nástroj pro vývojáře v jazyce Java, kteří chtějí programově manipulovat s prezentacemi v PowerPointu. V tomto tutoriálu se ponoříme do procesu vkládání písem do HTML pomocí Aspose.Slides for Java. Vložením písem zajistíte, že si vaše prezentace zachovají svůj zamýšlený vzhled na různých platformách a zařízeních, i když požadovaná písma nejsou nainstalována lokálně.
 ## Předpoklady
@@ -58,3 +62,9 @@ Ano, Aspose.Slides podporuje vkládání písem v různých výstupních formát
  Můžete navštívit[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro podporu komunity nebo se obraťte na podporu Aspose pro odbornou pomoc.
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Slides for Java?
 Ano, můžete získat dočasnou licenci od[nákupní stránku](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

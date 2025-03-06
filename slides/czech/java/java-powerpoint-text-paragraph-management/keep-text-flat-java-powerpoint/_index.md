@@ -3,10 +3,14 @@ title: Udržujte text plochý v Java PowerPoint
 linktitle: Udržujte text plochý v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak zachovat plochý text v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s textem.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 oblasti manipulace s PowerPointem založeným na Javě stojí Aspose.Slides for Java jako robustní a všestranná sada nástrojů. Ať už jste zkušený vývojář nebo nováček, který se snaží vylepšit své prezentace programově, Aspose.Slides for Java nabízí komplexní sadu funkcí pro bezproblémové vytváření, úpravy a správu prezentací v PowerPointu. Tento výukový program se ponoří do konkrétní funkce: zachování plochého textu na snímcích PowerPoint pomocí Aspose.Slides pro Java. Podle této příručky se naučíte, jak zacházet s formátováním textu, abyste dosáhli přesných výsledků prezentace.
 ## Předpoklady
@@ -64,3 +68,9 @@ Můžete prozkoumat podrobnou dokumentaci[tady](https://reference.aspose.com/sli
  Ano, můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy).
 ### Kde mohu získat podporu komunity pro Aspose.Slides pro Java?
  Připojte se ke komunitnímu fóru Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

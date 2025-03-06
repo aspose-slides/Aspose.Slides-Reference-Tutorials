@@ -3,10 +3,14 @@ title: Установить резервный шрифт в Java PowerPoint
 linktitle: Установить резервный шрифт в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить резервные шрифты в Java PowerPoint с помощью Aspose.Slides для Java, чтобы обеспечить согласованное отображение текста.
-type: docs
 weight: 16
 url: /ru/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В этом уроке мы углубимся в тонкости настройки резервных шрифтов в презентациях Java PowerPoint с использованием Aspose.Slides для Java. Резервные шрифты имеют решающее значение для обеспечения правильного отображения текста в ваших презентациях на разных устройствах и в различных операционных системах, даже если необходимые шрифты недоступны.
 ## Предварительные условия
@@ -53,3 +57,9 @@ slide.getFontsManager().setFontFallBackRules(new IFontFallBackRule[]{firstRule, 
 Да, временные лицензии на продукты Aspose можно получить на сайте[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти поддержку Aspose.Slides для Java?
  Для получения поддержки, связанной с Aspose.Slides для Java, посетите[Aspose форум](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

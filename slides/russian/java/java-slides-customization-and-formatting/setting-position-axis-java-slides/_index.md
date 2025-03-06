@@ -3,10 +3,14 @@ title: Настройка оси положения в слайдах Java
 linktitle: Настройка оси положения в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшите свои диаграммы с помощью Aspose.Slides для Java. Узнайте, как настроить ось положения в слайдах Java, создавать потрясающие презентации и с легкостью настраивать макеты диаграмм.
-type: docs
 weight: 16
 url: /ru/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в настройку оси положения в Aspose.Slides для Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Вот и все, что касается этого урока. Вы узнали, как установить ось положения на диаграмме с помощью Aspose.Slides для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

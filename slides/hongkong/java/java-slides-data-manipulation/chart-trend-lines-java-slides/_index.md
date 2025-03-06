@@ -3,10 +3,14 @@ title: Java 投影片中的圖表趨勢線
 linktitle: Java 投影片中的圖表趨勢線
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將各種趨勢線新增至 Java Slides。包含有效資料視覺化程式碼範例的逐步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中的圖表趨勢線簡介：逐步指南
 
@@ -190,3 +194,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### 如何存取 Aspose.Slides for Java 的更多資源和範例？
 
 您可以在以下位置存取 Aspose.Slides for Java 的其他資源、文件和範例：[阿斯普斯網站](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

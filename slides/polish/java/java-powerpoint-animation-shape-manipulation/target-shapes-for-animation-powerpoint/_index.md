@@ -3,10 +3,14 @@ title: Kształty docelowe dla animacji w programie PowerPoint
 linktitle: Kształty docelowe dla animacji w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak animować określone kształty w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Twórz atrakcyjne slajdy bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 świecie dynamicznych prezentacji animacje odgrywają kluczową rolę w angażowaniu odbiorców i skutecznym przekazywaniu informacji. Aspose.Slides for Java umożliwia programistom tworzenie urzekających prezentacji PowerPoint ze skomplikowanymi animacjami dostosowanymi do określonych kształtów. Ten samouczek poprowadzi Cię przez proces wybierania kształtów do animacji przy użyciu Aspose.Slides dla Java, zapewniając, że Twoje prezentacje będą wyróżniać się płynnymi przejściami i precyzyjnymi animacjami.
 ## Warunki wstępne
@@ -62,3 +66,9 @@ Tak, Aspose.Slides for Java zapewnia rozbudowane funkcje do tworzenia skomplikow
  Możesz nabyć licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić Aspose.Slides dla Java?
  Możesz kupić Aspose.Slides dla Java na stronie internetowej[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

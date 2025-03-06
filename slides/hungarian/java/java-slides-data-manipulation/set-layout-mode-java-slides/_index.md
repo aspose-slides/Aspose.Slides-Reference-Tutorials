@@ -3,10 +3,14 @@ title: Állítsa be az elrendezési módot a Java Slides alkalmazásban
 linktitle: Állítsa be az elrendezési módot a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be Java diák elrendezési módokat az Aspose.Slides segítségével. Szabja testre a diagram pozícionálását és méretezését ebben a forráskóddal ellátott, lépésenkénti útmutatóban.
-type: docs
 weight: 23
 url: /hu/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés az elrendezési mód beállításába a Java Slides programban
 
@@ -95,3 +99,9 @@ finally
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 
  További információt az Aspose.Slides for Java programról itt találhat[dokumentáció](https://reference.aspose.com/slides/java/). Részletes API-referenciákat és példákat tartalmaz, amelyek segítségével hatékonyan dolgozhat a diákkal és diagramokkal Java nyelven.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

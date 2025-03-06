@@ -3,10 +3,14 @@ title: Převod s vlastní velikostí v Java Slides
 linktitle: Převod s vlastní velikostí v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět prezentace PowerPoint na obrázky TIFF s vlastní velikostí pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu pro vývojáře.
-type: docs
 weight: 31
 url: /cs/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do převodu s vlastní velikostí v Java Slides
 
@@ -137,3 +141,9 @@ Ano, můžete upravit DPI pomocí`setDpiX` a`setDpiY` metody v`TiffOptions` tř�
 ### Kde najdu více informací o Aspose.Slides for Java?
 
  Podrobnou dokumentaci a další informace o Aspose.Slides pro Java naleznete v dokumentaci:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

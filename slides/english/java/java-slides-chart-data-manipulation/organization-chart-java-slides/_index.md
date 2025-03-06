@@ -3,10 +3,14 @@ title: Organization Chart in Java Slides
 linktitle: Organization Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create stunning organization charts in Java Slides with step-by-step Aspose.Slides tutorials. Customize and visualize your organizational structure effortlessly.
-type: docs
 weight: 22
 url: /java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Creating an Organization Chart in Java Slides using Aspose.Slides
 
@@ -103,3 +107,10 @@ You can export the presentation containing the organization chart to various for
 ### Is it possible to create complex organizational structures with multiple levels?
 
 Yes, Aspose.Slides allows you to create complex organizational structures with multiple levels by adding and arranging shapes within the organization chart. You can define hierarchical relationships between shapes to represent the desired structure.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

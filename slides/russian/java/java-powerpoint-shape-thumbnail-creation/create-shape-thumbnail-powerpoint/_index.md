@@ -3,10 +3,14 @@ title: Создать миниатюру фигуры в PowerPoint
 linktitle: Создать миниатюру фигуры в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать миниатюры фигур в презентациях PowerPoint с помощью Aspose.Slides для Java. Предоставлено пошаговое руководство.
-type: docs
 weight: 14
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В этом уроке мы углубимся в создание миниатюр фигур в презентациях PowerPoint с помощью Aspose.Slides для Java. Aspose.Slides — это мощная библиотека, которая позволяет разработчикам программно работать с файлами PowerPoint, позволяя автоматизировать различные задачи, включая создание миниатюр фигур.
 ## Предварительные условия
@@ -60,3 +64,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
  Абсолютно! Вы можете скачать бесплатную пробную версию Aspose.Slides с сайта[здесь](https://releases.aspose.com/) оценить его особенности и возможности.
 ### Где я могу найти поддержку Aspose.Slides?
  Если у вас есть какие-либо вопросы или вам нужна помощь с Aspose.Slides, вы можете посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) для поддержки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

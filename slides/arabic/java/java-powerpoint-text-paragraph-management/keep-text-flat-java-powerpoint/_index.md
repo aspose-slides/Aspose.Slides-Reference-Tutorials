@@ -3,10 +3,14 @@ title: إبقاء النص مسطحًا في Java PowerPoint
 linktitle: إبقاء النص مسطحًا في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إبقاء النص مسطحًا في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة لمعالجة النص بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في عالم معالجة PowerPoint المستند إلى Java، يقف Aspose.Slides for Java كمجموعة أدوات قوية ومتعددة الاستخدامات. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا يسعى إلى تحسين عروضك التقديمية برمجيًا، فإن Aspose.Slides for Java يقدم مجموعة شاملة من الميزات لإنشاء عروض PowerPoint التقديمية وتعديلها وإدارتها بسلاسة. يتعمق هذا البرنامج التعليمي في وظيفة محددة: الحفاظ على النص مسطحًا داخل شرائح PowerPoint باستخدام Aspose.Slides لـ Java. باتباع هذا الدليل، ستتعلم كيفية التعامل مع تنسيق النص لتحقيق نتائج عرض تقديمي دقيقة.
 ## المتطلبات الأساسية
@@ -64,3 +68,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات Java
  نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
 ### أين يمكنني الحصول على دعم المجتمع لـ Aspose.Slides لـ Java؟
  انضم إلى منتدى مجتمع Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

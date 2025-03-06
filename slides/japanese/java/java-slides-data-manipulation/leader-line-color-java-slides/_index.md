@@ -3,10 +3,14 @@ title: Java スライドのリーダー ラインの色
 linktitle: Java スライドのリーダー ラインの色
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint グラフのリーダー ラインの色を変更する方法を学びます。ソース コードの例を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 12
 url: /ja/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java のリーダー ラインの色の紹介
 
@@ -116,3 +120,9 @@ Aspose.Slides for Java のテクニカル サポートを受けるには、Aspos
 ### Aspose.Slides for Java を他の Java ライブラリやフレームワークと一緒に使用できますか?
 
 はい、プロジェクトの必要に応じて、Aspose.Slides for Java を他の Java ライブラリやフレームワークと統合できます。Aspose.Slides は、さまざまな PowerPoint 機能を操作するための API を提供するため、他のツールやテクノロジと組み合わせて強力なアプリケーションを作成できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

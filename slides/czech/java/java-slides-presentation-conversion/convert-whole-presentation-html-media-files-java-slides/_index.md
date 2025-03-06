@@ -3,10 +3,14 @@ title: Převeďte celou prezentaci do HTML pomocí mediálních souborů v Java 
 linktitle: Převeďte celou prezentaci do HTML pomocí mediálních souborů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět prezentace do HTML pomocí mediálních souborů pomocí Java Slides. Postupujte podle našeho podrobného průvodce s Aspose.Slides pro Java API.
-type: docs
 weight: 30
 url: /cs/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do převodu celé prezentace do HTML pomocí mediálních souborů v Java Slides
 
@@ -125,3 +129,9 @@ Ano, Aspose.Slides for Java je robustní a komerčně životaschopné řešení 
 ### Jak získám přístup k převedené HTML prezentaci?
 
  Po dokončení převodu můžete získat přístup k HTML prezentaci umístěním souboru uvedeného v`htmlDocumentFileName` variabilní.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

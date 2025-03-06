@@ -3,10 +3,14 @@ title: Få den faktiska positionen för diagramdataetiketten i Java Slides
 linktitle: Få den faktiska positionen för diagramdataetiketten i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du får den faktiska positionen för diagramdataetiketter i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med källkod.
-type: docs
 weight: 18
 url: /sv/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att få faktisk position för diagramdataetikett i Java Slides
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

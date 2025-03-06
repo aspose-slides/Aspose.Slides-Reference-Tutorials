@@ -3,10 +3,14 @@ title: Προσθήκη περιγράμματος κελιών στον πίν�
 linktitle: Προσθήκη περιγράμματος κελιών στον πίνακα στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε περιγράμματα κελιών σε πίνακες σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Αυτός ο οδηγός βήμα προς βήμα διευκολύνει τη βελτίωση των διαφανειών σας.
-type: docs
 weight: 10
 url: /el/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Γεια σου! Λοιπόν, ψάχνετε να προσθέσετε περιθώρια κελιών σε έναν πίνακα σε μια παρουσίαση PowerPoint χρησιμοποιώντας Java, ε; Λοιπόν, είστε στο σωστό μέρος! Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα χρησιμοποιώντας τη βιβλιοθήκη Aspose.Slides for Java. Στο τέλος αυτού του οδηγού, θα έχετε μια καλή κατανόηση του τρόπου χειρισμού των πινάκων στις διαφάνειες του PowerPoint σαν επαγγελματίας. Ας βουτήξουμε και κάνουμε τις παρουσιάσεις σας να φαίνονται κομψές και επαγγελματικές!
 ## Προαπαιτούμενα
@@ -96,3 +100,9 @@ if (pres != null) pres.dispose();
 Ναι, μπορείτε να αυτοματοποιήσετε τη διαδικασία κάνοντας loop σε διαφάνειες και εφαρμόζοντας τη λογική δημιουργίας πίνακα σε κάθε διαφάνεια.
 ### Ποιες μορφές αρχείων υποστηρίζει το Aspose.Slides;
 Το Aspose.Slides υποστηρίζει διάφορες μορφές, όπως PPT, PPTX, PDF και άλλα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

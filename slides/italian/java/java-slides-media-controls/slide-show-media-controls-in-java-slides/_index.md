@@ -3,10 +3,14 @@ title: Controlli multimediali della presentazione in Diapositive Java
 linktitle: Controlli multimediali della presentazione in Diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come abilitare e utilizzare i controlli multimediali nelle diapositive Java con Aspose.Slides per Java. Migliora le tue presentazioni con i controlli multimediali.
-type: docs
 weight: 11
 url: /it/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione ai controlli multimediali della presentazione in Diapositive Java
 
@@ -108,3 +112,9 @@ In questo tutorial, abbiamo esplorato come abilitare e utilizzare i controlli mu
 ### C'è un modo per aggiungere sottotitoli o didascalie ai video in Presentazioni Java?
 
 Sì, puoi aggiungere sottotitoli o didascalie ai video in Java Slides aggiungendo cornici di testo o forme alla diapositiva contenente il video. È quindi possibile sincronizzare il testo con la riproduzione video utilizzando le impostazioni di temporizzazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

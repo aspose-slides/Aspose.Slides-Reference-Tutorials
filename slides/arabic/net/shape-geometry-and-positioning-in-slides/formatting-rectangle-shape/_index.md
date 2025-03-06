@@ -3,10 +3,14 @@ title: تحسين العروض التقديمية - تنسيق الأشكال ا
 linktitle: تنسيق الشكل المستطيل في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية تنسيق الأشكال المستطيلة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. ارفع مستوى شرائحك باستخدام العناصر المرئية الديناميكية.
-type: docs
 weight: 12
 url: /ar/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 Aspose.Slides for .NET هي مكتبة قوية تسهل العمل مع عروض PowerPoint التقديمية في بيئة .NET. إذا كنت ترغب في تحسين العروض التقديمية الخاصة بك عن طريق تنسيق الأشكال المستطيلة ديناميكيًا، فهذا البرنامج التعليمي مناسب لك. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية تنسيق شكل مستطيل في عرض تقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -76,3 +80,9 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س5: أين يمكنني شراء Aspose.Slides لـ .NET؟
  يمكنك شراء Aspose.Slides لـ .NET[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

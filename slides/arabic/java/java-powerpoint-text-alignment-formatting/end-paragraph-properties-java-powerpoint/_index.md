@@ -3,10 +3,14 @@ title: خصائص نهاية الفقرة في Java PowerPoint
 linktitle: خصائص نهاية الفقرة في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية إنشاء عروض PowerPoint التقديمية وتخصيصها في Java برمجيًا باستخدام Aspose.Slides. استكشف البرامج التعليمية والنصائح الأساسية للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 يمكن أن يؤدي إنشاء عروض PowerPoint التقديمية ومعالجتها برمجيًا إلى تبسيط سير العمل وتحسين الإنتاجية في مجالات مختلفة، بدءًا من العروض التقديمية للأعمال وحتى المواد التعليمية. يوفر Aspose.Slides for Java واجهة برمجة تطبيقات قوية تمكن المطورين من أتمتة المهام مثل إضافة الشرائح وإدراج النص وتنسيق المحتوى وتصدير العروض التقديمية بتنسيقات مختلفة. سيرشدك هذا البرنامج التعليمي خلال الخطوات الأساسية لبدء استخدام Aspose.Slides for Java، ويوضح كيفية الاستفادة من ميزاته بشكل فعال.
 ## المتطلبات الأساسية
@@ -85,3 +89,9 @@ if (pres != null) {
 نعم، يمكنك إضافة الرسوم المتحركة والانتقالات إلى الشرائح من خلال Aspose.Slides API.
 ### أين يمكنني العثور على الدعم إذا واجهت مشكلات أو كانت لدي أسئلة؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والمناقشات المجتمعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

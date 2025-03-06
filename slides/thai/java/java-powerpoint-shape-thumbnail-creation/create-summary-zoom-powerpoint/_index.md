@@ -3,10 +3,14 @@ title: สร้างการซูมสรุปใน PowerPoint
 linktitle: สร้างการซูมสรุปใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างการซูมสรุปใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนที่ครอบคลุมนี้
-type: docs
 weight: 16
 url: /th/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับการสร้างการซูมสรุปใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java หากคุณต้องการเพิ่มองค์ประกอบแบบไดนามิกและโต้ตอบให้กับงานนำเสนอของคุณ Summary Zoom ถือเป็นคุณสมบัติที่ยอดเยี่ยม ช่วยให้คุณสร้างสไลด์เดียวที่สามารถซูมเข้าไปในส่วนต่างๆ ของงานนำเสนอของคุณ มอบประสบการณ์ที่น่าดึงดูดและนำทางได้มากขึ้นสำหรับผู้ชมของคุณ
 ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการทั้งหมด ตั้งแต่การตั้งค่าสภาพแวดล้อมการพัฒนาไปจนถึงการสร้างและปรับแต่งเฟรมการซูมสรุป ไม่ว่าคุณจะเป็นนักพัฒนา Java ที่มีประสบการณ์หรือเพิ่งเริ่มต้น คุณจะพบว่าคู่มือนี้ง่ายต่อการปฏิบัติตามและอัดแน่นไปด้วยข้อมูลเชิงลึกอันมีค่า
@@ -107,3 +111,9 @@ Aspose.Slides สำหรับ Java เป็นไลบรารีอัน
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[กำหนดหน้าการซื้อ](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะหาตัวอย่างเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  คุณสามารถค้นหาตัวอย่างเพิ่มเติมและขอการสนับสนุนได้ที่[ฟอรั่มการสนับสนุน Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

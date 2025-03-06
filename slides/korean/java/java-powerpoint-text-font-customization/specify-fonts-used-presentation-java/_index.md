@@ -3,10 +3,14 @@ title: Java를 사용한 프레젠테이션에 사용되는 글꼴 지정
 linktitle: Java를 사용한 프레젠테이션에 사용되는 글꼴 지정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 사용자 정의 글꼴을 지정하는 방법을 알아보세요. 독특한 타이포그래피로 손쉽게 슬라이드를 향상시켜 보세요.
-type: docs
 weight: 22
 url: /ko/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 오늘날의 디지털 시대에 시각적으로 매력적인 프레젠테이션을 만드는 것은 비즈니스와 학계 모두에서 효과적인 커뮤니케이션을 위해 매우 중요합니다. Aspose.Slides for Java는 Java 개발자가 PowerPoint 프레젠테이션을 동적으로 생성하고 조작할 수 있는 강력한 플랫폼을 제공합니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 프레젠테이션에 사용되는 글꼴을 지정하는 과정을 안내합니다. 결국에는 사용자 정의 글꼴을 PowerPoint 프로젝트에 원활하게 통합하여 시각적 매력을 강화하고 브랜드 일관성을 보장하는 지식을 갖추게 됩니다.
 ## 전제 조건
@@ -71,3 +75,9 @@ try {
 Aspose.Slides는 사용자 정의 글꼴 수에 엄격한 제한을 두지 않습니다. 그러나 성능에 미치는 영향을 고려하십시오.
 ### 내 응용 프로그램에 글꼴을 포함하지 않고 런타임에 글꼴을 동적으로 로드할 수 있습니까?
 예, 이 튜토리얼에 설명된 대로 외부 소스나 메모리에서 글꼴을 로드할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

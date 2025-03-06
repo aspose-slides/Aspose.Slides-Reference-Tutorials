@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 將 OLE 物件框架新增至簡報中
 linktitle: 使用 Aspose.Slides 將 OLE 物件框架新增至簡報中
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用動態內容增強 PowerPoint 簡報！請按照我們的使用 Aspose.Slides for .NET 的逐步指南進行操作。立即提高參與度！
-type: docs
 weight: 15
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將深入研究使用 Aspose.Slides for .NET 將 OLE（物件連結和嵌入）物件框架新增至簡報投影片的過程。 Aspose.Slides 是一個功能強大的函式庫，使開發人員能夠以程式設計方式處理 PowerPoint 檔案。請按照此逐步指南將 OLE 物件無縫嵌入到簡報投影片中，從而透過動態和互動式內容增強 PowerPoint 文件。
 ## 先決條件
@@ -84,3 +88,9 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 答：當然可以，您可以根據自己的喜好調整 OLE 物件框架的大小、位置和其他屬性。
 ### Q：如果我在實施過程中遇到困難，可以到哪裡尋求協助？
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區的支持和指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

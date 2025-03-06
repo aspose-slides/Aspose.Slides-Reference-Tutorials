@@ -3,10 +3,14 @@ title: Jämför bilder i presentationen
 linktitle: Jämför bilder i presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du jämför bilder i presentationer med Aspose.Slides för .NET. Steg-för-steg-guide med källkod för korrekta jämförelser.
-type: docs
 weight: 12
 url: /sv/net/chart-creation-and-customization/check-slides-comparison/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att jämföra bilder i presentationen
 
@@ -143,3 +147,9 @@ Du kan exportera jämförelserapporter till format som PDF, DOCX och HTML för e
 ### Finns det några bästa metoder för att optimera prestandan för presentationsjämförelser?
 
 Ja, implementering av effektiva algoritmer och hantering av minnesanvändning är nyckeln till att optimera prestanda för presentationsjämförelser.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

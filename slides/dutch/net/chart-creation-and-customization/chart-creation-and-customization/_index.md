@@ -3,10 +3,14 @@ title: Diagrammen maken en aanpassen in Aspose.Slides
 linktitle: Diagrammen maken en aanpassen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u diagrammen in PowerPoint kunt maken en aanpassen met Aspose.Slides voor .NET. Stapsgewijze handleiding voor het maken van dynamische presentaties.
-type: docs
 weight: 10
 url: /nl/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Invoering
 
@@ -110,3 +114,9 @@ Ja, u kunt verschillende soorten diagrammen maken, waaronder staafdiagrammen, ci
 
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
 Ja, u kunt een tijdelijke licentie verkrijgen via de Aspose-website[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

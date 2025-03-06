@@ -3,10 +3,14 @@ title: Java Slaytlarında Konum Eksenini Ayarlama
 linktitle: Java Slaytlarında Konum Eksenini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Grafiklerinizi Geliştirin. Java slaytlarında konum eksenini nasıl ayarlayacağınızı, çarpıcı sunumlar oluşturmayı ve grafik düzenlerini kolaylıkla nasıl özelleştireceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java'da Konum Eksenini Ayarlamaya Giriş
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Bu eğitimde bu kadar. Aspose.Slides for Java'yı kullanarak bir grafikte konum eksenini nasıl ayarlayacağınızı öğrendiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

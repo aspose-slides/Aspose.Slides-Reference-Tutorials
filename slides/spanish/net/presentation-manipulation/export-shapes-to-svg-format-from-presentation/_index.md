@@ -3,10 +3,14 @@ title: Exportar formas a formato SVG desde la presentación
 linktitle: Exportar formas a formato SVG desde la presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a exportar formas desde una presentación de PowerPoint al formato SVG usando Aspose.Slides para .NET. Guía paso a paso con código fuente incluido. Extraiga formas de manera eficiente para diversas aplicaciones.
-type: docs
 weight: 16
 url: /es/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 En el mundo digital actual, las presentaciones desempeñan un papel crucial a la hora de transmitir información de forma eficaz. Sin embargo, a veces necesitamos exportar formas específicas de nuestras presentaciones a diferentes formatos para diversos fines. Uno de esos formatos es SVG (Scalable Vector Graphics), conocido por su escalabilidad y adaptabilidad. En este tutorial, lo guiaremos a través del proceso de exportar formas a formato SVG desde una presentación usando Aspose.Slides para .NET.
 
@@ -83,3 +87,9 @@ La capacidad de exportar formas puede variar según la complejidad de la forma y
 Ahora que has aprendido a exportar formas a formato SVG, puedes mejorar tus presentaciones y hacerlas más versátiles para diferentes propósitos. ¡Feliz codificación!
 
  Para obtener más detalles y funciones avanzadas, consulte la[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

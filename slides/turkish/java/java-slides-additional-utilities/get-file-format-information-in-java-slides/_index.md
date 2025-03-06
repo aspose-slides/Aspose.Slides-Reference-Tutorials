@@ -3,10 +3,14 @@ title: Java Slaytlarında Dosya Formatı Bilgilerini Alma
 linktitle: Java Slaytlarında Dosya Formatı Bilgilerini Alma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java API'yi kullanarak Java Slides'ta dosya formatı bilgilerini nasıl alacağınızı öğrenin. Kod örnekleriyle sunum formatlarını tanımlayın.
-type: docs
 weight: 11
 url: /tr/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarında Dosya Formatı Bilgilerini Alma Konusuna Giriş
 
@@ -113,3 +117,9 @@ Aspose.Slides for Java ticari bir kütüphanedir ancak ücretsiz deneme sürüm�
 ### Yardım için Aspose destek ekibiyle nasıl iletişime geçebilirim?
 
 Aspose destek ekibine web siteleri üzerinden ulaşabilirsiniz. Ürünlerini kullanırken karşılaşabileceğiniz her türlü soru veya sorunda size yardımcı olmak için özel destek kanalları sağlarlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

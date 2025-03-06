@@ -3,10 +3,14 @@ title: Bearbeiten von Diagrammdaten in einer externen Arbeitsmappe in Java-Folie
 linktitle: Bearbeiten von Diagrammdaten in einer externen Arbeitsmappe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammdaten in einer externen Arbeitsmappe bearbeiten. Schritt-für-Schritt-Anleitung mit Quellcode.
-type: docs
 weight: 17
 url: /de/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung zum Bearbeiten von Diagrammdaten in externen Arbeitsmappen in Java-Folien
 
@@ -103,3 +107,9 @@ Sie können den Code anpassen, um verschiedene externe Arbeitsmappenformate zu v
 ### Wie kann ich diesen Vorgang für mehrere Präsentationen automatisieren?
 
 Sie können eine Schleife erstellen, um mehrere Präsentationen zu verarbeiten, indem Sie jede einzelne laden, die gewünschten Änderungen vornehmen und die geänderten Präsentationen nacheinander speichern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

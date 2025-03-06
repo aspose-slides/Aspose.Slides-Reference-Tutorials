@@ -3,10 +3,14 @@ title: عرض الشرائح والتلاعب بالتخطيط
 linktitle: عرض الشرائح والتلاعب بالتخطيط
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين طرق عرض الشرائح وتخطيطاتها باستخدام Aspose.Slides Slide View والبرامج التعليمية لمعالجة التخطيط. تعزيز تأثير العرض التقديمي والتميز البصري باستخدام أدوات .NET القوية.
-type: docs
 weight: 20
 url: /ar/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -29,3 +33,9 @@ url: /ar/net/slide-view-and-layout-manipulation/
 تعرف على كيفية ربط مقاطع الفيديو بشرائح PowerPoint باستخدام Aspose.Slides لـ .NET. يتضمن هذا الدليل التفصيلي التعليمات البرمجية المصدرية ونصائح لإنشاء عروض تقديمية تفاعلية وجذابة باستخدام مقاطع الفيديو المرتبطة.
 ### [إدارة عنصر تحكم ActiveX في العرض التقديمي](./manage-activex-control/)
 تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام عناصر تحكم ActiveX باستخدام Aspose.Slides لـ .NET. يغطي دليلنا خطوة بخطوة الإدراج والمعالجة والتخصيص ومعالجة الأحداث والمزيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

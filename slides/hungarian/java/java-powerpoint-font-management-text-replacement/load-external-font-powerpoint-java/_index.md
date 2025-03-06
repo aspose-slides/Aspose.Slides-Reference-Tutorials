@@ -3,10 +3,14 @@ title: Külső betűtípus betöltése a PowerPointba Java segítségével
 linktitle: Külső betűtípus betöltése a PowerPointba Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan tölthet be egyéni betűtípusokat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Javítsa diákjait egyedi tipográfiával.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a külső betűtípusok PowerPoint-prezentációkba való betöltésének folyamatán az Aspose.Slides for Java használatával. Az egyéni betűtípusok egyedi megjelenést adhatnak prezentációinak, biztosítva a konzisztens márkaépítést vagy stilisztikai preferenciákat a különböző platformokon.
 ## Előfeltételek
@@ -63,3 +67,9 @@ Igen, több külső betűtípust is betölthet, ha megismétli a folyamatot mind
 Mindaddig, amíg a betűtípusfájl TrueType (.ttf) formátumú, és ésszerű mérethatárokon belül van, sikeresen betölthető.
 ### A külső betűtípusok betöltése befolyásolja a prezentáció kompatibilitását a különböző PowerPoint-verziókkal?
 Nem, a bemutató kompatibilis marad a különböző PowerPoint-verziókkal mindaddig, amíg a betűtípusok be vannak ágyazva vagy külsőleg betöltve.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

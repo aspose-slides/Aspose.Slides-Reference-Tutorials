@@ -3,10 +3,14 @@ title: Sunuya Ek Slaytlar Ekleme
 linktitle: Sunuya Ek Slaytlar Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarınıza nasıl ek slaytlar ekleyeceğinizi öğrenin. Bu adım adım kılavuz, sunumlarınızı sorunsuz bir şekilde geliştirmek için kaynak kodu örnekleri ve ayrıntılı talimatlar sağlar. Özelleştirilebilir içerik, ekleme ipuçları ve SSS'ler dahildir.
-type: docs
 weight: 15
 url: /tr/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Sunuma Ek Slaytlar Eklemeye Giriş
 
@@ -107,3 +111,9 @@ Kesinlikle. Aspose.Slides'ın kapsamlı özelliklerini kullanarak eklenen slaytl
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Ayrıntılı belgeler ve örnekler için bkz.[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

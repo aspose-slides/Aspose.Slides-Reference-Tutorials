@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中将演示文稿转换为响应式 HTML
 linktitle: 在 Java 幻灯片中将演示文稿转换为响应式 HTML
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 轻松将演示文稿转换为 Java Slides 中的响应式 HTML。让您的内容可在任何设备上访问。
-type: docs
 weight: 18
 url: /zh/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中将演示文稿转换为响应式 HTML 的简介
 
@@ -108,3 +112,9 @@ finally
 ### 我可以将演示文稿转换为其他格式吗？
 
 是的，Aspose.Slides 支持多种输出格式，包括 PDF、图像等。您可以浏览文档以了解更多转换选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

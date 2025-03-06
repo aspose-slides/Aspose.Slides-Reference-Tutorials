@@ -3,10 +3,14 @@ title: 在 PowerPoint 中创建缩放框
 linktitle: 在 PowerPoint 中创建缩放框
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中创建引人入胜的缩放框架。按照我们的指南为您的演示文稿添加交互元素。
-type: docs
 weight: 17
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 创建引人入胜的 PowerPoint 演示文稿是一门艺术，有时，最小的添加也能带来巨大的不同。其中一项功能是缩放框架，它允许您放大特定的幻灯片或图像，从而创建动态和交互式的演示文稿。在本教程中，我们将引导您完成使用 Aspose.Slides for Java 在 PowerPoint 中创建缩放框架的过程。
 ## 先决条件
@@ -113,3 +117,9 @@ Aspose.Slides for Java 是一个功能强大的 API，用于以编程方式创�
 当然可以！您可以通过读取图像文件并将其添加到演示文稿中，将自定义图像添加到“缩放框架”中。
 ### 在哪里可以找到更多示例和文档？
 您可以在[Aspose.Slides for Java 文档页面](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

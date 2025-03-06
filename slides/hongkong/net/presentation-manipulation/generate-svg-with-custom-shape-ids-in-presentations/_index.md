@@ -3,10 +3,14 @@ title: 在簡報中使用自訂形狀 ID 產生 SVG
 linktitle: 在簡報中使用自訂形狀 ID 產生 SVG
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 使用自訂 SVG 形狀和 ID 產生引人入勝的簡報。了解如何透過原始程式碼範例逐步建立互動式投影片。增強簡報中的視覺吸引力和使用者互動。
-type: docs
 weight: 19
 url: /zh-hant/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 您是否希望利用 Aspose.Slides for .NET 的強大功能來產生具有自訂形狀 ID 的 SVG 檔案？您來對地方了！在本逐步教程中，我們將使用以下原始程式碼片段來引導您完成此過程。最後，您將能夠在簡報中建立具有自訂形狀 ID 的 SVG 檔案。
 
@@ -78,3 +82,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
    如需其他文檔，請訪問[Aspose.Slides for .NET API 參考](https://reference.aspose.com/slides/net/).
 
 現在，繼續探索使用 Aspose.Slides for .NET 產生 SVG 的無限可能性。快樂編碼！
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

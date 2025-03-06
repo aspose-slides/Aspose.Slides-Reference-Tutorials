@@ -3,10 +3,14 @@ title: Zugriff auf Folienkommentare mit Aspose.Slides
 linktitle: Zugriff auf Folienkommentare
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET auf Folienkommentare in PowerPoint-Präsentationen zugreifen. Verbessern Sie mühelos die Zusammenarbeit und den Arbeitsablauf.
-type: docs
 weight: 11
 url: /de/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In der Welt dynamischer und interaktiver Präsentationen kann die Verwaltung von Kommentaren in Ihren Folien ein entscheidender Teil des Zusammenarbeitsprozesses sein. Aspose.Slides für .NET bietet eine robuste und vielseitige Lösung für den Zugriff auf und die Bearbeitung von Folienkommentaren und verbessert so Ihren Präsentationsworkflow. In dieser Schritt-für-Schritt-Anleitung werden wir uns mit dem Prozess des Zugriffs auf Folienkommentare mithilfe von Aspose.Slides für .NET befassen.
 
@@ -112,3 +116,9 @@ Ja, Aspose.Slides für .NET kann in verschiedenen .NET-Anwendungen verwendet wer
 
 ### Kann ich eine Lizenz für Aspose.Slides für .NET erwerben?
  Ja, Sie können eine Lizenz für Aspose.Slides für .NET erwerben bei[dieser Link](https://purchase.aspose.com/buy) um das volle Potenzial der Bibliothek in Ihren Projekten auszuschöpfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

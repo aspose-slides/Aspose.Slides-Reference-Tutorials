@@ -3,10 +3,14 @@ title: Índice de pontos de dados do gráfico em slides Java
 linktitle: Índice de pontos de dados do gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como manipular índices de pontos de dados do gráfico em Java Slides usando Aspose.Slides for Java. Extraia e trabalhe com dados de gráficos do PowerPoint sem esforço.
-type: docs
 weight: 12
 url: /pt/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução ao índice de pontos de dados do gráfico em slides Java
 
@@ -98,3 +102,9 @@ Você pode exportar uma apresentação do PowerPoint com gráficos para diferent
 ### Onde posso encontrar mais exemplos e documentação para Aspose.Slides for Java?
 
  Você pode encontrar exemplos abrangentes e documentação para Aspose.Slides for Java no site de documentação do Aspose[aqui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

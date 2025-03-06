@@ -3,10 +3,14 @@ title: Lettertype-eigenschappen voor individuele legenda in Java-dia's
 linktitle: Lettertype-eigenschappen voor individuele legenda in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter PowerPoint-presentaties met aangepaste lettertypestijlen, -groottes en -kleuren voor individuele legenda's in Java Slides met Aspose.Slides voor Java.
-type: docs
 weight: 12
 url: /nl/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot lettertype-eigenschappen voor individuele legenda in Java-dia's
 
@@ -113,3 +117,9 @@ Vergeet niet het presentatieobject weg te gooien als u klaar bent met het vrijge
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

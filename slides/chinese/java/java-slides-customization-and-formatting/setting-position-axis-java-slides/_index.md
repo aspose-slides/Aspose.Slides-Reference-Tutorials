@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置位置轴
 linktitle: 在 Java Slides 中设置位置轴
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 增强您的图表。了解如何在 Java 幻灯片中设置位置轴、创建精美的演示文稿以及轻松自定义图表布局。
-type: docs
 weight: 16
 url: /zh/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java 中设置位置轴的介绍
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 这就是本教程的全部内容。您已经学习了如何使用 Aspose.Slides for Java 设置图表中的位置轴。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Zielformen für Animationen in PowerPoint
 linktitle: Zielformen für Animationen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java bestimmte Formen in PowerPoint-Präsentationen animieren. Erstellen Sie mühelos ansprechende Folien.
-type: docs
 weight: 11
 url: /de/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In der Welt dynamischer Präsentationen spielen Animationen eine entscheidende Rolle, um das Publikum zu fesseln und Informationen effektiv zu vermitteln. Aspose.Slides für Java ermöglicht Entwicklern, fesselnde PowerPoint-Präsentationen mit komplexen, auf bestimmte Formen zugeschnittenen Animationen zu erstellen. Dieses Tutorial führt Sie durch den Prozess der gezielten Gestaltung von Formen für Animationen mit Aspose.Slides für Java und stellt sicher, dass Ihre Präsentationen durch fließende Übergänge und präzise Animationen hervorstechen.
 ## Voraussetzungen
@@ -62,3 +66,9 @@ Ja, Aspose.Slides für Java bietet umfangreiche Funktionen zum Erstellen komplex
  Eine temporäre Lizenz erhalten Sie bei[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo kann ich Aspose.Slides für Java kaufen?
  Sie können Aspose.Slides für Java von der Website kaufen[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

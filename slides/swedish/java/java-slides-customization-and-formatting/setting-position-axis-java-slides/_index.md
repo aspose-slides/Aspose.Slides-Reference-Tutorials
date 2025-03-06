@@ -3,10 +3,14 @@ title: Ställa in positionsaxel i Java Slides
 linktitle: Ställa in positionsaxel i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra dina diagram med Aspose.Slides för Java. Lär dig hur du ställer in positionsaxeln i Java-bilder, skapar fantastiska presentationer och anpassar diagramlayouter med lätthet.
-type: docs
 weight: 16
 url: /sv/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till inställning av positionsaxel i Aspose.Slides för Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Det var allt för den här handledningen. Du har lärt dig hur du ställer in positionsaxeln i ett diagram med Aspose.Slides för Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

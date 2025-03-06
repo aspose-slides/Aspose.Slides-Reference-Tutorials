@@ -3,10 +3,14 @@ title: انسخ الشريحة إلى الموقع الدقيق في عرض تق
 linktitle: انسخ الشريحة إلى الموقع الدقيق في عرض تقديمي مختلف
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية نسخ الشرائح إلى مواقع محددة في عروض تقديمية مختلفة باستخدام Aspose.Slides for .NET. يوفر هذا الدليل التفصيلي تعليمات برمجية مصدرية وإرشادات للتعامل السلس مع برنامج PowerPoint.
-type: docs
 weight: 18
 url: /ar/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -94,3 +98,9 @@ destinationPresentation.Save("modified.pptx", SaveFormat.Pptx);
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Slides؟
 
  يمكنك العثور على وثائق وأمثلة شاملة لـ Aspose.Slides for .NET في الوثائق:[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

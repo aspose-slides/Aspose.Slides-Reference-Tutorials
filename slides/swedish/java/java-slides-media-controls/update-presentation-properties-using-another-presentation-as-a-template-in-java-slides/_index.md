@@ -3,10 +3,14 @@ title: Uppdatera presentationsegenskaper med en annan presentation som mall i Ja
 linktitle: Uppdatera presentationsegenskaper med en annan presentation som mall i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra PowerPoint-presentationer med uppdaterad metadata med Aspose.Slides för Java. Lär dig att uppdatera egenskaper som författare, titel och nyckelord med hjälp av mallar i Java Slides.
-type: docs
 weight: 14
 url: /sv/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till uppdatering av presentationsegenskaper med hjälp av en annan presentation som mall i Java Slides
 
@@ -122,3 +126,9 @@ Ja, du kan anpassa koden för att uppdatera specifika egenskaper baserat på din
 ### Finns det någon begränsning för vilken typ av presentationer som kan uppdateras?
 
 Nej, du kan uppdatera egenskaper för presentationer i olika format, inklusive PPTX, ODP och PPT.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

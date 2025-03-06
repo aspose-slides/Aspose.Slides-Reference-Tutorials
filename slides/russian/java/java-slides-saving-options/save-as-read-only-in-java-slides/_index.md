@@ -3,10 +3,14 @@ title: Сохранить как доступный только для чтен
 linktitle: Сохранить как доступный только для чтения в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как сохранить презентации PowerPoint только для чтения на Java с помощью Aspose.Slides. Защитите свой контент с помощью пошаговых инструкций и примеров кода.
-type: docs
 weight: 11
 url: /ru/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в сохранение в слайдах Java только для чтения с использованием Aspose.Slides для Java
 
@@ -127,3 +131,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### Могу ли я изменить пароль только для чтения после его установки?
 
  Да, вы можете изменить пароль только для чтения после его установки. Использовать`setReadProtection(String newPassword)` с новым паролем для обновления пароля защиты только для чтения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

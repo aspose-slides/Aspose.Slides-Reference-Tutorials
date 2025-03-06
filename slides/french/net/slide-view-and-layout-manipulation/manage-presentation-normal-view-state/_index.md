@@ -3,10 +3,14 @@ title: Gérer la présentation en mode d'affichage normal
 linktitle: Gérer la présentation en mode d'affichage normal
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment gérer des présentations dans un état d'affichage normal à l'aide d'Aspose.Slides pour .NET. Créez, modifiez et améliorez des présentations par programmation avec des conseils étape par étape et un code source complet.
-type: docs
 weight: 11
 url: /fr/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Qu'il s'agisse d'un argumentaire de vente dynamique, d'une conférence éducative ou d'un webinaire engageant, les présentations sont la pierre angulaire d'une communication efficace. Microsoft PowerPoint est depuis longtemps le logiciel incontournable pour créer de superbes diaporamas. Cependant, lorsqu'il s'agit de gérer des présentations par programmation, la bibliothèque Aspose.Slides for .NET s'avère être un outil inestimable. Dans ce guide, nous découvrirons comment utiliser Aspose.Slides pour .NET pour gérer des présentations dans l'état d'affichage normal, vous permettant ainsi de créer, modifier et améliorer vos présentations de manière transparente.
 
@@ -121,3 +125,9 @@ Vous pouvez accéder à la documentation complète d'Aspose.Slides pour .NET à 
 
 ## Conclusion
 Dans ce guide, nous avons expliqué comment gérer les présentations dans l'état d'affichage normal à l'aide d'Aspose.Slides pour .NET. Grâce à ses fonctionnalités robustes, vous pouvez créer, modifier et améliorer des présentations par programmation, garantissant ainsi que votre contenu captive efficacement votre public. Que vous soyez un présentateur professionnel ou un développeur travaillant sur des applications liées à la présentation, Aspose.Slides for .NET est votre passerelle vers une gestion transparente des présentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

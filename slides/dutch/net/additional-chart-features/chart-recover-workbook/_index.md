@@ -3,10 +3,14 @@ title: Hoe Aspose.Slides .NET te gebruiken om de werkmap uit de grafiek te herst
 linktitle: Herstel werkmap uit grafiek
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u een werkmap kunt herstellen vanuit een diagram in PowerPoint-presentaties met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding om gegevens efficiënt te extraheren.
-type: docs
 weight: 12
 url: /nl/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Als u met PowerPoint-presentaties in .NET wilt werken, is Aspose.Slides voor .NET een krachtige bibliotheek die u kan helpen uw doelen te bereiken. In deze zelfstudie begeleiden we u bij het proces van het herstellen van een werkmap uit een diagram in een PowerPoint-presentatie met behulp van Aspose.Slides voor .NET. Deze krachtige functie kan handig zijn wanneer u gegevens uit diagrammen in uw presentaties wilt extraheren. We verdelen het proces in eenvoudig te volgen stappen, zodat u duidelijk begrijpt hoe u deze taak kunt uitvoeren.
 
@@ -101,3 +105,9 @@ Aspose.Slides voor .NET is een krachtige .NET-bibliotheek voor het werken met Mi
 ### 5. Wat is de maximale titellengte voor SEO-optimalisatie?
 
 Voor SEO-optimalisatie wordt aanbevolen om uw titel onder de 60 tekens te houden, zodat deze correct wordt weergegeven in de resultaten van zoekmachines.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

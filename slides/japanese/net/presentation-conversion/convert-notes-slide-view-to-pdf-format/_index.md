@@ -3,10 +3,14 @@ title: ノートのスライドビューを PDF 形式に変換する
 linktitle: ノートのスライドビューを PDF 形式に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint のスピーカー ノートを PDF に変換します。コンテキストを保持し、レイアウトを簡単にカスタマイズできます。
-type: docs
 weight: 15
 url: /ja/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 この包括的なガイドでは、Aspose.Slides for .NET を使用して Notes スライド ビューを PDF 形式に変換するプロセスについて説明します。このタスクを簡単に実行するための詳細な手順とコード スニペットが記載されています。
 
@@ -78,3 +82,9 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 追加のチュートリアルや例については、[Aspose.Slides for .NET API ドキュメント](https://reference.aspose.com/slides/net/).
 
 これで、Notes スライド ビューを PDF 形式に正常に変換できました。Aspose.Slides for .NET のその他の機能や機能を調べて、PowerPoint の自動化タスクを強化できます。コーディングを楽しんでください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

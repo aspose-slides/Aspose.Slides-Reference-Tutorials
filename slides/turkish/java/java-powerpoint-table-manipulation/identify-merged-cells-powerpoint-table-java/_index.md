@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint Tablosunda Birleştirilmiş Hücreleri Tanıml
 linktitle: Java kullanarak PowerPoint Tablosunda Birleştirilmiş Hücreleri Tanımlayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint tablolarındaki birleştirilmiş hücreleri programlı olarak nasıl tanımlayacağınızı öğrenin. Java geliştiricileri için mükemmel.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Java geliştirme alanında, PowerPoint sunumlarını programlı olarak değiştirmek, özellikle karmaşık veri tablolarıyla uğraşırken çok önemli bir görev olabilir. Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarının çeşitli yönlerini sorunsuz bir şekilde yönetmelerine olanak tanıyan güçlü bir araç seti sağlar. Geliştiricilerin karşılaştığı yaygın zorluklardan biri, sunumlara gömülü tablolardaki birleştirilmiş hücreleri tanımlamaktır. Bu eğitimin amacı Aspose.Slides for Java'yı kullanarak birleştirilmiş hücreleri tanımlama sürecinde size rehberlik etmektir.
 ## Önkoşullar
@@ -67,3 +71,9 @@ Aspose.Slides for Java, PowerPoint sunumlarını Java kullanarak programlı olar
  Belgeler bulunabilir[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
 Destek için Aspose.Slides forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

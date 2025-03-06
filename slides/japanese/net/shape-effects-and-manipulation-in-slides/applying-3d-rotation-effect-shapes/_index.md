@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET を使用したプレゼンテーションでの 3
 linktitle: プレゼンテーションスライドの図形に 3D 回転効果を適用する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーションを強化しましょう。このチュートリアルでは、図形に 3D 回転効果を適用する方法を学びます。ダイナミックで視覚的に魅力的なプレゼンテーションを作成します。
-type: docs
 weight: 23
 url: /ja/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 魅力的でダイナミックなプレゼンテーション スライドを作成することは、効果的なコミュニケーションの重要な側面です。Aspose.Slides for .NET は、図形に 3D 回転効果を適用する機能など、プレゼンテーションを強化するための強力なツール セットを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドの図形に 3D 回転効果を適用するプロセスについて説明します。
 ## 前提条件
@@ -60,3 +64,9 @@ pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET の詳細なドキュメントはどこで入手できますか?
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

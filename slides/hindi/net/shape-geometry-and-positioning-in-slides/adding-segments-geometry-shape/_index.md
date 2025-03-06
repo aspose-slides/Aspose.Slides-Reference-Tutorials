@@ -3,10 +3,14 @@ title: विज़ुअल्स में महारत हासिल क
 linktitle: Aspose.Slides के साथ प्रस्तुति में ज्यामिति आकार में खंड जोड़ना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides के साथ अपने .NET अनुप्रयोगों को कैसे बेहतर बनाया जाए। यह ट्यूटोरियल आपको आकर्षक प्रस्तुतियों के लिए ज्यामिति आकृतियों में सेगमेंट जोड़ने के बारे में मार्गदर्शन करता है।
-type: docs
 weight: 13
 url: /hi/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 .NET विकास की दुनिया में, आकर्षक प्रस्तुतिकरण बनाना एक आम आवश्यकता है। Aspose.Slides for .NET एक शक्तिशाली लाइब्रेरी है जो आपके .NET अनुप्रयोगों में मजबूत प्रस्तुतिकरण निर्माण क्षमताओं के सहज एकीकरण की सुविधा प्रदान करती है। यह ट्यूटोरियल प्रस्तुतिकरण डिज़ाइन के एक विशिष्ट पहलू पर केंद्रित है - ज्यामिति आकृतियों में सेगमेंट जोड़ना।
 ## आवश्यक शर्तें
@@ -72,3 +76,9 @@ Aspose.Slides for .NET डेवलपर्स को उन्नत प्र
  पता लगाएं[प्रलेखन](https://reference.aspose.com/slides/net/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
 ### क्या मैं खरीदने से पहले Aspose.Slides को निःशुल्क आज़मा सकता हूँ?
  हां, आप यहां से निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

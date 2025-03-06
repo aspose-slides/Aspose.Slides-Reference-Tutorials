@@ -3,10 +3,14 @@ title: Dostęp do slajdu według unikalnego identyfikatora
 linktitle: Dostęp do slajdu według unikalnego identyfikatora
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak uzyskać dostęp do slajdów programu PowerPoint za pomocą unikalnych identyfikatorów przy użyciu Aspose.Slides dla .NET. Ten przewodnik krok po kroku opisuje ładowanie prezentacji, uzyskiwanie dostępu do slajdów według indeksu lub identyfikatora, modyfikowanie treści i zapisywanie zmian.
-type: docs
 weight: 11
 url: /pl/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -112,3 +116,9 @@ Absolutnie. Niezależnie od tego, czy pracujesz nad prostą prezentacją składa
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację i zasoby?
 
  Możesz znaleźć obszerną dokumentację, próbki kodu, samouczki i wiele więcej na temat Aspose.Slides dla .NET w[dokumentacja](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

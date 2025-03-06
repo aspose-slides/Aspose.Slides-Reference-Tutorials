@@ -3,10 +3,14 @@ title: Crear marco de zoom en PowerPoint
 linktitle: Crear marco de zoom en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear atractivos marcos de zoom en PowerPoint usando Aspose.Slides para Java. Siga nuestra guía para agregar elementos interactivos a sus presentaciones.
-type: docs
 weight: 17
 url: /es/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Crear presentaciones atractivas de PowerPoint es un arte y, a veces, las adiciones más pequeñas pueden marcar una gran diferencia. Una de esas características es el Zoom Frame, que le permite ampliar diapositivas o imágenes específicas, creando una presentación dinámica e interactiva. En este tutorial, lo guiaremos a través del proceso de creación de un marco de zoom en PowerPoint usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -113,3 +117,9 @@ Sí, Aspose.Slides le permite personalizar varias propiedades de Zoom Frames, co
 ¡Absolutamente! Puede agregar imágenes personalizadas a Zoom Frames leyendo archivos de imágenes y agregándolos a la presentación.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
  Puede encontrar documentación completa y ejemplos en el[Página de documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

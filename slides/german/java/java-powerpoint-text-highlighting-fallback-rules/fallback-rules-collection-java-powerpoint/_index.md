@@ -3,10 +3,14 @@ title: Fallback-Regelsammlung in Java PowerPoint
 linktitle: Fallback-Regelsammlung in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Fallback-Regeln für Schriftarten in PowerPoint-Präsentationen verwalten. Verbessern Sie mühelos die geräteübergreifende Kompatibilität.
-type: docs
 weight: 11
 url: /de/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java Fallback-Regeln für Schriftarten verwalten. Fallbacks für Schriftarten sind entscheidend, um sicherzustellen, dass Ihre Präsentationen in verschiedenen Umgebungen korrekt angezeigt werden, insbesondere wenn bestimmte Schriftarten nicht verfügbar sind. Wir führen Sie Schritt für Schritt durch den Import der erforderlichen Pakete, das Einrichten der Umgebung und das Implementieren von Fallback-Regeln.
 ## Voraussetzungen
@@ -73,3 +77,9 @@ Mit den Fallbackregeln für Schriftarten werden alternative Schriftarten definie
  Detaillierte Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
 ### Wie erhalte ich Unterstützung für Aspose.Slides für Java?
 Für Support besuchen Sie das Aspose.Slides-Forum[Hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

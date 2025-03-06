@@ -3,10 +3,14 @@ title: Crea elenchi puntati multilivello in Java PowerPoint
 linktitle: Crea elenchi puntati multilivello in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare punti elenco multilivello in PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice e domande frequenti.
-type: docs
 weight: 14
 url: /it/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial esploreremo come creare punti elenco multilivello nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. L'aggiunta di punti elenco è un requisito comune per la creazione di contenuti organizzati e visivamente accattivanti nelle presentazioni. Seguiremo il processo passo dopo passo, assicurandoci che entro la fine di questa guida sarai in grado di migliorare le tue presentazioni con elenchi puntati strutturati a più livelli.
 ## Prerequisiti
@@ -109,3 +113,9 @@ Aspose.Slides genera presentazioni compatibili con Microsoft PowerPoint 2007 e v
 Sì, Aspose.Slides fornisce API per automatizzare la creazione, la modifica e la manipolazione delle presentazioni PowerPoint.
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere supporto dalla community e dagli esperti di Aspose.Slides su[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

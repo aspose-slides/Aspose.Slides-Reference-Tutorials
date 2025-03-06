@@ -3,10 +3,14 @@ title: Vytvořte miniaturu faktoru měřítka
 linktitle: Vytvořte miniaturu faktoru měřítka
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet miniatury měřítka v Javě pomocí Aspose.Slides for Java. Snadno srozumitelný průvodce s pokyny krok za krokem.
-type: docs
 weight: 12
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem vytvoření miniatury měřítka pomocí Aspose.Slides for Java. Postupujte podle těchto pokynů krok za krokem, abyste dosáhli požadovaného výsledku.
 ## Předpoklady
@@ -66,3 +70,9 @@ Ano, Aspose.Slides for Java lze použít s jakýmkoli Java Integrated Developmen
  Aspose.Slides pro Java si můžete zakoupit od[nákupní stránku](https://purchase.aspose.com/buy).
 ### Potřebuji dočasnou licenci pro používání Aspose.Slides for Java?
  Ano, můžete získat dočasnou licenci od[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

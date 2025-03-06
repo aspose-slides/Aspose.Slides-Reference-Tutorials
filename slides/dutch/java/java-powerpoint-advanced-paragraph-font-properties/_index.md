@@ -3,10 +3,14 @@ title: Java PowerPoint Geavanceerde alinea- en lettertype-eigenschappen
 linktitle: Java PowerPoint Geavanceerde alinea- en lettertype-eigenschappen
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Beheers geavanceerde alinea- en lettertype-eigenschappen in Java PowerPoint met Aspose.Slides. Leer lettertypen aanpassen, opsommingstekens toevoegen en reservelettertypen gebruiken.
-type: docs
 weight: 28
 url: /nl/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 
 Het maken van gepolijste PowerPoint-presentaties vereist het verfijnen van verschillende elementen, van alinea-opmaak tot lettertypebeheer. Aspose.Slides voor Java biedt robuuste tools om deze geavanceerde eigenschappen effectief te beheren. In dit artikel bespreken we zelfstudies waarmee u de eigenschappen van alinealettertypen kunt aanpassen, opsommingstekens kunt toevoegen en reservelettertypen kunt gebruiken. Laten we eens kijken naar deze geavanceerde technieken om uw presentaties te laten opvallen!
@@ -35,3 +39,9 @@ Leer hoe u aangepaste afbeeldingsopsommingstekens aan PowerPoint-dia's kunt toev
 Leer hoe u de portierechthoek in PowerPoint kunt krijgen met Aspose.Slides voor Java met deze gedetailleerde, stapsgewijze zelfstudie. Ideaal voor Java-ontwikkelaars.
 ### [Render met Fallback-lettertype in Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Leer hoe u tekst kunt weergeven met reservelettertypen in Java PowerPoint-presentaties met behulp van Aspose.Slides. Volg deze stapsgewijze handleiding voor een naadloze implementatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

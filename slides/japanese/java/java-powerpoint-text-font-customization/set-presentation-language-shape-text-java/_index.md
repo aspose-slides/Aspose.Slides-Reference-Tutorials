@@ -3,10 +3,14 @@ title: Java でプレゼンテーション言語と図形テキストを設定�
 linktitle: Java でプレゼンテーション言語と図形テキストを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを自動化する方法を学びます。プログラムで簡単にスライドを作成、変更、強化できます。
-type: docs
 weight: 19
 url: /ja/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 Java でプログラム的に PowerPoint プレゼンテーションを作成および操作すると、ワークフローの自動化が効率化され、生産性が向上します。Aspose.Slides for Java は、これらのタスクを効率的に実行するための強力なツール セットを提供します。このチュートリアルでは、Aspose.Slides for Java を使用してプレゼンテーション言語を設定し、テキストを形作るための重要な手順を説明します。
 ## 前提条件
@@ -69,3 +73,9 @@ pres.dispose();
 詳細なドキュメントが利用可能[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java にはどのようなサポート オプションがありますか?
  Aspose.Slidesフォーラムをご覧ください[ここ](https://forum.aspose.com/c/slides/11)コミュニティサポートのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

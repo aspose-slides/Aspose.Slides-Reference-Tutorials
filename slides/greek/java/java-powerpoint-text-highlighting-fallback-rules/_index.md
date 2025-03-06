@@ -3,10 +3,14 @@ title: Java PowerPoint Επισήμανση κειμένου και Κανόνε
 linktitle: Java PowerPoint Επισήμανση κειμένου και Κανόνες εναλλακτικής επιστροφής
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κύριοι κανόνες επισήμανσης κειμένου και εναλλακτικών γραμματοσειρών στο Java PowerPoint με Aspose.Slides. Ακολουθήστε τα σεμινάρια μας για να βελτιώσετε και να αυτοματοποιήσετε απρόσκοπτα τις παρουσιάσεις σας.
-type: docs
 weight: 25
 url: /el/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή
 
@@ -26,3 +30,9 @@ url: /el/java/java-powerpoint-text-highlighting-fallback-rules/
 Μάθετε πώς να επισημαίνετε κείμενο στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτοματοποιήστε και βελτιώστε τις παρουσιάσεις χωρίς κόπο με τον λεπτομερή οδηγό μας.
 ### [Συλλογή εναλλακτικών κανόνων σε Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Μάθετε πώς να διαχειρίζεστε κανόνες εναλλακτικής γραμματοσειράς σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη συμβατότητα μεταξύ συσκευών χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

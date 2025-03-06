@@ -3,10 +3,14 @@ title: Aspose.Slides — плавное соединение фигур в .NET
 linktitle: Соединение фигур с помощью соединителей в презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Исследуйте возможности Aspose.Slides для .NET, легко соединяя фигуры в своих презентациях. Улучшите свои слайды с помощью динамических соединителей.
-type: docs
 weight: 29
 url: /ru/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В динамичном мире презентаций возможность соединять фигуры с помощью соединителей придает слайдам изысканность. Aspose.Slides для .NET позволяет разработчикам легко добиться этого. Это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить четкое понимание.
 ## Предварительные условия
@@ -77,3 +81,9 @@ Aspose.Slides для .NET поддерживает соединение разл
 Изучите документацию Aspose.Slides, чтобы узнать о методах настройки внешнего вида соединителя, таких как стиль и цвет линий.
 ### Есть ли форум сообщества для поддержки Aspose.Slides?
  Да, вы можете найти помощь и поделиться своим опытом в[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

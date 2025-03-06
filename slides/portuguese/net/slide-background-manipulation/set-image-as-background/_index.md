@@ -3,10 +3,14 @@ title: Definir imagem como plano de fundo do slide usando Aspose.Slides
 linktitle: Definir uma imagem como plano de fundo do slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como definir planos de fundo de imagens no PowerPoint usando Aspose.Slides for .NET. Aprimore suas apresentações com facilidade.
-type: docs
 weight: 13
 url: /pt/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 No mundo do design e automação de apresentações, Aspose.Slides for .NET é uma ferramenta poderosa e versátil que permite aos desenvolvedores manipular apresentações em PowerPoint com facilidade. Esteja você construindo relatórios personalizados, criando apresentações impressionantes ou automatizando a geração de slides, o Aspose.Slides for .NET é um recurso valioso. Neste guia passo a passo, mostraremos como definir uma imagem como plano de fundo do slide usando esta biblioteca notável.
 
@@ -115,3 +119,9 @@ Aspose.Slides for .NET foi projetado principalmente para ambientes Windows. Para
 ### 5. O Aspose.Slides for .NET oferece uma versão de teste?
 
  Sim, você pode obter uma avaliação gratuita do Aspose.Slides for .NET no site em[esse link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

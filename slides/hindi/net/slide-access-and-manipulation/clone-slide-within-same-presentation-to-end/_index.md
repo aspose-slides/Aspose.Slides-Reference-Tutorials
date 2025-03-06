@@ -3,10 +3,14 @@ title: मौजूदा प्रस्तुति के अंत में
 linktitle: मौजूदा प्रस्तुति के अंत में स्लाइड की प्रतिलिपि बनाएँ
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides for .NET का उपयोग करके मौजूदा PowerPoint प्रस्तुति के अंत में स्लाइड को कैसे डुप्लिकेट करें और जोड़ें। यह चरण-दर-चरण मार्गदर्शिका स्रोत कोड उदाहरण प्रदान करती है और सेटअप, स्लाइड डुप्लीकेशन, संशोधन और बहुत कुछ को कवर करती है।
-type: docs
 weight: 22
 url: /hi/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## .NET के लिए Aspose.Slides का परिचय
 
@@ -96,3 +100,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### क्या मैं Aspose.Slides का उपयोग करके स्लाइड सामग्री को संशोधित कर सकता हूँ?
 
 बिल्कुल! Aspose.Slides आपको न केवल स्लाइड्स की प्रतिलिपि बनाने की अनुमति देता है, बल्कि प्रोग्रामेटिक रूप से उनकी सामग्री, जैसे पाठ, चित्र, आकार और एनिमेशन में भी हेरफेर करने की अनुमति देता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

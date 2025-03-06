@@ -3,10 +3,14 @@ title: Usuń węzeł z grafiki SmartArt w programie PowerPoint przy użyciu jęz
 linktitle: Usuń węzeł z grafiki SmartArt w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak efektywnie i programowo usuwać węzły z grafiki SmartArt w prezentacjach programu PowerPoint przy użyciu Aspose.Slides for Java.
-type: docs
 weight: 14
 url: /pl/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 dzisiejszej erze cyfrowej tworzenie dynamicznych i atrakcyjnych wizualnie prezentacji jest niezbędne zarówno dla firm, nauczycieli, jak i osób prywatnych. Prezentacje PowerPoint, dzięki możliwości przekazania informacji w zwięzły i angażujący sposób, pozostają podstawą komunikacji. Czasami jednak musimy programowo manipulować treścią tych prezentacji, aby spełnić określone wymagania lub skutecznie zautomatyzować zadania. W tym miejscu wkracza Aspose.Slides for Java, dostarczając potężny zestaw narzędzi do programowej interakcji z prezentacjami programu PowerPoint.
 ## Warunki wstępne
@@ -64,3 +68,9 @@ Z pewnością! Aspose.Slides for Java oferuje funkcje i niezawodność na poziom
  Oczywiście! Możesz pobrać bezpłatną wersję próbną Aspose.Slides dla Java ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Aby uzyskać pomoc techniczną lub zadać pytania, możesz odwiedzić stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

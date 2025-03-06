@@ -3,10 +3,14 @@ title: Klonovat snímek na zadané pozici v PowerPointu
 linktitle: Klonovat snímek na zadané pozici v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Pomocí Aspose.Slides for Java můžete snadno klonovat snímky aplikace PowerPoint na určených pozicích. Podrobný průvodce krok za krokem pro začátečníky i odborníky.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Jste připraveni vylepšit svou PowerPoint hru? Ať už jste zkušený vývojář nebo nováček, který se snaží automatizovat manipulaci se snímky, jste na správném místě. V tomto tutoriálu vás provedeme procesem klonování snímků na určeném místě v prezentaci PowerPoint pomocí Aspose.Slides for Java. Připoutejte se a pojďme se společně ponořit do této cesty!
 ## Předpoklady
@@ -80,3 +84,9 @@ Absolutně! Aspose.Slides podporuje různé formáty včetně PPTX, PPT a dalš�
 Aspose.Slides nabízí robustní funkce, rozsáhlou dokumentaci a vynikající podporu, díky čemuž je preferovanou volbou pro manipulaci s PowerPointem.
 ### Kde najdu další návody na Aspose.Slides?
  Podívejte se na[dokumentace](https://reference.aspose.com/slides/java/) pro komplexní návody a příklady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

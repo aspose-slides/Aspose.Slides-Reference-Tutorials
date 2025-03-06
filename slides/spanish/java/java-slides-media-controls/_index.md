@@ -3,10 +3,14 @@ title: Controles de medios utilizando Aspose.Slides para Java
 linktitle: Controles multimedia de diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a implementar controles multimedia en diapositivas de Java utilizando los tutoriales de Aspose.Slides para Java. Mejore sus presentaciones con audio y video sin problemas.
-type: docs
 weight: 22
 url: /es/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 En la era digital actual, las presentaciones no se tratan sólo de diapositivas estáticas con texto e imágenes. Han evolucionado hasta convertirse en experiencias dinámicas e interactivas que atraen y cautivan a la audiencia. Si eres un desarrollador de Java y buscas agregar una nueva dimensión a tus presentaciones, estás en el lugar correcto. En este artículo, exploraremos cómo implementar controles multimedia en diapositivas de Java utilizando los tutoriales de Aspose.Slides para Java.
 
@@ -51,3 +55,9 @@ Domine el manejo de interrupciones de Java Slides con Aspose.Slides para Java. E
 Aprenda cómo actualizar las propiedades de presentación en diapositivas Java usando Aspose.Slides para Java. Personalice el autor, el título y más para presentaciones impactantes.
 ### [Actualizar las propiedades de la presentación usando otra presentación como plantilla en diapositivas de Java](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Mejore las presentaciones de PowerPoint con metadatos actualizados utilizando Aspose.Slides para Java. Aprenda a actualizar propiedades como autor, título y palabras clave utilizando plantillas en Java Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

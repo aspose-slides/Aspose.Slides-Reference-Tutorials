@@ -3,10 +3,14 @@ title: Установите автоподбор текстового фрейм
 linktitle: Установите автоподбор текстового фрейма в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настроить автоподбор текстовых фреймов в Java PowerPoint с помощью Aspose.Slides для Java. Создавайте динамичные презентации без особых усилий.
-type: docs
 weight: 14
 url: /ru/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 При разработке приложений Java программное создание динамических и визуально привлекательных презентаций PowerPoint является распространенным требованием. Aspose.Slides for Java предоставляет мощный набор API для легкого достижения этой цели. Одной из важных функций является настройка автоподбора текстовых фреймов, гарантирующая, что текст будет аккуратно корректироваться внутри фигур без ручной настройки. Это руководство шаг за шагом проведет вас через весь процесс, используя Aspose.Slides for Java для автоматизации подгонки текста в слайдах PowerPoint.
 ## Предварительные условия
@@ -86,3 +90,9 @@ Aspose.Slides for Java — это надежный Java API, который по
  Вы можете найти подробную документацию по Aspose.Slides для Java.[здесь](https://reference.aspose.com/slides/java/).
 ### Как я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить общественную и профессиональную поддержку для Aspose.Slides for Java на сайте[здесь](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

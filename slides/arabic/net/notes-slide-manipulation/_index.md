@@ -3,10 +3,14 @@ title: ملاحظات التلاعب بالشريحة
 linktitle: ملاحظات التلاعب بالشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعزيز العروض التقديمية الخاصة بك بدقة! استكشف البرنامج التعليمي Aspose.Slides حول معالجة شرائح الملاحظات في .NET. تعلم كيفية إضافة ملاحظات المتحدث وتحريرها وإدارتها برمجيًا.
-type: docs
 weight: 16
 url: /ar/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي الشامل لـ Aspose.Slides حول معالجة شرائح Notes لمطوري .NET. في هذا البرنامج التعليمي، سوف نتعمق في عالم ملاحظات المتحدث الرائع وكيف يمكنك التعامل معها برمجيًا باستخدام مكتبة Aspose.Slides. تلعب ملاحظات المتحدث دورًا محوريًا في العروض التقديمية، حيث تقدم رؤى قيمة للمقدم وتعزز التأثير العام للمحتوى. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم قوي لكيفية إضافة ملاحظات المتحدث وتحريرها وإدارتها بشكل فعال داخل عروض PowerPoint التقديمية.
@@ -39,3 +43,9 @@ url: /ar/net/notes-slide-manipulation/
 تعرف على كيفية إزالة الملاحظات من شريحة معينة في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة مع كود المصدر الكامل للتعامل مع شرائحك برمجيًا بسلاسة.
 ### [إزالة الملاحظات من كافة الشرائح](./remove-notes-from-all-slides/)
 تعرف على كيفية إزالة الملاحظات من كافة الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. اتبع هذا الدليل المفصّل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر الكاملة لتحقيق هدفك بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

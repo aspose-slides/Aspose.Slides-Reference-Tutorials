@@ -3,10 +3,14 @@ title: افتح العرض التقديمي في شرائح Java
 linktitle: افتح العرض التقديمي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية فتح عروض PowerPoint التقديمية في Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر للتعامل الفعال مع العرض التقديمي.
-type: docs
 weight: 16
 url: /ar/java/additional-utilities/open-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لفتح عرض تقديمي في Aspose.Slides لـ Java
 
@@ -112,3 +116,9 @@ try {
 ### هل يمكنني تحويل عروض PowerPoint التقديمية إلى تنسيقات أخرى باستخدام Aspose.Slides لـ Java؟
 
 نعم، يتيح لك Aspose.Slides for Java تحويل عروض PowerPoint التقديمية إلى تنسيقات مختلفة، مثل PDF والصور وHTML والمزيد. يمكنك استكشاف وثائق المكتبة وأمثلتها لمعرفة كيفية إجراء هذه التحويلات برمجيًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

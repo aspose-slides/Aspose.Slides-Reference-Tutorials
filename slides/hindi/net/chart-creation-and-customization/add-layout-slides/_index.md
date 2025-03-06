@@ -3,10 +3,14 @@ title: प्रस्तुति में लेआउट स्लाइड 
 linktitle: प्रस्तुति में लेआउट स्लाइड जोड़ें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides for .NET के साथ अपने PowerPoint प्रेजेंटेशन को कैसे बेहतर बनाया जाए। प्रोफेशनल टच के लिए लेआउट स्लाइड जोड़ें।
-type: docs
 weight: 11
 url: /hi/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 आज के डिजिटल युग में, प्रभावशाली प्रस्तुति बनाना एक आवश्यक कौशल है। एक अच्छी तरह से संरचित और आकर्षक प्रस्तुति आपके संदेश को प्रभावी ढंग से व्यक्त कर सकती है। Aspose.Slides for .NET एक शक्तिशाली उपकरण है जो आपको कुछ ही समय में शानदार प्रस्तुति बनाने में मदद कर सकता है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि अपनी प्रस्तुति में लेआउट स्लाइड जोड़ने के लिए Aspose.Slides for .NET का उपयोग कैसे करें। हम इस प्रक्रिया को आसान चरणों में विभाजित करेंगे, ताकि आप अवधारणाओं को अच्छी तरह से समझ सकें। चलिए शुरू करते हैं!
 
@@ -104,3 +108,9 @@ Aspose.Slides for .NET एक .NET लाइब्रेरी है जो ड
 
 ### मैं Aspose.Slides for .NET के लिए समर्थन कहां से प्राप्त कर सकता हूं या सहायता कहां प्राप्त कर सकता हूं?
  यदि आपके कोई प्रश्न हों या आपको सहायता की आवश्यकता हो, तो आप Aspose.Slides for .NET फोरम पर जा सकते हैं[Aspose सामुदायिक मंच](https://forum.aspose.com/). समुदाय सक्रिय है और उपयोगकर्ता प्रश्नों को संबोधित करने में सहायक है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

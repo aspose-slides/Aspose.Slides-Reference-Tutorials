@@ -3,10 +3,14 @@ title: Aspose.Slides - Δημιουργία σχημάτων ομάδας στο
 linktitle: Δημιουργία σχημάτων ομάδας σε διαφάνειες παρουσίασης με το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε σχήματα ομάδων στο PowerPoint με το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για οπτικά ελκυστικές παρουσιάσεις.
-type: docs
 weight: 11
 url: /el/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Εάν θέλετε να βελτιώσετε την οπτική ελκυστικότητα των διαφανειών της παρουσίασής σας και να οργανώσετε το περιεχόμενο πιο αποτελεσματικά, η ενσωμάτωση σχημάτων ομάδων είναι μια ισχυρή λύση. Το Aspose.Slides for .NET παρέχει έναν απρόσκοπτο τρόπο δημιουργίας και χειρισμού σχημάτων ομάδων στις παρουσιάσεις σας στο PowerPoint. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία δημιουργίας σχημάτων ομάδας χρησιμοποιώντας το Aspose.Slides, αναλύοντάς το σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
 ## Προαπαιτούμενα
@@ -98,3 +102,10 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω μια πλήρη άδεια χρήσης για το Aspose.Slides;
  Μπορείτε να αγοράσετε άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

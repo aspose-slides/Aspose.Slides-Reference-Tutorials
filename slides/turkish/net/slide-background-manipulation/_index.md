@@ -3,10 +3,14 @@ title: Aspose.Slides Kullanarak Slayt Arka Planını Düzenleme
 linktitle: Slayt Arka Planının Değiştirilmesi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides ile slayt tasarımınızı geliştirin! Bu kapsamlı eğitimde slayt arka planlarını nasıl değiştireceğinizi öğrenin. Adım adım talimatlar ve kod örnekleri sağlanmıştır.
-type: docs
 weight: 11
 url: /tr/net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -37,3 +41,9 @@ Aspose.Slides for .NET kullanarak bir görüntüyü slayt arka planı olarak nas
 Bu adım adım kılavuzdan Aspose.Slides'ı kullanarak slayt arka planlarını ayarlama konusunda nasıl ustalaşacağınızı öğrenin. İlgi çekici görsellerle sunumlarınızı bir üst seviyeye taşıyın.
 ### [Normal Slayt Arka Planını Değiştir](./change-slide-background-normal/)
 Hedef kitlenizin ilgisini çekmek için normal slayt arka planını nasıl değiştireceğinizi öğrenin. Aspose.Slides for .NET'i kullanarak adım adım talimatlar ve kod örnekleriyle tamamlanan bu kapsamlı kılavuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

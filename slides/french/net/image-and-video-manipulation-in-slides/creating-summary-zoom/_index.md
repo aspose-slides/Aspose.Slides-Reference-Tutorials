@@ -3,10 +3,14 @@ title: Aspose.Slides - Maîtriser les zooms récapitulatifs dans .NET
 linktitle: Création d'un zoom récapitulatif dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec Aspose.Slides pour .NET ! Apprenez à créer des zooms récapitulatifs attrayants sans effort. Téléchargez maintenant pour une expérience de diapositive dynamique.
-type: docs
 weight: 16
 url: /fr/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le monde dynamique des présentations, Aspose.Slides for .NET se distingue comme un outil puissant pour améliorer votre expérience de création de diapositives. L'une des fonctionnalités notables qu'il offre est la possibilité de créer un zoom récapitulatif, une manière visuellement attrayante de présenter une collection de diapositives. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un zoom récapitulatif dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -79,3 +83,9 @@ Absolument! Vous pouvez inclure des hyperliens dans vos diapositives et ils fonc
 Depuis la dernière version, il n’existe aucune limitation stricte quant au nombre de sections que vous pouvez ajouter à une présentation.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
 Oui, vous pouvez explorer les fonctionnalités d'Aspose.Slides en téléchargeant le[version d'essai gratuite](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

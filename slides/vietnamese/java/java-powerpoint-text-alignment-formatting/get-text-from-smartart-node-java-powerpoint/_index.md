@@ -3,10 +3,14 @@ title: Nhận văn bản từ nút SmartArt trong Java PowerPoint
 linktitle: Nhận văn bản từ nút SmartArt trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách trích xuất văn bản từ các nút SmartArt trong bản trình bày Java PowerPoint bằng Aspose.Slides. Hướng dẫn từng bước dễ dàng dành cho nhà phát triển.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất văn bản từ các nút SmartArt trong bản trình bày Java PowerPoint bằng Aspose.Slides. Aspose.Slides là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi bản trình bày PowerPoint theo chương trình. Việc trích xuất văn bản từ các nút SmartArt có thể hữu ích cho nhiều ứng dụng khác nhau như trích xuất dữ liệu, phân tích nội dung, v.v. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách truy xuất văn bản từ các nút SmartArt một cách hiệu quả bằng cách sử dụng Aspose.Slides trong Java.
 ## Điều kiện tiên quyết
@@ -66,3 +70,9 @@ Aspose.Slides cho Java là một API mạnh mẽ cho phép các nhà phát tri�
  Có, bạn có thể dùng thử miễn phí Aspose.Slides cho Java[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Để được hỗ trợ kỹ thuật và hỗ trợ cộng đồng, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

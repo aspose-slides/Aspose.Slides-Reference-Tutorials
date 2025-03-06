@@ -3,10 +3,14 @@ title: Aplicar efectos de bisel en formas en PowerPoint
 linktitle: Aplicar efectos de bisel en formas en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo aplicar efectos de bisel a formas en PowerPoint usando Aspose.Slides para Java con nuestra guía paso a paso. Mejora tus presentaciones.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Crear presentaciones visualmente atractivas es crucial para captar y mantener la atención de su audiencia. Agregar efectos de bisel a las formas puede mejorar la estética general de sus diapositivas, haciendo que su presentación se destaque. En este tutorial, lo guiaremos a través del proceso de aplicar efectos de bisel a formas en PowerPoint usando Aspose.Slides para Java. Si eres un desarrollador que busca automatizar la creación de presentaciones o simplemente alguien a quien le encanta experimentar con el diseño, esta guía lo tiene cubierto.
 ## Requisitos previos
@@ -92,3 +96,9 @@ Puede agregar varias formas, como rectángulos, elipses, líneas y formas person
 Sí, Aspose.Slides para Java le permite aplicar varios efectos 3D, incluidos efectos de profundidad, iluminación y cámara.
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener soporte de la comunidad de Aspose y del equipo de soporte en su[Foro de soporte](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

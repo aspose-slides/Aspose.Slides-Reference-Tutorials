@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET ile Sunumlarda 3D Döndürmede Uzmanlaşma
 linktitle: Sunum Slaytlarındaki Şekillere 3B Döndürme Efekti Uygulama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile sunumlarınızı geliştirin! Bu öğreticide şekillere 3B döndürme efektleri uygulamayı öğrenin. Dinamik ve görsel olarak etkileyici sunumlar oluşturun.
-type: docs
 weight: 23
 url: /tr/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 İlgi çekici ve dinamik sunum slaytları oluşturmak, etkili iletişimin önemli bir yönüdür. Aspose.Slides for .NET, şekillere 3D döndürme efektleri uygulama yeteneği de dahil olmak üzere sunumlarınızı geliştirmek için güçlü bir araç seti sağlar. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarındaki şekillere 3D döndürme efekti uygulama sürecini anlatacağız.
 ## Önkoşullar
@@ -60,3 +64,9 @@ Evet, Aspose.Slides'ı kullanarak metin kutuları da dahil olmak üzere çeşitl
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET'in ayrıntılı belgelerini nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

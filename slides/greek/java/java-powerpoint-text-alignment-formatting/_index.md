@@ -3,10 +3,14 @@ title: Ευθυγράμμιση και μορφοποίηση κειμένου J
 linktitle: Ευθυγράμμιση και μορφοποίηση κειμένου Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε μαθήματα στοίχισης και μορφοποίησης κειμένου Java PowerPoint. Μάθετε να στοιχίζετε, να μορφοποιείτε, να εξάγετε και να επισημαίνετε κείμενο χρησιμοποιώντας το Aspose.Slides για Java.
-type: docs
 weight: 23
 url: /el/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 
 Η εξοικείωση με τη στοίχιση και τη μορφοποίηση κειμένου σε παρουσιάσεις Java PowerPoint είναι ζωτικής σημασίας για τη δημιουργία εκλεπτυσμένων, επαγγελματικών διαφανειών. Με το Aspose.Slides για Java, μπορείτε να επιτύχετε απρόσκοπτη μορφοποίηση και ευθυγράμμιση κειμένου με ευκολία. Είτε είστε αρχάριος είτε έμπειρος προγραμματιστής, τα σεμινάρια μας θα σας βοηθήσουν να βελτιώσετε τις παρουσιάσεις σας. Ας βουτήξουμε στα σεμινάρια και ας δούμε πώς μπορείτε να βελτιώσετε τις δεξιότητές σας στο PowerPoint!
@@ -45,3 +49,9 @@ url: /el/java/java-powerpoint-text-alignment-formatting/
 Μάθετε πώς να εξάγετε κείμενο από κόμβους SmartArt σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Εύκολος, βήμα προς βήμα οδηγός για προγραμματιστές.
 ### [Επισημάνετε το κείμενο χρησιμοποιώντας το Regex στο Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 Μάθετε πώς να επισημαίνετε κείμενο στο PowerPoint χρησιμοποιώντας μοτίβα regex με το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας δυναμικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

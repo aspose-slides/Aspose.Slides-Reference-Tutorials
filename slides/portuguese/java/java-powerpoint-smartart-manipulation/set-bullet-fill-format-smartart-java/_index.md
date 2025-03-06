@@ -3,10 +3,14 @@ title: Definir formato de preenchimento de marcador no SmartArt usando Java
 linktitle: Definir formato de preenchimento de marcador no SmartArt usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir o formato de preenchimento de marcadores no SmartArt usando Java com Aspose.Slides. Guia passo a passo para manipulação eficiente de apresentações.
-type: docs
 weight: 18
 url: /pt/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 No domínio da programação Java, a manipulação eficiente de apresentações é um requisito comum, especialmente quando se trata de elementos SmartArt. Aspose.Slides for Java surge como uma ferramenta poderosa para tais tarefas, oferecendo uma variedade de funcionalidades para lidar com apresentações de forma programática. Neste tutorial, nos aprofundaremos no processo de configuração do formato de preenchimento de marcadores no SmartArt usando Java com Aspose.Slides, passo a passo.
 ## Pré-requisitos
@@ -71,3 +75,9 @@ Na verdade, Aspose.Slides permite que você personalize todos os aspectos das fo
  Sim, você pode explorar os recursos do Aspose.Slides com uma avaliação gratuita. Basta baixá-lo do[local na rede Internet](https://releases.aspose.com/slides/java/) e comece a explorar.
 ### Onde posso encontrar suporte para Aspose.Slides for Java?
  Para qualquer dúvida ou assistência, você pode visitar o fórum Aspose.Slides em[esse link](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

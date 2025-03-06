@@ -3,10 +3,14 @@ title: Utwórz ramkę powiększenia w programie PowerPoint
 linktitle: Utwórz ramkę powiększenia w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć atrakcyjne ramki powiększenia w programie PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem, aby dodać elementy interaktywne do swoich prezentacji.
-type: docs
 weight: 17
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Tworzenie angażujących prezentacji PowerPoint to sztuka i czasami najmniejsze dodatki mogą mieć ogromne znaczenie. Jedną z takich funkcji jest ramka powiększenia, która umożliwia powiększanie określonych slajdów lub obrazów, tworząc dynamiczną i interaktywną prezentację. W tym samouczku przeprowadzimy Cię przez proces tworzenia powiększonej ramki w programie PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -113,3 +117,9 @@ Tak, Aspose.Slides umożliwia dostosowanie różnych właściwości ramek powię
 Absolutnie! Możesz dodawać niestandardowe obrazy do powiększonych ramek, czytając pliki obrazów i dodając je do prezentacji.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
  Obszerną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Slides for Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

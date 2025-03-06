@@ -3,10 +3,14 @@ title: Impression et rendu dans des diapositives
 linktitle: Impression et rendu dans des diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos compétences en matière d'impression et de rendu de diapositives avec les didacticiels Aspose.Slides pour .NET. Apprenez les techniques étape par étape pour obtenir une sortie de haute qualité. Plongez dans la manipulation des diapositives maintenant !
-type: docs
 weight: 10
 url: /fr/net/printing-and-rendering-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction:
 
@@ -41,3 +45,9 @@ Découvrez comment améliorer vos diapositives de présentation avec Aspose.Slid
 Découvrez comment imprimer des diapositives spécifiques à partir de présentations PowerPoint à l'aide d'Aspose.Slides for .NET. Notre guide étape par étape couvre l'installation, la personnalisation et la gestion des exceptions, offrant ainsi un moyen transparent d'automatiser les tâches PowerPoint.
 ### [Prise en charge des signatures numériques dans Aspose.Slides](./digital-signature-support/)
 Améliorez la sécurité des présentations avec des signatures numériques à l'aide d'Aspose.Slides pour .NET. Apprenez à ajouter et à vérifier des signatures dans PowerPoint étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

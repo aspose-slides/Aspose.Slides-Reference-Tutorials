@@ -3,10 +3,14 @@ title: Animasi dan Tata Letak Slide Java
 linktitle: Animasi dan Tata Letak Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari Animasi dan Tata Letak Slide Java dengan Aspose.Slides untuk Java. Kuasai presentasi interaktif. Selami pembuatan konten dinamis.
-type: docs
 weight: 14
 url: /id/java/animation-and-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Apakah Anda ingin menghidupkan presentasi Anda dan membuat slide menawan dengan Java? Aspose.Slides untuk Java adalah solusi tepat Anda. Dalam panduan komprehensif ini, kita akan mempelajari cara menguasai animasi dan tata letak slide Java, memastikan presentasi Anda menonjol dari yang lain.
 
@@ -42,3 +46,9 @@ Optimalkan presentasi Java Anda dengan Aspose.Slides untuk Java. Pelajari cara m
 Optimalkan presentasi Anda dengan animasi seri di Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk membuat animasi PowerPoint yang menarik.
 ### [Menganimasikan Elemen Seri di Slide Java](./animating-series-elements-java-slides/)
 Pelajari cara menganimasikan elemen rangkaian di slide PowerPoint menggunakan Aspose.Slides for Java. Ikuti panduan langkah demi langkah komprehensif ini dengan kode sumber untuk menyempurnakan presentasi Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

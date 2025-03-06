@@ -3,10 +3,14 @@ title: Handledning för att lägga till bildramar med Aspose.Slides .NET
 linktitle: Lägga till bildramar med relativ skalhöjd i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig att lägga till bildramar med relativ skalhöjd i Aspose.Slides för .NET. Följ den här steg-för-steg-guiden för sömlösa presentationer.
-type: docs
 weight: 17
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Aspose.Slides för .NET är ett kraftfullt bibliotek som låter utvecklare skapa, manipulera och konvertera PowerPoint-presentationer i sina .NET-applikationer utan ansträngning. I den här handledningen kommer vi att dyka in i processen att lägga till bildramar med relativ skalhöjd med Aspose.Slides för .NET. Följ med den här steg-för-steg-guiden för att förbättra dina färdigheter i presentationsbyggande.
 ## Förutsättningar
@@ -64,3 +68,9 @@ Aspose.Slides stöder främst .NET-språk, men du kan utforska andra Aspose-prod
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att söka hjälp från samhället och Aspose-experter.
 ### Var kan jag köpa Aspose.Slides för .NET?
  Du kan köpa Aspose.Slides för .NET från[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

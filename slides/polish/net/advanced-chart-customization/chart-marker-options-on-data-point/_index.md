@@ -3,10 +3,14 @@ title: Korzystanie z opcji znaczników wykresu w punkcie danych w Aspose.Slides 
 linktitle: Opcje znaczników wykresu w punkcie danych
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ulepszyć wykresy programu PowerPoint za pomocą Aspose.Slides dla .NET. Dostosuj znaczniki punktów danych za pomocą obrazów. Twórz angażujące prezentacje.
-type: docs
 weight: 11
 url: /pl/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Podczas pracy z prezentacjami i wizualizacją danych Aspose.Slides dla .NET oferuje szeroką gamę zaawansowanych funkcji do tworzenia, dostosowywania i manipulowania wykresami. W tym samouczku omówimy, jak używać opcji znaczników wykresu na punktach danych w celu ulepszenia prezentacji wykresów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, począwszy od wymagań wstępnych i importowania przestrzeni nazw, aż po podzielenie każdego przykładu na wiele kroków.
 
@@ -148,3 +152,9 @@ Aspose.Slides dla .NET jest zaprojektowany do pracy z różnymi formatami progra
 
 ### Czy dostępna jest wersja próbna Aspose.Slides dla .NET?
  Tak, możesz wypróbować Aspose.Slides dla .NET, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Dodawaj animacje do kształtów w programie PowerPoint
 linktitle: Dodawaj animacje do kształtów w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać animacje do kształtów w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z tego szczegółowego samouczka. Idealny do tworzenia angażujących prezentacji.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Tworzenie angażujących prezentacji często wymaga dodania animacji do kształtów i tekstu. Animacje mogą sprawić, że slajdy będą bardziej dynamiczne i wciągające, zapewniając zainteresowanie odbiorców. W tym samouczku przeprowadzimy Cię przez proces dodawania animacji do kształtów w prezentacji programu PowerPoint przy użyciu Aspose.Slides for Java. Po przeczytaniu tego artykułu będziesz mógł bez wysiłku tworzyć profesjonalne animacje.
 ## Warunki wstępne
@@ -108,3 +112,9 @@ Aspose.Slides obsługuje Java SE 6 i nowsze wersje.
 Możesz dodać różne animacje do wielu kształtów, powtarzając kroki dla każdego kształtu i określając w razie potrzeby różne efekty.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
  Sprawdź[dokumentacja](https://reference.aspose.com/slides/java/) I[forum wsparcia](https://forum.aspose.com/c/slides/11)aby uzyskać więcej przykładów i pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

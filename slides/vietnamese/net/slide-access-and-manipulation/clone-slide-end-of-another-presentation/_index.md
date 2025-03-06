@@ -3,10 +3,14 @@ title: Sao chép slide ở cuối bản trình bày riêng biệt
 linktitle: Sao chép slide ở cuối bản trình bày riêng biệt
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sao chép một trang chiếu từ một bản trình bày PowerPoint và thêm nó vào một bản trình bày khác bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này cung cấp mã nguồn và hướng dẫn rõ ràng để thao tác với slide liền mạch.
-type: docs
 weight: 17
 url: /vi/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -103,3 +107,9 @@ Tuyệt đối! Bạn có thể thao tác với nội dung của slide được 
 ### Aspose.Slides cho .NET chỉ hoạt động với các slide phải không?
 
 Không, Aspose.Slides for .NET cung cấp các khả năng mở rộng ngoài các trang trình bày. Bạn có thể làm việc với các hình dạng, biểu đồ, hình động và thậm chí trích xuất văn bản và hình ảnh từ bản trình bày.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

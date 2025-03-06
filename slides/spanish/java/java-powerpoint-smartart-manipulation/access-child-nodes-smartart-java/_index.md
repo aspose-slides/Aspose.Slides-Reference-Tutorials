@@ -3,10 +3,14 @@ title: Acceda a nodos secundarios en SmartArt usando Java
 linktitle: Acceda a nodos secundarios en SmartArt usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo acceder y manipular nodos secundarios en SmartArt usando Aspose.Slides para Java con esta guía paso a paso.
-type: docs
 weight: 10
 url: /es/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 ¿Alguna vez te has preguntado cómo puedes manipular gráficos SmartArt en tus presentaciones mediante programación? Aspose.Slides para Java es su biblioteca de referencia para administrar y editar presentaciones de PowerPoint. Esta poderosa herramienta permite a los desarrolladores acceder y manipular varios elementos dentro de una presentación, incluidos los gráficos SmartArt. En este tutorial, lo guiaremos a través del acceso a nodos secundarios en SmartArt usando Java, haciendo que sus presentaciones sean más dinámicas e interactivas. Al final de esta guía, estará equipado con los conocimientos necesarios para atravesar y manipular nodos SmartArt con facilidad.
 ## Requisitos previos
@@ -81,3 +85,9 @@ Sí, Aspose.Slides para Java le permite manipular varios elementos como texto, f
  La documentación está disponible.[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cuál es el mejor IDE para desarrollar con Aspose.Slides para Java?
 IntelliJ IDEA y Eclipse son IDE populares que funcionan bien con Aspose.Slides para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

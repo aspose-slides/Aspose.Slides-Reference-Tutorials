@@ -3,10 +3,14 @@ title: 在 Java Slides 中转换为 PDF
 linktitle: 在 Java Slides 中转换为 PDF
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 PDF。按照我们的分步指南（包含源代码和常见问题解答）进行无缝 PowerPoint 到 PDF 转换。
-type: docs
 weight: 25
 url: /zh/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 PDF 的简介
 
@@ -113,3 +117,9 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

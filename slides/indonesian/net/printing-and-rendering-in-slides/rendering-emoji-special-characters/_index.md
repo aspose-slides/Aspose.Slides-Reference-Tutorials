@@ -3,10 +3,14 @@ title: Merender Emoji dan Karakter Khusus di Aspose.Slide
 linktitle: Merender Emoji dan Karakter Khusus di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan emoji menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan sentuhan kreatif dengan mudah.
-type: docs
 weight: 14
 url: /id/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, penyampaian emosi dan karakter khusus dapat menambah sentuhan kreativitas dan keunikan. Aspose.Slides for .NET memberdayakan pengembang untuk merender emoji dan karakter khusus dengan lancar dalam presentasi mereka, membuka dimensi ekspresi baru. Dalam tutorial ini, kita akan menjelajahi cara mencapainya dengan panduan langkah demi langkah menggunakan Aspose.Slides.
 ## Prasyarat
@@ -51,3 +55,9 @@ Aspose.Slides mendukung berbagai macam emoji, termasuk emoji khusus. Pastikan em
  Bergabunglah dengan komunitas Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) untuk bantuan dan diskusi.
 ### Bisakah saya menggunakan Aspose.Slides tanpa lisensi permanen?
  Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: PDF 컨텐츠를 프리젠테이션으로 가져오기
 linktitle: PDF 컨텐츠를 프리젠테이션으로 가져오기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PDF 콘텐츠를 프레젠테이션으로 원활하게 가져오는 방법을 알아보세요. 소스 코드가 포함된 이 단계별 가이드는 외부 PDF 콘텐츠를 통합하여 프레젠테이션을 향상시키는 데 도움이 됩니다.
-type: docs
 weight: 24
 url: /ko/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 소개
 다양한 소스의 콘텐츠를 프레젠테이션에 통합하면 슬라이드의 시각적, 정보적 측면을 향상시킬 수 있습니다. .NET용 Aspose.Slides는 PDF 콘텐츠를 프레젠테이션으로 가져오기 위한 강력한 솔루션을 제공하여 외부 정보로 슬라이드를 향상시킬 수 있습니다. 이 종합 가이드에서는 Aspose.Slides for .NET을 사용하여 PDF 콘텐츠를 가져오는 과정을 안내합니다. 자세한 단계별 지침과 소스 코드 예제를 통해 PDF 콘텐츠를 프레젠테이션에 원활하게 통합할 수 있습니다.
@@ -67,3 +71,9 @@ Aspose.Slides는 주로 프레젠테이션 관련 기능에 중점을 둡니다.
 
 ## 결론
 Aspose.Slides for .NET을 사용하여 PDF 콘텐츠를 프레젠테이션에 통합하는 것은 외부 정보로 슬라이드를 향상시키는 강력한 방법입니다. 단계별 가이드를 따르고 제공된 소스 코드 예제를 활용하면 PDF 콘텐츠를 원활하게 가져오고 다양한 정보 소스를 결합한 프레젠테이션을 만들 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

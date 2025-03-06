@@ -3,10 +3,14 @@ title: สีชุดแผนภูมิอัตโนมัติใน Jav
 linktitle: สีชุดแผนภูมิอัตโนมัติใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิแบบไดนามิกด้วยชุดสีอัตโนมัติในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการแสดงภาพข้อมูลของคุณได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับสีชุดแผนภูมิอัตโนมัติใน Aspose.Slides สำหรับ Java
 
@@ -190,3 +194,9 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับการทำงานกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  สำหรับข้อมูลเพิ่มเติมและเอกสารประกอบโดยละเอียดเกี่ยวกับ Aspose.Slides สำหรับ Java คุณสามารถไปที่เอกสารอ้างอิง[ที่นี่](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

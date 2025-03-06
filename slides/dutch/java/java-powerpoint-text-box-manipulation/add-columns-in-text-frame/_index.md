@@ -3,10 +3,14 @@ title: Voeg kolommen toe aan het tekstframe met Aspose.Slides voor Java
 linktitle: Voeg kolommen toe aan het tekstframe met Aspose.Slides voor Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u kolommen in tekstkaders kunt toevoegen met Aspose.Slides voor Java om uw PowerPoint-presentaties te verbeteren. Onze stapsgewijze handleiding vereenvoudigt het proces.
-type: docs
 weight: 11
 url: /nl/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u tekstframes kunt manipuleren om kolommen toe te voegen met Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee Java-ontwikkelaars PowerPoint-presentaties programmatisch kunnen maken, manipuleren en converteren. Het toevoegen van kolommen aan tekstkaders verbetert de visuele aantrekkingskracht en organisatie van tekst in dia's, waardoor presentaties aantrekkelijker en gemakkelijker te lezen worden.
 ## Vereisten
@@ -81,3 +85,9 @@ Nee, Aspose.Slides stelt automatisch gelijke breedte in voor kolommen binnen een
  Gedetailleerde documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt steun zoeken bij de gemeenschap[hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

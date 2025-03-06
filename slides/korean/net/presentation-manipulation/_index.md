@@ -3,10 +3,14 @@ title: 프레젠테이션 조작
 linktitle: 프레젠테이션 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides 튜토리얼을 통해 프레젠테이션 조작의 가능성을 열어보세요. 프로그래밍 방식으로 PowerPoint 프레젠테이션을 동적으로 생성, 사용자 정의 및 향상하는 방법을 알아보세요. 지금 PowerPoint 처리 기술을 향상해보세요!
-type: docs
 weight: 11
 url: /ko/net/presentation-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 PowerPoint 처리 영역에서 Aspose.Slides for .NET은 프레젠테이션 조작을 위한 강력한 도구로 등장합니다. 이 튜토리얼 모음은 프로그래밍 방식으로 프레젠테이션을 조작하고 향상시키기 위해 Aspose.Slides의 기능을 활용하는 방법에 대한 포괄적인 지침을 제공합니다. 슬라이드 생성, 수정 및 배열부터 텍스트, 이미지 및 멀티미디어 요소 관리에 이르기까지 이 튜토리얼은 동적 프레젠테이션 생성 및 사용자 정의의 세계로의 단계별 여행을 제공합니다. 프레젠테이션 작업을 자동화하든, 보고서를 생성하든, 대화형 슬라이드쇼를 구축하든 이 튜토리얼은 개발자에게 Aspose.Slides를 효과적으로 사용할 수 있는 지식을 제공합니다.
 
 ## 프레젠테이션 조작
@@ -51,3 +55,9 @@ Aspose.Slides for .NET을 사용하여 CSS 파일이 포함된 PowerPoint 프레
 Aspose.Slides for .NET을 사용하여 프레젠테이션용 SVG 변환을 수행하는 방법을 알아보세요. 이 포괄적인 가이드에서는 단계별 지침, 소스 코드 예제 및 다양한 SVG 변환 옵션을 다룹니다.
 ### [프레젠테이션에서 SVG 형식 지정](./formatting-svgs-in-presentations/)
 .NET용 Aspose.Slides를 사용하여 멋진 SVG로 프레젠테이션을 최적화하세요. 인상적인 시각적 효과를 위해 SVG 형식을 지정하는 방법을 단계별로 알아보세요. 오늘 프레젠테이션 게임을 한 단계 더 발전시켜 보세요! 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

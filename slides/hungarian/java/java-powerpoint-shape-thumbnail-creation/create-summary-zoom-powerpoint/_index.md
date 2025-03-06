@@ -3,10 +3,14 @@ title: Összefoglaló nagyítás létrehozása a PowerPointban
 linktitle: Összefoglaló nagyítás létrehozása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ezzel az átfogó, lépésről lépésre bemutató oktatóanyaggal megtudhatja, hogyan hozhat létre összefoglaló nagyítást a PowerPointban az Aspose.Slides for Java segítségével.
-type: docs
 weight: 16
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban, amely az Aspose.Slides for Java használatával összefoglaló nagyítást készít PowerPointban. Ha dinamikus és interaktív elemet szeretne hozzáadni prezentációihoz, a Summary Zoom egy fantasztikus funkció. Lehetővé teszi egyetlen dia létrehozását, amely a prezentáció különböző részeire nagyíthat, így vonzóbb és navigálhatóbb élményt kínál a közönség számára.
 Ebben a lépésenkénti útmutatóban végigvezetjük a teljes folyamaton, a fejlesztői környezet beállításától az Összefoglaló zoom keret létrehozásáig és testreszabásáig. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezt az útmutatót könnyen követheti, és értékes betekintést nyerhet.
@@ -107,3 +111,9 @@ Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhely
  Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további példákat és támogatást az Aspose.Slides for Java-hoz?
  További példákat találhat, és támogatást kérhet a következő oldalon[Aspose.Slides támogatási fórum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

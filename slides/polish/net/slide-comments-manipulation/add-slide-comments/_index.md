@@ -3,10 +3,14 @@ title: Dodaj komentarze do slajdu
 linktitle: Dodaj komentarze do slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dodaj głębię i interakcję do swoich prezentacji dzięki Aspose.Slides API. Dowiedz się, jak łatwo zintegrować komentarze ze slajdami za pomocą platformy .NET. Zwiększ zaangażowanie i zachwyć odbiorców.
-type: docs
 weight: 13
 url: /pl/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 świecie zarządzania prezentacjami możliwość dodawania komentarzy do slajdów może zmienić zasady gry. Komentarze nie tylko usprawniają współpracę, ale także pomagają w zrozumieniu i poprawieniu zawartości slajdów. Dzięki Aspose.Slides dla .NET, potężnej i wszechstronnej bibliotece, możesz bez wysiłku dodawać komentarze do slajdów prezentacji. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania komentarzy do slajdu przy użyciu Aspose.Slides dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w świecie programowania .NET, ten samouczek zapewni wszystkie potrzebne informacje.
 
@@ -104,3 +108,9 @@ Aby zintegrować Aspose.Slides for .NET z aplikacją .NET, możesz zapoznać si�
 ### 5. Czy mogę wypróbować Aspose.Slides dla .NET przed zakupem?
 
 Tak, możesz eksplorować Aspose.Slides dla .NET, korzystając z bezpłatnej wersji próbnej. Odwiedzić[Strona bezpłatnej wersji próbnej Aspose.Slides](https://releases.aspose.com/) rozpocząć.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

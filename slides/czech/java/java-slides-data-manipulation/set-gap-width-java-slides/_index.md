@@ -3,10 +3,14 @@ title: Nastavte šířku mezery v Java Slides
 linktitle: Nastavte šířku mezery v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit Gap Width v Java Slides pomocí Aspose.Slides pro Java. Vylepšete vizuály grafů pro prezentace v PowerPointu.
-type: docs
 weight: 21
 url: /cs/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do nastavení šířky mezery v Aspose.Slides pro Javu
 
@@ -158,3 +162,9 @@ Ano, Aspose.Slides for Java poskytuje rozsáhlé možnosti pro přizpůsobení g
 ### Kde najdu další zdroje a dokumentaci?
 
  Komplexní dokumentaci a další zdroje naleznete na Aspose.Slides for Java na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

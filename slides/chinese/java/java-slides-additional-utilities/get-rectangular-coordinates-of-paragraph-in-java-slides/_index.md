@@ -3,10 +3,14 @@ title: 获取 Java Slides 中段落的矩形坐标
 linktitle: 获取 Java Slides 中段落的矩形坐标
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 检索 PowerPoint 演示文稿中的段落坐标。按照带有源代码的分步指南进行准确定位。
-type: docs
 weight: 13
 url: /zh/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java 中检索段落矩形坐标的简介
 
@@ -112,3 +116,9 @@ finally
 ### 我需要许可证才能使用 Aspose.Slides for Java 吗？
 
 是的，您通常需要有效的许可证才能在生产环境中使用 Aspose.Slides for Java。您可以从 Aspose 网站获取许可证。但是，他们可能会提供试用版供测试和评估。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

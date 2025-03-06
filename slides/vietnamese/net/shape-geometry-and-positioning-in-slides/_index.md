@@ -3,10 +3,14 @@ title: Hình học và định vị trong các slide bằng Aspose.Slides
 linktitle: Hình dạng hình học và vị trí trong slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao kỹ năng thao tác slide của bạn với các hướng dẫn Aspose.Slides về hình học và định vị hình dạng trong các slide. Tìm hiểu cách lập trình điều khiển các hình dạng, kích thước và căn chỉnh của chúng.
-type: docs
 weight: 13
 url: /vi/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -51,3 +55,9 @@ Tìm hiểu cách tích hợp hiệu quả dữ liệu giàn đèn vào các tra
 Tìm hiểu cách cải thiện các trang trình bày của bạn bằng dữ liệu góc xiên hiệu quả bằng Aspose.Slides. Hướng dẫn toàn diện với hướng dẫn từng bước và mã mẫu.
 ### [Ẩn hình dạng trong slide thuyết trình với Aspose.Slides](./hiding-shapes/)
 Tìm hiểu cách ẩn hình dạng trong các trang trình bày bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn, Câu hỏi thường gặp và các phương pháp hay nhất để tạo bản trình bày sinh động.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

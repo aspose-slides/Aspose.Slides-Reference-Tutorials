@@ -3,10 +3,14 @@ title: Zoom-Rahmen in PowerPoint erstellen
 linktitle: Zoom-Rahmen in PowerPoint erstellen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java ansprechende Zoom-Frames in PowerPoint erstellen. Folgen Sie unserer Anleitung, um Ihren Präsentationen interaktive Elemente hinzuzufügen.
-type: docs
 weight: 17
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Das Erstellen ansprechender PowerPoint-Präsentationen ist eine Kunst, und manchmal können die kleinsten Ergänzungen einen großen Unterschied machen. Eine solche Funktion ist der Zoom-Rahmen, mit dem Sie in bestimmte Folien oder Bilder hineinzoomen und so eine dynamische und interaktive Präsentation erstellen können. In diesem Tutorial führen wir Sie durch den Prozess zum Erstellen eines Zoom-Rahmens in PowerPoint mit Aspose.Slides für Java.
 ## Voraussetzungen
@@ -113,3 +117,9 @@ Ja, Aspose.Slides ermöglicht Ihnen die Anpassung verschiedener Eigenschaften vo
 Auf jeden Fall! Sie können Zoom-Frames benutzerdefinierte Bilder hinzufügen, indem Sie Bilddateien lesen und sie der Präsentation hinzufügen.
 ### Wo finde ich weitere Beispiele und Dokumentation?
  Ausführliche Dokumentationen und Beispiele finden Sie auf der[Aspose.Slides für Java-Dokumentationsseite](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

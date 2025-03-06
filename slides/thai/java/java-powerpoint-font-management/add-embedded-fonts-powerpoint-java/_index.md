@@ -3,10 +3,14 @@ title: เพิ่มแบบอักษรฝังตัวใน PowerPoin
 linktitle: เพิ่มแบบอักษรฝังตัวใน PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มแบบอักษรที่ฝังลงในงานนำเสนอ PowerPoint โดยใช้ Java กับ Aspose.Slides สำหรับ Java รับประกันการแสดงผลที่สอดคล้องกันในทุกอุปกรณ์
-type: docs
 weight: 10
 url: /th/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มแบบอักษรที่ฝังลงในงานนำเสนอ PowerPoint โดยใช้ Java โดยใช้ประโยชน์จาก Aspose.Slides สำหรับ Java โดยเฉพาะ แบบอักษรที่ฝังไว้ช่วยให้งานนำเสนอของคุณปรากฏสอดคล้องกันบนอุปกรณ์ต่างๆ แม้ว่าแบบอักษรดั้งเดิมจะไม่พร้อมใช้งานก็ตาม มาดำดิ่งสู่ขั้นตอนต่างๆ:
 ## ข้อกำหนดเบื้องต้น
@@ -69,3 +73,9 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 Aspose.Slides สำหรับ Java รองรับการฝังฟอนต์ TrueType ซึ่งครอบคลุมฟอนต์หลากหลายชนิดที่ใช้กันทั่วไปในงานนำเสนอ
 ### ฉันสามารถฝังแบบอักษรโดยทางโปรแกรมโดยใช้ Aspose.Slides สำหรับ Java ได้หรือไม่
 ได้ ดังที่แสดงในบทช่วยสอนนี้ คุณสามารถฝังแบบอักษรโดยทางโปรแกรมได้โดยใช้ Aspose.Slides สำหรับ Java API
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Supprimer le masque de mise en page inutilisé dans les diapositives Java
 linktitle: Supprimer le masque de mise en page inutilisé dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Supprimez les modèles de mise en page inutilisés avec Aspose.Slides. Guide et code étape par étape. Améliorez l’efficacité de la présentation.
-type: docs
 weight: 10
 url: /fr/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la suppression du masque de mise en page inutilisé dans les diapositives Java
 
@@ -123,3 +127,9 @@ Non, la suppression des modèles de mise en page inutilisés n'affectera pas la 
 ### Où puis-je accéder au code source utilisé dans cet article ?
 
 Vous pouvez trouver le code source utilisé dans cet article dans les extraits de code fournis à chaque étape. Copiez et collez simplement le code dans votre projet Java pour implémenter la suppression des modèles de mise en page inutilisés dans vos présentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java PowerPoint Şekli ve Küçük Resim Oluşturma
 linktitle: Java PowerPoint Şekli ve Küçük Resim Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides Java'yı kullanarak PowerPoint'te şekiller ve küçük resimler oluşturmayı öğrenin. Grup şekilleri oluşturma, ölçeklendirme faktörü küçük resimleri ve yakınlaştırma efektleri hakkında ayrıntılı eğitimler.
-type: docs
 weight: 24
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 
 Etkili iletişim için görsel olarak çekici ve düzenli PowerPoint sunumları oluşturmak çok önemlidir. Aspose.Slides for Java ile çeşitli şekiller ve küçük resimler oluşturarak sunumlarınızı zahmetsizce geliştirebilirsiniz. Bu makale, slaytlarınızın hem ilgi çekici hem de profesyonel olmasını sağlayarak bu tekniklerde uzmanlaşmanız için adım adım bir kılavuz sunmaktadır.
@@ -52,3 +56,9 @@ Aspose.Slides ile Java'da SmartArt alt not küçük resimlerini nasıl oluştura
  Bu kapsamlı adım adım eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'te Özet Yakınlaştırma oluşturmayı öğrenin.
 ### [PowerPoint'te Yakınlaştırma Çerçevesi Oluşturun](./create-zoom-frame-powerpoint/)
 Aspose.Slides for Java'yı kullanarak PowerPoint'te ilgi çekici Yakınlaştırma Çerçevelerini nasıl oluşturacağınızı öğrenin. Sunumlarınıza etkileşimli öğeler eklemek için kılavuzumuzu takip edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

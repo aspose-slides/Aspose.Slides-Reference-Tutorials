@@ -3,10 +3,14 @@ title: Katalog główny ClsId w slajdach Java
 linktitle: Katalog główny ClsId w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić ClsId katalogu głównego w Aspose.Slides dla prezentacji Java. Dostosuj zachowanie hiperłącza za pomocą identyfikatora CLSID.
-type: docs
 weight: 10
 url: /pl/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania katalogu głównego ClsId w Aspose.Slides dla Java
 
@@ -107,3 +111,9 @@ Nie, identyfikator ClsId katalogu głównego jest zwykle ustawiany na poziomie p
 ### Czy są jakieś ograniczenia dotyczące identyfikatorów CLSID, których mogę używać?
 
 Identyfikatory CLSID, których można użyć, są zazwyczaj określane przez aplikacje zainstalowane w systemie. Należy używać identyfikatorów CLSID odpowiadających prawidłowym aplikacjom obsługującym hiperłącza. Należy pamiętać, że użycie nieprawidłowego identyfikatora CLSID może spowodować nieoczekiwane zachowanie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: PowerPoint'te Yerleşik Özelliklere Erişin
 linktitle: PowerPoint'te Yerleşik Özelliklere Erişin
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'teki yerleşik özelliklere nasıl erişeceğinizi öğrenin. Bu eğitim, yazarın, oluşturulma tarihinin ve daha fazlasının alınması konusunda size yol gösterir.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki yerleşik özelliklere nasıl erişilebileceğini keşfedeceğiz. Aspose.Slides, Java geliştiricilerinin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan, özellikleri okuma ve değiştirme gibi görevleri sorunsuz bir şekilde gerçekleştirmesine olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -101,3 +105,9 @@ Evet, yerleşik özelliklerin yanı sıra Aspose.Slides for Java'yı kullanarak 
  Evet, kapsamlı belgeler bulabilir ve destek forumlarına erişebilirsiniz.[Web sitesi](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

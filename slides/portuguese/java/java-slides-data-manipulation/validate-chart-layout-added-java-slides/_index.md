@@ -3,10 +3,14 @@ title: Validar layout de gráfico adicionado em slides Java
 linktitle: Validar layout de gráfico adicionado em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Validação de layout de gráfico mestre em PowerPoint com Aspose.Slides para Java. Aprenda a manipular gráficos programaticamente para obter apresentações impressionantes.
-type: docs
 weight: 10
 url: /pt/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à validação do layout do gráfico em Aspose.Slides para Java
 
@@ -97,3 +101,10 @@ Sim, você pode personalizar os dados do gráfico adicionando e modificando sér
 ### E se eu quiser modificar outras propriedades do gráfico?
 
 Você pode acessar várias propriedades do gráfico e personalizá-las de acordo com suas necessidades. Explore a documentação do Aspose.Slides para obter informações abrangentes sobre manipulação de gráficos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

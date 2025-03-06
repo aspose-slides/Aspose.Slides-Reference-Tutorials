@@ -3,10 +3,14 @@ title: Lägg till kommentarer till Slide
 linktitle: Lägg till kommentarer till Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lägg till djup och interaktion till dina presentationer med Aspose.Slides API. Lär dig hur du enkelt integrerar kommentarer i dina bilder med .NET. Förbättra engagemanget och fängsla din publik.
-type: docs
 weight: 13
 url: /sv/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 en värld av presentationshantering kan möjligheten att lägga till kommentarer till bilder vara en spelomvandlare. Kommentarer förbättrar inte bara samarbetet utan hjälper också till att förstå och revidera bildinnehåll. Med Aspose.Slides för .NET, ett kraftfullt och mångsidigt bibliotek, kan du enkelt infoga kommentarer i dina presentationsbilder. I den här steg-för-steg-guiden går vi igenom processen att lägga till kommentarer till en bild med Aspose.Slides för .NET. Oavsett om du är en erfaren utvecklare eller en nykomling i världen av .NET-utveckling, kommer den här handledningen att ge dig alla insikter du behöver.
 
@@ -104,3 +108,9 @@ För att integrera Aspose.Slides för .NET i din .NET-applikation kan du hänvis
 ### 5. Kan jag prova Aspose.Slides för .NET innan jag köper det?
 
 Ja, du kan utforska Aspose.Slides för .NET genom att använda en gratis provperiod. Besök[Aspose.Slides gratis provsida](https://releases.aspose.com/) för att starta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

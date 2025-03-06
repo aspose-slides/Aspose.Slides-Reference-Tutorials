@@ -3,10 +3,14 @@ title: Rimuovi riga o colonna nella tabella di PowerPoint utilizzando Java
 linktitle: Rimuovi riga o colonna nella tabella di PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come rimuovere righe o colonne dalle tabelle di PowerPoint utilizzando Java con Aspose.Slides per Java. Facile guida passo passo per gli sviluppatori.
-type: docs
 weight: 18
 url: /it/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial esploreremo come rimuovere una riga o una colonna da una tabella di PowerPoint utilizzando Java con l'aiuto di Aspose.Slides. Aspose.Slides per Java è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire presentazioni PowerPoint a livello di codice. Questo tutorial si concentra specificamente sul processo di modifica delle tabelle all'interno delle diapositive di PowerPoint, dimostrando passo dopo passo come rimuovere righe o colonne specifiche da una tabella.
 ## Prerequisiti
@@ -74,3 +78,9 @@ Aspose.Slides fornisce un supporto completo per la creazione, la modifica e la c
 Sì, Aspose.Slides è ampiamente utilizzato negli ambienti aziendali per automatizzare le attività di PowerPoint grazie alle sue robuste funzionalità e prestazioni.
 ### Posso provare Aspose.Slides prima dell'acquisto?
  Sì, puoi scaricare una prova gratuita di Aspose.Slides da[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

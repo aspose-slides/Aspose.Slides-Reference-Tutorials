@@ -3,10 +3,14 @@ title: Połącz kształty za pomocą witryn połączeń w programie PowerPoint
 linktitle: Połącz kształty za pomocą witryn połączeń w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak łączyć kształty w programie PowerPoint przy użyciu Aspose.Slides dla języka Java. Zautomatyzuj swoje prezentacje bez wysiłku.
-type: docs
 weight: 19
 url: /pl/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku omówimy, jak łączyć kształty za pomocą witryn połączeń w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ta potężna biblioteka pozwala nam programowo manipulować prezentacjami programu PowerPoint, dzięki czemu zadania takie jak łączenie kształtów są płynne i wydajne.
 ## Warunki wstępne
@@ -70,3 +74,9 @@ Tak, Aspose.Slides for Java zapewnia szeroką gamę funkcjonalności do tworzeni
  Tak, dostępne są licencje tymczasowe do celów testowania i oceny. Możesz taki otrzymać[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić licencję na Aspose.Slides dla Java?
 Możesz kupić licencję na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

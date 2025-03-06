@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 직사각형 모양 만들기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 간단한 직사각형 모양 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 역동적인 PowerPoint 프레젠테이션의 세계를 탐험해보세요. 이 단계별 가이드를 통해 슬라이드에서 매력적인 직사각형 모양을 만드는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 역동적이고 시각적으로 매력적인 PowerPoint 프레젠테이션으로 .NET 애플리케이션을 향상시키려는 경우 Aspose.Slides for .NET이 최적의 솔루션입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 간단한 직사각형 모양을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -61,3 +65,9 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
  예, 임시 라이센스를 구매하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### .NET용 Aspose.Slides에 대한 설명서는 어디서 찾을 수 있나요?
  문서를 참조하세요[여기](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

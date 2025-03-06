@@ -3,10 +3,14 @@ title: Aspose.Slides - Zusammenfassende Zoomfunktionen in .NET meistern
 linktitle: Erstellen einer Zusammenfassungsvergrößerung in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit Aspose.Slides für .NET! Lernen Sie, mühelos ansprechende Summary-Zooms zu erstellen. Laden Sie es jetzt herunter, um ein dynamisches Folienerlebnis zu genießen.
-type: docs
 weight: 16
 url: /de/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In der dynamischen Welt der Präsentationen sticht Aspose.Slides für .NET als leistungsstarkes Tool hervor, das Ihre Folienerstellung verbessert. Eine der bemerkenswerten Funktionen, die es bietet, ist die Möglichkeit, einen Summary Zoom zu erstellen, eine visuell ansprechende Möglichkeit, eine Foliensammlung zu präsentieren. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Summary Zoom in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -79,3 +83,9 @@ Auf jeden Fall! Sie können Hyperlinks in Ihre Folien einfügen und diese funkti
 Ab der neuesten Version gibt es keine strengen Beschränkungen hinsichtlich der Anzahl der Abschnitte, die Sie einer Präsentation hinzufügen können.
 ### Gibt es eine Testversion für Aspose.Slides?
 Ja, Sie können die Funktionen von Aspose.Slides erkunden, indem Sie das[kostenlose Testversion](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

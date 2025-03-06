@@ -3,10 +3,14 @@ title: Výukový program přidávání rámečků obrázků s Aspose.Slides .NET
 linktitle: Přidání rámečků obrázků s relativní výškou měřítka v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat rámečky obrázků s relativní výškou měřítka v Aspose.Slides pro .NET. Postupujte podle tohoto podrobného průvodce pro bezproblémové prezentace.
-type: docs
 weight: 17
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům snadno vytvářet, manipulovat a převádět PowerPointové prezentace v jejich aplikacích .NET. V tomto tutoriálu se ponoříme do procesu přidávání rámečků obrázků s relativní výškou měřítka pomocí Aspose.Slides pro .NET. Postupujte podle tohoto podrobného průvodce, abyste zlepšili své dovednosti při vytváření prezentací.
 ## Předpoklady
@@ -64,3 +68,9 @@ Aspose.Slides primárně podporuje jazyky .NET, ale můžete prozkoumat další 
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) požádat o pomoc komunitu a odborníky Aspose.
 ### Kde mohu zakoupit Aspose.Slides pro .NET?
  Aspose.Slides pro .NET si můžete koupit od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

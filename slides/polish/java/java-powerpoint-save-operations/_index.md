@@ -3,10 +3,14 @@ title: Operacje zapisywania programu Java PowerPoint
 linktitle: Operacje zapisywania programu Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zapisywać prezentacje programu PowerPoint przy użyciu Aspose.Slides dla Java. Poradniki dotyczące zapisywania do pliku, strumieniowania i dodawania ochrony hasłem.
-type: docs
 weight: 20
 url: /pl/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp
 
@@ -32,3 +36,9 @@ Dowiedz się, jak programowo zapisywać prezentacje programu PowerPoint do plik�
 Dowiedz się, jak zapisywać prezentacje programu PowerPoint w strumieniu przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 ### [Zapisz program PowerPoint za pomocą hasła](./save-powerpoint-with-password/)
 Dowiedz się, jak dodać ochronę hasłem do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Z łatwością zabezpiecz swoje slajdy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Duplica la diapositiva nella sezione designata all'interno della presenta
 linktitle: Duplica la diapositiva nella sezione designata all'interno della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come duplicare le diapositive all'interno di una sezione designata utilizzando Aspose.Slides per .NET. Guida passo passo per una manipolazione efficace delle diapositive.
-type: docs
 weight: 19
 url: /it/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Nel mondo delle presentazioni dinamiche, Aspose.Slides per .NET rappresenta uno strumento affidabile per gli sviluppatori. Sia che tu stia creando presentazioni accattivanti o automatizzando la manipolazione delle diapositive, Aspose.Slides per .NET offre una solida piattaforma per semplificare i tuoi progetti di presentazione. In questo tutorial, approfondiremo il processo di duplicazione delle diapositive all'interno di una sezione designata di una presentazione. Questa guida passo passo ti aiuterà a comprendere i prerequisiti, a importare gli spazi dei nomi e a padroneggiare il processo.
 
@@ -109,3 +113,9 @@ No, Aspose.Slides per .NET è progettato specificamente per le applicazioni .NET
 ### 5. Dove posso cercare aiuto e supporto per Aspose.Slides per .NET?
 
  Per qualsiasi domanda o problema potete visitare il[Aspose.Slides per forum di supporto .NET](https://forum.aspose.com/). La community e gli esperti possono aiutarti con le tue domande.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

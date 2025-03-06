@@ -3,10 +3,14 @@ title: Správa záhlaví a zápatí v poznámkách pomocí Aspose.Slides .NET
 linktitle: Spravujte záhlaví a zápatí na snímku Poznámky
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se spravovat záhlaví a zápatí na snímcích poznámek aplikace PowerPoint pomocí Aspose.Slides pro .NET. Vylepšete své prezentace bez námahy.
-type: docs
 weight: 11
 url: /cs/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 dnešní digitální době je vytváření poutavých a informativních prezentací životně důležitou dovedností. V rámci tohoto procesu může být často nutné zahrnout záhlaví a zápatí do snímků s poznámkami, abyste získali další kontext a informace. Aspose.Slides for .NET je výkonný nástroj, který vám umožňuje snadno spravovat nastavení záhlaví a zápatí ve snímcích s poznámkami. V tomto podrobném průvodci prozkoumáme, jak toho dosáhnout pomocí Aspose.Slides pro .NET.
 
@@ -120,3 +124,9 @@ Aspose.Slides for .NET vám samozřejmě umožňuje automatizovat prezentace v P
 
 ### Je k dispozici technická podpora pro Aspose.Slides pro uživatele .NET?
  Ano, můžete najít podporu a pomoc od komunity Aspose a odborníků na webu[Aspose fórum podpory](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

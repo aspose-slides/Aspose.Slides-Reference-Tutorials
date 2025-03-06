@@ -3,10 +3,14 @@ title: Java スライドにドーナツ コールアウトを追加する
 linktitle: Java スライドにドーナツ コールアウトを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドにドーナツ コールアウトを追加する方法を学びます。強化されたプレゼンテーションのためのソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 12
 url: /ja/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java を使用して Java スライドにドーナツ コールアウトを追加する方法の紹介
 
@@ -180,3 +184,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### スライド上のドーナツ グラフの位置とサイズを調整するにはどうすればよいですか?
 
 ドーナツグラフの位置とサイズは、`addChart`メソッド。このメソッドの 4 つの数字は、それぞれグラフの左上隅の X 座標と Y 座標、および幅と高さに対応します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

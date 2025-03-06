@@ -3,10 +3,14 @@ title: Hatás szövegdoboz bekezdés a Java PowerPointban
 linktitle: Hatás szövegdoboz bekezdés a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Tanulja meg, hogyan javíthatja a PowerPoint prezentációkat Java nyelven dinamikus szövegeffektusokkal az Aspose.Slides segítségével a zökkenőmentes integráció és testreszabás érdekében.
-type: docs
 weight: 16
 url: /hu/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Az Aspose.Slides for Java felhatalmazza a fejlesztőket arra, hogy programozottan kezeljék a PowerPoint-prezentációkat, és robusztus funkciókat kínál a diák létrehozásához, módosításához és konvertálásához. Ez az oktatóanyag mélyen belemerül az Aspose.Slides effektusok szövegdobozokon belüli hozzáadásához és kezeléséhez, a Java kódon keresztül dinamikusan javítva a prezentációkat.
 ## Előfeltételek
@@ -60,3 +64,9 @@ Az Aspose.Slides for Java támogatja a Java 6 és újabb verzióit.
  Ideiglenes jogosítványt kaphat[itt](https://purchase.aspose.com/temporary-license/).
 ### Az Aspose.Slides for Java támogatja a .pptx-től eltérő PowerPoint fájlformátumokat?
 Igen, támogatja a különféle PowerPoint formátumokat, beleértve a .ppt, .pptx, .pptm stb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

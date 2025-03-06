@@ -3,10 +3,14 @@ title: ActiveX-vezérlők kezelése a PowerPointban
 linktitle: ActiveX-vezérlők kezelése a PowerPointban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint bemutatókat ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutatónk kiterjed a beillesztésre, a manipulációra, a testreszabásra, az eseménykezelésre és még sok másra.
-type: docs
 weight: 13
 url: /hu/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Az ActiveX-vezérlők hatékony elemek, amelyek javíthatják a PowerPoint-prezentációk funkcionalitását és interaktivitását. Ezekkel a vezérlőkkel közvetlenül a diákba ágyazhat be és kezelhet olyan objektumokat, mint a multimédiás lejátszók, adatbeviteli űrlapok és még sok más. Ebben a cikkben megvizsgáljuk, hogyan kezelheti az ActiveX-vezérlőket a PowerPointban az Aspose.Slides for .NET használatával, amely egy sokoldalú könyvtár, amely lehetővé teszi a PowerPoint-fájlok zökkenőmentes integrációját és kezelését a .NET-alkalmazásokban.
 
 ## ActiveX-vezérlők hozzáadása a PowerPoint diákhoz
@@ -149,3 +153,9 @@ Az ActiveX-vezérlők által kiváltott eseményeket úgy kezelheti, hogy előfi
 ### Eltávolíthatok egy ActiveX-vezérlőt a diáról?
 
  Igen, eltávolíthat egy ActiveX-vezérlőt a diákról a`Remove` módszere a`Shapes` Gyűjtemény. Adja át a hivatkozást a`IOleObjectFrame` a vezérlést argumentumként ábrázolva a`Remove` módszert, és a vezérlő eltávolítódik a diáról.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

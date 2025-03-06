@@ -3,10 +3,14 @@ title: Удалить строку или столбец в таблице Power
 linktitle: Удалить строку или столбец в таблице PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как удалять строки или столбцы из таблиц PowerPoint с помощью Java с помощью Aspose.Slides для Java. Простое пошаговое руководство для разработчиков.
-type: docs
 weight: 18
 url: /ru/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В этом уроке мы рассмотрим, как удалить строку или столбец из таблицы PowerPoint с помощью Java с помощью Aspose.Slides. Aspose.Slides for Java — это мощная библиотека, которая позволяет разработчикам программно создавать, манипулировать и конвертировать презентации PowerPoint. В этом руководстве особое внимание уделяется процессу изменения таблиц в слайдах PowerPoint, шаг за шагом демонстрируя, как удалить определенные строки или столбцы из таблицы.
 ## Предварительные условия
@@ -74,3 +78,9 @@ Aspose.Slides обеспечивает комплексную поддержку
 Да, Aspose.Slides широко используется в корпоративных средах для автоматизации задач PowerPoint благодаря своим надежным функциям и производительности.
 ### Могу ли я попробовать Aspose.Slides перед покупкой?
  Да, вы можете загрузить бесплатную пробную версию Aspose.Slides с сайта[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

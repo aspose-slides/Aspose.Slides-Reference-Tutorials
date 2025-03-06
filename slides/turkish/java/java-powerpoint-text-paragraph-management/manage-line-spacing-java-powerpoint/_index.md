@@ -3,10 +3,14 @@ title: Java PowerPoint'te Satır Aralığını Yönetme
 linktitle: Java PowerPoint'te Satır Aralığını Yönetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java PowerPoint sunumlarında satır aralığını zahmetsizce nasıl yöneteceğinizi öğrenin. Slaytlarınızı geliştirin.
-type: docs
 weight: 12
 url: /tr/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Java programlamada, PowerPoint sunumlarındaki satır aralığını yönetmek, bilgileri etkili bir şekilde ileten görsel olarak çekici slaytlar oluşturmak için çok önemlidir. İster paragraflar arasındaki boşluğu ayarlıyor olun ister her paragraftan önceki ve sonraki boşluğu kontrol ediyor olun, Aspose.Slides for Java bu görevleri sorunsuz bir şekilde gerçekleştirmeniz için kapsamlı araçlar sağlar.
 ## Önkoşullar
@@ -62,3 +66,9 @@ Ayrıntılı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/s
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides için nasıl teknik destek alabilirim?
  Teknik yardım için Aspose.Slides'ı ziyaret edin[destek Forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

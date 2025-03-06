@@ -3,10 +3,14 @@ title: PowerPoint 中的动画目标形状
 linktitle: PowerPoint 中的动画目标形状
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 为 PowerPoint 演示文稿中的特定形状制作动画。轻松创建引人入胜的幻灯片。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在动态演示的世界中，动画在吸引观众和有效传达信息方面发挥着至关重要的作用。Aspose.Slides for Java 使开发人员能够创建引人入胜的 PowerPoint 演示文稿，并根据特定形状定制复杂的动画。本教程将指导您完成使用 Aspose.Slides for Java 定位动画形状的过程，确保您的演示文稿通过流畅的过渡和精确的动画脱颖而出。
 ## 先决条件
@@ -62,3 +66,9 @@ try {
 您可以从[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪里购买 Aspose.Slides for Java？
 您可以从网站购买 Aspose.Slides for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

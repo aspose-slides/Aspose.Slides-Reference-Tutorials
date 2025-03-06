@@ -3,10 +3,14 @@ title: Java PowerPoint 도형 서식 및 기하학
 linktitle: Java PowerPoint 도형 서식 및 기하학
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java PowerPoint 모양 서식 지정 및 기하학 튜토리얼을 살펴보세요. Aspose.Slides for Java를 사용하여 모양을 채우고, 모양을 찾고, 사용자 정의 지오메트리를 만드는 방법을 알아보세요.
-type: docs
 weight: 26
 url: /ko/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 정확한 모양 서식 지정과 기하학적 조작이 필요한 경우가 많습니다. Java용 Aspose.Slides를 사용하면 개발자는 프레젠테이션을 한 단계 더 발전시킬 수 있습니다. 이 문서에서는 도형 채우기, 도형 찾기, 사용자 정의 기하학 만들기에 대한 필수 튜토리얼을 살펴보고 슬라이드를 돋보이게 만듭니다.
@@ -74,3 +78,9 @@ Java용 Aspose.Slides를 사용하여 PowerPoint에서 사용자 정의 모양�
 Aspose.Slides for Java를 사용하여 PowerPoint에서 형상 베벨 유효 데이터를 검색하는 방법을 알아보세요. 놀라운 시각 효과로 프레젠테이션을 향상시켜 보세요.
 ### [PowerPoint에서 도형 숨기기](./hide-shapes-powerpoint/)
 자세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양을 숨기는 방법을 알아보세요. 모든 수준의 Java 개발자에게 적합합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

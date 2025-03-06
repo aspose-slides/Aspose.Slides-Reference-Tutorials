@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày sang định dạng SWF
 linktitle: Chuyển đổi bản trình bày sang định dạng SWF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang định dạng SWF bằng Aspose.Slides cho .NET. Tạo nội dung động một cách dễ dàng!
-type: docs
 weight: 28
 url: /vi/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thời đại kỹ thuật số ngày nay, thuyết trình đa phương tiện là một phương tiện giao tiếp mạnh mẽ. Đôi khi, bạn có thể muốn chia sẻ bản trình bày của mình theo cách năng động hơn, chẳng hạn như chuyển đổi chúng sang định dạng SWF (Shockwave Flash). Hướng dẫn này sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày sang định dạng SWF bằng Aspose.Slides cho .NET.
 
@@ -111,3 +115,10 @@ Có, bạn cần có một số kiến thức về lập trình C# để sử d�
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Nếu có thắc mắc hoặc cần hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose.Slides cho .NET](https://forum.aspose.com/)để được hỗ trợ và giúp đỡ cộng đồng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

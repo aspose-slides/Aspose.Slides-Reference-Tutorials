@@ -3,10 +3,14 @@ title: Donut Chart Hål i Java Slides
 linktitle: Donut Chart Hål i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa donutdiagram med anpassade hålstorlekar i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med källkod för diagramanpassning.
-type: docs
 weight: 11
 url: /sv/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Donut Chart med ett hål i Java Slides
 
@@ -94,3 +98,9 @@ finally
 ### Är det möjligt att lägga till en titel i diagrammet?
 
  Säkert! Du kan lägga till en titel till diagrammet med hjälp av`setTitle` metod på`IChart` objekt och tillhandahålla önskad titeltext.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

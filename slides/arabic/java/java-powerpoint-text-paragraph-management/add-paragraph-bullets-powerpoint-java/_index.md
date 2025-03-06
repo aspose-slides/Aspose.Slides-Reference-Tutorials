@@ -3,10 +3,14 @@ title: إضافة تعداد نقطي للفقرة في PowerPoint باستخد�
 linktitle: إضافة تعداد نقطي للفقرة في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة تعداد نقطي للفقرات في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. يرشدك هذا البرنامج التعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 15
 url: /ar/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 تؤدي إضافة تعداد نقطي للفقرة إلى تحسين إمكانية قراءة عروض PowerPoint التقديمية وبنيتها. يوفر Aspose.Slides for Java أدوات قوية للتعامل مع العروض التقديمية برمجيًا، بما في ذلك القدرة على تنسيق النص باستخدام أنماط تعداد نقطي مختلفة. في هذا البرنامج التعليمي، ستتعلم كيفية دمج النقاط النقطية في شرائح PowerPoint باستخدام كود Java، مع الاستفادة من Aspose.Slides.
 ## المتطلبات الأساسية
@@ -89,3 +93,9 @@ if (pres != null) {
 نعم، يدعم Aspose.Slides الإصدار 11 من Java والإصدارات الأحدث.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  يزور[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) للحصول على أدلة وأمثلة شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

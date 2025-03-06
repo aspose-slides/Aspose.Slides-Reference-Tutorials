@@ -3,10 +3,14 @@ title: Ajouter un effet d'animation dans un paragraphe avec Aspose.Slides pour J
 linktitle: Ajouter un effet d'animation dans un paragraphe avec Aspose.Slides pour Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à ajouter des effets d'animation aux paragraphes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java grâce à notre guide simple, étape par étape.
-type: docs
 weight: 10
 url: /fr/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Êtes-vous prêt à faire ressortir vos présentations PowerPoint avec des animations étonnantes ? Dans ce didacticiel, nous allons vous expliquer comment ajouter des effets d'animation aux paragraphes à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur Java chevronné ou que vous débutiez tout juste, ce guide vous fournira un processus étape par étape clair et engageant. Allons-y !
 ## Conditions préalables
@@ -81,3 +85,9 @@ Aspose.Slides prend en charge un large éventail d'animations, notamment des eff
 Oui, Aspose.Slides est conçu pour fonctionner avec des présentations créées dans différentes versions de PowerPoint.
 ### Où puis-je obtenir de l'aide si je rencontre des problèmes ?
  Vous pouvez visiter le[forum d'entraide](https://forum.aspose.com/c/slides/11) pour obtenir l’aide de la communauté Aspose.Slides et de l’équipe d’assistance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

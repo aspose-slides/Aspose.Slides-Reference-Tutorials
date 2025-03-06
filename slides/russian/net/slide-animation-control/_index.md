@@ -3,10 +3,14 @@ title: Управление слайд-анимацией
 linktitle: Управление слайд-анимацией
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью динамической анимации с помощью Aspose.Slides для .NET. Узнайте, как шаг за шагом управлять анимацией слайдов, в этом подробном руководстве.
-type: docs
 weight: 18
 url: /ru/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение:
 
@@ -36,3 +40,9 @@ url: /ru/net/slide-animation-control/
 Узнайте, как повторять анимацию на слайде с помощью Aspose.Slides для .NET. В этом пошаговом руководстве представлен исходный код и четкие инструкции по программному добавлению захватывающей анимации в презентации PowerPoint.
 ### [Перемотка анимации на слайде](./rewind-animation-on-slide/)
 Узнайте, как перематывать анимацию на слайдах PowerPoint с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству с полными примерами исходного кода, чтобы динамически улучшать свои презентации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

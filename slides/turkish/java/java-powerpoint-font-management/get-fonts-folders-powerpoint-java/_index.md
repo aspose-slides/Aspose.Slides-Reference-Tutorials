@@ -3,10 +3,14 @@ title: Java kullanarak PowerPoint'te Yazı Tipleri Klasörlerini Alın
 linktitle: Java kullanarak PowerPoint'te Yazı Tipleri Klasörlerini Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint sunumlarındaki yazı tipi klasörlerini nasıl çıkaracağınızı öğrenin ve sunum tasarım becerilerinizi geliştirin.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, Java kullanarak PowerPoint sunumlarında yazı tipi klasörleri edinme sürecini ele alacağız. Yazı tipleri, sunumlarınızın görsel çekiciliği ve okunabilirliği açısından çok önemli bir rol oynar. Aspose.Slides for Java'yı kullanarak, PowerPoint sunumlarında yazı tipiyle ilgili çeşitli işlemler için gerekli olan yazı tipi dizinlerine verimli bir şekilde erişebiliriz.
 ## Önkoşullar
@@ -46,3 +50,9 @@ Yazı tipi klasörleri, yazı tipi kaynaklarına erişimi kolaylaştırır, öze
  Aspose.Slides forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/slides/11) topluluktan veya Aspose destek ekibinden destek istemek için.
 ### Aspose.Slides for Java'yı nereden satın alabilirim?
  Aspose.Slides for Java'yı web sitesinden satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

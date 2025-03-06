@@ -3,10 +3,14 @@ title: Skrivskyddade rekommenderade egenskaper i Java Slides
 linktitle: Skrivskyddade rekommenderade egenskaper i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du aktiverar Rekommenderade skrivskyddade egenskaper i Java PowerPoint-presentationer med Aspose.Slides för Java. Följ vår steg-för-steg-guide med källkodsexempel för förbättrad presentationssäkerhet.
-type: docs
 weight: 17
 url: /sv/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till aktivering av skrivskyddade rekommenderade egenskaper i Java Slides
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Kom ihåg att byta ut`"YourPassword"` med ditt önskade lösenord.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 하이퍼링크 조작
 linktitle: 하이퍼링크 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 포괄적인 하이퍼링크 조작으로 .NET 애플리케이션을 강화하세요. 하이퍼링크를 관리하고, 대화형 프레젠테이션을 만들고, 사용자 참여를 쉽게 높이는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 소개:
 
@@ -27,3 +31,9 @@ Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에 하이퍼링�
 Aspose.Slides for .NET을 사용하여 프레젠테이션의 하이퍼링크를 효과적으로 관리하는 방법을 알아보세요. 작업을 자동화하고, 대화형 메뉴를 만들고, 사용자 참여를 강화하세요.
 ### [가변 하이퍼링크 생성](./mutable-hyperlink/)
 .NET용 Aspose.Slides를 사용하여 변경 가능한 하이퍼링크를 만드는 방법을 알아보세요. 동적 프레젠테이션을 위한 소스 코드가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

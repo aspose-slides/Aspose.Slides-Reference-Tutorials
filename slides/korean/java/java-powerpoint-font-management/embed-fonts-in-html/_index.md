@@ -3,10 +3,14 @@ title: Java용 Aspose.Slides를 사용하여 HTML에 글꼴 포함
 linktitle: Java용 Aspose.Slides를 사용하여 HTML에 글꼴 포함
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 다양한 플랫폼과 장치에서 일관된 타이포그래피를 보장하기 위해 Java용 Aspose.Slides를 사용하여 HTML에 글꼴을 포함하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하려는 Java 개발자를 위한 강력한 도구입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 HTML에 글꼴을 삽입하는 과정을 자세히 살펴보겠습니다. 글꼴을 포함하면 필요한 글꼴이 로컬에 설치되지 않은 경우에도 프레젠테이션이 다양한 플랫폼과 장치에서 의도한 모양을 유지할 수 있습니다.
 ## 전제 조건
@@ -58,3 +62,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  당신은 방문 할 수 있습니다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원을 원하거나 Aspose 지원에 문의하여 전문적인 지원을 받으십시오.
 ### Aspose.Slides for Java의 임시 라이선스를 구매할 수 있나요?
 예, 임시 라이센스를 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

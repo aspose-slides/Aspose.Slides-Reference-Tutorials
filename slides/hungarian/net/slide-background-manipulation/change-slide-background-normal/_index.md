@@ -3,10 +3,14 @@ title: A dia hátterének megváltoztatása az Aspose.Slides .NET-ben
 linktitle: Normál dia hátterének módosítása
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan módosíthatja a diák hátterét az Aspose.Slides for .NET segítségével, és hogyan készíthet lenyűgöző PowerPoint-bemutatókat.
-type: docs
 weight: 15
 url: /hu/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 prezentációtervezés világában elengedhetetlen a szemet gyönyörködtető és lebilincselő diák elkészítése. Az Aspose.Slides for .NET egy hatékony eszköz, amely lehetővé teszi a PowerPoint prezentációk programozott kezelését. Ebben a lépésről lépésre bemutatjuk, hogyan módosíthatja a dia hátterét az Aspose.Slides for .NET segítségével. Ezzel javíthatja prezentációinak vizuális vonzerejét, és hatásosabbá teheti azokat. 
 
@@ -99,3 +103,9 @@ Biztosan! Végigpörgetheti a diákat, és alkalmazhatja a kívánt háttérmód
 ### 5. Hogyan szerezhetek ideiglenes licencet az Aspose.Slides for .NET számára?
 
  Ha ideiglenes licencre van szüksége projektjéhez, szerezhet be egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

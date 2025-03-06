@@ -3,10 +3,14 @@ title: Java で SmartArt 図形ノードの塗りつぶし形式を設定する
 linktitle: Java で SmartArt 図形ノードの塗りつぶし形式を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java で SmartArt シェイプ ノードの塗りつぶし形式を設定する方法を学びます。鮮やかな色と魅力的なビジュアルでプレゼンテーションを強化します。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 デジタル コンテンツ作成のダイナミックな環境において、Aspose.Slides for Java は、視覚的に魅力的なプレゼンテーションを簡単かつ効率的に作成できる強力なツールとして際立っています。熟練した開発者であっても、初心者であっても、スライド内の図形を操作する技術を習得することは、視聴者に永続的な印象を残す魅力的なプレゼンテーションを作成するために不可欠です。
 ## 前提条件
@@ -65,3 +69,9 @@ Aspose Web サイトには、フォーラムやドキュメントなどの広範
 もちろんです! Aspose.Slides for Java には、好みに応じて SmartArt 図形の外観をカスタマイズするための幅広いカスタマイズ オプションが用意されています。
 ### Aspose.Slides for Java は初心者と経験豊富な開発者の両方に適していますか?
 はい、Aspose.Slides for Java は、あらゆるスキル レベルの開発者に対応し、簡単に統合して使用できるように直感的な API と包括的なドキュメントを提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

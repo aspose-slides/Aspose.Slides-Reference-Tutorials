@@ -3,10 +3,14 @@ title: Sunumlarda Özel Şekil Kimlikleriyle SVG Oluşturun
 linktitle: Sunumlarda Özel Şekil Kimlikleriyle SVG Oluşturun
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak özel SVG şekilleri ve kimlikleriyle ilgi çekici sunumlar oluşturun. Kaynak kodu örnekleriyle adım adım etkileşimli slaytlar oluşturmayı öğrenin. Sunumlarınızda görsel çekiciliği ve kullanıcı etkileşimini geliştirin.
-type: docs
 weight: 19
 url: /tr/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Özel şekil kimliklerine sahip SVG dosyaları oluşturmak için Aspose.Slides for .NET'in gücünden yararlanmak mı istiyorsunuz? Doğru yerdesiniz! Bu adım adım eğitimde, aşağıdaki kaynak kod parçasını kullanarak süreç boyunca size yol göstereceğiz. Sonunda, sunumlarınızda özel şekil kimliklerine sahip SVG dosyaları oluşturmak için gerekli donanıma sahip olacaksınız.
 
@@ -78,3 +82,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
     Ek belgeler için şu adresi ziyaret edin:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
 
 Şimdi devam edin ve Aspose.Slides for .NET ile SVG oluşturmanın sonsuz olanaklarını keşfedin. Mutlu kodlama!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

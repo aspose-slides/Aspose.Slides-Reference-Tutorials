@@ -3,10 +3,14 @@ title: Adott diagramsorozat adatpontok adatainak törlése a Java diákban
 linktitle: Adott diagramsorozat adatpontok adatainak törlése a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan törölhet adott adatpontokat egy diagramsorozatból a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a hatékony adatvizualizációs kezeléshez.
-type: docs
 weight: 15
 url: /hu/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a specifikus diagramsorozat adatpontjainak törléséhez a Java diákban
 
@@ -121,3 +125,9 @@ Igen, törölheti az adatpontokat egy feltétel alapján, ha feltételes logiká
 ### Hol találhatok további információt az Aspose.Slides for Java programról?
 
  Átfogó dokumentációt és példákat találhat a[Aspose.Slides for Java dokumentáció](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

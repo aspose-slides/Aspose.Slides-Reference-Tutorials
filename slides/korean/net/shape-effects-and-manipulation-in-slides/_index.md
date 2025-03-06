@@ -3,10 +3,14 @@ title: 슬라이드의 도형 효과 및 조작
 linktitle: 슬라이드의 도형 효과 및 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 모양 효과 및 조작에 대한 Aspose.Slides 튜토리얼을 사용하여 프레젠테이션의 시각적 매력을 향상하세요. 모양 효과, 애니메이션 등을 사용하여 멋진 슬라이드를 만드는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 소개
 
@@ -63,3 +67,9 @@ Aspose.Slides for .NET을 사용하여 연결선 각도를 조정하여 프레�
 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 커넥터를 사용하여 도형을 연결하는 방법을 학습하여 프레젠테이션 실력을 향상하세요. 지금 시각적 스토리텔링을 향상시켜 보세요!
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 연결 사이트를 사용하여 모양 연결](./connecting-shape-using-connection-site/)
 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 연결 사이트를 사용하여 도형을 연결하는 방법을 학습하여 프레젠테이션 기술을 향상하세요. 자세한 가이드와 코드 예제를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

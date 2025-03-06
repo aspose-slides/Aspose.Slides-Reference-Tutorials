@@ -3,10 +3,14 @@ title: Präsentation in HTML5-Format konvertieren
 linktitle: Präsentation in HTML5-Format konvertieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET in das HTML5-Format konvertieren. Einfache und effiziente Konvertierung für die gemeinsame Nutzung im Web.
-type: docs
 weight: 22
 url: /de/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Konvertieren Sie die Präsentation mit Aspose.Slides für .NET in das HTML5-Format
 
 In dieser Anleitung führen wir Sie durch den Prozess der Konvertierung einer PowerPoint-Präsentation (PPT/PPTX) in das HTML5-Format mithilfe der Aspose.Slides-Bibliothek für .NET. Aspose.Slides ist eine leistungsstarke Bibliothek, mit der Sie PowerPoint-Präsentationen in verschiedenen Formaten bearbeiten und konvertieren können.
@@ -81,3 +85,9 @@ Ja, Aspose.Slides für .NET unterstützt die Konvertierung von Präsentationen m
 ### Gibt es eine Testversion von Aspose.Slides?
 
  Ja, Sie können eine kostenlose Testversion von Aspose.Slides für .NET erhalten von der[Download-Seite](https://releases.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

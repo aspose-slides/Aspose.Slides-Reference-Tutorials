@@ -3,10 +3,14 @@ title: Konvertálás PDF-be a Java Slides rejtett diákjaival
 linktitle: Konvertálás PDF-be a Java Slides rejtett diákjaival
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat PowerPoint-prezentációkat PDF-formátumba rejtett diákkal az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a zökkenőmentes PDF generáláshoz.
-type: docs
 weight: 27
 url: /hu/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a PowerPoint-bemutató PDF-formátumba konvertálásához rejtett diákkal az Aspose.Slides for Java segítségével
 
@@ -115,3 +119,9 @@ slide.setHidden(false);
 ### Hogyan tölthetem le az Aspose.Slides for Java programot?
 
  Az Aspose.Slides for Java letölthető az Aspose webhelyéről. Meglátogatni a[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/slides/java/) hogy megszerezze a legújabb verziót.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

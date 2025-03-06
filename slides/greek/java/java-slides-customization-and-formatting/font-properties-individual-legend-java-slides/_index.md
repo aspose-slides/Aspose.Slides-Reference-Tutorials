@@ -3,10 +3,14 @@ title: Ιδιότητες γραμματοσειράς για Individual Legend 
 linktitle: Ιδιότητες γραμματοσειράς για Individual Legend σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις PowerPoint με προσαρμοσμένα στυλ γραμματοσειράς, μεγέθη και χρώματα για μεμονωμένους θρύλους σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java.
-type: docs
 weight: 12
 url: /el/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στις ιδιότητες γραμματοσειράς για μεμονωμένο υπόμνημα σε διαφάνειες Java
 
@@ -113,3 +117,9 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

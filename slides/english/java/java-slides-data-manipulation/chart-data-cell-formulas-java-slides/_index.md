@@ -3,10 +3,14 @@ title: Chart Data Cell Formulas in Java Slides
 linktitle: Chart Data Cell Formulas in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set chart data cell formulas in Java PowerPoint presentations using Aspose.Slides for Java. Create dynamic charts with formulas.
-type: docs
 weight: 11
 url: /java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Chart Data Cell Formulas in Aspose.Slides for Java
 
@@ -122,3 +126,10 @@ Yes, you can use various types of formulas, including mathematical operations, f
 ### How do I change the chart type?
 
 You can change the chart type by using the `setChartType` method on the `IChart` object and specifying the desired `ChartType`.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

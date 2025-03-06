@@ -3,10 +3,14 @@ title: Najděte tvar ve snímku
 linktitle: Najděte tvar ve snímku
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Pomocí Aspose.Slides for Java můžete snadno najít tvary ve snímcích aplikace PowerPoint. Postupujte podle našeho podrobného průvodce pro bezproblémové kódování.
-type: docs
 weight: 14
 url: /cs/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Už vás nebaví prosévat snímky aplikace PowerPoint, abyste našli konkrétní tvary? Představte si, že byste mohli tento proces bez námahy automatizovat pomocí pouhých několika řádků kódu. Vítejte v našem podrobném průvodci používáním Aspose.Slides pro Java k vyhledání tvarů v souborech prezentace. V tomto tutoriálu rozebereme kroky potřebné k nalezení tvarů na snímku pomocí Aspose.Slides for Java, od nastavení prostředí až po spuštění kódu.
 ## Předpoklady
@@ -84,3 +88,9 @@ Ano, Aspose.Slides podporuje různé formáty souborů včetně .ppt, .pptx, .od
  Ano, můžete získat bezplatnou zkušební verzi od[Bezplatná zkušební stránka Aspose](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides?
  Podporu najdete na[Fórum Aspose Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

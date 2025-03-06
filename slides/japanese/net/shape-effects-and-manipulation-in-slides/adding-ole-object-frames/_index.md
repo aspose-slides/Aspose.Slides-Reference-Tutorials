@@ -3,10 +3,14 @@ title: Aspose.Slides を使用してプレゼンテーションに OLE オブジ
 linktitle: Aspose.Slides を使用してプレゼンテーションに OLE オブジェクト フレームを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: 動的コンテンツを使用して PowerPoint プレゼンテーションを強化する方法を学びましょう。Aspose.Slides for .NET を使用したステップバイステップのガイドに従ってください。今すぐエンゲージメントを高めましょう。
-type: docs
 weight: 15
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドに OLE (オブジェクトのリンクと埋め込み) オブジェクト フレームを追加するプロセスを詳しく説明します。Aspose.Slides は、開発者が PowerPoint ファイルをプログラムで操作できるようにする強力なライブラリです。このステップ バイ ステップ ガイドに従って、プレゼンテーション スライドに OLE オブジェクトをシームレスに埋め込み、動的でインタラクティブなコンテンツで PowerPoint ファイルを強化します。
 ## 前提条件
@@ -84,3 +88,9 @@ A: はい、Aspose.Slides は PPTX を含む最新の PowerPoint ファイル形
 A: もちろんです。OLE オブジェクト フレームのサイズ、位置、その他のプロパティは、好みに応じて調整できます。
 ### Q: 実装中に問題が発生した場合、どこに支援を求めることができますか?
  A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとガイダンスのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

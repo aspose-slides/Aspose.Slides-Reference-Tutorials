@@ -3,10 +3,14 @@ title: Utwórz miniaturę kształtu w programie PowerPoint
 linktitle: Utwórz miniaturę kształtu w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak generować miniatury kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Dostarczono przewodnik krok po kroku.
-type: docs
 weight: 14
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 tym samouczku zajmiemy się tworzeniem miniatur kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami PowerPoint, umożliwiając automatyzację różnych zadań, w tym generowanie miniatur kształtów.
 ## Warunki wstępne
@@ -60,3 +64,9 @@ Tak, oprócz PNG, Aspose.Slides obsługuje zapisywanie miniatur w różnych form
  Absolutnie! Możesz pobrać bezpłatną wersję próbną Aspose.Slides z[Tutaj](https://releases.aspose.com/) ocenić jego cechy i możliwości.
 ### Gdzie mogę znaleźć wsparcie dla Aspose.Slides?
  Jeśli masz jakieś pytania lub potrzebujesz pomocy z Aspose.Slides, możesz odwiedzić stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) dla wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

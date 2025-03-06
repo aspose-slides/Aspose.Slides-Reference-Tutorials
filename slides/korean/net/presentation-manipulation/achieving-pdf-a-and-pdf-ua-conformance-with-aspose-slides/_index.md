@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 PDF/A 및 PDF/UA 적합성 달성
 linktitle: PDF/A 및 PDF/UA 적합성 달성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PDF/A 및 PDF/UA 규정을 준수하세요. 접근 가능하고 보존 가능한 프레젠테이션을 쉽게 만드세요.
-type: docs
 weight: 23
 url: /ko/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 소개
 
@@ -127,3 +131,9 @@ PDF/UA 문서의 접근성을 보장하려면 Aspose.Slides의 기능을 활용�
 ### 모든 문서에 PDF/UA 규정 준수가 필요합니까?
 
 PDF/UA 규정 준수는 장애가 있는 사용자가 액세스할 수 있도록 만들어진 문서에 특히 중요합니다. 그러나 PDF/UA 규정 준수의 필요성은 대상 고객의 특정 요구 사항에 따라 달라집니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

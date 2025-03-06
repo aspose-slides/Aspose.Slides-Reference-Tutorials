@@ -3,10 +3,14 @@ title: Hợp nhất các ô trong bảng PowerPoint với Java
 linktitle: Hợp nhất các ô trong bảng PowerPoint với Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách hợp nhất các ô trong bảng PowerPoint bằng Aspose.Slides cho Java. Cải thiện bố cục bản trình bày của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 17
 url: /vi/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách hợp nhất các ô trong bảng PowerPoint một cách hiệu quả bằng cách sử dụng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi bản trình bày PowerPoint theo chương trình. Bằng cách hợp nhất các ô trong bảng, bạn có thể tùy chỉnh bố cục và cấu trúc của các trang trình bày, tăng cường độ rõ ràng và hấp dẫn trực quan.
 ## Điều kiện tiên quyết
@@ -92,3 +96,9 @@ Aspose.Slides cho Java là một API Java để tạo, thao tác và chuyển đ
  Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

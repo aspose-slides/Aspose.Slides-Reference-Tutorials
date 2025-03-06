@@ -3,10 +3,14 @@ title: Gemeten licentiegebruik
 linktitle: Gemeten licentiegebruik
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u metered licenties efficiënt kunt gebruiken met Aspose.Slides voor .NET. Integreer API's naadloos terwijl u betaalt voor daadwerkelijk gebruik.
-type: docs
 weight: 11
 url: /nl/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Invoering
 
@@ -114,3 +118,9 @@ Aspose.Slides voor .NET is een krachtige bibliotheek waarmee ontwikkelaars progr
 
 ### Is er een forum voor ondersteuning en discussies van Aspose.Slides?
  Ja, u kunt ondersteuning vinden en deelnemen aan discussies op het Aspose.Slides-forum op[deze link](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

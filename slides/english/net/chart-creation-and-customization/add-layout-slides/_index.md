@@ -3,10 +3,14 @@ title: Add Layout Slides to Presentation
 linktitle: Add Layout Slides to Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance your PowerPoint presentations with Aspose.Slides for .NET. Add layout slides for a professional touch.
-type: docs
 weight: 11
 url: /net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In today's digital age, making an impactful presentation is an essential skill. A well-structured and visually appealing presentation can convey your message effectively. Aspose.Slides for .NET is a powerful tool that can help you create stunning presentations in no time. In this step-by-step guide, we will explore how to use Aspose.Slides for .NET to add layout slides to your presentation. We will break down the process into easy-to-follow steps, ensuring that you grasp the concepts thoroughly. Let's get started!
 
@@ -104,3 +108,10 @@ You can obtain a temporary license by visiting [this link](https://purchase.aspo
 
 ### Where can I get support or seek help with Aspose.Slides for .NET?
 If you have any questions or need assistance, you can visit the Aspose.Slides for .NET forum at [Aspose Community Forum](https://forum.aspose.com/). The community is active and helpful in addressing user queries.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

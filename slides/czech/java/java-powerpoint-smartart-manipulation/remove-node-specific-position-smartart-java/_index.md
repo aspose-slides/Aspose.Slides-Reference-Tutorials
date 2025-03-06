@@ -3,10 +3,14 @@ title: Odebrat uzel na konkrétní pozici v obrázku SmartArt
 linktitle: Odebrat uzel na konkrétní pozici v obrázku SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak odstranit uzel na konkrétní pozici v rámci SmartArt pomocí Aspose.Slides for Java. Vylepšete přizpůsobení prezentace bez námahy.
-type: docs
 weight: 15
 url: /cs/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 oblasti vývoje Java se Aspose.Slides ukazuje jako mocný nástroj pro programovou manipulaci s prezentacemi. Ať už se jedná o vytváření, úpravu nebo správu snímků, Aspose.Slides for Java poskytuje robustní sadu funkcí pro efektivní zefektivnění těchto úloh. Jednou z takových běžných operací je odebrání uzlu na určité pozici v objektu SmartArt. Tento tutoriál se ponoří do procesu krok za krokem, jak toho dosáhnout pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -62,3 +66,9 @@ S Aspose.Slides for Java se manipulace s objekty SmartArt v rámci prezentací s
  Chcete-li zakoupit Aspose.Slides pro Java, navštivte stránku nákupu[tady](https://purchase.aspose.com/buy).
 ### Kde najdu podrobnou dokumentaci k Aspose.Slides pro Javu?
  Máte přístup ke komplexní dokumentaci[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

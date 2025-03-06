@@ -3,10 +3,14 @@ title: Tạo biểu đồ trang trình bày Java
 linktitle: Tạo biểu đồ trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo các trang trình bày Java động với các biểu đồ bằng Aspose.Slides cho Java. Hướng dẫn toàn diện của chúng tôi sẽ hướng dẫn bạn thực hiện từng bước quy trình.
-type: docs
 weight: 16
 url: /vi/java/chart-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Bạn đã sẵn sàng khám phá sức mạnh của biểu đồ động trong các trang trình bày Java của mình chưa? Với Aspose.Slides cho Java, bạn có thể dễ dàng tạo các biểu đồ hấp dẫn. Hướng dẫn toàn diện này sẽ đưa bạn qua các bước cần thiết, từ cài đặt đến hoàn thiện biểu đồ.
 
@@ -35,3 +39,9 @@ Tìm hiểu cách tạo Biểu đồ phân tán trong Java bằng Aspose.Slides.
 Tìm hiểu cách tùy chỉnh biểu đồ trong Java Slides bằng Aspose.Slides for Java. Khám phá các tùy chọn cốt truyện thứ hai và cải thiện bài thuyết trình của bạn.
 ### [Biểu đồ bản đồ cây trong Java Slides](./tree-map-chart-java-slides/)
 Tạo biểu đồ bản đồ cây trong các trang trình bày Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu phân cấp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

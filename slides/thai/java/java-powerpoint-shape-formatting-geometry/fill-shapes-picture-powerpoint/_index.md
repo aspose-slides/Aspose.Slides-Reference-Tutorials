@@ -3,10 +3,14 @@ title: เติมรูปร่างด้วยรูปภาพใน Pow
 linktitle: เติมรูปร่างด้วยรูปภาพใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเติมรูปร่างด้วยรูปภาพในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 งานนำเสนอ PowerPoint มักต้องใช้องค์ประกอบภาพ เช่น รูปร่างที่เต็มไปด้วยรูปภาพ เพื่อเพิ่มความน่าสนใจและถ่ายทอดข้อมูลได้อย่างมีประสิทธิภาพ Aspose.Slides สำหรับ Java มอบชุดเครื่องมืออันทรงพลังที่ช่วยให้งานนี้สำเร็จได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะได้เรียนรู้วิธีเติมรูปร่างด้วยรูปภาพโดยใช้ Aspose.Slides สำหรับ Java ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -80,3 +84,9 @@ Aspose.Slides สำหรับ Java สร้างงานนำเสนอ
 Aspose.Slides สำหรับ Java รองรับรูปแบบภาพที่หลากหลาย รวมถึง JPEG, PNG, GIF, BMP และ TIFF และอื่นๆ อีกมากมาย
 ### ฉันสามารถใช้เอฟเฟ็กต์กับรูปร่างที่เติมแล้วได้หรือไม่
 ใช่ Aspose.Slides สำหรับ Java มี API ที่ครอบคลุมเพื่อใช้เอฟเฟกต์ต่างๆ เช่น เงา การสะท้อน และการหมุน 3 มิติกับรูปร่างที่เติม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

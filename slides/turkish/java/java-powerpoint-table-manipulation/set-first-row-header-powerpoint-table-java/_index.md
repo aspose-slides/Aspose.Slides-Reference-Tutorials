@@ -3,10 +3,14 @@ title: Java ile PowerPoint Tablosunda İlk Satırı Başlık Olarak Ayarla
 linktitle: Java ile PowerPoint Tablosunda İlk Satırı Başlık Olarak Ayarla
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint tablolarında ilk satırı başlık olarak nasıl ayarlayacağınızı öğrenin. Sunum netliğini ve organizasyonunu zahmetsizce geliştirin.
-type: docs
 weight: 19
 url: /tr/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, sunumların kesintisiz entegrasyonuna ve değiştirilmesine olanak tanıyan güçlü bir kütüphane olan Aspose.Slides for Java'yı kullanarak PowerPoint tablolarını nasıl değiştireceğinizi inceleyeceğiz. Özellikle, bir tablonun ilk satırını başlık olarak ayarlamaya odaklanacağız, böylece slaytlarınızın görsel çekiciliğini ve organizasyonunu geliştireceğiz.
 ## Önkoşullar
@@ -76,3 +80,9 @@ Aspose.Slides for Java, PowerPoint dosyalarıyla programlı olarak çalışmak i
  Detaylı dokümantasyon mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
  Topluluk desteği alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

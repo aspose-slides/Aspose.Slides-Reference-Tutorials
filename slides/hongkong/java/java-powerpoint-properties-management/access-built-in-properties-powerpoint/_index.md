@@ -3,10 +3,14 @@ title: 存取 PowerPoint 中的內建屬性
 linktitle: 存取 PowerPoint 中的內建屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 存取 PowerPoint 中的內建屬性。本教學將指導您檢索作者、建立日期等。
-type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Slides for Java 存取 PowerPoint 簡報中的內建屬性。 Aspose.Slides 是一個功能強大的函式庫，可讓 Java 開發人員以程式設計方式處理 PowerPoint 簡報，從而實現無縫讀取和修改屬性等任務。
 ## 先決條件
@@ -101,3 +105,9 @@ Aspose.Slides 支援多種 PowerPoint 版本，確保跨各種平台的兼容性
 是的，您可以在以下位置找到全面的文件並訪問支援論壇：[阿斯普斯網站](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java 是否有試用版？
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

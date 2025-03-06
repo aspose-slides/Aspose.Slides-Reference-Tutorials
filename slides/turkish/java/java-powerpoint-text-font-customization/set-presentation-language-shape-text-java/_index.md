@@ -3,10 +3,14 @@ title: Java'da Sunum Dilini ve Şekil Metnini Ayarlama
 linktitle: Java'da Sunum Dilini ve Şekil Metnini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını nasıl otomatikleştireceğinizi öğrenin. Slaytları programlı bir şekilde kolaylıkla oluşturun, değiştirin ve geliştirin.
-type: docs
 weight: 19
 url: /tr/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 PowerPoint sunumlarını Java'da programlı bir şekilde oluşturmak ve değiştirmek, iş akışı otomasyonunu kolaylaştırabilir ve üretkenliği artırabilir. Aspose.Slides for Java, bu görevleri verimli bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar. Bu eğitim, Aspose.Slides for Java'yı kullanarak sunum dilini ayarlamak ve metni şekillendirmek için gerekli adımlarda size rehberlik eder.
 ## Önkoşullar
@@ -69,3 +73,9 @@ Evet, Aspose.Slides sunumların tamamen programlı olarak oluşturulması için 
  Detaylı dokümantasyon mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için hangi destek seçenekleri mevcut?
  Aspose.Slides forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/slides/11) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

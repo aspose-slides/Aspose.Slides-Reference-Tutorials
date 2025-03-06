@@ -3,10 +3,14 @@ title: Предварительный просмотр вывода презен
 linktitle: Предварительный просмотр вывода презентаций на печать в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как просмотреть распечатку презентаций PowerPoint с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству с исходным кодом для создания и настройки предварительного просмотра перед печатью.
-type: docs
 weight: 11
 url: /ru/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Добро пожаловать в мир Aspose.Slides для .NET, мощной библиотеки, которая позволяет разработчикам легко манипулировать и улучшать презентации PowerPoint в своих .NET-приложениях. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это подробное руководство проведет вас через основные шаги, чтобы использовать весь потенциал Aspose.Slides.
 ## Предварительные условия
@@ -71,3 +75,9 @@ pres.Print(printerSettings);
  Посещать[Временная лицензия](https://purchase.aspose.com/temporary-license/) получить временную лицензию для целей тестирования.
 ### Нужна поддержка или есть еще вопросы?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) чтобы получить помощь и связаться с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

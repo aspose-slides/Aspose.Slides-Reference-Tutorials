@@ -3,10 +3,14 @@ title: Java 投影片中單一系列的負數則反轉
 linktitle: Java 投影片中單一系列的負數則反轉
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 中的 Invert If Negative 功能來增強 PowerPoint 簡報中的圖表視覺效果。
-type: docs
 weight: 11
 url: /zh-hant/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中單一系列的 Invert If Negative 簡介
 
@@ -131,3 +135,9 @@ Aspose.Slides for Java 中的「Invert If Negative」功能可讓您直觀地區
 ### 在哪裡可以存取 Aspose.Slides for Java 文件？
 
 您可以存取 Aspose.Slides for Java 的文檔：[這裡](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

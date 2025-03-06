@@ -3,10 +3,14 @@ title: Java 슬라이드에서 데이터 레이블 백분율 로그인 설정
 linktitle: Java 슬라이드에서 데이터 레이블 백분율 로그인 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 백분율 기호로 데이터 레이블을 설정하는 방법을 알아보세요. 단계별 지침과 소스 코드를 사용하여 매력적인 차트를 만듭니다.
-type: docs
 weight: 17
 url: /ko/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java용 Aspose.Slides의 데이터 레이블 백분율 기호 설정 소개
 
@@ -176,3 +180,10 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### 차트에 시리즈를 더 추가하려면 어떻게 해야 합니까?
 
  다음을 사용하여 차트에 계열을 추가할 수 있습니다.`add` 에 대한 방법`IChartSeriesCollection` 물체.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

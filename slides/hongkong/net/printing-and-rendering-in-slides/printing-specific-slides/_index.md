@@ -3,10 +3,14 @@ title: 在 .NET 中使用 Aspose.Slides 列印簡報投影片
 linktitle: 使用 Aspose.Slides 列印特定的簡報投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 .NET 中列印簡報投影片。開發人員的分步指南。下載該庫並立即開始列印。
-type: docs
 weight: 18
 url: /zh-hant/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在 .NET 開發領域，Aspose.Slides 作為處理簡報檔案的強大工具脫穎而出。如果您發現自己需要以程式設計方式列印簡報投影片，那麼您來對地方了。在本教程中，我們將探索如何使用 Aspose.Slides for .NET 來實現這一目標。
 ## 先決條件
@@ -59,3 +63,9 @@ presentation.Print(printerSettings, "Please set your printer name here");
 答：當然！您可以下載免費試用版[這裡](https://releases.aspose.com/).
 ### Q：如何購買 Aspose.Slides for .NET？
 答：你可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

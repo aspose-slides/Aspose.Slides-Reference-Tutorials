@@ -3,10 +3,14 @@ title: Získejte složky písem v PowerPointu pomocí Java
 linktitle: Získejte složky písem v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak extrahovat složky písem v prezentacích PowerPoint pomocí Java s Aspose.Slides, čímž vylepšíte možnosti návrhu prezentací.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu se ponoříme do procesu získávání složek písem v prezentacích PowerPoint pomocí Javy. Písma hrají klíčovou roli ve vizuální přitažlivosti a čitelnosti vašich prezentací. Využitím Aspose.Slides for Java můžeme efektivně přistupovat k adresářům písem, což je nezbytné pro různé operace s písmy v rámci prezentací PowerPoint.
 ## Předpoklady
@@ -46,3 +50,9 @@ Složky písem usnadňují přístup ke zdrojům písem, umožňují bezproblém
  Můžete navštívit fórum Aspose.Slides[tady](https://forum.aspose.com/c/slides/11) hledat podporu od komunity nebo týmu podpory Aspose.
 ### Kde mohu zakoupit Aspose.Slides pro Java?
  Aspose.Slides pro Java si můžete zakoupit na webových stránkách[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

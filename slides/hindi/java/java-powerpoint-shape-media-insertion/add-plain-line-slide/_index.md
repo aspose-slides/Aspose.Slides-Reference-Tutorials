@@ -3,10 +3,14 @@ title: स्लाइड में सादी लाइन जोड़ें
 linktitle: स्लाइड में सादी लाइन जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके प्रोग्रामेटिक रूप से PowerPoint स्लाइड में एक सादी लाइन जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता बढ़ाएँ।
-type: docs
 weight: 14
 url: /hi/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो Java डेवलपर्स को PowerPoint प्रस्तुतियों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। Aspose.Slides के साथ, आप आसानी से PowerPoint फ़ाइलें बना सकते हैं, संशोधित कर सकते हैं और परिवर्तित कर सकते हैं, जिससे आपका समय और प्रयास बचता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुति में स्लाइड में एक सादी रेखा जोड़ने की प्रक्रिया से परिचित कराएँगे।
 ## आवश्यक शर्तें
@@ -62,3 +66,9 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 हां, आप Aspose.Slides API का उपयोग करके स्लाइड में टेक्स्ट, चित्र और अन्य सामग्री जोड़ सकते हैं।
 ### क्या Aspose.Slides के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  हां, आप Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Προσθήκη κόμβων στο SmartArt στο Java PowerPoint
 linktitle: Προσθήκη κόμβων στο SmartArt στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε κόμβους SmartArt σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την οπτική απήχηση χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Στον τομέα των παρουσιάσεων Java PowerPoint, ο χειρισμός των κόμβων SmartArt μπορεί να βελτιώσει σημαντικά την οπτική ελκυστικότητα και την αποτελεσματικότητα των διαφανειών σας. Το Aspose.Slides for Java προσφέρει μια ισχυρή λύση για προγραμματιστές Java ώστε να ενσωματώνουν απρόσκοπτα τις λειτουργίες SmartArt στις παρουσιάσεις τους. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία προσθήκης κόμβων στο SmartArt σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -71,3 +75,9 @@ pres.save(dataDir + "AddSmartArtNode_out.pptx", SaveFormat.Pptx);
 Ναι, το Aspose.Slides για Java προσφέρει μια ολοκληρωμένη σειρά δυνατοτήτων για χειρισμό PowerPoint, συμπεριλαμβανομένης της δημιουργίας διαφανειών, της κινούμενης εικόνας και της διαχείρισης σχήματος.
 ### Πού μπορώ να αναζητήσω βοήθεια ή υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για υποστήριξη της κοινότητας ή εξερευνήστε την τεκμηρίωση για λεπτομερή καθοδήγηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: إخفاء المعلومات من الرسم البياني في شرا�
 linktitle: إخفاء المعلومات من الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إخفاء عناصر المخطط في Java Slides باستخدام Aspose.Slides لـ Java. قم بتخصيص العروض التقديمية لتحقيق الوضوح والجمال من خلال إرشادات خطوة بخطوة وكود المصدر.
-type: docs
 weight: 13
 url: /ar/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإخفاء المعلومات من الرسم البياني في شرائح جافا
 
@@ -172,3 +176,9 @@ finally
 ### كيف يمكنني تغيير عنوان المخطط وتسميات المحاور برمجياً؟
 
 يمكنك تعيين عنوان وتسميات المخطط والمحاور عن طريق الوصول إلى خصائصها وتعيين النص والتنسيق المطلوبين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: تعديل خلفية الشريحة في Aspose.Slides
 linktitle: تعديل خلفية الشريحة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تخصيص خلفيات الشرائح باستخدام Aspose.Slides لـ .NET. ارفع مستوى عروضك التقديمية بخلفيات جذابة بصريًا. ابدأ اليوم!
-type: docs
 weight: 10
 url: /ar/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 عندما يتعلق الأمر بإنشاء عروض تقديمية جذابة بصريًا، تلعب الخلفية دورًا حاسمًا. يمكّنك Aspose.Slides for .NET من تخصيص خلفيات الشرائح بسهولة. في هذا البرنامج التعليمي، سنستكشف كيفية تعديل خلفيات الشرائح باستخدام Aspose.Slides لـ .NET. 
 
@@ -123,3 +127,10 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ### 5. هل يمكنني تخصيص خلفيات الشرائح لشرائح متعددة في العرض التقديمي؟
 
 نعم، يمكنك تعديل خلفيات الشرائح لأي شريحة في العرض التقديمي باستخدام Aspose.Slides for .NET. ما عليك سوى استهداف الشريحة التي تريد تخصيصها واتباع نفس الخطوات الموضحة في هذا البرنامج التعليمي.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

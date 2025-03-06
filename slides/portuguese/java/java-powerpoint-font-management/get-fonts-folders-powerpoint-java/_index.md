@@ -3,10 +3,14 @@ title: Obtenha pastas de fontes no PowerPoint usando Java
 linktitle: Obtenha pastas de fontes no PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como extrair pastas de fontes em apresentações do PowerPoint usando Java com Aspose.Slides, aprimorando seus recursos de design de apresentação.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Neste tutorial, nos aprofundaremos no processo de aquisição de pastas de fontes em apresentações do PowerPoint usando Java. As fontes desempenham um papel fundamental no apelo visual e na legibilidade de suas apresentações. Ao aproveitar o Aspose.Slides para Java, podemos acessar com eficiência os diretórios de fontes, o que é essencial para várias operações relacionadas a fontes nas apresentações do PowerPoint.
 ## Pré-requisitos
@@ -46,3 +50,9 @@ As pastas de fontes facilitam o acesso aos recursos de fontes, permitindo a inte
  Você pode visitar o fórum Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11) para buscar apoio da comunidade ou da equipe de suporte do Aspose.
 ### Onde posso comprar Aspose.Slides para Java?
  Você pode comprar Aspose.Slides para Java no site[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

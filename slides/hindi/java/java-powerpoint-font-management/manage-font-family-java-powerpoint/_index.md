@@ -3,10 +3,14 @@ title: जावा पावरपॉइंट में फ़ॉन्ट प
 linktitle: जावा पावरपॉइंट में फ़ॉन्ट परिवार प्रबंधित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में फ़ॉन्ट परिवार को प्रबंधित करना सीखें। फ़ॉन्ट शैलियों, रंगों और बहुत कुछ को आसानी से अनुकूलित करें।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Slides का उपयोग करके जावा पावरपॉइंट प्रेजेंटेशन में फ़ॉन्ट परिवार को प्रबंधित करने का तरीका जानेंगे। फ़ॉन्ट आपकी स्लाइड की दृश्य अपील और पठनीयता में महत्वपूर्ण भूमिका निभाते हैं, इसलिए यह जानना आवश्यक है कि उन्हें प्रभावी ढंग से कैसे हेरफेर किया जाए।
 ## आवश्यक शर्तें
@@ -66,3 +70,9 @@ Aspose.Slides for Java के साथ Java PowerPoint प्रस्तुत
 हां, Aspose.Slides पूरी तरह से कोड के माध्यम से पावरपॉइंट प्रस्तुतियों को बनाने, संशोधित करने और हेरफेर करने के लिए API प्रदान करता है।
 ### क्या Java के लिए Aspose.Slides का कोई परीक्षण संस्करण उपलब्ध है?
 हां, आप Java के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

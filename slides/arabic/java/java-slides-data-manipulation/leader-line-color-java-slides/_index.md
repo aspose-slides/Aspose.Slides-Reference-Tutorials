@@ -3,10 +3,14 @@ title: لون الخط القائد في شرائح جافا
 linktitle: لون الخط القائد في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تغيير ألوان الخطوط الرئيسية في مخططات PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر.
-type: docs
 weight: 12
 url: /ar/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى لون خط القائد في Aspose.Slides لـ Java
 
@@ -116,3 +120,9 @@ pres.save(outPath, SaveFormat.Pptx);
 ### هل يمكنني استخدام Aspose.Slides لـ Java مع مكتبات وأطر عمل Java الأخرى؟
 
 نعم، يمكنك دمج Aspose.Slides for Java مع مكتبات وأطر عمل Java الأخرى حسب الحاجة لمشروعك. يوفر Aspose.Slides واجهات برمجة التطبيقات للعمل مع ميزات PowerPoint المتنوعة، مما يجعل من الممكن دمجها مع أدوات وتقنيات أخرى لإنشاء تطبيقات قوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

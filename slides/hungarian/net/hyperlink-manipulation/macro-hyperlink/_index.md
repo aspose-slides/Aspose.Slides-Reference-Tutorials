@@ -3,10 +3,14 @@ title: Makró hiperhivatkozási kattintás beállítása az Aspose.Slides for .N
 linktitle: Hiperhivatkozáskezelés makrók segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be makróhivatkozásokat prezentációiban az Aspose.Slides for .NET segítségével. Növelje az interaktivitást és vonja be a közönségét.
-type: docs
 weight: 13
 url: /hu/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 A modern szoftverfejlesztés világában a dinamikus és interaktív prezentációk készítése kulcsfontosságú szempont. Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a prezentációk zökkenőmentes kezelését. Akár üzleti prezentációt, akár oktatási diavetítést készít, a makró hiperhivatkozási kattintások beállításának lehetősége nagyban javíthatja a felhasználói élményt. Ebben a lépésenkénti útmutatóban végigvezetjük a makró hiperhivatkozási kattintások beállításának folyamatán az Aspose.Slides for .NET használatával. 
 
@@ -106,3 +110,9 @@ Igen, testreszabhatja az AutoShape megjelenését a tulajdonságainak, például
 
 ### Hol kaphatok segítséget vagy támogatást az Aspose.Slides for .NET-hez?
  Ha problémákba ütközik, vagy kérdései vannak, az Aspose támogatási fórumán kérhet segítséget[itt](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

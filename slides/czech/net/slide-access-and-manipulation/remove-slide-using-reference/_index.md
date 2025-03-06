@@ -3,10 +3,14 @@ title: Smazat snímek pomocí reference
 linktitle: Smazat snímek pomocí reference
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se odstraňovat snímky v prezentacích PowerPoint pomocí Aspose.Slides for .NET, výkonné knihovny pro vývojáře .NET.
-type: docs
 weight: 25
 url: /cs/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Jako zkušený autor SEO jsem tu, abych vám poskytl komplexního průvodce používáním Aspose.Slides for .NET k odstranění snímku z prezentace PowerPoint. V tomto tutoriálu krok za krokem rozdělíme proces do zvládnutelných kroků a zajistíme, že jej budete moci snadno sledovat. Takže, pojďme začít!
 
@@ -101,3 +105,9 @@ Ano, můžete procházet snímky a programově odebrat více snímků.
 
 ### Mohu vrátit zpět odstranění snímku pomocí Aspose.Slides for .NET?
 Jakmile je snímek odstraněn, nelze jej snadno vrátit zpět. Před provedením takových změn je vhodné si své prezentace zálohovat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

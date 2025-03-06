@@ -3,10 +3,14 @@ title: Java 슬라이드에서 속성 차트 관리
 linktitle: Java 슬라이드에서 속성 차트 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 멋진 차트를 만들고 Java 슬라이드의 속성을 관리하는 방법을 알아보세요. 강력한 프레젠테이션을 위한 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides를 사용하여 Java 슬라이드의 속성 및 차트 관리 소개
 
@@ -198,3 +202,9 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### 사용자 정의할 수 있는 다른 3D 속성은 무엇입니까?
 
 Aspose.Slides 문서를 참조하여 깊이, 원근감, 조명 등 차트의 다른 3D 속성을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

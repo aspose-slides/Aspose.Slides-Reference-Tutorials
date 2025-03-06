@@ -3,10 +3,14 @@ title: Automatická barva řady grafů v Java Slides
 linktitle: Automatická barva řady grafů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet dynamické grafy s automatickou barvou řady v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete své vizualizace dat bez námahy.
-type: docs
 weight: 14
 url: /cs/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do automatických barev řady grafů v Aspose.Slides pro Javu
 
@@ -190,3 +194,9 @@ Ano, podle potřeby můžete dále formátovat graf, řadu a štítky. Aspose.Sl
 ### Kde najdu další informace o práci s Aspose.Slides for Java?
 
  Pro více informací a podrobnou dokumentaci k Aspose.Slides for Java můžete navštívit referenční dokumentaci[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

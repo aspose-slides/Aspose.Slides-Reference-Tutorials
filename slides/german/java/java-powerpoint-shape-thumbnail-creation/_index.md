@@ -3,10 +3,14 @@ title: Erstellen von Formen und Miniaturansichten in Java PowerPoint
 linktitle: Erstellen von Formen und Miniaturansichten in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Java Formen und Miniaturansichten in PowerPoint erstellen. Detaillierte Tutorials zum Erstellen von Gruppenformen, Skalierungsfaktor-Miniaturansichten und Zoomeffekten.
-type: docs
 weight: 24
 url: /de/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 
 Das Erstellen optisch ansprechender und gut organisierter PowerPoint-Präsentationen ist für eine effektive Kommunikation unerlässlich. Mit Aspose.Slides für Java können Sie Ihre Präsentationen mühelos verbessern, indem Sie verschiedene Formen und Miniaturansichten erstellen. Dieser Artikel bietet eine Schritt-für-Schritt-Anleitung zum Erlernen dieser Techniken, damit Ihre Folien sowohl ansprechend als auch professionell sind.
@@ -52,3 +56,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides in Java Miniaturansichten von SmartArt-U
  Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java einen Zusammenfassungszoom in PowerPoint erstellen.
 ### [Zoom-Rahmen in PowerPoint erstellen](./create-zoom-frame-powerpoint/)
 Erfahren Sie, wie Sie mit Aspose.Slides für Java ansprechende Zoom-Frames in PowerPoint erstellen. Folgen Sie unserer Anleitung, um Ihren Präsentationen interaktive Elemente hinzuzufügen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

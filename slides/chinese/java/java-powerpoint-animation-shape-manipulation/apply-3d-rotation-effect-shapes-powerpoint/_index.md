@@ -3,10 +3,14 @@ title: 在 PowerPoint 中对形状应用 3D 旋转效果
 linktitle: 在 PowerPoint 中对形状应用 3D 旋转效果
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过这个全面的、循序渐进的教程学习如何使用 Aspose.Slides for Java 在 PowerPoint 中对形状应用 3D 旋转效果。
-type: docs
 weight: 12
 url: /zh/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 您准备好将 PowerPoint 演示文稿提升到一个新的水平了吗？添加 3D 旋转效果可以使您的幻灯片更具活力和吸引力。无论您是经验丰富的开发人员还是刚刚入门，本分步教程都将向您展示如何使用 Aspose.Slides for Java 将 3D 旋转效果应用于 PowerPoint 中的形状。让我们开始吧！
 ## 先决条件
@@ -84,3 +88,9 @@ Aspose.Slides for Java 是一个强大的 API，可以以编程方式创建、�
 您可以访问[支持论坛](https://forum.aspose.com/c/slides/11)寻求帮助并讨论任何问题。
 ### 我可以在商业项目中使用 Aspose.Slides for Java 吗？
 是的，但您需要购买许可证。您可以从[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

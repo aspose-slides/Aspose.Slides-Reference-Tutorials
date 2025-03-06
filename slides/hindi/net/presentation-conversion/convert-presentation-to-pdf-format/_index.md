@@ -3,10 +3,14 @@ title: प्रस्तुति को पीडीएफ प्रारू�
 linktitle: प्रस्तुति को पीडीएफ प्रारूप में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका। कुशल और प्रभावी रूपांतरण।
-type: docs
 weight: 24
 url: /hi/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## .NET के लिए Aspose.Slides का परिचय
 
@@ -107,3 +111,9 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 ### क्या इसका कोई परीक्षण संस्करण उपलब्ध है?
 
  हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://products.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

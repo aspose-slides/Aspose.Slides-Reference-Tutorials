@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में रोटेशन को
 linktitle: जावा स्लाइड्स में रोटेशन कोण सेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ अपनी Java स्लाइड्स को ऑप्टिमाइज़ करें। टेक्स्ट एलिमेंट्स के लिए रोटेशन एंगल सेट करना सीखें। सोर्स कोड के साथ चरण-दर-चरण गाइड।
-type: docs
 weight: 17
 url: /hi/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में रोटेशन कोण सेट करने का परिचय
 
@@ -100,3 +104,9 @@ Aspose.Slides for Java चार्ट शीर्षकों के लिए
 ### क्या चार्ट अक्ष शीर्षक में पाठ के घूर्णन को एनिमेट करना संभव है?
 
 हां, आप Aspose.Slides for Java का उपयोग करके, चार्ट अक्ष शीर्षकों सहित टेक्स्ट तत्वों में एनिमेशन प्रभाव जोड़ सकते हैं। अपनी प्रस्तुतियों में एनिमेशन जोड़ने के बारे में जानकारी के लिए दस्तावेज़ देखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 建立幾何形狀的複合對象
 linktitle: 建立幾何形狀的複合對象
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過這個綜合教程，了解如何使用 Aspose.Slides for Java 建立幾何形狀的複合物件。非常適合 Java 開發人員。
-type: docs
 weight: 20
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 嘿！您是否曾經想過使用 Java 在 PowerPoint 簡報中建立令人驚嘆且複雜的形狀？嗯，您來對地方了。在本教程中，我們將深入研究強大的 Aspose.Slides for Java 函式庫來建立幾何形狀的複合物件。無論您是經驗豐富的開發人員還是新手，本逐步指南都將幫助您立即取得令人印象深刻的成果。準備好開始了嗎？讓我們深入了解吧！
 ## 先決條件
@@ -95,3 +99,9 @@ Aspose.Slides for Java 是一個功能強大的函式庫，用於以 Java 建立
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到更多文件和支援？
 查看[文件](https://reference.aspose.com/slides/java/)和[支援論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

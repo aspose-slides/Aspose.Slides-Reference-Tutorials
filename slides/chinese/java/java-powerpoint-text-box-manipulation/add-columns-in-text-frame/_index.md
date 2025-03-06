@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for Java 在文本框中添加列
 linktitle: 使用 Aspose.Slides for Java 在文本框中添加列
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在文本框中添加列以增强您的 PowerPoint 演示文稿。我们的分步指南简化了该过程。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 操作文本框以添加列。Aspose.Slides 是一个功能强大的库，使 Java 开发人员能够以编程方式创建、操作和转换 PowerPoint 演示文稿。向文本框添加列可增强幻灯片中文本的视觉吸引力和组织性，使演示文稿更具吸引力且更易于阅读。
 ## 先决条件
@@ -81,3 +85,9 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
 有详细文档可供查阅[这里](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides for Java 的技术支持？
 你可以寻求社区的支持[这里](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

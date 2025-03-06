@@ -3,10 +3,14 @@ title: 如何在 Aspose.Slides .NET 中更改幻灯片的背景
 linktitle: 更改普通幻灯片背景
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 更改幻灯片背景并创建令人惊叹的 PowerPoint 演示文稿。
-type: docs
 weight: 15
 url: /zh/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在演示设计领域，创建引人注目且引人入胜的幻灯片至关重要。Aspose.Slides for .NET 是一款功能强大的工具，可让您以编程方式操作 PowerPoint 演示文稿。在本分步指南中，我们将向您展示如何使用 Aspose.Slides for .NET 更改幻灯片的背景。这可以帮助您增强演示文稿的视觉吸引力并使其更具影响力。 
 
@@ -99,3 +103,9 @@ Aspose.Slides for .NET 旨在与各种 PowerPoint 版本（包括最新版本）
 ### 5. 如何获取 Aspose.Slides for .NET 的临时许可证？
 
 如果你的项目需要临时许可证，你可以从[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

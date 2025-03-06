@@ -3,10 +3,14 @@ title: أضف التوقيعات الرقمية إلى برنامج PowerPoint �
 linktitle: دعم التوقيعات الرقمية في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بالتوقيع على عروض PowerPoint التقديمية بشكل آمن باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة. قم بالتنزيل الآن للحصول على نسخة تجريبية مجانية
-type: docs
 weight: 19
 url: /ar/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 تلعب التوقيعات الرقمية دورًا حاسمًا في ضمان صحة وسلامة المستندات الرقمية. يوفر Aspose.Slides for .NET دعمًا قويًا للتوقيعات الرقمية، مما يسمح لك بالتوقيع على عروض PowerPoint التقديمية الخاصة بك بشكل آمن. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة التوقيعات الرقمية إلى عروضك التقديمية باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -62,3 +66,9 @@ using (Presentation pres = new Presentation())
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/net/).
 ### هل تحتاج إلى دعم أو لديك أسئلة إضافية؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

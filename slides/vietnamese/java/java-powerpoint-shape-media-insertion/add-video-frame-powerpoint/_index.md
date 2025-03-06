@@ -3,10 +3,14 @@ title: Thêm khung video trong PowerPoint
 linktitle: Thêm khung video trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tích hợp liền mạch nội dung video vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Các trang trình bày của bạn có các yếu tố đa phương tiện để thu hút khán giả.
-type: docs
 weight: 17
 url: /vi/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm khung video vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bằng cách làm theo các hướng dẫn từng bước này, bạn sẽ có thể tích hợp liền mạch nội dung video vào bản trình bày của mình một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -60,3 +64,9 @@ Có, Aspose.Slides cho Java tương thích với JDK phiên bản 6 trở lên.
 Có, bạn có thể đặt chế độ phát và âm lượng của khung hình video theo sở thích của mình.
 ### Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.Slides ở đâu?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ, tài liệu và hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

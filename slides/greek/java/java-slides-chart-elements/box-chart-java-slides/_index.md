@@ -3,10 +3,14 @@ title: Διάγραμμα πλαισίου σε διαφάνειες Java
 linktitle: Διάγραμμα πλαισίου σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε γραφήματα πλαισίου σε παρουσιάσεις Java με το Aspose.Slides. Βήμα προς βήμα οδηγός και πηγαίος κώδικας περιλαμβάνονται για αποτελεσματική οπτικοποίηση δεδομένων.
-type: docs
 weight: 10
 url: /el/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στο Box Chart στο Aspose.Slides για Java
 
@@ -148,3 +152,9 @@ finally
 ### Τι σημαίνει το QuartileMethodType.Exclusive;
 
  ο`QuartileMethodType.Exclusive` Η ρύθμιση καθορίζει ότι οι υπολογισμοί των τεταρτημορίων θα πρέπει να γίνονται χρησιμοποιώντας την αποκλειστική μέθοδο. Μπορείτε να επιλέξετε διαφορετικές μεθόδους υπολογισμού τεταρτημορίων ανάλογα με τα δεδομένα και τις απαιτήσεις σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

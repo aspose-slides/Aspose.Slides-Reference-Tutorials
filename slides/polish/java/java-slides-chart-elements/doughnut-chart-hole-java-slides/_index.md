@@ -3,10 +3,14 @@ title: Dziura w wykresie pierścieniowym w slajdach Java
 linktitle: Dziura w wykresie pierścieniowym w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz wykresy pierścieniowe z niestandardowymi rozmiarami otworów w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiającym dostosowanie wykresu.
-type: docs
 weight: 11
 url: /pl/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do wykresu pierścieniowego z dziurą w slajdach Java
 
@@ -94,3 +98,9 @@ finally
 ### Czy jest możliwość dodania tytułu do wykresu?
 
  Z pewnością! Możesz dodać tytuł do wykresu za pomocą`setTitle` metoda na`IChart` obiekt i podając żądany tekst tytułu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

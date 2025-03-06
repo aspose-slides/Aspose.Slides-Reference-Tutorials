@@ -3,10 +3,14 @@ title: Java PowerPoint Shape a vkládání médií
 linktitle: Java PowerPoint Shape a vkládání médií
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vkládat tvary a média do prezentací PowerPoint pomocí Aspose.Slides for Java. Výukové programy zahrnují přidávání čar, zvuku, objektů OLE a videí.
-type: docs
 weight: 23
 url: /cs/java/java-powerpoint-shape-media-insertion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod
 
@@ -53,3 +57,9 @@ Naučte se, jak přidat odsazení roztažení pro výplň obrázků v prezentac�
 Naučte se, jak bezproblémově integrovat videoobsah do prezentací PowerPoint pomocí Aspose.Slides for Java. Vaše snímky s multimediálními prvky pro zapojení publika.
 ### [Přidejte video rámeček z webového zdroje v PowerPointu](./add-video-frame-web-source-powerpoint/)
 Naučte se, jak vylepšit své prezentace v PowerPointu přidáním snímků videa z webových zdrojů pomocí Aspose.Slides for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

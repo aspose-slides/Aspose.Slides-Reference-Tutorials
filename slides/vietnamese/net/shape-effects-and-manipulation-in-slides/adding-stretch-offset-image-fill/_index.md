@@ -3,10 +3,14 @@ title: Thêm Stretch Offset cho Hình ảnh Điền vào Bản trình bày Power
 linktitle: Thêm Stretch Offset cho Hình ảnh Điền vào Trang trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Làm theo hướng dẫn từng bước để thêm phần bù kéo dài cho phần tô hình ảnh.
-type: docs
 weight: 18
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, hình ảnh đóng vai trò then chốt trong việc thu hút sự chú ý của khán giả. Aspose.Slides for .NET trao quyền cho các nhà phát triển nâng cao bản trình bày PowerPoint của họ bằng cách cung cấp một bộ tính năng mạnh mẽ. Một tính năng như vậy là khả năng thêm phần bù giãn cho hình ảnh, cho phép tạo ra các slide sáng tạo và hấp dẫn về mặt hình ảnh.
 ## Điều kiện tiên quyết
@@ -71,3 +75,9 @@ Có, Aspose.Slides for .NET phù hợp cho cả ứng dụng máy tính để b�
  Tham khảo đến[tài liệu](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết.
 ### Tôi có thể mua Aspose.Slides cho .NET không?
  Có, bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

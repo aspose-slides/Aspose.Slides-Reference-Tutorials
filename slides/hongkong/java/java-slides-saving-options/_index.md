@@ -3,10 +3,14 @@ title: Java 投影片儲存選項
 linktitle: Java 投影片儲存選項
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解有關 Aspose.Slides for Java 的 Java 投影片儲存選項。探索全面的教程和指南，以實現高效的幻燈片管理和自訂。
-type: docs
 weight: 25
 url: /zh-hant/java/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 
 在動態簡報的世界中，Java 已成為一種多功能語言，提供了大量的工具和程式庫來增強您的投影片簡報。在管理和自訂投影片方面，Aspose.Slides for Java 是一個功能強大的解決方案。在本文中，我們將使用 Aspose.Slides for Java 深入研究 Java 投影片保存選項的令人興奮的領域。
@@ -46,3 +50,9 @@ Aspose.Slides for Java 支援一系列其他格式，例如 PPTX、PPT、ODP 和
 了解如何使用 Aspose.Slides 在 Java 中將 PowerPoint 簡報儲存為唯讀。透過逐步說明和程式碼範例保護您的內容。
 ### [在 Java 投影片中儲存屬性](./save-properties-in-java-slides/)
 使用 Aspose.Slides for Java 優化您的 PowerPoint 簡報。了解如何設定屬性、停用加密、新增密碼保護以及輕鬆儲存。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

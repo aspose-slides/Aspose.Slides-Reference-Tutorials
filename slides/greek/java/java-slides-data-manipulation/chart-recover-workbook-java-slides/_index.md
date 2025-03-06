@@ -3,10 +3,14 @@ title: Βιβλίο εργασίας ανάκτησης γραφήματος σ�
 linktitle: Βιβλίο εργασίας ανάκτησης γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε βιβλία εργασίας από γραφήματα σε Java Slides με το Aspose.Slides. Οδηγός βήμα προς βήμα για την αυτοματοποίηση του PowerPoint.
-type: docs
 weight: 17
 url: /el/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στο Βιβλίο εργασίας ανάκτησης γραφημάτων σε διαφάνειες Java
 
@@ -109,3 +113,9 @@ finally
 ### Πώς μπορώ να έχω πρόσβαση σε περαιτέρω τεκμηρίωση για το Aspose.Slides για Java;
 
  Για λεπτομερή τεκμηρίωση και αναφορές στο Aspose.Slides for Java, επισκεφτείτε τη σελίδα τεκμηρίωσης στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

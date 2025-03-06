@@ -3,10 +3,14 @@ title: Cara Mendapatkan Rentang Data Bagan di Aspose.Slides untuk .NET
 linktitle: Dapatkan Rentang Data Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekstrak rentang data bagan dari presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 11
 url: /id/net/additional-chart-features/chart-get-range/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Apakah Anda ingin mengekstrak rentang data dari bagan di presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET? Anda datang ke tempat yang tepat. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mendapatkan rentang data bagan dari presentasi Anda. Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan Anda bekerja dengan dokumen PowerPoint secara terprogram, dan mendapatkan rentang data bagan hanyalah salah satu dari banyak tugas yang dapat membantu Anda selesaikan.
 
@@ -93,3 +97,9 @@ Ya, Anda bisa bekerja dengan slide, bentuk, teks, gambar, dan elemen lain dalam 
 
 ### Opsi dukungan apa yang tersedia untuk Aspose.Slides untuk pengguna .NET?
  Anda bisa mendapatkan dukungan dan bantuan dari komunitas Aspose di situs mereka[forum dukungan](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

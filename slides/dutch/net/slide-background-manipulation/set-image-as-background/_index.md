@@ -3,10 +3,14 @@ title: Afbeelding instellen als dia-achtergrond met Aspose.Slides
 linktitle: Stel een afbeelding in als dia-achtergrond
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u afbeeldingsachtergronden in PowerPoint instelt met Aspose.Slides voor .NET. Verbeter uw presentaties met gemak.
-type: docs
 weight: 13
 url: /nl/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In de wereld van presentatieontwerp en -automatisering is Aspose.Slides voor .NET een krachtige en veelzijdige tool waarmee ontwikkelaars PowerPoint-presentaties gemakkelijk kunnen manipuleren. Of u nu aangepaste rapporten maakt, verbluffende presentaties maakt of het genereren van dia's automatiseert, Aspose.Slides voor .NET is een waardevol bezit. In deze stapsgewijze handleiding laten we u zien hoe u een afbeelding instelt als dia-achtergrond met behulp van deze opmerkelijke bibliotheek.
 
@@ -115,3 +119,9 @@ Aspose.Slides voor .NET is voornamelijk ontworpen voor Windows-omgevingen. Voor 
 ### 5. Biedt Aspose.Slides voor .NET een proefversie?
 
  Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET krijgen via de website op[deze link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

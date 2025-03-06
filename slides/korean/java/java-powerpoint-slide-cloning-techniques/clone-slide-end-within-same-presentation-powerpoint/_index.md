@@ -3,10 +3,14 @@ title: 동일한 프레젠테이션 내에서 끝까지 슬라이드를 복제
 linktitle: 동일한 프레젠테이션 내에서 끝까지 슬라이드를 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 단계별 가이드를 통해 Aspose.Slides for Java를 사용하여 프레젠테이션 끝 부분에 슬라이드를 복제하는 방법을 알아보세요. Java 개발자에게 적합합니다.
-type: docs
 weight: 16
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Java를 사용하여 프레젠테이션 조작 기술을 향상시키고 싶으십니까? Aspose.Slides for Java는 PowerPoint 프레젠테이션을 손쉽게 생성, 수정 및 조작할 수 있는 강력한 라이브러리입니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용하여 동일한 프레젠테이션의 끝 부분에 슬라이드를 복제하는 방법을 안내합니다. 이 튜토리얼이 끝나면 자신의 프로젝트에서 이 기능을 사용하는 방법을 확실히 이해할 수 있을 것입니다. 뛰어들어보자!
 ## 전제 조건
@@ -64,3 +68,9 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
 ### 프레젠테이션을 PDF로 변환하기 위해 Aspose.Slides for Java를 사용할 수 있습니까?
 예, Aspose.Slides for Java는 프레젠테이션을 PDF를 포함한 다양한 형식으로 변환하는 것을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

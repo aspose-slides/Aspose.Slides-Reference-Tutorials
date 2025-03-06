@@ -3,10 +3,14 @@ title: Manipulace s daty Java Slides
 linktitle: Manipulace s daty Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete své dovednosti manipulace s daty Java Slides pomocí výukových programů Aspose.Slides for Java. Naučte se krok za krokem efektivně vytvářet, upravovat a transformovat prezentace.
-type: docs
 weight: 13
 url: /cs/java/data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Jste připraveni zvládnout umění manipulace s daty Java Slides? Už v tom nehledejte. V tomto komplexním průvodci vás provedeme složitostí používání Aspose.Slides pro Java k vytváření, úpravám a vylepšování vašich prezentací. Ať už jste zkušený vývojář nebo teprve začínáte svou cestu do světa Java Slides, naše výukové programy vás vybaví znalostmi a dovednostmi, které potřebujete.
 
@@ -96,3 +100,9 @@ Naučte se vytvářet dynamické výsečové grafy s automatickými barvami řez
 Přečtěte si, jak nastavit popisky pro datové štítky v Aspose.Slides pro Java. Průvodce krok za krokem se zdrojovým kódem.
 ### [Nastavení formátu data pro osu kategorie v Java Slides](./setting-date-format-category-axis-java-slides/)
 Naučte se, jak nastavit formát data pro osu kategorií v grafu PowerPoint pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Creazione di grafici radar in diapositive Java
 linktitle: Creazione di grafici radar in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare grafici radar nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per l'API Java.
-type: docs
 weight: 10
 url: /it/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alla creazione di un grafico radar in Diapositive Java
 
@@ -268,3 +272,9 @@ Fare riferimento al "Passaggio 5" per personalizzare le etichette e la formattaz
 ### Come faccio a salvare il grafico in un formato di file diverso?
 
 È possibile modificare il formato di output modificando l'estensione del file nel file`outPath` variabile e utilizzando l'appropriato`SaveFormat` . Ad esempio, per salvare come PDF, utilizzare`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

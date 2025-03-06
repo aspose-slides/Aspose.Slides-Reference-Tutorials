@@ -3,10 +3,14 @@ title: Voeg een hyperlink toe aan het tekstvak in PowerPoint met behulp van Java
 linktitle: Voeg een hyperlink toe aan het tekstvak in PowerPoint met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u hyperlinks kunt toevoegen aan PowerPoint-tekstvakken met Aspose.Slides voor Java. Stap-voor-stap handleiding met voorbeelden voor Java-ontwikkelaars.
-type: docs
 weight: 23
 url: /nl/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In het huidige digitale tijdperk is het creëren van dynamische presentaties die boeien en informeren cruciaal voor effectieve communicatie. Java-ontwikkelaars die hun applicaties willen uitbreiden met interactieve functies, wenden zich vaak tot Aspose.Slides for Java, een krachtige bibliotheek die programmatische manipulatie van PowerPoint-presentaties mogelijk maakt. Deze tutorial duikt in zo'n functie: het toevoegen van hyperlinks aan tekstvakken in PowerPoint-presentaties met behulp van Java. Aan het einde van deze handleiding heeft u een duidelijk inzicht in hoe u deze functionaliteit naadloos in uw Java-applicaties kunt implementeren.
 ## Vereisten
@@ -76,3 +80,9 @@ Door deze stappen te volgen, hebt u met succes geleerd hoe u hyperlinks kunt toe
  Ja, tijdelijke licenties zijn te koop[hier](https://purchase.aspose.com/temporary-license/).
 ### Is Aspose.Slides compatibel met andere Java-bibliotheken?
 Aspose.Slides kan goed worden geïntegreerd met verschillende Java-bibliotheken voor uitgebreide PowerPoint-manipulatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

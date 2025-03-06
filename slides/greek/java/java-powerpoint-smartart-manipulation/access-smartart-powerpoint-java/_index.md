@@ -3,10 +3,14 @@ title: Αποκτήστε πρόσβαση στο SmartArt στο PowerPoint χ�
 linktitle: Αποκτήστε πρόσβαση στο SmartArt στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να έχετε πρόσβαση και να χειρίζεστε το SmartArt σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides. Οδηγός βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 12
 url: /el/java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Γεια σας, λάτρεις της Java! Βρεθήκατε ποτέ ότι χρειάζεται να εργαστείτε με το SmartArt σε παρουσιάσεις PowerPoint μέσω προγραμματισμού; Ίσως αυτοματοποιείτε μια αναφορά ή ίσως αναπτύσσετε μια εφαρμογή που δημιουργεί διαφάνειες εν κινήσει. Όποια κι αν είναι η ανάγκη σας, ο χειρισμός του SmartArt μπορεί να φαίνεται σαν μια δύσκολη επιχείρηση. Αλλά μη φοβάσαι! Σήμερα, εξετάζουμε τον τρόπο πρόσβασης στο SmartArt στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει σε όλα όσα πρέπει να γνωρίζετε, από τη ρύθμιση του περιβάλλοντός σας έως τη διέλευση και τον χειρισμό κόμβων SmartArt. Λοιπόν, πιείτε ένα φλιτζάνι καφέ και ας ξεκινήσουμε!
 ## Προαπαιτούμενα
@@ -84,3 +88,9 @@ if (pres != null) pres.dispose();
 Το Aspose.Slides υποστηρίζει όλους τους τύπους διατάξεων SmartArt που είναι διαθέσιμες στο PowerPoint, συμπεριλαμβανομένων οργανογραμμάτων, λιστών, κύκλων και άλλων.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Για υποστήριξη, επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11)όπου μπορείτε να κάνετε ερωτήσεις και να λάβετε βοήθεια από την κοινότητα και τους προγραμματιστές του Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

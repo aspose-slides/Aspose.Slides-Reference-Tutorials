@@ -3,10 +3,14 @@ title: تحقيق التوافق بين PDF/A وPDF/UA باستخدام Aspose.S
 linktitle: تحقيق التوافق بين PDF/A وPDF/UA
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تأكد من توافق PDF/A وPDF/UA مع Aspose.Slides لـ .NET. قم بإنشاء عروض تقديمية يمكن الوصول إليها وحفظها بسهولة.
-type: docs
 weight: 23
 url: /ar/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -127,3 +131,9 @@ Install-Package Aspose.Slides
 ### هل التوافق مع PDF/UA ضروري لجميع المستندات؟
 
 يُعد التوافق مع PDF/UA مهمًا بشكل خاص للمستندات التي يُقصد منها أن تكون متاحة للمستخدمين ذوي الإعاقة. ومع ذلك، فإن ضرورة التوافق مع PDF/UA تعتمد على المتطلبات المحددة لجمهورك المستهدف.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 揭开幻灯片中有效斜面数据检索的魔力
 linktitle: 获取演示幻灯片中形状的有效斜面数据
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 通过有效的斜面数据增强您的演示幻灯片。包含分步说明和示例代码的综合指南。
-type: docs
 weight: 20
 url: /zh/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 欢迎来到 Aspose.Slides for .NET 的迷人世界，这是您轻松创建精彩演示文稿的途径。在本教程中，我们将深入探讨使用 Aspose.Slides for .NET 获取演示文稿幻灯片中形状的有效斜面数据的复杂性。
 ## 先决条件
@@ -69,3 +73,9 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 是的，您可以购买 Aspose.Slides for .NET[这里](https://purchase.aspose.com/buy)为商业项目解锁其高级功能。
 ### 如果我在实施过程中遇到问题怎么办？
 向 Aspose.Slides for .NET 社区寻求帮助[支持论坛](https://forum.aspose.com/c/slides/11)以获得迅速且有用的解决方案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

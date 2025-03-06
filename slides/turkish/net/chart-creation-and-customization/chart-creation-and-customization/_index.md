@@ -3,10 +3,14 @@ title: Aspose.Slides'ta Grafik Oluşturma ve Özelleştirme
 linktitle: Aspose.Slides'ta Grafik Oluşturma ve Özelleştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint'te grafikleri nasıl oluşturup özelleştireceğinizi öğrenin. Dinamik sunumlar oluşturmak için adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -110,3 +114,9 @@ Evet, kapsamlı özelleştirme seçenekleriyle çubuk grafikler, pasta grafikler
 
 ### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
 Evet, Aspose web sitesinden geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

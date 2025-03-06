@@ -3,10 +3,14 @@ title: Wyrównanie i formatowanie tekstu w programie Java PowerPoint
 linktitle: Wyrównanie i formatowanie tekstu w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odkryj samouczki dotyczące wyrównywania i formatowania tekstu w programie Java PowerPoint. Naucz się wyrównywać, formatować, eksportować i wyróżniać tekst za pomocą Aspose.Slides dla Java.
-type: docs
 weight: 23
 url: /pl/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 
 Opanowanie wyrównania i formatowania tekstu w prezentacjach Java PowerPoint ma kluczowe znaczenie w tworzeniu dopracowanych, profesjonalnych slajdów. Dzięki Aspose.Slides dla Java możesz z łatwością uzyskać płynne formatowanie i wyrównywanie tekstu. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, nasze samouczki pomogą Ci ulepszyć Twoje prezentacje. Zagłębmy się w samouczki i zobaczmy, jak możesz podnieść swoje umiejętności dotyczące programu PowerPoint!
@@ -45,3 +49,9 @@ Dowiedz się, jak skutecznie zastępować tekst w prezentacjach programu PowerPo
 Dowiedz się, jak wyodrębnić tekst z węzłów SmartArt w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Łatwy przewodnik krok po kroku dla programistów.
 ### [Zaznacz tekst za pomocą wyrażenia regularnego w programie Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 Dowiedz się, jak wyróżniać tekst w programie PowerPoint przy użyciu wzorców wyrażeń regularnych w Aspose.Slides dla Java. Dynamicznie ulepszaj swoje prezentacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java 슬라이드에 사용자 정의 라인 추가
 linktitle: Java 슬라이드에 사용자 정의 라인 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 사용자 정의 라인으로 Java 슬라이드를 향상시키세요. Aspose.Slides for Java를 사용하는 단계별 가이드입니다. 인상적인 시각적 자료를 위해 프레젠테이션에 줄을 추가하고 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드에 사용자 정의 라인 추가 소개
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // 선 두께를 2포인트로 설정
 ### 슬라이드에 여러 줄을 추가할 수 있나요?
 
 예, 이 튜토리얼에서 언급한 단계를 반복하여 슬라이드에 여러 줄을 추가할 수 있습니다. 각 라인은 독립적으로 사용자 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

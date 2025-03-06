@@ -3,10 +3,14 @@ title: 音频和视频提取
 linktitle: 音频和视频提取
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索有关 .NET 应用程序中音频和视频提取的全面 Aspose.Slides 教程。了解如何以编程方式从 PowerPoint 演示文稿中提取和操作多媒体元素。
-type: docs
 weight: 15
 url: /zh/net/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介绍：
 
@@ -31,3 +35,9 @@ url: /zh/net/audio-and-video-extraction/
 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 时间线中提取音频。带有代码示例的分步指南。
 ### [从幻灯片中提取视频](./extract-video/)
 掌握如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中提取视频。按照我们的指南和代码示例进行操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

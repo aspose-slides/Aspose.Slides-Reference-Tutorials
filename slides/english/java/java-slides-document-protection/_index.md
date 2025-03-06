@@ -3,10 +3,14 @@ title: Document Protection Using Aspose.Slides For Java
 linktitle: Java Slides Document Protection
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to enhance the security of your Java Slides documents with Aspose.Slides. Explore step-by-step tutorials for document protection.
-type: docs
 weight: 24
 url: /java/document-protection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 In the ever-evolving world of digital documents, ensuring the security and integrity of your content is paramount. Java Slides documents are no exception to this rule, and that's where Aspose.Slides for Java comes to the rescue. In this comprehensive guide, we'll walk you through the essential tutorials for document protection using Aspose.Slides for Java.
 
 ## Why Document Protection Matters
@@ -34,3 +38,9 @@ In this article, we've delved into the importance of document protection, introd
 ## Java Slides Document Protection Tutorials
 ### [Remove Write Protection in Java Slides](./remove-write-protection-in-java-slides/)
 Learn how to remove write protection in Java Slides presentations using Aspose.Slides for Java. Step-by-step guide with source code included.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

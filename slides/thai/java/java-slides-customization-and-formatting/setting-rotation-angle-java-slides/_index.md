@@ -3,10 +3,14 @@ title: การตั้งค่ามุมการหมุนใน Java S
 linktitle: การตั้งค่ามุมการหมุนใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ปรับแต่งสไลด์ Java ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้วิธีการตั้งค่ามุมการหมุนสำหรับองค์ประกอบข้อความ คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
-type: docs
 weight: 17
 url: /th/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## รู้เบื้องต้นเกี่ยวกับการตั้งค่ามุมการหมุนใน Java Slides
 
@@ -100,3 +104,9 @@ Aspose.Slides for Java มีตัวเลือกการจัดรูป
 ### เป็นไปได้ไหมที่จะทำให้การหมุนข้อความในชื่อแกนแผนภูมิเคลื่อนไหวได้
 
 ได้ คุณสามารถเพิ่มเอฟเฟ็กต์ภาพเคลื่อนไหวให้กับองค์ประกอบข้อความ รวมถึงชื่อแกนแผนภูมิได้ โดยใช้ Aspose.Slides สำหรับ Java โปรดดูเอกสารประกอบสำหรับข้อมูลเกี่ยวกับการเพิ่มภาพเคลื่อนไหวในงานนำเสนอของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

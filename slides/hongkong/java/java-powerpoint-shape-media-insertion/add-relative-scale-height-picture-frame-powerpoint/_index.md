@@ -3,10 +3,14 @@ title: 在 PowerPoint 中新增相對比例高度相框
 linktitle: 在 PowerPoint 中新增相對比例高度相框
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中新增相對比例高度圖片框架，從而增強您的視覺內容。
-type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教學中，您將學習如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中新增具有相對比例高度的圖片框架。
 ## 先決條件
@@ -68,3 +72,9 @@ Aspose.Slides for Java與各種版本的PowerPoint相容，確保建立簡報的
 是的，Aspose.Slides for Java 支援各種圖片格式，包括 PNG、GIF、BMP 等。
 ### 是否有可供 Aspose.Slides 使用者使用的社群論壇或支援管道？
 是的，您可以造訪 Aspose.Slides 論壇，以了解有關該程式庫的任何問題、討論或協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

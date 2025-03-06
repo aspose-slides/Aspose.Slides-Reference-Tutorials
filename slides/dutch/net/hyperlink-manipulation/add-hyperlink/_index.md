@@ -3,10 +3,14 @@ title: Hyperlinks toevoegen aan dia's in .NET met Aspose.Slides
 linktitle: Hyperlink toevoegen aan dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u hyperlinks aan PowerPoint-dia's toevoegt met Aspose.Slides voor .NET. Verbeter uw presentaties met interactieve elementen.
-type: docs
 weight: 12
 url: /nl/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In de wereld van digitale presentaties is interactiviteit cruciaal. Door hyperlinks aan uw dia's toe te voegen, kunt u uw presentatie aantrekkelijker en informatiever maken. Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u PowerPoint-presentaties programmatisch kunt maken, wijzigen en manipuleren. In deze zelfstudie laten we u zien hoe u hyperlinks aan uw dia's kunt toevoegen met Aspose.Slides voor .NET. 
 
@@ -106,3 +110,9 @@ Aspose.Slides biedt een breed scala aan interactieve functies, waaronder actiekn
 ### 5. Is Aspose.Slides beschikbaar voor andere programmeertalen?
 
 Ja, Aspose.Slides is beschikbaar voor verschillende programmeertalen, waaronder Java en Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드 재
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양 순서 변경
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양을 변경하는 방법을 알아보세요. 이 단계별 가이드에 따라 모양을 재정렬하고 시각적 매력을 향상시키세요.
-type: docs
 weight: 26
 url: /ko/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것은 효과적인 커뮤니케이션의 중요한 측면입니다. .NET용 Aspose.Slides는 개발자가 프로그래밍 방식으로 슬라이드를 조작할 수 있도록 지원하여 광범위한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 도형 순서를 변경하는 과정을 살펴보겠습니다.
 ## 전제 조건
@@ -70,3 +74,9 @@ A: 예, Aspose.Slides for .NET은 Windows 및 Linux 환경 모두와 호환됩�
  답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원을 받고 커뮤니티에 참여합니다.
 ### Q: Aspose.Slides for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
  A: 당신은[임시면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

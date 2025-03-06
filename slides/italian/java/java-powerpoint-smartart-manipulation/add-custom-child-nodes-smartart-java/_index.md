@@ -3,10 +3,14 @@ title: Aggiungi nodi secondari personalizzati in SmartArt utilizzando Java
 linktitle: Aggiungi nodi secondari personalizzati in SmartArt utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere nodi figlio personalizzati a SmartArt nelle presentazioni di PowerPoint utilizzando Java con Aspose.Slides. Migliora le tue diapositive con grafica professionale senza sforzo.
-type: docs
 weight: 11
 url: /it/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 SmartArt è una potente funzionalità di PowerPoint che consente agli utenti di creare grafica dall'aspetto professionale in modo rapido e semplice. In questo tutorial impareremo come aggiungere nodi figlio personalizzati a SmartArt utilizzando Java con Aspose.Slides.
 ## Prerequisiti
@@ -79,3 +83,9 @@ Assolutamente! Con Aspose.Slides per Java, puoi personalizzare a livello di codi
 Sì, puoi trovare documentazione completa e accesso ai forum di supporto della comunità sul sito Web Aspose.
 ### È disponibile una versione di prova per Aspose.Slides per Java?
  Sì, puoi scaricare una versione di prova gratuita di Aspose.Slides per Java dal sito Web per esplorarne le caratteristiche e le capacità prima di effettuare un acquisto[Qui](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Přidejte textové pole na snímek programově pomocí Java
 linktitle: Přidejte textové pole na snímek programově pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak programově přidat textové pole do snímků aplikace PowerPoint pomocí Aspose.Slides for Java. Zlepšete svou produktivitu pomocí tohoto podrobného průvodce.
-type: docs
 weight: 24
 url: /cs/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Programové vytváření prezentací PowerPoint a manipulace s nimi může zefektivnit mnoho pracovních postupů, od generování sestav až po automatizaci prezentací. Aspose.Slides for Java poskytuje výkonné API, které umožňuje vývojářům provádět tyto úkoly efektivně. V tomto tutoriálu vás provedeme přidáním textového pole na snímek pomocí Aspose.Slides for Java. Na konci tohoto tutoriálu budete mít jasno v tom, jak integrovat tuto funkci do vašich aplikací Java.
 ## Předpoklady
@@ -67,3 +71,9 @@ Rozhodně je navržen tak, aby efektivně zvládal složité úkoly.
  Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) od Aspose.
 ### Podporuje Aspose.Slides převod prezentací do jiných formátů?
 Ano, podporuje různé formáty včetně PDF a obrázků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: قم بإزالة العقدة من SmartArt في PowerPoint باستخد
 linktitle: قم بإزالة العقدة من SmartArt في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إزالة العقد من SmartArt في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java بكفاءة وبرمجيًا.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية وجذابة بصريًا أمرًا ضروريًا للشركات والمعلمين والأفراد على حدٍ سواء. تظل عروض PowerPoint التقديمية، مع قدرتها على نقل المعلومات بطريقة موجزة وجذابة، عنصرًا أساسيًا في التواصل. ومع ذلك، نحتاج في بعض الأحيان إلى معالجة المحتوى داخل هذه العروض التقديمية برمجيًا لتلبية متطلبات محددة أو أتمتة المهام بكفاءة. وهنا يأتي دور Aspose.Slides for Java، حيث يوفر مجموعة قوية من الأدوات للتفاعل مع عروض PowerPoint التقديمية برمجيًا.
 ## المتطلبات الأساسية
@@ -64,3 +68,9 @@ pres.save(dataDir + "RemoveSmartArtNode_out.pptx", SaveFormat.Pptx);
  بالطبع! يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على أي مساعدة فنية أو استفسارات، يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

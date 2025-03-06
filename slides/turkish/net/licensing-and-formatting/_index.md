@@ -3,10 +3,14 @@ title: Lisanslama ve Formatlama
 linktitle: Lisanslama ve Formatlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Kapsamlı eğitimlerle Aspose.Slides lisanslama ve formatlama konusundaki anlayışınızı geliştirin. Lisansları verimli bir şekilde nasıl yöneteceğinizi ve sunumlarınız için kusursuz biçimlendirmeyi nasıl elde edeceğinizi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -31,3 +35,9 @@ Aspose.Slides for .NET ile Ölçülü Lisanslamayı nasıl verimli bir şekilde 
 Aspose.Slides for .NET ile grafik görsellerini nasıl geliştireceğinizi öğrenin. Daha etkili sunumlar için veri noktalarına dinamik renkler ekleyin.
 ### [Grafiğe Özel Hata Çubukları Ekleme](./add-custom-error/)
 Aspose.Slides for .NET'i kullanarak grafiklere nasıl özel hata çubukları ekleyeceğinizi öğrenin. Doğru veri görselleştirmesi için hata çubukları oluşturun, stillendirin ve özelleştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

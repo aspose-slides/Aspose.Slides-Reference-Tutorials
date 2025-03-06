@@ -3,10 +3,14 @@ title: जावा के साथ PowerPoint में टेक्स्ट 
 linktitle: जावा के साथ PowerPoint में टेक्स्ट फ़ॉन्ट गुण सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जावा के लिए Aspose.Slides का उपयोग करके PowerPoint में टेक्स्ट फ़ॉन्ट गुणधर्म सेट करना सीखें। जावा डेवलपर्स के लिए आसान, चरण-दर-चरण मार्गदर्शिका।#जावा डेवलपर्स के लिए इस चरण-दर-चरण ट्यूटोरियल के साथ जावा के लिए Aspose.Slides का उपयोग करके PowerPoint टेक्स्ट फ़ॉन्ट गुणों में हेरफेर करना सीखें।
-type: docs
 weight: 18
 url: /hi/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 इस ट्यूटोरियल में, आप सीखेंगे कि PowerPoint प्रेजेंटेशन में प्रोग्रामेटिक रूप से विभिन्न टेक्स्ट फ़ॉन्ट गुण सेट करने के लिए Aspose.Slides for Java का उपयोग कैसे करें। हम स्लाइड में टेक्स्ट के लिए फ़ॉन्ट प्रकार, शैली (बोल्ड, इटैलिक), रेखांकन, आकार और रंग सेट करना सीखेंगे।
 ## आवश्यक शर्तें
@@ -85,3 +89,9 @@ if (presentation != null) {
 हां, Aspose.Slides पीडीएफ सहित विभिन्न प्रारूपों में प्रस्तुतियों को निर्यात करने की अनुमति देता है।
 ### मैं Aspose.Slides के लिए अधिक सहायता और समर्थन कहां पा सकता हूं?
  मिलने जाना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक सहायता और मार्गदर्शन के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

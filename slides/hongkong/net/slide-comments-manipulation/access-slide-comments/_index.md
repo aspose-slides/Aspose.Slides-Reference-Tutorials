@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 存取投影片註釋
 linktitle: 造訪投影片評論
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 存取 PowerPoint 簡報中的投影片註解。輕鬆增強協作和工作流程。
-type: docs
 weight: 11
 url: /zh-hant/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在動態和互動式簡報的世界中，管理幻燈片中的評論可能是協作過程的關鍵部分。 Aspose.Slides for .NET 提供了一個強大且多功能的解決方案來存取和操作幻燈片註釋，從而增強您的簡報工作流程。在本逐步指南中，我們將深入研究使用 Aspose.Slides for .NET 存取投影片註解的過程。
 
@@ -112,3 +116,9 @@ Aspose.Slides for .NET 是一個功能強大的函式庫，可讓開發人員以
 
 ### 我可以購買 Aspose.Slides for .NET 的授權嗎？
 是的，您可以從以下位置購買 Aspose.Slides for .NET 的授權：[這個連結](https://purchase.aspose.com/buy)釋放該庫在您的專案中的全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

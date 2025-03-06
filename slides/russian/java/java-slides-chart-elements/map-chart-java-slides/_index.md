@@ -3,10 +3,14 @@ title: Диаграмма карты в слайдах Java
 linktitle: Диаграмма карты в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Создавайте потрясающие карты в презентациях PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство и исходный код для разработчиков Java.
-type: docs
 weight: 15
 url: /ru/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в диаграмму карты в слайдах Java с использованием Aspose.Slides для Java
 
@@ -131,3 +135,9 @@ try {
 ### Как мне интегрировать Aspose.Slides for Java в мой проект?
 
  Загрузите библиотеку с[здесь](https://releases.aspose.com/slides/java/) и добавьте его в путь к классам вашего проекта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

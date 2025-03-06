@@ -3,10 +3,14 @@ title: Eingebetteten Videorahmen in PowerPoint hinzufügen
 linktitle: Eingebetteten Videorahmen in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java Videoframes in PowerPoint einbetten. Verbessern Sie Ihre Präsentationen ganz einfach.
-type: docs
 weight: 21
 url: /de/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Durch das Hinzufügen von Videos zu Ihren PowerPoint-Präsentationen können Sie diese ansprechender und informativer gestalten. Mit Aspose.Slides für Java können Sie Videos ganz einfach direkt in Ihre Folien einbetten. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Vorgang und stellen sicher, dass Sie jeden Teil des Codes und seine Funktionsweise verstehen. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser Leitfaden hilft Ihnen dabei, Ihre Präsentationen mit eingebetteten Videos zu verbessern.
 ## Voraussetzungen
@@ -93,3 +97,9 @@ Aspose.Slides unterstützt verschiedene Videoformate, darunter MP4, AVI und WMV.
 Ja, Sie benötigen eine gültige Lizenz, um Aspose.Slides zu verwenden. Sie können eine temporäre Lizenz zur Evaluierung erhalten.
 ### Kann ich die Größe und Position des Videorahmens anpassen?
 Ja, Sie können die Größe und Position anpassen, indem Sie beim Hinzufügen des Videorahmens die entsprechenden Parameter festlegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

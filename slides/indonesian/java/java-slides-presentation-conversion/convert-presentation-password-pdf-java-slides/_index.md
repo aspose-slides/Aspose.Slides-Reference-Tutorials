@@ -3,10 +3,14 @@ title: Konversikan Presentasi ke PDF yang Dilindungi Kata Sandi di Java Slides
 linktitle: Konversikan Presentasi ke PDF yang Dilindungi Kata Sandi di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi presentasi PowerPoint menjadi PDF yang aman dan dilindungi kata sandi di Java menggunakan Aspose.Slides. Meningkatkan keamanan dokumen.
-type: docs
 weight: 17
 url: /id/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengonversi Presentasi ke PDF yang Dilindungi Kata Sandi di Slide Java
 
@@ -146,3 +150,9 @@ Ya, Anda dapat mengotomatiskan proses konversi beberapa presentasi ke PDF yang d
 ### Apakah Aspose.Slides untuk Java cocok untuk penggunaan komersial?
 
 Ya, Aspose.Slides untuk Java cocok untuk penggunaan komersial. Ini menawarkan berbagai fitur untuk bekerja dengan presentasi PowerPoint dalam aplikasi Java dan banyak digunakan di industri.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

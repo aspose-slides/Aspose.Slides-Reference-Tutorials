@@ -3,10 +3,14 @@ title: Aspose.Slides で PDF/A および PDF/UA 準拠を実現する
 linktitle: PDF/A および PDF/UA 準拠の実現
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PDF/A および PDF/UA 準拠を確保します。アクセスしやすく保存可能なプレゼンテーションを簡単に作成できます。
-type: docs
 weight: 23
 url: /ja/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 導入
 
@@ -127,3 +131,9 @@ PDF/UA ドキュメントのアクセシビリティを確保するには、Aspo
 ### すべてのドキュメントで PDF/UA 準拠が必要ですか?
 
 PDF/UA 準拠は、障害を持つユーザーがアクセスできるように設計されたドキュメントにとって特に重要です。ただし、PDF/UA 準拠の必要性は、対象ユーザーの特定の要件によって異なります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

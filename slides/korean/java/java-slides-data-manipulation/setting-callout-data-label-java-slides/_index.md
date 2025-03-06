@@ -3,10 +3,14 @@ title: Java 슬라이드에서 데이터 레이블에 대한 콜아웃 설정
 linktitle: Java 슬라이드에서 데이터 레이블에 대한 콜아웃 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides에서 데이터 레이블에 대한 콜아웃을 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 25
 url: /ko/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java에서 데이터 레이블에 대한 콜아웃 설정 소개
 
@@ -203,3 +207,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 다음은 Aspose.Slides for Java의 데이터 레이블 및 설명선에 대한 몇 가지 일반적인 사용자 정의 옵션입니다. 특정 요구 사항에 맞게 모양을 추가로 조정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

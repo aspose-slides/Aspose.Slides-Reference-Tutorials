@@ -3,10 +3,14 @@ title: Aspose.Slides로 쉽게 만든 모양 애니메이션
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 도형에 애니메이션 적용
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 멋진 프레젠테이션을 만드세요. 이 단계별 가이드에서 도형에 애니메이션을 적용하는 방법을 알아보세요. 지금 슬라이드를 높이세요!
-type: docs
 weight: 21
 url: /ko/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 동적 프레젠테이션 세계에서 도형에 애니메이션을 추가하면 슬라이드의 시각적 매력과 참여도가 크게 향상될 수 있습니다. .NET용 Aspose.Slides는 이를 원활하게 수행할 수 있는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 도형에 애니메이션을 적용하는 과정을 안내하여 지속적인 인상을 남기는 매력적인 프레젠테이션을 만들 수 있습니다.
 ## 전제 조건
@@ -81,3 +85,9 @@ Aspose.Slides는 다양한 PowerPoint 버전과의 호환성을 보장하여 프
  네, 라이센스를 취득하실 수 있습니다[여기](https://purchase.aspose.com/buy) Aspose.Slides의 잠재력을 최대한 활용하세요.
 ### 구매하기 전에 Aspose.Slides를 사용해 볼 수 있나요?
  틀림없이! 활용[무료 시험판](https://releases.aspose.com/) 약속을 하기 전에 Aspose.Slides의 기능을 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

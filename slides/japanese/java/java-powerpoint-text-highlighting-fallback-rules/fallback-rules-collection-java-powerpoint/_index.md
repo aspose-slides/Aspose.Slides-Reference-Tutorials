@@ -3,10 +3,14 @@ title: Java PowerPoint のフォールバック ルール コレクション
 linktitle: Java PowerPoint のフォールバック ルール コレクション
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションのフォント フォールバック ルールを管理する方法を学びます。デバイス間の互換性を簡単に強化できます。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用してフォント フォールバック ルールを管理する方法について詳しく説明します。フォント フォールバックは、特に特定のフォントが利用できない場合に、さまざまな環境でプレゼンテーションが正しく表示されるようにするために重要です。必要なパッケージのインポート、環境の設定、フォールバック ルールの実装を手順ごとに説明します。
 ## 前提条件
@@ -73,3 +77,9 @@ try {
 詳細なドキュメントが利用可能[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 サポートについては、Aspose.Slides フォーラムをご覧ください。[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

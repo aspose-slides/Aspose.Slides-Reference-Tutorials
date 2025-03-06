@@ -3,10 +3,14 @@ title: Notizen-Folienmanipulation
 linktitle: Notizen-Folienmanipulation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit Präzision! Erkunden Sie das Aspose.Slides-Tutorial zur Manipulation von Notizenfolien in .NET. Erfahren Sie, wie Sie Sprechernotizen programmgesteuert hinzufügen, bearbeiten und verwalten.
-type: docs
 weight: 16
 url: /de/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 
 Willkommen zum umfassenden Aspose.Slides-Tutorial zur Folienbearbeitung von Notizen für .NET-Entwickler. In diesem Tutorial tauchen wir in die faszinierende Welt der Sprechernotizen ein und erfahren, wie Sie diese mithilfe der Aspose.Slides-Bibliothek programmgesteuert bearbeiten können. Sprechernotizen spielen bei Präsentationen eine entscheidende Rolle, da sie dem Vortragenden wertvolle Einblicke bieten und die Gesamtwirkung des Inhalts verbessern. Am Ende dieses Tutorials verfügen Sie über ein solides Verständnis dafür, wie Sie Sprechernotizen effektiv in Ihre PowerPoint-Präsentationen einfügen, bearbeiten und verwalten können.
@@ -39,3 +43,9 @@ Erfahren Sie, wie Sie Kopf- und Fußzeilen in Notizenfolien mit Aspose.Slides f�
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Notizen von einer bestimmten Folie in PowerPoint-Präsentationen entfernen. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit vollständigem Quellcode, um Ihre Folien nahtlos programmgesteuert zu bearbeiten.
 ### [Notizen aus allen Folien entfernen](./remove-notes-from-all-slides/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Notizen aus allen Folien Ihrer PowerPoint-Präsentationen entfernen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigen Quellcodebeispielen, um Ihr Ziel problemlos zu erreichen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Προσθήκη ενσωματωμένων γραμματοσειρών 
 linktitle: Προσθήκη ενσωματωμένων γραμματοσειρών στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε ενσωματωμένες γραμματοσειρές σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides για Java. Εξασφαλίστε συνεπή προβολή σε όλες τις συσκευές.
-type: docs
 weight: 10
 url: /el/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενσωματωμένων γραμματοσειρών σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java, χρησιμοποιώντας συγκεκριμένα το Aspose.Slides για Java. Οι ενσωματωμένες γραμματοσειρές διασφαλίζουν ότι η παρουσίασή σας εμφανίζεται συνεπής σε διαφορετικές συσκευές, ακόμα κι αν η αρχική γραμματοσειρά δεν είναι διαθέσιμη. Ας βουτήξουμε στα βήματα:
 ## Προαπαιτούμενα
@@ -69,3 +73,9 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 Το Aspose.Slides for Java υποστηρίζει την ενσωμάτωση γραμματοσειρών TrueType, που καλύπτει ένα ευρύ φάσμα γραμματοσειρών που χρησιμοποιούνται συνήθως σε παρουσιάσεις.
 ### Μπορώ να ενσωματώσω γραμματοσειρές μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java;
 Ναι, όπως αποδεικνύεται σε αυτό το σεμινάριο, μπορείτε να ενσωματώσετε γραμματοσειρές μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides for Java API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

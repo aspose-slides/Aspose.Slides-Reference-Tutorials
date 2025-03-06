@@ -3,10 +3,14 @@ title: استخدام الترخيص المقنن
 linktitle: استخدام الترخيص المقنن
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخدام الترخيص المقنن بكفاءة مع Aspose.Slides لـ .NET. دمج واجهات برمجة التطبيقات بسلاسة أثناء الدفع مقابل الاستخدام الفعلي.
-type: docs
 weight: 11
 url: /ar/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -114,3 +118,9 @@ Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من �
 
 ### هل هناك منتدى لدعم Aspose.Slides والمناقشات؟
  نعم، يمكنك العثور على الدعم والمشاركة في المناقشات في منتدى Aspose.Slides على[هذا الرابط](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

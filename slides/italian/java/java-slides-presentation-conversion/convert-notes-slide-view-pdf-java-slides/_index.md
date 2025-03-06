@@ -3,10 +3,14 @@ title: Converti la visualizzazione diapositive di Notes in PDF in Diapositive Ja
 linktitle: Converti la visualizzazione diapositive di Notes in PDF in Diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come convertire presentazioni PowerPoint con note in PDF utilizzando Aspose.Slides per Java. Segui la nostra guida passo passo con il codice sorgente.
-type: docs
 weight: 16
 url: /it/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alla conversione della visualizzazione diapositive di Notes in PDF in Diapositive Java
 
@@ -106,3 +110,9 @@ Sì, Aspose.Slides richiede una licenza valida per uso commerciale. È possibile
 ### Dove posso trovare ulteriore documentazione ed esempi?
 
  È possibile trovare documentazione completa ed esempi per Aspose.Slides per Java all'indirizzo[Qui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

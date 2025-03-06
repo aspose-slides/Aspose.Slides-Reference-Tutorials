@@ -3,10 +3,14 @@ title: Scal komórki w tabeli programu PowerPoint za pomocą języka Java
 linktitle: Scal komórki w tabeli programu PowerPoint za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak łączyć komórki w tabelach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz układ swojej prezentacji, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 17
 url: /pl/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku dowiesz się, jak skutecznie scalać komórki w tabeli programu PowerPoint za pomocą Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint. Łącząc komórki w tabeli, możesz dostosować układ i strukturę slajdów prezentacji, zwiększając przejrzystość i atrakcyjność wizualną.
 ## Warunki wstępne
@@ -92,3 +96,9 @@ Aspose.Slides for Java to interfejs API języka Java służący do programowego 
  Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać pomoc na forum społeczności Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

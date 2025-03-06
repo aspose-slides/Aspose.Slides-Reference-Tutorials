@@ -3,10 +3,14 @@ title: Modifier le texte sur le nœud SmartArt à l'aide de Java
 linktitle: Modifier le texte sur le nœud SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment mettre à jour le texte du nœud SmartArt dans PowerPoint à l'aide de Java avec Aspose.Slides, améliorant ainsi la personnalisation de la présentation.
-type: docs
 weight: 22
 url: /fr/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 SmartArt dans PowerPoint est une fonctionnalité puissante pour créer des diagrammes visuellement attrayants. Aspose.Slides pour Java fournit une prise en charge complète pour manipuler les éléments SmartArt par programme. Dans ce didacticiel, nous vous guiderons tout au long du processus de modification du texte sur un nœud SmartArt à l'aide de Java.
 ## Conditions préalables
@@ -60,3 +64,9 @@ Certes, vous pouvez modifier diverses propriétés telles que la couleur, la tai
 Oui, Aspose.Slides prend en charge un large éventail de mises en page SmartArt, vous permettant de choisir celle qui correspond le mieux à vos besoins de présentation.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides ?
  Vous pouvez visiter le[Documentation Aspose.Slides](https://reference.aspose.com/slides/java/) pour des références API détaillées et des didacticiels. De plus, vous pouvez demander de l'aide auprès du[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) ou envisagez d'acheter un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour un accompagnement professionnel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

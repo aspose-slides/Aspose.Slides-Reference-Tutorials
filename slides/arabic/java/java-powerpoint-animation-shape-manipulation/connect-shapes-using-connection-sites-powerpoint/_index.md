@@ -3,10 +3,14 @@ title: ربط الأشكال باستخدام مواقع الاتصال في Pow
 linktitle: ربط الأشكال باستخدام مواقع الاتصال في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ربط الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java. أتمتة العروض التقديمية الخاصة بك دون عناء.
-type: docs
 weight: 19
 url: /ar/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية ربط الأشكال باستخدام مواقع الاتصال في PowerPoint باستخدام Aspose.Slides for Java. تسمح لنا هذه المكتبة القوية بمعالجة عروض PowerPoint التقديمية برمجياً، مما يجعل المهام مثل ربط الأشكال سلسة وفعالة.
 ## المتطلبات الأساسية
@@ -70,3 +74,9 @@ if (ellipse.getConnectionSiteCount() > (wantedIndex & 0xFFFFFFFFL))
  نعم، التراخيص المؤقتة متاحة لأغراض الاختبار والتقييم. يمكنك الحصول على واحدة[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء ترخيص Aspose.Slides لـ Java؟
 يمكنك شراء ترخيص من موقع Aspose[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

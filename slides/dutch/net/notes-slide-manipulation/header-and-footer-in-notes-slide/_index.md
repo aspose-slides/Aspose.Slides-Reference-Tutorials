@@ -3,10 +3,14 @@ title: Kop- en voettekst in Notes beheren met Aspose.Slides .NET
 linktitle: Beheer kop- en voettekst in Notes-dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u de kop- en voettekst in PowerPoint-notitiedia's beheert met Aspose.Slides voor .NET. Verbeter uw presentaties moeiteloos.
-type: docs
 weight: 11
 url: /nl/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In het huidige digitale tijdperk is het maken van boeiende en informatieve presentaties een essentiële vaardigheid. Als onderdeel van dit proces moet u vaak kop- en voetteksten in uw notitiedia's opnemen om extra context en informatie te bieden. Aspose.Slides voor .NET is een krachtig hulpmiddel waarmee u eenvoudig kop- en voettekstinstellingen in notitiedia's kunt beheren. In deze stapsgewijze handleiding onderzoeken we hoe u dit kunt bereiken met Aspose.Slides voor .NET.
 
@@ -120,3 +124,9 @@ Absoluut, met Aspose.Slides voor .NET kunt u PowerPoint-presentaties automatiser
 
 ### Is er technische ondersteuning beschikbaar voor Aspose.Slides voor .NET-gebruikers?
  Ja, u kunt ondersteuning en hulp vinden van de Aspose-gemeenschap en experts op de website[Aspose-ondersteuningsforum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

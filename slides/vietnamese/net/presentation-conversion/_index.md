@@ -3,10 +3,14 @@ title: Chuyển đổi bản trình bày chính và xử lý PowerPoint
 linktitle: Chuyển đổi bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao kỹ năng của bạn với các hướng dẫn Aspose.Slides for .NET. Tìm hiểu từng bước chuyển đổi bản trình bày và xử lý PowerPoint. Hãy chuyển đổi quy trình làm việc của bạn ngay hôm nay!
-type: docs
 weight: 10
 url: /vi/net/presentation-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET cung cấp các hướng dẫn toàn diện về các khía cạnh khác nhau của quá trình xử lý PowerPoint. Một hướng dẫn như vậy tập trung vào việc chuyển đổi bản trình bày, hướng dẫn người dùng chuyển đổi liền mạch bản trình bày sang các định dạng khác nhau. Hướng dẫn này trang bị cho các nhà phát triển kiến thức để xử lý việc chuyển đổi bản trình bày một cách hiệu quả và hiệu quả, mở rộng khả năng của họ để tạo ra các kết quả đầu ra linh hoạt.
 
@@ -62,3 +66,9 @@ Tìm hiểu cách xuất bản trình bày sang định dạng XAML bằng Aspos
 Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang định dạng SWF bằng Aspose.Slides cho .NET. Tạo nội dung động một cách dễ dàng!
 ### [Chuyển đổi bản trình bày sang PDF với Cập nhật tiến độ](./convert-presentation-to-pdf-with-progress-update/)
 Tìm hiểu cách chuyển đổi bản trình bày sang PDF với các bản cập nhật tiến độ bằng Aspose.Slides cho .NET. Hướng dẫn từng bước có kèm theo mã nguồn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

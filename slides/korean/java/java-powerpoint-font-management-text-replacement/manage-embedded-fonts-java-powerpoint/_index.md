@@ -3,10 +3,14 @@ title: Java PowerPoint에서 포함된 글꼴 관리
 linktitle: Java PowerPoint에서 포함된 글꼴 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에 포함된 글꼴을 손쉽게 관리하세요. 일관성을 위해 슬라이드를 최적화하기 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 끊임없이 진화하는 프레젠테이션 세계에서 글꼴을 효율적으로 관리하면 PowerPoint 파일의 품질과 호환성에 큰 변화를 가져올 수 있습니다. Aspose.Slides for Java는 포함된 글꼴을 관리하는 포괄적인 솔루션을 제공하여 프레젠테이션이 모든 장치에서 완벽하게 보이도록 보장합니다. 레거시 프레젠테이션을 다루든 새로운 프레젠테이션을 만들든 이 가이드는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에 포함된 글꼴을 관리하는 과정을 안내합니다. 뛰어들어보자!
 ## 전제 조건
@@ -104,3 +108,9 @@ Aspose.Slides for Java는 JDK 8 이상 버전과 호환됩니다.
 포함된 글꼴을 관리하면 프레젠테이션이 다양한 장치와 플랫폼에서 일관되게 표시되고 불필요한 글꼴을 제거하여 파일 크기를 줄이는 데 도움이 됩니다.
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

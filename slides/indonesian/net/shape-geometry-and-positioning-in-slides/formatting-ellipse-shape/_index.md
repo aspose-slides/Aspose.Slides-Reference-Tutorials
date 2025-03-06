@@ -3,10 +3,14 @@ title: Tutorial Memformat Bentuk Ellipse dengan Aspose.Slides untuk .NET
 linktitle: Memformat Bentuk Elips di Slide dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buat bentuk elips yang menakjubkan di PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk presentasi profesional.
-type: docs
 weight: 11
 url: /id/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Meningkatkan presentasi PowerPoint Anda dengan bentuk yang menarik secara visual sangat penting untuk memikat audiens Anda. Salah satu bentuknya adalah elips, yang dapat menambah sentuhan elegan dan profesionalisme pada slide Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pemformatan bentuk elips di PowerPoint menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -81,3 +85,9 @@ Aspose.Slides memastikan kompatibilitas dengan berbagai versi PowerPoint, termas
  Mencari bantuan dari masyarakat di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### Apakah ada opsi pembelian langsung untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat membeli perpustakaan secara langsung[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

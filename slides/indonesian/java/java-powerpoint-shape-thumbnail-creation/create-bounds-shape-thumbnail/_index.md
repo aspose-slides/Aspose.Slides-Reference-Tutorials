@@ -3,10 +3,14 @@ title: Buat Thumbnail Bentuk Batas
 linktitle: Buat Thumbnail Bentuk Batas
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat gambar mini bentuk dengan batas menggunakan Aspose.Slides untuk Java. Tutorial langkah demi langkah ini memandu Anda melalui prosesnya.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengembang Java membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram. Dalam tutorial ini, kita akan mempelajari cara membuat gambar mini suatu bentuk dengan batas menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -57,3 +61,9 @@ Ya, Anda dapat menyesuaikan properti gambar mini, seperti ukuran dan kualitas, s
 Ya, Aspose.Slides untuk Java menyediakan fungsionalitas ekstensif untuk bekerja dengan presentasi PowerPoint, termasuk manipulasi slide, ekstraksi teks, dan pembuatan bagan.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides untuk Java?
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

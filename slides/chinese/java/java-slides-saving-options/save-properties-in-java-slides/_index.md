@@ -3,10 +3,14 @@ title: 在 Java 幻灯片中保存属性
 linktitle: 在 Java 幻灯片中保存属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 优化您的 PowerPoint 演示文稿。学习如何设置属性、禁用加密、添加密码保护以及轻松保存。
-type: docs
 weight: 12
 url: /zh/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中保存属性的简介
 
@@ -170,3 +174,9 @@ finally {
 ### 如何才能了解有关 Aspose.Slides for Java 及其功能的更多信息？
 
 您可以浏览 Aspose.Slides for Java 文档[这里](https://docs.aspose.com/slides/java/)有关使用该库的详细信息、教程和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

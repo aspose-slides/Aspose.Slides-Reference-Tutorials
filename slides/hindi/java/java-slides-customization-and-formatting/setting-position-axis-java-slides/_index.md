@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में स्थिति अक
 linktitle: जावा स्लाइड्स में स्थिति अक्ष सेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Java के लिए Aspose.Slides के साथ अपने चार्ट को बेहतर बनाएँ। Java स्लाइड में स्थिति अक्ष सेट करना, शानदार प्रस्तुतियाँ बनाना और चार्ट लेआउट को आसानी से कस्टमाइज़ करना सीखें।
-type: docs
 weight: 16
 url: /hi/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java में स्थिति अक्ष सेट करने का परिचय
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 इस ट्यूटोरियल के लिए बस इतना ही। आपने सीखा कि Aspose.Slides for Java का उपयोग करके चार्ट में स्थिति अक्ष कैसे सेट करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

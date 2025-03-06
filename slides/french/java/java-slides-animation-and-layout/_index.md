@@ -3,10 +3,14 @@ title: Animation et mise en page des diapositives Java
 linktitle: Animation et mise en page des diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez l'animation et la mise en page des diapositives Java avec Aspose.Slides pour Java. Maîtrisez les présentations interactives. Plongez dans la création de contenu dynamique.
-type: docs
 weight: 14
 url: /fr/java/animation-and-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Cherchez-vous à donner vie à vos présentations et à créer des diapositives captivantes avec Java ? Aspose.Slides pour Java est votre solution incontournable. Dans ce guide complet, nous explorerons comment maîtriser l'animation et la mise en page des diapositives Java, afin de garantir que vos présentations se démarquent des autres.
 
@@ -42,3 +46,9 @@ Optimisez vos présentations Java avec Aspose.Slides pour Java. Découvrez comme
 Optimisez vos présentations avec des animations en série dans Aspose.Slides pour Java. Suivez notre guide étape par étape avec des exemples de code source pour créer des animations PowerPoint attrayantes.
 ### [Animation d'éléments de série dans des diapositives Java](./animating-series-elements-java-slides/)
 Découvrez comment animer des éléments de série dans des diapositives PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez ce guide complet étape par étape avec le code source pour améliorer vos présentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

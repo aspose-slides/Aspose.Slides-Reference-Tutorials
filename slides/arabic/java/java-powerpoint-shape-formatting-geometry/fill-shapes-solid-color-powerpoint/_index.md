@@ -3,10 +3,14 @@ title: تعبئة الأشكال بلون خالص في برنامج PowerPoint
 linktitle: تعبئة الأشكال بلون خالص في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعبئة الأشكال بألوان ثابتة في PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 إذا كنت قد عملت من قبل مع عروض PowerPoint التقديمية، فأنت تعلم أن إضافة الأشكال وتخصيص ألوانها يمكن أن يكون جانبًا حاسمًا في جعل شرائحك جذابة بصريًا وغنية بالمعلومات. مع Aspose.Slides لـ Java، تصبح هذه العملية سهلة للغاية. سواء كنت مطورًا يتطلع إلى أتمتة إنشاء عروض PowerPoint التقديمية أو شخصًا مهتمًا بإضافة مجموعة من الألوان إلى شرائحك، فإن هذا البرنامج التعليمي سيرشدك خلال عملية ملء الأشكال بألوان ثابتة باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -85,3 +89,9 @@ Aspose.Slides for Java هي مكتبة قوية للعمل مع عروض PowerPo
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[موقع أسبوز](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الوثائق والدعم؟
  الوثائق التفصيلية متاحة على[موقع أسبوز](https://reference.aspose.com/slides/java/)، ويمكنك طلب الدعم على[اطرح المنتديات](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

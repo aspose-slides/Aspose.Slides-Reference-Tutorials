@@ -3,10 +3,14 @@ title: التحكم في الرسوم المتحركة للشرائح
 linktitle: التحكم في الرسوم المتحركة للشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية باستخدام الرسوم المتحركة الديناميكية باستخدام Aspose.Slides لـ .NET. تعرف على كيفية التحكم في الرسوم المتحركة للشرائح خطوة بخطوة في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 18
 url: /ar/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة:
 
@@ -36,3 +40,9 @@ url: /ar/net/slide-animation-control/
 تعرف على كيفية تكرار الرسوم المتحركة على شريحة باستخدام Aspose.Slides لـ .NET. يوفر هذا الدليل خطوة بخطوة التعليمات البرمجية المصدر وتعليمات واضحة لإضافة رسوم متحركة جذابة إلى عروض PowerPoint التقديمية برمجياً.
 ### [إرجاع الرسوم المتحركة على الشريحة](./rewind-animation-on-slide/)
 تعرف على كيفية إرجاع الرسوم المتحركة على شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل المفصّل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر الكاملة لتحسين عروضك التقديمية بشكل ديناميكي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

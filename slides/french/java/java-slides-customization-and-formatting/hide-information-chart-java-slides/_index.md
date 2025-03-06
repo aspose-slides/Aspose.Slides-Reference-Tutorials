@@ -3,10 +3,14 @@ title: Masquer les informations du graphique dans les diapositives Java
 linktitle: Masquer les informations du graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment masquer les éléments du graphique dans Java Slides avec Aspose.Slides pour Java. Personnalisez les présentations pour plus de clarté et d’esthétique grâce à des conseils étape par étape et au code source.
-type: docs
 weight: 13
 url: /fr/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction pour masquer les informations du graphique dans les diapositives Java
 
@@ -172,3 +176,9 @@ Oui, vous pouvez modifier le type de graphique de manière dynamique en créant 
 ### Comment puis-je modifier le titre et les étiquettes des axes du graphique par programmation ?
 
 Vous pouvez définir le titre et les étiquettes du graphique et des axes en accédant à leurs propriétés respectives et en définissant le texte et le formatage souhaités.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

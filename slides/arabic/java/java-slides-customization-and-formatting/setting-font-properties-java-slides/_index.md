@@ -3,10 +3,14 @@ title: ضبط خصائص الخط في شرائح جافا
 linktitle: ضبط خصائص الخط في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين خصائص الخط في شرائح Java باستخدام Aspose.Slides لـ Java. يتضمن هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية والأسئلة الشائعة.
-type: docs
 weight: 15
 url: /ar/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإعداد خصائص الخط في شرائح جافا
 
@@ -137,3 +141,9 @@ for (ISlide slide : pres.getSlides()) {
     // يمكنك الوصول إلى خصائص خطوط عناصر النص وتخصيصها هنا
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

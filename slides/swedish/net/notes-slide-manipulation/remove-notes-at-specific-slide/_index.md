@@ -3,10 +3,14 @@ title: Hur man tar bort anteckningar vid en specifik bild med Aspose.Slides .NET
 linktitle: Ta bort anteckningar vid specifik bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du tar bort anteckningar från en specifik bild i PowerPoint med Aspose.Slides för .NET. Effektivisera dina presentationer utan ansträngning.
-type: docs
 weight: 12
 url: /sv/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 I den här steg-för-steg-guiden går vi igenom processen att ta bort anteckningar på en specifik bild i en PowerPoint-presentation med Aspose.Slides för .NET. Aspose.Slides är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-filer programmatiskt. Oavsett om du är en utvecklare eller någon som vill automatisera uppgifter i PowerPoint-presentationer, kommer denna handledning hjälpa dig att uppnå detta med lätthet.
 
@@ -82,3 +86,9 @@ Ja, du kan gå igenom bilderna och ta bort anteckningar från flera bilder med l
 
 ### Finns det en testversion av Aspose.Slides för .NET tillgänglig?
 Ja, du kan utforska Aspose.Slides genom att ladda ner en gratis provversion från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

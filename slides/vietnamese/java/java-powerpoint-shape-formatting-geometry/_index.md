@@ -3,10 +3,14 @@ title: Định dạng và hình học hình dạng PowerPoint của Java
 linktitle: Định dạng và hình học hình dạng PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá các hướng dẫn hình học và định dạng hình dạng Java PowerPoint. Tìm hiểu cách điền hình, tìm hình và tạo hình học tùy chỉnh bằng Aspose.Slides cho Java.
-type: docs
 weight: 26
 url: /vi/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 
 Tạo bản trình bày PowerPoint hấp dẫn trực quan thường yêu cầu định dạng hình dạng chính xác và thao tác hình học. Với Aspose.Slides cho Java, các nhà phát triển có thể đưa bài thuyết trình của họ lên một tầm cao mới. Bài viết này khám phá các hướng dẫn cần thiết về cách điền hình, tìm hình và tạo hình học tùy chỉnh, làm cho trang chiếu của bạn trở nên nổi bật.
@@ -74,3 +78,9 @@ Tìm hiểu cách truy xuất dữ liệu hiệu quả về giàn khoan nhẹ t�
 Tìm hiểu cách truy xuất dữ liệu hiệu quả về góc xiên hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn với các hiệu ứng hình ảnh tuyệt đẹp.
 ### [Ẩn hình dạng trong PowerPoint](./hide-shapes-powerpoint/)
 Tìm hiểu cách ẩn hình trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển Java ở mọi cấp độ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

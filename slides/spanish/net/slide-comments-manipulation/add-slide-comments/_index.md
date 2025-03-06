@@ -3,10 +3,14 @@ title: Agregar comentarios a la diapositiva
 linktitle: Agregar comentarios a la diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Agregue profundidad e interacción a sus presentaciones con la API Aspose.Slides. Aprenda cómo integrar fácilmente comentarios en sus diapositivas usando .NET. Mejore el compromiso y cautive a su audiencia.
-type: docs
 weight: 13
 url: /es/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 En el mundo de la gestión de presentaciones, la capacidad de agregar comentarios a las diapositivas puede cambiar las reglas del juego. Los comentarios no sólo mejoran la colaboración sino que también ayudan a comprender y revisar el contenido de las diapositivas. Con Aspose.Slides para .NET, una biblioteca potente y versátil, puede incorporar comentarios sin esfuerzo en las diapositivas de su presentación. En esta guía paso a paso, lo guiaremos a través del proceso de agregar comentarios a una diapositiva usando Aspose.Slides para .NET. Si es un desarrollador experimentado o un recién llegado al mundo del desarrollo .NET, este tutorial le proporcionará toda la información que necesita.
 
@@ -104,3 +108,9 @@ Para integrar Aspose.Slides para .NET en su aplicación .NET, puede consultar la
 ### 5. ¿Puedo probar Aspose.Slides para .NET antes de comprarlo?
 
 Sí, puede explorar Aspose.Slides para .NET mediante una prueba gratuita. Visita el[Página de prueba gratuita de Aspose.Slides](https://releases.aspose.com/) Para empezar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

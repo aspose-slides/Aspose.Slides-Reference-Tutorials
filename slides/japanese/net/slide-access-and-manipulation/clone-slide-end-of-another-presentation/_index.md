@@ -3,10 +3,14 @@ title: 別のプレゼンテーションの最後にスライドを複製する
 linktitle: 別のプレゼンテーションの最後にスライドを複製する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、1 つの PowerPoint プレゼンテーションからスライドを複製し、別のプレゼンテーションに追加する方法を学びます。このステップ バイ ステップ ガイドでは、シームレスなスライド操作のためのソース コードと明確な手順を示します。
-type: docs
 weight: 17
 url: /ja/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for .NET の紹介
 
@@ -103,3 +107,9 @@ Aspose.Slides for .NET は、.NET 開発者が PowerPoint プレゼンテーシ�
 ### Aspose.Slides for .NET はスライドでのみ動作しますか?
 
 いいえ、Aspose.Slides for .NET はスライド以外にも幅広い機能を提供します。図形、グラフ、アニメーションを操作したり、プレゼンテーションからテキストや画像を抽出したりすることもできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

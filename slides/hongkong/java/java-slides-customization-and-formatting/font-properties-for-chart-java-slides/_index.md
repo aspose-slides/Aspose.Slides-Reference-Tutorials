@@ -3,10 +3,14 @@ title: Java 投影片中圖表的字型屬性
 linktitle: Java 投影片中圖表的字型屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 增強 Java 投影片中的圖表字體屬性。自訂字體大小、樣式和顏色，以獲得有影響力的簡報。
-type: docs
 weight: 11
 url: /zh-hant/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中圖表的字型屬性簡介
 
@@ -102,3 +106,9 @@ finally
 ### 如何自訂特定圖表元素的字體屬性？
 
 若要自訂特定圖表元素（例如軸標籤或圖例文字）的字體屬性，您可以使用如上所示的類似方法存取這些元素並設定其字體屬性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

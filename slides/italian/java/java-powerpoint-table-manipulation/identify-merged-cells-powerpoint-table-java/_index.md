@@ -3,10 +3,14 @@ title: Identifica le celle unite nella tabella di PowerPoint utilizzando Java
 linktitle: Identifica le celle unite nella tabella di PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come identificare le celle unite nelle tabelle di PowerPoint a livello di codice utilizzando Aspose.Slides per Java. Perfetto per gli sviluppatori Java.
-type: docs
 weight: 15
 url: /it/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 Nell'ambito dello sviluppo Java, la manipolazione programmatica delle presentazioni PowerPoint può rivelarsi un compito cruciale, soprattutto quando si ha a che fare con tabelle di dati complesse. Aspose.Slides per Java fornisce un potente toolkit che consente agli sviluppatori di gestire senza problemi vari aspetti delle presentazioni di PowerPoint. Una sfida comune che gli sviluppatori devono affrontare è identificare le celle unite all'interno delle tabelle incorporate nelle presentazioni. Questo tutorial ha lo scopo di guidarti attraverso il processo di identificazione delle celle unite utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -67,3 +71,9 @@ Aspose.Slides per Java è una potente libreria per manipolare le presentazioni d
  La documentazione può essere trovata[Qui](https://reference.aspose.com/slides/java/).
 ### Come posso ottenere supporto per Aspose.Slides per Java?
 Per supporto, visitare il forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

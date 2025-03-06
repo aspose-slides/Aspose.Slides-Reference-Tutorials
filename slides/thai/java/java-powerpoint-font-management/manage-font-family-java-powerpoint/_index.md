@@ -3,10 +3,14 @@ title: จัดการตระกูลแบบอักษรใน Java P
 linktitle: จัดการตระกูลแบบอักษรใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการตระกูลแบบอักษรในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับแต่งรูปแบบตัวอักษร สี และอื่นๆ ได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการตระกูลแบบอักษรในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java แบบอักษรมีบทบาทสำคัญในการดึงดูดสายตาและความสามารถในการอ่านสไลด์ของคุณ ดังนั้นจึงจำเป็นอย่างยิ่งที่จะต้องรู้วิธีจัดการกับสไลด์อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +70,9 @@ pres.save(dataDir + "pptxFont_out.pptx", SaveFormat.Pptx);
 ใช่ Aspose.Slides มี API เพื่อสร้าง แก้ไข และจัดการงานนำเสนอ PowerPoint ทั้งหมดผ่านโค้ด
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
 ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

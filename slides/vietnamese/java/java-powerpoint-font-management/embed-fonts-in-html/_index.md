@@ -3,10 +3,14 @@ title: Nhúng phông chữ vào HTML bằng Aspose.Slides cho Java
 linktitle: Nhúng phông chữ vào HTML bằng Aspose.Slides cho Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nhúng phông chữ trong HTML bằng Aspose.Slides cho Java để đảm bảo kiểu chữ nhất quán trên các nền tảng và thiết bị khác nhau.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Aspose.Slides cho Java là một công cụ mạnh mẽ dành cho các nhà phát triển Java đang tìm cách thao tác các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình nhúng phông chữ vào HTML bằng Aspose.Slides cho Java. Bằng cách nhúng phông chữ, bạn đảm bảo rằng bản trình bày của mình duy trì giao diện như mong muốn trên các nền tảng và thiết bị khác nhau, ngay cả khi các phông chữ được yêu cầu không được cài đặt cục bộ.
 ## Điều kiện tiên quyết
@@ -58,3 +62,9 @@ Có, Aspose.Slides hỗ trợ nhúng phông chữ ở nhiều định dạng đ�
  Bạn có thể ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ cộng đồng hoặc liên hệ với bộ phận hỗ trợ Aspose để được hỗ trợ chuyên nghiệp.
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho Java không?
 Có, bạn có thể xin giấy phép tạm thời từ[trang mua hàng](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Gestion des images de diapositives Java à l'aide d'Aspose.Slides pour Ja
 linktitle: Gestion des images de diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à gérer les images dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java. Découvrez des conseils étape par étape pour une gestion efficace des images.
-type: docs
 weight: 23
 url: /fr/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Êtes-vous prêt à améliorer vos diapositives Java avec des images époustouflantes ? Dans cet article, nous plongerons dans le monde de la gestion des images à l'aide des didacticiels Aspose.Slides pour Java. Que vous soyez un développeur chevronné ou que vous débutiez tout juste votre parcours, ce guide complet vous guidera tout au long du processus, étape par étape.
 
@@ -42,3 +46,9 @@ Découvrez comment ajouter des images SVG aux diapositives Java avec Aspose.Slid
 Découvrez comment ajouter des images SVG vectorielles provenant de ressources externes aux diapositives Java à l'aide d'Aspose.Slides. Créez des présentations époustouflantes avec des visuels de haute qualité.
 ### [Convertir un objet image SVG en groupe de formes dans des diapositives Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Découvrez comment convertir des images SVG en un groupe de formes dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples de code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 일반 보기 상태에서 프레젠테이션 관리
 linktitle: 일반 보기 상태에서 프레젠테이션 관리
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 일반 보기 상태에서 프레젠테이션을 관리하는 방법을 알아보세요. 단계별 지침과 완전한 소스 코드를 사용하여 프로그래밍 방식으로 프레젠테이션을 생성, 수정 및 향상합니다.
-type: docs
 weight: 11
 url: /ko/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 역동적인 영업 전략, 교육적 강의, 매력적인 웹 세미나 등 무엇을 준비하든 프레젠테이션은 효과적인 커뮤니케이션의 초석입니다. Microsoft PowerPoint는 오랫동안 멋진 슬라이드쇼를 만드는 데 사용되는 소프트웨어였습니다. 그러나 프로그래밍 방식으로 프레젠테이션을 관리하는 경우 .NET용 Aspose.Slides 라이브러리는 매우 귀중한 도구임이 입증되었습니다. 이 가이드에서는 Aspose.Slides for .NET을 사용하여 일반 보기 상태에서 프레젠테이션을 관리하고 프레젠테이션을 원활하게 생성, 수정 및 향상시키는 방법을 살펴보겠습니다.
 
@@ -121,3 +125,9 @@ Aspose.Slides는 C#, VB.NET 등을 포함한 여러 프로그래밍 언어를 �
 
 ## 결론
 이 가이드에서는 Aspose.Slides for .NET을 사용하여 일반 보기 상태에서 프레젠테이션을 관리하는 방법을 살펴보았습니다. 강력한 기능을 사용하면 프로그래밍 방식으로 프레젠테이션을 생성, 수정 및 향상하여 콘텐츠가 청중을 효과적으로 사로잡을 수 있습니다. 전문 발표자이든 프레젠테이션 관련 애플리케이션을 작업하는 개발자이든 Aspose.Slides for .NET은 원활한 프레젠테이션 관리를 위한 관문입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

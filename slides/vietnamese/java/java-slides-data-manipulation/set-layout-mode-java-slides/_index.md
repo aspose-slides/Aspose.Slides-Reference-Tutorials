@@ -3,10 +3,14 @@ title: Đặt Chế độ bố cục trong Java Slides
 linktitle: Đặt Chế độ bố cục trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt chế độ bố cục cho các trang trình bày Java bằng Aspose.Slides. Tùy chỉnh vị trí và kích thước biểu đồ trong hướng dẫn từng bước này bằng mã nguồn.
-type: docs
 weight: 23
 url: /vi/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Đặt chế độ bố cục trong Java Slides
 
@@ -95,3 +99,9 @@ finally
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thêm thông tin về Aspose.Slides for Java trong[tài liệu](https://reference.aspose.com/slides/java/). Nó bao gồm các tài liệu tham khảo và ví dụ API chi tiết để giúp bạn làm việc với các trang trình bày và biểu đồ một cách hiệu quả trong Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

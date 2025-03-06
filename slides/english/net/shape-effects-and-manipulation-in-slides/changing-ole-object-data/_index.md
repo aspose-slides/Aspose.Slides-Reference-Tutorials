@@ -3,10 +3,14 @@ title: Changing OLE Object Data in Presentation with Aspose.Slides
 linktitle: Changing OLE Object Data in Presentation with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Explore the power of Aspose.Slides for .NET in changing OLE object data effortlessly. Enhance your presentations with dynamic content. 
-type: docs
 weight: 25
 url: /net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Creating dynamic and interactive PowerPoint presentations is a common requirement in today's digital world. One powerful tool for achieving this is Aspose.Slides for .NET, a robust library that allows developers to manipulate and enhance PowerPoint presentations programmatically. In this tutorial, we'll delve into the process of changing OLE (Object Linking and Embedding) object data within presentation slides using Aspose.Slides.
 ## Prerequisites
@@ -88,3 +92,10 @@ You can download the library from the release page [here](https://releases.aspos
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides for .NET?
 For support and discussions, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

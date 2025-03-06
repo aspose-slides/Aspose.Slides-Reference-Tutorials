@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 고급 차트 기능 탐색
 linktitle: Aspose.Slides의 추가 차트 기능
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: PowerPoint 프레젠테이션을 향상시키기 위해 .NET용 Aspose.Slides의 고급 차트 기능을 알아보세요. 데이터 포인트 지우기, 통합 문서 복구 등!
-type: docs
 weight: 10
 url: /ko/net/additional-chart-features/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 데이터 시각화 및 프레젠테이션 디자인 분야에서 .NET용 Aspose.Slides는 멋진 차트를 만들고 PowerPoint 프레젠테이션을 향상시키는 강력한 도구로 돋보입니다. 이 단계별 가이드는 Aspose.Slides for .NET이 제공하는 다양한 고급 차트 기능을 안내합니다. 당신이 개발자이든 프레젠테이션 매니아이든 이 튜토리얼은 이 라이브러리의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
 
@@ -148,3 +152,9 @@ using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 ### .NET용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 합니까?
 
 기술적인 질문이나 지원이 필요한 경우 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/)에서 일반적인 질문에 대한 답변을 찾고 커뮤니티로부터 도움을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

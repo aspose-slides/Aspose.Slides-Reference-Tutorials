@@ -3,10 +3,14 @@ title: Java Slaytlarında Belirli Slaydı PDF'ye Dönüştürme
 linktitle: Java Slaytlarında Belirli Slaydı PDF'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak belirli slaytları Java'da PDF'ye nasıl dönüştüreceğinizi öğrenin. Java geliştiricileri için kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 20
 url: /tr/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarında Belirli Slaytları PDF'ye Dönüştürmeye Giriş
 
@@ -107,3 +111,9 @@ Sununuzdaki slayt içeriğini PDF olarak kaydetmeden önce değiştirerek, dön�
 ### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java dokümantasyon sayfasında kapsamlı dokümantasyon ve kod örnekleri bulabilirsiniz.[Burada](https://reference.aspose.com/slides/java/). Daha fazla özellik ve kullanım senaryosunu keşfetmek için belgeleri inceleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

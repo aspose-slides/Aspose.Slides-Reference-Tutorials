@@ -3,10 +3,14 @@ title: Setting Font Properties in Java Slides
 linktitle: Setting Font Properties in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to setting font properties in Java slides using Aspose.Slides for Java. This step-by-step guide includes code examples and FAQs.
-type: docs
 weight: 15
 url: /java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Setting Font Properties in Java Slides
 
@@ -137,3 +141,10 @@ for (ISlide slide : pres.getSlides()) {
     // Access and customize text elements' font properties here
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

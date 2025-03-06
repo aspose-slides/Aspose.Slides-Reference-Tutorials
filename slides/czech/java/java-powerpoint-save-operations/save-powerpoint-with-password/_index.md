@@ -3,10 +3,14 @@ title: Uložit PowerPoint s heslem
 linktitle: Uložit PowerPoint s heslem
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat ochranu heslem k prezentacím PowerPoint pomocí Aspose.Slides for Java. Zajistěte své snímky snadno.
-type: docs
 weight: 12
 url: /cs/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem uložení powerpointové prezentace s heslem pomocí Aspose.Slides for Java. Přidáním hesla do vaší prezentace můžete zvýšit její zabezpečení a zajistit, že k jejímu obsahu budou mít přístup pouze oprávněné osoby.
 ## Předpoklady
@@ -67,3 +71,9 @@ Ano, Aspose.Slides umožňuje nastavit samostatná hesla pro oprávnění k úpr
  Ano, můžete si stáhnout bezplatnou zkušební verzi z Aspose[webová stránka](https://releases.aspose.com/).
 ### Jak mohu získat technickou podporu pro Aspose.Slides?
 Můžete navštívit fórum Aspose.Slides, kde získáte technickou pomoc od komunity a pracovníků podpory Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

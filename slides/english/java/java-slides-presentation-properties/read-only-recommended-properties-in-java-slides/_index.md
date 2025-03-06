@@ -3,10 +3,14 @@ title: Read-Only Recommended Properties in Java Slides
 linktitle: Read-Only Recommended Properties in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to enable Read-Only Recommended properties in Java PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide with source code examples for enhanced presentation security.
-type: docs
 weight: 17
 url: /java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Enabling Read-Only Recommended Properties in Java Slides
 
@@ -88,3 +92,10 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
 Remember to replace `"YourPassword"` with your desired password.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

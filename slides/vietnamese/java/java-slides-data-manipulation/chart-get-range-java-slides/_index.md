@@ -3,10 +3,14 @@ title: Biểu đồ Nhận phạm vi trong Java Slides
 linktitle: Biểu đồ Nhận phạm vi trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất các phạm vi biểu đồ trong Java Slides bằng Aspose.Slides cho API Java. Hướng dẫn từng bước với mã nguồn để truy cập dữ liệu biểu đồ hiệu quả.
-type: docs
 weight: 16
 url: /vi/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Chart Get Range trong Java Slides
 
@@ -98,3 +102,10 @@ Có, bạn có thể tùy chỉnh giao diện của biểu đồ, chẳng hạn 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện về Aspose.Slides for Java trên trang web:[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

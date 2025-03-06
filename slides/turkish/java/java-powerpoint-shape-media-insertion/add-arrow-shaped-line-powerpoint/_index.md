@@ -3,10 +3,14 @@ title: PowerPoint'te Ok Şekilli Çizgi Ekle
 linktitle: PowerPoint'te Ok Şekilli Çizgi Ekle
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarına ok şeklinde çizgiler eklemeyi öğrenin. Görsel çekiciliği zahmetsizce geliştirin.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 PowerPoint sunumlarına ok şeklinde çizgiler eklemek görsel çekiciliği artırabilir ve bilgilerin etkili bir şekilde aktarılmasına yardımcı olabilir. Aspose.Slides for Java, Java geliştiricilerinin PowerPoint sunumlarını programlı olarak yönetmeleri için kapsamlı bir çözüm sunar. Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarınıza ok şeklinde çizgiler ekleme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -76,3 +80,9 @@ Aşağıdaki bağlantılar aracılığıyla belgeleri inceleyebilir, kitaplığ�
  Belgeler:[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/)
  İndirmek:[Java İndirmek için Aspose.Slides](https://releases.aspose.com/slides/java/)
  Destek:[Aspose.Slides for Java Destek Forumu](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides के साथ प्रस्तुति में OLE 
 linktitle: Aspose.Slides के साथ प्रस्तुति में OLE ऑब्जेक्ट फ़्रेम जोड़ना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि पावरपॉइंट प्रेजेंटेशन को गतिशील सामग्री के साथ कैसे बेहतर बनाया जाए! .NET के लिए Aspose.Slides का उपयोग करके हमारे चरण-दर-चरण गाइड का पालन करें। अभी जुड़ाव बढ़ाएँ!
-type: docs
 weight: 15
 url: /hi/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन स्लाइड में OLE (ऑब्जेक्ट लिंकिंग और एम्बेडिंग) ऑब्जेक्ट फ़्रेम जोड़ने की प्रक्रिया में गहराई से जाएंगे। Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से PowerPoint फ़ाइलों के साथ काम करने में सक्षम बनाती है। अपनी प्रेजेंटेशन स्लाइड में OLE ऑब्जेक्ट को सहजता से एम्बेड करने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें, अपनी PowerPoint फ़ाइलों को गतिशील और इंटरैक्टिव सामग्री के साथ बेहतर बनाएँ।
 ## आवश्यक शर्तें
@@ -84,3 +88,9 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 उत्तर: बिल्कुल, आप अपनी पसंद के अनुसार OLE ऑब्जेक्ट फ़्रेम के आकार, स्थिति और अन्य गुणों को समायोजित कर सकते हैं।
 ### प्रश्न: यदि कार्यान्वयन के दौरान मुझे चुनौतियों का सामना करना पड़े तो मैं सहायता कहां से प्राप्त कर सकता हूं?
  उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक सहायता और मार्गदर्शन के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

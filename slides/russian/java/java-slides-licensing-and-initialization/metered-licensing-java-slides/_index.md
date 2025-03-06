@@ -3,10 +3,14 @@ title: Лимитное лицензирование в Java Slides
 linktitle: Лимитное лицензирование в Java Slides
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Оптимизируйте использование Aspose.Slides для Java с помощью дозированного лицензирования. Узнайте, как его настроить и отслеживать использование API.
-type: docs
 weight: 10
 url: /ru/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в дозированное лицензирование в Aspose.Slides для Java
 
@@ -107,3 +111,10 @@ catch (Exception ex)
 ### Нужно ли подключение к Интернету для лимитного лицензирования?
 
 Да, для настройки и проверки лимитного лицензирования требуется подключение к Интернету.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 如何使用 Aspose.Slides .NET 从幻灯片中删除超链接
 linktitle: 从幻灯片中删除超链接
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中删除超链接。创建简洁专业的演示文稿。
-type: docs
 weight: 11
 url: /zh/net/hyperlink-manipulation/remove-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在专业演示领域，确保幻灯片看起来整洁有序至关重要。超链接是经常使幻灯片杂乱无章的常见元素之一。无论您处理的是指向网站、文档还是演示文稿中的其他幻灯片的超链接，您可能都希望删除它们以获得更清晰、更集中的外观。使用 Aspose.Slides for .NET，您可以轻松完成此任务。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 从幻灯片中删除超链接的过程。
 
@@ -84,3 +88,9 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### Aspose.Slides for .NET 是否提供技术支持？
 是的，您可以寻求技术支持，并与 Aspose 社区互动[Aspose 论坛](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

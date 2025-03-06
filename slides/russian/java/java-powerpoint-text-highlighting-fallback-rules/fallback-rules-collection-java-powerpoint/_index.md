@@ -3,10 +3,14 @@ title: Коллекция резервных правил в Java PowerPoint
 linktitle: Коллекция резервных правил в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как управлять правилами резервного шрифта в презентациях PowerPoint с помощью Aspose.Slides для Java. Улучшите совместимость между устройствами без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В этом уроке мы углубимся в то, как управлять правилами резервного шрифта с помощью Aspose.Slides для Java. Резервные шрифты имеют решающее значение для обеспечения правильного отображения ваших презентаций в различных средах, особенно когда определенные шрифты недоступны. Мы шаг за шагом проведем вас через импорт необходимых пакетов, настройку среды и внедрение резервных правил.
 ## Предварительные условия
@@ -73,3 +77,9 @@ try {
  Подробная документация доступна[здесь](https://reference.aspose.com/slides/java/).
 ### Как мне получить поддержку Aspose.Slides для Java?
 Для получения поддержки посетите форум Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

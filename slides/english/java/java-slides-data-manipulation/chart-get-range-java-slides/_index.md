@@ -3,10 +3,14 @@ title: Chart Get Range in Java Slides
 linktitle: Chart Get Range in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve chart ranges in Java Slides using Aspose.Slides for Java API. Step-by-step guide with source code for effective chart data access.
-type: docs
 weight: 16
 url: /java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Chart Get Range in Java Slides
 
@@ -99,3 +103,10 @@ Yes, you can customize the appearance of charts, such as changing colors, fonts,
 
 You can find comprehensive documentation and resources for Aspose.Slides for Java on the site: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

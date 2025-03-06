@@ -3,10 +3,14 @@ title: Java 幻灯片中图表的字体属性
 linktitle: Java 幻灯片中图表的字体属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 增强 Java 幻灯片中的图表字体属性。自定义字体大小、样式和颜色，以获得具有影响力的演示文稿。
-type: docs
 weight: 11
 url: /zh/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中图表字体属性介绍
 
@@ -102,3 +106,9 @@ finally
 ### 如何自定义特定图表元素的字体属性？
 
 要自定义特定图表元素（例如轴标签或图例文本）的字体属性，您可以访问这些元素并使用与上面类似的方法设置其字体属性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

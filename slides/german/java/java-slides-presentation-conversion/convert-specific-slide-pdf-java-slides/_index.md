@@ -3,10 +3,14 @@ title: Konvertieren Sie eine bestimmte Folie in Java Slides in PDF
 linktitle: Konvertieren Sie eine bestimmte Folie in Java Slides in PDF
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java bestimmte Folien in Java in PDF konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen für Java-Entwickler.
-type: docs
 weight: 20
 url: /de/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung zum Konvertieren bestimmter Folien in PDF in Java Slides
 
@@ -107,3 +111,9 @@ Sie können das Erscheinungsbild der konvertierten PDF-Datei anpassen, indem Sie
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Slides für Java?
 
  Ausführliche Dokumentation und Codebeispiele finden Sie auf der Dokumentationsseite von Aspose.Slides für Java.[Hier](https://reference.aspose.com/slides/java/). Durchsuchen Sie die Dokumentation, um weitere Funktionen und Anwendungsfälle zu entdecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

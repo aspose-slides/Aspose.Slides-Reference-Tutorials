@@ -3,10 +3,14 @@ title: Java スライドでデータ ラベルのパーセンテージ記号を�
 linktitle: Java スライドでデータ ラベルのパーセンテージ記号を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでパーセント記号付きのデータ ラベルを設定する方法を学びます。ステップ バイ ステップのガイダンスとソース コードを使用して、魅力的なグラフを作成します。
-type: docs
 weight: 17
 url: /ja/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java でデータ ラベルのパーセンテージ記号を設定する方法の紹介
 
@@ -176,3 +180,10 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### チャートにさらにシリーズを追加するにはどうすればよいですか?
 
 チャートにシリーズを追加するには、`add`方法`IChartSeriesCollection`物体。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

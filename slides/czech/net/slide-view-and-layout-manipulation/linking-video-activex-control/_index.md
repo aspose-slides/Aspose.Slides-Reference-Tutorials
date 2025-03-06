@@ -3,10 +3,14 @@ title: Propojení videa pomocí ovládacího prvku ActiveX v aplikaci PowerPoint
 linktitle: Propojení videa pomocí ovládacího prvku ActiveX
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Přečtěte si, jak propojit videa se snímky aplikace PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce obsahuje zdrojový kód a tipy pro vytváření interaktivních a poutavých prezentací s propojenými videi.
-type: docs
 weight: 12
 url: /cs/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Propojení videa přes ovládací prvek ActiveX v prezentaci pomocí Aspose.Slides pro .NET
 
 V Aspose.Slides for .NET můžete programově propojit video se snímkem prezentace pomocí ovládacího prvku ActiveX. To vám umožní vytvářet interaktivní prezentace, kde lze obsah videa přehrávat přímo na snímku. V tomto podrobném průvodci vás provedeme procesem propojení videa se snímkem prezentace pomocí Aspose.Slides for .NET.
@@ -80,3 +84,9 @@ Velikost propojeného videa může ovlivnit celkovou velikost a výkon vaší pr
 Podle kroků uvedených v této příručce můžete snadno propojit video prostřednictvím ovládacího prvku ActiveX v prezentaci pomocí Aspose.Slides for .NET. Tato funkce umožňuje vytvářet poutavé a interaktivní prezentace, které hladce zahrnují multimediální obsah.
 
  Další podrobnosti a pokročilé možnosti naleznete na[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

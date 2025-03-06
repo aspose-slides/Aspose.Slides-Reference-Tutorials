@@ -3,10 +3,14 @@ title: احصل على إحداثيات مستطيلة للفقرة في شرا�
 linktitle: احصل على إحداثيات مستطيلة للفقرة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد إحداثيات الفقرة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة مع كود المصدر لتحديد الموقع بدقة.
-type: docs
 weight: 13
 url: /ar/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لاسترداد الإحداثيات المستطيلة للفقرة في Aspose.Slides لـ Java
 
@@ -112,3 +116,9 @@ finally
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Slides لـ Java؟
 
 نعم، تحتاج عادةً إلى ترخيص صالح لاستخدام Aspose.Slides for Java في بيئة الإنتاج. يمكنك الحصول على ترخيص من موقع Aspose. ومع ذلك، قد يقدمون نسخة تجريبية لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

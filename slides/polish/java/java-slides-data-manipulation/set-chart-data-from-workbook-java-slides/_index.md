@@ -3,10 +3,14 @@ title: Ustaw dane wykresu ze skoroszytu w slajdach Java
 linktitle: Ustaw dane wykresu ze skoroszytu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić dane wykresu ze skoroszytu programu Excel w aplikacji Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku z przykładami kodu do prezentacji dynamicznych.
-type: docs
 weight: 15
 url: /pl/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania danych wykresu ze skoroszytu w slajdach Java
 
@@ -142,3 +146,9 @@ Tak, możesz dynamicznie aktualizować dane wykresu w prezentacji, modyfikując 
 ### Gdzie mogę znaleźć więcej przykładów i zasobów dotyczących pracy z Aspose.Slides dla Java?
 
  Dodatkowe przykłady i zasoby można znaleźć na stronie[Strona Aspose](https://www.aspose.com/). Dodatkowo dokumentacja Aspose.Slides for Java zawiera kompleksowe wskazówki dotyczące pracy z biblioteką.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

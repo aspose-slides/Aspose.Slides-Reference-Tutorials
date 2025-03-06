@@ -3,10 +3,14 @@ title: Positie-as instellen in Java-dia's
 linktitle: Positie-as instellen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter uw grafieken met Aspose.Slides voor Java. Leer hoe u de positie-as in Java-dia's instelt, verbluffende presentaties maakt en diagramindelingen eenvoudig aanpast.
-type: docs
 weight: 16
 url: /nl/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het instellen van de positie-as in Aspose.Slides voor Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Dat is het voor deze tutorial. U hebt geleerd hoe u de positie-as in een diagram kunt instellen met Aspose.Slides voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

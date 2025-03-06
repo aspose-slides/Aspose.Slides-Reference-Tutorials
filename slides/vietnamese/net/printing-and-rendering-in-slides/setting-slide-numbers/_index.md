@@ -3,10 +3,14 @@ title: Đặt số slide cho bản trình bày bằng Aspose.Slides
 linktitle: Đặt số slide cho bản trình bày bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá thế giới thao tác slide liền mạch với Aspose.Slides cho .NET. Tìm hiểu cách đặt số trang chiếu một cách dễ dàng, nâng cao trải nghiệm thuyết trình của bạn.
-type: docs
 weight: 16
 url: /vi/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc kiểm soát trình tự và tổ chức các slide là rất quan trọng để giao tiếp hiệu quả. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để thao tác số trang chiếu trong bản trình bày của bạn, giúp bạn linh hoạt tùy chỉnh nội dung của mình một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -63,3 +67,9 @@ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn mở rộng để tùy
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ dựa vào cộng đồng hoặc khám phá các tùy chọn hỗ trợ cao cấp.
 ### Tôi có thể dùng thử Aspose.Slides trước khi mua không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

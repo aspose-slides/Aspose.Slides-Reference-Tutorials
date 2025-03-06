@@ -3,10 +3,14 @@ title: Προσθήκη Video Frame από Web Source στο PowerPoint
 linktitle: Προσθήκη Video Frame από Web Source στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να βελτιώσετε τις παρουσιάσεις σας στο PowerPoint προσθέτοντας καρέ βίντεο από πηγές Ιστού χρησιμοποιώντας το Aspose.Slides για Java.
-type: docs
 weight: 18
 url: /el/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να προσθέτουμε ένα πλαίσιο βίντεο από μια πηγή Ιστού, όπως το YouTube, σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθώντας αυτές τις οδηγίες βήμα προς βήμα, θα μπορείτε να βελτιώσετε τις παρουσιάσεις σας ενσωματώνοντας ελκυστικά στοιχεία πολυμέσων.
 ## Προαπαιτούμενα
@@ -84,3 +88,9 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Το Aspose.Slides υποστηρίζει ένα ευρύ φάσμα εκδόσεων PowerPoint, διασφαλίζοντας τη συμβατότητα σε διαφορετικές πλατφόρμες.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides;
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για βοήθεια, τεκμηρίωση και κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

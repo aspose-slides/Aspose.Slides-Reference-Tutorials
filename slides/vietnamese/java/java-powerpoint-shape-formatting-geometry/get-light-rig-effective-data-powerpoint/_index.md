@@ -3,10 +3,14 @@ title: Nhận dữ liệu hiệu quả về Light Rig trong PowerPoint
 linktitle: Nhận dữ liệu hiệu quả về Light Rig trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất dữ liệu hiệu quả về giàn khoan nhẹ từ bản trình bày PowerPoint bằng Aspose.Slides cho Java trong hướng dẫn từng bước chi tiết này.
-type: docs
 weight: 25
 url: /vi/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Bạn đang tìm cách tự động hóa các tác vụ trình bày PowerPoint của mình bằng Java? Đừng tìm đâu xa! Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp PowerPoint mà không cần cài đặt Microsoft PowerPoint. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các bước để có được dữ liệu hiệu quả về giàn khoan nhẹ nhàng từ bản trình bày PowerPoint bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển Java dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn khai thác toàn bộ tiềm năng của Aspose.Slides trong các dự án của bạn.
 ## Điều kiện tiên quyết
@@ -66,3 +70,9 @@ Có, bạn có thể sử dụng Aspose.Slides mà không cần cài đặt Micr
  Tài liệu có sẵn tại[liên kết này](https://reference.aspose.com/slides/java/).
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.Slides?
  Bạn có thể nhận hỗ trợ từ diễn đàn hỗ trợ Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: PowerPoint'te Şekilleri Düz Renkle Doldurun
 linktitle: PowerPoint'te Şekilleri Düz Renkle Doldurun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri düz renklerle nasıl dolduracağınızı öğrenin. Geliştiriciler için adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Daha önce PowerPoint sunumlarıyla çalıştıysanız, şekiller eklemenin ve renklerini özelleştirmenin, slaytlarınızı görsel olarak çekici ve bilgilendirici hale getirmenin çok önemli bir yönü olabileceğini biliyorsunuzdur. Aspose.Slides for Java ile bu süreç çocuk oyuncağı haline geliyor. İster PowerPoint sunumlarının oluşturulmasını otomatikleştirmek isteyen bir geliştirici olun, ister slaytlarınıza biraz renk katmak isteyen biri olun, bu eğitim Aspose.Slides for Java'yı kullanarak şekilleri düz renklerle doldurma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -85,3 +89,9 @@ Evet, Aspose.Slides for Java, mevcut PowerPoint sunumlarını açmanıza, düzen
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/).
 ### Daha fazla belge ve desteği nerede bulabilirim?
  Ayrıntılı belgeler şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/)ve şu adresten destek arayabilirsiniz:[forumlar](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

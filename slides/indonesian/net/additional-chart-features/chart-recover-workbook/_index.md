@@ -3,10 +3,14 @@ title: Cara Menggunakan Aspose.Slides .NET untuk Memulihkan Buku Kerja dari Baga
 linktitle: Pulihkan Buku Kerja dari Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara memulihkan buku kerja dari bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengekstrak data secara efisien.
-type: docs
 weight: 12
 url: /id/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Jika Anda ingin bekerja dengan presentasi PowerPoint di .NET, Aspose.Slides for .NET adalah pustaka canggih yang dapat membantu Anda mencapai tujuan Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses memulihkan buku kerja dari bagan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Fitur canggih ini dapat berguna ketika Anda perlu mengekstrak data dari bagan dalam presentasi Anda. Kami akan membagi prosesnya menjadi langkah-langkah yang mudah diikuti, memastikan Anda memiliki pemahaman yang jelas tentang cara menyelesaikan tugas ini.
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET adalah pustaka .NET yang kuat untuk bekerja dengan file M
 ### 5. Berapa panjang judul maksimal untuk optimasi SEO?
 
 Untuk optimasi SEO, disarankan untuk menjaga judul Anda di bawah 60 karakter untuk memastikan judul tersebut ditampilkan dengan benar di hasil mesin pencari.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

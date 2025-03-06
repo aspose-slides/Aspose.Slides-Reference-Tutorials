@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में चार्ट में
 linktitle: जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके चार्ट में डिफ़ॉल्ट मार्कर के साथ Java स्लाइड बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 16
 url: /hi/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में चार्ट में डिफ़ॉल्ट मार्कर का परिचय
 
@@ -142,3 +146,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### क्या मैं डेटा बिंदुओं में लेबल जोड़ सकता हूँ?
 
  हां, आप इसका उपयोग करके डेटा बिंदुओं में लेबल जोड़ सकते हैं`IDataPoint.getLabel()` विधि का चयन करें और आवश्यकतानुसार उन्हें अनुकूलित करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Borrar diapositiva por índice secuencial
 linktitle: Borrar diapositiva por índice secuencial
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo borrar diapositivas de PowerPoint paso a paso usando Aspose.Slides para .NET. Nuestra guía proporciona instrucciones claras y código fuente completo para ayudarle a eliminar diapositivas mediante programación según su índice secuencial.
-type: docs
 weight: 24
 url: /es/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introducción a borrar diapositiva por índice secuencial
 
@@ -86,3 +90,9 @@ Por supuesto, puedes borrar diapositivas según condiciones como el contenido de
 ### ¿Cómo puedo obtener más información sobre Aspose.Slides para .NET?
 
  Puede explorar la documentación detallada y la referencia de API para Aspose.Slides para .NET en el[página de documentación](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

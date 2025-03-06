@@ -3,10 +3,14 @@ title: Fyll former med mönster i PowerPoint
 linktitle: Fyll former med mönster i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att fylla former med mönster i PowerPoint med Aspose.Slides för Java. Följ vår enkla, steg-för-steg-guide för att förbättra dina presentationer visuellt.
-type: docs
 weight: 11
 url: /sv/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Att skapa visuellt tilltalande presentationer är viktigt för att engagera din publik. Ett sätt att förbättra dina PowerPoint-bilder är att fylla former med mönster. I den här handledningen kommer vi att gå igenom stegen för att fylla former med mönster med Aspose.Slides för Java. Den här guiden är skräddarsydd för utvecklare som vill utnyttja de kraftfulla funktionerna i Aspose.Slides för att skapa fantastiska presentationer programmatiskt.
 ## Förutsättningar
@@ -94,3 +98,9 @@ Aspose.Slides för Java är ett kraftfullt API som låter utvecklare skapa, mani
 Ja, Aspose.Slides för Java låter dig öppna, redigera och spara befintliga PowerPoint-presentationer.
 ### Var kan jag få support för Aspose.Slides för Java?
  Du kan få stöd från[Aspose.Slides supportforum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

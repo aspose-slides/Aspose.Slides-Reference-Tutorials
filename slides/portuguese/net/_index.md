@@ -1,12 +1,15 @@
 ---
 title: Liberando o poder da manipulação e conversão de apresentações
 linktitle: Tutoriais Aspose.Slides para .NET
-type: docs
 weight: 10
 url: /pt/net/
 description: Descubra o mundo da manipulação de apresentações, conversão e processamento de PowerPoint com os tutoriais Aspose.Slides for .NET. Aprenda a criar, converter e aprimorar apresentações para obter resultados impactantes.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Bem-vindo à coleção abrangente de tutoriais do Aspose.Slides for .NET, onde você descobrirá a arte da manipulação de apresentações, conversão e processamento do PowerPoint. Esses tutoriais servem como guia para dominar os recursos do Aspose.Slides, permitindo que você navegue perfeitamente por vários aspectos da criação, personalização e transformação de apresentações. Esteja você procurando automatizar tarefas do PowerPoint, converter apresentações em diferentes formatos ou aprimorar slides com multimídia, estes tutoriais fornecem instruções passo a passo para potencializar sua jornada de desenvolvimento.
 
 ## Conversão de apresentação: transformando slides com facilidade
@@ -60,3 +63,9 @@ Aprimore suas apresentações de slides com imagens e vídeos cativantes usando 
 Aprimore suas habilidades de manipulação de slides com os tutoriais do Aspose.Slides sobre geometria de formas e posicionamento em slides. Aprenda a controlar programaticamente formas, suas dimensões e alinhamento.
 ### [Alinhamento e formatação de formas em slides](./shape-alignment-and-formatting-in-slides/)
 Explore os tutoriais abrangentes do Aspose.Slides sobre alinhamento e formatação de formas em aplicativos .NET. Aprenda a alinhar e formatar formas sem esforço, aprimorando suas apresentações de slides com precisão. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

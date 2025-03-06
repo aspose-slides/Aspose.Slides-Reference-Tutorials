@@ -3,10 +3,14 @@ title: Diagrammformatierung und Animation
 linktitle: Diagrammformatierung und Animation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit dynamischen Diagrammen mithilfe von Aspose.Slides für .NET. Lernen Sie Schritt für Schritt die Formatierung und Animation von Diagrammen. Verbessern Sie noch heute Ihre Präsentationsfähigkeiten!
-type: docs
 weight: 22
 url: /de/net/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung
 
@@ -35,3 +39,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET fesselnde Animationen zu Diagr
 Erfahren Sie, wie Sie Diagrammreihen mit Aspose.Slides für .NET animieren. Erstellen Sie dynamische Präsentationen mit ansprechenden Datenvisualisierungen.
 ### [Animieren von Serienelementen im Diagramm](./animating-series-elements/)
 Erfahren Sie, wie Sie Diagrammreihen mit Aspose.Slides für .NET animieren. Erstellen Sie ansprechende Präsentationen mit dynamischen Visualisierungen. Expertenhandbuch mit Codebeispielen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

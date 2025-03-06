@@ -3,10 +3,14 @@ title: Konvertera HTML-presentation med inbäddade bilder
 linktitle: Konvertera HTML-presentation med inbäddade bilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du konverterar PowerPoint-presentationer till HTML med inbäddade bilder med Aspose.Slides för .NET. Steg-för-steg-guide för sömlös konvertering.
-type: docs
 weight: 11
 url: /sv/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 I dagens digitala värld blir behovet av att konvertera PowerPoint-presentationer till HTML allt viktigare. Oavsett om det är för att dela innehåll online eller skapa webbaserade presentationer, kan möjligheten att konvertera dina PowerPoint-filer till HTML vara en värdefull tillgång. Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig utföra sådana konverteringar sömlöst. I den här steg-för-steg-guiden går vi igenom processen att konvertera en HTML-presentation med inbäddade bilder med Aspose.Slides för .NET.
 
@@ -115,3 +119,9 @@ Aspose.Slides för .NET stöder konvertering av presentationer med olika element
 
 ### Vilka andra format kan jag konvertera PowerPoint-presentationer till med Aspose.Slides för .NET?
 Aspose.Slides för .NET stöder konvertering till olika format, inklusive PDF, bilder och mer. Se dokumentationen för en omfattande lista över format som stöds.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

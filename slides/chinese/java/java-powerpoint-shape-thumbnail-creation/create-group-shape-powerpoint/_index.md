@@ -3,10 +3,14 @@ title: 在 PowerPoint 中创建组形状
 linktitle: 在 PowerPoint 中创建组形状
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建组形状。轻松改善组织和视觉吸引力。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在现代演示文稿中，整合具有视觉吸引力和结构良好的元素对于有效传达信息至关重要。PowerPoint 中的组形状允许您将多个形状组织成一个单元，从而更轻松地进行操作和格式化。Aspose.Slides for Java 提供强大的功能，可通过编程方式创建和操作组形状，从而为您的演示文稿设计提供灵活性和控制力。
 ## 先决条件
@@ -75,3 +79,9 @@ Aspose.Slides for Java 生成与各种版本兼容的 PowerPoint 演示文稿，
 Aspose.Slides for Java 对于可添加到组形状的形状数量没有严格的限制。
 ### 我可以使用 Aspose.Slides for Java 将动画应用于组形状吗？
 是的，Aspose.Slides for Java 为将动画应用于组形状提供了全面支持，从而实现了动态演示。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

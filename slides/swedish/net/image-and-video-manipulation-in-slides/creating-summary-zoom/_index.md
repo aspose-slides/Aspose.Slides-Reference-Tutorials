@@ -3,10 +3,14 @@ title: Aspose.Slides - Mastering Summary Zoomar in .NET
 linktitle: Skapa sammanfattning Zooma in presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lyft dina presentationer med Aspose.Slides för .NET! Lär dig att skapa engagerande sammanfattningszoomningar utan ansträngning. Ladda ner nu för en dynamisk bildupplevelse.
-type: docs
 weight: 16
 url: /sv/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 I den dynamiska presentationsvärlden framstår Aspose.Slides för .NET som ett kraftfullt verktyg för att förbättra din upplevelse av att skapa bilder. En av de anmärkningsvärda funktionerna som den erbjuder är möjligheten att skapa en sammanfattningszoom, ett visuellt engagerande sätt att presentera en samling bilder. I den här handledningen guidar vi dig genom processen att skapa en sammanfattning Zooma in presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -79,3 +83,9 @@ Absolut! Du kan inkludera hyperlänkar i dina bilder, och de kommer att fungera 
 Från och med den senaste versionen finns det inga strikta begränsningar för hur många avsnitt du kan lägga till i en presentation.
 ### Finns det en testversion tillgänglig för Aspose.Slides?
 Ja, du kan utforska funktionerna i Aspose.Slides genom att ladda ner[gratis testversion](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

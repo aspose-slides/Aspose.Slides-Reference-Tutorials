@@ -3,10 +3,14 @@ title: Graf index datových bodů v Java Slides
 linktitle: Graf index datových bodů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se manipulovat s indexy datových bodů grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Extrahujte data z grafů PowerPoint a pracujte s nimi bez námahy.
-type: docs
 weight: 12
 url: /cs/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do indexu datových bodů grafu v Java Slides
 
@@ -98,3 +102,9 @@ PowerPointovou prezentaci s grafy můžete exportovat do různých formátů, ja
 ### Kde najdu další příklady a dokumentaci k Aspose.Slides pro Javu?
 
  Komplexní příklady a dokumentaci k Aspose.Slides for Java můžete najít na webové stránce dokumentace Aspose[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

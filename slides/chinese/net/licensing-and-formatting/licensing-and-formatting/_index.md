@@ -3,10 +3,14 @@ title: Aspose.Slides 中的许可
 linktitle: Aspose.Slides 中的许可
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何授权 Aspose.Slides for .NET 并在您的 .NET 应用程序中释放 PowerPoint 操作的强大功能。
-type: docs
 weight: 10
 url: /zh/net/licensing-and-formatting/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在 .NET 开发领域，Aspose.Slides 是一个功能强大且用途广泛的库，可让您以编程方式处理 Microsoft PowerPoint 文件。无论您需要创建、操作还是转换 PowerPoint 演示文稿，Aspose.Slides 都能满足您的需求。要充分利用其功能，您需要了解许可的重要性。在本分步指南中，我们将探讨如何为 .NET 许可 Aspose.Slides，并确保您的应用程序已准备好无缝运行。
 
@@ -92,3 +96,9 @@ Aspose.Slides for .NET 是一个功能强大的库，可用于在 .NET 应用程
 
 ### Aspose.Slides 为 .NET 用户提供哪些类型的支持？
  Aspose 提供了一个社区论坛，您可以在其中寻求支持并与其他 Aspose 用户互动。您可以访问论坛[https://forum.aspose.com/](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

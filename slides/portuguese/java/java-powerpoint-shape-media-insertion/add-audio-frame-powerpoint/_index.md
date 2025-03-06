@@ -3,10 +3,14 @@ title: Adicionar quadro de áudio no PowerPoint
 linktitle: Adicionar quadro de áudio no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar quadros de áudio a apresentações do PowerPoint usando Aspose.Slides para Java. Eleve suas apresentações com elementos de áudio envolventes sem esforço.
-type: docs
 weight: 12
 url: /pt/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Aprimorar apresentações com elementos de áudio pode aumentar significativamente seu impacto e envolvimento. Com Aspose.Slides for Java, a integração de quadros de áudio em apresentações do PowerPoint torna-se um processo contínuo. Este tutorial irá guiá-lo através do processo passo a passo de adição de quadros de áudio às suas apresentações usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -75,3 +79,9 @@ Sim, você pode criar apresentações em PowerPoint com quadros de áudio incorp
 Aspose.Slides for Java oferece amplas opções de personalização, permitindo que você personalize a aparência do reprodutor de áudio de acordo com suas preferências.
 ### Existe uma versão de teste disponível para Aspose.Slides for Java?
  Sim, você pode acessar uma avaliação gratuita do Aspose.Slides for Java em seu[local na rede Internet](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

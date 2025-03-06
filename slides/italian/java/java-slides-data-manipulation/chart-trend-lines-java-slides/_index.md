@@ -3,10 +3,14 @@ title: Linee di tendenza del grafico nelle diapositive Java
 linktitle: Linee di tendenza del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere varie linee di tendenza alle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice per una visualizzazione efficace dei dati.
-type: docs
 weight: 15
 url: /it/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alle linee di tendenza del grafico nelle diapositive Java: una guida passo passo
 
@@ -190,3 +194,9 @@ Sì, puoi aggiungere più linee di tendenza a una singola serie di grafici. Chia
 ### Come posso accedere a più risorse ed esempi per Aspose.Slides per Java?
 
  È possibile accedere a risorse aggiuntive, documentazione ed esempi per Aspose.Slides per Java su[Sito web Aspose](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

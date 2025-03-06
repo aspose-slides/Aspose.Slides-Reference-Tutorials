@@ -3,10 +3,14 @@ title: Vykreslování komentářů v PowerPointu
 linktitle: Vykreslování komentářů v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vykreslovat komentáře v prezentacích PowerPoint pomocí Aspose.Slides for Java. Přizpůsobte si vzhled a efektivně generujte náhledy obrázků.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu projdeme procesem vykreslování komentářů v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vykreslování komentářů může být užitečné pro různé účely, jako je generování náhledů obrázků prezentací s komentáři.
 ## Předpoklady
@@ -72,3 +76,9 @@ Ano, kromě PNG můžete vykreslovat komentáře do jiných obrazových formát�
 Ano, pomocí Aspose.Slides můžete vykreslovat komentáře k obrázkům bez otevření aplikace PowerPoint.
 ### Existuje způsob, jak vykreslit komentáře přímo do dokumentu PDF?
 Ano, Aspose.Slides poskytuje funkce pro vykreslování komentářů přímo do dokumentů PDF, což umožňuje bezproblémovou integraci do pracovního toku dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

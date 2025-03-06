@@ -3,10 +3,14 @@ title: 在幻灯片中生成自定义尺寸的缩略图
 linktitle: 生成自定义尺寸的缩略图
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿生成自定义缩略图。增强用户体验和功能。
-type: docs
 weight: 13
 url: /zh/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 无论您是在构建交互式应用程序、增强用户体验还是优化各种平台的内容，创建 PowerPoint 演示文稿的自定义缩略图都是一项宝贵的资产。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 库从 PowerPoint 演示文稿生成自定义缩略图的过程。这个功能强大的库允许您在 .NET 应用程序中以编程方式操作、转换和增强 PowerPoint 文件。
 
@@ -115,3 +119,9 @@ Aspose.Slides for .NET 是一个功能强大的库，允许开发人员在 .NET 
 
 ### Aspose.Slides for .NET 是否提供技术支持？
 是的，您可以访问技术支持和社区论坛[这里](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

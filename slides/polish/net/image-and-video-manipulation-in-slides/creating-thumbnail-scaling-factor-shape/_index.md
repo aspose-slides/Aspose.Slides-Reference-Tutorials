@@ -3,10 +3,14 @@ title: Tworzenie miniatury ze współczynnikiem skalowania kształtu w Aspose.Sl
 linktitle: Tworzenie miniatury ze współczynnikiem skalowania kształtu w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć miniatury programu PowerPoint z określonymi granicami za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 12
 url: /pl/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat tworzenia miniatur z granicami kształtów w Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom bezproblemową pracę z prezentacjami programu PowerPoint w aplikacjach .NET. W tym samouczku zagłębimy się w proces generowania miniatur z określonymi granicami dla kształtów w prezentacji za pomocą Aspose.Slides.
 ## Warunki wstępne
@@ -55,3 +59,9 @@ Tak, Aspose.Slides jest kompatybilny z różnymi frameworkami .NET, zapewniając
  W przypadku jakichkolwiek pytań lub pomocy zapraszamy do odwiedzenia forum pomocy technicznej Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
 ### P5: Czy mogę kupić Aspose.Slides dla .NET?
  Z pewnością! Aby kupić Aspose.Slides dla .NET, odwiedź stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Accedi alla modifica delle proprietà nelle diapositive Java
 linktitle: Accedi alla modifica delle proprietà nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come accedere e modificare le proprietà in Java Slides utilizzando Aspose.Slides per Java. Migliora le tue presentazioni con proprietà personalizzate.
-type: docs
 weight: 11
 url: /it/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione all'accesso alla modifica delle proprietà nelle diapositive Java
 
@@ -117,3 +121,9 @@ Le proprietà personalizzate sono metadati definiti dall'utente associati a una 
 ### Dove posso trovare ulteriore documentazione ed esempi?
 
  È possibile trovare documentazione completa ed esempi di codice per Aspose.Slides per Java all'indirizzo[Qui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

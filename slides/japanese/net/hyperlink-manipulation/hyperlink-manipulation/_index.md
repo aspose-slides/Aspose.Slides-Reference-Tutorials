@@ -3,10 +3,14 @@ title: Aspose.Slides でのハイパーリンク操作
 linktitle: Aspose.Slides でのハイパーリンク操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でハイパーリンクを追加および削除する方法を学びます。インタラクティブなリンクを使用してプレゼンテーションを簡単に強化できます。
-type: docs
 weight: 10
 url: /ja/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ハイパーリンクは、スライド間を移動したり外部リソースにアクセスしたりするのに便利なため、プレゼンテーションに不可欠な要素です。Aspose.Slides for .NET は、プレゼンテーション スライドにハイパーリンクを追加したり削除したりするための強力な機能を提供します。このチュートリアルでは、Aspose.Slides for .NET を使用したハイパーリンク操作の手順を説明します。スライドにハイパーリンクを追加する方法と、スライドからハイパーリンクを削除する方法について説明します。それでは、始めましょう。
 
@@ -121,3 +125,9 @@ Aspose.Slides for .NET は、プレゼンテーションの作成、操作、変
 
 ### Aspose.Slides の一時ライセンスを取得するにはどうすればよいですか?
  Aspose.Slidesの一時ライセンスが必要な場合は、[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

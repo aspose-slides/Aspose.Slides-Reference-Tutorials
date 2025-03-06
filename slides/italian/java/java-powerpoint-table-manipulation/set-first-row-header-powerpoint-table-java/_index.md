@@ -3,10 +3,14 @@ title: Imposta la prima riga come intestazione nella tabella di PowerPoint con J
 linktitle: Imposta la prima riga come intestazione nella tabella di PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare la prima riga come intestazione nelle tabelle di PowerPoint utilizzando Aspose.Slides per Java. Migliora la chiarezza e l'organizzazione della presentazione senza sforzo.
-type: docs
 weight: 19
 url: /it/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial, approfondiremo come manipolare le tabelle di PowerPoint utilizzando Aspose.Slides per Java, una potente libreria che consente una perfetta integrazione e modifica delle presentazioni. Nello specifico, ci concentreremo sull'impostazione della prima riga di una tabella come intestazione, migliorando l'attrattiva visiva e l'organizzazione delle diapositive.
 ## Prerequisiti
@@ -76,3 +80,9 @@ Aspose.Slides per Java è una solida libreria per lavorare con i file PowerPoint
  È disponibile la documentazione dettagliata[Qui](https://reference.aspose.com/slides/java/).
 ### Come posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere il supporto della comunità[Qui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

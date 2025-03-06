@@ -3,10 +3,14 @@ title: Konversikan Slide ke PDF dengan Catatan
 linktitle: Konversikan Slide ke PDF dengan Catatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Konversi slide presentasi dengan catatan pembicara ke PDF dengan mudah menggunakan Aspose.Slides untuk .NET. Pertahankan konten dan konteks dengan lancar.
-type: docs
 weight: 18
 url: /id/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Tulis Panduan Tutorial Langkah Demi Langkah tentang Mengonversi Slide ke PDF dengan Catatan menggunakan Aspose.Slides untuk .NET
 
@@ -98,3 +102,9 @@ Ya, Aspose.Slides untuk .NET mendukung berbagai format output, termasuk PPTX, DO
  Ya, Anda dapat membeli lisensi sementara di[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Kesimpulannya, dengan menggunakan Aspose.Slides untuk .NET, Anda dapat dengan mudah mengonversi slide PowerPoint ke format PDF dengan catatan utuh. Ini adalah alat yang berharga bagi para profesional yang perlu berbagi presentasi dengan kolega dan klien sambil memastikan bahwa konteks penting tidak hilang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Folie innerhalb derselben Präsentation klonen
 linktitle: Folie innerhalb derselben Präsentation klonen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folien innerhalb derselben PowerPoint-Präsentation klonen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigen Quellcodebeispielen, um Ihre Präsentationen effizient zu bearbeiten.
-type: docs
 weight: 21
 url: /de/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -105,3 +109,9 @@ Ja, Sie können Folien zwischen verschiedenen Präsentationen mit ähnlichen Tec
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
  Ausführlichere Dokumentation und Beispiele finden Sie unter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

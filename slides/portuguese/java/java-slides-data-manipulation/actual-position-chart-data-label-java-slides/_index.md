@@ -3,10 +3,14 @@ title: Obtenha a posição real do rótulo de dados do gráfico em slides Java
 linktitle: Obtenha a posição real do rótulo de dados do gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como obter a posição real dos rótulos de dados do gráfico em Java Slides usando Aspose.Slides for Java. Guia passo a passo com código-fonte.
-type: docs
 weight: 18
 url: /pt/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução para obter a posição real do rótulo de dados do gráfico em slides Java
 
@@ -157,3 +161,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

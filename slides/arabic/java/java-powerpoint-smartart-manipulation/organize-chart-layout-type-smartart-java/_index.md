@@ -3,10 +3,14 @@ title: تنظيم نوع تخطيط المخطط في SmartArt باستخدام 
 linktitle: تنظيم نوع تخطيط المخطط في SmartArt باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: أتقن تنظيم أنواع تخطيطات المخططات في SmartArt باستخدام Java مع Aspose.Slides، مما يعزز مرئيات العرض التقديمي دون عناء.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية تنظيم نوع تخطيط المخطط في SmartArt باستخدام Java، مع الاستفادة بشكل خاص من مكتبة Aspose.Slides. يمكن لـ SmartArt في العروض التقديمية أن يعزز المظهر المرئي لبياناتك ووضوحها بشكل كبير، مما يجعل من الضروري إتقان التعامل معها.
 ## المتطلبات الأساسية
@@ -55,3 +59,9 @@ presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx)
 نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Slides لاستكشاف ميزاته قبل اتخاذ قرار الشراء.
 ### أين يمكنني طلب الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
  للحصول على أي مساعدة أو استفسارات بخصوص Aspose.Slides، يمكنك زيارة منتدى الدعم[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

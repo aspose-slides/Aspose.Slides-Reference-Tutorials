@@ -3,10 +3,14 @@ title: Propriétés de police pour la légende individuelle dans les diapositive
 linktitle: Propriétés de police pour la légende individuelle dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Améliorez les présentations PowerPoint avec des styles de police, des tailles et des couleurs personnalisés pour les légendes individuelles dans Java Slides à l'aide d'Aspose.Slides pour Java.
-type: docs
 weight: 12
 url: /fr/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction aux propriétés de police pour les légendes individuelles dans les diapositives Java
 
@@ -113,3 +117,9 @@ N'oubliez pas de supprimer l'objet de présentation lorsque vous avez terminé d
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

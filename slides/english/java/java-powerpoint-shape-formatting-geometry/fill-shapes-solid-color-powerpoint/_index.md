@@ -3,10 +3,14 @@ title: Fill Shapes with Solid Color in PowerPoint
 linktitle: Fill Shapes with Solid Color in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to fill shapes with solid colors in PowerPoint using Aspose.Slides for Java. A step-by-step guide for developers.
-type: docs
 weight: 13
 url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 If you've ever worked with PowerPoint presentations, you know that adding shapes and customizing their colors can be a crucial aspect of making your slides visually appealing and informative. With Aspose.Slides for Java, this process becomes a breeze. Whether you're a developer looking to automate the creation of PowerPoint presentations or someone interested in adding a splash of color to your slides, this tutorial will guide you through the process of filling shapes with solid colors using Aspose.Slides for Java.
 ## Prerequisites
@@ -85,3 +89,10 @@ Yes, Aspose.Slides for Java allows you to open, edit, and save existing PowerPoi
 Yes, you can download a free trial from the [Aspose website](https://releases.aspose.com/).
 ### Where can I find more documentation and support?
 Detailed documentation is available on the [Aspose website](https://reference.aspose.com/slides/java/), and you can seek support on the [Aspose forums](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

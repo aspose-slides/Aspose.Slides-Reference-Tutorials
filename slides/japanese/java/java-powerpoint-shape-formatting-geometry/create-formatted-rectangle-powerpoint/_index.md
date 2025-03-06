@@ -3,10 +3,14 @@ title: PowerPoint で書式設定された四角形を作成する
 linktitle: PowerPoint で書式設定された四角形を作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint で四角形を作成し、書式設定する方法を学習します。
-type: docs
 weight: 18
 url: /ja/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint スライドに書式設定された四角形を作成する手順を説明します。各手順を詳しく説明しているので、手順に沿って自分のプロジェクトに実装できます。
 ## 前提条件
@@ -91,3 +95,9 @@ Aspose.Slides for Java は、開発者がプログラムによって PowerPoint 
 はい、処分します`Presentation`オブジェクトはリソースを解放し、メモリ リークを回避するのに役立ちます。
 ### Aspose.Slides for Java のドキュメントはどこにありますか?
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: แผนภูมิปกติใน Java Slides
 linktitle: แผนภูมิปกติใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิปกติใน Java Slides ด้วย Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนและซอร์สโค้ดสำหรับการสร้าง ปรับแต่ง และบันทึกแผนภูมิในงานนำเสนอ PowerPoint
-type: docs
 weight: 21
 url: /th/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิปกติใน Java Slides
 
@@ -240,3 +244,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### ฉันจะบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่นได้อย่างไร
 
  หากต้องการบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่น ให้เปลี่ยน`SaveFormat` พารามิเตอร์ใน`pres.save()` วิธีการในรูปแบบที่ต้องการ (เช่น PDF, PNG, JPEG)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

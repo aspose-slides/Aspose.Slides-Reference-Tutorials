@@ -3,10 +3,14 @@ title: Miniatűr létrehozása a SmartArt gyermekjegyzethez az Aspose.Slides pro
 linktitle: Miniatűr létrehozása a SmartArt gyermekjegyzethez az Aspose.Slides programban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre lenyűgöző SmartArt Child Note bélyegképeket az Aspose.Slides for .NET használatával. Emelje fel prezentációit dinamikus látványvilággal!
-type: docs
 weight: 15
 url: /hu/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 dinamikus prezentációk terén az Aspose.Slides for .NET kiemelkedik hatékony eszközként, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk programozott kezelését és fejlesztését. Az egyik érdekes funkció a SmartArt gyermekjegyzetekhez való bélyegképek létrehozásának képessége, amely egy réteg vizuális vonzerőt ad a prezentációkhoz. Ez a részletes útmutató végigvezeti a SmartArt Child Notes miniatűrök létrehozásának folyamatán az Aspose.Slides for .NET használatával.
 ## Előfeltételek
@@ -62,3 +66,9 @@ V: Abszolút! Az Aspose.Slides számos SmartArt-elrendezést kínál, lehetővé
  V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) kapcsolatba lépni a közösséggel, kérdéseket feltenni és megoldásokat találni.
 ### K: Megvásárolhatom az Aspose.Slides-t .NET-hez?
  V: Természetesen! Fedezze fel a vásárlási lehetőségeket[itt](https://purchase.aspose.com/buy) hogy az Aspose.Slidesben rejlő teljes potenciált kiaknázza projektjeiben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

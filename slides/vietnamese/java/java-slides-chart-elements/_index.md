@@ -3,10 +3,14 @@ title: Các thành phần biểu đồ trang trình bày Java
 linktitle: Các thành phần biểu đồ trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo biểu đồ động trong các trang chiếu Java bằng Aspose.Slides cho Java với các hướng dẫn toàn diện của chúng tôi. Hãy nâng cao kỹ năng thuyết trình của bạn ngay hôm nay!
-type: docs
 weight: 15
 url: /vi/java/chart-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Bạn đã sẵn sàng nâng cao kỹ năng thuyết trình của mình lên một tầm cao mới chưa? Đi sâu vào thế giới biểu đồ động trong các trang trình bày Java bằng cách sử dụng Aspose.Slides cho Java. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn mọi điều bạn cần biết để nắm vững các thành phần biểu đồ và làm cho bản trình bày của bạn thực sự nổi bật.
 
@@ -58,3 +62,9 @@ Khám phá Aspose.Slides cho Java với hướng dẫn từng bước. Tạo bi�
 Tạo biểu đồ bản đồ tuyệt đẹp trong bản trình bày PowerPoint với Aspose.Slides cho Java. Hướng dẫn từng bước và mã nguồn dành cho nhà phát triển Java.
 ### [Biểu đồ Sunburst trong Java Slides](./sunburst-chart-java-slides/)
 Tạo biểu đồ Sunburst tuyệt đẹp trong các slide Java với Aspose.Slides. Tìm hiểu cách tạo biểu đồ và thao tác dữ liệu từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Thêm hiệu ứng hoạt hình trong đoạn văn với Aspose.Slides ch
 linktitle: Thêm hiệu ứng hoạt hình trong đoạn văn với Aspose.Slides cho Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm hiệu ứng hoạt hình vào các đoạn văn trong bản trình bày PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước dễ dàng của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Bạn đã sẵn sàng làm cho bài thuyết trình PowerPoint của mình trở nên nổi bật với những hình ảnh động tuyệt vời chưa? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thêm hiệu ứng hoạt hình vào đoạn văn bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển Java dày dạn hay chỉ mới bắt đầu, hướng dẫn này sẽ cung cấp cho bạn quy trình từng bước rõ ràng và hấp dẫn. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -81,3 +85,9 @@ Aspose.Slides hỗ trợ nhiều loại hoạt ảnh, bao gồm các hiệu ứn
 Có, Aspose.Slides được thiết kế để hoạt động với các bản trình bày được tạo bằng nhiều phiên bản PowerPoint khác nhau.
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?
  Bạn có thể ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11) để được hỗ trợ từ cộng đồng Aspose.Slides và nhóm hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

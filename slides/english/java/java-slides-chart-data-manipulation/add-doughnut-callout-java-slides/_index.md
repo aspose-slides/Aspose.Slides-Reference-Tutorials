@@ -3,10 +3,14 @@ title: Add Doughnut Callout in Java Slides
 linktitle: Add Doughnut Callout in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to Add Doughnut Callouts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for enhanced presentations.
-type: docs
 weight: 12
 url: /java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Add a Doughnut Callout in Java Slides using Aspose.Slides for Java
 
@@ -180,3 +184,10 @@ Yes, you can add as many data points as needed to the Doughnut chart. Simply ext
 ### How can I adjust the position and size of the Doughnut chart on the slide?
 
 You can change the position and size of the Doughnut chart by modifying the parameters in the `addChart` method. The four numbers in that method correspond to the X and Y coordinates of the chart's top-left corner and its width and height, respectively.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

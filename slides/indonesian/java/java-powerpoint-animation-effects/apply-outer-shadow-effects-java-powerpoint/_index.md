@@ -3,10 +3,14 @@ title: Terapkan Efek Bayangan Luar di Java PowerPoint
 linktitle: Terapkan Efek Bayangan Luar di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mudah menerapkan efek bayangan luar dalam presentasi Java PowerPoint menggunakan Aspose.Slides dengan panduan langkah demi langkah kami yang terperinci.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Membuat presentasi yang menarik sering kali memerlukan penambahan berbagai efek untuk meningkatkan daya tarik visual slide Anda. Salah satu efek tersebut adalah bayangan luar, yang dapat membuat elemen Anda menonjol dan menambah kedalaman konten Anda. Dalam tutorial ini, kita akan memandu proses penerapan efek bayangan luar pada bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -114,3 +118,9 @@ Ya, Anda dapat menggunakan Aspose.Slides untuk Java dengan IDE Java apa pun sepe
  Anda bisa mendapatkan lisensi sementara dari[Asumsikan situs web](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides?
  Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci di[Halaman dokumentasi Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

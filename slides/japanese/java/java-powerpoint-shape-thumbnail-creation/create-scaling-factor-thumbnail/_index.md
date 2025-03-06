@@ -3,10 +3,14 @@ title: スケール係数サムネイルを作成
 linktitle: スケール係数サムネイルを作成
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java でスケール係数サムネイルを作成する方法を学びます。ステップバイステップの手順を説明したわかりやすいガイドです。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用してスケール係数サムネイルを作成する手順を説明します。ステップバイステップの手順に従って、希望する結果を実現してください。
 ## 前提条件
@@ -66,3 +70,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  Aspose.Slides for Javaは以下から購入できます。[購入ページ](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java を使用するには一時ライセンスが必要ですか?
 はい、臨時免許証は[一時ライセンスページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Μετατρέψτε την παρουσίαση σε TIFF με προε�
 linktitle: Μετατρέψτε την παρουσίαση σε TIFF με προεπιλεγμένο μέγεθος
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε εύκολα παρουσιάσεις σε εικόνες TIFF με το προεπιλεγμένο μέγεθος χρησιμοποιώντας το Aspose.Slides για .NET.
-type: docs
 weight: 27
 url: /el/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή
 
@@ -86,3 +90,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides για .NET;
 
  Για ολοκληρωμένη τεκμηρίωση και παραδείγματα, επισκεφθείτε το[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

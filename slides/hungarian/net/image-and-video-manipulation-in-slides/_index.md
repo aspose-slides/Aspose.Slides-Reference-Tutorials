@@ -3,10 +3,14 @@ title: Kép- és videómanipuláció a Diákban
 linktitle: Kép- és videómanipuláció a Diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fokozza diabemutatóit lenyűgöző képekkel és videókkal az Aspose.Slides for .NET segítségével. Lépésről lépésre tanulja meg, hogyan kezelheti a képeket és videókat a diákon belül a vizuálisan vonzó tartalom érdekében.
-type: docs
 weight: 12
 url: /hu/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés az Aspose.Slides kép- és videómanipulációjába
 
@@ -53,3 +57,9 @@ Ismerje meg, hogyan javíthatja prezentációs diákjait beágyazott videokocká
 Ismerje meg, hogyan bonthat ki beágyazott fájladatokat az OLE-objektumokból a PowerPoint-prezentációkban az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót a forráskóddal a beágyazott adatok zökkenőmentes lekéréséhez és feldolgozásához.
 ### [Alakzatok kitöltése színátmenettel a bemutató diákban az Aspose.Slides segítségével](./filling-shapes-gradient/)
 Tanulja meg, hogyan javíthatja bemutató diákjait lenyűgöző színátmenetekkel az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót a teljes forráskóddal az alakzatok színátmenetekkel való kitöltéséhez, a lineáristól a radiálisig, mélység és méret hozzáadásával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

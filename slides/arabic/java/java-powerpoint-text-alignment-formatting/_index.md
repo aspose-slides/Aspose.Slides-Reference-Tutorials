@@ -3,10 +3,14 @@ title: جافا باور بوينت محاذاة النص والتنسيق
 linktitle: جافا باور بوينت محاذاة النص والتنسيق
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف البرامج التعليمية لمحاذاة النص وتنسيقه في Java PowerPoint. تعلم كيفية محاذاة النص وتنسيقه وتصديره وإبرازه باستخدام Aspose.Slides لـ Java.
-type: docs
 weight: 23
 url: /ar/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 
 يعد إتقان محاذاة النص وتنسيقه في عروض Java PowerPoint التقديمية أمرًا بالغ الأهمية لإنشاء شرائح احترافية مصقولة. باستخدام Aspose.Slides for Java، يمكنك تحقيق تنسيق النص ومحاذاته بسهولة. سواء كنت مطورًا مبتدئًا أو متمرسًا، ستساعدك برامجنا التعليمية على تحسين عروضك التقديمية. دعنا نتعمق في البرامج التعليمية ونرى كيف يمكنك رفع مهاراتك في PowerPoint!
@@ -45,3 +49,9 @@ url: /ar/java/java-powerpoint-text-alignment-formatting/
 تعرف على كيفية استخراج النص من عقد SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دليل سهل خطوة بخطوة للمطورين.
 ### [قم بتمييز النص باستخدام Regex في Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 تعرف على كيفية تمييز النص في PowerPoint باستخدام أنماط التعبير العادي باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك بشكل حيوي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

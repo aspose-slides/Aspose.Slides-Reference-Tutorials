@@ -3,10 +3,14 @@ title: 在 PowerPoint 中設定行格式
 linktitle: 在 PowerPoint 中設定行格式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過此逐步教學，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中設定線條格式。使用自訂線條樣式完善您的簡報。
-type: docs
 weight: 16
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 PowerPoint 簡報是專業和教育環境中的主要內容。在幻燈片中有效地設定線條格式的能力可以使您的簡報看起來精美且專業。在本教學中，我們將探討如何使用 Aspose.Slides for Java 來格式化 PowerPoint 簡報中的行。閱讀本指南後，您將能夠輕鬆在幻燈片中建立線條並設定其格式。
 ## 先決條件
@@ -87,3 +91,9 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員以
 是的，您可以從以下位置獲得免費試用[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到更詳細的文件？
 詳細文件可在[文件頁](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Imposta il segno percentuale delle etichette dati nelle diapositive Java
 linktitle: Imposta il segno percentuale delle etichette dati nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare le etichette dei dati con segni di percentuale nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Crea grafici accattivanti con guida passo passo e codice sorgente.
-type: docs
 weight: 17
 url: /it/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione all'impostazione delle etichette dei dati Segno percentuale in Aspose.Slides per Java
 
@@ -176,3 +180,10 @@ Sì, puoi personalizzare la dimensione del carattere delle etichette dati impost
 ### Come posso aggiungere più serie al grafico?
 
  È possibile aggiungere ulteriori serie al grafico utilizzando il comando`add` metodo sul`IChartSeriesCollection` oggetto.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

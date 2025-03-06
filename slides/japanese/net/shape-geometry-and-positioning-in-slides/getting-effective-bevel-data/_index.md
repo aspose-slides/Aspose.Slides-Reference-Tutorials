@@ -3,10 +3,14 @@ title: スライドで効果的なベベルデータ取得の魔法を明かす
 linktitle: プレゼンテーションスライドの形状に効果的なベベルデータを取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides を使用して、効果的なベベル データでプレゼンテーション スライドを強化する方法を学びます。ステップバイステップの手順とサンプル コードを含む包括的なガイドです。
-type: docs
 weight: 20
 url: /ja/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 魅力的な Aspose.Slides for .NET の世界へようこそ。これは、驚くほど簡単に魅力的なプレゼンテーションを作成するための入り口です。このチュートリアルでは、Aspose.Slides for .NET を使用して、プレゼンテーション スライドの図形に効果的なベベル データを取得する複雑な手順について詳しく説明します。
 ## 前提条件
@@ -69,3 +73,9 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
 はい、Aspose.Slides for .NETを購入できます。[ここ](https://purchase.aspose.com/buy)商用プロジェクト向けのプレミアム機能のロックを解除します。
 ### 実装中に問題が発生した場合はどうなりますか?
  Aspose.Slides for .NETコミュニティから支援を受けるには、[サポートフォーラム](https://forum.aspose.com/c/slides/11)迅速かつ役立つ解決策を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

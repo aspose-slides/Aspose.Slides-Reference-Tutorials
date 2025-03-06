@@ -3,10 +3,14 @@ title: Löschen Sie bestimmte Datenpunkte einer Diagrammreihe mit Aspose.Slides 
 linktitle: Bestimmte Datenpunkte einer Diagrammreihe löschen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET bestimmte Datenpunkte von Diagrammreihen in PowerPoint-Präsentationen löschen. Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 13
 url: /de/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten können. In diesem Tutorial führen wir Sie durch den Prozess des Löschens bestimmter Datenpunkte einer Diagrammreihe in einer PowerPoint-Präsentation mit Aspose.Slides für .NET. Am Ende dieses Tutorials können Sie Diagrammdatenpunkte problemlos bearbeiten.
 
@@ -95,3 +99,9 @@ Ja, Sie können das Erscheinungsbild von Diagrammen anpassen, indem Sie ihre Eig
 
 ### Gibt es eine Community oder Entwickler-Community für Aspose.Slides für .NET?
 Ja, Sie können der Aspose-Community in ihrem Forum beitreten, um zu diskutieren, Fragen zu stellen und Ihre Erfahrungen auszutauschen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

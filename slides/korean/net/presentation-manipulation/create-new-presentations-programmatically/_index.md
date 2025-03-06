@@ -3,10 +3,14 @@ title: 프로그래밍 방식으로 새 프레젠테이션 만들기
 linktitle: 프로그래밍 방식으로 새 프레젠테이션 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프로그래밍 방식으로 프레젠테이션을 만드는 방법을 알아보세요. 효율적인 자동화를 위한 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 .NET에서 프로그래밍 방식으로 프레젠테이션을 만들려는 경우 .NET용 Aspose.Slides는 이 작업을 효율적으로 수행하는 데 도움이 되는 강력한 도구입니다. 이 단계별 튜토리얼은 제공된 소스 코드를 사용하여 새로운 프레젠테이션을 만드는 과정을 안내합니다.
 
@@ -87,3 +91,9 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### 구매하기 전에 Aspose.Slides for .NET을 사용해 볼 수 있나요?
     예, .NET용 Aspose.Slides 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/). 체험판은 제한사항이 있으니 요구사항을 충족하는지 꼭 확인해주세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

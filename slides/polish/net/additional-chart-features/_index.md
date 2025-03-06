@@ -3,10 +3,14 @@ title: Dodatkowe funkcje wykresów
 linktitle: Dodatkowe funkcje wykresów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Poznaj zaawansowane funkcje wykresów w Aspose.Slides dla .NET! Dowiedz się, jak tworzyć dynamiczne, interaktywne wykresy z niestandardowymi stylami, liniami trendu i nie tylko. Ulepsz swoje prezentacje dzięki zaawansowanej wizualizacji danych.
-type: docs
 weight: 24
 url: /pl/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp
 
@@ -32,3 +36,9 @@ Dowiedz się, jak efektywnie wyodrębniać dane z wykresów za pomocą Aspose.Sl
 Dowiedz się, jak odzyskać skoroszyt z wykresu za pomocą Aspose.Slides dla .NET. Wyodrębniaj dane z wykresów i programowo twórz skoroszyty programu Excel.
 ### [Wyczyść określone punkty danych serii wykresów](./clear-specific-chart-series-data-points-data/)
 Dowiedz się, jak wyczyścić określone punkty danych wykresu w Aspose.Slides dla .NET. Przewodnik krok po kroku z dołączonym kodem źródłowym.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

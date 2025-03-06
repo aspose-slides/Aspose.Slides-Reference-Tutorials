@@ -3,10 +3,14 @@ title: Nâng cao bài thuyết trình - Định dạng hình chữ nhật với 
 linktitle: Định dạng hình chữ nhật trong slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách định dạng hình chữ nhật trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Nâng tầm trang trình bày của bạn bằng các yếu tố hình ảnh động.
-type: docs
 weight: 12
 url: /vi/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Aspose.Slides for .NET là một thư viện mạnh mẽ hỗ trợ làm việc với các bản trình bày PowerPoint trong môi trường .NET. Nếu bạn muốn cải thiện bản trình bày của mình bằng cách định dạng động các hình chữ nhật, hướng dẫn này là dành cho bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình định dạng hình chữ nhật trong bản trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -76,3 +80,9 @@ Có, Aspose.Slides hỗ trợ các ngôn ngữ .NET khác như VB.NET và F# ngo
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi 5: Tôi có thể mua Aspose.Slides cho .NET ở đâu?
  Bạn có thể mua Aspose.Slides cho .NET[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

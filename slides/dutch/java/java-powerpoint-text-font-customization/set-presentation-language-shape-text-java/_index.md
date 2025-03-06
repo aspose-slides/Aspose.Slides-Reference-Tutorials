@@ -3,10 +3,14 @@ title: Stel de presentatietaal en vormtekst in Java in
 linktitle: Stel de presentatietaal en vormtekst in Java in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt automatiseren met Aspose.Slides voor Java. Maak, wijzig en verbeter dia's eenvoudig programmatisch.
-type: docs
 weight: 19
 url: /nl/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Het programmatisch maken en manipuleren van PowerPoint-presentaties in Java kan de automatisering van de workflow stroomlijnen en de productiviteit verhogen. Aspose.Slides voor Java biedt een robuuste set tools om deze taken efficiënt uit te voeren. Deze tutorial leidt u door de essentiële stappen om de presentatietaal in te stellen en tekst vorm te geven met Aspose.Slides voor Java.
 ## Vereisten
@@ -69,3 +73,9 @@ Ja, Aspose.Slides biedt uitgebreide API's om volledig programmatisch presentatie
  Gedetailleerde documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Welke ondersteuningsopties zijn beschikbaar voor Aspose.Slides voor Java?
  U kunt het Aspose.Slides-forum bezoeken[hier](https://forum.aspose.com/c/slides/11) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

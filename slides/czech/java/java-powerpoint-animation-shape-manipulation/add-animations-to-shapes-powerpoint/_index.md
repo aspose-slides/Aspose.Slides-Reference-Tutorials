@@ -3,10 +3,14 @@ title: Přidejte animace do obrazců v PowerPointu
 linktitle: Přidejte animace do obrazců v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat animace do tvarů v PowerPointu pomocí Aspose.Slides pro Java v tomto podrobném výukovém programu. Ideální pro vytváření poutavých prezentací.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření poutavých prezentací často vyžaduje přidání animací do tvarů a textu. Animace mohou vaše snímky učinit dynamičtějšími a podmanivějšími, což zajistí, že vaše publikum bude stále zajímat. V tomto tutoriálu vás provedeme procesem přidávání animací do tvarů v prezentaci PowerPoint pomocí Aspose.Slides pro Java. Na konci tohoto článku budete schopni bez námahy vytvářet profesionální animace.
 ## Předpoklady
@@ -108,3 +112,9 @@ Aspose.Slides podporuje Java SE 6 a vyšší.
 K více tvarům můžete přidat různé animace opakováním kroků pro každý tvar a zadáním různých efektů podle potřeby.
 ### Kde najdu další příklady a dokumentaci?
  Podívejte se na[dokumentace](https://reference.aspose.com/slides/java/) a[Fórum podpory](https://forum.aspose.com/c/slides/11)pro další příklady a pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

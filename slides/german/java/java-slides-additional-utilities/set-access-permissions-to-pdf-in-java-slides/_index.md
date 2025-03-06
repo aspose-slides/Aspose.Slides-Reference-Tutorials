@@ -3,10 +3,14 @@ title: Festlegen der Zugriffsberechtigungen für PDF in Java-Folien
 linktitle: Festlegen der Zugriffsberechtigungen für PDF in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Zugriffsberechtigungen in Java Slides mithilfe von Aspose.Slides sichern. Diese Schritt-für-Schritt-Anleitung behandelt Kennwortschutz und mehr.
-type: docs
 weight: 17
 url: /de/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Festlegen von Zugriffsberechtigungen für PDF in Java-Folien
 
@@ -104,3 +108,9 @@ Aspose.Slides für Java bietet verschiedene Sicherheitsfunktionen, darunter Vers
 ### Wo finde ich weitere Ressourcen und Dokumentation für Aspose.Slides für Java?
 
  Eine ausführliche Dokumentation zu Aspose.Slides für Java finden Sie unter[Hier](https://reference.aspose.com/slides/java/) . Zusätzlich können Sie die Bibliothek herunterladen von[Hier](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

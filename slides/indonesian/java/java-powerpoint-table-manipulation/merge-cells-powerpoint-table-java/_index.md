@@ -3,10 +3,14 @@ title: Gabungkan Sel di Tabel PowerPoint dengan Java
 linktitle: Gabungkan Sel di Tabel PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menggabungkan sel dalam tabel PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan tata letak presentasi Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 17
 url: /id/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara menggabungkan sel secara efektif dalam tabel PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram. Dengan menggabungkan sel dalam tabel, Anda dapat menyesuaikan tata letak dan struktur slide presentasi Anda, sehingga meningkatkan kejelasan dan daya tarik visual.
 ## Prasyarat
@@ -92,3 +96,9 @@ Aspose.Slides for Java adalah Java API untuk membuat, memanipulasi, dan mengonve
  Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

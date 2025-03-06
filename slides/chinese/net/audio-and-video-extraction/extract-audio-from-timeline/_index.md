@@ -3,10 +3,14 @@ title: 从 PowerPoint 时间线提取音频
 linktitle: 从时间线提取音频
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中提取音频。轻松增强您的多媒体内容。
-type: docs
 weight: 13
 url: /zh/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在多媒体演示领域，声音是有效传达信息的强大工具。Aspose.Slides for .NET 提供了从 PowerPoint 演示文稿中提取音频的无缝解决方案。在本分步指南中，我们将向您展示如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中提取音频。
 
@@ -110,3 +114,9 @@ Aspose.Slides for .NET 旨在与各种 PowerPoint 版本兼容，包括最新版
 ### 5. 在哪里可以找到 Aspose.Slides for .NET 的综合文档？
 
 您可以找到 Aspose.Slides for .NET 的详细文档和示例[这里](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

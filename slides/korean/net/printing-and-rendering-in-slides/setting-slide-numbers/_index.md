@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 프레젠테이션의 슬라이드 번호 �
 linktitle: Aspose.Slides를 사용하여 프레젠테이션의 슬라이드 번호 설정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 원활한 슬라이드 조작 세계를 탐험해 보세요. 슬라이드 번호를 쉽게 설정하여 프레젠테이션 경험을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드의 순서와 구성을 제어하는 것은 효과적인 의사소통에 매우 중요합니다. Aspose.Slides for .NET은 프레젠테이션 내의 슬라이드 번호를 조작할 수 있는 강력한 솔루션을 제공하여 콘텐츠를 원활하게 사용자 정의할 수 있는 유연성을 제공합니다.
 ## 전제 조건
@@ -63,3 +67,9 @@ Aspose.Slides for .NET을 사용하면 슬라이드 번호를 쉽게 설정하�
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 기반 지원을 원하거나 프리미엄 지원 옵션을 살펴보세요.
 ### 구매하기 전에 Aspose.Slides를 사용해 볼 수 있나요?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

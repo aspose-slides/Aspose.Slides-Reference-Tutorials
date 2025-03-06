@@ -3,10 +3,14 @@ title: Java スライドのグラフ データ セルの数式
 linktitle: Java スライドのグラフ データ セルの数式
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションでグラフ データ セルの数式を設定する方法を学習します。数式を使用して動的なグラフを作成します。
-type: docs
 weight: 11
 url: /ja/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java のグラフ データ セル数式の概要
 
@@ -122,3 +126,9 @@ finally
 ### グラフの種類を変更するにはどうすればよいですか?
 
 チャートの種類を変更するには、`setChartType`方法`IChart`オブジェクトと希望する`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

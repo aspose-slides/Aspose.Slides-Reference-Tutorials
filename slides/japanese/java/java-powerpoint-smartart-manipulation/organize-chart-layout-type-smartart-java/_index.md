@@ -3,10 +3,14 @@ title: Java を使用して SmartArt のグラフ レイアウト タイプを�
 linktitle: Java を使用して SmartArt のグラフ レイアウト タイプを整理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して SmartArt のチャート レイアウト タイプを整理する方法を習得し、プレゼンテーションのビジュアルを簡単に強化します。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Java を使用して SmartArt のグラフ レイアウト タイプを整理するプロセスについて説明します。具体的には、Aspose.Slides ライブラリを活用します。プレゼンテーションの SmartArt は、データの視覚的な魅力と明瞭さを大幅に向上させることができるため、その操作を習得することが不可欠です。
 ## 前提条件
@@ -55,3 +59,9 @@ Java を使用して SmartArt のグラフ レイアウト タイプの編成を
 はい、購入を決定する前に、Aspose.Slides の無料試用版にアクセスして機能を調べることができます。
 ### Aspose.Slides 関連のクエリのサポートはどこで受けられますか?
  Aspose.Slidesに関するご質問やご不明な点がございましたら、サポートフォーラムをご覧ください。[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

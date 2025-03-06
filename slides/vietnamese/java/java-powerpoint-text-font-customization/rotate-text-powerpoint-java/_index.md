@@ -3,10 +3,14 @@ title: Xoay văn bản trong PowerPoint bằng Java
 linktitle: Xoay văn bản trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xoay văn bản trong PowerPoint bằng Java với Aspose.Slides. Hướng dẫn từng bước cho người mới bắt đầu đến người dùng nâng cao.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xoay văn bản trong bản trình bày PowerPoint theo chương trình bằng cách sử dụng Java và Aspose.Slides. Xoay văn bản có thể là một tính năng hữu ích khi thiết kế các slide để tạo ra những bài thuyết trình hấp dẫn về mặt hình ảnh.
 ## Điều kiện tiên quyết
@@ -75,3 +79,9 @@ Hoàn toàn có thể, Aspose.Slides cung cấp các API toàn diện để xử
  Để có tài liệu chi tiết, hãy truy cập[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/) . Bạn cũng có thể nhận được sự hỗ trợ từ cộng đồng tại[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Slides?
  Bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/)để đánh giá Aspose.Slides mà không có giới hạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

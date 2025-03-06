@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में स्वचालित 
 linktitle: जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करना सीखें। गतिशील प्रस्तुतियों के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 14
 url: /hi/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में स्वचालित श्रृंखला भरण रंग सेट करने का परिचय
 
@@ -126,3 +130,9 @@ finally
 ### मैं अधिक संसाधन और दस्तावेज कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ यहां से प्राप्त कर सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

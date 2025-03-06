@@ -3,10 +3,14 @@ title: Hinzufügen von Knoten zu SmartArt in Java PowerPoint
 linktitle: Hinzufügen von Knoten zu SmartArt in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java SmartArt-Knoten zu Java PowerPoint-Präsentationen hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität.
-type: docs
 weight: 15
 url: /de/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Im Bereich Java PowerPoint-Präsentationen kann die Bearbeitung von SmartArt-Knoten die visuelle Attraktivität und Effektivität Ihrer Folien erheblich steigern. Aspose.Slides für Java bietet Java-Entwicklern eine robuste Lösung, um SmartArt-Funktionen nahtlos in ihre Präsentationen zu integrieren. In diesem Tutorial werden wir uns mit dem Prozess des Hinzufügens von Knoten zu SmartArt in Java PowerPoint-Präsentationen mithilfe von Aspose.Slides befassen.
 ## Voraussetzungen
@@ -71,3 +75,9 @@ Auf jeden Fall. Sie können Folien durchlaufen und nach Bedarf SmartArt-Knoten h
 Ja, Aspose.Slides für Java bietet eine umfassende Suite an Funktionen zur PowerPoint-Bearbeitung, einschließlich Folienerstellung, Animation und Formverwaltung.
 ### Wo kann ich Hilfe oder Unterstützung für Aspose.Slides für Java erhalten?
  Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-Support oder sehen Sie sich die Dokumentation für detaillierte Anleitungen an.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

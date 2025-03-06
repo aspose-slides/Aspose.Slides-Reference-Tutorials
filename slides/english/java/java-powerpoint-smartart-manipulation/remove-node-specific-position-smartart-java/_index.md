@@ -3,10 +3,14 @@ title: Remove Node at Specific Position in SmartArt
 linktitle: Remove Node at Specific Position in SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to remove a node at a specific position within SmartArt using Aspose.Slides for Java. Enhance presentation customization effortlessly.
-type: docs
 weight: 15
 url: /java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In the realm of Java development, Aspose.Slides emerges as a powerful tool for manipulating presentations programmatically. Whether it's creating, modifying, or managing slides, Aspose.Slides for Java provides a robust set of features to streamline these tasks efficiently. One such common operation is removing a node at a specific position within a SmartArt object. This tutorial delves into the step-by-step process of accomplishing this using Aspose.Slides for Java.
 ## Prerequisites
@@ -62,3 +66,10 @@ Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/
 To purchase Aspose.Slides for Java, visit the purchase page [here](https://purchase.aspose.com/buy).
 ### Where can I find detailed documentation for Aspose.Slides for Java?
 You can access the comprehensive documentation [here](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

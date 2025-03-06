@@ -3,10 +3,14 @@ title: 筆記投影片操作
 linktitle: 筆記投影片操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 精確增強您的簡報！探索 .NET 中筆記投影片操作的 Aspose.Slides 教學。了解以程式設計方式新增、編輯和管理演講者註釋。
-type: docs
 weight: 16
 url: /zh-hant/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 
 歡迎來到針對 .NET 開發人員的 Notes 投影片操作的綜合 Aspose.Slides 教學。在本教程中，我們將深入研究演講者筆記的迷人世界，以及如何使用 Aspose.Slides 庫以程式方式操作它們。演講者筆記在演講中發揮關鍵作用，為演講者提供有價值的見解並增強內容的整體影響力。學完本教學後，您將深入了解如何在 PowerPoint 簡報中有效新增、編輯和管理演講者備註。
@@ -39,3 +43,9 @@ url: /zh-hant/net/notes-slide-manipulation/
 了解如何使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的特定投影片中刪除註解。按照我們帶有完整原始程式碼的逐步指南，以程式設計方式無縫操作您的投影片。
 ### [從所有投影片中刪除註釋](./remove-notes-from-all-slides/)
 了解如何使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的所有投影片中刪除註解。請按照此逐步指南和完整的原始程式碼範例，輕鬆實現您的目標。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

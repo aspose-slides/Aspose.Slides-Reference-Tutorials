@@ -3,10 +3,14 @@ title: Vyplňte tvary vzorem v PowerPointu
 linktitle: Vyplňte tvary vzorem v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vyplňovat tvary vzory v PowerPointu pomocí Aspose.Slides for Java. Postupujte podle našeho jednoduchého průvodce krok za krokem, abyste své prezentace vizuálně vylepšili.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření vizuálně přitažlivých prezentací je nezbytné pro zapojení publika. Jedním ze způsobů, jak vylepšit snímky aplikace PowerPoint, je vyplnit tvary vzory. V tomto tutoriálu si projdeme kroky k vyplnění tvarů vzory pomocí Aspose.Slides for Java. Tato příručka je přizpůsobena vývojářům, kteří chtějí využít výkonné funkce Aspose.Slides k vytváření úžasných prezentací programově.
 ## Předpoklady
@@ -94,3 +98,9 @@ Aspose.Slides for Java je výkonné API, které umožňuje vývojářům vytvá�
 Ano, Aspose.Slides for Java vám umožňuje otevírat, upravovat a ukládat existující PowerPoint prezentace.
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Můžete získat podporu od[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

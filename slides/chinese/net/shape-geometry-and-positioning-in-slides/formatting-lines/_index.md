@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides .NET 教程格式化演示文稿行
 linktitle: 使用 Aspose.Slides 格式化演示幻灯片中的线条
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强您的演示幻灯片。按照我们的分步指南轻松格式化线条。立即下载免费试用版！
-type: docs
 weight: 10
 url: /zh/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 创建具有视觉吸引力的演示幻灯片对于有效沟通至关重要。Aspose.Slides for .NET 提供了一个强大的解决方案，可以通过编程来操作和格式化演示元素。在本教程中，我们将重点介绍如何使用 Aspose.Slides for .NET 格式化演示幻灯片中的线条。
 ## 先决条件
@@ -75,3 +79,9 @@ Aspose.Slides for .NET 简化了以编程方式操作演示元素的过程。通
 您可以从[Aspose.Slides 临时许可证](https://purchase.aspose.com/temporary-license/).
 ### Q5: 我可以在哪里购买 Aspose.Slides for .NET？
 您可以从以下位置购买产品[Aspose.Slides 购买](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

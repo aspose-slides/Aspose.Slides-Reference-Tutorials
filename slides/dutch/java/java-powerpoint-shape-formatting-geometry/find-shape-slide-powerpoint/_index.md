@@ -3,10 +3,14 @@ title: Zoek vorm in dia
 linktitle: Zoek vorm in dia
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Vind eenvoudig vormen in PowerPoint-dia's met Aspose.Slides voor Java. Volg onze stapsgewijze handleiding voor een naadloze codeerervaring.
-type: docs
 weight: 14
 url: /nl/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Ben je het zat om door PowerPoint-dia's te bladeren om specifieke vormen te vinden? Stel je voor dat je dit proces moeiteloos kunt automatiseren met slechts een paar regels code. Welkom bij onze gedetailleerde handleiding over het gebruik van Aspose.Slides voor Java om vormen in uw presentatiebestanden te vinden. In deze zelfstudie leggen we de stappen uit die nodig zijn om vormen in een dia te vinden met behulp van Aspose.Slides voor Java, van het instellen van uw omgeving tot het uitvoeren van de code.
 ## Vereisten
@@ -84,3 +88,9 @@ Ja, Aspose.Slides ondersteunt verschillende bestandsindelingen, waaronder .ppt, 
  Ja, u kunt een gratis proefperiode krijgen van[De gratis proefpagina van Aspose](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  Ondersteuning vindt u op de[Aspose Slides-forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

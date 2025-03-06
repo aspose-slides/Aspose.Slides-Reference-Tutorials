@@ -3,10 +3,14 @@ title: Преобразование слайдов в PDF с заметками
 linktitle: Преобразование слайдов в PDF с заметками
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Легко конвертируйте слайды презентации с заметками докладчика в PDF с помощью Aspose.Slides для .NET. Беспрепятственное сохранение контента и контекста.
-type: docs
 weight: 18
 url: /ru/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Напишите пошаговое руководство по преобразованию слайдов в PDF с заметками с помощью Aspose.Slides для .NET
 
@@ -98,3 +102,9 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
  Да, вы можете приобрести временную лицензию на сайте[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 В заключение, используя Aspose.Slides for .NET, вы можете легко конвертировать слайды PowerPoint в формат PDF с сохранением примечаний. Это ценный инструмент для профессионалов, которым необходимо делиться презентациями с коллегами и клиентами, не теряя при этом важный контекст.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

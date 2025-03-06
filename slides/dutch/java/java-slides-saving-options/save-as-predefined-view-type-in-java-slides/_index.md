@@ -3,10 +3,14 @@ title: Opslaan als vooraf gedefinieerd weergavetype in Java-dia's
 linktitle: Opslaan als vooraf gedefinieerd weergavetype in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vooraf gedefinieerde weergavetypen in Java Slides instelt met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden en veelgestelde vragen.
-type: docs
 weight: 10
 url: /nl/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot opslaan als vooraf gedefinieerd weergavetype in Java-dia's
 
@@ -109,3 +113,9 @@ Ja, Aspose.Slides voor Java is zeer geschikt voor batchverwerkingstaken. U kunt 
 ### Waar kan ik meer informatie en documentatie vinden voor Aspose.Slides voor Java?
 
  Bezoek de documentatiewebsite voor uitgebreide documentatie en referenties met betrekking tot Aspose.Slides voor Java:[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

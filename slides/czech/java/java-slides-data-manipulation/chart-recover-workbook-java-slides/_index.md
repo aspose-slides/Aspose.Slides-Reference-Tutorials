@@ -3,10 +3,14 @@ title: Graf obnovení sešitu v Java Slides
 linktitle: Graf obnovení sešitu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak obnovit sešity z grafů v Java Slides pomocí Aspose.Slides. Podrobný průvodce automatizací PowerPointu.
-type: docs
 weight: 17
 url: /cs/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do sešitu Chart Recover v Java Slides
 
@@ -109,3 +113,9 @@ Absolutně! Aspose.Slides for Java je výkonná knihovna pro automatizaci úloh 
 ### Jak mohu získat přístup k další dokumentaci k Aspose.Slides for Java?
 
  Pro podrobnou dokumentaci a odkazy na Aspose.Slides for Java navštivte stránku dokumentace na adrese[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

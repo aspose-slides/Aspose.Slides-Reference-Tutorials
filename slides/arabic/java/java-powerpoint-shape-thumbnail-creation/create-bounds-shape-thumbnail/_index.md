@@ -3,10 +3,14 @@ title: إنشاء صورة مصغرة لشكل الحدود
 linktitle: إنشاء صورة مصغرة لشكل الحدود
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة للأشكال ذات حدود باستخدام Aspose.Slides لـ Java. يرشدك هذا البرنامج التعليمي خطوة بخطوة خلال هذه العملية.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. في هذا البرنامج التعليمي، سوف نتعلم كيفية إنشاء صورة مصغرة لشكل ذي حدود باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -57,3 +61,9 @@ try {
 نعم، يوفر Aspose.Slides for Java وظائف واسعة النطاق للعمل مع عروض PowerPoint التقديمية، بما في ذلك معالجة الشرائح واستخراج النص وإنشاء المخططات.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

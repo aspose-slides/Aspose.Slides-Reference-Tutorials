@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Kutu Grafiği
 linktitle: Java Slaytlarındaki Kutu Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java sunumlarında Kutu Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için adım adım kılavuz ve kaynak kodu dahildir.
-type: docs
 weight: 10
 url: /tr/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java'da Kutu Grafiğine Giriş
 
@@ -148,3 +152,9 @@ Bu eğitimde Aspose.Slides for Java'yı kullanarak Kutu Grafiğinin nasıl oluş
 ### QuartileMethodType.Exclusive ne anlama geliyor?
 
 `QuartileMethodType.Exclusive` ayarı, çeyrek hesaplamalarının özel yöntem kullanılarak yapılması gerektiğini belirtir. Verilerinize ve gereksinimlerinize bağlı olarak farklı çeyrek hesaplama yöntemlerini seçebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

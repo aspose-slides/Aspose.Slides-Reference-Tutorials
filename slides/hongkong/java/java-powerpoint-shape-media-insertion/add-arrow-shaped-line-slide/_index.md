@@ -3,10 +3,14 @@ title: 新增箭頭形線到幻燈片
 linktitle: 新增箭頭形線到幻燈片
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將箭頭形狀的線條新增至 PowerPoint 投影片。輕鬆自訂樣式、顏色和位置。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將探討如何使用 Aspose.Slides for Java 將箭頭形線條新增至投影片中。 Aspose.Slides 是一個功能強大的 Java API，可讓開發人員以程式設計方式建立、修改和轉換 PowerPoint 簡報。在幻燈片中添加箭頭形線條可以增強簡報的視覺吸引力和清晰度。
 ## 先決條件
@@ -74,3 +78,9 @@ Aspose.Slides支援各種PowerPoint格式，確保不同版本之間的相容性
 是的，您可以透過建立 TextFrame 並相應地設定其屬性來將文字新增至行中。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多資源和支援？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求支持並探索[文件](https://reference.aspose.com/slides/java/)獲取詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

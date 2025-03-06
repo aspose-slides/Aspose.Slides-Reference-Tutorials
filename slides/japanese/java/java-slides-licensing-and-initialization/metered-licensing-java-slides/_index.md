@@ -3,10 +3,14 @@ title: Java スライドの従量制ライセンス
 linktitle: Java スライドの従量制ライセンス
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: 従量制ライセンスを使用して Aspose.Slides for Java の使用を最適化します。設定方法と API 使用量の監視方法を学びます。
-type: docs
 weight: 10
 url: /ja/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java の従量制ライセンスの概要
 
@@ -107,3 +111,10 @@ Aspose から従量制ライセンス キーを取得できます。詳細につ
 ### 従量制ライセンスにはインターネット接続が必要ですか?
 
 はい、従量制ライセンスを設定および検証するにはインターネット接続が必要です。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

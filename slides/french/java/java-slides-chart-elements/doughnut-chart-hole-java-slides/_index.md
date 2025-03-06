@@ -3,10 +3,14 @@ title: Trou de graphique en beignet dans les diapositives Java
 linktitle: Trou de graphique en beignet dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Créez des graphiques en anneau avec des tailles de trous personnalisées dans les diapositives Java à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour la personnalisation des graphiques.
-type: docs
 weight: 11
 url: /fr/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction au graphique en anneau avec un trou dans les diapositives Java
 
@@ -94,3 +98,9 @@ finally
 ### Est-il possible d'ajouter un titre au graphique ?
 
  Certainement! Vous pouvez ajouter un titre au graphique en utilisant le`setTitle` méthode sur le`IChart` objet et en fournissant le texte du titre souhaité.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

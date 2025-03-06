@@ -3,10 +3,14 @@ title: Ekspor Presentasi ke HTML dengan File CSS
 linktitle: Ekspor Presentasi ke HTML dengan File CSS
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekspor presentasi PowerPoint ke HTML dengan file CSS menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah untuk konversi yang lancar. Pertahankan gaya dan tata letak!
-type: docs
 weight: 29
 url: /id/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Di era digital saat ini, membuat presentasi yang dinamis dan interaktif sangat penting untuk komunikasi yang efektif. Aspose.Slides for .NET memberdayakan pengembang untuk mengekspor presentasi ke HTML dengan file CSS, memungkinkan Anda berbagi konten dengan lancar di berbagai platform. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses penggunaan Aspose.Slides untuk .NET untuk mencapai hal ini.
 
@@ -73,3 +77,10 @@ Aspose.Slides untuk .NET terutama untuk C#, tetapi Aspose juga menawarkan versi 
 Dengan Aspose.Slides untuk .NET, Anda dapat dengan mudah mengonversi presentasi PowerPoint Anda menjadi HTML dengan file CSS, memastikan pengalaman menonton yang lancar bagi audiens Anda.
 
 Sekarang, lanjutkan dan buat presentasi HTML yang menakjubkan dengan Aspose.Slides untuk .NET!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

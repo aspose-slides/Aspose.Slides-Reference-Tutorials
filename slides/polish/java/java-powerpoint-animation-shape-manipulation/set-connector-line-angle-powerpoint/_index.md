@@ -3,10 +3,14 @@ title: Ustaw kąt linii łączącej w programie PowerPoint
 linktitle: Ustaw kąt linii łączącej w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić kąty linii łączników w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Dostosuj swoje slajdy z precyzją.
-type: docs
 weight: 17
 url: /pl/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 tym samouczku przyjrzymy się, jak ustawić kąt linii łączników w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Linie łączące są niezbędne do zilustrowania relacji i przepływów między kształtami na slajdach. Dostosowując ich kąty, możesz mieć pewność, że Twoje prezentacje przekażą Twój przekaz w sposób jasny i skuteczny.
 ## Warunki wstępne
@@ -80,3 +84,9 @@ Aspose.Slides stara się obsługiwać większość funkcji programu PowerPoint. 
 Z pewnością! Aspose.Slides zapewnia szerokie możliwości dostosowywania linii łączników, w tym stylów, grubości i punktów końcowych, umożliwiając tworzenie atrakcyjnych wizualnie prezentacji.
 ### Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.Slides?
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w celu uzyskania pomocy w przypadku jakichkolwiek pytań lub problemów, które napotkasz podczas procesu programowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

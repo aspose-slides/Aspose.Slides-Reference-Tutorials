@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides For Java 的媒體控制項
 linktitle: Java 投影片媒體控件
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 教學在 Java 投影片中實作媒體控制項。透過音訊和視訊無縫增強您的簡報。
-type: docs
 weight: 22
 url: /zh-hant/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在當今的數位時代，簡報不僅僅是帶有文字和圖像的靜態幻燈片。它們已經發展成為吸引和吸引觀眾的動態互動體驗。如果您是 Java 開發人員，希望為您的簡報添加新的維度，那麼您來對地方了。在本文中，我們將探討如何使用 Aspose.Slides for Java 教學在 Java 投影片中實作媒體控制項。
 
@@ -51,3 +55,9 @@ url: /zh-hant/java/media-controls/
 了解如何使用 Aspose.Slides for Java 更新 Java 投影片中的簡報屬性。自訂作者、標題等，以獲得有影響力的簡報。
 ### [在 Java 投影片中使用另一個簡報作為範本更新簡報屬性](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 使用 Aspose.Slides for Java 透過更新的元資料增強 PowerPoint 簡報。了解使用 Java 投影片中的範本更新作者、標題和關鍵字等屬性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

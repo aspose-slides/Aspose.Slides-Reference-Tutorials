@@ -3,10 +3,14 @@ title: Kiểm tra ví dụ về mật khẩu trong Java Slides
 linktitle: Kiểm tra ví dụ về mật khẩu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xác minh mật khẩu trong Java Slides bằng Aspose.Slides for Java. Tăng cường bảo mật bản trình bày với hướng dẫn từng bước.
-type: docs
 weight: 14
 url: /vi/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu Ví dụ kiểm tra mật khẩu trong Java Slides
 
@@ -99,3 +103,9 @@ presentationInfo.removePassword("current_password");
 ### Tôi có thể tìm thêm tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Slides for Java trên trang web Aspose[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

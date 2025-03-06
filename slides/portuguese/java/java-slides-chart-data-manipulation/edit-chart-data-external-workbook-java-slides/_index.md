@@ -3,10 +3,14 @@ title: Editar dados do gráfico na pasta de trabalho externa em slides Java
 linktitle: Editar dados do gráfico na pasta de trabalho externa em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como editar dados de gráfico em uma pasta de trabalho externa usando Aspose.Slides for Java. Guia passo a passo com código-fonte.
-type: docs
 weight: 17
 url: /pt/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à edição de dados de gráfico em pasta de trabalho externa em slides Java
 
@@ -103,3 +107,9 @@ Você pode adaptar o código para lidar com diferentes formatos de pasta de trab
 ### Como posso automatizar esse processo para múltiplas apresentações?
 
 Você pode criar um loop para processar múltiplas apresentações, carregando cada uma, fazendo as alterações desejadas e salvando as apresentações modificadas uma por uma.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

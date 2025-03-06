@@ -3,10 +3,14 @@ title: Chuyển đổi Slide sang PDF bằng Ghi chú trong Java Slides
 linktitle: Chuyển đổi Slide sang PDF bằng Ghi chú trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi trang chiếu PowerPoint sang PDF kèm theo ghi chú trong Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước dành cho nhà phát triển Java. Tăng cường chia sẻ bản trình bày của bạn.
-type: docs
 weight: 19
 url: /vi/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu Chuyển đổi slide sang PDF bằng ghi chú trong Java
 
@@ -124,3 +128,9 @@ Chắc chắn! Bạn có thể lặp qua các trang chiếu trong bản trình b
 ### Tôi có thể tìm thêm tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm tài liệu chi tiết về Aspose.Slides for Java trên trang web:[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

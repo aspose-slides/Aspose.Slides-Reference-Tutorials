@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 存取簡報投影片中的 OLE 物件框架
 linktitle: 使用 Aspose.Slides 存取簡報投影片中的 OLE 物件框架
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 存取和操作簡報投影片中的 OLE 物件框架。透過逐步指導和實用程式碼範例增強您的投影片處理能力。
-type: docs
 weight: 11
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介紹
 
@@ -99,3 +103,9 @@ Aspose.Slides 支援多種 OLE 物件類型，包括嵌入文件、電子表格�
 在簡報領域，利用 OLE 物件框架的強大功能可以將內容的互動性和參與度提升到新的高度。 Aspose.Slides for .NET 簡化了存取和操作 OLE 物件框架的過程，使您能夠無縫整合其他應用程式的內容並豐富您的簡報。透過遵循逐步指南並利用提供的程式碼範例，您將開啟一個充滿動態和迷人幻燈片的可能性世界。
 
 使用 Aspose.Slides 釋放 OLE 物件框架的潛力，並將您的簡報轉變為吸引觀眾注意力的互動體驗。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java PowerPoint-tekst- en lettertypeaanpassing
 linktitle: Java PowerPoint-tekst- en lettertypeaanpassing
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek tutorials over het aanpassen van Java PowerPoint-tekst en lettertypen met Aspose.Slides. Leer rotatie, lettertypevervanging en meer om uw presentaties te verbeteren.
-type: docs
 weight: 29
 url: /nl/java/java-powerpoint-text-font-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van uw PowerPoint-presentaties met onze Java PowerPoint-tutorials voor het aanpassen van tekst en lettertypen met behulp van Aspose.Slides. Of u nu een beginner of een gevorderde gebruiker bent, met onze gedetailleerde handleidingen kunt u uw presentaties moeiteloos verbeteren.
@@ -102,3 +106,9 @@ Leer hoe u programmatisch een tekstvak aan PowerPoint-dia's kunt toevoegen met A
 Leer hoe u aangepaste lettertypen kunt integreren in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht moeiteloos.
 ### [Maak WordArt in PowerPoint met Java](./create-wordart-powerpoint-java/)
 Leer hoe u boeiende WordArt in PowerPoint-presentaties kunt maken met behulp van Java met Aspose.Slides. Stap-voor-stap handleiding voor ontwikkelaars.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

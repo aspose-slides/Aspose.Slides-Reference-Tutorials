@@ -3,10 +3,14 @@ title: Thêm dòng tùy chỉnh trong trang trình bày Java
 linktitle: Thêm dòng tùy chỉnh trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Cải thiện các trang trình bày Java của bạn bằng các dòng tùy chỉnh. Hướng dẫn từng bước sử dụng Aspose.Slides cho Java. Tìm hiểu cách thêm và tùy chỉnh các dòng trong bản trình bày để có hình ảnh ấn tượng.
-type: docs
 weight: 10
 url: /vi/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Thêm dòng tùy chỉnh trong Java Slides
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Đặt độ dày đường thành 2 đi�
 ### Có thể thêm nhiều dòng vào một slide không?
 
 Có, bạn có thể thêm nhiều dòng vào một trang chiếu bằng cách lặp lại các bước được đề cập trong hướng dẫn này. Mỗi dòng có thể được tùy chỉnh độc lập.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

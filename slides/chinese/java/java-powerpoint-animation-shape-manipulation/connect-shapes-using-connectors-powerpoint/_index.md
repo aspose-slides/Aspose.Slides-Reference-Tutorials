@@ -3,10 +3,14 @@ title: 使用 PowerPoint 中的连接器连接形状
 linktitle: 使用 PowerPoint 中的连接器连接形状
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中使用连接器连接形状。面向初学者的分步教程。
-type: docs
 weight: 18
 url: /zh/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在本教程中，我们将探索如何在 Aspose.Slides for Java 的帮助下使用 PowerPoint 演示文稿中的连接器连接形状。按照这些分步说明有效地连接形状并创建具有视觉吸引力的幻灯片。
 ## 先决条件
@@ -82,3 +86,9 @@ Aspose.Slides for Java 支持各种 PowerPoint 格式，包括 PPTX、PPT 和 OD
 当然，您可以使用 Aspose.Slides for Java 以编程方式轻松地将文本添加到形状和连接器中。
 ### 是否有可供 Aspose.Slides for Java 用户的社区论坛或支持渠道？
 是的，您可以在 Aspose.Slides 论坛上找到有用的资源、提出问题并与其他用户交流[这里](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

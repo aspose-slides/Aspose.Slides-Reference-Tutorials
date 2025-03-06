@@ -3,10 +3,14 @@ title: Graphique en entonnoir dans les diapositives Java
 linktitle: Graphique en entonnoir dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Explorez Aspose.Slides pour Java avec des didacticiels étape par étape. Créez de superbes graphiques en entonnoir et bien plus encore.
-type: docs
 weight: 14
 url: /fr/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction au graphique en entonnoir dans les diapositives Java
 
@@ -144,3 +148,9 @@ Vous pouvez gérer les erreurs et les exceptions à l'aide des mécanismes de ge
 ### Où puis-je trouver plus d’exemples et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez trouver plus d'exemples et une Documentation détaillée sur l'utilisation d'Aspose.Slides pour Java dans le[documentation](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

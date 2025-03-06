@@ -3,10 +3,14 @@ title: 在 Java 投影片中轉換為 XAML
 linktitle: 在 Java 投影片中轉換為 XAML
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 將 PowerPoint 簡報轉換為 Java 中的 XAML。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 28
 url: /zh-hant/java/presentation-conversion/convert-to-xaml-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 簡介 在 Java 中轉換為 XAML 投影片
 
@@ -161,3 +165,9 @@ XAML（可擴展應用程式標記語言）是一種標記語言，用於在應�
 ### Aspose.Slides 是否支援其他輸出格式？
 
 是的，Aspose.Slides 支援多種輸出格式，包括 PDF、HTML、圖片等。您可以在 API 文件中探索這些選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

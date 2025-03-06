@@ -3,10 +3,14 @@ title: Dodaj linię w kształcie strzałki w programie PowerPoint
 linktitle: Dodaj linię w kształcie strzałki w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać linie w kształcie strzałek do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Zwiększ atrakcyjność wizualną bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Dodanie linii w kształcie strzałek do prezentacji programu PowerPoint może poprawić atrakcyjność wizualną i pomóc w skutecznym przekazywaniu informacji. Aspose.Slides for Java oferuje kompleksowe rozwiązanie dla programistów Java umożliwiające programowe manipulowanie prezentacjami programu PowerPoint. W tym samouczku przeprowadzimy Cię przez proces dodawania linii w kształcie strzałek do slajdów programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -76,3 +80,9 @@ Możesz zapoznać się z dokumentacją, pobrać bibliotekę i uzyskać dostęp d
  Dokumentacja:[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/)
  Pobierać:[Aspose.Slides do pobrania w języku Java](https://releases.aspose.com/slides/java/)
  Wsparcie:[Aspose.Slides for Java Support Forum](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

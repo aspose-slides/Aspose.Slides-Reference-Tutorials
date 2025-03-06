@@ -3,10 +3,14 @@ title: Akses Slide dengan Pengidentifikasi Unik
 linktitle: Akses Slide dengan Pengidentifikasi Unik
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses slide PowerPoint dengan pengidentifikasi unik menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup memuat presentasi, mengakses slide berdasarkan indeks atau ID, memodifikasi konten, dan menyimpan perubahan.
-type: docs
 weight: 11
 url: /id/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -112,3 +116,9 @@ Sangat. Baik Anda mengerjakan presentasi sederhana dengan beberapa slide atau pr
 ### Di mana saya dapat menemukan dokumentasi dan sumber daya yang lebih detail?
 
  Anda dapat menemukan dokumentasi komprehensif, contoh kode, tutorial, dan lainnya di Aspose.Slides untuk .NET di[dokumentasi](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

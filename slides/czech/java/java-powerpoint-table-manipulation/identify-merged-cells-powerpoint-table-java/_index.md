@@ -3,10 +3,14 @@ title: Identifikujte sloučené buňky v tabulce PowerPoint pomocí Java
 linktitle: Identifikujte sloučené buňky v tabulce PowerPoint pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak programově identifikovat sloučené buňky v tabulkách aplikace PowerPoint pomocí Aspose.Slides for Java. Ideální pro vývojáře v Javě.
-type: docs
 weight: 15
 url: /cs/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 oblasti vývoje v Javě může být programová manipulace s prezentacemi v PowerPointu zásadním úkolem, zejména při práci s komplexními datovými tabulkami. Aspose.Slides for Java poskytuje výkonnou sadu nástrojů, která umožňuje vývojářům bezproblémově spravovat různé aspekty prezentací v PowerPointu. Jednou z běžných výzev, kterým vývojáři čelí, je identifikace sloučených buněk v tabulkách vložených do prezentací. Tento tutoriál vás provede procesem identifikace sloučených buněk pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -67,3 +71,9 @@ Aspose.Slides for Java je výkonná knihovna pro manipulaci s prezentacemi Power
  Dokumentaci lze nalézt[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
 Podporu získáte na fóru Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

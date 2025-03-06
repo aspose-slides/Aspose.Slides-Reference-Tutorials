@@ -3,10 +3,14 @@ title: مقارنة الشرائح داخل العرض التقديمي
 linktitle: مقارنة الشرائح داخل العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية مقارنة الشرائح في العروض التقديمية باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع الكود المصدري لإجراء مقارنات دقيقة.
-type: docs
 weight: 12
 url: /ar/net/chart-creation-and-customization/check-slides-comparison/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لمقارنة الشرائح داخل العرض التقديمي
 
@@ -143,3 +147,9 @@ url: /ar/net/chart-creation-and-customization/check-slides-comparison/
 ### هل هناك أي أفضل الممارسات لتحسين أداء مقارنة العرض التقديمي؟
 
 نعم، يعد تنفيذ خوارزميات فعالة وإدارة استخدام الذاكرة أمرًا أساسيًا لتحسين أداء مقارنة العروض التقديمية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

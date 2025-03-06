@@ -3,10 +3,14 @@ title: تغيير بيانات كائن OLE في PowerPoint
 linktitle: تغيير بيانات كائن OLE في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تغيير بيانات كائن OLE في PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة للحصول على تحديثات فعالة وسهلة.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 يمكن أن يكون تغيير بيانات كائن OLE في عروض PowerPoint التقديمية مهمة بالغة الأهمية عندما تحتاج إلى تحديث المحتوى المضمن دون تحرير كل شريحة يدويًا. سيرشدك هذا الدليل الشامل خلال العملية باستخدام Aspose.Slides for Java، وهي مكتبة قوية مصممة للتعامل مع عروض PowerPoint التقديمية. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستجد هذا البرنامج التعليمي مفيدًا وسهل المتابعة.
 ## المتطلبات الأساسية
@@ -100,3 +104,9 @@ if (ole != null) {
  نعم يمكنك الحصول على[تجربة مجانية](https://releases.aspose.com/) لاختبار ميزات Aspose.Slides.
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides؟
  يمكنك العثور على وثائق مفصلة عن[صفحة وثائق Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

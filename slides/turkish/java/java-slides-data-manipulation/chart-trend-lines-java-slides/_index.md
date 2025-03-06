@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Grafik Trend Çizgileri
 linktitle: Java Slaytlarındaki Grafik Trend Çizgileri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'a çeşitli trend çizgilerini nasıl ekleyeceğinizi öğrenin. Etkili veri görselleştirmesi için kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarındaki Grafik Trend Çizgilerine Giriş: Adım Adım Kılavuz
 
@@ -190,3 +194,9 @@ Evet, tek bir grafik serisine birden fazla trend çizgisi ekleyebilirsiniz. Sade
 ### Aspose.Slides for Java için daha fazla kaynağa ve örneğe nasıl erişebilirim?
 
  Aspose.Slides for Java ile ilgili ek kaynaklara, belgelere ve örneklere şu adresten erişebilirsiniz:[Web sitesi](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

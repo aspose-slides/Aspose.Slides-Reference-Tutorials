@@ -3,10 +3,14 @@ title: Thao tác dữ liệu trên Java Slides
 linktitle: Thao tác dữ liệu trên Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nâng cao kỹ năng thao tác dữ liệu Java Slides của bạn với các hướng dẫn Aspose.Slides for Java. Tìm hiểu từng bước để tạo, chỉnh sửa và chuyển đổi bản trình bày một cách hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Bạn đã sẵn sàng để nắm vững nghệ thuật thao tác dữ liệu Java Slides chưa? Không cần tìm đâu xa. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn những điểm phức tạp khi sử dụng Aspose.Slides cho Java để tạo, sửa đổi và cải thiện bản trình bày slide của bạn. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình bước vào thế giới Java Slides, các hướng dẫn của chúng tôi sẽ trang bị cho bạn kiến thức và kỹ năng bạn cần.
 
@@ -96,3 +100,9 @@ Tìm hiểu cách tạo biểu đồ hình tròn động với các màu lát c�
 Tìm hiểu cách thiết lập chú thích cho nhãn dữ liệu trong Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
 ### [Thiết lập định dạng ngày cho trục danh mục trong Java Slides](./setting-date-format-category-axis-java-slides/)
 Tìm hiểu cách đặt định dạng ngày cho trục danh mục trong biểu đồ PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Supprimer la diapositive via la référence
 linktitle: Supprimer la diapositive via la référence
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment supprimer des diapositives dans des présentations PowerPoint avec Aspose.Slides for .NET, une puissante bibliothèque pour les développeurs .NET.
-type: docs
 weight: 25
 url: /fr/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 En tant que rédacteur SEO compétent, je suis ici pour vous fournir un guide complet sur l'utilisation d'Aspose.Slides for .NET pour supprimer une diapositive d'une présentation PowerPoint. Dans ce didacticiel étape par étape, nous décomposerons le processus en étapes gérables, garantissant que vous puissiez facilement suivre. Alors, commençons!
 
@@ -101,3 +105,9 @@ Oui, vous pouvez parcourir les diapositives et supprimer plusieurs diapositives 
 
 ### Puis-je annuler la suppression d’une diapositive à l’aide d’Aspose.Slides for .NET ?
 Une fois qu’une diapositive est supprimée, elle ne peut pas être facilement annulée. Il est conseillé de conserver des sauvegardes de vos présentations avant d'effectuer de telles modifications.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

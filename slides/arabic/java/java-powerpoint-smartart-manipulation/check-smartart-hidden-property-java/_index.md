@@ -3,10 +3,14 @@ title: تحقق من خاصية SmartArt المخفية باستخدام Java
 linktitle: تحقق من خاصية SmartArt المخفية باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف كيفية التحقق من خاصية SmartArt المخفية في PowerPoint باستخدام Aspose.Slides لـ Java، مما يعزز معالجة العرض التقديمي.
-type: docs
 weight: 24
 url: /ar/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في عالم برمجة Java الديناميكي، يعد التعامل مع عروض PowerPoint التقديمية برمجيًا مهارة قيمة. Aspose.Slides for Java هي مكتبة قوية تمكن المطورين من إنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها بسلاسة. إحدى المهام الأساسية في معالجة العرض التقديمي هي التحقق من الخاصية المخفية لكائنات SmartArt. سيرشدك هذا البرنامج التعليمي خلال عملية التحقق من الخاصية المخفية لـ SmartArt باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -76,3 +80,9 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 نعم، يدعم Aspose.Slides for Java مجموعة واسعة من تنسيقات ملفات PowerPoint، بما في ذلك PPT وPPTX وPOT وPOTX وPPS والمزيد.
 ### هل يوجد مجتمع أو منتدى يمكنني من خلاله الحصول على مساعدة بشأن Aspose.Slides لـ Java؟
 نعم، يمكنك زيارة منتدى Aspose.Slides (https://forum.aspose.com/c/slides/11) لطرح الأسئلة ومشاركة الأفكار والحصول على الدعم من المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

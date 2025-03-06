@@ -3,10 +3,14 @@ title: Ustawianie obrazu jako tła slajdu za pomocą Aspose.Slides
 linktitle: Ustaw obraz jako tło slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ustawić tło obrazu w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Ulepsz swoje prezentacje z łatwością.
-type: docs
 weight: 13
 url: /pl/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 W świecie projektowania i automatyzacji prezentacji Aspose.Slides dla .NET jest potężnym i wszechstronnym narzędziem, które pozwala programistom z łatwością manipulować prezentacjami programu PowerPoint. Niezależnie od tego, czy tworzysz spersonalizowane raporty, tworzysz wspaniałe prezentacje, czy automatyzujesz generowanie slajdów, Aspose.Slides dla .NET jest cennym nabytkiem. W tym przewodniku krok po kroku pokażemy, jak ustawić obraz jako tło slajdu, korzystając z tej niezwykłej biblioteki.
 
@@ -115,3 +119,9 @@ Aspose.Slides dla .NET jest przeznaczony przede wszystkim dla środowisk Windows
 ### 5. Czy Aspose.Slides dla .NET oferuje wersję próbną?
 
  Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Slides dla .NET na stronie internetowej pod adresem[ten link](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

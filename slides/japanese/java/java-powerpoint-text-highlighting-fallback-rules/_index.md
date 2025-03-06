@@ -3,10 +3,14 @@ title: Java PowerPoint テキストの強調表示とフォールバック ル�
 linktitle: Java PowerPoint テキストの強調表示とフォールバック ルール
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java PowerPoint のテキスト強調表示とフォント フォールバック ルールを習得します。チュートリアルに従って、プレゼンテーションをシームレスに強化および自動化します。
-type: docs
 weight: 25
 url: /ja/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 導入
 
@@ -26,3 +30,9 @@ PowerPoint スライドで特定のテキストを目立たせたいと思った
 Aspose.Slides for Java を使用して PowerPoint でテキストを強調表示する方法を学びます。詳細なガイドを使用して、プレゼンテーションを簡単に自動化および強化します。
 ### [Java PowerPoint のフォールバック ルール コレクション](./fallback-rules-collection-java-powerpoint/)
 Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションのフォント フォールバック ルールを管理する方法を学びます。デバイス間の互換性を簡単に強化できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

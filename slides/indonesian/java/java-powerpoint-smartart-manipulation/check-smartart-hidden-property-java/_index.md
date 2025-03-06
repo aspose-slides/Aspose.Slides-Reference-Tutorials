@@ -3,10 +3,14 @@ title: Periksa Properti Tersembunyi SmartArt menggunakan Java
 linktitle: Periksa Properti Tersembunyi SmartArt menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Temukan cara memeriksa properti tersembunyi SmartArt di PowerPoint menggunakan Aspose.Slides untuk Java, sehingga meningkatkan manipulasi presentasi.
-type: docs
 weight: 24
 url: /id/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam dunia pemrograman Java yang dinamis, memanipulasi presentasi PowerPoint secara terprogram adalah keterampilan yang berharga. Aspose.Slides untuk Java adalah perpustakaan tangguh yang memberdayakan pengembang untuk membuat, memodifikasi, dan memanipulasi presentasi PowerPoint dengan lancar. Salah satu tugas penting dalam manipulasi presentasi adalah memeriksa properti tersembunyi dari objek SmartArt. Tutorial ini akan memandu Anda melalui proses pemeriksaan properti tersembunyi SmartArt menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -76,3 +80,9 @@ Sangat! Aspose.Slides for Java menyediakan kemampuan ekstensif untuk memodifikas
 Ya, Aspose.Slides untuk Java mendukung berbagai format file PowerPoint, termasuk PPT, PPTX, POT, POTX, PPS, dan banyak lagi.
 ### Apakah ada komunitas atau forum di mana saya bisa mendapatkan bantuan dengan Aspose.Slides untuk Java?
 Ya, Anda dapat mengunjungi forum Aspose.Slides (https://forum.aspose.com/c/slides/11) untuk bertanya, berbagi ide, dan mendapatkan dukungan dari komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

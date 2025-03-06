@@ -3,10 +3,14 @@ title: Foro del grafico a ciambella nelle diapositive Java
 linktitle: Foro del grafico a ciambella nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Crea grafici a ciambella con dimensioni dei fori personalizzate nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per la personalizzazione del grafico.
-type: docs
 weight: 11
 url: /it/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione al grafico a ciambella con un foro nelle diapositive Java
 
@@ -94,3 +98,9 @@ finally
 ### È possibile aggiungere un titolo al grafico?
 
  Certamente! Puoi aggiungere un titolo al grafico utilizzando il file`setTitle` metodo sul`IChart` oggetto e fornendo il testo del titolo desiderato.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

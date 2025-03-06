@@ -3,10 +3,14 @@ title: Java 幻灯片中的计算公式
 linktitle: Java 幻灯片中的计算公式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 计算 Java Slides 中的公式。带有动态 PowerPoint 演示文稿源代码的分步指南。
-type: docs
 weight: 10
 url: /zh/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中计算公式的简介
 
@@ -114,3 +118,10 @@ try {
 ### 如何计算工作簿中的公式？
 
 您可以使用`calculateFormulas`的方法`IChartDataWorkbook`在 Aspose.Slides 中。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

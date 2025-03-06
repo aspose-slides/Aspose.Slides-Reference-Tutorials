@@ -3,10 +3,14 @@ title: PowerPoint에서 상대 축척 높이 그림 프레임 추가
 linktitle: PowerPoint에서 상대 축척 높이 그림 프레임 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 상대적인 크기 높이 그림 프레임을 추가하여 시각적 콘텐츠를 향상시키는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 상대 배율 높이가 있는 그림 프레임을 추가하는 방법을 배웁니다.
 ## 전제 조건
@@ -68,3 +72,9 @@ Aspose.Slides for Java는 다양한 버전의 PowerPoint와 호환되어 프레�
 예, Aspose.Slides for Java는 PNG, GIF, BMP 등을 포함한 다양한 이미지 형식을 지원합니다.
 ### Aspose.Slides 사용자가 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
 예, Aspose.Slides 포럼을 방문하여 라이브러리에 관한 질문, 토론 또는 지원을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

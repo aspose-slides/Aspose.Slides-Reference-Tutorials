@@ -3,10 +3,14 @@ title: Проверка презентации без загрузки слай�
 linktitle: Проверка презентации без загрузки слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как проверять презентации, не загружая их в Java Slides, с помощью Aspose.Slides для Java. Эффективно обеспечьте целостность файлов с помощью этого пошагового руководства.
-type: docs
 weight: 18
 url: /ru/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в проверку презентации без загрузки слайдов Java
 
@@ -80,3 +84,9 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
  Вы можете получить доступ к полной документации и ресурсам для Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/). Эта документация поможет вам освоить API и его функциональные возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

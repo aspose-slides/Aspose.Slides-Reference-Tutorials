@@ -3,10 +3,14 @@ title: 在 Java 投影片中將 Notes 投影片檢視轉換為 PDF
 linktitle: 在 Java 投影片中將 Notes 投影片檢視轉換為 PDF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將註解的 PowerPoint 簡報轉換為 PDF。請按照我們的原始碼逐步指南進行操作。
-type: docs
 weight: 16
 url: /zh-hant/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在 Java 投影片中將 Notes 投影片檢視轉換為 PDF 簡介
 
@@ -106,3 +110,9 @@ options.setNotesPosition(NotesPositions.RightFull);
 ### 在哪裡可以找到更多文件和範例？
 
 您可以在以下位置找到 Aspose.Slides for Java 的綜合文件和範例：[這裡](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

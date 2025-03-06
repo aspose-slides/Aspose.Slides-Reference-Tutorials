@@ -3,10 +3,14 @@ title: Hinzufügen von Zellrändern zu einer Tabelle in Java PowerPoint
 linktitle: Hinzufügen von Zellrändern zu einer Tabelle in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Tabellen in Java PowerPoint-Präsentationen Zellränder hinzufügen. Mit dieser Schritt-für-Schritt-Anleitung können Sie Ihre Folien ganz einfach verbessern.
-type: docs
 weight: 10
 url: /de/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Hallo! Sie möchten also mithilfe von Java Zellränder zu einer Tabelle in einer PowerPoint-Präsentation hinzufügen? Dann sind Sie hier richtig! Dieses Tutorial führt Sie mithilfe der Bibliothek Aspose.Slides für Java Schritt für Schritt durch den Vorgang. Am Ende dieses Leitfadens wissen Sie, wie Sie Tabellen in Ihren PowerPoint-Folien wie ein Profi bearbeiten können. Lassen Sie uns loslegen und dafür sorgen, dass Ihre Präsentationen elegant und professionell aussehen!
 ## Voraussetzungen
@@ -96,3 +100,9 @@ Auf jeden Fall! Sie können mit Aspose.Slides Bilder in Tabellenzellen einfügen
 Ja, Sie können den Vorgang automatisieren, indem Sie die Folien durchlaufen und die Tabellenerstellungslogik auf jede Folie anwenden.
 ### Welche Dateiformate unterstützt Aspose.Slides?
 Aspose.Slides unterstützt verschiedene Formate, darunter PPT, PPTX, PDF und mehr.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

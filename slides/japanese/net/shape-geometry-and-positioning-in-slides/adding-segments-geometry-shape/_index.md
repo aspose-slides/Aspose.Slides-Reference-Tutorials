@@ -3,10 +3,14 @@ title: ビジュアルをマスターする - .NET で Aspose.Slides を使用�
 linktitle: Aspose.Slides を使用してプレゼンテーションのジオメトリ シェイプにセグメントを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides を使用して .NET アプリケーションを強化する方法を学びます。このチュートリアルでは、魅力的なプレゼンテーションのためにジオメトリ シェイプにセグメントを追加する方法について説明します。
-type: docs
 weight: 13
 url: /ja/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 .NET 開発の世界では、視覚的に魅力的なプレゼンテーションを作成することが一般的な要件です。Aspose.Slides for .NET は、強力なプレゼンテーション作成機能を .NET アプリケーションにシームレスに統合する強力なライブラリです。このチュートリアルでは、プレゼンテーション デザインの特定の側面、つまりジオメトリ シェイプへのセグメントの追加に焦点を当てます。
 ## 前提条件
@@ -72,3 +76,9 @@ Aspose.Slides for .NET を使用すると、開発者は高度なプレゼンテ
 探索する[ドキュメンテーション](https://reference.aspose.com/slides/net/)包括的なガイドと例については、こちらをご覧ください。
 ### 購入前に Aspose.Slides を無料で試すことはできますか?
 はい、無料トライアルはここからダウンロードできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

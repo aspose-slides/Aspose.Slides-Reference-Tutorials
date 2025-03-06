@@ -3,10 +3,14 @@ title: Marcadores predeterminados en el gráfico en diapositivas de Java
 linktitle: Marcadores predeterminados en el gráfico en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear diapositivas Java con marcadores predeterminados en gráficos usando Aspose.Slides para Java. Guía paso a paso con código fuente.
-type: docs
 weight: 16
 url: /es/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introducción a los marcadores predeterminados en gráficos en diapositivas de Java
 
@@ -142,3 +146,9 @@ Puede personalizar los símbolos del marcador configurando el estilo del marcado
 ### ¿Puedo agregar etiquetas a los puntos de datos?
 
  Sí, puede agregar etiquetas a puntos de datos usando el`IDataPoint.getLabel()` método y personalizarlos según sea necesario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

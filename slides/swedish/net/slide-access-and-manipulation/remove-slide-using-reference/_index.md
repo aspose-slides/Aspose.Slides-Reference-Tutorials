@@ -3,10 +3,14 @@ title: Ta bort bild via referens
 linktitle: Ta bort bild via referens
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du tar bort bilder i PowerPoint-presentationer med Aspose.Slides för .NET, ett kraftfullt bibliotek för .NET-utvecklare.
-type: docs
 weight: 25
 url: /sv/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Som en skicklig SEO-skribent är jag här för att ge dig en omfattande guide om hur du använder Aspose.Slides för .NET för att ta bort en bild från en PowerPoint-presentation. I denna steg-för-steg handledning kommer vi att dela upp processen i hanterbara steg, så att du enkelt kan följa med. Så, låt oss komma igång!
 
@@ -101,3 +105,9 @@ Ja, du kan gå igenom bilderna och ta bort flera bilder programmatiskt.
 
 ### Kan jag ångra borttagningen av en bild med Aspose.Slides för .NET?
 När ett objektglas väl har tagits bort kan det inte lätt ångras. Det är tillrådligt att ha säkerhetskopior av dina presentationer innan du gör sådana ändringar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

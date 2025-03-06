@@ -3,10 +3,14 @@ title: Ustaw tryb układu w slajdach Java
 linktitle: Ustaw tryb układu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić tryby układu slajdów Java za pomocą Aspose.Slides. Dostosuj położenie i rozmiar wykresu w tym przewodniku krok po kroku z kodem źródłowym.
-type: docs
 weight: 23
 url: /pl/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania trybu układu w slajdach Java
 
@@ -95,3 +99,9 @@ finally
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 
  Więcej informacji na temat Aspose.Slides dla Java można znaleźć w[dokumentacja](https://reference.aspose.com/slides/java/). Zawiera szczegółowe odniesienia do API i przykłady, które pomogą Ci efektywnie pracować ze slajdami i wykresami w Javie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

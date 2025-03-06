@@ -3,10 +3,14 @@ title: Správa rodiny písem v Java PowerPoint
 linktitle: Správa rodiny písem v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se spravovat rodinu písem v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Snadno si přizpůsobte styly písma, barvy a další.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak spravovat rodinu písem v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Písma hrají zásadní roli ve vizuální přitažlivosti a čitelnosti vašich snímků, takže je nezbytné vědět, jak s nimi efektivně manipulovat.
 ## Předpoklady
@@ -66,3 +70,9 @@ Ano, Aspose.Slides vám umožňuje vkládat vlastní písma do vašich prezentac
 Ano, Aspose.Slides poskytuje rozhraní API pro vytváření, úpravu a manipulaci s prezentacemi PowerPoint výhradně prostřednictvím kódu.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
 Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides for Java z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

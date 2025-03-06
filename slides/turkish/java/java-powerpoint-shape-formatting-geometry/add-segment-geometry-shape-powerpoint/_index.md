@@ -3,10 +3,14 @@ title: PowerPoint'te Geometri Şekline Segment Ekleme
 linktitle: PowerPoint'te Geometri Şekline Segment Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı, adım adım kılavuzla Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki geometri şekillerine nasıl segment ekleyeceğinizi öğrenin.
-type: docs
 weight: 19
 url: /tr/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 İlgi çekici ve dinamik sunumlar oluşturmak, özellikle özel şekiller ve tasarımlar eklemek istediğinizde zor olabilir. Aspose.Slides for Java'nın kullanışlı olduğu yer burasıdır. Bu güçlü API, PowerPoint dosyalarını programlı bir şekilde değiştirmenize olanak tanıyarak karmaşık geometrik şekiller ve bölümleri kolaylıkla ekleme esnekliği sağlar. Bu eğitimde, Aspose.Slides for Java kullanarak bir PowerPoint sunumunda geometri şekillerine nasıl segment ekleyeceğinizi anlatacağız. İster sunum oluşturmayı otomatikleştirmek isteyen bir geliştirici olun, ister yalnızca kodlamaya dalmayı seven biri olun, bu kılavuz sizin kapsamlı kaynağınız olacaktır.
 ## Önkoşullar
@@ -78,3 +82,9 @@ Hayır, Aspose.Slides for Java, Java ile kullanılmak üzere özel olarak tasarl
 Dikdörtgenler, elipsler, çizgiler ve özel geometri şekilleri dahil olmak üzere çeşitli şekiller ekleyebilirsiniz.
 ### Aspose.Slides for Java için nasıl destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) soru sorabileceğiniz ve topluluktan ve geliştiricilerden yardım alabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

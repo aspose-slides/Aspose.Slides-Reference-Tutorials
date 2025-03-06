@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定版面模式
 linktitle: 在 Java 投影片中設定版面模式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 設定 Java 投影片的版面模式。在本逐步指南中使用原始程式碼自訂圖表位置和大小。
-type: docs
 weight: 23
 url: /zh-hant/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java投影片設定版面配置模式簡介
 
@@ -95,3 +99,9 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資訊？
 
 您可以在以下位置找到有關 Aspose.Slides for Java 的更多資訊：[文件](https://reference.aspose.com/slides/java/)。它包含詳細的 API 參考和範例，可協助您在 Java 中有效地使用投影片和圖表。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

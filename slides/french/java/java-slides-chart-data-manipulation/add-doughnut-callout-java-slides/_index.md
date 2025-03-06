@@ -3,10 +3,14 @@ title: Ajouter une légende de beignet dans les diapositives Java
 linktitle: Ajouter une légende de beignet dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à ajouter des légendes de beignet dans les diapositives Java à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour des présentations améliorées.
-type: docs
 weight: 12
 url: /fr/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à l'ajout d'une légende en forme de beignet dans les diapositives Java à l'aide d'Aspose.Slides pour Java
 
@@ -180,3 +184,9 @@ Oui, vous pouvez ajouter autant de points de données que nécessaire au graphiq
 ### Comment puis-je ajuster la position et la taille du graphique Donut sur la diapositive ?
 
  Vous pouvez changer la position et la taille du graphique Donut en modifiant les paramètres dans le`addChart` méthode. Les quatre nombres de cette méthode correspondent respectivement aux coordonnées X et Y du coin supérieur gauche du graphique ainsi qu'à sa largeur et sa hauteur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

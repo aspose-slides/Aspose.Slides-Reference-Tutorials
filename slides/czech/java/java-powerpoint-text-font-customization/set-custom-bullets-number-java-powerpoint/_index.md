@@ -3,10 +3,14 @@ title: Nastavte počet vlastních odrážek v Java PowerPointu
 linktitle: Nastavte počet vlastních odrážek v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit vlastní čísla odrážek v Java PowerPointu pomocí Aspose.Slides, čímž se zvýší přehlednost a struktura prezentace programově.
-type: docs
 weight: 15
 url: /cs/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V dnešní digitální době je vytváření dynamických prezentací zásadní pro efektivní sdělování nápadů a dat. Aspose.Slides for Java poskytuje výkonnou sadu nástrojů pro programovou manipulaci s prezentacemi v PowerPointu a nabízí rozsáhlé funkce pro vylepšení procesu vytváření prezentací. Tento článek se ponoří do nastavení vlastních čísel odrážek v prezentacích Java PowerPoint pomocí Aspose.Slides. Ať už jste ostřílený vývojář nebo nováček, tento tutoriál vás krok za krokem provede celým procesem a zajistí, že můžete tuto schopnost efektivně využít.
 ## Předpoklady
@@ -82,3 +86,9 @@ Aspose.Slides podporuje formáty PowerPoint od 97-2003 až po nejnovější verz
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Kde mohu zakoupit Aspose.Slides?
  Aspose.Slides můžete zakoupit od[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

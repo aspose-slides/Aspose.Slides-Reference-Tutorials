@@ -3,10 +3,14 @@ title: إنشاء كائنات مركبة في الأشكال الهندسية
 linktitle: إنشاء كائنات مركبة في الأشكال الهندسية
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء كائنات مركبة في أشكال هندسية باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي الشامل. مثالية لمطوري جافا.
-type: docs
 weight: 20
 url: /ar/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 مرحبًا يا من هناك! هل سبق لك أن أردت إنشاء أشكال مذهلة ومعقدة في عروض PowerPoint التقديمية باستخدام Java؟ حسنا، أنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في مكتبة Aspose.Slides القوية لـ Java لإنشاء كائنات مركبة في أشكال هندسية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على تحقيق نتائج مبهرة في وقت قصير. على استعداد للبدء؟ دعونا الغوص في!
 ## المتطلبات الأساسية
@@ -95,3 +99,9 @@ Aspose.Slides for Java هي مكتبة قوية لإنشاء عروض PowerPoint
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الوثائق والدعم؟
  تفحص ال[توثيق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

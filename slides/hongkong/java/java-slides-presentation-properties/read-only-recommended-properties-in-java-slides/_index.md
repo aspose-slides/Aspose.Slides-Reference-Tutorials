@@ -3,10 +3,14 @@ title: Java 投影片中的唯讀推薦屬性
 linktitle: Java 投影片中的唯讀推薦屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 簡報中啟用唯讀推薦屬性。請遵循我們的逐步指南以及原始程式碼範例，以增強簡報的安全性。
-type: docs
 weight: 17
 url: /zh-hant/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在 Java 投影片中啟用唯讀推薦屬性的簡介
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
 記得更換`"YourPassword"`使用您想要的密碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

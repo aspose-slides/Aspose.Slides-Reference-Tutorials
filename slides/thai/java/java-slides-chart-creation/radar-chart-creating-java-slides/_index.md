@@ -3,10 +3,14 @@ title: การสร้างแผนภูมิเรดาร์ใน Jav
 linktitle: การสร้างแผนภูมิเรดาร์ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิเรดาร์ในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java API
-type: docs
 weight: 10
 url: /th/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างแผนภูมิเรดาร์ใน Java Slides
 
@@ -268,3 +272,9 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### ฉันจะบันทึกแผนภูมิเป็นรูปแบบไฟล์อื่นได้อย่างไร
 
 คุณสามารถเปลี่ยนรูปแบบเอาต์พุตได้โดยแก้ไขนามสกุลไฟล์ในรูปแบบ`outPath` ตัวแปรและการใช้ให้เหมาะสม`SaveFormat` - ตัวอย่างเช่น หากต้องการบันทึกเป็น PDF ให้ใช้`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

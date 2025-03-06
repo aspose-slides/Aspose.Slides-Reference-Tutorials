@@ -3,10 +3,14 @@ title: Adicionar linha em forma de seta no PowerPoint
 linktitle: Adicionar linha em forma de seta no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar linhas em forma de seta a apresentações do PowerPoint usando Aspose.Slides para Java. Aumente o apelo visual sem esforço.
-type: docs
 weight: 10
 url: /pt/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Adicionar linhas em forma de seta às apresentações do PowerPoint pode aumentar o apelo visual e ajudar na transmissão eficaz de informações. Aspose.Slides for Java oferece uma solução abrangente para desenvolvedores Java manipularem apresentações do PowerPoint de forma programática. Neste tutorial, orientaremos você no processo de adição de linhas em forma de seta aos slides do PowerPoint usando Aspose.Slides for Java.
 ## Pré-requisitos
@@ -76,3 +80,9 @@ Você pode explorar a documentação, baixar a biblioteca e acessar fóruns de s
  Documentação:[Aspose.Slides para documentação Java](https://reference.aspose.com/slides/java/)
  Download:[Baixar Aspose.Slides para Java](https://releases.aspose.com/slides/java/)
  Apoiar:[Fórum de suporte Aspose.Slides para Java](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

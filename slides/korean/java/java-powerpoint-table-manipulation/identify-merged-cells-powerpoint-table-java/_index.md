@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint 테이블에서 병합된 셀 식별
 linktitle: Java를 사용하여 PowerPoint 테이블에서 병합된 셀 식별
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 테이블에서 병합된 셀을 식별하는 방법을 알아보세요. Java 개발자에게 적합합니다.
-type: docs
 weight: 15
 url: /ko/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Java 개발 영역에서 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하는 것은 특히 복잡한 데이터 테이블을 처리할 때 중요한 작업이 될 수 있습니다. Aspose.Slides for Java는 개발자가 PowerPoint 프레젠테이션의 다양한 측면을 원활하게 관리할 수 있는 강력한 도구 키트를 제공합니다. 개발자가 직면하는 일반적인 과제 중 하나는 프레젠테이션에 포함된 테이블 내에서 병합된 셀을 식별하는 것입니다. 이 튜토리얼의 목표는 Aspose.Slides for Java를 사용하여 병합된 셀을 식별하는 프로세스를 안내하는 것입니다.
 ## 전제 조건
@@ -67,3 +71,9 @@ Aspose.Slides for Java는 Java를 사용하여 프로그래밍 방식으로 Powe
  문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
 지원을 받으려면 Aspose.Slides 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

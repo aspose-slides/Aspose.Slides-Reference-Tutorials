@@ -3,10 +3,14 @@ title: تحويل إلى HTML5 في شرائح جافا
 linktitle: تحويل إلى HTML5 في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تحويل عروض PowerPoint التقديمية إلى HTML5 في Java باستخدام Aspose.Slides. تعلم كيفية أتمتة عملية التحويل باستخدام أمثلة التعليمات البرمجية خطوة بخطوة.
-type: docs
 weight: 23
 url: /ar/java/presentation-conversion/convert-to-html5-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لتحويل عرض PowerPoint التقديمي إلى HTML5 في Java باستخدام Aspose.Slides
 
@@ -105,3 +109,9 @@ try {
 ### هل Aspose.Slides متوافق مع أحدث إصدارات Java؟
 
 يتم تحديث Aspose.Slides بانتظام لدعم أحدث إصدارات Java، لذا تأكد من أنك تستخدم إصدارًا متوافقًا من المكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Sprawdź układ wykresu dodany w slajdach Java
 linktitle: Sprawdź układ wykresu dodany w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Sprawdzanie poprawności układu wykresu głównego w programie PowerPoint za pomocą Aspose.Slides dla języka Java. Naucz się programowo manipulować wykresami, aby uzyskać wspaniałe prezentacje.
-type: docs
 weight: 10
 url: /pl/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do sprawdzania układu wykresu w Aspose.Slides dla Java
 
@@ -97,3 +101,10 @@ Tak, możesz dostosować dane wykresu, dodając i modyfikując serie danych, kat
 ### Co się stanie, jeśli chcę zmodyfikować inne właściwości wykresu?
 
 Możesz uzyskać dostęp do różnych właściwości wykresów i dostosować je do swoich wymagań. Zapoznaj się z dokumentacją Aspose.Slides, aby uzyskać wyczerpujące informacje na temat manipulacji wykresami.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

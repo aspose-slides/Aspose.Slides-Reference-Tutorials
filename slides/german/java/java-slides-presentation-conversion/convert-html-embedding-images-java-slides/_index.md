@@ -3,10 +3,14 @@ title: Konvertieren Sie HTML-Einbettungsbilder in Java-Folien
 linktitle: Konvertieren Sie HTML-Einbettungsbilder in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Konvertieren Sie PowerPoint mit eingebetteten Bildern in HTML. Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.Slides für Java. Lernen Sie, Präsentationskonvertierungen in Java mühelos zu automatisieren.
-type: docs
 weight: 11
 url: /de/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in die Konvertierung von HTML-Einbettungsbildern in Java-Folien
 
@@ -125,3 +129,10 @@ Ja, Sie können die HTML-Vorlage anpassen, indem Sie die von Aspose.Slides gener
 ### Wie gehe ich mit Fehlern während der Konvertierung um?
 
 Sie können den Konvertierungscode in einen Try-Catch-Block einschließen, um Ausnahmen zu behandeln, die während des Konvertierungsvorgangs auftreten können.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

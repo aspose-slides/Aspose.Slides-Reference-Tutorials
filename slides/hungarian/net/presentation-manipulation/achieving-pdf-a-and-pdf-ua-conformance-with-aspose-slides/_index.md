@@ -3,10 +3,14 @@ title: PDF/A és PDF/UA megfelelőség elérése az Aspose.Slides segítségéve
 linktitle: PDF/A és PDF/UA megfelelőség elérése
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Biztosítsa a PDF/A és PDF/UA megfelelőségét az Aspose.Slides for .NET-hez. Könnyen hozhat létre hozzáférhető és megőrizhető prezentációkat.
-type: docs
 weight: 23
 url: /hu/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés
 
@@ -127,3 +131,9 @@ A PDF/UA-dokumentumok hozzáférhetőségének biztosítása érdekében az Aspo
 ### Minden dokumentumhoz szükséges a PDF/UA megfelelőség?
 
 A PDF/UA megfelelőség különösen fontos a fogyatékkal élő felhasználók számára hozzáférhető dokumentumok esetében. A PDF/UA megfelelőség szükségessége azonban a célközönség konkrét követelményeitől függ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

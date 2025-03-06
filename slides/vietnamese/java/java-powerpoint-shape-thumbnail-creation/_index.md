@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ và hình dạng PowerPoint bằng Java
 linktitle: Tạo hình thu nhỏ và hình dạng PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình dạng và hình thu nhỏ trong PowerPoint bằng Aspose.Slides Java. Hướng dẫn chi tiết về cách tạo hình dạng nhóm, hình thu nhỏ hệ số tỷ lệ & hiệu ứng thu phóng.
-type: docs
 weight: 24
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 
 Tạo các bài thuyết trình PowerPoint có tổ chức và hấp dẫn trực quan là điều cần thiết để giao tiếp hiệu quả. Với Aspose.Slides cho Java, bạn có thể dễ dàng cải thiện bản trình bày của mình bằng cách tạo nhiều hình dạng và hình thu nhỏ khác nhau. Bài viết này cung cấp hướng dẫn từng bước để nắm vững các kỹ thuật này, đảm bảo các trang trình bày của bạn vừa hấp dẫn vừa chuyên nghiệp.
@@ -52,3 +56,9 @@ Tìm hiểu cách tạo hình thu nhỏ ghi chú con SmartArt trong Java bằng 
  Tìm hiểu cách tạo Phóng to tóm tắt trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước toàn diện này.
 ### [Tạo khung thu phóng trong PowerPoint](./create-zoom-frame-powerpoint/)
 Tìm hiểu cách tạo Khung thu phóng hấp dẫn trong PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn của chúng tôi để thêm các yếu tố tương tác vào bản trình bày của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

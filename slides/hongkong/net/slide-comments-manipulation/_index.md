@@ -3,10 +3,14 @@ title: 投影片評論操縱
 linktitle: 投影片評論操縱
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過幻燈片註解操作的 Aspose.Slides 教學增強您的投影片操作技能。了解使用 .NET 在 PowerPoint 簡報中以程式設計方式新增、編輯和管理註解。
-type: docs
 weight: 12
 url: /zh-hant/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介紹
 
@@ -27,3 +31,9 @@ url: /zh-hant/net/slide-comments-manipulation/
 使用 Aspose.Slides API 為您的簡報添加深度和互動性。了解如何使用 .NET 將註解輕鬆整合到投影片中。提高參與度並吸引觀眾。
 ### [現代評論管理](./modern-comments/)
 使用 Aspose.Slides 透過現代評論管理增強協作和回饋流程。了解如何簡化簡報中的溝通並最大限度地提高工作效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

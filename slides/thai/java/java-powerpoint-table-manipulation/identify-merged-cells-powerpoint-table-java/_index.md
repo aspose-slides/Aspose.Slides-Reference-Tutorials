@@ -3,10 +3,14 @@ title: ระบุเซลล์ที่ผสานในตาราง Pow
 linktitle: ระบุเซลล์ที่ผสานในตาราง PowerPoint โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีระบุเซลล์ที่ผสานในตาราง PowerPoint โดยทางโปรแกรมโดยใช้ Aspose.Slides สำหรับ Java เหมาะสำหรับนักพัฒนา Java
-type: docs
 weight: 15
 url: /th/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java การจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรมอาจเป็นงานที่สำคัญ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับตารางข้อมูลที่ซับซ้อน Aspose.Slides for Java มอบชุดเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการการนำเสนอ PowerPoint ในแง่มุมต่างๆ ได้อย่างราบรื่น ความท้าทายทั่วไปประการหนึ่งที่นักพัฒนาต้องเผชิญคือการระบุเซลล์ที่ผสานภายในตารางที่ฝังอยู่ในงานนำเสนอ บทช่วยสอนนี้มีจุดมุ่งหมายเพื่อแนะนำคุณตลอดกระบวนการระบุเซลล์ที่ผสานโดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -67,3 +71,9 @@ Aspose.Slides for Java เป็นไลบรารีที่มีประ
  สามารถดูเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/slides/java/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
 หากต้องการการสนับสนุน โปรดไปที่ฟอรัม Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

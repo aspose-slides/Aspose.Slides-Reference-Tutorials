@@ -3,10 +3,14 @@ title: مخطط خريطة الشجرة في شرائح جافا
 linktitle: مخطط خريطة الشجرة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإنشاء مخططات خريطة الشجرة في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات الهرمية.
-type: docs
 weight: 13
 url: /ar/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى مخطط خريطة الشجرة في شرائح Java
 
@@ -152,3 +156,9 @@ finally
 ### كيف يمكنني حفظ العرض التقديمي باستخدام مخطط الخريطة الشجرةية؟
 
  استخدم ال`pres.save()` طريقة لحفظ العرض التقديمي باستخدام مخطط Tree Map بالتنسيق المطلوب (على سبيل المثال، PPTX).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tambahkan Batas Sel ke Tabel di Java PowerPoint
 linktitle: Tambahkan Batas Sel ke Tabel di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan batas sel ke tabel dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Panduan langkah demi langkah ini memudahkan untuk menyempurnakan slide Anda.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Hai! Jadi, Anda ingin menambahkan batas sel ke tabel dalam presentasi PowerPoint menggunakan Java, ya? Nah, Anda berada di tempat yang tepat! Tutorial ini akan memandu Anda melalui proses langkah demi langkah menggunakan pustaka Aspose.Slides untuk Java. Di akhir panduan ini, Anda akan memiliki pemahaman yang baik tentang cara memanipulasi tabel di slide PowerPoint Anda seperti seorang profesional. Mari selami dan buat presentasi Anda terlihat rapi dan profesional!
 ## Prasyarat
@@ -96,3 +100,9 @@ Sangat! Anda dapat menyisipkan gambar ke dalam sel tabel menggunakan Aspose.Slid
 Ya, Anda dapat mengotomatiskan proses dengan mengulang slide dan menerapkan logika pembuatan tabel ke setiap slide.
 ### Format file apa yang didukung Aspose.Slides?
 Aspose.Slides mendukung berbagai format termasuk PPT, PPTX, PDF, dan banyak lagi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

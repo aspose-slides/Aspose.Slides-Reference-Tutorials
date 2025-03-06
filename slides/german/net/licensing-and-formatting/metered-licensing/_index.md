@@ -3,10 +3,14 @@ title: Gemessene Lizenznutzung
 linktitle: Gemessene Lizenznutzung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Metered Licensing mit Aspose.Slides für .NET effizient nutzen. Integrieren Sie APIs nahtlos und zahlen Sie gleichzeitig für die tatsächliche Nutzung.
-type: docs
 weight: 11
 url: /de/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung
 
@@ -114,3 +118,9 @@ Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern 
 
 ### Gibt es ein Forum für Aspose.Slides-Support und -Diskussionen?
  Ja, Sie können Unterstützung finden und an Diskussionen im Aspose.Slides-Forum teilnehmen unter[dieser Link](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

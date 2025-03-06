@@ -3,10 +3,14 @@ title: Chế độ xem slide và thao tác bố cục trong Aspose.Slides
 linktitle: Chế độ xem slide và thao tác bố cục trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thao tác với chế độ xem và bố cục trang chiếu trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 10
 url: /vi/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thế giới phát triển phần mềm, việc tạo và thao tác các bài thuyết trình PowerPoint theo chương trình là một yêu cầu phổ biến. Aspose.Slides for .NET cung cấp bộ công cụ mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp PowerPoint. Một khía cạnh quan trọng khi làm việc với bài thuyết trình là chế độ xem slide và thao tác bố cục. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình sử dụng Aspose.Slides cho .NET để quản lý chế độ xem và bố cục trang chiếu, cung cấp hướng dẫn từng bước và ví dụ về mã.
 
@@ -132,3 +136,10 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Phần kết luận
 
 Aspose.Slides for .NET đơn giản hóa quá trình làm việc với các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng tôi đã khám phá các bước cơ bản của chế độ xem trang chiếu và thao tác bố cục. Từ việc tải bản trình bày đến tùy chỉnh nội dung trang trình bày, Aspose.Slides cung cấp bộ công cụ mạnh mẽ để các nhà phát triển tạo ra các bản trình bày năng động và hấp dẫn một cách dễ dàng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

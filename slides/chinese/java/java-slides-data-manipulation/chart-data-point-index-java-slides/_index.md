@@ -3,10 +3,14 @@ title: Java 幻灯片中的图表数据点索引
 linktitle: Java 幻灯片中的图表数据点索引
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 操作 Java Slides 中的图表数据点索引。轻松提取和处理 PowerPoint 图表中的数据。
-type: docs
 weight: 12
 url: /zh/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中的图表数据点索引简介
 
@@ -98,3 +102,9 @@ try {
 ### 在哪里可以找到更多 Aspose.Slides for Java 的示例和文档？
 
 您可以在 Aspose 文档网站上找到 Aspose.Slides for Java 的全面示例和文档[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

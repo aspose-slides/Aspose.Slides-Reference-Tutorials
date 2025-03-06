@@ -3,10 +3,14 @@ title: Animate Chart Series with Aspose.Slides for .NET
 linktitle: Animating Series in Chart
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to animate chart series with Aspose.Slides for .NET. Engage your audience with dynamic presentations. Get started now!
-type: docs
 weight: 12
 url: /net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Are you looking to add some pizzazz to your presentations with animated charts? Aspose.Slides for .NET is here to make your charts come to life. In this step-by-step guide, we'll show you how to animate series in a chart using Aspose.Slides for .NET. But before we dive into the action, let's cover the prerequisites.
 
@@ -109,3 +113,10 @@ Yes, you can try the library with a free trial from the [Aspose.Slides for .NET 
 
 ### Where can I purchase a license for Aspose.Slides for .NET?
 You can acquire a license for Aspose.Slides for .NET from the purchase page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Hướng dẫn thêm khung ảnh với Aspose.Slides .NET
 linktitle: Thêm khung ảnh có chiều cao tỷ lệ tương đối trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm khung ảnh có chiều cao tỷ lệ tương đối trong Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để có bản trình bày liền mạch.
-type: docs
 weight: 17
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi bản trình bày PowerPoint trong ứng dụng .NET của họ một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình thêm khung ảnh có chiều cao tỷ lệ tương đối bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để nâng cao kỹ năng xây dựng bài thuyết trình của bạn.
 ## Điều kiện tiên quyết
@@ -64,3 +68,9 @@ Aspose.Slides chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng bạn có th�
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tìm kiếm sự hỗ trợ từ cộng đồng và các chuyên gia Aspose.
 ### Tôi có thể mua Aspose.Slides cho .NET ở đâu?
  Bạn có thể mua Aspose.Slides cho .NET từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

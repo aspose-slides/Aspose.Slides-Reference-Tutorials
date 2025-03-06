@@ -3,10 +3,14 @@ title: So konvertieren Sie einzelne Präsentationsfolien
 linktitle: So konvertieren Sie einzelne Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET mühelos einzelne Präsentationsfolien konvertieren. Erstellen, bearbeiten und speichern Sie Folien programmgesteuert.
-type: docs
 weight: 12
 url: /de/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung von Aspose.Slides für .NET
 
@@ -141,3 +145,9 @@ Absolut! Aspose.Slides für .NET unterstützt die Konvertierung in verschiedene 
 ### Kann ich Folienlayouts mit Aspose.Slides anpassen?
 
 Ja, Sie können Folienlayouts anpassen, Formen und Bilder hinzufügen und Animationen mit Aspose.Slides für .NET anwenden, was Ihnen die volle Kontrolle über Ihre Präsentationen gibt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

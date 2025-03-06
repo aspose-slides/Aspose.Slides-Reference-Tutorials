@@ -3,10 +3,14 @@ title: Aspose.Slides .NET 튜토리얼을 사용하여 프레젠테이션 라인
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 줄 서식 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드를 향상하세요. 단계별 가이드에 따라 손쉽게 줄 형식을 지정하세요. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 10
 url: /ko/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 효과적인 의사소통을 위해서는 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 프레젠테이션 요소를 프로그래밍 방식으로 조작하고 형식을 지정하는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드의 선 서식을 지정하는 방법에 중점을 둘 것입니다.
 ## 전제 조건
@@ -75,3 +79,9 @@ pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
  임시면허를 받을 수 있습니다.[Aspose.Slides 임시 라이센스](https://purchase.aspose.com/temporary-license/).
 ### Q5: .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  에서 제품을 구매하실 수 있습니다.[Aspose.Slides 구매](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

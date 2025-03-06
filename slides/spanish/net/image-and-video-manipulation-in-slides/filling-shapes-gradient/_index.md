@@ -3,10 +3,14 @@ title: Cree impresionantes degradados en PowerPoint con Aspose.Slides
 linktitle: Rellenar formas con degradado en diapositivas de presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Mejore sus presentaciones con Aspose.Slides para .NET! Conozca el proceso paso a paso de rellenar formas con degradados. ¡Descarga tu prueba gratuita ahora!
-type: docs
 weight: 21
 url: /es/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Crear diapositivas de presentación visualmente cautivadoras es esencial para captar y mantener la atención de su audiencia. En este tutorial, lo guiaremos a través del proceso de mejorar sus diapositivas llenando una forma de elipse con un degradado usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -73,3 +77,9 @@ R: ¡Ciertamente! Aspose.Slides para .NET admite el relleno de degradado para va
  R: Busque ayuda e interactúe con la comunidad en el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### P: ¿Puedo comprar una licencia temporal de Aspose.Slides para .NET?
  R: Ciertamente, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

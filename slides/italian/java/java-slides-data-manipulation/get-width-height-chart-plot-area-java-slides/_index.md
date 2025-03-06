@@ -3,10 +3,14 @@ title: Ottieni larghezza e altezza dall'area del grafico nelle diapositive Java
 linktitle: Ottieni larghezza e altezza dall'area del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come recuperare le dimensioni dell'area del grafico in Diapositive Java utilizzando Aspose.Slides per Java. Migliora le tue capacità di automazione di PowerPoint.
-type: docs
 weight: 21
 url: /it/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## introduzione
 
@@ -109,3 +113,10 @@ Sì, Aspose.Slides per Java è una potente libreria per automatizzare le attivit
 ### Come posso saperne di più su Aspose.Slides per Java?
 
  È possibile trovare documentazione approfondita ed esempi nella pagina della documentazione Aspose.Slides per Java[Qui](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

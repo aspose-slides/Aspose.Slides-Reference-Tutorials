@@ -3,10 +3,14 @@ title: Quy tắc đánh dấu và dự phòng văn bản PowerPoint của Java
 linktitle: Quy tắc đánh dấu và dự phòng văn bản PowerPoint của Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nắm vững các quy tắc đánh dấu văn bản và dự phòng phông chữ trong Java PowerPoint với Aspose.Slides. Hãy làm theo hướng dẫn của chúng tôi để nâng cao và tự động hóa bản trình bày của bạn một cách liền mạch.
-type: docs
 weight: 25
 url: /vi/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu
 
@@ -26,3 +30,9 @@ Bằng cách làm theo các hướng dẫn này, bạn sẽ được trang bị 
 Tìm hiểu cách đánh dấu văn bản trong PowerPoint bằng Aspose.Slides cho Java. Tự động hóa và cải thiện bản trình bày một cách dễ dàng với hướng dẫn chi tiết của chúng tôi.
 ### [Bộ sưu tập quy tắc dự phòng trong Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Tìm hiểu cách quản lý quy tắc dự phòng phông chữ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường khả năng tương thích trên các thiết bị một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

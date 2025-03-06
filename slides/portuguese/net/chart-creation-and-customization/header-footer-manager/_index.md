@@ -3,10 +3,14 @@ title: Gerenciar cabeçalho e rodapé em slides
 linktitle: Gerenciar cabeçalho e rodapé em slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como adicionar cabeçalhos e rodapés dinâmicos em apresentações do PowerPoint usando Aspose.Slides for .NET.
-type: docs
 weight: 14
 url: /pt/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Criando cabeçalhos e rodapés dinâmicos em Aspose.Slides para .NET
 
@@ -131,3 +135,9 @@ A2: Sim, você pode explorar uma avaliação gratuita do Aspose.Slides for .NET[
 
 ### P5: Existe uma comunidade ou fórum de suporte para Aspose.Slides for .NET?
  A5: Sim, você pode visitar o fórum de suporte Aspose.Slides for .NET[aqui](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

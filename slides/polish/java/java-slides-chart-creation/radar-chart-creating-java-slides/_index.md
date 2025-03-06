@@ -3,10 +3,14 @@ title: Tworzenie wykresów radarowych w slajdach Java
 linktitle: Tworzenie wykresów radarowych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wykresy radarowe w prezentacjach Java PowerPoint przy użyciu Aspose.Slides for Java API.
-type: docs
 weight: 10
 url: /pl/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do tworzenia wykresu radarowego w Java Slides
 
@@ -268,3 +272,9 @@ Aby dostosować etykiety osi i formatowanie, w tym rozmiar i kolor czcionki, zob
 ### Jak zapisać wykres w innym formacie pliku?
 
 Możesz zmienić format wyjściowy, modyfikując rozszerzenie pliku w formacie`outPath` zmiennej i używając odpowiedniego`SaveFormat` . Na przykład, aby zapisać jako plik PDF, użyj`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

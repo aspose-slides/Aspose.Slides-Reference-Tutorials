@@ -3,10 +3,14 @@ title: Đặt trục vị trí trong các slide Java
 linktitle: Đặt trục vị trí trong các slide Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Cải thiện biểu đồ của bạn với Aspose.Slides cho Java. Tìm hiểu cách đặt trục vị trí trong các trang trình bày Java, tạo bản trình bày ấn tượng và tùy chỉnh bố cục biểu đồ một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Thiết lập trục vị trí trong Aspose.Slides cho Java
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 Đó là tất cả cho hướng dẫn này. Bạn đã học cách đặt trục vị trí trong biểu đồ bằng Aspose.Slides cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Establecer un libro de trabajo externo en diapositivas de Java
 linktitle: Establecer un libro de trabajo externo en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar libros de trabajo externos en Java Slides usando Aspose.Slides para Java. Cree presentaciones dinámicas con integración de datos de Excel.
-type: docs
 weight: 19
 url: /es/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introducción a configurar un libro de trabajo externo en diapositivas de Java
 
@@ -119,3 +123,9 @@ Aspose.Slides para Java se actualiza periódicamente para garantizar la compatib
 ### ¿Puedo agregar varios gráficos que hagan referencia al mismo libro externo?
 
 Sí, puede agregar varios gráficos a su presentación, todos haciendo referencia al mismo libro externo. Simplemente repita los pasos descritos en este tutorial para cada gráfico que desee crear.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

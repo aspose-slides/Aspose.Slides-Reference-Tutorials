@@ -3,10 +3,14 @@ title: Rendre les notes lors de la conversion d'une présentation en HTML
 linktitle: Rendre les notes lors de la conversion d'une présentation en HTML
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment restituer efficacement les notes du présentateur lors de la conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit des exemples de code source et des informations pour vous aider à réaliser une conversion transparente avec la préservation des notes.
-type: docs
 weight: 28
 url: /fr/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 À l’ère numérique d’aujourd’hui, la conversion de présentations au format HTML est devenue une exigence courante. Il vous permet de partager facilement vos présentations sur le Web, les rendant ainsi accessibles à un public plus large. Aspose.Slides for .NET est un outil puissant qui simplifie ce processus. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation en HTML à l'aide d'Aspose.Slides pour .NET.
 
@@ -79,3 +83,10 @@ Oui, Aspose.Slides pour .NET prend en charge divers formats PowerPoint, notammen
  Si vous rencontrez des problèmes ou avez des questions, vous pouvez demander de l'aide sur le[Forum Aspose.Slides](https://forum.aspose.com/).
 
 En suivant ces étapes, vous pouvez facilement convertir vos présentations PowerPoint en HTML à l'aide d'Aspose.Slides pour .NET. Profitez de partager vos présentations en ligne avec un public plus large !
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

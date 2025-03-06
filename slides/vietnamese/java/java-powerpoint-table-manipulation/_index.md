@@ -3,10 +3,14 @@ title: Thao tác với bảng Java PowerPoint
 linktitle: Thao tác với bảng Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Làm chủ thao tác bảng Java PowerPoint với Aspose.Slides. Tìm hiểu cách thêm hình ảnh, tách ô, tạo bảng và hơn thế nữa thông qua hướng dẫn chi tiết từng bước của chúng tôi.
-type: docs
 weight: 30
 url: /vi/java/java-powerpoint-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 
 Việc thành thạo thao tác bảng trong bản trình bày PowerPoint có thể nâng cao đáng kể tính hiệu quả và sức hấp dẫn trực quan của trang trình bày của bạn. Aspose.Slides for Java cung cấp một bộ tính năng mạnh mẽ để thao tác với các bảng theo chương trình. Cho dù bạn đang thêm hình ảnh vào các ô trong bảng, chia tách hoặc hợp nhất các ô hay tạo bảng từ đầu, những hướng dẫn này sẽ hướng dẫn bạn qua từng quy trình theo từng bước. Hãy cùng đi sâu vào thế giới thao tác với bảng Java PowerPoint!
@@ -60,3 +64,9 @@ Tìm hiểu cách đặt hàng đầu tiên làm tiêu đề trong bảng PowerP
 Tìm hiểu cách định dạng văn bản bên trong bảng PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã dành cho nhà phát triển.
 ### [Tạo bảng tiêu chuẩn trong PowerPoint bằng Java](./create-standard-tables-powerpoint-java/)
 Tìm hiểu cách tạo bảng tiêu chuẩn trong PowerPoint bằng Java bằng Aspose.Slides. Hãy làm theo hướng dẫn chi tiết từng bước của chúng tôi để có trải nghiệm liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: ضبط ألوان شريحة المخطط الدائري التلقائي
 linktitle: ضبط ألوان شريحة المخطط الدائري التلقائي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات دائرية ديناميكية بألوان الشرائح التلقائية في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 24
 url: /ar/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإعداد ألوان شريحة المخطط الدائري التلقائي في شرائح Java
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 يمكنك ضبط حجم الخط والخط والنمط المائل حسب الحاجة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

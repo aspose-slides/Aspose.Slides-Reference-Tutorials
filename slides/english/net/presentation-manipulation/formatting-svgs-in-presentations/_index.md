@@ -3,10 +3,14 @@ title: Formatting SVGs in Presentations
 linktitle: Formatting SVGs in Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optimize your presentations with stunning SVGs using Aspose.Slides for .NET. Learn step by step how to format SVGs for impactful visuals. Elevate your presentation game today! 
-type: docs
 weight: 31
 url: /net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Are you looking to enhance your presentations with eye-catching SVG shapes? Aspose.Slides for .NET can be your ultimate tool for achieving this. In this comprehensive tutorial, we will walk you through the process of formatting SVG shapes in presentations using Aspose.Slides for .NET. Follow along with the provided source code and transform your presentations into visually appealing masterpieces.
 
@@ -116,3 +120,10 @@ To create visually appealing presentations, focus on design consistency, use hig
 
 Now, go ahead and apply these techniques to create stunning presentations that captivate your audience!
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

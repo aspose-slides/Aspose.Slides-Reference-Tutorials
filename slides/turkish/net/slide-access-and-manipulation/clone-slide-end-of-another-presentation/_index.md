@@ -3,10 +3,14 @@ title: Ayrı Sunumun Sonunda Slaytı Çoğalt
 linktitle: Ayrı Sunumun Sonunda Slaytı Çoğalt
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak bir PowerPoint sunumundaki slaytı nasıl çoğaltacağınızı ve diğerine nasıl ekleyeceğinizi öğrenin. Bu adım adım kılavuz, sorunsuz slayt manipülasyonu için kaynak kodunu ve net talimatları sağlar.
-type: docs
 weight: 17
 url: /tr/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -103,3 +107,9 @@ Kesinlikle! Çoğaltılmış slaydın içeriğini diğer slaytlarda olduğu gibi
 ### Aspose.Slides for .NET yalnızca slaytlarla mı çalışır?
 
 Hayır, Aspose.Slides for .NET slaytların ötesinde kapsamlı özellikler sunar. Şekiller, grafikler, animasyonlar ile çalışabilir ve hatta sunumlardan metin ve görseller çıkarabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

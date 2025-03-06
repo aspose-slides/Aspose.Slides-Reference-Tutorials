@@ -3,10 +3,14 @@ title: Apagar slide por índice sequencial
 linktitle: Apagar slide por índice sequencial
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como apagar slides do PowerPoint passo a passo usando Aspose.Slides for .NET. Nosso guia fornece instruções claras e código-fonte completo para ajudá-lo a remover slides programaticamente por seu índice sequencial.
-type: docs
 weight: 24
 url: /pt/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução ao apagamento de slide por índice sequencial
 
@@ -86,3 +90,9 @@ Com certeza, você pode apagar slides com base em condições como conteúdo do 
 ### Como posso aprender mais sobre o Aspose.Slides para .NET?
 
  Você pode explorar a documentação detalhada e a referência da API do Aspose.Slides for .NET na página[página de documentação](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

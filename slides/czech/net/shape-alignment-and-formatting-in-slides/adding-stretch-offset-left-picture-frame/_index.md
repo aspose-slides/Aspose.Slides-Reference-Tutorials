@@ -3,10 +3,14 @@ title: Přidání odsazení roztažení doleva v PowerPointu pomocí Aspose.Slid
 linktitle: Přidání odsazení roztažení doleva pro rámeček obrázku v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit prezentace PowerPoint pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce a přidejte posun roztažení doleva pro rámečky obrázků.
-type: docs
 weight: 14
 url: /cs/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům snadno manipulovat s prezentacemi v PowerPointu. V tomto tutoriálu prozkoumáme proces přidání posunutí roztažení doleva pro rám obrazu pomocí Aspose.Slides pro .NET. Postupujte podle tohoto podrobného průvodce, abyste zlepšili své dovednosti v práci s obrázky a tvary v prezentacích PowerPoint.
 ## Předpoklady
@@ -85,3 +89,9 @@ Odpověď: Aspose.Slides je pravidelně aktualizován, aby byla zajištěna komp
  A: Prozkoumejte[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/net/) pro komplexní příklady a návody.
 ### Otázka: Mohu použít více odsazení roztažení na jeden tvar?
 Odpověď: Ano, můžete kombinovat více odsazení roztažení a dosáhnout tak komplexních a přizpůsobených vizuálních efektů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Trattdiagram i Java Slides
 linktitle: Trattdiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att skapa trattdiagram i PowerPoint-presentationer med Aspose.Slides för Java. Steg-för-steg guide med källkod för effektiv datavisualisering.
-type: docs
 weight: 18
 url: /sv/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att skapa ett trattdiagram i Aspose.Slides för Java
 
@@ -137,3 +141,9 @@ Du kan justera positionen och storleken på trattdiagrammet genom att ändra koo
 ### Kan jag exportera diagrammet till olika format, som PDF eller bild?
 
 Ja, Aspose.Slides för Java låter dig exportera presentationen med trattdiagrammet till olika format, inklusive PDF, bildformat och mer. Du kan använda`SaveFormat` alternativ för att ange önskat utdataformat när presentationen sparas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

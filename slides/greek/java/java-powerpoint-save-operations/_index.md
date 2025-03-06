@@ -3,10 +3,14 @@ title: Λειτουργίες αποθήκευσης Java PowerPoint
 linktitle: Λειτουργίες αποθήκευσης Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποθηκεύετε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγίες για την αποθήκευση σε αρχείο, τη ροή και την προσθήκη προστασίας με κωδικό πρόσβασης.
-type: docs
 weight: 20
 url: /el/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή
 
@@ -32,3 +36,9 @@ url: /el/java/java-powerpoint-save-operations/
 Μάθετε πώς να αποθηκεύετε παρουσιάσεις PowerPoint σε μια ροή χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
 ### [Αποθήκευση PowerPoint με κωδικό πρόσβασης](./save-powerpoint-with-password/)
 Μάθετε πώς να προσθέτετε προστασία με κωδικό πρόσβασης σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ασφαλίστε τις διαφάνειές σας με ευκολία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tutorial zum Hinzufügen von Bilderrahmen mit Aspose.Slides .NET
 linktitle: Hinzufügen von Bilderrahmen mit relativer Skalenhöhe in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie in Aspose.Slides für .NET Bilderrahmen mit relativer Skalierungshöhe hinzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für nahtlose Präsentationen.
-type: docs
 weight: 17
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler mühelos PowerPoint-Präsentationen in ihren .NET-Anwendungen erstellen, bearbeiten und konvertieren können. In diesem Tutorial werden wir uns mit dem Hinzufügen von Bilderrahmen mit relativer Skalierungshöhe mithilfe von Aspose.Slides für .NET befassen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Fähigkeiten beim Erstellen von Präsentationen zu verbessern.
 ## Voraussetzungen
@@ -64,3 +68,9 @@ Aspose.Slides unterstützt in erster Linie .NET-Sprachen, Sie können jedoch auc
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um Hilfe von der Community und Aspose-Experten zu suchen.
 ### Wo kann ich Aspose.Slides für .NET kaufen?
  Sie können Aspose.Slides für .NET kaufen bei der[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

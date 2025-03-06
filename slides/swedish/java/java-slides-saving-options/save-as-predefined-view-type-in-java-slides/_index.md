@@ -3,10 +3,14 @@ title: Spara som fördefinierad vytyp i Java Slides
 linktitle: Spara som fördefinierad vytyp i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in fördefinierade vytyper i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med kodexempel och vanliga frågor.
-type: docs
 weight: 10
 url: /sv/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Spara som fördefinierad vytyp i Java Slides
 
@@ -109,3 +113,9 @@ Ja, Aspose.Slides för Java är väl lämpad för batchbearbetningsuppgifter. Du
 ### Var kan jag hitta mer information och dokumentation för Aspose.Slides för Java?
 
  För omfattande dokumentation och referenser relaterade till Aspose.Slides för Java, besök dokumentationswebbplatsen:[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java를 사용하여 그림자의 텍스트 투명도 설정
 linktitle: Java를 사용하여 그림자의 텍스트 투명도 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 텍스트 그림자 투명도를 조정하는 방법을 알아보세요. 프로그래밍 방식으로 프레젠테이션을 향상하세요.
-type: docs
 weight: 20
 url: /ko/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 텍스트 그림자의 투명도를 조작하는 방법을 살펴보겠습니다. 텍스트 그림자의 투명도를 조정하면 슬라이드의 시각적 매력을 크게 향상시켜 슬라이드를 더욱 역동적이고 전문적으로 만들 수 있습니다. Aspose.Slides for Java는 슬라이드 요소의 다양한 측면을 프로그래밍 방식으로 정확하게 제어할 수 있는 강력한 기능을 제공하여 프레젠테이션이 최고 수준의 디자인을 충족하도록 보장합니다.
 ## 전제 조건
@@ -70,3 +74,9 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  Java용 Aspose.Slides에 대한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  지원 및 커뮤니티 상호 작용을 보려면 Aspose.Slides 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

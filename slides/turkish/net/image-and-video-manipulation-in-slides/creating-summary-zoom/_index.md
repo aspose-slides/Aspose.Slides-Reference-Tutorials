@@ -3,10 +3,14 @@ title: Aspose.Slides - Mastering Özeti .NET'te Yakınlaştırılıyor
 linktitle: Aspose.Slides ile Sunum Slaytlarında Özet Yakınlaştırma Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile sunumlarınızı zenginleştirin! Zahmetsizce ilgi çekici Özet Yakınlaştırmalar oluşturmayı öğrenin. Dinamik bir slayt deneyimi için hemen indirin.
-type: docs
 weight: 16
 url: /tr/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Sunumların dinamik dünyasında Aspose.Slides for .NET, slayt oluşturma deneyiminizi geliştirecek güçlü bir araç olarak öne çıkıyor. Sunduğu dikkate değer özelliklerden biri, bir slayt koleksiyonunu sunmanın görsel olarak ilgi çekici bir yolu olan Özet Yakınlaştırma oluşturma yeteneğidir. Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunum slaytlarında Özet Yakınlaştırma oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -79,3 +83,9 @@ Kesinlikle! Slaytlarınıza köprüler ekleyebilirsiniz; bunlar Özet Yakınlaş
 En son sürüm itibariyle, bir sunuma ekleyebileceğiniz bölüm sayısında katı bir sınırlama yoktur.
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
 Evet, Aspose.Slides'ın özelliklerini indirerek keşfedebilirsiniz.[ücretsiz deneme sürümü](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

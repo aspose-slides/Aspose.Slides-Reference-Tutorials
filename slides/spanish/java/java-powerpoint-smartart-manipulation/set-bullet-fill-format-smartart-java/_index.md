@@ -3,10 +3,14 @@ title: Establecer formato de relleno de viñetas en SmartArt usando Java
 linktitle: Establecer formato de relleno de viñetas en SmartArt usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar el formato de relleno de viñetas en SmartArt usando Java con Aspose.Slides. Guía paso a paso para una manipulación eficaz de la presentación.
-type: docs
 weight: 18
 url: /es/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En el ámbito de la programación Java, la manipulación eficiente de presentaciones es un requisito común, especialmente cuando se trata de elementos SmartArt. Aspose.Slides para Java surge como una poderosa herramienta para este tipo de tareas, ofreciendo una variedad de funcionalidades para manejar presentaciones programáticamente. En este tutorial, profundizaremos en el proceso de configuración del formato de relleno de viñetas en SmartArt usando Java con Aspose.Slides, paso a paso.
 ## Requisitos previos
@@ -71,3 +75,9 @@ De hecho, Aspose.Slides le permite personalizar todos los aspectos de las formas
  Sí, puedes explorar las funciones de Aspose.Slides con una prueba gratuita. Simplemente descárgalo desde[sitio web](https://releases.aspose.com/slides/java/) y empezar a explorar.
 ### ¿Dónde puedo encontrar soporte para Aspose.Slides para Java?
  Para cualquier consulta o ayuda, puede visitar el foro Aspose.Slides en[este enlace](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

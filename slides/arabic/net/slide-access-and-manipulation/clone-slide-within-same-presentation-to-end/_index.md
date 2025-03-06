@@ -3,10 +3,14 @@ title: تكرار الشريحة إلى نهاية العرض التقديمي �
 linktitle: تكرار الشريحة إلى نهاية العرض التقديمي الموجود
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تكرار شريحة وإضافتها إلى نهاية عرض تقديمي موجود في PowerPoint باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر ويغطي الإعداد وتكرار الشرائح والتعديل والمزيد.
-type: docs
 weight: 22
 url: /ar/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -96,3 +100,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### هل يمكنني تعديل محتوى الشريحة باستخدام Aspose.Slides؟
 
 قطعاً! لا يسمح لك Aspose.Slides بتكرار الشرائح فحسب، بل يسمح لك أيضًا بمعالجة محتواها، مثل النصوص والصور والأشكال والرسوم المتحركة، برمجيًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

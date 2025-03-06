@@ -3,10 +3,14 @@ title: Ekstrak Data File Tertanam dari Objek OLE di PowerPoint
 linktitle: Ekstrak Data File Tertanam dari Objek OLE di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengekstrak data file yang disematkan dari presentasi PowerPoint menggunakan Aspose.Slides untuk Java, sehingga meningkatkan kemampuan manajemen dokumen.
-type: docs
 weight: 22
 url: /id/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Perkenalan
 Dalam ranah pemrograman Java, mengekstraksi data file yang tertanam dari objek OLE (Object Linking and Embedding) dalam presentasi PowerPoint merupakan tugas yang sering muncul, khususnya dalam aplikasi manajemen dokumen atau ekstraksi data. Aspose.Slides untuk Java menawarkan solusi tangguh untuk menangani presentasi PowerPoint secara terprogram. Dalam tutorial ini, kita akan mempelajari cara mengekstrak data file yang disematkan dari objek OLE menggunakan Aspose.Slides untuk Java.
@@ -87,3 +91,9 @@ Ya, Aspose.Slides memastikan kompatibilitas dengan presentasi PowerPoint di berb
 Tentu saja, Aspose.Slides menyediakan API komprehensif untuk mengotomatiskan tugas-tugas seperti mengekstraksi data file yang tertanam, memungkinkan pemrosesan dokumen yang efisien dan efisien.
 ### Di mana saya dapat menemukan bantuan atau dukungan lebih lanjut untuk Aspose.Slides?
  Untuk pertanyaan apa pun, bantuan teknis, atau dukungan komunitas, Anda dapat mengunjungi forum Aspose.Slide atau merujuk ke dokumentasi[Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Lock Aspect Ratio in PowerPoint using Java
 linktitle: Lock Aspect Ratio in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to lock aspect ratio in PowerPoint presentations using Java with Aspose.Slides. Perfect for Java developers wanting precise control over slide design.
-type: docs
 weight: 16
 url: /java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In the realm of Java development, manipulating PowerPoint presentations programmatically can streamline workflows and enhance productivity significantly. Aspose.Slides for Java offers a robust toolkit for Java developers to automate tasks such as modifying slides, adding content, and applying formatting directly from Java code. This tutorial focuses on a fundamental aspect of PowerPoint presentation management: locking aspect ratios.
 ## Prerequisites
@@ -61,3 +65,10 @@ Yes, Aspose.Slides for Java is designed to handle complex scenarios in enterpris
 You can seek support from the Aspose.Slides community [here](https://forum.aspose.com/c/slides/11).
 ### How can I try Aspose.Slides for Java before purchasing?
 You can get a free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: További diagram funkciók
 linktitle: További diagram funkciók
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fedezze fel az Aspose.Slides for .NET speciális diagramfunkcióit! Tanuljon meg dinamikus, interaktív diagramokat létrehozni egyéni stílusokkal, trendvonalakkal és sok mással. Emelje fel prezentációit hatékony adatvizualizációval.
-type: docs
 weight: 24
 url: /hu/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés
 
@@ -32,3 +36,9 @@ Ismerje meg, hogyan bonthatja ki hatékonyan a diagramadatokat az Aspose.Slides 
 Ismerje meg, hogyan állíthat helyre munkafüzetet diagramból az Aspose.Slides for .NET segítségével. Kivonja a diagramadatokat, és programozottan készítsen Excel-munkafüzeteket.
 ### [Adott diagramsorozat adatpontjainak törlése](./clear-specific-chart-series-data-points-data/)
 Ismerje meg, hogyan törölhet adott diagramadatpontokat az Aspose.Slides for .NET alkalmazásból. Lépésről lépésre útmutató forráskóddal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

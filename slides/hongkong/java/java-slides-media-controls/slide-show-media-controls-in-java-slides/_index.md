@@ -3,10 +3,14 @@ title: Java 投影片中的投影片放映媒體控件
 linktitle: Java 投影片中的投影片放映媒體控件
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何透過 Aspose.Slides for Java 在 Java 投影片中啟用和使用媒體控制項。使用媒體控制增強您的簡報。
-type: docs
 weight: 11
 url: /zh-hant/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中投影片放映媒體控制簡介
 
@@ -108,3 +112,9 @@ try {
 ### 有沒有辦法在 Java Slides 中為影片添加字幕？
 
 是的，您可以透過為包含影片的投影片新增文字框架或形狀，為 Java 投影片中的影片新增字幕或說明文字。然後，您可以使用計時設定將文字與影片播放同步。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

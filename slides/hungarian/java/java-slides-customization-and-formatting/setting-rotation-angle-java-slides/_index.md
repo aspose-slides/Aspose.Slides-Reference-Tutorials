@@ -3,10 +3,14 @@ title: Forgatási szög beállítása Java Slides-ben
 linktitle: Forgatási szög beállítása Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Java diákjait az Aspose.Slides for Java segítségével. Ismerje meg a szövegelemek elforgatási szögeinek beállítását. Lépésről lépésre útmutató forráskóddal.
-type: docs
 weight: 17
 url: /hu/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a forgatási szög beállításába Java Slides-ben
 
@@ -100,3 +104,9 @@ Az Aspose.Slides for Java különféle formázási lehetőségeket biztosít a d
 ### Lehetséges-e animálni a szöveg elforgatását egy diagramtengely címében?
 
 Igen, az Aspose.Slides for Java segítségével animációs effektusokat adhat a szöveges elemekhez, beleértve a diagramtengelyek címeit is. Tekintse meg a dokumentációt az animációk prezentációihoz való hozzáadásával kapcsolatos információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

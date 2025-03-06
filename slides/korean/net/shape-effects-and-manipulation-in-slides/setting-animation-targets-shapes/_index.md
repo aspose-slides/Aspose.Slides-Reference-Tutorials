@@ -3,10 +3,14 @@ title: .NET용 Aspose.Slides를 사용하여 애니메이션 타겟 마스터링
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드 모양에 대한 애니메이션 대상 설정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션에 생기를 불어넣는 방법을 알아보세요! 손쉽게 애니메이션 타겟을 설정하고 청중을 사로잡으세요.
-type: docs
 weight: 22
 url: /ko/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드에 애니메이션을 추가하면 판도를 바꿀 수 있습니다. .NET용 Aspose.Slides는 슬라이드 모양의 애니메이션 대상을 정밀하게 제어함으로써 개발자가 매력적이고 시각적으로 매력적인 프레젠테이션을 만들 수 있도록 지원합니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 애니메이션 타겟을 설정하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 프레젠테이션에서 애니메이션의 힘을 활용하는 데 도움이 될 것입니다.
 ## 전제 조건
@@ -62,3 +66,9 @@ foreach (ISlide slide in pres.Slides)
 예, Aspose.Slides는 각 애니메이션의 지속 시간과 타이밍을 사용자 정의할 수 있는 옵션을 제공합니다.
 ### Aspose.Slides에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
  탐색[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

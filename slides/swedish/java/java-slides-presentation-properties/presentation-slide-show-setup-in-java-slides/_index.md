@@ -3,10 +3,14 @@ title: Presentation Slide Show Setup i Java Slides
 linktitle: Presentation Slide Show Setup i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimera ditt Java-bildspel med Aspose.Slides. Skapa engagerande presentationer med anpassade inställningar. Utforska steg-för-steg-guider och vanliga frågor.
-type: docs
 weight: 16
 url: /sv/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Presentation Slide Show Setup i Java Slides
 
@@ -146,3 +150,9 @@ I den här handledningen har vi lärt oss hur man ställer in ett presentationsb
 ### Hur kan jag anpassa bildspelsinställningarna ytterligare?
 
  Du kan utforska ytterligare bildspelsinställningar som tillhandahålls av Aspose.Slides för Java för att skräddarsy bildspelsupplevelsen efter dina behov. Se dokumentationen på[här](https://reference.aspose.com/slides/java/) för detaljerad information om tillgängliga alternativ och konfigurationer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

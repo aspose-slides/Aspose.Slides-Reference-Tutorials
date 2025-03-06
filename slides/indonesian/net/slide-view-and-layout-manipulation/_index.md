@@ -3,10 +3,14 @@ title: Tampilan Slide dan Manipulasi Tata Letak
 linktitle: Tampilan Slide dan Manipulasi Tata Letak
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Optimalkan tampilan slide dan tata letak dengan Aspose.Slides Slide View dan Tutorial Manipulasi Tata Letak. Tingkatkan dampak presentasi dan keunggulan visual menggunakan alat .NET yang canggih.
-type: docs
 weight: 20
 url: /id/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Perkenalan
 
@@ -29,3 +33,9 @@ Pelajari cara mengelola presentasi dalam keadaan tampilan normal menggunakan Asp
 Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tips untuk membuat presentasi interaktif dan menarik dengan video tertaut.
 ### [Kelola Kontrol ActiveX di Presentasi](./manage-activex-control/)
 Pelajari cara menyempurnakan presentasi PowerPoint dengan kontrol ActiveX menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah kami mencakup penyisipan, manipulasi, penyesuaian, penanganan peristiwa, dan banyak lagi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

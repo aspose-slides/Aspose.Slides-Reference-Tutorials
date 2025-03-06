@@ -3,10 +3,14 @@ title: ضبط زاوية الدوران في شرائح جافا
 linktitle: ضبط زاوية الدوران في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين شرائح Java الخاصة بك باستخدام Aspose.Slides لـ Java. تعلم كيفية ضبط زوايا التدوير لعناصر النص. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 17
 url: /ar/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإعداد زاوية الدوران في شرائح جافا
 
@@ -100,3 +104,9 @@ finally
 ### هل من الممكن تحريك دوران النص في عنوان محور المخطط؟
 
 نعم، يمكنك إضافة تأثيرات الحركة إلى عناصر النص، بما في ذلك عناوين محاور المخطط، باستخدام Aspose.Slides لـ Java. راجع الوثائق للحصول على معلومات حول إضافة الرسوم المتحركة إلى العروض التقديمية الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

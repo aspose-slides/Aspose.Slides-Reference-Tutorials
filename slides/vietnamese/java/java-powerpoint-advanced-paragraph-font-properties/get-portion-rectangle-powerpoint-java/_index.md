@@ -3,10 +3,14 @@ title: Lấy phần hình chữ nhật trong PowerPoint bằng Java
 linktitle: Lấy phần hình chữ nhật trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết này. Hoàn hảo cho các nhà phát triển Java.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Tạo bản trình bày động trong Java thật dễ dàng với Aspose.Slides cho Java. Trong hướng dẫn này, chúng ta sẽ đi sâu vào chi tiết cơ bản về cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides. Chúng tôi sẽ đề cập đến mọi thứ từ việc thiết lập môi trường của bạn đến chia nhỏ mã theo từng bước. Vậy hãy bắt đầu!
 ## Điều kiện tiên quyết
@@ -138,3 +142,9 @@ Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà ph�
  Tài liệu có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Bạn có thể nhận được hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

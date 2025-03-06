@@ -3,10 +3,14 @@ title: Gestione di testi e paragrafi in Java PowerPoint
 linktitle: Gestione di testi e paragrafi in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Padroneggia la gestione di testi e paragrafi Java PowerPoint con Aspose.Slides. Impara a importare testo HTML, gestire l'interlinea, creare punti elenco e allineare i paragrafi.
-type: docs
 weight: 26
 url: /it/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 
 Creare presentazioni PowerPoint ben strutturate e visivamente accattivanti può migliorare significativamente la tua comunicazione. Con Aspose.Slides per Java, la gestione di testo e paragrafi diventa un compito semplice. Che tu abbia bisogno di importare testo HTML, gestire l'interlinea o creare punti elenco multilivello, i nostri tutorial dettagliati ti guideranno attraverso il processo. Esploriamo come portare le tue presentazioni Java PowerPoint al livello successivo.
@@ -55,3 +59,9 @@ Scopri come aggiungere punti elenco di paragrafo nelle diapositive di PowerPoint
 Scopri come impostare i rientri di paragrafo nelle diapositive di PowerPoint a livello di codice utilizzando Aspose.Slides per Java. Migliora la formattazione della tua presentazione senza sforzo.
 ### [Allinea i paragrafi in PowerPoint utilizzando Java](./align-paragraphs-powerpoint-java/)
 Scopri come allineare i paragrafi nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida passo passo per una formattazione precisa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

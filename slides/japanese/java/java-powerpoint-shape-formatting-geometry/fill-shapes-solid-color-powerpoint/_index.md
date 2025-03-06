@@ -3,10 +3,14 @@ title: PowerPoint で図形を単色で塗りつぶす
 linktitle: PowerPoint で図形を単色で塗りつぶす
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint で図形を単色で塗りつぶす方法を学習します。開発者向けのステップバイステップ ガイドです。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 PowerPoint プレゼンテーションを扱ったことがある人なら、図形を追加して色をカスタマイズすることが、スライドを視覚的に魅力的で情報豊かにする上で重要な要素であることをご存知でしょう。Aspose.Slides for Java を使用すると、このプロセスが簡単になります。PowerPoint プレゼンテーションの作成を自動化したい開発者でも、スライドに色彩を加えることに関心がある人でも、このチュートリアルでは、Aspose.Slides for Java を使用して図形を単色で塗りつぶすプロセスについて説明します。
 ## 前提条件
@@ -85,3 +89,9 @@ Aspose.Slides for Java は、Java で PowerPoint プレゼンテーションを�
 はい、無料トライアルは以下からダウンロードできます。[Aspose ウェブサイト](https://releases.aspose.com/).
 ### 詳細なドキュメントやサポートはどこで入手できますか?
 詳細なドキュメントは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/)、サポートを求めることができます[Aspose フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Thêm phông chữ nhúng trong PowerPoint bằng Java
 linktitle: Thêm phông chữ nhúng trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm phông chữ nhúng vào bản trình bày PowerPoint bằng Java với Aspose.Slides cho Java. Đảm bảo hiển thị nhất quán trên các thiết bị.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm phông chữ nhúng vào bản trình bày PowerPoint bằng Java, đặc biệt là tận dụng Aspose.Slides cho Java. Phông chữ được nhúng đảm bảo rằng bản trình bày của bạn xuất hiện nhất quán trên các thiết bị khác nhau, ngay cả khi phông chữ gốc không có sẵn. Hãy đi sâu vào các bước:
 ## Điều kiện tiên quyết
@@ -69,3 +73,9 @@ Có, việc nhúng phông chữ có thể tăng nhẹ kích thước tệp của
 Aspose.Slides for Java hỗ trợ nhúng phông chữ TrueType, bao gồm nhiều loại phông chữ thường được sử dụng trong bản trình bày.
 ### Tôi có thể nhúng phông chữ theo chương trình bằng Aspose.Slides cho Java không?
 Có, như được minh họa trong hướng dẫn này, bạn có thể nhúng phông chữ theo chương trình bằng cách sử dụng API Aspose.Slides cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

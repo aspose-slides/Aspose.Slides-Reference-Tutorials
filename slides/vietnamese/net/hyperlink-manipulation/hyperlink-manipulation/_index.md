@@ -3,10 +3,14 @@ title: Thao tác siêu liên kết trong Aspose.Slides
 linktitle: Thao tác siêu liên kết trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm và xóa siêu liên kết trong Aspose.Slides cho .NET. Dễ dàng nâng cao bài thuyết trình của bạn bằng các liên kết tương tác.
-type: docs
 weight: 10
 url: /vi/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Siêu liên kết là thành phần thiết yếu trong bản trình bày vì chúng cung cấp một cách thuận tiện để điều hướng giữa các trang chiếu hoặc truy cập các tài nguyên bên ngoài. Aspose.Slides for .NET cung cấp các tính năng mạnh mẽ để thêm và xóa siêu liên kết trong các trang trình bày của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thao tác siêu liên kết bằng Aspose.Slides cho .NET. Chúng tôi sẽ đề cập đến việc thêm siêu liên kết vào một trang chiếu và xóa siêu liên kết khỏi một trang chiếu. Vì vậy, hãy đi sâu vào!
 
@@ -121,3 +125,9 @@ Tuyệt đối. Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác
 
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides?
  Nếu bạn cần giấy phép tạm thời cho Aspose.Slides, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

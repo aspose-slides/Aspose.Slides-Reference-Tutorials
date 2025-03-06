@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET ile PowerPoint'i PDF/A'ya dönüştürün
 linktitle: PDF Uyumluluğunu Sağlama - PDF/A Formatına Dönüştürme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint sunumlarını PDF/A formatına dönüştürerek PDF uyumluluğunu nasıl elde edebileceğinizi öğrenin. Belgenin ömrünü ve erişilebilirliğini sağlayın.
-type: docs
 weight: 25
 url: /tr/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Aspose.Slides for .NET ile PDF Uyumluluğu Nasıl Sağlanır?
 
@@ -99,3 +103,9 @@ Evet, Aspose.Slides toplu dönüştürmeleri destekleyerek tek seferde birden fa
 
 ### Herhangi bir sorunla karşılaşırsam Aspose.Slides for .NET desteğini nerede bulabilirim?
  Sorularınız varsa veya sorunlarla karşılaşırsanız, şu adresten yardım ve yardım isteyebilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

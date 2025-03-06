@@ -3,10 +3,14 @@ title: التحويل إلى TIFF مع الملاحظات في شرائح Java
 linktitle: التحويل إلى TIFF مع الملاحظات في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل Java Slides إلى تنسيق TIFF مع الملاحظات المضمنة باستخدام Aspose.Slides for Java. تم تضمين دليل خطوة بخطوة وكود المصدر.
-type: docs
 weight: 10
 url: /ar/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة للتحويل إلى TIFF مع الملاحظات في شرائح Java
 
@@ -88,3 +92,9 @@ finally
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Slides لـ Java؟
 
  يمكنك استكشاف الوثائق الشاملة وأمثلة التعليمات البرمجية على صفحة Aspose.Slides for Java API References[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

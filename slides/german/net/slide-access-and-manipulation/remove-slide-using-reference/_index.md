@@ -3,10 +3,14 @@ title: Folie über Referenz löschen
 linktitle: Folie über Referenz löschen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET, einer leistungsstarken Bibliothek für .NET-Entwickler, Folien in PowerPoint-Präsentationen löschen.
-type: docs
 weight: 25
 url: /de/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Als erfahrener SEO-Autor möchte ich Ihnen hier eine umfassende Anleitung zur Verwendung von Aspose.Slides für .NET zum Löschen einer Folie aus einer PowerPoint-Präsentation geben. In dieser Schritt-für-Schritt-Anleitung unterteilen wir den Vorgang in überschaubare Schritte, damit Sie ihn problemlos nachvollziehen können. Also, legen wir los!
 
@@ -101,3 +105,9 @@ Ja, Sie können die Folien durchlaufen und mehrere Folien programmgesteuert entf
 
 ### Kann ich das Löschen einer Folie mit Aspose.Slides für .NET rückgängig machen?
 Sobald eine Folie entfernt wurde, kann dies nicht mehr einfach rückgängig gemacht werden. Es ist ratsam, vor solchen Änderungen Sicherungskopien Ihrer Präsentationen zu erstellen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

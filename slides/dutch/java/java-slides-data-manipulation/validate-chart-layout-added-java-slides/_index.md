@@ -3,10 +3,14 @@ title: Valideer de diagramindeling toegevoegd in Java-dia's
 linktitle: Valideer de diagramindeling toegevoegd in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Validatie van de hoofdgrafiekindeling in PowerPoint met Aspose.Slides voor Java. Leer diagrammen programmatisch te manipuleren voor verbluffende presentaties.
-type: docs
 weight: 10
 url: /nl/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het valideren van de diagramindeling in Aspose.Slides voor Java
 
@@ -97,3 +101,10 @@ Ja, u kunt de diagramgegevens aanpassen door gegevensreeksen, categorieën en wa
 ### Wat moet ik doen als ik andere diagrameigenschappen wil wijzigen?
 
 U hebt toegang tot verschillende diagrameigenschappen en kunt deze aanpassen aan uw vereisten. Verken de Aspose.Slides-documentatie voor uitgebreide informatie over diagrammanipulatie.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

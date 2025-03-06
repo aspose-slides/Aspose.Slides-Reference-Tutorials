@@ -3,10 +3,14 @@ title: 掌握演示文稿中的复合几何形状
 linktitle: 使用 Aspose.Slides 创建几何形状的复合对象
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 创建具有复合几何形状的精彩演示文稿。按照我们的分步指南操作，获得令人印象深刻的结果。
-type: docs
 weight: 14
 url: /zh/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 释放 Aspose.Slides for .NET 的强大功能，通过创建几何形状的复合对象来增强您的演示文稿。本教程将指导您使用 Aspose.Slides 生成具有复杂几何形状的视觉吸引力幻灯片。
 ## 先决条件
@@ -84,3 +88,9 @@ Aspose.Slides 支持多种编程语言，包括 Java 和 Python。但本教程�
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求社区的支持和援助。
 ### 问：我可以购买临时许可证吗？
 是的，你可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

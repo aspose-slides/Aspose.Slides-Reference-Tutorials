@@ -3,10 +3,14 @@ title: Java-dia's Animatie en lay-out
 linktitle: Java-dia's Animatie en lay-out
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer Java-dia's, animatie en lay-out met Aspose.Slides voor Java. Beheers interactieve presentaties. Duik in dynamische contentcreatie.
-type: docs
 weight: 14
 url: /nl/java/animation-and-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Wilt u uw presentaties tot leven brengen en boeiende dia's maken met Java? Aspose.Slides voor Java is uw go-to-oplossing. In deze uitgebreide handleiding onderzoeken we hoe u de animatie en lay-out van Java-dia's onder de knie kunt krijgen, zodat uw presentaties zich onderscheiden van de rest.
 
@@ -42,3 +46,9 @@ Optimaliseer uw Java-presentaties met Aspose.Slides voor Java. Leer stap voor st
 Optimaliseer uw presentaties met serie-animaties in Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncodevoorbeelden om boeiende PowerPoint-animaties te maken.
 ### [Serie-elementen animeren in Java-dia's](./animating-series-elements-java-slides/)
 Leer hoe u serie-elementen in PowerPoint-dia's kunt animeren met Aspose.Slides voor Java. Volg deze uitgebreide stapsgewijze handleiding met broncode om uw presentaties te verbeteren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Set Local Font Height Values in PowerPoint using Java
 linktitle: Set Local Font Height Values in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to adjust font heights in PowerPoint presentations using Java with Aspose.Slides. Enhance text formatting in your slides effortlessly.
-type: docs
 weight: 17
 url: /java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, you will learn how to manipulate font heights at various levels within PowerPoint presentations using Aspose.Slides for Java. Controlling font sizes is crucial for creating visually appealing and structured presentations. We will walk through step-by-step examples to illustrate how to set font heights for different text elements.
 ## Prerequisites
@@ -65,3 +69,10 @@ Yes, you can get a free trial [here](https://releases.aspose.com/).
 For support, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Where can I purchase a license for Aspose.Slides for Java?
 You can purchase a license [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java PowerPoint'te Regex kullanarak Metni Vurgulayın
 linktitle: Java PowerPoint'te Regex kullanarak Metni Vurgulayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile normal ifade kalıplarını kullanarak PowerPoint'te metni nasıl vurgulayacağınızı öğrenin. Sunumlarınızı dinamik olarak geliştirin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 PowerPoint sunumları oluşturmaya ve düzenlemeye yönelik Java tabanlı geliştirme alanında Aspose.Slides for Java, güçlü bir çözüm olarak öne çıkıyor. Bu eğitim, PowerPoint sunumlarında normal ifadeler (regex) kullanarak metni vurgulamak için Aspose.Slides'tan yararlanmaya odaklanmaktadır. Bu kılavuzun sonunda, hem işlevselliği hem de görsel netliği artırarak slaytlardaki belirli metni vurgulamak için normal ifade kalıplarının nasıl uygulanacağını öğreneceksiniz.
 ## Önkoşullar
@@ -62,3 +66,9 @@ Evet, Aspose.Slides çeşitli PowerPoint formatlarını destekleyerek farklı s�
 Kesinlikle, vurgulamanın ötesinde, yazı tipi stili, hizalama ve daha fazlası dahil olmak üzere kapsamlı metin işleme özellikleri sunar.
 ### Satın almadan önce Aspose.Slides for Java'yı deneyebilir miyim?
  Evet, bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) yeteneklerini değerlendirmektir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

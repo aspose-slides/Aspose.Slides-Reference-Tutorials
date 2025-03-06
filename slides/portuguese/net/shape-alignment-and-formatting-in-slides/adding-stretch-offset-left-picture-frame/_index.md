@@ -3,10 +3,14 @@ title: Adicionando Stretch Offset à esquerda no PowerPoint com Aspose.Slide
 linktitle: Adicionando Stretch Offset à esquerda para moldura de imagem em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como aprimorar apresentações em PowerPoint usando Aspose.Slides for .NET. Siga nosso guia passo a passo para adicionar deslocamento de estiramento à esquerda para molduras de fotos.
-type: docs
 weight: 14
 url: /pt/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Aspose.Slides for .NET é uma biblioteca poderosa que permite aos desenvolvedores manipular apresentações do PowerPoint com facilidade. Neste tutorial, exploraremos o processo de adição de um deslocamento de estiramento à esquerda para um porta-retratos usando Aspose.Slides for .NET. Siga este guia passo a passo para aprimorar suas habilidades no trabalho com imagens e formas em apresentações do PowerPoint.
 ## Pré-requisitos
@@ -85,3 +89,9 @@ R: Aspose.Slides é atualizado regularmente para garantir compatibilidade com as
  R: Explore o[Documentação do Aspose.Slides](https://reference.aspose.com/slides/net/) para obter exemplos e orientações abrangentes.
 ### P: Posso aplicar vários deslocamentos de alongamento a uma única forma?
 R: Sim, você pode combinar vários deslocamentos de estiramento para obter efeitos visuais complexos e personalizados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

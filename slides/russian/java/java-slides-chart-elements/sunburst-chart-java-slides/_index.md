@@ -3,10 +3,14 @@ title: Диаграмма солнечных лучей в слайдах Java
 linktitle: Диаграмма солнечных лучей в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Создавайте потрясающие диаграммы солнечных лучей в слайдах Java с помощью Aspose.Slides. Изучите пошаговое создание диаграмм и манипулирование данными.
-type: docs
 weight: 16
 url: /ru/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в диаграмму солнечных лучей в слайдах Java с помощью Aspose.Slides
 
@@ -168,3 +172,9 @@ finally
 ### Можно ли создавать интерактивные диаграммы Sunburst с гиперссылками?
 
 Да, вы можете создавать интерактивные диаграммы Sunburst с гиперссылками, добавляя гиперссылки к определенным элементам или сегментам диаграммы. Подробную информацию о добавлении гиперссылок см. в документации Aspose.Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

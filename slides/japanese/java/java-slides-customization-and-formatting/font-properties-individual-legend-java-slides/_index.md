@@ -3,10 +3,14 @@ title: Java スライドの個々の凡例のフォント プロパティ
 linktitle: Java スライドの個々の凡例のフォント プロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドの個々の凡例にカスタム フォント スタイル、サイズ、色を適用し、PowerPoint プレゼンテーションを強化します。
-type: docs
 weight: 12
 url: /ja/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドの個々の凡例のフォント プロパティの概要
 
@@ -113,3 +117,9 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

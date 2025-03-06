@@ -3,10 +3,14 @@ title: Copia diapositiva in una nuova presentazione con diapositiva master
 linktitle: Copia diapositiva in una nuova presentazione con diapositiva master
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come copiare diapositive con diapositive master utilizzando Aspose.Slides per .NET. Migliora le tue capacità di presentazione con questa guida passo passo.
-type: docs
 weight: 20
 url: /it/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Nel mondo della progettazione e gestione delle presentazioni, l’efficienza è fondamentale. Come scrittore di contenuti, sono qui per guidarti attraverso il processo di copia di una diapositiva in una nuova presentazione con una diapositiva master utilizzando Aspose.Slides per .NET. Che tu sia uno sviluppatore esperto o un nuovo arrivato in questo regno, questo tutorial passo dopo passo ti aiuterà a padroneggiare questa abilità essenziale. Immergiamoci subito.
 
@@ -118,3 +122,9 @@ Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori .N
 
 ### Dove posso ottenere il supporto della community e discutere di Aspose.Slides per .NET?
  Puoi unirti alla comunità Aspose e cercare supporto su[Aspose.Slides per il forum di supporto .NET](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

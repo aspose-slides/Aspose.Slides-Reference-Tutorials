@@ -3,10 +3,14 @@ title: Java 슬라이드에서 읽기 전용으로 저장
 linktitle: Java 슬라이드에서 읽기 전용으로 저장
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션을 읽기 전용으로 저장하는 방법을 알아보세요. 단계별 지침과 코드 예제를 통해 콘텐츠를 보호하세요.
-type: docs
 weight: 11
 url: /ko/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java를 사용하여 Java 슬라이드에서 읽기 전용으로 저장하는 방법 소개
 
@@ -127,3 +131,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### 읽기 전용 비밀번호를 설정한 후 변경할 수 있나요?
 
  예, 읽기 전용 비밀번호를 설정한 후 변경할 수 있습니다. 사용`setReadProtection(String newPassword)` 읽기 전용 보호 비밀번호를 업데이트하려면 새 비밀번호를 사용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

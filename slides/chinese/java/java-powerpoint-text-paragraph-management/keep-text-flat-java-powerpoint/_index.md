@@ -3,10 +3,14 @@ title: 在 Java PowerPoint 中保持文本平面
 linktitle: 在 Java PowerPoint 中保持文本平面
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 使 Java PowerPoint 演示文稿中的文本保持扁平。按照我们的分步指南进行高效的文本操作。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在基于 Java 的 PowerPoint 操作领域，Aspose.Slides for Java 是一套强大且多功能的工具集。无论您是经验丰富的开发人员还是希望通过编程增强演示文稿的新手，Aspose.Slides for Java 都提供了一套全面的功能，可无缝创建、修改和管理 PowerPoint 演示文稿。本教程深入介绍一项特定功能：使用 Aspose.Slides for Java 在 PowerPoint 幻灯片中保持文本平整。通过遵循本指南，您将学习如何操作文本格式以实现精确的演示结果。
 ## 先决条件
@@ -64,3 +68,9 @@ Aspose.Slides for Java 是一个 Java API，使开发人员能够以编程方式
 是的，您可以购买许可证[这里](https://purchase.aspose.com/buy).
 ### 在哪里可以获得 Aspose.Slides for Java 的社区支持？
 加入 Aspose.Slides 社区论坛[这里](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

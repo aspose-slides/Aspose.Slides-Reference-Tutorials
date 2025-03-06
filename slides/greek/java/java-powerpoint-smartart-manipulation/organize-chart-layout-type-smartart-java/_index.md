@@ -3,10 +3,14 @@ title: Οργανώστε τον τύπο διάταξης γραφήματος 
 linktitle: Οργανώστε τον τύπο διάταξης γραφήματος στο SmartArt χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κατακτήστε τους τύπους διάταξης γραφημάτων οργάνωσης στο SmartArt χρησιμοποιώντας Java με Aspose.Slides, βελτιώνοντας τα γραφικά της παρουσίασης χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία οργάνωσης του τύπου διάταξης γραφήματος στο SmartArt χρησιμοποιώντας Java, χρησιμοποιώντας συγκεκριμένα τη βιβλιοθήκη Aspose.Slides. Το SmartArt στις παρουσιάσεις μπορεί να βελτιώσει σημαντικά την οπτική ελκυστικότητα και τη σαφήνεια των δεδομένων σας, καθιστώντας απαραίτητη την εξοικείωση με τον χειρισμό του.
 ## Προαπαιτούμενα
@@ -55,3 +59,9 @@ presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx)
 Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.Slides για να εξερευνήσετε τις δυνατότητές του πριν λάβετε μια απόφαση αγοράς.
 ### Πού μπορώ να αναζητήσω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Slides;
  Για οποιαδήποτε βοήθεια ή απορία σχετικά με το Aspose.Slides, μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

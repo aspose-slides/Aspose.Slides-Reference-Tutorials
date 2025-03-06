@@ -3,10 +3,14 @@ title: إنشاء صورة مصغرة في الشرائح ذات الأبعاد 
 linktitle: إنشاء صورة مصغرة بأبعاد مخصصة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة مخصصة من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. تعزيز تجربة المستخدم والوظائف.
-type: docs
 weight: 13
 url: /ar/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 يمكن أن يكون إنشاء صور مصغرة مخصصة لعروض PowerPoint التقديمية أحد الأصول القيمة، سواء كنت تقوم بإنشاء تطبيق تفاعلي، أو تحسين تجربة المستخدم، أو تحسين المحتوى لمختلف الأنظمة الأساسية. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء صور مصغرة مخصصة من عروض PowerPoint التقديمية باستخدام مكتبة Aspose.Slides for .NET. تسمح لك هذه المكتبة القوية بمعالجة ملفات PowerPoint وتحويلها وتحسينها برمجيًا في تطبيقات .NET.
 
@@ -115,3 +119,9 @@ Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين الع
 
 ### هل يتوفر الدعم الفني لـ Aspose.Slides لـ .NET؟
  نعم، يمكنك الوصول إلى الدعم الفني ومنتديات المجتمع[هنا](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

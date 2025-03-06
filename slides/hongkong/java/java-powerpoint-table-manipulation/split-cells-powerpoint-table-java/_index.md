@@ -3,10 +3,14 @@ title: 使用 Java 拆分 PowerPoint 表格中的儲存格
 linktitle: 使用 Java 拆分 PowerPoint 表格中的儲存格
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 以程式設計方式分割、合併 PowerPoint 表格儲存格並設定其格式。掌握演示設計。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教學中，您將學習如何使用 Aspose.Slides 在 Java 中操作 PowerPoint 表格。表格是簡報中的基本組成部分，通常用於有效地組織和呈現資料。 Aspose.Slides 提供了以程式設計方式建立、修改和增強表格的強大功能，從而提供了設計和佈局的靈活性。
 ## 先決條件
@@ -95,3 +99,9 @@ try {
 您可以從 Aspose.Slides 論壇獲得支持[這裡](https://forum.aspose.com/c/slides/11).
 ### 我可以獲得 Aspose.Slides for Java 的臨時授權嗎？
 是的，您可以從以下地點獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

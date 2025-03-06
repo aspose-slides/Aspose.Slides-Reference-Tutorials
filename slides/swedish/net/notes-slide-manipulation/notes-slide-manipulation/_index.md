@@ -3,10 +3,14 @@ title: Anteckningar Slide Manipulation med Aspose. Slides
 linktitle: Anteckningar Slide Manipulation med Aspose. Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du hanterar sidhuvud och sidfot i PowerPoint-bilder med Aspose.Slides för .NET. Ta bort anteckningar och anpassa dina presentationer utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 dagens digitala tidsålder är det en viktig färdighet att skapa engagerande presentationer. Aspose.Slides för .NET är ett kraftfullt verktyg som låter dig manipulera och anpassa dina presentationsbilder med lätthet. I den här steg-för-steg-guiden går vi igenom några viktiga uppgifter med Aspose.Slides för .NET. Vi tar upp hur du hanterar sidhuvud och sidfot i anteckningsbilder, tar bort anteckningar på specifika bilder och tar bort anteckningar från alla bilder.
 
@@ -165,3 +169,10 @@ Aspose.Slides för .NET ger dig full kontroll över dina PowerPoint-presentation
 ### Kan jag manipulera andra aspekter av PowerPoint-presentationer med Aspose.Slides för .NET?
 
 Ja, Aspose.Slides för .NET erbjuder ett brett utbud av funktioner för PowerPoint-presentationer, inklusive bilder, former, text och mer. Utforska dokumentationen för detaljer.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

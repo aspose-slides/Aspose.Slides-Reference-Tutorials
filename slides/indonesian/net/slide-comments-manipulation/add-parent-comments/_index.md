@@ -3,10 +3,14 @@ title: Tambahkan Komentar Induk ke Slide menggunakan Aspose.Slides
 linktitle: Tambahkan Komentar Orang Tua ke Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan komentar dan balasan interaktif ke presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Meningkatkan keterlibatan dan kolaborasi.
-type: docs
 weight: 12
 url: /id/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Apakah Anda ingin menyempurnakan presentasi PowerPoint Anda dengan fitur interaktif? Aspose.Slides untuk .NET memungkinkan Anda menggabungkan komentar dan balasan, menciptakan pengalaman yang dinamis dan menarik bagi audiens Anda. Dalam tutorial langkah demi langkah ini, kami akan menunjukkan cara menambahkan komentar induk ke slide menggunakan Aspose.Slides untuk .NET. Mari selami dan jelajahi fitur menarik ini.
 
@@ -160,3 +164,9 @@ Aspose.Slides for .NET dirancang untuk bekerja dengan berbagai versi PowerPoint,
 
 ### Apakah ada opsi lisensi yang tersedia untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat menjelajahi opsi lisensi, termasuk lisensi sementara, di situs web Aspose[Di Sini](https://purchase.aspose.com/buy) atau coba uji coba gratis[Di Sini](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

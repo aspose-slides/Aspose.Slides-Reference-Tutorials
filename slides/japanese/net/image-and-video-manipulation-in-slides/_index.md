@@ -3,10 +3,14 @@ title: スライド内の画像とビデオの操作
 linktitle: スライド内の画像とビデオの操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、魅力的な画像やビデオでスライド プレゼンテーションを強化します。視覚的に魅力的なコンテンツを作成するために、スライド内の画像やビデオを操作する方法を段階的に学習します。
-type: docs
 weight: 12
 url: /ja/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides での画像およびビデオ操作の概要
 
@@ -53,3 +57,9 @@ Aspose.Slides for .NET を使用して埋め込みビデオ フレームを追�
 Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションの OLE オブジェクトから埋め込みファイル データを抽出する方法を学びます。ソース コードを含むこのステップ バイ ステップ ガイドに従って、埋め込みデータをシームレスに取得して処理します。
 ### [Aspose.Slides を使用してプレゼンテーション スライドの図形をグラデーションで塗りつぶす](./filling-shapes-gradient/)
 Aspose.Slides for .NET を使用して、魅力的なグラデーションでプレゼンテーション スライドを強化する方法を学びます。完全なソース コードを含むこのステップ バイ ステップ ガイドに従って、線形から放射状までのグラデーションで図形を塗りつぶし、奥行きと次元を追加します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

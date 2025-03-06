@@ -3,10 +3,14 @@ title: Dapatkan Teks dari SmartArt Node di Java PowerPoint
 linktitle: Dapatkan Teks dari SmartArt Node di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengekstrak teks dari node SmartArt dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Panduan langkah demi langkah yang mudah untuk pengembang.
-type: docs
 weight: 14
 url: /id/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengekstrak teks dari node SmartArt di presentasi Java PowerPoint menggunakan Aspose.Slides. Aspose.Slides adalah pustaka Java canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram. Mengekstrak teks dari node SmartArt dapat berguna untuk berbagai aplikasi seperti ekstraksi data, analisis konten, dan banyak lagi. Di akhir panduan ini, Anda akan memiliki pemahaman yang jelas tentang cara mengambil teks dari node SmartArt secara efisien menggunakan Aspose.Slides di Java.
 ## Prasyarat
@@ -66,3 +70,9 @@ Aspose.Slides untuk Java adalah API tangguh yang memungkinkan pengembang membuat
  Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk Java[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk Java?
  Untuk bantuan teknis dan dukungan komunitas, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

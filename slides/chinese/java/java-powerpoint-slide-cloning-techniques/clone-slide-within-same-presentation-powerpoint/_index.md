@@ -3,10 +3,14 @@ title: 在同一演示文稿中克隆幻灯片
 linktitle: 在同一演示文稿中克隆幻灯片
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 按照我们的指南使用 Aspose.Slides for Java 克隆同一演示文稿中的幻灯片。非常适合希望简化 PowerPoint 操作的开发人员。
-type: docs
 weight: 15
 url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 您准备好深入了解 Aspose.Slides for Java 的世界并学习如何在同一演示文稿中克隆幻灯片了吗？本教程将引导您了解您需要了解的所有内容，从先决条件到最终实施。让我们开始吧！
 ## 先决条件
@@ -67,3 +71,9 @@ Aspose.Slides for Java 是一个功能强大的 API，用于在 Java 应用程�
 Aspose.Slides for Java 的文档可在[Aspose 网站](https://reference.aspose.com/slides/java/).
 ### 如何购买 Aspose.Slides for Java？
 您可以通过访问购买 Aspose.Slides for Java[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

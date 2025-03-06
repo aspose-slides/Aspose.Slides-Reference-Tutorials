@@ -3,10 +3,14 @@ title: Java ile PowerPoint'te Metin Yazı Tipi Özelliklerini Ayarlama
 linktitle: Java ile PowerPoint'te Metin Yazı Tipi Özelliklerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te metin yazı tipi özelliklerini nasıl ayarlayacağınızı öğrenin. Java geliştiricileri için kolay, adım adım kılavuz.#Java geliştiricileri için bu adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint metin yazı tipi özelliklerini nasıl değiştireceğinizi öğrenin.
-type: docs
 weight: 18
 url: /tr/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, bir PowerPoint sunumunda çeşitli metin yazı tipi özelliklerini programlı olarak ayarlamak için Aspose.Slides for Java'yı nasıl kullanacağınızı öğreneceksiniz. Slaytlardaki metinlerin yazı tipi türünü, stilini (kalın, italik), alt çizgisini, boyutunu ve rengini ayarlamayı ele alacağız.
 ## Önkoşullar
@@ -85,3 +89,9 @@ Evet, PowerPoint şablonlarıyla çalışmak için Aspose.Slides'ı kullanabilir
 Evet, Aspose.Slides sunumların PDF dahil çeşitli formatlara aktarılmasına olanak sağlar.
 ### Aspose.Slides için daha fazla yardım ve desteği nerede bulabilirim?
  Ziyaret etmek[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides에서 슬라이드에 액세스하기
 linktitle: Aspose.Slides에서 슬라이드에 액세스하기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프로그래밍 방식으로 PowerPoint 슬라이드에 액세스하고 조작하는 방법을 알아보세요. 이 단계별 가이드에서는 소스 코드 예제와 함께 프레젠테이션 로드, 수정 및 저장을 다룹니다.
-type: docs
 weight: 10
 url: /ko/net/slide-access-and-manipulation/accessing-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## .NET용 Aspose.Slides 소개
 
@@ -134,3 +138,9 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides는 처음부터 프레젠테이션을 만드는 데 적합합니까?
 
 전적으로! Aspose.Slides를 사용하면 처음부터 새 프레젠테이션을 만들고, 슬라이드를 추가하고, 레이아웃을 설정하고, 콘텐츠로 채울 수 있어 프레젠테이션 생성 과정을 완벽하게 제어할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

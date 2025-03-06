@@ -3,10 +3,14 @@ title: Java PowerPoint Tablosu Biçimlendirmesi ve Güncellemeler
 linktitle: Java PowerPoint Tablosu Biçimlendirmesi ve Güncellemeler
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint sunumlarını tablo formatlama ve güncellemelerle geliştirin. Kenarlık eklemeyi, sütun ve satırlardaki metni biçimlendirmeyi ve tabloları güncellemeyi öğrenin.
-type: docs
 weight: 31
 url: /tr/java/java-powerpoint-table-formatting-updates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -36,3 +40,9 @@ Bu eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'te tablo sütunlar
 Aspose.Slides for Java'yı kullanarak PowerPoint'te tablo satırlarının içindeki metni nasıl formatlayacağınızı öğrenin. Adım adım kılavuzumuzla sunumlarınızı geliştirin.
 ### [Java kullanarak PowerPoint'teki Mevcut Tabloyu Güncelleyin](./update-existing-table-powerpoint-java/)
 Aspose.Slides ile Java kullanarak PowerPoint'teki mevcut tabloları nasıl güncelleyeceğinizi öğrenin. Adım adım kılavuz, ayrıntılı talimatlar ve SSS'ler dahildir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

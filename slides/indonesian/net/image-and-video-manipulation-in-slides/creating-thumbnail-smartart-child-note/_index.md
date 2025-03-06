@@ -3,10 +3,14 @@ title: Membuat Thumbnail untuk Catatan Anak SmartArt di Aspose.Slides
 linktitle: Membuat Thumbnail untuk Catatan Anak SmartArt di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini Catatan Anak SmartArt yang menawan menggunakan Aspose.Slides untuk .NET. Tingkatkan presentasi Anda dengan visual yang dinamis!
-type: docs
 weight: 15
 url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam bidang presentasi dinamis, Aspose.Slides untuk .NET menonjol sebagai alat yang ampuh, memberikan pengembang kemampuan untuk memanipulasi dan menyempurnakan presentasi PowerPoint secara terprogram. Salah satu fitur yang menarik adalah kemampuan untuk menghasilkan thumbnail untuk SmartArt Child Notes, menambahkan lapisan daya tarik visual pada presentasi Anda. Panduan langkah demi langkah ini akan memandu Anda melalui proses pembuatan gambar mini untuk Catatan Anak SmartArt menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -62,3 +66,9 @@ J: Tentu saja! Aspose.Slides menawarkan beragam tata letak SmartArt, memungkinka
  J: Kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
 ### T: Bisakah saya membeli Aspose.Slides untuk .NET?
  J: Tentu saja! Jelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuh Aspose.Slides dalam proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

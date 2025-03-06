@@ -3,10 +3,14 @@ title: Convertir avec une taille personnalisée dans les diapositives Java
 linktitle: Convertir avec une taille personnalisée dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment convertir des présentations PowerPoint en images TIFF avec une taille personnalisée à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples de code pour les développeurs.
-type: docs
 weight: 31
 url: /fr/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la conversion avec une taille personnalisée dans les diapositives Java
 
@@ -137,3 +141,9 @@ Oui, vous pouvez ajuster le DPI en utilisant le`setDpiX` et`setDpiY` méthodes d
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour Java ?
 
  Pour une documentation détaillée et des informations supplémentaires sur Aspose.Slides pour Java, veuillez visiter la documentation :[Référence de l'API Aspose.Slides pour Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 通过引用删除幻灯片
 linktitle: 通过引用删除幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET（一个强大的 .NET 开发人员库）删除 PowerPoint 演示文稿中的幻灯片。
-type: docs
 weight: 25
 url: /zh/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 作为一名熟练的 SEO 作家，我在这里为您提供有关使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中删除幻灯片的全面指南。在本分步教程中，我们将把该过程分解为可管理的步骤，确保您可以轻松跟进。那么，让我们开始吧！
 
@@ -101,3 +105,9 @@ Aspose.Slides for .NET 支持各种 PowerPoint 文件格式，包括最新版本
 
 ### 我可以使用 Aspose.Slides for .NET 撤消幻灯片的删除吗？
 一旦删除幻灯片，就无法轻易撤消。建议在进行此类更改之前保留演示文稿的备份。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

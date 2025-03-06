@@ -3,10 +3,14 @@ title: Créer une ellipse formatée dans PowerPoint
 linktitle: Créer une ellipse formatée dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer une ellipse formatée dans PowerPoint à l'aide d'Aspose.Slides pour Java avec notre guide détaillé étape par étape.
-type: docs
 weight: 17
 url: /fr/java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Bienvenue dans ce didacticiel complet sur la création d'une ellipse formatée dans PowerPoint à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de manipuler des fichiers PowerPoint par programme. Que vous automatisiez la génération de diapositives ou amélioriez des présentations avec des formes personnalisées, ce guide vous guidera à travers chaque étape, vous garantissant ainsi d'ajouter facilement une ellipse parfaitement formatée à vos diapositives. Allons-y et voyons comment nous pouvons y parvenir !
 ## Conditions préalables
@@ -95,3 +99,9 @@ Oui, Aspose.Slides est un produit commercial et vous avez besoin d’une licence
  Vous pouvez trouver une documentation détaillée sur Aspose.Slides pour Java[page de documentation](https://reference.aspose.com/slides/java/).
 ### Existe-t-il une assistance disponible pour Aspose.Slides ?
  Oui, Aspose offre une assistance via son[forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java 슬라이드에서 자동 원형 차트 조각 색상 설정
 linktitle: Java 슬라이드에서 자동 원형 차트 조각 색상 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 자동 슬라이스 색상으로 동적 원형 차트를 만드는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 24
 url: /ko/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드에서 자동 원형 차트 조각 색상 설정 소개
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 필요에 따라 글꼴 크기, 굵기, 기울임꼴 스타일을 조정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

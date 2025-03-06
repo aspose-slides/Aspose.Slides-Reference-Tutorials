@@ -3,10 +3,14 @@ title: تأثير مربع النص على الفقرة في جافا باور �
 linktitle: تأثير مربع النص على الفقرة في جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية في Java باستخدام تأثيرات النص الديناميكية باستخدام Aspose.Slides للتكامل والتخصيص السلس.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 يمكّن Aspose.Slides for Java المطورين من التعامل مع عروض PowerPoint التقديمية برمجياً، ويقدم مجموعة قوية من الميزات لإنشاء الشرائح وتعديلها وتحويلها. يتعمق هذا البرنامج التعليمي في الاستفادة من Aspose.Slides لإضافة التأثيرات وإدارتها داخل مربعات النص، مما يؤدي إلى تحسين العروض التقديمية ديناميكيًا من خلال كود Java.
 ## المتطلبات الأساسية
@@ -60,3 +64,9 @@ Aspose.Slides for Java يدعم Java 6 والإصدارات الأحدث.
  يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل يدعم Aspose.Slides for Java تنسيقات ملفات PowerPoint بخلاف ‎.pptx؟
 نعم، فهو يدعم تنسيقات PowerPoint المختلفة بما في ذلك .ppt و.pptx و.pptm وما إلى ذلك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

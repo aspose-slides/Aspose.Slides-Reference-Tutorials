@@ -3,10 +3,14 @@ title: Ustaw zakres danych w slajdach Java
 linktitle: Ustaw zakres danych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bez wysiłku ustawiać zakresy danych na slajdach Java, korzystając z Aspose.Slides dla Java. Twórz dynamiczne prezentacje oparte na danych, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 18
 url: /pl/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania zakresu danych w slajdach Java
 
@@ -97,3 +101,9 @@ Dostęp do określonych slajdów i kształtów w prezentacji można uzyskać za 
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów Aspose.Slides dla Java?
 
  Obszerną dokumentację i przykłady Aspose.Slides for Java można znaleźć na stronie z dokumentacją Aspose:[Aspose.Slides dla referencji API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Toegang tot lay-outformaten in Java-dia's
 linktitle: Toegang tot lay-outformaten in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lay-outformaten in Java Slides kunt openen en manipuleren met Aspose.Slides voor Java. Pas vorm- en lijnstijlen moeiteloos aan in PowerPoint-presentaties.
-type: docs
 weight: 10
 url: /nl/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot toegang tot lay-outformaten in Java-dia's
 
@@ -138,3 +142,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Open de eerste vorm op de
 ```
 
  Je kunt dan gebruik maken van de`IFillFormat` En`ILineFormat` methoden zoals getoond in de vorige antwoorden om de vul- en lijnopmaak van de vorm te wijzigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

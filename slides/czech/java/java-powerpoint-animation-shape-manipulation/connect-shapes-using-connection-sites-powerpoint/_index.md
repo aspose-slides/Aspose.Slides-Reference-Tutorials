@@ -3,10 +3,14 @@ title: Propojte tvary pomocí Webů připojení v PowerPointu
 linktitle: Propojte tvary pomocí Webů připojení v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se propojovat tvary v PowerPointu pomocí Aspose.Slides for Java. Automatizujte své prezentace bez námahy.
-type: docs
 weight: 19
 url: /cs/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak propojit tvary pomocí spojovacích webů v PowerPointu pomocí Aspose.Slides pro Java. Tato výkonná knihovna nám umožňuje programově manipulovat s prezentacemi PowerPoint, takže úkoly jako spojování tvarů jsou bezproblémové a efektivní.
 ## Předpoklady
@@ -70,3 +74,9 @@ Ano, Aspose.Slides for Java poskytuje širokou škálu funkcí pro vytváření,
  Ano, dočasné licence jsou k dispozici pro účely testování a hodnocení. Můžete získat jeden[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit licenci pro Aspose.Slides for Java?
 Licenci si můžete zakoupit na webu Aspose[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

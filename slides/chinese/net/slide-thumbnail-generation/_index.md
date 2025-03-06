@@ -3,10 +3,14 @@ title: 幻灯片缩略图生成
 linktitle: 幻灯片缩略图生成
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 生成幻灯片缩略图。分步教程，包含创建动态幻灯片预览的代码示例。使用此强大功能增强您的演示应用程序。
-type: docs
 weight: 17
 url: /zh/net/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介绍：
 
@@ -37,3 +41,9 @@ url: /zh/net/slide-thumbnail-generation/
 使用 Aspose.Slides for .NET 从包含注释的幻灯片生成缩略图。逐步了解如何提取注释、创建缩略图以及增强 PowerPoint 操作。 
 ### [生成自定义尺寸的缩略图](./generate-thumbnail-with-custom-dimensions/)
 了解如何使用 Aspose.Slides for .NET 在幻灯片中生成自定义大小的缩略图。带有源代码的分步指南。使用引人入胜的视觉效果增强您的演示文稿。 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Didacticiel sur l'ajout de cadres vidéo avec Aspose.Slides pour .NET
 linktitle: Ajout d'images vidéo aux diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Revitalisez les présentations avec des images vidéo dynamiques à l’aide d’Aspose.Slides pour .NET. Suivez notre guide pour une intégration transparente et créez des contenus attrayants.
-type: docs
 weight: 19
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le paysage dynamique des présentations, l’intégration d’éléments multimédias peut accroître l’impact et l’engagement globaux. L'ajout d'images vidéo à vos diapositives peut changer la donne, capturant l'attention de votre public d'une manière que le contenu statique ne peut pas. Aspose.Slides for .NET fournit une solution robuste pour intégrer de manière transparente des images vidéo dans vos diapositives de présentation.
 ## Conditions préalables
@@ -67,3 +71,9 @@ Absolument! Vous avez un contrôle total sur les options de lecture, telles que 
  Oui, vous pouvez explorer les capacités d'Aspose.Slides pour .NET en téléchargeant la version d'essai[ici](https://releases.aspose.com/).
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.Slides pour .NET ?
  Pour toute question ou assistance, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

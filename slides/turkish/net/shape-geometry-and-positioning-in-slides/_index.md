@@ -3,10 +3,14 @@ title: Aspose.Slides Kullanarak Slaytlarda Şekil Geometrisi ve Konumlandırma
 linktitle: Slaytlarda Şekil Geometrisi ve Konumlandırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides'ın şekil geometrisi ve slaytlarda konumlandırma eğitimleriyle slayt manipülasyon becerilerinizi geliştirin. Şekilleri, boyutlarını ve hizalamasını programlı olarak kontrol etmeyi öğrenin.
-type: docs
 weight: 13
 url: /tr/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -51,3 +55,9 @@ Aspose.Slides'ı kullanarak hafif teçhizat verilerini sunum slaytlarına veriml
 Aspose.Slides'ı kullanarak sunum slaytlarınızı etkili eğim verileriyle nasıl geliştireceğinizi öğrenin. Adım adım talimatlar ve örnek kod içeren kapsamlı bir kılavuz.
 ### [Aspose.Slides ile Sunum Slaytlarındaki Şekilleri Gizleme](./hiding-shapes/)
 Aspose.Slides for .NET'i kullanarak sunum slaytlarındaki şekilleri nasıl gizleyeceğinizi öğrenin. Kaynak kodu, SSS'ler ve dinamik sunumlara yönelik en iyi uygulamaları içeren adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

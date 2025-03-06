@@ -3,10 +3,14 @@ title: Java ile PowerPoint'e Harici Yazı Tipini Yükleme
 linktitle: Java ile PowerPoint'e Harici Yazı Tipini Yükleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarına özel yazı tiplerini nasıl yükleyeceğinizi öğrenin. Slaytlarınızı benzersiz tipografiyle geliştirin.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java kullanarak PowerPoint sunumlarına harici yazı tipi yükleme sürecinde size rehberlik edeceğiz. Özel yazı tipleri, çeşitli platformlarda tutarlı markalama veya stil tercihleri sağlayarak sunumlarınıza benzersiz bir dokunuş katabilir.
 ## Önkoşullar
@@ -63,3 +67,9 @@ Evet, her yazı tipi dosyası için işlemi tekrarlayarak birden fazla harici ya
 Yazı tipi dosyası TrueType (.ttf) biçiminde ve makul boyut sınırları dahilinde olduğu sürece dosyayı başarıyla yükleyebilmelisiniz.
 ### Harici yazı tiplerinin yüklenmesi sunumun farklı PowerPoint sürümleriyle uyumluluğunu etkiler mi?
 Hayır, yazı tipleri gömülü olduğu veya harici olarak yüklendiği sürece sunum farklı PowerPoint sürümleriyle uyumlu kalır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

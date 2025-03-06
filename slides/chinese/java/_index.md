@@ -1,12 +1,15 @@
 ---
 title: 释放 Aspose.Slides for Java 的强大功能
 linktitle: Aspose.Slides Java教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 通过我们全面的教程学习如何掌握 Aspose.Slides for Java。逐步指导如何使用这个强大的 Java API 进行演示。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在 Java 编程领域，借助 Aspose.Slides for Java，创建和管理演示文稿从未如此简单。这个强大的 API 为希望将动态且视觉效果极佳的演示文稿集成到其应用程序中的开发人员开辟了一个无限可能的世界。在本文中，我们将带您了解 Aspose.Slides for Java 教程领域，展示如何充分利用其潜力。
 
@@ -104,3 +107,9 @@ is_root: true
 使用 Aspose.Slides 的表格格式和更新功能增强 Java PowerPoint 演示文稿。学习添加边框、在列和行中格式化文本以及更新表格。
 ### [Java PowerPoint SmartArt 操作](./java-powerpoint-smartart-manipulation/)
 了解如何使用 GroupDocs.Slides for Java 教程有效地操作 Java PowerPoint SmartArt。访问子节点、添加节点、更改布局等等！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

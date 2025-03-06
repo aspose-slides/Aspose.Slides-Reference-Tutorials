@@ -3,10 +3,14 @@ title: Breite und Höhe aus dem Diagramm-Plotbereich in Java-Folien ermitteln
 linktitle: Breite und Höhe aus dem Diagramm-Plotbereich in Java-Folien ermitteln
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die Abmessungen von Diagrammflächen in Java-Folien abrufen. Verbessern Sie Ihre PowerPoint-Automatisierungsfähigkeiten.
-type: docs
 weight: 21
 url: /de/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung
 
@@ -109,3 +113,10 @@ Ja, Aspose.Slides für Java ist eine leistungsstarke Bibliothek zur Automatisier
 ### Wie kann ich mehr über Aspose.Slides für Java erfahren?
 
  Ausführliche Dokumentationen und Beispiele finden Sie auf der Dokumentationsseite von Aspose.Slides für Java[Hier](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

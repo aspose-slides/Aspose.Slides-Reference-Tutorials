@@ -3,10 +3,14 @@ title: プレゼンテーションで差し込み印刷を実行する
 linktitle: プレゼンテーションで差し込み印刷を実行する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: このステップバイステップ ガイドでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を行う方法を学習します。ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。
-type: docs
 weight: 21
 url: /ja/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 .NET 開発の世界では、動的でパーソナライズされたプレゼンテーションを作成することが一般的な要件です。このプロセスを簡素化する強力なツールの 1 つが Aspose.Slides for .NET です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションで差し込み印刷を実行するという魅力的な領域について詳しく説明します。
 ## 前提条件
@@ -150,3 +154,9 @@ Aspose.Slides for .NET は、例に示すような折れ線グラフ、棒グラ
 もちろんです！Aspose.Slides for .NETの無料トライアルは、[ここ](https://releases.aspose.com/).
 ## 結論
 このチュートリアルでは、プレゼンテーションで差し込み印刷を実行する Aspose.Slides for .NET の優れた機能について説明しました。ステップ バイ ステップ ガイドに従うことで、ダイナミックでパーソナライズされたプレゼンテーションを簡単に作成できます。シームレスなプレゼンテーション生成を実現する Aspose.Slides で、.NET 開発エクスペリエンスを向上させましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

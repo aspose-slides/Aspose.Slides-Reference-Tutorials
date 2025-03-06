@@ -3,10 +3,14 @@ title: Menguasai Bentuk Geometri Komposit dalam Presentasi
 linktitle: Membuat Objek Komposit dalam Bentuk Geometri dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat presentasi menakjubkan dengan bentuk geometri komposit menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk hasil yang mengesankan.
-type: docs
 weight: 14
 url: /id/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Buka kekuatan Aspose.Slides untuk .NET untuk menyempurnakan presentasi Anda dengan membuat objek komposit dalam bentuk geometri. Tutorial ini akan memandu Anda melalui proses menghasilkan slide yang menarik secara visual dengan geometri yang rumit menggunakan Aspose.Slides.
 ## Prasyarat
@@ -84,3 +88,9 @@ Aspose.Slides mendukung berbagai bahasa pemrograman, termasuk Java dan Python. N
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan bantuan masyarakat.
 ### T: Bisakah saya membeli lisensi sementara?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

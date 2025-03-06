@@ -3,10 +3,14 @@ title: Quản lý Header và Footer trong Slide
 linktitle: Quản lý Header và Footer trong Slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm đầu trang và chân trang động trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET.
-type: docs
 weight: 14
 url: /vi/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Tạo đầu trang và chân trang động trong Aspose.Slides cho .NET
 
@@ -131,3 +135,9 @@ Câu trả lời 2: Có, bạn có thể khám phá bản dùng thử miễn ph�
 
 ### Câu hỏi 5: Có cộng đồng hoặc diễn đàn hỗ trợ nào cho Aspose.Slides dành cho .NET không?
  Câu trả lời 5: Có, bạn có thể truy cập diễn đàn hỗ trợ Aspose.Slides for .NET[đây](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

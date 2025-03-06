@@ -3,10 +3,14 @@ title: Fusionner des cellules dans un tableau PowerPoint avec Java
 linktitle: Fusionner des cellules dans un tableau PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment fusionner des cellules dans des tableaux PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez la mise en page de votre présentation avec ce guide étape par étape.
-type: docs
 weight: 17
 url: /fr/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à fusionner efficacement des cellules dans un tableau PowerPoint à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des présentations PowerPoint par programme. En fusionnant les cellules d'un tableau, vous pouvez personnaliser la disposition et la structure de vos diapositives de présentation, améliorant ainsi la clarté et l'attrait visuel.
 ## Conditions préalables
@@ -92,3 +96,9 @@ Aspose.Slides for Java est une API Java permettant de créer, manipuler et conve
  Vous pouvez trouver la documentation[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
  Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Hitung Rumus di Slide Java
 linktitle: Hitung Rumus di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghitung rumus di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan kode sumber untuk presentasi PowerPoint dinamis.
-type: docs
 weight: 10
 url: /id/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Menghitung Rumus di Java Slides menggunakan Aspose.Slides
 
@@ -114,3 +118,10 @@ Dalam panduan ini, kita telah mempelajari cara menghitung rumus di Java Slides m
 ### Bagaimana cara menghitung rumus di buku kerja?
 
  Anda bisa menghitung rumus di buku kerja menggunakan`calculateFormulas` metode dari`IChartDataWorkbook` di Aspose.Slide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

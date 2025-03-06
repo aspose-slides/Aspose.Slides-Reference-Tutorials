@@ -3,10 +3,14 @@ title: PowerPoint'te Bağlayıcı Çizgi Açısını Ayarlama
 linktitle: PowerPoint'te Bağlayıcı Çizgi Açısını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında bağlayıcı çizgi açılarını nasıl ayarlayacağınızı öğrenin. Slaytlarınızı hassas bir şekilde özelleştirin.
-type: docs
 weight: 17
 url: /tr/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarında bağlayıcı çizgilerin açısının nasıl ayarlanacağını inceleyeceğiz. Bağlayıcı çizgiler, slaytlarınızdaki şekiller arasındaki ilişkileri ve akışları göstermek için gereklidir. Açılarını ayarlayarak sunumlarınızın mesajınızı net ve etkili bir şekilde iletmesini sağlayabilirsiniz.
 ## Önkoşullar
@@ -80,3 +84,9 @@ Aspose.Slides çoğu PowerPoint özelliğini desteklemeye çalışmaktadır. Anc
 Kesinlikle! Aspose.Slides, bağlayıcı çizgileri özelleştirmek için stiller, kalınlık ve uç noktalar da dahil olmak üzere kapsamlı seçenekler sunarak görsel olarak çekici sunumlar oluşturmanıza olanak tanır.
 ### Aspose.Slides ile ilgili sorgular için nereden destek bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) Geliştirme süreciniz sırasında karşılaştığınız herhangi bir soru veya sorunla ilgili yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

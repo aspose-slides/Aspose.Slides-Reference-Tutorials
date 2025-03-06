@@ -3,10 +3,14 @@ title: Đặt góc xoay trong Java Slides
 linktitle: Đặt góc xoay trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa các trang trình bày Java của bạn với Aspose.Slides for Java. Tìm hiểu cách thiết lập góc xoay cho các thành phần văn bản. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 17
 url: /vi/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Thiết lập góc xoay trong Java Slides
 
@@ -100,3 +104,9 @@ Aspose.Slides for Java cung cấp nhiều tùy chọn định dạng khác nhau 
 ### Có thể tạo hiệu ứng xoay văn bản trong tiêu đề trục biểu đồ không?
 
 Có, bạn có thể thêm hiệu ứng hoạt hình vào các thành phần văn bản, bao gồm tiêu đề trục biểu đồ bằng Aspose.Slides cho Java. Tham khảo tài liệu để biết thông tin về cách thêm hình động vào bản trình bày của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

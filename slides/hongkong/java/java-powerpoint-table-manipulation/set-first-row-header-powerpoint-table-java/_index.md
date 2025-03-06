@@ -3,10 +3,14 @@ title: 使用 Java 將 PowerPoint 表格中的第一行設定為標題
 linktitle: 使用 Java 將 PowerPoint 表格中的第一行設定為標題
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將第一行設定為 PowerPoint 表格中的標題。輕鬆提高演示清晰度和組織性。
-type: docs
 weight: 19
 url: /zh-hant/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Slides for Java 操作 PowerPoint 表格，這是一個功能強大的程式庫，允許無縫整合和修改簡報。具體來說，我們將重點放在將表格的第一行設定為標題，以增強投影片的視覺吸引力和組織性。
 ## 先決條件
@@ -76,3 +80,9 @@ Aspose.Slides for Java 是一個強大的函式庫，用於以程式設計方式
 提供詳細文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 您可以獲得社區支持[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

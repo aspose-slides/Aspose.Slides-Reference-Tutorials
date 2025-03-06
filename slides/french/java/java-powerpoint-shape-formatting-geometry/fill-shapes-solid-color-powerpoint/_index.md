@@ -3,10 +3,14 @@ title: Remplir les formes avec une couleur unie dans PowerPoint
 linktitle: Remplir les formes avec une couleur unie dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment remplir des formes avec des couleurs unies dans PowerPoint à l'aide d'Aspose.Slides pour Java. Un guide étape par étape pour les développeurs.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Si vous avez déjà travaillé avec des présentations PowerPoint, vous savez que l'ajout de formes et la personnalisation de leurs couleurs peuvent être un aspect crucial pour rendre vos diapositives visuellement attrayantes et informatives. Avec Aspose.Slides pour Java, ce processus devient un jeu d'enfant. Que vous soyez un développeur cherchant à automatiser la création de présentations PowerPoint ou quelqu'un souhaitant ajouter une touche de couleur à vos diapositives, ce didacticiel vous guidera tout au long du processus de remplissage de formes avec des couleurs unies à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -85,3 +89,9 @@ Oui, Aspose.Slides pour Java vous permet d'ouvrir, de modifier et d'enregistrer 
  Oui, vous pouvez télécharger un essai gratuit à partir du[Site Aspose](https://releases.aspose.com/).
 ### Où puis-je trouver plus de documentation et d'assistance ?
  Une documentation détaillée est disponible sur le[Site Aspose](https://reference.aspose.com/slides/java/) et vous pouvez demander de l'aide sur le[Forums Aspose](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

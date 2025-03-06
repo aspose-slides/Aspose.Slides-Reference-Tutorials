@@ -3,10 +3,14 @@ title: Vymazat snímek podle sekvenčního indexu
 linktitle: Vymazat snímek podle sekvenčního indexu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak mazat PowerPoint snímky krok za krokem pomocí Aspose.Slides pro .NET. Náš průvodce poskytuje jasné pokyny a úplný zdrojový kód, který vám pomůže programově odstranit snímky podle jejich sekvenčního indexu.
-type: docs
 weight: 24
 url: /cs/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do mazání snímku podle sekvenčního indexu
 
@@ -86,3 +90,9 @@ Snímky můžete samozřejmě vymazat na základě podmínek, jako je obsah sní
 ### Jak se dozvím více o Aspose.Slides pro .NET?
 
  Můžete prozkoumat podrobnou dokumentaci a referenci API pro Aspose.Slides pro .NET na[dokumentační stránku](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

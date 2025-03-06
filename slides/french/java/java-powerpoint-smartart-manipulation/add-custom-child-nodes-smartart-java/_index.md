@@ -3,10 +3,14 @@ title: Ajouter des nœuds enfants personnalisés dans SmartArt à l'aide de Java
 linktitle: Ajouter des nœuds enfants personnalisés dans SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des nœuds enfants personnalisés à SmartArt dans des présentations PowerPoint à l'aide de Java avec Aspose.Slides. Améliorez vos diapositives avec des graphiques professionnels sans effort.
-type: docs
 weight: 11
 url: /fr/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 SmartArt est une fonctionnalité puissante de PowerPoint qui permet aux utilisateurs de créer rapidement et facilement des graphiques d'aspect professionnel. Dans ce didacticiel, nous apprendrons comment ajouter des nœuds enfants personnalisés à SmartArt à l'aide de Java avec Aspose.Slides.
 ## Conditions préalables
@@ -79,3 +83,9 @@ Absolument! Avec Aspose.Slides pour Java, vous pouvez personnaliser par programm
 Oui, vous pouvez trouver une documentation complète et accéder aux forums de support communautaire sur le site Web Aspose.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides pour Java ?
  Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Slides pour Java à partir du site Web pour explorer ses fonctionnalités et capacités avant de faire un achat.[ici](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

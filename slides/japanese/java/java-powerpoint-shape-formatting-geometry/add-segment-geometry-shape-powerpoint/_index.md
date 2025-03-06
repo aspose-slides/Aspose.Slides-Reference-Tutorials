@@ -3,10 +3,14 @@ title: PowerPoint でジオメトリ図形にセグメントを追加する
 linktitle: PowerPoint でジオメトリ図形にセグメントを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのジオメトリ シェイプにセグメントを追加する方法を学習します。
-type: docs
 weight: 19
 url: /ja/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 魅力的でダイナミックなプレゼンテーションを作成するのは、特にカスタムの図形やデザインを追加する場合は難しい場合があります。そこで、Aspose.Slides for Java が役立ちます。この強力な API を使用すると、PowerPoint ファイルをプログラムで操作できるため、複雑な幾何学的図形やセグメントを簡単に追加できます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの幾何学的図形にセグメントを追加する方法について説明します。プレゼンテーションの作成を自動化したい開発者でも、コーディングに没頭したいだけの人でも、このガイドは包括的なリソースになります。
 ## 前提条件
@@ -78,3 +82,9 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログ�
 長方形、楕円、線、カスタムジオメトリシェイプなど、さまざまなシェイプを追加できます。
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 サポートを受けるには[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)質問したり、コミュニティや開発者からサポートを受けたりできる場所です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

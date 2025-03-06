@@ -3,10 +3,14 @@ title: 경계 모양 축소판 만들기
 linktitle: 경계 모양 축소판 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 경계가 있는 모양 축소판을 만드는 방법을 알아보세요. 이 단계별 튜토리얼은 프로세스를 안내합니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Aspose.Slides for Java는 Java 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 경계가 있는 모양의 썸네일 이미지를 만드는 방법을 알아봅니다.
 ## 전제 조건
@@ -57,3 +61,9 @@ Aspose.Slides for Java는 PPT, PPTX, PPS, PPSX 등을 포함한 다양한 PowerP
 예, Aspose.Slides for Java는 슬라이드 조작, 텍스트 추출, 차트 생성을 포함하여 PowerPoint 프레젠테이션 작업을 위한 광범위한 기능을 제공합니다.
 ### Aspose.Slides for Java에 사용할 수 있는 평가판이 있습니까?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

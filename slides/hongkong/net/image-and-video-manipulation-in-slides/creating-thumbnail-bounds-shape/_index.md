@@ -3,10 +3,14 @@ title: 在 Aspose.Slides 中建立帶有形狀邊界的縮圖
 linktitle: 在 Aspose.Slides 中建立帶有形狀邊界的縮圖
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 釋放 Aspose.Slides for .NET 的強大功能！使用我們的逐步指南學習如何輕鬆建立形狀縮圖。
-type: docs
 weight: 10
 url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 如果您是 .NET 開發人員，正在尋求強大的解決方案來建立具有 PowerPoint 簡報形狀邊界的縮圖，那麼 Aspose.Slides for .NET 是您的首選工具。這個功能強大的庫提供無縫集成，使您能夠有效地操作 PowerPoint 文件並從中提取有價值的資訊。在本教程中，我們將逐步介紹使用 Aspose.Slides 建立帶有形狀邊界的縮圖的過程。
 ## 先決條件
@@ -60,3 +64,9 @@ Aspose.Slides for .NET 簡化了處理 PowerPoint 簡報的過程，為開發人
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)與社區聯繫並向經驗豐富的開發人員尋求協助。
 ### 我可以獲得 Aspose.Slides 的臨時許可證嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)以滿足短期專案的需要。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

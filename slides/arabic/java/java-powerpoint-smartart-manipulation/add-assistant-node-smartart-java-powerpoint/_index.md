@@ -3,10 +3,14 @@ title: إضافة عقدة مساعد إلى SmartArt في Java PowerPoint
 linktitle: إضافة عقدة مساعد إلى SmartArt في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة عقدة مساعدة إلى SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تعزيز مهارات تحرير PowerPoint الخاص بك.
-type: docs
 weight: 17
 url: /ar/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة عقدة مساعدة إلى SmartArt في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -70,3 +74,9 @@ pres.save(dataDir + "ChangeAssistantNode_out.pptx", SaveFormat.Pptx);
 نعم، يمكنك تخصيص المظهر باستخدام الخصائص والأساليب المختلفة التي يوفرها Aspose.Slides.
 ### هل هناك أي حد لعدد العقد في SmartArt؟
 يدعم SmartArt في PowerPoint عددًا كبيرًا من العقد، ولكن يوصى بإبقائه معقولًا لتحسين إمكانية القراءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

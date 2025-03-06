@@ -3,10 +3,14 @@ title: Aspose.Slides - 在 .NET 演示文稿中添加嵌入式视频
 linktitle: Aspose.Slides - 在 .NET 演示文稿中添加嵌入式视频
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 通过嵌入视频增强您的演示文稿。按照我们的分步指南进行无缝集成。
-type: docs
 weight: 19
 url: /zh/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在动态的演示世界中，集成多媒体元素可以显著增强参与度。Aspose.Slides for .NET 提供了一个强大的解决方案，可将嵌入式视频帧合并到您的演示幻灯片中。本教程将指导您完成整个过程，分解每个步骤以确保无缝体验。
 ## 先决条件
@@ -75,3 +79,9 @@ Aspose.Slides 支持多种视频格式，包括 MP4、AVI 和 WMV。
 嵌入视频的数量通常受演示软件的容量限制。
 ### 我如何寻求进一步的帮助或分享我的经验？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

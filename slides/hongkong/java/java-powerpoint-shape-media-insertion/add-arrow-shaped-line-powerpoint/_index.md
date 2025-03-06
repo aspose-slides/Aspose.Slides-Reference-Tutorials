@@ -3,10 +3,14 @@ title: 在 PowerPoint 中新增箭頭形線
 linktitle: 在 PowerPoint 中新增箭頭形線
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將箭頭形線條新增至 PowerPoint 簡報。毫不費力地增強視覺吸引力。
-type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在 PowerPoint 簡報中加入箭頭形線條可以增強視覺吸引力並有助於有效傳達訊息。 Aspose.Slides for Java 為 Java 開發人員提供了以程式設計方式操作 PowerPoint 簡報的全面解決方案。在本教學中，我們將引導您完成使用 Aspose.Slides for Java 將箭頭形線條新增至 PowerPoint 投影片的過程。
 ## 先決條件
@@ -76,3 +80,9 @@ Aspose.Slides for Java 支援與各種版本的 PowerPoint 相容，確保與您
 文件:[Aspose.Slides Java 文檔](https://reference.aspose.com/slides/java/)
 下載：[Aspose.Slides Java版下載](https://releases.aspose.com/slides/java/)
 支持：[Aspose.Slides for Java 支援論壇](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Xóa các điểm dữ liệu chuỗi biểu đồ cụ thể bằng Aspo
 linktitle: Xóa điểm dữ liệu chuỗi biểu đồ cụ thể
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa các điểm dữ liệu chuỗi biểu đồ cụ thể trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn từng bước một.
-type: docs
 weight: 13
 url: /vi/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn làm việc với các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xóa các điểm dữ liệu của chuỗi biểu đồ cụ thể trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Đến cuối hướng dẫn này, bạn sẽ có thể thao tác các điểm dữ liệu biểu đồ một cách dễ dàng.
 
@@ -95,3 +99,9 @@ Có, bạn có thể tùy chỉnh giao diện của biểu đồ bằng cách s�
 
 ### Có cộng đồng hoặc cộng đồng nhà phát triển nào dành cho Aspose.Slides cho .NET không?
 Có, bạn có thể tham gia cộng đồng Aspose trên diễn đàn của họ để thảo luận, đặt câu hỏi và chia sẻ kinh nghiệm của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

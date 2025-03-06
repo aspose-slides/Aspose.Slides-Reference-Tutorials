@@ -3,10 +3,14 @@ title: Erstellen eines Zusammenfassungszooms in PowerPoint
 linktitle: Erstellen eines Zusammenfassungszooms in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java einen Zusammenfassungszoom in PowerPoint erstellen.
-type: docs
 weight: 16
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Willkommen zu unserem umfassenden Tutorial zum Erstellen eines Summary-Zooms in PowerPoint mit Aspose.Slides für Java. Wenn Sie Ihren Präsentationen ein dynamisches und interaktives Element hinzufügen möchten, ist Summary-Zoom eine fantastische Funktion. Sie können damit eine einzelne Folie erstellen, die in verschiedene Abschnitte Ihrer Präsentation hineinzoomen kann, und so Ihrem Publikum ein ansprechenderes und navigierbareres Erlebnis bieten.
 In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den gesamten Prozess, vom Einrichten Ihrer Entwicklungsumgebung bis zum Erstellen und Anpassen eines Summary-Zoom-Frames. Egal, ob Sie ein erfahrener Java-Entwickler sind oder gerade erst anfangen, Sie werden feststellen, dass diese Anleitung leicht verständlich und voller wertvoller Erkenntnisse steckt.
@@ -107,3 +111,9 @@ Ja, Sie können eine kostenlose Testversion von Aspose.Slides für Java herunter
  Eine vorläufige Lizenz erhalten Sie bei der[Aspose-Kaufseite](https://purchase.aspose.com/temporary-license/).
 ### Wo finde ich weitere Beispiele und Support für Aspose.Slides für Java?
  Weitere Beispiele und Unterstützung finden Sie auf der[Aspose.Slides Support-Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

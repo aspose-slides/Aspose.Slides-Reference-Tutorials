@@ -3,10 +3,14 @@ title: Ställ in extern arbetsbok i Java Slides
 linktitle: Ställ in extern arbetsbok i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in externa arbetsböcker i Java Slides med Aspose.Slides för Java. Skapa dynamiska presentationer med Excel-dataintegration.
-type: docs
 weight: 19
 url: /sv/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Set External Workbook i Java Slides
 
@@ -119,3 +123,9 @@ Aspose.Slides för Java uppdateras regelbundet för att säkerställa kompatibil
 ### Kan jag lägga till flera diagram som refererar till samma externa arbetsbok?
 
 Ja, du kan lägga till flera diagram till din presentation, alla refererar till samma externa arbetsbok. Upprepa helt enkelt stegen som beskrivs i denna handledning för varje diagram du vill skapa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

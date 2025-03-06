@@ -3,10 +3,14 @@ title: Ustaw funkcję zastępowania czcionek w programie Java PowerPoint
 linktitle: Ustaw funkcję zastępowania czcionek w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić zastępcze czcionki w Java PowerPoint przy użyciu Aspose.Slides dla Java, aby zapewnić spójne wyświetlanie tekstu.
-type: docs
 weight: 16
 url: /pl/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku zagłębimy się w zawiłości ustawiania zastępczych czcionek w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Zastępcze czcionki mają kluczowe znaczenie dla zapewnienia prawidłowego wyświetlania tekstu w prezentacjach na różnych urządzeniach i systemach operacyjnych, nawet jeśli wymagane czcionki nie są dostępne.
 ## Warunki wstępne
@@ -53,3 +57,9 @@ Tak, Aspose.Slides for Java jest kompatybilny z popularnymi środowiskami IDE Ja
 Tak, można uzyskać tymczasowe licencje na produkty Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla Java?
  Aby uzyskać pomoc związaną z Aspose.Slides dla Java, odwiedź stronę[forum dyskusyjne](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

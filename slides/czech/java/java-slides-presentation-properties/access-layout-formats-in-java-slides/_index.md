@@ -3,10 +3,14 @@ title: Přístup k formátům rozvržení v aplikaci Java Slides
 linktitle: Přístup k formátům rozvržení v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přistupovat a manipulovat s formáty rozvržení v Java Slides pomocí Aspose.Slides for Java. Přizpůsobte styly tvarů a čar bez námahy v prezentacích PowerPoint.
-type: docs
 weight: 10
 url: /cs/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do přístupu k formátům rozložení v Java Slides
 
@@ -138,3 +142,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Přístup k prvnímu tvar
 ```
 
  Poté můžete použít`IFillFormat` a`ILineFormat` metody, jak je uvedeno v předchozích odpovědích, k úpravě formátů výplně a čar tvaru.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

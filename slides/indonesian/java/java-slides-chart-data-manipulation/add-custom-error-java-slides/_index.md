@@ -3,10 +3,14 @@ title: Tambahkan Kesalahan Khusus di Slide Java
 linktitle: Tambahkan Kesalahan Khusus di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan bilah kesalahan khusus ke bagan PowerPoint di Java Slides menggunakan Aspose.Slides. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang tepat.
-type: docs
 weight: 11
 url: /id/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Menambahkan Bilah Kesalahan Kustom di Slide Java menggunakan Aspose.Slides
 
@@ -150,3 +154,9 @@ Anda dapat mengulang titik data dan menetapkan nilai bilah kesalahan khusus untu
 ### Apakah mungkin menyembunyikan bilah kesalahan untuk titik data tertentu?
 
  Ya, Anda dapat mengontrol visibilitas bilah kesalahan untuk masing-masing titik data dengan mengatur`setVisible` properti dari`IErrorBarsFormat` obyek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

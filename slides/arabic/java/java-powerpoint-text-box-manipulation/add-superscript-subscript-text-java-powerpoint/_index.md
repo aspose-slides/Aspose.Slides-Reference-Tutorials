@@ -3,10 +3,14 @@ title: إضافة نص مرتفع ومنخفض في Java PowerPoint
 linktitle: إضافة نص مرتفع ومنخفض في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة نص مرتفع ومنخفض في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. مثالية لتعزيز الشرائح الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 غالبًا ما يتطلب إنشاء عروض PowerPoint التقديمية الجذابة والغنية بالمعلومات استخدام ميزات التنسيق مثل النص المرتفع والنص المنخفض. سيرشدك هذا البرنامج التعليمي خلال عملية دمج النص المرتفع والمنخفض في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -89,3 +93,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

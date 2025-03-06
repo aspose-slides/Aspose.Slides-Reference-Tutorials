@@ -3,10 +3,14 @@ title: Gestión de textos y párrafos de Java PowerPoint
 linktitle: Gestión de textos y párrafos de Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine la gestión de textos y párrafos de Java PowerPoint con Aspose.Slides. Aprenda a importar texto HTML, administrar el interlineado, crear viñetas y alinear párrafos.
-type: docs
 weight: 26
 url: /es/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 
 Crear presentaciones de PowerPoint bien estructuradas y visualmente atractivas puede mejorar significativamente su comunicación. Con Aspose.Slides para Java, gestionar texto y párrafos se convierte en una tarea sencilla. Ya sea que necesite importar texto HTML, administrar el interlineado o crear viñetas de varios niveles, nuestros tutoriales detallados lo guiarán a través del proceso. Exploremos cómo puede llevar sus presentaciones de PowerPoint en Java al siguiente nivel.
@@ -55,3 +59,9 @@ Aprenda a agregar viñetas de párrafo en diapositivas de PowerPoint usando Aspo
 Aprenda cómo establecer sangrías de párrafo en diapositivas de PowerPoint mediante programación usando Aspose.Slides para Java. Mejore el formato de su presentación sin esfuerzo.
 ### [Alinear párrafos en PowerPoint usando Java](./align-paragraphs-powerpoint-java/)
 Aprenda a alinear párrafos en presentaciones de PowerPoint usando Aspose.Slides para Java. Siga nuestra guía paso a paso para un formato preciso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

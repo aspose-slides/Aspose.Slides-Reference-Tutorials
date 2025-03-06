@@ -3,10 +3,14 @@ title: Aangepaste regels toevoegen aan Java-dia's
 linktitle: Aangepaste regels toevoegen aan Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter uw Java-dia's met aangepaste regels. Stapsgewijze handleiding voor het gebruik van Aspose.Slides voor Java. Leer lijnen toevoegen en aanpassen in presentaties voor indrukwekkende beelden.
-type: docs
 weight: 10
 url: /nl/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het toevoegen van aangepaste regels in Java-dia's
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Stel de lijndikte in op 2 punten
 ### Is het mogelijk om meerdere regels aan een dia toe te voegen?
 
 Ja, u kunt meerdere regels aan een dia toevoegen door de stappen in deze zelfstudie te herhalen. Elke lijn kan afzonderlijk worden aangepast.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

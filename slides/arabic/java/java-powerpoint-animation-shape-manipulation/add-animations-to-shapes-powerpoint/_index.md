@@ -3,10 +3,14 @@ title: إضافة الرسوم المتحركة إلى الأشكال في Power
 linktitle: إضافة الرسوم المتحركة إلى الأشكال في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة رسوم متحركة إلى الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي المفصل. مثالية لإنشاء عروض تقديمية جذابة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 غالبًا ما يتطلب إنشاء عروض تقديمية جذابة إضافة رسوم متحركة إلى الأشكال والنصوص. يمكن أن تجعل الرسوم المتحركة شرائحك أكثر ديناميكية وجاذبية، مما يضمن بقاء جمهورك مهتمًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة الرسوم المتحركة إلى الأشكال في عرض PowerPoint التقديمي باستخدام Aspose.Slides لـ Java. بحلول نهاية هذه المقالة، ستكون قادرًا على إنشاء رسوم متحركة احترافية دون عناء.
 ## المتطلبات الأساسية
@@ -108,3 +112,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 يمكنك إضافة رسوم متحركة مختلفة إلى أشكال متعددة عن طريق تكرار الخطوات لكل شكل وتحديد تأثيرات مختلفة حسب الحاجة.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
  تفحص ال[توثيق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11)لمزيد من الأمثلة والمساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

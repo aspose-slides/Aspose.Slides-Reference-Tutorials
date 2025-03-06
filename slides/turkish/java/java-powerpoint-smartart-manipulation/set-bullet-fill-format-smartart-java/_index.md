@@ -3,10 +3,14 @@ title: Java kullanarak SmartArt'ta Madde İşareti Doldurma Formatını Ayarlama
 linktitle: Java kullanarak SmartArt'ta Madde İşareti Doldurma Formatını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak SmartArt'ta madde işareti dolgusu formatını nasıl ayarlayacağınızı öğrenin. Verimli sunum manipülasyonu için adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Java programlama alanında, özellikle SmartArt öğeleriyle uğraşırken sunumların etkili bir şekilde değiştirilmesi ortak bir gerekliliktir. Aspose.Slides for Java bu tür görevler için güçlü bir araç olarak ortaya çıkıyor ve sunumları programlı bir şekilde yönetmek için bir dizi işlevsellik sunuyor. Bu eğitimde, Aspose.Slides ile Java kullanarak SmartArt'ta madde işareti doldurma formatını ayarlama işlemini adım adım ele alacağız.
 ## Önkoşullar
@@ -71,3 +75,9 @@ Aslında Aspose.Slides, düzen, stil, içerik ve daha fazlası dahil olmak üzer
  Evet, Aspose.Slides'ın özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz. Basitçe şuradan indirin:[İnternet sitesi](https://releases.aspose.com/slides/java/) ve keşfetmeye başlayın.
 ### Aspose.Slides for Java desteğini nerede bulabilirim?
  Sorularınız veya yardım için Aspose.Slides forumunu ziyaret edebilirsiniz:[bu bağlantı](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

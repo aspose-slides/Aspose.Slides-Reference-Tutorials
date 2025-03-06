@@ -3,10 +3,14 @@ title: Chart Colorization with Aspose.Slides for .NET
 linktitle: Add Color to Data Points in Chart
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add color to data points in a chart with Aspose.Slides for .NET. Enhance your presentations visually and engage your audience effectively.
-type: docs
 weight: 12
 url: /net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In this step-by-step guide, we'll walk you through the process of adding color to data points in a chart using Aspose.Slides for .NET. Aspose.Slides is a powerful library for working with PowerPoint presentations in .NET applications. Adding color to data points in a chart can make your presentations more visually appealing and easier to understand.
 
@@ -115,3 +119,10 @@ Adding color to data points in a chart is a powerful way to make your presentati
 
 ### How do I get support for Aspose.Slides for .NET?
    For support and discussions, visit the [Aspose.Slides forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

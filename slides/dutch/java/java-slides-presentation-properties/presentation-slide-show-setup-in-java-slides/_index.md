@@ -3,10 +3,14 @@ title: Presentatie diavoorstelling instellen in Java Slides
 linktitle: Presentatie diavoorstelling instellen in Java Slides
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Optimaliseer uw Java-diavoorstelling met Aspose.Slides. Maak boeiende presentaties met aangepaste instellingen. Ontdek stapsgewijze handleidingen en veelgestelde vragen.
-type: docs
 weight: 16
 url: /nl/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het instellen van presentatiediavoorstellingen in Java-dia's
 
@@ -146,3 +150,9 @@ In deze zelfstudie hebben we geleerd hoe u een presentatiediavoorstelling in Jav
 ### Hoe kan ik de instellingen voor de diavoorstelling verder aanpassen?
 
  U kunt aanvullende diavoorstellingsinstellingen van Aspose.Slides voor Java verkennen om de diavoorstellingservaring aan uw behoeften aan te passen. Raadpleeg de documentatie op[hier](https://reference.aspose.com/slides/java/) voor gedetailleerde informatie over beschikbare opties en configuraties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

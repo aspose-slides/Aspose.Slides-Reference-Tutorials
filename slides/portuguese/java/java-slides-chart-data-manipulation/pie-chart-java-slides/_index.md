@@ -3,10 +3,14 @@ title: Gráfico de pizza em slides Java
 linktitle: Gráfico de pizza em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar gráficos de pizza impressionantes em apresentações do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com código-fonte para desenvolvedores Java.
-type: docs
 weight: 23
 url: /pt/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à criação de um gráfico de pizza em slides Java usando Aspose.Slides
 
@@ -283,3 +287,9 @@ Sim, Aspose.Slides for Java oferece suporte a vários tipos de gráficos, inclui
 ### Como posso encontrar mais informações e exemplos para trabalhar com Aspose.Slides for Java?
 
  Para obter mais informações, documentação detalhada e exemplos adicionais, você pode visitar o[Documentação Aspose.Slides para Java](https://reference.aspose.com/slides/java/). Ele fornece recursos abrangentes para ajudá-lo a usar a biblioteca de maneira eficaz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

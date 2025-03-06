@@ -3,10 +3,14 @@ title: Création d'une vignette avec des limites pour la forme dans Aspose.Slide
 linktitle: Création d'une vignette avec des limites pour la forme dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Libérez la puissance d’Aspose.Slides pour .NET ! Apprenez à créer des vignettes de formes sans effort avec des limites à l'aide de notre guide étape par étape.
-type: docs
 weight: 10
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Si vous êtes un développeur .NET à la recherche d'une solution robuste pour créer des images miniatures avec des limites pour les formes dans les présentations PowerPoint, Aspose.Slides pour .NET est votre outil incontournable. Cette puissante bibliothèque offre une intégration transparente, vous permettant de manipuler et d'extraire efficacement des informations précieuses à partir de fichiers PowerPoint. Dans ce didacticiel, nous allons parcourir le processus de création d'une vignette avec des limites pour une forme à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -60,3 +64,9 @@ Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour vous connecter avec la communauté et demander l’aide de développeurs expérimentés.
 ### Puis-je obtenir une licence temporaire pour Aspose.Slides ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour les besoins du projet à court terme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

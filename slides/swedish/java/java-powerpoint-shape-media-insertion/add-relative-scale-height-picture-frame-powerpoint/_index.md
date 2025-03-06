@@ -3,10 +3,14 @@ title: Lägg till bildram med relativ skalhöjd i PowerPoint
 linktitle: Lägg till bildram med relativ skalhöjd i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till bildramar med relativ skalhöjd i PowerPoint-presentationer med Aspose.Slides för Java, vilket förbättrar ditt visuella innehåll.
-type: docs
 weight: 15
 url: /sv/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 I den här handledningen får du lära dig hur du lägger till en bildram med relativ skalhöjd i PowerPoint-presentationer med Aspose.Slides för Java.
 ## Förutsättningar
@@ -68,3 +72,9 @@ Aspose.Slides för Java är kompatibel med olika versioner av PowerPoint, vilket
 Ja, Aspose.Slides för Java stöder olika bildformat, inklusive PNG, GIF, BMP och mer.
 ### Finns det ett communityforum eller supportkanal tillgängligt för Aspose.Slides-användare?
 Ja, du kan besöka Aspose.Slides-forumet för frågor, diskussioner eller hjälp om biblioteket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

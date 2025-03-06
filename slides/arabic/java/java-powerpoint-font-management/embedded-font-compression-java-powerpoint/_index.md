@@ -3,10 +3,14 @@ title: ضغط الخط المضمن في Java PowerPoint
 linktitle: ضغط الخط المضمن في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ضغط الخطوط المضمنة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تحسين أحجام الملفات دون عناء.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في المشهد الديناميكي للعروض التقديمية الرقمية، تعد القدرة على تحسين أحجام الملفات دون المساس بالجودة أمرًا بالغ الأهمية. يقدم Aspose.Slides for Java حلاً قويًا لتحسين كفاءة عروض PowerPoint التقديمية من خلال تمكين ضغط الخطوط المضمنة. سيرشدك هذا البرنامج التعليمي خلال عملية الاستفادة من هذه الميزة لتقليل أحجام الملفات بشكل فعال، مما يضمن توزيعًا أكثر سلاسة وأداء محسنًا لعروضك التقديمية.
 ## المتطلبات الأساسية
@@ -64,3 +68,9 @@ System.out.println(String.format("Result file size = %d bytes", outputFile.lengt
  بالتأكيد! يمكنك طلب الدعم من مجتمع Aspose.Slides من خلال الموقع المخصص[المنتدى](https://forum.aspose.com/c/slides/11) أو فكر في الحصول على ترخيص مؤقت للمساعدة ذات الأولوية.
 ### كيف يمكنني شراء نسخة مرخصة من Aspose.Slides لـ Java؟
 يمكنك شراء نسخة مرخصة من Aspose.Slides for Java من موقع الويب باستخدام الإصدار المتوفر[رابط شراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

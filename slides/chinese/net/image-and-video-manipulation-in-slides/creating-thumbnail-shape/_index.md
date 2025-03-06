@@ -3,10 +3,14 @@ title: 创建 PowerPoint 形状缩略图 - Aspose.Slides .NET
 linktitle: 在 Aspose.Slides 中为形状创建缩略图
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 为 PowerPoint 演示文稿中的形状创建缩略图。面向开发人员的全面分步指南。
-type: docs
 weight: 14
 url: /zh/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 Aspose.Slides for .NET 是一个功能强大的库，可帮助开发人员无缝处理 PowerPoint 演示文稿。其显著特点之一是能够为演示文稿中的形状生成缩略图。本教程将指导您使用 Aspose.Slides for .NET 创建形状缩略图的过程。
 ## 先决条件
@@ -57,3 +61,9 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 答：Aspose.Slides 可以灵活地创建各种形状的缩略图，包括文本框、图像等。
 ### 问：我可以自定义生成的缩略图的大小和分辨率吗？
 答：是的，您可以在调用时调整参数`GetThumbnail`方法来控制尺寸和分辨率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

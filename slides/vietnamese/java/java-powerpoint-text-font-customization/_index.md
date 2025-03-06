@@ -3,10 +3,14 @@ title: Tùy chỉnh phông chữ và văn bản Java PowerPoint
 linktitle: Tùy chỉnh phông chữ và văn bản Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá các hướng dẫn về tùy chỉnh phông chữ và văn bản Java PowerPoint với Aspose.Slides. Tìm hiểu cách xoay, thay thế phông chữ và hơn thế nữa để cải thiện bản trình bày của bạn.
-type: docs
 weight: 29
 url: /vi/java/java-powerpoint-text-font-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của bản trình bày PowerPoint của bạn với Hướng dẫn tùy chỉnh phông chữ và văn bản PowerPoint Java của chúng tôi bằng cách sử dụng Aspose.Slides. Cho dù bạn là người mới bắt đầu hay người dùng nâng cao, hướng dẫn chi tiết của chúng tôi sẽ giúp bạn cải thiện bài thuyết trình của mình một cách dễ dàng.
@@ -102,3 +106,9 @@ Tìm hiểu cách thêm hộp văn bản vào trang chiếu PowerPoint theo chư
 Tìm hiểu cách tích hợp phông chữ tùy chỉnh vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường sự hấp dẫn thị giác một cách dễ dàng.
 ### [Tạo WordArt trong PowerPoint bằng Java](./create-wordart-powerpoint-java/)
 Tìm hiểu cách tạo WordArt hấp dẫn trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Hướng dẫn từng bước dành cho nhà phát triển.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

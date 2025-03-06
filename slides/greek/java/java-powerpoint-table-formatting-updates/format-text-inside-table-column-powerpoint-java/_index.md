@@ -3,10 +3,14 @@ title: Μορφοποίηση κειμένου μέσα στη στήλη του
 linktitle: Μορφοποίηση κειμένου μέσα στη στήλη του πίνακα στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μορφοποιείτε κείμενο μέσα σε στήλες πίνακα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτό το σεμινάριο. Βελτιώστε τις παρουσιάσεις σας μέσω προγραμματισμού.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Είστε έτοιμοι να βουτήξετε στον κόσμο των παρουσιάσεων PowerPoint αλλά με μια ανατροπή; Αντί να μορφοποιήσετε με μη αυτόματο τρόπο τις διαφάνειές σας, ας ακολουθήσουμε μια πιο αποτελεσματική διαδρομή χρησιμοποιώντας το Aspose.Slides για Java. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία μορφοποίησης κειμένου μέσα σε στήλες πίνακα σε παρουσιάσεις PowerPoint μέσω προγραμματισμού. Κουμπώστε, γιατί θα είναι μια διασκεδαστική βόλτα!
 ## Προαπαιτούμενα
@@ -88,3 +92,9 @@ pres.save(dataDir + "result.pptx", SaveFormat.Pptx);
  Μπορείτε να κατεβάσετε μια δωρεάν δοκιμή από το[Δωρεάν δοκιμαστική σελίδα Aspose](https://releases.aspose.com/).
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
  Ελέγξτε το[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/) για λεπτομερή παραδείγματα και οδηγούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Lägg till anpassade dokumentegenskaper i Java Slides
 linktitle: Lägg till anpassade dokumentegenskaper i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du förbättrar PowerPoint-presentationer med anpassade dokumentegenskaper i Java Slides. Steg-för-steg guide med kodexempel som använder Aspose.Slides för Java.
-type: docs
 weight: 13
 url: /sv/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att lägga till anpassade dokumentegenskaper i Java Slides
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Den här koden visar namnen och värdena för alla anpassade egenskaper i presentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

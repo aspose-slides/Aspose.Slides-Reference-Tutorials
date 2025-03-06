@@ -3,10 +3,14 @@ title: Criando lindos gráficos com Aspose.Slides para .NET
 linktitle: Entidades e formatação do gráfico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como criar gráficos impressionantes com Aspose.Slides for .NET. Eleve seu jogo de visualização de dados com nosso guia passo a passo.
-type: docs
 weight: 13
 url: /pt/net/advanced-chart-customization/chart-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 No mundo atual, orientado por dados, a visualização eficaz dos dados é fundamental para transmitir informações ao seu público. Aspose.Slides for .NET é uma biblioteca poderosa que permite criar apresentações e slides impressionantes, incluindo gráficos atraentes. Neste tutorial, orientaremos você no processo de criação de belos gráficos usando Aspose.Slides for .NET. Dividiremos cada exemplo em várias etapas para ajudá-lo a compreender e implementar entidades e formatação de gráficos. Então vamos começar!
 
@@ -261,3 +265,10 @@ Aspose.Slides for .NET é uma biblioteca poderosa que permite aos desenvolvedore
 ### 5. Existe uma comunidade ou fórum de suporte para Aspose.Slides for .NET?
 
  Sim, você pode encontrar a comunidade Aspose.Slides e o fórum de suporte[aqui](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

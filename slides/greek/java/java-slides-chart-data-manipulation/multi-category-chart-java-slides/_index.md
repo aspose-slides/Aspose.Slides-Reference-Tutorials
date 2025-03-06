@@ -3,10 +3,14 @@ title: Γράφημα πολλών κατηγοριών σε διαφάνειε�
 linktitle: Γράφημα πολλών κατηγοριών σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε γραφήματα πολλών κατηγοριών σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για εντυπωσιακή οπτικοποίηση δεδομένων σε παρουσιάσεις.
-type: docs
 weight: 20
 url: /el/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στο γράφημα πολλών κατηγοριών σε διαφάνειες Java με Aspose.Slides
 
@@ -157,3 +161,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### Πώς μπορώ να προσθέσω έναν τίτλο στο γράφημα;
 
  Μπορείτε να προσθέσετε έναν τίτλο στο γράφημα χρησιμοποιώντας το`ch.getChartTitle().getTextFrame().setText("Chart Title");` μέθοδος.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

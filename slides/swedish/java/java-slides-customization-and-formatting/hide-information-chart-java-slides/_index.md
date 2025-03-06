@@ -3,10 +3,14 @@ title: Dölj information från diagram i Java Slides
 linktitle: Dölj information från diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du döljer diagramelement i Java Slides med Aspose.Slides för Java. Anpassa presentationer för klarhet och estetik med steg-för-steg-vägledning och källkod.
-type: docs
 weight: 13
 url: /sv/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att dölja information från diagram i Java Slides
 
@@ -172,3 +176,9 @@ Ja, du kan ändra diagramtypen dynamiskt genom att skapa ett nytt diagram av ön
 ### Hur kan jag ändra diagrammets titel och axeletiketter programmatiskt?
 
 Du kan ställa in titel och etiketter för diagrammet och axlarna genom att komma åt deras respektive egenskaper och ställa in önskad text och formatering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

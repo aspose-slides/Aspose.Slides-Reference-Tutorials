@@ -3,10 +3,14 @@ title: Vormuitlijning beheersen met Aspose.Slides voor .NET
 linktitle: Vormen in presentatiedia's uitlijnen met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer moeiteloos vormen uitlijnen in presentatiedia's met Aspose.Slides voor .NET. Verbeter de visuele aantrekkingskracht met nauwkeurige uitlijning. Download nu!
-type: docs
 weight: 10
 url: /nl/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Het maken van visueel aantrekkelijke presentatiedia's vereist vaak een nauwkeurige uitlijning van vormen. Aspose.Slides voor .NET biedt een krachtige oplossing om dit gemakkelijk te bereiken. In deze zelfstudie onderzoeken we hoe u vormen in presentatiedia's kunt uitlijnen met Aspose.Slides voor .NET.
 ## Vereisten
@@ -82,3 +86,9 @@ Absoluut! Aspose.Slides biedt methoden om vormen gelijkmatig te verdelen, zowel 
 Aspose.Slides voor .NET is voornamelijk ontworpen voor Windows-applicaties, maar Aspose biedt ook bibliotheken voor Java en andere platforms.
 ### Hoe kan ik verdere hulp of ondersteuning krijgen?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

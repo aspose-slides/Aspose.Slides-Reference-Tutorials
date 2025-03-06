@@ -3,10 +3,14 @@ title: Skaffa Portion Rectangle i PowerPoint med Java
 linktitle: Skaffa Portion Rectangle i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du får delrektangeln i PowerPoint med Aspose.Slides för Java med denna detaljerade, steg-för-steg handledning. Perfekt för Java-utvecklare.
-type: docs
 weight: 12
 url: /sv/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Att skapa dynamiska presentationer i Java är en bris med Aspose.Slides för Java. I den här självstudien kommer vi att dyka in i det nitty-gritty att få delrektangeln i PowerPoint med Aspose.Slides. Vi kommer att täcka allt från att ställa in din miljö till att bryta ner koden steg för steg. Så, låt oss komma igång!
 ## Förutsättningar
@@ -138,3 +142,9 @@ Aspose.Slides för Java är ett kraftfullt bibliotek som låter utvecklare skapa
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/slides/java/).
 ### Hur kan jag få support för Aspose.Slides för Java?
  Du kan få stöd från Aspose-forumet[här](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

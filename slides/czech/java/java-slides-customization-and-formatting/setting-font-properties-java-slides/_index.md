@@ -3,10 +3,14 @@ title: Nastavení vlastností písma v Java Slides
 linktitle: Nastavení vlastností písma v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit vlastnosti písma v Java slidech pomocí Aspose.Slides for Java. Tento podrobný průvodce obsahuje příklady kódu a časté dotazy.
-type: docs
 weight: 15
 url: /cs/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do nastavení vlastností písma v Java Slides
 
@@ -137,3 +141,9 @@ for (ISlide slide : pres.getSlides()) {
     // Zde získáte přístup a přizpůsobení vlastností písma textových prvků
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

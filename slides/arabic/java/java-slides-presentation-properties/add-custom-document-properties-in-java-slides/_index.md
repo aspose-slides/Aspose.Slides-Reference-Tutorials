@@ -3,10 +3,14 @@ title: أضف خصائص المستند المخصصة في شرائح Java
 linktitle: أضف خصائص المستند المخصصة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام خصائص المستند المخصصة في Java Slides. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية باستخدام Aspose.Slides لـ Java.
-type: docs
 weight: 13
 url: /ar/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإضافة خصائص مستند مخصصة في شرائح Java
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 سيعرض هذا الرمز أسماء وقيم جميع الخصائص المخصصة في العرض التقديمي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

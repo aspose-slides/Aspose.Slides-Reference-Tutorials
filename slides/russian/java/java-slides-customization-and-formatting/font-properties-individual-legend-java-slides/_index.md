@@ -3,10 +3,14 @@ title: Свойства шрифта для отдельной легенды в
 linktitle: Свойства шрифта для отдельной легенды в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшайте презентации PowerPoint с помощью пользовательских стилей, размеров и цветов шрифтов для отдельных легенд в слайдах Java с помощью Aspose.Slides для Java.
-type: docs
 weight: 12
 url: /ru/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в свойства шрифта для отдельных легенд в слайдах Java
 
@@ -113,3 +117,9 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

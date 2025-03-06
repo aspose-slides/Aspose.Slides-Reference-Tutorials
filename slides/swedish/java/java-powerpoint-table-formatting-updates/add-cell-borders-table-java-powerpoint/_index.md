@@ -3,10 +3,14 @@ title: Lägg till cellgränser till tabell i Java PowerPoint
 linktitle: Lägg till cellgränser till tabell i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till cellkanter i tabeller i Java PowerPoint-presentationer med Aspose.Slides. Denna steg-för-steg-guide gör det enkelt att förbättra dina bilder.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Hallå där! Så, du funderar på att lägga till cellkanter till en tabell i en PowerPoint-presentation med Java, va? Tja, du är på rätt plats! Denna handledning guidar dig genom processen steg-för-steg med Aspose.Slides för Java-biblioteket. I slutet av den här guiden har du ett bra grepp om hur du manipulerar tabeller i dina PowerPoint-bilder som ett proffs. Låt oss dyka in och få dina presentationer att se snygga och professionella ut!
 ## Förutsättningar
@@ -96,3 +100,9 @@ Absolut! Du kan infoga bilder i tabellceller med Aspose.Slides.
 Ja, du kan automatisera processen genom att gå igenom bilderna och använda logiken för att skapa tabeller på varje bild.
 ### Vilka filformat stöder Aspose.Slides?
 Aspose.Slides stöder olika format inklusive PPT, PPTX, PDF och mer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

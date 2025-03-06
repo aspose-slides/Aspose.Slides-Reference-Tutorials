@@ -3,10 +3,14 @@ title: 在 Java Slides 中另存为预定义视图类型
 linktitle: 在 Java Slides 中另存为预定义视图类型
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中设置预定义视图类型。带有代码示例和常见问题解答的分步指南。
-type: docs
 weight: 10
 url: /zh/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中另存为预定义视图类型的介绍
 
@@ -109,3 +113,9 @@ Aspose.Slides for Java 支持多种输出格式，包括 PPTX、PDF、TIFF、HTM
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多信息和文档？
 
 有关 Aspose.Slides for Java 的全面文档和参考资料，请访问文档网站：[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

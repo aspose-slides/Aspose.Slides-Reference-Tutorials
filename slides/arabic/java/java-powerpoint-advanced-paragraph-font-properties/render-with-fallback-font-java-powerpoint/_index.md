@@ -3,10 +3,14 @@ title: التقديم باستخدام الخط الاحتياطي في Java Pow
 linktitle: التقديم باستخدام الخط الاحتياطي في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية عرض النص باستخدام الخطوط الاحتياطية في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. اتبع هذا الدليل خطوة بخطوة للتنفيذ السلس.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 قد يكون إنشاء عروض PowerPoint التقديمية ومعالجتها في Java أمرًا صعبًا، ولكن باستخدام Aspose.Slides، يمكنك القيام بذلك بكفاءة. إحدى الميزات المهمة هي القدرة على عرض النص باستخدام الخطوط الاحتياطية. توفر هذه المقالة دليلاً تفصيليًا خطوة بخطوة حول كيفية تطبيق الخطوط الاحتياطية في شرائح PowerPoint باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -88,3 +92,9 @@ Aspose.Slides for Java هي مكتبة تتيح للمطورين إنشاء عر
 نعم، يمكنك إضافة قواعد احتياطية متعددة للتعامل مع نطاقات وخطوط Unicode المختلفة.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

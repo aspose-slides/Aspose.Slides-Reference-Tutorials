@@ -3,10 +3,14 @@ title: Graf trendových čar v Java Slides
 linktitle: Graf trendových čar v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat různé trendové čáry do Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu pro efektivní vizualizaci dat.
-type: docs
 weight: 15
 url: /cs/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do trendových linií grafu v Java Slides: Průvodce krok za krokem
 
@@ -190,3 +194,9 @@ Ano, do jedné řady grafu můžete přidat více trendových čar. Jednoduše z
 ### Jak mohu získat přístup k dalším zdrojům a příkladům pro Aspose.Slides pro Java?
 
  Máte přístup k dalším zdrojům, dokumentaci a příkladům pro Aspose.Slides for Java na[Aspose webové stránky](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

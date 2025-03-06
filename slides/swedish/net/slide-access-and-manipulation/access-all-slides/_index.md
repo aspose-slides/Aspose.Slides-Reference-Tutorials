@@ -3,10 +3,14 @@ title: Hämta alla bilder i en presentation
 linktitle: Hämta alla bilder i en presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du hämtar alla bilder i en PowerPoint-presentation med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med komplett källkod för att effektivt arbeta med presentationer programmatiskt. Utforska bildegenskaper, installation, anpassning och mer.
-type: docs
 weight: 13
 url: /sv/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -139,3 +143,9 @@ Absolut. Du kan lägga till text, bilder, former, diagram och mer till dina bild
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
  För mer detaljerad information, API-referenser och kodexempel kan du besöka[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

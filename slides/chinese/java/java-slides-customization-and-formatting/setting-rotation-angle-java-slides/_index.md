@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置旋转角度
 linktitle: 在 Java Slides 中设置旋转角度
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 优化您的 Java 幻灯片。学习设置文本元素的旋转角度。带有源代码的分步指南。
-type: docs
 weight: 17
 url: /zh/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中设置旋转角度的介绍
 
@@ -100,3 +104,9 @@ Aspose.Slides for Java 为图表标题提供了各种格式选项，包括字体
 ### 是否可以为图表轴标题中的文本旋转制作动画？
 
 是的，您可以使用 Aspose.Slides for Java 为文本元素（包括图表轴标题）添加动画效果。有关向演示文稿添加动画的信息，请参阅文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

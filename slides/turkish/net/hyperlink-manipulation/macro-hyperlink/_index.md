@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET'te Makro Köprü Tıklaması Nasıl Ayarlanır
 linktitle: Makroları Kullanarak Köprü Yönetimi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile sunumlarınızda makro köprüleri nasıl ayarlayacağınızı öğrenin. Etkileşimi artırın ve hedef kitlenizin ilgisini çekin.
-type: docs
 weight: 13
 url: /tr/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Modern yazılım geliştirme dünyasında dinamik ve etkileşimli sunumlar oluşturmak önemli bir husustur. Aspose.Slides for .NET, sunumlarla sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir kütüphanedir. İster bir iş sunumu ister eğitici bir slayt gösterisi oluşturuyor olun, makro köprü tıklamalarını ayarlama yeteneği, kullanıcı deneyimini büyük ölçüde geliştirebilir. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak bir makro köprü tıklaması ayarlama sürecinde size yol göstereceğiz. 
 
@@ -106,3 +110,9 @@ Evet, boyut, renk ve yazı tipi gibi özelliklerini ayarlayarak Otomatik Şekil'
 
 ### Aspose.Slides for .NET için nereden yardım veya destek alabilirim?
  Sorunlarla karşılaşırsanız veya sorularınız varsa Aspose destek forumundan yardım alabilirsiniz.[Burada](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

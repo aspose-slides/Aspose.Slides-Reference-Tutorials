@@ -3,10 +3,14 @@ title: Invert If Negative pro jednotlivé řady v Java Slides
 linktitle: Invert If Negative pro jednotlivé řady v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se používat funkci Invert If Negative v Aspose.Slides for Java k vylepšení vizuálů grafů v prezentacích PowerPoint.
-type: docs
 weight: 11
 url: /cs/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do Invert If Negative pro jednotlivé řady v Java Slides
 
@@ -131,3 +135,9 @@ Ano, vzhled inverzních datových bodů si můžete přizpůsobit. Aspose.Slides
 ### Kde mohu získat přístup k dokumentaci Aspose.Slides for Java?
 
 Dokumentaci k Aspose.Slides for Java můžete získat na adrese[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tạo các hình dạng phác thảo tuyệt đẹp với Aspose.Slides
 linktitle: Tạo các hình dạng phác thảo trong các slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm các hình dạng phác thảo sáng tạo vào các trang trình bày của bạn bằng Aspose.Slides for .NET. Tăng cường sự hấp dẫn thị giác một cách dễ dàng!
-type: docs
 weight: 13
 url: /vi/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tạo các hình dạng phác thảo trong các trang trình bày bằng Aspose.Slides cho .NET. Nếu bạn muốn thêm chút sáng tạo vào bài thuyết trình của mình, các hình dạng phác thảo sẽ mang lại tính thẩm mỹ độc đáo và được vẽ bằng tay. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nó thành các bước đơn giản để đảm bảo trải nghiệm suôn sẻ.
 ## Điều kiện tiên quyết
@@ -74,3 +78,9 @@ Việc thêm các hình dạng phác thảo vào các trang trình bày của b�
  Để mua Aspose.Slides cho .NET, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
 ### 5. Bạn có cung cấp giấy phép tạm thời không?
  Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

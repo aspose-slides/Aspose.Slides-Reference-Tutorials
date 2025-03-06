@@ -3,10 +3,14 @@ title: Właściwości czcionek w programie PowerPoint z Javą
 linktitle: Właściwości czcionek w programie PowerPoint z Javą
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak manipulować właściwościami czcionek w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides dla języka Java. Z łatwością dostosuj czcionki, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku omówimy, jak manipulować właściwościami czcionek w prezentacjach programu PowerPoint przy użyciu języka Java, w szczególności za pomocą Aspose.Slides dla języka Java. Poprowadzimy Cię przez każdy krok, od importowania niezbędnych pakietów po zapisanie zmodyfikowanej prezentacji. Zanurzmy się!
 ## Warunki wstępne
@@ -81,3 +85,9 @@ Tak, Aspose.Slides for Java udostępnia różne opcje efektów tekstowych, któr
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej wsparcia i zasobów dla Aspose.Slides dla Java?
  Możesz odwiedzić forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11) za wsparcie i dokumentację[Tutaj](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

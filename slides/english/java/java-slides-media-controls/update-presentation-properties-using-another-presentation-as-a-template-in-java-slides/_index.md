@@ -3,10 +3,14 @@ title: Update Presentation Properties Using Another Presentation as a Template i
 linktitle: Update Presentation Properties Using Another Presentation as a Template in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance PowerPoint presentations with updated metadata using Aspose.Slides for Java. Learn to update properties like author, title, and keywords using templates in Java Slides.
-type: docs
 weight: 14
 url: /java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Update Presentation Properties Using Another Presentation as a Template in Java Slides
 
@@ -122,3 +126,10 @@ Yes, you can customize the code to update specific properties based on your requ
 ### Is there any limitation on the type of presentations that can be updated?
 
 No, you can update properties for presentations in various formats, including PPTX, ODP, and PPT.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Bagan Peta Pohon di Slide Java
 linktitle: Bagan Peta Pohon di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Peta Pohon di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk memvisualisasikan data hierarki.
-type: docs
 weight: 13
 url: /id/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Bagan Peta Pohon di Slide Java
 
@@ -152,3 +156,9 @@ Ya, Anda dapat membuat beberapa bagan Peta Pohon dalam satu presentasi dengan me
 ### Bagaimana cara menyimpan presentasi dengan bagan Peta Pohon?
 
  Menggunakan`pres.save()` metode untuk menyimpan presentasi dengan bagan Peta Pohon dalam format yang diinginkan (misalnya PPTX).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

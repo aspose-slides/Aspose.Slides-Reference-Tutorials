@@ -3,10 +3,14 @@ title: การรักษาแบบอักษรดั้งเดิม 
 linktitle: การรักษาแบบอักษรดั้งเดิม - แปลงการนำเสนอเป็น HTML
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีรักษาแบบอักษรดั้งเดิมในขณะที่แปลงงานนำเสนอเป็น HTML โดยใช้ Aspose.Slides สำหรับ .NET ตรวจสอบความสอดคล้องของแบบอักษรและผลกระทบต่อภาพได้อย่างง่ายดาย
-type: docs
 weight: 14
 url: /th/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดขั้นตอนการรักษาแบบอักษรดั้งเดิมเมื่อแปลงงานนำเสนอเป็น HTML โดยใช้ Aspose.Slides สำหรับ .NET เราจะจัดเตรียมซอร์สโค้ด C# ที่จำเป็นให้กับคุณ และอธิบายแต่ละขั้นตอนโดยละเอียด เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะมั่นใจได้ว่าแบบอักษรในเอกสาร HTML ที่แปลงแล้วของคุณยังคงตรงตามการนำเสนอต้นฉบับ
 
@@ -98,3 +102,10 @@ Aspose.Slides สำหรับ .NET เน้นไปที่การนำ
 ### คำถามที่ 5: ฉันสามารถเข้าถึงทรัพยากรและการสนับสนุนเพิ่มเติมได้จากที่ไหน
 
  คุณสามารถค้นหาเอกสาร บทช่วยสอน และการสนับสนุนเพิ่มเติมได้จากเว็บไซต์ Aspose เยี่ยม[Aspose.Slides สำหรับเอกสาร .NET](https://reference.aspose.com/slides/net/) สำหรับข้อมูลโดยละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java 슬라이드에서 위치 축 설정
 linktitle: Java 슬라이드에서 위치 축 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 차트를 향상하세요. Java 슬라이드에서 위치 축을 설정하고, 멋진 프레젠테이션을 만들고, 차트 레이아웃을 쉽게 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java에서 위치 축 설정 소개
 
@@ -100,3 +104,9 @@ if (pres != null) pres.dispose();
 ```
 
 이것이 이번 튜토리얼의 전부입니다. Aspose.Slides for Java를 사용하여 차트에서 위치 축을 설정하는 방법을 배웠습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

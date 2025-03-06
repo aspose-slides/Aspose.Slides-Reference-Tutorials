@@ -3,10 +3,14 @@ title: Java スライドでワークブックからグラフ データを設定�
 linktitle: Java スライドでワークブックからグラフ データを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java スライドで Excel ブックからグラフ データを設定する方法を学びます。動的なプレゼンテーションのコード例を含むステップ バイ ステップ ガイド。
-type: docs
 weight: 15
 url: /ja/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドでワークブックからグラフ データを設定する方法の紹介
 
@@ -142,3 +146,9 @@ Aspose.Slides for Java は、棒グラフ、折れ線グラフ、散布図など
 ### Aspose.Slides for Java の操作に関するその他の例やリソースはどこで見つかりますか?
 
 追加の例やリソースについては、[Aspose ウェブサイト](https://www.aspose.com/)さらに、Aspose.Slides for Java のドキュメントには、ライブラリの操作に関する包括的なガイダンスが記載されています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

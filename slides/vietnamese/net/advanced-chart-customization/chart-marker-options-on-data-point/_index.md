@@ -3,10 +3,14 @@ title: Sử dụng tùy chọn đánh dấu biểu đồ trên điểm dữ li�
 linktitle: Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách nâng cao biểu đồ PowerPoint của bạn bằng Aspose.Slides for .NET. Tùy chỉnh điểm đánh dấu điểm dữ liệu bằng hình ảnh. Tạo bài thuyết trình hấp dẫn.
-type: docs
 weight: 11
 url: /vi/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Khi làm việc với các bài thuyết trình và trực quan hóa dữ liệu, Aspose.Slides for .NET cung cấp nhiều tính năng mạnh mẽ để tạo, tùy chỉnh và thao tác với biểu đồ. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng các tùy chọn đánh dấu biểu đồ trên các điểm dữ liệu để cải thiện bản trình bày biểu đồ của bạn. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, bắt đầu từ các điều kiện tiên quyết và nhập vùng tên cho đến chia nhỏ từng ví dụ thành nhiều bước.
 
@@ -148,3 +152,9 @@ Aspose.Slides for .NET được thiết kế để hoạt động với nhiều 
 
 ### Có phiên bản dùng thử của Aspose.Slides cho .NET không?
  Có, bạn có thể dùng thử Aspose.Slides cho .NET bằng cách tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

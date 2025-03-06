@@ -3,10 +3,14 @@ title: Aspose.Slides で図形の拡大縮小率を指定してサムネイル�
 linktitle: Aspose.Slides で図形の拡大縮小率を指定してサムネイルを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、特定の境界を持つ PowerPoint サムネイル画像を作成する方法を学習します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 Aspose.Slides for .NET で図形の境界付きサムネイルを作成するための包括的なガイドへようこそ。Aspose.Slides は、開発者が .NET アプリケーションで PowerPoint プレゼンテーションをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Slides を使用してプレゼンテーション内の図形の特定の境界付きサムネイルを生成するプロセスを詳しく説明します。
 ## 前提条件
@@ -55,3 +59,9 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 ご質問やサポートが必要な場合は、Aspose.Slides サポートフォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/slides/11).
 ### Q5: Aspose.Slides for .NET を購入できますか?
 もちろんです！Aspose.Slides for .NETを購入するには、購入ページにアクセスしてください。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

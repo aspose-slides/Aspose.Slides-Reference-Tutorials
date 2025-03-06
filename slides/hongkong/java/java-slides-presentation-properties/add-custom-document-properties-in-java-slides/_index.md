@@ -3,10 +3,14 @@ title: 在 Java 投影片中新增自訂文件屬性
 linktitle: 在 Java 投影片中新增自訂文件屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 投影片中的自訂文件屬性來增強 PowerPoint 簡報。使用 Aspose.Slides for Java 的逐步指南以及程式碼範例。
-type: docs
 weight: 13
 url: /zh-hant/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在 Java 投影片中新增自訂文件屬性簡介
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 此程式碼將顯示簡報中所有自訂屬性的名稱和值。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

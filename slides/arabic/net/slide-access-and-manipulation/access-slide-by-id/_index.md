@@ -3,10 +3,14 @@ title: الوصول إلى الشريحة بواسطة المعرف الفريد
 linktitle: الوصول إلى الشريحة بواسطة المعرف الفريد
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية الوصول إلى شرائح PowerPoint بواسطة معرفات فريدة باستخدام Aspose.Slides for .NET. يغطي هذا الدليل خطوة بخطوة تحميل العروض التقديمية والوصول إلى الشرائح عن طريق الفهرس أو المعرف وتعديل المحتوى وحفظ التغييرات.
-type: docs
 weight: 11
 url: /ar/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -112,3 +116,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### أين يمكنني العثور على وثائق وموارد أكثر تفصيلاً؟
 
  يمكنك العثور على وثائق شاملة ونماذج تعليمات برمجية وبرامج تعليمية والمزيد على Aspose.Slides for .NET في[توثيق](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

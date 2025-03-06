@@ -3,10 +3,14 @@ title: Állítsa be a bemutató nyelvét és a szöveg alakját a Java nyelven
 linktitle: Állítsa be a bemutató nyelvét és a szöveg alakját a Java nyelven
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan automatizálhatja a PowerPoint prezentációkat az Aspose.Slides for Java használatával. Egyszerűen hozhat létre, módosíthat és javíthat diák programozottan.
-type: docs
 weight: 19
 url: /hu/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 PowerPoint prezentációk programozott létrehozása és manipulálása Java nyelven leegyszerűsítheti a munkafolyamatok automatizálását és növelheti a termelékenységet. Az Aspose.Slides for Java robusztus eszközkészletet kínál e feladatok hatékony végrehajtásához. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for Java segítségével a prezentációs nyelv beállításának és a szöveg alakításának alapvető lépésein.
 ## Előfeltételek
@@ -69,3 +73,9 @@ Igen, az Aspose.Slides átfogó API-kat biztosít a prezentációk teljesen prog
  A részletes dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Slides for Java számára?
  Látogassa meg az Aspose.Slides fórumot[itt](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

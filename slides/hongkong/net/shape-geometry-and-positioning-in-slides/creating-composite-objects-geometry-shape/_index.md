@@ -3,10 +3,14 @@ title: 在簡報中掌握複合幾何形狀
 linktitle: 使用 Aspose.Slides 建立幾何形狀的複合對象
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 使用複合幾何形狀建立令人驚嘆的簡報。按照我們的逐步指南獲得令人印象深刻的結果。
-type: docs
 weight: 14
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 釋放 Aspose.Slides for .NET 的強大功能，透過建立幾何形狀的複合物件來增強您的簡報。本教學將引導您完成使用 Aspose.Slides 產生具有複雜幾何形狀的視覺吸引力投影片的過程。
 ## 先決條件
@@ -84,3 +88,9 @@ Aspose.Slides支援多種程式語言，包括Java和Python。但是，本教程
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區的支持和幫助。
 ### Q：我可以購買臨時許可證嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

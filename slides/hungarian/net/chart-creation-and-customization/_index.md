@@ -3,10 +3,14 @@ title: Diagram létrehozása és testreszabása
 linktitle: Diagram létrehozása és testreszabása
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Növelje .NET-alkalmazása prezentációs képességeit az Aspose.Slides segítségével. Merüljön el a diagramok létrehozásáról és testreszabásáról szóló oktatóanyagunkban, amelyben lépésről lépésre útmutatókat és kódpéldákat fedez fel.
-type: docs
 weight: 14
 url: /hu/net/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés:
 
@@ -27,3 +31,9 @@ Ismerje meg, hogyan hasonlíthatja össze a prezentációk diákjait az Aspose.S
 Ismerje meg, hogyan használhatja az Aspose.Slides for .NET-et dinamikus PowerPoint-bemutatók létrehozásához alaphelyőrzőkkel.
 ### [Fejléc és lábléc kezelése a Diákban](./header-footer-manager/)
 Ismerje meg, hogyan kezelheti a diák fejléceit és lábléceit az Aspose.Slides for .NET segítségével. Szabja testre prezentációit könnyedén és pontosan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Đặt độ trong suốt của văn bản trong bóng bằng cách sử 
 linktitle: Đặt độ trong suốt của văn bản trong bóng bằng cách sử dụng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách điều chỉnh độ trong suốt của bóng văn bản trong PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn theo chương trình.
-type: docs
 weight: 20
 url: /vi/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách điều khiển độ trong suốt của bóng văn bản trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Việc điều chỉnh độ trong suốt của bóng văn bản có thể nâng cao đáng kể sự hấp dẫn trực quan của các trang trình bày của bạn, khiến chúng trở nên năng động và chuyên nghiệp hơn. Aspose.Slides for Java cung cấp các chức năng mạnh mẽ để kiểm soát chính xác các khía cạnh khác nhau của các thành phần slide theo chương trình, đảm bảo bản trình bày của bạn đáp ứng các tiêu chuẩn thiết kế cao nhất.
 ## Điều kiện tiên quyết
@@ -70,3 +74,9 @@ Aspose.Slides cho Java là một API Java mạnh mẽ cho phép các nhà phát 
  Có thể tìm thấy tài liệu về Aspose.Slides cho Java[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Để được hỗ trợ và tương tác với cộng đồng, hãy truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

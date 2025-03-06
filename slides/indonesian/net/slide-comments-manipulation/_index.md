@@ -3,10 +3,14 @@ title: Manipulasi Komentar Slide
 linktitle: Manipulasi Komentar Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan keterampilan manipulasi slide Anda dengan tutorial Aspose.Slides tentang manipulasi komentar slide. Pelajari cara menambahkan, mengedit, dan mengelola komentar secara terprogram dalam presentasi PowerPoint menggunakan .NET.
-type: docs
 weight: 12
 url: /id/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Perkenalan
 
@@ -27,3 +31,9 @@ Pelajari cara menyempurnakan presentasi Anda dengan elemen interaktif dengan men
 Tambahkan kedalaman dan interaksi pada presentasi Anda dengan Aspose.Slides API. Pelajari cara mengintegrasikan komentar dengan mudah ke dalam slide Anda menggunakan .NET. Tingkatkan keterlibatan dan pikat audiens Anda.
 ### [Manajemen Komentar Modern](./modern-comments/)
 Tingkatkan proses kolaborasi dan umpan balik dengan manajemen komentar modern menggunakan Aspose.Slides. Pelajari cara menyederhanakan komunikasi dalam presentasi Anda dan memaksimalkan produktivitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

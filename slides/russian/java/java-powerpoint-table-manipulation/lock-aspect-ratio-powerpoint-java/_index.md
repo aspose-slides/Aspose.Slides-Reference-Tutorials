@@ -3,10 +3,14 @@ title: Заблокировать соотношение сторон в PowerPo
 linktitle: Заблокировать соотношение сторон в PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как зафиксировать соотношение сторон в презентациях PowerPoint с помощью Java с помощью Aspose.Slides. Идеально подходит для разработчиков Java, которым нужен точный контроль над дизайном слайдов.
-type: docs
 weight: 16
 url: /ru/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В области разработки Java программное управление презентациями PowerPoint может упростить рабочие процессы и значительно повысить производительность. Aspose.Slides for Java предлагает надежный набор инструментов для разработчиков Java для автоматизации таких задач, как изменение слайдов, добавление контента и применение форматирования непосредственно из кода Java. В этом руководстве рассматривается фундаментальный аспект управления презентациями PowerPoint: блокировка пропорций.
 ## Предварительные условия
@@ -61,3 +65,9 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
  Вы можете обратиться за поддержкой к сообществу Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11).
 ### Как я могу попробовать Aspose.Slides для Java перед покупкой?
  Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: الحصول على مستطيل الجزء في PowerPoint باستخد�
 linktitle: الحصول على مستطيل الجزء في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الحصول على الجزء المستطيل في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي التفصيلي خطوة بخطوة. مثالية لمطوري جافا.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 أصبح إنشاء عروض تقديمية ديناميكية في Java أمرًا سهلاً مع Aspose.Slides for Java. في هذا البرنامج التعليمي، سوف نتعمق في التفاصيل الدقيقة للحصول على الجزء المستطيل في PowerPoint باستخدام Aspose.Slides. سنغطي كل شيء بدءًا من إعداد بيئتك وحتى تحليل التعليمات البرمجية خطوة بخطوة. اذا هيا بنا نبدأ!
 ## المتطلبات الأساسية
@@ -138,3 +142,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من منتدى Aspose[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

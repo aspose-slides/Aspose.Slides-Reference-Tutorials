@@ -3,10 +3,14 @@ title: जावा स्लाइड्स में चार्ट इका
 linktitle: जावा स्लाइड्स में चार्ट इकाइयाँ
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java स्लाइड चार्ट बनाना और उन्हें कस्टमाइज़ करना सीखें। शक्तिशाली चार्ट इकाइयों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
-type: docs
 weight: 13
 url: /hi/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## जावा स्लाइड्स में चार्ट एंटिटीज़ का परिचय
 
@@ -301,3 +305,9 @@ finally
 ### क्या Aspose.Slides for Java नवीनतम Java संस्करणों के साथ संगत है?
 
 हां, Aspose.Slides for Java को नवीनतम Java संस्करणों का समर्थन करने के लिए नियमित रूप से अपडेट किया जाता है और यह Java वातावरण की एक विस्तृत श्रृंखला में संगतता प्रदान करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

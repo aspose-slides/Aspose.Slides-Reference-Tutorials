@@ -3,10 +3,14 @@ title: Toegang tot onderliggende knooppunten in SmartArt met behulp van Java
 linktitle: Toegang tot onderliggende knooppunten in SmartArt met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u onderliggende knooppunten in SmartArt kunt openen en manipuleren met behulp van Aspose.Slides voor Java met deze stapsgewijze handleiding.
-type: docs
 weight: 10
 url: /nl/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Heeft u zich ooit afgevraagd hoe u SmartArt-afbeeldingen in uw presentaties programmatisch kunt manipuleren? Aspose.Slides voor Java is uw favoriete bibliotheek voor het beheren en bewerken van PowerPoint-presentaties. Met deze krachtige tool kunnen ontwikkelaars verschillende elementen binnen een presentatie openen en manipuleren, inclusief SmartArt-afbeeldingen. In deze zelfstudie begeleiden we u bij het verkrijgen van toegang tot onderliggende knooppunten in SmartArt met behulp van Java, waardoor uw presentaties dynamischer en interactiever worden. Aan het einde van deze handleiding beschikt u over de kennis om SmartArt-knooppunten gemakkelijk te doorkruisen en te manipuleren.
 ## Vereisten
@@ -81,3 +85,9 @@ Ja, met Aspose.Slides voor Java kunt u verschillende elementen, zoals tekst, vor
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Wat is de beste IDE om te ontwikkelen met Aspose.Slides voor Java?
 IntelliJ IDEA en Eclipse zijn populaire IDE's die goed werken met Aspose.Slides voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

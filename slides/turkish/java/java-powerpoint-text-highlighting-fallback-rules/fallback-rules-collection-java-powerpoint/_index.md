@@ -3,10 +3,14 @@ title: Java PowerPoint'te Geri Dönme Kuralları Koleksiyonu
 linktitle: Java PowerPoint'te Geri Dönme Kuralları Koleksiyonu
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında yazı tipi geri dönüş kurallarını nasıl yöneteceğinizi öğrenin. Cihazlar arasındaki uyumluluğu zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java'yı kullanarak yazı tipi geri dönüş kurallarının nasıl yönetileceğini inceleyeceğiz. Yazı tipi yedekleri, özellikle belirli yazı tipleri kullanılamadığında sunumlarınızın farklı ortamlarda doğru şekilde görüntülenmesini sağlamak açısından çok önemlidir. Gerekli paketleri içe aktarma, ortamı ayarlama ve geri dönüş kurallarını adım adım uygulama konusunda size rehberlik edeceğiz.
 ## Önkoşullar
@@ -73,3 +77,9 @@ Yazı tipi geri dönüş kuralları, belirtilen yazı tipi mevcut olmadığında
  Detaylı dokümantasyon mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl destek alabilirim?
 Destek için Aspose.Slides forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

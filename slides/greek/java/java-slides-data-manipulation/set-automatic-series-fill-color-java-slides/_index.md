@@ -3,10 +3,14 @@ title: Ορίστε το Automatic Series Fill Color σε Java Slides
 linktitle: Ορίστε το Automatic Series Fill Color σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε το χρώμα αυτόματου γεμίσματος σειρών σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για δυναμικές παρουσιάσεις.
-type: docs
 weight: 14
 url: /el/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στον ορισμό αυτόματου χρώματος πλήρωσης σειράς σε διαφάνειες Java
 
@@ -126,3 +130,9 @@ finally
 ### Πού μπορώ να βρω περισσότερους πόρους και τεκμηρίωση;
 
  Μπορείτε να αποκτήσετε πρόσβαση σε ολοκληρωμένη τεκμηρίωση για το Aspose.Slides για Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: تقنيات عرض جافا باور بوينت
 linktitle: تقنيات عرض جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية عرض التعليقات والرسومات ثلاثية الأبعاد والرموز التعبيرية والمزيد في PowerPoint باستخدام Aspose.Slides لـ Java. دروس شاملة للعروض التقديمية المحسنة.
-type: docs
 weight: 22
 url: /ar/java/java-powerpoint-rendering-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -38,3 +42,9 @@ url: /ar/java/java-powerpoint-rendering-techniques/
 تعرف على كيفية عرض الرموز التعبيرية في عروض PowerPoint التقديمية بسهولة باستخدام Aspose.Slides لـ Java. تعزيز التفاعل مع الصور التعبيرية.
 ### [خيارات العرض في PowerPoint](./render-options-powerpoint/)
 تعرف على كيفية التعامل مع خيارات العرض في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص الشرائح الخاصة بك للحصول على التأثير البصري الأمثل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

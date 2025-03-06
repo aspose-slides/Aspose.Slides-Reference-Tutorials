@@ -3,10 +3,14 @@ title: Bädda in OLE-objektguide med Aspose.Slides för .NET
 linktitle: Ersätter bildtitel för OLE-objektram i presentationsbilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar dina presentationsbilder med dynamiska OLE-objekt med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 15
 url: /sv/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Att skapa dynamiska och engagerande presentationsbilder involverar ofta inkorporering av olika multimediaelement. I den här självstudien kommer vi att undersöka hur man ersätter bildtiteln för en OLE (Object Linking and Embedding)-objektram i presentationsbilder med det kraftfulla Aspose.Slides for .NET-biblioteket. Aspose.Slides förenklar processen att hantera OLE-objekt, vilket ger utvecklare verktygen för att förbättra sina presentationer med lätthet.
 ## Förutsättningar
@@ -83,3 +87,9 @@ Från och med den senaste versionen fokuserar Aspose.Slides på inbäddning och 
 Säkert. Du har full programmatisk kontroll över OLE-objekt, så att du kan ändra deras egenskaper och utseende efter behov.
 ### Finns det några begränsningar för storleken på de inbäddade OLE-objekten?
 Även om det finns storleksbegränsningar är de generellt generösa. Det rekommenderas att testa med ditt specifika användningsfall för att säkerställa optimal prestanda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

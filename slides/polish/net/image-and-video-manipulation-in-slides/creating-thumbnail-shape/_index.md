@@ -3,10 +3,14 @@ title: Twórz miniatury kształtów programu PowerPoint — Aspose.Slides .NET
 linktitle: Tworzenie miniatury kształtu w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć miniatury kształtów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Kompleksowy przewodnik krok po kroku dla programistów.
-type: docs
 weight: 14
 url: /pl/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom bezproblemową pracę z prezentacjami programu PowerPoint. Jedną z jego godnych uwagi funkcji jest możliwość generowania miniatur kształtów w prezentacji. Ten samouczek poprowadzi Cię przez proces tworzenia miniatur kształtów przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -57,3 +61,9 @@ Odp.: Możesz zaimplementować mechanizmy obsługi błędów, używając bloków
 Odp.: Aspose.Slides zapewnia elastyczność tworzenia miniatur różnych kształtów, w tym pól tekstowych, obrazów i innych.
 ### P: Czy mogę dostosować rozmiar i rozdzielczość generowanych miniatur?
  Odp.: Tak, możesz dostosować parametry podczas wywoływania`GetThumbnail` metoda kontrolowania rozmiaru i rozdzielczości.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

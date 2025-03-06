@@ -3,10 +3,14 @@ title: Actualizar la tabla existente en PowerPoint usando Java
 linktitle: Actualizar la tabla existente en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo actualizar tablas existentes en PowerPoint usando Java con Aspose.Slides. Guía paso a paso, instrucciones detalladas y preguntas frecuentes incluidas.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Actualizar una tabla existente en una presentación de PowerPoint usando Java puede parecer una tarea desalentadora, pero con Aspose.Slides para Java, se convierte en un paseo por el parque. Esta guía paso a paso lo guiará a través de todo el proceso, asegurándose de que comprenda cada parte a fondo.
 ## Requisitos previos
@@ -92,3 +96,9 @@ Sí, puede recorrer las filas y columnas de la tabla para actualizar varias celd
 Sí, Aspose.Slides admite varios lenguajes de programación, incluidos .NET, Python y C.++.
 ### ¿Cómo obtengo una licencia temporal para Aspose.Slides?
  Puede obtener una licencia temporal del[Aspose página de compra](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

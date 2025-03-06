@@ -3,10 +3,14 @@ title: Java Slaytlarında Harici Çalışma Kitabını Güncelleme Grafiği Veri
 linktitle: Java Slaytlarında Harici Çalışma Kitabını Güncelleme Grafiği Verileriyle Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta harici çalışma kitaplarını nasıl ayarlayacağınızı ve grafik verilerini nasıl güncelleyeceğinizi öğrenin. PowerPoint otomasyon becerilerinizi geliştirin.
-type: docs
 weight: 20
 url: /tr/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarında Güncelleme Grafiği Verileriyle Harici Çalışma Kitabını Ayarlamaya Giriş
 
@@ -99,3 +103,9 @@ Evet, harici çalışma kitabını ayarladıktan sonra bile grafiğin görünüm
 ### Aspose.Slides for Java için daha fazla belge ve kaynağı nerede bulabilirim?
 
  Ayrıntılı belgeler ve ek kaynaklar için Aspose.Slides for Java belgelerini ziyaret edin:[Burada](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

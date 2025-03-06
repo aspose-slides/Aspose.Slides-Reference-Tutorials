@@ -3,10 +3,14 @@ title: 在 PowerPoint 中新增 OLE 物件框架
 linktitle: 在 PowerPoint 中新增 OLE 物件框架
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 OLE 物件框架無縫整合到 PowerPoint 簡報中。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在 PowerPoint 簡報中新增 OLE（物件連結和嵌入）物件框架可顯著增強投影片的視覺吸引力和功能。借助 Aspose.Slides for Java，這個過程變得精簡且有效率。在本教程中，我們將引導您完成將 OLE 物件框架無縫整合到 PowerPoint 簡報中所需的步驟。
 ### 先決條件
@@ -80,3 +84,9 @@ Aspose.Slides 提供與各種 PowerPoint 版本的兼容性，確保無縫整合
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 在哪裡可以找到 Aspose.Slides for Java 的支援？
 您可以從Aspose.Slides論壇尋求支持和幫助[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

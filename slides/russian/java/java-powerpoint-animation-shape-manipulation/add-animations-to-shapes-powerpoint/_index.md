@@ -3,10 +3,14 @@ title: Добавьте анимацию к фигурам в PowerPoint
 linktitle: Добавьте анимацию к фигурам в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять анимацию к фигурам в PowerPoint с помощью Aspose.Slides for Java, с помощью этого подробного руководства. Идеально подходит для создания интересных презентаций.
-type: docs
 weight: 10
 url: /ru/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Для создания увлекательных презентаций часто требуется добавить анимацию к фигурам и тексту. Анимация может сделать ваши слайды более динамичными и увлекательными, гарантируя, что ваша аудитория останется заинтересованной. В этом уроке мы покажем вам процесс добавления анимации к фигурам в презентации PowerPoint с помощью Aspose.Slides для Java. К концу этой статьи вы сможете без особых усилий создавать профессиональные анимации.
 ## Предварительные условия
@@ -108,3 +112,9 @@ Aspose.Slides поддерживает Java SE 6 и выше.
 Вы можете добавить разные анимации к нескольким фигурам, повторяя шаги для каждой фигуры и при необходимости указывая разные эффекты.
 ### Где я могу найти больше примеров и документации?
  Проверьте[документация](https://reference.aspose.com/slides/java/) и[форум поддержки](https://forum.aspose.com/c/slides/11)для получения дополнительных примеров и помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

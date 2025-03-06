@@ -3,10 +3,14 @@ title: Förhandsgranska utskrift av presentationer i Aspose.Slides
 linktitle: Förhandsgranska utskrift av presentationer i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förhandsgranskar utskrifter av PowerPoint-presentationer med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med källkod för att generera och anpassa förhandsvisningar.
-type: docs
 weight: 11
 url: /sv/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Välkommen till världen av Aspose.Slides för .NET, ett kraftfullt bibliotek som ger utvecklare möjlighet att sömlöst manipulera och förbättra PowerPoint-presentationer i sina .NET-applikationer. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här omfattande guiden att leda dig genom de viktiga stegen för att dra nytta av Aspose.Slides fulla potential.
 ## Förutsättningar
@@ -71,3 +75,9 @@ Absolut! Aspose.Slides är mångsidig och kan integreras i både Windows och web
  Besök[Tillfällig licens](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för teständamål.
 ### Behöver du support eller har fler frågor?
  Besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) för att få hjälp och få kontakt med samhället.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

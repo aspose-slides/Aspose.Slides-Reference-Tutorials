@@ -3,10 +3,14 @@ title: Tạo hình dạng nhóm trong PowerPoint
 linktitle: Tạo hình dạng nhóm trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo các hình dạng nhóm trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Cải thiện tổ chức và sự hấp dẫn trực quan một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong các bài thuyết trình hiện đại, việc kết hợp các yếu tố có cấu trúc tốt và hấp dẫn trực quan là rất quan trọng để truyền tải thông tin một cách hiệu quả. Nhóm các hình dạng trong PowerPoint cho phép bạn sắp xếp nhiều hình dạng thành một đơn vị duy nhất, tạo điều kiện thuận lợi cho việc thao tác và định dạng dễ dàng hơn. Aspose.Slides cho Java cung cấp các chức năng mạnh mẽ để tạo và thao tác các hình dạng nhóm theo chương trình, mang lại sự linh hoạt và khả năng kiểm soát thiết kế bản trình bày của bạn.
 ## Điều kiện tiên quyết
@@ -75,3 +79,9 @@ Hoàn toàn có thể, bạn có thể thêm hình ảnh cùng với các hình 
 Aspose.Slides for Java không áp đặt giới hạn nghiêm ngặt nào về số lượng hình dạng có thể được thêm vào một hình dạng nhóm.
 ### Tôi có thể áp dụng hoạt ảnh cho các hình dạng nhóm bằng Aspose.Slides cho Java không?
 Có, Aspose.Slides for Java cung cấp hỗ trợ toàn diện cho việc áp dụng hoạt ảnh cho các hình dạng nhóm, cho phép trình bày động.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

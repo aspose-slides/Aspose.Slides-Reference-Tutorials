@@ -3,10 +3,14 @@ title: Agregue firmas digitales a PowerPoint con Aspose.Slides
 linktitle: Soporte de firmas digitales en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Firme presentaciones de PowerPoint de forma segura con Aspose.Slides para .NET. Sigue nuestra guía paso a paso. Descárguelo ahora para una prueba gratuita
-type: docs
 weight: 19
 url: /es/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Las firmas digitales desempeñan un papel crucial a la hora de garantizar la autenticidad y la integridad de los documentos digitales. Aspose.Slides para .NET proporciona un sólido soporte para firmas digitales, lo que le permite firmar sus presentaciones de PowerPoint de forma segura. En este tutorial, lo guiaremos a través del proceso de agregar firmas digitales a sus presentaciones usando Aspose.Slides.
 ## Requisitos previos
@@ -62,3 +66,9 @@ Aspose.Slides proporciona métodos para verificar firmas digitales mediante prog
  La documentación está disponible.[aquí](https://reference.aspose.com/slides/net/).
 ### ¿Necesita ayuda o tiene preguntas adicionales?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

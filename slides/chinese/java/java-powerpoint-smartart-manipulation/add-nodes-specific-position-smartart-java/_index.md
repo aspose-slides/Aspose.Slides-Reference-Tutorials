@@ -3,10 +3,14 @@ title: 使用 Java 在 SmartArt 中的特定位置添加节点
 linktitle: 使用 Java 在 SmartArt 中的特定位置添加节点
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点。轻松创建动态演示文稿。
-type: docs
 weight: 16
 url: /zh/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在本教程中，我们将指导您使用 Java 和 Aspose.Slides 在 SmartArt 中的特定位置添加节点的过程。SmartArt 是 PowerPoint 中的一项功能，可让您创建具有视觉吸引力的图表。
 ## 先决条件
@@ -70,3 +74,9 @@ Aspose.Slides 支持各种 PowerPoint 格式，确保与大多数版本的兼容
 是的，Aspose.Slides 为多种编程语言提供了库，包括.NET 和 Python。
 ### Aspose.Slides 有试用版吗？
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

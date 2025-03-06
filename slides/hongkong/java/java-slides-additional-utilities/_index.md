@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for Java 教學解鎖新的可能性
 linktitle: Java Slides 附加實用程式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 教學發現 Java Slides 的其他實用程式。透過強大的功能提升您的簡報。立即探索！
-type: docs
 weight: 20
 url: /zh-hant/java/additional-utilities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 您準備好將 Java Slides 演示提升到新的水平了嗎？ Aspose.Slides for Java 提供了一系列額外的實用程式和功能，可以將您的投影片轉變為迷人的傑作。在本文中，我們將探討 Aspose.Slides for Java 提供的各種工具和技術，讓您能夠創建給人留下深刻印象的簡報。
 
 ## Aspose.Slides for Java 的強大功能
@@ -48,3 +52,9 @@ Aspose.Slides for Java 是一個強大的函式庫，為 Java 開發人員提供
 了解如何使用 Aspose.Slides 在 Java Slides 中透過存取權保護 PDF 文件。本逐步指南涵蓋密碼保護等內容。
 ### [在不載入 Java 投影片的情況下驗證簡報](./verify-presentation-without-loading-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 驗證簡報而不將它們載入到 Java Slides 中。透過此逐步指南有效確保文件完整性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

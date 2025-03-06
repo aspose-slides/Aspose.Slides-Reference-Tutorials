@@ -3,10 +3,14 @@ title: تعيين الخط الاحتياطي في Java PowerPoint
 linktitle: تعيين الخط الاحتياطي في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين خطوط احتياطية في Java PowerPoint باستخدام Aspose.Slides لـ Java لضمان عرض نص متسق.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات إعداد الخطوط الاحتياطية في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. تعتبر احتياطيات الخطوط ضرورية لضمان عرض النص في العروض التقديمية بشكل صحيح عبر الأجهزة وأنظمة التشغيل المختلفة، حتى في حالة عدم توفر الخطوط المطلوبة.
 ## المتطلبات الأساسية
@@ -53,3 +57,9 @@ slide.getFontsManager().setFontFallBackRules(new IFontFallBackRule[]{firstRule, 
 نعم، يمكن الحصول على التراخيص المؤقتة لمنتجات Aspose من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides لـ Java؟
  للحصول على الدعم المتعلق بـ Aspose.Slides for Java، قم بزيارة[منتدى Aspose](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

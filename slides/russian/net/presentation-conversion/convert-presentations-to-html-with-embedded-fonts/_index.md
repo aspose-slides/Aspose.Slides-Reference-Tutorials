@@ -3,10 +3,14 @@ title: Преобразование презентаций в HTML с помощ
 linktitle: Преобразование презентаций в HTML с помощью встроенных шрифтов
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Преобразуйте презентации PowerPoint в HTML со встроенными шрифтами с помощью Aspose.Slides для .NET. Сохраняйте оригинальность без проблем.
-type: docs
 weight: 13
 url: /ru/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 В современную эпоху цифровых технологий обмен презентациями и документами в Интернете стал обычной практикой. Однако часто возникает одна проблема: обеспечить правильное отображение шрифтов при преобразовании презентаций в HTML. Это пошаговое руководство проведет вас через процесс использования Aspose.Slides for .NET для преобразования презентаций в HTML со встроенными шрифтами, гарантируя, что ваши документы будут выглядеть так, как вы задумали.
 
@@ -120,3 +124,10 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ### 5. Где я могу найти дополнительные ресурсы и поддержку Aspose.Slides для .NET?
 
  Вы можете получить доступ к множеству ресурсов, включая документацию, на сайте[Справочник по API Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

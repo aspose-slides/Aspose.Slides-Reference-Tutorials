@@ -3,10 +3,14 @@ title: Kỹ thuật nhân bản slide Java PowerPoint
 linktitle: Kỹ thuật nhân bản slide Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nhân bản slide chính trong PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu cách sao chép các trang trình bày trong cùng một bản trình bày hoặc trên nhiều bản trình bày một cách liền mạch.
-type: docs
 weight: 27
 url: /vi/java/java-powerpoint-slide-cloning-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ##  Giới thiệu
 
 Sao chép các slide trong bản trình bày PowerPoint có thể giúp bạn tiết kiệm rất nhiều thời gian và hợp lý hóa quy trình làm việc của bạn. Với Aspose.Slides cho Java, bạn có thể dễ dàng sao chép các slide trong cùng một bản trình bày hoặc trên các bản trình bày khác nhau. Cho dù bạn là người mới bắt đầu hay chuyên gia, những hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình, giúp bạn dễ dàng cải thiện bản trình bày của mình.
@@ -49,3 +53,9 @@ Tìm hiểu cách Sao chép các trang trình bày giữa các bản trình bày
 Sao chép các slide trong cùng một bản trình bày bằng Aspose.Slides for Java với hướng dẫn của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa các thao tác trên PowerPoint.
 ### [Sao chép slide đến cuối trong cùng một bản trình bày](./clone-slide-end-within-same-presentation-powerpoint/)
 Tìm hiểu cách sao chép một trang chiếu vào cuối bản trình bày bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

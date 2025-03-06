@@ -3,10 +3,14 @@ title: Agregar marco de imagen de altura de escala relativa en PowerPoint
 linktitle: Agregar marco de imagen de altura de escala relativa en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar marcos de imágenes de altura de escala relativa en presentaciones de PowerPoint usando Aspose.Slides para Java, mejorando su contenido visual.
-type: docs
 weight: 15
 url: /es/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En este tutorial, aprenderá cómo agregar un marco de imagen con una altura de escala relativa en presentaciones de PowerPoint usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -68,3 +72,9 @@ Aspose.Slides para Java es compatible con varias versiones de PowerPoint, lo que
 Sí, Aspose.Slides para Java admite varios formatos de imagen, incluidos PNG, GIF, BMP y más.
 ### ¿Existe un foro comunitario o un canal de soporte disponible para los usuarios de Aspose.Slides?
 Sí, puede visitar el foro Aspose.Slides si tiene preguntas, debates o ayuda con respecto a la biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

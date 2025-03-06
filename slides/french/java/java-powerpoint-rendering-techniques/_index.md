@@ -3,10 +3,14 @@ title: Techniques de rendu Java PowerPoint
 linktitle: Techniques de rendu Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment afficher des commentaires, des graphiques 3D, des emojis et bien plus encore dans PowerPoint à l'aide d'Aspose.Slides pour Java. Des didacticiels complets pour des présentations améliorées.
-type: docs
 weight: 22
 url: /fr/java/java-powerpoint-rendering-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction
 
@@ -38,3 +42,9 @@ Apprenez à créer de superbes rendus 3D dans PowerPoint à l'aide d'Aspose.Slid
 Apprenez à restituer facilement des emojis dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez l’engagement avec des visuels expressifs.
 ### [Options de rendu dans PowerPoint](./render-options-powerpoint/)
 Découvrez comment manipuler les options de rendu dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez vos diapositives pour un impact visuel optimal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

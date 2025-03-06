@@ -3,10 +3,14 @@ title: Sterowanie multimediami za pomocą Aspose.Slides dla języka Java
 linktitle: Sterowanie multimediami w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zaimplementować kontrolki multimediów w slajdach Java, korzystając z samouczków Aspose.Slides for Java. Bezproblemowo wzbogacaj swoje prezentacje dźwiękiem i obrazem.
-type: docs
 weight: 22
 url: /pl/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 W dzisiejszej erze cyfrowej prezentacje to nie tylko statyczne slajdy z tekstem i obrazami. Przekształciły się w dynamiczne, interaktywne doświadczenia, które angażują i urzekają publiczność. Jeśli jesteś programistą Java i chcesz dodać nowy wymiar swoim prezentacjom, jesteś we właściwym miejscu. W tym artykule przyjrzymy się, jak zaimplementować kontrolki multimediów w slajdach Java, korzystając z samouczków Aspose.Slides for Java.
 
@@ -51,3 +55,9 @@ Opanuj obsługę zakłóceń w slajdach Java za pomocą Aspose.Slides dla język
 Dowiedz się, jak zaktualizować właściwości prezentacji na slajdach Java za pomocą Aspose.Slides for Java. Dostosuj autora, tytuł i inne elementy, aby uzyskać efektowne prezentacje.
 ### [Zaktualizuj właściwości prezentacji, używając innej prezentacji jako szablonu w slajdach Java](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Ulepsz prezentacje programu PowerPoint dzięki zaktualizowanym metadanym, korzystając z Aspose.Slides dla Java. Dowiedz się, jak aktualizować właściwości, takie jak autor, tytuł i słowa kluczowe, za pomocą szablonów w Java Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Nastavte rozsah dat v Java Slides
 linktitle: Nastavte rozsah dat v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak snadno nastavit rozsahy dat v Java slides pomocí Aspose.Slides for Java. Vytvářejte dynamické prezentace založené na datech pomocí tohoto podrobného průvodce.
-type: docs
 weight: 18
 url: /cs/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do nastavení rozsahu dat v Java Slides
 
@@ -97,3 +101,9 @@ Ke konkrétním snímkům a tvarům v rámci prezentace můžete přistupovat po
 ### Kde najdu další dokumentaci a příklady pro Aspose.Slides pro Java?
 
  Rozsáhlou dokumentaci a příklady pro Aspose.Slides for Java můžete najít na webu dokumentace Aspose:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

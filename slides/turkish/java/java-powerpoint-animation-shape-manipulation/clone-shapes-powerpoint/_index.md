@@ -3,10 +3,14 @@ title: PowerPoint'te Şekilleri Klonlama
 linktitle: PowerPoint'te Şekilleri Klonlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki şekilleri nasıl kopyalayacağınızı öğrenin. Takip edilmesi kolay bu eğitimle iş akışınızı kolaylaştırın.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarındaki şekillerin nasıl kopyalanacağını inceleyeceğiz. Şekilleri klonlamak, bir sunumdaki mevcut şekilleri çoğaltmanıza olanak tanır; bu, özellikle tutarlı düzenler oluşturmak veya slaytlar arasında öğeleri yinelemek için yararlı olabilir.
 ## Önkoşullar
@@ -57,3 +61,9 @@ Kesinlikle, şekiller kopyalanıp bir slayta eklendiğinde özelliklerini, still
 Evet, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki slaytları, metinleri, görüntüleri ve diğer öğeleri kopyalayabilirsiniz.
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü şuradan indirebilirsiniz:[İnternet sitesi](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

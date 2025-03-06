@@ -3,10 +3,14 @@ title: Rendu des Emoji et des caractères spéciaux dans Aspose.Slides
 linktitle: Rendu des Emoji et des caractères spéciaux dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec des emojis à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour ajouter une touche créative sans effort.
-type: docs
 weight: 14
 url: /fr/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le monde dynamique des présentations, transmettre des émotions et des personnages spéciaux peut ajouter une touche de créativité et d’unicité. Aspose.Slides pour .NET permet aux développeurs d'afficher de manière transparente des émojis et des caractères spéciaux dans leurs présentations, ouvrant ainsi une nouvelle dimension d'expression. Dans ce didacticiel, nous explorerons comment y parvenir grâce à des conseils étape par étape à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -51,3 +55,9 @@ Aspose.Slides prend en charge une large gamme d'emojis, y compris des emojis per
  Rejoignez la communauté Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) pour de l'aide et des discussions.
 ### Puis-je utiliser Aspose.Slides sans licence permanente ?
  Oui, obtenez un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) pour une utilisation à court terme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

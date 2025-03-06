@@ -3,10 +3,14 @@ title: Ovládání animace snímku
 linktitle: Ovládání animace snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí dynamických animací pomocí Aspose.Slides pro .NET. Naučte se, jak ovládat animace snímků krok za krokem v tomto komplexním tutoriálu.
-type: docs
 weight: 18
 url: /cs/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod:
 
@@ -36,3 +40,9 @@ Naučte se ovládat typy animací ve snímcích PowerPoint pomocí Aspose.Slides
 Naučte se opakovat animace na snímku pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje zdrojový kód a jasné pokyny pro programové přidávání podmanivých animací do prezentací PowerPoint.
 ### [Přetočit animaci na snímku](./rewind-animation-on-slide/)
 Naučte se přetáčet animace na snímcích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce s kompletními příklady zdrojového kódu a dynamicky vylepšujte své prezentace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

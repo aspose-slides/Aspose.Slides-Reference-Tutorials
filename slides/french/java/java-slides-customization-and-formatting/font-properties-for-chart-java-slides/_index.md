@@ -3,10 +3,14 @@ title: Propriétés de police pour le graphique dans les diapositives Java
 linktitle: Propriétés de police pour le graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Améliorez les propriétés de police du graphique dans les diapositives Java avec Aspose.Slides pour Java. Personnalisez la taille, le style et la couleur de la police pour des présentations percutantes.
-type: docs
 weight: 11
 url: /fr/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction aux propriétés de police du graphique dans les diapositives Java
 
@@ -102,3 +106,9 @@ Dans ce didacticiel, vous avez appris à personnaliser les propriétés de polic
 ### Comment personnaliser les propriétés de police pour des éléments spécifiques du graphique ?
 
 Pour personnaliser les propriétés de police d'éléments de graphique spécifiques, tels que les étiquettes d'axe ou le texte de légende, vous pouvez accéder à ces éléments et définir leurs propriétés de police à l'aide de méthodes similaires à celles indiquées ci-dessus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

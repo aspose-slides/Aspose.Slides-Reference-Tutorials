@@ -3,10 +3,14 @@ title: Java PowerPoint animace a manipulace s tvary
 linktitle: Java PowerPoint animace a manipulace s tvary
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se animovat a manipulovat s tvary v PowerPointu pomocí Aspose.Slides for Java. Komplexní tutoriály pro dynamické prezentace.
-type: docs
 weight: 25
 url: /cs/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod
 
@@ -90,3 +94,9 @@ Naučte se, jak aplikovat efekty Duotone na obrázky v PowerPointu pomocí Aspos
 Naučte se, jak vkládat snímky videa do PowerPointu pomocí Aspose.Slides for Java, pomocí tohoto podrobného kurzu. Vylepšete své prezentace snadno.
 ### [Extrahujte data vloženého souboru z objektu OLE v aplikaci PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Naučte se, jak extrahovat data vložených souborů z prezentací PowerPoint pomocí Aspose.Slides for Java, čímž se rozšíří možnosti správy dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

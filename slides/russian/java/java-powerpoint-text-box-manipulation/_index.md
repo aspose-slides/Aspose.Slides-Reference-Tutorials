@@ -3,10 +3,14 @@ title: Манипулирование текстовым полем Java PowerPo
 linktitle: Манипулирование текстовым полем Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Изучите подробные руководства по манипулированию текстовыми полями Java PowerPoint с помощью Aspose.Slides. Улучшайте свои презентации шаг за шагом с помощью наших руководств.
-type: docs
 weight: 20
 url: /ru/java/java-powerpoint-text-box-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 
 Раскройте весь потенциал своих презентаций PowerPoint с помощью наших руководств по работе с текстовыми полями Java PowerPoint с помощью Aspose.Slides. Независимо от того, являетесь ли вы новичком или опытным пользователем, наши подробные руководства помогут вам без особых усилий улучшить ваши презентации.
@@ -52,3 +56,9 @@ url: /ru/java/java-powerpoint-text-box-manipulation/
 Узнайте, как применять форматы заполнения маркеров в Java PowerPoint с помощью Aspose.Slides для Java. Освойте стили маркеров и улучшите свои презентации.
 ### [Абзац текстового поля эффекта в Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Узнайте, как улучшить презентации PowerPoint на Java с помощью динамических текстовых эффектов с помощью Aspose.Slides для плавной интеграции и настройки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

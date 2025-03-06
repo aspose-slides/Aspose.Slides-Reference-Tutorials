@@ -3,10 +3,14 @@ title: Wykres odzyskiwania skoroszytu w slajdach Java
 linktitle: Wykres odzyskiwania skoroszytu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak odzyskać skoroszyty z wykresów w Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku dotyczący automatyzacji programu PowerPoint.
-type: docs
 weight: 17
 url: /pl/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do skoroszytu odzyskiwania wykresów w slajdach Java
 
@@ -109,3 +113,9 @@ Absolutnie! Aspose.Slides for Java to potężna biblioteka do automatyzacji zada
 ### Jak mogę uzyskać dostęp do dalszej dokumentacji Aspose.Slides dla Java?
 
  Aby uzyskać szczegółową dokumentację i odniesienia do Aspose.Slides for Java, odwiedź stronę dokumentacji pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

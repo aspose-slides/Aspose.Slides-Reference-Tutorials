@@ -3,10 +3,14 @@ title: Creëer dynamische presentaties met Aspose.Slides Zoom Frames
 linktitle: Zoomframe maken in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer boeiende presentaties maken met zoomframes met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor een boeiende dia-ervaring.
-type: docs
 weight: 17
 url: /nl/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Op het gebied van presentaties zijn boeiende dia's de sleutel tot het achterlaten van een blijvende indruk. Aspose.Slides voor .NET biedt een krachtige toolset en in deze handleiding begeleiden we u door het proces van het opnemen van aantrekkelijke zoomframes in uw presentatiedia's.
 ## Vereisten
@@ -89,3 +93,9 @@ Ja, u kunt verschillende aspecten aanpassen, zoals lijndikte, vulkleur en streep
  U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik de volledige versie van Aspose.Slides voor .NET kopen?
  U kunt de volledige versie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

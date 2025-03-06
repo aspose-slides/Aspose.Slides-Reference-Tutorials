@@ -3,10 +3,14 @@ title: Acesse SmartArt com layout específico em Java PowerPoint
 linktitle: Acesse SmartArt com layout específico em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como acessar e manipular programaticamente o SmartArt no PowerPoint usando Aspose.Slides para Java. Siga este guia passo a passo detalhado.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-smartart-manipulation/access-smartart-specific-layout-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 criação de apresentações dinâmicas e visualmente atraentes geralmente requer mais do que apenas texto e imagens. SmartArt é um recurso fantástico do PowerPoint que permite criar representações gráficas de informações e ideias. Mas você sabia que pode manipular SmartArt programaticamente usando Aspose.Slides for Java? Neste tutorial abrangente, orientaremos você no processo de acessar e trabalhar com SmartArt em uma apresentação do PowerPoint usando Aspose.Slides for Java. Esteja você procurando automatizar o processo de criação de apresentações ou personalizar seus slides de maneira programática, este guia tem o que você precisa.
 ## Pré-requisitos
@@ -94,3 +98,9 @@ Aspose.Slides oferece uma avaliação gratuita, mas para obter todos os recursos
  Você pode obter suporte do[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) onde a comunidade e os desenvolvedores podem ajudá-lo.
 ### É possível automatizar a criação de SmartArt no PowerPoint usando Aspose.Slides for Java?
 Com certeza, Aspose.Slides for Java fornece ferramentas abrangentes para criar e manipular SmartArt programaticamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

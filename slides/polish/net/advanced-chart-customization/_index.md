@@ -3,10 +3,14 @@ title: Zaawansowane dostosowywanie wykresów
 linktitle: Zaawansowane dostosowywanie wykresów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje dzięki zaawansowanemu dostosowywaniu wykresów za pomocą Aspose.Slides dla .NET. Dowiedz się, jak tworzyć atrakcyjne wizualnie wykresy i dostosowywać je do swoich potrzeb.
-type: docs
 weight: 23
 url: /pl/net/advanced-chart-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp
 
@@ -33,3 +37,9 @@ Dowiedz się, jak ulepszyć wizualizacje danych za pomocą Aspose.Slides dla .NE
 Dowiedz się, jak tworzyć linie trendu na wykresie za pomocą Aspose.Slides dla .NET. Ulepsz wizualizacje danych, korzystając ze wskazówek krok po kroku i przykładów kodu.
 ### [Elementy wykresu i formatowanie](./chart-entities/)
 Dowiedz się, jak tworzyć i formatować dynamiczne wykresy w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

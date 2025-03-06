@@ -3,10 +3,14 @@ title: Ρύθμιση Anchor of Text Frame στο PowerPoint με Java
 linktitle: Ρύθμιση Anchor of Text Frame στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε άγκυρες πλαισίων κειμένου στο PowerPoint χρησιμοποιώντας Java με το Aspose.Slides. Βελτιώστε τις παρουσιάσεις σας.
-type: docs
 weight: 13
 url: /el/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να ορίζετε την άγκυρα ενός πλαισίου κειμένου σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με τη βοήθεια του Aspose.Slides. Η αγκύρωση πλαισίων κειμένου σάς επιτρέπει να ελέγχετε με ακρίβεια τη θέση και τη συμπεριφορά του κειμένου μέσα σε ένα σχήμα, διασφαλίζοντας ότι οι διαφάνειές σας είναι οπτικά ελκυστικές και δομημένες αποτελεσματικά.
 ## Προαπαιτούμενα
@@ -71,3 +75,9 @@ presentation.save(dataDir + "AnchorText_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/slides/11) για οποιαδήποτε απορία ή βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

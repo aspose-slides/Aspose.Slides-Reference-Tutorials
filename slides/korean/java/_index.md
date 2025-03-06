@@ -1,12 +1,15 @@
 ---
 title: Java용 Aspose.Slides의 강력한 성능 활용
 linktitle: Java 튜토리얼용 Aspose.Slides
-type: docs
 weight: 10
 url: /ko/java/
 description: 포괄적인 튜토리얼을 통해 Java용 Aspose.Slides를 마스터하는 방법을 알아보세요. 프레젠테이션에 이 강력한 Java API를 사용하기 위한 단계별 지침입니다.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Java 프로그래밍 세계에서 Java용 Aspose.Slides 덕분에 프레젠테이션을 만들고 관리하는 것이 그 어느 때보다 쉬워졌습니다. 이 강력한 API는 역동적이고 시각적으로 놀라운 프레젠테이션을 애플리케이션에 통합하려는 개발자에게 가능성의 세계를 열어줍니다. 이 기사에서는 Aspose.Slides for Java 튜토리얼 영역을 여행하면서 그 잠재력을 최대한 활용할 수 있는 방법을 보여 드리겠습니다.
 
@@ -104,3 +107,9 @@ Aspose.Slides를 사용하여 Java PowerPoint 테이블 조작을 마스터하�
 Aspose.Slides를 사용하여 테이블 서식 지정 및 업데이트로 Java PowerPoint 프레젠테이션을 향상하세요. 테두리를 추가하고, 열과 행의 텍스트 서식을 지정하고, 표를 업데이트하는 방법을 알아보세요.
 ### [Java PowerPoint SmartArt 조작](./java-powerpoint-smartart-manipulation/)
 GroupDocs.Slides for Java 튜토리얼을 통해 Java PowerPoint SmartArt를 효과적으로 조작하는 방법을 알아보세요. 하위 노드에 액세스하고, 노드를 추가하고, 레이아웃을 변경하는 등의 작업을 수행하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

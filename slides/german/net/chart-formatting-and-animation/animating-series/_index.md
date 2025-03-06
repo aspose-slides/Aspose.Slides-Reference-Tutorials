@@ -3,10 +3,14 @@ title: Animieren Sie Diagrammreihen mit Aspose.Slides für .NET
 linktitle: Animieren von Reihen im Diagramm
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Diagrammreihen mit Aspose.Slides für .NET animieren. Begeistern Sie Ihr Publikum mit dynamischen Präsentationen. Jetzt loslegen!
-type: docs
 weight: 12
 url: /de/net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Möchten Sie Ihren Präsentationen mit animierten Diagrammen etwas Schwung verleihen? Aspose.Slides für .NET erweckt Ihre Diagramme zum Leben. In dieser Schritt-für-Schritt-Anleitung zeigen wir Ihnen, wie Sie mit Aspose.Slides für .NET Reihen in einem Diagramm animieren. Doch bevor wir uns in die Action stürzen, klären wir die Voraussetzungen.
 
@@ -109,3 +113,9 @@ Ja, Sie können die Animationseffekte für jede Diagrammreihe anpassen, um einzi
 
 ### Wo kann ich eine Lizenz für Aspose.Slides für .NET erwerben?
  Sie können eine Lizenz für Aspose.Slides für .NET auf der Kaufseite erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: เปลี่ยนสไตล์สีรูปร่าง SmartArt 
 linktitle: เปลี่ยนสไตล์สีรูปร่าง SmartArt โดยใช้ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้การเปลี่ยนสีรูปร่าง SmartArt ใน PowerPoint แบบไดนามิกด้วย Java และ Aspose.Slides เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย
-type: docs
 weight: 20
 url: /th/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-style-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการเปลี่ยนสไตล์สีรูปร่าง SmartArt โดยใช้ Java กับ Aspose.Slides SmartArt เป็นฟีเจอร์ที่มีประสิทธิภาพในงานนำเสนอ PowerPoint ที่ช่วยให้สามารถสร้างกราฟิกที่ดึงดูดสายตาได้ ด้วยการเปลี่ยนสไตล์สีของรูปร่าง SmartArt คุณสามารถปรับปรุงการออกแบบโดยรวมและผลกระทบทางภาพของงานนำเสนอของคุณได้ เราจะแบ่งกระบวนการออกเป็นขั้นตอนที่ง่ายต่อการปฏิบัติตาม
 ## ข้อกำหนดเบื้องต้น
@@ -63,3 +67,9 @@ presentation.save(dataDir + "ChangeSmartArtColorStyle_out.pptx", SaveFormat.Pptx
 ใช่ Aspose.Slides รองรับ PowerPoint เวอร์ชันต่างๆ มากมาย จึงรับประกันความเข้ากันได้กับไฟล์งานนำเสนอส่วนใหญ่
 ### ฉันจะรับการสนับสนุนสำหรับคำค้นหาที่เกี่ยวข้องกับ Aspose.Slides ได้ที่ไหน
  ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) เพื่อขอความช่วยเหลือจากชุมชนและเจ้าหน้าที่สนับสนุนของ Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

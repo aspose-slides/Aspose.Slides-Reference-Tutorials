@@ -3,10 +3,14 @@ title: Diaminiatuur genereren
 linktitle: Diaminiatuur genereren
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u diaminiaturen kunt genereren met Aspose.Slides voor .NET. Stapsgewijze zelfstudie met codevoorbeelden voor het maken van dynamische diavoorbeelden. Verbeter uw presentatietoepassingen met deze krachtige functie.
-type: docs
 weight: 17
 url: /nl/net/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Invoering:
 
@@ -37,3 +41,9 @@ Leer hoe u miniatuurafbeeldingen kunt genereren uit PowerPoint-dia's met Aspose.
 Genereer miniaturen van dia's met notities met behulp van Aspose.Slides voor .NET. Leer stap voor stap hoe u notities kunt extraheren, miniaturen kunt maken en uw PowerPoint-manipulatie kunt verbeteren. 
 ### [Genereer een miniatuur met aangepaste afmetingen](./generate-thumbnail-with-custom-dimensions/)
 Leer hoe u miniaturen op maat in dia's kunt genereren met Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode. Verbeter uw presentaties met boeiende beelden. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

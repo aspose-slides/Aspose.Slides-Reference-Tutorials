@@ -3,10 +3,14 @@ title: إضافة نص موجه مخصص في Java PowerPoint
 linktitle: إضافة نص موجه مخصص في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة نص مطالبة مخصص في Java PowerPoint باستخدام Aspose.Slides. عزز تفاعل المستخدم بسهولة مع هذا البرنامج التعليمي.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية وجذابة أمرًا بالغ الأهمية للتواصل الفعال. يمكّن Aspose.Slides for Java المطورين من التعامل مع عروض PowerPoint التقديمية برمجياً، ويقدم ميزات واسعة النطاق لتخصيص الشرائح والأشكال والنصوص والمزيد. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة نص مطالبة مخصص إلى العناصر النائبة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -71,3 +75,9 @@ try {
  يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم الميزات الكاملة لـ Aspose.Slides.
 ### هل يدعم Aspose.Slides for Java إضافة رسوم متحركة مخصصة إلى الشرائح؟
 نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات لإدارة الرسوم المتحركة للشرائح برمجيًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

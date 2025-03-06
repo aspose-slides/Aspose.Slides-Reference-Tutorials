@@ -3,10 +3,14 @@ title: PowerPoint のアニメーションのターゲット図形
 linktitle: PowerPoint のアニメーションのターゲット図形
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで特定の図形をアニメーション化する方法を学びます。魅力的なスライドを簡単に作成できます。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 動的なプレゼンテーションの世界では、アニメーションは視聴者の関心を引き、情報を効果的に伝える上で重要な役割を果たします。Aspose.Slides for Java を使用すると、開発者は特定の図形に合わせた複雑なアニメーションを使用して、魅力的な PowerPoint プレゼンテーションを作成できます。このチュートリアルでは、Aspose.Slides for Java を使用してアニメーションの対象となる図形を指定する手順を説明し、滑らかな遷移と正確なアニメーションでプレゼンテーションを目立たせます。
 ## 前提条件
@@ -62,3 +66,9 @@ PowerPoint プレゼンテーションのアニメーションをマスターす
 一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java はどこで購入できますか?
  Aspose.Slides for Javaはウェブサイトから購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

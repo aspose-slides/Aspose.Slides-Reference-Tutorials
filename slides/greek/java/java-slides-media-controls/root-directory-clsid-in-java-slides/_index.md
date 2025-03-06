@@ -3,10 +3,14 @@ title: ClsId καταλόγου ρίζας σε διαφάνειες Java
 linktitle: ClsId καταλόγου ρίζας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε το Root Directory ClsId στο Aspose.Slides για παρουσιάσεις Java. Προσαρμόστε τη συμπεριφορά υπερ-σύνδεσης με το CLSID.
-type: docs
 weight: 10
 url: /el/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στη ρύθμιση ClsId καταλόγου ρίζας στο Aspose.Slides για Java
 
@@ -107,3 +111,9 @@ try {
 ### Υπάρχουν περιορισμοί στα CLSID που μπορώ να χρησιμοποιήσω;
 
 Τα CLSID που μπορείτε να χρησιμοποιήσετε καθορίζονται συνήθως από τις εφαρμογές που είναι εγκατεστημένες στο σύστημα. Θα πρέπει να χρησιμοποιείτε CLSID που αντιστοιχούν σε έγκυρες εφαρμογές ικανές να χειρίζονται υπερσυνδέσμους. Λάβετε υπόψη ότι η χρήση μη έγκυρου CLSID μπορεί να οδηγήσει σε απροσδόκητη συμπεριφορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

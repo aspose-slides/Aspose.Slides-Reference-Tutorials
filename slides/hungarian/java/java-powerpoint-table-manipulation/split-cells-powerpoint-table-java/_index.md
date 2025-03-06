@@ -3,10 +3,14 @@ title: Cellák felosztása a PowerPoint táblában Java használatával
 linktitle: Cellák felosztása a PowerPoint táblában Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan lehet felosztani, egyesíteni és formázni a PowerPoint táblázat celláit programozottan az Aspose.Slides for Java segítségével. Mester bemutató tervezés.
-type: docs
 weight: 11
 url: /hu/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan kezelheti a PowerPoint táblákat Java nyelven az Aspose.Slides segítségével. A táblázatok a prezentációk alapvető összetevői, gyakran használják az adatok hatékony rendszerezésére és bemutatására. Az Aspose.Slides robusztus lehetőségeket kínál a táblázatok programozott létrehozására, módosítására és javítására, rugalmasságot biztosítva a tervezésben és az elrendezésben.
 ## Előfeltételek
@@ -95,3 +99,9 @@ A PowerPoint táblák programozott manipulálása az Aspose.Slides for Java hasz
  Támogatást az Aspose.Slides fórumtól kaphat[itt](https://forum.aspose.com/c/slides/11).
 ### Kaphatok ideiglenes licencet az Aspose.Slides for Java programhoz?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

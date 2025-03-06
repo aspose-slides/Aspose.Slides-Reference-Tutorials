@@ -3,10 +3,14 @@ title: Convertir PPT au format PPTX
 linktitle: Convertir PPT au format PPTX
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à convertir sans effort PPT en PPTX à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec des exemples de code pour une transformation de format transparente.
-type: docs
 weight: 25
 url: /fr/net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Si vous avez déjà eu besoin de convertir des fichiers PowerPoint de l'ancien format PPT vers le nouveau format PPTX à l'aide de .NET, vous êtes au bon endroit. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus à l'aide de l'API Aspose.Slides pour .NET. Avec cette puissante bibliothèque, vous pouvez gérer facilement de telles conversions sans effort. Commençons!
 
@@ -79,3 +83,10 @@ Oui, Aspose.Slides pour .NET prend également en charge l'utilisation de documen
 ### 5. Où puis-je obtenir de l'aide ou poser des questions sur Aspose.Slides pour .NET ?
  Vous pouvez trouver des réponses à vos questions et demander de l'aide dans le[Forums Aspose.Slides](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

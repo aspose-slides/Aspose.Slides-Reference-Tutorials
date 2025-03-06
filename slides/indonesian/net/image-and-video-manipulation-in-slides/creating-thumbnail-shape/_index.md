@@ -3,10 +3,14 @@ title: Buat Thumbnail Bentuk PowerPoint - Aspose.Slides .NET
 linktitle: Membuat Thumbnail untuk Bentuk di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini untuk bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah yang komprehensif untuk pengembang.
-type: docs
 weight: 14
 url: /id/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Aspose.Slides for .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan presentasi PowerPoint. Salah satu fitur utamanya adalah kemampuan untuk menghasilkan thumbnail untuk bentuk dalam presentasi. Tutorial ini akan memandu Anda melalui proses pembuatan thumbnail untuk bentuk menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -57,3 +61,9 @@ J: Anda dapat menerapkan mekanisme penanganan kesalahan menggunakan blok coba-ta
 J: Aspose.Slides memberikan fleksibilitas untuk membuat thumbnail untuk berbagai bentuk, termasuk kotak teks, gambar, dan lainnya.
 ### T: Dapatkah saya menyesuaikan ukuran dan resolusi gambar mini yang dihasilkan?
  A: Ya, Anda dapat menyesuaikan parameter saat memanggil`GetThumbnail` metode untuk mengontrol ukuran dan resolusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

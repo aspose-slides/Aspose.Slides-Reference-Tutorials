@@ -3,10 +3,14 @@ title: Lakukan Mail Merge dalam Presentasi
 linktitle: Lakukan Mail Merge dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari gabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET dalam panduan langkah demi langkah ini. Buat presentasi yang dinamis dan dipersonalisasi dengan mudah.
-type: docs
 weight: 21
 url: /id/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam dunia pengembangan .NET, membuat presentasi yang dinamis dan personal merupakan kebutuhan umum. Salah satu alat canggih yang menyederhanakan proses ini adalah Aspose.Slides untuk .NET. Dalam tutorial ini, kita akan mempelajari dunia menarik dalam melakukan penggabungan surat dalam presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -150,3 +154,9 @@ Aspose.Slides untuk .NET mendukung berbagai bagan, termasuk bagan garis seperti 
  Tentu! Anda dapat memanfaatkan uji coba gratis Aspose.Slides untuk .NET dari[Di Sini](https://releases.aspose.com/).
 ## Kesimpulan
 Dalam tutorial ini, kita menjelajahi kemampuan menarik Aspose.Slides untuk .NET dalam melakukan penggabungan surat dalam presentasi. Dengan mengikuti panduan langkah demi langkah, Anda dapat membuat presentasi yang dinamis dan dipersonalisasi dengan mudah. Tingkatkan pengalaman pengembangan .NET Anda dengan Aspose.Slides untuk pembuatan presentasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

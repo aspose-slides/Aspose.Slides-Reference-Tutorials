@@ -3,10 +3,14 @@ title: Perbarui Properti Presentasi dengan Template Baru
 linktitle: Perbarui Properti Presentasi dengan Template Baru
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memperbarui properti presentasi menggunakan Aspose.Slides untuk Java. Sempurnakan proyek Java Anda dengan modifikasi metadata yang lancar.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam bidang pengembangan Java, Aspose.Slides berdiri sebagai alat yang ampuh untuk memanipulasi presentasi PowerPoint secara terprogram. Dengan perpustakaan Java-nya, pengembang dapat mengotomatiskan tugas-tugas seperti membuat, memodifikasi, dan mengonversi presentasi, menjadikannya aset yang sangat berharga bagi bisnis dan individu. Namun, memanfaatkan potensi penuh Aspose.Slides memerlukan pemahaman yang kuat tentang fungsinya dan bagaimana mengintegrasikannya ke dalam proyek Java Anda secara efektif. Dalam tutorial ini, kita akan mempelajari cara memperbarui properti presentasi menggunakan template baru, langkah demi langkah, memastikan bahwa Anda memahami setiap konsep secara menyeluruh.
 ## Prasyarat
@@ -75,3 +79,9 @@ Memang benar, Aspose.Slides menawarkan fitur dan keandalan tingkat perusahaan, m
 Tentu saja, Aspose.Slides menawarkan opsi penyesuaian ekstensif untuk properti presentasi, memungkinkan Anda menyesuaikannya dengan kebutuhan spesifik Anda.
 ### Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.Slides?
 Anda dapat menjelajahi dokumentasi Aspose.Slides, bergabung dengan forum komunitas, atau menghubungi dukungan Aspose untuk bantuan atau pertanyaan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

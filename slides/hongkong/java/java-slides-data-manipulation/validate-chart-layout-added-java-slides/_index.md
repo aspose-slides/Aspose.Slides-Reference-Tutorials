@@ -3,10 +3,14 @@ title: 驗證 Java 投影片中新增的圖表佈局
 linktitle: 驗證 Java 投影片中新增的圖表佈局
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 PowerPoint 中掌握圖表佈局驗證。學習以程式設計方式操作圖表以獲得令人驚嘆的簡報。
-type: docs
 weight: 10
 url: /zh-hant/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在 Aspose.Slides for Java 中驗證圖表版面配置簡介
 
@@ -97,3 +101,10 @@ finally
 ### 如果我想修改其他圖表屬性怎麼辦？
 
 您可以存取各種圖表屬性並根據您的要求進行自訂。瀏覽 Aspose.Slides 文件以取得有關圖表操作的全面資訊。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Truy cập các nút con trong SmartArt bằng Java
 linktitle: Truy cập các nút con trong SmartArt bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy cập và thao tác với các nút con trong SmartArt bằng Aspose.Slides dành cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Bạn đã bao giờ tự hỏi làm thế nào bạn có thể thao tác đồ họa SmartArt trong bản trình bày của mình theo chương trình chưa? Aspose.Slides for Java là thư viện dùng để quản lý và chỉnh sửa bản trình bày PowerPoint. Công cụ mạnh mẽ này cho phép các nhà phát triển truy cập và thao tác các thành phần khác nhau trong bản trình bày, bao gồm cả đồ họa SmartArt. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách truy cập các nút con trong SmartArt bằng Java, làm cho bản trình bày của bạn trở nên sinh động và tương tác hơn. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để duyệt và thao tác các nút SmartArt một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -81,3 +85,9 @@ Có, Aspose.Slides cho Java cho phép bạn thao tác các thành phần khác n
  Tài liệu có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### IDE tốt nhất để phát triển với Aspose.Slides cho Java là gì?
 IntelliJ IDEA và Eclipse là những IDE phổ biến hoạt động tốt với Aspose.Slides cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

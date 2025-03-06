@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET でスライドアニメーションをマスタ�
 linktitle: Aspose.Slides のスライド アニメーション コントロール
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーションのレベルを上げましょう。スライド アニメーションを簡単に制御する方法を学びます。今すぐライブラリをダウンロードしてください。
-type: docs
 weight: 10
 url: /ja/net/slide-animation-control/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 魅力的なスライド アニメーションを使用してプレゼンテーションを強化すると、視聴者に対する全体的なインパクトを大幅に高めることができます。このチュートリアルでは、Aspose.Slides for .NET を使用してスライド アニメーションを制御する方法について説明します。Aspose.Slides は、.NET 環境で PowerPoint プレゼンテーションをシームレスに操作できる強力なライブラリです。
 ## 前提条件
@@ -77,3 +81,9 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
 臨時免許証は以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET はどこで購入できますか?
 ライブラリを購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Zoom Bagian Aspose.Slides - Tingkatkan Presentasi Anda
 linktitle: Membuat Bagian Zoom di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat slide presentasi yang menarik dengan zoom bagian menggunakan Aspose.Slides untuk .NET. Tingkatkan presentasi Anda dengan fitur interaktif.
-type: docs
 weight: 13
 url: /id/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Meningkatkan slide presentasi Anda dengan fitur interaktif sangat penting dalam menjaga keterlibatan audiens Anda. Salah satu cara ampuh untuk mencapai hal ini adalah dengan menggabungkan pembesaran bagian, memungkinkan Anda bernavigasi dengan mulus di antara berbagai bagian presentasi Anda. Dalam tutorial ini, kita akan mempelajari cara membuat pembesaran bagian di slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -70,3 +74,9 @@ Sangat! Anda memiliki kendali penuh atas dimensi, posisi, dan gaya bingkai zoom 
  Ya, Anda dapat menjelajahi fitur Aspose.Slides dengan menggunakan[uji coba gratis](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Slides?
  Untuk dukungan atau pertanyaan apa pun, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

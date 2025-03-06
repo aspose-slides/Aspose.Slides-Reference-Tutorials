@@ -3,10 +3,14 @@ title: Evidenziazione del testo Java PowerPoint e regole di fallback
 linktitle: Evidenziazione del testo Java PowerPoint e regole di fallback
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Padroneggia l'evidenziazione del testo e le regole di fallback dei caratteri in Java PowerPoint con Aspose.Slides. Segui i nostri tutorial per migliorare e automatizzare le tue presentazioni senza problemi.
-type: docs
 weight: 25
 url: /it/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## introduzione
 
@@ -26,3 +30,9 @@ Seguendo questi tutorial, sarai ben attrezzato per migliorare le tue presentazio
 Scopri come evidenziare il testo in PowerPoint utilizzando Aspose.Slides per Java. Automatizza e migliora le presentazioni senza sforzo con la nostra guida dettagliata.
 ### [Raccolta di regole di fallback in Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Scopri come gestire le regole di fallback dei caratteri nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora la compatibilità tra i dispositivi senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

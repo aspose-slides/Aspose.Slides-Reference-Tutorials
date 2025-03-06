@@ -3,10 +3,14 @@ title: PowerPoint Sunumlarında Görüntü Dolgusu için Uzatma Uzaklığı Ekle
 linktitle: Slaytlarda Görüntü Dolgusu için Uzatma Uzaklığı Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Görüntü dolgusuna uzatma ofseti eklemek için adım adım kılavuzu izleyin.
-type: docs
 weight: 18
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Sunumların dinamik dünyasında görseller izleyicinin dikkatini çekmede önemli bir rol oynar. Aspose.Slides for .NET, güçlü özellikler sunarak geliştiricilerin PowerPoint sunumlarını geliştirmelerine olanak sağlar. Bu özelliklerden biri, yaratıcı ve görsel olarak çekici slaytlara olanak tanıyan görüntü dolgusu için bir uzatma ofseti ekleme yeteneğidir.
 ## Önkoşullar
@@ -71,3 +75,9 @@ Evet, Aspose.Slides for .NET hem masaüstü hem de web uygulamaları için uygun
  Bakın[dokümantasyon](https://reference.aspose.com/slides/net/) detaylı bilgi için.
 ### Aspose.Slides for .NET'i satın alabilir miyim?
  Evet ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

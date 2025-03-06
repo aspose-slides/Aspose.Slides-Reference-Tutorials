@@ -3,10 +3,14 @@ title: Pasta de trabalho de recuperação de gráfico em slides Java
 linktitle: Pasta de trabalho de recuperação de gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como recuperar pastas de trabalho de gráficos em Java Slides com Aspose.Slides. Guia passo a passo para automação do PowerPoint.
-type: docs
 weight: 17
 url: /pt/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à pasta de trabalho de recuperação de gráfico em slides Java
 
@@ -109,3 +113,9 @@ Absolutamente! Aspose.Slides for Java é uma biblioteca poderosa para automatiza
 ### Como posso acessar mais documentação do Aspose.Slides for Java?
 
  Para documentação detalhada e referências sobre Aspose.Slides for Java, visite a página de documentação em[aqui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

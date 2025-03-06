@@ -3,10 +3,14 @@ title: Java 投影片中的圖表資料儲存格公式
 linktitle: Java 投影片中的圖表資料儲存格公式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 簡報中設定圖表資料單元格公式。使用公式建立動態圖表。
-type: docs
 weight: 11
 url: /zh-hant/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java 中的圖表資料單元格公式簡介
 
@@ -122,3 +126,9 @@ finally
 ### 如何更改圖表類型？
 
 您可以使用以下命令更改圖表類型`setChartType`方法上的`IChart`對象並指定所需的`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

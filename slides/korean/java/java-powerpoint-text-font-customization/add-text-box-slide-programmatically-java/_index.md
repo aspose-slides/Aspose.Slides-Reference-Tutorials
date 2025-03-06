@@ -3,10 +3,14 @@ title: Java를 사용하여 프로그래밍 방식으로 슬라이드에 텍스�
 linktitle: Java를 사용하여 프로그래밍 방식으로 슬라이드에 텍스트 상자 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 슬라이드에 텍스트 상자를 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 생산성을 향상하세요.
-type: docs
 weight: 24
 url: /ko/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 프로그래밍 방식으로 PowerPoint 프레젠테이션을 만들고 조작하면 보고서 생성에서 프레젠테이션 자동화에 이르기까지 다양한 작업 흐름을 간소화할 수 있습니다. Aspose.Slides for Java는 개발자가 이러한 작업을 효율적으로 수행할 수 있는 강력한 API를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 슬라이드에 텍스트 상자를 추가하는 방법을 안내합니다. 이 튜토리얼이 끝나면 이 기능을 Java 애플리케이션에 통합하는 방법을 명확하게 이해하게 될 것입니다.
 ## 전제 조건
@@ -67,3 +71,9 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
  당신은 얻을 수 있습니다[임시면허](https://purchase.aspose.com/temporary-license/) Aspose에서.
 ### Aspose.Slides는 프레젠테이션을 다른 형식으로 변환하는 것을 지원합니까?
 예, PDF, 이미지 등 다양한 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

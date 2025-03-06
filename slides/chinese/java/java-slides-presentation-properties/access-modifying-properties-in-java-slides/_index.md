@@ -3,10 +3,14 @@ title: 在 Java Slides 中访问修改属性
 linktitle: 在 Java Slides 中访问修改属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 访问和修改 Java Slides 中的属性。使用自定义属性增强您的演示文稿。
-type: docs
 weight: 11
 url: /zh/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中访问修改属性的简介
 
@@ -117,3 +121,9 @@ Aspose.Slides for Java 是一个商业库，但您可以使用免费试用版探
 ### 在哪里可以找到更多文档和示例？
 
 您可以在以下位置找到 Aspose.Slides for Java 的全面文档和代码示例[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Csak olvasható, ajánlott tulajdonságok a Java Slides-ben
 linktitle: Csak olvasható, ajánlott tulajdonságok a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan engedélyezheti a Java PowerPoint prezentációkban az Írásvédett tulajdonságokat az Aspose.Slides for Java segítségével. Kövesse lépésenkénti útmutatónkat a forráskód példáival a fokozott prezentációbiztonság érdekében.
-type: docs
 weight: 17
 url: /hu/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a Java Slides írásvédett tulajdonságainak engedélyezésébe
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Ne felejtse el cserélni`"YourPassword"` a kívánt jelszóval.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

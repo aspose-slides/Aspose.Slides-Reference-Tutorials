@@ -3,10 +3,14 @@ title: إدراج شرائح إضافية في العرض التقديمي
 linktitle: إدراج شرائح إضافية في العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إدراج شرائح إضافية في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية المصدر وتعليمات مفصلة لتحسين العروض التقديمية الخاصة بك بسلاسة. تم تضمين المحتوى القابل للتخصيص ونصائح الإدراج والأسئلة الشائعة.
-type: docs
 weight: 15
 url: /ar/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإدراج شرائح إضافية في العرض التقديمي
 
@@ -107,3 +111,9 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
 
  للحصول على وثائق وأمثلة مفصلة، راجع[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

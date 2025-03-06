@@ -3,10 +3,14 @@ title: افتح العرض التقديمي المحمي بكلمة مرور ف�
 linktitle: افتح العرض التقديمي المحمي بكلمة مرور في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: فتح العروض التقديمية المحمية بكلمة مرور في Java. تعرف على كيفية فتح شرائح PowerPoint المحمية بكلمة مرور والوصول إليها باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود.
-type: docs
 weight: 15
 url: /ar/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لفتح العرض التقديمي المحمي بكلمة مرور في شرائح Java
 
@@ -113,3 +117,9 @@ finally
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق شاملة وأمثلة إضافية في[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) وعلى[منتدى Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

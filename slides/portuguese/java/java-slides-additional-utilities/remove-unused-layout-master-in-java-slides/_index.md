@@ -3,10 +3,14 @@ title: Remover layout mestre não utilizado em slides Java
 linktitle: Remover layout mestre não utilizado em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Remova layouts mestres não utilizados com Aspose.Slides. Guia passo a passo e código. Melhore a eficiência da apresentação.
-type: docs
 weight: 10
 url: /pt/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução à remoção do layout mestre não utilizado em slides Java
 
@@ -123,3 +127,9 @@ Não, a remoção de layouts mestres não utilizados não afetará a formataçã
 ### Onde posso acessar o código-fonte usado neste artigo?
 
 Você pode encontrar o código-fonte usado neste artigo nos trechos de código fornecidos em cada etapa. Basta copiar e colar o código em seu projeto Java para implementar a remoção de layouts mestres não utilizados em suas apresentações.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

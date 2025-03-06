@@ -3,10 +3,14 @@ title: Set Chart Series Overlap in Java Slides
 linktitle: Set Chart Series Overlap in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master chart series overlap in Java Slides with Aspose.Slides for Java. Learn step by step how to customize chart visuals for stunning presentations.
-type: docs
 weight: 16
 url: /java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Set Chart Series Overlap in Java Slides
 
@@ -110,3 +114,10 @@ Absolutely! Aspose.Slides for Java provides APIs for creating presentations from
 ### Where can I find more resources and examples for Aspose.Slides for Java?
 
 For comprehensive documentation and examples, visit the Aspose.Slides for Java reference page: [Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

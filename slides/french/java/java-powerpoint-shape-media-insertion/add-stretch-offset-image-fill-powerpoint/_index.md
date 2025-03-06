@@ -3,10 +3,14 @@ title: Ajouter un décalage d'étirement pour le remplissage d'image dans PowerP
 linktitle: Ajouter un décalage d'étirement pour le remplissage d'image dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter un décalage d'étirement pour le remplissage d'images dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Tutoriel étape par étape inclus.
-type: docs
 weight: 16
 url: /fr/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à utiliser Aspose.Slides pour Java pour ajouter un décalage d'étirement pour le remplissage d'image dans les présentations PowerPoint. Cette fonctionnalité vous permet de manipuler les images dans vos diapositives, vous donnant ainsi un meilleur contrôle sur leur apparence.
 ## Conditions préalables
@@ -64,3 +68,9 @@ Aspose.Slides pour Java peut gérer des images de différentes tailles, mais il 
 Oui, vous pouvez appliquer un large éventail d'effets et de transformations aux images à l'aide de l'API étendue d'Aspose.Slides pour Java.
 ### Où puis-je trouver plus de ressources et d’assistance pour Aspose.Slides pour Java ?
  Vous pouvez visiter le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/) pour des guides détaillés et explorez les[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

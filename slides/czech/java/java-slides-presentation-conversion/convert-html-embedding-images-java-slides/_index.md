@@ -3,10 +3,14 @@ title: Převeďte vložené obrázky HTML do snímků Java
 linktitle: Převeďte vložené obrázky HTML do snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Převeďte PowerPoint do HTML s vloženými obrázky. Průvodce krok za krokem pomocí Aspose.Slides pro Java. Naučte se bez námahy automatizovat převody prezentací v Javě.
-type: docs
 weight: 11
 url: /cs/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do převodu HTML vkládání obrázků do Java Slides
 
@@ -125,3 +129,10 @@ Ano, šablonu HTML můžete přizpůsobit úpravou souborů HTML a CSS generovan
 ### Jak se vypořádám s chybami během převodu?
 
 Konverzní kód můžete zabalit do bloku try-catch, abyste zvládli výjimky, které mohou nastat během procesu převodu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

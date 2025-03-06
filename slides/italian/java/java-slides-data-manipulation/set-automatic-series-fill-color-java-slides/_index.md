@@ -3,10 +3,14 @@ title: Imposta il colore di riempimento della serie automatica nelle diapositive
 linktitle: Imposta il colore di riempimento della serie automatica nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare il colore di riempimento delle serie automatiche in Diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice per presentazioni dinamiche.
-type: docs
 weight: 14
 url: /it/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione all'impostazione del colore di riempimento delle serie automatiche nelle diapositive Java
 
@@ -126,3 +130,9 @@ Sì, Aspose.Slides per Java offre un'ampia gamma di funzionalità, tra cui la ma
 ### Dove posso trovare ulteriori risorse e documentazione?
 
  È possibile accedere alla documentazione completa per Aspose.Slides per Java all'indirizzo[Qui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Mempertahankan Font Asli - Konversi Presentasi ke HTML
 linktitle: Mempertahankan Font Asli - Konversi Presentasi ke HTML
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mempertahankan font asli sambil mengonversi presentasi ke HTML menggunakan Aspose.Slides untuk .NET. Pastikan konsistensi font dan dampak visual dengan mudah.
-type: docs
 weight: 14
 url: /id/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses mempertahankan font asli saat mengonversi presentasi ke HTML menggunakan Aspose.Slides untuk .NET. Kami akan memberi Anda kode sumber C# yang diperlukan dan menjelaskan setiap langkah secara detail. Di akhir tutorial ini, Anda akan dapat memastikan bahwa font dalam dokumen HTML Anda yang dikonversi tetap sesuai dengan presentasi aslinya.
 
@@ -98,3 +102,10 @@ Aspose.Slides untuk .NET terutama berfokus pada presentasi PowerPoint. Untuk men
 ### Q5: Di mana saya dapat mengakses sumber daya dan dukungan tambahan?
 
  Anda dapat menemukan lebih banyak dokumentasi, tutorial, dan dukungan di situs web Aspose. Mengunjungi[Aspose.Slide untuk Dokumentasi .NET](https://reference.aspose.com/slides/net/) untuk informasi rinci.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

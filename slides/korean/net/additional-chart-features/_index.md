@@ -3,10 +3,14 @@ title: 추가 차트 기능
 linktitle: 추가 차트 기능
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides의 고급 차트 기능을 살펴보세요! 사용자 정의 스타일, 추세선 등을 사용하여 역동적인 대화형 차트를 만드는 방법을 알아보세요. 강력한 데이터 시각화로 프레젠테이션의 수준을 높이세요.
-type: docs
 weight: 24
 url: /ko/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 소개
 
@@ -32,3 +36,9 @@ Aspose.Slides for .NET을 사용하여 차트 데이터를 효율적으로 추�
 Aspose.Slides for .NET을 사용하여 차트에서 통합 문서를 복구하는 방법을 알아보세요. 차트 데이터를 추출하고 프로그래밍 방식으로 Excel 통합 문서를 만듭니다.
 ### [특정 차트 시리즈 데이터 포인트 지우기](./clear-specific-chart-series-data-points-data/)
 .NET용 Aspose.Slides에서 특정 차트 데이터 포인트를 지우는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

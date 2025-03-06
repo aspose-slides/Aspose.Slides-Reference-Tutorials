@@ -3,10 +3,14 @@ title: Tisk prezentačních snímků pomocí Aspose.Slides v .NET
 linktitle: Tisk konkrétních prezentačních diapozitivů pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se tisknout snímky prezentace v .NET pomocí Aspose.Slides. Podrobný průvodce pro vývojáře. Stáhněte si knihovnu a začněte tisknout ještě dnes.
-type: docs
 weight: 18
 url: /cs/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Ve světě vývoje .NET vyniká Aspose.Slides jako výkonný nástroj pro práci s prezentačními soubory. Pokud jste někdy potřebovali tisknout prezentační snímky programově, jste na správném místě. V tomto tutoriálu prozkoumáme, jak toho dosáhnout pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -59,3 +63,9 @@ Odpověď: Ano, můžete toho dosáhnout úpravou kódu pro selektivní tisk kon
  A: Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Jak si koupím Aspose.Slides pro .NET?
  A: Můžete si koupit knihovnu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

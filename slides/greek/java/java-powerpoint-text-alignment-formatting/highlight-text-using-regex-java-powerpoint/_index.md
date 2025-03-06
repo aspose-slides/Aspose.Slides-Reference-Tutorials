@@ -3,10 +3,14 @@ title: Επισημάνετε το κείμενο χρησιμοποιώντας
 linktitle: Επισημάνετε το κείμενο χρησιμοποιώντας το Regex στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να επισημαίνετε κείμενο στο PowerPoint χρησιμοποιώντας μοτίβα regex με το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας δυναμικά.
-type: docs
 weight: 15
 url: /el/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης που βασίζεται σε Java για τη δημιουργία και τον χειρισμό παρουσιάσεων PowerPoint, το Aspose.Slides για Java ξεχωρίζει ως μια ισχυρή λύση. Αυτό το σεμινάριο εστιάζει στην αξιοποίηση του Aspose.Slides για την επισήμανση κειμένου χρησιμοποιώντας κανονικές εκφράσεις (regex) σε παρουσιάσεις PowerPoint. Στο τέλος αυτού του οδηγού, θα κατανοήσετε πώς να εφαρμόσετε μοτίβα regex για να τονίσετε συγκεκριμένο κείμενο σε διαφάνειες, βελτιώνοντας τόσο τη λειτουργικότητα όσο και την οπτική σαφήνεια.
 ## Προαπαιτούμενα
@@ -62,3 +66,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 Οπωσδήποτε, προσφέρει εκτεταμένες δυνατότητες χειρισμού κειμένου πέρα από την επισήμανση, συμπεριλαμβανομένου του στυλ γραμματοσειράς, της ευθυγράμμισης και πολλά άλλα.
 ### Μπορώ να δοκιμάσω το Aspose.Slides για Java πριν το αγοράσω;
  Ναι, μπορείτε να ξεκινήσετε με ένα[δωρεάν δοκιμή](https://releases.aspose.com/) να αξιολογήσει τις δυνατότητές του.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

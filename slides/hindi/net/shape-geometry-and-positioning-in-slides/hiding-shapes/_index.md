@@ -3,10 +3,14 @@ title: Aspose.Slides .NET ट्यूटोरियल के साथ PowerP
 linktitle: Aspose.Slides के साथ प्रेजेंटेशन स्लाइड में आकृतियाँ छिपाना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में आकृतियों को छिपाने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ प्रस्तुतियों को प्रोग्रामेटिक रूप से अनुकूलित करें।
-type: docs
 weight: 21
 url: /hi/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 प्रस्तुतियों की गतिशील दुनिया में, अनुकूलन महत्वपूर्ण है। Aspose.Slides for .NET, PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए एक शक्तिशाली समाधान प्रदान करता है। एक सामान्य आवश्यकता स्लाइड के भीतर विशिष्ट आकृतियों को छिपाने की क्षमता है। यह ट्यूटोरियल आपको Aspose.Slides for .NET का उपयोग करके प्रस्तुति स्लाइड में आकृतियों को छिपाने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा।
 ## आवश्यक शर्तें
@@ -73,3 +77,9 @@ Congratulations! You've successfully hidden shapes in your presentation using As
  हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/)परीक्षण प्रयोजनों के लिए.
 ### मैं Aspose.Slides के लिए सामुदायिक समर्थन कैसे प्राप्त कर सकता हूं?
  Aspose.Slides समुदाय में शामिल हों[मंच](https://forum.aspose.com/c/slides/11) चर्चा और सहायता के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

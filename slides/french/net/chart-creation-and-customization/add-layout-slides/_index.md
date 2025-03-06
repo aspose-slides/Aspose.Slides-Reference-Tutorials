@@ -3,10 +3,14 @@ title: Ajouter des diapositives de mise en page à la présentation
 linktitle: Ajouter des diapositives de mise en page à la présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment améliorer vos présentations PowerPoint avec Aspose.Slides pour .NET. Ajoutez des diapositives de mise en page pour une touche professionnelle.
-type: docs
 weight: 11
 url: /fr/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 À l’ère du numérique d’aujourd’hui, faire une présentation percutante est une compétence essentielle. Une présentation bien structurée et visuellement attrayante peut transmettre votre message efficacement. Aspose.Slides for .NET est un outil puissant qui peut vous aider à créer de superbes présentations en un rien de temps. Dans ce guide étape par étape, nous explorerons comment utiliser Aspose.Slides for .NET pour ajouter des diapositives de mise en page à votre présentation. Nous décomposerons le processus en étapes faciles à suivre, en veillant à ce que vous compreniez parfaitement les concepts. Commençons!
 
@@ -104,3 +108,9 @@ Aspose.Slides for .NET est une bibliothèque .NET qui permet aux développeurs d
 
 ### Où puis-je obtenir de l'aide ou demander de l'aide concernant Aspose.Slides pour .NET ?
  Si vous avez des questions ou avez besoin d'aide, vous pouvez visiter le forum Aspose.Slides for .NET à l'adresse[Forum communautaire Aspose](https://forum.aspose.com/). La communauté est active et utile pour répondre aux requêtes des utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

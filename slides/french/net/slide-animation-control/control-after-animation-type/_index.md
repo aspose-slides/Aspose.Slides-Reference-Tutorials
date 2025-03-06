@@ -3,10 +3,14 @@ title: Maîtriser les effets d'après-animation dans PowerPoint avec Aspose.Slid
 linktitle: Contrôle après le type d'animation dans la diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment contrôler les effets d'après-animation dans les diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez vos présentations avec des éléments visuels dynamiques.
-type: docs
 weight: 11
 url: /fr/net/slide-animation-control/control-after-animation-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Améliorer vos présentations avec des animations dynamiques est un aspect crucial pour engager votre public. Aspose.Slides pour .NET fournit une solution puissante pour contrôler les effets d'après-animation dans les diapositives. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation d'Aspose.Slides pour .NET pour manipuler le type d'après-animation sur les diapositives. En suivant ce guide étape par étape, vous serez en mesure de créer des présentations plus interactives et visuellement attrayantes.
 ## Conditions préalables
@@ -87,3 +91,9 @@ Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
 Aspose.Slides prend en charge divers formats, notamment PPTX, PPT, PDF, etc. Consultez la documentation pour la liste complète.
 ### Où puis-je obtenir de l'aide ou poser des questions concernant Aspose.Slides ?
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et l’interaction communautaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

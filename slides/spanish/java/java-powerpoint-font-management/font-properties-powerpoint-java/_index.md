@@ -3,10 +3,14 @@ title: Propiedades de fuente en PowerPoint con Java
 linktitle: Propiedades de fuente en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a manipular las propiedades de fuentes en presentaciones de PowerPoint usando Java con Aspose.Slides para Java. Personaliza fuentes fácilmente con esta guía paso a paso.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En este tutorial, exploraremos cómo manipular las propiedades de fuentes en presentaciones de PowerPoint usando Java, específicamente con Aspose.Slides para Java. Lo guiaremos en cada paso, desde importar los paquetes necesarios hasta guardar su presentación modificada. ¡Vamos a sumergirnos!
 ## Requisitos previos
@@ -81,3 +85,9 @@ Sí, Aspose.Slides para Java proporciona varias opciones de efectos de texto par
  Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar más soporte y recursos para Aspose.Slides para Java?
  Puedes visitar el foro de Aspose.Slides.[aquí](https://forum.aspose.com/c/slides/11) para soporte y documentación[aquí](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

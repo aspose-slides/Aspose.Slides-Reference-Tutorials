@@ -3,10 +3,14 @@ title: Kategóriák elemeinek animálása a Java diákban
 linktitle: Kategóriák elemeinek animálása a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Java prezentációit az Aspose.Slides for Java segítségével. Ismerje meg lépésről lépésre, hogyan animálhat kategóriaelemeket a PowerPoint diákban.
-type: docs
 weight: 10
 url: /hu/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a kategóriák elemeinek animálásába a Java diákban
 
@@ -117,3 +121,10 @@ Igen, alkalmazhat hasonló animációkat más típusú diagramokon is, ha módos
 ### Hogyan tudhatok meg többet az Aspose.Slides for Java programról?
 
  Átfogó dokumentációért és további forrásokért keresse fel a[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . A könyvtárat innen is letöltheti[itt](https://releases.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

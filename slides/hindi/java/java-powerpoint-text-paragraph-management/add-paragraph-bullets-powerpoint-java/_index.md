@@ -3,10 +3,14 @@ title: जावा का उपयोग करके PowerPoint में प
 linktitle: जावा का उपयोग करके PowerPoint में पैराग्राफ बुलेट जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ बुलेट कैसे जोड़ें। यह ट्यूटोरियल आपको कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शन करता है।
-type: docs
 weight: 15
 url: /hi/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 पैराग्राफ बुलेट जोड़ने से पावरपॉइंट प्रेजेंटेशन की पठनीयता और संरचना में सुधार होता है। जावा के लिए Aspose.Slides प्रोग्रामेटिक रूप से प्रेजेंटेशन में हेरफेर करने के लिए मजबूत उपकरण प्रदान करता है, जिसमें विभिन्न बुलेट शैलियों के साथ टेक्स्ट को प्रारूपित करने की क्षमता शामिल है। इस ट्यूटोरियल में, आप सीखेंगे कि जावा कोड का उपयोग करके पावरपॉइंट स्लाइड में बुलेट पॉइंट को कैसे एकीकृत किया जाए, Aspose.Slides का लाभ उठाएं।
 ## आवश्यक शर्तें
@@ -89,3 +93,9 @@ Aspose.Slides for Java का उपयोग करके PowerPoint में 
 हां, Aspose.Slides Java 11 और उच्चतर संस्करणों का समर्थन करता है।
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
  मिलने जाना[Aspose.Slides for Java दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत मार्गदर्शिका और उदाहरण के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

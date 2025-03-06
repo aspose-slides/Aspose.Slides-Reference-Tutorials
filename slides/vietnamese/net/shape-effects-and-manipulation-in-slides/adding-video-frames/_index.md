@@ -3,10 +3,14 @@ title: Hướng dẫn thêm khung video với Aspose.Slides cho .NET
 linktitle: Thêm khung video vào slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Làm mới bản trình bày bằng khung video động bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn của chúng tôi để tích hợp liền mạch và tạo ra sự hấp dẫn.
-type: docs
 weight: 19
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong bối cảnh năng động của các bài thuyết trình, việc kết hợp các yếu tố đa phương tiện có thể nâng cao tác động và mức độ tương tác tổng thể. Việc thêm khung hình video vào trang trình bày của bạn có thể thay đổi cuộc chơi, thu hút sự chú ý của khán giả theo cách mà nội dung tĩnh không thể làm được. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để tích hợp liền mạch các khung hình video vào các trang trình bày của bạn.
 ## Điều kiện tiên quyết
@@ -67,3 +71,9 @@ Tuyệt đối! Bạn có toàn quyền kiểm soát các tùy chọn phát lạ
  Có, bạn có thể khám phá các khả năng của Aspose.Slides dành cho .NET bằng cách tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/).
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

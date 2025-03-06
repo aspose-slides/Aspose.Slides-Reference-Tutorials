@@ -3,10 +3,14 @@ title: Tetapkan Rentang Data di Slide Java
 linktitle: Tetapkan Rentang Data di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur rentang data di slide Java dengan mudah menggunakan Aspose.Slides untuk Java. Buat presentasi yang dinamis dan berdasarkan data dengan panduan langkah demi langkah ini.
-type: docs
 weight: 18
 url: /id/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengatur Rentang Data di Slide Java
 
@@ -97,3 +101,9 @@ Anda dapat mengakses slide dan bentuk tertentu dalam presentasi menggunakan Aspo
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi ekstensif dan contoh untuk Aspose.Slides untuk Java di situs web dokumentasi Aspose:[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

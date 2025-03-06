@@ -3,10 +3,14 @@ title: 使用 Java 在 PowerPoint 中設定文字框架的錨點
 linktitle: 使用 Java 在 PowerPoint 中設定文字框架的錨點
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 中設定文字框架錨點。增強您的簡報。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，您將學習如何在 Aspose.Slides 的幫助下使用 Java 在 PowerPoint 簡報中設定文字框架的錨點。錨定文字框架可讓您精確控制形狀內文字的位置和行為，確保您的投影片具有視覺吸引力和有效的結構。
 ## 先決條件
@@ -71,3 +75,9 @@ Aspose.Slides for Java 是一個功能強大的函式庫，可讓 Java 開發人
 是的，您可以下載免費試用版[這裡](https://releases.aspose.com/).
 ### 在哪裡可以獲得 Aspose.Slides for Java 的支援？
 您可以造訪支援論壇[這裡](https://forum.aspose.com/c/slides/11)如有任何疑問或幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

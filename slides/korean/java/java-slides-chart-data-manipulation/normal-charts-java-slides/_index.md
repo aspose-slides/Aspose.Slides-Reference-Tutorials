@@ -3,10 +3,14 @@ title: Java 슬라이드의 일반 차트
 linktitle: Java 슬라이드의 일반 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에 일반 차트를 만듭니다. PowerPoint 프레젠테이션에서 차트를 생성, 사용자 정의 및 저장하기 위한 단계별 가이드 및 소스 코드입니다.
-type: docs
 weight: 21
 url: /ko/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드의 일반 차트 소개
 
@@ -240,3 +244,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 차트를 다른 파일 형식으로 저장하려면 어떻게 해야 합니까?
 
  차트를 다른 파일 형식으로 저장하려면`SaveFormat` 매개변수`pres.save()` 방법을 원하는 형식(예: PDF, PNG, JPEG)으로 변경합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

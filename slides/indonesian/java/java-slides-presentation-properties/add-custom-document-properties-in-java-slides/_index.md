@@ -3,10 +3,14 @@ title: Tambahkan Properti Dokumen Kustom di Slide Java
 linktitle: Tambahkan Properti Dokumen Kustom di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyempurnakan presentasi PowerPoint dengan properti dokumen khusus di Java Slides. Panduan langkah demi langkah dengan contoh kode menggunakan Aspose.Slides untuk Java.
-type: docs
 weight: 13
 url: /id/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Menambahkan Properti Dokumen Kustom di Slide Java
 
@@ -137,3 +141,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Kode ini akan menampilkan nama dan nilai semua properti kustom dalam presentasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

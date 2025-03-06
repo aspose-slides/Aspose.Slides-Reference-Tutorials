@@ -3,10 +3,14 @@ title: Εξαγωγή ήχου από υπερσυνδέσμους PowerPoint μ
 linktitle: Εξαγωγή ήχου από υπερσύνδεσμο
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξαγωγή ήχου από υπερσυνδέσμους σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε τα έργα πολυμέσων σας χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Στον κόσμο των παρουσιάσεων πολυμέσων, ο ήχος παίζει ζωτικό ρόλο στην ενίσχυση της συνολικής επίδρασης των διαφανειών σας. Έχετε συναντήσει ποτέ μια παρουσίαση PowerPoint με υπερσυνδέσμους ήχου και αναρωτηθήκατε πώς να εξαγάγετε τον ήχο για άλλες χρήσεις; Με το Aspose.Slides για .NET, μπορείτε να επιτύχετε αβίαστα αυτήν την εργασία. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής ήχου από μια υπερ-σύνδεση σε μια παρουσίαση PowerPoint.
 
@@ -105,3 +109,10 @@ File.WriteAllBytes(outMediaPath, audioData);
 
 ### Υπάρχουν άλλες μορφές ήχου που υποστηρίζονται για εξαγωγή, εκτός από το MPG;
 Το Aspose.Slides for .NET σάς επιτρέπει να εξάγετε ήχο σε διάφορες μορφές, χωρίς να περιορίζεται σε MPG. Μπορείτε να το μετατρέψετε στην προτιμώμενη μορφή μετά την εξαγωγή.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

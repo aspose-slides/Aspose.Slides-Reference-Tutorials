@@ -3,10 +3,14 @@ title: Aspose.Slides ile PowerPoint'e Dijital İmzalar Ekleyin
 linktitle: Aspose.Slides'ta Dijital İmza Desteği
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint sunumlarını güvenli bir şekilde imzalayın. Adım adım kılavuzumuzu takip edin. Ücretsiz deneme için hemen indirin
-type: docs
 weight: 19
 url: /tr/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Dijital imzalar, dijital belgelerin orijinalliğini ve bütünlüğünü sağlamada çok önemli bir rol oynamaktadır. Aspose.Slides for .NET, dijital imzalar için güçlü bir destek sağlayarak PowerPoint sunumlarınızı güvenli bir şekilde imzalamanıza olanak tanır. Bu eğitimde Aspose.Slides'ı kullanarak sunumlarınıza dijital imza ekleme sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -62,3 +66,9 @@ Aspose.Slides, dijital imzaları programlı olarak doğrulamak için yöntemler 
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/net/).
 ### Desteğe mi ihtiyacınız var veya ek sorularınız mı var?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

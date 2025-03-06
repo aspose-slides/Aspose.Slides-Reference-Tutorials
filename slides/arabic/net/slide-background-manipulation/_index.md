@@ -3,10 +3,14 @@ title: معالجة خلفية الشريحة باستخدام Aspose.Slides
 linktitle: معالجة خلفية الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين تصميم الشرائح الخاصة بك باستخدام Aspose.Slides! تعرف على كيفية التعامل مع خلفيات الشرائح في هذا البرنامج التعليمي الشامل. تم توفير تعليمات خطوة بخطوة وأمثلة التعليمات البرمجية.
-type: docs
 weight: 11
 url: /ar/net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -37,3 +41,9 @@ url: /ar/net/slide-background-manipulation/
 تعرف على كيفية إتقان إعداد خلفيات الشرائح باستخدام Aspose.Slides في هذا الدليل التفصيلي خطوة بخطوة. ارفع عروضك التقديمية إلى المستوى التالي من خلال صور جذابة.
 ### [تغيير خلفية الشريحة العادية](./change-slide-background-normal/)
 تعرف على كيفية تغيير خلفية الشريحة العادية لجذب جمهورك. اتبع هذا الدليل الشامل باستخدام Aspose.Slides for .NET، مع الإرشادات خطوة بخطوة وأمثلة التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

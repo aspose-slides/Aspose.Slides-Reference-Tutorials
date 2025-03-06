@@ -3,10 +3,14 @@ title: Tutorial Menambahkan Bingkai Video dengan Aspose.Slides untuk .NET
 linktitle: Menambahkan Bingkai Video ke Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Merevitalisasi presentasi dengan bingkai video dinamis menggunakan Aspose.Slides untuk .NET. Ikuti panduan kami untuk integrasi yang lancar dan ciptakan interaksi.
-type: docs
 weight: 19
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam lanskap presentasi yang dinamis, menggabungkan elemen multimedia dapat meningkatkan dampak dan keterlibatan secara keseluruhan. Menambahkan bingkai video ke slide Anda dapat membawa perubahan besar, menarik perhatian audiens Anda dengan cara yang tidak dapat dilakukan oleh konten statis. Aspose.Slides untuk .NET memberikan solusi tangguh untuk mengintegrasikan bingkai video ke dalam slide presentasi Anda dengan lancar.
 ## Prasyarat
@@ -67,3 +71,9 @@ Sangat! Anda memiliki kendali penuh atas opsi pemutaran, seperti mode putar dan 
  Ya, Anda dapat menjelajahi kemampuan Aspose.Slides untuk .NET dengan mengunduh versi uji coba[Di Sini](https://releases.aspose.com/).
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk .NET?
  Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

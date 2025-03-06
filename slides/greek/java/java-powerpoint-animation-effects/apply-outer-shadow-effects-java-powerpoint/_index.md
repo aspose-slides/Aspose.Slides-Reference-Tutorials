@@ -3,10 +3,14 @@ title: Εφαρμόστε εφέ εξωτερικής σκιάς στο Java Pow
 linktitle: Εφαρμόστε εφέ εξωτερικής σκιάς στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να εφαρμόζετε εύκολα εφέ εξωτερικής σκιάς σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides με τον λεπτομερή, βήμα προς βήμα οδηγό μας.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Η δημιουργία συναρπαστικών παρουσιάσεων απαιτεί συχνά την προσθήκη διαφόρων εφέ για να βελτιώσετε την οπτική ελκυστικότητα των διαφανειών σας. Ένα τέτοιο εφέ είναι η εξωτερική σκιά, η οποία μπορεί να κάνει τα στοιχεία σας να αναδυθούν και να προσθέσουν βάθος στο περιεχόμενό σας. Σε αυτό το σεμινάριο, θα περπατήσουμε στη διαδικασία εφαρμογής εφέ εξωτερικής σκιάς σε σχήματα σε μια παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -114,3 +118,9 @@ if (pres != null) pres.dispose();
  Μπορείτε να πάρετε μια προσωρινή άδεια από το[Aspose website](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση για το Aspose.Slides;
  Μπορείτε να βρείτε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση στο[Σελίδα τεκμηρίωσης Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

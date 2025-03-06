@@ -3,10 +3,14 @@ title: Как удалить примечания на определенном 
 linktitle: Удаление примечаний на определенном слайде
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как удалить примечания к определенному слайду в PowerPoint с помощью Aspose.Slides для .NET. Оптимизируйте свои презентации без особых усилий.
-type: docs
 weight: 12
 url: /ru/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 В этом пошаговом руководстве мы покажем вам процесс удаления заметок на определенном слайде презентации PowerPoint с помощью Aspose.Slides для .NET. Aspose.Slides — мощная библиотека, позволяющая программно работать с файлами PowerPoint. Независимо от того, являетесь ли вы разработчиком или человеком, желающим автоматизировать задачи в презентациях PowerPoint, это руководство поможет вам легко добиться этого.
 
@@ -82,3 +86,9 @@ Aspose.Slides for .NET — мощная библиотека для програ
 
 ### Доступна ли пробная версия Aspose.Slides для .NET?
 Да, вы можете изучить Aspose.Slides, загрузив бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

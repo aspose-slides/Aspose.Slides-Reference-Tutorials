@@ -3,10 +3,14 @@ title: Gráfico de cuadros en diapositivas de Java
 linktitle: Gráfico de cuadros en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear gráficos de cajas en presentaciones Java con Aspose.Slides. Guía paso a paso y código fuente incluidos para una visualización de datos eficaz.
-type: docs
 weight: 10
 url: /es/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introducción al gráfico de cajas en Aspose.Slides para Java
 
@@ -148,3 +152,9 @@ Puede personalizar la apariencia del gráfico de cuadros modificando propiedades
 ### ¿Qué significa QuartileMethodType.Exclusive?
 
  El`QuartileMethodType.Exclusive` La configuración especifica que los cálculos de cuartiles deben realizarse utilizando el método exclusivo. Puede elegir diferentes métodos de cálculo de cuartiles según sus datos y requisitos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Grafiektrendlijnen in Java-dia's
 linktitle: Grafiektrendlijnen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u verschillende trendlijnen aan Java-dia's kunt toevoegen met Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor effectieve datavisualisatie.
-type: docs
 weight: 15
 url: /nl/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot grafiektrendlijnen in Java-dia's: een stapsgewijze handleiding
 
@@ -190,3 +194,9 @@ Ja, u kunt meerdere trendlijnen aan één grafiekreeks toevoegen. Bel eenvoudigw
 ### Hoe krijg ik toegang tot meer bronnen en voorbeelden voor Aspose.Slides voor Java?
 
  U kunt toegang krijgen tot aanvullende bronnen, documentatie en voorbeelden voor Aspose.Slides voor Java op de[Aspose-website](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

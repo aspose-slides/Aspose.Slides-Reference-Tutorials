@@ -3,10 +3,14 @@ title: Copy Slide to New Presentation with Master Slide
 linktitle: Copy Slide to New Presentation with Master Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to copy slides with master slides using Aspose.Slides for .NET. Boost your presentation skills with this step-by-step guide.
-type: docs
 weight: 20
 url: /net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In the world of presentation design and management, efficiency is key. As a content writer, I'm here to guide you through the process of copying a slide to a new presentation with a master slide using Aspose.Slides for .NET. Whether you are a seasoned developer or a newcomer to this realm, this step-by-step tutorial will help you master this essential skill. Let's dive right in.
 
@@ -118,3 +122,10 @@ You can buy a license from the Aspose website: [Purchase Aspose.Slides for .NET]
 
 ### Where can I get community support and discuss Aspose.Slides for .NET?
 You can join the Aspose community and seek support at [Aspose.Slides for .NET Support Forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

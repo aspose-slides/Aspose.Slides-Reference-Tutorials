@@ -3,10 +3,14 @@ title: Root Directory ClsId a Java Slides-ben
 linktitle: Root Directory ClsId a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a ClsId gyökérkönyvtárat az Aspose.Slides programban Java prezentációkhoz. Testreszabhatja a hiperhivatkozás viselkedését a CLSID segítségével.
-type: docs
 weight: 10
 url: /hu/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a ClsId gyökérkönyvtár beállításába az Aspose.Slides for Java programban
 
@@ -107,3 +111,9 @@ Nem, a Root Directory ClsId jellemzően a prezentáció szintjén van beállítv
 ### Vannak-e korlátozások a használható CLSID-ekre vonatkozóan?
 
 A használható CLSID-eket általában a rendszerre telepített alkalmazások határozzák meg. Olyan CLSID-eket kell használnia, amelyek megfelelnek a hiperhivatkozások kezelésére alkalmas érvényes alkalmazásoknak. Ne feledje, hogy érvénytelen CLSID használata váratlan viselkedést eredményezhet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

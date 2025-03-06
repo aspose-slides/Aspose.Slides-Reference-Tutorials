@@ -3,10 +3,14 @@ title: Java Slaytlarındaki Huni Grafiği
 linktitle: Java Slaytlarındaki Huni Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint sunumlarında Huni Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirmesi için kaynak kodlu adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java'da Huni Grafiği Oluşturmaya Giriş
 
@@ -137,3 +141,9 @@ Grafiği 2. Adımda slayta eklerken verilen koordinatları ve boyutları değiş
 ### Grafiği PDF veya resim gibi farklı formatlara aktarabilir miyim?
 
 Evet, Aspose.Slides for Java, Huni Tablosu ile sunumunuzu PDF, görüntü formatları ve daha fazlası dahil olmak üzere çeşitli formatlara aktarmanıza olanak tanır. Şunu kullanabilirsiniz:`SaveFormat` Sunumu kaydederken istenen çıktı formatını belirtme seçenekleri.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

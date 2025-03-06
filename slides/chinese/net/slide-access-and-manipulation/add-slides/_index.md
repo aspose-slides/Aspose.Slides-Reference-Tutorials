@@ -3,10 +3,14 @@ title: 在演示文稿中插入附加幻灯片
 linktitle: 在演示文稿中插入附加幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将附加幻灯片插入 PowerPoint 演示文稿。本分步指南提供源代码示例和详细说明，以无缝增强您的演示文稿。包括可自定义的内容、插入提示和常见问题解答。
-type: docs
 weight: 15
 url: /zh/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在演示文稿中插入附加幻灯片的简介
 
@@ -107,3 +111,9 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
 有关详细文档和示例，请参阅[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

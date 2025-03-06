@@ -3,10 +3,14 @@ title: Java PowerPoint で埋め込みフォントを管理する
 linktitle: Java PowerPoint で埋め込みフォントを管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用すると、Java PowerPoint プレゼンテーションに埋め込まれたフォントを簡単に管理できます。一貫性を保つためにスライドを最適化するためのステップバイステップ ガイドです。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 プレゼンテーションの世界は常に進化しており、フォントを効率的に管理することで、PowerPoint ファイルの品質と互換性に大きな違いが生まれます。Aspose.Slides for Java は、埋め込みフォントを管理するための包括的なソリューションを提供し、プレゼンテーションがどのデバイスでも完璧に表示されるようにします。このガイドでは、従来のプレゼンテーションを扱う場合でも、新しいプレゼンテーションを作成する場合でも、Aspose.Slides を使用して Java PowerPoint プレゼンテーションの埋め込みフォントを管理する手順を説明します。さっそく始めましょう。
 ## 前提条件
@@ -104,3 +108,9 @@ Aspose.Slides for Java は JDK 8 以降のバージョンと互換性があり�
 埋め込みフォントを管理することで、さまざまなデバイスやプラットフォーム間でプレゼンテーションの外観が一貫して保たれ、不要なフォントを削除することでファイル サイズが削減されます。
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
 サポートを受けるには[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

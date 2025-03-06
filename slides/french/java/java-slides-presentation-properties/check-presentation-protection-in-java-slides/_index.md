@@ -3,10 +3,14 @@ title: Vérifier la protection des présentations dans les diapositives Java
 linktitle: Vérifier la protection des présentations dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment vérifier la protection des présentations dans les diapositives Java à l'aide d'Aspose.Slides for Java. Ce guide étape par étape fournit des exemples de code pour les contrôles de protection en écriture et en ouverture.
-type: docs
 weight: 15
 url: /fr/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la vérification de la protection des présentations dans les diapositives Java
 
@@ -113,3 +117,9 @@ Si vous oubliez le mot de passe de protection d'une présentation, il n'existe a
 ### Aspose.Slides pour Java est-il compatible avec les derniers formats de fichiers PowerPoint ?
 
 Oui, Aspose.Slides pour Java prend en charge les derniers formats de fichiers PowerPoint, y compris les fichiers .pptx.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용한 Notes 슬라이드 조작
 linktitle: Aspose.Slides를 사용한 Notes 슬라이드 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드의 머리글과 바닥글을 관리하는 방법을 알아보세요. 메모를 제거하고 프레젠테이션을 손쉽게 맞춤화하세요.
-type: docs
 weight: 10
 url: /ko/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 오늘날의 디지털 시대에 매력적인 프레젠테이션을 만드는 것은 필수적인 기술입니다. Aspose.Slides for .NET은 프레젠테이션 슬라이드를 쉽게 조작하고 사용자 정의할 수 있는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 몇 가지 필수 작업을 안내합니다. 노트 슬라이드의 머리글과 바닥글을 관리하는 방법, 특정 슬라이드의 노트를 제거하는 방법, 모든 슬라이드에서 노트를 제거하는 방법을 다룹니다.
 
@@ -165,3 +169,10 @@ presentation.Save(dataDir + "RemoveNotesFromAllSlides_out.pptx", SaveFormat.Pptx
 ### Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 다른 측면을 조작할 수 있습니까?
 
 예, Aspose.Slides for .NET은 슬라이드, 도형, 텍스트 등을 포함하여 PowerPoint 프레젠테이션 조작을 위한 광범위한 기능을 제공합니다. 자세한 내용은 설명서를 살펴보세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

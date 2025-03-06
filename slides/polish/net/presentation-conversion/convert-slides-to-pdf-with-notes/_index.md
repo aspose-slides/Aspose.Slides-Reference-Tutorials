@@ -3,10 +3,14 @@ title: Konwertuj slajdy do formatu PDF za pomocą notatek
 linktitle: Konwertuj slajdy do formatu PDF za pomocą notatek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Bez wysiłku konwertuj slajdy prezentacji z notatkami prelegenta do formatu PDF za pomocą Aspose.Slides dla .NET. Bezproblemowo zachowuj treść i kontekst.
-type: docs
 weight: 18
 url: /pl/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Napisz przewodnik krok po kroku dotyczący konwertowania slajdów do formatu PDF z notatkami przy użyciu Aspose.Slides dla .NET
 
@@ -98,3 +102,9 @@ Tak, Aspose.Slides dla .NET obsługuje różne formaty wyjściowe, w tym PPTX, D
  Tak, możesz kupić tymczasową licencję na stronie[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Podsumowując, używając Aspose.Slides dla .NET, możesz łatwo konwertować slajdy programu PowerPoint do formatu PDF z nienaruszonymi notatkami. Jest to cenne narzędzie dla profesjonalistów, którzy muszą udostępniać prezentacje współpracownikom i klientom, jednocześnie dbając o to, aby nie utracić ważnego kontekstu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

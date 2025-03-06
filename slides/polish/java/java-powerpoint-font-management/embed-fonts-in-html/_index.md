@@ -3,10 +3,14 @@ title: Osadzaj czcionki w formacie HTML za pomocą Aspose.Slides dla Java
 linktitle: Osadzaj czcionki w formacie HTML za pomocą Aspose.Slides dla Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak osadzać czcionki w formacie HTML za pomocą Aspose.Slides dla Java, aby zapewnić spójną typografię na różnych platformach i urządzeniach.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Aspose.Slides for Java to potężne narzędzie dla programistów Java, którzy chcą programowo manipulować prezentacjami programu PowerPoint. W tym samouczku zagłębimy się w proces osadzania czcionek w formacie HTML za pomocą Aspose.Slides dla Java. Osadzając czcionki, masz pewność, że Twoje prezentacje zachowają zamierzony wygląd na różnych platformach i urządzeniach, nawet jeśli wymagane czcionki nie są zainstalowane lokalnie.
 ## Warunki wstępne
@@ -58,3 +62,9 @@ Tak, Aspose.Slides obsługuje osadzanie czcionek w różnych formatach wyjściow
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w celu uzyskania wsparcia społeczności lub skontaktuj się z obsługą Aspose w celu uzyskania profesjonalnej pomocy.
 ### Czy mogę kupić tymczasową licencję na Aspose.Slides dla Java?
 Tak, możesz nabyć tymczasową licencję od[strona zakupu](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

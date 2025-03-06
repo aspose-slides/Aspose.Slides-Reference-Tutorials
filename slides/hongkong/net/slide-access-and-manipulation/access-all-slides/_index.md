@@ -3,10 +3,14 @@ title: 檢索簡報中的所有投影片
 linktitle: 檢索簡報中的所有投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 擷取 PowerPoint 簡報中的所有投影片。請按照此逐步指南以及完整的原始程式碼，以程式設計方式有效率地處理簡報。探索幻燈片屬性、安裝、自訂等。
-type: docs
 weight: 13
 url: /zh-hant/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for .NET 簡介
 
@@ -139,3 +143,9 @@ Install-Package Aspose.Slides
 ### 在哪裡可以找到有關 Aspose.Slides for .NET 的更多資訊？
 
 有關更多詳細資訊、API 參考和程式碼範例，您可以訪問[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

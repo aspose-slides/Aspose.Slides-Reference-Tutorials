@@ -3,10 +3,14 @@ title: Aggiungi punti elenco paragrafi in PowerPoint utilizzando Java
 linktitle: Aggiungi punti elenco paragrafi in PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere punti elenco di paragrafo nelle diapositive di PowerPoint utilizzando Aspose.Slides per Java. Questo tutorial ti guida passo dopo passo con esempi di codice.
-type: docs
 weight: 15
 url: /it/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 L'aggiunta di punti elenco di paragrafo migliora la leggibilità e la struttura delle presentazioni PowerPoint. Aspose.Slides per Java fornisce strumenti robusti per manipolare le presentazioni a livello di codice, inclusa la possibilità di formattare il testo con vari stili di punti elenco. In questo tutorial imparerai come integrare i punti elenco nelle diapositive di PowerPoint utilizzando il codice Java, sfruttando Aspose.Slides.
 ## Prerequisiti
@@ -89,3 +93,9 @@ Sì, puoi applicare stili di punti elenco univoci a diapositive diverse a livell
 Sì, Aspose.Slides supporta Java 11 e versioni successive.
 ### Dove posso trovare altri esempi e documentazione?
  Visita[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/) per guide ed esempi completi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

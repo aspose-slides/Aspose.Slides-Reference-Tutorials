@@ -3,10 +3,14 @@ title: Ellenőrizze a SmartArt rejtett tulajdonságot Java használatával
 linktitle: Ellenőrizze a SmartArt rejtett tulajdonságot Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel, hogyan ellenőrizheti a SmartArt rejtett tulajdonságát a PowerPointban az Aspose.Slides for Java segítségével, javítva a prezentációkezelést.
-type: docs
 weight: 24
 url: /hu/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 Java programozás dinamikus világában a PowerPoint prezentációk programozott kezelése értékes készség. Az Aspose.Slides for Java egy robusztus könyvtár, amely képessé teszi a fejlesztőket arra, hogy zökkenőmentesen hozzanak létre, módosítsanak és kezeljenek PowerPoint-prezentációkat. A prezentációkezelés egyik alapvető feladata a SmartArt objektumok rejtett tulajdonságainak ellenőrzése. Ez az oktatóanyag végigvezeti Önt a SmartArt rejtett tulajdonságának az Aspose.Slides for Java segítségével történő ellenőrzésén.
 ## Előfeltételek
@@ -76,3 +80,9 @@ Teljesen! Az Aspose.Slides for Java kiterjedt lehetőségeket kínál a meglév�
 Igen, az Aspose.Slides for Java a PowerPoint fájlformátumok széles skáláját támogatja, beleértve a PPT, PPTX, POT, POTX, PPS stb.
 ### Van olyan közösség vagy fórum, ahol segítséget kaphatok az Aspose.Slides for Java-hoz?
 Igen, meglátogathatja az Aspose.Slides fórumot (https://forum.aspose.com/c/slides/11) kérdéseket feltenni, ötleteket megosztani, és támogatást kapni a közösségtől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

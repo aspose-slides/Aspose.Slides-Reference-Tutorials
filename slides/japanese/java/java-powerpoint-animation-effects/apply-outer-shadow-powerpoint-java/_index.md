@@ -3,10 +3,14 @@ title: Java を使用して PowerPoint に外側の影を適用する
 linktitle: Java を使用して PowerPoint に外側の影を適用する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して PowerPoint に外側の影効果を適用する方法を学びます。プレゼンテーションに深みと視覚的な魅力を加えます。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 視覚的に魅力的な PowerPoint プレゼンテーションを作成するには、多くの場合、図形やテキストにさまざまな効果を追加します。そのような効果の 1 つが外側の影です。外側の影を使用すると、要素を目立たせ、スライドに深みを加えることができます。このチュートリアルでは、Java と Aspose.Slides を使用して、PowerPoint の図形に外側の影の効果を適用する方法を学習します。
 ## 前提条件
@@ -121,3 +125,9 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 
 ### Aspose.Slides のその他のリソースやサポートはどこで見つかりますか?
 参照するには[ドキュメンテーション](https://reference.aspose.com/slides/java/)詳細なAPIリファレンスについては、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

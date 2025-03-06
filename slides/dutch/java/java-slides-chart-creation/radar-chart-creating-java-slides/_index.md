@@ -3,10 +3,14 @@ title: Radardiagram maken in Java-dia's
 linktitle: Radardiagram maken in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u radardiagrammen kunt maken in Java PowerPoint-presentaties met behulp van de Aspose.Slides voor Java API.
-type: docs
 weight: 10
 url: /nl/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het maken van een radardiagram in Java-dia's
 
@@ -268,3 +272,9 @@ Raadpleeg "Stap 5" om de aslabels en opmaak aan te passen, inclusief lettergroot
 ### Hoe sla ik het diagram op in een ander bestandsformaat?
 
  kunt het uitvoerformaat wijzigen door de bestandsextensie in het`outPath` variabele en gebruik de juiste`SaveFormat` . Als u bijvoorbeeld als PDF wilt opslaan, gebruikt u`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

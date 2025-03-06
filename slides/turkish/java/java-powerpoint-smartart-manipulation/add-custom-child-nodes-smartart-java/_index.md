@@ -3,10 +3,14 @@ title: Java kullanarak SmartArt'a Özel Alt Düğümler ekleme
 linktitle: Java kullanarak SmartArt'a Özel Alt Düğümler ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint sunumlarında SmartArt'a nasıl özel alt düğümler ekleyeceğinizi öğrenin. Slaytlarınızı profesyonel grafiklerle zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 SmartArt, PowerPoint'te kullanıcıların hızlı ve kolay bir şekilde profesyonel görünümlü grafikler oluşturmasına olanak tanıyan güçlü bir özelliktir. Bu eğitimde Aspose.Slides ile Java kullanarak SmartArt'a özel alt düğümlerin nasıl ekleneceğini öğreneceğiz.
 ## Önkoşullar
@@ -79,3 +83,9 @@ Kesinlikle! Aspose.Slides for Java ile SmartArt şekillerinin görünümünü, b
 Evet, Aspose web sitesinde kapsamlı belgeler bulabilir ve topluluk destek forumlarına erişim sağlayabilirsiniz.
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü web sitesinden indirebilir ve satın almadan önce özelliklerini ve yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

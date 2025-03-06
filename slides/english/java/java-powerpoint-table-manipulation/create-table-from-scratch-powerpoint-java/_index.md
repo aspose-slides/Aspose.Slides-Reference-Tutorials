@@ -3,10 +3,14 @@ title: Create Table from Scratch in PowerPoint with Java
 linktitle: Create Table from Scratch in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic tables in PowerPoint using Aspose.Slides for Java with our comprehensive step-by-step tutorial.
-type: docs
 weight: 22
 url: /java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Have you ever needed to create a dynamic table in a PowerPoint presentation using Java? Well, you're in the right place! In this tutorial, we'll walk you through the process of creating a table from scratch using Aspose.Slides for Java. Whether you're an experienced Java developer or just starting, you'll find this guide easy to follow and incredibly useful. Let's dive in and transform your PowerPoint slides into something extraordinary!
 ## Prerequisites
@@ -86,3 +90,10 @@ You can request a temporary license from the [site](https://purchase.aspose.com/
 Aspose.Slides is compatible with Java SE 6 and above.
 ### Where can I find the Aspose.Slides documentation?
 The documentation is available [here](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Manejo de imágenes de diapositivas de Java utilizando Aspose.Slides para
 linktitle: Manejo de imágenes de diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a manejar imágenes en diapositivas de Java utilizando los tutoriales de Aspose.Slides para Java. Explore la guía paso a paso para una gestión eficiente de las imágenes.
-type: docs
 weight: 23
 url: /es/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ¿Estás listo para mejorar tus diapositivas Java con imágenes impresionantes? En este artículo profundizaremos en el mundo del manejo de imágenes utilizando los tutoriales de Aspose.Slides para Java. Si es un desarrollador experimentado o recién está comenzando su viaje, esta guía completa lo guiará a través del proceso, paso a paso.
 
@@ -42,3 +46,9 @@ Aprenda a agregar imágenes SVG a diapositivas de Java con Aspose.Slides para Ja
 Aprenda a agregar imágenes SVG basadas en vectores desde recursos externos a diapositivas de Java usando Aspose.Slides. Cree presentaciones impresionantes con imágenes de alta calidad.
 ### [Convierta un objeto de imagen SVG en un grupo de formas en diapositivas de Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Aprenda cómo convertir imágenes SVG en un grupo de formas en Java Slides usando Aspose.Slides para Java. Guía paso a paso con ejemplos de código.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Verwijder ongebruikte lay-outmaster in Java-dia's
 linktitle: Verwijder ongebruikte lay-outmaster in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verwijder ongebruikte lay-outmasters met Aspose.Slides. Stapsgewijze handleiding en code. Verbeter de presentatie-efficiëntie.
-type: docs
 weight: 10
 url: /nl/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het verwijderen van ongebruikte lay-outmaster in Java-dia's
 
@@ -123,3 +127,9 @@ Nee, het verwijderen van ongebruikte lay-outmodellen heeft geen invloed op de op
 ### Waar kan ik toegang krijgen tot de broncode die in dit artikel wordt gebruikt?
 
 U kunt de broncode die in dit artikel wordt gebruikt, vinden in de codefragmenten die bij elke stap worden verstrekt. Kopieer en plak de code eenvoudig in uw Java-project om het verwijderen van ongebruikte lay-outmodellen in uw presentaties te implementeren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

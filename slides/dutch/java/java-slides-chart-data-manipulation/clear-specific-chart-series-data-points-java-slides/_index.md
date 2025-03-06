@@ -3,10 +3,14 @@ title: Wis specifieke grafiekreeksgegevenspuntengegevens in Java-dia's
 linktitle: Wis specifieke grafiekreeksgegevenspuntengegevens in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u specifieke gegevenspunten uit een diagramreeks in Java Slides kunt wissen met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor effectief datavisualisatiebeheer.
-type: docs
 weight: 15
 url: /nl/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het wissen van gegevens uit specifieke grafiekreeksen in Java-dia's
 
@@ -121,3 +125,9 @@ Ja, u kunt gegevenspunten wissen op basis van een voorwaarde door voorwaardelijk
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
  Uitgebreide documentatie en voorbeelden vindt u in de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

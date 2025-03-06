@@ -3,10 +3,14 @@ title: Раскрытие волшебства эффективного поис
 linktitle: Получение эффективных данных о скосах для формы слайдов презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как улучшить слайды презентации с помощью эффективных данных скоса с помощью Aspose.Slides. Подробное руководство с пошаговыми инструкциями и примером кода.
-type: docs
 weight: 20
 url: /ru/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Добро пожаловать в увлекательный мир Aspose.Slides для .NET, ваш путь к созданию потрясающих презентаций с беспрецедентной легкостью. В этом уроке мы углубимся в тонкости получения эффективных данных о скосах фигур в слайдах презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -69,3 +73,9 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
  Да, вы можете приобрести Aspose.Slides для .NET.[здесь](https://purchase.aspose.com/buy) чтобы разблокировать его премиум-функции для коммерческих проектов.
 ### Что делать, если я столкнусь с проблемами во время реализации?
  Обратитесь за помощью к сообществу Aspose.Slides for .NET на[форум поддержки](https://forum.aspose.com/c/slides/11) за быстрые и полезные решения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

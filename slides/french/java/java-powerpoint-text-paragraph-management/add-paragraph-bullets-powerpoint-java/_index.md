@@ -3,10 +3,14 @@ title: Ajouter des puces de paragraphe dans PowerPoint à l'aide de Java
 linktitle: Ajouter des puces de paragraphe dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des puces de paragraphe dans les diapositives PowerPoint à l'aide d'Aspose.Slides pour Java. Ce didacticiel vous guide étape par étape avec des exemples de code.
-type: docs
 weight: 15
 url: /fr/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 L'ajout de puces de paragraphe améliore la lisibilité et la structure des présentations PowerPoint. Aspose.Slides pour Java fournit des outils robustes pour manipuler les présentations par programmation, notamment la possibilité de formater le texte avec différents styles de puces. Dans ce didacticiel, vous apprendrez à intégrer des puces dans des diapositives PowerPoint à l'aide de code Java, en tirant parti d'Aspose.Slides.
 ## Conditions préalables
@@ -89,3 +93,9 @@ Oui, vous pouvez appliquer des styles de puces uniques à différentes diapositi
 Oui, Aspose.Slides prend en charge Java 11 et les versions supérieures.
 ### Où puis-je trouver plus d’exemples et de documentation ?
  Visite[Aspose.Slides pour Java Documentation](https://reference.aspose.com/slides/java/) pour des guides et des exemples complets.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

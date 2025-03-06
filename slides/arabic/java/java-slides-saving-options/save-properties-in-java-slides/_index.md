@@ -3,10 +3,14 @@ title: حفظ الخصائص في شرائح جافا
 linktitle: حفظ الخصائص في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية الخاصة بك باستخدام Aspose.Slides لـ Java. تعلم كيفية ضبط الخصائص وتعطيل التشفير وإضافة الحماية بكلمة المرور والحفظ دون عناء.
-type: docs
 weight: 12
 url: /ar/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لحفظ الخصائص في شرائح جافا
 
@@ -170,3 +174,9 @@ finally {
 ### كيف يمكنني معرفة المزيد عن Aspose.Slides لـ Java وميزاته؟
 
  يمكنك استكشاف وثائق Aspose.Slides for Java على[هنا](https://docs.aspose.com/slides/java/) للحصول على معلومات تفصيلية ودروس تعليمية وأمثلة حول استخدام المكتبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

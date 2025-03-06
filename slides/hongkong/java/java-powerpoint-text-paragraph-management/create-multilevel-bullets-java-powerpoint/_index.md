@@ -3,10 +3,14 @@ title: 在 Java PowerPoint 中建立多層項目符號
 linktitle: 在 Java PowerPoint 中建立多層項目符號
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中建立多層項目符號。包含程式碼範例和常見問題的逐步指南。
-type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立多層項目符號。添加要點是在簡報中創建有組織且具有視覺吸引力的內容的常見要求。我們將逐步完成流程，確保在本指南結束時，您將能夠透過多個層級的結構化要點來增強您的簡報。
 ## 先決條件
@@ -109,3 +113,9 @@ Aspose.Slides 產生與 Microsoft PowerPoint 2007 及更高版本相容的簡報
 是的，Aspose.Slides 提供了 API 來自動建立、修改和操作 PowerPoint 簡報。
 ### 在哪裡可以獲得 Aspose.Slides for Java 的支援？
 您可以從 Aspose.Slides 社區和專家那裡獲得支持[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

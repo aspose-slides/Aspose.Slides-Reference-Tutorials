@@ -3,10 +3,14 @@ title: जावा स्लाइड्स को मार्कडाउन 
 linktitle: जावा स्लाइड्स को मार्कडाउन में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों को Markdown में बदलें। अपनी स्लाइड्स को आसानी से बदलने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 24
 url: /hi/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## परिचय जावा स्लाइड्स में मार्कडाउन में कनवर्ट करें
 
@@ -136,3 +140,9 @@ try {
 ### मैं अधिक दस्तावेज और संसाधन कहां पा सकता हूं?
 
  आप जावा दस्तावेज़ के लिए Aspose.Slides का संदर्भ ले सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) विस्तृत जानकारी और अतिरिक्त उदाहरणों के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 中的默认打印机打印演示文稿
 linktitle: 使用 Aspose.Slides 中的默认打印机打印演示文稿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 在 .NET 中实现无缝 PowerPoint 打印。按照我们的分步指南轻松集成。立即提升您的应用程序功能！
-type: docs
 weight: 10
 url: /zh/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在 .NET 开发领域，Aspose.Slides 是创建、操作和渲染 PowerPoint 演示文稿的强大工具。在其众多功能中，将演示文稿直接打印到默认打印机的功能是开发人员经常寻求的一项便捷功能。本教程将逐步指导您完成该过程，即使您是 Aspose.Slides 的新手，也可以轻松上手。
 ## 先决条件
@@ -51,3 +55,9 @@ presentation.Print();
 是的，你可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/)进行测试和评估。
 ### 我如何寻求帮助或联系 Aspose.Slides 社区？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)提出问题，分享见解，并与其他开发人员建立联系。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

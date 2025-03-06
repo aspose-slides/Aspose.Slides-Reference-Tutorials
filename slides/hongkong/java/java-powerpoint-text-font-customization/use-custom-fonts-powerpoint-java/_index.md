@@ -3,10 +3,14 @@ title: 在 PowerPoint 中使用 Java 自訂字體
 linktitle: 在 PowerPoint 中使用 Java 自訂字體
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將自訂字體整合到 PowerPoint 簡報中。毫不費力地增強視覺吸引力。
-type: docs
 weight: 25
 url: /zh-hant/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將探討如何利用 Aspose.Slides for Java 透過整合自訂字體來增強 PowerPoint 簡報。自訂字體可以顯著豐富投影片的視覺吸引力，確保它們完美符合您的品牌或設計要求。我們將涵蓋從匯入必要的套件到執行將自訂字體無縫整合到簡報中所需的步驟的所有內容。
 ## 先決條件
@@ -70,3 +74,9 @@ FontsLoader.clearCache();
 Aspose.Slides for Java 支援使用多種自訂字體，且程式庫沒有施加任何固有限制。
 ### 我可以使用 Aspose.Slides for Java 將自訂字體直接嵌入到 PowerPoint 檔案中嗎？
 是的，Aspose.Slides for Java 可讓您將自訂字體嵌入到簡報檔案本身中，以實現無縫分發。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

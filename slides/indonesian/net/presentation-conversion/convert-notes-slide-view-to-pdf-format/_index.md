@@ -3,10 +3,14 @@ title: Konversi Tampilan Slide Catatan ke Format PDF
 linktitle: Konversi Tampilan Slide Catatan ke Format PDF
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Konversikan catatan pembicara di PowerPoint ke PDF dengan Aspose.Slides untuk .NET. Pertahankan konteks dan sesuaikan tata letak dengan mudah.
-type: docs
 weight: 15
 url: /id/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses mengonversi Tampilan Slide Catatan ke Format PDF menggunakan Aspose.Slides untuk .NET. Anda akan menemukan petunjuk terperinci dan cuplikan kode untuk menyelesaikan tugas ini dengan mudah.
 
@@ -78,3 +82,9 @@ Sangat! Aspose.Slides for .NET menyediakan berbagai opsi untuk menyesuaikan kelu
 Anda dapat menjelajahi tutorial dan contoh tambahan di[Aspose.Slides untuk dokumentasi .NET API](https://reference.aspose.com/slides/net/).
 
 Sekarang setelah Anda berhasil mengonversi Tampilan Slide Catatan ke Format PDF, Anda dapat menjelajahi lebih banyak fitur dan kemampuan Aspose.Slides untuk .NET untuk meningkatkan tugas otomatisasi PowerPoint Anda. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

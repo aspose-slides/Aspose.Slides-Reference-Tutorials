@@ -3,10 +3,14 @@ title: Resaltado de texto de PowerPoint en Java y reglas alternativas
 linktitle: Resaltado de texto de PowerPoint en Java y reglas alternativas
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine el resaltado de texto y las reglas de reserva de fuentes en Java PowerPoint con Aspose.Slides. Siga nuestros tutoriales para mejorar y automatizar sus presentaciones sin problemas.
-type: docs
 weight: 25
 url: /es/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introducción
 
@@ -26,3 +30,9 @@ Si sigue estos tutoriales, estará bien equipado para mejorar sus presentaciones
 Aprenda cómo resaltar texto en PowerPoint usando Aspose.Slides para Java. Automatice y mejore presentaciones sin esfuerzo con nuestra guía detallada.
 ### [Colección de reglas alternativas en Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Aprenda a administrar reglas de reserva de fuentes en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore la compatibilidad entre dispositivos sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

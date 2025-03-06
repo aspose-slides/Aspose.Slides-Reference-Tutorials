@@ -3,10 +3,14 @@ title: Multiple Paragraphs in Java PowerPoint
 linktitle: Multiple Paragraphs in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create multiple paragraphs in Java PowerPoint presentations using Aspose.Slides for Java. Complete guide with code examples.
-type: docs
 weight: 13
 url: /java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, we'll explore how to create slides with multiple paragraphs in Java using Aspose.Slides for Java. Aspose.Slides is a powerful library that allows developers to manipulate PowerPoint presentations programmatically, making it ideal for automating tasks related to slide creation and formatting.
 ## Prerequisites
@@ -113,3 +117,10 @@ Aspose.Slides supports various PowerPoint formats, ensuring compatibility across
 Yes, you can download a free trial version [here](https://releases.aspose.com/).
 ### How can I get technical support if needed?
 You can get support from the Aspose.Slides community [here](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

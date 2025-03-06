@@ -3,10 +3,14 @@ title: แผนภูมิแผนที่ใน Java Slides
 linktitle: แผนภูมิแผนที่ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิแผนที่อันน่าทึ่งในงานนำเสนอ PowerPoint ด้วย Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนและซอร์สโค้ดสำหรับนักพัฒนา Java
-type: docs
 weight: 15
 url: /th/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิแผนที่ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
 
@@ -131,3 +135,9 @@ try {
 ### ฉันจะรวม Aspose.Slides สำหรับ Java เข้ากับโปรเจ็กต์ของฉันได้อย่างไร
 
  ดาวน์โหลดห้องสมุดได้จาก[ที่นี่](https://releases.aspose.com/slides/java/) และเพิ่มลงใน classpath ของโครงการของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

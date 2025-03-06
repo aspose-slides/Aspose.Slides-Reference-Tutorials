@@ -3,10 +3,14 @@ title: Définition du format de date pour l'axe des catégories dans les diaposi
 linktitle: Définition du format de date pour l'axe des catégories dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir un format de date pour l'axe des catégories dans un graphique PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
-type: docs
 weight: 26
 url: /fr/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction à la définition du format de date pour l'axe des catégories dans les diapositives Java
 
@@ -139,3 +143,9 @@ Oui, vous pouvez définir différents formats de date pour les axes de catégori
 ### Comment ajouter plus de points de données au graphique ?
 
  Pour ajouter plus de points de données au graphique, utilisez le`getDataPoints().addDataPointForLineSeries`méthode sur la série de données et fournir les valeurs des données.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

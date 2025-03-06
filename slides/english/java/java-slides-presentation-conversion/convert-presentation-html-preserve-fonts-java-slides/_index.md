@@ -3,10 +3,14 @@ title: Converting Presentation to HTML with Preserving Original Fonts in Java Sl
 linktitle: Converting Presentation to HTML with Preserving Original Fonts in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Convert PowerPoint presentations to HTML while preserving original fonts using Aspose.Slides for Java.
-type: docs
 weight: 14
 url: /java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Converting Presentation to HTML with Preserving Original Fonts in Java Slides
 
@@ -111,3 +115,10 @@ This code example is designed for PPTX files. If you need to convert older PPT f
 ### How can I further customize the HTML output?
 
 You can explore the `HtmlOptions` class to customize various aspects of the HTML output, such as slide size, image quality, and more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

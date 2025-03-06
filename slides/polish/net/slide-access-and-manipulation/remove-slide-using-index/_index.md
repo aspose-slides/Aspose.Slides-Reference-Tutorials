@@ -3,10 +3,14 @@ title: Usuń slajd według indeksu sekwencyjnego
 linktitle: Usuń slajd według indeksu sekwencyjnego
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak krok po kroku usuwać slajdy programu PowerPoint za pomocą Aspose.Slides dla .NET. Nasz przewodnik zawiera jasne instrukcje i pełny kod źródłowy, które pomogą Ci programowo usunąć slajdy według ich sekwencyjnego indeksu.
-type: docs
 weight: 24
 url: /pl/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do usuwania slajdów według indeksu sekwencyjnego
 
@@ -86,3 +90,9 @@ Oczywiście możesz usuwać slajdy na podstawie takich warunków, jak zawartoś�
 ### Jak dowiedzieć się więcej o Aspose.Slides dla .NET?
 
  Możesz zapoznać się ze szczegółową dokumentacją i odniesieniami do API dla Aspose.Slides dla .NET na[strona z dokumentacją](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java を使用した PowerPoint のフォント プロパティ
 linktitle: Java を使用した PowerPoint のフォント プロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java で PowerPoint プレゼンテーションのフォント プロパティを操作する方法を学びます。このステップ バイ ステップ ガイドを使用して、フォントを簡単にカスタマイズします。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Java、特に Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションのフォント プロパティを操作する方法について説明します。必要なパッケージのインポートから変更したプレゼンテーションの保存まで、各手順をガイドします。さっそく始めましょう。
 ## 前提条件
@@ -81,3 +85,9 @@ Aspose.Slides for Java を使用すると、Java を使用して PowerPoint プ�
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides for Java の詳細なサポートとリソースはどこで見つかりますか?
  Aspose.Slidesフォーラムをご覧ください[ここ](https://forum.aspose.com/c/slides/11)サポートとドキュメント[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

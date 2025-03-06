@@ -3,10 +3,14 @@ title: 將簡報轉換為帶有註釋的 TIFF 格式
 linktitle: 將簡報轉換為帶有註釋的 TIFF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為帶有演講者註解的 TIFF 格式。高品質、高效的轉換。
-type: docs
 weight: 10
 url: /zh-hant/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在數位簡報的世界中，將它們轉換為不同格式的能力非常有用。其中一種格式是 TIFF，它代表標記影像檔案格式。 TIFF 檔案以其高品質影像和與各種應用程式的兼容性而聞名。在本逐步教學中，我們將向您展示如何使用 Aspose.Slides for .NET API 將簡報轉換為 TIFF 格式並附上註解。
 
@@ -78,3 +82,9 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
  是的，Aspose.Slides for .NET 支援各種輸出格式，包括 PDF、影像等。查看文件以了解詳細資訊。
 
 現在您已經掌握了使用 Aspose.Slides for .NET 將簡報轉換為帶有註釋的 TIFF 格式的知識，請繼續探索這個強大的 API 在您的專案中的可能性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

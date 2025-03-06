@@ -3,10 +3,14 @@ title: Dátumformátum beállítása a Java Slides kategóriatengelyéhez
 linktitle: Dátumformátum beállítása a Java Slides kategóriatengelyéhez
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be dátumformátumot a kategóriatengelyhez egy PowerPoint diagramon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-type: docs
 weight: 26
 url: /hu/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a Java Slides kategóriatengely dátumformátumának beállításába
 
@@ -139,3 +143,9 @@ Igen, beállíthat különböző dátumformátumokat a kategóriatengelyekhez ug
 ### Hogyan adhatok hozzá további adatpontokat a diagramhoz?
 
  Ha további adatpontokat szeretne hozzáadni a diagramhoz, használja a`getDataPoints().addDataPointForLineSeries`módszert az adatsoron, és adja meg az adatértékeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

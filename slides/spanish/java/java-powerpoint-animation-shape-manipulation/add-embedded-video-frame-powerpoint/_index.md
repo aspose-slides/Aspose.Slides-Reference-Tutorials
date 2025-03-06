@@ -3,10 +3,14 @@ title: Agregar marco de video incrustado en PowerPoint
 linktitle: Agregar marco de video incrustado en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo incrustar cuadros de video en PowerPoint usando Aspose.Slides para Java con este tutorial paso a paso. Mejore sus presentaciones fácilmente.
-type: docs
 weight: 21
 url: /es/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Agregar videos a sus presentaciones de PowerPoint puede hacerlas más atractivas e informativas. Con Aspose.Slides para Java, puede incrustar fácilmente videos directamente en sus diapositivas. En este tutorial, lo guiaremos a través del proceso paso a paso, asegurándonos de que comprenda cada parte del código y cómo funciona. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo ayudará a mejorar sus presentaciones con videos integrados.
 ## Requisitos previos
@@ -93,3 +97,9 @@ Aspose.Slides admite varios formatos de video, incluidos MP4, AVI y WMV.
 Sí, necesita una licencia válida para utilizar Aspose.Slides. Puede obtener una licencia temporal para evaluación.
 ### ¿Puedo personalizar el tamaño y la posición del fotograma del vídeo?
 Sí, puede personalizar el tamaño y la posición configurando los parámetros apropiados al agregar el cuadro de video.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

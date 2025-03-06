@@ -3,10 +3,14 @@ title: Přidání rámečků objektů OLE do prezentace pomocí Aspose.Slides
 linktitle: Přidání rámečků objektů OLE do prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit prezentace v PowerPointu dynamickým obsahem! Postupujte podle našeho podrobného průvodce pomocí Aspose.Slides pro .NET. Zvyšte zapojení hned teď!
-type: docs
 weight: 15
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 tomto tutoriálu se ponoříme do procesu přidávání rámců objektů OLE (Object Linking and Embedding) do prezentačních snímků pomocí Aspose.Slides for .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově. Postupujte podle tohoto podrobného průvodce pro bezproblémové vkládání objektů OLE do snímků prezentace a rozšíření souborů PowerPoint o dynamický a interaktivní obsah.
 ## Předpoklady
@@ -84,3 +88,9 @@ Odpověď: Ano, Aspose.Slides podporuje nejnovější formáty souborů PowerPoi
 Odpověď: Rozhodně můžete upravit velikost, polohu a další vlastnosti rámečku objektu OLE podle svých preferencí.
 ### Otázka: Kde mohu vyhledat pomoc, pokud se během implementace setkám s problémy?
  A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a vedení komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

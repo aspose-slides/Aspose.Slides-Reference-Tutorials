@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 克隆演示幻灯片中的形状
 linktitle: 使用 Aspose.Slides 克隆演示幻灯片中的形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides API 高效克隆演示文稿幻灯片中的形状。轻松创建动态演示文稿。探索分步指南、常见问题解答等。
-type: docs
 weight: 27
 url: /zh/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介绍
 
@@ -97,3 +101,9 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## 结论
 
 使用 Aspose.Slides 解锁演示文稿幻灯片中形状克隆的强大功能，为内容创建者和开发人员打开了一个充满创意可能性的世界。本指南将引导您完成从安装到高级定制的整个过程，为您提供使演示文稿脱颖而出所需的工具。使用 Aspose.Slides，您可以简化工作流程并轻松实现演示文稿的愿景。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

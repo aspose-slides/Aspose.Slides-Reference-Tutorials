@@ -3,10 +3,14 @@ title: สร้างรูปร่างกลุ่มใน PowerPoint
 linktitle: สร้างรูปร่างกลุ่มใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างรูปร่างกลุ่มในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงองค์กรและดึงดูดสายตาได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 ในการนำเสนอสมัยใหม่ การผสมผสานองค์ประกอบที่ดึงดูดสายตาและมีโครงสร้างที่ดีเป็นสิ่งสำคัญสำหรับการถ่ายทอดข้อมูลอย่างมีประสิทธิภาพ รูปร่างกลุ่มใน PowerPoint ช่วยให้คุณสามารถจัดระเบียบรูปร่างหลายรูปร่างให้เป็นหน่วยเดียว ช่วยให้จัดการและจัดรูปแบบได้ง่ายขึ้น Aspose.Slides สำหรับ Java มีฟังก์ชันการทำงานที่มีประสิทธิภาพในการสร้างและจัดการรูปร่างของกลุ่มโดยทางโปรแกรม ให้ความยืดหยุ่นและการควบคุมการออกแบบงานนำเสนอของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -75,3 +79,9 @@ Aspose.Slides สำหรับ Java สร้างงานนำเสนอ
 Aspose.Slides สำหรับ Java ไม่มีข้อจำกัดที่เข้มงวดเกี่ยวกับจำนวนรูปร่างที่สามารถเพิ่มลงในรูปร่างกลุ่มได้
 ### ฉันสามารถใช้ภาพเคลื่อนไหวกับรูปร่างกลุ่มโดยใช้ Aspose.Slides สำหรับ Java ได้หรือไม่
 ใช่ Aspose.Slides สำหรับ Java ให้การสนับสนุนที่ครอบคลุมสำหรับการใช้ภาพเคลื่อนไหวกับรูปร่างกลุ่ม ซึ่งช่วยให้สามารถนำเสนอแบบไดนามิกได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

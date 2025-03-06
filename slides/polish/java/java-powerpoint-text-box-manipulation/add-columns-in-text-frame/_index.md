@@ -3,10 +3,14 @@ title: Dodaj kolumny w ramce tekstowej za pomocą Aspose.Slides dla Java
 linktitle: Dodaj kolumny w ramce tekstowej za pomocą Aspose.Slides dla Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać kolumny w ramkach tekstowych za pomocą Aspose.Slides for Java, aby ulepszyć swoje prezentacje PowerPoint. Nasz przewodnik krok po kroku upraszcza ten proces.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku przyjrzymy się, jak manipulować ramkami tekstowymi w celu dodania kolumn za pomocą Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom Java programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint. Dodanie kolumn do ramek tekstowych poprawia atrakcyjność wizualną i organizację tekstu na slajdach, dzięki czemu prezentacje są bardziej wciągające i łatwiejsze do odczytania.
 ## Warunki wstępne
@@ -81,3 +85,9 @@ Nie, Aspose.Slides automatycznie ustawia równą szerokość kolumn w ramce teks
  Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc techniczną dla Aspose.Slides dla Java?
  Możesz szukać wsparcia w społeczności[Tutaj](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

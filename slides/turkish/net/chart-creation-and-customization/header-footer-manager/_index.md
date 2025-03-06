@@ -3,10 +3,14 @@ title: Slaytlarda Üstbilgi ve Altbilgiyi Yönetme
 linktitle: Slaytlarda Üstbilgi ve Altbilgiyi Yönetme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarına dinamik üstbilgi ve altbilgileri nasıl ekleyeceğinizi öğrenin.
-type: docs
 weight: 14
 url: /tr/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Aspose.Slides for .NET'te Dinamik Üstbilgi ve Altbilgi Oluşturma
 
@@ -131,3 +135,9 @@ C2: Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü keşfedebilirs
 
 ### S5: Aspose.Slides for .NET için bir topluluk veya destek forumu var mı?
  Cevap5: Evet, Aspose.Slides for .NET destek forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tô màu các hình dạng với dải màu trong PowerPoint
 linktitle: Tô màu các hình dạng với dải màu trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tô màu các hình dạng có dải màu trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết này.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Tạo các bài thuyết trình PowerPoint hấp dẫn trực quan là rất quan trọng để thu hút khán giả của bạn. Một trong những cách hiệu quả để cải thiện trang trình bày của bạn là tô màu các hình dạng có độ dốc. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình sử dụng Aspose.Slides cho Java để tô màu các hình dạng có độ dốc trong PowerPoint. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, bạn sẽ thấy hướng dẫn này hữu ích và dễ làm theo. Hãy cùng đi sâu vào thế giới của gradient và xem chúng có thể biến đổi bài thuyết trình của bạn như thế nào.
 ## Điều kiện tiên quyết
@@ -106,3 +110,9 @@ Aspose.Slides cho Java là một API mạnh mẽ để tạo và thao tác các 
  Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Tôi có thể tải xuống phiên bản Aspose.Slides mới nhất cho Java ở đâu?
  Bạn có thể tải phiên bản mới nhất từ[Trang tải xuống Aspose.Slides](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

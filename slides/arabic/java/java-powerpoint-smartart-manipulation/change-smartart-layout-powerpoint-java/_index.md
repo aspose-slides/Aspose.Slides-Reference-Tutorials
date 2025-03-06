@@ -3,10 +3,14 @@ title: تغيير تخطيط SmartArt في PowerPoint باستخدام Java
 linktitle: تغيير تخطيط SmartArt في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع تخطيطات SmartArt في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides for Java.
-type: docs
 weight: 19
 url: /ar/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع تخطيطات SmartArt في عروض PowerPoint التقديمية باستخدام Java. SmartArt هي ميزة قوية في PowerPoint تسمح للمستخدمين بإنشاء رسومات جذابة بصريًا لأغراض متعددة، مثل توضيح العمليات والتسلسلات الهرمية والعلاقات والمزيد.
 ## المتطلبات الأساسية
@@ -60,3 +64,9 @@ presentation.save(dataDir + "ChangeSmartArtLayout_out.pptx", SaveFormat.Pptx);
 بالتأكيد، يمكنك إنشاء رسومات SmartArt برمجيًا أو تعديل الرسومات الموجودة لتلبية متطلباتك.
 ### هل يوجد منتدى مجتمعي حيث يمكنني طلب المساعدة فيما يتعلق بـ Aspose.Slides؟
  نعم، يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لطرح الأسئلة والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

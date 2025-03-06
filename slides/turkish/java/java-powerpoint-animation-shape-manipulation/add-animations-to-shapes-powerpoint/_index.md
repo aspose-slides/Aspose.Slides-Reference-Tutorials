@@ -3,10 +3,14 @@ title: PowerPoint'teki Şekillere Animasyon Ekleme
 linktitle: PowerPoint'teki Şekillere Animasyon Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'teki şekillere nasıl animasyon ekleyeceğinizi öğrenin. İlgi çekici sunumlar oluşturmak için mükemmeldir.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 İlgi çekici sunumlar oluşturmak çoğu zaman şekillere ve metne animasyon eklemeyi gerektirir. Animasyonlar slaytlarınızı daha dinamik ve büyüleyici hale getirerek hedef kitlenizin ilgisini kaybetmemesini sağlayabilir. Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumundaki şekillere animasyon ekleme sürecinde size rehberlik edeceğiz. Bu makalenin sonunda profesyonel animasyonları zahmetsizce oluşturabileceksiniz.
 ## Önkoşullar
@@ -108,3 +112,9 @@ Aspose.Slides, Java SE 6 ve üzerini destekler.
 Her şekil için adımları tekrarlayarak ve gerektiği gibi farklı efektler belirterek, birden çok şekle farklı animasyonlar ekleyebilirsiniz.
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
  Kontrol et[dokümantasyon](https://reference.aspose.com/slides/java/) Ve[destek Forumu](https://forum.aspose.com/c/slides/11)Daha fazla örnek ve yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

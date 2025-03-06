@@ -3,10 +3,14 @@ title: Buat HTML dengan Tata Letak Responsif dari Presentasi
 linktitle: Buat HTML dengan Tata Letak Responsif dari Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi menjadi HTML responsif menggunakan Aspose.Slides untuk .NET. Buat konten interaktif dan ramah perangkat dengan mudah.
-type: docs
 weight: 17
 url: /id/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Di era digital saat ini, membuat konten web yang responsif adalah keterampilan penting bagi pengembang dan desainer web. Untungnya, alat seperti Aspose.Slides untuk .NET mempermudah pembuatan HTML dengan tata letak responsif dari presentasi. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses mencapai hal ini menggunakan kode sumber yang disediakan.
 
@@ -72,3 +76,9 @@ Untuk pertanyaan terkait dukungan apa pun, kunjungi[Forum Aspose.Slide](https://
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
 Sekarang setelah Anda memiliki panduan komprehensif untuk membuat HTML responsif dari presentasi, Anda sudah siap untuk meningkatkan aksesibilitas dan daya tarik konten web Anda. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

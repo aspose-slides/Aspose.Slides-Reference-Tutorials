@@ -3,10 +3,14 @@ title: Criar miniatura de forma de limites
 linktitle: Criar miniatura de forma de limites
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar miniaturas de formas com limites usando Aspose.Slides para Java. Este tutorial passo a passo orienta você durante o processo.
-type: docs
 weight: 10
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Aspose.Slides for Java é uma biblioteca poderosa que permite aos desenvolvedores Java criar, manipular e converter apresentações do PowerPoint programaticamente. Neste tutorial, aprenderemos como criar uma imagem em miniatura de uma forma com limites usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -57,3 +61,9 @@ Sim, você pode ajustar as propriedades das imagens em miniatura, como tamanho e
 Sim, Aspose.Slides for Java oferece ampla funcionalidade para trabalhar com apresentações em PowerPoint, incluindo manipulação de slides, extração de texto e geração de gráficos.
 ### Existe uma versão de teste disponível para Aspose.Slides for Java?
  Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

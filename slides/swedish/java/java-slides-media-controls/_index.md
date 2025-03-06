@@ -3,10 +3,14 @@ title: Mediakontroller som använder Aspose.Slides för Java
 linktitle: Java Slides mediakontroller
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du implementerar mediekontroller i Java-bilder med Aspose.Slides för Java-självstudier. Förbättra dina presentationer med ljud och video sömlöst.
-type: docs
 weight: 22
 url: /sv/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 I dagens digitala tidsålder handlar presentationer inte bara om statiska bilder med text och bilder. De har utvecklats till dynamiska, interaktiva upplevelser som engagerar och fängslar publiken. Om du är en Java-utvecklare som vill lägga till en ny dimension till dina presentationer, är du på rätt plats. I den här artikeln kommer vi att utforska hur man implementerar mediekontroller i Java-bilder med Aspose.Slides för Java-handledningar.
 
@@ -51,3 +55,9 @@ Master Java Slides avbrottshantering med Aspose.Slides för Java. Den här detal
 Lär dig hur du uppdaterar presentationsegenskaper i Java-bilder med Aspose.Slides för Java. Anpassa författare, titel och mer för effektfulla presentationer.
 ### [Uppdatera presentationsegenskaper med en annan presentation som mall i Java Slides](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Förbättra PowerPoint-presentationer med uppdaterad metadata med Aspose.Slides för Java. Lär dig att uppdatera egenskaper som författare, titel och nyckelord med hjälp av mallar i Java Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

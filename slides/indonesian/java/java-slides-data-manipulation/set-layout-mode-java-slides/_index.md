@@ -3,10 +3,14 @@ title: Atur Mode Tata Letak di Slide Java
 linktitle: Atur Mode Tata Letak di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur mode tata letak untuk slide Java menggunakan Aspose.Slides. Sesuaikan posisi dan ukuran bagan dalam panduan langkah demi langkah ini dengan kode sumber.
-type: docs
 weight: 23
 url: /id/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengatur Mode Tata Letak di Slide Java
 
@@ -95,3 +99,9 @@ finally
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 
  Anda dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java di[dokumentasi](https://reference.aspose.com/slides/java/). Ini mencakup referensi dan contoh API terperinci untuk membantu Anda bekerja dengan slide dan bagan secara efektif di Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

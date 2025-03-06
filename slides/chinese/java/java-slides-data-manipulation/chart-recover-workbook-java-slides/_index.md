@@ -3,10 +3,14 @@ title: Java 幻灯片中的图表恢复工作簿
 linktitle: Java 幻灯片中的图表恢复工作簿
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 从 Java Slides 中的图表恢复工作簿。PowerPoint 自动化的分步指南。
-type: docs
 weight: 17
 url: /zh/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中的图表恢复工作簿简介
 
@@ -109,3 +113,9 @@ finally
 ### 如何访问 Aspose.Slides for Java 的更多文档？
 
 有关 Aspose.Slides for Java 的详细文档和参考资料，请访问以下文档页面：[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

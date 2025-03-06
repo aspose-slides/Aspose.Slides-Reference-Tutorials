@@ -3,10 +3,14 @@ title: Alinhamento e formatação de texto Java PowerPoint
 linktitle: Alinhamento e formatação de texto Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Descubra tutoriais de alinhamento e formatação de texto em Java PowerPoint. Aprenda a alinhar, formatar, exportar e destacar texto usando Aspose.Slides para Java.
-type: docs
 weight: 23
 url: /pt/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 
 Dominar o alinhamento e a formatação de texto em apresentações Java PowerPoint é crucial para a criação de slides profissionais e sofisticados. Com Aspose.Slides for Java, você pode obter formatação e alinhamento de texto perfeitos com facilidade. Quer você seja um desenvolvedor iniciante ou experiente, nossos tutoriais o ajudarão a aprimorar suas apresentações. Vamos mergulhar nos tutoriais e ver como você pode aprimorar suas habilidades em PowerPoint!
@@ -45,3 +49,9 @@ Aprenda como substituir texto com eficiência em apresentações do PowerPoint u
 Aprenda como extrair texto de nós SmartArt em apresentações Java PowerPoint usando Aspose.Slides. Guia fácil e passo a passo para desenvolvedores.
 ### [Destacar texto usando Regex em Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 Aprenda como destacar texto no PowerPoint usando padrões regex com Aspose.Slides para Java. Aprimore suas apresentações de forma dinâmica.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

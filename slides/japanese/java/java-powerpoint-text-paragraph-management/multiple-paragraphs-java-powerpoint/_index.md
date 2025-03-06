@@ -3,10 +3,14 @@ title: Java PowerPoint での複数の段落
 linktitle: Java PowerPoint での複数の段落
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで複数の段落を作成する方法を学びます。コード例を含む完全なガイド。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、Java で複数の段落を含むスライドを作成する方法について説明します。Aspose.Slides は、開発者が PowerPoint プレゼンテーションをプログラムで操作できるようにする強力なライブラリであり、スライドの作成と書式設定に関連するタスクを自動化するのに最適です。
 ## 前提条件
@@ -113,3 +117,9 @@ Aspose.Slides はさまざまな PowerPoint 形式をサポートしており、
 はい、無料試用版をダウンロードできます[ここ](https://releases.aspose.com/).
 ### 必要な場合、どうすれば技術サポートを受けることができますか?
  Aspose.Slidesコミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

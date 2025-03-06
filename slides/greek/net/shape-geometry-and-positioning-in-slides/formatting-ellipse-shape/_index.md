@@ -3,10 +3,14 @@ title: Εκμάθηση μορφοποίησης Ellipse Shapes με Aspose.Slid
 linktitle: Μορφοποίηση Ellipse Shape σε Slides με Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Δημιουργήστε εντυπωσιακά σχήματα ελλείψεων στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για επαγγελματικές παρουσιάσεις.
-type: docs
 weight: 11
 url: /el/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Η βελτίωση των παρουσιάσεων του PowerPoint με οπτικά ελκυστικά σχήματα είναι ζωτικής σημασίας για να αιχμαλωτίσετε το κοινό σας. Ένα τέτοιο σχήμα είναι η έλλειψη, η οποία μπορεί να προσθέσει μια νότα κομψότητας και επαγγελματισμού στις διαφάνειές σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μορφοποίησης σχημάτων έλλειψης στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -81,3 +85,9 @@ pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
  Ζητήστε βοήθεια από την κοινότητα στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Υπάρχει επιλογή άμεσης αγοράς για το Aspose.Slides για .NET;
  Ναι, μπορείτε να αγοράσετε απευθείας τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 调整演示文稿中的幻灯片位置
 linktitle: 调整演示文稿中的幻灯片位置
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 调整 PowerPoint 演示文稿中的幻灯片位置。提高您的演示技巧！
-type: docs
 weight: 23
 url: /zh/net/slide-access-and-manipulation/change-slide-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 您是否想重新组织您的演示文稿幻灯片，并想知道如何使用 Aspose.Slides for .NET 调整它们的位置？本分步指南将引导您完成整个过程，确保您清楚地了解每个步骤。在深入学习本教程之前，让我们先了解一下入门所需的先决条件和导入命名空间。
 
@@ -111,3 +115,9 @@ Aspose.Slides for .NET 是一个库，允许开发人员在 .NET 应用程序中
 ### 5. 在购买之前我可以试用 Aspose.Slides for .NET 吗？
 
 是的，您可以免费试用 Aspose.Slides for .NET 版本[Aspose.Slides for .NET 免费试用](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

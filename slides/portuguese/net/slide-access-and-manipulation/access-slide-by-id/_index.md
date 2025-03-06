@@ -3,10 +3,14 @@ title: Acesse o slide por identificador exclusivo
 linktitle: Acesse o slide por identificador exclusivo
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como acessar slides do PowerPoint por identificadores exclusivos usando Aspose.Slides for .NET. Este guia passo a passo abrange o carregamento de apresentações, o acesso a slides por índice ou ID, a modificação de conteúdo e o salvamento de alterações.
-type: docs
 weight: 11
 url: /pt/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução ao Aspose.Slides para .NET
 
@@ -112,3 +116,9 @@ Absolutamente. Esteja você trabalhando em uma apresentação simples com alguns
 ### Onde posso encontrar documentação e recursos mais detalhados?
 
  Você pode encontrar documentação abrangente, exemplos de código, tutoriais e muito mais no Aspose.Slides for .NET no[documentação](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

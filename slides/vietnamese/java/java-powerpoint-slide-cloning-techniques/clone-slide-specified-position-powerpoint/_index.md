@@ -3,10 +3,14 @@ title: Sao chép slide tại vị trí được chỉ định trong PowerPoint
 linktitle: Sao chép slide tại vị trí được chỉ định trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Sao chép các slide PowerPoint tại các vị trí được chỉ định một cách dễ dàng với Aspose.Slides cho Java. Hướng dẫn chi tiết từng bước cho người mới bắt đầu và chuyên gia.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Bạn đã sẵn sàng nâng cấp trò chơi PowerPoint của mình chưa? Cho dù bạn là nhà phát triển có kinh nghiệm hay người mới đang cố gắng tự động hóa các thao tác trên slide thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sao chép các trang chiếu tại một vị trí được chỉ định trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hãy thắt dây an toàn và cùng nhau dấn thân vào cuộc hành trình này!
 ## Điều kiện tiên quyết
@@ -80,3 +84,9 @@ Tuyệt đối! Aspose.Slides hỗ trợ nhiều định dạng khác nhau bao g
 Aspose.Slides cung cấp các tính năng mạnh mẽ, tài liệu phong phú và hỗ trợ tuyệt vời, khiến nó trở thành lựa chọn ưu tiên cho các thao tác trên PowerPoint.
 ### Tôi có thể tìm thêm hướng dẫn về Aspose.Slides ở đâu?
  Kiểm tra[tài liệu](https://reference.aspose.com/slides/java/) để có hướng dẫn và ví dụ toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

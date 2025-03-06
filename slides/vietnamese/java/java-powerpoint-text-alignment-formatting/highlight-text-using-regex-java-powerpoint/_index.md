@@ -3,10 +3,14 @@ title: Đánh dấu văn bản bằng Regex trong Java PowerPoint
 linktitle: Đánh dấu văn bản bằng Regex trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đánh dấu văn bản trong PowerPoint bằng cách sử dụng các mẫu biểu thức chính quy với Aspose.Slides dành cho Java. Nâng cao bài thuyết trình của bạn một cách linh hoạt.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong lĩnh vực phát triển dựa trên Java để tạo và thao tác các bản trình bày PowerPoint, Aspose.Slides for Java nổi bật như một giải pháp mạnh mẽ. Hướng dẫn này tập trung vào việc tận dụng Aspose.Slides để làm nổi bật văn bản bằng cách sử dụng biểu thức thông thường (regex) trong bản trình bày PowerPoint. Đến cuối hướng dẫn này, bạn sẽ nắm được cách triển khai các mẫu biểu thức chính quy để làm nổi bật văn bản cụ thể trong các trang trình bày, nâng cao cả chức năng và độ rõ ràng về hình ảnh.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Có, Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác nhau, đ�
 Hoàn toàn có thể, nó cung cấp các tính năng thao tác văn bản mở rộng ngoài việc đánh dấu, bao gồm tạo kiểu phông chữ, căn chỉnh, v.v.
 ### Tôi có thể dùng thử Aspose.Slides cho Java trước khi mua không?
  Có, bạn có thể bắt đầu bằng một[dùng thử miễn phí](https://releases.aspose.com/) để đánh giá khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

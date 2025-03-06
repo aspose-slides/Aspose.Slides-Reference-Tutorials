@@ -3,10 +3,14 @@ title: Incrustar fuentes en HTML usando Aspose.Slides para Java
 linktitle: Incrustar fuentes en HTML usando Aspose.Slides para Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a incrustar fuentes en HTML usando Aspose.Slides para Java para garantizar una tipografía consistente en diferentes plataformas y dispositivos.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Aspose.Slides para Java es una poderosa herramienta para desarrolladores de Java que buscan manipular presentaciones de PowerPoint mediante programación. En este tutorial, profundizaremos en el proceso de incrustar fuentes en HTML usando Aspose.Slides para Java. Al incorporar fuentes, se asegura de que sus presentaciones mantengan la apariencia deseada en diferentes plataformas y dispositivos, incluso si las fuentes requeridas no están instaladas localmente.
 ## Requisitos previos
@@ -58,3 +62,9 @@ Sí, Aspose.Slides admite la incrustación de fuentes en varios formatos de sali
  Puedes visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener apoyo de la comunidad o comuníquese con el soporte de Aspose para obtener asistencia profesional.
 ### ¿Puedo comprar una licencia temporal de Aspose.Slides para Java?
 Sí, puede adquirir una licencia temporal de la[pagina de compra](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

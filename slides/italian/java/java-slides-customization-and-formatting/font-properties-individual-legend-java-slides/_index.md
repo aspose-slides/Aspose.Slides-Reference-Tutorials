@@ -3,10 +3,14 @@ title: Proprietà dei caratteri per la legenda individuale nelle diapositive Jav
 linktitle: Proprietà dei caratteri per la legenda individuale nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora le presentazioni PowerPoint con stili di carattere, dimensioni e colori personalizzati per le singole legende in Diapositive Java utilizzando Aspose.Slides per Java.
-type: docs
 weight: 12
 url: /it/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alle proprietà dei caratteri per le singole legende nelle diapositive Java
 
@@ -113,3 +117,9 @@ Ricordati di eliminare l'oggetto di presentazione quando hai finito di rilasciar
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

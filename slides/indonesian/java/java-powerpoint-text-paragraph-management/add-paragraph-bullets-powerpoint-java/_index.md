@@ -3,10 +3,14 @@ title: Tambahkan Poin Paragraf di PowerPoint menggunakan Java
 linktitle: Tambahkan Poin Paragraf di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan poin paragraf di slide PowerPoint menggunakan Aspose.Slides for Java. Tutorial ini memandu Anda melalui langkah demi langkah dengan contoh kode.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Menambahkan poin paragraf akan meningkatkan keterbacaan dan struktur presentasi PowerPoint. Aspose.Slides untuk Java menyediakan alat canggih untuk memanipulasi presentasi secara terprogram, termasuk kemampuan memformat teks dengan berbagai gaya poin. Dalam tutorial ini, Anda akan mempelajari cara mengintegrasikan poin-poin ke dalam slide PowerPoint menggunakan kode Java, memanfaatkan Aspose.Slides.
 ## Prasyarat
@@ -89,3 +93,9 @@ Ya, Anda dapat menerapkan gaya poin unik ke slide yang berbeda secara terprogram
 Ya, Aspose.Slides mendukung Java 11 dan versi yang lebih tinggi.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
  Mengunjungi[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/) untuk panduan dan contoh yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

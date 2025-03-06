@@ -3,10 +3,14 @@ title: Thao tác trình bày
 linktitle: Thao tác trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Mở khóa tiềm năng thao tác trình bày với hướng dẫn Aspose.Slides for .NET. Tìm hiểu cách tự động tạo, tùy chỉnh và nâng cao bản trình bày PowerPoint theo chương trình. Hãy nâng cao kỹ năng xử lý PowerPoint của bạn ngay hôm nay!
-type: docs
 weight: 11
 url: /vi/net/presentation-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Trong lĩnh vực xử lý PowerPoint, Aspose.Slides for .NET nổi lên như một công cụ mạnh mẽ để thao tác trình bày. Bộ sưu tập hướng dẫn này cung cấp hướng dẫn toàn diện về cách khai thác các khả năng của Aspose.Slides để thao tác và nâng cao bản trình bày theo chương trình. Từ việc tạo, sửa đổi và sắp xếp các trang trình bày cho đến quản lý văn bản, hình ảnh và các thành phần đa phương tiện, những hướng dẫn này cung cấp hành trình từng bước vào thế giới tạo và tùy chỉnh bản trình bày động. Cho dù bạn đang tự động hóa các tác vụ trình bày, tạo báo cáo hay xây dựng trình chiếu tương tác, những hướng dẫn này đều trang bị cho nhà phát triển kiến thức để sử dụng Aspose.Slides một cách hiệu quả.
 
 ## Thao tác trình bày
@@ -51,3 +55,9 @@ Tìm hiểu cách xuất bản trình bày PowerPoint sang HTML bằng tệp CSS
 Tìm hiểu cách thực hiện chuyển đổi SVG cho bản trình bày bằng Aspose.Slides for .NET. Hướng dẫn toàn diện này bao gồm hướng dẫn từng bước, ví dụ về mã nguồn và các tùy chọn chuyển đổi SVG khác nhau.
 ### [Định dạng SVG trong bản trình bày](./formatting-svgs-in-presentations/)
 Tối ưu hóa bản trình bày của bạn với các SVG tuyệt đẹp bằng Aspose.Slides cho .NET. Tìm hiểu từng bước cách định dạng SVG để có hình ảnh ấn tượng. Hãy nâng tầm trò chơi thuyết trình của bạn ngay hôm nay! 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

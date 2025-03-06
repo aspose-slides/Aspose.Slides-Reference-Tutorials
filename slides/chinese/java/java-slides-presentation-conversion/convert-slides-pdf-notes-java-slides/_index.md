@@ -3,10 +3,14 @@ title: 使用 Java Slides 将幻灯片转换为带注释的 PDF
 linktitle: 使用 Java Slides 将幻灯片转换为带注释的 PDF
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将 PowerPoint 幻灯片转换为带注释的 PDF。面向 Java 开发人员的分步指南。增强您的演示文稿共享。
-type: docs
 weight: 19
 url: /zh/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Java 中的注释将幻灯片转换为 PDF 的简介
 
@@ -124,3 +128,9 @@ finally
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多文档？
 
 您可以在网站上找到有关 Aspose.Slides for Java 的详细文档：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

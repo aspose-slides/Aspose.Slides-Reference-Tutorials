@@ -3,10 +3,14 @@ title: عناصر التحكم في عرض الشرائح في شرائح Java
 linktitle: عناصر التحكم في عرض الشرائح في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تمكين عناصر التحكم في الوسائط واستخدامها في شرائح Java باستخدام Aspose.Slides لـ Java. عزز عروضك التقديمية باستخدام عناصر التحكم في الوسائط.
-type: docs
 weight: 11
 url: /ar/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى عناصر التحكم في وسائط عرض الشرائح في شرائح Java
 
@@ -108,3 +112,9 @@ try {
 ### هل هناك طريقة لإضافة ترجمات أو تسميات توضيحية لمقاطع الفيديو في Java Slides؟
 
 نعم، يمكنك إضافة ترجمات أو تسميات توضيحية لمقاطع الفيديو في شرائح Java عن طريق إضافة إطارات نصية أو أشكال إلى الشريحة التي تحتوي على الفيديو. يمكنك بعد ذلك مزامنة النص مع تشغيل الفيديو باستخدام إعدادات التوقيت.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

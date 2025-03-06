@@ -3,10 +3,14 @@ title: 在 PowerPoint 中設定連接線角度
 linktitle: 在 PowerPoint 中設定連接線角度
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中設定連接線角度。精確自訂您的幻燈片。
-type: docs
 weight: 17
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教學中，我們將探討如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中設定連接線的角度。連接線對於說明投影片中形狀之間的關係和流程至關重要。透過調整它們的角度，您可以確保您的簡報清晰有效地傳達您的訊息。
 ## 先決條件
@@ -80,3 +84,9 @@ Aspose.Slides 致力於支援大多數 PowerPoint 功能。但是，對於特定
 當然！ Aspose.Slides 提供了豐富的選項用於自訂連接線，包括樣式、粗細和端點，可讓您建立具有視覺吸引力的簡報。
 ### 在哪裡可以找到 Aspose.Slides 相關查詢的支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)就您在開發過程中遇到的任何疑問或問題尋求協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: ربط الأشكال باستخدام الموصلات في PowerPoint
 linktitle: ربط الأشكال باستخدام الموصلات في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ربط الأشكال باستخدام الموصلات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعليمي خطوة بخطوة للمبتدئين.
-type: docs
 weight: 18
 url: /ar/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية ربط الأشكال باستخدام الموصلات في عروض PowerPoint التقديمية بمساعدة Aspose.Slides for Java. اتبع هذه الإرشادات خطوة بخطوة لربط الأشكال بكفاءة وإنشاء شرائح جذابة بصريًا.
 ## المتطلبات الأساسية
@@ -82,3 +86,9 @@ if (input != null) input.dispose();
 بالتأكيد، يمكنك بسهولة إضافة نص إلى الأشكال والموصلات برمجيًا باستخدام Aspose.Slides لـ Java.
 ### هل يوجد منتدى مجتمعي أو قناة دعم متاحة لـ Aspose.Slides لمستخدمي Java؟
  نعم، يمكنك العثور على موارد مفيدة وطرح الأسئلة والتفاعل مع مستخدمين آخرين في منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Update de bestaande tabel in PowerPoint met Java
 linktitle: Update de bestaande tabel in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u bestaande tabellen in PowerPoint kunt bijwerken met Java met Aspose.Slides. Inclusief stapsgewijze handleiding, gedetailleerde instructies en veelgestelde vragen.
-type: docs
 weight: 13
 url: /nl/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Het bijwerken van een bestaande tabel in een PowerPoint-presentatie met behulp van Java kan een hele klus lijken, maar met Aspose.Slides voor Java wordt het een wandeling in het park. Deze stapsgewijze handleiding begeleidt u door het hele proces, zodat u elk onderdeel grondig begrijpt.
 ## Vereisten
@@ -92,3 +96,9 @@ Ja, u kunt de rijen en kolommen van de tabel doorlopen om meerdere cellen tegeli
 Ja, Aspose.Slides ondersteunt verschillende programmeertalen, waaronder .NET, Python en C++.
 ### Hoe krijg ik een tijdelijke licentie voor Aspose.Slides?
  Een tijdelijke licentie kunt u verkrijgen bij de[Aspose aankooppagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

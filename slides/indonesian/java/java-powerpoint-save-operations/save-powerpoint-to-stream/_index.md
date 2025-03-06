@@ -3,10 +3,14 @@ title: Simpan PowerPoint ke Streaming
 linktitle: Simpan PowerPoint ke Streaming
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyimpan presentasi PowerPoint ke aliran menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Dalam dunia pemrograman Java, menangani presentasi PowerPoint merupakan tugas penting, baik untuk menghasilkan laporan, menyampaikan presentasi, atau membuat konten dinamis. Aspose.Slides untuk Java menyediakan seperangkat alat dan fungsi canggih untuk bekerja dengan file PowerPoint secara lancar. Dalam tutorial ini, kita akan mempelajari satu aspek mendasar: menyimpan presentasi PowerPoint ke aliran. Kami akan memandu setiap langkah, memastikan pemahaman yang jelas tentang prosesnya, dan memberikan prasyarat yang diperlukan serta paket impor untuk memulai.
 ## Prasyarat
@@ -65,3 +69,9 @@ Sangat! Dengan Aspose.Slides untuk Java, Anda dapat memanipulasi tata letak slid
  Ya, Anda dapat mengunduh versi uji coba gratis dari[situs web](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk Java?
  Untuk bantuan teknis dan dukungan komunitas, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

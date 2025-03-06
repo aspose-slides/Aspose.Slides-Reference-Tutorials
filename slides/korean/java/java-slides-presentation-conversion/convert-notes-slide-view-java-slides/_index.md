@@ -3,10 +3,14 @@ title: Java 슬라이드에서 Notes 슬라이드 보기 변환
 linktitle: Java 슬라이드에서 Notes 슬라이드 보기 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 노트 슬라이드 보기를 변환하는 방법을 알아보세요. 효율적인 PowerPoint 조작을 위한 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 15
 url: /ko/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides를 사용하여 Java 슬라이드에서 Notes 슬라이드 보기 변환 소개
 
@@ -101,3 +105,10 @@ Aspose.Slides는 최신 버전을 포함한 다양한 PowerPoint 형식과 작�
 ### Aspose.Slides for Java에 대한 추가 코드 예제와 튜토리얼은 어디에서 찾을 수 있나요?
 
  다음에서 풍부한 코드 예제와 튜토리얼을 찾을 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/)이 강력한 라이브러리의 기능에 대해 자세히 알아보려면 설명서를 살펴보세요.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

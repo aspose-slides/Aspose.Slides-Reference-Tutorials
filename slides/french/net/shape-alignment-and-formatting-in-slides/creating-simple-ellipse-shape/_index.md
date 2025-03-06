@@ -3,10 +3,14 @@ title: Créez facilement une forme d'ellipse avec Aspose.Slides .NET
 linktitle: Création d'une forme d'ellipse simple dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer de superbes formes d'ellipse dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Des étapes faciles pour un design dynamique !
-type: docs
 weight: 11
 url: /fr/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le monde dynamique de la conception de présentations, l’incorporation de formes telles que des ellipses peut ajouter une touche de créativité et de professionnalisme. Aspose.Slides pour .NET offre une solution puissante pour manipuler les fichiers de présentation par programme. Ce didacticiel vous guidera tout au long du processus de création d'une forme d'ellipse simple dans des diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -65,3 +69,9 @@ Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
  Suivre la[lien de licence temporaire](https://purchase.aspose.com/temporary-license/) demander une licence temporaire à des fins de tests.
 ### Besoin d'aide ou avez des questions spécifiques ?
  Visiter le[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir l'aide de la communauté et des experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

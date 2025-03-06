@@ -3,10 +3,14 @@ title: Java PowerPoint で段落フォントのプロパティを管理する
 linktitle: Java PowerPoint で段落フォントのプロパティを管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このわかりやすいステップバイステップ ガイドでは、Aspose.Slides を使用して Java PowerPoint プレゼンテーションの段落フォント プロパティを管理およびカスタマイズする方法を学習します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 視覚的に魅力的な PowerPoint プレゼンテーションを作成することは、効果的なコミュニケーションに不可欠です。ビジネス提案書を準備している場合でも、学校のプロジェクトを準備している場合でも、適切なフォント プロパティを使用すると、スライドをより魅力的にすることができます。このチュートリアルでは、Aspose.Slides for Java を使用して段落のフォント プロパティを管理する方法について説明します。準備はできましたか? さあ、始めましょう!
 ## 前提条件
@@ -113,3 +117,9 @@ if (presentation != null) presentation.dispose();
 はい、Aspose.Slides for Java はテキストのグラデーション塗りつぶしをサポートしています。
 ### 変更を元に戻したい場合はどうすればいいですか?
 変更を加える前に、元のプレゼンテーションを再読み込みするか、バックアップを保存してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: प्रेजेंटेशन से आकृतियों को 
 linktitle: प्रेजेंटेशन से आकृतियों को SVG प्रारूप में निर्यात करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रस्तुति से SVG प्रारूप में आकृतियों को निर्यात करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका शामिल है। विभिन्न अनुप्रयोगों के लिए कुशलतापूर्वक आकृतियों को निकालें।
-type: docs
 weight: 16
 url: /hi/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 आज की डिजिटल दुनिया में, जानकारी को प्रभावी ढंग से व्यक्त करने में प्रस्तुतियाँ महत्वपूर्ण भूमिका निभाती हैं। हालाँकि, कभी-कभी हमें विभिन्न उद्देश्यों के लिए अपनी प्रस्तुतियों से विशिष्ट आकृतियों को अलग-अलग फ़ॉर्मेट में निर्यात करने की आवश्यकता होती है। ऐसा ही एक फ़ॉर्मेट SVG (स्केलेबल वेक्टर ग्राफ़िक्स) है, जो अपनी मापनीयता और अनुकूलनशीलता के लिए जाना जाता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for .NET का उपयोग करके किसी प्रस्तुति से आकृतियों को SVG फ़ॉर्मेट में निर्यात करने की प्रक्रिया के बारे में बताएँगे।
 
@@ -83,3 +87,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 अब जब आपने सीख लिया है कि आकृतियों को SVG प्रारूप में कैसे निर्यात किया जाता है, तो आप अपनी प्रस्तुतियों को बेहतर बना सकते हैं और उन्हें विभिन्न उद्देश्यों के लिए अधिक बहुमुखी बना सकते हैं। हैप्पी कोडिंग!
 
  अधिक जानकारी और उन्नत सुविधाओं के लिए, देखें[.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

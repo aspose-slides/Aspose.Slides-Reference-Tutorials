@@ -3,10 +3,14 @@ title: Aggiungi frame video incorporato in PowerPoint
 linktitle: Aggiungi frame video incorporato in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come incorporare fotogrammi video in PowerPoint utilizzando Aspose.Slides per Java con questo tutorial passo passo. Migliora facilmente le tue presentazioni.
-type: docs
 weight: 21
 url: /it/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 L'aggiunta di video alle presentazioni PowerPoint può renderle più coinvolgenti e informative. Utilizzando Aspose.Slides per Java, puoi facilmente incorporare video direttamente nelle tue diapositive. In questo tutorial ti guideremo attraverso il processo passo dopo passo, assicurandoti di comprendere ogni parte del codice e come funziona. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questa guida ti aiuterà a migliorare le tue presentazioni con video incorporati.
 ## Prerequisiti
@@ -93,3 +97,9 @@ Aspose.Slides supporta vari formati video tra cui MP4, AVI e WMV.
 Sì, è necessaria una licenza valida per utilizzare Aspose.Slides. È possibile ottenere una licenza temporanea per la valutazione.
 ### Posso personalizzare le dimensioni e la posizione del fotogramma video?
 Sì, puoi personalizzare le dimensioni e la posizione impostando i parametri appropriati quando aggiungi il fotogramma video.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

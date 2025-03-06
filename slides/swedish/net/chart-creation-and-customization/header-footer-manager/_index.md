@@ -3,10 +3,14 @@ title: Hantera sidhuvud och sidfot i Presentationer
 linktitle: Hantera sidhuvud och sidfot i Presentationer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till dynamiska sidhuvuden och sidfötter i PowerPoint-presentationer med Aspose.Slides för .NET.
-type: docs
 weight: 14
 url: /sv/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Skapa dynamiska sidhuvuden och sidfötter i Aspose.Slides för .NET
 
@@ -131,3 +135,9 @@ S2: Ja, du kan utforska en gratis testversion av Aspose.Slides för .NET[här](h
 
 ### F5: Finns det ett community eller supportforum för Aspose.Slides för .NET?
  S5: Ja, du kan besöka supportforumet för Aspose.Slides för .NET[här](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

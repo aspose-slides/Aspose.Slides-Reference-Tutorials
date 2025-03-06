@@ -3,10 +3,14 @@ title: Java スライドでシリーズをアニメーション化する
 linktitle: Java スライドでシリーズをアニメーション化する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java のシリーズ アニメーションを使用してプレゼンテーションを最適化します。ソース コードの例を含むステップ バイ ステップ ガイドに従って、魅力的な PowerPoint アニメーションを作成します。
-type: docs
 weight: 11
 url: /ja/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java でのアニメーション シリーズの紹介
 
@@ -125,3 +129,9 @@ Aspose.Slides for Java を使用して、PowerPoint チャート内のシリー�
 ### アニメーションの継続時間と遅延をカスタマイズするにはどうすればよいですか?
 
 アニメーション効果のプロパティを設定することで、アニメーションの継続時間と遅延をカスタマイズできます。利用可能なカスタマイズ オプションの詳細については、Aspose.Slides for Java のドキュメントを参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

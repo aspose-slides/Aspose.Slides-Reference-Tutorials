@@ -3,10 +3,14 @@ title: Aspose.Slides - .NET에서 모양을 원활하게 연결
 linktitle: 프레젠테이션에서 커넥터를 사용하여 도형 연결
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 프레젠테이션에서 모양을 쉽게 연결하는 Aspose.Slides for .NET의 강력한 기능을 살펴보세요. 동적 커넥터로 슬라이드를 향상시키세요.
-type: docs
 weight: 29
 url: /ko/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 역동적인 프레젠테이션 세계에서 연결선을 사용하여 셰이프를 연결하는 기능은 슬라이드에 정교함을 더해줍니다. .NET용 Aspose.Slides는 개발자가 이를 원활하게 달성할 수 있도록 지원합니다. 이 튜토리얼에서는 프로세스를 안내하고 각 단계를 세분화하여 명확한 이해를 보장합니다.
 ## 전제 조건
@@ -77,3 +81,9 @@ Aspose.Slides for .NET은 기본 도형, 스마트 아트, 사용자 정의 도�
 선 스타일 및 색상과 같은 커넥터 모양을 사용자 정의하는 방법에 대해서는 Aspose.Slides 설명서를 살펴보세요.
 ### Aspose.Slides 지원을 위한 커뮤니티 포럼이 있습니까?
  예, 다음에서 도움을 받고 경험을 공유할 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Split Cells in PowerPoint Table using Java
 linktitle: Split Cells in PowerPoint Table using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to split, merge, and format PowerPoint table cells programmatically using Aspose.Slides for Java. Master presentation design.
-type: docs
 weight: 11
 url: /java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, you will learn how to manipulate PowerPoint tables in Java using Aspose.Slides. Tables are a fundamental component in presentations, often used to organize and present data effectively. Aspose.Slides provides robust capabilities to create, modify, and enhance tables programmatically, offering flexibility in design and layout.
 ## Prerequisites
@@ -95,3 +99,10 @@ Yes, you can get a free trial from [here](https://releases.aspose.com/).
 You can get support from the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
 ### Can I obtain a temporary license for Aspose.Slides for Java?
 Yes, you can get a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

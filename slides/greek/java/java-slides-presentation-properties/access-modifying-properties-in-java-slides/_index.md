@@ -3,10 +3,14 @@ title: Πρόσβαση στις ιδιότητες τροποποίησης σ�
 linktitle: Πρόσβαση στις ιδιότητες τροποποίησης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκτάτε πρόσβαση και να τροποποιείτε ιδιότητες σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με προσαρμοσμένες ιδιότητες.
-type: docs
 weight: 11
 url: /el/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στην Access Modifying Properties σε Java Slides
 
@@ -117,3 +121,9 @@ presentation.save(dataDir + "CustomDemoModified_out.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να βρω περισσότερα έγγραφα και παραδείγματα;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και παραδείγματα κώδικα για το Aspose.Slides για Java στο[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

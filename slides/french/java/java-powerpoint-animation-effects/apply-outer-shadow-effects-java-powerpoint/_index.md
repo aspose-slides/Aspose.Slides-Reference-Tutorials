@@ -3,10 +3,14 @@ title: Appliquer des effets d'ombre extérieure dans Java PowerPoint
 linktitle: Appliquer des effets d'ombre extérieure dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à appliquer facilement des effets d'ombre extérieure dans des présentations Java PowerPoint à l'aide d'Aspose.Slides grâce à notre guide détaillé étape par étape.
-type: docs
 weight: 11
 url: /fr/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Créer des présentations attrayantes nécessite souvent l'ajout de divers effets pour améliorer l'attrait visuel de vos diapositives. L’un de ces effets est l’ombre extérieure, qui peut faire ressortir vos éléments et ajouter de la profondeur à votre contenu. Dans ce didacticiel, nous allons parcourir le processus d'application d'effets d'ombre extérieure aux formes dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -114,3 +118,9 @@ Oui, vous pouvez utiliser Aspose.Slides pour Java avec n'importe quel IDE Java c
  Vous pouvez obtenir une licence temporaire auprès du[Site Aspose](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver plus d’exemples et de documentation pour Aspose.Slides ?
  Vous pouvez trouver plus d'exemples et une documentation détaillée sur le[Page de documentation Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Ställa in automatiska cirkeldiagramsfärger i Java Slides
 linktitle: Ställa in automatiska cirkeldiagramsfärger i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar dynamiska cirkeldiagram med automatiska segmentfärger i Java PowerPoint-presentationer med Aspose.Slides för Java. Steg-för-steg guide med källkod.
-type: docs
 weight: 24
 url: /sv/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att ställa in automatiska cirkeldiagramsfärger i Java Slides
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Du kan justera teckenstorlek, djärvhet och kursiv stil efter behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

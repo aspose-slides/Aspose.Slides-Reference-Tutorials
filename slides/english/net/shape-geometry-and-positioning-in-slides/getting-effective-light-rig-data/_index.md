@@ -3,10 +3,14 @@ title: Mastering Effective Light Rig Data with Aspose.Slides
 linktitle: Getting Effective Light Rig Data in Presentation Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentation slides with Aspose.Slides for .NET! Learn how to retrieve effective light rig data step-by-step. Elevate your visual storytelling now!
-type: docs
 weight: 19
 url: /net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Creating dynamic and visually appealing presentation slides is a common requirement in today's digital era. One essential aspect is manipulating the light rig properties to enhance the overall aesthetics. This tutorial will guide you through the process of obtaining effective light rig data in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -64,3 +68,10 @@ The documentation is available [here](https://reference.aspose.com/slides/net/).
 Visit the support forum [here](https://forum.aspose.com/c/slides/11).
 ### Can I purchase a temporary license for Aspose.Slides for .NET?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

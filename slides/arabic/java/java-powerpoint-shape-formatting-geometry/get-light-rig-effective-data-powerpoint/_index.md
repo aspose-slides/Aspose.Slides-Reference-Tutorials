@@ -3,10 +3,14 @@ title: احصل على بيانات Light Rig الفعالة في PowerPoint
 linktitle: احصل على بيانات Light Rig الفعالة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد البيانات الفعالة لجهاز الإضاءة من عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java في هذا الدليل المفصل خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 هل تتطلع إلى أتمتة مهام عرض PowerPoint التقديمي باستخدام Java؟ لا مزيد من البحث! Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء ملفات PowerPoint ومعالجتها وتحويلها دون الحاجة إلى تثبيت Microsoft PowerPoint. في هذا الدليل الشامل، سنوجهك عبر الخطوات اللازمة للحصول على بيانات فعالة من عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java. سواء كنت مطور Java متمرسًا أو بدأت للتو، سيساعدك هذا البرنامج التعليمي على الاستفادة من الإمكانات الكاملة لـ Aspose.Slides في مشاريعك.
 ## المتطلبات الأساسية
@@ -66,3 +70,9 @@ Aspose.Slides for Java هي مكتبة قوية لإنشاء ملفات PowerPoi
  الوثائق متاحة في[هذا الرابط](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من منتدى دعم Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

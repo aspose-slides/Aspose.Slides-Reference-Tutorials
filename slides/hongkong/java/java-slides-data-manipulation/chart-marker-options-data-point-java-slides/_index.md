@@ -3,10 +3,14 @@ title: Java 投影片中資料點的圖表標記選項
 linktitle: Java 投影片中資料點的圖表標記選項
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用自訂圖表標記選項優化您的 Java 投影片。學習使用 Aspose.Slides for Java 直覺地增強資料點。探索逐步指南和常見問題。
-type: docs
 weight: 14
 url: /zh-hant/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中資料點上的圖表標記選項簡介
 
@@ -154,3 +158,9 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ### 在哪裡可以存取 Aspose.Slides for Java 文件和下載？
 
 您可以在以下位置找到文件：[這裡](https://reference.aspose.com/slides/java/)並下載該庫[這裡](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

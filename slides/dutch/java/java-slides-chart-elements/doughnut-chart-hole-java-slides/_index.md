@@ -3,10 +3,14 @@ title: Ringdiagramgat in Java-dia's
 linktitle: Ringdiagramgat in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak ringdiagrammen met aangepaste gatgroottes in Java-dia's met Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor het aanpassen van diagrammen.
-type: docs
 weight: 11
 url: /nl/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot ringdiagram met een gat in Java-dia's
 
@@ -94,3 +98,9 @@ finally
 ### Is het mogelijk om een titel aan het diagram toe te voegen?
 
  Zeker! U kunt een titel aan het diagram toevoegen met behulp van de`setTitle` methode op de`IChart` object en het verstrekken van de gewenste titeltekst.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

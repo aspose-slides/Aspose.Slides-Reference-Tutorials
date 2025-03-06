@@ -3,10 +3,14 @@ title: Hapus Slide berdasarkan Indeks Berurutan
 linktitle: Hapus Slide berdasarkan Indeks Berurutan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus slide PowerPoint langkah demi langkah menggunakan Aspose.Slides untuk .NET. Panduan kami memberikan instruksi yang jelas dan kode sumber lengkap untuk membantu Anda menghapus slide secara terprogram berdasarkan indeks berurutannya.
-type: docs
 weight: 24
 url: /id/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Hapus Slide dengan Indeks Berurutan
 
@@ -86,3 +90,9 @@ Tentu saja, Anda dapat menghapus slide berdasarkan kondisi seperti konten slide,
 ### Bagaimana cara mempelajari lebih lanjut tentang Aspose.Slides untuk .NET?
 
  Anda dapat menjelajahi dokumentasi terperinci dan referensi API untuk Aspose.Slides untuk .NET di[halaman dokumentasi](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

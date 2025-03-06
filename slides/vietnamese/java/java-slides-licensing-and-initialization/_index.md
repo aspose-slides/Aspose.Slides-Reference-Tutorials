@@ -3,10 +3,14 @@ title: Cấp phép và khởi tạo Java Slides
 linktitle: Cấp phép và khởi tạo Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá cách cấp phép và khởi tạo Aspose.Slides cho Java một cách hiệu quả trong các hướng dẫn toàn diện của chúng tôi. Bắt đầu với Java Slides ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/java/licensing-and-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thế giới của Java Slides, cấp phép và khởi tạo là những bước quan trọng đầu tiên. Aspose.Slides for Java cung cấp một nền tảng mạnh mẽ để tạo các bản trình bày và trình chiếu ấn tượng. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình cấp phép và khởi chạy Aspose.Slides cho Java, đảm bảo bạn có tất cả các công cụ cần thiết để tạo các bài thuyết trình hấp dẫn.
 
@@ -38,3 +42,9 @@ Tóm lại, cấp phép và khởi tạo Aspose.Slides cho Java là các bước
 ## Hướng dẫn khởi tạo và cấp phép Java Slides
 ### [Cấp phép theo định mức trong Java Slides](./metered-licensing-java-slides/)
 Tối ưu hóa việc sử dụng Aspose.Slides của bạn cho Java bằng Metered Licensing. Tìm hiểu cách thiết lập và theo dõi mức sử dụng API của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

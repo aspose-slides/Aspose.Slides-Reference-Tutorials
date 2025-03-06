@@ -3,10 +3,14 @@ title: Gérer la famille de polices dans Java PowerPoint
 linktitle: Gérer la famille de polices dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment gérer la famille de polices dans les présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez facilement les styles de police, les couleurs et bien plus encore.
-type: docs
 weight: 10
 url: /fr/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment gérer la famille de polices dans les présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Les polices jouent un rôle crucial dans l’attrait visuel et la lisibilité de vos diapositives. Il est donc essentiel de savoir comment les manipuler efficacement.
 ## Conditions préalables
@@ -66,3 +70,9 @@ Oui, Aspose.Slides vous permet d'intégrer des polices personnalisées dans vos 
 Oui, Aspose.Slides fournit des API pour créer, modifier et manipuler des présentations PowerPoint entièrement via du code.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides pour Java ?
 Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

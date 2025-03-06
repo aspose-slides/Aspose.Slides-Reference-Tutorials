@@ -3,10 +3,14 @@ title: जावा स्लाइड लाइसेंसिंग और आ
 linktitle: जावा स्लाइड लाइसेंसिंग और आरंभीकरण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: हमारे विस्तृत ट्यूटोरियल में जानें कि Java के लिए Aspose.Slides को प्रभावी ढंग से लाइसेंस और आरंभ कैसे करें। Java स्लाइड्स के साथ अभी आरंभ करें!
-type: docs
 weight: 10
 url: /hi/java/licensing-and-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 जावा स्लाइड्स की दुनिया में, लाइसेंसिंग और आरंभीकरण सबसे महत्वपूर्ण पहला कदम है। Aspose.Slides for Java शानदार प्रस्तुतियाँ और स्लाइडशो बनाने के लिए एक शक्तिशाली प्लेटफ़ॉर्म प्रदान करता है। इस लेख में, हम आपको Aspose.Slides for Java के लाइसेंसिंग और आरंभीकरण की प्रक्रिया के बारे में बताएँगे, यह सुनिश्चित करते हुए कि आपके पास आकर्षक प्रस्तुतियाँ बनाने के लिए आवश्यक सभी उपकरण हैं।
 
@@ -38,3 +42,9 @@ url: /hi/java/licensing-and-initialization/
 ## जावा स्लाइड्स लाइसेंसिंग और आरंभीकरण ट्यूटोरियल
 ### [जावा स्लाइड्स में मीटर्ड लाइसेंसिंग](./metered-licensing-java-slides/)
 मीटर्ड लाइसेंसिंग के साथ जावा उपयोग के लिए अपने Aspose.Slides को अनुकूलित करें। जानें कि इसे कैसे सेट अप करें और अपने API उपभोग की निगरानी कैसे करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

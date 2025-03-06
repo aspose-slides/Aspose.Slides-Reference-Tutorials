@@ -3,10 +3,14 @@ title: Salin Slide ke Lokasi Tepat di Presentasi Berbeda
 linktitle: Salin Slide ke Lokasi Tepat di Presentasi Berbeda
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyalin slide ke lokasi yang tepat di berbagai presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini menyediakan kode sumber dan instruksi untuk manipulasi PowerPoint yang lancar.
-type: docs
 weight: 18
 url: /id/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -94,3 +98,9 @@ Ya, Aspose.Slides memungkinkan Anda memanipulasi konten slide secara terprogram,
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Slides?
 
  Anda dapat menemukan dokumentasi dan contoh komprehensif untuk Aspose.Slides untuk .NET dalam dokumentasi:[Aspose.Slide untuk Dokumentasi .NET](https://reference.aspose.com/slides/net/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

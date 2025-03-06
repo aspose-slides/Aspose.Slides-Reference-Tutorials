@@ -3,10 +3,14 @@ title: Donut-Diagrammloch in Java-Folien
 linktitle: Donut-Diagrammloch in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erstellen Sie Donut-Diagramme mit benutzerdefinierten Lochgrößen in Java-Folien mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung mit Quellcode zur Diagrammanpassung.
-type: docs
 weight: 11
 url: /de/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in das Donut-Diagramm mit einem Loch in Java-Folien
 
@@ -94,3 +98,9 @@ finally
 ### Ist es möglich, dem Diagramm einen Titel hinzuzufügen?
 
  Natürlich! Sie können dem Diagramm einen Titel hinzufügen, indem Sie`setTitle` Methode auf der`IChart` Objekt und Angabe des gewünschten Titeltextes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

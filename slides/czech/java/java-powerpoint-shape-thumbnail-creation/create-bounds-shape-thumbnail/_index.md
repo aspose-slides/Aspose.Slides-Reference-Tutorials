@@ -3,10 +3,14 @@ title: Vytvořte miniaturu tvaru ohraničení
 linktitle: Vytvořte miniaturu tvaru ohraničení
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet miniatury tvarů s ohraničením pomocí Aspose.Slides for Java. Tento tutoriál vás krok za krokem provede celým procesem.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům Java vytvářet, manipulovat a převádět PowerPointové prezentace programově. V tomto tutoriálu se naučíme, jak vytvořit miniaturu tvaru s ohraničením pomocí Aspose.Slides pro Java.
 ## Předpoklady
@@ -57,3 +61,9 @@ Ano, vlastnosti miniatur obrázků, jako je velikost a kvalita, můžete upravit
 Ano, Aspose.Slides for Java poskytuje rozsáhlé funkce pro práci s PowerPoint prezentacemi, včetně manipulace se snímky, extrakce textu a generování grafů.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

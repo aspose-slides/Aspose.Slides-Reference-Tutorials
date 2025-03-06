@@ -3,10 +3,14 @@ title: استنساخ الأشكال في شرائح العرض التقديمي
 linktitle: استنساخ الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استنساخ الأشكال بكفاءة في شرائح العرض التقديمي باستخدام Aspose.Slides API. قم بإنشاء عروض تقديمية ديناميكية بسهولة. استكشف الدليل التفصيلي والأسئلة الشائعة والمزيد.
-type: docs
 weight: 27
 url: /ar/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة
 
@@ -97,3 +101,9 @@ presentation.Save("output.pptx", SaveFormat.Pptx);
 ## خاتمة
 
 يؤدي إطلاق العنان لقوة استنساخ الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides إلى فتح عالم من الإمكانيات الإبداعية لمنشئي المحتوى والمطورين على حدٍ سواء. يرشدك هذا الدليل خلال العملية، بدءًا من التثبيت وحتى التخصيص المتقدم، مما يوفر لك الأدوات التي تحتاجها لجعل عروضك التقديمية مميزة. باستخدام Aspose.Slides، يمكنك تبسيط سير عملك وإضفاء الحيوية على رؤى العرض التقديمي الخاص بك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

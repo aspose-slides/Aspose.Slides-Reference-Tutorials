@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 将音频帧添加到演示幻灯片
 linktitle: 使用 Aspose.Slides 将音频帧添加到演示幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强演示文稿！学习如何无缝添加音频帧，以前所未有的方式吸引观众。
-type: docs
 weight: 14
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在动态的演示世界中，加入音频元素可以显著提升观众的整体体验。Aspose.Slides for .NET 使开发人员能够将音频帧无缝集成到演示幻灯片中，从而增加新的参与度和互动性。本分步指南将引导您完成使用 Aspose.Slides for .NET 将音频帧添加到演示幻灯片的过程。
 ## 先决条件
@@ -63,3 +67,9 @@ Aspose.Slides for .NET 支持多种音频格式，包括 WAV、MP3 等。查看�
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求帮助并与社区互动。
 ### 如何购买 Aspose.Slides for .NET？
 您可以从[Aspose 商店](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

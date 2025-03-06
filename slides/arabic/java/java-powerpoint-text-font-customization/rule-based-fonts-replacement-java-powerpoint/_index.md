@@ -3,10 +3,14 @@ title: استبدال الخطوط المستندة إلى القواعد في J
 linktitle: استبدال الخطوط المستندة إلى القواعد في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية أتمتة استبدال الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تعزيز إمكانية الوصول والاتساق دون عناء.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في عالم أتمتة PowerPoint المستندة إلى Java، تعد الإدارة الفعالة للخطوط أمرًا بالغ الأهمية لضمان الاتساق وإمكانية الوصول عبر العروض التقديمية. يوفر Aspose.Slides for Java أدوات قوية للتعامل مع بدائل الخطوط بسلاسة، مما يعزز الموثوقية والجاذبية المرئية لملفات PowerPoint. يتعمق هذا البرنامج التعليمي في عملية استبدال الخطوط المستندة إلى القواعد باستخدام Aspose.Slides لـ Java، مما يمكّن المطورين من أتمتة إدارة الخطوط دون عناء.
 ## المتطلبات الأساسية
@@ -77,3 +81,9 @@ try {
 نعم، يوفر Aspose.Slides دعمًا قويًا لتطبيقات Java، مما يتيح التكامل والتعامل السلس مع ملفات PowerPoint.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides؟
  للحصول على موارد إضافية، والوثائق، والدعم، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

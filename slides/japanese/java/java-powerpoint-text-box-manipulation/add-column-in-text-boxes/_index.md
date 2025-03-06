@@ -3,10 +3,14 @@ title: Aspose.Slides for Java を使用してテキスト ボックスに列を�
 linktitle: Aspose.Slides for Java を使用してテキスト ボックスに列を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint のテキスト ボックスに列を追加する方法を学びます。このステップ バイ ステップ ガイドを使用してプレゼンテーションを強化します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して列を追加し、テキスト ボックスを強化する方法について説明します。Aspose.Slides は、開発者が Microsoft Office を必要とせずにプログラムで PowerPoint プレゼンテーションを作成、操作、変換できるようにする強力な Java ライブラリです。テキスト ボックスに列を追加すると、スライド内のコンテンツの読みやすさと整理が大幅に改善され、プレゼンテーションがより魅力的でプロフェッショナルなものになります。
 ## 前提条件
@@ -82,3 +86,9 @@ TextFrame 内の列間の間隔を設定します。
 いいえ、Aspose.Slides では、マシンに Microsoft Office がインストールされている必要はありません。
 ### Aspose.Slides for Java に関する詳細なドキュメントはどこで入手できますか?
 詳細なドキュメントが利用可能[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

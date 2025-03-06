@@ -3,10 +3,14 @@ title: Carregar fonte externa no PowerPoint com Java
 linktitle: Carregar fonte externa no PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como carregar fontes personalizadas em apresentações do PowerPoint usando Aspose.Slides for Java. Aprimore seus slides com tipografia exclusiva.
-type: docs
 weight: 10
 url: /pt/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Neste tutorial, orientaremos você no processo de carregamento de uma fonte externa em apresentações do PowerPoint usando Aspose.Slides para Java. Fontes personalizadas podem adicionar um toque único às suas apresentações, garantindo uma marca consistente ou preferências estilísticas em várias plataformas.
 ## Pré-requisitos
@@ -63,3 +67,9 @@ Sim, você pode carregar várias fontes externas repetindo o processo para cada 
 Contanto que o arquivo de fonte esteja no formato TrueType (.ttf) e dentro de limites de tamanho razoáveis, você poderá carregá-lo com êxito.
 ### O carregamento de fontes externas afeta a compatibilidade da apresentação com diferentes versões do PowerPoint?
 Não, a apresentação permanece compatível com diferentes versões do PowerPoint, desde que as fontes sejam incorporadas ou carregadas externamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Thu phóng phần Aspose.Slides - Nâng cao bản trình bày của bạn
 linktitle: Tạo phần Phóng to các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo các trang trình bày hấp dẫn với tính năng thu phóng phần bằng Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn với các tính năng tương tác.
-type: docs
 weight: 13
 url: /vi/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Cải thiện các trang trình bày của bạn bằng các tính năng tương tác là rất quan trọng trong việc thu hút khán giả của bạn. Một cách mạnh mẽ để đạt được điều này là kết hợp thu phóng các phần, cho phép bạn điều hướng liền mạch giữa các phần khác nhau trong bản trình bày của mình. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo phần phóng to các phần trong trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -70,3 +74,9 @@ Tuyệt đối! Bạn có toàn quyền kiểm soát kích thước, vị trí v
  Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
  Đối với bất kỳ hỗ trợ hoặc thắc mắc nào, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

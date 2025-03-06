@@ -3,10 +3,14 @@ title: Aspose.Slides - การสร้างรูปร่างกลุ่
 linktitle: การสร้างรูปร่างกลุ่มในสไลด์การนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างรูปร่างกลุ่มใน PowerPoint ด้วย Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการนำเสนอที่ดึงดูดสายตา
-type: docs
 weight: 11
 url: /th/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## การแนะนำ
 หากคุณต้องการปรับปรุงรูปลักษณ์ที่สวยงามของสไลด์การนำเสนอของคุณและจัดระเบียบเนื้อหาได้อย่างมีประสิทธิภาพมากขึ้น การรวมรูปร่างเป็นกลุ่มถือเป็นโซลูชันที่ทรงพลัง Aspose.Slides สำหรับ .NET มอบวิธีที่ราบรื่นในการสร้างและจัดการรูปร่างกลุ่มในงานนำเสนอ PowerPoint ของคุณ ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการสร้างรูปร่างกลุ่มโดยใช้ Aspose.Slides โดยแบ่งออกเป็นขั้นตอนที่ง่ายต่อการปฏิบัติตาม
 ## ข้อกำหนดเบื้องต้น
@@ -98,3 +102,10 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะซื้อใบอนุญาตแบบเต็มสำหรับ Aspose.Slides ได้ที่ไหน
  คุณสามารถซื้อใบอนุญาตได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

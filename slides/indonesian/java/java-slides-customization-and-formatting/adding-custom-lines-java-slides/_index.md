@@ -3,10 +3,14 @@ title: Menambahkan Garis Kustom di Slide Java
 linktitle: Menambahkan Garis Kustom di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan Slide Java Anda dengan Garis Kustom. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara menambahkan dan menyesuaikan garis dalam presentasi untuk visual yang berdampak.
-type: docs
 weight: 10
 url: /id/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Menambahkan Garis Kustom di Slide Java
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // Atur ketebalan garis menjadi 2 poin
 ### Apakah mungkin menambahkan banyak baris ke slide?
 
 Ya, Anda dapat menambahkan beberapa baris ke slide dengan mengulangi langkah-langkah yang disebutkan dalam tutorial ini. Setiap baris dapat dikustomisasi secara independen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

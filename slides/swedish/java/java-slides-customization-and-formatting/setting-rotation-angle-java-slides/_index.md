@@ -3,10 +3,14 @@ title: Ställa in rotationsvinkel i Java Slides
 linktitle: Ställa in rotationsvinkel i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimera dina Java-bilder med Aspose.Slides för Java. Lär dig att ställa in rotationsvinklar för textelement. Steg-för-steg guide med källkod.
-type: docs
 weight: 17
 url: /sv/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till inställning av rotationsvinkel i Java Slides
 
@@ -100,3 +104,9 @@ Aspose.Slides för Java tillhandahåller olika formateringsalternativ för diagr
 ### Är det möjligt att animera rotationen av text i en diagramaxeltitel?
 
 Ja, du kan lägga till animeringseffekter till textelement, inklusive diagramaxeltitlar, med Aspose.Slides för Java. Se dokumentationen för information om hur du lägger till animationer i dina presentationer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

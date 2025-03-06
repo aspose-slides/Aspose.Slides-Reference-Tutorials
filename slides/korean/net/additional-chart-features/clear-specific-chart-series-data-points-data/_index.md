@@ -3,10 +3,14 @@ title: Aspose.Slides .NET을 사용하여 특정 차트 시리즈 데이터 포�
 linktitle: 특정 차트 시리즈 데이터 포인트 지우기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션에서 특정 차트 시리즈 데이터 포인트를 지우는 방법을 알아보세요. 단계별 가이드.
-type: docs
 weight: 13
 url: /ko/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 특정 차트 시리즈 데이터 포인트를 지우는 과정을 안내합니다. 이 튜토리얼이 끝나면 차트 데이터 포인트를 쉽게 조작할 수 있게 됩니다.
 
@@ -95,3 +99,9 @@ Aspose.Slides는 주로 .NET 언어용으로 설계되었습니다. 그러나 Ja
 
 ### .NET용 Aspose.Slides에 대한 커뮤니티나 개발자 커뮤니티가 있습니까?
 예, 포럼에서 Aspose 커뮤니티에 가입하여 토론, 질문 및 경험 공유를 할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

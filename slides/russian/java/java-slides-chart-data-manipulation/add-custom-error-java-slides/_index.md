@@ -3,10 +3,14 @@ title: Добавить пользовательскую ошибку в сла�
 linktitle: Добавить пользовательскую ошибку в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавить пользовательские полосы ошибок в диаграммы PowerPoint в Java Slides с помощью Aspose.Slides. Пошаговое руководство с исходным кодом для точной визуализации данных.
-type: docs
 weight: 11
 url: /ru/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в добавление пользовательских полос ошибок в слайды Java с использованием Aspose.Slides
 
@@ -150,3 +154,9 @@ finally
 ### Можно ли скрыть полосы ошибок для определенных точек данных?
 
  Да, вы можете контролировать видимость полос погрешностей для отдельных точек данных, установив`setVisible` собственность`IErrorBarsFormat` объект.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

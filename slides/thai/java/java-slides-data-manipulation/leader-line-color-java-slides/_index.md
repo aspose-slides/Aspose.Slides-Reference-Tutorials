@@ -3,10 +3,14 @@ title: สีเส้นผู้นำใน Java Slides
 linktitle: สีเส้นผู้นำใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเปลี่ยนสีเส้นผู้นำในแผนภูมิ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างซอร์สโค้ด
-type: docs
 weight: 12
 url: /th/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## รู้เบื้องต้นเกี่ยวกับสีของเส้นผู้นำใน Aspose.Slides สำหรับ Java
 
@@ -116,3 +120,9 @@ pres.save(outPath, SaveFormat.Pptx);
 ### ฉันสามารถใช้ Aspose.Slides สำหรับ Java กับไลบรารีและเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่
 
 ได้ คุณสามารถผสานรวม Aspose.Slides สำหรับ Java เข้ากับไลบรารีและเฟรมเวิร์ก Java อื่นๆ ได้ตามต้องการสำหรับโปรเจ็กต์ของคุณ Aspose.Slides มี API สำหรับการทำงานกับฟีเจอร์ต่างๆ ของ PowerPoint ทำให้สามารถรวมเข้ากับเครื่องมือและเทคโนโลยีอื่นๆ เพื่อสร้างแอปพลิเคชันที่มีประสิทธิภาพได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

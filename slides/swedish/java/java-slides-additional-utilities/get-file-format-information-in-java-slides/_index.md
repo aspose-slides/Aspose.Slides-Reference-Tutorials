@@ -3,10 +3,14 @@ title: Få filformatinformation i Java Slides
 linktitle: Få filformatinformation i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du hämtar information om filformat i Java Slides med Aspose.Slides för Java API. Identifiera presentationsformat med kodexempel.
-type: docs
 weight: 11
 url: /sv/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att hämta filformatinformation i Java Slides
 
@@ -113,3 +117,9 @@ Aspose.Slides för Java är ett kommersiellt bibliotek, men det erbjuder en grat
 ### Hur kan jag kontakta Aspose support för hjälp?
 
 Du kan kontakta Asposes support via deras hemsida. De tillhandahåller dedikerade supportkanaler för att hjälpa dig med alla frågor eller problem du kan stöta på när du använder deras produkter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

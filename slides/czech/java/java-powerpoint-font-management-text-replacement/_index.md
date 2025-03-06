@@ -3,10 +3,14 @@ title: Správa písem Java PowerPoint a nahrazení textu
 linktitle: Správa písem Java PowerPoint a nahrazení textu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ovládněte správu písem Java PowerPoint a nahrazování textu pomocí Aspose.Slides. Naučte se načítat vlastní písma, spravovat vložená písma a bezproblémově nahrazovat text.
-type: docs
 weight: 27
 url: /cs/java/java-powerpoint-font-management-text-replacement/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 
 Písma a správa textu jsou zásadními prvky při vytváření leštěných a profesionálních prezentací v PowerPointu. S Aspose.Slides for Java můžete snadno načítat vlastní písma, spravovat vložená písma a efektivně nahrazovat text. Naše výukové programy vás provedou těmito procesy a zajistí, že vaše prezentace budou vizuálně přitažlivé a funkční. Pojďme prozkoumat tyto výukové programy, abyste zlepšili své dovednosti v PowerPointu!
@@ -35,3 +39,9 @@ Bez námahy spravujte vložená písma v prezentacích Java PowerPoint pomocí A
 Bez námahy nahraďte písma v prezentacích PowerPoint pomocí Javy pomocí Aspose.Slides. Postupujte podle našeho podrobného průvodce pro bezproblémový proces přechodu písem.
 ### [Nahraďte text v PowerPointu pomocí Java](./replace-text-powerpoint-java/)
 Naučte se, jak nahradit text v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle tohoto podrobného průvodce pro automatizaci aktualizací prezentací.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

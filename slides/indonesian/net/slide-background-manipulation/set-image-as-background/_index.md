@@ -3,10 +3,14 @@ title: Mengatur Gambar sebagai Latar Belakang Slide menggunakan Aspose.Slides
 linktitle: Atur Gambar sebagai Latar Belakang Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengatur latar belakang gambar di PowerPoint menggunakan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan mudah.
-type: docs
 weight: 13
 url: /id/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dalam dunia desain presentasi dan otomatisasi, Aspose.Slides for .NET adalah alat canggih dan serbaguna yang memungkinkan pengembang memanipulasi presentasi PowerPoint dengan mudah. Baik Anda membuat laporan yang disesuaikan, membuat presentasi yang memukau, atau mengotomatiskan pembuatan slide, Aspose.Slides untuk .NET adalah aset berharga. Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara mengatur gambar sebagai latar belakang slide menggunakan perpustakaan yang luar biasa ini.
 
@@ -115,3 +119,9 @@ Aspose.Slides untuk .NET terutama dirancang untuk lingkungan Windows. Untuk macO
 ### 5. Apakah Aspose.Slides untuk .NET menawarkan versi uji coba?
 
  Ya, Anda bisa mendapatkan uji coba gratis Aspose.Slides untuk .NET dari situs web di[Link ini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

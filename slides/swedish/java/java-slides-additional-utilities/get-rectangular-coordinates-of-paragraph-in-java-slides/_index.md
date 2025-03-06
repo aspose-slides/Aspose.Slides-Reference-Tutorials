@@ -3,10 +3,14 @@ title: Få rektangulära koordinater för stycke i Java Slides
 linktitle: Få rektangulära koordinater för stycke i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du hämtar styckekoordinater i PowerPoint-presentationer med Aspose.Slides för Java. Följ vår steg-för-steg-guide med källkod för korrekt positionering.
-type: docs
 weight: 13
 url: /sv/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till hämtning av rektangulära koordinater för ett stycke i Aspose.Slides för Java
 
@@ -112,3 +116,9 @@ Ja, Aspose.Slides för Java är väl lämpad för batchbearbetning av PowerPoint
 ### Behöver jag en licens för att använda Aspose.Slides för Java?
 
 Ja, du behöver vanligtvis en giltig licens för att använda Aspose.Slides för Java i en produktionsmiljö. Du kan få en licens från Asposes webbplats. De kan dock erbjuda en testversion för test- och utvärderingssyften.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

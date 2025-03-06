@@ -3,10 +3,14 @@ title: Establecer sangría de párrafo en Java PowerPoint
 linktitle: Establecer sangría de párrafo en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo establecer sangrías de párrafo en diapositivas de PowerPoint mediante programación usando Aspose.Slides para Java. Mejore el formato de su presentación sin esfuerzo.
-type: docs
 weight: 16
 url: /es/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 En este tutorial, aprenderá cómo manipular presentaciones de PowerPoint mediante programación utilizando Aspose.Slides para Java. Específicamente, nos centraremos en establecer sangrías de párrafo dentro de las diapositivas. Aspose.Slides para Java proporciona un potente conjunto de API que permiten a los desarrolladores crear, modificar, convertir y administrar presentaciones de PowerPoint sin depender de Microsoft Office Automation.
 ## Requisitos previos
@@ -85,3 +89,9 @@ Aspose.Slides para Java es una poderosa biblioteca para trabajar con presentacio
  Sí, puedes obtener una prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener soporte en el foro de la comunidad.[aquí](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

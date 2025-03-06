@@ -3,10 +3,14 @@ title: Apply Outer Shadow Effects in Java PowerPoint
 linktitle: Apply Outer Shadow Effects in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to easily apply outer shadow effects in Java PowerPoint presentations using Aspose.Slides with our detailed, step-by-step guide.
-type: docs
 weight: 11
 url: /java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Creating engaging presentations often requires adding various effects to enhance the visual appeal of your slides. One such effect is the outer shadow, which can make your elements pop and add depth to your content. In this tutorial, we will walk through the process of applying outer shadow effects to shapes in a PowerPoint presentation using Aspose.Slides for Java.
 ## Prerequisites
@@ -114,3 +118,10 @@ Yes, you can use Aspose.Slides for Java with any Java IDE like IntelliJ IDEA, Ec
 You can get a temporary license from the [Aspose website](https://purchase.aspose.com/temporary-license/).
 ### Where can I find more examples and documentation for Aspose.Slides?
 You can find more examples and detailed documentation on the [Aspose.Slides documentation page](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Ustaw nakładanie się serii wykresów na slajdach Java
 linktitle: Ustaw nakładanie się serii wykresów na slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Seria wykresów głównych pokrywa się w Java Slides z Aspose.Slides dla Java. Dowiedz się krok po kroku, jak dostosować wizualizacje wykresów, aby uzyskać wspaniałe prezentacje.
-type: docs
 weight: 16
 url: /pl/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do ustawiania nakładania się serii wykresów w slajdach Java
 
@@ -110,3 +114,9 @@ Absolutnie! Aspose.Slides for Java zapewnia interfejsy API umożliwiające tworz
 ### Gdzie mogę znaleźć więcej zasobów i przykładów Aspose.Slides dla Java?
 
  Aby uzyskać obszerną dokumentację i przykłady, odwiedź stronę referencyjną Aspose.Slides for Java:[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

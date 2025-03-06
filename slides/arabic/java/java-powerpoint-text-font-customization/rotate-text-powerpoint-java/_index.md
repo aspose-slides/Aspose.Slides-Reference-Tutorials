@@ -3,10 +3,14 @@ title: تدوير النص في PowerPoint باستخدام Java
 linktitle: تدوير النص في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تدوير النص في PowerPoint باستخدام Java باستخدام Aspose.Slides. برنامج تعليمي خطوة بخطوة للمبتدئين للمستخدمين المتقدمين.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تدوير النص في عروض PowerPoint التقديمية برمجياً باستخدام Java وAspose.Slides. يمكن أن يكون تدوير النص ميزة مفيدة عند تصميم الشرائح لإنشاء عروض تقديمية جذابة بصريًا.
 ## المتطلبات الأساسية
@@ -75,3 +79,9 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
  للحصول على وثائق مفصلة، قم بزيارة[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) . يمكنك أيضًا الحصول على الدعم من المجتمع على[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/)لتقييم Aspose.Slides دون قيود.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

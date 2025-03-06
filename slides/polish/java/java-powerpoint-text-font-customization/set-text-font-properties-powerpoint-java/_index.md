@@ -3,10 +3,14 @@ title: Ustawianie właściwości czcionki tekstu w programie PowerPoint przy uż
 linktitle: Ustawianie właściwości czcionki tekstu w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić właściwości czcionki tekstu w programie PowerPoint przy użyciu Aspose.Slides dla Java. Łatwy przewodnik krok po kroku dla programistów Java.#Dowiedz się, jak manipulować właściwościami czcionek tekstu PowerPoint przy użyciu Aspose.Slides dla Java, dzięki temu samouczkowi krok po kroku dla programistów Java.
-type: docs
 weight: 18
 url: /pl/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku dowiesz się, jak używać Aspose.Slides dla języka Java do programowego ustawiania różnych właściwości czcionek tekstu w prezentacji programu PowerPoint. Omówimy ustawianie typu czcionki, stylu (pogrubienie, kursywa), podkreślenia, rozmiaru i koloru tekstu na slajdach.
 ## Warunki wstępne
@@ -85,3 +89,9 @@ Tak, możesz używać Aspose.Slides do pracy z szablonami programu PowerPoint.
 Tak, Aspose.Slides umożliwia eksport prezentacji do różnych formatów, w tym PDF.
 ### Gdzie mogę znaleźć dodatkową pomoc i wsparcie dla Aspose.Slides?
  Odwiedzać[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) o wsparcie i wskazówki społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

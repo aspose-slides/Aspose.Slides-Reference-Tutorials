@@ -3,10 +3,14 @@ title: Добавьте цвет к точкам данных в слайдах 
 linktitle: Добавьте цвет к точкам данных в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавить цвет к точкам данных на слайдах Java с помощью Aspose.Slides для Java.
-type: docs
 weight: 10
 url: /ru/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в добавление цвета к точкам данных в слайдах Java
 
@@ -117,3 +121,9 @@ finally
 ### Где я могу найти больше примеров и документации?
 
  Дополнительные примеры и подробную документацию по использованию Aspose.Slides для Java можно найти на странице[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) Веб-сайт.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

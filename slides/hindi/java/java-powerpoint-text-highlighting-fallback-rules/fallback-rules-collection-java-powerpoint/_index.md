@@ -3,10 +3,14 @@ title: जावा पावरपॉइंट में फ़ॉलबैक 
 linktitle: जावा पावरपॉइंट में फ़ॉलबैक नियम संग्रह
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में फ़ॉन्ट फ़ॉलबैक नियमों को प्रबंधित करना सीखें। सभी डिवाइस में सहजता से संगतता बढ़ाएँ।
-type: docs
 weight: 11
 url: /hi/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 इस ट्यूटोरियल में, हम Aspose.Slides for Java का उपयोग करके फ़ॉन्ट फ़ॉलबैक नियमों को प्रबंधित करने के तरीके के बारे में विस्तार से जानेंगे। फ़ॉन्ट फ़ॉलबैक यह सुनिश्चित करने में महत्वपूर्ण हैं कि आपकी प्रस्तुतियाँ विभिन्न वातावरणों में सही ढंग से प्रदर्शित हों, खासकर जब विशिष्ट फ़ॉन्ट अनुपलब्ध हों। हम आपको आवश्यक पैकेज आयात करने, वातावरण सेट करने और फ़ॉलबैक नियमों को चरण-दर-चरण लागू करने में मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -73,3 +77,9 @@ try {
  विस्तृत दस्तावेज उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
 ### मैं Java के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
 सहायता के लिए, Aspose.Slides फ़ोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Supprimer le nœud de SmartArt dans PowerPoint à l'aide de Java
 linktitle: Supprimer le nœud de SmartArt dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment supprimer des nœuds de SmartArt dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java de manière efficace et par programmation.
-type: docs
 weight: 14
 url: /fr/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, créer des présentations dynamiques et visuellement attrayantes est essentiel pour les entreprises, les enseignants et les particuliers. Les présentations PowerPoint, avec leur capacité à transmettre des informations de manière concise et engageante, restent un élément essentiel de la communication. Cependant, nous devons parfois manipuler le contenu de ces présentations par programmation pour répondre à des exigences spécifiques ou automatiser efficacement des tâches. C'est là qu'Aspose.Slides pour Java entre en jeu, fournissant un ensemble d'outils puissants pour interagir par programmation avec les présentations PowerPoint.
 ## Conditions préalables
@@ -64,3 +68,9 @@ Certainement! Aspose.Slides pour Java offre des fonctionnalités et une robustes
  Bien sûr! Vous pouvez télécharger une version d'essai gratuite d'Aspose.Slides pour Java à partir de[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Pour toute assistance technique ou question, vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

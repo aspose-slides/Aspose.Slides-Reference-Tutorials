@@ -3,10 +3,14 @@ title: مخطط متعدد الفئات في شرائح جافا
 linktitle: مخطط متعدد الفئات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإنشاء مخططات متعددة الفئات في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات بشكل مثير للإعجاب في العروض التقديمية.
-type: docs
 weight: 20
 url: /ar/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة إلى المخطط متعدد الفئات في شرائح Java باستخدام Aspose.Slides
 
@@ -157,3 +161,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### كيف يمكنني إضافة عنوان إلى الرسم البياني؟
 
  يمكنك إضافة عنوان إلى المخطط باستخدام`ch.getChartTitle().getTextFrame().setText("Chart Title");` طريقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

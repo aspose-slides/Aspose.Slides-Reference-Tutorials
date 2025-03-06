@@ -3,10 +3,14 @@ title: إضافة خطأ مخصص في شرائح جافا
 linktitle: إضافة خطأ مخصص في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة أشرطة خطأ مخصصة إلى مخططات PowerPoint في Java Slides باستخدام Aspose.Slides. دليل خطوة بخطوة مع الكود المصدري لتصور البيانات بدقة.
-type: docs
 weight: 11
 url: /ar/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإضافة أشرطة خطأ مخصصة في شرائح Java باستخدام Aspose.Slides
 
@@ -150,3 +154,9 @@ finally
 ### هل من الممكن إخفاء أشرطة الخطأ لنقاط بيانات محددة؟
 
  نعم، يمكنك التحكم في رؤية أشرطة الخطأ لنقاط البيانات الفردية عن طريق تعيين`setVisible` ملكية`IErrorBarsFormat` هدف.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tekst opmaken in tabelrij in PowerPoint met Java
 linktitle: Tekst opmaken in tabelrij in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tekst in tabelrijen in PowerPoint kunt opmaken met Aspose.Slides voor Java. Verbeter uw presentaties met onze stapsgewijze handleiding.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Wanneer u met presentaties werkt, is het maken van visueel aantrekkelijke dia's essentieel om uw publiek betrokken te houden. Het opmaken van tekst in tabelrijen kan de leesbaarheid en esthetiek van uw dia's aanzienlijk verbeteren. In deze zelfstudie onderzoeken we hoe u tekst in een tabelrij in PowerPoint kunt opmaken met Aspose.Slides voor Java.
 ## Vereisten
@@ -85,3 +89,9 @@ Aspose.Slides is beschikbaar voor verschillende platforms, waaronder .NET en C++
  Ja, u kunt een licentie kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
 ### Welke bestandsformaten ondersteunt Aspose.Slides voor Java?
 Aspose.Slides voor Java ondersteunt verschillende formaten, waaronder PPT, PPTX, ODP en meer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

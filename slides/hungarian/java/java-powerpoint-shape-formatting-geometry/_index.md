@@ -3,10 +3,14 @@ title: Java PowerPoint alakzat formázás és geometria
 linktitle: Java PowerPoint alakzat formázás és geometria
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel a Java PowerPoint alakformázási és geometriai oktatóanyagait. Tanuljon meg alakzatokat kitölteni, alakzatokat keresni és egyéni geometriát létrehozni az Aspose.Slides for Java segítségével.
-type: docs
 weight: 26
 url: /hu/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 
 A tetszetős PowerPoint-prezentációk létrehozása gyakran precíz alakformázást és geometriai manipulációt igényel. Az Aspose.Slides for Java segítségével a fejlesztők a következő szintre emelhetik prezentációikat. Ez a cikk az alakzatok kitöltésével, az alakzatok megtalálásával és az egyéni geometria létrehozásával kapcsolatos alapvető oktatóanyagokat tárja fel, amelyekkel kiemelheti diákjait.
@@ -74,3 +78,9 @@ Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, h
 Tanulja meg, hogyan lehet lekérni a ferde alakzat hatékony adatait a PowerPointban az Aspose.Slides for Java segítségével. Fokozza bemutatóit lenyűgöző vizuális effektusokkal.
 ### [Alakzatok elrejtése a PowerPointban](./hide-shapes-powerpoint/)
 Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan rejthet el alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Tökéletes minden szintű Java fejlesztők számára.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

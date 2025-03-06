@@ -3,10 +3,14 @@ title: Stel de tussenruimte in Java-dia's in
 linktitle: Stel de tussenruimte in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de tussenruimte in Java-dia's instelt met Aspose.Slides voor Java. Verbeter de diagrambeelden voor uw PowerPoint-presentaties.
-type: docs
 weight: 21
 url: /nl/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het instellen van de tussenruimte in Aspose.Slides voor Java
 
@@ -158,3 +162,9 @@ Ja, Aspose.Slides voor Java biedt uitgebreide mogelijkheden voor het aanpassen v
 ### Waar kan ik meer bronnen en documentatie vinden?
 
  Uitgebreide documentatie en aanvullende bronnen over Aspose.Slides voor Java vindt u op de website[Aspose-website](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

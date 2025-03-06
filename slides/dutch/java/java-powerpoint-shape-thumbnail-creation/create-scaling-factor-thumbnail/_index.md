@@ -3,10 +3,14 @@ title: Schaalfactorminiatuur maken
 linktitle: Schaalfactorminiatuur maken
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u schaalfactorminiaturen kunt maken in Java met behulp van Aspose.Slides voor Java. Eenvoudig te volgen handleiding met stapsgewijze instructies.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het maken van een schaalfactorminiatuur met Aspose.Slides voor Java. Volg deze stapsgewijze instructies om het gewenste resultaat te bereiken.
 ## Vereisten
@@ -66,3 +70,9 @@ Ja, Aspose.Slides voor Java kan worden gebruikt met elke Java Integrated Develop
  U kunt Aspose.Slides voor Java kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
 ### Heb ik een tijdelijke licentie nodig voor het gebruik van Aspose.Slides voor Java?
  Ja, u kunt een tijdelijke licentie verkrijgen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

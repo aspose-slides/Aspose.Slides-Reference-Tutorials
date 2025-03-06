@@ -3,10 +3,14 @@ title: Bereken formules in Java-dia's
 linktitle: Bereken formules in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u formules in Java Slides berekent met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor dynamische PowerPoint-presentaties.
-type: docs
 weight: 10
 url: /nl/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het berekenen van formules in Java-dia's met behulp van Aspose.Slides
 
@@ -114,3 +118,10 @@ In deze handleiding hebben we geleerd hoe u formules in Java Slides kunt bereken
 ### Hoe bereken ik formules in een werkmap?
 
  U kunt formules in een werkmap berekenen met behulp van de`calculateFormulas` methode van`IChartDataWorkbook` in Aspose.Dia's.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

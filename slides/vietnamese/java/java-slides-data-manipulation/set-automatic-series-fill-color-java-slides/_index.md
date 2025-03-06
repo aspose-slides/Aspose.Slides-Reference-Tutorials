@@ -3,10 +3,14 @@ title: Đặt màu tô chuỗi tự động trong các trang trình bày Java
 linktitle: Đặt màu tô chuỗi tự động trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt màu tô chuỗi tự động trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với các ví dụ về mã cho bản trình bày động.
-type: docs
 weight: 14
 url: /vi/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Đặt màu tô chuỗi tự động trong các slide Java
 
@@ -126,3 +130,9 @@ Có, Aspose.Slides for Java cung cấp nhiều tính năng, bao gồm thao tác 
 ### Tôi có thể tìm thêm tài nguyên và tài liệu ở đâu?
 
  Bạn có thể truy cập tài liệu toàn diện về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: SmartArt'ta Belirli Konumdaki Düğümü Kaldır
 linktitle: SmartArt'ta Belirli Konumdaki Düğümü Kaldır
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak SmartArt'ta belirli bir konumdaki düğümü nasıl kaldıracağınızı öğrenin. Sunum özelleştirmesini zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Java geliştirme alanında Aspose.Slides, sunumları programlı olarak düzenlemek için güçlü bir araç olarak ortaya çıkıyor. Aspose.Slides for Java, slaytları oluştururken, değiştirirken veya yönetirken bu görevleri verimli bir şekilde kolaylaştırmak için güçlü özellikler sunar. Bu tür yaygın işlemlerden biri, SmartArt nesnesi içindeki belirli bir konumdaki düğümün kaldırılmasıdır. Bu eğitimde bunu Aspose.Slides for Java kullanarak gerçekleştirmenin adım adım süreci anlatılmaktadır.
 ## Önkoşullar
@@ -62,3 +66,9 @@ Aspose.Slides for Java ile sunumlardaki SmartArt nesnelerini değiştirmek basit
  Aspose.Slides for Java'yı satın almak için satın alma sayfasını ziyaret edin[Burada](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java'nın ayrıntılı belgelerini nerede bulabilirim?
  Kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Έλεγχος κινούμενης εικόνας διαφανειών
 linktitle: Έλεγχος κινούμενης εικόνας διαφανειών
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας με δυναμικά κινούμενα σχέδια χρησιμοποιώντας το Aspose.Slides για .NET. Μάθετε πώς να ελέγχετε κινούμενα σχέδια διαφανειών βήμα προς βήμα σε αυτό το περιεκτικό σεμινάριο.
-type: docs
 weight: 18
 url: /el/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή:
 
@@ -36,3 +40,9 @@ url: /el/net/slide-animation-control/
 Μάθετε πώς να επαναλαμβάνετε κινούμενα σχέδια σε μια διαφάνεια χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει τον πηγαίο κώδικα και σαφείς οδηγίες για την προσθήκη συναρπαστικών κινούμενων εικόνων σε παρουσιάσεις PowerPoint μέσω προγραμματισμού.
 ### [Rewind Animation σε Slide](./rewind-animation-on-slide/)
 Μάθετε πώς να επαναφέρετε κινούμενα σχέδια σε διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα με πλήρη παραδείγματα πηγαίου κώδικα για να βελτιώσετε δυναμικά τις παρουσιάσεις σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

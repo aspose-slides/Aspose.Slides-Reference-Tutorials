@@ -3,10 +3,14 @@ title: 在投影片中新增評論
 linktitle: 在投影片中新增評論
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides API 為您的簡報添加深度和互動性。了解如何使用 .NET 將註解輕鬆整合到投影片中。提高參與度並吸引觀眾。
-type: docs
 weight: 13
 url: /zh-hant/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在簡報管理領域，為投影片添加註解的能力可能會改變遊戲規則。評論不僅可以增強協作，還有助於理解和修改投影片內容。透過 Aspose.Slides for .NET 這個強大且多功能的函式庫，您可以輕鬆地將註解合併到簡報投影片中。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 在投影片中新增註解的過程。無論您是經驗豐富的開發人員還是 .NET 開發領域的新手，本教學都將提供您所需的所有見解。
 
@@ -104,3 +108,9 @@ using (Presentation pres = new Presentation())
 ### 5. 我可以在購買之前試用 Aspose.Slides for .NET 嗎？
 
 是的，您可以透過免費試用版探索 Aspose.Slides for .NET。參觀[Aspose.Slides 免費試用頁面](https://releases.aspose.com/)開始。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

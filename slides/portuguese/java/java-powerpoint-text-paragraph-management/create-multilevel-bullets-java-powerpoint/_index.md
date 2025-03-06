@@ -3,10 +3,14 @@ title: Crie marcadores multiníveis em Java PowerPoint
 linktitle: Crie marcadores multiníveis em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar marcadores multiníveis no PowerPoint usando Aspose.Slides para Java. Guia passo a passo com exemplos de código e perguntas frequentes.
-type: docs
 weight: 14
 url: /pt/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Neste tutorial, exploraremos como criar marcadores multinível em apresentações do PowerPoint usando Aspose.Slides para Java. Adicionar marcadores é um requisito comum para a criação de conteúdo organizado e visualmente atraente em apresentações. Seguiremos o processo passo a passo, garantindo que, ao final deste guia, você estará preparado para aprimorar suas apresentações com marcadores estruturados em vários níveis.
 ## Pré-requisitos
@@ -109,3 +113,9 @@ Aspose.Slides gera apresentações compatíveis com Microsoft PowerPoint 2007 e 
 Sim, Aspose.Slides fornece APIs para automatizar a criação, modificação e manipulação de apresentações em PowerPoint.
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode obter suporte da comunidade Aspose.Slides e de especialistas em[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

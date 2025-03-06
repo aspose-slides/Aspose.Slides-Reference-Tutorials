@@ -3,10 +3,14 @@ title: Manipulación de tablas de PowerPoint en Java
 linktitle: Manipulación de tablas de PowerPoint en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine la manipulación de tablas de PowerPoint en Java con Aspose.Slides. Aprenda a agregar imágenes, dividir celdas, crear tablas y más a través de nuestros tutoriales detallados paso a paso.
-type: docs
 weight: 30
 url: /es/java/java-powerpoint-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 
 Dominar la manipulación de tablas en presentaciones de PowerPoint puede mejorar significativamente la efectividad y el atractivo visual de sus diapositivas. Aspose.Slides para Java ofrece un sólido conjunto de funciones para manipular tablas mediante programación. Ya sea que esté agregando imágenes a celdas de una tabla, dividiendo o fusionando celdas, o creando tablas desde cero, estos tutoriales lo guiarán a través de cada proceso paso a paso. ¡Profundicemos en el mundo de la manipulación de tablas de PowerPoint en Java!
@@ -60,3 +64,9 @@ Aprenda cómo configurar la primera fila como encabezado en tablas de PowerPoint
 Aprenda a dar formato al texto dentro de tablas de PowerPoint usando Aspose.Slides para Java. Guía paso a paso con ejemplos de código para desarrolladores.
 ### [Crear tablas estándar en PowerPoint con Java](./create-standard-tables-powerpoint-java/)
 Aprenda a crear tablas estándar en PowerPoint con Java usando Aspose.Slides. Siga nuestra guía detallada paso a paso para disfrutar de una experiencia perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

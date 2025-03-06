@@ -3,10 +3,14 @@ title: Java 投影片中的圓餅圖
 linktitle: Java 投影片中的圓餅圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立令人驚嘆的圓餅圖。為 Java 開發人員提供帶有原始程式碼的分步指南。
-type: docs
 weight: 23
 url: /zh-hant/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Aspose.Slides 在 Java 投影片中建立圓餅圖的簡介
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### 如何找到有關使用 Aspose.Slides for Java 的更多資訊和範例？
 
 有關更多資訊、詳細文件和其他範例，您可以訪問[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)。它提供全面的資源，幫助您有效地使用圖書館。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

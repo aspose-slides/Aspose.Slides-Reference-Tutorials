@@ -3,10 +3,14 @@ title: Настройка формата даты для оси категори
 linktitle: Настройка формата даты для оси категорий в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить формат даты для оси категорий в диаграмме PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 26
 url: /ru/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в настройку формата даты для оси категорий в слайдах Java
 
@@ -139,3 +143,9 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### Как добавить на диаграмму дополнительные точки данных?
 
  Чтобы добавить дополнительные точки данных на диаграмму, используйте`getDataPoints().addDataPointForLineSeries`метод для ряда данных и укажите значения данных.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

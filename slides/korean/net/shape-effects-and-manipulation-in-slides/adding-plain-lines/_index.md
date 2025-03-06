@@ -3,10 +3,14 @@ title: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 일반 �
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 일반 선 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 .NET에서 PowerPoint 프레젠테이션을 향상하세요. 단계별 가이드에 따라 일반 선을 쉽게 추가하세요.
-type: docs
 weight: 16
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 매력적이고 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 다양한 모양과 요소를 통합해야 하는 경우가 많습니다. .NET으로 작업하는 경우 Aspose.Slides는 프로세스를 단순화하는 강력한 도구입니다. 이 튜토리얼은 .NET용 Aspose.Slides를 사용하여 프리젠테이션 슬라이드에 일반 선을 추가하는 데 중점을 둡니다. 따라하기 쉬운 이 가이드를 따라 프레젠테이션을 개선해 보세요.
 ## 전제 조건
@@ -67,3 +71,9 @@ A: 물론 Aspose.Slides는 최신 .NET 프레임워크를 지원합니다.
  답: 방문하다[여기](https://purchase.aspose.com/temporary-license/) 임시 라이센스의 경우.
 ### Q: 문제가 발생했나요? 어디서 지원을 받을 수 있나요?
  A: 다음 사항에 대해 도움을 요청하세요.[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

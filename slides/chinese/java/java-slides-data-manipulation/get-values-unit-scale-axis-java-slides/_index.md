@@ -3,10 +3,14 @@ title: 从 Java 幻灯片中的轴获取值和单位刻度
 linktitle: 从 Java 幻灯片中的轴获取值和单位刻度
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 从 Java Slides 中的轴获取值和单位刻度。增强您的数据分析能力。
-type: docs
 weight: 20
 url: /zh/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中从轴获取值和单位刻度的介绍
 
@@ -122,3 +126,9 @@ Aspose.Slides for Java 定期更新以支持最新的 Java 版本，确保与最
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以在[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)网站。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

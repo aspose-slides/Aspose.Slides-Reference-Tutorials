@@ -3,10 +3,14 @@ title: Java PowerPoint 中的後備規則集合
 linktitle: Java PowerPoint 中的後備規則集合
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 簡報中的字型後備規則。輕鬆增強跨裝置的兼容性。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 在本教程中，我們將深入研究如何使用 Aspose.Slides for Java 管理字體後備規則。字體後備對於確保簡報在不同環境中正確顯示至關重要，尤其是在特定字體不可用時。我們將指導您逐步匯入必要的套件、設定環境並實施後備規則。
 ## 先決條件
@@ -73,3 +77,9 @@ try {
 提供詳細文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 如何獲得 Aspose.Slides for Java 支援？
 如需支持，請造訪 Aspose.Slides 論壇[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

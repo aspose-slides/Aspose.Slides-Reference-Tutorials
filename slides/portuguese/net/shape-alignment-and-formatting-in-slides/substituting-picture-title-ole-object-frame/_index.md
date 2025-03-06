@@ -3,10 +3,14 @@ title: Guia de incorporação de objetos OLE com Aspose.Slides para .NET
 linktitle: Substituindo o título da imagem do quadro do objeto OLE nos slides da apresentação
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como aprimorar seus slides de apresentação com objetos OLE dinâmicos usando Aspose.Slides for .NET. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 15
 url: /pt/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 A criação de slides de apresentação dinâmicos e envolventes geralmente envolve a incorporação de vários elementos multimídia. Neste tutorial, exploraremos como substituir o título da imagem de um quadro de objeto OLE (Object Linking and Embedding) em slides de apresentação usando a poderosa biblioteca Aspose.Slides para .NET. Aspose.Slides simplifica o processo de manipulação de objetos OLE, fornecendo aos desenvolvedores as ferramentas para aprimorar suas apresentações com facilidade.
 ## Pré-requisitos
@@ -83,3 +87,9 @@ partir da versão mais recente, Aspose.Slides concentra-se na incorporação e e
 Certamente. Você tem controle programático total sobre objetos OLE, permitindo modificar suas propriedades e aparência conforme necessário.
 ### Há alguma limitação no tamanho dos objetos OLE incorporados?
 Embora existam limitações de tamanho, elas geralmente são generosas. Recomenda-se testar com seu caso de uso específico para garantir o desempenho ideal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

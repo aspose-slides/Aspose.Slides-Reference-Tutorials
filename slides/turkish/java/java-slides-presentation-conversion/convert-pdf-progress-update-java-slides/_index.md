@@ -3,10 +3,14 @@ title: Java Slaytlarındaki İlerleme Güncellemesi ile PDF'ye Dönüştürme
 linktitle: Java Slaytlarındaki İlerleme Güncellemesi ile PDF'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java'daki İlerleme Güncellemeleri ile PowerPoint'i PDF'ye dönüştürün. Sorunsuz dönüşüm için kaynak kodu ve ilerleme takibi içeren adım adım kılavuz.
-type: docs
 weight: 36
 url: /tr/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java Kullanarak Java'daki İlerleme Güncellemeleriyle PowerPoint'i PDF'ye Dönüştürmeye Giriş
 
@@ -118,3 +122,10 @@ Evet, Aspose.Slides for Java, PowerPoint sunumlarıyla çalışmak için bunlar�
 ### PDF dönüştürme seçeneklerini nasıl özelleştirebilirim?
 
  PDF dönüştürme seçeneklerini değiştirerek özelleştirebilirsiniz.`PdfOptions` çağırmadan önce nesne`presentation.save` yöntem. Buna sayfa boyutu, kalite ve daha fazlası gibi özelliklerin ayarlanması da dahildir.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

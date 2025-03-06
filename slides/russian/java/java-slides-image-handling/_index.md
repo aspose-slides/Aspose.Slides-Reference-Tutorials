@@ -3,10 +3,14 @@ title: Обработка изображений слайдов Java с испо
 linktitle: Обработка изображений слайдов Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как обрабатывать изображения в слайдах Java, используя учебные пособия Aspose.Slides для Java. Ознакомьтесь с пошаговыми инструкциями по эффективному управлению изображениями.
-type: docs
 weight: 23
 url: /ru/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Готовы ли вы дополнить свои слайды Java потрясающими изображениями? В этой статье мы углубимся в мир обработки изображений с помощью учебных пособий Aspose.Slides for Java. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь, это подробное руководство шаг за шагом проведет вас через весь процесс.
 
@@ -42,3 +46,9 @@ url: /ru/java/image-handling/
 Узнайте, как добавлять векторные изображения SVG из внешних ресурсов в слайды Java с помощью Aspose.Slides. Создавайте потрясающие презентации с высококачественными визуальными эффектами.
 ### [Преобразование объекта изображения SVG в группу фигур в слайдах Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Узнайте, как конвертировать изображения SVG в группу фигур в Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

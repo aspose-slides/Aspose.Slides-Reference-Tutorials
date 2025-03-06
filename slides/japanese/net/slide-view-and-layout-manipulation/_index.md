@@ -3,10 +3,14 @@ title: スライドビューとレイアウト操作
 linktitle: スライドビューとレイアウト操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides スライド ビューとレイアウト操作チュートリアルを使用して、スライド ビューとレイアウトを最適化します。強力な .NET ツールを使用して、プレゼンテーションのインパクトと視覚的な卓越性を高めます。
-type: docs
 weight: 20
 url: /ja/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 導入
 
@@ -29,3 +33,9 @@ Aspose.Slides for .NET を使用して、通常のビュー ステートでプ�
 Aspose.Slides for .NET を使用してビデオを PowerPoint スライドにリンクする方法を学びます。このステップ バイ ステップ ガイドには、リンクされたビデオを使用してインタラクティブで魅力的なプレゼンテーションを作成するためのソース コードとヒントが含まれています。
 ### [プレゼンテーションで ActiveX コントロールを管理する](./manage-activex-control/)
 Aspose.Slides for .NET を使用して、ActiveX コントロールで PowerPoint プレゼンテーションを強化する方法を学びます。ステップ バイ ステップ ガイドでは、挿入、操作、カスタマイズ、イベント処理などについて説明します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

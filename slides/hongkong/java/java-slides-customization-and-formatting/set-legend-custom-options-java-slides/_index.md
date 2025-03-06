@@ -3,10 +3,14 @@ title: 在 Java 投影片中設定圖例自訂選項
 linktitle: 在 Java 投影片中設定圖例自訂選項
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中設定自訂圖例選項。自訂 PowerPoint 圖表中的圖例位置和大小。
-type: docs
 weight: 14
 url: /zh-hant/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 在 Java 投影片中設定圖例自訂選項簡介
 
@@ -131,3 +135,9 @@ finally
 ## 我可以自訂其他圖例屬性嗎？
 
 是的，您可以自訂圖例的各種屬性，例如字體樣式、邊框、背景顏色等。瀏覽 Aspose.Slides 文件以取得進一步自訂圖例的詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

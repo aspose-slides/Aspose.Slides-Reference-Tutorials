@@ -3,10 +3,14 @@ title: Add Stretch Offset for Image Fill in PowerPoint
 linktitle: Add Stretch Offset for Image Fill in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add a stretch offset for image fill in PowerPoint presentations using Aspose.Slides for Java. Step-by-step tutorial included.
-type: docs
 weight: 16
 url: /java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, you'll learn how to use Aspose.Slides for Java to add a stretch offset for image fill in PowerPoint presentations. This feature allows you to manipulate images within your slides, giving you greater control over their appearance.
 ## Prerequisites
@@ -64,3 +68,10 @@ Aspose.Slides for Java can handle images of various sizes, but it's recommended 
 Yes, you can apply a wide range of effects and transformations to images using Aspose.Slides for Java's extensive API.
 ### Where can I find more resources and support for Aspose.Slides for Java?
 You can visit the [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/) for detailed guides and explore the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 使用 Java 在 PowerPoint 中设置文本字体属性
 linktitle: 使用 Java 在 PowerPoint 中设置文本字体属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中设置文本字体属性。面向 Java 开发人员的简单分步指南。#通过本分步教程了解如何使用 Aspose.Slides for Java 操作 PowerPoint 文本字体属性。
-type: docs
 weight: 18
 url: /zh/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides for Java 以编程方式设置 PowerPoint 演示文稿中的各种文本字体属性。我们将介绍如何设置幻灯片中文本的字体类型、样式（粗体、斜体）、下划线、大小和颜色。
 ## 先决条件
@@ -85,3 +89,9 @@ if (presentation != null) {
 是的，Aspose.Slides 允许将演示文稿导出为各种格式，包括 PDF。
 ### 在哪里可以找到有关 Aspose.Slides 的更多帮助和支持？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求社区支持和指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

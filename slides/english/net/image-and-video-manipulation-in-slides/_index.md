@@ -3,10 +3,14 @@ title: Image and Video Manipulation in Slides
 linktitle: Image and Video Manipulation in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your slide presentations with captivating images and videos using Aspose.Slides for .NET. Learn step by step how to manipulate images and videos within slides for visually engaging content.
-type: docs
 weight: 12
 url: /net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduction to Image and Video Manipulation in Aspose.Slides
 
@@ -53,3 +57,9 @@ Learn how to enhance your presentation slides by adding embedded video frames us
 Learn how to extract embedded file data from OLE objects in PowerPoint presentations using Aspose.Slides for .NET. Follow this step-by-step guide with source code to seamlessly retrieve and process embedded data.
 ### [Filling Shapes with Gradient in Presentation Slides using Aspose.Slides](./filling-shapes-gradient/)
 Learn how to enhance your presentation slides with captivating gradients using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code to fill shapes with gradients, from linear to radial, adding depth and dimension.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

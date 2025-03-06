@@ -3,10 +3,14 @@ title: Trichterdiagramm in Java-Folien
 linktitle: Trichterdiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Entdecken Sie Aspose.Slides für Java mit Schritt-für-Schritt-Tutorials. Erstellen Sie beeindruckende Trichterdiagramme und mehr.
-type: docs
 weight: 14
 url: /de/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in Trichterdiagramme in Java-Folien
 
@@ -144,3 +148,9 @@ Sie können Fehler und Ausnahmen mithilfe der standardmäßigen Ausnahmebehandlu
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Slides für Java?
 
  Weitere Beispiele und eine ausführliche Dokumentation zur Verwendung von Aspose.Slides für Java finden Sie im[Dokumentation](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

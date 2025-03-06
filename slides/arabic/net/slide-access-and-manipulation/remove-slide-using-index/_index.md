@@ -3,10 +3,14 @@ title: مسح الشريحة حسب الفهرس المتسلسل
 linktitle: مسح الشريحة حسب الفهرس المتسلسل
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية مسح شرائح PowerPoint خطوة بخطوة باستخدام Aspose.Slides لـ .NET. يوفر دليلنا تعليمات واضحة وكود مصدر كامل لمساعدتك على إزالة الشرائح برمجيًا من خلال فهرسها التسلسلي.
-type: docs
 weight: 24
 url: /ar/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لمسح الشريحة عن طريق الفهرس المتسلسل
 
@@ -86,3 +90,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### كيف يمكنني معرفة المزيد حول Aspose.Slides لـ .NET؟
 
  يمكنك استكشاف الوثائق التفصيلية ومرجع واجهة برمجة التطبيقات (API) لـ Aspose.Slides for .NET على الموقع[صفحة التوثيق](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

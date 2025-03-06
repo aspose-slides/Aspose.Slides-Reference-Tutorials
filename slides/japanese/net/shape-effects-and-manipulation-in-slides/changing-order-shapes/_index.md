@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET でプレゼンテーション スライドを再�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形の順序を変更する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーション スライドの形状を変更する方法を学びます。このステップ バイ ステップ ガイドに従って、図形を並べ替え、視覚的な魅力を高めます。
-type: docs
 weight: 26
 url: /ja/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 視覚的に魅力的なプレゼンテーション スライドを作成することは、効果的なコミュニケーションの重要な要素です。Aspose.Slides for .NET は、開発者がスライドをプログラムで操作できるようにし、幅広い機能を提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドの図形の順序を変更するプロセスを詳しく説明します。
 ## 前提条件
@@ -70,3 +74,9 @@ A: はい、機能については[無料トライアル](https://releases.aspose
  A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)サポートを受け、コミュニティと関わるため。
 ### Q: Aspose.Slides for .NET の一時ライセンスを取得するにはどうすればよいですか?
  A: 取得することができます[一時ライセンス](https://purchase.aspose.com/temporary-license/)評価目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

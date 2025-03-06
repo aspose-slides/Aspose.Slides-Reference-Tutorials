@@ -3,10 +3,14 @@ title: Java スライドのルート ディレクトリ ClsId
 linktitle: Java スライドのルート ディレクトリ ClsId
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java プレゼンテーションでルート ディレクトリ ClsId を設定する方法を学びます。CLSID を使用してハイパーリンクの動作をカスタマイズします。
-type: docs
 weight: 10
 url: /ja/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java でのルート ディレクトリ ClsId の設定の概要
 
@@ -107,3 +111,9 @@ Aspose.Slides for Java でルート ディレクトリ ClsId が正常に設定�
 ### 使用できる CLSID に制限はありますか?
 
 使用できる CLSID は、通常、システムにインストールされているアプリケーションによって決まります。ハイパーリンクを処理できる有効なアプリケーションに対応する CLSID を使用する必要があります。無効な CLSID を使用すると、予期しない動作が発生する可能性があることに注意してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

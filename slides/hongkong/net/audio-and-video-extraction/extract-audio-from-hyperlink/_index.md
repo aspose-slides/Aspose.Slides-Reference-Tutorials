@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides 從 PowerPoint 超連結中提取音頻
 linktitle: 從超連結中提取音頻
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 從 PowerPoint 簡報中的超連結中提取音訊。輕鬆增強您的多媒體項目。
-type: docs
 weight: 12
 url: /zh-hant/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在多媒體簡報領域，音訊在增強幻燈片的整體影響力方面發揮著至關重要的作用。您是否曾經遇到過帶有音訊超連結的 PowerPoint 演示文稿，並想知道如何提取音訊以供其他用途？透過 Aspose.Slides for .NET，您可以輕鬆完成此任務。在本逐步指南中，我們將引導您完成從 PowerPoint 簡報中的超連結中提取音訊的過程。
 
@@ -105,3 +109,10 @@ Aspose.Slides for .NET 提供了一個強大且使用者友好的解決方案，
 
 ### 除了 MPG 之外，是否還支援提取其他音訊格式？
 Aspose.Slides for .NET 可讓您提取各種格式的音頻，不僅限於 MPG。提取後您可以將其轉換為您喜歡的格式。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

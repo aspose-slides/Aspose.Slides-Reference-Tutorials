@@ -3,10 +3,14 @@ title: Periksa Contoh Kata Sandi di Slide Java
 linktitle: Periksa Contoh Kata Sandi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memverifikasi kata sandi di Java Slides menggunakan Aspose.Slides for Java. Tingkatkan keamanan presentasi dengan panduan langkah demi langkah.
-type: docs
 weight: 14
 url: /id/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Periksa Contoh Kata Sandi di Slide Java
 
@@ -99,3 +103,9 @@ presentationInfo.removePassword("current_password");
 ### Di mana saya dapat menemukan lebih banyak dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi komprehensif untuk Aspose.Slides untuk Java di situs web Aspose[Di Sini](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

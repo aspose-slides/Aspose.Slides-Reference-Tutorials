@@ -3,10 +3,14 @@ title: Java 슬라이드에서 HTML5로 변환
 linktitle: Java 슬라이드에서 HTML5로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Java의 HTML5로 변환합니다. 단계별 코드 예제를 통해 변환 프로세스를 자동화하는 방법을 알아보세요.
-type: docs
 weight: 23
 url: /ko/java/presentation-conversion/convert-to-html5-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션을 HTML5로 변환하는 방법 소개
 
@@ -105,3 +109,9 @@ try {
 ### Aspose.Slides는 최신 Java 버전과 호환됩니까?
 
 Aspose.Slides는 최신 Java 버전을 지원하도록 정기적으로 업데이트되므로 호환되는 라이브러리 버전을 사용하고 있는지 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java PowerPoint에서 글꼴 대체 설정
 linktitle: Java PowerPoint에서 글꼴 대체 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 일관된 텍스트 표시를 보장하기 위해 Java용 Aspose.Slides를 사용하여 Java PowerPoint에서 글꼴 대체를 설정하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 대체 설정의 복잡성을 자세히 살펴보겠습니다. 글꼴 대체는 필요한 글꼴을 사용할 수 없는 경우에도 프레젠테이션의 텍스트가 다양한 장치 및 운영 체제에서 올바르게 표시되도록 하는 데 중요합니다.
 ## 전제 조건
@@ -53,3 +57,9 @@ Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 
 예, Aspose 제품에 대한 임시 라이센스는 다음에서 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  Java용 Aspose.Slides와 관련된 지원을 받으려면 다음을 방문하세요.[포럼을 Aspose](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

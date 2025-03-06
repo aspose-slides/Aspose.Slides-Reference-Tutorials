@@ -3,10 +3,14 @@ title: Supprimer les notes de toutes les diapositives
 linktitle: Supprimer les notes de toutes les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment supprimer des notes des diapositives PowerPoint à l’aide d’Aspose.Slides pour .NET. Rendez vos présentations plus propres et plus professionnelles.
-type: docs
 weight: 13
 url: /fr/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Si vous êtes un développeur .NET travaillant avec des présentations PowerPoint, vous devrez peut-être supprimer les notes de toutes les diapositives de votre présentation. Cela peut être utile lorsque vous souhaitez nettoyer vos diapositives et éliminer toute information supplémentaire qui n'est pas destinée à votre public. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'utilisation d'Aspose.Slides pour .NET pour réaliser cette tâche efficacement.
 
@@ -97,3 +101,9 @@ Oui, Aspose.Slides est également disponible pour Java, C++ et bien d'autres lan
 ### 5. Aspose.Slides pour .NET prend-il en charge les derniers formats PowerPoint ?
 
 Oui, Aspose.Slides for .NET prend en charge un large éventail de formats PowerPoint, y compris les dernières versions. Vous pouvez vous référer à la documentation pour plus de détails.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Chart Formatting and Animation in Aspose.Slides
 linktitle: Chart Formatting and Animation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to format and animate charts in Aspose.Slides for .NET, enhancing your presentations with captivating visuals.
-type: docs
 weight: 10
 url: /net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Creating compelling presentations with dynamic charts and animations can greatly enhance your message's impact. Aspose.Slides for .NET empowers you to achieve just that. In this tutorial, we'll guide you through the process of animating and formatting charts using Aspose.Slides for .NET. We'll break down the steps into manageable sections to ensure you grasp the concept thoroughly.
 
@@ -173,3 +177,10 @@ Yes, you can purchase a temporary license at [https://purchase.aspose.com/tempor
 For support and questions, visit the Aspose.Slides forum at [https://forum.aspose.com/](https://forum.aspose.com/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: ジオメトリシェイプで複合オブジェクトを作成する
 linktitle: ジオメトリシェイプで複合オブジェクトを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この包括的なチュートリアルでは、Aspose.Slides for Java を使用してジオメトリ シェイプの複合オブジェクトを作成する方法を学びます。Java 開発者に最適です。
-type: docs
 weight: 20
 url: /ja/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 こんにちは! Java を使用して、PowerPoint プレゼンテーションで魅力的で複雑な図形を作成したいと思ったことはありませんか? まさにその通りです。このチュートリアルでは、強力な Aspose.Slides for Java ライブラリを使用して、ジオメトリ図形の複合オブジェクトを作成します。熟練した開発者でも、初心者でも、このステップ バイ ステップ ガイドは、すぐに印象的な結果を達成するのに役立ちます。準備はできましたか? さあ、始めましょう!
 ## 前提条件
@@ -95,3 +99,9 @@ Aspose.Slides for Java は、Java で PowerPoint プレゼンテーションを�
 はい、無料トライアルはここからダウンロードできます。[ここ](https://releases.aspose.com/).
 ### 詳細なドキュメントやサポートはどこで入手できますか?
 チェックしてください[ドキュメンテーション](https://reference.aspose.com/slides/java/)そして[サポートフォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

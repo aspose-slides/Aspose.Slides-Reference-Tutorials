@@ -3,10 +3,14 @@ title: Установить диапазон данных в слайдах Java
 linktitle: Установить диапазон данных в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как легко устанавливать диапазоны данных в слайдах Java с помощью Aspose.Slides for Java. Создавайте динамичные презентации на основе данных с помощью этого пошагового руководства.
-type: docs
 weight: 18
 url: /ru/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в установку диапазона данных в слайдах Java
 
@@ -97,3 +101,9 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### Где я могу найти дополнительную документацию и примеры для Aspose.Slides для Java?
 
  Вы можете найти обширную документацию и примеры для Aspose.Slides для Java на веб-сайте документации Aspose:[Ссылки на Aspose.Slides для Java API](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

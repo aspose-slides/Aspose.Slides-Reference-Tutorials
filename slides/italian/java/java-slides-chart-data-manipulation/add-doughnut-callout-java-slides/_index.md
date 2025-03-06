@@ -3,10 +3,14 @@ title: Aggiungi il callout alla ciambella nelle diapositive Java
 linktitle: Aggiungi il callout alla ciambella nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara ad aggiungere callout a ciambella nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per presentazioni migliorate.
-type: docs
 weight: 12
 url: /it/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione all'aggiunta di un callout a ciambella nelle diapositive Java utilizzando Aspose.Slides per Java
 
@@ -180,3 +184,9 @@ Sì, puoi aggiungere tutti i punti dati necessari al grafico a ciambella. Estend
 ### Come posso regolare la posizione e la dimensione del grafico ad anello sulla diapositiva?
 
  Puoi cambiare la posizione e la dimensione del grafico ad anello modificando i parametri nel file`addChart` metodo. I quattro numeri in questo metodo corrispondono rispettivamente alle coordinate X e Y dell'angolo in alto a sinistra del grafico e alla sua larghezza e altezza.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

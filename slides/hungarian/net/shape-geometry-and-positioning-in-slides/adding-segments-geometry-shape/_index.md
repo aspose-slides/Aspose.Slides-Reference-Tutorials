@@ -3,10 +3,14 @@ title: Vizuális elemek elsajátítása – Szegmensek hozzáadása az Aspose.Sl
 linktitle: Szegmensek hozzáadása a geometriai alakzathoz az Aspose.Slides prezentációban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja .NET-alkalmazásait az Aspose.Slides segítségével. Ez az oktatóanyag végigvezeti Önt, hogyan adhat hozzá szegmenseket a geometriai alakzatokhoz a lenyűgöző bemutatók érdekében.
-type: docs
 weight: 13
 url: /hu/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Bevezetés
 A .NET fejlesztés világában általános követelmény a tetszetős prezentációk elkészítése. Az Aspose.Slides for .NET egy hatékony könyvtár, amely megkönnyíti a robusztus prezentációkészítési képességek zökkenőmentes integrációját .NET-alkalmazásaiba. Ez az oktatóanyag a prezentáció tervezésének egy speciális aspektusára összpontosít – szegmensek hozzáadására a geometriai alakzatokhoz.
 ## Előfeltételek
@@ -72,3 +76,9 @@ Igen, érvényes engedély szükséges. Kaphat ideiglenes licencet tesztelési c
  Fedezze fel a[dokumentáció](https://reference.aspose.com/slides/net/) átfogó útmutatókért és példákért.
 ### Vásárlás előtt ingyenesen kipróbálhatom az Aspose.Slides-t?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

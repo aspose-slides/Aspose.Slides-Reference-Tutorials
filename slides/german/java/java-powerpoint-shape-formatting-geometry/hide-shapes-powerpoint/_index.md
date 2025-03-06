@@ -3,10 +3,14 @@ title: Formen in PowerPoint ausblenden
 linktitle: Formen in PowerPoint ausblenden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in unserer ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für Java Formen in PowerPoint ausblenden. Perfekt für Java-Entwickler aller Niveaus.
-type: docs
 weight: 27
 url: /de/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 Willkommen zu unserem umfassenden Tutorial zum Ausblenden von Formen in PowerPoint mit Aspose.Slides für Java! Wenn Sie schon einmal bestimmte Formen in Ihren PowerPoint-Präsentationen programmgesteuert ausblenden mussten, sind Sie hier richtig. Diese Anleitung führt Sie in einem einfachen, verständlichen Stil durch jeden Schritt. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Java anfangen, wir haben alles für Sie.
 ## Voraussetzungen
@@ -81,3 +85,9 @@ Aspose.Slides ist für verschiedene Programmiersprachen verfügbar, darunter .NE
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wo erhalte ich Support für Aspose.Slides?
  Unterstützung erhalten Sie vom[Aspose.Slides Support-Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

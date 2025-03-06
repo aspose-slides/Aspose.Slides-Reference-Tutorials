@@ -3,10 +3,14 @@ title: Formaatopsomming laden in Java-dia's
 linktitle: Formaatopsomming laden in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de indeling van PowerPoint-presentaties in Java kunt controleren met Aspose.Slides. Volg onze stapsgewijze handleiding met broncodevoorbeelden voor effectieve formaatdetectie.
-type: docs
 weight: 14
 url: /nl/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het laden van presentatie-indelingen in Java-dia's
 
@@ -68,3 +72,10 @@ U kunt ondersteuning krijgen voor Aspose.Slides voor Java door de Aspose-onderst
 ### Is Aspose.Slides voor Java geschikt voor commerciële projecten?
 
 Ja, Aspose.Slides voor Java is geschikt voor commerciële projecten. Het biedt een robuuste reeks functies voor het werken met PowerPoint-presentaties in Java-toepassingen en wordt veel gebruikt in zowel commerciële als zakelijke omgevingen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java ile PowerPoint'te SmartArt Düzenini Değiştirme
 linktitle: Java ile PowerPoint'te SmartArt Düzenini Değiştirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java kullanarak PowerPoint sunumlarındaki SmartArt düzenlerini nasıl değiştireceğinizi öğrenin.
-type: docs
 weight: 19
 url: /tr/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Bu eğitimde, Java kullanarak PowerPoint sunumlarındaki SmartArt düzenlerini nasıl değiştireceğimizi keşfedeceğiz. SmartArt, PowerPoint'te kullanıcıların süreçleri, hiyerarşileri, ilişkileri ve daha fazlasını göstermek gibi çeşitli amaçlar için görsel olarak çekici grafikler oluşturmasına olanak tanıyan güçlü bir özelliktir.
 ## Önkoşullar
@@ -60,3 +64,9 @@ Evet, Aspose.Slides; .NET, Python ve JavaScript dahil olmak üzere birden fazla 
 Kesinlikle, SmartArt grafiklerini programlı olarak oluşturabilir veya mevcut grafikleri gereksinimlerinizi karşılayacak şekilde değiştirebilirsiniz.
 ### Aspose.Slides ile ilgili yardım alabileceğim bir topluluk forumu var mı?
  Evet, Aspose.Slides forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/slides/11) soru sormak ve toplulukla etkileşime geçmek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

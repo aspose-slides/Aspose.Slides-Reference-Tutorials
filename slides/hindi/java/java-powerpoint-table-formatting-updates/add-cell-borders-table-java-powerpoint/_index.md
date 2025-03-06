@@ -3,10 +3,14 @@ title: जावा पावरपॉइंट में तालिका म
 linktitle: जावा पावरपॉइंट में तालिका में सेल बॉर्डर जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में तालिकाओं में सेल बॉर्डर जोड़ना सीखें। यह चरण-दर-चरण मार्गदर्शिका आपकी स्लाइड्स को बेहतर बनाना आसान बनाती है।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## परिचय
 अरे वहाँ! तो, आप जावा का उपयोग करके पावरपॉइंट प्रेजेंटेशन में टेबल में सेल बॉर्डर जोड़ना चाह रहे हैं, है न? खैर, आप सही जगह पर हैं! यह ट्यूटोरियल आपको Aspose.Slides for Java लाइब्रेरी का उपयोग करके चरण-दर-चरण प्रक्रिया के माध्यम से मार्गदर्शन करेगा। इस गाइड के अंत तक, आपको एक प्रो की तरह अपने पावरपॉइंट स्लाइड में टेबल में हेरफेर करने का तरीका अच्छी तरह से समझ में आ जाएगा। आइए गोता लगाएँ और अपनी प्रस्तुतियों को आकर्षक और पेशेवर बनाएँ!
 ## आवश्यक शर्तें
@@ -96,3 +100,9 @@ if (pres != null) pres.dispose();
 हां, आप स्लाइडों के माध्यम से लूपिंग करके और प्रत्येक स्लाइड पर तालिका निर्माण तर्क लागू करके प्रक्रिया को स्वचालित कर सकते हैं।
 ### Aspose.Slides किस फ़ाइल स्वरूप का समर्थन करता है?
 Aspose.Slides PPT, PPTX, PDF, आदि सहित विभिन्न प्रारूपों का समर्थन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

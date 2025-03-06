@@ -3,10 +3,14 @@ title: Vormen exporteren naar SVG-indeling vanuit presentatie
 linktitle: Vormen exporteren naar SVG-indeling vanuit presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u vormen uit een PowerPoint-presentatie naar SVG-indeling exporteert met behulp van Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode inbegrepen. Efficiënt vormen extraheren voor verschillende toepassingen.
-type: docs
 weight: 16
 url: /nl/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In de digitale wereld van vandaag spelen presentaties een cruciale rol bij het effectief overbrengen van informatie. Soms moeten we echter specifieke vormen uit onze presentaties voor verschillende doeleinden naar verschillende formaten exporteren. Een voorbeeld van zo'n formaat is SVG (Scalable Vector Graphics), bekend om zijn schaalbaarheid en aanpassingsvermogen. In deze zelfstudie begeleiden we u bij het exporteren van vormen naar SVG-indeling vanuit een presentatie met behulp van Aspose.Slides voor .NET.
 
@@ -83,3 +87,9 @@ De mogelijkheid om vormen te exporteren kan variëren, afhankelijk van de comple
 Nu u hebt geleerd hoe u vormen naar SVG-indeling kunt exporteren, kunt u uw presentaties verbeteren en veelzijdiger maken voor verschillende doeleinden. Veel codeerplezier!
 
  Voor meer details en geavanceerde functies raadpleegt u de[Aspose.Slides voor .NET API-referentie](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

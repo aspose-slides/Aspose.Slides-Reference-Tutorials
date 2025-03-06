@@ -3,10 +3,14 @@ title: Adding Hyperlinks to Slides in .NET using Aspose.Slides
 linktitle: Add Hyperlink to Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add hyperlinks to PowerPoint slides with Aspose.Slides for .NET. Enhance your presentations with interactive elements.
-type: docs
 weight: 12
 url: /net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 In the world of digital presentations, interactivity is key. Adding hyperlinks to your slides can make your presentation more engaging and informative. Aspose.Slides for .NET is a powerful library that allows you to create, modify, and manipulate PowerPoint presentations programmatically. In this tutorial, we'll show you how to add hyperlinks to your slides using Aspose.Slides for .NET. 
 
@@ -106,3 +110,9 @@ Aspose.Slides offers a wide range of interactive features, including action butt
 ### 5. Is Aspose.Slides available for other programming languages?
 
 Yes, Aspose.Slides is available for various programming languages, including Java and Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

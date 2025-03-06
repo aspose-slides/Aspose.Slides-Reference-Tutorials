@@ -3,10 +3,14 @@ title: Spalten im Textrahmen mit Aspose.Slides für Java hinzufügen
 linktitle: Spalten im Textrahmen mit Aspose.Slides für Java hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Spalten in Textrahmen einfügen, um Ihre PowerPoint-Präsentationen zu verbessern. Unsere Schritt-für-Schritt-Anleitung vereinfacht den Vorgang.
-type: docs
 weight: 11
 url: /de/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Textrahmen bearbeiten, um Spalten mit Aspose.Slides für Java hinzuzufügen. Aspose.Slides ist eine leistungsstarke Bibliothek, mit der Java-Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können. Das Hinzufügen von Spalten zu Textrahmen verbessert die visuelle Attraktivität und Organisation des Textes in Folien und macht Präsentationen ansprechender und leichter lesbar.
 ## Voraussetzungen
@@ -81,3 +85,9 @@ Nein, Aspose.Slides legt für Spalten innerhalb eines Textrahmens automatisch di
  Detaillierte Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
 ### Wie kann ich technischen Support für Aspose.Slides für Java erhalten?
  Sie können Unterstützung von der Community suchen[Hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

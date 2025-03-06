@@ -3,10 +3,14 @@ title: Állítsa be a külső munkafüzetet a diagramadatok frissítésével a J
 linktitle: Állítsa be a külső munkafüzetet a diagramadatok frissítésével a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be külső munkafüzeteket és frissítheti a diagramadatokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Fejlessze PowerPoint automatizálási készségeit.
-type: docs
 weight: 20
 url: /hu/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a külső munkafüzet beállításához a diagramadatok frissítésével a Java Slides-ben
 
@@ -99,3 +103,9 @@ Igen, testreszabhatja a diagram megjelenését, beleértve a címét, a címkék
 ### Hol találok további dokumentációt és forrásokat az Aspose.Slides for Java-hoz?
 
  Részletes dokumentációért és további forrásokért keresse fel az Aspose.Slides for Java dokumentációt a címen[itt](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

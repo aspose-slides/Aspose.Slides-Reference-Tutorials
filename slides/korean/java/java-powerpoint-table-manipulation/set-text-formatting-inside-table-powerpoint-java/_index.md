@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint의 표 내부에 텍스트 서식 설정
 linktitle: Java를 사용하여 PowerPoint의 표 내부에 텍스트 서식 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 표 내부의 텍스트 서식을 지정하는 방법을 알아보세요. 개발자를 위한 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 20
 url: /ko/java/java-powerpoint-table-manipulation/set-text-formatting-inside-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 표 내부 텍스트 형식을 지정하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있도록 하는 강력한 라이브러리로, 텍스트 서식 지정, 슬라이드 관리 등에 대한 광범위한 기능을 제공합니다. 이 튜토리얼에서는 특히 시각적으로 매력적이고 체계적인 프레젠테이션을 만들기 위해 테이블 내의 텍스트 서식을 향상시키는 데 중점을 둡니다.
 ## 전제 조건
@@ -80,3 +84,9 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 표 내�
 프리젠테이션 조작 중에 예외를 효과적으로 관리하려면 try-catch 블록과 같은 오류 처리 기술을 구현하십시오.
 ### Aspose.Slides for Java에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  방문하다[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11) 포괄적인 가이드, 예시, 커뮤니티 지원을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

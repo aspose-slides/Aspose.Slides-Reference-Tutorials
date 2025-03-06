@@ -3,10 +3,14 @@ title: Folienübergangseffekte
 linktitle: Folienübergangseffekte
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit fesselnden Folienübergangseffekten mithilfe von Aspose.Slides für .NET. Erfahren Sie, wie Sie Folien dynamische Animationen hinzufügen, um ein fesselndes Seherlebnis zu schaffen.
-type: docs
 weight: 19
 url: /de/net/slide-transition-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung:
 
@@ -37,3 +41,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET Ihren Präsentationsfolien ate
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET den Übergangsmorph-Typ auf Folien festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie jetzt Ihre Präsentationen! 
 ### [Einfache Folienübergänge](./simple-slide-transitions/)
 Erfahren Sie, wie Sie Ihre PowerPoint-Präsentationen mit einfachen Folienübergängen mithilfe von Aspose.Slides für .NET verbessern können. Schritt-für-Schritt-Anleitung mit Quellcode. Begeistern Sie Ihr Publikum mit fesselnden Bildern!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

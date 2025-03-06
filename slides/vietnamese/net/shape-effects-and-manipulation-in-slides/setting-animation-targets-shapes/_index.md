@@ -3,10 +3,14 @@ title: Nắm vững các mục tiêu hoạt hình với Aspose.Slides cho .NET
 linktitle: Đặt mục tiêu hoạt ảnh cho hình dạng slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách làm cho bài thuyết trình của bạn trở nên sống động với Aspose.Slides cho .NET! Đặt mục tiêu hoạt ảnh dễ dàng và thu hút khán giả của bạn.
-type: docs
 weight: 22
 url: /vi/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc thêm hoạt ảnh vào trang chiếu của bạn có thể là yếu tố thay đổi cuộc chơi. Aspose.Slides for .NET trao quyền cho các nhà phát triển tạo các bản trình bày hấp dẫn và hấp dẫn về mặt hình ảnh bằng cách cho phép kiểm soát chính xác các mục tiêu hoạt hình cho hình dạng trang chiếu. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình đặt mục tiêu hoạt ảnh bằng Aspose.Slides cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ giúp bạn khai thác sức mạnh của hoạt ảnh trong bản trình bày của mình.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Không, Aspose.Slides cho phép bạn tạo hiệu ứng động cho số lượ
 Có, Aspose.Slides cung cấp các tùy chọn để tùy chỉnh thời lượng và thời gian của từng hoạt ảnh.
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides ở đâu?
  Khám phá cái[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

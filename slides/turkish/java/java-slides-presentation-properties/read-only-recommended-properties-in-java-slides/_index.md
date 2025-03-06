@@ -3,10 +3,14 @@ title: Java Slaytlarında Salt Okunur Önerilen Özellikler
 linktitle: Java Slaytlarında Salt Okunur Önerilen Özellikler
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında Salt Okunur Önerilen özellikleri nasıl etkinleştireceğinizi öğrenin. Gelişmiş sunum güvenliği için kaynak kodu örneklerinin yer aldığı adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 17
 url: /tr/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarında Salt Okunur Önerilen Özellikleri Etkinleştirmeye Giriş
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Değiştirmeyi unutmayın`"YourPassword"` İstediğiniz şifre ile
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

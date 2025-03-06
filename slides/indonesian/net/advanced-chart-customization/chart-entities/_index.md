@@ -3,10 +3,14 @@ title: Membuat Bagan Cantik dengan Aspose.Slides untuk .NET
 linktitle: Entitas Bagan dan Pemformatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat bagan menakjubkan dengan Aspose.Slides untuk .NET. Tingkatkan permainan visualisasi data Anda dengan panduan langkah demi langkah kami.
-type: docs
 weight: 13
 url: /id/net/advanced-chart-customization/chart-entities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Di dunia yang berbasis data saat ini, visualisasi data yang efektif adalah kunci untuk menyampaikan informasi kepada audiens Anda. Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda membuat presentasi dan slide yang menakjubkan, termasuk bagan yang menarik. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan bagan yang indah menggunakan Aspose.Slides untuk .NET. Kami akan membagi setiap contoh menjadi beberapa langkah untuk membantu Anda memahami dan menerapkan entitas dan pemformatan bagan. Jadi, mari kita mulai!
 
@@ -261,3 +265,10 @@ Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan pengembang 
 ### 5. Apakah ada komunitas atau forum dukungan untuk Aspose.Slides for .NET?
 
  Ya, Anda dapat menemukan komunitas Aspose.Slides dan forum dukungan[Di Sini](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aangepaste fout toevoegen in Java-dia's
 linktitle: Aangepaste fout toevoegen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste foutbalken kunt toevoegen aan PowerPoint-diagrammen in Java Slides met behulp van Aspose.Slides. Stapsgewijze handleiding met broncode voor nauwkeurige datavisualisatie.
-type: docs
 weight: 11
 url: /nl/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het toevoegen van aangepaste foutbalken in Java-dia's met behulp van Aspose.Slides
 
@@ -150,3 +154,9 @@ kunt de gegevenspunten doorlopen en voor elk punt aangepaste foutbalkwaarden ins
 ### Is het mogelijk om foutbalken voor specifieke gegevenspunten te verbergen?
 
  Ja, u kunt de zichtbaarheid van foutbalken voor individuele gegevenspunten bepalen door de`setVisible` eigendom van de`IErrorBarsFormat` voorwerp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

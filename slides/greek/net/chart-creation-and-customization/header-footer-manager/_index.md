@@ -3,10 +3,14 @@ title: Διαχειριστείτε την κεφαλίδα και το υποσ
 linktitle: Διαχειριστείτε την κεφαλίδα και το υποσέλιδο στις διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε δυναμικές κεφαλίδες και υποσέλιδα σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET.
-type: docs
 weight: 14
 url: /el/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 # Δημιουργία δυναμικών κεφαλίδων και υποσέλιδων στο Aspose.Slides για .NET
 
@@ -131,3 +135,9 @@ A2: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν �
 
 ### Ε5: Υπάρχει κοινότητα ή φόρουμ υποστήριξης για το Aspose.Slides για .NET;
  A5: Ναι, μπορείτε να επισκεφτείτε το φόρουμ υποστήριξης Aspose.Slides για .NET[εδώ](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

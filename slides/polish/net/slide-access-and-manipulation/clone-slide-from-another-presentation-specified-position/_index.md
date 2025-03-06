@@ -3,10 +3,14 @@ title: Klonuj slajd z innej prezentacji do określonej pozycji
 linktitle: Klonuj slajd z innej prezentacji do określonej pozycji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak klonować slajdy z różnych prezentacji do określonej pozycji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z pełnym kodem źródłowym, obejmujący klonowanie slajdów, określanie pozycji i zapisywanie prezentacji.
-type: docs
 weight: 16
 url: /pl/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do klonowania slajdów z innej prezentacji do określonej pozycji
 
@@ -137,3 +141,9 @@ Oczywiście możesz modyfikować zawartość, formatowanie i właściwości sklo
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Slides dla .NET?
 
  Możesz zapoznać się z[dokumentacja](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje, przykłady i odniesienia do API związane z Aspose.Slides dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

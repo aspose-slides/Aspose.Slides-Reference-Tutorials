@@ -3,10 +3,14 @@ title: Använda diagrammarkeringsalternativ på datapunkt i Aspose.Slides .NET
 linktitle: Kartmarköralternativ på datapunkt
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du förbättrar dina PowerPoint-diagram med Aspose.Slides för .NET. Anpassa datapunktsmarkörer med bilder. Skapa engagerande presentationer.
-type: docs
 weight: 11
 url: /sv/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 När du arbetar med presentationer och datavisualisering erbjuder Aspose.Slides för .NET ett brett utbud av kraftfulla funktioner för att skapa, anpassa och manipulera diagram. I den här självstudien kommer vi att utforska hur du använder diagrammarkeringsalternativ på datapunkter för att förbättra dina diagrampresentationer. Den här steg-för-steg-guiden leder dig genom processen, med början från förutsättningarna och import av namnrymder, till att dela upp varje exempel i flera steg.
 
@@ -148,3 +152,9 @@ Aspose.Slides för .NET är utformad för att fungera med olika PowerPoint-forma
 
 ### Finns det en testversion av Aspose.Slides för .NET tillgänglig?
  Ja, du kan prova Aspose.Slides för .NET genom att ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

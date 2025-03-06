@@ -3,10 +3,14 @@ title: Recursos adicionais de gráfico
 linktitle: Recursos adicionais de gráfico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Explore recursos avançados de gráficos no Aspose.Slides for .NET! Aprenda a criar gráficos dinâmicos e interativos com estilos personalizados, linhas de tendência e muito mais. Eleve suas apresentações com visualização de dados poderosa.
-type: docs
 weight: 24
 url: /pt/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introdução
 
@@ -32,3 +36,9 @@ Aprenda como extrair dados de gráficos com eficiência usando Aspose.Slides for
 Aprenda como recuperar uma pasta de trabalho de um gráfico usando Aspose.Slides for .NET. Extraia dados de gráficos e crie pastas de trabalho do Excel de maneira programática.
 ### [Limpar pontos de dados específicos da série de gráficos](./clear-specific-chart-series-data-points-data/)
 Aprenda como limpar pontos de dados específicos do gráfico em Aspose.Slides for .NET. Guia passo a passo com código-fonte incluído.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

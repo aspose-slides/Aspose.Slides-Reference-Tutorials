@@ -3,10 +3,14 @@ title: ノートのスライドからサムネイルを生成する
 linktitle: ノートのスライドからサムネイルを生成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーションのノート セクションのスライドからサムネイルを生成する方法を学びます。ビジュアル コンテンツを強化しましょう。
-type: docs
 weight: 12
 url: /ja/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 現代のプレゼンテーションの世界では、ビジュアル コンテンツが重要です。効果的なコミュニケーションには、魅力的なスライドの作成が不可欠です。プレゼンテーションを強化する方法の 1 つは、スライドからサムネイルを生成することです。特に、特定の詳細を強調したり、概要を共有したりする場合に役立ちます。Aspose.Slides for .NET は、これをシームレスに実現できる強力なツールです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して、プレゼンテーションのノート セクションのスライドからサムネイルを生成する手順を説明します。
 
@@ -114,3 +118,9 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### Aspose.Slides for .NET に関するサポートや追加の支援はどこで受けられますか?
  Asposeコミュニティのヘルプや参加については、[Aspose サポート フォーラム](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

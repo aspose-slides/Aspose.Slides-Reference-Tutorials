@@ -3,10 +3,14 @@ title: Získejte přístup k obrázkům SmartArt se specifickým rozložením v 
 linktitle: Získejte přístup k obrázkům SmartArt se specifickým rozložením v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se programově přistupovat k obrázkům SmartArt a manipulovat s nimi v PowerPointu pomocí Aspose.Slides for Java. Postupujte podle tohoto podrobného průvodce krok za krokem.
-type: docs
 weight: 13
 url: /cs/java/java-powerpoint-smartart-manipulation/access-smartart-specific-layout-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření dynamických a vizuálně přitažlivých prezentací často vyžaduje více než jen text a obrázky. SmartArt je fantastická funkce v PowerPointu, která vám umožňuje vytvářet grafické znázornění informací a nápadů. Ale věděli jste, že můžete manipulovat s obrázky SmartArt programově pomocí Aspose.Slides pro Java? V tomto obsáhlém tutoriálu vás provedeme procesem přístupu a práce s obrázky SmartArt v prezentaci PowerPoint pomocí Aspose.Slides for Java. Ať už chcete zautomatizovat proces vytváření prezentací nebo upravit své snímky programově, tato příručka vám pomůže.
 ## Předpoklady
@@ -94,3 +98,9 @@ Aspose.Slides nabízí bezplatnou zkušební verzi, ale pro plné funkce si bude
  Můžete získat podporu od[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) kde vám komunita a vývojáři mohou pomoci.
 ### Je možné automatizovat vytváření SmartArt v PowerPointu pomocí Aspose.Slides for Java?
 Aspose.Slides for Java rozhodně poskytuje komplexní nástroje pro vytváření a manipulaci s obrázky SmartArt programově.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

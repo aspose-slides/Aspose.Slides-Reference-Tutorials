@@ -3,10 +3,14 @@ title: 在 Aspose.Slides 中建立具有形狀縮放因子的縮圖
 linktitle: 在 Aspose.Slides 中建立具有形狀縮放因子的縮圖
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解使用 Aspose.Slides for .NET 建立具有特定邊界的 PowerPoint 縮圖。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 12
 url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 歡迎來到我們關於在 Aspose.Slides for .NET 中建立帶有形狀邊界的縮圖的綜合指南。 Aspose.Slides 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中無縫處理 PowerPoint 簡報。在本教程中，我們將深入研究使用 Aspose.Slides 為簡報中的形狀產生具有特定邊界的縮圖的過程。
 ## 先決條件
@@ -55,3 +59,9 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
 如有任何疑問或協助，請隨時造訪 Aspose.Slides 支援論壇[這裡](https://forum.aspose.com/c/slides/11).
 ### Q5：我可以購買 Aspose.Slides for .NET 嗎？
 當然！要購買 Aspose.Slides for .NET，請造訪購買頁面[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

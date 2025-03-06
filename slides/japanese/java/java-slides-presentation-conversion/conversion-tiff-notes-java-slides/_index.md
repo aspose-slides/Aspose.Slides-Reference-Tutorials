@@ -3,10 +3,14 @@ title: Java スライドでノート付き TIFF に変換する
 linktitle: Java スライドでノート付き TIFF に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドを埋め込みメモ付きの TIFF 形式に変換する方法を学びます。ステップバイステップ ガイドとソース コードが含まれています。
-type: docs
 weight: 10
 url: /ja/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java スライドでのノート付き TIFF への変換の概要
 
@@ -88,3 +92,9 @@ finally
 ### Aspose.Slides for Java の詳細なドキュメントや例はどこで入手できますか?
 
  Aspose.Slides for Java APIリファレンスページでは、包括的なドキュメントとコード例を参照できます。[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

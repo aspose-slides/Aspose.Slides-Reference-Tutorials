@@ -3,10 +3,14 @@ title: Stel een externe werkmap in in Java-dia's
 linktitle: Stel een externe werkmap in in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u externe werkmappen in Java Slides instelt met Aspose.Slides voor Java. Creëer dynamische presentaties met Excel-gegevensintegratie.
-type: docs
 weight: 19
 url: /nl/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot het instellen van een externe werkmap in Java-dia's
 
@@ -119,3 +123,9 @@ Aspose.Slides voor Java wordt regelmatig bijgewerkt om compatibiliteit met de ni
 ### Kan ik meerdere diagrammen toevoegen die verwijzen naar dezelfde externe werkmap?
 
 Ja, u kunt meerdere diagrammen aan uw presentatie toevoegen, die allemaal naar dezelfde externe werkmap verwijzen. Herhaal eenvoudigweg de stappen die in deze zelfstudie worden beschreven voor elk diagram dat u wilt maken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

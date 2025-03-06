@@ -3,10 +3,14 @@ title: Bagan Multi-Kategori di Slide Java
 linktitle: Bagan Multi-Kategori di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Multi-Kategori di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang mengesankan dalam presentasi.
-type: docs
 weight: 20
 url: /id/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Bagan Multi-Kategori di Slide Java dengan Aspose.Slides
 
@@ -157,3 +161,9 @@ Ya, Anda dapat menambahkan rangkaian tambahan ke bagan dengan mengikuti proses s
 ### Bagaimana cara menambahkan judul ke grafik?
 
  Anda dapat menambahkan judul ke bagan dengan menggunakan`ch.getChartTitle().getTextFrame().setText("Chart Title");` metode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: คุณสมบัติแบบอักษรสำหรับค�
 linktitle: คุณสมบัติแบบอักษรสำหรับคำอธิบายแผนภูมิแต่ละรายการใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ปรับปรุงงานนำเสนอ PowerPoint ด้วยสไตล์ฟอนต์ ขนาด และสีที่กำหนดเองสำหรับคำอธิบายแต่ละรายการใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java
-type: docs
 weight: 12
 url: /th/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับคุณสมบัติแบบอักษรสำหรับคำอธิบายเฉพาะบุคคลใน Java Slides
 
@@ -113,3 +117,9 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

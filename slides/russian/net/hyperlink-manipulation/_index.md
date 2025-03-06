@@ -3,10 +3,14 @@ title: Манипулирование гиперссылками
 linktitle: Манипулирование гиперссылками
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои .NET-приложения с помощью комплексного управления гиперссылками с помощью Aspose.Slides. Узнайте, как управлять гиперссылками, создавать интерактивные презентации и легко повышать вовлеченность пользователей.
-type: docs
 weight: 13
 url: /ru/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение:
 
@@ -27,3 +31,9 @@ url: /ru/net/hyperlink-manipulation/
 Узнайте, как эффективно управлять гиперссылками в презентациях с помощью Aspose.Slides для .NET. Автоматизируйте задачи, создавайте интерактивные меню и повышайте вовлеченность пользователей.
 ### [Создание изменяемой гиперссылки](./mutable-hyperlink/)
 Научитесь создавать изменяемые гиперссылки с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом для динамических презентаций.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

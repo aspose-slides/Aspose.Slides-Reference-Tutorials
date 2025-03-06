@@ -3,10 +3,14 @@ title: Slide Thumbnail Generation in Aspose.Slides
 linktitle: Slide Thumbnail Generation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Generate slide thumbnails in Aspose.Slides for .NET with step-by-step guide and code examples. Customize appearance and save thumbnails. Enhance presentation previews.
-type: docs
 weight: 10
 url: /net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 If you're looking to generate slide thumbnails in your .NET applications using Aspose.Slides, you're in the right place. Creating slide thumbnails can be a valuable feature in various scenarios, such as building custom PowerPoint viewers or generating image previews of presentations. In this comprehensive guide, we'll walk you through the process step by step. We'll cover prerequisites, importing namespaces, and breaking down each example into multiple steps, making it easy for you to implement slide thumbnail generation seamlessly.
 
@@ -111,3 +115,10 @@ A: Yes, you can adjust the dimensions by modifying the parameters in the `GetThu
 A: Yes, Aspose.Slides is a robust solution for both personal and commercial applications. You can find licensing details on the Aspose website.
 
 For further assistance or questions, feel free to visit the [Aspose.Slides Support Forum](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

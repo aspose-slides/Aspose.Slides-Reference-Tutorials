@@ -3,10 +3,14 @@ title: Ρύθμιση αυτόματων χρωμάτων φέτας γραφή�
 linktitle: Ρύθμιση αυτόματων χρωμάτων φέτας γραφήματος πίτας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε δυναμικά γραφήματα πίτας με αυτόματα χρώματα τμημάτων σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 24
 url: /el/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στη ρύθμιση των αυτόματων χρωμάτων φέτας γραφήματος πίτας σε διαφάνειες Java
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Μπορείτε να προσαρμόσετε το μέγεθος της γραμματοσειράς, την τόλμη και το πλάγιο στυλ όπως απαιτείται.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

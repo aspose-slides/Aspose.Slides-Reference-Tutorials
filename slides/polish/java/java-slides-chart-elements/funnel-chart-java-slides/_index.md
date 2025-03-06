@@ -3,10 +3,14 @@ title: Wykres lejkowy w slajdach Java
 linktitle: Wykres lejkowy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Poznaj Aspose.Slides dla języka Java dzięki samouczkom krok po kroku. Twórz wspaniałe wykresy lejkowe i nie tylko.
-type: docs
 weight: 14
 url: /pl/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do wykresu lejkowego w slajdach Java
 
@@ -144,3 +148,9 @@ Błędy i wyjątki można obsługiwać za pomocą standardowych mechanizmów obs
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides dla Java?
 
  Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z Aspose.Slides dla Java można znaleźć w pliku[dokumentacja](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

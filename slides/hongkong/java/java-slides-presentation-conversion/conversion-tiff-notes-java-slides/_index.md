@@ -3,10 +3,14 @@ title: 在 Java 投影片中使用註解轉換為 TIFF
 linktitle: 在 Java 投影片中使用註解轉換為 TIFF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 Java 投影片轉換為帶有嵌入註解的 TIFF 格式。包含逐步指南和原始程式碼。
-type: docs
 weight: 10
 url: /zh-hant/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 投影片中使用註解轉換為 TIFF 的簡介
 
@@ -88,3 +92,9 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件和範例？
 
 您可以在 Aspose.Slides for Java API References 頁面上探索全面的文件和程式碼範例[這裡](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

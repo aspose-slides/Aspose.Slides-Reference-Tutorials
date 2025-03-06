@@ -3,10 +3,14 @@ title: पावरपॉइंट में सेक्शन ज़ूम ब
 linktitle: पावरपॉइंट में सेक्शन ज़ूम बनाएँ
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में सेक्शन ज़ूम बनाना सीखें। नेविगेशन और सहभागिता को सहजता से बढ़ाएँ।
-type: docs
 weight: 13
 url: /hi/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## परिचय
 इस ट्यूटोरियल में, हम Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में सेक्शन ज़ूम बनाने के बारे में विस्तार से जानेंगे। सेक्शन ज़ूम एक शक्तिशाली सुविधा है जो आपको अपनी प्रस्तुति के विभिन्न अनुभागों में सहजता से नेविगेट करने की अनुमति देती है, जिससे संगठन और समग्र उपयोगकर्ता अनुभव दोनों में वृद्धि होती है। जटिल प्रस्तुतियों को आसानी से पचने योग्य अनुभागों में विभाजित करके, आप प्रभावी रूप से अपना संदेश दे सकते हैं और अपने दर्शकों को आकर्षित कर सकते हैं।
@@ -72,3 +76,9 @@ Aspose.Slides for Java विभिन्न PowerPoint प्रारूपो
 हां, आप इस ट्यूटोरियल में बताए गए समान चरणों का पालन करके Aspose.Slides for Java का उपयोग करके मौजूदा प्रस्तुतियों में सेक्शन ज़ूम जोड़ सकते हैं।
 ### मैं Aspose.Slides for Java के संबंध में अतिरिक्त समर्थन या सहायता कहां पा सकता हूं?
  अतिरिक्त समर्थन या सहायता के लिए, आप Aspose.Slides for Java फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

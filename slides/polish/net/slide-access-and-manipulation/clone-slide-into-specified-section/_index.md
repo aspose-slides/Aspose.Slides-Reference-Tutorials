@@ -3,10 +3,14 @@ title: Zduplikuj slajd w wyznaczonej sekcji w prezentacji
 linktitle: Zduplikuj slajd w wyznaczonej sekcji w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak powielać slajdy w wyznaczonej sekcji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku dotyczący skutecznej manipulacji slajdami.
-type: docs
 weight: 19
 url: /pl/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 świecie dynamicznych prezentacji Aspose.Slides dla .NET jest niezawodnym narzędziem dla programistów. Niezależnie od tego, czy tworzysz urzekające pokazy slajdów, czy automatyzujesz manipulację slajdami, Aspose.Slides dla .NET oferuje solidną platformę usprawniającą Twoje projekty prezentacji. W tym samouczku zagłębimy się w proces powielania slajdów w wyznaczonej sekcji prezentacji. Ten przewodnik krok po kroku pomoże Ci zrozumieć wymagania wstępne, zaimportować przestrzenie nazw i opanować proces.
 
@@ -109,3 +113,9 @@ Nie, Aspose.Slides for .NET jest specjalnie zaprojektowany dla aplikacji .NET. J
 ### 5. Gdzie mogę szukać pomocy i wsparcia dla Aspose.Slides dla .NET?
 
  W przypadku jakichkolwiek pytań lub problemów możesz odwiedzić stronę[Forum pomocy technicznej Aspose.Slides dla platformy .NET](https://forum.aspose.com/). Społeczność i eksperci mogą odpowiedzieć na Twoje pytania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

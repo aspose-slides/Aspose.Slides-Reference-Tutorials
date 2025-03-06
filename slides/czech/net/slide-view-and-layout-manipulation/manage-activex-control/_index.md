@@ -3,10 +3,14 @@ title: Správa ovládacího prvku ActiveX v aplikaci PowerPoint
 linktitle: Správa ovládacího prvku ActiveX v aplikaci PowerPoint
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit prezentace PowerPoint pomocí ovládacích prvků ActiveX pomocí Aspose.Slides pro .NET. Náš podrobný průvodce pokrývá vkládání, manipulaci, přizpůsobení, zpracování událostí a další.
-type: docs
 weight: 13
 url: /cs/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Ovládací prvky ActiveX jsou výkonné prvky, které mohou zlepšit funkčnost a interaktivitu vašich prezentací PowerPoint. Tyto ovládací prvky umožňují vkládat a manipulovat s objekty, jako jsou multimediální přehrávače, formuláře pro zadávání dat a další, přímo do snímků. V tomto článku prozkoumáme, jak spravovat ovládací prvky ActiveX v PowerPointu pomocí Aspose.Slides for .NET, všestranné knihovny, která umožňuje bezproblémovou integraci a manipulaci se soubory PowerPoint ve vašich aplikacích .NET.
 
 ## Přidání ovládacích prvků ActiveX do snímků aplikace PowerPoint
@@ -149,3 +153,9 @@ Události spouštěné ovládacími prvky ActiveX můžete zpracovávat přihlá
 ### Mohu odebrat ovládací prvek ActiveX ze snímku?
 
  Ano, ovládací prvek ActiveX můžete ze snímku odebrat pomocí`Remove` metoda`Shapes` sbírka. Předejte odkaz na`IOleObjectFrame` představující ovládací prvek jako argument pro`Remove` a ovládací prvek bude ze snímku odstraněn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

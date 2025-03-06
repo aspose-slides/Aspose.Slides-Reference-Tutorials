@@ -3,10 +3,14 @@ title: Sunumları Gömülü Yazı Tipleriyle HTML'ye Dönüştürün
 linktitle: Sunumları Gömülü Yazı Tipleriyle HTML'ye Dönüştürün
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarını yerleşik yazı tipleriyle HTML'ye dönüştürün. Orijinalliği sorunsuz bir şekilde koruyun.
-type: docs
 weight: 13
 url: /tr/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Günümüzün dijital çağında sunum ve dokümanların çevrimiçi olarak paylaşılması yaygın bir uygulama haline geldi. Ancak sıklıkla karşılaşılan zorluklardan biri, sunumları HTML'ye dönüştürürken yazı tiplerinizin doğru şekilde görüntülenmesini sağlamaktır. Bu adım adım eğitim, Aspose.Slides for .NET'i kullanarak sunumları gömülü yazı tipleriyle HTML'ye dönüştürme sürecinde size rehberlik edecek ve belgelerinizin tam istediğiniz gibi görünmesini sağlayacaktır.
 
@@ -120,3 +124,10 @@ Evet, Aspose.Slides for .NET, PDF, görseller ve daha fazlasını içeren çok �
 ### 5. Aspose.Slides for .NET için ek kaynakları ve desteği nerede bulabilirim?
 
  Belgeler de dahil olmak üzere çok sayıda kaynağa şu adresten erişebilirsiniz:[Aspose.Slides for .NET API Referansı](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

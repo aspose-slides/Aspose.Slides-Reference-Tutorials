@@ -3,10 +3,14 @@ title: Oblicz formuły w slajdach Java
 linktitle: Oblicz formuły w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak obliczać formuły w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dynamicznych prezentacji PowerPoint.
-type: docs
 weight: 10
 url: /pl/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do obliczania formuł w slajdach Java przy użyciu Aspose.Slides
 
@@ -114,3 +118,10 @@ W tym przewodniku nauczyliśmy się, jak obliczać formuły w Java Slides przy u
 ### Jak obliczać formuły w skoroszycie?
 
  Formuły w skoroszycie można obliczać za pomocą narzędzia`calculateFormulas` metoda`IChartDataWorkbook` w Aspose.Slides.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

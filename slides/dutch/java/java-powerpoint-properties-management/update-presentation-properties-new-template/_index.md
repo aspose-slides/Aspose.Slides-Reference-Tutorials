@@ -3,10 +3,14 @@ title: Update presentatie-eigenschappen met nieuwe sjabloon
 linktitle: Update presentatie-eigenschappen met nieuwe sjabloon
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u presentatie-eigenschappen kunt bijwerken met Aspose.Slides voor Java. Verbeter uw Java-projecten met naadloze aanpassing van metagegevens.
-type: docs
 weight: 13
 url: /nl/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 Op het gebied van Java-ontwikkeling is Aspose.Slides een krachtig hulpmiddel voor het programmatisch manipuleren van PowerPoint-presentaties. Met de Java-bibliotheek kunnen ontwikkelaars taken automatiseren zoals het maken, wijzigen en converteren van presentaties, waardoor het een waardevol bezit is voor zowel bedrijven als particulieren. Om het volledige potentieel van Aspose.Slides te benutten, is echter een goed begrip van de functionaliteiten vereist en hoe u deze effectief in uw Java-projecten kunt integreren. In deze zelfstudie gaan we stap voor stap dieper in op het bijwerken van presentatie-eigenschappen met behulp van een nieuwe sjabloon, zodat u elk concept grondig begrijpt.
 ## Vereisten
@@ -75,3 +79,9 @@ Aspose.Slides biedt functies en betrouwbaarheid op ondernemingsniveau, waardoor 
 Zeker, Aspose.Slides biedt uitgebreide aanpassingsmogelijkheden voor presentatie-eigenschappen, waardoor u deze kunt afstemmen op uw specifieke wensen.
 ### Waar kan ik aanvullende ondersteuning en bronnen vinden voor Aspose.Slides?
 U kunt de Aspose.Slides-documentatie verkennen, lid worden van de communityforums of contact opnemen met Aspose-ondersteuning voor hulp of vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Χρησιμοποιήστε προσαρμοσμένες γραμματ�
 linktitle: Χρησιμοποιήστε προσαρμοσμένες γραμματοσειρές στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενσωματώνετε προσαρμοσμένες γραμματοσειρές σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την οπτική απήχηση χωρίς κόπο.
-type: docs
 weight: 25
 url: /el/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αξιοποιήσετε το Aspose.Slides για Java για να βελτιώσετε τις παρουσιάσεις του PowerPoint ενσωματώνοντας προσαρμοσμένες γραμματοσειρές. Οι προσαρμοσμένες γραμματοσειρές μπορούν να εμπλουτίσουν σημαντικά την οπτική ελκυστικότητα των διαφανειών σας, διασφαλίζοντας ότι ευθυγραμμίζονται τέλεια με τις απαιτήσεις της επωνυμίας ή του σχεδιασμού σας. Θα καλύψουμε τα πάντα, από την εισαγωγή των απαραίτητων πακέτων μέχρι την εκτέλεση των βημάτων που απαιτούνται για την απρόσκοπτη ενσωμάτωση προσαρμοσμένων γραμματοσειρών στις παρουσιάσεις σας.
 ## Προαπαιτούμενα
@@ -70,3 +74,9 @@ FontsLoader.clearCache();
 Το Aspose.Slides για Java υποστηρίζει τη χρήση ενός ευρέος φάσματος προσαρμοσμένων γραμματοσειρών και δεν υπάρχει εγγενές όριο που επιβάλλεται από τη βιβλιοθήκη.
 ### Μπορώ να ενσωματώσω προσαρμοσμένες γραμματοσειρές απευθείας στο αρχείο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java;
 Ναι, το Aspose.Slides για Java σάς επιτρέπει να ενσωματώνετε προσαρμοσμένες γραμματοσειρές στο ίδιο το αρχείο παρουσίασης για απρόσκοπτη διανομή.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

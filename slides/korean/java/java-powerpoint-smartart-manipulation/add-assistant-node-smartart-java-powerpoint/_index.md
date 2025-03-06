@@ -3,10 +3,14 @@ title: Java PowerPoint의 SmartArt에 보조 노드 추가
 linktitle: Java PowerPoint의 SmartArt에 보조 노드 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 SmartArt에 보조 노드를 추가하는 방법을 알아보세요. PowerPoint 편집 기술을 향상시켜 보세요.
-type: docs
 weight: 17
 url: /ko/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 SmartArt에 보조 노드를 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -70,3 +74,9 @@ Aspose.Slides는 97-2003의 PowerPoint 버전부터 최신 버전까지 지원�
 예, Aspose.Slides에서 제공하는 다양한 속성과 메서드를 사용하여 모양을 맞춤 설정할 수 있습니다.
 ### SmartArt의 노드 수에 제한이 있나요?
 PowerPoint의 SmartArt는 많은 수의 노드를 지원하지만 더 나은 가독성을 위해 합리적으로 유지하는 것이 좋습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

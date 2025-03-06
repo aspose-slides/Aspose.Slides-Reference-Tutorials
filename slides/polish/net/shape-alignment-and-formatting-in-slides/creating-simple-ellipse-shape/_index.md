@@ -3,10 +3,14 @@ title: Z łatwością twórz kształt elipsy za pomocą Aspose.Slides .NET
 linktitle: Tworzenie prostego kształtu elipsy na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć wspaniałe kształty elips na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Proste kroki do dynamicznego projektowania!
-type: docs
 weight: 11
 url: /pl/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W dynamicznym świecie projektowania prezentacji włączenie kształtów takich jak elipsy może dodać odrobinę kreatywności i profesjonalizmu. Aspose.Slides dla .NET oferuje potężne rozwiązanie do programowego manipulowania plikami prezentacji. Ten samouczek poprowadzi Cię przez proces tworzenia prostego kształtu elipsy na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -65,3 +69,9 @@ Tak, Aspose.Slides jest regularnie aktualizowany, aby zapewnić kompatybilność
  Podążaj za[tymczasowy link do licencji](https://purchase.aspose.com/temporary-license/) aby poprosić o tymczasową licencję do celów testowych.
 ### Potrzebujesz pomocy lub masz konkretne pytania?
  Odwiedzić[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11) aby uzyskać pomoc od społeczności i ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

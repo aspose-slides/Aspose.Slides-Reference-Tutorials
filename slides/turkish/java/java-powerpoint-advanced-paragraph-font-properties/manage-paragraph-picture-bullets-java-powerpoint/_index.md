@@ -3,10 +3,14 @@ title: Java PowerPoint'te Paragraf Resim Madde İşaretlerini Yönetme
 linktitle: Java PowerPoint'te Paragraf Resim Madde İşaretlerini Yönetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarına nasıl özel resim madde işaretleri ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için bu ayrıntılı, adım adım kılavuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 İlgi çekici ve görsel olarak çekici sunumlar oluşturmak, modern iş dünyasında çok önemli bir beceridir. Java geliştiricileri, PowerPoint slaytlarındaki özelleştirilmiş resim maddeleriyle sunumlarını geliştirmek için Aspose.Slides'tan yararlanabilir. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve sunumlarınıza güvenle resim madde işaretleri ekleyebilmenizi sağlayacaktır.
 ## Önkoşullar
@@ -104,3 +108,9 @@ Evet, proje dizininizden erişilebildiği sürece resim madde işaretleri için 
 Evet, her paragrafı ayrı ayrı oluşturup yapılandırarak tek bir Otomatik Şekil'e farklı madde işareti stillerine sahip birden çok paragraf ekleyebilirsiniz.
 ### Daha fazla örneği ve desteği nerede bulabilirim?
  Daha fazla örneği şurada bulabilirsiniz[dokümantasyon](https://reference.aspose.com/slides/java/) ve Aspose topluluğundan destek alın[forumlar](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

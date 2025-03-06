@@ -3,10 +3,14 @@ title: 幻灯片评论操作
 linktitle: 幻灯片评论操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 幻灯片注释操作教程增强幻灯片操作技能。学习使用 .NET 在 PowerPoint 演示文稿中以编程方式添加、编辑和管理注释。
-type: docs
 weight: 12
 url: /zh/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 介绍
 
@@ -27,3 +31,9 @@ url: /zh/net/slide-comments-manipulation/
 使用 Aspose.Slides API 为您的演示文稿添加深度和互动性。了解如何使用 .NET 轻松地将评论集成到您的幻灯片中。增强参与度并吸引观众。
 ### [现代评论管理](./modern-comments/)
 使用 Aspose.Slides 的现代评论管理功能增强协作和反馈流程。了解如何简化演示文稿中的沟通并最大程度地提高工作效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

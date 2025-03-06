@@ -3,10 +3,14 @@ title: Isi Bentuk dengan Gradien di PowerPoint
 linktitle: Isi Bentuk dengan Gradien di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengisi bentuk dengan gradien di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah yang mendetail ini.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik secara visual sangat penting untuk memikat audiens Anda. Salah satu cara efektif untuk menyempurnakan slide Anda adalah dengan mengisi bentuk dengan gradien. Tutorial ini akan memandu Anda melalui proses penggunaan Aspose.Slides untuk Java untuk mengisi bentuk dengan gradien di PowerPoint. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan berguna dan mudah diikuti. Mari selami dunia gradien dan lihat bagaimana gradien dapat mengubah presentasi Anda.
 ## Prasyarat
@@ -106,3 +110,9 @@ Perhentian gradien adalah titik tertentu dalam gradien yang menentukan warna dan
  Untuk dukungan, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### Di mana saya dapat mengunduh Aspose.Slides untuk Java versi terbaru?
  Anda dapat mengunduh versi terbaru dari[Halaman unduh Aspose.Slide](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 将幻灯片复制到现有演示文稿的末尾
 linktitle: 将幻灯片复制到现有演示文稿的末尾
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 复制幻灯片并将其添加到现有 PowerPoint 演示文稿的末尾。本分步指南提供源代码示例并涵盖设置、幻灯片复制、修改等。
-type: docs
 weight: 22
 url: /zh/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for .NET 简介
 
@@ -96,3 +100,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### 我可以使用 Aspose.Slides 修改幻灯片内容吗？
 
 当然！Aspose.Slides 不仅允许您复制幻灯片，还可以通过编程方式操作其内容，例如文本、图像、形状和动画。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

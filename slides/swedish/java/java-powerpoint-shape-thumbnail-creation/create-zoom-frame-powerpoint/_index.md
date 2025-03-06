@@ -3,10 +3,14 @@ title: Skapa zoomram i PowerPoint
 linktitle: Skapa zoomram i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar engagerande zoomramar i PowerPoint med Aspose.Slides för Java. Följ vår guide för att lägga till interaktiva element i dina presentationer.
-type: docs
 weight: 17
 url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduktion
 Att skapa engagerande PowerPoint-presentationer är en konst, och ibland kan de minsta tilläggen göra stor skillnad. En sådan funktion är Zoom Frame, som låter dig zooma in på specifika bilder eller bilder, vilket skapar en dynamisk och interaktiv presentation. I den här handledningen går vi igenom processen att skapa en zoomram i PowerPoint med Aspose.Slides för Java.
 ## Förutsättningar
@@ -113,3 +117,9 @@ Ja, Aspose.Slides låter dig anpassa olika egenskaper för zoomramar, såsom lin
 Absolut! Du kan lägga till anpassade bilder till zoomramar genom att läsa bildfiler och lägga till dem i presentationen.
 ### Var kan jag hitta fler exempel och dokumentation?
  Du kan hitta omfattande dokumentation och exempel på[Aspose.Slides för Java dokumentationssida](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

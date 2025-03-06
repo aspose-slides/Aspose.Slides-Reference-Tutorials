@@ -3,10 +3,14 @@ title: Печать презентаций с помощью принтера п
 linktitle: Печать презентаций с помощью принтера по умолчанию в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Разблокируйте бесшовную печать PowerPoint в .NET с помощью Aspose.Slides. Следуйте нашему пошаговому руководству для легкой интеграции. Повысьте функциональность вашего приложения прямо сейчас!
-type: docs
 weight: 10
 url: /ru/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 В сфере .NET-разработки Aspose.Slides выделяется как мощный инструмент для создания, управления и рендеринга презентаций PowerPoint. Среди множества функций возможность распечатывать презентации непосредственно на принтере по умолчанию — это удобная функция, которую часто ищут разработчики. Это руководство шаг за шагом проведет вас через весь процесс, сделав его доступным, даже если вы относительно новичок в Aspose.Slides.
 ## Предварительные условия
@@ -51,3 +55,9 @@ presentation.Print();
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для тестирования и оценки.
 ### Как я могу обратиться за помощью или связаться с сообществом Aspose.Slides?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) чтобы задавать вопросы, делиться идеями и общаться с другими разработчиками.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

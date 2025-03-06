@@ -3,10 +3,14 @@ title: إضافة خطوط مخصصة في شرائح جافا
 linktitle: إضافة خطوط مخصصة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين شرائح Java الخاصة بك باستخدام خطوط مخصصة. دليل خطوة بخطوة باستخدام Aspose.Slides لـ Java. تعلم كيفية إضافة الخطوط وتخصيصها في العروض التقديمية للحصول على صور مؤثرة.
-type: docs
 weight: 10
 url: /ar/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## مقدمة لإضافة خطوط مخصصة في شرائح جافا
 
@@ -108,3 +112,9 @@ shape.getLineFormat().setWidth(2); // اضبط سمك الخط على نقطتي
 ### هل من الممكن إضافة أسطر متعددة إلى الشريحة؟
 
 نعم، يمكنك إضافة أسطر متعددة إلى الشريحة عن طريق تكرار الخطوات المذكورة في هذا البرنامج التعليمي. يمكن تخصيص كل سطر بشكل مستقل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

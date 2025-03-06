@@ -3,10 +3,14 @@ title: Miniaturbilder von Formen in PowerPoint erstellen
 linktitle: Miniaturbilder von Formen in PowerPoint erstellen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Miniaturansichten von Formen in PowerPoint-Präsentationen erstellen. Eine Schritt-für-Schritt-Anleitung wird bereitgestellt.
-type: docs
 weight: 14
 url: /de/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial beschäftigen wir uns mit der Erstellung von Formvorschaubildern in PowerPoint-Präsentationen mithilfe von Aspose.Slides für Java. Aspose.Slides ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Dateien zu arbeiten und verschiedene Aufgaben zu automatisieren, darunter auch die Generierung von Formvorschaubildern.
 ## Voraussetzungen
@@ -60,3 +64,9 @@ Ja, neben PNG unterstützt Aspose.Slides das Speichern von Miniaturansichten in 
  Absolut! Sie können eine kostenlose Testversion von Aspose.Slides herunterladen von[Hier](https://releases.aspose.com/) um seine Funktionen und Fähigkeiten zu bewerten.
 ### Wo finde ich Unterstützung für Aspose.Slides?
  Wenn Sie Fragen haben oder Hilfe zu Aspose.Slides benötigen, besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) zur Unterstützung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

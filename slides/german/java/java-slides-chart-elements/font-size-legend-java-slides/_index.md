@@ -3,10 +3,14 @@ title: Schriftgrößenlegende in Java-Folien
 linktitle: Schriftgrößenlegende in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie PowerPoint-Präsentationen mit Aspose.Slides für Java. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Schriftgrößen von Legenden und mehr anpassen.
-type: docs
 weight: 13
 url: /de/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in die Schriftgrößenlegende in Java Slides
 
@@ -135,3 +139,9 @@ Hier deaktivieren wir die automatische Achsenskalierung und geben die Mindest- u
 ### Wo finde ich weitere Informationen und Dokumentation zu Aspose.Slides?
 
  Ausführliche Dokumentation und API-Referenzen für Aspose.Slides für Java finden Sie auf der Aspose-Dokumentationswebsite. Besuchen Sie[Hier](https://reference.aspose.com/slides/java/) für detaillierte Informationen zur Benutzung der Bibliothek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

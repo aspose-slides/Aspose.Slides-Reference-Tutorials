@@ -3,10 +3,14 @@ title: Java スライドのカスタマイズとフォーマット
 linktitle: Java スライドのカスタマイズとフォーマット
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java スライドのカスタマイズとフォーマットにおける Aspose.Slides for Java の威力をご覧ください。チュートリアルでステップバイステップで学習します。プレゼンテーション スキルを向上させましょう。
-type: docs
 weight: 12
 url: /ja/java/customization-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 この記事では、Aspose.Slides for Java を使用して Java スライドのカスタマイズとフォーマットの世界を詳しく見ていきます。熟練した開発者でも、Java プレゼンテーションを始めたばかりの開発者でも、このチュートリアル リストは Aspose.Slides の潜在能力を最大限に活用するためのガイドになります。|
 
@@ -49,3 +53,9 @@ Aspose.Slides for Java を使用して Java スライドのフォント プロ�
 Aspose.Slides for Java でグラフを強化します。Java スライドで位置軸を設定する方法、魅力的なプレゼンテーションを作成する方法、グラフのレイアウトを簡単にカスタマイズする方法を学びます。
 ### [Java スライドで回転角度を設定する](./setting-rotation-angle-java-slides/)
 Aspose.Slides for Java を使用して Java スライドを最適化します。テキスト要素の回転角度の設定方法を学習します。ソース コード付きのステップ バイ ステップ ガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

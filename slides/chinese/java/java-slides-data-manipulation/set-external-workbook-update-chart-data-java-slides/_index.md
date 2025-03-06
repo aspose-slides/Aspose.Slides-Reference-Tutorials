@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置外部工作簿并更新图表数据
 linktitle: 在 Java Slides 中设置外部工作簿并更新图表数据
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 设置外部工作簿并更新 Java Slides 中的图表数据。增强您的 PowerPoint 自动化技能。
-type: docs
 weight: 20
 url: /zh/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 幻灯片中设置外部工作簿并更新图表数据的简介
 
@@ -99,3 +103,9 @@ finally
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多文档和资源？
 
 有关详细文档和其他资源，请访问 Aspose.Slides for Java 文档：[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

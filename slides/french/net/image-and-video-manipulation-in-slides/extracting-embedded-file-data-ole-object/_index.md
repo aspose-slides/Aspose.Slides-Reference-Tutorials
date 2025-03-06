@@ -3,10 +3,14 @@ title: Aspose.Slides pour .NET - Tutoriel d'extraction de données d'objets OLE
 linktitle: Extraction des données de fichiers incorporées à partir d'un objet OLE dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Libérez tout le potentiel d'Aspose.Slides pour .NET avec notre guide étape par étape sur l'extraction de données de fichiers incorporés à partir d'objets OLE. Élevez vos capacités de traitement PowerPoint !
-type: docs
 weight: 20
 url: /fr/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Si vous plongez dans le monde d'Aspose.Slides pour .NET, vous êtes sur la bonne voie pour élever vos capacités de traitement PowerPoint. Dans ce guide complet, nous vous guiderons tout au long du processus d'extraction des données de fichiers incorporés à partir d'un objet OLE à l'aide d'Aspose.Slides. Que vous soyez un développeur chevronné ou un nouveau venu sur Aspose.Slides, ce didacticiel vous fournira une feuille de route claire et détaillée pour exploiter tout le potentiel de cette puissante bibliothèque .NET.
 ## Conditions préalables
@@ -81,3 +85,9 @@ Absolument! Le code fourni est conçu pour gérer plusieurs objets OLE dans la p
  Oui, vous pouvez obtenir une version d'essai gratuite[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.Slides ?
  Visitez le forum d'assistance Aspose.Slides[ici](https://forum.aspose.com/c/slides/11) à l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

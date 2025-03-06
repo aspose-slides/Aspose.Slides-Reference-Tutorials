@@ -3,10 +3,14 @@ title: Java Slaytlarına Tüm Yazı Tiplerini Gömerek Sunumu HTML'ye Dönüşt�
 linktitle: Java Slaytlarına Tüm Yazı Tiplerini Gömerek Sunumu HTML'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak sunumları gömülü yazı tipleriyle HTML'ye nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, kusursuz paylaşım için tutarlı biçimlendirme sağlar.
-type: docs
 weight: 13
 url: /tr/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slaytlarına Tüm Yazı Tiplerini Gömerek Sunumu HTML'ye Dönüştürmeye Giriş
 
@@ -108,3 +112,9 @@ Evet, bu yöntem resimler, animasyonlar ve multimedya öğeleri dahil olmak üze
 ### Aspose.Slides for Java için daha fazla kaynağı ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java'ya ilişkin kapsamlı belgelere ve kaynaklara şu adresten ulaşabilirsiniz:[Java API Referansları için Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

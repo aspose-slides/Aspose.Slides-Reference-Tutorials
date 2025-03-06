@@ -3,10 +3,14 @@ title: Java 슬라이드의 차트에서 정보 숨기기
 linktitle: Java 슬라이드의 차트에서 정보 숨기기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 요소를 숨기는 방법을 알아보세요. 단계별 지침과 소스 코드를 통해 명확성과 미학을 위해 프레젠테이션을 사용자 정의하세요.
-type: docs
 weight: 13
 url: /ko/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java 슬라이드의 차트에서 정보 숨기기 소개
 
@@ -172,3 +176,9 @@ finally
 ### 프로그래밍 방식으로 차트 제목과 축 레이블을 어떻게 변경할 수 있나요?
 
 해당 속성에 액세스하고 원하는 텍스트와 서식을 설정하여 차트와 축의 제목과 레이블을 설정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Adicionar moldura de altura em escala relativa no PowerPoint
 linktitle: Adicionar moldura de altura em escala relativa no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar molduras de altura em escala relativa em apresentações do PowerPoint usando Aspose.Slides para Java, aprimorando seu conteúdo visual.
-type: docs
 weight: 15
 url: /pt/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Neste tutorial, você aprenderá como adicionar uma moldura de imagem com altura de escala relativa em apresentações do PowerPoint usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -68,3 +72,9 @@ Aspose.Slides for Java é compatível com diversas versões do PowerPoint, garan
 Sim, Aspose.Slides for Java suporta vários formatos de imagem, incluindo PNG, GIF, BMP e muito mais.
 ### Existe um fórum da comunidade ou canal de suporte disponível para usuários do Aspose.Slides?
 Sim, você pode visitar o fórum Aspose.Slides para qualquer dúvida, discussão ou assistência em relação à biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

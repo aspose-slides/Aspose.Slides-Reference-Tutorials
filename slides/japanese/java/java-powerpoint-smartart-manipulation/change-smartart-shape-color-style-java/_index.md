@@ -3,10 +3,14 @@ title: Java を使用して SmartArt 図形の色スタイルを変更する
 linktitle: Java を使用して SmartArt 図形の色スタイルを変更する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java と Aspose.Slides を使用して、PowerPoint で SmartArt 図形の色を動的に変更する方法を学びます。視覚的な魅力を簡単に高めることができます。
-type: docs
 weight: 20
 url: /ja/java/java-powerpoint-smartart-manipulation/change-smartart-shape-color-style-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt 図形のカラー スタイルを変更する手順を説明します。SmartArt は、視覚的に魅力的なグラフィックを作成できる PowerPoint プレゼンテーションの強力な機能です。SmartArt 図形のカラー スタイルを変更することで、プレゼンテーションの全体的なデザインと視覚的なインパクトを高めることができます。このプロセスをわかりやすい手順に分解します。
 ## 前提条件
@@ -63,3 +67,9 @@ presentation.save(dataDir + "ChangeSmartArtColorStyle_out.pptx", SaveFormat.Pptx
 はい、Aspose.Slides は幅広いバージョンの PowerPoint をサポートしており、ほとんどのプレゼンテーション ファイルとの互換性が確保されています。
 ### Aspose.Slides 関連のクエリのサポートはどこで受けられますか?
 訪問することができます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティと Aspose サポート スタッフからのサポートを受けられます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

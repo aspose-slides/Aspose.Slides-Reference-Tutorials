@@ -3,10 +3,14 @@ title: Управление свойствами шрифта абзаца в Ja
 linktitle: Управление свойствами шрифта абзаца в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как управлять и настраивать свойства шрифта абзаца в презентациях Java PowerPoint с помощью Aspose.Slides с помощью этого простого пошагового руководства.
-type: docs
 weight: 10
 url: /ru/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Создание визуально привлекательных презентаций PowerPoint имеет решающее значение для эффективного общения. Готовите ли вы бизнес-предложение или школьный проект, правильные свойства шрифта могут сделать ваши слайды более привлекательными. В этом руководстве вы узнаете, как управлять свойствами шрифта абзаца с помощью Aspose.Slides для Java. Готовы погрузиться? Давайте начнем!
 ## Предварительные условия
@@ -113,3 +117,9 @@ if (presentation != null) presentation.dispose();
 Да, Aspose.Slides для Java поддерживает градиентную заливку текста.
 ### Что делать, если я хочу отменить изменения?
 Перед внесением изменений перезагрузите исходную презентацию или сохраните резервную копию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

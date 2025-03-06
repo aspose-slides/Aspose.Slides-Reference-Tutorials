@@ -3,10 +3,14 @@ title: Ελέγξτε το Παράδειγμα κωδικού πρόσβαση�
 linktitle: Ελέγξτε το Παράδειγμα κωδικού πρόσβασης στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να επαληθεύετε τους κωδικούς πρόσβασης στις Διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την ασφάλεια της παρουσίασης με καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 14
 url: /el/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στο Παράδειγμα ελέγχου κωδικού πρόσβασης στις διαφάνειες Java
 
@@ -99,3 +103,9 @@ presentationInfo.removePassword("current_password");
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση για το Aspose.Slides για Java στον ιστότοπο Aspose[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ với hệ số tỷ lệ cho hình dạng trong As
 linktitle: Tạo hình thu nhỏ với hệ số tỷ lệ cho hình dạng trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình thu nhỏ PowerPoint với các giới hạn cụ thể bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tạo hình thu nhỏ có giới hạn cho các hình dạng trong Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các bản trình bày PowerPoint trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình tạo hình thu nhỏ với các giới hạn cụ thể cho các hình dạng trong bản trình bày bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -55,3 +59,9 @@ Có, Aspose.Slides tương thích với nhiều khung .NET khác nhau, mang lạ
  Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, vui lòng truy cập diễn đàn hỗ trợ Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
 ### Câu hỏi 5: Tôi có thể mua Aspose.Slides cho .NET không?
  Chắc chắn! Để mua Aspose.Slides cho .NET, vui lòng truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Hyperlänksmanipulation i Aspose.Slides
 linktitle: Hyperlänksmanipulation i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till och tar bort hyperlänkar i Aspose.Slides för .NET. Förbättra dina presentationer enkelt med interaktiva länkar.
-type: docs
 weight: 10
 url: /sv/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Hyperlänkar är viktiga element i presentationer, eftersom de ger ett bekvämt sätt att navigera mellan bilder eller komma åt externa resurser. Aspose.Slides för .NET erbjuder kraftfulla funktioner för att lägga till och ta bort hyperlänkar i dina presentationsbilder. I den här handledningen kommer vi att guida dig genom processen för hyperlänksmanipulering med Aspose.Slides för .NET. Vi kommer att täcka att lägga till hyperlänkar till en bild och ta bort hyperlänkar från en bild. Så, låt oss dyka in!
 
@@ -121,3 +125,9 @@ Absolut. Aspose.Slides stöder olika PowerPoint-format, inklusive PPT, PPTX, PPS
 
 ### Hur kan jag få en tillfällig licens för Aspose.Slides?
  Om du behöver en tillfällig licens för Aspose.Slides kan du få en[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

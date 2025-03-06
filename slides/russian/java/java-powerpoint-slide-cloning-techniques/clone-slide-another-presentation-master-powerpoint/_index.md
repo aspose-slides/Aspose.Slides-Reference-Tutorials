@@ -3,10 +3,14 @@ title: Клонировать слайд в другую презентацию 
 linktitle: Клонировать слайд в другую презентацию с помощью Master
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как клонировать слайды между презентациями на Java с помощью Aspose.Slides. Пошаговое руководство по ведению мастер-слайдов.
-type: docs
 weight: 14
 url: /ru/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Введение
 Aspose.Slides for Java — это мощная библиотека, которая позволяет разработчикам программно создавать, изменять и манипулировать презентациями PowerPoint. В этой статье представлено подробное пошаговое руководство о том, как клонировать слайд из одной презентации в другую, сохраняя при этом его главный слайд, с помощью Aspose.Slides для Java.
 ## Предварительные условия
@@ -83,3 +87,9 @@ Aspose.Slides для Java предлагает бесплатную пробну
  Вы можете получить временную лицензию в[Aspose страница покупки](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти больше примеров и документации?  
  Посетить[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/) для получения дополнительных примеров и подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

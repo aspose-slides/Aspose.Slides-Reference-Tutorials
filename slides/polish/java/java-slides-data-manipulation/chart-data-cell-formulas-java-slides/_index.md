@@ -3,10 +3,14 @@ title: Wykresy formuł komórek danych w slajdach Java
 linktitle: Wykresy formuł komórek danych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić formuły komórek danych wykresu w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Twórz dynamiczne wykresy za pomocą formuł.
-type: docs
 weight: 11
 url: /pl/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wprowadzenie do formuł komórek danych wykresów w Aspose.Slides dla Java
 
@@ -122,3 +126,9 @@ Tak, w formułach komórek danych można używać różnych typów formuł, w ty
 ### Jak zmienić typ wykresu?
 
  Typ wykresu można zmienić za pomocą opcji`setChartType` metoda na`IChart` obiekt i określenie pożądanego`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

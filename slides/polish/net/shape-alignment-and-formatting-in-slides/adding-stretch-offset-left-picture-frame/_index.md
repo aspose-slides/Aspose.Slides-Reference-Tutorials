@@ -3,10 +3,14 @@ title: Dodawanie przesunięcia rozciągania do lewej w programie PowerPoint za p
 linktitle: Dodawanie przesunięcia rozciągania w lewo dla ramki obrazu w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby dodać przesunięcie rozciągania w lewo w przypadku ramek do zdjęć.
-type: docs
 weight: 14
 url: /pl/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom łatwe manipulowanie prezentacjami programu PowerPoint. W tym samouczku omówimy proces dodawania przesunięcia rozciągania w lewo dla ramki obrazu przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności pracy z obrazami i kształtami w prezentacjach programu PowerPoint.
 ## Warunki wstępne
@@ -85,3 +89,9 @@ Odp.: Aspose.Slides jest regularnie aktualizowany, aby zapewnić kompatybilnoś�
  O: Poznaj[Dokumentacja Aspose.Slides](https://reference.aspose.com/slides/net/) w celu uzyskania wyczerpujących przykładów i wskazówek.
 ### P: Czy mogę zastosować wiele przesunięć rozciągania do jednego kształtu?
 Odp.: Tak, możesz łączyć wiele przesunięć rozciągania, aby uzyskać złożone i dostosowane efekty wizualne.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

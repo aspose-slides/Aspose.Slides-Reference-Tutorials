@@ -3,10 +3,14 @@ title: Как конвертировать отдельные слайды пр�
 linktitle: Как конвертировать отдельные слайды презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как легко конвертировать отдельные слайды презентации с помощью Aspose.Slides для .NET. Создавайте, манипулируйте и сохраняйте слайды программно.
-type: docs
 weight: 12
 url: /ru/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение Aspose.Slides для .NET
 
@@ -141,3 +145,9 @@ public class CustomFormattingController : IHtmlFormattingController
 ### Могу ли я настроить макеты слайдов с помощью Aspose.Slides?
 
 Да, вы можете настраивать макеты слайдов, добавлять фигуры, изображения и применять анимацию с помощью Aspose.Slides for .NET, что дает вам полный контроль над вашими презентациями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

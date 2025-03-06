@@ -3,10 +3,14 @@ title: Opsi Penyimpanan Slide Java
 linktitle: Opsi Penyimpanan Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari tentang opsi penyimpanan Java Slides dengan Aspose.Slides for Java. Jelajahi tutorial dan panduan komprehensif untuk pengelolaan dan penyesuaian slide yang efisien.
-type: docs
 weight: 25
 url: /id/java/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 
 Dalam dunia presentasi dinamis, Java telah muncul sebagai bahasa serbaguna, menawarkan banyak alat dan perpustakaan untuk menyempurnakan tayangan slide Anda. Dalam hal mengelola dan menyesuaikan slide, Aspose.Slides for Java menonjol sebagai solusi yang ampuh. Pada artikel ini, kita akan mempelajari dunia opsi penyimpanan Java Slides yang menarik menggunakan Aspose.Slides untuk Java.
@@ -46,3 +50,9 @@ Pelajari cara mengatur tipe tampilan yang telah ditentukan sebelumnya di Java Sl
 Pelajari cara menyimpan presentasi PowerPoint sebagai baca-saja di Java menggunakan Aspose.Slides. Lindungi konten Anda dengan petunjuk langkah demi langkah dan contoh kode.
 ### [Simpan Properti di Slide Java](./save-properties-in-java-slides/)
 Optimalkan presentasi PowerPoint Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur properti, menonaktifkan enkripsi, menambahkan perlindungan kata sandi, dan menyimpan dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

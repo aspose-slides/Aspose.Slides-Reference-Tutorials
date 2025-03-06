@@ -3,10 +3,14 @@ title: Az Aspose.Slides segítségével érheti el a Dia megjegyzéseit
 linktitle: Hozzáférés a Dia megjegyzésekhez
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan érheti el a diák megjegyzéseit a PowerPoint-prezentációkban az Aspose.Slides for .NET segítségével. Fokozza az együttműködést és a munkafolyamatot könnyedén.
-type: docs
 weight: 11
 url: /hu/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 A dinamikus és interaktív prezentációk világában a diákon belüli megjegyzések kezelése az együttműködési folyamat döntő része lehet. Az Aspose.Slides for .NET robusztus és sokoldalú megoldást kínál a dia megjegyzéseinek eléréséhez és kezeléséhez, javítva a bemutató munkafolyamatát. Ebben a lépésről-lépésre szóló útmutatóban a diakommentárokhoz való hozzáférés folyamatát mutatjuk be az Aspose.Slides for .NET használatával.
 
@@ -112,3 +116,9 @@ Igen, az Aspose.Slides for .NET különféle .NET-alkalmazásokban használható
 
 ### Vásárolhatok licencet az Aspose.Slides for .NET-hez?
  Igen, vásárolhat licencet az Aspose.Slides for .NET-hez a webhelyről[ez a link](https://purchase.aspose.com/buy) hogy kiaknázza a könyvtárban rejlő teljes potenciált projektjeiben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

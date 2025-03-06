@@ -3,10 +3,14 @@ title: Imposta i valori di altezza del carattere locale in PowerPoint utilizzand
 linktitle: Imposta i valori di altezza del carattere locale in PowerPoint utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come regolare l'altezza dei caratteri nelle presentazioni di PowerPoint utilizzando Java con Aspose.Slides. Migliora facilmente la formattazione del testo nelle tue diapositive.
-type: docs
 weight: 17
 url: /it/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial imparerai come manipolare le altezze dei caratteri a vari livelli all'interno delle presentazioni PowerPoint utilizzando Aspose.Slides per Java. Il controllo delle dimensioni dei caratteri è fondamentale per creare presentazioni visivamente accattivanti e strutturate. Esamineremo esempi passo passo per illustrare come impostare l'altezza dei caratteri per diversi elementi di testo.
 ## Prerequisiti
@@ -65,3 +69,9 @@ Aspose.Slides per Java è una potente API per manipolare le presentazioni di Pow
  Per supporto, visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Dove posso acquistare una licenza per Aspose.Slides per Java?
  È possibile acquistare una licenza[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

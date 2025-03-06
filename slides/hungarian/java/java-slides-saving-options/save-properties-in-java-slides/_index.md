@@ -3,10 +3,14 @@ title: Mentse el a tulajdonságokat a Java Slides-be
 linktitle: Mentse el a tulajdonságokat a Java Slides-be
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja PowerPoint-prezentációit az Aspose.Slides for Java segítségével. Ismerje meg a tulajdonságok beállítását, a titkosítás letiltását, a jelszavas védelem hozzáadását és a könnyed mentést.
-type: docs
 weight: 12
 url: /hu/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a Java Slides tulajdonságainak mentésébe
 
@@ -170,3 +174,9 @@ Ez segít megelőzni a memóriaszivárgást az alkalmazásban.
 ### Hogyan tudhatok meg többet az Aspose.Slides for Java-ról és szolgáltatásairól?
 
  Az Aspose.Slides for Java dokumentációt a következő címen tekintheti meg[itt](https://docs.aspose.com/slides/java/) részletes információkért, oktatóanyagokért és példákért a könyvtár használatával kapcsolatban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

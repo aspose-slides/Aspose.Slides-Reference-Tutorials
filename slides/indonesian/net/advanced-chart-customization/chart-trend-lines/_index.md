@@ -3,10 +3,14 @@ title: Menjelajahi Garis Tren Bagan di Aspose.Slides untuk .NET
 linktitle: Garis Tren Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan berbagai garis tren ke bagan menggunakan Aspose.Slides untuk .NET dalam panduan langkah demi langkah ini. Tingkatkan keterampilan visualisasi data Anda dengan mudah!
-type: docs
 weight: 12
 url: /id/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Dalam dunia visualisasi dan presentasi data, menggabungkan bagan dapat menjadi cara ampuh untuk menyampaikan informasi secara efektif. Aspose.Slides for .NET menyediakan seperangkat alat yang kaya fitur untuk bekerja dengan grafik, termasuk kemampuan untuk menambahkan garis tren ke grafik Anda. Dalam tutorial ini, kita akan mempelajari proses menambahkan garis tren ke grafik secara langkah demi langkah menggunakan Aspose.Slides untuk .NET. 
 
@@ -145,3 +149,9 @@ Aspose.Slides for .NET adalah perpustakaan serbaguna yang memungkinkan Anda memb
 
 ### Apakah saya memerlukan lisensi sementara untuk Aspose.Slides untuk .NET?
  Anda dapat memperoleh lisensi sementara untuk Aspose.Slides untuk .NET dari[Link ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Conversie naar TIFF met notities in Java-dia's
 linktitle: Conversie naar TIFF met notities in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u Java-dia's naar TIFF-indeling met ingesloten notities converteert met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding en broncode inbegrepen.
-type: docs
 weight: 10
 url: /nl/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Inleiding tot conversie naar TIFF met notities in Java-dia's
 
@@ -88,3 +92,9 @@ Ja, Aspose.Slides voor Java vereist een geldige licentie voor commercieel gebrui
 ### Waar kan ik meer documentatie en voorbeelden vinden voor Aspose.Slides voor Java?
 
  U kunt uitgebreide documentatie en codevoorbeelden bekijken op de pagina Aspose.Slides for Java API References[hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

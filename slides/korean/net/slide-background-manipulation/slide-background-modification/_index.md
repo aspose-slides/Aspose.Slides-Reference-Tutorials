@@ -3,10 +3,14 @@ title: Aspose.Slides의 슬라이드 배경 수정
 linktitle: Aspose.Slides의 슬라이드 배경 수정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 슬라이드 배경을 사용자 정의하는 방법을 알아보세요. 시각적으로 매력적인 배경으로 프레젠테이션의 수준을 높여보세요. 오늘 시작해보세요!
-type: docs
 weight: 10
 url: /ko/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 시각적으로 매력적인 프레젠테이션을 만들려면 배경이 중요한 역할을 합니다. .NET용 Aspose.Slides를 사용하면 슬라이드 배경을 쉽게 사용자 정의할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드 배경을 수정하는 방법을 살펴보겠습니다. 
 
@@ -123,3 +127,10 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ### 5. 프레젠테이션의 여러 슬라이드에 대한 슬라이드 배경을 사용자 정의할 수 있습니까?
 
 예, Aspose.Slides for .NET을 사용하여 프레젠테이션의 모든 슬라이드에 대한 슬라이드 배경을 수정할 수 있습니다. 사용자 정의하려는 슬라이드를 대상으로 하고 이 튜토리얼에 설명된 동일한 단계를 따르기만 하면 됩니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

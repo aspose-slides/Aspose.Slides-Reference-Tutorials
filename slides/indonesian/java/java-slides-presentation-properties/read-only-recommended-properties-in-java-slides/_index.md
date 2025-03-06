@@ -3,10 +3,14 @@ title: Properti yang Direkomendasikan Hanya Baca di Slide Java
 linktitle: Properti yang Direkomendasikan Hanya Baca di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengaktifkan properti Baca-Saja yang Direkomendasikan dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode sumber untuk meningkatkan keamanan presentasi.
-type: docs
 weight: 17
 url: /id/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Pengantar Mengaktifkan Properti yang Direkomendasikan Hanya Baca di Slide Java
 
@@ -88,3 +92,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Ingatlah untuk mengganti`"YourPassword"` dengan kata sandi yang Anda inginkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

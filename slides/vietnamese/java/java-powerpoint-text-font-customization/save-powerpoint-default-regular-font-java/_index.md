@@ -3,10 +3,14 @@ title: Lưu PowerPoint với Phông chữ thông thường mặc định bằng 
 linktitle: Lưu PowerPoint với Phông chữ thông thường mặc định bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác các bản trình bày PowerPoint theo chương trình bằng Aspose.Slides cho Java. Nắm vững cách xử lý PowerPoint bằng Java với hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-text-font-customization/save-powerpoint-default-regular-font-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc tạo và thao tác các bản trình bày PowerPoint theo chương trình có thể nâng cao đáng kể năng suất và các tùy chọn tùy chỉnh. Aspose.Slides cho Java là một thư viện mạnh mẽ giúp trao quyền cho các nhà phát triển xử lý các tệp PowerPoint một cách hiệu quả, cung cấp một bộ tính năng toàn diện từ những sửa đổi đơn giản đến các bản trình bày phức tạp.
 ## Điều kiện tiên quyết
@@ -69,3 +73,9 @@ Aspose.Slides cho Java yêu cầu JDK 1.8 trở lên để tương thích.
  Có, bạn có thể nhận được sự hỗ trợ của cộng đồng[đây](https://forum.aspose.com/c/slides/11).
 ### Tôi có thể dùng thử Aspose.Slides cho Java miễn phí không?
  Có, tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

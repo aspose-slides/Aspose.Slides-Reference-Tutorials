@@ -3,10 +3,14 @@ title: 在 Java Slides 中设置自动饼图切片颜色
 linktitle: 在 Java Slides 中设置自动饼图切片颜色
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中创建具有自动切片颜色的动态饼图。带有源代码的分步指南。
-type: docs
 weight: 24
 url: /zh/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中自动饼图切片颜色设置简介
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 您可以根据需要调整字体大小、粗体和斜体样式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

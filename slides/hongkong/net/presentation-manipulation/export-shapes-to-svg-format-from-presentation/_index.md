@@ -3,10 +3,14 @@ title: 將簡報中的形狀匯出為 SVG 格式
 linktitle: 將簡報中的形狀匯出為 SVG 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將形狀從 PowerPoint 簡報匯出為 SVG 格式。包含原始碼的分步指南。有效提取各種應用的形狀。
-type: docs
 weight: 16
 url: /zh-hant/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在當今的數位世界中，簡報在有效傳達訊息方面發揮著至關重要的作用。然而，有時我們需要將簡報中的特定形狀匯出為不同的格式以用於各種目的。其中一種格式是 SVG（可擴展向量圖形），以其可擴展性和適應性而聞名。在本教程中，我們將指導您完成使用 Aspose.Slides for .NET 將簡報中的形狀匯出為 SVG 格式的過程。
 
@@ -83,3 +87,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 現在您已經了解如何將形狀匯出為 SVG 格式，您可以增強您的簡報並使其更適合不同用途。快樂編碼！
 
 如需更多詳細資訊和進階功能，請參閱[Aspose.Slides for .NET API 參考](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

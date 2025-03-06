@@ -3,10 +3,14 @@ title: Apri presentazione protetta da password in Presentazioni Java
 linktitle: Apri presentazione protetta da password in Presentazioni Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Sbloccare presentazioni protette da password in Java. Scopri come aprire e accedere alle diapositive di PowerPoint protette da password utilizzando Aspose.Slides per Java. Guida passo passo con codice.
-type: docs
 weight: 15
 url: /it/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduzione alla presentazione aperta protetta da password nelle diapositive Java
 
@@ -113,3 +117,9 @@ Aspose.Slides offre la possibilità di impostare e modificare la password per un
 ### Dove posso trovare altri esempi e documentazione per Aspose.Slides per Java?
 
  È possibile trovare una documentazione completa ed esempi aggiuntivi nel file[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/) e sul[Forum Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

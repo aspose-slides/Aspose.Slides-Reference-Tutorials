@@ -3,10 +3,14 @@ title: Crie uma forma de grupo no PowerPoint
 linktitle: Crie uma forma de grupo no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar formas de grupo em apresentações do PowerPoint usando Aspose.Slides para Java. Melhore a organização e o apelo visual sem esforço.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introdução
 Nas apresentações modernas, incorporar elementos visualmente atraentes e bem estruturados é crucial para transmitir informações de maneira eficaz. As formas de grupo no PowerPoint permitem organizar várias formas em uma única unidade, facilitando a manipulação e a formatação. Aspose.Slides for Java fornece funcionalidades poderosas para criar e manipular formas de grupo programaticamente, oferecendo flexibilidade e controle sobre o design de sua apresentação.
 ## Pré-requisitos
@@ -75,3 +79,9 @@ Com certeza, você pode adicionar imagens junto com outras formas para agrupar f
 Aspose.Slides for Java não impõe limitações estritas ao número de formas que podem ser adicionadas a uma forma de grupo.
 ### Posso aplicar animações a formas de grupo usando Aspose.Slides para Java?
 Sim, Aspose.Slides for Java fornece suporte abrangente para aplicação de animações a formas de grupo, permitindo apresentações dinâmicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

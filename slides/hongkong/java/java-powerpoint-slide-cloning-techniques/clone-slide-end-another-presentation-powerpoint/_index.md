@@ -3,10 +3,14 @@ title: 在另一個簡報結束時克隆幻燈片
 linktitle: 在另一個簡報結束時克隆幻燈片
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 在這個全面的逐步教學中，了解如何使用 Aspose.Slides for Java 在另一個簡報的結尾複製投影片。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 您是否曾經遇到過需要合併多個 PowerPoint 簡報中的投影片的情況？這可能會很麻煩，對吧？好吧，不再是了！ Aspose.Slides for Java 是一個功能強大的函式庫，讓操作 PowerPoint 簡報變得輕而易舉。在本教程中，我們將引導您完成使用 Aspose.Slides for Java 從一個簡報複製投影片並將其新增至另一個簡報結尾的過程。相信我，讀完本指南後，您將像專業人士一樣處理簡報！
 ## 先決條件
@@ -81,3 +85,9 @@ Aspose.Slides for Java 是一個商業產品，但您可以從以下位置下載
 不需要，一旦您下載了該庫，您就無需連接互聯網即可使用它。
 ### 如果遇到問題，我可以在哪裡獲得支援？
 您可以從 Aspose 社群論壇獲得支持[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

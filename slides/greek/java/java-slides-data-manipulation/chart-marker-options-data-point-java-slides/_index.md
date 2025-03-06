@@ -3,10 +3,14 @@ title: Επιλογές δείκτη γραφήματος στο σημείο δ
 linktitle: Επιλογές δείκτη γραφήματος στο σημείο δεδομένων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε τις διαφάνειες Java σας με τις προσαρμοσμένες επιλογές δείκτη γραφήματος. Μάθετε να βελτιώνετε οπτικά τα σημεία δεδομένων χρησιμοποιώντας το Aspose.Slides για Java. Εξερευνήστε βήμα προς βήμα οδηγίες και συχνές ερωτήσεις.
-type: docs
 weight: 14
 url: /el/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στις Επιλογές δείκτη γραφήματος στο σημείο δεδομένων σε διαφάνειες Java
 
@@ -154,3 +158,9 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να έχω πρόσβαση στην τεκμηρίωση και λήψεις Aspose.Slides για Java;
 
  Μπορείτε να βρείτε την τεκμηρίωση στο[εδώ](https://reference.aspose.com/slides/java/) και κατεβάστε τη βιβλιοθήκη στο[εδώ](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

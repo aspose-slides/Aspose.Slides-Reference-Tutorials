@@ -3,10 +3,14 @@ title: Java PowerPoint Text and Paragraph Management
 linktitle: Java PowerPoint Text and Paragraph Management
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master Java PowerPoint text and paragraph management with Aspose.Slides. Learn to import HTML text, manage line spacing, create bullets, and align paragraphs.
-type: docs
 weight: 26
 url: /java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 
 Creating well-structured and visually appealing PowerPoint presentations can significantly enhance your communication. With Aspose.Slides for Java, managing text and paragraphs becomes a straightforward task. Whether you need to import HTML text, manage line spacing, or create multilevel bullets, our detailed tutorials will guide you through the process. Let's explore how you can take your Java PowerPoint presentations to the next level.
@@ -55,3 +59,9 @@ Learn how to add paragraph bullets in PowerPoint slides using Aspose.Slides for 
 Learn how to set paragraph indents in PowerPoint slides programmatically using Aspose.Slides for Java. Enhance your presentation formatting effortlessly.
 ### [Align Paragraphs in PowerPoint using Java](./align-paragraphs-powerpoint-java/)
 Learn how to align paragraphs in PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide for precise formatting.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

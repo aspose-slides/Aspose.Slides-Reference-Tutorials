@@ -3,10 +3,14 @@ title: Create Dynamic Presentations with Aspose.Slides Zoom Frames
 linktitle: Creating Zoom Frame in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to create captivating presentations with zoom frames using Aspose.Slides for .NET. Follow our step-by-step guide for an engaging slide experience.
-type: docs
 weight: 17
 url: /net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In the realm of presentations, captivating slides are key to leaving a lasting impression. Aspose.Slides for .NET provides a powerful toolset, and in this guide, we'll walk you through the process of incorporating engaging zoom frames into your presentation slides.
 ## Prerequisites
@@ -89,3 +93,10 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for suppor
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I purchase the full version of Aspose.Slides for .NET?
 You can purchase the full version [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

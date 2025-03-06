@@ -3,10 +3,14 @@ title: Aspose.Slides kullanarak Sunum Slaytlarına Ses Çerçeveleri Ekleme
 linktitle: Aspose.Slides kullanarak Sunum Slaytlarına Ses Çerçeveleri Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile sunumlarınızı geliştirin! Sorunsuz bir şekilde ses çerçeveleri eklemeyi öğrenin ve hedef kitlenizin daha önce hiç olmadığı kadar ilgisini çekin.
-type: docs
 weight: 14
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Sunumların dinamik dünyasında, ses öğelerinin dahil edilmesi, izleyicilerinizin genel deneyimini önemli ölçüde geliştirebilir. Aspose.Slides for .NET, geliştiricilere ses çerçevelerini sunum slaytlarına sorunsuz bir şekilde entegre etme gücü vererek yeni bir etkileşim ve etkileşim katmanı ekler. Bu adım adım kılavuz, Aspose.Slides for .NET kullanarak sunum slaytlarına ses çerçeveleri ekleme sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -63,3 +67,9 @@ Evet, Aspose.Slides ses seviyesi, oynatma modu ve daha fazlası gibi oynatma aya
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım istemek ve toplulukla etkileşime geçmek.
 ### Aspose.Slides for .NET'i nasıl satın alabilirim?
  Kütüphaneyi adresinden satın alabilirsiniz.[Aspose mağaza](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

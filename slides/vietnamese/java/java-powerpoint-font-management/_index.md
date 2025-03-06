@@ -3,10 +3,14 @@ title: Quản lý phông chữ Java PowerPoint
 linktitle: Quản lý phông chữ Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá hướng dẫn quản lý phông chữ Java PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu các kỹ thuật nhúng, nén và tùy chỉnh để cải thiện bản trình bày.
-type: docs
 weight: 21
 url: /vi/java/java-powerpoint-font-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 
 Khai phá tiềm năng của bản trình bày PowerPoint của bạn với Hướng dẫn quản lý phông chữ PowerPoint Java của chúng tôi bằng cách sử dụng Aspose.Slides cho Java. Hướng dẫn toàn diện của chúng tôi sẽ giúp bạn thành thạo việc tùy chỉnh phông chữ và đảm bảo bản trình bày của bạn nổi bật.
@@ -72,3 +76,9 @@ Tìm hiểu cách thực hiện thay thế phông chữ trong bản trình bày 
 Tìm hiểu cách định dạng khung văn bản trong bản trình bày Java PowerPoint với Aspose.Slides cho Java. Dễ dàng nâng cao sức hấp dẫn trực quan của trang trình bày của bạn.
 ### [Dữ liệu kiểu văn bản hiệu quả trong Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Nắm vững thao tác kiểu văn bản trong bản trình bày Java PowerPoint với Aspose.Slides cho Java. Tùy chỉnh định dạng động để tạo nội dung có tác động.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

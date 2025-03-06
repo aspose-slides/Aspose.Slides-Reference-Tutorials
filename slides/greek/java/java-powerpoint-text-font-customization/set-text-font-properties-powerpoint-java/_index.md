@@ -3,10 +3,14 @@ title: Ορισμός ιδιοτήτων γραμματοσειράς κειμέ
 linktitle: Ορισμός ιδιοτήτων γραμματοσειράς κειμένου στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε ιδιότητες γραμματοσειράς κειμένου στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Εύκολος, βήμα προς βήμα οδηγός για προγραμματιστές Java.#Μάθετε πώς να χειρίζεστε τις ιδιότητες γραμματοσειράς κειμένου του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτό το βήμα προς βήμα σεμινάριο για προγραμματιστές Java.
-type: docs
 weight: 18
 url: /el/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χρησιμοποιείτε το Aspose.Slides για Java για να ορίσετε διάφορες ιδιότητες γραμματοσειράς κειμένου σε μια παρουσίαση του PowerPoint μέσω προγραμματισμού. Θα καλύψουμε τη ρύθμιση τύπου γραμματοσειράς, στυλ (έντονη, πλάγια γραφή), υπογράμμιση, μέγεθος και χρώμα για κείμενο σε διαφάνειες.
 ## Προαπαιτούμενα
@@ -85,3 +89,9 @@ if (presentation != null) {
 Ναι, το Aspose.Slides επιτρέπει την εξαγωγή παρουσιάσεων σε διάφορες μορφές, συμπεριλαμβανομένου του PDF.
 ### Πού μπορώ να βρω περισσότερη βοήθεια και υποστήριξη για το Aspose.Slides;
  Επίσκεψη[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και καθοδήγηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

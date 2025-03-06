@@ -3,10 +3,14 @@ title: Animacje kształtów są łatwe dzięki Aspose.Slides
 linktitle: Stosowanie animacji do kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Twórz wspaniałe prezentacje za pomocą Aspose.Slides dla .NET. Z tego przewodnika krok po kroku dowiesz się, jak stosować animacje do kształtów. Podnieś poziom swoich slajdów już teraz!
-type: docs
 weight: 21
 url: /pl/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 świecie dynamicznych prezentacji dodanie animacji do kształtów może znacznie poprawić atrakcyjność wizualną i zaangażowanie slajdów. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi umożliwiający bezproblemowe osiągnięcie tego celu. W tym samouczku przeprowadzimy Cię przez proces stosowania animacji do kształtów za pomocą Aspose.Slides, co pozwoli Ci tworzyć urzekające prezentacje, które pozostawiają niezatarte wrażenie.
 ## Warunki wstępne
@@ -81,3 +85,9 @@ Aspose.Slides zapewnia kompatybilność z różnymi wersjami programu PowerPoint
  Tak, możesz nabyć licencję[Tutaj](https://purchase.aspose.com/buy) aby odblokować pełny potencjał Aspose.Slides.
 ### Czy mogę wypróbować Aspose.Slides przed zakupem?
  Z pewnością! Skorzystaj z[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać możliwości Aspose.Slides przed podjęciem zobowiązania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

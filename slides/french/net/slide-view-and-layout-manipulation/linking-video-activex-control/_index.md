@@ -3,10 +3,14 @@ title: Lier une vidéo via le contrôle ActiveX dans PowerPoint
 linktitle: Lier la vidéo via le contrôle ActiveX
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment lier des vidéos à des diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape comprend le code source et des conseils pour créer des présentations interactives et attrayantes avec des vidéos liées.
-type: docs
 weight: 12
 url: /fr/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Lier une vidéo via un contrôle ActiveX dans une présentation à l'aide d'Aspose.Slides pour .NET
 
 Dans Aspose.Slides pour .NET, vous pouvez lier par programme une vidéo à une diapositive de présentation à l'aide du contrôle ActiveX. Cela vous permet de créer des présentations interactives où le contenu vidéo peut être lu directement dans la diapositive. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de liaison d'une vidéo à une diapositive de présentation à l'aide d'Aspose.Slides pour .NET.
@@ -80,3 +84,9 @@ La taille de la vidéo liée peut affecter la taille globale et les performances
 En suivant les étapes décrites dans ce guide, vous pouvez facilement lier une vidéo via un contrôle ActiveX dans une présentation à l'aide d'Aspose.Slides pour .NET. Cette fonctionnalité vous permet de créer des présentations attrayantes et interactives qui intègrent du contenu multimédia de manière transparente.
 
  Pour plus de détails et d'options avancées, vous pouvez vous référer au[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: تحديث الجدول الموجود في PowerPoint باستخدام J
 linktitle: تحديث الجدول الموجود في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديث الجداول الموجودة في PowerPoint باستخدام Java باستخدام Aspose.Slides. تم تضمين دليل خطوة بخطوة وتعليمات مفصلة والأسئلة الشائعة.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 قد يبدو تحديث جدول موجود في عرض تقديمي لـ PowerPoint باستخدام Java بمثابة مهمة شاقة، ولكن مع Aspose.Slides for Java، يصبح الأمر بمثابة نزهة في الحديقة. سيرشدك هذا الدليل خطوة بخطوة خلال العملية بأكملها، مما يضمن فهم كل جزء بدقة.
 ## المتطلبات الأساسية
@@ -92,3 +96,9 @@ if (pres != null) pres.dispose();
 نعم، يدعم Aspose.Slides العديد من لغات البرمجة، بما في ذلك .NET وPython وC++.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  يمكنك الحصول على ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

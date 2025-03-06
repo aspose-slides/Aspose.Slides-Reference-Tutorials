@@ -3,10 +3,14 @@ title: Дополнительные возможности диаграммы
 linktitle: Дополнительные возможности диаграммы
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Изучите расширенные функции диаграмм в Aspose.Slides для .NET! Научитесь создавать динамические интерактивные диаграммы с настраиваемыми стилями, линиями тренда и многим другим. Улучшите свои презентации с помощью мощной визуализации данных.
-type: docs
 weight: 24
 url: /ru/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение
 
@@ -32,3 +36,9 @@ Aspose.Slides для .NET предлагает множество дополни
 Узнайте, как восстановить книгу из диаграммы с помощью Aspose.Slides для .NET. Извлекайте данные диаграммы и программно создавайте книги Excel.
 ### [Очистка точек данных конкретной серии диаграмм](./clear-specific-chart-series-data-points-data/)
 Узнайте, как очистить определенные точки данных диаграммы в Aspose.Slides для .NET. Пошаговое руководство с исходным кодом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

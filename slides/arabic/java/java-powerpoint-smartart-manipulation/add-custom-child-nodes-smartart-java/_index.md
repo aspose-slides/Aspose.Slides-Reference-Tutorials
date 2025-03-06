@@ -3,10 +3,14 @@ title: أضف العقد التابعة المخصصة في SmartArt باستخ�
 linktitle: أضف العقد التابعة المخصصة في SmartArt باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة عقد فرعية مخصصة إلى SmartArt في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. قم بتحسين الشرائح الخاصة بك باستخدام الرسومات الاحترافية دون عناء.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 SmartArt هي ميزة قوية في PowerPoint تتيح للمستخدمين إنشاء رسومات ذات مظهر احترافي بسرعة وسهولة. في هذا البرنامج التعليمي، سوف نتعلم كيفية إضافة العقد الفرعية المخصصة إلى SmartArt باستخدام Java مع Aspose.Slides.
 ## المتطلبات الأساسية
@@ -79,3 +83,9 @@ pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 نعم، يمكنك العثور على وثائق شاملة والوصول إلى منتديات دعم المجتمع على موقع Aspose.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides for Java من موقع الويب لاستكشاف ميزاته وإمكانياته قبل إجراء عملية الشراء[هنا](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

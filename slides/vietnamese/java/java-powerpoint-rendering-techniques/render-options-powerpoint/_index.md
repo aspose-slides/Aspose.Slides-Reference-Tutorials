@@ -3,10 +3,14 @@ title: Tùy chọn kết xuất trong PowerPoint
 linktitle: Tùy chọn kết xuất trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác các tùy chọn hiển thị trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tùy chỉnh các slide của bạn để có tác động trực quan tối ưu.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.Slides cho Java để thao tác các tùy chọn hiển thị trong bản trình bày PowerPoint. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình từng bước.
 ## Điều kiện tiên quyết
@@ -75,3 +79,9 @@ Có, bạn có thể kiểm soát cách xử lý hoạt ảnh trong quá trình 
 Chắc chắn! Aspose.Slides cho phép bạn đặt nền tùy chỉnh cho các slide trước khi hiển thị chúng.
 ### Có cách nào để hiển thị slide trực tiếp thành tài liệu PDF không?
 Có, Aspose.Slides cung cấp chức năng chuyển đổi trực tiếp bản trình bày PowerPoint sang tệp PDF với độ trung thực cao.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

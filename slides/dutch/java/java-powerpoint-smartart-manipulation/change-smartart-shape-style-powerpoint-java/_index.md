@@ -3,10 +3,14 @@ title: Wijzig de SmartArt-vormstijl in PowerPoint met Java
 linktitle: Wijzig de SmartArt-vormstijl in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u SmartArt-stijlen in PowerPoint-presentaties kunt wijzigen met behulp van Java met Aspose.Slides voor Java. Geef uw presentaties een boost.
-type: docs
 weight: 23
 url: /nl/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 In de wereld van Java-ontwikkeling is het maken van krachtige presentaties vaak een vereiste. Of het nu gaat om zakelijke pitches, educatieve doeleinden of gewoon om informatie te delen, PowerPoint-presentaties zijn een veelgebruikt medium. Soms voldoen de standaardstijlen en -formaten van PowerPoint echter niet volledig aan onze behoeften. Dit is waar Aspose.Slides voor Java in het spel komt.
 Aspose.Slides voor Java is een robuuste bibliotheek waarmee Java-ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. Het biedt een breed scala aan functies, waaronder de mogelijkheid om vormen, stijlen, animaties en nog veel meer te manipuleren. In deze tutorial zullen we ons concentreren op één specifieke taak: het wijzigen van de SmartArt-vormstijl in PowerPoint-presentaties met behulp van Java.
@@ -69,3 +73,9 @@ Ja, Aspose.Slides voor Java kan naadloos worden geïntegreerd met andere Java-bi
  Ja, u kunt een tijdelijke licentie voor Aspose.Slides voor Java aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik gedetailleerde documentatie vinden voor Aspose.Slides voor Java?
  U kunt gedetailleerde documentatie vinden voor Aspose.Slides voor Java[hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

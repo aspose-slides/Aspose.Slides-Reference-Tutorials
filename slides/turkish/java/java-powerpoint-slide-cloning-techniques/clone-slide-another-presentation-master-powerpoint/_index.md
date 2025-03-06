@@ -3,10 +3,14 @@ title: Master ile Slaydı Başka Bir Sunuma Klonlayın
 linktitle: Master ile Slaydı Başka Bir Sunuma Klonlayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java'da sunumlar arasında slaytları nasıl kopyalayacağınızı öğrenin. Ana slaytların bakımıyla ilgili adım adım eğitim.
-type: docs
 weight: 14
 url: /tr/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## giriiş
 Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve işlemesine olanak tanıyan güçlü bir kitaplıktır. Bu makale, Aspose.Slides for Java kullanarak bir slaydın ana slaydını koruyarak bir sunumdan diğerine nasıl kopyalanacağı konusunda kapsamlı, adım adım bir eğitim sağlar.
 ## Önkoşullar
@@ -83,3 +87,9 @@ Aspose.Slides for Java ücretsiz deneme sürümü sunuyor. Tam işlevsellik içi
  Geçici lisansı adresinden alabilirsiniz.[Satın alma sayfasını atayın](https://purchase.aspose.com/temporary-license/).
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?  
  Ziyaret edin[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) Daha fazla örnek ve detaylı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

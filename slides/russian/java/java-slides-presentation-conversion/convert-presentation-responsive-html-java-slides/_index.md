@@ -3,10 +3,14 @@ title: Преобразование презентации в адаптивны
 linktitle: Преобразование презентации в адаптивный HTML в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как легко конвертировать презентации в адаптивный HTML в Java Slides с помощью Aspose.Slides. Сделайте свой контент доступным на любом устройстве.
-type: docs
 weight: 18
 url: /ru/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в преобразование презентации в адаптивный HTML в слайдах Java
 
@@ -108,3 +112,9 @@ finally
 ### Могу ли я конвертировать презентации в другие форматы?
 
 Да, Aspose.Slides поддерживает широкий спектр выходных форматов, включая PDF, изображения и многое другое. Вы можете изучить документацию, чтобы узнать о дополнительных параметрах преобразования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

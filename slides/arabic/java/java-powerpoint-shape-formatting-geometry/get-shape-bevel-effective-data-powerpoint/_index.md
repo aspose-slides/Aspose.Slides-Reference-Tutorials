@@ -3,10 +3,14 @@ title: احصل على بيانات فعالة لشطبة الشكل في برن
 linktitle: احصل على بيانات فعالة لشطبة الشكل في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد البيانات الفعالة لشطبة الشكل في PowerPoint باستخدام Aspose.Slides لـ Java. عزز عروضك التقديمية بمؤثرات بصرية مذهلة.
-type: docs
 weight: 26
 url: /ar/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في العروض التقديمية للأعمال الحديثة، يلعب الجاذبية المرئية دورًا حاسمًا في نقل المعلومات بشكل فعال. أحد العناصر التي يمكن أن تعزز التأثير المرئي للأشكال في عروض PowerPoint التقديمية هو التأثير المائل. يوفر Aspose.Slides for Java أدوات قوية للوصول إلى خصائص الأشكال المختلفة ومعالجتها، بما في ذلك تأثيراتها المائلة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استرداد البيانات الفعالة لشطبة الشكل باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -58,3 +62,9 @@ System.out.println("Height: " + threeDEffectiveData.getBevelTop().getHeight());
 بالتأكيد، لديك سيطرة كاملة على خصائص التأثير المائل ويمكنك تخصيصها وفقًا لمتطلباتك.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لأية أسئلة أو دعم أو موارد إضافية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Carica carattere esterno in PowerPoint con Java
 linktitle: Carica carattere esterno in PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come caricare caratteri personalizzati nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue diapositive con una tipografia unica.
-type: docs
 weight: 10
 url: /it/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 In questo tutorial, ti guideremo attraverso il processo di caricamento di un carattere esterno nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. I caratteri personalizzati possono aggiungere un tocco unico alle tue presentazioni, garantendo branding o preferenze stilistiche coerenti su varie piattaforme.
 ## Prerequisiti
@@ -63,3 +67,9 @@ Sì, puoi caricare più font esterni ripetendo la procedura per ciascun file di 
 Finché il file del carattere è in formato TrueType (.ttf) ed entro limiti di dimensioni ragionevoli, dovresti essere in grado di caricarlo correttamente.
 ### Il caricamento di caratteri esterni influisce sulla compatibilità della presentazione con diverse versioni di PowerPoint?
 No, la presentazione rimane compatibile tra le diverse versioni di PowerPoint purché i caratteri siano incorporati o caricati esternamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

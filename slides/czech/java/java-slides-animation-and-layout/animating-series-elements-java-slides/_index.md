@@ -3,10 +3,14 @@ title: Animace prvků série v Java Slides
 linktitle: Animace prvků série v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se animovat prvky série ve snímcích PowerPoint pomocí Aspose.Slides pro Java. Postupujte podle tohoto obsáhlého podrobného průvodce se zdrojovým kódem pro vylepšení vašich prezentací.
-type: docs
 weight: 12
 url: /cs/java/animation-and-layout/animating-series-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Úvod do animace prvků série v Java Slides
 
@@ -126,3 +130,9 @@ Ano, po uložení prezentace ji můžete otevřít v aplikaci PowerPoint a zobra
 ### Jsou v Aspose.Slides pro Java k dispozici pokročilejší možnosti animace?
 
 Ano, Aspose.Slides for Java nabízí širokou škálu pokročilých možností animace, včetně cest pohybu, časování a interaktivních animací. Můžete prozkoumat dokumentaci a příklady poskytované Aspose.Slides a implementovat pokročilé animace do vašich prezentací.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

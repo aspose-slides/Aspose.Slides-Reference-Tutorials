@@ -3,10 +3,14 @@ title: Kształtuj geometrię i pozycjonowanie na slajdach za pomocą Aspose.Slid
 linktitle: Geometria kształtu i pozycjonowanie na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Popraw swoje umiejętności manipulowania slajdami dzięki samouczkom Aspose.Slides na temat geometrii kształtów i pozycjonowania na slajdach. Naucz się programowo kontrolować kształty, ich wymiary i wyrównanie.
-type: docs
 weight: 13
 url: /pl/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp
 
@@ -51,3 +55,9 @@ Dowiedz się, jak skutecznie integrować dane z zestawu świetlnego ze slajdami 
 Dowiedz się, jak ulepszyć slajdy prezentacji za pomocą efektywnych danych skosu za pomocą Aspose.Slides. Obszerny przewodnik z instrukcjami krok po kroku i przykładowym kodem.
 ### [Ukrywanie kształtów na slajdach prezentacji za pomocą Aspose.Slides](./hiding-shapes/)
 Dowiedz się, jak ukryć kształty na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym, często zadawanymi pytaniami i najlepszymi praktykami dotyczącymi prezentacji dynamicznych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

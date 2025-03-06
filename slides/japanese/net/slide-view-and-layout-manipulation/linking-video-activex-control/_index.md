@@ -3,10 +3,14 @@ title: PowerPoint の ActiveX コントロール経由でビデオをリンク�
 linktitle: ActiveX コントロール経由でビデオをリンクする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してビデオを PowerPoint スライドにリンクする方法を学びます。このステップ バイ ステップ ガイドには、リンクされたビデオを使用してインタラクティブで魅力的なプレゼンテーションを作成するためのソース コードとヒントが含まれています。
-type: docs
 weight: 12
 url: /ja/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 Aspose.Slides for .NET を使用してプレゼンテーションで ActiveX コントロール経由でビデオをリンクする
 
 Aspose.Slides for .NET では、ActiveX コントロールを使用して、プログラムによってビデオをプレゼンテーション スライドにリンクできます。これにより、ビデオ コンテンツをスライド内で直接再生できるインタラクティブなプレゼンテーションを作成できます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してビデオをプレゼンテーション スライドにリンクするプロセスについて説明します。
@@ -80,3 +84,9 @@ ActiveXコントロールフレームの寸法と位置は、`AddOleObjectFrame`
 このガイドで説明されている手順に従うと、Aspose.Slides for .NET を使用して、プレゼンテーションで ActiveX コントロールを介してビデオを簡単にリンクできます。この機能を使用すると、マルチメディア コンテンツをシームレスに組み込んだ魅力的でインタラクティブなプレゼンテーションを作成できます。
 
 詳細と高度なオプションについては、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Sunumu Varsayılan Boyutla TIFF'e Dönüştür
 linktitle: Sunumu Varsayılan Boyutla TIFF'e Dönüştür
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumları varsayılan boyutlarıyla TIFF görüntülerine zahmetsizce nasıl dönüştürebileceğinizi öğrenin.
-type: docs
 weight: 27
 url: /tr/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## giriiş
 
@@ -86,3 +90,9 @@ Kesinlikle! Aspose.Slides for .NET, TIFF dönüştürme sürecini özelleştirme
 ### Aspose.Slides for .NET hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Kapsamlı belgeler ve örnekler için şu adresi ziyaret edin:[Aspose.Slides for .NET belgeleri](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

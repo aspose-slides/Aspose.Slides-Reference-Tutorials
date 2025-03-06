@@ -3,10 +3,14 @@ title: 使用 Aspose.Slides for Java 在 HTML 中嵌入字體
 linktitle: 使用 Aspose.Slides for Java 在 HTML 中嵌入字體
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 HTML 中嵌入字體，以確保不同平台和裝置上的排版一致。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介紹
 Aspose.Slides for Java 是一個功能強大的工具，適用於尋求以程式設計方式操作 PowerPoint 簡報的 Java 開發人員。在本教程中，我們將深入研究使用 Aspose.Slides for Java 在 HTML 中嵌入字體的過程。透過嵌入字體，您可以確保簡報在不同平台和裝置上保持其預期外觀，即使本地未安裝所需的字體也是如此。
 ## 先決條件
@@ -58,3 +62,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求社區支持或聯繫 Aspose 支援以獲得專業協助。
 ### 我可以購買 Aspose.Slides for Java 的臨時授權嗎？
 是的，您可以從以下機構獲得臨時許可證[購買頁面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

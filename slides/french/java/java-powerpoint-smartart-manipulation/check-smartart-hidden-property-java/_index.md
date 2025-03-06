@@ -3,10 +3,14 @@ title: Vérifier la propriété cachée SmartArt à l'aide de Java
 linktitle: Vérifier la propriété cachée SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment vérifier la propriété cachée SmartArt dans PowerPoint à l'aide d'Aspose.Slides pour Java, améliorant ainsi la manipulation des présentations.
-type: docs
 weight: 24
 url: /fr/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 Dans le monde dynamique de la programmation Java, la manipulation de présentations PowerPoint par programmation est une compétence précieuse. Aspose.Slides pour Java est une bibliothèque robuste qui permet aux développeurs de créer, modifier et manipuler des présentations PowerPoint de manière transparente. L'une des tâches essentielles de la manipulation de présentation consiste à vérifier la propriété cachée des objets SmartArt. Ce didacticiel vous guidera tout au long du processus de vérification de la propriété cachée de SmartArt à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -76,3 +80,9 @@ Absolument! Aspose.Slides pour Java offre des fonctionnalités étendues pour mo
 Oui, Aspose.Slides pour Java prend en charge un large éventail de formats de fichiers PowerPoint, notamment PPT, PPTX, POT, POTX, PPS, etc.
 ### Existe-t-il une communauté ou un forum où je peux obtenir de l'aide avec Aspose.Slides pour Java ?
 Oui, vous pouvez visiter le forum Aspose.Slides (https://forum.aspose.com/c/slides/11) pour poser des questions, partager des idées et obtenir le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

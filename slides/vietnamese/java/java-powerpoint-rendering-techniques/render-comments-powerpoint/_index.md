@@ -3,10 +3,14 @@ title: Hiển thị nhận xét trong PowerPoint
 linktitle: Hiển thị nhận xét trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách hiển thị nhận xét trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tùy chỉnh giao diện và tạo bản xem trước hình ảnh một cách hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình hiển thị nhận xét trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Việc hiển thị nhận xét có thể hữu ích cho nhiều mục đích khác nhau, chẳng hạn như tạo bản xem trước hình ảnh của bản trình bày có kèm theo nhận xét.
 ## Điều kiện tiên quyết
@@ -72,3 +76,9 @@ Có, ngoài PNG, bạn có thể hiển thị nhận xét ở các định dạn
 Có, bằng cách sử dụng Aspose.Slides, bạn có thể hiển thị nhận xét cho hình ảnh mà không cần mở ứng dụng PowerPoint.
 ### Có cách nào để hiển thị nhận xét trực tiếp vào tài liệu PDF không?
 Có, Aspose.Slides cung cấp chức năng hiển thị nhận xét trực tiếp vào tài liệu PDF, cho phép tích hợp liền mạch vào quy trình làm việc tài liệu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

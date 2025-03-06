@@ -3,10 +3,14 @@ title: 使用 Java 在 PowerPoint 中设置本地字体高度值
 linktitle: 使用 Java 在 PowerPoint 中设置本地字体高度值
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 调整 PowerPoint 演示文稿中的字体高度。轻松增强幻灯片中的文本格式。
-type: docs
 weight: 17
 url: /zh/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中以不同级别控制字体高度。控制字体大小对于创建具有视觉吸引力和结构化的演示文稿至关重要。我们将逐步介绍示例，说明如何为不同的文本元素设置字体高度。
 ## 先决条件
@@ -65,3 +69,9 @@ Aspose.Slides for Java 是一个功能强大的 API，用于以编程方式操�
 如需支持，请访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
 ### 我可以在哪里购买 Aspose.Slides for Java 的许可证？
 您可以购买许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

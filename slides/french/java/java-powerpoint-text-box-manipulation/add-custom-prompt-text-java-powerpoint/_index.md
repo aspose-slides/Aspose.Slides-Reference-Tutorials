@@ -3,10 +3,14 @@ title: Ajouter un texte d'invite personnalisé dans Java PowerPoint
 linktitle: Ajouter un texte d'invite personnalisé dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter un texte d'invite personnalisé dans Java PowerPoint à l'aide d'Aspose.Slides. Améliorez l'interaction des utilisateurs sans effort avec ce didacticiel.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 À l'ère numérique d'aujourd'hui, la création de présentations dynamiques et attrayantes est cruciale pour une communication efficace. Aspose.Slides pour Java permet aux développeurs de manipuler des présentations PowerPoint par programme, offrant des fonctionnalités étendues pour personnaliser les diapositives, les formes, le texte et bien plus encore. Ce didacticiel vous guidera tout au long du processus d'ajout d'un texte d'invite personnalisé aux espaces réservés dans les présentations Java PowerPoint à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -71,3 +75,9 @@ Aspose.Slides prend en charge une large gamme de versions de PowerPoint, garanti
  Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluer toutes les fonctionnalités d'Aspose.Slides.
 ### Aspose.Slides pour Java prend-il en charge l’ajout d’animations personnalisées aux diapositives ?
 Oui, Aspose.Slides fournit des API pour gérer les animations de diapositives par programme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

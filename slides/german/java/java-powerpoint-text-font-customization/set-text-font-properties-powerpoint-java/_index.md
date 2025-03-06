@@ -3,10 +3,14 @@ title: Festlegen der Textschriftarteigenschaften in PowerPoint mit Java
 linktitle: Festlegen der Textschriftarteigenschaften in PowerPoint mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Textschrifteigenschaften in PowerPoint festlegen. Einfache Schritt-für-Schritt-Anleitung für Java-Entwickler.#Erfahren Sie in diesem Schritt-für-Schritt-Tutorial für Java-Entwickler, wie Sie mit Aspose.Slides für Java Textschrifteigenschaften in PowerPoint bearbeiten.
-type: docs
 weight: 18
 url: /de/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java verschiedene Textschrifteigenschaften in einer PowerPoint-Präsentation programmgesteuert festlegen. Wir behandeln das Festlegen von Schriftart, Stil (fett, kursiv), Unterstreichung, Größe und Farbe für Text in Folien.
 ## Voraussetzungen
@@ -85,3 +89,9 @@ Ja, Sie können Aspose.Slides verwenden, um mit PowerPoint-Vorlagen zu arbeiten.
 Ja, Aspose.Slides ermöglicht den Export von Präsentationen in verschiedene Formate, einschließlich PDF.
 ### Wo finde ich weitere Hilfe und Unterstützung für Aspose.Slides?
  Besuchen[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) für die Unterstützung und Anleitung der Community.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

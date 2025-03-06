@@ -3,10 +3,14 @@ title: Powiększenie sekcji Aspose.Slides — podnieś poziom swoich prezentacji
 linktitle: Tworzenie powiększenia sekcji w slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć atrakcyjne slajdy prezentacji z powiększaniem sekcji przy użyciu Aspose.Slides dla .NET. Ulepsz swoje prezentacje dzięki interaktywnym funkcjom.
-type: docs
 weight: 13
 url: /pl/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Ulepszanie slajdów prezentacji za pomocą funkcji interaktywnych ma kluczowe znaczenie dla utrzymania zaangażowania odbiorców. Jednym ze skutecznych sposobów osiągnięcia tego celu jest włączenie powiększeń sekcji, umożliwiających płynne poruszanie się między różnymi sekcjami prezentacji. W tym samouczku omówimy, jak tworzyć powiększenia sekcji na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -70,3 +74,9 @@ Absolutnie! Masz pełną kontrolę nad wymiarami, położeniem i stylem ramki po
  Tak, możesz poznać funkcje Aspose.Slides za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Slides?
  Aby uzyskać pomoc lub zadać pytania, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

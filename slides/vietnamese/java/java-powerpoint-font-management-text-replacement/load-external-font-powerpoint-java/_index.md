@@ -3,10 +3,14 @@ title: Tải phông chữ bên ngoài trong PowerPoint bằng Java
 linktitle: Tải phông chữ bên ngoài trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tải phông chữ tùy chỉnh trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Cải thiện các slide của bạn với kiểu chữ độc đáo.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải phông chữ bên ngoài vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Phông chữ tùy chỉnh có thể tạo thêm điểm nhấn độc đáo cho bản trình bày của bạn, đảm bảo các tùy chọn về thương hiệu hoặc phong cách nhất quán trên nhiều nền tảng khác nhau.
 ## Điều kiện tiên quyết
@@ -63,3 +67,9 @@ Có, bạn có thể tải nhiều phông chữ bên ngoài bằng cách lặp l
 Miễn là tệp phông chữ ở định dạng TrueType (.ttf) và trong giới hạn kích thước hợp lý, bạn sẽ có thể tải tệp thành công.
 ### Việc tải phông chữ bên ngoài có ảnh hưởng đến khả năng tương thích của bản trình bày với các phiên bản PowerPoint khác nhau không?
 Không, bản trình bày vẫn tương thích trên các phiên bản PowerPoint khác nhau miễn là phông chữ được nhúng hoặc tải bên ngoài.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

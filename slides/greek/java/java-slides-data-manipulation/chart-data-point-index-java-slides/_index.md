@@ -3,10 +3,14 @@ title: Ευρετήριο σημείων δεδομένων γραφήματος
 linktitle: Ευρετήριο σημείων δεδομένων γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να χειρίζεστε ευρετήρια σημείων δεδομένων γραφήματος σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Εξαγωγή και εργασία με δεδομένα από γραφήματα PowerPoint χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στο δείκτη σημείων δεδομένων γραφήματος σε διαφάνειες Java
 
@@ -98,3 +102,9 @@ try {
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε ολοκληρωμένα παραδείγματα και τεκμηρίωση για το Aspose.Slides για Java στον ιστότοπο τεκμηρίωσης Aspose[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

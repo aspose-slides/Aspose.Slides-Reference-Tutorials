@@ -3,10 +3,14 @@ title: Java 幻灯片中的饼图
 linktitle: Java 幻灯片中的饼图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建令人惊叹的饼图。为 Java 开发人员提供带有源代码的分步指南。
-type: docs
 weight: 23
 url: /zh/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中创建饼图的简介
 
@@ -283,3 +287,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### 如何找到有关使用 Aspose.Slides for Java 的更多信息和示例？
 
 如需更多信息、详细文档和其他示例，您可以访问[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)提供全面的资源帮助您有效利用图书馆。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java PowerPoint-Speichervorgänge
 linktitle: Java PowerPoint-Speichervorgänge
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java speichern. Tutorials zum Speichern als Datei, zum Streamen und zum Hinzufügen eines Kennwortschutzes.
-type: docs
 weight: 20
 url: /de/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung
 
@@ -32,3 +36,9 @@ Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java pro
 Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in einem Stream speichern. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
 ### [PowerPoint mit Passwort speichern](./save-powerpoint-with-password/)
 Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java mit einem Kennwortschutz versehen. Sichern Sie Ihre Folien ganz einfach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Java를 사용하여 PowerPoint에서 표 행 내부의 텍스트 서식 
 linktitle: Java를 사용하여 PowerPoint에서 표 행 내부의 텍스트 서식 지정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint의 표 행 내부에 텍스트 서식을 지정하는 방법을 알아보세요. 단계별 가이드를 통해 프레젠테이션을 향상해 보세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 프레젠테이션 작업을 할 때 시각적으로 매력적인 슬라이드를 만드는 것은 청중의 참여를 유지하는 데 필수적입니다. 표 행 안의 텍스트 서식을 지정하면 슬라이드의 가독성과 미적 측면을 크게 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 테이블 행 내부에 텍스트 서식을 지정하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -85,3 +89,9 @@ Aspose.Slides는 .NET 및 C를 포함한 여러 플랫폼에서 사용할 수 �
  예, 다음에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java는 어떤 파일 형식을 지원합니까?
 Aspose.Slides for Java는 PPT, PPTX, ODP 등을 포함한 다양한 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

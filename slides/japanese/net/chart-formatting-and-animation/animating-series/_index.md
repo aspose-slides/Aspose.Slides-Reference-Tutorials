@@ -3,10 +3,14 @@ title: Aspose.Slides for .NET でチャート シリーズをアニメーショ�
 linktitle: チャート内のシリーズをアニメーション化する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してチャート シリーズをアニメーション化する方法を学びます。ダイナミックなプレゼンテーションで視聴者を魅了します。今すぐ始めましょう。
-type: docs
 weight: 12
 url: /ja/net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 アニメーション チャートを使用してプレゼンテーションに華やかさを加えたいとお考えですか? Aspose.Slides for .NET を使用すると、チャートに活気を与えることができます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してチャート内のシリーズをアニメーション化する方法を説明します。ただし、操作に入る前に、前提条件を確認しましょう。
 
@@ -109,3 +113,9 @@ Aspose.Slides for .NET は、PowerPoint 2007 以降を含むさまざまな Powe
 
 ### Aspose.Slides for .NET のライセンスはどこで購入できますか?
  Aspose.Slides for .NETのライセンスは購入ページから取得できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

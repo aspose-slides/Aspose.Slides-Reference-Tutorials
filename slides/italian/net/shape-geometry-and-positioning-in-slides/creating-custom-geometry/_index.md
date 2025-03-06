@@ -3,10 +3,14 @@ title: Creazione di geometria personalizzata in C# con Aspose.Slides per .NET
 linktitle: Creazione di geometria personalizzata in forma geometrica utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Impara a creare geometrie personalizzate in Aspose.Slides per .NET. Migliora le tue presentazioni con forme uniche. Guida dettagliata per gli sviluppatori C#.
-type: docs
 weight: 15
 url: /it/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 Nel dinamico mondo delle presentazioni, l'aggiunta di forme e geometrie uniche può elevare i tuoi contenuti, rendendoli più coinvolgenti e visivamente accattivanti. Aspose.Slides per .NET fornisce una potente soluzione per creare geometrie personalizzate all'interno di forme, consentendoti di liberarti dai progetti convenzionali. Questo tutorial ti guiderà attraverso il processo di creazione di geometria personalizzata in GeometryShape utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -94,3 +98,9 @@ Sì, Aspose.Slides supporta vari linguaggi di programmazione, ma questo tutorial
  Cerca assistenza e interagisci con la comunità presso il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Dove posso acquistare Aspose.Slides per .NET?
  È possibile acquistare Aspose.Slides per .NET[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

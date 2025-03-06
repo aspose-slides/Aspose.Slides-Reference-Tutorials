@@ -3,10 +3,14 @@ title: Automatikus kördiagram szeletszínek beállítása a Java diákban
 linktitle: Automatikus kördiagram szeletszínek beállítása a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre dinamikus kördiagramokat automatikus szeletszínekkel Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
-type: docs
 weight: 24
 url: /hu/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés az automatikus kördiagram szeletszínek beállításába a Java diákban
 
@@ -198,3 +202,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Szükség szerint módosíthatja a betűméretet, a vastagságot és a dőlt stílust.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

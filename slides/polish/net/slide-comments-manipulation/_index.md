@@ -3,10 +3,14 @@ title: Manipulacja komentarzami na slajdach
 linktitle: Manipulacja komentarzami na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Popraw swoje umiejętności manipulowania slajdami dzięki samouczkom Aspose.Slides na temat manipulacji komentarzami do slajdów. Dowiedz się, jak programowo dodawać, edytować i zarządzać komentarzami w prezentacjach programu PowerPoint przy użyciu platformy .NET.
-type: docs
 weight: 12
 url: /pl/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Wstęp
 
@@ -27,3 +31,9 @@ Dowiedz się, jak ulepszyć swoje prezentacje za pomocą elementów interaktywny
 Dodaj głębię i interakcję do swoich prezentacji dzięki Aspose.Slides API. Dowiedz się, jak łatwo zintegrować komentarze ze slajdami za pomocą platformy .NET. Zwiększ zaangażowanie i zachwyć odbiorców.
 ### [Nowoczesne zarządzanie komentarzami](./modern-comments/)
 Ulepsz procesy współpracy i przesyłania opinii dzięki nowoczesnemu zarządzaniu komentarzami za pomocą Aspose.Slides. Dowiedz się, jak usprawnić komunikację w prezentacjach i zmaksymalizować produktywność.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

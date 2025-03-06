@@ -3,10 +3,14 @@ title: Vormen vullen met afbeelding in PowerPoint
 linktitle: Vormen vullen met afbeelding in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen kunt vullen met afbeeldingen in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht moeiteloos.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Invoering
 PowerPoint-presentaties vereisen vaak visuele elementen zoals vormen gevuld met afbeeldingen om hun aantrekkingskracht te vergroten en informatie effectief over te brengen. Aspose.Slides voor Java biedt een krachtige set tools om deze taak naadloos uit te voeren. In deze zelfstudie leren we stap voor stap hoe u vormen met afbeeldingen kunt vullen met Aspose.Slides voor Java.
 ## Vereisten
@@ -80,3 +84,9 @@ U kunt het formaat van de afbeelding binnen de vorm wijzigen door de afmetingen 
 Aspose.Slides voor Java ondersteunt een breed scala aan afbeeldingsformaten, waaronder onder meer JPEG, PNG, GIF, BMP en TIFF.
 ### Kan ik effecten toepassen op de gevulde vormen?
 Ja, Aspose.Slides voor Java biedt uitgebreide API's om verschillende effecten, zoals schaduwen, reflecties en 3D-rotaties, toe te passen op gevulde vormen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

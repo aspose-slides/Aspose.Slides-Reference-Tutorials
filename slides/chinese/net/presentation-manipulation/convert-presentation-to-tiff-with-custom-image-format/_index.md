@@ -3,10 +3,14 @@ title: 使用自定义图像格式将演示文稿转换为 TIFF
 linktitle: 使用自定义图像格式将演示文稿转换为 TIFF
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将演示文稿转换为具有自定义图像设置的 TIFF。带有代码示例的分步指南。
-type: docs
 weight: 26
 url: /zh/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## 使用 Aspose.Slides for .NET 将演示文稿转换为自定义图像格式的 TIFF
 
@@ -92,3 +96,9 @@ Aspose.Slides for .NET 是一个强大的库，它有助于在 .NET 应用程序
 ### Aspose.Slides for .NET 除了支持 TIFF 之外还支持其他输出格式吗？
 
 是的，除了 TIFF 之外，Aspose.Slides for .NET 还支持多种演示文稿转换输出格式，包括 PDF、JPEG、PNG、GIF 等。这让您可以灵活地选择最适合您特定用例的格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

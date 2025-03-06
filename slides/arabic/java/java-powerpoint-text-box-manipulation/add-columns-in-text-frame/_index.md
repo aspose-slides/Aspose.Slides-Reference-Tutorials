@@ -3,10 +3,14 @@ title: إضافة أعمدة في إطار النص باستخدام Aspose.Slid
 linktitle: إضافة أعمدة في إطار النص باستخدام Aspose.Slides لـ Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة أعمدة في إطارات النص باستخدام Aspose.Slides for Java لتحسين عروض PowerPoint التقديمية. دليلنا خطوة بخطوة يبسط العملية.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع إطارات النص لإضافة أعمدة باستخدام Aspose.Slides لـ Java. Aspose.Slides هي مكتبة قوية تمكن مطوري Java من إنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً. تعمل إضافة أعمدة إلى إطارات النص على تحسين المظهر المرئي وتنظيم النص داخل الشرائح، مما يجعل العروض التقديمية أكثر جاذبية وأسهل في القراءة.
 ## المتطلبات الأساسية
@@ -81,3 +85,9 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
  الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Slides لـ Java؟
  يمكنك طلب الدعم من المجتمع[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

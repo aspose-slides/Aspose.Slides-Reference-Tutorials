@@ -3,10 +3,14 @@ title: Aspose.Slides - Tworzenie kształtów grupowych w .NET
 linktitle: Tworzenie kształtów grupowych na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć kształty grupowe w programie PowerPoint za pomocą Aspose.Slides dla platformy .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać atrakcyjne wizualnie prezentacje.
-type: docs
 weight: 11
 url: /pl/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 Jeśli chcesz poprawić atrakcyjność wizualną slajdów prezentacji i efektywniej organizować zawartość, włączenie kształtów grupowych jest potężnym rozwiązaniem. Aspose.Slides dla .NET zapewnia płynny sposób tworzenia i manipulowania kształtami grup w prezentacjach programu PowerPoint. W tym samouczku omówimy proces tworzenia kształtów grupowych za pomocą Aspose.Slides, dzieląc go na łatwe do wykonania kroki.
 ## Warunki wstępne
@@ -98,3 +102,10 @@ Odwiedź Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) za wsparcie 
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić pełną licencję na Aspose.Slides?
  Licencję możesz kupić na stronie[strona zakupu](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

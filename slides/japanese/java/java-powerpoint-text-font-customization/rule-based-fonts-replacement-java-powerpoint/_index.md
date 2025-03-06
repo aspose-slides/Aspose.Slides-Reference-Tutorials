@@ -3,10 +3,14 @@ title: Java PowerPoint でのルールベースのフォント置換
 linktitle: Java PowerPoint でのルールベースのフォント置換
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint プレゼンテーションのフォント置換を自動化する方法を学びます。アクセシビリティと一貫性を簡単に強化できます。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 導入
 Java ベースの PowerPoint 自動化の分野では、プレゼンテーション全体の一貫性とアクセシビリティを確保するために、フォントの効果的な管理が重要です。Aspose.Slides for Java は、フォントの置換をシームレスに処理する強力なツールを提供し、PowerPoint ファイルの信頼性と視覚的な魅力を高めます。このチュートリアルでは、Aspose.Slides for Java を使用してルールベースのフォント置換のプロセスを詳しく説明し、開発者がフォント管理を簡単に自動化できるようにします。
 ## 前提条件
@@ -77,3 +81,9 @@ Aspose.Slides は、置換ルールや書式調整など、PowerPoint プレゼ�
 はい、Aspose.Slides は Java アプリケーションを強力にサポートし、PowerPoint ファイルのシームレスな統合と操作を可能にします。
 ### Aspose.Slides のその他のリソースやサポートはどこで見つかりますか?
 追加のリソース、ドキュメント、サポートについては、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

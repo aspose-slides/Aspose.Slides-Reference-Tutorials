@@ -3,10 +3,14 @@ title: Diák konvertálása PDF-be a Java Slides jegyzeteivel
 linktitle: Diák konvertálása PDF-be a Java Slides jegyzeteivel
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat PowerPoint diákat PDF-be jegyzetekkel Java nyelven az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató Java fejlesztőknek. Javítsa a prezentáció megosztását.
-type: docs
 weight: 19
 url: /hu/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a diák PDF formátumba konvertálásához a jegyzetekkel Java nyelven
 
@@ -124,3 +128,9 @@ Biztosan! A prezentáció diákjait végigpörgetheti, és az új prezentációb
 ### Hol találok további dokumentációt az Aspose.Slides for Java-hoz?
 
  Az Aspose.Slides for Java részletes dokumentációját a következő oldalon találja:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

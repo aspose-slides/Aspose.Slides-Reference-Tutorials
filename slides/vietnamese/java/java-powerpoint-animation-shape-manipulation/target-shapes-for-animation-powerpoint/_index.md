@@ -3,10 +3,14 @@ title: Hình dạng mục tiêu cho hoạt ảnh trong PowerPoint
 linktitle: Hình dạng mục tiêu cho hoạt ảnh trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hiệu ứng động cho các hình dạng cụ thể trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tạo các slide hấp dẫn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Giới thiệu
 Trong thế giới của những bài thuyết trình sinh động, hình ảnh động đóng một vai trò quan trọng trong việc thu hút khán giả và truyền tải thông tin một cách hiệu quả. Aspose.Slides dành cho Java trao quyền cho các nhà phát triển tạo các bản trình bày PowerPoint hấp dẫn với các hình ảnh động phức tạp được điều chỉnh theo các hình dạng cụ thể. Hướng dẫn này sẽ hướng dẫn bạn quy trình nhắm mục tiêu các hình dạng cho hoạt ảnh bằng Aspose.Slides cho Java, đảm bảo rằng bản trình bày của bạn nổi bật với các chuyển tiếp linh hoạt và hoạt ảnh chính xác.
 ## Điều kiện tiên quyết
@@ -62,3 +66,9 @@ Có, Aspose.Slides for Java cung cấp các tính năng mở rộng để tạo 
  Bạn có thể có được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Slides cho Java ở đâu?
  Bạn có thể mua Aspose.Slides cho Java từ trang web[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

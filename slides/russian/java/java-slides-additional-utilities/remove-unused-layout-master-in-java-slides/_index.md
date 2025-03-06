@@ -3,10 +3,14 @@ title: Удалить неиспользуемый мастер макета в 
 linktitle: Удалить неиспользуемый мастер макета в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Удалите неиспользуемые шаблоны макетов с помощью Aspose.Slides. Пошаговое руководство и код. Повысьте эффективность презентации.
-type: docs
 weight: 10
 url: /ru/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Введение в удаление неиспользуемого мастера макета в слайдах Java
 
@@ -123,3 +127,9 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### Где я могу получить доступ к исходному коду, используемому в этой статье?
 
 Исходный код, используемый в этой статье, можно найти во фрагментах кода, представленных на каждом этапе. Просто скопируйте и вставьте код в свой Java-проект, чтобы удалить неиспользуемые шаблоны макетов из ваших презентаций.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

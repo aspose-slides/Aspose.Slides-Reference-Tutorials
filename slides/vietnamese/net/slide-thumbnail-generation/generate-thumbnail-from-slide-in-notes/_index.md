@@ -3,10 +3,14 @@ title: Tạo hình thu nhỏ từ slide trong ghi chú
 linktitle: Tạo hình thu nhỏ từ slide trong ghi chú
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình thu nhỏ từ các trang chiếu trong phần ghi chú của bản trình bày của bạn bằng Aspose.Slides for .NET. Nâng cao nội dung hình ảnh của bạn!
-type: docs
 weight: 12
 url: /vi/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Trong thế giới thuyết trình hiện đại, nội dung trực quan là vua. Tạo các slide hấp dẫn là điều cần thiết để giao tiếp hiệu quả. Một cách để cải thiện bản trình bày của bạn là tạo hình thu nhỏ từ các trang chiếu, đặc biệt khi bạn muốn nhấn mạnh các chi tiết cụ thể hoặc chia sẻ cái nhìn tổng quan. Aspose.Slides for .NET là một công cụ mạnh mẽ có thể giúp bạn đạt được điều này một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ từ các trang chiếu trong phần ghi chú của bản trình bày bằng Aspose.Slides cho .NET.
 
@@ -114,3 +118,9 @@ Tuyệt đối! Aspose.Slides for .NET cung cấp các tùy chọn để tùy ch
 
 ### Tôi có thể nhận hỗ trợ hoặc trợ giúp thêm với Aspose.Slides cho .NET ở đâu?
  Bạn có thể tìm trợ giúp và tham gia với cộng đồng Aspose tại[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

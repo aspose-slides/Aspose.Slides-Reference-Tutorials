@@ -3,10 +3,14 @@ title: Utwórz miniaturę notatki podrzędnej SmartArt
 linktitle: Utwórz miniaturę notatki podrzędnej SmartArt
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć miniatury notatek podrzędnych SmartArt w Javie za pomocą Aspose.Slides, bez wysiłku ulepszając swoje prezentacje w programie PowerPoint.
-type: docs
 weight: 15
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wstęp
 W tym samouczku omówimy, jak tworzyć miniatury notatek podrzędnych SmartArt w Javie przy użyciu Aspose.Slides. Aspose.Slides to potężny interfejs API języka Java, który umożliwia programistom programową pracę z prezentacjami programu PowerPoint, umożliwiając im łatwe tworzenie, modyfikowanie i manipulowanie slajdami.
 ## Warunki wstępne
@@ -70,3 +74,9 @@ Tak, Aspose.Slides został zaprojektowany do wydajnej i niezawodnej obsługi zad
 Z pewnością! Aspose.Slides zapewnia kompleksowe wsparcie w tworzeniu i manipulowaniu diagramami SmartArt o różnym stopniu złożoności.
 ### Czy Aspose.Slides oferuje wsparcie techniczne dla programistów?
  Tak, Aspose.Slides zapewnia dedykowane wsparcie techniczne dla programistów za pośrednictwem ich[forum](https://forum.aspose.com/c/slides/11) i inne kanały.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

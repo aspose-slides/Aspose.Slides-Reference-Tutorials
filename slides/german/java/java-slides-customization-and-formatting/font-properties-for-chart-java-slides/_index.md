@@ -3,10 +3,14 @@ title: Schrifteigenschaften für Diagramme in Java-Folien
 linktitle: Schrifteigenschaften für Diagramme in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie die Diagrammschrifteigenschaften in Java-Folien mit Aspose.Slides für Java. Passen Sie Schriftgröße, -stil und -farbe für wirkungsvolle Präsentationen an.
-type: docs
 weight: 11
 url: /de/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Einführung in die Schrifteigenschaften für Diagramme in Java-Folien
 
@@ -102,3 +106,9 @@ In diesem Tutorial haben Sie gelernt, wie Sie die Schrifteigenschaften für ein 
 ### Wie passe ich die Schrifteigenschaften für bestimmte Diagrammelemente an?
 
 Um Schrifteigenschaften für bestimmte Diagrammelemente wie Achsenbeschriftungen oder Legendentext anzupassen, können Sie auf diese Elemente zugreifen und ihre Schrifteigenschaften mit ähnlichen Methoden wie oben gezeigt festlegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

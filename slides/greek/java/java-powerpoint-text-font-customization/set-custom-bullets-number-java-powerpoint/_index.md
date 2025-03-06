@@ -3,10 +3,14 @@ title: Ορισμός προσαρμοσμένου αριθμού κουκκίδ
 linktitle: Ορισμός προσαρμοσμένου αριθμού κουκκίδων στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε προσαρμοσμένους αριθμούς κουκκίδων στο Java PowerPoint με το Aspose.Slides, βελτιώνοντας τη σαφήνεια και τη δομή της παρουσίασης μέσω προγραμματισμού.
-type: docs
 weight: 15
 url: /el/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Στη σημερινή ψηφιακή εποχή, η δημιουργία δυναμικών παρουσιάσεων είναι ζωτικής σημασίας για την αποτελεσματική επικοινωνία ιδεών και δεδομένων. Το Aspose.Slides για Java παρέχει μια ισχυρή εργαλειοθήκη για τον χειρισμό παρουσιάσεων του PowerPoint μέσω προγραμματισμού, προσφέροντας εκτεταμένες δυνατότητες για τη βελτίωση της διαδικασίας δημιουργίας παρουσιάσεων. Αυτό το άρθρο εξετάζει τον ορισμό προσαρμοσμένων αριθμών κουκκίδων σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Είτε είστε έμπειρος προγραμματιστής είτε νέος, αυτό το σεμινάριο θα σας καθοδηγήσει βήμα προς βήμα στη διαδικασία, διασφαλίζοντας ότι μπορείτε να αξιοποιήσετε αποτελεσματικά αυτήν τη δυνατότητα.
 ## Προαπαιτούμενα
@@ -82,3 +86,9 @@ presentation.save(dataDir + "SetCustomBulletsNumber-slides.pptx", SaveFormat.Ppt
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να αγοράσω το Aspose.Slides;
  Μπορείτε να αγοράσετε Aspose.Slides από[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

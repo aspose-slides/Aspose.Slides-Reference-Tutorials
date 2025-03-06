@@ -3,10 +3,14 @@ title: Απόκρυψη πληροφοριών από το γράφημα σε �
 linktitle: Απόκρυψη πληροφοριών από το γράφημα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκρύπτετε στοιχεία γραφήματος σε διαφάνειες Java με το Aspose.Slides για Java. Προσαρμόστε τις παρουσιάσεις για σαφήνεια και αισθητική με βήμα προς βήμα καθοδήγηση και πηγαίο κώδικα.
-type: docs
 weight: 13
 url: /el/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή στην Απόκρυψη πληροφοριών από το γράφημα σε διαφάνειες Java
 
@@ -172,3 +176,9 @@ finally
 ### Πώς μπορώ να αλλάξω τον τίτλο του γραφήματος και τις ετικέτες αξόνων μέσω προγραμματισμού;
 
 Μπορείτε να ορίσετε τον τίτλο και τις ετικέτες του γραφήματος και των αξόνων αποκτώντας πρόσβαση στις αντίστοιχες ιδιότητες τους και ορίζοντας το επιθυμητό κείμενο και μορφοποίηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

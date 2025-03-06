@@ -3,10 +3,14 @@ title: Mentés csak olvashatóként a Java Slides alkalmazásban
 linktitle: Mentés csak olvashatóként a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan mentheti a PowerPoint-prezentációkat csak olvashatóként Java nyelven az Aspose.Slides segítségével. Védje meg tartalmait lépésenkénti utasításokkal és kódpéldákkal.
-type: docs
 weight: 11
 url: /hu/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Bevezetés a csak olvashatóként történő mentéshez Java-diákban az Aspose.Slides for Java használatával
 
@@ -127,3 +131,9 @@ Ha elfelejti az írásvédelmi jelszót, nincs beépített módja annak helyreá
 ### Megváltoztathatom a csak olvasható jelszót a beállítás után?
 
  Igen, a beállítás után módosíthatja a csak olvasható jelszót. Használja a`setReadProtection(String newPassword)` módszert az új jelszóval a csak olvasható védelmi jelszó frissítéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

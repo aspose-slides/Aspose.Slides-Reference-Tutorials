@@ -3,10 +3,14 @@ title: Java를 사용하여 기본 일반 글꼴로 PowerPoint 저장
 linktitle: Java를 사용하여 기본 일반 글꼴로 PowerPoint 저장
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하는 방법을 알아보세요. 단계별 튜토리얼을 통해 Java PowerPoint 처리를 마스터하세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-text-font-customization/save-powerpoint-default-regular-font-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 소개
 Java 개발 영역에서 프로그래밍 방식으로 PowerPoint 프레젠테이션을 만들고 조작하면 생산성과 사용자 정의 옵션이 크게 향상될 수 있습니다. Aspose.Slides for Java는 개발자가 PowerPoint 파일을 효율적으로 처리할 수 있도록 지원하는 강력한 라이브러리로, 간단한 수정부터 복잡한 프레젠테이션까지 포괄적인 기능 세트를 제공합니다.
 ## 전제 조건
@@ -69,3 +73,9 @@ Aspose.Slides for Java에는 호환성을 위해 JDK 1.8 이상이 필요합니�
  예, 커뮤니티 지원을 받을 수 있습니다[여기](https://forum.aspose.com/c/slides/11).
 ### Java용 Aspose.Slides를 무료로 사용해 볼 수 있나요?
  예, 무료 평가판을 다운로드하세요[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

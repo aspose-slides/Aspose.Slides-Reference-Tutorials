@@ -3,10 +3,14 @@ title: Set Text Font Properties in PowerPoint with Java
 linktitle: Set Text Font Properties in PowerPoint with Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set text font properties in PowerPoint using Aspose.Slides for Java. Easy, step-by-step guide for Java developers.#Learn how to manipulate PowerPoint text font properties using Aspose.Slides for Java with this step-by-step tutorial for Java developers.
-type: docs
 weight: 18
 url: /java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In this tutorial, you'll learn how to use Aspose.Slides for Java to set various text font properties in a PowerPoint presentation programmatically. We'll cover setting font type, style (bold, italic), underline, size, and color for text in slides.
 ## Prerequisites
@@ -85,3 +89,10 @@ Yes, you can use Aspose.Slides to work with PowerPoint templates.
 Yes, Aspose.Slides allows exporting presentations to various formats including PDF.
 ### Where can I find more help and support for Aspose.Slides?
 Visit [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) for community support and guidance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

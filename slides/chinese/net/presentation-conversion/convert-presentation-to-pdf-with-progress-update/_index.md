@@ -3,10 +3,14 @@ title: 将演示文稿转换为 PDF 并更新进度
 linktitle: 将演示文稿转换为 PDF 并更新进度
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将演示文稿转换为 PDF 并更新进度。包含源代码的分步指南。
-type: docs
 weight: 29
 url: /zh/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 在当今的数字时代，将演示文稿转换为 PDF 是一项常见的要求，尤其是在商业和教育领域。Aspose.Slides for .NET 提供了一个强大的解决方案，可以轻松完成此任务。在本分步教程中，我们将指导您完成将演示文稿转换为 PDF 的过程，同时跟踪转换进度。
 
@@ -85,3 +89,9 @@ class ExportProgressHandler : IProgressCallback
 
 ### 问：在哪里可以获得 Aspose.Slides for .NET 的支持？
 答：您可以在以下位置找到支持和社区讨论[https://forum.aspose.com/](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

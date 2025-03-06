@@ -3,10 +3,14 @@ title: Změna tvaru prezentačních snímků pomocí Aspose.Slides pro .NET
 linktitle: Změna pořadí tvarů v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přetvářet snímky prezentace pomocí Aspose.Slides pro .NET. Chcete-li změnit pořadí tvarů a zlepšit vizuální přitažlivost, postupujte podle tohoto podrobného průvodce.
-type: docs
 weight: 26
 url: /cs/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Úvod
 Vytváření vizuálně přitažlivých prezentačních snímků je zásadním aspektem efektivní komunikace. Aspose.Slides for .NET umožňuje vývojářům manipulovat se snímky programově a nabízí širokou škálu funkcí. V tomto tutoriálu se ponoříme do procesu změny pořadí tvarů na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -70,3 +74,9 @@ Odpověď: Ano, Aspose.Slides for .NET je kompatibilní s prostředím Windows i
  A: Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) získat podporu a zapojit se do komunity.
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Slides pro .NET?
  A: Můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

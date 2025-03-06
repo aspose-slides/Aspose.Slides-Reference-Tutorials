@@ -3,10 +3,14 @@ title: Manipolazione delle diapositive delle note
 linktitle: Manipolazione delle diapositive delle note
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue presentazioni con precisione! Esplora il tutorial di Aspose.Slides sulla manipolazione delle diapositive delle note in .NET. Impara ad aggiungere, modificare e gestire le note del relatore in modo programmatico.
-type: docs
 weight: 16
 url: /it/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## introduzione
 
 Benvenuti nel tutorial completo di Aspose.Slides sulla manipolazione delle diapositive di Notes per gli sviluppatori .NET. In questo tutorial, approfondiremo l'affascinante mondo delle note del relatore e come manipolarle a livello di codice utilizzando la libreria Aspose.Slides. Le note del relatore svolgono un ruolo fondamentale nelle presentazioni, offrendo preziosi spunti al relatore e migliorando l'impatto complessivo del contenuto. Al termine di questo tutorial avrai una solida conoscenza di come aggiungere, modificare e gestire in modo efficace le note del relatore nelle presentazioni di PowerPoint.
@@ -39,3 +43,9 @@ Scopri come personalizzare intestazione e piè di pagina nelle diapositive delle
 Scopri come rimuovere le note da una diapositiva specifica nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo con il codice sorgente completo per manipolare senza problemi le tue diapositive in modo programmatico.
 ### [Rimuovi le note da tutte le diapositive](./remove-notes-from-all-slides/)
 Scopri come rimuovere le note da tutte le diapositive nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Segui questa guida passo passo con esempi di codice sorgente completi per raggiungere facilmente il tuo obiettivo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

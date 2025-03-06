@@ -3,10 +3,14 @@ title: Konvertera till PDF med dolda bilder i Java Slides
 linktitle: Konvertera till PDF med dolda bilder i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du konverterar PowerPoint-presentationer till PDF med dolda bilder med Aspose.Slides för Java. Följ vår steg-för-steg-guide med källkod för sömlös PDF-generering.
-type: docs
 weight: 27
 url: /sv/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Introduktion till att konvertera PowerPoint-presentationer till PDF med dolda bilder med Aspose.Slides för Java
 
@@ -115,3 +119,9 @@ slide.setHidden(false);
 ### Hur laddar jag ner Aspose.Slides för Java?
 
  Du kan ladda ner Aspose.Slides för Java från Asposes webbplats. Besök[Aspose.Slides för Java nedladdningssida](https://releases.aspose.com/slides/java/) för att få den senaste versionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

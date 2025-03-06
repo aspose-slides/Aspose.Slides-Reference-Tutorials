@@ -3,10 +3,14 @@ title: Λάβετε πλάτος και ύψος από την περιοχή γ
 linktitle: Λάβετε πλάτος και ύψος από την περιοχή γραφήματος στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε τις διαστάσεις της περιοχής γραφήματος σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις δεξιότητές σας στον αυτοματισμό του PowerPoint.
-type: docs
 weight: 21
 url: /el/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Εισαγωγή
 
@@ -109,3 +113,10 @@ finally
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε εκτενή τεκμηρίωση και παραδείγματα στη σελίδα τεκμηρίωσης Aspose.Slides for Java[εδώ](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

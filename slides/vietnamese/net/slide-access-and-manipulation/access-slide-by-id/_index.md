@@ -3,10 +3,14 @@ title: Truy cập Slide bằng Mã định danh duy nhất
 linktitle: Truy cập Slide bằng Mã định danh duy nhất
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách truy cập các trang chiếu PowerPoint bằng số nhận dạng duy nhất bằng Aspose.Slides cho .NET. Hướng dẫn từng bước này bao gồm tải bản trình bày, truy cập các trang chiếu theo chỉ mục hoặc ID, sửa đổi nội dung và lưu các thay đổi.
-type: docs
 weight: 11
 url: /vi/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -112,3 +116,9 @@ Tuyệt đối. Cho dù bạn đang làm việc trên một bản trình bày đ
 ### Tôi có thể tìm tài liệu và tài nguyên chi tiết hơn ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện, mẫu mã, hướng dẫn và nhiều nội dung khác trên Aspose.Slides for .NET trong[tài liệu](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Aspose.Slides - Creating Group Shapes in .NET
 linktitle: Creating Group Shapes in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to create group shapes in PowerPoint with Aspose.Slides for .NET. Follow our step-by-step guide for visually appealing presentations.
-type: docs
 weight: 11
 url: /net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 If you're looking to enhance the visual appeal of your presentation slides and organize content more efficiently, incorporating group shapes is a powerful solution. Aspose.Slides for .NET provides a seamless way to create and manipulate group shapes in your PowerPoint presentations. In this tutorial, we'll walk through the process of creating group shapes using Aspose.Slides, breaking it down into easy-to-follow steps.
 ## Prerequisites
@@ -99,3 +103,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 ### Where can I purchase a full license for Aspose.Slides?
 You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

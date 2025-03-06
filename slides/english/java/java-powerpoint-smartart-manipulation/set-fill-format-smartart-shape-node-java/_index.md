@@ -3,10 +3,14 @@ title: Set Fill Format for SmartArt Shape Node in Java
 linktitle: Set Fill Format for SmartArt Shape Node in Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set fill format for SmartArt shape nodes in Java using Aspose.Slides. Enhance your presentations with vibrant colors and captivating visuals.
-type: docs
 weight: 12
 url: /java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 In the dynamic landscape of digital content creation, Aspose.Slides for Java stands out as a powerful tool for crafting visually stunning presentations with ease and efficiency. Whether you're a seasoned developer or just starting out, mastering the art of manipulating shapes within slides is crucial for creating captivating presentations that leave a lasting impression on your audience.
 ## Prerequisites
@@ -65,3 +69,10 @@ You can find extensive support resources, including forums and documentation, on
 Absolutely! Aspose.Slides for Java provides a wide range of customization options to tailor the appearance of SmartArt shapes according to your preferences.
 ### Is Aspose.Slides for Java suitable for both beginners and experienced developers?
 Yes, Aspose.Slides for Java caters to developers of all skill levels, offering intuitive APIs and comprehensive documentation to facilitate easy integration and usage.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: Προσθήκη πλαισίων αντικειμένων OLE στην �
 linktitle: Προσθήκη πλαισίων αντικειμένων OLE στην παρουσίαση με το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώνετε τις παρουσιάσεις PowerPoint με δυναμικό περιεχόμενο! Ακολουθήστε τον οδηγό βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για .NET. Ενισχύστε τη δέσμευση τώρα!
-type: docs
 weight: 15
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία προσθήκης πλαισίων αντικειμένων OLE (Σύνδεση και ενσωμάτωση αντικειμένων) σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία PowerPoint μέσω προγραμματισμού. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να ενσωματώσετε απρόσκοπτα αντικείμενα OLE στις διαφάνειες της παρουσίασής σας, βελτιώνοντας τα αρχεία σας PowerPoint με δυναμικό και διαδραστικό περιεχόμενο.
 ## Προαπαιτούμενα
@@ -84,3 +88,9 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 Α: Οπωσδήποτε, μπορείτε να προσαρμόσετε το μέγεθος, τη θέση και άλλες ιδιότητες του πλαισίου αντικειμένου OLE σύμφωνα με τις προτιμήσεις σας.
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια εάν αντιμετωπίσω προκλήσεις κατά την εφαρμογή;
  Α: Επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και καθοδήγηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

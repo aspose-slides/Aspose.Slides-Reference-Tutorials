@@ -3,10 +3,14 @@ title: Chuyển đổi sang PDF với Cập nhật tiến độ trong Java Slide
 linktitle: Chuyển đổi sang PDF với Cập nhật tiến độ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuyển đổi PowerPoint sang PDF với Cập nhật tiến độ trong Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn và theo dõi tiến trình để chuyển đổi liền mạch.
-type: docs
 weight: 36
 url: /vi/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Giới thiệu về Chuyển đổi PowerPoint sang PDF với Cập nhật tiến độ trong Java bằng Aspose.Slides cho Java
 
@@ -118,3 +122,10 @@ Có, Aspose.Slides for Java cung cấp chức năng mở rộng để làm việ
 ### Làm cách nào tôi có thể tùy chỉnh các tùy chọn chuyển đổi PDF?
 
  Bạn có thể tùy chỉnh các tùy chọn chuyển đổi PDF bằng cách sửa đổi`PdfOptions` đối tượng trước khi gọi`presentation.save` phương pháp. Điều này bao gồm các thuộc tính cài đặt như kích thước trang, chất lượng, v.v.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

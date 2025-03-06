@@ -3,10 +3,14 @@ title: Obsługa obrazów slajdów Java przy użyciu Aspose.Slides dla języka Ja
 linktitle: Obsługa obrazów slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak obsługiwać obrazy na slajdach Java, korzystając z samouczków Aspose.Slides for Java. Zapoznaj się ze wskazówkami krok po kroku dotyczącymi wydajnego zarządzania obrazami.
-type: docs
 weight: 23
 url: /pl/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 Czy jesteś gotowy, aby wzbogacić swoje slajdy Java o wspaniałe obrazy? W tym artykule zagłębimy się w świat obsługi obrazów, korzystając z tutoriali Aspose.Slides for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz swoją przygodę, ten obszerny przewodnik przeprowadzi Cię przez proces krok po kroku.
 
@@ -42,3 +46,9 @@ Dowiedz się, jak dodawać obrazy SVG do slajdów Java za pomocą Aspose.Slides 
 Dowiedz się, jak dodawać wektorowe obrazy SVG z zasobów zewnętrznych do slajdów Java za pomocą Aspose.Slides. Twórz oszałamiające prezentacje z wysokiej jakości efektami wizualnymi.
 ### [Konwertuj obiekt obrazu SVG na grupę kształtów w slajdach Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Dowiedz się, jak konwertować obrazy SVG na grupę kształtów w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,14 @@ title: 在 Java Slides 中使用另一个演示文稿作为模板更新演示文
 linktitle: 在 Java Slides 中使用另一个演示文稿作为模板更新演示文稿属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 通过更新的元数据增强 PowerPoint 演示文稿。了解如何使用 Java Slides 中的模板更新作者、标题和关键字等属性。
-type: docs
 weight: 14
 url: /zh/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Java Slides 中使用另一个演示文稿作为模板更新演示文稿属性的简介
 
@@ -122,3 +126,9 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### 可以更新的演示文稿类型是否有限制？
 
 不，您可以更新各种格式的演示文稿的属性，包括 PPTX、ODP 和 PPT。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

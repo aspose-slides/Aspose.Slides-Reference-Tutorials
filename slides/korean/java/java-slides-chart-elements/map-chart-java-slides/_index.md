@@ -3,10 +3,14 @@ title: Java 슬라이드의 지도 차트
 linktitle: Java 슬라이드의 지도 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 멋진 지도 차트를 만들어 보세요. Java 개발자를 위한 단계별 가이드 및 소스 코드입니다.
-type: docs
 weight: 15
 url: /ko/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Aspose.Slides for Java를 사용하여 Java 슬라이드의 지도 차트 소개
 
@@ -131,3 +135,9 @@ try {
 ### Java용 Aspose.Slides를 내 프로젝트에 어떻게 통합하나요?
 
  다음에서 라이브러리를 다운로드하세요.[여기](https://releases.aspose.com/slides/java/) 프로젝트의 클래스 경로에 추가하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

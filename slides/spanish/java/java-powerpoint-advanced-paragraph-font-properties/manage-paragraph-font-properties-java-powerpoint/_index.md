@@ -3,10 +3,14 @@ title: Administrar propiedades de fuentes de párrafo en Java PowerPoint
 linktitle: Administrar propiedades de fuentes de párrafo en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a administrar y personalizar las propiedades de fuente de párrafo en presentaciones de PowerPoint Java usando Aspose.Slides con esta guía paso a paso fácil de seguir.
-type: docs
 weight: 10
 url: /es/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introducción
 Crear presentaciones de PowerPoint visualmente atractivas es fundamental para una comunicación eficaz. Ya sea que estés preparando una propuesta de negocios o un proyecto escolar, las propiedades de fuente adecuadas pueden hacer que tus diapositivas sean más atractivas. Este tutorial lo guiará en la administración de las propiedades de fuentes de párrafos usando Aspose.Slides para Java. ¿Listo para sumergirte? ¡Empecemos!
 ## Requisitos previos
@@ -113,3 +117,9 @@ Sí, cada parte de un párrafo puede tener sus propias propiedades de fuente.
 Sí, Aspose.Slides para Java admite el relleno degradado para texto.
 ### ¿Qué pasa si quiero deshacer los cambios?
 Vuelva a cargar la presentación original o mantenga una copia de seguridad antes de realizar cambios.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

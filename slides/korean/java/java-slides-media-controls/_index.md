@@ -3,10 +3,14 @@ title: Java용 Aspose.Slides를 사용한 미디어 컨트롤
 linktitle: Java 슬라이드 미디어 컨트롤
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java 튜토리얼을 사용하여 Java 슬라이드에서 미디어 컨트롤을 구현하는 방법을 알아보세요. 오디오와 비디오를 원활하게 사용하여 프레젠테이션을 향상시키세요.
-type: docs
 weight: 22
 url: /ko/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 
 오늘날 디지털 시대의 프레젠테이션은 단순히 텍스트와 이미지가 포함된 정적인 슬라이드가 아닙니다. 이는 청중의 관심을 끌고 사로잡는 역동적이고 상호 작용적인 경험으로 발전했습니다. 프레젠테이션에 새로운 차원을 추가하려는 Java 개발자라면 잘 찾아오셨습니다. 이 기사에서는 Aspose.Slides for Java 튜토리얼을 사용하여 Java 슬라이드에서 미디어 컨트롤을 구현하는 방법을 살펴보겠습니다.
 
@@ -51,3 +55,9 @@ Java용 Aspose.Slides를 사용하여 마스터 Java 슬라이드 중단을 처�
 Aspose.Slides for Java를 사용하여 Java 슬라이드의 프레젠테이션 속성을 업데이트하는 방법을 알아보세요. 영향력 있는 프레젠테이션을 위해 작성자, 제목 등을 맞춤설정하세요.
 ### [Java 슬라이드에서 다른 프리젠테이션을 템플릿으로 사용하여 프리젠테이션 속성 업데이트](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Aspose.Slides for Java를 사용하여 업데이트된 메타데이터로 PowerPoint 프레젠테이션을 향상하세요. Java Slides의 템플릿을 사용하여 작성자, 제목, 키워드와 같은 속성을 업데이트하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
